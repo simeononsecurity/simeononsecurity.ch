@@ -1,0 +1,133 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kompleksowy Przewodnik on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kompleksowy-przewodnik//img/banner.png</url>
+      <title>Kompleksowy Przewodnik on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kompleksowy-przewodnik/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kompleksowy-przewodnik/</link>
+
+    <description>Recent content in Kompleksowy Przewodnik on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kompleksowy-przewodnik/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalnie zwiększ bezpieczeństwo i prywatność: Hartowanie i usuwanie skutków awarii systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Utwardzanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Bezpieczeństwo systemu operacyjnego"
+            
+              , "System operacyjny Windows"
+            
+              , "Prywatność danych"
+            
+              , "Cyberprzestępca"
+            
+              , "Powierzchnia ataku"
+            
+              , "Podatności"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Mechanizmy uwierzytelniania"
+            
+              , "Niechciane oprogramowanie"
+            
+              , "Poprawa wydajności"
+            
+              , "Gromadzenie danych"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Oprogramowanie antywirusowe"
+            
+              , "Oprogramowanie Anti-Malware"
+            
+              , "Informacje wrażliwe"
+            
+              , "Kompleksowy przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bądź bezpieczny w sieci: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy...
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png" length="302341" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

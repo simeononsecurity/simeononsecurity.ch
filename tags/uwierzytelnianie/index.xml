@@ -1,0 +1,972 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uwierzytelnianie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/uwierzytelnianie//img/banner.png</url>
+      <title>Uwierzytelnianie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie/</link>
+
+    <description>Recent content in Uwierzytelnianie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/uwierzytelnianie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Załóżmy, że każde urządzenie jest już zagrożone: Wzmocnienie bezpieczeństwa cyfrowego w połączonym świecie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo urządzenia"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "cyberzagrożenia"
+            
+              , "hakowanie"
+            
+              , "kompromis urządzenia"
+            
+              , "ochrona danych"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "bezpieczeństwo danych osobowych"
+            
+              , "uwierzytelnianie"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "Prywatność w mediach społecznościowych"
+            
+              , "bezpieczna komunikacja"
+            
+              , "higiena urządzenia"
+            
+              , "kopia zapasowa danych"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "prywatność cyfrowa"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo w internecie"
+            
+              , "prywatność online"
+            
+              , "cyberobrona"
+            
+              , "odporność cybernetyczna"
+            
+              , "sposób myślenia o cyberbezpieczeństwie"
+            
+              , "środki bezpieczeństwa"
+            
+              , "Zapobieganie cyberzagrożeniom"
+            
+              , "strategie cyberbezpieczeństwa"
+            
+              , "prywatność danych"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/why-you-should-assume-every-device-you-touch-is-compromised/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego ważne jest, aby zakładać, że każde urządzenie jest już zagrożone i poznaj praktyczne środki zwiększające bezpieczeństwo cyfrowe w dzisiejszym połączonym świecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png" length="177946" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png" length="185817" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne środki ochrony danych: Ochrona firmy z zachowaniem maksymalnego bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/imeplementing-effective-data-protection-measures-for-maximum-security/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Strategie ochrony danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Środki bezpieczeństwa cybernetycznego"
+            
+              , "Prywatność danych"
+            
+              , "Przepisy dotyczące zgodności"
+            
+              , "Ocena ryzyka"
+            
+              , "Audyty bezpieczeństwa"
+            
+              , "Szkolenie pracowników"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "Długoterminowa ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/imeplementing-effective-data-protection-measures-for-maximum-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wdrożenie skutecznych środków ochrony danych ma kluczowe znaczenie dla zabezpieczenia firmy przed nieautoryzowanym dostępem i naruszeniami danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/implementing-effective-data-protection-measures-for-maximum-security.png" length="55125" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Konfiguracja tuneli Cloudflare: Usprawnij i zabezpiecz swój ruch sieciowy</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-setup-and-use-cloudflare-tunnels/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tunele Cloudflare"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wydajność strony internetowej"
+            
+              , "Serwer proxy"
+            
+              , "Ruch internetowy"
+            
+              , "Konfiguracja sieci"
+            
+              , "Ubuntu Server"
+            
+              , "Konto Cloudflare"
+            
+              , "Uwierzytelnianie"
+            
+              , "Tworzenie tunelu"
+            
+              , "Routing ruchu"
+            
+              , "Rekordy DNS"
+            
+              , "Bezpieczne połączenie"
+            
+              , "Hosting stron internetowych"
+            
+              , "Usługa proxy"
+            
+              , "Ochrona sieci"
+            
+              , "Optymalizacja wydajności"
+            
+              , "Integracja z Cloudflare"
+            
+              , "Konfiguracja serwera"
+            
+              , "Szyfrowanie ruchu"
+            
+              , "Zarządzanie ruchem sieciowym"
+            
+              , "Bezpieczny hosting"
+            
+              , "Bezpieczeństwo stron internetowych"
+            
+              , "Konfiguracja Ubuntu"
+            
+              , "Technologia tunelowania"
+            
+              , "Usługi Cloudflare"
+            
+              , "Wydajność sieci"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie ruchem"
+            
+              , "Cloudflare Proxy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-setup-and-use-cloudflare-tunnels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować tunele Cloudflare, aby usprawnić i chronić ruch sieciowy, zwiększając wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png" length="159983" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Blockchain dla bezpiecznego zarządzania tożsamością</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management/</link>
+        
+        <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "blockchain"
+            
+              , "zarządzanie tożsamością"
+            
+              , "uwierzytelnianie"
+            
+              , "zdecentralizowana tożsamość"
+            
+              , "uwierzytelnianie bez hasła"
+            
+              , "inteligentne kontrakty"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Kryptografia klucza prywatnego"
+            
+              , "niezmienne rekordy"
+            
+              , "system zdecentralizowany"
+            
+              , "pojedyncze logowanie"
+            
+              , "weryfikacja poświadczeń"
+            
+              , "skalowalność"
+            
+              , "prywatność"
+            
+              , "przyjęcie"
+            
+              , "tożsamość cyfrowa"
+            
+              , "technologia rozproszonego rejestru"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "technologia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego przewodnika dla początkujących dowiesz się, jak wykorzystać technologię blockchain do bezpiecznego uwierzytelniania i zarządzania tożsamością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png" length="300383" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie urządzeń IoT: Wyzwania i rozwiązania w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo"
+            
+              , "Internet rzeczy"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "inteligentne urządzenia"
+            
+              , "najlepsze praktyki"
+            
+              , "Ryzyko związane z IoT"
+            
+              , "uwierzytelnianie"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "monitorowanie"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "Wytyczne dotyczące bezpieczeństwa IoT"
+            
+              , "segmentacja sieci"
+            
+              , "krajobraz zagrożeń"
+            
+              , "podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna i odporna konfiguracja VPN dla korporacyjnych pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</link>
+        
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "praca zdalna"
+            
+              , "korporacyjna sieć VPN"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "protokoły tunelowania"
+            
+              , "Konfiguracja VPN"
+            
+              , "Serwer VPN"
+            
+              , "Bezpieczeństwo VPN"
+            
+              , "Konserwacja VPN"
+            
+              , "Monitorowanie VPN"
+            
+              , "Rozwiązanie VPN"
+            
+              , "uwierzytelnianie"
+            
+              , "bezpieczeństwo danych"
+            
+              , "prywatność"
+            
+              , "wydajność"
+            
+              , "skalowalność"
+            
+              , "kompatybilność"
+            
+              , "szkolenie pracowników"
+            
+              , "najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować bezpieczną i odporną sieć VPN dla zdalnych pracowników firmy, zapewniając bezpieczny dostęp do zasobów firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png" length="313028" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Segmentacja sieci: Jak poprawić bezpieczeństwo w Twojej organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "segmentacja sieci"
+            
+              , "poprawić bezpieczeństwo"
+            
+              , "zmniejszyć ryzyko"
+            
+              , "wydajność sieci"
+            
+              , "zarządzanie siecią"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "firewalle"
+            
+              , "kontrole dostępu"
+            
+              , "najmniejszy przywilej"
+            
+              , "uwierzytelnianie"
+            
+              , "testowanie"
+            
+              , "monitorowanie"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "naruszenia danych"
+            
+              , "architektura sieci"
+            
+              , "kompleksowe bezpieczeństwo"
+            
+              , "bezpieczeństwo warstwowe"
+            
+              , "podatności"
+            
+              , "cyberataki"
+            
+              , "szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png" length="260076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OWASP Top 10: Krytyczne zagrożenia bezpieczeństwa aplikacji internetowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/owasp-top-10/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP Top 10"
+            
+              , "Ataki typu injection"
+            
+              , "Uwierzytelnianie"
+            
+              , "Zarządzanie sesjami"
+            
+              , "Ataki XSS"
+            
+              , "Kontrola dostępu"
+            
+              , "Błędna konfiguracja zabezpieczeń"
+            
+              , "Pamięć kryptograficzna"
+            
+              , "Ochrona warstwy transportowej"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Komponenty innych firm"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/owasp-top-10/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o najbardziej krytycznych zagrożeniach bezpieczeństwa aplikacji internetowych z OWASP Top 10 i jak się przed nimi chronić
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

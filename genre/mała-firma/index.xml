@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mała Firma on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/ma%C5%82a-firma//img/banner.png</url>
+      <title>Mała Firma on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/ma%C5%82a-firma/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/ma%C5%82a-firma/</link>
+
+    <description>Recent content in Mała Firma on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/ma%C5%82a-firma/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Open Source"
+            
+              , "Wydajność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Self-hosted"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,198 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dostawcy Chmury on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dostawcy-chmury//img/banner.png</url>
+      <title>Dostawcy Chmury on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dostawcy-chmury/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dostawcy-chmury/</link>
+
+    <description>Recent content in Dostawcy Chmury on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dostawcy-chmury/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloud Security Showdown: AWS vs Azure vs Google Cloud Platform</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png" length="279590" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

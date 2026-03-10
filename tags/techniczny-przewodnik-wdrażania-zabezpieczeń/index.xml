@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techniczny Przewodnik Wdrażania Zabezpieczeń on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/techniczny-przewodnik-wdra%C5%BCania-zabezpiecze%C5%84//img/banner.png</url>
+      <title>Techniczny Przewodnik Wdrażania Zabezpieczeń on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/techniczny-przewodnik-wdra%C5%BCania-zabezpiecze%C5%84/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/techniczny-przewodnik-wdra%C5%BCania-zabezpiecze%C5%84/</link>
+
+    <description>Recent content in Techniczny Przewodnik Wdrażania Zabezpieczeń on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/techniczny-przewodnik-wdra%C5%BCania-zabezpiecze%C5%84/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Administracja Windows"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Automatyzacja IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity dowiedział się i znalazł dziś interesujące informacje**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity dowiedział się i odkrył dziś kilka interesujących rzeczy związanych z bezpieczeństwem systemu Windows i automatyzacją przy użyciu Ansible.&lt;/p&gt;
+&lt;p&gt;Po pierwsze, zidentyfikowano dwa nowe i zaktualizowane repozytoria. Repozytorium Windows_STIG_Ansible zapewnia kompletne rozwiązanie do konfigurowania systemów Windows w celu spełnienia wymagań Security Technical Implementation Guide (STIG) przy użyciu platformy automatyzacji Ansible. Repozytorium windows_stigs jest zbiorem ról Ansible do konfigurowania systemów Windows w celu spełnienia wymagań STIG i jest dostępne w Ansible Galaxy, centralnym repozytorium do udostępniania zawartości Ansible.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

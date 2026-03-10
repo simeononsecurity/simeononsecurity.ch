@@ -1,0 +1,216 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threat Intelligence on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/threat-intelligence//img/banner.png</url>
+      <title>Threat Intelligence on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/threat-intelligence/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/threat-intelligence/</link>
+
+    <description>Recent content in Threat Intelligence on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/threat-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Istotna rola Threat Intelligence w reagowaniu na incydenty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Threat Intelligence"
+            
+              , "Reagowanie na incydenty"
+            
+              , "Cybersecurity"
+            
+              , "Łagodzenie skutków"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Analiza danych"
+            
+              , "Systemy informacyjne"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ocena podatności"
+            
+              , "Zdolności wykrywania"
+            
+              , "Kontrole bezpieczeństwa"
+            
+              , "Wywiad strategiczny"
+            
+              , "Wywiad taktyczny"
+            
+              , "Wywiad operacyjny"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Pojawiające się trendy"
+            
+              , "Świadomość bezpieczeństwa"
+            
+              , "Informatyka śledcza"
+            
+              , "Cyberzagrożenia"
+            
+              , "Ciemna sieć"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-intelligence-in-incident-reponse-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wywiad o zagrożeniach zwiększa bezpieczeństwo cybernetyczne poprzez łagodzenie i reagowanie na cyberataki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png" length="509240" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SolarWinds Orion Atak na łańcuch dostaw: C2, Łagodzenie skutków i wskazówki ekspertów</title>
+        
+          <link>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</link>
+        
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SolarWinds"
+            
+              , "Łańcuch dostaw"
+            
+              , "C2"
+            
+              , "Dowodzenie i kontrola"
+            
+              , "Środki zaradcze"
+            
+              , "Poradnik"
+            
+              , "Threat Intelligence"
+            
+              , "DHS"
+            
+              , "FireEye"
+            
+              , "MSRC"
+            
+              , "Microsoft"
+            
+              , "BEZ"
+            
+              , "SolarWinds.Orion.Core.BusinessLayer.dll"
+            
+              , "SolarWinds.BusinessLayerHost.exe"
+            
+              , "ConfigurationWizard.exe"
+            
+              , "NetflowDatabaseMaintenance.exe"
+            
+              , "NetFlowService.exe"
+            
+              , "SolarWinds.Administration.exe"
+            
+              , "SolarWinds.Collector.Service.exe"
+            
+              , "DNS CNAME"
+            
+              , "Zakresy IP"
+            
+              , "Nazwy DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj atak na łańcuch dostaw SolarWinds Orion, w tym złośliwe oprogramowanie C2, środki zaradcze i wskazówki ekspertów z organizacji takich jak DHS i FireEye.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,261 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMWare on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/vmware//img/banner.png</url>
+      <title>VMWare on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/vmware/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/vmware/</link>
+
+    <description>Recent content in VMWare on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "networking"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png" length="412120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane zasoby edukacyjne</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane zasoby edukacyjne"
+            
+              , "Nauka IT"
+            
+              , "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Kursy sieciowe"
+            
+              , "Edukacja w zakresie systemów operacyjnych"
+            
+              , "Zasoby dotyczące programowania i skryptów"
+            
+              , "Nauka online"
+            
+              , "Laboratoria cyberbezpieczeństwa"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie z systemów operacyjnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze zasoby edukacyjne z zakresu IT, cyberbezpieczeństwa, sieci, systemów operacyjnych oraz programowania i skryptów dzięki rekomendacjom SimeonOnSecurity. Od bezpłatnych platform online, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz szeroką gamę opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich obszarach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najwyżej ocenianym zasobom edukacyjnym SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

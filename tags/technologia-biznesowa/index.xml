@@ -1,0 +1,119 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologia Biznesowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/technologia-biznesowa//img/banner.png</url>
+      <title>Technologia Biznesowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/technologia-biznesowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/technologia-biznesowa/</link>
+
+    <description>Recent content in Technologia Biznesowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/technologia-biznesowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja do Windows Server 2019 lub przejście na Azure: Which Option is Right for Your Business?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja do wersji Server 2019"
+            
+              , "Przejdź na Azure"
+            
+              , "Infrastruktura informatyczna"
+            
+              , "Technologia biznesowa"
+            
+              , "Ulepszenia w zakresie bezpieczeństwa"
+            
+              , "Poprawa wydajności"
+            
+              , "Integracja z Azure"
+            
+              , "Wsparcie długoterminowe"
+            
+              , "Skalowalność"
+            
+              , "Efektywność kosztowa"
+            
+              , "Zwiększona niezawodność"
+            
+              , "Zaawansowana analityka"
+            
+              , "Podejście hybrydowe"
+            
+              , "Elastyczna i odporna infrastruktura IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          W tym artykule przeanalizowano korzyści płynące z aktualizacji do Server 2019 lub przejścia na Azure, w tym lepsze bezpieczeństwo, wydajność, integrację i wsparcie, aby pomóc organizacjom podjąć najlepszą decyzję dla ich infrastruktury IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png" length="508418" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

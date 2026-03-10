@@ -1,0 +1,335 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poufność on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/poufno%C5%9B%C4%87//img/banner.png</url>
+      <title>Poufność on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/poufno%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/poufno%C5%9B%C4%87/</link>
+
+    <description>Recent content in Poufność on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/poufno%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie kluczowych elementów procesu OPSEC dla skutecznej ochrony informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Proces OPSEC"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "ochrona informacji"
+            
+              , "środki bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "informacje krytyczne"
+            
+              , "ocena zagrożenia"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "analiza ryzyka"
+            
+              , "środki zaradcze"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "poufność"
+            
+              , "integralność"
+            
+              , "dostępność"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "informacje niejawne"
+            
+              , "zgodność"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "prywatność danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "stan bezpieczeństwa"
+            
+              , "aktywa informacyjne"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ograniczanie ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "klasyfikacja informacji"
+            
+              , "Które z poniższych elementów są częścią procesu opsec?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie danymi"
+            
+              , "Przepisy rządowe"
+            
+              , "Udostępnianie informacji"
+            
+              , "Ochrona danych"
+            
+              , "Poufność"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Klasyfikacja danych"
+            
+              , "Dostęp do informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png" length="330073" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla prywatności i bezpieczeństwa: Ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Ogony"
+            
+              , "Qubes OS"
+            
+              , "Whonix"
+            
+              , "Parrot Security OS"
+            
+              , "Ubuntu Privacy Remix"
+            
+              , "OpenBSD"
+            
+              , "ochrona danych"
+            
+              , "bezpieczne przetwarzanie danych"
+            
+              , "anonimowe przeglądanie"
+            
+              , "wirtualizacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "analiza kryminalistyczna"
+            
+              , "testy penetracyjne"
+            
+              , "narzędzia szyfrujące"
+            
+              , "bezpieczne usuwanie"
+            
+              , "anonymity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "poprawność kodu"
+            
+              , "bezpieczeństwo online"
+            
+              , "ochrona danych użytkownika"
+            
+              , "poufność"
+            
+              , "odzyskiwanie danych"
+            
+              , "bankowość internetowa"
+            
+              , "prywatność online"
+            
+              , "bezpieczne środowisko"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "Sieć Tor"
+            
+              , "środki bezpieczeństwa"
+            
+              , "domyślnie bezpieczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa zapewniające prywatność i bezpieczeństwo, zapewniając ochronę danych i bezpieczeństwo działań online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png" length="276702" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

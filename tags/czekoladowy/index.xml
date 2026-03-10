@@ -1,0 +1,216 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Czekoladowy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/czekoladowy//img/banner.png</url>
+      <title>Czekoladowy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/czekoladowy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/czekoladowy/</link>
+
+    <description>Recent content in Czekoladowy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 24 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/czekoladowy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Usprawnij zarządzanie pakietami Windows dzięki Chocolatey: uprość aktualizacje i zwiększ bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie pakietami w systemie Windows"
+            
+              , "Czekoladowy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "menedżer pakietów"
+            
+              , "interfejs wiersza poleceń"
+            
+              , "automatyczne aktualizacje"
+            
+              , "zaplanowana konserwacja"
+            
+              , "bezpieczeństwo"
+            
+              , "stabilność"
+            
+              , "integracja"
+            
+              , "regulacje rządowe"
+            
+              , "zgodność"
+            
+              , "lalka"
+            
+              , "Szef"
+            
+              , "Ansible"
+            
+              , "Pakiety NuGet"
+            
+              , "DoD STIG"
+            
+              , "usprawnienie zarządzania pakietami"
+            
+              , "luki w oprogramowaniu"
+            
+              , "narzędzia wdrażania"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Aktualizacje pakietów systemu Windows"
+            
+              , "Zarządzanie oprogramowaniem Windows"
+            
+              , "Menedżer pakietów Windows"
+            
+              , "narzędzie do zarządzania pakietami"
+            
+              , "automatyczne aktualizacje pakietów"
+            
+              , "Aktualizacje zabezpieczeń systemu Windows"
+            
+              , "instalacja pakietu oprogramowania"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "system zarządzania pakietami"
+            
+              , "Repozytorium oprogramowania Windows"
+            
+              , "Pamięć podręczna oprogramowania Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj korzyści płynące z używania Chocolatey do zarządzania pakietami Windows: zautomatyzuj aktualizacje, oszczędzaj czas i zapewnij bezpieczeństwo systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś nauczyłam się tworzyć czekoladowe opakowania</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-23/</link>
+        
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie pakietami w systemie Windows"
+            
+              , "Tworzenie pakietów"
+            
+              , "Zarządzanie pakietami"
+            
+              , "Infrastruktura jako kod (IaC)"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "Pakowanie oprogramowania"
+            
+              , "Automatyzacja systemu Windows"
+            
+              , "Repozytoria pakietów"
+            
+              , "Narzędzia Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-23/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

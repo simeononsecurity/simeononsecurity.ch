@@ -1,0 +1,498 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CentOS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/centos//img/banner.png</url>
+      <title>CentOS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/centos/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/centos/</link>
+
+    <description>Recent content in CentOS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Aktualizacje offline dla Ubuntu, Debiana i CentOS RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link>
+        
+        <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png" length="379936" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja łatania i aktualizacji systemu Linux za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Łatanie systemu Linux"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Automatyzacja aktualizacji"
+            
+              , "konserwacja systemu"
+            
+              , "Automatyzacja IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "RHEL"
+            
+              , "Alpine"
+            
+              , "stabilność systemu"
+            
+              , "łagodzenie podatności na zagrożenia"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzie do automatyzacji"
+            
+              , "Podręcznik Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "Operacje IT"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zautomatyzować łatanie i aktualizacje systemu Linux za pomocą Ansible, obejmując różne dystrybucje i instrukcje konfiguracji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wskazówki i porady dotyczące zdawania egzaminu CompTIA Linux&#43; XK0-005</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</link>
+        
+        <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/passing-comptias-linux-plus-xk0-005/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj cenne wskazówki i triki, które pomogą Ci zdać egzamin CompTIA Linux+ XK0-005 i rozwinąć karierę profesjonalisty Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png" length="294776" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

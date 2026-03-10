@@ -1,0 +1,2355 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regulacje Rządowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/regulacje-rz%C4%85dowe//img/banner.png</url>
+      <title>Regulacje Rządowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/regulacje-rz%C4%85dowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/regulacje-rz%C4%85dowe/</link>
+
+    <description>Recent content in Regulacje Rządowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/regulacje-rz%C4%85dowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Metodologia rozwiązywania problemów sieciowych</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edukacja informatyczna"
+            
+              , "Rozwiązywanie problemów z siecią"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie IT"
+            
+              , "Sieci komputerowe"
+            
+              , "Umiejętności informatyczne"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Koncepcje sieciowe"
+            
+              , "Wsparcie sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik po metodologii rozwiązywania problemów sieciowych, w tym kroki, narzędzia i najlepsze praktyki w zakresie wydajnego i skutecznego rozwiązywania problemów sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa: Potęga systemów zarządzania podatnościami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Postawa w zakresie bezpieczeństwa"
+            
+              , "Automatyzacja"
+            
+              , "Integracja"
+            
+              , "Raportowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swojej organizacji i ogranicz ryzyko dzięki systemom zarządzania podatnościami. Dowiedz się o ich zaletach i znaczeniu w dzisiejszym cyfrowym krajobrazie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnij swój potencjał cyberbezpieczeństwa dzięki Hackthebox Academy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Praktyczne laboratoria"
+            
+              , "Ćwiczenia praktyczne"
+            
+              , "Ścieżki kształcenia"
+            
+              , "Współpraca społeczności"
+            
+              , "Umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "Platforma internetowa"
+            
+              , "Rzeczywiste scenariusze"
+            
+              , "Samouczki i dokumentacja"
+            
+              , "Subskrypcja Premium"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kompleksowe szkolenia i praktyczne wyzwania oferowane przez Hackthebox Academy, aby uwolnić swój potencjał w zakresie cyberbezpieczeństwa i zwiększyć swoje umiejętności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_individuals_working_togethe.png" length="1573173" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NICE: Najlepsze praktyki w zakresie wzmocnionej cyberobrony</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ramy bezpieczeństwa cybernetycznego NICE"
+            
+              , "cyberobrona"
+            
+              , "najlepsze praktyki wdrażania"
+            
+              , "pracownicy cyberbezpieczeństwa"
+            
+              , "analiza luk w umiejętnościach"
+            
+              , "programy szkoleniowe"
+            
+              , "monitorowanie i raportowanie"
+            
+              , "postawa w zakresie cyberbezpieczeństwa"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "regulacje rządowe"
+            
+              , "polityki cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "Analiza cyberzagrożeń"
+            
+              , "wskaźniki cyberbezpieczeństwa"
+            
+              , "ciągłe doskonalenie"
+            
+              , "benchmarki branżowe"
+            
+              , "odporność cybernetyczna"
+            
+              , "zarządzanie incydentami bezpieczeństwa"
+            
+              , "krajobraz cyberzagrożeń"
+            
+              , "zarządzanie cyberbezpieczeństwem"
+            
+              , "nadzór nad cyberbezpieczeństwem"
+            
+              , "bezpieczne udostępnianie"
+            
+              , "klasyfikacja danych"
+            
+              , "wymagania dotyczące zgodności"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "Szkolenie w zakresie świadomości cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczowe kroki, aby skutecznie wdrożyć NICE Cybersecurity Framework i wzmocnić obronę swojej organizacji przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png" length="333013" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnienie siły rozwoju siły roboczej: Ramy NICE i DoD DCWF</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "rozwój siły roboczej"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Ramy NICE"
+            
+              , "Struktura DCWF DoD"
+            
+              , "ocena umiejętności"
+            
+              , "rozwój zawodowy"
+            
+              , "pracownicy cyberbezpieczeństwa"
+            
+              , "ścieżki kariery"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "dostosowanie siły roboczej"
+            
+              , "struktura zatrudnienia"
+            
+              , "NIST"
+            
+              , "regulacje rządowe"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "standardy branżowe"
+            
+              , "zarządzanie talentami"
+            
+              , "role związane z cyberbezpieczeństwem"
+            
+              , "kompetencje w zakresie cyberbezpieczeństwa"
+            
+              , "rozwój pracowników cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "planowanie siły roboczej"
+            
+              , "rekrutacja cyberbezpieczeństwo"
+            
+              , "odporność pracowników"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "strategia dotycząca siły roboczej"
+            
+              , "rynek pracy cyberbezpieczeństwa"
+            
+              , "rozwój kariery w dziedzinie cyberbezpieczeństwa"
+            
+              , "gotowość siły roboczej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kompleksowe ramy oceny i rozwoju pracowników cyberbezpieczeństwa: NICE i DoD DCWF, zapewniając organizacjom wykwalifikowanych specjalistów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png" length="470043" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanowanie cyberbezpieczeństwa: Poznawanie najnowszych CVE i aktorów zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "CVE"
+            
+              , "aktorzy zagrożeń"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "analiza zagrożeń"
+            
+              , "udostępnianie informacji"
+            
+              , "współpraca branżowa"
+            
+              , "zalecenia dotyczące bezpieczeństwa"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "ATT&amp;CK® bolster"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "pojawiające się zagrożenia"
+            
+              , "proaktywna obrona"
+            
+              , "automatyczne skanowanie luk w zabezpieczeniach"
+            
+              , "wywiad open source"
+            
+              , "Analiza zagrożeń w czasie rzeczywistym"
+            
+              , "taktyki i techniki podmiotów stanowiących zagrożenie"
+            
+              , "Techniczny OSINT"
+            
+              , "Bazy danych CVE"
+            
+              , "zalecenia dostawców dotyczące bezpieczeństwa"
+            
+              , "blogi o bezpieczeństwie"
+            
+              , "źródła informacji o zagrożeniach"
+            
+              , "społeczności wymiany informacji"
+            
+              , "regulacje rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wyprzedzaj cyberzagrożenia, poznając najnowsze CVE i podmioty stanowiące zagrożenie dzięki skutecznym strategiom i zasobom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik po stażach w obszarze cyberbezpieczeństwa: Gdzie je znaleźć i jak je zdobyć</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-how-to-get-cybersecurity-internships/</link>
+        
+        <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "staże w zakresie cyberbezpieczeństwa"
+            
+              , "możliwości odbycia stażu"
+            
+              , "znajdowanie staży w zakresie cyberbezpieczeństwa"
+            
+              , "Jak zdobyć staż w dziedzinie cyberbezpieczeństwa?"
+            
+              , "płatne staże"
+            
+              , "bezpłatne staże"
+            
+              , "staże w agencjach rządowych"
+            
+              , "staże w prywatnych firmach"
+            
+              , "staże"
+            
+              , "staże do zaliczenia"
+            
+              , "Platformy pracy online"
+            
+              , "tablice ogłoszeń dotyczące cyberbezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Staże w NSA"
+            
+              , "Staże w DoD"
+            
+              , "Staże w FBI"
+            
+              , "Staże w IBM"
+            
+              , "Staże Microsoft"
+            
+              , "Staże w Cisco"
+            
+              , "Staże w firmie Symantec"
+            
+              , "Staże ISACA"
+            
+              , "(ISC)² staże"
+            
+              , "Staże CompTIA"
+            
+              , "nawiązywanie kontaktów w celu odbycia stażu"
+            
+              , "Wskazówki dotyczące CV dla stażystów"
+            
+              , "przygotowanie do rozmowy kwalifikacyjnej"
+            
+              , "rozwój kariery w dziedzinie cyberbezpieczeństwa"
+            
+              , "połączenia zawodowe"
+            
+              , "praktyczne doświadczenie"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-how-to-get-cybersecurity-internships/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze sposoby na znalezienie i zabezpieczenie staży w zakresie cyberbezpieczeństwa, zdobycie praktycznego doświadczenia i rozpoczęcie kariery w tej dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png" length="173394" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona prywatności w sieci: Bezpieczne praktyki w mediach społecznościowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "prywatność"
+            
+              , "prywatność online"
+            
+              , "media społecznościowe"
+            
+              , "bezpieczne praktyki"
+            
+              , "ustawienia prywatności"
+            
+              , "LinkedIn"
+            
+              , "Facebook"
+            
+              , "Twitter"
+            
+              , "Instagram"
+            
+              , "zaproszenia do znajomych"
+            
+              , "losowe linki"
+            
+              , "ankiety"
+            
+              , "regulacje rządowe"
+            
+              , "RODO"
+            
+              , "CCPA"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "ochrona danych"
+            
+              , "dane osobowe"
+            
+              , "naruszenie prywatności"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "zagrożenia dla prywatności"
+            
+              , "przepisy dotyczące prywatności"
+            
+              , "przepisy dotyczące prywatności"
+            
+              , "prywatność danych"
+            
+              , "bezpieczeństwo online"
+            
+              , "ochrona prywatności"
+            
+              , "Prywatność w mediach społecznościowych"
+            
+              , "wskazówki dotyczące prywatności"
+            
+              , "praktyki dotyczące prywatności online"
+            
+              , "ochrona danych osobowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj niezbędne wskazówki dotyczące bezpiecznych praktyk w mediach społecznościowych, aby chronić swoją prywatność w Internecie i dowiedzieć się o ustawieniach prywatności popularnych platform, takich jak LinkedIn, Facebook, Twitter i Instagram.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png" length="166973" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie znaczenia wytycznych dotyczących klasyfikacji bezpieczeństwa w ochronie informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-security-classification-guides/</link>
+        
+        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "przewodniki po klauzulach tajności"
+            
+              , "ochrona informacji"
+            
+              , "informacje niejawne"
+            
+              , "regulacje rządowe"
+            
+              , "ograniczanie ryzyka"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "procedury znakowania"
+            
+              , "procedury obsługi"
+            
+              , "bezpieczeństwo narodowe"
+            
+              , "zgodność"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "udostępnianie informacji"
+            
+              , "własność intelektualna"
+            
+              , "podejmowanie decyzji"
+            
+              , "zobowiązania prawne"
+            
+              , "obowiązki etyczne"
+            
+              , "współpraca międzynarodowa"
+            
+              , "ISO 27001"
+            
+              , "NISPOM"
+            
+              , "Rozporządzenie wykonawcze 13526"
+            
+              , "klasyfikacja informacji"
+            
+              , "ochrona danych"
+            
+              , "obsługa informacji"
+            
+              , "kontrolowane udostępnianie"
+            
+              , "poufność informacji"
+            
+              , "integralność informacji"
+            
+              , "kultura bezpieczeństwa informacji"
+            
+              , "wytyczne dotyczące bezpieczeństwa informacji"
+            
+              , "praktyki w zakresie bezpieczeństwa informacji"
+            
+              , "świadomość bezpieczeństwa informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-security-classification-guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie przewodników po klauzulach tajności dla ochrony informacji niejawnych i zapewnienia zgodności z przepisami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png" length="184573" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie kluczowych elementów procesu OPSEC dla skutecznej ochrony informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Proces OPSEC"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "ochrona informacji"
+            
+              , "środki bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "informacje krytyczne"
+            
+              , "ocena zagrożenia"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "analiza ryzyka"
+            
+              , "środki zaradcze"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "poufność"
+            
+              , "integralność"
+            
+              , "dostępność"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "informacje niejawne"
+            
+              , "zgodność"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "prywatność danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "stan bezpieczeństwa"
+            
+              , "aktywa informacyjne"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ograniczanie ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "klasyfikacja informacji"
+            
+              , "Które z poniższych elementów są częścią procesu opsec?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie typowych zagrożeń cyberbezpieczeństwa: Ochrona osób i firm</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zagrożenia dla cyberbezpieczeństwa"
+            
+              , "Znaczenie cyberbezpieczeństwa"
+            
+              , "Rodzaje zagrożeń"
+            
+              , "Wpływ zagrożeń"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Rola rządu w cyberbezpieczeństwie"
+            
+              , "Rola przemysłu w cyberbezpieczeństwie"
+            
+              , "Przepisy i zgodność"
+            
+              , "Partnerstwa publiczno-prywatne"
+            
+              , "Badania i rozwój w dziedzinie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj typowe zagrożenia cyberbezpieczeństwa, ich wpływ na osoby fizyczne i firmy oraz skuteczne sposoby ochrony przed nimi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.png" length="73745" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Exploring Metasploit: Kompleksowe ramy dla testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "po operacji"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie informacji szczególnie chronionych (SCI) dla bezpieczeństwa narodowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Inteligencja"
+            
+              , "Informacje niejawne"
+            
+              , "Przepisy rządowe"
+            
+              , "Kontrola dostępu"
+            
+              , "Świadectwa bezpieczeństwa"
+            
+              , "Wspólnota wywiadowcza"
+            
+              , "Przemysł obronny"
+            
+              , "Operacje wywiadowcze"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie klasyfikacji informacji: Kto określa i przypisuje poziomy klasyfikacji?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Klasyfikacja danych"
+            
+              , "Przepisy rządowe"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność danych"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Informacje niejawne"
+            
+              , "Kontrola dostępu"
+            
+              , "Wrażliwość danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o procesie klasyfikacji informacji, w tym o tym, kto wyznacza i przypisuje poziomy klasyfikacji, a także o znaczeniu przestrzegania przepisów rządowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png" length="374731" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie danymi"
+            
+              , "Przepisy rządowe"
+            
+              , "Udostępnianie informacji"
+            
+              , "Ochrona danych"
+            
+              , "Poufność"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Klasyfikacja danych"
+            
+              , "Dostęp do informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png" length="330073" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Open Source"
+            
+              , "Wydajność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Self-hosted"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Natywne a hybrydowe tworzenie aplikacji mobilnych: Kompleksowe porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/comparing-mobile-app-development-native-vs-hybrid/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "tworzenie aplikacji natywnych"
+            
+              , "tworzenie aplikacji hybrydowych"
+            
+              , "tworzenie aplikacji mobilnych"
+            
+              , "porównywanie rozwoju aplikacji"
+            
+              , "natywny vs hybrydowy"
+            
+              , "podejścia do tworzenia aplikacji"
+            
+              , "optymalizacja wydajności"
+            
+              , "Funkcje specyficzne dla platformy"
+            
+              , "doświadczenie użytkownika"
+            
+              , "czas rozwoju"
+            
+              , "koszt rozwoju"
+            
+              , "nakłady na utrzymanie"
+            
+              , "Kompatybilność międzyplatformowa"
+            
+              , "szybszy rozwój"
+            
+              , "łatwiejsza konserwacja"
+            
+              , "wydajność aplikacji"
+            
+              , "ograniczenia platformy"
+            
+              , "Wybór podejścia do tworzenia aplikacji"
+            
+              , "projekt aplikacji mobilnej"
+            
+              , "wytyczne dotyczące tworzenia aplikacji"
+            
+              , "Rozważania dotyczące tworzenia aplikacji"
+            
+              , "decyzje dotyczące tworzenia aplikacji"
+            
+              , "najlepsze praktyki dotyczące aplikacji mobilnych"
+            
+              , "Tworzenie aplikacji na iOS"
+            
+              , "Tworzenie aplikacji na Androida"
+            
+              , "regulacje rządowe"
+            
+              , "dokumentacja tworzenia aplikacji"
+            
+              , "zasoby do tworzenia aplikacji"
+            
+              , "rynek aplikacji mobilnych"
+            
+              , "trendy w tworzeniu aplikacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/comparing-mobile-app-development-native-vs-hybrid/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice i zalety natywnego i hybrydowego podejścia do tworzenia aplikacji, aby dokonać świadomego wyboru dla następnego projektu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_illustrating_two_mobile_devices.png" length="109949" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uczenie maszynowe a uczenie głębokie: Rozwikłanie różnic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</link>
+        
+        <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uczenie maszynowe"
+            
+              , "głębokie uczenie"
+            
+              , "sztuczna inteligencja"
+            
+              , "AI"
+            
+              , "nauka o danych"
+            
+              , "algorytm"
+            
+              , "sieci neuronowe"
+            
+              , "Inżynieria funkcji"
+            
+              , "dane nieustrukturyzowane"
+            
+              , "drzewa decyzyjne"
+            
+              , "regresja logistyczna"
+            
+              , "oznaczone dane"
+            
+              , "nieoznakowane dane"
+            
+              , "zasoby obliczeniowe"
+            
+              , "wykrywanie oszustw"
+            
+              , "systemy rekomendacji"
+            
+              , "konserwacja predykcyjna"
+            
+              , "rozpoznawanie obrazu"
+            
+              , "przetwarzanie języka naturalnego"
+            
+              , "odkrywanie leków"
+            
+              , "aplikacje biznesowe"
+            
+              , "złożoność algorytmu"
+            
+              , "reprezentacja danych"
+            
+              , "regulacje rządowe"
+            
+              , "wizja komputerowa"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "chatboty"
+            
+              , "tłumaczenie językowe"
+            
+              , "modele treningowe"
+            
+              , "analityka predykcyjna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnice między uczeniem maszynowym a głębokim uczeniem, dwiema potężnymi gałęziami sztucznej inteligencji o unikalnych cechach i zastosowaniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png" length="289566" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ścieżki kariery w obszarze cyberbezpieczeństwa i perspektywy zatrudnienia: Rozwijająca się dziedzina</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cyber-security-career-paths-and-job-outlook/</link>
+        
+        <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "ścieżki kariery"
+            
+              , "Perspektywy zatrudnienia"
+            
+              , "analitycy bezpieczeństwa informacji"
+            
+              , "inżynierowie bezpieczeństwa"
+            
+              , "architekci bezpieczeństwa"
+            
+              , "testerzy bezpieczeństwa"
+            
+              , "analitycy kryminalistyczni"
+            
+              , "osoby reagujące na incydenty"
+            
+              , "konsultanci ds. bezpieczeństwa"
+            
+              , "cyberzagrożenia"
+            
+              , "technologia"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "rozwój zawodowy"
+            
+              , "certyfikaty"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "kariery w cyberbezpieczeństwie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cyber-security-career-paths-and-job-outlook/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne ścieżki kariery w obszarze cyberbezpieczeństwa, perspektywy zatrudnienia i korzyści w tej szybko rozwijającej się dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cybersecurity_professional_protecting_digital_systems.png" length="425075" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla początkujących: Ubuntu, Zorin OS, Mint i Manjaro</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-linux-distros-for-beginners/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "Ubuntu"
+            
+              , "Zorin OS"
+            
+              , "Linux Mint"
+            
+              , "Manjaro"
+            
+              , "początkujący"
+            
+              , "Przyjazny dla użytkownika interfejs"
+            
+              , "kompatybilność sprzętowa"
+            
+              , "wsparcie społeczności"
+            
+              , "open-source"
+            
+              , "Oparte na Debianie"
+            
+              , "Interfejs przypominający Windows"
+            
+              , "zwolnienie kroczące"
+            
+              , "Środowisko graficzne Cinnamon"
+            
+              , "Środowisko graficzne Xfce"
+            
+              , "Środowisko graficzne KDE Plasma"
+            
+              , "Środowisko graficzne GNOME"
+            
+              , "repozytorium oprogramowania"
+            
+              , "Kompleksowa dokumentacja"
+            
+              , "preinstalowane oprogramowanie"
+            
+              , "najnowsze aktualizacje oprogramowania"
+            
+              , "pasek zadań"
+            
+              , "menu startowe"
+            
+              , "zasobnik systemowy"
+            
+              , "kodeki multimedialne"
+            
+              , "menedżer pakietów"
+            
+              , "wspierająca społeczność"
+            
+              , "regulacje rządowe"
+            
+              , "zgodność z prawem"
+            
+              , "doświadczenie w zakresie bezpiecznego przetwarzania danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-linux-distros-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa dla początkujących, w tym Ubuntu, Zorin OS, Linux Mint i Manjaro, zapewniające przyjazne dla użytkownika interfejsy i doskonałe wsparcie społeczności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png" length="170017" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mroczna sieć i cyberprzestępczość: Odsłaniając podbrzusze Internetu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ciemna sieć"
+            
+              , "cyberprzestępczość"
+            
+              , "nielegalne działania"
+            
+              , "Tor"
+            
+              , "hakowanie"
+            
+              , "oszustwo"
+            
+              , "kradzież tożsamości"
+            
+              , "dziennikarstwo"
+            
+              , "whistleblowing"
+            
+              , "bezpieczeństwo online"
+            
+              , "dane osobowe"
+            
+              , "naruszenia danych"
+            
+              , "prywatność online"
+            
+              , "regulacje rządowe"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie przestępczości"
+            
+              , "anonimowe przeglądanie"
+            
+              , "anonimowość online"
+            
+              , "zagrożenia online"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ukryty świat dark web i jego powiązania z cyberprzestępczością, jednocześnie odkrywając jego dwoistą naturę i potencjał dla dziennikarstwa i whistleblowingu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png" length="373790" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Usprawnij zarządzanie pakietami Windows dzięki Chocolatey: uprość aktualizacje i zwiększ bezpieczeństwo</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie pakietami w systemie Windows"
+            
+              , "Czekoladowy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "menedżer pakietów"
+            
+              , "interfejs wiersza poleceń"
+            
+              , "automatyczne aktualizacje"
+            
+              , "zaplanowana konserwacja"
+            
+              , "bezpieczeństwo"
+            
+              , "stabilność"
+            
+              , "integracja"
+            
+              , "regulacje rządowe"
+            
+              , "zgodność"
+            
+              , "lalka"
+            
+              , "Szef"
+            
+              , "Ansible"
+            
+              , "Pakiety NuGet"
+            
+              , "DoD STIG"
+            
+              , "usprawnienie zarządzania pakietami"
+            
+              , "luki w oprogramowaniu"
+            
+              , "narzędzia wdrażania"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Aktualizacje pakietów systemu Windows"
+            
+              , "Zarządzanie oprogramowaniem Windows"
+            
+              , "Menedżer pakietów Windows"
+            
+              , "narzędzie do zarządzania pakietami"
+            
+              , "automatyczne aktualizacje pakietów"
+            
+              , "Aktualizacje zabezpieczeń systemu Windows"
+            
+              , "instalacja pakietu oprogramowania"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "system zarządzania pakietami"
+            
+              , "Repozytorium oprogramowania Windows"
+            
+              , "Pamięć podręczna oprogramowania Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj korzyści płynące z używania Chocolatey do zarządzania pakietami Windows: zautomatyzuj aktualizacje, oszczędzaj czas i zapewnij bezpieczeństwo systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unikanie oszustw phishingowych: Taktyka, zapobieganie i ochrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link>
+        
+        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "oszustwa phishingowe"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zagrożenia online"
+            
+              , "Email spoofing"
+            
+              , "inżynieria społeczna"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo danych"
+            
+              , "kradzież tożsamości"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "regulacje rządowe"
+            
+              , "prywatność online"
+            
+              , "świadomość cybernetyczna"
+            
+              , "oszustwo cyfrowe"
+            
+              , "świadomość phishingu"
+            
+              , "Bezpieczeństwo w mediach społecznościowych"
+            
+              , "oszustwa internetowe"
+            
+              , "Zapobieganie cyberprzestępczości"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj taktyki stosowane przez oszustów phishingowych i odkryj skuteczne strategie ochrony przed staniem się ofiarą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png" length="190330" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

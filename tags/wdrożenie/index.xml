@@ -1,0 +1,436 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wdrożenie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wdro%C5%BCenie//img/banner.png</url>
+      <title>Wdrożenie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wdro%C5%BCenie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wdro%C5%BCenie/</link>
+
+    <description>Recent content in Wdrożenie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wdro%C5%BCenie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "NIST"
+            
+              , "ramy"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberzagrożenia"
+            
+              , "wdrożenie"
+            
+              , "najlepsze praktyki"
+            
+              , "wytyczne"
+            
+              , "standardy"
+            
+              , "cyberataki"
+            
+              , "ocena ryzyka"
+            
+              , "ryzyko cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "reakcja na incydent"
+            
+              , "środki bezpieczeństwa"
+            
+              , "plan cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć NIST Cybersecurity Framework i chronić swoją organizację przed cyberzagrożeniami, korzystając z naszego przewodnika krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wytyczne bezpiecznego kodowania dla Ansible: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ansible"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "Ansible Vault"
+            
+              , "Silne hasła"
+            
+              , "Kontrola dostępu"
+            
+              , "System kontroli wersji"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "SSH"
+            
+              , "WinRM"
+            
+              , "Certyfikaty TLS"
+            
+              , "Sanityzacja danych wprowadzanych przez użytkownika"
+            
+              , "Sprawdzanie poprawności danych wejściowych"
+            
+              , "Obsługa błędów"
+            
+              , "Bezpieczne praktyki kodowania"
+            
+              , "Wstrzykiwanie kodu"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo infrastruktury"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla Ansible"
+            
+              , "Najlepsze praktyki dotyczące bezpiecznego kodu w Ansible"
+            
+              , "Bezpieczne zarządzanie konfiguracją za pomocą Ansible"
+            
+              , "Bezpieczne praktyki wdrażania z Ansible"
+            
+              , "Zasada najmniejszych uprawnień w Ansible"
+            
+              , "Korzystanie z Ansible Vault dla bezpiecznego kodu"
+            
+              , "Tworzenie silnych haseł w Ansible"
+            
+              , "Kontrola dostępu w Ansible"
+            
+              , "System kontroli wersji dla playbooków Ansible"
+            
+              , "Protokoły bezpiecznej komunikacji w Ansible"
+            
+              , "Bezpieczeństwo SSH w Ansible"
+            
+              , "Bezpieczeństwo WinRM w Ansible"
+            
+              , "Certyfikaty TLS w Ansible"
+            
+              , "Sanityzacja danych wejściowych użytkownika w Ansible"
+            
+              , "Walidacja danych wejściowych w Ansible"
+            
+              , "Obsługa błędów w Ansible"
+            
+              , "Praktyki bezpiecznego kodowania w Ansible"
+            
+              , "Zapobieganie wstrzykiwaniu kodu w Ansible"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla infrastruktury zarządzanej przez Ansible"
+            
+              , "Zabezpieczanie infrastruktury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu za pomocą Ansible, popularnego narzędzia do zarządzania konfiguracją i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "uchwyty na woluminy"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

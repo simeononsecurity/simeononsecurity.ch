@@ -1,0 +1,127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rankingi CTF on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/rankingi-ctf//img/banner.png</url>
+      <title>Rankingi CTF on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rankingi-ctf/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rankingi-ctf/</link>
+
+    <description>Recent content in Rankingi CTF on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rankingi-ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziennik rankingów CTF SimeonaOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/ctfranks/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rankingi CTF"
+            
+              , "Capture the Flag"
+            
+              , "Konkurs"
+            
+              , "Wyzwania"
+            
+              , "LockHeed Martin Cyber Grand Challenge"
+            
+              , "Krajowa Liga Cyberprzestępczości"
+            
+              , "Cipher Tech Challenge"
+            
+              , "Wydajność"
+            
+              , "Umieszczenie"
+            
+              , "Zespół"
+            
+              , "Indywidualnie"
+            
+              , "2020"
+            
+              , "2021"
+            
+              , "Cybersecurity"
+            
+              , "Cyberobrona"
+            
+              , "Wydarzenia CTF"
+            
+              , "Konkursy hakerskie"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Badania nad bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/ctfranks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bądź na bieżąco z najnowszymi rankingami w świecie CTF i wyzwań dzięki SimeonOnSecurity&#39;s CTF Rankings Log.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png" length="236561" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

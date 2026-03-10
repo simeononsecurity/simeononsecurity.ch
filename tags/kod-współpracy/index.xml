@@ -1,0 +1,141 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kod Współpracy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kod-wsp%C3%B3%C5%82pracy//img/banner.png</url>
+      <title>Kod Współpracy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kod-wsp%C3%B3%C5%82pracy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kod-wsp%C3%B3%C5%82pracy/</link>
+
+    <description>Recent content in Kod Współpracy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kod-wsp%C3%B3%C5%82pracy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Git: Kompleksowy przewodnik po kontroli wersji</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Git"
+            
+              , "kontrola wersji"
+            
+              , "Samouczki Git"
+            
+              , "Przewodnik Git"
+            
+              , "Podstawy Git"
+            
+              , "Polecenia Git"
+            
+              , "Instalacja Git"
+            
+              , "Konfiguracja Git"
+            
+              , "rozgałęzienia w Git"
+            
+              , "scalanie w Git"
+            
+              , "współpraca w Git"
+            
+              , "rozproszona kontrola wersji"
+            
+              , "wersjonowanie kodu"
+            
+              , "Przepływ pracy Git"
+            
+              , "Wskazówki Git"
+            
+              , "Najlepsze praktyki Git"
+            
+              , "Git dla początkujących"
+            
+              , "Git dla programistów"
+            
+              , "rozwój oprogramowania"
+            
+              , "kod współpracy"
+            
+              , "Git mastering"
+            
+              , "Kompleksowy przewodnik Git"
+            
+              , "Samouczek kontroli wersji Git"
+            
+              , "Rozgałęzianie i scalanie w Git"
+            
+              , "Wskazówki dotyczące współpracy Git"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/mastering-git-a-comprehensive-guide-for-version-control/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Stań się biegły w Git dzięki temu kompleksowemu przewodnikowi obejmującemu wszystko, od instalacji i konfiguracji po rozgałęzianie, scalanie i współpracę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png" length="102873" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

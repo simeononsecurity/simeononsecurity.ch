@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Porównanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/por%C3%B3wnanie//img/banner.png</url>
+      <title>Porównanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/por%C3%B3wnanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/por%C3%B3wnanie/</link>
+
+    <description>Recent content in Porównanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/por%C3%B3wnanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Secure Email Showdown: StartMail vs ProtonMail vs Tutanota</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link>
+        
+        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność danych"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Szyfrowanie"
+            
+              , "Narzędzia internetowe"
+            
+              , "Porównanie"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepszą bezpieczną usługę e-mail! Szczegółowe porównanie StartMail, ProtonMail i Tutanota, zapewniające prywatność online
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-email-showdown.png" length="1329076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Endpoint Security Showdown: Symantec vs. McAfee - kompleksowe porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Antywirus"
+            
+              , "Firewall"
+            
+              , "Wykrywanie włamań"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Porównanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, które rozwiązanie zabezpieczające punkty końcowe, Symantec czy McAfee, najlepiej nadaje się do ochrony zasobów cyfrowych Twojej organizacji przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryzyko Cyberbezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ryzyko-cyberbezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Ryzyko Cyberbezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ryzyko-cyberbezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ryzyko-cyberbezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Ryzyko Cyberbezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ryzyko-cyberbezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "NIST"
+            
+              , "ramy"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberzagrożenia"
+            
+              , "wdrożenie"
+            
+              , "najlepsze praktyki"
+            
+              , "wytyczne"
+            
+              , "standardy"
+            
+              , "cyberataki"
+            
+              , "ocena ryzyka"
+            
+              , "ryzyko cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "reakcja na incydent"
+            
+              , "środki bezpieczeństwa"
+            
+              , "plan cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć NIST Cybersecurity Framework i chronić swoją organizację przed cyberzagrożeniami, korzystając z naszego przewodnika krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

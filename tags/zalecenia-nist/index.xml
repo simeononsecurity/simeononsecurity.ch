@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zalecenia NIST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zalecenia-nist//img/banner.png</url>
+      <title>Zalecenia NIST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zalecenia-nist/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zalecenia-nist/</link>
+
+    <description>Recent content in Zalecenia NIST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zalecenia-nist/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie stacji roboczych: Przewodnik oparty na zaleceniach NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecenia NIST"
+            
+              , "bezpieczeństwo stacji roboczych"
+            
+              , "cybersecurity"
+            
+              , "szyfrowanie danych"
+            
+              , "ochrona firewalla"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "kontrole dostępu"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "kopia zapasowa danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć stacje robocze i chronić wrażliwe informacje dzięki temu kompleksowemu przewodnikowi opartemu na zaleceniach NIST dotyczących wdrażania silnej kontroli dostępu, utrzymywania aktualnego oprogramowania, korzystania z oprogramowania antywirusowego, włączania ochrony firewall, wdrażania szyfrowania danych i regularnego tworzenia kopii zapasowych danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.png" length="285103" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telemetria on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/telemetria//img/banner.png</url>
+      <title>Telemetria on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/telemetria/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/telemetria/</link>
+
+    <description>Recent content in Telemetria on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/telemetria/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja komputera z systemem Windows za pomocą Windows-Optimize-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Debloating Windows"
+            
+              , "Przyspieszenie systemu Windows"
+            
+              , "Optymalizacja wydajności systemu Windows"
+            
+              , "Zwiększenie wydajności systemu Windows"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Microsoft"
+            
+              , "Prywatność"
+            
+              , "Usuwanie zbędnego oprogramowania"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Windows Defender"
+            
+              , "Windows Update"
+            
+              , "Cortona"
+            
+              , "Obiekty zasad grupy"
+            
+              , "Telemetria"
+            
+              , "Sklep Windows"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw wydajność i prywatność swojego systemu operacyjnego Windows za pomocą Windows-Optimize-Debloat, kompleksowego skryptu, który pomaga usunąć bloatware i zoptymalizować ustawienia systemowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

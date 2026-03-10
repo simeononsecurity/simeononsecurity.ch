@@ -1,0 +1,266 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integralność Plików on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-plik%C3%B3w//img/banner.png</url>
+      <title>Integralność Plików on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-plik%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-plik%C3%B3w/</link>
+
+    <description>Recent content in Integralność Plików on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/integralno%C5%9B%C4%87-plik%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Skróty plików w systemie Windows przy użyciu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "skróty plików"
+            
+              , "PowerShell"
+            
+              , "SHA256 hash"
+            
+              , "Skrót MD5"
+            
+              , "SHA1 hash"
+            
+              , "integralność plików"
+            
+              , "uwierzytelnianie danych"
+            
+              , "weryfikacja plików"
+            
+              , "algorytmy haszujące"
+            
+              , "System operacyjny Windows"
+            
+              , "język skryptowy"
+            
+              , "powłoka wiersza poleceń"
+            
+              , "bezpieczeństwo danych"
+            
+              , "informatyka śledcza"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Obliczanie skrótu"
+            
+              , "manipulowanie plikami"
+            
+              , "integralność danych"
+            
+              , "autentyczność pliku"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "identyfikacja pliku"
+            
+              , "cyberobrona"
+            
+              , "bezpieczeństwo plików"
+            
+              , "ochrona danych"
+            
+              , "weryfikacja danych"
+            
+              , "walidacja plików"
+            
+              , "Windows PowerShell"
+            
+              , "generowanie skrótu"
+            
+              , "algorytmy skrótu"
+            
+              , "funkcje skrótu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uzyskać skróty plików w systemie Windows za pomocą PowerShell, w tym SHA256, MD5 i SHA1, z instrukcjami krok po kroku i przykładami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Linux File Hashes: Przewodnik po uzyskiwaniu skrótów SHA256, MD5 i SHA1 przy użyciu wbudowanych narzędzi</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skróty plików w systemie Linux"
+            
+              , "SHA256 hash"
+            
+              , "Skrót MD5"
+            
+              , "SHA1 hash"
+            
+              , "Wiersz poleceń systemu Linux"
+            
+              , "integralność plików"
+            
+              , "walidacja danych"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "wbudowane narzędzia"
+            
+              , "weryfikacja plików"
+            
+              , "autentyczność danych"
+            
+              , "algorytmy haszowania plików"
+            
+              , "Administracja systemem Linux"
+            
+              , "narzędzia wiersza poleceń"
+            
+              , "sumy kontrolne plików"
+            
+              , "Narzędzia systemu Linux"
+            
+              , "sprawdzanie integralności plików"
+            
+              , "weryfikacja integralności danych"
+            
+              , "przykłady hashowania plików"
+            
+              , "Polecenia skrótu w systemie Linux"
+            
+              , "metody haszowania plików"
+            
+              , "Środki bezpieczeństwa systemu Linux"
+            
+              , "Ochrona danych w systemie Linux"
+            
+              , "Zarządzanie plikami w systemie Linux"
+            
+              , "Weryfikacja plików w systemie Linux"
+            
+              , "Integralność plików w systemie Linux"
+            
+              , "bezpieczeństwo danych"
+            
+              , "Sprawdzanie poprawności danych w systemie Linux"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "techniki haszowania plików"
+            
+              , "zapewnienie integralności plików"
+            
+              , "bezpieczna walidacja plików"
+            
+              , "Integralność danych w systemie Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uzyskać skróty SHA256, MD5 i SHA1 plików w systemie Linux za pomocą wbudowanych narzędzi, zapewniając integralność danych i autentyczność plików.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_digital_representation_of_file_hashes_being_calculated.png" length="322591" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

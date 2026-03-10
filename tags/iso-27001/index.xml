@@ -1,0 +1,222 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ISO 27001 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/iso-27001//img/banner.png</url>
+      <title>ISO 27001 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/iso-27001/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/iso-27001/</link>
+
+    <description>Recent content in ISO 27001 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/iso-27001/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie znaczenia wytycznych dotyczących klasyfikacji bezpieczeństwa w ochronie informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-security-classification-guides/</link>
+        
+        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "przewodniki po klauzulach tajności"
+            
+              , "ochrona informacji"
+            
+              , "informacje niejawne"
+            
+              , "regulacje rządowe"
+            
+              , "ograniczanie ryzyka"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "procedury znakowania"
+            
+              , "procedury obsługi"
+            
+              , "bezpieczeństwo narodowe"
+            
+              , "zgodność"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "udostępnianie informacji"
+            
+              , "własność intelektualna"
+            
+              , "podejmowanie decyzji"
+            
+              , "zobowiązania prawne"
+            
+              , "obowiązki etyczne"
+            
+              , "współpraca międzynarodowa"
+            
+              , "ISO 27001"
+            
+              , "NISPOM"
+            
+              , "Rozporządzenie wykonawcze 13526"
+            
+              , "klasyfikacja informacji"
+            
+              , "ochrona danych"
+            
+              , "obsługa informacji"
+            
+              , "kontrolowane udostępnianie"
+            
+              , "poufność informacji"
+            
+              , "integralność informacji"
+            
+              , "kultura bezpieczeństwa informacji"
+            
+              , "wytyczne dotyczące bezpieczeństwa informacji"
+            
+              , "praktyki w zakresie bezpieczeństwa informacji"
+            
+              , "świadomość bezpieczeństwa informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-security-classification-guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie przewodników po klauzulach tajności dla ochrony informacji niejawnych i zapewnienia zgodności z przepisami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png" length="184573" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

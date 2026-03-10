@@ -1,0 +1,200 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ataki Na Hasła on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ataki-na-has%C5%82a//img/banner.png</url>
+      <title>Ataki Na Hasła on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ataki-na-has%C5%82a/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ataki-na-has%C5%82a/</link>
+
+    <description>Recent content in Ataki Na Hasła on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ataki-na-has%C5%82a/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie podstaw cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zrozumienie podstaw cyberbezpieczeństwa"
+            
+              , "Znaczenie cyberbezpieczeństwa"
+            
+              , "Ochrona danych osobowych"
+            
+              , "Ochrona danych biznesowych"
+            
+              , "Obawy dotyczące bezpieczeństwa narodowego"
+            
+              , "Kluczowa terminologia cyberbezpieczeństwa"
+            
+              , "Rodzaje cyberataków"
+            
+              , "Najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "Rola szyfrowania w cyberbezpieczeństwie"
+            
+              , "Bezpieczeństwo cybernetyczne dla firm"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-the-basics-of-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj znaczenie cyberbezpieczeństwa i dowiedz się, jak chronić bezpieczeństwo osobiste, biznesowe i narodowe przed ewoluującymi zagrożeniami cybernetycznymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-the-basics-of-cybersecurity.png" length="63882" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łagodzenie 5 największych wektorów cyberataku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "cyberataki"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "denial-of-service"
+            
+              , "ataki na hasła"
+            
+              , "ataki na aplikacje internetowe"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "filtry antyspamowe"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "firewalle"
+            
+              , "botnety"
+            
+              , "CDN-y"
+            
+              , "usługi anty-DDoS"
+            
+              , "wydajność sieci"
+            
+              , "podatności"
+            
+              , "ochrona"
+            
+              , "ograniczanie ryzyka"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png" length="288490" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

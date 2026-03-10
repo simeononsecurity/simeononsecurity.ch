@@ -1,0 +1,155 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informacje Krytyczne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/informacje-krytyczne//img/banner.png</url>
+      <title>Informacje Krytyczne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/informacje-krytyczne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/informacje-krytyczne/</link>
+
+    <description>Recent content in Informacje Krytyczne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/informacje-krytyczne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie kluczowych elementów procesu OPSEC dla skutecznej ochrony informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Proces OPSEC"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "ochrona informacji"
+            
+              , "środki bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "informacje krytyczne"
+            
+              , "ocena zagrożenia"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "analiza ryzyka"
+            
+              , "środki zaradcze"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "poufność"
+            
+              , "integralność"
+            
+              , "dostępność"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "informacje niejawne"
+            
+              , "zgodność"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "prywatność danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "stan bezpieczeństwa"
+            
+              , "aktywa informacyjne"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ograniczanie ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "klasyfikacja informacji"
+            
+              , "Które z poniższych elementów są częścią procesu opsec?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

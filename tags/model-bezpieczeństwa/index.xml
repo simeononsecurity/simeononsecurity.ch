@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/model-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Model Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/model-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/model-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Model Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/model-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,208 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/terraform//img/banner.png</url>
+      <title>Terraform on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/terraform/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/terraform/</link>
+
+    <description>Recent content in Terraform on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

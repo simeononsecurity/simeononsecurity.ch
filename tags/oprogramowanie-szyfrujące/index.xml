@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oprogramowanie Szyfrujące on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/oprogramowanie-szyfruj%C4%85ce//img/banner.png</url>
+      <title>Oprogramowanie Szyfrujące on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/oprogramowanie-szyfruj%C4%85ce/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/oprogramowanie-szyfruj%C4%85ce/</link>
+
+    <description>Recent content in Oprogramowanie Szyfrujące on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/oprogramowanie-szyfruj%C4%85ce/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po szyfrowaniu w celu ochrony danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "szyfrowanie"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "technologia"
+            
+              , "bezpieczeństwo online"
+            
+              , "szyfrowanie symetryczne"
+            
+              , "szyfrowanie asymetryczne"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "kryptografia"
+            
+              , "szyfrowane wiadomości"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "prywatność danych"
+            
+              , "zaszyfrowane dane"
+            
+              , "oprogramowanie szyfrujące"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona hasłem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy szyfrowania i dowiedz się, jak używać go do zabezpieczania poufnych danych dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png" length="156916" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

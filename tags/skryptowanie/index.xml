@@ -1,0 +1,283 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skryptowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/skryptowanie//img/banner.png</url>
+      <title>Skryptowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skryptowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skryptowanie/</link>
+
+    <description>Recent content in Skryptowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skryptowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktywacji Windows KMS za pomocą skryptu GLVK</title>
+        
+          <link>https://pl.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktywacja systemu Windows"
+            
+              , "Klucze klienckie KMS"
+            
+              , "GLVK"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zgodność"
+            
+              , "Skrypt Powershell"
+            
+              , "Usługa zarządzania kluczami"
+            
+              , "Licencjonowanie objętościowe"
+            
+              , "Aktywacja przedsiębiorstwa"
+            
+              , "Serwer zarządzania kluczami"
+            
+              , "Automatyka"
+            
+              , "Produkty Microsoft"
+            
+              , "System operacyjny"
+            
+              , "Oprogramowanie"
+            
+              , "Środowiska korporacyjne"
+            
+              , "Powershell administracyjny"
+            
+              , "Repozytorium GitHub"
+            
+              , "Skryptowanie"
+            
+              , "Cybersecurity"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uprość proces aktywacji Windows 10 KMS za pomocą skryptu GLVK Auto Install SimeonOnSecurity i dowiedz się więcej o kluczach klienckich KMS i GLVK z zalecanej lektury Microsoftu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

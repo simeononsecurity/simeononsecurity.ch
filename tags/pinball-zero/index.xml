@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinball Zero on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/pinball-zero//img/banner.png</url>
+      <title>Pinball Zero on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/pinball-zero/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/pinball-zero/</link>
+
+    <description>Recent content in Pinball Zero on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/pinball-zero/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Flipper Zero: wszechstronne urządzenie do hakowania i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pinball Zero"
+            
+              , "urządzenie przenośne"
+            
+              , "hakowanie sprzętu"
+            
+              , "inżynieria odwrotna"
+            
+              , "analiza komunikacji bezprzewodowej"
+            
+              , "kontrola urządzenia"
+            
+              , "audyt bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "codzienny towarzysz technologiczny"
+            
+              , "open-source"
+            
+              , "Bluetooth"
+            
+              , "NFC"
+            
+              , "RFID"
+            
+              , "IR"
+            
+              , "emulacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "Kali Linux"
+            
+              , "Wyświetlacz e-papierowy"
+            
+              , "Kody QR"
+            
+              , "automatyka domowa"
+            
+              , "luki w zabezpieczeniach"
+            
+              , "protokoły bezprzewodowe"
+            
+              , "Ekstrakcja oprogramowania układowego"
+            
+              , "miganie"
+            
+              , "debugowanie"
+            
+              , "systemy fizycznej kontroli dostępu"
+            
+              , "inteligentne systemy automatyki domowej"
+            
+              , "emulacja urządzenia"
+            
+              , "luki w zabezpieczeniach systemów bezprzewodowych"
+            
+              , "środki zaradcze"
+            
+              , "kompaktowy gadżet"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnorodne zastosowania Flipper Zero, najlepszego podręcznego gadżetu do hakowania sprzętu, analizy komunikacji bezprzewodowej i codziennych potrzeb technicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png" length="678280" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

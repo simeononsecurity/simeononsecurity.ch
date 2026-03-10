@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szyfrowanie Dysków W Środowisku Azure on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/szyfrowanie-dysk%C3%B3w-w-%C5%9Brodowisku-azure//img/banner.png</url>
+      <title>Szyfrowanie Dysków W Środowisku Azure on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szyfrowanie-dysk%C3%B3w-w-%C5%9Brodowisku-azure/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szyfrowanie-dysk%C3%B3w-w-%C5%9Brodowisku-azure/</link>
+
+    <description>Recent content in Szyfrowanie Dysków W Środowisku Azure on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szyfrowanie-dysk%C3%B3w-w-%C5%9Brodowisku-azure/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Centrum Bezpieczeństwa Azure: Zabezpiecz swoje środowisko chmurowe w sposób pewny</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link>
+        
+        <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Lazurowy"
+            
+              , "Centrum Bezpieczeństwa"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "Lazurowy Sentinel"
+            
+              , "Azure Defender"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie tożsamością"
+            
+              , "bezpieczeństwo danych"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "reagowanie na zagrożenia"
+            
+              , "MFA"
+            
+              , "RBAC"
+            
+              , "NSGs"
+            
+              , "Azure Firewall"
+            
+              , "WAF"
+            
+              , "Azure AD"
+            
+              , "Ochrona informacji w środowisku Azure"
+            
+              , "Szyfrowanie usługi Azure Storage"
+            
+              , "Szyfrowanie dysków w środowisku Azure"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć środowisko chmurowe za pomocą Azure Security Center, korzystając z najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png" length="308057" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

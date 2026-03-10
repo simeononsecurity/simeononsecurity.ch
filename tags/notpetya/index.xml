@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NotPetya on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/notpetya//img/banner.png</url>
+      <title>NotPetya on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/notpetya/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/notpetya/</link>
+
+    <description>Recent content in NotPetya on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/notpetya/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka reagowania na incydenty: Najlepsze praktyki i przykłady z prawdziwego świata</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cybersecurity"
+            
+              , "NIST"
+            
+              , "najlepsze praktyki"
+            
+              , "wywiad o zagrożeniach"
+            
+              , "komunikacja"
+            
+              , "analiza powypadkowa"
+            
+              , "Equifax"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Rurociąg Colonial"
+            
+              , "Microsoft Exchange Server"
+            
+              , "podatności"
+            
+              , "wykrywanie włamań"
+            
+              , "izolacja"
+            
+              , "odzyskiwanie"
+            
+              , "przygotowanie"
+            
+              , "cyberataki"
+            
+              , "cyberprzestępczość"
+            
+              , "incydenty związane z bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki reagowania na incydenty zgodnie z NIST SP 800-61 Rev. 2 i odkryj rzeczywiste przykłady skutecznych strategii reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

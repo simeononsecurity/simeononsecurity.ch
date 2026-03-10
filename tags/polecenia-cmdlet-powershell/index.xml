@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polecenia Cmdlet PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/polecenia-cmdlet-powershell//img/banner.png</url>
+      <title>Polecenia Cmdlet PowerShell on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/polecenia-cmdlet-powershell/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/polecenia-cmdlet-powershell/</link>
+
+    <description>Recent content in Polecenia Cmdlet PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/polecenia-cmdlet-powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Active Directory Administration with PowerShell: Przewodnik instalacji i użytkowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows"
+            
+              , "PowerShell"
+            
+              , "Active Directory"
+            
+              , "Administracja"
+            
+              , "Skrypty"
+            
+              , "IT"
+            
+              , "Automatyzacja"
+            
+              , "Windows Server"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie zainstalować i wykorzystać moduł Active Directory dla PowerShell, aby usprawnić zadania administracyjne Windows Active Directory.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skrypty PowerShell: Przewodnik krok po kroku dla początkujących, jak zautomatyzować zadania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Programowanie"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Skrypty"
+            
+              , "IT"
+            
+              , "Zadania administracyjne"
+            
+              , "Zarządzanie komputerami"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Kodowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy skryptów PowerShell i zautomatyzuj zadania dzięki temu przewodnikowi krok po kroku dla początkujących, obejmującemu polecenia cmdlet, pętle, funkcje i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

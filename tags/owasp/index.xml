@@ -1,0 +1,469 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OWASP on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/owasp//img/banner.png</url>
+      <title>OWASP on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/owasp/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/owasp/</link>
+
+    <description>Recent content in OWASP on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/owasp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "zarządzanie podatnością"
+            
+              , "bezpieczne kodowanie"
+            
+              , "test penetracyjny"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne badanie bezpieczeństwa"
+            
+              , "bezpieczny cykl rozwoju"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć swoje aplikacje internetowe za pomocą standardu OWASP Application Security Verification Standard (ASVS), aby spełnić najbardziej rygorystyczne środki bezpieczeństwa i chronić przed typowymi podatnościami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompleksowy przewodnik dla początkujących po narzędziach i technikach testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "etyczne hakowanie"
+            
+              , "narzędzia"
+            
+              , "techniki"
+            
+              , "przewodnik dla początkujących"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Burp Suite"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "testy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe narzędzia i techniki testów penetracyjnych, metodologie i certyfikaty, aby rozpocząć karierę w dziedzinie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_balaclava.png" length="403619" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,610 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/monitoring//img/banner.png</url>
+      <title>Monitoring on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/monitoring/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/monitoring/</link>
+
+    <description>Recent content in Monitoring on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do DevOps: wypełnianie luki między rozwojem a operacjami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "rozwój oprogramowania"
+            
+              , "operacje"
+            
+              , "współpraca"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "infrastruktura jako kod"
+            
+              , "monitoring"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "efektywność"
+            
+              , "jakość"
+            
+              , "niezawodność"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo"
+            
+              , "audyt"
+            
+              , "identyfikowalność"
+            
+              , "automatyzacja"
+            
+              , "komunikacja"
+            
+              , "zwinny"
+            
+              , "CICD"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "cykl życia oprogramowania"
+            
+              , "systemy oprogramowania"
+            
+              , "przemysł oprogramowania"
+            
+              , "bezpieczeństwo danych"
+            
+              , "przepisy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "przewaga konkurencyjna"
+            
+              , "prywatność danych"
+            
+              , "ochrona danych"
+            
+              , "Ewolucja branży oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.png" length="173119" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie bezpiecznego i zgodnego z przepisami jeziora danych w chmurze: Najlepsze praktyki ochrony przechowywanych danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jezioro danych"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "przepisy dotyczące zgodności"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "monitoring"
+            
+              , "łatanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Rozwiązanie SIEM"
+            
+              , "Zespoły wsparcia IT"
+            
+              , "krajobraz zagrożeń"
+            
+              , "migracja do chmury"
+            
+              , "zarządzanie chmurą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się o najlepszych praktykach w zakresie bezpieczeństwa i zgodności podczas planowania, tworzenia i zarządzania jeziorami danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak zabezpieczyć środowisko Docker i Kubernetes</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Pojemniki"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "RBAC"
+            
+              , "Serwer API"
+            
+              , "Podatności"
+            
+              , "Monitoring"
+            
+              , "Rejestrowanie"
+            
+              , "Firewalle"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometeusz"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja audytu systemu Windows za pomocą skryptu zasad audytu systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zasady audytu systemu Windows"
+            
+              , "Audyt systemu Windows"
+            
+              , "bezpieczeństwo"
+            
+              , "monitoring"
+            
+              , "auditpol"
+            
+              , "Polecenia systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "konfiguracja audytu"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "dzienniki zdarzeń"
+            
+              , "monitorowanie systemu"
+            
+              , "Serwer Windows"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "analiza dziennika"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "reakcja na incydent"
+            
+              , "narzędzia do monitorowania bezpieczeństwa"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "Administracja systemem Windows"
+            
+              , "skrypt"
+            
+              , "administracja systemem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "audyt zgodności"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "zarządzanie logami"
+            
+              , "Ustawienia zabezpieczeń systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zmaksymalizować audyt systemu Windows, wdrażając skrypt zasad audytu systemu Windows w celu zwiększenia bezpieczeństwa i monitorowania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

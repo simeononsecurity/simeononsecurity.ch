@@ -1,0 +1,133 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rurociąg on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ruroci%C4%85g//img/banner.png</url>
+      <title>Rurociąg on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ruroci%C4%85g/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ruroci%C4%85g/</link>
+
+    <description>Recent content in Rurociąg on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ruroci%C4%85g/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

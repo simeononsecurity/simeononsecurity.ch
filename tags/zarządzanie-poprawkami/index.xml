@@ -1,0 +1,521 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Poprawkami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-poprawkami//img/banner.png</url>
+      <title>Zarządzanie Poprawkami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-poprawkami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-poprawkami/</link>
+
+    <description>Recent content in Zarządzanie Poprawkami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-poprawkami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja łatania i aktualizacji systemu Linux za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Łatanie systemu Linux"
+            
+              , "Automatyzacja Ansible"
+            
+              , "Automatyzacja aktualizacji"
+            
+              , "konserwacja systemu"
+            
+              , "Automatyzacja IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "RHEL"
+            
+              , "Alpine"
+            
+              , "stabilność systemu"
+            
+              , "łagodzenie podatności na zagrożenia"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzie do automatyzacji"
+            
+              , "Podręcznik Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "Operacje IT"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "Ubuntu"
+            
+              , "Debian"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "aktualizacje offline"
+            
+              , "lokalne repozytorium"
+            
+              , "cache"
+            
+              , "konfiguracja serwera"
+            
+              , "konfiguracja klienta"
+            
+              , "apt-mirror"
+            
+              , "debmirror"
+            
+              , "createrepo"
+            
+              , "apt-cacher-ng"
+            
+              , "yum-cron"
+            
+              , "Aktualizacje systemu Linux"
+            
+              , "aktualizacje pakietów offline"
+            
+              , "aktualizacje oprogramowania offline"
+            
+              , "lokalne repozytorium pakietów"
+            
+              , "lokalna pamięć podręczna pakietów"
+            
+              , "Aktualizacje systemu Linux w trybie offline"
+            
+              , "obsługa aktualizacji offline"
+            
+              , "metody aktualizacji offline"
+            
+              , "konserwacja systemu offline"
+            
+              , "Aktualizacje serwerów Linux"
+            
+              , "Aktualizacje klienta Linux"
+            
+              , "Zarządzanie oprogramowaniem offline"
+            
+              , "Zarządzanie pakietami offline"
+            
+              , "strategie aktualizacji"
+            
+              , "Aktualizacje zabezpieczeń systemu Linux"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zautomatyzować łatanie i aktualizacje systemu Linux za pomocą Ansible, obejmując różne dystrybucje i instrukcje konfiguracji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png" length="246714" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z przepisami bezpieczeństwa za pomocą skryptów STIG</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypty STIG"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "automatyzacja"
+            
+              , "Windows"
+            
+              , "aplikacje"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Podręczniki Ansible"
+            
+              , "przygotowanie domeny"
+            
+              , "Windows Defender"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "skrypt"
+            
+              , "Zgodność z STIG"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "administracja systemem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów STIG do automatyzacji zgodności z zabezpieczeniami dla systemu Windows i popularnych aplikacji, w tym .NET, Adobe Reader DC i Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja wydajności dzięki Ansible, Docker i Kubernetes: Przewodnik po automatyzacji cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Automatyzacja cyberbezpieczeństwa"
+            
+              , "Oceny podatności na zagrożenia"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Segmentacja sieci"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Tajne zarządzanie"
+            
+              , "Skanowanie bezpieczeństwa"
+            
+              , "Podpisywanie obrazów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Ansible, Docker i Kubernetes w automatyzacji procesów cyberbezpieczeństwa i zmniejszaniu ryzyka naruszenia danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

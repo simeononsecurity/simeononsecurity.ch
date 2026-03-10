@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inwentaryzacja Ansible on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/inwentaryzacja-ansible//img/banner.png</url>
+      <title>Inwentaryzacja Ansible on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/inwentaryzacja-ansible/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/inwentaryzacja-ansible/</link>
+
+    <description>Recent content in Inwentaryzacja Ansible on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/inwentaryzacja-ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do Ansible: Automatyzacja zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Udostępnianie"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Najlepsze praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemu"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentaryzacja Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Najlepsze praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Ansible, narzędzia do automatyzacji o otwartym kodzie źródłowym, które upraszcza zarządzanie infrastrukturą IT za pomocą języka deklaratywnego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

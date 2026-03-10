@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogi O Bezpieczeństwie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/blogi-o-bezpiecze%C5%84stwie//img/banner.png</url>
+      <title>Blogi O Bezpieczeństwie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/blogi-o-bezpiecze%C5%84stwie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/blogi-o-bezpiecze%C5%84stwie/</link>
+
+    <description>Recent content in Blogi O Bezpieczeństwie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/blogi-o-bezpiecze%C5%84stwie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanowanie cyberbezpieczeństwa: Poznawanie najnowszych CVE i aktorów zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "CVE"
+            
+              , "aktorzy zagrożeń"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "analiza zagrożeń"
+            
+              , "udostępnianie informacji"
+            
+              , "współpraca branżowa"
+            
+              , "zalecenia dotyczące bezpieczeństwa"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "ATT&amp;CK® bolster"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "pojawiające się zagrożenia"
+            
+              , "proaktywna obrona"
+            
+              , "automatyczne skanowanie luk w zabezpieczeniach"
+            
+              , "wywiad open source"
+            
+              , "Analiza zagrożeń w czasie rzeczywistym"
+            
+              , "taktyki i techniki podmiotów stanowiących zagrożenie"
+            
+              , "Techniczny OSINT"
+            
+              , "Bazy danych CVE"
+            
+              , "zalecenia dostawców dotyczące bezpieczeństwa"
+            
+              , "blogi o bezpieczeństwie"
+            
+              , "źródła informacji o zagrożeniach"
+            
+              , "społeczności wymiany informacji"
+            
+              , "regulacje rządowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wyprzedzaj cyberzagrożenia, poznając najnowsze CVE i podmioty stanowiące zagrożenie dzięki skutecznym strategiom i zasobom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

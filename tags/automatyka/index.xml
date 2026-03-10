@@ -1,0 +1,1243 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyka on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/automatyka//img/banner.png</url>
+      <title>Automatyka on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/automatyka/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/automatyka/</link>
+
+    <description>Recent content in Automatyka on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/automatyka/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Rój Docker"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Etyczne rozważania i wyzwania związane z AI w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-ethical-condsiderations-and-challenges-of-using-ai-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AI"
+            
+              , "cybersecurity"
+            
+              , "względy etyczne"
+            
+              , "stronniczość"
+            
+              , "prywatność"
+            
+              , "odpowiedzialność"
+            
+              , "złożoność"
+            
+              , "adaptacyjność"
+            
+              , "nadzór nad ludźmi"
+            
+              , "intensywność zasobów"
+            
+              , "prywatność danych"
+            
+              , "uczenie maszynowe"
+            
+              , "wywiad o zagrożeniach"
+            
+              , "ochrona danych"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "zgodność z przepisami"
+            
+              , "transformacja cyfrowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-ethical-condsiderations-and-challenges-of-using-ai-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o etycznych rozważaniach i wyzwaniach związanych z wykorzystaniem AI w cyberbezpieczeństwie oraz o tym, jak można je rozwiązać w celu efektywnego wykorzystania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png" length="498061" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie domowego laboratorium: Przewodnik dla informatyków, studentów i hobbystów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Home Lab"
+            
+              , "informatycy"
+            
+              , "uczniowie"
+            
+              , "hobbyści"
+            
+              , "tworzenie sieci"
+            
+              , "wirtualizacja"
+            
+              , "automatyka"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "najlepsze praktyki"
+            
+              , "przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten obszerny przewodnik zawiera szczegółowy przegląd tego, czym jest Domowe Laboratorium, dlaczego warto je stworzyć, jakie elementy są potrzebne, jak je skonfigurować, zaawansowane tematy do zbadania i najlepsze praktyki do naśladowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dlaczego Twoja firma powinna zaktualizować system do Windows Server 2022</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Server 2022"
+            
+              , "Aktualizacja"
+            
+              , "Biznes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zarządzanie"
+            
+              , "Automatyka"
+            
+              , "Wydajność"
+            
+              , "Skalowalność"
+            
+              , "Windows Server 2019 r"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/switching-to-server-2022-over-server-2019/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj ulepszone funkcje zabezpieczeń, możliwości zarządzania i automatyzacji oraz wydajność i skalowalność systemu Windows Server 2022, dzięki czemu jest to najlepszy wybór dla firm poszukujących uaktualnienia z systemu Windows Server 2019.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png" length="436657" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga PowerShella dla usprawnienia operacji bezpieczeństwa cybernetycznego i zgodności z przepisami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cybersecurity"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "STIG SRG Wymagania"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z systemem Windows za pomocą Ansible STIG Playbooks</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka"
+            
+              , "Zgodność z systemem Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Skrypty STIG"
+            
+              , "Zgodność z STIG"
+            
+              , "Ansible Galaxy"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Windows Server"
+            
+              , "Windows Defender"
+            
+              , ".NET"
+            
+              , "FireFox"
+            
+              , "Oracle JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Łączność z Internetem"
+            
+              , "Kompatybilność w trybie offline"
+            
+              , "Hartowanie bezpieczeństwa"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij przestrzeganie zasad bezpieczeństwa dzięki Ansible STIG Playbooks dla systemów Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktywacji Windows KMS za pomocą skryptu GLVK</title>
+        
+          <link>https://pl.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktywacja systemu Windows"
+            
+              , "Klucze klienckie KMS"
+            
+              , "GLVK"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zgodność"
+            
+              , "Skrypt Powershell"
+            
+              , "Usługa zarządzania kluczami"
+            
+              , "Licencjonowanie objętościowe"
+            
+              , "Aktywacja przedsiębiorstwa"
+            
+              , "Serwer zarządzania kluczami"
+            
+              , "Automatyka"
+            
+              , "Produkty Microsoft"
+            
+              , "System operacyjny"
+            
+              , "Oprogramowanie"
+            
+              , "Środowiska korporacyjne"
+            
+              , "Powershell administracyjny"
+            
+              , "Repozytorium GitHub"
+            
+              , "Skryptowanie"
+            
+              , "Cybersecurity"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uprość proces aktywacji Windows 10 KMS za pomocą skryptu GLVK Auto Install SimeonOnSecurity i dowiedz się więcej o kluczach klienckich KMS i GLVK z zalecanej lektury Microsoftu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny poradnik jak wzmocnić system Windows za pomocą Windows Defender Application Control WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender Application Control WDAC Hardening"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Windows Defender Exploit Protection WDEP"
+            
+              , "Windows Defender Attack Surface Reduction ASR"
+            
+              , "Windows Server 2016 2019"
+            
+              , "Windows Server Core"
+            
+              , "Zestaw narzędzi Microsoft WDAC"
+            
+              , "Odświeżenie polityki CI"
+            
+              , "Zalecane przez Microsoft zasady blokowania"
+            
+              , "Zalecane przez Microsoft zasady blokowania sterowników"
+            
+              , "Zasady XML"
+            
+              , "Polityka BIN"
+            
+              , "Polityka grupowa"
+            
+              , "Microsoft Intune"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Windows Defender Application Control WDAC do utwardzania systemu operacyjnego Windows za pomocą skryptów i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wydajne skanowanie wirusów dzięki modułom VirusTotal PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/virustotal-ps/</link>
+        
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Moduły PowerShell"
+            
+              , "PowerShell"
+            
+              , "Automatyka"
+            
+              , "VirusTotal"
+            
+              , "Skanowanie wirusów"
+            
+              , "Skanowanie domen"
+            
+              , "Klucz API"
+            
+              , "VirusTotal API"
+            
+              , "Strona programistów VirusTotal"
+            
+              , "Administracja systemem"
+            
+              , "Przepływ pracy w zakresie bezpieczeństwa"
+            
+              , "Skuteczne skanowanie wirusów"
+            
+              , "Pobierz i zainstaluj"
+            
+              , "Repozytorium GitHub"
+            
+              , "Przykłady użycia API"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/virustotal-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wykonuj wydajne skanowanie wirusów za pomocą VirusTotal PowerShell Modules poprzez automatyzację interakcji z VirusTotal API i usprawnienie przepływu pracy w zakresie bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z Windows Defender za pomocą skryptu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Antywirus Windows"
+            
+              , "Skryptowanie w systemie Windows"
+            
+              , "Automatyka Windows"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Automatyzacja Windows Defender"
+            
+              , "Zgodność z programem Windows Defender"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje bezpieczeństwo dzięki skryptowi Windows Defender STIG PowerShell, który automatyzuje zgodność z wytycznymi Windows Defender Antivirus V1R9 STIG.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

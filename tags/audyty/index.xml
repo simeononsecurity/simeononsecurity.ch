@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audyty on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/audyty//img/banner.png</url>
+      <title>Audyty on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/audyty/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/audyty/</link>
+
+    <description>Recent content in Audyty on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/audyty/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Ponowne Użycie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpieczne-ponowne-u%C5%BCycie//img/banner.png</url>
+      <title>Bezpieczne Ponowne Użycie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpieczne-ponowne-u%C5%BCycie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpieczne-ponowne-u%C5%BCycie/</link>
+
+    <description>Recent content in Bezpieczne Ponowne Użycie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpieczne-ponowne-u%C5%BCycie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standard sanityzacji danych DoD 5220.22-M</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Oczyszczanie danych"
+            
+              , "bezpieczne usuwanie"
+            
+              , "wrażliwe informacje"
+            
+              , "bezpieczeństwo danych"
+            
+              , "cyfrowe nośniki pamięci"
+            
+              , "DoD 5220.22-M"
+            
+              , "ochrona danych"
+            
+              , "prywatność danych"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "usuwanie danych"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "oprogramowanie do sanityzacji danych"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "niszczenie danych"
+            
+              , "zarządzanie danymi"
+            
+              , "bezpieczne usuwanie danych"
+            
+              , "zapobieganie odzyskiwaniu danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "czyszczenie danych"
+            
+              , "zarządzanie informacjami"
+            
+              , "bezpieczna utylizacja"
+            
+              , "metody niszczenia danych"
+            
+              , "proces sanityzacji danych"
+            
+              , "nadpisywanie danych"
+            
+              , "weryfikacja danych"
+            
+              , "standardy sanityzacji danych"
+            
+              , "najlepsze praktyki usuwania danych"
+            
+              , "Bezpieczne usuwanie danych"
+            
+              , "bezpieczne ponowne użycie"
+            
+              , "zgodność sanityzacji danych"
+            
+              , "bezpieczne zarządzanie danymi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Specyfikacja DoD 5220.22-M jest krytycznym standardem bezpiecznego usuwania poufnych informacji z cyfrowych nośników danych, szeroko stosowanym przez amerykańskie wojsko i organizacje rządowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png" length="340364" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

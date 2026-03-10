@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Zdecentralizowany on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/system-zdecentralizowany//img/banner.png</url>
+      <title>System Zdecentralizowany on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/system-zdecentralizowany/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/system-zdecentralizowany/</link>
+
+    <description>Recent content in System Zdecentralizowany on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/system-zdecentralizowany/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Blockchain dla bezpiecznego zarządzania tożsamością</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management/</link>
+        
+        <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "blockchain"
+            
+              , "zarządzanie tożsamością"
+            
+              , "uwierzytelnianie"
+            
+              , "zdecentralizowana tożsamość"
+            
+              , "uwierzytelnianie bez hasła"
+            
+              , "inteligentne kontrakty"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Kryptografia klucza prywatnego"
+            
+              , "niezmienne rekordy"
+            
+              , "system zdecentralizowany"
+            
+              , "pojedyncze logowanie"
+            
+              , "weryfikacja poświadczeń"
+            
+              , "skalowalność"
+            
+              , "prywatność"
+            
+              , "przyjęcie"
+            
+              , "tożsamość cyfrowa"
+            
+              , "technologia rozproszonego rejestru"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "technologia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego przewodnika dla początkujących dowiesz się, jak wykorzystać technologię blockchain do bezpiecznego uwierzytelniania i zarządzania tożsamością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png" length="300383" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

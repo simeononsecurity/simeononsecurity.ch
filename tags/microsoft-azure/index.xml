@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Azure on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/microsoft-azure//img/banner.png</url>
+      <title>Microsoft Azure on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/microsoft-azure/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/microsoft-azure/</link>
+
+    <description>Recent content in Microsoft Azure on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/microsoft-azure/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmaksymalizuj wydajność chmury hybrydowej: Uwolnienie pełnego potencjału Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ops"
+            
+              , "CICD"
+            
+              , "skalowalność"
+            
+              , "wydajność"
+            
+              , "bezpieczeństwo"
+            
+              , "zgodność"
+            
+              , "integracja"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Google Cloud"
+            
+              , "Wieża Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "oszczędność kosztów"
+            
+              , "Wydajność informatyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak możliwości automatyzacji Ansible mogą usprawnić, zabezpieczyć i zoptymalizować środowiska chmur hybrydowych w celu zwiększenia wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skuteczność Lokalizacji on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/skuteczno%C5%9B%C4%87-lokalizacji//img/banner.png</url>
+      <title>Skuteczność Lokalizacji on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skuteczno%C5%9B%C4%87-lokalizacji/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skuteczno%C5%9B%C4%87-lokalizacji/</link>
+
+    <description>Recent content in Skuteczność Lokalizacji on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skuteczno%C5%9B%C4%87-lokalizacji/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skrypt automatyzacji tłumaczeń dla plików Hugo Markdown - Glotta</title>
+        
+          <link>https://pl.simeononsecurity.com/github/glotta/</link>
+        
+        <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "automatyzacja tłumaczeń"
+            
+              , "Hugo markdown"
+            
+              , "lokalizacja"
+            
+              , "Wielojęzyczna zawartość"
+            
+              , "narzędzie wiersza poleceń"
+            
+              , "tłumaczenie językowe"
+            
+              , "lokalizacja językowa"
+            
+              , "skrypt automatyzacji"
+            
+              , "tłumaczenie treści"
+            
+              , "Wielojęzyczna strona internetowa"
+            
+              , "wsparcie językowe"
+            
+              , "przepływ pracy lokalizacji"
+            
+              , "proces tłumaczenia"
+            
+              , "integracja językowa"
+            
+              , "Generator stron statycznych Hugo"
+            
+              , "Glotta"
+            
+              , "pliki językowe"
+            
+              , "API tłumaczenia"
+            
+              , "dostawcy usług tłumaczeniowych"
+            
+              , "usługi tłumaczeniowe"
+            
+              , "zarządzanie językiem"
+            
+              , "wielojęzyczne SEO"
+            
+              , "lokalizacja treści"
+            
+              , "globalizacja strony internetowej"
+            
+              , "narzędzie wsparcia językowego"
+            
+              , "przepływ pracy językowej"
+            
+              , "wydajność tłumaczenia"
+            
+              , "skuteczność lokalizacji"
+            
+              , "automatyczne tłumaczenie"
+            
+              , "Wielojęzyczne wsparcie Hugo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/glotta/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Glotta to potężne narzędzie wiersza poleceń, które automatyzuje tłumaczenie plików Hugo markdown na wiele języków, dzięki czemu lokalizacja staje się dziecinnie prosta.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,479 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konteneryzacja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/konteneryzacja//img/banner.png</url>
+      <title>Konteneryzacja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/konteneryzacja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/konteneryzacja/</link>
+
+    <description>Recent content in Konteneryzacja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/konteneryzacja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna poczta e-mail: Zwiększenie prywatności dzięki StartMail</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Szyfrowanie"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność poczty e-mail"
+            
+              , "Ochrona tożsamości"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj StartMail, bezpieczną usługę poczty e-mail z zaawansowanym szyfrowaniem i maskowaniem wiadomości e-mail, zapewniającą najwyższą prywatność i ochronę przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure_email_guard.png" length="1073957" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Rój Docker"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "uchwyty na woluminy"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak utworzyć i uruchomić obraz Docker Tor Bridge w celu zwiększenia prywatności i anonimowości</title>
+        
+          <link>https://pl.simeononsecurity.com/github/docker-tor-bridge/</link>
+        
+        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker Tor Bridge"
+            
+              , "prywatność"
+            
+              , "anonymity"
+            
+              , "obraz docker"
+            
+              , "torrc.default"
+            
+              , "kompilacja docker"
+            
+              , "kontener docker"
+            
+              , "bieżący adres IP"
+            
+              , "tor socks proxy"
+            
+              , "bezpieczeństwo online"
+            
+              , "Zwiększona prywatność"
+            
+              , "networking"
+            
+              , "dokowanie"
+            
+              , "konteneryzacja"
+            
+              , "Samouczek Docker"
+            
+              , "Adres IP"
+            
+              , "prywatność sieci"
+            
+              , "serwer proxy"
+            
+              , "anonimowość sieci"
+            
+              , "Sieć Docker"
+            
+              , "Sieć Tor"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "anonimowe przeglądanie"
+            
+              , "Plik Docker"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona sieci"
+            
+              , "cyberobrona"
+            
+              , "Wdrożenie Docker"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/docker-tor-bridge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak utworzyć i uruchomić obraz Docker Tor Bridge, aby poprawić swoją prywatność i anonimowość w Internecie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

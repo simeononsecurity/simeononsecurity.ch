@@ -1,0 +1,103 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Pakietami W Systemie Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-pakietami-w-systemie-windows//img/banner.png</url>
+      <title>Zarządzanie Pakietami W Systemie Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-pakietami-w-systemie-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-pakietami-w-systemie-windows/</link>
+
+    <description>Recent content in Zarządzanie Pakietami W Systemie Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/zarz%C4%85dzanie-pakietami-w-systemie-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś nauczyłam się tworzyć czekoladowe opakowania</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-23/</link>
+        
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie pakietami w systemie Windows"
+            
+              , "Tworzenie pakietów"
+            
+              , "Zarządzanie pakietami"
+            
+              , "Infrastruktura jako kod (IaC)"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "Pakowanie oprogramowania"
+            
+              , "Automatyzacja systemu Windows"
+            
+              , "Repozytoria pakietów"
+            
+              , "Narzędzia Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-23/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

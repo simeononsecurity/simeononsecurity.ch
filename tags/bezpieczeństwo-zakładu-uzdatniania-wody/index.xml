@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Zakładu Uzdatniania Wody on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-zak%C5%82adu-uzdatniania-wody//img/banner.png</url>
+      <title>Bezpieczeństwo Zakładu Uzdatniania Wody on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-zak%C5%82adu-uzdatniania-wody/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-zak%C5%82adu-uzdatniania-wody/</link>
+
+    <description>Recent content in Bezpieczeństwo Zakładu Uzdatniania Wody on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-zak%C5%82adu-uzdatniania-wody/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie przemysłowych systemów sterowania (ICS): Wyzwania, najlepsze praktyki i przyszłe trendy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/securing-industrial-control-systems/</link>
+        
+        <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przemysłowe systemy sterowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Wyzwania związane z bezpieczeństwem ICS"
+            
+              , "Najlepsze praktyki dla ICS"
+            
+              , "Składniki ICS"
+            
+              , "Starsze systemy"
+            
+              , "Szkolenie pracowników"
+            
+              , "Podatności łańcucha dostaw"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Wdrożenia zabezpieczeń ICS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/securing-industrial-control-systems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o wyzwaniach, najlepszych praktykach i przyszłych trendach w zabezpieczaniu przemysłowych systemów sterowania (ICS) przed cyberzagrożeniami i zapewnianiu płynnego działania infrastruktury krytycznej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_concept_of_s.png" length="358287" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,869 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/microsoft//img/banner.png</url>
+      <title>Microsoft on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/microsoft/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/microsoft/</link>
+
+    <description>Recent content in Microsoft on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Odblokowywanie mocy kluczy licencyjnych w celu zwiększenia wydajności</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Wydajność"
+            
+              , "Systemy operacyjne"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Licencjonowanie"
+            
+              , "Zarządzanie kluczami"
+            
+              , "Rozwiązania IT"
+            
+              , "Ulepszenie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak klucze Windows GVLK rewolucjonizują wydajność! Poznaj najlepsze klucze licencyjne i bez wysiłku zwiększ wydajność swojego systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja instalacji Windows 11: Obejście TPM, bezpiecznego rozruchu i kontroli pamięci RAM</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows 11"
+            
+              , "Instalacja"
+            
+              , "Wirtualizacja"
+            
+              , "Automatyzacja"
+            
+              , "Klucze rejestru"
+            
+              , "Obejście TPM"
+            
+              , "Bezpieczne obejście rozruchu"
+            
+              , "Obejście pamięci RAM"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij instalację Windows 11 w środowiskach zwirtualizowanych, omijając kontrole TPM, Secure Boot i pamięci RAM za pomocą autounattend.xml i vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja komputera z systemem Windows za pomocą Windows-Optimize-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Debloating Windows"
+            
+              , "Przyspieszenie systemu Windows"
+            
+              , "Optymalizacja wydajności systemu Windows"
+            
+              , "Zwiększenie wydajności systemu Windows"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Microsoft"
+            
+              , "Prywatność"
+            
+              , "Usuwanie zbędnego oprogramowania"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Windows Defender"
+            
+              , "Windows Update"
+            
+              , "Cortona"
+            
+              , "Obiekty zasad grupy"
+            
+              , "Telemetria"
+            
+              , "Sklep Windows"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Popraw wydajność i prywatność swojego systemu operacyjnego Windows za pomocą Windows-Optimize-Debloat, kompleksowego skryptu, który pomaga usunąć bloatware i zoptymalizować ustawienia systemowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SolarWinds Orion Atak na łańcuch dostaw: C2, Łagodzenie skutków i wskazówki ekspertów</title>
+        
+          <link>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</link>
+        
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SolarWinds"
+            
+              , "Łańcuch dostaw"
+            
+              , "C2"
+            
+              , "Dowodzenie i kontrola"
+            
+              , "Środki zaradcze"
+            
+              , "Poradnik"
+            
+              , "Threat Intelligence"
+            
+              , "DHS"
+            
+              , "FireEye"
+            
+              , "MSRC"
+            
+              , "Microsoft"
+            
+              , "BEZ"
+            
+              , "SolarWinds.Orion.Core.BusinessLayer.dll"
+            
+              , "SolarWinds.BusinessLayerHost.exe"
+            
+              , "ConfigurationWizard.exe"
+            
+              , "NetflowDatabaseMaintenance.exe"
+            
+              , "NetFlowService.exe"
+            
+              , "SolarWinds.Administration.exe"
+            
+              , "SolarWinds.Collector.Service.exe"
+            
+              , "DNS CNAME"
+            
+              , "Zakresy IP"
+            
+              , "Nazwy DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj atak na łańcuch dostaw SolarWinds Orion, w tym złośliwe oprogramowanie C2, środki zaradcze i wskazówki ekspertów z organizacji takich jak DHS i FireEye.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona systemu Windows przed atakami typu Speculative Execution Side-Channel.</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Spectre Meltdown Mitigation Script"
+            
+              , "Ataki typu Speculative Execution Side-Channel"
+            
+              , "Microsoft"
+            
+              , "Intel"
+            
+              , "AMD"
+            
+              , "VIA"
+            
+              , "ARM"
+            
+              , "Android"
+            
+              , "Chrome"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Branch Target Injection"
+            
+              , "Kontrola granic Obejście"
+            
+              , "Rogue Data Cache Load"
+            
+              , "Obejście sklepu spekulacyjnego"
+            
+              , "Mikroarchitektoniczne próbkowanie danych"
+            
+              , "CVEs"
+            
+              , "Aktualizacje oprogramowania sprzętowego"
+            
+              , "Repozytorium GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć system Windows przed atakami typu speculative execution side-channel za pomocą skryptu łagodzącego Microsoftu i aktualizacji oprogramowania sprzętowego
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane certyfikaty</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane certyfikaty"
+            
+              , "Najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT"
+            
+              , "Najlepsze certyfikaty dla osób poszukujących pracy"
+            
+              , "Zalecenia dotyczące certyfikacji SimeonOnSecurity"
+            
+              , "Certyfikaty CompTIA"
+            
+              , "Certyfikaty Cisco"
+            
+              , "Certyfikaty EC-Council"
+            
+              , "Certyfikaty ISC2"
+            
+              , "Certyfikaty Juniper"
+            
+              , "Certyfikaty Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity poleca najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT dla tych, którzy chcą wejść na rynek pracy. Lista obejmuje certyfikaty CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft i Offensive Security, na różnych poziomach zaawansowania - Entry, Associate, Professional i Expert. Wszystkie wymienione certyfikaty są bezpośrednio związane ze stanowiskami w cyberprzestrzeni i przyniosą kandydatom wiele korzyści. Sprawdź interaktywną mapę drogową certyfikacji, aby uzyskać wizualną reprezentację. Dostępne są również zasoby edukacyjne, takie jak książki i szkolenia.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane zasoby edukacyjne</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane zasoby edukacyjne"
+            
+              , "Nauka IT"
+            
+              , "Szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "Kursy sieciowe"
+            
+              , "Edukacja w zakresie systemów operacyjnych"
+            
+              , "Zasoby dotyczące programowania i skryptów"
+            
+              , "Nauka online"
+            
+              , "Laboratoria cyberbezpieczeństwa"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie z systemów operacyjnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze zasoby edukacyjne z zakresu IT, cyberbezpieczeństwa, sieci, systemów operacyjnych oraz programowania i skryptów dzięki rekomendacjom SimeonOnSecurity. Od bezpłatnych platform online, takich jak Cybrary, Code.org i CodeAcademy, po płatne platformy, takie jak LinkedIn Learning, Pluralsight i TryHackMe, znajdziesz szeroką gamę opcji, które spełnią Twoje cele edukacyjne. Zwiększ swoje umiejętności w takich obszarach jak Cisco, Juniper, Windows, VMware i Red Hat dzięki bezpłatnym szkoleniom i certyfikatom. Przenieś swoją karierę na wyższy poziom dzięki najwyżej ocenianym zasobom edukacyjnym SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

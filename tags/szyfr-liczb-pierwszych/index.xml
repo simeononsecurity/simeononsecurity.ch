@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szyfr Liczb Pierwszych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/szyfr-liczb-pierwszych//img/banner.png</url>
+      <title>Szyfr Liczb Pierwszych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szyfr-liczb-pierwszych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szyfr-liczb-pierwszych/</link>
+
+    <description>Recent content in Szyfr Liczb Pierwszych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szyfr-liczb-pierwszych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Wezwanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Crypto Challenge"
+            
+              , "Sygnały DTMF"
+            
+              , "Szyfr liczb pierwszych"
+            
+              , "Odszyfrowanie"
+            
+              , "Rozwiązywanie zagadek"
+            
+              , "Kryptografia"
+            
+              , "Konwersja audio"
+            
+              , "DialABC"
+            
+              , "Decode.fr"
+            
+              , "WAV"
+            
+              , "MP3"
+            
+              , "Częstotliwość"
+            
+              , "Cecha matematyczna"
+            
+              , "Flaga"
+            
+              , "Audacity"
+            
+              , "Wizualizer dźwiękowy"
+            
+              , "Numery"
+            
+              , "Menu automatycznych kasjerów"
+            
+              , "Telefon płatny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-call/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak odszyfrować tony DTMF za pomocą szyfru liczb pierwszych, aby rozwiązać wyzwanie Crypto - Call na HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png" length="327364" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

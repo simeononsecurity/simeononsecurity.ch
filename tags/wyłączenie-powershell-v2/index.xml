@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyłączenie PowerShell V2 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wy%C5%82%C4%85czenie-powershell-v2//img/banner.png</url>
+      <title>Wyłączenie PowerShell V2 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wy%C5%82%C4%85czenie-powershell-v2/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wy%C5%82%C4%85czenie-powershell-v2/</link>
+
+    <description>Recent content in Wyłączenie PowerShell V2 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wy%C5%82%C4%85czenie-powershell-v2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

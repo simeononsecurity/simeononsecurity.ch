@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Office on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/microsoft-office//img/banner.png</url>
+      <title>Microsoft Office on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/microsoft-office/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/microsoft-office/</link>
+
+    <description>Recent content in Microsoft Office on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/microsoft-office/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Optymalizacja i wzmocnienie systemu Windows za pomocą skryptu Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Wydajność systemu Windows"
+            
+              , "Prywatność systemu Windows"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Obiekty polityki grupowej"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Firefox"
+            
+              , "Google Chrome"
+            
+              , "Internet Explorer"
+            
+              , "Microsoft Chromium Edge"
+            
+              , "Dot Net 4"
+            
+              , "Microsoft Office"
+            
+              , "Onedrive"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Zapora systemu Windows"
+            
+              , "Windows Defender"
+            
+              , "Applocker"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten kompleksowy przewodnik zawiera instrukcje krok po kroku, jak zoptymalizować, utwardzić i usunąć z systemu Windows, aby zwiększyć jego wydajność, bezpieczeństwo i prywatność.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

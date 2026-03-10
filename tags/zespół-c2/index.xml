@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zespół C2 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zesp%C3%B3%C5%82-c2//img/banner.png</url>
+      <title>Zespół C2 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zesp%C3%B3%C5%82-c2/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zesp%C3%B3%C5%82-c2/</link>
+
+    <description>Recent content in Zespół C2 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zesp%C3%B3%C5%82-c2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Backdoors and Breaches Bot: Towarzysz turowej gry strategicznej</title>
+        
+          <link>https://pl.simeononsecurity.com/github/discord-backdoors-and-breaches/</link>
+        
+        <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bot Discorda"
+            
+              , "Backdoory i włamania"
+            
+              , "Turowa gra strategiczna"
+            
+              , "towarzysz gry"
+            
+              , "polecenia rozgrywki"
+            
+              , "bot gry strategicznej"
+            
+              , "BHIS"
+            
+              , "Black Hills InfoSec"
+            
+              , "mistrz incydentów"
+            
+              , "Zespół C2"
+            
+              , "fazy gry"
+            
+              , "konfiguracja gry"
+            
+              , "Instrukcje dotyczące rozgrywki"
+            
+              , "kanał gry"
+            
+              , "Bot Python"
+            
+              , "Bot Docker"
+            
+              , "automatyzacja gier"
+            
+              , "współpraca przy grze"
+            
+              , "koordynacja gry"
+            
+              , "gra cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "tworzenie gier"
+            
+              , "Wskazówki dotyczące rozgrywki"
+            
+              , "gra wieloosobowa"
+            
+              , "role w grze"
+            
+              , "wyzwania w grach"
+            
+              , "fazy gry"
+            
+              , "Konfiguracja środowiska gry"
+            
+              , "bot dokowany"
+            
+              , "Zależności Pythona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/discord-backdoors-and-breaches/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje wrażenia z gry w Backdoors and Breaches dzięki temu botowi Discord w wersji pre-alpha, dostarczającemu polecenia ułatwiające rozgrywkę i interakcję.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

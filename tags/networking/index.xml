@@ -1,0 +1,517 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/networking//img/banner.png</url>
+      <title>Networking on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/networking/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/networking/</link>
+
+    <description>Recent content in Networking on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Znajdowanie i zabezpieczanie zdalnych ofert pracy w cyberbezpieczeństwie: Twój przewodnik po sukcesie</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/</link>
+        
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zdalne oferty pracy w obszarze cyberbezpieczeństwa"
+            
+              , "Znajdowanie pracy zdalnej"
+            
+              , "zabezpieczanie pracy zdalnej"
+            
+              , "kariery w cyberbezpieczeństwie"
+            
+              , "możliwości pracy zdalnej"
+            
+              , "Platformy pracy online"
+            
+              , "cyberbezpieczeństwo poszukiwanie pracy"
+            
+              , "równowaga między życiem zawodowym a prywatnym"
+            
+              , "satysfakcja z pracy"
+            
+              , "globalny rynek pracy"
+            
+              , "strategie poszukiwania pracy"
+            
+              , "ogłoszenia o pracę"
+            
+              , "networking"
+            
+              , "freelancing"
+            
+              , "kontrakty rządowe"
+            
+              , "wiedza techniczna"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "umiejętności rozwiązywania problemów"
+            
+              , "umiejętności komunikacyjne"
+            
+              , "Motywacja własna"
+            
+              , "wywiady zdalne"
+            
+              , "wskazówki dotyczące CV"
+            
+              , "wskazówki dotyczące listu motywacyjnego"
+            
+              , "podstawy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "analiza zagrożeń"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "reakcja na incydent"
+            
+              , "Trendy w branży cyberbezpieczeństwa"
+            
+              , "wirtualna współpraca"
+            
+              , "umiejętności zarządzania czasem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/how-to-find-and-get-the-best-remote-cybersecurity-job/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak znaleźć i zabezpieczyć najlepsze zdalne oferty pracy w obszarze cyberbezpieczeństwa, wykorzystując elastyczność i globalne możliwości w tej rozwijającej się dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.png" length="296360" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja firmware offline dla Ubiquiti Unifi UDM Pro i UDM SE przez SSH z wiersza poleceń</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja oprogramowania układowego Ubiquiti"
+            
+              , "UDM Pro"
+            
+              , "UDM SE"
+            
+              , "aktualizacja oprogramowania sprzętowego offline"
+            
+              , "Wiersz poleceń SSH"
+            
+              , "zarządzanie siecią"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacja oprogramowania sprzętowego"
+            
+              , "Połączenie SSH"
+            
+              , "plik oprogramowania układowego"
+            
+              , "Kontroler sieci UniFi"
+            
+              , "poprawki błędów"
+            
+              , "poprawa wydajności"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "networking"
+            
+              , "urządzenia sieciowe"
+            
+              , "technologia"
+            
+              , "Zarządzanie IT"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego"
+            
+              , "optymalizacja sieci"
+            
+              , "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM Pro"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM SE"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego offline"
+            
+              , "Aktualizacja oprogramowania sprzętowego SSH"
+            
+              , "zarządzanie urządzeniami sieciowymi"
+            
+              , "aktualizacje zabezpieczeń sieci"
+            
+              , "strategie aktualizacji oprogramowania sprzętowego"
+            
+              , "Zarządzanie oprogramowaniem sprzętowym offline"
+            
+              , "optymalizacja wydajności sieci"
+            
+              , "zarządzanie poprawkami zabezpieczeń"
+            
+              , "aktualizacje technologii sieciowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "networking"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png" length="412120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak utworzyć i uruchomić obraz Docker Tor Bridge w celu zwiększenia prywatności i anonimowości</title>
+        
+          <link>https://pl.simeononsecurity.com/github/docker-tor-bridge/</link>
+        
+        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker Tor Bridge"
+            
+              , "prywatność"
+            
+              , "anonymity"
+            
+              , "obraz docker"
+            
+              , "torrc.default"
+            
+              , "kompilacja docker"
+            
+              , "kontener docker"
+            
+              , "bieżący adres IP"
+            
+              , "tor socks proxy"
+            
+              , "bezpieczeństwo online"
+            
+              , "Zwiększona prywatność"
+            
+              , "networking"
+            
+              , "dokowanie"
+            
+              , "konteneryzacja"
+            
+              , "Samouczek Docker"
+            
+              , "Adres IP"
+            
+              , "prywatność sieci"
+            
+              , "serwer proxy"
+            
+              , "anonimowość sieci"
+            
+              , "Sieć Docker"
+            
+              , "Sieć Tor"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "anonimowe przeglądanie"
+            
+              , "Plik Docker"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona sieci"
+            
+              , "cyberobrona"
+            
+              , "Wdrożenie Docker"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/docker-tor-bridge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak utworzyć i uruchomić obraz Docker Tor Bridge, aby poprawić swoją prywatność i anonimowość w Internecie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane certyfikaty</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecane certyfikaty"
+            
+              , "Najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT"
+            
+              , "Najlepsze certyfikaty dla osób poszukujących pracy"
+            
+              , "Zalecenia dotyczące certyfikacji SimeonOnSecurity"
+            
+              , "Certyfikaty CompTIA"
+            
+              , "Certyfikaty Cisco"
+            
+              , "Certyfikaty EC-Council"
+            
+              , "Certyfikaty ISC2"
+            
+              , "Certyfikaty Juniper"
+            
+              , "Certyfikaty Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity poleca najlepsze certyfikaty z zakresu cyberbezpieczeństwa i IT dla tych, którzy chcą wejść na rynek pracy. Lista obejmuje certyfikaty CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft i Offensive Security, na różnych poziomach zaawansowania - Entry, Associate, Professional i Expert. Wszystkie wymienione certyfikaty są bezpośrednio związane ze stanowiskami w cyberprzestrzeni i przyniosą kandydatom wiele korzyści. Sprawdź interaktywną mapę drogową certyfikacji, aby uzyskać wizualną reprezentację. Dostępne są również zasoby edukacyjne, takie jak książki i szkolenia.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

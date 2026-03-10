@@ -1,0 +1,590 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polityki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/polityki-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Polityki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/polityki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/polityki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Polityki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/polityki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wskaźniki zagrożeń wewnętrznych: Identyfikacja i ograniczanie potencjalnych zagrożeń</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/insider-threat-indicators-and-identifying-potential-risk/</link>
+        
+        <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "wskaźniki zagrożeń wewnętrznych"
+            
+              , "łagodzenie zagrożeń wewnętrznych"
+            
+              , "potencjalne zagrożenia"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo danych"
+            
+              , "monitorowanie pracowników"
+            
+              , "kontrola dostępu"
+            
+              , "Analiza zachowań użytkowników"
+            
+              , "szkolenie w zakresie świadomości bezpieczeństwa"
+            
+              , "zgodność z przepisami"
+            
+              , "ochrona danych"
+            
+              , "monitorowanie sieci"
+            
+              , "zachowanie pracowników"
+            
+              , "dostęp do danych"
+            
+              , "nietypowa aktywność sieciowa"
+            
+              , "zmiana schematów pracy"
+            
+              , "trudności finansowe"
+            
+              , "niezadowolenie"
+            
+              , "zachowanie online"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "plan reagowania na incydenty"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "ograniczanie zagrożeń wewnętrznych"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "podejrzane zachowanie"
+            
+              , "zapobieganie zagrożeniom wewnętrznym"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/insider-threat-indicators-and-identifying-potential-risk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj potencjalne wskaźniki zagrożeń wewnętrznych i skuteczne strategie łagodzenia ich skutków, aby chronić bezpieczeństwo swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_showing_a_team_of_diverse.png" length="206390" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie kluczowych elementów procesu OPSEC dla skutecznej ochrony informacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Proces OPSEC"
+            
+              , "bezpieczeństwo operacyjne"
+            
+              , "ochrona informacji"
+            
+              , "środki bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "informacje krytyczne"
+            
+              , "ocena zagrożenia"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "analiza ryzyka"
+            
+              , "środki zaradcze"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "poufność"
+            
+              , "integralność"
+            
+              , "dostępność"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "informacje niejawne"
+            
+              , "zgodność"
+            
+              , "NISPOM"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "prywatność danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "stan bezpieczeństwa"
+            
+              , "aktywa informacyjne"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ograniczanie ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "klasyfikacja informacji"
+            
+              , "Które z poniższych elementów są częścią procesu opsec?"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych wskazówek dotyczących bezpieczeństwa poczty e-mail: Chroń swoje dane i bądź bezpieczny</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo poczty e-mail"
+            
+              , "Ochrona danych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność online"
+            
+              , "Kradzież tożsamości"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Oszustwa phishingowe"
+            
+              , "Bezpieczeństwo w Internecie"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ten-essential-email-security-tips-to-keep-your-data-safe/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 kluczowych wskazówek dotyczących bezpieczeństwa poczty e-mail, aby chronić swoje dane przed cyberzagrożeniami i naruszeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png" length="65775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona organizacji przed zagrożeniami wewnętrznymi: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</link>
+        
+        <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zagrożenia wewnętrzne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "ochrona danych"
+            
+              , "szkolenie pracowników"
+            
+              , "kontrole techniczne"
+            
+              , "kontrola dostępu"
+            
+              , "rozwój polityki"
+            
+              , "zapobieganie utracie danych"
+            
+              , "reakcja na incydent"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "ocena ryzyka"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "cyberprzestępczość"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki ochrony organizacji przed zagrożeniami wewnętrznymi powodowanymi przez pracowników, wykonawców lub partnerów, którzy mają dostęp do wrażliwych danych i systemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png" length="277593" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja audytu systemu Windows za pomocą skryptu zasad audytu systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zasady audytu systemu Windows"
+            
+              , "Audyt systemu Windows"
+            
+              , "bezpieczeństwo"
+            
+              , "monitoring"
+            
+              , "auditpol"
+            
+              , "Polecenia systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "konfiguracja audytu"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "dzienniki zdarzeń"
+            
+              , "monitorowanie systemu"
+            
+              , "Serwer Windows"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "analiza dziennika"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "reakcja na incydent"
+            
+              , "narzędzia do monitorowania bezpieczeństwa"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "Administracja systemem Windows"
+            
+              , "skrypt"
+            
+              , "administracja systemem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "audyt zgodności"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "zarządzanie logami"
+            
+              , "Ustawienia zabezpieczeń systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zmaksymalizować audyt systemu Windows, wdrażając skrypt zasad audytu systemu Windows w celu zwiększenia bezpieczeństwa i monitorowania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

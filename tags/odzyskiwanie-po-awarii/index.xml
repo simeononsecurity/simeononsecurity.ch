@@ -1,0 +1,311 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odzyskiwanie Po Awarii on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii//img/banner.png</url>
+      <title>Odzyskiwanie Po Awarii on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/</link>
+
+    <description>Recent content in Odzyskiwanie Po Awarii on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/odzyskiwanie-po-awarii/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po certyfikacji CISSP: Wskazówki dotyczące przygotowania do egzaminu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CISSP"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan studiów"
+            
+              , "egzaminy praktyczne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "rozwój zawodowy"
+            
+              , "egzamin certyfikacyjny"
+            
+              , "ISC2"
+            
+              , "możliwości kariery"
+            
+              , "architektura bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "kontrola dostępu"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "szyfrowanie"
+            
+              , "operacje bezpieczeństwa"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "ciągłość działania"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "zgodność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak przygotować się i zdać egzamin CISSP, prestiżowy certyfikat dla specjalistów ds. bezpieczeństwa informacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png" length="213177" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie i utrzymywanie bezpiecznego potoku DevOps: Najlepsze praktyki i studia przypadków</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "bezpieczeństwo"
+            
+              , "rurociąg"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "automatyzacja"
+            
+              , "konteneryzacja"
+            
+              , "bezpieczne kodowanie"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "monitoring"
+            
+              , "informacja zwrotna"
+            
+              , "kontrola wersji"
+            
+              , "kontrola dostępu"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "ciągłość działania"
+            
+              , "studium przypadku"
+            
+              , "Wiosna"
+            
+              , "Django"
+            
+              , "OWASP"
+            
+              , "Netflix"
+            
+              , "Capital One"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-and-maintaining-a-secure-devops-pipeline/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png" length="300607" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopia zapasowa danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągłe monitorowanie"
+            
+              , "oceny podatności na zagrożenia"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png" length="301187" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

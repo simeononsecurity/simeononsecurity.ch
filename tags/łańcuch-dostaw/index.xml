@@ -1,0 +1,127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Łańcuch Dostaw on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/%C5%82a%C5%84cuch-dostaw//img/banner.png</url>
+      <title>Łańcuch Dostaw on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%82a%C5%84cuch-dostaw/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%82a%C5%84cuch-dostaw/</link>
+
+    <description>Recent content in Łańcuch Dostaw on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%82a%C5%84cuch-dostaw/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>SolarWinds Orion Atak na łańcuch dostaw: C2, Łagodzenie skutków i wskazówki ekspertów</title>
+        
+          <link>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</link>
+        
+        <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SolarWinds"
+            
+              , "Łańcuch dostaw"
+            
+              , "C2"
+            
+              , "Dowodzenie i kontrola"
+            
+              , "Środki zaradcze"
+            
+              , "Poradnik"
+            
+              , "Threat Intelligence"
+            
+              , "DHS"
+            
+              , "FireEye"
+            
+              , "MSRC"
+            
+              , "Microsoft"
+            
+              , "BEZ"
+            
+              , "SolarWinds.Orion.Core.BusinessLayer.dll"
+            
+              , "SolarWinds.BusinessLayerHost.exe"
+            
+              , "ConfigurationWizard.exe"
+            
+              , "NetflowDatabaseMaintenance.exe"
+            
+              , "NetFlowService.exe"
+            
+              , "SolarWinds.Administration.exe"
+            
+              , "SolarWinds.Collector.Service.exe"
+            
+              , "DNS CNAME"
+            
+              , "Zakresy IP"
+            
+              , "Nazwy DNS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/solarwinds-orion-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj atak na łańcuch dostaw SolarWinds Orion, w tym złośliwe oprogramowanie C2, środki zaradcze i wskazówki ekspertów z organizacji takich jak DHS i FireEye.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

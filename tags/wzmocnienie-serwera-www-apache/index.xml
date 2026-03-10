@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wzmocnienie Serwera WWW Apache on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/wzmocnienie-serwera-www-apache//img/banner.png</url>
+      <title>Wzmocnienie Serwera WWW Apache on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/wzmocnienie-serwera-www-apache/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/wzmocnienie-serwera-www-apache/</link>
+
+    <description>Recent content in Wzmocnienie Serwera WWW Apache on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/wzmocnienie-serwera-www-apache/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zabezpieczeń i hartowania: Kompleksowe zasoby dotyczące zabezpieczeń</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "utwardzanie systemu"
+            
+              , "utwardzanie aplikacji"
+            
+              , "Zgodność ze standardem STIG"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Wzmocnienie Windows Defender"
+            
+              , "Wzmocnienie serwera WWW Apache"
+            
+              , "Skrypt .NET STIG"
+            
+              , "Skrypt Adobe Reader DC STIG"
+            
+              , "Skrypt STIG dla przeglądarki Firefox"
+            
+              , "Simeononsecurity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "automatyzacja"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "wzmocnienie zabezpieczeń"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Wzmocnienie serwera WWW"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów i konfiguracji, aby zoptymalizować i wzmocnić swoje systemy, czyniąc je zgodnymi z STIG i odpornymi na włamania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

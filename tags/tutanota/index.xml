@@ -1,0 +1,172 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutanota on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/tutanota//img/banner.png</url>
+      <title>Tutanota on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/tutanota/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/tutanota/</link>
+
+    <description>Recent content in Tutanota on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/tutanota/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Secure Email Showdown: StartMail vs ProtonMail vs Tutanota</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link>
+        
+        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność danych"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Szyfrowanie"
+            
+              , "Narzędzia internetowe"
+            
+              , "Porównanie"
+            
+              , "Ochrona cyfrowa"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepszą bezpieczną usługę e-mail! Szczegółowe porównanie StartMail, ProtonMail i Tutanota, zapewniające prywatność online
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-email-showdown.png" length="1329076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecani dostawcy usług eMail</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/email/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecani dostawcy poczty e-mail"
+            
+              , "Bezpieczne usługi poczty elektronicznej"
+            
+              , "Szyfrowanie od końca do końca"
+            
+              , "Bezpieczeństwo poczty e-mail"
+            
+              , "Prywatność online"
+            
+              , "Ochrona danych"
+            
+              , "Ochrona przed phishingiem"
+            
+              , "Ochrona przed złośliwym oprogramowaniem"
+            
+              , "Bezpieczna komunikacja"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/email/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Znajdź najlepszych dostawców poczty e-mail do bezpiecznej i szyfrowanej komunikacji dzięki liście rekomendowanej przez SimeonOnSecurity. Odkryj najlepsze propozycje, w tym ProtonMail, preferowany wybór z szyfrowaniem end-to-end, oraz Tutanota, kolejną bezpieczną opcję do szyfrowanej komunikacji e-mail.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

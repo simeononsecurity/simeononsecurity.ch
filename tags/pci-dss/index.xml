@@ -1,0 +1,785 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCI DSS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/pci-dss//img/banner.png</url>
+      <title>PCI DSS on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/pci-dss/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/pci-dss/</link>
+
+    <description>Recent content in PCI DSS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/pci-dss/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Większe bezpieczeństwo i prywatność dzięki wirtualnym kartom Privacy.com</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo online"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Wirtualne karty debetowe"
+            
+              , "Ochrona finansowa"
+            
+              , "Transakcje online"
+            
+              , "Zapobieganie oszustwom"
+            
+              , "Prywatność danych"
+            
+              , "Prywatność finansowa"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Finanse osobiste"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, w jaki sposób wirtualne karty debetowe Privacy.com mogą zwiększyć Twoje bezpieczeństwo w Internecie i chronić Twoją prywatność, jednocześnie oferując łatwą kontrolę nad transakcjami i subskrypcjami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy_virtual_cards.png" length="1248460" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Metodologia rozwiązywania problemów sieciowych</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edukacja informatyczna"
+            
+              , "Rozwiązywanie problemów z siecią"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie IT"
+            
+              , "Sieci komputerowe"
+            
+              , "Umiejętności informatyczne"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Koncepcje sieciowe"
+            
+              , "Wsparcie sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik po metodologii rozwiązywania problemów sieciowych, w tym kroki, narzędzia i najlepsze praktyki w zakresie wydajnego i skutecznego rozwiązywania problemów sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększanie bezpieczeństwa: Potęga systemów zarządzania podatnościami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Postawa w zakresie bezpieczeństwa"
+            
+              , "Automatyzacja"
+            
+              , "Integracja"
+            
+              , "Raportowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swojej organizacji i ogranicz ryzyko dzięki systemom zarządzania podatnościami. Dowiedz się o ich zaletach i znaczeniu w dzisiejszym cyfrowym krajobrazie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opracowanie polityki cyberbezpieczeństwa: Najlepsze praktyki i procedury</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Ochrona danych"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Reakcja na incydent"
+            
+              , "Ciągłość działania"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Rozwój polityki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak opracować kompleksową politykę cyberbezpieczeństwa, która jest zgodna ze standardami branżowymi i wymogami regulacyjnymi, aby chronić poufne informacje organizacji i ograniczać ryzyko cybernetyczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola eksperta ds. cyberbezpieczeństwa: kompleksowy przewodnik po ochronie zasobów cyfrowych</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/</link>
+        
+        <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ekspert ds. cyberbezpieczeństwa"
+            
+              , "rola w cyberbezpieczeństwie"
+            
+              , "obowiązki w zakresie cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "analiza zagrożeń"
+            
+              , "reakcja na incydent"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "algorytmy szyfrowania"
+            
+              , "bezpieczne kodowanie"
+            
+              , "regulacje branżowe"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "certyfikaty"
+            
+              , "CISSP"
+            
+              , "CEH"
+            
+              , "CompTIA Security&#43;"
+            
+              , "Ochrona zasobów cyfrowych"
+            
+              , "cyberzagrożenia"
+            
+              , "bezpieczeństwo danych"
+            
+              , "ochrona sieci"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "wykrywanie złośliwego oprogramowania"
+            
+              , "zapobieganie naruszeniom danych"
+            
+              , "kariera w cyberbezpieczeństwie"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberobrona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj obowiązki, umiejętności i przepisy branżowe, które określają rolę eksperta ds. cyberbezpieczeństwa w ochronie zasobów cyfrowych i zwalczaniu cyberzagrożeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png" length="231057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberodporna infrastruktura: Najlepsze praktyki planowania odzyskiwania danych po awarii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-cyber-resilient-infrastructure-best-practices-for-disaster-recovery/</link>
+        
+        <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "odporność cybernetyczna"
+            
+              , "Planowanie odzyskiwania danych po awarii"
+            
+              , "DRP"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "ciągłość działania"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "Ramy bezpieczeństwa cybernetycznego NIST"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "PCI DSS"
+            
+              , "GLBA"
+            
+              , "FERPA"
+            
+              , "kopia zapasowa w chmurze"
+            
+              , "oprogramowanie do tworzenia kopii zapasowych i odzyskiwania danych"
+            
+              , "narzędzia oceny ryzyka"
+            
+              , "usługi reagowania na incydenty"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "Infrastruktura IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-cyber-resilient-infrastructure-best-practices-for-disaster-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować infrastrukturę odporną na cyberataki dzięki skutecznemu planowaniu odzyskiwania danych po awarii i najlepszym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield_with_a_check_mark.png" length="441158" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopia zapasowa danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągłe monitorowanie"
+            
+              , "oceny podatności na zagrożenia"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png" length="301187" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "MFA"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "cybersecurity"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "doświadczenie użytkownika"
+            
+              , "phishing"
+            
+              , "ataki typu brute force"
+            
+              , "złożoność techniczna"
+            
+              , "odporność użytkownika"
+            
+              , "smartfony"
+            
+              , "token"
+            
+              , "karta inteligentna"
+            
+              , "odcisk palca"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "rozpoznawanie głosu"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "naruszenie danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

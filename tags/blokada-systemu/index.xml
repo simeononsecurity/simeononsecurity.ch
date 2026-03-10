@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blokada Systemu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/blokada-systemu//img/banner.png</url>
+      <title>Blokada Systemu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/blokada-systemu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/blokada-systemu/</link>
+
+    <description>Recent content in Blokada Systemu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/blokada-systemu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ultimate Applocker Hardening Configuration Script: Zwiększ bezpieczeństwo systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/applocker-hardening/</link>
+        
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Windows"
+            
+              , "Applocker"
+            
+              , "Skrypt konfiguracyjny"
+            
+              , "Cybersecurity"
+            
+              , "Ochrona przed złośliwym oprogramowaniem"
+            
+              , "Zapobieganie zagrożeniom"
+            
+              , "Skrypt PowerShell"
+            
+              , "Zalecane przez Microsoft zasady blokowania"
+            
+              , "Zgodność"
+            
+              , "NSA Cyber Bitlocker Guidance"
+            
+              , "Kontrola stosowania"
+            
+              , "Utwardzenie systemu Windows"
+            
+              , "Cyberzagrożenia"
+            
+              , "Ochrona komputera"
+            
+              , "Cyberobrona"
+            
+              , "Bezpieczne okna"
+            
+              , "Ultimate Applocker ByPass List"
+            
+              , "Windows Defender"
+            
+              , "Blokada systemu"
+            
+              , "sos-applockerhardening.ps1"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/applocker-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz swój system Windows przed złośliwymi atakami za pomocą Ultimate Applocker Hardening Configuration Script.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,216 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audyt Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/audyt-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Audyt Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/audyt-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/audyt-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Audyt Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/audyt-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Odkrywanie Flipper Zero: wszechstronne urządzenie do hakowania i bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pinball Zero"
+            
+              , "urządzenie przenośne"
+            
+              , "hakowanie sprzętu"
+            
+              , "inżynieria odwrotna"
+            
+              , "analiza komunikacji bezprzewodowej"
+            
+              , "kontrola urządzenia"
+            
+              , "audyt bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "codzienny towarzysz technologiczny"
+            
+              , "open-source"
+            
+              , "Bluetooth"
+            
+              , "NFC"
+            
+              , "RFID"
+            
+              , "IR"
+            
+              , "emulacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "Kali Linux"
+            
+              , "Wyświetlacz e-papierowy"
+            
+              , "Kody QR"
+            
+              , "automatyka domowa"
+            
+              , "luki w zabezpieczeniach"
+            
+              , "protokoły bezprzewodowe"
+            
+              , "Ekstrakcja oprogramowania układowego"
+            
+              , "miganie"
+            
+              , "debugowanie"
+            
+              , "systemy fizycznej kontroli dostępu"
+            
+              , "inteligentne systemy automatyki domowej"
+            
+              , "emulacja urządzenia"
+            
+              , "luki w zabezpieczeniach systemów bezprzewodowych"
+            
+              , "środki zaradcze"
+            
+              , "kompaktowy gadżet"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnorodne zastosowania Flipper Zero, najlepszego podręcznego gadżetu do hakowania sprzętu, analizy komunikacji bezprzewodowej i codziennych potrzeb technicznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png" length="678280" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Administracja Windows"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Automatyzacja IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity dowiedział się i znalazł dziś interesujące informacje**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity dowiedział się i odkrył dziś kilka interesujących rzeczy związanych z bezpieczeństwem systemu Windows i automatyzacją przy użyciu Ansible.&lt;/p&gt;
+&lt;p&gt;Po pierwsze, zidentyfikowano dwa nowe i zaktualizowane repozytoria. Repozytorium Windows_STIG_Ansible zapewnia kompletne rozwiązanie do konfigurowania systemów Windows w celu spełnienia wymagań Security Technical Implementation Guide (STIG) przy użyciu platformy automatyzacji Ansible. Repozytorium windows_stigs jest zbiorem ról Ansible do konfigurowania systemów Windows w celu spełnienia wymagań STIG i jest dostępne w Ansible Galaxy, centralnym repozytorium do udostępniania zawartości Ansible.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

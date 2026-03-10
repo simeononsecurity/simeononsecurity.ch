@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Rzeczy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/internet-rzeczy//img/banner.png</url>
+      <title>Internet Rzeczy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/internet-rzeczy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/internet-rzeczy/</link>
+
+    <description>Recent content in Internet Rzeczy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/internet-rzeczy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Crankk vs Helium IoT: Kompleksowe porównanie sieci IoT</title>
+        
+          <link>https://pl.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Crankk vs Helium IoT"
+            
+              , "Sieci IoT"
+            
+              , "modele konsensusu"
+            
+              , "sprzęt górniczy"
+            
+              , "opłaty za gaz"
+            
+              , "blockchain"
+            
+              , "LoRaWAN"
+            
+              , "Łączność IoT"
+            
+              , "komunikacja bezprzewodowa"
+            
+              , "Internet rzeczy"
+            
+              , "zdecentralizowane sieci"
+            
+              , "urządzenia o niskim poborze mocy"
+            
+              , "Rozwiązania IoT"
+            
+              , "inteligentne urządzenia"
+            
+              , "Aplikacje IoT"
+            
+              , "transmisja danych"
+            
+              , "rozwiązania w zakresie łączności"
+            
+              , "Technologia IoT"
+            
+              , "porównanie sieci"
+            
+              , "sieci bezprzewodowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnice między sieciami Crankk i Helium IoT, ich modelami konsensusu, sprzętem wydobywczym, opłatami za gaz i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png" length="221578" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie urządzeń IoT: Wyzwania i rozwiązania w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo"
+            
+              , "Internet rzeczy"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "inteligentne urządzenia"
+            
+              , "najlepsze praktyki"
+            
+              , "Ryzyko związane z IoT"
+            
+              , "uwierzytelnianie"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "monitorowanie"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "Wytyczne dotyczące bezpieczeństwa IoT"
+            
+              , "segmentacja sieci"
+            
+              , "krajobraz zagrożeń"
+            
+              , "podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

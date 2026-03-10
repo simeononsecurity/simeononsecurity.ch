@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fizyczna Kontrola Dostępu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/fizyczna-kontrola-dost%C4%99pu//img/banner.png</url>
+      <title>Fizyczna Kontrola Dostępu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/fizyczna-kontrola-dost%C4%99pu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/fizyczna-kontrola-dost%C4%99pu/</link>
+
+    <description>Recent content in Fizyczna Kontrola Dostępu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 13 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/fizyczna-kontrola-dost%C4%99pu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna kontrola dostępu: Najlepsze praktyki w zakresie bezpieczeństwa IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link>
+        
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Hasła"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Ochrona danych"
+            
+              , "Ocena ryzyka"
+            
+              , "Szkolenie pracowników"
+            
+              , "Narzędzia do audytu"
+            
+              , "Narzędzia do raportowania"
+            
+              , "Testy penetracyjne"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Fizyczna kontrola dostępu"
+            
+              , "Logiczna kontrola dostępu"
+            
+              , "Przepisy dotyczące zgodności"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić wrażliwe dane i systemy, wdrażając skuteczne środki kontroli dostępu do środowiska IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.png" length="457237" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

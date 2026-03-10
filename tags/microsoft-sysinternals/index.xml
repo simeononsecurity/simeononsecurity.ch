@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Sysinternals on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/microsoft-sysinternals//img/banner.png</url>
+      <title>Microsoft Sysinternals on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/microsoft-sysinternals/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/microsoft-sysinternals/</link>
+
+    <description>Recent content in Microsoft Sysinternals on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/microsoft-sysinternals/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: Uproszczenie wdrażania i konfiguracji Sysmon</title>
+        
+          <link>https://pl.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja Sysmon"
+            
+              , "Jak zautomatyzować Sysmon"
+            
+              , "Jak zautomatyzować konfigurację Sysmon"
+            
+              , "Jak zainstalować Sysmon"
+            
+              , "Powershell"
+            
+              , "Skrypt"
+            
+              , "Wdrożenie Sysmon"
+            
+              , "Konfiguracja Sysmon"
+            
+              , "Sysmon Logging"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Złośliwe działanie"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Repozytorium GitHub"
+            
+              , "BHIS"
+            
+              , "Monitorowanie systemu"
+            
+              , "Badania nad bezpieczeństwem"
+            
+              , "Tworzenie procesu"
+            
+              , "Połączenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć i skonfigurować program Sysmon, aby poprawić bezpieczeństwo systemu za pomocą skryptu Automate-Sysmon, który upraszcza ten proces nawet dla początkujących użytkowników.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

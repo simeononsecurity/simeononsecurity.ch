@@ -1,0 +1,242 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ocena Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Ocena Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Ocena Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ocena-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nmap: Kompleksowy przewodnik po skanowaniu sieci i ocenie bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-nmap/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "nmap"
+            
+              , "skanowanie sieci"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "skanowanie portów"
+            
+              , "wykrywanie usług"
+            
+              , "wykrywanie systemu operacyjnego"
+            
+              , "Silnik skryptowy Nmap"
+            
+              , "etyczne hakowanie"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "infrastruktura sieciowa"
+            
+              , "wykrywanie luk w zabezpieczeniach"
+            
+              , "skanowanie ping"
+            
+              , "Skanowanie TCP SYN"
+            
+              , "pozwolenie"
+            
+              , "legalność"
+            
+              , "wpływ sieci"
+            
+              , "skanowanie ukierunkowane"
+            
+              , "ochrona danych"
+            
+              , "CFAA"
+            
+              , "RODO"
+            
+              , "mapowanie sieci"
+            
+              , "rozpoznawanie sieci"
+            
+              , "narzędzia bezpieczeństwa sieci"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "narzędzie open-source"
+            
+              , "narzędzie wiersza poleceń"
+            
+              , "wykrywanie hosta"
+            
+              , "inteligencja sieciowa"
+            
+              , "zbieranie informacji"
+            
+              , "luki w zabezpieczeniach sieci"
+            
+              , "bezpieczne środowisko sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-nmap/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie używać Nmap do skanowania sieci, skanowania portów, wykrywania usług i identyfikacji systemu operacyjnego w celu oceny bezpieczeństwa sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png" length="365940" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "zarządzanie podatnością"
+            
+              , "bezpieczne kodowanie"
+            
+              , "test penetracyjny"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne badanie bezpieczeństwa"
+            
+              , "bezpieczny cykl rozwoju"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć swoje aplikacje internetowe za pomocą standardu OWASP Application Security Verification Standard (ASVS), aby spełnić najbardziej rygorystyczne środki bezpieczeństwa i chronić przed typowymi podatnościami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

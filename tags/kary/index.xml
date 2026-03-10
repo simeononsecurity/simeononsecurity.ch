@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kary on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kary//img/banner.png</url>
+      <title>Kary on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kary/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kary/</link>
+
+    <description>Recent content in Kary on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kary/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Gra w sieci Helium: Wykorzystywanie luk w zabezpieczeniach za pomocą MiddleMan i multipleksera pakietów Chirp Stack</title>
+        
+          <link>https://pl.simeononsecurity.com/other/how-to-game-on-the-helium-network/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sieć helowa"
+            
+              , "Proof-of-Coverage"
+            
+              , "MiddleMan"
+            
+              , "Multiplekser pakietów Chirp Stack"
+            
+              , "gaming"
+            
+              , "wykorzystywanie słabych punktów"
+            
+              , "Sieć LoRaWAN"
+            
+              , "kryptowaluta"
+            
+              , "blockchain"
+            
+              , "sieć zdecentralizowana"
+            
+              , "hotspoty"
+            
+              , "spoofing"
+            
+              , "oszukiwanie"
+            
+              , "nielegalna działalność"
+            
+              , "kary"
+            
+              , "integralność sieci"
+            
+              , "nagrody"
+            
+              , "złośliwi aktorzy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "legalne hosty"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/how-to-game-on-the-helium-network/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wykorzystać luki w sieci Helium za pomocą MiddleMan i Chirp Stack Packet Multiplexer, a także jakie są zagrożenia i konsekwencje takiego działania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png" length="275420" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

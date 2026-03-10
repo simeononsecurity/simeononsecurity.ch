@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dostęp Roota on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dost%C4%99p-roota//img/banner.png</url>
+      <title>Dostęp Roota on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dost%C4%99p-roota/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dost%C4%99p-roota/</link>
+
+    <description>Recent content in Dostęp Roota on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dost%C4%99p-roota/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Linux"
+            
+              , "utwardzanie systemu"
+            
+              , "firewall"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "polityka haseł"
+            
+              , "aktualizacje systemu"
+            
+              , "logi systemowe"
+            
+              , "moduły bezpieczeństwa"
+            
+              , "zasady kontroli dostępu"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "dostęp roota"
+            
+              , "menedżer haseł"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

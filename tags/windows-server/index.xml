@@ -1,0 +1,403 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Server on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/windows-server//img/banner.png</url>
+      <title>Windows Server on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/windows-server/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/windows-server/</link>
+
+    <description>Recent content in Windows Server on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/windows-server/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Odblokowywanie mocy kluczy licencyjnych w celu zwiększenia wydajności</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Wydajność"
+            
+              , "Systemy operacyjne"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Licencjonowanie"
+            
+              , "Zarządzanie kluczami"
+            
+              , "Rozwiązania IT"
+            
+              , "Ulepszenie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak klucze Windows GVLK rewolucjonizują wydajność! Poznaj najlepsze klucze licencyjne i bez wysiłku zwiększ wydajność swojego systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo maszyn wirtualnych dzięki vTPM: Przewodnik krok po kroku</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Wirtualizacja"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Bezpieczeństwo"
+            
+              , "Moduł zaufanej platformy"
+            
+              , "vTPM"
+            
+              , "Gość OS"
+            
+              , "Szyfrowanie"
+            
+              , "Atest platformy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ bezpieczeństwo maszyn wirtualnych za pomocą vTPM dzięki naszemu kompleksowemu przewodnikowi krok po kroku, zapewniającemu poświadczenia platformy i obsługę szyfrowania BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z systemem Windows za pomocą Ansible STIG Playbooks</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka"
+            
+              , "Zgodność z systemem Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Skrypty STIG"
+            
+              , "Zgodność z STIG"
+            
+              , "Ansible Galaxy"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Windows Server"
+            
+              , "Windows Defender"
+            
+              , ".NET"
+            
+              , "FireFox"
+            
+              , "Oracle JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Łączność z Internetem"
+            
+              , "Kompatybilność w trybie offline"
+            
+              , "Hartowanie bezpieczeństwa"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij przestrzeganie zasad bezpieczeństwa dzięki Ansible STIG Playbooks dla systemów Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalacja offline modułu PowerShell RSAT ActiveDirectory</title>
+        
+          <link>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zestaw narzędzi do zdalnego administrowania serwerem"
+            
+              , "PowerShell RSAT Moduł ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Instalator offline"
+            
+              , "Skrypt PowerShell"
+            
+              , "Moduł PowerShell"
+            
+              , "ActiveDirectory"
+            
+              , "Windows"
+            
+              , "Offline"
+            
+              , "Zainstaluj"
+            
+              , "Serwer"
+            
+              , "Administracja"
+            
+              , "Zestaw narzędzi"
+            
+              , "Skryptowanie"
+            
+              , "Moduł"
+            
+              , "Windows Server"
+            
+              , "PowerShell Core"
+            
+              , "Windows PowerShell"
+            
+              , "Microsoft"
+            
+              , "Administracja IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować moduł RSAT ActiveDirectory PowerShell Module w trybie offline za pomocą prostego skryptu PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
