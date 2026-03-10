@@ -15,7 +15,7 @@
                 {{ if hugo.IsMultilingual }}
                 <nav aria-label="Language switcher">
                     <ul>
-                        {{ range .Site.Languages }}
+                        {{ range site.Languages }}
                         {{ if eq . $.Site.Language }}
                             <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
                         {{ end }}
