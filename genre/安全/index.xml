@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8//img/banner.png</url><title>安全 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8/</link><description>Recent content in 安全 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 vTPM 提高虚拟机安全性：分步指南</title><link>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "虚拟化"
+, "虚拟软件"
+, "vSphere"
+, "安全"
+, "可信平台模块"
+, "vTPM"
+, "访客操作系统"
+, "加密"
+, "平台认证"</category><guid>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过我们全面的分步指南，使用 vTPM 增强虚拟机安全性，提供平台验证和 BitLocker 加密支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item><item><title>最佳隐私浏览器 - LibreWolf vs. Brave vs. Firefox vs. Tor</title><link>https://zh.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"浏览器"
+, "隐私权"
+, "安全"
+, "互联网"
+, "技术"
+, "数字隐私"
+, "在线安全"
+, "开放源代码"
+, "匿名性"
+, "网页浏览"</category><guid>https://zh.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索注重隐私的顶级浏览器--LibreWolf、Brave、Firefox 和 Tor，获得安全的上网体验。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png"/></item><item><title>制定网络安全政策：最佳做法和程序</title><link>https://zh.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "安全"
+, "合规性"
+, "风险管理"
+, "数据保护"
+, "信息管理"
+, "事件响应"
+, "业务连续性"
+, "网络威胁"
+, "政策制定"</category><guid>https://zh.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-develop-cybersecurity-policies-and-procedures/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何制定符合行业标准和监管要求的全面网络安全政策，以保护贵组织的敏感信息并降低网络风险。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png" length="474843" type="image/png"/></item></channel></rss>

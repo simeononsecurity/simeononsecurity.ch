@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>用户角色 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%A7%92%E8%89%B2//img/banner.png</url><title>用户角色 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%A7%92%E8%89%B2/</link></image><link>https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%A7%92%E8%89%B2/</link><description>Recent content in 用户角色 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E7%94%A8%E6%88%B7%E8%A7%92%E8%89%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>如何使用 PowerCLI 审核 vCenter 的权限</title><link>https://zh.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"vCenter 权限审计"
+, "PowerCLI 自动化"
+, "VMware 安全"
+, "虚拟基础设施管理"
+, "许可任务"
+, "用户访问控制"
+, "安全漏洞"
+, "PowerShell 自动化"
+, "vSphere 环境管理"
+, "用户权限审查"</category><guid>https://zh.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 PowerCLI 有效审核 vCenter 的权限，确保虚拟基础架构的安全。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item></channel></rss>

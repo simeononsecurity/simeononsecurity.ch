@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>进程创建 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E8%BF%9B%E7%A8%8B%E5%88%9B%E5%BB%BA//img/banner.png</url><title>进程创建 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E8%BF%9B%E7%A8%8B%E5%88%9B%E5%BB%BA/</link></image><link>https://zh.simeononsecurity.com/tags/%E8%BF%9B%E7%A8%8B%E5%88%9B%E5%BB%BA/</link><description>Recent content in 进程创建 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E8%BF%9B%E7%A8%8B%E5%88%9B%E5%BB%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon：简化 Sysmon 部署和配置</title><link>https://zh.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"自动化 Sysmon"
+, "如何自动化 Sysmon"
+, "如何自动化 Sysmon 配置"
+, "如何安装 Sysmon"
+, "电源外壳"
+, "脚本"
+, "系统部署"
+, "系统配置"
+, "系统日志"
+, "威胁检测"
+, "恶意活动"
+, "SwiftOnSecurity 系统配置"
+, "微软系统内部"
+, "GitHub 资料库"
+, "BHIS"
+, "系统监控"
+, "安全研究"
+, "进程创建"
+, "网络连接"</category><guid>https://zh.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用 Automate-Sysmon 脚本部署和配置 Sysmon 以提高系统的安全性，该脚本甚至可以为新手用户简化流程。</description></item></channel></rss>

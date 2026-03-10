@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware VSphere 中的 VTPM 配置 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/vmware-vsphere-%E4%B8%AD%E7%9A%84-vtpm-%E9%85%8D%E7%BD%AE//img/banner.png</url><title>VMware VSphere 中的 VTPM 配置 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/vmware-vsphere-%E4%B8%AD%E7%9A%84-vtpm-%E9%85%8D%E7%BD%AE/</link></image><link>https://zh.simeononsecurity.com/tags/vmware-vsphere-%E4%B8%AD%E7%9A%84-vtpm-%E9%85%8D%E7%BD%AE/</link><description>Recent content in VMware VSphere 中的 VTPM 配置 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/vmware-vsphere-%E4%B8%AD%E7%9A%84-vtpm-%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>自动安装 Windows 11：绕过 TPM、安全启动和内存检查</title><link>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "视窗 11"
+, "安装"
+, "虚拟化"
+, "自动化"
+, "注册表密钥"
+, "TPM 旁路"
+, "安全启动旁路"
+, "内存旁路"
+, "vTPM"</category><guid>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 autounattend.xml 和 vTPM 绕过 TPM、安全启动和 RAM 检查，简化虚拟环境中的 Windows 11 安装。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>

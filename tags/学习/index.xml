@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学习 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%AD%A6%E4%B9%A0//img/banner.png</url><title>学习 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AD%A6%E4%B9%A0/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AD%A6%E4%B9%A0/</link><description>Recent content in 学习 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>HackTheBox - 挑战 - 加密货币 - 银行劫案</title><link>https://zh.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link><pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate><category>
+"黑客盒子"
+, "加密"
+, "T9 密码"
+, "多字节密码"
+, "atbash 密码"
+, "网络安全"
+, "译码"
+, "密码"
+, "挑战"
+, "国旗"
+, "网络安全"
+, "黑客行为"
+, "学习"
+, "教程"
+, "密码解码"
+, "解谜"
+, "破译"
+, "密码挑战"
+, "网络安全技能"
+, "在线学习"</category><guid>https://zh.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png"/></item></channel></rss>

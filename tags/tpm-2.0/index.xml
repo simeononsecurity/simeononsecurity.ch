@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TPM 2.0 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/tpm-2.0//img/banner.png</url><title>TPM 2.0 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/tpm-2.0/</link></image><link>https://zh.simeononsecurity.com/tags/tpm-2.0/</link><description>Recent content in TPM 2.0 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/tpm-2.0/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 vTPM 提高虚拟机安全性：分步指南</title><link>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "虚拟化"
+, "虚拟软件"
+, "vSphere"
+, "安全"
+, "可信平台模块"
+, "vTPM"
+, "访客操作系统"
+, "加密"
+, "平台认证"</category><guid>https://zh.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过我们全面的分步指南，使用 vTPM 增强虚拟机安全性，提供平台验证和 BitLocker 加密支持。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item></channel></rss>
