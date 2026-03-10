@@ -19,7 +19,7 @@ author = "SimeonOnSecurity"
 name = "SimeonOnSecurity"
 
 [permalinks]
-  authors = "/authors/:filename/"
+  authors = "/authors/:contentbasename/"
 
 [params]
 enableMissingTranslationPlaceholders = true

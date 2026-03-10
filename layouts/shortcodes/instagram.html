@@ -1,7 +1,9 @@
 {{- $pc := .Page.Site.Config.Privacy.Instagram -}}
 {{- if not $pc.Disable -}}
 {{- if $pc.Simple -}}
-{{ template "_internal/shortcodes/instagram_simple.html" . }}
+{{- $id := index .Params 0 -}}
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/{{ $id }}/" data-instgrm-version="14"></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
 {{- else -}}
 {{ $id := .Get 0 }}
 {{ $hideCaption := cond (eq (.Get 1) "hidecaption") "1" "0" }}

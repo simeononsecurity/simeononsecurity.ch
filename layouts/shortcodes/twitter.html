@@ -1,7 +1,9 @@
 {{- $pc := .Page.Site.Config.Privacy.Twitter -}}
 {{- if not $pc.Disable -}}
 {{- if $pc.Simple -}}
-{{ template "_internal/shortcodes/twitter_simple.html" . }}
+{{- $id := index .Params 0 -}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/x/status/{{ $id }}">https://twitter.com/x/status/{{ $id }}</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{- else -}}
 {{- $url := printf "https://api.twitter.com/1/statuses/oembed.json?id=%v&dnt=%t" (index .Params 0) $pc.EnableDNT -}}
 {{- $remoteData := resources.GetRemote $url }}
