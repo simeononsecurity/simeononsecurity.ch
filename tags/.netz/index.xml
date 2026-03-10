@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>.NETZ on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/.netz//img/banner.png</url><title>.NETZ on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/.netz/</link></image><link>https://de.simeononsecurity.com/tags/.netz/</link><description>Recent content in .NETZ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/.netz/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisieren Sie die Windows-Compliance mit Ansible STIG Playbooks</title><link>https://de.simeononsecurity.com/github/windows_stig_ansible/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Windows-Konformität"
+, "Ansible STIG-Playbooks"
+, "Windows-Härtung"
+, "STIG-Skripte"
+, "STIG-Konformität"
+, "Ansible Galaxy"
+, "Power Shell"
+, "PowerShell-Skript"
+, "Windows Server"
+, "Windows Defender"
+, ".NETZ"
+, "Feuerfuchs"
+, "Oracle JRE 8"
+, "Adobe Reader DC"
+, "Internetverbindung"
+, "Offline-Kompatibilität"
+, "Sicherheitshärtung"
+, "Windows-Sicherheit"</category><guid>https://de.simeononsecurity.com/github/windows_stig_ansible/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimieren Sie Ihre Sicherheits-Compliance mit Ansible STIG Playbooks für Windows-Systeme.</description></item></channel></rss>

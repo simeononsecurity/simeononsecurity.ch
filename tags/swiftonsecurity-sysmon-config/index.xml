@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SwiftOnSecurity Sysmon-Config on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/swiftonsecurity-sysmon-config//img/banner.png</url><title>SwiftOnSecurity Sysmon-Config on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/swiftonsecurity-sysmon-config/</link></image><link>https://de.simeononsecurity.com/tags/swiftonsecurity-sysmon-config/</link><description>Recent content in SwiftOnSecurity Sysmon-Config on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 11 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/swiftonsecurity-sysmon-config/index.xml" rel="self" type="application/rss+xml"/><item><title>Automate-Sysmon: Vereinfachung der Sysmon-Bereitstellung und -Konfiguration</title><link>https://de.simeononsecurity.com/github/automate-sysmon/</link><pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate><category>
+"Automate Sysmon"
+, "So automatisieren Sie Sysmon"
+, "So automatisieren Sie die Sysmon-Konfiguration"
+, "So installieren Sie Sysmon"
+, "Powershell"
+, "Drehbuch"
+, "Sysmon-Bereitstellung"
+, "Sysmon-Konfiguration"
+, "Sysmon-Protokollierung"
+, "Erkennung von Bedrohungen"
+, "Bösartige Aktivität"
+, "SwiftOnSecurity sysmon-config"
+, "Microsoft Sysinternals"
+, "GitHub-Repository"
+, "BHIS"
+, "System Monitoring"
+, "Sicherheitsforschung"
+, "Prozess-Erstellung"
+, "Netzwerk-Verbindungen"</category><guid>https://de.simeononsecurity.com/github/automate-sysmon/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie, wie Sie Sysmon einsetzen und konfigurieren, um die Sicherheit Ihres Systems mit dem Automate-Sysmon-Skript zu verbessern, das den Prozess auch für unerfahrene Benutzer vereinfacht.</description></item></channel></rss>

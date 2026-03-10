@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terraform on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/terraform//img/banner.png</url><title>Terraform on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/terraform/</link></image><link>https://de.simeononsecurity.com/tags/terraform/</link><description>Recent content in Terraform on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/terraform/index.xml" rel="self" type="application/rss+xml"/><item><title>Erste Schritte mit Terraform für Infrastructure as Code</title><link>https://de.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Terraform"
+, "Infrastruktur als Code"
+, "IaC"
+, "Cloud Computing"
+, "DevOps"
+, "Automatisierung"
+, "AWS"
+, "Azure"
+, "Google Cloud"
+, "Cloud-Anbieter"
+, "Konfigurationsmanagement"
+, "Einsatz"
+, "Bereitstellung"
+, "Resource Management"
+, "Skalierbarkeit"
+, "Resilience"
+, "Sicherheit"
+, "Einhaltung der Vorschriften"
+, "Bewährte Praktiken"</category><guid>https://de.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die Grundlagen von Terraform, einem beliebten Infrastructure-as-Code-Tool, kennen und erfahren Sie, wie Sie es zur effizienten Verwaltung Ihrer Infrastruktur einsetzen können.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png"/></item><item><title>Sollten Sie für IT und Cybersicherheit programmieren lernen?</title><link>https://de.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT- und Cybersicherheit"
+, "Programmierkenntnisse"
+, "Beruflicher Aufstieg"
+, "Automatisierung"
+, "Befehlszeile"
+, "Skripting"
+, "Bereitstellung der Infrastruktur"
+, "Datenanalyse"
+, "Sicherheitsprüfung"
+, "Berufliche Entwicklung"</category><guid>https://de.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, warum die Beherrschung von Programmierkenntnissen für Ihre IT- und Cybersicherheitskarriere von großem Nutzen sein kann, und wie Sie mit PowerShell, Bash, Python, Ansible, Packer und Terraform beginnen können.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item></channel></rss>

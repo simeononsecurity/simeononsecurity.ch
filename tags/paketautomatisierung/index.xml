@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paketautomatisierung on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/paketautomatisierung//img/banner.png</url><title>Paketautomatisierung on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/paketautomatisierung/</link></image><link>https://de.simeononsecurity.com/tags/paketautomatisierung/</link><description>Recent content in Paketautomatisierung on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/paketautomatisierung/index.xml" rel="self" type="application/rss+xml"/><item><title>Heute habe ich gelernt, wie man schokoladige Pakete macht</title><link>https://de.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Windows Package Management"
+, "Erstellung von Paketen"
+, "Package Management"
+, "Infrastruktur als Code (IaC)"
+, "Bereitstellung von Windows-Software"
+, "Software-Paketierung"
+, "Windows Automation"
+, "Paket-Repositories"
+, "Windows Tools"</category><guid>https://de.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</description></item></channel></rss>

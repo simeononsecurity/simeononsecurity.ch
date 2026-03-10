@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Block-Tracker on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/block-tracker//img/banner.png</url><title>Block-Tracker on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/block-tracker/</link></image><link>https://de.simeononsecurity.com/tags/block-tracker/</link><description>Recent content in Block-Tracker on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/block-tracker/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Systemweites Werbeblocker-Skript für mehr Datenschutz und Sicherheit</title><link>https://de.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "Werbeblocker"
+, "Telemetrieblockierung"
+, "PowerShell-Skript"
+, "systemweiter Werbeblocker"
+, "Datenschutz"
+, "Sicherheit"
+, "EasyList"
+, "Einfacher Datenschutz"
+, "NoCoin Filter List"
+, "AdGuard DNS-Filter"
+, "YoYo-Listen"
+, "Peter Lowes Ad-Tracking-Malware-Server"
+, "Windows Firewall"
+, "Domänenlisten"
+, "Windows-Tracker blockieren"
+, "Block-Tracker"
+, "Anzeigen blockieren"
+, "Blockverfolgung"</category><guid>https://de.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Blockieren Sie Werbung, Tracker und Telemetrie unter Windows 10 mit diesem leistungsstarken PowerShell-Skript, das die Hosts-Datei und die Windows-Firewall zum systemweiten Blockieren von Werbung nutzt.</description></item></channel></rss>
