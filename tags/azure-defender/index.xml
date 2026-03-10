@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure Defender on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/azure-defender//img/banner.png</url><title>Azure Defender on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/azure-defender/</link></image><link>https://nl.simeononsecurity.com/tags/azure-defender/</link><description>Recent content in Azure Defender on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/azure-defender/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Beveiligingscentrum: Beveilig uw cloudomgeving met vertrouwen</title><link>https://nl.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azuur"
+, "Beveiligingscentrum"
+, "cloudbeveiliging"
+, "Azure Sentinel"
+, "Azure Defender"
+, "netwerkbeveiliging"
+, "identiteitsbeheer"
+, "gegevensbeveiliging"
+, "detectie van bedreigingen"
+, "reactie op bedreigingen"
+, "MFA"
+, "RBAC"
+, "NSG's"
+, "Azure Firewall"
+, "WAF"
+, "Azure AD"
+, "Azure Informatiebeveiliging"
+, "Encryptie van de Azure opslagdienst"
+, "Azure schijfversleuteling"</category><guid>https://nl.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u uw cloudomgeving kunt beveiligen met behulp van Azure Security Center, met best practices en voorbeelden uit de praktijk.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png" length="308057" type="image/png"/></item></channel></rss>

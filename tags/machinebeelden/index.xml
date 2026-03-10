@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machinebeelden on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/machinebeelden//img/banner.png</url><title>Machinebeelden on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/machinebeelden/</link></image><link>https://nl.simeononsecurity.com/tags/machinebeelden/</link><description>Recent content in Machinebeelden on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/machinebeelden/index.xml" rel="self" type="application/rss+xml"/><item><title>Packer gebruiken voor Infrastructure as Code: Beste praktijken en voordelen</title><link>https://nl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "Infrastructuur als code"
+, "DevOps"
+, "Automatisering"
+, "Beveiliging"
+, "Herhaalbaarheid"
+, "Schaalbaarheid"
+, "Multi-Platform"
+, "Versiecontrole"
+, "Cloud Computing"
+, "Machinebeelden"
+, "Virtualisatie"
+, "Configuratiebeheer"
+, "Continue Integratie"
+, "Continue levering"
+, "Software Ontwikkeling"
+, "Beste praktijken"
+, "Testen"
+, "Open Bron"
+, "Multi-Cloud"</category><guid>https://nl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u Packer kunt gebruiken om machine-images te maken die gemakkelijk te onderhouden en te beveiligen zijn.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item></channel></rss>

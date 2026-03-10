@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rogue Data Cache Load on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/rogue-data-cache-load//img/banner.png</url><title>Rogue Data Cache Load on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/rogue-data-cache-load/</link></image><link>https://nl.simeononsecurity.com/tags/rogue-data-cache-load/</link><description>Recent content in Rogue Data Cache Load on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/rogue-data-cache-load/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows beschermen tegen speculatieve executieaanvallen via zijkanalen</title><link>https://nl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Windows Spectre Meltdown Mitigation Script"
+, "Speculatieve uitvoering Zijkanaalaanvallen"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Chroom"
+, "iOS"
+, "macOS"
+, "Tak Doel Injectie"
+, "Bounds Check Bypass"
+, "Rogue Data Cache Load"
+, "Speculatieve opslagomleiding"
+, "Microarchitecturale gegevensbemonstering"
+, "CVE's"
+, "Firmware-updates"
+, "GitHub archief"
+, "PowerShell"</category><guid>https://nl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u uw Windows-systeem kunt beschermen tegen speculatieve zijkanaalaanvallen met het mitigatiescript en de firmware-updates van Microsoft.</description></item></channel></rss>

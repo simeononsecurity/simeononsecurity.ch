@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Offline Installer on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/offline-installer//img/banner.png</url><title>Offline Installer on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/offline-installer/</link></image><link>https://nl.simeononsecurity.com/tags/offline-installer/</link><description>Recent content in Offline Installer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/offline-installer/index.xml" rel="self" type="application/rss+xml"/><item><title>Offline installatie RSAT ActiveDirectory PowerShell-module</title><link>https://nl.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"Toolkit voor serverbeheer op afstand"
+, "PowerShell RSAT ActiveDirectory Module"
+, "Windows 10"
+, "Offline Installer"
+, "PowerShell Script"
+, "PowerShell-module"
+, "ActiveDirectory"
+, "Windows"
+, "Offline"
+, "Installeer"
+, "Server"
+, "Administratie"
+, "Toolkit"
+, "Scripting"
+, "Module"
+, "Windows Server"
+, "PowerShell Kern"
+, "Windows PowerShell"
+, "Microsoft"
+, "IT-administratie"</category><guid>https://nl.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u de RSAT ActiveDirectory PowerShell-module offline kunt installeren met een eenvoudig PowerShell-script.</description></item></channel></rss>

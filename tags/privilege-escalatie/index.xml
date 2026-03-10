@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privilege-Escalatie on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/privilege-escalatie//img/banner.png</url><title>Privilege-Escalatie on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/privilege-escalatie/</link></image><link>https://nl.simeononsecurity.com/tags/privilege-escalatie/</link><description>Recent content in Privilege-Escalatie on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/privilege-escalatie/index.xml" rel="self" type="application/rss+xml"/><item><title>Beste praktijken voor veilige codering in PowerShell: Een gids</title><link>https://nl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Veilige codering"
+, "Op Windows gebaseerde systemen"
+, "Validatie van de invoer"
+, "Cryptografie Bibliotheken"
+, "Minste voorrecht"
+, "Statische code analyzer"
+, "Veilige communicatieprotocollen"
+, "Registratie en controle"
+, "Kwetsbaarheidsscans"
+, "Onderwijs"
+, "Injectiecode"
+, "Privilege-escalatie"
+, "Datalekken"
+, "Verhardende omgeving"
+, "Veiligheidsbeleid"
+, "Firewalls"
+, "Inbraakdetectiesystemen"
+, "Beheer van kwetsbaarheden"
+, "Netwerkbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de beste praktijken voor het schrijven van veilige PowerShell-code om uw Windows-systemen te beschermen tegen beveiligingsproblemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png"/></item><item><title>Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</title><link>https://nl.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Ansible"
+, "Configuratiebeheer"
+, "IT-infrastructuur"
+, "DevOps"
+, "Playbook ontwikkeling"
+, "Variabel beheer"
+, "Voorwaardelijke uitvoering"</category><guid>https://nl.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</description></item></channel></rss>

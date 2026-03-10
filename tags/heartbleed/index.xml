@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heartbleed on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/heartbleed//img/banner.png</url><title>Heartbleed on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/heartbleed/</link></image><link>https://nl.simeononsecurity.com/tags/heartbleed/</link><description>Recent content in Heartbleed on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/heartbleed/index.xml" rel="self" type="application/rss+xml"/><item><title>De beveiliging van uw computer versterken door SSL en TLS 1.2 en lager uit te schakelen</title><link>https://nl.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"Verbetering van de computerbeveiliging"
+, "SSL en TLS uitschakelen"
+, "Gegevensbeveiliging"
+, "POODLE"
+, "BEAST"
+, "Heartbleed"
+, "Windows register editor"
+, "Linux OpenSSL configuratie"
+, "Apache"
+, "Nginx"</category><guid>https://nl.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+In dit artikel worden de stappen besproken om de gegevensbeveiliging te verbeteren door oudere versies van SSL- en TLS-protocollen, die kwetsbaar zijn voor cyberdreigingen zoals POODLE, BEAST en Heartbleed, uit te schakelen in Windows- en Linux-systemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png" length="310292" type="image/png"/></item></channel></rss>

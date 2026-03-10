@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Beveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/software-beveiliging//img/banner.png</url><title>Software Beveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/software-beveiliging/</link></image><link>https://nl.simeononsecurity.com/tags/software-beveiliging/</link><description>Recent content in Software Beveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/software-beveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>OWASP Top 10: Kritieke beveiligingsrisico's voor webtoepassingen</title><link>https://nl.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Beveiliging van webtoepassingen"
+, "OWASP top 10"
+, "Injectieaanvallen"
+, "Authenticatie"
+, "Sessiebeheer"
+, "XSS-aanvallen"
+, "Toegangscontrole"
+, "Verkeerde configuratie van beveiliging"
+, "Cryptografische opslag"
+, "Bescherming transportlaag"
+, "Validatie van invoer"
+, "Componenten van derden"
+, "Registratie en bewaking"
+, "Webontwikkeling"
+, "Cyberbeveiliging"
+, "Gegevensbescherming"
+, "Software Beveiliging"
+, "IT Beveiliging"
+, "Veiligheidsmaatregelen"
+, "Risicobeheer"</category><guid>https://nl.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer meer over de meest kritieke beveiligingsrisico's voor webtoepassingen met de OWASP Top 10 en hoe u zich hiertegen kunt beschermen</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>
