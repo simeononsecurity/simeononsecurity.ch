@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>STIG on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/tags/stig//img/banner.png</url><title>STIG on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/stig/</link></image><link>https://pa.simeononsecurity.com/tags/stig/</link><description>Recent content in STIG on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/stig/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell ਸਕ੍ਰਿਪਟ ਦੇ ਨਾਲ ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਦੀ ਪਾਲਣਾ ਨੂੰ ਆਟੋਮੈਟਿਕ ਕਰੋ</title><link>https://pa.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"ਪਾਵਰਸ਼ੇਲ"
+, "PowerShell ਸਕ੍ਰਿਪਟ"
+, "ਆਟੋਮੇਸ਼ਨ"
+, "ਪਾਲਣਾ"
+, "ਬਲੂ-ਟੀਮ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ STIG ਸਕ੍ਰਿਪਟ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਹਾਰਡਨਿੰਗ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ STIG"
+, "ਡਿਫੈਂਡਰ STIG"
+, "ਸੁਰੱਖਿਆ"
+, "ਸਾਈਬਰ ਸੁਰੱਖਿਆ"
+, "STIG"
+, "ਵਿੰਡੋਜ਼ ਸੁਰੱਖਿਆ"
+, "ਵਿੰਡੋਜ਼ ਐਂਟੀਵਾਇਰਸ"
+, "ਵਿੰਡੋਜ਼ ਸਕ੍ਰਿਪਟਿੰਗ"
+, "ਵਿੰਡੋਜ਼ ਆਟੋਮੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ ਹਾਰਡਨਿੰਗ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਆਟੋਮੇਸ਼ਨ"
+, "ਵਿੰਡੋਜ਼ ਡਿਫੈਂਡਰ ਪਾਲਣਾ"</category><guid>https://pa.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Defender STIG PowerShell ਸਕ੍ਰਿਪਟ ਨਾਲ ਆਪਣੀ ਸੁਰੱਖਿਆ ਨੂੰ ਵਧਾਓ, ਜੋ Windows Defender Antivirus V1R9 STIG ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਨੂੰ ਸਵੈਚਾਲਤ ਕਰਦੀ ਹੈ।</description></item></channel></rss>
