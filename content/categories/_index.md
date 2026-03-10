@@ -1,5 +1,5 @@
 ---
-_build:
+build:
     render: false
     list: never
 ---
