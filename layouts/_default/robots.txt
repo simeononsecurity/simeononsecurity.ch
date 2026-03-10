@@ -62,7 +62,15 @@ User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
 User-agent: OrangeBot
+User-agent: MJ12bot
+Crawl-delay: 10
+
 User-agent: Pinterest
+Crawl-delay: 1
+
+User-agent: Nutch
+Disallow: /
+
 User-agent: Plukkie
 User-agent: Qwantify
 User-agent: Rambler
