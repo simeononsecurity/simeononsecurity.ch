@@ -1,97 +1,369 @@
 ---
-title: "Understanding Information Classification: Who Determines and Assigns Classification Levels"
+title: "Understanding Information Classification: Who Designates and Determines Classification Levels"
 date: 2023-06-12
+lastmod: 2026-05-24
 toc: true
 draft: false
-description: "Learn about the process of information classification, including who designates and assigns classification levels, and the importance of adhering to government regulations."
+description: "Comprehensive guide to understanding who designates whether information is classified, who determines classification levels, and the complete process of information classification in the United States."
 genre: ["Information Security", "Data Classification", "Government Regulations", "National Security", "Data Protection", "Data Privacy", "Security Measures", "Classified Information", "Access Control", "Data Sensitivity"]
-tags: ["information classification", "designating classification levels", "classification authority", "information security", "government regulations", "national security", "data protection", "data privacy", "security measures", "classified information", "access control", "data sensitivity", "classification process", "classification levels", "original classification authority", "top secret classification", "secret classification", "confidential classification", "restricted classification", "information sensitivity", "security clearance", "need-to-know basis", "classification markings", "declassification process", "Executive Order 13526", "NISPOM", "ITAR"]
+tags: ["information classification", "designating classification levels", "classification authority", "information security", "government regulations", "national security", "data protection", "data privacy", "security measures", "classified information", "access control", "data sensitivity", "classification process", "classification levels", "original classification authority", "top secret classification", "secret classification", "confidential classification", "restricted classification", "information sensitivity", "security clearance", "need-to-know basis", "classification markings", "declassification process", "Executive Order 13526", "NISPOM", "ITAR", "derivative classification", "OCA authority", "classification designators"]
 cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
 coverAlt: "An image depicting a person with a magnifying glass analyzing classified documents and a lock symbol in the background."
 coverCaption: "Unlocking the Secrets: The Importance of Information Classification"
 ---
 
-## Who Designates Whether Information is Classified and its Classification Level
+## Who Designates Whether Information is Classified and Its Classification Level
 
-Information classification plays a critical role in safeguarding sensitive data and ensuring national security. **Designating whether information is classified and determining its classification level** involves a structured process governed by established regulations and guidelines. In this article, we will explore the key entities and procedures involved in information classification.
+Information classification plays a critical role in safeguarding sensitive data and ensuring national security. **Understanding who designates whether information is classified and determines its classification level** is essential for anyone working with sensitive government information, contractors in the defense industry, or students of national security policy. This comprehensive guide explores the entities, processes, and regulations involved in information classification within the United States.
 
 ### Introduction
 
-**Information classification** is the process of categorizing data based on its level of sensitivity, the potential harm that could result from its unauthorized disclosure, and the level of protection required. By assigning a classification level, organizations can control access to information and implement appropriate security measures. But who has the authority to designate whether information is classified and determine its classification level? Let's find out.
+**Information classification** is the systematic process of categorizing data based on its level of sensitivity, the potential damage that could result from its unauthorized disclosure, and the corresponding level of protection required. By assigning appropriate classification levels, organizations control access to information and implement security measures proportionate to the risk. But **who has the authority to designate whether information is classified**, and **who determines its classification level**? This article provides detailed answers to these critical questions.
 
 {{< youtube id="6AAb8TXSpi8" >}}
 
-### Classification Authority
+______
 
-The **classification authority** is responsible for designating whether information is classified and establishing its classification level. This authority may vary depending on the context and type of information. In the United States, the **Original Classification Authority (OCA)** is often responsible for classifying national security information.
+## Who Designates Whether Information is Classified?
 
-The OCA is an individual authorized by an executive order or government directive to classify information in the interest of national security. This authority is granted based on their role, expertise, and the need to know. For example, a high-ranking military official may be designated as the OCA for classifying sensitive military intelligence.
+The authority to **designate whether information is classified** rests with specific individuals who have been granted **Original Classification Authority (OCA)**. These are not arbitrary designations—they are carefully controlled positions established through executive orders and government directives.
 
-As the OCA, they have the crucial task of applying **classification markings** to documents or electronic files to indicate the level of protection required. These markings can include labels such as **"Top Secret," "Secret,"** or **"Confidential"**. The classification authority ensures that the information is appropriately protected and only accessible to authorized individuals with the necessary security clearance and need-to-know.
+### Original Classification Authority (OCA)
 
-For example, the OCA may classify a detailed military operation plan as **"Top Secret"** to prevent its disclosure, as its unauthorized exposure could have severe consequences for national security. The classification authority's role is vital in safeguarding sensitive information and preventing potential threats to the country.
+The **Original Classification Authority (OCA)** is an individual who has been explicitly authorized by the President, agency heads, or other officials designated under [Executive Order 13526](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) to make initial determinations that information requires classification in the interest of national security.
 
-To learn more about the classification authority and its responsibilities, you can refer to the official documentation such as the **Executive Order 13526** issued by the U.S. government, which outlines the principles and guidelines for classifying national security information.
+**Key characteristics of OCAs include:**
 
-### Classification Levels
+- **Presidential Authority**: The President has the highest classification authority and can classify or declassify any information.
+- **Agency Heads**: Directors of major government agencies (such as the Secretary of Defense, Secretary of State, CIA Director) typically hold OCA designation.
+- **Delegated Officials**: Senior officials within agencies who have been formally delegated OCA by agency heads.
+- **Training Requirements**: OCAs must receive specialized training on classification principles, procedures, and the proper application of classification levels.
 
-Information classification is typically categorized into several levels, each indicating the degree of sensitivity and protection required. The specific classification levels may vary depending on the country and organization. Let's explore some commonly used classification levels:
+For example, a senior military intelligence officer with OCA designation can make the original determination that a newly developed signals intelligence capability requires classification. Similarly, a State Department official with OCA can classify diplomatic cables containing sensitive negotiations.
 
-1. **Top Secret**: This is the highest level of classification, used for information that, if disclosed, could cause exceptionally grave damage to national security or endanger ongoing operations.
-2. **Secret**: This level is used for information that, if revealed, could cause serious damage to national security or compromise ongoing operations.
-3. **Confidential**: Confidential information, if disclosed, could reasonably be expected to cause damage to national security or harm to government interests.
-4. **Restricted**: This classification level is used for information that requires protection due to privacy, proprietary, or other sensitivities but does not fall into higher classification levels.
+### Derivative Classification
 
-These classification levels are hierarchical, with each subsequent level indicating a lower degree of sensitivity and protection requirements.
+While OCAs make **original** classification decisions, many more government employees and contractors perform **derivative classification**. This is the process of incorporating, paraphrasing, restating, or generating in new form information that is already classified, and marking the new material consistent with the classification markings on the source information.
 
-### Classification Levels
+**Important distinctions:**
 
-Information classification involves categorizing data into different **classification levels** based on their sensitivity and required protection. While the specific classification levels may vary across countries and organizations, here are some commonly used examples:
+- **Derivative classifiers** do not decide if information should be classified—they apply existing classification decisions.
+- They must receive formal training in derivative classification.
+- They are responsible for carrying forward classification markings and properly citing sources.
 
-1. **Top Secret**: This is the highest level of classification and is assigned to information that, if disclosed, could result in **exceptionally grave damage** to national security or ongoing operations. Examples of top-secret information include **nuclear weapon designs**, **intelligence sources**, and **highly sensitive military plans**.
+According to the [Information Security Oversight Office (ISOO)](https://www.archives.gov/isoo), there are approximately 1.3 million derivative classifiers across the U.S. government, but only about 2,000 original classification authorities.
 
-2. **Secret**: The secret classification level is used for information that, if revealed, could cause **serious damage** to national security or compromise ongoing operations. Examples of secret information include **intelligence reports**, **cryptographic algorithms**, and **designs of advanced weapon systems**.
+______
 
-3. **Confidential**: Information classified as confidential, if disclosed, could reasonably be expected to cause **damage** to national security or harm to government interests. Examples of confidential information include **law enforcement tactics**, **sensitive diplomatic cables**, and **financial data related to government operations**.
+## Who Determines the Classification Level?
 
-4. **Sensitive But Unclassified (SBU)**: SBU information refers to sensitive information that does not meet the criteria for classification but still requires protection from unauthorized disclosure. It encompasses information such as **personally identifiable information (PII)**, **proprietary business data**, or **law enforcement techniques**.
+Once the decision has been made that information requires classification, the **OCA who designated the information as classified is also responsible for determining its classification level**. This determination is not subjective—it must be based on established criteria outlined in Executive Order 13526.
 
-5. **For Official Use Only (FOUO)**: FOUO is a designation used for information that, while unclassified, requires protection and is intended for official use only. It includes information that, if released, could cause **harm** to individuals, government entities, or commercial interests. Examples of FOUO information include **pre-decisional draft documents**, **procurement-sensitive data**, and **sensitive research findings**.
+### Classification Level Determination Criteria
 
-6. **Unclassified**: Unclassified information is not classified and does not require specific protection measures due to its sensitivity. However, it is still essential to handle unclassified information with care and discretion to protect privacy and prevent unauthorized disclosure.
+When determining the appropriate classification level, the OCA must assess the **potential damage to national security** that could reasonably be expected from unauthorized disclosure. Executive Order 13526 provides specific definitions:
 
-These classification levels form a hierarchy, where each subsequent level indicates a **lower degree of sensitivity** and corresponding protection requirements. It is crucial for organizations and individuals to understand and adhere to the proper handling and protection measures associated with each classification level to maintain the integrity and security of the information.
+#### Top Secret
 
-To gain further insights into the classification levels and their associated guidelines, you can refer to the **government regulations** and **classification manuals** provided by the respective authorities, such as the **National Industrial Security Program Operating Manual (NISPOM)** or similar documents relevant to your country or organization.
+**"Top Secret shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause exceptionally grave damage to the national security."**
 
-### Government Regulations
+Real-world examples include:
 
-Information classification is subject to various **government regulations and guidelines** to ensure consistency and adherence to security practices. These regulations play a crucial role in establishing a framework for classifying, safeguarding, and declassifying sensitive information. Here are some notable regulations in this context:
+- **Nuclear weapon designs and specifications**: Detailed technical data on nuclear warhead construction, yield calculations, and deployment systems
+- **Intelligence sources and methods**: The identity of human intelligence assets in hostile countries or the technical capabilities of satellite reconnaissance systems
+- **War plans**: Operational plans for potential military conflicts, including troop movements, target lists, and strategic objectives
+- **Cryptographic systems**: Advanced encryption algorithms used for secure communications by military and intelligence agencies
+- **Covert action programs**: CIA or military special operations programs conducted without acknowledgment
 
-- **Executive Order 13526**: This **executive order**, issued by the President of the United States, establishes the framework for classifying, safeguarding, and declassifying **national security information**. It provides guidelines for classification authorities and outlines the criteria for determining the levels of classification.
+The compromise of Top Secret information has historically led to significant national security incidents. For example, the unauthorized disclosure of classified nuclear weapon information to foreign adversaries would fundamentally alter strategic balance and could lead to proliferation.
 
-- **National Industrial Security Program Operating Manual (NISPOM)**: The **NISPOM** provides comprehensive guidance for protecting **classified information** held by contractors working with the U.S. government. It covers various aspects such as personnel security, physical security, and information security measures to ensure the proper handling and protection of classified data.
+#### Secret
 
-- **International Traffic in Arms Regulations (ITAR)**: ITAR is a set of **regulations** that control the export and temporary import of defense articles and services, including **classified information**, to protect national security. It imposes stringent requirements on individuals and organizations involved in the defense industry to prevent the unauthorized disclosure or transfer of sensitive information to foreign entities.
+**"Secret shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause serious damage to the national security."**
 
-By complying with these regulations, organizations and individuals involved in handling classified information can ensure that proper procedures are followed, and the necessary security measures are in place to safeguard sensitive data. Non-compliance with these regulations can result in severe consequences, including legal penalties and damage to national security.
+This classification level applies to information such as:
 
-To learn more about these regulations and their specific requirements, you can refer to the official documentation and resources provided by the respective authorities. For example, you can access the **Executive Order 13526** on the [Official Gazette of the United States](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information) website, explore the **NISPOM** on the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/) website, and find detailed information about **ITAR** on the [U.S. Department of State](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing) website.
+- **Intelligence reports**: Finished intelligence assessments on foreign military capabilities, terrorist organizations, or geopolitical developments
+- **Military readiness data**: Specific information about unit deployment status, equipment capabilities, or operational readiness levels
+- **Advanced weapon system details**: Technical specifications of new fighter aircraft, missile defense systems, or naval vessels that aren't yet public but aren't at the highest sensitivity level
+- **Diplomatic cables**: Sensitive communications between U.S. embassies and the State Department discussing bilateral negotiations or assessments of foreign leaders
+- **Counterintelligence operations**: Information about ongoing investigations into foreign espionage activities
+
+The disclosure of Secret information could seriously compromise military operations, intelligence collection, diplomatic relations, or counterintelligence efforts.
+
+#### Confidential
+
+**"Confidential shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause damage to the national security."**
+
+Examples of Confidential information include:
+
+- **Law enforcement tactics**: Specific procedures used by federal agencies for surveillance, arrests, or investigations
+- **Budget data**: Detailed budget information for classified programs that could reveal priorities or capabilities
+- **Technical manuals**: Unclassified equipment with classified operational procedures or limitations
+- **Personnel security information**: Security clearance investigation files or background check results
+- **Diplomatic negotiation positions**: Early-stage negotiating positions on international agreements before they become public
+
+While Confidential is the lowest level of classified information, its unauthorized disclosure could still cause demonstrable damage to national security interests, law enforcement operations, or diplomatic relations.
+
+### Additional Classification Categories
+
+Beyond the three primary classification levels, there are additional categories and special access programs:
+
+#### Sensitive Compartmented Information (SCI)
+
+**SCI** refers to classified information concerning intelligence sources, methods, or analytical processes that requires handling within formal access control systems. SCI is not a classification level itself but an additional layer of control applied to Top Secret information. Examples include:
+
+- SIGINT (Signals Intelligence) compartments
+- HUMINT (Human Intelligence) compartments  
+- Imagery intelligence analysis
+- Special intelligence programs
+
+Access to SCI requires a Top Secret clearance plus additional adjudication and indoctrination into specific compartments based on need-to-know.
+
+#### Special Access Programs (SAP)
+
+**SAPs** provide additional security measures beyond those required for the classification level. They are established for specific programs and technologies requiring extraordinary protection. Types include:
+
+- **Acquisition SAPs**: Protect advanced weapon system development
+- **Operations SAPs**: Protect sensitive military operations
+- **Intelligence SAPs**: Protect unique intelligence capabilities
+
+According to the [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/), there are approximately 150 SAPs across the Department of Defense, each with rigorously controlled access lists.
+
+#### Sensitive But Unclassified (SBU) and Controlled Unclassified Information (CUI)
+
+Not all sensitive information meets the threshold for classification. **Controlled Unclassified Information (CUI)** is a standardized framework that replaced numerous legacy markings like "For Official Use Only (FOUO)" and "Sensitive But Unclassified (SBU)."
+
+**CUI categories include:**
+
+- **Law Enforcement Sensitive**: Information that could compromise investigations
+- **Personally Identifiable Information (PII)**: Social security numbers, medical records, financial data
+- **Procurement Sensitive**: Proprietary business information or source selection data
+- **Export Controlled**: Technical data subject to export control regulations
+- **Privacy Information**: Information protected under the Privacy Act
+
+The [CUI Registry](https://www.archives.gov/cui) maintained by the National Archives provides the authoritative list of CUI categories and handling procedures.
+
+______
+
+## The Classification Process: Step-by-Step
+
+Understanding **who designates whether information is classified** requires examining the complete classification process:
+
+### Step 1: Information Creation or Discovery
+
+Classified information can originate from various sources:
+
+- Intelligence collection activities
+- Military operations and planning
+- Weapons system development
+- Diplomatic communications
+- Scientific research with national security implications
+
+### Step 2: Classification Determination
+
+An **Original Classification Authority (OCA)** reviews the information and determines:
+
+1. **Does it require classification?** Would unauthorized disclosure cause damage to national security?
+2. **What classification level is appropriate?** Top Secret, Secret, or Confidential based on potential damage
+3. **What is the classification rationale?** Which specific category under EO 13526 justifies classification (e.g., military plans, intelligence sources and methods, foreign government information)
+4. **What is the duration?** When should the information be declassified or reviewed for declassification
+
+### Step 3: Marking and Dissemination
+
+Once classified, the information must be **properly marked** according to standardized procedures outlined in the [Classified National Security Information Marking System](https://www.archives.gov/isoo/policy-documents/cnsi-marking-guide.html).
+
+Essential markings include:
+
+- **Overall classification level** (TOP SECRET, SECRET, or CONFIDENTIAL)
+- **Classification authority**: Name and position of the OCA
+- **Classification reason**: Citation to EO 13526 classification category
+- **Declassification instructions**: Date, event, or exemption
+- **Portion markings**: Indicating the classification of individual paragraphs or sections
+- **Dissemination controls**: Limiting who can access the information (e.g., NOFORN, ORCON)
+
+### Step 4: Access Control
+
+Classified information can only be accessed by individuals who:
+
+- Hold an appropriate **security clearance** at the required level or higher
+- Have a demonstrated **need-to-know** for the specific information
+- Have received proper **security briefings** and training
+- Are working in a **properly accredited facility**
+
+The [need-to-know principle](https://www.dcsa.mil/is/clearanceprocess/) is fundamental—even individuals with Top Secret clearances cannot access all Top Secret information. Access is strictly limited to what is necessary for job performance.
+
+### Step 5: Declassification Review
+
+Executive Order 13526 requires periodic review of classified information for potential declassification. Most classified documents have:
+
+- **Automatic declassification dates**: Typically 25 years from classification date
+- **Event-based declassification**: Tied to specific events (e.g., end of a military operation)
+- **Exemptions**: Information that is exempt from automatic declassification due to extraordinarily sensitive nature
+
+The [National Declassification Center](https://www.archives.gov/declassification) at the National Archives coordinates declassification efforts across the government.
+
+______
+
+## Government Regulations and Compliance
+
+Information classification is governed by a comprehensive regulatory framework designed to ensure consistency, protection of sensitive information, and appropriate declassification procedures.
+
+### Executive Order 13526: Classified National Security Information
+
+[Executive Order 13526](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information), signed by President Barack Obama on December 29, 2009, is the current governing authority for classification of national security information. It superseded previous executive orders and established:
+
+- **Uniform standards** for classification, safeguarding, and declassification
+- **Original classification authority** designation procedures
+- **Classification categories**: Eight specific categories of classifiable information
+- **Automatic declassification** processes for permanent historical records
+- **Overclassification reform** measures to reduce improper classification
+
+The order emphasizes that information shall not be classified to:
+
+- Conceal violations of law or inefficiency
+- Prevent embarrassment
+- Restrain competition
+- Prevent or delay public release of information that does not require protection
+
+### National Industrial Security Program Operating Manual (NISPOM)
+
+The [NISPOM](https://www.dcsa.mil/is/nispom/) (currently DoD Manual 5220.22-M, being replaced by 32 CFR Part 117) provides comprehensive guidance for protecting classified information held by defense contractors. It covers:
+
+- **Personnel security clearances**: Procedures for investigations and adjudications
+- **Facility security**: Physical security requirements for cleared facilities
+- **Information system security**: Technical controls for classified computer networks
+- **Classified contract management**: Procedures for administering contracts involving classified information
+- **Self-inspection programs**: Requirements for contractor oversight
+
+The NISPOM affects approximately 13,000 cleared contractor facilities and over 1 million cleared contractor employees according to DCSA statistics.
+
+### International Traffic in Arms Regulations (ITAR)
+
+[ITAR](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing), administered by the U.S. Department of State, controls the export of defense articles and services. While not exclusively focused on classified information, ITAR:
+
+- Restricts export of technical data, including some classified information
+- Requires registration of manufacturers and exporters of defense articles
+- Imposes strict controls on foreign nationals' access to controlled information
+- Establishes penalties for unauthorized disclosures, including criminal prosecution
+
+Violations of ITAR can result in fines up to $1 million per violation and imprisonment up to 20 years for willful violations.
+
+### Classification Management and Oversight
+
+The [Information Security Oversight Office (ISOO)](https://www.archives.gov/isoo), part of the National Archives, oversees government-wide implementation of classification policy. ISOO:
+
+- Issues implementing directives for Executive Order 13526
+- Conducts oversight of agency classification programs
+- Provides annual reports to the President on classification statistics
+- Offers training and resources for classification management
+
+ISOO's annual reports reveal trends in classification and declassification, providing transparency into the classification system's operation.
+
+______
+
+## Common Misconceptions About Classification
+
+Several misconceptions exist about **who designates whether information is classified** and the classification process:
+
+### Misconception 1: Anyone Can Classify Information
+
+**Reality**: Only designated Original Classification Authorities (OCAs) can make original classification determinations. The OCA designation is formally granted and requires specific training and position authority.
+
+### Misconception 2: Everything Labeled "Classified" is Top Secret
+
+**Reality**: "Classified" is an umbrella term for information at Top Secret, Secret, or Confidential levels. The majority of classified information is actually at the Secret or Confidential level. According to ISOO reports, less than 10% of classification actions result in Top Secret designations.
+
+### Misconception 3: Once Classified, Always Classified
+
+**Reality**: Executive Order 13526 presumes declassification. Most information is automatically declassified after 25 years unless it meets specific exemption criteria. The government declassifies millions of pages of historical documents annually.
+
+### Misconception 4: Security Clearance Equals Access to All Information at That Level
+
+**Reality**: Security clearances are necessary but not sufficient for access. The need-to-know principle requires that individuals only access classified information essential to their job duties, even if they hold an appropriate clearance.
+
+### Misconception 5: Classification Decisions Cannot Be Challenged
+
+**Reality**: Executive Order 13526 establishes procedures for challenging classification decisions. Employees can question whether information is properly classified, and whistleblower protections exist for reporting overclassification or improper classification.
+
+______
+
+## Best Practices for Handling Classified Information
+
+For individuals working with classified information, adherence to best practices is essential:
+
+### For Original Classification Authorities
+
+- **Training**: Maintain current certification in OCA responsibilities
+- **Proportionality**: Apply the lowest classification level consistent with security needs
+- **Specificity**: Clearly articulate classification rationale and cite specific EO 13526 categories
+- **Declassification planning**: Establish appropriate declassification instructions at the time of original classification
+- **Regular review**: Periodically review classification decisions for continued necessity
+
+### For Derivative Classifiers
+
+- **Source verification**: Ensure source materials are properly classified
+- **Accurate marking**: Apply portion markings and overall classification consistently
+- **Source citation**: Document sources used for derivative classification
+- **Classification guidance**: Consult classification guides and original classifiers when uncertain
+- **Training compliance**: Complete required derivative classifier training every two years
+
+### For All Cleared Personnel
+
+- **Need-to-know adherence**: Only access classified information required for job performance
+- **Proper storage**: Store classified materials in approved repositories (safes, SCIFs)
+- **Spillage reporting**: Immediately report potential compromises of classified information
+- **Foreign contact reporting**: Report contacts with foreign nationals that may involve security implications
+- **Annual training**: Complete required security training and refreshers
+
+______
+
+## Consequences of Unauthorized Disclosure
+
+Understanding **who designates whether information is classified** carries weight because unauthorized disclosure of classified information has serious consequences:
+
+### Administrative Consequences
+
+- **Security clearance suspension or revocation**: Loss of clearance typically results in
+
+ employment termination for positions requiring clearances
+- **Disciplinary action**: Reprimands, suspension, or termination from government service
+- **Civil penalties**: Fines and restitution for damages caused
+
+### Criminal Consequences
+
+Several federal statutes criminalize unauthorized disclosure of classified information:
+
+- **Espionage Act (18 U.S.C. § 793, 794)**: Punishable by up to life imprisonment for espionage
+- **Intelligence Identities Protection Act (50 U.S.C. § 3121)**: Criminalizes unauthorized disclosure of intelligence officers' identities
+- **Atomic Energy Act (42 U.S.C. § 2274, 2277)**: Specific penalties for nuclear secrets disclosure
+- **Classified Information Procedures Act**: Establishes procedures for handling classified information in criminal trials
+
+High-profile cases like those of [Chelsea Manning](https://www.justice.gov/opa/pr/former-army-intelligence-analyst-sentenced-35-years-prison-unauthorized-disclosure-classified), [Edward Snowden](https://www.justice.gov/opa/pr/former-nsa-contractor-charged-unauthorized-disclosure-classified-information), and [Reality Winner](https://www.justice.gov/opa/pr/federal-contractor-pleads-guilty-unauthorized-disclosure-classified-information) demonstrate the government's commitment to prosecuting unauthorized disclosures.
 
 ______
 
 ## Conclusion
 
-The **designation of information classification** and its corresponding **classification level** is a critical process in safeguarding sensitive data. By entrusting the responsibility to a **classification authority**, organizations can ensure consistent and controlled access to classified information. The classification authority applies established guidelines and regulations to determine the appropriate classification level for different types of data.
+The authority to **designate whether information is classified** and **determine its classification level** is a carefully controlled responsibility vested in Original Classification Authorities (OCAs) throughout the U.S. government. This system, governed primarily by Executive Order 13526, strikes a balance between protecting legitimate national security interests and promoting government transparency through eventual declassification.
 
-The classification process serves to protect national security, prevent unauthorized disclosure, and enable the proper handling of sensitive information. It involves assessing the potential impact of disclosure and assigning a classification level accordingly. The **classification levels** range from **Top Secret** and **Secret** to **Confidential**, **Sensitive But Unclassified (SBU)**, **For Official Use Only (FOUO)**, and **Unclassified**.
+Key takeaways include:
 
-Adherence to **government regulations and guidelines** is crucial in maintaining the integrity and security of classified information. Examples of such regulations include **Executive Order 13526**, which provides the framework for classifying national security information, the **National Industrial Security Program Operating Manual (NISPOM)**, which guides contractors working with the U.S. government, and the **International Traffic in Arms Regulations (ITAR)**, which regulates the export of defense articles and services.
+1. **Only designated OCAs can make original classification determinations**—typically agency heads and senior officials they delegate
+2. **Classification levels (Top Secret, Secret, Confidential) are determined based on potential damage to national security** from unauthorized disclosure
+3. **The classification process is governed by Executive Order 13526** and implementing regulations like the NISPOM and ITAR
+4. **Derivative classifiers apply existing classification decisions** but do not make original determinations
+5. **All classification decisions must include declassification instructions** to ensure information doesn't remain classified longer than necessary
 
-In conclusion, the process of information classification and its designation is vital for protecting sensitive data and upholding national security. By following established guidelines and regulations, organizations can ensure the appropriate handling and safeguarding of classified information, mitigating the risks associated with unauthorized disclosure.
+For anyone working with classified information, understanding these authorities, processes, and regulations is essential to properly protecting national security while respecting the public's right to government transparency.
 
 ## References
 
-- [Executive Order 13526](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information)
-- [National Industrial Security Program Operating Manual (NISPOM)](https://www.dss.mil/isp/odaa/documents/nispom2006-5220.pdf)
-- [International Traffic in Arms Regulations (ITAR)](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing)
+1. [Executive Order 13526 - Classified National Security Information](https://obamawhitehouse.archives.gov/the-press-office/executive-order-classified-national-security-information)
+2. [Information Security Oversight Office (ISOO)](https://www.archives.gov/isoo)
+3. [National Industrial Security Program Operating Manual (NISPOM)](https://www.dcsa.mil/is/nispom/)
+4. [Defense Counterintelligence and Security Agency (DCSA)](https://www.dcsa.mil/)
+5. [International Traffic in Arms Regulations (ITAR)](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing)
+6. [Controlled Unclassified Information (CUI) Registry](https://www.archives.gov/cui)
+7. [National Declassification Center](https://www.archives.gov/declassification)
+8. [Classified National Security Information Marking Guide](https://www.archives.gov/isoo/policy-documents/cnsi-marking-guide.html)
