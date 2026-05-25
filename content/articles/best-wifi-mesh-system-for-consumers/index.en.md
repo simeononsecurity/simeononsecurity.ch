@@ -510,7 +510,7 @@ subscription ($10/month or $100/year)
 ⚠️ Steep learning curve (not for beginners)
 ⚠️ Requires Ethernet cable runs (PoE)
 ⚠️ Higher upfront cost ($299 + $189/AP)
-⚠️ No simple mobile app setup
+⚠️ No one click mobile app setup (however a the unifi app is simple once set up)
 ⚠️ Overkill for average homes
 
 **Best For**: Tech enthusiasts, home labs, prosumers, users comfortable with networking concepts, homes with Ethernet pre-wiring, those wanting complete control
