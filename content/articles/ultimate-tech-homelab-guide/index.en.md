@@ -23,14 +23,14 @@ A homelab is not just a hobby; it's a powerful tool for learning and professiona
 
 1. **Hands-on Learning** : A homelab provides a practical environment where you can experiment with different technologies, systems, and applications. It allows you to gain valuable hands-on experience, which is crucial for personal growth and career advancement.
 2. **Skill Development** : By working with various technologies and systems in your homelab, you can develop a wide range of technical skills. Whether it's setting up servers, configuring networks, or managing virtualization platforms, a homelab offers endless opportunities for skill development.
-3. **Exploration and Innovation** : Having a homelab enables you to explore new technologies and innovate. You can test cutting-edge solutions, experiment with emerging trends, and even develop your own projects. It's a space where you can unleash your creativity and push the boundaries of what's possible.
+3. **Exploration and Innovation** : Having a homelab enables you to explore new technologies and innovate. You can test advanced solutions, experiment with emerging trends, and even develop your own projects. It's a space where you can unleash your creativity and push the boundaries of what's possible.
 4. **Flexibility and Control** : With a homelab, you have complete control over your infrastructure. You can customize it to meet your specific needs, experiment with different configurations, and test different setups. This level of flexibility and control is hard to achieve in a traditional learning or work environment.
 
 Now that we understand the benefits of having a homelab, let's explore the best hardware options that can help you build a powerful and budget-friendly setup.
 _______
 ## Choosing the Right Hardware for Your Homelab
 
-When it comes to homelab hardware, there are several factors to consider, including processing power, storage capacity, networking capabilities, and power efficiency. Depending on your requirements and budget, you can choose from a variety of hardware options. Let's delve into the details of each component and explore the best choices available.
+When it comes to homelab hardware, there are several factors to consider, including processing power, storage capacity, networking capabilities, and power efficiency. Depending on your requirements and budget, you can choose from a variety of hardware options. Let's dig into the details of each component and explore the best choices available.
 
 ### 1. Processor (CPU)
 
@@ -53,7 +53,7 @@ Storage is an essential component of any homelab setup. It's where you store you
 - [**Solid State Drives (SSDs)**](https://amzn.to/3OtIfr7): SSDs provide faster read-write speeds, resulting in improved performance and responsiveness. They are ideal for hosting operating systems and critical applications that require quick access to data.
 - [**Hard Disk Drives (HDDs)**](https://amzn.to/446k9se): HDDs are more cost-effective and offer larger storage capacities compared to SSDs. They are suitable for storing media files, backups, and non-critical data in your homelab.
 
-It's worth noting that many homelab enthusiasts prefer using a combination of SSDs and HDDs to achieve a balance between performance and storage capacity.
+Worth noting: many homelab enthusiasts prefer using a combination of SSDs and HDDs to achieve a balance between performance and storage capacity.
 
 ### 4. Networking
 
@@ -74,7 +74,7 @@ Server virtualization is a key aspect of homelab setups, as it allows you to run
 
 ### 6. Storage Solutions
 
-In addition to the storage components mentioned earlier, it's essential to have a robust storage solution for your homelab. Here are a couple of options to consider:
+In addition to the storage components mentioned earlier, you need to have a robust storage solution for your homelab. Here are a couple of options to consider:
 
 - [**ZFS**](https://en.wikipedia.org/wiki/ZFS): ZFS is a software-defined storage solution known for its reliability, data integrity, and scalability. It combines the best features of file systems and RAID, making it an excellent choice for homelab enthusiasts. FreeNAS and TrueNAS are popular options based on ZFS.
 - [**Network-Attached Storage (NAS)**](https://simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/): NAS devices offer centralized storage accessible to multiple devices on your network. They provide convenient file sharing, backup, and media streaming capabilities. Synology and QNAP are reputable brands known for their comprehensive NAS solutions.

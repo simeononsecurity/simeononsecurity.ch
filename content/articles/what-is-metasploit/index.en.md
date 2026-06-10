@@ -52,7 +52,7 @@ There are two primary versions of Metasploit available: Metasploit Framework and
 
 ## Government Regulations and Metasploit
 
-It is crucial to note that the use of Metasploit must be compliant with relevant government regulations and laws. Ethical hacking and penetration testing should only be performed with proper authorization and in adherence to applicable legal frameworks, such as the **Computer Fraud and Abuse Act (CFAA)** in the United States.
+You need to note that the use of Metasploit must be compliant with relevant government regulations and laws. Ethical hacking and penetration testing should only be performed with proper authorization and in adherence to applicable legal frameworks, such as the **Computer Fraud and Abuse Act (CFAA)** in the United States.
 
 ______
 

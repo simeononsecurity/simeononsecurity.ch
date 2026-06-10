@@ -24,7 +24,7 @@ ______
 
 ### Key Features of Dev Home
 
-1. **Customizable Widgets**: Dev Home's dashboard allows you to personalize your workspace by adding widgets that suit your specific needs. You can monitor various aspects of your development workflow, such as GPU performance, available SSH connections, memory usage, network performance, and CPU utilization.
+1. **Customizable Widgets**: Dev Home's dashboard allows you to personalize your workspace by adding widgets that suit your specific needs. You can monitor various aspects of your development workflow, such as GPU performance, available SSH connections, memory usage, network performance, and CPU use.
 
 2. **Machine Configuration**: Dev Home provides a machine configuration tool that simplifies the process of setting up your development environment. Whether you are working on a new device or starting a new project, Dev Home can guide you through the setup process. You can choose between an end-to-end setup process, using a WinGet Configuration file, or performing specific steps like cloning a Git repository or installing applications.
 
@@ -42,7 +42,7 @@ ______
 
 ### Key Features of Dev Drive
 
-1. **Improved File System Performance**: Dev Drive utilizes the ReFS volume format, which offers enhanced performance for development scenarios. It optimizes file system operations, resulting in faster read and write speeds, reduced file fragmentation, and improved data integrity.
+1. **Improved File System Performance**: Dev Drive uses the ReFS volume format, which offers enhanced performance for development scenarios. It optimizes file system operations, resulting in faster read and write speeds, reduced file fragmentation, and improved data integrity.
 
 2. **Easy Setup and Configuration**: Setting up a Dev Drive is a straightforward process. The Windows 11 operating system provides a simple interface to create and configure your Dev Drive according to your requirements. You can designate trust to use performance mode for Microsoft Defender Antivirus, apply customized filters, and find answers to frequently asked questions to ensure a smooth setup experience.
 
@@ -52,7 +52,7 @@ ______
 
 ## Conclusion
 
-In conclusion, Dev Home and Dev Drive are essential tools for Windows developers. Dev Home acts as a control center, offering a customizable dashboard, machine configuration capabilities, GitHub integration, and the ability to create a Dev Drive for improved storage performance. Dev Drive, on the other hand, provides enhanced storage features specifically tailored to development scenarios. By leveraging these tools, you can optimize your development workflow, boost productivity, and achieve better results.
+Wrapping up, Dev Home and Dev Drive are essential tools for Windows developers. Dev Home acts as a control center, offering a customizable dashboard, machine configuration capabilities, GitHub integration, and the ability to create a Dev Drive for improved storage performance. Dev Drive, on the other hand, provides enhanced storage features specifically tailored to development scenarios. By using these tools, you can optimize your development workflow, boost productivity, and achieve better results.
 
 ## References
 - [Microsoft Documentation: Dev Home](https://learn.microsoft.com/en-us/windows/dev-home/?WT.mc_id=windows-c9-niner)

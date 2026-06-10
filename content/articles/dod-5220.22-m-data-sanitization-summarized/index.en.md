@@ -46,7 +46,7 @@ To implement the DoD 5220.22-M specification, organizations can use various meth
 
 Organizations can choose from a range of **commercial data sanitization software** that adhere to the DoD 5220.22-M specification. These software solutions often offer user-friendly interfaces, support for different types of storage media, and advanced features to ensure data security.
 
-It's important to note that the DoD 5220.22-M specification is just one of several recognized data sanitization standards. Other widely adopted standards include [**NIST SP 800-88**](https://simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/) and **ATA Secure Erase**. Organizations should assess their specific requirements and compliance obligations to determine the most appropriate data sanitization standard to follow.
+Note that the DoD 5220.22-M specification is just one of several recognized data sanitization standards. Other widely adopted standards include [**NIST SP 800-88**](https://simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/) and **ATA Secure Erase**. Organizations should assess their specific requirements and compliance obligations to determine the most appropriate data sanitization standard to follow.
 
 ______
 
@@ -90,4 +90,4 @@ ______
 
 ## Conclusion
 
-The DoD 5220.22-M specification is a critical standard for data sanitization, used by the U.S. military and other government organizations. Compliance with this specification ensures that sensitive information is securely erased from digital storage media before disposal or reuse. By utilizing data sanitization software that adheres to the specification's multi-pass process and maintaining proper records, organizations can protect sensitive data, maintain compliance, and uphold their security posture.
+The DoD 5220.22-M specification is a critical standard for data sanitization, used by the U.S. military and other government organizations. Compliance with this specification ensures that sensitive information is securely erased from digital storage media before disposal or reuse. By using data sanitization software that adheres to the specification's multi-pass process and maintaining proper records, organizations can protect sensitive data, maintain compliance, and uphold their security posture.

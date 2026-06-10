@@ -14,7 +14,7 @@ As technology continues to evolve, so do the methods used by cybercriminals to p
 
 ## Understanding Threat Detection
 
-Before delving into the role of AI, it's important to understand the process of threat detection. **Threat detection** involves identifying potential threats to an organization's systems or data. It typically involves monitoring network traffic, log files, and system events to identify anomalies that could be indicative of a threat. Once a threat is detected, the security team can take steps to investigate and respond to it.
+Before digging into the role of AI, it's important to understand the process of threat detection. **Threat detection** involves identifying potential threats to an organization's systems or data. It typically involves monitoring network traffic, log files, and system events to identify anomalies that could be indicative of a threat. Once a threat is detected, the security team can take steps to investigate and respond to it.
 
 ____
 

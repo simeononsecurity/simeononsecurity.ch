@@ -18,7 +18,7 @@ canonical: "https://simeononsecurity.com/articles/flock-safety-camera-surveillan
 
 In 2026, **Flock Safety's Automatic License Plate Recognition (ALPR)** cameras have become one of the most pervasive forms of surveillance technology in the United States. What began as a niche security solution for gated communities has evolved into a nationwide network of cameras monitoring millions of vehicles daily. This comprehensive guide examines the **prevalence of Flock Safety surveillance**, the **privacy implications** of this technology, and **practical strategies for protecting yourself** against ubiquitous automated tracking.
 
-Unlike traditional surveillance cameras, Flock Safety's system doesn't just record video—it **captures, analyzes, and stores license plate data** along with vehicle characteristics, creating searchable databases that law enforcement and private entities can access. The scale of this surveillance infrastructure has raised significant questions about **civil liberties, Fourth Amendment protections, and the right to privacy** in public spaces.
+Unlike traditional surveillance cameras, Flock Safety's system doesn't just record video - it **captures, analyzes, and stores license plate data** along with vehicle characteristics, creating searchable databases that law enforcement and private entities can access. The scale of this surveillance infrastructure has raised significant questions about **civil liberties, Fourth Amendment protections, and the right to privacy** in public spaces.
 
 ______
 
@@ -431,7 +431,7 @@ As of 2026, **75,000+ cameras** are scanning **150+ million vehicles daily**, cr
 
 For technical details on detection devices and step-by-step setup instructions, read our companion guide: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
-Ultimately, the question is not whether technology can enable pervasive surveillance—clearly it can—but whether a free society should permit such surveillance without robust safeguards, transparency, and accountability. The answer to that question will shape privacy rights for generations to come.
+Ultimately, the question is not whether technology can enable pervasive surveillance - clearly it can - but whether a free society should permit such surveillance without robust safeguards, transparency, and accountability. The answer to that question will shape privacy rights for generations to come.
 
 ______
 

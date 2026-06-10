@@ -15,7 +15,7 @@ coverCaption: "Unravel the Secrets of DNS: Mastering the Domain Name System"
 
 ### Introduction
 
-The Domain Name System (DNS) is a crucial component of the internet infrastructure that allows users to access websites using domain names instead of IP addresses. It acts as a phone book, translating human-readable domain names into IP addresses understood by computers. At the heart of the DNS is the Root DNS, a hierarchical and distributed system that plays a vital role in the resolution of domain names. In this article, we will explore the workings of DNS and delve into the intricacies of the Root DNS and the records each domain might have.
+The Domain Name System (DNS) is a crucial component of the internet infrastructure that allows users to access websites using domain names instead of IP addresses. It acts as a phone book, translating human-readable domain names into IP addresses understood by computers. At the heart of the DNS is the Root DNS, a hierarchical and distributed system that plays a vital role in the resolution of domain names. In this article, we will explore the workings of DNS and dig into the intricacies of the Root DNS and the records each domain might have.
 
 {{< youtube id="mpQZVYPuDGU" >}}
 
@@ -105,7 +105,7 @@ sudo /etc/init.d/nscd restart
 
 This command restarts the Name Service Cache Daemon (nscd), which is responsible for DNS caching on non-systemd Linux distributions.
 
-It's worth noting that the steps provided here are general guidelines, and the specific commands or methods might differ slightly based on the operating system version or distribution you are using. Clearing the DNS cache can help resolve certain DNS-related issues, but it's important to note that it won't fix all network connectivity problems.
+Worth noting: the steps provided here are general guidelines, and the specific commands or methods might differ slightly based on the operating system version or distribution you are using. Clearing the DNS cache can help resolve certain DNS-related issues, but note that it won't fix all network connectivity problems.
 
 ## How the Root DNS System Works
 
@@ -169,17 +169,17 @@ ______
 
 DNS records are essential components of the Domain Name System (DNS) that provide various types of information associated with a domain name. Let's explore some common types of DNS records and their purposes:
 
-| Record Type | Description                                                                 | Example                                   |
+| Record Type | Description | Example |
 |-------------|-----------------------------------------------------------------------------|-------------------------------------------|
-| A           | Maps a domain name to an IPv4 address.                                       | `example.com     IN A 192.0.2.1`           |
-| AAAA        | Maps a domain name to an IPv6 address.                                       | `example.com     IN AAAA 2001:db8::1`       |
-| CNAME       | Maps an alias (canonical name) to the actual domain name.                    | `www.example.com IN CNAME example.com`      |
-| MX          | Specifies the mail servers responsible for accepting incoming emails.        | `example.com     IN MX 10 mail.example.com` |
-| TXT         | Stores arbitrary text data, often used for SPF, DKIM, or domain verification.| `example.com     IN TXT "v=spf1 a mx -all"`|
-| NS          | Indicates the authoritative name servers for the domain.                     | `example.com     IN NS ns1.example.com`     |
-| SOA         | Specifies global properties for the zone (start of authority record).        | `example.com     IN SOA ns1.example.com`    |
-| SRV         | Defines the location of a specific service offered by the domain.            | `_service._proto.example.com IN SRV 10 20 5060 target.example.com` |
-| PTR         | Maps an IP address to a domain name (reverse DNS lookup).                     | `1.2.0.192.in-addr.arpa IN PTR example.com` |
+| A | Maps a domain name to an IPv4 address. | `example.com     IN A 192.0.2.1` |
+| AAAA | Maps a domain name to an IPv6 address. | `example.com     IN AAAA 2001:db8::1` |
+| CNAME | Maps an alias (canonical name) to the actual domain name. | `www.example.com IN CNAME example.com` |
+| MX | Specifies the mail servers responsible for accepting incoming emails. | `example.com     IN MX 10 mail.example.com` |
+| TXT | Stores arbitrary text data, often used for SPF, DKIM, or domain verification.| `example.com     IN TXT "v=spf1 a mx -all"`|
+| NS | Indicates the authoritative name servers for the domain. | `example.com     IN NS ns1.example.com` |
+| SOA | Specifies global properties for the zone (start of authority record). | `example.com     IN SOA ns1.example.com` |
+| SRV | Defines the location of a specific service offered by the domain. | `_service._proto.example.com IN SRV 10 20 5060 target.example.com` |
+| PTR | Maps an IP address to a domain name (reverse DNS lookup). | `1.2.0.192.in-addr.arpa IN PTR example.com` |
 
 ### 1. A Record (Address Record)
 
@@ -255,9 +255,9 @@ On Linux systems that use systemd as the DNS resolver, the `systemd-resolve --fl
 
 The `dig` command is a versatile DNS diagnostic tool available on Linux systems. It provides detailed information about DNS queries, responses, and DNS server configurations. You can use `dig` to query specific DNS records, test DNS resolution, and troubleshoot DNS-related problems. Open the Terminal and run `dig` followed by the domain name or IP address you want to investigate.
 
-These commands serve as valuable tools for diagnosing and resolving DNS issues on different operating systems. By leveraging these commands, you can gain insights into DNS configurations, verify DNS server settings, and troubleshoot connectivity problems.
+These commands serve as valuable tools for diagnosing and resolving DNS issues on different operating systems. By using these commands, you can gain insights into DNS configurations, verify DNS server settings, and troubleshoot connectivity problems.
 
-It's important to note that the specific commands and their options may vary depending on the operating system version and distribution you are using. Consult the documentation for your specific operating system version for detailed information about these commands and their usage.
+Note that the specific commands and their options may vary depending on the operating system version and distribution you are using. Consult the documentation for your specific operating system version for detailed information about these commands and their usage.
 ______
 
 

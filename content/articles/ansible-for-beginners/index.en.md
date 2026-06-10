@@ -19,7 +19,7 @@ This comprehens guide will take you from complete beginner to confident Ansible 
 
 ## What is Ansible? Understanding the Fundamentals
 
-**Ansible** is an open-source automation platform that simplifies IT infrastructure management through agentless, declarative automation. Unlike traditional configuration management tools, Ansible doesn't require agents installed on managed nodes—it uses SSH (Linux/Unix) or WinRM (Windows) for remote management.
+**Ansible** is an open-source automation platform that simplifies IT infrastructure management through agentless, declarative automation. Unlike traditional configuration management tools, Ansible doesn't require agents installed on managed nodes - it uses SSH (Linux/Unix) or WinRM (Windows) for remote management.
 
 {{< youtube id="goclfp6a2IQ" >}}
 
@@ -81,7 +81,7 @@ Ansible excels at automating:
 | **Language** | YAML | HCL | Puppet DSL (Ruby-like) | Ruby DSL |
 | **Agent Required** | No | No | Yes | Yes |
 | **Learning Curve** | Easy | Moderate | Steep | Steep |
-| **Best For** | Config management, deployment | Cloud infrastructure | Large enterprise  | Complex workflows |
+| **Best For** | Config management, deployment | Cloud infrastructure | Large enterprise | Complex workflows |
 | **State Management** | Push-based | Declarative state file | Pull-based | Pull-based |
 | **Windows Support** | Excellent (2026) | Limited | Good | Good |
 | **Community Size** | Very Large | Very Large | Large | Moderate |
@@ -1397,7 +1397,7 @@ Ansible has evolved into the automation tool of choice for organizations worldwi
 3. **Learn by Doing**: Automate real tasks from your daily work
 4. **Use Best Practices**: Version control, testing, and documentation
 5. **Join the Community**: Learn from others and share your knowledge
-6. **Stay Current**: Ansible evolves rapidly—keep learning
+6. **Stay Current**: Ansible evolves rapidly - keep learning
 7. **Combine Tools**: Ansible + Terraform + Kubernetes = powerful automation
 
 **Next Steps:**

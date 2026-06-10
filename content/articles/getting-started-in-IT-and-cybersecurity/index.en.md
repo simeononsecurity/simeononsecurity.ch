@@ -3,7 +3,7 @@ title: "Step-by-Step Guide to a Career in IT and Cybersecurity"
 date: 2023-02-13
 toc: true
 draft: false
-description: "Discover the steps to take to launch your career in the exciting and ever-evolving field of IT and Cybersecurity with this comprehensive guide"
+description: "Discover the steps to take to launch your career in the exciting and rapidly changing field of IT and Cybersecurity with this comprehensive guide"
 tags: ["IT and Cybersecurity","Career Guide","CompTIA Certifications","MCSA","Linux+","CCNA","Penetration Testing","Ethical Hacking","OSCP","Scripting","IT Jobs","Cybersecurity Jobs"]
 cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
 coverAlt: "An image of a person sitting at their workstation with a security lock in the foreground, indicating the importance of securing workstations."
@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 
 
-Are you interested in a career in the fast-paced and ever-evolving field of IT and cybersecurity? Then you're in the right place. In this article, we'll guide you through the steps you need to take to get started on your journey.
+Are you interested in a career in the fast-paced and rapidly changing field of IT and cybersecurity? Then you're in the right place. In this article, we'll guide you through the steps you need to take to get started on your journey.
 
 ## Starting in IT
 

@@ -143,7 +143,7 @@ Remember to adjust the `folder_path`, `output_folder`, and `quality` parameters 
 
 ## Conclusion
 
-Image optimization is a critical step in improving website performance, enhancing user experience, and boosting SEO rankings. Python, with its rich ecosystem of libraries, provides developers with powerful tools to optimize images efficiently. By leveraging techniques like image compression, resizing, format conversion, and lazy loading, you can significantly reduce image file sizes without sacrificing visual quality. Automating image optimization using Python libraries such as Pillow and Tinify can further streamline the process and save time. Embrace the power of Python and start optimizing your images today!
+Image optimization is a critical step in improving website performance, enhancing user experience, and boosting SEO rankings. Python, with its rich ecosystem of libraries, provides developers with powerful tools to optimize images efficiently. By using techniques like image compression, resizing, format conversion, and lazy loading, you can significantly reduce image file sizes without sacrificing visual quality. Automating image optimization using Python libraries such as Pillow and Tinify can further streamline the process and save time. Embrace the power of Python and start optimizing your images today!
 
 
 ## References

@@ -196,7 +196,7 @@ Example: Enable Azure Defender for a subscription
 az security auto-provisioning-setting update --name default --auto-provision on
 ```
 ### Threat Response
-When a threat is detected, it's essential to respond quickly and effectively. Azure Security Center provides **Security Incident** management, which helps you investigate and respond to security incidents. You can also integrate with **Azure Sentinel** to create automated playbooks and orchestrate your response to security incidents. Learn more about integrating Azure Security Center with Azure Sentinel in the **official documentation**.
+When a threat is detected, you need to respond quickly and effectively. Azure Security Center provides **Security Incident** management, which helps you investigate and respond to security incidents. You can also integrate with **Azure Sentinel** to create automated playbooks and orchestrate your response to security incidents. Learn more about integrating Azure Security Center with Azure Sentinel in the **official documentation**.
 
 Example: Create a Logic App playbook for Azure Sentinel
 ```azurecli
@@ -208,7 +208,7 @@ az logic workflow create --resource-group MyResourceGroup --location EastUS --na
 ```
 The `playbook-definition.json` file should contain the Logic App playbook definition. You can find examples of playbooks for Azure Sentinel in the [Azure-Sentinel GitHub repository](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks).
 
-By leveraging Azure Security Center's threat detection capabilities and integrating with Azure Sentinel, you can create a robust security strategy to detect and respond to threats in your Azure environment. Learn more about [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) and [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) in the official documentation.
+By using Azure Security Center's threat detection capabilities and integrating with Azure Sentinel, you can create a robust security strategy to detect and respond to threats in your Azure environment. Learn more about [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) and [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) in the official documentation.
 ______
 
 ## Monitoring and Reporting

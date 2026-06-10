@@ -54,7 +54,7 @@ ______
 
 ## Conclusion
 
-The rise of deepfakes presents significant threats and challenges to our society. It is imperative to stay informed about the capabilities and risks associated with deepfake technology. Deepfakes have the potential to spread misinformation, damage reputations, undermine authenticity, and invade privacy. Detecting and attributing deepfakes pose challenges that require continuous research and development of advanced algorithms. Furthermore, education and awareness campaigns are essential to empower individuals to identify and critically evaluate media content.
+The rise of deepfakes presents significant threats and challenges to our society. It is imperative to stay informed about the capabilities and risks associated with deepfake technology. Deepfakes have the potential to spread misinformation, damage reputations, undermine authenticity, and invade privacy. Detecting and attributing deepfakes pose challenges that require continuous research and development of advanced algorithms. Also, education and awareness campaigns are essential to empower individuals to identify and critically evaluate media content.
 
 Governments worldwide are taking steps to address the threats posed by deepfakes through regulatory frameworks. The implementation of laws and acts, such as the Malicious Deep Fake Prohibition Act and the Deepfake Report Act, demonstrates a commitment to holding accountable those who create and distribute deepfakes with malicious intent. Collaboration and partnerships among stakeholders, including researchers, technology companies, social media platforms, and law enforcement agencies, are crucial to effectively combat deepfakes.
 

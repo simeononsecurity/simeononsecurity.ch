@@ -30,7 +30,7 @@ One of the significant advantages of CI and CD is the ability to have a faster f
 
 ## 4. Increased Software Quality and Reliability
 
-CI and CD practices contribute to increased software quality and reliability. By continuously integrating code changes and running automated tests, the chances of introducing defects or bugs are minimized. Regular integration and testing ensure that the software remains in a releasable state at all times, reducing the risk of delivering faulty software to end-users. Furthermore, the deployment automation provided by CD ensures consistent and error-free deployments, leading to a more reliable software release process.
+CI and CD practices contribute to increased software quality and reliability. By continuously integrating code changes and running automated tests, the chances of introducing defects or bugs are minimized. Regular integration and testing ensure that the software remains in a releasable state at all times, reducing the risk of delivering faulty software to end-users. Also, the deployment automation provided by CD ensures consistent and error-free deployments, leading to a more reliable software release process.
 
 ## 5. Faster Time to Market
 
@@ -46,7 +46,7 @@ CI and CD support scalability and flexibility in software development projects. 
 
 ______
 
-In conclusion, Continuous Integration and Continuous Deployment bring numerous benefits to software development projects. From improved collaboration and communication to faster feedback loops and early bug detection, these practices help deliver high-quality software at a rapid pace. By increasing software quality, reducing time to market, improving risk management, and supporting scalability and flexibility, CI and CD have become essential components of modern software development.
+Wrapping up, Continuous Integration and Continuous Deployment bring numerous benefits to software development projects. From improved collaboration and communication to faster feedback loops and early bug detection, these practices help deliver high-quality software at a rapid pace. By increasing software quality, reducing time to market, improving risk management, and supporting scalability and flexibility, CI and CD have become essential components of modern software development.
 
 References:
 - [Slack](https://slack.com/)

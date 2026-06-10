@@ -19,7 +19,7 @@ Your **credit score** is a critical aspect of your financial wellbeing. It has a
 
 One of the most effective measures you can take to safeguard your credit score is to **freeze your credit**. A credit freeze restricts access to your credit reports from the major credit bureaus - **Equifax**, **Experian**, and **TransUnion** - making it difficult for anyone, whether a legitimate business or a fraudulent actor, to open new accounts in your name. By implementing a credit freeze, you **limit access to your credit reports**, ensuring that unauthorized individuals cannot misuse your information for **credit fraud**.
 
-Please understand that **Experian Consumer Services** receives compensation from **credit card issuers**. However, it's important to note that Experian's involvement does not influence the information provided, and the opinions expressed are solely our own.
+Please understand that **Experian Consumer Services** receives compensation from **credit card issuers**. However, note that Experian's involvement does not influence the information provided, and the opinions expressed are solely our own.
 
 By taking these proactive steps to protect your credit score and limit access to your credit reports through the major credit bureaus, Equifax, Experian, and TransUnion, you can effectively mitigate the risks of **fraud** and **identity theft**, ensuring the security of your financial future.
 

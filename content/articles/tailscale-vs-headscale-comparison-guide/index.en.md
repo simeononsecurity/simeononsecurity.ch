@@ -35,7 +35,7 @@ A **mesh VPN** creates peer-to-peer connections between devices rather than rout
 - **Direct connections:** Devices connect directly to each other when possible
 - **NAT traversal:** Automatically punches through firewalls and NAT
 - **Reduced latency:** No unnecessary hops through central servers
-- **Better performance:** Utilizes full bandwidth between peers
+- **Better performance:** uses full bandwidth between peers
 
 ### The Role of Coordination Servers
 

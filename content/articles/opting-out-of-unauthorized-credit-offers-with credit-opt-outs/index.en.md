@@ -13,7 +13,7 @@ coverCaption: "Keep Your Information Safe: Opt-Out and Prevent Identity Theft"
 
 **Protect Yourself from Unauthorized Offers with Credit Opt-Out**
 
-Identity theft is a growing concern in today's world, and pre-approved credit and insurance offers can be a prime target for thieves. These offers contain sensitive information like your name, address, and credit score, making them valuable to those looking to steal your identity.
+Identity theft is a growing concern These days and pre-approved credit and insurance offers can be a prime target for thieves. These offers contain sensitive information like your name, address, and credit score, making them valuable to those looking to steal your identity.
 
 **Fortunately**, the **Fair Credit Reporting Act (FCRA)** gives consumers the right to opt-out of these offers. This means you can **prevent** consumer credit reporting companies from including your name on lists used by creditors or insurers to make firm offers of credit or insurance. By **opting-out**, you will no longer receive pre-approved credit and insurance offers in the mail, making it more difficult for identity thieves to steal your information.
 

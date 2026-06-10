@@ -3,7 +3,7 @@ title: "What is System Administration?"
 date: 2023-02-12
 toc: true
 draft: false
-description:  "Discover the key skills and trends shaping the field of system administration, including the differences between system and network administration, the facets of Windows, Linux, hardware and software, and virtualization administration, and the rise of cloud platforms and services."
+description: "Discover the key skills and trends shaping the field of system administration, including the differences between system and network administration, the facets of Windows, Linux, hardware and software, and virtualization administration, and the rise of cloud platforms and services."
 tags: ["System Administration", "Network Administration", "Windows Administration", "Linux Administration", "Hardware Administration", Software Administration", "Virtualization", "Cloud Platforms", "IaaS", "SaaS", "HaaS"]
 cover: "/img/cover/An_image_of_a_system_administrator_sitting_at_a_desk.png"
 coverAlt: "An image of a system administrator sitting at a desk with multiple computer screens displaying system status, network activity, and security alerts."
@@ -74,5 +74,5 @@ ______
 
 ## Conclusion
 
-In conclusion, **system administration is a critical field within IT** that is responsible for the management and maintenance of computer systems, servers, and networks. **System administrators need to have a diverse set of skills**, including knowledge of operating systems, hardware and software administration, virtualization, and security. **The field of system administration is rapidly evolving**, and new technologies, such as cloud platforms, IaaS, SaaS, and HaaS, are becoming increasingly popular.
+Wrapping up, **system administration is a critical field within IT** that is responsible for the management and maintenance of computer systems, servers, and networks. **System administrators need to have a diverse set of skills**, including knowledge of operating systems, hardware and software administration, virtualization, and security. **The field of system administration is rapidly evolving**, and new technologies, such as cloud platforms, IaaS, SaaS, and HaaS, are becoming increasingly popular.
 

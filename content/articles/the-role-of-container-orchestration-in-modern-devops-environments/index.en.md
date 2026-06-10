@@ -42,7 +42,7 @@ There are several container orchestration tools in the market, but we'll look at
 ### Kubernetes
 **Kubernetes** is an open-source container orchestration tool that is widely used in the industry. It was initially developed by Google but is now maintained by the Cloud Native Computing Foundation (CNCF). Kubernetes provides a highly scalable and fault-tolerant platform for deploying, managing, and scaling containerized applications.
 
-One of the primary advantages of Kubernetes is its strong community support. This means that you can find several resources, documentation, and support forums online. Moreover, there are several third-party tools such as Helm that can simplify your Kubernetes deployment process.
+One of the primary advantages of Kubernetes is its strong community support. This means that you can find several resources, documentation, and support forums online. On top of that, there are several third-party tools such as Helm that can simplify your Kubernetes deployment process.
 
 ### Docker Swarm
 **Docker Swarm** is a native orchestration tool built into the Docker Engine. It provides a simple way to manage and deploy containers at scale. With Docker Swarm, you can create a highly-available cluster of nodes for running your applications.
@@ -50,7 +50,7 @@ One of the primary advantages of Kubernetes is its strong community support. Thi
 One of the advantages of Docker Swarm is its ease of use. If you're already using Docker to build and run your containers, adding Docker Swarm to your workflow will be straightforward. Unlike Kubernetes, which requires a certain level of expertise to set up and manage, Docker Swarm has a shallow learning curve.
 
 ### Apache Mesos
-**Apache Mesos** is another open-source container orchestration tool. It abstracts CPU, memory, storage, and other computing resources from machines (physical or virtual) into a single pool of resources. Mesos then allocates these resources to applications in a way that maximizes utilization while maintaining predictability and fault tolerance.
+**Apache Mesos** is another open-source container orchestration tool. It abstracts CPU, memory, storage, and other computing resources from machines (physical or virtual) into a single pool of resources. Mesos then allocates these resources to applications in a way that maximizes use while maintaining predictability and fault tolerance.
 
 Some large companies such as Uber have successfully used Mesos to manage their microservices architecture.
 

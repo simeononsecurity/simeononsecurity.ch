@@ -28,14 +28,14 @@ Ensuring the **security of your Python applications** is crucial for several rea
 
 3. **Reputation and Trust**: Security breaches not only harm your organization but also **erode the trust of your customers and users**. By prioritizing security, you demonstrate a commitment to **protecting their interests and data**, enhancing your reputation as a reliable and trustworthy provider.
 
-Implementing robust security measures in your Python applications helps mitigate risks and ensures the **confidentiality, integrity, and availability of your data**. It is essential to establish a **strong security foundation** to protect against **cyber threats** and maintain the trust of your users and stakeholders.
+Implementing robust security measures in your Python applications helps mitigate risks and ensures the **confidentiality, integrity, and availability of your data**. You need to establish a **strong security foundation** to protect against **cyber threats** and maintain the trust of your users and stakeholders.
 
 
 ______
 
 ## [Python Security Best Practices](https://simeononsecurity.com/articles/secure-coding-standards-for-python/)
 
-To enhance the security of your Python applications, it is essential to follow these best practices:
+To enhance the security of your Python applications, you need to follow these best practices:
 
 ### 1. Keep Your Python Interpreter Updated
 
@@ -57,9 +57,9 @@ Adopting **secure coding practices** minimizes the likelihood of introducing sec
 
 - **Avoid Code Injection**: Never execute **user-supplied code** without proper validation and sanitization. **Code injection attacks** occur when an attacker is able to inject and execute arbitrary code within your application's context. To prevent this, carefully evaluate and validate any code provided by users before executing it. Use secure coding practices and libraries that provide protection against code injection vulnerabilities.
 
-- **Secure Password Handling**: When working with passwords, it is crucial to handle them securely. **Hash and salt passwords** using appropriate **hashing algorithms** and **key stretching techniques**. Storing plain-text passwords is highly discouraged as it exposes users to significant risks. Instead, **store only the password hashes** and ensure their secure storage. Use strong hashing algorithms such as **bcrypt** or **Argon2** and consider applying techniques like **salt** and **pepper** to further enhance password security. By implementing secure password handling practices, you can protect user credentials even if the underlying database is compromised.
+- **Secure Password Handling**: When working with passwords, you need to handle them securely. **Hash and salt passwords** using appropriate **hashing algorithms** and **key stretching techniques**. Storing plain-text passwords is highly discouraged as it exposes users to significant risks. Instead, **store only the password hashes** and ensure their secure storage. Use strong hashing algorithms such as **bcrypt** or **Argon2** and consider applying techniques like **salt** and **pepper** to further enhance password security. By implementing secure password handling practices, you can protect user credentials even if the underlying database is compromised.
 
-It is important to note that secure coding practices go beyond these examples. Always be vigilant and keep up with the latest security guidelines and recommendations to ensure that your Python code remains secure.
+Note that secure coding practices go beyond these examples. Always be vigilant and keep up with the latest security guidelines and recommendations to ensure that your Python code remains secure.
 
 ### 3. Implement Role-Based Access Control (RBAC)
 
@@ -83,7 +83,7 @@ To learn more about implementing RBAC in Python, you can refer to the official [
 
 ### 4. Protect Sensitive Data
 
-When handling **sensitive data** in your Python applications, it is crucial to employ strong encryption techniques to **protect the confidentiality and integrity** of the data. By using well-established encryption algorithms and protocols, such as **AES (Advanced Encryption Standard)** and **TLS (Transport Layer Security)**, you can ensure that data is encrypted both at rest and in transit.
+When handling **sensitive data** in your Python applications, you need to employ strong encryption techniques to **protect the confidentiality and integrity** of the data. By using well-established encryption algorithms and protocols, such as **AES (Advanced Encryption Standard)** and **TLS (Transport Layer Security)**, you can ensure that data is encrypted both at rest and in transit.
 
 **Encryption** is the process of transforming data into an unreadable format, known as ciphertext, using encryption algorithms and cryptographic keys. Only authorized parties with the corresponding decryption keys can decipher the ciphertext and access the original data.
 
@@ -101,9 +101,9 @@ Remember that encryption is just one aspect of protecting sensitive data. It is 
 
 ### 5. Secure Database Access
 
-If your Python application interacts with databases, it is essential to follow **security practices** to protect against potential vulnerabilities. Consider the following best practices:
+If your Python application interacts with databases, you need to follow **security practices** to protect against potential vulnerabilities. Consider the following best practices:
 
-- **Use Prepared Statements**: When executing database queries, utilize **prepared statements** or **parameterized queries** to prevent **SQL injection attacks**. Prepared statements separate SQL code from user-provided data, reducing the risk of unauthorized database access. For example, in Python, you can use libraries like **SQLAlchemy** or **psycopg2** to implement prepared statements and protect against SQL injection vulnerabilities.
+- **Use Prepared Statements**: When executing database queries, use **prepared statements** or **parameterized queries** to prevent **SQL injection attacks**. Prepared statements separate SQL code from user-provided data, reducing the risk of unauthorized database access. For example, in Python, you can use libraries like **SQLAlchemy** or **psycopg2** to implement prepared statements and protect against SQL injection vulnerabilities.
 
 - **Implement Least Privilege**: Ensure that the **database user** associated with your Python application has the **minimum necessary privileges** required for its functionality. By following the principle of **least privilege**, you restrict the capabilities of the database user to only what is necessary, minimizing the potential impact of a compromised database connection. For example, if your application only requires read-only access to certain tables, grant the database user read-only privileges for those specific tables rather than full access to the entire database.
 
@@ -115,7 +115,7 @@ Remember, securing database access is a critical aspect of **protecting your dat
 
 ### 6. Regularly Update Dependencies
 
-Python projects often rely on **third-party libraries and frameworks** to enhance functionality and streamline development. However, it is crucial to **regularly update these dependencies** to ensure the security and stability of your project.
+Python projects often rely on **third-party libraries and frameworks** to enhance functionality and streamline development. However, you need to **regularly update these dependencies** to ensure the security and stability of your project.
 
 **Staying vigilant about updating dependencies** allows you to benefit from **security patches** and **bug fixes** released by the library maintainers. By keeping your dependencies up to date, you mitigate the risk of potential vulnerabilities and ensure that your project is running on the latest stable versions.
 
@@ -131,7 +131,7 @@ Remember, maintaining up-to-date dependencies is an ongoing process. Set up a **
 
 ### 7. Enable Logging and Monitoring
 
-To enhance the security of your Python applications, it is essential to **implement comprehensive logging and monitoring mechanisms**. Logging allows you to track events and activities within your application, while monitoring provides real-time visibility into the system's behavior, enabling the detection and investigation of security incidents.
+To enhance the security of your Python applications, you need to **implement comprehensive logging and monitoring mechanisms**. Logging allows you to track events and activities within your application, while monitoring provides real-time visibility into the system's behavior, enabling the detection and investigation of security incidents.
 
 By enabling **logging**, you can capture relevant information about the execution of your application, including **errors**, **warnings**, and **user activities**. Properly configured logging helps you identify issues, debug problems, and **trace security-related events**. For example, you can log authentication attempts, access to sensitive resources, or suspicious activities that may indicate a security breach.
 
@@ -147,11 +147,11 @@ By enabling logging and monitoring, you can:
 
 Remember to configure logging and monitoring appropriately, balancing the level of detail captured with the potential impact on performance and storage. It is also essential to regularly review and analyze the collected logs and monitoring data to stay proactive in identifying and addressing security concerns.
 
-Implementing **log management solutions** and utilizing **monitoring tools** empowers you to stay ahead of potential security threats and protect your Python applications effectively.
+Implementing **log management solutions** and using **monitoring tools** empowers you to stay ahead of potential security threats and protect your Python applications effectively.
 
 ### 8. Educate and Train Developers
 
-To reinforce **Python security best practices**, it is crucial to **invest in educating and training your Python developers**. By providing them with the necessary knowledge and skills, you empower your development team to write **secure code** and detect potential security issues early in the development lifecycle.
+To reinforce **Python security best practices**, you need to **invest in educating and training your Python developers**. By providing them with the necessary knowledge and skills, you empower your development team to write **secure code** and detect potential security issues early in the development lifecycle.
 
 Here are some steps you can take to promote developer education and training:
 
@@ -181,7 +181,7 @@ Here is a concise cheat sheet summarizing the **Python security best practices**
 
 3. **Implement Role-Based Access Control (RBAC)** to restrict unauthorized access. RBAC assigns roles to users based on their responsibilities and grants access privileges accordingly. Refer to the [NIST - Role-Based Access Control](https://csrc.nist.gov/projects/role-based-access-control) documentation for more details.
 
-4. **Protect sensitive data** using **strong encryption techniques**. Utilize well-established encryption algorithms like **AES (Advanced Encryption Standard)** and ensure secure storage and transmission of sensitive information. You can refer to the [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) for more information.
+4. **Protect sensitive data** using **strong encryption techniques**. use well-established encryption algorithms like **AES (Advanced Encryption Standard)** and ensure secure storage and transmission of sensitive information. You can refer to the [AES Wikipedia page](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) for more information.
 
 5. **Secure database access** by using **prepared statements** to prevent SQL injection attacks and implementing **least privilege** to restrict database user permissions. These practices minimize the risk of unauthorized access to sensitive data. Learn more about **prepared statements** in the [SQLAlchemy documentation](https://www.sqlalchemy.org) and **least privilege** in the [OWASP RBAC Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html).
 

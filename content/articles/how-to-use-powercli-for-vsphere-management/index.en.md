@@ -13,7 +13,7 @@ coverCaption: "Empower Your vSphere Management with PowerCLI"
 
 ## Introduction
 
-**PowerCLI** is a powerful **command-line interface (CLI)** tool provided by **VMware** that allows administrators to **manage and automate** their **VMware vSphere environments**. Whether you are a beginner or an experienced user, PowerCLI provides a comprehensive set of **cmdlets** that streamline administrative tasks and enhance productivity. In this article, we will explore the different aspects of PowerCLI, including **installation**, **connecting to vCenter**, and **utilizing its features effectively**.
+**PowerCLI** is a powerful **command-line interface (CLI)** tool provided by **VMware** that allows administrators to **manage and automate** their **VMware vSphere environments**. Whether you are a beginner or an experienced user, PowerCLI provides a comprehensive set of **cmdlets** that streamline administrative tasks and enhance productivity. In this article, we will explore the different aspects of PowerCLI, including **installation**, **connecting to vCenter**, and **using its features effectively**.
 
 ______
 
@@ -104,9 +104,9 @@ The script first retrieves the folder containing the virtual machines to be shut
 
 Next, a `foreach` loop iterates over each virtual machine. For each virtual machine, it checks if the power state is "PoweredOn" and if so, gracefully shuts down the virtual machine using the `Shutdown-VMGuest` cmdlet with the `-Confirm:$false` parameter to bypass the confirmation prompt.
 
-By utilizing this script, you can ensure a safe and orderly shutdown of all virtual machines within a folder using PowerCLI.
+By using this script, you can ensure a safe and orderly shutdown of all virtual machines within a folder using PowerCLI.
 
-By leveraging PowerCLI's scripting capabilities, you can create powerful automation workflows tailored to your specific requirements.
+By using PowerCLI's scripting capabilities, you can create powerful automation workflows tailored to your specific requirements.
 
 ### Managing Virtual Machines and Hosts
 

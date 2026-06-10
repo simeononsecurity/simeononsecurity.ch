@@ -34,7 +34,7 @@ ______
 
 ## Best Practices for Securing IoT Devices
 
-To minimize the risks associated with IoT, it is crucial to implement effective security measures. Here are some tips for securing your IoT devices:
+To minimize the risks associated with IoT, you need to implement effective security measures. Here are some tips for securing your IoT devices:
 
 1. **Choose devices with built-in security**: Purchase IoT devices from reputable manufacturers that prioritize security features.
 2. **Regularly update firmware and software**: Keep devices up-to-date to protect against known vulnerabilities.

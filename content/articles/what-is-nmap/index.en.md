@@ -18,7 +18,7 @@ coverCaption: ""
 
 ## Understanding Nmap
 
-Nmap is a command-line tool that runs on various operating systems, including Windows, Linux, and macOS. It utilizes raw IP packets to determine hosts available on a network, the services they provide, the operating systems they run, and other useful information.
+Nmap is a command-line tool that runs on various operating systems, including Windows, Linux, and macOS. It uses raw IP packets to determine hosts available on a network, the services they provide, the operating systems they run, and other useful information.
 
 With its extensive feature set, Nmap allows network administrators, security professionals, and even ethical hackers to gather valuable intelligence about a network. Its capabilities include:
 
@@ -28,7 +28,7 @@ With its extensive feature set, Nmap allows network administrators, security pro
 
 3. **Service detection**: By examining network traffic and analyzing responses, Nmap can identify the services running on open ports. It can even detect the version of the service in some cases. This information is crucial for understanding the potential vulnerabilities associated with specific services.
 
-4. **Operating system detection**: Nmap utilizes fingerprinting techniques to determine the operating system of a target host. It analyzes various network protocols and responses to make an educated guess about the underlying operating system.
+4. **Operating system detection**: Nmap uses fingerprinting techniques to determine the operating system of a target host. It analyzes various network protocols and responses to make an educated guess about the underlying operating system.
 
 5. **Scripting capabilities**: Nmap supports scripting using the Nmap Scripting Engine (NSE), which allows users to automate tasks and perform advanced network scanning. The NSE provides a vast collection of scripts that can be used for vulnerability detection, network discovery, and more.
 

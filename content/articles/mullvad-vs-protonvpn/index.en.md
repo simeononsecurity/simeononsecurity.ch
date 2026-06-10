@@ -40,9 +40,9 @@ ______
 
 ## **Security and Encryption**
 
-[**Mullvad VPN**](https://mullvad.net/) places paramount importance on **security**. It employs a distinctive approach by generating a user **account number** instead of requesting personal information, bolstering **anonymity**. This, coupled with **end-to-end encryption**, ensures a robust shield against prying eyes. Moreover, **Mullvad** offers support for multiple tunneling protocols, such as **OpenVPN** and **WireGuard**, granting users the freedom to select the one aligning with their **security preferences**.
+[**Mullvad VPN**](https://mullvad.net/) places paramount importance on **security**. It employs a distinctive approach by generating a user **account number** instead of requesting personal information, bolstering **anonymity**. This, coupled with **end-to-end encryption**, ensures a robust shield against prying eyes. On top of that, **Mullvad** offers support for multiple tunneling protocols, such as **OpenVPN** and **WireGuard**, granting users the freedom to select the one aligning with their **security preferences**.
 
-In the realm of security, [**ProtonVPN**](https://protonvpn.com/), conceived by the creators of **ProtonMail**, stands strong. It features **robust encryption** and is compatible with **IKEv2/IPSec** and **OpenVPN** protocols. A notable highlight is the **Secure Core architecture**, a sophisticated system routing user traffic through diverse servers, adding layers of protection against direct tracing and bolstering **privacy**.
+In security, [**ProtonVPN**](https://protonvpn.com/), conceived by the creators of **ProtonMail**, stands strong. It features **robust encryption** and is compatible with **IKEv2/IPSec** and **OpenVPN** protocols. A notable highlight is the **Secure Core architecture**, a sophisticated system routing user traffic through diverse servers, adding layers of protection against direct tracing and bolstering **privacy**.
 
 ## **Privacy and Logging Policies**
 
@@ -60,7 +60,7 @@ ______
 
 ## **Performance and Speed**
 
-In the realm of **performance**, both [**Mullvad VPN**](https://mullvad.net/) and [**ProtonVPN**](https://protonvpn.com/) are committed to delivering seamless browsing experiences. However, actual speed can fluctuate based on factors such as server location, users' internet connections, and chosen protocols. Generally, [**Mullvad VPN**](https://mullvad.net/) benefits from its smaller server network, which often translates to slightly faster speeds due to reduced congestion.
+In **performance**, both [**Mullvad VPN**](https://mullvad.net/) and [**ProtonVPN**](https://protonvpn.com/) are committed to delivering seamless browsing experiences. However, actual speed can fluctuate based on factors such as server location, users' internet connections, and chosen protocols. Generally, [**Mullvad VPN**](https://mullvad.net/) benefits from its smaller server network, which often translates to slightly faster speeds due to reduced congestion.
 
 [**ProtonVPN**](https://protonvpn.com/) boasts a more expansive server network, potentially leading to more consistent overall speeds. Yet, some servers may encounter elevated traffic loads. For users seeking the perfect blend of speed and security, testing different servers is recommended.
 

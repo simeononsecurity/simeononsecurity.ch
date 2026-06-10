@@ -34,7 +34,7 @@ The Matrix movie has left an indelible mark on popular culture and cybersecurity
 
 {{< figure src="patch.jpg" alt="There Is No Patch for Human Stupidity">}}
 
-This famous saying in the cybersecurity community highlights the fact that no software patch can fix human errors. People often make mistakes that can lead to security breaches. It's essential to [educate individuals](https://simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/) and employees about [cybersecurity best practices](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/) to minimize these vulnerabilities. 
+This famous saying in the cybersecurity community highlights the fact that no software patch can fix human errors. People often make mistakes that can lead to security breaches. You need to [educate individuals](https://simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/) and employees about [cybersecurity best practices](https://simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/explain-cybersecurity-like-i-am-5-eli5/) to minimize these vulnerabilities. 
 
 ## Phishing Memes: Hook, Line, and Sinker
 
@@ -90,6 +90,6 @@ The "I Have No Idea What I'm Doing" dog meme perfectly captures the feeling of b
 
 ## Conclusion
 
-Cybersecurity doesn't have to be intimidating or dull. Memes and pop culture references offer a fun and relatable way to engage with this critical topic. While they provide entertainment, it's essential to remember that cybersecurity is a serious matter that requires attention and education. Use these references to start conversations about online safety and encourage everyone to take their digital security seriously.
+Cybersecurity doesn't have to be intimidating or dull. Memes and pop culture references offer a fun and relatable way to engage with this critical topic. While they provide entertainment, you need to remember that cybersecurity is a serious matter that requires attention and education. Use these references to start conversations about online safety and encourage everyone to take their digital security seriously.
 
 Cybersecurity is a serious topic, but it can be approached with a sense of humor and relatability through memes and pop culture references. By combining entertainment with education, we can make cybersecurity more accessible and engaging for everyone.

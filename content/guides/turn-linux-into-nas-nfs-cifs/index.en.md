@@ -35,7 +35,7 @@ Before diving into the setup, ensure you have the following:
 To enable NFS sharing on your Linux system, you need to install the NFS server package. The exact command might differ based on your distribution.
 
 - For Ubuntu, use: `sudo apt install nfs-kernel-server`
-- For CentOS, use:  `sudo yum install nfs-utils`
+- For CentOS, use: `sudo yum install nfs-utils`
 
 
 ### Installing Samba for CIFS
@@ -187,7 +187,7 @@ By following these steps, you can access your NAS server from both Linux and Win
 
 ## Section 7: Security Considerations
 
-To ensure the security of your NAS, it's essential to:
+To ensure the security of your NAS, you need to:
 
 - **Enable a firewall** and restrict access to authorized IP addresses.
 - Regularly **update your Linux system** and NAS software.

@@ -14,7 +14,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 ## Windows System Information and Management
 
-In the realm of computer administration, having a comprehensive understanding of your system's information and knowing how to effectively manage it is paramount. Windows operating systems provide various commands and tools that empower users to retrieve system information, manage services, and perform essential tasks like shutting down or restarting the computer. This article delves into the core aspects of **Windows System Information and Management**, providing step-by-step guidance and insights for a seamless administration experience.
+In computer administration, having a comprehensive understanding of your system's information and knowing how to effectively manage it is paramount. Windows operating systems provide various commands and tools that empower users to retrieve system information, manage services, and perform essential tasks like shutting down or restarting the computer. This article digs into the core aspects of **Windows System Information and Management**, providing step-by-step guidance and insights for a seamless administration experience.
 
 ## Introduction
 
@@ -56,7 +56,7 @@ Shutting down or restarting a computer is a routine yet crucial task. The **shut
 shutdown /s /f /t 0
 ```
 
-Should you wish to **restart** the computer after a specific period, utilize the following command:
+Should you wish to **restart** the computer after a specific period, use the following command:
 
 ```bash
 shutdown /r /f /t <time_in_seconds>

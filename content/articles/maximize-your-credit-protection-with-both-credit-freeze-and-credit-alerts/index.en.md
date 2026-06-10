@@ -32,4 +32,4 @@ Setting up a credit freeze and fraud alert is simple and can be done online in a
 
 ____________________
 
-In conclusion, combining a credit freeze and fraud alert is the most effective way to protect your credit from unauthorized access. By adding multiple layers of protection, you are deterring common criminals from accessing your credit report without your permission. Take advantage of these free services offered by the three major credit bureaus to **maximize your credit protection** today.
+Wrapping up, combining a credit freeze and fraud alert is the most effective way to protect your credit from unauthorized access. By adding multiple layers of protection, you are deterring common criminals from accessing your credit report without your permission. Take advantage of these free services offered by the three major credit bureaus to **maximize your credit protection** today.

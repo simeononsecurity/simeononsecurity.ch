@@ -61,15 +61,15 @@ Connectionless communication provides certain advantages:
 
 Now, let's compare the key differences between connection-oriented and connectionless communication:
 
-|                    | Connection-Oriented Communication        | Connectionless Communication          |
+| | Connection-Oriented Communication | Connectionless Communication |
 |--------------------|----------------------------------------|---------------------------------------|
-| Establishment      | Requires connection establishment phase | No connection establishment required  |
-| Reliability        | Reliable data transmission              | Data transmission is not guaranteed   |
-| Ordering           | Data packets are delivered in order     | Data packets may arrive out of order  |
-| Overhead           | Higher overhead due to connection setup | Lower overhead due to no connection   |
-| Error Handling     | Error recovery mechanisms are in place  | No error recovery mechanisms included |
-| Applications       | Suitable for applications requiring     | Suitable for real-time applications   |
-|                    | reliable and ordered data delivery      | with lower latency                     |
+| Establishment | Requires connection establishment phase | No connection establishment required |
+| Reliability | Reliable data transmission | Data transmission is not guaranteed |
+| Ordering | Data packets are delivered in order | Data packets may arrive out of order |
+| Overhead | Higher overhead due to connection setup | Lower overhead due to no connection |
+| Error Handling | Error recovery mechanisms are in place | No error recovery mechanisms included |
+| Applications | Suitable for applications requiring | Suitable for real-time applications |
+| | reliable and ordered data delivery | with lower latency |
 
 ## Connection-Oriented and Connectionless Routing
 
@@ -79,7 +79,7 @@ In connection-oriented routing, the network infrastructure establishes a predete
 
 ## Conclusion
 
-In summary, the difference between connection-oriented and connectionless communication lies in the establishment of a dedicated connection before data transmission. Connection-oriented communication, exemplified by TCP, offers reliability, error recovery, flow control, sequencing, and congestion control. On the other hand, connectionless communication, exemplified by UDP, provides efficiency, lower latency, and simplicity. The choice between the two approaches depends on the specific requirements of the application, with connection-oriented communication favored for reliable and ordered data delivery and connectionless communication suitable for real-time applications with lower latency.
+To sum up, the difference between connection-oriented and connectionless communication lies in the establishment of a dedicated connection before data transmission. Connection-oriented communication, exemplified by TCP, offers reliability, error recovery, flow control, sequencing, and congestion control. On the other hand, connectionless communication, exemplified by UDP, provides efficiency, lower latency, and simplicity. The choice between the two approaches depends on the specific requirements of the application, with connection-oriented communication favored for reliable and ordered data delivery and connectionless communication suitable for real-time applications with lower latency.
 
 ______
 

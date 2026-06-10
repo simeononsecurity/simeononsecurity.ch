@@ -152,7 +152,7 @@ ______
 If you have crypto wallets on your compromised device, treat your crypto keys as compromised as well. Crypto keys are used to access and transfer cryptocurrency, and if they are compromised, it could result in a loss of funds.
 
 - It is important to **secure your crypto wallets and keys** to maintain the security of your funds
-- **Attackers may steal your previous keys and access your funds**, so it's crucial to take action to protect them
+- **Attackers may steal your previous keys and access your funds**, so you need to take action to protect them
 - The **security of your crypto wallets and keys should be a top priority**, especially if you suspect that your device has been compromised.
 
 From a clean device, create new keys and transfer all currencies to the new address as soon as possible. This will help ensure that your funds are secure and not at risk of being stolen by an attacker who has compromised your previous keys.
@@ -163,4 +163,4 @@ ______
 
 ## Conclusion
 
-In conclusion, if you suspect that your email, desktop, or phone has been compromised, it's important to take action immediately to protect your data and restore your device's security. Assess the situation, change your passwords, update your software, scan your device for malware, backup important files, and wipe your device from a known clean device. By following these steps, you can regain control of your digital security and protect yourself from future compromises.
+Wrapping up, if you suspect that your email, desktop, or phone has been compromised, it's important to take action immediately to protect your data and restore your device's security. Assess the situation, change your passwords, update your software, scan your device for malware, backup important files, and wipe your device from a known clean device. By following these steps, you can regain control of your digital security and protect yourself from future compromises.

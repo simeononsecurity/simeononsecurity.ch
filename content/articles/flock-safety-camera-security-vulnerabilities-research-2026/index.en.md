@@ -16,7 +16,7 @@ canonical: "https://simeononsecurity.com/articles/flock-safety-camera-security-v
 
 ## Introduction: A National Security Crisis
 
-In late 2024 and throughout 2025, independent security researchers uncovered what may be **the most significant security failure in law enforcement surveillance technology** in American history. Over **50 critical vulnerabilities** have been discovered in Flock Safety's camera systems—the same cameras that photograph and track over **150 million vehicles daily** across more than **80,000 deployments** nationwide.
+In late 2024 and throughout 2025, independent security researchers uncovered what may be **the most significant security failure in law enforcement surveillance technology** in American history. Over **50 critical vulnerabilities** have been discovered in Flock Safety's camera systems - the same cameras that photograph and track over **150 million vehicles daily** across more than **80,000 deployments** nationwide.
 
 This article provides a comprehensive technical analysis of these vulnerabilities based on:
 - **GainSec's formal white paper** "Examining the Security Posture of an Anti-Crime Ecosystem" (51 findings, 22 assigned CVEs, 8 pending)
@@ -258,7 +258,7 @@ Using hardcoded WiFi network names, researchers demonstrated:
 4. Clear-text credentials extracted from traffic
 5. Attacker gains **backend system access**
 
-No physical access to camera required—just proximity (within WiFi range).
+No physical access to camera required - just proximity (within WiFi range).
 
 ______
 
@@ -348,7 +348,7 @@ More sophisticated attack doesn't require physical proximity:
 2. **Hijack LTE connection** by impersonating cell tower
 3. Camera connects to **rogue base station**
 4. **Man-in-the-middle** all traffic
-5. Extract credentials, imagery, and  metadata
+5. Extract credentials, imagery, and metadata
 
 **No physical access required** - Can be done from **hundreds of feet away**
 
@@ -834,7 +834,7 @@ ______
 **Time to Execute**: Under 5 minutes
 **Detection Likelihood**: Low (unless camera forensically examined before defense access)
 
-### Scenario 5: Privacy Activist  / Journalist
+### Scenario 5: Privacy Activist / Journalist
 
 **Threat Actor**: Transparency advocate
 
@@ -1083,7 +1083,7 @@ ______
 
 ### The Bigger Picture
 
-This case study represents **more than just Flock Safety**—it's emblematic of:
+This case study represents **more than just Flock Safety** - it's emblematic of:
 - **Surveillance industry** prioritizing growth over security
 - **Government procurement** lacking technical expertise
 - **Vendor claims** going unchallenged and unverified

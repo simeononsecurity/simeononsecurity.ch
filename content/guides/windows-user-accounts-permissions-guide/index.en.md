@@ -16,7 +16,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 ## Introduction
 
-In the world of cybersecurity and system administration, **user accounts** and **permissions** play a pivotal role in upholding the security and integrity of a Windows operating system. Effectively managing user accounts and permissions ensures that only authorized individuals have access to critical resources and functionalities. In this article, we'll delve into essential concepts and practical techniques related to user account management and permissions on Windows systems.
+In the world of cybersecurity and system administration, **user accounts** and **permissions** play a pivotal role in upholding the security and integrity of a Windows operating system. Effectively managing user accounts and permissions ensures that only authorized individuals have access to critical resources and functionalities. In this article, we'll dig into essential concepts and practical techniques related to user account management and permissions on Windows systems.
 
 
 
@@ -72,7 +72,7 @@ icacls [path_to_file_or_folder] /grant [username]:(CI)(OI)F
 
 This command grants the `[username]` **full control** (`F`) of the specified `[path_to_file_or_folder]`, including inheritance (`CI`) and object inheritance (`OI`).
 
-### Leveraging cacls
+### using cacls
 
 An alternate tool, `cacls`, also offers methods to manage permissions:
 

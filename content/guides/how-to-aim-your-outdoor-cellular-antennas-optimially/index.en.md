@@ -12,7 +12,7 @@ coverCaption: ""
 
 **How to Point and Aim Your Directional Cellular Antenna**
 
-Cell phone boosters and cellular modems can greatly improve the signal strength and reliability of your cellular connection. However, to maximize their effectiveness, it is crucial to properly point and aim the directional cellular antenna towards the nearest supported cell towers. In this article, we will guide you through the process of locating your nearest supported cell towers, calculating radio and visual line of sight, and understanding the importance of Fresnel zones.
+Cell phone boosters and cellular modems can greatly improve the signal strength and reliability of your cellular connection. However, to maximize their effectiveness, you need to properly point and aim the directional cellular antenna towards the nearest supported cell towers. In this article, we will guide you through the process of locating your nearest supported cell towers, calculating radio and visual line of sight, and understanding the importance of Fresnel zones.
 
 ______
 
@@ -24,7 +24,7 @@ Before aiming your directional cellular antenna, you need to determine the locat
 
 2. **Contacting Your Cellular Service Provider**: Reach out to your cellular service provider's customer support or visit their website to inquire about the nearest cell towers. They can provide you with valuable information specific to your network.
 
-3. **Utilizing Government Resources**: Government agencies such as the Federal Communications Commission (FCC) in the United States maintain databases of licensed cell towers. You can access these databases online and find the towers near your location. Be sure to check the regulations and licensing requirements for using external antennas in your region.
+3. **using Government Resources**: Government agencies such as the Federal Communications Commission (FCC) in the United States maintain databases of licensed cell towers. You can access these databases online and find the towers near your location. Be sure to check the regulations and licensing requirements for using external antennas in your region.
 
 {{< youtube id="D1OoJqEc4os" >}}
 
@@ -32,7 +32,7 @@ ______
 
 ## Calculating Radio and Visual Line of Sight
 
-Once you have identified the location of the nearest cell towers, it is essential to calculate both the radio and visual line of sight to ensure an optimal antenna aiming.
+Once you have identified the location of the nearest cell towers, you need to calculate both the radio and visual line of sight to ensure an optimal antenna aiming.
 
 1. **Radio Line of Sight**: The radio line of sight refers to the direct path between your antenna and the cell tower without any obstructions. To calculate the radio line of sight, you need to determine the elevation of your antenna and the cell tower. Various tools and smartphone apps, such as [**HeyWhatsThat**](https://www.heywhatsthat.com/) and [**Google Earth**](https://earth.google.com/web/), can assist you in estimating the height of objects and terrain. Additionally, **FCC Antenna Structure Registration** database can provide information about the height of registered structures, including cell towers.
 

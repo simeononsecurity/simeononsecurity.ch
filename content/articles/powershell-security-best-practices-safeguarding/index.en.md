@@ -13,7 +13,7 @@ coverCaption: "Secure your PowerShell scripts with effective security practices.
 
 ## Introduction
 
-PowerShell is a powerful scripting language and automation framework developed by Microsoft. It provides administrators and developers with a wide range of capabilities for managing and automating Windows environments. However, as with any powerful tool, it is crucial to follow **best practices for PowerShell security** to prevent unauthorized access, protect sensitive information, and minimize the risk of security breaches.
+PowerShell is a powerful scripting language and automation framework developed by Microsoft. It provides administrators and developers with a wide range of capabilities for managing and automating Windows environments. However, as with any powerful tool, you need to follow **best practices for PowerShell security** to prevent unauthorized access, protect sensitive information, and minimize the risk of security breaches.
 
 In this article, we will explore [**PowerShell security best practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-powershell/), focusing on script and password security. By implementing these practices, you can ensure that your PowerShell scripts and passwords remain secure, reducing the potential for malicious activity and data breaches.
 
@@ -75,7 +75,7 @@ ______
 
 Securing your PowerShell scripts and passwords is crucial to maintaining the integrity and confidentiality of your systems. By following the **best practices for PowerShell security**, such as enabling script execution policy, code signing, user access control, and password security measures, you can significantly enhance the security of your PowerShell environment.
 
-Remember, PowerShell security is an ongoing process, and it is essential to stay updated with the latest security recommendations and guidelines provided by Microsoft and relevant government regulations, such as the **NIST Cybersecurity Framework** and the **ISO/IEC 27001 standard**. These frameworks provide valuable guidance for organizations to establish and maintain effective cybersecurity practices.
+Remember, PowerShell security is an ongoing process, and you need to stay updated with the latest security recommendations and guidelines provided by Microsoft and relevant government regulations, such as the **NIST Cybersecurity Framework** and the **ISO/IEC 27001 standard**. These frameworks provide valuable guidance for organizations to establish and maintain effective cybersecurity practices.
 
 By implementing these best practices and staying vigilant, you can mitigate the risks associated with PowerShell scripting and ensure the security of your systems and sensitive information. Stay informed, regularly review and update your security measures, and stay proactive in protecting your PowerShell environment.
 

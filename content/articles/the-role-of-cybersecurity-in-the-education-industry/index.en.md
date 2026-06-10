@@ -58,7 +58,7 @@ Provide ongoing cybersecurity training for teachers, staff, and students to rais
 
 ### Use Encryption and Secure Data Storage
 
-Encrypt sensitive data both at rest and in transit, using industry-standard encryption protocols. Additionally, utilize secure storage solutions for student data, such as encrypted databases or cloud-based storage services with robust security features.
+Encrypt sensitive data both at rest and in transit, using industry-standard encryption protocols. Additionally, use secure storage solutions for student data, such as encrypted databases or cloud-based storage services with robust security features.
 
 ### Regularly Update and Patch Systems
 

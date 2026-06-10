@@ -48,7 +48,7 @@ ______
 
 When it comes to **user-friendliness**, **Unraid** excels with its emphasis on **ease of use and flexibility**[^1]. It offers a unique storage management system that allows users to **mix and match different disk sizes and types**[^2]. Adding or removing disks can be done without any interruption to the system[^2]. Unraid's **straightforward and simple user interface** makes it accessible even for non-technical users[^3].
 
-On the other hand, **TrueNas** is primarily **geared towards the enterprise market** and requires more advanced knowledge to set up and manage[^4]. Its use of the **OpenZFS file system** brings advanced data protection features like **snapshots, data compression, and checksumming** to ensure data integrity[^5]. While TrueNas offers robust features, it may require a higher level of technical expertise to fully utilize its capabilities.
+On the other hand, **TrueNas** is primarily **geared towards the enterprise market** and requires more advanced knowledge to set up and manage[^4]. Its use of the **OpenZFS file system** brings advanced data protection features like **snapshots, data compression, and checksumming** to ensure data integrity[^5]. While TrueNas offers robust features, it may require a higher level of technical expertise to fully use its capabilities.
 
 [^1]: [Unraid Features](https://unraid.net/product/features)
 [^2]: [Unraid Storage Management](https://unraid.net/product/storage)
@@ -64,7 +64,7 @@ ______
 
 **TrueNas** stands out with its built-in support for **cloud storage services** such as **Amazon S3**, **Google Cloud**, and **Microsoft Azure**[^1]. Moving data to the cloud becomes seamless with TrueNas. While **Unraid** doesn't have native support for cloud storage, users can explore third-party solutions, which may require additional setup and configuration[^2].
 
-The Linux-based platform of **Unraid** allows for **virtual machine configuration** using **KVM** and the assignment of **PCI/USB devices** to virtual machines, including graphics cards, enabling users to utilize the same computer for media center and gaming purposes[^2].
+The Linux-based platform of **Unraid** allows for **virtual machine configuration** using **KVM** and the assignment of **PCI/USB devices** to virtual machines, including graphics cards, enabling users to use the same computer for media center and gaming purposes[^2].
 
 **TrueNas** offers its own containerization technology called **Jails** and its own virtualization option called **Bhyve**[^1]. While it provides many popular third-party applications like **Plex**, the overall software selection may be more limited compared to Unraid[^1].
 
@@ -78,7 +78,7 @@ ______
 
 While Unraid does not have a dedicated support page, it encourages users to participate in the **official community forum**, which is known for being **friendly**, **informative**, and **helpful**[^2].
 
-Similarly, TrueNas also maintains its own **official community forum**, which serves as a platform for users to seek assistance and share knowledge[^1]. However, it's worth noting that the TrueNas forum may cater more to **IT professionals** with a focus on **enterprise storage management**.
+Similarly, TrueNas also maintains its own **official community forum**, which serves as a platform for users to seek assistance and share knowledge[^1]. However, worth noting: the TrueNas forum may cater more to **IT professionals** with a focus on **enterprise storage management**.
 
 [^1]: [TrueNas Documentation](https://www.truenas.com/docs/)
 [^2]: [Unraid Community](https://forums.unraid.net/)
@@ -89,15 +89,15 @@ ______
 
 Both **TrueNas** and **Unraid** are powerful and mature [**NAS operating systems**](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) that cater to different user needs. TrueNas is well-suited for users with **advanced knowledge** of storage management and a desire for **advanced data protection** using **OpenZFS**[^1]. On the other hand, Unraid offers a **flexible and user-friendly** NAS system, making it ideal for **home users**[^2].
 
-| Subject            | TrueNAS                                                                                          | Unraid                                                                                       |
+| Subject | TrueNAS | Unraid |
 | ------------------ | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| Cost               | Free and open-source (TrueNAS CORE)                                                               | Proprietary OS with fair pricing plans (Basic, Plus, and Pro)                                |
-| User-Friendliness  | Geared towards the enterprise market, requires advanced knowledge                                 | Emphasizes ease of use and flexibility                                                       |
-| Features           | Supports NFS shares, SMB, AFP, iSCSI, LDAP, Active Directory, Kerberos, cloud storage services | Supports NFS shares, SMB, AFP, Docker containers, virtual machine configuration (KVM)        |
-| Data Protection    | Advanced data protection with OpenZFS file system                                                 | Mixes and matches different disk sizes and types                                              |
-| Third-Party Apps   | Limited software selection, provides Jails for containerization, Bhyve for virtualization      | Wide range of third-party applications through Docker containers                              |
-| Documentation      | Comprehensive documentation and official community forum                                         | Less extensive documentation but helpful community forum                                      |
-| Community Support  | Official community forum for assistance and knowledge sharing                                    | Official community forum known for being friendly, informative, and helpful                  |
+| Cost | Free and open-source (TrueNAS CORE) | Proprietary OS with fair pricing plans (Basic, Plus, and Pro) |
+| User-Friendliness | Geared towards the enterprise market, requires advanced knowledge | Emphasizes ease of use and flexibility |
+| Features | Supports NFS shares, SMB, AFP, iSCSI, LDAP, Active Directory, Kerberos, cloud storage services | Supports NFS shares, SMB, AFP, Docker containers, virtual machine configuration (KVM) |
+| Data Protection | Advanced data protection with OpenZFS file system | Mixes and matches different disk sizes and types |
+| Third-Party Apps | Limited software selection, provides Jails for containerization, Bhyve for virtualization | Wide range of third-party applications through Docker containers |
+| Documentation | Comprehensive documentation and official community forum | Less extensive documentation but helpful community forum |
+| Community Support | Official community forum for assistance and knowledge sharing | Official community forum known for being friendly, informative, and helpful |
 
 In summary:
 

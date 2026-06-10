@@ -57,7 +57,7 @@ Another difference is the address format itself. IPv4 addresses use a decimal fo
 
 #### Address Configuration
 
-IPv4 addresses are typically assigned to devices manually or through dynamic allocation methods such as Dynamic Host Configuration Protocol (DHCP). On the other hand, IPv6 addresses often utilize a combination of stateless address autoconfiguration and DHCPv6 (Dynamic Host Configuration Protocol version 6) to assign and configure addresses automatically.
+IPv4 addresses are typically assigned to devices manually or through dynamic allocation methods such as Dynamic Host Configuration Protocol (DHCP). On the other hand, IPv6 addresses often use a combination of stateless address autoconfiguration and DHCPv6 (Dynamic Host Configuration Protocol version 6) to assign and configure addresses automatically.
 
 #### Security and Quality of Service
 
@@ -67,11 +67,11 @@ IPv6 offers several improvements in terms of security and quality of service com
 
 The [transition from IPv4 to IPv6](https://simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/) is crucial for the future growth and sustainability of the internet. As the number of internet-connected devices continues to rise, the depletion of IPv4 addresses becomes an imminent problem. By embracing IPv6, individuals and businesses can ensure that their devices can connect seamlessly to the internet and take advantage of the enhanced capabilities provided by the new protocol.
 
-Furthermore, governments and regulatory bodies around the world recognize the importance of IPv6 adoption and have introduced initiatives and regulations to facilitate the transition. For example, the United States government issued a directive in 2020 that requires all federal agencies to enable IPv6 on their public-facing websites and services.
+Also, governments and regulatory bodies around the world recognize the importance of IPv6 adoption and have introduced initiatives and regulations to facilitate the transition. For example, the United States government issued a directive in 2020 that requires all federal agencies to enable IPv6 on their public-facing websites and services.
 
 ## Conclusion
 
-In conclusion, IP addresses are essential for devices to communicate and exchange data over the internet. IPv4 and IPv6 are two different versions of the Internet Protocol, with IPv4 being the older standard and IPv6 being the newer and more scalable solution. The transition to IPv6 is vital to ensure the continued growth of the internet and the connection of an ever-expanding number of devices. By understanding the basics of IP addressing and the differences between IPv4 and IPv6, individuals and businesses can make informed decisions about their network infrastructure and future-proof their internet connectivity.
+Wrapping up, IP addresses are essential for devices to communicate and exchange data over the internet. IPv4 and IPv6 are two different versions of the Internet Protocol, with IPv4 being the older standard and IPv6 being the newer and more scalable solution. The transition to IPv6 is vital to ensure the continued growth of the internet and the connection of an ever-expanding number of devices. By understanding the basics of IP addressing and the differences between IPv4 and IPv6, individuals and businesses can make informed decisions about their network infrastructure and future-proof their internet connectivity.
 
 ## References
 

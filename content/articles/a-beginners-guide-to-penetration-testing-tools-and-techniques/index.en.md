@@ -102,7 +102,7 @@ ______
 6. [Burp Suite](https://portswigger.net/burp/communitydownload)
 7. [Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act) 
 8. [Certified Ethical Hacker (CEH)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
-9.  [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/)
+9. [Offensive Security Certified Professional (OSCP)](https://www.offensive-security.com/pwk-oscp/)
 10. [GIAC Penetration Tester (GPEN)](https://www.giac.org/certification/penetration-tester-gpen)
 11. [Top 5 Cybersecurity Certifications for Career Advancement](https://simeononsecurity.com/articles/the-top-five-cybersecurity-certifications-for-career-advancement/).
 12. [Recommended Certifications](https://simeononsecurity.com/recommendations/certifications/)

@@ -45,7 +45,7 @@ You can find more information and download SteamOS from their official website: 
 While [Ubuntu](https://ubuntu.com/download), [Zorin OS](https://zorinos.com/), [Manjaro](https://manjaro.org/), and [SteamOS](https://store.steampowered.com/steamos/) are among the top choices for Linux gaming, there are other notable Linux distributions worth exploring:
 
 - [**Pop!_OS**](https://pop.system76.com/): Developed by System76, Pop!_OS provides an optimized gaming experience and includes features like automatic GPU switching for laptops.
-- [**Fedora**](https://www.fedoraproject.org/): Fedora offers excellent gaming support, with its focus on cutting-edge technologies and latest software updates.
+- [**Fedora**](https://www.fedoraproject.org/): Fedora offers excellent gaming support, with its focus on advanced technologies and latest software updates.
 - [**Solus**](https://getsol.us/download/): Solus is a beginner-friendly Linux distro that provides great gaming performance and a curated selection of gaming software.
 
 Remember, the choice of Linux distro for gaming ultimately depends on your personal preferences and hardware compatibility. Consider experimenting with different distros to find the one that suits your gaming needs the best.
@@ -56,21 +56,21 @@ Linux has emerged as a powerful gaming platform, and with the right choice of Li
 
 Try out these distros and immerse yourself in the exciting world of Linux gaming!
 
-| Linux Distro | Description                                                                                           |
+| Linux Distro | Description |
 |--------------|-------------------------------------------------------------------------------------------------------|
-| Ubuntu       | - Stable and reliable environment                                                                     |
-|              | - Extensive hardware support                                                                          |
-|              | - User-friendly interface and vast software repository                                                |
-| Zorin OS     | - Windows-like interface for a seamless transition from Windows                                      |
-|              | - Built-in support for gaming and popular gaming applications                                        |
-| Manjaro      | - Rolling release model with user-friendly interface                                                 |
-|              | - Curated selection of gaming software and pre-installed gaming tools                                |
-| SteamOS      | - Specialized Linux distribution by Valve Corporation                                                 |
-|              | - Console-like interface optimized for big-screen gaming                                              |
-|              | - Pre-installed Steam client for access to a vast library of games                                   |
-| Pop!_OS      | - Optimized gaming experience with automatic GPU switching for laptops (by System76)                 |
-| Fedora       | - Focus on cutting-edge technologies and latest software updates                                     |
-| Solus        | - Beginner-friendly distro with great gaming performance and curated selection of gaming software    |
+| Ubuntu | - Stable and reliable environment |
+| | - Extensive hardware support |
+| | - User-friendly interface and vast software repository |
+| Zorin OS | - Windows-like interface for a seamless transition from Windows |
+| | - Built-in support for gaming and popular gaming applications |
+| Manjaro | - Rolling release model with user-friendly interface |
+| | - Curated selection of gaming software and pre-installed gaming tools |
+| SteamOS | - Specialized Linux distribution by Valve Corporation |
+| | - Console-like interface optimized for big-screen gaming |
+| | - Pre-installed Steam client for access to a vast library of games |
+| Pop!_OS | - Optimized gaming experience with automatic GPU switching for laptops (by System76) |
+| Fedora | - Focus on advanced technologies and latest software updates |
+| Solus | - Beginner-friendly distro with great gaming performance and curated selection of gaming software |
 
 
 ___________________________

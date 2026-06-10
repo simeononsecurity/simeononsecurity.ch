@@ -65,7 +65,7 @@ Before diving into how Google Dorks are used, let's understand some fundamental 
 
 ## Conclusion
 
-Google Dorks are powerful search queries that serve both as a valuable asset for hackers and a critical tool for OSINT professionals. While they can be used for malicious purposes, their significance in uncovering vulnerabilities and gathering information cannot be ignored. It is essential to use Google Dorks responsibly and ethically to enhance security and investigations in the digital age.
+Google Dorks are powerful search queries that serve both as a valuable asset for hackers and a critical tool for OSINT professionals. While they can be used for malicious purposes, their significance in uncovering vulnerabilities and gathering information cannot be ignored. You need to use Google Dorks responsibly and ethically to enhance security and investigations in the digital age.
 
 ## References
 

@@ -16,7 +16,7 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 ## Introduction: Open Source Counter-Surveillance
 
-The **Flock-You project** represents a groundbreaking development in privacy technology—an **open-source, community-driven initiative** to detect and map Flock Safety's ALPR surveillance infrastructure. Hosted on GitHub at **colonelpanichacks/flock-you**, this project leverages affordable ESP32-based hardware to identify Flock cameras through their **WiFi network signatures**.
+The **Flock-You project** represents a groundbreaking development in privacy technology - an **open-source, community-driven initiative** to detect and map Flock Safety's ALPR surveillance infrastructure. Hosted on GitHub at **colonelpanichacks/flock-you**, this project leverages affordable ESP32-based hardware to identify Flock cameras through their **WiFi network signatures**.
 
 This comprehensive guide covers everything from the **technical methodology** behind Flock detection to **step-by-step setup instructions** for three hardware platforms, **firmware installation**, and **purchasing information from authorized vendors**. Whether you're a privacy advocate, security researcher, or concerned citizen, this guide will enable you to build or purchase your own detection device.
 
@@ -623,7 +623,7 @@ ______
 
 ______
 
-## Technical Deep Dive: Understanding the Code
+## Technical detailed breakdown: Understanding the Code
 
 ### Core Detection Algorithm (Simplified)
 
@@ -897,7 +897,7 @@ The **Flock-You detection project** represents a powerful democratization of cou
 
 The proliferation of ALPR surveillance represents a significant shift in privacy dynamics. Counter-surveillance technologies like Flock-You offer a crucial capability: **awareness**. When we understand the scope and scale of surveillance, we can make informed decisions about our movements, our advocacy, and our expectations of privacy in public spaces.
 
-Technology enabled pervasive surveillance—but technology can also empower those who value privacy. The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
+Technology enabled pervasive surveillance - but technology can also empower those who value privacy. The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
 
 ______
 

@@ -34,7 +34,7 @@ After identifying critical information, the next step is conducting a **threat a
 
 ### 3. **Vulnerability Assessment**
 
-Once the threats have been identified, it is essential to assess the **vulnerabilities** that could be exploited by adversaries. Vulnerabilities can be technical, operational, or procedural weaknesses that could compromise the security of the critical information. Examples of vulnerabilities include outdated software, weak access controls, lack of employee training, or inadequate physical security measures. By identifying vulnerabilities, organizations can take proactive measures to strengthen their security posture.
+Once the threats have been identified, you need to assess the **vulnerabilities** that could be exploited by adversaries. Vulnerabilities can be technical, operational, or procedural weaknesses that could compromise the security of the critical information. Examples of vulnerabilities include outdated software, weak access controls, lack of employee training, or inadequate physical security measures. By identifying vulnerabilities, organizations can take proactive measures to strengthen their security posture.
 
 ### 4. **Risk Analysis**
 
@@ -42,7 +42,7 @@ With the knowledge of threats and vulnerabilities, organizations can proceed to 
 
 ### 5. **Countermeasures Implementation**
 
-The final step in the OPSEC process is the **implementation of countermeasures** to mitigate identified risks. Countermeasures can include technical controls, policies and procedures, training programs, physical security measures, and encryption. It is crucial to select countermeasures that address the identified threats and vulnerabilities effectively. Regular review and updating of countermeasures are essential to ensure their ongoing effectiveness.
+The final step in the OPSEC process is the **implementation of countermeasures** to mitigate identified risks. Countermeasures can include technical controls, policies and procedures, training programs, physical security measures, and encryption. You need to select countermeasures that address the identified threats and vulnerabilities effectively. Regular review and updating of countermeasures are essential to ensure their ongoing effectiveness.
 
 ______
 

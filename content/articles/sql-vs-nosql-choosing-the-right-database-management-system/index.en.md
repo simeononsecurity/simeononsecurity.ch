@@ -72,17 +72,17 @@ ______
 
 ## Conclusion
 
-In conclusion, both SQL and NoSQL databases have their strengths and weaknesses. SQL databases are reliable, ACID compliant, and suitable for applications with well-defined data structures. On the other hand, NoSQL databases offer flexibility, scalability, and better performance in certain scenarios.
+Wrapping up, both SQL and NoSQL databases have their strengths and weaknesses. SQL databases are reliable, ACID compliant, and suitable for applications with well-defined data structures. On the other hand, NoSQL databases offer flexibility, scalability, and better performance in certain scenarios.
 
 By understanding the differences between SQL and NoSQL databases and considering your specific requirements, you can choose the right DBMS for your organization. Whether you go with the traditional SQL approach or the more flexible NoSQL option, selecting the appropriate database management system is a critical step towards efficient and effective data management.
 
-| **Comparison Factor** | **SQL Databases**                                | **NoSQL Databases**                                                   |
+| **Comparison Factor** | **SQL Databases** | **NoSQL Databases** |
 |----------------------|-------------------------------------------------|----------------------------------------------------------------------|
-| Data Model           | Rigid and predefined schema                      | Flexible and dynamic schema                                           |
-| Scalability          | Vertical scaling                                 | Horizontal scaling                                                    |
-| Query Language       | SQL                                             | Varies based on database type (e.g., MQL for MongoDB)                  |
-| Performance          | Complex join operations and analytical queries   | High read and write throughput                                        |
-| Schema Evolution     | Requires careful schema planning and downtime    | Schema evolution without downtime                                     |
+| Data Model | Rigid and predefined schema | Flexible and dynamic schema |
+| Scalability | Vertical scaling | Horizontal scaling |
+| Query Language | SQL | Varies based on database type (e.g., MQL for MongoDB) |
+| Performance | Complex join operations and analytical queries | High read and write throughput |
+| Schema Evolution | Requires careful schema planning and downtime | Schema evolution without downtime |
 
 ______
 

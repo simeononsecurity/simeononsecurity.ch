@@ -26,7 +26,7 @@ ______
 
 ## Who Designates Whether Information is Classified?
 
-The authority to **designate whether information is classified** rests with specific individuals who have been granted **Original Classification Authority (OCA)**. These are not arbitrary designations—they are carefully controlled positions established through executive orders and government directives.
+The authority to **designate whether information is classified** rests with specific individuals who have been granted **Original Classification Authority (OCA)**. These are not arbitrary designations - they are carefully controlled positions established through executive orders and government directives.
 
 ### Original Classification Authority (OCA)
 
@@ -47,7 +47,7 @@ While OCAs make **original** classification decisions, many more government empl
 
 **Important distinctions:**
 
-- **Derivative classifiers** do not decide if information should be classified—they apply existing classification decisions.
+- **Derivative classifiers** do not decide if information should be classified - they apply existing classification decisions.
 - They must receive formal training in derivative classification.
 - They are responsible for carrying forward classification markings and properly citing sources.
 
@@ -57,7 +57,7 @@ ______
 
 ## Who Determines the Classification Level?
 
-Once the decision has been made that information requires classification, the **OCA who designated the information as classified is also responsible for determining its classification level**. This determination is not subjective—it must be based on established criteria outlined in Executive Order 13526.
+Once the decision has been made that information requires classification, the **OCA who designated the information as classified is also responsible for determining its classification level**. This determination is not subjective - it must be based on established criteria outlined in Executive Order 13526.
 
 ### Classification Level Determination Criteria
 
@@ -191,7 +191,7 @@ Classified information can only be accessed by individuals who:
 - Have received proper **security briefings** and training
 - Are working in a **properly accredited facility**
 
-The [need-to-know principle](https://www.dcsa.mil/is/clearanceprocess/) is fundamental—even individuals with Top Secret clearances cannot access all Top Secret information. Access is strictly limited to what is necessary for job performance.
+The [need-to-know principle](https://www.dcsa.mil/is/clearanceprocess/) is fundamental - even individuals with Top Secret clearances cannot access all Top Secret information. Access is strictly limited to what is necessary for job performance.
 
 ### Step 5: Declassification Review
 
@@ -349,7 +349,7 @@ The authority to **designate whether information is classified** and **determine
 
 Key takeaways include:
 
-1. **Only designated OCAs can make original classification determinations**—typically agency heads and senior officials they delegate
+1. **Only designated OCAs can make original classification determinations** - typically agency heads and senior officials they delegate
 2. **Classification levels (Top Secret, Secret, Confidential) are determined based on potential damage to national security** from unauthorized disclosure
 3. **The classification process is governed by Executive Order 13526** and implementing regulations like the NISPOM and ITAR
 4. **Derivative classifiers apply existing classification decisions** but do not make original determinations

@@ -3,7 +3,7 @@ title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with RGB LED Alerts"
 date: 2026-06-06
 toc: true
 draft: false
-description: "A deep dive into the ESP32 WiFi Canary project — a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED."
+description: "A detailed breakdown into the ESP32 WiFi Canary project - a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED."
 genre: ["Network Security", "WiFi Security", "IoT Security", "Security Research", "Embedded Systems", "Privacy Tools", "ESP32 Projects", "Hardware Security", "Wireless Security", "Open Source Security"]
 tags: ["ESP32", "WiFi Canary", "M5Stack Atom Lite", "Deauth Detection", "Evil Twin Detection", "WiFi Security", "Passive WiFi Monitoring", "802.11 Management Frames", "Network Security", "IoT Security", "NeoPixel", "SK6812", "PlatformIO", "C++", "Open Source", "Security Sensor", "Wireless Threat Detection", "BSSID Monitoring", "SSID Monitoring", "Security Downgrade Detection", "Beacon Flood Detection", "WiFi Monitoring", "RGB LED", "Promiscuous Mode", "Embedded Security", "Travel Security", "Hotel WiFi Security", "Coffee Shop WiFi", "Security Awareness", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/"
@@ -13,9 +13,9 @@ canonical: "https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi
 
 ## Introduction: The Problem With Public WiFi
 
-Every time you connect to hotel WiFi, a coffee shop hotspot, or an airport network, you're trusting that the access point in front of you is the real one. The problem is that 802.11 management frames — the very frames that announce networks, manage connections, and coordinate clients — are completely unauthenticated in most deployments. Anyone with modest hardware can clone an SSID, blast deauthentication frames at clients, or set up an open decoy next to a legitimate WPA2 network.
+Every time you connect to hotel WiFi, a coffee shop hotspot, or an airport network, you're trusting that the access point in front of you is the real one. The problem is that 802.11 management frames - the very frames that announce networks, manage connections, and coordinate clients - are completely unauthenticated in most deployments. Anyone with modest hardware can clone an SSID, blast deauthentication frames at clients, or set up an open decoy next to a legitimate WPA2 network.
 
-The [**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) is a passive awareness sensor that addresses this reality with the smallest possible footprint. It fits on the M5Stack Atom Lite — a device roughly the size of a sugar cube — plugs into any USB port, learns the surrounding environment, and lights up an RGB LED when it detects patterns consistent with wireless threats.
+The [**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) is a passive awareness sensor that addresses this reality with the smallest possible footprint. It fits on the M5Stack Atom Lite - a device roughly the size of a sugar cube - plugs into any USB port, learns the surrounding environment, and lights up an RGB LED when it detects patterns consistent with wireless threats.
 
 It does not connect to anything. It does not capture credentials. It does not transmit a single frame. It watches, scores, and tells you what color the situation is.
 
@@ -29,8 +29,8 @@ This article is a complete technical reference for the project: what it detects,
 
 The WiFi Canary operates in two radio modes, never simultaneously:
 
-1. **Promiscuous mode** — receives and inspects 802.11 management frames (deauth, disassoc) without associating to any network
-2. **Scan mode** — performs active WiFi scans to enumerate nearby access points and compare them to a learned baseline
+1. **Promiscuous mode** - receives and inspects 802.11 management frames (deauth, disassoc) without associating to any network
+2. **Scan mode** - performs active WiFi scans to enumerate nearby access points and compare them to a learned baseline
 
 The device never:
 - Associates with or connects to any network
@@ -47,10 +47,10 @@ There is no display, no app, no web UI. The entire output of the device is a sin
 
 | LED State | Meaning |
 |-----------|---------|
-| 🔵 Blue (slow pulse) | Startup — building baseline reference |
-| 🟢 Green (solid) | Normal — no high-confidence issues |
-| 🟡 Yellow (solid) | Caution — suspicious pattern detected |
-| 🔴 Red (fast pulse) | Alert — higher-confidence threat detected |
+| 🔵 Blue (slow pulse) | Startup - building baseline reference |
+| 🟢 Green (solid) | Normal - no high-confidence issues |
+| 🟡 Yellow (solid) | Caution - suspicious pattern detected |
+| 🔴 Red (fast pulse) | Alert - higher-confidence threat detected |
 
 Startup takes approximately **24 seconds** (3 scans × 8 seconds each). Once the device transitions out of blue, it has a working baseline and begins active monitoring.
 
@@ -60,7 +60,7 @@ Startup takes approximately **24 seconds** (3 scans × 8 seconds each). Once the
 
 ### Primary Target: M5Stack Atom Lite
 
-The project is designed around the M5Stack Atom Lite — a complete ESP32 development platform in a 24 × 24 mm enclosure.
+The project is designed around the M5Stack Atom Lite - a complete ESP32 development platform in a 24 × 24 mm enclosure.
 
 | Component | Detail |
 |-----------|--------|
@@ -92,7 +92,7 @@ A canary that fires on every open network in a city would be useless. The ESP32 
 
 ### Three Scans, 24 Seconds
 
-On startup, the device runs three sequential WiFi scans, each separated by a pause. After all three complete, the learned set of APs — SSID, BSSID, encryption type, signal strength — is stored as the baseline.
+On startup, the device runs three sequential WiFi scans, each separated by a pause. After all three complete, the learned set of APs - SSID, BSSID, encryption type, signal strength - is stored as the baseline.
 
 Serial output during this phase looks like:
 
@@ -101,7 +101,7 @@ Serial output during this phase looks like:
  Travel WiFi Canary v1.0
  Passive 2.4 GHz awareness sensor
 ==============================================
-[canary] setup done — starting baseline learning
+[canary] setup done - starting baseline learning
 [canary] baseline scan start (aps=0 score=0)
 [canary] scan found 18 APs
 [canary] baseline scan 1/3
@@ -123,7 +123,7 @@ Once the LED transitions from blue to green, the device is in full operation.
 
 ## What It Detects: Threat Categories
 
-The WiFi Canary monitors five distinct threat patterns. Each contributes points to a **confidence score** that drives LED state. No single indicator alone is treated as certain — the model is designed to accumulate corroborating evidence before escalating.
+The WiFi Canary monitors five distinct threat patterns. Each contributes points to a **confidence score** that drives LED state. No single indicator alone is treated as certain - the model is designed to accumulate corroborating evidence before escalating.
 
 ### 1. Deauthentication / Disassociation Bursts
 
@@ -137,7 +137,7 @@ The canary monitors these frames in **promiscuous mode** and counts them per sou
 | ≥ 20 frames from one source in 5 s | +4 |
 | ≥ 5 broadcast deauth frames | +1 |
 
-**Why thresholds matter**: A client roaming between APs will generate a handful of legitimate deauth/disassoc frames. What deauth attack tools generate is qualitatively different — hundreds of frames per second sustained against a target. The 5-second window and 8-frame floor filter out normal roaming noise while catching the sustained burst signature of tools like `aireplay-ng`.
+**Why thresholds matter**: A client roaming between APs will generate a handful of legitimate deauth/disassoc frames. What deauth attack tools generate is qualitatively different - hundreds of frames per second sustained against a target. The 5-second window and 8-frame floor filter out normal roaming noise while catching the sustained burst signature of tools like `aireplay-ng`.
 
 ### 2. Open Clone of Known Encrypted Network (Evil Twin)
 
@@ -172,7 +172,7 @@ A more advanced variant: the attacker's stronger clone causes clients to prefer 
 |-----------|-------------|
 | Baseline encrypted AP gone + matching open network appeared | +3 |
 
-This covers the scenario where the real AP is still broadcasting but simply loses the signal-strength competition — or is actively disrupted.
+This covers the scenario where the real AP is still broadcasting but simply loses the signal-strength competition - or is actively disrupted.
 
 ### 4. Security Downgrade
 
@@ -237,8 +237,8 @@ This means:
 
 Pressing the GPIO 39 button on the Atom Lite does two things:
 
-1. Dumps the full current AP table to serial output — useful for auditing exactly what the device sees
-2. Resets the threat score to 0 — forces an immediate return to the green state so you can observe the next scan cycle fresh
+1. Dumps the full current AP table to serial output - useful for auditing exactly what the device sees
+2. Resets the threat score to 0 - forces an immediate return to the green state so you can observe the next scan cycle fresh
 
 ---
 
@@ -281,7 +281,7 @@ esp32-wifi-canary/
 └── README.md
 ```
 
-The entire firmware is a **single C++ source file**. There are no external libraries for the detection logic — just the ESP32 Arduino framework for WiFi scanning, promiscuous mode callbacks, and NeoPixel control.
+The entire firmware is a **single C++ source file**. There are no external libraries for the detection logic - just the ESP32 Arduino framework for WiFi scanning, promiscuous mode callbacks, and NeoPixel control.
 
 ### platformio.ini Environments
 
@@ -312,7 +312,7 @@ The device produces comprehensive logging at **115200 baud**. All log lines are 
  Travel WiFi Canary v1.0
  Passive 2.4 GHz awareness sensor
 ==============================================
-[canary] setup done — starting baseline learning
+[canary] setup done - starting baseline learning
 [canary] baseline scan start (aps=0 score=0)
 [canary] scan found 18 APs
 [canary] baseline scan 1/3
@@ -359,7 +359,7 @@ The README is unusually honest about what this device cannot do, and that honest
 
 **Neighbor network transients**: An encrypted network that temporarily disappears from scan and reappears with different parameters (firmware update, reboot, reconfiguration) can momentarily trigger detection.
 
-The confidence scoring model and decay are designed to reduce — not eliminate — these false positives.
+The confidence scoring model and decay are designed to reduce - not eliminate - these false positives.
 
 ### What Can Cause False Negatives
 
@@ -372,7 +372,7 @@ The confidence scoring model and decay are designed to reduce — not eliminate 
 
 ### Radio Switching Gap
 
-The ESP32 WiFi radio cannot be in promiscuous mode and perform an active AP scan simultaneously. The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window will not be captured**. An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection — though this would require knowledge of the device's scanning schedule.
+The ESP32 WiFi radio cannot be in promiscuous mode and perform an active AP scan simultaneously. The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window will not be captured**. An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection - though this would require knowledge of the device's scanning schedule.
 
 ### 2.4 GHz Only
 
@@ -388,7 +388,7 @@ Deauth detection requires the device to be within receive range of the deauth fr
 
 ### Traveling with Sensitive Work
 
-The canary is designed primarily for travel. Plug it into a laptop's USB port, a hotel room USB outlet, or a portable battery bank, and let it learn the hotel or conference center environment. Any subsequent appearance of an open clone of the hotel SSID — the most common attack scenario — will trigger at minimum a Caution state.
+The canary is designed primarily for travel. Plug it into a laptop's USB port, a hotel room USB outlet, or a portable battery bank, and let it learn the hotel or conference center environment. Any subsequent appearance of an open clone of the hotel SSID - the most common attack scenario - will trigger at minimum a Caution state.
 
 ### Coffee Shops and Public WiFi
 
@@ -396,7 +396,7 @@ Open WiFi environments are the most common attack surface for evil-twin setups. 
 
 ### Security Awareness and Education
 
-The device's serial output provides a detailed, human-readable log of exactly what it sees. For security training, demonstrating to someone what a deauth burst looks like in real-time — and watching the LED change color — is substantially more effective than a slide deck.
+The device's serial output provides a detailed, human-readable log of exactly what it sees. For security training, demonstrating to someone what a deauth burst looks like in real-time - and watching the LED change color - is substantially more effective than a slide deck.
 
 ### Passive Lab Monitoring
 
@@ -412,7 +412,7 @@ The confidence scoring model aggregates disparate signals into a single number r
 
 ### Why Score Decay
 
-Without decay, a single false-positive event would require manual intervention (button press) to clear. With 60-second decay, brief anomalies clear themselves within a few minutes. This means the canary can run unattended — in a bag, a hotel room, or a car — and return to baseline without user intervention after transient events.
+Without decay, a single false-positive event would require manual intervention (button press) to clear. With 60-second decay, brief anomalies clear themselves within a few minutes. This means the canary can run unattended - in a bag, a hotel room, or a car - and return to baseline without user intervention after transient events.
 
 ### Why Three Baseline Scans
 
@@ -444,9 +444,9 @@ The canary occupies a specific niche: **zero-interaction, zero-network, always-o
 
 ## Conclusion
 
-The ESP32 WiFi Canary is a tightly scoped tool that does one thing: watch the 2.4 GHz environment around you and change color when something looks wrong. It does not try to be a full wireless intrusion detection system, a packet capture tool, or a forensic analyzer. It is a canary — a passive sensor whose job is to notice when the mine gets dangerous.
+The ESP32 WiFi Canary is a tightly scoped tool that does one thing: watch the 2.4 GHz environment around you and change color when something looks wrong. It does not try to be a full wireless intrusion detection system, a packet capture tool, or a forensic analyzer. It is a canary - a passive sensor whose job is to notice when the mine gets dangerous.
 
-The confidence scoring model, score decay, and three-phase baseline approach reflect careful thinking about the false-positive problem that plagues ambient security sensors. The result is a device that can run unattended in a hotel room or conference center and reliably signal when something meaningfully unusual is happening — while staying quiet during normal network churn.
+The confidence scoring model, score decay, and three-phase baseline approach reflect careful thinking about the false-positive problem that plagues ambient security sensors. The result is a device that can run unattended in a hotel room or conference center and reliably signal when something meaningfully unusual is happening - while staying quiet during normal network churn.
 
 For anyone building a portable security toolkit, working in environments with untrusted WiFi infrastructure, or looking for an ESP32 project with real practical utility, the WiFi Canary is worth an afternoon and a $15 M5Stack Atom Lite.
 

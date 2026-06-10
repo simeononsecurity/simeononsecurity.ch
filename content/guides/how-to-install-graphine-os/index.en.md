@@ -22,7 +22,7 @@ GrapheneOS is an open-source, privacy-focused operating system based on Android.
 ### Hardware & System Requirements
 
 - A computer with at least **2GB of free memory** and **32GB of free storage space**.
-- A **high-quality USB-C cable** packaged with the device (or a USB-C to USB-A cable if needed). Avoid USB hubs — connect directly to a rear desktop port or laptop port.
+- A **high-quality USB-C cable** packaged with the device (or a USB-C to USB-A cable if needed). Avoid USB hubs - connect directly to a rear desktop port or laptop port.
 - Installing from a virtual machine is **not recommended** due to unreliable USB passthrough.
 
 > It's best practice to update your Pixel device before installing GrapheneOS to have the latest firmware. Either way, GrapheneOS flashes the latest firmware early in the installation process.
@@ -50,19 +50,19 @@ Older end-of-life versions of these platforms can also be used but are not offic
 
 ### Officially Supported Browsers (Web Installer Only)
 
-- **Chromium** (outside Ubuntu — their Snap package lacks working WebUSB)
+- **Chromium** (outside Ubuntu - their Snap package lacks working WebUSB)
 - **Vanadium** (GrapheneOS)
 - **Google Chrome**
 - **Microsoft Edge**
-- **Brave** (with Brave Shields disabled — it caps storage usage to avoid fingerprinting)
+- **Brave** (with Brave Shields disabled - it caps storage usage to avoid fingerprinting)
 
 > - On Android, **disable desktop mode** in your browser. Desktop mode prevents the web installer from detecting Android and requesting reconnect permission after reboots. It is enabled by default on large tablets with 8GB+ RAM (e.g., Pixel Tablet).
-> - Avoid Flatpak and Snap browser versions — they cause issues during installation.
-> - Do **not** use Incognito / private browsing mode — these modes restrict storage space needed to extract the downloaded release.
+> - Avoid Flatpak and Snap browser versions - they cause issues during installation.
+> - Do **not** use Incognito / private browsing mode - these modes restrict storage space needed to extract the downloaded release.
 
 ### Supported Devices
 
-You need one of the [officially supported Pixel devices](https://grapheneos.org/faq#supported-devices). **Avoid carrier variants** — carrier Pixels have a non-zero carrier ID flashed at the factory that disables bootloader and carrier unlocking. Get a carrier-agnostic (unlocked) device.
+You need one of the [officially supported Pixel devices](https://grapheneos.org/faq#supported-devices). **Avoid carrier variants** - carrier Pixels have a non-zero carrier ID flashed at the factory that disables bootloader and carrier unlocking. Get a carrier-agnostic (unlocked) device.
 
 ---
 
@@ -79,7 +79,7 @@ OEM unlocking must be enabled from within the operating system before you can pr
 
 ## Installation Method 1: Web Installer (Recommended)
 
-The [GrapheneOS Web Installer](https://grapheneos.org/install/web) is the recommended approach for most users. It uses WebUSB directly in your browser — no software installation required.
+The [GrapheneOS Web Installer](https://grapheneos.org/install/web) is the recommended approach for most users. It uses WebUSB directly in your browser - no software installation required.
 
 ### Step 1: Work Around fwupd Bugs (Linux Only)
 
@@ -107,13 +107,13 @@ sudo apt install android-sdk-platform-tools-common
 
 ### Step 3: Boot into Bootloader Interface
 
-Hold the **volume down** button while the device boots (either power it on from off while holding volume down, or reboot and hold volume down). The device must display a **red warning triangle** and the words **"Fastboot Mode"** — do not press the power button to activate "Start."
+Hold the **volume down** button while the device boots (either power it on from off while holding volume down, or reboot and hold volume down). The device must display a **red warning triangle** and the words **"Fastboot Mode"** - do not press the power button to activate "Start."
 
 ### Step 4: Connect Your Device
 
 Connect the device to your computer via USB. On Linux, reconnect the cable if udev rules weren't set up before the first connection.
 
-> **Pixel Tablet:** Disconnect from the stand before connecting via USB — the tablet can't use both simultaneously.
+> **Pixel Tablet:** Disconnect from the stand before connecting via USB - the tablet can't use both simultaneously.
 
 > **Windows:** Current Windows 10/11 include a generic fastboot driver for Pixel 4a (5G) and later. For older Pixels or outdated Windows, install the driver from Windows Update (look under "View optional updates" → "LeMobile Android Device").
 
@@ -128,7 +128,7 @@ Go to [https://grapheneos.org/install/web](https://grapheneos.org/install/web) a
 
 ### Step 7: Lock the Bootloader
 
-After flashing, click **Lock the bootloader** in the web installer. Confirm on-device. **This wipes all data again** — locking the bootloader enables full verified boot.
+After flashing, click **Lock the bootloader** in the web installer. Confirm on-device. **This wipes all data again** - locking the bootloader enables full verified boot.
 
 ---
 
@@ -152,7 +152,7 @@ You need fastboot version **≥ 35.0.1**.
 sudo pacman -S android-tools
 ```
 
-**Debian / Ubuntu** — their packages are outdated. Use the standalone release:
+**Debian / Ubuntu** - their packages are outdated. Use the standalone release:
 
 ```bash
 # Debian / Ubuntu
@@ -327,11 +327,11 @@ Press the power button with the default **Start** option selected in the bootloa
 
 ### Disabling OEM Unlocking
 
-During first setup, the final screen contains a toggle for OEM unlocking (checked by default — leaving it checked **disables** OEM unlocking). This is recommended. You can change it later in **Developer options**.
+During first setup, the final screen contains a toggle for OEM unlocking (checked by default - leaving it checked **disables** OEM unlocking). This is recommended. You can change it later in **Developer options**.
 
 ### Verifying the Installation
 
-GrapheneOS leverages verified boot and hardware attestation. Verified boot checks all firmware and OS images on every boot against keys burned into the SoC fuses. GrapheneOS flashes its own verified boot public key to the secure element — each boot, this key verifies the OS.
+GrapheneOS leverages verified boot and hardware attestation. Verified boot checks all firmware and OS images on every boot against keys burned into the SoC fuses. GrapheneOS flashes its own verified boot public key to the secure element - each boot, this key verifies the OS.
 
 #### Verified Boot Key Hashes
 

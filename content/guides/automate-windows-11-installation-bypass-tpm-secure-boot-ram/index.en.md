@@ -19,7 +19,7 @@ Windows 11 introduces new system requirements, including the need for a TPM (Tru
 
 ### **Bypassing TPM, Secure Boot, and RAM Checks in Windows 11**
 
-Virtualized environments like VMware vSphere can utilize a virtual TPM ([vTPM](https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/)) to emulate a TPM 2.0 device, satisfying the TPM requirement for Windows 11 installation. However, for scenarios where a vTPM is not available, the following **registry keys** can be used to bypass the checks during the installation process:
+Virtualized environments like VMware vSphere can use a virtual TPM ([vTPM](https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/)) to emulate a TPM 2.0 device, satisfying the TPM requirement for Windows 11 installation. However, for scenarios where a vTPM is not available, the following **registry keys** can be used to bypass the checks during the installation process:
 
 - **BypassTPMCheck**: Skip TPM check.
 - **BypassSecureBootCheck**: Skip Secure Boot check.
@@ -85,7 +85,7 @@ For automated installations in virtualized environments, an **autounattend.xml**
 
 ### **Use Caution and Adhere to Regulations**
 
-**Bypassing** these checks should only be done in specific scenarios, such as virtualized environments that have appropriate security measures in place. It is essential to **understand the implications** of bypassing these requirements and assess the potential risks.
+**Bypassing** these checks should only be done in specific scenarios, such as virtualized environments that have appropriate security measures in place. You need to **understand the implications** of bypassing these requirements and assess the potential risks.
 
 The need for TPM 2.0 and Secure Boot for Windows 11 installation is based on Microsoft's stated system requirements. In some cases, such as in government or regulated environments, bypassing these checks may not be compliant with specific regulations or security standards. Organizations should carefully consider their requirements and consult applicable regulations, such as those from government agencies like the **National Institute of Standards and Technology (NIST)**, to ensure compliance.
 

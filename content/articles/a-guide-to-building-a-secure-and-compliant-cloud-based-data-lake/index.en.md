@@ -42,7 +42,7 @@ Also, ensure that **regular patching of the critical components is made**. Regul
 
 ## Keeping up with the Changing Threat Landscape
 
-**Maintaining sustained vigilance is a key requirement for maintaining secure and compliant cloud-based data lakes.** Due to an ever-evolving security landscape, cloud security controls must adapt to new threats quickly.
+**Maintaining sustained vigilance is a key requirement for maintaining secure and compliant cloud-based data lakes.** Due to an rapidly changing security landscape, cloud security controls must adapt to new threats quickly.
 
 If you are seeking compliance with specific regulations governing data storage - take measures to maintain these compliance requirements through compliance audits and regular reports generated from respective services.
 

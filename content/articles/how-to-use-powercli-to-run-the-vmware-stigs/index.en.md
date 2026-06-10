@@ -203,7 +203,7 @@ Let's break down the script and understand its functionalities:
 ______
 
 ## Automating VMware VM STIG
-In addition to securing ESXi hosts, it is essential to apply STIG controls to virtual machines (VMs) running on the VMware infrastructure. PowerCLI can help automate the process of configuring VMs according to STIG guidelines.
+In addition to securing ESXi hosts, you need to apply STIG controls to virtual machines (VMs) running on the VMware infrastructure. PowerCLI can help automate the process of configuring VMs according to STIG guidelines.
 
 ## Script: VMWare VM STIG Automation
 The following PowerCLI script demonstrates how to automate the implementation of selected STIG controls for VMs:
@@ -310,7 +310,7 @@ _____
 
 In this article, we explored the use of PowerCLI to automate the VMware ESXi and VM STIGs. We discussed the installation requirements, provided example scripts, and highlighted the importance of customizing the scripts to meet specific environment needs.
 
-**By leveraging PowerCLI and following the STIG guidelines, administrators can efficiently secure their VMware deployments and reduce manual effort while ensuring consistent configurations.**
+**By using PowerCLI and following the STIG guidelines, administrators can efficiently secure their VMware deployments and reduce manual effort while ensuring consistent configurations.**
 
 ## References
 - [DOD STIG VIB](https://flings.vmware.com/dod-security-technical-implementation-guide-stig-esxi-vib)

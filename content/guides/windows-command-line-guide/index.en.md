@@ -107,7 +107,7 @@ rmdir Documents
 
 ## Conclusion
 
-Mastering the basics of the Windows Command Prompt opens up a world of possibilities for efficient file management and system interaction. The **cd**, **dir**, **mkdir**, **rmdir**, and **echo** commands are just the tip of the iceberg. As you delve deeper into the Command Prompt's capabilities, you'll find yourself performing tasks more swiftly and becoming a more empowered user.
+Mastering the basics of the Windows Command Prompt opens up a world of possibilities for efficient file management and system interaction. The **cd**, **dir**, **mkdir**, **rmdir**, and **echo** commands are just the tip of the iceberg. As you dig deeper into the Command Prompt's capabilities, you'll find yourself performing tasks more swiftly and becoming a more empowered user.
 
 Remember, practice makes perfect. Experiment with these commands, explore more advanced options, and soon you'll be navigating your system like a pro.
 

@@ -82,7 +82,7 @@ ______
 
 ## Government Regulations
 
-While this article does not cover any specific government regulations related to ethical hacking or penetration testing, it is important to note that these activities are regulated in many jurisdictions. Always ensure that you have proper permissions and follow applicable laws when conducting security assessments. To learn more about relevant regulations, consider visiting the following resources:
+While this article does not cover any specific government regulations related to ethical hacking or penetration testing, note that these activities are regulated in many jurisdictions. Always ensure that you have proper permissions and follow applicable laws when conducting security assessments. To learn more about relevant regulations, consider visiting the following resources:
 
 - [The Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
 - [The General Data Protection Regulation (GDPR)](https://gdpr.eu/)

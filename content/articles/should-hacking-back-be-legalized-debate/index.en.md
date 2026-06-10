@@ -13,7 +13,7 @@ coverCaption: "Legalizing Hacking Back: A Complex Dilemma"
 
 **Should Hacking Back Be Legalized?**
 
-In the world of cybersecurity, the question of whether "hacking back" should be legalized is a contentious one. While some argue that it can be a valuable tool in the fight against cybercriminals, others caution against the potential risks and ethical concerns associated with such practices. This article delves into the various aspects of this debate, considering the legal, ethical, and practical implications of hacking back.
+In the world of cybersecurity, the question of whether "hacking back" should be legalized is a contentious one. While some argue that it can be a valuable tool in the fight against cybercriminals, others caution against the potential risks and ethical concerns associated with such practices. This article digs into the various aspects of this debate, considering the legal, ethical, and practical implications of hacking back.
 
 ## Introduction
 
@@ -43,7 +43,7 @@ Legalizing hacking back also raises concerns about digital vigilantism. When ind
 ## The Practical Side
 
 ### Technical Challenges
-From a practical standpoint, hacking back involves a myriad of technical challenges. It requires expertise in cybersecurity, digital forensics, and the ability to trace and attribute attacks accurately. Moreover, the risk of misattribution remains a significant barrier.
+From a practical standpoint, hacking back involves a myriad of technical challenges. It requires expertise in cybersecurity, digital forensics, and the ability to trace and attribute attacks accurately. On top of that, the risk of misattribution remains a significant barrier.
 
 ### Collateral Damage
 There is also the risk of causing collateral damage when hacking back. Disrupting an attacker's infrastructure may affect unrelated parties or innocent victims who share the same hosting or infrastructure services. This raises questions about the ethical implications of collateral damage.

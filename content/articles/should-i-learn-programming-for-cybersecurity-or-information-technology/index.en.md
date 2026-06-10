@@ -35,4 +35,4 @@ _________________________
 
 ## Conclusion
 
-In conclusion, **learning programming for IT and Cyber Security can greatly benefit your career and increase your marketability**. While it may seem daunting at first, with practice and perseverance, you'll find that coding and scripting skills can greatly enhance your ability to perform tasks and solve problems in the field. Start by learning PowerShell or Bash, and then move on to Python and other relevant tools and technologies. With dedication and hard work, you'll be on your way to becoming a highly skilled and in-demand IT and Cyber Security professional.
+Wrapping up, **learning programming for IT and Cyber Security can greatly benefit your career and increase your marketability**. While it may seem daunting at first, with practice and perseverance, you'll find that coding and scripting skills can greatly enhance your ability to perform tasks and solve problems in the field. Start by learning PowerShell or Bash, and then move on to Python and other relevant tools and technologies. With dedication and hard work, you'll be on your way to becoming a highly skilled and in-demand IT and Cyber Security professional.

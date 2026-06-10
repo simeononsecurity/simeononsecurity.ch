@@ -21,7 +21,7 @@ In today's fast-paced world, efficient inventory and asset management are crucia
 
 ### What is Homebox?
 
-**Homebox** is an **open-source** software designed to provide an intuitive and user-friendly platform for **managing inventories and assets** within your home or small business environment. It allows you to keep track of various items, from personal belongings to business equipment, all in one centralized location. By leveraging Homebox, you can efficiently organize, categorize, and monitor your possessions, leading to enhanced productivity and reduced administrative overhead.
+**Homebox** is an **open-source** software designed to provide an intuitive and user-friendly platform for **managing inventories and assets** within your home or small business environment. It allows you to keep track of various items, from personal belongings to business equipment, all in one centralized location. By using Homebox, you can efficiently organize, categorize, and monitor your possessions, leading to enhanced productivity and reduced administrative overhead.
 
 ### Features and Benefits of Homebox
 

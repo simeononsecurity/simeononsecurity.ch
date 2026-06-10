@@ -10,7 +10,7 @@ coverAlt: "An image of a person holding a USB flash drive with a shredder in the
 coverCaption: ""
 ---
 
-Removable media, such as hard drives, solid state drives (SSD), USB flash drives, CDs, DVDs, and Blu-ray disks, are an integral part of today's digital world. These devices are widely used for storing and transferring sensitive data, and it's crucial to ensure that the information contained in them is not leaked or accessed by unauthorized persons. In this article, we will discuss the NIST-approved ways of sanitizing all types of removable media.
+Removable media, such as hard drives, solid state drives (SSD), USB flash drives, CDs, DVDs, and Blu-ray disks, are an integral part of today's digital world. These devices are widely used for storing and transferring sensitive data, and you need to ensure that the information contained in them is not leaked or accessed by unauthorized persons. In this article, we will discuss the NIST-approved ways of sanitizing all types of removable media.
 
 ## Why sanitize removable media?
 
@@ -36,7 +36,7 @@ __________________________________________
 
 ## Conclusion
 
-In conclusion, **sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons.** NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. **Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.**
+Wrapping up, **sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons.** NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. **Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.**
 
-**It's important to note that sanitizing removable media is only one aspect of a comprehensive data security strategy.** Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
+**Note that sanitizing removable media is only one aspect of a comprehensive data security strategy.** Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
 

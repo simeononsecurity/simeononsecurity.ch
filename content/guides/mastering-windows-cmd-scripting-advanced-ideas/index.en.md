@@ -16,7 +16,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 ## Introduction
 
-In the world of cybersecurity and IT management, **command-line scripting** is an indispensable skill. Windows Command Prompt, commonly known as CMD, provides a powerful interface for interacting with the operating system and executing various tasks. This article delves into advanced concepts within CMD, focusing on **tasklist**, running processes in the background using the `&` symbol, and **disowning** processes. By understanding these ideas, you can enhance your efficiency and effectiveness in system administration, troubleshooting, and automation.
+In the world of cybersecurity and IT management, **command-line scripting** is an indispensable skill. Windows Command Prompt, commonly known as CMD, provides a powerful interface for interacting with the operating system and executing various tasks. This article digs into advanced concepts within CMD, focusing on **tasklist**, running processes in the background using the `&` symbol, and **disowning** processes. By understanding these ideas, you can enhance your efficiency and effectiveness in system administration, troubleshooting, and automation.
 
 ## Tasklist: Gaining Insights into System Processes
 
@@ -51,9 +51,9 @@ Imagine a scenario where you are overseeing a critical system update. You execut
 
 ### Aiding IT Management and Troubleshooting
 
-In the realm of **IT management** and **troubleshooting**, the ability to execute background processes provides invaluable advantages. **Cybersecurity professionals** can initiate resource-intensive scans while concurrently investigating potential issues using the same terminal window. This streamlined approach minimizes disruption and fosters a more efficient and proactive approach to IT management.
+In **IT management** and **troubleshooting**, the ability to execute background processes provides invaluable advantages. **Cybersecurity professionals** can initiate resource-intensive scans while concurrently investigating potential issues using the same terminal window. This streamlined approach minimizes disruption and fosters a more efficient and proactive approach to IT management.
 
-In summary, mastering the **tasklist** command and leveraging background execution techniques with the `&` symbol empowers IT professionals to perform tasks seamlessly and efficiently. This knowledge not only simplifies multitasking but also contributes to enhanced resource utilization and proactive system administration.
+To sum up, mastering the **tasklist** command and using background execution techniques with the `&` symbol empowers IT professionals to perform tasks seamlessly and efficiently. This knowledge not only simplifies multitasking but also contributes to enhanced resource use and proactive system administration.
 
 
 ## Disown: Detaching Processes from the Terminal
@@ -72,7 +72,7 @@ Detaching processes from the terminal proves incredibly useful in scenarios wher
 
 ### Integrating into IT Management
 
-In the realm of **IT management** and **cybersecurity**, leveraging the disowning concept can bring notable benefits. Picture a scenario where you're running vulnerability scans on multiple servers. By utilizing `start /b`, you can initiate scans simultaneously while keeping your terminal available for additional tasks. This approach optimizes your resource utilization and empowers you to stay agile in managing various systems.
+In **IT management** and **cybersecurity**, using the disowning concept can bring notable benefits. Picture a scenario where you're running vulnerability scans on multiple servers. By using `start /b`, you can initiate scans simultaneously while keeping your terminal available for additional tasks. This approach optimizes your resource use and empowers you to stay agile in managing various systems.
 
 ### Making the Most of Automation
 
@@ -80,7 +80,7 @@ In the realm of **IT management** and **cybersecurity**, leveraging the disownin
 
 ## Benefits in Cybersecurity and IT Management
 
-Mastering these advanced CMD concepts offers several advantages in the realm of cybersecurity and IT management.
+Mastering these advanced CMD concepts offers several advantages in cybersecurity and IT management.
 
 - **Efficient Resource Management**: With the `tasklist` command, you can identify resource-hogging processes, potentially indicating malware or performance bottlenecks.
 - **Quick Troubleshooting**: Running processes in the background enables you to maintain an interactive CMD session while simultaneously executing diagnostic scripts or commands.

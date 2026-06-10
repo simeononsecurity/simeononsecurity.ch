@@ -16,7 +16,7 @@ Asking questions is an essential skill for learning and growth. It can help us g
 
 ## Do Your Research First
 
-Before asking a question, it's essential to do some research to see if the answer can be easily found online. With the abundance of information available at our fingertips, it's likely that someone else has already asked the same question and received an answer. If the answer is readily available on a search engine, it's best to avoid asking the question.
+Before asking a question, you need to do some research to see if the answer can be easily found online. With the abundance of information available at our fingertips, it's likely that someone else has already asked the same question and received an answer. If the answer is readily available on a search engine, it's best to avoid asking the question.
 
 That being said, not all questions have clear-cut answers. Some may require more in-depth research, or the answer may not be available online. In these cases, asking for guidance on where to find the answer can be appropriate.
 
@@ -46,4 +46,4 @@ For example, if you're in a meeting with a busy executive, avoid asking question
 
 ## Conclusion
 
-In conclusion, asking effective questions is a valuable skill that can help us gain knowledge, solve problems, and spark new ideas. By doing our research, asking specific and focused questions, seeking opinions and experiences, using questions to spark deeper conversations, and being respectful of the person's time, we can make the most out of our interactions and conversations, and avoid wasting time on irrelevant or unproductive questions.
+Wrapping up, asking effective questions is a valuable skill that can help us gain knowledge, solve problems, and spark new ideas. By doing our research, asking specific and focused questions, seeking opinions and experiences, using questions to spark deeper conversations, and being respectful of the person's time, we can make the most out of our interactions and conversations, and avoid wasting time on irrelevant or unproductive questions.

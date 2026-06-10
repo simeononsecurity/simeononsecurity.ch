@@ -58,7 +58,7 @@ Familiarize yourself with the ASVS requirements for the chosen level of verifica
 
 ### Step 3: Integrate Security into Your Development Process
 
-Incorporate security best practices throughout your development lifecycle, including design, coding, testing, and deployment. Utilize tools like [OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) to identify vulnerabilities in third-party libraries.
+Incorporate security best practices throughout your development lifecycle, including design, coding, testing, and deployment. use tools like [OWASP ZAP](https://www.zaproxy.org/) for automated security testing and [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) to identify vulnerabilities in third-party libraries.
 
 ### Step 4: Perform Security Assessments
 

@@ -13,7 +13,7 @@ coverCaption: "Unlocking Fortified Code: Safeguarding Your .NET Applications"
 
 ## Introduction
 
-The Microsoft .NET Framework 4.0 is a versatile platform for developing and executing applications on Windows systems. However, with its power and capabilities come security considerations that need careful attention. In this article, we will delve into the key security findings outlined in the **"Microsoft .NET Framework 4.0 Security Technical Implementation Guide"** and discuss best practices to address them.
+The Microsoft .NET Framework 4.0 is a versatile platform for developing and executing applications on Windows systems. However, with its power and capabilities come security considerations that need careful attention. In this article, we will dig into the key security findings outlined in the **"Microsoft .NET Framework 4.0 Security Technical Implementation Guide"** and discuss best practices to address them.
 
 ## Microsoft .NET Framework 4.0 Security Technical Implementation Guide
 
@@ -55,7 +55,7 @@ foreach ($version in $installedVersions) {
 
 ### Authentication and Encryption for Remoting Services HTTP Channels (V-225228 	APPNET0060 	SV-225228r615940_rule)
 
-To enhance the security of .NET remoting services, it's crucial to utilize **authentication and encryption** for HTTP channels. This guards against unauthorized access and data interception. Microsoft recommends transitioning to Windows Communication Framework (WCF) due to its improved security features, minimizing reliance on outdated .NET remoting capabilities.
+To enhance the security of .NET remoting services, you need to use **authentication and encryption** for HTTP channels. This guards against unauthorized access and data interception. Microsoft recommends transitioning to Windows Communication Framework (WCF) due to its improved security features, minimizing reliance on outdated .NET remoting capabilities.
 
 #### Script to Detect HTTP Remoting Channel Configuration
 
@@ -115,7 +115,7 @@ foreach ($dotNetVersion in $dotNetVersions) {
 
 ### Supported .NET Framework Versions (V-225229 APPNET0061 SV-225229r615940_rule)
 
-Using unsupported .NET Framework versions introduces risks and violates DoD policies. Applications running on unsupported versions pose security vulnerabilities to the system, network, and enclave. Ensuring that **only supported .NET Framework versions** are utilized is essential for maintaining a secure environment.
+Using unsupported .NET Framework versions introduces risks and violates DoD policies. Applications running on unsupported versions pose security vulnerabilities to the system, network, and enclave. Ensuring that **only supported .NET Framework versions** are used is essential for maintaining a secure environment.
 
 Here is a PowerShell script to help you detect unsupported versions:
 
@@ -138,7 +138,7 @@ foreach ($version in $installedVersions) {
 
 ### Disabling TLS RC4 Cipher (V-225238 APPNET0075 SV-225238r849750_rule)
 
-The use of the RC4 cipher in TLS can expose systems to man-in-the-middle attacks and plaintext recovery. For applications targeting .NET version 4.x, it's crucial to disable the **TLS RC4 cipher** to prevent potential security breaches.
+The use of the RC4 cipher in TLS can expose systems to man-in-the-middle attacks and plaintext recovery. For applications targeting .NET version 4.x, you need to disable the **TLS RC4 cipher** to prevent potential security breaches.
 
 Here is a PowerShell Script to disable the TLS RC4 Cipher across all installed versions of .Net:
 

@@ -3,7 +3,7 @@ title: "Do you really need a degree to get into Cyber Security and System Admini
 date: 2023-02-12
 toc: true
 draft: false
-description:  "This article explores the benefits and drawbacks of obtaining a degree in the fields of cybersecurity and system administration, including job opportunities, certifications, time, and cost considerations."
+description: "This article explores the benefits and drawbacks of obtaining a degree in the fields of cybersecurity and system administration, including job opportunities, certifications, time, and cost considerations."
 tags: ["cybersecurity", "system administration", "degree", "certifications", "career advancement", "salary potential", "time and cost", "government jobs", "self-taught", "online training", "CompTIA certifications"]
 cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
 coverAlt: "An image of a person sitting at a desk with a computer in front of them, surrounded by books, online resources, and certification materials, symbolizing the different paths to gaining knowledge and expertise in cybersecurity and system administration. "
@@ -38,9 +38,9 @@ Getting a bachelor's degree in cybersecurity and system administration can take 
 
 ## Conclusion
 
-In conclusion, the decision to get a degree in cybersecurity and system administration is a personal one and depends on your career goals and financial situation. If you're just starting out and need guidance, a college degree can provide structure and certifications. However, if you're more self-motivated and prefer to learn on your own, certifications may be a better option. Ultimately, the most important thing is to continuously educate yourself and stay up-to-date on the latest developments in the field.
+Wrapping up, the decision to get a degree in cybersecurity and system administration is a personal one and depends on your career goals and financial situation. If you're just starting out and need guidance, a college degree can provide structure and certifications. However, if you're more self-motivated and prefer to learn on your own, certifications may be a better option. Ultimately, the most important thing is to continuously educate yourself and stay up-to-date on the latest developments in the field.
 
-It's important to note that while having a degree in cybersecurity and system administration may be preferred in certain job positions, it doesn't guarantee success or job security in the field. Employers are increasingly considering skills and experience over degrees, and there are many successful professionals in these fields who are self-taught or have gained certifications on their own. 
+Note that while having a degree in cybersecurity and system administration may be preferred in certain job positions, it doesn't guarantee success or job security in the field. Employers are increasingly considering skills and experience over degrees, and there are many successful professionals in these fields who are self-taught or have gained certifications on their own. 
 
 At the end of the day, what matters most is that you have the skills and knowledge necessary to do the job. Whether you gain that through a formal education or through self-study and certifications, the most important thing is to stay up-to-date on the latest trends, threats, and technologies in the field. 
 

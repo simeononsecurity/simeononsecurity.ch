@@ -12,7 +12,7 @@ coverCaption: ""
 {{< youtube id="GVv833KHqZc" >}}
 
 
-In today's digital world, it is more important than ever to be able to identify **phishing** emails, texts, and calls. These fraudulent messages are designed to steal your personal information, such as your passwords, credit card numbers, or social security number. Here are some tips on how to identify phishing attempts, so you can keep your information safe.
+These days it is more important than ever to be able to identify **phishing** emails, texts, and calls. These fraudulent messages are designed to steal your personal information, such as your passwords, credit card numbers, or social security number. Here are some tips on how to identify phishing attempts, so you can keep your information safe.
 
 ## Remembering
 

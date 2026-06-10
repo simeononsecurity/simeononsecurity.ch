@@ -392,12 +392,12 @@ As cellular networks transition to 5G technology, questions arise about **Rayhun
 ### Why Rayhunter Remains Effective in 5G Networks
 
 #### Downgrade Attack Persistence
-The fundamental attack vector that **Rayhunter** detects—forcing devices to connect to less secure networks—remains highly relevant in 5G deployments. **IMSI catchers continue to rely on 2G and 3G downgrade attacks** because:
+The fundamental attack vector that **Rayhunter** detects - forcing devices to connect to less secure networks - remains highly relevant in 5G deployments. **IMSI catchers continue to rely on 2G and 3G downgrade attacks** because:
 
 - **Lower implementation costs**: Building surveillance equipment for older protocols requires significantly less investment than developing 5G-capable systems
 - **Broader device compatibility**: Targeting 2G/3G ensures surveillance works against older devices that may not support 5G
 - **Established attack methodologies**: Surveillance techniques for 2G/3G networks are well-documented and tested
-- **Regulatory advantages**: Some older surveillance technologies may face fewer legal restrictions than cutting-edge 5G interception methods
+- **Regulatory advantages**: Some older surveillance technologies may face fewer legal restrictions than advanced 5G interception methods
 
 #### Network Backward Compatibility
 5G networks maintain **backward compatibility with 4G/LTE**, and most mobile devices support multiple generations simultaneously. This compatibility creates ongoing opportunities for the downgrade attacks that **Rayhunter** specializes in detecting:
@@ -426,7 +426,7 @@ The **slow rollout of comprehensive 5G coverage** ensures **Rayhunter** remains 
 **Rayhunter** cannot detect **native 5G IMSI catcher operations** that don't rely on downgrade attacks:
 
 - **5G standalone (SA) networks**: When devices connect to pure 5G networks without falling back to 4G, **Rayhunter** cannot monitor these communications
-- **Advanced 5G surveillance equipment**: Sophisticated threat actors with access to cutting-edge technology could potentially intercept 5G communications without triggering **Rayhunter's** detection heuristics
+- **Advanced 5G surveillance equipment**: Sophisticated threat actors with access to advanced technology could potentially intercept 5G communications without triggering **Rayhunter's** detection heuristics
 - **Network slicing exploitation**: 5G network slicing capabilities could potentially be abused for surveillance purposes in ways that **Rayhunter** cannot detect
 
 #### Enhanced 5G Security Features

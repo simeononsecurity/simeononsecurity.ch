@@ -22,15 +22,15 @@ In the world of networking, understanding the protocols and models that govern c
 The **OSI model** is a conceptual framework that describes how network protocols interact and enable communication between different systems. It consists of seven layers, each with its own unique responsibilities.
 
 
-| OSI Layer      | Layer Description                                             | Examples            | Protocols                                      | Standards                                   |
+| OSI Layer | Layer Description | Examples | Protocols | Standards |
 |----------------|---------------------------------------------------------------|---------------------|------------------------------------------------|---------------------------------------------|
-| Physical Layer | Deals with physical transmission of data                       | Cables, connectors  | Ethernet, USB, HDMI                           | IEEE 802.3, USB 3.0                          |
-| Data Link Layer| Ensures reliable transfer of data between adjacent nodes       | Switches, NICs      | Ethernet, Wi-Fi (802.11), PPP                  | IEEE 802.3, IEEE 802.11, RFC 1662            |
-| Network Layer  | Routes data packets across different networks                 | Routers             | IP, ICMP, ARP                                  | IPv4 (RFC 791), IPv6 (RFC 2460), ARP (RFC 826)|
-| Transport Layer| Provides reliable end-to-end data delivery                    | Gateways            | TCP, UDP                                       | TCP (RFC 793), UDP (RFC 768)                 |
-| Session Layer  | Manages communication sessions between applications           | NetBIOS             | NetBIOS, SIP                                   | RFC 1001, RFC 1002, RFC 3261                 |
-| Presentation Layer | Deals with syntax and semantics of information exchange     | SSL, HTTP           | SSL/TLS, HTTP                                  | SSL/TLS (RFC 5246), HTTP (RFC 2616)          |
-| Application Layer| Interacts directly with end-user applications                 | Web browsers, email clients | HTTP, FTP, SMTP, DNS                  | HTTP (RFC 2616), FTP (RFC 959), SMTP (RFC 5321), DNS (RFC 1035) |
+| Physical Layer | Deals with physical transmission of data | Cables, connectors | Ethernet, USB, HDMI | IEEE 802.3, USB 3.0 |
+| Data Link Layer| Ensures reliable transfer of data between adjacent nodes | Switches, NICs | Ethernet, Wi-Fi (802.11), PPP | IEEE 802.3, IEEE 802.11, RFC 1662 |
+| Network Layer | Routes data packets across different networks | Routers | IP, ICMP, ARP | IPv4 (RFC 791), IPv6 (RFC 2460), ARP (RFC 826)|
+| Transport Layer| Provides reliable end-to-end data delivery | Gateways | TCP, UDP | TCP (RFC 793), UDP (RFC 768) |
+| Session Layer | Manages communication sessions between applications | NetBIOS | NetBIOS, SIP | RFC 1001, RFC 1002, RFC 3261 |
+| Presentation Layer | Deals with syntax and semantics of information exchange | SSL, HTTP | SSL/TLS, HTTP | SSL/TLS (RFC 5246), HTTP (RFC 2616) |
+| Application Layer| Interacts directly with end-user applications | Web browsers, email clients | HTTP, FTP, SMTP, DNS | HTTP (RFC 2616), FTP (RFC 959), SMTP (RFC 5321), DNS (RFC 1035) |
 
 {{< youtube id="0y6FtKsg6J4" >}}
 
@@ -69,12 +69,12 @@ The **Application Layer** is the topmost layer of the OSI model and interacts di
 While the OSI model provides a conceptual framework, the TCP IP model is the actual protocol suite used on the Internet. It comprises four layers, which align with certain layers of the OSI model.
 
 
-| TCP IP Layer        | Layer Description                                             | Examples            | Protocols                                       |
+| TCP IP Layer | Layer Description | Examples | Protocols |
 |---------------------|---------------------------------------------------------------|---------------------|-------------------------------------------------|
-| Network Interface Layer | Handles physical transmission of data                      | NICs, Ethernet cables  | Ethernet, Wi-Fi (802.11)                       |
-| Internet Layer      | Responsible for addressing, routing, and fragmenting data     | Routers             | IP, ICMP, ARP                                   |
-| Transport Layer     | Provides reliable and connection-oriented communication      | Gateways            | TCP, UDP                                        |
-| Application Layer   | Represents the interface between applications and protocols   | Web browsers, email clients | HTTP, FTP, SMTP, DNS                   |
+| Network Interface Layer | Handles physical transmission of data | NICs, Ethernet cables | Ethernet, Wi-Fi (802.11) |
+| Internet Layer | Responsible for addressing, routing, and fragmenting data | Routers | IP, ICMP, ARP |
+| Transport Layer | Provides reliable and connection-oriented communication | Gateways | TCP, UDP |
+| Application Layer | Represents the interface between applications and protocols | Web browsers, email clients | HTTP, FTP, SMTP, DNS |
 
 {{< youtube id="OTwp3xtd4dg" >}}
 

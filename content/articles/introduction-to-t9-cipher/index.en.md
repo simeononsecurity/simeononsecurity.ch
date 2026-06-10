@@ -20,7 +20,7 @@ The T9 cipher is a cryptographic algorithm that was widely used in mobile phones
 
 The T9 cipher was developed by Tegic Communications in the late 1990s as a predictive text input technology. It was designed to simplify the process of typing on the small numeric keypads of early mobile phones. The name "T9" stands for "Text on 9 keys," referring to the nine numeric keys on a phone keypad.
 
-Tegic Communications, a subsidiary of AOL, released the first version of the T9 software in 1999. It quickly gained popularity among mobile phone manufacturers due to its ability to accelerate text input and reduce the number of keypresses required to type a message. The T9 software utilized a predictive algorithm to guess the intended word based on the sequence of keypresses.
+Tegic Communications, a subsidiary of AOL, released the first version of the T9 software in 1999. It quickly gained popularity among mobile phone manufacturers due to its ability to accelerate text input and reduce the number of keypresses required to type a message. The T9 software used a predictive algorithm to guess the intended word based on the sequence of keypresses.
 
 ## How T9 Cipher Works
 
@@ -36,7 +36,7 @@ The T9 cipher employs a modified version of the multi-tap input method. Each key
 
 The T9 software uses a combination of statistical analysis and pattern matching to predict the intended word. It takes into account the frequency of word usage, the probability of letter combinations, and the context of the text being typed. These factors help the T9 software make accurate predictions and provide relevant suggestions to the user.
 
-To improve efficiency, the T9 software employs a number of optimization techniques. It uses compression algorithms to store the mapping of letters to keys in a compact format, reducing memory requirements. The software also utilizes efficient data structures and algorithms to quickly search the dictionary and retrieve word suggestions.
+To improve efficiency, the T9 software employs a number of optimization techniques. It uses compression algorithms to store the mapping of letters to keys in a compact format, reducing memory requirements. The software also uses efficient data structures and algorithms to quickly search the dictionary and retrieve word suggestions.
 
 ## Advantages and Limitations of the T9 Cipher
 

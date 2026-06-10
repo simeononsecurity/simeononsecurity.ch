@@ -52,7 +52,7 @@ except (ValueError, SyntaxError):
 
 ### String Concatenation with Unsanitized Data
 
-Concatenating strings with unsanitized user inputs can result in **SQL injection** or **cross-site scripting (XSS)** vulnerabilities. Utilize **f-strings** or the **`str.format()`** method along with **input validation** to prevent these security issues.
+Concatenating strings with unsanitized user inputs can result in **SQL injection** or **cross-site scripting (XSS)** vulnerabilities. use **f-strings** or the **`str.format()`** method along with **input validation** to prevent these security issues.
 
 #### Unsafe string concatenation:
 
@@ -93,7 +93,7 @@ serialized_data = json.dumps(data)
 
 ### Insufficiently Escaped HTML with `mark_safe()`
 
-The **`mark_safe()`** function in Django allows developers to mark a string as safe HTML, potentially exposing applications to **cross-site scripting (XSS) attacks**. Instead, utilize template escaping and the **`safe`** filter to ensure secure rendering of HTML content.
+The **`mark_safe()`** function in Django allows developers to mark a string as safe HTML, potentially exposing applications to **cross-site scripting (XSS) attacks**. Instead, use template escaping and the **`safe`** filter to ensure secure rendering of HTML content.
 
 #### Unsafe use of mark_safe() in Django template:
 
@@ -154,7 +154,7 @@ hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
 
 ## **Safer Alternatives and Best Practices**
 
-### Utilizing **`requests`** Instead of `urllib`
+### using **`requests`** Instead of `urllib`
 
 When making HTTP requests, favor the **`requests`** library over the outdated `urllib`. `requests` provides a more user-friendly and secure interface for sending HTTP requests and handling responses.
 

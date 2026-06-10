@@ -12,7 +12,7 @@ coverCaption: ""
 
 **Mastering Linux File Permissions: A Comprehensive Guide to Ensuring a Secure File System**
 
-Linux is a powerful and versatile operating system that offers robust security features, including **file permissions**. Understanding and properly configuring file permissions is essential for maintaining a **secure file system**. In this comprehensive guide, we will delve into the intricacies of Linux file permissions, providing you with the knowledge to master this crucial aspect of system security.
+Linux is a powerful and versatile operating system that offers robust security features, including **file permissions**. Understanding and properly configuring file permissions is essential for maintaining a **secure file system**. In this comprehensive guide, we will dig into the intricacies of Linux file permissions, providing you with the knowledge to master this crucial aspect of system security.
 
 ## Introduction to Linux File Permissions
 
@@ -135,10 +135,10 @@ chmod 1755 directory/
 Here, the leading digit 1 sets the Sticky Bit permission.
 
 ## Best Practices for File Permissions
-To ensure a secure file system, it is essential to follow best practices when configuring file permissions in Linux. Here are some guidelines to keep in mind:
+To ensure a secure file system, you need to follow best practices when configuring file permissions in Linux. Here are some guidelines to keep in mind:
 
 ### Principle of Least Privilege
-The Principle of Least Privilege is a security concept that suggests giving users and processes the minimum level of access required to perform their tasks. When configuring file permissions, it is essential to ensure that each user and group has only the necessary permissions required to perform their tasks.
+The Principle of Least Privilege is a security concept that suggests giving users and processes the minimum level of access required to perform their tasks. When configuring file permissions, you need to ensure that each user and group has only the necessary permissions required to perform their tasks.
 
 ### Regularly Audit File Permissions
 

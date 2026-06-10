@@ -14,7 +14,7 @@ In today's digital age, web development is a rapidly growing field. Websites and
 
 ## Understanding the Basics
 
-Before delving into secure coding practices, it's important to have a basic understanding of the **cybersecurity landscape**. **Cyber attacks** are a constant threat, and as a web developer, you must take the necessary measures to protect your website and user data.
+Before digging into secure coding practices, it's important to have a basic understanding of the **cybersecurity landscape**. **Cyber attacks** are a constant threat, and as a web developer, you must take the necessary measures to protect your website and user data.
 
 ### Common Cyber Attacks
 
@@ -59,7 +59,7 @@ A [**Secure Development Lifecycle (SDLC)**](https://en.wikipedia.org/wiki/System
 
 ### Use Secure Communication Protocols
 
-Web applications should use **secure communication protocols** such as HTTPS to encrypt data in transit. HTTPS ensures that data cannot be intercepted or modified by attackers. Additionally, it's essential to use secure authentication mechanisms such as OAuth, OpenID, or SAML.
+Web applications should use **secure communication protocols** such as HTTPS to encrypt data in transit. HTTPS ensures that data cannot be intercepted or modified by attackers. Additionally, you need to use secure authentication mechanisms such as OAuth, OpenID, or SAML.
 
 ### Implement Access Controls
 
@@ -71,7 +71,7 @@ Sensitive data such as passwords, credit card information, and personal informat
 
 ______
 
-In conclusion, web application security is crucial, and as a web developer, it's your responsibility to ensure that your applications are secure. By following these **secure coding practices** and staying up to date with the latest security threats and countermeasures, you can help protect your website and user data from cyber attacks. Remember, security is not a one-time effort but an ongoing process that requires continuous attention and effort.
+Wrapping up, web application security is crucial, and as a web developer, it's your responsibility to ensure that your applications are secure. By following these **secure coding practices** and staying up to date with the latest security threats and countermeasures, you can help protect your website and user data from cyber attacks. Remember, security is not a one-time effort but an ongoing process that requires continuous attention and effort.
 
 ## References
 

@@ -42,25 +42,25 @@ Check out our guide on [**Triple Mining: Geodnet, Onocoy, and RTKDirect**](https
 ### Recommended Hardware Components
 Before we begin, let's take a look at the hardware components you'll need:
 
-| Item                             | Description                                                                                                  |
+| Item | Description |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **ESP32 Development Board**      | {{< centerbutton href="https://amzn.to/3rEMIjr" >}}AITRIP 2 Sets ESP-WROOM-32 ESP32{{< /centerbutton >}}                  |
-| **Power Supply**                 | {{< centerbutton href="https://amzn.to/3ZOpDao" >}}CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C){{< /centerbutton >}}  |
-| **Adapter Cables**               | Choose one:                                                                                                  |
-|                                  | {{< centerbutton href="https://amzn.to/3PGI5xc" >}}elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables{{< /centerbutton >}}                     |
-|                                  | {{< centerbutton href="https://amzn.to/3PUgiJY" >}}PB1.25 to Dupont 2.54mm Connectors and Cables Kit{{< /centerbutton >}}                               |
-|                                  | {{< centerbutton href="https://www.aliexpress.us/item/3256805267757221.html" >}}2Pcs 1.25mm to 2.54mm dupont cable 1pin female{{< /centerbutton >}} **Choose the 4P Option** |
-| **Enclosure Kit**                | {{< centerbutton href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /centerbutton >}}     |
-| **GNSS Receiver Board**          | Choose one:                                                                                                  |
-|                                  | {{< centerbutton href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}} UM980 RTK InCase PIN GNSS receiver board with USB C{{< /centerbutton >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** 
-|                                  | If you choose this option, you'll need some {{< centerbutton href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /centerbutton >}}. |
-|                                  | {{< centerbutton href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /centerbutton >}} |
-| **Firmware**                     | {{< centerbutton href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /centerbutton >}}                               |
-| **Alternative Firmware**         | {{< centerbutton href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /centerbutton >}} (Untested by us but suggested by the community) |
+| **ESP32 Development Board** | {{< centerbutton href="https://amzn.to/3rEMIjr" >}}AITRIP 2 Sets ESP-WROOM-32 ESP32{{< /centerbutton >}} |
+| **Power Supply** | {{< centerbutton href="https://amzn.to/3ZOpDao" >}}CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C){{< /centerbutton >}} |
+| **Adapter Cables** | Choose one: |
+| | {{< centerbutton href="https://amzn.to/3PGI5xc" >}}elechawk 9 PCS 1.25mm to Dupont 2.54mm Pitch Adapter Cables{{< /centerbutton >}} |
+| | {{< centerbutton href="https://amzn.to/3PUgiJY" >}}PB1.25 to Dupont 2.54mm Connectors and Cables Kit{{< /centerbutton >}} |
+| | {{< centerbutton href="https://www.aliexpress.us/item/3256805267757221.html" >}}2Pcs 1.25mm to 2.54mm dupont cable 1pin female{{< /centerbutton >}} **Choose the 4P Option** |
+| **Enclosure Kit** | {{< centerbutton href="https://amzn.to/3PIvwl7" >}}qBoxMini DIY IOT Enclosure Plus Kit (One SMA){{< /centerbutton >}} |
+| **GNSS Receiver Board** | Choose one: |
+| | {{< centerbutton href="https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex" >}} UM980 RTK InCase PIN GNSS receiver board with USB C{{< /centerbutton >}} **Use discount code `SIMEONSECURITY_GNSS` for an additional 5% discount.** 
+| | If you choose this option, you'll need some {{< centerbutton href="https://amzn.to/3Q7VKyH" >}}male to male dupont wires{{< /centerbutton >}}. |
+| | {{< centerbutton href="https://www.aliexpress.us/item/3256805781651631.html" >}}Full Frequency Centimeter Level Low-power and High-precision UM980 Module{{< /centerbutton >}} |
+| **Firmware** | {{< centerbutton href="https://github.com/nebkat/esp32-xbee/releases/tag/v0.5.2" >}}ESP32-XBee Firmware{{< /centerbutton >}} |
+| **Alternative Firmware** | {{< centerbutton href="https://github.com/incarvr6/esp32-ntrip" >}}Dual NTRIP Server Firmware Fork{{< /centerbutton >}} (Untested by us but suggested by the community) |
 
 ### **Why we Chose the Unicorecomm UM980: A Comparative Perspective**
 
-In the realm of GNSS modules, the decision-making process can be critical, especially when striving for **precision** and **reliability**. When comparing the **Unicorecomm UM980** with the next place best reciever, the **U-Blox F9P**, it becomes evident that the **UM980** offers distinct advantages that make it a compelling choice.
+In GNSS modules, the decision-making process can be critical, especially when striving for **precision** and **reliability**. When comparing the **Unicorecomm UM980** with the next place best reciever, the **U-Blox F9P**, it becomes evident that the **UM980** offers distinct advantages that make it a compelling choice.
 
 #### **1. Enhanced Performance Under Challenging Conditions**
 
@@ -72,24 +72,24 @@ The **UM980**, particularly when based on [**ELT0214**](https://gnss.store/um982
 
 #### **3. Seamless Compatibility and Integration**
 
-**Unicorecomm's** and **GNSS.STORE's** commitment to compatibility is evident in boards like the [**ELT0221**](https://gnss.store/unicore-gnss-modules/246-151-elt0221.html#/57-connector-sma), [**ELT0214**](https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex), and [**ELT0224**](https://gnss.store/unicore-gnss-modules/249-167-elt0224.html#/18-form_factor-surface_mount/58-connector-ipex), which are **pin-to-pin compatible** with the popular **Ardusimple Micro board**. This compatibility allows for **effortless upgrades** in applications already utilizing **Ardusimple Micro**, such as **Teensy boards** from **AgOpenGPS**. By choosing the **UM980**, you not only gain performance advantages but also the convenience of a **straightforward transition**.
+**Unicorecomm's** and **GNSS.STORE's** commitment to compatibility is evident in boards like the [**ELT0221**](https://gnss.store/unicore-gnss-modules/246-151-elt0221.html#/57-connector-sma), [**ELT0214**](https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex), and [**ELT0224**](https://gnss.store/unicore-gnss-modules/249-167-elt0224.html#/18-form_factor-surface_mount/58-connector-ipex), which are **pin-to-pin compatible** with the popular **Ardusimple Micro board**. This compatibility allows for **effortless upgrades** in applications already using **Ardusimple Micro**, such as **Teensy boards** from **AgOpenGPS**. By choosing the **UM980**, you not only gain performance advantages but also the convenience of a **straightforward transition**.
 
 #### **4. Uncover the Unicorecomm Advantage**
 
-In conclusion, the **Unicorecomm UM980** stands out as a clear choice when compared to the **U-Blox F9P**. Its ability to deliver exceptional performance in challenging environments, offer valuable **heading information**, ensure compatibility, and provide **dedicated support** make it the go-to GNSS module for those seeking the utmost in **precision** and **reliability**. Embrace the **Unicorecomm advantage** and elevate your GNSS applications to new heights with the **UM980**.
+Wrapping up, the **Unicorecomm UM980** stands out as a clear choice when compared to the **U-Blox F9P**. Its ability to deliver exceptional performance in challenging environments, offer valuable **heading information**, ensure compatibility, and provide **dedicated support** make it the go-to GNSS module for those seeking the utmost in **precision** and **reliability**. Embrace the **Unicorecomm advantage** and elevate your GNSS applications to new heights with the **UM980**.
 
 ### Recommended Antennas
 ### Basic Antennas for RTK, ROVER, Window Situations
-| Item                             | Description                                                                                                  |
+| Item | Description |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
-| {{< centerbutton href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /centerbutton >}}        | Basic, simple, not the best, but it works.                                                                   |
-| {{< centerbutton href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna{{< /centerbutton >}} | Outdoor Rated, Cheap, Allows view of the Sky.                                                                |
-| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna{{< /centerbutton >}} | For RTK Clients. Ex. Drones or Robots.                                                                       |
+| {{< centerbutton href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /centerbutton >}} | Basic, simple, not the best, but it works. |
+| {{< centerbutton href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna{{< /centerbutton >}} | Outdoor Rated, Cheap, Allows view of the Sky. |
+| {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna{{< /centerbutton >}} | For RTK Clients. Ex. Drones or Robots. |
 | {{< centerbutton href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit{{< /centerbutton >}} | This is only recommended for those who cannot properly install the antennas below. It will underperform against the others. |
 
 
 ### Advanced Antennas for Base and Reciver Stations
-| Item                             | Description                                                                                                  |
+| Item | Description |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
 | {{< centerbutton href="https://amzn.to/47MWdxa" >}} Beitian High Gain High Precision GPS/GNSS Antenna {{< /centerbutton >}} | **Preferred** High Antenna Gain, High Precision, Builtin Anti-interference, IP67 Rated, High and Low Temp Ratings, UV Resistant Housing, Supports Most Bands. |
 | {{< centerbutton href="https://www.ardusimple.com/product/calibrated-survey-gnss-quadband-antenna-ip67/" >}} Calibrated Survey GNSS Tripleband + L-band antenna (IP67) {{< /centerbutton >}} | **Preferred** Calibrated Quad-Band, Extremely High Precision, Anti-interference, Supports All Bands. |
@@ -113,7 +113,7 @@ Connect to the device via a serial terminal. And run the following commands ment
 - Connect the [ESP32 development board](https://amzn.to/3rEMIjr) to your computer using a [Type-C USB cable](https://amzn.to/3ttZS33).
 
 ### 3. Use Adapter Cables
-Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives as necessary to connect the [UM980](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) to your [ESP32 board](https://amzn.to/3rEMIjr). These cables offer compatibility with various connectors for expanding your project.
+use the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives as necessary to connect the [UM980](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) to your [ESP32 board](https://amzn.to/3rEMIjr). These cables offer compatibility with various connectors for expanding your project.
 
 
 {{< figure src="esp32pinout.jpg" alt="ESP32 Wroom DevKit Full Pinout" caption="ESP32 Wroom DevKit Full Pinout - mischianti.org" link="https://mischianti.org/2021/07/17/esp32-devkitc-v4-high-resolution-pinout-and-specs/" >}}
@@ -138,11 +138,11 @@ Utilize the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives a
 
 For more information on [selecting pins on the esp32](https://circuits4you.com/2018/12/31/esp32-hardware-serial2-example/) click on the linked article or read the table below:
 
-| UART  | RX IO  | TX IO  | CTS    | RTS    |
+| UART | RX IO | TX IO | CTS | RTS |
 |-------|--------|--------|--------|--------|
-| UART0 | GPIO3  | GPIO1  | N/A    | N/A    |
-| UART1 | GPIO9  | GPIO10 | GPIO6  | GPIO11 |
-| UART2 | GPIO16 | GPIO17 | GPIO8  | GPIO7  |
+| UART0 | GPIO3 | GPIO1 | N/A | N/A |
+| UART1 | GPIO9 | GPIO10 | GPIO6 | GPIO11 |
+| UART2 | GPIO16 | GPIO17 | GPIO8 | GPIO7 |
 
 
 ### 4. Employ the Enclosure Kit

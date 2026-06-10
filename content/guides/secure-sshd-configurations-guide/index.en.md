@@ -19,7 +19,7 @@ In an **increasingly digital world**, the security of your server is paramount. 
 
 ## **Introduction**
 
-**Securing SSHD** is essential, especially considering the constant threats and vulnerabilities present in the **digital landscape**. **SSHD** is the primary way to access your server remotely, making it a **prime target for attackers**. Let's delve into the key aspects of **securing SSHD**.
+**Securing SSHD** is essential, especially considering the constant threats and vulnerabilities present in the **digital landscape**. **SSHD** is the primary way to access your server remotely, making it a **prime target for attackers**. Let's dig into the key aspects of **securing SSHD**.
 
 ## **Understanding SSHD**
 
@@ -29,7 +29,7 @@ In an **increasingly digital world**, the security of your server is paramount. 
 
 #### **1. Secure SSHD Configurations with Software Updates**
 
-**Keeping your SSHD software up to date** is the **cornerstone of security** for your server. Outdated **SSHD versions** often harbor **known security vulnerabilities**, which can leave your system exposed to malicious attacks. It's essential to **regularly update your SSHD software** to ensure robust security.
+**Keeping your SSHD software up to date** is the **cornerstone of security** for your server. Outdated **SSHD versions** often harbor **known security vulnerabilities**, which can leave your system exposed to malicious attacks. You need to **regularly update your SSHD software** to ensure robust security.
 
 Example: To update SSHD on an Ubuntu Linux server, use the following command:
 ```bash
@@ -51,7 +51,7 @@ PermitRootLogin no
 
 #### **3. Strengthen Security with Robust Authentication**
 
-In the realm of **Secure SSHD Configurations**, robust authentication is the cornerstone of safeguarding your server. Let's delve into two pivotal methods for achieving this: **strong password policies** and **key-based authentication**.
+In **Secure SSHD Configurations**, robust authentication is the cornerstone of safeguarding your server. Let's dig into two pivotal methods for achieving this: **strong password policies** and **key-based authentication**.
 
 1. [**Strong Password Policies**](https://simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow): Start by enforcing stringent password rules. Craft passwords that are lengthy and encompass a mixture of upper and lower-case letters, numbers, and special characters. Steer clear of easily guessable information, such as birthdays or common words.
 
@@ -112,7 +112,7 @@ AllowUsers yourusername@192.168.1.100
 
 #### 7. Elevate Security with Two-Factor Authentication (2FA)
 
-In the realm of **Secure SSHD Configurations**, an indispensable step is **implementing Two-Factor Authentication (2FA)** for SSH access. This dynamic safeguard adds an additional layer of protection by mandating users to provide a second form of verification alongside their password or key.
+In **Secure SSHD Configurations**, an indispensable step is **implementing Two-Factor Authentication (2FA)** for SSH access. This dynamic safeguard adds an additional layer of protection by mandating users to provide a second form of verification alongside their password or key.
 
 Example: You can set up 2FA for SSH access by following this [2FA setup guide](https://ubuntu.com/tutorials/configure-ssh-2fa). This guide provides clear step-by-step instructions on enabling this enhanced security feature.
 

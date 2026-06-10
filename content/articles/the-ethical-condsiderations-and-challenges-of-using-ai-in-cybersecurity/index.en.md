@@ -21,15 +21,15 @@ The use of AI in cybersecurity presents several **ethical considerations** that 
 
 One of the most significant ethical considerations with AI is **bias**. AI models are only as good as the data they are trained on, and if the data is biased, the AI will be biased too. For example, if an AI system is trained on data that is predominantly from one gender or race, it may be more likely to identify individuals of that gender or race as potential threats, even if they are not. This can lead to discrimination and bias in the cybersecurity process.
 
-To address bias, it is essential to ensure that the data used to train the AI model is diverse and representative of the population it is meant to protect. Additionally, it is important to monitor the AI system for bias and make adjustments as necessary.
+To address bias, you need to ensure that the data used to train the AI model is diverse and representative of the population it is meant to protect. Additionally, it is important to monitor the AI system for bias and make adjustments as necessary.
 
 ### Privacy
 
-AI in cybersecurity involves the use of personal data. It is essential to ensure that the use of personal data is in line with **privacy laws** and regulations. Organizations that use AI in cybersecurity must ensure that the data collected is only used for the intended purpose and is not misused.
+AI in cybersecurity involves the use of personal data. You need to ensure that the use of personal data is in line with **privacy laws** and regulations. Organizations that use AI in cybersecurity must ensure that the data collected is only used for the intended purpose and is not misused.
 
 ### Accountability
 
-AI in cybersecurity can make decisions that affect people's lives, and it is essential to hold someone accountable for those decisions. Organizations that use AI in cybersecurity must have clear policies in place that outline who is responsible for the actions taken by the AI.
+AI in cybersecurity can make decisions that affect people's lives, and you need to hold someone accountable for those decisions. Organizations that use AI in cybersecurity must have clear policies in place that outline who is responsible for the actions taken by the AI.
 
 ## Challenges
 
@@ -37,11 +37,11 @@ The use of AI in cybersecurity also presents several **challenges** that need to
 
 ### Complexity
 
-AI in cybersecurity involves complex algorithms that can be difficult to understand. This complexity makes it challenging to identify errors or biases in the system. It is essential to ensure that the AI system is transparent and can be audited to identify potential errors or biases.
+AI in cybersecurity involves complex algorithms that can be difficult to understand. This complexity makes it challenging to identify errors or biases in the system. You need to ensure that the AI system is transparent and can be audited to identify potential errors or biases.
 
 ### Adaptability
 
-Cybersecurity threats are constantly evolving, and it is essential to ensure that AI systems can adapt to new threats. It is essential to continuously update the AI system to keep up with the latest threats.
+Cybersecurity threats are constantly evolving, and you need to ensure that AI systems can adapt to new threats. You need to continuously update the AI system to keep up with the latest threats.
 
 ### Human Oversight
 

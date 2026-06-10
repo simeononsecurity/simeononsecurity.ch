@@ -18,7 +18,7 @@ Cloudflare Tunnels provide a secure way to host websites by establishing a direc
 ______
 
 ## Why Cloudflare Tunnels?
-Cloudflare Tunnels offer several benefits, including reducing attack vectors and simplifying network configurations. By utilizing Cloudflare as a proxy, you can close off external ports and ensure all traffic goes through Cloudflare's secure network. This provides an additional layer of protection for your website.
+Cloudflare Tunnels offer several benefits, including reducing attack vectors and simplifying network configurations. By using Cloudflare as a proxy, you can close off external ports and ensure all traffic goes through Cloudflare's secure network. This provides an additional layer of protection for your website.
 
 ______
 
@@ -163,7 +163,7 @@ Replace `/path/to/config.yml` with the path to your `config.yml` file.
 
 ## Conclusion
 
-In this guide, we have covered the steps to set up Cloudflare Tunnels on Ubuntu. By following these instructions, you can enhance the security and performance of your website by leveraging Cloudflare's network. Remember to regularly monitor your tunnels and adjust the configuration as needed.
+In this guide, we have covered the steps to set up Cloudflare Tunnels on Ubuntu. By following these instructions, you can enhance the security and performance of your website by using Cloudflare's network. Remember to regularly monitor your tunnels and adjust the configuration as needed.
 
 If you encounter any issues or need further assistance, refer to the [official Cloudflare Tunnels documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/).
 

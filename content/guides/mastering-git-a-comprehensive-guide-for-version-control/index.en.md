@@ -90,7 +90,7 @@ git merge new-feature
 ## Resolving Conflicts
 When merging branches or pulling changes from a remote repository, conflicts may arise if Git cannot automatically determine how to combine the changes. Resolving conflicts requires manual intervention.
 
-Git provides tools to help resolve conflicts, such as the `git mergetool` command, which launches a visual merge tool to assist in the process. It is essential to carefully review and test the merged code before committing.
+Git provides tools to help resolve conflicts, such as the `git mergetool` command, which launches a visual merge tool to assist in the process. You need to carefully review and test the merged code before committing.
 
 ## Git in Collaborative Environments
 Git simplifies collaboration in software development teams. Here are some practices to consider when working with Git in a collaborative environment:

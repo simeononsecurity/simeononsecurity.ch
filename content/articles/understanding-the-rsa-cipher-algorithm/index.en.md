@@ -11,7 +11,7 @@ coverCaption: ""
 ---
 **Demystifying RSA: Understanding the RSA Cipher Algorithm**
 
-RSA is a widely used encryption algorithm that plays a crucial role in securing sensitive information transmitted over networks. It is named after its inventors, Ronald Rivest, Adi Shamir, and Leonard Adleman, who introduced the algorithm in 1977. RSA is an asymmetric encryption algorithm, meaning it uses a pair of keys, a public key for encryption and a private key for decryption. In this article, we will delve into the details of the RSA cipher algorithm, its key components, and how it works to provide secure communication.
+RSA is a widely used encryption algorithm that plays a crucial role in securing sensitive information transmitted over networks. It is named after its inventors, Ronald Rivest, Adi Shamir, and Leonard Adleman, who introduced the algorithm in 1977. RSA is an asymmetric encryption algorithm, meaning it uses a pair of keys, a public key for encryption and a private key for decryption. In this article, we will dig into the details of the RSA cipher algorithm, its key components, and how it works to provide secure communication.
 
 {{< youtube id="qph77bTKJTM" >}}
 
@@ -91,7 +91,7 @@ RSA is widely used for secure communication, such as **encrypted email** and **s
 
 ### Digital Signatures
 
-RSA is also utilized for **digital signatures**. By applying a mathematical operation using the sender's private key, the recipient can verify the integrity and authenticity of the digital document.
+RSA is also used for **digital signatures**. By applying a mathematical operation using the sender's private key, the recipient can verify the integrity and authenticity of the digital document.
 
 ### Secure Web Browsing
 

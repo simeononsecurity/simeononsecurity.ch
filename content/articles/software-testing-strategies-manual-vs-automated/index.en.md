@@ -42,7 +42,7 @@ Software testing is a crucial aspect of the software development life cycle (SDL
 
 {{< youtube id="Nd31XiSGJLw" >}}
 
-**Automated testing** involves using specialized tools and scripts to execute test cases, validate results, and compare them against expected outcomes. It utilizes software to control the execution of tests, record test data, and generate test reports. Automated testing offers several advantages over manual testing.
+**Automated testing** involves using specialized tools and scripts to execute test cases, validate results, and compare them against expected outcomes. It uses software to control the execution of tests, record test data, and generate test reports. Automated testing offers several advantages over manual testing.
 
 ### Advantages of Automated Testing
 
@@ -64,7 +64,7 @@ ______
 
 ## Conclusion
 
-In conclusion, both **manual testing** and **automated testing** have their own merits and drawbacks. The choice between the two depends on various factors such as project requirements, budget, timelines, and the type of software being tested.
+Wrapping up, both **manual testing** and **automated testing** have their own merits and drawbacks. The choice between the two depends on various factors such as project requirements, budget, timelines, and the type of software being tested.
 
 Manual testing is well-suited for exploratory testing, validating the user experience, and scenarios that require adaptability and human intuition. It provides valuable insights into the software application but can be time-consuming and resource-intensive.
 

@@ -13,7 +13,7 @@ coverCaption: "Secure your Windows fortress with effective hardening techniques.
 
 ## Introduction
 
-Windows operating systems are widely used by individuals and organizations around the world. To ensure the security and integrity of these systems, it is essential to implement **Windows hardening best practices**. Hardening involves securing the operating system by reducing its attack surface and mitigating potential vulnerabilities. This article will explore the best practices for hardening both **Windows 10** and the newer **Windows 11** operating systems, providing valuable insights to enhance the security of your Windows environment.
+Windows operating systems are widely used by individuals and organizations around the world. To ensure the security and integrity of these systems, you need to implement **Windows hardening best practices**. Hardening involves securing the operating system by reducing its attack surface and mitigating potential vulnerabilities. This article will explore the best practices for hardening both **Windows 10** and the newer **Windows 11** operating systems, providing valuable insights to enhance the security of your Windows environment.
 
 ______
 
@@ -37,7 +37,7 @@ To enable Windows Defender, follow these steps:
 - Ensure that the "**Real-time protection**" toggle switch is set to "**On**". This enables Windows Defender to actively scan and protect your system in real-time.
 - Additionally, you can customize the scan options and exclusions by clicking on "**Scan options**" and "**Add or remove exclusions**", respectively.
 
-It is crucial to **regularly update** Windows Defender to ensure it has the latest **malware definitions** and **security enhancements**. Microsoft releases regular updates to address new threats and vulnerabilities. To update Windows Defender, you can follow these steps:
+You need to **regularly update** Windows Defender to ensure it has the latest **malware definitions** and **security enhancements**. Microsoft releases regular updates to address new threats and vulnerabilities. To update Windows Defender, you can follow these steps:
 
 - Open the Windows Security app.
 - Go to "**Virus & threat protection**" in the left-hand navigation pane.
@@ -46,7 +46,7 @@ It is crucial to **regularly update** Windows Defender to ensure it has the late
 
 By enabling and keeping Windows Defender up to date, you can proactively protect your Windows 10 system from malware and other security threats. It is also recommended to perform **regular system scans** using Windows Defender to ensure the detection and removal of any potential threats.
 
-Remember, while Windows Defender provides a solid level of protection, it is essential to complement it with **safe browsing habits**, **regular software updates**, and other security measures to maintain a secure Windows 10 environment.
+Remember, while Windows Defender provides a solid level of protection, you need to complement it with **safe browsing habits**, **regular software updates**, and other security measures to maintain a secure Windows 10 environment.
 
 #### 2. [**Keep Windows 10 Updated**](https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2)
 Regularly installing Windows updates is a critical aspect of **hardening Windows 10**. These updates include **security patches**, bug fixes, and performance improvements that help **patch security vulnerabilities** and improve system stability.
@@ -66,7 +66,7 @@ To keep Windows 10 updated, you can follow these steps:
    - Click on **"Check for updates"** to see if any updates are available for your system.
    - If updates are found, click on **"Download"** and **"Install"** to initiate the installation process.
 
-It is essential to emphasize the importance of **regularly restarting your system** after installing updates. Some updates may require a system restart to fully apply the changes and ensure their effectiveness.
+You need to emphasize the importance of **regularly restarting your system** after installing updates. Some updates may require a system restart to fully apply the changes and ensure their effectiveness.
 
 By **keeping your Windows 10 system updated**, you not only enhance its security but also benefit from the latest features, performance improvements, and compatibility fixes. It is a proactive measure to ensure that your system remains resilient against potential security threats.
 
@@ -131,7 +131,7 @@ To enable BitLocker encryption and safeguard your sensitive information, follow 
 
 3. **Choose Encryption Options**: During the BitLocker setup, you will have the option to choose between different encryption methods, such as using a password, a smart card, or both. Select the appropriate method based on your security requirements and preferences.
 
-4. **Backup Recovery Key**: It is crucial to back up the BitLocker recovery key. This key acts as a failsafe in case you forget your password or encounter any issues accessing the encrypted drive. Store the recovery key in a secure location separate from your device.
+4. **Backup Recovery Key**: You need to back up the BitLocker recovery key. This key acts as a failsafe in case you forget your password or encounter any issues accessing the encrypted drive. Store the recovery key in a secure location separate from your device.
 
 5. **Manage BitLocker Settings**: After enabling BitLocker, you can customize additional settings, such as auto-unlock for specific drives or configuring the use of TPM (Trusted Platform Module) for added security. These settings can be accessed through the BitLocker management interface.
 
@@ -142,7 +142,7 @@ For more detailed information on enabling and managing BitLocker encryption, you
 Remember, enabling BitLocker encryption helps safeguard your sensitive data and provides peace of mind, knowing that your information is secure even in the event of loss or theft.
 
 #### 6. **Disable Unnecessary Services and Features**
-To enhance the security of your Windows 10 system, it is essential to review and disable any unnecessary services and features. By doing so, you reduce the attack surface and minimize the potential for exploitation by malicious actors.
+To enhance the security of your Windows 10 system, you need to review and disable any unnecessary services and features. By doing so, you reduce the attack surface and minimize the potential for exploitation by malicious actors.
 
 Here are the steps to disable unnecessary services and features on your Windows 10 system:
 
@@ -152,13 +152,13 @@ Here are the steps to disable unnecessary services and features on your Windows 
 
 3. **Disable Unnecessary Features**: In addition to services, Windows 10 also includes various features that may not be necessary for your system. Open the **Control Panel**, navigate to **Programs** or **Programs and Features**, and click on **Turn Windows features on or off**. Uncheck any features that you do not require. This step helps reduce the attack surface further and minimizes the resources consumed by unnecessary features.
 
-4. **Regularly Review and Update**: It is crucial to regularly review the list of services and features enabled on your Windows 10 system. As your system's requirements change over time, you may need to re-evaluate the services and features that are necessary. Stay vigilant and update your configuration as needed.
+4. **Regularly Review and Update**: You need to regularly review the list of services and features enabled on your Windows 10 system. As your system's requirements change over time, you may need to re-evaluate the services and features that are necessary. Stay vigilant and update your configuration as needed.
 
 By disabling unnecessary services and features, you limit the potential entry points for attackers and reduce the overall attack surface of your Windows 10 system. This practice improves your system's security posture and mitigates the risk of exploitation.
 
 For more information on managing services and features in Windows 10, you can refer to the following [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) for detailed guidance.
 
-Remember, it is crucial to exercise caution when disabling services and features, as disabling essential components can negatively impact your system's functionality. Always research and understand the purpose of a service or feature before making any changes.
+Remember, you need to exercise caution when disabling services and features, as disabling essential components can negatively impact your system's functionality. Always research and understand the purpose of a service or feature before making any changes.
 
 #### 7. **Implement Firewall Rules**
 The built-in firewall in Windows 10 acts as a crucial line of defense against unauthorized network traffic. By configuring firewall rules, you can control which inbound and outbound connections are allowed, thereby enhancing the security of your system.
@@ -192,7 +192,7 @@ Follow these steps to use AppLocker on your Windows 10 system:
 
 4. **Test and Refine Policies**: After creating AppLocker rules, it is important to test them to ensure they function as intended. Deploy the policies to a test group or system and verify that only authorized applications are allowed to run. Make any necessary refinements to the rules based on the test results.
 
-5. **Regularly Review and Update**: As your application landscape evolves, it is crucial to regularly review and update your AppLocker policies. New applications may require permission to run, while others may become obsolete or pose security risks. Stay proactive and keep your policies up to date to maintain an effective application control mechanism.
+5. **Regularly Review and Update**: As your application landscape evolves, you need to regularly review and update your AppLocker policies. New applications may require permission to run, while others may become obsolete or pose security risks. Stay proactive and keep your policies up to date to maintain an effective application control mechanism.
 
 AppLocker provides granular control over application execution, helping you prevent unauthorized or malicious software from running on your Windows 10 system. By using AppLocker, you can reduce the risk of malware infections, unauthorized software installations, and other security incidents.
 
@@ -332,7 +332,7 @@ To use Windows Sandbox, follow these steps:
    - Click on the **"Windows Sandbox"** application to open it.
    - The Sandbox will launch in a separate window, providing you with a secure environment to run untrusted applications or test software.
 
-While running applications in Windows Sandbox, keep in mind that the Sandbox environment is isolated and designed to discard any changes made inside it. Therefore, it's crucial to save your files or data outside of the Sandbox if you need to retain them.
+While running applications in Windows Sandbox, keep in mind that the Sandbox environment is isolated and designed to discard any changes made inside it. Therefore, you need to save your files or data outside of the Sandbox if you need to retain them.
 
 Windows Sandbox is an effective tool for testing unknown software, opening suspicious files, or exploring potentially risky websites. It adds an extra layer of protection by ensuring that any malicious activity or unwanted changes are confined within the Sandbox and do not impact your main operating system.
 
@@ -358,11 +358,11 @@ To implement Microsoft Defender Application Guard and enhance your browser secur
 
 3. **Configure Application Guard**: Once Application Guard is enabled, you can configure its settings to suit your security needs. Application Guard allows you to define the level of isolation and control how it handles untrusted websites and files. You can adjust these settings through the **Windows Security** app or Group Policy settings.
 
-4. **Test and Verify**: After enabling and configuring Microsoft Defender Application Guard, it's essential to test and verify its functionality. Open Microsoft Edge and visit a known malicious website or a site with potential risks to check if Application Guard successfully isolates the browser session and prevents any potential attacks.
+4. **Test and Verify**: After enabling and configuring Microsoft Defender Application Guard, you need to test and verify its functionality. Open Microsoft Edge and visit a known malicious website or a site with potential risks to check if Application Guard successfully isolates the browser session and prevents any potential attacks.
 
 By implementing Microsoft Defender Application Guard, you add an extra layer of protection to your system by isolating the browser sessions and containing any potential threats within the secure environment. This helps safeguard your system and data from browser-based attacks, such as drive-by downloads, malicious scripts, and zero-day exploits.
 
-For more detailed information on configuring and utilizing Microsoft Defender Application Guard, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard).
+For more detailed information on configuring and using Microsoft Defender Application Guard, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-windows-defender-application-guard).
 
 #### 6. [**Controlled Folder Access**](https://github.com/simeononsecurity/Windows-Defender-Hardening)
 Controlled Folder Access is a powerful security feature available in Windows 11 that helps protect important folders from unauthorized changes by ransomware and other malicious software. By enabling Controlled Folder Access and adding necessary folders to the protected list, you can enhance the security of your system and prevent potential data loss.
@@ -387,7 +387,7 @@ To implement Controlled Folder Access and protect your important folders, follow
 
 By implementing Controlled Folder Access, you add an extra layer of protection to your important folders, mitigating the risk of unauthorized changes and potential data loss caused by ransomware attacks. Regularly review the Controlled Folder Access settings to ensure the protected folders align with your security requirements.
 
-For more detailed information on configuring and utilizing Controlled Folder Access, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide).
+For more detailed information on configuring and using Controlled Folder Access, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/controlled-folders?view=o365-worldwide).
 
 
 #### 7. **Enable Windows Automatic Maintenance**
@@ -421,7 +421,7 @@ Implementing these **Windows hardening best practices** is essential for ensurin
 
 By adhering to these best practices, you can enhance the security of your **Windows environment**, protect your data, and maintain the integrity of your **digital infrastructure**. It is important to stay **proactive** and regularly review and update your security measures to stay ahead of potential threats.
 
-Remember, **Windows hardening** is an ongoing process, and it is essential to stay informed about the latest security updates and practices. By staying proactive and implementing these best practices, you can effectively mitigate security risks and ensure the safety of your Windows systems.
+Remember, **Windows hardening** is an ongoing process, and you need to stay informed about the latest security updates and practices. By staying proactive and implementing these best practices, you can effectively mitigate security risks and ensure the safety of your Windows systems.
 
 For more information on Windows hardening and best practices, refer to reputable sources such as **Microsoft documentation**, **security forums**, and trusted **cybersecurity websites**.
 

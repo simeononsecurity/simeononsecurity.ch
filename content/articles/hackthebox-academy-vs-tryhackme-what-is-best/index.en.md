@@ -145,7 +145,7 @@ Before choosing a platform, it's important to understand the strengths and weakn
 
 - **Difficulty:** HackTheBox Academy challenges can be very difficult for those with limited IT experience, which can be overwhelming for beginners who are just starting out in cybersecurity, especially from scratch.
 - **Limited topics:** HackTheBox Academy offers fewer total modules than TryHackMe, focusing on depth over breadth.
-- **Prerequisite knowledge:** Many modules assume familiarity with Linux, networking, and basic programming—a barrier for complete beginners.
+- **Prerequisite knowledge:** Many modules assume familiarity with Linux, networking, and basic programming - a barrier for complete beginners.
 - **Higher cost:** Premium tiers are more expensive than TryHackMe equivalents, which can be prohibitive for students and career changers.
 - **Steeper time investment:** Modules often require 8-15 hours to complete thoroughly, making it challenging for those with limited study time.
 
@@ -396,6 +396,6 @@ Both HackTheBox Academy and TryHackMe are excellent platforms for learning cyber
 
 **The data clearly shows that TryHackMe is better for absolute beginners**, with its comprehensive IT fundamentals, gentler learning curve, and lower cost. **HackTheBox Academy excels for those with IT backgrounds** who want to specialize in offensive security and pursue advanced certifications.
 
-Ultimately, the choice between the two platforms depends on your current skill level, career goals, learning style, and budget. Many successful cybersecurity professionals use both platforms strategically—starting with TryHackMe for foundational knowledge and transitioning to HackTheBox Academy for advanced specialization. By choosing the right platform (or combination of platforms), you can develop the skills you need to succeed in the exciting and lucrative field of cybersecurity.
+Ultimately, the choice between the two platforms depends on your current skill level, career goals, learning style, and budget. Many successful cybersecurity professionals use both platforms strategically - starting with TryHackMe for foundational knowledge and transitioning to HackTheBox Academy for advanced specialization. By choosing the right platform (or combination of platforms), you can develop the skills you need to succeed in the exciting and lucrative field of cybersecurity.
 
 **Our recommendation for most beginners**: Start with **TryHackMe Premium** ($140/year) for your first 6 months, then evaluate whether to add **HackTheBox Academy Individual** ($190/year) based on your career direction and progress. This staged approach minimizes initial investment while maximizing learning outcomes.

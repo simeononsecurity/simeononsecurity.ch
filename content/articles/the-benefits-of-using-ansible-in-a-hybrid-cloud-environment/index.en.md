@@ -19,7 +19,7 @@ ______
 
 ## Simplified Infrastructure Management
 
-Ansible's **agentless architecture** and **declarative language** make it simple to manage complex hybrid cloud environments. By utilizing human-readable **YAML** configuration files, Ansible allows you to describe the desired state of your infrastructure, making it easy to understand and maintain. Additionally, Ansible's agentless approach eliminates the need to install and manage agents on your managed systems, reducing complexity and overhead.
+Ansible's **agentless architecture** and **declarative language** make it simple to manage complex hybrid cloud environments. By using human-readable **YAML** configuration files, Ansible allows you to describe the desired state of your infrastructure, making it easy to understand and maintain. Additionally, Ansible's agentless approach eliminates the need to install and manage agents on your managed systems, reducing complexity and overhead.
 
 **Modules** are another essential feature of Ansible, providing pre-built automation components that streamline tasks such as provisioning, configuration management, and application deployment. With hundreds of built-in modules and a vibrant community developing custom modules, Ansible offers a wealth of resources to simplify your hybrid cloud management.
 
@@ -65,23 +65,23 @@ ______
 
 ## Conclusion
 
-In summary In summary, Ansible offers a wide range of benefits when used in a hybrid cloud environment. Its simplified infrastructure management, enhanced security and compliance, scalability and performance, integration with popular cloud platforms, support for CI/CD pipelines, and cost savings make it an indispensable tool for managing your hybrid cloud infrastructure. By adopting Ansible as your automation solution, you can ensure that your organization stays agile, secure, and efficient in the ever-evolving world of hybrid cloud computing.
+In summary In summary, Ansible offers a wide range of benefits when used in a hybrid cloud environment. Its simplified infrastructure management, enhanced security and compliance, scalability and performance, integration with popular cloud platforms, support for CI/CD pipelines, and cost savings make it an indispensable tool for managing your hybrid cloud infrastructure. By adopting Ansible as your automation solution, you can ensure that your organization stays agile, secure, and efficient in the rapidly changing world of hybrid cloud computing.
 
-| Benefit                      | Description                                                                                                      |
+| Benefit | Description |
 |------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Simplified Infrastructure Management | - Agentless architecture and declarative language                                                               |
-|                                   | - YAML configuration files for easy understanding and maintenance                                              |
-|                                   | - Pre-built modules for provisioning, configuration management, and application deployment                     |
-| Enhanced Security and Compliance | - Idempotent and immutable infrastructure management                                                           |
-|                                   | - Ansible Vault for secure storage and management of sensitive data                                             |
-| Scalability and Performance      | - Ansible Tower and AWX for centralized management interface                                                   |
-|                                   | - Push-based architecture for minimal latency                                                                  |
-| Integration with Popular Cloud Platforms | - Seamless integration with public and private cloud platforms                                                  |
-|                                   | - Dynamic inventory scripts and cloud-specific modules                                                         |
-| Continuous Integration and Continuous Deployment (CI/CD) | - Integration with popular CI/CD tools like Jenkins, GitLab CI, and Travis CI                      |
-| Cost Savings                     | - Automation of repetitive tasks for improved operational efficiency                                           |
-|                                   | - Reduction of manual labor and human error                                                                   |
-|                                   | - Open-source nature and community support for cost-effective infrastructure automation                        |
+| Simplified Infrastructure Management | - Agentless architecture and declarative language |
+| | - YAML configuration files for easy understanding and maintenance |
+| | - Pre-built modules for provisioning, configuration management, and application deployment |
+| Enhanced Security and Compliance | - Idempotent and immutable infrastructure management |
+| | - Ansible Vault for secure storage and management of sensitive data |
+| Scalability and Performance | - Ansible Tower and AWX for centralized management interface |
+| | - Push-based architecture for minimal latency |
+| Integration with Popular Cloud Platforms | - Seamless integration with public and private cloud platforms |
+| | - Dynamic inventory scripts and cloud-specific modules |
+| Continuous Integration and Continuous Deployment (CI/CD) | - Integration with popular CI/CD tools like Jenkins, GitLab CI, and Travis CI |
+| Cost Savings | - Automation of repetitive tasks for improved operational efficiency |
+| | - Reduction of manual labor and human error |
+| | - Open-source nature and community support for cost-effective infrastructure automation |
 
 
 ______

@@ -14,7 +14,7 @@ ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-te
 
 ## Windows Batch Scripting: Automating Tasks
 
-Batch scripting is a powerful tool for automating tasks on the Windows operating system. Whether you're a system administrator, a developer, or just a user looking to simplify repetitive actions, **batch scripts** can save you time and effort. In this guide, we'll take a deep dive into creating and executing batch scripts, covering variables, loops, conditional statements, and basic error handling. By the end, you'll be equipped with practical examples to effectively automate various tasks using batch scripts.
+Batch scripting is a powerful tool for automating tasks on the Windows operating system. Whether you're a system administrator, a developer, or just a user looking to simplify repetitive actions, **batch scripts** can save you time and effort. In this guide, we'll take a detailed breakdown into creating and executing batch scripts, covering variables, loops, conditional statements, and basic error handling. By the end, you'll be equipped with practical examples to effectively automate various tasks using batch scripts.
 
 ## Introduction to Batch Scripting
 
@@ -38,7 +38,7 @@ In this example, `@echo off` disables the display of commands as they are execut
 
 ### Variables and Parameters
 
-Batch scripts can utilize variables to store and manipulate data. Define a variable using the syntax `set variable_name=value`. For example:
+Batch scripts can use variables to store and manipulate data. Define a variable using the syntax `set variable_name=value`. For example:
 
 ```bash
 set username=John

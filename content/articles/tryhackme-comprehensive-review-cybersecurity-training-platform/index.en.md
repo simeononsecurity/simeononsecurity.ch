@@ -54,17 +54,17 @@ By using the TryHackMe VPN, users can confidently connect to the platform, knowi
 
 ## Recommended TryHackMe Rooms For Beginners:
 
-| Room                               | Description                                                                                                                              |
+| Room | Description |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [Network Services 2 ](https://tryhackme.com/room/networkservices2)                | Focuses on advanced concepts related to network services and provides practical challenges for users to solve.                             |
-| [OWASP Top 10](https://tryhackme.com/room/owasptop102021)           | Provides a walkthrough of the OWASP Top 10 vulnerabilities, offering hands-on experience in identifying and exploiting these vulnerabilities. |                                                   |
-| [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx)           | An introduction to Windows operating systems, covering fundamental concepts and essential security considerations.                       |
-| [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx)       | Delve deeper into Active Directory basics, covering Active Directory structure, domain controllers, user accounts, group policies, and security vulnerabilities.                    |
+| [Network Services 2 ](https://tryhackme.com/room/networkservices2) | Focuses on advanced concepts related to network services and provides practical challenges for users to solve. |
+| [OWASP Top 10](https://tryhackme.com/room/owasptop102021) | Provides a walkthrough of the OWASP Top 10 vulnerabilities, offering hands-on experience in identifying and exploiting these vulnerabilities. | |
+| [Windows Fundamentals 1  ](https://tryhackme.com/room/windowsfundamentals1xbx) | An introduction to Windows operating systems, covering fundamental concepts and essential security considerations. |
+| [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) and [3](https://tryhackme.com/room/windowsfundamentals3xzx) | dig deeper into Active Directory basics, covering Active Directory structure, domain controllers, user accounts, group policies, and security vulnerabilities. |
 
 
 ## Conclusion
 
-TryHackMe is a valuable platform for individuals seeking to enhance their cybersecurity skills. Through its hands-on learning approach, curated rooms, and certifications, TryHackMe provides a practical and engaging learning experience. Whether you're a beginner or an experienced professional, TryHackMe offers a range of content to help you expand your knowledge and stay up-to-date with the ever-evolving cybersecurity landscape.
+TryHackMe is a valuable platform for individuals seeking to enhance their cybersecurity skills. Through its hands-on learning approach, curated rooms, and certifications, TryHackMe provides a practical and engaging learning experience. Whether you're a beginner or an experienced professional, TryHackMe offers a range of content to help you expand your knowledge and stay up-to-date with the rapidly changing cybersecurity landscape.
 
 By exploring rooms like "Network Services 2" and "Windows Fundamentals," individuals can gain practical experience in advanced concepts and build strong foundations in areas such as network services, authentication, and Windows security.
 

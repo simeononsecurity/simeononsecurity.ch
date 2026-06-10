@@ -26,7 +26,7 @@ A solid educational foundation is crucial for a career in cyber security. While 
 Pursuing a **bachelor's degree** in cyber security or a related field, such as computer science or information technology, provides you with a comprehensive understanding of the fundamentals of cyber security. It covers topics such as network security, ethical hacking, cryptography, and incident response. Several universities and colleges offer specialized programs in cyber security that equip students with the necessary knowledge and skills to enter the industry.
 
 ### Master's Degree in Cyber Security
-A **master's degree** in cyber security offers advanced knowledge and specialization in specific areas of cyber security. It can provide you with a competitive edge in the job market, especially for leadership and management roles. Master's programs often delve deeper into topics such as digital forensics, secure software development, and risk management. Some universities even offer online programs, allowing flexibility for working professionals.
+A **master's degree** in cyber security offers advanced knowledge and specialization in specific areas of cyber security. It can provide you with a competitive edge in the job market, especially for leadership and management roles. Master's programs often dig deeper into topics such as digital forensics, secure software development, and risk management. Some universities even offer online programs, allowing flexibility for working professionals.
 
 ### Certifications
 In addition to formal education, obtaining relevant certifications can significantly enhance your credibility and marketability in the field of cyber security. Here are some widely recognized certifications:

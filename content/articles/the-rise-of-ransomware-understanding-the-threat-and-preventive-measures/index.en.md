@@ -50,7 +50,7 @@ Preventive measures can help individuals and organizations protect against ranso
 
 ## Conclusion
 
-Ransomware is a growing threat that can cause significant financial losses and other damages. It is crucial to take preventive measures to protect against ransomware attacks, including regularly backing up data, keeping software up to date, using antivirus software, educating employees, using multi-factor authentication, using a VPN, and following relevant government regulations.
+Ransomware is a growing threat that can cause significant financial losses and other damages. You need to take preventive measures to protect against ransomware attacks, including regularly backing up data, keeping software up to date, using antivirus software, educating employees, using multi-factor authentication, using a VPN, and following relevant government regulations.
 
 By implementing preventive measures, individuals and organizations can reduce the risk of falling victim to ransomware attacks and mitigate the impact of such attacks if they occur.
 

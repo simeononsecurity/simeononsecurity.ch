@@ -82,7 +82,7 @@ Any good setup requires a few pieces of equipment. With Unifi you need at least 
 
 
 ### Ethernet Cables and Patch Panel
-To establish a reliable and high-speed network infrastructure, it is crucial to use quality Ethernet cables and a patch panel. We recommend the following products:
+To establish a reliable and high-speed network infrastructure, you need to use quality Ethernet cables and a patch panel. We recommend the following products:
 
 - [**Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable**](https://amzn.to/42m9OYa): This spool of CAT 6A ethernet cable is great for those custom length in-wall runs. Supports speeds up to 10 Gbps and max run lengths of 350 feet. {{< figure src="Cable Matters.jpg" alt="Cable Matters 10Gbps UL Listed in-Wall (cm) Bare Copper Shielded Cat 6A Cable" link="https://amzn.to/42m9OYa" >}}
 {{< centerbutton href="https://amzn.to/42m9OYa" >}}Get the Cable Matters 10Gbps Cat 6A Cable Today!{{< /centerbutton >}}
@@ -100,7 +100,7 @@ To establish a reliable and high-speed network infrastructure, it is crucial to 
 By using these products, you can ensure efficient cable management and [seamless connectivity](https://simeononsecurity.com/other/t-mobile-home-internet-benefits-connectivity-features/) throughout your network rack and home.
 
 ### Wall Plates and Keystone Jacks
-To complete the wiring setup, it is essential to have wall plates and keystone jacks that provide a clean and professional finish. We recommend the following products:
+To complete the wiring setup, you need to have wall plates and keystone jacks that provide a clean and professional finish. We recommend the following products:
 
 - [**Legrand - OnQ Oversized Wall Plate**](https://amzn.to/3C9jw5I): These large wall plates offer ample space for easy installation of keystone jacks and provide a neat appearance.{{< figure src="Legrand.jpg" alt="Legrand - OnQ Oversized Wall Plate" link="https://amzn.to/3C9jw5I" >}}
 {{< centerbutton href="https://amzn.to/3C9jw5I" >}}Get the Legrand - OnQ Oversized Wall Plate Today!{{< /centerbutton >}}
@@ -123,7 +123,7 @@ To centralize and protect your networking equipment, a network server cabinet is
 - [**StarTech.com 2U Server Rack Shelf**](https://amzn.to/3WPlPEr): This rack shelf is great for storing non rack mount items in your rack like cable modems, zig-bee and z-wave bridges, ring security controllers, samsung smartthings controllers, phillips hue controllers, etc. {{< figure src="Rack Shelf.jpg" alt="StarTech.com 2U Server Rack Shelf" link="https://amzn.to/3WPlPEr" >}}
 {{< centerbutton href="https://amzn.to/3WPlPEr" >}}Get the StarTech.com 2U Server Rack Shelf Today!{{< /centerbutton >}}
 
-- [**Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower**](https://amzn.to/3WJMTF2): You're spending a fair deal of money at this point. It's crucial to protect it. Benefits of surviving short power outages, power surges, and brown outs. {{< figure src="Tripp Lite.jpg" alt="Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower" link="https://amzn.to/3WJMTF2" >}}
+- [**Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower**](https://amzn.to/3WJMTF2): You're spending a fair deal of money at this point. You need to protect it. Benefits of surviving short power outages, power surges, and brown outs. {{< figure src="Tripp Lite.jpg" alt="Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower" link="https://amzn.to/3WJMTF2" >}}
 {{< centerbutton href="https://amzn.to/3WJMTF2" >}}Get the Tripp Lite SMART1500LCDXL Smart UPS Today!{{< /centerbutton >}}
 
 

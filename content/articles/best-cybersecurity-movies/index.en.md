@@ -17,7 +17,7 @@ In the digital age, cybersecurity is a crucial concern, and it has found its way
 
 ## Introduction
 
-Cybersecurity is an ever-evolving field, and staying updated with the latest trends and threats is vital. What better way to do this than by watching movies that depict the world of hackers, cybercriminals, and security experts? 
+Cybersecurity is an rapidly changing field, and staying updated with the latest trends and threats is vital. What better way to do this than by watching movies that depict the world of hackers, cybercriminals, and security experts? 
 
 Jokes aside, some of these may not be accurate depictions, but that doesn't mean we can't still enjoy them.
 
@@ -85,7 +85,7 @@ ______
 
 ## Blackhat (2015)
 
-**Blackhat** delves into the world of cybercrime and international espionage. It follows a convicted hacker who is released from prison to help track down a cybercriminal responsible for a major cyberattack. The film highlights the global nature of cyber threats.
+**Blackhat** digs into the world of cybercrime and international espionage. It follows a convicted hacker who is released from prison to help track down a cybercriminal responsible for a major cyberattack. The film highlights the global nature of cyber threats.
 
 {{< figure src="blackhat.jpg" alt="BlackHat Movie Poster" link="https://amzn.to/48FyNu3" >}}
 

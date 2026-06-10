@@ -10,7 +10,7 @@ coverAlt: "A screenshot of a computer screen with with a progress bar indicating
 coverCaption: ""
 ---
 
-Windows systems are widely used in businesses, organizations and even homes. With the increasing number of cyber attacks, it is crucial to ensure that these systems are secure and compliant with the industry standards. The Standalone-Windows-STIG-Script is a useful tool that helps you accomplish just that. In this article, we will explore what the Standalone-Windows-STIG-Script is, how it works and how you can use it to create a secure and compliant Windows system.
+Windows systems are widely used in businesses, organizations and even homes. With the increasing number of cyber attacks, you need to ensure that these systems are secure and compliant with the industry standards. The Standalone-Windows-STIG-Script is a useful tool that helps you accomplish just that. In this article, we will explore what the Standalone-Windows-STIG-Script is, how it works and how you can use it to create a secure and compliant Windows system.
 
 ## What is Standalone-Windows-STIG-Script?
 
@@ -54,4 +54,4 @@ powershell.exe -ExecutionPolicy Bypass -File Standalone-Windows-STIG-Script.ps1
 
 ## Conclusion:
 
-In conclusion, the Standalone-Windows-STIG-Script is a useful tool that can help you secure and comply with the industry standards for your Windows system. By using the script, you can automate the process of securing your Windows system, ensuring that it is compliant with the STIG and providing you with peace of mind knowing that your system is secure. So, if you want to create a compliant and secure Windows system, consider using the Standalone-Windows-STIG-Script.
+Wrapping up, the Standalone-Windows-STIG-Script is a useful tool that can help you secure and comply with the industry standards for your Windows system. By using the script, you can automate the process of securing your Windows system, ensuring that it is compliant with the STIG and providing you with peace of mind knowing that your system is secure. So, if you want to create a compliant and secure Windows system, consider using the Standalone-Windows-STIG-Script.

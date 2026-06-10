@@ -25,7 +25,7 @@ ______
 
 ## Introduction to VMware vSphere Packer Builder
 
-Before we delve into the list of valid "guest_os_type" values, let's briefly discuss the VMware vSphere Packer Builder. Packer Builder is a plugin for Packer that allows users to create VM images for VMware vSphere. It enables automation, consistency, and repeatability in the process of creating virtual machine images, making it a preferred choice for infrastructure-as-code (IaC) workflows.
+Before we dig into the list of valid "guest_os_type" values, let's briefly discuss the VMware vSphere Packer Builder. Packer Builder is a plugin for Packer that allows users to create VM images for VMware vSphere. It enables automation, consistency, and repeatability in the process of creating virtual machine images, making it a preferred choice for infrastructure-as-code (IaC) workflows.
 
 With Packer Builder, you can define a VM template with pre-configured settings, including the **"guest_os_type"**. The guest OS type helps vSphere identify the operating system being installed, allowing it to apply specific configurations and optimizations for that OS.
 
@@ -140,7 +140,7 @@ ______
 
 ## Conclusion
 
-In conclusion, the **"guest_os_type"** value is a critical parameter when using Packer with VMware vSphere. It defines the guest operating system to be installed on the VM and influences the configurations applied by vSphere. By referring to the list of valid values provided in this article, users can make informed decisions while creating VM images for various use cases.
+Wrapping up, the **"guest_os_type"** value is a critical parameter when using Packer with VMware vSphere. It defines the guest operating system to be installed on the VM and influences the configurations applied by vSphere. By referring to the list of valid values provided in this article, users can make informed decisions while creating VM images for various use cases.
 
 Remember to select the appropriate OS type based on the specific version, architecture, and use case of your VM. This ensures the best performance, compatibility, and functionality for your virtualized environments.
 

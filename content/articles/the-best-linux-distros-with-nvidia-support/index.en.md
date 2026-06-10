@@ -30,7 +30,7 @@ ______
 
 {{< youtube id="aCI5LzHPKn0" >}}
 
-[**Fedora**](https://getfedora.org/) is another Linux distro that prioritizes **NVIDIA graphics card support**. It offers seamless integration with NVIDIA GPUs through the RPM Fusion repositories, allowing you to easily install the latest NVIDIA drivers. Fedora also provides an open-source tool called **"Negativo17"** that simplifies the installation of NVIDIA drivers and optimizes the overall performance of your graphics card. With its commitment to cutting-edge technologies, Fedora ensures that your NVIDIA GPU functions smoothly on the Linux platform.
+[**Fedora**](https://getfedora.org/) is another Linux distro that prioritizes **NVIDIA graphics card support**. It offers seamless integration with NVIDIA GPUs through the RPM Fusion repositories, allowing you to easily install the latest NVIDIA drivers. Fedora also provides an open-source tool called **"Negativo17"** that simplifies the installation of NVIDIA drivers and optimizes the overall performance of your graphics card. With its commitment to advanced technologies, Fedora ensures that your NVIDIA GPU functions smoothly on the Linux platform.
 
 Download Fedora: [https://getfedora.org/](https://getfedora.org/)
 
@@ -68,25 +68,25 @@ ______
 
 ## Conclusion
 
-In conclusion, when it comes to choosing a Linux distro for **NVIDIA graphics card support**, Ubuntu, Fedora, Manjaro, Pop!_OS, and OpenSUSE are some of the best options available. These distros prioritize compatibility, performance optimization, and reliable driver support for NVIDIA GPUs. Whether you are a casual user or a professional in need of GPU-intensive tasks, these distros will provide a seamless and efficient experience with your NVIDIA graphics card.
+Wrapping up, when it comes to choosing a Linux distro for **NVIDIA graphics card support**, Ubuntu, Fedora, Manjaro, Pop!_OS, and OpenSUSE are some of the best options available. These distros prioritize compatibility, performance optimization, and reliable driver support for NVIDIA GPUs. Whether you are a casual user or a professional in need of GPU-intensive tasks, these distros will provide a seamless and efficient experience with your NVIDIA graphics card.
 
-| Linux Distro | Description                                                                                                                    |
+| Linux Distro | Description |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Ubuntu       | - Popular and user-friendly distro with extensive hardware compatibility                                                   |
-|              | - Dedicated repositories for proprietary NVIDIA drivers                                                                      |
-|              | - Regular updates and strong community support                                                                               |
-| Fedora       | - Prioritizes NVIDIA graphics card support                                                                                    |
-|              | - Seamless integration with NVIDIA GPUs through RPM Fusion repositories                                                     |
-|              | - Provides an open-source tool, "Negativo17," for easy installation of NVIDIA drivers                                      |
-| Manjaro      | - User-friendly distro based on Arch Linux with stability and user-centric approach                                         |
-|              | - Excellent support for NVIDIA graphics cards                                                                                |
-|              | - Provides access to the latest proprietary NVIDIA drivers through the Manjaro Hardware Detection tool                     |
-| Pop!_OS      | - Developed by System76 with a focus on NVIDIA graphics card support                                                         |
-|              | - Optimized experience for NVIDIA GPU users                                                                                  |
-|              | - Pop!_OS NVIDIA Installer tool for easy driver installation and additional features like GPU switching and power management |
-| OpenSUSE     | - Stable and reliable distro with excellent NVIDIA graphics card support                                                    |
-|              | - "One-Click Install" option for effortless installation of NVIDIA drivers                                                  |
-|              | - Comprehensive documentation and strong community support system                                                           |
+| Ubuntu | - Popular and user-friendly distro with extensive hardware compatibility |
+| | - Dedicated repositories for proprietary NVIDIA drivers |
+| | - Regular updates and strong community support |
+| Fedora | - Prioritizes NVIDIA graphics card support |
+| | - Seamless integration with NVIDIA GPUs through RPM Fusion repositories |
+| | - Provides an open-source tool, "Negativo17," for easy installation of NVIDIA drivers |
+| Manjaro | - User-friendly distro based on Arch Linux with stability and user-centric approach |
+| | - Excellent support for NVIDIA graphics cards |
+| | - Provides access to the latest proprietary NVIDIA drivers through the Manjaro Hardware Detection tool |
+| Pop!_OS | - Developed by System76 with a focus on NVIDIA graphics card support |
+| | - Optimized experience for NVIDIA GPU users |
+| | - Pop!_OS NVIDIA Installer tool for easy driver installation and additional features like GPU switching and power management |
+| OpenSUSE | - Stable and reliable distro with excellent NVIDIA graphics card support |
+| | - "One-Click Install" option for effortless installation of NVIDIA drivers |
+| | - Comprehensive documentation and strong community support system |
 
 
 {{< centerbutton href="https://simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/" >}}Read our guide on the Linux command line!{{< /centerbutton >}}

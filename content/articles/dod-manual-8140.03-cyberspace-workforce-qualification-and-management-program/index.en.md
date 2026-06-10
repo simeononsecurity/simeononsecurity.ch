@@ -67,7 +67,7 @@ For further information on the responsibilities outlined in **Section 2** of the
 
 ## Qualification Program Objectives and Procedures
 
-The **DoD Manual 8140.03** outlines the **Qualification Program** objectives and procedures, which aim to develop and sustain a skilled and capable cyberspace workforce within the Department of Defense (DoD). This program utilizes the **DoD Cyberspace Workforce Framework (DCWF)** to establish a common understanding of cyberspace concepts, principles, and applications. The Qualification Program consists of foundational, resident, and Continuous Professional Development (CPD) requirements.
+The **DoD Manual 8140.03** outlines the **Qualification Program** objectives and procedures, which aim to develop and sustain a skilled and capable cyberspace workforce within the Department of Defense (DoD). This program uses the **DoD Cyberspace Workforce Framework (DCWF)** to establish a common understanding of cyberspace concepts, principles, and applications. The Qualification Program consists of foundational, resident, and Continuous Professional Development (CPD) requirements.
 
 Some of the highlighted objectives and procedures of the Qualification Program include:
 
@@ -122,7 +122,7 @@ By outlining the education requirements for each work role, the DoD Cyberspace W
 - **Training programs** within the DoD Cyberspace Workforce Qualification and Management Program must cover **70%** of the **core task and KSA content** of the work role, aligned with the applicable proficiency level. This ensures that individuals receive comprehensive training specific to their assigned cyberspace responsibilities.
 - Approved training must be **completed within the past 5 years**, ensuring that individuals stay updated with the latest knowledge and skills in the rapidly evolving cyberspace domain. However, individuals with **continuous work experience** in the relevant discipline can demonstrate their ongoing competence without time restrictions.
 - OSD and DoD Components are responsible for **documenting a list of acceptable training offerings** and their relevance to specific work roles and proficiency levels. These offerings are then submitted to the **Cyberspace Workforce Management Board (CWMB)** for inclusion in the appropriate work role qualification matrix. This centralized approval process ensures that training aligns with program requirements.
-- It's important to note that **all external training offerings**, whether government-developed, sponsored, or commercial products, **require prior approval from the CWMB** to ensure compliance with the program's standards and criteria.
+- Note that **all external training offerings**, whether government-developed, sponsored, or commercial products, **require prior approval from the CWMB** to ensure compliance with the program's standards and criteria.
 
 By establishing clear guidelines for training, the DoD Cyberspace Workforce Qualification and Management Program ensures that individuals receive the necessary knowledge and skills to effectively perform their cyberspace work roles. The program promotes continuous learning and up-to-date training, enabling the cyberspace workforce to stay proficient in their respective domains.
 
@@ -144,7 +144,7 @@ The **resident qualification areas** within the DoD Cyberspace Workforce Qualifi
 
 The development and implementation of qualification requirements in the **resident and Continuous Professional Development (CPD)** areas are managed by the **Office of the Secretary of Defense (OSD)** and **DoD Components**. This ensures consistency and alignment with the overall goals of the qualification program.
 
-Upon completion of the foundational and resident qualification requirements, individuals are eligible to engage in **CPD activities** to maintain and enhance their competence. To fulfill the requirements of this issuance, individuals must participate in a minimum of **20 hours per year** of CPD or education activities. These activities serve to keep professionals up to date with emerging trends, technologies, and best practices in the ever-evolving cyberspace domain.
+Upon completion of the foundational and resident qualification requirements, individuals are eligible to engage in **CPD activities** to maintain and enhance their competence. To fulfill the requirements of this issuance, individuals must participate in a minimum of **20 hours per year** of CPD or education activities. These activities serve to keep professionals up to date with emerging trends, technologies, and best practices in the rapidly changing cyberspace domain.
 
 ### Cyberspace Personnel Information Management
 
@@ -152,7 +152,7 @@ Upon completion of the foundational and resident qualification requirements, ind
 
 To support effective management, the DoD leverages existing **manpower and personnel systems** to gather and report essential workforce information. These systems play a crucial role in capturing and maintaining accurate data on the skills, qualifications, and readiness of cyberspace personnel.
 
-By leveraging these information management systems, the DoD can make informed decisions regarding the allocation of resources, training and education initiatives, and the overall development of the cyberspace workforce. This proactive approach enables the DoD to effectively meet mission requirements and address emerging challenges in the dynamic cyberspace domain.
+By using these information management systems, the DoD can make informed decisions regarding the allocation of resources, training and education initiatives, and the overall development of the cyberspace workforce. This proactive approach enables the DoD to effectively meet mission requirements and address emerging challenges in the dynamic cyberspace domain.
 
 ## Conclusion
 
@@ -164,7 +164,7 @@ To facilitate effective training, the program provides a **list of approved trai
 
 By setting qualification requirements and performance standards, the **DoD Cyberspace Workforce Qualification and Management Program** establishes a robust foundation for a competent and capable cyberspace workforce. This workforce plays a critical role in safeguarding the DoD's information systems and networks from cyber threats.
 
-Furthermore, the program emphasizes the importance of **ongoing training and professional development** to keep personnel abreast of emerging trends, technologies, and threats in the dynamic cyberspace domain. This commitment to continuous learning enables the workforce to adapt to evolving challenges and maintain a proactive approach to cybersecurity.
+Also, the program emphasizes the importance of **ongoing training and professional development** to keep personnel abreast of emerging trends, technologies, and threats in the dynamic cyberspace domain. This commitment to continuous learning enables the workforce to adapt to evolving challenges and maintain a proactive approach to cybersecurity.
 
-In conclusion, the **DoD Cyberspace Workforce Qualification and Management Program** is a vital framework that ensures the DoD possesses a **skilled and capable workforce** to defend and secure its information systems and networks. By promoting qualification standards and fostering professional growth, this program strengthens the DoD's cybersecurity posture in an ever-evolving threat landscape.
+Wrapping up, the **DoD Cyberspace Workforce Qualification and Management Program** is a vital framework that ensures the DoD possesses a **skilled and capable workforce** to defend and secure its information systems and networks. By promoting qualification standards and fostering professional growth, this program strengthens the DoD's cybersecurity posture in an rapidly changing threat landscape.
 

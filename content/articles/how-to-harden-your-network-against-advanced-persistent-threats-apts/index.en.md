@@ -104,7 +104,7 @@ ______
 
 ## Conclusion
 
-In conclusion, APTs are a serious threat to organizations of all sizes, but by taking proactive steps to harden your network infrastructure, you can significantly reduce your risk of falling victim to an APT. By **developing a strong security policy**, **conducting regular vulnerability assessments**, **implementing access controls and security solutions**, **encrypting data**, **monitoring network traffic**, **conducting regular employee training**, and **developing an incident response plan**, you can help ensure the security of your organization's network infrastructure.
+Wrapping up, APTs are a serious threat to organizations of all sizes, but by taking proactive steps to harden your network infrastructure, you can significantly reduce your risk of falling victim to an APT. By **developing a strong security policy**, **conducting regular vulnerability assessments**, **implementing access controls and security solutions**, **encrypting data**, **monitoring network traffic**, **conducting regular employee training**, and **developing an incident response plan**, you can help ensure the security of your organization's network infrastructure.
 
 It's important to remember that network security is an ongoing process, and it requires ongoing attention and resources. By regularly reviewing and updating your security measures, you can stay ahead of potential threats and help ensure the ongoing security of your network infrastructure.
 

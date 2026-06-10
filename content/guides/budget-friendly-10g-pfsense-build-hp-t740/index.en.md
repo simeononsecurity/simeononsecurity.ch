@@ -98,7 +98,7 @@ To maximize your router's performance, consider the following optimizations:
 
 ### **Monitoring and Maintenance**
 
-Utilize the built-in monitoring tools and logs in pfSense to keep an eye on network activity and troubleshoot issues promptly. Regularly back up your pfSense configuration to avoid data loss.
+use the built-in monitoring tools and logs in pfSense to keep an eye on network activity and troubleshoot issues promptly. Regularly back up your pfSense configuration to avoid data loss.
 
 
 ______

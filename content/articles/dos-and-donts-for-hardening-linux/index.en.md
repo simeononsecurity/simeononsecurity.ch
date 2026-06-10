@@ -314,7 +314,7 @@ ______
 
 ## Conclusion
 
-In conclusion, hardening your Linux system is critical to ensure its security and protect the data it holds. By following the do's and don'ts outlined in this article, you can take important steps to secure your system and reduce the risk of cyber threats. Remember to always keep your system up-to-date, use a firewall, configure password policies, and monitor system logs. Avoid using weak passwords, disabling automatic updates, allowing root SSH access, installing unnecessary software, and using outdated software. With these best practices in mind, you can ensure that your Linux system remains secure and protected.
+Wrapping up, hardening your Linux system is critical to ensure its security and protect the data it holds. By following the do's and don'ts outlined in this article, you can take important steps to secure your system and reduce the risk of cyber threats. Remember to always keep your system up-to-date, use a firewall, configure password policies, and monitor system logs. Avoid using weak passwords, disabling automatic updates, allowing root SSH access, installing unnecessary software, and using outdated software. With these best practices in mind, you can ensure that your Linux system remains secure and protected.
 
 ## References:
 

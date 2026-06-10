@@ -88,7 +88,7 @@ ______
 
 ## Comparing Security Features
 
-When comparing the security features of AWS, Azure, and GCP, it's essential to consider the unique offerings of each provider. While all three platforms offer robust IAM, threat detection, and network security features, the specific implementation and available options may vary.
+When comparing the security features of AWS, Azure, and GCP, you need to consider the unique offerings of each provider. While all three platforms offer robust IAM, threat detection, and network security features, the specific implementation and available options may vary.
 
 ______
 

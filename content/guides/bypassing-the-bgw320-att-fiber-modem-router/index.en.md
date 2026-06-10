@@ -51,9 +51,9 @@ Now comes the important part i.e. changing some device info to make it compatibl
 First, grab the following information from your ISP Gateway or ONT:
 
 1. **ONT ID**
-  -  **ATT BGW320-500**: `HUMAXXXXXXXX`
-  -  **ATT BGW320-505**: `NOKAXXXXXXXX`
-  -  **ATT 020**: <serial number>
+  - **ATT BGW320-500**: `HUMAXXXXXXXX`
+  - **ATT BGW320-505**: `NOKAXXXXXXXX`
+  - **ATT 020**: <serial number>
 3. **MAC Address** (From device label)
 4. **Equipment ID**
   - **ATT BGW320-500 HUMAX**: `iONT320500G`

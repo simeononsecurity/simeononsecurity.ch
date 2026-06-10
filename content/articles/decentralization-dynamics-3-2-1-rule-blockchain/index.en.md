@@ -35,7 +35,7 @@ ______
 
 However, the law of diminishing returns comes into play as decentralization is pushed to extremes. Beyond a certain point, the benefits of additional redundancy diminish while the complications increase. **Decentralization introduces latency**, slowing down transaction processing times, and can lead to synchronization challenges among nodes.
 
-Moreover, managing and maintaining the infrastructure required for extensive decentralization can become impractical and resource-intensive. The "3.2.1-1" rule highlights the delicate balance that must be struck to maximize the advantages of decentralization without falling victim to its drawbacks.
+On top of that, managing and maintaining the infrastructure required for extensive decentralization can become impractical and resource-intensive. The "3.2.1-1" rule highlights the delicate balance that must be struck to maximize the advantages of decentralization without falling victim to its drawbacks.
 
 ### Striking the Right Balance
 

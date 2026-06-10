@@ -87,7 +87,7 @@ To begin with Ubuntu, visit [Ubuntu.com](https://ubuntu.com/download) and downlo
 Ubuntu is ideal for:
 - Complete Linux beginners who want the largest community support
 - Users needing maximum software compatibility
-- Those who prefer stability over cutting-edge features
+- Those who prefer stability over advanced features
 - Anyone requiring enterprise-grade reliability
 - People planning to pursue Linux certifications (many use Ubuntu)
 - Users who value extensive documentation and tutorials
@@ -190,7 +190,7 @@ This flexibility makes Zorin incredibly versatile for users transitioning from d
 - Use your phone as a remote control
 - Check phone battery status
 
-**Windows App Support**: Zorin includes Wine pre-configured for running many Windows applications. While not all Windows software works, many popular applications  run without issues, including:
+**Windows App Support**: Zorin includes Wine pre-configured for running many Windows applications. While not all Windows software works, many popular applications run without issues, including:
 - Microsoft Office (older versions)
 - Adobe Photoshop CS6 and earlier
 - Many Windows games
@@ -307,7 +307,7 @@ Pop!_OS is ideal for:
 - Developers and programmers
 - Users with NVIDIA graphics cards
 - People who multitask heavily (auto-tiling)
-- Those wanting cutting-edge features
+- Those wanting advanced features
 - Users comfortable with minor troubleshooting
 
 ## Manjaro 23: Rolling Release for the Adventurous Beginner
@@ -352,7 +352,7 @@ Plus community editions: Cinnamon, MATE, Budgie, i3, Sway, and more.
 **Access to Arch Resources**: Manjaro users benefit from:
 - Arch Wiki - most comprehensive Linux documentation
 - AUR - largest software repository in Linux
-- Cutting-edge software versions
+- advanced software versions
 - Active development community
 
 ### Manjaro 2026 Improvements
@@ -575,7 +575,7 @@ Elementary OS suits:
 ✅ Content creation optimizations
 ✅ NVIDIA graphics card
 ✅ Auto-tiling window management
-✅ Cutting-edge features
+✅ advanced features
 
 ### Choose **Manjaro** if you want:
 ✅ Rolling release model

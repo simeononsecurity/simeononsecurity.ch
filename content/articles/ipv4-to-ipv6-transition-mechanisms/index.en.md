@@ -45,4 +45,4 @@ The most straightforward transition mechanism is to run both IPv4 and IPv6 on th
 
 ______
 
-In conclusion, the transition to IPv6 is necessary to ensure the continued growth and evolution of the internet. While the migration to IPv6 is still ongoing, there are several transition mechanisms available
+Wrapping up, the transition to IPv6 is necessary to ensure the continued growth and evolution of the internet. While the migration to IPv6 is still ongoing, there are several transition mechanisms available

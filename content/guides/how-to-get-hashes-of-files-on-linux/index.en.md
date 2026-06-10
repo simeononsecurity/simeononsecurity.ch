@@ -49,7 +49,7 @@ sha1sum file_path
 Replace `file_path` with the path to your file in both commands.
 
 ## Examples
-Let's delve into specific examples to illustrate the process of obtaining hashes using built-in tools on Linux.
+Let's dig into specific examples to illustrate the process of obtaining hashes using built-in tools on Linux.
 
 {{< youtube id="3aX9zK88X9M" >}}
 

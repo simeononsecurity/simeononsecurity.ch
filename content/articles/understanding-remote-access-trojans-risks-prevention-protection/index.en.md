@@ -76,7 +76,7 @@ To mitigate the risks associated with **remote access trojans**, individuals and
 
 5. [**Educate users:**](https://simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/how-to-build-a-security-training-and-awareness-program/) Promote **cybersecurity awareness** and provide training on recognizing phishing emails, suspicious links, and other social engineering techniques used in RAT attacks. Organizations often conduct **security awareness training** to educate employees on best practices.
 
-6. [**Implement endpoint protection:**](https://simeononsecurity.com/recommendations/anti-virus) Utilize reliable **antivirus** and **anti-malware solutions** that can detect and block remote access trojans. Products like **McAfee Endpoint Security** or **Kaspersky Total Security** offer comprehensive protection against various types of malware.
+6. [**Implement endpoint protection:**](https://simeononsecurity.com/recommendations/anti-virus) use reliable **antivirus** and **anti-malware solutions** that can detect and block remote access trojans. Products like **McAfee Endpoint Security** or **Kaspersky Total Security** offer comprehensive protection against various types of malware.
 
 7. [**Regularly backup data:**](https://simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/) Maintain secure backups of critical data to minimize the impact of data loss in the event of a successful RAT attack. Cloud storage services like **Google Drive** or **Microsoft OneDrive** provide convenient options for securely backing up important files.
 

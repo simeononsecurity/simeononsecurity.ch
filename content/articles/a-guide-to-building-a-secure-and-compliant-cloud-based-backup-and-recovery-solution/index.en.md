@@ -45,7 +45,7 @@ ______
 
 ### Step 1: Assess Your Data and Identify Regulatory Requirements
 
-Before building a cloud-based backup and recovery solution, it is essential to identify the types of data you handle and determine the applicable regulations and standards. This step will help you develop a compliance checklist to ensure that your cloud backup solution adheres to these requirements.
+Before building a cloud-based backup and recovery solution, you need to identify the types of data you handle and determine the applicable regulations and standards. This step will help you develop a compliance checklist to ensure that your cloud backup solution adheres to these requirements.
 
 For example, if you handle sensitive personal information such as financial or healthcare records, you may need to comply with regulations such as the General Data Protection Regulation (GDPR) or the Health Insurance Portability and Accountability Act (HIPAA). 
 
