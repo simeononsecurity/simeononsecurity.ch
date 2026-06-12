@@ -1,12 +1,12 @@
 ---
-title: "Setting Up Cloudflare Tunnels: Streamline and Secure Your Network Traffic"
+title: "Setting Up Cloudflare Tunnels: simplify and Secure Your Network Traffic"
 draft: false
 toc: true
 date: 2023-05-26
-description: "Learn how to set up Cloudflare Tunnels to streamline and protect your network traffic, enhancing performance and security."
+description: "Learn how to set up Cloudflare Tunnels to simplify and protect your network traffic, enhancing performance and security."
 tags: ["Cloudflare Tunnels", "Network Security", "Website Performance", "Proxy Server", "Web Traffic", "Network Configuration", "Ubuntu Server", "Cloudflare Account", "Authentication", "Tunnel Creation", "Traffic Routing", "DNS Records", "Secure Connection", "Website Hosting", "Proxy Service", "Network Protection", "Performance Optimization", "Cloudflare Integration", "Server Configuration", "Traffic Encryption", "Network Traffic Management", "Secure Web Hosting", "Website Security", "Ubuntu Setup", "Tunneling Technology", "Cloudflare Services", "Network Performance", "Web Security", "Server Security", "Traffic Management", "Cloudflare Proxy"]
 cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
-coverAlt: "An illustration showing a network tunnel connecting a local server to the Cloudflare logo, symbolizing the secure and streamlined network traffic."
+coverAlt: "An illustration showing a network tunnel connecting a local server to the Cloudflare logo, symbolizing the secure and simplified network traffic."
 coverCaption: ""
 ---
 
@@ -61,7 +61,7 @@ Now it's time to create your Cloudflare Tunnel. Follow these steps:
 cloudflared tunnel create name_of_tunnel
 ```
 
-2. Choose a name for your tunnel that is memorable and descriptive. Note that the tunnel name cannot be changed later.
+2. Choose a name for your tunnel that is memorable and descriptive. Note that the tunnel name can't be changed later.
 
 3.After creating the tunnel, you will be provided with important information, including the UUID of your tunnel. Make a note of this UUID as it will be required for further configuration.
 

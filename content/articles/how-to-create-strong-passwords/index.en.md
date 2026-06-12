@@ -502,7 +502,7 @@ As discussed, creating unique, strong passwords for 100+ online accounts is impo
 Leading password managers use:
 - **AES-256 encryption**: Military-grade encryption for vault data
 - **PBKDF2, Argon2, or scrypt**: Key derivation to protect master password
-- **Zero-knowledge architecture**: Provider cannot access your passwords
+- **Zero-knowledge architecture**: Provider can't access your passwords
 - **End-to-end encryption**: Data encrypted before leaving your device
 - **Local decryption**: Master password never transmitted to servers
 
@@ -548,7 +548,7 @@ Access your passwords from:
 
 **Why Bitwarden Leads**:
 - **Open source**: Code is publicly audited for security
-- **Zero-knowledge architecture**: Bitwarden cannot access your data
+- **Zero-knowledge architecture**: Bitwarden can't access your data
 - **Free tier**: Generous free plan with unlimited passwords
 - **Premium features**: $10/year for advanced features (incredibly affordable)
 - **Self-hosting option**: Host your own instance for maximum control

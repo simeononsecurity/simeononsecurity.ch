@@ -29,11 +29,11 @@ Before getting started with PowerCLI and VMware STIG, ensure that you have the f
 
 - [**PowerCLI 11.3**](https://www.powershellgallery.com/packages/VMware.PowerCLI/11.3.0.13990089): Install PowerCLI using the PowerShell Gallery with the command `Install-Module VMware.PowerCLI -force`.
 - [**Powershell 5 or newer**](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1): Ensure you have PowerShell version 5 or newer installed.
-- [**ESXi 6.7 U2+**](https://my.vmware.com/web/vmware/downloads/details?downloadGroup=ESXI670&productId=742): Make sure you are using ESXi version 6.7 U2 or above.
+- [**ESXi 6.7 U2+**](https://my.vmware.com/web/vmware/downloads/details?downloadGroup=ESXI670&productId=742): Make sure you're using ESXi version 6.7 U2 or above.
 
 ## Automating VMware VCSA STIG
 
-The VMware ESXi STIG provides guidelines for securing ESXi hosts. By automating the implementation of STIG controls, administrators can streamline the process and ensure consistent configuration across multiple hosts.
+The VMware ESXi STIG provides guidelines for securing ESXi hosts. By automating the implementation of STIG controls, administrators can simplify the process and ensure consistent configuration across multiple hosts.
 
 ### Considerations
 

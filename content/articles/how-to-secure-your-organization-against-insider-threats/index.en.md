@@ -25,9 +25,9 @@ __________
 
 **Policy development** is the process of creating policies that outline the expected behavior of employees, contractors, and partners. Policies should cover topics such as acceptable use of company resources, access control, and incident reporting. By having clear policies in place, employees will understand what is expected of them and what will happen if they violate policy.
 
-**Policies** should be reviewed and updated regularly to ensure they are still relevant and effective. When developing policies, it's important to involve stakeholders from all areas of the organization. This ensures that the policies are comprehensive and take into account the needs of all departments.
+**Policies** should be reviewed and updated regularly to ensure they're still relevant and effective. When developing policies, it's important to involve stakeholders from all areas of the organization. This ensures that the policies are comprehensive and take into account the needs of all departments.
 
-Another important aspect of policy development is **enforcement**. Policies are only effective if they are enforced consistently and fairly. Organizations should have a process in place for reporting policy violations and should investigate and take appropriate action when violations occur.
+Another important aspect of policy development is **enforcement**. Policies are only effective if they're enforced consistently and fairly. Organizations should have a process in place for reporting policy violations and should investigate and take appropriate action when violations occur.
 
 __________
 

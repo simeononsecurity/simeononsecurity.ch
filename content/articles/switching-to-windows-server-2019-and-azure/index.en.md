@@ -20,7 +20,7 @@ In today's fast-paced business environment, **organizations are always looking f
 
 2. **Improved Performance**: Server 2019 includes many performance improvements over Server 2012. For example, it includes support for faster storage technologies such as **NVMe** and improved support for high-performance computing workloads.
 
-3. **Better Integration with Azure**: Server 2019 is designed to work seamlessly with Azure, making it easier for organizations to move their on-premise workloads to the cloud. This integration allows organizations to take advantage of the **scalability and cost-effectiveness of Azure** while still maintaining control over their on-premise infrastructure.
+3. **Better Integration with Azure**: Server 2019 is designed to work smoothly with Azure, making it easier for organizations to move their on-premise workloads to the cloud. This integration allows organizations to take advantage of the **scalability and cost-effectiveness of Azure** while still maintaining control over their on-premise infrastructure.
 
 4. **Long-Term Support**: Server 2019 will receive support from Microsoft until 2029, which means organizations can continue to receive security updates and bug fixes for a longer period of time. In comparison, Server 2012 will only receive support until 2023, after which organizations will no longer receive security updates or bug fixes.
 
@@ -42,4 +42,4 @@ _________
 
 ## Conclusion:
 
-Wrapping up, organizations should consider upgrading to Server 2019 or switching to Azure because both solutions offer improved security, performance, integration, and support. By taking advantage of the scalability and cost-effectiveness of Azure or the enhanced security and performance of Server 2019, organizations can improve their IT infrastructure and stay ahead of the competition. Additionally, by adopting a hybrid approach, organizations can take advantage of the benefits of both solutions and create a flexible and resilient IT infrastructure that can adapt
+Wrapping up, organizations should consider upgrading to Server 2019 or switching to Azure because both solutions offer improved security, performance, integration, and support. By taking advantage of the scalability and cost-effectiveness of Azure or the enhanced security and performance of Server 2019, organizations can improve their IT infrastructure and stay ahead of the competition. Also, by adopting a hybrid approach, organizations can take advantage of the benefits of both solutions and create a flexible and resilient IT infrastructure that can adapt

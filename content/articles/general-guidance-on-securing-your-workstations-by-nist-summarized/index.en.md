@@ -48,5 +48,5 @@ Organizations should **regularly back up data stored on workstations** to minimi
 
 ## Conclusion
 
-Workstations play a critical role in organizations, as they are often used to store and process sensitive information. To minimize the risk of cyberattacks, organizations should follow NIST's guidance on securing workstations, which provides a comprehensive framework for protecting these devices and the sensitive information they contain. By implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data, organizations can help protect their workstations and sensitive information from cyber threats.
+Workstations play a critical role in organizations, as they're often used to store and process sensitive information. To minimize the risk of cyberattacks, organizations should follow NIST's guidance on securing workstations, which provides a comprehensive framework for protecting these devices and the sensitive information they contain. By implementing strong access controls, keeping software up-to-date, using antivirus software, enabling firewall protection, implementing data encryption, and regularly backing up data, organizations can help protect their workstations and sensitive information from cyber threats.
 

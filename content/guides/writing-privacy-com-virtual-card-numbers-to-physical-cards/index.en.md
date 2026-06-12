@@ -80,7 +80,7 @@ Emboss the card using the embosser we linked in the hardware requirements.
 ### 6. Save the Physical Card for Future Use.
 Keep the cards in your wallet and be prepared to use them.
 If you don't plan on dedicating a card to a specific merchant, be prepared to rewrite the card after every use.
-It should be noted that this will not let you use teh EMV payment chip on the card. It'll be mag stripe only. 
+It should be noted that this won't let you use teh EMV payment chip on the card. It'll be mag stripe only. 
 
 ## Privacy and Security Considerations
 

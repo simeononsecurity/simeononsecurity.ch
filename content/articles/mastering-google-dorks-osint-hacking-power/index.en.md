@@ -14,7 +14,7 @@ canonical: ""
 
 **Google Dorks for Hackers and OSINT**
 
-In the world of cybersecurity and online investigations, having the right tools and techniques at your disposal can make all the difference. One such tool that both hackers and professionals engaged in Open Source Intelligence (OSINT) find invaluable is Google Dorks. In this comprehensive guide, we'll explore what Google Dorks are, how they are used, and their significance in the world of hacking and OSINT.
+In the world of cybersecurity and online investigations, having the right tools and techniques at your disposal can make all the difference. One such tool that both hackers and professionals engaged in Open Source Intelligence (OSINT) find invaluable is Google Dorks. In this comprehensive guide, we'll explore what Google Dorks are, how they're used, and their significance in the world of hacking and OSINT.
 
 ## Introduction
 
@@ -65,7 +65,7 @@ Before diving into how Google Dorks are used, let's understand some fundamental 
 
 ## Conclusion
 
-Google Dorks are powerful search queries that serve both as a valuable asset for hackers and a critical tool for OSINT professionals. While they can be used for malicious purposes, their significance in uncovering vulnerabilities and gathering information cannot be ignored. You need to use Google Dorks responsibly and ethically to enhance security and investigations in the digital age.
+Google Dorks are powerful search queries that serve both as a valuable asset for hackers and a critical tool for OSINT professionals. While they can be used for malicious purposes, their significance in uncovering vulnerabilities and gathering information can't be ignored. You need to use Google Dorks responsibly and ethically to enhance security and investigations in the digital age.
 
 ## References
 

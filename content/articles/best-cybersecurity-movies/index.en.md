@@ -37,7 +37,7 @@ ______
 
 ## Sneakers (1992)
 
-**Sneakers** is a blend of comedy and cyber espionage, featuring a team of security experts who are blackmailed into stealing a powerful decryption device. The film showcases the challenges of ethical hacking and the blurred lines between cybersecurity experts and cybercriminals.
+**Sneakers** is a blend of comedy and cyber espionage, featuring a team of security experts who are blackmailed into stealing a powerful decryption device. The film shows the challenges of ethical hacking and the blurred lines between cybersecurity experts and cybercriminals.
 
 {{< figure src="sneakers.jpg" alt="Sneakers Movie Poster" link="https://amzn.to/3PJWqJ9" >}}
 
@@ -73,7 +73,7 @@ ______
 
 ## Live Free or Die Hard (2007)
 
-The **Die Hard** series takes a cyber turn in **Live Free or Die Hard** as the iconic John McClane battles a cyber-terrorist group. The movie showcases the potential catastrophic consequences of a cyberattack on critical infrastructure.
+The **Die Hard** series takes a cyber turn in **Live Free or Die Hard** as the iconic John McClane battles a cyber-terrorist group. The movie shows the potential catastrophic consequences of a cyberattack on critical infrastructure.
 
 {{< figure src="lfdh.jpg" alt="Live Free or Die Hard Movie Poster" link="https://amzn.to/3Q9JX3a" >}}
 
@@ -97,7 +97,7 @@ ______
 
 ## Conclusion
 
-These cybersecurity movies offer thrilling entertainment while shedding light on the world of hacking, cyber threats, and the importance of cybersecurity. They serve as a reminder that the digital realm is both exciting and perilous, and vigilance is key in protecting our online lives.
+These cybersecurity movies offer thrilling entertainment while explaining the world of hacking, cyber threats, and the importance of cybersecurity. They serve as a reminder that the digital realm is both exciting and perilous, and vigilance is key in protecting our online lives.
 
 ______
 

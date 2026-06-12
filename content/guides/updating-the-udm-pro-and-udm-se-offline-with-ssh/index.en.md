@@ -83,7 +83,7 @@ Please note that the above process assumes you have the necessary firmware file 
 
 ## Conclusion
 
-Updating the firmware of your Ubiquiti Unifi UDM Pro and UDM SE devices is a crucial step to ensure optimal performance and security. While the UniFi Network Controller provides a convenient way to update the firmware, performing an offline update through command-line SSH offers a viable solution when an internet connection is not available or desirable.
+Updating the firmware of your Ubiquiti Unifi UDM Pro and UDM SE devices is a crucial step to ensure optimal performance and security. While the UniFi Network Controller provides a convenient way to update the firmware, performing an offline update through command-line SSH offers a viable solution when an internet connection isn't available or desirable.
 
 By following the steps outlined in this article, you can successfully update the firmware of your UDM Pro and UDM SE devices using command-line SSH. Remember to always use the latest firmware version provided by Ubiquiti Networks to take advantage of bug fixes, performance improvements, and security patches.
 

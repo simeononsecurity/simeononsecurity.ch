@@ -46,7 +46,7 @@ Software testing is a crucial aspect of the software development life cycle (SDL
 
 ### Advantages of Automated Testing
 
-1. **Efficiency and Speed**: Automated testing can execute a large number of test cases quickly and consistently, reducing the overall testing time. It can run tests overnight or during non-working hours, enabling faster feedback cycles.
+1. **Efficiency and Speed**: Automated testing can execute many test cases quickly and consistently, reducing the overall testing time. It can run tests overnight or during non-working hours, enabling faster feedback cycles.
 
 2. **Reusability**: Automated test scripts can be reused across different software releases and builds, saving time and effort. Once created, they can be easily executed whenever needed, ensuring consistent and reliable testing.
 
@@ -58,7 +58,7 @@ Software testing is a crucial aspect of the software development life cycle (SDL
 
 2. **Limited Adaptability**: Automated tests are typically designed to validate specific functionalities and scenarios. Adapting them to accommodate frequent changes or new features can be challenging and may require significant modifications.
 
-3. **False Positives/Negatives**: Automated tests are prone to false positives (reporting defects that are not actual issues) or false negatives (missing actual defects). Test scripts need regular updates and maintenance to avoid such inaccuracies.
+3. **False Positives/Negatives**: Automated tests are prone to false positives (reporting defects that aren't actual issues) or false negatives (missing actual defects). Test scripts need regular updates and maintenance to avoid such inaccuracies.
 
 ______
 

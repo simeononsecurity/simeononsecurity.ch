@@ -66,7 +66,7 @@ Examples of when to activate the DRP immediately include:
 
 - A power outage or other infrastructure failure that affects essential resources.
 
-Overall, activating the DRP immediately is essential to minimizing downtime and damage in the event of a disaster. By following best practices and regularly testing the activation process, organizations can ensure that they are prepared to respond quickly and effectively to any disaster.
+Overall, activating the DRP immediately is essential to minimizing downtime and damage in the event of a disaster. By following best practices and regularly testing the activation process, organizations can ensure that they're prepared to respond quickly and effectively to any disaster.
 
 ### Communicate effectively
 
@@ -88,7 +88,7 @@ Examples of effective communication during a disaster include:
 
 - A severe storm causes widespread power outages, and critical infrastructure is affected. The communication plan should outline how to notify essential personnel and stakeholders, and provide information on what steps are being taken to restore services.
 
-Overall, effective communication is essential for implementing a DRP and minimizing the impact of a disaster. By following best practices and regularly reviewing and updating the communication plan, organizations can ensure that they are prepared to respond quickly and effectively to any disaster.
+Overall, effective communication is essential for implementing a DRP and minimizing the impact of a disaster. By following best practices and regularly reviewing and updating the communication plan, organizations can ensure that they're prepared to respond quickly and effectively to any disaster.
 
 ### Document the recovery process
 
@@ -134,7 +134,7 @@ Several government regulations require organizations to have a DRP in place to p
 - **GLBA** (Gramm-Leach-Bliley Act)
 - **FERPA** (Family Educational Rights and Privacy Act)
 
-Organizations must ensure that their DRP complies with all relevant regulations and that they are regularly tested and updated to meet changing requirements.
+Organizations must ensure that their DRP complies with all relevant regulations and that they're regularly tested and updated to meet changing requirements.
 
 ## Tools and Services
 

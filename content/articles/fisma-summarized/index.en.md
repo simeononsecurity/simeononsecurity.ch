@@ -26,13 +26,13 @@ There are several key components of FISMA, including:
 
 - **Risk Management**: Federal agencies must conduct regular risk assessments to identify potential security risks and implement security controls to mitigate those risks.
 
-- **Security Control Assessment**: Federal agencies must assess the effectiveness of their security controls to ensure they are working as intended and to identify any areas that need improvement.
+- **Security Control Assessment**: Federal agencies must assess the effectiveness of their security controls to ensure they're working as intended and to identify any areas that need improvement.
 
-- **Continuous Monitoring**: Federal agencies must continuously monitor their information systems to ensure they are secure and to respond to any security incidents that occur.
+- **Continuous Monitoring**: Federal agencies must continuously monitor their information systems to ensure they're secure and to respond to any security incidents that occur.
 
 - **Incident Response**: Federal agencies must have a plan in place for responding to security incidents and must be able to quickly identify, contain, and resolve security incidents.
 
-- **Authorization and Accreditation**: Federal agencies must obtain authorization from the appropriate authority to operate their information systems, and must regularly assess and re-accredit those systems to ensure they are secure.
+- **Authorization and Accreditation**: Federal agencies must obtain authorization from the appropriate authority to operate their information systems, and must regularly assess and re-accredit those systems to ensure they're secure.
 
 ### Risk Management
 
@@ -52,19 +52,19 @@ FISMA requires federal agencies to conduct regular risk assessments to identify 
 
 ### Security Control Assessment
 
-Federal agencies must assess the effectiveness of their security controls to ensure they are working as intended and to identify any areas that need improvement. This involves the following steps:
+Federal agencies must assess the effectiveness of their security controls to ensure they're working as intended and to identify any areas that need improvement. This involves the following steps:
 
-1. **Testing**: Federal agencies must test their security controls to ensure they are working correctly and to identify any vulnerabilities that need to be addressed.
+1. **Testing**: Federal agencies must test their security controls to ensure they're working correctly and to identify any vulnerabilities that need to be addressed.
 
 2. **Evaluation**: Federal agencies must evaluate the results of the testing to determine the effectiveness of the security controls and identify any areas that need improvement.
 
 3. **Remediation**: Based on the results of the evaluation, federal agencies must develop a plan to address any vulnerabilities or areas for improvement and implement the necessary remediation actions.
 
-4. **Continuous improvement**: Federal agencies must continuously monitor and assess the effectiveness of their security controls and make improvements as necessary to ensure they are providing adequate protection for their assets.
+4. **Continuous improvement**: Federal agencies must continuously monitor and assess the effectiveness of their security controls and make improvements as necessary to ensure they're providing adequate protection for their assets.
 
 ### Continuous Monitoring
 
-Federal agencies must continuously monitor their information systems to ensure they are secure and to respond to any security incidents that occur. This includes the following steps:
+Federal agencies must continuously monitor their information systems to ensure they're secure and to respond to any security incidents that occur. This includes the following steps:
 
 1. **Real-time monitoring**: Federal agencies must use real-time monitoring tools to detect and respond to security incidents as they occur.
 
@@ -76,7 +76,7 @@ Federal agencies must continuously monitor their information systems to ensure t
 
 ### Authorization and Accreditation
 
-Federal agencies must obtain authorization from the appropriate authority to operate their information systems, and must regularly assess and re-accredit those systems to ensure they are secure. This involves the following steps:
+Federal agencies must obtain authorization from the appropriate authority to operate their information systems, and must regularly assess and re-accredit those systems to ensure they're secure. This involves the following steps:
 
 1. **System authorization**: Federal agencies must obtain authorization from the appropriate authority to operate their information systems.
 
@@ -94,11 +94,11 @@ There are several benefits of FISMA, including:
 
 ### Improved Information Security
 
-One of the primary benefits of FISMA is improved information security for federal agencies. By requiring federal agencies to establish and maintain strong information security programs, FISMA helps protect sensitive information from unauthorized access, use, or disclosure. Additionally, FISMA requires federal agencies to conduct regular risk assessments, security control assessments, and continuous monitoring, which helps ensure that their information systems remain secure over time.
+One of the primary benefits of FISMA is improved information security for federal agencies. By requiring federal agencies to establish and maintain strong information security programs, FISMA helps protect sensitive information from unauthorized access, use, or disclosure. Also, FISMA requires federal agencies to conduct regular risk assessments, security control assessments, and continuous monitoring, which helps ensure that their information systems remain secure over time.
 
 ### Better Risk Management
 
-FISMA also helps federal agencies better manage security risks by requiring them to conduct regular risk assessments and implement security controls to mitigate those risks. This helps federal agencies identify and prioritize security risks and make informed decisions about how to best mitigate those risks. Additionally, FISMA requires federal agencies to continuously monitor their information systems, which helps ensure that security risks are detected and addressed in a timely manner.
+FISMA also helps federal agencies better manage security risks by requiring them to conduct regular risk assessments and implement security controls to mitigate those risks. This helps federal agencies identify and prioritize security risks and make informed decisions about how to best mitigate those risks. Also, FISMA requires federal agencies to continuously monitor their information systems, which helps ensure that security risks are detected and addressed in a timely manner.
 
 ### Increased Transparency
 

@@ -235,7 +235,7 @@ When choosing between **Ubiquiti vs Omada** (or **Omada vs Ubiquiti**), professi
 - **Dashboard Customization**: Extensive widget options and custom views
 
 **Omada Controller:**
-- **Sophistication**: Streamlined interface focused on essential features
+- **Sophistication**: simplified interface focused on essential features
 - **Learning Curve**: Gentler, more intuitive for beginners
 - **Mobile App**: Omada app with good functionality but fewer advanced features
 - **Cloud Access**: Free for single site, paid tiers for multi-site management
@@ -497,7 +497,7 @@ ______
 | **Gateways** | Dream Machine SE $499 | ER7212PC $399 | Omada (price) |
 | **Controller Options** | Integrated or cloud (free) | Software (free)/Hardware ($89-$169)/Cloud | Omada (flexibility) |
 | **Scalability** | Excellent (1000s of devices) | Excellent (1000s of devices) | Tie |
-| **Management Complexity** | Advanced, more features | Streamlined, user-friendly | Depends on needs |
+| **Management Complexity** | Advanced, more features | simplified, user-friendly | Depends on needs |
 | **Security Features** | Excellent (IDS/IPS, DPI) | Very Good (IDS/IPS, ACLs) | Unifi (edge) |
 | **AI Optimization** | Advanced | Basic/Growing | Unifi |
 | **Reliability/MTBF** | Excellent | Excellent | Tie |

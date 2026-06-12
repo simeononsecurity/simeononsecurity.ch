@@ -22,7 +22,7 @@ Phishing scams continue to be a prevalent threat Today . Cybercriminals use vari
 
 One common tactic employed by phishing scammers is **email spoofing**. They send emails that appear to be from reputable sources, such as your bank or a well-known company, but the actual sender is a scammer. These emails often contain **deceptive links** that lead to malicious websites designed to capture your personal information.
 
-To avoid falling victim to email spoofing, you should be cautious when clicking on links in emails. Hover your mouse over the link to check the actual URL it leads to. If it looks suspicious or different from the expected website, do not click on it. Instead, open a new browser tab and manually type in the website address.
+To avoid falling victim to email spoofing, you should be cautious when clicking on links in emails. Hover your mouse over the link to check the actual URL it leads to. If it looks suspicious or different from the expected website, don't click on it. Instead, open a new browser tab and manually type in the website address.
 
 ### Impersonation of Trusted Entities
 
@@ -34,7 +34,7 @@ To avoid falling for impersonation scams, you need to **verify the legitimacy** 
 
 Another tactic used by phishing scammers involves the use of **malware** and **fake websites**. Scammers may trick you into downloading malicious software that can compromise your computer or mobile device. They can also create fake websites that closely resemble legitimate ones, aiming to deceive you into entering your credentials or financial information.
 
-To protect yourself from malware and fake websites, you need to **exercise caution** when downloading files or clicking on links. Install a reputable **antivirus software** and keep it up to date to detect and prevent malware infections. Always ensure you are on a secure website by checking for the **"https://"** prefix and the padlock icon in your browser's address bar.
+To protect yourself from malware and fake websites, you need to **exercise caution** when downloading files or clicking on links. Install a reputable **antivirus software** and keep it up to date to detect and prevent malware infections. Always ensure you're on a secure website by checking for the **"https://"** prefix and the padlock icon in your browser's address bar.
 
 ## How to Avoid Falling Victim to Phishing Scams
 
@@ -46,7 +46,7 @@ While phishing scams can be sophisticated, there are several proactive steps you
 
 ### Exercise Caution with Emails and Messages
 
-Exercise caution when receiving emails or messages, especially those that request personal information or prompt urgent action. Pay attention to details such as email addresses, grammar and spelling errors, or generic greetings that may indicate a phishing attempt. Be wary of unexpected attachments or links, even if they appear to come from trusted sources. When in doubt, **do not click on any suspicious links or download attachments**. Instead, **contact the sender directly using a verified phone number or email address** to verify the authenticity of the message.
+Exercise caution when receiving emails or messages, especially those that request personal information or prompt urgent action. Pay attention to details such as email addresses, grammar and spelling errors, or generic greetings that may indicate a phishing attempt. Be wary of unexpected attachments or links, even if they appear to come from trusted sources. When in doubt, **don't click on any suspicious links or download attachments**. Instead, **contact the sender directly using a verified phone number or email address** to verify the authenticity of the message.
 
 ### [Strengthen Passwords and Enable Two-Factor Authentication](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
@@ -64,7 +64,7 @@ Phishing scammers also target individuals through social media platforms. Be cau
 
 ### Be Wary of Unsolicited Calls
 
-Phishing scams are not limited to online channels. Scammers may also attempt to deceive you over the phone. Be wary of unsolicited calls, especially those that ask for personal information or financial details. **Never share sensitive information** over the phone unless you initiated the call and are confident in the legitimacy of the recipient.
+Phishing scams aren't limited to online channels. Scammers may also attempt to deceive you over the phone. Be wary of unsolicited calls, especially those that ask for personal information or financial details. **Never share sensitive information** over the phone unless you initiated the call and are confident in the legitimacy of the recipient.
 
 ### Stay Updated on Government Regulations and Guidelines
 

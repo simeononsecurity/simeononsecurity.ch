@@ -17,7 +17,7 @@ The physical world is increasingly instrumented with devices that watch, record,
 
 [**Eye Spy**](https://github.com/simeononsecurity/eye-spy) is a passive surveillance detection tool that exploits exactly this fact. Running on the M5Stack Atom Lite - an ESP32-PICO-D4 development board roughly the size of a sugar cube - Eye Spy continuously monitors the BLE and WiFi spectrums for the electronic signatures of recording devices, surveillance cameras, ALPR (automatic license plate reader) systems, drones, and personal trackers. When it finds something, its RGB LED changes color.
 
-It does not connect to anything. It does not transmit. It watches, scores, and lights up.
+It doesn't connect to anything. It doesn't transmit. It watches, scores, and lights up.
 
 This article is a complete technical reference: what Eye Spy detects, how the confidence-score system works, the engineering behind each detection engine, how to build and flash it, and what its practical limitations are.
 
@@ -54,7 +54,7 @@ The Atom Lite is a complete self-contained platform. No soldering, no breadboard
 
 ### Generic ESP32 DevKit
 
-A second PlatformIO build environment (`esp32dev`) targets any standard ESP32 DevKit with an onboard LED on GPIO 2. All detection logic runs identically. The DevKit build is useful for development, testing detection logic, and deployment when the Atom Lite form factor is not required.
+A second PlatformIO build environment (`esp32dev`) targets any standard ESP32 DevKit with an onboard LED on GPIO 2. All detection logic runs identically. The DevKit build is useful for development, testing detection logic, and deployment when the Atom Lite form factor isn't required.
 
 ---
 
@@ -90,7 +90,7 @@ BLE is explicitly stopped before any WiFi operations to respect the shared ESP32
 
 ### Engine 1: BLE - Passive Scanning
 
-BLE scanning is implemented using **NimBLE with no scan requests transmitted**. The device listens for BLE advertising packets without sending any response. This makes Eye Spy electronically invisible to the equipment it is scanning for - a passive scanner cannot be detected by the target.
+BLE scanning is implemented using **NimBLE with no scan requests transmitted**. The device listens for BLE advertising packets without sending any response. This makes Eye Spy electronically invisible to the equipment it is scanning for - a passive scanner can't be detected by the target.
 
 Devices weaker than **−90 dBm** are ignored to reduce false positives in dense environments.
 
@@ -322,7 +322,7 @@ The `atom-lite` environment uses the `m5stick-c` board definition - same ESP32-P
 
 ### What Eye Spy Cannot Do
 
-**5 GHz WiFi**: The ESP32 is a 2.4 GHz-only device. Any surveillance camera, ALPR system, or access point operating exclusively on 5 GHz bands will not be visible to the WiFi scan or promiscuous engines. Many modern IP cameras are 2.4 GHz capable even if they also support 5 GHz, but dedicated 5 GHz-only deployments will be missed.
+**5 GHz WiFi**: The ESP32 is a 2.4 GHz-only device. Any surveillance camera, ALPR system, or access point operating exclusively on 5 GHz bands won't be visible to the WiFi scan or promiscuous engines. Many modern IP cameras are 2.4 GHz capable even if they also support 5 GHz, but dedicated 5 GHz-only deployments will be missed.
 
 **Encrypted BLE**: Several high-end surveillance products encrypt or obfuscate their BLE advertisements. Eye Spy detects devices that broadcast identifiable signatures - OUIs, service UUIDs, manufacturer data - in plaintext. Devices that rotate MAC addresses (a privacy feature increasingly common in consumer trackers) will evade MAC-based detection and may only be caught by the persistence tracker if they rotate on a schedule slower than 5 minutes.
 
@@ -332,7 +332,7 @@ The `atom-lite` environment uses the `m5stick-c` board definition - same ESP32-P
 
 ### False Positives to Expect
 
-**Consumer cameras at neighbors' homes**: Ring, Nest, Wyze, Arlo, and Reolink cameras are ubiquitous in residential neighborhoods. Their OUIs appear in the 31-entry camera table. In residential environments, you should expect some yellow (Caution, +3) hits from neighbors' doorbell cameras. These are not false positives in the technical sense - the device *is* detecting a camera - but context matters.
+**Consumer cameras at neighbors' homes**: Ring, Nest, Wyze, Arlo, and Reolink cameras are ubiquitous in residential neighborhoods. Their OUIs appear in the 31-entry camera table. In residential environments, you should expect some yellow (Caution, +3) hits from neighbors' doorbell cameras. These aren't false positives in the technical sense - the device *is* detecting a camera - but context matters.
 
 **Retail iBeacon deployments**: Major retailers deploy iBeacon infrastructure in virtually every store. Any detection trip to a mall or grocery store will likely trigger the iBeacon detection (+2). Again, the device is doing its job - the retail tracking infrastructure really is there.
 
@@ -385,7 +385,7 @@ AirTag-based stalking is a documented problem. Eye Spy's follower detection engi
 
 ### Rental Property / Hotel Room Inspection
 
-Entering a new hotel room or rental property with Eye Spy running gives a first-pass indication of unexpected BLE and WiFi-broadcasting devices. A camera keyword SSID match or surveillance OUI in the WiFi scan engine adds Caution-level points. This is not a substitute for a proper RF sweep, but it adds a passive ambient layer to any physical inspection.
+Entering a new hotel room or rental property with Eye Spy running gives a first-pass indication of unexpected BLE and WiFi-broadcasting devices. A camera keyword SSID match or surveillance OUI in the WiFi scan engine adds Caution-level points. This isn't a substitute for a proper RF sweep, but it adds a passive ambient layer to any physical inspection.
 
 ### ALPR Deployments / Privacy Research
 
@@ -403,7 +403,7 @@ Like the WiFi Canary, Eye Spy is designed for travel form factor. The Atom Lite 
 
 The choice of passive BLE scanning (no scan request packets) has meaningful security consequences. In standard BLE scanning, a scanner transmits a SCAN_REQ packet requesting additional advertising data from each advertiser. This means active BLE scanning is mutually observable - the device being scanned sees the scanner's address in the scan request.
 
-NimBLE passive mode listens only to undirected advertising packets (ADV_IND, ADV_NONCONN_IND, ADV_SCAN_IND) without ever transmitting a SCAN_REQ. The eye-spy device produces zero BLE transmission during the scan phase. An Axon body camera, Flock device, or AirTag being detected cannot observe or react to the scanner's presence.
+NimBLE passive mode listens only to undirected advertising packets (ADV_IND, ADV_NONCONN_IND, ADV_SCAN_IND) without ever transmitting a SCAN_REQ. The eye-spy device produces zero BLE transmission during the scan phase. An Axon body camera, Flock device, or AirTag being detected can't observe or react to the scanner's presence.
 
 ### The Persistence Tracker Design
 

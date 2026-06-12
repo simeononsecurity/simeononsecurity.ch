@@ -24,7 +24,7 @@ The 3-2-1 backup rule is a backup strategy that ensures your data is securely st
 - **2** different storage types are used
 - **1** copy is stored offsite
 
-In essence, you have three copies of your data: the original copy and two backups. These copies are stored across two different storage types, such as an external hard drive and a cloud storage service. Additionally, one of the backup copies is stored offsite, providing an additional layer of protection against physical disasters such as fires or floods.
+In essence, you have three copies of your data: the original copy and two backups. These copies are stored across two different storage types, such as an external hard drive and a cloud storage service. Also, one of the backup copies is stored offsite, providing an additional layer of protection against physical disasters such as fires or floods.
 
 ______
 
@@ -62,4 +62,4 @@ ______
 
 ## Conclusion
 
-Wrapping up, the 3-2-1 backup rule is an essential backup strategy that ensures your data is stored securely across multiple locations and storage types. With the increasing threat of data loss due to cyber attacks, natural disasters, and hardware failures, you need to have a backup plan in place. By implementing the 3-2-1 backup rule, you can safeguard your valuable data, reduce the risk of data loss, and quickly recover from data loss. Take the time to choose your storage types, automate your backups, test your backups regularly, store your backups offsite, encrypt your backups, and update your backups regularly. By following these steps, you can rest assured that your data is secure and readily recoverable in the event of a disaster.
+Wrapping up, the 3-2-1 backup rule is an essential backup strategy that ensures your data is stored securely across multiple locations and storage types. With the increasing threat of data loss due to cyber attacks, natural disasters, and hardware failures, you need to have a backup plan in place. By implementing the 3-2-1 backup rule, you can safeguard your valuable data, reduce the risk of data loss, and quickly recover from data loss. Take the time to choose your storage types, automate your backups, test your backups regularly, store your backups offsite, encrypt your backups, and update your backups regularly. By following these steps, you can that your data is secure and readily recoverable in the event of a disaster.

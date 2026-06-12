@@ -10,13 +10,13 @@ coverAlt: "A hardware wallet with a padlock and chain around it, symbolizing the
 coverCaption: ""
 ---
 
-**Cryptocurrency has gained immense popularity** in recent years and has been a major talking point in financial circles. It has been touted as the future of money and as a way to make quick and easy profits. However, with the rise of cryptocurrency comes the question of where to store it. Many investors choose to store their cryptocurrency on exchanges, but this is not always the best choice. In fact, **storing your crypto on exchanges is the equivalent of storing your money in a mattress**.
+**Cryptocurrency has gained immense popularity** in recent years and has been a major talking point in financial circles. It has been touted as the future of money and as a way to make quick and easy profits. However, with the rise of cryptocurrency comes the question of where to store it. Many investors choose to store their cryptocurrency on exchanges, but this isn't always the best choice. In fact, **storing your crypto on exchanges is the equivalent of storing your money in a mattress**.
 
 ______
 
 ## The Risks of Storing Crypto on Exchanges
 
-Exchanges are platforms that allow users to buy, sell, and trade cryptocurrency. They are popular because they are easy to use and provide instant access to a wide range of cryptocurrencies. However, there are several risks associated with storing your crypto on exchanges.
+Exchanges are platforms that allow users to buy, sell, and trade cryptocurrency. They are popular because they're easy to use and provide instant access to many cryptocurrencies. However, there are several risks associated with storing your crypto on exchanges.
 
 **First, exchanges are a prime target for hackers**. They hold large amounts of valuable assets and are therefore attractive to cyber criminals. In recent years, several major exchanges have been hacked, resulting in the loss of millions of dollars in cryptocurrency.
 
@@ -30,11 +30,11 @@ ______
 
 ## The Benefits of Storing Crypto in a Hardware Wallet
 
-**A hardware wallet is a physical device that stores your cryptocurrency offline**. It is considered to be the safest way to store crypto because it is not connected to the internet and is therefore not vulnerable to hacking or technical problems.
+**A hardware wallet is a physical device that stores your cryptocurrency offline**. It is considered to be the safest way to store crypto because it's not connected to the internet and is therefore not vulnerable to hacking or technical problems.
 
-**Hardware wallets** also **offer complete control over your assets**. You have the private keys to your assets and can access them at any time. This means that you are not subject to the whims of an exchange or government regulation.
+**Hardware wallets** also **offer complete control over your assets**. You have the private keys to your assets and can access them at any time. This means that you aren't subject to the whims of an exchange or government regulation.
 
-Finally, hardware wallets are portable and easy to use. They can be used to store a wide range of cryptocurrencies and provide quick and easy access to your assets.
+Finally, hardware wallets are portable and easy to use. They can be used to store many cryptocurrencies and provide quick and easy access to your assets.
 
 ______
 
@@ -48,7 +48,7 @@ ______
 
 ## Recommendations for Hardware Wallets
 
-If you are considering purchasing a hardware wallet, there are several options available. Two popular and highly rated options are the [Trezor wallet](https://amzn.to/3xfyuEM) and the [Ledger wallet](https://amzn.to/3jSMyRE). **These wallets offer a high level of security** and are user-friendly, making them **a great choice for crypto investors**.
+If you're considering purchasing a hardware wallet, there are several options available. Two popular and highly rated options are the [Trezor wallet](https://amzn.to/3xfyuEM) and the [Ledger wallet](https://amzn.to/3jSMyRE). **These wallets offer a high level of security** and are user-friendly, making them **a great choice for crypto investors**.
 
 ______
 

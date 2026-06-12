@@ -33,7 +33,7 @@ ______
 ## Understanding the Root Causes
 To effectively address the issue of human error, you need to understand the underlying causes:
 
-1. **Lack of Training:** Employees who are not adequately trained in cybersecurity best practices are more likely to make errors.
+1. **Lack of Training:** Employees who aren't adequately trained in cybersecurity best practices are more likely to make errors.
 2. **Workplace Stress:** High-pressure environments can lead to lapses in judgment and concentration.
 3. **Negligence:** In some cases, employees may simply neglect cybersecurity protocols.
 

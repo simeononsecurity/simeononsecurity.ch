@@ -7,7 +7,7 @@ lastmod: 2026-05-24
 description: "Learn how to install GrapheneOS on your Google Pixel device for enhanced privacy and security using the web installer or CLI method."
 tags: ["GrapheneOS", "Google Pixel", "privacy", "security", "Android", "mobile devices", "operating system", "installation guide", "custom ROM", "privacy-focused", "data protection", "secure OS", "open-source", "device security", "privacy features", "personal data", "mobile privacy", "data privacy", "device customization", "technology", "Pixel installation", "privacy-focused operating system", "GrapheneOS installation", "mobile security", "privacy and security", "Pixel device customization", "privacy enhancements", "data protection guide", "secure operating system", "Pixel privacy features", "mobile data privacy", "fastboot", "bootloader", "verified boot", "Pixel 10", "Pixel 9"]
 cover: "/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png"
-coverAlt: "A colorful cartoon illustration showcasing a Google Pixel device with a shield symbolizing enhanced privacy and security features."
+coverAlt: "A colorful cartoon illustration showing a Google Pixel device with a shield symbolizing enhanced privacy and security features."
 coverCaption: ""
 ---
 
@@ -46,7 +46,7 @@ GrapheneOS is an open-source, privacy-focused operating system based on Android.
 
 All of the above except ChromeOS, GrapheneOS, and Android (which can only use the web installer).
 
-Older end-of-life versions of these platforms can also be used but are not officially supported. **Make sure your operating system is up-to-date before proceeding.**
+Older end-of-life versions of these platforms can also be used but aren't officially supported. **Make sure your operating system is up-to-date before proceeding.**
 
 ### Officially Supported Browsers (Web Installer Only)
 
@@ -71,7 +71,7 @@ You need one of the [officially supported Pixel devices](https://grapheneos.org/
 OEM unlocking must be enabled from within the operating system before you can proceed.
 
 1. Go to **Settings → About phone/tablet** and repeatedly tap **Build number** until developer mode is enabled.
-2. Go to **Settings → System → Developer options** and toggle on **OEM unlocking**. On some carrier-capable SKUs, this requires an active internet connection so the stock OS can verify the device was not sold as a carrier-locked unit.
+2. Go to **Settings → System → Developer options** and toggle on **OEM unlocking**. On some carrier-capable SKUs, this requires an active internet connection so the stock OS can verify the device wasn't sold as a carrier-locked unit.
 
 > **Pixel 6a note:** OEM unlocking won't work with the factory stock OS version. Update to the **June 2022** release or later via OTA, then perform a factory reset to fix OEM unlocking.
 
@@ -107,7 +107,7 @@ sudo apt install android-sdk-platform-tools-common
 
 ### Step 3: Boot into Bootloader Interface
 
-Hold the **volume down** button while the device boots (either power it on from off while holding volume down, or reboot and hold volume down). The device must display a **red warning triangle** and the words **"Fastboot Mode"** - do not press the power button to activate "Start."
+Hold the **volume down** button while the device boots (either power it on from off while holding volume down, or reboot and hold volume down). The device must display a **red warning triangle** and the words **"Fastboot Mode"** - don't press the power button to activate "Start."
 
 ### Step 4: Connect Your Device
 

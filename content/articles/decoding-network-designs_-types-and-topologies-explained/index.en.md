@@ -12,9 +12,9 @@ cover: "/img/cover/decoding-network-designs_-types-and-topologies-explained.jpeg
 Decoding Network Designs: Types and Topologies Explained
 ========================================================
 
-In the world of networking, understanding different types of network designs and topologies is crucial for creating efficient and reliable networks. Network designs refer to the overall structure and layout of a network, while network topologies define the arrangement of network devices and connections. This article will dig into the various types of network designs and explore different network topologies, providing key takeaways to help you better comprehend and implement network designs in your own projects.
+In the world of networking, understanding different types of network designs and topologies is crucial for creating efficient and reliable networks. Network designs refer to the overall structure and layout of a network, while network topologies define the arrangement of network devices and connections. This article will dig into the various types of network designs and explore different network topologies, providing main points to help you better comprehend and implement network designs in your own projects.
 
-### Key Takeaways
+### main points
 
 * Hierarchical design is a common network design approach that involves dividing a network into multiple layers or tiers.
 * Mesh design provides high redundancy and fault tolerance by connecting each network device directly to every other device.
@@ -37,7 +37,7 @@ In a hierarchical design, the network is divided into three main layers: the cor
 
 **Access layer**: The access layer is the closest layer to end devices, such as computers, printers, and servers. It provides connectivity to these devices and controls their access to the network.
 
-A hierarchical design offers several advantages for network security. By separating the network into different layers, it allows for better control and segmentation of network traffic. This helps in isolating potential security threats and limiting their impact on the entire network. Additionally, the hierarchical structure simplifies network management and troubleshooting, making it easier for cybersecurity experts to monitor and secure the network.
+A hierarchical design offers several advantages for network security. By separating the network into different layers, it allows for better control and segmentation of network traffic. This helps in isolating potential security threats and limiting their impact on the entire network. Also, the hierarchical structure simplifies network management and troubleshooting, making it easier for cybersecurity experts to monitor and secure the network.
 
 To summarize, hierarchical design is a network architecture that organizes devices into layers, providing scalability, manageability, and efficient traffic flow. It consists of the core layer, distribution layer, and access layer, each with specific roles and functions. This design enhances network security by enabling better control and segmentation of network traffic, simplifying management and troubleshooting for cybersecurity experts.
 
@@ -49,7 +49,7 @@ Mesh design is a network topology where each device is connected to every other 
 
 Mesh design is particularly beneficial in the context of cybersecurity. By creating multiple connections between devices, it becomes more challenging for an attacker to disrupt communication or compromise the network. The decentralized nature of mesh design also reduces the impact of a single point of failure, making it resilient against attacks.
 
-In terms of encoding and decoding data, mesh design does not directly influence these processes. However, its inherent redundancy and fault tolerance contribute to the overall security and reliability of [data transmission](https://www.zenarmor.com/docs/network-basics/what-is-osi-model-and-its-security).
+In terms of encoding and decoding data, mesh design doesn't directly influence these processes. However, its inherent redundancy and fault tolerance contribute to the overall security and reliability of [data transmission](https://www.zenarmor.com/docs/network-basics/what-is-osi-model-and-its-security).
 
 ### Star Design
 
@@ -59,9 +59,9 @@ A star design is a type of network design where all devices are connected to a c
 
 In a star design, the central hub plays a crucial role in the network's operation. It manages the flow of data between devices, ensuring efficient communication and coordination. The hub also provides a centralized point for network administration and troubleshooting.
 
-A star design offers several advantages. First, it provides a high level of reliability and fault tolerance. If one device fails, it does not affect the operation of other devices in the network. Second, it allows for easy scalability and expansion. New devices can be added to the network by simply connecting them to the central hub. Finally, a star design simplifies network management and troubleshooting, as the hub serves as a single point of control.
+A star design offers several advantages. First, it provides a high level of reliability and fault tolerance. If one device fails, it doesn't affect the operation of other devices in the network. Second, it allows for easy scalability and expansion. New devices can be added to the network by simply connecting them to the central hub. Finally, a star design simplifies network management and troubleshooting, as the hub serves as a single point of control.
 
-However, a star design also has some limitations. It requires more cabling compared to other network designs, as each device needs a separate link to the central hub. This can increase the cost and complexity of the network infrastructure. Additionally, the central hub can become a single point of failure. If the hub fails, the entire network may be affected.
+However, a star design also has some limitations. It requires more cabling compared to other network designs, as each device needs a separate link to the central hub. This can increase the cost and complexity of the network infrastructure. Also, the central hub can become a single point of failure. If the hub fails, the entire network may be affected.
 
 Overall, a star design is a popular choice for small to medium-sized networks. Its centralized structure and ease of management make it [suitable for various applications](https://www.studyforfe.com/blog/computer-networks/), including computer networks in FE Electrical.
 
@@ -77,7 +77,7 @@ Ring design offers several advantages, including:
 
 ### Bus Design
 
-Bus design is a type of network design where all devices are connected to a single communication line called a bus. In this design, data is transmitted in a [sequential manner](https://www.rsinc.com/defining-local-area-network-lan.php), with each device receiving the data and determining if it is the intended recipient. This design is commonly used in local area networks (LANs) and is known for its simplicity and cost-effectiveness.
+Bus design is a type of network design where all devices are connected to a single communication line called a bus. In this design, data is transmitted in a [sequential manner](https://www.rsinc.com/defining-local-area-network-lan.php), with each device receiving the data and determining if it's the intended recipient. This design is commonly used in local area networks (LANs) and is known for its simplicity and cost-effectiveness.
 
 Exploring Network Topologies
 ----------------------------
@@ -86,7 +86,7 @@ Exploring Network Topologies
 
 ### Physical Topology
 
-Physical topology refers to the physical layout of networked devices and their [connections](https://www.computerhope.com/jargon/r/ringtopo.htm). It focuses on the arrangement of devices and the way they are connected to each other. This aspect of network design is crucial for understanding the overall structure and functionality of a network.
+Physical topology refers to the physical layout of networked devices and their [connections](https://www.computerhope.com/jargon/r/ringtopo.htm). It focuses on the arrangement of devices and the way they're connected to each other. This aspect of network design is crucial for understanding the overall structure and functionality of a network.
 
 ### Logical Topology
 
@@ -104,7 +104,7 @@ Multipoint Topology is a network topology where multiple devices are connected t
 
 [Hybrid Topology is a combination](https://www.guru99.com/networking-interview-questions.html) of two or more different network topologies. It is designed to leverage the advantages of multiple topologies while minimizing their limitations. This type of topology is commonly used in large-scale networks where different sections of the network require different types of connections. By combining different topologies, hybrid topology provides flexibility, scalability, and robustness to the network infrastructure.
 
-Welcome to the article section of SimeonOnSecurity's Guides! In this section, we will be exploring network topologies and diving deep into the intricacies of different network structures. Whether you are a beginner looking to understand the basics or an experienced professional seeking advanced techniques, our guides will provide you with valuable insights and practical tutorials. Discover the best practices in network management, cybersecurity practices, and system administration. Enhance your skills and gain valuable [knowledge](https://simeononsecurity.com/guides/) by exploring our detailed guides. Join us on this journey of exploration and take your understanding of network topologies to the next level!
+Welcome to the article section of SimeonOnSecurity's Guides! In this section, we will be exploring network topologies and diving deep into the intricacies of different network structures. Whether you're a beginner looking to understand the basics or an experienced professional seeking advanced techniques, our guides will provide you with valuable insights and practical tutorials. Discover the best practices in network management, cybersecurity practices, and system administration. Enhance your skills and gain valuable [knowledge](https://simeononsecurity.com/guides/) by exploring our detailed guides. Join us on this journey of exploration and take your understanding of network topologies to the next level!
 
 Conclusion
 ----------

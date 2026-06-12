@@ -380,7 +380,7 @@ ______
    - Install FlockYou dashboard per STS Collective instructions
    - View live detections in browser interface
 
-**Note**: This is proprietary firmware - cannot be reflashed with open-source versions without losing STS firmware.
+**Note**: This is proprietary firmware - can't be reflashed with open-source versions without losing STS firmware.
 
 ---
 
@@ -873,11 +873,11 @@ The Flock-You project thrives on community contributions:
 
 ______
 
-## Conclusion: Empowering Privacy Through Technology
+## Conclusion: helping Privacy Through Technology
 
 The **Flock-You detection project** represents a powerful democratization of counter-surveillance technology. For less than the cost of a monthly streaming subscription, individuals can gain awareness of the surveillance infrastructure surrounding them. Whether you choose the **DIY ESP32 build ($5-12)**, the **ready-to-go M5 Atom Lite ($40)**, or the **multi-mode OUI-SPY ($85)**, you're investing in privacy awareness and digital autonomy.
 
-### Key Takeaways
+### main points
 
 ✅ **Open-source empowerment**: Community-driven development ensures accessibility
 ✅ **Affordable technology**: Consumer-grade hardware (ESP32) makes detection accessible
@@ -897,7 +897,7 @@ The **Flock-You detection project** represents a powerful democratization of cou
 
 The proliferation of ALPR surveillance represents a significant shift in privacy dynamics. Counter-surveillance technologies like Flock-You offer a crucial capability: **awareness**. When we understand the scope and scale of surveillance, we can make informed decisions about our movements, our advocacy, and our expectations of privacy in public spaces.
 
-Technology enabled pervasive surveillance - but technology can also empower those who value privacy. The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
+Technology enabled pervasive surveillance - but technology can also help those who value privacy. The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
 
 ______
 

@@ -41,7 +41,7 @@ RATs allow attackers to **transfer files** between the compromised system and th
 
 ### 4. System Manipulation and Exploitation
 
-Remote access trojans provide attackers with the ability to **manipulate system settings**, install or uninstall programs, modify registry entries, and execute arbitrary commands on the victim's computer system. For example, an attacker can modify system configurations to disable security measures or install malicious software for future attacks. Additionally, attackers can exploit system vulnerabilities to further compromise the targeted system or use it as a launching pad for broader attacks within a network. This level of control and manipulation allows attackers to exploit the victim's system for their malicious purposes.
+Remote access trojans provide attackers with the ability to **manipulate system settings**, install or uninstall programs, modify registry entries, and execute arbitrary commands on the victim's computer system. For example, an attacker can modify system configurations to disable security measures or install malicious software for future attacks. Also, attackers can exploit system vulnerabilities to further compromise the targeted system or use it as a launching pad for broader attacks within a network. This level of control and manipulation allows attackers to exploit the victim's system for their malicious purposes.
 
 ______
 
@@ -59,14 +59,14 @@ Victims of RAT attacks may unknowingly fall victim to **unauthorized surveillanc
 
 ### 3. System Disruption and Damage
 
-Attackers can leverage remote access trojans to **disrupt the normal functioning** of a system or network. They may delete or modify critical files, rendering the system unstable or unusable. Additionally, RATs can serve as a gateway for further **malware infections**, causing additional damage or facilitating widespread attacks within an organization's infrastructure. A notable example is the **NotPetya** ransomware attack, which used a RAT to propagate across networks and caused significant disruptions in various organizations.
+Attackers can leverage remote access trojans to **disrupt the normal functioning** of a system or network. They may delete or modify critical files, rendering the system unstable or unusable. Also, RATs can serve as a gateway for further **malware infections**, causing additional damage or facilitating widespread attacks within an organization's infrastructure. A notable example is the **NotPetya** ransomware attack, which used a RAT to propagate across networks and caused significant disruptions in various organizations.
 ______
 
 ## Protecting Against Remote Access Trojans
 
 To mitigate the risks associated with **remote access trojans**, individuals and organizations should implement robust security measures. Here are some essential steps to consider:
 
-1. [**Keep software up to date:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/) Regularly update operating systems and software applications to patch known vulnerabilities that attackers may exploit. For example, Microsoft releases security updates on a regular basis to address vulnerabilities in its products.
+1. [**Keep software up to date:**](https://simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/) Regularly update operating systems and software applications to patch known vulnerabilities that attackers may exploit. For example, Microsoft releases security updates regularly to address vulnerabilities in its products.
 
 2. [**Use strong passwords:**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) Create unique and complex passwords for all accounts and consider implementing **multi-factor authentication (MFA)** for added security. Services like **Google Authenticator** or **Microsoft Authenticator** provide an extra layer of protection.
 
@@ -87,7 +87,7 @@ ______
 
 ## Conclusion
 
-**Remote access trojans** (RATs) pose a significant threat to the security and privacy of computer systems. With their ability to establish **covert remote control**, **surveil activities**, and **exploit vulnerabilities**, RATs can cause severe harm to individuals and organizations. Understanding the features and risks associated with remote access trojans is crucial in implementing effective security measures and safeguarding against potential attacks. By staying **vigilant**, maintaining up-to-date security practices, and fostering a culture of **cybersecurity awareness**, individuals and organizations can better protect themselves against the risks posed by remote access trojans.
+**Remote access trojans** (RATs) pose a significant threat to the security and privacy of computer systems. With their ability to establish **covert remote control**, **surveil activities**, and **exploit vulnerabilities**, RATs can cause severe harm to individuals and organizations. Understanding the features and risks associated with remote access trojans is crucial in implementing effective security measures and safeguarding against potential attacks. By staying **vigilant**, maintaining up-to-date security practices, and building a culture of **cybersecurity awareness**, individuals and organizations can better protect themselves against the risks posed by remote access trojans.
 
 
 ______

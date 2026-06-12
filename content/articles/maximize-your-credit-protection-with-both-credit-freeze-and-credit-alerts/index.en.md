@@ -18,18 +18,18 @@ A **credit freeze** is a service offered by the three major credit bureaus - Equ
 
 ## What is a Fraud Alert?
 
-A **fraud alert** is a service offered by the three major credit bureaus that alerts creditors to take additional steps to verify your identity before granting credit. This means that if someone tries to open a new account in your name, the creditor will be required to take additional steps to verify your identity before granting credit. Unlike a credit freeze, a fraud alert does not block access to your credit report, but it adds an extra layer of protection against unauthorized access.
+A **fraud alert** is a service offered by the three major credit bureaus that alerts creditors to take additional steps to verify your identity before granting credit. This means that if someone tries to open a new account in your name, the creditor will be required to take additional steps to verify your identity before granting credit. Unlike a credit freeze, a fraud alert doesn't block access to your credit report, but it adds an extra layer of protection against unauthorized access.
 
 ## Why Use a Freeze and Alert Combination?
 
-While a credit freeze is an effective way to prevent unauthorized access to your credit, it can be defeated by a determined adversary. A fraud alert adds additional layers of protection and should demand a phone call to a predetermined number. By combining a credit freeze and fraud alert, you are **maximizing your credit protection** and deterring a common criminal from accessing your credit report without your permission.
+While a credit freeze is an effective way to prevent unauthorized access to your credit, it can be defeated by a determined adversary. A fraud alert adds additional layers of protection and should demand a phone call to a predetermined number. By combining a credit freeze and fraud alert, you're **maximizing your credit protection** and deterring a common criminal from accessing your credit report without your permission.
 
 ____________________
 
 ## How to Set Up a Freeze and Alert Combination
 
-Setting up a credit freeze and fraud alert is simple and can be done online in a matter of minutes. To set up a credit freeze, visit the websites of Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html), and TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) and follow the instructions to freeze your credit. To set up a fraud alert, visit the same websites and select the 7-year extended fraud alert option. If you are a victim of identity theft, you may be eligible for a 7-year fraud alert, but proof of identity theft, such as a police report, may be required.
+Setting up a credit freeze and fraud alert is simple and can be done online in a matter of minutes. To set up a credit freeze, visit the websites of Equifax [https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/](https://www.equifax.com/personal/credit-report-services/credit-fraud-alerts/), Experian [https://www.experian.com/fraud/center.html](https://www.experian.com/fraud/center.html), and TransUnion [https://www.transunion.com/fraud-alerts](https://www.transunion.com/fraud-alerts) and follow the instructions to freeze your credit. To set up a fraud alert, visit the same websites and select the 7-year extended fraud alert option. If you're a victim of identity theft, you may be eligible for a 7-year fraud alert, but proof of identity theft, such as a police report, may be required.
 
 ____________________
 
-Wrapping up, combining a credit freeze and fraud alert is the most effective way to protect your credit from unauthorized access. By adding multiple layers of protection, you are deterring common criminals from accessing your credit report without your permission. Take advantage of these free services offered by the three major credit bureaus to **maximize your credit protection** today.
+Wrapping up, combining a credit freeze and fraud alert is the most effective way to protect your credit from unauthorized access. By adding multiple layers of protection, you're deterring common criminals from accessing your credit report without your permission. Take advantage of these free services offered by the three major credit bureaus to **maximize your credit protection** today.

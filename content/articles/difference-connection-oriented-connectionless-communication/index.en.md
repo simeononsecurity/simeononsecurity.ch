@@ -41,7 +41,7 @@ Connection-oriented communication offers several advantages:
 
 ## Connectionless Communication
 
-In contrast to connection-oriented communication, connectionless communication does not establish a dedicated connection before data transmission. Instead, each packet is treated as an independent unit and is routed independently through the network. A well-known example of a connectionless protocol is the **User Datagram Protocol (UDP)**.
+In contrast to connection-oriented communication, connectionless communication doesn't establish a dedicated connection before data transmission. Instead, each packet is treated as an independent unit and is routed independently through the network. A well-known example of a connectionless protocol is the **User Datagram Protocol (UDP)**.
 
 ### How Connectionless Communication Works
 
@@ -64,7 +64,7 @@ Now, let's compare the key differences between connection-oriented and connectio
 | | Connection-Oriented Communication | Connectionless Communication |
 |--------------------|----------------------------------------|---------------------------------------|
 | Establishment | Requires connection establishment phase | No connection establishment required |
-| Reliability | Reliable data transmission | Data transmission is not guaranteed |
+| Reliability | Reliable data transmission | Data transmission isn't guaranteed |
 | Ordering | Data packets are delivered in order | Data packets may arrive out of order |
 | Overhead | Higher overhead due to connection setup | Lower overhead due to no connection |
 | Error Handling | Error recovery mechanisms are in place | No error recovery mechanisms included |
@@ -75,7 +75,7 @@ Now, let's compare the key differences between connection-oriented and connectio
 
 Connection-oriented and connectionless communication also have implications for routing within a network. Routing refers to the process of selecting the optimal path for data transmission from the source to the destination.
 
-In connection-oriented routing, the network infrastructure establishes a predetermined path for data transmission when the connection is established. This path remains unchanged throughout the communication session. In contrast, connectionless routing does not require a predefined path. Each packet is independently routed based on the current network conditions and available routes.
+In connection-oriented routing, the network infrastructure establishes a predetermined path for data transmission when the connection is established. This path remains unchanged throughout the communication session. In contrast, connectionless routing doesn't require a predefined path. Each packet is independently routed based on the current network conditions and available routes.
 
 ## Conclusion
 

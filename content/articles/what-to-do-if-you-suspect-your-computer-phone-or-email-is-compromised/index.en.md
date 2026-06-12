@@ -26,7 +26,7 @@ The first step to take when you suspect your email, desktop, or phone has been c
 
 - **Unexpected charges**: If you suspect that your phone has been compromised, look for any unexpected charges on your phone bill or unusual activity in your call or text message history.
 
-It's important to take note of any signs of compromise so that you can take appropriate action to protect your device and data. If you are unsure if your device has been compromised, it's always better to error on the safe side. 
+It's important to take note of any signs of compromise so that you can take appropriate action to protect your device and data. If you're unsure if your device has been compromised, it's always better to error on the safe side. 
 
 Learn how to identify [phishing and suspicious emails](https://simeononsecurity.com/articles/how-to-identify-phishing/) and [social engineering](https://simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/).
 
@@ -76,7 +76,7 @@ Also, at this step, most services have dashboards where you can see the active a
 - **Verify the account recovery information** on the account, including security questions, phone number, or alternate email address
 - **Remove any unfamiliar information** and replace it with your own information to prevent attackers from using your account recovery information to gain access to your account in the future
 
-Lastly, after changing the password and kicking out other sessions, you should take the time to verify the account recovery information on the account. This may include your security questions, phone number, or alternate email address. If you find any unfamiliar information, remove it and replace it with your own information. This will help prevent attackers from using your account recovery information to gain access to your account in the future.
+Finally, after changing the password and kicking out other sessions, you should take the time to verify the account recovery information on the account. This may include your security questions, phone number, or alternate email address. If you find any unfamiliar information, remove it and replace it with your own information. This will help prevent attackers from using your account recovery information to gain access to your account in the future.
 
 ______
 
@@ -125,7 +125,7 @@ ______
 - **Backup any important files** before wiping your device if you suspect your device is compromised
 - **Verify** that your **important files are secure** by scanning them with antivirus software before backing them up
 
-If you suspect your device is compromised and have confirmed any sort of indicator, the next step is to backup any important files. However, before backing up your files, you should verify that they are secure by scanning them with antivirus software. This will help ensure that the files you backup are not infected with malware that could compromise your new device.
+If you suspect your device is compromised and have confirmed any sort of indicator, the next step is to backup any important files. However, before backing up your files, you should verify that they're secure by scanning them with antivirus software. This will help ensure that the files you backup aren't infected with malware that could compromise your new device.
 
 - **Wiping your device** with a **clean install** of the operating system **will remove any malware or other compromises** on your device and give you a fresh start with a secure device
 - A **reset or factory reset** will do for most situations if a clean install isn't possible
@@ -133,7 +133,7 @@ If you suspect your device is compromised and have confirmed any sort of indicat
 Once you have verified that your important files are secure, you should wipe your device with a clean install of the operating system. This will remove any malware or other compromises on your device and give you a fresh start with a secure device. If a clean install isn't possible, a reset or factory reset will do for most situations.
 
 - Remember that **wiping your device will erase all data on the device**, so it's important to backup any important files before wiping your device
-- Make sure to **backup your files to a secure location**, such as an external hard drive or a cloud storage service, to ensure they are not lost during the wiping process
+- Make sure to **backup your files to a secure location**, such as an external hard drive or a cloud storage service, to ensure they aren't lost during the wiping process
 - Once you have wiped your device, **take steps to secure it and prevent future compromises**, such as keeping your software and security tools up to date and avoiding suspicious downloads and websites.
 
 Remember, wiping your device will erase all data on the device, so it's important to backup any important files before wiping your device.
@@ -149,7 +149,7 @@ ______
 - **Compromised crypto keys could result in a loss of funds**
 
 
-If you have crypto wallets on your compromised device, treat your crypto keys as compromised as well. Crypto keys are used to access and transfer cryptocurrency, and if they are compromised, it could result in a loss of funds.
+If you have crypto wallets on your compromised device, treat your crypto keys as compromised as well. Crypto keys are used to access and transfer cryptocurrency, and if they're compromised, it could result in a loss of funds.
 
 - It is important to **secure your crypto wallets and keys** to maintain the security of your funds
 - **Attackers may steal your previous keys and access your funds**, so you need to take action to protect them

@@ -95,7 +95,7 @@ ______
 
 Implementing **threat hunting** as a **proactive cybersecurity strategy** is essential in today's rapidly changing threat landscape. By combining manual and automated techniques, organizations can proactively identify and respond to threats **before they cause any harm**.
 
-To further enhance your understanding of threat hunting, you can explore resources like the [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs). This framework can assist organizations in developing effective threat hunting strategies and methodologies. Additionally, there are various **threat hunting tools** available, such as Sysinternals Sysmon, Elastic Security, and Falcon X, that can aid in the process of threat hunting.
+To further enhance your understanding of threat hunting, you can explore resources like the [MITRE ATT&CK framework](https://attack.mitre.org/), which provides a comprehensive knowledge base of adversary tactics, techniques, and procedures (TTPs). This framework can assist organizations in developing effective threat hunting strategies and methodologies. Also, there are various **threat hunting tools** available, such as Sysinternals Sysmon, Elastic Security, and Falcon X, that can aid in the process of threat hunting.
 
 You need to recognize that threat hunting should be a continuous process. Cybersecurity threats are constantly evolving, and organizations need to remain vigilant and proactive in identifying and mitigating these threats.
 

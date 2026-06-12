@@ -7,8 +7,8 @@ description: "Gain a comprehensive understanding of the OSI layers and TCP IP mo
 genre: ["Networking Basics", "OSI Layers", "TCP IP Model", "Network Protocols", "Communication Models", "Networking Fundamentals", "Data Transmission", "Network Troubleshooting", "Network Architecture", "Networking Concepts"]
 tags: ["OSI layers", "TCP IP model", "networking basics", "network protocols", "communication models", "data transmission", "network troubleshooting", "network architecture", "networking concepts", "networking fundamentals", "networking frameworks", "network protocols explanation", "networking standards", "physical layer", "data link layer", "network layer", "transport layer", "session layer", "presentation layer", "application layer", "TCP IP layers", "network interface layer", "internet layer", "transport layer", "application layer", "networking protocols explained", "networking models", "networking fundamentals explained", "networking guide", "networking tutorial", "networking best practices"]
 cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
-coverAlt: "An animated illustration showcasing a network of interconnected nodes with data flowing between them, symbolizing efficient communication and networking."  
-coverCaption: "Unlock the Power of Networking for Seamless Communication."
+coverAlt: "An animated illustration showing a network of interconnected nodes with data flowing between them, symbolizing efficient communication and networking."  
+coverCaption: "Unlock the Power of Networking for smooth Communication."
 slug: "networking-basics-osi-layers-tcp-ip-model"
 ---
 ## Networking Basics: Understanding the OSI Layers and TCP IP Model
@@ -34,7 +34,7 @@ The **OSI model** is a conceptual framework that describes how network protocols
 
 {{< youtube id="0y6FtKsg6J4" >}}
 
-Let's explore each layer in detail:
+Here's a look at each layer in detail:
 
 ### Layer 1: Physical Layer
 
@@ -78,7 +78,7 @@ While the OSI model provides a conceptual framework, the TCP IP model is the act
 
 {{< youtube id="OTwp3xtd4dg" >}}
 
-Let's explore these layers:
+Here's a look at these layers:
 
 ### Layer 1: Network Interface Layer
 

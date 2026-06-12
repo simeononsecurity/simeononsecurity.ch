@@ -16,7 +16,7 @@ The world is experiencing a rapid shift towards digitization, with the integrati
 
 ### Responsibility
 
-As the amount of personal and corporate data being collected and stored online grows, the **responsibility** of protecting that data falls on both the entities collecting it and the individuals whose data is being collected. It is the ethical responsibility of companies and organizations to protect the privacy and security of their customers' information. Companies and organizations should implement appropriate security measures to safeguard personal and corporate data from cyber-attacks and breaches.
+As the amount of personal and corporate data being collected and stored online grows, the **responsibility** of protecting that data falls on both the entities collecting it and the individuals whose data is being collected. It's the ethical responsibility of companies and organizations to protect the privacy and security of their customers' information. Companies and organizations should implement appropriate security measures to safeguard personal and corporate data from cyber-attacks and breaches.
 
 For instance, in 2019, the personal information of approximately 100 million Capital One customers was stolen by a hacker. As a result, the bank faced legal action and was forced to pay a fine of $80 million. This event highlights the importance of companies and organizations being responsible for protecting their customers' data.
 

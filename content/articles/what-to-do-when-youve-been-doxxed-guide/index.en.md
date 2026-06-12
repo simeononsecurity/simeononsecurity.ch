@@ -86,7 +86,7 @@ For example, if your personal information is publicly visible on a social media 
 
 Perform a search on popular search engines using your **name** and other relevant information to **identify websites** or online directories that display your personal information without your consent. Contact the **website administrators** and request the **removal** of the unauthorized personal information. Provide them with the necessary details and evidence to support your request.
 
-Additionally, if you have any **professional profiles** on platforms like LinkedIn, review the information displayed and ensure that you've **restricted access** to sensitive details that could be used for malicious purposes.
+Also, if you have any **professional profiles** on platforms like LinkedIn, review the information displayed and ensure that you've **restricted access** to sensitive details that could be used for malicious purposes.
 
 By taking these steps, you reduce the accessibility of your personal information and make it more challenging for individuals to exploit it. Remember to regularly monitor your online presence to ensure that your information remains secure and protected.
 
@@ -103,7 +103,7 @@ Enhancing your **online privacy** and **security** measures is crucial to preven
 
 #### a. Review and update privacy settings
 
-[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) of your online accounts and ensure they are set to the highest level of protection. Limit the visibility of personal information and posts to trusted friends or connections only. For example, on social media platforms like Facebook, navigate to the privacy settings and customize who can view your profile, posts, and personal information.
+[**Review the privacy settings**](https://simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/) of your online accounts and ensure they're set to the highest level of protection. Limit the visibility of personal information and posts to trusted friends or connections only. For example, on social media platforms like Facebook, navigate to the privacy settings and customize who can view your profile, posts, and personal information.
 
 #### b. [Enable two-factor authentication (2FA)](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/)
 
@@ -148,7 +148,7 @@ In addition, connecting with **support groups or online communities** of individ
 
 If you're unsure where to start, [**organizations such as the National Domestic Violence Hotline**](https://www.thehotline.org/) can provide resources and referrals to support services for victims of online harassment and doxxing. They offer **confidential support** and can guide you to appropriate professionals who specialize in dealing with the psychological impact of cybercrime.
 
-Remember, seeking professional help and support is not a sign of weakness, but a proactive step towards healing and recovery. Don't hesitate to reach out to trusted individuals and organizations to assist you during this challenging time.
+Remember, seeking professional help and support isn't a sign of weakness, but a proactive step towards healing and recovery. Don't hesitate to reach out to trusted individuals and organizations to assist you during this challenging time.
 
 ______
 

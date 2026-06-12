@@ -83,7 +83,7 @@ In Linux, the process of disabling SSL and TLS 1.2 and below can be achieved thr
 
 ## Conclusion:
 
-By disabling SSL and all TLS versions 1.2 and below, you can harden the security of your computer and protect sensitive information from potential cyber threats. It is a simple process that can be accomplished with minimal effort, making it a critical aspect of maintaining the security of your computer. By implementing the steps outlined in this article, you can keep your data secure and prevent cyber attacks, thereby reducing the risk of sensitive information being exposed.
+By disabling SSL and all TLS versions 1.2 and below, you can harden the security of your computer and protect sensitive information from potential cyber threats. It's a simple process that can be accomplished with minimal effort, making it a critical aspect of maintaining the security of your computer. By implementing the steps outlined in this article, you can keep your data secure and prevent cyber attacks, thereby reducing the risk of sensitive information being exposed.
 
 Note that while disabling these older versions of SSL and TLS protocols can improve the security of your computer, it can also impact the compatibility with some older systems. Therefore, you need to thoroughly test the changes made and ensure that there are no adverse impacts on your system before fully implementing them.
 

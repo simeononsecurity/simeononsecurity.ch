@@ -24,13 +24,13 @@ ______
 
 ## Choose a Strong Network Name (SSID)
 
-The **network name**, also known as the **SSID (Service Set Identifier)**, is the identifier that distinguishes your Wi-Fi network from others. You need to choose a unique and memorable SSID that does not reveal any personal information. Avoid using default network names provided by the router manufacturer, as they are often well-known and can make your network an easy target for hackers. Create a name that is not easily guessable and does not disclose any details about your location or identity.
+The **network name**, also known as the **SSID (Service Set Identifier)**, is the identifier that distinguishes your Wi-Fi network from others. You need to choose a unique and memorable SSID that doesn't reveal any personal information. Avoid using default network names provided by the router manufacturer, as they're often well-known and can make your network an easy target for hackers. Create a name that isn't easily guessable and doesn't disclose any details about your location or identity.
 
 ______
 
 ## Enable WPA2 or WPA3 Encryption
 
-**Encryption** plays a crucial role in securing your Wi-Fi network. It ensures that the data transmitted between your devices and the router is protected from unauthorized access. The recommended encryption standards are **WPA2 (Wi-Fi Protected Access II)** and the newer **WPA3**, which provide stronger security than the outdated and vulnerable WEP (Wired Equivalent Privacy) protocol. Check your router's settings to ensure that WPA2 or WPA3 encryption is enabled. If your router does not support these encryption methods, it's time to consider upgrading to a newer model that offers enhanced security features.
+**Encryption** plays a crucial role in securing your Wi-Fi network. It ensures that the data transmitted between your devices and the router is protected from unauthorized access. The recommended encryption standards are **WPA2 (Wi-Fi Protected Access II)** and the newer **WPA3**, which provide stronger security than the outdated and vulnerable WEP (Wired Equivalent Privacy) protocol. Check your router's settings to ensure that WPA2 or WPA3 encryption is enabled. If your router doesn't support these encryption methods, it's time to consider upgrading to a newer model that offers enhanced security features.
 
 ______
 
@@ -60,7 +60,7 @@ ______
 
 ## Change Default Router Login Credentials
 
-When you set up a new router, it often comes with default login credentials. These default usernames and passwords are widely known, making it easier for attackers to gain access to your router's settings. It's important to **change the default router login credentials** to unique and strong ones. Choose a complex password that includes a combination of letters, numbers, and special characters. Additionally, change the default username if possible. This step adds an extra layer of security to your Wi-Fi network.
+When you set up a new router, it often comes with default login credentials. These default usernames and passwords are widely known, making it easier for attackers to gain access to your router's settings. It's important to **change the default router login credentials** to unique and strong ones. Choose a complex password that includes a combination of letters, numbers, and special characters. Also, change the default username if possible. This step adds an extra layer of security to your Wi-Fi network.
 
 ______
 
@@ -90,5 +90,5 @@ ______
 
 ## Conclusion
 
-Creating a secure Wi-Fi network is essential for safeguarding your personal information and ensuring a safe online experience. By following the steps mentioned in this article, such as choosing a strong network name, enabling encryption, setting a strong Wi-Fi password, and regularly updating your router firmware, you can significantly enhance the security of your Wi-Fi network. Additionally, implementing measures like enabling a firewall, disabling remote management, and using MAC address filtering further strengthen the security of your network. Stay vigilant, and regularly monitor your network for any signs of unauthorized access or suspicious activity. By prioritizing Wi-Fi security
+Creating a secure Wi-Fi network is essential for safeguarding your personal information and ensuring a safe online experience. By following the steps mentioned in this article, such as choosing a strong network name, enabling encryption, setting a strong Wi-Fi password, and regularly updating your router firmware, you can significantly enhance the security of your Wi-Fi network. Also, implementing measures like enabling a firewall, disabling remote management, and using MAC address filtering further strengthen the security of your network. Stay vigilant, and regularly monitor your network for any signs of unauthorized access or suspicious activity. By prioritizing Wi-Fi security
 

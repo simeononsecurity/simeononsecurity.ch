@@ -17,7 +17,7 @@ Cybersecurity has become a major concern for individuals and businesses alike in
 
 Social engineering attacks can have devastating consequences for individuals and organizations. These attacks can take many forms, including **phishing scams**, pretexting, baiting, and quid pro quo schemes, among others. Regardless of the form they take, social engineering attacks are designed to trick people into divulging information that can be used to gain unauthorized access to systems or data.
 
-The impact of social engineering attacks can range from mild inconvenience to catastrophic data breaches. In some cases, attackers may be able to access sensitive data such as financial information, trade secrets, or personally identifiable information. This information can then be used for a wide range of nefarious purposes, including **identity theft**, fraud, and espionage.
+The impact of social engineering attacks can range from mild inconvenience to catastrophic data breaches. In some cases, attackers may be able to access sensitive data such as financial information, trade secrets, or personally identifiable information. This information can then be used for many nefarious purposes, including **identity theft**, fraud, and espionage.
 
 ______
 

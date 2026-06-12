@@ -22,7 +22,7 @@ Ransomware attacks have become increasingly common over the past few years and a
 
 To prevent ransomware attacks, it is important to take the following steps:
 
-- **Backup your data regularly and securely.** Having regular backups of your important data can help you recover from a ransomware attack without having to pay the ransom. Make sure to store your backups securely, such as in the cloud or on an external hard drive that is not connected to your network.
+- **Backup your data regularly and securely.** Having regular backups of your important data can help you recover from a ransomware attack without having to pay the ransom. Make sure to store your backups securely, such as in the cloud or on an external hard drive that isn't connected to your network.
 
 - **Keep your software up-to-date with the latest security patches.** Software vulnerabilities can be exploited by attackers to gain access to your network and deploy ransomware. Keeping your software up-to-date with the latest security patches can help prevent these vulnerabilities from being exploited.
 
@@ -41,11 +41,11 @@ Phishing scams continue to be a popular way for cybercriminals to steal sensitiv
 
 To protect yourself from phishing scams, it is important to take the following steps:
 
-- **Be cautious of any unsolicited emails or messages.** If you receive an email or message that you were not expecting, be cautious and do not provide any sensitive information until you have verified the legitimacy of the request.
+- **Be cautious of any unsolicited emails or messages.** If you receive an email or message that you weren't expecting, be cautious and don't provide any sensitive information until you have verified the legitimacy of the request.
 
 - **Check the sender's email address or domain to make sure it is legitimate.** Phishing emails often use fake email addresses or domains that are designed to look like a legitimate source. Check the email address or domain to make sure it is legitimate before responding to any requests.
 
-- **Do not click on any links or download any attachments from unsolicited emails or messages.** Links and attachments in phishing emails can be used to deliver malware or direct you to a fake website that looks legitimate but is designed to steal your information. Be cautious and do not click on any links or download any attachments from unsolicited emails or messages.
+- **Do not click on any links or download any attachments from unsolicited emails or messages.** Links and attachments in phishing emails can be used to deliver malware or direct you to a fake website that looks legitimate but is designed to steal your information. Be cautious and don't click on any links or download any attachments from unsolicited emails or messages.
 
 - **Use multi-factor authentication to protect your accounts.** Multi-factor authentication can provide an extra layer of security to your accounts by requiring a second form of authentication, such as a code sent to your phone, in addition to your password. This can help prevent attackers from gaining access to your accounts, even if they have obtained your password through a phishing scam.
 
@@ -62,7 +62,7 @@ To protect yourself from IoT security threats, it is important to take the follo
 
 - **Keep all software and firmware up-to-date.** Like any other device that connects to the internet, IoT devices can have vulnerabilities that can be exploited by attackers. Keeping your devices up-to-date with the latest software and firmware updates can help address these vulnerabilities and improve the security of your devices.
 
-- **Limit the amount of personal information that you share with IoT devices.** Many IoT devices require you to provide personal information, such as your name and address, in order to function properly. Be cautious about the amount of personal information that you share and only provide the minimum amount of information necessary for the device to function.
+- **Limit the amount of personal information that you share with IoT devices.** Many IoT devices require you to provide personal information, such as your name and address, to function properly. Be cautious about the amount of personal information that you share and only provide the minimum amount of information necessary for the device to function.
 
 - **Use a separate network for IoT devices to keep them isolated from your main network.** By keeping your IoT devices on a separate network, you can limit the access that they have to other devices on your main network. This can help prevent attackers from using IoT devices as a gateway to gain access to other devices on your network.
 
@@ -75,7 +75,7 @@ Insider threats are security risks that come from within an organization, such a
 
 To prevent insider threats, it is important to take the following steps:
 
-- **Implement access controls to limit the amount of data that employees can access.** Limiting the amount of data that employees can access can help prevent them from accessing sensitive information that they do not need to do their job.
+- **Implement access controls to limit the amount of data that employees can access.** Limiting the amount of data that employees can access can help prevent them from accessing sensitive information that they don't need to do their job.
 
 - **Conduct background checks on all employees and contractors.** Conducting background checks can help identify any potential red flags, such as criminal history or financial issues, that may make an employee or contractor a security risk.
 

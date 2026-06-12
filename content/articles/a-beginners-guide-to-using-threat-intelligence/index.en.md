@@ -18,7 +18,7 @@ _____
 
 ## What is Threat Intelligence?
 
-**Threat intelligence** is the process of analyzing data to understand potential threats and their characteristics. It involves collecting and analyzing information about known and unknown threats in order to better understand the **tactics, techniques, and procedures (TTPs)** used by attackers. This information can then be used to improve an organization's security posture by identifying vulnerabilities and potential attack vectors.
+**Threat intelligence** is the process of analyzing data to understand potential threats and their characteristics. It involves collecting and analyzing information about known and unknown threats to better understand the **tactics, techniques, and procedures (TTPs)** used by attackers. This information can then be used to improve an organization's security posture by identifying vulnerabilities and potential attack vectors.
 
 ## Why is Threat Intelligence Important?
 
@@ -70,9 +70,9 @@ Here are some best practices to keep in mind when using threat intelligence:
 
 1. **Integrate threat intelligence into your existing security operations**: Threat intelligence is most effective when it is integrated into an organization's existing security operations. This can include integrating threat intelligence feeds into security information and event management (SIEM) systems or other security tools.
 
-2. **Use multiple sources of threat intelligence**: Relying on a single source of threat intelligence can be dangerous, as it may not provide a complete picture of the threat landscape. Instead, organizations should use multiple sources of threat intelligence to ensure that they are aware of all potential threats.
+2. **Use multiple sources of threat intelligence**: Relying on a single source of threat intelligence can be dangerous, as it may not provide a complete picture of the threat landscape. Instead, organizations should use multiple sources of threat intelligence to ensure that they're aware of all potential threats.
 
-3. **Ensure the quality of the threat intelligence**: Not all threat intelligence is created equal. It's important to ensure that the threat intelligence you are using is accurate, up-to-date, and relevant to your organization. This can involve using a variety of sources and tools to verify the information.
+3. **Ensure the quality of the threat intelligence**: Not all threat intelligence is created equal. It's important to ensure that the threat intelligence you're using is accurate, up-to-date, and relevant to your organization. This can involve using a variety of sources and tools to verify the information.
 
 4. **Automate threat intelligence processes where possible**: Threat intelligence processes can be time-consuming and resource-intensive. Automating these processes, such as using machine learning algorithms to analyze threat data, can help organizations to more effectively identify and respond to threats.
 

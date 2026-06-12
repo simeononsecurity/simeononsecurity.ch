@@ -163,7 +163,7 @@ To check if SELinux is enabled on your system, run the following command:
 sestatus
 ```
 
-If SELinux is not installed, you can install it using the following command:
+If SELinux isn't installed, you can install it using the following command:
 
 ```bash
 sudo yum install selinux-policy selinux-policy-targeted
@@ -189,7 +189,7 @@ sudo apparmor_status
 ```
 
 
-If AppArmor is not installed, you can install it using the following command:
+If AppArmor isn't installed, you can install it using the following command:
 ```bash
 sudo apt-get install apparmor
 ```
@@ -294,7 +294,7 @@ ______
 
 ### Use weak passwords
 
-Using weak passwords is a common mistake that can leave your Linux system vulnerable to attacks. Attackers can use tools to guess passwords that are based on common words, names, or dates. It is important to use strong and unique passwords that are not easily guessable. 
+Using weak passwords is a common mistake that can leave your Linux system vulnerable to attacks. Attackers can use tools to guess passwords that are based on common words, names, or dates. It is important to use strong and unique passwords that aren't easily guessable. 
 
 You can create strong passwords by using a combination of uppercase and lowercase letters, numbers, and special characters. It is also a good practice to use a [password manager](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) to generate and store complex passwords securely. [Password managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/) can also help you to remember your passwords and avoid using the same password for multiple accounts.
 

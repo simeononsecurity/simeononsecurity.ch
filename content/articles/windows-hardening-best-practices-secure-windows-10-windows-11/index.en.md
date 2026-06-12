@@ -59,7 +59,7 @@ To keep Windows 10 updated, you can follow these steps:
    - Go to **Settings** by clicking on the Start menu and selecting the gear icon.
    - Click on **Update & Security**.
    - In the left-hand navigation pane, click on **Windows Update**.
-   - Ensure that the **"Automatic"** option is selected under **"Windows Update settings"**. If it is not selected, click on the **"Change active hours"** link to customize the active hours during which Windows should avoid installing updates.
+   - Ensure that the **"Automatic"** option is selected under **"Windows Update settings"**. If it's not selected, click on the **"Change active hours"** link to customize the active hours during which Windows should avoid installing updates.
 
 2. **Manually Install Updates**: If you prefer to have more control over the update process, you can manually install updates on your Windows 10 system. Here's how:
    - Go to **Settings** > **Update & Security** > **Windows Update**.
@@ -68,7 +68,7 @@ To keep Windows 10 updated, you can follow these steps:
 
 You need to emphasize the importance of **regularly restarting your system** after installing updates. Some updates may require a system restart to fully apply the changes and ensure their effectiveness.
 
-By **keeping your Windows 10 system updated**, you not only enhance its security but also benefit from the latest features, performance improvements, and compatibility fixes. It is a proactive measure to ensure that your system remains resilient against potential security threats.
+By **keeping your Windows 10 system updated**, you not only enhance its security but also benefit from the latest features, performance improvements, and compatibility fixes. It's a proactive measure to ensure that your system remains resilient against potential security threats.
 
 #### 3. [**Configure User Account Control (UAC)**](https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-overview)
 User Account Control (UAC) is a security feature in Windows 10 that helps prevent unauthorized changes to your system by prompting for administrator approval when needed. It acts as a safeguard against malicious software or unauthorized users attempting to make changes that could impact system security or stability.
@@ -84,10 +84,10 @@ To configure UAC settings in Windows 10, you can follow these steps:
 3. Click on **"Change User Account Control settings"**.
 
 4. You will see a slider with different levels of UAC settings. Here are the available options:
-   - **"Always notify"**: This is the highest level of UAC security where you are prompted for consent for any system changes, even for simple tasks.
+   - **"Always notify"**: This is the highest level of UAC security where you're prompted for consent for any system changes, even for simple tasks.
    - **"Notify me only when apps try to make changes to my computer (default)"**: This is the recommended setting that provides a balance between security and usability. You are prompted for consent when apps make changes, but not for Windows settings changes.
-   - **"Notify me only when apps try to make changes to my computer (do not dim my desktop)"**: Similar to the previous option, but the desktop does not get dimmed when UAC prompts appear.
-   - **"Never notify"**: This is the lowest level of UAC security, where you are not prompted for any system changes.
+   - **"Notify me only when apps try to make changes to my computer (don't dim my desktop)"**: Similar to the previous option, but the desktop doesn't get dimmed when UAC prompts appear.
+   - **"Never notify"**: This is the lowest level of UAC security, where you aren't prompted for any system changes.
 
 5. Choose the level of UAC security that suits your needs by moving the slider to the desired position.
 
@@ -148,9 +148,9 @@ Here are the steps to disable unnecessary services and features on your Windows 
 
 1. **Identify Unnecessary Services**: Start by identifying the services running on your system. Open the "Services" management console by pressing **Windows key + R**, typing **services.msc**, and hitting **Enter**. Review the list of services and research their purpose to determine which ones are essential for your system's functionality.
 
-2. **Disable Unnecessary Services**: Once you have identified the unnecessary services, right-click on each service and select **Properties**. In the Properties window, change the **Startup type** to **Disabled**. This prevents the service from starting automatically when your system boots up. Exercise caution and ensure that you are only disabling services that are not required for your system's normal operation.
+2. **Disable Unnecessary Services**: Once you have identified the unnecessary services, right-click on each service and select **Properties**. In the Properties window, change the **Startup type** to **Disabled**. This prevents the service from starting automatically when your system boots up. Exercise caution and ensure that you're only disabling services that aren't required for your system's normal operation.
 
-3. **Disable Unnecessary Features**: In addition to services, Windows 10 also includes various features that may not be necessary for your system. Open the **Control Panel**, navigate to **Programs** or **Programs and Features**, and click on **Turn Windows features on or off**. Uncheck any features that you do not require. This step helps reduce the attack surface further and minimizes the resources consumed by unnecessary features.
+3. **Disable Unnecessary Features**: In addition to services, Windows 10 also includes various features that may not be necessary for your system. Open the **Control Panel**, navigate to **Programs** or **Programs and Features**, and click on **Turn Windows features on or off**. Uncheck any features that you don't require. This step helps reduce the attack surface further and minimizes the resources consumed by unnecessary features.
 
 4. **Regularly Review and Update**: You need to regularly review the list of services and features enabled on your Windows 10 system. As your system's requirements change over time, you may need to re-evaluate the services and features that are necessary. Stay vigilant and update your configuration as needed.
 
@@ -173,7 +173,7 @@ Follow these steps to implement firewall rules on your Windows 10 system:
 
 4. **Regularly Review and Update**: It is important to regularly review and update your firewall rules to ensure they align with your system's requirements. As your network environment and usage patterns change, you may need to modify or create new rules. Stay vigilant and keep your rules up to date to maintain an effective firewall configuration.
 
-By implementing and maintaining firewall rules, you can significantly reduce the risk of unauthorized network access and enhance the security of your Windows 10 system. Additionally, consider enabling the **Stealth Mode** option in the firewall settings to make your system less visible to potential attackers.
+By implementing and maintaining firewall rules, you can significantly reduce the risk of unauthorized network access and enhance the security of your Windows 10 system. Also, consider enabling the **Stealth Mode** option in the firewall settings to make your system less visible to potential attackers.
 
 For more detailed information on configuring firewall rules in Windows 10, you can refer to the official [Microsoft documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/best-practices-configuring) for step-by-step instructions.
 
@@ -262,7 +262,7 @@ Follow these steps to enable and update Microsoft Defender Antivirus on your Win
 
 1. **Check Antivirus Status**: First, check the status of Microsoft Defender Antivirus on your system. Open the **Windows Security app** by clicking on the Start menu, searching for "Windows Security," and selecting the app from the search results. Once the app opens, navigate to the **"Virus & threat protection"** section to verify the status of Microsoft Defender Antivirus. It should be **enabled** by default on a fresh installation of Windows 11.
 
-2. **Enable Real-Time Protection**: In the Windows Security app, make sure that **real-time protection** is enabled for Microsoft Defender Antivirus. Real-time protection continuously monitors your system for malware and other malicious activities, providing **immediate response** and **blocking threats** in real-time. If real-time protection is not enabled, click on the **toggle switch** to enable it.
+2. **Enable Real-Time Protection**: In the Windows Security app, make sure that **real-time protection** is enabled for Microsoft Defender Antivirus. Real-time protection continuously monitors your system for malware and other malicious activities, providing **immediate response** and **blocking threats** in real-time. If real-time protection isn't enabled, click on the **toggle switch** to enable it.
 
 3. **Update Definitions**: Regularly updating the **virus definitions** is crucial to ensure that Microsoft Defender Antivirus can detect and protect against the latest threats. In the Windows Security app, navigate to the **"Virus & threat protection"** section and click on the **"Check for updates"** button to update the antivirus definitions. This process ensures that your system is equipped with the **latest signatures** and **detection capabilities**.
 
@@ -334,7 +334,7 @@ To use Windows Sandbox, follow these steps:
 
 While running applications in Windows Sandbox, keep in mind that the Sandbox environment is isolated and designed to discard any changes made inside it. Therefore, you need to save your files or data outside of the Sandbox if you need to retain them.
 
-Windows Sandbox is an effective tool for testing unknown software, opening suspicious files, or exploring potentially risky websites. It adds an extra layer of protection by ensuring that any malicious activity or unwanted changes are confined within the Sandbox and do not impact your main operating system.
+Windows Sandbox is an effective tool for testing unknown software, opening suspicious files, or exploring potentially risky websites. It adds an extra layer of protection by ensuring that any malicious activity or unwanted changes are confined within the Sandbox and don't impact your main operating system.
 
 By incorporating Windows Sandbox into your security practices, you can significantly reduce the risks associated with running untrusted applications, protecting your system from potential threats.
 

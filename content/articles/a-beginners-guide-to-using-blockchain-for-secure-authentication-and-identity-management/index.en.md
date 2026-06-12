@@ -26,7 +26,7 @@ One of the key features of blockchain is its **decentralized system**. In a trad
 
 ### Immutable Records
 
-Another feature of blockchain is its **immutable records**. Once a transaction is recorded on the blockchain, it cannot be altered or deleted. This ensures that all transactions are transparent and tamper-proof.
+Another feature of blockchain is its **immutable records**. Once a transaction is recorded on the blockchain, it can't be altered or deleted. This ensures that all transactions are transparent and tamper-proof.
 
 ### Public/Private Key Cryptography
 

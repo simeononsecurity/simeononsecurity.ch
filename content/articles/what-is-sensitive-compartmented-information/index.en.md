@@ -44,11 +44,11 @@ Sensitive Compartmented Information (SCI) plays a **vital role in protecting nat
 
 The **confidentiality and integrity of SCI** are paramount for the effective conduct of intelligence activities, counterintelligence operations, and the overall protection of the nation's interests. This classified information provides **critical insights** that shape foreign policy decisions, support military operations, and enable effective responses to potential threats.
 
-For example, intelligence gathered through SCI could reveal the intentions and capabilities of foreign adversaries, helping the government take proactive measures to protect national security. It could provide insights into terrorist activities, allowing law enforcement agencies to prevent potential attacks. Additionally, SCI contributes to strategic planning and decision-making processes, enabling the government to allocate resources effectively and address emerging security challenges.
+For example, intelligence gathered through SCI could reveal the intentions and capabilities of foreign adversaries, helping the government take proactive measures to protect national security. It could provide insights into terrorist activities, allowing law enforcement agencies to prevent potential attacks. Also, SCI contributes to strategic planning and decision-making processes, enabling the government to allocate resources effectively and address emerging security challenges.
 
 By safeguarding SCI, the government can **maintain the advantage in the intelligence landscape**, staying ahead of potential threats and protecting the nation's interests. The rigorous security measures and controls associated with SCI ensure that the information remains in the hands of authorized personnel who have undergone thorough vetting and possess the necessary clearances.
 
-Overall, the importance of SCI cannot be overstated. It is an essential tool in preserving national security, enabling informed decision-making, and protecting the nation against various threats and challenges.
+Overall, the importance of SCI can't be overstated. It's an essential tool in preserving national security, enabling informed decision-making, and protecting the nation against various threats and challenges.
 
 ### Handling and Access Controls for Sensitive Compartmented Information (SCI)
 
@@ -56,9 +56,9 @@ Sensitive Compartmented Information (SCI) requires **strict handling and access 
 
 Access to SCI is limited to individuals who possess the **appropriate security clearances** and have received **specific access approvals**. These clearances are granted based on an individual's demonstrated trustworthiness and need-to-know the information. The principle of **"need-to-know"** ensures that individuals are granted access only if they require the information to perform their official duties, minimizing the risk of unauthorized disclosure and preventing individuals from accessing information beyond their authorized scope.
 
-For example, a military intelligence analyst working on counterterrorism operations may be granted access to specific SCI related to terrorist networks, enabling them to analyze intelligence reports and contribute to the mission's success. However, this analyst would not have access to SCI pertaining to unrelated topics or operations outside their purview.
+For example, a military intelligence analyst working on counterterrorism operations may be granted access to specific SCI related to terrorist networks, enabling them to analyze intelligence reports and contribute to the mission's success. However, this analyst wouldn't have access to SCI pertaining to unrelated topics or operations outside their purview.
 
-To maintain the integrity of SCI, **physical and technical security measures** are employed. This includes **secure storage facilities** equipped with restricted access controls, such as biometric authentication, surveillance systems, and intrusion detection systems. Additionally, **encryption** and other **cybersecurity measures** are employed to protect SCI during transmission and ensure that it remains secure from unauthorized access.
+To maintain the integrity of SCI, **physical and technical security measures** are employed. This includes **secure storage facilities** equipped with restricted access controls, such as biometric authentication, surveillance systems, and intrusion detection systems. Also, **encryption** and other **cybersecurity measures** are employed to protect SCI during transmission and ensure that it remains secure from unauthorized access.
 
 Also, **continuous monitoring, audits, and inspections** are conducted to verify compliance with the established handling and access controls. Oversight bodies, such as the **Director of National Intelligence (DNI)**, provide guidance and enforce compliance with regulations, ensuring the proper protection of SCI.
 
@@ -76,7 +76,7 @@ Some of the key regulations and oversight bodies related to SCI include:
 - **National Industrial Security Program Operating Manual (NISPOM)**: NISPOM is a set of **standards and procedures** that govern the safeguarding of classified information, including SCI, within the defense industry. It establishes the requirements for contractors and other organizations that handle classified information to ensure the protection of national security.
   - [NISPOM](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 
-- **Intelligence Community Directives (ICDs)**: ICDs are a series of directives that provide **policies, standards, and procedures** for the intelligence community. They cover a wide range of topics, including the handling and protection of SCI and other classified information. These directives ensure consistency and uniformity across the intelligence community in safeguarding sensitive information.
+- **Intelligence Community Directives (ICDs)**: ICDs are a series of directives that provide **policies, standards, and procedures** for the intelligence community. They cover many topics, including the handling and protection of SCI and other classified information. These directives ensure consistency and uniformity across the intelligence community in safeguarding sensitive information.
   - [Intelligence Community Directives](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 
 Adherence to these regulations is monitored by oversight bodies such as the **Office of the Director of National Intelligence (ODNI)** and the **Defense Counterintelligence and Security Agency (DCSA)**. These bodies conduct inspections, audits, and investigations to ensure compliance with the established policies and procedures. They play a crucial role in maintaining the integrity and security of SCI throughout the government and defense industry.

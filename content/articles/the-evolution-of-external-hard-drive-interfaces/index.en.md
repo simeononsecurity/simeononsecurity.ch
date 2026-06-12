@@ -14,7 +14,7 @@ The Evolution of External Hard Drive Interfaces
 
 The evolution of external hard drive interfaces has revolutionized the way we store and transfer data. From the emergence of USB 1.0 to the advancements of USB 2.0 and the introduction of FireWire, each iteration has brought faster speeds and improved performance. With the rise of USB 3.0, external hard drives became even more versatile and capable of handling larger files. Looking to the future, we can expect further advancements in external hard drive interfaces, with technologies like Thunderbolt and USB 4.0 on the horizon.
 
-### Key Takeaways
+### main points
 
 * USB 1.0 was the first widely adopted external hard drive interface, offering data transfer speeds of up to 12 Mbps.
 * USB 2.0 introduced faster speeds of up to 480 Mbps, making it ideal for transferring large files.
@@ -31,7 +31,7 @@ The emergence of [USB 1](https://www.newsoftwares.net/blog/everything-about-usb-
 
 ### The Advancements of USB 2.0
 
-USB 2.0, [developed by Intel](https://en.wikipedia.org/wiki/Thunderbolt_(interface)), brought significant improvements to external hard drive interfaces. It offered faster data transfer speeds and increased bandwidth compared to its predecessor, USB 1.0. With USB 2.0, users could transfer large files more quickly and efficiently. The introduction of USB 2.0 also led to the development of external hard drives with larger storage capacities, allowing users to store more data than ever before. Additionally, USB 2.0 was backward compatible with USB 1.0, ensuring compatibility with existing devices. This made it easier for users to upgrade their external hard drives without having to replace all their peripherals. Overall, USB 2.0 revolutionized the external hard drive industry and paved the way for future advancements.
+USB 2.0, [developed by Intel](https://en.wikipedia.org/wiki/Thunderbolt_(interface)), brought significant improvements to external hard drive interfaces. It offered faster data transfer speeds and increased bandwidth compared to its predecessor, USB 1.0. With USB 2.0, users could transfer large files more quickly and efficiently. The introduction of USB 2.0 also led to the development of external hard drives with larger storage capacities, allowing users to store more data than ever before. Also, USB 2.0 was backward compatible with USB 1.0, ensuring compatibility with existing devices. This made it easier for users to upgrade their external hard drives without having to replace all their peripherals. Overall, USB 2.0 revolutionized the external hard drive industry and paved the way for future advancements.
 
 ### The Introduction of FireWire
 

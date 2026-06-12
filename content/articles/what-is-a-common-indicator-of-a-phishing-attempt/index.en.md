@@ -19,7 +19,7 @@ A common indicator of a phishing attempt is the presence of **suspicious email a
 
 Another indicator is the use of **urgent language** in the email. Phishers often create a sense of urgency to prompt immediate action from the recipient. They may claim that there is an issue with the recipient's account or that their account will be suspended if they don't take immediate action. By instilling a sense of panic, phishers aim to bypass the recipient's critical thinking and make them more likely to fall for the scam.
 
-Phishing emails often contain **grammar and spelling mistakes**. While no communication is entirely error-free, legitimate organizations typically maintain a certain level of professionalism and accuracy in their emails. Phishers, on the other hand, may not pay close attention to grammar and spelling, resulting in noticeable errors. These mistakes can be a red flag and indicate that the email is not from a trusted source.
+Phishing emails often contain **grammar and spelling mistakes**. While no communication is entirely error-free, legitimate organizations typically maintain a certain level of professionalism and accuracy in their emails. Phishers, on the other hand, may not pay close attention to grammar and spelling, resulting in noticeable errors. These mistakes can be a red flag and indicate that the email isn't from a trusted source.
 
 It's important to be wary of **suspicious URLs** in phishing emails. Phishers often include links that appear legitimate but actually redirect to malicious websites designed to steal personal information. Hovering over the link without clicking on it can reveal the actual destination URL. If the link's destination doesn't match the expected website or seems suspicious, it's best to avoid clicking on it.
 
@@ -41,9 +41,9 @@ Phishing is a malicious cyber attack technique used by criminals to trick indivi
 
 One of the most common indicators of a phishing attempt is a **suspicious sender email address**. Phishing emails frequently originate from addresses that imitate legitimate organizations but may exhibit slight variations or misspellings. For instance, an email claiming to be from a bank might have a domain name like "bankoffica.com" instead of "bankoffice.com". You need to **scrutinize the email address** and remain vigilant for any inconsistencies or irregularities.
 
-**Example**: Let's say you receive an email claiming to be from your online shopping account, and it asks you to verify your credit card information by clicking on a link. The sender's email address seems odd: "customersupport@amaz0n.com" (note the zero instead of the letter 'o'). This is a clear red flag, as it is an attempt to mimic the legitimate "customersupport@amazon.com" email address used by the genuine Amazon customer support team.
+**Example**: Let's say you receive an email claiming to be from your online shopping account, and it asks you to verify your credit card information by clicking on a link. The sender's email address seems odd: "customersupport@amaz0n.com" (note the zero instead of the letter 'o'). This is a clear red flag, as it's an attempt to mimic the legitimate "customersupport@amazon.com" email address used by the genuine Amazon customer support team.
 
-To verify the legitimacy of the sender's email address, you can hover your mouse over the sender's name or email address to reveal the full email address. If it looks suspicious, do not click on any links or provide any personal information.
+To verify the legitimacy of the sender's email address, you can hover your mouse over the sender's name or email address to reveal the full email address. If it looks suspicious, don't click on any links or provide any personal information.
 
 Remember, staying vigilant and being cautious when dealing with suspicious emails can help protect you from falling victim to phishing scams.
 
@@ -51,7 +51,7 @@ Remember, staying vigilant and being cautious when dealing with suspicious email
 
 Phishing emails frequently employ **urgent or threatening language** to instill a sense of urgency and coerce immediate action from the recipient. These emails may falsely assert that your account has been compromised or that immediate information updates are required. It is important to exercise caution when encountering emails that attempt to pressure you into **providing personal information** or **clicking on suspicious links**.
 
-For example, an email might claim that your bank account will be frozen unless you click on a provided link and update your login credentials. However, legitimate organizations typically do not send such urgent requests via email. **Avoid falling victim to these tactics** by staying skeptical and **verifying the authenticity of such emails** through official channels or by contacting the organization directly.
+For example, an email might claim that your bank account will be frozen unless you click on a provided link and update your login credentials. However, legitimate organizations typically don't send such urgent requests via email. **Avoid falling victim to these tactics** by staying skeptical and **verifying the authenticity of such emails** through official channels or by contacting the organization directly.
 
 **Example**: Imagine receiving an email from a supposed online payment service provider stating that your account will be suspended within 24 hours if you don't provide your personal information immediately. The email includes a link that directs you to a webpage asking for your username, password, and credit card details. This is a classic phishing attempt using urgent language to manipulate your emotions and coerce you into taking immediate action.
 
@@ -79,15 +79,15 @@ To verify the legitimacy of a link, **hover your mouse over it** to preview the 
 
 **Example**: Let's say you receive an email supposedly from a well-known social media platform, asking you to click on a link to verify your account. Upon hovering over the link, you notice that it leads to a suspicious URL, like "socialmediaphishingsite.com" instead of the genuine social media platform's domain. This indicates that the email is a phishing attempt, as the link redirects you to a fraudulent website designed to collect your personal information.
 
-To protect yourself from such scams, it is best to **avoid clicking on suspicious links**. Instead, manually type the URL of the website into your browser or access it through a trusted bookmark. Additionally, ensure that the website you are visiting has a secure connection, indicated by "https://" at the beginning of the URL, and a padlock icon in the browser address bar.
+To protect yourself from such scams, it is best to **avoid clicking on suspicious links**. Instead, manually type the URL of the website into your browser or access it through a trusted bookmark. Also, ensure that the website you're visiting has a secure connection, indicated by "https://" at the beginning of the URL, and a padlock icon in the browser address bar.
 
 Remember, always exercise caution when encountering suspicious URLs and links, as they can be a gateway to phishing websites seeking to compromise your personal information.
 
 ### **5. Requests for Personal Information**
 
-One of the telltale signs of a phishing attempt is a **request for personal information**. Phishing emails or messages often ask recipients to provide sensitive data, such as **passwords, social security numbers, or credit card details**. Note that **legitimate organizations** typically **do not** ask for such information through **unsolicited** emails or text messages.
+One of the telltale signs of a phishing attempt is a **request for personal information**. Phishing emails or messages often ask recipients to provide sensitive data, such as **passwords, social security numbers, or credit card details**. Note that **legitimate organizations** typically **don't** ask for such information through **unsolicited** emails or text messages.
 
-**Example**: Let's say you receive an email claiming to be from a reputable financial institution, asking you to click on a link and provide your login credentials to avoid account suspension. This email might create a sense of urgency and state that failure to provide the requested information could lead to account closure. However, a **genuine financial institution** would not request sensitive details through email, especially with threats of account closure.
+**Example**: Let's say you receive an email claiming to be from a reputable financial institution, asking you to click on a link and provide your login credentials to avoid account suspension. This email might create a sense of urgency and state that failure to provide the requested information could lead to account closure. However, a **genuine financial institution** wouldn't request sensitive details through email, especially with threats of account closure.
 
 If you encounter such an email or message that requests personal information, **exercise caution** and consider the following factors:
 
@@ -95,7 +95,7 @@ If you encounter such an email or message that requests personal information, **
 
 - **Context**: Evaluate the **necessity and relevance** of the information being requested. If an email asks for personal information that seems **unnecessary or unexpected**, such as a request for your credit card details without a valid reason, it should raise suspicions.
 
-- **Secure Channels**: Keep in mind that reputable organizations often employ **secure methods** for collecting sensitive information. They may have established **secure online portals** or encrypted communication channels to ensure the privacy and protection of your data. If you are unsure about the legitimacy of a request, it is recommended to **contact the organization directly** using their official contact information, rather than providing information through an email or message.
+- **Secure Channels**: Keep in mind that reputable organizations often employ **secure methods** for collecting sensitive information. They may have established **secure online portals** or encrypted communication channels to ensure the privacy and protection of your data. If you're unsure about the legitimacy of a request, it is recommended to **contact the organization directly** using their official contact information, rather than providing information through an email or message.
 
 Remember, **protecting your personal information** is crucial in safeguarding yourself against identity theft and other forms of cybercrime. **Think twice** before sharing any sensitive data online, especially in response to unsolicited requests.
 
@@ -127,7 +127,7 @@ To enhance your online security and protect yourself from phishing attempts, con
 
 - **Educate yourself about phishing**: Stay informed about the latest phishing techniques and scams. Cybercriminals are continually evolving their tactics, so you need to keep up with current trends. Educate yourself about the common indicators of phishing attempts, such as suspicious email addresses, poor grammar, and requests for personal information. Regularly check trusted sources, such as cybersecurity websites, for updates on new phishing threats.
 
-- **Exercise caution with personal information**: Be cautious when sharing sensitive information online. Only provide personal information on websites or services that you trust and have verified to be legitimate and secure. Avoid sharing sensitive details through email or other unsecured channels. Remember that reputable organizations typically have secure systems in place to handle sensitive data and would not request it via email or text.
+- **Exercise caution with personal information**: Be cautious when sharing sensitive information online. Only provide personal information on websites or services that you trust and have verified to be legitimate and secure. Avoid sharing sensitive details through email or other unsecured channels. Remember that reputable organizations typically have secure systems in place to handle sensitive data and wouldn't request it via email or text.
 
 - [**Use strong and unique passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): Create strong, complex, and unique passwords for each of your online accounts. A strong password includes a combination of upper and lowercase letters, numbers, and special characters. Avoid using easily guessable information such as your name, birthdate, or common words. By using unique passwords for each account, you prevent attackers from gaining access to multiple accounts if one password is compromised.
 

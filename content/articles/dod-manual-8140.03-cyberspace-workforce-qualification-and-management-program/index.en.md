@@ -22,7 +22,7 @@ The primary objective of the manual is to establish a standardized framework for
 
 For example, the manual outlines **certifications** and **training requirements** for different cyberspace work roles. These requirements may include certifications such as **CompTIA Security+**, **Certified Ethical Hacker (CEH)**, or **Certified Information Systems Security Professional (CISSP)**, among others. By setting these standards, the manual ensures that individuals in the DoD cyberspace workforce possess industry-recognized qualifications.
 
-Additionally, the manual assigns responsibilities to various entities involved in the qualification and management of the DoD cyberspace workforce. This includes **cybersecurity program managers**, **cybersecurity workforce development offices**, and **cybersecurity education and training providers**. By clearly defining these roles and responsibilities, the manual ensures effective coordination and collaboration among different stakeholders.
+Also, the manual assigns responsibilities to various entities involved in the qualification and management of the DoD cyberspace workforce. This includes **cybersecurity program managers**, **cybersecurity workforce development offices**, and **cybersecurity education and training providers**. By clearly defining these roles and responsibilities, the manual ensures effective coordination and collaboration among different stakeholders.
 
 Overall, the **DoD Manual 8140.03** plays a vital role in establishing a qualified and capable DoD cyberspace workforce. It provides a framework for identifying, training, and managing personnel based on their specific cyberspace work roles, ensuring that the DoD is equipped with skilled cybersecurity professionals who can effectively defend against evolving threats in the digital landscape.
 
@@ -30,7 +30,7 @@ For more detailed information on the purpose and implementation of the **DoD Man
 
 ## Applicability
 
-The **DoD Manual 8140.03** is applicable to a wide range of entities within the Department of Defense (DoD) and outlines the qualifications and requirements for personnel assigned to positions requiring the performance of **cyberspace work**. The manual's applicability extends to various DoD components and organizational entities, including:
+The **DoD Manual 8140.03** is applicable to many entities within the Department of Defense (DoD) and outlines the qualifications and requirements for personnel assigned to positions requiring the performance of **cyberspace work**. The manual's applicability extends to various DoD components and organizational entities, including:
 
 - **OSD (Office of the Secretary of Defense)**
 - **Military Departments**
@@ -113,7 +113,7 @@ By focusing on these foundational qualification areas, the DoD Cyberspace Workfo
 - A **secondary education diploma or equivalent** is required for all **DoD Cyberspace Work Roles** at all proficiency levels.
 - **Higher education** and **degree discipline requirements** are evaluated and enacted on a role-by-role basis, ensuring that individuals possess the necessary academic background for their specific cyberspace work role.
 - In some cases, **continuous work experience** in the relevant discipline can be demonstrated as an alternative to a formal degree. This recognizes the value of practical, hands-on experience in the cyberspace domain.
-- DoD Components are responsible for establishing processes to **document, review, validate, and approve continuous cyberspace work**, ensuring that individuals without formal degrees can showcase their expertise.
+- DoD Components are responsible for establishing processes to **document, review, validate, and approve continuous cyberspace work**, ensuring that individuals without formal degrees can show their expertise.
 - When considering education qualifications, OSD and DoD Components are encouraged to leverage the expertise and guidance provided by **Department of Homeland Security (DHS) and National Security Agency (NSA) Centers of Academic Excellence**. These centers promote excellence in cybersecurity education and can offer valuable insights into educational requirements for cyberspace work roles.
 
 By outlining the education requirements for each work role, the DoD Cyberspace Workforce Qualification and Management Program ensures that individuals have the necessary educational foundation to perform their assigned duties effectively. Whether through formal degrees or continuous work experience, education plays a critical role in developing a skilled and competent cyberspace workforce.
@@ -166,5 +166,5 @@ By setting qualification requirements and performance standards, the **DoD Cyber
 
 Also, the program emphasizes the importance of **ongoing training and professional development** to keep personnel abreast of emerging trends, technologies, and threats in the dynamic cyberspace domain. This commitment to continuous learning enables the workforce to adapt to evolving challenges and maintain a proactive approach to cybersecurity.
 
-Wrapping up, the **DoD Cyberspace Workforce Qualification and Management Program** is a vital framework that ensures the DoD possesses a **skilled and capable workforce** to defend and secure its information systems and networks. By promoting qualification standards and fostering professional growth, this program strengthens the DoD's cybersecurity posture in an rapidly changing threat landscape.
+Wrapping up, the **DoD Cyberspace Workforce Qualification and Management Program** is a vital framework that ensures the DoD possesses a **skilled and capable workforce** to defend and secure its information systems and networks. By promoting qualification standards and building professional growth, this program strengthens the DoD's cybersecurity posture in an rapidly changing threat landscape.
 

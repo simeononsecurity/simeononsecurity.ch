@@ -22,7 +22,7 @@ To earn the [CISSP certification](https://www.isc2.org/Certifications/CISSP), ca
 
 ## Why earn a CISSP certification?
 
-There are many reasons why professionals in the field of information security may choose to earn a [CISSP certification.](https://www.isc2.org/Certifications/CISSP) For one, it demonstrates a high level of expertise in the field and can help to increase credibility and marketability to potential employers. Additionally, many organizations require their information security professionals to hold a CISSP certification as a condition of employment.
+There are many reasons why professionals in the field of information security may choose to earn a [CISSP certification.](https://www.isc2.org/Certifications/CISSP) For one, it demonstrates a high level of expertise in the field and can help to increase credibility and marketability to potential employers. Also, many organizations require their information security professionals to hold a CISSP certification as a condition of employment.
 
 ## How to prepare for the CISSP exam
 

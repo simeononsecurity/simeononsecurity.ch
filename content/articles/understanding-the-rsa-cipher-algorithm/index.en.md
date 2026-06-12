@@ -53,7 +53,7 @@ RSA is based on the mathematical principles of modular arithmetic and number the
 
 ### Euler's Totient Function
 
-Euler's totient function, denoted as **ϕ(n)**, is a fundamental concept in number theory. It calculates the count of positive integers less than **n** that are coprime (do not share any common factors) with **n**. Euler's totient function is used in RSA to derive the public and private keys.
+Euler's totient function, denoted as **ϕ(n)**, is a fundamental concept in number theory. It calculates the count of positive integers less than **n** that are coprime (don't share any common factors) with **n**. Euler's totient function is used in RSA to derive the public and private keys.
 
 ### Prime Numbers
 
@@ -119,7 +119,7 @@ ______
 
 ## Conclusion
 
-RSA is a powerful encryption algorithm that has revolutionized the field of cryptography. Understanding its underlying principles and mechanisms is crucial for anyone involved in information security. By grasping the concepts explained in this article, you are now equipped with the knowledge to appreciate the significance of RSA in securing our digital world.
+RSA is a powerful encryption algorithm that has revolutionized the field of cryptography. Understanding its underlying principles and mechanisms is crucial for anyone involved in information security. By grasping the concepts explained in this article, you're now equipped with the knowledge to appreciate the significance of RSA in securing our digital world.
 
 References:
 - [RSA Algorithm](https://en.wikipedia.org/wiki/RSA_(cryptosystem))

@@ -42,7 +42,7 @@ To improve efficiency, the T9 software employs a number of optimization techniqu
 
 The T9 cipher offered several advantages over traditional keypads for text input on mobile phones. It significantly reduced the number of keypresses required to type a message, making texting faster and more efficient. The predictive nature of the T9 software also helped users type with greater accuracy, as it would often guess the intended word correctly.
 
-However, the T9 cipher had some limitations. It was primarily designed for single-language use and struggled with multilingual input. Additionally, the T9 software relied heavily on statistical language models, which occasionally led to incorrect predictions or omitted words not present in its dictionary.
+However, the T9 cipher had some limitations. It was primarily designed for single-language use and struggled with multilingual input. Also, the T9 software relied heavily on statistical language models, which occasionally led to incorrect predictions or omitted words not present in its dictionary.
 
 ## Applications of the T9 Cipher
 

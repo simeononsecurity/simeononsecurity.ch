@@ -53,6 +53,6 @@ This is a serious security concern, as it means that attackers can now gain acce
 
 ## Conclusion
 
-As expected, the NVIDIA RTX 4090 outperforms the RTX 3090 when it comes to password cracking. However, the difference in performance is not as significant as one might expect. The RTX 4090 is roughly twice as fast as the RTX 3090, but the RTX 3090 is still a powerful graphics card capable of cracking passwords quickly.
+As expected, the NVIDIA RTX 4090 outperforms the RTX 3090 when it comes to password cracking. However, the difference in performance isn't as significant as one might expect. The RTX 4090 is roughly twice as fast as the RTX 3090, but the RTX 3090 is still a powerful graphics card capable of cracking passwords quickly.
 
 Worth noting: password cracking is illegal in many jurisdictions unless performed by authorized entities or individuals for legitimate purposes. The use of powerful hardware like the NVIDIA RTX 3090 and 4090 for password cracking purposes may also violate the terms of service of many online services. Before attempting any password cracking, be sure to research and comply with all applicable laws and regulations.

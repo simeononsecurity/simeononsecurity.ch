@@ -41,7 +41,7 @@ The most straightforward transition mechanism is to run both IPv4 and IPv6 on th
 
 ### NAT64
 
-**NAT64** is a mechanism used to provide IPv6 connectivity to IPv4-only hosts. In NAT64, an IPv6 packet is translated into an IPv4 packet, which can be sent over an IPv4 network. At the other end, the IPv4 packet is translated back into an IPv6 packet and delivered to its destination. This mechanism is useful for providing IPv6 connectivity to hosts that cannot be upgraded to support IPv6.
+**NAT64** is a mechanism used to provide IPv6 connectivity to IPv4-only hosts. In NAT64, an IPv6 packet is translated into an IPv4 packet, which can be sent over an IPv4 network. At the other end, the IPv4 packet is translated back into an IPv6 packet and delivered to its destination. This mechanism is useful for providing IPv6 connectivity to hosts that can't be upgraded to support IPv6.
 
 ______
 

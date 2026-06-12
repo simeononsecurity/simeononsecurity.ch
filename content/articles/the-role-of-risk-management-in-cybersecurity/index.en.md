@@ -38,11 +38,11 @@ To create an effective risk management program in line with NIST 800-53, organiz
 
 3. **Implement security controls**: Implement the selected security controls according to their specifications.
 
-4. **Assess security controls**: Conduct a periodic assessment of the security controls to ensure that they are working effectively.
+4. **Assess security controls**: Conduct a periodic assessment of the security controls to ensure that they're working effectively.
 
 5. **Authorize the system**: Based on the results of the security control assessment, authorize the system for operation.
 
-6. **Monitor security controls**: Continuously monitor the system's security controls to ensure that they are working effectively and efficiently.
+6. **Monitor security controls**: Continuously monitor the system's security controls to ensure that they're working effectively and efficiently.
 
 7. **Update security controls**: Periodically update the security controls to ensure that they remain effective against evolving threats and risks.
 

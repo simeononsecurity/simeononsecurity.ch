@@ -704,7 +704,7 @@ python3 gen_pki.py         # Generate certificates
 
 **Output**: `orbic_app` (static ARM binary) + DER certificate files
 
-**Note for macOS**: The `gcc_mac/` folder contains custom ARM toolchain built with **crosstool-ng** targeting **Linux kernel 3.2** headers for compatibility with Orbic's kernel 3.18. Standard Homebrew ARM compilers target newer kernels and **will not work**.
+**Note for macOS**: The `gcc_mac/` folder contains custom ARM toolchain built with **crosstool-ng** targeting **Linux kernel 3.2** headers for compatibility with Orbic's kernel 3.18. Standard Homebrew ARM compilers target newer kernels and **won't work**.
 
 #### Step 4: Enable Root Shell on Orbic
 
@@ -759,7 +759,7 @@ When accessing DagShell, you'll see a **"Not Secure" or "Not Trusted"** warning:
 
 **Is It Actually Secure?**:
 - **YES** - Connection IS encrypted with **TLS 1.2+**
-- Data cannot be intercepted
+- Data can't be intercepted
 - Just not "chain-trusted" to a public CA
 
 **Optional**: Install `root.der` in your device's trust store to eliminate warning

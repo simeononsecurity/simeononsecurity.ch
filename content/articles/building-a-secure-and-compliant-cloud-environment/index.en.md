@@ -56,7 +56,7 @@ Access controls are one of the most important security measures you can implemen
 
 ## Encrypt Data
 
-Encryption is a critical component of cloud security. It protects data both in transit and at rest, making it unreadable to anyone who does not have the encryption key. Here are some best practices for encryption:
+Encryption is a critical component of cloud security. It protects data both in transit and at rest, making it unreadable to anyone who doesn't have the encryption key. Here are some best practices for encryption:
 
 - **Use strong encryption algorithms**: Use encryption algorithms that are considered strong and secure, such as AES.
 

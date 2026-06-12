@@ -9,7 +9,7 @@ cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
 coverAlt: "An image of a superhero standing in front of a computer with the Windows logo on the screen and a shield in hand, symbolizing the importance of secure coding practices for protecting Windows-based systems."
 coverCaption: ""
 ---
-PowerShell is a popular task automation and configuration management framework that is used to automate repetitive tasks and simplify management of Windows-based systems. As with any programming language, PowerShell code can be vulnerable to security threats if developers do not follow secure coding standards. In this article, we will discuss best practices for secure coding in PowerShell.
+PowerShell is a popular task automation and configuration management framework that is used to automate repetitive tasks and simplify management of Windows-based systems. As with any programming language, PowerShell code can be vulnerable to security threats if developers don't follow secure coding standards. In this article, we will discuss best practices for secure coding in PowerShell.
 
 ____
 
@@ -68,7 +68,7 @@ The principle of least privilege is a security best practice that restricts user
 
 Developers should follow this principle when writing code to minimize the impact of security breaches. By limiting the access of a program or user, the risk of a successful attack is reduced.
 
-For example, if an application requires read-only access to a database, it should use a database account with read-only permissions instead of an account with full permissions. This reduces the risk of an attacker exploiting the application to modify or delete data. Similarly, if a user only needs to perform certain tasks, they should not be given administrator-level access to the system.
+For example, if an application requires read-only access to a database, it should use a database account with read-only permissions instead of an account with full permissions. This reduces the risk of an attacker exploiting the application to modify or delete data. Similarly, if a user only needs to perform certain tasks, they shouldn't be given administrator-level access to the system.
 
 By following the principle of least privilege, developers can reduce the potential damage of a security breach and limit the scope of the attack.
 
@@ -80,7 +80,7 @@ Libraries and frameworks can contain security vulnerabilities that can be exploi
 
 When a security vulnerability is discovered in a library or framework, the developers of that library or framework will usually release a patch or update to fix the vulnerability. It's important to keep up to date with these updates and apply them as soon as possible to minimize the risk of a security breach.
 
-For example, if the application uses a third-party library, such as `Pester`, which has had a security vulnerability, the developer should update to the latest version of the library that addresses the vulnerability. This ensures that the application is not susceptible to attacks that exploit the vulnerability.
+For example, if the application uses a third-party library, such as `Pester`, which has had a security vulnerability, the developer should update to the latest version of the library that addresses the vulnerability. This ensures that the application isn't susceptible to attacks that exploit the vulnerability.
 
 By keeping libraries and frameworks updated, developers can ensure that their code is more secure and less vulnerable to attacks. It's important to make sure that all dependencies are up to date and that any known security vulnerabilities have been patched.
 
@@ -109,7 +109,7 @@ ____
 PowerShell scripts are vulnerable to several security risks such as code injection, privilege escalation, and data leakage. To ensure the security of PowerShell scripts, developers should follow secure coding practices such as:
 
 ### Sanitize Input and Output
-Sanitizing user input is important to prevent code injection attacks. Developers should validate and sanitize user input to ensure that it meets expected criteria and does not contain malicious code. Additionally, when writing output to a log file or other destination, developers should sanitize any sensitive data before writing it to the file to prevent data leakage.
+Sanitizing user input is important to prevent code injection attacks. Developers should validate and sanitize user input to ensure that it meets expected criteria and doesn't contain malicious code. Also, when writing output to a log file or other destination, developers should sanitize any sensitive data before writing it to the file to prevent data leakage.
 
 ### Use Secure Communication Protocols
 When transmitting data over the network, use secure communication protocols such as HTTPS, SSL/TLS, or SSH. These protocols encrypt the data in transit, making it more difficult for attackers to intercept and manipulate the data. Conversely, avoid using unencrypted protocols such as HTTP or Telnet, as they can be easily intercepted and manipulated by attackers.
@@ -126,7 +126,7 @@ Harden the environment by applying security policies and configurations to the o
 - **Implement software updates and patches to fix known security vulnerabilities**
 
 ### Perform Regular Vulnerability Scans
-Perform regular vulnerability scans on the systems and applications to identify and remediate security vulnerabilities. Use tools such as Nessus, OpenVAS, or Microsoft Baseline Security Analyzer (MBSA) to perform these scans. Regular vulnerability scans can help to identify vulnerabilities and weaknesses in the environment, allowing developers to remediate them before they are exploited by attackers.
+Perform regular vulnerability scans on the systems and applications to identify and remediate security vulnerabilities. Use tools such as Nessus, OpenVAS, or Microsoft Baseline Security Analyzer (MBSA) to perform these scans. Regular vulnerability scans can help to identify vulnerabilities and weaknesses in the environment, allowing developers to remediate them before they're exploited by attackers.
 
 ### Educate Users and Administrators
 Educate users and administrators on secure coding practices and the risks associated with insecure code. Provide training and resources to help them understand how to write secure code and how to identify and respond to security incidents. By educating users and administrators, developers can build a culture of security and promote good security practices throughout the organization.

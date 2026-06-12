@@ -22,7 +22,7 @@ ____
 
 Traditionally, threat detection has been a labor-intensive process that involves manual monitoring and analysis of network logs and other data sources. This approach can be time-consuming and error-prone, as it relies on human analysts to identify potential threats. It also requires a significant amount of resources, as organizations need to employ large teams of analysts to monitor their networks 24/7.
 
-Another approach to threat detection is the use of **rule-based systems**. These systems use a set of predefined rules to identify potential threats. While rule-based systems are faster than manual monitoring, they are limited by the fact that they can only identify threats that fall within their predefined rules. They are unable to identify new or unknown threats that do not fit within their established rules.
+Another approach to threat detection is the use of **rule-based systems**. These systems use a set of predefined rules to identify potential threats. While rule-based systems are faster than manual monitoring, they're limited by the fact that they can only identify threats that fall within their predefined rules. They are unable to identify new or unknown threats that don't fit within their established rules.
 
 ## The Role of AI in Threat Detection
 

@@ -22,7 +22,7 @@ PowerShell is a powerful command-line shell and scripting language developed by 
 
 ### Installing PowerShell
 
-PowerShell comes pre-installed in most versions of Windows operating system. However, if you are using an older version of Windows or if you need a newer version of PowerShell, you can download it from the Microsoft website. To download and install PowerShell, follow these steps:
+PowerShell comes pre-installed in most versions of Windows operating system. However, if you're using an older version of Windows or if you need a newer version of PowerShell, you can download it from the Microsoft website. To download and install PowerShell, follow these steps:
 
 1. Go to the [Microsoft PowerShell website](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) and select the version of PowerShell you want to install.
 2. Download the installation file and run it.
@@ -54,7 +54,7 @@ If you're familiar with the Command Prompt and want to transition to Windows Pow
 
 ### PowerShell Basics
 
-PowerShell provides a command-line interface that allows users to interact with the operating system. The commands in PowerShell are called cmdlets, and they are organized into modules. To view a list of available modules, use the Get-Module command:
+PowerShell provides a command-line interface that allows users to interact with the operating system. The commands in PowerShell are called cmdlets, and they're organized into modules. To view a list of available modules, use the Get-Module command:
 
 ```powershell
 Get-Module

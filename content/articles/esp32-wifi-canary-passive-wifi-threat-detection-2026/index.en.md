@@ -17,7 +17,7 @@ Every time you connect to hotel WiFi, a coffee shop hotspot, or an airport netwo
 
 The [**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) is a passive awareness sensor that addresses this reality with the smallest possible footprint. It fits on the M5Stack Atom Lite - a device roughly the size of a sugar cube - plugs into any USB port, learns the surrounding environment, and lights up an RGB LED when it detects patterns consistent with wireless threats.
 
-It does not connect to anything. It does not capture credentials. It does not transmit a single frame. It watches, scores, and tells you what color the situation is.
+It doesn't connect to anything. It doesn't capture credentials. It doesn't transmit a single frame. It watches, scores, and tells you what color the situation is.
 
 This article is a complete technical reference for the project: what it detects, how the confidence model works, how to build and flash it, and what its real-world limitations are.
 
@@ -346,7 +346,7 @@ The serial log is sufficient to understand exactly what the device saw, when it 
 
 ## Detection Notes and Practical Limitations
 
-The README is unusually honest about what this device cannot do, and that honesty is worth repeating in detail.
+The README is unusually honest about what this device can't do, and that honesty is worth repeating in detail.
 
 ### What Can Cause False Positives
 
@@ -372,11 +372,11 @@ The confidence scoring model and decay are designed to reduce - not eliminate - 
 
 ### Radio Switching Gap
 
-The ESP32 WiFi radio cannot be in promiscuous mode and perform an active AP scan simultaneously. The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window will not be captured**. An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection - though this would require knowledge of the device's scanning schedule.
+The ESP32 WiFi radio can't be in promiscuous mode and perform an active AP scan simultaneously. The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window won't be captured**. An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection - though this would require knowledge of the device's scanning schedule.
 
 ### 2.4 GHz Only
 
-The ESP32 radio is a 2.4 GHz device. **5 GHz and 6 GHz networks are not scanned or monitored**. In environments where 5 GHz evil twins are the attack vector, this device will not detect them.
+The ESP32 radio is a 2.4 GHz device. **5 GHz and 6 GHz networks aren't scanned or monitored**. In environments where 5 GHz evil twins are the attack vector, this device won't detect them.
 
 ### Passive Range
 
@@ -444,7 +444,7 @@ The canary occupies a specific niche: **zero-interaction, zero-network, always-o
 
 ## Conclusion
 
-The ESP32 WiFi Canary is a tightly scoped tool that does one thing: watch the 2.4 GHz environment around you and change color when something looks wrong. It does not try to be a full wireless intrusion detection system, a packet capture tool, or a forensic analyzer. It is a canary - a passive sensor whose job is to notice when the mine gets dangerous.
+The ESP32 WiFi Canary is a tightly scoped tool that does one thing: watch the 2.4 GHz environment around you and change color when something looks wrong. It doesn't try to be a full wireless intrusion detection system, a packet capture tool, or a forensic analyzer. It's a canary - a passive sensor whose job is to notice when the mine gets dangerous.
 
 The confidence scoring model, score decay, and three-phase baseline approach reflect careful thinking about the false-positive problem that plagues ambient security sensors. The result is a device that can run unattended in a hotel room or conference center and reliably signal when something meaningfully unusual is happening - while staying quiet during normal network churn.
 

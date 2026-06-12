@@ -21,7 +21,7 @@ As the saying goes, you have to learn how to build it before you can learn how t
 
 ## Getting a Degree or Pursuing Certifications
 
-While getting a degree in IT or cybersecurity is advisable, it's not the only way to get started. Pursuing [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) can give you a running start in the field and often let you know if you even want to pursue it further. These certifications are recognized by many employers, and they often transfer for college credit. Additionally, they cost significantly less than getting a degree.
+While getting a degree in IT or cybersecurity is advisable, it's not the only way to get started. Pursuing [CompTIA's A+](https://simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/), [Network+,](https://www.comptia.org/certifications/network) and [Security+ certifications](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/) can give you a running start in the field and often let you know if you even want to pursue it further. These certifications are recognized by many employers, and they often transfer for college credit. Also, they cost significantly less than getting a degree.
 
 ## Advancing Your Skills
 

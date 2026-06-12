@@ -115,7 +115,7 @@ xattr -d com.apple.quarantine installer
 ```
 
 **USB Installation Method (Advanced Users)**:
-The USB method enables ADB (Android Debug Bridge) access for advanced debugging but is not recommended for typical installations:
+The USB method enables ADB (Android Debug Bridge) access for advanced debugging but isn't recommended for typical installations:
 
 ```bash
 # WARNING: USB installer is not recommended for most use cases
@@ -423,11 +423,11 @@ The **slow rollout of comprehensive 5G coverage** ensures **Rayhunter** remains 
 ### Limitations of Rayhunter in True 5G Environments
 
 #### Native 5G Surveillance Blind Spots
-**Rayhunter** cannot detect **native 5G IMSI catcher operations** that don't rely on downgrade attacks:
+**Rayhunter** can't detect **native 5G IMSI catcher operations** that don't rely on downgrade attacks:
 
-- **5G standalone (SA) networks**: When devices connect to pure 5G networks without falling back to 4G, **Rayhunter** cannot monitor these communications
+- **5G standalone (SA) networks**: When devices connect to pure 5G networks without falling back to 4G, **Rayhunter** can't monitor these communications
 - **Advanced 5G surveillance equipment**: Sophisticated threat actors with access to advanced technology could potentially intercept 5G communications without triggering **Rayhunter's** detection heuristics
-- **Network slicing exploitation**: 5G network slicing capabilities could potentially be abused for surveillance purposes in ways that **Rayhunter** cannot detect
+- **Network slicing exploitation**: 5G network slicing capabilities could potentially be abused for surveillance purposes in ways that **Rayhunter** can't detect
 
 #### Enhanced 5G Security Features
 5G networks incorporate **improved security measures** that could reduce the effectiveness of traditional surveillance techniques:
@@ -605,15 +605,15 @@ For installation support and troubleshooting:
 An IMSI catcher (also called StingRay, cell site simulator, or fake cell tower) is surveillance equipment that mimics legitimate cellular towers to intercept mobile device communications. It forces nearby devices to connect to the malicious equipment instead of legitimate towers, allowing operators to harvest device identifiers (IMSI numbers), location data, call metadata, and potentially intercept communications. **Rayhunter** detects these devices by identifying abnormal cellular network behavior patterns.
 
 #### Can Rayhunter detect all types of surveillance equipment?
-**Rayhunter** specifically detects IMSI catchers and cell site simulators operating on 2G, 3G, and 4G/LTE networks. It cannot detect other types of surveillance such as WiFi monitoring, GPS tracking devices, physical surveillance, or native 5G surveillance that doesn't use downgrade attacks. **Rayhunter** is one component of a comprehensive privacy protection strategy.
+**Rayhunter** specifically detects IMSI catchers and cell site simulators operating on 2G, 3G, and 4G/LTE networks. It can't detect other types of surveillance such as WiFi monitoring, GPS tracking devices, physical surveillance, or native 5G surveillance that doesn't use downgrade attacks. **Rayhunter** is one component of a comprehensive privacy protection strategy.
 
 #### Is it legal to use Rayhunter?
-**Rayhunter** is completely legal to use in most jurisdictions as it is a passive monitoring tool that doesn't interfere with cellular networks or other devices. It simply analyzes cellular signals that your device receives naturally. However, local laws vary, so users should verify compatibility with their local regulations. The EFF developed **Rayhunter** as a legitimate privacy protection tool.
+**Rayhunter** is completely legal to use in most jurisdictions as it's a passive monitoring tool that doesn't interfere with cellular networks or other devices. It simply analyzes cellular signals that your device receives naturally. However, local laws vary, so users should verify compatibility with their local regulations. The EFF developed **Rayhunter** as a legitimate privacy protection tool.
 
 ### Technical Questions
 
 #### Why does Rayhunter require a SIM card if it doesn't need active service?
-The SIM card provides the International Mobile Subscriber Identity (IMSI) needed for your device to authenticate with cellular networks and participate in the cellular protocol exchanges that **Rayhunter** monitors. Without a SIM card, the device cannot connect to cellular networks and **Rayhunter** would have no network activity to analyze for suspicious patterns.
+The SIM card provides the International Mobile Subscriber Identity (IMSI) needed for your device to authenticate with cellular networks and participate in the cellular protocol exchanges that **Rayhunter** monitors. Without a SIM card, the device can't connect to cellular networks and **Rayhunter** would have no network activity to analyze for suspicious patterns.
 
 #### How much data does Rayhunter consume during normal operation?
 **Rayhunter** uses minimal data for basic monitoring since it primarily analyzes cellular protocol information rather than internet traffic. However, if you enable remote notifications via ntfy or use the device as a hotspot simultaneously, data usage will increase accordingly. The monitoring itself consumes negligible bandwidth.
@@ -630,7 +630,7 @@ The **WiFi method** (recommended for most users) installs **Rayhunter** over the
 **Rayhunter** requires devices with Qualcomm modems that expose the `/dev/diag` interface, which provides access to cellular protocol information. Most consumer devices don't expose this interface for security reasons. The supported devices have been specifically tested and confirmed to work with **Rayhunter's** requirements.
 
 #### Can I install Rayhunter on my regular smartphone?
-No, **Rayhunter** cannot be installed on regular smartphones. It requires specialized mobile hotspot devices with specific Qualcomm modems that expose diagnostic interfaces. Supported devices include the Orbic RC400L, TP-Link M7350, and several other mobile hotspot models.
+No, **Rayhunter** can't be installed on regular smartphones. It requires specialized mobile hotspot devices with specific Qualcomm modems that expose diagnostic interfaces. Supported devices include the Orbic RC400L, TP-Link M7350, and several other mobile hotspot models.
 
 #### What happens if I try to install Rayhunter on an incompatible device?
 The **Rayhunter** installer includes device detection and will typically refuse to install on incompatible hardware. Attempting to force installation on unsupported devices could potentially damage the device or render it inoperable. Always verify device compatibility before attempting installation.
@@ -658,7 +658,7 @@ Check for **Rayhunter** updates regularly (monthly recommended) as new detection
 **Rayhunter** operates passively and doesn't broadcast signals that would identify it to surveillance equipment. However, using any security tool indicates privacy consciousness. The benefits of detection typically outweigh risks, especially for high-risk individuals like journalists and activists.
 
 #### Can surveillance equipment detect that I'm using Rayhunter?
-**Rayhunter** is a passive monitoring system that doesn't transmit identifying signals. Surveillance operators cannot detect **Rayhunter** usage from the cellular protocol level. Physical observation of the device or network traffic analysis might reveal **Rayhunter** usage if remote notifications are enabled.
+**Rayhunter** is a passive monitoring system that doesn't transmit identifying signals. Surveillance operators can't detect **Rayhunter** usage from the cellular protocol level. Physical observation of the device or network traffic analysis might reveal **Rayhunter** usage if remote notifications are enabled.
 
 #### What information does Rayhunter collect about me?
 **Rayhunter** analyzes cellular protocol information and stores detection alerts locally on the device. It doesn't collect personal information, communications content, or location data beyond what's necessary for detection algorithms. All data remains on your device unless you choose to enable remote notifications.

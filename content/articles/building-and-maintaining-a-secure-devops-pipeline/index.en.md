@@ -49,9 +49,9 @@ For example, Snyk is a popular tool that can scan application code and open sour
 
 ### 4. Use secure containers
 
-Containers are a popular way to package and deploy applications in a DevOps pipeline. However, if containers are not implemented securely, they can become a potential vulnerability. To use secure containers, developers should ensure that container images are built from trusted sources and that they are scanned for vulnerabilities before deployment. Additionally, access to containers should be limited, and runtime protection should be implemented to prevent unauthorized access or modification.
+Containers are a popular way to package and deploy applications in a DevOps pipeline. However, if containers aren't implemented securely, they can become a potential vulnerability. To use secure containers, developers should ensure that container images are built from trusted sources and that they're scanned for vulnerabilities before deployment. Also, access to containers should be limited, and runtime protection should be implemented to prevent unauthorized access or modification.
 
-For instance, Docker Hub provides a vulnerability scanning feature that can be used to scan container images for vulnerabilities before deployment. Additionally, access to containers can be limited by implementing container security policies that define who can access which containers. Finally, runtime protection can be achieved by implementing container security measures such as container image signing, container firewall, and container runtime security.
+For instance, Docker Hub provides a vulnerability scanning feature that can be used to scan container images for vulnerabilities before deployment. Also, access to containers can be limited by implementing container security policies that define who can access which containers. Finally, runtime protection can be achieved by implementing container security measures such as container image signing, container firewall, and container runtime security.
 
 ### 5. Implement continuous monitoring and feedback
 
@@ -59,7 +59,7 @@ Continuous monitoring and feedback is crucial for maintaining a secure DevOps pi
 
 For example, Splunk is a popular tool that can be used for log analysis, performance monitoring, and SIEM. It can be integrated into the DevOps pipeline to provide real-time feedback on the performance and security of the pipeline and applications. It can also provide insights into any security incidents that occur, allowing developers to quickly remediate any vulnerabilities.
 
-Another example is Prometheus, which is an open-source monitoring and alerting system that can be used to monitor various metrics, including the performance of the pipeline and applications. It can be integrated into the DevOps pipeline to provide continuous monitoring, and can alert developers when performance or security issues arise. Additionally, it can provide valuable feedback to developers, allowing them to improve the quality and efficiency of the DevOps pipeline.
+Another example is Prometheus, which is an open-source monitoring and alerting system that can be used to monitor various metrics, including the performance of the pipeline and applications. It can be integrated into the DevOps pipeline to provide continuous monitoring, and can alert developers when performance or security issues arise. Also, it can provide valuable feedback to developers, allowing them to improve the quality and efficiency of the DevOps pipeline.
 
 ## Best Practices for Maintaining a Secure DevOps Pipeline
 

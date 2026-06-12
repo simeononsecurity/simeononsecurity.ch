@@ -20,9 +20,9 @@ There are several types of authentication factors used in multi-factor authentic
 
 - **Something you have:** This includes a physical object that only the user possesses, such as a USB key, smart card, or mobile phone. An example of this is using a smart card to access a secure government facility.
 
-- **Something you are:** This includes biometric information, such as fingerprints, facial recognition, or iris scans. An example of this is unlocking a smartphone using facial recognition.
+- **Something you're:** This includes biometric information, such as fingerprints, facial recognition, or iris scans. An example of this is unlocking a smartphone using facial recognition.
 
-- **Somewhere you are:** This includes location-based information, such as the user's GPS location or IP address. An example of this is a bank requiring a user to authenticate their location before allowing access to their account.
+- **Somewhere you're:** This includes location-based information, such as the user's GPS location or IP address. An example of this is a bank requiring a user to authenticate their location before allowing access to their account.
 
 - **Something you do:** This includes behavioral biometrics, such as the user's typing speed, mouse movements, or speech patterns. An example of this is a system that can recognize the way a user types to authenticate their identity.
 
@@ -44,13 +44,13 @@ Here are the pros and cons of each type of multi-factor authentication (MFA):
   
   - Cons: Can be forgotten or lost, can be stolen if not properly secured, and can be expensive to implement.
 
-- **Something you are:**
+- **Something you're:**
 
   - Pros: Unique to each individual, difficult to forge, and can't be lost or forgotten.
   
   - Cons: Can be impacted by changes in the user's appearance, can be difficult to implement for large groups of users, and may be seen as invasive.
 
-- **Somewhere you are:**
+- **Somewhere you're:**
 
   - Pros: Can provide additional context for authentication, such as ensuring the user is in the correct geographic location.
   
@@ -62,13 +62,13 @@ Here are the pros and cons of each type of multi-factor authentication (MFA):
   
   - Cons: Can be impacted by injury or disability, may require specialized hardware or software, and may not be effective for all users.
   
-While hardware-based authentication, such as using a physical token like Yubico's YubiKey, is considered the most secure, SMS-based authentication and email-based authentication are considered the least secure methods as they are vulnerable to interception and spoofing.
+While hardware-based authentication, such as using a physical token like Yubico's YubiKey, is considered the most secure, SMS-based authentication and email-based authentication are considered the least secure methods as they're vulnerable to interception and spoofing.
 
 ### Best Multi-Factor Authentication Method For Security
 
-While all types of multi-factor authentication offer better security than using just a password, some methods are more secure than others. Hardware-based authentication, such as using a physical token like the [Yubico's YubiKey](https://amzn.to/3kPk1wy) or the [OnlyKey](https://amzn.to/3Zi5SXM), are considered the most secure as they require physical possession of the token, they generate a unique code for each login attempt, and they are not susceptible to phishing or hacking attacks.
+While all types of multi-factor authentication offer better security than using just a password, some methods are more secure than others. Hardware-based authentication, such as using a physical token like the [Yubico's YubiKey](https://amzn.to/3kPk1wy) or the [OnlyKey](https://amzn.to/3Zi5SXM), are considered the most secure as they require physical possession of the token, they generate a unique code for each login attempt, and they aren't susceptible to phishing or hacking attacks.
 
-SMS-based authentication and email-based authentication are considered the least secure methods as they are vulnerable to interception and spoofing.
+SMS-based authentication and email-based authentication are considered the least secure methods as they're vulnerable to interception and spoofing.
 
 ### Software-Based 2FA Tokens: Finding the Right Balance Between Security and Convenience
 
@@ -102,7 +102,7 @@ When it comes to multi-factor authentication (MFA), the question arises: **Is us
 
 For the majority of accounts, **two-factor authentication (2FA)** proves sufficient. By combining something you know (like a password) with something you have (such as a smartphone), 2FA adds a robust layer of security. Major online services like [Google](https://www.google.com/landing/2step/) and [Microsoft](https://www.microsoft.com/en-us/account/security/) offer options for enabling 2FA.
 
-However, for accounts that house highly sensitive information like financial or medical data, employing more than two factors can enhance security even further. This approach, known as **multi-factor authentication**, involves a combination of something you know, something you have, and something you are. For example, it may require a password, a physical token, and biometric verification like fingerprint or facial recognition.
+However, for accounts that house highly sensitive information like financial or medical data, employing more than two factors can enhance security even further. This approach, known as **multi-factor authentication**, involves a combination of something you know, something you have, and something you're. For example, it may require a password, a physical token, and biometric verification like fingerprint or facial recognition.
 
 Implementing multi-factor authentication for high-security accounts significantly reduces the risk of unauthorized access. Services like [Authy](https://authy.com/) and [Okta](https://www.okta.com/) offer MFA solutions with support for multiple factors.
 
@@ -125,13 +125,13 @@ The choice between security and convenience ultimately depends on your specific 
 
 In today's rapidly evolving digital landscape, ensuring the security of our online accounts and protecting sensitive information has become paramount. Multi-factor authentication (MFA) emerges as a crucial safeguard, fortifying our defenses against unauthorized access and cyber threats.
 
-MFA introduces an additional layer of protection by requiring users to provide multiple authentication factors. These factors can include **something they know** (e.g., a password or PIN), **something they have** (e.g., a hardware token or smartphone), or **something they are** (e.g., biometric data like fingerprints or facial recognition). By combining these factors, MFA mitigates common attack methods like phishing, brute-force attacks, and password guessing.
+MFA introduces an additional layer of protection by requiring users to provide multiple authentication factors. These factors can include **something they know** (e.g., a password or PIN), **something they have** (e.g., a hardware token or smartphone), or **something they're** (e.g., biometric data like fingerprints or facial recognition). By combining these factors, MFA mitigates common attack methods like phishing, brute-force attacks, and password guessing.
 
-While hardware-based authentication is widely acknowledged as the most secure approach, software-based 2FA tokens offer a compelling compromise between **security and ease of use**. Rather than relying on physical tokens, software-based authentication apps like [Google Authenticator](https://www.google.com/landing/2step/) or [Authy](https://authy.com/) generate unique codes for each login attempt. These codes, coupled with a password, provide an extra layer of security. Additionally, software-based tokens offer the convenience of easy backup and transfer to new devices.
+While hardware-based authentication is widely acknowledged as the most secure approach, software-based 2FA tokens offer a compelling compromise between **security and ease of use**. Rather than relying on physical tokens, software-based authentication apps like [Google Authenticator](https://www.google.com/landing/2step/) or [Authy](https://authy.com/) generate unique codes for each login attempt. These codes, coupled with a password, provide an extra layer of security. Also, software-based tokens offer the convenience of easy backup and transfer to new devices.
 
 The decision to use more than two factors in MFA depends on the sensitivity of the accounts involved. For most accounts, **two-factor authentication** is typically sufficient. However, **highly sensitive accounts** containing financial or medical information may warrant the use of multiple factors, creating an even stronger defense against potential threats.
 
-Wrapping up, embracing multi-factor authentication empowers us to fortify our online accounts and shield our sensitive data from malicious actors. By implementing this robust security measure, we strengthen our digital resilience and contribute to a safer online ecosystem.
+Wrapping up, embracing multi-factor authentication helps us to fortify our online accounts and shield our sensitive data from malicious actors. By implementing this robust security measure, we strengthen our digital resilience and contribute to a safer online ecosystem.
 
 *_Ensure the safety of your digital world with multi-factor authentication._*
 ## References

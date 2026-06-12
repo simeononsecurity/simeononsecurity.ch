@@ -47,7 +47,7 @@ ______
 
 ## Step 5: Implement Data Encryption
 
-**Data encryption is a powerful tool for protecting sensitive data from APTs.** By encrypting data, you can ensure that even if it is stolen, it cannot be read or used by unauthorized individuals. It is important to ensure that data is encrypted both in transit and at rest.
+**Data encryption is a powerful tool for protecting sensitive data from APTs.** By encrypting data, you can ensure that even if it is stolen, it can't be read or used by unauthorized individuals. It is important to ensure that data is encrypted both in transit and at rest.
 
 Implementing data encryption is an important step in protecting your organization's sensitive data from APTs. **Data encryption involves transforming data into a code or cipher that can only be read by someone who has the key to decipher it.**
 
@@ -82,7 +82,7 @@ For example, employees should be trained to recognize phishing emails and other 
 
 **Regular employee training** can help reinforce the importance of network security and ensure that employees are aware of the latest threats and how to respond to them. It can also help create a culture of security within the organization, where employees are proactive in protecting the network infrastructure.
 
-Overall, **conducting regular employee training** is an important step in protecting your organization against APTs. By educating employees about potential threats and how to respond to them, you can help ensure that they are aware of their role in maintaining network security.
+Overall, **conducting regular employee training** is an important step in protecting your organization against APTs. By educating employees about potential threats and how to respond to them, you can help ensure that they're aware of their role in maintaining network security.
 
 ______
 

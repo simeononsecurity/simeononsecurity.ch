@@ -48,7 +48,7 @@ ______
 
 ## **Significance of Security Classification Guides**
 
-Security classification guides play a vital role in information security and the protection of classified information. Here are some reasons why they are significant:
+Security classification guides play a vital role in information security and the protection of classified information. Here are some reasons why they're significant:
 
 1. **Consistent Handling**: SCGs provide a consistent framework for handling classified information, ensuring that all individuals follow standardized procedures and protocols.
 

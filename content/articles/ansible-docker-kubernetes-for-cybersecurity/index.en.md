@@ -16,7 +16,7 @@ Cybersecurity is a critical aspect of any organization’s infrastructure, and *
 
 ## Ansible
 
-**Ansible** is an open-source software that provides simple IT automation and configuration management. It uses a declarative language to describe the desired state of the system, making it easy for administrators to understand and manage. Ansible can automate a wide range of tasks, including software deployment, server configuration, and security management. It can also be used to automate security-related tasks such as security scans, vulnerability assessments, and patch management.
+**Ansible** is an open-source software that provides simple IT automation and configuration management. It uses a declarative language to describe the desired state of the system, making it easy for administrators to understand and manage. Ansible can automate many tasks, including software deployment, server configuration, and security management. It can also be used to automate security-related tasks such as security scans, vulnerability assessments, and patch management.
 
 ## Docker
 
@@ -28,7 +28,7 @@ Cybersecurity is a critical aspect of any organization’s infrastructure, and *
 
 ______
 
-Ansible, Docker, and Kubernetes can be used together to automate cybersecurity processes and reduce the risk of a data breach. For example, **Ansible** can be used to manage the configuration of security-related applications, such as firewalls and intrusion detection systems, while **Docker** can be used to package and deploy these applications in a secure and isolated environment. **Kubernetes** can then be used to manage and scale these applications, ensuring that they are always running and available.
+Ansible, Docker, and Kubernetes can be used together to automate cybersecurity processes and reduce the risk of a data breach. For example, **Ansible** can be used to manage the configuration of security-related applications, such as firewalls and intrusion detection systems, while **Docker** can be used to package and deploy these applications in a secure and isolated environment. **Kubernetes** can then be used to manage and scale these applications, ensuring that they're always running and available.
 
 ______
 

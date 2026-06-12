@@ -22,7 +22,7 @@ One of the primary reasons why [**password security**](https://simeononsecurity.
 
 ### Use [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 
-[A strong password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is a combination of upper and lower-case letters, numbers, and symbols. It should not contain any easily guessable information, such as your name or date of birth. A strong password should be at least 12 characters long. Avoid reusing passwords across multiple accounts, as this increases the risk of a hacker gaining access to all of your accounts.
+[A strong password](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/) is a combination of upper and lower-case letters, numbers, and symbols. It shouldn't contain any easily guessable information, such as your name or date of birth. A strong password should be at least 12 characters long. Avoid reusing passwords across multiple accounts, as this increases the risk of a hacker gaining access to all of your accounts.
 
 ### Enable Two-Factor Authentication
 
@@ -42,7 +42,7 @@ Updating your passwords regularly is a good practice to prevent hackers from acc
 
 ### Avoid Public Wi-Fi Networks
 
-[Public Wi-Fi networks](https://simeononsecurity.com/articles/how-to-secure-your-wireless-network-against-hacking/) are not secure, and hackers can easily intercept your internet traffic, including your passwords. Avoid using public Wi-Fi networks to access your accounts, especially for sensitive activities such as online banking or shopping.
+[Public Wi-Fi networks](https://simeononsecurity.com/articles/how-to-secure-your-wireless-network-against-hacking/) aren't secure, and hackers can easily intercept your internet traffic, including your passwords. Avoid using public Wi-Fi networks to access your accounts, especially for sensitive activities such as online banking or shopping.
 
 ______
 

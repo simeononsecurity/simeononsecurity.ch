@@ -37,7 +37,7 @@ To get started with Linux, you'll need to install a Linux distribution on your c
 - [CentOS](https://www.centos.org/)
 - [Red Hat Enterprise Linux (RHEL)](https://developers.redhat.com/products/rhel/download)
 
-Each distribution has its own strengths and weaknesses, and the choice of distribution will depend on your specific needs and preferences. For beginners, we recommend starting with Debian or Ubuntu, as they are widely used and have a large community of users who can provide support.
+Each distribution has its own strengths and weaknesses, and the choice of distribution will depend on your specific needs and preferences. For beginners, we recommend starting with Debian or Ubuntu, as they're widely used and have a large community of users who can provide support.
 
 ## Learning Linux Commands
 
@@ -52,11 +52,11 @@ Here are some of the most common Linux commands and what they do:
 - `ps`: Displays information about running processes. For example, if you want to see a list of all the processes running on your system, you would type `ps`.
 - `ifconfig`: Displays network configuration information. For example, if you want to see the IP address of your network interface, you would type `ifconfig`.
 
-These are just a few of the many Linux commands you can use. To learn more, you can consult online resources, such as the Linux man pages or other Linux documentation. Additionally, many Linux distributions come with a built-in help system, which you can access by typing `man <command>` to get more information about a specific command.
+These are just a few of the many Linux commands you can use. To learn more, you can consult online resources, such as the Linux man pages or other Linux documentation. Also, many Linux distributions come with a built-in help system, which you can access by typing `man <command>` to get more information about a specific command.
 
 ## Learning Debian-Based Linux
 
-Debian is a popular distribution of Linux that is known for its stability, security, and large community of users. If you're new to Linux, we recommend starting with Debian or Ubuntu, as they are both based on Debian and have a similar structure and package management system.
+Debian is a popular distribution of Linux that is known for its stability, security, and large community of users. If you're new to Linux, we recommend starting with Debian or Ubuntu, as they're both based on Debian and have a similar structure and package management system.
 
 Here are some resources you can use to learn Debian-based Linux:
 
@@ -87,7 +87,7 @@ Here are some resources you can use to learn RHEL-based Linux:
 
 ### Red Hat Learning Subscription
 
-The [Red Hat Learning Subscription](https://www.redhat.com/en/services/training/learning-subscription) is a subscription-based service that provides access to a wide range of online courses and training materials, including courses on RHEL administration and management. The service offers different subscription tiers, with varying levels of access and features, and can be a great resource for professionals who want to deepen their knowledge and skills in RHEL-based Linux. Some of the courses available through the Red Hat Learning Subscription include:
+The [Red Hat Learning Subscription](https://www.redhat.com/en/services/training/learning-subscription) is a subscription-based service that provides access to many online courses and training materials, including courses on RHEL administration and management. The service offers different subscription tiers, with varying levels of access and features, and can be a great resource for professionals who want to deepen their knowledge and skills in RHEL-based Linux. Some of the courses available through the Red Hat Learning Subscription include:
 
 - **Red Hat System Administration I**: This course covers the basics of RHEL system administration, including how to install and configure RHEL, manage users and groups, and configure network settings.
 - **Red Hat System Administration II**: This course builds on the knowledge gained in System Administration I and covers more advanced topics, such as configuring storage, managing processes, and troubleshooting issues.
@@ -123,7 +123,7 @@ Here are some popular Linux communities you can join:
 
 ### LinuxQuestions.org
 
-[LinuxQuestions.org](https://www.linuxquestions.org/) is a popular forum for Linux users, where you can ask questions and get answers from other Linux users. The forum has over 1.5 million posts and covers a wide range of Linux-related topics, including installation, configuration, and troubleshooting. Here are some of the types of posts you might find on LinuxQuestions.org:
+[LinuxQuestions.org](https://www.linuxquestions.org/) is a popular forum for Linux users, where you can ask questions and get answers from other Linux users. The forum has over 1.5 million posts and covers many Linux-related topics, including installation, configuration, and troubleshooting. Here are some of the types of posts you might find on LinuxQuestions.org:
 
 - Questions about specific Linux distributions or applications
 - Troubleshooting posts about issues with Linux installations or configurations

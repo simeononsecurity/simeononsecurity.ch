@@ -34,7 +34,7 @@ ______
 
 Home users who are searching for the best [NAS operating system](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) often have concerns about **cost**. In this regard, **TrueNas** is a clear winner as it is **open-source and completely free**[^1][^2], at least for TrueNas CORE, the version aimed at home users and non-critical storage applications.
 
-In contrast, **Unraid** is not free but uses a fair pricing model with no subscriptions or hidden fees[^3]. There are three Unraid plans to choose from, each differing only in the number of storage devices that can be attached. The **Basic plan** costs **$59**[^4], the **Plus plan** costs **$89**[^5], and the **Pro plan** costs **$129**[^6].
+In contrast, **Unraid** isn't free but uses a fair pricing model with no subscriptions or hidden fees[^3]. There are three Unraid plans to choose from, each differing only in the number of storage devices that can be attached. The **Basic plan** costs **$59**[^4], the **Plus plan** costs **$89**[^5], and the **Pro plan** costs **$129**[^6].
 
 [^1]: [TrueNas CORE](https://www.truenas.com/products/truenas-core/)
 [^2]: [TrueNas Documentation - Getting Started](https://www.truenas.com/docs/hub/gettingstarted/intro/)
@@ -60,9 +60,9 @@ ______
 
 ## Features
 
-**Both TrueNas and Unraid** provide support for **NFS shares**, **SMB** for Windows, and **AFP** for macOS and iOS[^1][^2]. **TrueNas** goes a step further by offering additional services like **iSCSI**, **LDAP**, **Active Directory**, and **Kerberos**[^1]. **Unraid**, on the other hand, distinguishes itself with its support for **Docker containers**, providing users access to a wide range of applications[^2].
+**Both TrueNas and Unraid** provide support for **NFS shares**, **SMB** for Windows, and **AFP** for macOS and iOS[^1][^2]. **TrueNas** goes a step further by offering additional services like **iSCSI**, **LDAP**, **Active Directory**, and **Kerberos**[^1]. **Unraid**, on the other hand, distinguishes itself with its support for **Docker containers**, providing users access to many applications[^2].
 
-**TrueNas** stands out with its built-in support for **cloud storage services** such as **Amazon S3**, **Google Cloud**, and **Microsoft Azure**[^1]. Moving data to the cloud becomes seamless with TrueNas. While **Unraid** doesn't have native support for cloud storage, users can explore third-party solutions, which may require additional setup and configuration[^2].
+**TrueNas** stands out with its built-in support for **cloud storage services** such as **Amazon S3**, **Google Cloud**, and **Microsoft Azure**[^1]. Moving data to the cloud becomes smooth with TrueNas. While **Unraid** doesn't have native support for cloud storage, users can explore third-party solutions, which may require additional setup and configuration[^2].
 
 The Linux-based platform of **Unraid** allows for **virtual machine configuration** using **KVM** and the assignment of **PCI/USB devices** to virtual machines, including graphics cards, enabling users to use the same computer for media center and gaming purposes[^2].
 
@@ -74,9 +74,9 @@ ______
 
 ## Documentation and Community
 
-**TrueNas** provides a **comprehensive Documentation Hub** that covers a wide range of topics, including **setup**, **APIs**, and **hardware platforms**[^1]. On the other hand, **Unraid** offers a less extensive documentation section, but it boasts a user-friendly navigation system[^2].
+**TrueNas** provides a **comprehensive Documentation Hub** that covers many topics, including **setup**, **APIs**, and **hardware platforms**[^1]. On the other hand, **Unraid** offers a less extensive documentation section, but it boasts a user-friendly navigation system[^2].
 
-While Unraid does not have a dedicated support page, it encourages users to participate in the **official community forum**, which is known for being **friendly**, **informative**, and **helpful**[^2].
+While Unraid doesn't have a dedicated support page, it encourages users to participate in the **official community forum**, which is known for being **friendly**, **informative**, and **helpful**[^2].
 
 Similarly, TrueNas also maintains its own **official community forum**, which serves as a platform for users to seek assistance and share knowledge[^1]. However, worth noting: the TrueNas forum may cater more to **IT professionals** with a focus on **enterprise storage management**.
 

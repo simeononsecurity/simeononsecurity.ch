@@ -418,7 +418,7 @@ ______
 
 Linux provides powerful built-in tools (`sha256sum`, `md5sum`, `sha1sum`) for file hashing. Whether you're verifying downloads, monitoring file integrity, detecting duplicates, or ensuring backup validity, mastering these commands is essential for system administration and security in 2026.
 
-**Key Takeaways:**
+**main points:**
 - Use **sha256sum** for all security-related hashing
 - Create hash manifests with `sha256sum * > checksums.txt`
 - Verify files with `sha256sum -c checksums.txt`

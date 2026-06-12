@@ -21,7 +21,7 @@ ______
 
 ## Overview of HackTheBox Academy and TryHackMe
 
-Both **HackTheBox Academy** and **TryHackMe** are online platforms that offer hands-on cybersecurity training through interactive labs, challenges, and exercises. They cover a wide range of cybersecurity topics, including network security, web application security, cryptography, and more.
+Both **HackTheBox Academy** and **TryHackMe** are online platforms that offer hands-on cybersecurity training through interactive labs, challenges, and exercises. They cover many cybersecurity topics, including network security, web application security, cryptography, and more.
 
 While both platforms aim to teach cybersecurity concepts, they have different approaches to learning, pricing models, and target audiences that have evolved significantly through 2026.
 
@@ -39,7 +39,7 @@ While both platforms aim to teach cybersecurity concepts, they have different ap
 
 ### HackTheBox Academy
 
-**HackTheBox Academy** is an online platform that provides a structured learning experience for cybersecurity professionals. It offers a wide range of cybersecurity topics, including penetration testing, forensics, and malware analysis, and provides both free and paid subscription options.
+**HackTheBox Academy** is an online platform that provides a structured learning experience for cybersecurity professionals. It offers many cybersecurity topics, including penetration testing, forensics, and malware analysis, and provides both free and paid subscription options.
 
 **HackTheBox Academy** is known for its challenging and realistic labs and exercises that simulate real-world scenarios, while also providing extensive guidance and support to learners. Its courses and labs are designed to teach practical skills and knowledge in cybersecurity, making it a popular choice for cybersecurity professionals who want to improve their practical skills and advance their careers.
 
@@ -153,8 +153,8 @@ Before choosing a platform, it's important to understand the strengths and weakn
 
 #### Strengths
 
-- **Beginner-friendly approach:** TryHackMe provides a more structured learning experience with a focus on providing guidance and support to learners who are just starting out in cybersecurity. Additionally, it also provides basic instructions for learning linux, networking, vpns, etc at a level that HTB Academy currently doesn't have.
-- **Wide range of topics:** TryHackMe covers a wide range of cybersecurity topics, making it an ideal platform for learners who want to develop a broad range of skills, including defensive security and SOC operations.
+- **Beginner-friendly approach:** TryHackMe provides a more structured learning experience with a focus on providing guidance and support to learners who are just starting out in cybersecurity. Also, it also provides basic instructions for learning linux, networking, vpns, etc at a level that HTB Academy currently doesn't have.
+- **Wide range of topics:** TryHackMe covers many cybersecurity topics, making it an ideal platform for learners who want to develop a broad range of skills, including defensive security and SOC operations.
 - **Community:** TryHackMe has an active community of users who can provide support and answer questions, with over 1.2 million Discord members and active subreddit.
 - **Gamification:** The platform's ranking system, badges, and streaks create engaging motivation for consistent learning.
 - **Flexible learning paths:** 35+ curated paths cover everything from absolute beginner to advanced red team operations.
@@ -282,9 +282,9 @@ Both HackTheBox Academy and TryHackMe offer challenges and exercises that simula
 
 ### Topics and Skills
 
-HackTheBox Academy and TryHackMe cover a wide range of cybersecurity topics, but they differ in the level of depth and focus on certain areas. HackTheBox Academy provides a more in-depth and specialized approach, with courses and labs that focus on specific areas such as penetration testing, forensics, and malware analysis. This makes it a good choice for learners who want to specialize in a particular area or advance their career in a specific field, particularly offensive security.
+HackTheBox Academy and TryHackMe cover many cybersecurity topics, but they differ in the level of depth and focus on certain areas. HackTheBox Academy provides a more in-depth and specialized approach, with courses and labs that focus on specific areas such as penetration testing, forensics, and malware analysis. This makes it a good choice for learners who want to specialize in a particular area or advance their career in a specific field, particularly offensive security.
 
-On the other hand, TryHackMe covers a broad range of cybersecurity topics, making it ideal for learners who want to develop a general understanding of the field. It also covers IT-based topics, including Linux and networking, which can provide learners with a strong foundation in IT. Additionally, TryHackMe offers more comprehensive blue team and defensive security content.
+On the other hand, TryHackMe covers a broad range of cybersecurity topics, making it ideal for learners who want to develop a general understanding of the field. It also covers IT-based topics, including Linux and networking, which can provide learners with a strong foundation in IT. Also, TryHackMe offers more comprehensive blue team and defensive security content.
 
 ### Career Goals
 

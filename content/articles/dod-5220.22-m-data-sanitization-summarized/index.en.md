@@ -10,11 +10,11 @@ coverAlt: "An image of a hard drive being securely erased using data sanitizatio
 coverCaption: ""
 ---
 
-The **Department of Defense (DoD) 5220.22-M specification** is a data sanitization standard that outlines the process of securely erasing data from digital storage media. It is designed to ensure that sensitive information is not recoverable by unauthorized individuals. The specification covers a wide range of digital storage media, including **hard disk drives, solid-state drives, and removable media such as USB drives and floppy disks**.
+The **Department of Defense (DoD) 5220.22-M specification** is a data sanitization standard that outlines the process of securely erasing data from digital storage media. It is designed to ensure that sensitive information isn't recoverable by unauthorized individuals. The specification covers many digital storage media, including **hard disk drives, solid-state drives, and removable media such as USB drives and floppy disks**.
 
 ## What is the DoD 5220.22-M Specification?
 
-The DoD 5220.22-M specification is a **data sanitization standard** that outlines the process of securely erasing data from digital storage media. It is designed to ensure that **sensitive information** is not recoverable by unauthorized individuals. The specification covers a wide range of digital storage media, including **hard disk drives, solid-state drives, and removable media** such as USB drives and floppy disks.
+The DoD 5220.22-M specification is a **data sanitization standard** that outlines the process of securely erasing data from digital storage media. It is designed to ensure that **sensitive information** isn't recoverable by unauthorized individuals. The specification covers many digital storage media, including **hard disk drives, solid-state drives, and removable media** such as USB drives and floppy disks.
 
 The DoD 5220.22-M specification requires the use of a **multi-pass data sanitization process** to ensure that all data is securely erased. The **first pass** of the process overwrites the data with a series of zeros, the **second pass** overwrites the data with a series of ones, and **subsequent passes** overwrite the data with random patterns. This process makes it extremely difficult, if not impossible, for anyone to recover the data that was stored on the media.
 
@@ -32,7 +32,7 @@ The DoD 5220.22-M specification provides a **standardized approach** to data san
 
 3. **Protect sensitive information**: By implementing a multi-pass data sanitization process, organizations can ensure that sensitive information is irrecoverable. This includes personal identifiable information (PII), financial data, trade secrets, and other confidential information.
 
-4. **Preserve reputation**: Data breaches can severely damage an organization's reputation. Following the DoD 5220.22-M specification demonstrates a commitment to data security, fostering trust among customers, partners, and stakeholders.
+4. **Preserve reputation**: Data breaches can severely damage an organization's reputation. Following the DoD 5220.22-M specification demonstrates a commitment to data security, building trust among customers, partners, and stakeholders.
 
 ## Implementing the DoD 5220.22-M Specification
 

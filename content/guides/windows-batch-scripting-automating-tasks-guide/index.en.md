@@ -34,7 +34,7 @@ REM This is a comment
 echo Hello, world!
 ```
 
-In this example, `@echo off` disables the display of commands as they are executed, and `echo` is used to print text to the console.
+In this example, `@echo off` disables the display of commands as they're executed, and `echo` is used to print text to the console.
 
 ### Variables and Parameters
 
@@ -130,9 +130,9 @@ This script adds a new user and adds them to the "Users" group.
 
 ## Conclusion
 
-Windows batch scripting provides a straightforward yet powerful approach to automating tasks on the Windows platform. By harnessing variables, loops, conditional statements, and error handling, you can create efficient and reliable automation solutions. Whether you're streamlining backups, installing software, or managing users, batch scripts offer a versatile toolset for various scenarios in cybersecurity, IT administration, and everyday computing.
+Windows batch scripting provides a straightforward yet powerful approach to automating tasks on the Windows platform. By use variables, loops, conditional statements, and error handling, you can create efficient and reliable automation solutions. Whether you're simplifying backups, installing software, or managing users, batch scripts offer a versatile toolset for various scenarios in cybersecurity, IT administration, and everyday computing.
 
-Batch scripting empowers you to take control of your tasks, enhance productivity, and ensure consistency in your operations. As you continue to explore batch scripting, you'll discover even more creative ways to leverage its capabilities and contribute to a more efficient computing environment.
+Batch scripting helps you to take control of your tasks, enhance productivity, and ensure consistency in your operations. As you continue to explore batch scripting, you'll discover even more creative ways to leverage its capabilities and contribute to a more efficient computing environment.
 
 ## References
 - [SS64: Windows Commands Reference](https://ss64.com/nt/)

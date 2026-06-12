@@ -14,7 +14,7 @@ Anatomy of a Cyber Attack: How Hackers Breach Defenses
 
 In today's digital age, cyber attacks have become increasingly sophisticated and prevalent. Hackers employ various methods to breach defenses and gain unauthorized access to sensitive information. Understanding the anatomy of a cyber attack is crucial for organizations and individuals to strengthen their security measures. This article explores the methods of initial access, exploiting vulnerabilities, privilege escalation, lateral movement, and data exfiltration used by hackers. By recognizing these techniques, individuals and organizations can better protect themselves against cyber threats.
 
-### Key Takeaways
+### main points
 
 * Phishing attacks, malware infections, and brute force attacks are common methods of initial access used by hackers.
 * Software vulnerabilities, network vulnerabilities, and human vulnerabilities are commonly exploited by hackers to gain unauthorized access.
@@ -37,7 +37,7 @@ Brute force attacks are a common method used by hackers to gain unauthorized acc
 
 * Brute force attacks rely on the sheer computational power of modern computers to try millions or even billions of password combinations in a short amount of time.
 * Hackers often use automated tools or scripts to carry out brute force attacks, making the process more efficient and less labor-intensive.
-* To protect against brute force attacks, it is important to use strong, complex passwords that are not easily guessable. This includes using a combination of uppercase and lowercase letters, numbers, and special characters.
+* To protect against brute force attacks, it is important to use strong, complex passwords that aren't easily guessable. This includes using a combination of uppercase and lowercase letters, numbers, and special characters.
 
 > Tip: Implementing account lockout policies can also help mitigate the risk of brute force attacks by temporarily locking an account after a certain number of failed login attempts.
 
@@ -65,13 +65,13 @@ Privilege Escalation
 
 ### Exploiting Misconfigurations
 
-Exploiting misconfigurations is a [common method used by hackers](https://www.cognixia.com/blog/anatomy-of-a-ransomware-attack/) to gain unauthorized access to a system. Misconfigurations occur when system settings, permissions, or configurations are not properly set up, leaving vulnerabilities that can be exploited. These misconfigurations can range from simple mistakes, such as leaving default passwords unchanged, to more complex issues, such as improperly configured firewalls or access controls.
+Exploiting misconfigurations is a [common method used by hackers](https://www.cognixia.com/blog/anatomy-of-a-ransomware-attack/) to gain unauthorized access to a system. Misconfigurations occur when system settings, permissions, or configurations aren't properly set up, leaving vulnerabilities that can be exploited. These misconfigurations can range from simple mistakes, such as leaving default passwords unchanged, to more complex issues, such as improperly configured firewalls or access controls.
 
 ### Exploiting Weak Passwords
 
 Weak passwords are one of the most common vulnerabilities that hackers exploit to gain unauthorized access to systems and networks. A weak password is one that is easy to guess or crack, making it vulnerable to brute force attacks. These attacks involve systematically trying different combinations of characters until the correct password is found. Once hackers gain access to an account with a weak password, they can carry out various malicious activities, such as stealing sensitive data, spreading malware, or launching further attacks.
 
-To protect against weak password vulnerabilities, you need to enforce strong password policies. This includes requiring users to create passwords that are long, complex, and unique. Additionally, implementing multi-factor authentication adds an extra layer of security by requiring users to provide additional verification, such as a fingerprint or a one-time password.
+To protect against weak password vulnerabilities, you need to enforce strong password policies. This includes requiring users to create passwords that are long, complex, and unique. Also, implementing multi-factor authentication adds an extra layer of security by requiring users to provide additional verification, such as a fingerprint or a one-time password.
 
 By addressing weak password vulnerabilities, organizations can significantly [reduce the risk of unauthorized access](https://www.cyberdefensemagazine.com/how-can-we-turn-a-hackers-toolkit-against-them-the-evolution-of-a-phishing-email/) and protect their sensitive information.
 

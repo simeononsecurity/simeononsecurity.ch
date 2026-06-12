@@ -28,7 +28,7 @@ NIST SP 800-61 Rev. 2 provides a framework for incident response that consists o
 
 - Monitor the network and systems for suspicious activity and anomalies.
 - Use intrusion detection and prevention systems to detect and prevent attacks.
-- Investigate suspicious activity to determine whether it is a legitimate incident.
+- Investigate suspicious activity to determine whether it's a legitimate incident.
 
 ### Containment Phase
 
@@ -50,17 +50,17 @@ While NIST SP 800-61 Rev. 2 provides a useful framework for incident response, t
 
 In the rapidly changing landscape of cybersecurity, organizations must stay one step ahead of threat actors. Incorporating **threat intelligence** into incident response processes is a proactive strategy to detect, respond to, and mitigate security incidents effectively.
 
-Threat intelligence involves gathering and analyzing information about the tactics, techniques, and procedures (TTPs) employed by threat actors. This invaluable data is sourced from diverse channels, including **open-source intelligence**, **dark web forums**, and **commercial threat intelligence feeds**. By using this intelligence, organizations can bolster their incident response capabilities.
+Threat intelligence involves gathering and analyzing information about the tactics, techniques, and procedures (TTPs) employed by threat actors. This invaluable data is sourced from diverse channels, including **open-source intelligence**, **dark web forums**, and **commercial threat intelligence feeds**. By using this intelligence, organizations can strengthen their incident response capabilities.
 
 One of the primary benefits of incorporating threat intelligence is the ability to proactively detect and prevent threats. For instance, if a threat actor is known for employing a specific type of malware or exploit, threat intelligence enables organizations to identify and counteract these threats before they inflict damage. By staying informed about **indicators of compromise (IOCs)**, organizations can swiftly respond to security incidents.
 
-There are multiple approaches for integrating threat intelligence into incident response processes. Organizations can subscribe to **commercial threat intelligence feeds** that provide real-time information about known threats and vulnerabilities. Additionally, using **open-source intelligence** enables organizations to gather insights into threat actors and their TTPs. For a more automated approach, organizations can use **threat intelligence platforms** that streamline the gathering and analysis of threat intelligence.
+There are multiple approaches for integrating threat intelligence into incident response processes. Organizations can subscribe to **commercial threat intelligence feeds** that provide real-time information about known threats and vulnerabilities. Also, using **open-source intelligence** enables organizations to gather insights into threat actors and their TTPs. For a more automated approach, organizations can use **threat intelligence platforms** that simplify the gathering and analysis of threat intelligence.
 
-For example, the notorious cyberattack on the Ukrainian power grid in 2015 showcased the significance of threat intelligence. The attack, attributed to the threat actor SandWorm, employed custom malware targeting industrial control systems (ICS). Although SandWorm was previously unknown, cybersecurity researchers analyzed the attack and identified **IOCs** to detect and mitigate future attacks by this threat actor.
+For example, the notorious cyberattack on the Ukrainian power grid in 2015 showed the significance of threat intelligence. The attack, attributed to the threat actor SandWorm, employed custom malware targeting industrial control systems (ICS). Although SandWorm was previously unknown, cybersecurity researchers analyzed the attack and identified **IOCs** to detect and mitigate future attacks by this threat actor.
 
 Also, the integration of threat intelligence in incident response processes contributes to long-term cybersecurity improvement. Through analysis and identification of patterns and trends, organizations can identify vulnerabilities in their security infrastructure and fortify their defenses accordingly.
 
-Incorporating threat intelligence into incident response processes empowers organizations to proactively defend against emerging threats, enhance incident detection and response capabilities, and continually improve their cybersecurity posture.
+Incorporating threat intelligence into incident response processes helps organizations to proactively defend against emerging threats, enhance incident detection and response capabilities, and continually improve their cybersecurity posture.
 ### 2. Emphasize the importance of communication
 
 **Effective communication** is a vital component of a successful incident response strategy. To ensure a cohesive and well-coordinated response, organizations must establish **communication channels** and procedures in advance, facilitating timely updates and information sharing among stakeholders.
@@ -69,11 +69,11 @@ The **incident response plan** serves as a guide, outlining the communication fr
 
 For instance, in the case of a **ransomware attack**, effective communication plays a crucial role in orchestrating the response efforts. Internal communication within the incident response team ensures the dissemination of up-to-date information and alignment towards a common objective. External communication with senior management is vital for conveying the incident's impact on the organization and providing necessary updates. Collaborating with **law enforcement** facilitates incident reporting and obtaining expert guidance.
 
-Also, the incident response plan emphasizes the importance of **documenting** all communication related to the incident. Logs of phone calls, emails, and other forms of communication serve as valuable records. Additionally, decisions made during the incident response process are documented, enabling transparency and accountability.
+Also, the incident response plan emphasizes the importance of **documenting** all communication related to the incident. Logs of phone calls, emails, and other forms of communication serve as valuable records. Also, decisions made during the incident response process are documented, enabling transparency and accountability.
 
 Effective communication extends beyond the incident response process to the post-incident analysis phase. Stakeholders are informed of the **lessons learned** from the incident and any improvements planned to enhance future incident response.
 
-By prioritizing communication in the incident response plan, organizations foster a collaborative environment where stakeholders are well-informed and actively engaged throughout the incident response process. This approach minimizes the impact of security incidents and reduces recovery time, ensuring a more resilient security posture.
+By prioritizing communication in the incident response plan, organizations build a collaborative environment where stakeholders are well-informed and actively engaged throughout the incident response process. This approach minimizes the impact of security incidents and reduces recovery time, ensuring a more resilient security posture.
 
 ### 3. Provide guidance on post-incident analysis
 
@@ -83,7 +83,7 @@ The post-incident analysis should commence promptly after the incident's resolut
 
 Once the initial data is gathered, the incident response team proceeds with a **root cause analysis** to determine the underlying cause of the incident. This involves reviewing **logs**, examining system configurations, and conducting vulnerability assessments. The root cause analysis uncovers any gaps or deficiencies in the incident response process, paving the way for recommendations and improvements.
 
-Subsequently, the incident response team compiles a **post-incident report** that summarizes the incident, outlines the response actions taken, identifies the root cause, and provides recommendations for improvement. The report should be shared with **senior management**, the incident response team, and other relevant stakeholders to facilitate organizational learning.
+After that, the incident response team compiles a **post-incident report** that summarizes the incident, outlines the response actions taken, identifies the root cause, and provides recommendations for improvement. The report should be shared with **senior management**, the incident response team, and other relevant stakeholders to facilitate organizational learning.
 
 A notable example of the importance of post-incident analysis is the **Equifax data breach** in 2017. Following the breach, Equifax conducted an in-depth analysis to identify lessons learned and areas for improvement. The analysis highlighted the need for enhanced **patch management** processes and improved communication channels during incidents.
 
@@ -95,7 +95,7 @@ Conducting a comprehensive post-incident analysis is a critical step in building
 
 ### 1. Equifax Data Breach
 
-In 2017, Equifax suffered a massive data breach that affected over 143 million customers. The incident was caused by a vulnerability in the company's IT systems. Equifax's incident response plan was inadequate, and the company did not detect the breach for several months. The breach was caused by a vulnerability in an open-source software package used by Equifax.
+In 2017, Equifax suffered a massive data breach that affected over 143 million customers. The incident was caused by a vulnerability in the company's IT systems. Equifax's incident response plan was inadequate, and the company didn't detect the breach for several months. The breach was caused by a vulnerability in an open-source software package used by Equifax.
 
 Once the breach was detected, Equifax took steps to contain and mitigate the incident. The company disabled the affected systems and hired a third-party forensic investigation firm to conduct an investigation. The investigation found that the breach was caused by a failure to patch a known vulnerability in the open-source software package.
 

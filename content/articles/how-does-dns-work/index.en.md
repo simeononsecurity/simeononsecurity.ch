@@ -33,7 +33,7 @@ When a user enters a domain name into their web browser, the DNS resolution proc
 
 1. **Local DNS Cache**: The resolver first checks its local cache for the requested domain name and IP address. If the information is found, the resolver directly returns the result without further queries.
 
-2. **Recursive Query**: If the information is not found in the local cache, the resolver initiates a recursive query. It starts by contacting the Root DNS servers, which are responsible for the "." (dot) zone. The Root DNS servers respond with the IP addresses of the TLD servers for the requested domain's TLD.
+2. **Recursive Query**: If the information isn't found in the local cache, the resolver initiates a recursive query. It starts by contacting the Root DNS servers, which are responsible for the "." (dot) zone. The Root DNS servers respond with the IP addresses of the TLD servers for the requested domain's TLD.
 
 3. **TLD Query**: The resolver then contacts the TLD servers identified in the previous step and requests the IP addresses of the authoritative name servers responsible for the requested domain.
 
@@ -105,11 +105,11 @@ sudo /etc/init.d/nscd restart
 
 This command restarts the Name Service Cache Daemon (nscd), which is responsible for DNS caching on non-systemd Linux distributions.
 
-Worth noting: the steps provided here are general guidelines, and the specific commands or methods might differ slightly based on the operating system version or distribution you are using. Clearing the DNS cache can help resolve certain DNS-related issues, but note that it won't fix all network connectivity problems.
+Worth noting: the steps provided here are general guidelines, and the specific commands or methods might differ slightly based on the operating system version or distribution you're using. Clearing the DNS cache can help resolve certain DNS-related issues, but note that it won't fix all network connectivity problems.
 
 ## How the Root DNS System Works
 
-The Root DNS system is a fundamental part of the Domain Name System (DNS) infrastructure. Let's take a closer look at how the Root DNS system operates:
+The Root DNS system is a fundamental part of the Domain Name System (DNS) infrastructure. Let's look closely at how the Root DNS system operates:
 
 ### 1. Root Zone and Root Servers
 
@@ -119,7 +119,7 @@ The Root DNS system consists of a set of 13 Root DNS servers, labeled with the l
 
 ### 2. Anycast Routing
 
-To handle the enormous amount of DNS traffic, the Root DNS servers employ a technique called **anycast routing**. Anycast routing allows multiple servers to share the same IP address, but they are geographically dispersed. When a DNS query reaches the nearest Root DNS server through anycast routing, it is automatically routed to the appropriate server based on network conditions, ensuring efficient and balanced load distribution.
+To handle the enormous amount of DNS traffic, the Root DNS servers employ a technique called **anycast routing**. Anycast routing allows multiple servers to share the same IP address, but they're geographically dispersed. When a DNS query reaches the nearest Root DNS server through anycast routing, it is automatically routed to the appropriate server based on network conditions, ensuring efficient and balanced load distribution.
 
 When a user initiates a DNS query, their request is routed to the nearest available Root DNS server through anycast routing. The network infrastructure directs the query to the server that provides the shortest path, based on network conditions. Anycast routing ensures efficient load distribution and helps prevent bottlenecks.
 
@@ -167,7 +167,7 @@ ______
 
 {{< youtube id="HnUDtycXSNE" >}}
 
-DNS records are essential components of the Domain Name System (DNS) that provide various types of information associated with a domain name. Let's explore some common types of DNS records and their purposes:
+DNS records are essential components of the Domain Name System (DNS) that provide various types of information associated with a domain name. Here's a look at some common types of DNS records and their purposes:
 
 | Record Type | Description | Example |
 |-------------|-----------------------------------------------------------------------------|-------------------------------------------|
@@ -183,7 +183,7 @@ DNS records are essential components of the Domain Name System (DNS) that provid
 
 ### 1. A Record (Address Record)
 
-The **A record** maps a domain name to an IPv4 address. It is the most basic and commonly used DNS record type. When a user enters a domain name into a web browser, the A record allows the browser to resolve the domain name to the corresponding IP address of the web server hosting the website.
+The **A record** maps a domain name to an IPv4 address. It's the most basic and commonly used DNS record type. When a user enters a domain name into a web browser, the A record allows the browser to resolve the domain name to the corresponding IP address of the web server hosting the website.
 
 ### 2. AAAA Record (IPv6 Address Record)
 
@@ -257,13 +257,13 @@ The `dig` command is a versatile DNS diagnostic tool available on Linux systems.
 
 These commands serve as valuable tools for diagnosing and resolving DNS issues on different operating systems. By using these commands, you can gain insights into DNS configurations, verify DNS server settings, and troubleshoot connectivity problems.
 
-Note that the specific commands and their options may vary depending on the operating system version and distribution you are using. Consult the documentation for your specific operating system version for detailed information about these commands and their usage.
+Note that the specific commands and their options may vary depending on the operating system version and distribution you're using. Consult the documentation for your specific operating system version for detailed information about these commands and their usage.
 ______
 
 
 ## Conclusion
 
-The Domain Name System (DNS) and the Root DNS play integral roles in the functioning of the internet. DNS enables users to access websites using user-friendly domain names, while the Root DNS serves as the foundation for the entire DNS hierarchy. Understanding how DNS and Root DNS work empowers us to navigate the web seamlessly and appreciate the intricate infrastructure supporting our online experiences.
+The Domain Name System (DNS) and the Root DNS play integral roles in the functioning of the internet. DNS enables users to access websites using user-friendly domain names, while the Root DNS serves as the foundation for the entire DNS hierarchy. Understanding how DNS and Root DNS work helps us to navigate the web smoothly and appreciate the intricate infrastructure supporting our online experiences.
 
 ______
 

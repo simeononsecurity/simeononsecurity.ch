@@ -22,7 +22,7 @@ One of the biggest challenges to implementing DevSecOps in an organization is th
 
 To overcome these challenges, a collaborative culture needs to be established where all teams work together towards a common goal of delivering secure applications to end users. This requires the adoption of **agile methodologies** that promote flexible planning, evolutionary development, early delivery, and continuous improvement.
 
-Additionally, training and awareness programs need to be initiated to educate teams on the importance of security measures in the development lifecycle. Security measures need to be considered at every stage of application development from design through production.
+Also, training and awareness programs need to be initiated to educate teams on the importance of security measures in the development lifecycle. Security measures need to be considered at every stage of application development from design through production.
 
 ______
 
@@ -30,7 +30,7 @@ ______
 
 A critical component of DevSecOps is integrating **security testing** into every stage of application development. Including security testing code analysis checks throughout the software development lifecycle reduces security risks and helps in maintaining application quality.
 
-Incorporating such testing before deployment is highly effective as it allows developers to find and fix vulnerabilities early in the cycle when they are easier and less expensive to fix. Also, automated testing tools can identify vulnerabilities quickly for a faster release without sacrificing quality.
+Incorporating such testing before deployment is highly effective as it allows developers to find and fix vulnerabilities early in the cycle when they're easier and less expensive to fix. Also, automated testing tools can identify vulnerabilities quickly for a faster release without sacrificing quality.
 
 However, integrating automated **security testing** in every stage of the cycle requires significant upfront investment in terms of time and money, as well as integration with existing software development tools. This is a significant challenge for teams with established workflows and methods of software development.
 
@@ -38,7 +38,7 @@ ______
 
 ## The challenge of managing multiple tools
 
-Implementing DevSecOps in an organization requires an array of new tools, methods, and strategies to be implemented, which can be challenging for organizations that are not used to the DevSecOps approach.
+Implementing DevSecOps in an organization requires an array of new tools, methods, and strategies to be implemented, which can be challenging for organizations that aren't used to the DevSecOps approach.
 
 Integrating these new **tools** such as security testing tools or build automation platforms can require substantial investment in infrastructure and personnel. In addition, different teams could have different methods and preferences for the tools/technologies they use. Coordinating these preferences means ensuring that all teams have access to the necessary tools without interrupting their daily routines.
 
@@ -58,7 +58,7 @@ When everyone works together to identify risks early and systematically integrat
 
 Scalability is a significant challenge for any organization managing unanticipated growth or rapid scaling. DevSecOps provides solutions to this by applying an ‘automate everything’ principle that promotes monitoring process metrics and identifying growth areas before problems occur.
 
-The methodology also incorporates modularity into application architecture design, making it easier to create pieces that fit together seamlessly as part of larger systems without compromises on functionality or causing other issues.
+The methodology also incorporates modularity into application architecture design, making it easier to create pieces that fit together smoothly as part of larger systems without compromises on functionality or causing other issues.
 
 ### 3. Integration with government regulations
 

@@ -24,7 +24,7 @@ So, what does the future of cybersecurity look like in a post-pandemic world? Un
 
 One trend to watch out for is the rise of **artificial intelligence (AI) and machine learning** in cybersecurity. As attackers become more sophisticated, defenders will need to rely on advanced technologies to stay ahead of the game. AI can help detect anomalies and potential threats, while machine learning can identify patterns and improve defenses over time.
 
-Another area of focus will be the **Internet of Things (IoT)**. As more devices become connected to the internet, there will be more opportunities for cybercriminals to exploit vulnerabilities. It will be important for individuals and businesses to secure their IoT devices and ensure that they are not used as gateways to sensitive data.
+Another area of focus will be the **Internet of Things (IoT)**. As more devices become connected to the internet, there will be more opportunities for cybercriminals to exploit vulnerabilities. It will be important for individuals and businesses to secure their IoT devices and ensure that they aren't used as gateways to sensitive data.
 
 ______
 
@@ -32,7 +32,7 @@ ______
 
 Cybersecurity threats are becoming more advanced and frequent, making it essential to take the necessary steps to prepare for the future. Here are some tips to help you prepare for the future of cybersecurity:
 
-1. **Keep your software up to date**: Attackers often take advantage of outdated software to exploit vulnerabilities. Software updates often include security patches that can fix vulnerabilities. Make sure to install updates as soon as they are available.
+1. **Keep your software up to date**: Attackers often take advantage of outdated software to exploit vulnerabilities. Software updates often include security patches that can fix vulnerabilities. Make sure to install updates as soon as they're available.
 
 2. [**Use strong passwords**](https://simeononsecurity.com/articles/the-importance-of-password-security-and-best-practices/): Passwords are often the first line of defense against cyberattacks. Use strong, unique passwords for each of your accounts, and consider using a password manager to keep track of them. A password manager can help you generate and store [strong passwords](https://simeononsecurity.com/articles/how-to-create-strong-passwords/) for all of your accounts.
 

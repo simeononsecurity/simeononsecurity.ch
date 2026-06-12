@@ -27,7 +27,7 @@ The practice of "hacking back" refers to the retaliatory actions taken by organi
 The legality of hacking back varies from country to country. In the United States, for instance, the Computer Fraud and Abuse Act (CFAA) and the Electronic Communications Privacy Act (ECPA) strictly prohibit unauthorized access to computer systems. Hacking back, in most cases, would violate these laws. On the international stage, the Budapest Convention on Cybercrime provides a framework for cooperation in addressing cybercrime across borders.
 
 ### Arguments for Legalization
-Proponents of legalizing hacking back argue that it could empower organizations to defend themselves effectively. They claim that the current legal framework often leaves victims of cyberattacks with limited recourse. Legalization, they argue, could provide a clear legal basis for counterattacks and discourage cybercriminals.
+Proponents of legalizing hacking back argue that it could help organizations to defend themselves effectively. They claim that the current legal framework often leaves victims of cyberattacks with limited recourse. Legalization, they argue, could provide a clear legal basis for counterattacks and discourage cybercriminals.
 
 ### Arguments Against Legalization
 Opponents, however, emphasize the potential dangers of hacking back. They assert that it could lead to unintended consequences, such as escalating cyber conflicts, harming innocent parties, and making it challenging to attribute attacks accurately. The lack of a clear line between offensive and defensive actions in cyberspace further complicates the issue.
@@ -43,7 +43,7 @@ Legalizing hacking back also raises concerns about digital vigilantism. When ind
 ## The Practical Side
 
 ### Technical Challenges
-From a practical standpoint, hacking back involves a myriad of technical challenges. It requires expertise in cybersecurity, digital forensics, and the ability to trace and attribute attacks accurately. On top of that, the risk of misattribution remains a significant barrier.
+From a practical standpoint, hacking back involves a many technical challenges. It requires expertise in cybersecurity, digital forensics, and the ability to trace and attribute attacks accurately. On top of that, the risk of misattribution remains a significant barrier.
 
 ### Collateral Damage
 There is also the risk of causing collateral damage when hacking back. Disrupting an attacker's infrastructure may affect unrelated parties or innocent victims who share the same hosting or infrastructure services. This raises questions about the ethical implications of collateral damage.
@@ -54,7 +54,7 @@ There is also the risk of causing collateral damage when hacking back. Disruptin
 
 ### Pros of Legalization
 
-- **Enhanced Defense**: Legalizing hacking back would empower organizations to take more proactive measures to defend against cyberattacks.
+- **Enhanced Defense**: Legalizing hacking back would help organizations to take more proactive measures to defend against cyberattacks.
 - **Dissuasion Effect**: It could act as a deterrent, discouraging cybercriminals from launching attacks due to the fear of retaliation.
 - **Clear Legal Framework**: Establishing a legal framework for hacking back could provide clarity and reduce ambiguity in this domain.
 

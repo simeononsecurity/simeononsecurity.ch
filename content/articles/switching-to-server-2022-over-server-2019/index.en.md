@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 ### Enhanced Security Features
 
-One of the key reasons to upgrade to Windows Server 2022 is its enhanced security features. Windows Server 2022 includes improved security features such as **shielded virtual machines**, which provide better protection against malicious software and unauthorized access. Additionally, Windows Server 2022 includes enhanced security features for containers, such as increased control over network communication and better access control.
+One of the key reasons to upgrade to Windows Server 2022 is its enhanced security features. Windows Server 2022 includes improved security features such as **shielded virtual machines**, which provide better protection against malicious software and unauthorized access. Also, Windows Server 2022 includes enhanced security features for containers, such as increased control over network communication and better access control.
 
 Another important security feature of Windows Server 2022 is the integration of **Microsoft Defender Advanced Threat Protection (ATP)** into the operating system. This integration provides improved protection against threats and malware, as well as the ability to detect and respond to threats more quickly.
 
@@ -43,4 +43,4 @@ ________________________________________________________________________________
 
 Wrapping up, upgrading to Windows Server 2022 offers businesses many benefits, including enhanced security features, improved management and automation, and improved performance and scalability. These enhancements make Windows Server 2022 a more efficient and secure platform for businesses of all sizes, and provide peace of mind for administrators who want to ensure their systems are protected and running smoothly.
 
-If you are currently using Windows Server 2019, now is the time to consider upgrading to Windows Server 2022. With its many enhancements and improved capabilities, Windows Server 2022 is the best choice for businesses looking to take their infrastructure to the next level.
+If you're currently using Windows Server 2019, now is the time to consider upgrading to Windows Server 2022. With its many enhancements and improved capabilities, Windows Server 2022 is the best choice for businesses looking to take their infrastructure to the next level.

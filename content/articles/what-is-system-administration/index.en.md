@@ -10,7 +10,7 @@ coverAlt: "An image of a system administrator sitting at a desk with multiple co
 coverCaption: ""
 ---
 
-**System administration is the process of managing and maintaining the computer systems, servers, and networks of an organization**. It involves the day-to-day operations of the computer systems, ensuring that they are running smoothly and efficiently. System administrators are responsible for the installation, configuration, and maintenance of computer systems, servers, and networks. They are also responsible for ensuring the security of these systems and ensuring that the organization's data is protected.
+**System administration is the process of managing and maintaining the computer systems, servers, and networks of an organization**. It involves the day-to-day operations of the computer systems, ensuring that they're running smoothly and efficiently. System administrators are responsible for the installation, configuration, and maintenance of computer systems, servers, and networks. They are also responsible for ensuring the security of these systems and ensuring that the organization's data is protected.
 
 ______
 
@@ -19,7 +19,7 @@ ______
 
 **System and network administration are two different fields within the broader field of IT**. System administration focuses on the management of computer systems, servers, and networks, while network administration focuses on the management of network infrastructure, such as switches, routers, and firewalls.
 
-While **there is overlap between these two fields**, there are distinct differences in the skills required for each. System administrators need to be familiar with operating systems, such as Windows and Linux, and have a good understanding of hardware and software administration. They must be able to install, configure, and maintain computer systems, servers, and networks, and ensure that they are running smoothly and efficiently.
+While **there is overlap between these two fields**, there are distinct differences in the skills required for each. System administrators need to be familiar with operating systems, such as Windows and Linux, and have a good understanding of hardware and software administration. They must be able to install, configure, and maintain computer systems, servers, and networks, and ensure that they're running smoothly and efficiently.
 
 On the other hand, **network administrators need to have a strong understanding of networking technologies**, such as BGP, Trunking, and OSPF. They must be able to design, implement, and maintain network infrastructure, such as switches, routers, and firewalls. They must also be familiar with security technologies, such as firewalls, intrusion detection systems, and virtual private networks (VPNs).
 
@@ -65,7 +65,7 @@ ______
 
 - **Infrastructure as a Service (IaaS)**: IaaS is a model in which organizations can rent computing infrastructure, such as servers and storage devices, on a pay-as-you-go basis. This is becoming a popular option for organizations that need to scale their computing resources quickly and easily.
 
-- **Software as a Service (SaaS)**: SaaS is a model in which organizations can use software applications over the internet, without having to install and maintain them locally. This is becoming a popular option for organizations that need to use software applications, but do not want to deal with the hassle of installing and maintaining them.
+- **Software as a Service (SaaS)**: SaaS is a model in which organizations can use software applications over the internet, without having to install and maintain them locally. This is becoming a popular option for organizations that need to use software applications, but don't want to deal with the hassle of installing and maintaining them.
 
 - **Hardware as a Service (HaaS)**: HaaS is a model in which organizations can rent hardware, such as servers and storage devices, on a pay-as-you-go basis. This is becoming a popular option for organizations that need to scale their computing resources quickly and easily.
 

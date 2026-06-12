@@ -52,7 +52,7 @@ ______
 
 ### 1. Shop from Trusted Websites
 
-Stick to reputable and well-known e-commerce platforms when making online purchases. Look for secure websites that use **HTTPS** (Hypertext Transfer Protocol Secure) encryption, indicated by the padlock icon in the browser's address bar. Avoid sharing sensitive information on websites that do not have proper security measures in place.
+Stick to reputable and well-known e-commerce platforms when making online purchases. Look for secure websites that use **HTTPS** (Hypertext Transfer Protocol Secure) encryption, indicated by the padlock icon in the browser's address bar. Avoid sharing sensitive information on websites that don't have proper security measures in place.
 
 ### 2. Keep Software and Devices Updated
 
@@ -76,7 +76,7 @@ Before making a purchase from a new seller, check their ratings and reviews from
 
 ### 7. [Be Mindful of Public Wi-Fi Networks](https://simeononsecurity.com/articles/how-to-create-a-secure-wifi-network/)
 
-Avoid making online purchases when connected to public Wi-Fi networks, as they are often unsecured and prone to eavesdropping. Instead, use a secure and private internet connection, such as your home network or a trusted VPN (Virtual Private Network) service.
+Avoid making online purchases when connected to public Wi-Fi networks, as they're often unsecured and prone to eavesdropping. Instead, use a secure and private internet connection, such as your home network or a trusted VPN (Virtual Private Network) service.
 
 ______
 

@@ -29,7 +29,7 @@ ______
 
 ## NoSQL: The Flexible and Scalable Alternative
 
-NoSQL databases, on the other hand, provide a more flexible and scalable approach to data management. They are designed to handle large volumes of unstructured and semi-structured data. Unlike SQL databases, NoSQL databases do not rely on a fixed schema and can accommodate dynamic and evolving data models.
+NoSQL databases, on the other hand, provide a more flexible and scalable approach to data management. They are designed to handle large volumes of unstructured and semi-structured data. Unlike SQL databases, NoSQL databases don't rely on a fixed schema and can accommodate dynamic and evolving data models.
 
 There are different types of NoSQL databases, including **key-value stores**, **document databases**, **columnar databases**, and **graph databases**. Each type is optimized for specific use cases. For instance, **MongoDB** is a popular document database that stores data in flexible, JSON-like documents, making it suitable for handling complex and hierarchical data structures.
 
@@ -54,7 +54,7 @@ SQL databases use the **SQL query language**, which provides a powerful and stan
 In terms of performance, NoSQL databases often outshine SQL databases in scenarios that require **high read and write throughput**. SQL databases, on the other hand, may have an advantage in complex join operations and analytical queries.
 
 ### Schema Evolution
-NoSQL databases allow **schema evolution** without downtime, as they do not have a fixed schema. This flexibility enables agile development and faster iterations. SQL databases require careful schema planning and potentially involve downtime during schema changes.
+NoSQL databases allow **schema evolution** without downtime, as they don't have a fixed schema. This flexibility enables agile development and faster iterations. SQL databases require careful schema planning and potentially involve downtime during schema changes.
 
 ______
 

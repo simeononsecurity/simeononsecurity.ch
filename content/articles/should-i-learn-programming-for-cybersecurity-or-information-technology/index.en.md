@@ -17,7 +17,7 @@ The field of IT and Cyber Security is rapidly growing, and with it, the demand f
 
 ## Why Learn Programming for IT and Cyber Security?
 
-**Learning programming can greatly accelerate your career** by multiplying the amount of work you can get done in a given time through automations. Automating tasks can save you time and reduce the risk of human error, which is especially important in the field of IT and Cyber Security. Additionally, **coding and scripting skills are becoming increasingly sought after by employers**, and can give you a competitive edge in the job market.
+**Learning programming can greatly accelerate your career** by multiplying the amount of work you can get done in a given time through automations. Automating tasks can save you time and reduce the risk of human error, which is especially important in the field of IT and Cyber Security. Also, **coding and scripting skills are becoming increasingly sought after by employers**, and can give you a competitive edge in the job market.
 
 While it is **not required to learn any sort of coding or scripting** to be in IT or Cyber Security, the benefits far outweigh the effort to learn them. Once you get past the initial challenges, you'll find that it's almost always **easier to do things through the command line and through scripting than it is any other way**. This is because you can **automate repetitive tasks and manage systems more efficiently**, freeing up time to focus on more complex and important tasks.
 

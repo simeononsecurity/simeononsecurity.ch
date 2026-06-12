@@ -16,7 +16,7 @@ Linux is a powerful and versatile operating system that offers robust security f
 
 ## Introduction to Linux File Permissions
 
-At its core, Linux is a **multi-user** operating system, where multiple users can access the system simultaneously. File permissions serve as a mechanism to control access to files and directories, ensuring that only authorized users can perform specific actions such as **reading**, **writing**, or **executing** them.
+Basically, Linux is a **multi-user** operating system, where multiple users can access the system simultaneously. File permissions serve as a mechanism to control access to files and directories, ensuring that only authorized users can perform specific actions such as **reading**, **writing**, or **executing** them.
 
 Each file and directory in Linux is associated with three sets of permissions: **user**, **group**, and **others**. The **user** permissions apply to the owner of the file, the **group** permissions apply to the group associated with the file, and the **others** permissions apply to everyone else.
 
@@ -169,7 +169,7 @@ Mastering Linux file permissions is essential for maintaining a secure file syst
 
 Remember, file permissions are just one aspect of overall system security. It is important to consider other security measures, such as encryption, user management, and network security, to create a comprehensive and robust security strategy.
 
-By following the guidelines outlined in this comprehensive guide, you are well on your way to becoming proficient in managing Linux file permissions and ensuring the security of your file system.
+By following the guidelines outlined in this comprehensive guide, you're well on your way to becoming proficient in managing Linux file permissions and ensuring the security of your file system.
 
 ## References
 

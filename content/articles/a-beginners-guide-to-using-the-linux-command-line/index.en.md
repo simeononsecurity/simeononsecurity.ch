@@ -16,7 +16,7 @@ coverCaption: ""
 
 ### Print Working Directory
 
-The **pwd** (print working directory) command is used to display the current working directory in the CLI. The working directory is the directory where you are currently located in the file system. The command is useful for navigating through the file system and understanding your location in relation to other directories. For example, if you are in the home directory and you want to navigate to the documents directory, you can use the following commands:
+The **pwd** (print working directory) command is used to display the current working directory in the CLI. The working directory is the directory where you're currently located in the file system. The command is useful for navigating through the file system and understanding your location in relation to other directories. For example, if you're in the home directory and you want to navigate to the documents directory, you can use the following commands:
 
 ```bash
 $ pwd
@@ -54,7 +54,7 @@ The **cd** (change directory) command is used to change the current working dire
 $ cd documents
 ```
 
-In the above example, the command changes the current working directory to the documents directory, which is located in the current working directory. You can also use the command with an absolute or relative path to change the working directory to a directory that is not located in the current working directory. For example:
+In the above example, the command changes the current working directory to the documents directory, which is located in the current working directory. You can also use the command with an absolute or relative path to change the working directory to a directory that isn't located in the current working directory. For example:
 
 ```bash
 $ cd /usr/local/bin
@@ -192,7 +192,7 @@ The above command will capture all packets on the eth0 interface and save them t
 
 ### Process Status
 
-The **ps** command displays information about running processes on a Linux system in the CLI, which is useful for identifying suspicious processes that may be running on a system and potentially compromising its security. The command can display a wide range of information about running processes, including their process ID (PID), user, CPU and memory usage, and command name.
+The **ps** command displays information about running processes on a Linux system in the CLI, which is useful for identifying suspicious processes that may be running on a system and potentially compromising its security. The command can display many information about running processes, including their process ID (PID), user, CPU and memory usage, and command name.
 
 One of the most basic uses of ps is to display a list of all running processes on a system. For example, to display a list of all processes running on the system, you can use the following command:
 
@@ -220,7 +220,7 @@ The above command will display the CPU and memory usage of the process with PID 
 
 ### Network Statistics
 
-The **netstat** command displays information about active network connections on a Linux system in the CLI, making it useful for identifying unauthorized network connections and potential security threats. The command can display a wide range of information about active network connections, including the local and remote addresses, the protocol used (e.g., TCP, UDP), and the state of the connection.
+The **netstat** command displays information about active network connections on a Linux system in the CLI, making it useful for identifying unauthorized network connections and potential security threats. The command can display many information about active network connections, including the local and remote addresses, the protocol used (e.g., TCP, UDP), and the state of the connection.
 
 One of the most basic uses of netstat is to display a list of all active network connections on a system. For example, to display a list of all active network connections, you can use the following command:
 
@@ -250,7 +250,7 @@ The above command will display statistics about all TCP connections on the syste
 
 ### Find Files
 
-The **find** command is used to search for files and directories on a Linux system in the CLI, making it useful for locating specific files and directories that may be hidden or difficult to find. The command searches for files and directories based on a wide range of criteria, including their name, size, modification time, and permissions.
+The **find** command is used to search for files and directories on a Linux system in the CLI, making it useful for locating specific files and directories that may be hidden or difficult to find. The command searches for files and directories based on many criteria, including their name, size, modification time, and permissions.
 
 One of the most basic uses of find is to search for files and directories by name. For example, to search for all files in the current directory and its subdirectories that have the name "example.txt", you can use the following command:
 
@@ -276,7 +276,7 @@ $ find . -mtime -7
 
 The above command will search for all files in the current directory and its subdirectories that were modified within the last 7 days, and display their full path.
 
-Overall, the find command is a powerful tool for searching for files and directories on a Linux system based on a wide range of criteria, making it useful for a variety of tasks, including system administration and cybersecurity.
+Overall, the find command is a powerful tool for searching for files and directories on a Linux system based on many criteria, making it useful for a variety of tasks, including system administration and cybersecurity.
 
 ______
 

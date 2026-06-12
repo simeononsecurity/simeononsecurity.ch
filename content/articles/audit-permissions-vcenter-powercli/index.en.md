@@ -42,7 +42,7 @@ Before diving into the auditing process, you need to set up the necessary enviro
 Now that you have PowerCLI installed and connected to your vCenter server, you're ready to proceed with auditing permissions.
 
 ## Auditing Permissions with PowerCLI
-Now that you have PowerCLI installed and connected to your vCenter server, let's explore the process of auditing permissions. The following steps will guide you through the process:
+Now that you have PowerCLI installed and connected to your vCenter server, here's a look at the process of auditing permissions. The following steps will guide you through the process:
 
 1. **Get a List of All vCenter Users**: To start the audit, you need to retrieve a list of all the users present in your vCenter environment. Use the `Get-VIUser` cmdlet to obtain a list of users.
 
@@ -64,7 +64,7 @@ Now that you have PowerCLI installed and connected to your vCenter server, let's
 
 3. **Identify Inappropriate Access**: During the audit, you may come across users with inappropriate access or permissions that go beyond their required roles. You need to identify such instances and take necessary actions to mitigate security risks.
 
-   You can use the output from the previous step to analyze the permissions of each user and compare them against your organization's security policies. Look for any excessive privileges or permissions that are not aligned with the user's responsibilities.
+   You can use the output from the previous step to analyze the permissions of each user and compare them against your organization's security policies. Look for any excessive privileges or permissions that aren't aligned with the user's responsibilities.
 
 4. **Remove Unnecessary Permissions**: To maintain a secure vCenter environment, you need to remove any unnecessary or excessive permissions granted to users. Use the `Remove-VIPermission` cmdlet to revoke permissions for a specific user.
 

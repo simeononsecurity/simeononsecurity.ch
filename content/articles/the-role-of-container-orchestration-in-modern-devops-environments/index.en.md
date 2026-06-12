@@ -12,7 +12,7 @@ coverCaption: ""
 
 **The role of container orchestration in modern DevOps environments**
 
-DevOps and containerization are among the top buzzwords in the world of IT. In particular, **container orchestration** is one of the essential components of modern-day DevOps. It is a process that automates the deployment, management, scaling, and networking of containerized applications.
+DevOps and containerization are among the top buzzwords in the world of IT. In particular, **container orchestration** is one of the essential components of modern-day DevOps. It's a process that automates the deployment, management, scaling, and networking of containerized applications.
 
 In this article, we'll look at the significance of container orchestration in modern-day DevOps environments and discuss some popular container orchestration tools.
 

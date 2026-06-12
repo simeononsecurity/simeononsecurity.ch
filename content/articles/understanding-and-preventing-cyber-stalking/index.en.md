@@ -98,7 +98,7 @@ Being a victim of cyberstalking can be a traumatic experience. If you're struggl
 
 ## Conclusion
 
-Cyberstalking is a serious crime that can cause significant emotional distress and physical harm. By taking proactive steps to protect yourself online, you can reduce your risk of becoming a victim. If you are being cyberstalked, it's important to notify your friends and family, keep records of all communication, and consider legal action if the harassment continues. Remember, you are not alone, and there is help available.
+Cyberstalking is a serious crime that can cause significant emotional distress and physical harm. By taking proactive steps to protect yourself online, you can reduce your risk of becoming a victim. If you're being cyberstalked, it's important to notify your friends and family, keep records of all communication, and consider legal action if the harassment continues. Remember, you aren't alone, and there is help available.
 
 ## References
 

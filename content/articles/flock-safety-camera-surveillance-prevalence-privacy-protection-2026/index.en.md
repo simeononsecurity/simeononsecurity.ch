@@ -431,7 +431,7 @@ As of 2026, **75,000+ cameras** are scanning **150+ million vehicles daily**, cr
 
 For technical details on detection devices and step-by-step setup instructions, read our companion guide: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
-Ultimately, the question is not whether technology can enable pervasive surveillance - clearly it can - but whether a free society should permit such surveillance without robust safeguards, transparency, and accountability. The answer to that question will shape privacy rights for generations to come.
+Ultimately, the question isn't whether technology can enable pervasive surveillance - clearly it can - but whether a free society should permit such surveillance without robust safeguards, transparency, and accountability. The answer to that question will shape privacy rights for generations to come.
 
 ______
 

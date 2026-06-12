@@ -380,7 +380,7 @@ Windows uses **NTFS permissions** to control access to directories and files. Un
 | Permission | Abilities |
 |------------|-----------|
 | **Full Control** | Read, write, modify, delete, change permissions |
-| **Modify** | Read, write, delete, but cannot change permissions |
+| **Modify** | Read, write, delete, but can't change permissions |
 | **Read & Execute** | View and run files |
 | **List Folder Contents** | View file names and subfolder names |
 | **Read** | View file contents |
@@ -632,7 +632,7 @@ ______
 
 The **Windows directory structure** is a fundamental aspect of file organization and management in the Windows operating system. Understanding the key directories and how to navigate through them is essential for efficient file access and system operation. By familiarizing yourself with the directory structure, using modern tools like PowerShell and Windows Terminal, implementing security best practices, and adopting cloud-first storage strategies, you can effectively manage your files, execute programs, and perform system tasks in Windows.
 
-**Key Takeaways for 2026:**
+**main points for 2026:**
 1. **Cloud Integration:** OneDrive and cloud storage are increasingly central to Windows file management
 2. **Security First:** Understand and implement proper NTFS permissions and UAC
 3. **Automation:** Use PowerShell for directory management and maintenance tasks

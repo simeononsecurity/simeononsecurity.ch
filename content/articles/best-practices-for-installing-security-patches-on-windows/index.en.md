@@ -34,7 +34,7 @@ Installing a **cumulative security patch** on Windows involves a few straightfor
 
 3. **Restart:** After the installation is complete, restart the computer to apply the updates. It's important to restart the computer even if you're not prompted to do so, as some updates won't take effect until you do.
 
-Worth noting: some updates may require additional configurations or settings changes after installation. **Reading the patch notes** for each update is crucial to ensure that it's installed and configured correctly. Additionally, some updates may have additional requirements to consider. For example, the Spectre/Meltdown patch requires additional registers to be set.
+Worth noting: some updates may require additional configurations or settings changes after installation. **Reading the patch notes** for each update is crucial to ensure that it's installed and configured correctly. Also, some updates may have additional requirements to consider. For example, the Spectre/Meltdown patch requires additional registers to be set.
 
 Following these steps can help ensure that your Windows system is up-to-date with the latest security patches and protected against cyber threats.
 
@@ -50,7 +50,7 @@ Before installing a **cumulative security patch**, you need to read the **releas
 
 For example, the **May 2021 Cumulative Update** for **Windows 10 version 2004 and version 20H2 had a known issue** that caused system crashes when certain printer drivers were used. **This issue was mentioned in the release notes**, and users were advised to uninstall the patch if they encountered this problem.
 
-Additionally, **some patches may require additional configurations or settings changes after installation**. The release notes for each update will contain this information, and it's important to follow the instructions carefully to ensure that the patch is installed and configured correctly.
+Also, **some patches may require additional configurations or settings changes after installation**. The release notes for each update will contain this information, and it's important to follow the instructions carefully to ensure that the patch is installed and configured correctly.
 
 Wrapping up, reading the release notes before installing a cumulative security patch is an important step in maintaining the security and stability of your Windows system. By taking the time to review the information provided in the release notes, you can avoid potential issues and ensure that the patch is installed correctly.```
 
@@ -58,7 +58,7 @@ Wrapping up, reading the release notes before installing a cumulative security p
 
 When it comes to installing **cumulative patches** on Windows, it's important to understand how they work. As the name suggests, cumulative patches include all previous security updates and patches, which means that you can apply the latest patch to your system without worrying about installing all the previous patches.
 
-However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches are not included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
+However, **it's still necessary to review the release notes for each patch to ensure that all previous patches are covered**. While the answer is typically yes, there may be exceptions where certain patches aren't included in the cumulative patch. For example, if a patch was released after the last cumulative patch, it may not be included in the latest patch, and you'll need to install it separately.
 
 Also, **the patch notes for the latest security patch may not provide information about any additional configurations needed from previous patches**. **For example, the Spectre/Meltdown patch requires additional registers to be set**. To ensure that your system is fully secure, **it's important to review the notes for all patches** and implement any additional configurations as needed.
 
@@ -94,11 +94,11 @@ By installing patches promptly, you can ensure your system is up to date with th
 
 You need to test **cumulative security patches** on a non-production environment before installing them on a production environment. This practice will help identify any potential issues that may arise due to the patch.
 
-For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it does not cause any compatibility or performance issues. 
+For example, suppose you have a web application running on a production environment. Before installing a new security patch, it is recommended to test the patch on a non-production environment to ensure it doesn't cause any compatibility or performance issues. 
 
 Testing on a non-production environment allows you to identify and fix any potential issues before they affect your live application. This reduces the risk of downtime or data loss due to an untested patch.
 
-To sum up, testing on a non-production environment is a best practice that helps ensure that the patch will not negatively impact the production environment.
+To sum up, testing on a non-production environment is a best practice that helps ensure that the patch won't negatively impact the production environment.
 
 ### Use a Patch Management System
 

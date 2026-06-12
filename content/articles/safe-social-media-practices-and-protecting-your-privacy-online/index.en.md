@@ -26,7 +26,7 @@ ______
 
 ## use privacy settings
 
-Most social media platforms offer **privacy settings** that allow you to control the visibility of your personal information and posts. You need to take advantage of these settings to protect your privacy. Let's take a look at the privacy settings for some popular platforms:
+Most social media platforms offer **privacy settings** that allow you to control the visibility of your personal information and posts. You need to take advantage of these settings to protect your privacy. Here's the privacy settings for some popular platforms:
 
 - **LinkedIn**: LinkedIn provides several privacy options to control who can view your profile, connections, and activity. You can adjust these settings by visiting the [LinkedIn Privacy Settings](https://www.linkedin.com/psettings/privacy) page.
 
@@ -42,13 +42,13 @@ ______
 
 ## Avoid clicking on random links
 
-Clicking on **random links** shared on social media can pose significant risks to your privacy and online security. These links may lead to **phishing websites** or contain malware that can compromise your device or steal your personal information. To protect yourself, refrain from clicking on suspicious links, especially if they are shared by unfamiliar or unverified sources.
+Clicking on **random links** shared on social media can pose significant risks to your privacy and online security. These links may lead to **phishing websites** or contain malware that can compromise your device or steal your personal information. To protect yourself, refrain from clicking on suspicious links, especially if they're shared by unfamiliar or unverified sources.
 
 ______
 
 ## Stay away from surveys and polls
 
-Participating in **surveys** or **polls** on social media platforms may seem harmless, but they can have privacy implications. Some surveys may be designed to collect personal information that can be used for targeted marketing or even identity theft. To safeguard your privacy, avoid taking surveys or polls on social media unless they are from reputable sources and you are comfortable sharing the requested information.
+Participating in **surveys** or **polls** on social media platforms may seem harmless, but they can have privacy implications. Some surveys may be designed to collect personal information that can be used for targeted marketing or even identity theft. To safeguard your privacy, avoid taking surveys or polls on social media unless they're from reputable sources and you're comfortable sharing the requested information.
 
 ______
 
@@ -60,7 +60,7 @@ Here are some additional **tips** to enhance your privacy and security on social
 
 2. [**Enable two-factor authentication**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): use two-factor authentication (2FA) whenever possible. This adds an extra layer of security by requiring a verification code in addition to your password when logging in.
 
-3. **Regularly review your friends and followers**: Periodically review your friends and followers list to ensure that you are only connected with individuals you know and trust.
+3. **Regularly review your friends and followers**: Periodically review your friends and followers list to ensure that you're only connected with individuals you know and trust.
 
 4. **Beware of sharing sensitive information**: Be cautious about sharing sensitive information such as your current location, address, phone number, or financial details on social media platforms.
 

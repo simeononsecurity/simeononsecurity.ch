@@ -16,7 +16,7 @@ As technology continues to advance, so does the need for **cybersecurity**. With
 
 The need for cybersecurity is only going to continue to grow in the future. Cyber attacks are becoming more sophisticated, and **hackers** are finding new ways to breach even the most secure systems. In fact, according to a report by **Cybersecurity Ventures**, cybercrime will cost the world $10.5 trillion annually by 2025. This is a staggering amount, and it highlights just how important cybersecurity is becoming.
 
-One of the biggest challenges in cybersecurity is that the **threat landscape** is constantly evolving. New types of attacks are emerging all the time, and cybersecurity professionals need to be able to adapt quickly. This means that there is a need for individuals who are not only knowledgeable about cybersecurity, but who are also able to learn quickly and think creatively.
+One of the biggest challenges in cybersecurity is that the **threat landscape** is constantly evolving. New types of attacks are emerging all the time, and cybersecurity professionals need to be able to adapt quickly. This means that there is a need for individuals who aren't only knowledgeable about cybersecurity, but who are also able to learn quickly and think creatively.
 
 ## The Skills Needed for Success in Cybersecurity
 
@@ -24,7 +24,7 @@ There are a number of skills that are important for success in cybersecurity. Pe
 
 Another important skill is **communication**. Cybersecurity professionals need to be able to explain complex technical concepts to non-technical stakeholders. They also need to be able to collaborate effectively with other members of their team.
 
-**Technical skills** are, of course, also essential in cybersecurity. Cybersecurity professionals need to be familiar with a wide range of technologies and tools, including firewalls, intrusion detection systems, and encryption. They also need to be familiar with programming languages such as Python and C++.
+**Technical skills** are, of course, also essential in cybersecurity. Cybersecurity professionals need to be familiar with many technologies and tools, including firewalls, intrusion detection systems, and encryption. They also need to be familiar with programming languages such as Python and C++.
 
 In addition to these technical skills, cybersecurity professionals also need to have a good understanding of **risk management**. They need to be able to assess the risks that their organization faces and develop strategies for mitigating those risks. They also need to be able to identify vulnerabilities and develop plans for addressing them.
 

@@ -79,7 +79,7 @@ When it comes to **hardening Linux** for robust security, the focus is on securi
 
 3. **Firewall Rules**: A critical step in Linux hardening is configuring firewall rules that control network access to services based on their configuration. For instance, you can use the **`iptables`** utility to set up firewall rules that restrict incoming and outgoing network traffic, enhancing overall system security.
 
-By adhering to these Linux hardening practices, you can bolster the security of your system and reduce vulnerabilities effectively.
+By adhering to these Linux hardening practices, you can strengthen the security of your system and reduce vulnerabilities effectively.
 
 
 ## **Conclusion**

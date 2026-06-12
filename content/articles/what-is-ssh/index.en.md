@@ -20,13 +20,13 @@ SSH (Secure Shell) is a network protocol that provides a secure and encrypted me
 
 Using SSH for remote access offers several benefits, including:
 
-1. **Security**: SSH uses strong encryption algorithms to secure the communication between the client and the server. It ensures that data transmitted over the network cannot be intercepted or tampered with by malicious entities.
+1. **Security**: SSH uses strong encryption algorithms to secure the communication between the client and the server. It ensures that data transmitted over the network can't be intercepted or tampered with by malicious entities.
 
 2. **Authentication**: SSH employs various authentication methods, such as passwords, public key cryptography, and two-factor authentication, to verify the identity of users connecting to remote systems. This helps prevent unauthorized access.
 
 3. **Data Integrity**: SSH ensures the integrity of data transmitted between the client and the server. It uses cryptographic hash functions to detect any modifications or tampering during transmission.
 
-4. **Portability**: SSH is supported by a wide range of operating systems and devices, making it a versatile choice for remote access across different platforms.
+4. **Portability**: SSH is supported by many operating systems and devices, making it a versatile choice for remote access across different platforms.
 
 5. **Flexibility**: SSH can be used for various purposes, including remote command execution, file transfer, and tunneling of other protocols like FTP and VNC.
 
@@ -36,7 +36,7 @@ Using SSH for remote access offers several benefits, including:
 
 Before using SSH, you need to generate an SSH key pair. The key pair consists of a public key and a private key. The public key is placed on the remote server, while the private key is kept secure on your local machine. To generate an SSH key pair, follow these steps:
 
-1. Install **OpenSSH** on your local machine if it is not already installed. Refer to the official documentation of your operating system for installation instructions.
+1. Install **OpenSSH** on your local machine if it's not already installed. Refer to the official documentation of your operating system for installation instructions.
 
 2. Open a terminal or command prompt and run the following command to generate the key pair:
 
@@ -44,7 +44,7 @@ Before using SSH, you need to generate an SSH key pair. The key pair consists of
 ssh-keygen -t rsa -b 4096
 ```
 
-3. You will be prompted to enter a file name for the key pair and an optional passphrase. Press Enter to accept the default file name and leave the passphrase blank if you do not want to use one.
+3. You will be prompted to enter a file name for the key pair and an optional passphrase. Press Enter to accept the default file name and leave the passphrase blank if you don't want to use one.
 
 4. The key pair will be generated, and the public key will be saved in a file with a `.pub` extension. The private key will be saved in a file without an extension.
 
@@ -64,7 +64,7 @@ Replace `username` with your username on the remote server and `remote_server_ip
 
 3. If this is your first time connecting to the server, you may see a warning about the authenticity of the host. Verify the server's fingerprint against a trusted source before proceeding.
 
-4. When prompted, enter your password or provide the path to your private key if you are using key-based authentication. If the authentication is successful, you will be logged into the remote server.
+4. When prompted, enter your password or provide the path to your private key if you're using key-based authentication. If the authentication is successful, you will be logged into the remote server.
 
 ### File Transfer with SSH
 

@@ -91,7 +91,7 @@ AllowUsers yourusername
 ```
 
 #### 5. Change Default SSH Port
-Changing the default SSH port from 22 to a non-standard port can reduce automated attacks. However, this should not be your sole security measure, as a determined attacker can still discover the new port. Combine this with other security measures.
+Changing the default SSH port from 22 to a non-standard port can reduce automated attacks. However, this shouldn't be your sole security measure, as a determined attacker can still discover the new port. Combine this with other security measures.
 
 Here's an example of changing the default SSH port in the `sshd_config` file:
 ```bash

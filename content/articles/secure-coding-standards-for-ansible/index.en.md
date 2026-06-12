@@ -10,17 +10,17 @@ coverAlt: " A cartoon image of a castle protected by a shield, representing the 
 coverCaption: ""
 ---
 
-As organizations increasingly adopt automation, **Ansible** has emerged as a favored tool for **configuration management** and **deployment**. However, it is important to acknowledge that like any software, Ansible is not impervious to security vulnerabilities. Thus, it is vital to prioritize the development of **secure code** to safeguard and maintain the integrity of the infrastructure managed by Ansible. This section outlines essential **best practices** for writing **secure code** with Ansible, ensuring that your automation workflows are fortified against potential threats.
+As organizations increasingly adopt automation, **Ansible** has emerged as a favored tool for **configuration management** and **deployment**. However, it is important to acknowledge that like any software, Ansible isn't impervious to security vulnerabilities. Thus, it is vital to prioritize the development of **secure code** to safeguard and maintain the integrity of the infrastructure managed by Ansible. This section outlines essential **best practices** for writing **secure code** with Ansible, ensuring that your automation workflows are fortified against potential threats.
 
 ## Understanding Ansible Security
 
-Before diving into the guidelines, it's important to understand the security features of Ansible. Ansible provides **encryption** for communication between control nodes and managed nodes. Ansible also provides **secure storage** of **secrets** and other sensitive information using the **Vault**. Additionally, Ansible has a **sandboxing mechanism** to protect against potentially malicious code execution.
+Before diving into the guidelines, it's important to understand the security features of Ansible. Ansible provides **encryption** for communication between control nodes and managed nodes. Ansible also provides **secure storage** of **secrets** and other sensitive information using the **Vault**. Also, Ansible has a **sandboxing mechanism** to protect against potentially malicious code execution.
 
-However, these security features do not absolve developers from writing secure code. Adhering to the following guidelines will help developers write secure code that complements Ansible's built-in security features.
+However, these security features don't absolve developers from writing secure code. Adhering to the following guidelines will help developers write secure code that complements Ansible's built-in security features.
 
 ## Importance of Secure Code in Ansible
 
-Writing **secure code** is paramount when using Ansible for managing infrastructure. By adhering to **security best practices**, organizations can mitigate risks such as unauthorized access, data breaches, and service disruptions. **Secure code** in Ansible promotes the confidentiality, integrity, and availability of critical assets, bolstering the overall robustness and trustworthiness of the automated environment.
+Writing **secure code** is paramount when using Ansible for managing infrastructure. By adhering to **security best practices**, organizations can mitigate risks such as unauthorized access, data breaches, and service disruptions. **Secure code** in Ansible promotes the confidentiality, integrity, and availability of critical assets, strengthen the overall robustness and trustworthiness of the automated environment.
 
 ## Guideline 1: Use the Latest Version of Ansible
 
@@ -40,7 +40,7 @@ By implementing the least privilege principle, developers can limit the potentia
 
 ## Guideline 3: Use Ansible Vault for Sensitive Information
 
-Sensitive information such as passwords, API keys, and certificates should not be stored in plain text in Ansible playbooks. Storing sensitive information in plain text can compromise the security of the infrastructure managed by Ansible. Ansible provides the **Vault** for storing sensitive information securely. 
+Sensitive information such as passwords, API keys, and certificates shouldn't be stored in plain text in Ansible playbooks. Storing sensitive information in plain text can compromise the security of the infrastructure managed by Ansible. Ansible provides the **Vault** for storing sensitive information securely. 
 
 The Vault encrypts sensitive information with a password or a key file. Developers can use the `ansible-vault` command to create a new encrypted file, edit an existing encrypted file, or view an encrypted file. The `ansible-vault` command can also be used to encrypt or decrypt individual variables. For example, to create a new encrypted file, developers can use the following command:
 
@@ -50,9 +50,9 @@ ansible-vault create secret.yml
 
 This command will create a new encrypted file named `secret.yml`. Developers can edit this file using the `ansible-vault edit` command. They will be prompted to enter the password for the Vault.
 
-Developers should also ensure that passwords and key files are stored securely. Passwords and key files should not be stored in plain text. They should be stored in a secure location, such as a password manager or a secure file server.
+Developers should also ensure that passwords and key files are stored securely. Passwords and key files shouldn't be stored in plain text. They should be stored in a secure location, such as a password manager or a secure file server.
 
-Using the Vault to store sensitive information is a crucial step in securing infrastructure managed by Ansible. By following this guideline, developers can ensure that sensitive information is not exposed in plain text and is only accessible to authorized users.
+Using the Vault to store sensitive information is a crucial step in securing infrastructure managed by Ansible. By following this guideline, developers can ensure that sensitive information isn't exposed in plain text and is only accessible to authorized users.
 
 ## Guideline 4: Use Strong Passwords
 
@@ -82,7 +82,7 @@ SSH is a secure communication protocol that encrypts communication between contr
 
 WinRM is a secure communication protocol that encrypts communication between control nodes and managed nodes. Developers should use WinRM over HTTPS to ensure that communication is encrypted. They should also use strong certificates for authentication.
 
-Developers should also ensure that TLS certificates used for HTTPS communication are valid and have not expired. They can use tools such as `openssl` to generate and manage TLS certificates.
+Developers should also ensure that TLS certificates used for HTTPS communication are valid and haven't expired. They can use tools such as `openssl` to generate and manage TLS certificates.
 
 Using secure communication protocols is a crucial step in securing infrastructure managed by Ansible. By following this guideline, developers can ensure that communication between control nodes and managed nodes is encrypted and secure.
 
@@ -92,7 +92,7 @@ Developers should verify the identities of managed nodes before allowing them to
 
 SSH key fingerprints are unique identifiers of SSH keys used by managed nodes for authentication. Developers should verify the SSH key fingerprints of managed nodes before allowing them to connect to control nodes. They can use the `ssh-keygen` command to generate SSH key fingerprints and compare them to the fingerprints provided by managed nodes.
 
-TLS certificates are used by managed nodes to authenticate themselves to control nodes. Developers should ensure that TLS certificates used by managed nodes are valid and have not expired. They should also ensure that control nodes trust the TLS certificates used by managed nodes.
+TLS certificates are used by managed nodes to authenticate themselves to control nodes. Developers should ensure that TLS certificates used by managed nodes are valid and haven't expired. They should also ensure that control nodes trust the TLS certificates used by managed nodes.
 
 Developers should also ensure that SSH and TLS configurations are up-to-date and secure. SSH and TLS configurations should use strong encryption and authentication algorithms. They should also be configured to reject weak ciphers and protocols.
 
@@ -133,7 +133,7 @@ By adhering to the **guidelines** outlined in this article, developers can ensur
 
 Remember to always use the latest version of Ansible, follow the least privilege principle, use Ansible Vault for sensitive information, use strong passwords, limit access to playbooks, use secure communication protocols, verify host identities, sanitize user input, and follow secure coding practices. These guidelines will help developers write secure code and keep their infrastructure safe from security vulnerabilities.
 
-By integrating these **best practices**, organizations can confidently harness the benefits of automation provided by Ansible while ensuring a secure and reliable infrastructure. Safeguarding critical assets through secure code and using Ansible's built-in security features, organizations can embrace automation without compromising on security.
+By integrating these **best practices**, organizations can confidently use the benefits of automation provided by Ansible while ensuring a secure and reliable infrastructure. Safeguarding critical assets through secure code and using Ansible's built-in security features, organizations can embrace automation without compromising on security.
 
 ## References
 

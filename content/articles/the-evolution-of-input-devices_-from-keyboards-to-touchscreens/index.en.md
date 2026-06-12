@@ -14,7 +14,7 @@ The Evolution of Input Devices: From Keyboards to Touchscreens
 
 The evolution of input devices has played a significant role in shaping the way we interact with computers and other electronic devices. From the early days of mechanical typewriters to the introduction of touchscreens and voice recognition technology, the way we input information has constantly evolved. In this article, we will explore the key milestones in the evolution of input devices and discuss their impact on our daily lives.
 
-### Key Takeaways
+### main points
 
 * The QWERTY keyboard layout, developed for mechanical typewriters, remains the standard input method for most computers today.
 * The introduction of the mouse and trackpad revolutionized the way we navigate and interact with graphical user interfaces.
@@ -39,7 +39,7 @@ Touchscreens: A Revolution in Input Technology
 
 Touchscreens have revolutionized the way we interact with devices, providing a more intuitive and immersive experience. With the ability to directly manipulate objects on the screen, users can navigate through menus, scroll through content, and interact with applications with a simple touch. This technology has become increasingly popular in recent years, with touchscreens being integrated into smartphones, tablets, laptops, and even larger displays such as interactive whiteboards.
 
-One of the key advantages of touchscreens is their versatility. They can support various input methods, including finger gestures, stylus input, and multi-touch gestures. This flexibility allows users to interact with devices in a way that feels natural and familiar. Additionally, touchscreens eliminate the need for [external input devices such as mice](https://medium.com/@codedconversations/understanding-the-basics-029a6a8ab2ee) or keyboards, simplifying the user interface and reducing clutter.
+One of the key advantages of touchscreens is their versatility. They can support various input methods, including finger gestures, stylus input, and multi-touch gestures. This flexibility allows users to interact with devices in a way that feels natural and familiar. Also, touchscreens eliminate the need for [external input devices such as mice](https://medium.com/@codedconversations/understanding-the-basics-029a6a8ab2ee) or keyboards, simplifying the user interface and reducing clutter.
 
 Another benefit of touchscreens is their potential for enhanced security. By incorporating biometric authentication methods such as fingerprint or facial recognition, touchscreens can provide an additional layer of security for accessing sensitive information. This is particularly important in the field of cybersecurity, where protecting data and preventing unauthorized access are paramount.
 

@@ -76,13 +76,13 @@ ______
 
 ## Documentation and Community
 
-The Kali team has updated its **documentation** with new guides, tutorials, and troubleshooting tips to help users get the most out of Kali Purple 2023.1. They have also recognized several community members for their contributions to Kali, showcasing the power of open-source collaboration and the strength of the Kali community.
+The Kali team has updated its **documentation** with new guides, tutorials, and troubleshooting tips to help users get the most out of Kali Purple 2023.1. They have also recognized several community members for their contributions to Kali, showing the power of open-source collaboration and the strength of the Kali community.
 
 ______
 
 ## Government Regulations
 
-While this article does not cover any specific government regulations related to ethical hacking or penetration testing, note that these activities are regulated in many jurisdictions. Always ensure that you have proper permissions and follow applicable laws when conducting security assessments. To learn more about relevant regulations, consider visiting the following resources:
+While this article doesn't cover any specific government regulations related to ethical hacking or penetration testing, note that these activities are regulated in many jurisdictions. Always ensure that you have proper permissions and follow applicable laws when conducting security assessments. To learn more about relevant regulations, consider visiting the following resources:
 
 - [The Computer Fraud and Abuse Act (CFAA)](https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act#:~:text=The%20Computer%20Fraud%20and%20Abuse%20Act%20of%201986,without%20authorization%2C%20or%20in%20excess%20of%20authorization.%20)
 - [The General Data Protection Regulation (GDPR)](https://gdpr.eu/)

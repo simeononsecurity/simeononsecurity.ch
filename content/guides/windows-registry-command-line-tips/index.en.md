@@ -8,7 +8,7 @@ genre: ["Technology", "Windows", "Command Line", "Registry", "System Configurati
 tags: ["Windows Registry", "Command Line", "Registry Tweaks", "System Configuration", "Windows Tips", "Computer Security", "Windows OS", "Tech How-To", "Software Tweaks", "IT Solutions", "Windows Commands", "Registry Management", "Windows Configuration", "Performance Optimization", "Windows Administration", "Windows Utilities", "Windows Tools", "Registry Editing", "Windows Maintenance", "Windows Hacks", "Registry Keys", "Computer Performance", "Data Privacy", "Microsoft", "Windows Security", "Registry Backups", "Windows Customization", "Windows Commands", "Windows Tricks", "Windows Mastery"]
 cover: "/img/cover/Windows_Registry_Wizard.png"
 coverAlt: "A cartoon-style computer wizard working with a giant registry book."
-coverCaption: "Empower Your System Through Command Line Mastery."
+coverCaption: "help Your System Through Command Line Mastery."
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]
 ---
 

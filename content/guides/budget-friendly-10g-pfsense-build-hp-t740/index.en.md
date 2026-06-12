@@ -44,7 +44,7 @@ Before we begin, let's ensure you have all the necessary hardware components for
   - At least 8g of ram but [16g](https://amzn.to/3PwZTea) is advisable if you're going to do a lot of dns filtering or packet inspection
 - [**Adequate Storage**](https://amzn.to/3Px0kFk)
   - We recommend at least 256g of storage.
-  - It should be noted that the emmc card that comes with the t740 is not acceptable.
+  - It should be noted that the emmc card that comes with the t740 isn't acceptable.
 - [**USB Drive**](https://amzn.to/3PwzDRe) for pfSense installation
   - Anything 8g or larger will do.
 

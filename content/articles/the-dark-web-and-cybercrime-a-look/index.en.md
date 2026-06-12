@@ -16,7 +16,7 @@ The dark web and cybercrime are closely linked, forming a shadowy underbelly of 
 
 ## What is the Dark Web?
 
-The **dark web** refers to the portion of the internet that is not indexed by search engines. To access it, individuals require specialized software like **Tor** (The Onion Router). The dark web comprises hidden websites that are often used for illicit purposes, including drug trafficking, weapons sales, and human trafficking. It provides an anonymous platform for criminals to conduct their operations beyond the reach of law enforcement agencies.
+The **dark web** refers to the portion of the internet that isn't indexed by search engines. To access it, individuals require specialized software like **Tor** (The Onion Router). The dark web comprises hidden websites that are often used for illicit purposes, including drug trafficking, weapons sales, and human trafficking. It provides an anonymous platform for criminals to conduct their operations beyond the reach of law enforcement agencies.
 
 ## Understanding Cybercrime
 
@@ -42,9 +42,9 @@ Engaging with the dark web and falling victim to cybercrime entails significant 
 
 ## The Dark Web's Potential for Journalists and Whistleblowers
 
-While the dark web is predominantly associated with illegal activities, it is important to recognize that it can also serve as a tool for journalists and whistleblowers. In some cases, the dark web provides a platform for individuals to share information anonymously, protecting their identity and ensuring the safety of their sources. Journalists and whistleblowers may leverage the dark web to uncover hidden truths, expose corruption, and shed light on important issues that may otherwise go unnoticed.
+While the dark web is predominantly associated with illegal activities, it is important to recognize that it can also serve as a tool for journalists and whistleblowers. In some cases, the dark web provides a platform for individuals to share information anonymously, protecting their identity and ensuring the safety of their sources. Journalists and whistleblowers may leverage the dark web to uncover hidden truths, expose corruption, and explains important issues that may otherwise go unnoticed.
 
-Worth noting: the dark web's potential for journalistic and whistleblowing purposes should not overshadow the inherent risks and criminality associated with it. Individuals must exercise caution and adhere to legal and ethical guidelines when navigating the dark web, even if their intentions are noble.
+Worth noting: the dark web's potential for journalistic and whistleblowing purposes shouldn't overshadow the inherent risks and criminality associated with it. Individuals must exercise caution and adhere to legal and ethical guidelines when navigating the dark web, even if their intentions are noble.
 
 ## Protecting Yourself from the Dark Web and Cybercrime
 
@@ -70,7 +70,7 @@ Governments worldwide are increasingly recognizing the need to combat the dark w
 
 - The [**Cybersecurity Information Sharing Act (CISA)**](https://www.congress.gov/bill/114th-congress/senate-bill/754) in the United States: Promotes the sharing of cybersecurity threat information between private entities and the government to enhance national security and mitigate cyber risks. For more details, refer to [this documentation](https://www.congress.gov/bill/114th-congress/senate-bill/754).
 
-These regulations and initiatives play a vital role in fostering a safer digital environment, but individual awareness and proactive cybersecurity practices remain crucial in combatting the dark web and cybercrime.
+These regulations and initiatives play a vital role in building a safer digital environment, but individual awareness and proactive cybersecurity practices remain crucial in combatting the dark web and cybercrime.
 
 ## Conclusion
 

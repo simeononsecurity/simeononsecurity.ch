@@ -18,7 +18,7 @@ Windows systems are widely used in businesses, organizations and even homes. Wit
 
 ## How does it work?
 
-The Standalone-Windows-STIG-Script implements the guidelines provided in the STIG to secure a Windows system. The script can be run on a Windows system, and it will make the necessary changes to the system to ensure compliance with the STIG. The script covers a wide range of security measures, including but not limited to the following:
+The Standalone-Windows-STIG-Script implements the guidelines provided in the STIG to secure a Windows system. The script can be run on a Windows system, and it will make the necessary changes to the system to ensure compliance with the STIG. The script covers many security measures, including but not limited to the following:
 
 - Account policies
 - Audit policies

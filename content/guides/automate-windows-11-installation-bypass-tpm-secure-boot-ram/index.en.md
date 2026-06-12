@@ -3,7 +3,7 @@ title: "Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Check
 date: 2023-09-08
 toc: true
 draft: false
-description: "Streamline Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM."
+description: "simplify Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM."
 genre: ["Technology", "Windows 11", "Installation", "Virtualization", "Automation", "Registry Keys", "TPM Bypass", "Secure Boot Bypass", "RAM Bypass", "vTPM"]
 tags: ["Windows 11", "Installation", "Automation", "Virtualization", "vTPM", "Registry Keys", "TPM Bypass", "Secure Boot Bypass", "RAM Bypass", "Autounattend.xml", "VMware vSphere", "Windows Setup", "Windows Preinstallation Environment", "Virtual Machine", "Windows Installation Workaround", "Registry Editor", "Microsoft-Windows-Setup", "System Requirements", "Windows Security", "Windows Performance", "Government Regulations", "NIST Compliance", "Microsoft", "Windows OS", "Bypassing Checks", "Windows Deployment", "Setup Automation", "Command Prompt", "Tech How-To", "Automated Windows 11 Installation", "vTPM Configuration in VMware vSphere", "Bypass Windows 11 Requirements"]
 cover: "/img/cover/windows11-installation-cartoon.png"
@@ -19,7 +19,7 @@ Windows 11 introduces new system requirements, including the need for a TPM (Tru
 
 ### **Bypassing TPM, Secure Boot, and RAM Checks in Windows 11**
 
-Virtualized environments like VMware vSphere can use a virtual TPM ([vTPM](https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/)) to emulate a TPM 2.0 device, satisfying the TPM requirement for Windows 11 installation. However, for scenarios where a vTPM is not available, the following **registry keys** can be used to bypass the checks during the installation process:
+Virtualized environments like VMware vSphere can use a virtual TPM ([vTPM](https://simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/)) to emulate a TPM 2.0 device, satisfying the TPM requirement for Windows 11 installation. However, for scenarios where a vTPM isn't available, the following **registry keys** can be used to bypass the checks during the installation process:
 
 - **BypassTPMCheck**: Skip TPM check.
 - **BypassSecureBootCheck**: Skip Secure Boot check.

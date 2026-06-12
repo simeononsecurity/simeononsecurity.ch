@@ -7,7 +7,7 @@ description: "Discover essential security practices for Microsoft .NET Framework
 genre: ["Technology", "Software Development", "Cybersecurity", "Programming", "Windows Systems", "Application Security", ".NET Framework", "Automation", "Best Practices", "Security Guidelines"]
 tags: [".NET Framework 4.0", "Security Best Practices", "Automation Scripts", "Application Integrity", "Code Access Security", "Remoting Services", "Encryption", "Digital Signatures", "Cybersecurity", "Disaster Recovery", "Windows Systems", "PowerShell", "Compliance", "FIPS Encryption", "Strong Name Membership", "Trust Provider", "Event Tracing", "Remote Code Execution", "Proxy Settings", "System Integrity", "Developer Certificates", "Security Implementation", "Data Encryption", "Windows Communication Framework", "TLS Cipher", "System Configuration", "Vulnerability Mitigation", "Security Auditing", "Secure Execution", "Configuration Backups", "Automated Security Implementation", "Securing .NET Applications", "Cybersecurity Automation Scripts", ".NET Framework Security Measures", "Best Practices for Secure Coding"]
 cover: "/img/cover/mastering-dotnet-security.png"
-coverAlt: "A symbolic illustration showcasing a shield-wielding code snippet with lock symbols."
+coverAlt: "A symbolic illustration showing a shield-wielding code snippet with lock symbols."
 coverCaption: "Unlocking Fortified Code: Safeguarding Your .NET Applications"
 ---
 

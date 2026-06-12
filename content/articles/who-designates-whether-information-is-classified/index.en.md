@@ -26,7 +26,7 @@ ______
 
 ## Who Designates Whether Information is Classified?
 
-The authority to **designate whether information is classified** rests with specific individuals who have been granted **Original Classification Authority (OCA)**. These are not arbitrary designations - they are carefully controlled positions established through executive orders and government directives.
+The authority to **designate whether information is classified** rests with specific individuals who have been granted **Original Classification Authority (OCA)**. These aren't arbitrary designations - they're carefully controlled positions established through executive orders and government directives.
 
 ### Original Classification Authority (OCA)
 
@@ -47,7 +47,7 @@ While OCAs make **original** classification decisions, many more government empl
 
 **Important distinctions:**
 
-- **Derivative classifiers** do not decide if information should be classified - they apply existing classification decisions.
+- **Derivative classifiers** don't decide if information should be classified - they apply existing classification decisions.
 - They must receive formal training in derivative classification.
 - They are responsible for carrying forward classification markings and properly citing sources.
 
@@ -57,7 +57,7 @@ ______
 
 ## Who Determines the Classification Level?
 
-Once the decision has been made that information requires classification, the **OCA who designated the information as classified is also responsible for determining its classification level**. This determination is not subjective - it must be based on established criteria outlined in Executive Order 13526.
+Once the decision has been made that information requires classification, the **OCA who designated the information as classified is also responsible for determining its classification level**. This determination isn't subjective - it must be based on established criteria outlined in Executive Order 13526.
 
 ### Classification Level Determination Criteria
 
@@ -111,7 +111,7 @@ Beyond the three primary classification levels, there are additional categories 
 
 #### Sensitive Compartmented Information (SCI)
 
-**SCI** refers to classified information concerning intelligence sources, methods, or analytical processes that requires handling within formal access control systems. SCI is not a classification level itself but an additional layer of control applied to Top Secret information. Examples include:
+**SCI** refers to classified information concerning intelligence sources, methods, or analytical processes that requires handling within formal access control systems. SCI isn't a classification level itself but an additional layer of control applied to Top Secret information. Examples include:
 
 - SIGINT (Signals Intelligence) compartments
 - HUMINT (Human Intelligence) compartments  
@@ -191,7 +191,7 @@ Classified information can only be accessed by individuals who:
 - Have received proper **security briefings** and training
 - Are working in a **properly accredited facility**
 
-The [need-to-know principle](https://www.dcsa.mil/is/clearanceprocess/) is fundamental - even individuals with Top Secret clearances cannot access all Top Secret information. Access is strictly limited to what is necessary for job performance.
+The [need-to-know principle](https://www.dcsa.mil/is/clearanceprocess/) is fundamental - even individuals with Top Secret clearances can't access all Top Secret information. Access is strictly limited to what is necessary for job performance.
 
 ### Step 5: Declassification Review
 
@@ -224,7 +224,7 @@ The order emphasizes that information shall not be classified to:
 - Conceal violations of law or inefficiency
 - Prevent embarrassment
 - Restrain competition
-- Prevent or delay public release of information that does not require protection
+- Prevent or delay public release of information that doesn't require protection
 
 ### National Industrial Security Program Operating Manual (NISPOM)
 
@@ -347,12 +347,12 @@ ______
 
 The authority to **designate whether information is classified** and **determine its classification level** is a carefully controlled responsibility vested in Original Classification Authorities (OCAs) throughout the U.S. government. This system, governed primarily by Executive Order 13526, strikes a balance between protecting legitimate national security interests and promoting government transparency through eventual declassification.
 
-Key takeaways include:
+main points include:
 
 1. **Only designated OCAs can make original classification determinations** - typically agency heads and senior officials they delegate
 2. **Classification levels (Top Secret, Secret, Confidential) are determined based on potential damage to national security** from unauthorized disclosure
 3. **The classification process is governed by Executive Order 13526** and implementing regulations like the NISPOM and ITAR
-4. **Derivative classifiers apply existing classification decisions** but do not make original determinations
+4. **Derivative classifiers apply existing classification decisions** but don't make original determinations
 5. **All classification decisions must include declassification instructions** to ensure information doesn't remain classified longer than necessary
 
 For anyone working with classified information, understanding these authorities, processes, and regulations is essential to properly protecting national security while respecting the public's right to government transparency.

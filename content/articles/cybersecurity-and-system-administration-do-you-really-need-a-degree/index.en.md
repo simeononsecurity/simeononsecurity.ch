@@ -10,7 +10,7 @@ coverAlt: "An image of a person sitting at a desk with a computer in front of th
 coverCaption: ""
 ---
 
-Cybersecurity and system administration are critical fields in today's digital age. As technology continues to advance, the need for experts who can secure systems and networks from cyber threats grows. But, do you really need a degree to work in these fields? Let's explore the pros and cons of having a degree in cybersecurity and system administration.
+Cybersecurity and system administration are critical fields in today's digital age. As technology continues to advance, the need for experts who can secure systems and networks from cyber threats grows. But, do you really need a degree to work in these fields? Here's a look at the pros and cons of having a degree in cybersecurity and system administration.
 
 ## Pros of Having a Degree
 
@@ -34,7 +34,7 @@ Cybersecurity is often a self-taught field, and there is a lot of material onlin
 
 2. Time and Cost
 
-Getting a bachelor's degree in cybersecurity and system administration can take four years on average. In comparison, getting three certifications like CompTIA's A+, Network+, and Security+ can take only three to nine months for most people. Additionally, the cost of college can be significantly higher than getting certifications.
+Getting a bachelor's degree in cybersecurity and system administration can take four years on average. In comparison, getting three certifications like CompTIA's A+, Network+, and Security+ can take only three to nine months for most people. Also, the cost of college can be significantly higher than getting certifications.
 
 ## Conclusion
 
@@ -42,9 +42,9 @@ Wrapping up, the decision to get a degree in cybersecurity and system administra
 
 Note that while having a degree in cybersecurity and system administration may be preferred in certain job positions, it doesn't guarantee success or job security in the field. Employers are increasingly considering skills and experience over degrees, and there are many successful professionals in these fields who are self-taught or have gained certifications on their own. 
 
-At the end of the day, what matters most is that you have the skills and knowledge necessary to do the job. Whether you gain that through a formal education or through self-study and certifications, the most important thing is to stay up-to-date on the latest trends, threats, and technologies in the field. 
+ultimately, what matters most is that you have the skills and knowledge necessary to do the job. Whether you gain that through a formal education or through self-study and certifications, the most important thing is to stay up-to-date on the latest trends, threats, and technologies in the field. 
 
 As the field of cybersecurity and system administration continues to evolve, it's important to continuously learn and adapt to stay ahead of the curve. This can be done through attending conferences and workshops, reading industry publications and news, and networking with other professionals in the field. 
 
-Overall, while having a degree in cybersecurity and system administration can be beneficial in certain cases, it is not always necessary. Ultimately, it comes down to your individual goals and learning style, and what works best for you in terms of achieving success in the field.
+Overall, while having a degree in cybersecurity and system administration can be beneficial in certain cases, it's not always necessary. Ultimately, it comes down to your individual goals and learning style, and what works best for you in terms of achieving success in the field.
 

@@ -75,7 +75,7 @@ Always store your DSC configurations and custom resources in a **source control 
 
 ### Test Your Configurations
 
-**Testing** is a crucial aspect of configuration management. Before deploying a DSC configuration, test it on a **non-production environment** to ensure that it works as expected and does not introduce any unintended consequences. You can also use tools like [Pester](https://github.com/pester/Pester) for automated testing of your DSC configurations.
+**Testing** is a crucial aspect of configuration management. Before deploying a DSC configuration, test it on a **non-production environment** to ensure that it works as expected and doesn't introduce any unintended consequences. You can also use tools like [Pester](https://github.com/pester/Pester) for automated testing of your DSC configurations.
 
 ______
 

@@ -174,7 +174,7 @@ Security remains the top priority for cloud adoption. All three providers invest
 
 #### Azure Security Strengths
 
-✅ **Enterprise integration**: Seamless integration with Microsoft 365, Active Directory, Intune
+✅ **Enterprise integration**: smooth integration with Microsoft 365, Active Directory, Intune
 ✅ **Hybrid cloud security**: Best-in-class tools for hybrid and multi-cloud scenarios (Azure Arc)
 ✅ **Identity expertise**: Industry-leading identity and access management through Azure AD
 ✅ **Unified management**: Single pane of glass (Defender for Cloud) for all workloads
@@ -620,7 +620,7 @@ Security remains the top priority for cloud adoption. All three providers invest
 **Recommendation**: **Azure** or **AWS**
 
 **Azure Advantages**:
-- Seamless Microsoft 365, Active Directory, Teams integration
+- smooth Microsoft 365, Active Directory, Teams integration
 - Azure Hybrid Benefit (reuse existing licenses, significant savings)
 - Best hybrid cloud (Azure Stack, Arc)
 - Enterprise agreements (EA) with dedicated account teams
@@ -800,7 +800,7 @@ Security remains the top priority for cloud adoption. All three providers invest
 
 #### Enterprise Integration Priority
 - **Microsoft 365 / Active Directory?**
-  - **Yes** → **Azure** (seamless integration)
+  - **Yes** → **Azure** (smooth integration)
   - **No** → Continue
 
 - **70%+ VMs, traditional workloads?**
@@ -876,7 +876,7 @@ Security remains the top priority for cloud adoption. All three providers invest
 
 The cloud market continues consolidating around the "big three" while simultaneously offering more choice and flexibility through multi-cloud and hybrid strategies. By 2026, all three providers offer enterprise-grade security, compliance, and global infrastructure.
 
-**Key Takeaways**:
+**main points**:
 
 1. **No single "best" provider**: Choose based on specific requirements, not market share
 2. **AWS leads in breadth**: Most services, largest ecosystem, proven at all scales

@@ -14,7 +14,7 @@ Audio Fidelity and MP3s: Understanding Sampling Rates
 
 In the digital age, audio fidelity has become a crucial aspect of our listening experience. Understanding sampling rates is key to achieving high-quality sound reproduction. This article explores the importance of audio fidelity, the impact of sampling rates on sound quality, how sampling rates affect file size, choosing the right sampling rate for your needs, and the future of audio fidelity.
 
-### Key Takeaways
+### main points
 
 * Sampling rates determine the number of samples taken per second to represent audio.
 * Higher sampling rates result in better sound quality but larger file sizes.
@@ -78,7 +78,7 @@ When it comes to choosing the right sampling rate for your needs, there are a fe
 * Higher sampling rates, such as 96 kHz or 192 kHz, capture more detail and can result in higher audio quality.
 * However, higher sampling rates also result in larger file sizes, which may be a concern if you have limited storage space.
 * For most listening purposes, a sampling rate of 44.1 kHz, which is the standard for audio CDs, is sufficient and provides good audio quality.
-* If you are working on professional audio production or require the highest level of fidelity, you may consider using higher sampling rates.
+* If you're working on professional audio production or require the highest level of fidelity, you may consider using higher sampling rates.
 
 Note that the human ear has limitations in perceiving differences in sampling rates beyond a certain point. While higher sampling rates may offer theoretical advantages, the practical benefits may not be noticeable to the average listener. Therefore, you need to consider your specific needs and the limitations of your playback equipment when choosing a sampling rate.
 

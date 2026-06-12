@@ -54,7 +54,7 @@ Many devices and apps have parental controls that allow you to limit your child'
 
 ### 3. Monitor Your Child's Online Activity
 
-Regularly check your child's social media accounts, texts, and online activity to ensure they are not experiencing cyberbullying or engaging in harmful behavior. However, you need to respect your child's privacy and have open communication about why you are monitoring their activity.
+Regularly check your child's social media accounts, texts, and online activity to ensure they aren't experiencing cyberbullying or engaging in harmful behavior. However, you need to respect your child's privacy and have open communication about why you're monitoring their activity.
 
 ### 4. Encourage Positive Online Behavior
 

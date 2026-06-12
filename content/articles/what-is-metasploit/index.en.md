@@ -48,7 +48,7 @@ Metasploit includes features for simulating social engineering attacks, such as 
 
 ## Metasploit Framework vs. Metasploit Pro
 
-There are two primary versions of Metasploit available: Metasploit Framework and Metasploit Pro. While Metasploit Framework is the open-source version, Metasploit Pro is a commercial product with additional features and support. The framework is freely available, making it accessible to a wide range of users, while Metasploit Pro offers enhanced functionality and customer support for organizations with more advanced security needs.
+There are two primary versions of Metasploit available: Metasploit Framework and Metasploit Pro. While Metasploit Framework is the open-source version, Metasploit Pro is a commercial product with additional features and support. The framework is freely available, making it accessible to many users, while Metasploit Pro offers enhanced functionality and customer support for organizations with more advanced security needs.
 
 ## Government Regulations and Metasploit
 

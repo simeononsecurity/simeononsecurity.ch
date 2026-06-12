@@ -46,7 +46,7 @@ vm_guest_os_type: "value"
 ```
 
 
-Now, let's explore the **list of valid "guest_os_type"** values along with their descriptions and use cases.
+Now, here's a look at the **list of valid "guest_os_type"** values along with their descriptions and use cases.
 
 ______
 

@@ -40,7 +40,7 @@ Check out our guide on [**Triple Mining: Geodnet, Onocoy, and RTKDirect**](https
 {{< centerbutton href="https://simeononsecurity.com/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution/" >}}Triple Mining: Geodnet, Onocoy, and RTKDirect{{< /centerbutton >}}
 
 ### Recommended Hardware Components
-Before we begin, let's take a look at the hardware components you'll need:
+Before we begin, here's the hardware components you'll need:
 
 | Item | Description |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -68,9 +68,9 @@ One of the standout features of the **UM980** is its ability to maintain superio
 
 #### **2. Heading Information for Diverse Applications**
 
-The **UM980**, particularly when based on [**ELT0214**](https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex), goes beyond conventional GNSS functionality by offering valuable **heading information**. This feature is crucial for a wide range of applications, including **drones**, **heavy machinery**, **agrotechnology**, **marine systems**, and more. If your project demands precise orientation data, the **UM980**'s ability to provide **heading information** sets it apart as a powerful choice.
+The **UM980**, particularly when based on [**ELT0214**](https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex), goes beyond conventional GNSS functionality by offering valuable **heading information**. This feature is crucial for many applications, including **drones**, **heavy machinery**, **agrotechnology**, **marine systems**, and more. If your project demands precise orientation data, the **UM980**'s ability to provide **heading information** sets it apart as a powerful choice.
 
-#### **3. Seamless Compatibility and Integration**
+#### **3. smooth Compatibility and Integration**
 
 **Unicorecomm's** and **GNSS.STORE's** commitment to compatibility is evident in boards like the [**ELT0221**](https://gnss.store/unicore-gnss-modules/246-151-elt0221.html#/57-connector-sma), [**ELT0214**](https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex), and [**ELT0224**](https://gnss.store/unicore-gnss-modules/249-167-elt0224.html#/18-form_factor-surface_mount/58-connector-ipex), which are **pin-to-pin compatible** with the popular **Ardusimple Micro board**. This compatibility allows for **effortless upgrades** in applications already using **Ardusimple Micro**, such as **Teensy boards** from **AgOpenGPS**. By choosing the **UM980**, you not only gain performance advantages but also the convenience of a **straightforward transition**.
 
@@ -85,7 +85,7 @@ Wrapping up, the **Unicorecomm UM980** stands out as a clear choice when compare
 | {{< centerbutton href="https://amzn.to/3qM9N36" >}}Bingfu GPS Navigation Antenna - $9{{< /centerbutton >}} | Basic, simple, not the best, but it works. |
 | {{< centerbutton href="https://amzn.to/3PcSGki" >}}Bingfu GPS Navigation External Antenna{{< /centerbutton >}} | Outdoor Rated, Cheap, Allows view of the Sky. |
 | {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/141-elt0124.html" >}}High Performance GNSS L1 Active Quad Helix Antenna{{< /centerbutton >}} | For RTK Clients. Ex. Drones or Robots. |
-| {{< centerbutton href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit{{< /centerbutton >}} | This is only recommended for those who cannot properly install the antennas below. It will underperform against the others. |
+| {{< centerbutton href="https://amzn.to/3ORbgxc" >}}SparkFun GNSS-RTK Accessory Kit{{< /centerbutton >}} | This is only recommended for those who can't properly install the antennas below. It will underperform against the others. |
 
 
 ### Advanced Antennas for Base and Reciver Stations
@@ -104,7 +104,7 @@ Wrapping up, the **Unicorecomm UM980** stands out as a clear choice when compare
 ### 1. Assemble Your Workstation / Desktop / Laptop
 Ensure you have a computer with a USB port and internet access. You'll need this for downloading [firmware](https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update) and drivers.
 #### 1a. Configuring your UM980 (Optional but recommended)
-Connect to the device via a serial terminal. And run the following commands mentioned on our [Linux and Windows Guide](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script). Some are redundant due to firmware version differences, so if they error out you can ignore it. But it is a good practise to confirm with your manufacture that you have the latest firmware update.
+Connect to the device via a serial terminal. And run the following commands mentioned on our [Linux and Windows Guide](https://simeononsecurity.com/other/onocoy-gps-gnss-reciever-basestation-on-a-budget/#unicorecomm-um980-and-um982-configuration-script). Some are redundant due to firmware version differences, so if they error out you can ignore it. But it's a good practise to confirm with your manufacture that you have the latest firmware update.
 
 ### 2. Connect Hardware Components
 - If applicable, plug the ESP32 into the breakout board.
@@ -172,7 +172,7 @@ If you would like to reset the device configuration, you should also download:
   - Windows
     - **Windows Flash Tools** from [Espressif](https://www.espressif.com/en/support/download/other-tools)
   - Linux
-    - If you have not already done so, install the ESP flashing tool, `esptool`:
+    - If you haven't already done so, install the ESP flashing tool, `esptool`:
 
       - **Ubuntu/Debian**: `sudo apt-get install esptool`
 

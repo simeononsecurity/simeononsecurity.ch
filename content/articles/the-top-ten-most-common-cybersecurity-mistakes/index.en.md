@@ -28,7 +28,7 @@ ____
 
 Phishing scams are a common tactic used by cybercriminals to trick people into giving away sensitive information such as usernames, passwords, and credit card numbers. These scams often come in the form of emails or text messages that appear to be from a legitimate source, such as a bank or online retailer.
 
-To avoid falling for phishing scams, **be wary of unsolicited emails or messages**, especially those that ask you to click on a link or provide personal information. If you receive an email or message that looks suspicious, do not click on any links or provide any information. Instead, contact the company directly to verify the authenticity of the message.
+To avoid falling for phishing scams, **be wary of unsolicited emails or messages**, especially those that ask you to click on a link or provide personal information. If you receive an email or message that looks suspicious, don't click on any links or provide any information. Instead, contact the company directly to verify the authenticity of the message.
 
 ____
 
@@ -73,7 +73,7 @@ ____
 
 Data loss can be devastating, especially if you lose important documents, photos, or other files. Failing to back up your data leaves you vulnerable to data loss due to hardware failure, theft, or malware.
 
-To avoid this mistake, **regularly back up your data** to an external hard drive, cloud storage service, or other backup solution. Be sure to test your backups to ensure that they are working properly.
+To avoid this mistake, **regularly back up your data** to an external hard drive, cloud storage service, or other backup solution. Be sure to test your backups to ensure that they're working properly.
 
 ____
 

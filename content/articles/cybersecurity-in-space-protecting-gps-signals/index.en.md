@@ -26,7 +26,7 @@ In modern technology, **GPS signals** play a fundamental role, providing precise
 
 Among the most alarming threats to GPS signals is **spoofing**. This malicious practice involves **broadcasting counterfeit GPS signals** capable of deceiving GPS receivers into providing erroneous location and time data. The consequences of spoofing can be dire, particularly in **space applications** where pinpoint accuracy is paramount.
 
-**Spoofing attacks** are not only technically feasible but also relatively affordable, requiring the right equipment and knowledge. Despite the costs associated with large-scale attacks, the potential ramifications make this threat deeply concerning.
+**Spoofing attacks** aren't only technically feasible but also relatively affordable, requiring the right equipment and knowledge. Despite the costs associated with large-scale attacks, the potential ramifications make this threat deeply concerning.
 
 To understand the gravity of this issue, consider a hypothetical scenario where a **malicious entity** successfully spoofs GPS signals used by a **spacecraft** to navigate. The consequences could range from a minor deviation in trajectory to catastrophic errors in landing or docking procedures, risking the lives of astronauts and the success of the mission. Such incidents underscore the urgent need for robust **cybersecurity in space** to protect GPS signals.
 
@@ -52,7 +52,7 @@ Imagine a scenario where a **government agency** relies on encrypted communicati
 
 The significance of **securing GPS signals in space** has garnered the attention of governments and regulatory bodies worldwide. In response to the critical need for safeguarding these signals, several regulations and guidelines have been established to address these concerns.
 
-One such regulatory framework is the **U.S. Department of Defense's (DoD)** effort to enhance GPS signal security. They have introduced initiatives like the **Selective Availability Anti-Spoofing Module (SAASM)** and the **M-code**, which significantly bolster the security of GPS signals. SAASM, in particular, offers enhanced encryption and authentication capabilities, ensuring that only authorized users can access and decode military-grade GPS signals.
+One such regulatory framework is the **U.S. Department of Defense's (DoD)** effort to enhance GPS signal security. They have introduced initiatives like the **Selective Availability Anti-Spoofing Module (SAASM)** and the **M-code**, which significantly strengthen the security of GPS signals. SAASM, in particular, offers enhanced encryption and authentication capabilities, ensuring that only authorized users can access and decode military-grade GPS signals.
 
 Another noteworthy regulation is the **International Telecommunication Union (ITU)**'s regulations governing satellites in Earth's orbit. These regulations are crucial for maintaining order in space and mitigating potential interference with GPS signals.
 
@@ -78,7 +78,7 @@ One noteworthy feature of the M-code is its capacity to provide secure access to
 
 {{< youtube id="g8yA8byf2kc" >}}
 
-The military relies on **SAASM and M-code** to bolster the security of GPS signals across various critical applications:
+The military relies on **SAASM and M-code** to strengthen the security of GPS signals across various critical applications:
 
 1. **Navigation**: In hostile or contested environments, military personnel depend on GPS receivers equipped with SAASM and M-code for **precise navigation**, ensuring the success of missions.
 
@@ -104,7 +104,7 @@ Ground-based GPS base stations hold a crucial role in terrestrial GPS infrastruc
 
 Integration of ground-based GPS stations into the broader GPS infrastructure addresses key security concerns associated with space-based signals:
 
-1. **Resilience**: Ground-based stations provide redundancy and backup time synchronization capabilities. In the face of a spoofing attack on space-based signals, systems can seamlessly switch to ground-based time references, ensuring the continuity of critical operations.
+1. **Resilience**: Ground-based stations provide redundancy and backup time synchronization capabilities. In the face of a spoofing attack on space-based signals, systems can smoothly switch to ground-based time references, ensuring the continuity of critical operations.
 
 2. **Verification**: The consensus among multiple ground-based stations verifying time and positioning data adds a robust layer of security, thwarting attackers' attempts to tamper with signals.
 
@@ -132,7 +132,7 @@ In **cybersecurity in space**, the absence of default encryption, security, and 
 
 To effectively counter these multifaceted risks, it is imperative to implement resolute security measures and adhere unwaveringly to pertinent government regulations. 
 
-By addressing these vulnerabilities head-on, we bolster the continued reliability and security of space-based GPS signals. This, in turn, ensures the protection of critical infrastructure and fortifies our ongoing technological advancements.
+By addressing these vulnerabilities head-on, we strengthen the continued reliability and security of space-based GPS signals. This, in turn, ensures the protection of critical infrastructure and fortifies our ongoing technological advancements.
 
 ## References
 

@@ -795,7 +795,7 @@ ______
 - Create security automation scripts
 - Write security hardening guides
 
-**Showcase on**:
+**show on**:
 - GitHub (code and documentation)
 - Personal blog/website
 - LinkedIn articles

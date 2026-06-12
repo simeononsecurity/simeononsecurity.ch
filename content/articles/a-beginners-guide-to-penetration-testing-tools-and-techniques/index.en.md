@@ -36,7 +36,7 @@ ______
 
 ## Penetration Testing Tools
 
-A wide range of tools is available for penetration testers to perform their tasks effectively. Some of the most popular open-source and commercial tools include:
+many tools is available for penetration testers to perform their tasks effectively. Some of the most popular open-source and commercial tools include:
 
 1. **Nmap**: A powerful network scanner for discovering hosts and services on a computer network. [Download Nmap](https://nmap.org/download.html).
 

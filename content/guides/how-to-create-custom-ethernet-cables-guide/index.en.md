@@ -8,7 +8,7 @@ genre: ["Technology", "DIY", "Networking", "Cable Management", "Internet", "Netw
 tags: ["Ethernet cables", "Custom cables", "DIY networking", "Network setup", "Cable creation", "Ethernet wiring", "RJ45 connectors", "Internet connection", "Home network", "Tech tutorials", "Cable management", "Network optimization", "Ethernet standards", "Data transfer", "DIY projects", "Computer accessories", "Tech enthusiasts", "High-performance networks", "Professional networking", "Networking solutions", "Ethernet cable categories", "Ethernet cable testing", "Optimize network performance", "Network tailored setup", "DIY cable", "Wired connections", "Network reliability", "Internet connectivity", "Network flexibility", "Ethernet cable design"]
 cover: "/img/cover/custom-ethernet-cable-creation.png"
 coverAlt: "A cartoon illustration of a person creating an Ethernet cable with joy."
-coverCaption: "Empower Your Network with Custom Cables"
+coverCaption: "help Your Network with Custom Cables"
 canonical: ""
 ---
 **How to Create Custom Ethernet Cables**
@@ -106,7 +106,7 @@ When creating custom Ethernet cables, you need to consider the type of wiring us
    - Slightly more expensive than non-plenum options.
 
 6. **Non-Plenum Wiring**:
-   - Suitable for general indoor installations where plenum-rated cables are not required.
+   - Suitable for general indoor installations where plenum-rated cables aren't required.
    - More cost-effective and readily available than plenum-rated alternatives.
    - Should not be used in plenum spaces due to fire safety concerns.
 
@@ -253,4 +253,4 @@ ______
 
 Creating custom Ethernet cables is a rewarding DIY project, and it allows you to have full control over your network setup. Whether you're a tech enthusiast or need cables for specific applications, this guide will walk you through the process step by step. Don't hesitate to explore the world of custom Ethernet cables and enhance your networking capabilities.
 
-Lastly, if you've made it this far, you might be interested in reading our guide on [Setting up a Ubiquiti Unifi Home Network](https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/).
+Finally, if you've made it this far, you might be interested in reading our guide on [Setting up a Ubiquiti Unifi Home Network](https://simeononsecurity.com/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/).

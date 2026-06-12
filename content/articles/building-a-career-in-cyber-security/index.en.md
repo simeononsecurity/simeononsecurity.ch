@@ -18,7 +18,7 @@ With the rapid growth of technology and the increasing threat landscape, **cyber
 ______
 
 ## Education in Cyber Security
-A solid educational foundation is crucial for a career in cyber security. While formal education is not always mandatory, having a degree in a related field can significantly enhance your job prospects. Here are some recommended educational paths:
+A solid educational foundation is crucial for a career in cyber security. While formal education isn't always mandatory, having a degree in a related field can significantly enhance your job prospects. Here are some recommended educational paths:
 
 {{< youtube id="4CuXNs6SboU" >}}
 

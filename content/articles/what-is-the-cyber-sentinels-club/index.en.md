@@ -36,7 +36,7 @@ The Cyber Sentinels strive to create a supportive and inclusive environment wher
 
 **5. Making a Positive Impact**
 
-At the end of the day, the Cyber Sentinels are working to make a positive impact on the security of the digital world. They believe that by sharing knowledge, collaborating on new ideas, and developing innovative solutions, they can help to create a safer and more secure digital landscape for everyone.
+ultimately, the Cyber Sentinels are working to make a positive impact on the security of the digital world. They believe that by sharing knowledge, collaborating on new ideas, and developing innovative solutions, they can help to create a safer and more secure digital landscape for everyone.
 
 ## Joining the Cyber Sentinels
 

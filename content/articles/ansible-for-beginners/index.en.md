@@ -1390,7 +1390,7 @@ community.general.docker_container:
 
 Ansible has evolved into the automation tool of choice for organizations worldwide, and 2026 brings even more capabilities, easier Windows management, enhanced cloud integrations, and AI-assisted playbook generation. The skills you build with Ansible will serve you throughout your IT career, whether you're managing traditional infrastructure, cloud environments, or hybrid deployments.
 
-**Key Takeaways:**
+**main points:**
 
 1. **Start Simple**: Begin with basic playbooks managing a few servers
 2. **Practice Regularly**: Set up a home lab and experiment

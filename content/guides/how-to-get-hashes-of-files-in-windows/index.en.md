@@ -41,7 +41,7 @@ ______
 
 ### MD5 (Legacy, Not Recommended for Security)
 
-**MD5** (Message Digest Algorithm 5) produces a 128-bit (32-character hexadecimal) hash. While fast to compute, MD5 is **cryptographically broken** and should not be used for security purposes due to collision vulnerabilities discovered in 2004.
+**MD5** (Message Digest Algorithm 5) produces a 128-bit (32-character hexadecimal) hash. While fast to compute, MD5 is **cryptographically broken** and shouldn't be used for security purposes due to collision vulnerabilities discovered in 2004.
 
 **MD5 is acceptable only for:**
 - Non-security applications (file deduplication)
@@ -429,7 +429,7 @@ ______
 
 PowerShell's Get-FileHash cmdlet provides a powerful, built-in solution for calculating file hashes on Windows. Whether you're verifying downloads, monitoring file integrity, conducting forensics, or automating security checks, mastering Get-FileHash is essential for modern Windows administration and cybersecurity in 2026.
 
-**Key Takeaways:**
+**main points:**
 - Use **SHA-256** for all security-related hashing
 - Automate hash verification with PowerShell scripts
 - Create baseline manifests for critical files

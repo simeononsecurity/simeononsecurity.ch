@@ -8,7 +8,7 @@ genre: ["Digital Culture", "Online Deception", "Social Media Impact", "Media Lit
 tags: ["internet hoaxes", "online deception", "hoax psychology", "social media", "fake news", "media literacy", "misinformation", "cyber awareness", "online integrity", "hoax identification", "viral challenges", "digital culture", "psychology of belief", "information verification", "media influence", "critical thinking", "online safety", "digital misinformation", "hoax history", "media manipulation", "hoax consequences", "sensationalism", "internet myths", "trust in media", "confirmation bias", "hoax impact", "hoax evolution", "hoax examples", "hoax awareness", "truth in digital age"]
 cover: "/img/cover/internet-hoaxes-examination-magnify.png"
 coverAlt: "A cartoon-style image showing a person holding a magnifying glass, examining a computer screen with hoax symbols."
-coverCaption: "Unmasking Deception: Empower Yourself Against Internet Hoaxes."
+coverCaption: "Unmasking Deception: help Yourself Against Internet Hoaxes."
 ---
 
 **Which of the Following is True of Internet Hoaxes?**
@@ -27,13 +27,13 @@ Another type of internet hoax is the "celebrity death hoax," where rumors of a c
 
 ### The Psychology Behind Internet Hoaxes
 
-Understanding the psychology behind internet hoaxes is essential to grasp why people fall for them and why they are so prevalent. The allure of sensational or shocking information, combined with the speed and anonymity of online communication, makes it easier for hoaxes to thrive. People are naturally drawn to content that evokes strong emotions, and hoaxes often play on these emotions to capture attention and generate engagement.
+Understanding the psychology behind internet hoaxes is essential to grasp why people fall for them and why they're so prevalent. The allure of sensational or shocking information, combined with the speed and anonymity of online communication, makes it easier for hoaxes to thrive. People are naturally drawn to content that evokes strong emotions, and hoaxes often play on these emotions to capture attention and generate engagement.
 
 On top of that, cognitive biases, such as confirmation bias and the illusion of truth effect, play a role in reinforcing people's beliefs and making them susceptible to hoaxes. Confirmation bias refers to the tendency to seek out information that confirms one's preexisting beliefs and ignore or dismiss information that contradicts them. This bias can make individuals more likely to believe and share hoaxes that align with their existing worldview.
 
 The illusion of truth effect, on the other hand, refers to the phenomenon where repeated exposure to information increases its perceived truthfulness. When people encounter a hoax multiple times, either through repeated sharing or seeing it in different contexts, they may start to accept it as true without critically evaluating its validity. This effect is particularly potent in the age of social media, where information can quickly go viral and reach a wide audience.
 
-Additionally, the viral nature of hoaxes on social media can lead to a herd mentality, where individuals share or believe in hoaxes simply because others are doing so. This phenomenon is known as social proof, where people look to others to determine the correct course of action or belief. When a hoax gains traction and receives widespread attention, it can create a sense of legitimacy and credibility, further perpetuating the spread of false information and the success of internet hoaxes.
+Also, the viral nature of hoaxes on social media can lead to a herd mentality, where individuals share or believe in hoaxes simply because others are doing so. This phenomenon is known as social proof, where people look to others to determine the correct course of action or belief. When a hoax gains traction and receives widespread attention, it can create a sense of legitimacy and credibility, further perpetuating the spread of false information and the success of internet hoaxes.
 
 ## The History of Internet Hoaxes
 
@@ -59,7 +59,7 @@ The history of internet hoaxes is a testament to the rapidly changing nature of 
 
 ### Case Studies of Famous Internet Hoaxes
 
-Examining case studies of famous internet hoaxes can shed light on their impact and consequences. One such example is the "War of the Worlds" radio broadcast in 1938, where Orson Welles presented a fictional alien invasion as a live news report.
+Examining case studies of famous internet hoaxes can explains their impact and consequences. One such example is the "War of the Worlds" radio broadcast in 1938, where Orson Welles presented a fictional alien invasion as a live news report.
 
 The broadcast, which aired on October 30, 1938, caused widespread panic among listeners who believed the events were real. People tuned in to their radios and heard reports of Martians landing in New Jersey and wreaking havoc in cities across the United States. The power of media to elicit emotional responses and spread misinformation was on full display during this event.
 

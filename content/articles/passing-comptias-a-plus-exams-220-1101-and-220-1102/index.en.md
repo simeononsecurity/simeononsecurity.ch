@@ -16,11 +16,11 @@ CompTIA's A+ certification is one of the most popular and highly-regarded IT cer
 
 ## Overview of the CompTIA A+ Certification
 
-The CompTIA A+ certification is a vendor-neutral certification that covers a wide range of topics related to IT support and troubleshooting. It is designed to validate the skills and knowledge of individuals seeking to enter the IT field as entry-level technicians or support personnel. The certification is divided into two exams, 220-1101 and 220-1102, each of which covers different topics related to IT support.
+The CompTIA A+ certification is a vendor-neutral certification that covers many topics related to IT support and troubleshooting. It is designed to validate the skills and knowledge of individuals seeking to enter the IT field as entry-level technicians or support personnel. The certification is divided into two exams, 220-1101 and 220-1102, each of which covers different topics related to IT support.
 
 ### Exam 220-1101
 
-The CompTIA A+ Exam 220-1101 is the first of two exams required to earn the CompTIA A+ certification. This exam covers a wide range of topics related to PC hardware, networking, mobile devices, and hardware and network troubleshooting. 
+The CompTIA A+ Exam 220-1101 is the first of two exams required to earn the CompTIA A+ certification. This exam covers many topics related to PC hardware, networking, mobile devices, and hardware and network troubleshooting. 
 
 The exam consists of 90 multiple-choice and performance-based questions and must be completed within 90 minutes. The exam is designed to test the following skills and knowledge:
 
@@ -64,17 +64,17 @@ One of the keys to passing CompTIA A+ exams 220-1101 and 220-1102 is to have a s
 
 For example, the exam objectives for 220-1101 cover topics related to PC hardware, networking, mobile devices, and hardware and network troubleshooting, while the exam objectives for 220-1102 cover topics related to operating systems, security, software troubleshooting, and operational procedures.
 
-Studying the exam objectives will also help you to identify any gaps in your knowledge and help you to prioritize your study efforts accordingly. By making a study plan that is focused on the exam objectives, you can be sure that you are covering all the necessary material in a systematic and efficient way.
+Studying the exam objectives will also help you to identify any gaps in your knowledge and help you to prioritize your study efforts accordingly. By making a study plan that is focused on the exam objectives, you can be sure that you're covering all the necessary material in a systematic and efficient way.
 
 2. **Use Multiple Study Resources**
 
-To be successful in the CompTIA A+ exams, it's important to use multiple study resources. There are a plethora of resources available for these exams, including study guides, practice tests, and online courses. 
+To be successful in the CompTIA A+ exams, it's important to use multiple study resources. There are plenty of resources available for these exams, including study guides, practice tests, and online courses. 
 
 One great resource for studying for the CompTIA A+ exams is the official CompTIA CertMaster online learning platform. CertMaster offers interactive learning with a variety of study materials, including videos, practice questions, and flashcards. 
 
 Other reputable study resources include [CompTIA A+ Exam Cram by David L. Prowse](https://amzn.to/3IFzAQG), the [All-in-One CompTIA A+ Certification Exam Guide by Mike Meyers](https://amzn.to/3Z8i9gT), and the [CompTIA A+ Practice Tests by Quentin Docter](https://amzn.to/3IDuQuN). 
 
-Additionally, there are many online courses and tutorials available through providers such as [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/). When using multiple study resources, it's important to focus on those that align with the exam objectives and to use resources from reputable sources to ensure accuracy and quality. 
+Also, there are many online courses and tutorials available through providers such as [Udemy](https://www.udemy.com/), [LinkedIn Learning](https://www.linkedin.com/learning-login/), and [Coursera](https://www.coursera.org/). When using multiple study resources, it's important to focus on those that align with the exam objectives and to use resources from reputable sources to ensure accuracy and quality. 
 
 {{< youtube id="87t6P5ZHTP0" >}}{{< youtube id="OS9MJjNK6gA" >}}
 

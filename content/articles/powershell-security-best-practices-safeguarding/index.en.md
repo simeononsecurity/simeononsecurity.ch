@@ -13,7 +13,7 @@ coverCaption: "Secure your PowerShell scripts with effective security practices.
 
 ## Introduction
 
-PowerShell is a powerful scripting language and automation framework developed by Microsoft. It provides administrators and developers with a wide range of capabilities for managing and automating Windows environments. However, as with any powerful tool, you need to follow **best practices for PowerShell security** to prevent unauthorized access, protect sensitive information, and minimize the risk of security breaches.
+PowerShell is a powerful scripting language and automation framework developed by Microsoft. It provides administrators and developers with many capabilities for managing and automating Windows environments. However, as with any powerful tool, you need to follow **best practices for PowerShell security** to prevent unauthorized access, protect sensitive information, and minimize the risk of security breaches.
 
 In this article, we will explore [**PowerShell security best practices**](https://simeononsecurity.com/articles/secure-coding-standards-for-powershell/), focusing on script and password security. By implementing these practices, you can ensure that your PowerShell scripts and passwords remain secure, reducing the potential for malicious activity and data breaches.
 
@@ -27,7 +27,7 @@ When it comes to **script execution**, there are several best practices you shou
 
 1. **Enable script execution policy**: PowerShell has a script execution policy that controls the types of scripts that can be run on a system. By setting the execution policy to a restricted or remote-signed mode, you can prevent the execution of malicious scripts. Use the `Set-ExecutionPolicy` cmdlet to configure the policy.
 
-2. **Sign your scripts**: Code signing provides an additional layer of security by verifying the integrity and authenticity of scripts. By signing your scripts with a digital certificate, you can ensure that they have not been tampered with and come from a trusted source. For example, you can use the **Sign-Script** cmdlet to sign your PowerShell scripts.
+2. **Sign your scripts**: Code signing provides an additional layer of security by verifying the integrity and authenticity of scripts. By signing your scripts with a digital certificate, you can ensure that they haven't been tampered with and come from a trusted source. For example, you can use the **Sign-Script** cmdlet to sign your PowerShell scripts.
 
 3. **Implement script logging**: Enable script logging to track the execution of PowerShell scripts. Logging helps in identifying potential security incidents, detecting unauthorized activities, and investigating security breaches. PowerShell provides the `Start-Transcript` cmdlet for logging script activity. By using this cmdlet, you can capture the output of your scripts, including any errors or warnings, in a log file for later analysis.
 
@@ -37,11 +37,11 @@ These best practices for script execution enhance the security of your PowerShel
 
 Code signing plays a crucial role in ensuring the integrity and authenticity of PowerShell scripts. Follow these best practices for code signing:
 
-1. **Obtain a code signing certificate**: Acquire a code signing certificate from a trusted certificate authority (CA) to sign your scripts. This certificate confirms that your scripts come from a trusted source and have not been tampered with. For example, you can obtain a code signing certificate from **DigiCert** or **GlobalSign**.
+1. **Obtain a code signing certificate**: Acquire a code signing certificate from a trusted certificate authority (CA) to sign your scripts. This certificate confirms that your scripts come from a trusted source and haven't been tampered with. For example, you can obtain a code signing certificate from **DigiCert** or **GlobalSign**.
 
 2. **Sign all scripts**: Sign all your PowerShell scripts, including those intended for internal use. By signing all scripts, you establish a consistent security practice and prevent unauthorized or modified scripts from running. To sign a script, you can use the **Set-AuthenticodeSignature** cmdlet and provide the path to your code signing certificate.
 
-3. **Verify code signing certificates**: Before executing a signed script, verify the code signing certificate used to sign it. PowerShell provides the `Get-AuthenticodeSignature` cmdlet to check the signature of a script and validate its authenticity. You can use this cmdlet to ensure that the script you are about to execute is signed by a trusted source.
+3. **Verify code signing certificates**: Before executing a signed script, verify the code signing certificate used to sign it. PowerShell provides the `Get-AuthenticodeSignature` cmdlet to check the signature of a script and validate its authenticity. You can use this cmdlet to ensure that the script you're about to execute is signed by a trusted source.
 
 By following these best practices for code signing, you can enhance the security of your PowerShell scripts and ensure that they come from a trusted and unaltered source.
 

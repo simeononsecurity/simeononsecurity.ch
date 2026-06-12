@@ -57,7 +57,7 @@ ______
 
 There are two types of XSS attacks: **stored XSS** and **reflected XSS**. Stored XSS involves injecting malicious code into a web page, which is then stored on the server and executed every time the page is loaded. Reflected XSS involves injecting malicious code into a web page, which is then reflected back to the user in the server's response.
 
-To prevent XSS attacks, developers should use **input validation** and **output encoding** to ensure that user input is properly sanitized and that malicious code cannot be executed on the client's browser.
+To prevent XSS attacks, developers should use **input validation** and **output encoding** to ensure that user input is properly sanitized and that malicious code can't be executed on the client's browser.
 
 ______
 
@@ -73,7 +73,7 @@ ______
 
 ### 5. Security Misconfiguration
 
-**Security misconfiguration** occurs when web applications are not properly configured to ensure their security. This can happen due to a lack of proper configuration management, unpatched vulnerabilities, or other issues that make the application vulnerable to attacks.
+**Security misconfiguration** occurs when web applications aren't properly configured to ensure their security. This can happen due to a lack of proper configuration management, unpatched vulnerabilities, or other issues that make the application vulnerable to attacks.
 
 Attackers can exploit security misconfigurations to gain unauthorized access to sensitive data, execute unauthorized commands, or perform other malicious actions.
 
@@ -83,7 +83,7 @@ ______
 
 ### 6. Insecure Cryptographic Storage
 
-Web applications often store sensitive information, such as passwords and credit card numbers, in databases. **Insecure cryptographic storage** occurs when this information is not properly encrypted, allowing attackers to gain unauthorized access to sensitive data.
+Web applications often store sensitive information, such as passwords and credit card numbers, in databases. **Insecure cryptographic storage** occurs when this information isn't properly encrypted, allowing attackers to gain unauthorized access to sensitive data.
 
 To prevent insecure cryptographic storage, developers should use **strong encryption algorithms** and **secure key management** practices to ensure that sensitive information is properly encrypted and stored.
 
@@ -91,7 +91,7 @@ ______
 
 ### 7. Insufficient Transport Layer Protection
 
-Web applications use **transport layer protection**, such as HTTPS, to secure communications between clients and servers. **Insufficient transport layer protection** occurs when this protection is not properly configured or is not used at all.
+Web applications use **transport layer protection**, such as HTTPS, to secure communications between clients and servers. **Insufficient transport layer protection** occurs when this protection isn't properly configured or isn't used at all.
 
 Attackers can exploit this vulnerability to intercept sensitive data, such as passwords or credit card numbers, during transmission.
 
@@ -101,7 +101,7 @@ ______
 
 ### 8. Unvalidated and Unsanitized Input
 
-**Unvalidated and unsanitized input** occurs when user input is not properly validated or sanitized before being processed by the web application. This can lead to injection attacks, cross-site scripting attacks, and other types of vulnerabilities.
+**Unvalidated and unsanitized input** occurs when user input isn't properly validated or sanitized before being processed by the web application. This can lead to injection attacks, cross-site scripting attacks, and other types of vulnerabilities.
 
 To prevent unvalidated and unsanitized input, developers should use **input validation** and **output encoding** to ensure that user input is properly sanitized.
 
@@ -117,7 +117,7 @@ ______
 
 ### 10. Insufficient Logging and Monitoring
 
-**Insufficient logging and monitoring** occurs when web applications do not properly log and monitor security events. This can make it difficult to detect security breaches and respond to them in a timely manner.
+**Insufficient logging and monitoring** occurs when web applications don't properly log and monitor security events. This can make it difficult to detect security breaches and respond to them in a timely manner.
 
 To prevent insufficient logging and monitoring, developers should implement proper logging and monitoring mechanisms and regularly review logs and security events.
 

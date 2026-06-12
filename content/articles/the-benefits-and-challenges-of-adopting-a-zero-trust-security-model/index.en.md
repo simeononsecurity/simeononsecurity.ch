@@ -24,7 +24,7 @@ Zero Trust provides **better visibility** into the network by requiring that eve
 
 ### Enhanced Compliance
 
-Zero Trust also helps organizations **comply with industry regulations** and standards such as HIPAA, GDPR, and PCI DSS. By ensuring that every request is authenticated and authorized, organizations can demonstrate that they are taking appropriate security measures to protect sensitive data.
+Zero Trust also helps organizations **comply with industry regulations** and standards such as HIPAA, GDPR, and PCI DSS. By ensuring that every request is authenticated and authorized, organizations can demonstrate that they're taking appropriate security measures to protect sensitive data.
 
 ### Flexibility
 
@@ -38,7 +38,7 @@ One of the challenges of implementing Zero Trust is its **complexity**. Zero Tru
 
 ### Cost
 
-Implementing a Zero Trust security model can be **expensive**. It requires significant investment in security technologies, such as multi-factor authentication, network segmentation, and encryption. Additionally, ongoing maintenance and updates can be costly, which can be a barrier for small and medium-sized organizations.
+Implementing a Zero Trust security model can be **expensive**. It requires significant investment in security technologies, such as multi-factor authentication, network segmentation, and encryption. Also, ongoing maintenance and updates can be costly, which can be a barrier for small and medium-sized organizations.
 
 ### User Experience
 

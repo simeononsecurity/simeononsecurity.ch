@@ -26,7 +26,7 @@ To prevent phishing attacks, it's important to **educate employees** about the s
 
 Pretexting is a form of social engineering that involves creating a false pretext to gain sensitive information. The attacker may pose as a trustworthy person or authority figure, such as an IT technician or a bank representative, to convince the victim to divulge information or perform actions that compromise security.
 
-To prevent pretexting attacks, it's important to **verify the identity of people requesting information**, especially if they are asking for confidential or sensitive information. Employees should be trained to ask questions to confirm the identity of the person making the request.
+To prevent pretexting attacks, it's important to **verify the identity of people requesting information**, especially if they're asking for confidential or sensitive information. Employees should be trained to ask questions to confirm the identity of the person making the request.
 
 ### Baiting
 
@@ -50,7 +50,7 @@ Training should be conducted regularly, and it should be tailored to the specifi
 
 ### [Security Policies](https://simeononsecurity.com/articles/how-to-secure-your-organization-against-insider-threats/)
 
-Security policies are another important strategy to prevent social engineering attacks. Organizations should have clear policies on how to handle sensitive information and what actions are allowed or prohibited. Policies should be regularly reviewed and updated to ensure that they are effective and up to date.
+Security policies are another important strategy to prevent social engineering attacks. Organizations should have clear policies on how to handle sensitive information and what actions are allowed or prohibited. Policies should be regularly reviewed and updated to ensure that they're effective and up to date.
 
 Organizations should also have policies on how to respond to security incidents. Employees should be trained on what to do in case of a security breach, and there should be clear procedures for reporting incidents and mitigating the damage.
 

@@ -20,7 +20,7 @@ __
 
 ## Introduction
 
-Text manipulation involves tasks such as creating, editing, searching, and processing text files. Windows command line offers a range of commands that enable users to perform these tasks seamlessly. Whether you're a cybersecurity professional, a system administrator, or a data enthusiast, mastering these skills can significantly enhance your productivity.
+Text manipulation involves tasks such as creating, editing, searching, and processing text files. Windows command line offers a range of commands that enable users to perform these tasks smoothly. Whether you're a cybersecurity professional, a system administrator, or a data enthusiast, mastering these skills can significantly enhance your productivity.
 
 ## Creating and Editing Text Files
 

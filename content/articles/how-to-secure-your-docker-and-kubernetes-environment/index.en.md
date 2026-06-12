@@ -22,11 +22,11 @@ When using Docker, it is important to only use **official images** from Docker H
 
 ### Limit Permissions
 
-Limiting permissions is an essential aspect of securing your Docker environment. **Limit the number of users with access to the Docker daemon** and ensure that users only have the necessary permissions to perform their tasks. Additionally, make sure that containers are running with the minimum required privileges and that privileged containers are avoided.
+Limiting permissions is an essential aspect of securing your Docker environment. **Limit the number of users with access to the Docker daemon** and ensure that users only have the necessary permissions to perform their tasks. Also, make sure that containers are running with the minimum required privileges and that privileged containers are avoided.
 
 ### Implement Network Security
 
-Implementing network security is another important aspect of securing your Docker environment. **Use firewalls and network policies to restrict network access** to Docker hosts and containers. Additionally, you should use secure connections for communication between Docker nodes, such as TLS.
+Implementing network security is another important aspect of securing your Docker environment. **Use firewalls and network policies to restrict network access** to Docker hosts and containers. Also, you should use secure connections for communication between Docker nodes, such as TLS.
 
 ### Monitor Your Environment
 
@@ -36,19 +36,19 @@ Monitoring your Docker environment is crucial for detecting and responding to se
 
 ### Limit Access
 
-Limiting access is the first step in securing your Kubernetes environment. **Implement Role-Based Access Control (RBAC)** to restrict access to Kubernetes resources based on user roles and permissions. Additionally, **use strong authentication and authorization mechanisms** to prevent unauthorized access to your Kubernetes cluster.
+Limiting access is the first step in securing your Kubernetes environment. **Implement Role-Based Access Control (RBAC)** to restrict access to Kubernetes resources based on user roles and permissions. Also, **use strong authentication and authorization mechanisms** to prevent unauthorized access to your Kubernetes cluster.
 
 ### Secure Your API Server
 
-The API server is a critical component of your Kubernetes environment, and securing it is essential. **Use secure connections for communication with the API server**, such as TLS. Additionally, **restrict network access to the API server** and use RBAC to control access.
+The API server is a critical component of your Kubernetes environment, and securing it is essential. **Use secure connections for communication with the API server**, such as TLS. Also, **restrict network access to the API server** and use RBAC to control access.
 
 ### Use Secure Images
 
-Using secure images is crucial for securing your Kubernetes environment. **Ensure that images are scanned for vulnerabilities** before they are used in your environment. You can use tools such as Anchore, Clair, or Aqua Security to scan your images.
+Using secure images is crucial for securing your Kubernetes environment. **Ensure that images are scanned for vulnerabilities** before they're used in your environment. You can use tools such as Anchore, Clair, or Aqua Security to scan your images.
 
 ### Secure Your Network
 
-Securing your network is another important aspect of securing your Kubernetes environment. **Use network policies to control traffic between pods** and limit access to your Kubernetes API server. Additionally, use secure connections for communication between nodes.
+Securing your network is another important aspect of securing your Kubernetes environment. **Use network policies to control traffic between pods** and limit access to your Kubernetes API server. Also, use secure connections for communication between nodes.
 
 ### Monitor Your Environment
 
@@ -56,7 +56,7 @@ As with Docker, monitoring your Kubernetes environment is crucial for detecting 
 
 ______
 
-Following these best practices will help you secure your Docker and Kubernetes environment. However, keep in mind that security is an ongoing process and requires continuous attention. Stay up-to-date with security news and updates and **regularly review your security measures** to ensure that they are still effective.
+Following these best practices will help you secure your Docker and Kubernetes environment. However, keep in mind that security is an ongoing process and requires continuous attention. Stay up-to-date with security news and updates and **regularly review your security measures** to ensure that they're still effective.
 
 ## References
 

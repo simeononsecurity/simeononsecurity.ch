@@ -26,7 +26,7 @@ Domain controllers can obtain their time from different sources, including the B
 
 #### External NTP Pools
 
-External NTP pools are globally distributed and reliable sources for time synchronization. They consist of a large number of NTP servers maintained by organizations and institutions worldwide. By configuring domain controllers to synchronize with external NTP pools, you can ensure accurate timekeeping within the Windows domain.
+External NTP pools are globally distributed and reliable sources for time synchronization. They consist of many NTP servers maintained by organizations and institutions worldwide. By configuring domain controllers to synchronize with external NTP pools, you can ensure accurate timekeeping within the Windows domain.
 
 To set up domain controllers to use an external NTP pool, follow these steps:
 
@@ -60,7 +60,7 @@ ______
 
 ## Setting Time Sources on Standalone Windows Machines
 
-On standalone Windows machines that are not part of a domain, the process of setting time sources may vary depending on the Windows version and regional settings. By default, standalone Windows machines typically use **time.windows.com** as the primary time source. However, worth noting: the default behavior can be modified.
+On standalone Windows machines that aren't part of a domain, the process of setting time sources may vary depending on the Windows version and regional settings. By default, standalone Windows machines typically use **time.windows.com** as the primary time source. However, worth noting: the default behavior can be modified.
 
 ### Changing the Time Source on Standalone Machines
 

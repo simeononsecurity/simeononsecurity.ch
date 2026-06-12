@@ -270,7 +270,7 @@ ______
 
 ### The Revelation
 
-Perhaps most shocking: **Flock Safety does not require 2FA/MFA** for some law enforcement agencies.
+Perhaps most shocking: **Flock Safety doesn't require 2FA/MFA** for some law enforcement agencies.
 
 Security researcher quote:
 > "When I first found this out, I simply couldn't believe it. The security process you go through when you log into Disney Plus is just too much to ask some police departments to do when accessing confidential information and the location of, in some cases, virtually everyone."
@@ -308,7 +308,7 @@ This finding was specifically highlighted in **Senator Wyden's letter** requesti
 - **FIDO2/WebAuthn** standard compliance
 - **Simple user experience** (plug in or tap device)
 
-If this is "too much hassle" for law enforcement personnel, they **should not have access** to national surveillance systems.
+If this is "too much hassle" for law enforcement personnel, they **shouldn't have access** to national surveillance systems.
 
 ______
 
@@ -438,7 +438,7 @@ ions)
 ### Flock Safety's Claims
 
 **Official Website Statement**:
-> "Flock Safety does not capture or record data of people, only vehicles"
+> "Flock Safety doesn't capture or record data of people, only vehicles"
 
 ### Independent Research Findings
 

@@ -136,7 +136,7 @@ This will apply the changes to your infrastructure. Note that applying changes m
 
 ## Best Practices for Using Teraform
 
-To ensure that you are using Teraform effectively, consider following these best practices:
+To ensure that you're using Teraform effectively, consider following these best practices:
 
 - **Use Version Control:** Store your Teraform configuration files in version control to enable collaboration and ensure changes are tracked.
 

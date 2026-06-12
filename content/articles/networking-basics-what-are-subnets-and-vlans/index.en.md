@@ -221,7 +221,7 @@ To configure a VLAN, the following steps are generally followed:
 ### Reserved VLAN Table
 | Claimed VLAN Tags | Description |
 |-------------------|----------------------------------------------------|
-| VLAN 0 | Reserved VLAN ID and should not be used |
+| VLAN 0 | Reserved VLAN ID and shouldn't be used |
 | VLAN 1 | Default VLAN for many network devices |
 | VLAN 2 | Default VLAN for management traffic |
 | VLAN 3-4 | Reserved VLAN IDs |
@@ -230,7 +230,7 @@ To configure a VLAN, the following steps are generally followed:
 | VLAN 1002-1005 | Default VLANs used by Cisco for specific purposes |
 | VLAN 1006-1024 | Reserved VLAN IDs |
 | VLAN 1025-4094 | Reserved for extended range VLANs |
-| VLAN 4095 | Reserved VLAN ID and should not be used |
+| VLAN 4095 | Reserved VLAN ID and shouldn't be used |
 
 ## Conclusion
 

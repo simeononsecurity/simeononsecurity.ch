@@ -110,7 +110,7 @@ rhel-host ansible_host=<rhel_ip_address> ansible_user=<rhel_username> ansible_ss
 alpine-host ansible_host=<alpine_ip_address> ansible_user=<alpine_username> ansible_ssh_pass=<alpine_ssh_password>
 ```
 
-Replace `<debian_ip_address>`, `<ubuntu_ip_address>`, `<rhel_ip_address>`, and `<alpine_ip_address>` with the respective IP addresses of the target systems. Also, replace `<debian_username>`, `<ubuntu_username>`, `<rhel_username>`, and `<alpine_username>` with the appropriate SSH usernames for each system. Lastly, replace `<debian_ssh_password>`, `<ubuntu_ssh_password>`, `<rhel_ssh_password>`, and `<alpine_ssh_password>` with the corresponding SSH passwords.
+Replace `<debian_ip_address>`, `<ubuntu_ip_address>`, `<rhel_ip_address>`, and `<alpine_ip_address>` with the respective IP addresses of the target systems. Also, replace `<debian_username>`, `<ubuntu_username>`, `<rhel_username>`, and `<alpine_username>` with the appropriate SSH usernames for each system. Finally, replace `<debian_ssh_password>`, `<ubuntu_ssh_password>`, `<rhel_ssh_password>`, and `<alpine_ssh_password>` with the corresponding SSH passwords.
 
 3. Encrypt the hosts.ini file using the Ansible Vault:
    
@@ -139,7 +139,7 @@ Congratulations! You have successfully automated the patching and updating of di
 
 ## Conclusion
 
-Automating the patching and updating of Linux systems with Ansible simplifies and streamlines the process, allowing system administrators to efficiently manage updates across various Linux distributions. By following the instructions provided in this article, you have learned how to create an Ansible playbook that handles installing patches and updates on different Linux distros. Additionally, you have set up Ansible credentials and host files to target the desired systems. Embrace the power of automation and enjoy the benefits of a more secure and well-maintained Linux infrastructure.
+Automating the patching and updating of Linux systems with Ansible simplifies and simplifies the process, allowing system administrators to efficiently manage updates across various Linux distributions. By following the instructions provided in this article, you have learned how to create an Ansible playbook that handles installing patches and updates on different Linux distros. Also, you have set up Ansible credentials and host files to target the desired systems. Embrace the power of automation and enjoy the benefits of a more secure and well-maintained Linux infrastructure.
 
 ## References
 

@@ -13,7 +13,7 @@ coverCaption: "Power in the Digital Arena"
 
 **Nation-States Are Major Players in Cyber Warfare**
 
-In the rapidly changing landscape of cybersecurity, the role of nation-states cannot be underestimated. These powerful entities have become major players in cyber warfare, using their resources and expertise to launch sophisticated attacks, gather intelligence, and influence global affairs. In this article, we will dig into the world of nation-state cyber operations, examining their motivations, tactics, and the implications for individuals, organizations, and nations.
+In the rapidly changing landscape of cybersecurity, the role of nation-states can't be underestimated. These powerful entities have become major players in cyber warfare, using their resources and expertise to launch sophisticated attacks, gather intelligence, and influence global affairs. In this article, we will dig into the world of nation-state cyber operations, examining their motivations, tactics, and the implications for individuals, organizations, and nations.
 
 {{< youtube id="y-rp8SDp5so" >}}
 
@@ -31,7 +31,7 @@ Nation-states engage in cyber warfare for a multitude of reasons, including poli
 
 ### Sabotage and Critical Infrastructure Attacks
 
-Some nation-states are not content with intelligence gathering or influence campaigns and resort to **sabotage**. They may target critical infrastructure, such as power grids, financial systems, or healthcare networks, with the potential to cause widespread disruption and harm. Stuxnet, a computer worm targeting Iran's nuclear program, is a prime example of such an attack.
+Some nation-states aren't content with intelligence gathering or influence campaigns and resort to **sabotage**. They may target critical infrastructure, such as power grids, financial systems, or healthcare networks, with the potential to cause widespread disruption and harm. Stuxnet, a computer worm targeting Iran's nuclear program, is a prime example of such an attack.
 
 ## The Motivations Behind Nation-State Cyber Warfare
 

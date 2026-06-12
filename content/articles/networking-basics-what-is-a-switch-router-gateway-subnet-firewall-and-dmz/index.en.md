@@ -8,7 +8,7 @@ genre: ["Networking", "IT Infrastructure", "Network Security", "Network Architec
 tags: ["networking basics", "switches", "routers", "gateways", "subnets", "firewalls", "DMZs", "local area network", "LAN", "network connectivity", "internet access", "IP address management", "network segmentation", "network security", "subnetting", "firewall protection", "network performance", "network architecture", "data communication", "network management", "cybersecurity", "network infrastructure", "IT fundamentals", "information technology", "data traffic management", "IT security", "network design", "IT compliance", "network protocols", "network troubleshooting", "network administration"]
 cover: "/img/cover/A_symbolic_illustration_showing_interconnected.png"
 coverAlt: "A symbolic illustration showing interconnected devices with switches, routers, gateways, and firewalls."  
-coverCaption: "Empowering secure and reliable networks with networking essentials."
+coverCaption: "helping secure and reliable networks with networking essentials."
 ---
 
 ## Introduction
@@ -55,7 +55,7 @@ A **gateway** is a device or software component that connects networks with diff
 Key features and benefits of gateways include:
 
 - **Protocol translation**: Gateways can convert data packets from one protocol to another, allowing networks with different communication protocols to exchange information.
-- **Network integration**: Gateways enable the seamless integration of networks with different architectures, facilitating communication between them.
+- **Network integration**: Gateways enable the smooth integration of networks with different architectures, facilitating communication between them.
 - **Security enforcement**: Gateways often implement security measures, such as packet filtering or encryption, to ensure secure data transmission between networks.
 
 ______

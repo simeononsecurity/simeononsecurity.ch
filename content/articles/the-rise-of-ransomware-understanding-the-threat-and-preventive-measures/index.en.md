@@ -24,7 +24,7 @@ Cryptocurrencies allowed hackers to receive ransom payments anonymously, making 
 
 Ransomware typically enters a computer system via phishing emails, malicious downloads, or exploiting vulnerabilities in outdated software. Once the ransomware infects a computer, it encrypts the data, making it inaccessible to the user. The ransomware then displays a message demanding a ransom payment in exchange for the decryption key.
 
-Hackers often threaten to delete or leak the data if the ransom is not paid. In some cases, even if the ransom is paid, the hackers do not provide the decryption key, or the key fails to decrypt the data.
+Hackers often threaten to delete or leak the data if the ransom isn't paid. In some cases, even if the ransom is paid, the hackers don't provide the decryption key, or the key fails to decrypt the data.
 
 ## Impact of Ransomware
 

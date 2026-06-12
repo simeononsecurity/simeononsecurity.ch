@@ -20,7 +20,7 @@ The [**CompTIA Security+ certification**](https://www.comptia.org/certifications
 
 ## (ISC)² Certified Information Systems Security Professional (CISSP)
 
-The [**CISSP certification**](https://www.isc2.org/Certifications/CISSP#) is a vendor-neutral certification that covers a wide range of cybersecurity topics, including security and risk management, asset security, and software development security. This certification is recommended for individuals who have at least five years of experience in cybersecurity and are looking to advance their careers into more senior roles. It demonstrates a strong knowledge of cybersecurity principles and practices and is highly regarded by employers in the industry.
+The [**CISSP certification**](https://www.isc2.org/Certifications/CISSP#) is a vendor-neutral certification that covers many cybersecurity topics, including security and risk management, asset security, and software development security. This certification is recommended for individuals who have at least five years of experience in cybersecurity and are looking to advance their careers into more senior roles. It demonstrates a strong knowledge of cybersecurity principles and practices and is highly regarded by employers in the industry.
 
 ## Offensive Security Certified Professional (OSCP)
 

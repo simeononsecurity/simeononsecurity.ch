@@ -500,7 +500,7 @@ CompTIA's signature challenge: two technically correct options, but one is "more
 5. **Ask "In a Real Scenario..."**: Which would you actually do on the job?
 
 **Example**:
-*Question: A user cannot access the internet. What should you do FIRST?*
+*Question: A user can't access the internet. What should you do FIRST?*
 
 - A) Replace the network cable (technically could work)
 - B) Check if other users have the same issue (better first step)

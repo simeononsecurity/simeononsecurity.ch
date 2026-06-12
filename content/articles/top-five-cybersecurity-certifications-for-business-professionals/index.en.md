@@ -841,7 +841,7 @@ The US privacy landscape has transformed significantly:
 - **18 states** with comprehensive consumer privacy laws (up from 5 in 2023)
 - **Federal privacy legislation** under serious consideration
 - **Sector-specific laws** (HIPAA, GLBA, FCRA, COPPA, etc.)
-- **State-level variations** requiring nuanced understanding
+- **State-level variations** requiring detailed understanding
 - **Increased enforcement** with significant penalties
 
 **Market Demand**
@@ -1379,7 +1379,7 @@ ______
 
 Non-technical cybersecurity certifications represent one of the best investments you can make in your career in 2026. With **global cybersecurity spending exceeding $215 billion**, **3.5 million unfilled positions**, and **increasing regulatory requirements**, certified professionals are in exceptional demand.
 
-### Key Takeaways
+### main points
 
 1. **All Five Certifications Offer Excellent ROI**: Each certification pays for itself in under 2 months and delivers six-figure returns over five years
 
@@ -1413,7 +1413,7 @@ Non-technical cybersecurity certifications represent one of the best investments
 
 7. **Plan Your Certification Path**: Map out a multi-year certification strategy
 
-For those ready to begin their certification journey, remember that cybersecurity is not just about technology - it's about protecting organizations, people, and data. These non-technical certifications equip you with the knowledge, frameworks, and credibility to make a real difference in your organization's security posture.
+For those ready to begin their certification journey, remember that cybersecurity isn't just about technology - it's about protecting organizations, people, and data. These non-technical certifications equip you with the knowledge, frameworks, and credibility to make a real difference in your organization's security posture.
 
 Whether you choose **CISSP** for broad security management, **CISM** for strategic security leadership, **CIPP/E** for EU privacy expertise, **CIPM** for privacy program management, or **CIPP/US** for US privacy compliance, you're investing in a career that is both financially rewarding and professionally fulfilling.
 

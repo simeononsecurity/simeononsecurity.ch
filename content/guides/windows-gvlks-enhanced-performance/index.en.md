@@ -32,7 +32,7 @@ Before proceeding, ensure that you have a valid and legal product key for your W
 
 ### Installation Steps
 
-1. **Open an Administrative Command Prompt:** Right-click on the "Start" button and select "Windows Terminal (Admin)" or "Command Prompt (Admin)." If you are using Windows 11 or Windows 10, you can search for "Command Prompt," right-click on it, and choose "Run as administrator."
+1. **Open an Administrative Command Prompt:** Right-click on the "Start" button and select "Windows Terminal (Admin)" or "Command Prompt (Admin)." If you're using Windows 11 or Windows 10, you can search for "Command Prompt," right-click on it, and choose "Run as administrator."
 
 2. **Locate the Appropriate Product Key (GVLK):** Find the GVLK for your Windows or Windows Server version and edition from the following list:
 
@@ -77,7 +77,7 @@ slmgr /dlv
 
 ## Important Notes
 
-- Always ensure you are using a valid and legal product key for your Windows version and edition.
+- Always ensure you're using a valid and legal product key for your Windows version and edition.
 - The "slmgr" command deals with licensing and activation, so use it with caution.
 - For Windows 11 and Windows 10, refer to the original tables for the complete list of GVLKs for different editions.
 

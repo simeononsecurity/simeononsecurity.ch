@@ -72,7 +72,7 @@ Some common challenges organizations face when implementing security awareness t
 2. Resistance to change
 3. Ensuring employee engagement
 
-To overcome these challenges, organizations can consider strategies such as using cost-effective training platforms, fostering a positive security culture, and employing gamification techniques to boost engagement.
+To overcome these challenges, organizations can consider strategies such as using cost-effective training platforms, building a positive security culture, and employing gamification techniques to boost engagement.
 
 ______
 

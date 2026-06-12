@@ -46,7 +46,7 @@ If you're a fan of streaming movies, TV shows, and music, building a home media 
 
 - [**Plex**](https://www.plex.tv/): Plex is a leading media server software that organizes your media library and provides a user-friendly interface for streaming content. It supports various devices and platforms, including smart TVs, streaming boxes, and mobile devices.
   - {{< youtube id="XKDSld-CrHU" >}}
-- [**Kodi**](https://kodi.tv/): Kodi is a powerful open-source media center that enables you to manage and play your media files. It supports a wide range of plugins and add-ons, allowing you to customize your media streaming experience.
+- [**Kodi**](https://kodi.tv/): Kodi is a powerful open-source media center that enables you to manage and play your media files. It supports many plugins and add-ons, allowing you to customize your media streaming experience.
   - {{< youtube id="u0djVvkC8So" >}}
 - [**Emby**](https://emby.media/): Emby is a versatile media server platform that offers features similar to Plex and Kodi. It allows you to stream media files to different devices and provides robust media management capabilities.
   - {{< youtube id="Wl-ghkPwdMI" >}}
@@ -60,7 +60,7 @@ Home automation systems have become increasingly popular, offering convenience, 
 
 - [**Raspberry Pi**](https://www.raspberrypi.org/): Raspberry Pi is an affordable single-board computer that can serve as the brain of your home automation system. It can run various software platforms and connect to different sensors and actuators.
 
-- [**Home Assistant**](https://www.home-assistant.io/): Home Assistant is an open-source home automation platform that allows you to integrate and control smart devices from different manufacturers. It supports a wide range of protocols and offers a user-friendly interface for managing your home automation setup.
+- [**Home Assistant**](https://www.home-assistant.io/): Home Assistant is an open-source home automation platform that allows you to integrate and control smart devices from different manufacturers. It supports many protocols and offers a user-friendly interface for managing your home automation setup.
 
 - **Z-Wave or Zigbee**: Z-Wave and Zigbee are wireless communication protocols commonly used in home automation systems. They enable devices to communicate with each other and the central controller, allowing you to create complex automation scenarios. Learn more about Z-Wave [here](https://www.z-wave.com/) and Zigbee [here](https://zigbeealliance.org/).
 

@@ -18,7 +18,7 @@ In this article, we will introduce you to Packer and show you how to use it to c
 
 ## What is Packer?
 
-Packer is a tool that automates the process of creating machine images for different platforms. It is an open-source tool that was created by HashiCorp, the company behind other popular tools like Vagrant, Consul, and Terraform.
+Packer is a tool that automates the process of creating machine images for different platforms. It's an open-source tool that was created by HashiCorp, the company behind other popular tools like Vagrant, Consul, and Terraform.
 
 Using Packer, developers can create machine images or virtual machine templates for different platforms such as AWS, Google Cloud Platform, Azure, and VMware. These machine images can then be used to deploy identical environments across multiple platforms.
 
@@ -153,7 +153,7 @@ This Packer template creates a Google Cloud Platform image and uses a shell prov
 
 In this example, the template specifies that Packer should create a VMware machine image using an Ubuntu server ISO. The resulting machine image will have 4GB of RAM, 2 CPUs, and 40GB of disk space. It will also install the nginx web server during provisioning.
 
-These are just a few examples of what you can do with Packer. With Packer, you can create machine images for a wide range of platforms and use a variety of provisioners to configure them.
+These are just a few examples of what you can do with Packer. With Packer, you can create machine images for many platforms and use a variety of provisioners to configure them.
 
 ## Best Practices for Using Packer
 
@@ -161,7 +161,7 @@ Here are some best practices for using Packer:
 
 - **Use version control**: Store your Packer templates in version control to track changes and enable collaboration.
 - **Parameterize your template**s: Use variables in your Packer templates to make them more reusable and easier to maintain.
-- **Test your templates**: Test your Packer templates to ensure that they are creating the expected machine images.
+- **Test your templates**: Test your Packer templates to ensure that they're creating the expected machine images.
 - **Follow security best practices**: When creating machine images, follow security best practices to ensure that the resulting environments are secure.
 - **Keep your templates simple**: Avoid creating complex Packer templates that are difficult to maintain and debug.
 - **Use packer init command**: Use `packer init` command to initialize a new template with the required configuration.
@@ -172,5 +172,5 @@ Packer is a powerful tool for creating machine images for different platforms. I
 
 In this article, we introduced you to Packer and showed you how to use it to create machine images for different platforms. We also discussed the benefits of using Packer and some best practices for using it.
 
-If you are interested in learning more about Packer, check out the official documentation at [https://www.packer.io/docs](https://www.packer.io/docs).
+If you're interested in learning more about Packer, check out the official documentation at [https://www.packer.io/docs](https://www.packer.io/docs).
 

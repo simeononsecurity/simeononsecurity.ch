@@ -29,7 +29,7 @@ Passwords are the first line of defense in the digital world. This joke underlin
 
 **2. "Why did the IT department stay late? Because they wanted to 'debug' their social lives!"**
 
-IT departments often work long hours, troubleshooting and resolving issues. This joke sheds light on the dedicated efforts of IT professionals.
+IT departments often work long hours, troubleshooting and resolving issues. This joke explains the dedicated efforts of IT professionals.
 
 ### Cyber Threats in Disguise
 
@@ -47,7 +47,7 @@ ______
 
 ## Laughing with a Lesson
 
-While these jokes provide some chuckles, they also carry important lessons for those involved in cybersecurity. Here are a few key takeaways:
+While these jokes provide some chuckles, they also carry important lessons for those involved in cybersecurity. Here are a few main points:
 
 1. **Strong Passwords**: Use unique and robust passwords to keep your systems secure.
 
