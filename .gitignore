@@ -48,4 +48,3 @@ tools/optimize-images.py
 tools/pngcrush.exe
 *.img
 tools/fix_content.py
-tools/generate_cover_images.py
