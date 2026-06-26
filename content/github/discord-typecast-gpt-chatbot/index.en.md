@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Enhance your Discord server with a friendly and knowledgeable chatbot that provides helpful responses, assists with server-related questions, and creates engaging interactions."
 tags: ["Discord chatbot", "support agent", "server assistance", "user queries", "relevant resources", "positive environment", "opinions", "preferences", "recommendations", "engaging interactions", "friendly bot", "knowledgeable bot", "Discord-based bot", "virtual assistant", "automated support", "conversation bot", "informational responses", "resourceful bot", "interactive chatbot", "server management", "user support", "AI-powered bot", "discord.io", "chatbot in action", "docker", "python", "bot deployment", "virtual environment", "bot architecture", "bot controllers", "bot services"]
+cover: "/img/cover/discord-typecast-gpt-chatbot.webp"
+coverAlt: "An illustration of a glowing, semi-transparent chatbot figure interacting with colorful holographic chat bubbles in a dark background, symbolizing communication and support."
+coverCaption: ""
 ---
 
 **discord-typecast-gpt-chatbot**

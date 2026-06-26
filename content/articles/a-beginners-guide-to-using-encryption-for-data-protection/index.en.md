@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn the basics of encryption and how to use it to secure your sensitive data with this beginner's guide to encryption."
 tags: ["encryption", "data protection", "cybersecurity", "privacy", "technology", "online security", "symmetric encryption", "asymmetric encryption", "security", "internet privacy", "cryptography", "encrypted messaging", "digital security", "data privacy", "encrypted data", "encryption software", "data encryption", "computer security", "network security", "password protection"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
-coverAlt: "A cartoon padlock with a keyhole, representing data protection through encryption."
+cover: "/img/cover/a-beginners-guide-to-using-encryption-for-data-protection.webp"
+coverAlt: "An illustration featuring a digital lock made of binary code, surrounded by glowing folders and streams of code, all against a dark navy background with vibrant blue and green accents."
 coverCaption: ""
 ---
 **A Beginner's Guide to Encryption for Data Protection**

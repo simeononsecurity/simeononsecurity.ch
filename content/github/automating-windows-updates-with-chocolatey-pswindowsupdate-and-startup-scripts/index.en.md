@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to automate Windows updates with a single reboot and save valuable time for system administrators using Chocolatey, PSWindowsUpdate, and Startup Scripts."
 tags: ["Automation", "Windows Updates", "Windows 10", "Powershell", "Script", "Chocolatey", "PSWindowsUpdate", "Startup Scripts", "System Administrators", "Windows Update Processes", "Local Group Policy Editor", "GP", "GPO", "Group Policy Objects", "Package Manager", "Consistency", "Centralized Management", "Security", "Software Management", "Microsoft Updates"]
+cover: "/img/cover/automating-windows-updates-with-chocolatey-pswindowsupdate-and-startup-scripts.webp"
+coverAlt: "An illustration of a computer setup with multiple screens showing code and update progress, featuring icons for Chocolatey, PSWindowsUpdate, and a script file, all set against a dark background."
+coverCaption: ""
 ---
 **Automating Windows Updates with Chocolatey, PSWindowsUpdate, and Startup Scripts**
 

@@ -6,8 +6,8 @@ draft: false
 description: "Effortlessly set up a budget DIY GPS/GNSS base station and NTRIP Server / NTRIP Client using ESP32 and the Unicorecomm UM980 for accurate positioning."
 genre: ["DIY Electronics", "GNSS Technology", "ESP32 Projects", "IoT Applications", "Budget Hardware", "DIY Tutorials", "Wireless Connectivity", "GPS Solutions", "GNSS Receivers", "Embedded Systems"]
 tags: ["DIY GPS base station", "ESP32 tutorial", "UM980 GNSS receiver", "GNSS setup guide", "budget hardware", "IoT applications", "GNSS technology", "embedded systems", "wireless connectivity", "ESP32 development board", "GNSS accuracy", "DIY electronics", "GNSS modules", "GPS solutions", "ESP32 firmware", "budget GNSS setup", "GNSS base station", "GPS project", "GNSS reference station", "ESP32 GNSS integration", "GNSS antenna", "DIY hardware", "GNSS calibration", "GNSS accuracy improvement", "GNSS troubleshooting", "ESP32 configuration", "GNSS data logging", "GNSS monitoring", "ESP32 community support"]
-cover: "/img/cover/Budget_DIY_GPS_GNSS_Base_Station_Setup.png"
-coverAlt: "An illustration of an ESP32 board connected to various accessories."
+cover: "/img/cover/budget-diy-gps-gnss-base-station-setup-esp32-um980.webp"
+coverAlt: "An illustration of a DIY GPS/GNSS base station setup, featuring an ESP32 board and UM980 receiver, surrounded by colorful cables and an enclosure kit on a dark background."
 coverCaption: "ESP32 for all the things!"
 canonical: ""
 ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/onocoy-supported-rtcm-messages"]

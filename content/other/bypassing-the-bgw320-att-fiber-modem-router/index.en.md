@@ -5,8 +5,8 @@ toc: true
 date: 2023-04-30
 description: "Learn how to bypass the BGW-320 and use a COTS ONT made by Azores to connect to your ISP's network with this easy-to-follow guide."
 tags: ["COTS ONT", "BGW-320", "Azores", "fiber", "network", "XGS-PON", "Ethernet", "IP passthrough", "customization", "ISP", "ont ID", "MAC address", "equipment ID", "image version", "hardware version", "telnet", "CLI application", "web GUI", "factory configuration mode", "compatibility issues"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
-coverAlt: "A cartoon technician holding a COTS ONT with a fiber cable in the background."
+cover: "/img/cover/bypassing-the-bgw320-att-fiber-modem-router.webp"
+coverAlt: "An illustration of an Azores WAG-D20 ONT device featuring highlighted ports and fiber optic cables, set against a dark background with vibrant colors, emphasizing a modern tech aesthetic."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/"
 ---

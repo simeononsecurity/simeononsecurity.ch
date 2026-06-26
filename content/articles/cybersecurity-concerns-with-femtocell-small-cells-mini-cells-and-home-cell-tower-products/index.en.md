@@ -5,8 +5,8 @@ toc: true
 date: 2023-05-08
 description: "Learn how attackers can exploit femtocells to intercept phone calls and texts and what you can do to protect yourself against such attacks."
 tags: ["femtocell attacks", "mobile security", "cybersecurity", "cellular networks", "VPN", "phone cloning", "data privacy", "internet security", "mobile devices", "cellular providers", "network security", "wireless security", "mobile phone security", "vulnerabilities", "cyber attacks", "security patches", "data encryption", "cybercrime", "security tips", "secure messaging"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
-coverAlt: " A shield with a lock symbol protecting a mobile phone from a hacker's hand trying to access it."
+cover: "/img/cover/cybersecurity-concerns-with-femtocell-small-cells-mini-cells-and-home-cell-tower-products.webp"
+coverAlt: "An illustration of a femtocell device with colorful lines representing mobile communications, surrounded by abstract waves symbolizing intercepted data, all set against a dark background."
 coverCaption: ""
 ---
 

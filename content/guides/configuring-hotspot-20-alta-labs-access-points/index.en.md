@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to configure Hotspot 2.0 on Alta Labs Access Points for smooth and secure Wi-Fi connectivity. Don't miss out!"
 genre: ["Wireless Networking", "Network Security", "IT Administration", "Wi-Fi Technology", "Tech Tutorials", "Network Configuration", "Enterprise IT Solutions", "Cybersecurity", "Wi-Fi Optimization", "Network Management"]
 tags: ["Hotspot 2.0", "Alta Labs Access Points", "Wi-Fi Configuration", "Network Security", "Enterprise Wi-Fi", "Passpoint", "Wi-Fi Management", "IT Administration", "Wireless Networking", "Cybersecurity", "smooth Wi-Fi", "Secure Wi-Fi", "TLS Configuration", "Radius Server", "Wi-Fi Alliance", "Enhanced Security", "Automatic Connectivity", "User Experience", "Wi-Fi Optimization", "Network Setup", "how to configure hotspot 2.0", "setting up hotspot 2.0 on alta labs", "secure wireless networks", "enterprise Wi-Fi setup", "configuring radius server for Wi-Fi", "optimizing Wi-Fi networks", "hotspot 2.0 benefits", "step-by-step Wi-Fi configuration", "advanced Wi-Fi settings", "hotspot 2.0 smooth connectivity"]
-cover: "/img/cover/configuring_hotspot_20_alta_labs_access_points.webp"
-coverAlt: "An animated cartoon-style image of a network engineer configuring a wireless access point with multiple devices smoothly connecting to the network. The background shows various Alta Labs Access Points in a modern office environment, emphasizing security and smooth connectivity."
+cover: "/img/cover/configuring-hotspot-20-alta-labs-access-points.webp"
+coverAlt: "An illustration of an access point with glowing network signals, TLS certificate elements, and a conceptual user interface, set against a dark navy background with bright blue and green accents."
 coverCaption: "smooth and secure Hotspot 2.0 configuration"
 ref: ["/guides/unlock-smooth-connectivity-hotspot-2.0-openwrt"]
 ---

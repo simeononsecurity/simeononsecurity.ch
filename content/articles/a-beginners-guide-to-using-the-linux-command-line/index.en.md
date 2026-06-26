@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn how to use Linux command line for cybersecurity with basic and advanced commands."
 tags: ["Linux", "Command Line", "Cybersecurity", "Beginner's Guide", "Network Scanning", "Vulnerability Testing", "Malware Analysis", "Permissions", "Network Traffic", "Process Status", "Network Statistics", "File Search", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Security", "Penetration Testing", "Digital Forensics"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
-coverAlt: "A cartoon illustration of a person wearing a hoodie, sitting in front of a computer screen with the Linux command line interface visible, and holding a magnifying glass to represent the cybersecurity aspect."
+cover: "/img/cover/a-beginners-guide-to-using-the-linux-command-line.webp"
+coverAlt: "An illustration of a computer screen showing a Linux command line interface with green text commands on a dark background. Surrounding elements represent cybersecurity, like digital locks and network lines."
 coverCaption: ""
 ---
 

@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Discover a collection of STIG scripts to automate security compliance for Windows and popular applications, including .NET, Adobe Reader DC, and Oracle JRE 8."
 tags: ["STIG scripts", "security compliance", "automation", "Windows", "applications", ".NET", "Adobe Reader DC", "Oracle JRE 8", "FireFox", "Ansible playbooks", "domain prep", "Windows Defender", "cybersecurity", "scripting", "STIG compliance", "configuration management", "IT security", "patch management", "system administration"]
+cover: "/img/cover/awesome-stigs.webp"
+coverAlt: "A futuristic control room with screens showing code and STIG scripts, robotic arms interacting with servers, set against a dark navy background."
+coverCaption: ""
 ---
 
 

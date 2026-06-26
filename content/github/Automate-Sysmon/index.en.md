@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to deploy and configure Sysmon to improve your system's security with the Automate-Sysmon script, which simplifies the process for even novice users."
 tags: ["Automate Sysmon", "How To Automate Sysmon", "How To Automate Sysmon Configuration", "How To Install Sysmon", "Powershell", "Script", "Sysmon Deployment", "Sysmon Configuration", "Sysmon Logging", "Threat Detection", "Malicious Activity", "SwiftOnSecurity sysmon-config", "Microsoft Sysinternals", "GitHub Repository", "BHIS", "System Monitoring", "Security Research", "Process Creation", "Network Connections"]
+cover: "/img/cover/Automate-Sysmon.webp"
+coverAlt: "A modern computer setup with a laptop displaying colorful graphs and data visualizations related to system monitoring, set against a dark background. Abstract elements represent network connections and processes."
+coverCaption: ""
 ---
 
 Automate-Sysmon is a useful script that simplifies the deployment and configuration of Sysmon, a powerful system monitoring tool from Microsoft Sysinternals. By automating the installation and setup of Sysmon, this script increases your system's logging abilities and enhances threat detection capabilities.

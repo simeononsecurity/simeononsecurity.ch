@@ -7,6 +7,9 @@ description: "A detailed breakdown into the ESP32 WiFi Canary project - a compac
 genre: ["Network Security", "WiFi Security", "IoT Security", "Security Research", "Embedded Systems", "Privacy Tools", "ESP32 Projects", "Hardware Security", "Wireless Security", "Open Source Security"]
 tags: ["ESP32", "WiFi Canary", "M5Stack Atom Lite", "Deauth Detection", "Evil Twin Detection", "WiFi Security", "Passive WiFi Monitoring", "802.11 Management Frames", "Network Security", "IoT Security", "NeoPixel", "SK6812", "PlatformIO", "C++", "Open Source", "Security Sensor", "Wireless Threat Detection", "BSSID Monitoring", "SSID Monitoring", "Security Downgrade Detection", "Beacon Flood Detection", "WiFi Monitoring", "RGB LED", "Promiscuous Mode", "Embedded Security", "Travel Security", "Hotel WiFi Security", "Coffee Shop WiFi", "Security Awareness", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/"
+cover: "/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp"
+coverAlt: "An illustration of a small device resembling the ESP32 WiFi Canary, plugged into a USB port, with an RGB LED glowing in various colors against a dark background, symbolizing its threat detection capabilities."
+coverCaption: ""
 ---
 
 **A Thumb-Sized Passive WiFi Threat Sensor That Never Talks Back**

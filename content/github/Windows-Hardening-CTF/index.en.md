@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Discover a powerful script that enhances Windows security by implementing various hardening measures to deter compromise."
 tags: ["Windows hardening", "Windows security", "script", "Windows device", "command prompt", "LLMNR", "PowerShell", "SMB", "TCP timestamps", "AppLocker", "Windows logging", "DEP", "EMET configurations", "PowerShell constrained language mode", "SMB encryption", "Spectre and Meltdown mitigations", "Windows Defender", "Windows Firewall", "PSWindowsUpdate", "Windows updates", "hardening script", "NSA Recommended Policies", "Windows Logging and Security Controls", "Windows Defender Application Control", "Windows Defender Attack Surface Reduction Procections", "Windows Defender Cloud-based Protections", "Windows Defender Exploit Protections", "PSWindowsUpdate installation", "Windows device security enhancement", "Windows hardening measures", "strengthen Windows security"]
+cover: "/img/cover/Windows-Hardening-CTF.webp"
+coverAlt: "An illustration of a secure Windows environment, featuring a computer screen with abstract representations of security features like firewalls and encryption, all on a dark background."
+coverCaption: ""
 ---
 
 **Windows-Hardening-CTF**

@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn about security and compliance best practices when planning, building and managing cloud-based data lakes in this comprehensive guide."
 tags: ["data lake", "cloud security", "compliance regulations", "access controls", "encryption", "AWS", "Azure", "HIPAA", "GDPR", "monitoring", "patching", "cybersecurity", "SIEM solution", "IT support teams", "threat landscape", "cloud migration", "cloud governance"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
-coverAlt: "A cartoon image of a castle being guarded by a warrior knight, symbolizing the concept of strong protection for secure and compliant cloud-based storage"
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake.webp"
+coverAlt: "A digital illustration of a cloud-based data lake with flowing data streams in vivid blues and greens, surrounded by abstract security elements, set against a dark background."
 coverCaption: ""
 ---
 

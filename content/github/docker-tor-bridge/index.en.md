@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to create and run a Docker Tor Bridge image to improve your online privacy and anonymity."
 tags: ["Docker Tor Bridge", "privacy", "anonymity", "docker image", "torrc.default", "docker build", "docker container", "current IP", "tor socks proxy", "online security", "enhanced privacy", "networking", "dockerization", "containerization", "Docker tutorial", "IP address", "network privacy", "proxy server", "network anonymity", "Docker networking", "Tor network", "cybersecurity", "internet privacy", "anonymous browsing", "Dockerfile", "web security", "network protection", "cyber defense", "Docker deployment", "data privacy"]
+cover: "/img/cover/docker-tor-bridge.webp"
+coverAlt: "A digital illustration showing a stylized Docker container surrounded by abstract representations of privacy, with swirling mist and shadowy figures on a deep navy background with vibrant teal and purple accents."
+coverCaption: ""
 ---
 
 [![Docker Image CI](https://github.com/simeononsecurity/docker-tor-bridge/actions/workflows/docker-image.yml/badge.svg)](https://github.com/simeononsecurity/docker-tor-bridge/actions/workflows/docker-image.yml)[![VirusTotal Scan](https://github.com/simeononsecurity/docker-tor-bridge/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/docker-tor-bridge/actions/workflows/virustotal.yml)

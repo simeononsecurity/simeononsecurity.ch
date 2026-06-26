@@ -6,8 +6,8 @@ draft: false
 description: "Discover the ultimate cloud security checklist to protect your data and achieve peace of mind. Learn the essential steps to secure your cloud storage and services, manage user access, monitor activity, ensure compliance, and more."
 genre: ["Cloud Security", "Data Protection", "Cybersecurity", "Cloud Services", "User Access Management", "Compliance", "Incident Response", "Vendor Risk Management", "Data Privacy", "Disaster Recovery"]
 tags: ["cloud security","data protection","cybersecurity","cloud services","user access management","compliance","incident response","vendor risk management","data privacy","disaster recovery","secure cloud storage","encryption","access controls","multi-factor authentication","logging and monitoring","least privilege principle","data classification","data loss prevention","GDPR","CCPA","backup strategy","incident response plan","network security","vulnerability management","configuration management","cloud storage encryption","cloud access controls","user access permissions","cloud monitoring","data backup and restoration","cloud incident response"]
-cover: "/img/cover/A_shield_protecting_a_cloud_server_from_cyber.png"
-coverAlt: "A shield protecting a cloud server from cyber threats."
+cover: "/img/cover/cloud-security-checklist.webp"
+coverAlt: "A digital illustration of a cloud server surrounded by layers of visual security elements, with data streams and glowing accents on a dark navy background."
 coverCaption: "Secure your cloud, shield your data, achieve peace of mind."
 ---
 ## Cloud Security Checklist

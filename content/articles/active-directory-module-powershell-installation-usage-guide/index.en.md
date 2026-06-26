@@ -6,8 +6,8 @@ draft: false
 description: "Discover how to effectively install and use the Active Directory module for PowerShell to simplify your Windows Active Directory administration tasks."
 genre: ["Technology", "Windows", "PowerShell", "Active Directory", "Administration", "Scripting", "IT", "Automation", "Windows Server", "Microsoft"]
 tags: ["active directory module for PowerShell", "import module active directory in PowerShell", "active directory module for Windows PowerShell", "active directory PowerShell install", "install active directory PowerShell", "PowerShell install active directory module Windows 10", "install active directory PowerShell module Windows 10", "get active directory PowerShell module", "AD administration", "Windows Active Directory", "PowerShell cmdlets", "retrieve AD information", "create AD objects", "modify AD objects", "manage AD security", "AD user management", "AD group management", "AD OU management", "PowerShell scripting", "Windows Server administration", "Microsoft PowerShell", "automate AD tasks", "PowerShell module installation", "AD administration guide", "Active Directory management", "AD security management", "PowerShell automation", "Active Directory PowerShell commands", "PowerShell cmdlet reference"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
-coverAlt: "An image depicting a network of interconnected servers and user icons, symbolizing Active Directory management and automation."
+cover: "/img/cover/active-directory-module-powershell-installation-usage-guide.webp"
+coverAlt: "An illustration of a computer screen showing a PowerShell console with colorful cmdlets, surrounded by abstract representations of user accounts and groups, set against a dark background."
 coverCaption: "Unlock the Power of Active Directory Administration with PowerShell."
 ---
 

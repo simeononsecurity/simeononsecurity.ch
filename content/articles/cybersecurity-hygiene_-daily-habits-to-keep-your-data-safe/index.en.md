@@ -6,7 +6,9 @@ draft: false
 description: "Enhance your digital armor! Learn essential daily habits for top-notch cybersecurity, safeguarding your data from evolving cyber threats. Discover the keys to online safety now!"
 genre: ["Cybersecurity Practices", "Digital Safety", "Online Security", "Cyber Threat Prevention", "Data Protection", "Internet Privacy", "Security Measures", "Tech Safety", "Information Security", "Cyber Hygiene"]
 tags: ["Cybersecurity Hygiene", "Digital Safety Habits", "Online Security Tips", "Cyber Threat Prevention", "Data Protection Strategies", "Internet Privacy Measures", "Security Best Practices", "Tech Safety Guidelines", "Information Security Tactics", "Cyber Hygiene Daily Routine", "Strong Passwords", "Two-Factor Authentication", "Software Updates", "Email Security", "Phishing Prevention", "Home Network Security", "Cyber Threat Awareness", "Malware Protection", "Ransomware Defense", "Social Engineering Prevention", "DDoS Prevention", "Financial Loss Prevention", "Identity Theft Protection", "Reputation Management", "Legal Consequences", "Continuous Cyber Education", "Children Cybersecurity", "Workplace Cybersecurity", "Mobile Device Security", "VPN Usage", "Social Media Privacy", "Oversharing Risks"]
-cover: "/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.jpeg"
+cover: "/img/cover/cybersecurity-hygiene_-daily-habits-to-keep-your-data-safe.webp"
+coverAlt: "A modern workspace with a computer displaying cybersecurity tools, a smartphone showing two-factor authentication, and abstract representations of digital threats like malware and phishing, all set against a dark background."
+coverCaption: ""
 ---
 
 Cybersecurity Hygiene: Daily Habits to Keep Your Data Safe

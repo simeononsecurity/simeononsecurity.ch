@@ -7,6 +7,9 @@ description: "A complete technical reference for Eye Spy v1.1 - an open-source p
 genre: ["Privacy Tools", "Counter-Surveillance", "IoT Security", "Embedded Systems", "Security Research", "WiFi Security", "Bluetooth Security", "ESP32 Projects", "Hardware Security", "Open Source Security"]
 tags: ["Eye Spy", "ESP32", "M5Stack Atom Lite", "Surveillance Detection", "Counter-Surveillance", "BLE Detection", "WiFi Scanning", "AirTag Detection", "ALPR Detection", "Flock Safety", "Body Camera Detection", "Drone Detection", "OpenDroneID", "NimBLE", "NeoPixel", "SK6812", "PlatformIO", "C++", "Open Source", "Privacy", "Passive BLE", "Promiscuous Mode", "OUI Detection", "Tracker Detection", "Axon Body Camera", "Ray-Ban Meta", "Samsung SmartTag", "Tile Tracker", "Hidden Camera", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/"
+cover: "/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp"
+coverAlt: "An illustration of a small M5Stack Atom Lite device with colorful waves of signals around it, all set against a deep navy background, representing Bluetooth and WiFi surveillance detection."
+coverCaption: ""
 ---
 
 **A Thumb-Sized Passive Sensor That Tells You When Something Is Watching**

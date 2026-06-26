@@ -6,8 +6,8 @@ date: 2023-05-25
 lastmod: 2026-05-24
 description: "Complete 2026 guide to Linux file hashing using sha256sum, md5sum, sha1sum commands. Learn file integrity verification, hash comparison, automation, and best practices for security."
 tags: ["Linux file hashes", "SHA256 hash", "MD5 hash", "SHA1 hash", "Linux command line", "file integrity", "data validation", "Linux security", "built-in tools", "file verification", "data authenticity", "file hashing algorithms", "Linux system administration", "command line tools", "file checksums", "Linux utilities", "file integrity checks", "data integrity verification", "file hash examples", "Linux hash commands", "file hashing methods", "Linux security measures", "Linux data protection", "Linux file management", "Linux file verification", "Linux file integrity", "data security", "Linux data validation", "Linux system security", "file hashing techniques", "file integrity assurance", "secure file validation", "Linux data integrity", "sha256sum", "md5sum", "sha1sum", "linux hash file", "get hash of file linux", "linux get hash of file", "linux hash a file"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
-coverAlt: "A digital representation of file hashes being calculated on a Linux terminal screen, symbolizing data integrity and security."
+cover: "/img/cover/how-to-get-hashes-of-files-on-linux.webp"
+coverAlt: "An illustration of a futuristic Linux terminal displaying hash command outputs, surrounded by abstract files and digital symbols on a dark background, with vibrant blue, green, and purple accents."
 coverCaption: ""
 ---
 

@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Optimize, harden, and secure your Windows 10 deployment with automated configuration changes using this script from various security organizations."
 tags: ["Windows 10 Security", "Automated Configuration Changes", "PrivacyTools.io", "Microsoft", "Cyber.mil", "Department of Defense", "National Security Agency", "Telemetry Blocking", "Macro Blocking", "Bloatware Removal", "Physical Attack Prevention", "Personal Use Environments", "Enterprise Environments", "Bitlocker Suspension", "Hardware Requirements", "System Guard Secure Launch", "Windows Defender Application Guard", "Windows Defender Credential Guard", "STIGS/SRGs", "Security Compliance"]
+cover: "/img/cover/optimizing-and-hardening-windows10-deployments.webp"
+coverAlt: "An illustration of a Windows 10 interface showing system settings with toggle switches for privacy and security features, set against a dark background with vibrant accent colors."
+coverCaption: ""
 ---
 **Optimize, Harden, and Debloat Windows 10 Deployments**
 

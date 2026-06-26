@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Discover how the CyberScenarioBot can elevate your cybersecurity training and awareness program on Discord, offering quizzes, scenarios, leaderboard tracking, and powerful tool commands."
 tags: ["Discord bot", "cybersecurity training", "cybersecurity awareness", "scenario bot", "quiz bot", "leaderboard", "tool commands", "Docker", "Python", "automated testing", "Discord API", "developer documentation", "contributing", "MIT license", "CyberScenarioBot", "CyberSentinels", "enhance training", "awareness program", "cybersecurity scenarios", "server environment", "customized commands", "deploy and manage", "quizzes and scenarios", "tool commands", "informational commands", "issues and contributions", "Discord developer application", "Discord.py documentation", "working with developers", "community Discord server"]
+cover: "/img/cover/discord-cyber-scenario-bot.webp"
+coverAlt: "A futuristic AI bot in a digital space, surrounded by holographic displays of cyber scenarios and quizzes, set against a deep navy background with vibrant colors."
+coverCaption: ""
 ---
 
 

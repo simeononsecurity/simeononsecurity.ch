@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Discover how Helium Mobile Beta is transforming mobile connectivity with its decentralized network, ensuring security, reliability, and affordability for users."
 tags: ["Helium Mobile Beta", "decentralized network", "mobile connectivity", "secure", "reliable", "affordable plans", "Helium Hotspots", "Helium blockchain", "beta program", "wireless network", "cellular networks", "mobile carrier", "innovation", "technology", "network expansion", "user feedback", "industry disruption", "Helium Mobile-compatible device", "application", "emerging technology"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
-coverAlt: "A vibrant illustration showcasing a network of interconnected devices with Helium Mobile branding, symbolizing the innovative and decentralized approach to mobile connectivity."
+cover: "/img/cover/helium-mobile-beta-explained.webp"
+coverAlt: "An illustration showing interconnected small devices called Helium Hotspots, emitting colorful signal waves against a dark background, symbolizing a decentralized mobile network."
 coverCaption: ""
 ---
 ## Helium Mobile Beta

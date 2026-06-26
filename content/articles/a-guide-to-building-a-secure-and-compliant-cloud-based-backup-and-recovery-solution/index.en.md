@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Discover how to build a secure, compliant cloud backup solution for data protection."
 tags: ["cloud backup", "data recovery", "data protection", "compliance", "GDPR", "HIPAA", "FISMA", "cloud service provider", "encryption", "access control", "security", "regulations", "standards", "best practices", "vulnerability assessment", "penetration testing", "audits", "risk management", "scalability", "monitoring"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
-coverAlt: "A 3D animated image of a secure vault in the clouds, with various regulatory icons (GDPR, HIPAA, FISMA) floating around it and a shield symbolizing data protection."
+cover: "/img/cover/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution.webp"
+coverAlt: "A dark illustration of a cloud surrounded by vibrant streams of data, representing secure cloud backup. Abstract glowing symbols suggest data protection regulations, set against a navy background."
 coverCaption: ""
 ---
 **A Guide to Building a Secure and Compliant Cloud-based Backup and Recovery Solution**

@@ -4,6 +4,8 @@ toc: true
 draft: false
 description: "Promote your brand with SimeonOnSecurity through our advertising options."
 coverCaption: "Reach a wide audience with our advertising opportunities."
+cover: "/img/cover/index.en.md.webp"
+coverAlt: "A digital workspace with a laptop displaying colorful advertisement examples in different sizes, set against a dark background. The scene is illuminated with vibrant accent colors."
 ---
 
 ## Advertise With Us

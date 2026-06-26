@@ -6,8 +6,8 @@ draft: false
 description: "Discover essential measures to enhance the security of your mobile devices with this comprehensive checklist, including device encryption, app permission management, and secure network access."
 genre: ["Mobile Device Security", "Protection", "Privacy", "Checklist", "Device Encryption", "App Permissions", "Mobile Device Management", "Secure Access", "Network Security", "Patch Management"]
 tags: ["mobile device security", "protection", "privacy", "checklist", "device encryption", "app permission management", "mobile device management", "secure access", "network security", "patch management", "device encryption and passcodes", "strong passcodes", "biometric authentication", "automatic device lock", "screen timeout", "mobile app permission management", "trusted apps", "excessive permissions", "MDM", "enhancing mobile device security", "comprehensive security checklist for mobile devices", "protecting privacy on mobile devices", "effective device encryption techniques", "managing app permissions on mobile devices", "secure mobile device management solutions", "ensuring secure access to corporate networks from mobile devices", "importance of strong authentication for mobile device access", "secure remote access through VPN on mobile devices", "regular patch management for mobile device security"]
-cover: "/img/cover/An_illustration_featuring_a_shield_protecting_a_mobile_device.png"
-coverAlt: "An illustration featuring a shield protecting a mobile device, symbolizing mobile device security and protection."
+cover: "/img/cover/mobile-device-security-checklist.webp"
+coverAlt: "A mobile device is encircled by colorful abstract symbols representing encryption keys and app permissions, set against a dark background."
 coverCaption: "Guarding Your Mobile Devices"
 ---
 ## Mobile Device Security Checklist:

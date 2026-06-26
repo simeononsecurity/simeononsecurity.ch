@@ -5,6 +5,9 @@ genre: ["CompTIA courses", "Cisco courses", "EC-Council courses", "ISC2 exams", 
 tags: ["CompTIA", "CompTIA courses", "CompTIA certification", "CompTIA training", "CompTIA Network Plus", "CompTIA Security Plus", "CompTIA CySA Plus", "CompTIA PenTest Plus", "CompTIA CASP Plus", "Cisco", "Cisco courses", "Cisco certification", "Cisco training", "CCNA", "CCNP", "CCIE", "EC-Council", "EC-Council courses", "EC-Council certification", "EC-Council training", "CEH", "ECSA", "CHFI", "LPT", "ISC2", "ISC2 exams", "ISC2 certification", "ISC2 training", "CISSP", "CCSP", "SSCP", "Cybersecurity careers"]
 sitemap:
   priority: 0.3
+cover: "/img/cover/index.en.md.webp"
+coverAlt: "Cover image for: Courses and Career Playbooks for CompTIA, Cisco, EC-Council, ISC2 Exams, and Cybersecurity Careers - SimeonOnSecurity"
+coverCaption: ""
 ---
 
 **Welcome to Our Comprehensive Courses and Career Playbooks for CompTIA, Cisco, EC-Council, (ISC)² Exams, and Cybersecurity Careers!**

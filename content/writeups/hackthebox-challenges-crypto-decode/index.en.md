@@ -5,8 +5,8 @@ draft: false
 description: "Learn how to decode Fernet and Malboge ciphers to solve the HackTheBox Crypto Challenge and uncover the hidden flag."
 tags: ["HackTheBox", "Challenges", "Crypto", "Decode", "Writeup", "Fernet Cipher", "Malboge Cipher", "Symmetric Encryption", "Cybersecurity", "Cryptography", "Penetration Testing", "Python", "Security", "Challenge", "CTF", "Flag", "Encryption", "Decryption", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
-coverAlt: "A cartoon hacker standing next to a large lock with one hand holding a Fernet logo key and the other hand holding a Malboge logo key while a flag is seen inside the lock"
+cover: "/img/cover/hackthebox-challenges-crypto-decode.webp"
+coverAlt: "An abstract digital illustration showing twisted strings and glowing data streams on a dark navy background, representing the decoding of Fernet and Malboge ciphers with vibrant blue, green, and purple colors."
 coverCaption: ""
 ---
 

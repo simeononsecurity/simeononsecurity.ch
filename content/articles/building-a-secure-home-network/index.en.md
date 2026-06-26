@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to safeguard your home network and connected devices against cyber threats with these essential tips and tools."
 genre: ["Home Network Security", "Cybersecurity", "Device Protection", "Internet Safety", "Smart Home Security", "Network Privacy", "Online Threats", "Internet Security Tips", "Digital Privacy", "Cyber Defense"]
 tags: ["home network security", "device protection", "cyber threats", "secure network", "connected devices", "cybersecurity tips", "network privacy", "smart home security", "online safety", "internet security", "digital privacy", "cyber defense", "internet threats", "network security tools", "secure Wi-Fi", "malware protection", "phishing scams", "firewall setup", "VPN for privacy", "device firmware updates", "antivirus software", "smart home device security", "safe browsing habits", "phishing attack prevention", "network encryption", "family cybersecurity education", "cybersecurity best practices", "home network foundation", "secure router selection", "strong Wi-Fi password", "password manager", "advanced network security measures"]
-cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting_a_house_with.png"
-coverAlt: "A cartoon illustration of a shield protecting a house with various connected devices around it, symbolizing home network security and device protection."
+cover: "/img/cover/building-a-secure-home-network.webp"
+coverAlt: "A digital illustration of a modern home network with various connected devices like smart TVs and security cameras, shown interacting within a stylized house outline against a dark background."
 coverCaption: "Stay Safe, Stay Connected: Protect Your Devices and Home Network"
 ---
 

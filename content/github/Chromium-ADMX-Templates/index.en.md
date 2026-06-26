@@ -4,6 +4,9 @@ date: 2020-07-25T19:30:33-05:00
 draft: false
 description: "Get complete control over your Chromium Browser policies with ChromiumADMX's modified Google Chrome ADMX templates reflecting the Chromium Browser's registry path for use with Group Policy management."
 tags: ["ADMX", "ADMX Templates", "Chromium Browser", "Chromium", "Group Policy", "GPO", "Google Chrome ADMX templates", "ChromiumADMX", "Policy Definitions", "Registry Path", "Complete Control", "Testing Purposes", "GitHub Repository", "Software Policies", "Brave Browser", "Pre-Alpha State", "Installation Instructions", "Policy Management", "IT Security", "Enterprise"]
+cover: "/img/cover/Chromium-ADMX-Templates.webp"
+coverAlt: "A modern workspace with multiple computer screens showing code and policy definitions for the Chromium browser, set against a dark background with vibrant blue and green accents."
+coverCaption: ""
 ---
 
 

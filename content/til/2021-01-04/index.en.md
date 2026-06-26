@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["Windows Security", "Windows Defender Application Control", "Device Security", "Software Auditing", "Policy Enforcement", "Threat Protection", "Group Policy", "Microsoft Intune", "Hardening Techniques"]
 tags: ["Windows Defender Application Control", "WDAC Policies", "Windows Security", "Software Auditing", "Policy Enforcement", "Device Security", "Threat Protection", "Group Policy", "Microsoft Intune", "Hardening Techniques", "Windows Documentation", "Security Policies", "Windows Device Management", "Windows Group Policy", "Windows Intune", "Windows Security Features", "Windows Auditing", "Windows Security Controls", "Application Whitelisting", "Security Hardening", "Device Protection", "Windows OS Security", "SimeonOnSecurity GitHub", "Security Resources", "Windows Security Updates"]
+cover: "/img/cover/2021-01-04.webp"
+coverAlt: "A digital illustration of a futuristic workspace with a computer display showing application control management, featuring glowing shapes representing authorized applications against a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

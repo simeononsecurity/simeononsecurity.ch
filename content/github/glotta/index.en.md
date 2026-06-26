@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Glotta is a powerful command-line tool that automates the translation of Hugo markdown files into multiple languages, making localization a breeze."
 tags: ["translation automation", "Hugo markdown", "localization", "multilingual content", "command-line tool", "language translation", "language localization", "automation script", "content translation", "multilingual website", "language support", "localization workflow", "translation process", "language integration", "Hugo static site generator", "Glotta", "language files", "translation API", "translation providers", "translation service", "language management", "multilingual SEO", "content localization", "website globalization", "language support tool", "language workflow", "translation efficiency", "localization efficiency", "automated translation", "Hugo multilingual support"]
+cover: "/img/cover/glotta.webp"
+coverAlt: "A modern workspace illustration featuring a sleek laptop with code and markdown files, surrounded by colorful floating language icons and processing elements on a dark background."
+coverCaption: ""
 ---
 
 

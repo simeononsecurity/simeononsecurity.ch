@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["PowerShell", "Automation", "Sysmon", "Configurations", "Windows Security", "Event Monitoring", "Windows Administration", "Security Auditing", "Threat Hunting", "Malware Analysis"]
 tags: ["PowerShell", "Automation", "Sysmon", "Configurations", "SwiftOnSecurity", "Windows Security", "Event Monitoring", "Auditpol", "Windows Audit Policy", "Automate-Sysmon", "Windows-Audit-Policy", "Getting Started With Sysmon", "Malware Archaeology Cheat Sheets", "Microsoft Sysinternals", "Sysmon Configurations", "Auditpol Commands", "Auditpol Backup", "Auditpol Clear", "Auditpol List", "Auditpol Restore", "Sysmon-Modular", "Windows Administration Tools", "Security Logging", "Threat Detection", "Event Logging", "Security Monitoring", "Windows Security Best Practices", "Automation Solutions", "Security Auditing Techniques"]
+cover: "/img/cover/2021-05-11.webp"
+coverAlt: "A digital illustration of a modern cybersecurity workstation with multiple monitors. The screens display colorful graphs and logs of system activity related to Sysmon and audit policies, set against a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

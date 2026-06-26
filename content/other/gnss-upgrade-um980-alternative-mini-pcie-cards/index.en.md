@@ -6,8 +6,8 @@ draft: false
 description: "Discover how the UM980 upgrade card and alternative Mini-PCIe cards can supercharge your GNSS capabilities. Are MobileCM Base Stations ready for a revolution?"
 genre: ["Technology", "Navigation Systems", "GNSS Upgrades", "Space Weather Stations", "Alternative GNSS Cards", "Hyfix UM980", "GNSS Reception", "Geodnet Solutions", "Satellite Technology", "Precision Positioning"]
 tags: ["GNSS", "GNSS Mini-PCIe", "MobileCM Base Station", "UM980 Upgrade Card", "GNSS Correction Services", "Triple-Band GNSS", "Hyfix", "Global Navigation Satellite Systems", "USB over mPCIe", "Geodnet", "Space Weather Station", "GNSS Reception", "Alternative GNSS Cards", "Technology Solutions", "Hyfix Products", "GNSS Upgrade", "Satellite Signals", "Precision Positioning", "GNSS Testing", "Industry Standards", "Anti-Competitive Issue", "GNSS Mini-PCIe Compatibility", "UM980 Review", "Hyfix UM980 Upgrade", "GNSS Technology Landscape", "Hyfix UM980 Compatibility", "MobileCM Base Station Upgrade", "Geodnet Challenges", "GNSS Mini-PCIe Cards", "MobileCM Base Station Testing"]
-cover: "/img/cover/GNSS-Satellite-Precision.png"
-coverAlt: "A stylized GNSS satellite in orbit, symbolizing precision."
+cover: "/img/cover/gnss-upgrade-um980-alternative-mini-pcie-cards.webp"
+coverAlt: "An illustration of a GNSS Mini-PCIe card angled to display its circuitry, with colorful signals radiating from it, set against a dark background. The image captures a technical and modern feel."
 coverCaption: "Unlock Precision - GNSS Revolution"
 ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget"]
 ---

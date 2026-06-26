@@ -6,8 +6,8 @@ draft: false
 description: "Explore DIY RTKDirect setup for enhanced GPS precision. Save costs, customize, and join a global network. Ready to revolutionize your navigation?"
 genre: ["Technology", "DIY", "Navigation", "GPS", "Precision", "Geolocation", "Blockchain", "Networking", "Innovation", "Global Connectivity"]
 tags: ["DIY technology", "GPS precision", "RTKDirect setup", "Global navigation", "Cost-effective solutions", "Customization", "Blockchain rewards", "Geolocation networks", "Innovative GNSS", "Networking guide", "Location-based applications", "Navigation systems", "RTK Rovers", "GNSS capabilities", "Data contributions", "Internet connectivity", "Signal-to-Noise Ratio", "Precision surveys", "DIY innovation", "Location accuracy", "GNSS correction data", "Satellite navigation", "RTKDirect rewards", "3D animated setup", "Global technology community", "Navigation advancements", "DIY enthusiasts", "Location-based rewards", "Navigation solutions"]
-cover: "/img/cover/diy_rtkdirect_setup.png"
-coverAlt: "A symbolic representation of a DIY RTKDirect setup, showcasing precise satellite navigation."
+cover: "/img/cover/diy-rtkdirect-reference-station-guide.webp"
+coverAlt: "An illustration of a DIY RTKDirect reference station, featuring a Raspberry Pi and GNSS antenna against a dark background. Satellite signals and circuit elements are depicted in vibrant colors."
 coverCaption: "Precision Unleashed: Your DIY RTKDirect Journey Begins Now!"
 ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/diy-rtkdirect-reference-station-guide", "/other/creating-profitable-low-powered-crypto-miners"]
 ---

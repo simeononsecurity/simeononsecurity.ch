@@ -6,7 +6,9 @@ draft: false
 description: "Explore the intricate strategies hackers employ to breach digital fortresses. From initial access methods like phishing and malware to privilege escalation, lateral movement, and covert data exfiltration techniques, uncover the anatomy of cyber attacks. Arm yourself with knowledge to fortify your defenses against evolving threats."
 genre: ["Cyber Threats", "Hacking Tactics", "Digital Security", "Cyber Attack Strategies", "Data Exfiltration Techniques", "Phishing Attacks", "Malware Infections", "Privilege Escalation", "Lateral Movement", "Security Measures"]
 tags: ["Cyber Threats", "Hacking Tactics", "Digital Security", "Cyber Attack Strategies", "Data Exfiltration Techniques", "Phishing Attacks", "Malware Infections", "Privilege Escalation", "Lateral Movement", "Security Measures", "Threat Detection", "Security Audits", "Cybersecurity Education", "Network Security", "Multi-Layered Defense", "Patch Management", "Password Security", "Steganography", "DNS Tunneling", "Command and Control Channels", "Cybersecurity Best Practices"]
-cover: "/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.jpeg"
+cover: "/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp"
+coverAlt: "A digital illustration shows a dark virtual landscape filled with glowing nodes and pathways, representing a hacker navigating through a network, with vibrant colors highlighting vulnerabilities."
+coverCaption: ""
 ---
 
 Anatomy of a Cyber Attack: How Hackers Breach Defenses

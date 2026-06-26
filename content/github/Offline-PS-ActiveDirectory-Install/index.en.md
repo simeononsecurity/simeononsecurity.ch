@@ -5,6 +5,9 @@ draft: false
 toc: true
 description: "Learn how to install the RSAT ActiveDirectory PowerShell module offline on Windows 10 using a simple script."
 tags: ["Remote Server Administration Toolkit", "PowerShell RSAT ActiveDirectory Module", "Windows 10", "Offline Installer", "PowerShell Script", "PowerShell Module", "ActiveDirectory", "Windows", "Offline", "Install", "Server", "Administration", "Toolkit", "Scripting", "Module", "Windows Server", "PowerShell Core", "Windows PowerShell", "Microsoft", "IT Administration", "Active Directory management", "Windows 10 administration", "PowerShell commands", "offline installation", "IT tools", "AD management", "scripting", "RSAT tools", "Windows system administration", "install active directory powershell module windows 10", "active directory module for windows powershell", "import module active directory windows 10", "powershell active directory module install"]
+cover: "/img/cover/Offline-PS-ActiveDirectory-Install.webp"
+coverAlt: "An illustration of a laptop with a PowerShell terminal showing code for installing the Active Directory module, surrounded by abstract icons representing users and servers on a dark background."
+coverCaption: ""
 ---
 
 **Install Active Directory PowerShell Module on Windows 10**

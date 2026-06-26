@@ -5,6 +5,9 @@ draft: false
 description: "Learn to automate OSINT with the Shodan PowerShell Modules collection, which provides an interface to interact with the Shodan API for various functions such as hostname resolution, exploit searching, and more."
 tags: ['OSINT', 'automation', 'Shodan', 'PowerShell', 'API', 'enumeration', 'exploits', 'network scanning', 'cybersecurity', 'information gathering', 'cyber defense', 'cyber threat intelligence', 'pentesting', 'penetration testing', 'network security', 'threat hunting', 'Shodan API', 'Shodan PowerShell', 'PowerShell Modules', 'cyber reconnaissance']
 toc: true
+cover: "/img/cover/shodan-powershell.webp"
+coverAlt: "An illustration of a computer screen with PowerShell code and glowing green and cyan data packets, set against a dark navy blue background, symbolizing automated interaction with the Shodan API."
+coverCaption: ""
 ---
 
 A collection of PowerShell Modules for Interacting with the Shodan API

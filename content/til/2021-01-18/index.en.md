@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["Cyber Security", "Hands-On Labs", "Informative Videos", "Immersive Learning", "Defensive Techniques", "Offensive Techniques", "Technology Insights", "Software Security", "Hyperloop", "Virtual Machines", "Digital Education"]
 tags: ["Cyber Security", "Hands-On Labs", "Informative Videos", "Immersive Learning", "Defensive Techniques", "Offensive Techniques", "Technology Insights", "Software Security", "Hyperloop", "Virtual Machines", "Digital Education", "ImmersiveLabs", "Gardiner Bryant", "Joe Scott", "NetworkChuck", "Zack Freedman", "Free Software", "Hyperloop Technology", "Virtual Machine Tutorials", "Digital Entertainment", "Technology Perspectives", "Security Skills", "Tech Education", "Digital Learning", "IT Security", "Video Content", "Software Insights", "Online Learning", "Data Protection", "Network Defense", "Technology Trends"]
+cover: "/img/cover/2021-01-18.webp"
+coverAlt: "A digital illustration of a virtual lab with multiple computer screens showing security metrics and coding interfaces, set against a dark background with vibrant tech colors."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

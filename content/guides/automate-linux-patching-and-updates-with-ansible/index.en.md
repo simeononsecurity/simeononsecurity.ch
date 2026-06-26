@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn how to automate Linux patching and updates using Ansible, covering various distributions and setup instructions."
 tags: ["Linux patching", "Ansible automation", "automating updates", "system maintenance", "IT automation", "patch management", "Linux security", "Debian", "Ubuntu", "RHEL", "Alpine", "system stability", "vulnerability mitigation", "IT infrastructure", "automation tool", "Ansible playbook", "host configuration", "software updates", "security compliance", "IT operations", "Linux updates", "Ubuntu", "Debian", "CentOS", "RHEL", "offline updates", "local repository", "cache", "server setup", "client setup", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Linux system updates", "offline package updates", "offline software updates", "local package repository", "local package cache", "offline Linux updates", "handling offline updates", "offline update methods", "offline system maintenance", "Linux server updates", "Linux client updates", "offline software management", "offline package management", "update strategies", "Linux security updates"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
-coverAlt: "A colorful, cartoon-style image depicting a robot applying patches to a cluster of Linux servers."
+cover: "/img/cover/automate-linux-patching-and-updates-with-ansible.webp"
+coverAlt: "An illustration of a modern server room with abstract Linux servers connected by glowing lines. An Ansible logo is central, surrounded by colorful icons representing various Linux distributions."
 coverCaption: ""
 ---
 

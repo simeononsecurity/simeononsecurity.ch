@@ -6,8 +6,8 @@ draft: false
 description: "Discover how Presearch, the decentralized search engine, empowers users with privacy, rewards, and community participation, providing an alternative to Google."
 genre: ["Technology", "Search Engines", "Blockchain", "Cryptocurrency", "Online Privacy", "Community-driven Platforms", "Decentralization", "Open-source Technology", "Internet Services", "Digital Innovation"]
 tags: ["presearch", "presearch search engine", "decentralized search engine", "alternative to Google", "blockchain technology", "cryptocurrency rewards", "privacy-focused search", "community-driven platform", "open-source search engine", "customizable search experience", "ad-free search", "internet privacy", "digital innovation", "online search revolution", "search engine ecosystem", "user rewards", "decentralized technology", "transparent search engine", "user privacy", "online privacy protection", "community involvement", "customizable search engines", "online advertising", "digital privacy", "search engine market", "user-centric search", "privacy-first platform", "secure online search", "internet search revolution", "user empowerment", "alternative search experience"]
-cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png"
-coverAlt: "A cartoonish world globe with a magnifying glass hovering over it symbolizing the Presearch platform as a community-driven and decentralized search engine"
+cover: "/img/cover/exploring-presearch-as-a-alternative-to-google.webp"
+coverAlt: "An abstract digital illustration of a decentralized network, with interconnected nodes representing user contributions, set against a deep navy background with vibrant blue, green, and purple accents."
 coverCaption: "Empowering Search: Presearch offers privacy, rewards, and community engagement."
 ---
 

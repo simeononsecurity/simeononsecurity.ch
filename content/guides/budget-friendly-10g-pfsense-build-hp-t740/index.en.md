@@ -6,8 +6,8 @@ draft: false
 description: "Discover how to effortlessly build a 10 gigabit capable pfSense router and firewall on a budget using the HP t740, ensuring high-performance networking for your needs."
 genre: ["Networking", "Cybersecurity", "Hardware", "DIY", "Open-Source", "Small Business", "Home Network", "Technology", "IT Solutions", "Network Security"]
 tags: ["pfSense", "HP t740", "10g Router", "Network Security", "Budget-Friendly", "DIY Networking", "Open-Source Router", "Cybersecurity", "Home Network Setup", "IT Solutions", "Small Business Networking", "Effortless Networking", "Router Configuration", "Firewall Software", "Hardware Setup", "Network Performance", "VPN Configuration", "Network Optimization", "pfSense Installation", "Network Monitoring", "Government Regulations", "High-Performance Router", "10 Gigabit Ethernet", "Network Customization", "Intrusion Detection", "Content Filtering", "Network Upgrades", "Secure Remote Access", "Network Maintenance", "pfSense Features"]
-cover: "/img/cover/budget-friendly-10g-pfsense-build.png"
-coverAlt: "A cartoon-style illustration of a smiling person easily connecting network cables to an HP t740 router"
+cover: "/img/cover/budget-friendly-10g-pfsense-build-hp-t740.webp"
+coverAlt: "An illustration of an HP t740 Thin Client with network ports and abstract shapes representing data flow, set against a deep navy background with vibrant colors."
 coverCaption: "Simplify Your Network with the HP t740 and pfSense"
 ref: ["/guides/installing-pfsense-on-hp-t740-thin-client"]
 ---

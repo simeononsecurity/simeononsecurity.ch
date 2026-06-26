@@ -5,6 +5,9 @@ genre: ["Cybersecurity", "practice tests", "network security", "ethical hacking"
 tags: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security", "certification exams", "skills assessment"]
 sitemap:
   priority: 0.3
+cover: "/img/cover/index.en.md.webp"
+coverAlt: "Cover image for: Cybersecurity Practice Tests - SimeonOnSecurity"
+coverCaption: ""
 ---
 
 ## Practice Test Table

@@ -6,8 +6,8 @@ draft: false
 description: "Learn best practices for access control, video surveillance, and secure document disposal to strengthen physical security, safeguard your premises, and protect sensitive information."
 genre: ["Physical Security", "Access Control", "Video Surveillance", "Visitor Management", "Security Cameras", "Document Management", "Secure Disposal", "Premises Protection", "Security Procedures", "Security Awareness"]
 tags: ["physical security", "access control", "video surveillance", "visitor management", "security cameras", "document management", "secure disposal", "premises protection", "security procedures", "security awareness", "access control systems", "biometric authentication", "visitor tracking", "security camera placement", "camera monitoring", "document retention", "document destruction", "confidential document disposal", "secure document shredding", "electronic media disposal", "physical access security", "premises security measures", "security culture", "security awareness training", "data privacy compliance", "secure document management", "video monitoring", "document handling best practices", "physical asset protection", "sensitive information security"]
-cover: "/img/cover/enhancing-physical-security.png"
-coverAlt: "An illustrated cartoon image depicting a locked gate with a security camera, symbolizing physical security and access control."
+cover: "/img/cover/physical-security-checklist.webp"
+coverAlt: "An illustration of a modern office scene featuring biometric access control systems, security cameras, and employees participating in a security training session, all set against a dark background."
 coverCaption: "Secure your premises and protect your assets with enhanced physical security."
 ---
 ## Physical Security Checklist:

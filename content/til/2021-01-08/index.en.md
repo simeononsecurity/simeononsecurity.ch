@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["Windows File System", "NTFS Tweaks", "NTFS Optimization", "File System Performance", "Windows Performance", "Windows Reliability", "Windows File System Management", "Windows Security", "Windows Scripting", "Windows Repository Updates", "Windows Optimization", "Windows Hardening", "Windows Debloating", "Information Security Videos", "Security Tools", "Security Techniques"]
 tags: ["NTFS Tweaks", "NTFS Optimization", "Windows File System", "Windows Performance", "Windows Reliability", "Windows Security", "File System Management", "Windows Scripting", "Windows Repository Updates", "Windows Optimization", "Windows Hardening", "Windows Debloating", "Windows Resources", "Windows OS", "Windows Security Tools", "Windows Scripting Tools", "Information Security Videos", "Security Techniques", "SimeonOnSecurity GitHub", "File System Performance Tips", "Windows File Management", "Windows PowerShell", "Windows Command Line", "Information Security News", "Security Tools Update"]
+cover: "/img/cover/2021-01-08.webp"
+coverAlt: "An illustration of a computer workstation with a command line interface displaying fsutil commands, surrounded by vibrant data streams and abstract file representations, against a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

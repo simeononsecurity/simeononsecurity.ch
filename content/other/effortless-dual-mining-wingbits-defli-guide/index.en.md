@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to set up dual mining with WingBits and DeFli in this comprehensive guide. Maximize your crypto mining potential effortlessly."
 genre: ["Cryptocurrency Mining", "Crypto Mining Setup", "WingBits", "DeFli", "Mining Tutorials", "Cryptocurrency Guides", "Dual Mining", "Mining Hardware", "Crypto Investment", "Digital Currency"]
 tags: ["Crypto Mining", "Dual Mining Setup", "WingBits", "DeFli", "Cryptocurrency Guide", "Mining Hardware", "Digital Currency", "Crypto Investment", "Mining Tutorial", "Effortless Mining", "Mining Configuration", "Cryptocurrency Setup", "Mining Tips", "Mining Software", "Crypto Miners", "Mining Coordinates", "Mining Location", "Mining Gain Levels", "Mining Data Collector", "Mining Service Setup"]
-cover: "/img/cover/crypto-mining-illustration.png"
-coverAlt: "A cartoon illustration of a computer mining cryptocurrencies."
+cover: "/img/cover/effortless-dual-mining-wingbits-defli-guide.webp"
+coverAlt: "An illustration of a Raspberry Pi 4B with an AirNav Radarbox Flightstick and SIGNALPLUS 1090MHz ADS-B Antenna on a desk, set against a dark background with vibrant colors."
 coverCaption: "Effortless Dual Mining"
 ref: ["/other/creating-profitable-low-powered-crypto-miners"]
 ---

@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn how to use blockchain technology for secure authentication and identity management with this beginner's guide."
 tags: ["blockchain", "identity management", "authentication", "decentralized identity", "passwordless authentication", "smart contracts", "public key cryptography", "private key cryptography", "immutable records", "decentralized system", "single sign-on", "verification of credentials", "scalability", "privacy", "adoption", "digital identity", "distributed ledger technology", "cybersecurity", "data privacy", "technology"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png"
-coverAlt: "A cartoon character holding a key in one hand and a blockchain in the other, surrounded by a network of interconnected nodes and blocks."
+cover: "/img/cover/a-beginners-guide-to-using-blockchain-for-secure-authentication-and-identity-management.webp"
+coverAlt: "An illustration of a blockchain network with interconnected glowing blocks and lines, representing secure identity management. Silhouettes of users are depicted with digital data shields."
 coverCaption: ""
 ---
 

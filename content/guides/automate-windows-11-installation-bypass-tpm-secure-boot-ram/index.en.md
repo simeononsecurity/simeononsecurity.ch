@@ -6,8 +6,8 @@ draft: false
 description: "simplify Windows 11 installation in virtualized environments by bypassing TPM, Secure Boot, and RAM checks using autounattend.xml and vTPM."
 genre: ["Technology", "Windows 11", "Installation", "Virtualization", "Automation", "Registry Keys", "TPM Bypass", "Secure Boot Bypass", "RAM Bypass", "vTPM"]
 tags: ["Windows 11", "Installation", "Automation", "Virtualization", "vTPM", "Registry Keys", "TPM Bypass", "Secure Boot Bypass", "RAM Bypass", "Autounattend.xml", "VMware vSphere", "Windows Setup", "Windows Preinstallation Environment", "Virtual Machine", "Windows Installation Workaround", "Registry Editor", "Microsoft-Windows-Setup", "System Requirements", "Windows Security", "Windows Performance", "Government Regulations", "NIST Compliance", "Microsoft", "Windows OS", "Bypassing Checks", "Windows Deployment", "Setup Automation", "Command Prompt", "Tech How-To", "Automated Windows 11 Installation", "vTPM Configuration in VMware vSphere", "Bypass Windows 11 Requirements"]
-cover: "/img/cover/windows11-installation-cartoon.png"
-coverAlt: " A cartoon-style image featuring a virtual machine installing Windows 11 in a virtualized environment with a smiling IT professional overseeing the process."
+cover: "/img/cover/automate-windows-11-installation-bypass-tpm-secure-boot-ram.webp"
+coverAlt: "The image features a digital illustration of a virtual machine interface with registry keys displayed. The background is deep navy with vibrant blue and green accents, giving a modern and technical feel."
 coverCaption: "Simplify Setup with Smiles: Automate Windows 11 Installation"
 ---
 

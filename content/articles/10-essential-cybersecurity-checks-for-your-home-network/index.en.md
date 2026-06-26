@@ -6,7 +6,9 @@ draft: false
 description: "Elevate your home network security with our comprehensive guide! Uncover the top 10 cybersecurity checks to fortify against cyber threats. Learn to protect personal information, secure Wi-Fi, and stay one step ahead of hackers. Safeguard your digital haven now!"
 genre: ["Home Network Security", "Cybersecurity Checks", "Digital Defense", "Network Protection", "IoT Security", "Data Privacy", "Cyber Threat Prevention", "Wi-Fi Security", "Personal Information Protection", "Digital Safety Tips"]
 tags: ["Home Network Security", "Cybersecurity Checks", "Digital Defense", "Network Protection", "IoT Security", "Data Privacy", "Cyber Threat Prevention", "Wi-Fi Security", "Personal Information Protection", "Digital Safety Tips", "Malware Protection", "Phishing Defense", "Strong Passwords", "Network Encryption", "Firmware Updates", "Software Security", "Firewall Setup", "Antivirus Software", "Malware Scanning", "IoT Device Security", "Default Router Settings", "Wi-Fi Password Strength", "Network Anomalies Detection", "Data Encryption", "Cybersecurity Best Practices", "Digital Privacy", "Cybersecurity Trends", "IoT Security Measures", "Online Security Tips"]
-cover: "/img/cover/10-essential-cybersecurity-checks-for-your-home-network.jpeg"
+cover: "/img/cover/10-essential-cybersecurity-checks-for-your-home-network.webp"
+coverAlt: "An illustration of a modern home network setup, featuring a sleek router, smart IoT devices, and a laptop, all against a dark background with vibrant blue, green, and purple accents."
+coverCaption: ""
 ---
 
 10 Essential Cybersecurity Checks for Your Home Network

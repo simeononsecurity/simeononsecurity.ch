@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Protect your Windows system against malicious attacks by using the Ultimate Applocker Hardening Configuration Script."
 tags: ["Windows security", "Applocker", "Configuration script", "Cybersecurity", "Malware protection", "Threat prevention", "PowerShell script", "Microsoft recommended block rules", "Compliance", "NSA Cyber Bitlocker Guidance", "Application control", "Hardening Windows", "Cyber threats", "Computer protection", "Cyber defense", "Secure Windows", "Ultimate Applocker ByPass List", "Windows Defender", "System lockdown", "sos-applockerhardening.ps1"]
+cover: "/img/cover/Applocker-Hardening.webp"
+coverAlt: "A futuristic control center illustration showing a holographic interface with glowing elements representing security, including digital locks and code snippets, against a dark background."
+coverCaption: ""
 ---
 
 In today's digital world, security is one of the most crucial aspects of operating any system. Windows is the most popular operating system in the world, which means it is also the most targeted by cybercriminals. To protect your system from any malicious attacks, you must take the necessary precautions to secure your system. One way to achieve this is by using the Ultimate Applocker Hardening Configuration Script.

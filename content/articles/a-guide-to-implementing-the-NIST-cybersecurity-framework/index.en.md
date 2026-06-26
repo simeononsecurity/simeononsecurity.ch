@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn how to implement the NIST Cybersecurity Framework and protect your organization from cyber threats with our step-by-step guide."
 tags: ["cybersecurity", "NIST", "framework", "risk management", "information security", "cyber threats", "implementation", "best practices", "guidelines", "standards", "cyber attacks", "risk assessment", "cybersecurity risk", "data protection", "compliance", "IT security", "network security", "incident response", "security measures", "cybersecurity plan"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
-coverAlt: "A cartoon image of a person with a shield blocking various cyber attacks."
+cover: "/img/cover/a-guide-to-implementing-the-NIST-cybersecurity-framework.webp"
+coverAlt: "A group of diverse professionals collaborates in a modern office, focused on a large digital display illustrating cybersecurity concepts. The scene features laptops and tablets, with a dark background and vibrant colors."
 coverCaption: ""
 ---
 **A Guide to Implementing the NIST Cybersecurity Framework for Your Organization**

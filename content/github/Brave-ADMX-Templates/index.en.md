@@ -4,6 +4,9 @@ date: 2020-07-25T19:30:39-05:00
 draft: false
 description: "Get complete control over Brave Browser policies with our modified Google Chrome ADMX templates, BraveADMX, designed for Group Policy management."
 tags: ["BraveADMX", "ADMX Templates", "Brave Browser", "Group Policy", "GPO", "Google Chrome ADMX", "Policy Definitions", "Pre-Alpha", "Testing Purposes", "Registry Path", "GitHub Repository", "Chromium", "Policy Management", "Configuration Management", "Windows Policies", "Security Templates", "Brave Browser Policies", "Google Chrome Policies", "Browser Policy Control", "Corporate IT Management"]
+cover: "/img/cover/Brave-ADMX-Templates.webp"
+coverAlt: "A digital illustration of a computer screen with modified ADMX templates for the Brave browser, highlighting registry paths with circuit patterns, set against a dark navy background."
+coverCaption: ""
 ---
 
 

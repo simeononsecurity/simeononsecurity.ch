@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Discover best practices for efficient and secure image creation with Packer, automating the process and ensuring consistency across platforms."
 tags: ["Packer best practices", "Packer image creation", "automated image creation", "machine image optimization", "reproducibility", "Packer builders", "Packer provisioners", "secure image configuration", "image size optimization", "image validation", "Packer documentation", "Packer GitHub repository", "AWS EC2 Image Builder", "Azure Image Builder", "VMware Packer builder", "Packer benefits", "infrastructure-as-code integration", "version control for Packer", "lean machine images", "image compression techniques", "automated image testing", "manual image testing", "image validation best practices", "software deployment workflows", "consistent software environments", "Packer SEO tips", "Packer image automation", "image creation efficiency", "secure image creation", "optimized machine images"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
-coverAlt: "A cartoon illustration of a Packer tool icon building a stack of images with efficiency and security features."
+cover: "/img/cover/best-practices-for-packer.webp"
+coverAlt: "An illustration showing the process of creating machine images, with servers and abstract cloud icons representing AWS, Azure, and VMware. The background is dark, with vibrant colors highlighting the elements."
 coverCaption: ""
 ---
 

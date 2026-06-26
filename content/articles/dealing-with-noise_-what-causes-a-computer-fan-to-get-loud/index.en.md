@@ -6,7 +6,9 @@ draft: false
 description: "Annoyed by Loud Computer Fans? Learn Causes & Fixes to Enjoy Peaceful Computing. Act Now!"
 genre: ["Computer Hardware", "PC Maintenance", "Tech Tips", "DIY Computer Repair", "Gadget Care", "Noise Reduction", "Hardware Troubleshooting", "Tech DIY", "Computer Fans", "System Upgrades"]
 tags: ["Loud Computer Fan", "Computer Noise", "Fan Maintenance", "PC Repair", "Overheating Solutions", "Quiet Computing", "Fan Troubleshooting", "System Cleaning", "Fan Upgrade", "DIY Computer", "Fan Installation", "Reducing PC Noise", "Silent Workstation", "Computer Health", "Optimize PC Performance", "Prevent Fan Loudness", "Noise-Free Environment", "Tech Support Tips", "Fan Noise Management", "Effective Cooling", "Fix Loud Computer Fan", "Enhance Computing Experience", "Reduce Computer Fan Volume", "Identify Fan Issues", "Computer Fan Dust Removal", "Minimize Fan Disruption", "Solve PC Overheating", "Fan Speed Adjustments", "Hardware Noise Solutions", "Regulate System Temperatures"]
-cover: "/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.jpeg"
+cover: "/img/cover/dealing-with-noise_-what-causes-a-computer-fan-to-get-loud.webp"
+coverAlt: "An illustration of a modern computer tower with visible internal fans and components. The fans are illustrated in motion, with airflow dynamics represented by blue and green accents against a dark background."
+coverCaption: ""
 ---
 
 Dealing with Noise: What Causes a Computer Fan to Get Loud

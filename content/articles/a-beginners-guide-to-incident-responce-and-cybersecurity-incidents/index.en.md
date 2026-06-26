@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn the basics of incident response and handling cybersecurity incidents with this beginner's guide."
 tags: ["incident response", "cybersecurity", "beginner's guide", "data protection", "data security", "IT security", "network security", "cyber attacks", "information security", "cybercrime", "digital security", "IT infrastructure", "data breaches", "cyber threats", "cyber defense", "incident management", "data recovery", "security planning", "risk management", "cybersecurity strategy"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
-coverAlt: "A cartoon image of a cybersecurity superhero defending a city against cyber threats."
+cover: "/img/cover/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents.webp"
+coverAlt: "A high-tech cybersecurity incident response center with multiple screens showing data analytics and security alerts, and a diverse team of professionals analyzing information in a dark navy environment."
 coverCaption: ""
 ---
 **Beginner's Guide to Cybersecurity Incident Response**

@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Explore the critical components of the OPSEC process and learn how to protect sensitive information effectively."
 tags: ["OPSEC process", "operational security", "information protection", "security measures", "government regulations", "critical information", "threat assessment", "vulnerability assessment", "risk analysis", "countermeasures", "information security", "data protection", "confidentiality", "integrity", "availability", "cybersecurity", "classified information", "compliance", "NISPOM", "HIPAA", "GDPR", "data privacy", "risk management", "security posture", "information assets", "security controls", "risk mitigation", "security policies", "security awareness", "data breach prevention", "information classification", "which of the following are parts of the opsec process"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
-coverAlt: "An image showing a shield protecting a locked folder representing the protection of sensitive information."
+cover: "/img/cover/an-overview-of-the-opsec-process-and-understanding-its-key-components.webp"
+coverAlt: "A digital illustration with a central shield made of circuit patterns, surrounded by colorful geometric shapes representing critical information, threats, and vulnerabilities on a dark background."
 coverCaption: ""
 ---
 

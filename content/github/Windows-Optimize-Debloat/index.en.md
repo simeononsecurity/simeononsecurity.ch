@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Improve the performance and privacy of your Windows operating system with Windows-Optimize-Debloat, a comprehensive script that helps remove bloatware and optimize system settings."
 tags: ["Windows-Optimize-Debloat", "Windows Optimization", "Debloating Windows", "Speed up Windows", "Optimize Windows Performance", "Windows Performance Boost", "Windows System Optimization", "Microsoft", "Privacy", "Bloatware Removal", "Windows 10", "Windows 11", "Windows Defender", "Windows Update", "Cortona", "Group Policy Objects", "Telemetry", "Windows Store", "Windows 10 Professional", "Windows 10 Home"]
+cover: "/img/cover/Windows-Optimize-Debloat.webp"
+coverAlt: "A digital illustration of a modern Windows desktop showing a terminal window with a PowerShell script. Icons representing optimization like gears and floating uninstalled apps are visible, set against a dark background."
+coverCaption: ""
 ---
 
 

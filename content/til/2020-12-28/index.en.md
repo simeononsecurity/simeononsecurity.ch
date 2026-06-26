@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["Computer Security", "Kerberos Vulnerability", "Windows Activation", "Active Directory Compromise", "Network Security", "Cybersecurity Exploits", "Microsoft Security", "Token-Based Authentication"]
 tags: ["CVE-2020-17049", "Kerberos Bronze Bit Attack", "Windows Token-Based Activation", "Computer Security", "Vulnerabilities", "Active Directory", "Network Authentication", "Kerberos Protocol", "Windows Activation Methods", "Windows Product Activation", "Microsoft Security Updates", "Security Exploits", "Cybersecurity Threats", "Token-Based Authentication", "Windows Security", "Windows Server", "Network Vulnerabilities", "Windows Deployment", "Kerberos Authentication", "SLMGR.vbs", "Microsoft Technet", "Security Blogs", "Security Resources", "Microsoft Support Articles", "Windows 10 Enterprise", "Windows Documentation", "Network Compromise", "Security Measures", "Vulnerability Patch", "Windows OS Security"]
+cover: "/img/cover/2020-12-28.webp"
+coverAlt: "An abstract digital landscape depicting network security with interconnected nodes and stylized tokens on a dark background, showcasing themes of Active Directory and token-based activation."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

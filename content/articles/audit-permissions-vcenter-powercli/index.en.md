@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to effectively audit permissions for a vCenter using PowerCLI, ensuring a secure virtual infrastructure."
 genre: ["vCenter permissions audit", "PowerCLI automation", "VMware security", "Virtual infrastructure management", "Permission assignments", "User access control", "Security vulnerabilities", "PowerShell automation", "vSphere environment management", "User permissions review"]
 tags: ["vCenter", "PowerCLI", "permissions audit", "vSphere", "VMware", "virtual infrastructure", "PowerShell", "user access control", "security vulnerabilities", "permission assignments", "automation", "PowerCLI cmdlets", "user roles", "permissions review", "security policies", "compliance", "audit reports", "data protection", "GDPR", "HIPAA", "user management", "vCenter users", "security best practices", "government regulations", "PowerCLI installation", "vCenter connection", "PowerCLI scripting", "audit process", "exporting audit data", "permission removal"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.png"
-coverAlt: "An illustration depicting a shield protecting a virtual data center from unauthorized access."
+cover: "/img/cover/audit-permissions-vcenter-powercli.webp"
+coverAlt: "An illustration of a virtual data center with abstract elements representing user permissions and access levels, set against a deep navy background with vibrant colors, styled in a modern, technical manner."
 coverCaption: "Safeguard your vCenter with effective permissions auditing using PowerCLI."
 ---
 

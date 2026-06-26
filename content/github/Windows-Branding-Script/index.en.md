@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to set up custom branding on Windows 10 and Server 2016/2019/2022 systems to personalize your user experience."
 tags: ["Windows branding", "Server branding", "custom branding", "system customization", "branding setup", "Windows 10", "Server 2016", "Server 2019", "Server 2022", "user experience", "system customization guide", "personalization", "system branding", "Windows customization", "Server customization", "OEM logo", "user image", "guest image", "branding script", "Microsoft Security Compliance Toolkit", "Windows branding setup", "Server branding setup", "custom branding guide", "personalized branding", "system customization tutorial", "Windows system customization", "Server system customization", "branding images", "branding best practices", "Windows customization tips", "Server customization techniques"]
+cover: "/img/cover/Windows-Branding-Script.webp"
+coverAlt: "An illustration of a Windows desktop with a customized branding setup, featuring an OEM logo, user images in a grid, and an open Powershell window with a script. The background is dark with vibrant accent colors."
+coverCaption: ""
 ---
 
 **Setup branding on Windows 10 and Server 2016/2019/2022 Systems**

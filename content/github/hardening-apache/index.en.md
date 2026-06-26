@@ -4,6 +4,9 @@ date: 2020-07-27T10:15:03-07:00
 draft: false
 description: "Learn how to harden your Apache web server and ensure maximum security with this comprehensive guide for system administrators."
 tags: ["Apache Web Server", "Security", "SSL Encryption", "ModSecurity", "OWASP Core Rule Set", "Self-Signed Certificate", "LetsEncrypt", "Certbot", "Firewall", "Configuration", "System Administration", "Web Application Security", "Best Practices", "Common Attacks", "HTTPS", "Web Server Hardening", "Ubuntu", "Debian", "CentOS", "RHEL"]
+cover: "/img/cover/hardening-apache.webp"
+coverAlt: "A system administrator works on a laptop displaying code, surrounded by abstract shapes representing firewalls and security protocols, all set against a dark navy blue background with vibrant accents."
+coverCaption: ""
 ---
 ### A collection of example configurations and scripts to aid system administrators in hardening Apache web servers.
 

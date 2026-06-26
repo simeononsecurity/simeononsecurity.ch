@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to maximize Windows auditing by implementing the Windows Audit Policy script to enhance security and monitoring."
 tags: ["Windows Audit Policy", "Windows auditing", "security", "monitoring", "auditpol", "Windows commands", "Windows security", "audit configuration", "security policies", "event logs", "system monitoring", "Windows server", "security best practices", "cybersecurity", "log analysis", "security compliance", "incident response", "security monitoring tools", "privileged access", "Windows administration", "scripting", "system administration", "information security", "compliance auditing", "Windows hardening", "security controls", "security automation", "log management", "Windows security settings"]
+cover: "/img/cover/Windows-Audit-Policy.webp"
+coverAlt: "A digital illustration of a computer monitor with colorful graphs and logs, surrounded by abstract security elements like shields and checklists on a dark background."
+coverCaption: ""
 ---
 
 ## Windows-Audit-Policy

@@ -6,8 +6,8 @@ date: 2023-05-25
 lastmod: 2026-05-24
 description: "Complete guide to obtaining file hashes on Windows using PowerShell Get-FileHash. Learn SHA256, MD5, SHA1 hash verification, comparison, and automation for security and integrity checks in 2026."
 tags: ["file hashes", "PowerShell", "SHA256 hash", "MD5 hash", "SHA1 hash", "file integrity", "data authentication", "file verification", "hashing algorithms", "Windows operating system", "scripting language", "command-line shell", "data security", "digital forensics", "cybersecurity", "hash computation", "file tampering", "data integrity", "file authenticity", "Windows security", "file identification", "cyber defense", "file security", "data protection", "data verification", "file validation", "Windows PowerShell", "hash generation", "hash algorithms", "hash functions", "PowerShell Get-FileHash", "Get-FileHash cmdlet", "PowerShell file hash", "verify file integrity", "hash comparison", "automate hash checks"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
-coverAlt: "A cartoon illustration showing a file with a lock symbol and a magnifying glass, representing file hash verification and security."
+cover: "/img/cover/how-to-get-hashes-of-files-in-windows.webp"
+coverAlt: "An illustration of a PowerShell command interface on a dark background, featuring colorful representations of SHA256, MD5, and SHA1 file hashes, alongside digital locks and file icons."
 coverCaption: ""
 ---
 

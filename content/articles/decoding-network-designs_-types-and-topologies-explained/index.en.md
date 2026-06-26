@@ -6,7 +6,9 @@ draft: false
 description: "Discover the Art of Network Designs & Topologies - Which Ensures Peak Efficiency"
 genre: ["Network Engineering", "IT Infrastructure", "Technology Guides", "Networking Solutions", "Cybersecurity", "Computer Science", "Technology Education", "System Architecture", "Network Optimization", "Tech Innovations"]
 tags: ["Network Designs", "Network Topologies", "Hierarchical Network", "Mesh Topology", "Star Topology", "Ring Network", "Bus Topology", "Network Layout", "Network Architectures", "Network Planning", "Reliable Networks", "IT Network Setup", "Efficient Networking", "Network Connectivity", "Fault Tolerance", "Data Transmission", "Scalable Networks", "Network Infrastructure", "LAN Topologies", "Wireless Networks", "Network Redundancy", "Secure Network Design", "Computer Network Types", "Network Fault Tolerance", "Centralized Network", "Decentralized Networking", "Loop Network Structure", "Shared Network Medium", "Hybrid Network Design", "Network Design Fundamentals"]
-cover: "/img/cover/decoding-network-designs_-types-and-topologies-explained.jpeg"
+cover: "/img/cover/decoding-network-designs_-types-and-topologies-explained.webp"
+coverAlt: "An illustration showing various network topologies with interconnected devices, including hierarchical, mesh, star, ring, and bus designs, all against a dark background with vibrant colors."
+coverCaption: ""
 ---
 
 Decoding Network Designs: Types and Topologies Explained

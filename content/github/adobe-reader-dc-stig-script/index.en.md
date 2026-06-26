@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Simplify enterprise compliance process with the Adobe Reader Pro DC STIG Automation Script, ensuring 100% compliance with specified STIGs and SRGs through automation."
 tags: ["Adobe Reader DC STIG Script", "STIGs", "Adobe Reader Pro DC", "Enterprise Compliance", "Automation", "PowerShell", "SRGs", "GitHub Repository", "Security", "Cybersecurity", "IT Security", "Compliance Automation", "Compliance Management", "Scripting", "Continuous Compliance", "Cybersecurity Automation", "Security Automation", "Information Security", "Information Technology"]
+cover: "/img/cover/adobe-reader-dc-stig-script.webp"
+coverAlt: "An illustration of a futuristic workspace with a person using a holographic interface that displays automated compliance checks for Adobe Reader Pro DC. The background is dark with vibrant accents."
+coverCaption: ""
 ---
 
 In enterprise environments, achieving 100% compliance with Security Technical Implementation Guides (STIGs) is crucial for improving the security of the environment. However, the process of applying Adobe Reader Pro DC STIGs manually can be time-consuming and error-prone. Fortunately, there is a PowerShell script available that automates this process, simplifying the compliance process and helping ensure complete compliance with the specified STIGs and SRGs.

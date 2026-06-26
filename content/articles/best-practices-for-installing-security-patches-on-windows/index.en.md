@@ -5,8 +5,8 @@ toc: true
 draft: false
 description: "Learn how to install cumulative security patches on Windows and follow best practices to keep your system secure from cyber attacks."
 tags: ["Windows", "security patches", "cybersecurity", "system security", "Microsoft", "cumulative patches", "patch management", "data backup", "Spectre Meltdown", "encryption", "system vulnerabilities", "system updates", "patch deployment", "non-production environments", "system configuration", "IT security", "patch management system", "vulnerability scanning", "release notes", "system maintenance"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
-coverAlt: "A cartoon image of a shield with a Windows logo on it being protected by a lock"
+cover: "/img/cover/best-practices-for-installing-security-patches-on-windows.webp"
+coverAlt: "A technician of diverse background sits at a desk with a desktop monitor showing a Windows update screen, surrounded by tech gadgets, in a dark setting with vibrant blue and green accents."
 coverCaption: ""
 ---
 

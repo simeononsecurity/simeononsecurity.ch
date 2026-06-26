@@ -4,6 +4,9 @@ toc: false
 draft: false
 description: "Members of the community who keep things safe and secure, with honors"
 tags: ['Hall of Fame', 'HoF']
+cover: "/img/cover/index.en.md.webp"
+coverAlt: "Cover image for: SimeonOnSecurity - Hall of Fame"
+coverCaption: ""
 ---
 
 ## Hall of Fame

@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Enhance the security and privacy of your FireFox browser with this automated script based on suggestions from PrivacyTools.io and ffprofile."
 tags: ["FireFox", "Privacy", "Security", "Automation", "Powershell", "Configuration", "PrivacyTools.io", "ffprofile", "Windows", "Extensions", "Telemetry", "Cookies", "Trackers", "Blocking", "Enhancement", "Script", "GitHub", "Online Privacy", "Online Security", "Browser Privacy"]
+cover: "/img/cover/firefox-privacy-script.webp"
+coverAlt: "A digital illustration of a modern computer interface with the Firefox browser, featuring visual elements like a glowing shield and icons for privacy tools against a dark background."
+coverCaption: ""
 ---
 
 FireFox Privacy Script

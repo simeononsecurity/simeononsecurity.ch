@@ -4,8 +4,8 @@ draft: false
 description: "Learn how to use an automated RSA attack tool, RsaCtfTool, to easily solve the HackTheBox Weak RSA Crypto challenge."
 tags: ["HackTheBox", "Challenges", "Crypto", "Weak RSA", "RsaCtfTool", "HTB Weak RSA Crypto", "Easy challenge", "RSA cipher", "flag.enc", "key.pub", "OpenSSL package", "automated RSA attack tool", "python script", "RsaCtfTool", "python3", "public key", "uncipherfile", "Flag Example"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
-coverAlt: "A cartoon hacker wearing a cape and a mask, standing in front of a vault door with the HTB logo on it and holding a tool (such as a wrench or a screwdriver) with a green background symbolizing success and the flag in a speech bubble above their head."
+cover: "/img/cover/hackthebox-challenges-crypto-weak_rsa.webp"
+coverAlt: "An abstract illustration of a futuristic interface showing RSA encryption concepts, featuring a key diagram and an encrypted flag, set against a dark background with vibrant colors."
 coverCaption: ""
 ---
 Solve the HTB Weak RSA Crypto challenge with ease. Based on the RSA cipher, this easy challenge requires the use of an automated RSA attack tool like the RsaCtfTool. Get the flag with a simple command and expand your crypto skills with HackTheBox challenges.

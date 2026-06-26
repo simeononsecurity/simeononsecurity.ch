@@ -6,8 +6,8 @@ draft: false
 description: "Discover essential guidelines for creating strong passwords, tips for effective password management, and instructions for setting up multi-factor authentication to enhance the security of your accounts."
 genre: ["Password Security", "Account Protection", "Sensitive Information", "Password Management", "Multi-Factor Authentication", "Security Guidelines", "Strong Passwords", "Password Managers", "Secure Storage", "Password Confidentiality"]
 tags: ["password security", "account protection", "sensitive information", "password management", "multi-factor authentication", "security guidelines", "strong passwords", "password strength", "password managers", "secure storage", "password confidentiality", "password creation", "avoiding common passwords", "password complexity", "password updates", "password reuse", "password manager benefits", "secure password storage", "never share passwords", "educate users", "effective password management practices", "choosing a reliable password manager", "protecting sensitive information with strong passwords", "enhancing account security with multi-factor authentication", "best practices for password strength", "securing passwords from unauthorized access", "importance of unique passwords for each account", "secure methods for sharing access", "educating users on password security", "maintaining password confidentiality"]
-cover: "/img/cover/An_illustration_depicting_a_lock_with_a_shield_.png"
-coverAlt: "An illustration depicting a lock with a shield symbolizing password security and protection."
+cover: "/img/cover/password-security-checklist.webp"
+coverAlt: "A digital illustration of a secure password vault with glowing locks and digital nodes, set against a dark background. The colors are vibrant blues, greens, and purples, emphasizing password security."
 coverCaption: "Guarding Your Passwords, Shielding Your Accounts"
 ---
 

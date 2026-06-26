@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["XFS File System", "Data Management", "Data Recovery", "Backup and Restore", "Red Hat", "File System Best Practices", "Shodan_PS Repository", "Internet-connected Devices", "GitHub Updates", "Windows Compression Format", "Linux Apps", "PHP 8 Features", "Technology Videos"]
 tags: ["XFS File System", "Data Management", "Data Recovery", "Backup and Restore", "Red Hat", "File System Best Practices", "Shodan_PS Repository", "Internet-connected Devices", "GitHub Updates", "Windows Compression Format", "Linux Apps", "PHP 8 Features", "Technology Videos", "SimeonOnSecurity GitHub", "File System Backup", "File System Recovery", "File System Tools", "Linux Applications", "Internet of Things", "Windows OS", "Technology Updates", "Compression Formats", "Software Development", "Project Completion Tips"]
+cover: "/img/cover/2021-01-09.webp"
+coverAlt: "An illustration of a server room with servers and colorful data flow graphics, symbolizing XFS data management and recovery, set against a dark navy background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**
