@@ -178,19 +178,30 @@ def slug_from_path(md_path: str) -> str:
 # Detection: which articles need a cover?
 # ---------------------------------------------------------------------------
 
-def cover_file_exists(cover_value: str) -> bool:
-    if not cover_value:
-        return False
-    relative = cover_value.lstrip("/")
-    return (REPO_ROOT / "static" / relative).exists()
+def needs_cover(md_path: str, force: bool = False) -> bool:
+    """
+    Returns True only when the article has no cover set (field absent or empty).
 
+    If force=True, also returns True when the cover field is set but the
+    referenced file does not exist on disk — allowing broken covers to be
+    regenerated.  Use --force on the CLI to enable this.
 
-def needs_cover(md_path: str) -> bool:
-    text = Path(md_path).read_text(encoding="utf-8")
-    cover_val = get_field(text, "cover")
+    We deliberately do NOT regenerate when a non-empty cover value is already
+    present and force is False, even if the file happens to be missing from
+    this checkout. That protects hand-crafted or externally-hosted cover art.
+    """
+    text      = Path(md_path).read_text(encoding="utf-8")
+    cover_val = get_field(text, "cover").strip()
+
     if not cover_val:
-        return True
-    return not cover_file_exists(cover_val)
+        return True   # no cover at all — always generate
+
+    if force:
+        # In force mode, also flag covers whose file is absent on disk
+        relative = cover_val.lstrip("/")
+        return not (REPO_ROOT / "static" / relative).exists()
+
+    return False      # cover field is set — leave it alone
 
 
 def resolve_content_dirs(spec: str) -> list[str]:
@@ -222,11 +233,11 @@ def resolve_content_dirs(spec: str) -> list[str]:
     return globs
 
 
-def find_articles_without_covers(content_globs: list[str]) -> list[str]:
+def find_articles_without_covers(content_globs: list[str], force: bool = False) -> list[str]:
     missing = []
     for pattern in content_globs:
         for md_path in sorted(glob.glob(pattern, recursive=True)):
-            if needs_cover(md_path):
+            if needs_cover(md_path, force=force):
                 missing.append(md_path)
     return missing
 
@@ -539,6 +550,11 @@ def main() -> None:
                         ))
     parser.add_argument("--slug", type=str, default="",
                         help="Process only the article/guide with this slug.")
+    parser.add_argument("--force", action="store_true",
+                        help="Also (re-)generate covers whose cover field is set but "
+                             "the referenced file is missing on disk. "
+                             "Never overwrites articles that already have a cover "
+                             "field pointing to an existing file.")
     args = parser.parse_args()
 
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
@@ -556,7 +572,7 @@ def main() -> None:
         sys.exit(1)
 
     print("Scanning for articles without cover images...")
-    missing = find_articles_without_covers(globs)
+    missing = find_articles_without_covers(globs, force=args.force)
     if args.slug:
         missing = [p for p in missing if slug_from_path(p) == args.slug]
 
