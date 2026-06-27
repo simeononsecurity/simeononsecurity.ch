@@ -10,7 +10,7 @@ Two-step AI cover image pipeline:
   Step 2 – gpt-image-2 generates a native 2048×1152 image (exact 16:9, 2K+).
 
 For each article it then:
-  • Saves the image to static/img/cover/<slug>.webp
+  • Saves the image to assets/img/cover/<slug>.webp
   • Patches the frontmatter cover / coverAlt / coverCaption fields.
 
 Already-generated images (file exists on disk) are skipped automatically,
@@ -87,7 +87,7 @@ except ImportError:
 # Paths
 # ---------------------------------------------------------------------------
 REPO_ROOT      = Path(__file__).resolve().parent.parent
-COVER_DIR      = REPO_ROOT / "static" / "img" / "cover"
+COVER_DIR      = REPO_ROOT / "assets" / "img" / "cover"
 COVER_URL_BASE = "/img/cover"
 CONTENT_DIR    = REPO_ROOT / "content"
 
@@ -199,7 +199,7 @@ def needs_cover(md_path: str, force: bool = False) -> bool:
     if force:
         # In force mode, also flag covers whose file is absent on disk
         relative = cover_val.lstrip("/")
-        return not (REPO_ROOT / "static" / relative).exists()
+        return not (REPO_ROOT / "assets" / relative).exists()
 
     return False      # cover field is set — leave it alone
 
