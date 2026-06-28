@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn how to safeguard your Windows system against speculative execution side-channel attacks with Microsoft's mitigation script and firmware updates"
 tags: ["Windows Spectre Meltdown Mitigation Script", "Speculative Execution Side-Channel Attacks", "Microsoft", "Intel", "AMD", "VIA", "ARM", "Android", "Chrome", "iOS", "macOS", "Branch Target Injection", "Bounds Check Bypass", "Rogue Data Cache Load", "Speculative Store Bypass", "Microarchitectural Data Sampling", "CVEs", "Firmware Updates", "GitHub Repository", "PowerShell"]
+cover: "/img/cover/Windows-Spectre-Meltdown-Mitigation-Script.webp"
+coverAlt: "An abstract illustration of a computer processor with glowing circuits and vibrant data streams, set against a dark background, symbolizing speculative execution side-channel attack protections."
+coverCaption: ""
 ---
 #### https://support.microsoft.com/en-us/help/4073119/protect-against-speculative-execution-side-channel-vulnerabilities-in
 **Simple script to implement protections against speculative execution side-channel vulnerabilities in Windows systems.**

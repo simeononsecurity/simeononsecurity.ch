@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Streamline your security compliance with Ansible STIG Playbooks for Windows systems."
 tags: ["Automation", "Windows Compliance", "Ansible STIG Playbooks", "Windows Hardening", "STIG Scripts", "STIG Compliance", "Ansible Galaxy", "PowerShell", "PowerShell Script", "Windows Server", "Windows Defender", ".NET", "FireFox", "Oracle JRE 8", "Adobe Reader DC", "Internet Connectivity", "Offline Compatibility", "Security Hardening", "Windows Security"]
+cover: "/img/cover/Windows_STIG_Ansible.webp"
+coverAlt: "An illustration of a futuristic computer network with colorful workflows and nodes, centered around a computer screen showing compliance checks, all set against a dark background."
+coverCaption: ""
 ---
 
 

@@ -6,6 +6,9 @@ draft: false
 description: "Today I Learned about Custom Windows Image Creation, Sysprep, and Generalizing"
 genre: ["Windows Image Management", "Customization", "Windows Deployment", "Sysprep", "Generalization", "Windows 10", "Windows 11", "Image Capture", "Image Deployment", "NTLite", "Windows Optimization"]
 tags: ["Sysprep", "NTLite", "Generalization", "Custom Images", "Custom Windows Images", "Windows 11", "Debloat", "Customization", "image capture", "image deployment", "Windows image management", "Windows deployment tools", "Windows image customization", "Windows image optimization", "Microsoft Learn", "WinCustom repository"]
+cover: "/img/cover/2023-01-30.webp"
+coverAlt: "A digital workspace featuring a computer screen with a graphical interface of the DISM tool, surrounded by colorful abstract representations of Windows components, all set against a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

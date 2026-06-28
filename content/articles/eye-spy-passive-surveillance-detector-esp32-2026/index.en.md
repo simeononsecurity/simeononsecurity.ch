@@ -16,11 +16,11 @@ coverCaption: ""
 
 ## Introduction: The Surveillance Landscape You Can't See
 
-The physical world is increasingly instrumented with devices that watch, record, and track - license-plate readers on street corners, body cameras on law enforcement, rental property cameras, commercial AirTag-style trackers hidden in bags or cars, and commercial surveillance cameras at every retail entrance. Most of these devices communicate wirelessly over Bluetooth LE or WiFi, and most of those communications are broadcast into the open air for anyone with the right receiver to detect.
+The physical world is increasingly instrumented with devices that watch, record, and track - license-plate readers on street corners, body cameras on law enforcement, rental property cameras, commercial AirTag-style trackers hidden in bags or cars, and commercial surveillance cameras at every retail entrance. Most of these devices communicate wirelessly over **Bluetooth LE** or **WiFi**, and *most of those communications are broadcast into the open air for anyone with the right receiver to detect*.
 
-[**Eye Spy**](https://github.com/simeononsecurity/eye-spy) is a passive surveillance detection tool that exploits exactly this fact. Running on the M5Stack Atom Lite - an ESP32-PICO-D4 development board roughly the size of a sugar cube - Eye Spy continuously monitors the BLE and WiFi spectrums for the electronic signatures of recording devices, surveillance cameras, ALPR (automatic license plate reader) systems, drones, and personal trackers. When it finds something, its RGB LED changes color.
+[**Eye Spy**](https://github.com/simeononsecurity/eye-spy) is a passive surveillance detection tool that exploits exactly this fact. Running on the **M5Stack Atom Lite** - an ESP32-PICO-D4 development board roughly the size of a sugar cube - Eye Spy continuously monitors the BLE and WiFi spectrums for the electronic signatures of recording devices, surveillance cameras, **ALPR** (automatic license plate reader) systems, drones, and personal trackers. When it finds something, its RGB LED changes color.
 
-It doesn't connect to anything. It doesn't transmit. It watches, scores, and lights up.
+*It doesn't connect to anything. It doesn't transmit.* It watches, scores, and lights up.
 
 This article is a complete technical reference: what Eye Spy detects, how the confidence-score system works, the engineering behind each detection engine, how to build and flash it, and what its practical limitations are.
 
@@ -37,7 +37,7 @@ Like the [ESP32 WiFi Canary](https://simeononsecurity.com/articles/esp32-wifi-ca
 | 🟡 Yellow solid | Caution - possible recording device nearby | 3–5 |
 | 🔴 Red flashing | Alert - definite surveillance / tracking device detected | 6+ |
 
-A single high-confidence detection (Axon body camera, Flock Safety camera, ALPR OUI match, AirTag) scores enough points to immediately push the LED to red in a single detection cycle. Multiple medium-confidence detections accumulate to yellow and can combine toward red.
+**A single high-confidence detection (Axon body camera, Flock Safety camera, ALPR OUI match, AirTag) scores enough points to immediately push the LED to red in a single detection cycle.** Multiple medium-confidence detections accumulate to yellow and can combine toward red.
 
 ---
 
@@ -53,7 +53,7 @@ A single high-confidence detection (Axon body camera, Flock Safety camera, ALPR 
 | Button | GPIO 39 (input only) |
 | Flash | 4 MB |
 
-The Atom Lite is a complete self-contained platform. No soldering, no breadboard, no external components. Plug it into USB and it runs.
+The Atom Lite is a complete self-contained platform. **No soldering, no breadboard, no external components.** Plug it into USB and it runs.
 
 ### Generic ESP32 DevKit
 
@@ -71,7 +71,7 @@ The score drops **−1 point every 60 seconds** without new detections. If you m
 
 ### Re-Score Cooldown
 
-Each detection *type* has a **120-second cooldown** before it can add points again from the same source. This prevents a single persistent device from infinitely stacking the score - a Flock Safety camera that remains in range adds +5 once, then waits 120 seconds before it can contribute again.
+Each detection *type* has a **120-second cooldown** before it can add points again from the same source. *This prevents a single persistent device from infinitely stacking the score* - a Flock Safety camera that remains in range adds +5 once, then waits 120 seconds before it can contribute again.
 
 These two mechanisms together mean:
 
@@ -93,7 +93,7 @@ BLE is explicitly stopped before any WiFi operations to respect the shared ESP32
 
 ### Engine 1: BLE - Passive Scanning
 
-BLE scanning is implemented using **NimBLE with no scan requests transmitted**. The device listens for BLE advertising packets without sending any response. This makes Eye Spy electronically invisible to the equipment it is scanning for - a passive scanner can't be detected by the target.
+BLE scanning is implemented using **NimBLE with no scan requests transmitted**. The device listens for BLE advertising packets without sending any response. *This makes Eye Spy electronically invisible to the equipment it is scanning for* - a passive scanner can't be detected by the target.
 
 Devices weaker than **−90 dBm** are ignored to reduce false positives in dense environments.
 
@@ -115,19 +115,19 @@ Devices weaker than **−90 dBm** are ignored to reduce false positives in dense
 
 #### Notable BLE Detections in Depth
 
-**Axon Body Camera (+5)**: Axon (formerly TASER International) manufactures the most widely deployed body camera systems for law enforcement in the United States. The OUI `00:25:df` is registered to Axon and appears in their wearable hardware. A single detection immediately reaches the Alert threshold.
+**Axon Body Camera (+5)**: Axon (formerly TASER International) manufactures the most widely deployed body camera systems for law enforcement in the United States. The OUI `00:25:df` is registered to Axon and appears in their wearable hardware. **A single detection immediately reaches the Alert threshold.**
 
-**Ray-Ban Meta Smart Glasses (+5)**: The Ray-Ban Meta collaboration produces consumer smart glasses capable of video and photo recording. The BLE service UUID `0xFD5F` is the characteristic advertisement used by these devices. Notably, these are a consumer product and may appear in crowded public spaces - any detection at this score level is worth awareness regardless of the wearer's intent.
+**Ray-Ban Meta Smart Glasses (+5)**: The Ray-Ban Meta collaboration produces consumer smart glasses capable of video and photo recording. The BLE service UUID `0xFD5F` is the characteristic advertisement used by these devices. *Notably, these are a consumer product and may appear in crowded public spaces* - any detection at this score level is worth awareness regardless of the wearer's intent.
 
-**Card Skimmer Bluetooth Modules (+5)**: HC-03, HC-05, and HC-06 are cheap commodity Bluetooth serial modules frequently discovered in payment terminal overlays and ATM skimmer hardware. Detection uses exact device name matching against known module firmware default names. This is one of the more unusual detections in the suite.
+**Card Skimmer Bluetooth Modules (+5)**: HC-03, HC-05, and HC-06 are cheap commodity Bluetooth serial modules frequently discovered in payment terminal overlays and ATM skimmer hardware. Detection uses exact device name matching against known module firmware default names. **A red alert here warrants immediate physical inspection of nearby payment terminals.**
 
-**Apple AirTag (+4)**: AirTags advertise using Apple's proprietary Nearby Interaction protocol. The detection targets the manufacturer-specific data header (`0x004C` = Apple) with the AirTag-specific subtypes (`0x12` for the standard advertisement, `0x1E` for the lost-item advertisement). Raw payload patterns provide redundant detection coverage.
+**Apple AirTag (+4)**: AirTags advertise using Apple's proprietary **Nearby Interaction** protocol. The detection targets the manufacturer-specific data header (`0x004C` = Apple) with the AirTag-specific subtypes (`0x12` for the standard advertisement, `0x1E` for the lost-item advertisement). Raw payload patterns provide redundant detection coverage.
 
-**OpenDroneID BLE (+4)**: The ASTM F3411 Remote ID standard (also adopted by FAA for commercial drones in the US) defines a broadcast protocol for drones to announce their identity and position. Eye Spy looks for the GATT service UUID `0xFFFA` (the designated Remote ID service) and the application code `0x0D` in AD service-data payloads. Any compliant commercial drone operating nearby will trigger this detection.
+**OpenDroneID BLE (+4)**: The **ASTM F3411 Remote ID** standard (also adopted by FAA for commercial drones in the US) defines a broadcast protocol for drones to announce their identity and position. Eye Spy looks for the GATT service UUID `0xFFFA` (the designated Remote ID service) and the application code `0x0D` in AD service-data payloads. *Any compliant commercial drone operating nearby will trigger this detection.*
 
-**Unknown Persistent Device (+2)**: This is the **follower detection** engine. Any BLE MAC not classified by the specific detections above is tracked. If the same unclassified MAC appears three or more times over five or more minutes, it scores. The device persistence tracker watches up to 50 unknown MACs simultaneously, with entries purged after 30 minutes of absence. This catches custom or modified trackers that don't match any known service UUID or manufacturer pattern.
+**Unknown Persistent Device (+2)**: This is the **follower detection** engine. Any BLE MAC not classified by the specific detections above is tracked. If the same unclassified MAC appears three or more times over five or more minutes, it scores. The device persistence tracker watches up to 50 unknown MACs simultaneously, with entries purged after 30 minutes of absence. **This catches custom or modified trackers that don't match any known service UUID or manufacturer pattern.**
 
-**iBeacon (+2)**: Apple's iBeacon format (`0x4C 0x00 0x02 0x15`) is used by retailers, airports, and stadiums to track device movement through physical spaces. The detection fires on the standard advertisement format regardless of UUID - targeting the deployment type, not any specific UUID. A hit here means you're likely in a location that is actively tracking Bluetooth device presence.
+**iBeacon (+2)**: Apple's iBeacon format (`0x4C 0x00 0x02 0x15`) is used by retailers, airports, and stadiums to track device movement through physical spaces. The detection fires on the standard advertisement format regardless of UUID - targeting the deployment type, not any specific UUID. *A hit here means you're likely in a location that is actively tracking Bluetooth device presence.*
 
 ---
 
@@ -154,9 +154,9 @@ The 22-entry `FLOCK_OUIS` table is the most detailed lookup in the project. It c
 - `3c:61:05` - IEEE-registered Flock Safety OUI
 - 20 additional MAC prefixes observed on Flock FS-Ext-Battery and Flock Wi-Fi camera hardware in the field
 
-These 22 entries represent hardware MAC ranges that have been observed on deployed Flock Safety ALPR camera systems. Detection via OUI is independent of SSID - a Flock camera with a non-keyword SSID still scores +5 if its BSSID OUI matches.
+These 22 entries represent hardware MAC ranges that have been observed on deployed Flock Safety ALPR camera systems. **Detection via OUI is independent of SSID** - a Flock camera with a non-keyword SSID still scores +5 if its BSSID OUI matches.
 
-Flock Safety and Vigilant Solutions OUIs are in separate tables specifically so both can score independently in the same scan cycle. A location with both vendor types could accumulate +10 in a single WiFi scan pass.
+Flock Safety and Vigilant Solutions OUIs are in separate tables specifically so both can score independently in the same scan cycle. *A location with both vendor types could accumulate +10 in a single WiFi scan pass.*
 
 #### Surveillance Camera Vendor OUI Table
 
@@ -166,13 +166,13 @@ The 31-entry surveillance camera table covers the major IP camera manufacturers 
 - **Consumer/SOHO**: Ring, Nest, Arlo, Wyze, Reolink, Blink, Lorex, Amcrest
 - **Infrastructure**: Ubiquiti UniFi (access points and cameras share OUI space), FLIR
 
-A match here scores +3 (Caution-range) without any keyword confirmation. Combined with a keyword SSID match, the same camera network could score +5 on the OUI alone, then +2 more from the SSID, reaching Alert in a single scan cycle.
+A match here scores +3 (Caution-range) without any keyword confirmation. Combined with a keyword SSID match, the same camera network scores +5 on the OUI alone, then +2 more from the SSID, reaching Alert in a single scan cycle.
 
 ---
 
 ### Engine 3: WiFi Promiscuous - Passive Frame Sniffing
 
-The promiscuous engine drops the ESP32 radio into monitor mode and captures raw 802.11 management frames. This enables detection of devices that don't advertise an SSID - specifically, drones using the Remote ID protocol over WiFi Neighbor Awareness Networking (NaN).
+The promiscuous engine drops the ESP32 radio into **monitor mode** and captures raw 802.11 management frames. This enables detection of devices that don't advertise an SSID - specifically, drones using the **Remote ID** protocol over **WiFi Neighbor Awareness Networking (NaN)**.
 
 During the promiscuous phase, the radio **channel-hops** across `{1, 6, 11, 3, 8, 13}` every 400 ms to maximize coverage of the drone NaN frame broadcast channels.
 
@@ -182,9 +182,9 @@ During the promiscuous phase, the radio **channel-hops** across `{1, 6, 11, 3, 8
 |---|--------|-----------------|-------|
 | 18 | **Drone (OpenDroneID WiFi NaN)** | 802.11 Management frame to destination `51:6f:9a:01:00:00` - ASTM F3411 Remote ID broadcast | +4 🔴 |
 
-**OpenDroneID WiFi NaN (+4)**: The ASTM F3411 standard defines a multicast destination address `51:6f:9a:01:00:00` for all Remote ID WiFi NaN frames. Any commercially regulated drone broadcasting its position and identity over WiFi will send frames to this destination. Eye Spy simply watches for management frames addressed to this multicast MAC - passive, reliable, and unpatchable by the drone operator short of disabling Remote ID entirely (which would itself be a regulatory violation).
+**OpenDroneID WiFi NaN (+4)**: The ASTM F3411 standard defines a multicast destination address `51:6f:9a:01:00:00` for all Remote ID WiFi NaN frames. Any commercially regulated drone broadcasting its position and identity over WiFi will send frames to this destination. Eye Spy simply watches for management frames addressed to this multicast MAC - passive, reliable, and *unpatchable by the drone operator short of disabling Remote ID entirely (which would itself be a regulatory violation)*.
 
-This detection complements the BLE OpenDroneID engine (detection #6). A drone may advertise over BLE, WiFi, or both depending on its hardware and configuration. Eye Spy covers both.
+This detection complements the BLE OpenDroneID engine (detection #6). *A drone may advertise over BLE, WiFi, or both depending on its hardware and configuration.* Eye Spy covers both.
 
 ---
 
@@ -194,7 +194,7 @@ This detection complements the BLE OpenDroneID engine (detection #6). A drone ma
 BLE passive (9 s) → WiFi scan (~3 s) → Promiscuous sniff (5 s) → repeat
 ```
 
-The ESP32-PICO-D4 has a single shared 2.4 GHz radio that handles both BLE and WiFi. Eye Spy manages this carefully:
+The ESP32-PICO-D4 has a **single shared 2.4 GHz radio** that handles both BLE and WiFi. Eye Spy manages this carefully:
 
 1. **BLE phase** (9 seconds): NimBLE stack active, passive scan running, no scan requests transmitted
 2. **BLE shutdown**: BLE stack explicitly stopped before touching WiFi
@@ -317,7 +317,7 @@ board = esp32dev
 framework = arduino
 ```
 
-The `atom-lite` environment uses the `m5stick-c` board definition - same ESP32-PICO-D4 silicon with a compatible pin mapping for GPIO 27 NeoPixel.
+*The `atom-lite` environment uses the `m5stick-c` board definition* - same ESP32-PICO-D4 silicon with a compatible pin mapping for GPIO 27 NeoPixel.
 
 ---
 
@@ -325,23 +325,23 @@ The `atom-lite` environment uses the `m5stick-c` board definition - same ESP32-P
 
 ### What Eye Spy Cannot Do
 
-**5 GHz WiFi**: The ESP32 is a 2.4 GHz-only device. Any surveillance camera, ALPR system, or access point operating exclusively on 5 GHz bands won't be visible to the WiFi scan or promiscuous engines. Many modern IP cameras are 2.4 GHz capable even if they also support 5 GHz, but dedicated 5 GHz-only deployments will be missed.
+**5 GHz WiFi**: The ESP32 is a **2.4 GHz-only device**. Any surveillance camera, ALPR system, or access point operating exclusively on 5 GHz bands won't be visible to the WiFi scan or promiscuous engines. *Many modern IP cameras are 2.4 GHz capable even if they also support 5 GHz, but dedicated 5 GHz-only deployments will be missed.*
 
-**Encrypted BLE**: Several high-end surveillance products encrypt or obfuscate their BLE advertisements. Eye Spy detects devices that broadcast identifiable signatures - OUIs, service UUIDs, manufacturer data - in plaintext. Devices that rotate MAC addresses (a privacy feature increasingly common in consumer trackers) will evade MAC-based detection and may only be caught by the persistence tracker if they rotate on a schedule slower than 5 minutes.
+**Encrypted BLE**: Several high-end surveillance products encrypt or obfuscate their BLE advertisements. Eye Spy detects devices that broadcast identifiable signatures - OUIs, service UUIDs, manufacturer data - in plaintext. *Devices that rotate MAC addresses (a privacy feature increasingly common in consumer trackers) will evade MAC-based detection* and may only be caught by the persistence tracker if they rotate on a schedule slower than 5 minutes.
 
-**Wired cameras**: IP cameras connected via Ethernet and not running a WiFi radio will produce no wireless emissions for Eye Spy to detect. Hidden cameras without network connectivity (purely local recording) similarly produce no RF signature.
+**Wired cameras**: **IP cameras connected via Ethernet and not running a WiFi radio will produce no wireless emissions for Eye Spy to detect.** Hidden cameras without network connectivity (purely local recording) similarly produce no RF signature.
 
-**Range limitations**: The ESP32 antenna has practical indoor receive range of 20–40 meters for strong signals, less for weak or obscured signals. Devices at the edge of range or behind significant RF shielding may score zero or fail the −90 dBm RSSI threshold filter.
+**Range limitations**: The ESP32 antenna has practical indoor receive range of **20–40 meters** for strong signals, less for weak or obscured signals. *Devices at the edge of range or behind significant RF shielding may score zero or fail the −90 dBm RSSI threshold filter.*
 
 ### False Positives to Expect
 
-**Consumer cameras at neighbors' homes**: Ring, Nest, Wyze, Arlo, and Reolink cameras are ubiquitous in residential neighborhoods. Their OUIs appear in the 31-entry camera table. In residential environments, you should expect some yellow (Caution, +3) hits from neighbors' doorbell cameras. These aren't false positives in the technical sense - the device *is* detecting a camera - but context matters.
+**Consumer cameras at neighbors' homes**: Ring, Nest, Wyze, Arlo, and Reolink cameras are ubiquitous in residential neighborhoods. Their OUIs appear in the 31-entry camera table. *In residential environments, expect some yellow (Caution, +3) hits from neighbors' doorbell cameras.* These aren't false positives in the technical sense - the device *is* detecting a camera - but context matters.
 
-**Retail iBeacon deployments**: Major retailers deploy iBeacon infrastructure in virtually every store. Any detection trip to a mall or grocery store will likely trigger the iBeacon detection (+2). Again, the device is doing its job - the retail tracking infrastructure really is there.
+**Retail iBeacon deployments**: Major retailers deploy iBeacon infrastructure in virtually every store. *Any detection trip to a mall or grocery store will likely trigger the iBeacon detection (+2).* Again, the device is doing its job - the retail tracking infrastructure really is there.
 
-**Ubiquiti UniFi infrastructure**: UniFi access points appear in the surveillance camera OUI table because Ubiquiti manufactures both networking and security camera products under overlapping OUI ranges. A deployment that uses UniFi networking gear will score +3 on OUI matches from the WiFi scan engine.
+**Ubiquiti UniFi infrastructure**: UniFi access points appear in the surveillance camera OUI table because Ubiquiti manufactures both networking and security camera products under overlapping OUI ranges. *A deployment that uses UniFi networking gear will score +3 on OUI matches from the WiFi scan engine.*
 
-**Samsung SmartTag vs. consumer devices**: The SmartTag UUID (`0xFD5A`) is a Samsung-registered service. Samsung SmartTags are consumer product trackers with legitimate personal use. Any Samsung SmartTag owner in vicinity will trigger this detection.
+**Samsung SmartTag vs. consumer devices**: The SmartTag UUID (`0xFD5A`) is a Samsung-registered service. *Samsung SmartTags are consumer product trackers with legitimate personal use.* Any Samsung SmartTag owner in vicinity will trigger this detection.
 
 ### What Each Score Level Actually Means in Practice
 
@@ -355,7 +355,7 @@ The `atom-lite` environment uses the `m5stick-c` board definition - same ESP32-P
 
 ## Comparison to Related Projects
 
-Eye Spy targets physical surveillance in the environment; the [ESP32 WiFi Canary](https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/) targets network-layer WiFi attacks against your own devices. They are complementary tools addressing different threat models.
+Eye Spy targets physical surveillance in the environment; the [ESP32 WiFi Canary](https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/) targets network-layer WiFi attacks against your own devices. *They are complementary tools addressing different threat models.*
 
 | Capability | Eye Spy | ESP32 WiFi Canary |
 |------------|---------|------------------|
@@ -380,15 +380,15 @@ Eye Spy also complements the [Flock You detection project](https://simeononsecur
 
 ### Counter-Surveillance Awareness
 
-The primary audience for Eye Spy is anyone who wants ambient awareness of surveillance infrastructure in their immediate vicinity. Walking through a neighborhood, driving past a traffic intersection, or attending a public event - Eye Spy provides a real-time signal that collapses complex RF analysis into a single LED state.
+The primary audience for Eye Spy is anyone who wants ambient awareness of surveillance infrastructure in their immediate vicinity. Walking through a neighborhood, driving past a traffic intersection, or attending a public event - Eye Spy provides a real-time signal that collapses complex RF analysis into a **single LED state**.
 
 ### AirTag Stalking Detection
 
-AirTag-based stalking is a documented problem. Eye Spy's follower detection engine (unknown persistent BLE MAC seen ≥3× over ≥5 minutes) specifically addresses modified or custom trackers that don't match Apple's known advertisement format. Combined with the direct AirTag detection, it provides two independent paths to catching a tracker that's following you.
+AirTag-based stalking is a documented problem. Eye Spy's **follower detection engine** (unknown persistent BLE MAC seen ≥3× over ≥5 minutes) specifically addresses modified or custom trackers that don't match Apple's known advertisement format. Combined with the direct AirTag detection, it provides **two independent paths to catching a tracker that's following you**.
 
 ### Rental Property / Hotel Room Inspection
 
-Entering a new hotel room or rental property with Eye Spy running gives a first-pass indication of unexpected BLE and WiFi-broadcasting devices. A camera keyword SSID match or surveillance OUI in the WiFi scan engine adds Caution-level points. This isn't a substitute for a proper RF sweep, but it adds a passive ambient layer to any physical inspection.
+Entering a new hotel room or rental property with Eye Spy running gives a first-pass indication of unexpected BLE and WiFi-broadcasting devices. A camera keyword SSID match or surveillance OUI in the WiFi scan engine adds Caution-level points. *This isn't a substitute for a proper RF sweep*, but it adds a passive ambient layer to any physical inspection.
 
 ### ALPR Deployments / Privacy Research
 
@@ -404,21 +404,21 @@ Like the WiFi Canary, Eye Spy is designed for travel form factor. The Atom Lite 
 
 ### Why Passive BLE Matters
 
-The choice of passive BLE scanning (no scan request packets) has meaningful security consequences. In standard BLE scanning, a scanner transmits a SCAN_REQ packet requesting additional advertising data from each advertiser. This means active BLE scanning is mutually observable - the device being scanned sees the scanner's address in the scan request.
+The choice of passive BLE scanning (no scan request packets) has meaningful security consequences. In standard BLE scanning, a scanner transmits a **SCAN_REQ** packet requesting additional advertising data from each advertiser. *This means active BLE scanning is mutually observable* - the device being scanned sees the scanner's address in the scan request.
 
-NimBLE passive mode listens only to undirected advertising packets (ADV_IND, ADV_NONCONN_IND, ADV_SCAN_IND) without ever transmitting a SCAN_REQ. The eye-spy device produces zero BLE transmission during the scan phase. An Axon body camera, Flock device, or AirTag being detected can't observe or react to the scanner's presence.
+NimBLE passive mode listens only to undirected advertising packets (ADV_IND, ADV_NONCONN_IND, ADV_SCAN_IND) without ever transmitting a SCAN_REQ. **The eye-spy device produces zero BLE transmission during the scan phase.** An Axon body camera, Flock device, or AirTag being detected can't observe or react to the scanner's presence.
 
 ### The Persistence Tracker Design
 
-The unknown-device persistence tracker maintains a table of up to 50 BLE MAC addresses with first-seen and last-seen timestamps. Detection fires when a MAC has been seen three or more times across a window of five or more minutes.
+The unknown-device persistence tracker maintains a table of up to **50 BLE MAC addresses** with first-seen and last-seen timestamps. Detection fires when a MAC has been seen three or more times across a window of five or more minutes.
 
-The 50-entry limit and 30-minute purge window are engineering choices that balance detection sensitivity against RAM constraints on the ESP32. In a dense BLE environment (transit, conference, mall), the table may fill quickly with consumer devices. The −90 dBm RSSI threshold reduces this by filtering out distant devices, keeping the tracker focused on nearby persistent sources.
+The 50-entry limit and 30-minute purge window are engineering choices that balance detection sensitivity against RAM constraints on the ESP32. *In a dense BLE environment (transit, conference, mall), the table may fill quickly with consumer devices.* The −90 dBm RSSI threshold reduces this by filtering out distant devices, keeping the tracker focused on nearby persistent sources.
 
 ### Score Decay and Cooldown Interaction
 
-The 120-second re-score cooldown prevents a device that permanently stays in range from continuously stacking points every 9-second BLE cycle. Without the cooldown, a single Flock camera would add +5 every 15 seconds, reaching hundreds of points in minutes.
+The **120-second re-score cooldown** prevents a device that permanently stays in range from continuously stacking points every 9-second BLE cycle. Without the cooldown, a single Flock camera would add +5 every 15 seconds, reaching hundreds of points in minutes.
 
-The 60-second score decay means that once a device leaves range (and its cooldown expires without re-triggering), the score drops by 1 per minute. A single +5 detection that doesn't re-trigger will decay to zero in 5 minutes. This gives the device a natural "all clear" time that matches plausible transit scenarios.
+The **60-second score decay** means that once a device leaves range (and its cooldown expires without re-triggering), the score drops by 1 per minute. *A single +5 detection that doesn't re-trigger will decay to zero in 5 minutes.* This gives the device a natural "all clear" time that matches plausible transit scenarios.
 
 ---
 
@@ -439,7 +439,7 @@ The firmware is a single `main.cpp` in the `src/` directory, making it straightf
 
 ## Conclusion
 
-Eye Spy addresses a narrow but meaningful problem: the physical surveillance environment around you is increasingly instrumented, and most of that instrumentation broadcasts detectable RF signatures. A $15 M5Stack Atom Lite running the Eye Spy firmware becomes a continuous ambient scanner that turns the complexity of BLE packet analysis and WiFi OUI lookups into a single RGB LED.
+Eye Spy addresses a narrow but meaningful problem: the physical surveillance environment around you is increasingly instrumented, and most of that instrumentation broadcasts detectable RF signatures. **A $15 M5Stack Atom Lite running the Eye Spy firmware becomes a continuous ambient scanner** that turns the complexity of BLE packet analysis and WiFi OUI lookups into a single RGB LED.
 
 The confidence-scoring model reflects realistic threat weighting: an Axon body camera at law enforcement density scores +5 and immediately illuminates red; a retail iBeacon scores +2 and contributes to a broader awareness picture without triggering a false alarm on its own. Score decay and re-score cooldowns keep the device from crying wolf on transient or persistent low-level signals.
 

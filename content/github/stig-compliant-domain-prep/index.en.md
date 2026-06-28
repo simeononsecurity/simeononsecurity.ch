@@ -6,6 +6,9 @@ description: "Make your Windows Domain compliant with STIGs and SRGs using Simeo
 genre: ["IT Security", "STIG Compliance", "Domain Security", "Enterprise Security", "Network Security", "Cybersecurity", "Configuration Management", "Group Policy", "System Hardening", "Best Practices"]
 tags: ["Windows Domain", "Group Policy Objects", "Compliance Automation", "Powershell", "GPOs", "Active Directory", "Remote Server Administration Tools", "RSAT", "Windows Server", "Domain Controller", "STIGs", "SRGs", "Windows 10", "Antivirus", "Firewall", "Internet Explorer", "Adobe Reader", "Microsoft Office", "Google Chrome", "Firefox", "Security Enhancements"]
 toc: true
+cover: "/img/cover/stig-compliant-domain-prep.webp"
+coverAlt: "A futuristic cybersecurity control center with glowing screens showing security configurations. The workspace is illuminated with vibrant colors against a dark background, emphasizing advanced technology."
+coverCaption: ""
 ---
 ## Introduction
 

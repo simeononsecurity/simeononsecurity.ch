@@ -5,6 +5,9 @@ toc: true
 date: 2026-06-26
 description: "A professional opinion on the gap between AI governance certifications and actual AI security practice. We passed several of them and came away disappointed. The frameworks are early and governance-focused. The attack surface grew faster."
 tags: ["AI security", "AI governance", "AI certifications", "NIST AI RMF", "NIST AI 600-1", "ISO 42001", "IAPP AIGP", "prompt injection", "AI cybersecurity", "LLM security", "OWASP LLM Top 10", "MITRE ATLAS", "AI risk management", "AI compliance", "machine learning security", "model supply chain", "adversarial AI", "AI agents", "MCP security", "AI red teaming", "AI governance certifications", "agentic AI", "Google SAIF"]
+cover: "/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp"
+coverAlt: "The image shows a split scene: on one side, professionals in an office discussing governance documents; on the other, chaotic digital visuals representing AI systems under cyber attack, with vibrant colors highlighting the contrast."
+coverCaption: ""
 ---
 
 We sat the exams. We passed. We came away with certificates and a level of disappointment I want to be specific about.

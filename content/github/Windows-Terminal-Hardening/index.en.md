@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Secure Windows Command Prompt and PowerShell with our comprehensive hardening script and documentation, enhancing system security and compliance."
 tags: ["PowerShell", "Hardening", "Windows Command Prompt", "Security", "Compliance", "Automation", "Constrained Language Mode", "PowerShell Logging", "PowerShell Script", "WSMAN", "PSRemoting", "Enterprise Security", "Blue Team", "Cybersecurity", "Best Practices", "Disable Command Prompt", "Disable PowerShell v2", "GitHub Repository", "Windows Defender", "Microsoft"]
+cover: "/img/cover/Windows-Terminal-Hardening.webp"
+coverAlt: "A futuristic computer terminal illustration with command lines and scripts, surrounded by abstract security symbols, all set against a dark background with vibrant blue and green accents."
+coverCaption: ""
 ---
 Scripts and Documentation for Hardening Windows Command Prompt and PowerShell
 

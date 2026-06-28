@@ -6,6 +6,9 @@ draft: false
 description: "Today I Learned more about Ansible conditionals and variable management"
 genre: ["Automation", "Windows Package Management", "Package Creation", "Package Management", "Infrastructure as Code (IaC)", "Windows Software Deployment", "Software Packaging", "Windows Automation", "Package Repositories", "Windows Tools"]
 tags: ["automation", "Powershell", "Chocolatey Package Manager", "Chocolatey", "Choco", "package creation", "package automation", "Nuspec", "Nethor", "Windows Package Managers", "IAC", "Infrastructure as Code", "Windows software deployment", "software packaging", "repository management", "package sharing", "Chocolatey documentation", "tutorial", "package publishing"]
+cover: "/img/cover/2022-05-23.webp"
+coverAlt: "A digital illustration of a computer screen with code and icons representing software packages, surrounded by colorful lines symbolizing network connections, set against a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

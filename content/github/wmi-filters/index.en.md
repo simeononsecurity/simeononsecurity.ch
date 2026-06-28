@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Enhance your Windows Group Policy deployments with WMI Filters - Download and Install from GitHub Repository for Faster and Efficient GPO Process."
 tags: ["WMI", "WMI Filters", "Windows Management Instrumentation", "Group Policy", "GPO", "Windows Group Policy Deployments", "Microsoft", "Efficient Deployments", "GitHub Repository", "Download", "Installation", "Usage Guides", "Windows Version", "Software", "Isolate Policies", "Large Domains", "GPO Process", "Targeted Settings", "WMI Queries", "Windows Firewall"]
+cover: "/img/cover/wmi-filters.webp"
+coverAlt: "An abstract digital illustration showing interconnected nodes and pathways, symbolizing WMI filters for Windows Group Policy deployments, featuring vibrant colors against a dark background."
+coverCaption: ""
 ---
 
 

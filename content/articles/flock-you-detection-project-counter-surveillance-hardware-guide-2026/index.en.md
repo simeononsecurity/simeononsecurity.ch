@@ -16,7 +16,7 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 ## Introduction: Open Source Counter-Surveillance
 
-The **Flock-You project** represents a groundbreaking development in privacy technology - an **open-source, community-driven initiative** to detect and map Flock Safety's ALPR surveillance infrastructure. Hosted on GitHub at **colonelpanichacks/flock-you**, this project leverages affordable ESP32-based hardware to identify Flock cameras through their **WiFi network signatures**.
+The **Flock-You project** is an **open-source, community-driven initiative** to detect and map Flock Safety's ALPR surveillance infrastructure. Hosted on GitHub at **colonelpanichacks/flock-you**, this project uses affordable ESP32-based hardware to identify Flock cameras through their **WiFi network signatures**.
 
 This comprehensive guide covers everything from the **technical methodology** behind Flock detection to **step-by-step setup instructions** for three hardware platforms, **firmware installation**, and **purchasing information from authorized vendors**. Whether you're a privacy advocate, security researcher, or concerned citizen, this guide will enable you to build or purchase your own detection device.
 
@@ -28,12 +28,12 @@ ______
 
 ### The Technical Foundation
 
-Flock Safety cameras contain **embedded WiFi modules** for connectivity and remote management. These modules broadcast identifiable network signatures that can be detected by devices operating in **promiscuous WiFi monitoring mode**. The Flock-You project exploits this characteristic through:
+Flock Safety cameras contain **embedded WiFi modules** for connectivity and remote management. These modules broadcast identifiable network signatures detectable by devices operating in **promiscuous WiFi monitoring mode**. The Flock-You project exploits this characteristic through:
 
 #### 1. WiFi OUI (Organizationally Unique Identifier) Detection
 
 Every network interface has a **MAC address** consisting of:
-- **First 3 bytes (24 bits)**: OUI - identifies the manufacturer
+- **First 3 bytes (24 bits)**: OUI, which identifies the manufacturer
 - **Last 3 bytes**: Device-specific identifier
 
 Researchers **@NitekryDPaul** and the **DeFlockJoplin** community discovered **31 specific OUIs** consistently present in Flock Safety camera deployments:
@@ -55,7 +55,7 @@ Additional OUIs identified in Flock deployments:
 [... 21 additional manufacturer OUIs ...]
 ```
 
-When a detection device scans WiFi traffic in promiscuous mode, it can identify **any device broadcasting frames with these OUIs**.
+When a detection device scans WiFi traffic in promiscuous mode, **it identifies any device broadcasting frames with these OUIs**.
 
 #### 2. Wildcard Probe Request Detection
 
@@ -74,7 +74,7 @@ Standard WiFi operation only receives frames addressed to your device. **Promisc
 
 - **802.11 frame structure**: Analyzing addr1, addr2, addr3 fields
 - **Management frames**: Probe requests, beacon frames, association requests
-- **Data frames**: Can reveal network behavior patterns
+- **Data frames**: Reveal network behavior patterns
 - **Control frames**: ACKs, RTSs, CTSs provide timing information
 
 ESP32 microcontrollers support promiscuous mode through the **esp_wifi API**, enabling low-cost detection hardware.
@@ -167,10 +167,10 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - ✅ Cheapest option (85-95% cost savings vs OUI-SPY)
 - ✅ Completely open-source and modifiable
 - ✅ Uses widely available ESP32 boards
-- ✅ Educational - learn embedded systems
+- ✅ Educational, teaches embedded systems
 - ✅ Extensive documentation and guides
 - ✅ 3D printable case files available
-- ✅ Same detection accuracy as premium devices
+- ✅ **Same detection accuracy as premium devices**
 
 **Cons**:
 - ❌ Requires DIY assembly (solderless breadboard or 3D case)
@@ -219,7 +219,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - Optional dashboard support
 
 **Pros**:
-- ✅ Pre-flashed - no technical setup required
+- ✅ Pre-flashed, no technical setup required
 - ✅ Affordable ready-to-go solution
 - ✅ Extremely compact and portable
 - ✅ Proven hardware platform
@@ -231,7 +231,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 **Cons**:
 - ❌ No integrated battery (needs USB power)
 - ❌ Limited display (RGB LED only, no screen)
-- ❌ Firmware is proprietary (not open-source for the moment)
+- ❌ *Firmware is proprietary, not open-source for the moment*
 - ❌ No data logging without computer connection
 - ❌ Single button limits functionality
 
@@ -255,7 +255,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - **Storage**: None (detection-only modes)
 - **Indicators**: Integrated PWM buzzer with mode-specific tunes
 - **Buttons**: Boot button for mode switching
-- **Antenna**: **Switchable** - Onboard 2.4GHz ceramic OR external via MMCX connector
+- **Antenna**: **Switchable**, onboard 2.4GHz ceramic OR external via MMCX connector
 - **Enclosure**: None (bare PCB with PCB art)
 - **Unique Feature**: MAC randomization on every boot
 
@@ -287,7 +287,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - ❌ No enclosure included (bare PCB)
 - ❌ No built-in battery
 - ❌ No display (audio-only feedback for most modes)
-- ❌ Complexity may be unnecessary for basic detection
+- ❌ *Complexity unnecessary for basic detection*
 - ❌ External GPS required for wardriving features
 
 **Best For**: Multi-purpose surveillance detection, users wanting drone + ALPR + BLE detection in one device, RF direction finding applications, those who value switchable antennas and advanced features.
@@ -358,7 +358,7 @@ ______
 
 1. **Unboxing**:
    - M5 Atom Lite device (pre-flashed with FlockYou firmware)
-   - May include USB-C cable (check product listing)
+   - Check product listing for USB-C cable inclusion
 
 2. **Power On**:
    - Connect to USB-C power source (power bank, car USB, wall adapter, computer)
@@ -380,7 +380,7 @@ ______
    - Install FlockYou dashboard per STS Collective instructions
    - View live detections in browser interface
 
-**Note**: This is proprietary firmware - can't be reflashed with open-source versions without losing STS firmware.
+**Warning**: *This is proprietary firmware. Reflashing with open-source versions will delete the STS firmware permanently.*
 
 ---
 
@@ -431,7 +431,7 @@ ______
 #### Mounting
 
 7. **Vehicle/Fixed Installation**:
-   - No case included - bare PCB
+   - *No case included, bare PCB needs protection before mounting*
    - Options:
      - 3D print custom enclosure
      - Velcro mount to dashboard
@@ -526,7 +526,7 @@ ______
 - Excellent learning resources
 - US-based fast shipping
 
-**Note**: When purchasing M5 Atom Lite, firmware must be installed separately following the DIY guide above.
+**Note**: *When purchasing a bare M5 Atom Lite, firmware must be installed separately following the DIY guide above. The pre-flashed STS Collective version is a different product.*
 
 ### Pricing Comparison Summary
 
@@ -553,7 +553,7 @@ ______
 **Procedure**:
 1. Start detection device before departing
 2. Drive your normal route
-3. Device alerts whenFlock cameras detected
+3. Device alerts when Flock cameras detected
 4. GPS coordinates automatically logged
 5. Return home and export data
 6. Import GPX/CSV into mapping software
@@ -685,7 +685,7 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 
 ### Key Technical Concepts Explained
 
-**Promiscuous Mode**: Instead of only receiving frames addressed to your device, ESP32 captures all WiFi frames in range. This is essential for detecting nearby devices that aren't communicating with your detector.
+**Promiscuous Mode**: Instead of only receiving frames addressed to your device, ESP32 captures all WiFi frames in range. **This is essential for detecting nearby devices that aren't communicating with your detector.**
 
 **MAC Address Structure**: Every WiFi frame contains multiple MAC addresses:
 - `addr1`: Receiver address
@@ -698,7 +698,7 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 - -70 dBm: Weak but usable
 - -90 dBm: Very weak (edge of range)
 
-**Probe Requests**: WiFi devices send probe requests to discover available networks. Wildcard probes (empty SSID) search for any network, which is common in IoT devices like Flock cameras.
+**Probe Requests**: WiFi devices send probe requests to discover available networks. *Wildcard probes (empty SSID) search for any network, which is common in IoT devices like Flock cameras, making them reliably detectable.*
 
 ______
 
@@ -707,22 +707,22 @@ ______
 ### Problem: No Detections Despite Known Camera Nearby
 
 **Possible Causes**:
-1. **Camera offline/powered off**: Flock cameras may be temporarily inactive
+1. **Camera offline/powered off**: Flock cameras are temporarily inactive at times
 2. **Signal blocked**: Building materials absorb WiFi (metal, concrete)
 3. **Out of range**: Effective range ~100-300 feet depending on obstacles
-4. **Firmware issue**: Outdated firmware may miss newer OUI variants
+4. **Firmware issue**: Outdated firmware misses newer OUI variants
 
 **Solutions**:
 - Confirm camera is visible and appears operational (solar panels, lights)
 - Move closer to suspected camera location
 - Try different antenna orientations
 - Update to latest Flock-You firmware
-- Check device is actually scanning (verify LED/display activity)
+- **Check device is actively scanning** (verify LED/display activity)
 
 ### Problem: Excessive False Positives
 
 **Possible Causes**:
-1. **High density of ESP32 devices**: Smart home, IoT devices common
+1. **High density of ESP32 devices**: Smart home, IoT devices are common
 2. **Sensitivity too high**: Detecting distant/irrelevant devices
 3. **Other surveillance cameras**: Many use ESP32 modules
 
@@ -738,7 +738,7 @@ ______
 **Possible Causes**:
 1. **Continuous scanning**: No sleep/power management
 2. **Display always on**: Screen consumes significant power
-3. **GPS active**: GPS modules power-hungry
+3. **GPS active**: GPS modules are power-hungry
 4. **Old battery**: Li-Po batteries degrade over time
 
 **Solutions**:
@@ -753,13 +753,13 @@ ______
 **Possible Causes**:
 1. **Indoor use**: GPS requires sky visibility
 2. **Antenna not connected**: mesh-detect v2 needs external antenna connected
-3. **Cold start**: First GPS lock can take 5-15 minutes
-4. **Interference**: Nearby electronics can interfere
+3. **Cold start**: First GPS lock takes 5-15 minutes
+4. **Interference**: Nearby electronics interfere with signal
 
 **Solutions**:
 - Move to position with clear sky view
 - Ensure antenna properly connected (SMA connector)
-- Wait patiently for initial lock (subsequent locks faster)
+- Wait for initial lock (subsequent locks faster)
 - Move away from RF interference sources
 - Check GPS is enabled in settings
 
@@ -772,10 +772,10 @@ ______
 4. **File system corruption**: Card damaged
 
 **Solutions**:
-- Format SD card as FAT32 (32GB maximum for compatibility)
+- **Format SD card as FAT32** (32GB maximum for compatibility)
 - Delete old logs or use larger card
 - Reinsert card fully (should click)
-- Reformatformat card or replace if damaged
+- Reformat card or replace if damaged
 - Check device recognizes card (menu will show SD status)
 
 ______
@@ -794,9 +794,9 @@ ______
 - ❌ **Illegal**: Active jamming/interference with camera operation
 - ❌ **Illegal**: Attempting to hack or access camera systems
 - ❌ **Illegal**: Destroying or tampering with physical cameras
-- ⚠️ **Gray area**: Some jurisdictions have stricter privacy laws
+- ⚠️ **Gray area**: *Some jurisdictions have stricter privacy laws. Verify local regulations before use.*
 
-**Recommendation**: Detection devices are for awareness only. Do not interfere with camera operation.
+**Recommendation**: **Detection devices are for awareness only. Do not interfere with camera operation.**
 
 ### Ethical Usage Guidelines
 
@@ -816,9 +816,9 @@ ______
 ### Privacy Considerations
 
 **Your Data Privacy**:
-- Detection devices log YOUR location (via GPS)
+- **Detection devices log YOUR location** (via GPS)
 - Store this data securely
-- Be aware of subpoena risk if involved in legal proceedings
+- **Be aware of subpoena risk** if involved in legal proceedings
 - Consider encryption for sensitive log files
 - Understand vendor privacy policies for cloud-connected devices
 
@@ -848,8 +848,8 @@ The Flock-You project thrives on community contributions:
 ### Community Resources
 
 **Forums and Discussion**:
-- **Reddit**: r/privacy, r/privacytoolsIO - Active discussions
-- **Discord**: Colonel Panic Tech server - Real-time chat
+- **Reddit**: r/privacy, r/privacytoolsIO, active discussions
+- **Discord**: Colonel Panic Tech server, real-time chat
 - **GitHub Issues**: Technical support and feature requests
 
 **Research Papers**:
@@ -875,7 +875,7 @@ ______
 
 ## Conclusion: helping Privacy Through Technology
 
-The **Flock-You detection project** represents a powerful democratization of counter-surveillance technology. For less than the cost of a monthly streaming subscription, individuals can gain awareness of the surveillance infrastructure surrounding them. Whether you choose the **DIY ESP32 build ($5-12)**, the **ready-to-go M5 Atom Lite ($40)**, or the **multi-mode OUI-SPY ($85)**, you're investing in privacy awareness and digital autonomy.
+The **Flock-You detection project** represents a powerful democratization of counter-surveillance technology. For less than the cost of a monthly streaming subscription, individuals gain awareness of the surveillance infrastructure surrounding them. Whether you choose the **DIY ESP32 build ($5-12)**, the **ready-to-go M5 Atom Lite ($40)**, or the **multi-mode OUI-SPY ($85)**, you're investing in privacy awareness and digital autonomy.
 
 ### main points
 
@@ -895,9 +895,9 @@ The **Flock-You detection project** represents a powerful democratization of cou
 5. **Join the community**: Engage with other users, share findings, contribute improvements
 6. **Take action**: Use your data for advocacy, awareness, and informed decisions
 
-The proliferation of ALPR surveillance represents a significant shift in privacy dynamics. Counter-surveillance technologies like Flock-You offer a crucial capability: **awareness**. When we understand the scope and scale of surveillance, we can make informed decisions about our movements, our advocacy, and our expectations of privacy in public spaces.
+The proliferation of ALPR surveillance represents a significant shift in privacy dynamics. Counter-surveillance technologies like Flock-You offer a crucial capability: **awareness**. When we understand the scope and scale of surveillance, we make informed decisions about our movements, our advocacy, and our expectations of privacy in public spaces.
 
-Technology enabled pervasive surveillance - but technology can also help those who value privacy. The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
+**Technology enabled pervasive surveillance. Technology also helps those who value privacy.** The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
 
 ______
 

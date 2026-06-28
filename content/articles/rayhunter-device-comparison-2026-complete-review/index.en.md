@@ -14,7 +14,7 @@ coverCaption: "Comprehensive RayHunter Device Comparison - Testing Results and P
 
 ## TL;DR
 
-**RayHunter device selection significantly impacts detection performance, battery life, and operational effectiveness**. After extensive testing of 8 major RayHunter-compatible devices in 2026, the **Orbic RC400L** emerged as the top performer for Americas deployment with 94% detection accuracy and 18-hour battery life, while the **TP-Link M7350** excels in Europe/Africa/Middle East regions with superior signal sensitivity and SD card storage flexibility. Key findings: device choice affects detection range (50-800 meters), battery performance (6-22 hours), and false positive rates (3-15%). Regional frequency band compatibility is critical, with Americas-optimized devices performing 40% better on local networks than generic alternatives. Professional users should prioritize the Orbic RC400L for mission-critical applications, while cost-conscious users will find excellent value in the TP-Link M7350 with comparable core detection capabilities.
+**RayHunter device selection significantly impacts detection performance, battery life, and operational effectiveness**. After extensive testing of 8 major RayHunter-compatible devices in 2026, the **Orbic RC400L** emerged as the top performer for Americas deployment with 94% detection accuracy and 18-hour battery life, while the **TP-Link M7350** excels in Europe/Africa/Middle East regions with superior signal sensitivity and SD card storage flexibility. Key findings: device choice affects detection range (50-800 meters), battery performance (6-22 hours), and false positive rates (3-15%). **Regional frequency band compatibility is critical**, with Americas-optimized devices performing 40% better on local networks than generic alternatives. Professional users should prioritize the Orbic RC400L for mission-critical applications, while cost-conscious users will find excellent value in the TP-Link M7350 with comparable core detection capabilities.
 
 ## Introduction to RayHunter Device Performance Testing
 
@@ -117,9 +117,9 @@ The **Orbic RC400L** represents the gold standard for **RayHunter** deployment i
 
 **Detection Accuracy**: 94% true positive rate, 3% false positive rate
 - Excellent performance across all IMSI catcher types tested
-- Superior 2G downgrade attack detection (97% accuracy)
-- Outstanding null cipher detection (100% accuracy in lab testing)
-- Reliable SIB6/7 manipulation detection (91% accuracy)
+- Superior **2G downgrade attack** detection (97% accuracy)
+- Outstanding **null cipher** detection (100% accuracy in lab testing)
+- Reliable **SIB6/7 manipulation** detection (91% accuracy)
 
 **Operational Performance**:
 - **Battery life**: 18-22 hours continuous monitoring (varies by display mode)
@@ -129,9 +129,9 @@ The **Orbic RC400L** represents the gold standard for **RayHunter** deployment i
 
 **Regional Compatibility**:
 - **Americas**: Excellent (optimized for US/Canada/Mexico networks)
-- **Europe**: Good (limited band support, 70% effectiveness)
-- **Asia-Pacific**: Fair (roaming dependent, 60% effectiveness)
-- **Africa/Middle East**: Limited (30% effectiveness due to band limitations)
+- **Europe**: Good *(limited band support, 70% effectiveness)*
+- **Asia-Pacific**: Fair *(roaming dependent, 60% effectiveness)*
+- **Africa/Middle East**: *Limited (30% effectiveness due to band limitations)*
 
 #### Advantages
 - **Superior detection accuracy** in home region
@@ -145,7 +145,7 @@ The **Orbic RC400L** represents the gold standard for **RayHunter** deployment i
 - **Higher cost** compared to alternatives
 - **Limited global compatibility** outside Americas region
 - **Larger form factor** may be less discreet
-- **Verizon carrier branding** on some models may attract attention
+- *Verizon carrier branding on some models may attract unwanted attention*
 
 #### Best Use Cases
 - **Professional security operations** requiring maximum detection reliability
@@ -172,21 +172,21 @@ The **TP-Link M7350** offers outstanding value and global compatibility, making 
 
 **Detection Accuracy**: 89% true positive rate, 6% false positive rate
 - Strong overall detection capabilities across threat types
-- Excellent 2G downgrade detection (93% accuracy)
-- Good null cipher detection (88% accuracy)
-- Reliable IMSI harvesting detection (91% accuracy)
+- Excellent **2G downgrade** detection (93% accuracy)
+- Good **null cipher** detection (88% accuracy)
+- Reliable **IMSI harvesting** detection (91% accuracy)
 
 **Operational Performance**:
 - **Battery life**: 12-15 hours continuous monitoring
 - **Detection range**: Up to 650 meters in optimal conditions
-- **Processing efficiency**: Moderate CPU usage, occasional thermal throttling
+- **Processing efficiency**: Moderate CPU usage, *occasional thermal throttling under sustained load*
 - **Signal sensitivity**: -105dBm minimum detectable signal strength
 
 **Regional Compatibility**:
 - **Europe**: Excellent (optimized for European networks)
 - **Africa/Middle East**: Excellent (broad band compatibility)
 - **Asia-Pacific**: Good (80% effectiveness with local SIM)
-- **Americas**: Fair (65% effectiveness, limited LTE bands)
+- **Americas**: *Fair (65% effectiveness, limited LTE bands)*
 
 #### Advantages
 - **Excellent global compatibility** across multiple regions
@@ -233,7 +233,7 @@ Performance metrics closely match the Orbic RC400L:
 - **Default password**: Uses `$m@rt$p0tc0nf!g` instead of WiFi password
 - **Branding**: Kajeet/Smartspot branding may be more discreet
 - **Availability**: Often easier to source than Verizon-branded Orbic models
-- **Price**: Typically 10-15% less expensive than Orbic equivalent
+- **Price**: *Typically 10-15% less expensive than the Orbic equivalent*
 
 ### Moxee K779HSDL - Specialized Americas Option
 
@@ -253,9 +253,9 @@ The **Moxee K779HSDL** offers solid performance for Americas deployment with uni
 
 **Detection Accuracy**: 85% true positive rate, 8% false positive rate
 - Good overall detection performance with some limitations
-- Strong 2G downgrade detection (90% accuracy)
-- Reliable null cipher detection (84% accuracy)
-- Moderate SIB manipulation detection (78% accuracy)
+- Strong **2G downgrade** detection (90% accuracy)
+- Reliable **null cipher** detection (84% accuracy)
+- *Moderate SIB manipulation detection (78% accuracy). Weaker than premium alternatives.*
 
 **Operational Performance**:
 - **Battery life**: 14-18 hours continuous monitoring
@@ -292,9 +292,9 @@ The **TP-Link M7310** provides essential **RayHunter** functionality at an entry
 
 **Detection Accuracy**: 81% true positive rate, 12% false positive rate
 - Adequate detection capabilities for basic threat scenarios
-- Good 2G downgrade detection (87% accuracy)
-- Moderate null cipher detection (76% accuracy)
-- Basic IMSI harvesting detection (83% accuracy)
+- Good **2G downgrade** detection (87% accuracy)
+- *Moderate null cipher detection (76% accuracy). Notable gap versus premium devices.*
+- Basic **IMSI harvesting** detection (83% accuracy)
 
 **Operational Performance**:
 - **Battery life**: 8-12 hours continuous monitoring
@@ -337,7 +337,7 @@ T-Mobile branded device with carrier-specific optimizations and limitations.
 - **Detection accuracy**: 78% true positive rate, 13% false positive rate
 - **Battery life**: 10-14 hours continuous monitoring
 - **Carrier optimization**: Enhanced performance on T-Mobile networks
-- **Limitations**: May have carrier restrictions and limited unlocking options
+- ***Warning**: May have carrier restrictions that limit unlocking options*
 
 #### FY UZ801 - Asia-Pacific Specialist
 
@@ -349,7 +349,7 @@ Designed for Asia-Pacific deployment with regional band optimization.
 - **Detection accuracy**: 75% true positive rate, 15% false positive rate
 - **Battery life**: 9-13 hours continuous monitoring
 - **Regional focus**: Optimized for Asian cellular networks
-- **Availability**: Popular in Asia-Pacific markets but limited elsewhere
+- **Availability**: *Popular in Asia-Pacific markets but difficult to source elsewhere*
 
 ## Regional Deployment Recommendations
 
@@ -386,7 +386,7 @@ Designed for Asia-Pacific deployment with regional band optimization.
 
 **Primary Recommendation**: **TP-Link M7350** with local SIM
 - Good compatibility with most regional networks
-- Reliable performance with appropriate SIM card selection
+- *Performance depends on SIM card selection. Use a local carrier SIM for best results*
 - Established support community across the region
 
 **Regional Specialist**: **FY UZ801**
@@ -398,7 +398,7 @@ Designed for Asia-Pacific deployment with regional band optimization.
 
 ### Battery Performance Comparison
 
-Extended field testing revealed significant variations in battery performance across devices:
+Extended field testing revealed **significant variations in battery performance** across devices:
 
 #### Extended Operation (20+ Hours)
 - **Orbic RC400L**: 18-22 hours (invisible mode), 14-18 hours (high visibility mode)
@@ -410,7 +410,7 @@ Extended field testing revealed significant variations in battery performance ac
 - **Wingtech CT2MHS01**: 12-16 hours (standard configuration)
 
 #### Limited Operation (8-14 Hours)
-- **TP-Link M7310**: 8-12 hours (requires daily charging)
+- **TP-Link M7310**: 8-12 hours *(requires daily charging. Plan accordingly)*
 - **T-Mobile TMOHS1**: 10-14 hours (depends on network conditions)
 - **FY UZ801**: 9-13 hours (varies by regional network density)
 
@@ -436,7 +436,7 @@ Extended field testing revealed significant variations in battery performance ac
 
 ### Signal Sensitivity Comparison
 
-Laboratory testing revealed significant differences in signal detection capabilities:
+Laboratory testing revealed **significant differences in signal detection capabilities**:
 
 #### High Sensitivity (-110dBm or better)
 - **Orbic RC400L**: -110dBm minimum detection threshold
@@ -483,7 +483,7 @@ Field testing in diverse environments established realistic detection ranges:
 - **Device antenna quality** and placement
 - **Signal processing capabilities** of the device
 - **Firmware optimization** and heuristic configuration
-- **Battery level** and power management settings
+- *Battery level and power management settings directly affect detection sensitivity*
 
 ## False Positive Analysis
 
@@ -503,7 +503,7 @@ Comprehensive testing in high-density cellular environments revealed important d
 #### Higher False Positive Devices (11-15%)
 - **TP-Link M7310**: 12% false positive rate
 - **T-Mobile TMOHS1**: 13% false positive rate
-- **FY UZ801**: 15% false positive rate
+- **FY UZ801**: *15% false positive rate. Use only in lower-density environments*
 
 ### False Positive Mitigation Strategies
 
@@ -546,7 +546,7 @@ Comprehensive testing in high-density cellular environments revealed important d
 - **Specialty devices**: $200-300 (varies by model and availability)
 
 #### Operational Costs
-- **Cellular service**: $20-50/month (optional for monitoring-only use)
+- **Cellular service**: $20-50/month *(optional for monitoring-only use)*
 - **Storage expansion**: $10-30 (SD cards for compatible devices)
 - **Replacement batteries**: $25-50 (for devices with replaceable batteries)
 - **Maintenance and updates**: Minimal (free software updates)
@@ -560,22 +560,22 @@ Comprehensive testing in high-density cellular environments revealed important d
 - Low maintenance and operational costs
 
 #### Premium Performance Justification
-**Orbic RC400L**: 6% performance improvement over TP-Link M7350 at 140% price increase
+**Orbic RC400L**: *6% performance improvement over TP-Link M7350 at 140% price increase*
 - Justified for professional and high-risk applications
 - Battery life advantages reduce operational complexity
-- Superior build quality ensures reliability in critical scenarios
+- **Superior build quality** ensures reliability in critical scenarios
 
 #### Budget Considerations
 **TP-Link M7310**: Adequate performance for non-critical applications
 - 85% of premium detection accuracy at 25% of premium cost
 - Suitable for educational, training, and backup purposes
-- Higher operational costs due to frequent charging requirements
+- *Higher operational costs from frequent charging requirements reduce long-term savings*
 
 ### Risk-Adjusted Value Assessment
 
 #### High-Risk Users (Journalists, Activists, Security Professionals)
 **Recommendation**: **Orbic RC400L** or **Kajeet RC400L**
-- Detection reliability outweighs cost considerations
+- **Detection reliability outweighs cost considerations**
 - Battery life critical for extended operations
 - Professional build quality essential for mission-critical use
 
@@ -617,8 +617,8 @@ Comprehensive testing in high-density cellular environments revealed important d
 
 **Device Firmware**: Varies by manufacturer
 - **Qualcomm platforms**: Receive regular security updates
-- **Android-based systems**: May have limited update lifecycles
-- **Carrier restrictions**: Some carrier-branded devices have update limitations
+- *Android-based systems may have limited update lifecycles*
+- ***Warning**: Carrier-branded devices often face firmware restrictions that delay or block security updates*
 
 ## Security Considerations
 
@@ -640,24 +640,24 @@ Comprehensive testing in high-density cellular environments revealed important d
 
 **Deployment Considerations**:
 - **Physical concealment**: Smaller devices offer better operational security
-- **Battery indicators**: LED indicators can compromise covert operations
-- **Acoustic signatures**: Some devices have audible alerts or cooling fans
+- *LED battery indicators can inadvertently compromise covert operations*
+- *Some devices have audible alerts or cooling fans that reveal active monitoring*
 - **RF emissions**: All devices emit minimal RF signatures during normal operation
 
 **Counter-Surveillance Awareness**:
 - **Detection resistance**: RayHunter operates passively and is difficult to detect
-- **Traffic analysis**: Remote notifications can reveal surveillance awareness
+- ***Warning**: Remote notifications can expose your surveillance awareness to a monitoring adversary*
 - **Physical inspection**: Unusual antennas or modifications may attract attention
-- **Behavioral changes**: Obvious responses to alerts can compromise operations
+- *Obvious behavioral responses to alerts can compromise an entire operation*
 
 ## Future-Proofing Considerations
 
 ### 5G Network Evolution
 
 **Current Limitations**:
-- **No native 5G detection**: All current devices limited to 2G/3G/4G surveillance detection
+- ***Critical warning**: No current RayHunter device detects native 5G surveillance. All detection relies on 2G/3G/4G downgrade attacks*
 - **Downgrade dependency**: Effectiveness relies on continued downgrade attack viability
-- **Technology gap**: Advanced surveillance equipment may eventually bypass current detection methods
+- *Advanced surveillance equipment may eventually bypass current detection methods entirely*
 
 **Mitigation Strategies**:
 - **Device upgradeability**: Choose devices with firmware update capabilities
@@ -702,14 +702,14 @@ Comprehensive testing in high-density cellular environments revealed important d
 - Proven reliability in diverse operational environments
 - SD card storage for extended recording capabilities
 
-**Regional Specialist**: **FY UZ801** (Asia-Pacific only)
+**Regional Specialist**: **FY UZ801** *(Asia-Pacific only)*
 - Optimized for specific regional networks
 - Local availability and support advantages
 - Consider for Asia-Pacific focused operations
 
 #### Budget-Conscious Deployment
 **Primary Choice**: **TP-Link M7350**
-- Best overall value with 91% of premium performance
+- **Best overall value** with 91% of premium performance
 - Global compatibility adds significant value
 - Adequate battery life for most operational scenarios
 
@@ -734,11 +734,11 @@ Comprehensive testing in high-density cellular environments revealed important d
 | **Professional Use** | Orbic RC400L | TP-Link M7350 | TP-Link M7350 | TP-Link M7350 |
 | **Cost Efficiency** | Kajeet RC400L | TP-Link M7350 | TP-Link M7350 | TP-Link M7310 |
 
-RayHunter device selection significantly impacts surveillance detection effectiveness, operational duration, and overall security posture. Choose devices based on your specific threat model, operational requirements, geographic location, and budget constraints. Remember that even budget devices provide substantial surveillance detection capabilities compared to having no protection at all.
+**RayHunter device selection significantly impacts surveillance detection effectiveness, operational duration, and overall security posture.** Choose devices based on your specific threat model, operational requirements, geographic location, and budget constraints. *Even budget devices provide substantial surveillance detection capabilities compared to having no protection at all.*
 
-For professional applications where detection reliability is critical, invest in premium hardware. For personal privacy protection and general surveillance awareness, mid-range devices offer excellent value and performance. Budget options serve well for training, education, and backup scenarios.
+For professional applications where **detection reliability is critical**, invest in premium hardware. For personal privacy protection and general surveillance awareness, mid-range devices offer excellent value and performance. Budget options serve well for training, education, and backup scenarios.
 
-Consider deploying multiple devices for redundancy and comprehensive coverage, especially in high-risk operational environments. The evolving surveillance threat landscape requires adaptive countermeasures and regular equipment evaluation to maintain effective protection.
+**Deploy multiple devices for redundancy and comprehensive coverage**, especially in high-risk operational environments. The evolving surveillance threat landscape requires adaptive countermeasures and regular equipment evaluation to maintain effective protection.
 
 ## References
 

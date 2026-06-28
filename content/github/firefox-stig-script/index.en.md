@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Easily implement required FireFox STIG policies with a PowerShell script to ensure compliance."
 tags: ["Firefox", "STIG", "Compliance", "Automation", "PowerShell", "Script", "Security", "Configuration", "Cybersecurity", "IT", "Information Technology", "Policies", "Management", "Best Practices", "Open-Source", "Cyber Defense", "Risk Management", "Defense", "Federal Agencies", "Government Compliance"]
+cover: "/img/cover/firefox-stig-script.webp"
+coverAlt: "An illustration of a computer screen displaying PowerShell code for Firefox STIG compliance, with gear icons and a stylized Firefox logo, set against a deep navy background."
+coverCaption: ""
 ---
 
 FireFox STIG Script

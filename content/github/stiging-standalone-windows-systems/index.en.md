@@ -6,6 +6,9 @@ draft: false
 description: "Learn how to automate the STIGing process of Windows 10 systems with the Standalone Windows STIG Script, saving time and improving efficiency for securing standalone systems in enterprise environments."
 tags: ["Automation", "Windows STIG Compliance", "Powershell Scripting", "Windows 10 Enterprise", "Windows Updates", "FISMA Compliance", "Windows 10 Hardening", "Cybersecurity", "National Security Agency", "Department of Defense", "Microsoft Security Compliance Toolkit", "Windows Defender Application Guard", "Windows Defender Credential Guard", "System Guard Secure Launch", "Memory Integrity", "Microsoft Office", "Adobe Reader", "Google Chrome", "Mozilla Firefox", "Oracle JRE"]
 
+cover: "/img/cover/stiging-standalone-windows-systems.webp"
+coverAlt: "A digital illustration of a computer screen showing a Powershell script for automating Windows 10 STIG compliance against a dark background, with neon blue and green accents and subtle circuitry patterns."
+coverCaption: ""
 ---
 
 **Download all the required files from the [GitHub Repository](https://github.com/simeononsecurity/Standalone-Windows-STIG-Script)**

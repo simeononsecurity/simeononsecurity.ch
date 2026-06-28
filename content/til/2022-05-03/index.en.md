@@ -6,6 +6,9 @@ draft: false
 description: ""
 genre: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "Windows Security", "Windows Administration", "PowerShell", "IT Automation", "Configuration Management"]
 tags: ["Automation", "Compliance", "Ansible", "Ansible Playbooks", "Ansible Collections", "GitHub", "RunAs", "Invoke-Command", "Start-Process", "win_powershell", "win_shell", "psexec", "win_psexec", "Windows Security", "Windows Administration", "STIG Requirements", "PowerShell Modules", "Ansible Modules", "Windows Automation", "Remoting", "Shell Commands", "PowerShell Commands", "Windows STIG Ansible", "Windows Administration Tools", "Configuration Management", "IT Automation Solutions"]
+cover: "/img/cover/2022-05-03.webp"
+coverAlt: "A modern workstation with multiple monitors displaying colorful code snippets and diagrams related to Powershell and Ansible, set against a dark background."
+coverCaption: ""
 ---
 **What SimeonOnSecurity learned about and found interesting today**
 

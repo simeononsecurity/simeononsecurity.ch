@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Enhance your experience playing Backdoors and Breaches with this pre-alpha Discord bot, providing commands to facilitate gameplay and interaction."
 tags: ["Discord bot", "Backdoors and Breaches", "turn-based strategy game", "game companion", "gameplay commands", "strategy game bot", "BHIS", "Black Hills InfoSec", "incident master", "C2 team", "game phases", "game setup", "gameplay instructions", "game channel", "Python bot", "Docker bot", "game automation", "game collaboration", "game coordination", "cybersecurity game", "information security", "game development", "gameplay tips", "multiplayer game", "game roles", "game challenges", "game phases", "game environment setup", "dockerized bot", "Python dependencies"]
+cover: "/img/cover/discord-backdoors-and-breaches.webp"
+coverAlt: "An illustration of a virtual gaming board with tactical elements for a strategy game, featuring colorful character avatars and a dark navy background, designed for a blog cover."
+coverCaption: ""
 ---
 
 ## Discord Backdoors and Breaches Bot - Pre Alpha

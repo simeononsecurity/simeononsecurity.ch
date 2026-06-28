@@ -5,6 +5,9 @@ toc: true
 draft: false
 genre: ["Automation", "Compliance", "Windows Security", "Ansible Playbooks", "Ansible Collections", "IT Security", "Configuration Management", "DevOps", "Windows Administration", "System Configuration"]
 tags: ["Automation", "Compliance", "Ansible", "Windows Security", "Ansible Playbooks", "Ansible Collections", "Windows STIG", "Configuration Management", "DevOps", "IT Security", "Windows Administration", "System Configuration", "Windows Automation", "STIG Compliance", "Windows_STIG_Ansible", "Windows_STIGs", "GitHub", "Block", "Rescue", "Always", "Windows Automation Guide", "Windows Security Automation", "Security Compliance", "Ansible Automation", "STIG Requirements", "Ansible Modules", "Windows Configuration", "Windows Administration Tools", "Automation Framework", "IT Infrastructure Automation", "Configuration Compliance", "Windows Security Best Practices"]
+cover: "/img/cover/2021-02-17.webp"
+coverAlt: "An illustration of two terminal interfaces side by side: one showing PowerShell with JSON data conversion and the other displaying Bash using the jq tool for JSON parsing, all on a dark background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

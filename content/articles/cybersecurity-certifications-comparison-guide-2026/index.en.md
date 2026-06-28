@@ -21,7 +21,7 @@ This comprehensive guide cuts through the marketing noise to provide **data-driv
 
 Based on analysis of **real job listings, certification pricing, and industry trends**, we'll rank certification vendors across four critical metrics:
 
-1. **Hireability:** How often employers actually request these certifications
+1. **Hireability:** How often employers request these certifications
 2. **Cost:** Value for money and accessibility
 3. **Difficulty:** Rigor and practical assessment quality
 4. **Future Readiness:** Content updates for AI, cloud, and modern threats
@@ -31,7 +31,7 @@ Whether you're a **complete beginner** starting your cybersecurity journey or a 
 ### What You'll Learn
 
 - **Vendor-by-vendor comparison** of major certification providers
-- **Job market data** showing which certifications employers actually want
+- **Job market data** showing which certifications employers want
 - **Cost analysis** and ROI calculations for different certification paths
 - **Career path recommendations** for red team, blue team, GRC, and cloud security roles
 - **AI impact assessment** on certification value and career prospects
@@ -128,10 +128,10 @@ ______
 
 **Weaknesses:**
 - **Theory-heavy:** Multiple-choice exams don't test hands-on skills
-- **No practical assessment:** Can pass Security+ without ever using nmap or Wireshark
+- **No practical assessment:** *You can pass Security+ without ever using nmap or Wireshark*
 - **Shallow coverage:** Mile-wide, inch-deep approach to topics
 - **Renewal requirements:** Must earn CEUs or retake exam every 3 years
-- **Not impressive to technical teams:** Experienced security professionals view these as "check-box" certifications
+- **Not impressive to technical teams:** *Experienced security professionals view these as "check-box" certifications*
 
 **Real-World Example:**
 ```
@@ -164,9 +164,9 @@ The new SECT AI+ certification covers:
 ✅ Need HR-friendly certification that checks hiring system boxes
 ✅ Budget-conscious ($400 vs $1,700+ for alternatives)
 
-❌ Already have IT experience (skip to more advanced certs)
-❌ Want hands-on practical skills (CompTIA won't teach you)
-❌ Trying to impress technical hiring managers (they won't be impressed)
+❌ Already have IT experience *(skip to more advanced certs)*
+❌ Want hands-on practical skills *(CompTIA won't teach you)*
+❌ Trying to impress technical hiring managers *(they won't be impressed)*
 
 ______
 
@@ -187,7 +187,7 @@ ______
 
 **The CISSP Phenomenon:**
 
-CISSP has achieved something remarkable: **HR departments list it for positions across all experience levels**, from entry-level SOC analysts to CISOs. This defies logic (the cert requires 5 years experience), but reflects CISSP's status as the **universal cybersecurity buzzword**.
+CISSP has achieved something remarkable: **HR departments list it for positions across all experience levels**, from entry-level SOC analysts to CISOs. *This defies logic (the cert requires 5 years experience)*, but reflects CISSP's status as the **universal cybersecurity buzzword**.
 
 **Analysis of CISSP in Job Listings:**
 ```
@@ -219,11 +219,11 @@ Reality: CISSP is listed everywhere, "required" nowhere for true beginners.
 - **Lifetime designation:** Once earned, you're a CISSP forever (just maintain CPEs)
 
 **Weaknesses:**
-- **Experience requirement:** 5 years required (or 4 with waiver) before full certification
+- **Experience requirement:** *5 years required (or 4 with waiver) before full certification*
 - **Theory-focused:** Tests management and policy knowledge, not hands-on skills
 - **Expensive renewal:** $135/year for life adds up
-- **Not technical:** CISOs love it, technical teams don't care
-- **Associate limbo:** Can pass exam but can't use CISSP title until experience requirement met
+- **Not technical:** CISOs love it, *technical teams don't care*
+- **Associate limbo:** *You can pass the exam but cannot use the CISSP title until the experience requirement is met*
 
 **Cost Analysis (5-Year TCO):**
 ```
@@ -261,10 +261,10 @@ This positions ISC2 to own the AI security certification space for management ro
 ✅ Need certification recognized globally across all industries
 ✅ Working in government, finance, healthcare (heavily requested)
 
-❌ Less than 3 years experience (won't meet requirements)
+❌ Less than 3 years experience *(won't meet requirements)*
 ❌ Prefer hands-on technical work over policy/management
 ❌ Want practical penetration testing or SOC skills
-❌ Already have multiple technical certs (CISSP won't add technical skills)
+❌ Already have multiple technical certs *(CISSP won't add technical skills)*
 
 ______
 
@@ -319,13 +319,13 @@ Average total cost including retakes: $1,950-$2,500
 - **Practical 24-hour exam:** Tests real hacking skills, not memorization
 - **Comprehensive labs:** PWK course includes 200+ hours of training
 - **Resume impact:** OSCP immediately separates you from non-OSCP candidates
-- **Skills validation:** Actually proves you can hack, not just talk about hacking
+- **Skills validation:** Proves you can hack, not just talk about hacking
 
 **Weaknesses:**
-- **Expensive:** $1,700-2,700 compared to $399-500 for alternatives
+- **Expensive:** *$1,700-2,700 compared to $399-500 for alternatives*
 - **Outdated content:** Missing modern EDR evasion, cloud pentesting, advanced AD attacks
 - **Removed Learn Unlimited:** Community backlash over pricing model changes
-- **Better alternatives exist:** HackTheBox CPTS is arguably more comprehensive
+- **Better alternatives exist:** *HackTheBox CPTS is arguably more comprehensive*
 - **Not enough anymore:** AI pentesting tools are changing requirements
 
 **2026 Reality Check:**
@@ -357,12 +357,12 @@ Meanwhile, competitors like **HackTheBox CPTS** offer:
 ✅ Can afford $1,700+ investment
 ✅ Want certification HR departments recognize
 
-❌ Budget-conscious ($500 alternatives exist with similar or better content)
-❌ Want modern cloud pentesting skills (OSCP lacks this)
-❌ Prefer longer exam format (CPTS offers 10 days)
-❌ Need advanced evasion techniques (look at CRTO instead)
+❌ Budget-conscious (*$500 alternatives exist with similar or better content*)
+❌ Want modern cloud pentesting skills *(OSCP lacks this)*
+❌ Prefer longer exam format *(CPTS offers 10 days)*
+❌ Need advanced evasion techniques *(look at CRTO instead)*
 
-**Better Alternative for Most:** HackTheBox CPTS costs $499, offers 10-day exam, deeper technical content, and modern coverage. OSCP wins purely on brand recognition.
+**Better Alternative for Most:** *HackTheBox CPTS costs $499, offers 10-day exam, deeper technical content, and modern coverage. OSCP wins purely on brand recognition.*
 
 ______
 
@@ -370,7 +370,7 @@ ______
 
 **Primary Certifications:** CPTS, CBBH, CDSA
 
-**Market Position:** HTB certifications showed up in just **2% of job listings**, but technical communities rate them higher than OSCP for depth and practicality.
+**Market Position:** HTB certifications showed up in just **2% of job listings**, *but technical communities rate them higher than OSCP for depth and practicality*.
 
 #### HackTheBox Academy Certifications
 
@@ -410,7 +410,7 @@ Surveys of people who've taken both certifications consistently report:
 - **CPTS is harder than OSCP** (10-day pressure test)
 - **CPTS covers more material** (especially AD and web apps)
 - **CPTS is better preparation** for real penetration testing engagements
-- **But OSCP gets more recruiter responses** (brand recognition gap)
+- *But OSCP gets more recruiter responses* (brand recognition gap)
 
 **The Gap is Closing:**
 
@@ -424,8 +424,8 @@ HackTheBox has grown from 0% job market recognition in 2022 to 2% in 2026. The t
 - **Academy platform:** Excellent self-paced learning with 1,000+ boxes
 
 **HackTheBox Weaknesses:**
-- **Low HR recognition:** Most recruiters haven't heard of CPTS yet
-- **Recent controversy:** Community found HTB potentially using user data for AI training
+- **Low HR recognition:** *Most recruiters haven't heard of CPTS yet*
+- **Recent controversy:** *Community found HTB potentially using user data for AI training*
 - **Certification age:** Newer certs lack the decades-long reputation of OSCP
 - **Smaller community:** Fewer CPTS holders means less networking value
 
@@ -451,11 +451,11 @@ HackTheBox has been aggressive with content updates:
 ✅ Technical hiring managers evaluating you (they'll recognize quality)
 ✅ Planning for long-term career (CPTS recognition growing rapidly)
 
-❌ Need immediate HR recognition (OSCP still wins here)
-❌ Targeting government/DoD roles (OSCP listed more often)
-❌ Uncomfortable with 10-day exam format (very intense)
+❌ Need immediate HR recognition *(OSCP still wins here)*
+❌ Targeting government/DoD roles *(OSCP listed more often)*
+❌ Uncomfortable with 10-day exam format *(very intense)*
 
-**My Prediction:** By 2028, CPTS will be co-equal with OSCP for penetration testing roles. Forward-thinking candidates should get CPTS now before it becomes more expensive.
+**My Prediction:** *By 2028, CPTS will be co-equal with OSCP for penetration testing roles. Forward-thinking candidates should get CPTS now before recognition drives up demand.*
 
 ______
 
@@ -571,10 +571,10 @@ Job Market Demand: 38% vs 36% (cloud higher)
 - **AI integration:** Both vendors heavily investing in AI security
 
 **Cloud Certifications Weaknesses:**
-- **Frequent renewals:** Azure certs expire annually (expensive to maintain)
-- **Vendor lock-in:** Skills partially specific to each platform
+- **Frequent renewals:** *Azure certs expire annually (expensive to maintain)*
+- **Vendor lock-in:** *Skills partially specific to each platform*
 - **Rapid change:** Content updates frequently, must stay current
-- **Not "sexy":** Red teamers prefer OSCP over cloud certs (perception issue)
+- **Not "sexy":** *Red teamers prefer OSCP over cloud certs (perception issue)*
 
 **The 2026 Reality:**
 
@@ -610,10 +610,10 @@ This path:
 ✅ Want most in-demand skills with lowest cost
 ✅ Planning for AI-enabled security future
 
-❌ You hate cloud and want only on-premises work (those jobs are disappearing)
-❌ You're committed to red team/pentesting pure offense (but even pentesting needs cloud skills now)
+❌ You hate cloud and want only on-premises work *(those jobs are disappearing)*
+❌ You're committed to red team/pentesting pure offense *(but even pentesting needs cloud skills now)*
 
-**Bottom Line:** Cloud certifications are the highest ROI investment in cybersecurity certification in 2026. This isn't even close anymore.
+**Bottom Line:** **Cloud certifications are the highest ROI investment in cybersecurity certification in 2026.** This isn't even close anymore.
 
 ______
 
@@ -661,7 +661,7 @@ Savings with alternatives: $8,976-$10,976 (75-83% less expensive)
 **Exam Only (Without Training):**
 - Each GIAC exam: $979
 - Two free attempts included
-- Must self-study (SANS doesn't make this easy)
+- *Must self-study (SANS doesn't make this easy)*
 
 **With SANS Training:**
 - Live online courses: $7,995-$8,995
@@ -686,8 +686,8 @@ In reality, **very few individuals self-fund SANS training**. The typical SANS s
 - **Practical labs:** Real-world scenarios and exercises
 
 **SANS Weaknesses:**
-- **Prohibitive cost:** $8,000-9,000 per course eliminates most self-funding candidates
-- **Exam-only pricing:** $979 per exam still expensive if studying independently
+- **Prohibitive cost:** *$8,000-9,000 per course eliminates most self-funding candidates*
+- **Exam-only pricing:** *$979 per exam is still expensive if studying independently*
 - **Renewal fees:** $469 every 4 years to maintain certification
 - **Not beginner-friendly:** Assumes significant prior knowledge
 - **Gatekept market:** Creates two-tier system (those whose employers pay vs those who don't)
@@ -698,7 +698,7 @@ Because SANS is so expensive, it creates a **credential divide**:
 - **Haves:** Security professionals whose employers fund SANS training
 - **Have-nots:** Self-funding individuals who can't afford $8,000+ courses
 
-This means GIAC candidates in job market are relatively rare, despite certifications being requested frequently. This scarcity builds perceived value.
+This means GIAC candidates in job market are relatively rare, despite certifications being requested frequently. *This scarcity builds perceived value.*
 
 **2026 AI Updates:**
 
@@ -707,7 +707,7 @@ SANS has responded to AI with:
 - **GMLE:** GIAC Machine Learning Engineer certification
 - **AI modules:** Integrated into existing courses (GCIH, GPEN, etc.)
 
-The **GMLE** appeared in exactly 1 job listing out of 2,500 analyzed. It's too new and specialized to be widely requested yet.
+The **GMLE** appeared in exactly 1 job listing out of 2,500 analyzed. *It's too new and specialized to be widely requested yet.*
 
 **Our Verdict:**
 - **Hireability:** 8/10 (25% of advanced listings mention GIAC)
@@ -715,7 +715,7 @@ The **GMLE** appeared in exactly 1 job listing out of 2,500 analyzed. It's too n
 - **Difficulty:** 9/10 (Rigorous exams testing real knowledge)
 - **Future Readiness:** 9/10 (Constantly updated, AI integrated)
 - **Weighted Score:** 6.8/10
-- **Tier:** **B Tier** (with massive asterisk) - S Tier if employer pays, D Tier if you pay
+- **Tier:** **B Tier** (with massive asterisk) - **S Tier if employer pays, D Tier if you pay**
 
 **When to Choose SANS:**
 ✅ Employer will pay for training (obviously yes)
@@ -723,11 +723,11 @@ The **GMLE** appeared in exactly 1 job listing out of 2,500 analyzed. It's too n
 ✅ Military GI Bill available
 ✅ Already have 5+ years experience (SANS assumes knowledge)
 
-❌ Self-funding ($8,000+ is unreasonable for most people)
+❌ Self-funding *($8,000+ is unreasonable for most people)*
 ❌ Early career (better ROI with cheaper alternatives)
 ❌ Want entry-level cert (SANS targets intermediate/advanced)
 
-**My Opinion:** SANS courses are excellent. The pricing is predatory and creates gatekept market that excludes talented people without employer sponsorship. I can't recommend spending your own money on SANS when alternatives exist at 10-20% of the cost.
+**My Opinion:** SANS courses are excellent. **The pricing is predatory** and creates a gatekept market that excludes talented people without employer sponsorship. *Do not spend your own money on SANS when alternatives exist at 10-20% of the cost.*
 
 ______
 
@@ -756,12 +756,12 @@ In March 2025, TCM Security was acquired by **Educate 360**, a corporate trainin
 **Why This Matters:**
 
 Acquisitions in the certification space have mixed track records:
-- **Risk:** Corporate owners prioritize profit over education quality
+- **Risk:** *Corporate owners prioritize profit over education quality*
 - **Course updates:** May slow down without founder's vision
 - **Pricing:** Often increases post-acquisition
 - **Community trust:** Damage to reputation if quality declines
 
-**Current reports (2026):** Some students reporting outdated labs, missing file dependencies, and slower response times for support.
+**Current reports (2026):** *Some students reporting outdated labs, missing file dependencies, and slower response times for support.*
 
 **PNPT Certification Details:**
 
@@ -809,7 +809,7 @@ As of May 2026, the verdict isn't clear yet. The next 12 months will determine T
 - **Hireability:** 5/10 (3% of listings, decent community reputation)
 - **Cost:** 9/10 (Excellent value at $249-399)
 - **Difficulty:** 8/10 (5-day practical with live debrief is serious)
-- **Future Readiness:** 5/10 (Post-acquisition content updates uncertain)
+- **Future Readiness:** 5/10 *(Post-acquisition content updates uncertain)*
 - **Weighted Score:** 6.2/10
 - **Tier:** **B Tier** (was A tier pre-acquisition) - Reputation declining
 
@@ -819,11 +819,11 @@ As of May 2026, the verdict isn't clear yet. The next 12 months will determine T
 ✅ Comfortable with some risk regarding certification longevity
 ✅ Supplementing OSCP/CPTS (not as primary credential)
 
-❌ Need HR-recognized certification (3% mention isn't enough)
-❌ Want advanced content (reports suggest some staleness)
-❌ Risk-averse about certification value over time
+❌ Need HR-recognized certification *(3% mention isn't enough)*
+❌ Want advanced content *(reports suggest some staleness)*
+❌ **Risk-averse about certification value over time**
 
-**My Take:** PNPT was an A-tier certification in 2023-2024. The acquisition and Heath's departure make me cautious. If you already have it, great. If you're choosing now in 2026, I'd lean toward HackTheBox CPTS ($499) for similar practical training with more momentum.
+**My Take:** PNPT was an A-tier certification in 2023-2024. *The acquisition and Heath's departure make me cautious.* If you already have it, great. If you're choosing now in 2026, **lean toward HackTheBox CPTS ($499)** for similar practical training with more momentum.
 
 ______
 
@@ -840,7 +840,7 @@ I'll rapid-fire analyze remaining certification vendors based on the tier system
 - **Best for:** Absolute beginners
 - **Verdict:** **A tier for beginners**, becoming outdated
 
-**The eJPT Problem:** Content showing its age in 2026:
+**The eJPT Problem:** *Content showing its age in 2026:*
 - No cloud security coverage
 - No modern EDR simulation
 - Heavy Metasploit dependence
@@ -904,7 +904,7 @@ This is emerging as the **OSCP equivalent for blue team/SOC analysts**:
 
 **The BSCP Value Proposition:**
 
-This might be the **best value in cybersecurity certification**:
+This might be the **single best value in cybersecurity certification**:
 - World-class web security training (completely free)
 - Covers SQL injection, XSS, SSRF, XXE, prototype pollution, LLM attacks
 - Only $99 exam fee
@@ -942,7 +942,7 @@ This might be the **best value in cybersecurity certification**:
 
 **Cost:** $760 (non-member) or $575 (member) + $135/year membership + $45-85 annual maintenance per cert
 
-**Stack of fees**, but if you're in GRC/audit, these are mandatory.
+**Stack of fees.** *If you're not in GRC or audit, skip these entirely.* For GRC roles, they're mandatory.
 
 **Our Rating:** 7.2/10, **A Tier** for GRC roles, **C Tier** for technical roles
 
@@ -959,13 +959,13 @@ EC-Council has **documented history of management issues** (see attrition.org/er
 - **Format:** Multiple choice (base CEH)
 - **Market:** Still requested in government/DoD (sadly)
 
-**Why CEH is Problematic:**
+**Why CEH is Problematic** *(and why you should avoid it)*:
 - Multiple choice for "ethical hacking" cert
 - Expensive for what you get
 - Decade of management/credibility issues
 - CEH Practical is better but costs more
 
-**Our Rating:** 4.8/10, **C Tier** - Only take if employer pays or free voucher
+**Our Rating:** 4.8/10, **C Tier** - *Only take if employer pays or you receive a free voucher*
 
 #### Cloud Security Alliance
 
@@ -982,7 +982,7 @@ ______
 
 ## The AI Impact: How Certifications Are Adapting
 
-Every certification vendor is scrambling to add AI content. Here's who's actually doing it well:
+Every certification vendor is scrambling to add AI content. Here's who does it well:
 
 ### Certifications with Meaningful AI Integration (2026)
 
@@ -1008,7 +1008,7 @@ Every certification vendor is scrambling to add AI content. Here's who's actuall
 ### What AI Means for Certification Value
 
 **Jobs Being Automated:**
-- **SOC Level 1 alert triage** - Microsoft Security Copilot does this now
+- **SOC Level 1 alert triage** - *Microsoft Security Copilot does this now*
 - **Basic vulnerability assessment** - Automated scanning + AI prioritization
 - **Pentesting recon** - AI tools like Expo automate initial phases
 - **GRC audit prep** - AI extracts compliance evidence automatically
@@ -1158,9 +1158,9 @@ Cybersecurity bootcamps:
 - "Job placement" is often just resume help
 - Everything taught available cheaper elsewhere
 
-**Verdict:** D Tier. Predatory pricing, no market recognition.
+**Verdict: D Tier.** *Predatory pricing, no market recognition.*
 
-**Better alternative:** $499 for HackTheBox Academy access teaches more than $15,000 bootcamp.
+**Better alternative:** *$499 for HackTheBox Academy access teaches more than a $15,000 bootcamp.*
 
 ### ❌ Trap 3: Stacking Too Many Entry-Level Certs
 
@@ -1171,7 +1171,7 @@ Cybersecurity bootcamps:
 - CASP+
 - (All CompTIA, all overlapping content)
 
-**Problem:** Diminishing returns. First cert has value, subsequent certs in same family add little.
+**Problem:** Diminishing returns. *The first cert has value. Subsequent certs in the same family add little.*
 
 **Better approach:** Get one CompTIA cert, then diversify (add cloud, or OSCP, or CISSP)
 
@@ -1179,7 +1179,7 @@ Cybersecurity bootcamps:
 
 Common mistake: "I hate cloud, I'll focus on on-premises security"
 
-**Reality check:** On-premises jobs declining ~15% per year. Cloud jobs growing ~25%annually.
+**Reality check:** **On-premises jobs are declining ~15% per year.** Cloud jobs are growing ~25% annually.
 
 You can dislike cloud, but ignoring it limits career options significantly in 2026 and beyond.
 
@@ -1187,7 +1187,7 @@ You can dislike cloud, but ignoring it limits career options significantly in 20
 
 **Don't do this:** Take out loans or drain savings for $8,000 SANS course
 
-**Reality:** $8,000 investment without employer sponsorship has terrible ROI when $300-500 alternatives exist.
+**Reality:** *$8,000 without employer sponsorship has terrible ROI when $300-500 alternatives exist.*
 
 **Exception:** If employer pays, absolutely take SANS training. It's excellent when someone else pays.
 
@@ -1235,9 +1235,9 @@ If doing bachelor's degree:
 2. Year 5: Entry-level SOC role
 3. Year 8: CISSP eligible, mid-level security engineer
 
-**Outcome:** Similar roles, arrived 2-5 years faster without degree, $40K-120K less debt.
+**Outcome:** Similar roles, arrived **2-5 years faster** without degree, **$40K-120K less debt**.
 
-**Caveat:** Some employers (government, finance) strongly prefer degrees. Most tech companies don't care.
+*Some employers (government, finance) strongly prefer degrees. Most tech companies don't care.*
 
 ______
 
@@ -1374,7 +1374,7 @@ ______
 
 ______
 
-## The 2026 Strategy: What To Actually Do
+## The 2026 Strategy: What To Do
 
 After analyzing 2,500+ job listings and 30+ certification vendors, here's the truth:
 
@@ -1429,13 +1429,13 @@ After analyzing 2,500+ job listings and 30+ certification vendors, here's the tr
 **Coverage: 38% of jobs (matching Security+ at 36%)**
 **Advantage: Practical skills, AI-ready, future-proof**
 
-**This is my controversial recommendation for 2026.** Cloud certifications now match traditional security cert demand while teaching more relevant skills.
+**This is my controversial recommendation for 2026.** *Cloud certifications now match traditional security cert demand while teaching more relevant skills.*
 
 ______
 
 ## Conclusion: Choose the Right Institution, Not Just Certifications
 
-The cybersecurity certification landscape in 2026 rewards **strategic thinking over credential hoarding**. main points:
+The cybersecurity certification landscape in 2026 rewards **strategic thinking over credential hoarding**. Key points:
 
 ### Critical Insights
 
@@ -1443,11 +1443,11 @@ The cybersecurity certification landscape in 2026 rewards **strategic thinking o
 
 2. **Practical beats theory:** Certifications with hands-on exams (CPTS, OSCP, CCD, PNPT) are worth more than multiple-choice exams
 
-3. **AI is here:** Vendors updating content for AI security (AWS, Azure, ISC2, SANS) will retain value; vendors ignoring AI (INE, EC-Council) will decline
+3. **AI is here:** Vendors updating content for AI security (AWS, Azure, ISC2, SANS) will retain value. *Vendors ignoring AI (INE, EC-Council) will decline.*
 
-4. **Cost matters:** $8,000 SANS courses aren't 10x better than $800 alternatives for self-funding individuals
+4. **Cost matters:** *$8,000 SANS courses aren't 10x better than $800 alternatives for self-funding individuals*
 
-5. **Brand recognition declining:** Technical hiring managers increasingly recognize CPTS, disregard expensive certs with outdated content
+5. **Brand recognition declining:** *Technical hiring managers increasingly recognize CPTS and disregard expensive certs with outdated content*
 
 ### The Three-Tier Reality
 
@@ -1492,7 +1492,7 @@ By 2028-2030, I predict:
 
 **The winning strategy:** Stack cloud + practical hands-on + management cert (CISSP). Avoid expensive multiple-choice certifications and outdated content.
 
-Choose your certifications strategically, focus on practical skills, and remember: **certifications open doors, but skills keep them open**.
+Choose your certifications strategically, focus on practical skills, and remember: **certifications open doors, but skills keep them open.**
 
 ______
 

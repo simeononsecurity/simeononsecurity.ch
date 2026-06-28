@@ -16,7 +16,7 @@ coverCaption: "Rayhunter IMSI Catcher Detection System - Protecting Mobile Commu
 
 **Rayhunter** is an open-source IMSI catcher detection system that runs on modified mobile hotspots to alert users when surveillance equipment attempts to intercept cellular communications. This guide covers complete installation for Orbic RC400L and TP-Link M7350 devices, configuration options, threat actor analysis, and effectiveness in 5G networks. Key points: requires compatible Qualcomm-based device, detects 2G/3G/4G surveillance through multiple heuristics, remains effective despite 5G adoption due to continued downgrade attacks, and provides essential protection for journalists, activists, and privacy-conscious individuals against government, criminal, and corporate surveillance.
 
-**Rayhunter** is a revolutionary open-source tool designed to detect IMSI catchers (cell site simulators) that can intercept mobile communications. If you're looking for **Rayhunter for sale** or want to learn how to properly flash and configure these devices, this comprehensive guide covers everything you need to know about installation, configuration, and usage of **Rayhunter** systems.
+**Rayhunter** is an open-source tool designed to detect IMSI catchers (cell site simulators) that can intercept mobile communications. If you're looking for **Rayhunter for sale** or want to learn how to properly flash and configure these devices, this comprehensive guide covers everything you need to know about installation, configuration, and usage of **Rayhunter** systems.
 
 **Sponsorship Disclosure**: This article is sponsored by [STS Collective](https://stscollective.com), the main provider of Rayhunter-compatible devices. Despite this sponsorship, all technical information, analysis, and recommendations in this guide remain completely unbiased and based solely on the official Rayhunter documentation, community feedback, and objective technical assessment.
 
@@ -57,7 +57,7 @@ If you're looking for compatible devices, **[Rayhunter for sale](https://stscoll
 
 ### How can I test that my Rayhunter device is working?
 
-You can enable the Test Heuristic in the **Rayhunter** configuration settings. This will trigger alerts every time your device detects a cell tower, helping you verify that the system is functioning properly. This test mode is very noisy, so remember to disable it after testing.
+You can enable the Test Heuristic in the **Rayhunter** configuration settings. This will trigger alerts every time your device detects a cell tower, helping you verify that the system is functioning properly. This test mode is noisy, so disable it after testing.
 
 ### Should I get a locked or unlocked device?
 
@@ -249,7 +249,7 @@ Malicious actors can broadcast fake SIB6/7 messages to force devices to abandon 
 #### Null Cipher Detection
 This critical detection method identifies when cellular networks suggest using no encryption (null cipher) for communications. Legitimate commercial cellular networks should never propose unencrypted connections, as this would violate security standards and regulatory requirements.
 
-**Rayhunter** flags any network that suggests null cipher usage as highly suspicious, as this is a clear indicator of surveillance equipment attempting to intercept communications in plaintext. This heuristic is particularly effective against IMSI catchers that prioritize data collection over maintaining the appearance of legitimate network operations.
+**Rayhunter** flags any network that suggests null cipher usage as highly suspicious, *A legitimate network will never propose null cipher.* This is a clear indicator of surveillance equipment attempting to intercept communications in plaintext. This heuristic is particularly effective against IMSI catchers that prioritize data collection over maintaining the appearance of legitimate network operations.
 
 #### Incomplete SIB Detection
 Legitimate cellular base stations broadcast complete System Information Blocks containing essential network configuration data. **Rayhunter** monitors for base stations that provide incomplete or missing system information, which often indicates hastily deployed or improperly configured surveillance equipment.
@@ -258,7 +258,7 @@ IMSI catchers frequently fail to implement complete cellular network functionali
 
 ## Threat Actors and Potential Targets
 
-Understanding who deploys IMSI catchersresellt and who they target is crucial for assessing your personal threat model and determining appropriate **Rayhunter** configurations. Different threat actors use varying levels of sophistication, and their targeting strategies directly inform the types of surveillance activities **Rayhunter** is designed to detect.
+Understanding who deploys IMSI catchers and who they target is crucial for assessing your personal threat model and determining appropriate **Rayhunter** configurations. Different threat actors use varying levels of sophistication, and their targeting strategies directly inform the types of surveillance activities **Rayhunter** is designed to detect.
 
 ### Government and Law Enforcement Agencies
 
@@ -423,7 +423,7 @@ The **slow rollout of comprehensive 5G coverage** ensures **Rayhunter** remains 
 ### Limitations of Rayhunter in True 5G Environments
 
 #### Native 5G Surveillance Blind Spots
-**Rayhunter** can't detect **native 5G IMSI catcher operations** that don't rely on downgrade attacks:
+*This is Rayhunter's key limitation.* **Rayhunter cannot detect native 5G IMSI catcher operations** that don't rely on downgrade attacks:
 
 - **5G standalone (SA) networks**: When devices connect to pure 5G networks without falling back to 4G, **Rayhunter** can't monitor these communications
 - **Advanced 5G surveillance equipment**: Sophisticated threat actors with access to advanced technology could potentially intercept 5G communications without triggering **Rayhunter's** detection heuristics
@@ -583,7 +583,7 @@ The **Rayhunter** REST API can be integrated with various security monitoring pl
 
 ### Common Installation Issues
 
-**USB Connection Problems**: Try different USB cables or ports. Faulty USB connections frequently cause installation failures.
+**USB Connection Problems**: Try different USB cables or ports. Faulty USB connections frequently cause installation failures. *This is the most common cause of failed installs.*
 
 **macOS Security Issues**: If you see "No Orbic device found," temporarily change "Allow accessories to connect" to "Always" in security settings.
 
@@ -647,7 +647,7 @@ Enable the Test Heuristic in **Rayhunter's** configuration settings. This will t
 When **Rayhunter** detects suspicious activity, first note your location and circumstances. False positives can occur due to network optimization or equipment issues. If alerts persist in the same location or during sensitive activities, consider changing locations and reviewing the alert details in the web interface to understand what was detected.
 
 #### How often should I update Rayhunter?
-Check for **Rayhunter** updates regularly (monthly recommended) as new detection heuristics and device compatibility improvements are added frequently. The EFF continuously improves **Rayhunter's** capabilities based on evolving surveillance techniques. Updating is identical to the initial installation process.
+**Update monthly.** Check the releases page for new heuristics and compatibility improvements as new detection heuristics and device compatibility improvements are added frequently. The EFF continuously improves **Rayhunter's** capabilities based on evolving surveillance techniques. Updating is identical to the initial installation process.
 
 #### Can Rayhunter protect multiple people simultaneously?
 **Rayhunter** detects IMSI catchers in the surrounding area, so it can potentially protect multiple people within range (typically a few hundred meters depending on signal strength). However, each individual serious about surveillance detection should consider having their own **Rayhunter** device for maximum protection and configuration control.

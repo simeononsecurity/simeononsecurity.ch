@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## Introduction: The Problem With Public WiFi
 
-Every time you connect to hotel WiFi, a coffee shop hotspot, or an airport network, you're trusting that the access point in front of you is the real one. The problem is that 802.11 management frames - the very frames that announce networks, manage connections, and coordinate clients - are completely unauthenticated in most deployments. Anyone with modest hardware can clone an SSID, blast deauthentication frames at clients, or set up an open decoy next to a legitimate WPA2 network.
+Every time you connect to hotel WiFi, a coffee shop hotspot, or an airport network, you're trusting that the access point in front of you is the real one. The problem is that **802.11 management frames** - the very frames that announce networks, manage connections, and coordinate clients - are *completely unauthenticated in most deployments*. Anyone with modest hardware can clone an SSID, blast deauthentication frames at clients, or set up an open decoy next to a legitimate WPA2 network.
 
 The [**ESP32 WiFi Canary**](https://github.com/simeononsecurity/esp32-wifi-canary) is a passive awareness sensor that addresses this reality with the smallest possible footprint. It fits on the M5Stack Atom Lite - a device roughly the size of a sugar cube - plugs into any USB port, learns the surrounding environment, and lights up an RGB LED when it detects patterns consistent with wireless threats.
 
@@ -42,11 +42,11 @@ The device never:
 - Stores anything to persistent flash
 - Communicates over the internet
 
-Everything it learns is held in RAM and reset on reboot. This design is intentional: the canary is a **sensor**, not a capture device.
+**Everything it learns is held in RAM and reset on reboot.** This design is intentional: the canary is a **sensor**, not a capture device.
 
 ### The LED Is the Interface
 
-There is no display, no app, no web UI. The entire output of the device is a single SK6812 RGB NeoPixel on GPIO 27 of the M5Stack Atom Lite. The LED speaks a four-state language:
+There is no display, no app, no web UI. The entire output of the device is a single **SK6812 RGB NeoPixel** on GPIO 27 of the M5Stack Atom Lite. The LED speaks a four-state language:
 
 | LED State | Meaning |
 |-----------|---------|
@@ -73,7 +73,7 @@ The project is designed around the M5Stack Atom Lite - a complete ESP32 developm
 | USB | CP2104 UART bridge |
 | Power | USB-C, ~80–120 mA during scanning |
 
-No breadboard, no external components, no soldering. Plug it into USB power and it runs.
+**No breadboard, no external components, no soldering.** Plug it into USB power and it runs.
 
 ### Generic ESP32 DevKit (for Development/Testing)
 
@@ -126,7 +126,7 @@ Once the LED transitions from blue to green, the device is in full operation.
 
 ## What It Detects: Threat Categories
 
-The WiFi Canary monitors five distinct threat patterns. Each contributes points to a **confidence score** that drives LED state. No single indicator alone is treated as certain - the model is designed to accumulate corroborating evidence before escalating.
+The WiFi Canary monitors five distinct threat patterns. Each contributes points to a **confidence score** that drives LED state. *No single indicator alone is treated as certain* - the model is designed to accumulate corroborating evidence before escalating.
 
 ### 1. Deauthentication / Disassociation Bursts
 
@@ -140,11 +140,11 @@ The canary monitors these frames in **promiscuous mode** and counts them per sou
 | ≥ 20 frames from one source in 5 s | +4 |
 | ≥ 5 broadcast deauth frames | +1 |
 
-**Why thresholds matter**: A client roaming between APs will generate a handful of legitimate deauth/disassoc frames. What deauth attack tools generate is qualitatively different - hundreds of frames per second sustained against a target. The 5-second window and 8-frame floor filter out normal roaming noise while catching the sustained burst signature of tools like `aireplay-ng`.
+**Why thresholds matter**: A client roaming between APs will generate a handful of legitimate deauth/disassoc frames. *What deauth attack tools generate is qualitatively different* - hundreds of frames per second sustained against a target. The 5-second window and 8-frame floor filter out normal roaming noise while catching the sustained burst signature of tools like `aireplay-ng`.
 
 ### 2. Open Clone of Known Encrypted Network (Evil Twin)
 
-The highest-confidence detection. An evil-twin attack often works by:
+**The highest-confidence detection.** An evil-twin attack often works by:
 
 1. Standing up an open (no password) copy of a known WPA2 SSID
 2. Making it stronger than the real AP so clients auto-connect
@@ -157,7 +157,7 @@ After baseline learning, if a new scan reveals an SSID that was WPA/WPA2/WPA3-on
 | BSSID not seen in baseline | +1 |
 | Clone signal ≥ 10 dB stronger than known AP | +1 |
 
-An open clone of the hotel WiFi SSID that is also 10 dB stronger than the real AP is essentially textbook. This combination pushes the score to 5 (Caution) in a single scan cycle.
+An open clone of the hotel WiFi SSID that is also 10 dB stronger than the real AP is essentially textbook. *This combination pushes the score to 5 (Caution) in a single scan cycle.*
 
 **Serial example**:
 
@@ -187,7 +187,7 @@ Same SSID as a baseline entry, but observed with weaker encryption than recorded
 | WPA2 → WPA | +1 |
 | Drop of 2+ encryption ranks | +3 |
 
-Open downgrades are handled by the evil-twin detection path above with higher scores. This category focuses on partial downgrades that might be missed in a pure open-vs-encrypted comparison.
+*Open downgrades are handled by the evil-twin detection path above with higher scores.* This category focuses on partial downgrades that might be missed in a pure open-vs-encrypted comparison.
 
 ### 5. Duplicate SSID from Unexpected Vendor
 
@@ -198,7 +198,7 @@ Same SSID, same security type as a baseline AP, but from a BSSID with a **differ
 | Different OUI from baseline AP of same SSID | +1 |
 | Clone is also ≥ 10 dB stronger | +2 |
 
-This is intentionally low-scored. Enterprise networks, mesh systems, and ISP-deployed APs legitimately have many BSSIDs under the same SSID with different vendors. This signal is designed to accumulate alongside other evidence rather than trigger independently.
+*This is intentionally low-scored.* Enterprise networks, mesh systems, and ISP-deployed APs legitimately have many BSSIDs under the same SSID with different vendors. This signal is designed to accumulate alongside other evidence rather than trigger independently.
 
 ### 6. Beacon / SSID Flood
 
@@ -209,7 +209,7 @@ Counts new SSIDs (not present in baseline) appearing within a **30-second rollin
 | ≥ 15 new SSIDs in 30 s | +2 |
 | ≥ 30 new SSIDs in 30 s | +3 |
 
-Beacon flood attacks use tools that broadcast thousands of fake SSIDs to confuse client scanning tables or denial-of-service legitimate beaconing. 15 new unknown SSIDs in 30 seconds is an unusual event in most environments.
+**Beacon flood attacks** use tools that broadcast thousands of fake SSIDs to confuse client scanning tables or denial-of-service legitimate beaconing. 15 new unknown SSIDs in 30 seconds is an unusual event in most environments.
 
 ---
 
@@ -360,9 +360,9 @@ The README is unusually honest about what this device can't do, and that honesty
 
 **Airbnb and SOHO routers** with multiple SSIDs for different bands can also trigger vendor OUI mismatches if the 2.4 GHz and 5 GHz radios use sequential MACs from different blocks.
 
-**Neighbor network transients**: An encrypted network that temporarily disappears from scan and reappears with different parameters (firmware update, reboot, reconfiguration) can momentarily trigger detection.
+*Neighbor network transients*: An encrypted network that temporarily disappears from scan and reappears with different parameters (firmware update, reboot, reconfiguration) can momentarily trigger detection.
 
-The confidence scoring model and decay are designed to reduce - not eliminate - these false positives.
+The confidence scoring model and decay are designed to *reduce - not eliminate -* these false positives.
 
 ### What Can Cause False Negatives
 
@@ -371,19 +371,19 @@ The confidence scoring model and decay are designed to reduce - not eliminate - 
 - Matches the security type exactly (WPA2 with correct IE configuration)
 - Operates at signal strength within 10 dB of the real AP
 
-...may not accumulate enough score to cross the Caution threshold. The deauth component of such an attack (needed to pull clients off the real AP) would add points, but a sophisticated attacker minimizing deauth frames could potentially stay under threshold.
+*...may not accumulate enough score to cross the Caution threshold.* The deauth component of such an attack (needed to pull clients off the real AP) would add points, but a sophisticated attacker minimizing deauth frames could potentially stay under threshold.
 
 ### Radio Switching Gap
 
-The ESP32 WiFi radio can't be in promiscuous mode and perform an active AP scan simultaneously. The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window won't be captured**. An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection - though this would require knowledge of the device's scanning schedule.
+**The ESP32 WiFi radio can't be in promiscuous mode and perform an active AP scan simultaneously.** The firmware switches between these modes, which means **deauth frames that arrive during the ~3 second scan window won't be captured**. *An attacker that precisely times deauth bursts to coincide with scan windows could theoretically evade detection* - though this would require knowledge of the device's scanning schedule.
 
 ### 2.4 GHz Only
 
-The ESP32 radio is a 2.4 GHz device. **5 GHz and 6 GHz networks aren't scanned or monitored**. In environments where 5 GHz evil twins are the attack vector, this device won't detect them.
+The ESP32 radio is a 2.4 GHz device. **5 GHz and 6 GHz networks aren't scanned or monitored**. *In environments where 5 GHz evil twins are the attack vector, this device won't detect them.*
 
 ### Passive Range
 
-Deauth detection requires the device to be within receive range of the deauth frames. A distant or highly directional attacker, or an attacker specifically targeting a client far from the canary, may not generate frames strong enough to trigger the counters.
+Deauth detection requires the device to be within receive range of the deauth frames. *A distant or highly directional attacker, or an attacker specifically targeting a client far from the canary, may not generate frames strong enough to trigger the counters.*
 
 ---
 
@@ -411,15 +411,15 @@ In a home lab or small office, the canary can serve as a persistent ambient moni
 
 ### Why a Single Score Instead of Separate Alerts
 
-The confidence scoring model aggregates disparate signals into a single number rather than presenting separate alert categories. This is a deliberate UX decision: the output interface is one LED with three states. A separate alert per detection category would require a display or app. The scoring model translates noisy, partially-correlated signals into a single actionable indicator.
+The confidence scoring model aggregates disparate signals into a single number rather than presenting separate alert categories. This is a deliberate UX decision: the output interface is one LED with three states. A separate alert per detection category would require a display or app. *The scoring model translates noisy, partially-correlated signals into a single actionable indicator.*
 
 ### Why Score Decay
 
-Without decay, a single false-positive event would require manual intervention (button press) to clear. With 60-second decay, brief anomalies clear themselves within a few minutes. This means the canary can run unattended - in a bag, a hotel room, or a car - and return to baseline without user intervention after transient events.
+Without decay, a single false-positive event would require manual intervention (button press) to clear. With 60-second decay, brief anomalies clear themselves within a few minutes. **This means the canary can run unattended** - in a bag, a hotel room, or a car - and return to baseline without user intervention after transient events.
 
 ### Why Three Baseline Scans
 
-A single baseline scan might miss an AP that wasn't broadcasting during that window (AP was in a scan gap, AP was temporarily powered off, etc.). Three scans over ~24 seconds provide a more complete picture of the stable environment before monitoring begins.
+A single baseline scan might miss an AP that wasn't broadcasting during that window (AP was in a scan gap, AP was temporarily powered off, etc.). *Three scans over ~24 seconds provide a more complete picture of the stable environment before monitoring begins.*
 
 ---
 
@@ -449,7 +449,7 @@ The canary occupies a specific niche: **zero-interaction, zero-network, always-o
 
 The ESP32 WiFi Canary is a tightly scoped tool that does one thing: watch the 2.4 GHz environment around you and change color when something looks wrong. It doesn't try to be a full wireless intrusion detection system, a packet capture tool, or a forensic analyzer. It's a canary - a passive sensor whose job is to notice when the mine gets dangerous.
 
-The confidence scoring model, score decay, and three-phase baseline approach reflect careful thinking about the false-positive problem that plagues ambient security sensors. The result is a device that can run unattended in a hotel room or conference center and reliably signal when something meaningfully unusual is happening - while staying quiet during normal network churn.
+The **confidence scoring model**, **score decay**, and **three-phase baseline approach** reflect careful thinking about the false-positive problem that plagues ambient security sensors. The result is a device that can run unattended in a hotel room or conference center and reliably signal when something meaningfully unusual is happening - while staying quiet during normal network churn.
 
 For anyone building a portable security toolkit, working in environments with untrusted WiFi infrastructure, or looking for an ESP32 project with real practical utility, the WiFi Canary is worth an afternoon and a $15 M5Stack Atom Lite.
 

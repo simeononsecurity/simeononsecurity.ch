@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Simplify the process of configuring Oracle JRE 8 STIG compliance with an automated Powershell script, eliminating the need for manual research and configuration."
 tags: ["Oracle JRE 8 STIG", "JAVA STIG", "JRE", "JRE8", "JRE STIG", "Compliance", "Automation", "Powershell", "Script", "JAVA Configuration", "Java Documentation", "Group Policy", "IT Security", "System Administration", "Configuration Management", "Windows", "Cybersecurity", "STIG Compliance", "Information Technology", "Software Configuration"]
+cover: "/img/cover/oracle-jre-8-stig.webp"
+coverAlt: "An IT administrator at a desk with dual monitors showing coding screens, surrounded by technical papers and faint logos of Oracle and Java, set against a dark background."
+coverCaption: ""
 ---
 
 

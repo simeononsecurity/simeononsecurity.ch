@@ -119,10 +119,7 @@ Security researcher Ben Jordan demonstrated this exploit on YouTube, showing:
 
 Flock Safety initially claimed the vulnerability only affected **devices not connected to the cloud**, comparing them to **"an iPhone stolen off a truck before being connected"**.
 
-However, this claim was **disproven** when:
-- Researchers reproduced the vulnerability **on cloud-connected devices**
-- Multiple camera models showed **identical vulnerability**
-- Devices acquired from **different sources** all exhibited the flaw
+*This claim was disproven.* Researchers reproduced the vulnerability **on cloud-connected devices**, across multiple camera models showing **identical vulnerability**, and on devices acquired from **different sources**. All exhibited the flaw.
 
 ______
 
@@ -155,19 +152,15 @@ For perspective:
 - Your **home security camera** running 5-year-old software would be considered **critically insecure**
 - Government agencies require **up-to-date, supported software** for sensitive systems
 
-Yet Flock Safety continues deploying and selling cameras running software that:
-- Has **no vendor support**
-- Receives **no security patches**
-- Contains **hundreds of known exploits**
-- Processes **sensitive law enforcement data**
+*Yet Flock Safety continues deploying and selling cameras running software that has no vendor support, receives no security patches, contains hundreds of known exploits, and processes sensitive law enforcement data.*
 
 ### Why This Matters
 
-Running EOL software on surveillance devices means:
+Running **EOL software** on surveillance devices means:
 - **Any published Android 8.x vulnerability** works on these cameras
 - **Exploit code is publicly available** for many vulnerabilities
 - **No patches will ever fix** newly discovered issues
-- **Regulatory compliance** (FISMA, NIST, CMMC) impossible to achieve
+- **Regulatory compliance** (FISMA, NIST, CMMC) is impossible to achieve
 
 ______
 
@@ -184,6 +177,8 @@ ______
 
 **Independent Research Findings** (GainSec & Ben Jordan):
 > "In all of our research, we've not unencrypted or cracked a thing. All of it was unencrypted at runtime."
+
+*The gap between the marketing claim and the technical reality is total.*
 
 ### What Is Unencrypted
 
@@ -202,6 +197,8 @@ When researchers examined devices, they found **unencrypted**:
 
 GainSec white paper excerpt:
 > "We found images older than 7 days. In fact, stored images were captured when the camera was triggered inside the factory where the device was made."
+
+*This means stated privacy policies are not enforced at the device level.*
 
 ### Privacy Implications
 
@@ -258,7 +255,7 @@ Using hardcoded WiFi network names, researchers demonstrated:
 4. Clear-text credentials extracted from traffic
 5. Attacker gains **backend system access**
 
-No physical access to camera required - just proximity (within WiFi range).
+**No physical access to camera required.** Proximity within WiFi range is enough.
 
 ______
 
@@ -270,7 +267,7 @@ ______
 
 ### The Revelation
 
-Perhaps most shocking: **Flock Safety doesn't require 2FA/MFA** for some law enforcement agencies.
+**Flock Safety doesn't require 2FA/MFA** for some law enforcement agencies, *the same agencies accessing tracking data on 150 million vehicles daily.*
 
 Security researcher quote:
 > "When I first found this out, I simply couldn't believe it. The security process you go through when you log into Disney Plus is just too much to ask some police departments to do when accessing confidential information and the location of, in some cases, virtually everyone."
@@ -308,7 +305,7 @@ This finding was specifically highlighted in **Senator Wyden's letter** requesti
 - **FIDO2/WebAuthn** standard compliance
 - **Simple user experience** (plug in or tap device)
 
-If this is "too much hassle" for law enforcement personnel, they **shouldn't have access** to national surveillance systems.
+*If this is "too much hassle" for law enforcement personnel, they **shouldn't have access** to national surveillance systems.*
 
 ______
 
@@ -350,7 +347,7 @@ More sophisticated attack doesn't require physical proximity:
 4. **Man-in-the-middle** all traffic
 5. Extract credentials, imagery, and metadata
 
-**No physical access required** - Can be done from **hundreds of feet away**
+**No physical access required.** This works from **hundreds of feet away.**
 
 ### Modern Tempest Attack Potential
 
@@ -431,9 +428,7 @@ ______
 
 ### Contradiction to Public Statements
 
-**Severity**: HIGH (Privacy/Legal Implicat
-
-ions)
+**Severity**: HIGH (Privacy/Legal Implications)
 
 ### Flock Safety's Claims
 
@@ -443,11 +438,13 @@ ions)
 ### Independent Research Findings
 
 **What cameras actually do**:
-1. **Motion detection** triggers camera **for anything** - not just vehicles
+1. **Motion detection** triggers camera **for anything**, not just vehicles
 2. **AI looks for license plate** in image
 3. **If no plate found**, image is **still stored** (not deleted)
 4. **Separate folder** stores images without plates
 5. **People, pedestrians, cyclists** captured and retained
+
+*The "vehicles only" claim is false. The camera stores images of anyone who walks in front of it.*
 
 ### Verified Observations
 
@@ -478,7 +475,7 @@ The **Condor PTZ cameras** (deployed 2025-2026) are **explicitly designed** to t
 - **No opt-out** mechanism
 - **Often deployed** at parks, trails, transit stations
 
-This represents **massive scope expansion** from "license plate readers" to **general population surveillance**.
+*This represents a massive scope expansion from "license plate readers" to general population surveillance, with no policy change, no new contracts, and no public notice.*
 
 ______
 
@@ -509,7 +506,7 @@ A **BadUSB device** (costs $5-15):
 GainSec demonstrated:
 1. Approach deployed Flock device
 2. Plug in **BadUSB device** to exposed port
-3. Device **executs payload** (script)
+3. Device executes payload (script)
 4. Payload installs **persistent malware**
 5. Attacker **walks away**
 6. Malware **phones home** over LTE/WiFi
@@ -556,7 +553,7 @@ In 2025, **OSINT researcher Joshua Michael** discovered:
 
 ### What The API Key Granted Access To
 
-The exposed ArcGIS API key provided access to:
+The exposed **ArcGIS API key** provided access to:
 
 **1. Registration Data**
 - Customer names
@@ -602,11 +599,7 @@ Just weeks before this discovery, **Chinese state-sponsored** hacking group **Fl
 InfoSecurity Magazine quote:
 > "The hackers allegedly targeted a legitimate public-facing ArcGIS application...used for disaster recovery, emergency management, and other critical functions."
 
-This means **hostile nation-states** had potential access to:
-- Police vehicle locations
-- Officer identities
-- Surveillance camera placements
-- Emergency response patterns
+**This means hostile nation-states had potential access to** police vehicle locations, officer identities, surveillance camera placements, and emergency response patterns.
 
 ______
 
@@ -690,11 +683,7 @@ ______
 Flock initially claimed research devices were:
 > "Not connected to the cloud...like an iPhone stolen off a truck before it was ever connected"
 
-**Proven False**:
-- Researchers tested **cloud-connected devices**
-- Multiple sources provided **identical results**
-- Public-facing cameras exhibited **same vulnerabilities**
-- 404 Media found **60+ exposed production cameras**
+*This was proven false.* Researchers tested **cloud-connected devices** and got identical results. Public-facing cameras exhibited the **same vulnerabilities**, and 404 Media found **60+ exposed production cameras**.
 
 ### Response to Researcher
 
@@ -716,7 +705,7 @@ Quote from Ben:
 
 ### Continued Deployment
 
-Despite findings, Flock Safety:
+*Despite all of this*, Flock Safety:
 - **Continues selling** vulnerable devices
 - **No firmware updates** addressing root causes
 - **Still running** Android Things 8.x (EOL 2021)
@@ -750,7 +739,7 @@ ______
 **Evanston, Illinois**:
 - Discovered **ICE using cameras** without consent
 - Voted to **remove cameras**
-- Flock **reinstalled** cameras without authorization
+- *Flock reinstalled cameras without authorization*
 - City spending taxpayer money to **cover cameras** with sheeting and pursue legal action
 
 **Oakland, California**:
@@ -795,7 +784,7 @@ ______
 **Method**:
 1. Purchase BadUSB device ($15)
 2. Drive to cameras in operating territory
-3. Plug BadUSB into exposed USB port (30 second)
+3. Plug BadUSB into exposed USB port (30 seconds)
 4. Payload disables camera or modifies footage
 5. Alternative: Payload exfiltrates police vehicle tracking to remote server
 
@@ -964,7 +953,7 @@ ______
 
 **Contribution**:
 - Discovered **exposed API keys** via Google dorking
-- Documented **ArcGIS layer exposuresures**
+- Documented **ArcGIS layer exposures**
 - **OSINT methodology** for tracking research
 - **Data correlation** with public breaches
 
@@ -1018,6 +1007,8 @@ This **chilling effect** on security research:
 - Delays critical security fixes
 - Harms public safety
 - Violates ethical norms of security community
+
+*Flock Safety's response to researchers who followed disclosure protocols sets a dangerous precedent for the entire security research community.*
 
 Quote from Ben Jordan:
 > "I don't have the luxury to dedicate even more months to yet another Flock Safety vulnerability, but as you can see, this one is urgent, and frankly, I'm worried that it's already being exploited."
@@ -1083,12 +1074,14 @@ ______
 
 ### The Bigger Picture
 
-This case study represents **more than just Flock Safety** - it's emblematic of:
+This case study represents **more than just Flock Safety.** It is emblematic of:
 - **Surveillance industry** prioritizing growth over security
 - **Government procurement** lacking technical expertise
 - **Vendor claims** going unchallenged and unverified
 - **Financial incentives** misaligned with public safety
 - **Regulatory gaps** in emerging technology oversight
+
+*Every city that signs a Flock contract without independent security verification accepts these risks on behalf of its residents.*
 
 ### Call to Action
 

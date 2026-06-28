@@ -5,6 +5,9 @@ toc: true
 draft: false
 genre: ["Cybersecurity Tools", "Static Code Analysis", "Privacy and Security", "Self-Hosted Services", "GitHub Resources", "Security Recommendations", "Code Quality Assurance", "Personal Security", "Home Lab Setup", "Privacy-Respecting Services"]
 tags: ["Security Tools", "Static Code Analyzers", "Self-Hosted Services", "GitHub Resources", "Cybersecurity", "Code Quality", "Privacy and Security", "Personal Security", "Home Lab Setup", "Code Analysis", "Security Recommendations", "Code Development", "Security Practices", "Code Checker", "Code Optimization", "Privacy Tools", "Home Server", "Privacy Software", "Cybersecurity Solutions", "Code Review", "Open Source Tools", "Secure Development", "Code Modules", "Self-Hosted Applications", "Privacy-Respecting Services", "Security Best Practices", "GitHub Lists", "Software Recommendations", "Code Maintenance", "Privacy Enhancement", "Home Network Security"]
+cover: "/img/cover/2020-12-27.webp"
+coverAlt: "A futuristic workspace with a laptop displaying code and security analytics, surrounded by colorful icons representing cybersecurity tools, all set against a dark navy background."
+coverCaption: ""
 ---
 
 **What SimeonOnSecurity learned about and found interesting today**

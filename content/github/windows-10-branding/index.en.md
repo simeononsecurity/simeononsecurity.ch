@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Control desktop wallpaper, users avatar, lock screen, and OEM logo with ease on Windows 10 and Server systems using a partially automated script."
 tags: ["Automation", "Branding", "Windows Branding", "Customization", "Windows Customization", "Windows 10", "Windows Server 2016", "Windows Server 2019", "Powershell", "Script", "Windows System Branding", "Desktop Wallpaper", "Users Avatar", "Windows Lock Screen", "OEM Logo", "Microsoft Security Compliance Toolkit 1.0", "Organization Branding", "System Customization", "IT Automation", "Security Compliance"]
+cover: "/img/cover/windows-10-branding.webp"
+coverAlt: "An illustration of a Windows desktop displaying a custom wallpaper, user avatar, and lock screen, with gears and circuits in the background, all on a dark backdrop with vibrant colors."
+coverCaption: ""
 ---
 
 

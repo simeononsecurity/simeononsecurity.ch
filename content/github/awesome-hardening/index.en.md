@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Discover a collection of scripts and configurations to optimize and harden your systems, making them STIG compliant and hacking resistant."
 tags: ["system hardening", "application hardening", "STIG compliant", "Windows optimization", "Windows Defender hardening", "Apache Web Server hardening", ".NET STIG script", "Adobe Reader DC STIG script", "Firefox STIG script", "Simeononsecurity", "cybersecurity", "automation", "network security", "IT security", "system security", "computer security", "security hardening", "security automation", "Windows hardening", "web server hardening"]
+cover: "/img/cover/awesome-hardening.webp"
+coverAlt: "An illustration of a modern workspace with multiple screens showing code related to security hardening. The background is dark, and vibrant colors highlight abstract security elements."
+coverCaption: ""
 ---
 
 **Awesome Hardening**

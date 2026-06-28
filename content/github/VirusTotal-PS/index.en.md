@@ -6,6 +6,9 @@ draft: false
 description: "Perform efficient virus scans with the VirusTotal PowerShell Modules by automating the interaction with VirusTotal API and streamlining your security workflow."
 tags: ["PowerShell Modules", "PowerShell", "Automation", "VirusTotal", "Virus Scans", "Domain Scans", "API Key", "VirusTotal API", "VirusTotal Developers Page", "System Administration", "Security Workflow", "Efficient Virus Scans", "Download and Install", "GitHub Repository", "API Usage Examples"]
 
+cover: "/img/cover/VirusTotal-PS.webp"
+coverAlt: "A digital illustration of a computer workstation with multiple monitors. One displays PowerShell commands and another shows graphs of virus scanning results, set against a dark background."
+coverCaption: ""
 ---
 A collection of PowerShell Modules for Interacting with the VirusTotal API
 

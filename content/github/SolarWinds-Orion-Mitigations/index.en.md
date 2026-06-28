@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "Learn about the SolarWinds Orion Supply Chain Attack, including the C2 malware, mitigations, and expert guidance from organizations like DHS and FireEye."
 tags: ["SolarWinds", "Supply Chain", "C2", "Command and Control", "Mitigations", "Guidance", "Threat Intelligence", "DHS", "FireEye", "MSRC", "Microsoft", "SANS", "SolarWinds.Orion.Core.BusinessLayer.dll", "SolarWinds.BusinessLayerHost.exe", "ConfigurationWizard.exe", "NetflowDatabaseMaintenance.exe", "NetFlowService.exe", "SolarWinds.Administration.exe", "SolarWinds.Collector.Service.exe", "DNS CNAMEs", "IP Ranges", "DNS Names"]
+cover: "/img/cover/SolarWinds-Orion-Mitigations.webp"
+coverAlt: "An illustration showing a dark, intricate web of computer networks under attack, with glowing data streams and digital shields. The colors are vibrant blues, greens, and purples against a dark background."
+coverCaption: ""
 ---
 
 For guidance on the solarwinds issue please see [DHS](https://cyber.dhs.gov/ed/21-01/), [SolarWinds](https://www.solarwinds.com/securityadvisory), [FireEYE](https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html), [MSRC](https://msrc-blog.microsoft.com/2020/12/13/customer-guidance-on-recent-nation-state-cyber-attacks/), and [Microsoft](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:MSIL/Solorigate.B!dha). 

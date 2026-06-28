@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## Introduction: A Hacker's Hotspot
 
-**DagShell** is a revolutionary custom firmware for the **Orbic RCL400 mobile hotspot** that transforms an ordinary cellular device into a **portable security research and privacy toolkit**. Created by security researcher "dag," this terminal-styled firmware provides **hacking tools, privacy features, and network monitoring capabilities** in a sleek, green-on-black hacker aesthetic interface.
+**DagShell** is open-source custom firmware for the **Orbic RCL400 mobile hotspot** that transforms an ordinary cellular device into a **portable security research and privacy toolkit**. Created by security researcher "dag," this terminal-styled firmware provides **hacking tools, privacy features, and network monitoring capabilities** in a sleek, green-on-black hacker aesthetic interface.
 
 This comprehensive guide covers:
 - **What DagShell is** and its complete feature set
@@ -182,7 +182,7 @@ Message text here^Z
 
 #### IMSI Catcher Detector
 
-**Purpose**: Monitor cell tower information for anomalies that indicate IMSI catcher/Stingray devices
+**Purpose**: Monitor cell tower information for anomalies that indicate **IMSI catcher/Stingray** devices
 
 **How It Works**:
 - Queries modem for **cell tower data**:
@@ -196,7 +196,7 @@ Message text here^Z
 
 **Detection Indicators**:
 - **Sudden cell tower switch** while stationary
-- **Downgrade to 2G** (IMSI catchers often force 2G)
+- **Downgrade to 2G** *(IMSI catchers often force 2G to strip encryption)*
 - **Unknown Cell ID** appearing
 - **Weak signal** from fake tower
 - **Frequent reconnections**
@@ -270,7 +270,7 @@ iptables -D OUTPUT -d IP_ADDRESS -j DROP
 - **Security research** on own devices
 - **Malware behavior analysis**
 
-**Privacy Note**: This captures metadata (domains visited) from connected clients
+*This captures metadata (domains visited) from connected clients — deploy only on networks you own or administer.*
 
 #### ARP Scanner
 
@@ -323,7 +323,7 @@ Vendor: Samsung Electronics
 - Uses **wlan1** (second WiFi interface if available via Pi companion)
 - Clones **SSID, encryption type** of target network
 - **Captures clients** attempting to connect
-- Can serve **captive portal** for credential harvesting
+- Serves **captive portal** for credential harvesting
 
 **Attack Scenario** (Lab Environment):
 1. Scan for legitimate WiFi networks
@@ -332,7 +332,7 @@ Vendor: Samsung Electronics
 4. Clients auto-reconnect to **fake AP**
 5. Captive portal captures credentials
 
-**Detection**: Clients see **duplicate SSIDs** if both APs visible
+*Detection: Clients see **duplicate SSIDs** if both APs are visible simultaneously.*
 
 #### Captive Portal
 
@@ -358,7 +358,7 @@ Vendor: Samsung Electronics
 #### GPS Functionality
 
 **GPS Source**: **Raspberry Pi companion ONLY**
-- Orbic RCL400 has **no built-in GPS**
+- *The Orbic RCL400 has **no built-in GPS** — skipping the Pi companion means no location data*
 - Pi connects **USB GPS dongle** (U-Blox 7 chipset)
 - Pi sends coordinates to Orbic via **shared data files**
 - **ECEF to Lat/Long** conversion handled automatically
@@ -418,9 +418,9 @@ The **Raspberry Pi companion** extends DagShell capabilities with **external har
 #### Hardware Requirements
 
 **Minimum**:
-- **Raspberry Pi 3B+** or newer (Zero lacks USB power for peripherals)
+- **Raspberry Pi 3B+** or newer *(Pi Zero lacks USB power for peripherals)*
 - **USB GPS dongle** (U-Blox 7 chipset recommended)
-- **Power supply** (Pi needs separate power, can't draw from Orbic USB)
+- **Power supply** *(Pi requires separate power — the Orbic USB port does not supply enough)*
 
 **Optional**:
 - **WiFi adapter** (second interface for scanning while maintaining link)
@@ -504,7 +504,7 @@ Timestamp,MAC,RSSI,Name,Manufacturer
 - **Penetration testing** with permission
 - **Evil Twin attacks** in lab (force clients to fake AP)
 
-**Legal Warning**: Deauth attacks are **illegal against networks you don't own**. FCC violations + potential CFAA charges.
+**⚠️ Legal Warning**: Deauth attacks are **illegal against networks you don't own**. FCC violations + potential CFAA charges.
 
 #### Auto-Start Service
 
@@ -608,9 +608,7 @@ ______
 - URL: [dagnazty.github.io/DagShell/orbic.html](https://dagnazty.github.io/DagShell/orbic.html)
 
 **Step 2**: Generate PKI Certificates
-- Cl
-
-ick **"Generate Certificates"** button
+- Click **"Generate Certificates"** button
 - Browser generates **2-tier PKI** (Root CA + Server certificate)
 - **Download files**: `root.der` and `server.der`
 
@@ -707,7 +705,7 @@ python3 gen_pki.py         # Generate certificates
 
 **Output**: `orbic_app` (static ARM binary) + DER certificate files
 
-**Note for macOS**: The `gcc_mac/` folder contains custom ARM toolchain built with **crosstool-ng** targeting **Linux kernel 3.2** headers for compatibility with Orbic's kernel 3.18. Standard Homebrew ARM compilers target newer kernels and **won't work**.
+**⚠️ Note for macOS**: The `gcc_mac/` folder contains a custom ARM toolchain built with **crosstool-ng** targeting **Linux kernel 3.2** headers for compatibility with Orbic's kernel 3.18. *Standard Homebrew ARM compilers target newer kernels and **will not work**.*
 
 #### Step 4: Enable Root Shell on Orbic
 
@@ -758,12 +756,12 @@ When accessing DagShell, you'll see a **"Not Secure" or "Not Trusted"** warning:
 **Why This Happens**:
 - Certificate is **self-signed** (not from trusted CA like Let's Encrypt)
 - Your device doesn't have the root certificate in its trust store
-- This is **expected behavior** for custom firmware
+- *This is **expected behavior** for custom firmware, not a sign of compromise*
 
-**Is It Actually Secure?**:
+**Is Connection Actually Secure?**:
 - **YES** - Connection IS encrypted with **TLS 1.2+**
-- Data can't be intercepted
-- Just not "chain-trusted" to a public CA
+- Data cannot be intercepted
+- *The certificate is simply not "chain-trusted" to a public CA — the encryption is real*
 
 **Optional**: Install `root.der` in your device's trust store to eliminate warning
 
@@ -901,8 +899,8 @@ sudo systemctl restart networking
 - Connect Pi to Orbic via **USB cable** (Pi USB port to Orbic USB port)
 - Enable **USB gadget mode** on Pi
 - Pi acts as **USB Ethernet device**
-- More reliable than WiFi
-- Pi can access internet through Orbic
+- *More reliable than WiFi for continuous data transfer*
+- Pi accesses internet through Orbic
 
 **USB Gadget Config**:
 ```bash
@@ -1030,7 +1028,7 @@ ______
 - RayHunter uses port **80/443**
 - DagShell uses port **8443**
 - They don't interfere with each other
-- Can run **simultaneously**
+- Run **simultaneously**
 
 ______
 
@@ -1152,7 +1150,7 @@ ______
 
 **European Union**:
 - **GDPR** - Data protection (BLE/WiFi scanning of identifiable data)
-- **Local regulations** vary by country
+- *Local regulations vary by country and enforcement differs significantly*
 
 ### Ethical Guidelines
 
@@ -1179,7 +1177,7 @@ DagShell is a **security research and privacy tool**. Its capabilities are simil
 - **Intent** (improve security vs. cause harm)
 - **Disclosure** (report findings vs. exploit them)
 
-Use DagShell **responsibly** and **ethically**. If you're unsure whether something is legal, **don't do it** or **consult a lawyer**.
+Use DagShell **responsibly** and **ethically**. *If you're unsure whether something is legal, stop and consult a lawyer before proceeding.*
 
 ______
 
@@ -1206,8 +1204,8 @@ ______
 **Problem**: Certificate warning won't go away
 
 **Solutions**:
-- This is **normal** for self-signed certificates
-- Click "Advanced" -> "Proc eed anyway" each time
+- *This is **normal** for self-signed certificates — the connection is still encrypted*
+- Click "Advanced" -> "Proceed anyway" each time
 - **Optional**: Install `root.der` in device trust store (advanced)
 
 ### Runtime Issues
@@ -1226,7 +1224,7 @@ ______
 - Verify **Pi companion** is running: `systemctl status pi-companion`
 - Check GPS has satellite lock: `cgps -s` (on Pi)
 - Ensure GPS dongle connected: `lsusb`
-- Wait 5-10 minutes for cold start GPS fix
+- *Wait 5-10 minutes for cold start GPS fix — GPS fix takes longer outdoors on first boot*
 
 **Problem**: Wardriving not logging
 
@@ -1250,7 +1248,7 @@ ______
 
 **Solutions**:
 - Clear browser cache
-- Disable browser extensions (ad blockers may interfere)
+- Disable browser extensions (ad blockers interfere)
 - Use **wired** connection to Orbic instead of WiFi
 - Restart DagShell: `killall orbic_app && /data/orbic_app &`
 
@@ -1259,7 +1257,7 @@ ______
 **Solutions**:
 - Increase scan interval in settings (trade frequency for performance)
 - Reduce number of channels scanned
-- Ensure GPS has good fix (weak GPS slows scans waiting for coordinates)
+- *Weak GPS fix slows scans — the system waits for valid coordinates before logging*
 
 ______
 

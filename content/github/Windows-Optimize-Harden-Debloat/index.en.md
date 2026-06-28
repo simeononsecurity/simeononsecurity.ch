@@ -5,6 +5,9 @@ toc: true
 draft: false
 description: "This comprehensive guide provides step-by-step instructions on how to optimize, harden, and debloat your Windows system for improved performance, security, and privacy."
 tags: ["Windows optimization", "Windows hardening", "Windows debloating", "Windows security", "Windows performance", "Windows privacy", "Windows updates", "Group Policy Objects", "Adobe Acrobat Reader", "Firefox", "Google Chrome", "Internet Explorer", "Microsoft Chromium Edge", "Dot Net 4", "Microsoft Office", "Onedrive", "Oracle Java JRE 8", "Windows Firewall", "Windows Defender", "Applocker", "Windows 10", "Windows 11", "automated configuration changes", "security", "privacy", "hardening", "telemetry blocking", "system lockdown", "script", "operating system", "PrivacyTools.io", "Microsoft", "Cyber.mil", "Department of Defense", "National Security Agency", "Windows Update", "Windows Defender", "Windows Store", "Cortona", "enterprise configuration settings", "bitlocker", "hardware requirements", "highly secure Windows device", "GPO configurations", "system optimization", "personal use"]
+cover: "/img/cover/Windows-Optimize-Harden-Debloat.webp"
+coverAlt: "An illustration of a computer screen showing a Windows 10/11 security settings interface with colorful sliders and icons for disabling features, set against a dark background with abstract security shapes."
+coverCaption: ""
 ---
 ## Introduction:
 
