@@ -1,0 +1,319 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Błąd Ludzki on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-ludzki//img/banner.png</url>
+      <title>Błąd Ludzki on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-ludzki/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-ludzki/</link>
+
+    <description>Recent content in Błąd Ludzki on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/b%C5%82%C4%85d-ludzki/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie przemysłowych systemów sterowania (ICS): Wyzwania, najlepsze praktyki i przyszłe trendy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/securing-industrial-control-systems/</link>
+        
+        <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przemysłowe systemy sterowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Wyzwania związane z bezpieczeństwem ICS"
+            
+              , "Najlepsze praktyki dla ICS"
+            
+              , "Składniki ICS"
+            
+              , "Starsze systemy"
+            
+              , "Szkolenie pracowników"
+            
+              , "Podatności łańcucha dostaw"
+            
+              , "Zagrożenia wewnętrzne"
+            
+              , "Wdrożenia zabezpieczeń ICS"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/securing-industrial-control-systems/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o wyzwaniach, najlepszych praktykach i przyszłych trendach w zabezpieczaniu przemysłowych systemów sterowania (ICS) przed cyberzagrożeniami i zapewnianiu płynnego działania infrastruktury krytycznej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_concept_of_s.png" length="358287" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ręczne a automatyczne testowanie oprogramowania: Wybór właściwej strategii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</link>
+        
+        <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testowanie oprogramowania"
+            
+              , "testowanie ręczne"
+            
+              , "testowanie automatyczne"
+            
+              , "strategie testowania"
+            
+              , "rozwój oprogramowania"
+            
+              , "zapewnienie jakości"
+            
+              , "przypadki testowe"
+            
+              , "pokrycie testami"
+            
+              , "testy eksploracyjne"
+            
+              , "doświadczenie użytkownika"
+            
+              , "efektywność"
+            
+              , "możliwość ponownego użycia"
+            
+              , "zdolność adaptacji"
+            
+              , "błąd ludzki"
+            
+              , "fałszywe alarmy"
+            
+              , "Fałszywe negatywy"
+            
+              , "automatyzacja testów"
+            
+              , "testowanie hybrydowe"
+            
+              , "optymalizacja zasobów"
+            
+              , "praktyki testowania oprogramowania"
+            
+              , "Wybór właściwej strategii testowania oprogramowania"
+            
+              , "zalety testowania ręcznego"
+            
+              , "Wady testów automatycznych"
+            
+              , "łączenie testów manualnych i automatycznych"
+            
+              , "optymalizacja procesu testowania oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety i wady ręcznego i automatycznego testowania oprogramowania, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png" length="262222" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

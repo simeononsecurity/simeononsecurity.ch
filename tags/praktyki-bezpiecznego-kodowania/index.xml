@@ -1,0 +1,431 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Praktyki Bezpiecznego Kodowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/praktyki-bezpiecznego-kodowania//img/banner.png</url>
+      <title>Praktyki Bezpiecznego Kodowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/praktyki-bezpiecznego-kodowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/praktyki-bezpiecznego-kodowania/</link>
+
+    <description>Recent content in Praktyki Bezpiecznego Kodowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/praktyki-bezpiecznego-kodowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola języków programowania w cyberbezpieczeństwie: Odkrywanie kluczowych narzędzi i aplikacji</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "języki programowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kluczowe narzędzia"
+            
+              , "aplikacje"
+            
+              , "bezpieczne systemy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aplikacje internetowe"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "bezpieczne kodowanie"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "języki skryptowe"
+            
+              , "automatyzacja"
+            
+              , "bezpieczna komunikacja"
+            
+              , "analiza danych"
+            
+              , "uczenie maszynowe"
+            
+              , "reakcja na incydent"
+            
+              , "rozwój exploitów"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "utwardzanie systemu"
+            
+              , "analiza dziennika"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "protokoły sieciowe"
+            
+              , "tworzenie stron internetowych"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "usługi kryptograficzne"
+            
+              , "sandboxing"
+            
+              , "kontrola dostępu"
+            
+              , "inżynieria odwrotna"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png" length="329223" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Praktyki bezpiecznego kodowania dla programistów internetowych: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-secure-coding-practices-for-web-development/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Praktyki bezpiecznego kodowania"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Krajobraz cyberbezpieczeństwa"
+            
+              , "OWASP Top Ten"
+            
+              , "Ataki typu SQL Injection"
+            
+              , "XSS"
+            
+              , "CSRF"
+            
+              , "Bezpieczny cykl rozwoju"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Ucieczka wyjścia"
+            
+              , "Protokoły bezpiecznej komunikacji"
+            
+              , "Kontrola dostępu"
+            
+              , "Przechowywanie i obsługa danych"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Hashowanie haseł"
+            
+              , "Szyfrowanie danych"
+            
+              , "Przygotowane oświadczenia"
+            
+              , "Dane wrażliwe"
+            
+              , "Cyberataki"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Bezpieczeństwo aplikacji internetowych"
+            
+              , "Bezpieczne tworzenie stron internetowych"
+            
+              , "Najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "Tworzenie aplikacji internetowych"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "Luki w zabezpieczeniach aplikacji internetowych"
+            
+              , "Zagrożenia bezpieczeństwa OWASP"
+            
+              , "Środki bezpieczeństwa strony internetowej"
+            
+              , "Ochrona aplikacji internetowych"
+            
+              , "Bezpieczne projektowanie stron internetowych"
+            
+              , "Wytyczne dotyczące tworzenia stron internetowych"
+            
+              , "Praktyki bezpiecznego kodowania na potrzeby tworzenia stron internetowych"
+            
+              , "Ograniczenie cyberataków w aplikacjach internetowych"
+            
+              , "Bezpieczny cykl rozwoju dla twórców stron internetowych"
+            
+              , "Techniki walidacji danych wejściowych dla bezpieczeństwa sieci"
+            
+              , "Metody ucieczki danych wyjściowych w celu zapobiegania atakom XSS"
+            
+              , "Protokoły bezpiecznej komunikacji dla aplikacji internetowych"
+            
+              , "Wdrażanie kontroli dostępu w tworzeniu stron internetowych"
+            
+              , "Bezpieczne przechowywanie i obsługa danych w aplikacjach internetowych"
+            
+              , "Hashowanie i szyfrowanie haseł w tworzeniu stron internetowych"
+            
+              , "Przygotowane instrukcje zapobiegające wstrzyknięciu kodu SQL"
+            
+              , "Zarządzanie wrażliwymi danymi w aplikacjach internetowych"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa aplikacji internetowych"
+            
+              , "Zapobieganie dziesięciu największym zagrożeniom OWASP w tworzeniu stron internetowych"
+            
+              , "Środki bezpieczeństwa sieciowego dla bezpiecznego kodowania"
+            
+              , "Zmniejszenie ryzyka cyberbezpieczeństwa podczas tworzenia stron internetowych"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla twórców stron internetowych"
+            
+              , "Zapobieganie lukom w zabezpieczeniach aplikacji internetowych"
+            
+              , "Wytyczne dotyczące bezpieczeństwa w sieci dla deweloperów"
+            
+              , "Zapewnienie ochrony aplikacji internetowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-secure-coding-practices-for-web-development/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe praktyki bezpiecznego kodowania w celu tworzenia bezpiecznych aplikacji internetowych i zmniejszenia ryzyka cyberataków.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_standing_confidently_in_front_of_a_shield.png" length="156047" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla programistów C#</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ostry rozwój"
+            
+              , "Programowanie w języku C Sharp"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo C Sharp"
+            
+              , "Bezpieczeństwo ASP.NET"
+            
+              , "Bezpieczeństwo .NET Core"
+            
+              , "walidacja danych wejściowych"
+            
+              , "haszowanie haseł"
+            
+              , "kryptografia"
+            
+              , "najmniejszy przywilej"
+            
+              , "statyczny analizator kodu"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "Zapobieganie iniekcjom SQL"
+            
+              , "Zapobieganie atakom typu cross-site scripting"
+            
+              , "ochrona danych"
+            
+              , "kontrole stanu zdrowia"
+            
+              , "zarządzanie sesjami"
+            
+              , "Najlepsze praktyki OWASP"
+            
+              , "Standardy bezpiecznego kodowania C Sharp"
+            
+              , "C Wytyczne dotyczące bezpieczeństwa Sharp"
+            
+              , "wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "bezpieczne tworzenie oprogramowania"
+            
+              , "bezpieczne ramy kodowania"
+            
+              , "techniki bezpiecznego kodowania"
+            
+              , "zalecenia dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczne programowanie w języku C Sharp"
+            
+              , "Luki w bezpiecznym kodowaniu"
+            
+              , "narzędzia do bezpiecznego kodowania"
+            
+              , "samouczki bezpiecznego kodowania"
+            
+              , "Najlepsze praktyki bezpiecznego kodowania w C Sharp"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania C Sharp"
+            
+              , "Standardy bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Ostre praktyki bezpiecznego kodowania"
+            
+              , "Jak wdrożyć bezpieczne kodowanie w C Sharp"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Bezpieczne kodowanie w aplikacjach internetowych C Sharp"
+            
+              , "Bezpieczne ramy kodowania w języku C Sharp"
+            
+              , "Techniki bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Narzędzia do bezpiecznego kodowania C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w języku C#, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png" length="487099" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

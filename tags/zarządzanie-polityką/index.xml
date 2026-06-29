@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zarządzanie Polityką on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-polityk%C4%85//img/banner.png</url>
+      <title>Zarządzanie Polityką on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-polityk%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-polityk%C4%85/</link>
+
+    <description>Recent content in Zarządzanie Polityką on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zarz%C4%85dzanie-polityk%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

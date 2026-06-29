@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Środowisko Utwardzania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-utwardzania//img/banner.png</url>
+      <title>Środowisko Utwardzania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-utwardzania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-utwardzania/</link>
+
+    <description>Recent content in Środowisko Utwardzania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%9Brodowisko-utwardzania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Kod wtrysku"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

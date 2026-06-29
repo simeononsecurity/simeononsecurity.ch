@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HD Moore on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/hd-moore//img/banner.png</url>
+      <title>HD Moore on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/hd-moore/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/hd-moore/</link>
+
+    <description>Recent content in HD Moore on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/hd-moore/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Exploring Metasploit: Kompleksowe ramy dla testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "po operacji"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

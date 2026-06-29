@@ -1,0 +1,1737 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Najlepsze Praktyki on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/najlepsze-praktyki//img/banner.png</url>
+      <title>Najlepsze Praktyki on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki/</link>
+
+    <description>Recent content in Najlepsze Praktyki on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/najlepsze-praktyki/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik po zarządzaniu zespołem ds. cyberbezpieczeństwa: Umiejętności, najlepsze praktyki i nie tylko</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</link>
+        
+        <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie cyberbezpieczeństwem"
+            
+              , "Przywództwo w zakresie bezpieczeństwa informacji"
+            
+              , "Zarządzanie zespołem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Rozwój umiejętności"
+            
+              , "Zarządzanie ryzykiem cybernetycznym"
+            
+              , "Reakcja na incydent"
+            
+              , "Komunikacja"
+            
+              , "Współpraca"
+            
+              , "Ciągłe uczenie się"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj niezbędne umiejętności i najlepsze praktyki skutecznego zarządzania zespołem ds. cyberbezpieczeństwa w dzisiejszym zmieniającym się środowisku zagrożeń i pracy zdalnej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.png" length="227775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak zabezpieczyć środowisko Docker i Kubernetes</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Pojemniki"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "RBAC"
+            
+              , "Serwer API"
+            
+              , "Podatności"
+            
+              , "Monitoring"
+            
+              , "Rejestrowanie"
+            
+              , "Firewalle"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometeusz"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne szkolenie w zakresie świadomości bezpieczeństwa dla pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "pracownicy zdalni"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "szkolenie"
+            
+              , "pracownicy zdalni"
+            
+              , "phishing"
+            
+              , "najlepsze praktyki"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "gamifikacja"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Świadomość bezpieczeństwa"
+            
+              , "Instytut Infosec"
+            
+              , "KnowBe4"
+            
+              , "kształcenie ustawiczne"
+            
+              , "scenariusze realne"
+            
+              , "szkolenie interaktywne"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "platformy szkoleniowe w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swoich pracowników zdalnych dzięki skutecznemu szkoleniu z zakresu świadomości bezpieczeństwa i dowiedz się, jak je skutecznie wdrożyć.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie urządzeń IoT: Wyzwania i rozwiązania w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo"
+            
+              , "Internet rzeczy"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "inteligentne urządzenia"
+            
+              , "najlepsze praktyki"
+            
+              , "Ryzyko związane z IoT"
+            
+              , "uwierzytelnianie"
+            
+              , "aktualizacje oprogramowania sprzętowego"
+            
+              , "monitorowanie"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "Wytyczne dotyczące bezpieczeństwa IoT"
+            
+              , "segmentacja sieci"
+            
+              , "krajobraz zagrożeń"
+            
+              , "podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna i odporna konfiguracja VPN dla korporacyjnych pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</link>
+        
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "praca zdalna"
+            
+              , "korporacyjna sieć VPN"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "protokoły tunelowania"
+            
+              , "Konfiguracja VPN"
+            
+              , "Serwer VPN"
+            
+              , "Bezpieczeństwo VPN"
+            
+              , "Konserwacja VPN"
+            
+              , "Monitorowanie VPN"
+            
+              , "Rozwiązanie VPN"
+            
+              , "uwierzytelnianie"
+            
+              , "bezpieczeństwo danych"
+            
+              , "prywatność"
+            
+              , "wydajność"
+            
+              , "skalowalność"
+            
+              , "kompatybilność"
+            
+              , "szkolenie pracowników"
+            
+              , "najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować bezpieczną i odporną sieć VPN dla zdalnych pracowników firmy, zapewniając bezpieczny dostęp do zasobów firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png" length="313028" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie ram bezpieczeństwa cybernetycznego NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "NIST"
+            
+              , "ramy"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberzagrożenia"
+            
+              , "wdrożenie"
+            
+              , "najlepsze praktyki"
+            
+              , "wytyczne"
+            
+              , "standardy"
+            
+              , "cyberataki"
+            
+              , "ocena ryzyka"
+            
+              , "ryzyko cyberbezpieczeństwa"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "reakcja na incydent"
+            
+              , "środki bezpieczeństwa"
+            
+              , "plan cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć NIST Cybersecurity Framework i chronić swoją organizację przed cyberzagrożeniami, korzystając z naszego przewodnika krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Poradnik dla początkujących Tworzenie stron internetowych: HTML, CSS i JavaScript</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "rozwój sieci"
+            
+              , "HTML"
+            
+              , "CSS"
+            
+              , "JavaScript"
+            
+              , "kodowanie"
+            
+              , "samouczek"
+            
+              , "nauka"
+            
+              , "początkujący"
+            
+              , "CodePen"
+            
+              , "W3Szkoły"
+            
+              , "najlepsze praktyki"
+            
+              , "zasoby"
+            
+              , "freeCodeCamp"
+            
+              , "Dokumenty internetowe MDN"
+            
+              , "Codecademy"
+            
+              , "Udacity"
+            
+              , "współpraca"
+            
+              , "debugowanie"
+            
+              , "projekty"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/getting-in-to-website-development-with-html-css-javascript-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy tworzenia stron internetowych, w tym HTML, CSS i JavaScript, dzięki temu przyjaznemu dla początkujących przewodnikowi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png" length="360868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do Ansible: Automatyzacja zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Udostępnianie"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Najlepsze praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemu"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentaryzacja Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Najlepsze praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Ansible, narzędzia do automatyzacji o otwartym kodzie źródłowym, które upraszcza zarządzanie infrastrukturą IT za pomocą języka deklaratywnego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "uchwyty na woluminy"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka reagowania na incydenty: Najlepsze praktyki i przykłady z prawdziwego świata</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cybersecurity"
+            
+              , "NIST"
+            
+              , "najlepsze praktyki"
+            
+              , "wywiad o zagrożeniach"
+            
+              , "komunikacja"
+            
+              , "analiza powypadkowa"
+            
+              , "Equifax"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Rurociąg Colonial"
+            
+              , "Microsoft Exchange Server"
+            
+              , "podatności"
+            
+              , "wykrywanie włamań"
+            
+              , "izolacja"
+            
+              , "odzyskiwanie"
+            
+              , "przygotowanie"
+            
+              , "cyberataki"
+            
+              , "cyberprzestępczość"
+            
+              , "incydenty związane z bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki reagowania na incydenty zgodnie z NIST SP 800-61 Rev. 2 i odkryj rzeczywiste przykłady skutecznych strategii reagowania na incydenty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie domowego laboratorium: Przewodnik dla informatyków, studentów i hobbystów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Home Lab"
+            
+              , "informatycy"
+            
+              , "uczniowie"
+            
+              , "hobbyści"
+            
+              , "tworzenie sieci"
+            
+              , "wirtualizacja"
+            
+              , "automatyka"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "najlepsze praktyki"
+            
+              , "przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten obszerny przewodnik zawiera szczegółowy przegląd tego, czym jest Domowe Laboratorium, dlaczego warto je stworzyć, jakie elementy są potrzebne, jak je skonfigurować, zaawansowane tematy do zbadania i najlepsze praktyki do naśladowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Znaczenie zgodności i profesjonalizmu w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "działalność gospodarcza"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "profesjonalizm"
+            
+              , "zgodność"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "najlepsze praktyki"
+            
+              , "priorytet"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "naruszenia danych"
+            
+              , "własność intelektualna"
+            
+              , "proaktywne podejście"
+            
+              , "niski priorytet"
+            
+              , "brak środków"
+            
+              , "szkolenie"
+            
+              , "zaangażowanie w bezpieczeństwo"
+            
+              , "urzędnicy ds. bezpieczeństwa informacji (ISSO)"
+            
+              , "systemy zarządzania bezpieczeństwem informacji (ISSM)"
+            
+              , "wykształcenie i doświadczenie"
+            
+              , "zagrożenia dla bezpieczeństwa"
+            
+              , "100% sukcesów w audytach zgodności"
+            
+              , "przepisy"
+            
+              , "normy"
+            
+              , "najlepsze praktyki"
+            
+              , "Seria NIST 800"
+            
+              , "gra polityczna"
+            
+              , "zaufanie"
+            
+              , "uczciwość"
+            
+              , "współpraca"
+            
+              , "papeteria"
+            
+              , "przejrzystość"
+            
+              , "odpowiedzialność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bezpieczeństwo cybernetyczne jest krytycznym aspektem współczesnych działań biznesowych i wymaga kompleksowego podejścia, które obejmuje odpowiednie systemy, protokoły i personel, aby skutecznie zarządzać obroną przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

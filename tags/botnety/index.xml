@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Botnety on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/botnety//img/banner.png</url>
+      <title>Botnety on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/botnety/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/botnety/</link>
+
+    <description>Recent content in Botnety on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/botnety/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łagodzenie 5 największych wektorów cyberataku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "cyberataki"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "denial-of-service"
+            
+              , "ataki na hasła"
+            
+              , "ataki na aplikacje internetowe"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "filtry antyspamowe"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "firewalle"
+            
+              , "botnety"
+            
+              , "CDN-y"
+            
+              , "usługi anty-DDoS"
+            
+              , "wydajność sieci"
+            
+              , "podatności"
+            
+              , "ochrona"
+            
+              , "ograniczanie ryzyka"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png" length="288490" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

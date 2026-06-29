@@ -1,0 +1,467 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrole Dostępu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kontrole-dost%C4%99pu//img/banner.png</url>
+      <title>Kontrole Dostępu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontrole-dost%C4%99pu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontrole-dost%C4%99pu/</link>
+
+    <description>Recent content in Kontrole Dostępu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontrole-dost%C4%99pu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Segmentacja sieci: Jak poprawić bezpieczeństwo w Twojej organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "segmentacja sieci"
+            
+              , "poprawić bezpieczeństwo"
+            
+              , "zmniejszyć ryzyko"
+            
+              , "wydajność sieci"
+            
+              , "zarządzanie siecią"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "firewalle"
+            
+              , "kontrole dostępu"
+            
+              , "najmniejszy przywilej"
+            
+              , "uwierzytelnianie"
+            
+              , "testowanie"
+            
+              , "monitorowanie"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "naruszenia danych"
+            
+              , "architektura sieci"
+            
+              , "kompleksowe bezpieczeństwo"
+            
+              , "bezpieczeństwo warstwowe"
+            
+              , "podatności"
+            
+              , "cyberataki"
+            
+              , "szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png" length="260076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona danych pacjentów: Strategie bezpieczeństwa cybernetycznego w służbie zdrowia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "opieka zdrowotna"
+            
+              , "dane pacjentów"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "ataki phishingowe"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "telemedycyna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "naruszenia bezpieczeństwa"
+            
+              , "przepisy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wyzwania związane z cyberbezpieczeństwem, przed którymi stoi opieka zdrowotna i poznaj strategie ochrony i zgodności, aby chronić dane pacjentów i zapewnić zgodność z przepisami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png" length="427259" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2024 Zagrożenia bezpieczeństwa cybernetycznego: Spostrzeżenia i zalecenia ekspertów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "zagrożenia"
+            
+              , "ransomware"
+            
+              , "phishing"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "kopia zapasowa danych"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "poprawki bezpieczeństwa"
+            
+              , "szkolenie pracowników"
+            
+              , "kontrole dostępu"
+            
+              , "kontrole w tle"
+            
+              , "zapobieganie utracie danych"
+            
+              , "dostawcy chmur"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo punktów końcowych"
+            
+              , "monitorowanie sieci"
+            
+              , "skanowanie podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj największe zagrożenia cyberbezpieczeństwa w 2024 roku i dowiedz się, jak pozostać bezpiecznym dzięki zaleceniom ekspertów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png" length="265367" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie infrastruktury sieciowej przed atakami APT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo sieci"
+            
+              , "cybersecurity"
+            
+              , "zaawansowane trwałe zagrożenia"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie danych"
+            
+              , "szkolenie pracowników"
+            
+              , "plan reagowania na incydenty"
+            
+              , "oceny podatności"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "monitorowanie ruchu sieciowego"
+            
+              , "ataki phishingowe"
+            
+              , "ochrona punktów końcowych"
+            
+              , "wykrywanie włamań"
+            
+              , "firewalle"
+            
+              , "SIEM"
+            
+              , "kopia zapasowa danych"
+            
+              , "segmentacja sieci"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe kroki, aby utwardzić infrastrukturę sieciową przed zaawansowanymi trwałymi zagrożeniami (APT) i chronić swoją organizację przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png" length="141474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie stacji roboczych: Przewodnik oparty na zaleceniach NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecenia NIST"
+            
+              , "bezpieczeństwo stacji roboczych"
+            
+              , "cybersecurity"
+            
+              , "szyfrowanie danych"
+            
+              , "ochrona firewalla"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "kontrole dostępu"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "kopia zapasowa danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć stacje robocze i chronić wrażliwe informacje dzięki temu kompleksowemu przewodnikowi opartemu na zaleceniach NIST dotyczących wdrażania silnej kontroli dostępu, utrzymywania aktualnego oprogramowania, korzystania z oprogramowania antywirusowego, włączania ochrony firewall, wdrażania szyfrowania danych i regularnego tworzenia kopii zapasowych danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.png" length="285103" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

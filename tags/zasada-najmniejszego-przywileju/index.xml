@@ -1,0 +1,260 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zasada Najmniejszego Przywileju on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zasada-najmniejszego-przywileju//img/banner.png</url>
+      <title>Zasada Najmniejszego Przywileju on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zasada-najmniejszego-przywileju/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zasada-najmniejszego-przywileju/</link>
+
+    <description>Recent content in Zasada Najmniejszego Przywileju on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zasada-najmniejszego-przywileju/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uprawnienia do plików w systemie Linux: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uprawnienia do plików w systemie Linux"
+            
+              , "bezpieczny system plików"
+            
+              , "kontrola dostępu"
+            
+              , "własność"
+            
+              , "przewodnik po uprawnieniach do plików"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "bezpieczeństwo systemu plików"
+            
+              , "polecenie chmod"
+            
+              , "polecenie chown"
+            
+              , "audyt uprawnień do plików"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "zgodność z przepisami"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "audyt uprawnień plików"
+            
+              , "dokumentowanie regulacji"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "zarządzanie użytkownikami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wytyczne bezpiecznego kodowania dla Ansible: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ansible"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "Ansible Vault"
+            
+              , "Silne hasła"
+            
+              , "Kontrola dostępu"
+            
+              , "System kontroli wersji"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "SSH"
+            
+              , "WinRM"
+            
+              , "Certyfikaty TLS"
+            
+              , "Sanityzacja danych wprowadzanych przez użytkownika"
+            
+              , "Sprawdzanie poprawności danych wejściowych"
+            
+              , "Obsługa błędów"
+            
+              , "Bezpieczne praktyki kodowania"
+            
+              , "Wstrzykiwanie kodu"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo infrastruktury"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla Ansible"
+            
+              , "Najlepsze praktyki dotyczące bezpiecznego kodu w Ansible"
+            
+              , "Bezpieczne zarządzanie konfiguracją za pomocą Ansible"
+            
+              , "Bezpieczne praktyki wdrażania z Ansible"
+            
+              , "Zasada najmniejszych uprawnień w Ansible"
+            
+              , "Korzystanie z Ansible Vault dla bezpiecznego kodu"
+            
+              , "Tworzenie silnych haseł w Ansible"
+            
+              , "Kontrola dostępu w Ansible"
+            
+              , "System kontroli wersji dla playbooków Ansible"
+            
+              , "Protokoły bezpiecznej komunikacji w Ansible"
+            
+              , "Bezpieczeństwo SSH w Ansible"
+            
+              , "Bezpieczeństwo WinRM w Ansible"
+            
+              , "Certyfikaty TLS w Ansible"
+            
+              , "Sanityzacja danych wejściowych użytkownika w Ansible"
+            
+              , "Walidacja danych wejściowych w Ansible"
+            
+              , "Obsługa błędów w Ansible"
+            
+              , "Praktyki bezpiecznego kodowania w Ansible"
+            
+              , "Zapobieganie wstrzykiwaniu kodu w Ansible"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania dla infrastruktury zarządzanej przez Ansible"
+            
+              , "Zabezpieczanie infrastruktury Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu za pomocą Ansible, popularnego narzędzia do zarządzania konfiguracją i wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png" length="159081" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

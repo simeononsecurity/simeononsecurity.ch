@@ -1,0 +1,548 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Komputerowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-komputerowe//img/banner.png</url>
+      <title>Bezpieczeństwo Komputerowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-komputerowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-komputerowe/</link>
+
+    <description>Recent content in Bezpieczeństwo Komputerowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-komputerowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć trojany zdalnego dostępu: Zagrożenia, zapobieganie i ochrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Złośliwe oprogramowanie"
+            
+              , "Bezpieczeństwo komputerowe"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Trojany zdalnego dostępu"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność"
+            
+              , "Cyberprzestępczość"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zagrożenia stwarzane przez trojany zdalnego dostępu (RAT) i poznaj skuteczne środki zapobiegania i ochrony, aby zabezpieczyć swoje systemy komputerowe i dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Exploring Metasploit: Kompleksowe ramy dla testów penetracyjnych i tworzenia exploitów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "testy penetracyjne"
+            
+              , "rozwój exploitów"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "generowanie ładunku"
+            
+              , "po operacji"
+            
+              , "etyczne hakowanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "open-source"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "inżynieria społeczna"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "rozwiązania bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "Ustawa o oszustwach i nadużyciach komputerowych"
+            
+              , "CFAA"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "narzędzia hakerskie"
+            
+              , "narzędzia cyberbezpieczeństwa"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "specjaliści ds. cyberbezpieczeństwa"
+            
+              , "najlepsze praktyki cyberbezpieczeństwa"
+            
+              , "zgodność z cyberbezpieczeństwem"
+            
+              , "przepisy dotyczące cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawy cyberbezpieczeństwa: Kompleksowy przewodnik po ochronie cyfrowego życia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Bezpieczeństwo cyfrowe"
+            
+              , "Zagrożenia cybernetyczne"
+            
+              , "Prywatność w Internecie"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo informacji"
+            
+              , "Technologia"
+            
+              , "Cyberobrona"
+            
+              , "Świadomość cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy cyberbezpieczeństwa i praktyczne wskazówki dotyczące ochrony swojego cyfrowego życia przed cyberzagrożeniami w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/cybersecurity-for-beginners.png" length="79714" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po szyfrowaniu w celu ochrony danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "szyfrowanie"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "technologia"
+            
+              , "bezpieczeństwo online"
+            
+              , "szyfrowanie symetryczne"
+            
+              , "szyfrowanie asymetryczne"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "kryptografia"
+            
+              , "szyfrowane wiadomości"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "prywatność danych"
+            
+              , "zaszyfrowane dane"
+            
+              , "oprogramowanie szyfrujące"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona hasłem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy szyfrowania i dowiedz się, jak używać go do zabezpieczania poufnych danych dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png" length="156916" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 najczęstszych błędów związanych z bezpieczeństwem cybernetycznym i jak ich uniknąć</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</link>
+        
+        <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "bezpieczeństwo w sieci"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "hakowanie"
+            
+              , "phishing"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "hasła"
+            
+              , "publiczna sieć Wi-Fi"
+            
+              , "antywirus"
+            
+              , "media społecznościowe"
+            
+              , "kopia zapasowa danych"
+            
+              , "ostrzeżenia dotyczące bezpieczeństwa"
+            
+              , "publiczne stacje ładowania"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "zapobieganie cyberprzestępczości"
+            
+              , "kradzież tożsamości"
+            
+              , "prywatność cyfrowa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "bezpieczeństwo w sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-ten-most-common-cybersecurity-mistakes/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić się przed cyberzagrożeniami, unikając tych 10 powszechnych błędów cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png" length="159724" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zabezpieczeń i hartowania: Kompleksowe zasoby dotyczące zabezpieczeń</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "utwardzanie systemu"
+            
+              , "utwardzanie aplikacji"
+            
+              , "Zgodność ze standardem STIG"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Wzmocnienie Windows Defender"
+            
+              , "Wzmocnienie serwera WWW Apache"
+            
+              , "Skrypt .NET STIG"
+            
+              , "Skrypt Adobe Reader DC STIG"
+            
+              , "Skrypt STIG dla przeglądarki Firefox"
+            
+              , "Simeononsecurity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "automatyzacja"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "wzmocnienie zabezpieczeń"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Wzmocnienie serwera WWW"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów i konfiguracji, aby zoptymalizować i wzmocnić swoje systemy, czyniąc je zgodnymi z STIG i odpornymi na włamania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

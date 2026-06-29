@@ -1,0 +1,754 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uwierzytelnianie Wieloczynnikowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/uwierzytelnianie-wieloczynnikowe//img/banner.png</url>
+      <title>Uwierzytelnianie Wieloczynnikowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie-wieloczynnikowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/uwierzytelnianie-wieloczynnikowe/</link>
+
+    <description>Recent content in Uwierzytelnianie Wieloczynnikowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/uwierzytelnianie-wieloczynnikowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie atakom inżynierii społecznej: Strategie i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria społeczna"
+            
+              , "cybersecurity"
+            
+              , "prewencja"
+            
+              , "szkolenie pracowników"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "antywirus"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "przepisy rządowe"
+            
+              , "FISMA"
+            
+              , "HIPAA"
+            
+              , "ochrona danych"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberprzestępczość"
+            
+              , "zgodność"
+            
+              , "strategia bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zapobiegać atakom socjotechnicznym i chronić wrażliwe informacje organizacji dzięki szkoleniom pracowników, polityce bezpieczeństwa i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie zagrożeń typu Ransomware: Środki zapobiegawcze</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "cybersecurity"
+            
+              , "prewencja"
+            
+              , "kopia zapasowa"
+            
+              , "antywirus"
+            
+              , "VPN"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "przepisy rządowe"
+            
+              , "phishing"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberatak"
+            
+              , "szyfrowanie"
+            
+              , "higiena cybernetyczna"
+            
+              , "reakcja na incydent"
+            
+              , "ochrona danych"
+            
+              , "świadomość cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia ransomware i środki zapobiegawcze, które możesz podjąć, aby się przed nimi chronić.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.png" length="197701" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania biometrycznego dla kontroli dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie biometryczne"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "ochrona danych"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "fałszywe pozytywy"
+            
+              , "fałszywe negatywy"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "badanie systemu"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "efektywność"
+            
+              , "wygoda"
+            
+              , "unikalna tożsamość"
+            
+              , "usprawniony przepływ pracy"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "doświadczenie użytkownika"
+            
+              , "cybersecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczenie edukacji: Rola cyberbezpieczeństwa w ochronie danych uczniów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "edukacja"
+            
+              , "dane uczniów"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Instytut SANS"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "phishing"
+            
+              , "szkolenie uświadamiające"
+            
+              , "ocena ryzyka"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "szyfrowanie"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczny dostęp"
+            
+              , "firewalle"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie cyberbezpieczeństwa w branży edukacyjnej i dowiedz się, jak chronić wrażliwe dane uczniów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png" length="211205" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Łagodzenie 5 największych wektorów cyberataku</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</link>
+        
+        <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "cyberataki"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "denial-of-service"
+            
+              , "ataki na hasła"
+            
+              , "ataki na aplikacje internetowe"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "filtry antyspamowe"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "firewalle"
+            
+              , "botnety"
+            
+              , "CDN-y"
+            
+              , "usługi anty-DDoS"
+            
+              , "wydajność sieci"
+            
+              , "podatności"
+            
+              , "ochrona"
+            
+              , "ograniczanie ryzyka"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-top-five-cyber-attack-vectors-and-mitigations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png" length="288490" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po uwierzytelnianiu wieloczynnikowym: Rodzaje i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</link>
+        
+        <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "bezpieczeństwo w sieci"
+            
+              , "hasło bezpieczeństwa"
+            
+              , "czynniki uwierzytelniające"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "tokeny sprzętowe"
+            
+              , "uwierzytelnianie oprogramowania"
+            
+              , "cybersecurity"
+            
+              , "ataki phishingowe"
+            
+              , "zapobieganie hakerstwu"
+            
+              , "ochrona danych"
+            
+              , "weryfikacja tożsamości"
+            
+              , "bezpieczeństwo haseł"
+            
+              , "tokeny bezpieczeństwa"
+            
+              , "kontrola dostępu"
+            
+              , "kradzież tożsamości"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "aplikacje uwierzytelniające"
+            
+              , "cyberobrona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne rodzaje uwierzytelniania wieloczynnikowego i dowiedz się, jak wybrać najlepszy dla swoich potrzeb bezpieczeństwa w naszym ostatecznym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png" length="311504" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>2024 Zagrożenia bezpieczeństwa cybernetycznego: Spostrzeżenia i zalecenia ekspertów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "zagrożenia"
+            
+              , "ransomware"
+            
+              , "phishing"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "kopia zapasowa danych"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "poprawki bezpieczeństwa"
+            
+              , "szkolenie pracowników"
+            
+              , "kontrole dostępu"
+            
+              , "kontrole w tle"
+            
+              , "zapobieganie utracie danych"
+            
+              , "dostawcy chmur"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo punktów końcowych"
+            
+              , "monitorowanie sieci"
+            
+              , "skanowanie podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-threats-to-watch-out-for-in-2023/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj największe zagrożenia cyberbezpieczeństwa w 2024 roku i dowiedz się, jak pozostać bezpiecznym dzięki zaleceniom ekspertów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png" length="265367" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "MFA"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "cybersecurity"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "doświadczenie użytkownika"
+            
+              , "phishing"
+            
+              , "ataki typu brute force"
+            
+              , "złożoność techniczna"
+            
+              , "odporność użytkownika"
+            
+              , "smartfony"
+            
+              , "token"
+            
+              , "karta inteligentna"
+            
+              , "odcisk palca"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "rozpoznawanie głosu"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "naruszenie danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

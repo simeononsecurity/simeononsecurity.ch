@@ -1,0 +1,270 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automatyzacja Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/automatyzacja-sieci//img/banner.png</url>
+      <title>Automatyzacja Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/automatyzacja-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/automatyzacja-sieci/</link>
+
+    <description>Recent content in Automatyzacja Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/automatyzacja-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktualizacji systemu Windows za pomocą Ansible: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja aktualizacji systemu Windows"
+            
+              , "Automatyzacja Ansible"
+            
+              , "zarządzanie systemem"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "Infrastruktura IT"
+            
+              , "automatyzacja sieci"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Operacje IT"
+            
+              , "DevOps"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Automatyzacja IT"
+            
+              , "Wydajność IT"
+            
+              , "Podręcznik Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "zarządzanie aktualizacjami"
+            
+              , "Wydajność IT"
+            
+              , "Konserwacja IT"
+            
+              , "Poświadczenia Ansible"
+            
+              , "konfiguracja hosta"
+            
+              , "automatyzacja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zarządzanie systemem Windows"
+            
+              , "Poprawki zabezpieczeń systemu Windows"
+            
+              , "Infrastruktura IT Windows"
+            
+              , "Automatyzacja sieci Windows"
+            
+              , "Zarządzanie konfiguracją systemu Windows"
+            
+              , "Operacje IT w systemie Windows"
+            
+              , "Windows DevOps"
+            
+              , "Cyberbezpieczeństwo systemu Windows"
+            
+              , "Automatyzacja IT w systemie Windows"
+            
+              , "Wydajność systemu Windows IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij proces aktualizacji systemów Windows poprzez automatyzację za pomocą Ansible - instrukcje krok po kroku i najlepsze praktyki w zestawie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Polecane książki</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "książki"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Najlepsze książki o cyberbezpieczeństwie"
+            
+              , "Najlepsze książki o automatyzacji"
+            
+              , "książki o automatyzacji"
+            
+              , "rekomendacje książek o cyberbezpieczeństwie"
+            
+              , "cyberbezpieczeństwo dla opornych"
+            
+              , "Kodowanie i tworzenie skryptów"
+            
+              , "Automatyzacja"
+            
+              , "Windows PowerShell"
+            
+              , "administratorzy"
+            
+              , "Ansible"
+            
+              , "Automatyzacja sieci"
+            
+              , "Python"
+            
+              , "Windows Server 2019"
+            
+              , "Niebieski zespół"
+            
+              , "Tworzenie bezpiecznych i niezawodnych systemów"
+            
+              , "Hash Crack"
+            
+              , "PTFM"
+            
+              , "Podręcznik terenowy drużyny fioletowej"
+            
+              , "Podręcznik operatora"
+            
+              , "Podręcznik terenowy Red Team"
+            
+              , "Inżynieria bezpieczeństwa"
+            
+              , "Sztuka oszustwa"
+            
+              , "Sztuka włamań"
+            
+              , "Sztuka niewidzialności"
+            
+              , "Podręcznik hakera"
+            
+              , "Podręcznik hakera aplikacji internetowych"
+            
+              , "Plemię hakerów"
+            
+              , "Tworzenie sieci"
+            
+              , "Open Source Intelligence"
+            
+              , "Systemy operacyjne"
+            
+              , "Oprogramowanie"
+            
+              , "Prywatność"
+            
+              , "Ekstremalna prywatność"
+            
+              , "Utwórz własny fundusz powierniczy"
+            
+              , "Inne"
+            
+              , "Ta książka została opublikowana samodzielnie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jest to zbiór polecanych książek od SimeonOnSecurity. Książki obejmują różne tematy, w tym automatyzację kodowania i skryptów, cyberbezpieczeństwo, sieci, inteligencję open source, systemy operacyjne i oprogramowanie, prywatność i inne powiązane tematy. Dzięki dwumiesięcznemu okresowi próbnemu Amazon Kindle Unlimited możesz czytać większość z tych książek za darmo. Kolekcja ta oferuje szereg książek zarówno dla początkujących, jak i ekspertów, z tytułami takimi jak Python Crash Course i The Art of Deception. Niezależnie od tego, czy chcesz poprawić swoje umiejętności kodowania, czy też lepiej zrozumieć cyberbezpieczeństwo, w tej kolekcji każdy znajdzie coś dla siebie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

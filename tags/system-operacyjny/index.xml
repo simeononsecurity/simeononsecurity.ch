@@ -1,0 +1,323 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Operacyjny on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/system-operacyjny//img/banner.png</url>
+      <title>System Operacyjny on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/system-operacyjny/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/system-operacyjny/</link>
+
+    <description>Recent content in System Operacyjny on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/system-operacyjny/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Instalacja Graphene OS na urządzeniu Google Pixel</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-install-graphine-os/</link>
+        
+        <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Grafenowy system operacyjny"
+            
+              , "Google Pixel"
+            
+              , "prywatność"
+            
+              , "bezpieczeństwo"
+            
+              , "Android"
+            
+              , "urządzenia mobilne"
+            
+              , "system operacyjny"
+            
+              , "instrukcja instalacji"
+            
+              , "niestandardowa pamięć ROM"
+            
+              , "zorientowany na prywatność"
+            
+              , "ochrona danych"
+            
+              , "bezpieczny system operacyjny"
+            
+              , "open-source"
+            
+              , "bezpieczeństwo urządzenia"
+            
+              , "funkcje prywatności"
+            
+              , "dane osobowe"
+            
+              , "prywatność mobilna"
+            
+              , "prywatność danych"
+            
+              , "dostosowanie urządzenia"
+            
+              , "technologia"
+            
+              , "Instalacja pikseli"
+            
+              , "system operacyjny zorientowany na prywatność"
+            
+              , "Instalacja Graphene OS"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Personalizacja urządzenia Pixel"
+            
+              , "ulepszenia prywatności"
+            
+              , "przewodnik po ochronie danych"
+            
+              , "bezpieczny system operacyjny"
+            
+              , "Funkcje prywatności pikseli"
+            
+              , "prywatność danych mobilnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-install-graphine-os/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować system Graphene OS na urządzeniu Google Pixel, aby zwiększyć prywatność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png" length="160595" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja aktywacji Windows KMS za pomocą skryptu GLVK</title>
+        
+          <link>https://pl.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktywacja systemu Windows"
+            
+              , "Klucze klienckie KMS"
+            
+              , "GLVK"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Zgodność"
+            
+              , "Skrypt Powershell"
+            
+              , "Usługa zarządzania kluczami"
+            
+              , "Licencjonowanie objętościowe"
+            
+              , "Aktywacja przedsiębiorstwa"
+            
+              , "Serwer zarządzania kluczami"
+            
+              , "Automatyka"
+            
+              , "Produkty Microsoft"
+            
+              , "System operacyjny"
+            
+              , "Oprogramowanie"
+            
+              , "Środowiska korporacyjne"
+            
+              , "Powershell administracyjny"
+            
+              , "Repozytorium GitHub"
+            
+              , "Skryptowanie"
+            
+              , "Cybersecurity"
+            
+              , "SimeonOnSecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Uprość proces aktywacji Windows 10 KMS za pomocą skryptu GLVK Auto Install SimeonOnSecurity i dowiedz się więcej o kluczach klienckich KMS i GLVK z zalecanej lektury Microsoftu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

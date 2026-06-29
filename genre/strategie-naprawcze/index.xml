@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategie Naprawcze on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/strategie-naprawcze//img/banner.png</url>
+      <title>Strategie Naprawcze on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/strategie-naprawcze/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/strategie-naprawcze/</link>
+
+    <description>Recent content in Strategie Naprawcze on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/strategie-naprawcze/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Usprawnienie zarządzania ryzykiem: Możliwości ServiceNow Vulnerability Response</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Zarządzanie ryzykiem IT"
+            
+              , "Reakcja na podatność"
+            
+              , "ServiceNow"
+            
+              , "Automatyzacja zabezpieczeń"
+            
+              , "Zgodność"
+            
+              , "Analiza zagrożeń"
+            
+              , "Zarządzanie incydentami"
+            
+              , "Identyfikacja podatności"
+            
+              , "Strategie naprawcze"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/streamlining-risk-management-servicenow-vulnerability-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, w jaki sposób ServiceNow Vulnerability Response optymalizuje zarządzanie ryzykiem poprzez usprawnioną identyfikację podatności, ustalanie priorytetów i naprawę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting2.png" length="1122439" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,592 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odzyskiwanie Danych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/odzyskiwanie-danych//img/banner.png</url>
+      <title>Odzyskiwanie Danych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-danych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/odzyskiwanie-danych/</link>
+
+    <description>Recent content in Odzyskiwanie Danych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/odzyskiwanie-danych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze dystrybucje Linuksa dla prywatności i bezpieczeństwa: Ochrona danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Dystrybucje Linuksa"
+            
+              , "prywatność i bezpieczeństwo"
+            
+              , "Ogony"
+            
+              , "Qubes OS"
+            
+              , "Whonix"
+            
+              , "Parrot Security OS"
+            
+              , "Ubuntu Privacy Remix"
+            
+              , "OpenBSD"
+            
+              , "ochrona danych"
+            
+              , "bezpieczne przetwarzanie danych"
+            
+              , "anonimowe przeglądanie"
+            
+              , "wirtualizacja"
+            
+              , "testy bezpieczeństwa"
+            
+              , "analiza kryminalistyczna"
+            
+              , "testy penetracyjne"
+            
+              , "narzędzia szyfrujące"
+            
+              , "bezpieczne usuwanie"
+            
+              , "anonymity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "poprawność kodu"
+            
+              , "bezpieczeństwo online"
+            
+              , "ochrona danych użytkownika"
+            
+              , "poufność"
+            
+              , "odzyskiwanie danych"
+            
+              , "bankowość internetowa"
+            
+              , "prywatność online"
+            
+              , "bezpieczne środowisko"
+            
+              , "bezpieczne przeglądanie"
+            
+              , "Sieć Tor"
+            
+              , "środki bezpieczeństwa"
+            
+              , "domyślnie bezpieczny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-best-linux-distros-for-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najlepsze dystrybucje Linuksa zapewniające prywatność i bezpieczeństwo, zapewniając ochronę danych i bezpieczeństwo działań online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png" length="276702" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje dane za pomocą zasady tworzenia kopii zapasowych 3-2-1.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</link>
+        
+        <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "strategia archiwizacji"
+            
+              , "ochrona danych"
+            
+              , "cybersecurity"
+            
+              , "redundancja danych"
+            
+              , "zapobieganie utracie danych"
+            
+              , "odzyskiwanie danych"
+            
+              , "zgodność"
+            
+              , "zewnętrzne dyski twarde"
+            
+              , "usługi przechowywania w chmurze"
+            
+              , "pamięć masowa podłączona do sieci"
+            
+              , "oprogramowanie do tworzenia kopii zapasowych"
+            
+              , "automatyczne kopie zapasowe"
+            
+              , "bezpieczeństwo danych"
+            
+              , "odzyskiwanie danych po katastrofie"
+            
+              , "backup offsite"
+            
+              , "nadmiarowe kopie zapasowe"
+            
+              , "najlepsze praktyki w zakresie tworzenia kopii zapasowych"
+            
+              , "rozwiązania w zakresie tworzenia kopii zapasowych"
+            
+              , "rodzaje magazynów"
+            
+              , "bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-the-3-2-1-backup-rule-and-why-you-should-use-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić cenne dane przed cyberatakami, katastrofami naturalnymi i awariami sprzętu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png" length="274502" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po reagowaniu na incydenty cybernetyczne</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</link>
+        
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "reakcja na incydent"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "przewodnik dla początkujących"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo danych"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "Infrastruktura IT"
+            
+              , "naruszenia danych"
+            
+              , "cyberzagrożenia"
+            
+              , "cyberobrona"
+            
+              , "zarządzanie incydentami"
+            
+              , "odzyskiwanie danych"
+            
+              , "planowanie bezpieczeństwa"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "strategia cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-incident-responce-and-cybersecurity-incidents/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy reagowania na incydenty i obsługi incydentów cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png" length="380713" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Co zrobić, jeśli uważasz, że Twoja poczta elektroniczna lub telefon są zagrożone?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo urządzeń"
+            
+              , "ochrona danych"
+            
+              , "naruszone urządzenie"
+            
+              , "zhakowany e-mail"
+            
+              , "zhakowany telefon"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "usuwanie wirusa"
+            
+              , "hasło bezpieczeństwa"
+            
+              , "kopia zapasowa danych"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "cybersecurity"
+            
+              , "bezpieczeństwo w sieci"
+            
+              , "prywatność cyfrowa"
+            
+              , "kradzież tożsamości"
+            
+              , "oszustwo internetowe"
+            
+              , "wsparcie techniczne"
+            
+              , "naprawa komputerów"
+            
+              , "odzyskiwanie danych"
+            
+              , "Usługi informatyczne"
+            
+              , "technologia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-to-do-if-you-suspect-your-computer-phone-or-email-is-compromised/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe kroki, które należy podjąć w przypadku podejrzenia włamania do poczty elektronicznej, komputera lub telefonu, w tym zmianę haseł, skanowanie w poszukiwaniu złośliwego oprogramowania i czyszczenie urządzenia.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png" length="282035" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zdawanie egzaminów CompTIA A&#43;: Porady i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CompTIA A&#43;"
+            
+              , "220-1101"
+            
+              , "220-1102"
+            
+              , "Przygotowanie do egzaminu"
+            
+              , "Certyfikacja IT"
+            
+              , "Kariera IT"
+            
+              , "Technologia informacyjna"
+            
+              , "Strategie rozwiązywania testów"
+            
+              , "Wskazówki do nauki"
+            
+              , "Umiejętności techniczne"
+            
+              , "Techniki rozwiązywania problemów"
+            
+              , "Komponenty sprzętowe"
+            
+              , "Instalacja oprogramowania"
+            
+              , "Koncepcje sieciowe"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Odzyskiwanie danych"
+            
+              , "Nauka online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/passing-comptias-a-plus-exams-220-1101-and-220-1102/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj wskazówki ekspertów i strategie zdawania egzaminów CompTIA A+, w tym najważniejsze akronimy, wiedzę o sprzęcie i typowe procedury rozwiązywania problemów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png" length="228520" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

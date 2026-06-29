@@ -1,0 +1,384 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kryptowaluty on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kryptowaluty//img/banner.png</url>
+      <title>Kryptowaluty on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kryptowaluty/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kryptowaluty/</link>
+
+    <description>Recent content in Kryptowaluty on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kryptowaluty/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnienie bezpieczeństwa narodowego: Elektro-cybernetyczny wpływ Bitcoina</title>
+        
+          <link>https://pl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kryptowaluta"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Badania"
+            
+              , "Finansowy"
+            
+              , "Innowacja"
+            
+              , "Waluta cyfrowa"
+            
+              , "Kształtowanie polityki"
+            
+              , "Blockchain"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj przełomową teorię projekcji mocy i jej implikacje dla bezpieczeństwa narodowego, ponieważ Bitcoin przekształca się w potężną technologię bezpieczeństwa elektro-cybernetycznego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/empowered-national-security.png" length="1771912" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwanie - Kryptowaluty - Słabe RSA</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Słabe RSA"
+            
+              , "RsaCtfTool"
+            
+              , "HTB Słabe kryptowaluty RSA"
+            
+              , "Łatwe wyzwanie"
+            
+              , "Szyfr RSA"
+            
+              , "flag.enc"
+            
+              , "key.pub"
+            
+              , "Pakiet OpenSSL"
+            
+              , "Zautomatyzowane narzędzie do ataków RSA"
+            
+              , "skrypt python"
+            
+              , "RsaCtfTool"
+            
+              , "python3"
+            
+              , "klucz publiczny"
+            
+              , "uncipherfile"
+            
+              , "Przykład flagi"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-weak_rsa/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać zautomatyzowanego narzędzia do ataku RSA, RsaCtfTool, aby łatwo rozwiązać wyzwanie HackTheBox Weak RSA Crypto.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png" length="187856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Inne Writeupy SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/other/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zaawansowane techniki"
+            
+              , "praktyczne samouczki"
+            
+              , "nowe technologie"
+            
+              , "nowe koncepcje"
+            
+              , "kryptowaluty"
+            
+              , "blockchain"
+            
+              , "dochód pasywny"
+            
+              , "waluty cyfrowe"
+            
+              , "finanse zdecentralizowane"
+            
+              , "inteligentne kontrakty"
+            
+              , "inwestycje w kryptowaluty"
+            
+              , "zastosowania blockchain"
+            
+              , "możliwości dochodowe"
+            
+              , "alternatywne inwestycje"
+            
+              , "technologia finansowa"
+            
+              , "aktywa cyfrowe"
+            
+              , "handel kryptowalutami"
+            
+              , "wydobywanie kryptowalut"
+            
+              , "generowanie dochodu"
+            
+              , "innowacje finansowe"
+            
+              , "finanse osobiste"
+            
+              , "trendy technologiczne"
+            
+              , "rynki wschodzące"
+            
+              , "gospodarka cyfrowa"
+            
+              , "strategie inwestycyjne"
+            
+              , "zarządzanie majątkiem"
+            
+              , "wolność finansowa"
+            
+              , "przedsiębiorczość"
+            
+              , "biznes online"
+            
+              , "przepływy dochodów pasywnych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbadaj zaawansowane techniki, praktyczne samouczki i wgląd w nowe technologie i koncepcje, takie jak kryptowaluty, blockchain, dochód pasywny, itp.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

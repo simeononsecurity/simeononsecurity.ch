@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BEAST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/beast//img/banner.png</url>
+      <title>BEAST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/beast/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/beast/</link>
+
+    <description>Recent content in BEAST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/beast/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wzmocnienie bezpieczeństwa komputera poprzez wyłączenie SSL i TLS 1.2 i niższych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hardening-tls-and-ssl/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wzmocnienie bezpieczeństwa komputerowego"
+            
+              , "Wyłączenie SSL i TLS"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "POODLE"
+            
+              , "BEAST"
+            
+              , "Heartbleed"
+            
+              , "Edytor rejestru Windows"
+            
+              , "Konfiguracja OpenSSL w systemie Linux"
+            
+              , "Apache"
+            
+              , "Nginx"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          W artykule omówiono kroki mające na celu zwiększenie bezpieczeństwa danych poprzez wyłączenie w systemach Windows i Linux starszych wersji protokołów SSL i TLS, które są podatne na cyberzagrożenia, takie jak POODLE, BEAST i Heartbleed.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png" length="310292" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

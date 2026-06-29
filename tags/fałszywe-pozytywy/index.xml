@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fałszywe Pozytywy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/fa%C5%82szywe-pozytywy//img/banner.png</url>
+      <title>Fałszywe Pozytywy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/fa%C5%82szywe-pozytywy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/fa%C5%82szywe-pozytywy/</link>
+
+    <description>Recent content in Fałszywe Pozytywy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/fa%C5%82szywe-pozytywy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania biometrycznego dla kontroli dostępu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</link>
+        
+        <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie biometryczne"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "ochrona danych"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "fałszywe pozytywy"
+            
+              , "fałszywe negatywy"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "badanie systemu"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "efektywność"
+            
+              , "wygoda"
+            
+              , "unikalna tożsamość"
+            
+              , "usprawniony przepływ pracy"
+            
+              , "podatności"
+            
+              , "ograniczanie ryzyka"
+            
+              , "doświadczenie użytkownika"
+            
+              , "cybersecurity"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-using-biometric-authentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png" length="404237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wpływ uczenia maszynowego na bezpieczeństwo cybernetyczne</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</link>
+        
+        <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uczenie maszynowe"
+            
+              , "Cybersecurity"
+            
+              , "Adaptacja"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Ochrona danych"
+            
+              , "W czasie rzeczywistym"
+            
+              , "Uczenie się pod nadzorem"
+            
+              , "Uczenie bez nadzoru"
+            
+              , "Uczenie się przez wzmocnienie"
+            
+              , "Fałszywe pozytywy"
+            
+              , "Fałszywe negatywy"
+            
+              , "Szkolenie pracowników"
+            
+              , "Rozwiązania w zakresie bezpieczeństwa"
+            
+              , "Analityka danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Rozpoznawanie wzorów"
+            
+              , "Wykrywanie anomalii"
+            
+              , "Cyberzagrożenia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-impact-of-machine-learning-on-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wpływ uczenia maszynowego na cyberbezpieczeństwo i jak się do niego dostosować.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_robot_standing_guard_in_front.png" length="190511" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

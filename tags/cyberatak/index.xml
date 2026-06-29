@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyberatak on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/cyberatak//img/banner.png</url>
+      <title>Cyberatak on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/cyberatak/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/cyberatak/</link>
+
+    <description>Recent content in Cyberatak on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/cyberatak/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie zagrożeń typu Ransomware: Środki zapobiegawcze</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "cybersecurity"
+            
+              , "prewencja"
+            
+              , "kopia zapasowa"
+            
+              , "antywirus"
+            
+              , "VPN"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "przepisy rządowe"
+            
+              , "phishing"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberatak"
+            
+              , "szyfrowanie"
+            
+              , "higiena cybernetyczna"
+            
+              , "reakcja na incydent"
+            
+              , "ochrona danych"
+            
+              , "świadomość cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia ransomware i środki zapobiegawcze, które możesz podjąć, aby się przed nimi chronić.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.png" length="197701" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alokacja Zasobów on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/alokacja-zasob%C3%B3w//img/banner.png</url>
+      <title>Alokacja Zasobów on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/alokacja-zasob%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/alokacja-zasob%C3%B3w/</link>
+
+    <description>Recent content in Alokacja Zasobów on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/alokacja-zasob%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: Kompleksowe rozwiązanie monitorujące do efektywnego zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Infrastruktura IT"
+            
+              , "Monitorowanie sieci"
+            
+              , "Monitorowanie aplikacji"
+            
+              , "Operacje IT"
+            
+              , "Analiza wydajności"
+            
+              , "Automatyzacja"
+            
+              , "Zarządzanie wydarzeniami"
+            
+              , "Skalowalność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje, korzyści i przypadki użycia CheckMK, kompleksowego rozwiązania monitorującego do proaktywnego zarządzania infrastrukturą IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

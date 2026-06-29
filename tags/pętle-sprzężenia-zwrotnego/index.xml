@@ -1,0 +1,246 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pętle Sprzężenia Zwrotnego on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/p%C4%99tle-sprz%C4%99%C5%BCenia-zwrotnego//img/banner.png</url>
+      <title>Pętle Sprzężenia Zwrotnego on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/p%C4%99tle-sprz%C4%99%C5%BCenia-zwrotnego/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/p%C4%99tle-sprz%C4%99%C5%BCenia-zwrotnego/</link>
+
+    <description>Recent content in Pętle Sprzężenia Zwrotnego on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/p%C4%99tle-sprz%C4%99%C5%BCenia-zwrotnego/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do DevOps: wypełnianie luki między rozwojem a operacjami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-devops/</link>
+        
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevOps"
+            
+              , "rozwój oprogramowania"
+            
+              , "operacje"
+            
+              , "współpraca"
+            
+              , "ciągła integracja"
+            
+              , "ciągłe dostarczanie"
+            
+              , "infrastruktura jako kod"
+            
+              , "monitoring"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "efektywność"
+            
+              , "jakość"
+            
+              , "niezawodność"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo"
+            
+              , "audyt"
+            
+              , "identyfikowalność"
+            
+              , "automatyzacja"
+            
+              , "komunikacja"
+            
+              , "zwinny"
+            
+              , "CICD"
+            
+              , "wdrażanie oprogramowania"
+            
+              , "cykl życia oprogramowania"
+            
+              , "systemy oprogramowania"
+            
+              , "przemysł oprogramowania"
+            
+              , "bezpieczeństwo danych"
+            
+              , "przepisy"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "przewaga konkurencyjna"
+            
+              , "prywatność danych"
+            
+              , "ochrona danych"
+            
+              , "Ewolucja branży oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-devops/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_developers_and_operations.png" length="173119" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: radzenie sobie z wyzwaniami, wykorzystywanie możliwości.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "testy bezpieczeństwa"
+            
+              , "metodyki zwinne"
+            
+              , "współpraca"
+            
+              , "regulacje rządowe"
+            
+              , "automatyzacja"
+            
+              , "rozwój aplikacji"
+            
+              , "skalowalność"
+            
+              , "ciągłe monitorowanie"
+            
+              , "Wytyczne NIST"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "modułowość"
+            
+              , "podatności"
+            
+              , "zapewnienie jakości"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzia do tworzenia oprogramowania"
+            
+              , "zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł analizuje wyzwania i możliwości DevSecOps w organizacjach, w tym lepszą współpracę, lepszą skalowalność, integrację z przepisami rządowymi i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

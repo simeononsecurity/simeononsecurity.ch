@@ -1,0 +1,309 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Punktów Końcowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/ochrona-punkt%C3%B3w-ko%C5%84cowych//img/banner.png</url>
+      <title>Ochrona Punktów Końcowych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/ochrona-punkt%C3%B3w-ko%C5%84cowych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/ochrona-punkt%C3%B3w-ko%C5%84cowych/</link>
+
+    <description>Recent content in Ochrona Punktów Końcowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/ochrona-punkt%C3%B3w-ko%C5%84cowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumieć trojany zdalnego dostępu: Zagrożenia, zapobieganie i ochrona</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Złośliwe oprogramowanie"
+            
+              , "Bezpieczeństwo komputerowe"
+            
+              , "Zagrożenia cyfrowe"
+            
+              , "Trojany zdalnego dostępu"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność"
+            
+              , "Cyberprzestępczość"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zagrożenia stwarzane przez trojany zdalnego dostępu (RAT) i poznaj skuteczne środki zapobiegania i ochrony, aby zabezpieczyć swoje systemy komputerowe i dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie infrastruktury sieciowej przed atakami APT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo sieci"
+            
+              , "cybersecurity"
+            
+              , "zaawansowane trwałe zagrożenia"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie danych"
+            
+              , "szkolenie pracowników"
+            
+              , "plan reagowania na incydenty"
+            
+              , "oceny podatności"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "monitorowanie ruchu sieciowego"
+            
+              , "ataki phishingowe"
+            
+              , "ochrona punktów końcowych"
+            
+              , "wykrywanie włamań"
+            
+              , "firewalle"
+            
+              , "SIEM"
+            
+              , "kopia zapasowa danych"
+            
+              , "segmentacja sieci"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe kroki, aby utwardzić infrastrukturę sieciową przed zaawansowanymi trwałymi zagrożeniami (APT) i chronić swoją organizację przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png" length="141474" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

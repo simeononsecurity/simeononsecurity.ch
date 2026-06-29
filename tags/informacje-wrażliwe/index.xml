@@ -1,0 +1,483 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informacje Wrażliwe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe//img/banner.png</url>
+      <title>Informacje Wrażliwe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/</link>
+
+    <description>Recent content in Informacje Wrażliwe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/informacje-wra%C5%BCliwe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie atakom inżynierii społecznej: Strategie i najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria społeczna"
+            
+              , "cybersecurity"
+            
+              , "prewencja"
+            
+              , "szkolenie pracowników"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "antywirus"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "przepisy rządowe"
+            
+              , "FISMA"
+            
+              , "HIPAA"
+            
+              , "ochrona danych"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberprzestępczość"
+            
+              , "zgodność"
+            
+              , "strategia bezpieczeństwa cybernetycznego"
+            
+              , "bezpieczeństwo danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zapobiegać atakom socjotechnicznym i chronić wrażliwe informacje organizacji dzięki szkoleniom pracowników, polityce bezpieczeństwa i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png" length="244691" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczanie stacji roboczych: Przewodnik oparty na zaleceniach NIST</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecenia NIST"
+            
+              , "bezpieczeństwo stacji roboczych"
+            
+              , "cybersecurity"
+            
+              , "szyfrowanie danych"
+            
+              , "ochrona firewalla"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "kontrole dostępu"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "kopia zapasowa danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/general-guidance-on-securing-your-workstations-by-nist-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć stacje robocze i chronić wrażliwe informacje dzięki temu kompleksowemu przewodnikowi opartemu na zaleceniach NIST dotyczących wdrażania silnej kontroli dostępu, utrzymywania aktualnego oprogramowania, korzystania z oprogramowania antywirusowego, włączania ochrony firewall, wdrażania szyfrowania danych i regularnego tworzenia kopii zapasowych danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_person_sitting_at_their_workstation.png" length="285103" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standard sanityzacji danych DoD 5220.22-M</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DoD 5220.22-M"
+            
+              , "sanityzacja danych"
+            
+              , "cyfrowe nośniki informacji"
+            
+              , "Wojsko amerykańskie"
+            
+              , "organizacje rządowe"
+            
+              , "informacje wrażliwe"
+            
+              , "bezpieczeństwo"
+            
+              , "usuwanie danych"
+            
+              , "proces wieloprzebiegowy"
+            
+              , "Metoda EKG"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Specyfikacja DoD 5220.22-M to krytyczny standard bezpiecznego usuwania wrażliwych informacji z cyfrowych nośników danych, szeroko wykorzystywany przez amerykańskie wojsko i organizacje rządowe.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png" length="340364" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Znaczenie zgodności i profesjonalizmu w cyberbezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "działalność gospodarcza"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "informacje wrażliwe"
+            
+              , "cyberataki"
+            
+              , "technologia"
+            
+              , "oprogramowanie"
+            
+              , "profesjonalizm"
+            
+              , "zgodność"
+            
+              , "standardy branżowe"
+            
+              , "przepisy"
+            
+              , "najlepsze praktyki"
+            
+              , "priorytet"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "naruszenia danych"
+            
+              , "własność intelektualna"
+            
+              , "proaktywne podejście"
+            
+              , "niski priorytet"
+            
+              , "brak środków"
+            
+              , "szkolenie"
+            
+              , "zaangażowanie w bezpieczeństwo"
+            
+              , "urzędnicy ds. bezpieczeństwa informacji (ISSO)"
+            
+              , "systemy zarządzania bezpieczeństwem informacji (ISSM)"
+            
+              , "wykształcenie i doświadczenie"
+            
+              , "zagrożenia dla bezpieczeństwa"
+            
+              , "100% sukcesów w audytach zgodności"
+            
+              , "przepisy"
+            
+              , "normy"
+            
+              , "najlepsze praktyki"
+            
+              , "Seria NIST 800"
+            
+              , "gra polityczna"
+            
+              , "zaufanie"
+            
+              , "uczciwość"
+            
+              , "współpraca"
+            
+              , "papeteria"
+            
+              , "przejrzystość"
+            
+              , "odpowiedzialność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bezpieczeństwo cybernetyczne jest krytycznym aspektem współczesnych działań biznesowych i wymaga kompleksowego podejścia, które obejmuje odpowiednie systemy, protokoły i personel, aby skutecznie zarządzać obroną przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalnie zwiększ bezpieczeństwo i prywatność: Hartowanie i usuwanie skutków awarii systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Utwardzanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Bezpieczeństwo systemu operacyjnego"
+            
+              , "System operacyjny Windows"
+            
+              , "Prywatność danych"
+            
+              , "Cyberprzestępca"
+            
+              , "Powierzchnia ataku"
+            
+              , "Podatności"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Mechanizmy uwierzytelniania"
+            
+              , "Niechciane oprogramowanie"
+            
+              , "Poprawa wydajności"
+            
+              , "Gromadzenie danych"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Oprogramowanie antywirusowe"
+            
+              , "Oprogramowanie Anti-Malware"
+            
+              , "Informacje wrażliwe"
+            
+              , "Kompleksowy przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bądź bezpieczny w sieci: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy...
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png" length="302341" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

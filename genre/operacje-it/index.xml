@@ -1,0 +1,249 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operacje IT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/operacje-it//img/banner.png</url>
+      <title>Operacje IT on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/operacje-it/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/operacje-it/</link>
+
+    <description>Recent content in Operacje IT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/operacje-it/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Pojedynek automatyzacji: Ansible vs. Puppet vs. Chef - porównanie kluczowych narzędzi do automatyzacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link>
+        
+        <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Narzędzia automatyzacji"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Infrastruktura IT"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Automatyzacja w chmurze"
+            
+              , "Wdrażanie oprogramowania"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Narzędzia open source"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnice między Ansible, Puppet i Chef, aby wybrać odpowiednie narzędzie do automatyzacji dla potrzeb swojej organizacji w tym kompleksowym porównaniu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja Ansible: Od zwykłego Ansible do Ansible Tower i Semaphore</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: Kompleksowe rozwiązanie monitorujące do efektywnego zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Infrastruktura IT"
+            
+              , "Monitorowanie sieci"
+            
+              , "Monitorowanie aplikacji"
+            
+              , "Operacje IT"
+            
+              , "Analiza wydajności"
+            
+              , "Automatyzacja"
+            
+              , "Zarządzanie wydarzeniami"
+            
+              , "Skalowalność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje, korzyści i przypadki użycia CheckMK, kompleksowego rozwiązania monitorującego do proaktywnego zarządzania infrastrukturą IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

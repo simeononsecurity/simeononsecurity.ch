@@ -1,0 +1,388 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oszczędność Kosztów on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/oszcz%C4%99dno%C5%9B%C4%87-koszt%C3%B3w//img/banner.png</url>
+      <title>Oszczędność Kosztów on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/oszcz%C4%99dno%C5%9B%C4%87-koszt%C3%B3w/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/oszcz%C4%99dno%C5%9B%C4%87-koszt%C3%B3w/</link>
+
+    <description>Recent content in Oszczędność Kosztów on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/oszcz%C4%99dno%C5%9B%C4%87-koszt%C3%B3w/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmaksymalizuj wydajność chmury hybrydowej: Uwolnienie pełnego potencjału Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ops"
+            
+              , "CICD"
+            
+              , "skalowalność"
+            
+              , "wydajność"
+            
+              , "bezpieczeństwo"
+            
+              , "zgodność"
+            
+              , "integracja"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Google Cloud"
+            
+              , "Wieża Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "oszczędność kosztów"
+            
+              , "Wydajność informatyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak możliwości automatyzacji Ansible mogą usprawnić, zabezpieczyć i zoptymalizować środowiska chmur hybrydowych w celu zwiększenia wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wyzwania i możliwości polityki BYOD</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</link>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "BYOD policy"
+            
+              , "bring-your-own-device"
+            
+              , "zarządzanie urządzeniami mobilnymi"
+            
+              , "wydajność"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "oszczędność kosztów"
+            
+              , "szkolenie pracowników"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "szyfrowanie danych"
+            
+              , "wsparcie techniczne"
+            
+              , "zadania związane z pracą"
+            
+              , "zadowolenie z pracy"
+            
+              , "polityka firmy"
+            
+              , "zdalne wycieranie"
+            
+              , "Oprogramowanie MDM"
+            
+              , "urządzenia pracownicze"
+            
+              , "środki bezpieczeństwa"
+            
+              , "wykorzystanie urządzenia"
+            
+              , "zgodność"
+            
+              , "właściwe zastosowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści, wyzwania i najlepsze praktyki dotyczące wdrażania polityki BYOD w Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png" length="165621" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Outsourcing Cybersecurity: Korzyści i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "outsourcing"
+            
+              , "sprzedawcy zewnętrzni"
+            
+              , "naruszenie danych"
+            
+              , "wybór sprzedawcy"
+            
+              , "oszczędność kosztów"
+            
+              , "wiedza specjalistyczna"
+            
+              , "skalowalność"
+            
+              , "utrata kontroli"
+            
+              , "plan reagowania na incydenty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "outsourcing bezpieczeństwa"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnością"
+            
+              , "cyberobrona"
+            
+              , "ciągłość działania"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach wynikających z powierzenia cyberbezpieczeństwa zewnętrznym dostawcom oraz jak wybrać odpowiedniego dostawcę dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png" length="373043" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

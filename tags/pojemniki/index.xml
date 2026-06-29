@@ -1,0 +1,368 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pojemniki on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/pojemniki//img/banner.png</url>
+      <title>Pojemniki on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/pojemniki/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/pojemniki/</link>
+
+    <description>Recent content in Pojemniki on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/pojemniki/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak zabezpieczyć środowisko Docker i Kubernetes</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link>
+        
+        <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Kubernetes"
+            
+              , "Bezpieczeństwo"
+            
+              , "Pojemniki"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "RBAC"
+            
+              , "Serwer API"
+            
+              , "Podatności"
+            
+              , "Monitoring"
+            
+              , "Rejestrowanie"
+            
+              , "Firewalle"
+            
+              , "TLS"
+            
+              , "Anchore"
+            
+              , "Clair"
+            
+              , "Aqua Security"
+            
+              , "ELK Stack"
+            
+              , "Splunk"
+            
+              , "Prometeusz"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie wydajnych i bezpiecznych kontenerów Docker: Przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link>
+        
+        <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "docker"
+            
+              , "pojemniki"
+            
+              , "konteneryzacja"
+            
+              , "devops"
+            
+              , "wdrożenie"
+            
+              , "przenośność"
+            
+              , "efektywność"
+            
+              , "bezpieczeństwo"
+            
+              , "najlepsze praktyki"
+            
+              , "Dockerfile"
+            
+              , "obrazy bazowe"
+            
+              , "zmienne środowiskowe"
+            
+              , "uchwyty na woluminy"
+            
+              , "użytkownik root"
+            
+              , "aktualne obrazy"
+            
+              , "rozwój oprogramowania"
+            
+              , "obrazy kontenerów"
+            
+              , "Docker Hub"
+            
+              , "orkiestracja kontenerów"
+            
+              , "Kubernetes"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnić moc Dockera: Dlaczego dominuje nad maszynami wirtualnymi w nowoczesnej chmurze obliczeniowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Maszyny wirtualne"
+            
+              , "Maszyny wirtualne"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Pojemniki"
+            
+              , "Simplicity"
+            
+              , "Skalowalność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Efektywność kosztowa"
+            
+              , "Dockerfile"
+            
+              , "Budowanie, testowanie i wdrażanie"
+            
+              , "Izolacja"
+            
+              , "Historia bezpieczeństwa"
+            
+              , "Porównanie kosztów"
+            
+              , "Artykuł informacyjny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Dockera w chmurze obliczeniowej, ponieważ przewyższa on maszyny wirtualne swoją prostotą, skalowalnością, bezpieczeństwem i opłacalnością, w tym artykule.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png" length="238540" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnić moc Dockera: Niezbędny przewodnik po transformacji przedsiębiorstwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-power-of-docker/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Transformacja przedsiębiorstwa"
+            
+              , "Przenośność aplikacji"
+            
+              , "Zwiększona wydajność"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Uproszczone opracowywanie i wdrażanie"
+            
+              , "Oprogramowanie Aplikacyjne"
+            
+              , "Pojemniki"
+            
+              , "Wydajność"
+            
+              , "Time-to-Market"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-power-of-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj potęgę Dockera i jego korzyści dla transformacji przedsiębiorstwa w tym kompleksowym przewodniku poprawiającym przenośność, bezpieczeństwo, wydajność i rozwój aplikacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/a_blue_whale_giving_off_lighting.png" length="308672" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

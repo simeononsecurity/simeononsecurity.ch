@@ -1,0 +1,243 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ochrona Przed Zagrożeniami on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/ochrona-przed-zagro%C5%BCeniami//img/banner.png</url>
+      <title>Ochrona Przed Zagrożeniami on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/ochrona-przed-zagro%C5%BCeniami/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/ochrona-przed-zagro%C5%BCeniami/</link>
+
+    <description>Recent content in Ochrona Przed Zagrożeniami on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/ochrona-przed-zagro%C5%BCeniami/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Endpoint Security Showdown: Symantec vs. McAfee - kompleksowe porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczeństwo punktów końcowych"
+            
+              , "Antywirus"
+            
+              , "Firewall"
+            
+              , "Wykrywanie włamań"
+            
+              , "Zapobieganie utracie danych"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Rozwiązania bezpieczeństwa"
+            
+              , "Porównanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, które rozwiązanie zabezpieczające punkty końcowe, Symantec czy McAfee, najlepiej nadaje się do ochrony zasobów cyfrowych Twojej organizacji przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie typowych zagrożeń cyberbezpieczeństwa: Ochrona osób i firm</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zagrożenia dla cyberbezpieczeństwa"
+            
+              , "Znaczenie cyberbezpieczeństwa"
+            
+              , "Rodzaje zagrożeń"
+            
+              , "Wpływ zagrożeń"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Rola rządu w cyberbezpieczeństwie"
+            
+              , "Rola przemysłu w cyberbezpieczeństwie"
+            
+              , "Przepisy i zgodność"
+            
+              , "Partnerstwa publiczno-prywatne"
+            
+              , "Badania i rozwój w dziedzinie cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj typowe zagrożenia cyberbezpieczeństwa, ich wpływ na osoby fizyczne i firmy oraz skuteczne sposoby ochrony przed nimi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.png" length="73745" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

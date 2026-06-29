@@ -1,0 +1,218 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kształcenie Ustawiczne on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kszta%C5%82cenie-ustawiczne//img/banner.png</url>
+      <title>Kształcenie Ustawiczne on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kszta%C5%82cenie-ustawiczne/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kszta%C5%82cenie-ustawiczne/</link>
+
+    <description>Recent content in Kształcenie Ustawiczne on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kszta%C5%82cenie-ustawiczne/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczne szkolenie w zakresie świadomości bezpieczeństwa dla pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "pracownicy zdalni"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "szkolenie"
+            
+              , "pracownicy zdalni"
+            
+              , "phishing"
+            
+              , "najlepsze praktyki"
+            
+              , "kultura bezpieczeństwa"
+            
+              , "gamifikacja"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Świadomość bezpieczeństwa"
+            
+              , "Instytut Infosec"
+            
+              , "KnowBe4"
+            
+              , "kształcenie ustawiczne"
+            
+              , "scenariusze realne"
+            
+              , "szkolenie interaktywne"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "platformy szkoleniowe w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wzmocnij bezpieczeństwo swoich pracowników zdalnych dzięki skutecznemu szkoleniu z zakresu świadomości bezpieczeństwa i dowiedz się, jak je skutecznie wdrożyć.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czym są Cyber Sentinels i dlaczego powinieneś do nich dołączyć</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "IT"
+            
+              , "wspólnota"
+            
+              , "dzielenie się wiedzą"
+            
+              , "współpraca"
+            
+              , "kształcenie ustawiczne"
+            
+              , "wsparcie"
+            
+              , "integracyjność"
+            
+              , "pozytywny wpływ"
+            
+              , "kanały tekstowe"
+            
+              , "kanały głosowe"
+            
+              , "porada zawodowa"
+            
+              , "możliwości zatrudnienia"
+            
+              , "zasoby edukacyjne"
+            
+              , "pojawiające się trendy"
+            
+              , "projekty"
+            
+              , "wydarzenia"
+            
+              , "konferencje"
+            
+              , "zdjęcia zwierząt"
+            
+              , "technologia"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-the-cyber-sentinels-club/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj misję i zasady działania Cyber Sentinels, społeczności profesjonalistów z branży cybernetycznej i IT, zaangażowanych w dzielenie się wiedzą i opracowywanie innowacyjnych rozwiązań dla wyzwań związanych z cyberbezpieczeństwem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_stylized_shield_or_emblem.png" length="393218" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

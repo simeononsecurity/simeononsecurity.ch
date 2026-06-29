@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oprogramowanie Do Tworzenia Kopii Zapasowych I Odzyskiwania Danych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/oprogramowanie-do-tworzenia-kopii-zapasowych-i-odzyskiwania-danych//img/banner.png</url>
+      <title>Oprogramowanie Do Tworzenia Kopii Zapasowych I Odzyskiwania Danych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/oprogramowanie-do-tworzenia-kopii-zapasowych-i-odzyskiwania-danych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/oprogramowanie-do-tworzenia-kopii-zapasowych-i-odzyskiwania-danych/</link>
+
+    <description>Recent content in Oprogramowanie Do Tworzenia Kopii Zapasowych I Odzyskiwania Danych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/oprogramowanie-do-tworzenia-kopii-zapasowych-i-odzyskiwania-danych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cyberodporna infrastruktura: Najlepsze praktyki planowania odzyskiwania danych po awarii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-cyber-resilient-infrastructure-best-practices-for-disaster-recovery/</link>
+        
+        <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "odporność cybernetyczna"
+            
+              , "Planowanie odzyskiwania danych po awarii"
+            
+              , "DRP"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "ciągłość działania"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "Ramy bezpieczeństwa cybernetycznego NIST"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "PCI DSS"
+            
+              , "GLBA"
+            
+              , "FERPA"
+            
+              , "kopia zapasowa w chmurze"
+            
+              , "oprogramowanie do tworzenia kopii zapasowych i odzyskiwania danych"
+            
+              , "narzędzia oceny ryzyka"
+            
+              , "usługi reagowania na incydenty"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "Infrastruktura IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-cyber-resilient-infrastructure-best-practices-for-disaster-recovery/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować infrastrukturę odporną na cyberataki dzięki skutecznemu planowaniu odzyskiwania danych po awarii i najlepszym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_shield_with_a_check_mark.png" length="441158" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

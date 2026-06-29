@@ -1,0 +1,210 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pakowacz on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/pakowacz//img/banner.png</url>
+      <title>Pakowacz on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/pakowacz/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/pakowacz/</link>
+
+    <description>Recent content in Pakowacz on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/pakowacz/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

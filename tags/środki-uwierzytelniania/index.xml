@@ -1,0 +1,115 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Środki Uwierzytelniania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/%C5%9Brodki-uwierzytelniania//img/banner.png</url>
+      <title>Środki Uwierzytelniania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/%C5%9Brodki-uwierzytelniania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/%C5%9Brodki-uwierzytelniania/</link>
+
+    <description>Recent content in Środki Uwierzytelniania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/%C5%9Brodki-uwierzytelniania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sztuka inżynierii odwrotnej: Odkrywanie luk w bezpieczeństwie sieci IoT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "inżynieria odwrotna"
+            
+              , "Bezpieczeństwo IoT"
+            
+              , "podatności"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "analiza urządzenia"
+            
+              , "Sieci IoT"
+            
+              , "wewnętrzne funkcjonowanie"
+            
+              , "złośliwy kod"
+            
+              , "środki szyfrowania"
+            
+              , "środki uwierzytelniania"
+            
+              , "firewalle"
+            
+              , "aktualizacja oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc inżynierii wstecznej, aby odkryć błędy w zabezpieczeniach sieci IoT i poprawić ogólne bezpieczeństwo systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

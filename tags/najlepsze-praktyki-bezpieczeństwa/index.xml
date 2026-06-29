@@ -1,0 +1,457 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Najlepsze Praktyki Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Najlepsze Praktyki Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Najlepsze Praktyki Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>7 podstawowych środków bezpieczeństwa sieci w celu ochrony firmy przed cyberzagrożeniami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "środki bezpieczeństwa sieci"
+            
+              , "bezpieczeństwo sieci biznesowych"
+            
+              , "cyberzagrożenia"
+            
+              , "polityka bezpieczeństwa sieci"
+            
+              , "zapory sieciowe i systemy zapobiegania włamaniom"
+            
+              , "bezpieczeństwo sieci bezprzewodowej"
+            
+              , "aktualizacje oprogramowania i sprzętu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "monitorowanie aktywności sieciowej"
+            
+              , "reakcja na naruszenie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/seven-essential-network-security-measures-to-protect-your-business/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj siedem podstawowych środków bezpieczeństwa sieci, aby zabezpieczyć swoją firmę przed cyberzagrożeniami i zapewnić ochronę danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/7-essential-network-security-measures.png" length="99214" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpiecz swoje aplikacje internetowe za pomocą OWASP ASVS</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link>
+        
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP"
+            
+              , "ASVS"
+            
+              , "bezpieczeństwo aplikacji"
+            
+              , "normy bezpieczeństwa"
+            
+              , "cybersecurity"
+            
+              , "zarządzanie podatnością"
+            
+              , "bezpieczne kodowanie"
+            
+              , "test penetracyjny"
+            
+              , "modelowanie zagrożeń"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "ocena bezpieczeństwa"
+            
+              , "zautomatyzowane testy bezpieczeństwa"
+            
+              , "ręczne badanie bezpieczeństwa"
+            
+              , "bezpieczny cykl rozwoju"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "bezpieczeństwo danych"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "zgodność"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć swoje aplikacje internetowe za pomocą standardu OWASP Application Security Verification Standard (ASVS), aby spełnić najbardziej rygorystyczne środki bezpieczeństwa i chronić przed typowymi podatnościami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Linux"
+            
+              , "utwardzanie systemu"
+            
+              , "firewall"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "polityka haseł"
+            
+              , "aktualizacje systemu"
+            
+              , "logi systemowe"
+            
+              , "moduły bezpieczeństwa"
+            
+              , "zasady kontroli dostępu"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "dostęp roota"
+            
+              , "menedżer haseł"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja audytu systemu Windows za pomocą skryptu zasad audytu systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zasady audytu systemu Windows"
+            
+              , "Audyt systemu Windows"
+            
+              , "bezpieczeństwo"
+            
+              , "monitoring"
+            
+              , "auditpol"
+            
+              , "Polecenia systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "konfiguracja audytu"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "dzienniki zdarzeń"
+            
+              , "monitorowanie systemu"
+            
+              , "Serwer Windows"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "analiza dziennika"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "reakcja na incydent"
+            
+              , "narzędzia do monitorowania bezpieczeństwa"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "Administracja systemem Windows"
+            
+              , "skrypt"
+            
+              , "administracja systemem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "audyt zgodności"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "zarządzanie logami"
+            
+              , "Ustawienia zabezpieczeń systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zmaksymalizować audyt systemu Windows, wdrażając skrypt zasad audytu systemu Windows w celu zwiększenia bezpieczeństwa i monitorowania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

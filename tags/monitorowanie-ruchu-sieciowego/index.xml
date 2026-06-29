@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitorowanie Ruchu Sieciowego on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/monitorowanie-ruchu-sieciowego//img/banner.png</url>
+      <title>Monitorowanie Ruchu Sieciowego on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/monitorowanie-ruchu-sieciowego/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/monitorowanie-ruchu-sieciowego/</link>
+
+    <description>Recent content in Monitorowanie Ruchu Sieciowego on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/monitorowanie-ruchu-sieciowego/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie infrastruktury sieciowej przed atakami APT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo sieci"
+            
+              , "cybersecurity"
+            
+              , "zaawansowane trwałe zagrożenia"
+            
+              , "infrastruktura sieciowa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie danych"
+            
+              , "szkolenie pracowników"
+            
+              , "plan reagowania na incydenty"
+            
+              , "oceny podatności"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "monitorowanie ruchu sieciowego"
+            
+              , "ataki phishingowe"
+            
+              , "ochrona punktów końcowych"
+            
+              , "wykrywanie włamań"
+            
+              , "firewalle"
+            
+              , "SIEM"
+            
+              , "kopia zapasowa danych"
+            
+              , "segmentacja sieci"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "prywatność danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-harden-your-network-against-advanced-persistent-threats-apts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj kluczowe kroki, aby utwardzić infrastrukturę sieciową przed zaawansowanymi trwałymi zagrożeniami (APT) i chronić swoją organizację przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png" length="141474" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

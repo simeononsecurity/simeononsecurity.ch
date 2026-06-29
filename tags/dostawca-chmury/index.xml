@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dostawca Chmury on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dostawca-chmury//img/banner.png</url>
+      <title>Dostawca Chmury on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dostawca-chmury/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dostawca-chmury/</link>
+
+    <description>Recent content in Dostawca Chmury on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dostawca-chmury/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopia zapasowa danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągłe monitorowanie"
+            
+              , "oceny podatności na zagrożenia"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png" length="301187" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

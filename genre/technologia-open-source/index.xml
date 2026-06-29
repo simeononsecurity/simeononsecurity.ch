@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologia Open Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/technologia-open-source//img/banner.png</url>
+      <title>Technologia Open Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/technologia-open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/technologia-open-source/</link>
+
+    <description>Recent content in Technologia Open Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/technologia-open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Presearch: Społecznościowa wyszukiwarka rewolucjonizująca wyszukiwanie online</title>
+        
+          <link>https://pl.simeononsecurity.com/other/exploring-presearch-as-a-alternative-to-google/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Wyszukiwarki"
+            
+              , "Blockchain"
+            
+              , "Kryptowaluta"
+            
+              , "Prywatność online"
+            
+              , "Platformy społecznościowe"
+            
+              , "Decentralizacja"
+            
+              , "Technologia open source"
+            
+              , "Usługi internetowe"
+            
+              , "Innowacje cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/exploring-presearch-as-a-alternative-to-google/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak Presearch, zdecentralizowana wyszukiwarka, zapewnia użytkownikom prywatność, nagrody i udział społeczności, stanowiąc alternatywę dla Google.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png" length="309932" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

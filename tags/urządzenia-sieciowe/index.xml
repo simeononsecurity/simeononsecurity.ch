@@ -1,0 +1,313 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urządzenia Sieciowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/urz%C4%85dzenia-sieciowe//img/banner.png</url>
+      <title>Urządzenia Sieciowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/urz%C4%85dzenia-sieciowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/urz%C4%85dzenia-sieciowe/</link>
+
+    <description>Recent content in Urządzenia Sieciowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/urz%C4%85dzenia-sieciowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Protokoły routingu, koncepcje i optymalizacja</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</link>
+        
+        <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie sieci"
+            
+              , "Routing"
+            
+              , "Protokoły sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Routing dynamiczny"
+            
+              , "Routing statyczny"
+            
+              , "Zarządzanie przepustowością"
+            
+              , "Jakość usług"
+            
+              , "Urządzenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat technologii i koncepcji routingu, od dynamicznych protokołów routingu, takich jak RIP, OSPF, EIGRP i BGP, po protokoły stanu łącza, wektora odległości i routingu hybrydowego, a także konfigurację routingu statycznego i tras domyślnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja firmware offline dla Ubiquiti Unifi UDM Pro i UDM SE przez SSH z wiersza poleceń</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja oprogramowania układowego Ubiquiti"
+            
+              , "UDM Pro"
+            
+              , "UDM SE"
+            
+              , "aktualizacja oprogramowania sprzętowego offline"
+            
+              , "Wiersz poleceń SSH"
+            
+              , "zarządzanie siecią"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacja oprogramowania sprzętowego"
+            
+              , "Połączenie SSH"
+            
+              , "plik oprogramowania układowego"
+            
+              , "Kontroler sieci UniFi"
+            
+              , "poprawki błędów"
+            
+              , "poprawa wydajności"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "networking"
+            
+              , "urządzenia sieciowe"
+            
+              , "technologia"
+            
+              , "Zarządzanie IT"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego"
+            
+              , "optymalizacja sieci"
+            
+              , "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM Pro"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM SE"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego offline"
+            
+              , "Aktualizacja oprogramowania sprzętowego SSH"
+            
+              , "zarządzanie urządzeniami sieciowymi"
+            
+              , "aktualizacje zabezpieczeń sieci"
+            
+              , "strategie aktualizacji oprogramowania sprzętowego"
+            
+              , "Zarządzanie oprogramowaniem sprzętowym offline"
+            
+              , "optymalizacja wydajności sieci"
+            
+              , "zarządzanie poprawkami zabezpieczeń"
+            
+              , "aktualizacje technologii sieciowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png" length="94023" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Wireshark: Kompleksowy przewodnik po analizie sieci dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-wireshark-for-network-analysis-and-troubleshooting/</link>
+        
+        <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wireshark"
+            
+              , "analiza sieci"
+            
+              , "rozwiązywanie problemów"
+            
+              , "przewodnik dla początkujących"
+            
+              , "monitorowanie sieci"
+            
+              , "przechwytywanie pakietów"
+            
+              , "protokoły sieciowe"
+            
+              , "TCP IP"
+            
+              , "wizualizacja danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "filtry przechwytujące"
+            
+              , "filtry wyświetlacza"
+            
+              , "urządzenia sieciowe"
+            
+              , "Ethernet"
+            
+              , "topologia sieci"
+            
+              , "diagnostyka sieci"
+            
+              , "administracja siecią"
+            
+              , "wydajność sieci"
+            
+              , "Samouczek Wireshark"
+            
+              , "pakiety danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-wireshark-for-network-analysis-and-troubleshooting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak skutecznie używać Wireshark do analizy sieci i rozwiązywania problemów dzięki temu szczegółowemu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png" length="451161" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

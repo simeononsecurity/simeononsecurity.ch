@@ -1,0 +1,109 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TheBlindHacker on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/theblindhacker//img/banner.png</url>
+      <title>TheBlindHacker on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/theblindhacker/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/theblindhacker/</link>
+
+    <description>Recent content in TheBlindHacker on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/theblindhacker/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecani twórcy treści zabezpieczających</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/creators/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecenia"
+            
+              , "Twórcy treści związanych z bezpieczeństwem"
+            
+              , "SimeonOnSecurity"
+            
+              , "ippSec"
+            
+              , "John Hammond"
+            
+              , "LiveOverflow"
+            
+              , "NahamSec"
+            
+              , "Rob Fuller"
+            
+              , "TheBlindHacker"
+            
+              , "YouTube"
+            
+              , "Twitter"
+            
+              , "Twitch"
+            
+              , "GitHub"
+            
+              , "Strona internetowa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/creators/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepszych twórców treści związanych z bezpieczeństwem, wybranych przez SimeonOnSecurity. Od ippSec po Johna Hammonda, LiveOverflow, NahamSec, Roba Fullera i TheBlindHackera - ci eksperci dostarczają najnowszych informacji w tej dziedzinie za pośrednictwem różnych platform, takich jak YouTube, Twitch, Twitter, GitHub i strony internetowe. Bądź na bieżąco i pogłębiaj swoją wiedzę z najlepszymi w branży.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

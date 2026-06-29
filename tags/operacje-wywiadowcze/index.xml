@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operacje Wywiadowcze on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/operacje-wywiadowcze//img/banner.png</url>
+      <title>Operacje Wywiadowcze on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/operacje-wywiadowcze/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/operacje-wywiadowcze/</link>
+
+    <description>Recent content in Operacje Wywiadowcze on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/operacje-wywiadowcze/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie informacji szczególnie chronionych (SCI) dla bezpieczeństwa narodowego</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Bezpieczeństwo narodowe"
+            
+              , "Inteligencja"
+            
+              , "Informacje niejawne"
+            
+              , "Przepisy rządowe"
+            
+              , "Kontrola dostępu"
+            
+              , "Świadectwa bezpieczeństwa"
+            
+              , "Wspólnota wywiadowcza"
+            
+              , "Przemysł obronny"
+            
+              , "Operacje wywiadowcze"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

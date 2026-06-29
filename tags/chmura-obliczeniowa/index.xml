@@ -1,0 +1,787 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chmura Obliczeniowa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/chmura-obliczeniowa//img/banner.png</url>
+      <title>Chmura Obliczeniowa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/</link>
+
+    <description>Recent content in Chmura Obliczeniowa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/chmura-obliczeniowa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kluczowe umiejętności dla skutecznych menedżerów systemów informatycznych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Biznes"
+            
+              , "Zarządzanie"
+            
+              , "IT"
+            
+              , "Rozwój kariery"
+            
+              , "Transformacja cyfrowa"
+            
+              , "Analiza danych"
+            
+              , "Przetwarzanie w chmurze"
+            
+              , "Zarządzanie projektami"
+            
+              , "Przywództwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/five-key-skills-every-information-systems-manager-should-have/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj 5 kluczowych umiejętności, które powinien posiadać każdy menedżer systemów informatycznych, aby odnieść sukces w dzisiejszym cyfrowym świecie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png" length="356462" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola orkiestracji kontenerów w nowoczesnych środowiskach DevOps</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link>
+        
+        <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "orkiestracja kontenerów"
+            
+              , "DevOps"
+            
+              , "Kubernetes"
+            
+              , "Rój Docker"
+            
+              , "Apache Mesos"
+            
+              , "skalowalność"
+            
+              , "wysoka dostępność"
+            
+              , "równoważenie obciążenia"
+            
+              , "bezpieczeństwo"
+            
+              , "zautomatyzowane wdrożenia aplikacji"
+            
+              , "HIPAA"
+            
+              , "SOX"
+            
+              , "GDPR"
+            
+              , "zgodność"
+            
+              , "rozwój oprogramowania"
+            
+              , "chmura obliczeniowa"
+            
+              , "konteneryzacja"
+            
+              , "technologia"
+            
+              , "automatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloud Security Showdown: AWS vs Azure vs Google Cloud Platform</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png" length="279590" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "networking"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png" length="412120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopia zapasowa danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągłe monitorowanie"
+            
+              , "oceny podatności na zagrożenia"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png" length="301187" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnić moc Dockera: Dlaczego dominuje nad maszynami wirtualnymi w nowoczesnej chmurze obliczeniowej</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/docker-vs-vms/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Docker"
+            
+              , "Maszyny wirtualne"
+            
+              , "Maszyny wirtualne"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Pojemniki"
+            
+              , "Simplicity"
+            
+              , "Skalowalność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Efektywność kosztowa"
+            
+              , "Dockerfile"
+            
+              , "Budowanie, testowanie i wdrażanie"
+            
+              , "Izolacja"
+            
+              , "Historia bezpieczeństwa"
+            
+              , "Porównanie kosztów"
+            
+              , "Artykuł informacyjny"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/docker-vs-vms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Dockera w chmurze obliczeniowej, ponieważ przewyższa on maszyny wirtualne swoją prostotą, skalowalnością, bezpieczeństwem i opłacalnością, w tym artykule.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png" length="238540" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

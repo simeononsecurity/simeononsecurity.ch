@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Narzędzia Do Zarządzania Infrastrukturą on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-do-zarz%C4%85dzania-infrastruktur%C4%85//img/banner.png</url>
+      <title>Narzędzia Do Zarządzania Infrastrukturą on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-do-zarz%C4%85dzania-infrastruktur%C4%85/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia-do-zarz%C4%85dzania-infrastruktur%C4%85/</link>
+
+    <description>Recent content in Narzędzia Do Zarządzania Infrastrukturą on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/narz%C4%99dzia-do-zarz%C4%85dzania-infrastruktur%C4%85/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja Ansible: Od zwykłego Ansible do Ansible Tower i Semaphore</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

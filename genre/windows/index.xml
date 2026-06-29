@@ -1,0 +1,310 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/windows//img/banner.png</url>
+      <title>Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/windows/</link>
+
+    <description>Recent content in Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Odblokowywanie mocy kluczy licencyjnych w celu zwiększenia wydajności</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Oprogramowanie"
+            
+              , "Wydajność"
+            
+              , "Systemy operacyjne"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Licencjonowanie"
+            
+              , "Zarządzanie kluczami"
+            
+              , "Rozwiązania IT"
+            
+              , "Ulepszenie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, jak klucze Windows GVLK rewolucjonizują wydajność! Poznaj najlepsze klucze licencyjne i bez wysiłku zwiększ wydajność swojego systemu.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Active Directory Administration with PowerShell: Przewodnik instalacji i użytkowania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows"
+            
+              , "PowerShell"
+            
+              , "Active Directory"
+            
+              , "Administracja"
+            
+              , "Skrypty"
+            
+              , "IT"
+            
+              , "Automatyzacja"
+            
+              , "Windows Server"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie zainstalować i wykorzystać moduł Active Directory dla PowerShell, aby usprawnić zadania administracyjne Windows Active Directory.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skrypty PowerShell: Przewodnik krok po kroku dla początkujących, jak zautomatyzować zadania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Programowanie"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Skrypty"
+            
+              , "IT"
+            
+              , "Zadania administracyjne"
+            
+              , "Zarządzanie komputerami"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Kodowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy skryptów PowerShell i zautomatyzuj zadania dzięki temu przewodnikowi krok po kroku dla początkujących, obejmującemu polecenia cmdlet, pętle, funkcje i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecany program antywirusowy</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zalecany program antywirusowy"
+            
+              , "AV"
+            
+              , "Antywirus"
+            
+              , "Antywirus"
+            
+              , "Użytkowanie domowe"
+            
+              , "Użytek biznesowy"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł zawiera listę zalecanych produktów antywirusowych do użytku domowego i biznesowego, według rankingu SimeonOnSecurity. Rankingi oparte są na profesjonalnej opinii i testach na złośliwych próbkach i obejmują jedynie możliwości antywirusowe, wykrywanie, wrażenia użytkownika i wydajność. Użytkownicy systemu Windows mogą wybierać zarówno spośród płatnych, jak i bezpłatnych opcji, podczas gdy użytkownicy systemów Linux i MacOS mają ograniczone opcje, przy czym płatne opcje są dostępne tylko dla systemu Linux. Należy pamiętać, że AV nie jest wymagany w systemach Linux lub MacOS, a korzystanie z VPN lub menedżera haseł dostarczanego z pakietem AV nie jest zalecane. Artykuł zawiera również rekomendacje dla dostawców VPN. Zalecenia dotyczące zastosowań biznesowych są obecnie opracowywane.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

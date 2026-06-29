@@ -1,0 +1,141 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platformy Windows I Linux on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/platformy-windows-i-linux//img/banner.png</url>
+      <title>Platformy Windows I Linux on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/platformy-windows-i-linux/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/platformy-windows-i-linux/</link>
+
+    <description>Recent content in Platformy Windows I Linux on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/platformy-windows-i-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Writeupy i Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "wyzwania HackTheBox"
+            
+              , "techniki kryptograficzne"
+            
+              , "odkrycia w cyberbezpieczeństwie"
+            
+              , "dekodowanie szyfrów"
+            
+              , "odkodowywanie tonów DTMF"
+            
+              , "szyfry z liczb pierwszych"
+            
+              , "dekodowanie szyfru Fernet"
+            
+              , "dekodowanie szyfru Malboge"
+            
+              , "narzędzia do ataków RSA"
+            
+              , "wyzwanie zaproszenia"
+            
+              , "umiejętności testów penetracyjnych"
+            
+              , "platformy Windows i Linux"
+            
+              , "wyzwania cybernetyczne"
+            
+              , "algorytmy bezpieczeństwa"
+            
+              , "metody szyfrowania"
+            
+              , "gry kryptograficzne"
+            
+              , "techniki etycznego hakerstwa"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "rozwój umiejętności cybernetycznych"
+            
+              , "writeupy bezpieczeństwa"
+            
+              , "rozwiązania cybernetyczne"
+            
+              , "strategie dekodowania flag"
+            
+              , "metody kryptoanalizy"
+            
+              , "strategie obrony cybernetycznej"
+            
+              , "konkursy cybernetyczne"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "analiza szyfrów"
+            
+              , "spostrzeżenia dotyczące bezpieczeństwa"
+            
+              , "nauka cybernetyki"
+            
+              , "społeczność cyberbezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zbadaj writeupy SimeonOnSecurity dotyczące wyzwań HackTheBox, szyfrów kryptograficznych i technik cyberbezpieczeństwa. Naucz się i odkryj ukryte flagi dzięki wyjaśnieniom krok po kroku.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Odporność Użytkownika on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/odporno%C5%9B%C4%87-u%C5%BCytkownika//img/banner.png</url>
+      <title>Odporność Użytkownika on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/odporno%C5%9B%C4%87-u%C5%BCytkownika/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/odporno%C5%9B%C4%87-u%C5%BCytkownika/</link>
+
+    <description>Recent content in Odporność Użytkownika on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/odporno%C5%9B%C4%87-u%C5%BCytkownika/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "MFA"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "cybersecurity"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "doświadczenie użytkownika"
+            
+              , "phishing"
+            
+              , "ataki typu brute force"
+            
+              , "złożoność techniczna"
+            
+              , "odporność użytkownika"
+            
+              , "smartfony"
+            
+              , "token"
+            
+              , "karta inteligentna"
+            
+              , "odcisk palca"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "rozpoznawanie głosu"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "naruszenie danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

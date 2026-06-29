@@ -1,0 +1,380 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konfiguracja Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/konfiguracja-sieci//img/banner.png</url>
+      <title>Konfiguracja Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/konfiguracja-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/konfiguracja-sieci/</link>
+
+    <description>Recent content in Konfiguracja Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/konfiguracja-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Metodologia rozwiązywania problemów sieciowych</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Edukacja informatyczna"
+            
+              , "Rozwiązywanie problemów z siecią"
+            
+              , "Certyfikacja sieci"
+            
+              , "Szkolenie IT"
+            
+              , "Sieci komputerowe"
+            
+              , "Umiejętności informatyczne"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Koncepcje sieciowe"
+            
+              , "Wsparcie sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowy przewodnik po metodologii rozwiązywania problemów sieciowych, w tym kroki, narzędzia i najlepsze praktyki w zakresie wydajnego i skutecznego rozwiązywania problemów sieciowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Konfiguracja tuneli Cloudflare: Usprawnij i zabezpiecz swój ruch sieciowy</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-setup-and-use-cloudflare-tunnels/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Tunele Cloudflare"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Wydajność strony internetowej"
+            
+              , "Serwer proxy"
+            
+              , "Ruch internetowy"
+            
+              , "Konfiguracja sieci"
+            
+              , "Ubuntu Server"
+            
+              , "Konto Cloudflare"
+            
+              , "Uwierzytelnianie"
+            
+              , "Tworzenie tunelu"
+            
+              , "Routing ruchu"
+            
+              , "Rekordy DNS"
+            
+              , "Bezpieczne połączenie"
+            
+              , "Hosting stron internetowych"
+            
+              , "Usługa proxy"
+            
+              , "Ochrona sieci"
+            
+              , "Optymalizacja wydajności"
+            
+              , "Integracja z Cloudflare"
+            
+              , "Konfiguracja serwera"
+            
+              , "Szyfrowanie ruchu"
+            
+              , "Zarządzanie ruchem sieciowym"
+            
+              , "Bezpieczny hosting"
+            
+              , "Bezpieczeństwo stron internetowych"
+            
+              , "Konfiguracja Ubuntu"
+            
+              , "Technologia tunelowania"
+            
+              , "Usługi Cloudflare"
+            
+              , "Wydajność sieci"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie ruchem"
+            
+              , "Cloudflare Proxy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-setup-and-use-cloudflare-tunnels/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować tunele Cloudflare, aby usprawnić i chronić ruch sieciowy, zwiększając wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png" length="159983" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "networking"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png" length="412120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skrypty PowerShell: Przewodnik krok po kroku dla początkujących, jak zautomatyzować zadania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Programowanie"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Skrypty"
+            
+              , "IT"
+            
+              , "Zadania administracyjne"
+            
+              , "Zarządzanie komputerami"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Kodowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy skryptów PowerShell i zautomatyzuj zadania dzięki temu przewodnikowi krok po kroku dla początkujących, obejmującemu polecenia cmdlet, pętle, funkcje i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

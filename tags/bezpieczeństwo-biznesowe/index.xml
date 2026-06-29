@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Biznesowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-biznesowe//img/banner.png</url>
+      <title>Bezpieczeństwo Biznesowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-biznesowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-biznesowe/</link>
+
+    <description>Recent content in Bezpieczeństwo Biznesowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-biznesowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Outsourcing Cybersecurity: Korzyści i zagrożenia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</link>
+        
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "outsourcing"
+            
+              , "sprzedawcy zewnętrzni"
+            
+              , "naruszenie danych"
+            
+              , "wybór sprzedawcy"
+            
+              , "oszczędność kosztów"
+            
+              , "wiedza specjalistyczna"
+            
+              , "skalowalność"
+            
+              , "utrata kontroli"
+            
+              , "plan reagowania na incydenty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "outsourcing bezpieczeństwa"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "zarządzanie podatnością"
+            
+              , "cyberobrona"
+            
+              , "ciągłość działania"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-risks-of-oursourcing-cyberscurity-to-third-party-vendors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o korzyściach i zagrożeniach wynikających z powierzenia cyberbezpieczeństwa zewnętrznym dostawcom oraz jak wybrać odpowiedniego dostawcę dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png" length="373043" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "MFA"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "cybersecurity"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "doświadczenie użytkownika"
+            
+              , "phishing"
+            
+              , "ataki typu brute force"
+            
+              , "złożoność techniczna"
+            
+              , "odporność użytkownika"
+            
+              , "smartfony"
+            
+              , "token"
+            
+              , "karta inteligentna"
+            
+              , "odcisk palca"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "rozpoznawanie głosu"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "naruszenie danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

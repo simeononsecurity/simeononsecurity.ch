@@ -1,0 +1,1652 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Systemu Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-systemu-windows//img/banner.png</url>
+      <title>Bezpieczeństwo Systemu Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-systemu-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-systemu-windows/</link>
+
+    <description>Recent content in Bezpieczeństwo Systemu Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/bezpiecze%C5%84stwo-systemu-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe najlepsze praktyki wzmacniania zabezpieczeń systemu Windows dla bezpiecznych systemów Windows 10 i Windows 11</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Hartowanie systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Uodparnianie systemu Windows 10"
+            
+              , "Uodparnianie systemu Windows 11"
+            
+              , "Najlepsze praktyki bezpieczeństwa systemu Windows"
+            
+              , "Wskazówki dotyczące bezpieczeństwa systemu Windows"
+            
+              , "Wytyczne dotyczące bezpieczeństwa systemu Windows"
+            
+              , "Zabezpieczanie systemów operacyjnych Windows"
+            
+              , "Wzmocnienie systemu Windows"
+            
+              , "Środki bezpieczeństwa systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj skuteczne strategie zwiększania bezpieczeństwa systemów Windows 10 i Windows 11 dzięki kompleksowym technikom wzmacniania zabezpieczeń i najlepszym praktykom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dzisiaj nauczyłem się więcej modułów Powershell i Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-03/</link>
+        
+        <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Administracja Windows"
+            
+              , "PowerShell"
+            
+              , "Automatyzacja IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-03/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity dowiedział się i znalazł dziś interesujące informacje**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity dowiedział się o Windows STIG Ansible i zaktualizował powiązane repozytoria. Przestudiował również różne zasoby Microsoft i Ansible związane z powershell, remotingiem i wykonywaniem poleceń powłoki/powershell w systemie Windows przy użyciu modułów takich jak invoke-command, start-process, win_powershell, win_shell, psexec i win_psexec.&lt;/p&gt;
+&lt;h2 id=&#34;nowezaktualizowane-repozytoria&#34;&gt;
+  &lt;a href=&#34;#nowezaktualizowane-repozytoria&#34; title=&#34;Nowe/zaktualizowane repozytoria:&#34;&gt;Nowe/zaktualizowane repozytoria:&lt;/a&gt;
+  &lt;a href=&#34;#nowezaktualizowane-repozytoria&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34; title=&#34;Nowe/zaktualizowane repozytoria:&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;simeononsecurity/Windows_STIG_Ansible&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://github.com/simeononsecurity/Windows_STIG_Ansible&#34;&gt;
+    &lt;a href=&#34;https://github.com/simeononsecurity/Windows_STIG_Ansible&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;simeononsecurity/windows_stigs&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://galaxy.ansible.com/simeononsecurity/windows_stigs&#34;&gt;
+    &lt;a href=&#34;https://galaxy.ansible.com/simeononsecurity/windows_stigs&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zasoby-edukacyjne&#34;&gt;
+  &lt;a href=&#34;#zasoby-edukacyjne&#34; title=&#34;Zasoby edukacyjne:&#34;&gt;Zasoby edukacyjne:&lt;/a&gt;
+  &lt;a href=&#34;#zasoby-edukacyjne&#34; class=&#34;h-anchor&#34; aria-hidden=&#34;true&#34; title=&#34;Zasoby edukacyjne:&#34;&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - invoke-command&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - invoke-command&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - start-process&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - start-process&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;microsoft - running remote commands&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2&#34;&gt;
+    &lt;a href=&#34;https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;microsoft - running remote commands&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;ansible.windows.win_powershell&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;ansible.windows.win_powershell&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;ansible.windows.win_shell module&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;ansible.windows.win_shell module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;community.windows.psexec&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;community.windows.psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+&lt;span itemscope itemtype=&#34;https://schema.org/WebPage&#34;&gt;
+    &lt;meta itemprop=&#34;name&#34; content=&#34;win_psexec&#34;&gt;
+    &lt;meta itemprop=&#34;url&#34; content=&#34;https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html&#34;&gt;
+    &lt;a href=&#34;https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html&#34;
+    
+        
+            
+                
+                    rel=&#34;noopener external&#34; target=&#34;_blank&#34;
+                
+            
+        
+    &gt;win_psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Today I Learned about Ansible and Block/Rescue Modules</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-02/</link>
+        
+        <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Administracja Windows"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Automatyzacja IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-02/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;SimeonOnSecurity dowiedział się i znalazł dziś interesujące informacje**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity dowiedział się i odkrył dziś kilka interesujących rzeczy związanych z bezpieczeństwem systemu Windows i automatyzacją przy użyciu Ansible.&lt;/p&gt;
+&lt;p&gt;Po pierwsze, zidentyfikowano dwa nowe i zaktualizowane repozytoria. Repozytorium Windows_STIG_Ansible zapewnia kompletne rozwiązanie do konfigurowania systemów Windows w celu spełnienia wymagań Security Technical Implementation Guide (STIG) przy użyciu platformy automatyzacji Ansible. Repozytorium windows_stigs jest zbiorem ról Ansible do konfigurowania systemów Windows w celu spełnienia wymagań STIG i jest dostępne w Ansible Galaxy, centralnym repozytorium do udostępniania zawartości Ansible.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dzisiaj dowiedziałem się, jak manipulować i analizować JSON w PowerShell i Bash</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Administracja Windows"
+            
+              , "Konfiguracja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;O czym SimeonOnSecurity dowiedział się dzisiaj i co uznał za interesujące&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity zaktualizował stronę w swojej witrynie i dowiedział się o kilku zasobach, które uważa za interesujące. Zaktualizowaną stroną jest opis Invite Challenge na HackTheBox. Strona ta zawiera dogłębną analizę procesu rozwiązywania wyzwania w systemach Windows i Linux.&lt;/p&gt;
+&lt;p&gt;Oprócz zaktualizowanej strony, SimeonOnSecurity odkrył również kilka przydatnych zasobów edukacyjnych. Jednym z tych zasobów jest wpis na blogu autorstwa Camerona Nokesa, który koncentruje się na pracy z JSON w bashu przy użyciu narzędzia jq. Narzędzie jq jest narzędziem wiersza poleceń, które ułatwia analizowanie, filtrowanie i manipulowanie danymi JSON.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

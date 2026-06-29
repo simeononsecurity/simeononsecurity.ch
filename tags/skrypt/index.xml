@@ -1,0 +1,380 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skrypt on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/skrypt//img/banner.png</url>
+      <title>Skrypt on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/skrypt/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/skrypt/</link>
+
+    <description>Recent content in Skrypt on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/skrypt/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z przepisami bezpieczeństwa za pomocą skryptów STIG</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-stigs/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Skrypty STIG"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "automatyzacja"
+            
+              , "Windows"
+            
+              , "aplikacje"
+            
+              , ".NET"
+            
+              , "Adobe Reader DC"
+            
+              , "Oracle JRE 8"
+            
+              , "FireFox"
+            
+              , "Podręczniki Ansible"
+            
+              , "przygotowanie domeny"
+            
+              , "Windows Defender"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "skrypt"
+            
+              , "Zgodność z STIG"
+            
+              , "zarządzanie konfiguracją"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "zarządzanie poprawkami"
+            
+              , "administracja systemem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-stigs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów STIG do automatyzacji zgodności z zabezpieczeniami dla systemu Windows i popularnych aplikacji, w tym .NET, Adobe Reader DC i Oracle JRE 8.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: Uproszczenie wdrażania i konfiguracji Sysmon</title>
+        
+          <link>https://pl.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja Sysmon"
+            
+              , "Jak zautomatyzować Sysmon"
+            
+              , "Jak zautomatyzować konfigurację Sysmon"
+            
+              , "Jak zainstalować Sysmon"
+            
+              , "Powershell"
+            
+              , "Skrypt"
+            
+              , "Wdrożenie Sysmon"
+            
+              , "Konfiguracja Sysmon"
+            
+              , "Sysmon Logging"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Złośliwe działanie"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Repozytorium GitHub"
+            
+              , "BHIS"
+            
+              , "Monitorowanie systemu"
+            
+              , "Badania nad bezpieczeństwem"
+            
+              , "Tworzenie procesu"
+            
+              , "Połączenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć i skonfigurować program Sysmon, aby poprawić bezpieczeństwo systemu za pomocą skryptu Automate-Sysmon, który upraszcza ten proces nawet dla początkujących użytkowników.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja audytu systemu Windows za pomocą skryptu zasad audytu systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zasady audytu systemu Windows"
+            
+              , "Audyt systemu Windows"
+            
+              , "bezpieczeństwo"
+            
+              , "monitoring"
+            
+              , "auditpol"
+            
+              , "Polecenia systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "konfiguracja audytu"
+            
+              , "polityki bezpieczeństwa"
+            
+              , "dzienniki zdarzeń"
+            
+              , "monitorowanie systemu"
+            
+              , "Serwer Windows"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "analiza dziennika"
+            
+              , "zgodność z przepisami bezpieczeństwa"
+            
+              , "reakcja na incydent"
+            
+              , "narzędzia do monitorowania bezpieczeństwa"
+            
+              , "uprzywilejowany dostęp"
+            
+              , "Administracja systemem Windows"
+            
+              , "skrypt"
+            
+              , "administracja systemem"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "audyt zgodności"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "zarządzanie logami"
+            
+              , "Ustawienia zabezpieczeń systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zmaksymalizować audyt systemu Windows, wdrażając skrypt zasad audytu systemu Windows w celu zwiększenia bezpieczeństwa i monitorowania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,380 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Operacyjny Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/system-operacyjny-windows//img/banner.png</url>
+      <title>System Operacyjny Windows on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/system-operacyjny-windows/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/system-operacyjny-windows/</link>
+
+    <description>Recent content in System Operacyjny Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/system-operacyjny-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja instalacji Windows 11: Obejście TPM, bezpiecznego rozruchu i kontroli pamięci RAM</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows 11"
+            
+              , "Instalacja"
+            
+              , "Wirtualizacja"
+            
+              , "Automatyzacja"
+            
+              , "Klucze rejestru"
+            
+              , "Obejście TPM"
+            
+              , "Bezpieczne obejście rozruchu"
+            
+              , "Obejście pamięci RAM"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij instalację Windows 11 w środowiskach zwirtualizowanych, omijając kontrole TPM, Secure Boot i pamięci RAM za pomocą autounattend.xml i vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Struktura katalogów Windows: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-directory-structure-guide/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Struktura katalogów Windows"
+            
+              , "Zarządzanie plikami w systemie Windows"
+            
+              , "Nawigacja po katalogach"
+            
+              , "Organizacja plików"
+            
+              , "Ścieżki plików systemu Windows"
+            
+              , "Foldery systemowe Windows"
+            
+              , "Katalog użytkownika"
+            
+              , "Katalog Program Files"
+            
+              , "Katalog główny systemu Windows"
+            
+              , "Katalog plików tymczasowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-directory-structure-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj strukturę katalogów Windows i dowiedz się, jak efektywnie zarządzać plikami i poruszać się po hierarchicznym systemie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_a_tree-like_structure_repre.png" length="515007" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Skróty plików w systemie Windows przy użyciu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "skróty plików"
+            
+              , "PowerShell"
+            
+              , "SHA256 hash"
+            
+              , "Skrót MD5"
+            
+              , "SHA1 hash"
+            
+              , "integralność plików"
+            
+              , "uwierzytelnianie danych"
+            
+              , "weryfikacja plików"
+            
+              , "algorytmy haszujące"
+            
+              , "System operacyjny Windows"
+            
+              , "język skryptowy"
+            
+              , "powłoka wiersza poleceń"
+            
+              , "bezpieczeństwo danych"
+            
+              , "informatyka śledcza"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Obliczanie skrótu"
+            
+              , "manipulowanie plikami"
+            
+              , "integralność danych"
+            
+              , "autentyczność pliku"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "identyfikacja pliku"
+            
+              , "cyberobrona"
+            
+              , "bezpieczeństwo plików"
+            
+              , "ochrona danych"
+            
+              , "weryfikacja danych"
+            
+              , "walidacja plików"
+            
+              , "Windows PowerShell"
+            
+              , "generowanie skrótu"
+            
+              , "algorytmy skrótu"
+            
+              , "funkcje skrótu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uzyskać skróty plików w systemie Windows za pomocą PowerShell, w tym SHA256, MD5 i SHA1, z instrukcjami krok po kroku i przykładami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalnie zwiększ bezpieczeństwo i prywatność: Hartowanie i usuwanie skutków awarii systemu Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Utwardzanie systemu Windows"
+            
+              , "Usuwanie skutków awarii systemu Windows"
+            
+              , "Zwiększone bezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Ataki cybernetyczne"
+            
+              , "Bezpieczeństwo systemu operacyjnego"
+            
+              , "System operacyjny Windows"
+            
+              , "Prywatność danych"
+            
+              , "Cyberprzestępca"
+            
+              , "Powierzchnia ataku"
+            
+              , "Podatności"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Mechanizmy uwierzytelniania"
+            
+              , "Niechciane oprogramowanie"
+            
+              , "Poprawa wydajności"
+            
+              , "Gromadzenie danych"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Oprogramowanie antywirusowe"
+            
+              , "Oprogramowanie Anti-Malware"
+            
+              , "Informacje wrażliwe"
+            
+              , "Kompleksowy przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/debloat-windows-for-improved-privacy-and-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Bądź bezpieczny w sieci: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy...
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png" length="302341" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

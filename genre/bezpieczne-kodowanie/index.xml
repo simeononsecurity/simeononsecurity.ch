@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Kodowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/bezpieczne-kodowanie//img/banner.png</url>
+      <title>Bezpieczne Kodowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/bezpieczne-kodowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/bezpieczne-kodowanie/</link>
+
+    <description>Recent content in Bezpieczne Kodowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/bezpieczne-kodowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych najlepszych praktyk bezpieczeństwa PowerShell w zakresie ochrony skryptów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Najlepsze praktyki bezpieczeństwa PowerShell"
+            
+              , "Bezpieczeństwo skryptów"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Administracja systemem Windows"
+            
+              , "Automatyzacja"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Ochrona danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 najważniejszych najlepszych praktyk bezpieczeństwa PowerShell w celu ochrony skryptów, haseł i poufnych informacji. Zwiększ bezpieczeństwo swojego środowiska PowerShell i chroń się przed nieautoryzowanym dostępem i potencjalnymi naruszeniami bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

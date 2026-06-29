@@ -1,0 +1,1642 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Powershell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/powershell//img/banner.png</url>
+      <title>Powershell on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/powershell/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/powershell/</link>
+
+    <description>Recent content in Powershell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Jak przeprowadzić audyt uprawnień dla vCenter za pomocą PowerCLI</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Audyt uprawnień vCenter"
+            
+              , "Automatyzacja PowerCLI"
+            
+              , "Bezpieczeństwo VMware"
+            
+              , "Zarządzanie infrastrukturą wirtualną"
+            
+              , "Przydział uprawnień"
+            
+              , "Kontrola dostępu użytkownika"
+            
+              , "Luki w zabezpieczeniach"
+            
+              , "Automatyzacja PowerShell"
+            
+              , "Zarządzanie środowiskiem vSphere"
+            
+              , "Przegląd uprawnień użytkowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo swojego systemu dzięki poleceniom Windows Defender PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Polecenia PowerShell"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "kontrola wiersza poleceń"
+            
+              , "antywirus"
+            
+              , "Systemy operacyjne Windows"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "zaawansowane ustawienia zabezpieczeń"
+            
+              , "automatyzacja operacji bezpieczeństwa"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny przewodnik: Skróty plików w systemie Windows przy użyciu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "skróty plików"
+            
+              , "PowerShell"
+            
+              , "SHA256 hash"
+            
+              , "Skrót MD5"
+            
+              , "SHA1 hash"
+            
+              , "integralność plików"
+            
+              , "uwierzytelnianie danych"
+            
+              , "weryfikacja plików"
+            
+              , "algorytmy haszujące"
+            
+              , "System operacyjny Windows"
+            
+              , "język skryptowy"
+            
+              , "powłoka wiersza poleceń"
+            
+              , "bezpieczeństwo danych"
+            
+              , "informatyka śledcza"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Obliczanie skrótu"
+            
+              , "manipulowanie plikami"
+            
+              , "integralność danych"
+            
+              , "autentyczność pliku"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "identyfikacja pliku"
+            
+              , "cyberobrona"
+            
+              , "bezpieczeństwo plików"
+            
+              , "ochrona danych"
+            
+              , "weryfikacja danych"
+            
+              , "walidacja plików"
+            
+              , "Windows PowerShell"
+            
+              , "generowanie skrótu"
+            
+              , "algorytmy skrótu"
+            
+              , "funkcje skrótu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak uzyskać skróty plików w systemie Windows za pomocą PowerShell, w tym SHA256, MD5 i SHA1, z instrukcjami krok po kroku i przykładami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpiecznego kodowania w PowerShell: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link>
+        
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Systemy oparte na Windowsie"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Bezpieczne protokoły komunikacyjne"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Skanowanie podatności"
+            
+              , "Edukacja"
+            
+              , "Kod wtrysku"
+            
+              , "Eskalacja uprawnień"
+            
+              , "Wyciek danych"
+            
+              , "Środowisko utwardzania"
+            
+              , "Polityka bezpieczeństwa"
+            
+              , "Firewalle"
+            
+              , "Systemy wykrywania włamań"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Bezpieczeństwo sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Użyj ChatGPT w swoim Terminalu (Bash, PowerShell, Python): Wprowadzenie do narzędzia ChatGPT CLI dla programistów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link>
+        
+        <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ChatGPT"
+            
+              , "OpenAI"
+            
+              , "Interfejs wiersza poleceń"
+            
+              , "CLI"
+            
+              , "generowanie tekstu"
+            
+              , "odpowiadanie na pytania"
+            
+              , "zestaw narzędzi dla deweloperów"
+            
+              , "menedżer pakietów pip"
+            
+              , "Python 3.5"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wykorzystać model ChatGPT OpenAI poprzez wygodny interfejs wiersza poleceń (CLI) do generowania tekstu i odpowiadania na pytania z łatwością.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga PowerShella dla usprawnienia operacji bezpieczeństwa cybernetycznego i zgodności z przepisami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cybersecurity"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "STIG SRG Wymagania"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś nauczyłam się tworzyć czekoladowe opakowania</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-23/</link>
+        
+        <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie pakietami w systemie Windows"
+            
+              , "Tworzenie pakietów"
+            
+              , "Zarządzanie pakietami"
+            
+              , "Infrastruktura jako kod (IaC)"
+            
+              , "Wdrażanie oprogramowania Windows"
+            
+              , "Pakowanie oprogramowania"
+            
+              , "Automatyzacja systemu Windows"
+            
+              , "Repozytoria pakietów"
+            
+              , "Narzędzia Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-23/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dziś dowiedziałem się więcej o tworzeniu i wdrażaniu zasad WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2022-05-18/</link>
+        
+        <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Kontrola aplikacji"
+            
+              , "Windows Defender"
+            
+              , "WDAC"
+            
+              , "Powershell"
+            
+              , "Ochrona przed zagrożeniami"
+            
+              , "Windows Server 2019"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Zarządzanie polityką"
+            
+              , "Najlepsze praktyki w zakresie bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2022-05-18/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dziś dowiedziałem się więcej o warunkach Ansible i zarządzaniu zmiennymi
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z systemem Windows za pomocą Ansible STIG Playbooks</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyka"
+            
+              , "Zgodność z systemem Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Skrypty STIG"
+            
+              , "Zgodność z STIG"
+            
+              , "Ansible Galaxy"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Windows Server"
+            
+              , "Windows Defender"
+            
+              , ".NET"
+            
+              , "FireFox"
+            
+              , "Oracle JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Łączność z Internetem"
+            
+              , "Kompatybilność w trybie offline"
+            
+              , "Hartowanie bezpieczeństwa"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij przestrzeganie zasad bezpieczeństwa dzięki Ansible STIG Playbooks dla systemów Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: Uproszczenie wdrażania i konfiguracji Sysmon</title>
+        
+          <link>https://pl.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja Sysmon"
+            
+              , "Jak zautomatyzować Sysmon"
+            
+              , "Jak zautomatyzować konfigurację Sysmon"
+            
+              , "Jak zainstalować Sysmon"
+            
+              , "Powershell"
+            
+              , "Skrypt"
+            
+              , "Wdrożenie Sysmon"
+            
+              , "Konfiguracja Sysmon"
+            
+              , "Sysmon Logging"
+            
+              , "Wykrywanie zagrożeń"
+            
+              , "Złośliwe działanie"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Repozytorium GitHub"
+            
+              , "BHIS"
+            
+              , "Monitorowanie systemu"
+            
+              , "Badania nad bezpieczeństwem"
+            
+              , "Tworzenie procesu"
+            
+              , "Połączenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć i skonfigurować program Sysmon, aby poprawić bezpieczeństwo systemu za pomocą skryptu Automate-Sysmon, który upraszcza ten proces nawet dla początkujących użytkowników.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompletny poradnik jak wzmocnić system Windows za pomocą Windows Defender Application Control WDAC</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender Application Control WDAC Hardening"
+            
+              , "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Windows Defender Exploit Protection WDEP"
+            
+              , "Windows Defender Attack Surface Reduction ASR"
+            
+              , "Windows Server 2016 2019"
+            
+              , "Windows Server Core"
+            
+              , "Zestaw narzędzi Microsoft WDAC"
+            
+              , "Odświeżenie polityki CI"
+            
+              , "Zalecane przez Microsoft zasady blokowania"
+            
+              , "Zalecane przez Microsoft zasady blokowania sterowników"
+            
+              , "Zasady XML"
+            
+              , "Polityka BIN"
+            
+              , "Polityka grupowa"
+            
+              , "Microsoft Intune"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-application-control-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Windows Defender Application Control WDAC do utwardzania systemu operacyjnego Windows za pomocą skryptów i narzędzi.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wydajne skanowanie wirusów dzięki modułom VirusTotal PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/virustotal-ps/</link>
+        
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Moduły PowerShell"
+            
+              , "PowerShell"
+            
+              , "Automatyka"
+            
+              , "VirusTotal"
+            
+              , "Skanowanie wirusów"
+            
+              , "Skanowanie domen"
+            
+              , "Klucz API"
+            
+              , "VirusTotal API"
+            
+              , "Strona programistów VirusTotal"
+            
+              , "Administracja systemem"
+            
+              , "Przepływ pracy w zakresie bezpieczeństwa"
+            
+              , "Skuteczne skanowanie wirusów"
+            
+              , "Pobierz i zainstaluj"
+            
+              , "Repozytorium GitHub"
+            
+              , "Przykłady użycia API"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/virustotal-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Wykonuj wydajne skanowanie wirusów za pomocą VirusTotal PowerShell Modules poprzez automatyzację interakcji z VirusTotal API i usprawnienie przepływu pracy w zakresie bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Utwardzenie Promptu Polecenia i PowerShell w systemie Windows</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Hartowanie"
+            
+              , "Wiersz poleceń systemu Windows"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "Ograniczony tryb językowy"
+            
+              , "Rejestrowanie PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Bezpieczeństwo przedsiębiorstwa"
+            
+              , "Niebieski zespół"
+            
+              , "Cybersecurity"
+            
+              , "Najlepsze praktyki"
+            
+              , "Wyłączenie Wiersza polecenia"
+            
+              , "Wyłączenie PowerShell v2"
+            
+              , "Repozytorium GitHub"
+            
+              , "Windows Defender"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zabezpiecz Windows Command Prompt i PowerShell za pomocą naszego kompleksowego skryptu hartowania i dokumentacji, zwiększając bezpieczeństwo i zgodność systemu.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zgodności z Windows Defender za pomocą skryptu PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Skrypt PowerShell"
+            
+              , "Automatyka"
+            
+              , "Zgodność"
+            
+              , "Blue-Team"
+            
+              , "Windows Defender STIG Script"
+            
+              , "Windows Defender"
+            
+              , "Utwardzanie systemu Windows Defender"
+            
+              , "Windows Defender STIG"
+            
+              , "Obrońca STIG"
+            
+              , "Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "STIG"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Antywirus Windows"
+            
+              , "Skryptowanie w systemie Windows"
+            
+              , "Automatyka Windows"
+            
+              , "Utwardzanie systemu Windows"
+            
+              , "Automatyzacja Windows Defender"
+            
+              , "Zgodność z programem Windows Defender"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-defender-stig-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje bezpieczeństwo dzięki skryptowi Windows Defender STIG PowerShell, który automatyzuje zgodność z wytycznymi Windows Defender Antivirus V1R9 STIG.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Hardening CTF: Wzmocnij zabezpieczenia swojego urządzenia z systemem Windows na potrzeby wydarzeń Capture the Flag</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-hardening-ctf/</link>
+        
+        <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Hartowanie systemu Windows"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "scenariusz"
+            
+              , "Urządzenie z systemem Windows"
+            
+              , "wiersz polecenia"
+            
+              , "LLMNR"
+            
+              , "PowerShell"
+            
+              , "SMB"
+            
+              , "Znaczniki czasu TCP"
+            
+              , "AppLocker"
+            
+              , "Rejestrowanie systemu Windows"
+            
+              , "DEP"
+            
+              , "Konfiguracje EMET"
+            
+              , "Tryb ograniczonego języka PowerShell"
+            
+              , "Szyfrowanie SMB"
+            
+              , "Łagodzenie skutków Spectre i Meltdown"
+            
+              , "Windows Defender"
+            
+              , "Zapora systemu Windows"
+            
+              , "PSWindowsUpdate"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "skrypt utwardzający"
+            
+              , "Zalecane zasady NSA"
+            
+              , "Rejestrowanie systemu Windows i kontrole bezpieczeństwa"
+            
+              , "Kontrola aplikacji Windows Defender"
+            
+              , "Procedury redukcji powierzchni ataku w usłudze Windows Defender"
+            
+              , "Ochrona w chmurze w usłudze Windows Defender"
+            
+              , "Ochrona przed exploitami w usłudze Windows Defender"
+            
+              , "Instalacja PSWindowsUpdate"
+            
+              , "Ulepszenie zabezpieczeń urządzeń z systemem Windows"
+            
+              , "Środki zabezpieczające system Windows"
+            
+              , "wzmocnienie bezpieczeństwa systemu Windows"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-hardening-ctf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj potężny skrypt, który zwiększa bezpieczeństwo systemu Windows, wdrażając różne środki zabezpieczające przed kompromitacją.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona systemu Windows przed atakami typu Speculative Execution Side-Channel.</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Spectre Meltdown Mitigation Script"
+            
+              , "Ataki typu Speculative Execution Side-Channel"
+            
+              , "Microsoft"
+            
+              , "Intel"
+            
+              , "AMD"
+            
+              , "VIA"
+            
+              , "ARM"
+            
+              , "Android"
+            
+              , "Chrome"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Branch Target Injection"
+            
+              , "Kontrola granic Obejście"
+            
+              , "Rogue Data Cache Load"
+            
+              , "Obejście sklepu spekulacyjnego"
+            
+              , "Mikroarchitektoniczne próbkowanie danych"
+            
+              , "CVEs"
+            
+              , "Aktualizacje oprogramowania sprzętowego"
+            
+              , "Repozytorium GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zabezpieczyć system Windows przed atakami typu speculative execution side-channel za pomocą skryptu łagodzącego Microsoftu i aktualizacji oprogramowania sprzętowego
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Invite Challenge (Windows/Linux)</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Zaproś do wyzwania"
+            
+              , "Testy penetracyjne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Platforma internetowa"
+            
+              , "HTTP POST"
+            
+              , "Kod zaproszenia"
+            
+              , "Kodowanie Base64"
+            
+              , "Powershell"
+            
+              , "Linux Bash"
+            
+              , "Dekodowanie Base64"
+            
+              , "Generowanie kodu zaproszenia"
+            
+              , "Programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Szkolenie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wygenerować kod zaproszenia i dołączyć do platformy online HackTheBox, aby przetestować i rozwinąć swoje umiejętności w zakresie testów penetracyjnych i cyberbezpieczeństwa w systemach Windows i Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

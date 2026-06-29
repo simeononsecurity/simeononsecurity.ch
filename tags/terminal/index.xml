@@ -1,0 +1,238 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/terminal//img/banner.png</url>
+      <title>Terminal on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/terminal/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/terminal/</link>
+
+    <description>Recent content in Terminal on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png" length="185817" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

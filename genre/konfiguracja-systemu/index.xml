@@ -1,0 +1,105 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konfiguracja Systemu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/genre/konfiguracja-systemu//img/banner.png</url>
+      <title>Konfiguracja Systemu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/konfiguracja-systemu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/konfiguracja-systemu/</link>
+
+    <description>Recent content in Konfiguracja Systemu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/konfiguracja-systemu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Dzisiaj dowiedziałem się, jak manipulować i analizować JSON w PowerShell i Bash</title>
+        
+          <link>https://pl.simeononsecurity.com/til/2021-02-17/</link>
+        
+        <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "Podręczniki Ansible"
+            
+              , "Kolekcje Ansible"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Administracja Windows"
+            
+              , "Konfiguracja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/til/2021-02-17/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          &lt;p&gt;&lt;strong&gt;O czym SimeonOnSecurity dowiedział się dzisiaj i co uznał za interesujące&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity zaktualizował stronę w swojej witrynie i dowiedział się o kilku zasobach, które uważa za interesujące. Zaktualizowaną stroną jest opis Invite Challenge na HackTheBox. Strona ta zawiera dogłębną analizę procesu rozwiązywania wyzwania w systemach Windows i Linux.&lt;/p&gt;
+&lt;p&gt;Oprócz zaktualizowanej strony, SimeonOnSecurity odkrył również kilka przydatnych zasobów edukacyjnych. Jednym z tych zasobów jest wpis na blogu autorstwa Camerona Nokesa, który koncentruje się na pracy z JSON w bashu przy użyciu narzędzia jq. Narzędzie jq jest narzędziem wiersza poleceń, które ułatwia analizowanie, filtrowanie i manipulowanie danymi JSON.&lt;/p&gt;
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

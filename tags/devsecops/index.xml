@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevSecOps on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/devsecops//img/banner.png</url>
+      <title>DevSecOps on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/devsecops/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/devsecops/</link>
+
+    <description>Recent content in DevSecOps on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: radzenie sobie z wyzwaniami, wykorzystywanie możliwości.</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "testy bezpieczeństwa"
+            
+              , "metodyki zwinne"
+            
+              , "współpraca"
+            
+              , "regulacje rządowe"
+            
+              , "automatyzacja"
+            
+              , "rozwój aplikacji"
+            
+              , "skalowalność"
+            
+              , "ciągłe monitorowanie"
+            
+              , "Wytyczne NIST"
+            
+              , "pętle sprzężenia zwrotnego"
+            
+              , "modułowość"
+            
+              , "podatności"
+            
+              , "zapewnienie jakości"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Infrastruktura IT"
+            
+              , "narzędzia do tworzenia oprogramowania"
+            
+              , "zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten artykuł analizuje wyzwania i możliwości DevSecOps w organizacjach, w tym lepszą współpracę, lepszą skalowalność, integrację z przepisami rządowymi i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

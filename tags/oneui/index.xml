@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OneUI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/oneui//img/banner.png</url>
+      <title>OneUI on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/oneui/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/oneui/</link>
+
+    <description>Recent content in OneUI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/oneui/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: Aktualizacje i podstawowe funkcje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purpura"
+            
+              , "2023.1"
+            
+              , "etyczny hacking"
+            
+              , "test penetracyjny"
+            
+              , "cybersecurity"
+            
+              , "narzędzia"
+            
+              , "ramy exploitów"
+            
+              , "Aktualizacje Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "Dokumentacja Kali"
+            
+              , "Wsparcie dla jądra"
+            
+              , "Obsługa Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "SBC"
+            
+              , "poprawki do jądra"
+            
+              , "wkłady społeczności"
+            
+              , "Dyskordia Kali"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane funkcje, narzędzia i ulepszenia Kali Purple 2023.1 w naszej kompleksowej recenzji dla etycznych hakerów i entuzjastów cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png" length="440794" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

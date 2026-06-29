@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zmniejszone Ryzyko on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/zmniejszone-ryzyko//img/banner.png</url>
+      <title>Zmniejszone Ryzyko on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/zmniejszone-ryzyko/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/zmniejszone-ryzyko/</link>
+
+    <description>Recent content in Zmniejszone Ryzyko on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/zmniejszone-ryzyko/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Threat Hunting: Proaktywna obrona przed cyberatakami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "polowanie na zagrożenia"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "proaktywna obrona"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo punktów końcowych"
+            
+              , "analiza dziennika"
+            
+              , "analiza behawioralna"
+            
+              , "analiza zagrożeń"
+            
+              , "ręczne dochodzenie"
+            
+              , "zautomatyzowane dochodzenie"
+            
+              , "redukcja ryzyka"
+            
+              , "fałszywe alarmy"
+            
+              , "wymagania dotyczące zestawu umiejętności"
+            
+              , "wymagania dotyczące zasobów"
+            
+              , "Krótszy czas reakcji"
+            
+              , "ulepszone wykrywanie"
+            
+              , "zmniejszone ryzyko"
+            
+              , "instytucje finansowe"
+            
+              , "dostawcy opieki zdrowotnej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, w jaki sposób wyszukiwanie zagrożeń może zapobiegać cyberatakom oraz jakie korzyści i wyzwania wiążą się z wdrożeniem go jako proaktywnego środka cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png" length="280290" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

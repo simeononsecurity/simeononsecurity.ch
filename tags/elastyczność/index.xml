@@ -1,0 +1,929 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elastyczność on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/elastyczno%C5%9B%C4%87//img/banner.png</url>
+      <title>Elastyczność on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/elastyczno%C5%9B%C4%87/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/elastyczno%C5%9B%C4%87/</link>
+
+    <description>Recent content in Elastyczność on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/elastyczno%C5%9B%C4%87/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>CheckMK: Kompleksowe rozwiązanie monitorujące do efektywnego zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-check-mk/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Infrastruktura IT"
+            
+              , "Monitorowanie sieci"
+            
+              , "Monitorowanie aplikacji"
+            
+              , "Operacje IT"
+            
+              , "Analiza wydajności"
+            
+              , "Automatyzacja"
+            
+              , "Zarządzanie wydarzeniami"
+            
+              , "Skalowalność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-check-mk/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje, korzyści i przypadki użycia CheckMK, kompleksowego rozwiązania monitorującego do proaktywnego zarządzania infrastrukturą IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Moc CI CD: Poprawa współpracy, jakości i szybkości działania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ciągła integracja"
+            
+              , "ciągłe wdrażanie"
+            
+              , "CI CD"
+            
+              , "rozwój oprogramowania"
+            
+              , "współpraca"
+            
+              , "komunikacja"
+            
+              , "pętla sprzężenia zwrotnego"
+            
+              , "wykrywanie błędów"
+            
+              , "jakość oprogramowania"
+            
+              , "niezawodność"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "elastyczność"
+            
+              , "testowanie automatyczne"
+            
+              , "zwinny rozwój"
+            
+              , "DevOps"
+            
+              , "produktywność zespołu"
+            
+              , "wydania oprogramowania"
+            
+              , "automatyzacja wdrażania"
+            
+              , "automatyzacja testów"
+            
+              , "szybkie dostarczanie oprogramowania"
+            
+              , "metodyki zwinne"
+            
+              , "zarządzanie wydaniami"
+            
+              , "inżynieria oprogramowania"
+            
+              , "zwinne zespoły"
+            
+              , "ciągłe doskonalenie"
+            
+              , "testowanie oprogramowania"
+            
+              , "potoki wdrażania"
+            
+              , "proces wdrażania"
+            
+              , "cykl życia oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety ciągłej integracji i ciągłego wdrażania (CI CD) w tworzeniu oprogramowania, poprawiając współpracę, jakość i szybkość.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zainstaluj Repocket: Zapłata za niewykorzystany Internet</title>
+        
+          <link>https://pl.simeononsecurity.com/other/install-repocket-easily-using-docker/</link>
+        
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "monetyzacja internetu"
+            
+              , "dochód pasywny"
+            
+              , "niewykorzystana przepustowość"
+            
+              , "udostępnianie internetu"
+            
+              , "zarabiać pieniądze"
+            
+              , "połączenie internetowe"
+            
+              , "peer-to-peer"
+            
+              , "Repocket"
+            
+              , "EarnApp"
+            
+              , "HoneyGain"
+            
+              , "VPN"
+            
+              , "cele skrobania"
+            
+              , "opcje wypłaty"
+            
+              , "przekazy pieniężne"
+            
+              , "BTC"
+            
+              , "LTC"
+            
+              , "MATIC"
+            
+              , "zarobki"
+            
+              , "elastyczność"
+            
+              , "klucz api"
+            
+              , "zarabianie pieniędzy z nieużywanego internetu"
+            
+              , "monetyzacja połączenia internetowego"
+            
+              , "Pasywny dochód z dzielenia się internetem"
+            
+              , "Zarabiaj pieniądze bez wysiłku"
+            
+              , "minimalny próg wypłaty"
+            
+              , "średni potencjał zarobkowy"
+            
+              , "Kontener Repocket Docker"
+            
+              , "Dokumentacja repocketów"
+            
+              , "dokładne zrozumienie systemu wypłat"
+            
+              , "przeprowadzić badania przed użyciem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/other/install-repocket-easily-using-docker/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak przekształcić niewykorzystaną przepustowość łącza internetowego w pasywny strumień dochodów, udostępniając ją innym.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.png" length="139822" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Korzyści i wyzwania związane z narzędziami bezpieczeństwa Open Source dla organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "narzędzia bezpieczeństwa typu open source"
+            
+              , "cybersecurity"
+            
+              , "wsparcie społeczności"
+            
+              , "przejrzystość"
+            
+              , "oszczędność kosztów"
+            
+              , "elastyczność"
+            
+              , "narzędzia własne"
+            
+              , "zagrożenia bezpieczeństwa"
+            
+              , "zestaw umiejętności"
+            
+              , "opłaty za licencje na oprogramowanie"
+            
+              , "całkowity koszt posiadania"
+            
+              , "wsparcie handlowe"
+            
+              , "języki programowania"
+            
+              , "integracja"
+            
+              , "teswing bezpieczeństwa"
+            
+              , "audyty"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Krajowy Instytut Norm i Technologii"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Open-Source vs. komercyjne narzędzia bezpieczeństwa: Zalety i wady wyjaśnione</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</link>
+        
+        <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo o otwartym kodzie źródłowym"
+            
+              , "komercyjne narzędzia bezpieczeństwa"
+            
+              , "efektywność kosztowa"
+            
+              , "elastyczność"
+            
+              , "możliwość dostosowania do potrzeb"
+            
+              , "wsparcie społeczności"
+            
+              , "ograniczone wsparcie"
+            
+              , "dokumentacja"
+            
+              , "wyzwania związane z integracją"
+            
+              , "jakość i niezawodność"
+            
+              , "płynna integracja"
+            
+              , "uzależnienie od dostawcy"
+            
+              , "Zasoby informatyczne"
+            
+              , "infrastruktura bezpieczeństwa"
+            
+              , "rozwiązania w zakresie bezpieczeństwa"
+            
+              , "ograniczenia budżetowe"
+            
+              , "wyjątkowe wymagania"
+            
+              , "kompatybilność oprogramowania"
+            
+              , "cele bezpieczeństwa"
+            
+              , "podejmowanie decyzji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-advantages-and-disadvantages-of-using-open-source-software-vs.-commercial-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zalety i wady narzędzi bezpieczeństwa typu open-source i komercyjnych, pomagając w podejmowaniu świadomych decyzji dotyczących strategii bezpieczeństwa Twojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png" length="173477" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Unraid vs TrueNas: Który system operacyjny NAS jest odpowiedni dla Ciebie?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</link>
+        
+        <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Unraid"
+            
+              , "TrueNAS"
+            
+              , "System operacyjny NAS"
+            
+              , "Porównanie"
+            
+              , "Przyjazność dla użytkownika"
+            
+              , "Cechy"
+            
+              , "Dokumentacja"
+            
+              , "Wspólnota"
+            
+              , "Open Source"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Ochrona danych"
+            
+              , "Wydajność"
+            
+              , "Elastyczność"
+            
+              , "Łatwy w użyciu"
+            
+              , "Aplikacje innych firm"
+            
+              , "Pamięć masowa podłączona do sieci"
+            
+              , "Technologia RAID"
+            
+              , "Zarządzanie pamięcią masową"
+            
+              , "OpenZFS"
+            
+              , "Użytkownicy domowi"
+            
+              , "Model cenowy"
+            
+              , "Przechowywanie w chmurze"
+            
+              , "Wirtualizacja"
+            
+              , "Dokumentacja koncentratora"
+            
+              , "Forum społeczności"
+            
+              , "Zaawansowana ochrona danych"
+            
+              , "Dojrzały system operacyjny NAS"
+            
+              , "Wiedza techniczna"
+            
+              , "Specjaliści IT"
+            
+              , "Unraid vs TrueNas"
+            
+              , "Porównanie systemów operacyjnych NAS"
+            
+              , "sieciowa pamięć masowa"
+            
+              , "Funkcje Unraid"
+            
+              , "Cechy TrueNas"
+            
+              , "Dokumentacja Unraid"
+            
+              , "Dokumentacja TrueNas"
+            
+              , "Społeczność Unraid"
+            
+              , "Społeczność TrueNas"
+            
+              , "Niewygórowane ceny"
+            
+              , "Koszt TrueNas"
+            
+              , "Niezwykła łatwość obsługi"
+            
+              , "Łatwość użytkowania TrueNas"
+            
+              , "Zarządzanie pamięcią masową Unraid"
+            
+              , "Zaawansowana ochrona danych TrueNas"
+            
+              , "Niewidoczne aplikacje innych firm"
+            
+              , "Pamięć masowa w chmurze TrueNas"
+            
+              , "Wirtualizacja Unraid"
+            
+              , "Rynek korporacyjny TrueNas"
+            
+              , "Technologia Unraid RAID"
+            
+              , "TrueNas OpenZFS"
+            
+              , "Użytkownicy domowi Unraid"
+            
+              , "Dojrzały system operacyjny NAS TrueNas"
+            
+              , "Nieograniczona wiedza techniczna"
+            
+              , "Specjaliści IT TrueNas"
+            
+              , "Niesamowita wydajność"
+            
+              , "Skalowalność TrueNas"
+            
+              , "Wsparcie Unraid"
+            
+              , "System plików TrueNas"
+            
+              , "Zarządzanie dyskami Unraid"
+            
+              , "Rozszerzenie pamięci masowej TrueNas"
+            
+              , "system operacyjny truenas"
+            
+              , "truenas vs freenas vs unraid"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/truenas-vs-unraid-what-is-the-best-nas-operating-system-and-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie Unraid i TrueNas, w tym ich łatwości obsługi, funkcji, dokumentacji i społeczności, aby pomóc użytkownikom w podjęciu świadomej decyzji, który system operacyjny NAS jest najlepszy dla ich potrzeb.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png" length="425783" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

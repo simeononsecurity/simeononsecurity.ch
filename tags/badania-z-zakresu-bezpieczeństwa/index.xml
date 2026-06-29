@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Badania Z Zakresu Bezpieczeństwa on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/badania-z-zakresu-bezpiecze%C5%84stwa//img/banner.png</url>
+      <title>Badania Z Zakresu Bezpieczeństwa on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/badania-z-zakresu-bezpiecze%C5%84stwa/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/badania-z-zakresu-bezpiecze%C5%84stwa/</link>
+
+    <description>Recent content in Badania Z Zakresu Bezpieczeństwa on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/badania-z-zakresu-bezpiecze%C5%84stwa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Repozytoria i opisy repozytoriów SimeonOnSecurity na GitHub</title>
+        
+          <link>https://pl.simeononsecurity.com/github/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "repozytoria GitHub"
+            
+              , "opisy repozytoriów"
+            
+              , "projekty open-source"
+            
+              , "narzędzia bezpieczeństwa"
+            
+              , "wgląd w cyberbezpieczeństwo"
+            
+              , "wgląd w automatyzację"
+            
+              , "poradniki programowania"
+            
+              , "wkłady do GitHub"
+            
+              , "badania z zakresu bezpieczeństwa"
+            
+              , "analiza kodu"
+            
+              , "dokumentacja projektów"
+            
+              , "poprawki błędów"
+            
+              , "usprawnienia funkcji"
+            
+              , "współpraca społecznościowa"
+            
+              , "zasoby dla programistów"
+            
+              , "recenzje kodu"
+            
+              , "kontrola wersji"
+            
+              , "ciągła integracja"
+            
+              , "śledzenie problemów"
+            
+              , "zarządzanie repozytoriami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przeglądaj nasze projekty open-source, narzędzia z zakresu bezpieczeństwa i szczegółowe wyjaśnienia. Poszerz swoją wiedzę i umiejętności z zakresu cyberbezpieczeństwa i automatyzacji dzięki opisom repozytoriów na GitHub.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

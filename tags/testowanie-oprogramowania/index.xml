@@ -1,0 +1,252 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testowanie Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/testowanie-oprogramowania//img/banner.png</url>
+      <title>Testowanie Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/testowanie-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/testowanie-oprogramowania/</link>
+
+    <description>Recent content in Testowanie Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/testowanie-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Moc CI CD: Poprawa współpracy, jakości i szybkości działania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</link>
+        
+        <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ciągła integracja"
+            
+              , "ciągłe wdrażanie"
+            
+              , "CI CD"
+            
+              , "rozwój oprogramowania"
+            
+              , "współpraca"
+            
+              , "komunikacja"
+            
+              , "pętla sprzężenia zwrotnego"
+            
+              , "wykrywanie błędów"
+            
+              , "jakość oprogramowania"
+            
+              , "niezawodność"
+            
+              , "czas wprowadzenia na rynek"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "elastyczność"
+            
+              , "testowanie automatyczne"
+            
+              , "zwinny rozwój"
+            
+              , "DevOps"
+            
+              , "produktywność zespołu"
+            
+              , "wydania oprogramowania"
+            
+              , "automatyzacja wdrażania"
+            
+              , "automatyzacja testów"
+            
+              , "szybkie dostarczanie oprogramowania"
+            
+              , "metodyki zwinne"
+            
+              , "zarządzanie wydaniami"
+            
+              , "inżynieria oprogramowania"
+            
+              , "zwinne zespoły"
+            
+              , "ciągłe doskonalenie"
+            
+              , "testowanie oprogramowania"
+            
+              , "potoki wdrażania"
+            
+              , "proces wdrażania"
+            
+              , "cykl życia oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-ci-cd/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety ciągłej integracji i ciągłego wdrażania (CI CD) w tworzeniu oprogramowania, poprawiając współpracę, jakość i szybkość.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png" length="159757" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ręczne a automatyczne testowanie oprogramowania: Wybór właściwej strategii</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</link>
+        
+        <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testowanie oprogramowania"
+            
+              , "testowanie ręczne"
+            
+              , "testowanie automatyczne"
+            
+              , "strategie testowania"
+            
+              , "rozwój oprogramowania"
+            
+              , "zapewnienie jakości"
+            
+              , "przypadki testowe"
+            
+              , "pokrycie testami"
+            
+              , "testy eksploracyjne"
+            
+              , "doświadczenie użytkownika"
+            
+              , "efektywność"
+            
+              , "możliwość ponownego użycia"
+            
+              , "zdolność adaptacji"
+            
+              , "błąd ludzki"
+            
+              , "fałszywe alarmy"
+            
+              , "Fałszywe negatywy"
+            
+              , "automatyzacja testów"
+            
+              , "testowanie hybrydowe"
+            
+              , "optymalizacja zasobów"
+            
+              , "praktyki testowania oprogramowania"
+            
+              , "Wybór właściwej strategii testowania oprogramowania"
+            
+              , "zalety testowania ręcznego"
+            
+              , "Wady testów automatycznych"
+            
+              , "łączenie testów manualnych i automatycznych"
+            
+              , "optymalizacja procesu testowania oprogramowania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/software-testing-strategies-manual-vs-automated/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety i wady ręcznego i automatycznego testowania oprogramowania, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png" length="262222" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

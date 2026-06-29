@@ -1,0 +1,220 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Oprogramowania on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-oprogramowania//img/banner.png</url>
+      <title>Bezpieczeństwo Oprogramowania on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-oprogramowania/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-oprogramowania/</link>
+
+    <description>Recent content in Bezpieczeństwo Oprogramowania on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-oprogramowania/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona urządzeń przed złośliwym oprogramowaniem: Podstawowe wskazówki i strategie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</link>
+        
+        <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ochrona przed złośliwym oprogramowaniem"
+            
+              , "bezpieczeństwo urządzenia"
+            
+              , "wskazówki dotyczące cyberbezpieczeństwa"
+            
+              , "oprogramowanie antywirusowe"
+            
+              , "bezpieczne nawyki przeglądania"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "świadomość inżynierii społecznej"
+            
+              , "bezpieczeństwo sieci domowej"
+            
+              , "bezpieczeństwo oprogramowania"
+            
+              , "kopia zapasowa danych"
+            
+              , "aktualności dotyczące cyberbezpieczeństwa"
+            
+              , "aktualizacje systemu operacyjnego"
+            
+              , "bezpieczeństwo poczty e-mail"
+            
+              , "zapobieganie phishingowi"
+            
+              , "bezpieczeństwo w internecie"
+            
+              , "cyberzagrożenia"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "prywatność online"
+            
+              , "cyberobrona"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-your-devices-from-malware/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj skuteczne strategie i praktyczne wskazówki, aby chronić swoje urządzenia przed złośliwym oprogramowaniem i zabezpieczyć poufne informacje.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_shield_guarding_devices_against_malware_threats.png" length="276775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OWASP Top 10: Krytyczne zagrożenia bezpieczeństwa aplikacji internetowych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/owasp-top-10/</link>
+        
+        <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo aplikacji internetowych"
+            
+              , "OWASP Top 10"
+            
+              , "Ataki typu injection"
+            
+              , "Uwierzytelnianie"
+            
+              , "Zarządzanie sesjami"
+            
+              , "Ataki XSS"
+            
+              , "Kontrola dostępu"
+            
+              , "Błędna konfiguracja zabezpieczeń"
+            
+              , "Pamięć kryptograficzna"
+            
+              , "Ochrona warstwy transportowej"
+            
+              , "Walidacja danych wejściowych"
+            
+              , "Komponenty innych firm"
+            
+              , "Rejestrowanie i monitorowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Środki bezpieczeństwa"
+            
+              , "Zarządzanie ryzykiem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/owasp-top-10/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się o najbardziej krytycznych zagrożeniach bezpieczeństwa aplikacji internetowych z OWASP Top 10 i jak się przed nimi chronić
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

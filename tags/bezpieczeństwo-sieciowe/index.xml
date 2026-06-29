@@ -1,0 +1,143 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Sieciowe on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieciowe//img/banner.png</url>
+      <title>Bezpieczeństwo Sieciowe on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieciowe/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieciowe/</link>
+
+    <description>Recent content in Bezpieczeństwo Sieciowe on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-sieciowe/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodniki SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "zaawansowane przewodniki"
+            
+              , "techniczne samouczki"
+            
+              , "kontrola wersji"
+            
+              , "aktualizacje Linuxa"
+            
+              , "zarządzanie serwerem"
+            
+              , "wiersz poleceń"
+            
+              , "techniki programowania"
+            
+              , "tworzenie oprogramowania"
+            
+              , "administracja siecią"
+            
+              , "praktyki związane z cyberbezpieczeństwem"
+            
+              , "aktualizacje systemu"
+            
+              , "zdalny dostęp"
+            
+              , "administracja Linuxem"
+            
+              , "konfiguracje zabezpieczeń"
+            
+              , "rozwiązywanie problemów"
+            
+              , "najlepsze praktyki kodowania"
+            
+              , "zarządzanie kodem źródłowym"
+            
+              , "konserwacja systemu"
+            
+              , "bezpieczeństwo sieciowe"
+            
+              , "aktualizacje firmware"
+            
+              , "konfiguracja systemu"
+            
+              , "infrastruktura IT"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "polecenia Linuxa"
+            
+              , "zarządzanie siecią"
+            
+              , "optymalizacja systemu"
+            
+              , "umiejętności programistyczne"
+            
+              , "automatyzacja"
+            
+              , "ochrona danych"
+            
+              , "konserwacja serwera"
+            
+              , "protokoły sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z zaawansowanymi technikami, praktycznymi samouczkami i eksperckimi spostrzeżeniami w obszarach takich jak kontrola wersji, administracja systemem, praktyki związane z cyberbezpieczeństwem, zarządzanie siecią i tworzenie oprogramowania. Zdobądź cenne umiejętności i rozwijaj się dzięki naszym szczegółowym przewodnikom.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

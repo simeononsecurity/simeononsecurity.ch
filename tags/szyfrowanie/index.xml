@@ -1,0 +1,1970 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szyfrowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/szyfrowanie//img/banner.png</url>
+      <title>Szyfrowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/szyfrowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/szyfrowanie/</link>
+
+    <description>Recent content in Szyfrowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/szyfrowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna poczta e-mail: Zwiększenie prywatności dzięki StartMail</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Cyberbezpieczeństwo"
+            
+              , "Prywatność"
+            
+              , "Usługi e-mail"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Szyfrowanie"
+            
+              , "Ochrona danych"
+            
+              , "Prywatność poczty e-mail"
+            
+              , "Ochrona tożsamości"
+            
+              , "Prywatność online"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj StartMail, bezpieczną usługę poczty e-mail z zaawansowanym szyfrowaniem i maskowaniem wiadomości e-mail, zapewniającą najwyższą prywatność i ochronę przed cyberzagrożeniami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure_email_guard.png" length="1073957" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Sesja vs Status vs Signal vs Threema: Kompleksowe porównanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link>
+        
+        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne przesyłanie wiadomości"
+            
+              , "Komunikacja skoncentrowana na prywatności"
+            
+              , "Porównanie aplikacji do obsługi wiadomości"
+            
+              , "Protokoły szyfrowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Komunikacja prywatna"
+            
+              , "Usługi przesyłania wiadomości"
+            
+              , "Prywatność danych"
+            
+              , "Szyfrowanie od końca do końca"
+            
+              , "Analiza platformy komunikacyjnej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczowe różnice i mocne strony Session, Status, Signal i Threema w tym kompleksowym porównaniu bezpiecznych usług przesyłania wiadomości.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/secure-messaging-comparison.png" length="1600384" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wybór menedżera haseł: Kompleksowy przewodnik po zwiększonym bezpieczeństwie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "menedżer haseł"
+            
+              , "wybór menedżera haseł"
+            
+              , "Bitwarden"
+            
+              , "KeePassXC"
+            
+              , "bezpieczeństwo online"
+            
+              , "bezpieczeństwo hasła"
+            
+              , "zarządzanie hasłami"
+            
+              , "silne hasła"
+            
+              , "unikalne hasła"
+            
+              , "naruszenia danych"
+            
+              , "szyfrowanie"
+            
+              , "Kompatybilność międzyplatformowa"
+            
+              , "synchronizacja hasła"
+            
+              , "kopia zapasowa"
+            
+              , "interfejs użytkownika"
+            
+              , "generator haseł"
+            
+              , "2FA"
+            
+              , "szyfrowanie typu end-to-end"
+            
+              , "Architektura o zerowej wiedzy"
+            
+              , "open-source"
+            
+              , "bezpieczne udostępnianie haseł"
+            
+              , "typ automatyczny"
+            
+              , "wsparcie mocowania"
+            
+              , "wtyczki"
+            
+              , "rekomendacje dotyczące menedżera haseł"
+            
+              , "Porównanie menedżerów haseł"
+            
+              , "wskazówki dotyczące bezpieczeństwa haseł"
+            
+              , "Funkcje menedżera haseł"
+            
+              , "zalety menedżera haseł"
+            
+              , "menedżer haseł do pobrania"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-choose-a-password-manager/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze czynniki, które należy wziąć pod uwagę przy wyborze menedżera haseł i dowiedz się, dlaczego Bitwarden i KeePassXC są zalecanymi opcjami
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png" length="97482" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga SSH: bezpieczny zdalny dostęp i łatwe zarządzanie</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-ssh/</link>
+        
+        <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "SSH"
+            
+              , "Secure Shell"
+            
+              , "zdalny dostęp"
+            
+              , "zdalne zarządzanie"
+            
+              , "szyfrowanie"
+            
+              , "uwierzytelnianie"
+            
+              , "integralność danych"
+            
+              , "przenośność"
+            
+              , "transfer plików"
+            
+              , "SCP"
+            
+              , "Klucze SSH"
+            
+              , "Konfiguracja SSH"
+            
+              , "protokół sieciowy"
+            
+              , "zdalne wykonywanie poleceń"
+            
+              , "OpenSSH"
+            
+              , "uwierzytelnianie dwuskładnikowe"
+            
+              , "kryptografia klucza publicznego"
+            
+              , "Adres IP"
+            
+              , "nazwa domeny"
+            
+              , "terminal"
+            
+              , "wiersz polecenia"
+            
+              , "bezpieczeństwo"
+            
+              , "administratorzy systemu"
+            
+              , "deweloperzy"
+            
+              , "wszechstronność"
+            
+              , "metody uwierzytelniania"
+            
+              , "funkcje skrótu"
+            
+              , "tunelowanie"
+            
+              , "opcje niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png" length="185817" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 podstawowych zasad bezpieczeństwa haseł: Chroń swoją tożsamość cyfrową</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Ochrona tożsamości cyfrowej"
+            
+              , "Bezpieczeństwo haseł"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Prywatność danych"
+            
+              , "Wskazówki dotyczące bezpieczeństwa online"
+            
+              , "Zarządzanie hasłami"
+            
+              , "Uwierzytelnianie dwuskładnikowe"
+            
+              , "Odzyskiwanie hasła"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ten-essential-password-security-guidelines-to-follow/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 10 podstawowych wskazówek dotyczących bezpieczeństwa haseł, aby chronić swoją tożsamość cyfrową i dane osobowe przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/ten-essential-password-security-guidelines-to-follow.png" length="114655" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Prawda o informacjach jawnych: Charakterystyka, ochrona i przepisy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo informacji"
+            
+              , "Zarządzanie danymi"
+            
+              , "Przepisy rządowe"
+            
+              , "Udostępnianie informacji"
+            
+              , "Ochrona danych"
+            
+              , "Poufność"
+            
+              , "Ograniczanie ryzyka"
+            
+              , "Zarządzanie informacjami"
+            
+              , "Klasyfikacja danych"
+            
+              , "Dostęp do informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png" length="330073" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uprawnienia do plików w systemie Linux: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uprawnienia do plików w systemie Linux"
+            
+              , "bezpieczny system plików"
+            
+              , "kontrola dostępu"
+            
+              , "własność"
+            
+              , "przewodnik po uprawnieniach do plików"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "bezpieczeństwo systemu plików"
+            
+              , "polecenie chmod"
+            
+              , "polecenie chown"
+            
+              , "audyt uprawnień do plików"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "zgodność z przepisami"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "audyt uprawnień plików"
+            
+              , "dokumentowanie regulacji"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "zarządzanie użytkownikami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po certyfikacji CISSP: Wskazówki dotyczące przygotowania do egzaminu</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</link>
+        
+        <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Certyfikacja CISSP"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "przygotowanie do egzaminu"
+            
+              , "plan studiów"
+            
+              , "egzaminy praktyczne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "rozwój zawodowy"
+            
+              , "egzamin certyfikacyjny"
+            
+              , "ISC2"
+            
+              , "możliwości kariery"
+            
+              , "architektura bezpieczeństwa"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "kontrola dostępu"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "szyfrowanie"
+            
+              , "operacje bezpieczeństwa"
+            
+              , "bezpieczeństwo fizyczne"
+            
+              , "ciągłość działania"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "zgodność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak przygotować się i zdać egzamin CISSP, prestiżowy certyfikat dla specjalistów ds. bezpieczeństwa informacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png" length="213177" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zrozumienie zagrożeń typu Ransomware: Środki zapobiegawcze</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "cybersecurity"
+            
+              , "prewencja"
+            
+              , "kopia zapasowa"
+            
+              , "antywirus"
+            
+              , "VPN"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "przepisy rządowe"
+            
+              , "phishing"
+            
+              , "inżynieria społeczna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "cyberprzestępczość"
+            
+              , "bezpieczeństwo danych"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "cyberatak"
+            
+              , "szyfrowanie"
+            
+              , "higiena cybernetyczna"
+            
+              , "reakcja na incydent"
+            
+              , "ochrona danych"
+            
+              , "świadomość cybernetyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zagrożenia ransomware i środki zapobiegawcze, które możesz podjąć, aby się przed nimi chronić.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.png" length="197701" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zadbaj o bezpieczeństwo kart kredytowych: Obroń się przed skimmingiem RFID i atakami fizycznymi w celu ochrony informacji osobistych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</link>
+        
+        <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "RFID skimming"
+            
+              , "ochrona karty kredytowej"
+            
+              , "Portfele z blokadą RFID"
+            
+              , "chipowe karty kredytowe"
+            
+              , "phishing"
+            
+              , "cybersecurity"
+            
+              , "kradzież tożsamości"
+            
+              , "prywatność"
+            
+              , "płatności zbliżeniowe"
+            
+              , "płatności mobilne"
+            
+              , "bezpieczeństwo finansowe"
+            
+              , "karty inteligentne"
+            
+              , "NFC"
+            
+              , "szyfrowanie"
+            
+              , "ochrona danych"
+            
+              , "Czytniki RFID"
+            
+              , "Technologia RFID"
+            
+              , "elektroniczne kieszonkowstwo"
+            
+              , "cicha kieszeń"
+            
+              , "łowca-kot"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić się przed skimmingiem RFID i zachować bezpieczeństwo informacji o karcie kredytowej dzięki tym prostym wskazówkom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png" length="222155" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Budowanie bezpiecznego i zgodnego z przepisami jeziora danych w chmurze: Najlepsze praktyki ochrony przechowywanych danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "jezioro danych"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "przepisy dotyczące zgodności"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+              , "monitoring"
+            
+              , "łatanie"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Rozwiązanie SIEM"
+            
+              , "Zespoły wsparcia IT"
+            
+              , "krajobraz zagrożeń"
+            
+              , "migracja do chmury"
+            
+              , "zarządzanie chmurą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Z tego kompleksowego przewodnika dowiesz się o najlepszych praktykach w zakresie bezpieczeństwa i zgodności podczas planowania, tworzenia i zarządzania jeziorami danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne i zgodne z przepisami tworzenie kopii zapasowych i odzyskiwanie danych w chmurze: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "kopia zapasowa w chmurze"
+            
+              , "odzyskiwanie danych"
+            
+              , "ochrona danych"
+            
+              , "zgodność"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "dostawca usług w chmurze"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "bezpieczeństwo"
+            
+              , "przepisy"
+            
+              , "standardy"
+            
+              , "najlepsze praktyki"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "audyty"
+            
+              , "zarządzanie ryzykiem"
+            
+              , "skalowalność"
+            
+              , "monitoring"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zabezpieczenie edukacji: Rola cyberbezpieczeństwa w ochronie danych uczniów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</link>
+        
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "edukacja"
+            
+              , "dane uczniów"
+            
+              , "ochrona danych"
+            
+              , "prywatność"
+            
+              , "FERPA"
+            
+              , "NIST"
+            
+              , "HEISC"
+            
+              , "Internet2"
+            
+              , "Instytut SANS"
+            
+              , "polityka bezpieczeństwa"
+            
+              , "phishing"
+            
+              , "szkolenie uświadamiające"
+            
+              , "ocena ryzyka"
+            
+              , "uwierzytelnianie wieloczynnikowe"
+            
+              , "szyfrowanie"
+            
+              , "reakcja na incydent"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczny dostęp"
+            
+              , "firewalle"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-cybersecurity-in-the-education-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj znaczenie cyberbezpieczeństwa w branży edukacyjnej i dowiedz się, jak chronić wrażliwe dane uczniów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png" length="211205" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczna i odporna konfiguracja VPN dla korporacyjnych pracowników zdalnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</link>
+        
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "praca zdalna"
+            
+              , "korporacyjna sieć VPN"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "protokoły tunelowania"
+            
+              , "Konfiguracja VPN"
+            
+              , "Serwer VPN"
+            
+              , "Bezpieczeństwo VPN"
+            
+              , "Konserwacja VPN"
+            
+              , "Monitorowanie VPN"
+            
+              , "Rozwiązanie VPN"
+            
+              , "uwierzytelnianie"
+            
+              , "bezpieczeństwo danych"
+            
+              , "prywatność"
+            
+              , "wydajność"
+            
+              , "skalowalność"
+            
+              , "kompatybilność"
+            
+              , "szkolenie pracowników"
+            
+              , "najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak skonfigurować bezpieczną i odporną sieć VPN dla zdalnych pracowników firmy, zapewniając bezpieczny dostęp do zasobów firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png" length="313028" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po szyfrowaniu w celu ochrony danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</link>
+        
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "szyfrowanie"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność"
+            
+              , "technologia"
+            
+              , "bezpieczeństwo online"
+            
+              , "szyfrowanie symetryczne"
+            
+              , "szyfrowanie asymetryczne"
+            
+              , "bezpieczeństwo"
+            
+              , "prywatność w internecie"
+            
+              , "kryptografia"
+            
+              , "szyfrowane wiadomości"
+            
+              , "bezpieczeństwo cyfrowe"
+            
+              , "prywatność danych"
+            
+              , "zaszyfrowane dane"
+            
+              , "oprogramowanie szyfrujące"
+            
+              , "szyfrowanie danych"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona hasłem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-using-encryption-for-data-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy szyfrowania i dowiedz się, jak używać go do zabezpieczania poufnych danych dzięki temu przewodnikowi dla początkujących.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png" length="156916" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zero Trust Security: Korzyści i wyzwania</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</link>
+        
+        <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zero zaufania Bezpieczeństwo"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "Ochrona danych"
+            
+              , "Model bezpieczeństwa"
+            
+              , "Uwierzytelnianie"
+            
+              , "Upoważnienie"
+            
+              , "Szyfrowanie"
+            
+              , "Zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "PCI DSS"
+            
+              , "Doświadczenie użytkownika"
+            
+              , "Koszt"
+            
+              , "Złożoność"
+            
+              , "Wielowarstwowe bezpieczeństwo"
+            
+              , "Widoczność"
+            
+              , "Elastyczność"
+            
+              , "Naruszenia bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-and-challenges-of-adopting-a-zero-trust-security-model/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png" length="286979" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>The Risks of Using VPNs Unnecessarily: Przewodnik dla standardowych użytkowników</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-risks-of-using-vpns-unnecessarilly/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "Prywatność online"
+            
+              , "Bezpieczeństwo Internetu"
+            
+              , "Ataki MITM"
+            
+              , "Wirtualne sieci prywatne"
+            
+              , "Cybersecurity"
+            
+              , "Bezpieczeństwo w sieci"
+            
+              , "Szyfrowanie"
+            
+              , "HTTPS"
+            
+              , "Ochrona danych"
+            
+              , "Usługi osób trzecich"
+            
+              , "Zagrożenia dla prywatności"
+            
+              , "ISP"
+            
+              , "Zawartość ograniczona geograficznie"
+            
+              , "Cenzura internetowa"
+            
+              , "Publiczne Wi-Fi"
+            
+              , "Prywatność danych"
+            
+              , "Ochrona online"
+            
+              , "Bezpieczeństwo stron internetowych"
+            
+              , "Dostawcy VPN"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-risks-of-using-vpns-unnecessarilly/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, dlaczego sieci VPN mogą nie być przydatne dla standardowych użytkowników w świecie, w którym wszystko używa HTTPS i jak zaufać swojemu dostawcy VPN.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png" length="314666" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ochrona danych pacjentów: Strategie bezpieczeństwa cybernetycznego w służbie zdrowia</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cybersecurity"
+            
+              , "opieka zdrowotna"
+            
+              , "dane pacjentów"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "kontrole dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "ataki phishingowe"
+            
+              , "Urządzenia IoT"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "naruszenia danych"
+            
+              , "telemedycyna"
+            
+              , "złośliwe oprogramowanie"
+            
+              , "naruszenia bezpieczeństwa"
+            
+              , "przepisy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/cybersecurity-challenges-in-the-healthcare-industry/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj wyzwania związane z cyberbezpieczeństwem, przed którymi stoi opieka zdrowotna i poznaj strategie ochrony i zgodności, aby chronić dane pacjentów i zapewnić zgodność z przepisami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png" length="427259" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie bezpiecznego i zgodnego z przepisami środowiska chmury: Przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</link>
+        
+        <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "prywatność danych"
+            
+              , "zgodność"
+            
+              , "HIPAA"
+            
+              , "PCI DSS"
+            
+              , "RODO"
+            
+              , "kopia zapasowa danych"
+            
+              , "odzyskiwanie po awarii"
+            
+              , "szyfrowanie"
+            
+              , "kontrola dostępu"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "ciągłe monitorowanie"
+            
+              , "oceny podatności na zagrożenia"
+            
+              , "naruszenia danych"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "błędna konfiguracja"
+            
+              , "utrata danych"
+            
+              , "dostawca chmury"
+            
+              , "środki bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/building-a-secure-and-compliant-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png" length="301187" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

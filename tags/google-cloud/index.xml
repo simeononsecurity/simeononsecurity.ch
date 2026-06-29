@@ -1,0 +1,295 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Cloud on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/google-cloud//img/banner.png</url>
+      <title>Google Cloud on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/google-cloud/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/google-cloud/</link>
+
+    <description>Recent content in Google Cloud on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/google-cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rozpoczęcie pracy z Terraform dla Infrastructure as Code</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Terraform"
+            
+              , "Infrastruktura jako kod"
+            
+              , "IaC"
+            
+              , "Chmura obliczeniowa"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "AWS"
+            
+              , "Lazurowy"
+            
+              , "Google Cloud"
+            
+              , "Dostawcy usług w chmurze"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrożenie"
+            
+              , "Provisioning"
+            
+              , "Zarządzanie zasobami"
+            
+              , "Skalowalność"
+            
+              , "Resilience"
+            
+              , "Bezpieczeństwo"
+            
+              , "Zgodność"
+            
+              , "Najlepsze praktyki"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Terraform, popularnego narzędzia Infrastructure as Code, i dowiedz się, jak wykorzystać je do efektywnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloud Security Showdown: AWS vs Azure vs Google Cloud Platform</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png" length="279590" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zmaksymalizuj wydajność chmury hybrydowej: Uwolnienie pełnego potencjału Ansible</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</link>
+        
+        <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ops"
+            
+              , "CICD"
+            
+              , "skalowalność"
+            
+              , "wydajność"
+            
+              , "bezpieczeństwo"
+            
+              , "zgodność"
+            
+              , "integracja"
+            
+              , "Amazon Web Services"
+            
+              , "Microsoft Azure"
+            
+              , "Google Cloud"
+            
+              , "Wieża Ansible"
+            
+              , "Ansible Galaxy"
+            
+              , "Ansible Vault"
+            
+              , "oszczędność kosztów"
+            
+              , "Wydajność informatyczna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-benefits-of-using-ansible-in-a-hybrid-cloud-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak możliwości automatyzacji Ansible mogą usprawnić, zabezpieczyć i zoptymalizować środowiska chmur hybrydowych w celu zwiększenia wydajności.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png" length="333389" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

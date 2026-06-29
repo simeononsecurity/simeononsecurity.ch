@@ -1,0 +1,232 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polowanie Na Zagrożenia on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/polowanie-na-zagro%C5%BCenia//img/banner.png</url>
+      <title>Polowanie Na Zagrożenia on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/polowanie-na-zagro%C5%BCenia/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/polowanie-na-zagro%C5%BCenia/</link>
+
+    <description>Recent content in Polowanie Na Zagrożenia on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/polowanie-na-zagro%C5%BCenia/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Threat Hunting: Proaktywna obrona przed cyberatakami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "polowanie na zagrożenia"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "proaktywna obrona"
+            
+              , "cyberataki"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo punktów końcowych"
+            
+              , "analiza dziennika"
+            
+              , "analiza behawioralna"
+            
+              , "analiza zagrożeń"
+            
+              , "ręczne dochodzenie"
+            
+              , "zautomatyzowane dochodzenie"
+            
+              , "redukcja ryzyka"
+            
+              , "fałszywe alarmy"
+            
+              , "wymagania dotyczące zestawu umiejętności"
+            
+              , "wymagania dotyczące zasobów"
+            
+              , "Krótszy czas reakcji"
+            
+              , "ulepszone wykrywanie"
+            
+              , "zmniejszone ryzyko"
+            
+              , "instytucje finansowe"
+            
+              , "dostawcy opieki zdrowotnej"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-role-of-threat-hunting-in-proactive-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, w jaki sposób wyszukiwanie zagrożeń może zapobiegać cyberatakom oraz jakie korzyści i wyzwania wiążą się z wdrożeniem go jako proaktywnego środka cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png" length="280290" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Artykuły SimeonOnSecurity</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady z zakresu cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie hakowaniu"
+            
+              , "bezpieczne programowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "śledztwo cyfrowe"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "wywiad w zakresie cyberzagrożeń"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory ogniowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "polowanie na zagrożenia"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Twoje osobiste przewodniki po cyberbezpieczeństwie, technologii informatycznej i automatyzacji. Przeglądaj pouczające artykuły, osobiste doświadczenia i porady ekspertów na temat bezpiecznego świata cyfrowego.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

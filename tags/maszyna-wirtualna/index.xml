@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maszyna Wirtualna on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/maszyna-wirtualna//img/banner.png</url>
+      <title>Maszyna Wirtualna on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/maszyna-wirtualna/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/maszyna-wirtualna/</link>
+
+    <description>Recent content in Maszyna Wirtualna on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/maszyna-wirtualna/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja instalacji Windows 11: Obejście TPM, bezpiecznego rozruchu i kontroli pamięci RAM</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Windows 11"
+            
+              , "Instalacja"
+            
+              , "Wirtualizacja"
+            
+              , "Automatyzacja"
+            
+              , "Klucze rejestru"
+            
+              , "Obejście TPM"
+            
+              , "Bezpieczne obejście rozruchu"
+            
+              , "Obejście pamięci RAM"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Usprawnij instalację Windows 11 w środowiskach zwirtualizowanych, omijając kontrole TPM, Secure Boot i pamięci RAM za pomocą autounattend.xml i vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

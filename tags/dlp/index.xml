@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DLP on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/dlp//img/banner.png</url>
+      <title>DLP on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/dlp/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/dlp/</link>
+
+    <description>Recent content in DLP on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/dlp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Cloud Security Showdown: AWS vs Azure vs Google Cloud Platform</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud"
+            
+              , "bezpieczeństwo w chmurze"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Centrum bezpieczeństwa"
+            
+              , "Centrum dowodzenia bezpieczeństwem"
+            
+              , "Ochrona przed atakami DDoS"
+            
+              , "Cloud Armor"
+            
+              , "WAF"
+            
+              , "Prywatne łącze"
+            
+              , "DLP"
+            
+              , "chmura obliczeniowa"
+            
+              , "usługi w chmurze"
+            
+              , "dostawcy chmury"
+            
+              , "ochrona danych"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo infrastruktury"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj AWS, Azure i Google Cloud Platform pod względem bezpieczeństwa w chmurze i poznaj różnice, aby podjąć świadomą decyzję dla swojej organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png" length="279590" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

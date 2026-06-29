@@ -1,0 +1,380 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kontrola Dostępu Oparta Na Rolach on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/kontrola-dost%C4%99pu-oparta-na-rolach//img/banner.png</url>
+      <title>Kontrola Dostępu Oparta Na Rolach on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/kontrola-dost%C4%99pu-oparta-na-rolach/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/kontrola-dost%C4%99pu-oparta-na-rolach/</link>
+
+    <description>Recent content in Kontrola Dostępu Oparta Na Rolach on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/kontrola-dost%C4%99pu-oparta-na-rolach/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze praktyki bezpieczeństwa w Pythonie: Ochrona kodu i danych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo Python"
+            
+              , "Bezpieczeństwo kodu"
+            
+              , "Ochrona danych"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Prywatność danych"
+            
+              , "Bezpieczeństwo aplikacji"
+            
+              , "Bezpieczeństwo IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zapobieganie wyciekom informacji: Najlepsze praktyki i strategie zwiększania bezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "bezpieczeństwo informacji"
+            
+              , "ochrona danych"
+            
+              , "informacje niejawne"
+            
+              , "wyciek informacji"
+            
+              , "strategie zapobiegania"
+            
+              , "najlepsze praktyki"
+            
+              , "kontrola dostępu"
+            
+              , "szyfrowanie"
+            
+              , "szkolenie pracowników"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "zapobieganie utracie danych"
+            
+              , "oceny bezpieczeństwa"
+            
+              , "regulacje rządowe"
+            
+              , "NIST"
+            
+              , "zagrożenia wewnętrzne"
+            
+              , "luki w cyberbezpieczeństwie"
+            
+              , "błąd ludzki"
+            
+              , "programy uświadamiające"
+            
+              , "świadomość phishingu"
+            
+              , "Rozwiązania DLP"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "uwierzytelnianie wieloskładnikowe"
+            
+              , "Zarządzanie kluczami szyfrowania"
+            
+              , "ochrona punktów końcowych"
+            
+              , "kontrola zawartości"
+            
+              , "audyty bezpieczeństwa"
+            
+              , "testy penetracyjne"
+            
+              , "Planowanie reakcji na incydenty"
+            
+              , "protokoły bezpieczeństwa"
+            
+              , "ochrona informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Skuteczna kontrola dostępu: Najlepsze praktyki w zakresie bezpieczeństwa IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</link>
+        
+        <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kontrola dostępu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Hasła"
+            
+              , "Uwierzytelnianie biometryczne"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Uwierzytelnianie wieloskładnikowe"
+            
+              , "Ochrona danych"
+            
+              , "Ocena ryzyka"
+            
+              , "Szkolenie pracowników"
+            
+              , "Narzędzia do audytu"
+            
+              , "Narzędzia do raportowania"
+            
+              , "Testy penetracyjne"
+            
+              , "Ocena podatności na zagrożenia"
+            
+              , "Fizyczna kontrola dostępu"
+            
+              , "Logiczna kontrola dostępu"
+            
+              , "Przepisy dotyczące zgodności"
+            
+              , "HIPAA"
+            
+              , "RODO"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-implement-and-manage-effective-access-control-in-your-it-environment/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak chronić wrażliwe dane i systemy, wdrażając skuteczne środki kontroli dostępu do środowiska IT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_locked_door_with_a_fingerprint_scanner.png" length="457237" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Maksymalizacja wydajności dzięki Ansible, Docker i Kubernetes: Przewodnik po automatyzacji cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ansible"
+            
+              , "Docker"
+            
+              , "Kubernetes"
+            
+              , "Automatyzacja cyberbezpieczeństwa"
+            
+              , "Oceny podatności na zagrożenia"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Orkiestracja kontenerów"
+            
+              , "Segmentacja sieci"
+            
+              , "Kontrola dostępu oparta na rolach"
+            
+              , "Tajne zarządzanie"
+            
+              , "Skanowanie bezpieczeństwa"
+            
+              , "Podpisywanie obrazów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-docker-kubernetes-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Ansible, Docker i Kubernetes w automatyzacji procesów cyberbezpieczeństwa i zmniejszaniu ryzyka naruszenia danych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png" length="311977" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

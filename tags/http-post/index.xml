@@ -1,0 +1,127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP POST on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/http-post//img/banner.png</url>
+      <title>HTTP POST on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/http-post/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/http-post/</link>
+
+    <description>Recent content in HTTP POST on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/http-post/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Invite Challenge (Windows/Linux)</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Zaproś do wyzwania"
+            
+              , "Testy penetracyjne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Platforma internetowa"
+            
+              , "HTTP POST"
+            
+              , "Kod zaproszenia"
+            
+              , "Kodowanie Base64"
+            
+              , "Powershell"
+            
+              , "Linux Bash"
+            
+              , "Dekodowanie Base64"
+            
+              , "Generowanie kodu zaproszenia"
+            
+              , "Programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Szkolenie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wygenerować kod zaproszenia i dołączyć do platformy online HackTheBox, aby przetestować i rozwinąć swoje umiejętności w zakresie testów penetracyjnych i cyberbezpieczeństwa w systemach Windows i Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png" length="193268" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

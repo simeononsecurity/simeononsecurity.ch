@@ -1,0 +1,113 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blokada AD Typu Open Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/blokada-ad-typu-open-source//img/banner.png</url>
+      <title>Blokada AD Typu Open Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/blokada-ad-typu-open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/blokada-ad-typu-open-source/</link>
+
+    <description>Recent content in Blokada AD Typu Open Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/blokada-ad-typu-open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalecane wtyczki do przeglądarek</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/browser_plugins/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "U-Block Origin"
+            
+              , "HTTPS wszędzie"
+            
+              , "Decentraleyes"
+            
+              , "ClearURLs"
+            
+              , "CanvasBlocker"
+            
+              , "FireFox"
+            
+              , "Bitwarden"
+            
+              , "Zalecenia"
+            
+              , "Przeglądarka TOR"
+            
+              , "Blokada AD typu open source"
+            
+              , "Lokalny emulator CDN"
+            
+              , "JavaScript Fingerprinting"
+            
+              , "Izolowane sesje przeglądarki"
+            
+              , "Shady ToS"
+            
+              , "Bezpieczny menedżer haseł w chmurze o otwartym kodzie źródłowym"
+            
+              , "Blokowanie trackera"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/browser_plugins/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj zalecane przez SimeonOnSecurity wtyczki do przeglądarek, które poprawią komfort przeglądania. FireFox jest zalecaną przeglądarką do codziennego użytku, ale w celu zwiększenia prywatności i bezpieczeństwa można również rozważyć użycie przeglądarki TOR. Zalecane wtyczki obejmują U-Block Origin do blokowania reklam, HTTPS Everywhere do bezpiecznego przeglądania, Decentraleyes do lokalnej emulacji CDN, ClearURLs do usuwania tagów śledzących, CanvasBlocker do zapobiegania odciskom palców JavaScript, Multi Account Containers do izolowanych sesji przeglądania, Terms of Service, Didn&#39;t Read do informowania o ToS, Bitwarden do bezpiecznego zarządzania hasłami i Privacy Badger do blokowania trackerów. Zwiększ swoją prywatność i bezpieczeństwo w Internecie dzięki tym najlepiej ocenianym wtyczkom do przeglądarek.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

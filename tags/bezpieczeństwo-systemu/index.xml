@@ -1,0 +1,768 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczeństwo Systemu on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-systemu//img/banner.png</url>
+      <title>Bezpieczeństwo Systemu on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-systemu/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-systemu/</link>
+
+    <description>Recent content in Bezpieczeństwo Systemu on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/bezpiecze%C5%84stwo-systemu/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ bezpieczeństwo swojego systemu dzięki poleceniom Windows Defender PowerShell</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows Defender"
+            
+              , "Polecenia PowerShell"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "kontrola wiersza poleceń"
+            
+              , "antywirus"
+            
+              , "Systemy operacyjne Windows"
+            
+              , "ochrona przed złośliwym oprogramowaniem"
+            
+              , "zaawansowane ustawienia zabezpieczeń"
+            
+              , "automatyzacja operacji bezpieczeństwa"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przygotowanie do pracy w branży cyberbezpieczeństwa na poziomie podstawowym: Podstawowe kroki i zasoby</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/preparation-and-resources-for-entry-level-cyber-security-jobs/</link>
+        
+        <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "oferty pracy dla początkujących w dziedzinie cyberbezpieczeństwa"
+            
+              , "kariera w cyberbezpieczeństwie"
+            
+              , "wymagania dotyczące pracy"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "umiejętności w zakresie cyberbezpieczeństwa"
+            
+              , "zdobywanie doświadczenia"
+            
+              , "certyfikaty cyberbezpieczeństwa"
+            
+              , "rządowe oferty pracy w dziedzinie cyberbezpieczeństwa"
+            
+              , "Oferty pracy w sektorze prywatnym w zakresie cyberbezpieczeństwa"
+            
+              , "platformy poszukiwania pracy"
+            
+              , "programy szkoleniowe w zakresie cyberbezpieczeństwa"
+            
+              , "kursy online"
+            
+              , "staże w dziedzinie cyberbezpieczeństwa"
+            
+              , "staże w zakresie cyberbezpieczeństwa"
+            
+              , "USAJOBS"
+            
+              , "Departament Bezpieczeństwa Wewnętrznego"
+            
+              , "FBI"
+            
+              , "Rzeczywiście"
+            
+              , "LinkedIn"
+            
+              , "Kości"
+            
+              , "branża cyberbezpieczeństwa"
+            
+              , "trendy branżowe"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "cyberzagrożenia"
+            
+              , "rozwój kariery"
+            
+              , "rozwój zawodowy"
+            
+              , "regulacje branżowe"
+            
+              , "zasoby cyberbezpieczeństwa"
+            
+              , "oferty pracy"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-a-job-in-cyber-security/preparation-and-resources-for-entry-level-cyber-security-jobs/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczowe wymagania, przygotowania i zasoby dla początkujących pracowników cyberbezpieczeństwa, aby rozpocząć karierę w tej bardzo poszukiwanej dziedzinie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png" length="137167" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Rola języków programowania w cyberbezpieczeństwie: Odkrywanie kluczowych narzędzi i aplikacji</title>
+        
+          <link>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "języki programowania"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "kluczowe narzędzia"
+            
+              , "aplikacje"
+            
+              , "bezpieczne systemy"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aplikacje internetowe"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "testy penetracyjne"
+            
+              , "bezpieczne kodowanie"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "języki skryptowe"
+            
+              , "automatyzacja"
+            
+              , "bezpieczna komunikacja"
+            
+              , "analiza danych"
+            
+              , "uczenie maszynowe"
+            
+              , "reakcja na incydent"
+            
+              , "rozwój exploitów"
+            
+              , "ramy bezpieczeństwa"
+            
+              , "utwardzanie systemu"
+            
+              , "analiza dziennika"
+            
+              , "Bezpieczeństwo systemu Windows"
+            
+              , "protokoły sieciowe"
+            
+              , "tworzenie stron internetowych"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "usługi kryptograficzne"
+            
+              , "sandboxing"
+            
+              , "kontrola dostępu"
+            
+              , "inżynieria odwrotna"
+            
+              , "wykrywanie zagrożeń"
+            
+              , "zarządzanie bezpieczeństwem"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-are-the-top-programming-languages-that-are-used-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png" length="329223" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uprawnienia do plików w systemie Linux: Kompleksowy przewodnik</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</link>
+        
+        <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Uprawnienia do plików w systemie Linux"
+            
+              , "bezpieczny system plików"
+            
+              , "kontrola dostępu"
+            
+              , "własność"
+            
+              , "przewodnik po uprawnieniach do plików"
+            
+              , "Bezpieczeństwo systemu Linux"
+            
+              , "bezpieczeństwo systemu plików"
+            
+              , "polecenie chmod"
+            
+              , "polecenie chown"
+            
+              , "audyt uprawnień do plików"
+            
+              , "Zasada najmniejszego przywileju"
+            
+              , "zgodność z przepisami"
+            
+              , "RODO"
+            
+              , "HIPAA"
+            
+              , "audyt uprawnień plików"
+            
+              , "dokumentowanie regulacji"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "szyfrowanie"
+            
+              , "zarządzanie użytkownikami"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/mastering-linux-file-permissions/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png" length="175268" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Instalowanie zbiorczych poprawek zabezpieczeń w systemie Windows: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</link>
+        
+        <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "Microsoft"
+            
+              , "zbiorcze poprawki"
+            
+              , "zarządzanie poprawkami"
+            
+              , "kopia zapasowa danych"
+            
+              , "Spectre Meltdown"
+            
+              , "szyfrowanie"
+            
+              , "luki w zabezpieczeniach systemu"
+            
+              , "aktualizacje systemu"
+            
+              , "wdrażanie poprawek"
+            
+              , "środowiska nieprodukcyjne"
+            
+              , "konfiguracja systemu"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "system zarządzania poprawkami"
+            
+              , "skanowanie luk w zabezpieczeniach"
+            
+              , "uwagi do wydania"
+            
+              , "konserwacja systemu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-practices-for-installing-security-patches-on-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png" length="307857" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Podstawowe zasady i zalecenia dotyczące wzmacniania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo systemu Linux"
+            
+              , "utwardzanie systemu"
+            
+              , "firewall"
+            
+              , "SELinux"
+            
+              , "AppArmor"
+            
+              , "polityka haseł"
+            
+              , "aktualizacje systemu"
+            
+              , "logi systemowe"
+            
+              , "moduły bezpieczeństwa"
+            
+              , "zasady kontroli dostępu"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "zarządzanie podatnościami"
+            
+              , "najlepsze praktyki bezpieczeństwa"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo informacji"
+            
+              , "aktualizacje oprogramowania"
+            
+              , "dostęp roota"
+            
+              , "menedżer haseł"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wdrażanie poprawek dla podatnych serwerów: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo serwera"
+            
+              , "Zarządzanie podatnościami"
+            
+              , "Zarządzanie poprawkami"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Łatanie serwera"
+            
+              , "Krajobraz zagrożeń"
+            
+              , "Testy penetracyjne"
+            
+              , "Aktualizacje zabezpieczeń"
+            
+              , "Poprawki oprogramowania"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Zarządzanie ryzykiem"
+            
+              , "Zasady bezpieczeństwa"
+            
+              , "Środowiska przejściowe"
+            
+              , "Luki w oprogramowaniu"
+            
+              , "Krytyczne poprawki"
+            
+              , "Poprawki dostawcy"
+            
+              , "Biuletyny bezpieczeństwa"
+            
+              , "Bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/implementing-patches-for-systems-with-vulnerabilities/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png" length="246714" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja zabezpieczeń i hartowania: Kompleksowe zasoby dotyczące zabezpieczeń</title>
+        
+          <link>https://pl.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "utwardzanie systemu"
+            
+              , "utwardzanie aplikacji"
+            
+              , "Zgodność ze standardem STIG"
+            
+              , "Optymalizacja systemu Windows"
+            
+              , "Wzmocnienie Windows Defender"
+            
+              , "Wzmocnienie serwera WWW Apache"
+            
+              , "Skrypt .NET STIG"
+            
+              , "Skrypt Adobe Reader DC STIG"
+            
+              , "Skrypt STIG dla przeglądarki Firefox"
+            
+              , "Simeononsecurity"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "automatyzacja"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "bezpieczeństwo systemu"
+            
+              , "bezpieczeństwo komputerowe"
+            
+              , "wzmocnienie zabezpieczeń"
+            
+              , "automatyzacja zabezpieczeń"
+            
+              , "Hartowanie systemu Windows"
+            
+              , "Wzmocnienie serwera WWW"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj kolekcję skryptów i konfiguracji, aby zoptymalizować i wzmocnić swoje systemy, czyniąc je zgodnymi z STIG i odpornymi na włamania.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

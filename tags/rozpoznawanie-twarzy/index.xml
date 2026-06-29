@@ -1,0 +1,240 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rozpoznawanie Twarzy on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/rozpoznawanie-twarzy//img/banner.png</url>
+      <title>Rozpoznawanie Twarzy on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/rozpoznawanie-twarzy/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/rozpoznawanie-twarzy/</link>
+
+    <description>Recent content in Rozpoznawanie Twarzy on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/rozpoznawanie-twarzy/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uczenie maszynowe a uczenie głębokie: Rozwikłanie różnic</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</link>
+        
+        <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uczenie maszynowe"
+            
+              , "głębokie uczenie"
+            
+              , "sztuczna inteligencja"
+            
+              , "AI"
+            
+              , "nauka o danych"
+            
+              , "algorytm"
+            
+              , "sieci neuronowe"
+            
+              , "Inżynieria funkcji"
+            
+              , "dane nieustrukturyzowane"
+            
+              , "drzewa decyzyjne"
+            
+              , "regresja logistyczna"
+            
+              , "oznaczone dane"
+            
+              , "nieoznakowane dane"
+            
+              , "zasoby obliczeniowe"
+            
+              , "wykrywanie oszustw"
+            
+              , "systemy rekomendacji"
+            
+              , "konserwacja predykcyjna"
+            
+              , "rozpoznawanie obrazu"
+            
+              , "przetwarzanie języka naturalnego"
+            
+              , "odkrywanie leków"
+            
+              , "aplikacje biznesowe"
+            
+              , "złożoność algorytmu"
+            
+              , "reprezentacja danych"
+            
+              , "regulacje rządowe"
+            
+              , "wizja komputerowa"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "chatboty"
+            
+              , "tłumaczenie językowe"
+            
+              , "modele treningowe"
+            
+              , "analityka predykcyjna"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/machine-learning-vs-deep-learning-understanding-the-difference/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnice między uczeniem maszynowym a głębokim uczeniem, dwiema potężnymi gałęziami sztucznej inteligencji o unikalnych cechach i zastosowaniach.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png" length="289566" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zalety i wady uwierzytelniania wieloczynnikowego dla bezpieczeństwa firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "uwierzytelnianie wieloczynnikowe"
+            
+              , "MFA"
+            
+              , "bezpieczeństwo biznesowe"
+            
+              , "cybersecurity"
+            
+              , "ochrona danych"
+            
+              , "zgodność z przepisami"
+            
+              , "doświadczenie użytkownika"
+            
+              , "phishing"
+            
+              , "ataki typu brute force"
+            
+              , "złożoność techniczna"
+            
+              , "odporność użytkownika"
+            
+              , "smartfony"
+            
+              , "token"
+            
+              , "karta inteligentna"
+            
+              , "odcisk palca"
+            
+              , "rozpoznawanie twarzy"
+            
+              , "rozpoznawanie głosu"
+            
+              , "PCI DSS"
+            
+              , "HIPAA"
+            
+              , "naruszenie danych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png" length="183846" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

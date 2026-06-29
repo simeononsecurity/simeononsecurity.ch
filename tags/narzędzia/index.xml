@@ -1,0 +1,362 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Narzędzia on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/narz%C4%99dzia//img/banner.png</url>
+      <title>Narzędzia on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/narz%C4%99dzia/</link>
+
+    <description>Recent content in Narzędzia on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/narz%C4%99dzia/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Uwolnienie potencjału technologii Blockchain: Odkrywanie zastosowań wykraczających poza kryptowaluty</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</link>
+        
+        <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia blockchain"
+            
+              , "Kryptowaluta"
+            
+              , "Finanse"
+            
+              , "Zarządzanie łańcuchem dostaw"
+            
+              , "Opieka zdrowotna"
+            
+              , "Energia"
+            
+              , "Narzędzia"
+            
+              , "Zdecentralizowane finanse"
+            
+              , "Inteligentne kontrakty"
+            
+              , "Płatności transgraniczne"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/applications-for-blockchain-technologies-beyond-cryptocurrencies/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj różnorodne zastosowania technologii blockchain wykraczające poza kryptowaluty, rewolucjonizujące finanse, zarządzanie łańcuchem dostaw, opiekę zdrowotną, energetykę i nie tylko.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png" length="281296" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kali Purple 2023.1: Aktualizacje i podstawowe funkcje</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</link>
+        
+        <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Kali Linux"
+            
+              , "Kali Purpura"
+            
+              , "2023.1"
+            
+              , "etyczny hacking"
+            
+              , "test penetracyjny"
+            
+              , "cybersecurity"
+            
+              , "narzędzia"
+            
+              , "ramy exploitów"
+            
+              , "Aktualizacje Kali ARM"
+            
+              , "Kali NetHunter"
+            
+              , "Dokumentacja Kali"
+            
+              , "Wsparcie dla jądra"
+            
+              , "Obsługa Bluetooth"
+            
+              , "LineageOS"
+            
+              , "OneUI"
+            
+              , "Radxa Zero"
+            
+              , "SBC"
+            
+              , "poprawki do jądra"
+            
+              , "wkłady społeczności"
+            
+              , "Dyskordia Kali"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/kali-purple-2023.1-a-review/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj zaawansowane funkcje, narzędzia i ulepszenia Kali Purple 2023.1 w naszej kompleksowej recenzji dla etycznych hakerów i entuzjastów cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png" length="440794" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kompleksowy przewodnik dla początkujących po narzędziach i technikach testów penetracyjnych</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "testy penetracyjne"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "etyczne hakowanie"
+            
+              , "narzędzia"
+            
+              , "techniki"
+            
+              , "przewodnik dla początkujących"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Burp Suite"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "testy bezpieczeństwa"
+            
+              , "ocena podatności na zagrożenia"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo informacji"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawowe narzędzia i techniki testów penetracyjnych, metodologie i certyfikaty, aby rozpocząć karierę w dziedzinie cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_balaclava.png" length="403619" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Potęga PowerShella dla usprawnienia operacji bezpieczeństwa cybernetycznego i zgodności z przepisami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Cybersecurity"
+            
+              , "Operacje"
+            
+              , "Zgodność"
+            
+              , "Automatyka"
+            
+              , "STIG SRG Wymagania"
+            
+              , "Wytyczne NSACyber"
+            
+              , "Systemy Windows"
+            
+              , "Obrona niebieskiej drużyny"
+            
+              , "Skrypty"
+            
+              , "Narzędzia"
+            
+              , "Projekty C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/powershell-for-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png" length="471292" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

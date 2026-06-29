@@ -1,0 +1,171 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Najlepsze Praktyki Bezpiecznego Kodowania W C Sharp on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecznego-kodowania-w-c-sharp//img/banner.png</url>
+      <title>Najlepsze Praktyki Bezpiecznego Kodowania W C Sharp on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecznego-kodowania-w-c-sharp/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecznego-kodowania-w-c-sharp/</link>
+
+    <description>Recent content in Najlepsze Praktyki Bezpiecznego Kodowania W C Sharp on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/najlepsze-praktyki-bezpiecznego-kodowania-w-c-sharp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla programistów C#</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</link>
+        
+        <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczne kodowanie"
+            
+              , "Ostry rozwój"
+            
+              , "Programowanie w języku C Sharp"
+            
+              , "praktyki bezpiecznego kodowania"
+            
+              , "Bezpieczeństwo C Sharp"
+            
+              , "Bezpieczeństwo ASP.NET"
+            
+              , "Bezpieczeństwo .NET Core"
+            
+              , "walidacja danych wejściowych"
+            
+              , "haszowanie haseł"
+            
+              , "kryptografia"
+            
+              , "najmniejszy przywilej"
+            
+              , "statyczny analizator kodu"
+            
+              , "bezpieczeństwo aplikacji internetowych"
+            
+              , "Zapobieganie iniekcjom SQL"
+            
+              , "Zapobieganie atakom typu cross-site scripting"
+            
+              , "ochrona danych"
+            
+              , "kontrole stanu zdrowia"
+            
+              , "zarządzanie sesjami"
+            
+              , "Najlepsze praktyki OWASP"
+            
+              , "Standardy bezpiecznego kodowania C Sharp"
+            
+              , "C Wytyczne dotyczące bezpieczeństwa Sharp"
+            
+              , "wskazówki dotyczące bezpiecznego kodowania"
+            
+              , "bezpieczne tworzenie oprogramowania"
+            
+              , "bezpieczne ramy kodowania"
+            
+              , "techniki bezpiecznego kodowania"
+            
+              , "zalecenia dotyczące bezpiecznego kodowania"
+            
+              , "Bezpieczne programowanie w języku C Sharp"
+            
+              , "Luki w bezpiecznym kodowaniu"
+            
+              , "narzędzia do bezpiecznego kodowania"
+            
+              , "samouczki bezpiecznego kodowania"
+            
+              , "Najlepsze praktyki bezpiecznego kodowania w C Sharp"
+            
+              , "Wytyczne dotyczące bezpiecznego kodowania C Sharp"
+            
+              , "Standardy bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Ostre praktyki bezpiecznego kodowania"
+            
+              , "Jak wdrożyć bezpieczne kodowanie w C Sharp"
+            
+              , "Wskazówki dotyczące bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Bezpieczne kodowanie w aplikacjach internetowych C Sharp"
+            
+              , "Bezpieczne ramy kodowania w języku C Sharp"
+            
+              , "Techniki bezpiecznego kodowania dla programistów C Sharp"
+            
+              , "Narzędzia do bezpiecznego kodowania C Sharp"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-c-sharp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w języku C#, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png" length="487099" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

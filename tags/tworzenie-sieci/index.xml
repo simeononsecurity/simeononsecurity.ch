@@ -1,0 +1,485 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tworzenie Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/tworzenie-sieci//img/banner.png</url>
+      <title>Tworzenie Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/tworzenie-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/tworzenie-sieci/</link>
+
+    <description>Recent content in Tworzenie Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/tworzenie-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Ubiquiti Unifi vs TP-Link Omada: Który system sieciowy jest dla Ciebie odpowiedni?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link>
+        
+        <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Ubiquiti"
+            
+              , "TP-Link"
+            
+              , "tworzenie sieci"
+            
+              , "Unifi"
+            
+              , "Własna"
+            
+              , " zarządzanie"
+            
+              , "sprzęt"
+            
+              , "wsparcie"
+            
+              , "przepisy"
+            
+              , "cechy"
+            
+              , "kontrola"
+            
+              , "interfejs"
+            
+              , "wartość"
+            
+              , "niezawodność"
+            
+              , "wydajność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj systemy sieciowe Ubiquiti Unifi i TP-Link Omada, aby wybrać odpowiedni dla siebie.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png" length="516405" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik dla początkujących po Linuksie: Porady dla wariantów opartych na Debianie i RHEL</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Debian"
+            
+              , "Ubuntu"
+            
+              , "CentOS"
+            
+              , "RHEL"
+            
+              , "Red Hat"
+            
+              , "System operacyjny"
+            
+              , "Otwarte źródło"
+            
+              , "Administracja systemem"
+            
+              , "Polecenia"
+            
+              , "Terminal"
+            
+              , "Wspólnota"
+            
+              , "Przedsiębiorstwo"
+            
+              , "Profesjonalne"
+            
+              , "Nauka"
+            
+              , "Tworzenie sieci"
+            
+              , "Bezpieczeństwo"
+            
+              , "Dostosowanie"
+            
+              , "Stabilność"
+            
+              , "Elastyczność"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-do-i-learn-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png" length="241074" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mechanizmy przejścia z IPv4 na IPv6: A Comprehensive Guide</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</link>
+        
+        <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IPv4"
+            
+              , "IPv6"
+            
+              , "tworzenie sieci"
+            
+              , "mechanizmy przejściowe"
+            
+              , "podwójny komin"
+            
+              , "NAT64"
+            
+              , "DNS64"
+            
+              , "Tunelowanie IPv6"
+            
+              , "ISATAP"
+            
+              , "6to4"
+            
+              , "DS-lite"
+            
+              , "MAP-T"
+            
+              , "Migracja IPv6"
+            
+              , "protokoły sieciowe"
+            
+              , "protokół internetowy"
+            
+              , "architektura sieci"
+            
+              , "routing"
+            
+              , "podsieciowanie"
+            
+              , "adresując"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ipv4-to-ipv6-transition-mechanisms/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różne mechanizmy wykorzystywane do przejścia z IPv4 na IPv6 w tym kompleksowym przewodniku.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png" length="96662" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Tworzenie domowego laboratorium: Przewodnik dla informatyków, studentów i hobbystów</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Home Lab"
+            
+              , "informatycy"
+            
+              , "uczniowie"
+            
+              , "hobbyści"
+            
+              , "tworzenie sieci"
+            
+              , "wirtualizacja"
+            
+              , "automatyka"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "najlepsze praktyki"
+            
+              , "przewodnik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ten obszerny przewodnik zawiera szczegółowy przegląd tego, czym jest Domowe Laboratorium, dlaczego warto je stworzyć, jakie elementy są potrzebne, jak je skonfigurować, zaawansowane tematy do zbadania i najlepsze praktyki do naśladowania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Polecane książki</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "książki"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Najlepsze książki o cyberbezpieczeństwie"
+            
+              , "Najlepsze książki o automatyzacji"
+            
+              , "książki o automatyzacji"
+            
+              , "rekomendacje książek o cyberbezpieczeństwie"
+            
+              , "cyberbezpieczeństwo dla opornych"
+            
+              , "Kodowanie i tworzenie skryptów"
+            
+              , "Automatyzacja"
+            
+              , "Windows PowerShell"
+            
+              , "administratorzy"
+            
+              , "Ansible"
+            
+              , "Automatyzacja sieci"
+            
+              , "Python"
+            
+              , "Windows Server 2019"
+            
+              , "Niebieski zespół"
+            
+              , "Tworzenie bezpiecznych i niezawodnych systemów"
+            
+              , "Hash Crack"
+            
+              , "PTFM"
+            
+              , "Podręcznik terenowy drużyny fioletowej"
+            
+              , "Podręcznik operatora"
+            
+              , "Podręcznik terenowy Red Team"
+            
+              , "Inżynieria bezpieczeństwa"
+            
+              , "Sztuka oszustwa"
+            
+              , "Sztuka włamań"
+            
+              , "Sztuka niewidzialności"
+            
+              , "Podręcznik hakera"
+            
+              , "Podręcznik hakera aplikacji internetowych"
+            
+              , "Plemię hakerów"
+            
+              , "Tworzenie sieci"
+            
+              , "Open Source Intelligence"
+            
+              , "Systemy operacyjne"
+            
+              , "Oprogramowanie"
+            
+              , "Prywatność"
+            
+              , "Ekstremalna prywatność"
+            
+              , "Utwórz własny fundusz powierniczy"
+            
+              , "Inne"
+            
+              , "Ta książka została opublikowana samodzielnie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jest to zbiór polecanych książek od SimeonOnSecurity. Książki obejmują różne tematy, w tym automatyzację kodowania i skryptów, cyberbezpieczeństwo, sieci, inteligencję open source, systemy operacyjne i oprogramowanie, prywatność i inne powiązane tematy. Dzięki dwumiesięcznemu okresowi próbnemu Amazon Kindle Unlimited możesz czytać większość z tych książek za darmo. Kolekcja ta oferuje szereg książek zarówno dla początkujących, jak i ekspertów, z tytułami takimi jak Python Crash Course i The Art of Deception. Niezależnie od tego, czy chcesz poprawić swoje umiejętności kodowania, czy też lepiej zrozumieć cyberbezpieczeństwo, w tej kolekcji każdy znajdzie coś dla siebie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

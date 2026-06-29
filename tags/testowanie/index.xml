@@ -1,0 +1,578 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/testowanie//img/banner.png</url>
+      <title>Testowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/testowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/testowanie/</link>
+
+    <description>Recent content in Testowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/testowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code vs Visual Studio Community i Enterprise: Co jest najlepsze dla deweloperów?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Rozwój oprogramowania"
+            
+              , "Zintegrowane środowisko programistyczne (IDE)"
+            
+              , "Narzędzia programistyczne Microsoft"
+            
+              , "Edytory kodu"
+            
+              , "Platformy programistyczne"
+            
+              , "Porównanie oprogramowania"
+            
+              , "Języki programowania"
+            
+              , "Wspólny rozwój"
+            
+              , "Rozwój oprogramowania dla przedsiębiorstw"
+            
+              , "Debugowanie kodu"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Używanie Packera dla Infrastructure as Code: Najlepsze praktyki i korzyści</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link>
+        
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Pakowacz"
+            
+              , "Infrastruktura jako kod"
+            
+              , "DevOps"
+            
+              , "Automatyka"
+            
+              , "Bezpieczeństwo"
+            
+              , "Powtarzalność"
+            
+              , "Skalowalność"
+            
+              , "Multi-Platforma"
+            
+              , "Kontrola wersji"
+            
+              , "Chmura obliczeniowa"
+            
+              , "Obrazy maszyn"
+            
+              , "Wirtualizacja"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Ciągła integracja"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Rozwój oprogramowania"
+            
+              , "Najlepsze praktyki"
+            
+              , "Testowanie"
+            
+              , "Otwarte źródło"
+            
+              , "Multi-Cloud"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: przewodnik dla początkujących</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Automatyzacja"
+            
+              , "Windows"
+            
+              , "Administracja systemem"
+            
+              , "Najlepsze praktyki"
+            
+              , "Zgodność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Infrastruktura"
+            
+              , "DevOps"
+            
+              , "Konfiguracja serwera"
+            
+              , "Testowanie"
+            
+              , "Git"
+            
+              , "Kontrola źródła"
+            
+              , "Przepisy rządowe"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Dryft konfiguracji"
+            
+              , "Zasoby niestandardowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj możliwości PowerShell Desired State Configuration (DSC), aby zautomatyzować i zarządzać konfiguracjami systemu w celu zapewnienia bezpiecznego i zgodnego środowiska.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zbuduj niedrogie, bezpieczne domowe laboratorium do testowania i nauki IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</link>
+        
+        <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "domowe laboratorium"
+            
+              , "wirtualizacja"
+            
+              , "sprzęt"
+            
+              , "oprogramowanie"
+            
+              , "networking"
+            
+              , "bezpieczeństwo"
+            
+              , "nauka"
+            
+              , "testowanie"
+            
+              , "Profesjonalista IT"
+            
+              , "entuzjasta technologii"
+            
+              , "VMware"
+            
+              , "Proxmox"
+            
+              , "Hyper-V"
+            
+              , "Linux"
+            
+              , "Windows"
+            
+              , "konfiguracja sieci"
+            
+              , "zarządzanie maszynami wirtualnymi"
+            
+              , "tworzenie kopii zapasowych i odzyskiwanie danych"
+            
+              , "chmura obliczeniowa"
+            
+              , "cyberbezpieczeństwo"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-build-cost-effective-and-secure-home-lab-for-testing-and-learning/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png" length="412120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Segmentacja sieci: Jak poprawić bezpieczeństwo w Twojej organizacji</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</link>
+        
+        <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "segmentacja sieci"
+            
+              , "poprawić bezpieczeństwo"
+            
+              , "zmniejszyć ryzyko"
+            
+              , "wydajność sieci"
+            
+              , "zarządzanie siecią"
+            
+              , "kontrole bezpieczeństwa"
+            
+              , "firewalle"
+            
+              , "kontrole dostępu"
+            
+              , "najmniejszy przywilej"
+            
+              , "uwierzytelnianie"
+            
+              , "testowanie"
+            
+              , "monitorowanie"
+            
+              , "zagrożenia cybernetyczne"
+            
+              , "naruszenia danych"
+            
+              , "architektura sieci"
+            
+              , "kompleksowe bezpieczeństwo"
+            
+              , "bezpieczeństwo warstwowe"
+            
+              , "podatności"
+            
+              , "cyberataki"
+            
+              , "szkolenie pracowników"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/how-to-perform-network-segmentation-for-improved-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png" length="260076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Wprowadzenie do Ansible: Automatyzacja zarządzania infrastrukturą IT</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Wprowadzenie do Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą IT"
+            
+              , "Podstawy Ansible"
+            
+              , "Automatyzacja infrastruktury IT"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Wdrażanie aplikacji"
+            
+              , "Udostępnianie"
+            
+              , "Ciągłe dostarczanie"
+            
+              , "Zgodność z przepisami bezpieczeństwa"
+            
+              , "Orkiestracja"
+            
+              , "YAML"
+            
+              , "Moduły Ansible"
+            
+              , "Role"
+            
+              , "Najlepsze praktyki"
+            
+              , "Kontrola wersji"
+            
+              , "Testowanie"
+            
+              , "Red Hat"
+            
+              , "Administratorzy systemu"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Instalacja Ansible"
+            
+              , "Inwentaryzacja Ansible"
+            
+              , "Podręczniki Ansible"
+            
+              , "Moduły Ansible"
+            
+              , "Role Ansible"
+            
+              , "Najlepsze praktyki Ansible"
+            
+              , "Testowanie Ansible"
+            
+              , "Narzędzie do automatyzacji infrastruktury IT"
+            
+              , "Samouczek Ansible"
+            
+              , "Automatyzacja zarządzania infrastrukturą"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj podstawy Ansible, narzędzia do automatyzacji o otwartym kodzie źródłowym, które upraszcza zarządzanie infrastrukturą IT za pomocą języka deklaratywnego.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

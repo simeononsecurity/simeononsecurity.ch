@@ -1,0 +1,515 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/python//img/banner.png</url>
+      <title>Python on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/python/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/python/</link>
+
+    <description>Recent content in Python on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Standardy bezpiecznego kodowania dla Pythona: Najlepsze praktyki</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Bezpieczne kodowanie"
+            
+              , "Zagrożenia bezpieczeństwa"
+            
+              , "Walidacja wejścia"
+            
+              , "Biblioteki kryptograficzne"
+            
+              , "Najmniejszy przywilej"
+            
+              , "Statyczny analizator kodu"
+            
+              , "Aplikacje internetowe"
+            
+              , "Struktury Pythona"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "System uwierzytelniania"
+            
+              , "Haszowanie hasła"
+            
+              , "System szablonów"
+            
+              , "Zarządzanie sesją"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Blinker"
+            
+              , "Ochrona danych"
+            
+              , "Podatności"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj najlepsze praktyki bezpiecznego kodowania w Pythonie, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Discord Cyber Scenario Bot: Wzmocnienie szkoleń i świadomości w zakresie cyberbezpieczeństwa</title>
+        
+          <link>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bot Discorda"
+            
+              , "szkolenie w zakresie cyberbezpieczeństwa"
+            
+              , "świadomość cyberbezpieczeństwa"
+            
+              , "bot scenariusza"
+            
+              , "bot quizowy"
+            
+              , "tabela liderów"
+            
+              , "polecenia narzędzi"
+            
+              , "Docker"
+            
+              , "Python"
+            
+              , "testowanie automatyczne"
+            
+              , "Discord API"
+            
+              , "dokumentacja deweloperska"
+            
+              , "wnoszący wkład"
+            
+              , "Licencja MIT"
+            
+              , "CyberScenarioBot"
+            
+              , "CyberSentinels"
+            
+              , "usprawnienie szkolenia"
+            
+              , "program uświadamiający"
+            
+              , "scenariusze cyberbezpieczeństwa"
+            
+              , "środowisko serwera"
+            
+              , "niestandardowe polecenia"
+            
+              , "wdrażanie i zarządzanie"
+            
+              , "quizy i scenariusze"
+            
+              , "polecenia narzędzi"
+            
+              , "polecenia informacyjne"
+            
+              , "kwestie i wkład"
+            
+              , "Aplikacja deweloperska Discord"
+            
+              , "Dokumentacja Discord.py"
+            
+              , "współpraca z deweloperami"
+            
+              , "Społecznościowy serwer Discord"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/discord-cyber-scenario-bot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj, w jaki sposób CyberScenarioBot może podnieść poziom szkolenia w zakresie cyberbezpieczeństwa i programu podnoszenia świadomości na Discordzie, oferując quizy, scenariusze, śledzenie w tabeli liderów i potężne polecenia narzędziowe.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Czy powinieneś uczyć się programowania dla IT i Cyberbezpieczeństwa?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT i cyberbezpieczeństwo"
+            
+              , "Umiejętność programowania"
+            
+              , "Awans zawodowy"
+            
+              , "PowerShell"
+            
+              , "Bash"
+            
+              , "Python"
+            
+              , "Ansible"
+            
+              , "Pakowacz"
+            
+              , "Terraform"
+            
+              , "Automatyka"
+            
+              , "Wiersz poleceń"
+            
+              , "Skryptowanie"
+            
+              , "Wdrożenie infrastruktury"
+            
+              , "Analiza danych"
+            
+              , "Testy bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Wyzwania - Kryptowaluty - Dekodowanie</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Wyzwania"
+            
+              , "Kryptowaluty"
+            
+              , "Dekodowanie"
+            
+              , "Opis"
+            
+              , "Fernet Cipher"
+            
+              , "Szyfr Malboge"
+            
+              , "Szyfrowanie symetryczne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Kryptografia"
+            
+              , "Testy penetracyjne"
+            
+              , "Python"
+            
+              , "Bezpieczeństwo"
+            
+              , "Wyzwanie"
+            
+              , "CTF"
+            
+              , "Flaga"
+            
+              , "Szyfrowanie"
+            
+              , "Deszyfrowanie"
+            
+              , "Base64"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-challenges-crypto-decode/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png" length="233219" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Polecane książki</title>
+        
+          <link>https://pl.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "książki"
+            
+              , "cyberbezpieczeństwo"
+            
+              , "Najlepsze książki o cyberbezpieczeństwie"
+            
+              , "Najlepsze książki o automatyzacji"
+            
+              , "książki o automatyzacji"
+            
+              , "rekomendacje książek o cyberbezpieczeństwie"
+            
+              , "cyberbezpieczeństwo dla opornych"
+            
+              , "Kodowanie i tworzenie skryptów"
+            
+              , "Automatyzacja"
+            
+              , "Windows PowerShell"
+            
+              , "administratorzy"
+            
+              , "Ansible"
+            
+              , "Automatyzacja sieci"
+            
+              , "Python"
+            
+              , "Windows Server 2019"
+            
+              , "Niebieski zespół"
+            
+              , "Tworzenie bezpiecznych i niezawodnych systemów"
+            
+              , "Hash Crack"
+            
+              , "PTFM"
+            
+              , "Podręcznik terenowy drużyny fioletowej"
+            
+              , "Podręcznik operatora"
+            
+              , "Podręcznik terenowy Red Team"
+            
+              , "Inżynieria bezpieczeństwa"
+            
+              , "Sztuka oszustwa"
+            
+              , "Sztuka włamań"
+            
+              , "Sztuka niewidzialności"
+            
+              , "Podręcznik hakera"
+            
+              , "Podręcznik hakera aplikacji internetowych"
+            
+              , "Plemię hakerów"
+            
+              , "Tworzenie sieci"
+            
+              , "Open Source Intelligence"
+            
+              , "Systemy operacyjne"
+            
+              , "Oprogramowanie"
+            
+              , "Prywatność"
+            
+              , "Ekstremalna prywatność"
+            
+              , "Utwórz własny fundusz powierniczy"
+            
+              , "Inne"
+            
+              , "Ta książka została opublikowana samodzielnie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Jest to zbiór polecanych książek od SimeonOnSecurity. Książki obejmują różne tematy, w tym automatyzację kodowania i skryptów, cyberbezpieczeństwo, sieci, inteligencję open source, systemy operacyjne i oprogramowanie, prywatność i inne powiązane tematy. Dzięki dwumiesięcznemu okresowi próbnemu Amazon Kindle Unlimited możesz czytać większość z tych książek za darmo. Kolekcja ta oferuje szereg książek zarówno dla początkujących, jak i ekspertów, z tytułami takimi jak Python Crash Course i The Art of Deception. Niezależnie od tego, czy chcesz poprawić swoje umiejętności kodowania, czy też lepiej zrozumieć cyberbezpieczeństwo, w tej kolekcji każdy znajdzie coś dla siebie.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>
