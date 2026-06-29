@@ -4,9 +4,8 @@ locale = "en"
 defaultContentLanguage = "en"
 title = "simeononsecurity"
 theme = "soshellofriend"
-[pagination]
-pagerSize = 5
 canonifyURLs = true
+
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
@@ -38,7 +37,11 @@ disableLanguages = [
 # Suppress deprecated function warnings and raw HTML warnings
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[pagination]
+pagerSize = 5
+
 [Author]
+
 name = "SimeonOnSecurity"
 
 [permalinks]
