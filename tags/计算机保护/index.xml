@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机保护 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%9D%E6%8A%A4//img/banner.png</url><title>计算机保护 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%9D%E6%8A%A4/</link></image><link>https://zh.simeononsecurity.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%9D%E6%8A%A4/</link><description>Recent content in 计算机保护 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BF%9D%E6%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>Ultimate Applocker 加固配置脚本：提升 Windows 安全性</title><link>https://zh.simeononsecurity.com/github/applocker-hardening/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows 安全"
+, "应用锁"
+, "配置脚本"
+, "网络安全"
+, "恶意软件保护"
+, "威胁预防"
+, "PowerShell脚本"
+, "微软推荐的阻止规则"
+, "遵守"
+, "NSA Cyber Bitlocker 指南"
+, "应用控制"
+, "强化窗口"
+, "网络威胁"
+, "计算机保护"
+, "网络防御"
+, "安全窗口"
+, "终极 Applocker 旁路列表"
+, "Windows Defender的"
+, "系统锁定"
+, "sos-applockerhardening.ps1"</category><guid>https://zh.simeononsecurity.com/github/applocker-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 Ultimate Applocker Hardening Configuration Script 保护您的 Windows 系统免受恶意攻击。</description></item></channel></rss>

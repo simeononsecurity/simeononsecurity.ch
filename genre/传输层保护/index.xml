@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>传输层保护 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/genre/%E4%BC%A0%E8%BE%93%E5%B1%82%E4%BF%9D%E6%8A%A4//img/banner.png</url><title>传输层保护 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E4%BC%A0%E8%BE%93%E5%B1%82%E4%BF%9D%E6%8A%A4/</link></image><link>https://zh.simeononsecurity.com/genre/%E4%BC%A0%E8%BE%93%E5%B1%82%E4%BF%9D%E6%8A%A4/</link><description>Recent content in 传输层保护 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E4%BC%A0%E8%BE%93%E5%B1%82%E4%BF%9D%E6%8A%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>OWASP Top 10：关键网络应用程序安全风险</title><link>https://zh.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"网络应用程序安全风险"
+, "OWASP 10 强"
+, "注入攻击"
+, "认证"
+, "会话管理"
+, "XSS 攻击"
+, "门禁控制"
+, "安全配置错误"
+, "加密存储"
+, "传输层保护"</category><guid>https://zh.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 OWASP Top 10 中最关键的网络应用程序安全风险，以及如何防范这些风险</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>

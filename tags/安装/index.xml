@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安装 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%AE%89%E8%A3%85//img/banner.png</url><title>安装 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E8%A3%85/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%AE%89%E8%A3%85/</link><description>Recent content in 安装 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml"/><item><title>自动安装 Windows 11：绕过 TPM、安全启动和内存检查</title><link>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "视窗 11"
+, "安装"
+, "虚拟化"
+, "自动化"
+, "注册表密钥"
+, "TPM 旁路"
+, "安全启动旁路"
+, "内存旁路"
+, "vTPM"</category><guid>https://zh.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 autounattend.xml 和 vTPM 绕过 TPM、安全启动和 RAM 检查，简化虚拟环境中的 Windows 11 安装。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>离线安装 RSAT ActiveDirectory PowerShell 模块</title><link>https://zh.simeononsecurity.com/github/offline-ps-activedirectory-install/</link><pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate><category>
+"远程服务器管理工具包"
+, "PowerShell RSAT ActiveDirectory 模块"
+, "视窗 10"
+, "离线安装程序"
+, "PowerShell 脚本"
+, "PowerShell 模块"
+, "活动目录"
+, "视窗"
+, "离线"
+, "安装"
+, "服务器"
+, "行政"
+, "工具包"
+, "脚本"
+, "模块"
+, "视窗伺服器"
+, "PowerShell 内核"
+, "Windows PowerShell"
+, "微软"
+, "资讯科技行政"</category><guid>https://zh.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用简单的 PowerShell 脚本离线安装 RSAT ActiveDirectory PowerShell 模块。</description></item></channel></rss>

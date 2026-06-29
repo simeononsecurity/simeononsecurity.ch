@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>图形用户界面 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2//img/banner.png</url><title>图形用户界面 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/</link><description>Recent content in 图形用户界面 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible 自动化：从普通 Ansible 到 Ansible Tower 和 Semaphore</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"自动化"
+, "基础设施管理"
+, "配置管理"
+, "DevOps"
+, "IT 运营"
+, "开放源代码"
+, "工作流程管理"
+, "可扩展性"
+, "合作"
+, "Ansible 工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过对普通 Ansible、Ansible Tower 和 Ansible Semaphore 的比较，了解 Ansible 自动化的强大功能，并为高效的基础架构管理选择合适的工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png"/></item><item><title>Windows Optimize-Harden-Debloat GUI - 引导式安装</title><link>https://zh.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"视窗优化"
+, "Windows 10 去膨胀"
+, "Windows 10 调整"
+, "图形用户界面"
+, "升C"
+, "电源外壳"
+, "自动化"
+, "系统稳定性"
+, "系统管理"
+, "Windows 更新"
+, "脚本"
+, "编程"
+, "消肿"
+, "Windows 10 自定义"
+, "系统性能"
+, "Windows 10 隐私"
+, "安全"
+, "Windows 10 设置"
+, "Windows 10 维护"
+, "Windows 10 管理"</category><guid>https://zh.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用 Windows-Optimize-Harden-Debloat GUI 自动化脚本轻松增强您的 Windows 10 体验，该脚本提供指导安装以最小化您的 Windows 10 设置。</description></item></channel></rss>

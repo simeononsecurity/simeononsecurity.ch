@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell 密码安全最佳实践 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/powershell-%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5//img/banner.png</url><title>PowerShell 密码安全最佳实践 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/powershell-%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link></image><link>https://zh.simeononsecurity.com/tags/powershell-%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link><description>Recent content in PowerShell 密码安全最佳实践 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/powershell-%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml"/><item><title>保护脚本安全的 10 个基本 PowerShell 安全最佳实践</title><link>https://zh.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"PowerShell 安全最佳实践"
+, "脚本安全"
+, "密码安全"
+, "信息技术安全"
+, "网络安全"
+, "视窗管理"
+, "自动化"
+, "安全编码"
+, "网络安全"
+, "数据保护"</category><guid>https://zh.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解保护脚本、密码和敏感信息的 10 大基本 PowerShell 安全最佳实践。增强 PowerShell 环境的安全性，防止未经授权的访问和潜在的安全漏洞。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item></channel></rss>

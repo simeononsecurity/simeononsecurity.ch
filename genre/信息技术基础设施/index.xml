@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>信息技术基础设施 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/genre/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD//img/banner.png</url><title>信息技术基础设施 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link></image><link>https://zh.simeononsecurity.com/genre/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link><description>Recent content in 信息技术基础设施 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>增强安全性：漏洞管理系统的力量</title><link>https://zh.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"网络安全"
+, "信息技术基础设施"
+, "风险缓解"
+, "合规性"
+, "数据安全"
+, "脆弱性评估"
+, "安全态势"
+, "自动化"
+, "整合"
+, "报告"</category><guid>https://zh.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+利用漏洞管理系统加强组织的安全性并降低风险。了解它们在当今数字环境中的优势和重要性。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png"/></item><item><title>Network Plus 课程：了解 OSI 模型、拓扑结构和网络类型</title><link>https://zh.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "联网"
+, "信息技术基础设施"
+, "网络架构"
+, "计算机科学"
+, "数据通信"
+, "信息技术"
+, "网络安全"
+, "网络管理"
+, "互联网"</category><guid>https://zh.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索网络基础知识的重要性，包括 OSI 模型、网络拓扑结构和各种类型的网络，以建立高效可靠的基础设施。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png"/></item><item><title>自动化对决：Ansible vs. Puppet vs. Chef - 关键自动化工具比较</title><link>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "自动化工具"
+, "配置管理"
+, "信息技术基础设施"
+, "DevOps"
+, "IT 运营"
+, "云自动化"
+, "软件部署"
+, "基础设施管理"
+, "开源工具"</category><guid>https://zh.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解 Ansible、Puppet 和 Chef 之间的区别，在本综合比较中选择适合您组织需求的自动化工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png" length="297171" type="image/png"/></item><item><title>掌握 GPO：有效网络管理综合指南</title><link>https://zh.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"网络管理"
+, "组策略对象"
+, "GPO"
+, "视窗管理"
+, "信息技术基础设施"
+, "网络安全"
+, "活动目录"
+, "配置管理"
+, "组策略管理"
+, "网络优化"</category><guid>https://zh.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解组策略对象（GPO）的强大功能，学习如何有效管理和优化网络设置和策略，以增强安全性并简化操作。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png" length="334838" type="image/png"/></item><item><title>CheckMK：高效 IT 基础设施管理的全面监控解决方案</title><link>https://zh.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"技术"
+, "信息技术基础设施"
+, "网络监控"
+, "应用监控"
+, "IT 运营"
+, "性能分析"
+, "自动化"
+, "活动管理"
+, "可扩展性"
+, "灵活性"</category><guid>https://zh.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索 CheckMK 的功能、优势和用例，CheckMK 是用于主动 IT 基础设施管理的全面监控解决方案。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png" length="317610" type="image/png"/></item><item><title>今天，我学到了更多有关 Ansible 条件和变量管理的知识</title><link>https://zh.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"自动化"
+, "Ansible"
+, "配置管理"
+, "信息技术基础设施"
+, "DevOps"
+, "游戏手册开发"
+, "变量管理"
+, "条件执行"</category><guid>https://zh.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今天，我学到了更多有关 Ansible 条件和变量管理的知识</description></item></channel></rss>

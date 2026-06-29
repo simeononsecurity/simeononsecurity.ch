@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>受控文件夹访问 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%8F%97%E6%8E%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E8%AE%BF%E9%97%AE//img/banner.png</url><title>受控文件夹访问 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%8F%97%E6%8E%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E8%AE%BF%E9%97%AE/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%8F%97%E6%8E%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E8%AE%BF%E9%97%AE/</link><description>Recent content in 受控文件夹访问 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%8F%97%E6%8E%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E8%AE%BF%E9%97%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>确保 Windows 10 和 Windows 11 安全的基本 Windows 加固最佳实践</title><link>https://zh.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"窗口加固"
+, "视窗安全"
+, "Windows 10 加固"
+, "Windows 11 加固"
+, "Windows 安全最佳实践"
+, "Windows 安全提示"
+, "视窗安全指南"
+, "确保 Windows 操作系统的安全"
+, "Windows 系统加固"
+, "视窗安全措施"</category><guid>https://zh.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+通过全面的加固技术和最佳实践，了解增强 Windows 10 和 Windows 11 系统安全性的有效策略。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>使用 Defender 强化脚本增强 Windows 10 安全性</title><link>https://zh.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender的"
+, "视窗 10"
+, "Windows 10 安全"
+, "PowerShell 脚本"
+, "硬化"
+, "防御者强化"
+, "安全自动化"
+, "遵守"
+, "受控文件夹访问"
+, "入侵防御系统"
+, "应用控制"
+, "攻击面减少"
+, "利用保护"
+, "云提供的保护"
+, "网络保护"
+, "Windows Defender STIG 脚本"
+, "Windows Defender STIG"
+, "Windows Defender 防病毒软件 STIG V2R1"
+, "世界数据中心"
+, "自动识别率"</category><guid>https://zh.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+了解如何使用强化 Windows Defender 防病毒的 PowerShell 脚本增强 Windows 10 安全性，实现 Windows Defender 防病毒 STIG V2R1 的所有要求。</description></item></channel></rss>

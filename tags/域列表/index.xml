@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>域列表 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/%E5%9F%9F%E5%88%97%E8%A1%A8//img/banner.png</url><title>域列表 on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/%E5%9F%9F%E5%88%97%E8%A1%A8/</link></image><link>https://zh.simeononsecurity.com/tags/%E5%9F%9F%E5%88%97%E8%A1%A8/</link><description>Recent content in 域列表 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/%E5%9F%9F%E5%88%97%E8%A1%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 系统范围的广告拦截器脚本，可提供更好的隐私和安全性</title><link>https://zh.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"视窗 10"
+, "广告拦截器"
+, "遥测阻塞"
+, "PowerShell脚本"
+, "全系统广告拦截"
+, "隐私"
+, "安全"
+, "简易列表"
+, "轻松隐私"
+, "NoCoin 过滤器列表"
+, "AdGuard DNS 过滤器"
+, "溜溜球列表"
+, "Peter Lowe 的广告跟踪恶意软件服务器"
+, "Windows 防火墙"
+, "域列表"
+, "阻止 Windows 跟踪器"
+, "块跟踪器"
+, "屏蔽广告"
+, "块跟踪"</category><guid>https://zh.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用此强大的 PowerShell 脚本在 Windows 10 上阻止广告、跟踪器和遥测，该脚本利用主机文件和 Windows 防火墙进行系统范围的广告拦截。</description></item></channel></rss>
