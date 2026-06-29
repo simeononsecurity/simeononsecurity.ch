@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inbraakpreventie Systeem on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/inbraakpreventie-systeem//img/banner.png</url><title>Inbraakpreventie Systeem on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/inbraakpreventie-systeem/</link></image><link>https://nl.simeononsecurity.com/tags/inbraakpreventie-systeem/</link><description>Recent content in Inbraakpreventie Systeem on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/inbraakpreventie-systeem/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Beveiliging verbeteren met Defender Hardening Script</title><link>https://nl.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Windows 10 Beveiliging"
+, "PowerShell Script"
+, "Hardening"
+, "Defender Hardening"
+, "Veiligheid Automatisering"
+, "Naleving"
+, "Gecontroleerde toegang tot mappen"
+, "Inbraakpreventie systeem"
+, "Toepassingscontrole"
+, "Vermindering van het aanvalsoppervlak"
+, "Bescherming tegen uitbuiting"
+, "Cloud-geleverde bescherming"
+, "Netwerkbescherming"
+, "Windows Defender STIG Script"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://nl.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u de beveiliging van Windows 10 kunt verbeteren met een PowerShell-script dat Windows Defender Antivirus verhardt en alle vereisten van de Windows Defender Antivirus STIG V2R1 implementeert.</description></item></channel></rss>

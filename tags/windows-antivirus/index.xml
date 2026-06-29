@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows Antivirus on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/windows-antivirus//img/banner.png</url><title>Windows Antivirus on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/windows-antivirus/</link></image><link>https://nl.simeononsecurity.com/tags/windows-antivirus/</link><description>Recent content in Windows Antivirus on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/windows-antivirus/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Defender-naleving automatiseren met PowerShell-script</title><link>https://nl.simeononsecurity.com/github/windows-defender-stig-script/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "PowerShell Script"
+, "Automatisering"
+, "Naleving"
+, "Blue-Team"
+, "Windows Defender STIG Script"
+, "Windows Defender"
+, "Windows Defender Hardening"
+, "Windows Defender STIG"
+, "Verdediger STIG"
+, "Beveiliging"
+, "Cyberbeveiliging"
+, "STIG"
+, "Windows Beveiliging"
+, "Windows Antivirus"
+, "Windows Scripting"
+, "Windows Automatisering"
+, "Windows Hardening"
+, "Windows Defender-automatisering"
+, "Conformiteit met Windows Defender"</category><guid>https://nl.simeononsecurity.com/github/windows-defender-stig-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter uw beveiliging met het Windows Defender STIG PowerShell-script, dat naleving van de Windows Defender Antivirus V1R9 STIG-richtlijnen automatiseert.</description></item></channel></rss>

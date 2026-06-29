@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pakketuitgeverij on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/pakketuitgeverij//img/banner.png</url><title>Pakketuitgeverij on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/pakketuitgeverij/</link></image><link>https://nl.simeononsecurity.com/tags/pakketuitgeverij/</link><description>Recent content in Pakketuitgeverij on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/pakketuitgeverij/index.xml" rel="self" type="application/rss+xml"/><item><title>Vandaag heb ik geleerd hoe je chocoladepakketten maakt</title><link>https://nl.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Windows-pakketbeheer"
+, "Pakket maken"
+, "Beheer van pakketten"
+, "Infrastructuur als code (IaC)"
+, "Uitrol van Windows-software"
+, "Software verpakking"
+, "Windows Automatisering"
+, "Pakketmagazijnen"
+, "Windows Gereedschap"</category><guid>https://nl.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Audit Machtigingen on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/audit-machtigingen//img/banner.png</url><title>Audit Machtigingen on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/audit-machtigingen/</link></image><link>https://nl.simeononsecurity.com/tags/audit-machtigingen/</link><description>Recent content in Audit Machtigingen on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/audit-machtigingen/index.xml" rel="self" type="application/rss+xml"/><item><title>Machtigingen voor een vCenter controleren met PowerCLI</title><link>https://nl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Controle van vCenter-machtigingen"
+, "PowerCLI automatisering"
+, "VMware-beveiliging"
+, "Beheer van virtuele infrastructuur"
+, "Toestemming opdrachten"
+, "Toegangsbeheer voor gebruikers"
+, "Kwetsbaarheden in de beveiliging"
+, "PowerShell automatisering"
+, "vSphere-omgevingbeheer"
+, "Overzicht gebruikersrechten"</category><guid>https://nl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je effectief machtigingen voor een vCenter kunt controleren met PowerCLI, zodat je een veilige virtuele infrastructuur krijgt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item></channel></rss>

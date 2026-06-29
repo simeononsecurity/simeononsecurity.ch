@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansible Collecties on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/ansible-collecties//img/banner.png</url><title>Ansible Collecties on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/ansible-collecties/</link></image><link>https://nl.simeononsecurity.com/tags/ansible-collecties/</link><description>Recent content in Ansible Collecties on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/ansible-collecties/index.xml" rel="self" type="application/rss+xml"/><item><title>Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</title><link>https://nl.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisering"
+, "Ansible"
+, "Configuratiebeheer"
+, "IT-infrastructuur"
+, "DevOps"
+, "Playbook ontwikkeling"
+, "Variabel beheer"
+, "Voorwaardelijke uitvoering"</category><guid>https://nl.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vandaag heb ik meer geleerd over voorwaardelijk en variabel beheer van Ansible</description></item></channel></rss>

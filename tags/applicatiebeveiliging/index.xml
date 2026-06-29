@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Applicatiebeveiliging on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/applicatiebeveiliging//img/banner.png</url><title>Applicatiebeveiliging on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/applicatiebeveiliging/</link></image><link>https://nl.simeononsecurity.com/tags/applicatiebeveiliging/</link><description>Recent content in Applicatiebeveiliging on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/applicatiebeveiliging/index.xml" rel="self" type="application/rss+xml"/><item><title>Best practices voor Python-beveiliging: Uw code en gegevens beschermen</title><link>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python Beveiliging"
+, "Code Veiligheid"
+, "Gegevensbescherming"
+, "Software Ontwikkeling"
+, "Cyberbeveiliging"
+, "Veilig coderen"
+, "Webontwikkeling"
+, "Privacy van gegevens"
+, "Beveiliging van toepassingen"
+, "IT Beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>Uw webtoepassingen beveiligen met OWASP ASVS</title><link>https://nl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><category>
+"beveiliging van webtoepassingen"
+, "OWASP"
+, "ASVS"
+, "applicatiebeveiliging"
+, "beveiligingsnormen"
+, "cyberbeveiliging"
+, "beheer van kwetsbaarheden"
+, "veilige codering"
+, "penetratietesten"
+, "dreigingsmodellering"
+, "veiligheidscontroles"
+, "veiligheidsbeoordeling"
+, "automatische beveiligingstests"
+, "handmatige beveiligingstests"
+, "veilige ontwikkelingscyclus"
+, "beste beveiligingspraktijken"
+, "gegevensbeveiliging"
+, "risicobeheer"
+, "compliance"
+, "informatiebeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u uw webapplicaties kunt beveiligen met behulp van de OWASP Application Security Verification Standard (ASVS) om te voldoen aan de strengste veiligheidsmaatregelen en bescherming te bieden tegen veelvoorkomende kwetsbaarheden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png"/></item></channel></rss>

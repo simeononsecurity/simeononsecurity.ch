@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux OS on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/linux-os//img/banner.png</url><title>Linux OS on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/linux-os/</link></image><link>https://nl.simeononsecurity.com/tags/linux-os/</link><description>Recent content in Linux OS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/linux-os/index.xml" rel="self" type="application/rss+xml"/><item><title>Verbeter de beveiliging van virtuele machines met vTPM: Stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Virtualisatie"
+, "VMware"
+, "vSphere"
+, "Beveiliging"
+, "Vertrouwde platformmodule"
+, "vTPM"
+, "Gast OS"
+, "Encryptie"
+, "Platform Attest"</category><guid>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter de beveiliging van virtuele machines met behulp van vTPM met onze uitgebreide stap-voor-stap handleiding, die ondersteuning biedt voor platform-attestatie en BitLocker-encryptie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png"/></item></channel></rss>

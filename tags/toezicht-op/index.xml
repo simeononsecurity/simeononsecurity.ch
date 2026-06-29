@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Toezicht Op on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/toezicht-op//img/banner.png</url><title>Toezicht Op on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/toezicht-op/</link></image><link>https://nl.simeononsecurity.com/tags/toezicht-op/</link><description>Recent content in Toezicht Op on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/toezicht-op/index.xml" rel="self" type="application/rss+xml"/><item><title>Hoe uw Docker- en Kubernetes-omgeving te beveiligen</title><link>https://nl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Beveiliging"
+, "Containers"
+, "Netwerkbeveiliging"
+, "RBAC"
+, "API-server"
+, "Kwetsbaarheden"
+, "Toezicht op"
+, "Loggen"
+, "Firewalls"
+, "TLS"
+, "Anchore"
+, "Clair"
+, "Aqua Veiligheid"
+, "ELK Stapel"
+, "Splunk"
+, "Prometheus"
+, "Cyberbeveiliging"
+, "Beste praktijken"</category><guid>https://nl.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer best practices voor het beveiligen van uw Docker- en Kubernetes-omgeving, waaronder het gebruik van officiële images, het beperken van machtigingen en het implementeren van netwerkbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png"/></item></channel></rss>
