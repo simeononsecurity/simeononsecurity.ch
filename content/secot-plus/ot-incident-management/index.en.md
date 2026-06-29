@@ -30,63 +30,111 @@ You work from a defined model rather than improvising.
 | **Recover** | Restore systems to normal operation |
 | **Lessons learned** | Review to improve future response |
 
-The **Incident Command System** provides a standardized command structure, and **ICS4ICS** adapts it specifically for industrial control system incidents.
+The **Incident Command System (ICS)** provides a standardized command structure, and **ICS4ICS** adapts it specifically for industrial control system incidents.
 
-## Plans and Playbooks
+## Coordination and Communication
 
-You prepare the documents response depends on.
+OT incidents pull in many teams at once, so coordination is a skill the exam tests directly. Safety comes first, which can mean calling for physical response before cyber response.
 
-- An **incident response plan** documents the overall approach.
-- A **playbook** guides response to a specific type of incident.
-- A **runbook** gives detailed operational procedures.
-- A **decision matrix** guides choices such as declaration, shutdown, or payment.
-- An **incident response retainer** pre-arranges outside support.
+- **Cybersecurity and physical response** may both be needed, including **emergency services** and an **emergency shutdown (ESD)**.
+- **Crisis management** leads the broad organizational response and messaging.
+- **Facilities** teams handle the building, power, and physical environment.
+- **IT and OT coordination** aligns two teams that think differently about uptime and safety.
+- **Escalation and notification** raise the incident to the right leaders and authorities on time.
 
-*An OFAC consideration matters before any ransom payment, because paying a sanctioned entity is itself illegal. The decision matrix should route that choice to legal and leadership.*
+You also reach outside the organization for help through **mutual aid**.
 
-## Exercises
+- **Internal** teams and other sites can lend staff and resources.
+- **ISACs** share sector intelligence and coordinate a common response.
+- **Incident response retainers (IRRs)** pre-arrange outside expert support.
 
-You practice before the real event.
+## Plans, Playbooks, and Exercises
 
-- A **tabletop exercise** walks through a scenario in discussion.
+You prepare the documents and skills response depends on long before an incident.
+
+| Document | Role |
+|----------|------|
+| **Incident response plan (IRP)** | Documents the overall response approach |
+| **Playbook** | Guides response to a specific type of incident |
+| **Runbook** | Gives detailed step-by-step operational procedures |
+| **Decision matrix** | Guides choices such as declaration, shutdown, or payment |
+
+You focus the plan on **high-value assets** and the **attack surface** that protect the process. Then you practice.
+
+- A **tabletop exercise (TTX)** walks through a scenario in discussion.
 - A **purple-team exercise** has offensive and defensive teams work together.
 - A **simulation** is a realistic practice run of response.
-- A **flyaway kit** is a portable set of tools and gear for responding on site.
+
+## Decisions, Triage, and Forensics
+
+When an incident is declared, you make hard calls and gather evidence at the same time. A **flyaway kit** with **PPE** and **tooling** lets a team respond on site.
+
+Decision matrices guide three critical choices.
+
+- **Declaration** decides when an event becomes a formal incident.
+- **Shutdown** decides whether to bring the process to a safe stop.
+- **Payment** decides on any ransom, with an **OFAC** check because paying a sanctioned entity is illegal.
+
+*An OFAC consideration matters before any ransom payment. The decision matrix should route that choice to legal and leadership, never to a single responder.*
+
+You then **triage** and **scope** the incident, and you protect evidence with a **chain of custody** that preserves its integrity. Advanced collection in OT goes beyond a normal disk image.
+
+- **Historian data**, a **sequence of events**, and **operator logs** reconstruct what happened to the process.
+- **Memory**, **disk**, **registry**, and **user logs** capture the host side of the attack.
+
+Finally, **root cause analysis (RCA)** determines the underlying cause so the same incident cannot recur.
 
 ## OT-Specific Incident Effects
 
-OT attacks produce effects you must recognize and name.
+OT attacks produce primary impacts you must recognize and name. The exam pairs each loss with its manipulation twin.
 
-| Effect | What happens |
+| Effect | What Happens |
 |--------|--------------|
 | **Loss of view** | Operators can no longer see the process state |
 | **Loss of control** | Operators can no longer control the process |
-| **Loss of safety** | Safety functions are compromised |
+| **Loss of safety** | Safety functions stop protecting the process |
 | **Manipulation of view** | The attacker falsifies what operators see |
 | **Manipulation of control** | The attacker alters commands sent to the process |
+| **Manipulation of safety** | The attacker tampers with safety functions |
 
 *Manipulation of view is especially dangerous. Stuxnet showed operators normal readings while the centrifuges tore themselves apart. Trust your independent instrumentation, not just the HMI.*
 
-## Investigation and Forensics
+## Investigative Data Sets
 
-You gather and protect evidence while you respond.
+You pull evidence from three data sets, each telling part of the story.
 
-- **Chain of custody** preserves the integrity of collected evidence.
-- **Triage** and **scoping** assess and bound the incident.
-- **Memory capture** collects volatile memory for analysis.
-- **Historian data**, a **sequence of events**, and the **operator log** reconstruct what happened.
-- **Root cause analysis** determines the underlying cause, and a **deviation from baseline** points to the problem.
+- **System documentation** reveals a **deviation from baseline**, **anomalous behavior**, or a **deviation from design**.
+- **Network data** includes **flow**, **firewall**, **ICS protocol**, **pcap**, **IDS**, **deception**, **ISP**, and **syslog** records.
+- **Host data** includes **disk**, **OS events**, **application logs**, **security logs**, **sudo**, and **systemd** records.
 
 ## Containment Through Recovery
 
-You stop the spread and restore safe operation.
+You stop the spread, remove the threat, and restore safe operation in order.
 
-- **Containment**, **isolation**, and **quarantine** limit and separate the affected systems.
-- **Eradication** removes the threat from affected systems.
-- **Recovery** restores normal operation, sometimes through a **bare metal restore** or a **hot swap** of failed hardware.
-- An **emergency shutdown** brings the process to a safe stopped state when needed.
+**Containment** limits the damage.
 
-After the incident, a **hot wash** debriefs while details are fresh, **lessons learned** drives improvement, and **mandatory reporting** satisfies legal and contractual notification duties.
+- **Isolate** and **quarantine** the affected systems.
+- **Disconnect IT from OT** to stop a pivot.
+- **Block malicious traffic** and **suspend compromised accounts**.
+
+**Eradication** removes the threat.
+
+- **Remove malicious components and malware** from affected systems.
+- **Reset credentials** that may have been exposed.
+
+**Recovery** brings the process back safely.
+
+- **Restoration** returns systems to a known good state.
+- A **bare metal restore** rebuilds a system from the ground up.
+- A **hot swap** replaces failed hardware with minimal downtime.
+- **Process validation** confirms the process runs correctly before going live.
+- A **redesign** fixes the underlying weakness so it cannot be exploited again.
+
+After the incident, you close the loop.
+
+- A **hot wash** or **debrief** reviews the response while details are fresh.
+- A **postmortem** and **lessons learned** drive lasting improvement.
+- **Mandatory reporting** satisfies **regulatory**, **insurance**, **emergency notification**, and **contractual** duties.
 
 ## Next Steps
 

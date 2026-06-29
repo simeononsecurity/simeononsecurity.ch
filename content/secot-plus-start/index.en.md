@@ -44,7 +44,8 @@ coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environme
 - Identify **OT components**, including sensors, actuators, controllers, PLCs, HMIs, variable frequency drives, intelligent electronic devices, and remote terminal units
 - Distinguish **OT systems**, including SCADA, distributed control systems, safety instrumented systems, historians, engineering workstations, and manufacturing execution systems
 - Understand **control logic and programming**, including ladder logic, function block diagrams, structured text, process variables, and set points
-- Compare **OT protocols**, including Modbus, DNP3, Profibus, Profinet, EtherCAT, OPC UA, and BACnet
+- Compare **OT protocols** by transport, including serial Modbus and DNP3, Ethernet Profinet and OPC UA, and wireless VSAT and 802.11
+- Contrast **legacy and modern infrastructure**, including embedded and real-time operating systems, virtualization, software-defined networking, and cloud
 - Recognize the realities of **IT/OT convergence** and the role of real-time and embedded operating systems
 
 -----
@@ -69,9 +70,9 @@ coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environme
 
 - Use **intelligence disciplines**, including HUMINT, SIGINT, OSINT, IMINT, and MASINT
 - Apply **analysis models**, including the Diamond Model, the intelligence life cycle, MITRE ATT&CK for ICS, and the ICS Cyber Kill Chain
-- Study **landmark OT threats**, including Stuxnet, TRISIS, BlackEnergy, Industroyer, FrostyGoop, and the Colonial Pipeline incident
-- Profile **threat actors**, including nation-states, advanced persistent threats, hacktivists, cybercriminals, and insiders
-- Recognize **OT attack techniques**, including removable media threats, phishing, lateral movement, and IT to OT pivots
+- Study **landmark OT threats**, both direct attacks like Stuxnet, TRISIS, BlackEnergy, Industroyer, and FrostyGoop, and indirect events like Colonial Pipeline, SolarWinds, and NotPetya
+- Profile **threat actors**, including nation-states, advanced persistent threats, hacktivists, cybercriminals, and intentional and unintentional insiders
+- Recognize **OT threat vectors**, including removable media, phishing and vishing, lateral movement, IT-to-OT pivots, and rogue base stations
 - Share and consume intelligence using **indicators of compromise, YARA, STIX, ISACs, and threat feeds**
 
 -----
@@ -109,6 +110,7 @@ coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environme
 ### [OT Incident Management](/secot-plus/ot-incident-management/)
 
 - Follow a **response model**, including the PICERL phases and the Incident Command System adapted for ICS (ICS4ICS)
+- Coordinate **response and communication**, including crisis management, IT and OT coordination, mutual aid, ISACs, and escalation
 - Prepare **plans and playbooks**, including incident response plans, runbooks, decision matrices, and incident response retainers
 - Practice with **exercises**, including tabletop, purple-team, and full simulation drills, plus flyaway kits
 - Recognize **OT-specific incident effects**, including loss of view, loss of control, loss of safety, and manipulation of view and control

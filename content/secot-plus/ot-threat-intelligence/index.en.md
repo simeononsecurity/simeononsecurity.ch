@@ -19,75 +19,111 @@ Threat intelligence is the difference between guarding everything equally and gu
 
 ## Intelligence Disciplines
 
-Intelligence is gathered from distinct sources.
+Intelligence is gathered from distinct sources, each with its own discipline.
 
 | Discipline | Source |
 |------------|--------|
 | **HUMINT** | Human sources and people |
 | **SIGINT** | Intercepted communications and signals |
-| **OSINT** | Publicly available sources |
-| **IMINT** | Photographs and other imagery |
 | **MASINT** | Technical sensor measurements and signatures |
+| **OSINT** | Publicly available open sources |
+| **IMINT** | Photographs and other imagery |
 
 ## Analysis Models
 
-You structure analysis with proven models.
+You structure analysis with proven models so findings are consistent and shareable.
 
-- The **Diamond Model** links adversary, capability, infrastructure, and victim.
-- The **intelligence life cycle** repeats planning, collection, analysis, and dissemination.
+- The **Diamond Model** links adversary, capability, infrastructure, and victim for a single intrusion.
+- The **intelligence life cycle** repeats planning, collection, processing, analysis, and dissemination.
 - **MITRE ATT&CK for ICS** catalogs adversary tactics and techniques against industrial control systems.
-- The **ICS Cyber Kill Chain** describes the stages of an attack against industrial control systems.
+- The **ICS Cyber Kill Chain** describes the two stages of an attack against industrial control systems, the intrusion stage and the attack development and execution stage.
 
 *MITRE ATT&CK for ICS is the OT-specific companion to the enterprise ATT&CK matrix. Learn it as your shared language for describing OT attacker behavior.*
 
 ## Landmark OT Threats
 
-These real incidents shaped the field and appear throughout the exam.
+The exam splits real incidents into two groups. **Direct** threats were built to attack OT and ICS. **Indirect** threats hit IT or supply chains but still disrupted physical operations.
 
-| Threat | What it did |
-|--------|-------------|
+These **direct** incidents targeted control systems on purpose.
+
+| Direct Threat | What It Did |
+|---------------|-------------|
 | **Stuxnet** | Physically damaged Iranian centrifuges by manipulating PLCs |
-| **TRISIS** | Targeted a safety instrumented system to disable safety functions |
-| **BlackEnergy** | Contributed to power outages in Ukraine |
-| **Industroyer** | Manipulated electric grid substation equipment |
+| **TRISIS (Triton)** | Targeted a safety instrumented system to disable safety functions |
+| **BlackEnergy 2/3** | Contributed to power outages in Ukraine |
+| **Industroyer** | Manipulated electric grid substation equipment directly |
 | **FrostyGoop** | Targeted OT controllers over the Modbus protocol |
-| **Colonial Pipeline** | A ransomware incident that disrupted fuel distribution |
 
 *TRISIS stands out as the first known malware to target a safety instrumented system. Attacking the last safety barrier turns a cyber event into a potential physical disaster.*
 
+These **indirect** incidents disrupted operations without directly compromising the control logic.
+
+| Indirect Threat | What It Did |
+|-----------------|-------------|
+| **Colonial Pipeline** | A ransomware incident on IT that forced a precautionary pipeline shutdown |
+| **SolarWinds** | A supply chain compromise of a widely used management platform |
+| **Maersk (NotPetya)** | Wiper malware that crippled global shipping and logistics |
+| **AcidRain** | Wiper malware that bricked satellite modems and disrupted communications |
+| **2024 CrowdStrike outage** | A faulty software update that caused widespread operational disruption |
+| **Collins Aerospace / RTX** | A supply chain incident affecting aviation systems |
+
+*The lesson of the indirect cases is that you do not need malware on a PLC to halt a process. An IT outage, a vendor compromise, or a precautionary shutdown can stop operations just as effectively.*
+
 ## Threat Actors
 
-You profile the adversary to anticipate their behavior.
+You profile the adversary to anticipate their behavior and motivation.
 
-- A **nation-state actor** is a well-resourced attacker working for a government.
-- An **advanced persistent threat** is a stealthy, long-term, capable intruder.
-- A **hacktivist** is motivated by political or social causes.
-- A **cybercriminal** is motivated primarily by financial gain.
-- An **insider threat** comes from people inside the organization who misuse access.
+| Actor | Motivation |
+|-------|------------|
+| **Nation-state / APT** | Strategic disruption, sabotage, and espionage with deep resources |
+| **Hacktivist** | Political or social causes |
+| **Cybercriminal** | Financial gain through extortion and ransomware |
+| **Insider (intentional)** | Deliberate misuse of authorized access |
+| **Insider (unintentional)** | Accidental harm from error or negligence |
 
-## Attack Techniques
+An **advanced persistent threat (APT)** is a stealthy, long-term, well-resourced intruder, usually a nation-state, that pursues **espionage** or sabotage over months or years.
 
-OT attackers use techniques you must recognize.
+## Threat Vectors
 
-- A **removable media threat** carries malware on USB drives and portable storage, a common way into air-gapped OT.
-- **Phishing** and **vishing** use deceptive messages or voice calls to steal access.
-- **Lateral movement** is moving between systems after initial access.
-- An **IT to OT pivot** is crossing from the IT network into the OT network, the classic path into a plant.
-- A **rogue base station** is a fake cellular tower used to intercept communications.
+OT attackers reach their target through vectors you must recognize and close.
 
-## Sharing and Consuming Intelligence
+- **Remote access** abuse through third-party or internal connections.
+- **Removable media** carrying malware on USB drives into air-gapped OT.
+- **Social engineering** including **phishing** email and **vishing** voice calls.
+- **Account compromise** using stolen or weak credentials.
+- **Supply chain** tampering, including malicious **firmware**.
+- **Lateral movement** between systems after initial access.
+- An **IT-to-OT pivot** crossing from the IT network into the OT network, the classic path into a plant.
+- **Unauthorized devices** connected to the OT network without approval.
+- **Misconfigurations** that leave services exposed.
+- **Vulnerability exploitation** against unpatched OT systems.
+- **On-path attacks** that intercept and alter traffic between two systems.
+- **QR code** lures that redirect a victim to a malicious destination.
+- **Cell-based attacks** such as **SIM swapping** and a **rogue base station** that impersonates a cellular tower.
 
-You exchange intelligence in standard formats and through trusted channels.
+## Indicators and Intelligence Sharing
+
+You exchange intelligence in standard formats and through trusted channels. An **indicator of compromise (IOC)** is an observable artifact that suggests a breach.
+
+Common IOCs include the following.
+
+- **File hashes** of known malicious files.
+- **IP addresses** and **malicious domains** used by attackers.
+- **Usernames** and **email addresses** tied to an actor.
+- **Registry modifications**, **abnormal processes**, and **unusual log entries**.
+- **Suspicious sessions** and connections that deviate from the baseline.
+
+You describe an actor's broader behavior with their **tactics, techniques, and procedures (TTPs)**, which are harder to change than a single IOC. You share all of this through standard tooling.
 
 | Tool | Role |
 |------|------|
-| **Indicator of compromise** | An observable artifact that suggests a breach |
 | **YARA** | A rule format for identifying and classifying malware |
-| **STIX** | A standard format for sharing threat intelligence |
+| **STIX** | A standard format for sharing structured threat intelligence |
+| **Threat intelligence platform** | Software that aggregates, enriches, and operationalizes intelligence |
 | **ISAC** | An Information Sharing and Analysis Center for a sector |
 | **Threat intelligence feed** | A stream of current threat data and indicators |
 
-You also describe an actor's **tactics, techniques, and procedures** to characterize their behavior, and you use **bug bounty** programs and **OEM threat feeds** to gather more.
+You draw from many sources. **Third-party private feeds**, **OEM** vendor advisories, **volunteer** and **bug bounty** reporting, and even **social media** all feed analysis. **ISACs** and **government** advisories provide trusted, sector-specific intelligence.
 
 ## Next Steps
 

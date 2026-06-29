@@ -19,76 +19,120 @@ OT operations differ from IT operations because uptime and safety constrain ever
 
 ## Asset Inventory and Discovery
 
-You cannot secure what you cannot see, so inventory comes first.
+You cannot secure what you cannot see, so inventory comes first. You discover assets, create the inventory, validate it, and maintain it over time.
 
-| Method | How it works |
-|--------|-------------|
+| Method | How It Works |
+|--------|--------------|
 | **Passive discovery** | Identifies assets by observing network traffic without probing |
 | **Active discovery** | Identifies assets by querying or scanning them |
 | **Manual discovery** | Identifies assets through physical inspection and records |
 
-A **configuration management database** stores asset configuration details and relationships, a **software inventory** records installed software, and each **asset attribute** captures a property such as IP, model, location, or owner.
-
 *Prefer passive discovery in OT. Active scanning can disrupt fragile devices, so you watch traffic rather than probe whenever possible.*
+
+The inventory is only useful if it is rich and current.
+
+- **Creation** builds the first complete list of assets.
+- **Validation** confirms the inventory matches reality through walkdowns and cross-checks.
+- **Maintenance** keeps the inventory accurate as assets change.
+- **Key attributes** capture each asset's IP, MAC, model, firmware, location, and owner.
+- A **software inventory** records installed software and versions on each asset.
+- A **configuration management database (CMDB)** stores asset configuration and maps relationships between assets.
+- A **collection management framework** documents what data is collected, from where, and how.
 
 ## Data Collection and Analysis
 
-You gather the data that reveals what is happening.
+You gather data from three layers and analyze it for signs of trouble. The exam groups log sources by where they live.
 
-- A **packet capture** records network traffic for analysis.
+**Control system data** comes from the process itself.
+
+- **Process logs** record control system events and values.
+- **Change logs** capture configuration and logic changes.
+- **Function codes** in protocols like Modbus reveal what command was issued.
+- A **historian** holds time-series process data for trending.
+
+**Network and boundary data** comes from the wire.
+
+- A **packet capture (pcap)** records raw network traffic for analysis.
 - **Syslog** forwards and stores log messages.
-- A **process log** records control system events and values.
-- A **historian** holds time-series process data.
-- **Security information and event management (SIEM)** aggregates and correlates security logs.
-- **Security orchestration, automation, and response (SOAR)** automates security workflows.
-- A **collection management framework** documents what data is collected, from where, and how.
+- **IDS**, **firewall**, **switch**, **router**, and **edge** logs show boundary activity.
 
-## Detection
+**Host and security data** comes from endpoints and identity systems.
 
-You turn collected data into detections.
+- **AAA and access logs** record authentication and authorization.
+- **EDR** and **EPP** report endpoint activity and detections.
+- **OS and application logs** and **identity logs** round out host visibility.
+
+You centralize and act on this data with two platforms. **Security information and event management (SIEM)** aggregates and correlates security logs, and **security orchestration, automation, and response (SOAR)** automates security workflows.
+
+You then turn data into detection.
 
 - **Baselining** establishes normal behavior so deviations stand out.
-- **Threat hunting** proactively searches for undetected threats.
-- **IDS rule tuning** adjusts detection rules to reduce false positives.
+- **Threat hunting** proactively searches collected artifacts for undetected threats.
+- **Tuning** refines detection by adjusting **IDS rules**, **firewall rules**, **network performance monitoring**, **EPP and EDR policy**, and **SIEM and SOAR** logic to cut false positives.
 
 ## Vulnerability Management
 
-You find weaknesses and prioritize them by real exposure.
+You find weaknesses, decide which matter, and confirm they are fixed. You identify vulnerabilities through both **external** and **internal** assessment.
 
-| Concept | Meaning |
-|---------|---------|
-| **Vulnerability triage** | Prioritizes by exposure, severity, and impact |
-| **Exposure** | How reachable an asset is by a threat |
-| **Exploitability** | How easily a vulnerability can be used |
-| **Software bill of materials** | Lists the components inside a piece of software |
-| **National Vulnerability Database** | A repository of known vulnerabilities |
-| **Remediation verification** | Confirms a fix actually resolved the issue |
+You detect them with three approaches, choosing the least disruptive for the asset.
 
-You detect vulnerabilities through **passive**, **active**, and **derived detection**, choosing the least disruptive method for the asset.
+- **Passive detection** finds vulnerabilities by observing traffic and configurations.
+- **Active detection** scans or probes a system directly.
+- **Derived detection** infers vulnerabilities from inventory and known advisories.
 
-## Patching and Compensating Controls
+You source vulnerability data from a **software bill of materials (SBOM)**, **vendor advisories**, and the **National Vulnerability Database (NVD)**.
 
-Patching OT is hard, so you often reach for alternatives.
+You then triage by real exposure, not raw score alone.
 
-- **Patch management** acquires, tests, and applies updates.
+| Factor | Question It Answers |
+|--------|---------------------|
+| **Exposure** | How reachable is the asset by a threat? |
+| **Relevance** | Does the vulnerability apply to this configuration? |
+| **Exploitability** | How easily can the flaw be used? |
+| **Severity** | How serious is the flaw on its own? |
+| **Impact** | What happens to the process if it is exploited? |
+
+After remediation, **remediation verification** confirms the fix actually resolved the issue.
+
+## Patching and Remediation
+
+Patching OT is hard, so you evaluate every fix before you touch production. You first confirm the patch is viable.
+
+- **Availability** asks whether a patch even exists.
+- **Applicability** asks whether it applies to your version and configuration.
+- **Viability** asks whether you can deploy it without breaking the process.
+- **Dependency** asks what else must change for the patch to work.
+
+When a patch is not viable, you reach for alternatives and disciplined process.
+
 - A **mitigating control** reduces the impact of a vulnerability when patching is not possible.
 - A **compensating control** substitutes for an impractical primary control.
 - **Version management** tracks software and firmware versions.
-- **Scheduling planned downtime** arranges maintenance windows to apply changes safely.
-- **Spare availability** keeps backup hardware on hand to support remediation.
+- **Stakeholder coordination** aligns engineers, operators, and owners before a change.
+- **Scheduling downtime** arranges maintenance windows to apply changes safely.
+- **Testing** and **process validation** prove the change works and the process still runs correctly.
+- A **rollback plan** prepares a way to revert a change that fails.
 
 *When you cannot patch a vulnerable PLC, you wrap it in compensating controls such as tighter segmentation and monitoring. The risk is reduced even though the flaw remains.*
 
-## Media and Field Device Security
+## Portable and Mobile Device Security
 
-Removable media and portable tools are a major OT threat vector, so you control them tightly.
+Removable media and portable tools are a major OT threat vector, so you control them tightly across their whole life cycle.
 
-- **Removable media scanning** checks portable storage for malware before use.
-- A **sanitization kiosk** scans and cleans removable media at a dedicated station.
-- A **write blocker** prevents writing to storage to preserve evidence.
-- **Media destruction** securely destroys storage so its data cannot be recovered.
-- **Calibration equipment** and **mobile device security** protect the portable tools and devices used in the field.
-- A **security posture check** validates that a device meets requirements before it connects.
+For **removable media**, you apply a chain of controls.
+
+- **Scanning kiosks** and **anti-malware** check media for malware before use.
+- **Dedicated devices** are reserved for a single purpose to limit cross-contamination.
+- **Authorization**, **tracking**, and **procurement** control which media enter the environment.
+- **Tamper-proofing**, **secure storage**, and a **write blocker** protect integrity and evidence.
+- **Sanitization**, **destruction**, and **data loss detection** handle media at end of life.
+
+For **mobile devices**, you manage who and what connects.
+
+- Devices include **corporate** and **third-party** hardware, **calibration equipment**, **phones**, **tablets**, and **wearables**.
+- **Device-to-network authentication** proves a device is allowed before it joins.
+- **Security validation** and **posture checks** confirm a device meets requirements before it connects.
+- **External connections** are controlled whether **persistent** or **temporary**, and **geolocation** can restrict where a device is allowed to operate.
 
 ## Next Steps
 
