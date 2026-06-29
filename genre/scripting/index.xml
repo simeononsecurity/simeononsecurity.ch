@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scripting on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/scripting//img/banner.png</url><title>Scripting on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/scripting/</link></image><link>https://ro.simeononsecurity.com/genre/scripting/</link><description>Recent content in Scripting on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering Active Directory Administration with PowerShell: Ghid de instalare și utilizare</title><link>https://ro.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tehnologie"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "Administrație"
+, "Scripting"
+, "IT"
+, "Automatizare"
+, "Windows Server"
+, "Microsoft"</category><guid>https://ro.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descoperiți cum să instalați și să utilizați în mod eficient modulul Active Directory pentru PowerShell pentru a simplifica sarcinile de administrare a Windows Active Directory.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>Ar trebui să învățați programare pentru IT și securitate cibernetică?</title><link>https://ro.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT și securitate cibernetică"
+, "Competențe de programare"
+, "Avansarea în carieră"
+, "Automatizare"
+, "Linia de comandă"
+, "Scripting"
+, "Implementarea infrastructurii"
+, "Analiza datelor"
+, "Testarea securității"
+, "Dezvoltare profesională"</category><guid>https://ro.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați de ce stăpânirea abilităților de programare poate fi foarte benefică pentru cariera dumneavoastră în domeniul IT și al securității cibernetice și cum să începeți cu PowerShell, Bash, Python, Ansible, Packer și Terraform.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item></channel></rss>

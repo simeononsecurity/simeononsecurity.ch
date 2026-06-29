@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestionarea Sesiunilor on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/gestionarea-sesiunilor//img/banner.png</url><title>Gestionarea Sesiunilor on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/gestionarea-sesiunilor/</link></image><link>https://ro.simeononsecurity.com/genre/gestionarea-sesiunilor/</link><description>Recent content in Gestionarea Sesiunilor on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/gestionarea-sesiunilor/index.xml" rel="self" type="application/rss+xml"/><item><title>Top 10 OWASP: Riscuri critice pentru securitatea aplicațiilor web</title><link>https://ro.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Riscuri de securitate a aplicațiilor web"
+, "Top 10 OWASP"
+, "Atacuri de injecție"
+, "Autentificare"
+, "Gestionarea sesiunilor"
+, "Atacuri XSS"
+, "Controlul accesului"
+, "Configurarea greșită a securității"
+, "Stocare criptografică"
+, "Protecția stratului de transport"</category><guid>https://ro.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați care sunt cele mai importante riscuri de securitate pentru aplicațiile web cu OWASP Top 10 și cum să vă protejați împotriva lor</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>

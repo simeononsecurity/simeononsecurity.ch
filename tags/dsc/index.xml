@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSC on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/dsc//img/banner.png</url><title>DSC on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/dsc/</link></image><link>https://ro.simeononsecurity.com/tags/dsc/</link><description>Recent content in DSC on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/dsc/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: Un ghid de pornire</title><link>https://ro.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Managementul configurației"
+, "Automatizare"
+, "Windows"
+, "Administrarea sistemului"
+, "Cele mai bune practici"
+, "Conformitate"
+, "Securitate"
+, "Infrastructură"
+, "DevOps"
+, "Configurația serverului"
+, "Testare"
+, "Git"
+, "Controlul sursei"
+, "Reglementări guvernamentale"
+, "NIST"
+, "CIS"
+, "Deriva de configurare"
+, "Resurse personalizate"</category><guid>https://ro.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explorați puterea PowerShell Desired State Configuration (DSC) pentru a automatiza și gestiona configurațiile de sistem pentru un mediu sigur și conform.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roluri De Utilizator on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/tags/roluri-de-utilizator//img/banner.png</url><title>Roluri De Utilizator on simeononsecurity</title><link>https://ro.simeononsecurity.com/tags/roluri-de-utilizator/</link></image><link>https://ro.simeononsecurity.com/tags/roluri-de-utilizator/</link><description>Recent content in Roluri De Utilizator on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/tags/roluri-de-utilizator/index.xml" rel="self" type="application/rss+xml"/><item><title>Cum să auditați permisiunile pentru un vCenter cu PowerCLI</title><link>https://ro.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Audit al permisiunilor vCenter"
+, "Automatizarea PowerCLI"
+, "Securitatea VMware"
+, "Managementul infrastructurii virtuale"
+, "Atribuții de permisiune"
+, "Controlul accesului utilizatorilor"
+, "Vulnerabilități de securitate"
+, "Automatizarea PowerShell"
+, "gestionarea mediului vSphere"
+, "Revizuirea permisiunilor utilizatorilor"</category><guid>https://ro.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aflați cum să auditați eficient permisiunile pentru un vCenter utilizând PowerCLI, asigurând o infrastructură virtuală sigură.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png"/></item></channel></rss>
