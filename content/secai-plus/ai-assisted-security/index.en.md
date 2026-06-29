@@ -6,8 +6,8 @@ draft: false
 description: "Master AI-assisted security for the CompTIA SecAI+ CY0-001 exam. Learn AI security tools, defensive automation, pipeline integration, and how attackers misuse AI for deepfakes, social engineering, and automated attack generation."
 genre: ["CompTIA SecAI+ Course", "AI-assisted Security", "Security Automation", "Threat Detection", "Deepfakes", "Offensive AI", "AI Security", "CY0-001", "SOAR", "Cybersecurity"]
 tags: ["CompTIA SecAI+", "CY0-001", "AI security tools", "anomaly detection", "threat modeling", "incident management", "low-code automation", "Model Context Protocol", "CI/CD code scanning", "deepfake", "disinformation", "AI social engineering", "AI-generated malware", "payload generation", "fraud detection"]
-cover: "/img/cover/comptia-secai-ai-assisted-security.webp"
-coverAlt: "An illustration of a security analyst using AI tools to detect threats across a network, with automated workflows and alerts on a dark background."
+cover: "/img/cover/comptia-secai-plus-ai-assisted-security.webp"
+coverAlt: "A split illustration showing a cybersecurity analyst using AI tools on screens, while the other side depicts abstract representations of an attacker generating malware. The background is dark with vibrant colors."
 coverCaption: "Put AI to Work on Defense and Recognize Its Misuse for the CY0-001 Exam"
 ---
 

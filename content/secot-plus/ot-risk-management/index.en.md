@@ -6,8 +6,8 @@ draft: false
 description: "Master OT risk management for the CompTIA SecOT+ SOT-001 exam. Learn risk fundamentals, frameworks like ISA/IEC 62443 and NERC CIP, qualitative and quantitative assessments, risk treatments, governance artifacts, third-party risk, and change management."
 genre: ["CompTIA SecOT+ Course", "OT Risk Management", "ISA/IEC 62443", "NERC CIP", "Risk Assessment", "Governance", "Supply Chain Risk", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "risk appetite", "risk register", "ISA/IEC 62443", "NERC CIP", "NIST framework", "qualitative risk assessment", "quantitative risk assessment", "residual risk", "risk treatment", "supply chain risk", "third-party risk", "RACI", "change management", "rollback plan"]
-cover: "/img/cover/comptia-secot-plus-ot-risk-management.webp"
-coverAlt: "An illustration of a risk matrix and governance documents overlaid on an industrial facility, set against a dark background."
+cover: "/img/cover/comptia-secot-plus-ot-risk-management-illustration.webp"
+coverAlt: "A control room scene with engineers analyzing risk management data on screens, featuring turbine controls and safety monitoring systems, all set against a dark background."
 coverCaption: "Assess and Treat Risk in OT Environments for the SOT-001 Exam"
 ---
 
