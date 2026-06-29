@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Accès Contrôlé Aux Dossiers on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/acc%C3%A8s-contr%C3%B4l%C3%A9-aux-dossiers//img/banner.png</url><title>Accès Contrôlé Aux Dossiers on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/acc%C3%A8s-contr%C3%B4l%C3%A9-aux-dossiers/</link></image><link>https://fr.simeononsecurity.com/tags/acc%C3%A8s-contr%C3%B4l%C3%A9-aux-dossiers/</link><description>Recent content in Accès Contrôlé Aux Dossiers on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/acc%C3%A8s-contr%C3%B4l%C3%A9-aux-dossiers/index.xml" rel="self" type="application/rss+xml"/><item><title>Meilleures pratiques de base de durcissement de Windows pour sécuriser Windows 10 et Windows 11</title><link>https://fr.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Durcissement des fenêtres"
+, "Sécurité Windows"
+, "Durcissement de Windows 10"
+, "Durcissement de Windows 11"
+, "Meilleures pratiques en matière de sécurité Windows"
+, "Conseils de sécurité pour Windows"
+, "Directives de sécurité pour Windows"
+, "Sécurisation des systèmes d'exploitation Windows"
+, "Durcissement du système Windows"
+, "Mesures de sécurité pour Windows"</category><guid>https://fr.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez des stratégies efficaces pour renforcer la sécurité de vos systèmes Windows 10 et Windows 11 grâce à des techniques complètes de durcissement et à des pratiques exemplaires.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>Amélioration de la sécurité de Windows 10 avec le script de durcissement Defender</title><link>https://fr.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Sécurité Windows 10"
+, "Script PowerShell"
+, "Durcissement"
+, "Renforcement du défenseur"
+, "Automatisation de la sécurité"
+, "Conformité"
+, "Accès contrôlé aux dossiers"
+, "Système de prévention des intrusions"
+, "Contrôle des applications"
+, "Réduction de la surface d'attaque"
+, "Protections contre les exploits"
+, "Protections fournies par le cloud"
+, "Protections réseau"
+, "Script STIG Windows Defender"
+, "Windows Defender STIG"
+, "Antivirus Windows Defender STIG V2R1"
+, "WDAC"
+, "RSA"</category><guid>https://fr.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez comment améliorer la sécurité de Windows 10 avec un script PowerShell qui renforce l'antivirus Windows Defender, en implémentant toutes les exigences de l'antivirus Windows Defender STIG V2R1.</description></item></channel></rss>

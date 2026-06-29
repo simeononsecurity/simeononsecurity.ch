@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 11 on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/genre/windows-11//img/banner.png</url><title>Windows 11 on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/windows-11/</link></image><link>https://fr.simeononsecurity.com/genre/windows-11/</link><description>Recent content in Windows 11 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/windows-11/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatiser l'installation de Windows 11 : Contourner les contrôles TPM, Secure Boot et RAM</title><link>https://fr.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installation"
+, "Virtualisation"
+, "Automatisation"
+, "Clés de registre"
+, "Contournement du TPM"
+, "Contournement du démarrage sécurisé"
+, "Dérivation de la RAM"
+, "vTPM"</category><guid>https://fr.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Rationaliser l'installation de Windows 11 dans les environnements virtualisés en contournant les contrôles TPM, Secure Boot et RAM à l'aide de autounattend.xml et vTPM.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Aujourd'hui, j'ai appris à créer des images Windows personnalisées</title><link>https://fr.simeononsecurity.com/til/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Windows Image Management"
+, "Personnalisation"
+, "Déploiement de Windows"
+, "Sysprep"
+, "Généralisation"
+, "Windows 10"
+, "Windows 11"
+, "Capture d'images"
+, "Déploiement d'images"
+, "NTLite"
+, "Optimisation de Windows"</category><guid>https://fr.simeononsecurity.com/til/2023-01-30/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aujourd'hui, j'ai appris des choses sur la création d'images Windows personnalisées, sur Sysprep et sur la généralisation</description></item></channel></rss>

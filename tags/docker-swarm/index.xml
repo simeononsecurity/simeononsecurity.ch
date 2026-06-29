@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker Swarm on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/docker-swarm//img/banner.png</url><title>Docker Swarm on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/docker-swarm/</link></image><link>https://fr.simeononsecurity.com/tags/docker-swarm/</link><description>Recent content in Docker Swarm on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/docker-swarm/index.xml" rel="self" type="application/rss+xml"/><item><title>Le rôle de l'orchestration de conteneurs dans les environnements DevOps modernes</title><link>https://fr.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><category>
+"orchestration de conteneurs"
+, "DevOps"
+, "Kubernetes"
+, "Docker Swarm"
+, "Apache Mesos"
+, "évolutivité"
+, "haute disponibilité"
+, "équilibrage de la charge"
+, "sécurité"
+, "Déploiement automatisé des applications"
+, "HIPAA"
+, "SOX"
+, "GDPR"
+, "conformité"
+, "développement de logiciels"
+, "informatique en nuage"
+, "conteneurisation"
+, "technologie"
+, "automation"</category><guid>https://fr.simeononsecurity.com/articles/the-role-of-container-orchestration-in-modern-devops-environments/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Découvrez l'importance et les avantages de l'orchestration de conteneurs dans le DevOps moderne, ainsi que les outils d'orchestration de conteneurs les plus courants et les réglementations gouvernementales relatives à la conteneurisation.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png" length="350122" type="image/png"/></item></channel></rss>

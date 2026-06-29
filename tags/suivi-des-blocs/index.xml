@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Suivi Des Blocs on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/suivi-des-blocs//img/banner.png</url><title>Suivi Des Blocs on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/suivi-des-blocs/</link></image><link>https://fr.simeononsecurity.com/tags/suivi-des-blocs/</link><description>Recent content in Suivi Des Blocs on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/suivi-des-blocs/index.xml" rel="self" type="application/rss+xml"/><item><title>Script de blocage des publicités pour l'ensemble du système Windows 10 pour une meilleure protection de la vie privée et de la sécurité</title><link>https://fr.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "bloqueur de publicité"
+, "blocage de la télémétrie"
+, "Script PowerShell"
+, "blocage des publicités à l'échelle du système"
+, "vie privée"
+, "sécurité"
+, "EasyList"
+, "Protection de la vie privée"
+, "Liste de filtres NoCoin"
+, "Filtre DNS AdGuard"
+, "Listes YoYo"
+, "Les serveurs malveillants de Peter Lowe pour le suivi des publicités"
+, "Pare-feu Windows"
+, "listes de domaines"
+, "Bloquer les traqueurs Windows"
+, "traqueurs de blocs"
+, "bloquer les publicités"
+, "suivi des blocs"</category><guid>https://fr.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bloquez les publicités, les traqueurs et la télémétrie sur Windows 10 à l'aide de ce puissant script PowerShell qui utilise le fichier hosts et le pare-feu Windows pour bloquer les publicités à l'échelle du système.</description></item></channel></rss>
