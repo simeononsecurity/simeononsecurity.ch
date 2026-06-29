@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure Storage Service Encryption on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/tags/azure-storage-service-encryption//img/banner.png</url><title>Azure Storage Service Encryption on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/azure-storage-service-encryption/</link></image><link>https://hi.simeononsecurity.com/tags/azure-storage-service-encryption/</link><description>Recent content in Azure Storage Service Encryption on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/azure-storage-service-encryption/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Security Center: Comprehensive Guide to Safeguard Your Cloud Environment</title><link>https://hi.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</link><pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate><category>
+"Azure"
+, "Security Center"
+, "cloud security"
+, "Azure Sentinel"
+, "Azure Defender"
+, "network security"
+, "identity management"
+, "data security"
+, "threat detection"
+, "threat response"
+, "MFA"
+, "RBAC"
+, "NSGs"
+, "Azure Firewall"
+, "WAF"
+, "Azure AD"
+, "Azure Information Protection"
+, "Azure Storage Service Encryption"
+, "Azure Disk Encryption"</category><guid>https://hi.simeononsecurity.com/articles/how-to-secure-your-cloud-environment-with-azure-security-center/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to secure your cloud environment using Azure Security Center, with best practices and real-world examples.</description><enclosure url="https://hi.simeononsecurity.com/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png" length="308057" type="image/png"/></item></channel></rss>
