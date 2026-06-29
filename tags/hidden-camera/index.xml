@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hidden Camera on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/hidden-camera//img/banner.png</url><title>Hidden Camera on simeononsecurity</title><link>https://simeononsecurity.ch/tags/hidden-camera/</link></image><link>https://simeononsecurity.ch/tags/hidden-camera/</link><description>Recent content in Hidden Camera on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/hidden-camera/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: Passive Surveillance Detector for the M5Stack Atom Lite (ESP32)</title><link>https://simeononsecurity.ch/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Privacy Tools"
+, "Counter-Surveillance"
+, "IoT Security"
+, "Embedded Systems"
+, "Security Research"
+, "WiFi Security"
+, "Bluetooth Security"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.ch/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A complete technical reference for Eye Spy v1.1 - an open-source passive BLE and WiFi surveillance detector running on the M5Stack Atom Lite (ESP32-PICO-D4) that scans for body cameras, ALPR systems, AirTags, drones, and hidden cameras using a confidence-score threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.ch/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

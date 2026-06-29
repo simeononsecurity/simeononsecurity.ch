@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Low-Powered Miners on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/low-powered-miners//img/banner.png</url><title>Low-Powered Miners on simeononsecurity</title><link>https://simeononsecurity.ch/tags/low-powered-miners/</link></image><link>https://simeononsecurity.ch/tags/low-powered-miners/</link><description>Recent content in Low-Powered Miners on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/low-powered-miners/index.xml" rel="self" type="application/rss+xml"/><item><title>Managing a Fleet of Low-Powered Miners: A Guide to Remote Access and Security</title><link>https://simeononsecurity.ch/other/managing-low-powered-crypto-miners/</link><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate><category>
+"low-powered miners"
+, "remote access"
+, "network security"
+, "openvpn"
+, "wireguard"
+, "snort"
+, "ngrok"</category><guid>https://simeononsecurity.ch/other/managing-low-powered-crypto-miners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the best practices and tools for managing a fleet of low-powered miners, including remote.it, ngrok, OpenVPN, WireGuard, and more.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png" length="236215" type="image/png"/></item></channel></rss>

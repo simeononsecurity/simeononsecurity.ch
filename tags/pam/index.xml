@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PAM on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/pam//img/banner.png</url><title>PAM on simeononsecurity</title><link>https://simeononsecurity.ch/tags/pam/</link></image><link>https://simeononsecurity.ch/tags/pam/</link><description>Recent content in PAM on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/pam/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA Linux+ (XK0-005): Linux Security</title><link>https://simeononsecurity.ch/linux-plus/linux-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Linux Security"
+, "System Hardening"
+, "Access Control"
+, "SELinux"
+, "Firewall Configuration"
+, "SSH Hardening"
+, "PKI"
+, "Linux Certification"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/linux-plus/linux-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux security for the CompTIA Linux+ XK0-005 exam. Learn permissions, special bits, ACLs, sudo, PAM, SSH hardening, SELinux, AppArmor, firewalls, auditing, OpenSSL, and gpg with real examples.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-linux-security-file-permissions-access-control.webp" length="116216" type="image/webp"/></item></channel></rss>

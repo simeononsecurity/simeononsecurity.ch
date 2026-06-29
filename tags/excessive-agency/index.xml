@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Excessive Agency on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/excessive-agency//img/banner.png</url><title>Excessive Agency on simeononsecurity</title><link>https://simeononsecurity.ch/tags/excessive-agency/</link></image><link>https://simeononsecurity.ch/tags/excessive-agency/</link><description>Recent content in Excessive Agency on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/excessive-agency/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA SecAI+ (CY0-001): Securing AI Systems</title><link>https://simeononsecurity.ch/secai-plus/securing-ai-systems/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecAI+ Course"
+, "Securing AI Systems"
+, "Adversarial Machine Learning"
+, "LLM Security"
+, "AI Threats"
+, "MITRE ATLAS"
+, "OWASP"
+, "AI Security"
+, "CY0-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/secai-plus/securing-ai-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master securing AI systems for the CompTIA SecAI+ CY0-001 exam. Learn AI security frameworks, access controls, data protection, runtime guardrails, monitoring, and defenses against adversarial attacks like prompt injection and model poisoning.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-secai-plus-securing-ai-systems.webp" length="281158" type="image/webp"/></item></channel></rss>

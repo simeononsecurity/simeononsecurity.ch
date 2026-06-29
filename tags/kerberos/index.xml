@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kerberos on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/kerberos//img/banner.png</url><title>Kerberos on simeononsecurity</title><link>https://simeononsecurity.ch/tags/kerberos/</link></image><link>https://simeononsecurity.ch/tags/kerberos/</link><description>Recent content in Kerberos on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/kerberos/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA PenTest+ (PT0-003): Attacks and Exploits</title><link>https://simeononsecurity.ch/pentest-plus/attacks-and-exploits/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Exploitation"
+, "Web Application Attacks"
+, "Wireless Attacks"
+, "Social Engineering"
+, "Cloud Attacks"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/pentest-plus/attacks-and-exploits/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master attacks and exploits for the CompTIA PenTest+ PT0-003 exam. Learn network, host, web, authentication, wireless, social engineering, cloud, and specialized system attacks plus scripting.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-pentest-attacks-exploits-techniques.webp" length="289276" type="image/webp"/></item><item><title>CompTIA SecurityX (CAS-005): Security Engineering</title><link>https://simeononsecurity.ch/casp-plus/security-engineering/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Engineering"
+, "Cryptography"
+, "Hardware Security"
+, "Endpoint Security"
+, "OT Security"
+, "Automation"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/casp-plus/security-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security engineering for the CompTIA SecurityX CAS-005 exam. Learn IAM troubleshooting, endpoint and server security, hardware roots of trust, OT/ICS security, automation, and advanced cryptography.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-securityx-cas-005-security-engineering.webp" length="276572" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Identity Management on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/identity-management//img/banner.png</url><title>Identity Management on simeononsecurity</title><link>https://simeononsecurity.ch/genre/identity-management/</link></image><link>https://simeononsecurity.ch/genre/identity-management/</link><description>Recent content in Identity Management on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/identity-management/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA Security+ (SY0-701): Security Operations</title><link>https://simeononsecurity.ch/security-plus/security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Security+ Course"
+, "Security Operations"
+, "Incident Response"
+, "Identity Management"
+, "Vulnerability Management"
+, "Automation"
+, "CompTIA Certification"
+, "Information Security"
+, "SIEM"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/security-plus/security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security operations for the CompTIA Security+ SY0-701 exam. Learn secure baselines, asset management, vulnerability management, monitoring, IAM, automation, and incident response.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-security-plus-sy0-701-security-operations.webp" length="219826" type="image/webp"/></item><item><title>CompTIA SecurityX (CAS-005): Security Architecture</title><link>https://simeononsecurity.ch/casp-plus/security-architecture/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Architecture"
+, "Zero Trust"
+, "Cloud Security"
+, "Secure SDLC"
+, "Identity Management"
+, "PKI"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/casp-plus/security-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security architecture for the CompTIA SecurityX CAS-005 exam. Learn resilient system design, secure SDLC, Zero Trust, cloud security, IAM and PKI design, and data security.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-securityx-security-architecture-design.webp" length="172086" type="image/webp"/></item><item><title>ISC2 CISSP Course: Complete Study Guide for the CISSP Exam</title><link>https://simeononsecurity.ch/cissp-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Cybersecurity Certification"
+, "Security Management"
+, "Security Architecture"
+, "Risk Management"
+, "ISC2 Certification"
+, "Information Security"
+, "Security Operations"
+, "Network Security"
+, "Identity Management"</category><guid>https://simeononsecurity.ch/cissp-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive ISC2 CISSP study course covering all eight domains of the April 2024 exam outline: security and risk management, asset security, security architecture and engineering, communication and network security, IAM, security assessment and testing, security operations, and software development security.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-course-study-guide-cybersecurity-training.webp" length="241916" type="image/webp"/></item><item><title>ISC2 CISSP: Identity and Access Management (IAM)</title><link>https://simeononsecurity.ch/cissp/identity-and-access-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Identity Management"
+, "Access Control"
+, "Authentication"
+, "Federation"
+, "ISC2 Certification"
+, "Information Security"
+, "RBAC"
+, "MFA"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cissp/identity-and-access-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Identity and Access Management for the ISC2 CISSP exam. Learn physical and logical access control, authentication strategy, federation, authorization models, and the identity lifecycle.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-identity-access-management-illustration.webp" length="202020" type="image/webp"/></item></channel></rss>

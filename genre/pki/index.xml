@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PKI on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/pki//img/banner.png</url><title>PKI on simeononsecurity</title><link>https://simeononsecurity.ch/genre/pki/</link></image><link>https://simeononsecurity.ch/genre/pki/</link><description>Recent content in PKI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/pki/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA Linux+ (XK0-005): Linux Security</title><link>https://simeononsecurity.ch/linux-plus/linux-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Linux Security"
+, "System Hardening"
+, "Access Control"
+, "SELinux"
+, "Firewall Configuration"
+, "SSH Hardening"
+, "PKI"
+, "Linux Certification"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/linux-plus/linux-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux security for the CompTIA Linux+ XK0-005 exam. Learn permissions, special bits, ACLs, sudo, PAM, SSH hardening, SELinux, AppArmor, firewalls, auditing, OpenSSL, and gpg with real examples.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-linux-security-file-permissions-access-control.webp" length="116216" type="image/webp"/></item><item><title>CompTIA Security+ (SY0-701): General Security Concepts</title><link>https://simeononsecurity.ch/security-plus/general-security-concepts/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Security+ Course"
+, "Security Fundamentals"
+, "Cryptography"
+, "PKI"
+, "Zero Trust"
+, "Access Control"
+, "CompTIA Certification"
+, "Information Security"
+, "Security Controls"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/security-plus/general-security-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master general security concepts for the CompTIA Security+ SY0-701 exam. Learn security controls, the CIA triad, change management, cryptography, PKI, and Zero Trust.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-security-plus-general-security-concepts.webp" length="219240" type="image/webp"/></item><item><title>CompTIA SecurityX (CAS-005): Security Architecture</title><link>https://simeononsecurity.ch/casp-plus/security-architecture/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Architecture"
+, "Zero Trust"
+, "Cloud Security"
+, "Secure SDLC"
+, "Identity Management"
+, "PKI"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/casp-plus/security-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security architecture for the CompTIA SecurityX CAS-005 exam. Learn resilient system design, secure SDLC, Zero Trust, cloud security, IAM and PKI design, and data security.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-securityx-security-architecture-design.webp" length="172086" type="image/webp"/></item></channel></rss>

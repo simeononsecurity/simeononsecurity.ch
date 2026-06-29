@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Integrity on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/system-integrity//img/banner.png</url><title>System Integrity on simeononsecurity</title><link>https://simeononsecurity.ch/tags/system-integrity/</link></image><link>https://simeononsecurity.ch/tags/system-integrity/</link><description>Recent content in System Integrity on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/system-integrity/index.xml" rel="self" type="application/rss+xml"/><item><title>Mastering .NET Framework 4.0 Security: Best Practices &amp; Automation</title><link>https://simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</link><pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Software Development"
+, "Cybersecurity"
+, "Programming"
+, "Windows Systems"
+, "Application Security"
+, ".NET Framework"
+, "Automation"
+, "Best Practices"
+, "Security Guidelines"</category><guid>https://simeononsecurity.ch/guides/mastering-dotnet-framework-4-security-best-practices/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover essential security practices for Microsoft .NET Framework 4.0, backed by automation scripts, to safeguard your applications and data integrity.</description><enclosure url="https://simeononsecurity.ch/img/cover/mastering-dotnet-security.png" length="1358887" type="image/png"/></item><item><title>Mastering Windows User Accounts: Secure Access for Better Control</title><link>https://simeononsecurity.ch/guides/windows-user-accounts-permissions-guide/</link><pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "System Administration"
+, "Windows Management"
+, "User Access Control"
+, "Permission Management"
+, "IT Security"
+, "Command-line Tools"
+, "User Authentication"
+, "File Permissions"
+, "Elevated Privileges"</category><guid>https://simeononsecurity.ch/guides/windows-user-accounts-permissions-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to manage user accounts and permissions on Windows for enhanced cybersecurity and system control. Explore user management commands, file permissions, and running commands with elevated privileges.</description><enclosure url="https://simeononsecurity.ch/img/cover/Windows_User_Accounts_Permissions_Juggling.png" length="1349291" type="image/png"/></item><item><title>Python Security Best Practices: Protecting Your Code and Data</title><link>https://simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python Security"
+, "Code Security"
+, "Data Protection"
+, "Software Development"
+, "Cybersecurity"
+, "Secure Coding"
+, "Web Development"
+, "Data Privacy"
+, "Application Security"
+, "IT Security"</category><guid>https://simeononsecurity.ch/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the essential Python security best practices to safeguard your code and data from potential threats, ensuring data protection, system integrity, and building trust.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item></channel></rss>

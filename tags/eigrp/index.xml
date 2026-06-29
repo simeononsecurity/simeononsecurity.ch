@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EIGRP on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/eigrp//img/banner.png</url><title>EIGRP on simeononsecurity</title><link>https://simeononsecurity.ch/tags/eigrp/</link></image><link>https://simeononsecurity.ch/tags/eigrp/</link><description>Recent content in EIGRP on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/eigrp/index.xml" rel="self" type="application/rss+xml"/><item><title>Network Plus Course: Routing Protocols, Concepts, and Optimization</title><link>https://simeononsecurity.ch/network-plus/routing-technologies-concepts/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Networking"
+, "Routing"
+, "Network Protocols"
+, "Network Management"
+, "Dynamic Routing"
+, "Static Routing"
+, "Bandwidth Management"
+, "Quality of Service"
+, "Network Devices"</category><guid>https://simeononsecurity.ch/network-plus/routing-technologies-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the world of routing technologies and concepts, from dynamic routing protocols like RIP, OSPF, EIGRP, and BGP to link state, distance vector, and hybrid routing protocols, as well as the configuration of static routing and default routes.</description><enclosure url="https://simeononsecurity.ch/img/cover/An_illustration_of_interconnected_network_devi.png" length="935379" type="image/png"/></item></channel></rss>

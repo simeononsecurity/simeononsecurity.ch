@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Footprinting and Reconnaissance on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/footprinting-and-reconnaissance//img/banner.png</url><title>Footprinting and Reconnaissance on simeononsecurity</title><link>https://simeononsecurity.ch/tags/footprinting-and-reconnaissance/</link></image><link>https://simeononsecurity.ch/tags/footprinting-and-reconnaissance/</link><description>Recent content in Footprinting and Reconnaissance on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/footprinting-and-reconnaissance/index.xml" rel="self" type="application/rss+xml"/><item><title>CEH v13: Footprinting and Reconnaissance</title><link>https://simeononsecurity.ch/ceh/footprinting-and-reconnaissance/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.ch/ceh/footprinting-and-reconnaissance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master footprinting and reconnaissance for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn passive and active recon, OSINT, Google dorking, WHOIS, DNS, and tools like Maltego, theHarvester, and Shodan.</description><enclosure url="https://simeononsecurity.ch/img/cover/ceh-v13-footprinting-reconnaissance-techniques.webp" length="303370" type="image/webp"/></item></channel></rss>

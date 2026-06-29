@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ESP32 Firmware on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/esp32-firmware//img/banner.png</url><title>ESP32 Firmware on simeononsecurity</title><link>https://simeononsecurity.ch/tags/esp32-firmware/</link></image><link>https://simeononsecurity.ch/tags/esp32-firmware/</link><description>Recent content in ESP32 Firmware on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/esp32-firmware/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock-You Detection Project: Complete Counter-Surveillance Hardware and Setup Guide 2026</title><link>https://simeononsecurity.ch/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Security Hardware"
+, "Counter Surveillance"
+, "Privacy Technology"
+, "Open Source Projects"
+, "ESP32 Development"
+, "WiFi Monitoring"
+, "Privacy Tools"
+, "Digital Rights"
+, "Hardware Hacking"
+, "Network Security"</category><guid>https://simeononsecurity.ch/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprehensive technical guide to the open-source Flock-You project for detecting Flock Safety ALPR cameras using ESP32-based hardware. Includes setup instructions, firmware details, and purchasing options.</description><enclosure url="https://simeononsecurity.ch/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Budget DIY GPS/GNSS Base Station / Receiver and NTRIP Server Client with ESP32 and UM980</title><link>https://simeononsecurity.ch/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate><category>
+"DIY Electronics"
+, "GNSS Technology"
+, "ESP32 Projects"
+, "IoT Applications"
+, "Budget Hardware"
+, "DIY Tutorials"
+, "Wireless Connectivity"
+, "GPS Solutions"
+, "GNSS Receivers"
+, "Embedded Systems"</category><guid>https://simeononsecurity.ch/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Effortlessly set up a budget DIY GPS/GNSS base station and NTRIP Server / NTRIP Client using ESP32 and the Unicorecomm UM980 for accurate positioning.</description><enclosure url="https://simeononsecurity.ch/img/cover/budget-diy-gps-gnss-base-station-setup-esp32-um980.webp" length="156334" type="image/webp"/></item></channel></rss>

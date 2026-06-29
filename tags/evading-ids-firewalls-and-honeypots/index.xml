@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evading Ids, Firewalls, and Honeypots on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/evading-ids-firewalls-and-honeypots//img/banner.png</url><title>Evading Ids, Firewalls, and Honeypots on simeononsecurity</title><link>https://simeononsecurity.ch/tags/evading-ids-firewalls-and-honeypots/</link></image><link>https://simeononsecurity.ch/tags/evading-ids-firewalls-and-honeypots/</link><description>Recent content in Evading Ids, Firewalls, and Honeypots on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/evading-ids-firewalls-and-honeypots/index.xml" rel="self" type="application/rss+xml"/><item><title>CEH v13: Evading IDS, Firewalls, and Honeypots</title><link>https://simeononsecurity.ch/ceh/evading-ids-firewalls-honeypots/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"EC-Council CEH Course"
+, "Ethical Hacking"
+, "Penetration Testing"
+, "Offensive Security"
+, "Cybersecurity"
+, "Network Security"
+, "Security Testing"
+, "Hacking Techniques"
+, "CEH Certification"
+, "Information Security"</category><guid>https://simeononsecurity.ch/ceh/evading-ids-firewalls-honeypots/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master evading IDS, firewalls, and honeypots for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn IDS/IPS detection, packet fragmentation, firewall bypass, tunneling, and honeypot identification.</description><enclosure url="https://simeononsecurity.ch/img/cover/ceh-v13-evading-ids-firewalls-honeypots.webp" length="277230" type="image/webp"/></item></channel></rss>

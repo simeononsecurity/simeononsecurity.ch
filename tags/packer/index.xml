@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packer on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/packer//img/banner.png</url><title>Packer on simeononsecurity</title><link>https://simeononsecurity.ch/tags/packer/</link></image><link>https://simeononsecurity.ch/tags/packer/</link><description>Recent content in Packer on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/packer/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Packer for Infrastructure as Code: Best Practices and Benefits</title><link>https://simeononsecurity.ch/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "Infrastructure as Code"
+, "DevOps"
+, "Automation"
+, "Security"
+, "Repeatability"
+, "Scalability"
+, "Multi-Platform"
+, "Version Control"
+, "Cloud Computing"
+, "Machine Images"
+, "Virtualization"
+, "Configuration Management"
+, "Continuous Integration"
+, "Continuous Delivery"
+, "Software Development"
+, "Best Practices"
+, "Testing"
+, "Open Source"
+, "Multi-Cloud"</category><guid>https://simeononsecurity.ch/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to use Packer for creating machine images that are easy to maintain and secure.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item><item><title>Should You Learn Programming for IT and Cyber Security?</title><link>https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><category>
+"IT and Cyber Security"
+, "Programming Skills"
+, "Career Advancement"
+, "Automation"
+, "Command Line"
+, "Scripting"
+, "Infrastructure Deployment"
+, "Data Analysis"
+, "Security Testing"
+, "Professional Development"</category><guid>https://simeononsecurity.ch/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform.</description><enclosure url="https://simeononsecurity.ch/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png"/></item></channel></rss>

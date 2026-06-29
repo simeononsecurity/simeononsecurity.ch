@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>First Hop Redundancy on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/first-hop-redundancy//img/banner.png</url><title>First Hop Redundancy on simeononsecurity</title><link>https://simeononsecurity.ch/tags/first-hop-redundancy/</link></image><link>https://simeononsecurity.ch/tags/first-hop-redundancy/</link><description>Recent content in First Hop Redundancy on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/first-hop-redundancy/index.xml" rel="self" type="application/rss+xml"/><item><title>Cisco CCNA (200-301): IP Connectivity and Routing</title><link>https://simeononsecurity.ch/ccna/ip-connectivity-routing-ospf-static-routes/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"Cisco CCNA Course"
+, "Networking"
+, "Routing"
+, "OSPF"
+, "Static Routing"
+, "IP Connectivity"
+, "Cisco Certification"
+, "Routing and Switching"
+, "Network Architecture"
+, "IT Networking"</category><guid>https://simeononsecurity.ch/ccna/ip-connectivity-routing-ospf-static-routes/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master IP connectivity for the Cisco CCNA 200-301 exam. Learn the routing table, forwarding decisions, IPv4 and IPv6 static routing, single-area OSPFv2, and first hop redundancy protocols.</description><enclosure url="https://simeononsecurity.ch/img/cover/cisco-ccna-routing-ip-connectivity-illustration.webp" length="272506" type="image/webp"/></item></channel></rss>

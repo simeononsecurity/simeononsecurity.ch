@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authentication on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/authentication//img/banner.png</url><title>Authentication on simeononsecurity</title><link>https://simeononsecurity.ch/genre/authentication/</link></image><link>https://simeononsecurity.ch/genre/authentication/</link><description>Recent content in Authentication on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/authentication/index.xml" rel="self" type="application/rss+xml"/><item><title>ISC2 CISSP: Identity and Access Management (IAM)</title><link>https://simeononsecurity.ch/cissp/identity-and-access-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Identity Management"
+, "Access Control"
+, "Authentication"
+, "Federation"
+, "ISC2 Certification"
+, "Information Security"
+, "RBAC"
+, "MFA"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cissp/identity-and-access-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Identity and Access Management for the ISC2 CISSP exam. Learn physical and logical access control, authentication strategy, federation, authorization models, and the identity lifecycle.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-identity-access-management-illustration.webp" length="202020" type="image/webp"/></item><item><title>Biometric Authentication: Advancements, Use Cases, and Security Considerations in the Digital Age</title><link>https://simeononsecurity.ch/articles/biometric-authentication-use-cases-and-security-considerations/</link><pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Cybersecurity"
+, "Biometrics"
+, "Authentication"
+, "Digital Security"
+, "Identity Verification"
+, "Data Protection"
+, "Privacy"
+, "Emerging Trends"
+, "User Experience"</category><guid>https://simeononsecurity.ch/articles/biometric-authentication-use-cases-and-security-considerations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the latest advancements in biometric authentication technology, its diverse use cases, and the crucial security considerations for protecting sensitive data.</description><enclosure url="https://simeononsecurity.ch/img/cover/biometric-authentication-use-cases-and-security-considerations.webp" length="228916" type="image/webp"/></item><item><title>OWASP Top 10: Critical Web Application Security Risks</title><link>https://simeononsecurity.ch/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Web Application Security Risks"
+, "OWASP Top 10"
+, "Injection Attacks"
+, "Authentication"
+, "Session Management"
+, "XSS Attacks"
+, "Access Control"
+, "Security Misconfiguration"
+, "Cryptographic Storage"
+, "Transport Layer Protection"</category><guid>https://simeononsecurity.ch/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn about the most critical web application security risks with the OWASP Top 10 and how to protect against them</description><enclosure url="https://simeononsecurity.ch/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity Analyst on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/cybersecurity-analyst//img/banner.png</url><title>Cybersecurity Analyst on simeononsecurity</title><link>https://simeononsecurity.ch/genre/cybersecurity-analyst/</link></image><link>https://simeononsecurity.ch/genre/cybersecurity-analyst/</link><description>Recent content in Cybersecurity Analyst on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/cybersecurity-analyst/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA CySA+ (CS0-003): Incident Response and Digital Forensics</title><link>https://simeononsecurity.ch/cysa-plus/incident-response-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Incident Response"
+, "Digital Forensics"
+, "Malware Analysis"
+, "Cybersecurity Analyst"
+, "Threat Hunting"
+, "Security Operations"
+, "Root Cause Analysis"
+, "Cybersecurity"
+, "SOC Analyst"</category><guid>https://simeononsecurity.ch/cysa-plus/incident-response-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master incident response and digital forensics for the CompTIA CySA+ CS0-003 exam. Learn the IR lifecycle, containment, chain of custody, memory and disk forensics, malware analysis, and recovery.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-cysa-incident-response-lifecycle-illustration.webp" length="216292" type="image/webp"/></item><item><title>CompTIA CySA+ (CS0-003): Reporting, Communication, and Compliance</title><link>https://simeononsecurity.ch/cysa-plus/reporting-and-communication/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Security Reporting"
+, "Compliance"
+, "Risk Communication"
+, "Security Metrics"
+, "Cybersecurity Analyst"
+, "Governance"
+, "Security Operations"
+, "Audit"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cysa-plus/reporting-and-communication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master reporting and communication for the CompTIA CySA+ CS0-003 exam. Learn vulnerability and incident reporting, security metrics, compliance frameworks, and communicating risk to stakeholders.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-cysa-reporting-communication-compliance-2.webp" length="114032" type="image/webp"/></item><item><title>CompTIA CySA+ (CS0-003): Security Operations and Threat Intelligence</title><link>https://simeononsecurity.ch/cysa-plus/security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Security Operations"
+, "Threat Intelligence"
+, "SIEM"
+, "Threat Hunting"
+, "SOC Analyst"
+, "Log Analysis"
+, "MITRE ATT&amp;CK"
+, "Cybersecurity Analyst"
+, "Network Security"</category><guid>https://simeononsecurity.ch/cysa-plus/security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security operations and threat intelligence for the CompTIA CySA+ CS0-003 exam. Learn the SOC, threat intelligence, MITRE ATT&amp;CK, log analysis, SIEM tuning, traffic analysis, and threat hunting.</description><enclosure url="https://simeononsecurity.ch/img/cover/security-operations-center-soc-cybersecurity-illustration.webp" length="241996" type="image/webp"/></item><item><title>CompTIA CySA+ (CS0-003): Vulnerability Management and Scanning</title><link>https://simeononsecurity.ch/cysa-plus/vulnerability-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Vulnerability Management"
+, "Vulnerability Scanning"
+, "Risk Prioritization"
+, "Web Application Security"
+, "CVSS"
+, "Cybersecurity Analyst"
+, "Patch Management"
+, "Security Operations"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cysa-plus/vulnerability-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master vulnerability management for the CompTIA CySA+ CS0-003 exam. Learn scanning, CVSS and CVE, prioritization, web application vulnerabilities, software composition analysis, and secure baselines.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-cysa-plus-vulnerability-management-scan.webp" length="146450" type="image/webp"/></item><item><title>CompTIA CySA+ Course: Complete Study Guide for the CS0-003 Exam</title><link>https://simeononsecurity.ch/cysa-plus-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Cybersecurity Analyst"
+, "Security Operations"
+, "Vulnerability Management"
+, "Incident Response"
+, "CompTIA Certification"
+, "SIEM"
+, "Threat Intelligence"
+, "Threat Hunting"
+, "Security Analysis"</category><guid>https://simeononsecurity.ch/cysa-plus-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive CompTIA CySA+ (CS0-003) study course covering security operations, vulnerability management, incident response, and reporting for cybersecurity analysts.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-cysa-plus-security-operations-center-illustration.webp" length="220558" type="image/webp"/></item></channel></rss>

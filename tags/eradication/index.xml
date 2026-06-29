@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Eradication on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/eradication//img/banner.png</url><title>Eradication on simeononsecurity</title><link>https://simeononsecurity.ch/tags/eradication/</link></image><link>https://simeononsecurity.ch/tags/eradication/</link><description>Recent content in Eradication on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/eradication/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA CySA+ (CS0-003): Incident Response and Digital Forensics</title><link>https://simeononsecurity.ch/cysa-plus/incident-response-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Incident Response"
+, "Digital Forensics"
+, "Malware Analysis"
+, "Cybersecurity Analyst"
+, "Threat Hunting"
+, "Security Operations"
+, "Root Cause Analysis"
+, "Cybersecurity"
+, "SOC Analyst"</category><guid>https://simeononsecurity.ch/cysa-plus/incident-response-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master incident response and digital forensics for the CompTIA CySA+ CS0-003 exam. Learn the IR lifecycle, containment, chain of custody, memory and disk forensics, malware analysis, and recovery.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-cysa-incident-response-lifecycle-illustration.webp" length="216292" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Incident Management</title><link>https://simeononsecurity.ch/secot-plus/ot-incident-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Incident Management"
+, "Incident Response"
+, "PICERL"
+, "ICS4ICS"
+, "Digital Forensics"
+, "Disaster Recovery"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/secot-plus/ot-incident-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT incident management for the CompTIA SecOT+ SOT-001 exam. Learn the PICERL model, ICS4ICS, response plans and playbooks, exercises, OT-specific incident effects like loss of view and control, forensics, and containment through recovery.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-secot-incident-management-ot-response.webp" length="220866" type="image/webp"/></item><item><title>Incident Response Checklist: Effective Security Measures</title><link>https://simeononsecurity.ch/checklists/incident-response-checklist/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Incident Response"
+, "Security Measures"
+, "Best Practices"
+, "Prevention"
+, "Incident Reporting"
+, "Escalation"
+, "Containment"
+, "Eradication"
+, "Post-Incident Analysis"</category><guid>https://simeononsecurity.ch/checklists/incident-response-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover the key steps and best practices for enhancing incident response capabilities and preventing security incidents in this comprehensive guide.</description><enclosure url="https://simeononsecurity.ch/img/cover/incident-response-checklist.webp" length="237252" type="image/webp"/></item></channel></rss>

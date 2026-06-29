@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>API Security on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/api-security//img/banner.png</url><title>API Security on simeononsecurity</title><link>https://simeononsecurity.ch/tags/api-security/</link></image><link>https://simeononsecurity.ch/tags/api-security/</link><description>Recent content in API Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/api-security/index.xml" rel="self" type="application/rss+xml"/><item><title>ISC2 CISSP: Software Development Security</title><link>https://simeononsecurity.ch/cissp/software-development-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Software Development Security"
+, "Secure SDLC"
+, "DevSecOps"
+, "Application Security"
+, "ISC2 Certification"
+, "Information Security"
+, "Secure Coding"
+, "CI/CD"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cissp/software-development-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Software Development Security for the ISC2 CISSP exam. Learn the secure SDLC, maturity models, security controls in development, assessing software security, and secure coding standards.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-software-development-security-sdlc.webp" length="154304" type="image/webp"/></item></channel></rss>

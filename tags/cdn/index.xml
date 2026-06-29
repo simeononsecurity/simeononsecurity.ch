@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CDN on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/cdn//img/banner.png</url><title>CDN on simeononsecurity</title><link>https://simeononsecurity.ch/tags/cdn/</link></image><link>https://simeononsecurity.ch/tags/cdn/</link><description>Recent content in CDN on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>ISC2 CISSP: Communication and Network Security</title><link>https://simeononsecurity.ch/cissp/communication-and-network-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Network Security"
+, "Secure Architecture"
+, "Segmentation"
+, "Wireless Security"
+, "ISC2 Certification"
+, "Information Security"
+, "Zero Trust"
+, "SDN"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cissp/communication-and-network-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Communication and Network Security for the ISC2 CISSP exam. Learn secure network architecture, segmentation, wireless and cellular networks, modern network concepts, and secure channels.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-communication-network-security-architecture.webp" length="220370" type="image/webp"/></item></channel></rss>

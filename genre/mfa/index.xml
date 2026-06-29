@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MFA on simeononsecurity</title><image><url>https://simeononsecurity.ch/genre/mfa//img/banner.png</url><title>MFA on simeononsecurity</title><link>https://simeononsecurity.ch/genre/mfa/</link></image><link>https://simeononsecurity.ch/genre/mfa/</link><description>Recent content in MFA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/genre/mfa/index.xml" rel="self" type="application/rss+xml"/><item><title>ISC2 CISSP: Identity and Access Management (IAM)</title><link>https://simeononsecurity.ch/cissp/identity-and-access-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Identity Management"
+, "Access Control"
+, "Authentication"
+, "Federation"
+, "ISC2 Certification"
+, "Information Security"
+, "RBAC"
+, "MFA"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/cissp/identity-and-access-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Identity and Access Management for the ISC2 CISSP exam. Learn physical and logical access control, authentication strategy, federation, authorization models, and the identity lifecycle.</description><enclosure url="https://simeononsecurity.ch/img/cover/isc2-cissp-identity-access-management-illustration.webp" length="202020" type="image/webp"/></item></channel></rss>

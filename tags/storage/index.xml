@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/storage//img/banner.png</url><title>Storage on simeononsecurity</title><link>https://simeononsecurity.ch/tags/storage/</link></image><link>https://simeononsecurity.ch/tags/storage/</link><description>Recent content in Storage on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/storage/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA Linux+ (XK0-005): Linux System Management</title><link>https://simeononsecurity.ch/linux-plus/linux-system-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Linux System Administration"
+, "System Management"
+, "Storage Management"
+, "Linux Networking"
+, "Process Management"
+, "systemd"
+, "Package Management"
+, "Linux Certification"
+, "DevOps"</category><guid>https://simeononsecurity.ch/linux-plus/linux-system-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux system management for the CompTIA Linux+ XK0-005 exam. Learn file management, storage and LVM, networking, processes, systemd services, package management, users, cron, and boot loaders with real command examples.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-linux-system-management-illustration.webp" length="173290" type="image/webp"/></item><item><title>CompTIA Linux+ (XK0-005): Linux Troubleshooting</title><link>https://simeononsecurity.ch/linux-plus/linux-troubleshooting/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Linux Troubleshooting"
+, "System Administration"
+, "Performance Tuning"
+, "Network Diagnostics"
+, "Boot Recovery"
+, "Linux Certification"
+, "DevOps"
+, "IT Support"
+, "Diagnostics"</category><guid>https://simeononsecurity.ch/linux-plus/linux-troubleshooting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Linux troubleshooting for the CompTIA Linux+ XK0-005 exam. Diagnose storage, network, DNS, CPU, memory, authentication, boot, service, and package problems with real commands.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-linux-troubleshooting-workflow-illustration.webp" length="156378" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nikto on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/nikto//img/banner.png</url><title>Nikto on simeononsecurity</title><link>https://simeononsecurity.ch/tags/nikto/</link></image><link>https://simeononsecurity.ch/tags/nikto/</link><description>Recent content in Nikto on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/nikto/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA PenTest+ (PT0-003): Vulnerability Discovery and Analysis</title><link>https://simeononsecurity.ch/pentest-plus/vulnerability-discovery-and-analysis/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Vulnerability Discovery"
+, "Vulnerability Analysis"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Physical Security"
+, "Security Testing"
+, "ICS Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.ch/pentest-plus/vulnerability-discovery-and-analysis/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master vulnerability discovery and analysis for the CompTIA PenTest+ PT0-003 exam. Learn scan types, ICS assessment, validating results, physical security, and attack prioritization.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-pentest-vulnerability-discovery-analysis.webp" length="187370" type="image/webp"/></item></channel></rss>

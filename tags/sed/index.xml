@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sed on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/sed//img/banner.png</url><title>Sed on simeononsecurity</title><link>https://simeononsecurity.ch/tags/sed/</link></image><link>https://simeononsecurity.ch/tags/sed/</link><description>Recent content in Sed on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/sed/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA Linux+ (XK0-005): Scripting, Containers, and Automation</title><link>https://simeononsecurity.ch/linux-plus/scripting-containers-automation/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Linux+ Course"
+, "Shell Scripting"
+, "Containers"
+, "Automation"
+, "DevOps"
+, "Docker"
+, "Kubernetes"
+, "Ansible"
+, "Infrastructure as Code"
+, "Linux Certification"</category><guid>https://simeononsecurity.ch/linux-plus/scripting-containers-automation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master scripting, containers, and automation for the CompTIA Linux+ XK0-005 exam. Learn Bash scripting, regex with grep, sed, and awk, Git, Docker, Podman, Kubernetes, Ansible, and IaC with real examples.</description><enclosure url="https://simeononsecurity.ch/img/cover/comptia-linux-scripting-containers-automation-2.webp" length="129350" type="image/webp"/></item></channel></rss>

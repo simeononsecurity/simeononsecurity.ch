@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ on simeononsecurity</title><image><url>https://simeononsecurity.ch/tags/c++//img/banner.png</url><title>C++ on simeononsecurity</title><link>https://simeononsecurity.ch/tags/c++/</link></image><link>https://simeononsecurity.ch/tags/c++/</link><description>Recent content in C++ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.ch/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: Passive Surveillance Detector for the M5Stack Atom Lite (ESP32)</title><link>https://simeononsecurity.ch/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Privacy Tools"
+, "Counter-Surveillance"
+, "IoT Security"
+, "Embedded Systems"
+, "Security Research"
+, "WiFi Security"
+, "Bluetooth Security"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.ch/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A complete technical reference for Eye Spy v1.1 - an open-source passive BLE and WiFi surveillance detector running on the M5Stack Atom Lite (ESP32-PICO-D4) that scans for body cameras, ALPR systems, AirTags, drones, and hidden cameras using a confidence-score threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.ch/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with RGB LED Alerts</title><link>https://simeononsecurity.ch/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "WiFi Security"
+, "IoT Security"
+, "Security Research"
+, "Embedded Systems"
+, "Privacy Tools"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Wireless Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.ch/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A detailed breakdown into the ESP32 WiFi Canary project - a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.ch/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Essential Coding Languages for Modern Developers</title><link>https://simeononsecurity.ch/articles/fundamentals-of-coding_-languages-you-should-know/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><category>
+"Software Development"
+, "Programming Education"
+, "Tech Careers"
+, "Coding Tutorials"
+, "Digital Skills"
+, "Application Building"
+, "Computer Science"
+, "Emerging Tech"
+, "Coding Languages"
+, "Development Tools"</category><guid>https://simeononsecurity.ch/articles/fundamentals-of-coding_-languages-you-should-know/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Dive Into the World of Coding with Must-Know Languages for Building Dynamic Software.</description><enclosure url="https://simeononsecurity.ch/img/cover/fundamentals-of-coding_-languages-you-should-know.jpeg" length="93031" type="image/jpeg"/></item></channel></rss>
