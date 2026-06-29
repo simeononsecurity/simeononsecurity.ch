@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intel on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/tags/intel//img/banner.png</url><title>Intel on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/intel/</link></image><link>https://pt.simeononsecurity.com/tags/intel/</link><description>Recent content in Intel on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/intel/index.xml" rel="self" type="application/rss+xml"/><item><title>Proteja o Windows contra ataques de canal lateral de execução especulativa</title><link>https://pt.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script de Mitigação do Windows Spectre Meltdown"
+, "Ataques de canal lateral de execução especulativa"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "ATRAVÉS DA"
+, "BRAÇO"
+, "Android"
+, "cromada"
+, "iOS"
+, "Mac OS"
+, "Injeção de alvo de ramificação"
+, "Desvio de verificação de limites"
+, "Carregamento de Cache de Dados Rogue"
+, "Ignorar loja especulativa"
+, "Amostragem de dados microarquiteturais"
+, "CVEs"
+, "Atualizações de firmware"
+, "Repositório GitHub"
+, "PowerShell"</category><guid>https://pt.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Saiba como proteger seu sistema Windows contra ataques de canal lateral de execução especulativa com script de mitigação e atualizações de firmware da Microsoft</description></item></channel></rss>
