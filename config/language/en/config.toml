@@ -1,6 +1,6 @@
 
 baseurl = "https://simeononsecurity.ch"
-languageCode = "en"
+locale = "en"
 defaultContentLanguage = "en"
 title = "simeononsecurity"
 theme = "soshellofriend"
@@ -108,6 +108,7 @@ priority = 0.3
 priority = 0.3
 
 [security]
+  allowContent = ['^text/']
   enableInlineShortcodes = false
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']

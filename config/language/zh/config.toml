@@ -1,6 +1,6 @@
 
 baseurl = "https://zh.simeononsecurity.com"
-languageCode = "zh"
+locale = "zh"
 defaultContentLanguage = "zh"
 disableLanguages = [
     'fr',

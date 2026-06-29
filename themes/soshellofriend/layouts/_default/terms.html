@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $languageCode := $.Site.LanguageCode }}
+  {{ $languageCode := $.Site.Language.Locale }}
   <div class="terms" itemscope itemtype="https://schema.org/WebPage">
     <h1 itemprop="headline">{{ .Title }}</h1>
     <ul class="terms__list">

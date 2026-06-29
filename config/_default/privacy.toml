@@ -10,7 +10,7 @@
     disable = true
     simple = true
     disableInlineCSS = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
     enableDNT = true
     simple = true

@@ -4,7 +4,7 @@
   {{ partialCached "ads/random-eager.html" .Page .Page.Page }}
   {{ partialCached "ads/random-eager-floating.html" .Page .Page.Page }}
   <br>
-  {{ $languageCode := $.Site.LanguageCode }}
+  {{ $languageCode := $.Site.Language.Locale }}
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}" hreflang="{{ $languageCode }}">
       {{ if strings.Contains $.Permalink "/tags/" }}

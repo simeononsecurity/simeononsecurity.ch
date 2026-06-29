@@ -15,16 +15,13 @@
                 {{ if hugo.IsMultilingual }}
                 <nav aria-label="Language switcher">
                     <ul>
-                        {{ range site.Languages }}
-                        {{ if eq . $.Site.Language }}
-                            <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
-                        {{ end }}
-                        {{ end }}
+                        <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+
                         <ul class="language_dropdown__menu">
                             {{ range $.Translations }}
                             {{ $langCode := .Language.Lang }}
                             <li itemscope itemtype="https://schema.org/Language">
-                                <a itemprop="url" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">
+                                <a itemprop="url" title="{{ .Language.Label }}" href="{{ .Permalink }}" hreflang="{{ $langCode }}" aria-label="{{ i18n "ariaTranslation" }}{{ .Language.Label }}">
                                     <span itemprop="name">{{ $langCode }}</span>
                                 </a>
                             </li>

@@ -53,7 +53,7 @@
 
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>1337 H4X0R RSS GENERATOR</generator>
-    {{ with .Site.LanguageCode }}
+    {{ with .Site.Language.Locale }}
     <language>{{.}}</language>
     {{end}}
     

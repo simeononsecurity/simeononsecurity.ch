@@ -1,5 +1,5 @@
 baseurl = "https://simeononsecurity.com"
-languageCode = "en"
+locale = "en"
 defaultContentLanguage = "en"
 disableLanguages = [
     'fr',

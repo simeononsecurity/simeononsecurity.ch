@@ -11,7 +11,7 @@
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "name": "{{ .Site.Title }}{{ if ne .Site.LanguageCode "en" }} in {{ .Site.LanguageCode | upper }}{{ end }}",
+    "name": "{{ .Site.Title }}{{ if ne .Site.Language.Locale "en" }} in {{ .Site.Language.Locale | upper }}{{ end }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
     "sameAs": [{{ .Site.Params.socialProfiles }}],
@@ -63,7 +63,7 @@
       "headline": "{{ .Title | safeJS }}",
       "alternativeHeadline": "{{ .Params.lead }}",
       "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
-      "inLanguage": {{ .Site.LanguageCode | default "en-us" }},
+      "inLanguage": {{ .Site.Language.Locale | default "en-us" }},
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
@@ -168,7 +168,7 @@
     "headline": "{{ or $.Page.Title $.Title | safeJS }}",
     "alternativeHeadline": "{{ .Params.lead }}",
     "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
-    "inLanguage": "{{ .Site.LanguageCode | default "en-us" }}",
+    "inLanguage": "{{ .Site.Language.Locale | default "en-us" }}",
     "isFamilyFriendly": true,
     "author": {
       "@type": "Person",

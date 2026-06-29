@@ -33,7 +33,7 @@
 
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>SmartFormat RSS Generator</generator>
-    {{ with .Site.LanguageCode }}
+    {{ with .Site.Language.Locale }}
     <language>{{.}}</language>
     {{end}}
     
@@ -85,7 +85,7 @@
             {{ end }}
           {{ end }}
         {{ end }}
-        {{ with .Site.LanguageCode }}
+        {{ with .Site.Language.Locale }}
             <language>{{.}}</language>
             <dc:language>{{.}}</dc:language>
         {{end}}

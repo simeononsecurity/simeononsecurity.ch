@@ -140,6 +140,7 @@ priority = 0.3
 priority = 0.3
 
 [security]
+  allowContent = ['^text/']
   enableInlineShortcodes = false
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
@@ -219,8 +220,8 @@ baseName = "feed"
 [languages]
 [languages.ar]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ar.xml" }]
-languageName = 'العربية'
-languageCode = "ar"
+label = 'العربية'
+locale = "ar"
 weight = 1
 
 [languages.ar.params]
@@ -270,8 +271,8 @@ url = "/recommendations/"
 
 [languages.bn]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.bn.xml" }]
-languageName = "বাংলা"
-languageCode = "bn"
+label = "বাংলা"
+locale = "bn"
 weight = 1
 
 [languages.bn.params]
@@ -320,8 +321,8 @@ url = "/recommendations/"
 
 [languages.fr]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.fr.xml" }]
-languageName = 'Français'
-languageCode = "fr"
+label = 'Français'
+locale = "fr"
 weight = 1
 
 [languages.fr.params]
@@ -371,8 +372,8 @@ url = "/recommendations/"
 
 [languages.de]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.de.xml" }]
-languageName = 'Deutsch'
-languageCode = "de"
+label = 'Deutsch'
+locale = "de"
 weight = 1
 
 [languages.de.params]
@@ -422,8 +423,8 @@ url = "/recommendations/"
 
 [languages.en]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.en.xml" }]
-languageName = 'English'
-languageCode = "en"
+label = 'English'
+locale = "en"
 weight = 1
 
 [languages.en.params]
@@ -538,8 +539,8 @@ weight = 1
 
 [languages.es]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.es.xml" }]
-languageName = "Español"
-languageCode = "es"
+label = "Español"
+locale = "es"
 weight = 1
 title = "simeononsecurity"
 
@@ -589,8 +590,8 @@ url = "/recommendations/"
 
 [languages.hi]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.hi.xml" }]
-languageName = 'हिन्दी'
-languageCode = "hi"
+label = 'हिन्दी'
+locale = "hi"
 weight = 1
 
 [languages.hi.params]
@@ -640,8 +641,8 @@ url = "/recommendations/"
 
 [languages.it]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.it.xml" }]
-languageName = "Italiano"
-languageCode = "it"
+label = "Italiano"
+locale = "it"
 weight = 1
 
 [languages.it.params]
@@ -690,8 +691,8 @@ url = "/recommendations/"
 
 [languages.ja]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ja.xml" }]
-languageName = "日本語"
-languageCode = "ja"
+label = "日本語"
+locale = "ja"
 weight = 1
 
 [languages.ja.params]
@@ -740,8 +741,8 @@ url = "/recommendations/"
 
 [languages.nl]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.nl.xml" }]
-languageName = "Nederlands"
-languageCode = "nl"
+label = "Nederlands"
+locale = "nl"
 weight = 1
 
 [languages.nl.params]
@@ -790,8 +791,8 @@ url = "/recommendations/"
 
 [languages.pa]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pa.xml" }]
-languageName = "ਪੰਜਾਬੀ"
-languageCode = "pa"
+label = "ਪੰਜਾਬੀ"
+locale = "pa"
 weight = 1
 
 
@@ -841,8 +842,8 @@ url = "/recommendations/"
 
 [languages.pt]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pt.xml" }]
-languageName = "Português"
-languageCode = "pt"
+label = "Português"
+locale = "pt"
 weight = 1
 
 [languages.pt.params]
@@ -891,8 +892,8 @@ url = "/recomendations"
 
 [languages.ro]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ro.xml" }]
-languageName = "Română"
-languageCode = "ro"
+label = "Română"
+locale = "ro"
 weight = 1
 
 [languages.ro.params]
@@ -941,8 +942,8 @@ url = "/recomendations"
 
 [languages.ru]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ru.xml" }]
-languageName = "Русский"
-languageCode = "ru"
+label = "Русский"
+locale = "ru"
 weight = 1
 
 [languages.ru.params]
@@ -991,8 +992,8 @@ url = "/recommendations/"
 
 [languages.zh]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.zh.xml" }]
-languageName = "中文"
-languageCode = "zh"
+label = "中文"
+locale = "zh"
 weight = 1
 
 [languages.zh.params]
@@ -1041,8 +1042,8 @@ url = "/recommendations/"
 
 [languages.ca]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.ca.xml" }]
-languageName = "Català"
-languageCode = "ca"
+label = "Català"
+locale = "ca"
 weight = 1
 
 [languages.ca.params]
@@ -1091,8 +1092,8 @@ url = "/recommendations/"
 
 [languages.pl]
 sitemap = [{ filename = "sitemap.xml" }, { filename = "sitemap.pl.xml" }]
-languageName = "Polski"
-languageCode = "pl"
+label = "Polski"
+locale = "pl"
 weight = 1
 
 [languages.pl.params]

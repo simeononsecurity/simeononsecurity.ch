@@ -15,11 +15,8 @@
         <span class="language-selector" id="language-menu">
             <nav aria-label="Language switcher">
                 <ul class="">
-                    {{ range site.Languages }}
-                        {{ if eq . $.Site.Language }}
-                            <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
-                        {{ end }}
-                    {{ end }}
+                    <li class="current-lang" style="list-style: none; display:none;"><span itemprop="name">{{ $.Site.Language.Lang }}</span></li>
+
                     {{ $path := "" }}
                     {{ $dir := ""}}
                     {{ with .File }}

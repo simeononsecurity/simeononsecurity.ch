@@ -1,4 +1,4 @@
-{{ $languageCode := $.Site.LanguageCode }}
+{{ $languageCode := $.Site.Language.Locale }}
 {{ $excludePaths := slice "/about/" "/jobs/" "/contactus/" "/terms/" "/privacy/" "/authors/" "/tools/" "/practice-tests/" "/advertise/" "/guest-posts/" "/press/" "/downloads/" }}
 {{ $currentPath := .Page.Permalink }}
 {{ $disableAuthorblock := false }}
