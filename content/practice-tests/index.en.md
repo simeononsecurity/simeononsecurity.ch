@@ -5,8 +5,8 @@ genre: ["Cybersecurity", "practice tests", "network security", "ethical hacking"
 tags: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security", "certification exams", "skills assessment"]
 sitemap:
   priority: 0.3
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: Cybersecurity Practice Tests - SimeonOnSecurity"
+cover: "/img/cover/cybersecurity-practice-tests-comptia-cisco-ec-council-isc2.webp"
+coverAlt: "An illustration of a person taking a cybersecurity practice test at a desk with multiple colorful computer screens displaying certification interfaces on a dark background."
 coverCaption: ""
 ---
 
@@ -17,6 +17,11 @@ coverCaption: ""
 | [CompTIA's Network Plus - Practice Test](/network-plus-practice-test) |  Practice test for CompTIA's Network Plus certification. |
 | [CompTIA's Security Plus - Practice Test](/security-plus-practice-test) |  Practice test for CompTIA's Security Plus certification. |
 | [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)   |  Practice test for CompTIA's Linux Plus certification. |
+| [CompTIA's CySA+ - Practice Test](/cysa-plus-practice-test)   |  Practice test for CompTIA's CySA+ (CS0-003) certification. |
+| [CompTIA's PenTest+ - Practice Test](/pentest-plus-practice-test)   |  Practice test for CompTIA's PenTest+ (PT0-003) certification. |
+| [CompTIA's SecurityX (CASP+) - Practice Test](/casp-plus-practice-test)   |  Practice test for CompTIA's SecurityX (CAS-005) certification. |
+| [CompTIA's SecAI+ - Practice Test](/secai-plus-practice-test)   |  Practice test for CompTIA's SecAI+ (CY0-001) certification. |
+| [CompTIA's SecOT+ - Practice Test](/secot-plus-practice-test)   |  Practice test for CompTIA's SecOT+ (SOT-001) certification. |
 
 | Cisco Certification Practice Tests           | Description                       |
 |----------------------------------------------|------------------------|
@@ -40,6 +45,11 @@ coverCaption: ""
 ### [CompTIA's Network Plus - Practice Test](/network-plus-practice-test)
 ### [CompTIA's Security Plus - Practice Test](/security-plus-practice-test)
 ### [CompTIA's Linux Plus - Practice Test](/linux-plus-practice-test)
+### [CompTIA's CySA+ - Practice Test](/cysa-plus-practice-test)
+### [CompTIA's PenTest+ - Practice Test](/pentest-plus-practice-test)
+### [CompTIA's SecurityX (CASP+) - Practice Test](/casp-plus-practice-test)
+### [CompTIA's SecAI+ - Practice Test](/secai-plus-practice-test)
+### [CompTIA's SecOT+ - Practice Test](/secot-plus-practice-test)
 
 ## Cisco Certification Practice Tests
 ### [Cisco's CCNA - Practice Test](/ccna-practice-test)

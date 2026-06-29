@@ -5,8 +5,8 @@ genre: ["technology", "cybersecurity", "online tools", "passwords", "hash calcul
 tags: ["password strength checker", "hash calculator", "secure passwords", "password security tool", "base64 encoder", "shodan IP lookup", "nmap command generator", "chmod command generator", "network analysis", "file permissions management", "image metadata viewer", "online privacy", "data security", "cybersecurity best practices", "security headers check", "strong passwords", "password strength test", "online security tips", "data encoding tools", "privacy optimization", "IP lookup tool"]
 sitemap:
   priority: 0.3
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: Online Tools - SimeonOnSecurity"
+cover: "/img/cover/online-security-tools-password-hash-network-data.webp"
+coverAlt: "A digital workspace with a computer monitor showing a password strength checker, a tablet with a hash calculator, and abstract icons for data conversion tools against a deep navy background."
 coverCaption: ""
 ---
 

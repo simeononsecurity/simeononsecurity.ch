@@ -6,8 +6,8 @@ draft: false
 description: "Comprehensive technical guide to the open-source Flock-You project for detecting Flock Safety ALPR cameras using ESP32-based hardware. Includes setup instructions, firmware details, and purchasing options."
 genre: ["Security Hardware", "Counter Surveillance", "Privacy Technology", "Open Source Projects", "ESP32 Development", "WiFi Monitoring", "Privacy Tools", "Digital Rights", "Hardware Hacking", "Network Security"]
 tags: ["Flock-You Project", "ALPR Detection", "ESP32-S3", "WiFi OUI Detection", "Counter Surveillance Hardware", "Flock Safety Detection", "Open Source Security", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacy Devices", "Surveillance Detection", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Guide", "DIY Privacy Tools", "Network Monitoring", "OUI Database", "Wildcard Probe Detection", "Frame Analysis", "ALPR Camera Detection", "Privacy Technology", "Detection Hardware", "Arduino ESP32", "Platform.io", "Embedded Systems", "RF Detection", "Signal Processing", "Privacy Engineering", "Counter Technology", "Security Research", "Privacy Advocacy", "Open Hardware", "Privacy Defense", "Detection Firmware", "Mobile Detection", "Privacy Projects", "Hardware Comparison"]
-cover: "/img/cover/flock-you-detection-hardware-guide-2026.png"
-coverAlt: "A detailed technical illustration showing ESP32-based detection devices scanning for Flock Safety camera WiFi signatures with OUI detection interface"
+cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"
+coverAlt: "An illustration showing an ESP32-based device in the foreground, scanning WiFi signals. Colorful waves represent different signal strengths, set against a dark background."
 coverCaption: "Open-source hardware solutions for detecting ALPR surveillance cameras"
 canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/"
 ---

@@ -5,8 +5,8 @@ draft: false
 description: "A collection of SimeonOnSecurity's downloadable resources, including Ansible collections, roles, Python packages, PowerShell modules, Chocolatey packages, NPM packages, FireFox extensions, and various scripts and tools for system administration, security, and privacy."
 genre: ["Downloads"]
 tags: ["Ansible", "Python", "PowerShell", "Chocolatey", "NPM", "FireFox", "STIG", "Windows Hardening", "System Administration", "Security", "Privacy"]
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: Downloads Page"
+cover: "/img/cover/ansible-automation-downloads-page-illustration.webp"
+coverAlt: "An illustration of a downloads page interface showcasing Ansible automation tools, featuring colorful icons for roles, collections, and browser extensions against a dark background."
 coverCaption: ""
 ---
 

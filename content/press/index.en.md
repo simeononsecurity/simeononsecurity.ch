@@ -5,8 +5,8 @@ genre: ["technology", "cybersecurity", "automation", "best practices", "cryptocu
 tags: ["press kit", "branding kit", "SimeonOnSecurity (SOS) media resources", "security insights", "automation expertise", "best practices in tech", "crypto exploration", "industry passion", "technical content showcase"]
 sitemap:
   priority: 0.3
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: Press Kit - SimeonOnSecurity SOS"
+cover: "/img/cover/simeononsecurity-press-kit-digital-security-automation-illustration.webp"
+coverAlt: "An abstract digital illustration showing interconnected nodes and circuits, symbolizing security and automation in a futuristic landscape with vibrant colors against a dark background."
 coverCaption: ""
 ---
 

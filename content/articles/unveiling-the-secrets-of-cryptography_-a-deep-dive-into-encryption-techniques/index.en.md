@@ -6,8 +6,9 @@ draft: false
 description: "starting a journey through the intriguing history and evolving landscape of cryptography. This detailed breakdown into encryption techniques, spanning ancient civilizations to modern quantum threats, equips cybersecurity enthusiasts with a profound understanding of symmetric and asymmetric encryption methods. From the principles of confidentiality, integrity, and authentication to exploring the complexities of Elliptic Curve Cryptography and Diffie-Hellman Key Exchange, this article unveils the secrets behind securing digital communication."
 genre: ["Cryptography History", "Encryption Techniques", "Symmetric Encryption", "Asymmetric Encryption", "RSA Algorithm", "Elliptic Curve Cryptography", "Diffie-Hellman Key Exchange", "Data Confidentiality", "Data Integrity", "Data Authentication", "Quantum Computing Threats", "Security Audits", "Wallet Security"]
 tags: ["Historical Cryptography", "Symmetric Encryption Techniques", "Asymmetric Encryption Techniques", "Cryptography Principles", "Data Confidentiality", "Data Integrity", "Data Authentication", "Quantum Threats", "Security Best Practices", "Key Management", "Secure Implementation", "Security Audits", "Wallet Security", "RSA Algorithm", "Elliptic Curve Cryptography", "Diffie-Hellman Key Exchange", "SSL/TLS", "SSH"]
-cover: "/img/cover/unveiling-the-secrets-of-cryptography_-a-detailed breakdown-into-encryption-techniques.jpeg"
-coverAlt: "Unveiling the Secrets of Cryptography: A detailed breakdown into Encryption Techniques"
+cover: "/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp"
+coverAlt: "An illustration showing the evolution of cryptography: ancient symbols for ciphers, medieval patterns of letters, and modern cryptography elements like block ciphers and elliptic curves, all on a dark background."
+coverCaption: ""
 ---
 
 Unveiling the Secrets of Cryptography: A detailed breakdown into Encryption Techniques

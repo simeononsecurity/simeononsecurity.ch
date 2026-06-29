@@ -4,8 +4,8 @@ date: 2020-08-08T15:24:07-05:00
 draft: false
 tags: ["privacy policy", "information collection", "data usage", "visitor consent", "online privacy", "personal information", "contact information", "website usage", "communication", "marketing", "cookies", "web beacons", "log files", "third-party privacy policies", "data protection", "GDPR", "CCPA", "children's privacy", "online activity monitoring"]
 description: "Learn how SimeonOnSecurity collects, uses, and protects visitor information through its comprehensive Privacy Policy, ensuring consent and online privacy."
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: Privacy Policy: Information Collection, Usage, and Consent  SimeonOnSecurity"
+cover: "/img/cover/privacy-policy-information-collection-usage-consent.webp"
+coverAlt: "A digital illustration showing abstract representations of data flow and user consent, with vibrant colors against a dark background, symbolizing data privacy and information collection."
 coverCaption: ""
 ---
 

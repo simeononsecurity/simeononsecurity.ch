@@ -5,8 +5,8 @@ draft: false
 toc: true
 description: "Learn about the terms and conditions for using SimeonOnSecurity's website, including rules, intellectual property rights, and privacy policies."
 tags: ["Terms and Conditions", "website rules", "security information", "security updates", "website usage", "intellectual property rights", "privacy policy", "cookie policy", "comment monitoring", "link approval", "content liability", "website security", "user agreement", "website terms", "online terms", "website regulations", "privacy terms", "legal terms", "website policies", "online security", "website guidelines", "website restrictions", "user obligations", "website compliance", "website disclaimer", "website permissions", "comment policy", "linking policy", "website accessibility", "website maintenance"]
-cover: "/img/cover/index.en.md.webp"
-coverAlt: "Cover image for: SimeonOnSecurity Terms and Conditions: Rules for Website Usage"
+cover: "/img/cover/simeononsecurity-website-terms-conditions-illustration.webp"
+coverAlt: "An abstract digital landscape illustrating website terms and conditions, featuring stylized representations of documents and user agreements in vibrant colors against a dark background."
 coverCaption: ""
 ---
 

@@ -29,8 +29,8 @@ draft: false
 description: "Your article's description or summary."
 genre: ["Genre1", "Genre2", "Genre3"]  # Add appropriate genres relevant to your article.
 tags: ["tag1", "tag2", "tag3"]  # Add relevant tags to your article.
-cover: "/img/cover/your_cover_image.png"  # Add the path to your article's cover image. Must be in png format.
-coverAlt: "A description of your cover image."
+cover: "/img/cover/guest-blogging-guidelines-collaboration-content-creation.webp"
+coverAlt: "A diverse group of bloggers working together in a modern workspace, using laptops and tablets, surrounded by vibrant colors and elements representing content creation."
 coverCaption: "Caption for your cover image."
 ---
 ```
