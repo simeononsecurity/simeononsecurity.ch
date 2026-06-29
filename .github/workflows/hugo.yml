@@ -25,7 +25,12 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      # Caching is intentionally DISABLED for this workflow. No actions/cache
+      # step is used, and Hugo runs with --ignoreCache --renderToMemory so the
+      # "test latest version" job always performs a clean, uncached build to
+      # surface regressions and deprecations early.
       - name: Run Hugo
         run: hugo --cleanDestinationDir --gc -D -E -F --ignoreCache --renderToMemory --minify --panicOnWarning --logLevel info --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/en/config.toml
+
 
 
