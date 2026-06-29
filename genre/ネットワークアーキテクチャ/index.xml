@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ネットワーク・アーキテクチャ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3//img/banner.png</url><title>ネットワーク・アーキテクチャ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</link><description>Recent content in ネットワーク・アーキテクチャ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>ネットワーキングの基本：OSIレイヤーとTCP IPモデルの理解</title><link>https://ja.simeononsecurity.com/articles/what-are-the-osi-layers/</link><pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate><category>
+"ネットワーキングの基本"
+, "OSIレイヤー"
+, "TCP IPモデル"
+, "ネットワーク・プロトコル"
+, "コミュニケーション・モデル"
+, "ネットワークの基礎"
+, "データ伝送"
+, "ネットワークのトラブルシューティング"
+, "ネットワーク・アーキテクチャ"
+, "ネットワーキングの概念"</category><guid>https://ja.simeononsecurity.com/articles/what-are-the-osi-layers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワークに不可欠なフレームワークであるOSI層とTCP IPモデルを包括的に理解し、効果的なコミュニケーションとトラブルシューティングを促進する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_network.png" length="340153" type="image/png"/></item><item><title>ネットワーク・プラス・コースネットワークサービス、接続オプション、アーキテクチャの探求</title><link>https://ja.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</link><pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーキング"
+, "コネクティビティ"
+, "データ交換"
+, "ネットワーク・アーキテクチャ"
+, "クラウド・コンピューティング"
+, "ネットワークサービス"
+, "DNS"
+, "ディーエイチシーピー"
+, "エヌティーピー"</category><guid>https://ja.simeononsecurity.com/network-plus/network-services-connectivity-options-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+DHCP、DNS、NTPサービスの機能性を発見し、企業やデータセンターのネットワーク・アーキテクチャを理解し、シームレスな通信とデータ管理のためのクラウド・コンセプトと接続オプションを探ります。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_various_networks.png" length="1960971" type="image/png"/></item><item><title>ネットワーク・プラス・コースOSIモデル、トポロジー、ネットワークタイプを理解する</title><link>https://ja.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ネットワーキング"
+, "ITインフラ"
+, "ネットワーク・アーキテクチャ"
+, "コンピューター・サイエンス"
+, "データ通信"
+, "情報技術"
+, "ネットワーク・セキュリティ"
+, "ネットワーク管理"
+, "インターネット"</category><guid>https://ja.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+効率的で信頼性の高いインフラを構築するために、OSIモデル、ネットワークトポロジー、様々な種類のネットワークなど、ネットワークの基礎の重要性を探求する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.png" length="1409314" type="image/png"/></item></channel></rss>

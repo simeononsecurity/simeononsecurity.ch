@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ansibleプレイブック on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/ansible%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF//img/banner.png</url><title>Ansibleプレイブック on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/ansible%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF/</link></image><link>https://ja.simeononsecurity.com/tags/ansible%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF/</link><description>Recent content in Ansibleプレイブック on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/ansible%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>STIGスクリプトによるセキュリティ・コンプライアンスの自動化</title><link>https://ja.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIGスクリプト"
+, "セキュリティコンプライアンス"
+, "オートメーション"
+, "ウィンドウズ"
+, "アプリケーション"
+, ".NET"
+, "アドビリーダーDC"
+, "オラクル JRE 8"
+, "ファイヤーフォックス"
+, "Ansibleプレイブック"
+, "ドメイン準備"
+, "ウィンドウズ・ディフェンダー"
+, "サイバーセキュリティ"
+, "スクリプト"
+, "STIGコンプライアンス"
+, "構成管理"
+, "ITセキュリティ"
+, "パッチ管理"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows や、.NET、Adobe Reader DC、Oracle JRE 8 などの一般的なアプリケーションのセキュリティ・コンプライアンスを自動化する STIG スクリプトのコレクションをご覧ください。</description></item><item><title>今日はAnsibleの条件分岐と変数管理について詳しく学びました</title><link>https://ja.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "アンシブル"
+, "コンフィギュレーションマネジメント"
+, "ITインフラ"
+, "デブオプス"
+, "プレイブック開発"
+, "バリアブルマネジメント"
+, "条件付き実行"</category><guid>https://ja.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日はAnsibleの条件分岐と変数管理について詳しく学びました</description></item></channel></rss>

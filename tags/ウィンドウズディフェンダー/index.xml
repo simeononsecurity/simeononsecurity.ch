@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ウィンドウズ・ディフェンダー on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC//img/banner.png</url><title>ウィンドウズ・ディフェンダー on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC/</link><description>Recent content in ウィンドウズ・ディフェンダー on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%82%BA%E3%83%87%E3%82%A3%E3%83%95%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>安全なWindows 10とWindows 11のための基本的なWindows強化のベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"ウィンドウズ強化"
+, "Windowsのセキュリティ"
+, "Windows 10のハードニング"
+, "ウィンドウズ11のハードニング"
+, "Windowsセキュリティのベストプラクティス"
+, "Windowsセキュリティのヒント"
+, "Windowsセキュリティガイドライン"
+, "Windowsオペレーティングシステムのセキュリティ"
+, "Windowsシステムのハードニング"
+, "ウィンドウズのセキュリティ対策"</category><guid>https://ja.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+包括的なハードニング技術とベストプラクティスを通じて、Windows 10およびWindows 11システムのセキュリティを強化するための効果的な戦略をご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png"/></item><item><title>STIGスクリプトによるセキュリティ・コンプライアンスの自動化</title><link>https://ja.simeononsecurity.com/github/awesome-stigs/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><category>
+"STIGスクリプト"
+, "セキュリティコンプライアンス"
+, "オートメーション"
+, "ウィンドウズ"
+, "アプリケーション"
+, ".NET"
+, "アドビリーダーDC"
+, "オラクル JRE 8"
+, "ファイヤーフォックス"
+, "Ansibleプレイブック"
+, "ドメイン準備"
+, "ウィンドウズ・ディフェンダー"
+, "サイバーセキュリティ"
+, "スクリプト"
+, "STIGコンプライアンス"
+, "構成管理"
+, "ITセキュリティ"
+, "パッチ管理"
+, "システム管理"</category><guid>https://ja.simeononsecurity.com/github/awesome-stigs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows や、.NET、Adobe Reader DC、Oracle JRE 8 などの一般的なアプリケーションのセキュリティ・コンプライアンスを自動化する STIG スクリプトのコレクションをご覧ください。</description></item></channel></rss>

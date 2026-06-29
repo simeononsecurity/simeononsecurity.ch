@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>テンプレートシステム on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0//img/banner.png</url><title>テンプレートシステム on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/</link><description>Recent content in テンプレートシステム on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/index.xml" rel="self" type="application/rss+xml"/><item><title>Pythonのためのセキュアコーディングスタンダード：ベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-python/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><category>
+"パイソン"
+, "セキュアコーディング"
+, "セキュリティリスク"
+, "入力バリデーション"
+, "暗号化ライブラリ"
+, "最小限の特権"
+, "スタティックコードアナライザー"
+, "ウェブアプリケーション"
+, "Pythonフレームワーク"
+, "ジャンゴ"
+, "フラッシュ"
+, "認証システム"
+, "パスワードハッシュ化"
+, "テンプレートシステム"
+, "セッション管理"
+, "マークアップセーフ"
+, "WTForms（ワフフォームズ"
+, "ブリンカー"
+, "データ保護"
+, "脆弱性（ぜいじゃくせい"</category><guid>https://ja.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+セキュリティ侵害のリスクを最小限に抑え、機密データを保護するために、Pythonでセキュアコーディングするためのベストプラクティスを学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png"/></item></channel></rss>

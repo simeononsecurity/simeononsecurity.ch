@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プレイブック開発の効率化 on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF%E9%96%8B%E7%99%BA%E3%81%AE%E5%8A%B9%E7%8E%87%E5%8C%96//img/banner.png</url><title>プレイブック開発の効率化 on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF%E9%96%8B%E7%99%BA%E3%81%AE%E5%8A%B9%E7%8E%87%E5%8C%96/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF%E9%96%8B%E7%99%BA%E3%81%AE%E5%8A%B9%E7%8E%87%E5%8C%96/</link><description>Recent content in プレイブック開発の効率化 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%83%97%E3%83%AC%E3%82%A4%E3%83%96%E3%83%83%E3%82%AF%E9%96%8B%E7%99%BA%E3%81%AE%E5%8A%B9%E7%8E%87%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>今日はAnsibleの条件分岐と変数管理について詳しく学びました</title><link>https://ja.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "アンシブル"
+, "コンフィギュレーションマネジメント"
+, "ITインフラ"
+, "デブオプス"
+, "プレイブック開発"
+, "バリアブルマネジメント"
+, "条件付き実行"</category><guid>https://ja.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日はAnsibleの条件分岐と変数管理について詳しく学びました</description></item></channel></rss>

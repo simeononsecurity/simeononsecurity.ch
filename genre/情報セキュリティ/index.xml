@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>情報セキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/genre/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3//img/banner.png</url><title>情報セキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in 情報セキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E6%83%85%E5%A0%B1%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>リモート・アクセス・トロイの木馬を理解する：リスク、予防、保護</title><link>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "悪意のあるソフトウェア"
+, "コンピュータ・セキュリティ"
+, "デジタルの脅威"
+, "リモート・アクセス・トロイの木馬"
+, "データ保護"
+, "プライバシー"
+, "サイバー犯罪"
+, "ネットワーク・セキュリティ"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+リモート・アクセス・トロイの木馬（RAT）がもたらすリスクを発見し、コンピュータ・システムとデータを保護するための効果的な予防策と保護策を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png"/></item><item><title>サイバーセキュリティのアウトソーシングメリット、デメリット、効果的なパートナーシップのベストプラクティス</title><link>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "アウトソーシング"
+, "情報セキュリティ"
+, "マネージド・セキュリティ・サービス"
+, "データ保護"
+, "リスク管理"
+, "ITサービス"
+, "ビジネス・セキュリティ"
+, "テクノロジー"
+, "サイバー脅威"</category><guid>https://ja.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/outsourcing-cybersecurity-efforts-is-it-a-good-idea/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+進化する脅威に対する保護を強化し、費用対効果の高いソリューションを確保するために、サイバーセキュリティをアウトソーシングするメリット、課題、ベストプラクティスをご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_group_of_professionals_working_together_to_protect_a_shie.png" length="341520" type="image/png"/></item><item><title>効果的なデータ保護対策：最大限のセキュリティでビジネスを守る</title><link>https://ja.simeononsecurity.com/articles/imeplementing-effective-data-protection-measures-for-maximum-security/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"データ保護戦略"
+, "情報セキュリティ"
+, "サイバーセキュリティ対策"
+, "データプライバシー"
+, "コンプライアンス規制"
+, "リスクアセスメント"
+, "セキュリティ監査"
+, "社員教育"
+, "インシデントレスポンス計画"
+, "長期的なデータ保護"</category><guid>https://ja.simeononsecurity.com/articles/imeplementing-effective-data-protection-measures-for-maximum-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+不正アクセスやデータ漏洩からビジネスを守るためには、効果的なデータ保護対策を実施することが重要です。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/implementing-effective-data-protection-measures-for-maximum-security.png" length="55125" type="image/png"/></item><item><title>国家安全保障のための機密情報（SCI）の理解</title><link>https://ja.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "ナショナルセキュリティ"
+, "インテリジェンス"
+, "クラシファイドインフォメーション"
+, "政府規制"
+, "アクセスコントロール"
+, "セキュリティクリアランス"
+, "インテリジェンス・コミュニティ"
+, "防衛産業"
+, "インテリジェンス・オペレーションズ"</category><guid>https://ja.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+国家安全保障上の機密情報（SCI）の重要性、分類レベル、取り扱い、規制について探求する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png"/></item><item><title>情報分類を理解する：誰が分類レベルを決定し、割り当てるのか？</title><link>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "データ分類"
+, "政府規制"
+, "ナショナルセキュリティ"
+, "データ保護"
+, "データプライバシー"
+, "セキュリティ対策"
+, "分類された情報"
+, "アクセスコントロール"
+, "データの機密性"</category><guid>https://ja.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+情報分類のプロセスについて、誰が分類レベルを指定し、割り当てるのか、政府の規制を遵守することの重要性などについて学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png" length="374731" type="image/png"/></item><item><title>サイバーセキュリティの基礎知識：デジタルライフを守るための包括的なガイド</title><link>https://ja.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "オンラインセキュリティ"
+, "デジタル・セーフティ"
+, "サイバー脅威"
+, "インターネットプライバシー"
+, "データ保護"
+, "情報セキュリティ"
+, "技術情報"
+, "サイバーディフェンス"
+, "サイバーアウェアネス"</category><guid>https://ja.simeononsecurity.com/articles/cybersecurity-for-beginners-a-non-technical-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この包括的なガイドで、サイバーセキュリティの基礎と、サイバー脅威からデジタルライフを保護するための実践的なヒントを学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/cybersecurity-for-beginners.png" length="79714" type="image/png"/></item><item><title>未分類の情報の真実：特徴、保護、規制について</title><link>https://ja.simeononsecurity.com/articles/safeguarding-unclassified-information/</link><pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate><category>
+"情報セキュリティ"
+, "データ管理"
+, "政府規制"
+, "情報共有"
+, "データ保護"
+, "守秘義務について"
+, "リスク軽減"
+, "インフォメーションガバナンス"
+, "データ分類"
+, "情報アクセス"</category><guid>https://ja.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+非機密情報の本質、主要な特性、保護措置、効果的な保護のための関連規制を発見する。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png" length="330073" type="image/png"/></item><item><title>Security+とSSCP：どちらのサイバーセキュリティ認定資格が頂点に君臨するのか？</title><link>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "情報セキュリティ"
+, "認証比較"
+, "ITキャリア"
+, "業界からの評価"
+, "求人情報"
+, "ネットワークセキュリティ"
+, "システムセキュリティ"
+, "CompTIA"</category><guid>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Security+とSSCPの認定資格を比較し、就職の機会、業界での認知度、包括的な知識の網羅性を求めるサイバーセキュリティ専門家にとって最適な選択を決定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png" length="384328" type="image/png"/></item></channel></rss>

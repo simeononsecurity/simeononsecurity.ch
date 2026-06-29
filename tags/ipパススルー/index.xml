@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IPパススルー on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/ip%E3%83%91%E3%82%B9%E3%82%B9%E3%83%AB%E3%83%BC//img/banner.png</url><title>IPパススルー on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/ip%E3%83%91%E3%82%B9%E3%82%B9%E3%83%AB%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/tags/ip%E3%83%91%E3%82%B9%E3%82%B9%E3%83%AB%E3%83%BC/</link><description>Recent content in IPパススルー on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/ip%E3%83%91%E3%82%B9%E3%82%B9%E3%83%AB%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>BGW-320をバイパスする：Azores COTS ONTの使用 - ステップバイステップガイド</title><link>https://ja.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "アゾレス"
+, "繊維"
+, "ネットワーク"
+, "XGS-PON（エックスジーエスポン"
+, "イーサネット"
+, "IPパススルー"
+, "カスタム化"
+, "ISP"
+, "アイディー"
+, "MACアドレス"
+, "機器ID"
+, "イメージバージョン"
+, "ハードウェアバージョン"
+, "テルネット"
+, "CLIアプリケーション"
+, "ウェブGUI"
+, "ファクトリーコンフィグレーションモード"
+, "相性問題"</category><guid>https://ja.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+BGW-320をバイパスして、アゾレス社製のCOTS ONTを使ってISPのネットワークに接続する方法を、この簡単なガイドでご紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png"/></item></channel></rss>

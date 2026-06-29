@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アイエーシー on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%BC//img/banner.png</url><title>アイエーシー on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%BC/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%BC/</link><description>Recent content in アイエーシー on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%82%A4%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>Infrastructure as CodeのためのTerraformをはじめよう。</title><link>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"テラフォーム"
+, "コードとしてのインフラ"
+, "アイエーシー"
+, "クラウドコンピューティング"
+, "デブオプス"
+, "オートメーション"
+, "エーダブリュエス"
+, "アズール"
+, "グーグルクラウド"
+, "クラウドプロバイダー"
+, "コンフィギュレーションマネジメント"
+, "デプロイメント"
+, "プロビジョニング"
+, "リソースマネジメント"
+, "スケーラビリティ"
+, "レジリエンス"
+, "セキュリティ"
+, "コンプライアンス"
+, "ベストプラクティス"</category><guid>https://ja.simeononsecurity.com/articles/introduction-to-teraform-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Infrastructure as Codeの代表的なツールであるTerraformの基本を学び、インフラを効率的に管理するための使い方を紹介します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png" length="246057" type="image/png"/></item><item><title>今日は「ショコラパッケージの作り方」を学びました</title><link>https://ja.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "Windowsのパッケージ管理"
+, "パッケージ作成"
+, "パッケージ管理"
+, "IaC（Infrastructure as Code）とは"
+, "Windowsソフトウエアのデプロイメント"
+, "ソフトウェアパッケージ"
+, "ウィンドウズ・オートメーション"
+, "パッケージリポジトリ"
+, "Windowsツール"</category><guid>https://ja.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+今日はAnsibleの条件分岐と変数管理について詳しく学びました</description></item></channel></rss>

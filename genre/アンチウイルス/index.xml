@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アンチウイルス on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/genre/%E3%82%A2%E3%83%B3%E3%83%81%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9//img/banner.png</url><title>アンチウイルス on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%A2%E3%83%B3%E3%83%81%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%A2%E3%83%B3%E3%83%81%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9/</link><description>Recent content in アンチウイルス on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%A2%E3%83%B3%E3%83%81%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows Defender PowerShellコマンドでシステムセキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"ウィンドウズ・ディフェンダー"
+, "PowerShellコマンド"
+, "システムセキュリティ"
+, "コマンドライン制御"
+, "アンチウイルス"
+, "Windowsオペレーティングシステム"
+, "マルウェアプロテクション"
+, "高度なセキュリティ設定"
+, "セキュリティ運用の自動化"
+, "Windows PowerShell"</category><guid>https://ja.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Defender PowerShellコマンドのパワーを発見し、コマンドライン制御でシステムセキュリティを強化する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png"/></item><item><title>エンドポイントセキュリティ対決：シマンテック vs. マカフィー - 包括的な比較</title><link>https://ja.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link><pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "エンドポイントセキュリティ"
+, "アンチウイルス"
+, "ファイアウォール"
+, "侵入検知"
+, "データ損失防止"
+, "脅威からの保護"
+, "セキュリティ・ソリューション"
+, "比較"</category><guid>https://ja.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+サイバー脅威から組織のデジタル資産を守るには、シマンテックとマカフィーのどちらのエンドポイントセキュリティソリューションが最適かをご確認ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png"/></item><item><title>推奨アンチウイルス</title><link>https://ja.simeononsecurity.com/recommendations/anti-virus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"推奨アンチウイルス"
+, "AV"
+, "アンチウイルス"
+, "アンチウイルス"
+, "ホームユース"
+, "業務用"
+, "ウィンドウズ"
+, "リナックス"
+, "マックオス"
+, "サイバーセキュリティ"</category><guid>https://ja.simeononsecurity.com/recommendations/anti-virus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+この記事では、SimeonOnSecurityがランク付けした、家庭用およびビジネス用の推奨アンチウイルス製品のリストを提供します。ランキングは専門家の意見と悪意のあるサンプルに対するテストに基づいており、アンチウイルスの機能、検出、ユーザーエクスペリエンス、パフォーマンスのみを対象としています。Windowsユーザーは有料と無料の両方から選ぶことができるが、LinuxとMacOSユーザーは選択肢が限られており、有料オプションはLinuxでのみ利用可能である。なお、LinuxやMacOSではAVは必須ではなく、AVスイートとともに提供されるVPNやパスワード・マネージャーの使用は推奨されない。この記事では、VPNプロバイダーに関する推奨事項も紹介している。ビジネス用途での推奨は現在検討中である。</description></item></channel></rss>

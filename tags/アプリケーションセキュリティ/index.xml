@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アプリケーションセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3//img/banner.png</url><title>アプリケーションセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in アプリケーションセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Pythonセキュリティのベストプラクティス：コードとデータの保護</title><link>https://ja.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"パイソンセキュリティ"
+, "コード・セキュリティ"
+, "データ保護"
+, "ソフトウェア開発"
+, "サイバーセキュリティ"
+, "安全なコーディング"
+, "ウェブ開発"
+, "データプライバシー"
+, "アプリケーション・セキュリティ"
+, "ITセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+あなたのコードとデータを潜在的な脅威から守り、データ保護、システムの完全性、信頼性を確保するために不可欠なPythonセキュリティのベストプラクティスを学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png"/></item><item><title>OWASP ASVSによるWebアプリケーションの安全性確保</title><link>https://ja.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><category>
+"ウェブアプリケーションセキュリティ"
+, "オワスプ"
+, "エーエスブイエス"
+, "アプリケーションセキュリティ"
+, "安全保護基準"
+, "サイバーセキュリティ"
+, "脆弱性管理"
+, "えんぎ"
+, "侵入テスト"
+, "スレットモデリング"
+, "セキュリティ制御"
+, "セキュリティアセスメント"
+, "自動化セキュリティ試験"
+, "手動セキュリティテスト"
+, "安全な開発ライフサイクル"
+, "セキュリティベストプラクティス"
+, "データ機密保護"
+, "リスクマネージメント"
+, "コンプライアンス"
+, "情報セキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+OWASP Application Security Verification Standard (ASVS)を使用して、最も厳格なセキュリティ対策を満たし、一般的な脆弱性から保護するために、Webアプリケーションを保護する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png"/></item></channel></rss>
