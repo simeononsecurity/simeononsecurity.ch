@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
-          node-version: "18"
+          node-version: "lts/*"
           check-latest: true
       # -
       #   name: Install Dependencies
