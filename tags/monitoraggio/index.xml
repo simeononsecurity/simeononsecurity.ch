@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoraggio on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/monitoraggio//img/banner.png</url><title>Monitoraggio on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/monitoraggio/</link></image><link>https://it.simeononsecurity.com/tags/monitoraggio/</link><description>Recent content in Monitoraggio on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/monitoraggio/index.xml" rel="self" type="application/rss+xml"/><item><title>Come proteggere l'ambiente Docker e Kubernetes</title><link>https://it.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</link><pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate><category>
+"Docker"
+, "Kubernetes"
+, "Sicurezza"
+, "Contenitori"
+, "Sicurezza di rete"
+, "RBAC"
+, "Server API"
+, "Vulnerabilità"
+, "Monitoraggio"
+, "Registrazione"
+, "Firewall"
+, "TLS"
+, "Ancora"
+, "Clair"
+, "Aqua Security"
+, "Pila ELK"
+, "Splunk"
+, "Prometeo"
+, "Sicurezza informatica"
+, "Migliori pratiche"</category><guid>https://it.simeononsecurity.com/articles/how-to-secure-your-docker-and-kubernetes-environment/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Imparare le migliori pratiche per proteggere l'ambiente Docker e Kubernetes, tra cui l'uso di immagini ufficiali, la limitazione dei permessi e l'implementazione della sicurezza di rete.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png" length="306648" type="image/png"/></item></channel></rss>

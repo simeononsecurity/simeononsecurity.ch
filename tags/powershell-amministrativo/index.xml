@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell Amministrativo on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/powershell-amministrativo//img/banner.png</url><title>Powershell Amministrativo on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/powershell-amministrativo/</link></image><link>https://it.simeononsecurity.com/tags/powershell-amministrativo/</link><description>Recent content in Powershell Amministrativo on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/powershell-amministrativo/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatizza l'attivazione di Windows KMS con lo script GLVK</title><link>https://it.simeononsecurity.com/github/kms-auto-ps/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><category>
+"Attivazione Windows"
+, "Chiavi client KMS"
+, "GLVK"
+, "Aggiornamenti di Windows"
+, "Conformità"
+, "Script PowerShell"
+, "Servizio di gestione delle chiavi"
+, "Contratti multilicenza"
+, "Attivazione aziendale"
+, "Server di gestione delle chiavi"
+, "Automazione"
+, "Prodotti Microsoft"
+, "Sistema operativo"
+, "Software"
+, "Ambienti aziendali"
+, "Powershell amministrativo"
+, "Repository GitHub"
+, "Scripting"
+, "Sicurezza informatica"
+, "Simeon Sulla Sicurezza"</category><guid>https://it.simeononsecurity.com/github/kms-auto-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Semplifica il processo di attivazione KMS di Windows 10 utilizzando lo script di installazione automatica GLVK di SimeonOnSecurity e scopri di più sulle chiavi client KMS e GLVK dalla lettura consigliata da Microsoft.</description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nethor on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/nethor//img/banner.png</url><title>Nethor on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/nethor/</link></image><link>https://it.simeononsecurity.com/tags/nethor/</link><description>Recent content in Nethor on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/nethor/index.xml" rel="self" type="application/rss+xml"/><item><title>Oggi ho imparato a creare pacchetti di cioccolato</title><link>https://it.simeononsecurity.com/til/2022-05-23/</link><pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Gestione dei pacchetti di Windows"
+, "Creazione di pacchetti"
+, "Gestione dei pacchetti"
+, "Infrastruttura come codice (IaC)"
+, "Distribuzione del software Windows"
+, "Imballaggio del software"
+, "Automazione di Windows"
+, "Repository di pacchetti"
+, "Strumenti di Windows"</category><guid>https://it.simeononsecurity.com/til/2022-05-23/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item></channel></rss>

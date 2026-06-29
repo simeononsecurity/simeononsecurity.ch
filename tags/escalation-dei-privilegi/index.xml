@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Escalation Dei Privilegi on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/escalation-dei-privilegi//img/banner.png</url><title>Escalation Dei Privilegi on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/escalation-dei-privilegi/</link></image><link>https://it.simeononsecurity.com/tags/escalation-dei-privilegi/</link><description>Recent content in Escalation Dei Privilegi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/escalation-dei-privilegi/index.xml" rel="self" type="application/rss+xml"/><item><title>Migliori pratiche per la codifica sicura in PowerShell: Una guida</title><link>https://it.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</link><pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "Codifica sicura"
+, "Sistemi basati su Windows"
+, "Convalida dell'ingresso"
+, "Librerie di crittografia"
+, "Privilegio minimo"
+, "Analizzatore di codice statico"
+, "Protocolli di comunicazione sicuri"
+, "Registrazione e monitoraggio"
+, "Scansioni di vulnerabilità"
+, "Istruzione"
+, "Codice di iniezione"
+, "Escalation dei privilegi"
+, "Perdita di dati"
+, "Ambiente di tempra"
+, "Politiche di sicurezza"
+, "Firewall"
+, "Sistemi di rilevamento delle intrusioni"
+, "Gestione delle vulnerabilità"
+, "Sicurezza di rete"</category><guid>https://it.simeononsecurity.com/articles/secure-coding-standards-for-powershell/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Imparate le migliori pratiche per scrivere codice PowerShell sicuro per proteggere i vostri sistemi basati su Windows dalle vulnerabilità di sicurezza.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png" length="212235" type="image/png"/></item><item><title>Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</title><link>https://it.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automazione"
+, "Ansible"
+, "Gestione della configurazione"
+, "Infrastruttura IT"
+, "DevOps"
+, "Sviluppo del Playbook"
+, "Gestione variabile"
+, "Esecuzione condizionale"</category><guid>https://it.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Oggi ho imparato di più sui condizionali di Ansible e sulla gestione delle variabili</description></item></channel></rss>

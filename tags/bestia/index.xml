@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>BESTIA on simeononsecurity</title><image><url>https://it.simeononsecurity.com/tags/bestia//img/banner.png</url><title>BESTIA on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/bestia/</link></image><link>https://it.simeononsecurity.com/tags/bestia/</link><description>Recent content in BESTIA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/bestia/index.xml" rel="self" type="application/rss+xml"/><item><title>Per rafforzare la sicurezza del computer, disabilitate SSL e TLS 1.2 e inferiori.</title><link>https://it.simeononsecurity.com/articles/hardening-tls-and-ssl/</link><pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate><category>
+"Rafforzamento della sicurezza informatica"
+, "Disabilitare SSL e TLS"
+, "Sicurezza dei dati"
+, "POODIO"
+, "BESTIA"
+, "Heartbleed"
+, "Editor del registro di Windows"
+, "Configurazione OpenSSL di Linux"
+, "Apache"
+, "Nginx"</category><guid>https://it.simeononsecurity.com/articles/hardening-tls-and-ssl/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Questo articolo illustra i passaggi per migliorare la sicurezza dei dati disabilitando le vecchie versioni dei protocolli SSL e TLS, vulnerabili alle minacce informatiche come POODLE, BEAST e Heartbleed, nei sistemi Windows e Linux.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png" length="310292" type="image/png"/></item></channel></rss>
