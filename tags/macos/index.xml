@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MacOS on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/macos//img/banner.png</url><title>MacOS on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/macos/</link></image><link>https://ca.simeononsecurity.com/tags/macos/</link><description>Recent content in MacOS on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Protegiu Windows dels atacs de canal lateral d'execució especulativa</title><link>https://ca.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script de mitigació de Windows Spectre Meltdown"
+, "Execució especulativa Atacs de canal lateral"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Chrome"
+, "iOS"
+, "macOS"
+, "Injecció Branch Target"
+, "Comprovació de límits Bypass"
+, "Càrrega de la memòria cau de dades fraudulentes"
+, "Bypass especulatiu de la botiga"
+, "Mostra de dades de microarquitectura"
+, "CVE"
+, "Actualitzacions de firmware"
+, "Repositori GitHub"
+, "PowerShell"</category><guid>https://ca.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Apreneu a protegir el vostre sistema Windows contra atacs de canal lateral d'execució especulativa amb l'script de mitigació i les actualitzacions de microprogramari de Microsoft</description></item></channel></rss>

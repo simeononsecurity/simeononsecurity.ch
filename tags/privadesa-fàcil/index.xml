@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privadesa Fàcil on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/privadesa-f%C3%A0cil//img/banner.png</url><title>Privadesa Fàcil on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/privadesa-f%C3%A0cil/</link></image><link>https://ca.simeononsecurity.com/tags/privadesa-f%C3%A0cil/</link><description>Recent content in Privadesa Fàcil on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/privadesa-f%C3%A0cil/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10 Script de bloqueig d'anuncis a tot el sistema per a una millor privadesa i seguretat</title><link>https://ca.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "bloquejador d'anuncis"
+, "bloqueig de telemetria"
+, "Script de PowerShell"
+, "bloqueig d'anuncis a tot el sistema"
+, "privadesa"
+, "seguretat"
+, "EasyList"
+, "Privadesa fàcil"
+, "Llista de filtres NoCoin"
+, "Filtre DNS AdGuard"
+, "Llistes YoYo"
+, "Servidors de programari maliciós de seguiment d'anuncis de Peter Lowe"
+, "Firewall de Windows"
+, "llistes de dominis"
+, "bloquejar els seguidors de Windows"
+, "rastrejadors de blocs"
+, "bloquejar anuncis"
+, "seguiment de blocs"</category><guid>https://ca.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bloquegeu anuncis, rastrejadors i telemetria a Windows 10 mitjançant aquest potent script de PowerShell que utilitza el fitxer hosts i el tallafoc de Windows per bloquejar anuncis a tot el sistema.</description></item></channel></rss>

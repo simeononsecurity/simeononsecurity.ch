@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exploracions De Virus on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/tags/exploracions-de-virus//img/banner.png</url><title>Exploracions De Virus on simeononsecurity</title><link>https://ca.simeononsecurity.com/tags/exploracions-de-virus/</link></image><link>https://ca.simeononsecurity.com/tags/exploracions-de-virus/</link><description>Recent content in Exploracions De Virus on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/tags/exploracions-de-virus/index.xml" rel="self" type="application/rss+xml"/><item><title>Anàlisis eficients de virus amb els mòduls VirusTotal PowerShell</title><link>https://ca.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"Mòduls PowerShell"
+, "PowerShell"
+, "Automatització"
+, "VirusTotal"
+, "Exploracions de virus"
+, "Exploracions de dominis"
+, "Clau de l'API"
+, "API VirusTotal"
+, "Pàgina de desenvolupadors de VirusTotal"
+, "Administració de sistemes"
+, "Flux de treball de seguretat"
+, "Anàlisi de virus eficient"
+, "Descarrega i instal·la"
+, "Repositori GitHub"
+, "Exemples d'ús de l'API"</category><guid>https://ca.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Realitzeu exploracions eficients de virus amb els mòduls VirusTotal PowerShell automatitzant la interacció amb l'API de VirusTotal i racionalitzant el vostre flux de treball de seguretat.</description></item></channel></rss>
