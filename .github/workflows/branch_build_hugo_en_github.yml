@@ -51,13 +51,15 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build Hugo site
+      - name: Cache Hugo resources
         uses: actions/cache@v5
         with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-github
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-en_github-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-en
+            ${{ runner.os }}-hugo-en_github-
 
       - name: Build Hugo site
         env:

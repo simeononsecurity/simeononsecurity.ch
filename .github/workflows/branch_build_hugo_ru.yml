@@ -31,16 +31,26 @@ jobs:
       - name: Print PWD
         run: pwd    
 
-      - name: Build Hugo site
-        uses: actions/cache@v5
+      - name: Restore Hugo cache
+        uses: actions/cache/restore@v5
         with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-ru
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-ru-${{ github.sha }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-ru
+            ${{ runner.os }}-hugo-ru-
 
       - name: Build Hugo site
         run: hugo --cleanDestinationDir -D -E -F --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/ru/config.toml
+
+      - name: Save Hugo cache
+        uses: actions/cache/save@v5
+        with:
+          path: |
+            /tmp/hugo_cache
+            resources/_gen
+          key: ${{ runner.os }}-hugo-ru-${{ github.sha }}
 
       - name: Delete non-public folders and files
         run: |
