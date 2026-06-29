@@ -1,0 +1,212 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Лазурь on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D1%8C//img/banner.png</url>
+      <title>Лазурь on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D1%8C/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D1%8C/</link>
+
+    <description>Recent content in Лазурь on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BB%D0%B0%D0%B7%D1%83%D1%80%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание безопасного и совместимого облачного озера данных: Лучшие практики защиты хранимых данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "озеро данных"
+            
+              , "облачная безопасность"
+            
+              , "нормативные документы"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "мониторинг"
+            
+              , "патчи"
+            
+              , "кибербезопасность"
+            
+              , "SIEM-решение"
+            
+              , "Команды ИТ-поддержки"
+            
+              , "картина угроз"
+            
+              , "миграция в облако"
+            
+              , "управление облачными вычислениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном руководстве вы узнаете о лучших практиках обеспечения безопасности и соответствия нормативным требованиям при планировании, создании и управлении облачными озерами данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Соревнования по безопасности в облаке: AWS vs Azure vs Google Cloud Platform</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</link>
+        
+        <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "AWS"
+            
+              , "Лазурь"
+            
+              , "Облако Google"
+            
+              , "облачная безопасность"
+            
+              , "IAM"
+            
+              , "GuardDuty"
+            
+              , "Центр безопасности"
+            
+              , "Командный пункт охраны"
+            
+              , "Защита от DDoS-атак"
+            
+              , "Облачная броня"
+            
+              , "WAF"
+            
+              , "Частная ссылка"
+            
+              , "DLP"
+            
+              , "облачные вычисления"
+            
+              , "облачные сервисы"
+            
+              , "облачные провайдеры"
+            
+              , "защита информации"
+            
+              , "кибербезопасность"
+            
+              , "безопасность инфраструктуры"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-cybersecurity-differences-between-aws-azure-and-gcp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните AWS, Azure и Google Cloud Platform с точки зрения безопасности облачных вычислений и узнайте о различиях, чтобы принять обоснованное решение для своей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png" length="279590" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

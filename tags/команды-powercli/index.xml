@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Команды PowerCLI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powercli//img/banner.png</url>
+      <title>Команды PowerCLI on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powercli/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powercli/</link>
+
+    <description>Recent content in Команды PowerCLI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-powercli/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

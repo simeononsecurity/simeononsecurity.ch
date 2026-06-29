@@ -1,0 +1,402 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мониторинг on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3//img/banner.png</url>
+      <title>Мониторинг on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/</link>
+
+    <description>Recent content in Мониторинг on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание безопасного и совместимого облачного озера данных: Лучшие практики защиты хранимых данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</link>
+        
+        <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "озеро данных"
+            
+              , "облачная безопасность"
+            
+              , "нормативные документы"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "мониторинг"
+            
+              , "патчи"
+            
+              , "кибербезопасность"
+            
+              , "SIEM-решение"
+            
+              , "Команды ИТ-поддержки"
+            
+              , "картина угроз"
+            
+              , "миграция в облако"
+            
+              , "управление облачными вычислениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-data-lake/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном руководстве вы узнаете о лучших практиках обеспечения безопасности и соответствия нормативным требованиям при планировании, создании и управлении облачными озерами данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png" length="349263" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности устройств IoT: Проблемы и решения в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "кибербезопасность"
+            
+              , "безопасность"
+            
+              , "Интернет вещей"
+            
+              , "IoT-устройства"
+            
+              , "безопасность сети"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "интеллектуальные устройства"
+            
+              , "передовой опыт"
+            
+              , "IoT-риски"
+            
+              , "аутентификация"
+            
+              , "обновления прошивки"
+            
+              , "мониторинг"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "Рекомендации по обеспечению безопасности IoT"
+            
+              , "сегментация сети"
+            
+              , "картина угроз"
+            
+              , "уязвимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о влиянии IoT на кибербезопасность и изучите эффективные стратегии защиты подключенных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Максимально эффективный аудит Windows с помощью сценария политики аудита Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-audit-policy/</link>
+        
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Политика аудита Windows"
+            
+              , "Аудит Windows"
+            
+              , "безопасность"
+            
+              , "мониторинг"
+            
+              , "auditpol"
+            
+              , "Команды Windows"
+            
+              , "Безопасность Windows"
+            
+              , "конфигурация аудита"
+            
+              , "политики безопасности"
+            
+              , "журналы событий"
+            
+              , "мониторинг системы"
+            
+              , "Сервер Windows"
+            
+              , "передовые методы обеспечения безопасности"
+            
+              , "кибербезопасность"
+            
+              , "анализ журнала"
+            
+              , "соблюдение требований безопасности"
+            
+              , "реагирование на инциденты"
+            
+              , "средства мониторинга безопасности"
+            
+              , "привилегированный доступ"
+            
+              , "Администрирование Windows"
+            
+              , "скриптинг"
+            
+              , "системное администрирование"
+            
+              , "информационная безопасность"
+            
+              , "аудит соответствия"
+            
+              , "Усиление защиты Windows"
+            
+              , "средства контроля безопасности"
+            
+              , "автоматизация системы безопасности"
+            
+              , "управление журналом"
+            
+              , "Параметры безопасности Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-audit-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как максимально эффективно использовать аудит Windows путем применения сценария политики аудита Windows для повышения уровня безопасности и контроля.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

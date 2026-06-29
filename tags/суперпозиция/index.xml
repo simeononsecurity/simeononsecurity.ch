@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Суперпозиция on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F//img/banner.png</url>
+      <title>Суперпозиция on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F/</link>
+
+    <description>Recent content in Суперпозиция on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Будущее квантовых вычислений и кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-future-of-quantum-computing-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Квантовые вычисления"
+            
+              , "Кибербезопасность"
+            
+              , "Qubits"
+            
+              , "RSA"
+            
+              , "ECC"
+            
+              , "Постквантовая криптография"
+            
+              , "Квантовый отжиг"
+            
+              , "Квантовое превосходство"
+            
+              , "Суперпозиция"
+            
+              , "Entanglement"
+            
+              , "Криптографические алгоритмы"
+            
+              , "Цифровая инфраструктура"
+            
+              , "Проблемы оптимизации"
+            
+              , "Технологические гиганты"
+            
+              , "Исследования и разработки"
+            
+              , "Декогеренция"
+            
+              , "Онлайн-транзакции"
+            
+              , "Безопасный обмен сообщениями"
+            
+              , "Онлайн-банкинг"
+            
+              , "Открытие лекарственных средств"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-future-of-quantum-computing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучение будущего квантовых вычислений и их влияния на кибербезопасность, включая постквантовую криптографию и уязвимости классических криптографических алгоритмов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png" length="519938" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Простые Числа on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%B0//img/banner.png</url>
+      <title>Простые Числа on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%B0/</link>
+
+    <description>Recent content in Простые Числа on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Демистификация RSA: Понимание алгоритма шифрования RSA</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-the-rsa-cipher-algorithm/</link>
+        
+        <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "RSA-шифрование"
+            
+              , "асимметричное шифрование"
+            
+              , "криптография с открытым ключом"
+            
+              , "алгоритм шифрования"
+            
+              , "Генерация ключей RSA"
+            
+              , "модульная арифметика"
+            
+              , "Тотальная функция Эйлера"
+            
+              , "простые числа"
+            
+              , "модульное экспонирование"
+            
+              , "шифротекст"
+            
+              , "открытый текст"
+            
+              , "Безопасность RSA"
+            
+              , "безопасная связь"
+            
+              , "цифровые подписи"
+            
+              , "безопасный просмотр веб-страниц"
+            
+              , "государственное регулирование РСА"
+            
+              , "Руководство NIST по RSA"
+            
+              , "Регулирование eIDAS"
+            
+              , "стандарты шифрования"
+            
+              , "защита информации"
+            
+              , "криптография"
+            
+              , "информационная безопасность"
+            
+              , "безопасный обмен сообщениями"
+            
+              , "зашифрованная электронная почта"
+            
+              , "HTTPS"
+            
+              , "RSA в безопасном общении"
+            
+              , "RSA в цифровых подписях"
+            
+              , "достоинства RSA"
+            
+              , "недостатки RSA"
+            
+              , "вычислительная сложность RSA"
+            
+              , "длина ключа в RSA"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-the-rsa-cipher-algorithm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить внутреннее устройство алгоритма шифрования RSA и его значение для безопасной передачи данных.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png" length="392254" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

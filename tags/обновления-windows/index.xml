@@ -1,0 +1,681 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Обновления Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-windows//img/banner.png</url>
+      <title>Обновления Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-windows/</link>
+
+    <description>Recent content in Обновления Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основные приемы усиления Windows для обеспечения безопасности Windows 10 и Windows 11</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Упрочнение Windows 10"
+            
+              , "Упрочнение Windows 11"
+            
+              , "Передовые методы обеспечения безопасности Windows"
+            
+              , "Советы по безопасности в Windows"
+            
+              , "Рекомендации по обеспечению безопасности Windows"
+            
+              , "Обеспечение безопасности операционных систем Windows"
+            
+              , "Упрочнение системы Windows"
+            
+              , "Меры безопасности в Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя эффективные стратегии повышения безопасности систем Windows 10 и Windows 11 с помощью комплексных методов усиления защиты и лучших практик.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация обновлений Windows с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "автоматизация обновлений Windows"
+            
+              , "Ансибл автоматизация"
+            
+              , "управление системой"
+            
+              , "исправления безопасности"
+            
+              , "ИТ-инфраструктура"
+            
+              , "сетевая автоматизация"
+            
+              , "управление конфигурацией"
+            
+              , "ИТ-операции"
+            
+              , "DevOps"
+            
+              , "информационная безопасность"
+            
+              , "ИТ-автоматизация"
+            
+              , "ИТ-эффективность"
+            
+              , "Ansible playbook"
+            
+              , "Безопасность Windows"
+            
+              , "управление обновлениями"
+            
+              , "ИТ-производительность"
+            
+              , "ИТ-обслуживание"
+            
+              , "Учетные данные Ansible"
+            
+              , "конфигурация хоста"
+            
+              , "системная автоматизация"
+            
+              , "обновления Windows"
+            
+              , "Управление системой Windows"
+            
+              , "Патчи безопасности Windows"
+            
+              , "ИТ-инфраструктура Windows"
+            
+              , "Автоматизация сети Windows"
+            
+              , "Управление конфигурацией Windows"
+            
+              , "ИТ-операции Windows"
+            
+              , "Windows DevOps"
+            
+              , "Кибербезопасность Windows"
+            
+              , "ИТ-автоматизация Windows"
+            
+              , "ИТ-эффективность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте процесс обновления систем Windows, автоматизировав его с помощью Ansible — включены пошаговые инструкции и рекомендации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png" length="302351" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте управление пакетами Windows с помощью Chocolatey: упростите обновления и повысьте безопасность</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление пакетами Windows"
+            
+              , "Шоколадный"
+            
+              , "обновления программного обеспечения"
+            
+              , "менеджер пакетов"
+            
+              , "Интерфейс командной строки"
+            
+              , "автоматические обновления"
+            
+              , "плановое обслуживание"
+            
+              , "безопасность"
+            
+              , "стабильность"
+            
+              , "интеграция"
+            
+              , "правительственные постановления"
+            
+              , "согласие"
+            
+              , "Кукольный"
+            
+              , "шеф-повар"
+            
+              , "Ансибль"
+            
+              , "NuGet-пакеты"
+            
+              , "МО СТИГ"
+            
+              , "упростить управление пакетами"
+            
+              , "уязвимости программного обеспечения"
+            
+              , "инструменты развертывания"
+            
+              , "обновления Windows"
+            
+              , "Обновления пакетов Windows"
+            
+              , "Управление программным обеспечением Windows"
+            
+              , "Менеджер пакетов Windows"
+            
+              , "инструмент управления пакетами"
+            
+              , "автоматические обновления пакетов"
+            
+              , "Обновления безопасности Windows"
+            
+              , "установка программного пакета"
+            
+              , "Развертывание программного обеспечения Windows"
+            
+              , "система управления пакетами"
+            
+              , "Репозиторий программного обеспечения Windows"
+            
+              , "Кэш программного обеспечения Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя преимущества использования Chocolatey для управления пакетами Windows: автоматизируйте обновления, экономьте время и обеспечьте безопасность системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png" length="254601" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Графический интерфейс Windows Optimize-Harden-Debloat — управляемая установка</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Разблокировка Windows 10"
+            
+              , "Настройки Windows 10"
+            
+              , "графический интерфейс"
+            
+              , "до-диез"
+            
+              , "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Стабильность системы"
+            
+              , "Системное администрирование"
+            
+              , "обновления Windows"
+            
+              , "Скрипт"
+            
+              , "Программирование"
+            
+              , "Раздувание"
+            
+              , "Настройка Windows 10"
+            
+              , "Производительность системы"
+            
+              , "Конфиденциальность Windows 10"
+            
+              , "Безопасность"
+            
+              , "установка виндовс 10"
+            
+              , "обслуживание виндовс 10"
+            
+              , "управление виндовс 10"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте возможности Windows 10 с легкостью, используя автоматизированный сценарий Windows-Optimize-Harden-Debloat с графическим интерфейсом, который предлагает пошаговую установку, чтобы свести к минимуму установку Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте и укрепите свою систему Windows с помощью сценария Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Укрепление Windows"
+            
+              , "Раздувание Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Производительность Windows"
+            
+              , "Конфиденциальность Windows"
+            
+              , "обновления Windows"
+            
+              , "Объекты групповой политики"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Fire Fox"
+            
+              , "Гугл Хром"
+            
+              , "Интернет-проводник"
+            
+              , "Край Майкрософт Хром"
+            
+              , "Дот-нет 4"
+            
+              , "Microsoft Office"
+            
+              , "Один диск"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Брандмауэр Windows"
+            
+              , "Защитник Windows"
+            
+              , "Блокировщик приложений"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это подробное руководство содержит пошаговые инструкции по оптимизации, усилению защиты и разгрузке системы Windows для повышения производительности, безопасности и конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте активацию Windows KMS с помощью сценария GLVK</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Активация Windows"
+            
+              , "Ключи клиента KMS"
+            
+              , "ГЛВК"
+            
+              , "Обновления Windows"
+            
+              , "Согласие"
+            
+              , "Сценарий PowerShell"
+            
+              , "Служба управления ключами"
+            
+              , "Корпоративное лицензирование"
+            
+              , "Корпоративная активация"
+            
+              , "Сервер управления ключами"
+            
+              , "Автоматизация"
+            
+              , "Продукты Майкрософт"
+            
+              , "Операционная система"
+            
+              , "Программное обеспечение"
+            
+              , "Корпоративные среды"
+            
+              , "Административный PowerShell"
+            
+              , "Репозиторий GitHub"
+            
+              , "Скрипты"
+            
+              , "Информационная безопасность"
+            
+              , "СимеонОнСекьюрити"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Упростите процесс активации Windows 10 KMS с помощью сценария автоматической установки GLVK от SimeonOnSecurity и узнайте больше о клиентских ключах KMS и GLVK из рекомендованной Microsoft литературы.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Hardening CTF: усиление безопасности устройств Windows для участия в соревнованиях Capture the Flag</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</link>
+        
+        <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "скрипт"
+            
+              , "Устройство Windows"
+            
+              , "командная строка"
+            
+              , "LLMNR"
+            
+              , "PowerShell"
+            
+              , "SMB"
+            
+              , "Временные метки TCP"
+            
+              , "AppLocker"
+            
+              , "Журналирование в Windows"
+            
+              , "DEP"
+            
+              , "Конфигурации EMET"
+            
+              , "Режим ограниченного языка PowerShell"
+            
+              , "Шифрование SMB"
+            
+              , "Меры по защите от Spectre и Meltdown"
+            
+              , "Защитник Windows"
+            
+              , "Брандмауэр Windows"
+            
+              , "PSWindowsUpdate"
+            
+              , "Обновления Windows"
+            
+              , "сценарий упрочнения"
+            
+              , "Рекомендуемые политики АНБ"
+            
+              , "Ведение журналов Windows и контроль безопасности"
+            
+              , "Контроль приложений Windows Defender"
+            
+              , "Функции уменьшения поверхности атак Windows Defender"
+            
+              , "Облачные средства защиты Windows Defender"
+            
+              , "Защита от эксплойтов в Windows Defender"
+            
+              , "Установка PSWindowsUpdate"
+            
+              , "Повышение уровня безопасности устройств Windows"
+            
+              , "Меры по усилению защиты Windows"
+            
+              , "укрепление безопасности Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-hardening-ctf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя мощный скрипт, повышающий безопасность Windows за счет применения различных мер защиты от компрометации.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

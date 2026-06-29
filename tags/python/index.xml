@@ -1,0 +1,535 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/python//img/banner.png</url>
+      <title>Python on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/python/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/python/</link>
+
+    <description>Recent content in Python on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное кодирование на Python: Лучшие практики для обеспечения надежной безопасности приложений</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Программирование"
+            
+              , "Безопасность приложений"
+            
+              , "Разработка на языке Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Анализ данных"
+            
+              , "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Языки программирования"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python для обеспечения надежной безопасности приложений и защиты от таких уязвимостей, как SQL-инъекции и межсайтовый скриптинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Чатбот Discord Typecast GPT: Дружелюбный и знающий агент поддержки на базе Discord</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/discord-typecast-gpt-chatbot/</link>
+        
+        <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Чатбот Discord"
+            
+              , "агент поддержки"
+            
+              , "поддержка сервера"
+            
+              , "запросы пользователей"
+            
+              , "соответствующие ресурсы"
+            
+              , "позитивная среда"
+            
+              , "мнения"
+            
+              , "предпочтения"
+            
+              , "рекомендации"
+            
+              , "вовлекающее взаимодействие"
+            
+              , "дружественный бот"
+            
+              , "знающий бот"
+            
+              , "Бот на основе Discord"
+            
+              , "виртуальный ассистент"
+            
+              , "автоматизированная поддержка"
+            
+              , "разговорный бот"
+            
+              , "информационные ответы"
+            
+              , "находчивый бот"
+            
+              , "интерактивный чатбот"
+            
+              , "управление сервером"
+            
+              , "поддержка пользователей"
+            
+              , "Бот с искусственным интеллектом"
+            
+              , "discord.io"
+            
+              , "чатбот в действии"
+            
+              , "docker"
+            
+              , "python"
+            
+              , "развертывание ботов"
+            
+              , "виртуальная среда"
+            
+              , "архитектура ботов"
+            
+              , "контроллеры ботов"
+            
+              , "бот-сервисы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/discord-typecast-gpt-chatbot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Усовершенствуйте свой сервер Discord с помощью дружелюбного и компетентного чат-бота, который будет давать полезные ответы, помогать в решении вопросов, связанных с сервером, и создавать увлекательные взаимодействия.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стандарты безопасного кодирования на Python: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасное кодирование"
+            
+              , "Python"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасность кода на языке Python"
+            
+              , "Обзор кода"
+            
+              , "Средства статического анализа"
+            
+              , "Безопасная веб-разработка"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Лучшие практики обеспечения безопасности кода"
+            
+              , "Шифрование данных"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Анализ кода"
+            
+              , "Веб-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Киберсценарий Discord: повышение уровня подготовки и осведомленности в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/discord-cyber-scenario-bot/</link>
+        
+        <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Discord бот"
+            
+              , "обучение кибербезопасности"
+            
+              , "осведомленность о кибербезопасности"
+            
+              , "сценарный бот"
+            
+              , "викторина-бот"
+            
+              , "таблица лидеров"
+            
+              , "команды инструментов"
+            
+              , "Docker"
+            
+              , "Python"
+            
+              , "автоматизированное тестирование"
+            
+              , "Discord API"
+            
+              , "документация разработчика"
+            
+              , "вклад"
+            
+              , "Лицензия MIT"
+            
+              , "CyberScenarioBot"
+            
+              , "CyberSentinels"
+            
+              , "повышение эффективности обучения"
+            
+              , "информационная программа"
+            
+              , "сценарии кибербезопасности"
+            
+              , "серверная среда"
+            
+              , "настраиваемые команды"
+            
+              , "развертывание и управление"
+            
+              , "контрольные работы и сценарии"
+            
+              , "команды инструментов"
+            
+              , "информационные команды"
+            
+              , "проблемы и вклад"
+            
+              , "Приложение для разработчиков Discord"
+            
+              , "Документация по Discord.py"
+            
+              , "работа с разработчиками"
+            
+              , "Discord-сервер сообщества"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/discord-cyber-scenario-bot/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как CyberScenarioBot может повысить эффективность программы обучения и повышения осведомленности в области кибербезопасности на Discord, предлагая викторины, сценарии, отслеживание в таблице лидеров и мощные инструментальные команды.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стоит ли изучать программирование для ИТ и кибербезопасности?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</link>
+        
+        <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ИТ и кибербезопасность"
+            
+              , "Навыки программирования"
+            
+              , "Карьерный рост"
+            
+              , "Автоматизация"
+            
+              , "Командная строка"
+            
+              , "Скриптинг"
+            
+              , "Развертывание инфраструктуры"
+            
+              , "Анализ данных"
+            
+              , "Тестирование безопасности"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/should-i-learn-programming-for-cybersecurity-or-information-technology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему овладение навыками программирования может принести значительную пользу вашей карьере в области ИТ и кибербезопасности, и как начать работу с PowerShell, Bash, Python, Ansible, Packer и Terraform.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png" length="350232" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

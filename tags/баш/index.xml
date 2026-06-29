@@ -1,0 +1,113 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Баш on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B0%D1%88//img/banner.png</url>
+      <title>Баш on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B0%D1%88/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B0%D1%88/</link>
+
+    <description>Recent content in Баш on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B0%D1%88/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Используйте ChatGPT в своем терминале (Bash, PowerShell, Python): введение в инструмент командной строки ChatGPT для разработчиков</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</link>
+        
+        <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ЧатGPT"
+            
+              , "OpenAI"
+            
+              , "Интерфейс командной строки"
+            
+              , "CLI"
+            
+              , "генерация текста"
+            
+              , "ответ на вопрос"
+            
+              , "инструментарий разработчика"
+            
+              , "pip-менеджер пакетов"
+            
+              , "Питон 3.5"
+            
+              , "PowerShell"
+            
+              , "Баш"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/use-chatgpt-in-your-terminal-bash-powershell-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать модель OpenAI ChatGPT с помощью удобного интерфейса командной строки (CLI) для легкого создания текста и ответов на вопросы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_developer_sitting_at_their_computer_typing.png" length="360421" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,168 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инструменты DevOps on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-devops//img/banner.png</url>
+      <title>Инструменты DevOps on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-devops/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-devops/</link>
+
+    <description>Recent content in Инструменты DevOps on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-devops/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация Ansible: От простого Ansible к Ansible Tower и Semaphore</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Управление инфраструктурой"
+            
+              , "Управление конфигурацией"
+            
+              , "DevOps"
+            
+              , "ИТ-операции"
+            
+              , "Открытый исходный код"
+            
+              , "Управление рабочими процессами"
+            
+              , "Масштабируемость"
+            
+              , "Сотрудничество"
+            
+              , "Инструменты Ansible"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности автоматизации с помощью Ansible, сравнив обычную Ansible, Ansible Tower и Ansible Semaphore, и выберите подходящий инструмент для эффективного управления инфраструктурой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png" length="198474" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал больше об условных сигналах Ansible и управлении переменными</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2022-05-04/</link>
+        
+        <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Ansible"
+            
+              , "Управление конфигурацией"
+            
+              , "ИТ-инфраструктура"
+            
+              , "DevOps"
+            
+              , "Разработка игровых книг"
+            
+              , "Управление переменными"
+            
+              , "Условное выполнение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2022-05-04/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал больше об условных сигналах Ansible и управлении переменными
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

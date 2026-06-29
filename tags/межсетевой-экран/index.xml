@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Межсетевой Экран on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D0%B6%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD//img/banner.png</url>
+      <title>Межсетевой Экран on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D0%B6%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D0%B6%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD/</link>
+
+    <description>Recent content in Межсетевой Экран on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BC%D0%B5%D0%B6%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание троянских программ удаленного доступа: Риски, профилактика и защита</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Вредоносное программное обеспечение"
+            
+              , "Компьютерная безопасность"
+            
+              , "Цифровые угрозы"
+            
+              , "Троянские программы удаленного доступа"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность"
+            
+              , "Киберпреступность"
+            
+              , "Сетевая безопасность"
+            
+              , "Информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о рисках, связанных с троянскими программами удаленного доступа (RAT), и научитесь эффективным мерам профилактики и защиты, позволяющим обезопасить ваши компьютерные системы и данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_hacker_trying_to_control_a_computer_system.png" length="352161" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение систем безопасности конечных точек: Symantec против McAfee - комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</link>
+        
+        <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность конечных точек"
+            
+              , "Антивирус"
+            
+              , "Межсетевой экран"
+            
+              , "Обнаружение вторжений"
+            
+              , "Предотвращение потери данных"
+            
+              , "Защита от угроз"
+            
+              , "Решения в области безопасности"
+            
+              , "Сравнение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/symantec-vs-mcafee-endpoint-security-showdown/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какое решение для защиты конечных точек, Symantec или McAfee, лучше всего подходит для защиты цифровых активов вашей организации от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_with_the_logos_of.png" length="305398" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

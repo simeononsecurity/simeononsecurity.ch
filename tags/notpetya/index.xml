@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NotPetya on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/notpetya//img/banner.png</url>
+      <title>NotPetya on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/notpetya/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/notpetya/</link>
+
+    <description>Recent content in NotPetya on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/notpetya/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство реагирования на инциденты: Лучшие практики и примеры из реальной жизни</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "реагирование на инциденты"
+            
+              , "кибербезопасность"
+            
+              , "NIST"
+            
+              , "передовой опыт"
+            
+              , "разведка угроз"
+            
+              , "связь"
+            
+              , "анализ после инцидента"
+            
+              , "Эквифакс"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Колониальный трубопровод"
+            
+              , "Microsoft Exchange Server"
+            
+              , "уязвимости"
+            
+              , "обнаружение вторжений"
+            
+              , "защитная оболочка"
+            
+              , "восстановление"
+            
+              , "подготовка"
+            
+              , "кибератаки"
+            
+              , "киберпреступность"
+            
+              , "инциденты безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках реагирования на инциденты в соответствии с NIST SP 800-61 Rev. 2 и познакомьтесь с реальными примерами эффективных стратегий реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

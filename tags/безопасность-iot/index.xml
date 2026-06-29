@@ -1,0 +1,204 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность IoT on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot//img/banner.png</url>
+      <title>Безопасность IoT on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot/</link>
+
+    <description>Recent content in Безопасность IoT on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Безопасность беспроводных сетей и доступ к IoT</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</link>
+        
+        <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификационный экзамен CompTIA Network Plus"
+            
+              , "Беспроводная безопасность"
+            
+              , "Доступ к IoT"
+            
+              , "Фильтрация MAC-адресов"
+            
+              , "Размещение антенны"
+            
+              , "Уровни мощности"
+            
+              , "Изоляция заказчика"
+            
+              , "Изоляция гостевой сети"
+            
+              , "Предварительно распределенные ключи"
+            
+              , "EAP"
+            
+              , "Геозондирование"
+            
+              , "Портал неволи"
+            
+              , "Безопасность IoT"
+            
+              , "Беспроводные сети"
+            
+              , "Кибербезопасность"
+            
+              , "ИТ-сертификация"
+            
+              , "Основы сетевых технологий"
+            
+              , "Информационные технологии"
+            
+              , "Онлайн-обучение"
+            
+              , "Профессиональное развитие"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-plus-course-wireless-security-iot-access/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте свои знания в области безопасности беспроводных сетей и доступа к IoT с помощью этого комплексного курса Network+. Узнайте о фильтрации MAC-адресов, размещении антенн, настройке уровня мощности, распределенных ключах, EAP, геозонировании и безопасности устройств IoT.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.png" length="562788" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство обратного инжиниринга: Раскрытие уязвимостей сетевой безопасности IoT</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</link>
+        
+        <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "обратное проектирование"
+            
+              , "Безопасность IoT"
+            
+              , "уязвимости"
+            
+              , "протоколы безопасности"
+            
+              , "анализ устройств"
+            
+              , "Сети IoT"
+            
+              , "внутреннее устройство"
+            
+              , "вредоносный код"
+            
+              , "меры по шифрованию"
+            
+              , "меры аутентификации"
+            
+              , "межсетевые экраны"
+            
+              , "обновление программного обеспечения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-reverse-engineering/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности обратного проектирования для выявления недостатков в защите сетей IoT и повышения общей безопасности системы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png" length="511556" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

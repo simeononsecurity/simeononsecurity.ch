@@ -1,0 +1,440 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Риски Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8//img/banner.png</url>
+      <title>Риски Безопасности on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Риски Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B8%D1%81%D0%BA%D0%B8-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасные облачные решения: AWS vs. Azure vs. Google Cloud Platform - выбор лучшего для вашего бизнеса</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Облачные вычисления"
+            
+              , "Облачная безопасность"
+            
+              , "AWS"
+            
+              , "Лазурь"
+            
+              , "Облачная платформа Google"
+            
+              , "Безопасность данных"
+            
+              , "Шифрование"
+            
+              , "Управление идентификацией и доступом"
+            
+              , "Соответствие требованиям"
+            
+              , "Обнаружение угроз"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными функциями облачной безопасности и сертификатами AWS, Azure и Google Cloud Platform, чтобы выбрать наиболее безопасное облачное решение для вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png" length="234348" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Преимущества и проблемы использования средств защиты с открытым исходным кодом в организациях</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "средства защиты с открытым исходным кодом"
+            
+              , "кибербезопасность"
+            
+              , "поддержка сообщества"
+            
+              , "прозрачность"
+            
+              , "экономия средств"
+            
+              , "гибкость"
+            
+              , "собственные инструменты"
+            
+              , "риски безопасности"
+            
+              , "набор навыков"
+            
+              , "лицензионные платежи за программное обеспечение"
+            
+              , "совокупная стоимость владения"
+            
+              , "коммерческая поддержка"
+            
+              , "языки программирования"
+            
+              , "интеграция"
+            
+              , "безопасность тесвинга"
+            
+              , "аудит"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Национальный институт стандартов и технологий"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите преимущества и проблемы использования средств защиты с открытым исходным кодом для повышения уровня безопасности вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Проблемы и возможности политики BYOD</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</link>
+        
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Политика BYOD"
+            
+              , "bring-your-own-device"
+            
+              , "управление мобильными устройствами"
+            
+              , "производительность"
+            
+              , "риски безопасности"
+            
+              , "экономия средств"
+            
+              , "обучение сотрудников"
+            
+              , "протоколы безопасности"
+            
+              , "шифрование данных"
+            
+              , "техническая поддержка"
+            
+              , "производственные задачи"
+            
+              , "удовлетворенность работой"
+            
+              , "политика компании"
+            
+              , "удаленное стирание"
+            
+              , "Программное обеспечение MDM"
+            
+              , "устройства для сотрудников"
+            
+              , "меры безопасности"
+            
+              , "использование устройства"
+            
+              , "соответствие"
+            
+              , "надлежащее использование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-challenges-and-opportunities-of-implementing-a-byod-policy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о преимуществах, проблемах и лучших практиках внедрения политики BYOD в вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png" length="165621" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Стандарты безопасного кодирования на Python: Лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасное кодирование"
+            
+              , "Python"
+            
+              , "Риски безопасности"
+            
+              , "Валидация ввода"
+            
+              , "Библиотеки криптографии"
+            
+              , "Наименьшие привилегии"
+            
+              , "Статический анализатор кода"
+            
+              , "Веб-приложения"
+            
+              , "Фреймворки Python"
+            
+              , "Django"
+            
+              , "Flash"
+            
+              , "Система аутентификации"
+            
+              , "Хеширование паролей"
+            
+              , "Система шаблонов"
+            
+              , "Управление сеансами"
+            
+              , "MarkupSafe"
+            
+              , "WTForms"
+            
+              , "Мигалка"
+            
+              , "Защита данных"
+            
+              , "Уязвимости"
+            
+              , "Безопасность кода на языке Python"
+            
+              , "Обзор кода"
+            
+              , "Средства статического анализа"
+            
+              , "Безопасная веб-разработка"
+            
+              , "Практика безопасного кодирования"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Лучшие практики обеспечения безопасности кода"
+            
+              , "Шифрование данных"
+            
+              , "Принцип наименьших привилегий"
+            
+              , "Анализ кода"
+            
+              , "Веб-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-coding-standards-for-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python, чтобы минимизировать риск нарушения безопасности и защитить конфиденциальные данные.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_shield_with_the_word_Python.png" length="375969" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,113 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Вирустотал API on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0%D0%BB-api//img/banner.png</url>
+      <title>Вирустотал API on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0%D0%BB-api/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0%D0%BB-api/</link>
+
+    <description>Recent content in Вирустотал API on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B2%D0%B8%D1%80%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0%D0%BB-api/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективное сканирование на вирусы с помощью модулей VirusTotal PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/virustotal-ps/</link>
+        
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Модули PowerShell"
+            
+              , "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "VirusTotal"
+            
+              , "Проверка на вирусы"
+            
+              , "Сканирование домена"
+            
+              , "API-ключ"
+            
+              , "Вирустотал API"
+            
+              , "Страница разработчиков VirusTotal"
+            
+              , "Системное администрирование"
+            
+              , "Рабочий процесс безопасности"
+            
+              , "Эффективное сканирование на вирусы"
+            
+              , "Загрузить и установить"
+            
+              , "Репозиторий GitHub"
+            
+              , "Примеры использования API"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/virustotal-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выполняйте эффективное сканирование на вирусы с помощью модулей VirusTotal PowerShell, автоматизируя взаимодействие с VirusTotal API и оптимизируя рабочий процесс безопасности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,192 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackthebox on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/hackthebox//img/banner.png</url>
+      <title>Hackthebox on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/hackthebox/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/hackthebox/</link>
+
+    <description>Recent content in Hackthebox on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Задачи - Криптовалюты - Ограбление банка</title>
+        
+          <link>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</link>
+        
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "hackthebox"
+            
+              , "криптография"
+            
+              , "Шифр T9"
+            
+              , "многошаговый шифр"
+            
+              , "шифр атбаш"
+            
+              , "кибербезопасность"
+            
+              , "декодировать"
+            
+              , "шифротекст"
+            
+              , "вызов"
+            
+              , "флаг"
+            
+              , "кибербезопасность"
+            
+              , "взлом"
+            
+              , "изучить"
+            
+              , "учебное пособие"
+            
+              , "расшифровка шифра"
+            
+              , "решение головоломок"
+            
+              , "взлом кодов"
+            
+              , "криптографическая задача"
+            
+              , "навыки в области кибербезопасности"
+            
+              , "онлайн-обучение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/writeups/hackthebox-challenges-crypto-bank_heist/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png" length="312120" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые учебные ресурсы</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/learning_resources/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые учебные ресурсы"
+            
+              , "Обучение информационным технологиям"
+            
+              , "Обучение кибербезопасности"
+            
+              , "Курсы по сетевым технологиям"
+            
+              , "Образование в области операционных систем"
+            
+              , "Ресурсы по программированию и сценариям"
+            
+              , "Онлайн-обучение"
+            
+              , "Лаборатории кибербезопасности"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение операционным системам"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/learning_resources/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          С помощью рекомендаций SimeonOnSecurity вы найдете лучшие ресурсы для обучения в области ИТ, кибербезопасности, сетевых технологий, операционных систем, программирования и скриптинга. От бесплатных онлайн-платформ Cybrary, Code.org и CodeAcademy до платных платформ LinkedIn Learning, Pluralsight и TryHackMe - вы найдете широкий спектр возможностей для достижения ваших целей обучения. Повысьте свои навыки в таких областях, как Cisco, Juniper, Windows, VMware и Red Hat, пройдя бесплатное обучение и получив сертификаты. Поднимите свою карьеру на новый уровень с помощью высококлассных учебных ресурсов SimeonOnSecurity.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

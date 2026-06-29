@@ -1,0 +1,191 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Альпийский on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9//img/banner.png</url>
+      <title>Альпийский on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/</link>
+
+    <description>Recent content in Альпийский on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки исправлений и обновлений Linux с помощью Ansible: подробное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Исправление Linux"
+            
+              , "Ансибл автоматизация"
+            
+              , "автоматизация обновлений"
+            
+              , "обслуживание системы"
+            
+              , "ИТ-автоматизация"
+            
+              , "управление исправлениями"
+            
+              , "Безопасность Linux"
+            
+              , "Дебиан"
+            
+              , "Убунту"
+            
+              , "РЕЛ"
+            
+              , "Альпийский"
+            
+              , "стабильность системы"
+            
+              , "снижение уязвимости"
+            
+              , "ИТ-инфраструктура"
+            
+              , "инструмент автоматизации"
+            
+              , "Ansible playbook"
+            
+              , "конфигурация хоста"
+            
+              , "обновления программного обеспечения"
+            
+              , "соответствие требованиям безопасности"
+            
+              , "ИТ-операции"
+            
+              , "Обновления Linux"
+            
+              , "Убунту"
+            
+              , "Дебиан"
+            
+              , "CentOS"
+            
+              , "РЕЛ"
+            
+              , "автономные обновления"
+            
+              , "локальный репозиторий"
+            
+              , "тайник"
+            
+              , "настройка сервера"
+            
+              , "настройка клиента"
+            
+              , "подходящее зеркало"
+            
+              , "debmirror"
+            
+              , "создать репозиторий"
+            
+              , "apt-cacher-нг"
+            
+              , "ням-крон"
+            
+              , "Обновления системы Linux"
+            
+              , "автономные обновления пакетов"
+            
+              , "автономные обновления программного обеспечения"
+            
+              , "локальный репозиторий пакетов"
+            
+              , "локальный кэш пакетов"
+            
+              , "автономные обновления Linux"
+            
+              , "обработка автономных обновлений"
+            
+              , "автономные способы обновления"
+            
+              , "автономное обслуживание системы"
+            
+              , "Обновления сервера Linux"
+            
+              , "Обновления клиента Linux"
+            
+              , "автономное управление программным обеспечением"
+            
+              , "автономное управление пакетами"
+            
+              , "обновить стратегии"
+            
+              , "Обновления безопасности Linux"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как автоматизировать установку исправлений и обновлений Linux с помощью Ansible, ознакомьтесь с различными дистрибутивами и инструкциями по установке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png" length="510717" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

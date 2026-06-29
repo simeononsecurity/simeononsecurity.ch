@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blu-Ray Диски on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/blu-ray-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8//img/banner.png</url>
+      <title>Blu-Ray Диски on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/blu-ray-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/blu-ray-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Blu-Ray Диски on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/blu-ray-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Утвержденные NIST методы дезинфекции устройств со съемными носителями информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Методы, утвержденные NIST"
+            
+              , "Дезинфекция съемных носителей"
+            
+              , "Жесткие диски"
+            
+              , "Твердотельные накопители"
+            
+              , "USB-накопители"
+            
+              , "CD-диски"
+            
+              , "DVD-диски"
+            
+              , "Blu-ray диски"
+            
+              , "Безопасность данных"
+            
+              , "Защита конфиденциальных данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об одобренных NIST способах санитарной обработки жестких дисков, твердотельных накопителей, флэш-накопителей USB, компакт-дисков, DVD и дисков Blu-ray для защиты конфиденциальных данных от несанкционированного доступа.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png" length="295773" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

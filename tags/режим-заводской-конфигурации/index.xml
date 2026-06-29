@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Режим Заводской Конфигурации on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%B6%D0%B8%D0%BC-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8//img/banner.png</url>
+      <title>Режим Заводской Конфигурации on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%B6%D0%B8%D0%BC-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%B6%D0%B8%D0%BC-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8/</link>
+
+    <description>Recent content in Режим Заводской Конфигурации on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%B6%D0%B8%D0%BC-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обход BGW-320: использование Azores COTS ONT — пошаговое руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link>
+        
+        <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "КОТ ОНТ"
+            
+              , "БГВ-320"
+            
+              , "Азорские острова"
+            
+              , "волокно"
+            
+              , "сеть"
+            
+              , "XGS-PON"
+            
+              , "Ethernet"
+            
+              , "Сквозной IP-адрес"
+            
+              , "настройка"
+            
+              , "Интернет-провайдер"
+            
+              , "идентификатор"
+            
+              , "MAC-адрес"
+            
+              , "идентификатор оборудования"
+            
+              , "версия изображения"
+            
+              , "аппаратная версия"
+            
+              , "телнет"
+            
+              , "CLI-приложение"
+            
+              , "веб-интерфейс"
+            
+              , "режим заводской конфигурации"
+            
+              , "проблемы совместимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Из этого простого руководства вы узнаете, как обойти BGW-320 и использовать COTS ONT производства Azores для подключения к сети вашего интернет-провайдера.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png" length="322934" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

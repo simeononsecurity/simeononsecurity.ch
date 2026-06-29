@@ -1,0 +1,188 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Интеграция С Azure on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-azure//img/banner.png</url>
+      <title>Интеграция С Azure on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-azure/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-azure/</link>
+
+    <description>Recent content in Интеграция С Azure on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-azure/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code против Visual Studio Community и Enterprise: Что лучше для разработчиков?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Разработка программного обеспечения"
+            
+              , "Интегрированная среда разработки (IDE)"
+            
+              , "Средства разработки Microsoft"
+            
+              , "Редакторы кода"
+            
+              , "Платформы разработки"
+            
+              , "Сравнение программного обеспечения"
+            
+              , "Языки программирования"
+            
+              , "Совместные разработки"
+            
+              , "Разработка корпоративного программного обеспечения"
+            
+              , "Отладка кода"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-community-and-enterprise/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите различия между Visual Studio Code, Visual Studio Community и Visual Studio Enterprise, чтобы определить идеальный выбор для ваших потребностей в разработке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png" length="175368" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обновление до Windows Server 2019 или переход на Azure: Какой вариант подходит для вашего бизнеса?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Переход на сервер 2019"
+            
+              , "Переход на Azure"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Бизнес-технологии"
+            
+              , "Повышение уровня безопасности"
+            
+              , "Улучшение производительности"
+            
+              , "Интеграция с Azure"
+            
+              , "Долгосрочная поддержка"
+            
+              , "Масштабируемость"
+            
+              , "Экономическая эффективность"
+            
+              , "Повышенная надежность"
+            
+              , "Расширенная аналитика"
+            
+              , "Гибридный подход"
+            
+              , "Гибкая и отказоустойчивая ИТ-инфраструктура"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/switching-to-windows-server-2019-and-azure/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этой статье рассматриваются преимущества перехода на Server 2019 или на Azure, включая повышение безопасности, производительности, интеграции и поддержки, чтобы помочь организациям принять оптимальное решение для своей ИТ-инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png" length="508418" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

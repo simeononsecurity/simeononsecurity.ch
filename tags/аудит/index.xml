@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Аудит on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B0%D1%83%D0%B4%D0%B8%D1%82//img/banner.png</url>
+      <title>Аудит on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D1%83%D0%B4%D0%B8%D1%82/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B0%D1%83%D0%B4%D0%B8%D1%82/</link>
+
+    <description>Recent content in Аудит on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B0%D1%83%D0%B4%D0%B8%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Преимущества и проблемы использования средств защиты с открытым исходным кодом в организациях</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</link>
+        
+        <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "средства защиты с открытым исходным кодом"
+            
+              , "кибербезопасность"
+            
+              , "поддержка сообщества"
+            
+              , "прозрачность"
+            
+              , "экономия средств"
+            
+              , "гибкость"
+            
+              , "собственные инструменты"
+            
+              , "риски безопасности"
+            
+              , "набор навыков"
+            
+              , "лицензионные платежи за программное обеспечение"
+            
+              , "совокупная стоимость владения"
+            
+              , "коммерческая поддержка"
+            
+              , "языки программирования"
+            
+              , "интеграция"
+            
+              , "безопасность тесвинга"
+            
+              , "аудит"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "OWASP"
+            
+              , "Национальный институт стандартов и технологий"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-benefits-and-challenges-of-using-open-source-security-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите преимущества и проблемы использования средств защиты с открытым исходным кодом для повышения уровня безопасности вашей организации.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png" length="184777" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,141 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bezpieczne Tworzenie Stron Internetowych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/bezpieczne-tworzenie-stron-internetowych//img/banner.png</url>
+      <title>Bezpieczne Tworzenie Stron Internetowych on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/bezpieczne-tworzenie-stron-internetowych/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/bezpieczne-tworzenie-stron-internetowych/</link>
+
+    <description>Recent content in Bezpieczne Tworzenie Stron Internetowych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/bezpieczne-tworzenie-stron-internetowych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Artykuły SimeonOnSecurity</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "porady z zakresu cyberbezpieczeństwa"
+            
+              , "techniki automatyzacji"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "ochrona danych"
+            
+              , "bezpieczeństwo IT"
+            
+              , "zapobieganie hakowaniu"
+            
+              , "bezpieczne programowanie"
+            
+              , "infrastruktura sieciowa"
+            
+              , "śledztwo cyfrowe"
+            
+              , "bezpieczeństwo chmury"
+            
+              , "wywiad w zakresie cyberzagrożeń"
+            
+              , "reagowanie na incydenty"
+            
+              , "ocena podatności"
+            
+              , "testy penetracyjne"
+            
+              , "zarządzanie tożsamością"
+            
+              , "świadomość bezpieczeństwa"
+            
+              , "analiza złośliwego oprogramowania"
+            
+              , "szyfrowanie danych"
+            
+              , "konfiguracja zapory ogniowej"
+            
+              , "bezpieczne tworzenie stron internetowych"
+            
+              , "monitorowanie sieci"
+            
+              , "ramy cyberbezpieczeństwa"
+            
+              , "bezpieczeństwo IoT"
+            
+              , "bezpieczeństwo mobilne"
+            
+              , "zapobieganie phishingowi"
+            
+              , "najlepsze praktyki w zakresie cyberbezpieczeństwa"
+            
+              , "polowanie na zagrożenia"
+            
+              , "obrona przed inżynierią społeczną"
+            
+              , "kontrola dostępu"
+            
+              , "segmentacja sieci"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Twoje osobiste przewodniki po cyberbezpieczeństwie, technologii informatycznej i automatyzacji. Przeglądaj pouczające artykuły, osobiste doświadczenia i porady ekspertów na temat bezpiecznego świata cyfrowego.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

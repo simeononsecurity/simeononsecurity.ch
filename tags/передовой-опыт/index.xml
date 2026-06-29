@@ -1,0 +1,944 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Передовой Опыт on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BE%D0%BF%D1%8B%D1%82//img/banner.png</url>
+      <title>Передовой Опыт on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BE%D0%BF%D1%8B%D1%82/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BE%D0%BF%D1%8B%D1%82/</link>
+
+    <description>Recent content in Передовой Опыт on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BE%D0%BF%D1%8B%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасности Python: Защита кода и данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Python"
+            
+              , "Кодовая безопасность"
+            
+              , "Защита информации"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Конфиденциальность данных"
+            
+              , "Безопасность приложений"
+            
+              , "ИТ-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с передовыми методами обеспечения безопасности на языке Python, которые позволят защитить код и данные от потенциальных угроз, обеспечить защиту данных, целостность системы и доверие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство по управлению командой специалистов по кибербезопасности: Навыки, лучшие практики и многое другое</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</link>
+        
+        <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление кибербезопасностью"
+            
+              , "Лидерство в области информационной безопасности"
+            
+              , "Управление командой"
+            
+              , "Лучшие практики"
+            
+              , "Развитие навыков"
+            
+              , "Управление киберрисками"
+            
+              , "Реагирование на инциденты"
+            
+              , "Связь"
+            
+              , "Сотрудничество"
+            
+              , "Непрерывное обучение"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/managing-a-cyber-security-team/managing-a-cyber-security-team/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя основные навыки и лучшие практики эффективного управления командой специалистов по кибербезопасности в условиях меняющегося ландшафта угроз и удаленной работы.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.png" length="227775" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение утечки информации: Лучшие практики и стратегии повышения безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "утечка информации"
+            
+              , "стратегии профилактики"
+            
+              , "передовой опыт"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "обучение сотрудников"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение потери данных"
+            
+              , "оценки безопасности"
+            
+              , "постановления правительства"
+            
+              , "NIST"
+            
+              , "внутренние угрозы"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "человеческий фактор"
+            
+              , "информационные программы"
+            
+              , "информированность о фишинге"
+            
+              , "DLP-решения"
+            
+              , "управление доступом на основе ролей"
+            
+              , "многофакторная аутентификация"
+            
+              , "управление ключами шифрования"
+            
+              , "защита конечных точек"
+            
+              , "проверка содержания"
+            
+              , "аудиты безопасности"
+            
+              , "тестирование на проникновение"
+            
+              , "планирование мер реагирования на инциденты"
+            
+              , "протоколы безопасности"
+            
+              , "защита информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших методах и стратегиях предотвращения утечки информации и защиты конфиденциальных данных, обеспечивающих повышенную безопасность и защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное и совместимое резервное копирование и восстановление данных в облаке: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</link>
+        
+        <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "облачное резервное копирование"
+            
+              , "восстановление данных"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "GDPR"
+            
+              , "HIPAA"
+            
+              , "FISMA"
+            
+              , "поставщик облачных услуг"
+            
+              , "шифрование"
+            
+              , "контроль доступа"
+            
+              , "безопасность"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "оценка уязвимости"
+            
+              , "тестирование на проникновение"
+            
+              , "аудиторские проверки"
+            
+              , "управление рисками"
+            
+              , "масштабируемость"
+            
+              , "мониторинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-building-a-secure-and-compliant-cloud-based-backup-and-recovery-solution/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как создать безопасное и отвечающее всем требованиям решение для защиты данных в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png" length="271935" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективное обучение удаленных сотрудников мерам безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</link>
+        
+        <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "удаленные сотрудники"
+            
+              , "информированность о безопасности"
+            
+              , "кибербезопасность"
+            
+              , "обучение"
+            
+              , "удаленная рабочая сила"
+            
+              , "фишинг"
+            
+              , "передовой опыт"
+            
+              , "культура безопасности"
+            
+              , "геймификация"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "SANS Security Awareness"
+            
+              , "Институт Инфосек"
+            
+              , "KnowBe4"
+            
+              , "непрерывное обучение"
+            
+              , "реальные сценарии"
+            
+              , "интерактивное обучение"
+            
+              , "киберугрозы"
+            
+              , "учебные платформы по безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-security-awareness-training-for-remote-employees-and-how-to-implement-it/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Усилить безопасность удаленных сотрудников можно с помощью эффективного обучения по вопросам безопасности, а также узнать, как его успешно реализовать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png" length="316114" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обеспечение безопасности устройств IoT: Проблемы и решения в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</link>
+        
+        <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IoT"
+            
+              , "кибербезопасность"
+            
+              , "безопасность"
+            
+              , "Интернет вещей"
+            
+              , "IoT-устройства"
+            
+              , "безопасность сети"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "интеллектуальные устройства"
+            
+              , "передовой опыт"
+            
+              , "IoT-риски"
+            
+              , "аутентификация"
+            
+              , "обновления прошивки"
+            
+              , "мониторинг"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "Рекомендации по обеспечению безопасности IoT"
+            
+              , "сегментация сети"
+            
+              , "картина угроз"
+            
+              , "уязвимости"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-impact-of-iot-on-cybersecurity-and-how-to-secure-iot-devices/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о влиянии IoT на кибербезопасность и изучите эффективные стратегии защиты подключенных устройств.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png" length="384829" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасная и надежная настройка VPN для корпоративных удаленных сотрудников</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</link>
+        
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "удалённая работа"
+            
+              , "корпоративная VPN"
+            
+              , "безопасность сети"
+            
+              , "шифрование"
+            
+              , "протоколы туннелирования"
+            
+              , "Настройка VPN"
+            
+              , "VPN-сервер"
+            
+              , "Безопасность VPN"
+            
+              , "Обслуживание VPN"
+            
+              , "Мониторинг VPN"
+            
+              , "VPN-решение"
+            
+              , "аутентификация"
+            
+              , "безопасность данных"
+            
+              , "конфиденциальность"
+            
+              , "производительность"
+            
+              , "масштабируемость"
+            
+              , "совместимость"
+            
+              , "обучение сотрудников"
+            
+              , "передовой опыт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-setting-up-a-secure-and-resilient-vpn-for-remote-workers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как настроить надежную и устойчивую VPN для удаленных сотрудников, обеспечив безопасный доступ к ресурсам компании.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png" length="313028" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Внедрение системы кибербезопасности NIST Cybersecurity Framework</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</link>
+        
+        <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "NIST"
+            
+              , "основа"
+            
+              , "управление рисками"
+            
+              , "информационная безопасность"
+            
+              , "киберугрозы"
+            
+              , "реализация"
+            
+              , "передовой опыт"
+            
+              , "руководство"
+            
+              , "стандарты"
+            
+              , "кибернетические атаки"
+            
+              , "оценка рисков"
+            
+              , "риск кибербезопасности"
+            
+              , "защита информации"
+            
+              , "соответствие"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность сети"
+            
+              , "реагирование на инциденты"
+            
+              , "меры безопасности"
+            
+              , "план обеспечения кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-implementing-the-nist-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как внедрить NIST Cybersecurity Framework и защитить свою организацию от киберугроз с помощью нашего пошагового руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png" length="162274" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Искусство реагирования на инциденты: Лучшие практики и примеры из реальной жизни</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</link>
+        
+        <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "реагирование на инциденты"
+            
+              , "кибербезопасность"
+            
+              , "NIST"
+            
+              , "передовой опыт"
+            
+              , "разведка угроз"
+            
+              , "связь"
+            
+              , "анализ после инцидента"
+            
+              , "Эквифакс"
+            
+              , "NotPetya"
+            
+              , "SolarWinds"
+            
+              , "Колониальный трубопровод"
+            
+              , "Microsoft Exchange Server"
+            
+              , "уязвимости"
+            
+              , "обнаружение вторжений"
+            
+              , "защитная оболочка"
+            
+              , "восстановление"
+            
+              , "подготовка"
+            
+              , "кибератаки"
+            
+              , "киберпреступность"
+            
+              , "инциденты безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-art-of-incident-response/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших практиках реагирования на инциденты в соответствии с NIST SP 800-61 Rev. 2 и познакомьтесь с реальными примерами эффективных стратегий реагирования на инциденты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png" length="371409" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Важность соблюдения требований и профессионализма в области кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</link>
+        
+        <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "хозяйственная деятельность"
+            
+              , "безопасность сети"
+            
+              , "конфиденциальная информация"
+            
+              , "кибератаки"
+            
+              , "технология"
+            
+              , "программное обеспечение"
+            
+              , "профессионализм"
+            
+              , "соответствие"
+            
+              , "отраслевые стандарты"
+            
+              , "регламент"
+            
+              , "передовой опыт"
+            
+              , "приоритет"
+            
+              , "культура безопасности"
+            
+              , "утечки данных"
+            
+              , "интеллектуальная собственность"
+            
+              , "проактивный подход"
+            
+              , "низкий приоритет"
+            
+              , "нехватка ресурсов"
+            
+              , "обучение"
+            
+              , "приверженность принципам безопасности"
+            
+              , "офицеры по информационной безопасности (ISSO)"
+            
+              , "системы управления информационной безопасностью (СУИБ)"
+            
+              , "обучение и опыт"
+            
+              , "угрозы безопасности"
+            
+              , "100% успешное прохождение аудита на соответствие требованиям"
+            
+              , "регламент"
+            
+              , "стандарты"
+            
+              , "передовой опыт"
+            
+              , "Серия NIST 800"
+            
+              , "политическая игра"
+            
+              , "доверие"
+            
+              , "честность"
+            
+              , "сотрудничество"
+            
+              , "papertrail"
+            
+              , "прозрачность"
+            
+              , "подотчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-importance-of-compliance-and-professionalism-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Кибербезопасность является одним из важнейших аспектов деятельности современного бизнеса и требует комплексного подхода, включающего в себя наличие необходимых систем, протоколов и персонала для эффективного управления защитой от кибератак.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png" length="418583" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

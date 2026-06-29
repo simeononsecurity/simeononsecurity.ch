@@ -1,0 +1,180 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Веб-Разработка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0//img/banner.png</url>
+      <title>Веб-Разработка on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Веб-Разработка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасности Python: Защита кода и данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Python"
+            
+              , "Кодовая безопасность"
+            
+              , "Защита информации"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Конфиденциальность данных"
+            
+              , "Безопасность приложений"
+            
+              , "ИТ-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с передовыми методами обеспечения безопасности на языке Python, которые позволят защитить код и данные от потенциальных угроз, обеспечить защиту данных, целостность системы и доверие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасное кодирование на Python: Лучшие практики для обеспечения надежной безопасности приложений</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</link>
+        
+        <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Программирование"
+            
+              , "Безопасность приложений"
+            
+              , "Разработка на языке Python"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Анализ данных"
+            
+              , "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Языки программирования"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-for-secure-coding-in-python/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с лучшими практиками безопасного кодирования на языке Python для обеспечения надежной безопасности приложений и защиты от таких уязвимостей, как SQL-инъекции и межсайтовый скриптинг.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png" length="281084" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Защита Паролем on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%BC//img/banner.png</url>
+      <title>Защита Паролем on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%BC/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%BC/</link>
+
+    <description>Recent content in Защита Паролем on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D0%B5%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 основных примеров обеспечения безопасности PowerShell для защиты сценариев</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Передовые методы обеспечения безопасности PowerShell"
+            
+              , "Безопасность сценариев"
+            
+              , "Защита паролем"
+            
+              , "ИТ-безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Администрирование Windows"
+            
+              , "Автоматизация"
+            
+              , "Безопасное кодирование"
+            
+              , "Сетевая безопасность"
+            
+              , "Защита данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с 10 лучшими практиками обеспечения безопасности PowerShell для защиты сценариев, паролей и конфиденциальной информации. Повышение уровня безопасности среды PowerShell и защита от несанкционированного доступа и потенциальных нарушений безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

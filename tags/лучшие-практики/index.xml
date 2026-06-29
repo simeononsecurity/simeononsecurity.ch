@@ -1,0 +1,394 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Лучшие Практики on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8//img/banner.png</url>
+      <title>Лучшие Практики on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8/</link>
+
+    <description>Recent content in Лучшие Практики on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>PowerShell DSC: начальное руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link>
+        
+        <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "DSC"
+            
+              , "Управление конфигурацией"
+            
+              , "Автоматизация"
+            
+              , "Windows"
+            
+              , "Системное администрирование"
+            
+              , "Лучшие практики"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность"
+            
+              , "Инфраструктура"
+            
+              , "DevOps"
+            
+              , "Конфигурация сервера"
+            
+              , "Тестирование"
+            
+              , "Git"
+            
+              , "Контроль источников"
+            
+              , "Государственное регулирование"
+            
+              , "NIST"
+            
+              , "CIS"
+            
+              , "Дрейф конфигурации"
+            
+              , "Пользовательские ресурсы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Познакомьтесь с возможностями PowerShell Desired State Configuration (DSC) для автоматизации и управления конфигурациями системы в целях обеспечения безопасности и соответствия требованиям среды.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_confident_system_administrator.png" length="325038" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Ansible: Автоматизация управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Провизионирование"
+            
+              , "Непрерывная поставка"
+            
+              , "Соблюдение требований безопасности"
+            
+              , "Оркестровка"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Передовые методы работы с Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Средство автоматизации ИТ-инфраструктуры"
+            
+              , "Учебное пособие по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы Ansible, инструмента автоматизации с открытым исходным кодом, который упрощает управление ИТ-инфраструктурой с помощью декларативного языка.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Создание домашней лаборатории: руководство для ИТ-специалистов, студентов и любителей</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</link>
+        
+        <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Домашняя лаборатория"
+            
+              , "ИТ-специалисты"
+            
+              , "студенты"
+            
+              , "любители"
+            
+              , "сеть"
+            
+              , "виртуализация"
+            
+              , "автоматизация"
+            
+              , "аппаратное обеспечение"
+            
+              , "программное обеспечение"
+            
+              , "лучшие практики"
+            
+              , "гид"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-a-homelab-and-should-you-have-one/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом подробном руководстве представлен подробный обзор того, что такое домашняя лаборатория, зачем ее создавать, какие компоненты необходимы, как ее настроить, расширенные темы для изучения и рекомендации, которым следует следовать.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png" length="428092" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Командная строка Windows и защита PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Закалка"
+            
+              , "Командная строка Windows"
+            
+              , "Безопасность"
+            
+              , "Согласие"
+            
+              , "Автоматизация"
+            
+              , "Ограниченный языковой режим"
+            
+              , "Ведение журнала PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Безопасность предприятия"
+            
+              , "Синяя команда"
+            
+              , "Информационная безопасность"
+            
+              , "Лучшие практики"
+            
+              , "Отключить командную строку"
+            
+              , "Отключить PowerShell v2"
+            
+              , "Репозиторий GitHub"
+            
+              , "Защитник Windows"
+            
+              , "Майкрософт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите командную строку Windows и PowerShell с помощью нашего всеобъемлющего скрипта и документации, повышающих безопасность системы и соответствие требованиям.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

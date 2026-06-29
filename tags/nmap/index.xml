@@ -1,0 +1,438 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nmap on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/nmap//img/banner.png</url>
+      <title>Nmap on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/nmap/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/nmap/</link>
+
+    <description>Recent content in Nmap on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Nmap: Исчерпывающее руководство по сканированию сети и оценке безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-nmap/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "nmap"
+            
+              , "сканирование сети"
+            
+              , "оценка безопасности"
+            
+              , "сканирование портов"
+            
+              , "обнаружение услуг"
+            
+              , "обнаружение операционной системы"
+            
+              , "Сценарий Nmap Scripting Engine"
+            
+              , "этический хакерский подход"
+            
+              , "безопасность сети"
+            
+              , "сетевая инфраструктура"
+            
+              , "обнаружение уязвимостей"
+            
+              , "ping scan"
+            
+              , "Сканирование TCP SYN"
+            
+              , "разрешение"
+            
+              , "законность"
+            
+              , "влияние на сеть"
+            
+              , "целенаправленное сканирование"
+            
+              , "защита информации"
+            
+              , "CFAA"
+            
+              , "GDPR"
+            
+              , "картирование сети"
+            
+              , "распознавание сетей"
+            
+              , "средства сетевой безопасности"
+            
+              , "кибербезопасность"
+            
+              , "инструмент с открытым исходным кодом"
+            
+              , "инструмент командной строки"
+            
+              , "обнаружение хоста"
+            
+              , "сетевая разведка"
+            
+              , "сбор информации"
+            
+              , "сетевые уязвимости"
+            
+              , "безопасная сетевая среда"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-nmap/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как эффективно использовать Nmap для сканирования сети, сканирования портов, обнаружения сервисов и идентификации операционных систем для оценки безопасности сети.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png" length="365940" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сила тестирования на проникновение в кибербезопасности: Методы, инструменты и лучшие практики</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "уязвимости"
+            
+              , "снижение рисков"
+            
+              , "соответствие"
+            
+              , "реагирование на инциденты"
+            
+              , "доверие клиентов"
+            
+              , "тестирование черного ящика"
+            
+              , "тестирование белого ящика"
+            
+              , "тестирование серого ящика"
+            
+              , "Metasploit"
+            
+              , "Nmap"
+            
+              , "Набор для отрыжки"
+            
+              , "Wireshark"
+            
+              , "сканирование сети"
+            
+              , "безопасность веб-приложений"
+            
+              , "защита информации"
+            
+              , "предотвращение киберугроз"
+            
+              , "оценка цифровой безопасности"
+            
+              , "повышение уровня безопасности"
+            
+              , "анализатор сетевых протоколов"
+            
+              , "стратегия кибербезопасности"
+            
+              , "уязвимости системы"
+            
+              , "укрепление обороноспособности"
+            
+              , "защита цифровых активов"
+            
+              , "преимущества тестирования на проникновение"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение нормативных требований"
+            
+              , "безопасность данных клиентов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-role-of-penetration-testing-in-cybersecurity/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важнейшую роль тестирования на проникновение в кибербезопасности, узнайте об эффективных методах, основных инструментах и лучших практиках.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png" length="227089" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Исчерпывающее руководство для начинающих по инструментам и методам тестирования на проникновение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</link>
+        
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тестирование на проникновение"
+            
+              , "кибербезопасность"
+            
+              , "этический хакерский подход"
+            
+              , "инструменты"
+            
+              , "методики"
+            
+              , "руководство для начинающих"
+            
+              , "Nmap"
+            
+              , "Metasploit"
+            
+              , "Wireshark"
+            
+              , "Набор для отрыжки"
+            
+              , "OSSTMM"
+            
+              , "PTES"
+            
+              , "OWASP"
+            
+              , "CEH"
+            
+              , "OSCP"
+            
+              , "GPEN"
+            
+              , "тестирование безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "безопасность сети"
+            
+              , "информационная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-penetration-testing-tools-and-techniques/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с основными инструментами и методами тестирования на проникновение, методологиями и сертификатами, чтобы начать свою карьеру в области кибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_hacker_wearing_a_balaclava.png" length="403619" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Руководство для начинающих: Использование командной строки Linux для обеспечения кибербезопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</link>
+        
+        <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Linux"
+            
+              , "Командная строка"
+            
+              , "Кибербезопасность"
+            
+              , "Руководство для начинающих"
+            
+              , "Сканирование сети"
+            
+              , "Тестирование уязвимостей"
+            
+              , "Анализ вредоносного ПО"
+            
+              , "Разрешения"
+            
+              , "Сетевой трафик"
+            
+              , "Состояние процесса"
+            
+              , "Сетевая статистика"
+            
+              , "Поиск файлов"
+            
+              , "Wireshark"
+            
+              , "TCPDump"
+            
+              , "Nmap"
+            
+              , "Linux CLI"
+            
+              , "Безопасность"
+            
+              , "Тестирование на проникновение"
+            
+              , "Цифровая криминалистика"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/a-beginners-guide-to-using-the-linux-command-line/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как использовать командную строку Linux для обеспечения кибербезопасности с помощью базовых и расширенных команд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png" length="362807" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

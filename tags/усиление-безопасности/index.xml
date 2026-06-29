@@ -1,0 +1,202 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Усиление Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8//img/banner.png</url>
+      <title>Усиление Безопасности on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Усиление Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%B8%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация защиты и усиления: Ресурсы для комплексного усиления</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "упрочнение системы"
+            
+              , "упрочнение при нанесении"
+            
+              , "Соответствие требованиям STIG"
+            
+              , "Оптимизация Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Усиление веб-сервера Apache"
+            
+              , "Сценарий .NET STIG"
+            
+              , "Скрипт Adobe Reader DC STIG"
+            
+              , "Скрипт Firefox STIG"
+            
+              , "Simeononsecurity"
+            
+              , "кибербезопасность"
+            
+              , "автоматизация"
+            
+              , "безопасность сети"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность системы"
+            
+              , "компьютерная безопасность"
+            
+              , "усиление безопасности"
+            
+              , "автоматизация системы безопасности"
+            
+              , "Усиление защиты Windows"
+            
+              , "укрепление веб-сервера"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию скриптов и конфигураций, позволяющих оптимизировать и упрочнить системы, сделать их совместимыми с требованиями STIG и устойчивыми к взлому.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие требованиям Windows с помощью Ansible STIG Playbooks</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Защита Windows"
+            
+              , "Скрипты СТИГ"
+            
+              , "Соответствие стандартам STIG"
+            
+              , "Ансибл Галактика"
+            
+              , "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Windows-сервер"
+            
+              , "Защитник Windows"
+            
+              , ".СЕТЬ"
+            
+              , "Fire Fox"
+            
+              , "Оракл JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Интернет-соединение"
+            
+              , "Автономная совместимость"
+            
+              , "Усиление безопасности"
+            
+              , "Безопасность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте соблюдение требований безопасности с помощью Ansible STIG Playbooks для систем Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

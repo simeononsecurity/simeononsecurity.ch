@@ -1,0 +1,121 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Интернет-Соединение on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5//img/banner.png</url>
+      <title>Интернет-Соединение on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Интернет-Соединение on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте соответствие требованиям Windows с помощью Ansible STIG Playbooks</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</link>
+        
+        <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизация"
+            
+              , "Соответствие Windows"
+            
+              , "Ansible STIG Playbooks"
+            
+              , "Защита Windows"
+            
+              , "Скрипты СТИГ"
+            
+              , "Соответствие стандартам STIG"
+            
+              , "Ансибл Галактика"
+            
+              , "PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "Windows-сервер"
+            
+              , "Защитник Windows"
+            
+              , ".СЕТЬ"
+            
+              , "Fire Fox"
+            
+              , "Оракл JRE 8"
+            
+              , "Adobe Reader DC"
+            
+              , "Интернет-соединение"
+            
+              , "Автономная совместимость"
+            
+              , "Усиление безопасности"
+            
+              , "Безопасность Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows_stig_ansible/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизируйте соблюдение требований безопасности с помощью Ansible STIG Playbooks для систем Windows.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

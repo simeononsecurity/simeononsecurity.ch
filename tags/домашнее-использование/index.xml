@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Домашнее Использование on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5//img/banner.png</url>
+      <title>Домашнее Использование on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+
+    <description>Recent content in Домашнее Использование on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

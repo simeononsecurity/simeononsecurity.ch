@@ -1,0 +1,241 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/windows//img/banner.png</url>
+      <title>Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/windows/</link>
+
+    <description>Recent content in Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Использование возможностей лицензионных ключей для повышения производительности</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Программное обеспечение"
+            
+              , "Производительность"
+            
+              , "Операционные системы"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Лицензирование"
+            
+              , "Управление ключами"
+            
+              , "ИТ-решения"
+            
+              , "Enhancement"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя, как Windows GVLK революционизируют производительность! Ознакомьтесь с лучшими лицензионными ключами и повысьте производительность своей системы без особых усилий.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering Active Directory Administration with PowerShell: Руководство по установке и использованию</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows"
+            
+              , "PowerShell"
+            
+              , "Active Directory"
+            
+              , "Администрация"
+            
+              , "Скриптинг"
+            
+              , "IT"
+            
+              , "Автоматизация"
+            
+              , "Windows Server"
+            
+              , "Microsoft"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как эффективно установить и использовать модуль Active Directory для PowerShell, чтобы упростить задачи администрирования Windows Active Directory.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

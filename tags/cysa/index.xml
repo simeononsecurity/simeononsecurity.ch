@@ -1,0 +1,101 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CySA on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/cysa//img/banner.png</url>
+      <title>CySA on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/cysa/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/cysa/</link>
+
+    <description>Recent content in CySA on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/cysa/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые сертификаты</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/certifications/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемые сертификаты"
+            
+              , "Лучшие кибер- и ИТ-сертификаты"
+            
+              , "Лучшие сертификаты для тех, кто ищет работу"
+            
+              , "Рекомендации по сертификации SimeonOnSecurity"
+            
+              , "Сертификаты CompTIA"
+            
+              , "Сертификация Cisco"
+            
+              , "Сертификация EC-Council"
+            
+              , "Сертификация ISC2"
+            
+              , "Сертификация Juniper"
+            
+              , "Сертификация Microsoft"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          SimeonOnSecurity рекомендует лучшие кибер- и ИТ-сертификации для тех, кто собирается поступать на работу. В список включены сертификаты CompTIA, Cisco, EC-Council, ISC2, Juniper, Microsoft и Offensive Security с различными уровнями квалификации - начальный, ассоциированный, профессиональный и экспертный. Все перечисленные сертификаты имеют прямое отношение к должностям в сфере кибербезопасности и принесут большую пользу кандидату. Ознакомьтесь с интерактивной дорожной картой сертификации, чтобы получить наглядное представление. Также доступны такие учебные ресурсы, как книги и тренинги.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

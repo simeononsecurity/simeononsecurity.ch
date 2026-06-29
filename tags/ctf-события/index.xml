@@ -1,0 +1,127 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CTF-События on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/ctf-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F//img/banner.png</url>
+      <title>CTF-События on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/ctf-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/ctf-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F/</link>
+
+    <description>Recent content in CTF-События on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/ctf-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Журнал рейтинга CTF SimeonOnSecurity</title>
+        
+          <link>https:/ru.simeononsecurity.com/ctfranks/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рейтинг CTF"
+            
+              , "Захват флага"
+            
+              , "Соревнование"
+            
+              , "Проблемы"
+            
+              , "LockHeed Martin Cyber Grand Challenge"
+            
+              , "Национальная киберлига"
+            
+              , "Вызов шифровальной техники"
+            
+              , "Производительность"
+            
+              , "Размещение"
+            
+              , "Команда"
+            
+              , "Индивидуальный"
+            
+              , "2020"
+            
+              , "2021"
+            
+              , "Информационная безопасность"
+            
+              , "Киберзащита"
+            
+              , "CTF-события"
+            
+              , "Хакерские Соревнования"
+            
+              , "Информационная безопасность"
+            
+              , "Исследование безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/ctfranks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Будьте в курсе последних рейтингов в мире CTF и проблем с журналом рейтингов CTF от SimeonOnSecurity
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png" length="236561" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

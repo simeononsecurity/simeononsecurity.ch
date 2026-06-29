@@ -1,0 +1,123 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STIG V2R1 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/stig-v2r1//img/banner.png</url>
+      <title>STIG V2R1 on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/stig-v2r1/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/stig-v2r1/</link>
+
+    <description>Recent content in STIG V2R1 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/stig-v2r1/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности Windows 10 с помощью сценария усиления защиты защитника</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</link>
+        
+        <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Windows 10"
+            
+              , "Безопасность Windows 10"
+            
+              , "Сценарий PowerShell"
+            
+              , "Закалка"
+            
+              , "Укрепление защитника"
+            
+              , "Автоматизация безопасности"
+            
+              , "Согласие"
+            
+              , "Контролируемый доступ к папкам"
+            
+              , "Система предотвращения вторжений"
+            
+              , "Управление приложениями"
+            
+              , "Снижение поверхности атаки"
+            
+              , "Защита от эксплойтов"
+            
+              , "Облачная защита"
+            
+              , "Защита сети"
+            
+              , "Скрипт STIG Защитника Windows"
+            
+              , "Защитник Windows СТИГ"
+            
+              , "STIG V2R1"
+            
+              , "ВДАК"
+            
+              , "ASR"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-defender-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как повысить безопасность Windows 10 с помощью сценария PowerShell, который усиливает защиту антивирусной программы Защитник Windows, реализуя все требования антивирусной программы Защитник Windows STIG V2R1.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

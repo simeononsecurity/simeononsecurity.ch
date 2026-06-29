@@ -1,0 +1,151 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Блоги По Безопасности on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8//img/banner.png</url>
+      <title>Блоги По Безопасности on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+
+    <description>Recent content in Блоги По Безопасности on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8-%D0%BF%D0%BE-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение кибербезопасности: Изучение новейших CVE и действующих лиц угроз</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "CVEs"
+            
+              , "субъекты угроз"
+            
+              , "сканирование уязвимостей"
+            
+              , "разведка угроз"
+            
+              , "обмен информацией"
+            
+              , "отраслевое сотрудничество"
+            
+              , "рекомендации по безопасности"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "Болтер ATT&amp;CK®"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "возникающие угрозы"
+            
+              , "проактивная защита"
+            
+              , "автоматизированное сканирование уязвимостей"
+            
+              , "разведка из открытых источников"
+            
+              , "Анализ угроз в режиме реального времени"
+            
+              , "тактика и техника действий субъектов угроз"
+            
+              , "Технический OSINT"
+            
+              , "Базы данных CVE"
+            
+              , "рекомендации поставщиков средств защиты"
+            
+              , "блоги по безопасности"
+            
+              , "информационные потоки об угрозах"
+            
+              , "сообщества по обмену информацией"
+            
+              , "постановления правительства"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Опережайте киберугрозы, узнавая о последних CVE и действующих лицах с помощью эффективных стратегий и ресурсов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

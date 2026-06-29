@@ -1,0 +1,131 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Услуги Сторонних Организаций on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9//img/banner.png</url>
+      <title>Услуги Сторонних Организаций on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9/</link>
+
+    <description>Recent content in Услуги Сторонних Организаций on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%85-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Риски неоправданного использования VPN: Руководство для обычных пользователей</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-risks-of-using-vpns-unnecessarilly/</link>
+        
+        <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "VPN"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Безопасность в Интернете"
+            
+              , "MITM-атаки"
+            
+              , "Виртуальные частные сети"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Шифрование"
+            
+              , "HTTPS"
+            
+              , "Защита информации"
+            
+              , "Услуги сторонних организаций"
+            
+              , "Риски, связанные с конфиденциальностью"
+            
+              , "ИНТЕРНЕТ-ПРОВАЙДЕР"
+            
+              , "Контент с географическими ограничениями"
+            
+              , "Цензура в Интернете"
+            
+              , "Общественный Wi-Fi"
+            
+              , "Конфиденциальность данных"
+            
+              , "Защита в режиме онлайн"
+            
+              , "Веб-безопасность"
+            
+              , "Провайдеры VPN"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-risks-of-using-vpns-unnecessarilly/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, почему VPN может оказаться бесполезной для обычных пользователей в мире, где все использует HTTPS, и как доверять своему VPN-провайдеру.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png" length="314666" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

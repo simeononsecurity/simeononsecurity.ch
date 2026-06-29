@@ -1,0 +1,295 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/macos//img/banner.png</url>
+      <title>MacOS on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/macos/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/macos/</link>
+
+    <description>Recent content in MacOS on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Введение в Ansible: Автоматизация управления ИТ-инфраструктурой</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</link>
+        
+        <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Введение в Ansible"
+            
+              , "Автоматизация управления ИТ-инфраструктурой"
+            
+              , "Основы Ansible"
+            
+              , "Автоматизация ИТ-инфраструктуры"
+            
+              , "Управление конфигурацией"
+            
+              , "Развертывание приложений"
+            
+              , "Провизионирование"
+            
+              , "Непрерывная поставка"
+            
+              , "Соблюдение требований безопасности"
+            
+              , "Оркестровка"
+            
+              , "YAML"
+            
+              , "Модули Ansible"
+            
+              , "Роли"
+            
+              , "Лучшие практики"
+            
+              , "Контроль версий"
+            
+              , "Тестирование"
+            
+              , "Red Hat"
+            
+              , "Системные администраторы"
+            
+              , "Linux"
+            
+              , "macOS"
+            
+              , "Windows"
+            
+              , "Установка Ansible"
+            
+              , "Инвентаризация Ansible"
+            
+              , "Плейбуки Ansible"
+            
+              , "Модули Ansible"
+            
+              , "Роли Ansible"
+            
+              , "Передовые методы работы с Ansible"
+            
+              , "Тестирование Ansible"
+            
+              , "Средство автоматизации ИТ-инфраструктуры"
+            
+              , "Учебное пособие по Ansible"
+            
+              , "Автоматизация управления инфраструктурой"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/ansible-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите основы Ansible, инструмента автоматизации с открытым исходным кодом, который упрощает управление ИТ-инфраструктурой с помощью декларативного языка.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png" length="209802" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows от спекулятивных атак по побочным каналам</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарий предотвращения аварийного восстановления Windows Spectre"
+            
+              , "Спекулятивные атаки по побочным каналам"
+            
+              , "Майкрософт"
+            
+              , "Интел"
+            
+              , "AMD"
+            
+              , "С ПОМОЩЬЮ"
+            
+              , "РУКА"
+            
+              , "Андроид"
+            
+              , "Хром"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Внедрение целевых ветвей"
+            
+              , "Обход проверки границ"
+            
+              , "Мошенническая загрузка кэша данных"
+            
+              , "Спекулятивный обход магазина"
+            
+              , "Микроархитектурная выборка данных"
+            
+              , "CVE"
+            
+              , "Обновления прошивки"
+            
+              , "Репозиторий GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить свою систему Windows от спекулятивных атак по сторонним каналам с помощью сценария смягчения последствий Microsoft и обновлений встроенного ПО.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемый антивирус</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/anti-virus/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Рекомендуемый антивирус"
+            
+              , "AV"
+            
+              , "Антивирус"
+            
+              , "Антивирус"
+            
+              , "Домашнее использование"
+            
+              , "Использование в бизнесе"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "MacOS"
+            
+              , "Кибербезопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/anti-virus/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье представлен список рекомендуемых антивирусных продуктов для домашнего и корпоративного использования, составленный компанией SimeonOnSecurity. Рейтинг составлен на основе профессионального мнения и тестирования на вредоносных образцах и учитывает только возможности антивируса, его обнаружение, удобство использования и производительность. Пользователи Windows могут выбирать как платные, так и бесплатные варианты, в то время как пользователи Linux и MacOS ограничены в выборе, причем платные варианты доступны только для Linux. Отметим, что использование антивируса в Linux и MacOS не является обязательным, а использование VPN или менеджера паролей, поставляемых вместе с антивирусным пакетом, не рекомендуется. В статье также даны рекомендации по VPN-провайдерам. Рекомендации по использованию в бизнесе находятся в стадии разработки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

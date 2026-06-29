@@ -1,0 +1,613 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Репозиторий GitHub on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-github//img/banner.png</url>
+      <title>Репозиторий GitHub on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-github/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-github/</link>
+
+    <description>Recent content in Репозиторий GitHub on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-github/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение производительности с помощью Homebox: Управление запасами и активами с открытым исходным кодом</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Управление запасами"
+            
+              , "Управление активами"
+            
+              , "Открытый исходный код"
+            
+              , "Производительность"
+            
+              , "Малый бизнес"
+            
+              , "Управление домом"
+            
+              , "Самостоятельное размещение"
+            
+              , "Программное обеспечение"
+            
+              , "Организация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Homebox, программного обеспечения с открытым исходным кодом для эффективного управления запасами и активами, повышающего производительность вашего дома или малого предприятия.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Glotta: оптимизация перевода текстов Hugo для глобального охвата</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/glotta-streamlining-hugo-text-translation-for-global-reach/</link>
+        
+        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Glotta"
+            
+              , "Перевод текста Hugo"
+            
+              , "инструмент локализации"
+            
+              , "многоязычный контент"
+            
+              , "автоматизация перевода"
+            
+              , "языковая локализация"
+            
+              , "Интеграция с API Google Translate"
+            
+              , "Интеграция API Deepl Translate"
+            
+              , "Chevrotain.js"
+            
+              , "лексеры и синтаксические анализаторы"
+            
+              , "синтаксические деревья"
+            
+              , "процесс перевода"
+            
+              , "Проекты Hugo"
+            
+              , "локализация контента"
+            
+              , "языковая поддержка"
+            
+              , "эффективность перевода"
+            
+              , "переводческие API"
+            
+              , "лучшие практики локализации"
+            
+              , "контроль качества перевода"
+            
+              , "тестирование переведенного контента"
+            
+              , "глобальная аудитория"
+            
+              , "решение для перевода текстов"
+            
+              , "оптимизация процесса перевода"
+            
+              , "код стороннего производителя"
+            
+              , "меры безопасности"
+            
+              , "Пакет NPM"
+            
+              , "Репозиторий GitHub"
+            
+              , "инструмент для перевода текста"
+            
+              , "локализация с учетом требований разработчиков"
+            
+              , "увеличение охвата контента"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/glotta-streamlining-hugo-text-translation-for-global-reach/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как Glotta упрощает перевод текстов Hugo, позволяя разработчикам без особых усилий охватить глобальную аудиторию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png" length="609967" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automate-Sysmon: упрощение развертывания и настройки Sysmon</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/automate-sysmon/</link>
+        
+        <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Автоматизировать Сисмон"
+            
+              , "Как автоматизировать Sysmon"
+            
+              , "Как автоматизировать настройку Sysmon"
+            
+              , "Как установить Сисмон"
+            
+              , "PowerShell"
+            
+              , "Скрипт"
+            
+              , "Развертывание Sysmon"
+            
+              , "Конфигурация сисмона"
+            
+              , "Системное ведение журнала"
+            
+              , "Обнаружение угроз"
+            
+              , "Вредоносная активность"
+            
+              , "SwiftOnSecurity sysmon-config"
+            
+              , "Microsoft Sysinternals"
+            
+              , "Репозиторий GitHub"
+            
+              , "BHIS"
+            
+              , "Мониторинг системы"
+            
+              , "Исследование безопасности"
+            
+              , "Создание процесса"
+            
+              , "Сетевые соединения"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/automate-sysmon/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как развернуть и настроить Sysmon для повышения безопасности вашей системы с помощью сценария Automate-Sysmon, который упрощает процесс даже для начинающих пользователей.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизируйте активацию Windows KMS с помощью сценария GLVK</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/kms-auto-ps/</link>
+        
+        <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Активация Windows"
+            
+              , "Ключи клиента KMS"
+            
+              , "ГЛВК"
+            
+              , "Обновления Windows"
+            
+              , "Согласие"
+            
+              , "Сценарий PowerShell"
+            
+              , "Служба управления ключами"
+            
+              , "Корпоративное лицензирование"
+            
+              , "Корпоративная активация"
+            
+              , "Сервер управления ключами"
+            
+              , "Автоматизация"
+            
+              , "Продукты Майкрософт"
+            
+              , "Операционная система"
+            
+              , "Программное обеспечение"
+            
+              , "Корпоративные среды"
+            
+              , "Административный PowerShell"
+            
+              , "Репозиторий GitHub"
+            
+              , "Скрипты"
+            
+              , "Информационная безопасность"
+            
+              , "СимеонОнСекьюрити"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/kms-auto-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Упростите процесс активации Windows 10 KMS с помощью сценария автоматической установки GLVK от SimeonOnSecurity и узнайте больше о клиентских ключах KMS и GLVK из рекомендованной Microsoft литературы.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективное сканирование на вирусы с помощью модулей VirusTotal PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/virustotal-ps/</link>
+        
+        <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Модули PowerShell"
+            
+              , "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "VirusTotal"
+            
+              , "Проверка на вирусы"
+            
+              , "Сканирование домена"
+            
+              , "API-ключ"
+            
+              , "Вирустотал API"
+            
+              , "Страница разработчиков VirusTotal"
+            
+              , "Системное администрирование"
+            
+              , "Рабочий процесс безопасности"
+            
+              , "Эффективное сканирование на вирусы"
+            
+              , "Загрузить и установить"
+            
+              , "Репозиторий GitHub"
+            
+              , "Примеры использования API"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/virustotal-ps/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выполняйте эффективное сканирование на вирусы с помощью модулей VirusTotal PowerShell, автоматизируя взаимодействие с VirusTotal API и оптимизируя рабочий процесс безопасности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Командная строка Windows и защита PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</link>
+        
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "PowerShell"
+            
+              , "Закалка"
+            
+              , "Командная строка Windows"
+            
+              , "Безопасность"
+            
+              , "Согласие"
+            
+              , "Автоматизация"
+            
+              , "Ограниченный языковой режим"
+            
+              , "Ведение журнала PowerShell"
+            
+              , "Сценарий PowerShell"
+            
+              , "WSMAN"
+            
+              , "PSRemoting"
+            
+              , "Безопасность предприятия"
+            
+              , "Синяя команда"
+            
+              , "Информационная безопасность"
+            
+              , "Лучшие практики"
+            
+              , "Отключить командную строку"
+            
+              , "Отключить PowerShell v2"
+            
+              , "Репозиторий GitHub"
+            
+              , "Защитник Windows"
+            
+              , "Майкрософт"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-terminal-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите командную строку Windows и PowerShell с помощью нашего всеобъемлющего скрипта и документации, повышающих безопасность системы и соответствие требованиям.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита Windows от спекулятивных атак по побочным каналам</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link>
+        
+        <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сценарий предотвращения аварийного восстановления Windows Spectre"
+            
+              , "Спекулятивные атаки по побочным каналам"
+            
+              , "Майкрософт"
+            
+              , "Интел"
+            
+              , "AMD"
+            
+              , "С ПОМОЩЬЮ"
+            
+              , "РУКА"
+            
+              , "Андроид"
+            
+              , "Хром"
+            
+              , "iOS"
+            
+              , "macOS"
+            
+              , "Внедрение целевых ветвей"
+            
+              , "Обход проверки границ"
+            
+              , "Мошенническая загрузка кэша данных"
+            
+              , "Спекулятивный обход магазина"
+            
+              , "Микроархитектурная выборка данных"
+            
+              , "CVE"
+            
+              , "Обновления прошивки"
+            
+              , "Репозиторий GitHub"
+            
+              , "PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как защитить свою систему Windows от спекулятивных атак по сторонним каналам с помощью сценария смягчения последствий Microsoft и обновлений встроенного ПО.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,349 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows PowerShell on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/windows-powershell//img/banner.png</url>
+      <title>Windows PowerShell on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/windows-powershell/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/windows-powershell/</link>
+
+    <description>Recent content in Windows PowerShell on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/windows-powershell/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Полное руководство: Хеширование файлов в Windows с помощью PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "хэши файлов"
+            
+              , "PowerShell"
+            
+              , "хэш SHA256"
+            
+              , "MD5-хэш"
+            
+              , "SHA1-хэш"
+            
+              , "целостность файлов"
+            
+              , "аутентификация данных"
+            
+              , "проверка файлов"
+            
+              , "алгоритмы хэширования"
+            
+              , "Операционная система Windows"
+            
+              , "скриптовый язык"
+            
+              , "оболочка командной строки"
+            
+              , "безопасность данных"
+            
+              , "цифровая криминалистика"
+            
+              , "кибербезопасность"
+            
+              , "вычисление хэша"
+            
+              , "фальсификация файлов"
+            
+              , "целостность данных"
+            
+              , "подлинность файлов"
+            
+              , "Безопасность Windows"
+            
+              , "идентификация файлов"
+            
+              , "кибернетическая защита"
+            
+              , "защита файлов"
+            
+              , "защита информации"
+            
+              , "проверка данных"
+            
+              , "проверка файлов"
+            
+              , "Windows PowerShell"
+            
+              , "генерация хэша"
+            
+              , "хэш-алгоритмы"
+            
+              , "хэш-функции"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/how-to-get-hashes-of-files-in-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как получить хэши файлов в Windows с помощью PowerShell, включая SHA256, MD5 и SHA1, с помощью пошаговых инструкций и примеров.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png" length="96856" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автономная установка модуля RSAT ActiveDirectory PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</link>
+        
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструментарий удаленного администрирования сервера"
+            
+              , "Модуль PowerShell RSAT ActiveDirectory"
+            
+              , "Windows 10"
+            
+              , "Автономный установщик"
+            
+              , "Сценарий PowerShell"
+            
+              , "Модуль PowerShell"
+            
+              , "Активдиректори"
+            
+              , "Окна"
+            
+              , "Не в сети"
+            
+              , "Установить"
+            
+              , "Сервер"
+            
+              , "Администрация"
+            
+              , "Инструментарий"
+            
+              , "Скрипты"
+            
+              , "Модуль"
+            
+              , "Windows-сервер"
+            
+              , "Ядро PowerShell"
+            
+              , "Windows PowerShell"
+            
+              , "Майкрософт"
+            
+              , "ИТ-администрирование"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/offline-ps-activedirectory-install/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как установить модуль PowerShell RSAT ActiveDirectory в автономном режиме с помощью простого сценария PowerShell.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Рекомендуемые книги</title>
+        
+          <link>https:/ru.simeononsecurity.com/recommendations/books/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "книги"
+            
+              , "информационная безопасность"
+            
+              , "лучшие книги по кибербезопасности"
+            
+              , "лучшие книги по автоматизации"
+            
+              , "книги по автоматизации"
+            
+              , "рекомендации по книгам по кибербезопасности"
+            
+              , "кибербезопасность для чайников"
+            
+              , "Кодирование и сценарии"
+            
+              , "Автоматизация"
+            
+              , "Windows PowerShell"
+            
+              , "Сисадмины"
+            
+              , "Ансибль"
+            
+              , "Сетевая автоматизация"
+            
+              , "питон"
+            
+              , "Виндовс Сервер 2019"
+            
+              , "Синяя команда"
+            
+              , "Создание безопасных и надежных систем"
+            
+              , "Хэш Крэк"
+            
+              , "ПТФМ"
+            
+              , "Полевое руководство фиолетовой команды"
+            
+              , "Справочник оператора"
+            
+              , "Полевое руководство красной команды"
+            
+              , "Инженерия безопасности"
+            
+              , "Искусство обмана"
+            
+              , "Искусство вторжения"
+            
+              , "Искусство невидимости"
+            
+              , "Хакерская книга"
+            
+              , "Справочник хакера веб-приложений"
+            
+              , "Племя хакеров"
+            
+              , "Сеть"
+            
+              , "Интеллект с открытым исходным кодом"
+            
+              , "Операционные системы"
+            
+              , "Программное обеспечение"
+            
+              , "Конфиденциальность"
+            
+              , "Экстремальная конфиденциальность"
+            
+              , "Создайте свой собственный живой траст"
+            
+              , "Другой"
+            
+              , "Эта книга была опубликована самостоятельно"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/recommendations/books/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это коллекция рекомендуемых книг от SimeonOnSecurity. Книги охватывают различные темы, включая автоматизацию кодирования и сценариев, кибербезопасность, работу с сетями, разведку с открытым исходным кодом, операционные системы и программное обеспечение, конфиденциальность и другие связанные темы. С двухмесячной пробной версией Amazon Kindle Unlimited вы можете читать большинство этих книг бесплатно. Эта коллекция предлагает ряд книг как для начинающих, так и для экспертов, с такими названиями, как «Ускоренный курс Python» и «Искусство обмана». Если вы хотите улучшить свои навыки кодирования или лучше понять кибербезопасность, в этой коллекции каждый найдет что-то для себя.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

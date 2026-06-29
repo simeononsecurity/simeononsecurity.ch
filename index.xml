@@ -1,0 +1,1715 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com//img/banner.png</url>
+      <title>simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/</link>
+
+    <description>Recent content on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасный сервис электронной почты: Повышение уровня конфиденциальности с помощью StartMail</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Услуги электронной почты"
+            
+              , "Безопасность в Интернете"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Шифрование"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность электронной почты"
+            
+              , "Защита личности"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя StartMail - безопасный почтовый сервис с усовершенствованной системой шифрования и маскировки электронной почты, обеспечивающий максимальную конфиденциальность и защиту от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure_email_guard.png" length="1073957" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Использование возможностей лицензионных ключей для повышения производительности</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Программное обеспечение"
+            
+              , "Производительность"
+            
+              , "Операционные системы"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Лицензирование"
+            
+              , "Управление ключами"
+            
+              , "ИТ-решения"
+            
+              , "Enhancement"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя, как Windows GVLK революционизируют производительность! Ознакомьтесь с лучшими лицензионными ключами и повысьте производительность своей системы без особых усилий.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/windows_gvlks_unlocked.png" length="1307494" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки Windows 11: Обход проверок TPM, безопасной загрузки и оперативной памяти</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows 11"
+            
+              , "Установка"
+            
+              , "Виртуализация"
+            
+              , "Автоматизация"
+            
+              , "Ключи реестра"
+            
+              , "Обходной путь TPM"
+            
+              , "Обход безопасной загрузки"
+            
+              , "Обход оперативной памяти"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизация установки Windows 11 в виртуальных средах за счет обхода проверок TPM, Secure Boot и оперативной памяти с помощью autounattend.xml и vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Spacemesh Mining: Экологически чистый путь к децентрализованным вознаграждениям</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link>
+        
+        <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Майнинг криптовалюты"
+            
+              , "Доказательство пространства-времени"
+            
+              , "Децентрализованное вознаграждение"
+            
+              , "Экологически чистая добыча полезных ископаемых"
+            
+              , "Технология блокчейн"
+            
+              , "Криптовалюта"
+            
+              , "Майнинг криптовалют"
+            
+              , "Proof-of-Space"
+            
+              , "Децентрализация"
+            
+              , "Блокчейн-консенсус"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Зарабатывайте экологически чистые вознаграждения благодаря децентрализованному майнингу Spacemesh, использующему инновационный алгоритм консенсуса PoST.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/spacemesh-mining-rocket.png" length="1059166" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности и конфиденциальности с помощью виртуальных карт Privacy.com</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность в Интернете"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Виртуальные дебетовые карты"
+            
+              , "Финансовая защита"
+            
+              , "Операции в режиме онлайн"
+            
+              , "Предотвращение мошенничества"
+            
+              , "Конфиденциальность данных"
+            
+              , "Финансовая конфиденциальность"
+            
+              , "Кибербезопасность"
+            
+              , "Личные финансы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как виртуальные дебетовые карты Privacy.com могут укрепить вашу безопасность в Интернете и защитить вашу частную жизнь, обеспечивая легкий контроль над транзакциями и подписками.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_virtual_cards.png" length="1248460" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности виртуальных машин с помощью vTPM: Пошаговое руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Безопасность"
+            
+              , "Модуль доверенной платформы"
+            
+              , "vTPM"
+            
+              , "Гостевая ОС"
+            
+              , "Шифрование"
+            
+              , "Аттестация платформы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение безопасности виртуальных машин с использованием vTPM с помощью нашего исчерпывающего пошагового руководства, обеспечивающего аттестацию платформы и поддержку шифрования BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/enhanced-vm-security.png" length="1328534" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering VMware vSphere: Полное руководство по значениям guest_os_type</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+          "cybersecurity", "security", "information security"
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о допустимых значениях типа гостевой ОС для vSphere Packer Builder, что позволит оптимизировать процесс создания ВМ для VMware vSphere.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.png" length="1778662" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие партнерских отношений: поддержите нас и откройте для себя удивительные услуги</title>
+        
+          <link>https:/ru.simeononsecurity.com/affiliate/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Раскрытие информации о партнерах"
+            
+              , "Онлайн-сервисы"
+            
+              , "Рекомендации по продуктам"
+            
+              , "Цифровые продукты"
+            
+              , "Партнерский маркетинг"
+            
+              , "Заработок в Интернете"
+            
+              , "Монетизация сайта"
+            
+              , "Заработок в Интернете"
+            
+              , "Интернет-маркетинг"
+            
+              , "Прозрачность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/affiliate/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о нашей политике раскрытия информации об аффилированных лицах и ознакомьтесь с такими первоклассными сервисами, как Amazon, Audible, StartMail и др.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Расширение возможностей национальной безопасности: Электрокибернетическое воздействие биткойна</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Криптовалюта"
+            
+              , "Кибербезопасность"
+            
+              , "Технология"
+            
+              , "Национальная безопасность"
+            
+              , "Исследование"
+            
+              , "Финансы"
+            
+              , "Инновации"
+            
+              , "Цифровая валюта"
+            
+              , "Разработка политики"
+            
+              , "Blockchain"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите новаторскую теорию проекции мощности и ее последствия для национальной безопасности, поскольку биткойн превращается в мощную технологию электрокибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/empowered-national-security.png" length="1771912" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Частный веб-хостинг: Защитите свое присутствие в Интернете с помощью лучших провайдеров</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link>
+        
+        <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Веб-хостинг"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Безопасность данных"
+            
+              , "Частный хостинг"
+            
+              , "Анонимный домен"
+            
+              , "Выделенные серверы"
+            
+              , "VPS-хостинг"
+            
+              , "Защита информации"
+            
+              , "Свобода слова"
+            
+              , "Биткойн-платежи"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Найдите лучший частный веб-хостинг для обеспечения безопасности вашего присутствия в Интернете. Сравните Privex, OrangeWebsite, 1984 и Njalla, предлагающие первоклассный уровень конфиденциальности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_hosting_security_shield.png" length="1480314" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Хостинг OrangeWebsite: Развертывание успеха в Интернете с помощью скорости и безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</link>
+        
+        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Веб-хостинг"
+            
+              , "Кибербезопасность"
+            
+              , "Бизнес"
+            
+              , "Цифровые услуги"
+            
+              , "Управление сайтом"
+            
+              , "Интернет"
+            
+              , "Электронная коммерция"
+            
+              , "Облачный хостинг"
+            
+              , "Хостинг серверов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности хостинга OrangeWebsite - быстрые, безопасные и надежные решения для всех ваших веб-сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/OrangeWebsite-rocket.png" length="937886" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сессия vs Статус vs Сигнал vs Трема: Комплексное сравнение</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link>
+        
+        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасный обмен сообщениями"
+            
+              , "Коммуникации, ориентированные на конфиденциальность"
+            
+              , "Сравнение приложений для обмена сообщениями"
+            
+              , "Протоколы шифрования"
+            
+              , "Кибербезопасность"
+            
+              , "Частное общение"
+            
+              , "Службы обмена сообщениями"
+            
+              , "Конфиденциальность данных"
+            
+              , "Комплексное шифрование"
+            
+              , "Анализ платформ обмена сообщениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В этом комплексном сравнении служб безопасного обмена сообщениями вы узнаете о ключевых различиях и достоинствах Session, Status, Signal и Threema.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure-messaging-comparison.png" length="1600384" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение защищенной электронной почты: StartMail vs ProtonMail vs Tutanota</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link>
+        
+        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Кибербезопасность"
+            
+              , "Конфиденциальность данных"
+            
+              , "Услуги электронной почты"
+            
+              , "Безопасность в Интернете"
+            
+              , "Шифрование"
+            
+              , "Интернет-инструменты"
+            
+              , "Сравнение"
+            
+              , "Цифровая защита"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучший безопасный почтовый сервис! Подробное сравнение StartMail, ProtonMail и Tutanota, обеспечивающих вашу конфиденциальность в Интернете
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure-email-showdown.png" length="1329076" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие браузеры для обеспечения конфиденциальности - LibreWolf vs. Brave vs. Firefox vs. Tor</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Браузеры"
+            
+              , "Конфиденциальность"
+            
+              , "Безопасность"
+            
+              , "Интернет"
+            
+              , "Технология"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Безопасность в Интернете"
+            
+              , "Открытый исходный код"
+            
+              , "Анонимность"
+            
+              , "Веб-браузинг"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие браузеры, ориентированные на конфиденциальность - LibreWolf, Brave, Firefox и Tor - для безопасной работы в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/privacy_shield.png" length="742868" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защитите свою конфиденциальность с помощью Albine DeleteMe - защита вашего цифрового присутствия</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</link>
+        
+        <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность данных"
+            
+              , "Безопасность в Интернете"
+            
+              , "Защита персональной информации"
+            
+              , "Предотвращение хищений персональных данных"
+            
+              , "Управление цифровым следом"
+            
+              , "Кибербезопасность"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Удаление данных"
+            
+              , "Соответствие требованиям GDPR"
+            
+              , "CCPA"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Albine DeleteMe - службы защиты данных, которая позволяет защитить вашу личную информацию, обеспечивая безопасность и спокойствие в Интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/secure_privacy_cartoon.png" length="1576319" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HSTS Preloading Как повысить безопасность сайта: Пошаговое руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</link>
+        
+        <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+          "cybersecurity", "security", "information security"
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как повысить безопасность сайта и доверие пользователей, предварительно загрузив настройки HSTS в Chrome и Firefox. Следуйте нашему пошаговому руководству для беспрепятственного внедрения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/enhanced-website-security.png" length="1100381" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Эффективный майнинг Spacemesh с использованием нескольких GPU - максимальное вознаграждение</title>
+        
+          <link>https:/ru.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</link>
+        
+        <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Криптовалюта"
+            
+              , "Blockchain"
+            
+              , "Добыча"
+            
+              , "Технология"
+            
+              , "Децентрализованный"
+            
+              , "Майнинг на GPU"
+            
+              , "Доказательство существования пространства-времени"
+            
+              , "Экологически чистый"
+            
+              , "Советы по криптовалютам"
+            
+              , "Цифровые активы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как оптимизировать добычу Spacemesh на нескольких GPU с помощью экологичного алгоритма PoST и получить максимальное вознаграждение.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/spacemesh-mining-gpus.png" length="1834896" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие практики безопасности Python: Защита кода и данных</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link>
+        
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность Python"
+            
+              , "Кодовая безопасность"
+            
+              , "Защита информации"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Кибербезопасность"
+            
+              , "Безопасное кодирование"
+            
+              , "Веб-разработка"
+            
+              , "Конфиденциальность данных"
+            
+              , "Безопасность приложений"
+            
+              , "ИТ-безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Ознакомьтесь с передовыми методами обеспечения безопасности на языке Python, которые позволят защитить код и данные от потенциальных угроз, обеспечить защиту данных, целостность системы и доверие.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.png" length="1359689" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня кибербезопасности: Лучшие сертификаты для начинающих</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link>
+        
+        <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сертификация в области кибербезопасности"
+            
+              , "Руководство для начинающих"
+            
+              , "Карьера в области информационных технологий"
+            
+              , "Информационная безопасность"
+            
+              , "Сетевая безопасность"
+            
+              , "Этический хакинг"
+            
+              , "Тестирование на проникновение"
+            
+              , "Вакансии начального уровня"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие сертификаты по кибербезопасности для начинающих, чтобы начать свою карьеру и получить необходимые навыки для успешной работы в этой области.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_representing_a_lock_an.png" length="1139844" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Методология поиска и устранения неисправностей в сети</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT-образование"
+            
+              , "Поиск и устранение неисправностей в сети"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение в области информационных технологий"
+            
+              , "Компьютерные сети"
+            
+              , "Навыки работы с информационными технологиями"
+            
+              , "Технические знания"
+            
+              , "ИТ-специалисты"
+            
+              , "Сетевые концепции"
+            
+              , "Поддержка сети"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исчерпывающее руководство по методологии поиска и устранения неисправностей в сети, включающее этапы, инструменты и лучшие практики для эффективного и результативного решения сетевых проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Основные приемы усиления Windows для обеспечения безопасности Windows 10 и Windows 11</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Усиление защиты Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Упрочнение Windows 10"
+            
+              , "Упрочнение Windows 11"
+            
+              , "Передовые методы обеспечения безопасности Windows"
+            
+              , "Советы по безопасности в Windows"
+            
+              , "Рекомендации по обеспечению безопасности Windows"
+            
+              , "Обеспечение безопасности операционных систем Windows"
+            
+              , "Упрочнение системы Windows"
+            
+              , "Меры безопасности в Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя эффективные стратегии повышения безопасности систем Windows 10 и Windows 11 с помощью комплексных методов усиления защиты и лучших практик.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png" length="1187723" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности системы с помощью команд Windows Defender PowerShell</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитник Windows"
+            
+              , "Команды PowerShell"
+            
+              , "безопасность системы"
+            
+              , "управление из командной строки"
+            
+              , "антивирус"
+            
+              , "Операционные системы Windows"
+            
+              , "защита от вредоносного ПО"
+            
+              , "расширенные настройки безопасности"
+            
+              , "автоматизация операций по обеспечению безопасности"
+            
+              , "Windows PowerShell"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности команд Windows Defender PowerShell и узнайте, как повысить безопасность системы с помощью управления из командной строки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.png" length="1269200" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Каковы лучшие решения для шифрования полного диска в Windows?</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность данных"
+            
+              , "Кибербезопасность"
+            
+              , "Шифрование в Windows"
+            
+              , "Шифрование дисков"
+            
+              , "Защита информации"
+            
+              , "Программное обеспечение для шифрования"
+            
+              , "Решения в области безопасности"
+            
+              , "Безопасность Windows"
+            
+              , "Конфиденциальность данных"
+            
+              , "Компьютерная безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-full-disk-encryption-solutions-windows/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие решения для шифрования полного диска для Windows, которые обеспечивают надежную безопасность и защищают конфиденциальные данные от несанкционированного доступа.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png" length="1206564" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Структура каталогов Windows: Исчерпывающее руководство</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/windows-directory-structure-guide/</link>
+        
+        <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Структура каталогов Windows"
+            
+              , "Управление файлами в Windows"
+            
+              , "Навигация по каталогам"
+            
+              , "Организация файлов"
+            
+              , "Пути к файлам Windows"
+            
+              , "Системные папки Windows"
+            
+              , "Каталог пользователей"
+            
+              , "Каталог Program Files"
+            
+              , "Корневой каталог Windows"
+            
+              , "Каталог временных файлов"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/windows-directory-structure-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить структуру каталогов Windows и научиться эффективно управлять файлами и перемещаться по иерархической системе.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_tree-like_structure_repre.png" length="515007" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

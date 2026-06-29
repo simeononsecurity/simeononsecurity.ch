@@ -1,0 +1,366 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Оптимизация Windows on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-windows//img/banner.png</url>
+      <title>Оптимизация Windows on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-windows/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-windows/</link>
+
+    <description>Recent content in Оптимизация Windows on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-windows/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация защиты и усиления: Ресурсы для комплексного усиления</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/awesome-hardening/</link>
+        
+        <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "упрочнение системы"
+            
+              , "упрочнение при нанесении"
+            
+              , "Соответствие требованиям STIG"
+            
+              , "Оптимизация Windows"
+            
+              , "Усиление Защитника Windows"
+            
+              , "Усиление веб-сервера Apache"
+            
+              , "Сценарий .NET STIG"
+            
+              , "Скрипт Adobe Reader DC STIG"
+            
+              , "Скрипт Firefox STIG"
+            
+              , "Simeononsecurity"
+            
+              , "кибербезопасность"
+            
+              , "автоматизация"
+            
+              , "безопасность сети"
+            
+              , "ИТ-безопасность"
+            
+              , "безопасность системы"
+            
+              , "компьютерная безопасность"
+            
+              , "усиление безопасности"
+            
+              , "автоматизация системы безопасности"
+            
+              , "Усиление защиты Windows"
+            
+              , "укрепление веб-сервера"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/awesome-hardening/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя коллекцию скриптов и конфигураций, позволяющих оптимизировать и упрочнить системы, сделать их совместимыми с требованиями STIG и устойчивыми к взлому.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Графический интерфейс Windows Optimize-Harden-Debloat — управляемая установка</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Разблокировка Windows 10"
+            
+              , "Настройки Windows 10"
+            
+              , "графический интерфейс"
+            
+              , "до-диез"
+            
+              , "PowerShell"
+            
+              , "Автоматизация"
+            
+              , "Стабильность системы"
+            
+              , "Системное администрирование"
+            
+              , "обновления Windows"
+            
+              , "Скрипт"
+            
+              , "Программирование"
+            
+              , "Раздувание"
+            
+              , "Настройка Windows 10"
+            
+              , "Производительность системы"
+            
+              , "Конфиденциальность Windows 10"
+            
+              , "Безопасность"
+            
+              , "установка виндовс 10"
+            
+              , "обслуживание виндовс 10"
+            
+              , "управление виндовс 10"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Расширьте возможности Windows 10 с легкостью, используя автоматизированный сценарий Windows-Optimize-Harden-Debloat с графическим интерфейсом, который предлагает пошаговую установку, чтобы свести к минимуму установку Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизация компьютера под управлением Windows с помощью программы Windows-Optimize-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows-Optimize-Debloat"
+            
+              , "Оптимизация Windows"
+            
+              , "Деблокирующие окна"
+            
+              , "Ускорение работы Windows"
+            
+              , "Оптимизация производительности Windows"
+            
+              , "Повышение производительности Windows"
+            
+              , "Оптимизация системы Windows"
+            
+              , "Microsoft"
+            
+              , "Конфиденциальность"
+            
+              , "Удаление вредоносного ПО"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Защитник Windows"
+            
+              , "Обновление Windows"
+            
+              , "Cortona"
+            
+              , "Объекты групповой политики"
+            
+              , "Телеметрия"
+            
+              , "Windows Store"
+            
+              , "Windows 10 Professional"
+            
+              , "Windows 10 Home"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение производительности и конфиденциальности операционной системы Windows с помощью Windows-Optimize-Debloat - комплексного скрипта, позволяющего удалить раздутое ПО и оптимизировать системные настройки.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Оптимизируйте и укрепите свою систему Windows с помощью сценария Windows-Optimize-Harden-Debloat</title>
+        
+          <link>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</link>
+        
+        <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Оптимизация Windows"
+            
+              , "Укрепление Windows"
+            
+              , "Раздувание Windows"
+            
+              , "Безопасность Windows"
+            
+              , "Производительность Windows"
+            
+              , "Конфиденциальность Windows"
+            
+              , "обновления Windows"
+            
+              , "Объекты групповой политики"
+            
+              , "Adobe Acrobat Reader"
+            
+              , "Fire Fox"
+            
+              , "Гугл Хром"
+            
+              , "Интернет-проводник"
+            
+              , "Край Майкрософт Хром"
+            
+              , "Дот-нет 4"
+            
+              , "Microsoft Office"
+            
+              , "Один диск"
+            
+              , "Oracle Java JRE 8"
+            
+              , "Брандмауэр Windows"
+            
+              , "Защитник Windows"
+            
+              , "Блокировщик приложений"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/github/windows-optimize-harden-debloat/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Это подробное руководство содержит пошаговые инструкции по оптимизации, усилению защиты и разгрузке системы Windows для повышения производительности, безопасности и конфиденциальности.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

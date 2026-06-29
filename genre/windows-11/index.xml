@@ -1,0 +1,174 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 11 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/genre/windows-11//img/banner.png</url>
+      <title>Windows 11 on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/genre/windows-11/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/genre/windows-11/</link>
+
+    <description>Recent content in Windows 11 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/genre/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки Windows 11: Обход проверок TPM, безопасной загрузки и оперативной памяти</title>
+        
+          <link>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows 11"
+            
+              , "Установка"
+            
+              , "Виртуализация"
+            
+              , "Автоматизация"
+            
+              , "Ключи реестра"
+            
+              , "Обходной путь TPM"
+            
+              , "Обход безопасной загрузки"
+            
+              , "Обход оперативной памяти"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизация установки Windows 11 в виртуальных средах за счет обхода проверок TPM, Secure Boot и оперативной памяти с помощью autounattend.xml и vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сегодня я узнал о создании пользовательских образов Windows</title>
+        
+          <link>https:/ru.simeononsecurity.com/til/2023-01-30/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Управление образами Windows"
+            
+              , "Персонализация"
+            
+              , "Развертывание Windows"
+            
+              , "Sysprep"
+            
+              , "Обобщение"
+            
+              , "Windows 10"
+            
+              , "Windows 11"
+            
+              , "Захват изображения"
+            
+              , "Развертывание изображений"
+            
+              , "NTLite"
+            
+              , "Оптимизация Windows"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/til/2023-01-30/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сегодня я узнал о создании пользовательских образов Windows, Sysprep и обобщении
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+  </channel>
+</rss>

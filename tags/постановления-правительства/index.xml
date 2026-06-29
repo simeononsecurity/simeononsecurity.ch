@@ -1,0 +1,2002 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Постановления Правительства on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0//img/banner.png</url>
+      <title>Постановления Правительства on simeononsecurity</title>
+      <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/</link>
+    </image>
+    
+    
+    <link>https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/</link>
+
+    <description>Recent content in Постановления Правительства on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https:/ru.simeononsecurity.com/tags/%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как провести аудит разрешений для vCenter с помощью PowerCLI</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link>
+        
+        <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Аудит разрешений vCenter"
+            
+              , "Автоматизация PowerCLI"
+            
+              , "Безопасность VMware"
+            
+              , "Управление виртуальной инфраструктурой"
+            
+              , "Разрешительные задания"
+            
+              , "Управление доступом пользователей"
+            
+              , "Уязвимые места в системе безопасности"
+            
+              , "Автоматизация с помощью PowerShell"
+            
+              , "Управление средой vSphere"
+            
+              , "Анализ прав доступа пользователей"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как с помощью PowerCLI эффективно проводить аудит разрешений для vCenter, обеспечивая безопасность виртуальной инфраструктуры.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.png" length="1498464" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Курс Сеть Плюс: Методология поиска и устранения неисправностей в сети</title>
+        
+          <link>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link>
+        
+        <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "IT-образование"
+            
+              , "Поиск и устранение неисправностей в сети"
+            
+              , "Сетевая сертификация"
+            
+              , "Обучение в области информационных технологий"
+            
+              , "Компьютерные сети"
+            
+              , "Навыки работы с информационными технологиями"
+            
+              , "Технические знания"
+            
+              , "ИТ-специалисты"
+            
+              , "Сетевые концепции"
+            
+              , "Поддержка сети"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исчерпывающее руководство по методологии поиска и устранения неисправностей в сети, включающее этапы, инструменты и лучшие практики для эффективного и результативного решения сетевых проблем.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.png" length="1700496" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение уровня безопасности: Возможности систем управления уязвимостями</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link>
+        
+        <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Снижение рисков"
+            
+              , "Соответствие требованиям"
+            
+              , "Безопасность данных"
+            
+              , "Оценка уязвимости"
+            
+              , "Позиция в области безопасности"
+            
+              , "Автоматизация"
+            
+              , "Интеграция"
+            
+              , "Отчетность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Укрепление безопасности организации и снижение рисков с помощью систем управления уязвимостями. Узнайте об их преимуществах и важности в современном цифровом ландшафте.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_shield_protecting.png" length="250948" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскройте свой потенциал в области кибербезопасности с помощью Академии Hackthebox</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Обучение кибербезопасности"
+            
+              , "Практические занятия"
+            
+              , "Практические упражнения"
+            
+              , "Пути обучения"
+            
+              , "Сотрудничество с общественностью"
+            
+              , "Навыки в области кибербезопасности"
+            
+              , "Онлайн-платформа"
+            
+              , "Реальные сценарии"
+            
+              , "Учебные пособия и документация"
+            
+              , "Премиальная подписка"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/unlock-cybersecurity-potential-hackthebox-academy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя комплексное обучение и практические задачи, предлагаемые Академией Hackthebox, чтобы раскрыть свой потенциал в области кибербезопасности и повысить свою квалификацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_diverse_individuals_working_togethe.png" length="1573173" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Внедрение системы кибербезопасности NICE Cybersecurity Framework: Лучшие практики для усиления киберзащиты</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</link>
+        
+        <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "NICE Cybersecurity Framework"
+            
+              , "кибернетическая защита"
+            
+              , "лучшие практики внедрения"
+            
+              , "кадры для кибербезопасности"
+            
+              , "анализ недостатка квалификации"
+            
+              , "обучающие программы"
+            
+              , "мониторинг и отчетность"
+            
+              , "уровень кибербезопасности"
+            
+              , "управление рисками"
+            
+              , "постановления правительства"
+            
+              , "политики кибербезопасности"
+            
+              , "защита информации"
+            
+              , "реагирование на инциденты"
+            
+              , "безопасность сети"
+            
+              , "управление уязвимостями"
+            
+              , "средства контроля безопасности"
+            
+              , "Анализ киберугроз"
+            
+              , "показатели кибербезопасности"
+            
+              , "постоянное совершенствование"
+            
+              , "отраслевые ориентиры"
+            
+              , "киберустойчивость"
+            
+              , "управление инцидентами безопасности"
+            
+              , "ландшафт киберугроз"
+            
+              , "управление кибербезопасностью"
+            
+              , "надзор за кибербезопасностью"
+            
+              , "безопасное обеспечение"
+            
+              , "классификация данных"
+            
+              , "требования к соблюдению"
+            
+              , "сертификаты по кибербезопасности"
+            
+              , "обучение по вопросам кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/implementing-the-nice-cybersecurity-framework/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о ключевых шагах по эффективному внедрению NICE Cybersecurity Framework и укреплению защиты организации от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png" length="333013" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Использование возможностей развития трудовых ресурсов: Системы NICE и DoD DCWF</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "развитие трудовых ресурсов"
+            
+              , "кибербезопасность"
+            
+              , "Система NICE"
+            
+              , "Система DCWF Министерства обороны"
+            
+              , "оценка навыков"
+            
+              , "профессиональное развитие"
+            
+              , "кадры для кибербезопасности"
+            
+              , "карьерные траектории"
+            
+              , "образование в области кибербезопасности"
+            
+              , "согласование кадрового состава"
+            
+              , "кадровая структура"
+            
+              , "NIST"
+            
+              , "постановления правительства"
+            
+              , "сертификаты по кибербезопасности"
+            
+              , "отраслевые стандарты"
+            
+              , "управление талантами"
+            
+              , "роли в области кибербезопасности"
+            
+              , "компетенции в области кибербезопасности"
+            
+              , "развитие кадрового потенциала в области кибербезопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "навыки в области кибербезопасности"
+            
+              , "кадровое планирование"
+            
+              , "подбор персонала в области кибербезопасности"
+            
+              , "устойчивость трудовых ресурсов"
+            
+              , "обучение кибербезопасности"
+            
+              , "кадровая стратегия"
+            
+              , "Рынок труда в сфере кибербезопасности"
+            
+              , "карьерный рост в области кибербезопасности"
+            
+              , "готовность рабочей силы"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя комплексную систему оценки и развития персонала в области кибербезопасности: NICE и DoD DCWF, позволяющие обеспечить организации квалифицированными специалистами.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png" length="470043" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Освоение кибербезопасности: Изучение новейших CVE и действующих лиц угроз</title>
+        
+          <link>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</link>
+        
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "кибербезопасность"
+            
+              , "CVEs"
+            
+              , "субъекты угроз"
+            
+              , "сканирование уязвимостей"
+            
+              , "разведка угроз"
+            
+              , "обмен информацией"
+            
+              , "отраслевое сотрудничество"
+            
+              , "рекомендации по безопасности"
+            
+              , "NVD"
+            
+              , "CVE"
+            
+              , "US-CERT"
+            
+              , "CERT"
+            
+              , "Болтер ATT&amp;CK®"
+            
+              , "OpenCTI"
+            
+              , "NIST"
+            
+              , "CISA"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "возникающие угрозы"
+            
+              , "проактивная защита"
+            
+              , "автоматизированное сканирование уязвимостей"
+            
+              , "разведка из открытых источников"
+            
+              , "Анализ угроз в режиме реального времени"
+            
+              , "тактика и техника действий субъектов угроз"
+            
+              , "Технический OSINT"
+            
+              , "Базы данных CVE"
+            
+              , "рекомендации поставщиков средств защиты"
+            
+              , "блоги по безопасности"
+            
+              , "информационные потоки об угрозах"
+            
+              , "сообщества по обмену информацией"
+            
+              , "постановления правительства"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/how-to-learn-about-cves-and-threat-actors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Опережайте киберугрозы, узнавая о последних CVE и действующих лицах с помощью эффективных стратегий и ресурсов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png" length="285674" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Защита частной жизни в Интернете: Безопасные методы работы в социальных сетях</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</link>
+        
+        <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "конфиденциальность"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "социальные сети"
+            
+              , "безопасные методы"
+            
+              , "настройки конфиденциальности"
+            
+              , "LinkedIn"
+            
+              , "Facebook"
+            
+              , "Twitter"
+            
+              , "Instagram"
+            
+              , "запросы друзей"
+            
+              , "случайные ссылки"
+            
+              , "опросы"
+            
+              , "постановления правительства"
+            
+              , "GDPR"
+            
+              , "CCPA"
+            
+              , "кибербезопасность"
+            
+              , "защита информации"
+            
+              , "персональные данные"
+            
+              , "нарушение конфиденциальности"
+            
+              , "цифровая безопасность"
+            
+              , "риски для конфиденциальности"
+            
+              , "законы о конфиденциальности"
+            
+              , "положения о конфиденциальности"
+            
+              , "конфиденциальность данных"
+            
+              , "безопасность в Интернете"
+            
+              , "защита конфиденциальности"
+            
+              , "конфиденциальность в социальных сетях"
+            
+              , "советы по конфиденциальности"
+            
+              , "правила конфиденциальности в интернете"
+            
+              , "защита персональных данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/safe-social-media-practices-and-protecting-your-privacy-online/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя важные советы по безопасной работе в социальных сетях, чтобы защитить свою конфиденциальность в Интернете, и узнайте о настройках конфиденциальности на таких популярных платформах, как LinkedIn, Facebook, Twitter и Instagram.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png" length="166973" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Предотвращение утечки информации: Лучшие практики и стратегии повышения безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</link>
+        
+        <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "утечка информации"
+            
+              , "стратегии профилактики"
+            
+              , "передовой опыт"
+            
+              , "контроль доступа"
+            
+              , "шифрование"
+            
+              , "обучение сотрудников"
+            
+              , "кибербезопасность"
+            
+              , "предотвращение потери данных"
+            
+              , "оценки безопасности"
+            
+              , "постановления правительства"
+            
+              , "NIST"
+            
+              , "внутренние угрозы"
+            
+              , "уязвимости кибербезопасности"
+            
+              , "человеческий фактор"
+            
+              , "информационные программы"
+            
+              , "информированность о фишинге"
+            
+              , "DLP-решения"
+            
+              , "управление доступом на основе ролей"
+            
+              , "многофакторная аутентификация"
+            
+              , "управление ключами шифрования"
+            
+              , "защита конечных точек"
+            
+              , "проверка содержания"
+            
+              , "аудиты безопасности"
+            
+              , "тестирование на проникновение"
+            
+              , "планирование мер реагирования на инциденты"
+            
+              , "протоколы безопасности"
+            
+              , "защита информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-practices-to-prevent-spillage/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о лучших методах и стратегиях предотвращения утечки информации и защиты конфиденциальных данных, обеспечивающих повышенную безопасность и защиту.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_locked_shield_protecting_sensitive_information.png" length="268551" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание значения классификационных справочников безопасности в защите информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-security-classification-guides/</link>
+        
+        <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "справочники по классификации средств защиты"
+            
+              , "защита информации"
+            
+              , "секретная информация"
+            
+              , "постановления правительства"
+            
+              , "снижение рисков"
+            
+              , "контроль доступа"
+            
+              , "информационная безопасность"
+            
+              , "процедуры маркировки"
+            
+              , "процедуры обработки"
+            
+              , "национальная безопасность"
+            
+              , "соответствие"
+            
+              , "внутренние угрозы"
+            
+              , "обмен информацией"
+            
+              , "интеллектуальная собственность"
+            
+              , "принятие решений"
+            
+              , "юридические обязательства"
+            
+              , "этические обязательства"
+            
+              , "международное сотрудничество"
+            
+              , "ISO 27001"
+            
+              , "НИСПОМ"
+            
+              , "Исполнительный приказ 13526"
+            
+              , "классификация информации"
+            
+              , "защита информации"
+            
+              , "обработка информации"
+            
+              , "контролируемое совместное использование"
+            
+              , "конфиденциальность информации"
+            
+              , "целостность информации"
+            
+              , "культура информационной безопасности"
+            
+              , "рекомендации по информационной безопасности"
+            
+              , "методы обеспечения информационной безопасности"
+            
+              , "информированность в области информационной безопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-security-classification-guides/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить важность классификационных справочников для защиты секретной информации и обеспечения соответствия нормативным требованиям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png" length="184573" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание ключевых компонентов процесса OPSEC для эффективной защиты информации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Процесс OPSEC"
+            
+              , "оперативная безопасность"
+            
+              , "защита информации"
+            
+              , "меры безопасности"
+            
+              , "постановления правительства"
+            
+              , "важная информация"
+            
+              , "оценка угроз"
+            
+              , "оценка уязвимости"
+            
+              , "анализ рисков"
+            
+              , "меры противодействия"
+            
+              , "информационная безопасность"
+            
+              , "защита информации"
+            
+              , "конфиденциальность"
+            
+              , "целостность"
+            
+              , "наличие"
+            
+              , "кибербезопасность"
+            
+              , "секретная информация"
+            
+              , "соответствие"
+            
+              , "НИСПОМ"
+            
+              , "HIPAA"
+            
+              , "GDPR"
+            
+              , "конфиденциальность данных"
+            
+              , "управление рисками"
+            
+              , "уровень безопасности"
+            
+              , "информационные активы"
+            
+              , "средства контроля безопасности"
+            
+              , "снижение рисков"
+            
+              , "политики безопасности"
+            
+              , "информированность о безопасности"
+            
+              , "предотвращение утечки данных"
+            
+              , "классификация информации"
+            
+              , "Что из перечисленного ниже является составными частями процесса opsec"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/an-overview-of-the-opsec-process-and-understanding-its-key-components/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите критические компоненты процесса OPSEC и научитесь эффективно защищать конфиденциальную информацию.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png" length="200251" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание распространенных угроз кибербезопасности: Защита физических и юридических лиц</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</link>
+        
+        <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Угрозы кибербезопасности"
+            
+              , "Важность кибербезопасности"
+            
+              , "Виды угроз"
+            
+              , "Влияние угроз"
+            
+              , "Защита от угроз"
+            
+              , "Роль государства в обеспечении кибербезопасности"
+            
+              , "Роль промышленности в обеспечении кибербезопасности"
+            
+              , "Нормативно-правовое регулирование и соблюдение требований"
+            
+              , "Государственно-частное партнерство"
+            
+              , "Исследования и разработки в области кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/understanding-common-cybersecurity-threats/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить распространенные угрозы кибербезопасности, их влияние на частных лиц и предприятия, а также эффективные способы защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/understanding-common-cybersecurity-threats.png" length="73745" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Изучение Metasploit: Комплексная платформа для тестирования на проникновение и разработки эксплойтов</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-metasploit/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Metasploit"
+            
+              , "тестирование на проникновение"
+            
+              , "разработка эксплойтов"
+            
+              , "сканирование уязвимостей"
+            
+              , "формирование полезной нагрузки"
+            
+              , "после операции"
+            
+              , "этический хакерский подход"
+            
+              , "кибербезопасность"
+            
+              , "с открытым исходным кодом"
+            
+              , "система безопасности"
+            
+              , "оценка уязвимости"
+            
+              , "социальная инженерия"
+            
+              , "Metasploit Framework"
+            
+              , "Metasploit Pro"
+            
+              , "компьютерная безопасность"
+            
+              , "HD Moore"
+            
+              , "Rapid7"
+            
+              , "решения по безопасности"
+            
+              , "постановления правительства"
+            
+              , "Закон о компьютерном мошенничестве и злоупотреблениях"
+            
+              , "CFAA"
+            
+              , "информированность о безопасности"
+            
+              , "инструменты взлома"
+            
+              , "средства кибербезопасности"
+            
+              , "сообщество кибербезопасности"
+            
+              , "ресурсы по кибербезопасности"
+            
+              , "специалисты по кибербезопасности"
+            
+              , "передовые методы обеспечения кибербезопасности"
+            
+              , "соблюдение требований кибербезопасности"
+            
+              , "законы о кибербезопасности"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-metasploit/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Metasploit, фреймворка с открытым исходным кодом для тестирования на проникновение и разработки эксплойтов, обладающего широкими возможностями и большим сообществом.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png" length="199307" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание классификации информации: Кто определяет и назначает уровни классификации</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информационная безопасность"
+            
+              , "Классификация данных"
+            
+              , "Государственное регулирование"
+            
+              , "Национальная безопасность"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность данных"
+            
+              , "Меры безопасности"
+            
+              , "Классифицированная информация"
+            
+              , "Контроль доступа"
+            
+              , "Чувствительность данных"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/who-designates-whether-information-is-classified/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о процессе классификации информации, в том числе о том, кто назначает и присваивает уровни классификации, а также о важности соблюдения государственных норм.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png" length="374731" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понятие чувствительной закрытой информации (SCI) для национальной безопасности</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</link>
+        
+        <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информационная безопасность"
+            
+              , "Национальная безопасность"
+            
+              , "Разведка"
+            
+              , "Классифицированная информация"
+            
+              , "Государственное регулирование"
+            
+              , "Контроль доступа"
+            
+              , "Допуски к работам в области безопасности"
+            
+              , "Разведывательное сообщество"
+            
+              , "Оборонная промышленность"
+            
+              , "Разведывательные операции"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-sensitive-compartmented-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучить значение, уровни классификации, порядок обращения и правила использования чувствительной закрытой информации (SCI) в целях обеспечения национальной безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_image_representing_sci.png" length="163372" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Правда о несекретной информации: Характеристики, защита и правила</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/safeguarding-unclassified-information/</link>
+        
+        <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Информационная безопасность"
+            
+              , "Управление данными"
+            
+              , "Государственное регулирование"
+            
+              , "Совместное использование информации"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность"
+            
+              , "Снижение рисков"
+            
+              , "Информационное управление"
+            
+              , "Классификация данных"
+            
+              , "Доступ к информации"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/safeguarding-unclassified-information/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Раскрыть истинную природу несекретной информации, ее основные характеристики, меры защиты и соответствующие нормативные документы для эффективной защиты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png" length="330073" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение производительности с помощью Homebox: Управление запасами и активами с открытым исходным кодом</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Управление запасами"
+            
+              , "Управление активами"
+            
+              , "Открытый исходный код"
+            
+              , "Производительность"
+            
+              , "Малый бизнес"
+            
+              , "Управление домом"
+            
+              , "Самостоятельное размещение"
+            
+              , "Программное обеспечение"
+            
+              , "Организация"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности Homebox, программного обеспечения с открытым исходным кодом для эффективного управления запасами и активами, повышающего производительность вашего дома или малого предприятия.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png" length="135140" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Лучшие дистрибутивы Linux для начинающих: Ubuntu, Zorin OS, Mint и Manjaro</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/best-linux-distros-for-beginners/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Дистрибутивы Linux"
+            
+              , "Ubuntu"
+            
+              , "Зорин ОС"
+            
+              , "Linux Mint"
+            
+              , "Manjaro"
+            
+              , "начинающим"
+            
+              , "удобный интерфейс"
+            
+              , "совместимость оборудования"
+            
+              , "поддержка сообщества"
+            
+              , "с открытым исходным кодом"
+            
+              , "Debian-based"
+            
+              , "Windows-подобный интерфейс"
+            
+              , "прокат"
+            
+              , "Среда рабочего стола Cinnamon"
+            
+              , "Среда рабочего стола Xfce"
+            
+              , "Среда рабочего стола KDE Plasma"
+            
+              , "Среда рабочего стола GNOME"
+            
+              , "хранилище программного обеспечения"
+            
+              , "исчерпывающая документация"
+            
+              , "предустановленное программное обеспечение"
+            
+              , "последние обновления программного обеспечения"
+            
+              , "панель задач"
+            
+              , "стартовое меню"
+            
+              , "системный лоток"
+            
+              , "мультимедийные кодеки"
+            
+              , "менеджер пакетов"
+            
+              , "поддерживающее сообщество"
+            
+              , "постановления правительства"
+            
+              , "соблюдение законодательства"
+            
+              , "опыт работы с защищенными вычислениями"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/best-linux-distros-for-beginners/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя лучшие дистрибутивы Linux для начинающих, включая Ubuntu, Zorin OS, Linux Mint и Manjaro, отличающиеся удобным интерфейсом и отличной поддержкой сообщества.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png" length="170017" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Темная паутина и киберпреступность: Раскрытие подполья Интернета</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/</link>
+        
+        <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "тёмная паутина"
+            
+              , "киберпреступность"
+            
+              , "незаконная деятельность"
+            
+              , "Тор"
+            
+              , "взлом"
+            
+              , "мошенничество"
+            
+              , "хищение персональных данных"
+            
+              , "журналистика"
+            
+              , "информационное сообщение"
+            
+              , "безопасность в Интернете"
+            
+              , "личная информация"
+            
+              , "утечки данных"
+            
+              , "конфиденциальность в Интернете"
+            
+              , "постановления правительства"
+            
+              , "кибербезопасность"
+            
+              , "предупреждение преступности"
+            
+              , "анонимный просмотр"
+            
+              , "анонимность в Интернете"
+            
+              , "сетевые угрозы"
+            
+              , "цифровая безопасность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-dark-web-and-cybercrime-a-look/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Исследуйте скрытый мир темной паутины и ее связь с киберпреступностью, а также раскройте ее двойственную природу и потенциал для журналистики и информационного освещения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png" length="373790" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>NVIDIA RTX 3090 vs RTX 4090: Сравнение производительности при взломе паролей</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</link>
+        
+        <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "NVIDIA RTX 3090"
+            
+              , "NVIDIA RTX 4090"
+            
+              , "взлом паролей"
+            
+              , "производительность"
+            
+              , "безопасность"
+            
+              , "защита паролем"
+            
+              , "кибербезопасность"
+            
+              , "эталон"
+            
+              , "GPU"
+            
+              , "менеджер паролей"
+            
+              , "надежные пароли"
+            
+              , "двухфакторная аутентификация"
+            
+              , "постановления правительства"
+            
+              , "CISA"
+            
+              , "GDPR"
+            
+              , "безопасность данных"
+            
+              , "сравнение оборудования"
+            
+              , "защита паролем"
+            
+              , "графическая карта"
+            
+              , "надежность пароля"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/password-cracking-and-hashing-results-nvidia-rtx-3090-vs-4090/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Обнаружен разрыв в производительности между NVIDIA RTX 3090 и RTX 4090 при взломе паролей, показаны последствия для безопасности и меры защиты.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png" length="346805" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Понимание угроз Ransomware: Меры по предотвращению</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</link>
+        
+        <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "ransomware"
+            
+              , "кибербезопасность"
+            
+              , "профилактика"
+            
+              , "резервное копирование"
+            
+              , "антивирус"
+            
+              , "VPN"
+            
+              , "многофакторная аутентификация"
+            
+              , "постановления правительства"
+            
+              , "фишинг"
+            
+              , "социальная инженерия"
+            
+              , "вредоносное ПО"
+            
+              , "киберпреступность"
+            
+              , "безопасность данных"
+            
+              , "безопасность сети"
+            
+              , "Кибератака"
+            
+              , "шифрование"
+            
+              , "кибергигиена"
+            
+              , "реагирование на инциденты"
+            
+              , "защита информации"
+            
+              , "кибернетическая осведомленность"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-rise-of-ransomware-understanding-the-threat-and-preventive-measures/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте об угрозах, связанных с вымогательством, и о превентивных мерах, которые можно предпринять для защиты от них.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_computer_with_a_lock_and_chain_around_it.png" length="197701" type="image/png" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>DevSecOps: решение проблем и использование возможностей.</title>
+        
+          <link>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link>
+        
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "DevSecOps"
+            
+              , "информационная безопасность"
+            
+              , "тестирование безопасности"
+            
+              , "гибкие методологии"
+            
+              , "сотрудничество"
+            
+              , "постановления правительства"
+            
+              , "автоматизация"
+            
+              , "разработка приложений"
+            
+              , "масштабируемость"
+            
+              , "непрерывный контроль"
+            
+              , "Рекомендации NIST"
+            
+              , "контуры обратной связи"
+            
+              , "модульность"
+            
+              , "уязвимости"
+            
+              , "обеспечение качества"
+            
+              , "кибербезопасность"
+            
+              , "ИТ-инфраструктура"
+            
+              , "средства разработки программного обеспечения"
+            
+              , "управление рисками"
+            
+          
+        </category>
+        <guid>https:/ru.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          В данной статье рассматриваются проблемы и возможности DevSecOps в организациях, включая улучшение совместной работы, повышение масштабируемости, интеграцию с государственными нормативными актами и многое другое.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https:/ru.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png" length="342061" type="image/png" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
