@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Schutz Der Transportschicht on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/schutz-der-transportschicht//img/banner.png</url><title>Schutz Der Transportschicht on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/schutz-der-transportschicht/</link></image><link>https://de.simeononsecurity.com/tags/schutz-der-transportschicht/</link><description>Recent content in Schutz Der Transportschicht on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/schutz-der-transportschicht/index.xml" rel="self" type="application/rss+xml"/><item><title>OWASP Top 10: Kritische Sicherheitsrisiken bei Webanwendungen</title><link>https://de.simeononsecurity.com/articles/owasp-top-10/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><category>
+"Sicherheit von Webanwendungen"
+, "OWASP Top 10"
+, "Injektionsangriffe"
+, "Authentifizierung"
+, "Session Management"
+, "XSS-Angriffe"
+, "Zugangskontrolle"
+, "Sicherheit Fehlkonfiguration"
+, "Kryptografische Speicherung"
+, "Schutz der Transportschicht"
+, "Validierung der Eingaben"
+, "Komponenten von Drittanbietern"
+, "Protokollierung und Überwachung"
+, "Web-Entwicklung"
+, "Cybersecurity"
+, "Datenschutz"
+, "Software-Sicherheit"
+, "IT-Sicherheit"
+, "Sicherheitsmaßnahmen"
+, "Risk Management"</category><guid>https://de.simeononsecurity.com/articles/owasp-top-10/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie mit den OWASP Top 10 die wichtigsten Sicherheitsrisiken für Webanwendungen kennen und erfahren Sie, wie Sie sich davor schützen können</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png" length="205433" type="image/png"/></item></channel></rss>

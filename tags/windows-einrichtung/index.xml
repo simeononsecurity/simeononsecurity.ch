@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows-Einrichtung on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/windows-einrichtung//img/banner.png</url><title>Windows-Einrichtung on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/windows-einrichtung/</link></image><link>https://de.simeononsecurity.com/tags/windows-einrichtung/</link><description>Recent content in Windows-Einrichtung on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/windows-einrichtung/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisieren Sie die Installation von Windows 11: Umgehung von TPM, Secure Boot und RAM-Prüfungen</title><link>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Fenster 11"
+, "Einrichtung"
+, "Virtualisierung"
+, "Automatisierung"
+, "Registry-Schlüssel"
+, "TPM-Umgehung"
+, "Secure Boot-Umgehung"
+, "RAM-Umgehung"
+, "vTPM"</category><guid>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimieren Sie die Installation von Windows 11 in virtualisierten Umgebungen, indem Sie TPM-, Secure Boot- und RAM-Prüfungen mit autounattend.xml und vTPM umgehen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item></channel></rss>

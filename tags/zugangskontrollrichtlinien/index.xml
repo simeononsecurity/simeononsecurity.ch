@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zugangskontrollrichtlinien on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/zugangskontrollrichtlinien//img/banner.png</url><title>Zugangskontrollrichtlinien on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/zugangskontrollrichtlinien/</link></image><link>https://de.simeononsecurity.com/tags/zugangskontrollrichtlinien/</link><description>Recent content in Zugangskontrollrichtlinien on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/zugangskontrollrichtlinien/index.xml" rel="self" type="application/rss+xml"/><item><title>Wesentliche Do's und Don'ts für die Absicherung Ihres Linux-Systems</title><link>https://de.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><category>
+"Linux-Sicherheit"
+, "Systemhärtung"
+, "Firewall"
+, "SELinux"
+, "AppArmor"
+, "Passwort-Richtlinie"
+, "System-Updates"
+, "Systemprotokolle"
+, "Sicherheitsmodule"
+, "Zugangskontrollrichtlinien"
+, "Cybersicherheit"
+, "Systemsicherheit"
+, "Netzwerksicherheit"
+, "Schwachstellenmanagement"
+, "bewährte Sicherheitsverfahren"
+, "IT-Sicherheit"
+, "Informationssicherheit"
+, "Software-Aktualisierungen"
+, "Root-Zugang"
+, "Passwort-Manager"</category><guid>https://de.simeononsecurity.com/articles/dos-and-donts-for-hardening-linux/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die wichtigsten Maßnahmen zur Absicherung Ihres Linux-Systems kennen, einschließlich Updates, Verwendung von Firewalls, Aktivierung von SELinux oder AppArmor, Konfiguration von Passwortrichtlinien und Überwachung von Systemprotokollen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png" length="359719" type="image/png"/></item></channel></rss>

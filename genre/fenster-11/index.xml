@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fenster 11 on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/fenster-11//img/banner.png</url><title>Fenster 11 on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/fenster-11/</link></image><link>https://de.simeononsecurity.com/genre/fenster-11/</link><description>Recent content in Fenster 11 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/fenster-11/index.xml" rel="self" type="application/rss+xml"/><item><title>Automatisieren Sie die Installation von Windows 11: Umgehung von TPM, Secure Boot und RAM-Prüfungen</title><link>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Fenster 11"
+, "Einrichtung"
+, "Virtualisierung"
+, "Automatisierung"
+, "Registry-Schlüssel"
+, "TPM-Umgehung"
+, "Secure Boot-Umgehung"
+, "RAM-Umgehung"
+, "vTPM"</category><guid>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Optimieren Sie die Installation von Windows 11 in virtualisierten Umgebungen, indem Sie TPM-, Secure Boot- und RAM-Prüfungen mit autounattend.xml und vTPM umgehen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/windows11-installation-cartoon.png" length="910826" type="image/png"/></item><item><title>Heute habe ich etwas über die Erstellung benutzerdefinierter Windows-Abbilder gelernt</title><link>https://de.simeononsecurity.com/til/2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><category>
+"Windows Image Management"
+, "Personalisierung"
+, "Windows-Bereitstellung"
+, "Sysprep"
+, "Verallgemeinerung"
+, "Windows 10"
+, "Fenster 11"
+, "Bildeinzug"
+, "Image-Bereitstellung"
+, "NTLite"
+, "Windows-Optimierung"</category><guid>https://de.simeononsecurity.com/til/2023-01-30/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich etwas über die Erstellung benutzerdefinierter Windows-Abbilder, Sysprep und Generalisierung gelernt</description></item></channel></rss>

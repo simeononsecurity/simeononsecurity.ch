@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ASR on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/asr//img/banner.png</url><title>ASR on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/asr/</link></image><link>https://de.simeononsecurity.com/tags/asr/</link><description>Recent content in ASR on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/asr/index.xml" rel="self" type="application/rss+xml"/><item><title>Verbessern der Windows 10-Sicherheit mit Defender Hardening Script</title><link>https://de.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"Windows Defender"
+, "Windows 10"
+, "Windows 10-Sicherheit"
+, "PowerShell-Skript"
+, "Härten"
+, "Verteidiger-Härtung"
+, "Sicherheitsautomatisierung"
+, "Einhaltung"
+, "Kontrollierter Ordnerzugriff"
+, "Angrifferkennungssystem"
+, "Anwendungssteuerung"
+, "Reduzierung der Angriffsfläche"
+, "Exploit-Schutz"
+, "Cloud-basierter Schutz"
+, "Netzwerkschutz"
+, "Windows Defender STIG-Skript"
+, "Windows Defender STIG"
+, "Windows Defender Antivirus STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://de.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie die Sicherheit von Windows 10 mit einem PowerShell-Skript verbessern, das Windows Defender Antivirus härtet und alle Anforderungen von Windows Defender Antivirus STIG V2R1 implementiert.</description></item></channel></rss>

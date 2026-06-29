@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multiplattform on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/multiplattform//img/banner.png</url><title>Multiplattform on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/multiplattform/</link></image><link>https://de.simeononsecurity.com/tags/multiplattform/</link><description>Recent content in Multiplattform on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/multiplattform/index.xml" rel="self" type="application/rss+xml"/><item><title>Verwendung von Packer für Infrastructure as Code: Bewährte Praktiken und Vorteile</title><link>https://de.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</link><pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate><category>
+"Packer"
+, "Infrastruktur als Code"
+, "DevOps"
+, "Automatisierung"
+, "Sicherheit"
+, "Reproduzierbarkeit"
+, "Skalierbarkeit"
+, "Multiplattform"
+, "Versionskontrolle"
+, "Cloud Computing"
+, "Machine Images"
+, "Virtualisierung"
+, "Konfigurationsmanagement"
+, "Kontinuierliche Integration"
+, "Kontinuierliche Bereitstellung"
+, "Software-Entwicklung"
+, "Bewährte Praktiken"
+, "Prüfung"
+, "Offene Quelle"
+, "Multi-Cloud"</category><guid>https://de.simeononsecurity.com/articles/introduction-to-packer-for-infrastructure-as-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie mit Packer leicht zu wartende und sichere Maschinen-Images erstellen können.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png" length="379286" type="image/png"/></item></channel></rss>

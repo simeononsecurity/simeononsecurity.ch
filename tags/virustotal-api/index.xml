@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VirusTotal API on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/virustotal-api//img/banner.png</url><title>VirusTotal API on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/virustotal-api/</link></image><link>https://de.simeononsecurity.com/tags/virustotal-api/</link><description>Recent content in VirusTotal API on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/virustotal-api/index.xml" rel="self" type="application/rss+xml"/><item><title>Effiziente Virenscans mit VirusTotal PowerShell-Modulen</title><link>https://de.simeononsecurity.com/github/virustotal-ps/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><category>
+"PowerShell-Module"
+, "PowerShell"
+, "Automatisierung"
+, "VirusTotal"
+, "Viren-Scans"
+, "Domänen-Scans"
+, "API-Schlüssel"
+, "VirusTotal API"
+, "VirusTotal-Entwickler-Seite"
+, "Systemverwaltung"
+, "Sicherheits-Workflow"
+, "Effiziente Virenscans"
+, "Herunterladen und Installieren"
+, "GitHub-Repository"
+, "API-Verwendungsbeispiele"</category><guid>https://de.simeononsecurity.com/github/virustotal-ps/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Führen Sie mit den VirusTotal PowerShell-Modulen effiziente Virenscans durch, indem Sie die Interaktion mit der VirusTotal-API automatisieren und Ihren Sicherheits-Workflow rationalisieren.</description></item></channel></rss>

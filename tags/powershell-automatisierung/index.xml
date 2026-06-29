@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell-Automatisierung on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/powershell-automatisierung//img/banner.png</url><title>PowerShell-Automatisierung on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/powershell-automatisierung/</link></image><link>https://de.simeononsecurity.com/tags/powershell-automatisierung/</link><description>Recent content in PowerShell-Automatisierung on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/powershell-automatisierung/index.xml" rel="self" type="application/rss+xml"/><item><title>Beherrschen der Active Directory-Verwaltung mit PowerShell: Handbuch zur Installation und Verwendung</title><link>https://de.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows"
+, "PowerShell"
+, "Aktives Verzeichnis"
+, "Verwaltung"
+, "Skripting"
+, "IT"
+, "Automatisierung"
+, "Windows-Server"
+, "Microsoft"</category><guid>https://de.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erfahren Sie, wie Sie das Active Directory-Modul für PowerShell effektiv installieren und verwenden, um Ihre Windows Active Directory-Verwaltungsaufgaben zu rationalisieren.</description><enclosure url="https://de.simeononsecurity.com/img/cover/An_image_depicting_a_network_of_interconnected.png" length="316336" type="image/png"/></item><item><title>PowerShell-Skripterstellung: Eine Schritt-für-Schritt-Anleitung für Einsteiger zur Automatisierung von Aufgaben</title><link>https://de.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</link><pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Programmierung"
+, "Automatisierung"
+, "Windows"
+, "Skripting"
+, "IT"
+, "Administrative Aufgaben"
+, "Computer-Management"
+, "Software-Entwicklung"
+, "Codierung"</category><guid>https://de.simeononsecurity.com/articles/learning-powershell-scripting-for-beginners/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die Grundlagen der PowerShell-Skripterstellung und automatisieren Sie Aufgaben mit diesem schrittweisen Leitfaden für Anfänger, der Cmdlets, Schleifen, Funktionen und mehr umfasst.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_cartoon_character_holding_a_script_and_standing.png" length="103526" type="image/png"/></item></channel></rss>
