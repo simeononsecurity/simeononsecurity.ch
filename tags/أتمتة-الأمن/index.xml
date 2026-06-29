@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أتمتة الأمن on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86//img/banner.png</url><title>أتمتة الأمن on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86/</link><description>Recent content in أتمتة الأمن on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%86/index.xml" rel="self" type="application/rss+xml"/><item><title>تعزيز أمان Windows 10 باستخدام برنامج Defender Hardening Script</title><link>https://ar.simeononsecurity.com/github/windows-defender-hardening/</link><pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate><category>
+"ويندوز ديفندر"
+, "نظام التشغيل Windows 10"
+, "أمان Windows 10"
+, "برنامج PowerShell النصي"
+, "تصلب"
+, "تصلب المدافع"
+, "أتمتة الأمن"
+, "امتثال"
+, "التحكم في الوصول إلى المجلد"
+, "نظام منع الاختراق"
+, "التحكم في التطبيق"
+, "هجوم الحد من السطح"
+, "استغلال الحماية"
+, "الحماية المقدمة عبر السحابة"
+, "حماية الشبكة"
+, "برنامج Windows Defender STIG"
+, "برنامج Windows Defender STIG"
+, "برنامج مكافحة الفيروسات لـ Windows Defender STIG V2R1"
+, "WDAC"
+, "ASR"</category><guid>https://ar.simeononsecurity.com/github/windows-defender-hardening/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية تحسين أمان Windows 10 باستخدام برنامج PowerShell النصي الذي يقوي برنامج Windows Defender Antivirus ، وينفذ جميع متطلبات برنامج الحماية من الفيروسات لـ Windows Defender STIG V2R1.</description></item></channel></rss>
