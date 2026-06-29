@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pruebas De Seguridad Manuales on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/pruebas-de-seguridad-manuales//img/banner.png</url><title>Pruebas De Seguridad Manuales on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/pruebas-de-seguridad-manuales/</link></image><link>https://es.simeononsecurity.com/tags/pruebas-de-seguridad-manuales/</link><description>Recent content in Pruebas De Seguridad Manuales on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/pruebas-de-seguridad-manuales/index.xml" rel="self" type="application/rss+xml"/><item><title>Proteja sus aplicaciones web con OWASP ASVS</title><link>https://es.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</link><pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate><category>
+"seguridad de las aplicaciones web"
+, "OWASP"
+, "ASVS"
+, "seguridad de las aplicaciones"
+, "normas de seguridad"
+, "ciberseguridad"
+, "gestión de vulnerabilidades"
+, "codificación segura"
+, "pruebas de penetración"
+, "modelización de amenazas"
+, "controles de seguridad"
+, "evaluación de la seguridad"
+, "pruebas de seguridad automatizadas"
+, "pruebas de seguridad manuales"
+, "ciclo de desarrollo seguro"
+, "buenas prácticas de seguridad"
+, "seguridad de los datos"
+, "gestión de riesgos"
+, "conformidad"
+, "seguridad de la información"</category><guid>https://es.simeononsecurity.com/articles/how-to-secure-your-web-applications-owasp-asvs/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a proteger sus aplicaciones web utilizando el estándar de verificación de seguridad de aplicaciones (ASVS) de OWASP para cumplir las medidas de seguridad más rigurosas y protegerse contra las vulnerabilidades más comunes.</description><enclosure url="https://es.simeononsecurity.com/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png" length="392129" type="image/png"/></item></channel></rss>

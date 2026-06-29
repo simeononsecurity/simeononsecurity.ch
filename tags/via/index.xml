@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VIA on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/via//img/banner.png</url><title>VIA on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/via/</link></image><link>https://es.simeononsecurity.com/tags/via/</link><description>Recent content in VIA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/via/index.xml" rel="self" type="application/rss+xml"/><item><title>Proteger Windows de los ataques de canal lateral de ejecución especulativa</title><link>https://es.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"Script de mitigación de Windows Spectre Meltdown"
+, "Ataques de canal lateral de ejecución especulativa"
+, "Microsoft"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "Android"
+, "Cromo"
+, "iOS"
+, "macOS"
+, "Rama Inyección de destino"
+, "Bypass de comprobación de límites"
+, "Carga de la caché de datos"
+, "Bypass de almacenamiento especulativo"
+, "Muestreo de datos microarquitectónicos"
+, "CVEs"
+, "Actualizaciones de firmware"
+, "Repositorio GitHub"
+, "PowerShell"</category><guid>https://es.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a proteger su sistema Windows contra los ataques de canal lateral de ejecución especulativa con el script de mitigación de Microsoft y las actualizaciones de firmware.</description></item></channel></rss>

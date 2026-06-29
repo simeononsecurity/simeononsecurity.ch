@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Despliegue De Políticas on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/despliegue-de-pol%C3%ADticas//img/banner.png</url><title>Despliegue De Políticas on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/despliegue-de-pol%C3%ADticas/</link></image><link>https://es.simeononsecurity.com/tags/despliegue-de-pol%C3%ADticas/</link><description>Recent content in Despliegue De Políticas on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/despliegue-de-pol%C3%ADticas/index.xml" rel="self" type="application/rss+xml"/><item><title>Hoy he aprendido más sobre la creación y aplicación de políticas del WDAC</title><link>https://es.simeononsecurity.com/til/2022-05-18/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Seguridad de Windows"
+, "Control de aplicaciones"
+, "Windows Defender"
+, "WDAC"
+, "Powershell"
+, "Protección frente a amenazas"
+, "Windows Server 2019"
+, "Seguridad de las empresas"
+, "Gestión de políticas"
+, "Buenas prácticas de seguridad"</category><guid>https://es.simeononsecurity.com/til/2022-05-18/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Hoy he aprendido más sobre los condicionales de Ansible y la gestión de variables</description></item></channel></rss>

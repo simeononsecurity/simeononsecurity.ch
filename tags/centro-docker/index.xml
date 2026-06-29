@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Centro Docker on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/centro-docker//img/banner.png</url><title>Centro Docker on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/centro-docker/</link></image><link>https://es.simeononsecurity.com/tags/centro-docker/</link><description>Recent content in Centro Docker on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/centro-docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Construyendo Contenedores Docker Eficientes y Seguros: Guía para principiantes</title><link>https://es.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><category>
+"docker"
+, "contenedores"
+, "contenedorización"
+, "devops"
+, "despliegue"
+, "portabilidad"
+, "eficacia"
+, "seguridad"
+, "buenas prácticas"
+, "Dockerfile"
+, "imágenes base"
+, "variables de entorno"
+, "montajes de volumen"
+, "usuario raíz"
+, "imágenes actualizadas"
+, "desarrollo de software"
+, "imágenes de contenedores"
+, "Centro Docker"
+, "orquestación de contenedores"
+, "Kubernetes"</category><guid>https://es.simeononsecurity.com/articles/how-to-build-docker-containers-from-scratch/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Aprenda a crear contenedores Docker eficientes y seguros utilizando las mejores prácticas, consejos e instrucciones paso a paso en esta completa guía.</description><enclosure url="https://es.simeononsecurity.com/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png" length="275079" type="image/png"/></item></channel></rss>

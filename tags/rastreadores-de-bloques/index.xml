@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rastreadores De Bloques on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/rastreadores-de-bloques//img/banner.png</url><title>Rastreadores De Bloques on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/rastreadores-de-bloques/</link></image><link>https://es.simeononsecurity.com/tags/rastreadores-de-bloques/</link><description>Recent content in Rastreadores De Bloques on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/rastreadores-de-bloques/index.xml" rel="self" type="application/rss+xml"/><item><title>Script bloqueador de anuncios en todo el sistema de Windows 10 para una mejor privacidad y seguridad</title><link>https://es.simeononsecurity.com/github/system-wide-windows-ad-blocker/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><category>
+"Windows 10"
+, "bloqueador de anuncios"
+, "bloqueo de telemetría"
+, "Script PowerShell"
+, "bloqueo de anuncios en todo el sistema"
+, "privacidad"
+, "seguridad"
+, "EasyList"
+, "Privacidad fácil"
+, "Lista de filtros NoCoin"
+, "Filtro DNS AdGuard"
+, "Listas de YoYos"
+, "Servidores de malware de seguimiento de anuncios de Peter Lowe"
+, "Cortafuegos de Windows"
+, "listas de dominios"
+, "bloquear los rastreadores de Windows"
+, "rastreadores de bloques"
+, "bloquear anuncios"
+, "seguimiento en bloque"</category><guid>https://es.simeononsecurity.com/github/system-wide-windows-ad-blocker/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bloquee anuncios, rastreadores y telemetría en Windows 10 con este potente script de PowerShell que utiliza el archivo hosts y el Firewall de Windows para bloquear anuncios en todo el sistema.</description></item></channel></rss>
