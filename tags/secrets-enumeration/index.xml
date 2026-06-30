@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Secrets Enumeration on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/secrets-enumeration//img/banner.png</url><title>Secrets Enumeration on simeononsecurity</title><link>https://simeononsecurity.com/tags/secrets-enumeration/</link></image><link>https://simeononsecurity.com/tags/secrets-enumeration/</link><description>Recent content in Secrets Enumeration on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/secrets-enumeration/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA PenTest+ (PT0-003): Reconnaissance and Enumeration</title><link>https://simeononsecurity.com/pentest-plus/reconnaissance-and-enumeration/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Reconnaissance"
+, "Enumeration"
+, "OSINT"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Information Gathering"
+, "Security Testing"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/pentest-plus/reconnaissance-and-enumeration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master reconnaissance and enumeration for the CompTIA PenTest+ PT0-003 exam. Learn OSINT, active and passive recon, enumeration techniques, secrets discovery, and the right tools.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-pentest-reconnaissance-enumeration-techniques.webp" length="326126" type="image/webp"/></item></channel></rss>

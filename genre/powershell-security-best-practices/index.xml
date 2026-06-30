@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PowerShell Security Best Practices on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/powershell-security-best-practices//img/banner.png</url><title>PowerShell Security Best Practices on simeononsecurity</title><link>https://simeononsecurity.com/genre/powershell-security-best-practices/</link></image><link>https://simeononsecurity.com/genre/powershell-security-best-practices/</link><description>Recent content in PowerShell Security Best Practices on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/powershell-security-best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>10 Essential PowerShell Security Best Practices for Safeguarding Your Scripts</title><link>https://simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"PowerShell security best practices"
+, "Scripting security"
+, "Password security"
+, "IT security"
+, "Cybersecurity"
+, "Windows administration"
+, "Automation"
+, "Secure coding"
+, "Network security"
+, "Data protection"</category><guid>https://simeononsecurity.com/articles/powershell-security-best-practices-safeguarding/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn the top 10 essential PowerShell security best practices for safeguarding your scripts, passwords, and sensitive information. Enhance the security of your PowerShell environment and protect against unauthorized access and potential security breaches.</description><enclosure url="https://simeononsecurity.com/img/cover/A_symbolic_illustration_showing_a_shield_prot.png" length="1284378" type="image/png"/></item></channel></rss>

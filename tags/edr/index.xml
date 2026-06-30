@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EDR on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/edr//img/banner.png</url><title>EDR on simeononsecurity</title><link>https://simeononsecurity.com/tags/edr/</link></image><link>https://simeononsecurity.com/tags/edr/</link><description>Recent content in EDR on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/edr/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA CySA+ (CS0-003): Security Operations and Threat Intelligence</title><link>https://simeononsecurity.com/cysa-plus/security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Security Operations"
+, "Threat Intelligence"
+, "SIEM"
+, "Threat Hunting"
+, "SOC Analyst"
+, "Log Analysis"
+, "MITRE ATT&amp;CK"
+, "Cybersecurity Analyst"
+, "Network Security"</category><guid>https://simeononsecurity.com/cysa-plus/security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security operations and threat intelligence for the CompTIA CySA+ CS0-003 exam. Learn the SOC, threat intelligence, MITRE ATT&amp;CK, log analysis, SIEM tuning, traffic analysis, and threat hunting.</description><enclosure url="https://simeononsecurity.com/img/cover/security-operations-center-soc-cybersecurity-illustration.webp" length="241996" type="image/webp"/></item><item><title>CompTIA Security+ (SY0-701): Security Operations</title><link>https://simeononsecurity.com/security-plus/security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Security+ Course"
+, "Security Operations"
+, "Incident Response"
+, "Identity Management"
+, "Vulnerability Management"
+, "Automation"
+, "CompTIA Certification"
+, "Information Security"
+, "SIEM"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/security-plus/security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security operations for the CompTIA Security+ SY0-701 exam. Learn secure baselines, asset management, vulnerability management, monitoring, IAM, automation, and incident response.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-security-plus-sy0-701-security-operations.webp" length="219826" type="image/webp"/></item><item><title>CompTIA SecurityX (CAS-005): Security Engineering</title><link>https://simeononsecurity.com/casp-plus/security-engineering/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Engineering"
+, "Cryptography"
+, "Hardware Security"
+, "Endpoint Security"
+, "OT Security"
+, "Automation"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/casp-plus/security-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security engineering for the CompTIA SecurityX CAS-005 exam. Learn IAM troubleshooting, endpoint and server security, hardware roots of trust, OT/ICS security, automation, and advanced cryptography.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-securityx-cas-005-security-engineering.webp" length="276572" type="image/webp"/></item></channel></rss>

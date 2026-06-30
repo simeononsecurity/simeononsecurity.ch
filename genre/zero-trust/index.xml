@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zero Trust on simeononsecurity</title><image><url>https://simeononsecurity.com/genre/zero-trust//img/banner.png</url><title>Zero Trust on simeononsecurity</title><link>https://simeononsecurity.com/genre/zero-trust/</link></image><link>https://simeononsecurity.com/genre/zero-trust/</link><description>Recent content in Zero Trust on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/zero-trust/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale vs Headscale: Complete 2026 Comparison Guide for Self-Hosted VPN</title><link>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Network Security"
+, "Self-Hosted"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh Networking"
+, "Open Source"
+, "Cloud Infrastructure"
+, "Remote Access"
+, "Network Management"</category><guid>https://simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprehensive 2026 comparison of Tailscale and Headscale including features, pricing, performance, security, and deployment scenarios to help you choose the best WireGuard-based mesh VPN solution.</description><enclosure url="https://simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>CompTIA Security+ (SY0-701): General Security Concepts</title><link>https://simeononsecurity.com/security-plus/general-security-concepts/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Security+ Course"
+, "Security Fundamentals"
+, "Cryptography"
+, "PKI"
+, "Zero Trust"
+, "Access Control"
+, "CompTIA Certification"
+, "Information Security"
+, "Security Controls"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/security-plus/general-security-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master general security concepts for the CompTIA Security+ SY0-701 exam. Learn security controls, the CIA triad, change management, cryptography, PKI, and Zero Trust.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-security-plus-general-security-concepts.webp" length="219240" type="image/webp"/></item><item><title>CompTIA Security+ (SY0-701): Security Architecture</title><link>https://simeononsecurity.com/security-plus/security-architecture/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA Security+ Course"
+, "Security Architecture"
+, "Cloud Security"
+, "Data Protection"
+, "Resilience"
+, "Network Security"
+, "CompTIA Certification"
+, "Information Security"
+, "Zero Trust"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/security-plus/security-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security architecture for the CompTIA Security+ SY0-701 exam. Learn architecture models, infrastructure security, data protection, and resilience and recovery.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-security-plus-security-architecture-overview.webp" length="231436" type="image/webp"/></item><item><title>CompTIA SecurityX (CAS-005): Security Architecture</title><link>https://simeononsecurity.com/casp-plus/security-architecture/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Architecture"
+, "Zero Trust"
+, "Cloud Security"
+, "Secure SDLC"
+, "Identity Management"
+, "PKI"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/casp-plus/security-architecture/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security architecture for the CompTIA SecurityX CAS-005 exam. Learn resilient system design, secure SDLC, Zero Trust, cloud security, IAM and PKI design, and data security.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-securityx-security-architecture-design.webp" length="172086" type="image/webp"/></item><item><title>ISC2 CISSP: Communication and Network Security</title><link>https://simeononsecurity.com/cissp/communication-and-network-security/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Network Security"
+, "Secure Architecture"
+, "Segmentation"
+, "Wireless Security"
+, "ISC2 Certification"
+, "Information Security"
+, "Zero Trust"
+, "SDN"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/cissp/communication-and-network-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Communication and Network Security for the ISC2 CISSP exam. Learn secure network architecture, segmentation, wireless and cellular networks, modern network concepts, and secure channels.</description><enclosure url="https://simeononsecurity.com/img/cover/isc2-cissp-communication-network-security-architecture.webp" length="220370" type="image/webp"/></item><item><title>ISC2 CISSP: Security Architecture and Engineering</title><link>https://simeononsecurity.com/cissp/security-architecture-and-engineering/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"ISC2 CISSP Course"
+, "Security Architecture"
+, "Security Engineering"
+, "Cryptography"
+, "Physical Security"
+, "ISC2 Certification"
+, "Information Security"
+, "Security Models"
+, "Zero Trust"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/cissp/security-architecture-and-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master Security Architecture and Engineering for the ISC2 CISSP exam. Learn secure design principles, security models, cryptographic solutions, cryptanalytic attacks, and physical security.</description><enclosure url="https://simeononsecurity.com/img/cover/isc2-cissp-security-architecture-engineering.webp" length="303970" type="image/webp"/></item></channel></rss>

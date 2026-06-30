@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lateral Movement on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/lateral-movement//img/banner.png</url><title>Lateral Movement on simeononsecurity</title><link>https://simeononsecurity.com/tags/lateral-movement/</link></image><link>https://simeononsecurity.com/tags/lateral-movement/</link><description>Recent content in Lateral Movement on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/lateral-movement/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA PenTest+ (PT0-003): Post-exploitation and Lateral Movement</title><link>https://simeononsecurity.com/pentest-plus/post-exploitation-and-lateral-movement/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Post-exploitation"
+, "Lateral Movement"
+, "Persistence"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Exfiltration"
+, "Security Testing"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/pentest-plus/post-exploitation-and-lateral-movement/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master post-exploitation and lateral movement for the CompTIA PenTest+ PT0-003 exam. Learn persistence, lateral movement, staging and exfiltration, and cleanup and restoration.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-pentest-post-exploitation-lateral-movement.webp" length="172126" type="image/webp"/></item><item><title>CompTIA PenTest+ Course: Complete Study Guide for the PT0-003 Exam</title><link>https://simeononsecurity.com/pentest-plus-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Vulnerability Assessment"
+, "CompTIA Certification"
+, "Red Team"
+, "Exploitation"
+, "Security Testing"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/pentest-plus-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive CompTIA PenTest+ (PT0-003) study course covering engagement management, reconnaissance and enumeration, vulnerability discovery, attacks and exploits, and post-exploitation and lateral movement.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-pentest-plus-pt0-003-study-guide.webp" length="235824" type="image/webp"/></item><item><title>Decoding Cyber Threats: Unveiling the Tactics Behind Breaches</title><link>https://simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</link><pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate><category>
+"Cyber Threats"
+, "Hacking Tactics"
+, "Digital Security"
+, "Cyber Attack Strategies"
+, "Data Exfiltration Techniques"
+, "Phishing Attacks"
+, "Malware Infections"
+, "Privilege Escalation"
+, "Lateral Movement"
+, "Security Measures"</category><guid>https://simeononsecurity.com/articles/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the intricate strategies hackers employ to breach digital fortresses. From initial access methods like phishing and malware to privilege escalation, lateral movement, and covert data exfiltration techniques, uncover the anatomy of cyber attacks. Arm yourself with knowledge to fortify your defenses against evolving threats.</description><enclosure url="https://simeononsecurity.com/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp" length="296326" type="image/webp"/></item><item><title>CompTIA PenTest+ Practice Test - SimeonOnSecurity</title><link>https://simeononsecurity.com/pentest-plus-practice-test/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"CompTIA PenTest+"
+, "practice test"
+, "penetration testing"
+, "ethical hacking"
+, "offensive security"</category><guid>https://simeononsecurity.com/pentest-plus-practice-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prepare for the CompTIA PenTest+ (PT0-003) exam with our comprehensive practice test. Test your knowledge of engagement management, reconnaissance and enumeration, vulnerability discovery, attacks and exploits, and post-exploitation.</description></item></channel></rss>

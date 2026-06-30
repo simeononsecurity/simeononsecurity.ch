@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Embedded Security on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/embedded-security//img/banner.png</url><title>Embedded Security on simeononsecurity</title><link>https://simeononsecurity.com/tags/embedded-security/</link></image><link>https://simeononsecurity.com/tags/embedded-security/</link><description>Recent content in Embedded Security on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/embedded-security/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with RGB LED Alerts</title><link>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "WiFi Security"
+, "IoT Security"
+, "Security Research"
+, "Embedded Systems"
+, "Privacy Tools"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Wireless Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A detailed breakdown into the ESP32 WiFi Canary project - a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sigma on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/sigma//img/banner.png</url><title>Sigma on simeononsecurity</title><link>https://simeononsecurity.com/tags/sigma/</link></image><link>https://simeononsecurity.com/tags/sigma/</link><description>Recent content in Sigma on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/sigma/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA SecurityX (CAS-005): Security Operations</title><link>https://simeononsecurity.com/casp-plus/security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecurityX Course"
+, "Security Operations"
+, "Threat Hunting"
+, "Threat Intelligence"
+, "Incident Response"
+, "Malware Analysis"
+, "SIEM"
+, "CASP+"
+, "Enterprise Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/casp-plus/security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master security operations for the CompTIA SecurityX CAS-005 exam. Learn SIEM analysis, vulnerability and attack analysis, threat hunting, threat intelligence, and incident response forensics.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-securityx-cas-005-security-operations-monitoring-response.webp" length="215484" type="image/webp"/></item></channel></rss>

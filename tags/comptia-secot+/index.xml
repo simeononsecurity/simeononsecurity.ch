@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CompTIA SecOT+ on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/comptia-secot+//img/banner.png</url><title>CompTIA SecOT+ on simeononsecurity</title><link>https://simeononsecurity.com/tags/comptia-secot+/</link></image><link>https://simeononsecurity.com/tags/comptia-secot+/</link><description>Recent content in CompTIA SecOT+ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/comptia-secot+/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA SecOT+ (SOT-001): OT Cybersecurity Architecture, Design, and Engineering</title><link>https://simeononsecurity.com/secot-plus/ot-cybersecurity-architecture-design-engineering/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Architecture"
+, "Network Segmentation"
+, "Industrial DMZ"
+, "Zones and Conduits"
+, "Device Hardening"
+, "Defense in Depth"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-cybersecurity-architecture-design-engineering/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT cybersecurity architecture, design, and engineering for the CompTIA SecOT+ SOT-001 exam. Learn design principles, physical access controls, device hardening, network segmentation, the industrial DMZ, zones and conduits, data diodes, and identity management.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-cybersecurity-architecture-design.webp" length="233726" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Incident Management</title><link>https://simeononsecurity.com/secot-plus/ot-incident-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Incident Management"
+, "Incident Response"
+, "PICERL"
+, "ICS4ICS"
+, "Digital Forensics"
+, "Disaster Recovery"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-incident-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT incident management for the CompTIA SecOT+ SOT-001 exam. Learn the PICERL model, ICS4ICS, response plans and playbooks, exercises, OT-specific incident effects like loss of view and control, forensics, and containment through recovery.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-incident-management-ot-response.webp" length="220866" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Risk Management</title><link>https://simeononsecurity.com/secot-plus/ot-risk-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Risk Management"
+, "ISA/IEC 62443"
+, "NERC CIP"
+, "Risk Assessment"
+, "Governance"
+, "Supply Chain Risk"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-risk-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT risk management for the CompTIA SecOT+ SOT-001 exam. Learn risk fundamentals, frameworks like ISA/IEC 62443 and NERC CIP, qualitative and quantitative assessments, risk treatments, governance artifacts, third-party risk, and change management.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-plus-ot-risk-management-illustration.webp" length="284834" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Security Operations</title><link>https://simeononsecurity.com/secot-plus/ot-security-operations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Security Operations"
+, "Asset Inventory"
+, "SIEM"
+, "Vulnerability Management"
+, "Threat Hunting"
+, "Patch Management"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-security-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT security operations for the CompTIA SecOT+ SOT-001 exam. Learn asset inventory and discovery, data collection with SIEM and SOAR, baselining and threat hunting, vulnerability management, patching with compensating controls, and removable media security.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-ot-security-operations-control-room.webp" length="239236" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Systems and Safety Foundations</title><link>https://simeononsecurity.com/secot-plus/ot-systems-safety-foundations/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Systems"
+, "Safety Foundations"
+, "Industrial Control Systems"
+, "SCADA"
+, "PLC"
+, "Industrial Protocols"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-systems-safety-foundations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT systems and safety foundations for the CompTIA SecOT+ SOT-001 exam. Learn safety procedures, OT components like PLCs and HMIs, control systems such as SCADA and DCS, control logic, and industrial protocols including Modbus and DNP3.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-ot-systems-safety-foundations.webp" length="202058" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001): OT Threat Intelligence</title><link>https://simeononsecurity.com/secot-plus/ot-threat-intelligence/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "OT Threat Intelligence"
+, "MITRE ATT&amp;CK for ICS"
+, "ICS Malware"
+, "Stuxnet"
+, "Threat Actors"
+, "Cyber Kill Chain"
+, "Operational Technology"
+, "SOT-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus/ot-threat-intelligence/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master OT threat intelligence for the CompTIA SecOT+ SOT-001 exam. Learn intelligence disciplines, analysis models like the Diamond Model and MITRE ATT&amp;CK for ICS, landmark OT malware including Stuxnet and TRISIS, threat actors, attack techniques, and intelligence sharing.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secot-plus-ot-threat-intelligence.webp" length="250782" type="image/webp"/></item><item><title>CompTIA SecOT+ Course: Complete Study Guide for the SOT-001 Exam</title><link>https://simeononsecurity.com/secot-plus-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecOT+ Course"
+, "SOT-001 Certification"
+, "OT Security"
+, "Operational Technology"
+, "Industrial Control Systems"
+, "SCADA Security"
+, "ICS Security"
+, "CompTIA Certification"
+, "Critical Infrastructure"
+, "OT Cybersecurity"</category><guid>https://simeononsecurity.com/secot-plus-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive CompTIA SecOT+ (SOT-001) study course covering OT systems and safety foundations, OT risk management, OT threat intelligence, OT cybersecurity architecture, OT security operations, and OT incident management for control engineers and OT cybersecurity professionals.</description><enclosure url="https://simeononsecurity.com/img/cover/index.en.md.webp" length="273984" type="image/webp"/></item><item><title>CompTIA SecOT+ (SOT-001) Practice Test - SimeonOnSecurity</title><link>https://simeononsecurity.com/secot-plus-practice-test/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"CompTIA SecOT+"
+, "SOT-001"
+, "practice test"
+, "OT security"
+, "ICS security"
+, "industrial control systems"</category><guid>https://simeononsecurity.com/secot-plus-practice-test/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Prepare for the CompTIA SecOT+ (SOT-001) exam with our comprehensive practice test. Test your knowledge of OT systems and safety foundations, OT risk management, OT threat intelligence, OT cybersecurity architecture, OT security operations, and OT incident management.</description></item></channel></rss>

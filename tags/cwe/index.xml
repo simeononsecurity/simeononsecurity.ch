@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CWE on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/cwe//img/banner.png</url><title>CWE on simeononsecurity</title><link>https://simeononsecurity.com/tags/cwe/</link></image><link>https://simeononsecurity.com/tags/cwe/</link><description>Recent content in CWE on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/cwe/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA CySA+ (CS0-003): Vulnerability Management and Scanning</title><link>https://simeononsecurity.com/cysa-plus/vulnerability-management/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA CySA+ Course"
+, "Vulnerability Management"
+, "Vulnerability Scanning"
+, "Risk Prioritization"
+, "Web Application Security"
+, "CVSS"
+, "Cybersecurity Analyst"
+, "Patch Management"
+, "Security Operations"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/cysa-plus/vulnerability-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master vulnerability management for the CompTIA CySA+ CS0-003 exam. Learn scanning, CVSS and CVE, prioritization, web application vulnerabilities, software composition analysis, and secure baselines.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-cysa-plus-vulnerability-management-scan.webp" length="146450" type="image/webp"/></item><item><title>CompTIA PenTest+ (PT0-003): Vulnerability Discovery and Analysis</title><link>https://simeononsecurity.com/pentest-plus/vulnerability-discovery-and-analysis/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA PenTest+ Course"
+, "Penetration Testing"
+, "Vulnerability Discovery"
+, "Vulnerability Analysis"
+, "Ethical Hacking"
+, "Offensive Security"
+, "Physical Security"
+, "Security Testing"
+, "ICS Security"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/pentest-plus/vulnerability-discovery-and-analysis/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master vulnerability discovery and analysis for the CompTIA PenTest+ PT0-003 exam. Learn scan types, ICS assessment, validating results, physical security, and attack prioritization.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-pentest-vulnerability-discovery-analysis.webp" length="187370" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Application Firewall on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/web-application-firewall//img/banner.png</url><title>Web Application Firewall on simeononsecurity</title><link>https://simeononsecurity.com/tags/web-application-firewall/</link></image><link>https://simeononsecurity.com/tags/web-application-firewall/</link><description>Recent content in Web Application Firewall on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/web-application-firewall/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Application Firewall (WAF) Configuration Checklist</title><link>https://simeononsecurity.com/checklists/web-application-security-checklist/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"Web Application Security"
+, "Web Application Firewall"
+, "WAF Configuration"
+, "Web Security Best Practices"
+, "Application Protection"
+, "Cybersecurity"
+, "Web Application Defense"
+, "Security Guidelines"
+, "Web Application Attacks"
+, "WAF Deployment"</category><guid>https://simeononsecurity.com/checklists/web-application-security-checklist/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Discover best practices for configuring and deploying a web application firewall (WAF) to protect against common web attacks, ensuring robust security for your web applications.</description><enclosure url="https://simeononsecurity.com/img/cover/web-application-firewall-security.png" length="1469719" type="image/png"/></item></channel></rss>
