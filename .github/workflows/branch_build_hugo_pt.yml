@@ -32,7 +32,7 @@ jobs:
         run: pwd    
 
       - name: Restore Hugo cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: |
             /tmp/hugo_cache
@@ -45,7 +45,7 @@ jobs:
         run: hugo --cleanDestinationDir -D -E -F  --minify --enableGitInfo --cacheDir /tmp/hugo_cache --config /home/runner/work/simeononsecurity.ch/simeononsecurity.ch/config/language/pt/config.toml
 
       - name: Save Hugo cache
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: |
             /tmp/hugo_cache
