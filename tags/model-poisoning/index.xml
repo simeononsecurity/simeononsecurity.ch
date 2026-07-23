@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Model Poisoning on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/model-poisoning//img/banner.png</url><title>Model Poisoning on simeononsecurity</title><link>https://simeononsecurity.com/tags/model-poisoning/</link></image><link>https://simeononsecurity.com/tags/model-poisoning/</link><description>Recent content in Model Poisoning on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/model-poisoning/index.xml" rel="self" type="application/rss+xml"/><item><title>CompTIA SecAI+ (CY0-001): Securing AI Systems</title><link>https://simeononsecurity.com/secai-plus/securing-ai-systems/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecAI+ Course"
+, "Securing AI Systems"
+, "Adversarial Machine Learning"
+, "LLM Security"
+, "AI Threats"
+, "MITRE ATLAS"
+, "OWASP"
+, "AI Security"
+, "CY0-001"
+, "Cybersecurity"</category><guid>https://simeononsecurity.com/secai-plus/securing-ai-systems/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Master securing AI systems for the CompTIA SecAI+ CY0-001 exam. Learn AI threat-modeling frameworks, model and gateway controls, access controls, data protection, monitoring and auditing, and defenses against adversarial attacks like prompt injection and model poisoning.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secai-plus-securing-ai-systems.webp" length="281158" type="image/webp"/></item><item><title>CompTIA SecAI+ Course: Complete Study Guide for the CY0-001 Exam</title><link>https://simeononsecurity.com/secai-plus-start/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><category>
+"CompTIA SecAI+ Course"
+, "CY0-001 Certification"
+, "AI Security"
+, "Machine Learning Security"
+, "LLM Security"
+, "AI Governance Risk Compliance"
+, "CompTIA Certification"
+, "Artificial Intelligence"
+, "Adversarial Machine Learning"
+, "Responsible AI"</category><guid>https://simeononsecurity.com/secai-plus-start/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A comprehensive CompTIA SecAI+ (CY0-001) study course covering basic AI concepts, securing AI systems, AI-assisted security, and AI governance, risk, and compliance for cybersecurity practitioners.</description><enclosure url="https://simeononsecurity.com/img/cover/comptia-secaiplus-cy0-001-ai-cybersecurity-study-guide.webp" length="381686" type="image/webp"/></item></channel></rss>

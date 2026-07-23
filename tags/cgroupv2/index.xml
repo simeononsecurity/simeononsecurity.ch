@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cgroupv2 on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/cgroupv2//img/banner.png</url><title>Cgroupv2 on simeononsecurity</title><link>https://simeononsecurity.com/tags/cgroupv2/</link></image><link>https://simeononsecurity.com/tags/cgroupv2/</link><description>Recent content in Cgroupv2 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/cgroupv2/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 8 to 9 Upgrade Guide: In-Place Upgrade with Automated Script</title><link>https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "Linux Administration"
+, "Proxmox"
+, "Server Management"
+, "Open Source"
+, "Homelab"</category><guid>https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Complete guide to upgrading Proxmox VE 8 (Debian Bookworm) to Proxmox VE 9 (Debian Trixie). Covers prerequisites, step-by-step manual upgrade, the pve8to9-upgrade.sh automation script, breaking changes, and known issues.</description><enclosure url="https://simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item></channel></rss>

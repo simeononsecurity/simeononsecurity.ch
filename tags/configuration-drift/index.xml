@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration Drift on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/configuration-drift//img/banner.png</url><title>Configuration Drift on simeononsecurity</title><link>https://simeononsecurity.com/tags/configuration-drift/</link></image><link>https://simeononsecurity.com/tags/configuration-drift/</link><description>Recent content in Configuration Drift on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/configuration-drift/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible vs Puppet vs Chef 2026: Complete Configuration Management Comparison - Features, Performance &amp; Best Use Cases</title><link>https://simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"DevOps"
+, "Infrastructure Automation"
+, "Configuration Management"
+, "IT Operations"
+, "Cloud Computing"
+, "System Administration"
+, "Enterprise IT"
+, "Software Development"
+, "IT Infrastructure"
+, "Automation Tools"</category><guid>https://simeononsecurity.com/articles/ansible-vs-puppet-vs-chef-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprehensive 2026 comparison of Ansible, Puppet, and Chef configuration management tools. Detailed analysis of architecture, features, learning curve, performance, pricing, and use cases to help you choose the best automation tool for infrastructure management.</description><enclosure url="https://simeononsecurity.com/img/cover/ansible-vs-puppet-vs-chef-configuration-management.webp" length="186550" type="image/webp"/></item><item><title>PowerShell DSC: A Starting Guide</title><link>https://simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Configuration Management"
+, "Automation"
+, "Windows"
+, "System Administration"
+, "Best Practices"
+, "Compliance"
+, "Security"
+, "Infrastructure"
+, "DevOps"
+, "Server Configuration"
+, "Testing"
+, "Git"
+, "Source Control"
+, "Government Regulations"
+, "NIST"
+, "CIS"
+, "Configuration Drift"
+, "Custom Resources"</category><guid>https://simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore the power of PowerShell Desired State Configuration (DSC) to automate and manage system configurations for a secure and compliant environment.</description><enclosure url="https://simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>

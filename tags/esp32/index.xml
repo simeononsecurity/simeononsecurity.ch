@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ESP32 on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/esp32//img/banner.png</url><title>ESP32 on simeononsecurity</title><link>https://simeononsecurity.com/tags/esp32/</link></image><link>https://simeononsecurity.com/tags/esp32/</link><description>Recent content in ESP32 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/esp32/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Open-Source Tool for Mapping Flock Safety ALPR Surveillance Cameras</title><link>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Counter Surveillance"
+, "Open Source Projects"
+, "Digital Rights"
+, "Network Security"
+, "Privacy Tools"
+, "Hardware Hacking"
+, "Security Research"</category><guid>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is an open-source tool that maps 40,000+ Flock Safety ALPR cameras worldwide using WiGLE WiFi data and OUI fingerprinting. Learn how it works, its limitations, and the hardware tools for real-time detection.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Eye Spy: Passive Surveillance Detector for the M5Stack Atom Lite (ESP32)</title><link>https://simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Privacy Tools"
+, "Counter-Surveillance"
+, "IoT Security"
+, "Embedded Systems"
+, "Security Research"
+, "WiFi Security"
+, "Bluetooth Security"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A complete technical reference for Eye Spy v1.1 - an open-source passive BLE and WiFi surveillance detector running on the M5Stack Atom Lite (ESP32-PICO-D4) that scans for body cameras, ALPR systems, AirTags, drones, and hidden cameras using a confidence-score threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with RGB LED Alerts</title><link>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "WiFi Security"
+, "IoT Security"
+, "Security Research"
+, "Embedded Systems"
+, "Privacy Tools"
+, "ESP32 Projects"
+, "Hardware Security"
+, "Wireless Security"
+, "Open Source Security"</category><guid>https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A detailed breakdown into the ESP32 WiFi Canary project - a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED.</description><enclosure url="https://simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Mining Duinocoin on ESP32: A Comprehensive Guide for Efficient Cryptocurrency Mining</title><link>https://simeononsecurity.com/other/mining-duinocoin-esp32-guide/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><category>
+"Cryptocurrency Mining"
+, "ESP32 Tutorials"
+, "IoT Development"
+, "Embedded Systems"
+, "Cryptocurrency Guides"
+, "Duinocoin Tips"
+, "Energy-Efficient Mining"
+, "ESP32 Optimization"
+, "Blockchain Technology"
+, "Cryptocurrency Regulations"</category><guid>https://simeononsecurity.com/other/mining-duinocoin-esp32-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uncover the secrets of mining Duinocoin on ESP32 with our step-by-step guide. Optimize your setup for efficiency and explore energy-saving techniques. Learn more now!</description><enclosure url="https://simeononsecurity.com/img/cover/esp32-duinocoin-mining.png" length="1365990" type="image/png"/></item></channel></rss>

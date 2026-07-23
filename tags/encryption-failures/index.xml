@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Encryption Failures on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/encryption-failures//img/banner.png</url><title>Encryption Failures on simeononsecurity</title><link>https://simeononsecurity.com/tags/encryption-failures/</link></image><link>https://simeononsecurity.com/tags/encryption-failures/</link><description>Recent content in Encryption Failures on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/encryption-failures/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Safety Camera Security Vulnerabilities: Critical Analysis of 50+ Discovered Flaws in 2026</title><link>https://simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Security Research"
+, "Vulnerability Analysis"
+, "Surveillance Technology"
+, "Cybersecurity"
+, "Privacy Security"
+, "IoT Security"
+, "Physical Security"
+, "Network Security"
+, "Critical Infrastructure"
+, "Government Technology"</category><guid>https://simeononsecurity.com/articles/flock-safety-camera-security-vulnerabilities-research-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprehensive analysis of 50+ critical security vulnerabilities discovered in Flock Safety ALPR cameras including hardcoded passwords, lack of encryption, unauthorized data collection, and physical access exploits based on independent security research.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-safety-camera-security-vulnerabilities-research-2026.webp" length="223508" type="image/webp"/></item></channel></rss>
