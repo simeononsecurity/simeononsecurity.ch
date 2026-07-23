@@ -7,14 +7,61 @@ lastmod: 2026-07-22
 description: "A comprehensive guide to launching, growing, and advancing your Information Technology career. Covers IT specializations, certifications, job search strategies, salaries, and team leadership."
 genre: ["IT career", "information technology", "career playbook", "IT certifications", "technology jobs", "career guidance", "professional development"]
 tags: ["IT career", "information technology career", "IT certifications", "CompTIA A+", "CompTIA Network+", "systems administration", "cloud computing", "DevOps", "help desk", "IT job search", "IT salary", "IT management", "IT career path", "IT training", "IT skills", "entry level IT", "IT internships", "remote IT jobs", "networking certifications", "AWS certification", "Microsoft certifications", "Google Cloud certification", "Linux certifications", "IT career change", "IT team management", "ITIL", "soft skills for IT", "IT job market", "IT career growth"]
-cover: "/img/cover/it-career-playbook.webp"
-coverAlt: "An animated illustration of an IT professional at a dual-monitor workstation surrounded by icons representing networks, servers, cloud infrastructure, and security tools — all glowing in blue, teal, and purple on a dark background."
+cover: "/img/cover/it-career-playbook-help-desk-cloud-architecture-management.webp"
+coverAlt: "An illustration showing diverse IT professionals: a help desk technician assisting a user, an architect designing cloud infrastructure, and a manager strategizing with team members, all in a modern tech setting."
 coverCaption: "Your complete roadmap from IT beginner to technology leader."
 ---
 
 **Information Technology is the backbone of every modern organization.** From the help desk technician who gets employees back online to the infrastructure architect who designs a cloud platform serving millions of users, IT careers span an enormous range of disciplines, skill levels, and compensation bands. This playbook covers the full arc — getting started, getting certified, getting hired, advancing, and eventually leading teams.
 
 *Whether you are switching into IT from another field, fresh out of school, or already working in IT and looking to level up, this guide provides actionable steps at every stage.*
+
+---
+
+## Playbook Contents
+
+Jump directly to any section or sub-topic using the links below.
+
+**Exam details:** This is a career playbook, not a certification course. All pages are free and updated regularly. Confirm current certification requirements directly with the relevant certification vendor.
+
+### Section 1: Getting Started in IT
+
+- [Is IT a Good Career?](/it-career-playbook/getting-started-in-it/is-it-a-good-career/) — job market, salary outlook, and why IT is one of the most durable career fields
+- [How to Start a Career in IT](/it-career-playbook/getting-started-in-it/how-to-start-a-career-in-it/) — entry paths for beginners, no-experience strategies, and first steps
+- [IT Career Specializations](/it-career-playbook/getting-started-in-it/it-career-specializations/) — overview of every major IT discipline and which to target
+- [Soft Skills for IT Professionals](/it-career-playbook/getting-started-in-it/soft-skills-for-it-professionals/) — communication, documentation, troubleshooting mindset
+- [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) — hardware and software setup for hands-on practice
+- [IT Training Resources Online](/it-career-playbook/getting-started-in-it/it-training-resources-online/) — free and paid platforms for every certification and skill
+- [What Does an IT Career Path Look Like?](/it-career-playbook/getting-started-in-it/what-does-an-it-career-path-look-like/) — typical progression from help desk to senior roles
+- [IT Salary and Job Outlook](/it-career-playbook/getting-started-in-it/it-salary-and-job-outlook/) — pay ranges by role, location, and experience level
+
+### Section 2: IT Certifications and Degrees
+
+- [Do I Need a Degree for IT?](/it-career-playbook/it-certifications-and-degrees/do-i-need-a-degree-for-it/) — honest analysis of degrees vs. certifications vs. self-study
+- [CompTIA Certification Roadmap](/it-career-playbook/it-certifications-and-degrees/comptia-certification-roadmap/) — A+ through CASP+ in the right sequence
+- [Cloud Certifications Guide](/it-career-playbook/it-certifications-and-degrees/cloud-certifications-guide/) — AWS, Azure, and Google Cloud certification paths compared
+- [Cisco Networking Certifications](/it-career-playbook/it-certifications-and-degrees/cisco-networking-certifications/) — CCNA, CCNP, and beyond for network engineers
+- [Are IT Bootcamps Worth It?](/it-career-playbook/it-certifications-and-degrees/are-it-bootcamps-worth-it/) — how to evaluate accelerated programs and avoid bad ones
+
+### Section 3: Getting a Job in IT
+
+- [IT Resume Writing Tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/) — structure, keywords, ATS strategy, and what hiring managers want
+- [IT Interview Questions](/it-career-playbook/getting-a-job-in-it/it-interview-questions/) — behavioral and technical question prep by role
+- [Entry-Level IT Jobs](/it-career-playbook/getting-a-job-in-it/entry-level-it-jobs/) — real entry points, realistic expectations, and strategies for landing your first role
+- [Remote IT Jobs](/it-career-playbook/getting-a-job-in-it/remote-it-jobs/) — which IT roles actually go remote and how to find them
+- [IT Internships](/it-career-playbook/getting-a-job-in-it/it-internships/) — paid internship paths, what to expect, and how to convert to full-time
+
+### Section 4: Moving Up in IT
+
+- [Earning Certifications and Advancing in IT](/it-career-playbook/moving-up-in-it/earning-certifications-and-advancing-in-it/) — promotion strategy, CAR format, and timing your ask
+- [Technical vs. Management Track](/it-career-playbook/moving-up-in-it/technical-vs-management-track/) — IC ladder vs. people management, and how to choose
+- [IT Regulations and Compliance](/it-career-playbook/moving-up-in-it/it-regulations-and-compliance/) — ITIL 4, NIST SP 800-53, SOC 2, HIPAA, FedRAMP, PCI DSS
+
+### Section 5: Managing an IT Team
+
+- [Building and Managing an IT Team](/it-career-playbook/managing-an-it-team/building-and-managing-an-it-team/) — team structure, hiring, onboarding, and retention
+- [IT Policies and Change Management](/it-career-playbook/managing-an-it-team/it-policies-and-change-management/) — ITSM, ITIL, CAB, and building effective change processes
+- [Outsourcing vs. In-House IT](/it-career-playbook/managing-an-it-team/outsourcing-vs-inhouse-it/) — what to keep internal vs. hand to an MSP or cloud vendor
 
 ---
 
