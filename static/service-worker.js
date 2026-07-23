@@ -1,42 +1,47 @@
 /**
- * Service Worker — simeononsecurity.com
+ * Service Worker — simeononsecurity.com  v4
  *
- * Cache strategy by resource type:
- *   Pages (navigate)   → network-first, cache on success; offline → pages cache → prefetch cache → /offline.html
- *   Assets (CSS/JS/font) → cache-first, background refresh (stale-while-revalidate style)
- *   Images              → stale-while-revalidate; trim to MAX_IMAGES
- *   Link prefetch       → background fetch on postMessage from page; trim to MAX_PREFETCH
+ * New in v4:
+ *   • SW update notification  — broadcasts SW_UPDATED to all open tabs on activate
+ *   • Page cache TTL           — pages older than PAGE_TTL_MS are treated as stale
+ *   • MAX_PAGES limit          — CACHE_PAGES auto-trims like CACHE_IMAGES
+ *   • Adaptive strategy        — slow/2g connections get cache-first navigation
  *
- * Bump CACHE_VERSION to evict all old caches on next activate.
+ * Cache strategy summary:
+ *   Pages (navigate)     → network-first (cache-first on slow 2g); TTL 24 h; max 100
+ *   Assets (CSS/JS/font) → cache-first + background refresh
+ *   Images               → stale-while-revalidate; max 80
+ *   Prefetch (links)     → background fetch via postMessage; max 50
+ *
+ * To evict old caches, increment CACHE_VERSION.
  */
 
-const CACHE_VERSION  = 3;
-const CACHE_PAGES    = 'sos-pages-v'    + CACHE_VERSION;  // navigations
-const CACHE_ASSETS   = 'sos-assets-v'   + CACHE_VERSION;  // CSS / JS / fonts
-const CACHE_IMAGES   = 'sos-images-v'   + CACHE_VERSION;  // images (s-w-r)
-const CACHE_PREFETCH = 'sos-prefetch-v' + CACHE_VERSION;  // proactive link prefetch
+// ── Version & cache names ────────────────────────────────────────────────────
+const CACHE_VERSION  = 4;
+const CACHE_PAGES    = 'sos-pages-v'    + CACHE_VERSION;
+const CACHE_ASSETS   = 'sos-assets-v'   + CACHE_VERSION;
+const CACHE_IMAGES   = 'sos-images-v'   + CACHE_VERSION;
+const CACHE_PREFETCH = 'sos-prefetch-v' + CACHE_VERSION;
+const ALL_CACHES     = [CACHE_PAGES, CACHE_ASSETS, CACHE_IMAGES, CACHE_PREFETCH];
 
-const ALL_CACHES  = [CACHE_PAGES, CACHE_ASSETS, CACHE_IMAGES, CACHE_PREFETCH];
-const MAX_IMAGES  = 80;   // oldest entries trimmed beyond this
-const MAX_PREFETCH = 50;  // oldest prefetched pages trimmed beyond this
+// ── Limits & TTL ─────────────────────────────────────────────────────────────
+const MAX_PAGES    = 100;
+const MAX_IMAGES   = 80;
+const MAX_PREFETCH = 50;
+const PAGE_TTL_MS  = 24 * 60 * 60 * 1000; // 24 hours
 
-// Minimal app shell — only paths guaranteed to exist in the built site.
-// Each asset is cached individually so a single 404 never aborts the install.
-const SHELL_ASSETS = [
-    '/',
-    '/offline.html',
-    '/js/ping.js',
-    '/js/search.js',
-];
+// ── Shell assets (must exist; cached individually so one 404 ≠ install abort) ─
+const SHELL_ASSETS = ['/', '/offline.html', '/js/ping.js', '/js/search.js'];
+const OFFLINE_URL  = '/offline.html';
 
-const OFFLINE_URL = '/offline.html';
+// ── Extension sets ───────────────────────────────────────────────────────────
+const ASSET_EXTS = new Set(['css', 'js', 'mjs', 'woff', 'woff2', 'ttf', 'otf', 'eot']);
+const IMAGE_EXTS = new Set(['webp', 'jpg', 'jpeg', 'png', 'gif', 'svg', 'ico', 'avif']);
 
-// Static-asset extensions for the cache-first strategy
-const ASSET_EXTS  = new Set(['css', 'js', 'mjs', 'woff', 'woff2', 'ttf', 'otf', 'eot']);
-// Image extensions for the stale-while-revalidate strategy
-const IMAGE_EXTS  = new Set(['webp', 'jpg', 'jpeg', 'png', 'gif', 'svg', 'ico', 'avif']);
+// Track whether this is an upgrade (existing SW replaced) vs. fresh install
+let isFreshInstall = true;
 
-// ── Helpers ─────────────────────────────────────────────────────────────────
+// ── Shared helpers ────────────────────────────────────────────────────────────
 
 function isSameOrigin(url) {
     try { return new URL(url).origin === self.location.origin; }
@@ -45,9 +50,9 @@ function isSameOrigin(url) {
 
 function getExt(url) {
     try {
-        const path = new URL(url).pathname;
-        const dot  = path.lastIndexOf('.');
-        return dot >= 0 ? path.slice(dot + 1).toLowerCase() : '';
+        const p   = new URL(url).pathname;
+        const dot = p.lastIndexOf('.');
+        return dot >= 0 ? p.slice(dot + 1).toLowerCase() : '';
     } catch (e) { return ''; }
 }
 
@@ -69,18 +74,55 @@ async function trimCache(cacheName, maxItems) {
     }
 }
 
-async function safeFetch(url, options) {
+/** Returns true if navigator.connection signals 2G or slower. */
+function isSlowConnection() {
     try {
-        const r = await fetch(url, options);
-        return r;
+        const conn = self.navigator && self.navigator.connection;
+        if (!conn) return false;
+        return conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g';
+    } catch (e) { return false; }
+}
+
+/**
+ * Cache a page response with an X-Cached-At timestamp header.
+ * The caller must own a separate clone to return to the browser.
+ */
+async function cachePageResponse(cache, request, responseClone) {
+    try {
+        const body    = await responseClone.arrayBuffer();
+        const headers = new Headers(responseClone.headers);
+        headers.set('X-Cached-At', String(Date.now()));
+        await cache.put(
+            request,
+            new Response(body, {
+                status:     responseClone.status,
+                statusText: responseClone.statusText,
+                headers,
+            })
+        );
     } catch (e) {
-        return null;
+        // If cloning failed just skip — not catastrophic
     }
 }
 
-// ── Install ──────────────────────────────────────────────────────────────────
+/** True when a cached page response is past its TTL. */
+function isPageStale(cachedResponse) {
+    const ts = cachedResponse.headers.get('X-Cached-At');
+    if (!ts) return false; // no timestamp = assume not stale (legacy entry)
+    return (Date.now() - parseInt(ts, 10)) > PAGE_TTL_MS;
+}
+
+async function safeFetch(url, options) {
+    try { return await fetch(url, options); }
+    catch (e) { return null; }
+}
+
+// ── Install ───────────────────────────────────────────────────────────────────
 self.addEventListener('install', function (event) {
-    console.log('[SW] Install v' + CACHE_VERSION);
+    // If there is already an active SW this is an upgrade, not a fresh install
+    isFreshInstall = !self.registration.active;
+    console.log('[SW] Install v' + CACHE_VERSION, isFreshInstall ? '(fresh)' : '(update)');
+
     event.waitUntil(
         caches.open(CACHE_ASSETS).then(function (cache) {
             return Promise.all(
@@ -95,12 +137,12 @@ self.addEventListener('install', function (event) {
     self.skipWaiting();
 });
 
-// ── Activate ─────────────────────────────────────────────────────────────────
+// ── Activate ──────────────────────────────────────────────────────────────────
 self.addEventListener('activate', function (event) {
     console.log('[SW] Activate v' + CACHE_VERSION);
     event.waitUntil(
         Promise.all([
-            // Evict every cache that isn't from the current version
+            // Evict stale caches from previous versions
             caches.keys().then(function (keys) {
                 return Promise.all(
                     keys.map(function (key) {
@@ -111,22 +153,31 @@ self.addEventListener('activate', function (event) {
                     })
                 );
             }),
-            // Enable navigation preload for faster first-byte on navigations
+            // Enable navigation preload
             self.registration.navigationPreload
                 ? self.registration.navigationPreload.enable()
                 : Promise.resolve(),
-            // Claim all open clients immediately
+            // Take control of all open tabs
             self.clients.claim(),
-        ])
+        ]).then(function () {
+            // Only broadcast update toast when replacing an existing SW
+            if (!isFreshInstall) {
+                self.clients
+                    .matchAll({ type: 'window', includeUncontrolled: true })
+                    .then(function (clients) {
+                        clients.forEach(function (client) {
+                            client.postMessage({
+                                type:    'SW_UPDATED',
+                                version: CACHE_VERSION,
+                            });
+                        });
+                    });
+            }
+        })
     );
 });
 
-// ── Message handler ──────────────────────────────────────────────────────────
-//
-// Page sends:
-//   { type: 'PREFETCH_LINKS', urls: ['https://...', ...] }
-//   { type: 'SKIP_WAITING' }
-//
+// ── Message handler ───────────────────────────────────────────────────────────
 self.addEventListener('message', function (event) {
     if (!event.data || typeof event.data.type !== 'string') return;
 
@@ -136,23 +187,16 @@ self.addEventListener('message', function (event) {
     }
 
     if (event.data.type === 'PREFETCH_LINKS') {
-        var urls = event.data.urls;
-        if (!Array.isArray(urls) || urls.length === 0) return;
-
-        // Cap per-message batch to avoid overwhelming the network
-        urls = urls.slice(0, 8);
+        const urls = (event.data.urls || []).slice(0, 8);
+        if (!urls.length) return;
 
         event.waitUntil(
             (async function () {
                 const cache = await caches.open(CACHE_PREFETCH);
-
                 for (const url of urls) {
-                    // Sanity-check: only prefetch same-origin page URLs
                     if (!isSameOrigin(url)) continue;
                     const ext = getExt(url);
                     if (ASSET_EXTS.has(ext) || IMAGE_EXTS.has(ext)) continue;
-
-                    // Skip if already cached in any cache
                     const hit = await caches.match(url);
                     if (hit) continue;
 
@@ -160,57 +204,65 @@ self.addEventListener('message', function (event) {
                         credentials: 'same-origin',
                         headers: { 'Purpose': 'prefetch', 'Sec-Purpose': 'prefetch' },
                     });
-
                     if (response && response.ok && response.type === 'basic') {
-                        await cache.put(url, response);
+                        await cachePageResponse(cache, url, response);
                         console.log('[SW] Prefetched:', url);
                     }
                 }
-
                 await trimCache(CACHE_PREFETCH, MAX_PREFETCH);
             })()
         );
     }
 });
 
-// ── Fetch handler ─────────────────────────────────────────────────────────────
+// ── Fetch ─────────────────────────────────────────────────────────────────────
 self.addEventListener('fetch', function (event) {
     const req = event.request;
-
-    // Only handle GET requests to the same origin
     if (req.method !== 'GET' || !isSameOrigin(req.url)) return;
 
     const category = categorize(req);
 
-    // ── 1. Navigation pages: network-first ──────────────────────────────────
+    // ── 1. Navigation: adaptive network-first (cache-first on slow connections) ──
     if (category === 'page') {
         event.respondWith(
             (async function () {
-                try {
-                    // Use navigation preload when available
-                    const preload = await event.preloadResponse;
-                    if (preload) {
-                        const cache = await caches.open(CACHE_PAGES);
-                        cache.put(req, preload.clone());
-                        return preload;
-                    }
+                const pageCache = await caches.open(CACHE_PAGES);
 
-                    const response = await fetch(req);
-                    if (response.ok) {
-                        const cache = await caches.open(CACHE_PAGES);
-                        cache.put(req, response.clone());
+                // ▸ SLOW CONNECTION: try cache first (skip network latency)
+                if (isSlowConnection()) {
+                    const cached = await pageCache.match(req);
+                    if (cached && !isPageStale(cached)) {
+                        // Refresh in background so next visit is fresh
+                        fetch(req).then(async function (r) {
+                            if (r && r.ok) {
+                                await cachePageResponse(pageCache, req, r.clone());
+                                await trimCache(CACHE_PAGES, MAX_PAGES);
+                            }
+                        }).catch(function () {});
+                        return cached;
                     }
-                    return response;
+                    // Cache miss or stale — fall through to normal network-first
+                }
+
+                // ▸ NORMAL: network-first
+                try {
+                    const preload = await event.preloadResponse;
+                    const networkResponse = preload || await fetch(req);
+
+                    if (networkResponse.ok) {
+                        await cachePageResponse(pageCache, req, networkResponse.clone());
+                        trimCache(CACHE_PAGES, MAX_PAGES);
+                    }
+                    return networkResponse;
 
                 } catch (err) {
-                    // Offline fallback chain: pages → prefetch → /offline.html
-                    const fromPages = await caches.match(req, { cacheName: CACHE_PAGES });
+                    // Offline fallback chain
+                    const fromPages = await pageCache.match(req);
                     if (fromPages) return fromPages;
 
                     const fromPrefetch = await caches.match(req, { cacheName: CACHE_PREFETCH });
                     if (fromPrefetch) return fromPrefetch;
 
-                    // Last resort: check all caches, then serve /offline.html
                     const anywhere = await caches.match(req);
                     if (anywhere) return anywhere;
 
@@ -225,58 +277,46 @@ self.addEventListener('fetch', function (event) {
         return;
     }
 
-    // ── 2. Static assets (CSS/JS/fonts): cache-first + background refresh ───
+    // ── 2. Assets (CSS/JS/fonts): cache-first + background refresh ───────────
     if (category === 'asset') {
         event.respondWith(
             (async function () {
                 const cached = await caches.match(req);
 
-                // Refresh the cache asynchronously while serving the stale copy
-                const fetchAndCache = fetch(req).then(function (response) {
-                    if (response && response.ok && response.type === 'basic') {
-                        caches.open(CACHE_ASSETS).then(function (cache) {
-                            cache.put(req, response.clone());
-                        });
+                const fetchAndCache = fetch(req).then(function (r) {
+                    if (r && r.ok && r.type === 'basic') {
+                        caches.open(CACHE_ASSETS).then(function (c) { c.put(req, r.clone()); });
                     }
-                    return response;
+                    return r;
                 }).catch(function () { return null; });
 
-                // Return cached immediately if we have it
                 if (cached) return cached;
-
-                // First-time fetch: wait for network
-                const fresh = await fetchAndCache;
-                if (fresh) return fresh;
-
-                return new Response('', { status: 503 });
+                return (await fetchAndCache) || new Response('', { status: 503 });
             })()
         );
         return;
     }
 
-    // ── 3. Images: stale-while-revalidate ───────────────────────────────────
+    // ── 3. Images: stale-while-revalidate ────────────────────────────────────
     if (category === 'image') {
         event.respondWith(
             (async function () {
                 const cached = await caches.match(req);
 
-                // Always refresh in the background
-                const fetchPromise = fetch(req).then(async function (response) {
-                    if (response && response.ok && response.type === 'basic') {
-                        const cache = await caches.open(CACHE_IMAGES);
-                        cache.put(req, response.clone());
+                const fetchPromise = fetch(req).then(async function (r) {
+                    if (r && r.ok && r.type === 'basic') {
+                        const c = await caches.open(CACHE_IMAGES);
+                        c.put(req, r.clone());
                         trimCache(CACHE_IMAGES, MAX_IMAGES);
                     }
-                    return response;
+                    return r;
                 }).catch(function () { return null; });
 
-                // Serve cached copy immediately; wait for network only on cache miss
                 return cached || fetchPromise;
             })()
         );
         return;
     }
 
-    // ── 4. Everything else: pass through to network (don't intercept) ────────
-    // (API calls, external resources, etc.)
+    // ── 4. Everything else: pass through ────────────────────────────────────
 });
