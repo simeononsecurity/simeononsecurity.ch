@@ -7,8 +7,8 @@ draft: false
 description: "Complete guide to upgrading Proxmox VE 8 (Debian Bookworm) to Proxmox VE 9 (Debian Trixie). Covers prerequisites, step-by-step manual upgrade, the pve8to9-upgrade.sh automation script, breaking changes, and known issues."
 genre: ["Virtualization", "Linux Administration", "Proxmox", "Server Management", "Open Source", "Homelab"]
 tags: ["Proxmox VE 9", "Proxmox upgrade", "PVE 8 to 9", "Debian Trixie", "Debian 13", "apt dist-upgrade", "pve8to9", "Proxmox Ceph", "proxmox-boot-tool", "grub-efi", "LVM upgrade", "ZFS upgrade", "NVIDIA vGPU", "cgroupv2", "Proxmox automation", "bash upgrade script", "Proxmox cluster upgrade", "in-place upgrade", "pve8to9-upgrade.sh", "Proxmox VE 9.0"]
-cover: "/img/cover/proxmox-ve-8-to-9-upgrade-guide.webp"
-coverAlt: "A dark-themed server rack illustration with two version labels — PVE 8 transitioning to PVE 9 — connected by a glowing upgrade arrow, surrounded by Debian and Proxmox logos on a deep navy background."
+cover: "/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp"
+coverAlt: "A modern server room with glowing icons representing virtual machines on screens. A technician works on a laptop, surrounded by dark navy equipment with vibrant blue, green, and purple accents."
 coverCaption: "Upgrading Proxmox VE 8 to 9: step-by-step in-place upgrade with an automated assistant script."
 canonical: "https://simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/"
 ---
