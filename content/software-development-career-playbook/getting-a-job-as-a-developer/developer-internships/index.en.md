@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "How to find software engineering internships, what top companies look for, how to perform well during the internship, and how to convert it into a full-time offer."
 tags: ["software developer internships", "software engineering internship guide", "how to get a software internship", "tech internship tips", "FAANG internship", "developer internship to full-time", "coding internship interview prep", "SWE internship"]
-coverAlt: "A college student in a developer internship working on a laptop in a modern tech office with a mentor reviewing code beside them."
+coverAlt: "A diverse group of students collaborates around a laptop, analyzing code and discussing software engineering internship tasks in a modern workspace with a dark background."
 coverCaption: ""
+cover: "/img/cover/software-engineering-internship-collaboration-students.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

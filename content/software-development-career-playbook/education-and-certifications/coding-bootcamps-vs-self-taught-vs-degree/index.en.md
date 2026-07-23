@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "Compare the three main paths to becoming a software developer — coding bootcamp, self-taught, and computer science degree — across cost, time, outcomes, and employer perception."
 tags: ["coding bootcamp vs degree", "self-taught developer vs bootcamp", "how to become a software developer", "coding bootcamp worth it", "self-taught programmer career", "CS degree alternatives", "software developer learning path"]
-coverAlt: "A three-way split screen comparing a university campus, a coding bootcamp classroom, and a self-taught developer's home office setup."
+coverAlt: "An illustration showing three paths to becoming a software developer: a university graduate with a diploma, bootcamp students collaborating on laptops, and a self-taught learner surrounded by coding books at home."
 coverCaption: ""
+cover: "/img/cover/coding-bootcamps-self-taught-degree-paths.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
