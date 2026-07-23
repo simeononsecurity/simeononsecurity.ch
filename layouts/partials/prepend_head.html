@@ -1,1 +1,15 @@
-<!-- placeholder -->
+<!-- Mobile browser chrome: theme-color for light/dark mode -->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafafa">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161617">
+<meta name="color-scheme" content="light dark">
+
+<!-- Author -->
+<meta name="author" content="{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}">
+
+<!-- DNS prefetch for key third parties (non-blocking latency savings) -->
+<link rel="dns-prefetch" href="//www.youtube-nocookie.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="//utteranc.es">
+<link rel="dns-prefetch" href="//static.cloudflareinsights.com">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
