@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "How to start contributing to open source software, what kinds of contributions matter most for career growth, and how open source work builds professional visibility and network."
 tags: ["contributing to open source", "open source for developers", "how to contribute to open source", "GitHub open source contributions", "open source career benefits", "first open source contribution", "growing as a developer", "software development career playbook"]
-coverAlt: "A developer on a laptop submitting a pull request to a popular open source repository shown in the GitHub interface."
+coverAlt: "A software developer at a computer, examining colorful code snippets and a GitHub repository interface, with vibrant graphs and a dark background."
 coverCaption: ""
+cover: "/img/cover/open-source-contribution-software-development-skills.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
