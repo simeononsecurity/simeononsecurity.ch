@@ -43,7 +43,7 @@ ______
 
 ## Before You Start: Prerequisites
 
-**You must satisfy all of these before touching repositories.**
+**You must satisfy all of these before touching repositories.** See the full prerequisites checklist on the [official upgrade wiki — Prerequisites](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#Prerequisites).
 
 ### 1. Proxmox VE 8.4 minimum
 
@@ -394,7 +394,7 @@ The `pve8to9-upgrade.sh` script detects UEFI+LVM and installs this automatically
 **If the node is already stuck** at `grub rescue>` or "disk 'lvmid/...' not found":
 
 1. Boot the PVE ISO → Advanced → **Rescue Boot**
-2. Or follow the [Recover From Grub Failure](https://pve.proxmox.com/wiki/Recover_From_Grub_Failure) wiki page
+2. Or follow the [Recover From Grub Failure — LVM section](https://pve.proxmox.com/wiki/Recover_From_Grub_Failure#Recovering_from_grub_.22disk_not_found.22_error_when_booting_from_LVM) on the official wiki
 
 ### systemd-boot Meta-Package Aborts dist-upgrade
 
@@ -532,10 +532,10 @@ ______
 ## References
 
 1. [Official: Proxmox VE Upgrade from 8 to 9](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9)
-2. [pve8to9-upgrade.sh Automation Script](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
-3. [Proxmox VE 9.0 Release Notes / Roadmap](https://pve.proxmox.com/wiki/Roadmap#9.0-known-issues)
-4. [Proxmox VE 9.2 Release Notes](https://pve.proxmox.com/wiki/Roadmap#9.2-known-issues)
-5. [Recover From Grub Failure](https://pve.proxmox.com/wiki/Recover_From_Grub_Failure)
+2. [Official: Upgrade from 8 to 9 — Prerequisites](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#Prerequisites)
+3. [pve8to9-upgrade.sh Automation Script](https://gist.github.com/simeononsecurity/ba3831f487c4e960f9e218c7da5c4b8d)
+4. [Proxmox VE 9.0 Known Issues (Roadmap)](https://pve.proxmox.com/wiki/Roadmap#9.0-known-issues)
+5. [Recover From Grub Failure — LVM "disk not found" error](https://pve.proxmox.com/wiki/Recover_From_Grub_Failure#Recovering_from_grub_.22disk_not_found.22_error_when_booting_from_LVM)
 6. [ZFS: Switch Legacy-Boot to Proxmox Boot Tool](https://pve.proxmox.com/wiki/ZFS:_Switch_Legacy-Boot_to_Proxmox_Boot_Tool)
 7. [Ceph Reef to Squid Upgrade Guide](https://pve.proxmox.com/wiki/Ceph_Reef_to_Squid)
 8. [Proxmox Network Interface Pinning](https://pve.proxmox.com/pve-docs/chapter-sysadmin.html)
