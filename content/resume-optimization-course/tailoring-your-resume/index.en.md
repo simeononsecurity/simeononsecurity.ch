@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to tailor your resume to a specific job description efficiently. Covers the five concrete changes that move ATS scores, the 70% keyword threshold, maintaining base resume versions, and what tailoring actually means vs. what it doesn't."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
 tags: ["resume tailoring", "customize resume", "ATS optimization", "resume targeting", "job description match", "resume keyword optimization", "tailored resume", "resume versions", "resume course", "career development", "job search tips", "ATS score", "resume tips", "job application strategy"]
-cover: "/img/cover/resume-optimization-course-tailoring.webp"
-coverAlt: "A dark-themed illustration of a resume document beside a job description with matching keyword callouts connected by glowing lines, with an ATS score gauge rising on a deep navy background."
+cover: "/img/cover/resume-tailoring-job-description-optimization.webp"
+coverAlt: "An illustration of a person at a desk tailoring a resume by comparing it with a job description on a laptop. The scene includes arrows and checkmarks, set against a dark background."
 coverCaption: "Module 7: A generic resume always underperforms a tailored one."
 ---
 

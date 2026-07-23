@@ -6,8 +6,8 @@ draft: false
 description: "The complete pre-submission checklist for your resume. Covers page count rules by experience level, PDF vs. DOCX submission guidelines, file naming conventions, the 10 most common resume mistakes, and a quick-reference word replacement table."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
 tags: ["resume checklist", "resume submission", "resume file format", "PDF resume", "resume page count", "resume mistakes", "resume tips", "job application checklist", "resume course", "career development", "job search", "resume verification", "resume length", "pre-submission resume", "word choices resume"]
-cover: "/img/cover/resume-optimization-course-checklist.webp"
-coverAlt: "A dark-themed illustration of a checklist with green checkmarks beside resume quality criteria, beside a file upload interface on a deep navy background."
+cover: "/img/cover/resume-final-checklist-submission-guidelines.webp"
+coverAlt: "An illustration of a modern workspace featuring a laptop open to a resume editing software, a printed resume with red edits, and a coffee mug, all set against a deep navy background."
 coverCaption: "Module 9: Don't submit until you've run the checklist."
 ---
 

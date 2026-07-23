@@ -6,8 +6,8 @@ draft: false
 description: "Learn how to write a resume summary that states your value clearly in 2–4 sentences, mirrors the language of your target role, and passes the copy-paste test. Includes the formula, examples, and common mistakes."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
 tags: ["resume summary", "professional summary", "resume objective", "resume writing tips", "resume course", "ATS resume", "career development", "job search", "resume tips", "summary formula", "resume opening", "resume introduction", "career changer resume", "executive summary resume"]
-cover: "/img/cover/resume-optimization-course-writing-summary.webp"
-coverAlt: "A dark-themed illustration of the top portion of a resume with a professional summary section highlighted, surrounded by editing tools and keyword indicators on a deep navy background."
+cover: "/img/cover/resume-summary-writing-techniques-guide.webp"
+coverAlt: "An illustration of a professional resume summary being built, featuring abstract elements representing experience and achievements, against a dark navy background with vibrant blue and green accents."
 coverCaption: "Module 3: The summary tells them what you're selling before they read the rest."
 ---
 

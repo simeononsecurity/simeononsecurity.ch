@@ -6,8 +6,8 @@ draft: false
 description: "Learn when a cover letter is worth writing, the three-section structure that works, the tone that reads human instead of AI-generated, and 20+ phrases to eliminate from every cover letter you write."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
 tags: ["cover letter writing", "cover letter tips", "cover letter structure", "how to write cover letter", "AI cover letter", "humanize cover letter", "cover letter format", "resume course", "career development", "job search", "cover letter opening", "cover letter examples", "application materials", "job application tips"]
-cover: "/img/cover/resume-optimization-course-cover-letters.webp"
-coverAlt: "A dark-themed illustration of a cover letter document beside a resume, with a pen and a highlighted opening paragraph on a deep navy background."
+cover: "/img/cover/cover-letter-writing-tips-professional-guide.webp"
+coverAlt: "A modern workspace featuring a laptop displaying a cover letter, a notepad with notes, a coffee cup, and a city skyline visible through an open window."
 coverCaption: "Module 8: The cover letter is your chance to speak — don't sound like a bot."
 ---
 

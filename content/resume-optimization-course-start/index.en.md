@@ -6,8 +6,8 @@ draft: false
 description: "A practical, no-fluff course on writing a resume that gets past ATS filters and lands interviews. Covers formatting, keywords, bullet points, cover letters, and using AI tools to optimize your chances."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development", "Productivity"]
 tags: ["resume optimization", "ATS resume", "resume writing course", "beat ATS", "keyword optimization", "resume formatting", "cover letter", "job search course", "career development", "resume tips", "applicant tracking system", "resume course", "AI resume", "ATS Resume Improver", "resume keywords", "resume bullet points", "cover letter writing", "tailoring resume", "resume checklist", "interview preparation"]
-cover: "/img/cover/resume-optimization-course-start.webp"
-coverAlt: "A clean, dark-themed illustration of a professional resume document beside a scoring dashboard, surrounded by keyword tags and a checkmark, set on a deep navy background."
+cover: "/img/cover/resume-optimization-course-ats-systems.webp"
+coverAlt: "A person sitting at a desk working on a resume. The desk features a laptop displaying a structured resume, a document with highlighted keywords, a coffee mug, a notepad with notes, and a plant in the background."
 coverCaption: "Beat the bots and win the interview — your complete resume optimization course."
 ---
 
