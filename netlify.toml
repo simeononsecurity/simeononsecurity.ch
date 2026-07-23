@@ -39,6 +39,11 @@ for = "/tags/*"
 X-Robots-Tag = "noindex, follow"
 
 [[headers]]
+for = "/categories/*"
+[headers.values]
+X-Robots-Tag = "noindex, follow"
+
+[[headers]]
 for = "/admin/*"
 [headers.values]
 X-Robots-Tag = "noindex, nofollow"
@@ -214,7 +219,7 @@ Cache-Control = "Public, s-maxage=604800, max-age=31536000"
 Permissions-Policy = "sync-xhr=(self), accelerometer=(), camera=(), display-capture=(), geolocation=(), microphone=(), midi=(), payment=(), usb=(), gyroscope=(), magnetometer=(), screen-wake-lock=(), xr-spatial-tracking=()"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Upgrade-Insecure-Requests = "1"
-Referrer-Policy = "strict-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
 X-DNS-Prefetch-Control = "active"
 X-Content-Type-Options = "nosniff"
 X-Frame-Options = "sameorigin"

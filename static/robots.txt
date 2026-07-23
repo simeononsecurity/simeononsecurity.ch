@@ -2,12 +2,57 @@ User-agent: *
 Disallow: /admin
 Disallow: /404/
 
+# ---- Block archival bots completely ----
 User-agent: ia_archiver
 User-agent: archive.org_bot
 Disallow: /
 
-User-agent: 360Spider
+# ---- Image-specific crawlers (heavily rate-limited) ----
+# Google Image crawler — 10 s between requests
+User-agent: Googlebot-Image
+Crawl-delay: 10
+Allow: /
+
+# Baidu / 360 / CocCoc image crawlers — 30 s between requests
+User-agent: Baiduspider-image
 User-agent: 360Spider-Image
+User-agent: coccocbot-image
+Crawl-delay: 30
+Allow: /
+
+# Yandex image crawler — 20 s between requests
+User-agent: YandexImages
+Crawl-delay: 20
+Allow: /
+
+# MSN/Bing media crawler — 20 s between requests
+User-agent: msnbot-media
+Crawl-delay: 20
+Allow: /
+
+# ---- Social / visual scrapers (moderately rate-limited) ----
+User-agent: Pinterest
+User-agent: Flipboard
+User-agent: FlipboardProxy
+User-agent: Crowsnest
+Crawl-delay: 15
+Allow: /
+
+# ---- AI content scrapers (heavily rate-limited) ----
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: PerplexityBot
+User-agent: YouBot
+User-agent: CCBot
+Crawl-delay: 30
+Allow: /
+
+# ---- General bots (allow with mild rate limit) ----
+User-agent: 360Spider
 User-agent: 360Spider-Video
 User-agent: AdsBot-Google
 User-agent: AdsBot-Google-Mobile
@@ -16,20 +61,14 @@ User-agent: adidxbot
 User-agent: Applebot
 User-agent: AppleNewsBot
 User-agent: Baiduspider
-User-agent: Baiduspider-image
 User-agent: Baiduspider-news
 User-agent: Baiduspider-video
 User-agent: bingbot
 User-agent: BingPreview
 User-agent: BublupBot
-User-agent: CCBot
-User-agent: Claude-Web
-User-agent: ClaudeBot
 User-agent: Cliqzbot
 User-agent: coccoc
-User-agent: coccocbot-image
 User-agent: coccocbot-web
-User-agent: Crowsnest
 User-agent: Daumoa
 User-agent: Dazoobot
 User-agent: DeuSu
@@ -42,16 +81,12 @@ User-agent: facebookexternalhit
 User-agent: Facebot
 User-agent: Feedly
 User-agent: Findxbot
-User-agent: Flipboard
-User-agent: FlipboardProxy
 User-agent: Googlebot
 User-agent: Googlebot desktop
-User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: Googlebot smartphone
-User-agent: GPTBot
 User-agent: gtmetrix
 User-agent: HaoSouSpider
 User-agent: ichiro
@@ -60,16 +95,10 @@ User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru
 User-agent: Mediapartners-Google
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
 User-agent: MicrosoftPreview
 User-agent: MojeekBot
 User-agent: msnbot
-User-agent: msnbot-media
-User-agent: OAI-SearchBot
 User-agent: OrangeBot
-User-agent: PerplexityBot
-User-agent: Pinterest
 User-agent: Plukkie
 User-agent: Qwantify
 User-agent: Rambler
@@ -93,8 +122,8 @@ User-agent: YandexMobileBot
 User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
-User-agent: YouBot
 User-agent: YoudaoBot
+Crawl-delay: 5
 Allow: /
 
 Sitemap: https://simeononsecurity.com/sitemap-index.xml

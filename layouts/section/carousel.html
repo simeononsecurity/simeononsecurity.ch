@@ -6,6 +6,31 @@
 <h1>SimeonOnSecurity's CyberSecurity Images</h1>
 
 {{ if .Site.RegularPages }}
+
+{{/*
+  Build a deduplicated list of cover images at Hugo build time.
+  We resolve to absolute URLs here so the JS payload needs zero URL logic.
+*/}}
+{{ $allImages := slice }}
+{{ range .Site.RegularPages }}
+  {{ $src := .Params.cover }}
+  {{ $alt := .Params.coverAlt | default "Cybersecurity Image" }}
+  {{ if $src }}
+    {{ $alreadySeen := false }}
+    {{ range $allImages }}
+      {{ if eq .src ($src | absURL) }}{{ $alreadySeen = true }}{{ end }}
+    {{ end }}
+    {{ if not $alreadySeen }}
+      {{ $allImages = $allImages | append (dict "src" ($src | absURL) "alt" $alt) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $total      := len $allImages }}
+{{ $initCount  := 24 }}
+{{ $initBatch  := first $initCount $allImages }}
+{{ $remaining  := after $initCount $allImages }}
+
 <style>
   .image-carousel {
     display: flex;
@@ -16,59 +41,172 @@
     max-width: 1200px;
   }
 
-  .image-carousel img {
+  .carousel-item {
     width: 300px;
     height: 200px;
-    object-fit: cover;
-    margin: 10px;
+    overflow: hidden;
     border: 2px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
     cursor: pointer;
+    flex-shrink: 0;
+    transition: box-shadow 0.2s ease;
   }
 
-  .image-carousel img:hover {
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .carousel-item:hover img {
     transform: scale(1.05) rotate(3deg);
   }
 
-  .image-carousel img.active {
+  .carousel-item.active {
     width: 500px;
     height: 400px;
     z-index: 2;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
   }
+
+  #carousel-sentinel {
+    width: 100%;
+    height: 1px;
+    order: 9999;
+  }
+
+  #carousel-status {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    color: var(--color-secondary, #888);
+    font-size: 0.875rem;
+    min-height: 48px;
+  }
+
+  .carousel-count {
+    text-align: center;
+    color: var(--color-secondary, #888);
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+  }
+
+  .carousel-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid currentColor;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: carousel-spin 0.6s linear infinite;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+
+  @keyframes carousel-spin { to { transform: rotate(360deg); } }
 </style>
 
-<div class="image-carousel">
-  {{ $uniqueImages := slice }}
-  {{ range .Site.RegularPages }}
-    {{ $coverImage := .Params.cover }}
-    {{ $coverAlt := .Params.coverAlt }}
-    {{ if and $coverImage (not (in $uniqueImages $coverImage)) }}
-      {{ $uniqueImages = $uniqueImages | append $coverImage }}
-      <img src="{{ $coverImage | absURL }}" alt="{{ $coverAlt | default "Cybersecurity Image" }}" loading="lazy" fetchpriority="low"/>
-    {{ end }}
+<p class="carousel-count">
+  Showing <span id="carousel-shown">{{ len $initBatch }}</span> of {{ $total }} images
+</p>
+
+<div class="image-carousel" id="carousel-grid">
+  {{/* Initial batch rendered in HTML — real DOM so they benefit from browser lazy-loading */}}
+  {{ range $initBatch }}
+  <div class="carousel-item">
+    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" decoding="async" fetchpriority="low" />
+  </div>
   {{ end }}
+  <div id="carousel-sentinel"></div>
 </div>
+<div id="carousel-status"></div>
+
+{{/* Remaining images stored as an inert JSON blob — zero DOM/render cost until JS reads it */}}
+{{ if $remaining }}
+<script type="application/json" id="carousel-remaining">{{ $remaining | jsonify }}</script>
+{{ end }}
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const images = document.querySelectorAll('.image-carousel img');
-    let activeImage = null;
+(function () {
+  'use strict';
 
-    images.forEach(image => {
-      image.addEventListener('click', () => {
-        if (activeImage === image) {
-          image.classList.remove('active');
-          activeImage = null;
-        } else {
-          if (activeImage) activeImage.classList.remove('active');
-          image.classList.add('active');
-          activeImage = image;
-        }
-      });
-    });
+  /* ── click-to-expand (works for both initial and dynamically added items) ── */
+  var activeItem = null;
+  document.addEventListener('click', function (e) {
+    var item = e.target.closest && e.target.closest('.carousel-item');
+    if (!item) return;
+    if (activeItem === item) {
+      item.classList.remove('active');
+      activeItem = null;
+    } else {
+      if (activeItem) activeItem.classList.remove('active');
+      item.classList.add('active');
+      activeItem = item;
+    }
   });
+
+  /* ── lazy batch-loading via IntersectionObserver ── */
+  var dataEl = document.getElementById('carousel-remaining');
+  if (!dataEl) return; // all images already in initial batch
+
+  var queue;
+  try { queue = JSON.parse(dataEl.textContent); } catch (e) { return; }
+
+  var grid       = document.getElementById('carousel-grid');
+  var sentinel   = document.getElementById('carousel-sentinel');
+  var status     = document.getElementById('carousel-status');
+  var shownEl    = document.getElementById('carousel-shown');
+  var BATCH      = 24;
+  var shown      = parseInt(shownEl ? shownEl.textContent : '0', 10) || 0;
+  var loading    = false;
+
+  function loadBatch() {
+    if (loading || queue.length === 0) return;
+    loading = true;
+    if (status) status.innerHTML = '<span class="carousel-spinner"></span>Loading more images\u2026';
+
+    var batch = queue.splice(0, BATCH);
+    var frag  = document.createDocumentFragment();
+
+    batch.forEach(function (item) {
+      var wrapper = document.createElement('div');
+      wrapper.className = 'carousel-item';
+      var img = document.createElement('img');
+      img.src     = item.src;
+      img.alt     = item.alt || 'Cybersecurity Image';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      wrapper.appendChild(img);
+      frag.appendChild(wrapper);
+    });
+
+    /* Insert before sentinel so sentinel stays at the very end */
+    grid.insertBefore(frag, sentinel);
+
+    shown += batch.length;
+    if (shownEl) shownEl.textContent = shown;
+
+    if (queue.length === 0) {
+      if (status) status.textContent = 'All ' + shown + ' images loaded.';
+      observer.disconnect();
+    } else {
+      if (status) status.textContent = '';
+    }
+    loading = false;
+  }
+
+  /* Use 400 px root-margin so images start loading before they scroll into view */
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) loadBatch();
+    });
+  }, { rootMargin: '400px' });
+
+  observer.observe(sentinel);
+})();
 </script>
 
 {{ else }}

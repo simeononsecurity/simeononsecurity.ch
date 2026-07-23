@@ -1,3 +1,12 @@
+/*
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), accelerometer=(), gyroscope=(), magnetometer=(), interest-cohort=()
+    X-Robots-Tag: index, follow
+
+
 /*.html
     Cache-Control: "public, max-age=3600, must-revalidate"
 
