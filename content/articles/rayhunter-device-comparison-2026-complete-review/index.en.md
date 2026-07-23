@@ -744,6 +744,8 @@ For professional applications where **detection reliability is critical**, inves
 
 - [RayHunter Official Documentation](https://efforg.github.io/rayhunter/introduction.html)
 - [Electronic Frontier Foundation](https://www.eff.org/)
-- [STS Collective - RayHunter Device Supplier](https://stscollective.com)
+- [STS Collective - RayHunter Device Supplier](https://stscollective.com/discount/SIMEONONSECURITY)
 - [RayHunter GitHub Repository](https://github.com/EFForg/rayhunter)
 - [Cellular Security Research Papers](https://www.eff.org/issues/cell-tracking)
+
+> 💰 **Exclusive Reader Discount**: Save up to 20% on RayHunter-compatible devices from STS Collective — use code **SIMEONONSECURITY** at checkout or [click here to shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).

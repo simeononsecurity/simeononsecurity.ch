@@ -31,6 +31,8 @@ This comprehensive guide covers:
 
 **Pre-Flashed Devices Available**: This article is sponsored by **STS Collective**, offering pre-flashed Orbic RCL400 hotspots with both **RayHunter and DagShell** pre-installed and ready to use: [stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)
 
+> 💰 **Exclusive Reader Discount**: Save up to 20% on STS Collective products including pre-flashed Orbic RCL400 devices — use code **SIMEONONSECURITY** at checkout or [shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
 ______
 
 ## What Is DagShell?

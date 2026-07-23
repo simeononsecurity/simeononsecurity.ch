@@ -239,6 +239,8 @@ Three primary platforms are available for Flock-You detection, each with distinc
 
 **Purchase**: [stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)
 
+> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products — use code **SIMEONONSECURITY** at checkout or [click here to shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
 ---
 
 #### 3. OUI-SPY by Colonel Panic Tech ($85)
@@ -505,6 +507,8 @@ ______
 **Warranty**: Standard warranty on hardware
 
 **Website**: [https://stscollective.com](https://stscollective.com)
+
+> 💰 **Reader Discount**: Use code **SIMEONONSECURITY** for up to 20% off STS Collective products — [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
 
 ---
 

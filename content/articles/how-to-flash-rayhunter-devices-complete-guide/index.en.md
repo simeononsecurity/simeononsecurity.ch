@@ -20,6 +20,8 @@ coverCaption: "Rayhunter IMSI Catcher Detection System - Protecting Mobile Commu
 
 **Sponsorship Disclosure**: This article is sponsored by [STS Collective](https://stscollective.com), the main provider of Rayhunter-compatible devices. Despite this sponsorship, all technical information, analysis, and recommendations in this guide remain completely unbiased and based solely on the official Rayhunter documentation, community feedback, and objective technical assessment.
 
+> 💰 **Exclusive Reader Discount**: Save up to 20% on Rayhunter devices and all STS Collective products — use code **SIMEONONSECURITY** at checkout or [shop directly with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
 ## Introduction to Rayhunter
 
 **Rayhunter** is an advanced IMSI catcher detection system developed by the **Electronic Frontier Foundation (EFF)**, a leading nonprofit organization dedicated to defending civil liberties in the digital world. The EFF has been at the forefront of privacy rights advocacy since 1990, fighting for digital privacy, free expression, and innovation through impact litigation, policy analysis, grassroots activism, and technology development.

@@ -293,6 +293,8 @@ Three primary hardware platforms are available for Flock detection:
 - Professional-grade enclosure
 - Multi-mode detection including RayHunter signatures
 
+> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products including the mesh-detect v2 — use code **SIMEONONSECURITY** at checkout or [shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
 ### Where to Purchase Detection Devices
 
 **Authorized Vendors**:
