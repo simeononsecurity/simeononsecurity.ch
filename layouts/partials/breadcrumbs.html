@@ -1,118 +1,153 @@
 <style>
-  #breadcrumbs {
-    display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-  }
-
-  /* General Breadcrumbs Styles */
-  #breadcrumbs,
-  .breadcrumb-list,
-  .breadcrumb-item,
-  .breadcrumb-item a {
-    list-style: none;
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    align-items: center; /* Center items vertically */
-  }
-
-  .breadcrumbs {
-    list-style: none;
-    margin: 0;
+  .bc-nav {
+    margin: 0 0 0.5rem 0;
     padding: 0;
   }
 
-  .breadcrumbs li {
-    color: var(--color-secondary);
-    font-size: 0.9rem;
+  .bc-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.45rem 0.85rem;
+    background: var(--background-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    gap: 0.15rem 0;
+    min-height: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;          /* Firefox */
+    -ms-overflow-style: none;       /* IE/Edge */
   }
 
-  .breadcrumbs li:last-child {
-    font-weight: bold;
-    color: var(--color);
+  .bc-list::-webkit-scrollbar {
+    display: none;                  /* Chrome/Safari */
   }
 
-  .breadcrumbs a {
+  .bc-item {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.8rem;
+    min-width: 0;
+  }
+
+  .bc-item a {
     color: var(--color-secondary);
     text-decoration: none;
+    max-width: 22ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.15s ease;
   }
 
-  .breadcrumbs a:hover {
+  .bc-item a:hover {
+    color: var(--color);
     text-decoration: underline;
   }
 
-  /* Dark Theme Styles */
-  .dark-theme .breadcrumbs li:last-child {
-    color: white;
+  .bc-item.bc-current {
+    color: var(--color);
+    font-weight: 600;
+    max-width: 30ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
-  .dark-theme .breadcrumbs a {
-    color: #C8C8C8;
+  .bc-sep {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.35rem;
+    color: var(--border-color);
+    font-size: 0.85rem;
+    user-select: none;
+    flex-shrink: 0;
   }
 
-  /* Mobile Device Styles */
-  @media screen and (max-width: 768px) {
-    #breadcrumbs,
-    .breadcrumb-list,
-    .breadcrumb-item,
-    .breadcrumb-item a {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      min-width: 0; /* Reset minimum width */
-      align-items: baseline; /* Reset alignment */
-    }
+  .bc-home-icon {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 0.2rem;
+    margin-bottom: 1px;
+  }
 
-    .breadcrumbs li,
-    .breadcrumbs a {
-      padding: 8px;
-      margin-right: 5px; /* Adjust margin for touch-friendliness */
-      font-size: 0.8rem; /* Slightly smaller font for mobile */
-      white-space: nowrap; /* Prevent text wrapping */
-    }
+  /* Dark theme overrides */
+  body.dark-theme .bc-list {
+    background: var(--background-secondary);
+    border-color: var(--border-color);
+  }
 
-    .breadcrumbs a {
-      border: 1px solid var(--color-secondary);
-      background-color: var(--color-secondary);
-      color: white;
-      border-radius: 4px;
-      text-align: center;
-      transition: background-color 0.2s ease;
-    }
+  body.dark-theme .bc-item a {
+    color: var(--color-secondary);
+  }
 
-    .breadcrumbs a:hover {
-      background-color: var(--color);
-    }
+  body.dark-theme .bc-item a:hover {
+    color: var(--color);
+  }
 
-    /* Allow wrapping on mobile */
-    .breadcrumbs {
-      white-space: nowrap;
-      overflow: auto;
+  body.dark-theme .bc-item.bc-current {
+    color: var(--color);
+  }
+
+  body.dark-theme .bc-sep {
+    color: var(--border-color);
+  }
+
+  @media (max-width: 684px) {
+    .bc-item a {
+      max-width: 14ch;
+    }
+    .bc-item.bc-current {
+      max-width: 18ch;
+    }
+    .bc-item {
+      font-size: 0.75rem;
     }
   }
 </style>
 
-<nav id="breadcrumbs" aria-label="breadcrumbs">
-  <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+<nav class="bc-nav" aria-label="Breadcrumb">
+  <ol class="bc-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+
+    {{/* Home crumb — always first */}}
+    <li class="bc-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ "/" | relLangURL }}" itemprop="item" title="Home" aria-label="Home">
+        <span class="bc-home-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </span>
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    {{/* Ancestor sections */}}
     {{- range $index, $ancestor := .Ancestors.Reverse }}
-    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{{ $ancestor.RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
-      itemprop="item" itemid="{{ $ancestor.RelPermalink }}" title="{{ $ancestor.Title }}" aria-label="{{ $ancestor.Title }}">
+    <li class="bc-sep" aria-hidden="true">›</li>
+    <li class="bc-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ $ancestor.RelPermalink }}" itemprop="item" title="{{ $ancestor.Title }}">
         <span itemprop="name">{{ $ancestor.Title }}</span>
       </a>
-      <meta itemprop="position" content="{{ $index }}" />
+      <meta itemprop="position" content="{{ add $index 2 }}" />
     </li>
-    <li class="breadcrumb-separator">&gt;</li>
     {{- end }}
-    <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{{ .RelPermalink }}" itemscope itemtype="https://schema.org/WebPage"
-      itemprop="item" itemid="{{ .RelPermalink }}" title="{{ .Title }}" aria-label="{{ .Title }}">
-        <span itemprop="name">{{ .Title }}</span>
-      </a>
-      <meta itemprop="position" content="{{ len .Ancestors }}" />
+
+    {{/* Current page — not a link, just text */}}
+    <li class="bc-sep" aria-hidden="true">›</li>
+    <li class="bc-item bc-current"
+        aria-current="page"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem">
+      <span itemprop="name" title="{{ .Title }}">{{ .Title }}</span>
+      <meta itemprop="item" content="{{ .Permalink }}" />
+      <meta itemprop="position" content="{{ add (len .Ancestors) 2 }}" />
     </li>
+
   </ol>
 </nav>
-
-
