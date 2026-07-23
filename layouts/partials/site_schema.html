@@ -9,7 +9,7 @@
 {{ if .IsHome -}}
 <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "{{ .Site.Title }}{{ if ne .Site.Language.Locale "en" }} in {{ .Site.Language.Locale | upper }}{{ end }}",
     "url": "{{ .Site.BaseURL }}",
@@ -21,7 +21,7 @@
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "{{ .Site.Params.BaseURL }}/search?q={search_term_string}"
+        "urlTemplate": "{{ .Site.BaseURL }}search?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     },
@@ -56,8 +56,8 @@
   {{ end }}
 <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
       "articleSection": "{{ .Section }}",
       "name": "{{ .Title | safeJS }}",
       "headline": "{{ .Title | safeJS }}",
