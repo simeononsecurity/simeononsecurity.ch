@@ -22,6 +22,8 @@ This comprehensive guide covers everything from the **technical methodology** be
 
 For context on why this technology matters and the broader surveillance landscape, read our companion article: **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
 
+Want to see where Flock cameras have already been mapped? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** is an open-source tool that plots 40,000+ suspected Flock Safety cameras worldwide using WiGLE WiFi data and OUI fingerprinting — updated daily. Source on **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
 ______
 
 ## Understanding the Flock-You Detection Methodology
@@ -908,8 +910,10 @@ ______
 ## References
 
 1. [Flock-You GitHub Repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)
-2. [Colonel Panic Tech - Official Vendor](https://colonelpanic.tech)
-3. [STS Collective - M5 Atom Lite Pre-Flashed](https://stscollective.com)
+2. [Flock Finder - Interactive ALPR Camera Map](https://simeononsecurity.github.io/flock-finder/)
+3. [Flock Finder - GitHub Repository](https://github.com/simeononsecurity/flock-finder)
+4. [Colonel Panic Tech - Official Vendor](https://colonelpanic.tech)
+5. [STS Collective - M5 Atom Lite Pre-Flashed](https://stscollective.com)
 4. [M5Stack Official Documentation](https://docs.m5stack.com/en/core/atom_lite)
 5. [Espressif ESP32 Technical Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
 6. [WiFi Promiscuous Mode Tutorial](https://esp32developer.com/wifi-promiscuous-mode)

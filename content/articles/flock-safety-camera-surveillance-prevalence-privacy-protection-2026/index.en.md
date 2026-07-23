@@ -237,6 +237,8 @@ The breakthrough in Flock detection comes from **WiFi networking characteristics
 
 The **open-source Flock-You project** has transformed counter-surveillance capabilities. Developed by security researchers and catalogued in the GitHub repository **`colonelpanichacks/flock-you`**, this project enables:
 
+**[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** extends this work by querying the WiGLE crowdsourced WiFi database for the same 31 OUIs, plotting 40,000+ suspected Flock cameras on an interactive map updated daily. **[Source on GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
 - **Real-time detection** of Flock Safety cameras via WiFi signatures
 - **Affordable hardware platforms** ($40-$110) for consumer-level detection
 - **Mobile and stationary detection modes**
