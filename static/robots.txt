@@ -23,6 +23,8 @@ User-agent: bingbot
 User-agent: BingPreview
 User-agent: BublupBot
 User-agent: CCBot
+User-agent: Claude-Web
+User-agent: ClaudeBot
 User-agent: Cliqzbot
 User-agent: coccoc
 User-agent: coccocbot-image
@@ -49,6 +51,7 @@ User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: Googlebot smartphone
+User-agent: GPTBot
 User-agent: gtmetrix
 User-agent: HaoSouSpider
 User-agent: ichiro
@@ -57,17 +60,20 @@ User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru
 User-agent: Mediapartners-Google
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
 User-agent: MicrosoftPreview
 User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
+User-agent: OAI-SearchBot
 User-agent: OrangeBot
+User-agent: PerplexityBot
 User-agent: Pinterest
 User-agent: Plukkie
 User-agent: Qwantify
 User-agent: Rambler
 User-agent: SeznamBot
-User-agent: Sosospider
 User-agent: Slurp
 User-agent: Sogou blog
 User-agent: Sogou inst spider
@@ -75,6 +81,7 @@ User-agent: Sogou News Spider
 User-agent: Sogou Orion spider
 User-agent: Sogou spider2
 User-agent: Sogou web spider
+User-agent: Sosospider
 User-agent: SputnikBot
 User-agent: Teoma
 User-agent: Twitterbot
@@ -86,6 +93,7 @@ User-agent: YandexMobileBot
 User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
+User-agent: YouBot
 User-agent: YoudaoBot
 Allow: /
 
