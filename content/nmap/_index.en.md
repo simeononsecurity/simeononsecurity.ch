@@ -5,5 +5,4 @@ genre: ["network scanning", "security", "online tools"]
 tags: ["Nmap", "network scanning", "security", "IP addresses", "domains", "IP ranges", "port scanning", "command generator", "online tools"]
 sitemap:
   priority: 0.3
-layout: "nmap_command_gen"
 ---

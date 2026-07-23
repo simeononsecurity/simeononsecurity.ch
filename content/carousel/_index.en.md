@@ -5,5 +5,4 @@ genre: []
 tags: []
 sitemap:
   priority: 0.3
-layout: "image-carousel"
 ---
