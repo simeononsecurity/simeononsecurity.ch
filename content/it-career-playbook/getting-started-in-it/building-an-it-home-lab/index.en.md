@@ -6,8 +6,9 @@ date: 2026-07-22
 lastmod: 2026-07-22
 description: "In 2026, a well-documented IT homelab is the most important thing you can build for your career. Certifications are checkboxes. Your homelab proves you can actually do the work."
 tags: ["IT homelab 2026", "building an IT home lab", "homelab career", "IT portfolio homelab", "Proxmox homelab", "homelab for job seekers", "IT lab setup", "homelab documentation career", "homelab github", "IT career proof of work"]
-coverAlt: "A home office with a small server rack, managed switches, and multiple monitors showing Proxmox dashboards, monitoring graphs, and GitHub documentation side by side."
+coverAlt: "A modern IT home lab setup with multiple servers and a workstation, featuring virtual machines on screens and a wall monitor showing monitoring dashboards, all against a dark background."
 coverCaption: ""
+cover: "/img/cover/it-home-lab-setup-2026-portfolio.webp"
 ---
 
 #### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)

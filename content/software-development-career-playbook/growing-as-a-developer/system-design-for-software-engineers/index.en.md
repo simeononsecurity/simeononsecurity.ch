@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "Learn the distributed systems concepts, architecture patterns, and study strategies needed to master system design as a software engineer and ace system design interviews."
 tags: ["system design for software engineers", "system design interview prep", "distributed systems concepts", "software architecture patterns", "how to study system design", "system design guide", "CAP theorem", "load balancing", "caching", "growing as a developer"]
-coverAlt: "A software engineer designing a distributed system architecture on a whiteboard with boxes and arrows showing services, databases, caches, and load balancers."
+coverAlt: "An illustration of a software system architecture with interconnected servers, data flows, and icons representing scalability, load balancing, caching, and database types, all set against a dark background."
 coverCaption: ""
+cover: "/img/cover/system-design-software-engineers-concepts-patterns-interview-prep.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

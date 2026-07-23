@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "Learn the core DevOps and platform engineering concepts every senior developer needs to know — CI/CD pipelines, infrastructure as code, observability, and the platform engineer role."
 tags: ["DevOps for developers", "platform engineering career", "CI/CD pipeline", "infrastructure as code terraform", "observability for developers", "kubernetes for developers", "docker deployment", "managing a development team", "software development career playbook"]
-coverAlt: "A developer reviewing a CI/CD pipeline dashboard on a monitor with Kubernetes cluster health metrics and deployment logs visible."
+coverAlt: "A digital illustration showing a developer at a desk with multiple screens displaying CI/CD pipelines, container orchestration, and Terraform scripts, set in a dark, modern workspace."
 coverCaption: ""
+cover: "/img/cover/devops-platform-engineering-ci-cd-iac-observability.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

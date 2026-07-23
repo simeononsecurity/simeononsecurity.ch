@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "Understand the core software development methodologies — Agile, Scrum, and Kanban — when to use each one, and what actually works versus what becomes process theater."
 tags: ["agile software development", "scrum methodology", "kanban for developers", "agile vs scrum vs kanban", "software development process", "sprint planning", "agile team practices", "managing a development team", "software development methodologies"]
-coverAlt: "An engineering team reviewing a Kanban board with tickets showing In Progress, Review, and Done columns in a modern agile project management interface."
+coverAlt: "A digital illustration of a modern workspace showing a Kanban board with colorful cards and a Scrum team engaged in a daily standup, all set against a dark background."
 coverCaption: ""
+cover: "/img/cover/agile-scrum-kanban-software-development-methodologies.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

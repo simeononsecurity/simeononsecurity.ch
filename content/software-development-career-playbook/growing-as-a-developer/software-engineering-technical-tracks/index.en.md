@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "Understand the individual contributor technical ladder beyond senior engineer — staff engineer, principal engineer, distinguished engineer, and architect roles — and what it takes to advance."
 tags: ["staff engineer career path", "principal engineer", "software architect career", "IC track vs management track", "staff engineer vs engineering manager", "software engineer technical ladder", "individual contributor career path", "growing as a developer"]
-coverAlt: "A senior software engineer at a whiteboard drawing distributed system architecture with staff and principal engineer level badges visible on the diagram."
+coverAlt: "An illustration showing three levels of a software engineering career path: Staff, Principal, and Architect, with abstract symbols like gears and blueprints, and silhouettes of engineers in a collaborative scene."
 coverCaption: ""
+cover: "/img/cover/software-engineering-career-path-staff-principal-architect.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

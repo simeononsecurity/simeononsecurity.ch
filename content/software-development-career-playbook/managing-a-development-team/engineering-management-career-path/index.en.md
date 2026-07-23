@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "What the engineering manager role actually involves, how to transition from individual contributor to EM, what the career path looks like beyond EM, and how to decide if management is right for you."
 tags: ["engineering management career path", "individual contributor to engineering manager", "how to become an engineering manager", "EM vs IC career", "software engineering manager role", "engineering manager responsibilities", "director of engineering", "managing a development team"]
-coverAlt: "An engineering manager in a 1:1 meeting with a developer, reviewing a roadmap on a laptop in a glass-walled conference room."
+coverAlt: "An illustration showing a split pathway: one side features a developer coding at a desk, while the other side shows an engineering manager in a meeting with a team. The background is dark."
 coverCaption: ""
+cover: "/img/cover/engineering-management-career-path-transition.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "How to build and lead a high-performing software development team — hiring for technical and cultural fit, running effective 1:1s, building code review culture, and sustaining team health."
 tags: ["building a development team", "leading a software engineering team", "engineering manager 1:1s", "hiring software developers", "code review culture", "software team culture", "team health metrics", "managing a development team"]
-coverAlt: "An engineering manager leading a team standup in front of a sprint board, with developers gathered around in a collaborative tech office space."
+coverAlt: "A diverse group of software engineers gathered around a table, engaging in discussion and analyzing code on laptops in a modern, collaborative workspace with dark background and vibrant accents."
 coverCaption: ""
+cover: "/img/cover/building-leading-development-team-culture-hiring-1-1s.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
