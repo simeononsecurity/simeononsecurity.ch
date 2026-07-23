@@ -5,8 +5,9 @@ toc: true
 date: 2026-07-22
 description: "How to write a software developer resume that passes ATS screening and impresses hiring managers — structure, project presentation, keyword strategy, and common mistakes to avoid."
 tags: ["software developer resume tips", "developer resume writing", "ATS resume for developers", "how to write a developer resume", "software engineer resume", "junior developer resume", "coding portfolio on resume", "resume keywords for developers"]
-coverAlt: "A software developer's resume on a desk next to a laptop showing code, with a red pen marking improvements to the resume format."
+coverAlt: "An illustration of a software developer's resume on a computer screen, highlighting sections like skills and projects, with a developer in the foreground looking thoughtfully at the screen."
 coverCaption: ""
+cover: "/img/cover/software-developer-resume-writing-tips-ats-keywords-projects.webp"
 ---
 
 #### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)

@@ -6,8 +6,9 @@ date: 2026-07-22
 lastmod: 2026-07-22
 description: "By mid-2026, degrees and certifications in IT are HR qualifying checkboxes, not differentiators. What actually matters is a well-documented homelab and the ability to demonstrate real skills in an interview."
 tags: ["do i need a degree for IT", "IT degree 2026", "IT certifications vs degree 2026", "IT degree worth it", "IT homelab vs degree", "CompTIA certification 2026", "IT qualifications 2026", "self taught IT career 2026"]
-coverAlt: "A split image showing a university diploma next to a laptop displaying a GitHub repository with homelab documentation and architecture diagrams."
+coverAlt: "An IT professional working in a high-tech homelab, surrounded by multiple monitors displaying code and project documentation, with servers and networking equipment in a dark, vibrant environment."
 coverCaption: ""
+cover: "/img/cover/it-professional-homelab-2026-portfolio.webp"
 ---
 
 #### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
