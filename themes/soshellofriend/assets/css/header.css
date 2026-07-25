@@ -3,8 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   padding: 20px;
+  border-bottom: 1px solid var(--border-color);
 
   &__right {
     display: flex;
@@ -32,6 +35,13 @@
   justify-content: center;
   line-height: 1;
   cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.15s;
+
+  &:hover {
+    background: var(--background-secondary);
+  }
 }
 
 .theme-toggler {

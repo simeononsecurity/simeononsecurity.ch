@@ -38,13 +38,21 @@
   }
 
   &-tags {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
     margin-bottom: 20px;
-    font-size: 1rem;
-    opacity: .5;
+    font-size: 0.85rem;
+    opacity: 0.7;
 
     a {
+      display: inline-flex;
+      align-items: center;
       text-decoration: none;
+      padding: 3px 9px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      transition: opacity 0.15s, border-color 0.15s, background 0.15s;
     }
   }
 
@@ -86,44 +94,42 @@
   }
   
   .post-tags {
-    display: inline-block; /* Allow elements to wrap */
-    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 0.85rem;
     margin-bottom: 20px;
-    opacity: 0.5;
+    opacity: 0.7;
     color: var(--color);
-}
+  }
 
-.post-tags a {
-    /* color: rgb(0, 128, 64); */
+  .post-tags a {
     color: var(--color) !important; 
-    border: none;
+    display: inline-flex;
     align-items: center;
     text-decoration: none;
-    text-shadow: 0.1px 0.1px 0.1px black;
-    min-width: 48px; /* Set the minimum width to 48px */
-    min-height: 48px; /* Set the minimum height to 48px */
-    padding: 10px;
-    display: inline-block; /* Ensure elements stay on the same line */
-}
+    padding: 3px 9px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: opacity 0.15s, border-color 0.15s, background 0.15s;
+    min-width: 0;
+    min-height: 0;
+  }
 
-.dark-theme .post-tags a{
+  .dark-theme .post-tags a {
     color: var(--color) !important;
-    border: none;
     text-decoration: none;
-    text-shadow: white;
-}
+  }
 
-.post-tags a:hover {
-    color: black;
-    border: none;
-    border: 1px solid black;
-    border-radius: 4px;
-}
+  .post-tags a:hover {
+    background: var(--background-secondary);
+    border-color: var(--border-color);
+    opacity: 1;
+  }
 
-.dark-theme .post-tags a:hover {
-    color: white;
-    border: none;
-    border: 1px solid white;
-    border-radius: 1px;
-}
+  .dark-theme .post-tags a:hover {
+    background: var(--background-secondary);
+    border-color: var(--border-color);
+    opacity: 1;
+  }
 }

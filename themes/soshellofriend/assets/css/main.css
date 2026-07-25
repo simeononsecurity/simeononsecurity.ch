@@ -22,6 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
+  transition: background-color 0.2s ease, color 0.2s ease;
 
   @media (--phone) {
     font-size: 1rem;
