@@ -5,6 +5,8 @@
 {{ partial "google_tag_manager.html" . }}
 <main class="security-plus-quiz">
   {{ partialCached "breadcrumbs.html" . .Page}}
+  {{ partial "quiz_jsonld.html" (dict "Page" . "dictName" "quizdict") }}
+
 
   <h1 class="post-title">
     <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}"

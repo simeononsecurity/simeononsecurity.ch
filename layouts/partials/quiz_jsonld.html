@@ -1,0 +1,51 @@
+{{/* ─────────────────────────────────────────────────────────────────────────
+     quiz_jsonld.html — FAQPage JSON-LD for practice-test quiz pages
+
+     Usage (from inside a quiz section layout):
+       {{ partial "quiz_jsonld.html" (dict "Page" . "dictName" "secotplusdict") }}
+
+     Why os.ReadFile instead of resources.Get:
+       resources.Get looks in assets/ only. The quiz dicts live in static/.
+       os.ReadFile reads from the project root, so "static/quiz-dicts/XX.json" works.
+
+     FAQPage uses first 25 questions as a representative sample — enough for Google
+     rich-result eligibility without ballooning the rendered HTML. The reasoning field
+     (not the A/B/C/D options) is the "answer" text, which reads naturally.
+
+     Values are piped through jsonify so embedded quotes/newlines can't break the JSON.
+─────────────────────────────────────────────────────────────────────────── */}}
+{{ $pg       := .Page }}
+{{ $dictName := .dictName }}
+{{ $dictPath := printf "static/quiz-dicts/%s.json" $dictName }}
+
+{{/* Read dict from static/ — os.ReadFile is project-relative */}}
+{{ $raw := os.ReadFile $dictPath }}
+{{ if $raw }}
+{{ $questions := $raw | transform.Unmarshal }}
+{{ if $questions }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": {{ $pg.Title | jsonify }},
+  "url": {{ $pg.Permalink | jsonify }},
+  "mainEntity": [
+    {{- $limit := 25 -}}
+    {{- range $i, $q := $questions -}}
+      {{- if lt $i $limit -}}
+        {{ if $i }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $q.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $q.reasoning | jsonify }}
+          }
+        }
+      {{- end -}}
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}

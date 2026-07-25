@@ -20,7 +20,7 @@
 {{ $baseURL := $.Site.BaseURL }}
 
 {{/* Sections that are browser-based tools → SoftwareApplication */}}
-{{ $toolSections := slice "nmap" "chmod" "hash-calculator" "password-checker" "exif-viewer" "base64_encode_decode" "binary_decimal_converter" "securityheaders" "shodan_ip" "ping" "whatsmyip" "quiz" }}
+{{ $toolSections := slice "nmap" "chmod" "hash-calculator" "password-checker" "exif-viewer" "base64_encode_decode" "binary_decimal_converter" "securityheaders" "shodan_ip" "ping" "whatsmyip" }}
 
 {{/* ══════════════════════════════════════════════════════════════════════
      HOME PAGE — WebSite + Organization schemas
@@ -151,6 +151,52 @@
 </script>
 
 {{/* BreadcrumbList for tool sections */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ $baseURL }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Title | safeJS }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+
+{{/* ── Practice-test / quiz sections → LearningResource (Quiz) + BreadcrumbList ── */}}
+{{ else if or (strings.Contains .Section "practice-test") (eq .Section "quiz") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": {{ .Title | jsonify }},
+  "description": {{ if .Description }}{{ .Description | jsonify }}{{ else }}{{ .Summary | truncate 200 | jsonify }}{{ end }},
+  "url": {{ .Permalink | jsonify }},
+  "inLanguage": "{{ $lang }}",
+  "learningResourceType": "Practice Problem Set",
+  "educationalUse": "Practice",
+  "isAccessibleForFree": true,
+  "keywords": {{ if .Params.tags }}{{ .Params.tags | jsonify }}{{ else }}{{ .Params.genre | jsonify }}{{ end }},
+  "provider": {
+    "@type": "Organization",
+    "@id": "{{ $baseURL }}#organization",
+    "name": "{{ $orgName }}",
+    "url": "{{ $baseURL }}"
+  },
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}"
+}
+</script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
