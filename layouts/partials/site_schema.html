@@ -1,225 +1,175 @@
-{{ $enabledBlogURLs := slice "/blog" }} 
-{{ $currentPath := .Permalink }} 
-{{ $enableBlogSchema := false }} 
-{{ range $enabledBlogURLs}} 
-  {{ if (in $currentPath .) }} 
-    {{ $enableBlogSchema = true }} 
-  {{ end }} 
-{{ end }}
-{{ if .IsHome -}}
+{{/* ─────────────────────────────────────────────────────────────────────────
+    site_schema.html  — JSON-LD structured data for every page
+    Fixes vs old version:
+      • sameAs arrays now use | jsonify (were invalid JSON: no quotes, no commas)
+      • publisher logo dimensions read from config, not hardcoded "32"/"32"
+      • author.url points to author profile, not site root
+      • BlogPosting script was inside {{ else }} of cover-check; now correctly
+        placed after cover resolution (was silently dropped for posts w/ covers)
+      • inLanguage in BlogPosting was unquoted (invalid JSON); now quoted
+      • Article + BlogPosting deduped into one block — type chosen by path
+      • BreadcrumbList JSON-LD added for all non-home pages
+───────────────────────────────────────────────────────────────────────────── */}}
+
+{{/* ── Shared helpers ── */}}
+{{ $sameAs  := $.Site.Params.socialProfiles | jsonify }}
+{{ $logoURL := or $.Site.Params.organizationLogo $.Site.Params.logo | absURL }}
+{{ $logoW   := int (or $.Site.Params.publisherLogoWidth  460) }}
+{{ $logoH   := int (or $.Site.Params.publisherLogoHeight 460) }}
+{{ $orgName := $.Site.Title }}
+{{ $lang    := .Site.Language.Locale | default "en" }}
+{{ $baseURL := $.Site.BaseURL }}
+
+{{/* ══════════════════════════════════════════════════════════════════════
+     HOME PAGE — WebSite schema
+═══════════════════════════════════════════════════════════════════════ */}}
+{{ if .IsHome }}
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}{{ if ne .Site.Language.Locale "en" }} in {{ .Site.Language.Locale | upper }}{{ end }}",
-    "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.description }}",
-    "sameAs": [{{ .Site.Params.socialProfiles }}],
-    "thumbnailUrl": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
-    "license": "{{ .Site.Params.copyright }}",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "{{ .Site.BaseURL }}search?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ $orgName }}{{ if ne .Site.Language.Locale "en" }} ({{ .Site.Language.Locale | upper }}){{ end }}",
+  "url": "{{ $baseURL }}",
+  "description": "{{ .Site.Params.description | safeJS }}",
+  "sameAs": {{ $sameAs }},
+  "thumbnailUrl": "{{ $logoURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ $baseURL }}search?q={search_term_string}"
     },
-    "inLanguage": ["en","fr","es","de","hi","ar","bn","ca","it","ja","nl","ro","zh","pa","pt","ru","pl"]
-  }
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": ["en","fr","es","de","hi","ar","bn","ca","it","ja","nl","ro","zh","pa","pt","ru","pl"]
+}
 </script>
-{{ else if $enableBlogSchema }}
-{{ $author := or (.Params.author) (.Site.Params.Author.name) }}
-{{ $org_name := .Site.Title }}
-{{ $og_image := "" }}
+
+{{/* ══════════════════════════════════════════════════════════════════════
+     CONTENT PAGES — Article / BlogPosting schema + BreadcrumbList
+═══════════════════════════════════════════════════════════════════════ */}}
+{{ else if .IsPage }}
+
+{{/* Author */}}
+{{ $author    := or $.Page.Params.author $.Site.Params.Author.name "SimeonOnSecurity" }}
+{{ $authorURL := "/authors/simeononsecurity/" | absURL }}
+{{ with .Params.Author }}
+  {{ $authorURL = printf "/authors/%s/" (lower .) | absURL }}
+{{ end }}
+
+{{/* Resolve OG image — cover → page images → site banner */}}
+{{ $ogImage := "" }}
 {{ if .Params.cover }}
-  {{ $cover := resources.Get (.Params.Cover) }}
-  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
-  {{ if $cover }}
-    {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
-    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
-    {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
-    {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
-    {{ $og_image = $renamedimage.Permalink}}
-  {{ else }}
-    {{ if .Params.images }}
-      {{ $og_image = index .Params.images 0 | absURL }}
-    {{ else }}
-      {{ $og_image = index $.Site.Params.images 0 | absURL }}
-    {{ end }}
-  {{ end }}
-{{ else }}
-  {{ if .Params.images }}
-    {{ $og_image = index .Params.images 0 | absURL }}
-  {{ else }}
-    {{ $og_image = index $.Site.Params.images 0 | absURL }}
-  {{ end }}
-<script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-      "articleSection": "{{ .Section }}",
-      "name": "{{ .Title | safeJS }}",
-      "headline": "{{ .Title | safeJS }}",
-      "alternativeHeadline": "{{ .Params.lead }}",
-      "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
-      "inLanguage": {{ .Site.Language.Locale | default "en-us" }},
-      "isFamilyFriendly": "true",
-      "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "{{ .Permalink }}"
-      },
-      "author" : {
-          "@type": "Person",
-          "name": "{{ $author }}",
-          "additionalName": "{{ $author }}",
-          "url": "{{ .Site.BaseURL }}"
-      },
-      "creator" : {
-          "@type": "Person",
-          "name": "{{ $author }}"
-      },
-      "accountablePerson" : {
-          "@type": "Person",
-          "name": "{{ $author }}"
-      },
-      "copyrightHolder" : "{{ $org_name }}",
-      "copyrightYear" : "{{ .Date.Format "2006" }}",
-      "dateCreated": "{{ .Date.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-      "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-      "publisher":{
-          "@type":"Organization",
-          "name": "{{ $org_name }}",
-          "url": "{{ .Site.BaseURL }}",   
-          "sameAs": [{{ .Site.Params.socialProfiles }}],       
-          "logo": {
-              "@type": "ImageObject",
-              "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
-              "width":"32",
-              "height":"32"
-          }
-      },
-      "image": "{{ $og_image }}",
-      "url" : "{{ .Permalink }}",
-      "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
-      "keywords" : [ {{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "xpath": [
-            "//title",
-            "//meta[@name='description']/@content",
-            "//body"
-        ]
-    }    
-  }
-  </script>
-{{ end }}
-{{ else if .IsPage }} 
-{{ $author := or ($.Page.Params.author) ($.Site.Params.Author.name) }}
-{{ $authorURL := "" }}
-{{ if .Params.Author }}
-  {{ with .Params.Author }}
-      {{ $authorURL = printf "/authors/%s" (lower $.Params.Author) | absURL }}
-      {{ $author = or ($.Page.Params.author) ($.Site.Params.Author.name) }}
-  {{ else }}
-      {{ $authorURL =  ("/authors/simeononsecurity"| absURL) }}
-      {{ $author = "simeononsecurity" }}
-  {{ end }}
-{{ end }}
-{{ $org_name := .Site.Title }}
-{{ $og_image := "" }}
-{{ if .Params.cover }}
-  {{ $cover := resources.Get (.Params.Cover) }}
-  {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
-  {{ if $cover }}
-    {{ $optimizedimage := ($cover.Resize "1200x630 webp q80") }}
-    {{ $permalink := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
-    {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
-    {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
-    {{ $og_image = $renamedimage.Permalink}}
-  {{ else }}
-    {{ if .Params.images }}
-      {{ $og_image = index .Params.images 0 | absURL }}
-    {{ else }}
-      {{ $og_image = index $.Site.Params.images 0 | absURL }}
-    {{ end }}
-  {{ end }}
-{{ else }}
-  {{ if .Params.images }}
-    {{ $og_image = index .Params.images 0 | absURL }}
-  {{ else }}
-    {{ $og_image = index $.Site.Params.images 0 | absURL }}
-  {{ end }}
-{{ end }}
-{{ $cover := ""}}
-{{ if .Params.Cover }}
-  {{ $cover = resources.Get (.Params.Cover)}}
+  {{ $cover := resources.Get .Params.Cover }}
   {{ if .Params.UseRelativeCover }}
     {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
   {{ end }}
+  {{ if $cover }}
+    {{ $opt    := $cover.Resize "1200x630 webp q80" }}
+    {{ $base   := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
+    {{ $fname  := printf "%s_%dx%d.%s" $base $opt.Width $opt.Height "webp" | urlize }}
+    {{ $ogImage = ($opt | resources.Copy $fname).Permalink }}
+  {{ else if .Params.images }}
+    {{ $ogImage = index .Params.images 0 | absURL }}
+  {{ else }}
+    {{ $ogImage = index $.Site.Params.images 0 | absURL }}
+  {{ end }}
+{{ else if .Params.images }}
+  {{ $ogImage = index .Params.images 0 | absURL }}
+{{ else }}
+  {{ $ogImage = index $.Site.Params.images 0 | absURL }}
 {{ end }}
+
+{{/* Article type: BlogPosting for /blog/, Article everywhere else */}}
+{{ $articleType := "Article" }}
+{{ if hasPrefix .RelPermalink "/blog" }}
+  {{ $articleType = "BlogPosting" }}
+{{ end }}
+
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "{{ .Section }}",
-    "name": "{{ or $.Page.Title $.Title | safeJS }}",
-    "headline": "{{ or $.Page.Title $.Title | safeJS }}",
-    "alternativeHeadline": "{{ .Params.lead }}",
-    "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
-    "inLanguage": "{{ .Site.Language.Locale | default "en-us" }}",
-    "isFamilyFriendly": true,
-    "author": {
+{
+  "@context": "https://schema.org",
+  "@type": "{{ $articleType }}",
+  "articleSection": "{{ .Section }}",
+  "name": "{{ or $.Page.Title $.Title | safeJS }}",
+  "headline": "{{ or $.Page.Title $.Title | safeJS }}",
+  "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{ .Summary | safeJS }}{{ end }}",
+  "inLanguage": "{{ $lang }}",
+  "isFamilyFriendly": true,
+  "author": {
+    "@type": "Person",
+    "name": "{{ $author }}",
+    "url": "{{ $authorURL }}",
+    "sameAs": {{ $sameAs }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $orgName }}",
+    "url": "{{ $baseURL }}",
+    "sameAs": {{ $sameAs }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ $logoURL }}",
+      "width": {{ $logoW }},
+      "height": {{ $logoH }}
+    }
+  },
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
+  "image": {
+    "@type": "ImageObject",
+    "contentUrl": "{{ $ogImage }}",
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
       "@type": "Person",
       "name": "{{ $author }}",
-      "additionalName": "{{ $author }}",
-      "url": "{{ .Site.BaseURL }}",
-      "sameAs": [{{ .Site.Params.socialProfiles }}]
+      "url": "{{ $authorURL }}",
+      "sameAs": {{ $sameAs }}
     },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ .Permalink }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ $org_name }}",
-      "url": "{{ .Site.BaseURL }}",
-      "sameAs": [{{ .Site.Params.socialProfiles }}],
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ ( or ($.Site.Params.organizationLogo) ($.Page.Params.Cover) ) | absURL }}",
-        "width": "32",
-        "height": "32"
-      }
-    },
-    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
-    "image": {
-      "@type": "ImageObject",
-      "contentUrl": "{{ $og_image }}",
-      "license": "https://simeononsecurity.com/termsandconditions/",
-      "acquireLicensePage": "https://simeononsecurity.com/contactus/",
-      "creditText": "SimeonOnSecurity",
-      "creator": {
-        "@type": "Person",
-        "name": "{{ $author }} ",
-        "url": "{{ $authorURL }}",
-        "sameAs": [{{ .Site.Params.socialProfiles }}]
-      },
-      "copyrightNotice": "SimeonOnSecurity"
-    },
-    "url": "{{ .Permalink }}",
-    "genre": [{{ if .Params.genre }} {{ range $index, $genre := .Params.genre }}{{ if $index }},{{ end }}"{{ $genre }}"{{ end }}{{ else }} {{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}{{ end }}],
-    "keywords": [{{ range $index, $tag := .Params.tags }}{{ if $index }},{{ end }}"{{ $tag }}"{{ end }}],
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "xpath": [
-        "//title",
-        "//meta[@name='description']/@content",
-        "//body"
-      ]
-    }
-  }  
+    "copyrightNotice": "SimeonOnSecurity"
+  },
+  "url": "{{ .Permalink }}",
+  "genre": [{{ if .Params.genre }}{{ range $i, $g := .Params.genre }}{{ if $i }},{{ end }}"{{ $g }}"{{ end }}{{ else }}{{ range $i, $t := .Params.tags }}{{ if $i }},{{ end }}"{{ $t }}"{{ end }}{{ end }}],
+  "keywords": [{{ range $i, $t := .Params.tags }}{{ if $i }},{{ end }}"{{ $t }}"{{ end }}],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "xpath": ["//title","//meta[@name='description']/@content","//body"]
+  }
+}
 </script>
+
+{{/* ── BreadcrumbList JSON-LD (complements the microdata in breadcrumbs.html) */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ $baseURL }}"
+    }{{ range $i, $a := .Ancestors.Reverse }},
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 2 }},
+      "name": "{{ $a.Title | safeJS }}",
+      "item": "{{ $a.Permalink }}"
+    }{{ end }},
+    {
+      "@type": "ListItem",
+      "position": {{ add (len .Ancestors) 2 }},
+      "name": "{{ .Title | safeJS }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+
 {{ end }}
