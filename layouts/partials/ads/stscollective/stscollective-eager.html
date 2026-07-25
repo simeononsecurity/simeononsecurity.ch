@@ -23,7 +23,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 
   /* Hide the image for viewports smaller than 320px */
@@ -56,13 +56,45 @@
       height: 250px;
     }
   }
+
+  .stscollective-ad-eager-link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .stscollective-ad-eager-cta {
+    background: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 5px 12px 6px;
+    font-family: sans-serif;
+    line-height: 1.35;
+  }
+
+  .stscollective-ad-eager-cta strong {
+    display: block;
+    font-size: 0.82rem;
+    color: #fbbf24;
+    letter-spacing: 0.02em;
+  }
+
+  .stscollective-ad-eager-code {
+    display: block;
+    font-size: 0.7rem;
+    color: #93c5fd;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
 </style>
 
 <a
   href="https://stscollective.com/"
   target="_blank"
   rel="noopener nofollow sponsored"
-  title="STS Collective Ad"
+  title="Shop STS Collective — Save up to 20% with code SIMEONONSECURITY"
   id="stscollective-ad-eager"
   class="stscollective-ad-eager-link"
 >
@@ -81,11 +113,15 @@
     />
     <img
       src="{{ $optimizedtiny }}"
-      alt="STS Collective"
+      alt="STS Collective — cybersecurity apparel and gear"
       class="stscollective-ad-eager-image"
       fetchpriority="high"
       loading="eager"
       style="border:0px"
     />
   </picture>
+  <div class="stscollective-ad-eager-cta">
+    <strong>Shop Now &mdash; Save up to 20% Today</strong>
+    <span class="stscollective-ad-eager-code">Code: SIMEONONSECURITY</span>
+  </div>
 </a>

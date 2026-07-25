@@ -12,24 +12,25 @@
       bottom: 20px;
       left: 20px;
       z-index: 9999;
-      border-radius: 10px; /* Adding rounded corners with a value of 10px */
-      overflow: hidden; /* This ensures the image stays within the rounded container */
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
     }
-    
+
     /* Styles for the image */
     .signalandsteel-ad-eager-floating-image {
       display: block;
       max-width: 100%;
       height: auto;
     }
-  
-    /* Hide the image for viewports smaller than 900px */
+
+    /* Hide the container for viewports smaller than 900px */
     @media (max-width: 900px) {
       .signalandsteel-ad-eager-floating-container {
         display: none;
       }
     }
-  
+
     /* Styles for the image at 255x212 */
     @media (min-width: 901px) {
       .signalandsteel-ad-eager-floating-image {
@@ -37,13 +38,38 @@
         height: 212px;
       }
     }
+
+    .signalandsteel-ad-eager-floating-cta {
+      background: #0f172a;
+      color: #f1f5f9;
+      text-align: center;
+      padding: 5px 10px 6px;
+      font-family: sans-serif;
+      line-height: 1.3;
+    }
+
+    .signalandsteel-ad-eager-floating-cta strong {
+      display: block;
+      font-size: 0.75rem;
+      color: #34d399;
+      letter-spacing: 0.02em;
+    }
+
+    .signalandsteel-ad-eager-floating-code {
+      display: block;
+      font-size: 0.65rem;
+      color: #93c5fd;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
   </style>
-  
+
   <a
     href="https://signalandsteel.com/"
     target="_blank"
     rel="noopener nofollow sponsored"
-    title="Signal and Steel Ad"
+    title="Shop Signal and Steel — Save up to 20% with code SIMEONONSECURITY"
     id="signalandsteel-ad-eager-floating"
     class="signalandsteel-ad-eager-floating-link signalandsteel-ad-eager-floating-container"
   >
@@ -54,10 +80,14 @@
       />
       <img
         src="{{ $optimizedtiny }}"
-        alt="Signal and Steel"
+        alt="Signal and Steel — cybersecurity gear and apparel"
         class="signalandsteel-ad-eager-floating-image"
         fetchpriority="high"
         loading="eager"
       />
     </picture>
+    <div class="signalandsteel-ad-eager-floating-cta">
+      <strong>Shop Now &mdash; Save up to 20%</strong>
+      <span class="signalandsteel-ad-eager-floating-code">Code: SIMEONONSECURITY</span>
+    </div>
   </a>

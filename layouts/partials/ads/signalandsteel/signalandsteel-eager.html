@@ -23,7 +23,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 
   /* Hide the image for viewports smaller than 300px */
@@ -56,13 +56,45 @@
       height: 250px;
     }
   }
+
+  .signalandsteel-ad-eager-link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .signalandsteel-ad-eager-cta {
+    background: #0f172a;
+    color: #f1f5f9;
+    text-align: center;
+    padding: 5px 12px 6px;
+    font-family: sans-serif;
+    line-height: 1.35;
+  }
+
+  .signalandsteel-ad-eager-cta strong {
+    display: block;
+    font-size: 0.82rem;
+    color: #34d399;
+    letter-spacing: 0.02em;
+  }
+
+  .signalandsteel-ad-eager-code {
+    display: block;
+    font-size: 0.7rem;
+    color: #93c5fd;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
 </style>
 
 <a
   href="https://signalandsteel.com/"
   target="_blank"
   rel="noopener nofollow sponsored"
-  title="Signal and Steel Ad"
+  title="Shop Signal and Steel — Save up to 20% with code SIMEONONSECURITY"
   id="signalandsteel-ad-eager"
   class="signalandsteel-ad-eager-link"
 >
@@ -81,11 +113,15 @@
     />
     <img
       src="{{ $optimizedtiny }}"
-      alt="Signal and Steel"
+      alt="Signal and Steel — cybersecurity gear and apparel"
       class="signalandsteel-ad-eager-image"
       fetchpriority="high"
       loading="eager"
       style="border:0px"
     />
   </picture>
+  <div class="signalandsteel-ad-eager-cta">
+    <strong>Shop Now &mdash; Save up to 20% Today</strong>
+    <span class="signalandsteel-ad-eager-code">Code: SIMEONONSECURITY</span>
+  </div>
 </a>
