@@ -48,3 +48,4 @@ tools/optimize-images.py
 tools/pngcrush.exe
 *.img
 tools/fix_content.py
+tools/generate_ad_images.py
