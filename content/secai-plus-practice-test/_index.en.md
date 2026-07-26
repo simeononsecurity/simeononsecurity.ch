@@ -5,5 +5,4 @@ genre: ["CompTIA SecAI+", "CY0-001", "practice test", "AI security", "secure AI"
 tags: ["CompTIA SecAI+", "CY0-001", "practice test", "artificial intelligence security", "machine learning security", "LLM security", "AI governance risk compliance", "adversarial machine learning", "prompt injection", "AI threat modeling"]
 sitemap:
   priority: 0.3
-layout: "secai_plus_quiz"
 ---

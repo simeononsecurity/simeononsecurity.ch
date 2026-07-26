@@ -5,5 +5,4 @@ genre: ["CompTIA Security Plus", "practice test", "network security"]
 tags: ["CompTIA Security Plus", "practice test", "security knowledge", "concepts", "techniques", "best practices", "network security"]
 sitemap:
   priority: 0.3
-layout: "security_plus_quiz"
 ---

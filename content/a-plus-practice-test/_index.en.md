@@ -5,5 +5,4 @@ genre: ["CompTIA A Plus", "practice test", "computer hardware", "software", "tro
 tags: ["CompTIA A Plus", "practice test", "knowledge boost", "concepts", "troubleshooting techniques", "best practices", "computer hardware", "software"]
 sitemap:
   priority: 0.3
-layout: "a_plus_quiz"
 ---

@@ -5,5 +5,4 @@ genre: ["CEH", "practice test", "ethical hacking", "penetration testing", "netwo
 tags: ["CEH", "practice test", "ethical hacking", "penetration testing", "network security", "vulnerability assessment"]
 sitemap:
   priority: 0.3
-layout: "ceh_quiz"
 ---

@@ -5,5 +5,4 @@ genre: ["CompTIA SecOT+", "SOT-001", "practice test", "OT security", "ICS securi
 tags: ["CompTIA SecOT+", "SOT-001", "practice test", "operational technology security", "industrial control systems", "SCADA security", "PLC security", "OT risk management", "ICS threat intelligence", "OT incident response", "ISA/IEC 62443", "NERC CIP"]
 sitemap:
   priority: 0.3
-layout: "secot_plus_quiz"
 ---

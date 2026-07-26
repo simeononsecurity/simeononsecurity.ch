@@ -5,5 +5,4 @@ genre: ["CompTIA SecurityX", "CASP+", "practice test", "security architecture", 
 tags: ["CompTIA SecurityX", "CASP+", "CAS-005", "practice test", "governance risk compliance", "security architecture", "security engineering", "security operations", "advanced security"]
 sitemap:
   priority: 0.3
-layout: "casp_plus_quiz"
 ---

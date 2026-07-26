@@ -5,5 +5,4 @@ genre: ["CCNA", "practice test", "networking fundamentals", "routing and switchi
 tags: ["CCNA", "practice test", "networking fundamentals", "routing and switching", "network security", "troubleshooting"]
 sitemap:
   priority: 0.3
-layout: "ccna_quiz"
 ---

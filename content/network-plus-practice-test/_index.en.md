@@ -5,5 +5,4 @@ genre: ["CompTIA Network Plus", "practice test", "networking", "protocols", "net
 tags: ["CompTIA Network Plus", "practice test", "networking concepts", "protocols", "network security", "troubleshooting techniques"]
 sitemap:
   priority: 0.3
-layout: "network_plus_quiz"
 ---

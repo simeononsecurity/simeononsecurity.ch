@@ -5,5 +5,4 @@ genre: ["CompTIA CySA+", "practice test", "security operations", "vulnerability 
 tags: ["CompTIA CySA+", "CS0-003", "practice test", "cybersecurity analyst", "security operations", "vulnerability management", "incident response", "reporting and communication", "threat intelligence"]
 sitemap:
   priority: 0.3
-layout: "cysa_plus_quiz"
 ---

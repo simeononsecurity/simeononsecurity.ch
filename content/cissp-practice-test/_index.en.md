@@ -5,5 +5,4 @@ genre: ["CISSP", "practice test", "information security", "security and risk man
 tags: ["CISSP", "practice test", "information security", "security and risk management", "asset security", "cryptography"]
 sitemap:
   priority: 0.3
-layout: "cissp_quiz"
 ---

@@ -5,5 +5,4 @@ genre: ["CompTIA Linux Plus", "practice test", "Linux operating systems", "comma
 tags: ["CompTIA Linux Plus", "practice test", "Linux operating systems", "command-line operations", "system administration", "security"]
 sitemap:
   priority: 0.3
-layout: "linux_plus_quiz"
 ---

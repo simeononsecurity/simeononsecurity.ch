@@ -5,5 +5,4 @@ genre: ["Cybersecurity", "awareness quiz", "online threats", "data privacy", "se
 tags: ["Cybersecurity", "awareness quiz", "online threats", "data privacy", "secure browsing", "password management", "best practices"]
 sitemap:
   priority: 0.3
-layout: "cybersecurity_quiz"
 ---
