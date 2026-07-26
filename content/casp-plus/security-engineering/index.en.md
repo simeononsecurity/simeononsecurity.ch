@@ -3,9 +3,9 @@ title: "CompTIA SecurityX (CAS-005): Security Engineering"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master security engineering for the CompTIA SecurityX CAS-005 exam. Learn IAM troubleshooting, endpoint and server security, hardware roots of trust, OT/ICS security, automation, and advanced cryptography."
+description: "Master security engineering for the CompTIA SecurityX CAS-005 exam. Learn IAM troubleshooting, endpoint hardening, hardware roots of trust, OT/ICS security, enterprise automation, and advanced cryptography including post-quantum algorithms."
 genre: ["CompTIA SecurityX Course", "Security Engineering", "Cryptography", "Hardware Security", "Endpoint Security", "OT Security", "Automation", "CASP+", "Enterprise Security", "Cybersecurity"]
-tags: ["CompTIA SecurityX", "CASP+", "CAS-005", "security engineering", "IAM", "SAML", "Kerberos", "EDR", "SELinux", "TPM", "HSM", "Secure Boot", "OT", "ICS", "SCADA", "post-quantum cryptography", "homomorphic encryption", "SOAR", "SCAP"]
+tags: ["CompTIA SecurityX", "CASP+", "CAS-005", "security engineering", "IAM", "SAML", "Kerberos", "PAM", "EDR", "XDR", "SELinux", "TPM", "HSM", "Secure Boot", "measured boot", "OT", "ICS", "SCADA", "embedded systems", "post-quantum cryptography", "ML-KEM", "homomorphic encryption", "forward secrecy", "PBKDF2", "SOAR", "SCAP", "OVAL", "XCCDF", "tokenization", "code signing"]
 cover: "/img/cover/comptia-securityx-cas-005-security-engineering.webp"
 coverAlt: "A digital illustration showing interconnected servers and endpoints in a futuristic security environment, with glowing circuits and cryptographic elements against a dark background."
 coverCaption: "Master Security Engineering for the CAS-005 Exam"
@@ -13,115 +13,234 @@ coverCaption: "Master Security Engineering for the CAS-005 Exam"
 
 #### [Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
 
-**Security Engineering** is **31%** of the **CompTIA SecurityX (CAS-005)** exam, the single heaviest domain. This module covers how you implement and troubleshoot the controls an architect designed. *Build deep hands-on familiarity with cryptography and hardware roots of trust, because this domain rewards depth.*
+**Security Engineering** is **31%** of the **CompTIA SecurityX (CAS-005)** exam — the single heaviest domain. This module covers how you implement, configure, and troubleshoot the controls an architect designed. *Build deep hands-on familiarity with cryptography, hardware roots of trust, and IAM troubleshooting, because this domain rewards depth over breadth.*
 
-Engineering is where designs meet reality. You configure identity systems, harden endpoints, root trust in hardware, secure industrial systems, automate at scale, and apply the right cryptography to each job. Expect performance-based questions here.
+Engineering is where designs meet reality. You configure identity systems, harden endpoints, root trust in hardware, secure industrial systems, automate at scale, and match the right cryptographic primitive to each job. Expect performance-based questions here — CompTIA will ask you to read output, diagnose failures, and recommend fixes.
 
 ## Troubleshooting IAM Components
 
-You diagnose identity problems across protocols and services.
+You diagnose identity failures across a wide variety of protocols. Understanding the common failure mode for each is more useful on the exam than memorizing every field.
 
-| Component | Role | Common failure |
-|-----------|------|----------------|
-| **SAML** | Web SSO via XML assertions | Clock skew, bad certificate, wrong endpoint |
-| **OpenID Connect** | AuthN on top of OAuth | Misconfigured redirect URI |
-| **MFA** | Adds a second factor | Time drift on TOTP tokens |
-| **Kerberos** | Ticket-based authN | Time skew over 5 minutes breaks tickets |
-| **PAM** | Privileged access management | Vault misconfiguration, broken check-out |
-| **802.1X** | Port-based network access | RADIUS or supplicant misconfiguration |
+| Component | Role | Most common failure |
+|-----------|------|---------------------|
+| **SAML 2.0** | Web SSO via signed XML assertions | Clock skew between IdP and SP; misconfigured ACS URL |
+| **OpenID Connect** | OAuth-based authentication layer | Invalid redirect URI; mismatched nonce |
+| **OAuth 2.0** | Delegated authorization | Scope misconfiguration; token leakage via referrer head |
+| **MFA / TOTP** | Second factor using time-based codes | Clock drift beyond the leeway window |
+| **Kerberos** | Ticket-based authentication on Windows/AD | Clock skew over 5 minutes breaks TGT requests |
+| **PAM** | Privileged access management and credential vaulting | Vault misconfiguration; broken session brokering |
+| **802.1X** | Port-based network access control | RADIUS certificate mismatch; supplicant configuration error |
+| **LDAP / AD** | Directory services | Replication failure; improper ACLs on OUs |
 
-*Kerberos and SAML both break when system clocks drift, so check time sync first.*
+*Kerberos and SAML both break when system clocks drift. On the exam, when MFA or SSO is failing, check time synchronization before anything else.*
+
+### Privileged Access Management in Depth
+
+**PAM** platforms protect administrative accounts through:
+
+- **Credential vaulting** — stores privileged passwords and rotates them automatically.
+- **Just-in-time (JIT) access** — grants elevated rights only for the duration of an approved task, then revokes them.
+- **Session recording** — captures full privileged sessions for audit and forensic review.
+- **Dual control** — requires a second approver before releasing a high-value credential.
+
+PAM is the architectural answer when the threat model includes insider threat and credential theft.
 
 ## Endpoint and Server Security
 
-You harden the hosts where attackers land.
+You harden the hosts where attackers land after initial access.
 
-- **EDR** (Endpoint Detection and Response) records endpoint activity and responds to threats.
-- **Application control** allowlists approved software and blocks everything else.
-- **HIPS/HIDS** detect and block host-level intrusions.
-- **MDM** (Mobile Device Management) enforces policy on phones and tablets.
-- **SELinux** applies mandatory access control on Linux so a compromised process cannot exceed its label.
+| Control | What it does | Stops |
+|---------|-------------|-------|
+| **EDR** | Records endpoint telemetry; responds to threats autonomously or with analyst guidance | Post-exploitation activity |
+| **XDR** | Extends EDR across endpoints, network, cloud, and email into one correlated view | Cross-vector attacks |
+| **MDR** | Managed EDR/XDR operated by a third party on your behalf | Gap when internal SOC capacity is limited |
+| **Application control** | Allowlists approved executables; blocks everything else | Malware, living-off-the-land binaries |
+| **HIPS/HIDS** | Monitors host activity for attack signatures or anomalies | Known exploit patterns |
+| **MDM** | Enforces policy on mobile devices: encryption, PIN, remote wipe | Lost or stolen device data exposure |
+| **SELinux** | Applies mandatory access control labels on Linux | Process breakout, privilege escalation |
+
+*EDR, XDR, and MDR are frequently tested as a progression. EDR is the tool. XDR extends visibility. MDR is EDR operated by a service provider.*
+
+### Linux Host Hardening
+
+On Linux, you apply defense-in-depth at the kernel and process level:
+
+- **SELinux** enforces MAC policies so a compromised nginx process cannot read `/etc/shadow`.
+- **AppArmor** provides a simpler MAC alternative using path-based profiles.
+- **seccomp** restricts which system calls a process may make, shrinking the kernel attack surface.
+- **auditd** logs security-relevant events to a tamper-resistant log stream.
 
 ## Threat-Actor TTPs
 
-You recognize the tactics, techniques, and procedures attackers use after a foothold:
+You identify attacker behavior by mapping it to MITRE ATT&CK, the framework covered in [Governance, Risk, and Compliance](/casp-plus/governance-risk-compliance/).
 
-- **Injections** force an app to run attacker input as code.
-- **Privilege escalation** moves from a normal account to admin.
-- **Credential dumping** steals hashes and tokens from memory.
-- **Lateral movement** spreads from one host to others.
-- **Defensive evasion** disables logging and tools to stay hidden.
+| TTP Category | What attackers do | Key indicators |
+|-------------|------------------|---------------|
+| **Initial access** | Phishing, exploit public-facing app, valid accounts | Unusual login times, new source IPs |
+| **Execution** | PowerShell, cmd, scripting engines, WMI | Encoded commands, unusual parent processes |
+| **Persistence** | Scheduled tasks, registry run keys, new services | Unexpected scheduled tasks, new admin accounts |
+| **Privilege escalation** | Token manipulation, UAC bypass, sudo abuse | Processes running in unexpected security contexts |
+| **Credential dumping** | LSASS memory dump, SAM database, DCSync | Mimikatz signatures, unusual LSASS access |
+| **Lateral movement** | Pass-the-hash, PsExec, RDP, SMB shares | Unusual inter-host connections, SMB traffic |
+| **Defense evasion** | Log clearing, timestomping, process injection | Missing log entries, process hollow detection |
+| **Exfiltration** | DNS tunneling, HTTPS to unusual destinations | Large outbound transfers, long DNS queries |
 
-You map these to MITRE ATT&CK, the framework introduced in [Governance, Risk, and Compliance](/casp-plus/governance-risk-compliance/).
+*Credential dumping and lateral movement are the two TTPs most central to ransomware and APT intrusions. Know how to detect them in SIEM data.*
 
 ## Network Infrastructure Security
 
-You troubleshoot the protocols that keep traffic trustworthy.
+You troubleshoot and harden the protocols that keep traffic authentic and confidential.
 
-| Technology | Protects | Notes |
-|-----------|----------|-------|
-| **DNSSEC** | DNS integrity | Signs records to stop spoofing |
-| **SPF** | Email sender IPs | Lists who may send for a domain |
-| **DKIM** | Email integrity | Signs messages cryptographically |
-| **DMARC** | Email policy | Tells receivers how to handle SPF/DKIM failures |
-| **TLS** | Traffic confidentiality | Watch for expired certs and weak ciphers |
+| Technology | Protects | Troubleshooting tip |
+|-----------|----------|---------------------|
+| **DNSSEC** | DNS integrity; prevents record spoofing | Check signature validation with `dig +dnssec` |
+| **SPF** | Authorizes sending IPs for a domain | Too many DNS lookups (>10) cause permerror |
+| **DKIM** | Signs email messages cryptographically | Key rotation must sync with DNS TTL |
+| **DMARC** | Instructs receivers on SPF/DKIM failures | Start with `p=none` to observe, then enforce |
+| **TLS 1.3** | Traffic confidentiality and integrity | Watch for weak cipher suites and expired certificates |
+| **HSTS** | Forces HTTPS; prevents downgrade | Preload list requires minimum 1-year max-age |
 
 ```bash
-# Check a domain's SPF and DMARC records during email troubleshooting
-dig +short TXT example.com | grep spf
+# Check a domain's email authentication records during troubleshooting
+dig +short TXT example.com | grep "v=spf"
 dig +short TXT _dmarc.example.com
+dig +short TXT selector1._domainkey.example.com
 ```
+
+### Network Attack Techniques
+
+You recognize attacks against infrastructure protocols:
+
+- **BGP hijacking** redirects internet traffic by announcing more specific prefixes. Mitigation: RPKI route origin validation.
+- **ARP poisoning** poisons the Layer 2 cache to intercept traffic on a local segment. Mitigation: dynamic ARP inspection on switches.
+- **DNS spoofing** injects false DNS records. Mitigation: DNSSEC validation.
+- **SSL stripping** downgrades HTTPS to HTTP. Mitigation: HSTS with preloading.
 
 ## Hardware Security Technologies
 
-You root trust in hardware so software cannot lie about its own integrity.
+You root trust in hardware because software-only attestation can be subverted by software.
 
-| Technology | Role |
-|-----------|------|
-| **TPM** | Chip storing keys and boot measurements |
-| **HSM** | Appliance for high-volume key operations |
-| **vTPM** | Virtual TPM for virtual machines |
-| **Secure Boot** | Allows only signed bootloaders |
-| **Measured Boot** | Records each boot stage for attestation |
-| **Self-encrypting drive** | Encrypts data at the hardware level |
+| Technology | Role | Key detail |
+|-----------|------|------------|
+| **TPM 2.0** | Stores keys and boot measurements on the motherboard | Cannot be extracted; tied to the physical board |
+| **HSM** | Hardware appliance for high-volume cryptographic operations | FIPS 140-2/3 validated; used for CA key storage |
+| **vTPM** | Software-emulated TPM for virtual machines | Provides measured boot in virtualized environments |
+| **Secure Boot** | Firmware validates bootloader signatures before executing | Blocks bootkit malware |
+| **Measured Boot** | Records each boot stage hash into TPM PCR registers | Enables remote attestation of boot integrity |
+| **Self-encrypting drive (SED)** | Encrypts data at drive firmware level using AES | Decrypt key protected by authentication credential |
+
+*TPM PCR registers lock boot measurements. If the boot software changes, the PCR value changes and the stored key becomes unavailable. This is the mechanism behind BitLocker's pre-boot integrity check.*
+
+### Hardware Root of Trust
+
+The chain of trust starts at hardware and extends to firmware, bootloader, OS, and application:
+
+1. Firmware (UEFI) verifies the bootloader signature (Secure Boot).
+2. Bootloader measures itself and components into TPM PCR registers (Measured Boot).
+3. OS verifies its own components against the TPM measurements.
+4. Remote attestation allows a remote verifier to confirm the chain is intact.
+
+A broken link at any stage breaks the chain. This is why a compromised BIOS is so catastrophic.
 
 ## Specialized and Legacy Systems
 
-You secure systems that cannot run standard endpoint tools.
+You secure systems that cannot run conventional endpoint agents.
 
-- **OT, SCADA, and ICS** run critical infrastructure and often use old, fragile protocols. You isolate them with the Purdue model and monitor passively.
-- **IoT** devices ship with weak defaults, so you segment them and change credentials.
-- **SoC and embedded systems** have limited resources, so you secure them at the network boundary.
+### OT, SCADA, and ICS Security
 
-These systems carry deep, structural weaknesses, as explored in [why OT/ICS/PLC cybersecurity is fundamentally broken](/articles/ot-ics-plc-cybersecurity-fundamentally-broken/).
+Operational technology controls physical processes in manufacturing, utilities, and transportation. These systems were designed for availability and determinism, not security.
+
+| OT Component | Role | Security challenge |
+|-------------|------|-------------------|
+| **PLC** | Executes control logic for machinery | No authentication; proprietary protocols |
+| **HMI** | Operator interface to SCADA | Often Windows XP-era, unpatched |
+| **Historian** | Logs process data | Bridges OT and IT networks |
+| **RTU** | Remote terminal unit in field devices | Low bandwidth, no encryption |
+
+The **Purdue Model** (ICS reference architecture) organizes OT into five levels: field devices, control, supervisory, manufacturing operations, and enterprise IT. You enforce network segmentation between levels and monitor passively with OT-aware sensors. For a critical look at fundamental weaknesses in this space, read [why OT/ICS/PLC cybersecurity is fundamentally broken](/articles/ot-ics-plc-cybersecurity-fundamentally-broken/).
+
+### IoT and Embedded Systems
+
+- **IoT devices** ship with weak defaults, minimal update mechanisms, and no EDR. Segment them on a dedicated VLAN and monitor traffic behavior.
+- **SoC and embedded systems** have constrained resources. Secure the network perimeter around them and apply firmware signing.
 
 ## Automation to Secure the Enterprise
 
-You automate so security scales beyond manual effort.
+Manual processes cannot scale. You automate repeatable security tasks.
 
-- **PowerShell, Bash, and Python** script repetitive tasks and response actions.
-- **Infrastructure as Code (IaC)** defines systems in version-controlled files, covered in [Ansible for beginners](/articles/ansible-for-beginners/).
-- **SOAR** orchestrates and automates incident response.
-- **SCAP, OVAL, and XCCDF** standardize how you express and check secure configurations.
+| Tool / Framework | Use case |
+|-----------------|---------|
+| **PowerShell** | Windows automation, AD management, incident response scripts |
+| **Bash / Python** | Log analysis, API calls, orchestration |
+| **IaC (Terraform, Ansible)** | Version-controlled, repeatable infrastructure deployments |
+| **SOAR** | Orchestrates playbooks; reduces analyst time per alert |
+| **SCAP** | Framework for expressing security configurations and compliance checks |
+| **OVAL** | Machine-readable vulnerability and configuration definitions |
+| **XCCDF** | Checklist format for expressing security guidance |
+
+For a hands-on introduction to infrastructure automation, see [Ansible for Beginners](/articles/ansible-for-beginners/).
+
+### SOAR in the Security Operations Workflow
+
+**SOAR** platforms automate the first response to common alert types — phishing, brute force, malware — by running predefined playbooks: isolate the endpoint, reset the credential, capture forensic data, and create a ticket. An analyst reviews the output rather than performing each step manually. The result is faster containment and consistent evidence collection.
 
 ## Advanced Cryptography
 
-You explain and apply modern cryptographic concepts.
+### Core Concepts
 
-| Concept | What it does |
-|---------|--------------|
-| **Post-quantum cryptography** | Resists attacks from quantum computers (ML-KEM, ML-DSA) |
-| **Homomorphic encryption** | Computes on encrypted data without decrypting |
-| **Forward secrecy** | A stolen key cannot decrypt past sessions |
-| **Key stretching** | Strengthens weak passwords (PBKDF2, bcrypt, Argon2) |
+| Concept | What it does | Exam shorthand |
+|---------|-------------|----------------|
+| **Symmetric** | One key for encryption and decryption; fast for bulk data | AES-256, ChaCha20 |
+| **Asymmetric** | Key pair; solves key distribution and digital signatures | RSA, ECDSA, Ed25519 |
+| **Hashing** | One-way; produces a fixed-length digest for integrity | SHA-256, SHA-3 |
+| **HMAC** | Keyed hash; adds authentication to a message digest | Used in TLS, API auth |
+| **Forward secrecy** | Ephemeral keys so a stolen long-term key cannot decrypt past sessions | ECDHE in TLS 1.3 |
+| **Key stretching** | Iterative hashing to slow brute force on passwords | PBKDF2, bcrypt, Argon2 |
+| **Homomorphic encryption** | Compute on encrypted data without decrypting | Privacy-preserving analytics |
 
-You then match the **use case** to the right technique:
+### Post-Quantum Cryptography
 
-- **Tokenization** replaces sensitive data with a non-sensitive token.
-- **Code signing** proves software came from a trusted source and was not altered.
-- **Digital signatures** provide integrity and non-repudiation.
-- **Symmetric** cryptography is fast for bulk data; **asymmetric** solves key distribution and signatures.
+Quantum computers running Shor's algorithm can break RSA, ECC, and Diffie-Hellman. NIST finalized the first post-quantum standards in 2024:
+
+| Algorithm | Type | Replaces |
+|-----------|------|---------|
+| **ML-KEM** (CRYSTALS-Kyber) | Key encapsulation / key exchange | ECDH, RSA key exchange |
+| **ML-DSA** (CRYSTALS-Dilithium) | Digital signatures | ECDSA, RSA signatures |
+| **SLH-DSA** (SPHINCS+) | Hash-based signatures; no lattice dependency | ECDSA (conservative backup) |
+
+*The CAS-005 exam tests awareness of post-quantum migration, not implementation details. Know that ML-KEM and ML-DSA are the primary NIST PQC standards and that "harvest now, decrypt later" is the threat that makes migration urgent.*
+
+### Cryptographic Use Cases
+
+| Use case | Best approach | Why |
+|---------|--------------|-----|
+| **Bulk data encryption** | AES-256-GCM | Fast, authenticated encryption |
+| **Key transport** | RSA-OAEP or ML-KEM | Asymmetric; keeps the key secret |
+| **Digital signatures** | ECDSA or ML-DSA | Non-repudiation and integrity |
+| **Password storage** | Argon2id | Memory-hard; resists GPU cracking |
+| **Sensitive data in database** | Tokenization | Token has no mathematical relation to original |
+| **Software distribution** | Code signing (Authenticode, GPG) | Proves source and detects tampering |
+| **Long-term data confidentiality** | Post-quantum hybrid | Combine classical + PQC during migration period |
+
+### Side-Channel Attacks
+
+Side-channel attacks derive secrets from physical observations rather than breaking math:
+
+- **Timing attacks** measure execution time to infer key bits.
+- **Power analysis** monitors power consumption during cryptographic operations.
+- **Cache-timing attacks** exploit CPU cache behavior (Spectre, Meltdown class).
+
+Mitigations include constant-time implementations and hardware-isolated execution environments.
+
+## Engineering Exam Tips
+
+- Kerberos and SAML both fail on clock skew. Check NTP synchronization before deeper troubleshooting.
+- TPM stores keys; HSM performs high-volume operations. Know which is appropriate for each scenario.
+- Post-quantum: ML-KEM for key exchange, ML-DSA for signatures.
+- Application control (allowlisting) stops living-off-the-land attacks that bypass signature-based AV.
+- SELinux provides MAC; it confines processes even after compromise.
+- Forward secrecy (ECDHE) prevents session decryption even if the server private key is later stolen.
 
 ## Next Steps
 
-With the controls engineered, continue to [Security Operations](/casp-plus/security-operations/) to monitor and respond, then revisit [Security Architecture](/casp-plus/security-architecture/) for the design context. Return to the [CompTIA SecurityX Course](/casp-plus-start/) and review [tips for passing CompTIA exams](/articles/tips-and-tricks-for-passing-comptia-exams/).
+With controls engineered, move to [Security Operations](/casp-plus/security-operations/) to learn how to monitor, hunt, and respond to threats against these systems. Review [Security Architecture](/casp-plus/security-architecture/) for the design context behind the engineering choices. Return to the [CompTIA SecurityX Course](/casp-plus-start/) and test your readiness with the [CompTIA SecurityX Practice Test](/casp-plus-practice-test/).
