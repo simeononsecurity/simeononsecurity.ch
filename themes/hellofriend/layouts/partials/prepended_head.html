@@ -9,7 +9,11 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:website" content="{{ .Permalink }}" />
+{{ if .Params.cover -}}
+<meta property="og:image" content="{{ .Params.cover | absURL }}">
+{{- else -}}
 <meta property="og:image" content="https://simeononsecurity.ch/img/banner.png">
+{{- end }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}">
 {{ end }}
