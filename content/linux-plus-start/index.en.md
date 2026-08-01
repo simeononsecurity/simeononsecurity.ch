@@ -1,5 +1,5 @@
 ---
-title: "CompTIA Linux+ Course: Complete Study Guide for the XK0-005 Exam"
+title: "CompTIA Linux+ (XK0-005) Complete Study Guide"
 date: 2025-01-01
 toc: true
 draft: false
