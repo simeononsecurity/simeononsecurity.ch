@@ -10,6 +10,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ $og_image := "" }}
 {{ if .Params.cover }}
+  {{ $og_image = .Params.cover | absURL }}
   {{ $coverPath := .Params.cover | strings.TrimPrefix "/" }}
   {{ $cover := resources.Get $coverPath }}
   {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
@@ -19,8 +20,6 @@
     {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
     {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
     {{ $og_image = $renamedimage.Permalink }}
-  {{ else }}
-    {{ $og_image = .Params.cover | absURL }}
   {{ end }}
 {{ else if .Params.images }}
   {{ $og_image = index .Params.images 0 | absURL }}

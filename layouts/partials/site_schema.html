@@ -263,7 +263,9 @@
 {{/* Resolve OG image — cover → page images → site banner */}}
 {{ $ogImage := "" }}
 {{ if .Params.cover }}
-  {{ $cover := resources.Get .Params.Cover }}
+  {{ $ogImage = .Params.cover | absURL }}
+  {{ $coverPath := .Params.cover | strings.TrimPrefix "/" }}
+  {{ $cover := resources.Get $coverPath }}
   {{ if .Params.UseRelativeCover }}
     {{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}
   {{ end }}
@@ -272,10 +274,6 @@
     {{ $base   := replace $cover.RelPermalink (printf ".%s" $cover.MediaType.SubType) "" }}
     {{ $fname  := printf "%s_%dx%d.%s" $base $opt.Width $opt.Height "webp" | urlize }}
     {{ $ogImage = ($opt | resources.Copy $fname).Permalink }}
-  {{ else if .Params.images }}
-    {{ $ogImage = index .Params.images 0 | absURL }}
-  {{ else }}
-    {{ $ogImage = index $.Site.Params.images 0 | absURL }}
   {{ end }}
 {{ else if .Params.images }}
   {{ $ogImage = index .Params.images 0 | absURL }}
