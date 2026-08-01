@@ -1,4 +1,5 @@
 {{ $twitter_image := "" }}
+{{ $twitter_image_alt := or .Params.coverAlt .Title }}
 {{ if .Params.cover }}
   {{ $twitter_image = .Params.cover | absURL }}
   {{ $coverPath := .Params.cover | strings.TrimPrefix "/" }}
@@ -22,6 +23,7 @@
 {{ end }}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ $twitter_image }}"/>
+<meta name="twitter:image:alt" content="{{ $twitter_image_alt }}"/>
 <meta name="twitter:title" content="{{ $title }}"/>
 <meta name="twitter:description" content="{{ if strings.Contains .Permalink "/tags/" }}Read up on more articles about {{ .Title | markdownify }}. {{ end }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{ with .Site.Params.Social.twitter -}}

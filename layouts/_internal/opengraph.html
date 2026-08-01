@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 {{ $title := .Title }}
@@ -9,8 +10,13 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ $og_image := "" }}
+{{ $og_image_width := "" }}
+{{ $og_image_height := "" }}
+{{ $og_image_alt := or .Params.coverAlt .Title }}
 {{ if .Params.cover }}
   {{ $og_image = .Params.cover | absURL }}
+  {{ $og_image_width = "1200" }}
+  {{ $og_image_height = "630" }}
   {{ $coverPath := .Params.cover | strings.TrimPrefix "/" }}
   {{ $cover := resources.Get $coverPath }}
   {{ if .Params.UseRelativeCover }}{{ $cover = resources.GetRemote (printf "%s%s" .Permalink .Params.Cover) }}{{ end }}
@@ -20,6 +26,8 @@
     {{ $filename := printf "%s_%dx%d.%s" $permalink $optimizedimage.Width $optimizedimage.Height "webp" | urlize }}
     {{ $renamedimage := $optimizedimage | resources.Copy $filename }}
     {{ $og_image = $renamedimage.Permalink }}
+    {{ $og_image_width = $optimizedimage.Width | string }}
+    {{ $og_image_height = $optimizedimage.Height | string }}
   {{ end }}
 {{ else if .Params.images }}
   {{ $og_image = index .Params.images 0 | absURL }}
@@ -27,6 +35,9 @@
   {{ $og_image = index $.Site.Params.images 0 | absURL }}
 {{ end }}
 <meta property="og:image" content="{{ $og_image }}" />
+{{ if $og_image_width }}<meta property="og:image:width" content="{{ $og_image_width }}" />{{ end }}
+{{ if $og_image_height }}<meta property="og:image:height" content="{{ $og_image_height }}" />{{ end }}
+<meta property="og:image:alt" content="{{ $og_image_alt }}" />
 <meta itemprop="image" content="{{ $og_image }}">
 
 
