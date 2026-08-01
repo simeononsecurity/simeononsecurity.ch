@@ -1,5 +1,5 @@
 ---
-title: "MeshCore vs Meshtastic: Which Off-Grid LoRa Mesh Network Is Right for You?"
+title: "MeshCore vs Meshtastic"
 date: 2026-06-26
 lastmod: 2026-06-26
 toc: true

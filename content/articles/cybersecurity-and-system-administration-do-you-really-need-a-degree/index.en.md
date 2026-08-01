@@ -1,5 +1,5 @@
 ---
-title: "Do you really need a degree to get into Cyber Security and System Administration?"
+title: "Do You Need a Degree for Cybersecurity or SysAdmin?"
 date: 2023-02-12
 toc: true
 draft: false

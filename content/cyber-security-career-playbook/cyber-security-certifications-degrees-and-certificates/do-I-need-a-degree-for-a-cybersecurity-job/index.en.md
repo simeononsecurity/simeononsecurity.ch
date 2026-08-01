@@ -1,5 +1,5 @@
 ---
-title: "Choosing the Right Major for a Cybersecurity Career: A Guide for Aspiring Professionals"
+title: "Choosing the Right Major for a Cybersecurity Career"
 draft: false
 toc: true
 date: 2023-06-15

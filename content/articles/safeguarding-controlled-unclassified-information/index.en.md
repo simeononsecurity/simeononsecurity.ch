@@ -1,5 +1,5 @@
 ---
-title: "Safeguarding Controlled Unclassified Information: Protecting Sensitive Data"
+title: "Safeguarding Controlled Unclassified Information"
 date: 2023-10-22
 toc: true
 draft: false

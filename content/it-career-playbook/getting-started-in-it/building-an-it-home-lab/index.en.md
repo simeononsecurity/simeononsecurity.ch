@@ -1,5 +1,5 @@
 ---
-title: "Building an IT Home Lab in 2026: Your Portfolio Is Your Career"
+title: "Building an IT Home Lab in 2026"
 draft: false
 toc: true
 date: 2026-07-22

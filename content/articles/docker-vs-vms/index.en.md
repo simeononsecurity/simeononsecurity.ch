@@ -1,5 +1,5 @@
 ---
-title: "Docker vs Virtual Machines 2026: Complete Technical Comparison & Decision Guide"
+title: "Docker vs Virtual Machines 2026"
 date: 2023-02-02
 lastmod: 2026-05-24
 toc: true

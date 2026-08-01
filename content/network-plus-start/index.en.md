@@ -1,5 +1,5 @@
 ---
-title: "Network+ Mastery Course: Unlocking the Power of Networking Fundamentals for Success"
+title: "CompTIA Network+ (N10-009) Complete Study Guide"
 date: 2023-07-28
 toc: true
 draft: false

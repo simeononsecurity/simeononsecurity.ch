@@ -1,5 +1,5 @@
 ---
-title: "Automating Linux Patching and Updates with Ansible: A Comprehensive Guide"
+title: "Automating Linux Patching and Updates with Ansible"
 date: 2023-05-28
 toc: true
 draft: false

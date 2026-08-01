@@ -1,5 +1,5 @@
 ---
-title: "Master Windows Text Analysis: Command Line Tips for Efficient Processing"
+title: "Master Windows Text Analysis"
 date: 2023-09-30
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Keep Credit Cards Safe: Defend Against RFID Skimming & Physical Attacks for Personal Info Protection"
+title: "Keep Credit Cards Safe: Defend Against RFID Skimming"
 date: 2023-04-28
 toc: true
 draft: false

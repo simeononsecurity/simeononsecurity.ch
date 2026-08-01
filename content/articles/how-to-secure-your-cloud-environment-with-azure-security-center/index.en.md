@@ -1,5 +1,5 @@
 ---
-title: "Azure Security Center: Secure Your Cloud Environment with Confidence"
+title: "Azure Security Center"
 date: 2023-04-10
 toc: true
 draft: false

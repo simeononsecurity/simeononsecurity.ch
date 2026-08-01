@@ -1,5 +1,5 @@
 ---
-title: "Mastering VMware Security: How to Use PowerCLI to Run the VMware STIGs"
+title: "Mastering VMware Security"
 date: 2023-08-03
 toc: true
 draft: false

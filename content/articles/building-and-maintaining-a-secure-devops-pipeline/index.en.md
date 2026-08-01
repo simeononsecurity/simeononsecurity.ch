@@ -1,5 +1,5 @@
 ---
-title: "Building and Maintaining a Secure DevOps Pipeline: Best Practices and Case Studies"
+title: "Building a Secure DevOps Pipeline: Best Practices"
 date: 2023-02-25
 toc: true
 draft: false

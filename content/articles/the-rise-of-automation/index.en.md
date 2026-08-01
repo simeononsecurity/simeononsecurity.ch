@@ -1,5 +1,5 @@
 ---
-title: "The Rise of Automation: Transforming Industries and Job Opportunities"
+title: "The Rise of Automation"
 date: 2023-06-26
 toc: true
 draft: false

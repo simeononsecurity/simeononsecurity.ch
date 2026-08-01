@@ -1,5 +1,5 @@
 ---
-title: "Network Segmentation: How to Improve Security in Your Organization"
+title: "Network Segmentation"
 date: 2023-03-11
 toc: true
 draft: false

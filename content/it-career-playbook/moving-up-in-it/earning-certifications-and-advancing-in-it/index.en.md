@@ -1,5 +1,5 @@
 ---
-title: "Earning Certifications and Advancing in IT: A Promotion Strategy Guide"
+title: "Earning Certifications and Advancing in IT"
 draft: false
 toc: true
 date: 2026-07-22

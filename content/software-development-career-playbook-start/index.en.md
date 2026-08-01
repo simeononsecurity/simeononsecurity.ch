@@ -1,5 +1,5 @@
 ---
-title: "Software Development Career Playbook: From First Commit to Engineering Lead"
+title: "Software Development Career Playbook"
 draft: false
 toc: true
 date: 2026-07-22

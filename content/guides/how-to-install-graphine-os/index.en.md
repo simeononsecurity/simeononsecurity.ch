@@ -1,5 +1,5 @@
 ---
-title: "Ultimate Guide: Installing GrapheneOS on Your Google Pixel Device"
+title: "Ultimate Guide: Installing GrapheneOS on Your Google..."
 draft: false
 toc: true
 date: 2023-05-21

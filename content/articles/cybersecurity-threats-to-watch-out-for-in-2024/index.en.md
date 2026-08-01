@@ -1,5 +1,5 @@
 ---
-title: "2024 Cybersecurity Threats: Expert Insights and Recommendations"
+title: "2024 Cybersecurity Threats"
 date: 2024-02-20
 toc: true
 draft: false

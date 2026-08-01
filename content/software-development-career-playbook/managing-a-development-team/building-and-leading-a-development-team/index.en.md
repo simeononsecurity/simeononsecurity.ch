@@ -1,5 +1,5 @@
 ---
-title: "Building and Leading a Development Team: Hiring, 1:1s, and Culture"
+title: "Building and Leading a Development Team"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "Install Peer 2 Profit: Earn Passive Income by Sharing Your Internet"
+title: "Install Peer 2 Profit"
 draft: false
 toc: true
 date: 2023-06-01

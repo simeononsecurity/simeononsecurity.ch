@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Understanding the Importance of Network Logs and Logging"
+title: "Network Plus Course: Understanding the Importance of..."
 date: 2023-07-14
 toc: true
 draft: false

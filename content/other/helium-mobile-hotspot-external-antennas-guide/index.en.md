@@ -1,5 +1,5 @@
 ---
-title: "Boost Your Helium Mobile Hotspot: Mastering Range and Speed with External Antennas"
+title: "Helium Mobile Hotspot: External Antennas Guide"
 date: 2024-03-14
 toc: true
 draft: false

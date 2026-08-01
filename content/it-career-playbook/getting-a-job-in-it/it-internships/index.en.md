@@ -1,5 +1,5 @@
 ---
-title: "IT Internships: How to Find and Get Information Technology Internships"
+title: "IT Internships: How to Find and Get Information..."
 draft: false
 toc: true
 date: 2026-07-22

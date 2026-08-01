@@ -1,5 +1,5 @@
 ---
-title: "Software Developer Resume Writing Tips: ATS, Projects, and Keywords"
+title: "Software Developer Resume Writing Tips"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "How to Start a Career in IT: A Step-by-Step Guide for Beginners"
+title: "How to Start a Career in IT"
 draft: false
 toc: true
 date: 2026-07-22

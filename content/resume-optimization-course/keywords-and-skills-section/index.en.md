@@ -1,5 +1,5 @@
 ---
-title: "Module 5: Keywords and the Skills Section — Where Keywords Go and How to Find Them"
+title: "Module 5: Keywords and the Skills Section"
 date: 2026-07-22
 toc: true
 draft: false

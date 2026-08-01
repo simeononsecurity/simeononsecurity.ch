@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Code vs Visual Studio Community and Enterprise: Which is Best for Developers?"
+title: "VS Code vs Visual Studio: Which Is Best for Developers?"
 date: 2023-06-12
 toc: true
 draft: false

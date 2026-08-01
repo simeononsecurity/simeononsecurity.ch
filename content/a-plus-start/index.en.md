@@ -1,5 +1,5 @@
 ---
-title: "CompTIA A+ Course: Complete Study Guide for the 220-1201 and 220-1202 Exams"
+title: "CompTIA A+ Course: Complete Study Guide for the 220-1201..."
 date: 2025-01-01
 toc: true
 draft: false

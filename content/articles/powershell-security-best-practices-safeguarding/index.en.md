@@ -1,5 +1,5 @@
 ---
-title: "10 Essential PowerShell Security Best Practices for Safeguarding Your Scripts"
+title: "10 Essential PowerShell Security Best Practices for..."
 date: 2023-07-25
 toc: true
 draft: false

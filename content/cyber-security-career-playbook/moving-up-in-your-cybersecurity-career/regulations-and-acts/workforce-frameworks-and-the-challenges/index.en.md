@@ -1,5 +1,5 @@
 ---
-title: "Navigating Workforce Frameworks: Implications for Cybersecurity Pros"
+title: "Navigating Workforce Frameworks"
 draft: false
 toc: true
 date: 2023-07-02

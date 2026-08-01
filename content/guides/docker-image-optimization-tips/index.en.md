@@ -1,5 +1,5 @@
 ---
-title: "Effortless Docker Image Optimization: 8 Proven Tips for Efficiency"
+title: "Effortless Docker Image Optimization"
 date: 2023-12-06
 toc: true
 draft: false

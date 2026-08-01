@@ -1,5 +1,5 @@
 ---
-title: "Understanding DNS and Root DNS: How They Work, Their Importance, and Troubleshooting Guidance"
+title: "How DNS Works: Root DNS, Importance, and Troubleshooting"
 draft: false
 toc: true
 date: 2023-07-20

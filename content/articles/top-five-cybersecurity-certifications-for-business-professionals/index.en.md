@@ -1,5 +1,5 @@
 ---
-title: "Top 5 Non-Technical Cybersecurity Certifications for Business Professionals in 2026"
+title: "Top 5 Cybersecurity Certifications for Business Pros"
 draft: false
 toc: true
 date: 2023-05-26

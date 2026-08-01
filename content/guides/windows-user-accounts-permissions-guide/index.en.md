@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows User Accounts: Secure Access for Better Control"
+title: "Mastering Windows User Accounts"
 date: 2023-10-04
 toc: true
 draft: false

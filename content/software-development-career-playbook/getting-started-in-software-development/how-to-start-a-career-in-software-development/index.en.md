@@ -1,5 +1,5 @@
 ---
-title: "How to Start a Career in Software Development: Entry Paths and First Steps"
+title: "How to Start a Career in Software Development"
 draft: false
 toc: true
 date: 2026-07-22

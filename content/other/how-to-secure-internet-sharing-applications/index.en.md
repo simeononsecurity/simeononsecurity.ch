@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Internet Sharing Applications: Effective Measures for Enhanced Protection"
+title: "Secure Your Internet Sharing Applications"
 draft: false
 toc: true
 date: 2023-06-01

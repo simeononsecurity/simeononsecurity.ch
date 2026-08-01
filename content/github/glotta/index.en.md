@@ -1,5 +1,5 @@
 ---
-title: "Translation Automation Script for Hugo Markdown Files - Glotta"
+title: "Translation Automation Script for Hugo Markdown Files"
 date: 2023-05-02
 toc: true
 draft: false

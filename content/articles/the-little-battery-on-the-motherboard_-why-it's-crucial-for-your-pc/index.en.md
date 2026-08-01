@@ -1,5 +1,5 @@
 ---
-title: "Essential Power: How the Motherboard Battery Keeps Your PC Running"
+title: "Essential Power: How the Motherboard Battery Keeps Your..."
 date: 2024-03-05
 toc: true
 draft: false

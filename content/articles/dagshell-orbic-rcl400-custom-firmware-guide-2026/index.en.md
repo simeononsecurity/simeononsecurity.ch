@@ -1,5 +1,5 @@
 ---
-title: "DagShell Custom Firmware for Orbic RCL400: Complete Installation and Usage Guide 2026"
+title: "DagShell Custom Firmware for Orbic RCL400: 2026 Guide"
 date: 2026-05-28
 toc: true
 draft: false

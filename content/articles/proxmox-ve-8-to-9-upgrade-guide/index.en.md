@@ -1,5 +1,5 @@
 ---
-title: "Proxmox VE 8 to 9 Upgrade Guide: In-Place Upgrade with Automated Script"
+title: "Proxmox VE 8 to 9 Upgrade Guide"
 date: 2026-07-22
 lastmod: 2026-07-22
 toc: true

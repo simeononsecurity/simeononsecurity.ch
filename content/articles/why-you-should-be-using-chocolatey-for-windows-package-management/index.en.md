@@ -1,5 +1,5 @@
 ---
-title: "simplify Windows Package Management with Chocolatey: Simplify Updates and Enhance Security"
+title: "Windows Package Management with Chocolatey"
 date: 2023-05-24
 toc: true
 draft: false

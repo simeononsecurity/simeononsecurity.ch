@@ -1,5 +1,5 @@
 ---
-title: "Best Visual Studio Code Extensions for C++ Development: Boost Your Productivity!"
+title: "Best VS Code Extensions for C++ Development"
 date: 2023-07-05
 toc: true
 draft: false

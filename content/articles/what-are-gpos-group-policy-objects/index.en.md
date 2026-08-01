@@ -1,5 +1,5 @@
 ---
-title: "Mastering GPOs: A Comprehensive Guide to Effective Network Management"
+title: "Mastering GPOs: A Comprehensive Guide to Effective..."
 date: 2023-06-11
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Windows Hardening CTF: Strengthen Your Windows Device's Security for Capture the Flag Events"
+title: "Windows Hardening CTF: Strengthen Device Security"
 date: 2020-10-19
 toc: true
 draft: false

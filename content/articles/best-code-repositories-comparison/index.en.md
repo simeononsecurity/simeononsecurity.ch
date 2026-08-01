@@ -1,5 +1,5 @@
 ---
-title: "Comparing Azure DevOps, GitHub, GitLab, and BitBucket: Finding the Best Code Repositories"
+title: "Azure DevOps vs GitHub vs GitLab vs BitBucket"
 date: 2023-12-08
 lastmod: 2026-05-24
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "Securing Your Workstations: A Guide Based on NIST Recommendations"
+title: "Securing Your Workstations"
 date: 2023-02-14
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned How to Manipulate and Parse JSON in PowerShell and Bash"
+title: "Today I Learned How to Manipulate and Parse JSON in..."
 date: 2021-02-18
 toc: true
 draft: false

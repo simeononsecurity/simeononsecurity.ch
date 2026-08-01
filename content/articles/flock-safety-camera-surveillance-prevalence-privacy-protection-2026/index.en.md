@@ -1,5 +1,5 @@
 ---
-title: "Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies in 2026"
+title: "Flock Safety Camera Surveillance: Privacy and Protection"
 date: 2026-05-24
 toc: true
 draft: false

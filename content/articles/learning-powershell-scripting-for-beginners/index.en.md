@@ -1,5 +1,5 @@
 ---
-title: "PowerShell Scripting: A Step-by-Step Guide for Beginners to Automate Tasks"
+title: "PowerShell Scripting"
 draft: false
 toc: true
 date: 2023-02-25

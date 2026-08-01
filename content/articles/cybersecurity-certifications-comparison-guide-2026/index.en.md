@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Certifications Comparison 2026: Complete Vendor Guide"
+title: "Cybersecurity Certifications Comparison 2026"
 date: 2026-05-24
 toc: true
 draft: false

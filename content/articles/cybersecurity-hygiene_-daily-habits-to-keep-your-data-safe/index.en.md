@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: Daily Habits for a Safe Digital Life"
+title: "Mastering Cybersecurity"
 date: 2024-01-17
 toc: true
 draft: false

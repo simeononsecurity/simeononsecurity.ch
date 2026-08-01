@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Career Guide 2026: Essential Skills, Certifications & Salary Data"
+title: "Cybersecurity Career Guide 2026"
 date: 2023-06-24
 lastmod: 2026-05-24
 toc: true

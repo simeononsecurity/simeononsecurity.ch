@@ -1,5 +1,5 @@
 ---
-title: "Resume Writing Tips for Cybersecurity, Software Development, and IT Professionals"
+title: "Resume Writing Tips for Cybersecurity Professionals"
 draft: false
 toc: true
 date: 2023-05-19

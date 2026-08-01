@@ -1,5 +1,5 @@
 ---
-title: "Insider Threat Indicators: Identifying and Mitigating Potential Risks"
+title: "Insider Threat Indicators"
 date: 2023-06-20
 toc: true
 draft: false

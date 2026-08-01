@@ -1,5 +1,5 @@
 ---
-title: "Mastering Active Directory Administration with PowerShell: Installation and Usage Guide"
+title: "Active Directory Administration with PowerShell"
 date: 2023-07-25
 toc: true
 draft: false

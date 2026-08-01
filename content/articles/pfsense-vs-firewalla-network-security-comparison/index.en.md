@@ -1,5 +1,5 @@
 ---
-title: "pfSense vs Firewalla vs OPNsense: Complete 2026 Network Security Comparison"
+title: "pfSense vs Firewalla vs OPNsense"
 date: 2023-11-14
 lastmod: 2026-05-24
 toc: true

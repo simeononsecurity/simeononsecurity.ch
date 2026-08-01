@@ -1,5 +1,5 @@
 ---
-title: "Network Security Appliances: Fortinet vs. Cisco - A Comprehensive Comparison"
+title: "Network Security Appliances"
 date: 2023-06-29
 toc: true
 draft: false

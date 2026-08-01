@@ -1,5 +1,5 @@
 ---
-title: "Enhance Privacy: Writing Privacy.com Virtual Card Numbers to Physical Cards"
+title: "Enhance Privacy: Writing Privacy.com Virtual Card..."
 date: 2023-11-22
 toc: true
 draft: false

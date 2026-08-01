@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows System Info & Management: Boost Efficiency & Control"
+title: "Mastering Windows System Info & Management"
 date: 2023-10-01
 toc: true
 draft: false

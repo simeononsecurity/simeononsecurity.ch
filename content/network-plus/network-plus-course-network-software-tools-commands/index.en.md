@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Mastering Network Software Tools and Commands"
+title: "Network Plus Course: Mastering Network Software Tools..."
 date: 2023-07-29
 toc: true
 draft: false

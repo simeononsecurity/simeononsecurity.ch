@@ -1,5 +1,5 @@
 ---
-title: "Flock Safety Camera Security Vulnerabilities: Critical Analysis of 50+ Discovered Flaws in 2026"
+title: "Flock Safety Camera Vulnerabilities: 50+ Flaws Found"
 date: 2026-05-24
 toc: true
 draft: false

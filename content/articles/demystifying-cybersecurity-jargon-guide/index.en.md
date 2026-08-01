@@ -1,5 +1,5 @@
 ---
-title: "Demystifying Cybersecurity Jargon: Your Guide to Digital Defense"
+title: "Demystifying Cybersecurity Jargon"
 date: 2023-12-01
 toc: true
 draft: false

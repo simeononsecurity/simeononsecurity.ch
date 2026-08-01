@@ -1,5 +1,5 @@
 ---
-title: "10 Essential Email Security Tips: Protect Your Data and Stay Safe"
+title: "10 Essential Email Security Tips"
 draft: false
 toc: true
 date: 2023-06-14

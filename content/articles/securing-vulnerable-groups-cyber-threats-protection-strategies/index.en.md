@@ -1,5 +1,5 @@
 ---
-title: "Securing Vulnerable Groups: Cyber Threats and Protection Strategies"
+title: "Securing Vulnerable Groups"
 date: 2023-11-07
 toc: true
 draft: false

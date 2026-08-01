@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Blockchain Landscape: Unraveling Fundamentals, Applications, and Future Trends"
+title: "Blockchain Landscape: Fundamentals and Applications"
 date: 2024-01-07
 toc: true
 draft: false

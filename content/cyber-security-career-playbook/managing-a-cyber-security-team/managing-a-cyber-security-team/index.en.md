@@ -1,5 +1,5 @@
 ---
-title: "Ultimate Guide to Managing a Cybersecurity Team: Skills, Best Practices & More"
+title: "Ultimate Guide to Managing a Cybersecurity Team"
 draft: false
 toc: true
 date: 2023-07-03

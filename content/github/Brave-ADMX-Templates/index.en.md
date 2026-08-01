@@ -1,5 +1,5 @@
 ---
-title: "Take Control of Brave Browser Policies with BraveADMX - Modified ADMX Templates"
+title: "Take Control of Brave Browser Policies with BraveADMX"
 date: 2020-07-25T19:30:39-05:00
 draft: false
 description: "Get complete control over Brave Browser policies with our modified Google Chrome ADMX templates, BraveADMX, designed for Group Policy management."

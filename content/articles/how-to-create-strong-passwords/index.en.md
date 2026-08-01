@@ -1,5 +1,5 @@
 ---
-title: "Creating Strong Passwords in 2026: Complete Guide to Security and Password Management"
+title: "Creating Strong Passwords in 2026: Complete Guide"
 draft: false
 toc: true
 date: 2023-05-24

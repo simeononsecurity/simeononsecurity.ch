@@ -1,5 +1,5 @@
 ---
-title: "Protect Your Online Privacy: The Importance of Removing Information from Data Brokers"
+title: "How to Remove Your Information from Data Brokers"
 date: 2023-02-11
 toc: true
 draft: false

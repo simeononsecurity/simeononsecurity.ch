@@ -1,5 +1,5 @@
 ---
-title: "Essential Cybersecurity Courses: Building Skills for a Successful Career"
+title: "Essential Cybersecurity Courses"
 draft: false
 toc: true
 date: 2023-06-17

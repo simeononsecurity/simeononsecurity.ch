@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Home Network: Essential Tips and Tools for Device Protection"
+title: "Secure Your Home Network"
 date: 2023-06-27
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Achieve STIG Compliance: Strengthen Domain Security and Ensure Regulatory Requirements"
+title: "STIG-Compliant Domain Prep: Achieve Compliance"
 date: 2020-09-08T15:13:17-05:00
 draft: false
 description: "Make your Windows Domain compliant with STIGs and SRGs using SimeonOnSecurity's GPOs, and enhance security with NSACyber, Whonix, CERT, and Dirteam configurations."

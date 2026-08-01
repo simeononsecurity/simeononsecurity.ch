@@ -1,5 +1,5 @@
 ---
-title: "Efficient Spacemesh Mining with Multiple GPUs - Maximize Your Reward"
+title: "Efficient Spacemesh Mining with Multiple GPUs"
 date: 2023-08-18
 toc: true
 draft: false

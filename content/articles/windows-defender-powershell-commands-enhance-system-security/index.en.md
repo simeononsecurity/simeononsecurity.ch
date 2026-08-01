@@ -1,5 +1,5 @@
 ---
-title: "Boost Your System Security with Windows Defender PowerShell Commands"
+title: "Boost Your System Security with Windows Defender..."
 date: 2023-07-27
 toc: true
 draft: false

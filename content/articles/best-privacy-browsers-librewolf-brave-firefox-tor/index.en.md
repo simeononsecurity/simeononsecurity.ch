@@ -1,5 +1,5 @@
 ---
-title: "Best Privacy Browsers 2026: LibreWolf vs Brave vs Firefox vs Tor Complete Comparison"
+title: "Best Privacy Browsers 2026: LibreWolf vs Brave vs Tor"
 date: 2023-08-23
 lastmod: 2026-05-24
 toc: true

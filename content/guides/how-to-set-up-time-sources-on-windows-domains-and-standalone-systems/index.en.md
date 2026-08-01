@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for Time Source Management in Windows Domains and Standalone Machines"
+title: "Time Source Management in Windows Domains"
 draft: false
 toc: true
 date: 2023-05-23

@@ -1,5 +1,5 @@
 ---
-title: "Protect Yourself from Hacking, Smear Campaigns, and Identity Theft: Tips for Staying Safe Online"
+title: "Protect Yourself from Hacking and Identity Theft"
 date: 2023-02-16
 toc: true
 draft: false

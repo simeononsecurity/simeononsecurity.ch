@@ -1,5 +1,5 @@
 ---
-title: "Best Linux Distros for Beginners 2026: Complete Comparison Guide"
+title: "Best Linux Distros for Beginners 2026"
 draft: false
 toc: true
 date: 2023-05-28

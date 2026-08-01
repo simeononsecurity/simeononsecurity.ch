@@ -1,5 +1,5 @@
 ---
-title: "Demystifying WMI Filtering: Maximizing GPO Control with Effective Techniques"
+title: "Demystifying WMI Filtering"
 date: 2023-07-25
 toc: true
 draft: false

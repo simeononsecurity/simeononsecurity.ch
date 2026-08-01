@@ -1,5 +1,5 @@
 ---
-title: "Outsourcing vs. In-House IT: What to Keep and What to Hand Off"
+title: "Outsourcing vs. In-House IT"
 draft: false
 toc: true
 date: 2026-07-22

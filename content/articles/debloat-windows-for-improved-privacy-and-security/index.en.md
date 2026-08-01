@@ -1,5 +1,5 @@
 ---
-title: "Maximize Your Security & Privacy: Hardening and Debloating Windows"
+title: "Maximize Your Security & Privacy"
 date: 2023-02-02
 toc: true
 draft: false

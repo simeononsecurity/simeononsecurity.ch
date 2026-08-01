@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Privacy with Albine DeleteMe - Safeguarding Your Digital Presence"
+title: "Secure Your Privacy with Albine DeleteMe"
 date: 2023-08-21
 toc: true
 draft: false

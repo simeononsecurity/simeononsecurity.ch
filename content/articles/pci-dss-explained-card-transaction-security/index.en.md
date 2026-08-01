@@ -1,5 +1,5 @@
 ---
-title: "Defending Data: PCI-DSS Explained for Secure Card Transactions"
+title: "Defending Data: PCI-DSS Explained for Secure Card..."
 date: 2023-11-09
 toc: true
 draft: false

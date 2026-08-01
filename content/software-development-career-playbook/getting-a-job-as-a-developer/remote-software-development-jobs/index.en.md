@@ -1,5 +1,5 @@
 ---
-title: "Remote Software Development Jobs: Which Roles Go Remote and How to Find Them"
+title: "Remote Software Development Jobs"
 draft: false
 toc: true
 date: 2026-07-22

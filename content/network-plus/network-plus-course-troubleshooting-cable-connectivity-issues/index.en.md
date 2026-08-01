@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Troubleshooting Cable Connectivity Issues"
+title: "Network Plus Course: Troubleshooting Cable Connectivity..."
 date: 2023-07-28
 toc: true
 draft: false

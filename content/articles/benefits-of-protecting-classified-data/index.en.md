@@ -1,5 +1,5 @@
 ---
-title: "Safeguarding Classified Data: Benefits Beyond Security for Success and Trust"
+title: "Safeguarding Classified Data"
 date: 2023-10-23
 toc: true
 draft: false

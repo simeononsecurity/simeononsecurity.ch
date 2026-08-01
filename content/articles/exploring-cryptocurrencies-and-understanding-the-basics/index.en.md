@@ -1,5 +1,5 @@
 ---
-title: "Cryptocurrencies: Understanding the Basics and Investing Wisely for Success"
+title: "Cryptocurrencies: Understanding the Basics and Investing..."
 date: 2023-06-21
 toc: true
 draft: false

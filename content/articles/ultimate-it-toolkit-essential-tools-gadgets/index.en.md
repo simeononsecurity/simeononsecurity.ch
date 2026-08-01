@@ -1,5 +1,5 @@
 ---
-title: "Ultimate IT Toolkit: Boost Efficiency with Essential Tools & Gadgets"
+title: "Ultimate IT Toolkit: Boost Efficiency with Essential..."
 date: 2023-11-27
 toc: true
 draft: false

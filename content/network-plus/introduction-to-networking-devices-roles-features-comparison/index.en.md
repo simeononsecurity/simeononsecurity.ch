@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Networking Device Roles, Features, and Comparison"
+title: "Network Plus Course: Networking Device Roles, Features,..."
 date: 2023-07-06
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Preparing for the Future of Cybersecurity in a Post-Pandemic World"
+title: "Preparing for the Future of Cybersecurity in a..."
 date: 2023-03-04
 toc: true
 draft: false

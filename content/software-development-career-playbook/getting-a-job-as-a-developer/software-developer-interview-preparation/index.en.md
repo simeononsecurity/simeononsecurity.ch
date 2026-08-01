@@ -1,5 +1,5 @@
 ---
-title: "Software Developer Interview Preparation: Behavioral, Technical, and System Design"
+title: "Software Developer Interview Prep: Complete Guide"
 draft: false
 toc: true
 date: 2026-07-22

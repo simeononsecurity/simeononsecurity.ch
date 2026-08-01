@@ -1,5 +1,5 @@
 ---
-title: "OT, ICS, and PLC Cybersecurity Is a Problem Industry Cannot Honestly Solve"
+title: "OT, ICS, and PLC Cybersecurity Is a Problem Industry..."
 draft: false
 toc: true
 date: 2026-06-26

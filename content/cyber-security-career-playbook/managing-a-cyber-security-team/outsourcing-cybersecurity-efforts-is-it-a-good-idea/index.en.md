@@ -1,5 +1,5 @@
 ---
-title: "Outsourcing Cybersecurity: Pros, Cons, and Best Practices for Effective Partnership"
+title: "Outsourcing Cybersecurity: Pros, Cons, Best Practices"
 draft: false
 toc: true
 date: 2023-07-05

@@ -1,5 +1,5 @@
 ---
-title: "Securing Systems: The Pivotal Role of ECC Memory Against Data Corruption"
+title: "Securing Systems: The Pivotal Role of ECC Memory Against..."
 date: 2024-03-06
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Presearch: The Community-Driven Search Engine Revolutionizing Online Search"
+title: "Presearch: The Community-Driven Search Engine..."
 date: 2023-02-26
 toc: true
 draft: false

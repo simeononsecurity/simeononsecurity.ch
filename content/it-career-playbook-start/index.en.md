@@ -1,5 +1,5 @@
 ---
-title: "Information Technology Career Playbook: From Help Desk to IT Director"
+title: "Information Technology Career Playbook"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "The Truth About Unclassified Information: Characteristics, Safeguarding, and Regulations"
+title: "Unclassified Information: Safeguarding and Regulations"
 date: 2023-06-10
 toc: true
 draft: false

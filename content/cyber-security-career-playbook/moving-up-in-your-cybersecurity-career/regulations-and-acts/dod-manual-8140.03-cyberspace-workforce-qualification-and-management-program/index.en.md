@@ -1,5 +1,5 @@
 ---
-title: "DoD Manual 8140.03: Cyberspace Workforce Program - Summarized"
+title: "DoD Manual 8140.03: Cyberspace Workforce Program"
 date: 2023-02-15
 toc: true
 draft: false

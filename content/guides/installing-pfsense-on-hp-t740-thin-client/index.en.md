@@ -1,5 +1,5 @@
 ---
-title: "Running pfSense on the HP t740 Thin Client: Tips and Troubleshooting Guide"
+title: "Running pfSense on the HP t740 Thin Client"
 draft: false
 toc: true
 date: 2023-04-29

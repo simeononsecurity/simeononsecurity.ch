@@ -1,5 +1,5 @@
 ---
-title: "Cyber Security Career Playbook - Launching a Successful Cyber Security Career"
+title: "Cyber Security Career Playbook"
 draft: false
 toc: true
 date: 2023-06-01

@@ -1,5 +1,5 @@
 ---
-title: "help Your Defense: Mastering EDR Security for Endpoint Protection"
+title: "help Your Defense: Mastering EDR Security for Endpoint..."
 date: 2023-10-25
 toc: true
 draft: false

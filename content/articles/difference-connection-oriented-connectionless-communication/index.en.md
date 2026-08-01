@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Difference Between Connection-Oriented and Connectionless Communication"
+title: "Connection-Oriented vs Connectionless Communication"
 date: 2023-07-02
 toc: true
 draft: false

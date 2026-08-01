@@ -1,5 +1,5 @@
 ---
-title: "The role of container orchestration in modern DevOps environments"
+title: "The role of container orchestration in modern DevOps..."
 date: 2023-04-14
 toc: true
 draft: false

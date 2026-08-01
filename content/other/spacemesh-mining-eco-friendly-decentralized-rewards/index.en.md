@@ -1,5 +1,5 @@
 ---
-title: "Spacemesh Mining: The Eco-Friendly Path to Decentralized Rewards"
+title: "Spacemesh Mining: The Eco-Friendly Path to Decentralized..."
 date: 2023-09-04
 toc: true
 draft: false

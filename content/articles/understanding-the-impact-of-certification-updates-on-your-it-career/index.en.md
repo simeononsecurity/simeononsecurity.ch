@@ -1,5 +1,5 @@
 ---
-title: "Career Climb: Navigating IT Certification Updates Effectively"
+title: "Career Climb: Navigating IT Certification Updates..."
 date: 2024-03-10
 toc: true
 draft: false

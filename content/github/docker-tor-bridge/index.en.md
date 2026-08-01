@@ -1,5 +1,5 @@
 ---
-title: "How to Create and Run a Docker Tor Bridge Image for Enhanced Privacy and Anonymity"
+title: "How to Create a Docker Tor Bridge for Privacy"
 date: 2022-07-06
 toc: true
 draft: false

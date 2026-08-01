@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Server Security: Hardening for Robust Protection"
+title: "Mastering Windows Server Security"
 date: 2023-10-11
 toc: true
 draft: false

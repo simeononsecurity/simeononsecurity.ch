@@ -1,5 +1,5 @@
 ---
-title: "Install Mysterium: Decentralized VPN and Web Scraping Service"
+title: "Install Mysterium: Decentralized VPN and Web Scraping..."
 draft: false
 toc: true
 date: 2023-06-01

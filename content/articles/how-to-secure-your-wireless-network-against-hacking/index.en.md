@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Wireless Network Against Hacking and Eavesdropping"
+title: "Secure Your Wireless Network Against Hacking and..."
 date: 2023-03-09
 toc: true
 draft: false

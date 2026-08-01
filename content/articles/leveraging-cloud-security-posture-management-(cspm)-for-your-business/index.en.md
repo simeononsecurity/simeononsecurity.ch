@@ -1,5 +1,5 @@
 ---
-title: "Securing Cloud Excellence: Unleashing the Power of CSPM for Business Resilience"
+title: "Securing Cloud Excellence"
 date: 2024-01-22
 toc: true
 draft: false

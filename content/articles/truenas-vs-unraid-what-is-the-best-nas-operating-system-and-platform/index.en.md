@@ -1,5 +1,5 @@
 ---
-title: "Unraid vs TrueNas: Which NAS Operating System is Right for You?"
+title: "Unraid vs TrueNas: Which NAS Operating System is Right..."
 date: 2023-02-16
 toc: true
 draft: false

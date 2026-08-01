@@ -1,5 +1,5 @@
 ---
-title: "Networking Basics: Understanding Switches, Routers, Gateways, Subnets, Firewalls & DMZs"
+title: "Networking Basics: Switches, Routers, Firewalls & DMZs"
 draft: false
 toc: true
 date: 2023-07-21

@@ -1,5 +1,5 @@
 ---
-title: "Building and Managing an Effective Cybersecurity Awareness Training Program"
+title: "Building and Managing an Effective Cybersecurity..."
 date: 2023-02-18
 toc: true
 draft: false

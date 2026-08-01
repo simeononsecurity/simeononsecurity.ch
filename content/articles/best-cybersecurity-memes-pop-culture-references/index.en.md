@@ -1,5 +1,5 @@
 ---
-title: "Exploring the Best Cybersecurity Memes and Pop Culture References"
+title: "Exploring the Best Cybersecurity Memes and Pop Culture..."
 date: 2023-11-30
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "How to Properly Place Access Points: Optimizing Wireless Connectivity for smooth Performance"
+title: "How to Place Access Points: Optimize Wireless Coverage"
 date: 2023-08-05
 toc: true
 draft: false

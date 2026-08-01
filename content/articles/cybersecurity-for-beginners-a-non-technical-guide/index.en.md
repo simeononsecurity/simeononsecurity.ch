@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Basics: A Comprehensive Guide to Protecting Your Digital Life"
+title: "Cybersecurity Basics"
 draft: false
 toc: true
 date: 2023-06-11

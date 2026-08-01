@@ -1,5 +1,5 @@
 ---
-title: "Software Development Specializations: Which Path Should You Take?"
+title: "Software Development Specializations"
 draft: false
 toc: true
 date: 2026-07-22

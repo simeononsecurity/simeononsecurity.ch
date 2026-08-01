@@ -1,5 +1,5 @@
 ---
-title: "Boost Your Cybersecurity Career: Best Certifications for Beginners"
+title: "Boost Your Cybersecurity Career"
 date: 2023-07-28
 toc: true
 draft: false

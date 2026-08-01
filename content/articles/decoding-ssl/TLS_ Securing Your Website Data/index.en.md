@@ -1,5 +1,5 @@
 ---
-title: "SSL/TLS: A Guide to Secure Your Website Data and Navigate Future Cyber Challenges"
+title: "SSL/TLS Security Guide: Protect Your Website Data"
 date: 2024-01-18
 toc: true
 draft: false

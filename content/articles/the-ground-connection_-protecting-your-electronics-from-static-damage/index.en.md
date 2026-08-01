@@ -1,5 +1,5 @@
 ---
-title: "Defending Devices: A Guide to Preventing Static Electrical Damage"
+title: "Defending Devices: A Guide to Preventing Static..."
 date: 2024-03-04
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ﻿---
-title: "Password Security Checklist: Strengthening Your Accounts and Protecting Sensitive Information"
+title: "Password Security Checklist: Protect Your Accounts"
 date: 2023-08-13
 toc: true
 draft: false

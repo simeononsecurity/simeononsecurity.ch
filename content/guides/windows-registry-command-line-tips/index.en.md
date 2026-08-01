@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Registry: Command Line Tips for Efficient Configuration"
+title: "Mastering Windows Registry"
 date: 2023-10-05
 toc: true
 draft: false

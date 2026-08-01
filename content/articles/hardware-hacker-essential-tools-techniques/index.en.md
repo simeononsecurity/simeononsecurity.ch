@@ -1,5 +1,5 @@
 ---
-title: "Unveiling the World of a Hardware Hacker: Essential Tools and Techniques"
+title: "Unveiling the World of a Hardware Hacker"
 date: 2023-07-02
 toc: true
 draft: false

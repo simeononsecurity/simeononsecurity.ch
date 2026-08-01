@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned about CVE-2020-17049 and Windows Token-Based Activation"
+title: "Today I Learned about CVE-2020-17049 and Windows..."
 date: 2020-12-27
 toc: true
 draft: false

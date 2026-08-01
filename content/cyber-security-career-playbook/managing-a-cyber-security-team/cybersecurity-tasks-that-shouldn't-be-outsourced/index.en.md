@@ -1,5 +1,5 @@
 ---
-title: "Maximizing Cybersecurity: Key In-House Tasks for Robust Protection"
+title: "Maximizing Cybersecurity"
 draft: false
 toc: true
 date: 2023-07-06

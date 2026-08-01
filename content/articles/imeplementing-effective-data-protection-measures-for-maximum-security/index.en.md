@@ -1,5 +1,5 @@
 ---
-title: "Effective Data Protection Measures: Safeguarding Your Business with Maximum Security"
+title: "Effective Data Protection: Safeguard Your Business"
 draft: false
 toc: true
 date: 2023-06-12

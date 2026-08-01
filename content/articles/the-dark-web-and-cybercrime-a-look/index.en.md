@@ -1,5 +1,5 @@
 ---
-title: "The Dark Web and Cybercrime: Unveiling the Underbelly of the Internet"
+title: "The Dark Web and Cybercrime"
 date: 2023-05-26
 toc: true
 draft: false

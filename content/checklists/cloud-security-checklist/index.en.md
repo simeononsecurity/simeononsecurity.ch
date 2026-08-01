@@ -1,5 +1,5 @@
 ﻿---
-title: "Ultimate Cloud Security Checklist: Safeguard Your Data and Achieve Peace of Mind"
+title: "Cloud Security Checklist: Safeguard Your Data"
 date: 2023-08-07
 toc: true
 draft: false

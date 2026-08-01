@@ -1,5 +1,5 @@
 ---
-title: "Use ChatGPT in your Terminal (Bash, PowerShell, Python): An Introduction to the ChatGPT CLI Tool for Developers"
+title: "Use ChatGPT in Your Terminal: Bash, PowerShell, Python"
 date: 2023-02-07
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Best Visual Studio Code Extensions for AI: Boost Your AI Development with These Essential Tools"
+title: "Best VS Code Extensions for AI Development"
 date: 2023-07-06
 toc: true
 draft: false

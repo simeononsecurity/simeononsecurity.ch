@@ -1,5 +1,5 @@
 ---
-title: "Best Linux Distros for Windows Switchers: Ubuntu, Zorin OS, Mint, and More"
+title: "Best Linux Distros for Windows Switchers"
 draft: false
 toc: true
 date: 2023-05-29

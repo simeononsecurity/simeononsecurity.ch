@@ -1,5 +1,5 @@
 ---
-title: "Mobile Device Security: Effective Tips for Keeping Your Data Safe"
+title: "Mobile Device Security"
 draft: false
 toc: true
 date: 2023-06-15

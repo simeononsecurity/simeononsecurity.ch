@@ -1,5 +1,5 @@
 ---
-title: "Creating a Home Lab: A Guide for IT Professionals, Students, and Hobbyists"
+title: "Creating a Home Lab: A Guide for IT Professionals,..."
 date: 2023-02-14
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Insider Insights: Navigating the Dynamic Landscape of Cybersecurity"
+title: "Insider Insights: Navigating the Dynamic Landscape of..."
 date: 2024-01-08
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Exploring Metasploit: A Comprehensive Framework for Penetration Testing and Exploit Development"
+title: "Metasploit: A Framework for Penetration Testing"
 date: 2023-06-12
 toc: true
 draft: false

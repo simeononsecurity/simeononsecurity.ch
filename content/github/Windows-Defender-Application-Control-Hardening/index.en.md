@@ -1,5 +1,5 @@
 ---
-title: "Complete Guide to Harden Windows with Windows Defender Application Control WDAC"
+title: "Complete Guide to Harden Windows with Windows Defender..."
 date: 2020-12-16
 toc: true
 draft: false

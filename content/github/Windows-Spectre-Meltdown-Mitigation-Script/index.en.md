@@ -1,5 +1,5 @@
 ---
-title: "Protect Windows from Speculative Execution Side-Channel Attacks"
+title: "Protect Windows from Speculative Execution Side-Channel..."
 date: 2020-06-18
 toc: true
 draft: false

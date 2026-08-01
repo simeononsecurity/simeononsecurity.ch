@@ -1,5 +1,5 @@
 ---
-title: "SyncThing vs FreeFileSync: Which is Best for Effortless File Sync?"
+title: "SyncThing vs FreeFileSync"
 date: 2023-12-11
 toc: true
 draft: false

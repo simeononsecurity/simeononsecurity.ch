@@ -1,5 +1,5 @@
 ---
-title: "Automating Security and Hardening: Comprehensive Hardening Resources"
+title: "Automating Security and Hardening"
 date: 2023-02-11
 toc: true
 draft: false

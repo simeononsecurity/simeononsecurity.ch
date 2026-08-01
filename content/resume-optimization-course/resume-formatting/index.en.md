@@ -1,5 +1,5 @@
 ---
-title: "Module 2: Resume Formatting — Layout Rules That Survive ATS Parsing"
+title: "Module 2: Resume Formatting"
 date: 2026-07-22
 toc: true
 draft: false

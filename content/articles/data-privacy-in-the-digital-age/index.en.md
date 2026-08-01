@@ -1,5 +1,5 @@
 ---
-title: "Protecting Personal Information in the Digital Age: Strategies for Data Privacy"
+title: "Protecting Personal Information in the Digital Age"
 date: 2023-06-29
 toc: true
 draft: false

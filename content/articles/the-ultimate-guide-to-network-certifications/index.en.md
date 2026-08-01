@@ -1,5 +1,5 @@
 ---
-title: "Elevate Your IT Career: A Comprehensive Guide to Network Certifications"
+title: "Elevate Your IT Career"
 date: 2024-03-07
 toc: true
 draft: false

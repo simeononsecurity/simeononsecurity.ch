@@ -1,5 +1,5 @@
 ---
-title: "Fortify Your Home Network: 10 Vital Cybersecurity Checks for Total Digital Defense"
+title: "10 Essential Cybersecurity Checks for Your Home Network"
 date: 2024-01-12
 toc: true
 draft: false

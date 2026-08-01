@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Windows and Server Systems: Custom Branding Setup Guide"
+title: "Enhancing Windows and Server Systems"
 date: 2020-08-13
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Best Password Managers 2026: Bitwarden vs KeePassXC vs 1Password vs LastPass vs Dashlane - Complete Comparison"
+title: "Best Password Managers 2026: Bitwarden vs KeePassXC"
 date: 2023-02-28
 lastmod: 2026-05-24
 toc: true

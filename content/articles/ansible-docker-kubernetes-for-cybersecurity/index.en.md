@@ -1,5 +1,5 @@
 ---
-title: "Maximizing Efficiency with Ansible, Docker, and Kubernetes: A Guide to Cybersecurity Automation"
+title: "Ansible, Docker, and Kubernetes for Cybersecurity"
 date: 2023-02-02
 toc: true
 draft: false

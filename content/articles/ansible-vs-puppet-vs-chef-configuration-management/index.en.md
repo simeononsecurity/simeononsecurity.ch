@@ -1,5 +1,5 @@
 ---
-title: "Ansible vs Puppet vs Chef 2026: Complete Configuration Management Comparison - Features, Performance & Best Use Cases"
+title: "Ansible vs Puppet vs Chef 2026: Config Management"
 date: 2026-05-24
 lastmod: 2026-05-24
 toc: true

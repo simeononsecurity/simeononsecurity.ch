@@ -1,5 +1,5 @@
 ---
-title: "Build an Affordable, Secure Home Lab for IT Testing & Learning"
+title: "Build an Affordable, Secure Home Lab for IT Testing &..."
 date: 2023-03-25
 toc: true
 draft: false

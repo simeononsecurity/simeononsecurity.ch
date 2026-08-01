@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning vs. Deep Learning: Unraveling the Differences"
+title: "Machine Learning vs. Deep Learning"
 date: 2023-06-05
 toc: true
 draft: false

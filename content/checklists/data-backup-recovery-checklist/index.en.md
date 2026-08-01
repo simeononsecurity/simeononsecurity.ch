@@ -1,5 +1,5 @@
 ﻿---
-title: "Ultimate Data Backup and Recovery Checklist: Ensure Secure and Reliable Data Protection"
+title: "Data Backup and Recovery Checklist: Complete Guide"
 date: 2023-08-08
 toc: true
 draft: false

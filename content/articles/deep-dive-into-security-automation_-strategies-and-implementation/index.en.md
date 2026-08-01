@@ -1,5 +1,5 @@
 ---
-title: "Mastering Security Automation: Strategies, Tools, and Metrics for Cyber Resilience"
+title: "Mastering Security Automation: Strategies and Tools"
 date: 2024-01-06
 toc: true
 draft: false

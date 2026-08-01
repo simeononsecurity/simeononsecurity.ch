@@ -1,5 +1,5 @@
 ---
-title: "Building Efficient and Secure Docker Containers: A Guide for Beginners"
+title: "Building Efficient and Secure Docker Containers"
 date: 2023-02-24
 toc: true
 draft: false

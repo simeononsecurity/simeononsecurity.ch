@@ -1,5 +1,5 @@
 ---
-title: "Secure Apache Web Server: A Comprehensive Guide for System Administrators"
+title: "Secure Apache Web Server"
 date: 2020-07-27T10:15:03-07:00
 draft: false
 description: "Learn how to harden your Apache web server and ensure maximum security with this comprehensive guide for system administrators."

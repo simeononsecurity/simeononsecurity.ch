@@ -1,5 +1,5 @@
 ---
-title: "The Power of Penetration Testing in Cyber Security: Methods, Tools, and Best Practices"
+title: "Penetration Testing in Cyber Security: Methods and Tools"
 date: 2023-06-10
 toc: true
 draft: false

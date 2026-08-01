@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Images with Python: Boost Performance and Enhance User Experience"
+title: "Optimizing Images with Python"
 date: 2023-07-04
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Advancing from Junior to Senior Developer: Skills, Behaviors, and Timelines"
+title: "Advancing from Junior to Senior Developer"
 draft: false
 toc: true
 date: 2026-07-22

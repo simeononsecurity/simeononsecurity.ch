@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Certifications for Government and Military Professionals"
+title: "Cybersecurity Certifications for Government and Military..."
 date: 2023-05-14
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Choosing a Password Manager: A Comprehensive Guide for Enhanced Security"
+title: "Choosing a Password Manager"
 date: 2023-06-25
 toc: true
 draft: false

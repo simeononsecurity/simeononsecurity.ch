@@ -1,5 +1,5 @@
 ---
-title: "LibreWolf vs Firefox: A Comprehensive Comparison of Privacy-Focused Browsers"
+title: "LibreWolf vs Firefox"
 date: 2023-11-03
 toc: true
 draft: false

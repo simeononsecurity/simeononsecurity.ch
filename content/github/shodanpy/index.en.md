@@ -1,6 +1,6 @@
 
 ---
-title: "Effortless Shodan API Interaction: Simplify Your Cybersecurity Queries"
+title: "Effortless Shodan API Interaction"
 date: 2023-09-21
 toc: true
 draft: false

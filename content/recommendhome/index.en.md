@@ -1,5 +1,5 @@
 ---
-title: "SimeonOnSecurity's Expert Recommendations for Security and Privacy Products and Resources"
+title: "Expert Recommendations for Security and Privacy"
 draft: false
 toc: true
 description: "Explore SimeonOnSecurity's expert recommendations for trusted and highly rated security and privacy-related products and resources."

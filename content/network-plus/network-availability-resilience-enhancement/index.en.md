@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Enhancing Network Availability and Resilience"
+title: "Network Plus Course: Enhancing Network Availability and..."
 date: 2023-07-18
 toc: true
 draft: false

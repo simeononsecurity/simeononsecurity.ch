@@ -1,5 +1,5 @@
 ---
-title: "Top 5 Linux Security and Hardening Techniques: Boost System Defense Today!"
+title: "Top 5 Linux Security and Hardening Techniques"
 date: 2023-10-10
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Opt-Out of Pre-Approved Credit Offers using optoutprescreen: Protect Your Identity Today"
+title: "Opt Out of Pre-Approved Credit Offers via optoutprescreen"
 date: 2023-02-12
 toc: true
 draft: false

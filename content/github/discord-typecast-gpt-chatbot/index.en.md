@@ -1,5 +1,5 @@
 ---
-title: "Discord Typecast GPT Chatbot: Friendly and Knowledgeable Discord-Based Support Agent"
+title: "Discord Typecast GPT Chatbot: Discord Support Agent"
 date: 2023-03-24
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Security: Insider Threat Programs for Safeguarding Organizations"
+title: "Enhancing Security: Insider Threat Programs for..."
 date: 2023-10-20
 toc: true
 draft: false

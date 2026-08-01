@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Analyst Salaries: A Comprehensive Guide to Entry Level and Pro Compensation"
+title: "Cybersecurity Analyst Salaries: Entry Level to Senior"
 draft: false
 toc: true
 date: 2023-06-08

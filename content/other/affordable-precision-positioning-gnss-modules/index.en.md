@@ -1,5 +1,5 @@
 ---
-title: "Affordable GNSS Solutions: UM980 and UM982 for Precise Positioning"
+title: "Affordable GNSS Solutions"
 date: 2023-12-29
 toc: true
 draft: false

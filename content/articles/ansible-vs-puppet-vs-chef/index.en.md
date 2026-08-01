@@ -1,5 +1,5 @@
 ---
-title: "Automation Showdown: Ansible vs. Puppet vs. Chef - A Comparison of Key Automation Tools"
+title: "Ansible vs. Puppet vs. Chef: Automation Compared"
 date: 2023-06-30
 toc: true
 draft: false

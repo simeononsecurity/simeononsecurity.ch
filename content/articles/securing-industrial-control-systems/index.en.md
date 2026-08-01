@@ -1,5 +1,5 @@
 ---
-title: "Securing Industrial Control Systems (ICS): Challenges, Best Practices, and Future Trends"
+title: "Securing Industrial Control Systems (ICS): Best Practices"
 draft: false
 toc: true
 date: 2023-07-17

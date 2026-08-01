@@ -1,5 +1,5 @@
 ---
-title: "RAID Technology Decoded: Enhancing Data Storage with Redundancy"
+title: "RAID Technology Decoded"
 date: 2024-03-09
 toc: true
 draft: false

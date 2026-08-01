@@ -1,5 +1,5 @@
 ---
-title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with RGB LED Alerts"
+title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with..."
 date: 2026-06-06
 toc: true
 draft: false

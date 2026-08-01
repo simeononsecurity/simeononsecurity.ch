@@ -1,5 +1,5 @@
 ---
-title: "Connect & Project: Mastering Audio Connectors for Superior Sound"
+title: "Connect & Project: Mastering Audio Connectors for..."
 date: 2024-03-01
 toc: true
 draft: false

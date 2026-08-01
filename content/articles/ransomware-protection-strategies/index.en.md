@@ -1,5 +1,5 @@
 ---
-title: "Defend Against Ransomware: Strategies for Protection and Resilience"
+title: "Defend Against Ransomware"
 date: 2023-10-16
 toc: true
 draft: false

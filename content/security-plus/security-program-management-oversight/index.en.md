@@ -1,5 +1,5 @@
 ---
-title: "CompTIA Security+ (SY0-701): Security Program Management and Oversight"
+title: "CompTIA Security+ (SY0-701)"
 date: 2025-01-01
 toc: true
 draft: false

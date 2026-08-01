@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Command Line: Your Gateway to Efficient System Management"
+title: "Mastering Windows Command Line"
 date: 2023-09-28
 toc: true
 draft: false

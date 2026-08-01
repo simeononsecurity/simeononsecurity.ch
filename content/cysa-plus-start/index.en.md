@@ -1,5 +1,5 @@
 ---
-title: "CompTIA CySA+ Course: Complete Study Guide for the CS0-003 Exam"
+title: "CompTIA CySA+ Course"
 date: 2025-01-01
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Detection and Prevention Methods for Network Security"
+title: "Network Plus Course: Detection and Prevention Methods..."
 date: 2023-07-25
 toc: true
 draft: false

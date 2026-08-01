@@ -1,5 +1,5 @@
 ---
-title: "Automating Windows Updates with Ansible: A Comprehensive Guide"
+title: "Automating Windows Updates with Ansible"
 date: 2023-05-27
 toc: true
 draft: false

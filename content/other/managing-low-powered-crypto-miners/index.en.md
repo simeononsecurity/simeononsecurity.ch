@@ -1,5 +1,5 @@
 ---
-title: "Managing a Fleet of Low-Powered Miners: A Guide to Remote Access and Security"
+title: "Managing a Fleet of Low-Powered Miners"
 draft: false
 toc: true
 date: 2023-02-14

@@ -1,5 +1,5 @@
 ---
-title: "Coding Interview Prep Guide: LeetCode Strategy, DSA, and Timelines"
+title: "Coding Interview Prep Guide"
 draft: false
 toc: true
 date: 2026-07-22

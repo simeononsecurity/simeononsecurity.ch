@@ -1,5 +1,5 @@
 ---
-title: "Protect Your Credit Score: The Importance of Freezing Your Credit"
+title: "Protect Your Credit Score"
 date: 2023-02-13
 toc: true
 draft: false

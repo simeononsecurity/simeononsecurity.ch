@@ -1,5 +1,5 @@
 ---
-title: "Coding Bootcamps vs. Self-Taught vs. Degree: Which Path Should You Take?"
+title: "Coding Bootcamps vs. Self-Taught vs. Degree"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "Are Google Career Certificates Worth It? Unlocking Success in Tech"
+title: "Are Google Career Certificates Worth It? Unlocking..."
 date: 2023-07-29
 toc: true
 draft: false

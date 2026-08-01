@@ -1,5 +1,5 @@
 ---
-title: "A Guide to Building a Career in Cyber Security: Education, Certifications, and Job Opportunities"
+title: "Building a Career in Cyber Security: Complete Guide"
 date: 2023-06-11
 toc: true
 draft: false

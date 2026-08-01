@@ -1,5 +1,5 @@
 ---
-title: "Boost Productivity with Homebox: Open Source Inventory and Asset Management"
+title: "Boost Productivity with Homebox"
 date: 2023-06-08
 toc: true
 draft: false

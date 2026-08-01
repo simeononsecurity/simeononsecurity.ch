@@ -1,5 +1,5 @@
 ---
-title: "Exploring Dev Home and Dev Drive: simplifying Windows Development Workflow"
+title: "Exploring Dev Home and Dev Drive"
 date: 2023-06-15
 toc: true
 draft: false

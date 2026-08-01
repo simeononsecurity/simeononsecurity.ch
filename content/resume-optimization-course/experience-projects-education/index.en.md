@@ -1,5 +1,5 @@
 ---
-title: "Module 6: Experience, Projects, and Education — The Section-by-Section Resume Guide"
+title: "Module 6: Experience, Projects, and Education"
 date: 2026-07-22
 toc: true
 draft: false

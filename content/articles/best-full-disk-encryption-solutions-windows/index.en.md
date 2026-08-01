@@ -1,5 +1,5 @@
 ---
-title: "What are the Best Full Disk Encryption Solutions for Windows?"
+title: "What are the Best Full Disk Encryption Solutions for..."
 date: 2023-07-26
 toc: true
 draft: false

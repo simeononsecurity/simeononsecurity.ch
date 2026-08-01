@@ -1,5 +1,5 @@
 ---
-title: "Mitigating Insider Threats: Strategies for Proactive Security and Prevention"
+title: "Mitigating Insider Threats"
 date: 2023-10-19
 toc: true
 draft: false

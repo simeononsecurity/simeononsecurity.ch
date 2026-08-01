@@ -1,5 +1,5 @@
 ---
-title: "NAS OS Comparison: Finding the Best Storage Solution for Your Data Needs"
+title: "NAS OS Comparison: Finding the Best Storage Solution for..."
 date: 2023-09-07
 toc: true
 draft: false

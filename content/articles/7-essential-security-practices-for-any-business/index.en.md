@@ -1,5 +1,5 @@
 ---
-title: "Mastering Business Security: 7 Essential Practices for Fortified Defenses and Unyielding Success"
+title: "7 Essential Business Security Practices"
 date: 2024-01-04
 toc: true
 draft: false

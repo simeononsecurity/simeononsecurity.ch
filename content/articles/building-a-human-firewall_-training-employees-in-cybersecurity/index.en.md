@@ -1,5 +1,5 @@
 ---
-title: "help Your Workforce: Building a Resilient Human Firewall Against Cyber Threats"
+title: "help Your Workforce: Building a Resilient Human Firewall..."
 date: 2024-01-15
 toc: true
 draft: false

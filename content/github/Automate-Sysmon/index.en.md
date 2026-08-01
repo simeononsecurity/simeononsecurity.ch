@@ -1,5 +1,5 @@
 ---
-title: "Automate-Sysmon: Simplify Sysmon Deployment and Configuration"
+title: "Automate-Sysmon: Simplify Sysmon Deployment and..."
 date: 2021-05-11
 toc: true
 draft: false

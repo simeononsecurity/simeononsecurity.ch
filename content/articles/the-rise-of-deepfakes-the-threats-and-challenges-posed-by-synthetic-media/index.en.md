@@ -1,5 +1,5 @@
 ---
-title: "Deepfakes: Threats and Challenges of Synthetic Media in the Digital Age"
+title: "Deepfakes: Threats and Challenges of Synthetic Media in..."
 draft: false
 toc: true
 date: 2023-05-21

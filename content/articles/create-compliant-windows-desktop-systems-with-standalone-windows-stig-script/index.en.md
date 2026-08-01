@@ -1,5 +1,5 @@
 ---
-title: "The Power of Cybersecurity: How to Build a Compliant & Secure Windows System with Standalone-Windows-STIG-Script"
+title: "Standalone-Windows-STIG-Script: Build a Compliant PC"
 date: 2023-02-02
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Affiliate Disclosure: Support Us and Discover Amazing Services"
+title: "Affiliate Disclosure"
 date: 2023-08-30
 toc: false
 draft: false

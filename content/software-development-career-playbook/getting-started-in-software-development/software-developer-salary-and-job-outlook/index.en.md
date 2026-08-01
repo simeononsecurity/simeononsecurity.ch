@@ -1,5 +1,5 @@
 ---
-title: "Software Developer Salary and Job Outlook: What to Expect in 2026"
+title: "Software Developer Salary and Job Outlook"
 draft: false
 toc: true
 date: 2026-07-22

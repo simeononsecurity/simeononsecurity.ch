@@ -1,5 +1,5 @@
 ---
-title: "Module 7: Tailoring Your Resume — How to Target a Job Without Rewriting Everything"
+title: "Module 7: Tailoring Your Resume to Target a Job"
 date: 2026-07-22
 toc: true
 draft: false

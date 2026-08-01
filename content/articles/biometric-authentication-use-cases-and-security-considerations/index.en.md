@@ -1,5 +1,5 @@
 ---
-title: "Biometric Authentication: Advancements, Use Cases, and Security Considerations in the Digital Age"
+title: "Biometric Authentication: Use Cases and Security"
 draft: false
 toc: true
 date: 2023-07-16

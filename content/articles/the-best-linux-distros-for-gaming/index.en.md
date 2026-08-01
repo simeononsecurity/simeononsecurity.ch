@@ -1,5 +1,5 @@
 ---
-title: "Best Linux Distros for Gaming: Ubuntu, Zorin OS, Manjaro, and More"
+title: "Best Linux Distros for Gaming"
 draft: false
 toc: true
 date: 2023-05-30

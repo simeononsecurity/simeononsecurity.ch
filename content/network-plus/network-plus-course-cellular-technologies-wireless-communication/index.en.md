@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Cellular Technologies and Wireless Communication"
+title: "Network Plus Course: Cellular Technologies and Wireless..."
 date: 2023-07-12
 toc: true
 draft: false

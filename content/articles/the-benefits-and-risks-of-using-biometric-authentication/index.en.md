@@ -1,5 +1,5 @@
 ---
-title: "The Pros and Cons of Biometric Authentication for Access Control"
+title: "The Pros and Cons of Biometric Authentication for Access..."
 date: 2023-04-01
 toc: true
 draft: false

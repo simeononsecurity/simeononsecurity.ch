@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Address Resolution Protocol (ARP) and Neighbor Discovery Protocol (NDP)"
+title: "Network+ Course: ARP and Neighbor Discovery Protocol"
 date: 2023-07-10
 toc: true
 draft: false

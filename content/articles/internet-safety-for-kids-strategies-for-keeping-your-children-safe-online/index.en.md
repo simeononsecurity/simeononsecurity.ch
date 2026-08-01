@@ -1,5 +1,5 @@
 ---
-title: "Internet Safety for Kids: Tips and Strategies for Keeping Your Children Safe Online"
+title: "Internet Safety for Kids: Strategies to Stay Safe Online"
 date: 2023-05-13
 toc: true
 draft: false

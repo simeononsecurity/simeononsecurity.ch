@@ -1,5 +1,5 @@
 ---
-title: "Basic Windows Hardening Best Practices for Secure Windows 10 and Windows 11"
+title: "Basic Windows Hardening Best Practices for Secure..."
 date: 2023-07-27
 toc: true
 draft: false

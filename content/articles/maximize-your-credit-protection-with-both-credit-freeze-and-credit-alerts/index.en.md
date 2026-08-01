@@ -1,5 +1,5 @@
 ---
-title: "Maximizing Your Credit Protection with Freeze and Fraud Alert Combination"
+title: "Maximizing Your Credit Protection with Freeze and Fraud..."
 date: 2023-02-15
 toc: true
 draft: false

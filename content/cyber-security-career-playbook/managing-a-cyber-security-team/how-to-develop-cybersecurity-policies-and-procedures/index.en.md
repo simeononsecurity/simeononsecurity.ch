@@ -1,5 +1,5 @@
 ---
-title: "Developing a Cybersecurity Policy: Best Practices and Procedures"
+title: "Developing a Cybersecurity Policy"
 draft: false
 toc: true
 date: 2023-07-02

@@ -1,5 +1,5 @@
 ---
-title: "Tips for Passing CompTIA Exams in 2026: Your Complete Strategy Guide"
+title: "Tips for Passing CompTIA Exams in 2026"
 date: 2023-02-22
 lastmod: 2026-05-24
 toc: true

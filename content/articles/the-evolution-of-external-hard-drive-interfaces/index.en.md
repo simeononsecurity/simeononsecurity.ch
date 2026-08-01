@@ -1,5 +1,5 @@
 ---
-title: "Fast-Forward Data: A Timeline of External Hard Drive Interfaces"
+title: "Fast-Forward Data: A Timeline of External Hard Drive..."
 date: 2024-03-02
 toc: true
 draft: false

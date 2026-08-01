@@ -1,5 +1,5 @@
 ---
-title: "IT Resume Writing Tips: How to Write a Resume That Gets You Hired"
+title: "IT Resume Writing Tips"
 draft: false
 toc: true
 date: 2026-07-22

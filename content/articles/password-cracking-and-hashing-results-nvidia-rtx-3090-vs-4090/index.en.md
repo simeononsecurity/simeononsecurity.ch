@@ -1,5 +1,5 @@
 ---
-title: "NVIDIA RTX 3090 vs RTX 4090: Password Cracking Performance Comparison"
+title: "NVIDIA RTX 3090 vs RTX 4090"
 date: 2023-05-16
 toc: true
 draft: false

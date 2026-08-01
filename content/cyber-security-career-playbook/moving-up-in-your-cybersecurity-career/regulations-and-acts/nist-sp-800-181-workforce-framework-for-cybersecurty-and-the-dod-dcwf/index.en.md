@@ -1,5 +1,5 @@
 ---
-title: "Unleashing the Power of Workforce Development: NICE and DoD DCWF Frameworks"
+title: "Unleashing the Power of Workforce Development"
 draft: false
 toc: true
 date: 2023-07-01

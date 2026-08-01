@@ -1,5 +1,5 @@
 ---
-title: "Ansible for Beginners 2026: Complete Guide to IT Infrastructure Automation"
+title: "Ansible for Beginners 2026"
 draft: false
 toc: true
 date: 2023-02-25

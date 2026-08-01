@@ -1,5 +1,5 @@
 ---
-title: "Build a Profitable Passive Income Box with Low-Powered Hardware: A Guide"
+title: "Build a Profitable Passive Income Box with Low-Powered..."
 draft: false
 toc: true
 date: 2023-02-07

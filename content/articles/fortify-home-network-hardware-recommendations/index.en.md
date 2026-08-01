@@ -1,5 +1,5 @@
 ---
-title: "Fortify Your Home Network: Top Hardware Recommendations for Ultimate Security"
+title: "Fortify Your Home Network"
 date: 2023-09-12
 toc: true
 draft: false

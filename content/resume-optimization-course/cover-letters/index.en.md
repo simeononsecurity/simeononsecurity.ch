@@ -1,5 +1,5 @@
 ---
-title: "Module 8: Cover Letters — When to Write One and How to Write One That Gets Read"
+title: "Module 8: Cover Letters"
 date: 2026-07-22
 toc: true
 draft: false

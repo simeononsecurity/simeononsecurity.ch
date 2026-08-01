@@ -1,5 +1,5 @@
 ---
-title: "Mastering Active Directory Security: Shield Your Network with Expert Strategies"
+title: "Mastering Active Directory Security"
 date: 2023-10-14
 toc: true
 draft: false

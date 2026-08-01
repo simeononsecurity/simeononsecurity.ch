@@ -1,5 +1,5 @@
 ---
-title: "Benefits and Challenges of Open Source Security Tools for Organizations"
+title: "Benefits and Challenges of Open Source Security Tools..."
 date: 2023-04-05
 toc: true
 draft: false

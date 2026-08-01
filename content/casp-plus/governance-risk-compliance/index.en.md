@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecurityX (CAS-005): Governance, Risk, and Compliance"
+title: "CompTIA SecurityX (CAS-005)"
 date: 2025-01-01
 toc: true
 draft: false

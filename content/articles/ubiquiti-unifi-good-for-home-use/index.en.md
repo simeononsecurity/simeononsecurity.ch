@@ -1,5 +1,5 @@
 ---
-title: "Is Ubiquiti UniFi Good for Home Use? Find Effortless Connectivity"
+title: "Is Ubiquiti UniFi Good for Home Use? Find Effortless..."
 date: 2023-12-15
 toc: true
 draft: false

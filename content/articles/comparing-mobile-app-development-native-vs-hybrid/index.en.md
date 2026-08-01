@@ -1,5 +1,5 @@
 ---
-title: "Native vs. Hybrid Mobile App Development: A Comprehensive Comparison"
+title: "Native vs. Hybrid Mobile App Development"
 date: 2023-06-07
 toc: true
 draft: false

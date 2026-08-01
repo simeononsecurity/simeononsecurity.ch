@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity Incident Response: A Definitive Guide for Success"
+title: "Mastering Cybersecurity Incident Response"
 date: 2023-10-24
 toc: true
 draft: false

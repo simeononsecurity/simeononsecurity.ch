@@ -1,5 +1,5 @@
 ---
-title: "The Role of Programming Languages in Cybersecurity: Exploring Key Tools and Applications"
+title: "Programming Languages in Cybersecurity: Key Tools"
 draft: false
 toc: true
 date: 2023-06-07

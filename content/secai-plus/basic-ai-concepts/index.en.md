@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecAI+ (CY0-001): Basic AI Concepts Related to Cybersecurity"
+title: "CompTIA SecAI+ (CY0-001)"
 date: 2025-01-01
 toc: true
 draft: false

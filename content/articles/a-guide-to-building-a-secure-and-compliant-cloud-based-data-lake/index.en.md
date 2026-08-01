@@ -1,5 +1,5 @@
 ---
-title: "Building a Secure & Compliant Cloud-Based Data Lake: Best practices for protecting stored data"
+title: "Building a Secure & Compliant Cloud-Based Data Lake"
 date: 2023-04-16
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Unlock Shodan API: Boost Your Ansible Automation with Powerful Modules"
+title: "Unlock Shodan API: Boost Your Ansible Automation with..."
 date: 2023-08-16
 toc: true
 draft: false

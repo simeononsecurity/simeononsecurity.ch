@@ -1,5 +1,5 @@
 ---
-title: "Unsafe and Insecure C# Functions: Secure Coding Practices and Alternatives for Stronger Software"
+title: "Unsafe C# Functions: Secure Coding Practices"
 date: 2023-09-25
 toc: true
 draft: false

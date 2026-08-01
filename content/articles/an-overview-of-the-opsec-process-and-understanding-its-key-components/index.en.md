@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Key Components of the OPSEC Process for Effective Information Protection"
+title: "OPSEC Process: Key Components and Best Practices"
 date: 2023-06-15
 toc: true
 draft: false

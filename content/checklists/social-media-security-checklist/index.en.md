@@ -1,5 +1,5 @@
 ﻿---
-title: "Social Media Security Checklist: Safeguarding Your Online Presence"
+title: "Social Media Security Checklist"
 date: 2023-08-17
 toc: true
 draft: false

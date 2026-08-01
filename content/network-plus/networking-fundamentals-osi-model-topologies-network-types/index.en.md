@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Understanding the OSI Model, Topologies, and Network Types"
+title: "Network Plus Course: Understanding the OSI Model,..."
 date: 2023-07-01
 toc: true
 draft: false

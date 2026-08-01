@@ -1,5 +1,5 @@
 ---
-title: "The Role of a Cybersecurity Expert: A Comprehensive Guide to Protecting Digital Assets"
+title: "What Does a Cybersecurity Expert Do?"
 draft: false
 toc: true
 date: 2023-06-05

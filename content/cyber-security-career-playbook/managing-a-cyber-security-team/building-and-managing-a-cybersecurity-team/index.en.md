@@ -1,5 +1,5 @@
 ---
-title: "Building a Cybersecurity Team: Key Skills, Steps, and Considerations"
+title: "Building a Cybersecurity Team"
 draft: false
 toc: true
 date: 2023-07-01

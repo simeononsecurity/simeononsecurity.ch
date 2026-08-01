@@ -1,5 +1,5 @@
 ---
-title: "Effortless NAS Setup: Turn Linux into a High-Performance Server"
+title: "Effortless NAS Setup"
 date: 2023-12-25
 toc: true
 draft: false

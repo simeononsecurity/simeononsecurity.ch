@@ -1,5 +1,5 @@
 ---
-title: "The Art of Incident Response: Best Practices and Real-World Examples"
+title: "The Art of Incident Response"
 date: 2023-02-19
 toc: true
 draft: false

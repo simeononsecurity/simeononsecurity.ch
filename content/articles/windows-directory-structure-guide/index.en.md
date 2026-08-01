@@ -1,5 +1,5 @@
 ---
-title: "Windows Directory Structure: A Comprehensive Guide with File System Diagram"
+title: "Windows Directory Structure"
 date: 2023-07-26
 lastmod: 2026-05-24
 toc: true

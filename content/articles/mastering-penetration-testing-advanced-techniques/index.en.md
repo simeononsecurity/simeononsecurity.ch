@@ -1,5 +1,5 @@
 ---
-title: "Mastering Penetration Testing: Advanced Techniques and Real-World Examples for Cybersecurity Professionals"
+title: "Mastering Penetration Testing: Advanced Techniques"
 date: 2023-06-22
 toc: true
 draft: false

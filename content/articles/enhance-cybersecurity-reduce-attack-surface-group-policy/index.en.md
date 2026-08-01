@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Cybersecurity: Reducing Attack Surface with Group Policy Settings"
+title: "Enhancing Cybersecurity"
 date: 2023-10-13
 toc: true
 draft: false

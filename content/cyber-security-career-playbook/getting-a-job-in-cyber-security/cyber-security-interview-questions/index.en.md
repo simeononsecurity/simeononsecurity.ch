@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity Interview Questions: Answers & Advice for Success"
+title: "Mastering Cybersecurity Interview Questions"
 draft: false
 toc: true
 date: 2023-06-25

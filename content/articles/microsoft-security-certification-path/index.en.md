@@ -1,5 +1,5 @@
 ---
-title: "Unlock Your Cybersecurity Future: Microsoft Security Certification Path"
+title: "Unlock Your Cybersecurity Future"
 date: 2023-12-12
 toc: true
 draft: false

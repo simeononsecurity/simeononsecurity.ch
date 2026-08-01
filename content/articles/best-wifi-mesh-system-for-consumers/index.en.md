@@ -1,5 +1,5 @@
 ---
-title: "Best WiFi Mesh Systems 2026: Complete Buyer's Guide - WiFi 6E, WiFi 7, Performance Tests & Top Picks"
+title: "Best WiFi Mesh Systems 2026: Buyer's Guide and Top Picks"
 date: 2023-08-06
 lastmod: 2026-05-24
 toc: true

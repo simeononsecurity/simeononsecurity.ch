@@ -1,5 +1,5 @@
 ---
-title: "Upgrade to Windows Server 2019 or Switch to Azure: Which Option is Right for Your Business?"
+title: "Windows Server 2019 vs Azure: Which Is Right for You?"
 date: 2023-02-08
 toc: true
 draft: false

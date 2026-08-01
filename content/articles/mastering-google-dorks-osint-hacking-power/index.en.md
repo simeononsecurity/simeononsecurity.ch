@@ -1,5 +1,5 @@
 ---
-title: "Mastering Google Dorks: Unleash Effortless OSINT and Hacking Power"
+title: "Mastering Google Dorks"
 date: 2023-12-04
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Mullvad vs ProtonVPN: Effortless Security Showdown - Which One's for You?"
+title: "Mullvad vs ProtonVPN: Which VPN Is Right for You?"
 date: 2023-11-19
 toc: true
 draft: false

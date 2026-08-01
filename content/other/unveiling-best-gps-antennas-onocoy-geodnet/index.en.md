@@ -1,5 +1,5 @@
 ---
-title: "Unveiling the Best GPS Antennas: Optimize Onocoy & Geodnet Earnings!"
+title: "Unveiling the Best GPS Antennas"
 date: 2023-12-27
 toc: true
 draft: false

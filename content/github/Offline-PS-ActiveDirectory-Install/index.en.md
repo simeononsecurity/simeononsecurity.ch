@@ -1,5 +1,5 @@
 ---
-title: "Offline Installation of RSAT ActiveDirectory PowerShell Module for Windows 10"
+title: "Offline Installation of RSAT ActiveDirectory PowerShell..."
 date: 2020-12-16
 draft: false
 toc: true

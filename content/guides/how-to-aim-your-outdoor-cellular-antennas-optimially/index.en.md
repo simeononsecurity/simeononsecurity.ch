@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Directional Cellular Antenna: Pointing and Aiming Guide"
+title: "Optimizing Directional Cellular Antenna"
 draft: false
 toc: true
 date: 2023-05-22

@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Cyber Security Resilience: Change Management in an Evolving Landscape"
+title: "Enhancing Cyber Security Resilience"
 date: 2023-07-26
 toc: true
 draft: false

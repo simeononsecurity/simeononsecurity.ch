@@ -1,5 +1,5 @@
 ---
-title: "The Cybersecurity Career Path: Skills, Roles, and Progression"
+title: "The Cybersecurity Career Path"
 draft: false
 toc: true
 date: 2023-06-06

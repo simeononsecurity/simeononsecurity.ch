@@ -1,5 +1,5 @@
 ---
-title: "Securing Windows and Linux: PowerShell vs. Python - Cybersecurity Comparison"
+title: "Securing Windows and Linux"
 date: 2023-11-23
 toc: true
 draft: false

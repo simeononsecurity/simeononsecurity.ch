@@ -1,5 +1,5 @@
 ---
-title: "T-Mobile Home Internet: Fast, Reliable, and Seamless Connectivity"
+title: "T-Mobile Home Internet"
 date: 2023-07-01
 toc: true
 draft: false

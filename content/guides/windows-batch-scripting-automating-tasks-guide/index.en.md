@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Batch Scripting: Automate Tasks and Boost Efficiency"
+title: "Mastering Windows Batch Scripting"
 date: 2023-10-03
 toc: true
 draft: false

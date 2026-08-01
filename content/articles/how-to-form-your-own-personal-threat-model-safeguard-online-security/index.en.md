@@ -1,5 +1,5 @@
 ---
-title: "How to Form Your Own Personal Threat Model: Safeguard Your Online Security"
+title: "How to Form Your Own Personal Threat Model"
 date: 2023-07-25
 toc: true
 draft: false

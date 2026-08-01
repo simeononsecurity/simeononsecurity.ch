@@ -1,5 +1,5 @@
 ---
-title: "Decoding Cyber Threats: Unveiling the Tactics Behind Breaches"
+title: "Decoding Cyber Threats"
 date: 2024-01-14
 toc: true
 draft: false

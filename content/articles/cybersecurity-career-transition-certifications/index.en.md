@@ -1,5 +1,5 @@
 ---
-title: "Unlocking Cybersecurity Success: Navigating Careers with Certifications"
+title: "Unlocking Cybersecurity Success"
 date: 2024-03-12
 toc: true
 draft: false

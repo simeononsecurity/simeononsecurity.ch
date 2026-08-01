@@ -1,5 +1,5 @@
 ---
-title: "Blockchain Security Unveiled: Beyond Cryptocurrency, Safeguarding the Digital Frontier"
+title: "Blockchain Security: Beyond Cryptocurrency"
 date: 2024-01-19
 toc: true
 draft: false

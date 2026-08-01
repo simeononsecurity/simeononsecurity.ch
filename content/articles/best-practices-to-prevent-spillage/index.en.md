@@ -1,5 +1,5 @@
 ---
-title: "Preventing Information Spillage: Best Practices and Strategies for Enhanced Security"
+title: "Preventing Information Spillage: Best Practices"
 date: 2023-06-19
 toc: true
 draft: false

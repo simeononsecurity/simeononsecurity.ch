@@ -1,5 +1,5 @@
 ---
-title: "Securing Voice Assistants: Privacy Concerns and Mitigation Strategies"
+title: "Securing Voice Assistants"
 draft: false
 toc: true
 date: 2023-07-18

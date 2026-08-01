@@ -1,5 +1,5 @@
 ---
-title: "Manual vs. Automated Software Testing: Choosing the Right Strategy"
+title: "Manual vs. Automated Software Testing"
 date: 2023-06-03
 toc: true
 draft: false

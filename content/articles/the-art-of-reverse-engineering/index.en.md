@@ -1,5 +1,5 @@
 ---
-title: "The Art of Reverse Engineering: Uncovering IoT Network Security Vulnerabilities"
+title: "The Art of Reverse Engineering"
 date: 2023-02-02
 toc: true
 draft: false

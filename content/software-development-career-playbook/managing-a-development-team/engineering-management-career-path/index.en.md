@@ -1,5 +1,5 @@
 ---
-title: "Engineering Management Career Path: From IC to Engineering Manager"
+title: "Engineering Management Career Path"
 draft: false
 toc: true
 date: 2026-07-22

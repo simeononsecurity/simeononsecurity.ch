@@ -1,5 +1,5 @@
 ---
-title: "Install Traff Monetizer: Share Your Internet Connection and Make Money Online"
+title: "Install Traff Monetizer"
 draft: false
 toc: true
 date: 2023-06-01

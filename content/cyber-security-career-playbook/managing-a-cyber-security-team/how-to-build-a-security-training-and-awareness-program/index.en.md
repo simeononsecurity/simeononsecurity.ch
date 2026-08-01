@@ -1,5 +1,5 @@
 ---
-title: "Building an Effective Security Awareness Training Program: A Step-by-Step Guide"
+title: "Building an Effective Security Awareness Training Program"
 draft: false
 toc: true
 date: 2023-07-07

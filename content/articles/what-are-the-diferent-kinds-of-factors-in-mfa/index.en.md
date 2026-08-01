@@ -1,5 +1,5 @@
 ---
-title: "A Guide to Multi-Factor Authentication: Types and Best Practices"
+title: "A Guide to Multi-Factor Authentication"
 date: 2023-03-02
 toc: true
 draft: false

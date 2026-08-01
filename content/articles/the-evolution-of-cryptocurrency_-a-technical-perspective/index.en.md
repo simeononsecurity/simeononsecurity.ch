@@ -1,5 +1,5 @@
 ---
-title: "Cryptocurrency Unveiled: A Technical Odyssey from Bitcoin's Birth to Tomorrow's Innovations"
+title: "Cryptocurrency: From Bitcoin's Birth to Today"
 date: 2024-01-05
 toc: true
 draft: false

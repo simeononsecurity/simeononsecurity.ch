@@ -1,5 +1,5 @@
 ---
-title: "System Design for Software Engineers: Concepts, Patterns, and Interview Prep"
+title: "System Design for Software Engineers"
 draft: false
 toc: true
 date: 2026-07-22

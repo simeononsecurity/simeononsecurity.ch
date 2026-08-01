@@ -1,5 +1,5 @@
 ---
-title: "Protect Yourself from Social Engineering: Effective Strategies and Best Practices"
+title: "Protect Yourself from Social Engineering Attacks"
 date: 2023-06-21
 toc: true
 draft: false

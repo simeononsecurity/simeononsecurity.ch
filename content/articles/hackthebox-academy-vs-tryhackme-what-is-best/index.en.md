@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox Academy vs TryHackMe: What is Best For Beginners in 2026?"
+title: "HackTheBox Academy vs TryHackMe"
 date: 2023-02-26
 lastmod: 2026-05-24
 description: "Comprehensive 2026 comparison of HackTheBox Academy and TryHackMe including pricing, features, learning paths, and performance metrics to help beginners choose the best platform for learning cybersecurity skills."

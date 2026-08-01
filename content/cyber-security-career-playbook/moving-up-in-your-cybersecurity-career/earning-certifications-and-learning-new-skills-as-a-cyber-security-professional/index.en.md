@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: Learning Skills and Earning Certifications for Success"
+title: "Mastering Cybersecurity"
 draft: false
 toc: true
 date: 2023-06-28

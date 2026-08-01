@@ -1,5 +1,5 @@
 ---
-title: "Eye Spy: Passive Surveillance Detector for the M5Stack Atom Lite (ESP32)"
+title: "Eye Spy: Passive Surveillance Detector for the M5Stack..."
 date: 2026-06-07
 toc: true
 draft: false

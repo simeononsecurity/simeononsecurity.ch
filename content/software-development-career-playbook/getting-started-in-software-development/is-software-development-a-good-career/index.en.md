@@ -1,5 +1,5 @@
 ---
-title: "Is Software Development a Good Career in 2026? The AI Reality Check"
+title: "Is Software Development a Good Career in 2026? The AI..."
 draft: false
 toc: true
 date: 2026-07-22

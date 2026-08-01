@@ -1,5 +1,5 @@
 ---
-title: "Installing Cumulative Security Patches on Windows: Best Practices"
+title: "Installing Cumulative Security Patches on Windows"
 date: 2023-03-22
 toc: true
 draft: false

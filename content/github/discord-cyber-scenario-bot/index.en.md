@@ -1,5 +1,5 @@
 ---
-title: "Discord Cyber Scenario Bot: Enhance Cybersecurity Training and Awareness"
+title: "Discord Cyber Scenario Bot"
 date: 2023-02-22
 toc: true
 draft: false

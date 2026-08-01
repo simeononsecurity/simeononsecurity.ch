@@ -1,5 +1,5 @@
 ---
-title: "Helium Mobile Beta: Revolutionizing Mobile Connectivity with a Decentralized Network"
+title: "Helium Mobile Beta: Decentralized Mobile Connectivity"
 date: 2023-05-25
 toc: true
 draft: false

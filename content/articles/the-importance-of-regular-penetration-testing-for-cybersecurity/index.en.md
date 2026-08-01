@@ -1,5 +1,5 @@
 ---
-title: "Unlocking Cyber Resilience: The Power of Regular Penetration Testing"
+title: "Unlocking Cyber Resilience"
 date: 2024-01-28
 toc: true
 draft: false

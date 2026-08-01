@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Significance of Security Classification Guides in Information Protection"
+title: "Security Classification Guides: What You Need to Know"
 date: 2023-06-17
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "AWS vs Azure vs Google Cloud 2026: Complete Cloud Platform Comparison - Pricing, Security, Services & Performance"
+title: "AWS vs Azure vs Google Cloud 2026: Complete Comparison"
 date: 2023-07-01
 lastmod: 2026-05-24
 toc: true

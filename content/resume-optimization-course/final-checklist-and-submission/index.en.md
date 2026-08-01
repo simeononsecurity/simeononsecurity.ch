@@ -1,5 +1,5 @@
 ---
-title: "Module 9: Final Checklist and Submission — Pre-Send Verification and File Format Rules"
+title: "Module 9: Final Checklist and Submission"
 date: 2026-07-22
 toc: true
 draft: false

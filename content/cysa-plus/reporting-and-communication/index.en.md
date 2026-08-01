@@ -1,5 +1,5 @@
 ---
-title: "CompTIA CySA+ (CS0-003): Reporting, Communication, and Compliance"
+title: "CompTIA CySA+ (CS0-003)"
 date: 2025-01-01
 toc: true
 draft: false

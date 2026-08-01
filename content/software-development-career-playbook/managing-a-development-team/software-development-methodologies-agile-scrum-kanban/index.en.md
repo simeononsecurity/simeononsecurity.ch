@@ -1,5 +1,5 @@
 ---
-title: "Software Development Methodologies: Agile, Scrum, and Kanban Explained"
+title: "Software Development Methodologies"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "Understanding Remote Access Trojans: Risks, Prevention, and Protection"
+title: "Understanding Remote Access Trojans"
 date: 2023-07-25
 toc: true
 draft: false

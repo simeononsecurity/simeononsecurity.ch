@@ -1,5 +1,5 @@
 ---
-title: "Preventing Social Engineering Attacks: Strategies and Best Practices"
+title: "Preventing Social Engineering Attacks"
 date: 2023-05-09
 toc: true
 draft: false

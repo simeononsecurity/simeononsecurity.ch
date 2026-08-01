@@ -1,5 +1,5 @@
 ---
-title: "Top Homelab Content Creators: Connect and Elevate Your Tech Journey"
+title: "Top Homelab Content Creators"
 date: 2023-09-27
 toc: true
 draft: false

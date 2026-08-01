@@ -1,5 +1,5 @@
 ---
-title: "PowerShell Get File Hash: Complete 2026 Guide to SHA256, MD5, SHA1 on Windows"
+title: "PowerShell Get File Hash"
 draft: false
 toc: true
 date: 2023-05-25

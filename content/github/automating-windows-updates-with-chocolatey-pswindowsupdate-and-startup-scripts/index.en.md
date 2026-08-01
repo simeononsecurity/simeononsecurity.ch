@@ -1,5 +1,5 @@
 ---
-title: "Streamline Windows Updates with Automation using Chocolatey, PSWindowsUpdate, and Startup Scripts"
+title: "Automate Windows Updates with Chocolatey and Scripts"
 date: 2020-07-22T17:46:00-05:00
 toc: true
 draft: false

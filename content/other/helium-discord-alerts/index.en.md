@@ -1,5 +1,5 @@
 ---
-title: "Setting up HDS: Helium Hotspot Activity and Reward Notifications on Discord"
+title: "Setting up HDS: Helium Hotspot Activity and Reward..."
 draft: false
 toc: true
 date: 2022-02-27

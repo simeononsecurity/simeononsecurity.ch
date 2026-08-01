@@ -1,5 +1,5 @@
 ---
-title: "Cyber Insurance Unveiled: A Comprehensive Guide to Safeguarding Your Business Against Digital Threats"
+title: "Cyber Insurance: What You Need to Know Before You Buy"
 date: 2024-01-16
 toc: true
 draft: false

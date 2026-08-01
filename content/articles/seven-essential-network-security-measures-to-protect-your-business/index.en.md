@@ -1,5 +1,5 @@
 ---
-title: "7 Essential Network Security Measures to Protect Your Business from Cyber Threats"
+title: "7 Network Security Measures to Protect Your Business"
 draft: false
 toc: true
 date: 2023-06-15

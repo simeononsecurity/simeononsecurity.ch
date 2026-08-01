@@ -1,5 +1,5 @@
 ---
-title: "ATS Resume Improver: Free, Self-Hostable AI Resume Optimizer That Never Phones Home"
+title: "ATS Resume Improver: Free AI-Powered Resume Optimizer"
 date: 2026-07-22
 toc: true
 draft: false

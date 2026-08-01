@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Showdown: Windows Task Scheduler vs Linux Cron Jobs"
+title: "Cybersecurity Showdown"
 date: 2023-11-22
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Developer Internships: How to Find, Land, and Convert Software Engineering Internships"
+title: "Developer Internships: How to Find and Land Your First"
 draft: false
 toc: true
 date: 2026-07-22

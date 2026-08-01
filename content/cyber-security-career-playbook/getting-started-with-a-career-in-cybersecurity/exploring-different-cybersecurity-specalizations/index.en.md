@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: Exploring Specializations and Skills for a Secure Future"
+title: "Cybersecurity Specializations: Skills for Each Path"
 draft: false
 toc: true
 date: 2023-06-28

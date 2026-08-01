@@ -1,5 +1,5 @@
 ---
-title: "Open-Source vs. Commercial Security Tools: Pros and Cons Explained"
+title: "Open-Source vs. Commercial Security Tools"
 date: 2023-03-24
 toc: true
 draft: false

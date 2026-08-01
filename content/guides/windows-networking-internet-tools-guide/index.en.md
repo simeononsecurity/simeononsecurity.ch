@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Networking: Boosting Connectivity and Collaboration"
+title: "Mastering Windows Networking"
 date: 2023-10-02
 toc: true
 draft: false

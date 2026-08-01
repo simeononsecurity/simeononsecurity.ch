@@ -1,5 +1,5 @@
 ---
-title: "Quadruple Mining DePin GPS Projects: Geodnet, Onocoy, RTKDirect, and FrysCrypto"
+title: "Quadruple Mining DePin GPS Projects"
 date: 2024-01-01
 toc: true
 draft: false

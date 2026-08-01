@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecurityX Course: Complete Study Guide for the CAS-005 Exam"
+title: "CompTIA SecurityX Course"
 date: 2025-01-01
 toc: true
 draft: false

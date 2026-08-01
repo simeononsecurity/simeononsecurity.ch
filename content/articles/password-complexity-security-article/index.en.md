@@ -1,5 +1,5 @@
 ---
-title: "Why Password Complexity Rules Are Outdated: Modern Security Solutions"
+title: "Why Password Complexity Rules Are Outdated"
 date: 2023-12-18
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Assume Every Device Is Already Compromised: Strengthening Digital Security in an Interconnected World"
+title: "Assume Every Device Is Already Compromised"
 date: 2023-06-25
 toc: true
 draft: false

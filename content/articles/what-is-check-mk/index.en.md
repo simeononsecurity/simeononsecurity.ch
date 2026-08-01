@@ -1,5 +1,5 @@
 ---
-title: "CheckMK: A Comprehensive Monitoring Solution for Efficient IT Infrastructure Management"
+title: "CheckMK: Monitoring for IT Infrastructure Management"
 date: 2023-06-08
 toc: true
 draft: false

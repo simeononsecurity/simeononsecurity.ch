@@ -1,5 +1,5 @@
 ---
-title: "What Does an IT Career Path Look Like? From Entry Level to IT Director"
+title: "What Does an IT Career Path Look Like? From Entry Level..."
 draft: false
 toc: true
 date: 2026-07-22

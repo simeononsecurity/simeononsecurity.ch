@@ -1,5 +1,5 @@
 ---
-title: "Ubiquiti UniFi Firewall vs pfSense: A Comprehensive Comparison"
+title: "Ubiquiti UniFi Firewall vs pfSense"
 date: 2023-12-14
 toc: true
 draft: false

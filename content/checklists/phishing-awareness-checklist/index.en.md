@@ -1,5 +1,5 @@
 ﻿---
-title: "Phishing Awareness Checklist: Protect Your Organization from Cyber Threats"
+title: "Phishing Awareness Checklist"
 date: 2023-08-15
 toc: true
 draft: false

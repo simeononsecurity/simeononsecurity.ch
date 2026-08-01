@@ -1,5 +1,5 @@
 ---
-title: "Free Beginners Cybersecurity Courses: Top Platforms and Training"
+title: "Free Beginners Cybersecurity Courses"
 draft: false
 toc: true
 date: 2023-06-06

@@ -1,5 +1,5 @@
 ---
-title: "DevOps and Platform Engineering for Developers: CI/CD, IaC, and Observability"
+title: "DevOps and Platform Engineering for Developers"
 draft: false
 toc: true
 date: 2026-07-22

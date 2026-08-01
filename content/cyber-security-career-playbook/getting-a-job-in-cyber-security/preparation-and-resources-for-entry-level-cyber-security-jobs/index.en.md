@@ -1,5 +1,5 @@
 ---
-title: "Entry-Level Cybersecurity Jobs in 2026: AI Compressed the Market. Here Is What Works."
+title: "Entry-Level Cybersecurity Jobs in 2026: What Works Now"
 draft: false
 toc: true
 date: 2023-06-24

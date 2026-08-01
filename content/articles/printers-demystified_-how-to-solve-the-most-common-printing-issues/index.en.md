@@ -1,5 +1,5 @@
 ---
-title: "Fix Common Printer Issues: Your Ultimate Troubleshooting Guide"
+title: "Fix Common Printer Issues"
 date: 2024-02-27
 toc: true
 draft: false

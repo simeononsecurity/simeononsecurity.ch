@@ -1,5 +1,5 @@
 ---
-title: "Understanding Sensitive Compartmented Information (SCI) for National Security"
+title: "Understanding Sensitive Compartmented Information (SCI)..."
 date: 2023-06-12
 toc: true
 draft: false

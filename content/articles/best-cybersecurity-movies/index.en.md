@@ -1,5 +1,5 @@
 ---
-title: "Top Cybersecurity Movies - Thrilling Tales of Digital Defenders"
+title: "Top Cybersecurity Movies"
 date: 2023-11-28
 toc: true
 draft: false

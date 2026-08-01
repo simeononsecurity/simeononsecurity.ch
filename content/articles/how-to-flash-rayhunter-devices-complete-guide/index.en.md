@@ -1,5 +1,5 @@
 ---
-title: "How to Flash Rayhunter Devices: Complete Installation and Configuration Guide for IMSI Catcher Detection"
+title: "How to Flash Rayhunter Devices: Complete Guide"
 draft: false
 toc: true
 date: 2026-03-09

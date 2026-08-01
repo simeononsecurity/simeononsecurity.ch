@@ -1,5 +1,5 @@
 ---
-title: "Navigating Internet Hoaxes: Understanding, Psychology, and Safeguarding Online Integrity"
+title: "Navigating Internet Hoaxes: Psychology and Protection"
 date: 2023-10-18
 toc: true
 draft: false

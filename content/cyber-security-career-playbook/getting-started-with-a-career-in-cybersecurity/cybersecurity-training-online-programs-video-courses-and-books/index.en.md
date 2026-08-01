@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Training: Online Programs and Video Courses for Skill Development"
+title: "Cybersecurity Training"
 draft: false
 toc: true
 date: 2023-06-08

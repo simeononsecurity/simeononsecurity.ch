@@ -1,5 +1,5 @@
 ---
-title: "Cloud Security Showdown: AWS vs Azure vs Google Cloud Platform"
+title: "Cloud Security Showdown"
 date: 2023-03-29
 toc: true
 draft: false

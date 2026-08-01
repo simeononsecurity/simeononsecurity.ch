@@ -1,5 +1,5 @@
 ---
-title: "Building and Managing an IT Team: Structure, Hiring, and Onboarding"
+title: "Building and Managing an IT Team"
 draft: false
 toc: true
 date: 2026-07-22

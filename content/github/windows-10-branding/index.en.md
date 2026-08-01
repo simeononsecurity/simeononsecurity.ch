@@ -1,5 +1,5 @@
 ---
-title: "Automated Branding for Windows Systems - Easily Control Desktop, Lock Screen, and More"
+title: "Automated Branding for Windows: Desktop and Lock Screen"
 date: 2020-08-14T14:37:16-05:00
 toc: true
 draft: false

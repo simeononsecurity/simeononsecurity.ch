@@ -1,5 +1,5 @@
 ---
-title: "Protecting Patient Data: Strategies for Healthcare Cybersecurity"
+title: "Protecting Patient Data"
 date: 2023-02-21
 toc: true
 draft: false

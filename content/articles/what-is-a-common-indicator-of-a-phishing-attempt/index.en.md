@@ -1,5 +1,5 @@
 ---
-title: "Recognizing Phishing Attempts: Common Indicators and Safety Tips"
+title: "Recognizing Phishing Attempts"
 date: 2023-06-18
 toc: true
 draft: false

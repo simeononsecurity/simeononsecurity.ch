@@ -1,5 +1,5 @@
 ---
-title: "Security+ vs SSCP: Which Cybersecurity Certification Reigns Supreme?"
+title: "Security+ vs SSCP: Which Cybersecurity Certification..."
 date: 2023-06-09
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Unleash Your Potential with Azure for Students: Free Software & More"
+title: "Unleash Your Potential with Azure for Students"
 date: 2023-09-11
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Gaming the Helium Network: Exploiting Vulnerabilities with MiddleMan and Chirp Stack Packet Multiplexer"
+title: "Gaming the Helium Network: MiddleMan and Multiplexer"
 date: 2023-02-18
 toc: true
 draft: false

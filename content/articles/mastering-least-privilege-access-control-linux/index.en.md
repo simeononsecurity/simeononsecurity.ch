@@ -1,5 +1,5 @@
 ---
-title: "Mastering Least Privilege: Secure Access Control Strategies for Linux Systems"
+title: "Mastering Least Privilege"
 date: 2023-10-12
 toc: true
 draft: false

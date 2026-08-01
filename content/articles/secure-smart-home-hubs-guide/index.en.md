@@ -1,5 +1,5 @@
 ---
-title: "Secure Smart Home Hubs: Best for Home Automation and Security"
+title: "Secure Smart Home Hubs"
 date: 2023-09-16
 toc: true
 draft: false

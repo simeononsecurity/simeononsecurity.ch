@@ -1,5 +1,5 @@
 ---
-title: "Top Linux Distros for Privacy & Security: Protecting Your Data"
+title: "Top Linux Distros for Privacy & Security"
 draft: false
 toc: true
 date: 2023-06-01

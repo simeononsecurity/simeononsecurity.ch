@@ -1,5 +1,5 @@
 ---
-title: "Mastering .NET Framework 4.0 Security: Best Practices & Automation"
+title: "Mastering .NET Framework 4.0 Security"
 date: 2023-11-01
 toc: true
 draft: false

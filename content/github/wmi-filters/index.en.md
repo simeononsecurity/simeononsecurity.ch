@@ -1,5 +1,5 @@
 ---
-title: "WMI Filters for Efficient Windows Group Policy Deployments - Download from GitHub"
+title: "WMI Filters for Windows Group Policy Deployments"
 date: 2020-08-11T13:35:00-05:00
 toc: true
 draft: false

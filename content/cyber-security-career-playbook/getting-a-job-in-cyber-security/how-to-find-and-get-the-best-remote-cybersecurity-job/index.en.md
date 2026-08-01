@@ -1,5 +1,5 @@
 ---
-title: "Finding and Securing Remote Cybersecurity Jobs: Your Guide to Success"
+title: "Finding and Securing Remote Cybersecurity Jobs"
 draft: false
 toc: true
 date: 2023-06-26

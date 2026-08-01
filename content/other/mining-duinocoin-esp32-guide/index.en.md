@@ -1,5 +1,5 @@
 ---
-title: "Mining Duinocoin on ESP32: A Comprehensive Guide for Efficient Cryptocurrency Mining"
+title: "Mining Duinocoin on ESP32: Comprehensive Guide"
 date: 2024-03-11
 toc: true
 draft: false

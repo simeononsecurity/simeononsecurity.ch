@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering Technical Tracks: Staff, Principal, and Architect Paths"
+title: "Software Engineering Technical Tracks"
 draft: false
 toc: true
 date: 2026-07-22

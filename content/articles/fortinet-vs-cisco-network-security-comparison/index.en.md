@@ -1,5 +1,5 @@
 ---
-title: "Fortinet vs Cisco: Complete Network Security Comparison Guide 2026"
+title: "Fortinet vs Cisco: Complete Network Security Comparison..."
 date: 2026-05-24
 toc: true
 draft: false

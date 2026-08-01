@@ -1,5 +1,5 @@
 ---
-title: "helping Cybersecurity: ChatGPT Prompts that Boost Threat Detection"
+title: "helping Cybersecurity"
 date: 2023-12-30
 toc: true
 draft: false

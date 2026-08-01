@@ -1,5 +1,5 @@
 ---
-title: "Linux File Hash Guide 2026: SHA256, MD5, SHA1 with sha256sum, md5sum, sha1sum"
+title: "Linux File Hash Guide 2026"
 draft: false
 toc: true
 date: 2023-05-25

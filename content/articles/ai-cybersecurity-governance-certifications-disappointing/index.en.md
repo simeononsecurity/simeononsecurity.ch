@@ -1,5 +1,5 @@
 ---
-title: "AI Cybersecurity and Governance Certifications Are Not Keeping Up with the Problem"
+title: "AI Cybersecurity Certifications: Not Keeping Up"
 draft: false
 toc: true
 date: 2026-06-26

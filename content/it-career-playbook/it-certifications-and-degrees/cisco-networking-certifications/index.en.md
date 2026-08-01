@@ -1,5 +1,5 @@
 ---
-title: "Cisco Networking Certifications: CCNA, CCNP, and CCIE Guide 2026"
+title: "Cisco Networking Certifications"
 draft: false
 toc: true
 date: 2026-07-22

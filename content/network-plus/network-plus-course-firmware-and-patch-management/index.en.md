@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Mastering Patch and Firmware Management for Enhanced Security"
+title: "Network+ Course: Patch and Firmware Management"
 date: 2023-07-23
 toc: true
 draft: false

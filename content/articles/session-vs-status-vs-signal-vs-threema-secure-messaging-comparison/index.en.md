@@ -1,5 +1,5 @@
 ---
-title: "Session vs Status vs Signal vs Threema: A Comprehensive Comparison"
+title: "Session vs Status vs Signal vs Threema"
 date: 2023-08-25
 toc: true
 draft: false

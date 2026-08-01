@@ -1,5 +1,5 @@
 ---
-title: "Unlocking the Power of Docker: The Essential Guide for Enterprise Transformation"
+title: "Docker Guide: Essential for Enterprise Transformation"
 date: 2023-02-02
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ﻿---
-title: "Mobile Device Security Checklist: Enhancing Protection and Privacy for Your Devices"
+title: "Mobile Device Security Checklist: Complete Guide"
 date: 2023-08-11
 toc: true
 draft: false

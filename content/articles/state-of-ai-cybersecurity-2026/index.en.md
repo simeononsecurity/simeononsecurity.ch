@@ -1,5 +1,5 @@
 ---
-title: "The State of AI Cybersecurity in 2026: Deploy Fast, Secure Later, Pay Eventually"
+title: "AI Cybersecurity in 2026: Deploy Fast, Secure Later"
 draft: false
 toc: true
 date: 2026-06-26

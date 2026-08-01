@@ -1,5 +1,5 @@
 ---
-title: "RayHunter Device Comparison 2026: Complete Performance Review and Testing Results for IMSI Catcher Detection"
+title: "RayHunter Device Comparison 2026: Complete Review"
 draft: false
 toc: true
 date: 2026-03-10

@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecOT+ Course: Complete Study Guide for the SOT-001 Exam"
+title: "CompTIA SecOT+ Course"
 date: 2025-01-01
 toc: true
 draft: false

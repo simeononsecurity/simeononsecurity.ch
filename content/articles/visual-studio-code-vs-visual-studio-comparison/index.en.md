@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Code vs Visual Studio: Complete 2026 Developer Tool Comparison"
+title: "Visual Studio Code vs Visual Studio"
 date: 2026-05-24
 lastmod: 2026-05-24
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Routing Protocols, Concepts, and Optimization"
+title: "Network Plus Course: Routing Protocols, Concepts, and..."
 date: 2023-07-07
 toc: true
 draft: false

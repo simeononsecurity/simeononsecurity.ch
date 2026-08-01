@@ -1,5 +1,5 @@
 ---
-title: "Jellyfin vs Plex Media Server: A Comprehensive Comparison of Features and Costs"
+title: "Jellyfin vs Plex Media Server"
 date: 2023-02-01
 toc: true
 draft: false

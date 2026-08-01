@@ -1,5 +1,5 @@
 ---
-title: "The Power of Cybersecurity Communities: Advancing Knowledge and Connections"
+title: "The Power of Cybersecurity Communities"
 date: 2023-06-29
 toc: true
 draft: false

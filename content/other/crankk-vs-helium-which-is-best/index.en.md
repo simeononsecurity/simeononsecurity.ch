@@ -1,5 +1,5 @@
 ---
-title: "Crankk vs Helium IoT: A Comprehensive Comparison of IoT Networks"
+title: "Crankk vs Helium IoT"
 draft: false
 toc: true
 date: 2023-05-15

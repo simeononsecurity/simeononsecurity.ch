@@ -1,5 +1,5 @@
 ---
-title: "Building a Resilient SOC: Proactive Cybersecurity for Modern Threats"
+title: "Building a Resilient SOC"
 date: 2023-10-26
 toc: true
 draft: false

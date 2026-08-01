@@ -1,5 +1,5 @@
 ---
-title: "Ultimate Guide to Mobile Security: Laptop Privacy, Webcam Covers & More"
+title: "Ultimate Guide to Mobile Security"
 date: 2023-09-14
 toc: true
 draft: false

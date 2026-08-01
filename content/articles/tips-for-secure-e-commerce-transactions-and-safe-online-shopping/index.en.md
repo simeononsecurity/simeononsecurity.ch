@@ -1,5 +1,5 @@
 ---
-title: "Secure Online Shopping: Tips for Safe E-Commerce Transactions"
+title: "Secure Online Shopping"
 date: 2023-06-20
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Nmap: A Comprehensive Guide to Network Scanning and Security Assessment"
+title: "Nmap: A Comprehensive Guide to Network Scanning and..."
 date: 2023-06-13
 toc: true
 draft: false

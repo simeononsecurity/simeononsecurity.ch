@@ -1,5 +1,5 @@
 ---
-title: "Top Secure Browsers for Privacy Protection: Brave, Firefox, and Tor"
+title: "Top Secure Browsers for Privacy Protection"
 date: 2023-04-09
 toc: true
 draft: false

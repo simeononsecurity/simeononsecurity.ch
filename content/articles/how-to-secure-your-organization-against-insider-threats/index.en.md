@@ -1,5 +1,5 @@
 ---
-title: "Protect Your Organization Against Insider Threats: Best Practices"
+title: "Protect Your Organization Against Insider Threats"
 date: 2023-03-05
 toc: true
 draft: false

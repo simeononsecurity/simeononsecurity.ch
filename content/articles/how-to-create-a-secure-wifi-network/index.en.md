@@ -1,5 +1,5 @@
 ---
-title: "Creating a Secure Wi-Fi Network: Essential Steps for Strong Online Protection"
+title: "Creating a Secure Wi-Fi Network"
 draft: false
 toc: true
 date: 2023-05-27

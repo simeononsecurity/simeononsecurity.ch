@@ -1,5 +1,5 @@
 ---
-title: "10 Essential Internet Safety Tips: Protect Yourself and Your Family Online"
+title: "10 Essential Internet Safety Tips"
 draft: false
 toc: true
 date: 2023-06-12

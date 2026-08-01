@@ -1,5 +1,5 @@
 ---
-title: "Networking Basics: Subnetting, VLANs, and Efficient Network Management"
+title: "Networking Basics: Subnetting, VLANs, and Efficient..."
 draft: false
 toc: true
 date: 2023-07-23

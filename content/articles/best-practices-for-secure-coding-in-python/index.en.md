@@ -1,5 +1,5 @@
 ---
-title: "Secure Coding in Python: Best Practices for Robust Application Security"
+title: "Secure Coding in Python"
 date: 2023-06-25
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Endpoint Security Showdown: Symantec vs. McAfee - A Comprehensive Comparison"
+title: "Endpoint Security Showdown"
 draft: false
 toc: true
 date: 2023-07-19

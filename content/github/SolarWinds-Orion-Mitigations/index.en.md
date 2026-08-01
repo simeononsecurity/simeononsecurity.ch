@@ -1,5 +1,5 @@
 ---
-title: "SolarWinds Orion Supply Chain Attack: C2, Mitigations, and Expert Guidance"
+title: "SolarWinds Orion Supply Chain Attack"
 date: 2020-12-14
 toc: true
 draft: false

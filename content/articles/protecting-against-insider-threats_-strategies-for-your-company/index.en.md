@@ -1,5 +1,5 @@
 ---
-title: "Shield Your Company: Insider Threat Protection Strategies Unveiled"
+title: "Shield Your Company: Insider Threat Protection..."
 date: 2024-01-25
 toc: true
 draft: false

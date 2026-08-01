@@ -1,5 +1,5 @@
 ---
-title: "Secure & Compliant Cloud Backup and Recovery: A Comprehensive Guide"
+title: "Secure & Compliant Cloud Backup and Recovery"
 date: 2023-04-11
 toc: true
 draft: false

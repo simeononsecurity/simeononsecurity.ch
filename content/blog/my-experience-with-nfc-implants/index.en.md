@@ -1,5 +1,5 @@
 ---
-title: "My Journey with NFC Tag Implants: Lessons Learned and Risks Revealed"
+title: "My Journey with NFC Tag Implants"
 date: 2023-05-27
 toc: true
 draft: false

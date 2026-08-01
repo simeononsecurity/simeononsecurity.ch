@@ -1,5 +1,5 @@
 ---
-title: "Virtualization Showdown: VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE, XCP-NG"
+title: "VMware vs Hyper-V vs Proxmox: Virtualization Compared"
 date: 2023-11-25
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity and Privacy in Digital Transformation: Legal and Ethical Considerations"
+title: "Cybersecurity and Privacy: Legal and Ethical Considerations"
 date: 2023-03-11
 toc: true
 draft: false

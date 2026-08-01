@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Remote Workforce: The Ultimate Endpoint Security Guide for Robust Protection"
+title: "Endpoint Security Guide for Remote Workforces"
 date: 2024-01-30
 toc: true
 draft: false

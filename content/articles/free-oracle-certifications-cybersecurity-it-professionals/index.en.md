@@ -1,5 +1,5 @@
 ---
-title: "Unlock Your Career Potential with Free Oracle Certifications for Cybersecurity and IT Professionals"
+title: "Free Oracle Certifications for Cybersecurity and IT"
 date: 2023-07-28
 toc: true
 draft: false

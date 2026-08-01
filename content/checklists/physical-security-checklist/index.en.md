@@ -1,5 +1,5 @@
 ﻿---
-title: "Physical Security Checklist: Protecting Your Premises and Assets"
+title: "Physical Security Checklist"
 date: 2023-08-16
 toc: true
 draft: false

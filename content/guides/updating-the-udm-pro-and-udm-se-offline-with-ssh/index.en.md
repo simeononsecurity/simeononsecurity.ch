@@ -1,5 +1,5 @@
 ---
-title: "Offline Firmware Update for Ubiquiti Unifi UDM Pro and UDM SE via Command line SSH"
+title: "UDM Pro and UDM SE Offline Firmware Update via SSH"
 draft: false
 toc: true
 date: 2023-05-28

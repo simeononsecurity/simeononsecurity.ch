@@ -1,5 +1,5 @@
 ---
-title: "Ubiquiti Unifi vs TP-Link Omada: Which Network System is Right for You?"
+title: "Ubiquiti Unifi vs TP-Link Omada"
 date: 2023-05-06
 lastmod: 2026-05-24
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "HSTS Preloading How to Enhance Website Security: A Step-by-Step Guide"
+title: "HSTS Preloading How to Enhance Website Security"
 date: 2023-08-20
 toc: true
 draft: false

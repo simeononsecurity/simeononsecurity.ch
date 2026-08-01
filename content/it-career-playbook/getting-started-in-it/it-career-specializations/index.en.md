@@ -1,5 +1,5 @@
 ---
-title: "IT Career Specializations: Choosing Your Path in Information Technology"
+title: "IT Career Specializations"
 draft: false
 toc: true
 date: 2026-07-22

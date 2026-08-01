@@ -1,5 +1,5 @@
 ---
-title: "Shield Your Business: Definitive Guide to Small Business Phishing Protection Strategies"
+title: "Small Business Phishing Protection: Complete Guide"
 date: 2024-01-20
 toc: true
 draft: false

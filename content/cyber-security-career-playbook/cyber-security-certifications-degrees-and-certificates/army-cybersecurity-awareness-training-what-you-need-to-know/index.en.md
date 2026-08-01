@@ -1,5 +1,5 @@
 ---
-title: "Army Cybersecurity Awareness Training: Essential Knowledge for Defense Personnel"
+title: "Army Cybersecurity Awareness Training"
 draft: false
 toc: true
 date: 2023-06-20

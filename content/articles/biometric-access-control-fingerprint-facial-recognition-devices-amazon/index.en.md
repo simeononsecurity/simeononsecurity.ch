@@ -1,5 +1,5 @@
 ---
-title: "Unlocking Biometric Security: Fingerprint & Facial Recognition Devices"
+title: "Unlocking Biometric Security"
 date: 2023-09-17
 toc: true
 draft: false

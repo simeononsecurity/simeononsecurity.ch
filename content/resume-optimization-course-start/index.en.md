@@ -1,5 +1,5 @@
 ---
-title: "Resume Optimization Course: Beat ATS Systems and Land More Interviews"
+title: "Resume Optimization Course"
 date: 2026-07-22
 toc: true
 draft: false

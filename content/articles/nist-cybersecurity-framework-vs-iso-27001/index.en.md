@@ -1,5 +1,5 @@
 ---
-title: "Choosing the Right Security Framework: NIST Cybersecurity Framework vs. ISO 27001"
+title: "NIST Cybersecurity Framework vs. ISO 27001"
 date: 2023-06-30
 toc: true
 draft: false

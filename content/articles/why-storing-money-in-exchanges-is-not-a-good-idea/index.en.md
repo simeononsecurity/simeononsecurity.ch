@@ -1,5 +1,5 @@
 ---
-title: "The Dangers of Storing Crypto on Exchanges: Why a Hardware Wallet is Safer"
+title: "The Dangers of Storing Crypto on Exchanges"
 date: 2023-02-12
 toc: true
 draft: false

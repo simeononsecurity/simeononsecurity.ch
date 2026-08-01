@@ -1,5 +1,5 @@
 ---
-title: "Effortless Custom Ethernet Cable Creation Guide | DIY Network Solutions"
+title: "Effortless Custom Ethernet Cable Creation Guide | DIY..."
 date: 2023-12-02
 toc: true
 draft: false

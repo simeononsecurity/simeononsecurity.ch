@@ -1,5 +1,5 @@
 ---
-title: "Implementing the NICE Cybersecurity Framework: Best Practices for Enhanced Cyber Defense"
+title: "Implementing the NICE Cybersecurity Framework"
 draft: false
 toc: true
 date: 2023-07-02

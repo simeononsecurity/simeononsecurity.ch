@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned about Auditpol, Sysmon, and Sysmon Configurations"
+title: "Today I Learned about Auditpol, Sysmon, and Sysmon..."
 date: 2021-05-11
 toc: true
 draft: false

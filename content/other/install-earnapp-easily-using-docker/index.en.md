@@ -1,5 +1,5 @@
 ---
-title: "Earn App Installation Guide: Share Your Internet and Get Rewarded"
+title: "Earn App Installation Guide"
 draft: false
 toc: true
 date: 2023-06-01

@@ -1,5 +1,5 @@
 ---
-title: "Maximizing Network and Cloud Security: Defend, Protect, Thrive!"
+title: "Maximizing Network and Cloud Security"
 date: 2023-10-27
 toc: true
 draft: false

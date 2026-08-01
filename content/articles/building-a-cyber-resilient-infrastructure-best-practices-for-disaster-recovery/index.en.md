@@ -1,5 +1,5 @@
 ---
-title: "Cyber Resilient Infrastructure: Best Practices for Disaster Recovery Planning"
+title: "Cyber Resilient Infrastructure"
 date: 2023-05-10
 toc: true
 draft: false

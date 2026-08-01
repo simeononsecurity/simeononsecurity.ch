@@ -1,5 +1,5 @@
 ---
-title: "Cryptography Unveiled: A Comprehensive Exploration of Encryption Techniques Across History and Technology Eras"
+title: "Cryptography Unveiled: Encryption Techniques Explained"
 date: 2024-01-11
 toc: true
 draft: false

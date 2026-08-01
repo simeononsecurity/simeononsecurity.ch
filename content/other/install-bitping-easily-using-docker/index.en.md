@@ -1,5 +1,5 @@
 ---
-title: "Install Bitping: Real-time Website Monitoring and Performance Optimization"
+title: "Install Bitping: Real-time Website Monitoring and..."
 draft: false
 toc: true
 date: 2023-06-01

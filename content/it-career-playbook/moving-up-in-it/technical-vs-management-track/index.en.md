@@ -1,5 +1,5 @@
 ---
-title: "Technical vs. Management Track in IT: Choosing Your Career Path"
+title: "Technical vs. Management Track in IT"
 draft: false
 toc: true
 date: 2026-07-22

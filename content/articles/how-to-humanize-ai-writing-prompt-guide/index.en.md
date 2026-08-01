@@ -1,5 +1,5 @@
 ---
-title: "How to Humanize AI Writing: The Best Free Prompt to Fix AI Text"
+title: "How to Humanize AI Writing"
 draft: false
 toc: true
 date: 2026-06-25

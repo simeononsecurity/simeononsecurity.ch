@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned about New Security Tools, Static Code Analyzers, and Self-Hosted Service Options"
+title: "TIL: Security Tools, Code Analyzers, Self-Hosted Options"
 date: 2020-12-27
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Python Security Best Practices: Protecting Your Code and Data"
+title: "Python Security Best Practices"
 date: 2023-08-01
 toc: true
 draft: false

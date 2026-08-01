@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Backup and Restore for Network Stability and Resilience"
+title: "Network Plus Course: Backup and Restore for Network..."
 date: 2023-07-20
 toc: true
 draft: false

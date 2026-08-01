@@ -1,5 +1,5 @@
 ---
-title: "Secure Python Coding: Avoiding Unsafe Functions for Robust Applications"
+title: "Secure Python Coding"
 date: 2023-09-26
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned more about WDAC Policy Creation and Implementation"
+title: "Today I Learned more about WDAC Policy Creation and..."
 date: 2022-05-18
 toc: true
 draft: false

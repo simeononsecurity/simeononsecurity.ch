@@ -1,5 +1,5 @@
 ---
-title: "Addressing the Challenges in the Early Career Cybersecurity Job Market (2026)"
+title: "Addressing the Challenges in the Early Career..."
 draft: false
 toc: true
 date: 2026-07-22

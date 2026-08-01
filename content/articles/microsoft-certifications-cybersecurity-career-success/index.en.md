@@ -1,5 +1,5 @@
 ---
-title: "Unlock Your Cybersecurity Career with Microsoft Certifications: Your Path to Success"
+title: "Microsoft Certifications for Cybersecurity Careers"
 date: 2023-07-27
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Unveiling the Password Revolution: From Ancient Seals to Biometric Authentication"
+title: "Password Evolution: From Ancient Seals to Biometrics"
 date: 2024-01-27
 toc: true
 draft: false

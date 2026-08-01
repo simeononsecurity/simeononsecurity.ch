@@ -1,5 +1,5 @@
 ---
-title: "Mastering Advanced Windows CMD Scripting for Enhanced Efficiency"
+title: "Mastering Advanced Windows CMD Scripting for Enhanced..."
 date: 2023-11-06
 toc: true
 draft: false

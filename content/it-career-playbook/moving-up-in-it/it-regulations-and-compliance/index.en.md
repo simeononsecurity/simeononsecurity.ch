@@ -1,5 +1,5 @@
 ---
-title: "IT Regulations and Compliance: ITIL, NIST, SOC 2, HIPAA, and More"
+title: "IT Regulations and Compliance"
 draft: false
 toc: true
 date: 2026-07-22

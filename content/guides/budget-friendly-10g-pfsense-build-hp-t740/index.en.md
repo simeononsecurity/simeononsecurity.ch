@@ -1,5 +1,5 @@
 ---
-title: "Budget-Friendly 10g pfSense Build with HP t740 for Effortless Networking"
+title: "Budget-Friendly 10g pfSense Build with HP t740 for..."
 date: 2023-11-21
 toc: true
 draft: false

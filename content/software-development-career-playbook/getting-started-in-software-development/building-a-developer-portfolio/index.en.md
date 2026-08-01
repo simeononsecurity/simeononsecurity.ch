@@ -1,5 +1,5 @@
 ---
-title: "Building a Developer Portfolio in 2026: Proof of Work in the Age of AI"
+title: "Building a Developer Portfolio in 2026"
 draft: false
 toc: true
 date: 2026-07-22

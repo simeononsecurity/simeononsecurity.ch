@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy: Information Collection, Usage, and Consent | SimeonOnSecurity"
+title: "Privacy Policy: Information Collection, Usage, and..."
 date: 2020-08-08T15:24:07-05:00
 draft: false
 tags: ["privacy policy", "information collection", "data usage", "visitor consent", "online privacy", "personal information", "contact information", "website usage", "communication", "marketing", "cookies", "web beacons", "log files", "third-party privacy policies", "data protection", "GDPR", "CCPA", "children's privacy", "online activity monitoring"]

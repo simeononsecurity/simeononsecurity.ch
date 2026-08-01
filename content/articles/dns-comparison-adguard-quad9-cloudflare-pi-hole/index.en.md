@@ -1,5 +1,5 @@
 ---
-title: "NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: The Ultimate 2026 DNS Security Comparison"
+title: "NextDNS vs AdGuard vs Quad9 vs Cloudflare: 2026 DNS"
 date: 2023-08-30
 lastmod: 2026-05-24
 toc: true

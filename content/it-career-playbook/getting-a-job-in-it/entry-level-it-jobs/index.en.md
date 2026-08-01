@@ -1,5 +1,5 @@
 ---
-title: "Entry-Level IT Jobs in 2026: What AI Changed and What Actually Gets You Hired"
+title: "Entry-Level IT Jobs in 2026"
 draft: false
 toc: true
 date: 2026-07-22

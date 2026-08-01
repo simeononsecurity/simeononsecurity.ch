@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Mastering Cables, Connectors, and IP Addressing"
+title: "Network Plus Course: Mastering Cables, Connectors, and..."
 date: 2023-07-02
 toc: true
 draft: false

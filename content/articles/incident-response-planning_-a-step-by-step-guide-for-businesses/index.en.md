@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: A Proactive Guide to Effective Incident Response Planning"
+title: "Incident Response Planning: A Step-by-Step Guide"
 date: 2024-01-21
 toc: true
 draft: false

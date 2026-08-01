@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Plans, Procedures, and Policies - Maintaining Stability and Security in Network Operations"
+title: "Network+ Course: Plans, Procedures, and Policies"
 date: 2023-07-16
 toc: true
 draft: false

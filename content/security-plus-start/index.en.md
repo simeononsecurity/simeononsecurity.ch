@@ -1,5 +1,5 @@
 ---
-title: "CompTIA Security+ Course: Complete Study Guide for the SY0-701 Exam"
+title: "CompTIA Security+ Course"
 date: 2025-01-01
 toc: true
 draft: false

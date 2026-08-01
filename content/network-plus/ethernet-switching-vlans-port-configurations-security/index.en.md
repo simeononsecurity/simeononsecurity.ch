@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Ethernet Switching, VLANs, Port Configurations, Security, and More"
+title: "Network+ Course: Ethernet Switching and VLANs"
 date: 2023-07-09
 toc: true
 draft: false

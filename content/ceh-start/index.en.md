@@ -1,5 +1,5 @@
 ---
-title: "EC-Council CEH Course: Complete Study Guide for the Certified Ethical Hacker v13 Exam"
+title: "EC-Council CEH v13: Complete Study Guide"
 date: 2025-01-01
 toc: true
 draft: false

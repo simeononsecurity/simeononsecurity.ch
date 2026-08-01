@@ -1,5 +1,5 @@
 ---
-title: "Install PawnsApp: Make Passive Money Online by Sharing Your Internet"
+title: "Install PawnsApp: Make Passive Money Online by Sharing..."
 draft: false
 toc: true
 date: 2023-06-01

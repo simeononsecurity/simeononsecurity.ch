@@ -1,5 +1,5 @@
 ---
-title: "Bug Bounty Programs: Enhancing Cybersecurity through Crowdsourced Testing"
+title: "Bug Bounty Programs: Enhancing Cybersecurity through..."
 draft: false
 toc: true
 date: 2023-07-15

@@ -1,5 +1,5 @@
 ---
-title: "Securing Your Business: Unveiling Next-Gen Firewalls and Their Essential Features"
+title: "Next-Gen Firewalls: Essential Features for Your Business"
 date: 2024-01-24
 toc: true
 draft: false

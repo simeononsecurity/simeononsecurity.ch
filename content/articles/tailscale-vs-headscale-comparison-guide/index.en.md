@@ -1,5 +1,5 @@
 ---
-title: "Tailscale vs Headscale: Complete 2026 Comparison Guide for Self-Hosted VPN"
+title: "Tailscale vs Headscale"
 date: 2026-05-24
 lastmod: 2026-05-24
 toc: true

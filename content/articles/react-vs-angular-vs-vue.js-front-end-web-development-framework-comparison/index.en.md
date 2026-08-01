@@ -1,5 +1,5 @@
 ---
-title: "Front-End Frameworks Comparison: React vs. Angular vs. Vue.js"
+title: "Front-End Frameworks Comparison"
 date: 2023-06-09
 toc: true
 draft: false

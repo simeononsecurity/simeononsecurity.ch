@@ -1,5 +1,5 @@
 ---
-title: "Understanding Common Cybersecurity Threats: Protecting Individuals and Businesses"
+title: "Common Cybersecurity Threats: How to Protect Yourself"
 draft: false
 toc: true
 date: 2023-06-13

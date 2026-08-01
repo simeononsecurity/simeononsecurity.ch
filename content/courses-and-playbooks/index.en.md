@@ -1,5 +1,5 @@
 ---
-title: "Courses and Career Playbooks for CompTIA, Cisco, EC-Council, ISC2 Exams, and Cybersecurity Careers - SimeonOnSecurity"
+title: "CompTIA, Cisco & Cybersecurity Courses and Playbooks"
 description: "Explore our comprehensive courses and career playbooks for CompTIA, Cisco, EC-Council, ISC2 exams, and cybersecurity careers. Prepare for industry-leading certifications and gain valuable insights for a successful career in cybersecurity."
 genre: ["CompTIA courses", "Cisco courses", "EC-Council courses", "ISC2 exams", "Cybersecurity careers", "Certification preparation", "Networking fundamentals", "Network security", "Ethical hacking", "Information security management"]
 tags: ["CompTIA", "CompTIA courses", "CompTIA certification", "CompTIA training", "CompTIA Network Plus", "CompTIA Security Plus", "CompTIA CySA Plus", "CompTIA PenTest Plus", "CompTIA CASP Plus", "CompTIA SecAI Plus", "CompTIA SecOT Plus", "Cisco", "Cisco courses", "Cisco certification", "Cisco training", "CCNA", "CCNP", "CCIE", "EC-Council", "EC-Council courses", "EC-Council certification", "EC-Council training", "CEH", "ECSA", "CHFI", "LPT", "ISC2", "ISC2 exams", "ISC2 certification", "ISC2 training", "CISSP", "CCSP", "SSCP", "Cybersecurity careers", "IT career playbook", "software development career playbook", "resume optimization"]

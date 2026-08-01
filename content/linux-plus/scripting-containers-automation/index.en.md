@@ -1,5 +1,5 @@
 ---
-title: "CompTIA Linux+ (XK0-005): Scripting, Containers, and Automation"
+title: "CompTIA Linux+ (XK0-005)"
 date: 2025-01-01
 toc: true
 draft: false

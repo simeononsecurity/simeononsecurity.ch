@@ -1,5 +1,5 @@
 ---
-title: "The Power of SSH: Secure Remote Access and Management Made Easy"
+title: "The Power of SSH: Secure Remote Access and Management..."
 date: 2023-06-14
 toc: true
 draft: false

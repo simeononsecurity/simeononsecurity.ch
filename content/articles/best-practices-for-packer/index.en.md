@@ -1,5 +1,5 @@
 ---
-title: "simplifying Packer Image Creation: Best Practices for Efficiency and Security"
+title: "simplifying Packer Image Creation"
 date: 2023-06-24
 toc: true
 draft: false

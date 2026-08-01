@@ -1,5 +1,5 @@
 ---
-title: "Budget DIY GPS/GNSS Base Station / Receiver and NTRIP Server Client with ESP32 and UM980"
+title: "Budget DIY GPS/GNSS Base Station with ESP32 and UM980"
 date: 2023-12-05
 toc: true
 draft: false

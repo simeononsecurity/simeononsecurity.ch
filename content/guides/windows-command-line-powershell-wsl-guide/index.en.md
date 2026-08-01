@@ -1,5 +1,5 @@
 ---
-title: "Mastering Windows Command Line: PowerShell, WSL, and Productivity Boost"
+title: "Mastering Windows Command Line"
 date: 2023-10-07
 toc: true
 draft: false

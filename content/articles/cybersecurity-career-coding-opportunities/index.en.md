@@ -1,5 +1,5 @@
 ---
-title: "How to Start a Career in Cybersecurity: Coding Skills and Beyond"
+title: "How to Start a Career in Cybersecurity"
 date: 2023-11-05
 toc: true
 draft: false

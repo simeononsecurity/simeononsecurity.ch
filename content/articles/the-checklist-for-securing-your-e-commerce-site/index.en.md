@@ -1,5 +1,5 @@
 ---
-title: "Fortify Your E-commerce: The 2024 Security Checklist Revealed"
+title: "Fortify Your E-commerce"
 date: 2024-01-26
 toc: true
 draft: false

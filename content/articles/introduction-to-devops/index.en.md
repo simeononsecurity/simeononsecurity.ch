@@ -1,5 +1,5 @@
 ---
-title: "Introduction to DevOps: Bridging the Gap between Development and Operations"
+title: "Introduction to DevOps"
 date: 2023-06-02
 toc: true
 draft: false

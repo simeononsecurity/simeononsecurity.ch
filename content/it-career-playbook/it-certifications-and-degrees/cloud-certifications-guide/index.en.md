@@ -1,5 +1,5 @@
 ---
-title: "Cloud Certifications Guide: AWS, Azure, and GCP Certs for IT Professionals"
+title: "Cloud Certifications Guide"
 draft: false
 toc: true
 date: 2026-07-22

@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity Incidents: Building a Resilient Response Plan"
+title: "Mastering Cybersecurity Incidents"
 date: 2023-10-08
 toc: true
 draft: false

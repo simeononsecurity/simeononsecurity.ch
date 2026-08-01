@@ -1,5 +1,5 @@
 ---
-title: "Mastering VMware vSphere: Complete Guide to guest_os_type Values"
+title: "Mastering VMware vSphere"
 date: 2023-09-01
 toc: true
 draft: false

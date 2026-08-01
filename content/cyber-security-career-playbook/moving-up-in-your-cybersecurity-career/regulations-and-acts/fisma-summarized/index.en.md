@@ -1,5 +1,5 @@
 ---
-title: "FISMA 101: An Overview of the Federal Information Security Modernization Act"
+title: "FISMA 101: An Overview of the Federal Information..."
 date: 2023-02-12
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Do I Need a Degree for IT in 2026? The Honest Answer After AI Changed Everything"
+title: "Do I Need a Degree for IT in 2026? The Honest Answer..."
 draft: false
 toc: true
 date: 2026-07-22

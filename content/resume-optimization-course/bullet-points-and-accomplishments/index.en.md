@@ -1,5 +1,5 @@
 ---
-title: "Module 4: Bullet Points and Accomplishments — Evidence, Not Job Descriptions"
+title: "Module 4: Bullet Points and Accomplishments"
 date: 2026-07-22
 toc: true
 draft: false

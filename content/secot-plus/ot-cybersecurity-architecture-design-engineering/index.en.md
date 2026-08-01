@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecOT+ (SOT-001): OT Cybersecurity Architecture, Design, and Engineering"
+title: "SecOT+ (SOT-001): OT Cybersecurity Architecture"
 date: 2025-01-01
 toc: true
 draft: false

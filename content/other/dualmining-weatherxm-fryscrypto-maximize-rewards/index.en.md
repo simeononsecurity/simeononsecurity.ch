@@ -1,5 +1,5 @@
 ---
-title: "DualMining WeatherXM and FrysCrypto: Maximizing Rewards and Token Benefits"
+title: "DualMining WeatherXM and FrysCrypto"
 date: 2024-03-11
 toc: true
 draft: false

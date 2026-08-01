@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Environmental Factors and Sensors in Network Monitoring"
+title: "Network Plus Course: Environmental Factors and Sensors..."
 date: 2023-07-15
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Decentralization Dynamics: Mastering the 3.2.1-1 Rule for Blockchain Resilience"
+title: "Decentralization Dynamics"
 date: 2024-01-02
 toc: true
 draft: false

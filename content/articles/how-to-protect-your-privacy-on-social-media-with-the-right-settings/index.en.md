@@ -1,5 +1,5 @@
 ---
-title: "Protect Your Privacy on Social Media: Mastering the Right Settings"
+title: "Protect Your Privacy on Social Media"
 draft: false
 toc: true
 date: 2023-06-15

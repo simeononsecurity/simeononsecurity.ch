@@ -1,5 +1,5 @@
 ---
-title: "The Power of CI CD: Boosting Collaboration, Quality, and Speed"
+title: "The Power of CI CD: Boosting Collaboration, Quality, and..."
 date: 2023-06-06
 toc: true
 draft: false

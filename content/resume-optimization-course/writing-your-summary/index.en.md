@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Writing Your Resume Summary — The Section Read First and Remembered Longest"
+title: "Module 3: Writing Your Resume Summary"
 date: 2026-07-22
 toc: true
 draft: false

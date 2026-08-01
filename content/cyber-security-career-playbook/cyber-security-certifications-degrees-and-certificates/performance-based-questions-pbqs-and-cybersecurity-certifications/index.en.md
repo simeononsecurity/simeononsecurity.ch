@@ -1,5 +1,5 @@
 ---
-title: "The Significance of PBQs in Cybersecurity Certifications: Bridging Theory and Practice"
+title: "PBQs in Cybersecurity Certifications: Theory to Practice"
 draft: false
 toc: true
 date: 2023-06-18

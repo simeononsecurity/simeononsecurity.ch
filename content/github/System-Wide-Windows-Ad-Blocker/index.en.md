@@ -1,5 +1,5 @@
 ---
-title: "Windows 10 System-Wide Ad Blocker Script for Better Privacy and Security"
+title: "Windows 10 System-Wide Ad Blocker Script for Better..."
 date: 2021-04-02
 toc: true
 draft: false

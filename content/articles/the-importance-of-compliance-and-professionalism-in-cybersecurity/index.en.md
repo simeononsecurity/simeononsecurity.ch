@@ -1,5 +1,5 @@
 ---
-title: "The Importance of Compliance and Professionalism in Cybersecurity"
+title: "The Importance of Compliance and Professionalism in..."
 date: 2023-02-08
 toc: true
 draft: false

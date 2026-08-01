@@ -1,5 +1,5 @@
 ---
-title: "Discord Backdoors and Breaches Bot: A Turn-Based Strategy Game Companion"
+title: "Discord Backdoors and Breaches Bot"
 date: 2023-03-10
 toc: true
 draft: false

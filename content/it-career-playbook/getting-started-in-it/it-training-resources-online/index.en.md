@@ -1,5 +1,5 @@
 ---
-title: "IT Training Resources Online: Free and Paid Courses for Every Specialization"
+title: "IT Training Resources Online"
 draft: false
 toc: true
 date: 2026-07-22

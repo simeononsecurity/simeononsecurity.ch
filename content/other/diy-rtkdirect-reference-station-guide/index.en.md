@@ -1,5 +1,5 @@
 ---
-title: "Unlock Precision: Build Your DIY RTKDirect Reference Station Today!"
+title: "Unlock Precision: Build Your DIY RTKDirect Reference..."
 date: 2023-12-31
 toc: true
 draft: false

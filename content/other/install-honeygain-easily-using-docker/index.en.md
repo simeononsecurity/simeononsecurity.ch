@@ -1,5 +1,5 @@
 ---
-title: "Install Honey Gain: Earn Passive Income by Sharing Your Internet"
+title: "Install Honey Gain: Earn Passive Income by Sharing Your..."
 draft: false
 toc: true
 date: 2023-06-01

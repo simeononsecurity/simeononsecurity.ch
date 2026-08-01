@@ -1,5 +1,5 @@
 ---
-title: "Mastering Email Etiquette: Tips for Professional & Secure Communication"
+title: "Mastering Email Etiquette"
 date: 2024-02-14
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Transitioning from IT to Cybersecurity: A Step-by-Step Guide for Success"
+title: "Transitioning from IT to Cybersecurity"
 draft: false
 toc: true
 date: 2023-06-21

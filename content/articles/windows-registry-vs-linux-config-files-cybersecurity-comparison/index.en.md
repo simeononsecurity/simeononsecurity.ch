@@ -1,5 +1,5 @@
 ---
-title: "Windows Registry vs. Linux Config Files: Cybersecurity Showdown"
+title: "Windows Registry vs. Linux Config Files"
 date: 2023-11-24
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "The Ultimate Guide to Cybersecurity Internships: Where to Find and How to Get Them"
+title: "Cybersecurity Internships: Where to Find and How to Get"
 draft: false
 toc: true
 date: 2023-06-22

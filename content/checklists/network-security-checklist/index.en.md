@@ -1,5 +1,5 @@
 ﻿---
-title: "Network Security Checklist: Enhancing Protection and Mitigating Risks for Your Network"
+title: "Network Security Checklist: Protect Your Network"
 date: 2023-08-12
 toc: true
 draft: false

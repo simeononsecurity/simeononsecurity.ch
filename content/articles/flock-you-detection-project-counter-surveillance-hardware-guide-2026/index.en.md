@@ -1,5 +1,5 @@
 ---
-title: "Flock-You Detection Project: Complete Counter-Surveillance Hardware and Setup Guide 2026"
+title: "Flock-You Detection: Counter-Surveillance Setup Guide"
 date: 2026-05-24
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: The Role of Systems Administration and Practical Experience"
+title: "Systems Administration and Practical Cybersecurity"
 draft: false
 toc: true
 date: 2023-07-01

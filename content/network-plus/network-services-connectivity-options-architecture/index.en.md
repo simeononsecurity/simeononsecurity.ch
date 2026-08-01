@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Exploring Network Services, Connectivity Options, and Architecture"
+title: "Network+ Course: Network Services and Architecture"
 date: 2023-07-04
 toc: true
 draft: false

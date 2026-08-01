@@ -1,5 +1,5 @@
 ---
-title: "The Top 5 Locations Worldwide for Cybersecurity Jobs in 2024: Best Cities for Professionals"
+title: "Top 5 Worldwide Locations for Cybersecurity Jobs 2024"
 draft: false
 toc: true
 date: 2023-07-05

@@ -1,5 +1,5 @@
 ---
-title: "Pros and Cons of Multi-Factor Authentication for Business Security"
+title: "Pros and Cons of Multi-Factor Authentication for..."
 date: 2023-02-18
 toc: true
 draft: false

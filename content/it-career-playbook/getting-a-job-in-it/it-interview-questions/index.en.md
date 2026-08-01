@@ -1,5 +1,5 @@
 ---
-title: "IT Interview Questions: Technical and Behavioral Questions with Sample Answers"
+title: "IT Interview Questions"
 draft: false
 toc: true
 date: 2026-07-22

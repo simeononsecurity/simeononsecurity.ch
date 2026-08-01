@@ -1,5 +1,5 @@
 ---
-title: "Building an Effective Incident Response Program: A Comprehensive Guide for Cybersecurity"
+title: "Building an Effective Incident Response Program"
 draft: false
 toc: true
 date: 2023-07-04

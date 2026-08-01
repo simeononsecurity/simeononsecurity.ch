@@ -1,5 +1,5 @@
 ---
-title: "Mastering PowerCLI: A Comprehensive Guide on How to Use PowerCLI for Efficient vSphere Management"
+title: "Mastering PowerCLI for vSphere Management"
 date: 2023-08-02
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Automating Windows 10 and Windows 11 Security Configurations - Windows-Optimize-Harden-Debloat Script"
+title: "Windows-Optimize-Harden-Debloat: Automate Security"
 date: 2020-12-29
 toc: true
 draft: false

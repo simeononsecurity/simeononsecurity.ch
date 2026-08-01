@@ -1,5 +1,5 @@
 ---
-title: "Cryptography Unveiled: Traversing the Centuries from Ancient Secrets to Modern Security Frontiers"
+title: "Cryptography: From Ancient Secrets to Modern Security"
 date: 2024-01-10
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Power Up Your Life: The Best UPS Models for Uninterrupted Connectivity"
+title: "Power Up Your Life: The Best UPS Models for..."
 date: 2023-09-20
 toc: true
 draft: false

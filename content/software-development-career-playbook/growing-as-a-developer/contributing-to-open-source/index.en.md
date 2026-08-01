@@ -1,5 +1,5 @@
 ---
-title: "Contributing to Open Source: How to Build Skills, Visibility, and Career Leverage"
+title: "Contributing to Open Source: Build Skills and Visibility"
 draft: false
 toc: true
 date: 2026-07-22

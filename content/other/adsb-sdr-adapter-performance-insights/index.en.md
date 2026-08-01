@@ -1,5 +1,5 @@
 ---
-title: "ADSB SDR Adapter Performance in Flight Tracking: Key Insights and Comparisons"
+title: "ADSB SDR Adapter Performance in Flight Tracking"
 date: 2023-12-29
 toc: true
 draft: false

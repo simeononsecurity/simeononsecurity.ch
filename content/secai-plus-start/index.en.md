@@ -1,5 +1,5 @@
 ---
-title: "CompTIA SecAI+ Course: Complete Study Guide for the CY0-001 Exam"
+title: "CompTIA SecAI+ Course"
 date: 2025-01-01
 toc: true
 draft: false

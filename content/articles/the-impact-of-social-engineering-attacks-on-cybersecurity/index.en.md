@@ -1,5 +1,5 @@
 ---
-title: "Defending Against Social Engineering Attacks in Cybersecurity"
+title: "Defending Against Social Engineering Attacks in..."
 date: 2023-03-05
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "10 Essential Password Security Guidelines: Protect Your Digital Identity"
+title: "10 Essential Password Security Guidelines"
 draft: false
 toc: true
 date: 2023-06-13

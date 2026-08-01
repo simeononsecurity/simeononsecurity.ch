@@ -1,5 +1,5 @@
 ---
-title: "NextDNS: Effortless DNS Blocking for Enhanced Online Security"
+title: "NextDNS: Effortless DNS Blocking for Enhanced Online..."
 date: 2023-08-26
 toc: true
 draft: false

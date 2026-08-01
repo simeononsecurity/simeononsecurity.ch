@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Exploring Wireless Standards and Technologies"
+title: "Network Plus Course: Exploring Wireless Standards and..."
 date: 2023-07-11
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Cloud Computing and Infrastructure Concepts"
+title: "Network Plus Course: Cloud Computing and Infrastructure..."
 date: 2023-07-05
 toc: true
 draft: false

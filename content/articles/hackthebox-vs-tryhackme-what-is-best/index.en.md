@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox vs. TryHackMe: Which is Best for Learning Junior Penetration Testing?"
+title: "HackTheBox vs. TryHackMe: Which Is Best for You?"
 date: 2023-02-24
 toc: true
 draft: false

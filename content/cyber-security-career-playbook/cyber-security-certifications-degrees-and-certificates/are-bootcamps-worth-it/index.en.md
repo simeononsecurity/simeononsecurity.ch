@@ -1,5 +1,5 @@
 ---
-title: "The Pros and Cons of Bootcamps: Is It Worth It? - Career Development"
+title: "The Pros and Cons of Bootcamps"
 date: 2023-02-12
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Cloudflare Tunnels: simplify and Secure Your Network Traffic"
+title: "Setting Up Cloudflare Tunnels"
 draft: false
 toc: true
 date: 2023-05-26

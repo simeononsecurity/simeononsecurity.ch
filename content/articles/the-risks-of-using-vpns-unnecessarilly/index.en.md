@@ -1,5 +1,5 @@
 ---
-title: "The Risks of Using VPNs Unnecessarily: A Guide for Standard Users"
+title: "The Risks of Using VPNs Unnecessarily"
 date: 2023-02-27
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Changing Cybersecurity Landscape: Challenges and Strategies for Early Career Professionals"
+title: "Navigating the Cybersecurity Landscape: Early Career"
 draft: false
 toc: true
 date: 2023-06-30

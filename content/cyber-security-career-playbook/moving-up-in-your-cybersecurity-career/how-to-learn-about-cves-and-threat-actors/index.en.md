@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: Learning about Latest CVEs and Threat Actors"
+title: "Mastering Cybersecurity"
 draft: false
 toc: true
 date: 2023-06-27

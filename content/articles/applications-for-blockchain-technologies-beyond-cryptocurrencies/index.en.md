@@ -1,5 +1,5 @@
 ---
-title: "Unlocking the Potential of Blockchain Technology: Exploring Applications Beyond Cryptocurrencies"
+title: "Blockchain Technology: Applications Beyond Cryptocurrency"
 date: 2023-06-23
 toc: true
 draft: false

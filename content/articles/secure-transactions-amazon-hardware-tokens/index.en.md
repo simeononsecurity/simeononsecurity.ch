@@ -1,5 +1,5 @@
 ---
-title: "Secure Your Transactions: Top Hardware Tokens for Enhanced Security"
+title: "Secure Your Transactions"
 date: 2023-09-15
 toc: true
 draft: false

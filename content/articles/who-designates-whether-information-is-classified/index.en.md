@@ -1,5 +1,5 @@
 ---
-title: "Understanding Information Classification: Who Designates and Determines Classification Levels"
+title: "Who Designates and Determines Classification Levels"
 date: 2023-06-12
 lastmod: 2026-05-24
 toc: true

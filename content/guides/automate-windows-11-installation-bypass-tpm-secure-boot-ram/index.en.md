@@ -1,5 +1,5 @@
 ---
-title: "Automate Windows 11 Installation: Bypass TPM, Secure Boot, and RAM Checks"
+title: "Automate Windows 11 Installation"
 date: 2023-09-08
 toc: true
 draft: false

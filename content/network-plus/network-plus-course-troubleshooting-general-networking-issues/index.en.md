@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Troubleshooting General Networking Issues"
+title: "Network Plus Course: Troubleshooting General Networking..."
 date: 2023-07-30
 toc: true
 draft: false

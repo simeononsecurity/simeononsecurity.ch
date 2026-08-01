@@ -1,5 +1,5 @@
 ---
-title: "Mastering Cybersecurity: Exploring the Vital Risk Management Framework"
+title: "Mastering Cybersecurity"
 date: 2023-11-10
 toc: true
 draft: false

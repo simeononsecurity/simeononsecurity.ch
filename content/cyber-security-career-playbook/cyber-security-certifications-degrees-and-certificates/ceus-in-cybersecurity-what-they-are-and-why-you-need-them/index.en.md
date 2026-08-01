@@ -1,5 +1,5 @@
 ---
-title: "The Power of CEUs in Cybersecurity: Staying Ahead in the Digital Battle"
+title: "The Power of CEUs in Cybersecurity"
 draft: false
 toc: true
 date: 2023-06-19

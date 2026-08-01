@@ -1,5 +1,5 @@
 ---
-title: "Network Plus Course: Importance of Documentation and Policies in Network Management"
+title: "Network+ Course: Documentation and Policy Management"
 date: 2023-07-17
 toc: true
 draft: false

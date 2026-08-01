@@ -1,5 +1,5 @@
 ---
-title: "help Your Expertise: Essential Books for Cybersecurity & IT Pros"
+title: "help Your Expertise: Essential Books for Cybersecurity &..."
 date: 2023-09-23
 toc: true
 draft: false

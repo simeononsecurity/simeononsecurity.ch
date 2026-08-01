@@ -1,5 +1,5 @@
 ---
-title: "The Power of PowerShell for Enhanced Cybersecurity Operations and Compliance"
+title: "The Power of PowerShell for Enhanced Cybersecurity..."
 date: 2023-02-02
 toc: true
 draft: false

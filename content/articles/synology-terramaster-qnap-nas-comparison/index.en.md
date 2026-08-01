@@ -1,5 +1,5 @@
 ---
-title: "Synology vs Terramaster vs Qnap: Unveiling the Ultimate NAS Showdown"
+title: "Synology vs Terramaster vs Qnap"
 date: 2023-09-18
 toc: true
 draft: false

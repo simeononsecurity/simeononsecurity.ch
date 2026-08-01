@@ -1,5 +1,5 @@
 ---
-title: "Flock Finder: Open-Source Tool for Mapping Flock Safety ALPR Surveillance Cameras"
+title: "Flock Finder: Map Flock Safety ALPR Cameras"
 date: 2026-07-22
 toc: true
 draft: false

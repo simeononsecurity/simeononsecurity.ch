@@ -1,5 +1,5 @@
 ---
-title: "Best Cell Phone Providers for Privacy and Anonymity: Mint Mobile and Visible"
+title: "Best Cell Phone Providers for Privacy and Anonymity"
 draft: false
 toc: true
 description: "Discover the top cell phone providers prioritizing privacy and anonymity and learn why Mint Mobile and Visible are great options"

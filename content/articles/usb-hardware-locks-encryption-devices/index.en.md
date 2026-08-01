@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Data Privacy: USB Hardware Locks and Encryption Devices"
+title: "Enhancing Data Privacy"
 date: 2023-09-13
 toc: true
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Using Packer for Infrastructure as Code: Best Practices and Benefits"
+title: "Using Packer for Infrastructure as Code"
 date: 2023-05-04
 toc: true
 draft: false

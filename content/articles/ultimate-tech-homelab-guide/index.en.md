@@ -1,5 +1,5 @@
 ---
-title: "The Best Homelab Hardware: Building a Powerful and Budget-Friendly Setup"
+title: "The Best Homelab Hardware"
 date: 2023-11-04
 toc: true
 draft: false

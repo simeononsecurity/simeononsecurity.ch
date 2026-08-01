@@ -1,5 +1,5 @@
 ---
-title: "Flipper Zero: The Complete Masterclass for Hackers and Security Researchers"
+title: "Flipper Zero: The Complete Masterclass for Hackers and..."
 draft: false
 toc: true
 date: 2023-05-26
