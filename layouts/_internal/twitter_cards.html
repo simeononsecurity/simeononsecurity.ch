@@ -28,6 +28,8 @@
 <meta name="twitter:description" content="{{ if strings.Contains .Permalink "/tags/" }}Read up on more articles about {{ .Title | markdownify }}. {{ end }}{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
 {{ with .Site.Params.Social.twitter -}}
 <meta name="twitter:site" content="@{{ . }}"/>
+{{ else -}}
+<meta name="twitter:site" content="@simeonsecurity"/>
 {{ end -}}
 {{ range .Site.Params.Author }}
 {{ with .twitter -}}
