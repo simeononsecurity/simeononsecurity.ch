@@ -37,6 +37,7 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `06-link-verification.md` | External URL verification before publishing |
 | `07-ad-cta-guidelines.md` | Ad creative CTA and brand colour standards |
 | `08-clinerules-maintenance.md` | This file — rules about maintaining rules |
+| `09-hugo-shortcodes-and-partials.md` | Hugo architecture, every shortcode, and all partials |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create
