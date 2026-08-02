@@ -36,7 +36,24 @@
 {{ else if .Params.images }}
   {{ $og_image = index .Params.images 0 | absURL }}
 {{ else }}
-  {{ $og_image = index $.Site.Params.images 0 | absURL }}
+  {{/* Auto-detect cover image by page slug: try webp, png, jpeg, jpg in static/img/cover/ */}}
+  {{ $slug := .Slug }}
+  {{ $detected := "" }}
+  {{ range slice "webp" "png" "jpeg" "jpg" }}
+    {{ if not $detected }}
+      {{ $checkPath := printf "static/img/cover/%s.%s" $slug . }}
+      {{ if os.FileExists $checkPath }}
+        {{ $detected = printf "/img/cover/%s.%s" $slug . | absURL }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if $detected }}
+    {{ $og_image = $detected }}
+    {{ $og_image_width = "1200" }}
+    {{ $og_image_height = "630" }}
+  {{ else }}
+    {{ $og_image = index $.Site.Params.images 0 | absURL }}
+  {{ end }}
 {{ end }}
 <meta property="og:image" content="{{ $og_image }}" />
 {{ if $og_image_width }}<meta property="og:image:width" content="{{ $og_image_width }}" />{{ end }}
