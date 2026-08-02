@@ -51,25 +51,94 @@ should only demonstrate. A comparison table should only compare.
 
 ---
 
-## Bold
+## Text Emphasis for Skimmability
 
-- **Bold the key term on first mention**, especially the noun a reader is meant to memorize
-  ("A **programmable logic controller (PLC)** is a ruggedized industrial computer...").
-- Bold the **lead-in term** of each bullet in a definition list (see Bullet Lists).
-- Bold the exam-weight phrase in the intro paragraph ("**Securing AI Systems** is **40%** of...").
-- Bold inline labels such as "**Exam details:**" that introduce a line of metadata.
-- Do not bold whole sentences. Bold the term, not the explanation.
-- Good bold candidates: commands, configuration file names, product names, key conclusions.
+Heavy, deliberate use of bold, italics, and underline is how a reader navigates a long page
+without reading every word. Treat emphasis as a navigation layer, not decoration. A reader
+skimming at speed should be able to hit every bolded term and every italic callout and reconstruct
+the key points of the entire page.
 
----
+### Bold — the primary workhorse
 
-## Italics
+Use bold aggressively. Every paragraph should have at least one bolded element unless it is a
+transition sentence between sections.
 
-- Use *italics* for a **callout or study-priority sentence**, set on its own line, that tells the
-  reader where to focus.
-- Use italics to flag the one **exception or outlier** in a group
-  ("*OPC UA is the outlier because it was designed with security in mind.*").
-- Keep italic callouts to one or two sentences. They are signposts, not paragraphs.
+**Required bold uses:**
+- **Key term on first mention** — "A **programmable logic controller (PLC)** is a ruggedized
+  industrial computer..."
+- **Lead-in term of every bullet** in a definition list — "**Modbus** is a simple serial protocol..."
+- **Exam weight or percentage** in the intro paragraph — "**Securing AI Systems** is **40%** of..."
+- **Inline label** before metadata — "**Exam details:**", "**Prerequisites:**", "**Note:**"
+- **Conclusion or recommendation** at the end of a section — "**Use ZFS for all production storage.**"
+- **Warning or critical caveat** — "**Do not run this command on a live system.**"
+- **File names, commands, and configuration keys** inline in prose — "Edit **`/etc/hosts`** to..."
+
+**When in doubt, bold it.** A paragraph with no bold forces the reader to read every word.
+A paragraph with one or two bolded terms lets the reader skip to what matters.
+
+Do not bold whole sentences. Bold the term or the short phrase, not the explanation.
+
+### Italics — callouts and exceptions
+
+Use italics for sentences the reader must not miss and for flagging the one thing that breaks
+the pattern.
+
+**Required italic uses:**
+- *Study-priority callout* on its own line — "*This domain accounts for 28% of the exam. Prioritize it.*"
+- *Exception or outlier* in a group — "*OPC UA is the outlier: it was designed with security in mind.*"
+- *Recommendation sentence* after a comparison table — "*For most deployments, choose option A.*"
+- *Time-sensitive or version note* — "*This behavior changed in version 4.2.*"
+
+Keep each italic passage to one or two sentences. Italics lose their signal value if overused
+across multiple paragraphs.
+
+### Underline — use sparingly for critical warnings
+
+Standard Markdown does not render underlines. Use raw HTML `<u>` tags only for the highest-priority
+warnings where bold alone is not enough — for example, a step that causes irreversible data loss.
+
+```html
+<u>**Warning: this command wipes all data on the target disk.**</u>
+```
+
+Limit underline to one or two instances per page. If every warning is underlined, none stand out.
+The site config must have `markup.goldmark.renderer.unsafe = true` for raw HTML to pass through.
+Verify this before relying on `<u>` in content.
+
+### Combined emphasis — bold + italic
+
+Use `***bold italic***` when a term is both a key definition and a priority callout in the same
+sentence. Reserve this for the single most important concept in a section.
+
+```markdown
+***Never expose the management interface to the public internet.***
+```
+
+Do not combine bold and italic more than once per section. Overuse collapses the visual hierarchy.
+
+### Emphasis density targets
+
+Apply these minimum density targets when drafting:
+
+| Content type | Minimum emphasis density |
+|---|---|
+| Certification domain page | At least one bolded term per paragraph; one italic callout per `##` section |
+| Tutorial / guide | Bolded term on first mention of every command, flag, and file path |
+| Bullet definition list | Every bullet lead-in is bolded, no exceptions |
+| Comparison table | First column terms are bolded |
+| Warning or critical note | Bold the warning label; underline only if data loss is possible |
+
+### Scannability test for emphasis
+
+After drafting, read only the bolded and italicized words, skipping all plain text. You should
+be able to reconstruct:
+
+1. The main topic of each section.
+2. Every key term introduced.
+3. Every warning or exception.
+4. The recommended action or conclusion.
+
+If you cannot, add more emphasis until the bolded/italic layer tells the complete story on its own.
 
 ---
 
