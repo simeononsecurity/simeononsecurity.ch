@@ -398,15 +398,36 @@ def _image_ref_exists(url: str, md_path: str) -> bool:
     page_bundle_dir = Path(md_path).parent
     if clean.startswith("/"):
         rel = clean.lstrip("/")
-        return (
+        # Exact match (also checks page bundle alongside index.en.md)
+        if (
             (STATIC_DIR / rel).exists()
             or (ASSETS_DIR / rel).exists()
             or (ASSETS_DIR / "img" / rel).exists()
-            # Also check page bundle: image may be stored alongside index.en.md
             or (page_bundle_dir / Path(rel).name).exists()
-        )
+        ):
+            return True
+        # Stem match: same basename, any image extension.
+        # Prevents regenerating an image when foo.png exists but foo.jpg is referenced.
+        rel_stem = Path(rel).stem
+        rel_parent = Path(rel).parent
+        for ext in IMAGE_EXTS:
+            alt = rel_stem + ext
+            if (
+                (STATIC_DIR / rel_parent / alt).exists()
+                or (ASSETS_DIR / rel_parent / alt).exists()
+                or (page_bundle_dir / alt).exists()
+            ):
+                return True
+        return False
     candidate = page_bundle_dir / clean
-    return candidate.exists()
+    if candidate.exists():
+        return True
+    # Stem match for relative references in the page bundle.
+    stem = Path(clean).stem
+    for ext in IMAGE_EXTS:
+        if (page_bundle_dir / (stem + ext)).exists():
+            return True
+    return False
 
 
 def find_missing_inline_images(md_path: str) -> list[dict]:

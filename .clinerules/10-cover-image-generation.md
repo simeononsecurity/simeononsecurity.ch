@@ -85,6 +85,30 @@ tail -f /tmp/cover_gen.log
 
 ---
 
+## Stem-Matching Bug Fixed 2026-08-02
+
+`_image_ref_exists` now also checks all `IMAGE_EXTS` for the same stem in
+every search directory (page bundle, `static/`, `assets/`). This prevents
+the script from regenerating an image when `foo.png` already exists but
+the article references `foo.jpg`.
+
+**How it was triggered:** An article had two `{{< figure >}}` tags — one
+referencing `aclu-get-flock-out-header.png` (the real photo) and a second
+referencing `aclu-get-flock-out-header.jpg` (a stale/erroneous variant).
+The `.png` existed; the `.jpg` did not. The old code saw only the exact
+filename match and generated a new AI `.jpg`, overwriting intent.
+
+**Fix:** After the exact-match checks fail, the function now loops over
+`IMAGE_EXTS` and checks `stem + ext` in each search location. If any image
+with the same stem and any supported extension exists, it returns `True`.
+
+**Lesson:** When an article references `foo.jpg` but `foo.png` exists (same
+stem), always treat it as already satisfied rather than generating a new image.
+Do not commit an AI-generated `.jpg` when an original `.png` is present. The
+`.png` is the real image; the `.jpg` reference in the article should be fixed
+to match the actual file extension.
+
+## Image Existence Checks — Critical Bug Fixed 2026-08-02
 ## Image Existence Checks — Critical Bug Fixed 2026-08-02
 
 `cover_file_exists()` and `_image_ref_exists()` both check multiple locations.
