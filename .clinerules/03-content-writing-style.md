@@ -310,3 +310,90 @@ A well-formatted domain page alternates formats so nothing is a wall of text:
 
 If two consecutive sections both use tables, or both use bullets, consider varying one so the
 page stays visually scannable.
+
+---
+
+## Breaking Up Walls of Text with Shortcodes
+
+Shortcodes are first-class formatting tools, not extras. Use them wherever a block of prose would
+benefit from a visual break, a concrete demonstration, or a clear next action. See
+`09-hugo-shortcodes-and-partials.md` for full parameter reference.
+
+### Embed a relevant video with `{{< youtube >}}`
+
+When a concept is easier to show than explain, embed a video instead of writing three more
+paragraphs. Place the embed immediately after the `##` heading it supports, before the prose
+that follows.
+
+```text
+{{< youtube id="USjZcfj8yxE" >}}
+```
+
+When to use it:
+- After introducing a multi-step process where a walkthrough exists.
+- After a comparison section where a live demo clarifies the difference.
+- At the end of an introductory section as a "see it in action" supplement.
+
+Do not embed a video just to fill space. The video must be directly about the topic in that
+section, not loosely related.
+
+### Add a relevant image or diagram with `{{< figure >}}`
+
+An image breaks the visual monotony of text and gives the reader an anchor. Use it to show
+a screenshot of output, a diagram of a system, or a photo of physical hardware.
+
+```text
+{{< figure src="cluster-overview.webp" alt="Diagram showing the three-node cluster layout" >}}
+```
+
+Placement rules:
+- Place the figure immediately before or after the sentence it illustrates, not at the end of
+  a long section.
+- Always write descriptive `alt` text that names what is shown, not just what it is called.
+- Use `caption` when the image needs a one-line explanation that the surrounding text does not
+  already provide.
+- Images stored next to the `index.en.md` file are referenced by bare filename. External images
+  use the full `https://` URL.
+
+Do not use raw `<img>` tags or bare Markdown `![]()` syntax. Always use `{{< figure >}}`.
+
+### Add a CTA button with `{{< centerbutton >}}` or `{{< button >}}`
+
+A CTA button makes the next action explicit. Use it when the reader should do something after
+reading a section: purchase a product, read a related guide, download a tool, or take a practice
+test.
+
+```text
+{{< centerbutton href="/casp-plus-practice-test/" >}}
+  Take the CASP+ Practice Test
+{{< /centerbutton >}}
+```
+
+```text
+{{< button href="https://amzn.to/XXXXX" >}}
+  Buy on Amazon
+{{< /button >}}
+```
+
+Placement rules:
+- Use `{{< centerbutton >}}` for standalone CTAs that deserve their own visual line. It centers
+  the button on the page.
+- Use `{{< button >}}` when the CTA sits inline with surrounding text or in a short list of links.
+- Place the button at the **end** of a section, not in the middle of an explanation.
+- One CTA per section. Multiple competing CTAs in the same section dilute both.
+- The button text must start with a verb: "Take the Practice Test", "Read the Guide", "Shop Now".
+
+### When to reach for a shortcode
+
+As a general rule: if you have written more than 400 words without any visual break other than
+headings and bullets, add a shortcode. The mix keeps readers scrolling instead of bouncing.
+
+| Situation | Shortcode to use |
+|-----------|-----------------|
+| Multi-step process with a video walkthrough available | `{{< youtube >}}` |
+| Hardware, software UI screenshot, or system diagram | `{{< figure >}}` |
+| End of section with a clear next action | `{{< centerbutton >}}` |
+| Inline link that needs to stand out as a button | `{{< button >}}` |
+
+Add one shortcode check to the scannability pass: after drafting, scan for any 400-word stretch
+with no shortcode, heading, table, or code block. Break it up.
