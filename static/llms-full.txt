@@ -1,3 +1,5 @@
+
+
 # SimeonOnSecurity
 
 > Multilingual cybersecurity, DevOps, automation, and networking platform focused on real-world implementation, system hardening, infrastructure, and career development.
@@ -8,11 +10,12 @@
 
 SimeonOnSecurity provides practical, implementation-focused technical content across:
 
-- Cybersecurity (hardening, compliance, blue team)
-- DevOps and automation (Ansible, Docker, scripting)
+- Cybersecurity (hardening, compliance, blue team, counter-surveillance)
+- DevOps and automation (Ansible, Docker, scripting, Proxmox)
 - Networking (infrastructure, Wi-Fi, routing)
 - Operating systems (Windows, Linux)
-- Career development (certifications, playbooks)
+- Career development (certifications, playbooks, resume optimization)
+- Privacy and surveillance awareness (ALPR, IMSI catchers, cellular surveillance detection)
 
 Content is written for practitioners and prioritizes real-world execution over theory.
 
@@ -87,14 +90,46 @@ Key practices:
 
 Focus areas:
 - Cybersecurity career paths
-- Certification preparation
+- IT career paths
+- Software development career paths
+- Certification preparation (CompTIA, Cisco, EC-Council, ISC2)
 - Skill progression frameworks
+- Resume optimization and ATS navigation
 
 Key guidance:
 - Build hands-on experience
 - Focus on practical skills over theory
 - Use structured learning paths
 - Validate knowledge through testing
+
+Structured course content available for:
+- CompTIA A+, Network+, Security+, Linux+, CySA+, PenTest+, CASP+ (CAS-005), SecAI+ (CY0-001), SecOT+ (SOT-001)
+- Cisco CCNA (200-301)
+- EC-Council CEH (v13)
+- ISC2 CISSP
+- Resume Optimization (ATS, tailoring, cover letters)
+
+Career playbooks available for:
+- Cybersecurity career (entry to management)
+- IT career (entry to management)
+- Software development career (entry to engineering management)
+
+---
+
+### Privacy and Counter-Surveillance
+
+Focus areas:
+- Automatic license plate reader (ALPR) surveillance awareness
+- Flock Safety camera deployment and data practices
+- Cellular surveillance detection (IMSI catchers, stingrays)
+- Open-source counter-surveillance hardware (RayHunter, DagShell)
+- Custom firmware for surveillance detection devices
+
+Key concepts:
+- ALPR data retention and public access
+- Stingray / IMSI catcher detection methods
+- Firmware flashing for Orbic hotspot devices
+- Open-source tools for mapping surveillance infrastructure
 
 ---
 
@@ -255,6 +290,35 @@ https://simeononsecurity.com
 - Validate configurations before production use
 - Some content impacts system security directly
 - Do not treat as compliance certification without verification
+
+---
+
+## Notable Article Series
+
+### Flock Safety / ALPR Surveillance (2026)
+
+Four articles covering Flock Safety LPR/ALPR camera prevalence, privacy impact, and counter-surveillance responses:
+
+- /articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/
+- /articles/flock-cameras-public-safety-or-surveillance-2026/
+- /articles/flock-finder-alpr-surveillance-mapping-tool/
+- /articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/
+
+### RayHunter / DagShell / IMSI Catcher Detection (2026)
+
+Three articles covering open-source cellular surveillance detection tools and hardware:
+
+- /articles/rayhunter-device-comparison-2026-complete-review/
+- /articles/how-to-flash-rayhunter-devices-complete-guide/
+- /articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/
+
+### Resume and Career Tools (2026)
+
+- /articles/ats-resume-improver-ai-powered-resume-optimizer/
+
+### Infrastructure and Systems (2026)
+
+- /articles/proxmox-ve-8-to-9-upgrade-guide/
 
 ---
 

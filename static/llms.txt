@@ -113,6 +113,35 @@ Each practice test uses a JSON question bank served from /quiz-dicts/.
 
 - /resume-optimization-course-start/ — Resume Optimization Course (ATS, formatting, tailoring, cover letters)
 
+### Notable Article Series
+
+#### Flock Safety / ALPR Surveillance (2026)
+
+Four-article cluster covering Flock Safety license plate reader (LPR/ALPR) cameras, their deployment prevalence, privacy implications, and counter-surveillance tools:
+
+- /articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/ — Flock Safety cameras: prevalence, data retention, and privacy protection
+- /articles/flock-cameras-public-safety-or-surveillance-2026/ — Flock Safety ALPR: public safety tool or mass surveillance infrastructure
+- /articles/flock-finder-alpr-surveillance-mapping-tool/ — Flock Finder: open-source tool for mapping ALPR camera deployments
+- /articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/ — Flock You detection project: counter-surveillance hardware guide
+
+#### RayHunter / DagShell / IMSI Catcher Detection (2026)
+
+Three-article cluster covering open-source cellular surveillance detection tools, custom firmware, and hardware comparisons:
+
+- /articles/rayhunter-device-comparison-2026-complete-review/ — RayHunter device comparison: Orbic RC400L, RC2000, and R501 review
+- /articles/how-to-flash-rayhunter-devices-complete-guide/ — Complete guide to flashing RayHunter firmware on supported devices
+- /articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/ — DagShell custom firmware guide for Orbic RCL400
+
+#### Resume and Career Tools (2026)
+
+- /articles/ats-resume-improver-ai-powered-resume-optimizer/ — AI-powered ATS resume optimizer: improve job application pass rates
+
+#### Infrastructure and Systems (2026)
+
+- /articles/proxmox-ve-8-to-9-upgrade-guide/ — Proxmox VE 8 to 9 in-place upgrade guide
+
+---
+
 ### Content Types
 
 - Technical guides and tutorials
@@ -201,4 +230,4 @@ If localized:
 
 ## Keywords
 
-cybersecurity, devops, automation, networking, ansible, docker, linux, windows security, stig, compliance, infrastructure, privacy, certification, blue team, red team, IT career, software development career, homelab, portfolio, CompTIA, Cisco, CCNA, career playbook, resume optimization
+cybersecurity, devops, automation, networking, ansible, docker, linux, windows security, stig, compliance, infrastructure, privacy, certification, blue team, red team, IT career, software development career, homelab, portfolio, CompTIA, Cisco, CCNA, career playbook, resume optimization, flock safety, ALPR, license plate reader, LPR, counter-surveillance, surveillance mapping, privacy protection, RayHunter, stingray detection, IMSI catcher, cellular surveillance, DagShell, Orbic, custom firmware, ATS resume, ATS optimizer, proxmox, proxmox upgrade, CASP+, SecurityX, SecAI+, SecOT+, OT security, AI security
