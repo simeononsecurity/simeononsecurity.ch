@@ -1,6 +1,6 @@
 ---
 title: "Cybersecurity Practice Tests - SimeonOnSecurity"
-description: "Explore our collection of cybersecurity practice tests designed to enhance your knowledge and prepare you for various certification exams. Test your skills in areas such as network security, ethical hacking, information security, and more."
+description: "Free cybersecurity practice tests for CompTIA, Cisco, EC-Council, and ISC2 certifications. Test your skills in network security, ethical hacking, and more."
 genre: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security"]
 tags: ["Cybersecurity", "practice tests", "network security", "ethical hacking", "information security", "certification exams", "skills assessment"]
 sitemap:
