@@ -3,14 +3,15 @@
 
 {{- $desc := "" -}}
 {{- if strings.Contains $.Permalink "/tags/" -}}{{- $desc = printf "Read up on more articles about %s." (.Title | markdownify | plainify) -}}{{- else if .Description -}}{{- $desc = .Description -}}{{- else if .IsPage -}}{{- $desc = .Summary | plainify -}}{{- else -}}{{- $desc = $.Site.Params.description -}}{{- end -}}
-{{- $desc = $desc | truncate 160 -}}
+{{- $desc = $desc | truncate 155 -}}
+{{- $og_desc := $desc | truncate 120 -}}
 
 {{ $title := .Title }}
 {{ if strings.Contains $.Permalink "/tags/" }}
     {{ $title = printf "Other Posts Tagged %q" .Title }}
 {{ end }}
 <meta property="og:title" content="{{ $title }}" />
-<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:description" content="{{ $og_desc }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ $og_image := "" }}
@@ -106,7 +107,7 @@
 
 <meta property="og:site_name" content="simeononsecurity.com">
 <meta property="og:title" content="{{ $title }}" />
-<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:description" content="{{ $og_desc }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:website" content="{{ .Permalink }}" />

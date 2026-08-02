@@ -2,7 +2,8 @@
 {{ $twitter_image_alt := or .Params.coverAlt .Title }}
 {{- $desc := "" -}}
 {{- if strings.Contains $.Permalink "/tags/" -}}{{- $desc = printf "Read up on more articles about %s." (.Title | markdownify | plainify) -}}{{- else if .Description -}}{{- $desc = .Description -}}{{- else if .IsPage -}}{{- $desc = .Summary | plainify -}}{{- else -}}{{- $desc = $.Site.Params.description -}}{{- end -}}
-{{- $desc = $desc | truncate 160 -}}
+{{- $desc = $desc | truncate 155 -}}
+{{- $og_desc := $desc | truncate 120 -}}
 {{ if .Params.cover }}
   {{ $twitter_image = .Params.cover | absURL }}
   {{ $coverPath := .Params.cover | strings.TrimPrefix "/" }}
@@ -43,7 +44,7 @@
 <meta name="twitter:image" content="{{ $twitter_image }}"/>
 <meta name="twitter:image:alt" content="{{ $twitter_image_alt }}"/>
 <meta name="twitter:title" content="{{ $title }}"/>
-<meta name="twitter:description" content="{{ $desc }}"/>
+<meta name="twitter:description" content="{{ $og_desc }}"/>
 {{ with .Site.Params.Social.twitter -}}
 <meta name="twitter:site" content="@{{ . }}"/>
 {{ else -}}
