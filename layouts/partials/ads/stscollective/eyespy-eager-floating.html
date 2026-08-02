@@ -1,0 +1,85 @@
+{{ $tinysrc := resources.Get "img/ads/eyespy/eyespy_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}
+
+<style>
+  .eyespy-ad-floating-wrap {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    display: none;
+  }
+
+  @media (min-width: 900px) {
+    .eyespy-ad-floating-wrap {
+      display: block;
+    }
+  }
+
+  .eyespy-ad-floating-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .eyespy-ad-floating-image {
+    display: block;
+    width: 255px;
+    height: 212px;
+    border: 0;
+  }
+
+  .eyespy-ad-floating-cta {
+    background: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 5px 12px 6px;
+    font-family: sans-serif;
+    line-height: 1.35;
+    width: 255px;
+    box-sizing: border-box;
+  }
+
+  .eyespy-ad-floating-cta strong {
+    display: block;
+    font-size: 0.82rem;
+    color: #fbbf24;
+    letter-spacing: 0.02em;
+  }
+
+  .eyespy-ad-floating-code {
+    display: block;
+    font-size: 0.7rem;
+    color: #93c5fd;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+</style>
+
+<div class="eyespy-ad-floating-wrap">
+  <a
+    href="https://stscollective.com/collections/eye-spy-passive-surveillance-detectors"
+    target="_blank"
+    rel="noopener nofollow sponsored"
+    title="Shop Eye Spy Passive Surveillance Detectors — Save up to 20% with code SIMEONONSECURITY"
+    id="eyespy-ad-floating"
+    class="eyespy-ad-floating-link"
+  >
+    <img
+      src="{{ $optimizedtiny }}"
+      alt="Eye Spy — passive surveillance detector for Bluetooth, WiFi, ALPR, and AirTag awareness from STS Collective"
+      class="eyespy-ad-floating-image"
+      fetchpriority="high"
+      loading="eager"
+      style="border:0px"
+    />
+    <div class="eyespy-ad-floating-cta">
+      <strong>Shop Now &mdash; Save up to 20% Today</strong>
+      <span class="eyespy-ad-floating-code">Code: SIMEONONSECURITY</span>
+    </div>
+  </a>
+</div>

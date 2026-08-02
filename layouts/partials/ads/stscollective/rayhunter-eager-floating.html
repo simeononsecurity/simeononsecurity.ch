@@ -1,0 +1,85 @@
+{{ $tinysrc := resources.Get "img/ads/rayhunter/rayhunter_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}
+
+<style>
+  .rayhunter-ad-floating-wrap {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    display: none;
+  }
+
+  @media (min-width: 900px) {
+    .rayhunter-ad-floating-wrap {
+      display: block;
+    }
+  }
+
+  .rayhunter-ad-floating-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .rayhunter-ad-floating-image {
+    display: block;
+    width: 255px;
+    height: 212px;
+    border: 0;
+  }
+
+  .rayhunter-ad-floating-cta {
+    background: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 5px 12px 6px;
+    font-family: sans-serif;
+    line-height: 1.35;
+    width: 255px;
+    box-sizing: border-box;
+  }
+
+  .rayhunter-ad-floating-cta strong {
+    display: block;
+    font-size: 0.82rem;
+    color: #fbbf24;
+    letter-spacing: 0.02em;
+  }
+
+  .rayhunter-ad-floating-code {
+    display: block;
+    font-size: 0.7rem;
+    color: #93c5fd;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+</style>
+
+<div class="rayhunter-ad-floating-wrap">
+  <a
+    href="https://stscollective.com/collections/rayhunter"
+    target="_blank"
+    rel="noopener nofollow sponsored"
+    title="Shop RayHunter IMSI Catcher Detectors — Save up to 20% with code SIMEONONSECURITY"
+    id="rayhunter-ad-floating"
+    class="rayhunter-ad-floating-link"
+  >
+    <img
+      src="{{ $optimizedtiny }}"
+      alt="RayHunter — IMSI catcher and Stingray detector devices from STS Collective"
+      class="rayhunter-ad-floating-image"
+      fetchpriority="high"
+      loading="eager"
+      style="border:0px"
+    />
+    <div class="rayhunter-ad-floating-cta">
+      <strong>Shop Now &mdash; Save up to 20% Today</strong>
+      <span class="rayhunter-ad-floating-code">Code: SIMEONONSECURITY</span>
+    </div>
+  </a>
+</div>

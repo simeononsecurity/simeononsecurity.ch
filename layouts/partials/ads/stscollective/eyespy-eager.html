@@ -1,0 +1,127 @@
+{{ $tinysrc := resources.Get "img/ads/eyespy/eyespy_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/eyespy/eyespy_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/eyespy/eyespy_728x90_ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}  
+
+<style>
+  /* Styles for the image at different screen sizes */
+  .eyespy-ad-eager-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Hide the image for viewports smaller than 320px */
+  @media (max-width: 420px) {
+    .eyespy-ad-eager-image {
+      display: none;
+    }
+  }
+
+  /* Styles for the image at 728x90 */
+  @media (min-width: 728px) {
+    .eyespy-ad-eager-image {
+      width: 728px;
+      height: 90px;
+    }
+  }
+
+  /* Styles for the image at 468x60 */
+  @media (min-width: 468px) and (max-width: 727px) {
+    .eyespy-ad-eager-image {
+      width: 468px;
+      height: 60px;
+    }
+  }
+
+  /* Styles for the image at 320x250 */
+  @media (min-width: 420px) and (max-width: 467px) {
+    .eyespy-ad-eager-image {
+      width: 320px;
+      height: 250px;
+    }
+  }
+
+  .eyespy-ad-eager-link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .eyespy-ad-eager-cta {
+    background: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 5px 12px 6px;
+    font-family: sans-serif;
+    line-height: 1.35;
+  }
+
+  .eyespy-ad-eager-cta strong {
+    display: block;
+    font-size: 0.82rem;
+    color: #fbbf24;
+    letter-spacing: 0.02em;
+  }
+
+  .eyespy-ad-eager-code {
+    display: block;
+    font-size: 0.7rem;
+    color: #93c5fd;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+</style>
+
+<a
+  href="https://stscollective.com/collections/eye-spy-passive-surveillance-detectors"
+  target="_blank"
+  rel="noopener nofollow sponsored"
+  title="Shop Eye Spy Passive Surveillance Detectors — Save up to 20% with code SIMEONONSECURITY"
+  id="eyespy-ad-eager"
+  class="eyespy-ad-eager-link"
+>
+  <picture>
+    <source
+      srcset="{{ $optimizedmedium }}"
+      media="(min-width: 728px)"
+    />
+    <source
+      srcset="{{ $optimizedsmall }}"
+      media="(min-width: 468px)"
+    />
+    <source
+      srcset="{{ $optimizedtiny }}"
+      media="(min-width: 420px)"
+    />
+    <img
+      src="{{ $optimizedtiny }}"
+      alt="Eye Spy — passive surveillance detector for Bluetooth, WiFi, ALPR, and AirTag awareness from STS Collective"
+      class="eyespy-ad-eager-image"
+      fetchpriority="high"
+      loading="eager"
+      style="border:0px"
+    />
+  </picture>
+  <div class="eyespy-ad-eager-cta">
+    <strong>Shop Now &mdash; Save up to 20% Today</strong>
+    <span class="eyespy-ad-eager-code">Code: SIMEONONSECURITY</span>
+  </div>
+</a>
