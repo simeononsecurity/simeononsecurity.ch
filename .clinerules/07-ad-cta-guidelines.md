@@ -25,6 +25,21 @@ Every ad generated for this site follows these rules:
   competing calls to action in the same ad unit.
 - **Brand name always visible.** The brand name must appear as a readable element,
   not hidden in a logo alone.
+- **Consumer benefit, not product feature.** The copy must state what the buyer
+  gains (privacy protection, surveillance awareness, tactical readiness) rather than
+  listing product attributes. Name the problem it solves.
+- **Single focused offer.** When a viewer does not feel an urgent need, presenting
+  multiple similar options causes them to take no action. One ad, one offer.
+- **Two-option pattern (primary + low-commitment alternative).** If an ad or page
+  needs a secondary path, disguise the second action as a softer alternative, not
+  a competing offer. Example: "Shop Now" as the primary CTA and "Learn More" as
+  the secondary link. The primary must be more visually prominent.
+- **Social proof when available.** Short copy like "Trusted by 2,000+ security
+  professionals" reinforces that the viewer is not alone in purchasing. Place below
+  the primary CTA, not above it.
+- **Curiosity hook for audience building.** Ads targeting cold audiences can use a
+  question or incomplete statement to drive clicks from people who are not yet ready
+  to buy. This trades short-term conversion for long-term audience growth.
 
 ## HTML Ad Partial Standards
 
@@ -55,6 +70,20 @@ aspect ratios (such as the 728×90 leaderboard banner):
 
 The sentinel colour `#FF00FF` must never appear in actual brand artwork or copy.
 
+## Brand Colour Enforcement (Critical)
+
+The image model may hallucinate off-brand colours — most commonly **pink, rose,
+coral, fuchsia, or warm purple** — especially when the sentinel colour `#FF00FF`
+is present in the prompt. To prevent this:
+
+- The `AD_SYSTEM_PROMPT` must include an explicit banned-colour block naming pink
+  and all warm-red/purple tones as forbidden.
+- The `build_user_brief` function must repeat the ban as a `BANNED COLOURS` line
+  directly in the user message, after the sentinel rule.
+- If a generated image contains visible pink or off-brand colour, delete it and
+  regenerate with `--brand <slug> --force`. Do not commit a pink ad.
+- After regeneration, visually inspect the output before committing.
+
 ## Brand Color Palette (STS Collective product lines)
 
 All three STS Collective product-line brands (RayHunter, FlockYou, Eye Spy) share
@@ -67,6 +96,9 @@ the STS Collective palette:
 | CTA     | `#fbbf24` | `<strong>` CTA text in partials  |
 | Code    | `#93c5fd` | Discount code text in partials   |
 | Strip   | `#111827` | CTA strip background in partials |
+
+No other colour is permitted in STS Collective brand ads. Pink, rose, coral,
+salmon, warm red, and warm purple are all banned.
 
 ## Adding a New Brand
 
@@ -85,4 +117,6 @@ When adding a new brand to `tools/generate_ad_images.py`:
    `layouts/partials/ads/random-lazy.html`.
 5. Run the generator to produce the WebP images:
    `.venv/bin/python tools/generate_ad_images.py --brand <slug>`
-6. Commit the generated images in `assets/img/ads/<slug>/` alongside the partials.
+6. Visually inspect every generated image before committing. If any image contains
+   pink or off-brand colour, run `--brand <slug> --force` to regenerate it.
+7. Commit the generated images in `assets/img/ads/<slug>/` alongside the partials.
