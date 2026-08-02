@@ -907,6 +907,18 @@ The proliferation of ALPR surveillance represents a significant shift in privacy
 
 ______
 
+## Related Articles
+
+| Article | Description |
+|---------|-------------|
+| **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | The definitive guide to Flock Safety's ALPR network, documented abuses, community organizing resources, and what you can do to protect yourself |
+| **[Flock Finder: Map Every Suspected Flock Safety Camera Near You](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | How to use the open-source Flock Finder tool to visualize 40,000+ suspected Flock cameras worldwide using WiGLE data and OUI fingerprinting |
+| **[How to Flash Rayhunter on IMSI Catcher Detection Devices](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Step-by-step guide to flashing Rayhunter firmware for detecting IMSI catchers and stingrays — complements ALPR detection |
+| **[DagShell Custom Firmware for the Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Full guide to installing DagShell on the Orbic RCL400 for advanced cellular network monitoring and IMSI catcher detection |
+| **[Rayhunter Device Comparison 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Side-by-side comparison of devices supported by Rayhunter to help you choose the right hardware for your counter-surveillance toolkit |
+
+______
+
 ## References
 
 1. [Flock-You GitHub Repository - colonelpanichacks](https://github.com/colonelpanichacks/flock-you)

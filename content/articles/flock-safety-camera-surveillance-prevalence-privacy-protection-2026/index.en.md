@@ -25,6 +25,47 @@ Communities and civil liberties organizations are pushing back. The ACLU launche
 
 ______
 
+## What You Can Do Right Now
+
+You do not have to be a security researcher or a lawyer to push back against ALPR surveillance. Here is a clear action plan from least to most involved:
+
+### 1. See Where Cameras Are Near You
+
+- **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** — Open-source interactive map of 40,000+ suspected Flock cameras built from crowdsourced WiFi data. Updated daily. [Source on GitHub](https://github.com/simeononsecurity/flock-finder).
+- **[DeFlock.org](https://deflock.org/)** — 124,186 community-mapped ALPR cameras. Submit locations, find local groups, and track city council votes.
+- **[DontGetFlocked.com](https://dontgetflocked.com/)** — Route planner that avoids known ALPR camera concentrations.
+
+### 2. Carry a Real-Time Detector
+
+Software maps show you where cameras *have been seen*. A hardware detector tells you when you are near one right now.
+
+**[STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** makes pre-flashed, plug-and-play Flock detection devices. No technical setup required:
+
+- **[FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)** ($39.99) — Compact detector, LED turns blue on detection. Plug into a USB power bank and put it in your cup holder.
+- **FlockYou Pro** — Adds audio alerts so you never miss a camera while driving.
+- **FlockYou Atom VoiceS3R** — Voice-spoken alerts for hands-free operation.
+
+> 💰 Use code **FLOCKFINDER** for **20% off** all FlockYou devices, or **SIMEONONSECURITY** for up to **20% off** your entire STS Collective order: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
+
+For a full technical comparison of all detection hardware (including the OUI-SPY and DIY ESP32 builds), read: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
+
+### 3. Know What's in Your Neighborhood
+
+- **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Check if your license plate has appeared in Flock searches by law enforcement in your area.
+- **[ALPR.watch](https://alpr.watch/)** — Find out if your city council is voting on an ALPR contract soon so you can show up and speak.
+- File a **public records request** for your local Flock contract using the **[DeFlock FOIA guide](https://deflock.org/foia)** and the **[MuckRock template library](https://www.muckrock.com/search/?q=Flock)**.
+
+### 4. Organize Your Community
+
+- Download the **[ACLU Get The Flock Out Toolkit](https://www.aclu.org/get-the-flock-out-toolkit)** — sample emails, questions to ask your council, and model legislation all in one place.
+- Use the **[ACLU model contract cancellation resolution](https://www.aclu.org/documents/model-resolution-for-local-flock-contract-cancellation)** to give your city council a ready-made vehicle to cancel an existing Flock contract.
+- Connect with **[local organizers through DeFlock Groups](https://deflock.org/groups)** in your city.
+- Track national organizing at **[NoALPRs.com](https://noalprs.com/)**.
+
+*Start at step 1 today. Awareness costs nothing. The tools are free.*
+
+______
+
 ## What is Flock Safety? Understanding ALPR Technology
 
 ### The Flock Safety Platform
@@ -398,7 +439,9 @@ Three primary hardware platforms are available for Flock detection:
 
 **Authorized Vendors**:
 - **Colonel Panic Tech**: [colonelpanic.tech](https://colonelpanic.tech) - OUI-SPY and DIY kits
-- **STS Collective**: [stscollective.com](https://stscollective.com) - mesh-detect v2 and accessories
+- **STS Collective**: [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY) — [FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector), mesh-detect v2, and accessories
+
+> 💰 Two codes work at STS Collective: **FLOCKFINDER** saves **20% off** all FlockYou detectors specifically, and **SIMEONONSECURITY** saves up to **20% off** your entire order. Use whichever gets you a better deal.
 
 ______
 
@@ -580,6 +623,20 @@ As of 2026, **75,000+ cameras** are scanning **150+ million vehicles daily**, cr
 For technical details on detection devices and step-by-step setup instructions, read our companion guide: **[Flock-You Detection Project: Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 **The question isn't whether technology can enable pervasive surveillance.** *It clearly can. The question is whether a free society should permit such surveillance without robust safeguards, transparency, and accountability.* The answer will shape privacy rights for generations to come.
+
+______
+
+## Related Articles
+
+This article is part of a series on Flock Safety ALPR surveillance and counter-surveillance tools:
+
+| Article | What it covers |
+|---------|---------------|
+| **[Flock Finder: Map Flock Safety ALPR Cameras](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Open-source interactive map of 40,000+ suspected Flock cameras via WiGLE WiFi data — see the scale of deployment in your area before you drive |
+| **[Flock-You Detection Project: Counter-Surveillance Hardware Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technical guide to building or buying ESP32-based Flock detectors — firmware setup, hardware comparison, step-by-step instructions |
+| **[How to Flash Rayhunter Devices: Complete Guide](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detect IMSI catchers (cell-site simulators) alongside ALPR cameras for full counter-surveillance awareness |
+| **[DagShell Custom Firmware for Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Turn a mobile hotspot into a security research platform — pairs well with Flock detection hardware |
+| **[Rayhunter Device Comparison 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Compare detection hardware options across ALPR and cellular surveillance threat categories |
 
 ______
 

@@ -259,12 +259,15 @@ It is a **transparency tool**, not a live tracker. Its data is historical, incom
 
 For genuine real-time protection as you move through surveilled areas, pair the map with dedicated hardware. **[STS Collective's FlockYou devices](https://stscollective.com/discount/SIMEONONSECURITY)** implement @NitekryDPaul's detection method directly on an ESP32 and alert you the moment a live camera signature is detected — available at **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** with code **FLOCKFINDER** or **SIMEONONSECURITY** for up to 20% off.
 
-### Related Reading
+### Related Articles
 
-- **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** — The broader context of ALPR surveillance in 2026
-- **[Flock-You Detection Project: Complete Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** — Hardware platforms for real-time Flock detection
-- **[DagShell Custom Firmware for Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** — Turn a mobile hotspot into a security research platform
-- **[How to Flash Rayhunter Devices](/articles/how-to-flash-rayhunter-devices-complete-guide/)** — Detect IMSI catchers alongside ALPR cameras
+| Article | What it covers |
+|---------|---------------|
+| **[Flock Safety Camera Surveillance: Privacy and Protection](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | The full picture: prevalence stats, civil liberties issues, ACLU toolkit, DeFlock stats, FOIA guide, and protection strategies |
+| **[Flock-You Detection Project: Counter-Surveillance Hardware Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technical guide to ESP32-based Flock detectors — OUI-SPY, M5 Atom Lite, DIY build, step-by-step firmware setup |
+| **[How to Flash Rayhunter Devices: Complete Guide](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detect IMSI catchers (cell-site simulators) alongside ALPR cameras for full counter-surveillance awareness |
+| **[DagShell Custom Firmware for Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Turn a mobile hotspot into a security research platform — pairs well with Flock detection hardware |
+| **[Rayhunter Device Comparison 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Compare detection hardware options across ALPR and cellular surveillance threat categories |
 
 ______
 
