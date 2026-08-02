@@ -38,6 +38,7 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `07-ad-cta-guidelines.md` | Ad creative CTA and brand colour standards |
 | `08-clinerules-maintenance.md` | This file — rules about maintaining rules |
 | `09-hugo-shortcodes-and-partials.md` | Hugo architecture, every shortcode, and all partials |
+| `10-cover-image-generation.md` | Cover and inline image generation pipeline (`generate_cover_images.py`) |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create

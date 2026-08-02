@@ -259,19 +259,27 @@ def reserve_unique_cover_name(base: str) -> tuple[str, Path]:
 # Detection: which articles need a cover?
 # ---------------------------------------------------------------------------
 
-def cover_file_exists(cover_val: str) -> bool:
+def cover_file_exists(cover_val: str, md_path: str = "") -> bool:
     """
-    True if the cover URL points to a file that exists under assets/ or static/.
+    True if the cover URL points to a file that exists under assets/, static/,
+    or in the page bundle directory alongside the article's index.en.md.
     """
     if not cover_val:
         return False
     relative = cover_val.lstrip("/")
-    return (
+    if (
         (ASSETS_DIR / relative).exists()
         or (STATIC_DIR / relative).exists()
         # cover URLs are /img/cover/x.webp → assets/img/cover/x.webp
         or (ASSETS_DIR / "img" / relative).exists()
-    )
+    ):
+        return True
+    # Also check the page bundle directory alongside index.en.md
+    if md_path:
+        basename = Path(relative).name
+        if (Path(md_path).parent / basename).exists():
+            return True
+    return False
 
 
 def needs_cover(md_path: str, force: bool = False) -> bool:
@@ -294,7 +302,7 @@ def needs_cover(md_path: str, force: bool = False) -> bool:
 
     if force:
         # In force mode, also flag covers whose file is absent on disk
-        return not cover_file_exists(cover_val)
+        return not cover_file_exists(cover_val, md_path)
 
     return False      # cover field is set — leave it alone
 
@@ -387,14 +395,17 @@ def _resolve_local_image(url: str, md_path: str) -> Path | None:
 
 def _image_ref_exists(url: str, md_path: str) -> bool:
     clean = url.strip().split("?")[0].split("#")[0]
+    page_bundle_dir = Path(md_path).parent
     if clean.startswith("/"):
         rel = clean.lstrip("/")
         return (
             (STATIC_DIR / rel).exists()
             or (ASSETS_DIR / rel).exists()
             or (ASSETS_DIR / "img" / rel).exists()
+            # Also check page bundle: image may be stored alongside index.en.md
+            or (page_bundle_dir / Path(rel).name).exists()
         )
-    candidate = Path(md_path).parent / clean
+    candidate = page_bundle_dir / clean
     return candidate.exists()
 
 
@@ -762,7 +773,7 @@ def process_one(
     tprint(f"  Title : {title[:80]}")
 
     # Guard: a valid cover already exists — only refresh alt text.
-    if cover_val and cover_file_exists(cover_val) and not force:
+    if cover_val and cover_file_exists(cover_val, md_path) and not force:
         tprint("  Cover already present — updating frontmatter only.")
         alt = get_field(md_text, "coverAlt") or build_alt_text(title)
         update_frontmatter(md_path, cover_val, alt)
