@@ -97,6 +97,8 @@ It is recommended to keep UAC enabled and set to a level that provides an approp
 
 By configuring UAC settings, you enhance the security of your Windows 10 system by ensuring that administrative privileges are required for critical system changes, reducing the risk of unauthorized access and malware infections.
 
+{{< figure src="windows-10-uac-bitlocker-security-overview.webp" alt="Diagram showing Windows 10 User Account Control levels and BitLocker encryption protecting system integrity and sensitive data" >}}
+
 #### 4. [**Use Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/)
 Using strong passwords is essential for maintaining the security of your Windows 10 system and protecting against unauthorized access. Weak or easily guessable passwords can make your system vulnerable to attacks, such as brute-force attacks or password cracking.
 
@@ -155,6 +157,8 @@ Here are the steps to disable unnecessary services and features on your Windows 
 4. **Regularly Review and Update**: You need to regularly review the list of services and features enabled on your Windows 10 system. As your system's requirements change over time, you may need to re-evaluate the services and features that are necessary. Stay vigilant and update your configuration as needed.
 
 By disabling unnecessary services and features, you limit the potential entry points for attackers and reduce the overall attack surface of your Windows 10 system. This practice improves your system's security posture and mitigates the risk of exploitation.
+
+{{< figure src="windows-10-firewall-applocker-attack-surface-reduction.webp" alt="Diagram showing Windows 10 firewall rules, AppLocker application control policies, and attack surface reduction working together to block unauthorized access" >}}
 
 For more information on managing services and features in Windows 10, you can refer to the following [article](https://www.tweakhound.com/2015/07/27/windows-10-default-services/#:~:text=Windows%2010%20Default%20Services%20%20%20%20Name,%20%20%20%2044%20more%20rows%20) for detailed guidance.
 
@@ -274,6 +278,8 @@ Enabling and regularly updating Microsoft Defender Antivirus in Windows 11 is es
 
 Note that while Microsoft Defender Antivirus provides robust protection, it's always recommended to practice **safe browsing habits**, exercise caution while **downloading files** or **opening email attachments**, and keep your **operating system and applications updated** to further enhance your overall security posture.
 
+{{< figure src="windows-11-secure-boot-tpm-defender-security-stack.webp" alt="Diagram showing the Windows 11 security stack including Secure Boot, TPM hardware protection, Microsoft Defender Antivirus, and Virtualization-based Security layers" >}}
+
 #### 3. **Apply Default Hardware-Based Isolation**
 Windows 11 leverages hardware-based isolation features like **Virtualization-based Security (VBS)** and **Hypervisor-protected Code Integrity (HVCI)** to provide enhanced security and protect critical system components.
 
@@ -337,6 +343,8 @@ While running applications in Windows Sandbox, keep in mind that the Sandbox env
 Windows Sandbox is an effective tool for testing unknown software, opening suspicious files, or exploring potentially risky websites. It adds an extra layer of protection by ensuring that any malicious activity or unwanted changes are confined within the Sandbox and don't impact your main operating system.
 
 By incorporating Windows Sandbox into your security practices, you can significantly reduce the risks associated with running untrusted applications, protecting your system from potential threats.
+
+{{< figure src="windows-sandbox-application-guard-isolation-architecture.webp" alt="Diagram illustrating Windows Sandbox and Microsoft Defender Application Guard creating isolated virtual containers to protect the host operating system from untrusted applications and browser sessions" >}}
 
 For more information on Windows Sandbox and its usage, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview).
 
