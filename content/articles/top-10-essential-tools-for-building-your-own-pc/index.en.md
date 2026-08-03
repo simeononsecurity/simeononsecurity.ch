@@ -108,6 +108,8 @@ Here are some key points to consider when choosing the right chipset:
 
 Remember, the chipset plays a crucial role in the overall performance and compatibility of your PC. Take your time to research and choose the right chipset for your build.
 
+{{< figure src="pc-motherboard-chipset-form-factors.webp" alt="Diagram comparing ATX, Micro-ATX, and Mini-ITX motherboard form factors and chipset options for a custom PC build" >}}
+
 Picking the Right Graphics Card
 -------------------------------
 
@@ -147,6 +149,8 @@ When it comes to choosing the best graphics card for your budget, there are a fe
 * Check for compatibility with your motherboard and other components. Ensure that the graphics card you select is compatible with your system.
 
 Remember, finding the best graphics card for your budget is all about finding the right balance between performance and price. Take the time to research and compare options to make the most of your investment.
+
+{{< figure src="nvidia-amd-graphics-card-comparison-2026.webp" alt="Side-by-side comparison of Nvidia and AMD graphics card performance tiers for PC gaming builds" >}}
 
 Choosing the Ideal RAM
 ----------------------
@@ -200,6 +204,8 @@ When it comes to determining the right amount of RAM for your usage, there are a
 
 Determining the right amount of RAM for your usage is crucial for ensuring optimal performance and responsiveness from your PC. By considering your specific needs, future-proofing, operating system requirements, budget, and upgradeability, you can make an informed decision and choose the right amount of RAM for your build.
 
+{{< figure src="ddr4-vs-ddr5-ram-speed-capacity-pc-guide.webp" alt="Comparison chart showing DDR4 versus DDR5 RAM speeds, latency, and capacity options for PC builders" >}}
+
 Selecting the Best Storage Solution
 -----------------------------------
 
@@ -238,6 +244,8 @@ When it comes to determining the right storage capacity for your needs, there ar
     
 
 It's important to find the right balance between having enough storage capacity for your needs and not overspending on unnecessary space. Take the time to evaluate your requirements and make an informed decision.
+
+{{< figure src="ssd-hdd-nvme-storage-comparison-pc-build.webp" alt="Comparison of SSD, HDD, and NVMe storage drive types showing speed, capacity, and cost per gigabyte for PC builds" >}}
 
 Picking the Right Power Supply
 ------------------------------
@@ -324,6 +332,8 @@ Here are some key points to keep in mind when determining the right case for you
 * **Drive bays**: Consider the number and type of drive bays available in the case.
 
 > Tip: Don't forget to check the maximum CPU cooler height and GPU length supported by the case to ensure compatibility with your chosen components.
+
+{{< figure src="air-cooling-vs-liquid-cooling-cpu-comparison.webp" alt="Diagram comparing air cooling and liquid cooling CPU cooler designs showing thermal performance and installation complexity" >}}
 
 Selecting the Right Cooling Solution
 ------------------------------------
