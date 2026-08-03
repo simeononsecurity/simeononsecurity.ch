@@ -259,6 +259,10 @@ Using hardcoded WiFi network names, researchers demonstrated:
 
 ______
 
+{{< figure src="flock-safety-hardcoded-credentials-attack-vectors-diagram.webp" alt="Diagram showing five hardcoded credential attack vectors in Flock Safety cameras including WiFi passwords, API keys, database credentials, and cloud service tokens" >}}
+
+______
+
 ## Critical Vulnerability #5: Lack of Multi-Factor Authentication
 
 ### Organizational Policy Failure
@@ -424,6 +428,10 @@ Result: **Complete deanonymization** in minutes
 
 ______
 
+{{< figure src="flock-exposed-camera-feed-ptz-ai-tracking-privacy-violation-overview.webp" alt="Overview diagram showing how exposed Flock Safety PTZ cameras with AI auto-tracking allowed public access to live video feeds of individuals at parks, trails, and parking lots" >}}
+
+______
+
 ## Critical Vulnerability #8: Unauthorized Data Collection
 
 ### Contradiction to Public Statements
@@ -534,6 +542,10 @@ With **80,000+ cameras** often in **semi-rural locations** with **limited visibi
 
 Quote from Ben Jordan:
 > "These cameras aren't exactly little impenetrable fortresses. They're plastic Android cameras and compute boxes mounted 7 feet off the ground with hose clamps."
+
+______
+
+{{< figure src="badusb-rubber-ducky-flock-camera-usb-exploit-attack-chain.webp" alt="Attack chain diagram showing how a BadUSB device plugged into an exposed Flock Safety camera USB port can install persistent malware in under 30 seconds" >}}
 
 ______
 
@@ -841,6 +853,10 @@ ______
 
 ______
 
+{{< figure src="flock-camera-attack-scenario-threat-actor-matrix-nation-state-crime.webp" alt="Matrix comparing five real-world attack scenarios against Flock Safety cameras including nation-state surveillance, organized crime counter-surveillance, stalking, evidence tampering, and privacy advocacy" >}}
+
+______
+
 ## Defending Against These Vulnerabilities
 
 ### For Law Enforcement Agencies
@@ -913,6 +929,10 @@ ______
 3. **Alternative transportation** (bike, public transit, walking)
 4. **Privacy-focused plate covers** (only if legal in jurisdiction)
 5. **Faraday bags** for phones when correlation is concern
+
+______
+
+{{< figure src="flock-safety-security-remediation-priority-roadmap.webp" alt="Prioritized remediation roadmap showing immediate, 30-day, 90-day, and long-term security fixes Flock Safety should implement to address critical vulnerabilities" >}}
 
 ______
 
