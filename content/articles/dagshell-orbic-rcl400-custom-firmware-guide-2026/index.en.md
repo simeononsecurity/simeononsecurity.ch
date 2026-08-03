@@ -73,6 +73,8 @@ DagShell features a **retro hacker aesthetic**:
 - **Scanline effects** and glowing text
 - **Terminal-inspired layout**
 
+{{< figure src="dagshell-orbic-rcl400-hacker-terminal-interface-feature-overview.webp" alt="DagShell custom firmware running on Orbic RCL400 showing the green-on-black terminal interface with ASCII art and security tool menu" >}}
+
 ______
 
 ## Complete Feature Breakdown
@@ -412,6 +414,8 @@ Vendor: Samsung Electronics
 MAC,SSID,AuthMode,FirstSeen,Channel,RSSI,Latitude,Longitude,AltitudeMeters
 A1:B2:C3:D4:E5:F6,HomeNetwork,WPA2,2026-05-28 10:30:15,6,-45,40.7128,-74.0060,10
 ```
+
+{{< figure src="dagshell-wardriving-gps-wifi-network-mapping-wigle-csv-export.webp" alt="DagShell wardriving mode showing GPS coordinates, scanned WiFi networks with SSID, BSSID, encryption type, and signal strength logged to Wigle-compatible CSV" >}}
 
 ### 🥧 Raspberry Pi Companion
 
@@ -1116,6 +1120,8 @@ ______
 6. Document vulnerabilities
 
 **RayHunter Integration**: Detect if IoT devices have cellular connectivity and monitor for anomalies
+
+{{< figure src="dagshell-rayhunter-combined-mobile-security-research-use-cases.webp" alt="Diagram showing four real-world use cases for DagShell and RayHunter combined: security researcher, privacy advocate, network administrator, and IoT researcher" >}}
 
 ______
 
