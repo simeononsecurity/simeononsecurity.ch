@@ -266,6 +266,8 @@ This positions ISC2 to own the AI security certification space for management ro
 ❌ Want practical penetration testing or SOC skills
 ❌ Already have multiple technical certs *(CISSP won't add technical skills)*
 
+{{< figure src="isc2-cissp-certification-job-market.webp" alt="Chart showing CISSP appearing in 52 percent of cybersecurity job listings, making it the single most requested certification globally" >}}
+
 ______
 
 ### Offensive Security: The OSCP Legend
@@ -363,6 +365,8 @@ Meanwhile, competitors like **HackTheBox CPTS** offer:
 ❌ Need advanced evasion techniques *(look at CRTO instead)*
 
 **Better Alternative for Most:** *HackTheBox CPTS costs $499, offers 10-day exam, deeper technical content, and modern coverage. OSCP wins purely on brand recognition.*
+
+{{< figure src="oscp-vs-cpts-penetration-testing-comparison.webp" alt="Comparison of OSCP and HackTheBox CPTS penetration testing certifications covering cost, exam format, duration, and practical skills depth" >}}
 
 ______
 
@@ -615,6 +619,8 @@ This path:
 
 **Bottom Line:** **Cloud certifications are the highest ROI investment in cybersecurity certification in 2026.** This isn't even close anymore.
 
+{{< figure src="aws-azure-cloud-security-certification-roi.webp" alt="Diagram showing AWS and Azure cloud security certifications combined in 38 percent of cybersecurity job listings in 2026, second only to CISSP" >}}
+
 ______
 
 ### SANS GIAC: The Lamborghini of Certifications
@@ -728,6 +734,8 @@ The **GMLE** appeared in exactly 1 job listing out of 2,500 analyzed. *It's too 
 ❌ Want entry-level cert (SANS targets intermediate/advanced)
 
 **My Opinion:** SANS courses are excellent. **The pricing is predatory** and creates a gatekept market that excludes talented people without employer sponsorship. *Do not spend your own money on SANS when alternatives exist at 10-20% of the cost.*
+
+{{< figure src="sans-giac-certification-cost-analysis.webp" alt="Cost breakdown of SANS GIAC certifications showing typical $7,500 course fees plus exam costs compared to lower-cost alternatives" >}}
 
 ______
 
@@ -1371,6 +1379,8 @@ ______
 - Predatory pricing ($10K-20K)
 - No recognized certification
 - Everything taught available cheaper
+
+{{< figure src="cybersecurity-certification-tier-rankings-2026.webp" alt="Tier ranking chart of cybersecurity certification vendors from S tier through D tier based on hireability score, cost, practical rigor, and future readiness" >}}
 
 ______
 

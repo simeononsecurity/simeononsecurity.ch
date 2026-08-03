@@ -179,6 +179,8 @@ To learn more about CISSP and its requirements, visit: [CISSP - Certified Inform
 
 For a comprehensive comparison of CISSP with other security certifications, see our [Cybersecurity Certifications Comparison Guide 2026](/articles/cybersecurity-certifications-comparison-guide-2026/).
 
+{{< figure src="cissp-eight-domains-overview.webp" alt="Diagram of the eight CISSP certification domains including security and risk management, asset security, security architecture, and five additional domains" >}}
+
 ______
 
 ## 2. Certified Information Privacy Professional/Europe (CIPP/E)
@@ -321,6 +323,8 @@ Many CIPP/E holders also pursue:
 - **CIPT** - For privacy technology understanding
 
 For detailed information about CIPP/E, visit: [CIPP/E - Certified Information Privacy Professional/Europe](https://iapp.org/certify/cipp/europe/)
+
+{{< figure src="cipp-e-gdpr-privacy-certification-career-paths.webp" alt="Overview of CIPP/E certification covering EU GDPR compliance career paths for privacy professionals and data protection officers" >}}
 
 ______
 
@@ -541,6 +545,8 @@ This combination provides:
 For detailed information about CIPM, visit: [CIPM - Certified Information Privacy Manager](https://iapp.org/certify/cipm/)
 
 For comprehensive comparison of privacy certifications, see our [Cybersecurity Certifications Comparison Guide 2026](/articles/cybersecurity-certifications-comparison-guide-2026/).
+
+{{< figure src="cipm-privacy-program-management-lifecycle.webp" alt="Diagram showing the CIPM privacy program management lifecycle from initial data inventory through privacy risk assessment to incident response" >}}
 
 ______
 
@@ -826,6 +832,8 @@ Based on 2026 CISM pass rates (approximately 50%):
 - Take practice exams under timed conditions
 
 For detailed information about CISM, visit: [CISM - Certified Information Security Manager](https://www.isaca.org/credentialing/cism)
+
+{{< figure src="cism-four-domains-security-management.webp" alt="Overview of the four CISM certification domains covering information security governance, risk management, program development, and incident management" >}}
 
 ______
 
@@ -1120,6 +1128,8 @@ CIPP/US certification prepares you for:
 - State privacy law comparison charts
 
 For detailed information about CIPP/US, visit: [CIPP/US - Certified Information Privacy Professional/United States](https://iapp.org/certify/cipp/united-states/)
+
+{{< figure src="cipp-us-state-privacy-law-landscape-2026.webp" alt="Chart showing 18 US states with comprehensive privacy laws in 2026, illustrating the growing demand for CIPP/US certified privacy professionals" >}}
 
 ______
 
