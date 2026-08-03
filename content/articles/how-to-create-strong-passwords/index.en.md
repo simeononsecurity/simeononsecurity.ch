@@ -65,6 +65,8 @@ The numbers paint a stark picture:
 - **92%**: Percentage of people who know password reuse is risky but do it anyway
 - **51%**: Percentage of passwords that can be cracked in under 60 seconds with modern tools
 
+{{< figure src="ai-password-cracking-credential-stuffing-attack-statistics-2026.webp" alt="Chart showing AI password cracking speeds, credential stuffing attack scale with 20 billion compromised credentials, and 2026 password breach statistics" >}}
+
 ______
 
 ## Why Strong Passwords Matter More Than Ever
@@ -472,6 +474,8 @@ Many password managers now support passkey storage:
 
 This allows passkey syncing across devices and platforms beyond native platform solutions.
 
+{{< figure src="passkey-fido2-webauthn-passwordless-authentication-flow.webp" alt="Diagram showing how FIDO2 passkeys use public-private key cryptography so the private key never leaves the device during passwordless authentication" >}}
+
 ______
 
 ## [The Role of Password Managers](https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/)
@@ -614,6 +618,8 @@ For detailed Bitwarden comparison: [Bitwarden and KeePassXC vs The Rest](/articl
 **Pricing**: Free (open source)
 
 **Best For**: Maximum privacy advocates, users with technical skills, those avoiding cloud storage
+
+{{< figure src="bitwarden-1password-dashlane-keepassxc-password-manager-comparison-2026.webp" alt="Side-by-side comparison of Bitwarden, 1Password, Dashlane, and KeePassXC password managers showing open source status, pricing, cloud sync, and passkey support" >}}
 
 #### LastPass
 
@@ -769,6 +775,8 @@ Legitimate services will **never ask for your master password**.
 - Have I Been Pwned: [https://haveibeenpwned.com/](https://haveibeenpwned.com/)
 - Password manager blog/changelog
 - Security news sources (Krebs on Security, The Hacker News)
+
+{{< figure src="password-manager-mfa-device-security-best-practices-overview.webp" alt="Overview diagram of the ten password manager best practices including strong master password, MFA on the vault, quarterly audits, device security, encrypted backups, and phishing awareness" >}}
 
 ______
 
