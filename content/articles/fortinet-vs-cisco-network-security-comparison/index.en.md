@@ -79,6 +79,8 @@ ______
 - **Cisco SecureX:** Integrated security platform
 - **Cisco Umbrella:** Cloud-delivered security (DNS filtering, SWG, CASB)
 
+{{< figure src="fortinet-security-fabric-vs-cisco-secure-ecosystem-overview.webp" alt="Comparison diagram showing Fortinet Security Fabric product ecosystem including FortiGate, FortiSwitch, FortiManager, and FortiAP versus the Cisco Secure ecosystem including Firepower, Catalyst, SecureX, and Umbrella" >}}
+
 ______
 
 ## Architecture Comparison
@@ -530,6 +532,8 @@ print(f"Deployment status: {deployment}")
 - **FortiGate** has more mature infrastructure-as-code support (Terraform especially)
 - **Cisco** provides better security orchestration integration (SOAR platforms)
 
+{{< figure src="fortigate-cisco-firepower-management-api-automation-comparison.webp" alt="Diagram comparing FortiGate REST API and Terraform automation workflow against Cisco Firepower Management Center API and Ansible modules for network security infrastructure as code" >}}
+
 ______
 
 ## Switching and Network Infrastructure
@@ -920,6 +924,8 @@ Phase 4: Decommission (Months 10-12)
 - Cancel Cisco SmartNet subscriptions
 ```
 
+{{< figure src="cisco-to-fortinet-network-migration-phased-timeline.webp" alt="Timeline diagram showing a 12-month phased migration from Cisco to Fortinet network security covering pilot deployment at months 1 to 2, branch rollout at months 3 to 6, data center cutover at months 7 to 9, and final decommission at months 10 to 12" >}}
+
 ### Migrating from Fortinet to Cisco
 
 **Common Migration Drivers:**
@@ -1115,6 +1121,8 @@ Rate each factor from 1-5 (1=not important, 5=critical), then multiply by the ve
 - ✅ Need Cisco quality at headquarters, cost savings at branches
 - ✅ Transitioning from one vendor to another (phased migration)
 - ✅ Different security requirements for different sites
+
+{{< figure src="fortinet-vs-cisco-vendor-selection-scorecard-decision-framework.webp" alt="Decision framework scorecard showing how to choose between Fortinet and Cisco based on weighted criteria including cost, performance, management simplicity, ecosystem integration, and support requirements" >}}
 
 ______
 
