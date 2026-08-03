@@ -125,6 +125,8 @@ Security remains the top priority for cloud adoption. All three providers invest
 ⚠️ **Configuration burden**: Securing AWS requires understanding many interconnected services
 ⚠️ **Cost unpredictability**: Security services can add unexpected costs
 
+{{< figure src="aws-security-services-stack-iam-guardduty-shield-kms.webp" alt="Diagram showing the AWS cloud security stack with IAM permissions management, GuardDuty threat detection, Shield DDoS protection, KMS encryption key management, and Security Hub centralizing compliance findings" >}}
+
 ### Microsoft Azure Security Features (2026 Updates)
 
 **Microsoft Azure** emphasizes enterprise security integration and hybrid cloud scenarios:
@@ -185,6 +187,8 @@ Security remains the top priority for cloud adoption. All three providers invest
 ⚠️ **Microsoft ecosystem dependency**: Best security value requires Microsoft stack
 ⚠️ **Regional disparities**: Some security features not available in all regions
 ⚠️ **Licensing complexity**: Understanding security feature licensing can be challenging
+
+{{< figure src="azure-ad-defender-sentinel-security-architecture.webp" alt="Diagram showing Microsoft Azure security architecture with Azure Active Directory identity management, Defender for Cloud unified threat protection, and Sentinel SIEM platform connected to hybrid on-premises and cloud workloads" >}}
 
 ### Google Cloud Platform Security Features (2026 Updates)
 
@@ -740,6 +744,8 @@ Security remains the top priority for cloud adoption. All three providers invest
 
 **Azure**: Best if using Microsoft ecosystem, good cognitive services integration.
 
+{{< figure src="aws-azure-gcp-use-case-industry-recommendation-chart.webp" alt="Chart showing recommended cloud platform choices by industry and use case including AWS for media and financial services, Azure for enterprise and healthcare, and Google Cloud for data analytics and machine learning" >}}
+
 ## Migration Strategies
 
 ### Migration Approaches
@@ -871,6 +877,8 @@ Security remains the top priority for cloud adoption. All three providers invest
 - Manage with Terraform
 
 **Not Recommended**: Single-provider lock-in without cloud-agnostic architecture
+
+{{< figure src="aws-azure-gcp-market-share-strengths-comparison-2026.webp" alt="Comparison diagram showing AWS at 32 percent market share, Azure at 23 percent, and Google Cloud at 10 percent with each platform's primary strengths highlighted for cloud provider selection" >}}
 
 ## Conclusion: The Future of Cloud Computing
 
