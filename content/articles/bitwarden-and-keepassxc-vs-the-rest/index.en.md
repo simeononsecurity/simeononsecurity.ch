@@ -848,6 +848,8 @@ Dashlane's **Password Changer** automates password updates for supported website
 
 **Consider alternatives if**: You need mature business features, require native desktop applications, want the most polished interface, or don't value the Proton ecosystem integration.
 
+{{< figure src="proton-pass-privacy-ecosystem-overview.webp" alt="Diagram showing the Proton Pass privacy ecosystem integrating with ProtonMail, ProtonVPN, and Proton Drive under Swiss privacy law protections" >}}
+
 ## Comprehensive Feature Comparison Matrix (2026)
 
 ### Security Features Comparison
@@ -1212,6 +1214,8 @@ Prevention of data loss is critical:
 - Test restoration process annually
 - Document exact restoration steps
 - Ensure backup locations are accessible to trusted contacts if needed
+
+{{< figure src="password-manager-backup-and-recovery-strategy.webp" alt="Diagram illustrating a password manager backup and recovery strategy including encrypted vault exports, secure offline storage, and emergency access planning" >}}
 
 ## Common Pitfalls and Misconceptions
 
