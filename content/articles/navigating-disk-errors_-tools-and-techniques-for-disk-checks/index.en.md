@@ -141,6 +141,8 @@ When comparing different disk checking tools, it is important to consider their 
 
 > Tip: Before selecting a disk checking tool, read reviews and user experiences to ensure it meets your requirements and has a good reputation in terms of reliability and effectiveness.
 
+{{< figure src="chkdsk-fsck-diskwarrior-spinrite-disk-checking-tools-comparison.webp" alt="Comparison chart of CHKDSK, fsck, DiskWarrior, and SpinRite disk checking tools showing supported platforms, file systems, and key features" >}}
+
 ### Choosing the Right Disk Checking Tool
 
 When it comes to choosing the right disk checking tool, there are several factors to consider. **Compatibility** with your operating system is crucial to ensure the tool can effectively scan and diagnose your disk. Also, **ease of use** is important, especially if you aren't familiar with disk checking procedures. Here are some key points to keep in mind:
@@ -196,6 +198,8 @@ When diagnosing disk errors, there are several techniques that can help identify
     
 
 > Tip: When diagnosing disk errors, it's important to use multiple techniques to get a comprehensive understanding of the issue and ensure accurate diagnosis and resolution.
+
+{{< figure src="disk-smart-attribute-monitoring-bad-sector-surface-test-diagnostic-workflow.webp" alt="Diagram of disk diagnostic workflow showing SMART attribute monitoring, bad sector scanning, and error log analysis steps" >}}
 
 ### Analyzing Disk Error Logs
 
@@ -264,6 +268,8 @@ When it comes to **repairing disk errors**, there are several techniques and too
 > Tip: It is recommended to consult the documentation or seek professional help when using disk repair tools to avoid any unintended consequences.
 
 By following these steps and using the right tools, you can effectively repair disk errors and restore the functionality of your disk.
+
+{{< figure src="disk-error-recovery-workflow-backup-repair-data-restoration-steps.webp" alt="Flowchart showing disk error recovery process from initial backup verification through repair utilities to final data restoration" >}}
 
 ### Recovering Data from Damaged Disks
 
@@ -349,6 +355,8 @@ When it comes to **disk usage**, following best practices can help optimize perf
 * **Implement disk redundancy** by using RAID configurations to protect against disk failures.
 
 > Remember, proactive disk management and adherence to these best practices can go a long way in preventing disk errors and maintaining a healthy disk.
+
+{{< figure src="disk-maintenance-schedule-defragmentation-monitoring-raid-redundancy-overview.webp" alt="Overview diagram of disk maintenance best practices including cleanup schedules, SMART monitoring alerts, and RAID redundancy configurations" >}}
 
 ### Avoiding Common Disk Error Causes
 
