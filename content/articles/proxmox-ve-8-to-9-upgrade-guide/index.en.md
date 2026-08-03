@@ -39,6 +39,8 @@ Proxmox VE 9 (released August 2025) is a major version upgrade. Key changes:
 - WireGuard and BGP as SDN fabric protocols (PVE 9.2)
 - `/tmp` is now a `tmpfs` (Debian Trixie change — files cleaned periodically)
 
+{{< figure src="proxmox-ve-8-to-9-component-changes.webp" alt="Side-by-side comparison diagram of Proxmox VE 8 and VE 9 showing component version changes for kernel, QEMU, LXC, ZFS, and Ceph" >}}
+
 ______
 
 ## Before You Start: Prerequisites

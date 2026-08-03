@@ -258,6 +258,8 @@ Legitimate cellular base stations broadcast complete System Information Blocks c
 
 IMSI catchers frequently fail to implement complete cellular network functionality, focusing only on the minimum features required for device connection and data interception. By detecting these incomplete implementations, **Rayhunter** can identify potentially malicious base stations that lack the full feature set expected from legitimate cellular infrastructure.
 
+{{< figure src="rayhunter-heuristics-overview.webp" alt="Diagram summarizing Rayhunter's five detection heuristics: IMSI requested without authentication, 2G downgrade attack, LTE SIB6/7 redirection, null cipher proposal, and incomplete system information broadcast" >}}
+
 ## Threat Actors and Potential Targets
 
 Understanding who deploys IMSI catchers and who they target is crucial for assessing your personal threat model and determining appropriate **Rayhunter** configurations. Different threat actors use varying levels of sophistication, and their targeting strategies directly inform the types of surveillance activities **Rayhunter** is designed to detect.

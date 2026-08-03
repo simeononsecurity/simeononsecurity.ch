@@ -72,6 +72,8 @@ A TPMS ID correlates to a specific set of tires. When those tires are mounted on
 
 This is not a hypothetical future capability. RTL-SDR receivers that can log TPMS signals cost around $40. The technical barrier to deploying passive TPMS monitoring alongside an ALPR network is very low.
 
+{{< figure src="flock-tpms-bluetooth-surveillance.webp" alt="Diagram showing how a roadside Flock camera can passively capture license plates, Bluetooth MAC addresses from phones, and TPMS tire sensor IDs from passing vehicles simultaneously" >}}
+
 ______
 
 ## The Real Problem: Photography vs. Database
