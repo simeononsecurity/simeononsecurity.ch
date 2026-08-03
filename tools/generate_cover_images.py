@@ -615,7 +615,7 @@ def _chat_json(payload: dict, api_key: str, label: str) -> dict:
                 "Content-Type": "application/json",
             },
             json=payload,
-            timeout=60,
+            timeout=300,
         )
         _check_response(resp, label)
         return resp
@@ -712,7 +712,7 @@ def generate_image(prompt: str, api_key: str) -> bytes:
                 "Content-Type": "application/json",
             },
             json=payload,
-            timeout=120,
+            timeout=600,
         )
         _check_response(resp, "Image gen")
         return resp
