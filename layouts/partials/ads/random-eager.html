@@ -1,4 +1,4 @@
-{{ $ads := slice "pawnsapp/pawnsapp-eager.html" "traffmonetizer/traffmonetizer-eager.html" "startmail/startmail-eager.html" "signalandsteel/signalandsteel-eager.html" "signalandsteel/signalandsteel-banner-eager.html" "stscollective/stscollective-eager.html" "stscollective/rayhunter-eager.html" "stscollective/flockyou-eager.html" "stscollective/eyespy-eager.html" }}
+{{ $ads := slice "pawnsapp/pawnsapp-eager.html" "traffmonetizer/traffmonetizer-eager.html" "signalandsteel/signalandsteel-eager.html" "signalandsteel/signalandsteel-banner-eager.html" "stscollective/stscollective-eager.html" "stscollective/rayhunter-eager.html" "stscollective/flockyou-eager.html" "stscollective/eyespy-eager.html" "stscollective/stscollective-eager.html" "stscollective/rayhunter-eager.html" "stscollective/flockyou-eager.html" "stscollective/eyespy-eager.html" }}
 {{ $shuffledAds := shuffle $ads }}
 {{ $shuffledAds = shuffle $shuffledAds }}
 {{ $randomAd := index $shuffledAds 0 }}
@@ -6,4 +6,3 @@
 {{ if and (not .IsHome) (.IsPage)}}
     {{ partial (printf "ads/%s" $randomAd) . }}
 {{ end }}
-
