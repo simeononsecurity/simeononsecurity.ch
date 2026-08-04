@@ -389,6 +389,8 @@ Understanding who deploys IMSI catchers and who they target is crucial for asses
 
 Understanding your threat model helps optimize **Rayhunter** configurations for your specific risk profile while ensuring appropriate detection coverage for the threat actors most likely to target you or your activities.
 
+{{< figure src="imsi-catcher-threat-actors-surveillance.webp" alt="Diagram showing various IMSI catcher threat actors including government agencies, criminal organizations, and corporate espionage operatives targeting mobile devices" >}}
+
 ## Rayhunter Effectiveness in the 5G Era
 
 As cellular networks transition to 5G technology, questions arise about **Rayhunter's** continued effectiveness given its support for 2G, 3G, and 4G/LTE detection but not native 5G surveillance methods. Understanding the current limitations and ongoing relevance of **Rayhunter** in a 5G world is crucial for planning long-term surveillance detection strategies.
@@ -677,6 +679,8 @@ Dense urban areas with many legitimate cell towers can increase false positive r
 
 #### Will Rayhunter work during international travel?
 **Rayhunter** effectiveness during travel depends on device compatibility with local cellular bands and roaming agreements. The detection algorithms work globally, but ensure your device supports the frequency bands used in your destination country. International roaming may be required for full functionality.
+
+{{< figure src="rayhunter-faq-privacy-protection.webp" alt="Person reviewing Rayhunter alerts on a laptop while carrying a mobile hotspot device in an urban environment with cellular towers nearby" >}}
 
 ______
 
