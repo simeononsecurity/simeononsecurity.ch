@@ -64,6 +64,8 @@ For a full technical comparison of all detection hardware (including the OUI-SPY
 
 *Start at step 1 today. Awareness costs nothing. The tools are free.*
 
+{{< figure src="community-action-steps-alpr-surveillance-awareness.webp" alt="A person using a smartphone app to view a map of ALPR camera locations in their neighborhood" >}}
+
 ______
 
 ## What is Flock Safety? Understanding ALPR Technology
@@ -152,6 +154,8 @@ A significant aspect of Flock's prevalence is the **public-private partnership m
 - **~10% of cameras** are funded through federal grants or partnerships
 
 *This means many cameras are **privately owned but accessible to law enforcement**, creating a surveillance infrastructure that bypasses traditional oversight mechanisms.*
+
+{{< figure src="flock-safety-camera-nationwide-deployment-map.webp" alt="A map of the United States showing the widespread geographic distribution of Flock Safety ALPR cameras" >}}
 
 ______
 
@@ -549,6 +553,8 @@ If you discover you've been tracked:
 - **Document surveillance**: Keep records of detected camera locations
 - **Join class actions**: Participate in collective legal challenges
 - **File complaints**: Report policy violations to oversight bodies
+
+{{< figure src="privacy-protection-strategies-against-alpr-tracking.webp" alt="A person filing a public records request on a laptop to challenge local ALPR surveillance contracts" >}}
 
 ______
 
