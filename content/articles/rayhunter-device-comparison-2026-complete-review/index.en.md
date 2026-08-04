@@ -82,6 +82,8 @@ All devices underwent standardized testing across multiple controlled environmen
 - **Conditions**: Precisely controlled signal strength, interference, and threat simulation
 - **Objective**: Establish baseline performance metrics and device limitations
 
+{{< figure src="rayhunter-testing-methodology-rf-chamber-standards.webp" alt="Calibrated RF testing chamber with multiple RayHunter devices undergoing standardized urban suburban and rural detection scenario evaluations" >}}
+
 ## Device Performance Summary
 
 ### Overall Performance Rankings
@@ -394,6 +396,8 @@ Designed for Asia-Pacific deployment with regional band optimization.
 - Local availability and support advantages
 - Consider for region-specific deployments
 
+{{< figure src="rayhunter-regional-deployment-map-device-recommendations.webp" alt="World map highlighting Americas Europe Africa and Asia-Pacific regions with recommended RayHunter devices annotated for each area" >}}
+
 ## Battery Life and Power Management Analysis
 
 ### Battery Performance Comparison
@@ -431,6 +435,8 @@ Extended field testing revealed **significant variations in battery performance*
 - Keep **TP-Link M7310** or similar devices for short-duration emergency detection
 - Maintain charged backup batteries for critical scenarios
 - Consider multiple devices for redundant coverage
+
+{{< figure src="rayhunter-battery-life-power-management-comparison.webp" alt="Side-by-side comparison of RayHunter compatible devices showing battery capacity levels and rated operational hours for each model" >}}
 
 ## Detection Range and Sensitivity Analysis
 
@@ -485,6 +491,8 @@ Field testing in diverse environments established realistic detection ranges:
 - **Firmware optimization** and heuristic configuration
 - *Battery level and power management settings directly affect detection sensitivity*
 
+{{< figure src="rayhunter-detection-range-signal-sensitivity-environments.webp" alt="Diagram illustrating IMSI catcher detection ranges for premium standard and budget RayHunter devices across urban suburban and rural environments" >}}
+
 ## False Positive Analysis
 
 ### False Positive Rate Comparison
@@ -532,6 +540,8 @@ Comprehensive testing in high-density cellular environments revealed important d
 - **Alert correlation** with multiple devices and detection methods
 - **Environmental mapping** of false positive patterns
 - **Regular recalibration** of detection thresholds
+
+{{< figure src="rayhunter-false-positive-rates-mitigation-strategies.webp" alt="Bar chart comparing false positive rates across all eight RayHunter compatible devices with annotations for mitigation configuration strategies" >}}
 
 ## Cost-Benefit Analysis
 
@@ -590,6 +600,8 @@ Comprehensive testing in high-density cellular environments revealed important d
 - Essential functionality at entry-level pricing
 - Adequate for learning and experimental use
 - Acceptable performance for non-critical applications
+
+{{< figure src="rayhunter-cost-benefit-performance-per-dollar-analysis.webp" alt="Scatter plot mapping RayHunter device price against detection accuracy score showing value tiers from budget to premium options" >}}
 
 ## Device Longevity and Maintenance
 
@@ -650,6 +662,8 @@ Comprehensive testing in high-density cellular environments revealed important d
 - **Physical inspection**: Unusual antennas or modifications may attract attention
 - *Obvious behavioral responses to alerts can compromise an entire operation*
 
+{{< figure src="rayhunter-device-security-operational-covert-deployment.webp" alt="Security professional discreetly carrying a compact RayHunter device in an urban environment illustrating covert operational security practices" >}}
+
 ## Future-Proofing Considerations
 
 ### 5G Network Evolution
@@ -678,6 +692,8 @@ Comprehensive testing in high-density cellular environments revealed important d
 - **Intelligence gathering**: Monitor threat actor capability development
 - **Community collaboration**: Participate in collective defense research and development
 - **Regular updates**: Maintain current software and replace aging hardware proactively
+
+{{< figure src="rayhunter-future-proofing-5g-emerging-surveillance-threats.webp" alt="Conceptual illustration of evolving cellular surveillance threats including 5G towers AI systems and IoT devices alongside RayHunter countermeasure strategies" >}}
 
 ## Conclusion and Final Recommendations
 
