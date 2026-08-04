@@ -279,6 +279,8 @@ The Flipper GPIO header exposes SWD signals on some pins. Using an adapter, you 
 
 This is advanced territory. The **BlackMagic Probe** firmware port for the Flipper makes this workflow practical.
 
+{{< figure src="flipper-zero-gpio-uart-jtag-swd-hardware-attack-surface-diagram.webp" alt="Diagram of Flipper Zero GPIO header showing UART, SPI, I2C, JTAG, and SWD connections to target embedded devices" >}}
+
 ## BadUSB and USB HID Attacks
 
 When plugged into a computer via USB-C, the Flipper Zero enumerates as a **USB HID keyboard**. This is the BadUSB attack vector — the device types keystrokes automatically without any driver installation.
@@ -449,6 +451,8 @@ Community-designed adapters connect a **Raspberry Pi Zero 2W** to the Flipper GP
 - Acting as a C2 relay during red team engagements
 - Storing large captures that would overflow a microSD card
 
+{{< figure src="flipper-zero-wifi-devboard-esp32-raspberry-pi-gpio-accessories-overview.webp" alt="Overview of Flipper Zero hardware accessories including the WiFi Dev Board, ESP32 module, and Raspberry Pi Zero GPIO header adapter" >}}
+
 ## Penetration Testing Workflows
 
 ### Physical Access Bypass Workflow
@@ -490,6 +494,8 @@ Many wireless door and window sensors transmit simple Sub-GHz OOK signals. If th
 3. Verify whether the alarm system raises an alert.
 
 This demonstrates whether an attacker could defeat wireless perimeter sensors with a $170 device.
+
+{{< figure src="flipper-zero-penetration-testing-physical-access-rfid-badusb-workflow-diagram.webp" alt="Flowchart of Flipper Zero penetration testing workflows covering physical access bypass, wireless device inventory, RFID survey, and BadUSB drop attack simulation" >}}
 
 ## CTF and Competition Use Cases
 
@@ -538,6 +544,8 @@ In the **United States**, relevant laws include the Computer Fraud and Abuse Act
 *The FCC does not prohibit owning or using a device that can receive sub-GHz signals. Unlicensed transmission on certain frequencies is prohibited. Most sub-GHz consumer devices operate in unlicensed ISM bands (315 MHz, 433 MHz, 915 MHz), and the low power levels involved are typically within Part 15 limits.*
 
 Canada attempted to block Flipper Zero imports in 2024 over car theft concerns. This was largely a political response to media coverage of car key relay attacks, not a technically precise concern, since modern automotive keyless entry uses rolling codes and the Flipper cannot defeat them without additional hardware.
+
+{{< figure src="flipper-zero-legal-framework-authorized-vs-illegal-use-cases-us-eu-cfaa-guidelines.webp" alt="Chart comparing authorized versus illegal Flipper Zero use cases under U.S. CFAA and EU computer crime laws with common example scenarios" >}}
 
 ## Setting Up a Development Environment
 

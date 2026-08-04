@@ -100,6 +100,8 @@ Implementing simulated cyber attack scenarios not only helps organizations ident
 
 > Tip: To maximize the effectiveness of simulated cyber attack scenarios, organizations should ensure that the scenarios are regularly updated to reflect the latest threats and attack techniques.
 
+{{< figure src="employee-phishing-simulation-attack-scenario-training-process-diagram.webp" alt="Diagram showing the four-step simulated phishing attack training process: planning, scenario development, execution, and debriefing" >}}
+
 ### Measuring the Effectiveness of Training
 
 Effective measurement of cybersecurity training is crucial to assess its impact and make informed decisions for improvement. By evaluating various aspects of the training program, organizations can determine its effectiveness and identify areas for enhancement. **Key metrics** that can be used to measure the effectiveness of cybersecurity training include:
@@ -193,6 +195,8 @@ To address these challenges, organizations can take several steps:
     
 
 By addressing resistance to change and lack of awareness, organizations can build a strong human firewall and help employees to be the first line of defense against cyber threats.
+
+{{< figure src="cybersecurity-training-program-challenges-resistance-awareness-tailoring-roles-overview.webp" alt="Overview chart of common cybersecurity training challenges including employee resistance, resource constraints, role-based tailoring, and staff turnover" >}}
 
 ### Addressing Time and Resource Constraints
 
@@ -293,6 +297,8 @@ Another method is to monitor employee adherence to security policies and procedu
 In addition to these methods, organizations can also leverage technology to track behavioral changes and compliance. This can involve the use of security awareness training platforms that provide real-time feedback and analytics on employee engagement and progress. These platforms can track metrics such as completion rates, quiz scores, and participation in simulated cyber attack scenarios.
 
 By tracking behavioral changes and compliance, organizations can gain valuable insights into the effectiveness of their cybersecurity training programs. This data can be used to make informed decisions about training content, delivery methods, and ongoing support. It also allows organizations to demonstrate the return on investment (ROI) of their training initiatives and ensure that employees are equipped with the knowledge and skills to protect against cyber threats.
+
+{{< figure src="cybersecurity-training-roi-behavioral-compliance-metrics-dashboard-visualization.webp" alt="Dashboard visualization showing cybersecurity training ROI metrics including incident reduction rate, quiz scores, compliance rates, and behavioral change tracking" >}}
 
 ### Analyzing Incident and Breach Data
 

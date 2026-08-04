@@ -248,6 +248,8 @@ def security_scan(target_ip):
 - **ThreatConnect**: Commercial threat intelligence
 - **Recorded Future**: AI-powered threat intelligence
 
+{{< figure src="cybersecurity-tools-siem-edr-vulnerability-scanner-threat-intel-platform-comparison.webp" alt="Diagram comparing major cybersecurity tool categories including SIEM platforms, EDR solutions, vulnerability scanners, and threat intelligence systems" >}}
+
 ### Analytical and Problem-Solving Skills
 
 Technical skills alone aren't sufficient. **Critical thinking** distinguishes good security professionals from great ones.
@@ -329,6 +331,8 @@ Executive: Communicate security posture to board of directors
 - Serverless security
 - API security
 - Service mesh security
+
+{{< figure src="cybersecurity-emerging-specializations-ai-security-quantum-devsecops-zero-trust-salary-2026.webp" alt="Chart showing 2026 salary ranges for emerging cybersecurity specializations including AI security, quantum-safe cryptography, DevSecOps, and zero trust architecture" >}}
 
 ______
 
@@ -765,6 +769,8 @@ ______
 - Practice cloud security configurations
 - Cheaper long-term than physical equipment
 
+{{< figure src="cybersecurity-home-lab-setup-virtual-machines-kali-linux-security-onion-metasploitable.webp" alt="Diagram of a cybersecurity home lab setup showing virtual machine stack with Kali Linux, Security Onion, and vulnerable target machines" >}}
+
 ### Step 3: Create Security Projects for Your Portfolio
 
 **Hiring managers want to see evidence of skills.**
@@ -835,6 +841,8 @@ ______
    - Find mentors on LinkedIn or r/cybersecurity
    - Offer to help with projects in exchange for guidance
    - Ask specific questions (not just "how do I get a job")
+
+{{< figure src="cybersecurity-career-networking-bsides-linkedin-owasp-defcon-community-strategy.webp" alt="Overview of cybersecurity career networking channels including BSides conferences, LinkedIn, OWASP chapters, DEFCON groups, and online Discord communities" >}}
 
 ### Step 5: Craft an Effective Security Resume
 
