@@ -1012,6 +1012,8 @@ Tested on standard hardware: Intel i7-13700K, 32GB RAM, SSD, 100 Mbps connection
 **Alternative**: **Bitwarden** (CLI, API, good integrations)
 **Self-hosted**: **Vaultwarden** (Bitwarden-compatible, lightweight)
 
+{{< figure src="password-manager-decision-framework-use-cases.webp" alt="Flowchart decision framework showing how to choose between Bitwarden, KeePassXC, 1Password, and Proton Pass based on user priorities" >}}
+
 ## Migration Guide: Switching Password Managers
 
 ### General Migration Process
@@ -1091,6 +1093,8 @@ After migrating to a new password manager:
 - [ ] Set up regular backups (especially for local-only solutions like KeePassXC)
 - [ ] Document master password recovery process
 - [ ] Securely delete export files and old password data
+
+{{< figure src="password-manager-migration-checklist-steps.webp" alt="Step-by-step checklist illustrating the password manager migration process from export to import and post-migration security verification" >}}
 
 ## Advanced Security Considerations
 
@@ -1266,6 +1270,8 @@ Prevention of data loss is critical:
 **Proprietary security**: "Security through obscurity" - hoping attackers don't find vulnerabilities without public review. Historically less effective.
 
 **Recommended**: Prefer open-source password managers when possible (Bitwarden, KeePassXC, Proton Pass).
+
+{{< figure src="password-manager-security-myths-vs-facts.webp" alt="Infographic comparing common password manager security myths against factual best practices for browser storage and open-source software" >}}
 
 ## The Future: Passkeys and Passwordless Authentication
 
