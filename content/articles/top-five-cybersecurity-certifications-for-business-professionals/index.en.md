@@ -1433,6 +1433,8 @@ To explore broader career paths and skills needed in cybersecurity, see our comp
 
 **The time to invest in your cybersecurity career is now**. Start your certification journey today and position yourself for success in one of the fastest-growing, most critical fields in technology.
 
+{{< figure src="cybersecurity-certification-career-investment-2026.webp" alt="Business professional reviewing cybersecurity certification options including CISSP, CISM, CIPP and CIPM to advance career" >}}
+
 ______
 
 ## References
