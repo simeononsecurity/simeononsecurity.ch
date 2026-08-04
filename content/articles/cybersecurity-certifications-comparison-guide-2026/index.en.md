@@ -37,6 +37,8 @@ Whether you're a **complete beginner** starting your cybersecurity journey or a 
 - **AI impact assessment** on certification value and career prospects
 - **Practical recommendations** on which certifications to stack for maximum career impact
 
+{{< figure src="cybersecurity-certification-landscape-2026-overview.webp" alt="Illustration of the complex cybersecurity certification landscape in 2026 with dozens of vendor paths and career options to navigate" >}}
+
 ______
 
 ## Methodology: How We Rank Certification Vendors
@@ -95,6 +97,8 @@ Average the weighted scores to determine tier placement:
 - **B Tier:** 5.5-6.9 (Good but with caveats)
 - **C Tier:** 4.0-5.4 (Questionable value)
 - **D/F Tier:** <4.0 (Avoid or very niche use cases only)
+
+{{< figure src="cybersecurity-certification-ranking-methodology-scoring.webp" alt="Diagram of four weighted scoring metrics for ranking cybersecurity certifications including hireability, cost, practical difficulty, and future readiness" >}}
 
 ______
 
@@ -1146,6 +1150,8 @@ ______
 - CISSP (52% of all security listings)
 - Combined coverage is enormous
 
+{{< figure src="cybersecurity-career-path-certification-roadmap-by-role.webp" alt="Roadmap showing recommended certification paths for SOC analyst, penetration tester, cloud security engineer, and GRC compliance analyst roles" >}}
+
 ______
 
 ## What NOT to Do: Avoid These Traps
@@ -1199,6 +1205,8 @@ You can dislike cloud, but ignoring it limits career options significantly in 20
 
 **Exception:** If employer pays, absolutely take SANS training. It's excellent when someone else pays.
 
+{{< figure src="cybersecurity-certification-traps-mistakes-to-avoid-2026.webp" alt="Warning signs illustrating five common cybersecurity certification mistakes including bootcamp scams, stacking entry-level certs, and self-funding SANS courses" >}}
+
 ______
 
 ## College Degrees: Do You Need One?
@@ -1246,6 +1254,8 @@ If doing bachelor's degree:
 **Outcome:** Similar roles, arrived **2-5 years faster** without degree, **$40K-120K less debt**.
 
 *Some employers (government, finance) strongly prefer degrees. Most tech companies don't care.*
+
+{{< figure src="college-degree-vs-cybersecurity-certifications-cost-comparison.webp" alt="Comparison chart of college degree versus self-funded certification path in cybersecurity showing cost difference, time to employment, and career outcomes" >}}
 
 ______
 
@@ -1441,6 +1451,8 @@ After analyzing 2,500+ job listings and 30+ certification vendors, here's the tr
 
 **This is my controversial recommendation for 2026.** *Cloud certifications now match traditional security cert demand while teaching more relevant skills.*
 
+{{< figure src="cybersecurity-certification-strategy-2026-cloud-first-path.webp" alt="Strategic flowchart of recommended cybersecurity certification investment paths for beginners, IT professionals, and cloud security roles in 2026" >}}
+
 ______
 
 ## Conclusion: Choose the Right Institution, Not Just Certifications
@@ -1503,6 +1515,8 @@ By 2028-2030, I predict:
 **The winning strategy:** Stack cloud + practical hands-on + management cert (CISSP). Avoid expensive multiple-choice certifications and outdated content.
 
 Choose your certifications strategically, focus on practical skills, and remember: **certifications open doors, but skills keep them open.**
+
+{{< figure src="cybersecurity-certifications-winning-stack-2026-summary.webp" alt="Summary graphic of the recommended cybersecurity certification stack combining cloud credentials, practical hands-on exams, and CISSP management certification" >}}
 
 ______
 
