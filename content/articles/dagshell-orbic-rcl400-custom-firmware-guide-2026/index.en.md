@@ -1187,6 +1187,9 @@ DagShell is a **security research and privacy tool**. Its capabilities are simil
 
 Use DagShell **responsibly** and **ethically**. *If you're unsure whether something is legal, stop and consult a lawyer before proceeding.*
 
+{{< figure src="dagshell-legal-ethical-security-research-responsible-use.webp" alt="Legal and ethical framework for DagShell security research showing authorized vs unauthorized use cases and relevant laws" >}}
+
+
 ______
 
 ## Troubleshooting
@@ -1266,6 +1269,9 @@ ______
 - Increase scan interval in settings (trade frequency for performance)
 - Reduce number of channels scanned
 - *Weak GPS fix slows scans — the system waits for valid coordinates before logging*
+
+{{< figure src="dagshell-troubleshooting-installation-gps-wardriving-common-issues.webp" alt="DagShell troubleshooting workflow showing common installation GPS and wardriving issues with step-by-step solutions" >}}
+
 
 ______
 
@@ -1444,6 +1450,9 @@ ______
 Whether you're a **security researcher**, **penetration tester**, **privacy advocate**, or **network administrator**, DagShell provides a **portable, powerful, and affordable** platform for mobile security work.
 
 **Disclaimer**: Use responsibly. Only test networks and devices you own or have explicit written permission to assess. Stay legal, stay ethical, and happy hacking! 🚀
+
+{{< figure src="dagshell-orbic-rcl400-mobile-security-lab-conclusion-overview.webp" alt="Orbic RCL400 hotspot with DagShell firmware serving as a complete portable mobile security research laboratory" >}}
+
 
 ______
 
