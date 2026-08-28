@@ -4,13 +4,13 @@ date: 2026-08-25
 lastmod: 2026-08-25
 toc: true
 draft: false
-description: "How to connect and secure a compact edge-compute node deployed away from a trusted network. Covers cellular, satellite, and LoRa mesh uplinks, VPN tunnel-back architectures, multi-factor authentication, VLAN segmentation, at-rest encryption, and tamper and theft response for field IT."
+description: "How to connect and secure a compact edge-compute node deployed away from a trusted network. Covers cellular, satellite, and LoRa mesh uplinks, VPN tunnel-back architectures, multi-factor authentication, VLAN segmentation, centralized logging, ECC memory, at-rest encryption, and tamper and theft response for field IT."
 genre: ["Edge Computing", "Field IT", "Network Security", "VPN", "Encryption", "Physical Security", "Disaster Recovery"]
-tags: ["field deployable server", "edge node security", "cellular uplink server", "Starlink field deployment", "LoRa mesh backup link", "VPN tunnel home", "zero trust edge", "at-rest encryption", "tamper detection hardware", "theft response IT", "mobile command post network", "disaster recovery connectivity", "OPSEC field deployment", "site OPSEC", "portable data center security", "encrypted storage field", "remote site VPN", "cellular modem router", "mesh networking backup", "off-grid connectivity", "VLAN network segmentation", "multi-factor authentication field", "hardware security key", "TOTP offline authentication"]
+tags: ["field deployable server", "edge node security", "cellular uplink server", "Starlink field deployment", "LoRa mesh backup link", "VPN tunnel home", "zero trust edge", "at-rest encryption", "tamper detection hardware", "theft response IT", "mobile command post network", "disaster recovery connectivity", "OPSEC field deployment", "site OPSEC", "portable data center security", "encrypted storage field", "remote site VPN", "cellular modem router", "mesh networking backup", "off-grid connectivity", "VLAN network segmentation", "multi-factor authentication field", "hardware security key", "TOTP offline authentication", "centralized logging syslog", "store and forward logging", "ECC memory field deployment", "bit flip error correction"]
 cover: "/img/cover/field-deployable-edge-computing-connectivity-security.webp"
 coverAlt: "An illustration of a rugged edge computing node in an outdoor setting, surrounded by trees, with various uplink options like cellular and satellite equipment. Glowing lines represent a secure VPN tunnel to a digital cloud."
 coverCaption: ""
-ref: ["/articles/field-deployable-edge-compute-hardware-and-enclosure-selection", "/articles/field-deployable-power-and-environmental-resilience", "/articles/field-it-tidbits-beyond-the-mini-datacenter", "/articles/meshcore-vs-meshtastic-comparison-guide", "/articles/networking-basics-what-are-subnets-and-vlans", "/articles/what-are-the-diferent-kinds-of-factors-in-mfa"]
+ref: ["/articles/field-deployable-edge-compute-hardware-and-enclosure-selection", "/articles/field-deployable-power-and-environmental-resilience", "/articles/field-it-tidbits-beyond-the-mini-datacenter", "/articles/meshcore-vs-meshtastic-comparison-guide", "/articles/networking-basics-what-are-subnets-and-vlans", "/articles/what-are-the-diferent-kinds-of-factors-in-mfa", "/articles/the-role-of-ecc-memory-in-mitigating-data-corruption"]
 ---
 
 **A field-deployable node is a computer nobody watches all the time, sitting on a network you do not control.** This combination changes the security priorities compared to a server in a locked datacenter. *Assume the physical site is not trusted, assume the uplink is not trusted, and design backward from there.*
@@ -64,6 +64,26 @@ Our [guide to multi-factor authentication factors](/articles/what-are-the-difere
 
 *A flat network is a convenience during a rushed setup and a liability for the rest of the deployment.* The extra ten minutes spent configuring VLANs at setup pays for itself the first time an untrusted device connects to the case. For the underlying concepts, see our [Networking Basics guide to subnets and VLANs](/articles/networking-basics-what-are-subnets-and-vlans/).
 
+## Centralized Logging From a Disconnected Node
+
+**Logs sitting only on a device getting lost, seized, or wiped tell you nothing after the fact.** A field node needs a logging strategy surviving the node itself failing.
+
+- **Forward logs continuously over the VPN tunnel to a central log server** whenever connectivity is up, so an incident investigation has more to work with than whatever survived on the local disk.
+- **Buffer logs locally with a store-and-forward queue** for the gaps when the uplink drops, and flush the queue automatically once the tunnel reconnects.
+- **Keep enough local retention to cover the longest expected connectivity gap**, since a queue with no local buffer loses everything generated while offline.
+
+*A node with connectivity nine days out of ten still needs a plan for the tenth day.* Store-and-forward logging is what keeps the tenth day from becoming a blind spot in the incident record.
+
+## ECC Memory for Data Integrity in the Field
+
+**Vibration, heat, and the electrical noise of an unfamiliar power source all raise the odds of a bit flip in memory**, and a silent bit flip corrupts data with no error message to warn you.
+
+- **ECC (error-correcting code) RAM detects and corrects single-bit memory errors automatically**, catching exactly the kind of transient fault a field environment is more likely to trigger than a climate-controlled server room.
+- **Server-class thin clients and small-form-factor systems often support ECC memory even when marketed for desktop use**, so check the board's specification sheet rather than assuming ECC is server-only.
+- **Pair ECC memory with the encryption and integrity practices in this section**, since encryption protects data from an attacker but does nothing to catch a hardware-level bit flip corrupting the same data silently.
+
+Our [deep dive on ECC memory and data corruption](/articles/the-role-of-ecc-memory-in-mitigating-data-corruption/) covers the underlying error-correction mechanics in more depth than this series needs, but the core point stands: *a field deployment is exactly the environment ECC memory was designed to protect.*
+
 ## Encrypting Data at Rest
 
 A field case is a box, and boxes get lost, stolen, or seized. **Full-disk encryption on every drive in the case is the baseline, not an advanced option.**
@@ -101,6 +121,7 @@ Securing the node is only half the job when the deployment location itself is se
 - [ ] VPN tunnel established back to a trusted network before exposing any management interface
 - [ ] Multi-factor authentication required on every admin login, with an offline-capable option available
 - [ ] Management, general-purpose, and IoT devices split across separate VLANs
+- [ ] Logs forward to a central server with a local store-and-forward buffer for outages
 - [ ] Full-disk encryption enabled on every storage device in the case
 - [ ] Decryption key or passphrase stored separately from the case
 - [ ] Tamper-evident seals in place and checked at every visit
