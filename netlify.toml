@@ -28,10 +28,15 @@ Cache-Control = "no-cache, no-store, must-revalidate"
 Access-Control-Allow-Origin = "*"
 
 [[headers]]
-for = "/*.json"
+# Quiz question-bank JSON files (up to ~400KB each) are static and only change
+# when a bank is manually regenerated. Cache aggressively at the edge/CDN and
+# browser to cut repeat-fetch bandwidth on every practice-test page load, while
+# still revalidating daily so a corrected bank propagates within 24 hours.
+for = "/quiz-dicts/*"
 [headers.values]
-Cache-Control = "no-cache, no-store, must-revalidate"
+Cache-Control = "public, max-age=86400, s-maxage=604800, must-revalidate"
 Access-Control-Allow-Origin = "*"
+Content-Type = "application/json"
 
 [[headers]]
 for = "/tags/*"
@@ -62,47 +67,52 @@ Cache-Control = "public, max-age=3600, must-revalidate"
 for = "/img/*"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 
 [[headers]]
 for = "/*.jpeg"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "image/jpeg"
 
 [[headers]]
 for = "/*.png"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "image/png"
 
 [[headers]]
 for = "/*.webp"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "image/webp"
 
 [[headers]]
 for = "/*.ico"
 [headers.values]
 Access-Control-Allow-Origin = "*"
-Cache-Control = "public, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "image/x-icon"
 
 [[headers]]
+# main.js, prism.js, and style-append.css are served from stable (non-fingerprinted)
+# paths, so they are NOT marked immutable. s-maxage is still extended from the
+# original 7 days to 30 days to cut edge-to-origin revalidation traffic, while
+# leaving room to roll out a fix without waiting a full year for stale caches
+# to expire everywhere.
 for = "/*.css"
 [headers.values]
-Cache-Control = "public, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, s-maxage=2592000, max-age=31536000, must-revalidate"
 Access-Control-Allow-Origin = "*"
 Content-Type = "text/css"
 
 [[headers]]
 for = "/*.js"
 [headers.values]
-Cache-Control = "public, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, s-maxage=2592000, max-age=31536000, must-revalidate"
 Access-Control-Allow-Origin = "*"
 Content-Type = "application/javascript"
 
@@ -114,13 +124,6 @@ Access-Control-Allow-Origin = "*"
 Content-Type = "application/json"
 
 [[headers]]
-for = "/*.xml"
-[headers.values]
-Cache-Control = "public, max-age=3600, must-revalidate"
-Access-Control-Allow-Origin = "*"
-Content-Type = "application/xml"
-
-[[headers]]
 for = "/*.mjs"
 [headers.values]
 Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
@@ -129,43 +132,46 @@ Content-Type = "text/javascript"
 [[headers]]
 for = "/*.sass"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "text/x-sass"
 
 [[headers]]
 for = "/*.scss"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "text/x-scss"
 
 [[headers]]
 for = "/*.less"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "text/x-less"
 
 [[headers]]
 for = "/*.wasm"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Content-Type = "application/wasm"
 
 [[headers]]
+# Downloadable files (scripts, docs) are versioned by filename change, not
+# in-place edits, so a longer edge cache is safe. must-revalidate still keeps
+# a stale local copy from being served if a file is removed or replaced.
 for = "/*.pdf"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=31536000, max-age=31536000"
 Content-Type = "application/pdf"
 
 [[headers]]
 for = "/*.doc"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=31536000, max-age=31536000"
 Content-Type = "application/msword"
 
 [[headers]]
 for = "/*.xls"
 [headers.values]
-Cache-Control = "public, must-revalidate, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, must-revalidate, s-maxage=31536000, max-age=31536000"
 Content-Type = "application/vnd.ms-excel"
 
 [[headers]]
@@ -177,26 +183,26 @@ Content-Type = "text/plain"
 [[headers]]
 for = "/fonts/*"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Access-Control-Allow-Origin = "*"
 Vary = "Origin"
 
  [[headers]]
 for = "/*.woff2"
 [headers.values]
-Cache-Control = "public, immutable, s-maxage=604800, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 Access-Control-Allow-Origin = "*"
 Vary = "Origin"
 
 [[headers]]
 for = "/audio/*"
 [headers.values]
-Cache-Control = "public, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 
 [[headers]]
 for = "/videos/*"
 [headers.values]
-Cache-Control = "public, max-age=31536000"
+Cache-Control = "public, immutable, s-maxage=31536000, max-age=31536000"
 
 [[headers]]
 for = "/sse/*"

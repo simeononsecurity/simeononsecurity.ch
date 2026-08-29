@@ -1,6 +1,17 @@
+# ---- Paths with no SEO value that only cost bandwidth ----
+# Practice-test question banks (up to ~400KB each, fetched client-side by JS,
+# never rendered as crawlable page content), the press branding kit archive,
+# and legacy PWA manifest files. Repeated in every group below because a bot
+# matching its own named User-agent block does not inherit rules from the
+# wildcard (*) group.
+
 User-agent: *
 Disallow: /admin
 Disallow: /404/
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 
 # ---- Block archival bots completely ----
 User-agent: ia_archiver
@@ -11,6 +22,10 @@ Disallow: /
 # Google Image crawler — 10 s between requests
 User-agent: Googlebot-Image
 Crawl-delay: 10
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # Baidu / 360 / CocCoc image crawlers — 30 s between requests
@@ -18,16 +33,28 @@ User-agent: Baiduspider-image
 User-agent: 360Spider-Image
 User-agent: coccocbot-image
 Crawl-delay: 30
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # Yandex image crawler — 20 s between requests
 User-agent: YandexImages
 Crawl-delay: 20
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # MSN/Bing media crawler — 20 s between requests
 User-agent: msnbot-media
 Crawl-delay: 20
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # ---- Social / visual scrapers (moderately rate-limited) ----
@@ -36,19 +63,40 @@ User-agent: Flipboard
 User-agent: FlipboardProxy
 User-agent: Crowsnest
 Crawl-delay: 15
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # ---- AI content scrapers (heavily rate-limited) ----
 User-agent: GPTBot
 User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
 User-agent: PerplexityBot
+User-agent: Perplexity-User
 User-agent: YouBot
 User-agent: CCBot
+User-agent: Amazonbot
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: TikTokSpider
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Timpibot
+User-agent: omgili
+User-agent: omgilibot
 Crawl-delay: 30
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 # ---- General bots (allow with mild rate limit) ----
@@ -124,6 +172,10 @@ User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
 Crawl-delay: 5
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
 Allow: /
 
 Sitemap: https://simeononsecurity.com/sitemap-index.xml
