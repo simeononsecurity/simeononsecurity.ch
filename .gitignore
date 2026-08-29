@@ -24,6 +24,9 @@ bin-release/
 .venv/
 venv/
 
+# PlatformIO MCP server workspace (audit logs, command history, local state)
+.pio-mcp-workspace/
+
 # Other files and folders
 .settings/
 .DS_Store
