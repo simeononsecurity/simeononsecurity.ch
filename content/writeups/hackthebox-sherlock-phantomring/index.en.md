@@ -16,7 +16,7 @@ ______
 
 ## Provided Files:
 
-You get `phantomring.zip`, password protected, containing one file:
+You get `phantomring.zip`, password protected (HTB gives you the password on the download page), containing one file:
 
 ```
 phantom_ring/agent
@@ -27,10 +27,6 @@ The scenario is basically: a SOC team found this binary sitting in `/var/tmp` on
 ## Walk Through:
 
 First thing, don't run it. It's live malware, so everything below is read-only inspection.
-
-### Cracking the zip
-
-The zip has a password on it. I checked what was actually inside first with `unzip -l phantomring.zip` before bothering to crack it, just so I knew what filename and size I was looking for once it was open. Threw it at `fcrackzip` with a wordlist and it popped quickly since the password wasn't anything exotic.
 
 ### Basic triage
 
