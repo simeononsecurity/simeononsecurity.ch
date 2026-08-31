@@ -17,6 +17,9 @@
 <!-- ── Service-worker link prefetcher: idle + hover-intent caching ───── -->
 <script defer src="/js/sw-prefetch.js"></script>
 
+<!-- ── DNS prefetch for the lite-youtube web component's video host ──── -->
+<link rel="dns-prefetch" href="//www.youtube-nocookie.com">
+
 <!-- ── Original theme content (render-alternates, manifest, icons) ───── -->
 {{ partialCached "render-alternates.html" . .Page .Page.Page .Site.Language.Lang .Language.Lang }}
 
