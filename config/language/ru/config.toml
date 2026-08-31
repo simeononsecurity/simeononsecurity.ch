@@ -1,5 +1,5 @@
 
-baseurl = "https:/ru.simeononsecurity.com"
+baseurl = "https://ru.simeononsecurity.com"
 locale = "ru"
 defaultContentLanguage = "ru"
 disableLanguages = [
