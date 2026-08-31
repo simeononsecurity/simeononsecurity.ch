@@ -1,7 +1,13 @@
 # Simeononsecurity.com - Robots.txt
 # General rules for all crawlers
 
+# ---- Content Signals (Cloudflare) ----
+# search indexing and AI input (RAG/grounding/live answers) are allowed,
+# training or fine-tuning AI models on this content is not. Images carry
+# a stricter signal (no ai-input either). Spec: https://contentsignals.org/
 User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Disallow: /admin
 Disallow: /404/
 
@@ -21,9 +27,12 @@ User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: Mediapartners-Google
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: Googlebot-Image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 3
 
 # Chinese Search Engines
@@ -39,9 +48,12 @@ User-agent: Sogou spider2
 User-agent: Sogou web spider
 User-agent: Sosospider
 User-agent: YoudaoBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: Baiduspider-image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 5
 
 # Other Asian Search Engines
@@ -49,14 +61,19 @@ User-agent: Daumoa
 User-agent: Yandex
 User-agent: YandexMobileBot
 User-agent: Naver
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # 360 Search Engine
 User-agent: 360Spider
 User-agent: 360Spider-Video
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: 360Spider-Image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 5
 
 # Microsoft/Bing Bots
@@ -64,15 +81,25 @@ User-agent: bingbot
 User-agent: BingPreview
 User-agent: MicrosoftPreview
 User-agent: msnbot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
+Allow: /
+
+# msnbot-media only ever fetches images, so the stricter ai-input=no signal
+# applies to all of its traffic, not just an /img/ path.
 User-agent: msnbot-media
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # Coc Coc Search Engine
 User-agent: coccoc
 User-agent: coccocbot-web
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: coccocbot-image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 5
 
 # Social Media Bots
@@ -81,9 +108,14 @@ User-agent: facebookexternalhit
 User-agent: Facebot
 User-agent: Twitterbot
 User-agent: WhatsApp
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
+# Pinterest is image-first, so the stricter ai-input=no signal applies to
+# all of its traffic, not just an /img/ path.
 User-agent: Pinterest
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 5
 
 # News & Feed Aggregators
@@ -91,6 +123,8 @@ User-agent: Feedly
 User-agent: Flipboard
 User-agent: FlipboardProxy
 User-agent: AppleNewsBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # Other Search Engines & Crawlers
@@ -127,10 +161,14 @@ User-agent: yacybot
 User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # Specific Bot Rules with Delays
 User-agent: MJ12bot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Crawl-delay: 10
 
 User-agent: Nutch

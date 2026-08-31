@@ -5,7 +5,18 @@
 # matching its own named User-agent block does not inherit rules from the
 # wildcard (*) group.
 
+# ---- Content Signals (Cloudflare) ----
+# Declares our preference for how crawlers may use this site's content:
+# search indexing and AI input (RAG/grounding/live answers) are allowed,
+# training or fine-tuning AI models on this content is not. Images carry a
+# stricter signal (no ai-input either) since we don't want image content fed
+# into generative pipelines. Repeated per group below because Content-Signal,
+# like every other directive here, does not cascade from the wildcard group.
+# Spec: https://contentsignals.org/
+
 User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Disallow: /admin
 Disallow: /404/
 Disallow: /quiz-dicts/
@@ -19,8 +30,11 @@ User-agent: archive.org_bot
 Disallow: /
 
 # ---- Image-specific crawlers (heavily rate-limited) ----
+# Every bot in this section only ever fetches images, so the stricter
+# ai-input=no signal applies to its entire traffic, not just an /img/ path.
 # Google Image crawler — 10 s between requests
 User-agent: Googlebot-Image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 10
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -32,6 +46,7 @@ Allow: /
 User-agent: Baiduspider-image
 User-agent: 360Spider-Image
 User-agent: coccocbot-image
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 30
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -41,6 +56,7 @@ Allow: /
 
 # Yandex image crawler — 20 s between requests
 User-agent: YandexImages
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 20
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -50,6 +66,7 @@ Allow: /
 
 # MSN/Bing media crawler — 20 s between requests
 User-agent: msnbot-media
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 20
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -58,10 +75,13 @@ Disallow: /icons.json
 Allow: /
 
 # ---- Social / visual scrapers (moderately rate-limited) ----
+# Pinterest, Flipboard, and Crowsnest are image-first scrapers, so the
+# stricter ai-input=no signal applies here too, not just under /img/.
 User-agent: Pinterest
 User-agent: Flipboard
 User-agent: FlipboardProxy
 User-agent: Crowsnest
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 15
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -70,6 +90,10 @@ Disallow: /icons.json
 Allow: /
 
 # ---- AI content scrapers (heavily rate-limited) ----
+# Explicit AI-labeled crawlers. Content-Signal formally states what the
+# Crawl-delay already implies in practice: search/grounding use is fine,
+# training is not, and images get the stricter no-ai-input treatment too
+# (ImagesiftBot in particular exists specifically to harvest training images).
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
@@ -92,6 +116,8 @@ User-agent: ImagesiftBot
 User-agent: Timpibot
 User-agent: omgili
 User-agent: omgilibot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Crawl-delay: 30
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
@@ -171,6 +197,8 @@ User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Crawl-delay: 5
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip

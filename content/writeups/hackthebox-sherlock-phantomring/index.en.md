@@ -4,7 +4,7 @@ date: 2026-08-28
 draft: false
 toc: true
 description: "A walkthrough of the PhantomRing Sherlock on HackTheBox: statically analyzing a Linux ELF agent with file, nm, strings, and objdump to pull the C2 details, privesc checks, and self-destruct logic without ever running the binary."
-tags: ["HackTheBox", "Sherlock", "DFIR", "Malware Analysis", "Static Analysis", "ELF", "objdump", "strings", "nm", "sha256sum", "io_uring", "eBPF", "SUID", "CTF", "Linux malware", "reverse engineering"]
+tags: ["HackTheBox", "Sherlock", "DFIR", "Malware Analysis", "Static Analysis", "ELF", "objdump", "strings", "nm", "sha256sum", "EDR evasion", "eBPF", "SUID", "CTF", "Linux malware", "reverse engineering"]
 cover: "/img/cover/hackthebox-sherlock-phantomring-malware-analysis.webp"
 coverAlt: "A dark, moody illustration of a terminal window displaying disassembly output and a glowing padlock icon, representing static malware analysis of a Linux ELF binary."
 coverCaption: ""
@@ -57,8 +57,10 @@ nm phantom_ring/agent | grep ' T \| t '
 
 This lists every function name in the binary. Because it wasn't stripped, you get real names instead of `sub_401230`-style garbage. Scanning through, a few things stand out immediately:
 
-- A bunch of helper functions with names built around `io_uring` (`read_file_uring` and similar). That's your answer for how it's doing file I/O under the hood, and it's relevant later because `io_uring` is a known way malware avoids normal syscall-based EDR hooks, since a lot of monitoring tools still only watch the classic `read`/`write`/`open` syscalls.
-- A pile of `cmd_*` functions, plus `process_cmd` and `main`. That's the command handler layout right there, one function per capability (this is a good example of a case where you don't need to read a single line of disassembly to know the binary's basic shape).
+- A block of local helper symbols that all share one distinctive name prefix (things like `<prefix>_prep_read`, `<prefix>_wait_cqe`, `<prefix>_cq_advance`), plus a couple of higher-level wrapper functions (a file reader, `send_all`, `recv_all`) built on top of them. That shared prefix names a specific Linux async I/O kernel interface, and every one of the agent's own file and socket operations routes through it instead of libc's classic `read`/`write`/`connect`/`open` wrappers. That's the answer to "which kernel interface does it abuse for EDR evasion", you just need to recognize the prefix and know why malware likes hiding behind that particular interface.
+- A run of `cmd_*` functions (things like `cmd_get`, `cmd_recv`, `cmd_privesc`, `cmd_selfdestruct`, and several more in the same style), plus `process_cmd` and `main`. That's the command handler layout right there, one function per capability, and the exact count is worth writing down for later.
+
+Worth flagging early: the number of `cmd_*` handler symbols here is not automatically the same as the number of distinct commands the dispatcher exposes to a connected client. That distinction matters later.
 
 I used this list as a map for the rest of the analysis, jumping straight to whichever `cmd_*` function was relevant instead of reading the whole disassembly top to bottom.
 
@@ -68,9 +70,19 @@ I used this list as a map for the rest of the analysis, jumping straight to whic
 strings -n 4 phantom_ring/agent
 ```
 
-This is always worth doing early since it's free and this binary didn't bother hiding anything. Scrolling through the output you get a good chunk of the picture right away: file paths it touches, log-style messages, and a plain IPv4 address sitting in there in the clear, which is the C2 address. You also get command tokens the binary compares input against, a path used for reading logged-in users, a SUID scan directory, some `/sys/kernel/debug/tracing/` paths, and a `/sys/fs/bpf` reference alongside `/proc/%s/maps`, which is a strong hint it's checking for eBPF-based monitoring tools running on the box.
+This is always worth doing early since it's free and this binary didn't bother hiding anything. Scrolling through the output you get a good chunk of the picture right away:
 
-What `strings` doesn't give you is the port number, the reconnect delay, or the exact number of distinct commands, since those are just numbers sitting in the instructions rather than printable text. For that you need to actually look at the disassembly.
+- A procfs-style path right next to `"Logged users:"` and its matching `"Error reading ..."` message. That's the login-enumeration file `cmd_users` parses, a classic session-tracking table.
+- `/proc`, `/proc/%ld/comm`, `/proc/%ld/fd`, `/dev/pts` sitting near a `"PID CMD"` header, which is `cmd_ps` walking procfs to list processes.
+- A single directory path grouped with `"Failed to open ..."` and `"Potential SUID binaries:"`. That's the SUID scan directory in `cmd_privesc`, no ambiguity about which string it is, just not naming it here.
+- `"Agent will self-destruct"` and `"Unlink failed: %s"` bracketing a procfs path in `cmd_selfdestruct`. That path is what it reads to find its own location on disk before deleting itself.
+- Three `/sys/kernel/debug/tracing/...` paths back to back, plus `"[*] Tracing disabled: %s"`. Three candidates for "first tracing file disabled", but `strings` just dumps them in file order, it doesn't tell you which one the code actually touches first.
+- `/sys/fs/bpf`, a `/proc/%s/maps`-style format string, a short marker string, and `"[+] Killed PID using BPF: %d"` clustered together, which is the eBPF/killbpf detection logic. The format string is what it builds per PID, the marker is the substring it hunts for inside that file. What `strings` alone doesn't tell you is *when* in the loop that check runs relative to the tracing-file cleanup in the same handler.
+- A short run of two-to-eight character tokens right before the `"[*] 404 Command not found [*]"` message: these are the literal command names the dispatcher compares against, one of which triggers self-destruction.
+- One dotted-quad IPv4 address sitting completely alone in the string table, right next to the literal `socket` symbol name and one of the async-I/O helper symbols mentioned above. That's the hardcoded C2 address, in the clear, no obfuscation attempted.
+- `"connect() failed: trying to reconnect"` and `"[+] Connected to %s:%d"` bracketing the connect logic.
+
+*What `strings` cannot give you*: the port number, the reconnect delay, which of the three tracing paths is disabled first, which of the two procfs paths feeds the eBPF `strstr` check, and the true count of distinct commands. All five of those live only as numeric operands or control-flow order in the machine code, never as printable text. For those you have to read the disassembly.
 
 ### Digging into the disassembly
 
@@ -78,29 +90,70 @@ What `strings` doesn't give you is the port number, the reconnect delay, or the 
 objdump -d --no-show-raw-insn phantom_ring/agent > disasm.txt
 ```
 
-Using the symbol names from `nm` as landmarks, I jumped into `main()` first to find the connect logic. Right before the `connect` call there's a `htons` call with a hardcoded 16-bit value getting loaded in just before it, that's your port. On the retry path (after the "trying to reconnect" string), there's a small constant getting passed straight into `sleep`, which is your back-off delay.
-
-For the command count, `process_cmd` is just a chain of `strcmp`/`strncmp` calls against string literals, each one branching off to a `cmd_*` handler if it matches, falling through to a "command not found" message if nothing does. I walked through each comparison and wrote down which literal jumped to which handler. Worth noting: a couple of the literal command names actually point at the exact same handler function, so the number of distinct commands is smaller than the number of command strings. Easy to miss if you just count strings instead of tracing where each branch actually goes.
-
-The SUID and eBPF handlers were straightforward once I was in the right function: one calls `opendir` on a hardcoded path (the privesc scan directory), and the other builds a path under `/proc/<pid>/maps`, reads it, then runs `strstr` looking for a specific substring tied to eBPF map objects. There's also a small array of tracing-related file paths under `/sys/kernel/debug/tracing/` that it loops through and tries to disable one at a time, in a fixed order, so whichever one is first in that array is the one it tries first.
-
-Self-destruct works the same way as everything else here: it calls `readlink` on `/proc/self/exe` to find its own path on disk, then `unlinkat` to delete itself. The trigger for that is just another literal string compared in `process_cmd` like every other command.
-
-One annoyance: because this binary was built with the hardened PLT stubs (`.plt.sec`), `objdump` doesn't always print a friendly function name next to indirect calls, just an offset. If you want to confirm a call is really going to, say, `opendir` and not something else, cross-reference the offset against the relocation table:
+First annoyance: this binary was built with the hardened PLT (`.plt.sec`), so `objdump` prints calls to it as a bare offset like `callq 0x12c0 <.plt.sec+0x10>` instead of a friendly name. Before reading anything else I resolved that table once so every later call site would be self-explanatory. `.plt.sec` is a block of 16-byte stubs starting at `0x12b0`, each one doing `endbr64` then `jmpq *offset(%rip)` into a GOT slot, and `objdump -R` prints exactly which imported symbol lives in each GOT slot:
 
 ```bash
 objdump -R phantom_ring/agent
 ```
 
-That gives you the GOT offset to symbol name mapping directly, so you can match it against what the disassembly is calling.
+Lining up GOT addresses against stub addresses (stub base = GOT-slot-relative jump target minus 4 bytes for the `endbr64`) gives a lookup table, for example `.plt.sec+0x10` is `strncmp`, `+0x70` is `strlen`, `+0x1c0` is `readdir`... once you have that table written down, every `callq 0x12xx <.plt.sec+...>` in the rest of the disassembly reads like a normal function call.
 
-I also went back and checked the raw bytes in `.rodata` for the couple of strings that mattered most (the command list and the tracing-file array), just to be sure the order I recorded from the disassembly actually matched the order the strings are laid out in memory:
+**Port and reconnect delay.** Inside `main()`, right before the connect sequence, there's this:
+
+```text
+41f7:  movw   $0x2, -0x10100(%rbp)
+4200:  movl   $<port immediate>, %edi
+4205:  callq  0x1350 <.plt.sec+0xa0>  ; htons
+420a:  movw   %ax, -0x100fe(%rbp)
+```
+
+`0x1350` resolves to `htons` in the PLT table. It's called with a 16-bit immediate loaded straight into `%edi`, and the byte-swapped result gets written into the port field of the sockaddr struct sitting on the stack. That immediate, converted from hex to decimal, is the C2 port, and it's a literal instruction operand, no guessing or dynamic computation involved.
+
+Further down, on the failed-connect path right after the `"connect() failed: trying to reconnect"` string reference, there's a `movl $<delay immediate>, %edi` immediately followed by a call into `.plt.sec+0x230`, which the PLT table resolves to `sleep`. That immediate, converted to decimal, is the reconnect back-off delay in seconds.
+
+**Command dispatch and the real count.** `process_cmd` is a straight chain of length-checked `strncmp`/`strcmp` calls, each one comparing the sanitized input against one literal token before branching to a handler:
+
+```text
+3ebf:  leaq   <offset>(%rip), %rcx   ; -> literal command token
+3ecc:  callq  0x12c0 <.plt.sec+0x10>  ; strncmp
+3ed3:  testl  %eax, %eax
+3ed5:  jne    <next comparison>
+...
+3ee9:  callq  0x23da <cmd_get>
+```
+
+That pattern repeats once per candidate command, and every branch target is one of the `cmd_*` symbols from the `nm` output. Walking the whole chain and writing down (literal string, target handler) for each comparison is the only reliable way to build a full command inventory, and it's what exposes the twist: one pair of literal tokens, a short one and a longer alias of it, both branch to the *exact same* `callq` target address. `strings` alone would never show you that, since it just lists both tokens as separate text with no idea they resolve to one implementation. The real "how many distinct commands" answer is the count of unique handler addresses actually called from this chain, not the count of literal strings sitting in `.rodata`, and those two counts are not equal here.
+
+**SUID scan and eBPF/tracing evasion.** `cmd_privesc` calls one of the async-I/O prep helpers to stat a path, then `opendir` (`.plt.sec+0x1c0`) against a single hardcoded path loaded via `leaq` right before the call, no loop, no user input, one fixed directory. That's the SUID scan directory, and there's only one `leaq` feeding that `opendir` call so there's nothing to disambiguate.
+
+`cmd_killbpf` is denser. Near the top of the function it loads three pointers into a local array back to back:
+
+```text
+37fb:  leaq  <offset 1>(%rip), %rax   ; -> tracing path
+3802:  movq  %rax, -0x6130(%rbp)
+3809:  leaq  <offset 2>(%rip), %rax   ; -> tracing path
+3810:  movq  %rax, -0x6128(%rbp)
+3817:  leaq  <offset 3>(%rip), %rax   ; -> tracing path
+381e:  movq  %rax, -0x6120(%rbp)
+```
+
+Then it loops with an index starting at 0 (`cmpl $0x2, %eax` / `jbe`, so it runs for index 0, 1, 2), reading `array[index]` each pass and calling `openat`/`write` to flip it off. Array slot 0 is whichever `leaq` loaded first, at stack offset `-0x6130(%rbp)`, so the *first* file it disables is whichever of the three tracing-file strings that first `leaq` points at, and that's a fact about instruction order, not about which line `strings` happened to print first. I double-checked this against the raw `.rodata` bytes (see below) to make sure disassembly load order and on-disk string order actually agreed.
+
+Later in the same function, after the tracing cleanup, it opens `/proc`, walks every PID directory with `readdir`, builds a per-PID path with `snprintf` using a format string, reads it through the higher-level async-I/O file reader mentioned earlier, and calls `strstr` against a second hardcoded string. That second string is the eBPF marker it's hunting for inside the per-PID file, confirming the detection logic strings alone only hinted at, and pinning down exactly which of the two procfs-flavored strings from earlier is the format string versus the marker.
+
+**Self-destruct.** `cmd_selfdestruct` calls `readlink` (`.plt.sec+0x70`) against a hardcoded procfs string, uses the resolved path in one of the async-I/O prep helpers to unlink the file, and only reaches that code path after `process_cmd` matched one specific literal token in the dispatch chain above, the same token that appears in the command inventory.
+
+**Confirming string order against raw bytes.** RIP-relative `leaq` comments in disassembly are `objdump`'s own interpretation of what a load points at, not a guarantee. For the two things where exact order mattered (the tracing-file array and the command-token table), I cross-checked against the raw `.rodata` bytes directly:
 
 ```bash
 objdump -s -j .rodata phantom_ring/agent
 ```
 
-Between `nm`, `strings`, and a focused pass through `objdump -d`, that's everything you need to answer every question in this Sherlock: the hash, the C2 IP and port, the reconnect delay, the real command count, the kernel interface it leans on for evasion, the login-enumeration file, the SUID scan directory, the eBPF detection string, the first tracing file it disables, the self-location path, and the self-destruct trigger string.
+This dumps hex-plus-ASCII for the whole section. Reading the byte range each `leaq` comment pointed at and confirming it actually spells out the expected null-terminated string is what turned "the disassembler's annotation says X" into "the bytes on disk are X", a second, independent confirmation instead of trusting one tool's guess.
+
+### What ties it together
+
+Between `file`/`sha256sum`, `nm`, `strings`, and this focused pass through `objdump -d` plus the `.rodata` and relocation cross-checks, that covers all 12 scored items in this Sherlock: the hash, the C2 IP and port, the reconnect delay, the true command count (and the alias that causes the miscount if you're not careful), the async-I/O evasion angle, the login-enumeration file, the process-listing path, the SUID scan directory, the eBPF detection string and the file it's read from, the first tracing file disabled, the self-location path, and the self-destruct trigger string. None of the literal values themselves are reproduced here, run the same commands against your own extracted copy of the binary and they'll fall out directly.
 
 ______
 
