@@ -1,8 +1,63 @@
 {{ $ads := slice "pawnsapp/pawnsapp-lazy.html" "traffmonetizer/traffmonetizer-lazy.html" "signalandsteel/signalandsteel-lazy.html" "signalandsteel/signalandsteel-banner-lazy.html" "stscollective/stscollective-lazy.html" "stscollective/rayhunter-lazy.html" "stscollective/flockyou-lazy.html" "stscollective/eyespy-lazy.html" "stscollective/stscollective-lazy.html" "stscollective/rayhunter-lazy.html" "stscollective/flockyou-lazy.html" "stscollective/eyespy-lazy.html"}}
-{{ $shuffledAds := shuffle $ads }}
-{{ $shuffledAds = shuffle $shuffledAds }}
-{{ $shuffledAds = shuffle $shuffledAds }}
-{{ $randomAd := index $shuffledAds 0 }}
+
+{{/* Keyword-based ad targeting: a page about a specific STS Collective
+     product gets that product's ad directly instead of a random pick from
+     the pool below. Everything else falls through to the random shuffle. */}}
+{{ $haystack := lower (printf "%s %s" .Title .Plain) }}
+{{ $rayhunterKeywords := slice "rayhunter" "ray hunter" "imsi catcher" "imsi-catcher" "stingray" "cell-site simulator" "cell site simulator" }}
+{{ $flockyouKeywords := slice "flock" "flockyou" "flock safety" "alpr" "license plate reader" }}
+{{ $eyespyKeywords := slice "eye spy" "eyespy" "airtag" "air tag" "bluetooth tracker" "passive surveillance" }}
+{{ $pawnsappKeywords := slice "pawns.app" "pawnsapp" "pawns app" }}
+{{ $traffmonetizerKeywords := slice "traffmonetizer" "traff monetizer" "traff-monetizer" }}
+
+{{ $matchedAd := "" }}
+{{ range $kw := $rayhunterKeywords }}
+  {{ if strings.Contains $haystack $kw }}
+    {{ $matchedAd = "stscollective/rayhunter-lazy.html" }}
+    {{ break }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $flockyouKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/flockyou-lazy.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $eyespyKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/eyespy-lazy.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $pawnsappKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "pawnsapp/pawnsapp-lazy.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $traffmonetizerKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "traffmonetizer/traffmonetizer-lazy.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $randomAd := $matchedAd }}
+{{ if not $randomAd }}
+  {{ $shuffledAds := shuffle $ads }}
+  {{ $shuffledAds = shuffle $shuffledAds }}
+  {{ $shuffledAds = shuffle $shuffledAds }}
+  {{ $randomAd = index $shuffledAds 0 }}
+{{ end }}
+
 {{ if (not .IsHome) }}
     {{ partial (printf "ads/%s" $randomAd) . }}
 {{ end }}

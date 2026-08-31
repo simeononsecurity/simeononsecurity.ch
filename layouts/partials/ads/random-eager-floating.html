@@ -1,6 +1,69 @@
 {{ $ads := slice "pawnsapp/pawnsapp-eager-floating.html" "traffmonetizer/traffmonetizer-eager-floating.html" "earnapp/earnapp-eager-floating.html" "amazon/audible-eager-floating.html" "amazon/audible2-eager-floating.html" "amazon/amazon-student-prime-eager-floating.html" "signalandsteel/signalandsteel-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html"}}
-{{ $shuffledAds := shuffle $ads }}
-{{ $randomAd := index $shuffledAds 0 }}
+
+{{/* Keyword-based ad targeting: a page about a specific STS Collective
+     product gets that product's ad directly instead of a random pick from
+     the pool below. Everything else falls through to the random shuffle. */}}
+{{ $haystack := lower (printf "%s %s" .Title .Plain) }}
+{{ $rayhunterKeywords := slice "rayhunter" "ray hunter" "imsi catcher" "imsi-catcher" "stingray" "cell-site simulator" "cell site simulator" }}
+{{ $flockyouKeywords := slice "flock" "flockyou" "flock safety" "alpr" "license plate reader" }}
+{{ $eyespyKeywords := slice "eye spy" "eyespy" "airtag" "air tag" "bluetooth tracker" "passive surveillance" }}
+{{ $pawnsappKeywords := slice "pawns.app" "pawnsapp" "pawns app" }}
+{{ $traffmonetizerKeywords := slice "traffmonetizer" "traff monetizer" "traff-monetizer" }}
+{{ $earnappKeywords := slice "earnapp" "earn app" }}
+
+{{ $matchedAd := "" }}
+{{ range $kw := $rayhunterKeywords }}
+  {{ if strings.Contains $haystack $kw }}
+    {{ $matchedAd = "stscollective/rayhunter-eager-floating.html" }}
+    {{ break }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $flockyouKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/flockyou-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $eyespyKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/eyespy-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $pawnsappKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "pawnsapp/pawnsapp-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $traffmonetizerKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "traffmonetizer/traffmonetizer-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $earnappKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "earnapp/earnapp-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $randomAd := $matchedAd }}
+{{ if not $randomAd }}
+  {{ $shuffledAds := shuffle $ads }}
+  {{ $randomAd = index $shuffledAds 0 }}
+{{ end }}
 
 {{ if and (not .IsHome) (.IsPage) }}
     {{ partial (printf "ads/%s" $randomAd) . }}
