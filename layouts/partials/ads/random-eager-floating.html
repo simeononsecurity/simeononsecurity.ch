@@ -1,15 +1,22 @@
-{{ $ads := slice "pawnsapp/pawnsapp-eager-floating.html" "traffmonetizer/traffmonetizer-eager-floating.html" "earnapp/earnapp-eager-floating.html" "amazon/audible-eager-floating.html" "amazon/audible2-eager-floating.html" "amazon/amazon-student-prime-eager-floating.html" "signalandsteel/signalandsteel-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html"}}
+{{/* pawnsapp/pawnsapp-eager-floating.html, traffmonetizer/traffmonetizer-eager-floating.html,
+     and earnapp/earnapp-eager-floating.html are intentionally excluded from
+     this random pool. They are only shown via the keyword match below,
+     never picked at random. */}}
+{{ $ads := slice "amazon/audible-eager-floating.html" "amazon/audible2-eager-floating.html" "amazon/amazon-student-prime-eager-floating.html" "signalandsteel/signalandsteel-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html" "stscollective/stscollective-eager-floating.html" "stscollective/rayhunter-eager-floating.html" "stscollective/flockyou-eager-floating.html" "stscollective/eyespy-eager-floating.html"}}
 
 {{/* Keyword-based ad targeting: a page about a specific STS Collective
      product gets that product's ad directly instead of a random pick from
      the pool below. Everything else falls through to the random shuffle. */}}
 {{ $haystack := lower (printf "%s %s" .Title .Plain) }}
-{{ $rayhunterKeywords := slice "rayhunter" "ray hunter" "imsi catcher" "imsi-catcher" "stingray" "cell-site simulator" "cell site simulator" }}
-{{ $flockyouKeywords := slice "flock" "flockyou" "flock safety" "alpr" "license plate reader" }}
-{{ $eyespyKeywords := slice "eye spy" "eyespy" "airtag" "air tag" "bluetooth tracker" "passive surveillance" }}
-{{ $pawnsappKeywords := slice "pawns.app" "pawnsapp" "pawns app" }}
+{{ $rayhunterKeywords := slice "rayhunter" "ray hunter" "imsi catcher" "imsi-catcher" "imsi" "stingray" "stingray detector" "cell-site simulator" "cell site simulator" "fake cell tower" "fake base station" "rogue base station" "rogue cell tower" "cellular surveillance" "cell tower spoofing" "baseband firmware" "orbic rc400" "orbic rcl400" "orbic rc400l" "orbic" "dagshell" "electronic frontier foundation" "eff.org" "efforg" "tp-link m7350" "downgrade attack" "null cipher" }}
+{{ $flockyouKeywords := slice "flock" "flockyou" "flock safety" "flock camera" "flock safety camera" "alpr" "automated license plate reader" "license plate reader" "license plate camera" "plate reader camera" "license plate recognition" "deflock" "get the flock out" "flock finder" "wigle" "oui detection" "oui-spy" }}
+{{ $eyespyKeywords := slice "eye spy" "eyespy" "airtag" "air tag" "bluetooth tracker" "passive surveillance" "wifi tracker" "wi-fi tracker" "gps tracker" "hidden tracker" "covert tracker" "find my tracker" "surveillance detector" "tile tracker" "tracker detection" "surveillance" "reconnaissance" "body camera detection" "drone detection" "opendroneid" "ray-ban meta" "smart glasses" "samsung smarttag" "axon body" "hidden camera" "m5stack" }}
+{{ $pawnsappKeywords := slice "pawns.app" "pawnsapp" "pawns app" "iproyal pawns" }}
 {{ $traffmonetizerKeywords := slice "traffmonetizer" "traff monetizer" "traff-monetizer" }}
 {{ $earnappKeywords := slice "earnapp" "earn app" }}
+{{ $passiveIncomeKeywords := slice "passive income" "share bandwidth" "unused bandwidth" "idle bandwidth" "monetize internet" "residential proxy" }}
+{{ $audibleKeywords := slice "audible" "audiobook" "audiobooks" "essential books" "recommended books" "book recommendation" "book recommendations" "reading list" "must-read books" "best books" "best books for cyber security" }}
+{{ $studentPrimeKeywords := slice "amazon prime" "prime video" "prime student" "prime membership" "prime day" "prime reading" "student discount" "student" "college" "college student" "university" "university student" "education" "educational" "degree program" "scholarship" "financial aid" }}
 
 {{ $matchedAd := "" }}
 {{ range $kw := $rayhunterKeywords }}
@@ -54,6 +61,32 @@
   {{ range $kw := $earnappKeywords }}
     {{ if strings.Contains $haystack $kw }}
       {{ $matchedAd = "earnapp/earnapp-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $passiveIncomeKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $passiveIncomeAds := slice "pawnsapp/pawnsapp-eager-floating.html" "traffmonetizer/traffmonetizer-eager-floating.html" "earnapp/earnapp-eager-floating.html" }}
+      {{ $matchedAd = index (shuffle $passiveIncomeAds) 0 }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $audibleKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $audibleAds := slice "amazon/audible-eager-floating.html" "amazon/audible2-eager-floating.html" }}
+      {{ $matchedAd = index (shuffle $audibleAds) 0 }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $studentPrimeKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "amazon/amazon-student-prime-eager-floating.html" }}
       {{ break }}
     {{ end }}
   {{ end }}
