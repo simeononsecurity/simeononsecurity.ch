@@ -1,5 +1,5 @@
-{{- $pc := .Page.Site.Config.Privacy.Twitter -}}
-{{- $sc := .Page.Site.Config.Services.Twitter -}}
+{{- $pc := .Page.Site.Config.Privacy.X -}}
+{{- $sc := .Page.Site.Config.Services.X -}}
 {{- if not $pc.Disable -}}
 {{- $id := .Get 0 -}}
 {{- $url := printf "https://api.twitter.com/1/statuses/oembed.json?id=%s&omit_script=true" $id }}
