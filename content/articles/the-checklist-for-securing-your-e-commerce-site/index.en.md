@@ -27,6 +27,8 @@ Understanding the Importance of E-commerce Security
 
 ### The Growing Threat Landscape for E-commerce Sites
 
+{{< figure src="ecommerce-threat-landscape-data-breach-risks.webp" alt="Diagram showing common e-commerce security threats including data breaches, payment fraud, and credential theft targeting online stores" >}}
+
 As a cybersecurity expert, you need to understand the evolving threat landscape that e-commerce sites face. **Cybercriminals** are constantly finding new ways to exploit vulnerabilities and gain unauthorized access to sensitive customer data. This poses significant risks to both the reputation and financial well-being of e-commerce businesses. To effectively protect against these threats, you need to stay informed about the latest attack techniques and security best practices.
 
 * E-commerce sites are prime targets for **data breaches** due to the valuable customer information they store, such as credit card details and personal identification data.

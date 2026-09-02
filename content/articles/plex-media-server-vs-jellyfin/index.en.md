@@ -29,6 +29,8 @@ In this article, we'll take a comprehensive look at [Plex Media Server](https://
 
 ## Features:
 
+{{< figure src="plex-vs-jellyfin-feature-comparison.webp" alt="Side-by-side comparison illustration of Plex Media Server and Jellyfin, highlighting media library organization, streaming, and metadata features" >}}
+
 Both **Plex Media Server** and **Jellyfin** offer a vast array of features for organizing, storing, and streaming your media.
 
 [**Plex Media Server**](https://www.plex.tv) is known for its **user-friendly interface** that makes it easy for users to navigate and manage their media libraries. The platform excels in **automatic organization of your media library**, using advanced metadata scraping and matching algorithms to fetch information like movie posters, plot summaries, cast details, and more. This ensures that your media collection is neatly organized and visually appealing. Plex allows you to **stream your media to any device** with the [Plex app](https://www.plex.tv/apps-devices/), making it accessible on various platforms including smart TVs, streaming devices, computers, and mobile devices. Also, Plex offers premium features such as **live TV and DVR** functionality, allowing you to watch and record live television, **music streaming** capabilities for accessing your favorite songs and playlists, and **photo management** to create beautiful slideshows and share memories with friends and family. Also, Plex provides a range of **plugins** that enable users to extend the functionality of the platform. These plugins cover many areas, including content sources, additional features, and integrations with third-party services.

@@ -161,6 +161,8 @@ ______
 
 ## Conclusion
 
+{{< figure src="social-engineering-defense-checklist-overview.webp" alt="Checklist-style diagram summarizing social engineering defenses including staying informed, securing devices, strong authentication, email caution, and incident reporting" >}}
+
 Protecting yourself from social engineering attacks requires a combination of **knowledge, vigilance, and proactive measures**. By understanding the different forms of social engineering and implementing the strategies outlined in this article, you can significantly **reduce the risk of falling victim** to these deceptive tactics. 
 
 Remember to **stay informed**, regularly **update and secure your devices**, **strengthen passwords and authentication**, **be cautious with emails and phone calls**, and **report any incidents to the appropriate authorities**. By taking these steps, you're **fortifying your defenses** and enhancing your overall **cybersecurity posture**.

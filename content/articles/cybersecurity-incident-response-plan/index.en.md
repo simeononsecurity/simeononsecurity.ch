@@ -18,6 +18,8 @@ _
 
 ## Understanding the Importance of a Cybersecurity Incident Response Plan
 
+{{< figure src="incident-response-plan-organizational-impact.webp" alt="Diagram showing how a cybersecurity incident ripples across financial stability, reputation, legal compliance, and external stakeholder relationships without a response plan" >}}
+
 ### The Role of Cybersecurity in Today's Digital Age
 
 In the interconnected world we live in, organizations heavily rely on **digital systems and networks** for their day-to-day operations. However, this reliance makes them **vulnerable to many cyber threats**, including **data breaches**, **malware attacks**, and **ransomware infections**. A single **cybersecurity incident** can lead to significant **financial losses**, **reputational damage**, and **legal repercussions**. Therefore, having a well-designed **incident response plan** is crucial in **minimizing the impact** of such incidents.

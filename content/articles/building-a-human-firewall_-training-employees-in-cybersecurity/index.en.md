@@ -327,6 +327,8 @@ Measuring the Impact of Cyber[security](https://simeononsecurity.com) Training
 Conclusion
 ----------
 
+{{< figure src="human-firewall-cybersecurity-training-lifecycle.webp" alt="Diagram showing the human firewall training lifecycle from identifying training needs through engagement, simulated attacks, and measuring ROI" >}}
+
 Wrapping up, **cybersecurity training** for employees is of utmost importance Today . The growing threat of **cyber attacks** highlights the need for organizations to invest in training programs that equip their employees with the necessary knowledge and skills to protect sensitive information. Employees play a crucial role in cybersecurity, as they're often the first line of defense against potential threats. The consequences of a security breach can be severe, including financial loss, damage to reputation, and legal implications.
 
 Designing an effective cybersecurity training program involves identifying the specific training needs and objectives of the organization, creating engaging and interactive training materials, implementing simulated cyber attack scenarios, and continuously measuring the effectiveness of the training. Engaging employees in cybersecurity training requires building awareness and a security mindset, promoting a culture of responsibility, incentivizing employee participation, providing ongoing support and resources, and encouraging reporting and incident response.

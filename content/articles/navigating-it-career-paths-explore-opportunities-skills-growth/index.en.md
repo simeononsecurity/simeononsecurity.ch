@@ -23,6 +23,8 @@ With the **growing importance** of technology These days **IT careers** have bec
 
 ## The Relevance of IT Careers in a Digitally-Driven World
 
+{{< figure src="it-career-paths-cybersecurity-development-data-science.webp" alt="Diagram showing branching IT career paths across cybersecurity, software development, data science, and cloud computing" >}}
+
 In our increasingly **digitally-driven world**, IT careers have gained significant importance. From **cybersecurity** to **software development** and **data science**, IT professionals are at the forefront of technological advancements. They play a vital role in designing, implementing, and maintaining **computer systems** and **network infrastructure** that power businesses and support their growth.
 
 IT professionals specializing in **cybersecurity** are responsible for protecting computer systems, networks, and data from unauthorized access or malicious attacks. They develop strategies to identify vulnerabilities and implement measures to strengthen security. Examples of cybersecurity roles include **ethical hackers**, **security analysts**, and **incident responders**. For those interested in pursuing a cybersecurity career, certifications like [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) or [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/cyber-security-career-playbook/cyber-security-certifications-degrees-and-certificates/certifications/a-guide-to-earning-the-ISC2-cissp-certification/) can enhance their skills and credibility.
@@ -255,6 +257,8 @@ Remember, the IT industry is dynamic, and staying adaptable and proactive in acq
 ______
 
 ## Conclusion
+
+{{< figure src="it-career-conclusion-four-role-comparison.webp" alt="Diagram comparing four IT career roles side by side: software developer, cybersecurity specialist, data scientist, and cloud engineer" >}}
 
 The world of **IT** offers a vast array of **career paths**, each with its own unique challenges and rewards. Whether you aspire to be a **software developer**, **cybersecurity specialist**, **data scientist**, or **cloud engineer**, the key to success lies in pursuing the right **qualifications**, developing essential **skills**, and keeping up with industry trends. By starting an IT career, you can become an integral part of the **digital transformation** journey and contribute to shaping the future of technology.
 

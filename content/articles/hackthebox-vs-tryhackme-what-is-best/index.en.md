@@ -21,6 +21,8 @@ This introductory **YouTube** video sets the stage for the discussion.
 
 ### What is HackTheBox?
 
+{{< figure src="hackthebox-vs-tryhackme-platform-comparison.webp" alt="Side-by-side illustration comparing the HackTheBox and TryHackMe cybersecurity learning platforms" >}}
+
 **HackTheBox** is an online platform that provides **challenges and virtual machines** to help users learn **cybersecurity skills**. The challenges range from **simple** to **extremely difficult**, covering topics such as **web application security**, **network security**, **cryptography**, and more. HackTheBox offers both **free** and **paid subscription options** and has a **large and active community** of users.
 
 HackTheBox challenges are designed to **simulate real-world scenarios**, allowing users to apply their knowledge and skills in **practical situations**. For example, users may encounter challenges where they have to **exploit vulnerabilities** in a web application, **crack encryption algorithms**, or **analyze network traffic** to identify security weaknesses. Each challenge presents a unique learning opportunity and encourages **creative thinking** and **problem-solving skills**.

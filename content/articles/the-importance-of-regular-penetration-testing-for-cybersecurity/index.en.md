@@ -27,6 +27,8 @@ The Role of Penetration Testing in Cybersecurity
 
 ### Understanding Penetration Testing
 
+{{< figure src="penetration-testing-simulated-attack-workflow.webp" alt="Diagram showing a penetration testing workflow that simulates real-world attacks to identify vulnerabilities before malicious actors exploit them" >}}
+
 Penetration testing, also known as ethical hacking, is a crucial process in cybersecurity. It involves simulating real-world attacks on a system or network to identify vulnerabilities and weaknesses. By conducting penetration testing, organizations can proactively assess their security measures and take necessary steps to mitigate potential risks.
 
 Penetration testing serves as a proactive measure to identify and address security vulnerabilities before malicious actors can exploit them. It helps organizations understand their security posture and provides valuable insights into the effectiveness of their security controls.

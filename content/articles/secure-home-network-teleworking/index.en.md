@@ -99,6 +99,8 @@ Implementing network security software not only protects your network from exter
 
 ## Maintaining Your Network's Security
 
+{{< figure src="home-network-ongoing-security-maintenance-checklist.webp" alt="Checklist diagram showing ongoing home network security maintenance tasks: firmware updates, network log monitoring, connected device review, and unauthorized access detection" >}}
+
 Securing your home wireless network isn't a one-time task. It requires ongoing maintenance to ensure that your network remains secure and protected.
 
 One important aspect of maintaining network security is regularly updating your router's firmware. Manufacturers often release firmware updates for routers to address security vulnerabilities and improve overall performance. These updates may include patches for known vulnerabilities, bug fixes, and new features. By regularly updating your router's firmware, you can stay ahead of potential threats and ensure that your network is running on the latest and most secure firmware version.

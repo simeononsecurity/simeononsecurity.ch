@@ -27,6 +27,8 @@ Understanding Endpoint Security for Remote Teams
 
 ### The Importance of Endpoint Security in Remote Work
 
+{{< figure src="endpoint-security-remote-team-device-protection.webp" alt="Diagram showing endpoint security protecting remote team laptops, smartphones, and other devices from unauthorized access and data breaches" >}}
+
 As a cybersecurity expert, you need to understand the importance of endpoint security in remote work. With the increasing number of remote teams, the endpoints, which include laptops, smartphones, and other devices, become the primary targets for cyberattacks. **Endpoint security** refers to the measures and strategies implemented to protect these endpoints from unauthorized access, data breaches, and other security threats.
 
 * Remote work introduces new vulnerabilities and risks to an organization's network and data. **Cybercriminals** take advantage of the less secure home networks and personal devices used by remote workers to gain unauthorized access to sensitive information.

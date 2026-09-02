@@ -189,6 +189,8 @@ Stay resilient, stay focused, and stay motivated. With determination and the rig
 
 ## Conclusion
 
+{{< figure src="ceh-exam-preparation-study-plan-overview.webp" alt="Diagram summarizing the CEH exam preparation roadmap: study plan creation, practice exams, study groups, and time management" >}}
+
 Wrapping up, preparing for the **CEH certification exam** is a rigorous but worthwhile endeavor that can open doors to exciting opportunities in the field of cybersecurity. By following the strategies outlined in this guide, you can maximize your chances of success and enhance your knowledge and skills as an ethical hacker.
 
 Start by **creating a comprehensive study plan** that covers all the exam objectives. use a combination of **online courses**, **books**, and **video tutorials** to gain a well-rounded understanding of the material. Don't forget to leverage **official resources** provided by the **EC-Council**, such as their official CEH study guide and practice exams, to ensure you're aligned with the exam requirements.

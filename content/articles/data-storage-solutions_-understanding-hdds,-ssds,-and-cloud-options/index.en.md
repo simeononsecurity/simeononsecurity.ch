@@ -25,6 +25,8 @@ In today's digital age, data storage is a critical aspect of our personal and pr
 Understanding HDDs
 ------------------
 
+{{< figure src="hdd-platters-read-write-heads-diagram.webp" alt="Cutaway diagram of a hard disk drive showing spinning magnetic platters and a read/write head arm accessing stored data" >}}
+
 ### How HDDs Work
 
 Hard disk drives (HDDs) are a common form of data storage in computer systems. They consist of one or more rotating disks, or platters, coated with a magnetic material. The data is stored on these platters in the form of magnetic patterns. When the computer needs to access the data, the read/write heads move across the platters, detecting and modifying the magnetic patterns. This process allows for the retrieval and storage of data on the HDD.

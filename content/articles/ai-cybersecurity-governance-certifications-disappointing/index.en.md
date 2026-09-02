@@ -77,6 +77,8 @@ Certifications built around the EU AI Act prepare you to classify AI systems, wr
 
 ## What Is Actually Attacking AI Systems
 
+{{< figure src="ai-system-attack-surface-prompt-injection-poisoning.webp" alt="Diagram showing the AI system attack surface including prompt injection, training data poisoning, model supply chain compromise, and model extraction attack paths" >}}
+
 MITRE ATLAS and OWASP LLM Top 10 document the operational threat landscape. These are the resources that enumerate attacks at a useful level of detail. Governance frameworks reference threats at a higher abstraction. The following comes from those security-specific sources.
 
 Prompt injection works by providing input to a language model that overrides or manipulates system instructions. Direct injection targets the model's input directly. Indirect injection embeds malicious instructions in content the model retrieves, processes, or summarizes. Your RAG pipeline reads an attacker-controlled document and acts on instructions hidden in it. Your browsing agent visits an attacker-controlled page and follows its embedded directives. Your customer support bot summarizes a support article containing instructions to ignore its safety guidelines.

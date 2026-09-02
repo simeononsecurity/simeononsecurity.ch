@@ -27,6 +27,8 @@ Computer file systems are an essential component of any operating system. They a
 Introduction to Computer File Systems
 -------------------------------------
 
+{{< figure src="computer-file-systems-fat32-ntfs-exfat-overview.webp" alt="Diagram comparing FAT32, NTFS, exFAT, and other file systems by directory structure, file size limits, and access control features" >}}
+
 ### What is a Computer File System?
 
 A computer file system is a method of organizing and storing files on a computer's storage devices. It provides a structure and set of rules for how data is stored, accessed, and managed. File systems are essential for the functioning of operating systems and applications, as they enable the storage and retrieval of data.

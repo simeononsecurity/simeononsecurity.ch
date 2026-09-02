@@ -44,6 +44,8 @@ NIST SP 800-61 Rev. 2 provides a framework for incident response that consists o
 
 ## Improvements to NIST SP 800-61 Rev. 2
 
+{{< figure src="nist-sp-800-61-incident-response-lifecycle-improvements.webp" alt="Diagram showing the NIST SP 800-61 Rev. 2 incident response lifecycle with suggested improvements: threat intelligence integration, communication protocols, and post-incident analysis" >}}
+
 While NIST SP 800-61 Rev. 2 provides a useful framework for incident response, there are some areas where it could be improved. The following are some suggested improvements:
 
 ### 1. Incorporate threat intelligence

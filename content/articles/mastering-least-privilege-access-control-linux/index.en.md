@@ -18,6 +18,8 @@ In the modern cybersecurity landscape, protecting sensitive information and digi
 
 ### The Importance of Least Privilege in Cybersecurity
 
+{{< figure src="least-privilege-access-control-attack-surface-reduction.webp" alt="Diagram showing how least privilege access control reduces the attack surface by limiting each user account to only the permissions required for their role" >}}
+
 Implementing least privilege access control is essential for maintaining a **secure environment**. By granting users only the privileges they need, organizations can significantly reduce the **attack surface** and limit the potential impact of a **security breach**. In a world where **cyber threats** are evolving rapidly, it is crucial for organizations to adopt **proactive measures** to **mitigate the risks** posed by unauthorized access or user errors.
 
 For example, imagine a scenario where an organization's IT department grants all employees **administrative privileges** on their workstations. This means that every employee has the ability to **install software**, **modify system settings**, and **access sensitive files**. While this may seem convenient for employees, it also increases the risk of **malware infections**, **accidental data loss**, and **unauthorized access** to critical systems. By implementing least privilege access control, the organization can ensure that only authorized individuals with a **legitimate need** for administrative privileges can perform such actions, reducing the overall risk to the organization.

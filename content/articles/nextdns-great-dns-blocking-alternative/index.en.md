@@ -21,6 +21,7 @@ ______
 
 ## What is NextDNS?
 
+{{< figure src="nextdns-cloud-based-filtering-architecture.webp" alt="Diagram showing NextDNS acting as a cloud-based middleman that intercepts DNS queries and blocks malicious, phishing, or unwanted domains before they reach the device" >}}
 
 [**NextDNS**](https://nextdns.io/?from=jyfq92sk) is a **cloud-based DNS filtering service** designed to provide **security** and **control** over internet access. It acts as a **middleman** between your devices and the internet, **intercepting DNS queries** and **blocking access** to **harmful** or **unwanted domains**. By using a vast and frequently updated database of domain categorizations, **NextDNS can efficiently identify and block various threats**, including **malware**, **phishing sites**, and **adult content**. The service works smoothly across **multiple platforms**, making it accessible for a **wide range of users**.
 

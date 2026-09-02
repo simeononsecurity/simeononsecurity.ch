@@ -35,7 +35,7 @@ As a cybersecurity expert, I have witnessed the significant impact of the rise o
 
 ### Touchscreens: A Revolution in Input Technology
 
-Touchscreens: A Revolution in Input Technology
+{{< figure src="touchscreen-multi-touch-gesture-input-methods.webp" alt="Diagram showing touchscreen input methods including finger gestures, stylus input, and multi-touch gestures across smartphones, tablets, and interactive whiteboards" >}}
 
 Touchscreens have revolutionized the way we interact with devices, providing a more intuitive and immersive experience. With the ability to directly manipulate objects on the screen, users can navigate through menus, scroll through content, and interact with applications with a simple touch. This technology has become increasingly popular in recent years, with touchscreens being integrated into smartphones, tablets, laptops, and even larger displays such as interactive whiteboards.
 
@@ -53,7 +53,7 @@ Voice recognition technology has emerged as a promising [advancement in the fiel
 
 ### Gesture Control: A New Way to Interact
 
-Gesture Control: A New Way to Interact
+{{< figure src="gesture-control-hand-motion-device-interaction.webp" alt="Diagram showing gesture control input methods such as swiping, pinching, and rotating hand motions used to interact with devices without physical buttons" >}}
 
 Gesture control is a advanced technology that allows users to interact with devices using hand movements and gestures. It offers a unique and intuitive way of controlling devices, making it an exciting development in the field of input devices. With gesture control, users can perform actions such as swiping, pinching, and rotating without the need for physical buttons or touchscreens.
 

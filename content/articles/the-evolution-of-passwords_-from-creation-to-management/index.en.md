@@ -213,6 +213,8 @@ The Future of Passwords
 
 ### Post-Password Era
 
+{{< figure src="post-password-era-biometric-mfa-blockchain-auth.webp" alt="Diagram showing post-password authentication methods including biometric authentication, multi-factor authentication, behavioral biometrics, and blockchain-based credential storage" >}}
+
 In the post-password era, traditional password-based authentication methods are being replaced by more advanced and secure alternatives. This shift is driven by the increasing number of data breaches and the realization that passwords alone are no longer sufficient to protect sensitive information. **Biometric authentication** is emerging as a popular alternative, using unique physical or behavioral characteristics such as fingerprints, facial recognition, or voice recognition to verify a user's identity. This method provides a higher level of security as it is difficult to replicate or steal someone's biometric data.
 
 Another trend in the post-password era is the use of **multi-factor authentication** (MFA). MFA combines two or more authentication factors, such as something the user knows (password), something the user has (smartphone), or something the user is (biometric data), to verify identity. This adds an extra layer of security and makes it more difficult for attackers to gain unauthorized access.

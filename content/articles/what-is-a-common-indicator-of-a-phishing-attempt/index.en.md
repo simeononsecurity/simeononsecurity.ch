@@ -13,6 +13,8 @@ coverCaption: "Stay vigilant, stay secure."
 
 **What is a Common Indicator of a Phishing Attempt?**
 
+{{< figure src="phishing-email-common-red-flags-overview.webp" alt="Diagram highlighting common phishing email red flags including suspicious sender addresses, urgent language, spelling mistakes, and unexpected attachments" >}}
+
 Phishing attempts have become increasingly prevalent Today . Cybercriminals use various tactics to deceive individuals and gain unauthorized access to sensitive information. Recognizing the signs of a phishing attempt is crucial for protecting yourself and your data. In this article, we will explore common indicators of phishing attempts and provide tips on how to stay safe online.
 
 A common indicator of a phishing attempt is the presence of **suspicious email addresses**. Phishers often use email addresses that mimic those of legitimate organizations, but with slight variations or misspellings. For example, instead of "support@example.com," they may use "supp0rt@example.com" or "support@example.co." These small changes can be easily overlooked at first glance, tricking recipients into believing that the email is legitimate.

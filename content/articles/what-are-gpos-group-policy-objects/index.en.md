@@ -150,6 +150,8 @@ For further guidance on GPO management best practices, you can refer to **Micros
 
 ## Conclusion
 
+{{< figure src="gpo-hierarchy-inheritance-active-directory.webp" alt="Diagram showing GPO hierarchy and inheritance within an Active Directory domain, from domain-level GPOs down to organizational unit GPOs" >}}
+
 Wrapping up, **Group Policy Objects (GPOs)** offer significant benefits in managing and configuring settings within a Windows network. By using the GPO hierarchy and inheritance, using the Group Policy Management Console (GPMC), and adhering to best practices, you can effectively manage GPOs and maintain consistency across your network.
 
 GPOs provide centralized control over critical aspects such as **security policies**, **software installations**, and **desktop settings**. This level of control helps enforce standardized configurations, enhance security, and simplify network management tasks.

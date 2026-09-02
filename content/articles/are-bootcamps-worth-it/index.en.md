@@ -40,6 +40,8 @@ Wrapping up, bootcamps have several advantages that make them worth considering 
 
 ## Are Bootcamps Worth It? - The Cons
 
+{{< figure src="bootcamp-vs-traditional-degree-tradeoffs.webp" alt="Diagram comparing coding bootcamp tradeoffs against traditional degree programs, weighing depth of curriculum, employer recognition, and program intensity" >}}
+
 While bootcamps offer many benefits, there are also some drawbacks that you should be aware of. One of the **biggest concerns** is that bootcamps may not provide a **comprehensive education**. Since bootcamps are designed to be fast-paced and intensive, they may not cover every aspect of a particular subject. For example, a coding bootcamp may focus on teaching the fundamentals of programming and specific coding languages, but it may not dig deeply into advanced computer science concepts or software architecture. This can limit your overall understanding of the subject and may require additional self-study or coursework to fill the gaps.
 
 Another drawback of bootcamps is that they may not have the same level of **credibility** as more traditional education programs. Since bootcamps are relatively new, they may not be recognized by employers as a legitimate form of education. This can limit your job opportunities and earning potential. Employers often prioritize candidates with formal degrees or extensive academic backgrounds when making hiring decisions. While some bootcamps have partnerships with companies and offer job placement assistance, the lack of widespread recognition can still be a hurdle for bootcamp graduates.

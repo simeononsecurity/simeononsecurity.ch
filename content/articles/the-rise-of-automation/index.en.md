@@ -107,6 +107,8 @@ Wrapping up, preparing for an automated future requires a collaborative effort b
 
 ### The Ethical Considerations of Automation
 
+{{< figure src="automation-ethics-employment-privacy-digital-divide.webp" alt="Diagram showing the ethical considerations of automation technology: employment displacement, privacy and data security, and the digital divide" >}}
+
 The rise of automation technology also raises important ethical considerations that must be addressed.
 
 **Automation technology has been rapidly advancing in recent years**, and it has been transforming various industries and sectors. From manufacturing and transportation to healthcare and finance, automation has been increasingly adopted to improve efficiency, increase productivity, and reduce costs. However, as automation technology becomes more prevalent, it also poses significant ethical dilemmas that must be addressed.

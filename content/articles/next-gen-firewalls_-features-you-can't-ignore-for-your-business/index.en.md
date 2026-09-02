@@ -26,6 +26,8 @@ Understanding Next-Gen Firewalls
 
 ### Evolution of Firewalls
 
+{{< figure src="next-gen-firewall-evolution-traditional-to-advanced.webp" alt="Diagram showing the evolution from traditional port and IP-based firewalls to next-gen firewalls with application control and intrusion prevention" >}}
+
 Firewalls have evolved significantly over the years to keep up with the ever-changing landscape of cybersecurity threats. Traditional firewalls were primarily focused on monitoring and controlling network traffic based on IP addresses and ports. However, with the rise of sophisticated attacks and the increasing complexity of network environments, a new generation of firewalls emerged to address these challenges.
 
 ### Key Features of Next-Gen Firewalls

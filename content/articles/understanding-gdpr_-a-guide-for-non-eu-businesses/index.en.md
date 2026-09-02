@@ -25,6 +25,8 @@ The General Data Protection Regulation (GDPR) is a comprehensive data protection
 Overview of GDPR
 ----------------
 
+{{< figure src="gdpr-overview-eu-data-protection-scope.webp" alt="Diagram showing the scope of GDPR data protection covering EU residents and its extraterritorial reach to non-EU businesses that process their personal data" >}}
+
 ### History and Purpose of GDPR
 
 The history and purpose of the General Data Protection Regulation (GDPR) is of utmost importance for non-EU businesses to understand. GDPR was introduced by the European Union (EU) in 2018 to strengthen the protection of personal data and privacy rights of individuals within the EU. It aims to harmonize data protection laws across EU member states and provide individuals with greater control over their personal data.

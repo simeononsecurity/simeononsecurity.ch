@@ -25,6 +25,8 @@ Cyber insurance is an important tool for businesses to protect themselves agains
 Understanding Cyber Insurance
 -----------------------------
 
+{{< figure src="cyber-insurance-coverage-types-overview.webp" alt="Diagram showing cyber insurance coverage types including data breach costs, cyber extortion, business interruption, and third-party liability" >}}
+
 ### What is Cyber Insurance?
 
 Cyber insurance is a type of insurance policy that provides coverage for financial losses and liabilities resulting from cyber attacks and data breaches. It is designed to help businesses recover from the financial impact of cyber incidents and protect against potential legal claims. Cyber insurance policies typically cover a range of expenses, including legal fees, notification costs, and credit monitoring services.

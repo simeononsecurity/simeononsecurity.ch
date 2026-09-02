@@ -23,6 +23,8 @@ WMI filters are written using the WMI Query Language (WQL), a subset of SQL (Str
 
 ## How Does WMI Filtering Work in GPOs?
 
+{{< figure src="wmi-filtering-gpo-evaluation-flow.webp" alt="Flowchart showing a WMI filter attached to a Group Policy Object evaluating a WQL query as True or False to decide whether the GPO applies to a target computer" >}}
+
 In Group Policy, **WMI filtering** is a powerful mechanism that allows administrators to apply GPOs selectively based on the evaluation of **WMI queries**. By associating a **WMI filter** with a GPO, administrators can control the application of the GPO by determining whether the filter evaluates to **True** or **False**.
 
 WMI filters are constructed using the **WMI Query Language (WQL)**, which is a subset of SQL (Structured Query Language). Using WQL, administrators can create complex queries that consider various **properties** and **values** available in the **WMI namespace**. This enables precise targeting of specific computers or users.

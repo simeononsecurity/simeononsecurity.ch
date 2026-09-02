@@ -29,6 +29,8 @@ The Importance of Cybersecurity Hygiene
 
 ### Understanding the Risks
 
+{{< figure src="cybersecurity-hygiene-daily-habits-overview.webp" alt="Diagram showing daily cybersecurity hygiene habits including password management, software updates, and home network security" >}}
+
 Understanding the risks associated with cybersecurity is crucial for maintaining a secure online environment. Cyber threats are constantly evolving, and individuals must be aware of the potential dangers they face. By understanding the risks, individuals can take proactive measures to protect their data and personal information.
 
 To help illustrate the importance of cybersecurity, consider the following statistics:

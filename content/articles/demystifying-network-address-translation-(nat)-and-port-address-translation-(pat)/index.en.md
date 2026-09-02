@@ -27,6 +27,8 @@ Introduction to Network Address Translation (NAT)
 
 ### Definition and Purpose of NAT
 
+{{< figure src="nat-pat-private-public-ip-translation.webp" alt="Diagram showing Network Address Translation converting private IP addresses on a local network to a single shared public IP address for internet communication" >}}
+
 Network Address Translation (NAT) is a fundamental networking technology used to translate private IP addresses to public IP addresses and vice versa. Its purpose is to enable [communication between devices on different networks](https://www.blamethe.network/posts/demystifying-vasi/) that use incompatible addressing schemes. NAT allows multiple devices on a private network to share a single public IP address, conserving the limited pool of available public IP addresses. It also provides a level of security by hiding the internal IP addresses from external networks.
 
 ### Types of NAT

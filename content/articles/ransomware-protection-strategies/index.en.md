@@ -28,6 +28,8 @@ Ransomware attacks pose a **significant threat** due to their ability to **paral
 
 ### The History of Ransomware Attacks
 
+{{< figure src="ransomware-attack-timeline-wannacry-colonial-pipeline.webp" alt="Timeline diagram showing notable ransomware attacks from the 1989 AIDS Trojan through WannaCry in 2017 and the Colonial Pipeline attack in 2021" >}}
+
 Ransomware attacks have a **long and storied history**, with notable landmarks along the way. One of the earliest known instances of ransomware dates back to **1989**, with the **AIDS Trojan**. This malicious program, spread via **floppy disks**, encrypted users' files and demanded a ransom be sent to a **PO Box in Panama**.
 
 Over the years, ransomware attacks have **evolved in sophistication** and prevalence, becoming a favored tool among **cybercriminals**. Notable ransomware families, such as **CryptoLocker**, **Locky**, and **Ryuk**, have caused widespread damage and **financial losses running into the billions of dollars**.

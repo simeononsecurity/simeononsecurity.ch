@@ -21,6 +21,8 @@ ______
 
 ## What are Google Career Certificates?
 
+{{< figure src="google-career-certificates-cybersecurity-it-support-paths.webp" alt="Diagram showing the two Google Career Certificate paths, Cybersecurity and IT Support, each leading to entry-level tech roles" >}}
+
 [**Google Career Certificates**](https://grow.google/certificates/) are online training programs offered by [Google](https://grow.google/certificates/) in collaboration with top industry experts and educational institutions. These programs are designed to provide individuals with the skills needed to pursue a successful career in various technology fields, such as **IT support** and **cybersecurity**. The curriculum is developed based on Google's own internal training programs, ensuring the relevance and quality of the content.
 
 The two most popular Google Career Certificates are the **Google Cybersecurity Certificate** and the **Google IT Support Professional Certificate**. These certificates are highly recognized in the industry and serve as valuable credentials for individuals looking to enter or advance in the technology sector.

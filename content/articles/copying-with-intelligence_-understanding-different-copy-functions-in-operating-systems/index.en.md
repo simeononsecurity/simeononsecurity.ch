@@ -29,6 +29,8 @@ Understanding the Copy Function in Operating Systems
 
 ### Copying Files: How it Works
 
+{{< figure src="os-copy-function-file-directory-duplication.webp" alt="Diagram showing how an operating system's copy function duplicates files and recursively copies directories and subdirectories" >}}
+
 When it comes to copying files in an operating system, there are a few key steps involved. Understanding these steps can help you better grasp the copy function and its intricacies.
 
 First, the operating system identifies the source file that needs to be copied. This could be a file located in a specific directory or a file specified by its full path. The source file is then opened for reading.

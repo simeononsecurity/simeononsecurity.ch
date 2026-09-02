@@ -119,6 +119,8 @@ Remember, developing these skills is an ongoing process. Continuously seek oppor
 
 ## Conclusion
 
+{{< figure src="information-systems-manager-five-key-skills-overview.webp" alt="Diagram summarizing the five key skills for an information systems manager: technical, analytical, leadership, project management, and communication" >}}
+
 Wrapping up, **managing information systems (MIS)** is a challenging but rewarding role These days . To be effective in this role, an MIS must possess a unique set of skills. The **technical**, **analytical**, **leadership and interpersonal**, **project management**, and **communication skills** outlined in this article are essential for an MIS to be successful.
 
 By acquiring strong **technical skills** such as **system architecture**, proficiency in **programming languages**, understanding of **database management**, and knowledge of **cloud computing**, an MIS can effectively navigate and leverage technology platforms and tools in an organization. For example, an MIS with expertise in **Amazon Web Services (AWS)** can use cloud-based solutions to enhance the organization's information systems.

@@ -17,6 +17,8 @@ Insider threat programs are a critical component of an organization's overall se
 
 Insider threat programs, as the name suggests, are aimed at addressing threats that come from within an organization. While external threats such as hackers and cybercriminals often grab the headlines, the reality is that insiders can pose an equally significant risk. These individuals have access to sensitive information, systems, and infrastructure, making them potential vectors for attacks or breaches.
 
+{{< figure src="insider-threat-program-detection-response-framework.webp" alt="Diagram showing an insider threat program framework combining policies, monitoring technology, employee training, and cross-department collaboration" >}}
+
 ### Definition of Insider Threat Programs
 
 An insider threat program is a comprehensive and proactive approach taken by organizations to detect, deter, and respond to insider threats. It involves a combination of policies, procedures, technologies, and training aimed at identifying and mitigating risks posed by insiders. These risks can come from employees, contractors, or even business partners.

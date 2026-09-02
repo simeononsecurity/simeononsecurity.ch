@@ -140,6 +140,8 @@ In the above example, the command sets the permissions of the file "file2.txt" t
 
 ## Advanced Linux Commands for Cybersecurity
 
+{{< figure src="linux-cli-advanced-security-commands-overview.webp" alt="Diagram showing a Linux terminal running nmap, netstat, and find commands used for network scanning, process monitoring, and file investigation in cybersecurity workflows" >}}
+
 ### Network Mapper
 
 The **nmap** command is a powerful network scanning tool in the CLI that can be used to identify hosts and services on a network, as well as potential vulnerabilities. The command can perform a range of scanning techniques, including host discovery, port scanning, and operating system detection. 

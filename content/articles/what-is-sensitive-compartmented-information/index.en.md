@@ -21,6 +21,8 @@ Sensitive Compartmented Information (**SCI**) is a classification level used by 
 
 ### Understanding Sensitive Compartmented Information
 
+{{< figure src="sci-classification-levels-intelligence-sources.webp" alt="Diagram showing Sensitive Compartmented Information classification levels tied to intelligence sources, methods, and operations" >}}
+
 Sensitive Compartmented Information encompasses classified information that is more sensitive and restricted than the standard classified information. It is usually related to intelligence sources, methods, and operations, as well as information derived from foreign governments or entities. SCI is classified at different levels depending on its sensitivity and the potential harm its disclosure could cause to national security.
 
 ### Classification Levels of Sensitive Compartmented Information (SCI)
