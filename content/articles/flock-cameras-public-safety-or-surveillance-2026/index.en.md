@@ -92,6 +92,8 @@ ______
 
 ## Data Sharing and the Shadow National Network
 
+{{< figure src="flock-data-sharing-shadow-national-network.webp" alt="Map diagram showing how individual city and county Flock camera networks connect through data-sharing agreements into a broader regional and quasi-national searchable database" >}}
+
 Individual Flock camera networks are not isolated. Cities and counties enter **data-sharing agreements** with neighboring jurisdictions, meaning that a query in one city can pull records from dozens of others. Some of these sharing agreements are permissive enough that a single agency can effectively access a regional or quasi-national database.
 
 **This is how a local camera network becomes a de facto national surveillance system without Congress ever voting on it.**
@@ -197,6 +199,10 @@ The technology is not going away. The legitimate public safety applications are 
 The path forward is not to destroy the cameras. It is to require warrants for individual searches, mandate short data retention windows, prohibit open-ended data sharing without case-specific justification, and create enforceable audit and oversight mechanisms.
 
 That is a boring, procedural answer. It does not generate outrage on either side. But it is the only answer that takes both public safety and constitutional liberty seriously.
+
+If you want to know when you are near one of these cameras rather than waiting on policy reform, dedicated detection hardware exists today.
+
+{{< stscollective-ad "flockyou" >}}
 
 ______
 

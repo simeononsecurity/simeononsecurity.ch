@@ -930,6 +930,8 @@ ______
 4. **Privacy-focused plate covers** (only if legal in jurisdiction)
 5. **Faraday bags** for phones when correlation is concern
 
+{{< stscollective-ad "flockyou" >}}
+
 ______
 
 {{< figure src="flock-safety-security-remediation-priority-roadmap.webp" alt="Prioritized remediation roadmap showing immediate, 30-day, 90-day, and long-term security fixes Flock Safety should implement to address critical vulnerabilities" >}}
@@ -1054,6 +1056,8 @@ ______
 
 ## Conclusion: The Path Forward
 
+{{< figure src="flock-safety-vulnerability-disclosure-timeline-2026.webp" alt="Timeline diagram summarizing the 2024-2026 Flock Safety vulnerability disclosure process from initial discovery through responsible disclosure to ongoing unpatched exposure" >}}
+
 ### Current State (May 2026)
 
 - **50+ critical vulnerabilities** documented and partially disclosed
@@ -1133,6 +1137,12 @@ This case study represents **more than just Flock Safety.** It is emblematic of:
 
 - **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** - Understand the surveillance landscape
 - **[Flock-You Detection Project: Counter-Surveillance Hardware Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** - Build your own detection device
+
+Waiting on the industry to fix these flaws is not a protection strategy. **[FlockYou detection devices](https://stscollective.com/collections/flockyou-alpr-flock-safety-awareness-devices)** from STS Collective work today, and reader code **SIMEONONSECURITY** takes up to 20% off.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop FlockYou Detectors, Save 20%
+{{< /centerbutton >}}
 
 ______
 

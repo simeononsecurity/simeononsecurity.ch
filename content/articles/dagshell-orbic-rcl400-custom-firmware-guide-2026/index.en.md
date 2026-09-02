@@ -589,6 +589,8 @@ Vendor: Apple, Inc.
 
 ______
 
+{{< stscollective-ad "rayhunter" >}}
+
 ## Installation Guide
 
 ### Prerequisites
@@ -930,6 +932,8 @@ ______
 
 ## Why Combine DagShell with RayHunter?
 
+{{< figure src="dagshell-rayhunter-complementary-capabilities.webp" alt="Side-by-side diagram comparing DagShell's WiFi wardriving and network attack tools against RayHunter's cellular protocol anomaly detection, both running on the same Orbic RCL400 hotspot" >}}
+
 ### Complementary Capabilities
 
 **DagShell** and **RayHunter** are **highly complementary** security tools that cover different aspects of mobile security research:
@@ -1035,6 +1039,12 @@ ______
 - DagShell uses port **8443**
 - They don't interfere with each other
 - Run **simultaneously**
+
+Skipping the DIY route? The pre-flashed **[Orbic RCL400 with RayHunter and DagShell](https://stscollective.com/products/orbic-rcl400-rayhunter-dagshell-hotspot)** ships ready to use, and reader code **SIMEONONSECURITY** takes up to 20% off at STS Collective.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop the Pre-Flashed RCL400, Save 20%
+{{< /centerbutton >}}
 
 ______
 

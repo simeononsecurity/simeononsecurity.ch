@@ -65,6 +65,8 @@ You can enable the Test Heuristic in the **Rayhunter** configuration settings. T
 
 For **Rayhunter** compatibility, unlocked devices are generally preferred, especially if you plan to use non-Verizon SIM cards. Most Verizon-branded Orbic devices are actually unlocked, but verify compatibility before purchase. You can find verified compatible devices **[Rayhunter for sale](https://stscollective.com/collections/rayhunter)** from STS Collective.
 
+{{< stscollective-ad "rayhunter" >}}
+
 ## Installation Guide
 
 ### Installing from the Latest Release
@@ -393,6 +395,8 @@ Understanding your threat model helps optimize **Rayhunter** configurations for 
 
 ## Rayhunter Effectiveness in the 5G Era
 
+{{< figure src="rayhunter-5g-downgrade-attack-persistence.webp" alt="Diagram showing a 5G-capable phone being forced through a downgrade attack onto a monitored 4G or 3G network, the technique Rayhunter continues to detect in the 5G era" >}}
+
 As cellular networks transition to 5G technology, questions arise about **Rayhunter's** continued effectiveness given its support for 2G, 3G, and 4G/LTE detection but not native 5G surveillance methods. Understanding the current limitations and ongoing relevance of **Rayhunter** in a 5G world is crucial for planning long-term surveillance detection strategies.
 
 ### Why Rayhunter Remains Effective in 5G Networks
@@ -687,6 +691,10 @@ ______
 **Rayhunter** represents a crucial advancement in personal privacy protection and surveillance detection. By properly flashing and configuring **Rayhunter** on compatible devices, you gain powerful capabilities to detect IMSI catchers and protect your mobile communications from unauthorized surveillance.
 
 Whether you're a journalist, activist, security professional, or privacy-conscious individual, **Rayhunter** provides the tools necessary to maintain mobile security in an increasingly surveilled world. For verified compatible devices, check out **[Rayhunter for sale](https://stscollective.com)** options from trusted security equipment suppliers.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop Rayhunter Devices, Save 20%
+{{< /centerbutton >}}
 
 ## References
 

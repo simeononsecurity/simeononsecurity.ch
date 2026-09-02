@@ -1,0 +1,8 @@
+{{/* Embeds an existing STS Collective in-article ad partial directly inside
+     an article body. Usage: {{< stscollective-ad "rayhunter" >}} (or
+     "flockyou" / "eyespy" / "stscollective"). Reuses the exact same ad
+     creative, styling, and discount CTA already used by the site-wide
+     random ad rotation, so there is only ever one source of truth for
+     each brand's in-article ad. */}}
+{{ $brand := .Get 0 | default "stscollective" }}
+{{ partial (printf "ads/stscollective/%s-lazy.html" $brand) . }}

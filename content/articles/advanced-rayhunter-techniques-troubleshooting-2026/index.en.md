@@ -30,6 +30,8 @@ Advanced **RayHunter** deployment encompasses:
 
 *This guide assumes familiarity with basic **RayHunter** installation and configuration.* Advanced techniques require understanding of cellular protocols (2G/3G/4G/LTE), RF analysis principles, network security concepts, and security operations center integration.
 
+{{< stscollective-ad "rayhunter" >}}
+
 ## Advanced Configuration Strategies
 
 ### Custom Heuristic Optimization
@@ -588,6 +590,8 @@ def integrate_with_siem(self, alert_data):
 ```
 
 ## Multi-Device Coordination
+
+{{< figure src="rayhunter-multi-device-coordination-network.webp" alt="Diagram showing multiple RayHunter devices deployed across a coverage area, each reporting detections to a coordinating master device for cross-validation" >}}
 
 Advanced **RayHunter** deployments often involve multiple devices working in coordination to provide comprehensive area coverage and **cross-validation of threats**.
 
@@ -1212,6 +1216,8 @@ esac
 
 ## Expert Integration Scenarios
 
+{{< figure src="rayhunter-soc-integration-workflow.webp" alt="Workflow diagram showing RayHunter REST API data flowing into a security operations center dashboard alongside SIEM alerting and research export pipelines" >}}
+
 ### Research Environment Integration
 
 **Academic Research Configuration**:
@@ -1477,6 +1483,12 @@ Advanced **RayHunter** deployment requires sophisticated technical expertise acr
 Expert **RayHunter** users should continue monitoring developments in **cellular security**, **surveillance technology**, and open-source detection capabilities. *The evolving threat landscape requires continuous refinement of detection techniques and operational procedures.*
 
 For organizations deploying **RayHunter** in professional security operations, consider establishing dedicated **security operations center** integration, regular training programs for operational staff, and ongoing collaboration with the broader **RayHunter** community to share threat intelligence and detection improvements.
+
+Running these advanced configurations on hardware that is not already on hand? **[Verified RayHunter-compatible devices](https://stscollective.com/collections/rayhunter)** are available from STS Collective, and reader code **SIMEONONSECURITY** takes up to 20% off.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop RayHunter Devices, Save 20%
+{{< /centerbutton >}}
 
 ## References
 

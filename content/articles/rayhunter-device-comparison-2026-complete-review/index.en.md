@@ -84,6 +84,8 @@ All devices underwent standardized testing across multiple controlled environmen
 
 {{< figure src="rayhunter-testing-methodology-rf-chamber-standards.webp" alt="Calibrated RF testing chamber with multiple RayHunter devices undergoing standardized urban suburban and rural detection scenario evaluations" >}}
 
+{{< stscollective-ad "rayhunter" >}}
+
 ## Device Performance Summary
 
 ### Overall Performance Rankings
@@ -100,6 +102,8 @@ Based on comprehensive testing across all evaluation criteria, **RayHunter** dev
 8. **FY UZ801** - 76/100 overall score
 
 ## Detailed Device Analysis
+
+{{< figure src="rayhunter-device-lineup-comparison.webp" alt="Side-by-side comparison of the Orbic RC400L, TP-Link M7350, Kajeet RC400L, and Moxee K779HSDL mobile hotspot devices tested for RayHunter compatibility" >}}
 
 ### Orbic RC400L - Premium Performance Leader
 
@@ -765,3 +769,7 @@ For professional applications where **detection reliability is critical**, inves
 - [Cellular Security Research Papers](https://www.eff.org/issues/cell-tracking)
 
 > 💰 **Exclusive Reader Discount**: Save up to 20% on RayHunter-compatible devices from STS Collective — use code **SIMEONONSECURITY** at checkout or [click here to shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop the Top-Rated RayHunter Devices
+{{< /centerbutton >}}

@@ -24,6 +24,10 @@ The physical world is increasingly instrumented with devices that watch, record,
 
 This article is a complete technical reference: what Eye Spy detects, how the confidence-score system works, the engineering behind each detection engine, how to build and flash it, and what its practical limitations are.
 
+**Prefer not to build one yourself?** Pre-flashed, ready-to-use **[Eye Spy detectors](https://stscollective.com/collections/eye-spy-passive-surveillance-detectors)** are available from STS Collective, and reader code **SIMEONONSECURITY** takes up to 20% off.
+
+{{< stscollective-ad "eyespy" >}}
+
 ---
 
 ## LED Indicators: The Entire User Interface
@@ -82,6 +86,8 @@ These two mechanisms together mean:
 ---
 
 ## Detection Engines
+
+{{< figure src="eye-spy-ble-wifi-detection-engines-overview.webp" alt="Diagram showing Eye Spy's parallel BLE and WiFi detection engines scanning for AirTags, body cameras, ALPR systems, and drones, each feeding into the confidence-score threat model" >}}
 
 Eye Spy operates three distinct scanning phases in a continuous rotation:
 
@@ -323,6 +329,8 @@ framework = arduino
 
 ## Detection Notes and Practical Limitations
 
+{{< figure src="eye-spy-m5stack-atom-lite-pocket-size.webp" alt="Photo-style illustration of the M5Stack Atom Lite Eye Spy device, roughly the size of a sugar cube, held between two fingers to show its compact scale" >}}
+
 ### What Eye Spy Cannot Do
 
 **5 GHz WiFi**: The ESP32 is a **2.4 GHz-only device**. Any surveillance camera, ALPR system, or access point operating exclusively on 5 GHz bands won't be visible to the WiFi scan or promiscuous engines. *Many modern IP cameras are 2.4 GHz capable even if they also support 5 GHz, but dedicated 5 GHz-only deployments will be missed.*
@@ -446,3 +454,7 @@ The confidence-scoring model reflects realistic threat weighting: an Axon body c
 For counter-surveillance work, travel security, AirTag detection, or simply wanting to know whether something nearby is watching - Eye Spy is a practical, open-source, passively-operating tool that earns its place in any security practitioner's kit.
 
 **GitHub**: [github.com/simeononsecurity/eye-spy](https://github.com/simeononsecurity/eye-spy)
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop Eye Spy Detectors, Save 20%
+{{< /centerbutton >}}

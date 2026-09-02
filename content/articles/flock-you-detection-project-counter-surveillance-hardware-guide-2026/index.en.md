@@ -112,6 +112,8 @@ The Flock-You methodology achieves high accuracy:
 
 ______
 
+{{< stscollective-ad "flockyou" >}}
+
 ## Hardware Platform Comparison
 
 Three primary platforms are available for Flock-You detection, each with distinct advantages:
@@ -546,6 +548,8 @@ ______
 
 ## Using Your Detection Device: Practical Scenarios
 
+{{< figure src="flockyou-detection-device-driving-scenario.webp" alt="Illustration of a driver glancing at a small FlockYou detector mounted in a cup holder with its LED alerting to a nearby Flock Safety camera" >}}
+
 ### Scenario 1: Daily Commute Mapping
 
 **Objective**: Document Flock camera locations along your regular routes.
@@ -709,6 +713,8 @@ bool is_wildcard_probe_request(wifi_promiscuous_pkt_t *pkt) {
 ______
 
 ## Troubleshooting Common Issues
+
+{{< figure src="flockyou-troubleshooting-firmware-flash-flowchart.webp" alt="Flowchart guiding a user through common FlockYou firmware flashing and detection troubleshooting steps, from power issues to false-positive OUI matches" >}}
 
 ### Problem: No Detections Despite Known Camera Nearby
 
@@ -898,6 +904,10 @@ The **Flock-You detection project** represents a powerful democratization of cou
 2. **Choose your platform**: Decide which device fits your needs and budget
 3. **Order hardware**: Purchase from authorized vendors
 4. **Setup and configure**: Follow detailed guides in this article
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop Ready-to-Go FlockYou Devices, Save 20%
+{{< /centerbutton >}}
 5. **Join the community**: Engage with other users, share findings, contribute improvements
 6. **Take action**: Use your data for advocacy, awareness, and informed decisions
 

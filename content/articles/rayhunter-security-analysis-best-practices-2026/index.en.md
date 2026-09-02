@@ -32,6 +32,8 @@ This analysis provides actionable guidance for security professionals, complianc
 
 ## Comprehensive Risk Assessment Framework
 
+{{< figure src="rayhunter-enterprise-risk-assessment-framework.webp" alt="Diagram showing a tiered risk assessment framework for RayHunter deployment, mapping nation-state, criminal, corporate, and individual threat actors against detection sensitivity requirements" >}}
+
 ### Threat Landscape Analysis
 
 **RayHunter** deployment requires comprehensive understanding of the threat environment and risk exposure across multiple attack vectors and adversary capabilities.
@@ -259,6 +261,8 @@ Government/Defense (NIST 800-53):
 | Australia | Privacy Act | Australian Privacy Principles | Notification requirements, data handling standards |
 | United Kingdom | UK GDPR/DPA | Similar to EU GDPR | Post-Brexit compliance alignment |
 | Japan | APPI | Consent, data transfer restrictions | Cross-border data transfer limitations |
+
+{{< stscollective-ad "rayhunter" >}}
 
 ## Security Architecture Best Practices
 
@@ -1193,6 +1197,8 @@ class RayHunterAuditFramework:
 
 ## Conclusion and Strategic Recommendations
 
+{{< figure src="rayhunter-strategic-implementation-timeline.webp" alt="Timeline diagram showing immediate, short-term, and long-term strategic priorities for enterprise RayHunter deployment across risk assessment, monitoring, and compliance milestones" >}}
+
 ### Strategic Security Recommendations
 
 **RayHunter** enterprise deployment requires a comprehensive security strategy that balances surveillance detection effectiveness with regulatory compliance, operational requirements, and organizational risk tolerance. *No single configuration fits all environments.* Based on this analysis, organizations should prioritize the following strategic initiatives:
@@ -1268,6 +1274,12 @@ The surveillance detection landscape continues evolving with advancing technolog
 **Successful RayHunter deployment requires ongoing commitment to security excellence, regulatory compliance, and operational effectiveness.** Organizations must balance surveillance detection capabilities with privacy protection, legal requirements, and business objectives while maintaining flexibility to adapt to evolving threats and requirements.
 
 *The investment in comprehensive security architecture, professional training, and continuous improvement programs provides organizations with robust surveillance detection capabilities while minimizing legal, operational, and reputational risks associated with privacy and security incidents.*
+
+Sourcing compliant hardware for a deployment described above? **[RayHunter-compatible devices](https://stscollective.com/collections/rayhunter)** are available from STS Collective, with reader code **SIMEONONSECURITY** taking up to 20% off.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop RayHunter Devices, Save 20%
+{{< /centerbutton >}}
 
 ## References
 

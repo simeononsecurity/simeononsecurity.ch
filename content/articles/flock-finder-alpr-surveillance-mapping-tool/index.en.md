@@ -37,6 +37,8 @@ ______
 
 ## How It Works: OUI Fingerprinting via WiGLE
 
+{{< figure src="flock-finder-oui-fingerprinting-wigle-method.webp" alt="Diagram showing how Flock Finder matches WiGLE-crowdsourced WiFi access point MAC address prefixes against known Flock Safety OUI signatures to estimate camera locations on a map" >}}
+
 ### The Core Insight
 
 Flock Safety cameras contain **WiFi transceivers** that periodically wake from sleep to upload captured license plate data to the cloud. During these brief active windows, the camera broadcasts WiFi frames that contain its **MAC address** — and the first three bytes of every MAC address identify the manufacturer. This is the **OUI (Organizationally Unique Identifier)**.
@@ -181,6 +183,8 @@ All devices:
 
 > 💰 **Exclusive Discounts**: Use code **FLOCKFINDER** for **20% off** all STS Collective FlockYou devices — or use code **SIMEONONSECURITY** for up to 20% off your entire order. [Shop at stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
 
+{{< stscollective-ad "flockyou" >}}
+
 For a full technical breakdown of these devices and DIY alternatives, read the **[Flock-You Detection Project: Complete Counter-Surveillance Hardware and Setup Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)**.
 
 ______
@@ -258,6 +262,10 @@ ______
 It is a **transparency tool**, not a live tracker. Its data is historical, incomplete, and probabilistic. But it makes the scale of ALPR surveillance visible in a way that abstracts and reports cannot.
 
 For genuine real-time protection as you move through surveilled areas, pair the map with dedicated hardware. **[STS Collective's FlockYou devices](https://stscollective.com/discount/SIMEONONSECURITY)** implement @NitekryDPaul's detection method directly on an ESP32 and alert you the moment a live camera signature is detected — available at **[stscollective.com](https://stscollective.com/discount/SIMEONONSECURITY)** with code **FLOCKFINDER** or **SIMEONONSECURITY** for up to 20% off.
+
+{{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
+  Shop FlockYou Detectors, Save 20%
+{{< /centerbutton >}}
 
 ### Related Articles
 
