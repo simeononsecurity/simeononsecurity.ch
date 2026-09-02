@@ -52,6 +52,8 @@ ______
 
 ## List of Valid "guest_os_type" Values
 
+{{< figure src="vsphere-packer-guest-os-type-legacy-to-modern-timeline.webp" alt="Timeline diagram showing VMware vSphere guest_os_type values ranging from legacy MS-DOS and Windows XP guests through Windows Server and Windows 10/11 guests" >}}
+
 1. **dosGuest**: This value is used for MS-DOS-based operating systems. Although rarely used in modern environments, it might still be relevant in some legacy scenarios.
 
 2. **win31Guest**: This value is used for Windows 3.1, an older version of the Windows operating system. It's mainly used for historical or testing purposes.

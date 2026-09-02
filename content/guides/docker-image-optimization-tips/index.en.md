@@ -261,6 +261,8 @@ For detailed instructions on implementing `docker-slim` and optimizing your Dock
 
 ## Conclusion: Mastering Docker Image Optimization
 
+{{< figure src="docker-image-optimization-before-after-size-comparison.webp" alt="Diagram comparing a bloated Docker image against a slim, multi-stage-built image after applying base image selection, layer squashing, and docker-slim optimization techniques" >}}
+
 In containerization, achieving peak performance and resource efficiency is paramount. Docker images play a pivotal role in this endeavor. By embracing the principles of **Docker Image Optimization**, you can significantly enhance container efficiency, cut down operational costs, and fortify the security of your containerized applications.
 
 Here's a recap of the key strategies covered in this guide:
