@@ -14,25 +14,29 @@
 {{ $traffmonetizerKeywords := slice "traffmonetizer" "traff monetizer" "traff-monetizer" }}
 {{ $passiveIncomeKeywords := slice "passive income" "share bandwidth" "unused bandwidth" "idle bandwidth" "monetize internet" "residential proxy" }}
 
+{{/* FlockYou and Eye Spy are checked before RayHunter. Some FlockYou/Eye
+     Spy articles also mention EFF-related and general surveillance terms
+     that overlap with the RayHunter keyword list, so RayHunter must be
+     the last of the three to match. */}}
 {{ $matchedAd := "" }}
-{{ range $kw := $rayhunterKeywords }}
+{{ range $kw := $flockyouKeywords }}
   {{ if strings.Contains $haystack $kw }}
-    {{ $matchedAd = "stscollective/rayhunter-lazy.html" }}
+    {{ $matchedAd = "stscollective/flockyou-lazy.html" }}
     {{ break }}
-  {{ end }}
-{{ end }}
-{{ if not $matchedAd }}
-  {{ range $kw := $flockyouKeywords }}
-    {{ if strings.Contains $haystack $kw }}
-      {{ $matchedAd = "stscollective/flockyou-lazy.html" }}
-      {{ break }}
-    {{ end }}
   {{ end }}
 {{ end }}
 {{ if not $matchedAd }}
   {{ range $kw := $eyespyKeywords }}
     {{ if strings.Contains $haystack $kw }}
       {{ $matchedAd = "stscollective/eyespy-lazy.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $rayhunterKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/rayhunter-lazy.html" }}
       {{ break }}
     {{ end }}
   {{ end }}

@@ -28,25 +28,29 @@
 {{ $audibleKeywords := slice "audible" "audiobook" "audiobooks" "essential books" "recommended books" "book recommendation" "book recommendations" "reading list" "must-read books" "best books" "best books for cyber security" }}
 {{ $studentPrimeKeywords := slice "amazon prime" "prime video" "prime student" "prime membership" "prime day" "prime reading" "student discount" "student" "college" "college student" "university" "university student" "education" "educational" "degree program" "scholarship" "financial aid" }}
 
+{{/* FlockYou and Eye Spy are checked before RayHunter. Some FlockYou/Eye
+     Spy articles also mention EFF-related and general surveillance terms
+     that overlap with the RayHunter keyword list, so RayHunter must be
+     the last of the three to match. */}}
 {{ $matchedAd := "" }}
-{{ range $kw := $rayhunterKeywords }}
+{{ range $kw := $flockyouKeywords }}
   {{ if strings.Contains $haystack $kw }}
-    {{ $matchedAd = "stscollective/rayhunter-eager-floating.html" }}
+    {{ $matchedAd = "stscollective/flockyou-eager-floating.html" }}
     {{ break }}
-  {{ end }}
-{{ end }}
-{{ if not $matchedAd }}
-  {{ range $kw := $flockyouKeywords }}
-    {{ if strings.Contains $haystack $kw }}
-      {{ $matchedAd = "stscollective/flockyou-eager-floating.html" }}
-      {{ break }}
-    {{ end }}
   {{ end }}
 {{ end }}
 {{ if not $matchedAd }}
   {{ range $kw := $eyespyKeywords }}
     {{ if strings.Contains $haystack $kw }}
       {{ $matchedAd = "stscollective/eyespy-eager-floating.html" }}
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $matchedAd }}
+  {{ range $kw := $rayhunterKeywords }}
+    {{ if strings.Contains $haystack $kw }}
+      {{ $matchedAd = "stscollective/rayhunter-eager-floating.html" }}
       {{ break }}
     {{ end }}
   {{ end }}
