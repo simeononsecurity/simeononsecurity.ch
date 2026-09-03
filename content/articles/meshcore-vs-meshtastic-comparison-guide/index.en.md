@@ -1,7 +1,7 @@
 ---
 title: "MeshCore vs Meshtastic"
 date: 2026-06-26
-lastmod: 2026-06-26
+lastmod: 2026-09-01
 toc: true
 draft: false
 description: "A direct comparison of MeshCore and Meshtastic for off-grid LoRa mesh networking. Learn which protocol wins for your use case, when each falls apart, and what the real tradeoffs are in 2026."
@@ -10,6 +10,7 @@ tags: ["meshcore vs meshtastic", "meshtastic", "meshcore", "lora mesh network", 
 cover: "/img/cover/meshcore-vs-meshtastic-comparison-guide.webp"
 coverAlt: "An illustration showing two LoRa mesh networks: Meshtastic on the left with nodes in a flooding pattern, and MeshCore on the right with a structured routing approach, all set against a dark background."
 coverCaption: ""
+ref: ["/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide"]
 ---
 
 ## The Short Answer
@@ -288,3 +289,5 @@ ______
 Before switching protocols, **tune your Meshtastic deployment**. Reduce telemetry intervals. Disable GPS broadcast on nodes without GPS. Adjust the airtime preset for your node density. *Many networks with performance problems have configuration problems, not protocol problems.*
 
 The two protocols serve different points on the planning-versus-spontaneity tradeoff. Meshtastic minimizes planning and accepts the airtime overhead of self-organization. MeshCore requires planning and rewards planning with more predictable performance. **Neither protocol will replace the other because the use cases differ.**
+
+*Building a network needing to bridge LoRa with packet radio, Wi-Fi, or the internet rather than staying on one LoRa mesh?* See the **[Meshtastic vs MeshCore vs Reticulum comparison guide](/articles/meshtastic-vs-meshcore-vs-reticulum-comparison-guide/)** for where transport-independent networking fits and where it adds complexity nobody needs.
