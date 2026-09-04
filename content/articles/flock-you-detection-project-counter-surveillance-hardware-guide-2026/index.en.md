@@ -1,6 +1,7 @@
 ---
 title: "Flock-You Detection: Counter-Surveillance Setup Guide"
 date: 2026-05-24
+lastmod: 2026-09-03
 toc: true
 draft: false
 description: "Comprehensive technical guide to the open-source Flock-You project for detecting Flock Safety ALPR cameras using ESP32-based hardware. Includes setup instructions, firmware details, and purchasing options."
@@ -18,11 +19,25 @@ canonical: "https://simeononsecurity.com/articles/flock-you-detection-project-co
 
 The **Flock-You project** is an **open-source, community-driven initiative** to detect and map Flock Safety's ALPR surveillance infrastructure. Hosted on GitHub at **colonelpanichacks/flock-you**, this project uses affordable ESP32-based hardware to identify Flock cameras through their **WiFi network signatures**.
 
+**Flock-You detects one thing: Flock Safety cameras over WiFi.** It does not detect Stingray-style cell site simulators, and it does not alert you to personal trackers (AirTags, Tiles, unknown Bluetooth devices) moving with you. For those, see **[Rayhunter](/articles/how-to-flash-rayhunter-devices-complete-guide/)** for IMSI catcher detection and **[Eye Spy](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** for AirTag and follower detection. All three run on the same class of cheap ESP32-family hardware.
+
 This comprehensive guide covers everything from the **technical methodology** behind Flock detection to **step-by-step setup instructions** for three hardware platforms, **firmware installation**, and **purchasing information from authorized vendors**. Whether you're a privacy advocate, security researcher, or concerned citizen, this guide will enable you to build or purchase your own detection device.
 
-For context on why this technology matters and the broader surveillance landscape, read our companion article: **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
+*Flock Safety hardware is deployed almost entirely in the United States, with a smaller footprint in Canada. Outside North America, the OUI list and probe signatures below won't match anything nearby. The hardware is still useful for research, but it won't find infrastructure that isn't there.*
 
-Want to see where Flock cameras have already been mapped? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** is an open-source tool that plots 40,000+ suspected Flock Safety cameras worldwide using WiGLE WiFi data and OUI fingerprinting — updated daily. Source on **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+For context on why this technology matters and the scale of ALPR deployment, read our companion article: **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**.
+
+Want to see where Flock cameras have already been mapped? **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** is an open-source tool that plots 40,000+ suspected Flock Safety cameras worldwide using WiGLE WiFi data and OUI fingerprinting, updated daily. Source on **[GitHub](https://github.com/simeononsecurity/flock-finder)**.
+
+### At a Glance: Three Platforms
+
+| Platform | Price | Setup | Best For |
+|----------|-------|-------|----------|
+| **DIY ESP32** | $5-12 | Solderless breadboard, 10-15 min | Budget builds, learning how detection works |
+| **M5 Atom Lite** (pre-flashed) | $49.99 | Plug in and go, zero setup | Instant use, no DIY tolerance |
+| **OUI-SPY** | $85 | Flash once, pick a mode from a WiFi menu | Multi-mode detection (ALPR + drones + BLE) |
+
+*Full specs, pros, and cons for each platform are below. Jump to [Setup Instructions](#step-by-step-setup-instructions) if you already know which one you want.*
 
 ______
 
@@ -91,12 +106,12 @@ Detection devices measure **RSSI (Received Signal Strength Indicator)** to:
 
 ### Detection Accuracy and False Positives
 
-The Flock-You methodology achieves high accuracy:
+Accuracy depends heavily on environment, but one documented field test gives a concrete baseline. The **DeFlockJoplin** community drive-tested this detection approach and caught **11 of 12 known Flock cameras with only 2 false positives** along their test route.
 
-- **True Positive Rate**: ~95% for confirmed Flock cameras in range
-- **False Positive Rate**: ~5-10% depending on environment
+- **Field-tested baseline**: 11/12 confirmed cameras detected, 2 false positives (DeFlockJoplin drive test)
 - **Detection Range**: 50-300 feet depending on obstacles and antenna
-- **Confidence Scoring**: Multi-factor analysis reduces false alarms
+- **Confidence Scoring**: Multi-factor analysis (OUI match, wildcard probe signature, RSSI threshold) reduces false alarms
+- **Your results will vary**: signal environment, antenna choice, and firmware version all affect real-world accuracy
 
 **Common False Positive Sources**:
 - **ESP32 development boards** used in other IoT devices
@@ -110,20 +125,22 @@ The Flock-You methodology achieves high accuracy:
 - **Visual confirmation**: Physical inspection after electronic detection
 - **Community database**: Crowdsourced validation of detections
 
+{{< figure src="flockyou-oui-detection-methodology-overview.webp" alt="Diagram showing the Flock-You detection pipeline: an ESP32 in WiFi promiscuous mode matching captured frame MAC addresses against 31 known Flock camera OUIs, cross-checking wildcard probe requests, and scoring RSSI to confirm a detection" >}}
+
 ______
 
 {{< stscollective-ad "flockyou" >}}
 
 ## Hardware Platform Comparison
 
-Three primary platforms are available for Flock-You detection, each with distinct advantages:
+Three primary platforms are available for Flock-You detection, each with distinct advantages. *All three run the same underlying detection method: passive WiFi promiscuous-mode scanning for known Flock camera OUIs and wildcard probe signatures. None of them detect Bluetooth. The Flock-You firmware dropped BLE detection support in spring 2026 after it stopped reliably working, so every platform here is WiFi-only.*
 
 ### Platform Overview Table
 
 | Feature | DIY ESP32 | M5 Atom Lite (Pre-Flashed) | OUI-SPY |
 |---------|-----------|---------------------------|---------|
 | **Manufacturer** | DIY / Multiple vendors | STS Collective | Colonel Panic Tech |
-| **Price** | $5-12 | $39.99 | $85 |
+| **Price** | $5-12 | $49.99 | $85 |
 | **Processor** | ESP32-WROOM | ESP32-PICO | ESP32-S3 |
 | **Ready-to-Use** | No (DIY build) | Yes (pre-flashed) | Yes (multi-mode) |
 | **Display** | Optional | RGB LED (5×5 matrix) | None |
@@ -195,9 +212,11 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - **Build Guide**: Solderless assembly in 10-15 minutes
 - **Case Files**: OpenSCAD parametric design + STL files
 
+{{< figure src="flockyou-diy-esp32-solderless-breadboard-build.webp" alt="Photo-style illustration of a solderless ESP32 Flock-You build on a breadboard, showing the bare ESP32 DevKit, a passive buzzer module, and jumper wires connected to GPIO 25, 2, and 17" >}}
+
 ---
 
-#### 2. M5 Atom Lite Pre-Flashed by STS Collective ($39.99)
+#### 2. M5 Atom Lite Pre-Flashed by STS Collective ($49.99)
 
 **Overview**: Pre-flashed compact detection device, ready to use out of the box.
 
@@ -230,7 +249,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - ✅ Simple blue LED = detection
 - ✅ USB-C powered (car, power bank, laptop)
 - ✅ Quality vendor support
-- ✅ Regular price $99.99, on sale $39.99
+- ✅ Regular price $99.99, on sale $49.99
 
 **Cons**:
 - ❌ No integrated battery (needs USB power)
@@ -243,7 +262,9 @@ Three primary platforms are available for Flock-You detection, each with distinc
 
 **Purchase**: [stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)
 
-> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products — use code **SIMEONONSECURITY** at checkout or [click here to shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products. Use code **SIMEONONSECURITY** at checkout, or [click here to shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+
+{{< figure src="flockyou-m5-atom-lite-pocket-size-comparison.webp" alt="Photo-style illustration of the pre-flashed M5 Atom Lite FlockYou device held between two fingers to show its pocket-sized scale, with its blue RGB LED lit to indicate a detection" >}}
 
 ---
 
@@ -261,7 +282,7 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - **Storage**: None (detection-only modes)
 - **Indicators**: Integrated PWM buzzer with mode-specific tunes
 - **Buttons**: Boot button for mode switching
-- **Antenna**: **Switchable**, onboard 2.4GHz ceramic OR external via MMCX connector
+- **Antenna**: Onboard 2.4GHz sticker antenna (stock), swap in your own for more range
 - **Enclosure**: None (bare PCB with PCB art)
 - **Unique Feature**: MAC randomization on every boot
 
@@ -280,11 +301,10 @@ Three primary platforms are available for Flock-You detection, each with distinc
 
 **Pros**:
 - ✅ Four firmware modes in one device
-- ✅ Switchable antenna (onboard or external MMCX)
+- ✅ Swappable antenna (stock sticker antenna, replace it for more range)
 - ✅ Integrated buzzer with custom boot tunes
 - ✅ Professional-grade PCB design
 - ✅ Multi-purpose: ALPR, drones, BLE, RF direction finding
-- ✅ External antenna support for extended range
 - ✅ From original Flock-You project creator
 - ✅ Active development and updates
 
@@ -296,10 +316,11 @@ Three primary platforms are available for Flock-You detection, each with distinc
 - ❌ *Complexity unnecessary for basic detection*
 - ❌ External GPS required for wardriving features
 
-**Best For**: Multi-purpose surveillance detection, users wanting drone + ALPR + BLE detection in one device, RF direction finding applications, those who value switchable antennas and advanced features.
+**Best For**: Multi-purpose surveillance detection, users wanting drone + ALPR + BLE detection in one device, RF direction finding applications, those who want a swappable antenna and advanced features.
 
 **Purchase**: [colonelpanic.tech](https://colonelpanic.tech/products/oui-spy)
 
+{{< figure src="flockyou-oui-spy-multimode-board-pcb.webp" alt="Photo-style illustration of the bare OUI-SPY ESP32-S3 PCB with its onboard sticker antenna, integrated buzzer, and boot button, showing the four-mode WiFi boot menu concept on a connected screen" >}}
 
 ______
 
@@ -426,13 +447,12 @@ ______
    - Device returns to WiFi mode selector
    - Reconnect to WiFi and choose new mode
 
-#### Advanced: External Antenna
+#### Advanced: Antenna Swap
 
-6. **Antenna Switching** (for extended range):
-   - By default: Uses onboard ceramic antenna
-   - Connect MMCX antenna to MMCX connector
-   - Firmware automatically switches to external antenna
-   - Use directional/Yagi antenna for long-range detection
+6. **Antenna Swap** (for extended range):
+   - By default: Uses the stock onboard sticker antenna
+   - Higher-gain replacement antennas can be soldered on for extended range
+   - This is a hardware modification, not a software toggle, so check colonelpanic.tech for the current connector spec before ordering a replacement antenna
 
 #### Mounting
 
@@ -494,7 +514,7 @@ ______
 #### STS Collective (stscollective.com)
 
 **Products Offered**:
-- **M5 Atom Lite Pre-Flashed** ($39.99): Ready-to-go Flock detection device
+- **M5 Atom Lite Pre-Flashed** ($49.99): Ready-to-go Flock detection device
 - **Accessories**: Compatible with various ESP32 platforms
 
 **Why Buy from STS Collective**:
@@ -512,7 +532,7 @@ ______
 
 **Website**: [https://stscollective.com](https://stscollective.com)
 
-> 💰 **Reader Discount**: Use code **SIMEONONSECURITY** for up to 20% off STS Collective products — [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
+> 💰 **Reader Discount**: Use code **SIMEONONSECURITY** for up to 20% off STS Collective products at [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY).
 
 ---
 
@@ -541,7 +561,7 @@ ______
 | Device | Base Price | Optional Add-ons | Total Investment | Setup Time |
 |--------|------------|------------------|------------------|------------|
 | **DIY ESP32** | $5-12 | 3D case, battery | $5-20 | 15-30 min |
-| **M5 Atom Lite** | $39.99 | Battery pack $10 | $40-50 | Plug-and-play |
+| **M5 Atom Lite** | $49.99 | Battery pack $10 | $50-60 | Plug-and-play |
 | **OUI-SPY** | $85 | External antenna $20, enclosure | $85-115 | Plug-and-play |
 
 ______
@@ -598,6 +618,8 @@ ______
 - Data for public records requests
 - Awareness for personal privacy decisions
 
+*Walking speed matters more than most people expect. The firmware hops WiFi channels roughly every 250 ms to keep up with how often the camera itself changes channel. Moving fast on foot or by bike can carry you past a camera's detection window before a hop lines up. If you are getting inconsistent detections on a walking survey, slow down at intersections rather than reaching for a higher-gain antenna first. A stock antenna with a 30-60 second dwell time at each stop catches far more cameras than a high-gain antenna moving past at a brisk walk.*
+
 ### Scenario 3: Travel Privacy Assessment
 
 **Objective**: Understand surveillance exposure when traveling.
@@ -633,7 +655,7 @@ ______
 
 ______
 
-## Technical detailed breakdown: Understanding the Code
+## How the Detection Code Actually Works
 
 ### Core Detection Algorithm (Simplified)
 
@@ -722,11 +744,12 @@ ______
 1. **Camera offline/powered off**: Flock cameras are temporarily inactive at times
 2. **Signal blocked**: Building materials absorb WiFi (metal, concrete)
 3. **Out of range**: Effective range ~100-300 feet depending on obstacles
-4. **Firmware issue**: Outdated firmware misses newer OUI variants
+4. **Moving too fast**: channel-hop timing favors slow walking or a full stop over a brisk pace or vehicle speed
+5. **Firmware issue**: Outdated firmware misses newer OUI variants
 
 **Solutions**:
 - Confirm camera is visible and appears operational (solar panels, lights)
-- Move closer to suspected camera location
+- Move closer to suspected camera location, or stop for 30-60 seconds instead of walking past
 - Try different antenna orientations
 - Update to latest Flock-You firmware
 - **Check device is actively scanning** (verify LED/display activity)
@@ -885,35 +908,34 @@ The Flock-You project thrives on community contributions:
 
 ______
 
-## Conclusion: helping Privacy Through Technology
+## Conclusion: Privacy Awareness Through Open Hardware
 
-The **Flock-You detection project** represents a powerful democratization of counter-surveillance technology. For less than the cost of a monthly streaming subscription, individuals gain awareness of the surveillance infrastructure surrounding them. Whether you choose the **DIY ESP32 build ($5-12)**, the **ready-to-go M5 Atom Lite ($40)**, or the **multi-mode OUI-SPY ($85)**, you're investing in privacy awareness and digital autonomy.
+The **Flock-You detection project** puts counter-surveillance hardware within reach of any budget. Whether you choose the **DIY ESP32 build ($5-12)**, the **ready-to-go M5 Atom Lite ($49.99)**, or the **multi-mode OUI-SPY ($85)**, each option turns Flock camera detection from a research project into a device you can build in an afternoon.
 
-### main points
+*Remember what this hardware does and doesn't cover: it detects Flock cameras over WiFi. It doesn't detect Stingrays or personal trackers moving with you. Pair it with Rayhunter and Eye Spy below if you need that broader coverage.*
 
-✅ **Open-source empowerment**: Community-driven development ensures accessibility
-✅ **Affordable technology**: Consumer-grade hardware (ESP32) makes detection accessible
-✅ **Multiple platforms**: Options for different budgets and technical skill levels
-✅ **Active development**: Regular updates with new OUI signatures and features
-✅ **Legal and ethical**: Passive monitoring complies with communications laws
-✅ **Community benefit**: Contributes to public awareness and policy discussion
+### Key Takeaways
+
+- **Open-source and free to modify**: community-driven development keeps the OUI list and firmware current
+- **Affordable hardware**: a bare ESP32 costs $5-12, and every tier above that adds convenience, not new detection capability
+- **Passive monitoring only**: the device receives publicly broadcast WiFi frames and transmits nothing
+- **Regularly updated**: new OUI signatures and wildcard-probe research get folded into the firmware as Flock's hardware changes
+- **Field-verified**: the DeFlockJoplin community caught 11 of 12 known cameras on a real drive test
 
 ### Next Steps
 
-1. **Learn more** about why detection matters: [Flock Safety Camera Surveillance: Prevalence and Privacy Concerns](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
-2. **Choose your platform**: Decide which device fits your needs and budget
-3. **Order hardware**: Purchase from authorized vendors
-4. **Setup and configure**: Follow detailed guides in this article
+1. **Read the background**: [Flock Safety Camera Surveillance: Prevalence and Privacy Concerns](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)
+2. **Choose your platform**: match the DIY build, M5 Atom Lite, or OUI-SPY to your budget and skill level
+3. **Order hardware**: purchase from an authorized vendor listed above
+4. **Flash and configure**: follow the setup guide for your chosen platform
+5. **Join the community**: share findings and contribute detections back to the project
+6. **Add the gaps this device doesn't cover**: pair it with [Rayhunter](/articles/how-to-flash-rayhunter-devices-complete-guide/) for IMSI catchers and [Eye Spy](/articles/eye-spy-passive-surveillance-detector-esp32-2026/) for AirTags and followers
 
 {{< centerbutton href="https://stscollective.com/discount/SIMEONONSECURITY" >}}
   Shop Ready-to-Go FlockYou Devices, Save 20%
 {{< /centerbutton >}}
-5. **Join the community**: Engage with other users, share findings, contribute improvements
-6. **Take action**: Use your data for advocacy, awareness, and informed decisions
 
-The proliferation of ALPR surveillance represents a significant shift in privacy dynamics. Counter-surveillance technologies like Flock-You offer a crucial capability: **awareness**. When we understand the scope and scale of surveillance, we make informed decisions about our movements, our advocacy, and our expectations of privacy in public spaces.
-
-**Technology enabled pervasive surveillance. Technology also helps those who value privacy.** The Flock-You project is a testament to the power of open-source collaboration in protecting civil liberties.
+ALPR surveillance keeps expanding, and awareness is the first practical response available to anyone. Knowing where the cameras are changes how you plan a drive, document a neighborhood, or push back on a local deployment.
 
 ______
 
@@ -923,9 +945,12 @@ ______
 |---------|-------------|
 | **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)** | The definitive guide to Flock Safety's ALPR network, documented abuses, community organizing resources, and what you can do to protect yourself |
 | **[Flock Finder: Map Every Suspected Flock Safety Camera Near You](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | How to use the open-source Flock Finder tool to visualize 40,000+ suspected Flock cameras worldwide using WiGLE data and OUI fingerprinting |
-| **[How to Flash Rayhunter on IMSI Catcher Detection Devices](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Step-by-step guide to flashing Rayhunter firmware for detecting IMSI catchers and stingrays — complements ALPR detection |
+| **[Eye Spy: Passive Surveillance Detector for the M5Stack Atom Lite](/articles/eye-spy-passive-surveillance-detector-esp32-2026/)** | A BLE and WiFi detector that covers what Flock-You doesn't: AirTags, Tile trackers, body cameras, and drones, on the same hardware family |
+| **[How to Flash Rayhunter on IMSI Catcher Detection Devices](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Step-by-step guide to flashing Rayhunter firmware for detecting IMSI catchers and stingrays, running on a repurposed mobile hotspot rather than an ESP32 |
 | **[DagShell Custom Firmware for the Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Full guide to installing DagShell on the Orbic RCL400 for advanced cellular network monitoring and IMSI catcher detection |
 | **[Rayhunter Device Comparison 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Side-by-side comparison of devices supported by Rayhunter to help you choose the right hardware for your counter-surveillance toolkit |
+
+*Looking for something that actively fights back against trackers instead of just detecting them? [Simulacra](https://github.com/Em3ritus/simulacra) is a separate, unaffiliated open-source project that floods the area with decoy BLE and WiFi devices to bury your real device's signal. It solves a different problem than any device in this guide and is worth a look if passive detection alone isn't enough for your threat model.*
 
 ______
 
@@ -936,12 +961,13 @@ ______
 3. [Flock Finder - GitHub Repository](https://github.com/simeononsecurity/flock-finder)
 4. [Colonel Panic Tech - Official Vendor](https://colonelpanic.tech)
 5. [STS Collective - M5 Atom Lite Pre-Flashed](https://stscollective.com)
-4. [M5Stack Official Documentation](https://docs.m5stack.com/en/core/atom_lite)
-5. [Espressif ESP32 Technical Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-6. [WiFi Promiscuous Mode Tutorial](https://esp32developer.com/wifi-promiscuous-mode)
-7. [DeFlockJoplin Community Research](https://deflockjoplin.org/)
-8. [Electronic Frontier Foundation - ALPR](https://www.eff.org/issues/automated-license-plate-readers)
-9. [Arduino IDE Official Download](https://www.arduino.cc/en/software)
-10. [Platform.io Documentation](https://docs.platformio.org/)
-11. [OUI Database - IEEE Standards](https://standards.ieee.org/products-programs/regauth/)
-12. [802.11 Frame Structure Reference](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)
+6. [M5Stack Atom Lite Official Documentation](https://docs.m5stack.com/en/core/ATOM%20Lite)
+7. [Espressif ESP32 WiFi API Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html)
+8. [802.11 Probe Request/Response Reference](https://mrncciew.com/2014/10/27/cwap-802-11-probe-requestresponse/)
+9. [DeFlock Joplin - Community ALPR Research](https://deflockjoplin.today)
+10. [DeFlock - Crowdsourced ALPR Map and Data](https://deflock.me/)
+11. [Electronic Frontier Foundation - What Is ALPR?](https://www.eff.org/pages/what-alpr)
+12. [Arduino IDE Official Download](https://www.arduino.cc/en/software)
+13. [Platform.io Documentation](https://docs.platformio.org/)
+14. [IEEE Registration Authority - MAC Address Block Large (OUI)](https://standards.ieee.org/products-programs/regauth/oui/)
+15. [802.11 Beacon Frame Structure Reference](https://mrncciew.com/2014/10/08/802-11-mgmt-beacon-frame/)

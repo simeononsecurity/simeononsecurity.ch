@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety Camera Surveillance: Privacy and Protection"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-09-03
 toc: true
 draft: false
 description: "Discover the widespread deployment of Flock Safety ALPR cameras in 2026, understand the privacy implications, and learn effective counter-surveillance strategies including detection devices."
@@ -41,7 +41,7 @@ Software maps show you where cameras *have been seen*. A hardware detector tells
 
 **[STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** makes pre-flashed, plug-and-play Flock detection devices. No technical setup required:
 
-- **[FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)** ($39.99) — Compact detector, LED turns blue on detection. Plug into a USB power bank and put it in your cup holder.
+- **[FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)** ($49.99) — Compact detector, LED turns blue on detection. Plug into a USB power bank and put it in your cup holder.
 - **FlockYou Pro** — Adds audio alerts so you never miss a camera while driving.
 - **FlockYou Atom VoiceS3R** — Voice-spoken alerts for hands-free operation.
 
@@ -425,7 +425,7 @@ Three primary hardware platforms are available for Flock detection:
 - Data logging to SD card
 - Rechargeable battery for mobile use
 
-#### 2. M5 Atom Lite with FlockYou Firmware ($39.99)
+#### 2. M5 Atom Lite with FlockYou Firmware ($49.99)
 - Most affordable option
 - Compact form factor
 - Requires firmware flashing
