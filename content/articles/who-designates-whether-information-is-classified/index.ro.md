@@ -6,7 +6,7 @@ draft: false
 description: "Aflați despre procesul de clasificare a informațiilor, inclusiv cine desemnează și atribuie nivelurile de clasificare și importanța respectării reglementărilor guvernamentale."
 genre: ["Securitatea informațiilor", "Clasificarea datelor", "Reglementări guvernamentale", "Securitatea națională", "Protecția datelor", "Confidențialitatea datelor", "Măsuri de securitate", "Informații clasificate", "Controlul accesului", "Sensibilitatea datelor"]
 tags: ["clasificarea informațiilor", "desemnarea nivelurilor de clasificare", "autoritatea de clasificare", "securitatea informațiilor", "reglementări guvernamentale", "securitatea națională", "protecția datelor", "confidențialitatea datelor", "măsuri de securitate", "informații clasificate", "controlul accesului", "sensibilitatea datelor", "procesul de clasificare", "niveluri de clasificare", "autoritatea de clasificare inițială", "clasificare strict secretă", "clasificare secretă", "clasificare confidențială", "clasificare restrânsă", "sensibilitatea informațiilor", "autorizație de securitate", "pe baza principiului necesității de a cunoaște", "marcaje de clasificare", "procesul de declasificare", "Ordinul executiv 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "O imagine care înfățișează o persoană cu o lupă care analizează documente clasificate și cu un simbol de lacăt pe fundal."
 coverCaption: "Dezlegarea secretelor: Importanța clasificării informațiilor"
 ---

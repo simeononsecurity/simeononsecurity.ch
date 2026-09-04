@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o korzyściach i zagrożeniach związanych z wykorzystaniem uwierzytelniania biometrycznego do kontroli dostępu, w tym o zwiększonym bezpieczeństwie, obawach dotyczących prywatności i najlepszych praktykach wdrażania."
 tags: ["uwierzytelnianie biometryczne", "kontrola dostępu", "bezpieczeństwo", "prywatność", "ochrona danych", "GDPR", "HIPAA", "fałszywe pozytywy", "fałszywe negatywy", "uwierzytelnianie wieloczynnikowe", "badanie systemu", "polityka bezpieczeństwa", "efektywność", "wygoda", "unikalna tożsamość", "usprawniony przepływ pracy", "podatności", "ograniczanie ryzyka", "doświadczenie użytkownika", "cybersecurity"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Animowana ilustracja dłoni osoby korzystającej ze skanera linii papilarnych w celu uzyskania dostępu do zabezpieczonego obszaru, z twarzą i tęczówką osoby widocznej w tle."
 coverCaption: ""
 ---

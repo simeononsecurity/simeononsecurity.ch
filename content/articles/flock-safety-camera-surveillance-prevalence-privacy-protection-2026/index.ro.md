@@ -87,7 +87,7 @@ Produsul de bază al companiei este **camera Flock Safety Falcon**, un dispoziti
 
 Camerele Flock captează mai mult decât simple numere de plăcuțe. Ele înregistrează marca, modelul, culoarea, tipul caroseriei și caracteristicile distinctive ale fiecărui vehicul care trece. Compania comercializează acestea ca „amprente digitale" ale vehiculului. Aceasta înseamnă că fiecare călătorie pe care o faci este catalogată, chiar și atunci când nu ai făcut nimic greșit.
 
-{{< figure src="deflock-lpr-demo.png" alt="O cameră ALPR Flock Safety montată pe un stâlp demonstrând cum tehnologia captează plăcuțele de înmatriculare" caption="O instalare tipică de cameră ALPR. Credit imagine: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="O cameră ALPR Flock Safety montată pe un stâlp demonstrând cum tehnologia captează plăcuțele de înmatriculare" caption="O instalare tipică de cameră ALPR. Credit imagine: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Cum Funcționează Tehnologia ALPR
 
@@ -200,7 +200,7 @@ Implementarea pe scară largă a supravegherii ALPR ridică serioase **preocupă
 
 Ceea ce a început ca un instrument pentru **rezolvarea infracțiunilor contra proprietății** s-a extins dramatic. Acestea nu sunt riscuri ipotetice. Sunt tipare documentate.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="Imaginea de antet a campaniei ACLU Get The Flock Out prezentând un colaj de camere ALPR" caption="Campania 'Get The Flock Out' a ACLU a documentat abuzul răspândit al sistemelor ALPR. Credit imagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Imaginea de antet a campaniei ACLU Get The Flock Out prezentând un colaj de camere ALPR" caption="Campania 'Get The Flock Out' a ACLU a documentat abuzul răspândit al sistemelor ALPR. Credit imagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE și Aplicarea Legii Imigrației
 **ICE a folosit Flock pentru a localiza și urmări imigranți fără acte fără mandate.** Rețeaua națională a platformei oferă aplicării federale a legii imigrației un instrument pentru a urmări persoane între jurisdicții fără nicio cauză probabilă individualizată. Multe comunități care și-au finanțat rețelele Flock pentru recuperarea infracțiunilor contra proprietății au descoperit că camerele lor fac parte din operațiunile federale de aplicare a legii imigrației.

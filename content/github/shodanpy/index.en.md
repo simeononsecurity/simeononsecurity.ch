@@ -7,7 +7,7 @@ draft: false
 description: "Simplify cybersecurity queries effortlessly with our Shodan API interaction guide. Learn how to harness its power."
 genre: ["Cybersecurity", "API Integration", "Network Security", "Data Querying", "Python Development", "Information Retrieval", "Online Privacy", "Internet Security", "Digital Threats", "Data Analysis"]
 tags:  ["Shodan API", "API Interaction", "Cybersecurity", "Data Querying", "Python", "Network Security", "Effortless Queries", "Online Privacy", "Digital Threats", "Data Analysis", "Security Tools", "Information Retrieval", "Internet Security", "Shodan Modules", "Python Scripts", "Network Data", "Cyber Threats", "Data Privacy", "API Development", "Data Retrieval", "Python Libraries", "Network Analysis", "API Usage", "Data Security", "Shodan Integration", "Online Security", "Cyber Defense", "Shodanpy_simeononsecurity", "MIT License"]
-cover: "/img/cover/Shodan-Superhero-Network.png"
+cover: "/img/cover/Shodan-Superhero-Network.webp"
 coverAlt: "Shodan API in a superhero costume flying over a network landscape."
 coverCaption: "Unleash the Power of Shodan API!"
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Learn about the tactics used by phishing scammers and discover effective strategies to protect yourself from becoming a victim."
 tags: ["phishing scams", "cybersecurity", "online threats", "email spoofing", "social engineering", "malware protection", "online safety", "data security", "identity theft", "password security", "two-factor authentication", "software updates", "government regulations", "online privacy", "cyber awareness", "digital fraud", "phishing awareness", "social media safety", "online scams", "cybercrime prevention"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "A vigilant shield protecting a user from phishing attacks"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de evolutie van automatiseringstechnologie, industrieën die deze omarmen en de invloed ervan op kansen op de arbeidsmarkt."
 genre: ["Automatiseringstechnologie", "Industriële Revolutie", "Technologische vooruitgang", "Kunstmatige intelligentie", "Machinaal leren", "Productie", "Gezondheidszorg", "Vervoer", "Detailhandel", "Landbouw"]
 tags: ["automatiseringstechniek", "industrieën", "carrièremogelijkheden", "evolutie", "kunstmatige intelligentie", "machinaal leren", "productie", "gezondheidszorg", "transport", "zelfrijdende voertuigen", "detailhandel", "e-commerce", "landbouw", "slimme landbouw", "invloed op de arbeidsmarkt", "baanverschuiving", "technische vaardigheden", "bijscholing", "omscholing", "onderwijsinitiatieven", "STEM-programma's", "overheidsbeleid", "voorschriften", "universeel basisinkomen", "omscholingsprogramma's", "gegevensprivacy", "gegevensbeveiliging", "digitale tweedeling", "ethische overwegingen"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Een geanimeerde afbeelding van verschillende industrieën en technologieën die met elkaar verbonden zijn."
 coverCaption: "Omarm de geautomatiseerde toekomst met optimisme en aanpassingsvermogen."
 ---

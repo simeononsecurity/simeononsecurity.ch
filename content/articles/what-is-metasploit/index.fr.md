@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez la puissance de Metasploit, un framework open-source pour les tests de pénétration et le développement d'exploits, doté de fonctionnalités robustes et d'une large communauté."
 tags: ["Metasploit", "tests de pénétration", "développement de l'exploitation", "analyse de la vulnérabilité", "génération de la charge utile", "post-exploitation", "piratage éthique", "cybersécurité", "open-source", "cadre de sécurité", "évaluation de la vulnérabilité", "ingénierie sociale", "Cadre Metasploit", "Metasploit Pro", "sécurité informatique", "HD Moore", "Rapid7", "solutions de sécurité", "les réglementations gouvernementales", "Loi sur la fraude et les abus informatiques", "CFAA", "sensibilisation à la sécurité", "outils de piratage", "outils de cybersécurité", "communauté de la cybersécurité", "Ressources en matière de cybersécurité", "les professionnels de la cybersécurité", "meilleures pratiques en matière de cybersécurité", "conformité en matière de cybersécurité", "lois sur la cybersécurité"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Illustration animée d'un pirate informatique utilisant un ordinateur et une loupe pour représenter l'exploration et l'analyse des vulnérabilités et des exploits dans les systèmes informatiques."
 coverCaption: ""
 ---

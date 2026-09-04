@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Lernen Sie 10 wichtige E-Mail-Sicherheitstipps kennen, um Ihre Daten sicher zu halten und vor Cyber-Bedrohungen und -Verletzungen zu schützen."
 genre: ["E-Mail-Sicherheit", "Datenschutz", "Cybersecurity", "Online Privacy", "Identitätsdiebstahl", "Passwortsicherheit", "Phishing-Betrug", "Sicherheit im Internet", "Digitale Sicherheit", "Mitarbeiterschulung"]
 tags: ["E-Mail-Sicherheit", "datenschutz", "Cybersicherheit", "Online-Datenschutz", "Identitätsdiebstahl", "finanzieller Verlust", "E-Mail-Verschlüsselung", "Phishing-Betrügereien", "Passwortsicherheit", "öffentliches Wi-Fi", "VPN", "E-Mail-Software", "Zwei-Faktor-Authentifizierung", "Phishing-Mails", "verschlüsselte E-Mail-Dienste", "Sicherheitspatches", "automatisches Laden von Bildern", "sensible Informationen", "öffentliche Wi-Fi-Netze", "virtuelles privates Netzwerk", "persönliche Daten", "Sicherheitstraining", "Sicherheitspolitik", "offene Kommunikation", "Sicherheitsvorfälle", "Mitarbeiterschulung", "Cyber-Bedrohungen", "Datensicherheit", "digitaler Datenschutz", "Online-Sicherheit"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Eine symbolische Darstellung eines verschlossenen Umschlags, der von schildartigen Schutzschichten umgeben ist, die für E-Mail-Sicherheit und Datenschutz stehen"
 ---
  **10 wichtige Tipps zur E-Mail-Sicherheit, um Ihre Daten zu schützen**

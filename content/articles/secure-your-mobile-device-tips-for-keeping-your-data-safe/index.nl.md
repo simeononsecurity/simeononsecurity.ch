@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Leer hoe je je mobiele apparaat kunt beveiligen en je gegevens kunt beschermen tegen cyberbedreigingen met deze effectieve tips voor de beveiliging van mobiele apparaten."
 genre: ["Technologie", "Cyberbeveiliging", "Mobiele beveiliging", "Gegevensbescherming", "Online veiligheid", "Privacy", "Phishing-aanvallen", "Malware", "Wi-Fi Beveiliging", "Wachtwoordbeveiliging"]
 tags: ["Mobiele beveiliging", "Cyberbeveiliging", "Gegevensbescherming", "Mobiele apparaten", "Online veiligheid", "Privacy", "Phishing-aanvallen", "Malware", "Wi-Fi Beveiliging", "Gestolen apparaten", "Wachtwoordbeveiliging", "Biometrische verificatie", "Authenticatie met twee factoren", "Antivirussoftware", "App machtigingen", "Privacy-instellingen", "Gegevenscodering", "Back-ups van gegevens", "Openbare Wi-Fi Veiligheid", "Verloren of gestolen apparaten", "Tips voor mobiele beveiliging", "Beste praktijken voor mobiele beveiliging", "Mobiele beveiligingsoplossingen", "Mobiele apparaten beschermen", "Mobiele apps beveiligen", "Beheer mobiele apparaten", "Mobiele beveiligingsbedreigingen", "Tips voor mobiele privacy", "Beveiliging mobiele gegevens", "Mobiele cyberbeveiliging"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Een cartoonillustratie van een smartphone met een schild en een slotsymbool, die de beveiliging van mobiele apparaten en gegevensbescherming voorstellen"
 ---
 

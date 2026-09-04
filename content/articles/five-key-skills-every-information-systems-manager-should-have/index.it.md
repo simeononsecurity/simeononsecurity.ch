@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite le 5 competenze chiave che ogni manager di sistemi informativi dovrebbe avere per avere successo nel mondo digitale di oggi."
 genre: ["Tecnologia", "Affari", "Gestione", "IT", "Sviluppo della carriera", "Trasformazione digitale", "Analisi dei dati", "Cloud Computing", "Gestione del progetto", "Leadership"]
 tags: ["sistemi informativi", "manager", "MIS", "competenze tecniche", "capacità analitiche", "capacità di leadership", "competenze di gestione del progetto", "competenze comunicative", "cloud computing", "analisi dei dati", "risoluzione dei problemi", "pensiero critico", "processo decisionale", "gestione del team", "collaborazione", "pianificazione del progetto", "gestione delle risorse", "comunicazione", "tecnologia", "processi aziendali", "trasformazione digitale", "decisioni basate sui dati", "piattaforme basate sul cloud", "architettura del sistema", "gestione del database", "linguaggi di programmazione", "Competenze informatiche", "sviluppo della carriera"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Illustrazione di un manager di sistemi informativi che supervisiona una rete di computer"
 coverCaption: "Acquisire le competenze necessarie per diventare un manager di successo dei sistemi informativi."
 ---

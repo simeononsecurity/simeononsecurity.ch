@@ -20,7 +20,7 @@ In the dynamic world of Software-Defined Radio (SDR), enthusiasts and tech afici
 
 - [**AirNav RadarBox FlightStick**](https://amzn.to/3FSSql1): One of the specific adapters consistently outperforming others. Also the highest performing in our testing.
 
-{{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick" link="https://amzn.to/3FSSql1" >}}
+{{< figure src="adsbreceiver.webp" alt="AirNav RadarBox FlightStick" link="https://amzn.to/3FSSql1" >}}
 
 {{< centerbutton href="https://amzn.to/3FSSql1" >}}Get the AirNav RadarBox FlightStick Today!{{< /centerbutton >}}
 
@@ -75,7 +75,7 @@ Our testing methodology was accompanied by graphical representations to provide 
 
 **Noise Levels**: Charts displaying noise levels for each adapter, highlighting their ability to minimize interference and improve signal quality.
 
-{{< figure src="adsbdata.jpeg" alt="Example of graphs1090 data received." caption="Example of graphs1090 data received. Image and data pictured are not from of our tests.">}}
+{{< figure src="adsbdata.webp" alt="Example of graphs1090 data received." caption="Example of graphs1090 data received. Image and data pictured are not from of our tests.">}}
 
 ______
 

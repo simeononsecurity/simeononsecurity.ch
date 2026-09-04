@@ -6,12 +6,12 @@ draft: false
 description: "Descoperiți StartMail, un serviciu de e-mail securizat cu criptare avansată și mascare a e-mailurilor, asigurând cea mai mare confidențialitate și protecție împotriva amenințărilor cibernetice."
 genre: ["Securitatea cibernetică", "Confidențialitate", "Servicii de e-mail", "Securitate online", "Confidențialitatea digitală", "Criptare", "Protecția datelor", "Confidențialitatea e-mailurilor", "Protecția identității", "Confidențialitatea online"]
 tags: ["Email securizat", "Serviciul de e-mail", "StartMail", "Mascarea e-mailurilor", "Confidențialitate", "Criptare", "Securitatea cibernetică", "Protecția datelor", "Securitate online", "Protecția identității", "Confidențialitatea online", "Securitate e-mail", "Comunicare securizată", "Alias de e-mail", "Criptare de la un capăt la altul", "Criptarea SMIME", "Autentificare cu doi factori", "Criptarea datelor", "Confidențialitatea e-mailurilor", "Confidențialitatea digitală", "Serviciul de securitate a e-mailurilor", "Orientat spre confidențialitate", "Stocarea securizată a datelor", "Protecția împotriva phishing-ului", "Prevenirea spam-ului", "OPSEC", "Containerizare", "Protecția identității online", "Comunicare digitală", "Prevenirea încălcării datelor"]
-cover: "/img/cover/secure_email_guard.png"
+cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "O ilustrație simbolică a unui plic de e-mail încuiat și păzit de un scut,"
 coverCaption: "Păstrarea confidențialității digitale cu StartMail."
 ---
 
-{{< figure src="startmail_logo.png" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
 
 ## Ce este StartMail
 
@@ -47,25 +47,25 @@ Pentru a începe cu StartMail, vizitați site-ul lor [official website](https://
 
 ### 2. **Crearea unui pseudonim de e-mail mascat**
 
-{{< figure src="startmail_pictured_alias.png" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
 
 Odată ce aveți contul StartMail, navigați la secțiunea de setări. Aici, veți găsi opțiunea de a **crea un alias de e-mail mascat**. Alegeți un nume unic pentru aliasul dvs. și, ori de câte ori trebuie să furnizați o adresă de e-mail pe un site web sau serviciu, utilizați acest alias mascat în locul e-mailului dvs. principal.
 
 ### 3. **Email Forwarding**
 
-{{< figure src="startmail_international.png" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
 
 Atunci când cineva trimite un e-mail către aliasul dvs. mascat, StartMail îl va redirecționa automat către căsuța dvs. de e-mail reală. În acest fel, puteți urmări toate comunicările fără a vă dezvălui adresa de e-mail reală.
 
 ### 4. **Gestionarea aliasurilor**
 
-{{< figure src="startmail_emailmasking.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
 
 StartMail vă permite să vă **gestionați aliasurile** în mod eficient. Puteți șterge un alias dacă primiți prea mult spam și puteți crea noi alias-uri ori de câte ori este nevoie. Această flexibilitate vă oferă un control mai bun asupra comunicațiilor dvs. prin e-mail.
 
 ### 5. **Comunicare securizată**
 
-{{< figure src="startmail_pictured_encryption.png" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
 
 Cu criptarea de la un capăt la altul a StartMail, toate comunicațiile efectuate prin intermediul aliasului mascat sunt sigure și private. Chiar dacă este interceptat, conținutul e-mailului rămâne criptat, făcând imposibilă descifrarea informațiilor de către entități neautorizate.
 
@@ -91,7 +91,7 @@ ______
 
 ## Cum să folosiți StartMail pentru a evita să fiți piratat prin mascarea e-mailurilor
 
-{{< figure src="startmail_masking2.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
 
 Utilizarea funcției de mascare a e-mailului **StartMail** nu numai că adaugă un nivel suplimentar de protecție la identitatea dvs. online, dar ajută și la prevenirea urmăririi pe web și face mai dificilă corelarea conturilor dvs. în cazul încălcărilor de date. Containerizarea, obținută prin mascarea e-mailurilor, este o practică puternică de securitate operațională (OPSEC) pe care StartMail excelează în a o facilita.
 

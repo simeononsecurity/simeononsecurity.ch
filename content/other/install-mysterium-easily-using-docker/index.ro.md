@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Descoperiți puterea lui Mysterium, un VPN descentralizat și un serviciu de răzuire web construit pe tehnologia blockchain, care oferă oportunități de navigare și venituri sigure."
 tags: ["Mister", "VPN", "răzuire web", "descentralizat", "confidențialitate", "securitate", "blockchain", "Ethereum", "Poligon", "navigare pe internet", "oportunitate de venit", "Docker", "configurare", "redirecționarea porturilor", "VPN descentralizat", "serviciu de răzuire web", "navigare securizată", "câștiguri", "tehnologia blockchain", "confidențialitatea online", "Container Docker", "configurare nod", "Adresa IP", "Portofel ERC20", "Adresa MetaMask", "Cheia API", "instrucțiuni de redirecționare a porturilor", "PortForward.com", "Documentația Mysterium"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "O ilustrație reprezentând un scut care protejează ecranul unui computer, simbolizând o mai mare confidențialitate și securitate online."
 coverCaption: ""
 ---

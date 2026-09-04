@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Découvrez les responsabilités, les compétences et les réglementations sectorielles qui définissent le rôle d'un expert en cybersécurité dans la protection des actifs numériques et la lutte contre les cybermenaces."
 tags: ["expert en cybersécurité", "rôle en matière de cybersécurité", "responsabilités en matière de cybersécurité", "compétences en matière de cybersécurité", "renseignements sur les menaces", "incident response", "sensibilisation à la sécurité", "sécurité des réseaux", "algorithmes de cryptage", "codage sécurisé", "réglementation de l'industrie", "GDPR", "HIPAA", "PCI DSS", "certifications", "CISSP", "CEH", "CompTIA Security+ (en anglais)", "protéger les actifs numériques", "cybermenaces", "la sécurité des données", "protection du réseau", "évaluation de la vulnérabilité", "audits de sécurité", "détection des logiciels malveillants", "prévention des violations de données", "carrière en cybersécurité", "formation à la cybersécurité", "certifications en cybersécurité", "la sécurité de l'information", "cyberdéfense"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Un expert en cybersécurité animé, portant une cape de super-héros, se tenant avec assurance, un bouclier dans une main et un symbole de cadenas dans l'autre, protégeant les actifs numériques."
 coverCaption: "Représentation symbolique d'un expert en cybersécurité, armé de connaissances et d'outils, défendant les actifs numériques contre les cybermenaces."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați informațiile personale prin eliminarea lor din directoare online și din brokerii de date cu ajutorul acestui ghid cuprinzător."
 tags: ["eliminarea datelor cu caracter personal", "anuare online", "brokeri de date", "protecția vieții private", "ghid complet", "eliminați informațiile personale", "confidențialitatea online", "confidențialitatea pe internet", "confidențialitatea online", "brokeri de date", "eliminați informațiile", "IntelTechniques", "SimeonOnSecurity", "securitate online", "protecția vieții private", "protejați confidențialitatea online"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "O imagine a unui ecran de calculator cu un X roșu care trece printr-o listă de informații personale, cum ar fi numele, adresa și numărul de telefon, simbolizând eliminarea datelor personale din anuarele online."
 coverCaption: ""
 ---

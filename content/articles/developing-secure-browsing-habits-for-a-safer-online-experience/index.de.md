@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Schützen Sie sich vor Online-Bedrohungen und sorgen Sie für ein sichereres Online-Erlebnis, indem Sie sichere Surfgewohnheiten entwickeln. Erfahren Sie, wie wichtig sicheres Surfen ist, welche Gewohnheiten Sie sich aneignen sollten und wie Sie Ihre persönlichen Daten schützen können."
 genre: ["Cybersecurity", "Online-Sicherheit", "Sicheres Surfen", "Internet-Sicherheit", "Schutz personenbezogener Daten", "Online Privacy", "Online-Bedrohungen", "Prävention von Cyberkriminalität", "Prävention von Identitätsdiebstahl", "Sicherheit im Internet"]
 tags: ["sichere Surfgewohnheiten", "Online-Bedrohungen", "Cybersicherheit", "Online-Sicherheit", "Schutz personenbezogener Daten", "Online-Datenschutz", "Prävention von Identitätsdiebstahl", "Internetsicherheit", "Prävention von Internetkriminalität", "sicheres Surfen im Internet", "Online-Betrügereien", "Phishing-Betrügereien", "Malwareschutz", "Ransomware-Schutz", "Social-Media-Sicherheit", "Datensicherheit", "Schutz der Privatsphäre im Internet", "sichere Datenspeicherung", "Passwortsicherheit", "Zwei-Faktor-Authentifizierung", "VPN", "verschlüsseltes Browsing", "öffentliche Wi-Fi-Sicherheit", "Erziehung zur Online-Sicherheit", "Bewusstsein für Cybersicherheit", "sichere Online-Gewohnheiten", "Online-Sicherheitskultur", "kommunale Sicherheit", "Tipps zur Online-Sicherheit"]
-cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.png"
+cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
 coverAlt: "Eine illustrierte Darstellung des Surfens im Internet mit einem Vorhängeschloss als Symbol für sicheres Surfen."
 ---
 

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索 React、Angular 和 Vue.js 之间的区别，为你的网站开发项目选择合适的前端框架。"
 tags: ["前端框架", "网站开发", "反应", "Angular", "Vue.js", "框架比较", "用户界面", "性能", "声望", "社区支持", "学习曲线", "生态系统", "用例", "JavaScript", "虚拟 DOM", "组件式架构", "国家管理", "扩展性", "文献资料", "工具", "项目要求", "React 与 Angular", "React 与 Vue.js", "Angular 与 Vue.js", "前端开发", "网络应用框架", "用户界面开发", "JavaScript 框架", "网络开发工具", "网络开发技术"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "描述三个相互连接的齿轮的图片，标有 React、Angular 和 Vue.js 标记"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les bases de la cybersécurité, notamment les types de cybermenaces, l'importance de la cybersécurité et les mesures à prendre pour améliorer la sécurité en ligne."
 tags: ["Cybersécurité", "Cybermenaces", "Sécurité en ligne", "Protéger les données", "Virus", "Logiciels malveillants", "Escroqueries par hameçonnage", "Pirates informatiques", "Sécurité nationale", "Propriété intellectuelle", "Vie privée"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "L'image d'une personne assise devant un ordinateur, l'air inquiet, tandis qu'un pirate informatique ou un cybercriminel apparaît à l'écran, représente les dangers des cybermenaces et l'importance de la cybersécurité"
 coverCaption: ""
 ---

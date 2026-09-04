@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die ethischen Überlegungen und Herausforderungen beim Einsatz von KI im Bereich der Cybersicherheit und wie diese für einen effektiven Einsatz angegangen werden können."
 tags: ["AI", "Cybersicherheit", "ethische Erwägungen", "Vorspannung", "Datenschutz", "Rechenschaftspflicht", "Komplexität", "Anpassungsfähigkeit", "menschliche Aufsicht", "Ressourcenintensität", "Datenschutz", "maschinelles Lernen", "Bedrohungsdaten", "datenschutz", "Technologie", "Automatisierung", "Cyber-Bedrohungen", "Informationssicherheit", "Einhaltung von Rechtsvorschriften", "digitale Transformation"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "Das Bild eines Schlosses mit Zahnrädern symbolisiert den Einsatz von KI in der Cybersicherheit, während eine menschliche Hand einen Schlüssel hält, um die menschliche Aufsicht zu veranschaulichen."
 coverCaption: ""
 ---

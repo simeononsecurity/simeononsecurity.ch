@@ -44,7 +44,7 @@ Al ejecutar un escaneo de puertos desde 1-65535, notará algunos puertos abierto
 
 ### Personalización de la ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Ahora viene la parte importante, es decir, cambiar algunos datos del dispositivo para hacerlo compatible con la red de tu ISP.
 

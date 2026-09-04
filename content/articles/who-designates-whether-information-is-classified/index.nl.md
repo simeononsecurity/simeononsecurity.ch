@@ -6,7 +6,7 @@ draft: false
 description: "Leer over het proces van informatieclassificatie, inclusief wie rubriceringsniveaus aanwijst en toewijst, en het belang van het naleven van overheidsvoorschriften."
 genre: ["Informatiebeveiliging", "Classificatie van gegevens", "Overheidsvoorschriften", "Nationale Veiligheid", "Gegevensbescherming", "Privacy van gegevens", "Veiligheidsmaatregelen", "Geclassificeerde informatie", "Toegangscontrole", "Gevoeligheid van gegevens"]
 tags: ["informatieclassificatie", "classificatieniveaus aanwijzen", "classificatie-instantie", "informatiebeveiliging", "overheidsvoorschriften", "nationale veiligheid", "gegevensbescherming", "gegevensprivacy", "veiligheidsmaatregelen", "gerubriceerde informatie", "toegangscontrole", "datagevoeligheid", "classificatieproces", "classificatieniveaus", "oorspronkelijke classificatieautoriteit", "topgeheime classificatie", "geheime classificatie", "vertrouwelijke classificatie", "beperkte classificatie", "informatiegevoeligheid", "veiligheidsmachtiging", "need-to-know basis", "classificatiemarkeringen", "derubriceringsproces", "Uitvoeringsbevel 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "Een afbeelding van een persoon met een vergrootglas die geheime documenten analyseert en een slotsymbool op de achtergrond."
 coverCaption: "De geheimen ontsluieren: Het belang van informatieclassificatie"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Mejore la seguridad de las máquinas virtuales utilizando vTPM con nuestra completa guía paso a paso, que proporciona atestación de la plataforma y compatibilidad con el cifrado BitLocker."
 genre: ["Ciberseguridad", "Virtualización", "VMware", "vSphere", "Seguridad", "Módulo de plataforma de confianza", "vTPM", "Invitado OS", "Cifrado", "Plataforma de certificación"]
 tags: ["Módulo de plataforma virtual de confianza", "Guía vTPM", "Seguridad de máquinas virtuales mejorada", "Plataforma de certificación", "Cifrado BitLocker", "VMware vSphere", "Seguridad de la virtualización", "Ciberseguridad", "Protección del SO invitado", "Hardware VM", "TPM 2.0", "Arranque seguro", "Operaciones criptográficas", "Buenas prácticas de seguridad de máquinas virtuales", "Servidor vCenter", "Hosts ESXi", "Firmware EFI", "Proveedor clave", "Documentación de VMware", "Servidor Windows", "Windows 7", "Sistema operativo Linux", "Configuración segura de máquinas virtuales", "Seguridad", "Cliente vSphere", "Chip virtual", "Protección de datos", "Detección de manipulaciones", "Verificación de la integridad de la máquina virtual", "Seguridad de VMware"]
-cover: "/img/cover/enhanced-vm-security.png"
+cover: "/img/cover/enhanced-vm-security.webp"
 coverAlt: "Ilustración simbólica que muestra una máquina virtual con un candado brillante, que representa la seguridad mejorada a través de vTPM."
 coverCaption: "Desbloquee una seguridad de máquinas virtuales sin precedentes"
 ---

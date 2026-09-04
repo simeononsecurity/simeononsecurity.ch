@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Scoprite come proteggere il vostro dispositivo mobile e i vostri dati dalle minacce informatiche con questi consigli efficaci per la sicurezza dei dispositivi mobili."
 genre: ["Tecnologia", "Sicurezza informatica", "Sicurezza mobile", "Protezione dei dati", "Sicurezza online", "Privacy", "Attacchi di phishing", "Malware", "Sicurezza Wi-Fi", "Sicurezza della password"]
 tags: ["Sicurezza mobile", "Sicurezza informatica", "Protezione dei dati", "Dispositivi mobili", "Sicurezza online", "Privacy", "Attacchi di phishing", "Malware", "Sicurezza Wi-Fi", "Dispositivi rubati", "Sicurezza della password", "Autenticazione biometrica", "Autenticazione a due fattori", "Software antivirus", "Autorizzazioni per le app", "Impostazioni sulla privacy", "Crittografia dei dati", "Data Backups", "Sicurezza del Wi-Fi pubblico", "Dispositivi smarriti o rubati", "Suggerimenti per la sicurezza mobile", "Migliori pratiche di sicurezza mobile", "Soluzioni di sicurezza mobile", "Protezione dei dispositivi mobili", "Protezione delle applicazioni mobili", "Gestione dei dispositivi mobili", "Minacce alla sicurezza mobile", "Mobile Privacy Tips", "Sicurezza dei dati mobili", "Cybersicurezza mobile"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Illustrazione a fumetti di uno smartphone con il simbolo dello scudo e del lucchetto, che rappresenta la sicurezza dei dispositivi mobili e la protezione dei dati"
 ---
 

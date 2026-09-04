@@ -6,7 +6,7 @@ draft: false
 description: "了解如何利用生态友好型 PoST 算法优化使用多个 GPU 的 Spacemesh 挖矿，并最大限度地提高您的回报。"
 genre: ["加密货币", "区块链", "采矿", "技术", "分散式", "GPU 采矿", "时空证明", "环保", "加密货币小贴士", "数字资产"]
 tags: ["太空网", "采矿", "图形处理器", "时空证明", "加密货币", "区块链", "环保", "分散式", "PoST 算法", "采矿指南", "加密货币小贴士", "奖励", "优化", "节能", "GPU 采矿", "数字资产", "技术", "非集中化", "空间证明", "时空挖掘", "采矿效率最大化", "生态友好型加密货币", "Spacemesh 网络", "GPU 挖矿设置", "使用多个 GPU 挖矿", "去中心化区块链采矿", "加密货币挖矿技巧", "高效 GPU 采矿", "时空算法证明", "加密货币奖励"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "一幅卡通风格的插图，展示了多个 GPU 协同工作开采 Spacemesh 的情况。"
 coverCaption: "矿山更智能，矿山更环保！"
 ---

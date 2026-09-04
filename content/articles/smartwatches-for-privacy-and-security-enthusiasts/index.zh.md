@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "发现专为隐私爱好者量身定制的智能手表首选，强调数据安全和用户控制。"
 tags: ["智能手表选项", "注重隐私的设备", "数据安全", "用户控制", "小行星操作系统", "松树时间", "守望者", "开放式智能手表", "Bangle.js 2", "小工具桥", "可穿戴技术", "数据隐私", "可定制的体验", "个人数据保护", "开源智能手表", "健身追踪", "通知", "智能手表固件", "注重隐私的个人", "Gadgetbridge 支持的设备", "Amazfit Bip", "Garmin 手表", "Fitbit 型号", "Pinetime 智能手表", "Squarofumi 的《守望者", "开放式智能手表，作者：Pauls_3D_Things", "Bangle.js 2 智能手表", "Gadgetbridge 兼容性", "支持小行星操作系统的设备", "智能手表的隐私功能", "开源可穿戴技术", "数据隐私解决方案"]
-cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.png"
+cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp"
 coverAlt: "带有象征数据隐私的盾牌的智能手表插图"
 coverCaption: ""
 ---

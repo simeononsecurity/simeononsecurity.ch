@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Erfahren Sie, wie Sie Ihr mobiles Gerät sichern und Ihre Daten vor Cyber-Bedrohungen schützen können - mit diesen effektiven Tipps für die Sicherheit mobiler Geräte."
 genre: ["Technologie", "Cybersecurity", "Mobile Sicherheit", "Datenschutz", "Online-Sicherheit", "Datenschutz", "Phishing-Angriffe", "Malware", "Wi-Fi-Sicherheit", "Passwortsicherheit"]
 tags: ["Mobile Sicherheit", "Cybersecurity", "Datenschutz", "Mobile Geräte", "Online-Sicherheit", "Datenschutz", "Phishing-Angriffe", "Malware", "Wi-Fi-Sicherheit", "Gestohlene Geräte", "Passwortsicherheit", "Biometrische Authentifizierung", "Zwei-Faktoren-Authentifizierung", "Antivirus-Software", "App-Berechtigungen", "Datenschutz-Einstellungen", "Datenverschlüsselung", "Daten-Backups", "Öffentliche Wi-Fi-Sicherheit", "Verlorene oder gestohlene Geräte", "Tipps zur mobilen Sicherheit", "Bewährte Praktiken für mobile Sicherheit", "Mobile Sicherheitslösungen", "Schutz für mobile Geräte", "Absicherung von Mobile Apps", "Verwaltung mobiler Geräte", "Mobile Sicherheitsbedrohungen", "Tipps zum mobilen Datenschutz", "Mobile Datensicherheit", "Mobile Cybersicherheit"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Eine Cartoon-Illustration eines Smartphones mit einem Schild und einem Schlosssymbol, die für die Sicherheit mobiler Geräte und den Schutz von Daten stehen"
 ---
 

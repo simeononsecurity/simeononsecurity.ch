@@ -6,12 +6,12 @@ draft: false
 description: "Découvrez StartMail, un service de messagerie sécurisé doté d'un cryptage avancé et d'un masquage des e-mails, garantissant une confidentialité maximale et une protection contre les cyber-menaces."
 genre: ["Cybersécurité", "Vie privée", "Services de courrier électronique", "Sécurité en ligne", "Vie privée numérique", "Cryptage", "Protection des données", "Confidentialité des courriels", "Protection de l'identité", "Confidentialité en ligne"]
 tags: ["Courriel sécurisé", "Service de messagerie", "StartMail", "Masquage des courriels", "Vie privée", "Cryptage", "Cybersécurité", "Protection des données", "Sécurité en ligne", "Protection de l'identité", "Confidentialité en ligne", "Sécurité du courrier électronique", "Communication sécurisée", "Alias de courrier électronique", "Chiffrement de bout en bout", "SMIME Encryption", "Authentification à deux facteurs", "Cryptage des données", "Confidentialité des courriels", "Vie privée numérique", "Service de sécurité du courrier électronique", "Axé sur la protection de la vie privée", "Stockage sécurisé des données", "Protection contre l'hameçonnage", "Prévention du spam", "OPSEC", "Conteneurisation", "Protection de l'identité en ligne", "Communication numérique", "Prévention des violations de données"]
-cover: "/img/cover/secure_email_guard.png"
+cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "Illustration symbolique d'une enveloppe de courrier électronique verrouillée et protégée par un bouclier,"
 coverCaption: "Protégez votre vie privée numérique avec StartMail."
 ---
 
-{{< figure src="startmail_logo.png" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
 
 ## Qu'est-ce que StartMail ?
 
@@ -47,25 +47,25 @@ Pour commencer avec StartMail, visitez leur [official website](https://www.start
 
 ### 2. **Création d'un alias d'e-mail masqué**
 
-{{< figure src="startmail_pictured_alias.png" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
 
 Une fois que vous avez votre compte StartMail, naviguez vers la section paramètres. Ici, vous trouverez l'option de **créer un alias masqué**. Choisissez un nom unique pour votre alias, et chaque fois que vous devez fournir une adresse email sur un site web ou un service, utilisez cet alias masqué au lieu de votre email principal.
 
 ### 3. **Transfert d'e-mail**
 
-{{< figure src="startmail_international.png" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
 
 Lorsque quelqu'un envoie un e-mail à votre alias masqué, StartMail le transfère automatiquement à votre vraie boîte de réception. De cette façon, vous pouvez garder une trace de toutes les communications sans révéler votre adresse e-mail réelle.
 
 ### 4. **Gestion des alias**
 
-{{< figure src="startmail_emailmasking.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
 
 StartMail vous permet de **gérer vos alias** efficacement. Vous pouvez supprimer un alias si vous recevez trop de spam, et vous pouvez créer de nouveaux alias chaque fois que nécessaire. Cette flexibilité vous donne un meilleur contrôle sur vos communications par email.
 
 ### 5. **Communication sécurisée**
 
-{{< figure src="startmail_pictured_encryption.png" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
 
 Avec le cryptage de bout en bout de StartMail, toutes les communications faites à travers l'alias masqué sont sécurisées et privées. Même s'il est intercepté, le contenu de l'e-mail reste crypté, ce qui rend impossible le déchiffrage de l'information par des entités non autorisées.
 
@@ -91,7 +91,7 @@ ______
 
 ## Comment utiliser StartMail pour éviter d'être piraté grâce au masquage d'email
 
-{{< figure src="startmail_masking2.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
 
 L'utilisation de **StartMail's email masking** n'ajoute pas seulement une couche supplémentaire de protection à votre identité en ligne, mais aide aussi à prévenir le suivi à travers le web et rend plus difficile la corrélation de vos comptes à travers les violations de données. La conteneurisation, réalisée par le masquage d'email, est une pratique puissante dans la sécurité opérationnelle (OPSEC) que StartMail excelle à faciliter.
 

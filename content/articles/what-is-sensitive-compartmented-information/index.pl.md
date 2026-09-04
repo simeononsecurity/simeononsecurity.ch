@@ -6,7 +6,7 @@ draft: false
 description: "Zapoznanie się ze znaczeniem, poziomami klasyfikacji, obsługą i przepisami dotyczącymi informacji szczególnie chronionych (SCI) dla celów bezpieczeństwa narodowego."
 genre: ["Bezpieczeństwo informacji", "Bezpieczeństwo narodowe", "Inteligencja", "Informacje niejawne", "Przepisy rządowe", "Kontrola dostępu", "Świadectwa bezpieczeństwa", "Wspólnota wywiadowcza", "Przemysł obronny", "Operacje wywiadowcze"]
 tags: ["Informacje szczególnie chronione", "SCI", "informacje niejawne", "bezpieczeństwo narodowe", "źródła wywiadowcze", "operacje wywiadowcze", "kontrola dostępu", "poświadczenia bezpieczeństwa", "regulacje rządowe", "bezpieczeństwo informacji", "przetwarzanie informacji niejawnych", "wymagania dotyczące obsługi", "dyrektywy społeczności wywiadowczej", "Podręcznik bezpieczeństwa Dyrektora Wywiadu Narodowego", "Podręcznik operacyjny krajowego programu bezpieczeństwa przemysłowego", "społeczność wywiadowcza", "przemysł obronny", "środki bezpieczeństwa", "zgodność", "procedury bezpieczeństwa", "działania wywiadowcze", "operacje kontrwywiadowcze", "decyzje dotyczące polityki zagranicznej", "zagrożenia", "poufność informacji", "integralność informacji", "dostępność informacji", "ODNI", "DCSA", "przepisy", "nadzór"]
-cover: "/img/cover/An_image_representing_sci.png"
+cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Obraz przedstawiający poufne informacje niejawne (SCI) z tarczą symbolizującą bezpieczeństwo, kłódką symbolizującą poufność i kulą ziemską symbolizującą bezpieczeństwo narodowe."
 coverCaption: "Ochrona bezpieczeństwa narodowego poprzez bezpieczną obsługę poufnych informacji (SCI)."
 ---

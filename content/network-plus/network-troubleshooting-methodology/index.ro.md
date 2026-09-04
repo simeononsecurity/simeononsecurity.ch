@@ -6,7 +6,7 @@ draft: false
 description: "Un ghid cuprinzător al metodologiei de depanare a rețelelor, inclusiv pași, instrumente și cele mai bune practici pentru rezolvarea eficientă și eficace a problemelor de rețea."
 genre: ["Educație IT", "Depanarea rețelei", "Certificare de rețea", "Formare IT", "Rețele de calculatoare", "Competențe IT", "Cunoștințe tehnice", "Profesioniști IT", "Concepte de rețea", "Suport de rețea"]
 tags: ["metodologia de depanării rețelelor", "probleme de rețea", "Profesioniști IT", "Modelul OSI", "instrumente de rețea", "măsuri de depanare", "performanța rețelei", "Competențe IT", "rezolvarea problemelor", "diagnosticarea rețelei", "documentarea depanării", "configurația rețelei", "colaborarea între utilizatori", "reglementări guvernamentale", "standarde industriale", "PCI DSS", "HIPAA", "GDPR", "documentația rețelei", "îmbunătățire continuă", "baza de cunoștințe a rețelei", "funcționalitatea sistemului", "măsuri preventive", "optimizarea performanței rețelei", "instrumente de depanare a rețelei", "conectivitatea rețelei", "Curs de formare IT", "procesul de depanării rețelei", "tehnici de depanare a rețelei", "cele mai bune practici de asistență în rețea", "ghid de depanare a rețelei"]
-cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.png"
+cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.webp"
 coverAlt: "O ilustrație care înfățișează un inginer de rețea care folosește o lupă pentru a analiza conexiunile de rețea și pentru a remedia problemele."
 coverCaption: "Eliberați-vă abilitățile de depanare a rețelei"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Consigue recompensas ecológicas a través de la minería Spacemesh, un enfoque descentralizado que utiliza el innovador algoritmo de consenso PoST."
 genre: ["Minería de criptomonedas", "Prueba del espacio-tiempo", "Recompensas descentralizadas", "Minería ecológica", "Tecnología Blockchain", "Criptomoneda", "Minería de criptomonedas", "Prueba del espacio", "Descentralización", "Consenso Blockchain"]
 tags: ["Minería espacial", "Prueba del espacio-tiempo", "Ecológico", "Descentralización", "Minería de criptomonedas", "Tecnología Blockchain", "Mallas", "Pruebas PoST", "Recompensas mineras", "Entusiastas de las criptomonedas", "Consenso descentralizado", "Soluciones mineras respetuosas con el medio ambiente", "Recompensas de criptomonedas", "Seguridad de las criptomonedas", "Prueba del espacio", "Criptoinnovación", "Red Blockchain", "Red Spacemesh", "Proceso de mallado", "Eficacia de las criptomonedas", "Criptoparticipación", "Escalabilidad de las criptomonedas", "Incentivos Blockchain", "Software Spacemesh", "Fichas Spacemesh", "Red Crypto", "Transacciones en criptomoneda", "Descentralización de las criptomonedas", "Desafíos criptográficos"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Una llamativa ilustración de dibujos animados de una nave espacial propulsada por un cohete que explota criptomonedas en el espacio exterior, símbolo del innovador y respetuoso con el medio ambiente proceso de explotación minera Spacemesh."
 coverCaption: "Minería a las estrellas Las recompensas ecológicas de Spacemesh te esperan."
 ---

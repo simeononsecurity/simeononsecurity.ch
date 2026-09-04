@@ -44,7 +44,7 @@ Po uruchomieniu skanowania portów od 1-65535, zauważysz kilka otwartych portó
 
 ### Dostosowywanie ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Teraz następuje ważna część, czyli zmiana niektórych informacji o urządzeniu, aby było ono kompatybilne z siecią dostawcy usług internetowych.
 

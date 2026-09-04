@@ -87,7 +87,7 @@ ______
 
 Flockカメラはプレート番号以上のものを取得します。通過する全ての車両のメーカー、モデル、色、ボディタイプ、識別特徴を記録します。同社はこれらを車両の「指紋」として販売しています。つまり、何も悪いことをしていなくても、あなたの全ての移動が記録されます。
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="典型的なALPRカメラの設置。画像クレジット：DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="典型的なALPRカメラの設置。画像クレジット：DeFlock.org" link="https://deflock.org/" >}}
 
 ### ALPR技術の仕組み
 
@@ -200,7 +200,7 @@ ALPRによる広範な監視は、深刻な**修正第4条の懸念**を提起�
 
 **財産犯罪の解決**ツールとして始まったものが劇的に拡大しました。これらは仮定のリスクではありません。記録されたパターンです。
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="ACLUの「Get The Flock Out」キャンペーンはALPRシステムの広範な悪用を記録しています。画像クレジット：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="ACLUの「Get The Flock Out」キャンペーンはALPRシステムの広範な悪用を記録しています。画像クレジット：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICEと移民執行
 **ICEは令状なしに不法移民を発見・追跡するためにFlockを使用しています。** このプラットフォームの全国ネットワークは、連邦移民執行機関に、個別の相当な理由なしに管轄区域を越えて個人を追跡するツールを提供します。財産犯罪の回収のためにFlockネットワークに資金を提供した多くのコミュニティが、そのカメラが連邦移民執行活動の一部であることを発見しています。

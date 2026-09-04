@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las 5 mejores certificaciones de ciberseguridad que pueden ayudarle a avanzar en su carrera y aumentar sus posibilidades de conseguir un empleo en el campo de la ciberseguridad, que está experimentando un rápido crecimiento."
 tags: ["Ciberseguridad", "Certificaciones", "CompTIA Security Plus", "CISSP", "Seguridad ofensiva OSCP", "Cisco CCNA", "(ISC2) CCSP", "Seguridad informática", "Seguridad de las redes", "Seguridad en la nube", "Desarrollo profesional", "Promoción profesional", "Validación de competencias", "Seguridad de la información", "Hacking ético", "Pruebas de penetración", "Administración de redes", "Computación en nube", "Gestión de la seguridad", "Evaluación de la vulnerabilidad"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "La imagen de una persona frente a un ordenador con una capa de superhéroe a la espalda simboliza las habilidades y conocimientos que pueden adquirirse mediante la obtención de certificaciones de ciberseguridad."
 coverCaption: ""
 ---

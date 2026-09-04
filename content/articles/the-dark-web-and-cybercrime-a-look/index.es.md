@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore el mundo oculto de la web oscura y su conexión con la ciberdelincuencia, al tiempo que descubre su doble naturaleza y su potencial para el periodismo y la denuncia de irregularidades."
 tags: ["web oscura", "ciberdelincuencia", "actividades ilegales", "Tor", "piratería", "fraude", "robo de identidad", "periodismo", "denuncia de irregularidades", "seguridad en línea", "información personal", "violaciones de datos", "privacidad en línea", "normativa gubernamental", "ciberseguridad", "prevención de la delincuencia", "navegación anónima", "anonimato en línea", "amenazas en línea", "seguridad digital"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Ilustración de un escudo digital que protege un ordenador de las amenazas de la web oscura y la ciberdelincuencia."
 coverCaption: ""
 ---

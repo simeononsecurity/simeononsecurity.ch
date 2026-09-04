@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "アプリケーションのポータビリティ、セキュリティ、効率、開発を改善するための包括的なガイドで、Dockerのパワーと企業変革のための利点を発見してください。"
 tags: ["ドッカー", "エンタープライズ・トランスフォーメーション", "アプリケーションのポータビリティ", "効率性の向上", "セキュリティの向上", "開発・展開の簡素化", "ソフトウェアアプリケーション", "コンテナ", "生産性", "タイムトゥマーケット"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "照明を放つシロナガスクジラ"
 coverCaption: ""
 ---

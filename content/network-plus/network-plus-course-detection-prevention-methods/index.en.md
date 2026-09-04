@@ -6,7 +6,7 @@ draft: false
 description: "Enhance network security with effective detection and prevention methods, including camera-based detection, asset tags, employee training, and access control hardware."
 genre: ["Network Security", "Cybersecurity", "IT Training", "Network Infrastructure", "Data Protection", "Physical Security", "Security Awareness", "Access Control", "Motion Detection", "Employee Training"]
 tags: ["network security", "detection methods", "prevention methods", "camera-based detection", "motion detection", "asset tags", "tamper detection mechanisms", "employee training", "access control hardware", "locking racks", "locking cabinets", "access control vestibules", "network infrastructure", "physical security", "data protection", "security awareness", "badge readers", "biometrics", "network defense", "enhancing network security", "real-time monitoring", "suspicious activities", "comprehensive security coverage", "tamper detection", "security incidents", "security awareness programs", "phishing awareness", "network access control", "physical access restrictions"]
-cover: "/img/cover/An_animated_illustration_of_a_network_shield_p.png"
+cover: "/img/cover/An_animated_illustration_of_a_network_shield_p.webp"
 coverAlt: "An animated illustration of a network shield protecting data flowing through a network"
 coverCaption: "Secure Your Network: Protect, Detect, and Prevent Unauthorized Access"
 ---

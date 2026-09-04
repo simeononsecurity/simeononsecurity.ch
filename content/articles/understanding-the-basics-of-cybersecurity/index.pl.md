@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Odkryj znaczenie cyberbezpieczeństwa i dowiedz się, jak chronić bezpieczeństwo osobiste, biznesowe i narodowe przed ewoluującymi zagrożeniami cybernetycznymi."
 genre: ["Zrozumienie podstaw cyberbezpieczeństwa", "Znaczenie cyberbezpieczeństwa", "Ochrona danych osobowych", "Ochrona danych biznesowych", "Obawy dotyczące bezpieczeństwa narodowego", "Kluczowa terminologia cyberbezpieczeństwa", "Rodzaje cyberataków", "Najlepsze praktyki w zakresie cyberbezpieczeństwa", "Rola szyfrowania w cyberbezpieczeństwie", "Bezpieczeństwo cybernetyczne dla firm"]
 tags: ["Cyberbezpieczeństwo", "Podstawy cyberbezpieczeństwa", "Znaczenie cyberbezpieczeństwa", "Ochrona danych osobowych", "Ochrona danych biznesowych", "Bezpieczeństwo narodowe", "Zagrożenia cybernetyczne", "Malware", "Phishing", "Ransomware", "Podatności", "Exploity", "Ataki socjotechniczne", "Ataki na hasła", "Ataki Man-in-the-Middle", "Ataki DDoS", "Najlepsze praktyki w zakresie cyberbezpieczeństwa", "Silne hasła", "Aktualizacje oprogramowania", "Uwierzytelnianie wieloskładnikowe", "Terminologia cyberbezpieczeństwa", "Rodzaje cyberataków", "Rola szyfrowania w cyberbezpieczeństwie", "Typy szyfrowania", "Ochrona danych", "Plan bezpieczeństwa cybernetycznego", "Szkolenie i świadomość pracowników", "Regularne audyty bezpieczeństwa", "Pojawiające się zagrożenia cybernetyczne", "Sztuczna inteligencja w cyberbezpieczeństwie"]
-cover: "/img/cover/understanding-the-basics-of-cybersecurity.png"
+cover: "/img/cover/understanding-the-basics-of-cybersecurity.webp"
 coverAlt: "Tarcza z symbolem kłódki, reprezentująca cyberbezpieczeństwo i ochronę przed cyberzagrożeniami."
 ---
 

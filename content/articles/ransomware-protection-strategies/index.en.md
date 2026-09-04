@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to safeguard against ransomware attacks, their mechanics, impact, and proactive measures for robust cybersecurity."
 genre: ["Cybersecurity", "Technology", "Digital Threats", "Data Security", "Online Safety", "Cybercrime", "IT Security", "Malware", "Internet Safety", "Data Protection"]
 tags: ["ransomware attacks", "cybersecurity strategies", "data protection", "prevent ransomware", "malicious software", "online safety", "cyber threats", "protective measures", "cyber hygiene", "security practices", "WannaCry attack", "NotPetya attack", "data encryption", "vulnerability patching", "antivirus software", "data backups", "phishing prevention", "financial consequences", "impact of ransomware", "protective strategies", "online security", "cyber resilience", "file encryption", "critical infrastructure", "cyber awareness", "malware prevention", "secure backups", "IT defense", "data recovery", "incident response"]
-cover: "/img/cover/ransomware-protection-shield.png"
+cover: "/img/cover/ransomware-protection-shield.webp"
 coverAlt: "An illustration depicting a shield protecting files from a looming ransomware threat."
 coverCaption: "Guarding Data: Shielding Against Ransomware Threats"
 ---

@@ -45,7 +45,7 @@ canonical: ""
 
 ### تخصيص ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 الآن يأتي الجزء المهم ، أي تغيير بعض معلومات الجهاز لجعله متوافقًا مع شبكة مزود خدمة الإنترنت.
 

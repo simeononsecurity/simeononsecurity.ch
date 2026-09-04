@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați diferențele dintre React, Angular și Vue.js pentru a alege cadrul front-end potrivit pentru proiectul dumneavoastră de dezvoltare web."
 tags: ["cadre front-end", "dezvoltare web", "React", "Angular", "Vue.js", "compararea cadrelor", "interfețe utilizator", "performanță", "popularitate", "sprijin comunitar", "curba de învățare", "ecosistem", "cazuri de utilizare", "JavaScript", "DOM virtual", "arhitectura bazată pe componente", "managementul statului", "scalabilitate", "documentație", "scule", "cerințele proiectului", "React vs Angular", "React vs Vue.js", "Angular vs Vue.js", "dezvoltare front-end", "cadre de aplicații web", "Dezvoltare UI", "Cadre JavaScript", "instrumente de dezvoltare web", "tehnologii de dezvoltare web"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "O imagine care descrie trei unelte interconectate cu etichetele React, Angular și Vue.js"
 coverCaption: ""
 ---

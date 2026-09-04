@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Wdrożenie skutecznych środków ochrony danych ma kluczowe znaczenie dla zabezpieczenia firmy przed nieautoryzowanym dostępem i naruszeniami danych."
 genre: ["Strategie ochrony danych", "Bezpieczeństwo informacji", "Środki bezpieczeństwa cybernetycznego", "Prywatność danych", "Przepisy dotyczące zgodności", "Ocena ryzyka", "Audyty bezpieczeństwa", "Szkolenie pracowników", "Planowanie reakcji na incydenty", "Długoterminowa ochrona danych"]
 tags: ["ochrona danych", "środki bezpieczeństwa", "naruszenia danych", "cyberbezpieczeństwo", "bezpieczeństwo informacji", "przepisy dotyczące zgodności", "ocena ryzyka", "audyty bezpieczeństwa", "szkolenie pracowników", "Planowanie reakcji na incydenty", "szyfrowanie danych", "bezpieczne przechowywanie danych", "kontrola dostępu", "uwierzytelnianie", "kultura świadoma bezpieczeństwa", "zasady postępowania z danymi", "reagowanie na naruszenia ochrony danych", "plan reagowania na incydenty", "komunikacja", "wyciąganie wniosków z incydentów bezpieczeństwa", "długoterminowa ochrona danych", "pojawiające się zagrożenia", "technologie", "polityki", "bezpieczeństwo danych", "prywatność", "zgodność", "cyberataki", "podatności", "świadomość pracowników"]
-cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.png"
+cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.webp"
 coverAlt: "Tarcza chroniąca dane przed cyberzagrożeniami w symbolicznym stylu artystycznym."
 ---
 

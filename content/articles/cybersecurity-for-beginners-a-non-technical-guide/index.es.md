@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Conozca los fundamentos de la ciberseguridad y consejos prácticos para proteger su vida digital de las ciberamenazas en esta completa guía."
 genre: ["Ciberseguridad", "Seguridad en línea", "Seguridad digital", "Ciberamenazas", "Privacidad en Internet", "Protección de datos", "Seguridad de la información", "Tecnología", "Ciberdefensa", "Concienciación cibernética"]
 tags: ["ciberseguridad", "seguridad en línea", "seguridad digital", "amenazas cibernéticas", "privacidad en internet", "protección de datos", "seguridad de la información", "tecnología", "ciberdefensa", "cibersensibilización", "conceptos básicos de ciberseguridad", "vida digital", "ciberataques", "protección en línea", "seguridad de los datos", "seguridad informática", "seguridad de la red", "privacidad en línea", "seguridad de contraseñas", "ataques de phishing", "protección antimalware", "consejos de ciberseguridad", "ciberhigiene", "medidas de ciberseguridad", "prácticas de ciberseguridad", "panorama de las ciberamenazas", "guía de ciberseguridad", "fundamentos de ciberseguridad", "violaciones de datos", "ciberseguridad para principiantes", "consejos de seguridad en línea", "concienciación sobre ciberseguridad"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Ilustración animada de un escudo que protege un dispositivo digital de las ciberamenazas"
 ---
 

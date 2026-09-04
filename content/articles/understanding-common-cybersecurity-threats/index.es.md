@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Explore las amenazas más comunes a la ciberseguridad, su impacto en particulares y empresas, y las formas eficaces de protegerse contra ellas."
 genre: ["Amenazas para la ciberseguridad", "Importancia de la ciberseguridad", "Tipos de amenazas", "Impacto de las amenazas", "Protección frente a amenazas", "Papel del Gobierno en la ciberseguridad", "Papel de la industria en la ciberseguridad", "Normativa y cumplimiento", "Asociaciones público-privadas", "Investigación y desarrollo en ciberseguridad"]
 tags: ["amenazas a la ciberseguridad", "ciberataques", "medidas de ciberseguridad", "pequeñas empresas", "pérdidas financieras", "daños a la reputación", "violaciones de datos", "robo de identidad", "phishing", "ransomware", "Ataques DDoS", "amenazas internas", "actualizaciones de software", "contraseñas seguras", "formación de empleados", "autenticación multifactor", "copias de seguridad de datos", "normativa gubernamental", "conformidad", "asociaciones público-privadas", "investigación y desarrollo en ciberseguridad", "importancia de la ciberseguridad", "proteger a las personas", "proteger a las empresas", "papel del gobierno", "papel de la industria", "multas reglamentarias", "daños a la reputación", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Ilustración simbólica de un escudo que protege los activos digitales de las ciberamenazas con un código binario de fondo."
 ---
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Odkryj najlepsze certyfikaty dla profesjonalistów biznesowych, aby zwiększyć umiejętności w zakresie cyberbezpieczeństwa i chronić wrażliwe dane."
 tags: ["certyfikaty cyberbezpieczeństwa", "certyfikaty nietechniczne", "profesjonaliści biznesowi", "bezpieczeństwo informacji", "zarządzanie prywatnością", "umiejętności w zakresie cyberbezpieczeństwa", "ochrona danych", "programy certyfikacji", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "zarządzanie bezpieczeństwem", "przepisy dotyczące prywatności", "zgodność", "zarządzanie ryzykiem", "prywatność informacji", "bezpieczeństwo biznesu", "prywatność danych"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "Obraz przedstawiający grupę różnorodnych profesjonalistów biznesowych współpracujących na platformie cyfrowej z ikonami kłódek symbolizującymi cyberbezpieczeństwo."
 coverCaption: ""
 ---

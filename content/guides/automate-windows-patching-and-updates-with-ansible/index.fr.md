@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Rationalisez le processus de mise à jour des systèmes Windows en l'automatisant avec Ansible - instructions étape par étape et meilleures pratiques incluses."
 tags: ["automatisation des mises à jour Windows", "Automatisation Ansible", "la gestion du système", "correctifs de sécurité", "infrastructure informatique", "automatisation du réseau", "gestion de la configuration", "Opérations informatiques", "DevOps", "la cyber-sécurité", "Automatisation informatique", "Efficacité informatique", "Livre de jeu Ansible", "Sécurité Windows", "gestion des mises à jour", "Productivité informatique", "Maintenance informatique", "Identifiants ansibles", "configuration de l'hôte", "automatisation du système", "Mises à jour Windows", "Gestion du système Windows", "Correctifs de sécurité Windows", "Infrastructure informatique Windows", "Automatisation du réseau Windows", "Gestion de la configuration Windows", "Opérations informatiques Windows", "DevOps Windows", "Cybersécurité Windows", "Automatisation informatique Windows", "Efficacité informatique de Windows"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Une illustration animée présentant un logo Windows entouré d'engrenages symbolisant l'automatisation et les mises à jour."
 coverCaption: ""
 ---

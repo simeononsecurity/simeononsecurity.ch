@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索 OPSEC 流程的关键组成部分，学习如何有效保护敏感信息。"
 tags: ["OPSEC 程序", "业务安全", "信息保护", "安全措施", "政府法规", "关键信息", "威胁评估", "脆弱性评估", "风险分析", "对策", "信息安全", "数据保护", "机密性", "完整性", "可用性", "网络安全", "机密信息", "合规性", "NISPOM", "HIPAA", "GDPR", "数据隐私", "风险管理", "安全态势", "信息资产", "安全控制", "降低风险", "安全政策", "安全意识", "防止数据泄露", "信息分类", "以下哪些是操作安全过程的组成部分"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "图片中的盾牌保护着一个上锁的文件夹，代表着对敏感信息的保护。"
 coverCaption: ""
 ---

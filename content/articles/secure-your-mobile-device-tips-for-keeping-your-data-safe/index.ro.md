@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Aflați cum să vă securizați dispozitivul mobil și să vă protejați datele de amenințările cibernetice cu aceste sfaturi eficiente pentru securitatea dispozitivelor mobile."
 genre: ["Tehnologie", "Securitatea cibernetică", "Securitate mobilă", "Protecția datelor", "Siguranța online", "Confidențialitate", "Atacuri de phishing", "Malware", "Securitate Wi-Fi", "Securitatea parolei"]
 tags: ["Securitate mobilă", "Securitatea cibernetică", "Protecția datelor", "Dispozitive mobile", "Siguranța online", "Confidențialitate", "Atacuri de phishing", "Malware", "Securitate Wi-Fi", "Dispozitive furate", "Securitatea parolei", "Autentificarea biometrică", "Autentificare cu doi factori", "Software antivirus", "Permisiunile aplicației", "Setări de confidențialitate", "Criptarea datelor", "Copii de siguranță pentru date", "Siguranța Wi-Fi publică", "Dispozitive pierdute sau furate", "Sfaturi de securitate mobilă", "Cele mai bune practici de securitate mobilă", "Soluții de securitate mobilă", "Protejarea dispozitivelor mobile", "Securizarea aplicațiilor mobile", "Gestionarea dispozitivelor mobile", "Amenințări la adresa securității mobile", "Sfaturi privind confidențialitatea mobilă", "Mobile Data Security", "Securitatea cibernetică mobilă"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "O ilustrație de desen animat a unui smartphone cu un scut și un simbol de blocare, reprezentând securitatea dispozitivelor mobile și protecția datelor"
 ---
 

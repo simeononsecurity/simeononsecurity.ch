@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La spécification DoD 5220.22-M est une norme essentielle pour effacer en toute sécurité les informations sensibles des supports de stockage numériques, largement utilisée par l'armée américaine et les organisations gouvernementales."
 tags: ["Assainissement des données", "effacement sécurisé", "informations sensibles", "la sécurité des données", "support de stockage numérique", "DoD 5220.22-M", "protection des données", "confidentialité des données", "la sécurité de l'information", "élimination des données", "prévention des violations de données", "logiciel d'assainissement des données", "sécurité numérique", "destruction des données", "gestion des données", "effacement sécurisé des données", "prévention de la récupération des données", "cybersécurité", "effacement des données", "information management", "élimination sécurisée", "méthodes de destruction des données", "processus d'assainissement des données", "écrasement des données", "vérification des données", "normes d'assainissement des données", "meilleures pratiques en matière d'élimination des données", "élimination sécurisée des données", "réutilisation sécurisée", "conformité de l'assainissement des données", "gestion sécurisée des données"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Image d'un disque dur effacé en toute sécurité à l'aide d'un logiciel de nettoyage de données, avec au premier plan un cadenas ou un bouclier symbolisant la sécurité"
 coverCaption: ""
 ---

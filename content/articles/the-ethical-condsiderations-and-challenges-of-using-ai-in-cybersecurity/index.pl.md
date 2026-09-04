@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o etycznych rozważaniach i wyzwaniach związanych z wykorzystaniem AI w cyberbezpieczeństwie oraz o tym, jak można je rozwiązać w celu efektywnego wykorzystania."
 tags: ["AI", "cybersecurity", "względy etyczne", "stronniczość", "prywatność", "odpowiedzialność", "złożoność", "adaptacyjność", "nadzór nad ludźmi", "intensywność zasobów", "prywatność danych", "uczenie maszynowe", "wywiad o zagrożeniach", "ochrona danych", "technologia", "automatyka", "zagrożenia cybernetyczne", "bezpieczeństwo informacji", "zgodność z przepisami", "transformacja cyfrowa"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "Obraz zamka z kołami zębatymi symbolizujący wykorzystanie AI w cyberbezpieczeństwie, podczas gdy ludzka ręka trzyma klucz, aby zobrazować ludzki nadzór."
 coverCaption: ""
 ---

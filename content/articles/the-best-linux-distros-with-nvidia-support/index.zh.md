@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-31
 description: "发现为支持英伟达™（NVIDIA®）显卡而优化的最佳 Linux 发行版，确保无缝性能和兼容性。"
 tags: ["Linux 发行版", "支持 NVIDIA 显卡", "乌班图", "Fedora", "Manjaro", "流行！_OS", "OpenSUSE", "驱动程序兼容性", "性能优化", "图形处理器支持", "Linux GPU 驱动程序", "Linux 游戏", "Linux 图形", "英伟达驱动程序", "用户友好型发行版", "Linux 稳定性", "Linux 文档", "Linux 社区支持", "Linux 硬件兼容性", "滚动释放", "图形处理器切换", "电源管理", "图形处理器性能", "Linux 安装", "Linux 故障排除", "Linux 用户体验", "Linux 定制", "Linux 更新", "离线更新", "本地存储库", "高速缓存", "服务器设置", "客户端设置", "apt-mirror", "镜像", "createerepo", "apt-cacher-ng", "yum-cron", "Linux 系统更新", "离线软件包更新", "离线软件更新", "本地软件包仓库", "本地软件包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线软件包管理", "更新策略", "Linux 安全更新"]
-cover: "/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.png"
+cover: "/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.webp"
 coverAlt: "这是一张显示 Linux 发行版徽标的电脑屏幕图片，背景是英伟达™（NVIDIA®）显卡和丰富多彩的图形，代表 Linux 发行版对英伟达™（NVIDIA®）GPU 的无缝支持和性能优化。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Învățați cele mai bune practici esențiale de securitate Python pentru a vă proteja codul și datele de potențiale amenințări, asigurând protecția datelor, integritatea sistemului și consolidarea încrederii."
 genre: ["Securitate Python", "Securitatea codului", "Protecția datelor", "Dezvoltarea de software", "Securitatea cibernetică", "Codare securizată", "Dezvoltare Web", "Confidențialitatea datelor", "Securitatea aplicațiilor", "Securitate IT"]
 tags: ["securitate python", "cele mai bune practici", "securitatea codului", "protecția datelor", "integritatea sistemului", "codare sigură", "confidențialitatea datelor", "securitatea aplicațiilor", "securitate cibernetică", "dezvoltare web", "dezvoltarea de software", "programare python", "programare securizată", "criptarea datelor", "controlul accesului pe bază de roluri", "gestionarea securizată a parolelor", "validarea intrărilor", "Prevenirea injectării SQL", "securitatea bazei de date", "gestionarea dependențelor", "logare și monitorizare", "formare pentru dezvoltatori", "interpretor python", "documentație de securitate python", "Criptare AES", "Criptare TLS", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "O ilustrație a unui scut care protejează codul și datele Python, simbolizând cele mai bune practici de securitate Python."
 coverCaption: "Protejați-vă codul și datele Python cu aceste bune practici."
 ---

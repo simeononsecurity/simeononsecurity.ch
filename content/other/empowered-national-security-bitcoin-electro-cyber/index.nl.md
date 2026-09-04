@@ -6,7 +6,7 @@ draft: false
 description: "Verken de baanbrekende Power Projection Theory en de implicaties ervan voor de nationale veiligheid, nu Bitcoin verandert in een krachtige technologie voor elektro-cyberbeveiliging."
 genre: ["Cryptocurrency", "Cyberbeveiliging", "Technologie", "Nationale Veiligheid", "Onderzoek", "Financieel", "Innovatie", "Digitale valuta", "Beleidsvorming", "Blockchain"]
 tags: ["Bitcoin", "Bewijs van werk", "Elektro-Cyber Beveiliging", "Theorie van de machtsprojectie", "Nationale strategische impact", "Financiële Technologie", "Onderzoek naar cryptocurrency", "De rol van Bitcoin", "Cyberbeveiligingsstrategieën", "Uitvoerend besluit president van de VS", "Digitale valuta", "Whitepaper Bitcoin", "Risicobeoordeling", "Het potentieel van Bitcoin", "Monetair systeem", "Softwar", "Cyberspace", "Interdisciplinaire aanpak", "Informatiebeveiliging", "Publiek beleid", "Kritieke informatie beveiligen", "Digitale innovatie", "Veerkrachtige toekomst", "Crypto", "Bitcoin Beveiliging", "Financiële uitwisseling", "Implicaties van Bitcoin", "Bitcoin in de 21e eeuw", "De beloningen van Bitcoin"]
-cover: "/img/cover/empowered-national-security.png"
+cover: "/img/cover/empowered-national-security.webp"
 coverAlt: "Een symbolisch kunstwerk met een schildembleem dat de transformatie van Bitcoin in een krachtige technologie voor cyberbeveiliging voorstelt."
 coverCaption: "De kracht van Bitcoin ontketenen: onze toekomst veiligstellen"
 ---

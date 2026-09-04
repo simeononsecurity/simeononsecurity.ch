@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Nmap effektiv für Netzwerk-Scans, Port-Scans, Service-Erkennung und Betriebssystem-Identifizierung einsetzen können, um die Netzwerksicherheit zu bewerten."
 tags: ["nmap", "Netzwerk-Scanning", "Sicherheitsbewertung", "Port-Scanning", "Service-Erkennung", "Erkennung des Betriebssystems", "Nmap-Skripting-Engine", "Ethisches Hacken", "Netzwerksicherheit", "Netzinfrastruktur", "Aufdeckung von Sicherheitslücken", "Ping-Scan", "TCP SYN-Scan", "Erlaubnis", "Rechtmäßigkeit", "Auswirkungen auf das Netz", "gezieltes Scannen", "datenschutz", "CFAA", "GDPR", "Netzwerkabbildung", "Netzwerkerkennung", "Netzwerksicherheits-Tools", "Cybersicherheit", "Open-Source-Werkzeug", "Kommandozeilentool", "Host-Ermittlung", "Netzwerk-Intelligenz", "Informationseinholung", "Netzwerkschwachstellen", "sichere Netzwerkumgebung"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Netzwerksicherheitskonzept mit Nmap-Scanning-Tools in einem animierten 3D-Stil."
 coverCaption: ""
 ---

@@ -7,7 +7,7 @@ draft: false
 description: "Entdecken Sie die besten Datenlöschdienste! Vergleichen Sie Albine DeleteMe, OneRep und Incogni für ultimativen Datenschutz."
 genre: ["Datenschutz", "Online-Sicherheit", "Datenschutz", "Datenschutzlösungen", "Identitätsdiebstahlprävention", "Digitaler Datenschutz", "Entfernung personenbezogener Daten", "Datenmakler", "Automatisierte Datenlöschung", "Datenschutzverwaltung"]
 tags: ["Albine DeleteMe", "OneRep", "Incogni", "Datenschutz", "Datenlöschdienste", "Datenschutz", "Online-Sicherheit", "Identitätsdiebstahl", "Datenmakler", "Automatisierte Löschung", "Datenschutzdienste vergleichen", "Beste Datenschutztools", "Automatisierte Datenlöschungslösungen", "Datenlöschdienst wählen", "Datenschutzverwaltungsvergleich", "OneRep vs DeleteMe", "DeleteMe vs OneRep", "Datenmakler-Entfernung"]
-cover: "/img/cover/data_privacy_warriors.png"
+cover: "/img/cover/data_privacy_warriors.webp"
 coverAlt: "Ein symbolisches Kunstwerk mit drei Kriegern, die Albine DeleteMe, OneRep und Incogni in einem heftigen Datenschutzkampf repräsentieren."
 coverCaption: "Wählen Sie Ihren Datenschutzchampion weise."
 ---

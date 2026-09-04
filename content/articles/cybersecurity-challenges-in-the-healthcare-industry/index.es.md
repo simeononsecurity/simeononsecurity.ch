@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra los retos de ciberseguridad a los que se enfrenta la sanidad y explore estrategias de protección y cumplimiento de la normativa para proteger los datos de los pacientes y garantizar el cumplimiento de la normativa."
 tags: ["ciberseguridad", "sanidad", "datos del paciente", "privacidad de los datos", "conformidad", "HIPAA", "GDPR", "auditorías de seguridad", "controles de acceso", "codificación", "formación", "amenazas internas", "ataques de phishing", "Dispositivos IoT", "seguridad de la red", "violaciones de datos", "telemedicine", "malware", "infracciones de seguridad", "normativa"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "Imagen de un médico frente a un escudo con el símbolo de un candado para representar la protección de los datos de los pacientes frente a las amenazas de ciberseguridad. "
 coverCaption: ""
 ---

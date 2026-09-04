@@ -6,7 +6,7 @@ draft: false
 description: "Explore the Transition from Typewriters to Touchscreens in Input Devices. Learn about the innovation that changed our digital interactions!"
 genre: ["Computer Hardware History", "Technology Innovations", "User Interface Development", "Digital Interaction Evolution", "Computer Accessories Trends", "Tech Milestones", "Ergonomic Device Design", "Multimedia Interaction", "Smart Device Integration", "Interface Usability Studies"]
 tags: ["Input Device Evolution", "QWERTY Keyboards", "Mouse Invention", "Trackpad Integration", "Touchscreen Technology", "Voice Recognition Progress", "Gesture Control Advancements", "Typewriter History", "Graphical User Interfaces", "Natural Language Processing", "Direct Manipulation Interfaces", "Hands-Free Control", "Mechanical Typewriters", "Key Layout Design", "Pointing Devices", "Precision Navigation", "Multi-Touch Gestures", "User-Centered Design", "Interactive Screens", "Speech-to-Text", "Virtual Assistants", "Motion Detection", "Haptic Feedback", "Wearable Technology", "Keyboard-Mouse Combo", "Smartphone Interface", "Tablet Input Methods", "Computer Peripherals", "Advanced User Interfaces", "Cybersecurity Implications"]
-cover: "/img/cover/the-evolution-of-input-devices_-from-keyboards-to-touchscreens.jpeg"
+cover: "/img/cover/the-evolution-of-input-devices_-from-keyboards-to-touchscreens.webp"
 ---
 
 The Evolution of Input Devices: From Keyboards to Touchscreens

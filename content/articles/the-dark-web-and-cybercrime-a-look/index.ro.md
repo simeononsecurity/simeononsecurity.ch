@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați lumea ascunsă a web-ului întunecat și legătura sa cu criminalitatea informatică, descoperind în același timp natura sa duală și potențialul pentru jurnalism și denunțare."
 tags: ["web întunecat", "criminalitate informatică", "activități ilegale", "Tor", "hacking", "fraudă", "furt de identitate", "jurnalism", "denunțare", "securitate online", "informații personale", "încălcări ale datelor", "confidențialitatea online", "reglementări guvernamentale", "securitate cibernetică", "prevenirea criminalității", "navigare anonimă", "anonimatul online", "amenințări online", "siguranța digitală"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "O ilustrație a unui scut digital care protejează un computer de amenințările dark web și de criminalitatea informatică."
 coverCaption: ""
 ---

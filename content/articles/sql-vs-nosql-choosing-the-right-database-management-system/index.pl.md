@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj kluczowe różnice między bazami danych SQL i NoSQL i podejmij świadomą decyzję dotyczącą najlepszego systemu zarządzania bazą danych dla swoich potrzeb."
 tags: ["system zarządzania bazą danych", "SQL vs NoSQL", "Bazy danych SQL", "Bazy danych NoSQL", "Zgodność z ACID", "model danych", "skalowalność", "język zapytań", "wydajność", "ewolucja schematu", "dane strukturalne", "dane nieustrukturyzowane", "integralność danych", "Skalowalność pozioma", "Język zapytań SQL", "MongoDB", "bazy danych dokumentów", "magazyny klucz-wartość", "kolumnowe bazy danych", "bazy danych grafów", "zarządzanie danymi", "struktura danych", "zapytania analityczne", "modelowanie danych", "elastyczne schematy", "Wysoka przepustowość odczytu", "Wysoka przepustowość zapisu", "złożone operacje łączenia", "zwinny rozwój"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "Obraz przedstawiający element układanki reprezentujący dane umieszczane w bazie danych, symbolizujący proces podejmowania decyzji o wyborze odpowiedniego systemu zarządzania bazą danych."
 coverCaption: ""
 ---

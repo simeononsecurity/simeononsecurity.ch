@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "Aprenda a mejorar la seguridad de los sitios web y la confianza de los usuarios precargando la configuración HSTS en Chrome y Firefox. Sigue nuestra guía paso a paso para una implementación perfecta."
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "Ilustración en estilo de dibujos animados de un sitio web protegido con un candado, que representa una mayor seguridad y protección contra las ciberamenazas."
 coverCaption: "Refuerce la defensa de su sitio web, adopte la precarga HSTS."
 ---

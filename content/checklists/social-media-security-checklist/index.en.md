@@ -6,7 +6,7 @@ draft: false
 description: "Discover essential privacy settings, scam awareness, and reputation management strategies to protect yourself and your organization on social media platforms."
 genre: ["Social Media Security", "Privacy Settings", "Scam Awareness", "Reputation Management", "Online Privacy", "Personal Information Protection", "Social Media Best Practices", "Online Security", "Social Media Privacy", "Security Awareness"]
 tags: ["social media security", "privacy settings", "scam awareness", "reputation management", "online privacy", "personal information protection", "social media best practices", "online security", "social media privacy", "security awareness", "online presence", "privacy controls", "scam prevention", "reputation building", "privacy protection", "online reputation management", "cybersecurity", "personal data security", "phishing prevention", "social media scams", "privacy awareness", "online identity protection", "data privacy", "online safety", "online reputation", "scam detection", "social media guidelines", "online privacy tips", "information security", "social media awareness", "personal brand management"]
-cover: "/img/cover/safeguarding-social-media-security.png"
+cover: "/img/cover/safeguarding-social-media-security.webp"
 coverAlt: "A symbolic illustration depicting a shield protecting social media icons, representing security and privacy on social media platforms."
 coverCaption: "Secure your social media presence and protect your online reputation."
 ---

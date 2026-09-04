@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Ontdek hoe u uw privacy kunt beschermen op sociale mediaplatforms door inzicht te krijgen in privacyrisico's, algemene problemen en het aanpassen van instellingen op Facebook, Instagram, Twitter en LinkedIn."
 genre: ["Privacy op sociale media", "Persoonlijke informatie beschermen op sociale media", "Privacyrisico's en -problemen op sociale media", "Privacy-instellingen op Facebook", "Privacy verbeteren op Instagram", "Je Twitter-account beveiligen", "Privacy beschermen op LinkedIn"]
 tags: ["Facebook-privacyinstellingen aanpassen", "controle over Instagram-volgers", "managing Twitter data", "privacy van LinkedIn waarborgen", "app-machtigingen op sociale media beperken", "Instagram privacy verbeteren", "beschermende tweets op Twitter", "LinkedIn connecties beheren", "Twitter-account beveiligen", "privacy op sociale mediaplatforms"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Een symbolische cartoonachtige afbeelding die een vergrendeld schild voorstelt dat iemands persoonlijke informatie op sociale media beschermt"
 ---
 

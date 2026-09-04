@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Acquérir une compréhension complète des couches OSI et du modèle TCP IP, cadres essentiels dans le domaine des réseaux, afin de faciliter une communication et un dépannage efficaces."
 genre: ["Les bases de la mise en réseau", "Couches OSI", "Modèle TCP IP", "Protocoles de réseau", "Modèles de communication", "Fondamentaux de la mise en réseau", "Data Transmission", "Dépannage du réseau", "Architecture du réseau", "Concepts de mise en réseau"]
 tags: ["Couches OSI", "Modèle TCP IP", "les bases de la mise en réseau", "les protocoles de réseau", "modèles de communication", "transmission de données", "dépannage du réseau", "architecture du réseau", "concepts de mise en réseau", "principes fondamentaux de la mise en réseau", "cadres de mise en réseau", "explication des protocoles de réseau", "normes de mise en réseau", "couche physique", "couche de liaison de données", "couche réseau", "couche transport", "couche session", "couche de présentation", "couche application", "Couches TCP IP", "couche d'interface réseau", "couche internet", "couche transport", "couche application", "les protocoles de mise en réseau expliqués", "modèles de mise en réseau", "les principes fondamentaux de la mise en réseau expliqués", "guide de mise en réseau", "tutoriel sur la mise en réseau", "les meilleures pratiques en matière de mise en réseau"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Illustration animée représentant un réseau de nœuds interconnectés entre lesquels circulent des données, symbole d'une communication et d'un réseau efficaces."
 ---
  Notions de base sur les réseaux : Comprendre les couches OSI et le modèle IP TCP

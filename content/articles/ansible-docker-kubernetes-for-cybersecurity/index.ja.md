@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーセキュリティプロセスを自動化し、データ侵害のリスクを低減するためのAnsible、Docker、Kubernetesのパワーをご覧ください。"
 tags: ["アンシブル", "ドッカー", "クーベルネッツ", "サイバーセキュリティ・オートメーション", "脆弱性アセスメント", "パッチマネジメント", "コンテナオーケストレーション", "ネットワークセグメンテーション", "ロールベースアクセスコントロール", "シークレットマネジメント", "セキュリティスキャン", "イメージサイン"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "サイバーセキュリティプロセスの自動化における統合と協調を象徴するために、赤、青、青に着色された3つの歯車が連動して回転しているイメージ"
 coverCaption: ""
 ---

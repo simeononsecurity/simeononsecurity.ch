@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore el futuro de la computación cuántica y su impacto en la ciberseguridad, incluida la criptografía post-cuántica y las vulnerabilidades de los algoritmos criptográficos clásicos."
 tags: ["Informática cuántica", "Ciberseguridad", "Qubits", "RSA", "CEC", "Criptografía poscuántica", "Recocido cuántico", "Supremacía cuántica", "Superposición", "Enredo", "Algoritmos criptográficos", "Infraestructura digital", "Problemas de optimización", "Gigantes tecnológicos", "Investigación y desarrollo", "Decoherencia", "Transacciones en línea", "Mensajería segura", "Banca electrónica", "Descubrimiento de fármacos"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Imagen animada de un hacker que intenta entrar en un sistema informático protegido por cifrado RSA, pero fracasa al ver cómo un ordenador cuántico resuelve el cifrado en segundos en segundo plano."
 coverCaption: ""
 ---

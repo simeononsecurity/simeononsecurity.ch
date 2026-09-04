@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to create and operate a Presearch Node, contributing to a decentralized search engine while earning rewards."
 genre: ["Technology", "Decentralization", "Search Engine", "Blockchain", "Node Setup", "Digital Freedom", "Crypto", "Internet", "Information", "Online Privacy"]
 tags: ["Operating a Presearch Node", "Setting Up a Decentralized Search Node", "Earn Rewards with Presearch Node", "How to Create a Node for Presearch", "Decentralized Internet Search", "Decentralization", "Presearch Node", "Search Engine", "Blockchain", "Node Setup", "Digital Freedom", "Crypto", "Internet", "Online Privacy", "Rewards"]
-cover: "/img/cover/decentralized-search-node.png"
+cover: "/img/cover/decentralized-search-node.webp"
 coverAlt: "A person operating a search node in a decentralized digital world."
 coverCaption: "Empower Your Search: Operate a Presearch Node"
 ---

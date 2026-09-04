@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie potenzielle Indikatoren für Insider-Bedrohungen und wirksame Strategien, um die Sicherheit Ihres Unternehmens zu schützen."
 tags: ["Indikatoren für Insider-Bedrohungen", "Abschwächung von Insider-Bedrohungen", "mögliche Risiken", "Cybersicherheit", "Datensicherheit", "Mitarbeiterüberwachung", "Zugangskontrollen", "Analyse des Nutzerverhaltens", "Sicherheitsbewusstseinstraining", "Einhaltung von Rechtsvorschriften", "datenschutz", "Netzüberwachung", "Mitarbeiterverhalten", "Datenzugriff", "ungewöhnliche Netzwerkaktivitäten", "Änderung der Arbeitsmuster", "finanzielle Schwierigkeiten", "disgruntlement", "Online-Verhalten", "Sicherheitspolitik", "Incident Response Plan", "NISPOM", "HIPAA", "GDPR", "Risikomanagement", "Bedrohungserkennung", "Eindämmung von Insider-Bedrohungen", "privilegierter Zugang", "verdächtiges Verhalten", "Prävention von Insider-Bedrohungen"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Eine animierte Illustration, die ein Team von verschiedenen Fachleuten zeigt, die über Cybersicherheit diskutieren, während sie von Schlössern und Schildsymbolen umgeben sind."
 coverCaption: ""
 ---

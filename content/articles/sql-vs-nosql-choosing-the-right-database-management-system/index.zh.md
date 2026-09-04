@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 SQL 数据库和 NoSQL 数据库之间的主要区别，并就最适合您需求的数据库管理系统做出明智的决定。"
 tags: ["数据库管理系统", "SQL 与 NoSQL", "SQL 数据库", "NoSQL 数据库", "符合 ACID 标准", "数据模型", "扩展性", "查询语言", "性能", "模式演变", "结构化数据", "非结构化数据", "数据完整性", "横向扩展性", "SQL 查询语言", "MongoDB", "文档数据库", "键值存储", "列式数据库", "图形数据库", "数据管理", "数据结构", "分析性查询", "数据建模", "灵活的模式", "高读取吞吐量", "高写入吞吐量", "复杂连接操作", "敏捷开发"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "一幅拼图，代表数据被放入数据库，象征着选择正确数据库管理系统的决策过程。"
 coverCaption: ""
 ---

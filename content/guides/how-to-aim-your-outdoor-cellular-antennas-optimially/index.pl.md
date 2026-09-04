@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Dowiedz się, jak wycelować kierunkową antenę komórkową, aby uzyskać optymalną siłę i niezawodność sygnału, w tym zlokalizować wieże komórkowe i zrozumieć strefy Fresnela."
 tags: ["antena komórkowa", "antena kierunkowa", "Wzmacniacz telefonu komórkowego", "modem komórkowy", "siła sygnału", "wieże komórkowe", "Radiowa linia wzroku", "Wizualna linia wzroku", "Strefy Fresnela", "celowanie anteny", "optymalizacja sygnału", "łączność komórkowa", "poprawić siłę sygnału", "wzmocnienie sygnału komórkowego", "Wzmacniacz sygnału komórkowego", "Lokalizacja wieży komórkowej", "instalacja anteny", "propagacja sygnału", "komunikacja bezprzewodowa", "Lepszy zasięg sieci", "przewodnik wskazywania", "techniki celowania", "optymalizacja anteny komórkowej", "niezawodność sygnału", "wydajność sieci", "wzmocnienie sygnału komórkowego", "ustawienie anteny", "wskazówki dotyczące optymalizacji sygnału", "umiejscowienie anteny komórkowej", "Strategie wzmacniania sygnału", "instrukcje wskazywania anteny"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Ilustracja osoby celującej kierunkową anteną komórkową w kierunku wieży komórkowej z rozchodzącymi się falami sygnału."
 coverCaption: ""
 ---

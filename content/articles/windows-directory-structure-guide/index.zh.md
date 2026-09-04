@@ -6,7 +6,7 @@ draft: false
 description: "探索 Windows 目录结构，学习如何有效管理文件和在分层系统中导航。"
 genre: ["Windows 目录结构", "Windows 文件管理", "目录导航", "文件组织", "Windows 文件路径", "Windows 系统文件夹", "用户目录", "程序文件目录", "Windows 根目录", "临时文件目录"]
 tags: ["窗口中的目录结构", "窗口目录结构", "文件管理", "文件组织", "文件路径", "根目录", "系统目录", "用户目录", "程序文件目录", "窗口目录导航", "文件浏览器", "命令提示符", "绝对文件路径", "相对文件路径", "窗口文件系统", "Windows 文件管理", "文件访问", "系统运行", "文件资源管理器工具", "窗口命令", "窗口文件路径", "高效的文件管理", "窗口组织", "临时文件目录", "窗口文件结构", "窗口操作系统", "Windows 用户配置文件夹", "系统文件", "Windows 系统资源"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "一幅描绘树状结构的图像，代表 Windows 目录系统。"
 coverCaption: "使用 Windows 目录结构有效管理文件。"
 ---

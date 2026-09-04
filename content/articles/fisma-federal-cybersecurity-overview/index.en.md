@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of FISMA in fortifying federal cybersecurity. Learn its key features, process, and impact for secure data."
 genre: ["Cybersecurity", "Government Regulations", "Information Assurance", "Data Protection", "Federal Agencies", "Risk Management", "Security Standards", "Continuous Monitoring", "Cyber Threats", "Digital Governance"]
 tags: ["Enhancing Federal Cybersecurity", "Federal Information Security Management Act", "Federal Cyber Threat Mitigation", "Continuous Monitoring in Cybersecurity", "Government Data Protection Measures", "FISMA and NIST Guidelines", "Federal Risk Management Strategies", "Effective Cybersecurity for Federal Agencies", "FISMA Significance and Impact", "Securing Federal Information Systems", "FISMA Overview", "Federal Information Security", "Cybersecurity Legislation", "Risk Management", "Security Standards", "Continuous Monitoring", "Federal Data Protection", "Government Cybersecurity", "NIST Guidelines", "Federal Risk Management", "Data Security", "Information Assurance", "FISMA Process", "Federal Systems", "Cyber Threat Mitigation", "Government Regulations", "Cyber Resilience", "Security Control Assessment", "Federal Cyber Threats", "Data Privacy", "Federal Cyber Strategy", "Information Systems", "Federal Data Management", "Cybersecurity Compliance", "Federal Governance", "FISMA Impact", "Digital Governance", "Cybersecurity Best Practices", "Federal Agencies Security", "Data Breach Prevention"]
-cover: "/img/cover/secure-shield-fisma.png"
+cover: "/img/cover/secure-shield-fisma.webp"
 coverAlt: "A secure shield enveloping digital data"
 coverCaption: "helping Federal Cybersecurity with FISMA's Shield of Protection"
 ---

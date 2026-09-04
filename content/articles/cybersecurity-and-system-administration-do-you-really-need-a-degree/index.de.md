@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser Artikel befasst sich mit den Vor- und Nachteilen eines Abschlusses in den Bereichen Cybersicherheit und Systemadministration, einschließlich Beschäftigungsmöglichkeiten, Zertifizierungen, Zeit- und Kostenüberlegungen."
 tags: ["Cybersicherheit", "Systemverwaltung", "Grad", "Zertifizierungen", "berufliches Fortkommen", "Gehaltspotenzial", "Zeit und Kosten", "staatliche Stellen", "autodidaktisch", "Online-Schulung", "CompTIA-Zertifizierungen"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "Das Bild einer Person, die an einem Schreibtisch sitzt und einen Computer vor sich hat, umgeben von Büchern, Online-Ressourcen und Zertifizierungsmaterialien, symbolisiert die verschiedenen Wege zum Erwerb von Wissen und Fachkenntnissen in den Bereichen Cybersicherheit und Systemadministration. "
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Scoprite le 10 linee guida essenziali per la sicurezza delle password per proteggere la vostra identità digitale e i vostri dati personali dagli attacchi informatici."
 genre: ["Tecnologia", "Sicurezza informatica", "Protezione dell'identità digitale", "Sicurezza della password", "Sicurezza online", "Data Privacy", "Consigli per la sicurezza online", "Gestione delle password", "Autenticazione a due fattori", "Recupero password"]
 tags: ["sicurezza della password", "Linee guida per le password", "password forti", "attacchi informatici", "sicurezza online", "rischi delle password", "password deboli", "protezione con password", "sicurezza dei dati", "difesa delle password", "prevenzione degli hacker", "importanza della password", "cracking delle password", "furto d'identità", "riutilizzo della password", "gestione delle password", "autenticazione a due fattori", "Vantaggi della 2FA", "aggiornamenti della password", "cambio password", "Le migliori pratiche per le password", "recupero password", "gestore di password", "Vantaggi del gestore di password", "selezionare un gestore di password", "sicurezza del conto online", "crittografia", "autenticazione a più fattori"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Un'immagine simbolica che rappresenta la sicurezza delle password con uno scudo che protegge una serratura."
 ---
 

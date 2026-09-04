@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本記事では、セキュリティ、パフォーマンス、統合、サポートの向上など、Server 2019へのアップグレードやAzureへの乗り換えのメリットを紹介し、企業がITインフラにとって最適な決断ができるよう支援します。"
 tags: ["Server 2019へのアップグレード", "Azureへの乗り換え", "ITインフラ", "ビジネステクノロジー", "セキュリティ強化", "パフォーマンスの向上", "Azureとの連携", "長期的なサポート", "スケーラビリティ", "費用対効果", "信頼性の向上", "アドバンスト・アナリティクス", "ハイブリッドアプローチ", "フレキシブルで弾力性のあるITインフラ"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "片側にサーバーのラック、もう片側にクラウドがあるサーバールームで、真ん中に立っている人が両者を眺めているイメージです。"
 coverCaption: ""
 ---

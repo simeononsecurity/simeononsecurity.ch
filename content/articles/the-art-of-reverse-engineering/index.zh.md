@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索逆向工程的威力，发现物联网网络安全漏洞，提高整体系统安全性。"
 tags: ["反向工程", "物联网安全", "脆弱性", "安全协议", "设备分析", "物联网网络", "内部结构", "恶意代码", "加密措施", "认证措施", "防火墙", "软件更新"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "一名安全专业人员正在检查物联网设备内部结构的图片，各种硬件组件和电路板清晰可见。 "
 coverCaption: ""
 ---

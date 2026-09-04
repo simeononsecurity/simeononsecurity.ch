@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie, wie Glotta die Übersetzung von Hugo-Texten vereinfacht und es Entwicklern ermöglicht, mühelos ein globales Publikum zu erreichen."
 tags: ["Glotta", "Übersetzung des Hugo-Textes", "Lokalisierungswerkzeug", "mehrsprachige Inhalte", "Übersetzungsautomatisierung", "Sprachlokalisierung", "Integration von Google Translate API", "Integration von Deeplate Translate API", "Chevrotain.js", "Lexer und Parser", "Syntaxbäume", "Übersetzungsworkflow", "Hugo-Projekte", "Lokalisierung von Inhalten", "Sprachunterstützung", "Übersetzungseffizienz", "Übersetzungs-APIs", "bewährte Lokalisierungspraktiken", "Qualitätskontrolle von Übersetzungen", "Prüfung übersetzter Inhalte", "weltweites Publikum", "Textübersetzungslösung", "Optimierung des Übersetzungsprozesses", "Drittanbieter-Code", "Sicherheitsmaßnahmen", "NPM-Paket", "GitHub-Repository", "Textübersetzungsprogramm", "entwicklerfreundliche Lokalisierung", "Erhöhung der Reichweite von Inhalten"]
-cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png"
+cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.webp"
 coverAlt: "Eine Illustration, die die nahtlose Übersetzung eines Hugo-Textes mit Hilfe von Glotta zeigt, die globale Sprachen verbindet."
 coverCaption: ""
 ---

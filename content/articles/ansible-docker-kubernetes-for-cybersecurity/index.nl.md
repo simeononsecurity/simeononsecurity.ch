@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kracht van Ansible, Docker en Kubernetes voor het automatiseren van cyberbeveiligingsprocessen en het verminderen van het risico op datalekken."
 tags: ["Ansible", "Docker", "Kubernetes", "Cyberbeveiliging Automatisering", "Beoordeling van de kwetsbaarheid", "Patchbeheer", "Container Orkestratie", "Netwerk Segmentatie", "Rolgebaseerde toegangscontrole", "Geheim beheer", "Veiligheidsscans", "Afbeelding ondertekenen"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "Een afbeelding van drie rood, blauw en blauw gekleurde tandwielen die in elkaar grijpen en samen draaien om hun integratie en samenwerking bij het automatiseren van cyberbeveiligingsprocessen te symboliseren"
 coverCaption: ""
 ---

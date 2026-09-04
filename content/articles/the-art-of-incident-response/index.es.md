@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las mejores prácticas de respuesta ante incidentes según NIST SP 800-61 Rev. 2 y descubra ejemplos reales de estrategias eficaces de respuesta ante incidentes."
 tags: ["respuesta a incidentes", "ciberseguridad", "NIST", "buenas prácticas", "información sobre amenazas", "comunicación", "análisis posterior al incidente", "Equifax", "NotPetya", "SolarWinds", "Oleoducto Colonial", "Servidor Microsoft Exchange", "vulnerabilidades", "detección de intrusos", "contención", "recuperación", "preparación", "ciberataques", "ciberdelincuencia", "incidentes de seguridad"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "Imagen ilustrada de un equipo de profesionales de la ciberseguridad trabajando juntos para responder a un incidente de seguridad, con un icono de alerta roja de fondo que indica la urgencia de la situación. "
 coverCaption: ""
 ---

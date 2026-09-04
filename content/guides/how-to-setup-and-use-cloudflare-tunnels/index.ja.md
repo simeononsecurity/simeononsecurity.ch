@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "ネットワークトラフィックを合理化・保護し、パフォーマンスとセキュリティを強化するCloudflare Tunnelsのセットアップ方法をご紹介します。"
 tags: ["クラウドフレア トンネル", "ネットワークセキュリティ", "ウェブサイトパフォーマンス", "プロキシサーバー", "ウェブトラフィック", "ネットワーク構成", "Ubuntuサーバー", "Cloudflareアカウント", "オーセンティケーション", "トンネルの作成", "トラフィックのルーティング", "DNSレコード", "セキュアコネクション", "ウェブサイトホスティング", "プロキシサービス", "ネットワーク保護", "パフォーマンスの最適化", "Cloudflareとの連携", "サーバー構成", "トラフィックエンクリプション", "ネットワークトラフィックマネジメント", "セキュアなウェブホスティング", "ウェブサイトセキュリティ", "Ubuntuのセットアップ", "トンネリング技術", "Cloudflareのサービス", "ネットワークパフォーマンス", "ウェブセキュリティ", "サーバーセキュリティ", "トラフィックマネジメント", "Cloudflare プロキシ"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "ローカルサーバーとCloudflareロゴを結ぶネットワークトンネルを示すイラストで、安全で合理的なネットワークトラフィックを象徴しています。"
 coverCaption: ""
 ---

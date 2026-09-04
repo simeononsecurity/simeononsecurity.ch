@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Descubre las mejores distribuciones de Linux para juegos, como Ubuntu, Zorin OS, Manjaro y SteamOS, y lleva tu experiencia de juego a nuevas cotas en Linux."
 tags: ["Distribuidores Linux para juegos", "Juegos en Ubuntu", "Juegos Zorin OS", "Juegos Manjaro", "Juegos con SteamOS", "Rendimiento de los juegos en Linux", "Soporte para juegos en Linux", "Comunidad de juegos Linux", "Experiencia de juego con Ubuntu", "Interfaz de juego Zorin OS", "Manjaro centrado en el juego", "Sistema operativo para juegos SteamOS", "Pop!_OS para juegos", "Soporte para juegos en Fedora", "Rendimiento de juego de Solus", "Distros Linux para juegos", "mejores distribuciones Linux", "juegos en Linux", "Plataforma de juegos Linux", "Guía de juegos para Linux", "juegos en Ubuntu", "juegos en Zorin OS", "juegos en Manjaro", "juegos en SteamOS", "Software de juegos para Linux", "Biblioteca de juegos para Linux", "Compatibilidad de juegos con Linux", "Apoyo de la comunidad de jugadores de Linux", "Configuración de juegos en Linux", "Optimización del rendimiento de los juegos en Linux", "Trucos y consejos para jugar en Linux"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Ilustración de un jugador inmerso en un mundo virtual en un ordenador con Linux"
 coverCaption: ""
 ---

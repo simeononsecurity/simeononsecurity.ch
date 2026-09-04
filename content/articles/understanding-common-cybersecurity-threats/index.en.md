@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Explore common cybersecurity threats, their impact on individuals and businesses, and effective ways to protect against them."
 genre: ["Cybersecurity Threats", "Importance of Cybersecurity", "Types of Threats", "Impact of Threats", "Protecting Against Threats", "Role of Government in Cybersecurity", "Role of Industry in Cybersecurity", "Regulations and Compliance", "Public-Private Partnerships", "Cybersecurity Research and Development"]
 tags: ["cybersecurity threats", "cyber attacks", "cybersecurity measures", "small businesses", "financial losses", "reputation damage", "data breaches", "identity theft", "phishing", "ransomware", "DDoS attacks", "insider threats", "software updates", "strong passwords", "employee training", "multi-factor authentication", "data backups", "government regulations", "compliance", "public-private partnerships", "cybersecurity research and development", "importance of cybersecurity", "protecting individuals", "protecting businesses", "role of government", "role of industry", "regulatory fines", "reputational damage", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "A symbolic illustration of a shield protecting digital assets from cyber threats with binary code in the background."  
 coverCaption: "Protect your digital assets and stay one step ahead of cyber threats."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a costruire e gestire un efficace programma di formazione sulla consapevolezza della cybersecurity che riduca il rischio di attacchi informatici e protegga i dati sensibili."
 tags: ["sicurezza informatica", "formazione di sensibilizzazione", "mitigazione del rischio", "protezione dei dati", "formazione dei dipendenti", "minacce alla sicurezza informatica", "rischi di cybersicurezza", "obiettivi di formazione", "pubblico di riferimento", "erogazione della formazione", "formazione interattiva", "esempi reali", "simulazioni", "esercizi pratici", "contenuti della formazione", "NIST 800-50", "Le migliori pratiche di cybersicurezza", "cultura della cybersicurezza", "premi e riconoscimenti"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Un'immagine animata di un gruppo di dipendenti riuniti intorno a un computer o un esperto di sicurezza che spiega i concetti di cybersecurity su una lavagna."
 coverCaption: ""
 ---

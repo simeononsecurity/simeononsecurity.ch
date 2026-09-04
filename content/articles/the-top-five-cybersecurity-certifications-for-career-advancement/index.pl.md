@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj 5 najlepszych certyfikatów cyberbezpieczeństwa, które pomogą Ci rozwinąć karierę i zwiększyć szanse na znalezienie pracy w szybko rozwijającej się dziedzinie cyberbezpieczeństwa."
 tags: ["Cyberbezpieczeństwo", "Certyfikaty", "CompTIA Security Plus", "CISSP", "Bezpieczeństwo ofensywne OSCP", "Cisco CCNA", "(ISC2) CCSP", "Bezpieczeństwo IT", "Bezpieczeństwo sieci", "Bezpieczeństwo w chmurze", "Rozwój zawodowy", "Rozwój kariery", "Weryfikacja umiejętności", "Bezpieczeństwo informacji", "Ethical Hacking", "Testy penetracyjne", "Administracja siecią", "Przetwarzanie w chmurze", "Zarządzanie bezpieczeństwem", "Ocena podatności na zagrożenia"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Wizerunek osoby stojącej przed komputerem z peleryną superbohatera na plecach, symbolizujący umiejętności i wiedzę, które można zdobyć dzięki uzyskaniu certyfikatów cyberbezpieczeństwa."
 coverCaption: ""
 ---

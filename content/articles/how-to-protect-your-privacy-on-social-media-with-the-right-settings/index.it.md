@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Scoprite come salvaguardare la vostra privacy sulle piattaforme di social media, comprendendo i rischi per la privacy, le preoccupazioni più comuni e regolando le impostazioni su Facebook, Instagram, Twitter e LinkedIn."
 genre: ["Privacy sui social media", "Protezione delle informazioni personali sui social media", "Rischi e preoccupazioni per la privacy sui social media", "Impostazioni sulla privacy su Facebook", "Migliorare la privacy su Instagram", "Proteggere l'account Twitter", "Salvaguardia della privacy su LinkedIn"]
 tags: ["Regolazione delle impostazioni sulla privacy di Facebook", "controllare i follower di Instagram", "gestione dei dati di Twitter", "Salvaguardia della privacy di LinkedIn", "limitare le autorizzazioni delle app sui social media", "migliorare la privacy di Instagram", "proteggere i tweet su Twitter", "gestione delle connessioni a LinkedIn", "garantire l'account Twitter", "privacy sulle piattaforme di social media"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Un'immagine simbolica in stile cartone animato che rappresenta uno scudo chiuso che protegge le informazioni personali di una persona sui social media"
 ---
 

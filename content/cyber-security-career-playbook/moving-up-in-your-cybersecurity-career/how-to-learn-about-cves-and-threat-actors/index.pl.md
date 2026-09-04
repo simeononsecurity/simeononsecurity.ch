@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Wyprzedzaj cyberzagrożenia, poznając najnowsze CVE i podmioty stanowiące zagrożenie dzięki skutecznym strategiom i zasobom."
 tags: ["cyberbezpieczeństwo", "CVE", "aktorzy zagrożeń", "skanowanie luk w zabezpieczeniach", "analiza zagrożeń", "udostępnianie informacji", "współpraca branżowa", "zalecenia dotyczące bezpieczeństwa", "NVD", "CVE", "US-CERT", "CERT", "ATT&CK® bolster", "OpenCTI", "NIST", "CISA", "luki w cyberbezpieczeństwie", "pojawiające się zagrożenia", "proaktywna obrona", "automatyczne skanowanie luk w zabezpieczeniach", "wywiad open source", "Analiza zagrożeń w czasie rzeczywistym", "taktyki i techniki podmiotów stanowiących zagrożenie", "Techniczny OSINT", "Bazy danych CVE", "zalecenia dostawców dotyczące bezpieczeństwa", "blogi o bezpieczeństwie", "źródła informacji o zagrożeniach", "społeczności wymiany informacji", "regulacje rządowe"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Ilustracja tarczy z lupą symbolizująca cyberbezpieczeństwo."
 coverCaption: "Broń i odkrywaj: Zdobądź wiedzę na temat cyberbezpieczeństwa."
 ---

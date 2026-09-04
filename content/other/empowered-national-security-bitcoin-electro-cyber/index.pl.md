@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj przełomową teorię projekcji mocy i jej implikacje dla bezpieczeństwa narodowego, ponieważ Bitcoin przekształca się w potężną technologię bezpieczeństwa elektro-cybernetycznego."
 genre: ["Kryptowaluta", "Cyberbezpieczeństwo", "Technologia", "Bezpieczeństwo narodowe", "Badania", "Finansowy", "Innowacja", "Waluta cyfrowa", "Kształtowanie polityki", "Blockchain"]
 tags: ["Bitcoin", "Dowód pracy", "Bezpieczeństwo elektro-cybernetyczne", "Teoria projekcji mocy", "Krajowy wpływ strategiczny", "Technologia finansowa", "Badania nad kryptowalutami", "Rola Bitcoina", "Strategie cyberbezpieczeństwa", "Rozporządzenie wykonawcze prezydenta USA", "Waluta cyfrowa", "Biała księga Bitcoin", "Ocena ryzyka", "Potencjał Bitcoina", "System monetarny", "Oprogramowanie", "Cyberprzestrzeń", "Podejście interdyscyplinarne", "Bezpieczeństwo informacji", "Polityka publiczna", "Zabezpieczanie krytycznych informacji", "Innowacje cyfrowe", "Odporna przyszłość", "Kryptowaluty", "Bezpieczeństwo Bitcoin", "Giełda finansowa", "Implikacje Bitcoina", "Bitcoin w XXI wieku", "Nagrody Bitcoina"]
-cover: "/img/cover/empowered-national-security.png"
+cover: "/img/cover/empowered-national-security.webp"
 coverAlt: "Symboliczna grafika przedstawiająca tarczę, reprezentującą transformację Bitcoina w potężną technologię bezpieczeństwa elektro-cybernetycznego."
 coverCaption: "Uwolnienie mocy Bitcoina: zabezpieczenie naszej przyszłości"
 ---

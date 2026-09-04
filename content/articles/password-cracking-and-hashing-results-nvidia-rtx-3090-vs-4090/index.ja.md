@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "パスワードクラッキングにおけるNVIDIA RTX 3090とRTX 4090の性能差を発見し、セキュリティへの影響と保護対策を浮き彫りにしています。"
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "パスワードクラッキング", "パフォーマンス", "セキュリティ", "パスワード保護", "サイバーセキュリティ", "ベンチマーク", "GPU", "パスワードマネージャ", "ごうせいパスワード", "二要素認証", "官制", "シーサ", "GDPR", "データ機密保護", "ハードウェア比較", "パスワードセキュリティ", "グラフィックカード", "パスワード強度"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "デジタルロックが破られる様子をイラストで表現し、パスワードの解読性能に関する記事の内容を象徴しています。"
 coverCaption: ""
 ---

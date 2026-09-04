@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Leer hoe u Cloudflare Tunnels kunt opzetten om uw netwerkverkeer te stroomlijnen en te beschermen en zo de prestaties en veiligheid te verbeteren."
 tags: ["Cloudflare tunnels", "Netwerkbeveiliging", "Website prestaties", "Proxyserver", "Webverkeer", "Netwerk configuratie", "Ubuntu-server", "Cloudflare-account", "Authenticatie", "Tunnelbouw", "Verkeersroutering", "DNS Records", "Beveiligde verbinding", "Website Hosting", "Proxy-dienst", "Bescherming van het netwerk", "Optimalisatie van de prestaties", "Cloudflare Integratie", "Serverconfiguratie", "Verkeerscodering", "Beheer van het netwerkverkeer", "Veilige webhosting", "Website Veiligheid", "Ubuntu installatie", "Tunneltechnologie", "Cloudflare diensten", "Netwerkprestaties", "Webbeveiliging", "Serverbeveiliging", "Verkeersmanagement", "Cloudflare Proxy"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "Een illustratie met een netwerktunnel die een lokale server verbindt met het Cloudflare-logo, als symbool voor het veilige en gestroomlijnde netwerkverkeer."
 coverCaption: ""
 ---

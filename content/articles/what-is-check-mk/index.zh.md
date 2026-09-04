@@ -6,7 +6,7 @@ draft: false
 description: "探索 CheckMK 的功能、优势和用例，CheckMK 是用于主动 IT 基础设施管理的全面监控解决方案。"
 genre: ["技术", "信息技术基础设施", "网络监控", "应用监控", "IT 运营", "性能分析", "自动化", "活动管理", "可扩展性", "灵活性"]
 tags: ["CheckMK", "监控解决方案", "信息技术基础设施", "实时监控", "活动管理", "性能分析", "自动化", "扩展性", "灵活性", "IT 运营", "网络监控", "应用监控", "性能优化", "主动监测", "事件响应", "容量规划", "资源分配", "配置管理", "信息技术效率", "基础设施管理", "全面监控解决方案", "积极主动的 IT 基础设施管理", "网络性能分析", "自动化框架", "IT 基础设施的可扩展性", "活动管理平台", "实时性能监控", "应用性能优化", "云监控服务", "合规性监测解决方案"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "一幅充满活力和动感的艺术作品，描绘了带有监控指标和分析功能的网络基础设施。"
 coverCaption: "利用 CheckMK 增强您的 IT 基础设施：释放效率和可靠性！"
 ---

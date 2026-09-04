@@ -6,7 +6,7 @@ draft: false
 description: "Explore la evolución de la tecnología de automatización, las industrias que la adoptan y su impacto en las oportunidades de empleo."
 genre: ["Tecnología de automatización", "Revolución industrial", "Avances tecnológicos", "Inteligencia artificial", "Aprendizaje automático", "Fabricación", "Sanidad", "Transporte", "Venta al por menor", "Agricultura"]
 tags: ["tecnología de automatización", "industrias", "oportunidades de empleo", "evolución", "inteligencia artificial", "aprendizaje automático", "fabricación", "sanidad", "transporte", "vehículos autoconducidos", "venta al por menor", "comercio electrónico", "agricultura", "agricultura inteligente", "impacto en el mercado laboral", "desplazamiento laboral", "competencias técnicas", "mejora de las cualificaciones", "reciclaje", "iniciativas educativas", "Programas STEM", "políticas gubernamentales", "normativa", "renta básica universal", "programas de reciclaje profesional", "privacidad de los datos", "seguridad de los datos", "brecha digital", "consideraciones éticas"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Una imagen animada que muestra varias industrias y tecnologías interconectadas."
 coverCaption: "Adopte el futuro automatizado con optimismo y adaptabilidad."
 ---

@@ -6,7 +6,7 @@
   <h2>Explore the World of Cybersecurity</h2>
 </a>
 <a href="https://simeononsecurity.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://simeononsecurity.com/img/banner.png" alt="SimeonOnSecurity Logo" width="300" height="300">
+  <img src="https://simeononsecurity.com/img/banner.webp" alt="SimeonOnSecurity Logo" width="300" height="300">
 </a>
 
 ## Introduction

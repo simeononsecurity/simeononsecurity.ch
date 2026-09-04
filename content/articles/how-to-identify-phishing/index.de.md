@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Phishing-Versuche in E-Mails, SMS und Anrufen erkennen können, um Ihre persönlichen Daten zu schützen."
 tags: ["Phishing", "Online-Sicherheit", "E-Mail-Sicherheit", "Cybersicherheit", "Internet-Sicherheit", "Phishing-Mails", "Phishing-Texte", "Phishing-Anrufe", "digitale Bedrohungen", "Identitätsdiebstahl", "datenschutz", "Online-Betrug", "Online-Betrügereien", "Online-Datenschutz", "Tipps zur Online-Sicherheit", "Internetkriminalität", "Informationssicherheit", "Passwortsicherheit", "Datensicherheit", "Sicherheitsbewusstsein"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Ein Bild einer Zeichentrickfigur mit Superheldenkostüm und Schild, die eine Angelrute mit einer Phishing-E-Mail abwehrt."
 coverCaption: ""
 ---

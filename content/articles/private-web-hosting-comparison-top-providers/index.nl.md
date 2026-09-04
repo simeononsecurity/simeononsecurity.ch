@@ -6,7 +6,7 @@ draft: false
 description: "Vind de beste privé webhostingservice om je online aanwezigheid te beveiligen. Vergelijk Privex, OrangeWebsite, 1984 en Njalla voor de beste privacy en beveiliging."
 genre: ["Webhosting", "Online privacy", "Gegevensbeveiliging", "Privé Hosting", "Anoniem domein", "Dedicated servers", "VPS Hosting", "Gegevensbescherming", "Vrijheid van meningsuiting", "Bitcoin-betalingen"]
 tags: ["Privé webhosting", "Privacybescherming", "Veilige hosting", "Gegevensbeveiliging", "Dedicated servers", "VPS Hosting", "Anonieme domeinregistratie", "Offshore hosting", "Bitcoin-betalingen", "Tor-vriendelijke hosting", "Vrijheid van meningsuiting", "E-mail hosting", "Geen-Log Beleid", "Privacy van gegevens", "Vergelijking van webhosting", "Privacy op internet", "Website Beveiliging", "Online anonimiteit", "Web Hosting Providers", "Webhosting beoordelingen", "Webhostingservices", "Top hostingbedrijven", "IJsland Hosting", "Groene hosting", "Webhostingfuncties", "Domein privacy", "VPS Hosting Diensten", "Hosting gericht op privacy", "Anonieme aankopen", "Internetvrijheid"]
-cover: "/img/cover/privacy_hosting_security_shield.png"
+cover: "/img/cover/privacy_hosting_security_shield.webp"
 coverAlt: "Een symbolische afbeelding die staat voor digitale privacy en veiligheid, met een vergrendeld hangslot dat wordt afgeschermd door een schildembleem, waarmee het idee van gegevensbeveiliging en online anonimiteit wordt overgebracht."
 coverCaption: "Bescherm uw digitale rijk."
 ---

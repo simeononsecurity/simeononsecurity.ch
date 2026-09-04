@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ansible を使用して自動化することで、Windows システムの更新プロセスを合理化します。ステップバイステップの手順とベスト プラクティスが含まれています。"
 tags: ["Windows アップデートの自動化", "Ansible 自動化", "システムマネジメント", "セキュリティパッチ", "ITインフラストラクチャ", "ネットワークの自動化", "構成管理", "IT運用", "DevOps", "サイバーセキュリティ", "ITオートメーション", "ITの効率化", "Ansible プレイブック", "Windowsのセキュリティ", "アップデート管理", "ITの生産性", "IT保守", "Ansible 認証情報", "ホスト構成", "システムオートメーション", "Windows アップデート", "Windows システム管理", "Windows セキュリティ パッチ", "Windows ITインフラストラクチャ", "Windows ネットワークの自動化", "Windows構成管理", "Windows IT 運用", "Windows DevOps", "Windows サイバーセキュリティ", "Windows IT オートメーション", "Windows IT の効率化"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "自動化と更新を象徴する歯車で囲まれた Windows ロゴを示すアニメーション イラスト。"
 coverCaption: ""
 ---

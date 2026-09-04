@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die 5 besten Zertifizierungen im Bereich Cybersicherheit, die Ihnen helfen können, Ihre Karriere voranzutreiben und Ihre Chancen auf einen Job im schnell wachsenden Bereich der Cybersicherheit zu erhöhen."
 tags: ["Cybersecurity", "Zertifizierungen", "CompTIA Sicherheit Plus", "CISSP", "Offensive Sicherheit OSCP", "Cisco CCNA", "(ISC2) CCSP", "IT-Sicherheit", "Netzwerksicherheit", "Cloud-Sicherheit", "Berufliche Entwicklung", "Beruflicher Aufstieg", "Validierung von Fertigkeiten", "Informationssicherheit", "Ethisches Hacking", "Penetrationstests", "Netzwerkverwaltung", "Cloud Computing", "Sicherheitsmanagement", "Bewertung der Anfälligkeit"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Das Bild einer Person, die vor einem Computer steht und einen Superhelden-Umhang auf dem Rücken trägt, symbolisiert die Fähigkeiten und das Wissen, die durch den Erwerb von Cybersicherheits-Zertifizierungen erworben werden können."
 coverCaption: ""
 ---

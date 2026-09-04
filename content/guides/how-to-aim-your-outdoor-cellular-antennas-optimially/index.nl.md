@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Leer hoe u uw richtantenne kunt richten voor een optimale signaalsterkte en betrouwbaarheid, inclusief het lokaliseren van zendmasten en het begrijpen van Fresnel-zones."
 tags: ["cellulaire antenne", "richtantenne", "mobiele telefoon booster", "cellulaire modem", "signaalsterkte", "celtorens", "radiolijn", "visuele gezichtslijn", "Fresnel zones", "antenne richten", "signaal optimaliseren", "cellulaire connectiviteit", "verbetering van de signaalsterkte", "boost celsignaal", "mobiele signaalversterker", "locatie celtoren", "installatie van de antenne", "signaalpropagatie", "draadloze communicatie", "verbeterde netwerkdekking", "aanwijzingsgids", "richttechnieken", "optimalisatie van cellulaire antennes", "betrouwbaarheid van het signaal", "netwerkprestaties", "verbetering van het cellulaire signaal", "antenne uitlijning", "tips voor signaaloptimalisatie", "plaatsing van mobiele antennes", "signaalversterkende strategieën", "instructies voor het richten van de antenne"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Illustratie van een persoon die een richtantenne richt op een zendmast met voortplantende signaalgolven."
 coverCaption: ""
 ---

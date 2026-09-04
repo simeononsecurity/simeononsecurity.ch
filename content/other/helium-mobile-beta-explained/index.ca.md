@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descobriu com Helium Mobile Beta està transformant la connectivitat mòbil amb la seva xarxa descentralitzada, garantint seguretat, fiabilitat i assequibilitat per als usuaris."
 tags: ["Helium Mobile Beta", "xarxa descentralitzada", "connectivitat mòbil", "segur", "fiable", "plans assequibles", "Punts calents d'heli", "Blockchain d'heli", "programa beta", "xarxa sense fils", "xarxes cel·lulars", "operador de telefonia mòbil", "innovació", "tecnologia", "expansió de la xarxa", "comentaris dels usuaris", "interrupció del sector", "Dispositiu compatible amb Helium Mobile", "aplicació", "tecnologia emergent"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Una il·lustració vibrant que mostra una xarxa de dispositius interconnectats amb la marca Helium Mobile, que simbolitza l'enfocament innovador i descentralitzat de la connectivitat mòbil."
 coverCaption: ""
 ---

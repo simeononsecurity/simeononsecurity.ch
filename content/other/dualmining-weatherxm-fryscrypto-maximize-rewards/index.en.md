@@ -6,7 +6,7 @@ draft: false
 description: "Explore the step-by-step guide to dual mining with WeatherXM and FrysCrypto, unlocking the potential to earn WXM and FRY tokens seamlessly. Maximize your rewards now!"
 genre: ["Cryptocurrency", "Blockchain", "Weather Technology", "Tokenomics", "Crypto Mining", "Decentralized Networks", "Weather Data Services", "Cryptocurrency Integration", "Blockchain Rewards", "Weather Stations"]
 tags: ["Dual Mining", "WeatherXM", "FrysCrypto", "Cryptocurrency Rewards", "Blockchain Integration", "Token Benefits", "Weather Data", "Crypto Enthusiasts", "Decentralized Networks", "Weather Station Integration", "Crypto Trends", "Seamless Integration", "Maximize Rewards", "Blockchain Technology", "Weather Technology", "Crypto Earnings", "Decentralized Finance", "Blockchain Networks", "Tokenomics", "Crypto Insights", "Cryptocurrency Investments", "Weather Services", "Blockchain Rewards", "Weather Station Owners", "Cryptocurrency Trends", "Decentralized Systems", "Blockchain Solutions", "Crypto Opportunities", "Blockchain Innovations", "Weather Technology Trends"]
-cover: "/img/cover/dualmining_weatherxm_fryscrypto.png"
+cover: "/img/cover/dualmining_weatherxm_fryscrypto.webp"
 coverAlt: "A symbolic cartoon illustration showcasing WeatherXM and FrysCrypto logos, a weather station, and cryptocurrency symbols."
 coverCaption: "Unlocking Tokens: DualMining WeatherXM and FrysCrypto for Crypto Enthusiasts"
 ---
@@ -25,7 +25,7 @@ coverCaption: "Unlocking Tokens: DualMining WeatherXM and FrysCrypto for Crypto 
 
 ## Dual Mining WeatherXM and FrysCrypto Steps
 
-{{< figure src="weatherxm.jpg" alt="Image of WetherXM Miner" caption="Image of WetherXM Miner - ilCapoFox" link="https://pbs.twimg.com/media/GAr0DSdWAAAIul_?format=jpg&name=4096x4096" >}}
+{{< figure src="weatherxm.webp" alt="Image of WetherXM Miner" caption="Image of WetherXM Miner - ilCapoFox" link="https://pbs.twimg.com/media/GAr0DSdWAAAIul_?format=jpg&name=4096x4096" >}}
 
 ### 1. Purchase BYOD License
 
@@ -50,11 +50,11 @@ Complete the registration for rewards at [FrysCrypto Registration](https://fryfo
 
 - For **WiFi WeatherXM** stations, obtain the MAC address from your router/modem settings. 
 
-    {{< figure src="WeatherXM-MAC-Address.jpg" alt="How to Get WeatherXM M5 Mac Address" caption="How to Get WeatherXM M5 Mac Address - ilCapoFox" link="https://pbs.twimg.com/media/GA632N5WQAABW6c?format=jpg&name=large" >}}
+    {{< figure src="WeatherXM-MAC-Address.webp" alt="How to Get WeatherXM M5 Mac Address" caption="How to Get WeatherXM M5 Mac Address - ilCapoFox" link="https://pbs.twimg.com/media/GA632N5WQAABW6c?format=jpg&name=large" >}}
 
 - For **Helium WeatherXM** stations, use `WXM-HELIUM` as the MAC address.
 
-    {{< figure src="fryscrypto-weatherxm-byod-registration.jpg" alt="How to Register Helium WeatherXM on FrysCrypto BYOD" caption="How to Register Helium WeatherXM on FrysCrypto BYOD - ilCapoFox" link="https://pbs.twimg.com/media/GA637sfXIAACkDl?format=jpg&name=large" >}}
+    {{< figure src="fryscrypto-weatherxm-byod-registration.webp" alt="How to Register Helium WeatherXM on FrysCrypto BYOD" caption="How to Register Helium WeatherXM on FrysCrypto BYOD - ilCapoFox" link="https://pbs.twimg.com/media/GA637sfXIAACkDl?format=jpg&name=large" >}}
 
 ### 5. Wait for Registration
 

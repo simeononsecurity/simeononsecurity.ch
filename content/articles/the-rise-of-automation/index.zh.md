@@ -6,7 +6,7 @@ draft: false
 description: "探索自动化技术的发展、采用自动化技术的行业及其对工作机会的影响。"
 genre: ["自动化技术", "工业革命", "技术进步", "人工智能", "机器学习", "制造业", "医疗保健", "交通运输", "零售", "农业"]
 tags: ["自动化技术", "工业", "工作机会", "演变", "人工智能", "机器学习", "制造", "医护", "运输", "自动驾驶汽车", "零售", "电子商务", "农业", "智能农业", "对就业市场的影响", "失业", "技术技能", "提高技能", "再培训", "教育活动", "STEM 计划", "政府政策", "法规", "全民基本收入", "就业再培训计划", "数据隐私", "数据安全", "数字鸿沟", "伦理方面的考虑"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "一幅描绘各行业和技术相互关联的动画图像。"
 coverCaption: "以乐观和适应性迎接自动化的未来。"
 ---

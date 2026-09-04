@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Ontdek de beste certificeringen voor bedrijfsprofessionals om hun vaardigheden op het gebied van cyberbeveiliging te verbeteren en gevoelige gegevens te beschermen."
 tags: ["cyberbeveiligingscertificeringen", "niet-technische certificeringen", "zakelijke professionals", "informatiebeveiliging", "privacybeheer", "cyberbeveiligingsvaardigheden", "gegevensbescherming", "certificeringsprogramma's", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP VS", "veiligheidsbeheer", "privacyregels", "naleving", "risicobeheer", "informatieprivacy", "bedrijfsbeveiliging", "gegevensprivacy"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "Een afbeelding van een groep verschillende zakelijke professionals die samenwerken op een digitaal platform met slotpictogrammen die cyberbeveiliging symboliseren."
 coverCaption: ""
 ---

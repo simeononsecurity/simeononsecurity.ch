@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Aflați cele 10 instrucțiuni esențiale de securitate a parolelor pentru a vă proteja identitatea digitală și datele personale de atacurile cibernetice."
 genre: ["Tehnologie", "Securitatea cibernetică", "Protecția identității digitale", "Securitatea parolei", "Siguranța online", "Confidențialitatea datelor", "Sfaturi de securitate online", "Gestionarea parolelor", "Autentificare cu doi factori", "Recuperarea parolei"]
 tags: ["securitatea parolei", "orientări privind parolele", "parole puternice", "atacuri cibernetice", "securitate online", "riscuri legate de parole", "parole slabe", "protecție prin parolă", "securitatea datelor", "apărare cu parolă", "prevenirea hackerilor", "importanța parolei", "spargerea parolelor", "furt de identitate", "refolosirea parolei", "gestionarea parolelor", "autentificare cu doi factori", "Beneficiile 2FA", "actualizări de parole", "schimbarea parolei", "cele mai bune practici privind parolele", "recuperarea parolei", "manager de parole", "avantajele managerului de parole", "selectarea unui manager de parole", "securitatea contului online", "criptare", "autentificarea cu mai mulți factori"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "O imagine simbolică reprezentând securitatea parolei cu un scut care protejează o încuietoare."
 ---
 

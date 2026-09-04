@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Een gids voor het uitvoeren van netwerksegmentatie voor betere beveiliging en minder risico in uw organisatie."
 tags: ["netwerksegmentatie", "de veiligheid verbeteren", "risico verminderen", "netwerkprestaties", "netwerkbeheer", "veiligheidscontroles", "firewalls", "toegangscontroles", "minste voorrecht", "authenticatie", "testen", "controle", "cyberdreigingen", "datalekken", "netwerkarchitectuur", "uitgebreide beveiliging", "gelaagde beveiliging", "kwetsbaarheden", "cyberaanvallen", "werknemersopleiding"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Een beeld van een netwerk met meerdere segmenten dat wordt beschermd door een firewall en toegangscontrolemechanismen, met een hacker buiten het netwerk die probeert binnen te komen."
 coverCaption: ""
 ---

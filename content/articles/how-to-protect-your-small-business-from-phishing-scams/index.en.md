@@ -6,7 +6,7 @@ draft: false
 description: "Discover foolproof tactics to safeguard your small business from phishing threats. Uncover the secrets to recognizing scams, implementing robust security, and staying ahead in the cyber defense game. Equip your team with the knowledge to thwart attacks and fortify your business. Don't let phishing jeopardize your success – arm yourself with essential protection now!"
 genre: ["Cybersecurity", "Small Business Protection", "Phishing Scams", "Employee Education", "Email Security", "Multi-Factor Authentication", "Security Audits", "Social Engineering Tactics", "Digital Threats", "Online Security"]
 tags: ["Phishing Protection", "Small Business Security", "Employee Training", "Email Authentication", "Cyber Threats", "Digital Safety Measures", "Multi-Factor Authentication", "Security Audits", "Online Fraud Prevention", "Social Engineering Defense", "Digital Security Education", "Email Scam Recognition", "Business Cyber Defense", "Digital Threat Intelligence", "Data Protection Strategies", "Online Security Best Practices", "Small Business Resilience", "IT Security Solutions", "Email Safety Tips", "Secure Business Communication", "Advanced Phishing Defense", "Financial Fraud Prevention", "Internet Security Guidelines", "Digital Resilience Planning", "Thwarting Online Scams", "Security Awareness Training", "Secure Business Practices", "Digital Fraud Defense", "Phishing Awareness"]
-cover: "/img/cover/how-to-protect-your-small-business-from-phishing-scams.jpeg"
+cover: "/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp"
 ---
 
 How to Protect Your Small Business from Phishing Scams

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of hands-on learning with a budget-friendly tech homelab setup. Explore hardware options, networking, and innovation in this comprehensive guide."
 genre: ["Technology", "Education", "Innovation", "Skill Development", "Home Learning", "Personal Growth", "Experimentation", "IT Enthusiast", "Professional Development", "Tech Exploration"]
 tags: ["Homelab Setup", "Hands-on Learning", "Tech Enthusiast", "Budget-Friendly", "Innovation", "Skill Development", "Networking", "Virtualization", "Hardware Options", "IT Experimentation", "Server Virtualization", "Automation Tools", "Personal Growth", "Technology Exploration", "IT Skills", "Home Learning", "Career Advancement", "IT Infrastructure", "Hardware Components", "Networking Solutions", "Storage Solutions", "Server Management", "IT Innovation", "Technical Skills", "Networking Setup", "Home IT Setup", "IT Education", "IT Career", "Tech Projects", "Homelab Enthusiast"]
-cover: "/img/cover/Homelab_Innovation_Tech.png"
+cover: "/img/cover/Homelab_Innovation_Tech.webp"
 coverAlt: "A cartoon-style illustration of a person surrounded by servers, virtual machines, and various tech gadgets, symbolizing the creative exploration and innovation of a homelab setup."
 coverCaption: "Unleash creativity through hands-on tech experiments in your homelab."
 ---

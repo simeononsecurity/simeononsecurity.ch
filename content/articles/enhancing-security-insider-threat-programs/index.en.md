@@ -6,7 +6,7 @@ draft: false
 description: "Discover how insider threat programs strengthen security by mitigating risks from within. Learn the key components, challenges, and success stories."
 genre: ["Cybersecurity", "Risk Management", "Security Strategy", "Insider Threats", "Employee Training", "Data Protection", "IT Security", "Organizational Safety", "Threat Mitigation", "Security Culture"]
 tags: ["Insider Threats", "Cybersecurity", "Risk Management", "Security Strategy", "Employee Training", "Data Protection", "IT Security", "Threat Mitigation", "Security Culture", "Organizational Safety", "Mitigating Risks", "Employee Education", "Advanced Threat Detection", "Incident Response", "Privacy Concerns", "Security Awareness", "Effective Programs", "Insider Threat Cases", "Lessons Learned", "Preventive Measures", "Early Detection", "Internal Risks", "Security Policies", "Organizational Collaboration", "Technology Solutions", "Data Security", "Ethical Behavior", "Cultural Shift", "Transparent Communication", "Positive Security Culture"]
-cover: "/img/cover/Insider_Threat_Protection_Shield.png"
+cover: "/img/cover/Insider_Threat_Protection_Shield.webp"
 coverAlt: "A symbolic illustration showing a shield protecting a network of interconnected employees."
 coverCaption: "Secure Together: Building Trust through Vigilance and Collaboration"
 ---

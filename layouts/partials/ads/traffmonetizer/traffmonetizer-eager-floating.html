@@ -1,5 +1,5 @@
-{{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.png" }}
-{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".png" "" }}
+{{ $tinysrc := resources.Get "img/ads/traffmonetizer/make_passive_money_online_by_sharing_your_internet-1080x1080.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
 {{ $tiny := ($tinysrc.Resize "255x webp q90") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how Windows Group Policy settings strengthen cybersecurity by minimizing attack surface vulnerabilities for stronger protection."
 genre: ["Cybersecurity", "Windows Group Policy", "Attack Surface Reduction", "IT Security", "Network Protection", "Data Defense", "Digital Resilience", "System Hardening", "Security Best Practices", "Risk Mitigation"]
 tags: ["Cybersecurity", "Windows Group Policy", "Attack Surface Reduction", "IT Security", "Network Protection", "Data Defense", "Digital Resilience", "System Hardening", "Security Configurations", "Least Privilege", "Software Restriction", "Firewall Settings", "Account Policies", "Local Policies", "Password Security", "Network Security", "Security Measures", "Security Management", "Windows Environment", "Security Posture", "Brute-force Protection", "Unauthorized Access", "Threat Mitigation", "Security Guidelines", "Access Control", "Malware Prevention", "Incident Response", "Data Protection", "User Permissions", "Securing Systems"]
-cover: "/img/cover/Cybersecurity_Shield_Defense.png"
+cover: "/img/cover/Cybersecurity_Shield_Defense.webp"
 coverAlt: "A symbolic illustration showing a shield-wielding character defending a server room against digital threats."
 coverCaption: "Guarding Digital Fortresses: Strengthening Your Cyber Defenses"
 ---

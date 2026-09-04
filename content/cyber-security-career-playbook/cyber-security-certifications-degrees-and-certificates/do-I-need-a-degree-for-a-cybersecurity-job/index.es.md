@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Descubra las mejores especializaciones para una carrera de éxito en ciberseguridad y aprenda a recorrer el camino para convertirse en un profesional cualificado."
 tags: ["empleo en ciberseguridad", "requisito de titulación", "selección mayor", "trayectoria profesional en ciberseguridad", "seguridad de la información", "amenazas cibernéticas", "oportunidades profesionales", "desarrollo de competencias", "certificaciones sectoriales", "cursos de ciberseguridad", "opciones de autoaprendizaje", "cursos en línea", "programas de prácticas", "puestos de nivel inicial", "empleos en ciberseguridad", "educación en ciberseguridad", "orientación profesional", "itinerarios de ciberseguridad", "mejores carreras en ciberseguridad", "plan de estudios de ciberseguridad", "especialización en tecnología de la información", "especialización en informática", "matemáticas", "especialización en ingeniería", "empresa y ciberseguridad", "psicología y ciberseguridad", "sociología y ciberseguridad", "perspectivas laborales en ciberseguridad", "competencias prácticas en ciberseguridad", "aprendizaje continuo en ciberseguridad", "demanda de profesionales de la ciberseguridad"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Ilustración de una persona sosteniendo un birrete de graduación con un escudo que representa la ciberseguridad, simbolizando la necesidad de educación y habilidades en el campo de la ciberseguridad. --aspecto 16:9"
 coverCaption: "Desbloquee su potencial profesional en ciberseguridad con formación y habilidades."
 ---

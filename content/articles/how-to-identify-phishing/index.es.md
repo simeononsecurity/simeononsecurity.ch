@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a identificar los intentos de phishing en correos electrónicos, mensajes de texto y llamadas para mantener a salvo su información personal."
 tags: ["phishing", "seguridad en línea", "seguridad del correo electrónico", "ciberseguridad", "seguridad en internet", "correos electrónicos de phishing", "textos de phishing", "llamadas de phishing", "amenazas digitales", "robo de identidad", "protección de datos", "fraude en línea", "estafas en línea", "privacidad en línea", "consejos de seguridad en línea", "ciberdelincuencia", "seguridad de la información", "seguridad de contraseñas", "seguridad de los datos", "concienciación sobre seguridad"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Una imagen de un personaje de dibujos animados con un traje de superhéroe y un escudo bloqueando una caña de pescar con un correo electrónico de phishing."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie ein effektives Schulungsprogramm zur Cybersicherheit aufbauen und verwalten, das das Risiko von Cyberangriffen verringert und sensible Daten schützt."
 tags: ["Cybersicherheit", "Bewusstseinsschulung", "Risikominderung", "datenschutz", "Mitarbeiterschulung", "Bedrohungen der Cybersicherheit", "Cybersicherheitsrisiken", "Ausbildungsziele", "Zielpublikum", "Durchführung von Schulungen", "interaktives Training", "Beispiele aus der Praxis", "Simulationen", "praktische Übungen", "Ausbildungsinhalt", "NIST 800-50", "bewährte Praktiken der Cybersicherheit", "Cybersicherheitskultur", "Belohnungen und Anerkennung"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Ein animiertes Bild einer Gruppe von Mitarbeitern, die sich um einen Computer versammelt haben, oder ein Sicherheitsexperte, der Cybersicherheitskonzepte auf einem Whiteboard erklärt."
 coverCaption: ""
 ---

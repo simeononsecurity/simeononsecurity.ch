@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the key differences between SQL and NoSQL databases and make an informed decision on the best database management system for your needs."
 tags: ["database management system", "SQL vs NoSQL", "SQL databases", "NoSQL databases", "ACID compliance", "data model", "scalability", "query language", "performance", "schema evolution", "structured data", "unstructured data", "data integrity", "horizontal scalability", "SQL query language", "MongoDB", "document databases", "key-value stores", "columnar databases", "graph databases", "data management", "data structure", "analytical queries", "data modeling", "flexible schemas", "high read throughput", "high write throughput", "complex join operations", "agile development"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "An image depicting a puzzle piece representing data being placed into a database, symbolizing the decision-making process of choosing the right database management system."
 coverCaption: ""
 ---

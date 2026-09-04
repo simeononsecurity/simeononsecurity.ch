@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez la mission et les principes des Cyber Sentinelles, une communauté de professionnels de la cybernétique et de l'informatique qui s'engagent à partager leurs connaissances et à développer des solutions innovantes pour relever les défis de la cybersécurité."
 tags: ["la cybersécurité", "IT", "communauté", "partage des connaissances", "collaboration", "l'apprentissage continu", "soutien", "inclusivité", "impact positif", "canaux de texte", "canaux vocaux", "conseils de carrière", "opportunités d'emploi", "ressources pédagogiques", "tendances émergentes", "projets", "événements", "conférences", "photos d'animaux", "technologie"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Un bouclier numérique stylisé avec une figure de cyberguerrier au centre, entouré de formes abstraites et de lignes représentant des flux de données et des connexions de réseau"
 coverCaption: ""
 ---

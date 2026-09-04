@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to build and manage an effective cybersecurity awareness training program that reduces the risk of cyber-attacks and protects sensitive data."
 tags: ["cybersecurity", "awareness training", "risk mitigation", "data protection", "employee training", "cybersecurity threats", "cybersecurity risks", "training goals", "target audience", "training delivery", "interactive training", "real-world examples", "simulations", "hands-on exercises", "training content", "NIST 800-50", "cybersecurity best practices", "cybersecurity culture", "rewards and recognition"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "An animated image of a group of employees gathered around a computer or a security expert explaining cybersecurity concepts on a whiteboard."
 coverCaption: ""
 ---

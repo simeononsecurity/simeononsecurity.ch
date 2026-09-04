@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de missie en principes van de Cyber Sentinels, een gemeenschap van cyber- en IT-professionals die zich inzetten voor het delen van kennis en het ontwikkelen van innovatieve oplossingen voor cyberbeveiligingsuitdagingen."
 tags: ["cyberveiligheid", "IT", "gemeenschap", "kennisdeling", "samenwerking", "continu leren", "steun", "inclusiviteit", "positieve impact", "tekstkanalen", "spraakkanalen", "loopbaanadvies", "carrièremogelijkheden", "leermiddelen", "opkomende trends", "projecten", "evenementen", "conferenties", "foto's van huisdieren", "technologie"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Een gestileerd digitaal schild met een cyberstrijder in het midden, omgeven door abstracte vormen en lijnen die gegevensstromen en netwerkverbindingen voorstellen."
 coverCaption: ""
 ---

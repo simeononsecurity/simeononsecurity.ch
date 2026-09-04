@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți diferențele cheie și punctele forte ale Session, Status, Signal și Threema în această comparație cuprinzătoare a serviciilor de mesagerie securizată."
 genre: ["Mesagerie securizată", "Comunicarea axată pe confidențialitate", "Comparație între aplicațiile de mesagerie", "Protocoale de criptare", "Securitatea cibernetică", "Comunicare privată", "Servicii de mesagerie", "Confidențialitatea datelor", "Criptare de la un capăt la altul", "Analiza platformei de mesagerie"]
 tags: ["Sesiunea", "Stare", "Semnal", "Threema", "Mesagerie securizată", "Confidențialitate", "Criptare", "Securitatea cibernetică", "Aplicații de mesagerie", "Comparație", "Criptare de la un capăt la altul", "Confidențialitatea datelor", "Platforma de mesagerie", "Comunicare", "Aplicații descentralizate", "Comunicare securizată", "Servicii de mesagerie", "Securitatea mesageriei", "Confidențialitatea mesageriei", "Mesagerie criptată", "Cele mai bune aplicații de mesagerie securizată", "Comparație de criptare de la un capăt la altul", "Mesaje axate pe confidențialitate", "Servicii de comunicații securizate", "Semnal vs. Threema", "Sesiune vs Stare", "Revizuirea platformelor de mesagerie securizată", "Caracteristicile de securitate ale aplicației de mesagerie", "Compararea aplicațiilor de mesagerie securizată", "Evaluarea aplicațiilor de chat securizate"]
-cover: "/img/cover/secure-messaging-comparison.png"
+cover: "/img/cover/secure-messaging-comparison.webp"
 coverAlt: "O ilustrație a patru smartphone-uri, fiecare reprezentând Session, Status, Signal și Threema, securizate cu încuietori, subliniind accentul pus pe mesageria securizată."
 coverCaption: "Asigurați-vă conversațiile: O comparație cuprinzătoare a mesageriei."
 ---

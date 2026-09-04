@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj krytyczne elementy procesu OPSEC i dowiedz się, jak skutecznie chronić poufne informacje."
 tags: ["Proces OPSEC", "bezpieczeństwo operacyjne", "ochrona informacji", "środki bezpieczeństwa", "regulacje rządowe", "informacje krytyczne", "ocena zagrożenia", "ocena podatności na zagrożenia", "analiza ryzyka", "środki zaradcze", "bezpieczeństwo informacji", "ochrona danych", "poufność", "integralność", "dostępność", "cyberbezpieczeństwo", "informacje niejawne", "zgodność", "NISPOM", "HIPAA", "RODO", "prywatność danych", "zarządzanie ryzykiem", "stan bezpieczeństwa", "aktywa informacyjne", "kontrole bezpieczeństwa", "ograniczanie ryzyka", "polityki bezpieczeństwa", "świadomość bezpieczeństwa", "zapobieganie naruszeniom danych", "klasyfikacja informacji", "Które z poniższych elementów są częścią procesu opsec?"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "Obraz przedstawiający tarczę chroniącą zablokowany folder reprezentujący ochronę poufnych informacji."
 coverCaption: ""
 ---

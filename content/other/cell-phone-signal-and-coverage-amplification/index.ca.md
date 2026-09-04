@@ -15,7 +15,7 @@ Mantenir-se connectat s'ha convertit en una necessitat per a la majoria de nosal
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 El [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Només ajuda si teniu una cobertura bona o útil dins o prop d'una finestra i no en una altra zona de la casa. Funciona millor si només necessiteu estendre la cobertura per un habitatge de manera més uniforme.
 
@@ -23,7 +23,7 @@ Són produïts per una empresa anomenada [Cell-Fi](https://nextivityinc.com/prod
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 El [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) les opcions requereixen una mica d'instal·lació. Requereixen que instal·leu un pal, una barra de terra, un paral·luminació, un amplificador i una o més antenes interiors. Ofereixen el millor senyal possible, però no funcionaran si no hi ha cap senyal a la vostra zona. Tenen una mitjana d'uns 60 dB de guany addicional, però poden arribar als 100 dB. Sens dubte, aquesta és la millor solució permanent, ja que obtindreu la millor millora del senyal més gran possible, així com suport per a tots els operadors alhora.
 

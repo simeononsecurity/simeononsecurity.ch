@@ -44,7 +44,7 @@ coverCaption: ""
 
 ### ONT のカスタマイズ
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 次に重要なのは、ISPのネットワークと互換性を持たせるために、デバイスの情報を変更することです。
 

@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Descoperiți care dintre soluțiile de securitate pentru endpoint-uri, Symantec sau McAfee, este cea mai potrivită pentru a proteja activele digitale ale organizației dvs. împotriva amenințărilor cibernetice."
 genre: ["Tehnologie", "Securitatea cibernetică", "Securitate Endpoint", "Antivirus", "Firewall", "Detectarea intruziunilor", "Prevenirea pierderilor de date", "Protecția împotriva amenințărilor", "Soluții de securitate", "Comparație"]
 tags: ["securitate endpoint", "Symantec", "McAfee", "securitate cibernetică", "antivirus", "firewall", "detectarea intruziunilor", "prevenirea pierderilor de date", "protecția împotriva amenințărilor", "soluții de securitate", "comparație", "malware", "ransomware", "atacuri de phishing", "atacuri de tip zero-day", "învățare automată", "analiză bazată pe comportament", "consola de gestionare a cloud-ului", "vizibilitate în timp real", "management centralizat", "capacități de integrare", "recenzii ale clienților", "suport tehnic", "continuitatea afacerilor", "Mediul IT", "implementarea la distanță", "criptarea datelor", "controlul accesului la rețea"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "O imagine care reprezintă un scut cu logo-urile Symantec și McAfee, simbolizând capacitățile de securitate pentru puncte terminale ale acestora."
 ---
 

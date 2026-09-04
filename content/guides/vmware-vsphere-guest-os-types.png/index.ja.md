@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "vSphere Packer Builder で有効なゲスト OS タイプの値を確認し、VMware vSphere の VM 作成プロセスを簡単に最適化できます。"
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## vSphere Packer Builderで有効な "guest_os_type "の値のリスト

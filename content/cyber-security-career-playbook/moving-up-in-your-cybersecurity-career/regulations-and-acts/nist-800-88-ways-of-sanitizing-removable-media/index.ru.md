@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Узнайте об одобренных NIST способах санитарной обработки жестких дисков, твердотельных накопителей, флэш-накопителей USB, компакт-дисков, DVD и дисков Blu-ray для защиты конфиденциальных данных от несанкционированного доступа."
 tags: ["Методы, утвержденные NIST", "Дезинфекция съемных носителей", "Жесткие диски", "Твердотельные накопители", "USB-накопители", "CD-диски", "DVD-диски", "Blu-ray диски", "Безопасность данных", "Защита конфиденциальных данных"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Изображение человека, держащего USB-накопитель, на фоне шредера"
 coverCaption: ""
 ---

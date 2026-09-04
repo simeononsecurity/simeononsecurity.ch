@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习编写安全 PowerShell 代码的最佳实践，以保护基于 Windows 的系统免受安全漏洞的侵害。"
 tags: ["PowerShell", "安全编码", "视窗系统", "输入验证", "密码学图书馆", "最低特权", "静态代码分析器", "安全通信协议", "记录和监控", "漏洞扫描", "教育", "注入代码", "权限升级", "数据泄漏", "硬化环境", "安全政策", "防火墙", "入侵检测系统", "漏洞管理", "网络安全", "PowerShell 编码最佳实践", "确保 PowerShell 代码安全", "视窗系统安全", "PowerShell 中的输入验证", "PowerShell 中的加密技术", "最小特权原则", "PowerShell 静态代码分析器", "PowerShell 中的安全通信协议", "PowerShell 中的日志和监控", "PowerShell 中的漏洞扫描", "PowerShell 安全教育", "防止代码注入", "权限升级缓解", "用 PowerShell 防止数据泄漏", "加固 PowerShell 环境", "PowerShell 的安全策略", "PowerShell 中的防火墙配置", "PowerShell 的入侵检测系统", "PowerShell 中的漏洞管理", "PowerShell 中的网络安全", "PowerShell 脚本的安全编码", "在 PowerShell 中消毒输入和输出", "PowerShell 的安全通信协议", "PowerShell 脚本中的日志和监控", "加固 PowerShell 环境", "使用 PowerShell 执行漏洞扫描", "对用户和管理员进行 PowerShell 安全教育", "安全的 PowerShell 代码实践", "安全、灵活的 PowerShell 代码", "PowerShell 安全最佳实践", "Powershell 安全最佳实践"]
-cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "一个超级英雄站在电脑前，屏幕上显示着 Windows 徽标，手持盾牌，象征着安全编码实践对保护基于 Windows 系统的重要性。"
 coverCaption: ""
 ---

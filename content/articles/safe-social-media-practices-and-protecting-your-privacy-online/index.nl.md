@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek essentiële tips voor veilige sociale media om uw privacy online te beschermen en leer meer over de privacy-instellingen van populaire platforms zoals LinkedIn, Facebook, Twitter en Instagram."
 tags: ["privacy", "online privacy", "sociale media", "veilige praktijken", "privacyinstellingen", "LinkedIn", "Facebook", "Twitter", "Instagram", "vriendschapsverzoeken", "willekeurige links", "enquêtes", "overheidsvoorschriften", "GDPR", "CCPA", "cyberbeveiliging", "gegevensbescherming", "persoonsgegevens", "privacyschending", "digitale veiligheid", "privacyrisico's", "privacywetten", "privacyregels", "gegevensprivacy", "online beveiliging", "privacybescherming", "privacy van sociale media", "privacytips", "online privacy praktijken", "bescherming van persoonsgegevens"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Een afbeelding van een schild dat de persoonlijke informatie van een persoon beschermt tijdens het gebruik van sociale mediaplatforms."
 coverCaption: ""
 ---

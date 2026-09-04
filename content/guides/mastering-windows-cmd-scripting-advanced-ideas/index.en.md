@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the potential of Windows CMD scripting with advanced ideas like tasklist, background execution, and disowning processes to simplify IT management and boost cybersecurity."
 genre: ["Technology", "IT Management", "Cybersecurity", "Scripting", "Windows CMD", "System Administration", "Automation", "Troubleshooting", "Resource Management", "Process Monitoring"]
 tags: ["advanced CMD concepts", "efficient resource management", "process monitoring", "Windows Command Prompt", "system processes", "Windows CMD", "scripting", "tasklist", "background execution", "disowning processes", "IT management", "cybersecurity", "system administration", "automation", "troubleshooting"]
-cover: "/img/cover/windows-cmd-processes-visualization.png"
+cover: "/img/cover/windows-cmd-processes-visualization.webp"
 coverAlt: "Windows CMD processes visualization."
 coverCaption: "help your IT journey with advanced CMD scripting techniques."
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

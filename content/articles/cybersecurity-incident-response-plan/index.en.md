@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to develop a robust cybersecurity incident response plan to minimize impact and protect your business from cyber threats." 
 genre: ["Cybersecurity", "Incident Response", "Data Breach", "Malware Attacks", "Ransomware", "Financial Losses", "Reputation Management", "Legal Compliance", "Business Continuity", "Risk Mitigation"]
 tags: ["Cybersecurity", "Incident Response", "Data Breach", "Malware Attacks", "Ransomware", "Financial Losses", "Reputation Management", "Legal Compliance", "Business Continuity", "Risk Mitigation", "Information Security", "Cyber Defense", "Data Protection", "IT Security", "Digital Threats", "Data Privacy", "Cyber Resilience", "Network Security", "Security Measures", "Incident Handling", "Data Security", "Security Policies", "Cyber Preparedness", "Cyber Threats", "Data Recovery", "Cyber Awareness", "Threat Detection", "Incident Investigation", "Security Training"]
-cover: "/img/cover/cybersecurity_superheroes_shield.png"
+cover: "/img/cover/cybersecurity_superheroes_shield.webp"
 coverAlt: "A symbolic image featuring a group of superheroes defending a city from cyber threats, with shields labeled Incident Response Plan and Risk Mitigation"
 coverCaption: "Unite and Protect: Safeguarding Your Digital Realm!"
 ---

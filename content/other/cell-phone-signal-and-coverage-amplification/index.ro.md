@@ -15,7 +15,7 @@ Să rămânem conectați a devenit o necesitate pentru majoritatea dintre noi, m
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 The [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Ajută doar dacă aveți o acoperire bună sau utilizabilă în sau lângă o fereastră și nu în altă zonă a casei. Funcționează cel mai bine dacă trebuie doar să răspândiți acoperirea printr-o locuință mai uniform.
 
@@ -23,7 +23,7 @@ Sunt produse de o companie numită [Cell-Fi](https://nextivityinc.com/products/)
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 The [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) opțiunile necesită instalare. Acestea necesită să instalați un stâlp, tijă de împământare, opritor de iluminat, amplificator și una sau mai multe antene de interior. Ele oferă cel mai bun semnal posibil, dar nu vor funcționa dacă nu există niciun semnal în zona dvs. Au o medie de aproximativ 60 db de câștig suplimentar, dar pot ajunge până la 100 db. Aceasta este cu siguranță cea mai bună soluție permanentă, deoarece veți obține cea mai mare îmbunătățire a semnalului posibil, precum și suport pentru toți operatorii în același timp.
 

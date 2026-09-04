@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Откройте для себя улучшенные функции безопасности, управления и автоматизации, а также производительность и масштабируемость Windows Server 2022, что делает его лучшим выбором для предприятий, желающих перейти с Windows Server 2019."
 tags: ["Windows Server 2022", "Обновление", "Бизнес", "Безопасность", "Управление", "Автоматизация", "Производительность", "Масштабируемость", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "Изображение серверной комнаты с рядами серверов под управлением Windows Server 2022. Серверы должны быть аккуратно расставлены и хорошо освещены, что свидетельствует об ухоженной и эффективной ИТ-инфраструктуре."
 coverCaption: ""
 ---

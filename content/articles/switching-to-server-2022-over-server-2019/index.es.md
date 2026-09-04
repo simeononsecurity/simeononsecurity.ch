@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las funciones de seguridad mejoradas, las capacidades de administración y automatización, y el rendimiento y la escalabilidad de Windows Server 2022, que lo convierten en la mejor opción para las empresas que buscan actualizar desde Windows Server 2019."
 tags: ["Windows Server 2022", "Actualizar", "Empresas", "Seguridad", "Gestión", "Automatización", "Rendimiento", "Escalabilidad", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "Imagen de una sala de servidores con filas de servidores con Windows Server 2022. Los servidores deben estar ordenados y bien iluminados, lo que sugiere una infraestructura de TI bien mantenida y eficiente."
 coverCaption: ""
 ---

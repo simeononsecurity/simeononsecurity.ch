@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți povestea nespusă a experienței mele cu implanturile de etichete NFC, în timp ce analizez riscurile, complicațiile și perspectivele personale care evidențiază importanța unui proces decizional informat."
 tags: ["Implanturi de etichete NFC", "hacking corp", "lucruri periculoase", "riscurile implantului", "modificări corporale", "complicații", "respingerea implantului", "durere și inflamație", "leziuni nervoase", "îndepărtarea implantului", "durere cronică", "măsuri de siguranță", "riscuri vs. beneficii", "consultare", "cercetare", "instalare profesională", "riscuri de modificare corporală", "deplasarea implantului", "sindromul de tunel carpian", "înțelegerea complicațiilor", "siguranța personală", "decizie informată", "interacțiune digitală", "proceduri medicale", "siguranța implantului", "precauție privind modificarea corporală", "complicații ale implantului", "bunăstarea personală", "considerente de sănătate", "consiliere profesională"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "O imagine reprezentând o persoană cu o mână care prezintă un implant de etichetă NFC, însoțită de simboluri de durere în jurul mâinii, ilustrând riscurile și complicațiile asociate implanturilor de etichete NFC."
 coverCaption: ""
 ---

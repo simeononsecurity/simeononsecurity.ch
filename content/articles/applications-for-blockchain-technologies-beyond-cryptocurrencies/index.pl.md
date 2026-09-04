@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj różnorodne zastosowania technologii blockchain wykraczające poza kryptowaluty, rewolucjonizujące finanse, zarządzanie łańcuchem dostaw, opiekę zdrowotną, energetykę i nie tylko."
 genre: ["Technologia blockchain", "Kryptowaluta", "Finanse", "Zarządzanie łańcuchem dostaw", "Opieka zdrowotna", "Energia", "Narzędzia", "Zdecentralizowane finanse", "Inteligentne kontrakty", "Płatności transgraniczne"]
 tags: ["blockchain", "kryptowaluta", "finanse", "zarządzanie łańcuchem dostaw", "opieka zdrowotna", "energia", "narzędzia", "zdecentralizowane finansowanie", "inteligentne kontrakty", "płatności transgraniczne", "źródło", "identyfikowalność", "logistyka", "podrobione towary", "zrównoważone łańcuchy dostaw", "bezpieczne zarządzanie danymi pacjentów", "identyfikowalność leków", "badania kliniczne", "telemedycyna", "zdalne monitorowanie", "zdecentralizowane sieci energetyczne", "Handel energią peer-to-peer", "inteligentne pomiary", "rozliczenie", "publiczne łańcuchy bloków", "prywatne łańcuchy bloków", "przejrzystość", "bezpieczeństwo", "niezmienność"]
-cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png"
+cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.webp"
 coverAlt: "Obraz przedstawiający połączone ze sobą bloki tworzące łańcuch, reprezentujący technologię blockchain."
 coverCaption: "Uwolnienie potencjału technologii Blockchain"
 ---

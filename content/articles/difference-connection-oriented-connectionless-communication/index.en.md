@@ -6,7 +6,7 @@ draft: false
 description: "Discover the variances between connection-oriented and connectionless communication, protocols, services, and routing methods in network communication."
 genre: ["Technology", "Networking", "Communication", "Protocols", "Computer Science", "Data Transmission", "Network Infrastructure", "Internet", "Information Technology", "Telecommunications"]
 tags: ["connection-oriented", "connectionless", "communication", "protocols", "services", "networking", "data transmission", "TCP", "UDP", "routing methods", "reliability", "efficiency", "flow control", "error recovery", "latency", "TCP/IP", "network infrastructure", "Internet protocols", "network protocols", "real-time applications", "network reliability", "network efficiency", "data delivery", "network latency", "network simplicity", "network overhead", "network error handling", "network congestion control", "network routing"]
-cover: "/img/cover/An_illustration_showing_two_devices_connected.png"
+cover: "/img/cover/An_illustration_showing_two_devices_connected.webp"
 coverAlt: "An illustration showing two devices connected through a reliable and ordered connection."
 coverCaption: "Reliable and Ordered Communication: Understanding the Difference"
 ---

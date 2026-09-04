@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez la puissance de TryHackMe : caractéristiques, prix, certifications, services réseau, et plus encore, vous permettant de maîtriser les compétences en cybersécurité."
 genre: ["Technologie", "Cybersécurité", "Apprentissage en ligne", "Piratage éthique", "Sécurité des réseaux", "Laboratoires virtuels", "Certifications", "Parcours d'apprentissage", "Expérience pratique", "Revue de TryHackMe"]
 tags: ["TryHackMe", "Revue de TryHackMe", "Certificats TryHackMe", "Tarification TryHackMe", "TryHackMe Network Services 2", "Abonnement TryHackMe", "Contournement de l'authentification de TryHackMe", "Inclusion de fichiers TryHackMe", "TryHackMe OWASP Top 10 Walkthrough (en anglais)", "VPN TryHackMe", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Active Directory Basics", "Réponses de TryHackMe", "TryHackMe Linux Fundamentals Partie 3", "Logo de TryHackMe", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQL Injection", "Support TryHackMe", "Outils de renseignement sur les menaces TryHackMe", "Vulnérabilités de téléchargement de TryHackMe", "TryHackMe : marcher sur une application", "TryHackMe Windows Fondamentaux 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Bleu", "TryHackMe Blue Walkthrough"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Une image représentant un pirate informatique avec une cape de super-héros, symbolisant l'autonomie acquise grâce à la formation en cybersécurité de TryHackMe."
 coverCaption: "Prenez le pouvoir avec TryHackMe : libérez vos superpouvoirs en matière de cybersécurité"
 ---

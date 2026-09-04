@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Proteggetevi dalle minacce online e garantitevi un'esperienza online più sicura sviluppando abitudini di navigazione sicure. Scoprite l'importanza della navigazione sicura, le abitudini essenziali da adottare e come salvaguardare le vostre informazioni personali."
 genre: ["Sicurezza informatica", "Sicurezza online", "Navigazione sicura", "Sicurezza Internet", "Protezione dei dati personali", "Privacy online", "Minacce online", "Prevenzione del crimine informatico", "Prevenzione del furto d'identità", "Sicurezza in Internet"]
 tags: ["abitudini di navigazione sicure", "minacce online", "sicurezza informatica", "sicurezza online", "protezione delle informazioni personali", "online privacy", "prevenzione del furto d'identità", "sicurezza in Internet", "prevenzione del crimine informatico", "navigazione web sicura", "online scams", "truffe di phishing", "protezione da malware", "protezione ransomware", "sicurezza dei social media", "sicurezza dei dati", "protezione della privacy online", "secure data storage", "sicurezza della password", "autenticazione a due fattori", "VPN", "navigazione criptata", "sicurezza del Wi-Fi pubblico", "educazione alla sicurezza online", "consapevolezza della cybersicurezza", "abitudini online sicure", "cultura della sicurezza online", "sicurezza della comunità", "Consigli per la sicurezza online"]
-cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.png"
+cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
 coverAlt: "Una rappresentazione illustrata della navigazione in Internet con un lucchetto che simboleggia la sicurezza della navigazione."
 ---
 

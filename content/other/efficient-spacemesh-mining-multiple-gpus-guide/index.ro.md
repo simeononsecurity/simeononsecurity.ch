@@ -6,7 +6,7 @@ draft: false
 description: "Aflați cum să vă optimizați mineritul Spacemesh folosind mai multe GPU-uri cu ajutorul algoritmului PoST ecologic și să vă maximizați recompensele."
 genre: ["Criptomonedă", "Blockchain", "Minerit", "Tehnologie", "Descentralizat", "GPU Mining", "Dovada spațiului-timp", "Ecologic", "Sfaturi Crypto", "Activele digitale"]
 tags: ["Spacemesh", "Minerit", "GPU-uri", "Dovada spațiului-timp", "Criptomonedă", "Blockchain", "Ecologic", "Descentralizat", "Algoritmul PoST", "Ghidul minier", "Sfaturi Crypto", "Recompense", "Optimizare", "Eficiență energetică", "GPU Mining", "Activele digitale", "Tehnologie", "Descentralizare", "Dovada de spațiu", "Mineritul spațiu-timp", "Maximizarea eficienței miniere", "Criptomonedă ecologică", "Rețeaua Spacemesh", "GPU Mining Setup", "Mineritul cu mai multe GPU-uri", "Minerit descentralizat Blockchain", "Sfaturi Crypto Mining", "Minerit eficient pe GPU", "Dovada algoritmului spațiu-timp", "Recompense pentru criptomonede"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "O ilustrație în stil de desen animat care arată mai multe GPU-uri care lucrează împreună pentru a extrage Spacemesh."
 coverCaption: "Mine Smarter, Mine Greener!"
 ---

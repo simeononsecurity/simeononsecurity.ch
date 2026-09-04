@@ -6,7 +6,7 @@ draft: false
 description: "Erforschen Sie die Entwicklung der Automatisierungstechnologie, die Branchen, die sie nutzen, und ihre Auswirkungen auf die Beschäftigungsmöglichkeiten."
 genre: ["Automatisierungstechnik", "Industrielle Revolution", "Technologische Fortschritte", "Künstliche Intelligenz", "Maschinelles Lernen", "Herstellung", "Gesundheitswesen", "Transport", "Einzelhandel", "Landwirtschaft"]
 tags: ["Automatisierungstechnik", "Branchen", "Arbeitsmöglichkeiten", "Entwicklung", "künstliche Intelligenz", "maschinelles Lernen", "Herstellung", "Gesundheitswesen", "Transport", "selbstfahrende Fahrzeuge", "Einzelhandel", "e-Commerce", "Landwirtschaft", "intelligente Landwirtschaft", "Auswirkungen auf den Arbeitsmarkt", "Arbeitsplatzverlagerung", "technische Fähigkeiten", "Weiterqualifizierung", "Umschulung", "Bildungsinitiativen", "MINT-Programme", "Regierungspolitik", "Vorschriften", "universelles Grundeinkommen", "Umschulungsprogramme", "Datenschutz", "Datensicherheit", "digitale Kluft", "ethische Erwägungen"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Ein animiertes Bild, in dem verschiedene Branchen und Technologien miteinander verbunden sind."
 coverCaption: "Stellen Sie sich der automatisierten Zukunft mit Optimismus und Anpassungsfähigkeit."
 ---

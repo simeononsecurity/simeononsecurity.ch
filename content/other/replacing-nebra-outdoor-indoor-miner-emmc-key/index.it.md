@@ -39,9 +39,9 @@ Per sostituire con successo la scheda SD di Nebra Helium Miner, sono necessari s
 
 ## Contenuto del minatore Nebra Helium:
 ### Contenuto del Nebra Indoor Miner:
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### Contenuto del Nebra Outdoor Miner:
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) Jack a cilindro da 9-16 V @ 15 W CC 6,5 mmx2,0 mm
  - 2.) Connettore Ethernet
  - 3.) Indicatore LED
@@ -53,7 +53,7 @@ Per sostituire con successo la scheda SD di Nebra Helium Miner, sono necessari s
 ### Passo 1: acquisire facoltativamente il file config.json dalla chiave EMMC:
 - Scaricare e installare [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) è necessario per avviare il modulo di calcolo come file system usb
 - Identificare e regolare i pin dei ponticelli sulla scheda figlia CM3 per la modalità di programmazione
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.) Porta micro USB utilizzata per l'imaging
    - 7.) Jumper USB JP4 - Utilizzato per passare dal funzionamento normale alla modalità flash; assicurarsi che sia in posizione 1-2 per il funzionamento normale e 2-3 per la programmazione.
    - 8.) JP3 Jumper di alimentazione - Consente di alimentare il modulo dal connettore Micro USB. Collegare solo quando si programma dal PC e assicurarsi che la scheda madre non sia collegata.

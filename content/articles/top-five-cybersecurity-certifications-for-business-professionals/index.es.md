@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Descubra las mejores certificaciones para que los profesionales de la empresa mejoren sus conocimientos de ciberseguridad y protejan los datos confidenciales."
 tags: ["certificaciones de ciberseguridad", "certificaciones no técnicas", "profesionales de empresa", "seguridad de la información", "gestión de la privacidad", "competencias en ciberseguridad", "protección de datos", "programas de certificación", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP EE.UU", "gobernanza de la seguridad", "normativa sobre privacidad", "conformidad", "gestión de riesgos", "privacidad de la información", "seguridad empresarial", "privacidad de los datos"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "Imagen en la que aparece un grupo de profesionales de empresas diversas colaborando en una plataforma digital con iconos de candados que simbolizan la ciberseguridad."
 coverCaption: ""
 ---

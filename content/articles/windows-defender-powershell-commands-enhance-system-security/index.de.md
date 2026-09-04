@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Leistungsfähigkeit der Windows Defender PowerShell-Befehle, und erfahren Sie, wie Sie die Sicherheit Ihres Systems mit der Befehlszeilensteuerung verbessern können."
 genre: ["Windows Defender", "PowerShell-Befehle", "Systemsicherheit", "Befehlszeilenkontrolle", "Antivirus", "Windows-Betriebssysteme", "Malwareschutz", "erweiterte Sicherheitseinstellungen", "Sicherheitsabläufe zu automatisieren", "Windows PowerShell"]
 tags: ["Technologie", "Cybersecurity", "Betriebssysteme", "Windows", "Befehlszeilen-Tools", "System-Sicherheit", "PowerShell", "Antivirus", "Schutz vor Malware", "Skripting"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Eine animierte Illustration, die ein Schild zeigt, das ein Computersystem vor verschiedenen Cyber-Bedrohungen schützt."
 coverCaption: "Verbessern Sie die Sicherheit Ihres Systems mit Windows Defender PowerShell-Befehlen."
 ---

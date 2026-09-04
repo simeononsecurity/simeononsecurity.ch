@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Découvrez les meilleures distributions Linux pour les débutants, notamment Ubuntu, Zorin OS, Linux Mint et Manjaro, qui offrent des interfaces conviviales et un excellent soutien de la part de la communauté."
 tags: ["Linux distros", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "débutants", "interface conviviale", "compatibilité matérielle", "soutien communautaire", "open-source", "basé sur Debian", "Interface de type Windows", "libération par roulement", "Environnement de bureau Cinnamon", "Environnement de bureau Xfce", "Environnement de bureau KDE Plasma", "GNOME desktop environment", "dépôt de logiciels", "une documentation complète", "logiciel préinstallé", "dernières mises à jour du logiciel", "barre des tâches", "menu de démarrage", "plateau du système", "codecs multimédias", "gestionnaire de paquets", "communauté solidaire", "les réglementations gouvernementales", "conformité juridique", "expérience en informatique sécurisée"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "Illustration montrant un groupe d'utilisateurs d'ordinateurs divers utilisant différentes distributions Linux avec le sourire, illustrant la facilité et l'inclusivité de Linux pour les débutants"
 coverCaption: ""
 ---

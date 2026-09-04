@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra a missão e os princípios do Cyber Sentinels, uma comunidade de profissionais cibernéticos e de TI comprometidos em compartilhar conhecimento e desenvolver soluções inovadoras para os desafios de segurança cibernética."
 tags: ["cíber segurança", "ISTO", "comunidade", "compartilhamento de conhecimento", "colaboração", "aprendizado contínuo", "apoiar", "inclusividade", "impacto positivo", "canais de texto", "canais de voz", "Conselho de carreira", "oportunidades de emprego", "recursos de aprendizagem", "tendências emergentes", "projetos", "eventos", "conferências", "fotos de animais de estimação", "tecnologia"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Um escudo digital estilizado com uma figura de guerreiro cibernético no centro, cercado por formas e linhas abstratas que representam fluxos de dados e conexão de rede"
 coverCaption: ""
 ---

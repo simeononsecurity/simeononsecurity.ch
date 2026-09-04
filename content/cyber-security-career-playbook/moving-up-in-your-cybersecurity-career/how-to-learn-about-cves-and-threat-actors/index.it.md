@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Rimanete al passo con le minacce informatiche imparando a conoscere le ultime CVE e gli attori delle minacce attraverso strategie e risorse efficaci."
 tags: ["sicurezza informatica", "CVE", "attori della minaccia", "scansione delle vulnerabilità", "intelligence sulle minacce", "condivisione delle informazioni", "collaborazione con l'industria", "avvisi di sicurezza", "NVD", "CVE", "US-CERT", "CERT", "Bolster ATT&CK", "OpenCTI", "NIST", "CISA", "vulnerabilità della sicurezza informatica", "minacce emergenti", "difesa proattiva", "scansione automatizzata delle vulnerabilità", "intelligence open-source", "informazioni sulle minacce in tempo reale", "tattiche e tecniche degli attori delle minacce", "OSINT tecnica", "Banche dati CVE", "avvisi di sicurezza del fornitore", "blog sulla sicurezza", "feed di intelligence sulle minacce", "comunità di condivisione delle informazioni", "regolamenti governativi"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Un'illustrazione di uno scudo con una lente d'ingrandimento che simboleggia la sicurezza informatica."
 coverCaption: "Difendere e scoprire: Potenziate le vostre conoscenze nel campo della cybersecurity."
 ---

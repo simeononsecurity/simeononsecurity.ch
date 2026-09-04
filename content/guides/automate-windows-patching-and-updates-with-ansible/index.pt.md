@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Simplifique o processo de atualização de sistemas Windows automatizando com Ansible - instruções passo a passo e práticas recomendadas incluídas."
 tags: ["automatizando as atualizações do Windows", "Automação Ansible", "administração de sistema", "patches de segurança", "infraestrutura de TI", "automação de rede", "gerenciamento de configurações", "operações de TI", "DevOps", "cíber segurança", "automação de TI", "Eficiência de TI", "Manual do Ansible", "Segurança do Windows", "gerenciamento de atualização", "produtividade de TI", "manutenção de TI", "Credenciais Ansible", "configuração do host", "automação do sistema", "atualizações do Windows", "Gerenciamento do sistema Windows", "patches de segurança do Windows", "Infraestrutura de TI do Windows", "Automação de rede do Windows", "Gerenciamento de configuração do Windows", "Operações de TI do Windows", "Windows DevOps", "segurança cibernética do Windows", "Automação de TI do Windows", "Eficiência de TI do Windows"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Uma ilustração animada mostrando um logotipo do Windows cercado por engrenagens simbolizando automação e atualizações."
 coverCaption: ""
 ---

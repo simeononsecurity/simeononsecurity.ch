@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Glotta 如何简化雨果文本翻译，使开发人员能够毫不费力地接触到全球受众。"
 tags: ["格洛塔", "雨果文本翻译", "本地化工具", "多语言内容", "翻译自动化", "语言本地化", "谷歌翻译 API 集成", "集成 Deepl 翻译应用程序接口", "Chevrotain.js", "词法和解析器", "语法树", "翻译工作流程", "雨果项目", "内容本地化", "语言支持", "翻译效率", "翻译 API", "本地化最佳实践", "翻译质量控制", "测试翻译内容", "全球受众", "文本翻译解决方案", "翻译流程优化", "第三方代码", "安全措施", "NPM 软件包", "GitHub 存储库", "文本翻译工具", "开发人员友好本地化", "提高内容覆盖率"]
-cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png"
+cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.webp"
 coverAlt: "一幅插图描述了利用 Glotta 实现雨果文本无缝翻译、连接全球语言的情况。"
 coverCaption: ""
 ---

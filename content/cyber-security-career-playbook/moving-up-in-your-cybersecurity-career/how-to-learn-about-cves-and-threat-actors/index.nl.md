@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Blijf cyberbedreigingen voor door meer te weten te komen over de nieuwste CVE's en bedreigingsactoren met behulp van effectieve strategieën en bronnen."
 tags: ["cyberbeveiliging", "CVE's", "bedreigingsactoren", "scannen op kwetsbaarheden", "dreigingsinformatie", "informatie-uitwisseling", "industriële samenwerking", "veiligheidsadviezen", "NVD", "CVE", "US-CERT", "CERT", "ATT&CK® bolster", "OpenCTI", "NIST", "CISA", "kwetsbaarheden in cyberbeveiliging", "opkomende bedreigingen", "proactieve verdediging", "geautomatiseerd scannen op kwetsbaarheden", "open-source inlichtingen", "informatie over bedreigingen in realtime", "tactieken en technieken van actoren in bedreigingen", "Technische OSINT", "CVE-databases", "adviezen van beveiligingsbedrijven", "blogs over beveiliging", "informatie over bedreigingen", "gemeenschappen voor het delen van informatie", "overheidsvoorschriften"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Een illustratie van een schild met een vergrootglas dat cyberbeveiliging symboliseert."
 coverCaption: "Verdedigen en ontdekken: Versterk jezelf met kennis op het gebied van cyberbeveiliging."
 ---

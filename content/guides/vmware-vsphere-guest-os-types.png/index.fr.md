@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "Découvrez les valeurs de type d'OS invité valides pour vSphere Packer Builder, optimisant ainsi votre processus de création de VM pour VMware vSphere en toute simplicité."
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## Liste des valeurs "guest_os_type" valides pour vSphere Packer Builder

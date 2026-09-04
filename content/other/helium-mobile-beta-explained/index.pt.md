@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra como o Helium Mobile Beta está transformando a conectividade móvel com sua rede descentralizada, garantindo segurança, confiabilidade e acessibilidade para os usuários."
 tags: ["Helium Mobile Beta", "rede descentralizada", "conectividade móvel", "seguro", "confiável", "planos acessíveis", "Pontos quentes de hélio", "blockchain de hélio", "programa beta", "rede sem fio", "redes celulares", "operadora de celular", "inovação", "tecnologia", "expansão da rede", "feedback do usuário", "interrupção da indústria", "Dispositivo compatível com Helium Mobile", "aplicativo", "tecnologia emergente"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Uma ilustração vibrante que mostra uma rede de dispositivos interconectados com a marca Helium Mobile, simbolizando a abordagem inovadora e descentralizada da conectividade móvel."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Apprenez à optimiser votre exploitation minière de Spacemesh en utilisant plusieurs GPU avec l'algorithme PoST respectueux de l'environnement et maximisez vos récompenses."
 genre: ["Crypto-monnaie", "Blockchain", "Exploitation minière", "Technologie", "Décentralisé", "Exploitation minière du GPU", "Preuve de l'espace-temps", "Respect de l'environnement", "Conseils sur les cryptomonnaies", "Actifs numériques"]
 tags: ["Spacemesh", "Exploitation minière", "GPU", "Preuve de l'espace-temps", "Crypto-monnaie", "Blockchain", "Respect de l'environnement", "Décentralisé", "Algorithme PoST", "Guide de l'exploitation minière", "Conseils sur les cryptomonnaies", "Récompenses", "Optimisation", "Efficacité énergétique", "Exploitation minière du GPU", "Actifs numériques", "Technologie", "Décentralisation", "Preuve d'espace", "Exploitation minière de l'espace-temps", "Maximiser l'efficacité de l'exploitation minière", "Crypto-monnaie écologique", "Réseau Spacemesh", "Configuration de l'exploitation minière par GPU", "Exploitation minière avec plusieurs GPU", "Exploitation minière décentralisée de la blockchain", "Conseils pour l'exploitation minière de cryptomonnaies", "Efficient GPU Mining", "Preuve de l'algorithme spatio-temporel", "Récompenses en crypto-monnaies"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "Illustration de style bande dessinée montrant plusieurs GPU travaillant ensemble pour exploiter Spacemesh."
 coverCaption: "Mine Smarter, Mine Greener !"
 ---

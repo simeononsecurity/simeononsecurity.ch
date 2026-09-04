@@ -6,7 +6,7 @@ draft: false
 description: "Verdien milieuvriendelijke beloningen met Spacemesh mining, een gedecentraliseerde aanpak die gebruik maakt van het innovatieve PoST consensus algoritme."
 genre: ["Mijnen van cryptocurrency", "Bewijs van ruimte-tijd", "Gedecentraliseerde beloningen", "Milieuvriendelijke mijnbouw", "Blockchain Technologie", "Cryptocurrency", "Cryptomining", "Bewijs van ruimte", "Decentralisatie", "Blockchain consensus"]
 tags: ["Spacemesh Mijnbouw", "Bewijs van ruimte-tijd", "Milieuvriendelijk", "Decentralisatie", "Mijnen van cryptocurrency", "Blockchain Technologie", "Netten", "PoST Bewijzen", "Beloningen voor mijnbouw", "Crypto-enthousiastelingen", "Gedecentraliseerde consensus", "Milieuvriendelijke mijnbouwoplossingen", "Beloningen voor cryptocurrency", "Beveiliging van cryptocurrency", "Bewijs van ruimte", "Crypto-innovatie", "Blockchain-netwerk", "Spacemesh netwerk", "Netvormingsproces", "Efficiëntie van cryptocurrency", "Deelname aan crypto", "Schaalbaarheid van cryptocurrency", "Stimulansen voor blockchain", "Spacemesh Software", "Spacemesh Tokens", "Cryptonetwerk", "Cryptocurrency-transacties", "Cryptocurrency Decentralisatie", "Crypto-uitdagingen"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Een opvallende cartoonillustratie van een raketaangedreven ruimteschip dat cryptocurrencies ontgint in de ruimte, als symbool voor het milieuvriendelijke en innovatieve Spacemesh ontginningsproces."
 coverCaption: "Mijnbouw naar de sterren! De milieuvriendelijke beloningen van Spacemesh wachten."
 ---

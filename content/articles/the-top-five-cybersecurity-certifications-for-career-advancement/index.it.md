@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le 5 principali certificazioni di cybersecurity che possono aiutarvi a progredire nella vostra carriera e ad aumentare le possibilità di trovare lavoro nel settore in rapida crescita della cybersecurity."
 tags: ["Sicurezza informatica", "Certificazioni", "Sicurezza CompTIA Plus", "CISSP", "Sicurezza offensiva OSCP", "Cisco CCNA", "(ISC2) CCSP", "Sicurezza informatica", "Sicurezza di rete", "Sicurezza in-the-cloud", "Sviluppo professionale", "Avanzamento di carriera", "Convalida delle competenze", "Sicurezza delle informazioni", "Hacking etico", "Test di penetrazione", "Amministrazione di rete", "Cloud Computing", "Gestione della sicurezza", "Valutazione della vulnerabilità"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "L'immagine di una persona in piedi davanti a un computer con un mantello da supereroe sulle spalle, simboleggia le competenze e le conoscenze che si possono acquisire ottenendo le certificazioni di cybersecurity."
 coverCaption: ""
 ---

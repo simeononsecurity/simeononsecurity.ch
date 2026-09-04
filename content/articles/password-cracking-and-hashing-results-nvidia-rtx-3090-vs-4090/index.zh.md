@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解英伟达™（NVIDIA®）RTX 3090 和 RTX 4090 在密码破解方面的性能差距，强调安全影响和保护措施。"
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "密码破解", "性能", "安全", "密码保护", "网络安全", "基准", "GPU", "密码管理器", "强密码", "双因素认证", "政府法规", "CISA", "GDPR", "数据安全", "硬件对比", "密码安全", "图形卡", "密码强度"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "数字锁被破解的插图，象征着文章中关于密码破解性能的内容。"
 coverCaption: ""
 ---

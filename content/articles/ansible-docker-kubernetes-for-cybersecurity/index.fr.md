@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez la puissance d'Ansible, de Docker et de Kubernetes pour automatiser les processus de cybersécurité et réduire le risque de violation des données."
 tags: ["Ansible", "Docker", "Kubernetes", "Automatisation de la cybersécurité", "Évaluations de la vulnérabilité", "Gestion des correctifs", "Orchestration de conteneurs", "Segmentation du réseau", "Contrôle d'accès basé sur les rôles", "Secret Management", "Analyses de sécurité", "Signature d'images", "Outils d'automatisation", "Infrastructure informatique", "Prévention des violations de données", "Amélioration de l'efficacité", "Automatisation de la sécurité", "Gestion de la configuration", "Déploiement des applications", "Conteneurisation", "Sécurité des conteneurs", "Systèmes évolutifs", "Environnements sécurisés", "Sécurité des réseaux", "Meilleures pratiques en matière de cybersécurité", "Réduction des risques", "Gestion de la sécurité", "Opérations informatiques", "Des flux de travail efficaces", "Automatisation des systèmes de sécurité", "IT Efficiency"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "Une image de trois engrenages, colorés en rouge, bleu et bleu, imbriqués et tournant ensemble pour symboliser leur intégration et leur collaboration dans l'automatisation des processus de cybersécurité"
 coverCaption: ""
 ---

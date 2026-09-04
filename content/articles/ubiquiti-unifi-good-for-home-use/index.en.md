@@ -6,7 +6,7 @@ draft: false
 description: "Discover if Ubiquiti UniFi is the ideal choice for your home network, ensuring effortless connectivity."
 genre: ["Home Networking", "Wi-Fi Solutions", "Networking Hardware", "Ubiquiti Products", "Tech Reviews", "Home Technology", "Wireless Connectivity", "Network Management", "Consumer Electronics", "Wireless Solutions"]
 tags: ["Ubiquiti UniFi", "Home Network", "Wi-Fi", "Networking", "Ubiquiti", "FCC Regulations", "Ubiquiti Products", "Network Management", "Reliable Wi-Fi", "Scalable Network", "Ubiquiti Controller", "Ubiquiti Home Use", "Wi-Fi Setup", "Ubiquiti Features", "Home Networking Solutions", "Wireless Network", "Ubiquiti Advantages", "Ubiquiti Disadvantages", "Tech Reviews", "Ubiquiti Reliability", "Ubiquiti Security", "Network Customization", "Ubiquiti Performance", "Complexity of UniFi", "Ubiquiti Cost", "Learning Curve", "Technical Support", "Government Regulations", "Effortless Connectivity"]
-cover: "/img/cover/ubiquiti-unifi-home-wifi.png"
+cover: "/img/cover/ubiquiti-unifi-home-wifi.webp"
 coverAlt: "Ubiquiti UniFi delivering a strong Wi-Fi signal at home"
 coverCaption: smooth Home Wi-Fi
 ref: ["/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced", "/articles/ubiquiti-unifi-vs-tp-link-omada"]

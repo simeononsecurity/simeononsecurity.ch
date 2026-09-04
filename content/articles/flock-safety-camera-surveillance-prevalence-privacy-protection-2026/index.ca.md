@@ -87,7 +87,7 @@ El producte principal de l'empresa és la **càmera Flock Safety Falcon**, un di
 
 Les càmeres Flock capturen molt més que números de matrícula. Registren la marca, el model, el color, el tipus de carrosseria i les característiques distintives de cada vehicle que hi passa. L'empresa comercialitza aquests com a "empremtes digitals" del vehicle. Això significa que cada viatge que fas queda catalogat, fins i tot quan no has fet res malament.
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Com funciona la tecnologia ALPR
 
@@ -200,7 +200,7 @@ Les **pràctiques de dades de Flock Safety** presenten múltiples reptes per a l
 
 El que va començar com una eina per **resoldre delictes contra la propietat** s'ha expandit de manera dramàtica. Aquests no són riscos hipotètics. Són patrons documentats.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE i l'aplicació de la llei d'immigració
 **L'ICE ha utilitzat Flock per localitzar i perseguir immigrants sense papers sense ordres judicials.** La xarxa nacional de la plataforma dóna a l'aplicació federal d'immigració una eina per rastrejar persones entre jurisdiccions sense cap causa probable individualitzada. Moltes comunitats que van finançar les seves xarxes Flock per a la recuperació de delictes contra la propietat han descobert que les seves càmeres formen part d'operacions federals d'aplicació de la llei d'immigració.

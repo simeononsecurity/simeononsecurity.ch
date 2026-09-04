@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van Albine DeleteMe, een gegevensbeschermingsdienst die u in staat stelt uw persoonlijke gegevens te beschermen en online veiligheid en gemoedsrust te garanderen."
 genre: ["Privacy van gegevens", "Online beveiliging", "Bescherming van persoonlijke gegevens", "Preventie van identiteitsdiefstal", "Beheer van digitale voetafdruk", "Cyberbeveiliging", "Privacy op internet", "Gegevens verwijderen", "GDPR-naleving", "CCPA"]
 tags: ["Albine DeleteMe", "Privacy van gegevens", "Online beveiliging", "Persoonlijke informatie", "Preventie van identiteitsdiefstal", "Digitale voetafdruk", "Cyberbeveiliging", "Privacy op internet", "Gegevens verwijderen", "GDPR-naleving", "CCPA", "Gegevensbescherming", "Datalek", "Privacy", "Gevoelige gegevens", "Online aanwezigheid", "Verordeningen gegevensbescherming", "Gegevensmonitoring", "Identiteitsbescherming", "Gegevenscodering", "Inbreuk op privacy", "Persoonlijke gegevens beschermen", "Online privacy waarborgen", "Veilige gegevensverwijdering", "Preventie van privacybedreigingen", "Identiteitsdiefstal beperken", "Oplossing voor gegevensprivacy", "Online privacybeheer", "Maatregelen voor gegevensbeveiliging", "Naleving van privacyregels", "Online identiteitsbescherming"]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "Een cartoonachtige afbeelding van een persoon omringd door beschermende schilden, die staan voor online privacy en gegevensbescherming."
 coverCaption: "Bewaak uw gegevens, omarm privacy."
 ---

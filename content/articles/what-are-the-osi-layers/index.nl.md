@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Een uitgebreid begrip krijgen van de OSI-lagen en het TCP IP-model, essentiële kaders in netwerken, om effectieve communicatie en probleemoplossing te vergemakkelijken."
 genre: ["Basisprincipes netwerken", "OSI-lagen", "TCP IP-model", "Netwerkprotocollen", "Communicatiemodellen", "Basiskennis netwerken", "Gegevensoverdracht", "Problemen met netwerken oplossen", "Netwerkarchitectuur", "Netwerkconcepten"]
 tags: ["OSI-lagen", "TCP IP-model", "basisbeginselen netwerken", "netwerkprotocollen", "communicatiemodellen", "gegevensoverdracht", "netwerkproblemen oplossen", "netwerkarchitectuur", "netwerkconcepten", "netwerkbeginselen", "netwerkkaders", "uitleg netwerkprotocollen", "netwerkstandaarden", "fysieke laag", "datalinklaag", "netwerklaag", "transportlaag", "sessielaag", "presentatielaag", "toepassingslaag", "TCP IP-lagen", "netwerkinterfacelaag", "internetlaag", "transportlaag", "toepassingslaag", "netwerkprotocollen uitgelegd", "netwerkmodellen", "netwerkprincipes uitgelegd", "netwerkgids", "netwerkhandleiding", "beste praktijken voor netwerken"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Een geanimeerde illustratie van een netwerk van onderling verbonden knooppunten waartussen gegevens stromen, als symbool voor efficiënte communicatie en netwerken."
 ---
  Basiskennis netwerken: De OSI-lagen en het TCP IP-model begrijpen

@@ -6,7 +6,7 @@ draft: false
 description: "PowerShellのActive Directoryモジュールを効果的にインストールし、活用することで、Windows Active Directoryの管理タスクを効率化する方法をご紹介します。"
 genre: ["テクノロジー", "ウィンドウズ", "パワーシェル", "アクティブディレクトリ", "管理部門", "スクリプト", "IT", "オートメーション", "Windowsサーバー", "マイクロソフト"]
 tags: ["PowerShell用アクティブ・ディレクトリ・モジュール", "PowerShellでモジュール・アクティブ・ディレクトリをインポートする", "Windows PowerShell用アクティブ・ディレクトリ・モジュール", "アクティブディレクトリPowerShellインストール", "アクティブディレクトリをインストール PowerShell", "PowerShellのインストールアクティブディレクトリモジュールWindows 10", "アクティブディレクトリをインストール PowerShellモジュール Windows 10", "アクティブディレクトリを取得する PowerShellモジュール", "AD管理", "Windows Active Directory", "PowerShellコマンドレット", "AD情報を検索する", "ADオブジェクトの作成", "ADオブジェクトを変更する", "ADのセキュリティを管理する", "ADユーザー管理", "ADグループ管理", "AD OR マネジメント", "PowerShellスクリプティング", "Windowsサーバー管理", "Microsoft PowerShell", "ADタスクの自動化", "PowerShellモジュールのインストール", "AD管理ガイド", "Active Directoryの管理", "ADセキュリティ管理", "PowerShellオートメーション", "Active Directory PowerShellコマンド", "PowerShellコマンドレットのリファレンス"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "Active Directoryの管理と自動化を象徴する、相互接続されたサーバーとユーザーアイコンのネットワークを描いたイメージ。"
 coverCaption: "PowerShellでActive Directory管理のパワーを解き放つ。"
 ---

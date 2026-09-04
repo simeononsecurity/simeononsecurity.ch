@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the hidden world of the dark web and its connection to cybercrime, while uncovering its dual nature and potential for journalism and whistleblowing."
 tags: ["dark web", "cybercrime", "illegal activities", "Tor", "hacking", "fraud", "identity theft", "journalism", "whistleblowing", "online security", "personal information", "data breaches", "online privacy", "government regulations", "cybersecurity", "crime prevention", "anonymous browsing", "online anonymity", "online threats", "digital safety"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "An illustration of a digital shield protecting a computer from dark web and cybercrime threats."
 coverCaption: ""
 ---

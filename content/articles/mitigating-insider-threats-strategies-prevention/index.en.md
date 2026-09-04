@@ -6,7 +6,7 @@ draft: false
 description: "Discover effective strategies to prevent insider threats, safeguard sensitive data, and build a culture of security in your organization."
 genre: ["Cybersecurity", "Data Protection", "Insider Threats", "Information Security", "Digital Security", "Employee Behavior", "Risk Management", "Data Privacy", "Corporate Security", "Preventive Measures"]
 tags: ["Insider Threats", "Data Security", "Cybersecurity", "Prevention", "Employee Behavior", "Risk Management", "Data Protection", "Information Security", "Digital Security", "Security Protocols", "Data Exfiltration", "Unauthorized Access", "Sabotage", "Malware", "Security Awareness", "Network Monitoring", "Behavioral Indicators", "Technological Indicators", "After-Hours Activities", "Reporting Threats", "Security Policies", "Employee Training", "Organizational Culture", "Preventive Measures", "Anonymous Reporting", "Vigilance", "IT Security", "Confidentiality", "Security Practices", "Threat Detection"]
-cover: "/img/cover/Security_Shield_Network_Protection.png"
+cover: "/img/cover/Security_Shield_Network_Protection.webp"
 coverAlt: "An illustration of a shield protecting a network of interconnected data devices."
 coverCaption: "Strengthen your defenses and secure your data with proactive measures."
 ---

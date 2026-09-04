@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Helium Mobile Beta が分散型ネットワークでモバイル接続をどのように変革し、ユーザーにセキュリティ、信頼性、手頃な価格を確保しているかをご覧ください。"
 tags: ["Helium モバイル ベータ版", "分散型ネットワーク", "モバイル接続", "安全", "信頼性のある", "お得なプラン", "ヘリウムホットスポット", "ヘリウムブロックチェーン", "ベータプログラム", "無線ネットワーク", "携帯電話ネットワーク", "携帯電話会社", "革新", "テクノロジー", "ネットワークの拡張", "ユーザーからのフィードバック", "業界の混乱", "Helium Mobile 対応デバイス", "応用", "新興テクノロジー"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Helium Mobile ブランドを使用して相互接続されたデバイスのネットワークを示す鮮やかなイラストは、モバイル接続への革新的で分散型のアプローチを象徴しています。"
 coverCaption: ""
 ---

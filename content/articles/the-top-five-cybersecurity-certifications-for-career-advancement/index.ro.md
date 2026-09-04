@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți primele 5 certificări în domeniul securității cibernetice care vă pot ajuta să avansați în carieră și să vă creșteți șansele de a obține un loc de muncă în domeniul în creștere rapidă al securității cibernetice."
 tags: ["Securitatea cibernetică", "Certificări", "CompTIA Security Plus", "CISSP", "Securitate ofensivă OSCP", "Cisco CCNA", "(ISC2) CCSP", "Securitate IT", "Securitatea rețelelor", "Securitatea în cloud", "Dezvoltare profesională", "Avansarea în carieră", "Validarea competențelor", "Securitatea informațiilor", "Hacking etic", "Testarea de penetrare", "Administrarea rețelelor", "Cloud Computing", "Managementul securității", "Evaluarea vulnerabilității"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "O imagine a unei persoane care stă în fața unui computer cu o pelerină de supererou în spate, simbolizând abilitățile și cunoștințele care pot fi dobândite prin obținerea de certificări în domeniul securității cibernetice."
 coverCaption: ""
 ---

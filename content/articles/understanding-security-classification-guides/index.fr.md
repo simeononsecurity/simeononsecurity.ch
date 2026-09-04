@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorer l'importance des guides de classification de sécurité pour protéger les informations classifiées et garantir le respect des réglementations."
 tags: ["guides de classification de sécurité", "information protection", "informations classifiées", "les réglementations gouvernementales", "atténuation des risques", "le contrôle d'accès", "la sécurité de l'information", "procédures de marquage", "procédures de manutention", "sécurité nationale", "conformité", "menaces d'initiés", "partage d'informations", "la propriété intellectuelle", "la prise de décision", "obligations légales", "obligations éthiques", "collaboration internationale", "ISO 27001", "NISPOM", "Décret 13526", "classification des informations", "protection des données", "traitement de l'information", "partage contrôlé", "confidentialité des informations", "l'intégrité de l'information", "la culture de la sécurité de l'information", "lignes directrices en matière de sécurité de l'information", "les pratiques en matière de sécurité de l'information", "sensibilisation à la sécurité de l'information"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Image représentant un dossier de documents verrouillé avec un bouclier symbolisant la protection des informations classifiées."
 coverCaption: ""
 ---

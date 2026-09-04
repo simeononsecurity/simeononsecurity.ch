@@ -6,7 +6,7 @@ draft: false
 description: "使用 autounattend.xml 和 vTPM 绕过 TPM、安全启动和 RAM 检查，简化虚拟环境中的 Windows 11 安装。"
 genre: ["技术", "视窗 11", "安装", "虚拟化", "自动化", "注册表密钥", "TPM 旁路", "安全启动旁路", "内存旁路", "vTPM"]
 tags: ["视窗 11", "安装", "自动化", "虚拟化", "vTPM", "注册表密钥", "TPM 旁路", "安全启动旁路", "内存旁路", "Autounattend.xml", "VMware vSphere", "Windows Setup", "Windows 预装环境", "虚拟机", "Windows 安装解决方案", "注册表编辑器", "微软视窗设置", "系统要求", "视窗安全", "视窗性能", "政府法规", "符合 NIST 标准", "微软", "Windows 操作系统", "绕过检查", "Windows 部署", "设置自动化", "命令提示符", "技术指南", "自动安装 Windows 11", "VMware vSphere 中的 vTPM 配置", "绕过 Windows 11 要求"]
-cover: "/img/cover/windows11-installation-cartoon.png"
+cover: "/img/cover/windows11-installation-cartoon.webp"
 coverAlt: "一幅卡通风格的图片，展示了虚拟机在虚拟化环境中安装 Windows 11 的过程，一位面带微笑的 IT 专业人员正在监督这一过程。"
 coverCaption: "用微笑简化安装自动安装 Windows 11"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Windows Server 2019からのアップグレードを検討している企業に最適な、Windows Server 2022のセキュリティ機能、管理および自動化機能、パフォーマンスとスケーラビリティの向上をご紹介します。"
 tags: ["Windows Server 2022", "アップグレード", "事業内容", "セキュリティ", "マネジメント", "オートメーション", "パフォーマンス", "スケーラビリティ", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "Windows Server 2022が動作するサーバーが並ぶサーバールームのイメージ。サーバーは整然と配置され、照明も明るく、よく整備された効率的なITインフラであることを示唆しているはずだ。"
 coverCaption: ""
 ---

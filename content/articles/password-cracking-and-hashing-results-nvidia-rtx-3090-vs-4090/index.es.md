@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubre la diferencia de rendimiento entre NVIDIA RTX 3090 y RTX 4090 en el descifrado de contraseñas, destacando las implicaciones de seguridad y las medidas de protección."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "descifrado de contraseñas", "rendimiento", "seguridad", "protección por contraseña", "ciberseguridad", "referencia", "GPU", "gestor de contraseñas", "contraseñas seguras", "autenticación de dos factores", "normativa gubernamental", "CISA", "GDPR", "seguridad de los datos", "comparación de hardware", "seguridad de contraseñas", "tarjeta gráfica", "seguridad de la contraseña"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Una ilustración de una cerradura digital siendo descifrada, simbolizando el contenido del artículo sobre el rendimiento del descifrado de contraseñas."
 coverCaption: ""
 ---

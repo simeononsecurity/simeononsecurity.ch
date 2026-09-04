@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "在这本提高应用程序可移植性、安全性、效率和开发的综合指南中，您将发现 Docker 的强大功能及其对企业转型的益处。"
 tags: ["Docker", "企业转型", "应用程序可移植性", "提高效率", "提高安全性", "简化开发和部署", "软件应用", "集装箱", "生产率", "上市时间"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "蓝鲸发出灯光"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Odkryj najlepsze dystrybucje Linuksa dla graczy, w tym Ubuntu, Zorin OS, Manjaro i SteamOS, i wznieś swoje wrażenia z grania na Linuksie na nowy poziom."
 tags: ["Dystrybucje Linuksa dla graczy", "Ubuntu dla graczy", "Zorin OS gaming", "Manjaro gaming", "SteamOS w grach", "Wydajność systemu Linux w grach", "Obsługa gier w systemie Linux", "Społeczność graczy Linuksa", "Ubuntu w grach", "Interfejs gier Zorin OS", "Manjaro skoncentrowane na grach", "SteamOS - system operacyjny dla graczy", "Pop!_OS dla gier", "Wsparcie dla gier Fedora", "Wydajność w grach Solus", "Linuksowe dystrybucje dla graczy", "najlepsze dystrybucje Linuksa", "Gry na Linuksa", "Platforma do gier z systemem Linux", "Przewodnik po grach na Linuksa", "Gry na Ubuntu", "Gry na Zorin OS", "Gry na Manjaro", "gry na SteamOS", "Oprogramowanie do gier dla systemu Linux", "Biblioteka gier dla systemu Linux", "Kompatybilność z grami w systemie Linux", "Wsparcie społeczności graczy Linux", "Konfiguracja systemu Linux do gier", "Optymalizacja wydajności systemu Linux w grach", "Wskazówki i porady dotyczące gier na Linuksa"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Ilustracja przedstawiająca gracza zanurzonego w wirtualnym świecie na komputerze z systemem Linux"
 coverCaption: ""
 ---

@@ -44,7 +44,7 @@ Bij het uitvoeren van een poortscan van 1-65535 zult u enkele open poorten zien:
 
 ### De ONT aanpassen
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Nu komt het belangrijke deel, namelijk het veranderen van wat apparaatinformatie om het compatibel te maken met het netwerk van uw ISP.
 

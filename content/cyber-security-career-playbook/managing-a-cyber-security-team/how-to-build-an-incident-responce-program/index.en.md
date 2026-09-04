@@ -6,7 +6,7 @@ date: 2023-07-04
 description: "Learn how to build an effective incident response program to enhance cybersecurity, minimize impacts, and comply with regulations."
 genre: ["cybersecurity", "incident response planning", "data breach prevention", "cyber threat management", "incident handling", "security incident management", "business continuity", "data protection", "incident response strategies", "cybersecurity best practices"]
 tags: ["incident response program", "building incident response plan", "cybersecurity incident response", "incident handling procedures", "data breach response", "cyber incident management", "business continuity planning", "data protection strategies", "cyber threat detection", "incident response tools", "security incident analysis", "cybersecurity policy", "communication strategy", "incident documentation", "cybersecurity training", "incident detection", "containment and eradication", "post-incident activities", "incident response examples", "NIST incident response guide", "cybersecurity regulations", "IBM Cost of Data Breach Report", "customer data protection", "investor confidence", "cybersecurity frameworks", "security incident management handbook", "incident response team", "incident response phases", "incident response best practices", "cybersecurity risk assessment", "cyber incident triage matrix"]
-cover: "/img/cover/An_animated_illustration_of_a_shield_protecting_a_network.png"
+cover: "/img/cover/An_animated_illustration_of_a_shield_protecting_a_network.webp"
 coverAlt: "An animated illustration of a shield protecting a network from cyber threats."
 coverCaption: "Defend and Protect: Building an Incident Response Program for Cybersecurity."
 ---

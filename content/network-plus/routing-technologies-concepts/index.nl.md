@@ -6,7 +6,7 @@ draft: false
 description: "Verken de wereld van routeringstechnologieën en -concepten, van dynamische routeringsprotocollen zoals RIP, OSPF, EIGRP en BGP tot link state, afstandsvector en hybride routeringsprotocollen, evenals de configuratie van statische routering en standaardroutes."
 genre: ["Technologie", "Netwerken", "Routing", "Netwerkprotocollen", "Netwerkbeheer", "Dynamisch routeren", "Statisch routeren", "Beheer bandbreedte", "Kwaliteit van service", "Netwerkapparaten"]
 tags: ["routeringstechnologieën", "dynamische routeringsprotocollen", "RIP", "OSPF", "EIGRP", "BGP", "verbindingsstatus", "afstandsvector", "hybride routeringsprotocollen", "statische routing", "standaard routes", "administratieve afstand", "buitenrouting", "interne routering", "tijd om te leven", "bandbreedtebeheer", "vormgeving van verkeer", "kwaliteit van dienstverlening", "netwerkapparaten", "routers", "schakelaars", "firewalls", "loadbalancers", "toegangspunten", "netwerkoptimalisatie", "netwerkprestaties", "netwerkbeveiliging", "netwerkarchitectuur", "netwerkverkeer"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Een afbeelding van onderling verbonden netwerkapparaten waartussen gegevens stromen."
 coverCaption: "Navigeren op de digitale snelweg: Netwerkroutering optimaliseren voor topprestaties"
 ---

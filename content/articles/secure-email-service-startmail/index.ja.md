@@ -6,12 +6,12 @@ draft: false
 description: "StartMailは、高度な暗号化と電子メールのマスキングを備えたセキュアな電子メールサービスです。"
 genre: ["サイバーセキュリティ", "プライバシー", "メールサービス", "オンライン・セキュリティ", "デジタル・プライバシー", "暗号化", "データ保護", "電子メールのプライバシー", "アイデンティティ保護", "オンラインプライバシー"]
 tags: ["安全な電子メール", "メールサービス", "スタートメール", "電子メールのマスキング", "プライバシー", "暗号化", "サイバーセキュリティ", "データ保護", "オンライン・セキュリティ", "アイデンティティ保護", "オンラインプライバシー", "メールセキュリティ", "安全な通信", "電子メールエイリアス", "エンド・ツー・エンドの暗号化", "SMIME暗号化", "二要素認証", "データ暗号化", "電子メールのプライバシー", "デジタル・プライバシー", "メール・セキュリティ・サービス", "プライバシー重視", "安全なデータ保管", "フィッシング対策", "スパム対策", "オプセック", "コンテナ化", "オンライン・アイデンティティ保護", "デジタル・コミュニケーション", "データ漏洩防止"]
-cover: "/img/cover/secure_email_guard.png"
+cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "盾に守られたロックされたEメールの封筒を象徴的に描いたイラスト、"
 coverCaption: "StartMailでデジタルプライバシーを守る。"
 ---
 
-{{< figure src="startmail_logo.png" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
 
 ## スタートメールとは
 
@@ -47,25 +47,25 @@ StartMailを始めるには、以下のサイトをご覧ください。 [offici
 
 ### 2.**マスクされた電子メールエイリアスを作成する**。
 
-{{< figure src="startmail_pictured_alias.png" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
 
 StartMailアカウントを取得したら、設定セクションに移動します。ここに、**マスクされた電子メールエイリアス**を作成するオプションがあります。あなたのエイリアスのためのユニークな名前を選択し、ウェブサイトやサービスでメールアドレスを提供する必要があるときはいつでも、プライマリ電子メールの代わりに、このマスクされたエイリアスを使用します。
 
 ### 3.**メール転送
 
-{{< figure src="startmail_international.png" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
 
 誰かがあなたのマスクされたエイリアスに電子メールを送信すると、StartMailは自動的にあなたの実際の電子メール受信トレイに転送します。こうすることで、実際のメールアドレスを明かすことなく、すべての通信を追跡することができます。
 
 ### 4.**エイリアスの管理
 
-{{< figure src="startmail_emailmasking.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
 
 StartMailでは、エイリアスを効果的に管理することができます。スパムを受信しすぎている場合はエイリアスを削除でき、必要な場合はいつでも新しいエイリアスを作成できます。この柔軟性により、メールコミュニケーションをよりよく管理できます。
 
 ### 5.**安全なコミュニケーション
 
-{{< figure src="startmail_pictured_encryption.png" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
 
 StartMailのエンドツーエンドの暗号化により、マスクされたエイリアスを介して行われるすべての通信は安全かつプライベートです。たとえ傍受されたとしても、電子メールの内容は暗号化されたままであり、権限のないエンティティが情報を解読することは不可能です。
 
@@ -91,7 +91,7 @@ ______
 
 ## StartMail を使用して電子メールマスキングによるハッキングを防ぐ方法
 
-{{< figure src="startmail_masking2.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
 
 StartMailの電子メールマスキング**機能を使用すると、オンラインアイデンティティに追加の保護レイヤーが追加されるだけでなく、ウェブ全体の追跡を防止し、データ侵害にわたってアカウントを関連付けることがより困難になります。電子メールのマスキングによって達成されるコンテナ化は、StartMail が得意とする運用セキュリティ (OPSEC) の強力な実践です。
 

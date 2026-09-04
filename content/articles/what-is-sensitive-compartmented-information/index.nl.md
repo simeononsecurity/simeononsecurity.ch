@@ -6,7 +6,7 @@ draft: false
 description: "Het belang, de classificatieniveaus, de verwerking en de regelgeving van Sensitive Compartmented Information (SCI) voor nationale veiligheidsdoeleinden onderzoeken."
 genre: ["Informatiebeveiliging", "Nationale Veiligheid", "Intelligentie", "Geclassificeerde informatie", "Overheidsvoorschriften", "Toegangscontrole", "Veiligheidsmachtigingen", "Inlichtingendiensten", "Defensie-industrie", "Inlichtingenoperaties"]
 tags: ["Gevoelige gecompartimenteerde informatie", "SCI", "gerubriceerde informatie", "nationale veiligheid", "inlichtingenbronnen", "inlichtingenoperaties", "toegangscontroles", "veiligheidsmachtigingen", "overheidsvoorschriften", "informatiebeveiliging", "verwerking van gerubriceerde informatie", "behandelingsvereisten", "richtlijnen van de inlichtingendienst", "Director of National Intelligence Veiligheidshandboek", "Bedieningshandleiding voor het nationale industriële veiligheidsprogramma", "inlichtingendienst", "defensie-industrie", "veiligheidsmaatregelen", "naleving", "veiligheidsprocedures", "inlichtingenactiviteiten", "contraspionage", "beslissingen in buitenlands beleid", "bedreigingen", "vertrouwelijkheid van informatie", "informatie-integriteit", "beschikbaarheid van informatie", "ODNI", "DCSA", "voorschriften", "toezicht"]
-cover: "/img/cover/An_image_representing_sci.png"
+cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Een afbeelding van Sensitive Compartmented Information (SCI) met een schild als symbool voor veiligheid, een slot als symbool voor vertrouwelijkheid en een wereldbol als symbool voor nationale veiligheid."
 coverCaption: "De nationale veiligheid beschermen door een veilige omgang met gevoelige informatie (SCI)."
 ---

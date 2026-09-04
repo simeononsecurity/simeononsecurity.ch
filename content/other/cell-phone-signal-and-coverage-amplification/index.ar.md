@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 ال [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) إنها تساعد فقط إذا كان لديك تغطية جيدة أو قابلة للاستخدام في نافذة أو بالقرب منها وليس في منطقة أخرى من المنزل. يعمل بشكل أفضل إذا كنت بحاجة فقط إلى نشر التغطية من خلال المسكن بشكل متساوٍ.
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 ال [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) تتطلب الخيارات بعض التثبيت. إنها تتطلب منك تثبيت عمود وقضيب تأريض ومانع إضاءة ومضخم وهوائي داخلي واحد أو أكثر. إنها تقدم أفضل إشارة ممكنة ولكنها لن تعمل إذا لم تكن هناك إشارة في منطقتك على الإطلاق. يبلغ متوسط الكسب الإضافي حوالي 60 ديسيبل ولكن يمكن أن يصل إلى 100 ديسيبل. يعد هذا بالتأكيد أفضل حل دائم حيث ستحصل على أكبر قدر ممكن من تحسين الإشارة بالإضافة إلى الدعم لجميع شركات الاتصالات في نفس الوقت.
 

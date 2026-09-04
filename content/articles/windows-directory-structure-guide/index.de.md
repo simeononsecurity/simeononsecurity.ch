@@ -6,7 +6,7 @@ draft: false
 description: "Erkunden Sie die Windows-Verzeichnisstruktur und lernen Sie, wie Sie Dateien effizient verwalten und durch das hierarchische System navigieren können."
 genre: ["Windows-Verzeichnisstruktur", "Windows-Dateiverwaltung", "Navigieren in Verzeichnissen", "Organisation von Dateien", "Windows-Dateipfade", "Windows-Systemordner", "Benutzerverzeichnis", "Verzeichnis Program Files", "Windows-Stammverzeichnis", "Verzeichnis der temporären Dateien"]
 tags: ["Verzeichnisstruktur in Windows", "Windows-Verzeichnisstruktur", "Dateiverwaltung", "Dateiorganisation", "Dateipfade", "Hauptverzeichnis", "Systemverzeichnis", "Benutzerverzeichnis", "Programmdateiverzeichnis", "Windows-Verzeichnisnavigation", "Datei-Suchmaschine", "Eingabeaufforderung", "absoluter Dateipfad", "relativer Dateipfad", "Windows-Dateisystem", "Windows-Dateiverwaltung", "Dateizugriff", "Betrieb des Systems", "Datei-Suchmaschine", "Windows-Befehle", "Windows-Dateipfade", "effizientes Dateimanagement", "Fensterorganisation", "Verzeichnis für temporäre Dateien", "Windows-Dateistruktur", "Windows-Betriebssystem", "Windows-Benutzerprofilordner", "Systemdateien", "Windows-Systemressourcen"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "Ein Bild, das eine baumartige Struktur darstellt, die das Windows-Verzeichnissystem repräsentiert."
 coverCaption: "Verwalten Sie Ihre Dateien effizient mit der Windows-Verzeichnisstruktur."
 ---

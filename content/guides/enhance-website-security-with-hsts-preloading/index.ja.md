@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "ChromeとFirefoxにHSTS設定をプリロードすることで、Webサイトのセキュリティとユーザーの信頼を向上させる方法をご紹介します。シームレスな実装のためのステップバイステップガイドに従ってください。"
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "セキュリティの強化やサイバー脅威からの保護を表す、ロックで守られたウェブサイトの漫画風イラスト。"
 coverCaption: "ウェブサイトの防御を強化し、HSTSプリロードを採用しましょう。"
 ---

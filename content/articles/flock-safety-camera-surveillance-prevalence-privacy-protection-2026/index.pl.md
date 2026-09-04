@@ -87,7 +87,7 @@ Flagowym produktem firmy jest **kamera Flock Safety Falcon** — zasilane energi
 
 Kamery Flock rejestrują więcej niż tylko numery tablic. Zapisują markę, model, kolor, typ nadwozia i charakterystyczne cechy każdego przejeżdżającego pojazdu. Firma nazywa te dane „odciskami palców" pojazdu. Oznacza to, że każda Twoja podróż jest katalogowana, nawet jeśli nic złego nie zrobiłeś.
 
-{{< figure src="deflock-lpr-demo.png" alt="Kamera ALPR Flock Safety zamontowana na słupie, demonstrująca jak technologia rejestruje tablice rejestracyjne" caption="Typowa instalacja kamery ALPR. Źródło zdjęcia: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="Kamera ALPR Flock Safety zamontowana na słupie, demonstrująca jak technologia rejestruje tablice rejestracyjne" caption="Typowa instalacja kamery ALPR. Źródło zdjęcia: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Jak działa technologia ALPR
 
@@ -200,7 +200,7 @@ Powszechne wdrożenie inwigilacji ALPR rodzi poważne **obawy dotyczące Czwarte
 
 To, co zaczęło się jako narzędzie do **rozwiązywania przestępstw majątkowych**, znacznie rozszerzyło swój zakres. Nie są to hipotetyczne ryzyka. To udokumentowane wzorce.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="Nagłówek kampanii ACLU Get The Flock Out pokazujący kolaż kamer ALPR" caption="Kampania ACLU 'Get The Flock Out' udokumentowała powszechne nadużycia systemów ALPR. Źródło zdjęcia: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Nagłówek kampanii ACLU Get The Flock Out pokazujący kolaż kamer ALPR" caption="Kampania ACLU 'Get The Flock Out' udokumentowała powszechne nadużycia systemów ALPR. Źródło zdjęcia: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE i egzekwowanie przepisów imigracyjnych
 **ICE używał Flock do lokalizowania i ścigania nielegalnych imigrantów bez nakazów.** Ogólnokrajowa sieć platformy daje federalnym służbom imigracyjnym narzędzie do śledzenia osób w różnych jurysdykcjach bez żadnej indywidualnej podstawy do podejrzeń. Wiele społeczności, które sfinansowały sieci Flock w celu odzyskiwania skradzionych pojazdów, odkryło, że ich kamery są częścią federalnych operacji egzekwowania prawa imigracyjnego.

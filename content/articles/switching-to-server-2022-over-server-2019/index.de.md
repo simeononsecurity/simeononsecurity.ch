@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die verbesserten Sicherheitsfunktionen, Verwaltungs- und Automatisierungsmöglichkeiten sowie die Leistung und Skalierbarkeit von Windows Server 2022, die ihn zur besten Wahl für Unternehmen machen, die ein Upgrade von Windows Server 2019 durchführen möchten."
 tags: ["Windows Server 2022", "Upgrade", "Business", "Sicherheit", "Management", "Automatisierung", "Leistung", "Skalierbarkeit", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "Ein Bild von einem Serverraum mit Reihen von Servern, auf denen Windows Server 2022 läuft. Die Server sollten übersichtlich angeordnet und gut beleuchtet sein, was auf eine gut gewartete und effiziente IT-Infrastruktur hindeutet."
 coverCaption: ""
 ---

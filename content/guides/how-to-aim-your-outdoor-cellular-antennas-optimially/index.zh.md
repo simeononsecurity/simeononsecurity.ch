@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "了解如何指向和瞄准定向蜂窝天线以获得最佳信号强度和可靠性，包括定位蜂窝塔和了解菲涅耳区。"
 tags: ["蜂窝天线", "定向天线", "手机助推器", "蜂窝调制解调器", "信号强度", "手机信号塔", "无线电视线", "视觉视线", "菲涅耳区", "天线瞄准", "优化信号", "蜂窝连接", "提高信号强度", "增强细胞信号", "蜂窝信号增强器", "手机信号塔位置", "天线安装", "信号传播", "无线通信", "改善网络覆盖", "指向指南", "瞄准技术", "蜂窝天线优化", "信号可靠性", "网络性能", "蜂窝信号增强", "天线对准", "信号优化技巧", "蜂窝天线放置", "信号增强策略", "天线指向说明"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "一个人将定向蜂窝天线对准信号波传播的蜂窝塔的插图。"
 coverCaption: ""
 ---

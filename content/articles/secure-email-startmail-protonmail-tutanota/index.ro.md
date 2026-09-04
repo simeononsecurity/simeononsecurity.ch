@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți cel mai bun serviciu de e-mail securizat! O comparație detaliată între StartMail, ProtonMail și Tutanota, care vă asigură confidențialitatea online"
 genre: ["Tehnologie", "Securitatea cibernetică", "Confidențialitatea datelor", "Servicii de e-mail", "Securitate online", "Criptare", "Instrumente de internet", "Comparație", "Protecție digitală", "Confidențialitatea online"]
 tags: ["StartMail", "ProtonMail", "Tutanota", "Email securizat", "Confidențialitatea e-mailurilor", "Securitate e-mail", "Mesagerie securizată", "Criptare end-to-end", "PFS", "Criptare cu acces zero", "Protecția datelor", "Securitatea cibernetică", "Confidențialitatea online", "Servicii de criptare", "Instrumente de confidențialitate", "Securitate online", "Confidențialitatea utilizatorului", "Comunicații securizate", "Furnizori de e-mail", "Servicii de e-mail securizate", "E-mail securizat ușor de utilizat", "Înregistrare anonimă", "Mesaje care se autodistrug", "Integrarea domeniului personalizat", "Conformitatea GDPR", "Protecția datelor în Elveția", "Protecția datelor în Germania", "Recuperare sigură a parolei", "Soluții de confidențialitate online", "Servicii de criptare a datelor"]
-cover: "/img/cover/secure-email-showdown.png"
+cover: "/img/cover/secure-email-showdown.webp"
 coverAlt: "O ilustrație colorată de desene animate care prezintă trei plicuri cu lacăte, fiecare reprezentând StartMail, ProtonMail și Tutanota, pe fundalul unui scut de securitate."
 coverCaption: "Alege-ți tutorele: O căutare de e-mail securizată!"
 ---

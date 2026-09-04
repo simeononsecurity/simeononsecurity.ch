@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the top 5 cybersecurity certifications that can help you advance your career and increase your chances of landing a job in the fast-growing field of cybersecurity."
 tags: [ "Cybersecurity", "Certifications", "CompTIA Security Plus", "CISSP", "Offensive Security OSCP", "Cisco CCNA", "(ISC2) CCSP", "IT Security", "Network Security", "Cloud Security", "Professional Development", "Career Advancement", "Skills Validation", "Information Security", "Ethical Hacking", "Penetration Testing", "Network Administration", "Cloud Computing", "Security Management", "Vulnerability Assessment"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "An image of a person standing in front of a computer with a superhero cape on their back, symbolizing the skills and knowledge that can be gained through obtaining cybersecurity certifications."
 coverCaption: ""
 ---

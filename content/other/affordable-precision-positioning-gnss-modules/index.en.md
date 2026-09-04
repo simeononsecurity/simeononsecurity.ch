@@ -6,7 +6,7 @@ draft: false
 description: "Discover how UM980 and UM982 GNSS modules offer budget-friendly, high-precision positioning for a range of applications. Unleash precision without breaking the bank."
 genre: ["GNSS Technology", "Navigation Modules", "Budget-Friendly GNSS", "High-Precision GPS", "Satellite Navigation", "Unicore Communications", "Multi-Constellation GNSS", "Positioning Solutions", "Compact GNSS Modules", "GNSS Performance"]
 tags:  ["GNSS modules", "UM980", "UM982", "budget-friendly GNSS", "high-precision positioning", "satellite navigation", "Unicore Communications", "multi-constellation GNSS", "positioning solutions", "compact GNSS modules", "GNSS performance", "GPS technology", "affordable navigation", "satellite-based navigation", "dual-antenna heading solution", "GNSS receivers", "RTK technology", "cost-effective GNSS", "GNSS accuracy", "GNSS applications", "GNSS technology", "precision agriculture", "UAVs", "surveying", "autonomous robots", "GPS receivers", "GNSS solutions", "GNSS performance", "GNSS integration", "high-performance GNSS", "versatile interfaces", "satellite positioning"]
-cover: "/img/cover/GNSS-Precision-Positioning-Module.png"
+cover: "/img/cover/GNSS-Precision-Positioning-Module.webp"
 coverAlt: " A GPS receiver module delivering precision positioning."
 coverCaption: "Precision and Affordability in GNSS Solutions"
 ref: ["/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
@@ -66,7 +66,7 @@ ______
 
 The UM980 and UM982 modules from Unicore Communications offer an impressive blend of high performance and a budget-friendly price tag. 
 
-{{< figure src="um980-um982-products.jpeg" alt="GNSS.STORE UM980 and UM982 Based Products" link="https://gnss.store/59-unicore-gnss-modules" >}}
+{{< figure src="um980-um982-products.webp" alt="GNSS.STORE UM980 and UM982 Based Products" link="https://gnss.store/59-unicore-gnss-modules" >}}
 
 Below, we've linked a few different product offerings from [gnss.store](https://gnss.store/) sorted by UM980 vs UM982 and with the different form factors and interfaces listed in tables.
 

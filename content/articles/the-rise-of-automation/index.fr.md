@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez l'évolution de la technologie de l'automatisation, les industries qui l'adoptent et son impact sur les possibilités d'emploi."
 genre: ["Technologie de l'automatisation", "Révolution industrielle", "Progrès technologiques", "Intelligence artificielle", "Apprentissage automatique", "Fabrication", "Soins de santé", "Transport", "Vente au détail", "Agriculture"]
 tags: ["technologie de l'automatisation", "secteurs d'activité", "opportunités d'emploi", "l'évolution", "intelligence artificielle", "apprentissage automatique", "fabrication", "soins de santé", "le transport", "Véhicules auto-conduits", "commerce de détail", "Commerce électronique", "l'agriculture", "agriculture intelligente", "impact sur le marché du travail", "déplacement d'emploi", "compétences techniques", "requalification", "requalification", "initiatives en matière d'éducation", "Programmes STEM", "politiques gouvernementales", "règlements", "revenu de base universel", "programmes de reconversion professionnelle", "confidentialité des données", "la sécurité des données", "fracture numérique", "considérations éthiques"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Une image animée représentant diverses industries et technologies interconnectées."
 coverCaption: "Adoptez l'avenir automatisé avec optimisme et adaptabilité."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Verken de Windows mappenstructuur en leer hoe je bestanden efficiënt beheert en door het hiërarchische systeem navigeert."
 genre: ["Windows mappenstructuur", "Windows bestandsbeheer", "Navigeren door mappen", "Bestandsorganisatie", "Windows bestandspaden", "Windows systeemmappen", "Gebruikersmap", "Map Program Files", "Windows hoofdmap", "Map met tijdelijke bestanden"]
 tags: ["mappenstructuur in windows", "Windows mappenstructuur", "bestandsbeheer", "bestandsorganisatie", "bestandspaden", "hoofdmap", "systeemmap", "gebruikersmap", "map programmabestanden", "Windows mapnavigatie", "bestandsverkenner", "opdrachtprompt", "absoluut bestandspad", "relatief bestandspad", "Windows-bestandssysteem", "Windows bestandsbeheer", "bestandstoegang", "systeembesturing", "hulpmiddel voor bestandsverkenner", "Windows-opdrachten", "Windows bestandspaden", "efficiënt bestandsbeheer", "windows organisatie", "map met tijdelijke bestanden", "Windows bestandsstructuur", "Windows-besturingssysteem", "Windows map met gebruikersprofielen", "systeembestanden", "Windows systeembronnen"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "Een afbeelding van een boomstructuur die het Windows mappensysteem voorstelt."
 coverCaption: "Beheer je bestanden efficiënt met de Windows mappenstructuur."
 ---

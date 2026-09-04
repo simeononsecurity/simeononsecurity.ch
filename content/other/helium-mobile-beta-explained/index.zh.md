@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Helium Mobile Beta 如何通过其去中心化网络改变移动连接，确保用户的安全性、可靠性和可负担性。"
 tags: ["氦移动测试版", "去中心化网络", "移动连接", "安全的", "可靠的", "负担得起的计划", "氦热点", "氦区块链", "测试程序", "无线网络", "蜂窝网络", "手机运营商", "创新", "技术", "网络扩张", "用户反馈", "行业颠覆", "Helium 移动兼容设备", "应用", "新兴技术"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "生动的插图展示了带有 Helium Mobile 品牌的互连设备网络，象征着移动连接的创新和去中心化方法。"
 coverCaption: ""
 ---

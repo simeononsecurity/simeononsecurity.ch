@@ -6,7 +6,7 @@ draft: false
 description: "Discover the significance of GDPR in safeguarding personal data. Explore its principles, rights, and business impact."
 genre: ["Cybersecurity", "Data Privacy", "Regulations", "Compliance", "Technology", "Business", "EU Law", "Online Privacy", "Digital Rights", "Data Protection"]
 tags: ["GDPR overview", "Data privacy", "EU regulations", "Personal data protection", "GDPR compliance", "Individual rights", "Business impact", "Cybersecurity", "Data handling", "Data security", "Privacy rights", "Transparency", "Accountability", "Data processing", "Data storage", "Data breaches", "Data rights", "Legal framework", "Data governance", "Data collection", "Data minimization", "Individual empowerment", "Data rights", "Data transfer", "Data deletion", "Supervisory authorities", "Data protection officer", "EU citizens", "Global data regulations", "Data privacy practices"]
-cover: "/img/cover/GDPR_Data_Vault_Security.png"
+cover: "/img/cover/GDPR_Data_Vault_Security.webp"
 coverAlt: "A symbolic illustration of a locked data vault with a keyhole, representing GDPR's role in safeguarding personal information."
 coverCaption: "helping Privacy, Guarding Data: GDPR Unveiled"
 ---

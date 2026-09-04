@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj ukryty świat dark web i jego powiązania z cyberprzestępczością, jednocześnie odkrywając jego dwoistą naturę i potencjał dla dziennikarstwa i whistleblowingu."
 tags: ["ciemna sieć", "cyberprzestępczość", "nielegalne działania", "Tor", "hakowanie", "oszustwo", "kradzież tożsamości", "dziennikarstwo", "whistleblowing", "bezpieczeństwo online", "dane osobowe", "naruszenia danych", "prywatność online", "regulacje rządowe", "cyberbezpieczeństwo", "zapobieganie przestępczości", "anonimowe przeglądanie", "anonimowość online", "zagrożenia online", "bezpieczeństwo cyfrowe"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Ilustracja tarczy cyfrowej chroniącej komputer przed zagrożeniami dark web i cyberprzestępczością."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the power of hands-on cybersecurity projects to develop practical skills and protect against cyber threats."
 tags: ["cybersecurity", "hands-on projects", "skill development", "practical experience", "network security", "web application security", "network traffic analysis", "home lab", "virtualization", "operating systems", "vulnerability assessment", "penetration testing", "web vulnerabilities", "OWASP Juice Shop", "Damn Vulnerable Web Application", "Wireshark", "Metasploit", "Nessus", "Burp Suite", "OWASP ZAP", "network protocols", "packet analysis", "incident response", "continuous learning", "cyber threats", "practical skills", "cybersecurity expertise", "latest techniques", "security measures", "secure coding", "incident detection"]
-cover: "/img/cover/An_animated_hacker_standing_in_front_of_a_laptop_analyzing.png"
+cover: "/img/cover/An_animated_hacker_standing_in_front_of_a_laptop_analyzing.webp"
 coverAlt: "An animated hacker standing in front of a laptop, analyzing network traffic and holding a magnifying glass to symbolize cybersecurity investigation and analysis."
 coverCaption: "Unleash your cybersecurity potential and secure the digital world!"
 ---

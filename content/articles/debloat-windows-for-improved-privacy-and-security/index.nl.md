@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Blijf veilig online: Leer het belang van Windows Hardening en Debloating voor betere beveiliging en privacy..."
 tags: ["Windows Hardening", "Windows Debloating", "Verbeterde veiligheid", "Privacy", "Cyberaanvallen", "Beveiliging van het besturingssysteem", "Windows Besturingssysteem", "Privacy van gegevens", "Cyber crimineel", "Aanvalsoppervlak", "Kwetsbaarheden", "Beveiligingsupdates", "Authenticatiemechanismen", "Ongewenste software", "Prestatieverbetering", "Gegevensverzameling", "Authenticatie met twee factoren", "Anti-Virus Software", "Anti-Malware Software", "Gevoelige informatie", "Uitgebreide gids"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Een afbeelding van een vergrendeld hangslot bovenop een computer of laptopscherm, als symbool voor de beveiligingsmaatregelen die kunnen worden genomen door middel van Windows hardening en debloating."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum să utilizați eficient Nmap pentru scanarea rețelei, scanarea porturilor, detectarea serviciilor și identificarea sistemului de operare pentru a evalua securitatea rețelei."
 tags: ["nmap", "scanarea rețelei", "evaluarea securității", "scanarea porturilor", "detectarea serviciilor", "detectarea sistemului de operare", "Motorul de scripting Nmap", "hacking etic", "securitatea rețelei", "infrastructura de rețea", "detectarea vulnerabilităților", "ping scanare", "Scanare TCP SYN", "permisiunea", "legalitate", "impactul rețelei", "scanare orientată", "protecția datelor", "CFAA", "GDPR", "cartografierea rețelei", "recunoașterea rețelei", "instrumente de securitate a rețelei", "securitate cibernetică", "instrument open-source", "instrument de linie de comandă", "descoperirea gazdei", "informații despre rețea", "colectarea de informații", "vulnerabilitățile rețelei", "mediu de rețea securizat"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Conceptul de securitate a rețelelor cu instrumentele de scanare Nmap într-un stil animat 3D."
 coverCaption: ""
 ---

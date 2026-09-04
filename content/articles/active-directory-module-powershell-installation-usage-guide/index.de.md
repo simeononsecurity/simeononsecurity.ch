@@ -6,7 +6,7 @@ draft: false
 description: "Erfahren Sie, wie Sie das Active Directory-Modul für PowerShell effektiv installieren und verwenden, um Ihre Windows Active Directory-Verwaltungsaufgaben zu rationalisieren."
 genre: ["Technologie", "Windows", "PowerShell", "Aktives Verzeichnis", "Verwaltung", "Skripting", "IT", "Automatisierung", "Windows-Server", "Microsoft"]
 tags: ["Active Directory-Modul für PowerShell", "Importmodul aktives Verzeichnis in PowerShell", "Active Directory-Modul für Windows PowerShell", "Active Directory PowerShell-Installation", "Active Directory PowerShell installieren", "PowerShell installieren Active Directory-Modul Windows 10", "Active Directory PowerShell-Modul installieren Windows 10", "get active directory PowerShell-Modul", "AD-Verwaltung", "Windows Active Directory", "PowerShell-Cmdlets", "Abrufen von AD-Informationen", "AD-Objekte erstellen", "AD-Objekte ändern", "AD-Sicherheit verwalten", "AD-Benutzerverwaltung", "AD-Gruppenverwaltung", "AD ODER Management", "PowerShell-Skripterstellung", "Verwaltung von Windows Server", "Microsoft PowerShell", "AD-Aufgaben automatisieren", "Installation des PowerShell-Moduls", "AD-Verwaltungshandbuch", "Active Directory-Verwaltung", "AD-Sicherheitsmanagement", "PowerShell-Automatisierung", "Active Directory PowerShell-Befehle", "PowerShell Cmdlet-Referenz"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "Ein Bild, das ein Netzwerk aus miteinander verbundenen Servern und Benutzersymbolen darstellt und die Verwaltung und Automatisierung von Active Directory symbolisiert."
 coverCaption: "Erschließen Sie die Möglichkeiten der Active Directory-Verwaltung mit PowerShell."
 ---

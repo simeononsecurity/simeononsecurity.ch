@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Uma comparação abrangente de Unraid e TrueNas, incluindo sua facilidade de uso, recursos, documentação e comunidade, para ajudar os usuários a tomar uma decisão informada sobre qual sistema operacional NAS é melhor para suas necessidades."
 tags: ["não atacado", "TrueNAS", "Sistema operacional NAS", "Comparação", "Facilidade de uso", "Características", "Documentação", "Comunidade", "Código aberto", "Empreendimento", "Proteção de dados", "Desempenho", "Flexibilidade", "Fácil de usar", "Aplicativos de terceiros", "Armazenamento conectado à rede", "Tecnologia RAID", "Gerenciamento de armazenamento", "OpenZFS", "Usuários domésticos", "Modelo de preços", "Armazenamento na núvem", "virtualização", "Central de Documentação", "Fórum da Comunidade", "Proteção Avançada de Dados", "SO NAS maduro", "Especialização Técnica", "Profissionais de TI"]
-cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
+cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
 coverAlt: "Dois servidores um de frente para o outro, um azul e outro verde. No lado azul, uma pessoa está usando um capacete e colete de segurança. Do lado verde uma pessoa sentada no sofá."
 coverCaption: ""
 ---

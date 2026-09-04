@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erforschen Sie die verborgene Welt des Dark Web und seine Verbindung zur Cyberkriminalität, und decken Sie gleichzeitig seine doppelte Natur und sein Potenzial für Journalismus und Whistleblowing auf."
 tags: ["dunkles Internet", "Internetkriminalität", "illegale Aktivitäten", "Tor", "Hacken", "Betrug", "Identitätsdiebstahl", "journalism", "Whistleblowing", "Online-Sicherheit", "persönliche Daten", "Datenschutzverletzungen", "Online-Datenschutz", "staatliche Vorschriften", "Cybersicherheit", "Verbrechensverhütung", "anonymes Surfen", "Online-Anonymität", "Online-Bedrohungen", "digitale Sicherheit"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Eine Illustration eines digitalen Schutzschilds, das einen Computer vor Bedrohungen aus dem Dark Web und der Cyberkriminalität schützt."
 coverCaption: ""
 ---

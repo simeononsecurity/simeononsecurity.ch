@@ -6,7 +6,7 @@ draft: false
 description: "Discover diverse IT career paths, acquire essential skills, and find growth opportunities to starting a successful journey in the digital age."
 genre: ["IT careers", "Career paths", "Skills development", "Qualifications", "Growth opportunities", "Technology industry", "Cybersecurity", "Software development", "Data science", "Cloud computing"]
 tags: ["IT careers", "career paths", "opportunities", "skills development", "qualifications", "growth opportunities", "technology industry", "cybersecurity", "software development", "data science", "cloud computing", "digital transformation", "information technology", "cyber threats", "programming languages", "data analysis", "cloud infrastructure", "cloud services", "project management", "ethical hacking", "security analysts", "data visualization", "machine learning", "virtualization technologies", "containerization", "cloud providers", "IT professionals", "technology companies"]
-cover: "/img/cover/An_illustration_featuring_a_group_of_diverse_p.png"
+cover: "/img/cover/An_illustration_featuring_a_group_of_diverse_p.webp"
 coverAlt: "An illustration featuring a group of diverse professionals in a technology-themed setting, collaborating and working with computers and futuristic gadgets."
 coverCaption: "Embrace the Future: Unleash Your Potential in IT Careers."
 ---

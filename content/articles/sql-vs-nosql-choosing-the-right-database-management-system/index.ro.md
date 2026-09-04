@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți principalele diferențe dintre bazele de date SQL și NoSQL și luați o decizie în cunoștință de cauză cu privire la cel mai bun sistem de gestionare a bazelor de date pentru nevoile dumneavoastră."
 tags: ["sistem de gestionare a bazelor de date", "SQL vs NoSQL", "Baze de date SQL", "Baze de date NoSQL", "Conformitatea ACID", "model de date", "scalabilitate", "limbaj de interogare", "performanță", "evoluția schemelor", "date structurate", "date nestructurate", "integritatea datelor", "scalabilitate orizontală", "Limbajul de interogare SQL", "MongoDB", "baze de date de documente", "depozite de tip cheie-valoare", "baze de date columnare", "baze de date grafice", "gestionarea datelor", "structura datelor", "interogări analitice", "modelarea datelor", "scheme flexibile", "randament ridicat de citire", "debit de scriere ridicat", "operațiuni complexe de îmbinare", "dezvoltare agilă"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "O imagine reprezentând o piesă de puzzle care reprezintă datele introduse într-o bază de date, simbolizând procesul de luare a deciziilor privind alegerea sistemului de gestionare a bazelor de date potrivit."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Restez informé de l'évolution du paysage de la cybersécurité, des nouvelles menaces et des contre-mesures efficaces pour se protéger contre les cyberattaques."
 genre: ["Menaces pour la cybersécurité", "Tendances émergentes", "Contre-mesures", "Paysage des cybermenaces", "Risques technologiques", "Violations de données", "Attaques par ransomware", "Techniques d'hameçonnage", "Vulnérabilités de l'IdO", "Menaces internes"]
 tags: ["menaces de cybersécurité", "tendances émergentes", "contre-mesures", "paysage des cybermenaces", "risques technologiques", "violations de données", "attaques de ransomware", "techniques d'hameçonnage", "Vulnérabilités de l'IdO", "menaces d'initiés", "cyberattaques", "sensibilisation à la cybersécurité", "les protocoles de sécurité", "sécurité des réseaux", "protection des données", "intelligence artificielle", "apprentissage automatique", "détection et réponse des points finaux", "évaluations de sécurité", "partage d'informations", "formation des employés", "audits de sécurité", "cyberattaques d'États-nations", "L'IA dans la cybersécurité", "meilleures pratiques en matière de cybersécurité", "culture de la sécurité", "réglementation gouvernementale", "cyber-résilience", "l'informatique quantique", "technologie de la chaîne de blocs (blockchain)"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Un bouclier avec un cadenas représentant la cybersécurité, entouré de dispositifs interconnectés et d'un code binaire"
 coverCaption: "Se défendre contre les cybermenaces grâce à un bouclier de cybersécurité résilient."
 ---

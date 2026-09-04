@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda los conceptos básicos de la ciberseguridad, incluidos los tipos de ciberamenazas, la importancia de la ciberseguridad y los pasos para mejorar la seguridad en línea."
 tags: ["Ciberseguridad", "Ciberamenazas", "Seguridad en línea", "Protección de datos", "Virus", "Malware", "Estafas de phishing", "Hackers", "Seguridad nacional", "Propiedad intelectual", "Privacidad personal"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Una imagen de una persona sentada frente a un ordenador con expresión preocupada mientras en la pantalla aparece un hacker o ciberdelincuente, representando los peligros de las ciberamenazas y la importancia de la ciberseguridad"
 coverCaption: ""
 ---

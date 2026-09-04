@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "リバースエンジニアリングの力でIoTネットワークセキュリティの欠陥を発見し、システム全体のセキュリティを向上させることができます。"
 tags: ["リバースエンジニアリング", "IoTセキュリティ", "脆弱性", "セキュリティプロトコル", "デバイス解析", "IoTネットワーク", "内幕", "悪意あるコード", "暗号化対策", "認証手段", "ファイアウォール", "ソフトウェアアップデート"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "セキュリティ専門家がIoTデバイスの内部構造を調べているイメージで、様々なハードウェア部品や回路基板が見える。"
 coverCaption: ""
 ---

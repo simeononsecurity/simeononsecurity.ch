@@ -6,7 +6,7 @@ draft: false
 description: "Simplificați instalarea Windows 11 în mediile virtualizate prin ocolirea verificărilor TPM, Secure Boot și RAM folosind autounattend.xml și vTPM."
 genre: ["Tehnologie", "Windows 11", "Instalare", "Virtualizare", "Automatizare", "Chei de registru", "Bypass TPM", "Bypassarea Secure Boot", "Bypass RAM", "vTPM"]
 tags: ["Windows 11", "Instalare", "Automatizare", "Virtualizare", "vTPM", "Chei de registru", "Bypass TPM", "Bypassarea Secure Boot", "Bypass RAM", "Autounattend.xml", "VMware vSphere", "Configurarea Windows", "Mediul de preinstalare Windows", "Mașină virtuală", "Soluție de lucru pentru instalarea Windows", "Editor de registru", "Configurarea Microsoft Windows", "Cerințe de sistem", "Securitatea Windows", "Performanța Windows", "Reglementări guvernamentale", "Conformitate NIST", "Microsoft", "Sistemul de operare Windows", "Ocolirea controalelor", "Implementarea Windows", "Automatizare de configurare", "Prompt de comandă", "Tehnică Cum se face", "Instalarea automată a Windows 11", "Configurarea vTPM în VMware vSphere", "Ocoliți cerințele Windows 11"]
-cover: "/img/cover/windows11-installation-cartoon.png"
+cover: "/img/cover/windows11-installation-cartoon.webp"
 coverAlt: " O imagine în stil de desen animat care prezintă o mașină virtuală care instalează Windows 11 într-un mediu virtualizat, cu un profesionist IT zâmbitor care supraveghează procesul."
 coverCaption: "Simplificați instalarea cu zâmbete: Automatizați instalarea Windows 11"
 ---

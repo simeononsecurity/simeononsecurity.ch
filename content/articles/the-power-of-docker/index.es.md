@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra el poder de Docker y sus ventajas para la transformación empresarial en esta completa guía para mejorar la portabilidad, la seguridad, la eficiencia y el desarrollo de aplicaciones."
 tags: ["Docker", "Transformación de la empresa", "Portabilidad de aplicaciones", "Mayor eficacia", "Seguridad mejorada", "Desarrollo e implantación simplificados", "Aplicaciones informáticas", "Contenedores", "Productividad", "Plazo de comercialización"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Una ballena azul que emite luz"
 coverCaption: ""
 ---

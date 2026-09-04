@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "了解如何通过在 Chrome 浏览器和火狐浏览器上预载 HSTS 设置来提高网站安全性和用户信任度。请按照我们的分步指南进行无缝实施。"
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "这是一幅卡通风格的插图，一个网站被一把锁遮挡住，代表着更高的安全性和对网络威胁的防护。"
 coverCaption: "加强网站防御，采用 HSTS 预加载。"
 ---

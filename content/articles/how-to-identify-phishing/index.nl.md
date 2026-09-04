@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u pogingen tot phishing in e-mails, sms'jes en telefoontjes kunt herkennen om uw persoonlijke gegevens veilig te houden."
 tags: ["phishing", "online beveiliging", "e-mailbeveiliging", "cyberbeveiliging", "internetveiligheid", "phishing e-mails", "phishing teksten", "phishing oproepen", "digitale bedreigingen", "identiteitsdiefstal", "gegevensbescherming", "online fraude", "online oplichting", "online privacy", "tips voor online veiligheid", "cybercriminaliteit", "informatiebeveiliging", "wachtwoordbeveiliging", "gegevensbeveiliging", "veiligheidsbewustzijn"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Een afbeelding van een stripfiguur met een superheldenkostuum en een schild die een hengel met een phishingmail erop blokkeert."
 coverCaption: ""
 ---

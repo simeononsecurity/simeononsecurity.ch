@@ -6,7 +6,7 @@ draft: false
 description: "Guadagnare ricompense ecologiche attraverso il mining Spacemesh, un approccio decentralizzato che utilizza l'innovativo algoritmo di consenso PoST."
 genre: ["Estrazione di criptovalute", "Prova dello spazio-tempo", "Premi decentralizzati", "Miniere ecologiche", "Tecnologia Blockchain", "Criptovalute", "Estrazione di criptovalute", "Prova dello spazio", "Decentramento", "Consenso Blockchain"]
 tags: ["Estrazione mineraria Spacemesh", "Prova dello spazio-tempo", "Ecologico", "Decentramento", "Estrazione di criptovalute", "Tecnologia Blockchain", "Maglie", "Prove PoST", "Premi minerari", "Appassionati di criptovalute", "Consenso decentralizzato", "Soluzioni minerarie ecocompatibili", "Premi in criptovaluta", "Sicurezza delle criptovalute", "Prova dello spazio", "Innovazione crittografica", "Rete Blockchain", "Rete Spacemesh", "Processo di meshing", "Efficienza delle criptovalute", "Partecipazione alla criptovaluta", "Scalabilità delle criptovalute", "Incentivi Blockchain", "Software Spacemesh", "Gettoni Spacemesh", "Rete crittografica", "Transazioni in criptovaluta", "Decentralizzazione delle criptovalute", "Sfide di crittografia"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Un'accattivante illustrazione a fumetti di una navicella spaziale alimentata da un razzo che estrae criptovalute nello spazio, a simboleggiare l'innovativo ed ecologico processo di estrazione Spacemesh."
 coverCaption: "Estrazione mineraria verso le stelle! Le ricompense ecologiche di Spacemesh vi aspettano."
 ---

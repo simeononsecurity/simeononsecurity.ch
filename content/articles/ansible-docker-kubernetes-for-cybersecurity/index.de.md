@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von Ansible, Docker und Kubernetes für die Automatisierung von Cybersicherheitsprozessen und die Reduzierung des Risikos von Datenschutzverletzungen."
 tags: ["Ansible", "Docker", "Kubernetes", "Automatisierung der Cybersicherheit", "Bewertungen der Anfälligkeit", "Patch-Verwaltung", "Container-Orchestrierung", "Segmentierung des Netzes", "Rollenbasierte Zugangskontrolle", "Secret Management", "Sicherheitsscans", "Bild signieren", "Automatisierungstools", "IT-Infrastruktur", "Prävention von Datenschutzverletzungen", "Steigerung der Effizienz", "Sicherheitsautomatisierung", "Konfigurationsmanagement", "Bereitstellung von Anwendungen", "Containerisierung", "Container-Sicherheit", "Skalierbare Systeme", "Sichere Umgebungen", "Netzwerksicherheit", "Bewährte Praktiken der Cybersicherheit", "Risikominderung", "Sicherheitsmanagement", "IT-Betrieb", "Effiziente Arbeitsabläufe", "Automatisierung von Sicherheitssystemen", "IT-Effizienz"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "Ein Bild von drei Zahnrädern in den Farben Rot, Blau und Blau, die ineinandergreifen und sich gemeinsam drehen, um ihre Integration und Zusammenarbeit bei der Automatisierung von Cybersicherheitsprozessen zu symbolisieren"
 coverCaption: ""
 ---

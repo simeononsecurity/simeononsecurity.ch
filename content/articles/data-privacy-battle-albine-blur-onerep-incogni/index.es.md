@@ -7,7 +7,7 @@ draft: false
 description: "¡Descubra los mejores servicios de eliminación de datos! Compare Albine DeleteMe, OneRep e Incogni para una protección de privacidad definitiva."
 genre: ["Privacidad de datos", "Seguridad en línea", "Protección de datos", "Soluciones de privacidad", "Prevención de robo de identidad", "Privacidad digital", "Eliminación de información personal", "Corredores de datos", "Eliminación automatizada de datos", "Gestión de privacidad"]
 tags: ["Albine DeleteMe", "OneRep", "Incogni", "Privacidad de datos", "Servicios de eliminación de datos", "Protección de privacidad", "Seguridad en línea", "Robo de identidad", "Corredores de datos", "Eliminación automatizada", "Comparar servicios de privacidad", "Mejores herramientas de protección de privacidad", "Soluciones de eliminación automatizada", "Elegir servicio de eliminación", "Comparación de gestión de privacidad", "OneRep vs DeleteMe", "DeleteMe vs OneRep", "Eliminación de corredores de datos"]
-cover: "/img/cover/data_privacy_warriors.png"
+cover: "/img/cover/data_privacy_warriors.webp"
 coverAlt: "Una obra de arte simbólica con tres guerreros que representan a Albine DeleteMe, OneRep e Incogni en una feroz batalla de privacidad de datos."
 coverCaption: "Elija sabiamente a su campeón de privacidad."
 ---

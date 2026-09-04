@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of OneRep's data removal service in safeguarding your privacy and personal information online."
 genre: ["Technology", "Data Protection", "Online Security", "Privacy Solutions", "Cyber Defense", "Internet Safety", "Personal Information", "Digital Privacy", "Identity Protection", "Data Management"]
 tags: ["OneRep", "Data Removal", "Privacy Service", "Online Privacy", "Personal Information Protection", "Data Security", "Cybersecurity", "Identity Theft", "Online Reputation", "GDPR", "CCPA", "PIPEDA", "Data Removal Service", "Digital Footprint", "Data Broker Websites", "Internet Privacy", "Data Privacy Solutions", "Online Identity Protection", "Data Privacy Measures", "Data Management", "Secure Data Removal Service", "Protect Personal Information Online", "Cybersecurity for Individuals", "Online Privacy Solutions", "Data Removal for Identity Theft", "Safeguarding Personal Data", "Internet Privacy Measures", "Data Privacy Compliance", "Online Reputation Management", "GDPR Compliant Service"]
-cover: "/img/cover/onerep-privacy-shield.png"
+cover: "/img/cover/onerep-privacy-shield.webp"
 coverAlt: "A cartoon illustration of a person holding a shield with a lock, representing OneRep's protection and privacy services."
 coverCaption: "Guard Your Privacy with OneRep's Shield."
 ---

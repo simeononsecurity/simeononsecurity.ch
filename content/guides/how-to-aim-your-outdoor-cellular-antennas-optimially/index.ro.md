@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Aflați cum să îndreptați și să direcționați antena celulară direcțională pentru puterea și fiabilitatea optime a semnalului, inclusiv localizarea turnurilor celulare și înțelegerea zonelor Fresnel."
 tags: ["antenă celulară", "antenă direcțională", "amplificator de telefon mobil", "modem celular", "puterea semnalului", "turnuri celulare", "linia vizuală radio", "linia vizuală a vederii", "Zone Fresnel", "vizarea antenei", "optimiza semnalul", "conectivitate celulară", "îmbunătăți puterea semnalului", "stimularea semnalului celular", "amplificator de semnal celular", "locația turnului celular", "instalarea antenei", "propagarea semnalului", "comunicații fără fir", "acoperire îmbunătățită a rețelei", "ghid de îndreptare", "tehnici de vizare", "optimizarea antenei celulare", "fiabilitatea semnalului", "performanța rețelei", "îmbunătățirea semnalului celular", "alinierea antenei", "sfaturi de optimizare a semnalului", "plasarea antenei celulare", "strategii de amplificare a semnalului", "instrucțiuni de orientare a antenei"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Ilustrația unei persoane care țintește o antenă celulară direcțională către un turn celular cu unde de semnal care se propagă."
 coverCaption: ""
 ---

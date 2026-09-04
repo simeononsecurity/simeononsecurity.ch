@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Uzyskaj kompleksowe zrozumienie warstw OSI i modelu TCP IP, podstawowych ram w sieciach, aby ułatwić skuteczną komunikację i rozwiązywanie problemów."
 genre: ["Podstawy pracy w sieci", "Warstwy OSI", "Model TCP IP", "Protokoły sieciowe", "Modele komunikacji", "Podstawy pracy w sieci", "Transmisja danych", "Rozwiązywanie problemów z siecią", "Architektura sieci", "Koncepcje sieciowe"]
 tags: ["Warstwy OSI", "TCP IP model", "podstawy sieci", "protokoły sieciowe", "modele komunikacji", "transmisja danych", "rozwiązywanie problemów z siecią", "architektura sieci", "koncepcje sieciowe", "podstawy sieci", "struktury sieciowe", "objaśnienie protokołów sieciowych", "standardy sieciowe", "warstwa fizyczna", "warstwa łącza danych", "warstwa sieciowa", "warstwa transportowa", "warstwa sesji", "warstwa prezentacji", "warstwa aplikacji", "Warstwy TCP IP", "warstwa interfejsu sieciowego", "warstwa internetowa", "warstwa transportowa", "warstwa aplikacji", "objaśnienie protokołów sieciowych", "modele sieciowe", "Wyjaśnienie podstaw sieci", "przewodnik sieciowy", "samouczek sieciowy", "najlepsze praktyki sieciowe"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Animowana ilustracja przedstawiająca sieć połączonych węzłów z przepływającymi między nimi danymi, symbolizująca wydajną komunikację i tworzenie sieci."
 ---
  Podstawy sieci: Zrozumienie warstw OSI i modelu TCP IP

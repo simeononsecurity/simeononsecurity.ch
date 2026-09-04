@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Descubra las responsabilidades, competencias y normativas del sector que definen el papel de un experto en ciberseguridad para salvaguardar los activos digitales y combatir las ciberamenazas."
 tags: ["experto en ciberseguridad", "función de ciberseguridad", "responsabilidades en materia de ciberseguridad", "competencias en ciberseguridad", "información sobre amenazas", "respuesta a incidentes", "concienciación sobre seguridad", "seguridad de la red", "algoritmos de cifrado", "codificación segura", "normativa del sector", "GDPR", "HIPAA", "PCI DSS", "certificaciones", "CISSP", "CEH", "CompTIA Seguridad+", "proteger los activos digitales", "amenazas cibernéticas", "seguridad de los datos", "protección de la red", "evaluación de la vulnerabilidad", "auditorías de seguridad", "detección de malware", "prevención de la violación de datos", "carrera en ciberseguridad", "formación en ciberseguridad", "certificaciones de ciberseguridad", "seguridad de la información", "ciberdefensa"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Un experto en ciberseguridad animado con una capa de superhéroe, de pie y seguro de sí mismo, con un escudo en una mano y el símbolo de un candado en la otra, protegiendo activos digitales."
 coverCaption: "Representación simbólica de un experto en ciberseguridad, armado con conocimientos y herramientas, que defiende los activos digitales de las ciberamenazas."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Entdecken Sie die besten Zertifizierungen für Geschäftsleute, um ihre Fähigkeiten im Bereich der Cybersicherheit zu verbessern und sensible Daten zu schützen."
 tags: ["Cybersicherheits-Zertifizierungen", "nicht-technische Zertifizierungen", "Wirtschaftsfachleute", "Informationssicherheit", "Datenschutzmanagement", "Cybersicherheitsfähigkeiten", "datenschutz", "Zertifizierungsprogramme", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "Sicherheitsmanagement", "Datenschutzbestimmungen", "Compliance", "Risikomanagement", "information privacy", "Unternehmenssicherheit", "Datenschutz"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "Ein Bild, das eine Gruppe verschiedener Geschäftsleute zeigt, die auf einer digitalen Plattform mit Schlosssymbolen zusammenarbeiten, die Cybersicherheit symbolisieren."
 coverCaption: ""
 ---

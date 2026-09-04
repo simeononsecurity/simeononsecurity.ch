@@ -7,7 +7,7 @@ draft: false
 description: "Umfassender Vergleich von NextDNS, AdGuard DNS, Quad9, Cloudflare DNS und Pi-hole für Sicherheit, Datenschutz und Leistung im Jahr 2026. Finden Sie den besten DNS-Resolver für Ihre Bedürfnisse."
 genre: ["Cybersicherheit", "DNS-Vergleich", "Datenschutz", "Werbeblocker", "Netzwerksicherheit", "Internetsicherheit", "DNS-Resolver", "Online-Datenschutz", "Web-Sicherheit", "DNS-Filterung"]
 tags: ["NextDNS", "AdGuard DNS", "Quad9", "Cloudflare DNS", "Pi-hole", "DNS-Dienst", "DNS-Resolver", "Werbeblocker", "Datenschutz", "Cybersicherheit", "Netzwerksicherheit", "Internet-Datenschutz", "Malware-Schutz", "Phishing-Schutz", "DNSSEC", "DDoS-Schutz", "KI-gesteuertes DNS", "Tracker-Blocker", "Kindersicherung", "selbstgehostetes DNS", "DNS-Sinkhole", "Raspberry Pi", "netzwerkweite Werbeblocker", "datenschutzorientiertes DNS", "DNS-Filterung", "Bedrohungserkennung", "Regierungsvorschriften", "Online-Sicherheit", "Datenintegrität", "DNS-Leistung", "bestes DNS 2026", "sicherer DNS-Dienst", "privater DNS-Resolver"]
-cover: "/img/cover/dns_security_shield.png"
+cover: "/img/cover/dns_security_shield.webp"
 coverAlt: "Ein symbolisches Bild, das einen geschützten Domänennamen darstellt, der vor Cyberbedrohungen schützt."
 coverCaption: "Bleiben Sie sicher, geschützt und abgeschirmt"
 ---

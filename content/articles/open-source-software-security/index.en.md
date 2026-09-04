@@ -6,7 +6,7 @@ draft: false
 description: "Discover why 'Open Source Software is More Secure Than Proprietary Software' in this effortless guide, ensuring your digital assets stay protected."
 genre: ["Cybersecurity", "Open Source", "Software Security", "Government Regulations", "Collaborative Development", "Digital Protection", "IT Security", "Tech Trends", "Online Safety", "Data Privacy"]
 tags: ["Open Source Software", "Proprietary Software", "Software Security", "Cybersecurity", "Government Regulations", "Collaborative Development", "Digital Protection", "IT Security", "Online Safety", "Data Privacy", "Open Source Advantages", "Proprietary vs. Open Source", "Open Source Benefits", "Security Comparison", "Open Source Collaboration", "Software Vulnerabilities", "Transparency in Software", "Heartbleed Bug", "Equifax Data Breach", "FISMA Compliance", "Secure Software Solutions", "Open Source Community", "Open Source Projects", "Software Auditing", "Secure Coding Practices", "Security Threats", "Open Source Trust", "Secure Digital Assets", "Efficient Security Response", "Software Patching"]
-cover: "/img/cover/open-source-software-security.png"
+cover: "/img/cover/open-source-software-security.webp"
 coverAlt: "Illustration showing the shielded strength of open source software."
 coverCaption: "Security through Transparency"
 ---

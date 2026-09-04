@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Learn how to set up Cloudflare Tunnels to simplify and protect your network traffic, enhancing performance and security."
 tags: ["Cloudflare Tunnels", "Network Security", "Website Performance", "Proxy Server", "Web Traffic", "Network Configuration", "Ubuntu Server", "Cloudflare Account", "Authentication", "Tunnel Creation", "Traffic Routing", "DNS Records", "Secure Connection", "Website Hosting", "Proxy Service", "Network Protection", "Performance Optimization", "Cloudflare Integration", "Server Configuration", "Traffic Encryption", "Network Traffic Management", "Secure Web Hosting", "Website Security", "Ubuntu Setup", "Tunneling Technology", "Cloudflare Services", "Network Performance", "Web Security", "Server Security", "Traffic Management", "Cloudflare Proxy"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "An illustration showing a network tunnel connecting a local server to the Cloudflare logo, symbolizing the secure and simplified network traffic."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Découvrez les meilleures distributions Linux en matière de confidentialité et de sécurité, afin de garantir la protection de vos données et la sécurité de vos activités en ligne."
 tags: ["Linux distros", "vie privée et sécurité", "Tails", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "protection des données", "informatique sécurisée", "navigation anonyme", "virtualisation", "tests de sécurité", "analyse médico-légale", "tests de pénétration", "outils de cryptage", "suppression sécurisée", "anonymat", "cybersécurité", "exactitude du code", "sécurité en ligne", "protection des données des utilisateurs", "confidentialité", "récupération des données", "banque en ligne", "vie privée en ligne", "environnement sécurisé", "navigation sécurisée", "Réseau Tor", "les mesures de sécurité", "sécurisé par défaut"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Image représentant un bouclier protégeant un ordinateur, symbolisant la vie privée et la sécurité dans le monde numérique."
 coverCaption: ""
 ---

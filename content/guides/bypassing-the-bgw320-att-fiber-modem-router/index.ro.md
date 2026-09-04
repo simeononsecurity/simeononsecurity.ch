@@ -44,7 +44,7 @@ La rularea unei scanări de porturi de la 1-65535, veți observa câteva porturi
 
 ### Personalizarea ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Acum vine partea importantă, adică modificarea unor informații despre dispozitiv pentru a-l face compatibil cu rețeaua ISP-ului tău.
 

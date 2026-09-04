@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Mysterium 是基于区块链技术构建的去中心化 VPN 和网络搜刮服务，提供安全浏览和创收机会。"
 tags: ["神秘", "虚拟专用网", "网络搜刮", "分散", "隐私", "安全", "区块链", "以太坊", "多边形", "网络浏览", "创收机会", "Docker", "设置", "端口转发", "分散式虚拟专用网", "网络搜刮服务", "安全浏览", "收益", "区块链技术", "在线隐私", "Docker 容器", "节点设置", "IP 地址", "ERC20 钱包", "元掩码地址", "API 密钥", "端口转发说明", "PortForward.com", "神秘文件"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "这幅插图描绘了一个保护电脑屏幕的盾牌，象征着增强网络隐私和安全。"
 coverCaption: ""
 ---

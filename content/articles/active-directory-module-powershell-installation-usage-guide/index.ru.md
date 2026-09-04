@@ -6,7 +6,7 @@ draft: false
 description: "Узнайте, как эффективно установить и использовать модуль Active Directory для PowerShell, чтобы упростить задачи администрирования Windows Active Directory."
 genre: ["Технология", "Windows", "PowerShell", "Active Directory", "Администрация", "Скриптинг", "IT", "Автоматизация", "Windows Server", "Microsoft"]
 tags: ["модуль активного каталога для PowerShell", "модуль импорта active directory в PowerShell", "модуль активного каталога для Windows PowerShell", "установка Active Directory PowerShell", "установить активный каталог PowerShell", "PowerShell установка модуля активного каталога Windows 10", "установить активный каталог PowerShell-модуль Windows 10", "получить модуль PowerShell активного каталога", "Администрирование AD", "Windows Active Directory", "Команды PowerShell", "получение информации об AD", "создание объектов AD", "изменять объекты AD", "управление безопасностью AD", "Управление пользователями AD", "Управление группами AD", "Управление AD OR", "Сценарии PowerShell", "Администрирование Windows Server", "Microsoft PowerShell", "автоматизация задач AD", "Установка модуля PowerShell", "Руководство по администрированию AD", "Управление Active Directory", "Управление безопасностью AD", "Автоматизация с помощью PowerShell", "Команды Active Directory PowerShell", "Справочник команд PowerShell"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "Изображение сети взаимосвязанных серверов и значков пользователей, символизирующее управление и автоматизацию Active Directory."
 coverCaption: "Раскройте возможности администрирования Active Directory с помощью PowerShell."
 ---

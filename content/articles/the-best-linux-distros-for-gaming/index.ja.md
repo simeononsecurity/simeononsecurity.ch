@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Ubuntu、Zorin OS、Manjaro、SteamOSなど、ゲームに最適なLinuxディストリビューションを紹介し、Linuxでゲーム体験を新たな高みへと導きます。"
 tags: ["ゲーム用Linuxディストロ", "Ubuntuのゲーム", "ゾーリンOSゲーミング", "マンジャロゲーム", "SteamOSゲーミング", "Linuxのゲーム性能", "Linuxゲーム対応", "Linuxゲームコミュニティ", "Ubuntuのゲーム体験", "Zorin OSゲーミングインターフェイス", "Manjaro ゲームに特化した", "ゲーミングOS「SteamOS", "ゲーム用ポップ！＿OS", "Fedoraゲーミングサポート", "Solusのゲーミングパフォーマンス", "Linuxゲームディストロ", "ベストLinuxディストロ", "リナックスゲーミング", "Linuxゲームプラットフォーム", "Linuxゲーミングガイド", "Ubuntu でゲーム", "ゾーリンOSでゲーム", "マンジャロでゲーム", "SteamOSでのゲーム", "Linuxゲームソフト", "Linuxゲームライブラリ", "Linuxゲームとの互換性", "Linuxゲーミングコミュニティのサポート", "Linuxのゲーム設定", "Linuxゲームパフォーマンスの最適化", "Linuxのゲームに関するヒントとトリック"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Linux搭載PCで仮想世界に没頭するゲーマーの図解"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "了解网络钓鱼诈骗者使用的策略，并发现有效的策略来保护自己免于成为受害者。"
 tags: ["网络钓鱼诈骗", "网络安全", "在线威胁", "电子邮件欺骗", "社会工程学", "恶意软件保护", "上网安全", "数据安全", "身份盗窃", "密码安全", "双因素认证", "软件更新", "政府规章", "在线隐私", "网络意识", "数字欺诈", "网络钓鱼意识", "社交媒体安全", "网络诈骗", "预防网络犯罪"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "保护用户免受网络钓鱼攻击的警惕盾牌"
 coverCaption: ""
 ---

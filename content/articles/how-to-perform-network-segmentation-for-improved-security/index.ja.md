@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "組織のセキュリティ向上とリスク低減のために、ネットワークセグメンテーションを行う方法について解説しています。"
 tags: ["ネットワークセグメンテーション", "安全性を高める", "リスクを減らす", "ネットワークパフォーマンス", "網管理", "セキュリティ制御", "ファイアウォール", "アクセス制御", "おことわり", "認証", "テスティング", "モニタリング", "サイバー脅威", "情報漏えい", "ネットワークアーキテクチャ", "包括的安全保障", "かいそうセキュリティ", "脆弱性", "サイバー攻撃", "社員教育"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "複数のセグメントを持つネットワークがファイアウォールやアクセス制御機構で保護されており、ネットワークの外にいるハッカーが侵入を試みているイメージです。"
 coverCaption: ""
 ---

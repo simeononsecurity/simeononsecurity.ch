@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Rimanete al sicuro online: Scoprite l'importanza dell'hardening e del debloating di Windows per migliorare la sicurezza e la privacy..."
 tags: ["Irrigidimento di Windows", "Windows Debloating", "Sicurezza migliorata", "Privacy", "Attacchi informatici", "Sicurezza del sistema operativo", "Sistema operativo Windows", "Data Privacy", "Criminale informatico", "Superficie di attacco", "Vulnerabilità", "Aggiornamenti sulla sicurezza", "Meccanismi di autenticazione", "Software indesiderato", "Miglioramento delle prestazioni", "Raccolta dati", "Autenticazione a due fattori", "Software antivirus", "Software anti-malware", "Informazioni sensibili", "Guida completa"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Un'immagine di un lucchetto chiuso sopra lo schermo di un computer o di un portatile, che simboleggia le misure di sicurezza che possono essere implementate attraverso l'hardening e il debloating di Windows."
 coverCaption: ""
 ---

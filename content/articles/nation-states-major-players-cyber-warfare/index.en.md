@@ -6,7 +6,7 @@ draft: false
 description: "Discover how nation-states are major players in cyber warfare, with motivations ranging from national security to political influence, and the global consequences of their actions."
 genre: ["Cybersecurity", "National Security", "State-Sponsored Cyberattacks", "Digital Warfare", "Cyber Espionage", "Influence Campaigns", "Malware Attacks", "National Defense", "Cyber Threats", "Geopolitics"]
 tags: ["Nation-States", "Cyber Warfare", "Cybersecurity", "State-Sponsored Attacks", "Cyber Espionage", "Influence Campaigns", "Malware", "National Security", "Geopolitics", "Digital Threats", "Political Influence", "Economic Motivations", "Diplomatic Tensions", "National Defense", "Zero-Day Exploits", "Sophisticated Malware", "Cryptocurrency", "Cyber Capabilities", "Global Ramifications", "Digital Landscape", "Nation-State Cyber Operations", "Cyber Threat Landscape", "Advanced Cyber Capabilities", "Critical Infrastructure Attacks", "Stuxnet", "Flame Malware", "Diplomatic Consequences", "Economic Impact", "Personal Privacy", "National Security Risks"]
-cover: "/img/cover/nation_states_cyber_warfare.png"
+cover: "/img/cover/nation_states_cyber_warfare.webp"
 coverAlt: "A symbolic 3D illustration of nation-states engaged in cyber warfare, with flags and binary code symbols, representing their digital presence and power."
 coverCaption: "Power in the Digital Arena"
 ---

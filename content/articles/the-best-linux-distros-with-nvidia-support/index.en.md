@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-31
 description: "Discover the best Linux distros optimized for NVIDIA graphics card support, ensuring smooth performance and compatibility."
 tags: ["Linux distros", "NVIDIA graphics card support", "Ubuntu", "Fedora", "Manjaro", "Pop!_OS", "OpenSUSE", "driver compatibility", "performance optimization", "GPU support", "Linux GPU drivers", "Linux gaming", "Linux graphics", "NVIDIA drivers", "user-friendly distros", "Linux stability", "Linux documentation", "Linux community support", "Linux hardware compatibility", "rolling release", "GPU switching", "power management", "GPU performance", "Linux installation", "Linux troubleshooting", "Linux user experience", "Linux customization", "Linux updates", "offline updates", "local repository", "cache", "server setup", "client setup", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Linux system updates", "offline package updates", "offline software updates", "local package repository", "local package cache", "offline Linux updates", "handling offline updates", "offline update methods", "offline system maintenance", "Linux server updates", "Linux client updates", "offline software management", "offline package management", "update strategies", "Linux security updates"]
-cover: "/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.png"
+cover: "/img/cover/An_image_showing_a_computer_screen_displaying_a_Linux_distro.webp"
 coverAlt: "An image showing a computer screen displaying a Linux distro logo with an NVIDIA graphics card and colorful graphics in the background, representing the smooth support and performance optimization for NVIDIA GPUs in Linux distros."
 coverCaption: ""
 ref: ["/articles/a-beginners-guide-to-using-the-linux-command-line"]

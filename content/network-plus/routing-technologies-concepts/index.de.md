@@ -6,7 +6,7 @@ draft: false
 description: "Lernen Sie die Welt der Routing-Technologien und -Konzepte kennen, von dynamischen Routing-Protokollen wie RIP, OSPF, EIGRP und BGP bis hin zu Link-State-, Distanzvektor- und Hybrid-Routing-Protokollen sowie der Konfiguration von statischem Routing und Standardrouten."
 genre: ["Technologie", "Vernetzung", "Weiterleitung", "Netzwerk-Protokolle", "Netzwerk-Management", "Dynamisches Routing", "Statisches Routing", "Bandbreitenmanagement", "Qualität der Dienstleistung", "Netzwerkgeräte"]
 tags: ["Routing-Technologien", "dynamische Routing-Protokolle", "RIP", "OSPF", "EIGRP", "BGP", "Linkstatus", "Abstandsvektor", "hybride Routing-Protokolle", "statisches Routing", "Standard-Routen", "administrative Entfernung", "Außenverlegung", "inneres Routing", "Zeit zu leben", "Bandbreitenmanagement", "Verkehrsgestaltung", "Qualität der Dienstleistung", "Netzwerkgeräte", "Router", "schaltet", "Firewalls", "Lastverteiler", "Zugangspunkte", "Netzoptimierung", "Netzleistung", "Netzwerksicherheit", "Netzarchitektur", "Netzverkehr"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Eine Illustration von miteinander verbundenen Netzwerkgeräten, zwischen denen Daten fließen."
 coverCaption: "Navigieren auf dem digitalen Highway: Optimierung des Netzwerk-Routings für Spitzenleistungen"
 ---

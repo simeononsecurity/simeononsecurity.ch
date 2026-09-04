@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Przewodnik po tym, jak przeprowadzić segmentację sieci w celu poprawy bezpieczeństwa i zmniejszenia ryzyka w organizacji."
 tags: ["segmentacja sieci", "poprawić bezpieczeństwo", "zmniejszyć ryzyko", "wydajność sieci", "zarządzanie siecią", "kontrole bezpieczeństwa", "firewalle", "kontrole dostępu", "najmniejszy przywilej", "uwierzytelnianie", "testowanie", "monitorowanie", "zagrożenia cybernetyczne", "naruszenia danych", "architektura sieci", "kompleksowe bezpieczeństwo", "bezpieczeństwo warstwowe", "podatności", "cyberataki", "szkolenie pracowników"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Obraz sieci z wieloma segmentami chronionymi przez firewall i mechanizmy kontroli dostępu, z hakerem spoza sieci próbującym dostać się do środka."
 coverCaption: ""
 ---

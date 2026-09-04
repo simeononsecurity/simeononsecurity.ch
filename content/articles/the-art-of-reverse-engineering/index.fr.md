@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez la puissance de l'ingénierie inverse pour découvrir les failles de sécurité des réseaux IoT et améliorer la sécurité globale du système."
 tags: ["ingénierie inverse", "Sécurité de l'IdO", "vulnérabilités", "les protocoles de sécurité", "analyse des dispositifs", "Réseaux IdO", "fonctionnement interne", "code malveillant", "mesures de cryptage", "mesures d'authentification", "pare-feu", "mise à jour du logiciel"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Image d'un professionnel de la sécurité examinant le fonctionnement interne d'un appareil IoT, avec divers composants matériels et circuits imprimés visibles. "
 coverCaption: ""
 ---

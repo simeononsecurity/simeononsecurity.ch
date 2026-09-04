@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Découvrez les meilleures filières pour une carrière réussie dans le domaine de la cybersécurité et apprenez à vous orienter pour devenir un professionnel qualifié."
 tags: ["emploi en cybersécurité", "exigence de diplôme", "sélection majeure", "parcours de carrière en cybersécurité", "la sécurité de l'information", "cybermenaces", "opportunités de carrière", "développement des compétences", "les certifications industrielles", "formation à la cybersécurité", "options d'autoformation", "cours en ligne", "programmes de stages", "postes de débutants", "emplois dans le domaine de la cybersécurité", "éducation à la cybersécurité", "l'orientation professionnelle", "parcours de cybersécurité", "les meilleures filières pour la cybersécurité", "programme d'études sur la cybersécurité", "majeure en technologie de l'information", "majeure en informatique", "majeure en mathématiques", "majeure en ingénierie", "entreprises et cybersécurité", "psychologie et cybersécurité", "sociologie et cybersécurité", "perspectives d'emploi dans la cybersécurité", "compétences pratiques en cybersécurité", "formation continue dans le domaine de la cybersécurité", "demande de professionnels de la cybersécurité"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Illustration d'une personne tenant un chapeau de fin d'études avec un bouclier représentant la cybersécurité, symbolisant le besoin d'éducation et de compétences dans le domaine de la cybersécurité. --aspect 16:9"
 coverCaption: "Débloquez votre potentiel de carrière en cybersécurité grâce à votre formation et à vos compétences."
 ---

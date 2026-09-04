@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie, wie Helium Mobile Beta mit seinem dezentralen Netzwerk die mobile Konnektivität verändert und den Benutzern Sicherheit, Zuverlässigkeit und Erschwinglichkeit gewährleistet."
 tags: ["Helium Mobile Beta", "dezentrales Netzwerk", "mobile Konnektivität", "sicher", "zuverlässig", "erschwingliche Pläne", "Helium-Hotspots", "Helium-Blockchain", "Beta-Programm", "drahtloses Netzwerk", "Mobilfunknetze", "Mobilfunkbetreiber", "Innovation", "Technologie", "Netzwerkausbau", "Benutzer-Feedback", "Branchenstörung", "Helium Mobile-kompatibles Gerät", "Anwendung", "aufstrebende Technologie"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Eine lebendige Illustration, die ein Netzwerk miteinander verbundener Geräte mit Helium Mobile-Branding zeigt und den innovativen und dezentralen Ansatz für mobile Konnektivität symbolisiert."
 coverCaption: ""
 ---

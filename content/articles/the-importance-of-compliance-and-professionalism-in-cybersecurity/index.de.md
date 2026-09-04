@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cybersicherheit ist ein entscheidender Aspekt moderner Geschäftsabläufe und erfordert einen umfassenden Ansatz, der die richtigen Systeme, Protokolle und Mitarbeiter einbezieht, um den Schutz vor Cyberangriffen effektiv zu verwalten."
 tags: ["Cybersicherheit", "Geschäftsbetrieb", "Netzwerksicherheit", "sensible Informationen", "Cyberangriffe", "Technologie", "Software", "Professionalität", "Compliance", "Industriestandards", "Vorschriften", "beste Praktiken", "Priorität", "Sicherheitskultur", "Datenschutzverletzungen", "geistiges Eigentum", "proaktiver Ansatz", "geringe Priorität", "fehlende Mittel", "Ausbildung", "Engagement für die Sicherheit", "Beauftragte für Informationssicherheit (ISSOs)", "Informationssicherheits-Managementsysteme (ISSMs)", "Ausbildung und Erfahrung", "Sicherheitsbedrohungen", "100 % Erfolg bei Konformitätsprüfungen", "Vorschriften", "Normen", "beste Praktiken", "NIST 800-Serie", "politisches Spiel", "Vertrauen", "Ehrlichkeit", "Zusammenarbeit", "Papierspur", "Transparenz", "Rechenschaftspflicht"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Ein Bild von einer Gruppe von Cybersicherheitsexperten in einem Sitzungssaal, die zusammenarbeiten, um die Sicherheit der Systeme und Daten ihres Unternehmens zu gewährleisten."
 coverCaption: ""
 ---

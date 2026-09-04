@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erforschen Sie die Zukunft der Quanteninformatik und ihre Auswirkungen auf die Cybersicherheit, einschließlich Post-Quantum-Kryptographie und Schwachstellen klassischer kryptographischer Algorithmen."
 tags: ["Quantencomputer", "Cybersecurity", "Qubits", "RSA", "ECC", "Post-Quantum-Kryptographie", "Quanten-Tempern", "Quantenvorherrschaft", "Überlagerung", "Entanglement", "Kryptographische Algorithmen", "Digitale Infrastruktur", "Optimierungsprobleme", "Tech-Giganten", "Forschung und Entwicklung", "Dekohärenz", "Online-Transaktionen", "Sicheres Messaging", "Onlinebanking", "Entdeckung von Arzneimitteln"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Ein animiertes Bild eines Hackers, der versucht, in ein durch RSA-Verschlüsselung geschütztes Computersystem einzudringen, aber scheitert, da ein Quantencomputer die Verschlüsselung in Sekundenschnelle im Hintergrund löst."
 coverCaption: ""
 ---

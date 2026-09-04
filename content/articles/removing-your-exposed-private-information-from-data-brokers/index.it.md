@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come proteggere le vostre informazioni personali rimuovendole dagli elenchi online e dagli intermediari di dati con questa guida completa."
 tags: ["rimozione dei dati personali", "elenchi online", "intermediari di dati", "protezione della privacy", "guida completa", "rimuovere le informazioni personali", "online privacy", "privacy in internet", "online privacy", "intermediari di dati", "rimuovere le informazioni", "Tecniche Intel", "SimeoneSullaSicurezza", "sicurezza online", "protezione della privacy", "proteggere la privacy online"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Un'immagine dello schermo di un computer con una X rossa attraverso un elenco di informazioni personali, come nome, indirizzo e numero di telefono, che simboleggia la rimozione dei dati personali dagli elenchi online."
 coverCaption: ""
 ---

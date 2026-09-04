@@ -6,12 +6,12 @@ draft: false
 description: "了解 StartMail，这是一种安全的电子邮件服务，具有先进的加密和电子邮件屏蔽功能，可确保最大限度地保护隐私和免受网络威胁。"
 genre: ["网络安全", "隐私权", "电子邮件服务", "在线安全", "数字隐私", "加密", "数据保护", "电子邮件隐私", "身份保护", "在线隐私"]
 tags: ["安全电子邮件", "电子邮件服务", "启动邮件", "电子邮件屏蔽", "隐私权", "加密", "网络安全", "数据保护", "在线安全", "身份保护", "在线隐私", "电子邮件安全", "安全通信", "电子邮件别名", "端对端加密", "SMIME 加密", "双因素认证", "数据加密", "电子邮件隐私", "数字隐私", "电子邮件安全服务", "注重隐私", "安全数据存储", "网络钓鱼防护", "防止垃圾邮件", "OPSEC", "集装箱化", "在线身份保护", "数字通信", "防止数据泄露"]
-cover: "/img/cover/secure_email_guard.png"
+cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "一幅象征性的插图，表示一个上锁的电子邮件信封由一个盾牌保护着、"
 coverCaption: "使用 StartMail 保护您的数字隐私。"
 ---
 
-{{< figure src="startmail_logo.png" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
 
 ## 什么是 StartMail
 
@@ -47,25 +47,25 @@ ______
 
 ### 2.**创建屏蔽电子邮件别名***
 
-{{< figure src="startmail_pictured_alias.png" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
 
 拥有 StartMail 账户后，请导航至 "设置 "部分。在这里，你可以找到**创建一个屏蔽电子邮件别名**的选项。为您的别名选择一个唯一的名称，当您需要在网站或服务上提供电子邮件地址时，请使用该隐藏别名，而不是您的主电子邮件。
 
 ### 3.**电子邮件转发**
 
-{{< figure src="startmail_international.png" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
 
 当有人向您的隐藏别名发送电子邮件时，StartMail 会自动将其转发到您的真实收件箱。这样，您就可以跟踪所有通信，而不会泄露您的真实电子邮件地址。
 
 ### 4.**管理别名**
 
-{{< figure src="startmail_emailmasking.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
 
 StartMail 允许您**有效地管理您的别名。如果收到的垃圾邮件太多，您可以删除别名，也可以随时创建新的别名。这种灵活性可以让您更好地控制电子邮件通信。
 
 ### 5.**安全通信**
 
-{{< figure src="startmail_pictured_encryption.png" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
 
 有了 StartMail 的端到端加密功能，所有通过屏蔽别名进行的通信都是安全和私密的。即使被拦截，邮件内容也会保持加密，未经授权的实体无法破译信息。
 
@@ -91,7 +91,7 @@ ______
 
 ## 如何使用 StartMail 通过电子邮件掩码防止被黑客攻击
 
-{{< figure src="startmail_masking2.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
 
 使用**StartMail的电子邮件屏蔽**功能，不仅可以为您的在线身份添加额外的保护层，还有助于防止网络跟踪，并使您的账户更难与数据泄露相关联。通过电子邮件屏蔽实现的容器化是操作安全（OPSEC）方面的一种强大做法，StartMail 在这方面表现出色。
 

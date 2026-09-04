@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați elementele de bază ale securității cibernetice, inclusiv tipurile de amenințări cibernetice, importanța securității cibernetice și pașii pentru îmbunătățirea securității online."
 tags: ["Securitate cibernetică", "Amenințări cibernetice", "Securitate online", "Protejarea datelor", "Virus", "Programe malware", "Escrocherii prin phishing", "Hackerii", "securitate naționala", "Proprietate intelectuală", "Intimitatea personală"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "O imagine a unei persoane care stă la un computer cu o expresie îngrijorată în timp ce un hacker sau un criminal cibernetic este afișat pe ecran, reprezentând pericolele amenințărilor cibernetice și importanța securității cibernetice"
 coverCaption: ""
 ---

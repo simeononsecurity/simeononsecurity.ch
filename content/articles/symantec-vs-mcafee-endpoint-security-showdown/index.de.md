@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Erfahren Sie, welche Endgerätesicherheitslösung - Symantec oder McAfee - am besten geeignet ist, die digitalen Ressourcen Ihres Unternehmens vor Cyber-Bedrohungen zu schützen."
 genre: ["Technologie", "Cybersecurity", "Endpunktsicherheit", "Antivirus", "Firewall", "Intrusion Detection", "Prävention von Datenverlusten", "Schutz vor Bedrohungen", "Sicherheitslösungen", "Vergleich"]
 tags: ["Endpunktsicherheit", "Symantec", "McAfee", "Cybersicherheit", "Antivirus", "Firewall", "Einbruchserkennung", "Vermeidung von Datenverlusten", "Schutz vor Bedrohungen", "Sicherheitslösungen", "Vergleich", "Malware", "Ransomware", "Phishing-Angriffe", "Zero-Day-Angriffe", "maschinelles Lernen", "verhaltensbasierte Analytik", "Cloud-Management-Konsole", "Echtzeit-Sichtbarkeit", "zentrales Management", "Integrationsmöglichkeiten", "Kundenrezensionen", "technische Unterstützung", "Geschäftskontinuität", "IT-Umgebung", "Fernbereitstellung", "Datenverschlüsselung", "Netzzugangskontrolle"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "Ein Bild, das ein Schild mit den Logos von Symantec und McAfee zeigt, das deren Sicherheitsfunktionen für Endgeräte symbolisiert."
 ---
 

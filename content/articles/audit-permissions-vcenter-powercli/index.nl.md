@@ -6,7 +6,7 @@ draft: false
 description: "Leer hoe je effectief machtigingen voor een vCenter kunt controleren met PowerCLI, zodat je een veilige virtuele infrastructuur krijgt."
 genre: ["Controle van vCenter-machtigingen", "PowerCLI automatisering", "VMware-beveiliging", "Beheer van virtuele infrastructuur", "Toestemming opdrachten", "Toegangsbeheer voor gebruikers", "Kwetsbaarheden in de beveiliging", "PowerShell automatisering", "vSphere-omgevingbeheer", "Overzicht gebruikersrechten"]
 tags: ["vCentre", "PowerCLI", "audit machtigingen", "vSphere", "VMware", "virtuele infrastructuur", "PowerShell", "toegangscontrole voor gebruikers", "beveiligingsgaten", "toestemmingsopdrachten", "automatisering", "PowerCLI cmdlets", "gebruikersrollen", "permissieoverzicht", "veiligheidsbeleid", "naleving", "auditrapporten", "gegevensbescherming", "GDPR", "HIPAA", "gebruikersbeheer", "vCenter gebruikers", "beste beveiligingsprocedures", "overheidsvoorschriften", "PowerCLI installatie", "vCenter-verbinding", "PowerCLI scripting", "procesaudit", "auditgegevens exporteren", "toestemming verwijderen"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.webp"
 coverAlt: "Een afbeelding van een schild dat een virtueel datacenter beschermt tegen ongeautoriseerde toegang."
 coverCaption: "Bescherm je vCenter met effectieve rechtencontrole met PowerCLI."
 ---

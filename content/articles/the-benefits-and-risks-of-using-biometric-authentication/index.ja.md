@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "セキュリティ強化、プライバシーへの配慮、導入のベストプラクティスなど、アクセス制御にバイオメトリクス認証を使用するメリットとリスクについてご紹介します。"
 tags: ["バイオメトリクス認証", "アクセスコントロール", "セキュリティ", "プライバシー", "データ保護", "GDPR", "ヒパア", "偽陽性", "偽陰性", "多要素認証", "システムテスト", "安全保護方針", "効率", "利便性", "一意性", "合理的なワークフロー", "脆弱性", "リスク軽減", "ユーザーエクスペリエンス", "サイバーセキュリティ"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "人の手が指紋認証でセキュリティエリアにアクセスする様子を描いたアニメーションで、背景には人の顔や虹彩も見えるようになっています。"
 coverCaption: ""
 ---

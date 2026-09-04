@@ -6,7 +6,7 @@ draft: false
 description: "Discover the essential Risk Management Framework (RMF) in cybersecurity, its components, and significance."
 genre: ["Cybersecurity", "Risk Management", "Information Security", "Government Regulations", "Cyber Defense", "IT Security", "Data Protection", "Security Controls", "NIST Guidelines", "Continuous Monitoring"]
 tags: ["Effective Risk Management", "Cybersecurity Practices", "Information System Security", "NIST Guidelines", "Government Regulations", "Data Security Measures", "Security Assessment Process", "Risk Mitigation Strategies", "IT Security Framework", "Continuous Threat Monitoring", "RMF", "Risk Management Framework", "Cybersecurity", "Information Security", "NIST", "Security Controls", "Risk Assessment", "Compliance", "Continuous Monitoring", "Data Protection"]
-cover: "/img/cover/cybersecurity_shield_protection.png"
+cover: "/img/cover/cybersecurity_shield_protection.webp"
 coverAlt: "A symbolic art-style image depicting a shield protecting a digital network."
 coverCaption: "helping Your Digital Defense with RMF"
 ---

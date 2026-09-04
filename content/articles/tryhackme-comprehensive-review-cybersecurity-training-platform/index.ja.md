@@ -6,7 +6,7 @@ draft: false
 description: "TryHackMeの機能、価格、認定、ネットワークサービスなど、サイバーセキュリティスキルを習得するための力をご覧ください。"
 genre: ["テクノロジー", "サイバーセキュリティ", "オンライン学習", "倫理的ハッキング", "ネットワーク・セキュリティ", "バーチャルラボ", "認証", "ラーニング・パス", "実地体験", "TryHackMeのレビュー"]
 tags: ["TryHackMe", "TryHackMeのレビュー", "TryHackMe証明書", "TryHackMeの価格", "TryHackMe ネットワークサービス 2", "TryHackMeサブスクリプション", "TryHackMe 認証バイパス", "TryHackMe ファイルの包含", "TryHackMe OWASP トップ 10 チュートリアル", "TryHackMe VPN", "TryHackMeウィンドウズの基礎1", "TryHackMe Active Directory", "TryHackMe Active Directoryの基本", "TryHackMe Answers", "TryHackMe Linuxの基礎 その3", "TryHackMeロゴ", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQLインジェクション", "TryHackMe サポート", "TryHackMe脅威インテリジェンスツール", "TryHackMe アップロードの脆弱性", "TryHackMe アプリケーションを歩く", "TryHackMeウィンドウズの基礎2", "TryHackMeウィンドウズの基礎3", "TryHackMeブルー", "TryHackMe Blue チュートリアル"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "TryHackMeのサイバーセキュリティ・トレーニングを通じて得られるエンパワーメントを象徴する、スーパーヒーローのマントをつけたハッカーを描いた画像。"
 coverCaption: "TryHackMeで自分を強化：サイバーセキュリティのスーパーパワーを解き放つ"
 ---

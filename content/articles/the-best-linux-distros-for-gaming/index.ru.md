@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Откройте для себя лучшие дистрибутивы Linux для игр, включая Ubuntu, Zorin OS, Manjaro и SteamOS, и поднимите свой игровой опыт на новую высоту в Linux."
 tags: ["Дистрибутивы Linux для игр", "Игры на Ubuntu", "Игровая система Zorin OS", "Игровая система Manjaro", "Игровая система SteamOS", "Производительность в играх на Linux", "Поддержка игр в Linux", "Игровое сообщество Linux", "Игровой опыт Ubuntu", "Игровой интерфейс Zorin OS", "Игровая направленность Manjaro", "Игровая операционная система SteamOS", "Pop!_OS для игр", "Поддержка игр в Fedora", "Игровая производительность Solus", "Игровые дистрибутивы Linux", "лучшие дистрибутивы Linux", "игры в Linux", "Игровая платформа Linux", "Руководство по играм для Linux", "игры на Ubuntu", "игры на платформе Zorin OS", "игры на Manjaro", "игры на SteamOS", "Игровое программное обеспечение для Linux", "Игровая библиотека для Linux", "Совместимость с играми на Linux", "Поддержка игрового сообщества Linux", "Игровая установка Linux", "Оптимизация игровой производительности Linux", "Советы и рекомендации по работе с играми на Linux"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Иллюстрация геймера, погруженного в виртуальный мир на компьютере под управлением ОС Linux"
 coverCaption: ""
 ---

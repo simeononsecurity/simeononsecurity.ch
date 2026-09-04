@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj potencjalne wskaźniki zagrożeń wewnętrznych i skuteczne strategie łagodzenia ich skutków, aby chronić bezpieczeństwo swojej organizacji."
 tags: ["wskaźniki zagrożeń wewnętrznych", "łagodzenie zagrożeń wewnętrznych", "potencjalne zagrożenia", "cyberbezpieczeństwo", "bezpieczeństwo danych", "monitorowanie pracowników", "kontrola dostępu", "Analiza zachowań użytkowników", "szkolenie w zakresie świadomości bezpieczeństwa", "zgodność z przepisami", "ochrona danych", "monitorowanie sieci", "zachowanie pracowników", "dostęp do danych", "nietypowa aktywność sieciowa", "zmiana schematów pracy", "trudności finansowe", "niezadowolenie", "zachowanie online", "polityki bezpieczeństwa", "plan reagowania na incydenty", "NISPOM", "HIPAA", "RODO", "zarządzanie ryzykiem", "wykrywanie zagrożeń", "ograniczanie zagrożeń wewnętrznych", "uprzywilejowany dostęp", "podejrzane zachowanie", "zapobieganie zagrożeniom wewnętrznym"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Animowana ilustracja przedstawiająca zespół różnych profesjonalistów dyskutujących na temat cyberbezpieczeństwa w otoczeniu ikon zamków i tarcz."
 coverCaption: ""
 ---

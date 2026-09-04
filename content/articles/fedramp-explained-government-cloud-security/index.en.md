@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the power of FedRAMP for robust, secure government cloud solutions."
 genre: ["Technology", "Cybersecurity", "Government", "Cloud Services", "Compliance", "Federal Regulations", "Information Security", "Risk Management", "Cloud Computing", "Data Protection"]
 tags: ["FedRAMP overview", "Cloud security", "Government cloud", "Cyber risk management", "Compliance standards", "Cloud service providers", "Federal regulations", "Data protection", "Cloud adoption", "Secure cloud solutions","Information security", "NIST SP 800-53", "Cloud authorization", "Continuous monitoring", "Cyber threat mitigation", "Risk assessment", "Government technology", "Cloud compliance", "Cloud risk management", "Cloud adoption benefits","Interoperability", "Cybersecurity frameworks", "Federal agencies", "Cloud security controls", "Security assessment process", "Cloud authorization process", "Cloud security standards", "Cloud security benefits", "Cloud services in government", "Federal IT"]
-cover: "/img/cover/Secure-Cloud-Government-Shield.png"
+cover: "/img/cover/Secure-Cloud-Government-Shield.webp"
 coverAlt: "An animated depiction of a secure cloud hovering above a governmental building with a shield emblem."
 coverCaption: "Unlocking Cloud Security for Government Empowerment"
 ---

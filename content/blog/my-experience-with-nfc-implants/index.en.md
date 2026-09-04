@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the untold story of my experience with NFC tag implants, as I delve into the risks, complications, and personal insights that highlight the importance of informed decision-making."
 tags: ["NFC tag implants", "body hacking", "dangerous things", "implant risks", "body modifications", "complications", "implant rejection", "pain and inflammation", "nerve damage", "implant removal", "chronic pain", "safety precautions", "risks vs benefits", "consultation", "research", "professional installation", "body modification risks", "implant displacement", "carpal tunnel syndrome", "understanding complications", "personal safety", "informed decision", "digital interaction", "medical procedures", "implant safety", "body modification caution", "implant complications", "personal well-being", "health considerations", "professional advice"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "An image depicting a person with a hand showing an NFC tag implant, accompanied by pain symbols around the hand, illustrating the risks and complications associated with NFC tag implants."
 coverCaption: ""
 ---

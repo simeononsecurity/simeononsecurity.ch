@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zbudować i zarządzać skutecznym programem szkoleniowym w zakresie świadomości cyberbezpieczeństwa, który zmniejsza ryzyko cyberataków i chroni wrażliwe dane."
 tags: ["cyberbezpieczeństwo", "szkolenie uświadamiające", "ograniczanie ryzyka", "ochrona danych", "szkolenie pracowników", "zagrożenia cyberbezpieczeństwa", "zagrożenia dla cyberbezpieczeństwa", "cele treningowe", "grupa docelowa", "realizacja szkoleń", "szkolenie interaktywne", "Przykłady z życia wzięte", "symulacje", "ćwiczenia praktyczne", "treść szkolenia", "NIST 800-50", "najlepsze praktyki cyberbezpieczeństwa", "kultura cyberbezpieczeństwa", "nagrody i uznanie"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Animowany obraz grupy pracowników zgromadzonych wokół komputera lub eksperta ds. bezpieczeństwa wyjaśniającego koncepcje cyberbezpieczeństwa na tablicy."
 coverCaption: ""
 ---

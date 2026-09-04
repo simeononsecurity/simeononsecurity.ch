@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite la missione e i principi delle Cyber Sentinelle, una comunità di professionisti informatici e IT impegnati a condividere le conoscenze e a sviluppare soluzioni innovative per le sfide della sicurezza informatica."
 tags: ["sicurezza informatica", "IT", "comunità", "condivisione delle conoscenze", "collaborazione", "apprendimento continuo", "supporto", "inclusività", "impatto positivo", "canali di testo", "canali vocali", "consigli di carriera", "opportunità di lavoro", "risorse di apprendimento", "tendenze emergenti", "progetti", "eventi", "conferenze", "immagini di animali domestici", "tecnologia"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Uno scudo digitale stilizzato con una figura di guerriero informatico al centro, circondato da forme e linee astratte che rappresentano flussi di dati e connessioni di rete."
 coverCaption: ""
 ---

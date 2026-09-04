@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Ontdek de kracht van Mysterium, een gedecentraliseerde VPN en web scraping service gebouwd op blockchain technologie, die veilig browsen en inkomstenmogelijkheden biedt."
 tags: ["Mysterie", "VPN", "web scraping", "gedecentraliseerd", "privacy", "beveiliging", "blockchain", "Ethereum", "Polygoon", "surfen op internet", "inkomensmogelijkheid", "Docker", "setup", "port forwarding", "gedecentraliseerd VPN", "web scraping service", "veilig browsen", "inkomsten", "blockchaintechnologie", "online privacy", "Docker container", "knooppuntinstelling", "IP-adres", "ERC20 portemonnee", "MetaMask adres", "API sleutel", "instructies voor het doorsturen van poorten", "PortForward.com", "Mysterium documentatie"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "Een illustratie van een schild dat een computerscherm beschermt, als symbool voor meer online privacy en veiligheid."
 coverCaption: ""
 ---

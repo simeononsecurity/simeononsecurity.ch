@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați viitorul calculului cuantic și impactul acestuia asupra securității cibernetice, inclusiv al criptografiei post-cuantică și al vulnerabilităților algoritmilor criptografici clasici."
 tags: ["Calculul cuantic", "Securitatea cibernetică", "Qubits", "RSA", "ECC", "Criptografie post-cantimică", "Recoacere cuantică", "Supremația cuantică", "Superpoziție", "Încâlcirea", "Algoritmi criptografici", "Infrastructura digitală", "Probleme de optimizare", "Giganții din domeniul tehnologiei", "Cercetare și dezvoltare", "Decoherență", "Tranzacții online", "Mesagerie securizată", "Servicii bancare online", "Descoperirea medicamentelor"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "O imagine animată a unui hacker care încearcă să pătrundă într-un sistem informatic protejat prin criptare RSA, dar care eșuează în timp ce un computer cuantic rezolvă criptarea în câteva secunde în fundal."
 coverCaption: ""
 ---

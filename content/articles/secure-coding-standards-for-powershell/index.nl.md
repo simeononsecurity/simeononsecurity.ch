@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de beste praktijken voor het schrijven van veilige PowerShell-code om uw Windows-systemen te beschermen tegen beveiligingsproblemen."
 tags: ["PowerShell", "Veilige codering", "Op Windows gebaseerde systemen", "Validatie van de invoer", "Cryptografie Bibliotheken", "Minste voorrecht", "Statische code analyzer", "Veilige communicatieprotocollen", "Registratie en controle", "Kwetsbaarheidsscans", "Onderwijs", "Injectiecode", "Privilege-escalatie", "Datalekken", "Verhardende omgeving", "Veiligheidsbeleid", "Firewalls", "Inbraakdetectiesystemen", "Beheer van kwetsbaarheden", "Netwerkbeveiliging"]
-cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Een afbeelding van een superheld die voor een computer staat met het Windows-logo op het scherm en een schild in de hand, als symbool voor het belang van veilige coderingspraktijken voor de bescherming van op Windows gebaseerde systemen."
 coverCaption: ""
 ---

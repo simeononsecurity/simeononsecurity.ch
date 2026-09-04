@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o zatwierdzonych przez NIST sposobach sanityzacji dysków twardych, dysków SSD, pamięci flash USB, płyt CD, DVD i Blu-ray w celu ochrony poufnych danych przed nieautoryzowanym dostępem."
 tags: ["Metody zatwierdzone przez NIST", "Odkażanie nośników wymiennych", "Dyski twarde", "Dyski SSD", "Pamięci flash USB", "Płyty CD", "DVD", "Dyski Blu-ray", "Bezpieczeństwo danych", "Ochrona wrażliwych danych"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Obraz osoby trzymającej pamięć flash USB z niszczarką w tle"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie den besten sicheren E-Mail-Dienst! Ein detaillierter Vergleich von StartMail, ProtonMail und Tutanota, der Ihre Privatsphäre online sichert"
 genre: ["Technologie", "Cybersecurity", "Datenschutz", "E-Mail-Dienste", "Online-Sicherheit", "Verschlüsselung", "Internet-Tools", "Vergleich", "Digitaler Schutz", "Online Privacy"]
 tags: ["StartMail", "ProtonMail", "Tutanota", "Sichere E-Mail", "E-Mail-Datenschutz", "E-Mail-Sicherheit", "Sicheres Messaging", "Ende-zu-Ende-Verschlüsselung", "PFS", "Zero-Access-Verschlüsselung", "Datenschutz", "Cybersecurity", "Online Privacy", "Verschlüsselungsdienste", "Datenschutz-Tools", "Online-Sicherheit", "User Privacy", "Sichere Kommunikation", "E-Mail-Anbieter", "Sichere E-Mail-Dienste", "Benutzerfreundliche sichere E-Mail", "Anonyme Anmeldung", "Selbstzerstörende Nachrichten", "Integration benutzerdefinierter Domänen", "GDPR-Einhaltung", "Schweizer Datenschutz", "Deutscher Datenschutz", "Sichere Passwortwiederherstellung", "Online-Datenschutzlösungen", "Datenverschlüsselungsdienste"]
-cover: "/img/cover/secure-email-showdown.png"
+cover: "/img/cover/secure-email-showdown.webp"
 coverAlt: "Eine farbenfrohe Cartoon-Illustration, die drei Umschläge mit Vorhängeschlössern zeigt, die jeweils StartMail, ProtonMail und Tutanota repräsentieren, vor einem Hintergrund mit einem Sicherheitsschild."
 coverCaption: "Wähle deinen Guardian: Eine sichere E-Mail-Suche!"
 ---

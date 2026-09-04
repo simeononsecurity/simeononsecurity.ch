@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Rămâneți în fața amenințărilor cibernetice, aflând despre cele mai recente CVE-uri și actori de amenințare prin intermediul unor strategii și resurse eficiente."
 tags: ["securitate cibernetică", "CVE-uri", "actori de amenințare", "scanarea vulnerabilităților", "informații despre amenințări", "schimbul de informații", "colaborare în industrie", "avize de securitate", "NVD", "CVE", "US-CERT", "CERT", "ATT&CK® bolster", "OpenCTI", "NIST", "CISA", "vulnerabilități de securitate cibernetică", "amenințări emergente", "apărare proactivă", "scanarea automată a vulnerabilităților", "informații din surse deschise", "informații în timp real despre amenințări", "tacticile și tehnicile actorilor de amenințare", "OSINT tehnic", "Baze de date CVE", "avize de securitate ale furnizorilor", "bloguri de securitate", "fluxuri de informații despre amenințări", "comunități de schimb de informații", "reglementări guvernamentale"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "O ilustrație a unui scut cu o lupă care simbolizează securitatea cibernetică."
 coverCaption: "Apărați-vă și descoperiți: Împuternicește-te cu cunoștințe în domeniul securității cibernetice."
 ---

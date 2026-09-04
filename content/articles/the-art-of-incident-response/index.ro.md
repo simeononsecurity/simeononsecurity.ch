@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Învățați cele mai bune practici pentru răspunsul la incidente conform NIST SP 800-61 Rev. 2 și descoperiți exemple reale de strategii eficiente de răspuns la incidente."
 tags: ["răspunsul la incidente", "securitate cibernetică", "NIST", "cele mai bune practici", "informații despre amenințări", "comunicare", "analiza post-incident", "Equifax", "NotPetya", "SolarWinds", "Conducta Colonial", "Microsoft Exchange Server", "vulnerabilități", "detectarea intruziunilor", "izolare", "recuperare", "pregătire", "atacuri cibernetice", "criminalitate informatică", "incidente de securitate"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "O imagine ilustrată a unei echipe de profesioniști în domeniul securității cibernetice care lucrează împreună pentru a răspunde la un incident de securitate, cu o pictogramă de alertă roșie în fundal care indică urgența situației. "
 coverCaption: ""
 ---

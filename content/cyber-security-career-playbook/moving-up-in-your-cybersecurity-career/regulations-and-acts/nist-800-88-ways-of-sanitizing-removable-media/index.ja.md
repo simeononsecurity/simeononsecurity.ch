@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "機密データを不正アクセスから保護するために、ハードディスク、SSD、USBフラッシュドライブ、CD、DVD、ブルーレイディスクをサニタイズするNIST認定の方法についてご紹介します。"
 tags: ["NISTが承認した方法", "リムーバブルメディアのサニタイズ", "ハードドライブ", "SSD", "USBメモリー", "CD", "DVD", "ブルーレイディスク", "データ・セキュリティ", "機密データの保護"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "シュレッダーを背景にUSBメモリーを持つ人物の画像。"
 coverCaption: ""
 ---

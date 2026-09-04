@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek het onvertelde verhaal van mijn ervaring met NFC tag implantaten, waarbij ik inga op de risico's, complicaties en persoonlijke inzichten die het belang van weloverwogen besluitvorming onderstrepen."
 tags: ["NFC tag implantaten", "body hacking", "gevaarlijke dingen", "risico's van implantaten", "lichaamsaanpassingen", "complicaties", "afwijzing van het implantaat", "pijn en ontsteking", "zenuwschade", "verwijdering van het implantaat", "chronische pijn", "veiligheidsmaatregelen", "risico's vs. voordelen", "raadpleging", "onderzoek", "professionele installatie", "risico's van lichaamsmodificatie", "verplaatsing van het implantaat", "carpaal tunnel syndroom", "complicaties begrijpen", "persoonlijke veiligheid", "geïnformeerd besluit", "digitale interactie", "medische procedures", "veiligheid van implantaten", "voorzichtigheid bij lichaamsverandering", "complicaties van het implantaat", "persoonlijk welzijn", "gezondheidsoverwegingen", "professioneel advies"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Een afbeelding van een persoon met een hand met een NFC tag implantaat, vergezeld van pijnsymbolen rond de hand, die de risico's en complicaties van NFC tag implantaten illustreren."
 coverCaption: ""
 ---

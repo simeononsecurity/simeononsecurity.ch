@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide."
 genre: ["Cybersecurity", "Virtualization", "IT Infrastructure", "Automation", "PowerShell", "VMware", "STIG", "Compliance", "Scripting", "Datacenter"]
 tags: ["PowerCLI", "VMware STIG", "VMware security", "automation", "scripting", "PowerShell", "ESXi", "virtualization", "compliance", "cybersecurity", "how to use PowerCLI for VMware STIG", "automating VMware security with PowerCLI", "PowerCLI script for VMware STIG implementation", "PowerCLI automation for ESXi security", "secure VMware environment with PowerCLI"]
-cover: "/img/cover/An_illustration_depicting_a_computer_server_sh.png"
+cover: "/img/cover/An_illustration_depicting_a_computer_server_sh.webp"
 coverAlt: "An illustration depicting a computer server shielded with a lock, symbolizing secure VMware infrastructure."
 coverCaption: "Unlocking the Power of PowerCLI: Securing Your VMware Environment"
 ---

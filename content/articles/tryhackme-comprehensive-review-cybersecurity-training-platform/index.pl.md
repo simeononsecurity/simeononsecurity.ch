@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc TryHackMe: funkcje, ceny, certyfikaty, usługi sieciowe i nie tylko, pozwalające opanować umiejętności w zakresie cyberbezpieczeństwa."
 genre: ["Technologia", "Cyberbezpieczeństwo", "Nauka online", "Ethical Hacking", "Bezpieczeństwo sieci", "Wirtualne laboratoria", "Certyfikaty", "Ścieżki kształcenia", "Praktyczne doświadczenie", "Recenzja TryHackMe"]
 tags: ["TryHackMe", "Recenzja TryHackMe", "Certyfikaty TryHackMe", "Cennik TryHackMe", "Usługi sieciowe TryHackMe 2", "Subskrypcja TryHackMe", "Obejście uwierzytelniania TryHackMe", "TryHackMe File Inclusion", "TryHackMe OWASP Top 10 Walkthrough", "TryHackMe VPN", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "Podstawy usługi Active Directory TryHackMe", "Odpowiedzi TryHackMe", "TryHackMe Podstawy systemu Linux, część 3", "Logo TryHackMe", "TryHackMe Mitre", "TryHackMe Splunk", "Wstrzyknięcie kodu SQL w TryHackMe", "Wsparcie TryHackMe", "Narzędzia do analizy zagrożeń TryHackMe", "Luki w zabezpieczeniach przesyłania TryHackMe", "TryHackMe Walking an Application", "TryHackMe Windows Fundamentals 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Blue", "TryHackMe Blue Walkthrough"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Obraz przedstawiający hakera z peleryną superbohatera, symbolizujący wzmocnienie pozycji uzyskane dzięki szkoleniom TryHackMe w zakresie cyberbezpieczeństwa."
 coverCaption: "Wzmocnij swoją pozycję dzięki TryHackMe: Uwolnij swoje supermoce cyberbezpieczeństwa"
 ---

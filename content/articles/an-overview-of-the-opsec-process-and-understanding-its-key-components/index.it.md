@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplorate i componenti critici del processo OPSEC e imparate a proteggere efficacemente le informazioni sensibili."
 tags: ["Processo OPSEC", "sicurezza operativa", "protezione delle informazioni", "misure di sicurezza", "regolamenti governativi", "informazioni critiche", "valutazione della minaccia", "valutazione della vulnerabilità", "analisi del rischio", "contromisure", "sicurezza delle informazioni", "protezione dei dati", "riservatezza", "integrità", "disponibilità", "sicurezza informatica", "informazioni classificate", "compliance", "NISPOM", "HIPAA", "GDPR", "data privacy", "gestione del rischio", "posizione di sicurezza", "patrimonio informativo", "controlli di sicurezza", "mitigazione del rischio", "politiche di sicurezza", "consapevolezza della sicurezza", "prevenzione delle violazioni dei dati", "classificazione delle informazioni", "Quali dei seguenti elementi fanno parte del processo opsec?"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "Un'immagine che mostra uno scudo che protegge una cartella chiusa a chiave rappresenta la protezione di informazioni sensibili."
 coverCaption: ""
 ---

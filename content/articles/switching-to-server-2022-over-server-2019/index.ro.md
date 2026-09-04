@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți caracteristicile de securitate îmbunătățite, capacitățile de gestionare și automatizare, precum și performanța și scalabilitatea Windows Server 2022, ceea ce îl face cea mai bună alegere pentru companiile care doresc să facă upgrade de la Windows Server 2019."
 tags: ["Windows Server 2022", "Actualizare", "Afaceri", "Securitate", "Management", "Automatizare", "Performanță", "Scalabilitate", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "O imagine a unei săli de servere cu rânduri de servere care rulează Windows Server 2022. Serverele ar trebui să fie aranjate cu grijă și bine iluminate, sugerând o infrastructură IT bine întreținută și eficientă."
 coverCaption: ""
 ---

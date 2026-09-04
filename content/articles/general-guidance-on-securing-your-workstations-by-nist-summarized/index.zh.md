@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本综合指南基于美国国家标准与技术研究院（NIST）关于实施强大访问控制、保持软件更新、使用防病毒软件、启用防火墙保护、实施数据加密和定期备份数据的建议，介绍如何保护工作站安全和敏感信息。"
 tags: ["NIST 建议", "工作站安全", "网络安全", "数据加密", "防火墙保护", "杀毒软件", "访问控制", "敏感信息", "网络攻击", "数据备份"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "一个人坐在工作台前的图像，前景是一把安全锁，显示了确保工作台安全的重要性。"
 coverCaption: ""
 ---

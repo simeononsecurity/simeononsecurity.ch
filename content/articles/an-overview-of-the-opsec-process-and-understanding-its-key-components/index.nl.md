@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kritische onderdelen van het OPSEC-proces en leer hoe u gevoelige informatie effectief kunt beschermen."
 tags: ["OPSEC-proces", "operationele veiligheid", "informatiebeveiliging", "veiligheidsmaatregelen", "overheidsvoorschriften", "kritieke informatie", "dreigingsevaluatie", "kwetsbaarheidsbeoordeling", "risicoanalyse", "tegenmaatregelen", "informatiebeveiliging", "gegevensbescherming", "vertrouwelijkheid", "integriteit", "beschikbaarheid", "cyberbeveiliging", "gerubriceerde informatie", "compliance", "NISPOM", "HIPAA", "GDPR", "gegevensprivacy", "risicobeheer", "veiligheidspositie", "informatiemiddelen", "veiligheidscontroles", "risicobeperking", "veiligheidsbeleid", "veiligheidsbewustzijn", "preventie van datalekken", "informatieclassificatie", "welke van de volgende zijn onderdelen van het opsec proces"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "Een afbeelding met een schild ter bescherming van een vergrendelde map die de bescherming van gevoelige informatie voorstelt."
 coverCaption: ""
 ---

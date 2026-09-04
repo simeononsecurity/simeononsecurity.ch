@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie wichtige Tipps für sichere Praktiken in sozialen Medien, um Ihre Privatsphäre online zu schützen, und lernen Sie die Datenschutzeinstellungen beliebter Plattformen wie LinkedIn, Facebook, Twitter und Instagram kennen."
 tags: ["Datenschutz", "Online-Datenschutz", "soziale Medien", "sichere Praktiken", "Datenschutzeinstellungen", "LinkedIn", "Facebook", "Twitter", "Instagram", "Freundschaftsanfragen", "zufällige Links", "Umfragen", "staatliche Vorschriften", "GDPR", "CCPA", "Cybersicherheit", "datenschutz", "persönliche Daten", "Verletzung der Privatsphäre", "digitale Sicherheit", "Risiken für die Privatsphäre", "Datenschutzgesetze", "Datenschutzbestimmungen", "Datenschutz", "Online-Sicherheit", "Schutz der Privatsphäre", "Datenschutz in den sozialen Medien", "Tipps zum Datenschutz", "Online-Datenschutzmaßnahmen", "Schutz persönlicher Informationen"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Ein Bild, das ein Schild zeigt, das die persönlichen Daten einer Person bei der Nutzung von Social-Media-Plattformen schützt."
 coverCaption: ""
 ---

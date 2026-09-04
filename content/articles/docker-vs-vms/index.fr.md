@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez dans cet article la puissance de Docker dans le domaine du cloud computing, qui surpasse les VM grâce à sa simplicité, son évolutivité, sa sécurité et sa rentabilité."
 tags: ["Docker", "Machines virtuelles", "VMs", "Informatique en nuage", "Conteneurs", "Simplicité", "Évolutivité", "Sécurité", "Rapport coût-efficacité", "Fichier Docker", "Construire, tester et déployer", "L'isolement", "Expérience en matière de sécurité", "Comparaison des coûts", "Article informatif"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Image d'un cargo en forme de baleine bleue transportant plusieurs conteneurs Docker"
 coverCaption: ""
 ---

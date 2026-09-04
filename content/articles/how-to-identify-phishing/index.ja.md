@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "個人情報を守るために、電子メール、テキスト、電話などでフィッシングを見分ける方法を学びます。"
 tags: ["フィッシング", "オンラインセキュリティ", "メールセキュリティ", "サイバーセキュリティ", "インターネットセーフティー", "フィッシングメール", "フィッシング・テキスト", "フィッシングコール", "デジタル脅威", "こじんじょうほうぬすみ", "データ保護", "オンライン詐欺", "ネット詐欺", "オンラインプライバシー", "オンライン安全対策", "サイバー犯罪", "情報セキュリティ", "パスワードセキュリティ", "データ機密保護", "セキュリティ意識"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "スーパーヒーローのコスチュームと盾を持った漫画のキャラクターが、フィッシングメールが書かれた釣り竿をブロックしているイメージです。"
 coverCaption: ""
 ---

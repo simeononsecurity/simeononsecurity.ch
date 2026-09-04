@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj podstawy cyberbezpieczeństwa, w tym rodzaje cyberzagrożeń, znaczenie cyberbezpieczeństwa i kroki w celu poprawy bezpieczeństwa online."
 tags: ["Cybersecurity", "Cyberzagrożenia", "Bezpieczeństwo w sieci", "Ochrona danych", "Wirus", "Malware", "Oszustwa phishingowe", "Hakerzy", "Bezpieczeństwo narodowe", "Własność intelektualna", "Prywatność osobista"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Obraz osoby siedzącej przy komputerze z zatroskanym wyrazem twarzy, podczas gdy na ekranie wyświetlany jest haker lub cyberprzestępca, przedstawiający niebezpieczeństwa związane z zagrożeniami cybernetycznymi i znaczenie bezpieczeństwa cybernetycznego"
 coverCaption: ""
 ---

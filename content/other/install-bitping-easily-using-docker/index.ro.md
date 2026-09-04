@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aflați cum să instalați Bitping, o soluție puternică de monitorizare a site-urilor web și de optimizare a performanțelor pentru feedback în timp real cu privire la timpii de nefuncționare și performanțele degradate."
 tags: ["Bitping", "monitorizarea site-ului web", "optimizarea performanțelor", "monitorizare în timp real", "timp de nefuncționare", "performanță degradată", "testarea la stres", "analiză comparativă", "rerutare dinamică", "reprofilare", "informații despre rețea", "webhooks", "Solana", "nod", "teste de rețea ușoară", "plăți", "câștiguri", "performanța site-ului web", "analiza site-ului web", "monitorizare web", "monitorizarea performanțelor", "monitorizarea timpului de funcționare", "monitorizarea utilizatorului real", "testarea rețelei", "feedback-ul site-ului web", "alerte de pe site", "nivelul de inteligență a rețelei", "soluție de monitorizare", "performanța web", "măsurători de performanță"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "O ilustrație animată a unui tablou de bord de performanță a unui site web cu măsurători și alerte în timp real."
 coverCaption: ""
 ---

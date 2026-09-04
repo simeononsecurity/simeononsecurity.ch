@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie den Leistungsunterschied zwischen NVIDIA RTX 3090 und RTX 4090 beim Knacken von Passwörtern und zeigen Sie die Auswirkungen auf die Sicherheit und Schutzmaßnahmen auf."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "Passwortknacken", "Leistung", "Sicherheit", "Passwortschutz", "Cybersicherheit", "Benchmark", "GPU", "Passwort-Manager", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "staatliche Vorschriften", "CISA", "GDPR", "Datensicherheit", "Hardware-Vergleich", "Passwortsicherheit", "Grafikkarte", "Passwortstärke"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Eine illustrierte Darstellung eines digitalen Schlosses, das geknackt wird, symbolisiert den Inhalt des Artikels über die Leistung des Passwortknackens."
 coverCaption: ""
 ---

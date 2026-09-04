@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Acquisire una comprensione completa dei livelli OSI e del modello IP TCP, strutture essenziali per il networking, per facilitare una comunicazione efficace e la risoluzione dei problemi."
 genre: ["Fondamenti di rete", "Livelli OSI", "Modello IP TCP", "Protocolli di rete", "Modelli di comunicazione", "Fondamenti di rete", "Trasmissione dati", "Risoluzione dei problemi di rete", "Architettura di rete", "Concetti di rete"]
 tags: ["Livelli OSI", "Modello IP TCP", "Nozioni di base per il networking", "protocolli di rete", "modelli di comunicazione", "trasmissione dei dati", "Risoluzione dei problemi di rete", "architettura di rete", "concetti di rete", "fondamenti di rete", "quadri di rete", "spiegazione dei protocolli di rete", "standard di rete", "livello fisico", "livello di collegamento dati", "livello di rete", "livello di trasporto", "livello di sessione", "livello di presentazione", "livello applicativo", "Livelli TCP IP", "livello di interfaccia di rete", "livello internet", "livello di trasporto", "livello applicativo", "I protocolli di rete spiegati", "modelli di rete", "I fondamenti del networking spiegati", "Guida al collegamento in rete", "Esercitazione sul networking", "Migliori pratiche di rete"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Un'illustrazione animata che mostra una rete di nodi interconnessi con dati che scorrono tra loro, a simboleggiare una comunicazione e una rete efficienti."
 ---
  Fondamenti di rete: Comprendere i livelli OSI e il modello IP TCP

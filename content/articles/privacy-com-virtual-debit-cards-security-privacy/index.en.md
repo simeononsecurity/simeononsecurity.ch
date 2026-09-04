@@ -6,7 +6,7 @@ draft: false
 description: "Discover how Privacy.com's virtual debit cards can strengthen your online security and protect your privacy, all while offering easy control over transactions and subscriptions."
 genre: ["Online Security", "Digital Privacy", "Virtual Debit Cards", "Financial Protection", "Online Transactions", "Fraud Prevention", "Data Privacy", "Financial Privacy", "Cybersecurity", "Personal Finance"]
 tags: ["Privacy.com", "Virtual Debit Cards", "Online Security", "Digital Privacy", "Financial Protection", "Data Encryption", "Fraud Prevention", "Secure Transactions", "Bank-Level Security", "Privacy Controls", "Recurring Charges", "Merchant Lock Cards", "Financial Data Protection", "Payment Security", "Privacy Regulations", "Compliance", "PCI DSS", "GDPR", "Consumer Financial Protection Bureau", "Financial Technology", "Secure Online Payments", "Virtual Cards for Privacy", "Controlled Spending", "Online Subscriptions", "Personal Finance Management", "Data Breach Prevention", "Secure Digital Payments", "Cybersecurity Solutions", "Protect Financial Information", "Enhanced Privacy"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Imagine a vibrant and dynamic digital illustration showing a shielded virtual card protecting a lock symbol, representing the enhanced security and privacy offered by Privacy.com's virtual debit cards."
 coverCaption: "Protect, Control, and help Your Online Transactions."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of Microsoft Azure for Students - access free software like Windows Server, Windows 10, Windows 11 desktop, and Visual Studio to unlock your potential in technology and development."
 genre: ["Technology", "Cloud Computing", "Student Resources", "Software Development", "Microsoft Azure", "Windows Server", "Windows 10", "Windows 11", "Visual Studio", "Learning Tools"]
 tags: ["Azure for Students", "Microsoft Cloud Services", "Free Software Licenses", "Windows Server", "Windows 10", "Windows 11", "Visual Studio", "Student Development", "Cloud Computing", "Student Resources", "Software Development", "Learning Tools", "Virtual Machines", "Cloud Platform", "Microsoft Account", "Microsoft Tools", "Educational Benefits", "Development Environment", "Tech Skills", "Coding Challenges", "Azure Services", "Student Learning", "Development IDE", "Student Projects", "Microsoft OS", "Technology Education", "Coding Experience", "Hands-on Learning", "Student Developer", "Student Technology", "Microsoft Azure Benefits"]
-cover: "/img/cover/azure_for_students_animated_cloud.png"
+cover: "/img/cover/azure_for_students_animated_cloud.webp"
 coverAlt: "An animated student exploring the vast Azure cloud with a laptop in hand."
 coverCaption: "Unlock the Cloud's Wonders - help Your Journey"
 ---

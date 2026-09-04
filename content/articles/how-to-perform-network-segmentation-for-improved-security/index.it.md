@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Una guida su come eseguire la segmentazione della rete per migliorare la sicurezza e ridurre i rischi nell'organizzazione."
 tags: ["segmentazione della rete", "migliorare la sicurezza", "ridurre il rischio", "prestazioni della rete", "gestione della rete", "controlli di sicurezza", "firewall", "controlli di accesso", "privilegio minimo", "autenticazione", "test", "monitoring", "minacce informatiche", "violazioni dei dati", "architettura di rete", "sicurezza completa", "sicurezza a più livelli", "vulnerabilità", "attacchi informatici", "formazione dei dipendenti"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Un'immagine di una rete con più segmenti protetti da un firewall e da meccanismi di controllo degli accessi, con un hacker esterno alla rete che cerca di entrare."
 coverCaption: ""
 ---

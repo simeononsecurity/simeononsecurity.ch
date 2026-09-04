@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Aflați despre tacticile folosite de escrocii de phishing și descoperiți strategii eficiente pentru a vă proteja de a deveni o victimă."
 tags: ["escrocherii de tip phishing", "securitate cibernetică", "amenințări online", "falsificarea e-mailurilor", "Inginerie sociala", "protecție împotriva programelor malware", "siguranța online", "securitatea datelor", "furt de identitate", "securitatea parolei", "autentificare cu doi factori", "actualizări software", "reglementările guvernamentale", "confidențialitate online", "conștientizarea cibernetică", "fraudă digitală", "conștientizarea phishingului", "siguranța rețelelor sociale", "escrocherii online", "prevenirea criminalității cibernetice"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Un scut vigilent care protejează un utilizator de atacurile de tip phishing"
 coverCaption: ""
 ---

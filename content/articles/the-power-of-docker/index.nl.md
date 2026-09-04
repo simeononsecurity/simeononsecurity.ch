@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kracht van Docker en de voordelen ervan voor bedrijfstransformatie in deze uitgebreide gids voor het verbeteren van de overdraagbaarheid, beveiliging, efficiëntie en ontwikkeling van toepassingen."
 tags: ["Docker", "Bedrijfstransformatie", "Portabiliteit van de toepassing", "Verhoogde efficiëntie", "Verbeterde veiligheid", "Vereenvoudigde ontwikkeling en implementatie", "Software Toepassingen", "Containers", "Productiviteit", "Time-to-Market"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Een blauwe vinvis die licht geeft"
 coverCaption: ""
 ---

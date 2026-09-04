@@ -6,7 +6,7 @@ draft: false
 description: "Kompleksowy przewodnik po metodologii rozwiązywania problemów sieciowych, w tym kroki, narzędzia i najlepsze praktyki w zakresie wydajnego i skutecznego rozwiązywania problemów sieciowych."
 genre: ["Edukacja informatyczna", "Rozwiązywanie problemów z siecią", "Certyfikacja sieci", "Szkolenie IT", "Sieci komputerowe", "Umiejętności informatyczne", "Wiedza techniczna", "Specjaliści IT", "Koncepcje sieciowe", "Wsparcie sieciowe"]
 tags: ["metodologia rozwiązywania problemów z siecią", "problemy z siecią", "Specjaliści IT", "Model OSI", "narzędzia sieciowe", "kroki rozwiązywania problemów", "wydajność sieci", "Umiejętności informatyczne", "rozwiązywanie problemów", "diagnostyka sieci", "dokumentowanie rozwiązywania problemów", "konfiguracja sieci", "współpraca użytkowników", "regulacje rządowe", "standardy branżowe", "PCI DSS", "HIPAA", "RODO", "dokumentacja sieciowa", "ciągłe doskonalenie", "sieciowa baza wiedzy", "funkcjonalność systemu", "środki zapobiegawcze", "optymalizacja wydajności sieci", "narzędzia do rozwiązywania problemów z siecią", "łączność sieciowa", "Szkolenie IT", "proces rozwiązywania problemów z siecią", "techniki rozwiązywania problemów z siecią", "najlepsze praktyki wsparcia sieciowego", "przewodnik rozwiązywania problemów z siecią"]
-cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.png"
+cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.webp"
 coverAlt: "Ilustracja przedstawiająca inżyniera sieciowego używającego szkła powiększającego do analizy połączeń sieciowych i rozwiązywania problemów."
 coverCaption: "Uwolnij swoje umiejętności rozwiązywania problemów z siecią"
 ---

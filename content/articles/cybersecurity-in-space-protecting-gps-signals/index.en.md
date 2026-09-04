@@ -6,7 +6,7 @@ draft: false
 description: "Explore effortless cybersecurity in space, securing GPS signals against threats. Learn how to safeguard critical systems with advanced technology."
 genre: ["Cybersecurity", "Space Technology", "GPS Security", "Cyber Threats", "Military Technology", "Satellite Security", "Space-based Navigation", "GPS Spoofing", "Ground-based GPS Stations", "Government Regulations"]
 tags: ["Cybersecurity in Space", "GPS Signals", "GPS Security", "Space Technology", "Cyber Threats", "Military Technology", "Satellite Security", "GPS Spoofing", "Ground-based GPS Stations", "Government Regulations", "Spoofing Attacks", "Time Synchronization", "Encryption", "SAASM", "M-Code", "Space-based Security", "Ground-based Solutions", "Navigation Security", "Space-based Cybersecurity", "Space-based Threats", "Space-based Systems", "GPS Vulnerabilities", "Space Security Measures", "Cybersecurity Risks", "Secure GPS Signals", "Cyber Defense", "Space-based Navigation Systems", "GPS Accuracy", "Security Measures", "Space-based Technology"]
-cover: "/img/cover/cybersecurity-in-space-protecting-gps.png"
+cover: "/img/cover/cybersecurity-in-space-protecting-gps.webp"
 coverAlt: "A symbolic artwork depicting a satellite with a shield protecting it from cyber threats."
 coverCaption: "Securing Space, Protecting Systems"
 ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget"]

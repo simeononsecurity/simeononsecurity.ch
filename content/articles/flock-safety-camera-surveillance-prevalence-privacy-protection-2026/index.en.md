@@ -89,7 +89,7 @@ The company's flagship product is the **Flock Safety Falcon camera**, a solar-po
 
 Flock cameras capture more than just plate numbers. They record the make, model, color, body type, and distinguishing features of every vehicle that passes. The company markets these as vehicle "fingerprints." This means every trip you take is catalogued, even when you have done nothing wrong.
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### How ALPR Technology Works
 
@@ -204,7 +204,7 @@ The widespread deployment of ALPR surveillance raises serious **Fourth Amendment
 
 What began as a tool for **solving property crimes** has expanded dramatically. These are not hypothetical risks. They are documented patterns.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE and Immigration Enforcement
 **ICE has used Flock to locate and pursue undocumented immigrants without warrants.** The platform's nationwide network gives federal immigration enforcement a tool to track individuals across jurisdictions without any individualized probable cause. Many communities that funded their Flock networks for property crime recovery have discovered their cameras are part of federal immigration enforcement operations.
@@ -281,7 +281,7 @@ ______
 
 Grassroots organizing is working. City councils across the country are canceling Flock contracts when residents show up and demand accountability. The **ACLU** has built a full infrastructure to help communities fight back.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### The ACLU Toolkit
 

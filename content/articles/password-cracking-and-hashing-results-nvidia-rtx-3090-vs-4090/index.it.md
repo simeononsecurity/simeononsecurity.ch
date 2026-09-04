@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite il divario di prestazioni tra NVIDIA RTX 3090 e RTX 4090 nel cracking delle password, evidenziando le implicazioni per la sicurezza e le misure di protezione."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "cracking delle password", "prestazioni", "sicurezza", "protezione con password", "sicurezza informatica", "parametro di riferimento", "GPU", "gestore di password", "password forti", "autenticazione a due fattori", "regolamenti governativi", "CISA", "GDPR", "sicurezza dei dati", "Confronto hardware", "sicurezza della password", "scheda grafica", "forza della password"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Una rappresentazione illustrata di un lucchetto digitale che viene violato, che simboleggia il contenuto dell'articolo sulle prestazioni di cracking delle password."
 coverCaption: ""
 ---

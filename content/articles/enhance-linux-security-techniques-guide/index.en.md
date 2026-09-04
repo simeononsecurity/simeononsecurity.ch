@@ -6,7 +6,7 @@ draft: false
 description: "Discover the top 5 Linux security techniques to fortify your system against threats. Improve system integrity and safeguard sensitive data with expert hardening measures."
 genre: ["Technology", "Cybersecurity", "Linux", "System Security", "Open-source", "Hardening", "IT", "Data Protection", "Network Security", "Computer Science"]
 tags: ["Linux Security", "System Hardening", "Cyber Defense", "Open-source OS", "Data Protection", "IT Security", "Network Protection", "Cyber Threats", "Firewall Management", "Intrusion Detection", "File System Encryption", "User Access Control", "Patch Management", "System Updates", "Linux Kernel", "Process Isolation", "File Permissions", "User Management", "Security Best Practices", "Vulnerability Assessment", "Multi-factor Authentication", "Password Policies", "Monitoring Tools", "Real-time Alerts", "Security Awareness", "Security Incidents", "Data Breaches", "Malware Attacks", "Online Safety"]
-cover: "/img/cover/linux-security-penguin-warrior.png"
+cover: "/img/cover/linux-security-penguin-warrior.webp"
 coverAlt: "A symbolic art showing a shielded penguin warrior protecting a secure server."
 coverCaption: "Linux Guardian: Defending Your Digital Realm!"
 ---

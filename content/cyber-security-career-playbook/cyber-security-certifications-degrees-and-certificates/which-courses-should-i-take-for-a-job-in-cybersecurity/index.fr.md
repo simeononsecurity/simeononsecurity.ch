@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Découvrez les cours de cybersécurité indispensables qui vous permettront d'acquérir les compétences et les connaissances nécessaires pour mener une carrière florissante dans ce secteur."
 tags: ["cours de cybersécurité", "cours essentiels", "développement de carrière", "formation à la cybersécurité", "la sécurité de l'information", "sécurité des réseaux", "piratage éthique", "incident response", "certifications de sécurité", "confidentialité des données", "conformité", "sécurité des nuages", "Sécurité de l'IdO", "Sécurité ICS", "compétences en matière de cybersécurité", "éducation à la cybersécurité", "parcours de carrière en cybersécurité", "perspectives d'emploi dans le domaine de la cybersécurité", "certifications en cybersécurité", "industrie de la cybersécurité", "tendances en matière de cybersécurité", "meilleures pratiques en matière de cybersécurité", "Marché de l'emploi dans le domaine de la cybersécurité", "programmes de formation à la cybersécurité", "programme d'études sur la cybersécurité", "spécialisation en cybersécurité", "ressources pédagogiques sur la cybersécurité", "cours en ligne sur la cybersécurité", "programmes d'études en cybersécurité", "opportunités de carrière en cybersécurité"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "Illustration représentant un professionnel de la cybersécurité brandissant un bouclier pour protéger les actifs numériques contre les cybermenaces."
 coverCaption: "Assurez votre avenir grâce à des cours essentiels en cybersécurité."
 ---

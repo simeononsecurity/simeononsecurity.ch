@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Ontdek het belang van cyberbeveiliging en leer hoe u uw persoonlijke, zakelijke en nationale veiligheid kunt beschermen tegen evoluerende cyberbedreigingen."
 genre: ["De basis van cyberbeveiliging begrijpen", "Het belang van cyberbeveiliging", "Persoonlijke gegevens beschermen", "Bedrijfsgegevens beveiligen", "Nationale veiligheid", "Belangrijke cyberbeveiligingsterminologie", "Soorten cyberaanvallen", "Beste praktijken voor cyberbeveiliging", "De rol van encryptie in cyberbeveiliging", "Cyberbeveiliging voor bedrijven"]
 tags: ["Cyberbeveiliging", "Basisprincipes van cyberbeveiliging", "Het belang van cyberbeveiliging", "Persoonlijke gegevens beschermen", "Bescherming van bedrijfsgegevens", "Nationale Veiligheid", "Cyberbedreigingen", "Malware", "Phishing", "Ransomware", "Kwetsbaarheden", "Uitbuitingen", "Social engineering-aanvallen", "Wachtwoordaanvallen", "Man-in-the-Middle-aanvallen", "DDoS-aanvallen", "Beste praktijken voor cyberbeveiliging", "Sterke wachtwoorden", "Software-updates", "Multi-Factor Authenticatie", "Cyberbeveiligingsterminologie", "Soorten cyberaanvallen", "De rol van encryptie in cyberbeveiliging", "Encryptietypen", "Gegevensbescherming", "Cyberbeveiligingsplan", "Training en bewustwording van werknemers", "Regelmatige beveiligingsaudits", "Opkomende cyberbedreigingen", "Kunstmatige intelligentie in cyberbeveiliging"]
-cover: "/img/cover/understanding-the-basics-of-cybersecurity.png"
+cover: "/img/cover/understanding-the-basics-of-cybersecurity.webp"
 coverAlt: "Een schild met een slotsymbool, dat staat voor cyberbeveiliging en bescherming tegen cyberbedreigingen."
 ---
 

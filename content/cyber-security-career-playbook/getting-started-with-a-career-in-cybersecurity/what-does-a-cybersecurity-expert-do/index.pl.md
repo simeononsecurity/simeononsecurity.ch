@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Odkryj obowiązki, umiejętności i przepisy branżowe, które określają rolę eksperta ds. cyberbezpieczeństwa w ochronie zasobów cyfrowych i zwalczaniu cyberzagrożeń."
 tags: ["ekspert ds. cyberbezpieczeństwa", "rola w cyberbezpieczeństwie", "obowiązki w zakresie cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "analiza zagrożeń", "reakcja na incydent", "świadomość bezpieczeństwa", "bezpieczeństwo sieci", "algorytmy szyfrowania", "bezpieczne kodowanie", "regulacje branżowe", "RODO", "HIPAA", "PCI DSS", "certyfikaty", "CISSP", "CEH", "CompTIA Security+", "Ochrona zasobów cyfrowych", "cyberzagrożenia", "bezpieczeństwo danych", "ochrona sieci", "ocena podatności na zagrożenia", "audyty bezpieczeństwa", "wykrywanie złośliwego oprogramowania", "zapobieganie naruszeniom danych", "kariera w cyberbezpieczeństwie", "szkolenie w zakresie cyberbezpieczeństwa", "certyfikaty cyberbezpieczeństwa", "bezpieczeństwo informacji", "cyberobrona"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Animowany ekspert ds. cyberbezpieczeństwa w pelerynie superbohatera, stojący pewnie z tarczą w jednej ręce i symbolem kłódki w drugiej, chroniący zasoby cyfrowe."
 coverCaption: "Symboliczne przedstawienie eksperta ds. cyberbezpieczeństwa, uzbrojonego w wiedzę i narzędzia, broniącego zasobów cyfrowych przed cyberzagrożeniami."
 ---

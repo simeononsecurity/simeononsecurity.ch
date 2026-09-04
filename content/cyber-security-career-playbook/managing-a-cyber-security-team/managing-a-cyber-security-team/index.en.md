@@ -6,7 +6,7 @@ date: 2023-07-03
 description: "Discover essential skills and best practices for effectively managing a cybersecurity team in today's evolving threat landscape and remote work environment."
 genre: ["Cybersecurity management", "Information security leadership", "Team management", "Best practices", "Skill development", "Cyber risk management", "Incident response", "Communication", "Collaboration", "Continuous learning"]
 tags: ["cybersecurity team management", "cybersecurity skills", "best practices", "technical skills", "non-technical skills", "information security", "privacy controls", "operations and strategy", "incident response", "financing and administration", "information security law", "leadership", "project management", "motivation", "productivity", "communication", "critical thinking", "problem-solving", "cybersecurity policies", "collaboration", "managing an information security team", "effective incident preparation and response", "cybersecurity budgeting and administration", "information security law compliance", "project management skills in cybersecurity", "motivation and productivity in information security teams", "communication strategies in cybersecurity", "critical thinking and problem-solving in cybersecurity"]
-cover: "/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.png"
+cover: "/img/cover/An_animated_image_showing_a_team_of_cybersecurity_professio.webp"
 coverAlt: "An animated image showing a team of cybersecurity professionals working together to defend against cyber threats, with security-related icons and network connections in the background."
 coverCaption: "Unleash the Power of Your Cybersecurity Team! Together, We're Stronger."
 ---

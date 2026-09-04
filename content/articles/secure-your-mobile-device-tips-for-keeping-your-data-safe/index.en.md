@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Learn how to secure your mobile device and protect your data from cyber threats with these effective tips for mobile device security."
 genre: ["Technology", "Cybersecurity", "Mobile Security", "Data Protection", "Online Safety", "Privacy", "Phishing Attacks", "Malware", "Wi-Fi Security", "Password Security"]
 tags: ["Mobile Security", "Cybersecurity", "Data Protection", "Mobile Devices", "Online Safety", "Privacy", "Phishing Attacks", "Malware", "Wi-Fi Security", "Stolen Devices", "Password Security", "Biometric Authentication", "Two-Factor Authentication", "Antivirus Software", "App Permissions", "Privacy Settings", "Data Encryption", "Data Backups", "Public Wi-Fi Safety", "Lost or Stolen Devices", "Mobile Security Tips", "Mobile Security Best Practices", "Mobile Security Solutions", "Protecting Mobile Devices", "Securing Mobile Apps", "Mobile Device Management", "Mobile Security Threats", "Mobile Privacy Tips", "Mobile Data Security", "Mobile Cybersecurity"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "A cartoon illustration of a smartphone with a shield and lock symbol, representing mobile device security and data protection"  
 coverCaption: "Secure your mobile device and keep your data safe!"
 ---

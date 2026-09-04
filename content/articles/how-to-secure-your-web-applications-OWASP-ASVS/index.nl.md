@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw webapplicaties kunt beveiligen met behulp van de OWASP Application Security Verification Standard (ASVS) om te voldoen aan de strengste veiligheidsmaatregelen en bescherming te bieden tegen veelvoorkomende kwetsbaarheden."
 tags: ["beveiliging van webtoepassingen", "OWASP", "ASVS", "applicatiebeveiliging", "beveiligingsnormen", "cyberbeveiliging", "beheer van kwetsbaarheden", "veilige codering", "penetratietesten", "dreigingsmodellering", "veiligheidscontroles", "veiligheidsbeoordeling", "automatische beveiligingstests", "handmatige beveiligingstests", "veilige ontwikkelingscyclus", "beste beveiligingspraktijken", "gegevensbeveiliging", "risicobeheer", "compliance", "informatiebeveiliging"]
-cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png"
+cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Een gepantserd schild met de letters 'ASVS' in het vet, met daarachter het schild dat een webapplicatie beschermt"
 coverCaption: ""
 ---

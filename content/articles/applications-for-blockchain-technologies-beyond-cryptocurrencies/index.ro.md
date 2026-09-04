@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți diversele aplicații ale tehnologiei blockchain dincolo de criptomonede, care revoluționează finanțele, managementul lanțului de aprovizionare, sănătatea, energia și multe altele."
 genre: ["Tehnologia Blockchain", "Criptomonedă", "Finanțe", "Managementul lanțului de aprovizionare", "Asistență medicală", "Energie", "Utilități", "Finanțe descentralizate", "Contracte inteligente", "Plăți transfrontaliere"]
 tags: ["blockchain", "criptomonedă", "finanțe", "managementul lanțului de aprovizionare", "asistență medicală", "energie", "utilități", "finanțare descentralizată", "contracte inteligente", "plăți transfrontaliere", "sursa", "trasabilitate", "logistică", "mărfuri contrafăcute", "lanțuri de aprovizionare durabile", "gestionarea securizată a datelor pacienților", "trasabilitatea medicamentelor", "studii clinice", "telemedicină", "monitorizare de la distanță", "rețele energetice descentralizate", "comerțul cu energie de la egal la egal", "contorizare inteligentă", "facturare", "blockchains publice", "blockchains private", "transparență", "securitate", "imutabilitate"]
-cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png"
+cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.webp"
 coverAlt: "O imagine care descrie blocuri interconectate care formează un lanț, reprezentând tehnologia blockchain."
 coverCaption: "Deblocarea potențialului tehnologiei Blockchain"
 ---

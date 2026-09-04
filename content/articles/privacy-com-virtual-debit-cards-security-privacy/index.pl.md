@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj, w jaki sposób wirtualne karty debetowe Privacy.com mogą zwiększyć Twoje bezpieczeństwo w Internecie i chronić Twoją prywatność, jednocześnie oferując łatwą kontrolę nad transakcjami i subskrypcjami."
 genre: ["Bezpieczeństwo online", "Prywatność cyfrowa", "Wirtualne karty debetowe", "Ochrona finansowa", "Transakcje online", "Zapobieganie oszustwom", "Prywatność danych", "Prywatność finansowa", "Cyberbezpieczeństwo", "Finanse osobiste"]
 tags: ["Privacy.com", "Wirtualne karty debetowe", "Bezpieczeństwo online", "Prywatność cyfrowa", "Ochrona finansowa", "Szyfrowanie danych", "Zapobieganie oszustwom", "Bezpieczne transakcje", "Bezpieczeństwo na poziomie banku", "Kontrola prywatności", "Opłaty cykliczne", "Karty Merchant Lock", "Ochrona danych finansowych", "Bezpieczeństwo płatności", "Przepisy dotyczące prywatności", "Zgodność", "PCI DSS", "RODO", "Biuro Ochrony Finansowej Konsumentów", "Technologia finansowa", "Bezpieczne płatności online", "Wirtualne karty zapewniające prywatność", "Kontrolowane wydatki", "Subskrypcje online", "Zarządzanie finansami osobistymi", "Zapobieganie naruszeniom danych", "Bezpieczne płatności cyfrowe", "Rozwiązania z zakresu cyberbezpieczeństwa", "Ochrona informacji finansowych", "Zwiększona prywatność"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Wyobraź sobie żywą i dynamiczną cyfrową ilustrację przedstawiającą osłoniętą wirtualną kartę chroniącą symbol kłódki, reprezentującą zwiększone bezpieczeństwo i prywatność oferowane przez wirtualne karty debetowe Privacy.com."
 coverCaption: "Chroń, kontroluj i wzmacniaj swoje transakcje online."
 ---

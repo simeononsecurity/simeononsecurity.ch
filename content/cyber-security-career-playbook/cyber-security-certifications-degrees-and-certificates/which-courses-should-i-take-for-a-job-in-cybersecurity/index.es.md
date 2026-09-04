@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Descubra los cursos de ciberseguridad imprescindibles que le dotarán de las habilidades y conocimientos necesarios para una próspera carrera en el sector."
 tags: ["cursos de ciberseguridad", "cursos esenciales", "desarrollo profesional", "formación en ciberseguridad", "seguridad de la información", "seguridad de la red", "hacking ético", "respuesta a incidentes", "certificaciones de seguridad", "privacidad de los datos", "conformidad", "seguridad en la nube", "Seguridad IoT", "Seguridad ICS", "competencias en ciberseguridad", "educación en ciberseguridad", "trayectoria profesional en ciberseguridad", "perspectivas de empleo en ciberseguridad", "certificaciones de ciberseguridad", "industria de la ciberseguridad", "tendencias en ciberseguridad", "buenas prácticas de ciberseguridad", "mercado laboral de la ciberseguridad", "programas de formación en ciberseguridad", "plan de estudios de ciberseguridad", "especialización en ciberseguridad", "recursos de aprendizaje sobre ciberseguridad", "cursos en línea de ciberseguridad", "programas de ciberseguridad", "oportunidades profesionales en ciberseguridad"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "Ilustración de un profesional de la ciberseguridad con escudo que protege los activos digitales contra las ciberamenazas."
 coverCaption: "Asegure su futuro con cursos esenciales de ciberseguridad."
 ---

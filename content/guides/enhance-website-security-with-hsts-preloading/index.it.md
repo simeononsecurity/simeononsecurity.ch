@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "Scoprite come migliorare la sicurezza dei siti web e la fiducia degli utenti precaricando le impostazioni HSTS su Chrome e Firefox. Seguite la nostra guida passo passo per un'implementazione perfetta."
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "Un'illustrazione in stile fumetto di un sito web protetto da un lucchetto, che rappresenta una maggiore sicurezza e protezione contro le minacce informatiche."
 coverCaption: "Rafforzate la difesa del vostro sito web, adottando il precaricamento HSTS."
 ---

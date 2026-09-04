@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Scoprite le migliori distro Linux per la privacy e la sicurezza, per garantire la protezione dei vostri dati e la sicurezza delle vostre attività online."
 tags: ["Distro Linux", "privacy e sicurezza", "Coda", "Qubes OS", "Whonix", "Sistema operativo di sicurezza Parrot", "Ubuntu Privacy Remix", "OpenBSD", "protezione dei dati", "informatica sicura", "navigazione anonima", "virtualizzazione", "test di sicurezza", "analisi forense", "test di penetrazione", "strumenti di crittografia", "secure deletion", "anonimato", "sicurezza informatica", "correttezza del codice", "sicurezza online", "protezione dei dati degli utenti", "riservatezza", "recupero dati", "banca online", "online privacy", "ambiente sicuro", "navigazione sicura", "Rete Tor", "misure di sicurezza", "sicuro per impostazione predefinita"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Un'immagine raffigurante uno scudo che protegge un computer, simbolo di privacy e sicurezza nel mondo digitale."
 coverCaption: ""
 ---

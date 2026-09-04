@@ -6,7 +6,7 @@ draft: false
 description: "探索路由技术和概念的世界，从 RIP、OSPF、EIGRP 和 BGP 等动态路由协议，到链路状态、距离矢量和混合路由协议，以及静态路由和默认路由的配置。"
 genre: ["技术", "联网", "路由", "网络协议", "网络管理", "动态路由", "静态路由", "带宽管理", "服务质量", "网络设备"]
 tags: ["路由技术", "动态路由协议", "RIP", "OSPF", "EIGRP", "BGP", "链接状态", "距离向量", "混合路由协议", "静态路由", "默认路由", "行政距离", "外部路由", "内部路由", "生活时间", "带宽管理", "流量整形", "服务质量", "网络设备", "路由器", "开关", "防火墙", "负载平衡器", "接入点", "网络优化", "网络性能", "网络安全", "网络架构", "网络流量"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "互联网络设备的示意图，数据在这些设备之间流动。"
 coverCaption: "数字高速公路导航：优化网络路由，实现最高性能"
 ---

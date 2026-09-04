@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "Descubra los valores de tipo de sistema operativo invitado válidos para vSphere Packer Builder, optimizando su proceso de creación de máquinas virtuales para VMware vSphere con facilidad."
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## Lista de valores "guest_os_type" válidos para vSphere Packer Builder

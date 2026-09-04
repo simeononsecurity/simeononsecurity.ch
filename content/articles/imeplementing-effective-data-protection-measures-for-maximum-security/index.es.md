@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Aplicar medidas eficaces de protección de datos es crucial para salvaguardar su empresa frente a accesos no autorizados y violaciones de datos."
 genre: ["Estrategias de protección de datos", "Seguridad de la información", "Medidas de ciberseguridad", "Protección de datos", "Normativa de cumplimiento", "Evaluación de riesgos", "Auditorías de seguridad", "Formación de los empleados", "Planificación de la respuesta a incidentes", "Protección de datos a largo plazo"]
 tags: ["protección de datos", "medidas de seguridad", "violaciones de datos", "ciberseguridad", "seguridad de la información", "normas de cumplimiento", "evaluación de riesgos", "auditorías de seguridad", "formación de empleados", "planificación de la respuesta a incidentes", "encriptación de datos", "almacenamiento seguro de datos", "controles de acceso", "autenticación", "cultura de seguridad", "política de tratamiento de datos", "respuesta a las violaciones de datos", "plan de respuesta a incidentes", "comunicación", "aprender de los incidentes de seguridad", "protección de datos a largo plazo", "nuevas amenazas", "tecnologías", "políticas", "seguridad de los datos", "privacidad", "conformidad", "ciberataques", "vulnerabilidades", "concienciación de los empleados"]
-cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.png"
+cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.webp"
 coverAlt: "Un escudo que protege los datos de las ciberamenazas en un estilo de arte simbólico."
 ---
 

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von Docker und seine Vorteile für die Transformation von Unternehmen in diesem umfassenden Leitfaden zur Verbesserung der Anwendungsportabilität, Sicherheit, Effizienz und Entwicklung."
 tags: ["Docker", "Enterprise Transformation", "Übertragbarkeit von Anwendungen", "Gesteigerte Effizienz", "Verbesserte Sicherheit", "Vereinfachte Entwicklung und Bereitstellung", "Software-Anwendungen", "Behältnisse", "Produktivität", "Markteinführungszeit"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Ein Blauwal, der Licht abgibt"
 coverCaption: ""
 ---

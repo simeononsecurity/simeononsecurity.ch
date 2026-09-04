@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover how to effectively use Nmap for network scanning, port scanning, service detection, and operating system identification to assess network security."
 tags: ["nmap", "network scanning", "security assessment", "port scanning", "service detection", "operating system detection", "Nmap Scripting Engine", "ethical hacking", "network security", "network infrastructure", "vulnerability detection", "ping scan", "TCP SYN scan", "permission", "legality", "network impact", "targeted scanning", "data protection", "CFAA", "GDPR", "network mapping", "network reconnaissance", "network security tools", "cybersecurity", "open-source tool", "command-line tool", "host discovery", "network intelligence", "information gathering", "network vulnerabilities", "secure network environment"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Network Security Concept with Nmap Scanning Tools in a 3D Animated Style."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Explorați amenințările comune la adresa securității cibernetice, impactul acestora asupra persoanelor și întreprinderilor și modalitățile eficiente de protecție împotriva lor."
 genre: ["Amenințări la adresa securității cibernetice", "Importanța securității cibernetice", "Tipuri de amenințări", "Impactul amenințărilor", "Protecția împotriva amenințărilor", "Rolul guvernului în domeniul securității cibernetice", "Rolul industriei în domeniul securității cibernetice", "Reglementări și conformitate", "Parteneriate public-private", "Cercetare și dezvoltare în domeniul securității cibernetice"]
 tags: ["amenințări la adresa securității cibernetice", "atacuri cibernetice", "măsuri de securitate cibernetică", "întreprinderi mici", "pierderi financiare", "daune de reputație", "încălcări ale datelor", "furt de identitate", "phishing", "ransomware", "Atacuri DDoS", "amenințări din interior", "actualizări de software", "parole puternice", "formarea angajaților", "autentificarea cu mai mulți factori", "copii de siguranță a datelor", "reglementări guvernamentale", "conformitate", "parteneriate public-private", "cercetare și dezvoltare în domeniul securității cibernetice", "importanța securității cibernetice", "protejarea persoanelor", "protejarea întreprinderilor", "rolul guvernului", "rolul industriei", "amenzi de reglementare", "daune de reputație", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "O ilustrație simbolică a unui scut care protejează activele digitale de amenințările cibernetice, cu un cod binar în fundal."
 ---
 

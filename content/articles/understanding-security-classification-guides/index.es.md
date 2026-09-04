@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore la importancia de las guías de clasificación de seguridad para salvaguardar la información clasificada y garantizar el cumplimiento de la normativa."
 tags: ["guías de clasificación de seguridad", "protección de la información", "información clasificada", "normativa gubernamental", "mitigación de riesgos", "control de acceso", "seguridad de la información", "procedimientos de marcado", "procedimientos de manipulación", "seguridad nacional", "conformidad", "amenazas internas", "intercambio de información", "propiedad intelectual", "toma de decisiones", "obligaciones legales", "obligaciones éticas", "colaboración internacional", "ISO 27001", "NISPOM", "Decreto 13526", "clasificación de la información", "protección de datos", "gestión de la información", "intercambio controlado", "confidencialidad de la información", "integridad de la información", "cultura de seguridad de la información", "directrices sobre seguridad de la información", "prácticas de seguridad de la información", "concienciación sobre la seguridad de la información"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Imagen que representa una carpeta de documentos cerrada con un escudo que simboliza la protección de la información clasificada."
 coverCaption: ""
 ---

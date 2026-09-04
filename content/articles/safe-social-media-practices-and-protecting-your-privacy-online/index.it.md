@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i consigli essenziali per una gestione sicura dei social media per proteggere la vostra privacy online e imparate a conoscere le impostazioni sulla privacy di piattaforme popolari come LinkedIn, Facebook, Twitter e Instagram."
 tags: ["privacy", "online privacy", "social media", "pratiche sicure", "impostazioni sulla privacy", "LinkedIn", "Facebook", "Twitter", "Instagram", "richieste di amicizia", "link casuali", "sondaggi", "regolamenti governativi", "GDPR", "CCPA", "sicurezza informatica", "protezione dei dati", "dati personali", "violazione della privacy", "sicurezza digitale", "rischi per la privacy", "leggi sulla privacy", "norme sulla privacy", "data privacy", "sicurezza online", "protezione della privacy", "privacy sui social media", "Consigli per la privacy", "pratiche di privacy online", "protezione delle informazioni personali"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Un'immagine che raffigura uno scudo che protegge le informazioni personali di una persona mentre utilizza le piattaforme di social media."
 coverCaption: ""
 ---

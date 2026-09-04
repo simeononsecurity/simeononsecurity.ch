@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die 5 wichtigsten Fähigkeiten, die jeder Manager von Informationssystemen haben sollte, um in der heutigen digitalen Welt erfolgreich zu sein."
 genre: ["Technologie", "Business", "Management", "IT", "Berufliche Entwicklung", "Digitale Transformation", "Datenanalyse", "Cloud Computing", "Projektleitung", "Leiterschaft"]
 tags: ["Informationssysteme", "Manager", "MIS", "technische Fähigkeiten", "analytische Fähigkeiten", "Führungsqualitäten", "Projektmanagement-Fähigkeiten", "Kommunikationsfähigkeit", "Cloud Computing", "Datenanalyse", "Problemlösung", "kritisches Denken", "Entscheidungsfindung", "Teamleitung", "Zusammenarbeit", "Projektplanung", "Ressourcenmanagement", "Kommunikation", "Technologie", "Geschäftsabläufe", "digitale Transformation", "datengestützte Entscheidungen", "Cloud-basierte Plattformen", "Systemarchitektur", "Datenbankverwaltung", "Programmiersprachen", "IT-Kenntnisse", "berufliche Entwicklung"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Cartoon-Illustration eines Managers für Informationssysteme, der ein Computernetz überwacht"
 coverCaption: "Beherrschen Sie die erforderlichen Fähigkeiten, um ein erfolgreicher Manager von Informationssystemen zu werden."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Ontdek de verantwoordelijkheden, vaardigheden en industrievoorschriften die de rol van een cyberbeveiligingsexpert bepalen bij het beveiligen van digitale activa en het bestrijden van cyberbedreigingen."
 tags: ["cyberbeveiligingsexpert", "rol cyberbeveiliging", "verantwoordelijkheden op het gebied van cyberbeveiliging", "cyberbeveiligingsvaardigheden", "dreigingsinformatie", "reactie op incidenten", "beveiligingsbewustzijn", "netwerkbeveiliging", "encryptie-algoritmen", "veilig coderen", "industriële regelgeving", "GDPR", "HIPAA", "PCI DSS", "certificeringen", "CISSP", "CEH", "CompTIA Beveiliging+", "digitale activa beschermen", "cyberbedreigingen", "gegevensbeveiliging", "netwerkbeveiliging", "kwetsbaarheidsbeoordeling", "veiligheidscontroles", "detectie van malware", "preventie van datalekken", "carrière in cyberbeveiliging", "cyberbeveiligingstraining", "cyberbeveiligingscertificeringen", "informatiebeveiliging", "cyberdefensie"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Een geanimeerde cyberbeveiligingsexpert met een superheldencape, zelfverzekerd met een schild in de ene hand en een slotsymbool in de andere, die digitale activa beschermt."
 coverCaption: "Een symbolische weergave van een cyberbeveiligingsdeskundige die, gewapend met kennis en tools, digitale middelen verdedigt tegen cyberbedreigingen."
 ---

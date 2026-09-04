@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj strukturę katalogów Windows i dowiedz się, jak efektywnie zarządzać plikami i poruszać się po hierarchicznym systemie."
 genre: ["Struktura katalogów Windows", "Zarządzanie plikami w systemie Windows", "Nawigacja po katalogach", "Organizacja plików", "Ścieżki plików systemu Windows", "Foldery systemowe Windows", "Katalog użytkownika", "Katalog Program Files", "Katalog główny systemu Windows", "Katalog plików tymczasowych"]
 tags: ["struktura katalogów w windows", "struktura katalogów windows", "zarządzanie plikami", "organizacja plików", "ścieżki plików", "katalog główny", "katalog systemowy", "katalog użytkownika", "katalog plików programu", "nawigacja po katalogach windows", "eksplorator plików", "wiersz polecenia", "bezwzględna ścieżka pliku", "względna ścieżka pliku", "system plików windows", "zarządzanie plikami windows", "dostęp do plików", "działanie systemu", "narzędzie do eksploracji plików", "polecenia windows", "Ścieżki plików systemu Windows", "wydajne zarządzanie plikami", "organizacja okien", "katalog plików tymczasowych", "struktura plików windows", "system operacyjny windows", "folder profilu użytkownika systemu Windows", "pliki systemowe", "zasoby systemu windows"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "Obraz przedstawiający drzewiastą strukturę reprezentującą system katalogów Windows."
 coverCaption: "Efektywne zarządzanie plikami za pomocą struktury katalogów systemu Windows."
 ---

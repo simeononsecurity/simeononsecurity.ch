@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Windows Server 2022 改进后的安全功能、管理和自动化功能以及性能和可扩展性，使其成为希望从 Windows Server 2019 升级的企业的最佳选择。"
 tags: ["Windows Server 2022", "升级", "商业", "安全", "管理层", "自动化", "性能", "可扩展性", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "一张服务器机房的图片，其中有一排运行 Windows Server 2022 的服务器。服务器排列整齐，光线充足，表明这是一个维护良好、高效的 IT 基础设施。"
 coverCaption: ""
 ---

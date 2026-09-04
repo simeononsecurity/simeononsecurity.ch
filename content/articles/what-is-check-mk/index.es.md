@@ -6,7 +6,7 @@ draft: false
 description: "Explore las características, ventajas y casos de uso de CheckMK, una completa solución de supervisión para la gestión proactiva de la infraestructura de TI."
 genre: ["Tecnología", "Infraestructura informática", "Supervisión de redes", "Supervisión de aplicaciones", "Operaciones informáticas", "Análisis del rendimiento", "Automatización", "Gestión de eventos", "Escalabilidad", "Flexibilidad"]
 tags: ["CheckMK", "solución de supervisión", "Infraestructura informática", "control en tiempo real", "gestión de eventos", "análisis del rendimiento", "automatización", "escalabilidad", "flexibilidad", "Operaciones informáticas", "supervisión de redes", "supervisión de aplicaciones", "optimización del rendimiento", "supervisión proactiva", "respuesta a incidentes", "planificación de la capacidad", "asignación de recursos", "gestión de la configuración", "Eficacia informática", "gestión de infraestructuras", "solución integral de supervisión", "gestión proactiva de la infraestructura informática", "análisis del rendimiento de la red", "marco de automatización", "Escalabilidad de la infraestructura informática", "plataforma de gestión de eventos", "control del rendimiento en tiempo real", "optimización del rendimiento de las aplicaciones", "servicios de supervisión en la nube", "solución de control del cumplimiento"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "Una obra de arte vibrante y dinámica que representa una infraestructura de red con indicadores de supervisión y análisis."
 coverCaption: "Potencie su infraestructura de TI con CheckMK: ¡Desate eficiencia y fiabilidad!"
 ---

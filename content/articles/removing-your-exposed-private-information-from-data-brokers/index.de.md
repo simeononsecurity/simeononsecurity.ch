@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie Ihre persönlichen Daten schützen können, indem Sie sie aus Online-Verzeichnissen und Datenmaklern entfernen."
 tags: ["Entfernung personenbezogener Daten", "Online-Verzeichnisse", "Datenmakler", "Schutz der Privatsphäre", "kompletter Leitfaden", "persönliche Informationen entfernen", "Online-Datenschutz", "Internetprivatsphäre", "Online-Datenschutz", "Datenmakler", "Informationen entfernen", "IntelTechniken", "SimeonOnSecurity", "Online-Sicherheit", "Schutz der Privatsphäre", "Schutz der Online-Privatsphäre"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Ein Bild eines Computerbildschirms mit einem roten X durch eine Liste mit persönlichen Daten wie Name, Adresse und Telefonnummer, das die Entfernung persönlicher Daten aus Online-Verzeichnissen symbolisiert."
 coverCaption: ""
 ---

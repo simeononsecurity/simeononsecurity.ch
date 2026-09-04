@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Conozca 10 consejos cruciales de seguridad del correo electrónico para mantener sus datos seguros y protegidos de las ciberamenazas y las infracciones."
 genre: ["Seguridad del correo electrónico", "Protección de datos", "Ciberseguridad", "Privacidad en línea", "Robo de identidad", "Seguridad de contraseñas", "Estafas de phishing", "Seguridad en Internet", "Seguridad digital", "Formación de los empleados"]
 tags: ["seguridad del correo electrónico", "protección de datos", "ciberseguridad", "privacidad en línea", "robo de identidad", "financial loss", "encriptación del correo electrónico", "estafas de phishing", "seguridad de contraseñas", "Wi-Fi público", "VPN", "software de correo electrónico", "autenticación de dos factores", "correos electrónicos de phishing", "servicios de correo electrónico cifrado", "parches de seguridad", "carga automática de imágenes", "información sensible", "redes Wi-Fi públicas", "red privada virtual", "información personal", "formación en seguridad", "políticas de seguridad", "comunicación abierta", "incidentes de seguridad", "formación de los trabajadores", "amenazas cibernéticas", "seguridad de los datos", "privacidad digital", "seguridad en línea"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Ilustración simbólica de un sobre cerrado rodeado de capas de protección en forma de escudo, que representa la seguridad del correo electrónico y la protección de datos"
 ---
  **10 consejos esenciales de seguridad del correo electrónico para mantener sus datos a salvo**

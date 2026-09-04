@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i potenziali indicatori di minaccia insider e le strategie di mitigazione efficaci per proteggere la sicurezza della vostra organizzazione."
 tags: ["indicatori di minaccia insider", "mitigare le minacce interne", "rischi potenziali", "sicurezza informatica", "sicurezza dei dati", "monitoraggio dei dipendenti", "controlli di accesso", "analisi del comportamento degli utenti", "formazione sulla sicurezza", "conformità normativa", "protezione dei dati", "monitoraggio della rete", "comportamento dei dipendenti", "data access", "attività di rete insolita", "cambiamento dei modelli di lavoro", "difficoltà finanziarie", "malcontento", "comportamento online", "politiche di sicurezza", "piano di risposta agli incidenti", "NISPOM", "HIPAA", "GDPR", "gestione del rischio", "rilevamento delle minacce", "mitigazione delle minacce interne", "accesso privilegiato", "comportamento sospetto", "prevenzione delle minacce interne"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Un'illustrazione animata che mostra un team di professionisti diversi che discutono di sicurezza informatica circondati da icone di lucchetti e scudi."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Securitatea cibernetică este un aspect critic al operațiunilor de afaceri moderne și necesită o abordare cuprinzătoare care implică sisteme, protocoale și personal adecvat pentru a gestiona eficient apărarea împotriva atacurilor cibernetice."
 tags: ["securitate cibernetică", "operațiuni comerciale", "securitatea rețelei", "informații sensibile", "atacuri cibernetice", "tehnologie", "software", "profesionalism", "conformitate", "standarde industriale", "reglementări", "cele mai bune practici", "prioritate", "cultura de securitate", "încălcări ale datelor", "proprietate intelectuală", "abordare proactivă", "prioritate scăzută", "lipsa de resurse", "formare", "angajamentul față de securitate", "ofițeri de securitate a informațiilor (ISSO)", "sisteme de gestionare a securității informațiilor (ISSM)", "formare și experiență", "amenințări de securitate", "100% succes la auditurile de conformitate", "reglementări", "standarde", "cele mai bune practici", "Seria NIST 800", "joc politic", "încredere", "onestitate", "colaborare", "papertrail", "transparență", "responsabilitate"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "O imagine a unui grup de profesioniști în domeniul securității cibernetice într-o sală de ședințe, care lucrează împreună pentru a se asigura că sistemele și datele organizației lor sunt sigure."
 coverCaption: ""
 ---

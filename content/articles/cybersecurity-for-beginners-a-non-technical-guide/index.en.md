@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Learn the fundamentals of cybersecurity and practical tips for protecting your digital life from cyber threats in this comprehensive guide."
 genre: ["Cybersecurity", "Online Security", "Digital Safety", "Cyber Threats", "Internet Privacy", "Data Protection", "Information Security", "Technology", "Cyber Defense", "Cyber Awareness"]
 tags: ["cybersecurity", "online security", "digital safety", "cyber threats", "internet privacy", "data protection", "information security", "technology", "cyber defense", "cyber awareness", "cybersecurity basics", "digital life", "cyber attacks", "online protection", "data security", "computer security", "network security", "online privacy", "password security", "phishing attacks", "malware protection", "cybersecurity tips", "cyber hygiene", "cybersecurity measures", "cybersecurity practices", "cyber threat landscape", "cybersecurity guide", "cybersecurity fundamentals", "data breaches", "cybersecurity for beginners", "online safety tips", "cybersecurity awareness"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "A cartoon illustration of a shield protecting a digital device from cyber threats" 
 coverCaption: "Guarding your digital fortress against cyber threats."
 ---

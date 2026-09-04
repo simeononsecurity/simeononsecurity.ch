@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj przyszłość obliczeń kwantowych i ich wpływ na cyberbezpieczeństwo, w tym kryptografię postkwantową i podatności klasycznych algorytmów kryptograficznych."
 tags: ["Obliczenia kwantowe", "Cybersecurity", "Qubits", "RSA", "ECC", "Kryptografia postkwantowa", "Wyżarzanie kwantowe", "Supremacja kwantowa", "Superpozycja", "Splątanie", "Algorytmy kryptograficzne", "Infrastruktura cyfrowa", "Problemy optymalizacyjne", "Giganci technologiczni", "Badania i rozwój", "Dekoherencja", "Transakcje online", "Bezpieczne przesyłanie wiadomości", "Bankowość internetowa", "Odkrycie leku"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Animowany obraz hakera, który próbuje włamać się do systemu komputerowego chronionego szyfrowaniem RSA, ale następnie ponosi porażkę, ponieważ komputer kwantowy rozwiązuje szyfrowanie w ciągu kilku sekund w tle."
 coverCaption: ""
 ---

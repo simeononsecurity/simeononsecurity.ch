@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de basisbeginselen van cyberbeveiliging, waaronder soorten cyberdreigingen, het belang van cyberbeveiliging en stappen om de online beveiliging te verbeteren."
 tags: ["Cyberbeveiliging", "Cyberdreigingen", "Online beveiliging", "Gegevens beschermen", "Virus", "Malware", "Phishing-zwendel", "Hackers", "Nationale veiligheid", "Intellectueel eigendom", "Persoonlijke privacy"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Een beeld van een persoon die achter een computer zit met een bezorgde uitdrukking terwijl een hacker of cybercrimineel op het scherm wordt getoond, waarmee de gevaren van cyberdreigingen en het belang van cyberbeveiliging worden uitgebeeld."
 coverCaption: ""
 ---

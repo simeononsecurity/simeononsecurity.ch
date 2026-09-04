@@ -6,7 +6,7 @@ draft: false
 description: "Informieren Sie sich über den Prozess der Informationsklassifizierung, u. a. darüber, wer die Klassifizierungsstufen festlegt und zuweist und wie wichtig es ist, sich an die staatlichen Vorschriften zu halten."
 genre: ["Informationssicherheit", "Klassifizierung der Daten", "Staatliche Vorschriften", "Nationale Sicherheit", "Datenschutz", "Datenschutz", "Sicherheitsmaßnahmen", "Klassifizierte Informationen", "Zugangskontrolle", "Empfindlichkeit der Daten"]
 tags: ["Informationsklassifizierung", "die Festlegung von Klassifizierungsstufen", "Klassifizierungsbehörde", "Informationssicherheit", "staatliche Vorschriften", "nationale Sicherheit", "datenschutz", "Datenschutz", "Sicherheitsmaßnahmen", "Verschlusssachen", "Zugangskontrolle", "Datensensibilität", "Klassifizierungsverfahren", "Klassifizierungsebenen", "ursprüngliche Klassifizierungsbehörde", "Einstufung als streng geheim", "geheime Klassifizierung", "vertrauliche Klassifizierung", "eingeschränkte Einstufung", "Informationsempfindlichkeit", "Sicherheitsüberprüfung", "Wissensbedarfsbasis", "Klassifizierungskennzeichen", "Deklassierungsprozess", "Durchführungsverordnung 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "Ein Bild, das eine Person mit einem Vergrößerungsglas zeigt, die geheime Dokumente analysiert, und ein Schlosssymbol im Hintergrund."
 coverCaption: "Die Geheimnisse entschlüsseln: Die Bedeutung der Informationsklassifizierung"
 ---

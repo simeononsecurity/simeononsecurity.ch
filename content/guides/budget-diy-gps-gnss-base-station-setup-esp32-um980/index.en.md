@@ -108,15 +108,15 @@ Connect to the device via a serial terminal. And run the following commands ment
 
 ### 2. Connect Hardware Components
 - If applicable, plug the ESP32 into the breakout board.
-  - {{< figure src="connectesp32todevboard.jpg" alt="Connecting ESP32 to Dev Board" caption="ESP32 Dev Board" >}}
-  - {{< figure src="esp32.jpg" alt="ESP32 Dev Board" caption="ESP32 Dev Board" >}}
+  - {{< figure src="connectesp32todevboard.webp" alt="Connecting ESP32 to Dev Board" caption="ESP32 Dev Board" >}}
+  - {{< figure src="esp32.webp" alt="ESP32 Dev Board" caption="ESP32 Dev Board" >}}
 - Connect the [ESP32 development board](https://amzn.to/3rEMIjr) to your computer using a [Type-C USB cable](https://amzn.to/3ttZS33).
 
 ### 3. Use Adapter Cables
 use the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives as necessary to connect the [UM980](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) to your [ESP32 board](https://amzn.to/3rEMIjr). These cables offer compatibility with various connectors for expanding your project.
 
 
-{{< figure src="esp32pinout.jpg" alt="ESP32 Wroom DevKit Full Pinout" caption="ESP32 Wroom DevKit Full Pinout - mischianti.org" link="https://mischianti.org/2021/07/17/esp32-devkitc-v4-high-resolution-pinout-and-specs/" >}}
+{{< figure src="esp32pinout.webp" alt="ESP32 Wroom DevKit Full Pinout" caption="ESP32 Wroom DevKit Full Pinout - mischianti.org" link="https://mischianti.org/2021/07/17/esp32-devkitc-v4-high-resolution-pinout-and-specs/" >}}
 
 - [UM980 RTK InCase PIN GNSS receiver board with USB C](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex) 
   - If you choose this option, again, you'll need some [male to male dupont wires](https://amzn.to/3Q7VKyH)
@@ -125,14 +125,14 @@ use the [elechawk adapter cables](https://amzn.to/3PUgiJY) or alternatives as ne
     - `UM980 GND` to `ESP32 GND` for ground.
     - `UM980 TXD2` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`). Alternatively you can use `GPIO pin 1`.
     - `UM980 RXD2` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`). Alternatively you can use `GPIO pin 3`.
-    - {{< figure src="gnssstoreum980.png" alt="Connecting the GNSS.store UM980 Module to The ESP32 Devboard" caption="GNSS.store UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
+    - {{< figure src="gnssstoreum980.webp" alt="Connecting the GNSS.store UM980 Module to The ESP32 Devboard" caption="GNSS.store UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
 - [Full Frequency Centimeter Level Low-power and High-precision UM980 Module RTK Differential Drone GPS Module GNSS Whole System](https://www.aliexpress.us/item/3256805781651631.html)
   - Wiring
     - `UM980 UART VCC (Pin 1)` to `ESP32 3.3V` (or 3V3) for power.
     - `UM980 UART GND (Pin 2)` to `ESP32 GND` for ground.
     - `UM980 UART TXD (Pin 3)` to `ESP32 GPIO pin` designated for receiving data (e.g., `GPIO pin 16`, `RX1`, `RX0`), this is UART 2. Alternatively you can use `GPIO pin 1`, this is UART 0.
     - `UM980 UART RXD (Pin 4)` to `ESP32 GPIO pin` designated for transmitting data (e.g., `GPIO pin 17`, `TX1`, `TX0`), this is UART 2. Alternatively you can use `GPIO pin 3`, this is UART 0.
-    - {{< figure src="aliexpressum980.png" alt="Connecting the AliExpress UM980 Module to The ESP32 Devboard" caption="AliExpress UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
+    - {{< figure src="aliexpressum980.webp" alt="Connecting the AliExpress UM980 Module to The ESP32 Devboard" caption="AliExpress UM980 to ESP32 Dev Board Breakout Pin Diagram" >}}
    
 #### Understanding the ESP32 UART 
 
@@ -148,7 +148,7 @@ For more information on [selecting pins on the esp32](https://circuits4you.com/2
 ### 4. Employ the Enclosure Kit
 For environmental protection, consider using the [qBoxMini DIY IOT Enclosure Kit](https://amzn.to/3PIvwl7). It offers waterproof protection and includes connectors and a prototyping PCB for easy integration.
 
-{{< figure src="esp32-in-project-box.png" alt="ESP32 Devboard in a Project Box" >}}
+{{< figure src="esp32-in-project-box.webp" alt="ESP32 Devboard in a Project Box" >}}
 
 ### 5. Choose the GNSS Receiver
 Depending on your project needs, timeline, and budget, select the appropriate [GNSS receiver board](https://gnss.store/unicore-gnss-modules/246-152-elt0221.html#/58-connector-ipex). 
@@ -184,7 +184,7 @@ If you would like to reset the device configuration, you should also download:
   *Note*: Your COM device location will be different than mine. You'll need to identify it first before continuing.
   - Windows
     - Open the ESP Flash Download Tool, select the firmware files, set flashing options, and click "Start" to flash the firmware onto the ESP32.
-      - {{< figure src="windowsloadfirmware.png" alt="loading ESP32 Firmware on Windows" caption="Loading ESP32 Firmware on Windows - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update" >}}
+      - {{< figure src="windowsloadfirmware.webp" alt="loading ESP32 Firmware on Windows" caption="Loading ESP32 Firmware on Windows - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update" >}}
       - It is important that the offsets exactly match the files:
         - `bootloader.bin` @ `0x1000`
         - `partition-table.bin` @ `0x8000`
@@ -192,7 +192,7 @@ If you would like to reset the device configuration, you should also download:
         - `www.bin` @ `0x210000`
       - If you would like to reset the device configuration, you should also include:
         - `wipe_config.bin` @ `0x0`
-    - {{< figure src="windowsflashfirmware.png" alt="Flashing ESP32 Firmware on Windows" caption="Flashing ESP32 Firmware on Windows - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update" >}}
+    - {{< figure src="windowsflashfirmware.webp" alt="Flashing ESP32 Firmware on Windows" caption="Flashing ESP32 Firmware on Windows - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Firmware-Update" >}}
     - Alternatively, copy the firmware files to the extracted esptool.exe's folder and run the following as an administrator
       - 
       ```powershell
@@ -243,7 +243,7 @@ If you would like to reset the device configuration, you should also download:
    1. Using your phone or PC, **connect to the ESP32's WiFi Hotspot** which will be called `ESP_XBee_XXXXXX` where `XXXXXX` are some random numbers/letters unique to your device.
 
 2. **Step 2: Browse to the Configuration Page**
-   1. Open your browser and navigate to http://192.168.4.1/. You should see a page similar to: {{< figure src="xbeeesp32config.png" alt="XBee ESP32 Configuration Page" caption="XBee ESP32 Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
+   1. Open your browser and navigate to http://192.168.4.1/. You should see a page similar to: {{< figure src="xbeeesp32config.webp" alt="XBee ESP32 Configuration Page" caption="XBee ESP32 Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
 
 3. **Step 3: Configure WiFi**
    1. **Enable the WiFi section**, press Scan to search for networks, **choose your home WiFi network** (or phone hotspot) and enter the password.
@@ -252,7 +252,7 @@ If you would like to reset the device configuration, you should also download:
    
       Press the Submit button, and follow the instructions on screen. You may need to reconnect to the ESP32 XBee hotspot after it restarts.
    
-      The WiFi section will now show its connection status: {{< figure src="xbeeesp32wificonfig.png" alt="XBee ESP32 Wifi Configuration Page" caption="XBee ESP32 Wifi Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
+      The WiFi section will now show its connection status: {{< figure src="xbeeesp32wificonfig.webp" alt="XBee ESP32 Wifi Configuration Page" caption="XBee ESP32 Wifi Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
 
    2. If you are connected to the device using a serial terminal, the device will output information about its WiFi connection.
    
@@ -275,7 +275,7 @@ If you would like to reset the device configuration, you should also download:
          3. **Disable the hotspot entirely** by toggling the WiFi hotspot section
             - **Note**: *You will not be able to access the ESP32 XBee if there is a problem with its connection to your home WiFi network, unless you perform a* [*Full Reset*](https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/f89fa4ad06a50b2e248109c73be7c6389f9f1716#full-reset).
    
-         {{< figure src="xbeeesp32securewificonfig.png" alt="XBee ESP32 Secure Wifi Configuration Page" caption="XBee ESP32 Secure Wifi Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
+         {{< figure src="xbeeesp32securewificonfig.webp" alt="XBee ESP32 Secure Wifi Configuration Page" caption="XBee ESP32 Secure Wifi Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
    
    2. **Configuration**
    
@@ -285,7 +285,7 @@ If you would like to reset the device configuration, you should also download:
    
       The new IP address will be the first address in the 3rd line as above, i.e. 192.168.43.100.
    
-      {{< figure src="xbeeesp32adminuserconfig.png" alt="XBee ESP32 Admin User Configuration Page" caption="XBee ESP32 Admin User Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
+      {{< figure src="xbeeesp32adminuserconfig.webp" alt="XBee ESP32 Admin User Configuration Page" caption="XBee ESP32 Admin User Configuration Page - github.com/nebkat/esp32-xbee/" link="https://github.com/nebkat/esp32-xbee/wiki/Getting-Started/" >}}
 
       > *Remember, if you're using onocoy, per their documentation for NTRIPv1 Server devices like this you should specify your `username` as the `mountpoint`, `username` empty, and `password` as password when configuring your NTRIP Server Settings.*
       
@@ -301,7 +301,7 @@ If you would like to reset the device configuration, you should also download:
 
 ### 7. Profit?
 
-{{< figure src="esp32-um920.jpeg" alt="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" caption="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" link="https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex" >}}
+{{< figure src="esp32-um920.webp" alt="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" caption="Finished DIY ESP32 GPS Base Station with GNSS.STORE UM982 Module" link="https://gnss.store/um982-gnss-modules/241-165-elt0214.html#/18-form_factor-surface_mount/58-connector-ipex" >}}
 
 ### 8. Extras
    1. **Full Reset**: In case you encounter any problems and are unable to connect to the device, simply hold the `BOOT` centerbutton for 5 seconds, and the ESP32 will be reset to its default configuration.

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of Windows Defender PowerShell commands and learn how to enhance your system security with command-line control."
 genre: ["Windows Defender", "PowerShell commands", "system security", "command-line control", "antivirus", "Windows operating systems", "malware protection", "advanced security settings", "automate security operations", "Windows PowerShell"]
 tags: ["Technology", "Cybersecurity", "Operating Systems", "Windows", "Command-line Tools", "System Security", "PowerShell", "Antivirus", "Malware Protection", "Scripting"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "An animated illustration depicting a shield protecting a computer system from various cyber threats."
 coverCaption: "help Your System's Security with Windows Defender PowerShell Commands."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj nieopowiedzianą historię moich doświadczeń z implantami tagów NFC, zagłębiając się w ryzyko, komplikacje i osobiste spostrzeżenia, które podkreślają znaczenie świadomego podejmowania decyzji."
 tags: ["Implanty z tagami NFC", "hakowanie ciała", "niebezpieczne rzeczy", "ryzyko związane z implantami", "modyfikacje ciała", "komplikacje", "odrzucenie implantu", "ból i stan zapalny", "uszkodzenie nerwów", "usuwanie implantów", "przewlekły ból", "środki ostrożności", "Ryzyko a korzyści", "konsultacja", "badania", "profesjonalna instalacja", "Ryzyko związane z modyfikacją ciała", "przemieszczenie implantu", "Zespół cieśni nadgarstka", "zrozumienie komplikacji", "bezpieczeństwo osobiste", "świadoma decyzja", "interakcja cyfrowa", "procedury medyczne", "bezpieczeństwo implantów", "Ostrzeżenie dotyczące modyfikacji ciała", "powikłania związane z implantami", "dobre samopoczucie", "względy zdrowotne", "profesjonalne porady"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Obraz przedstawiający osobę z ręką z implantem tagu NFC, któremu towarzyszą symbole bólu wokół ręki, ilustrujące ryzyko i komplikacje związane z implantami tagów NFC."
 coverCaption: ""
 ---

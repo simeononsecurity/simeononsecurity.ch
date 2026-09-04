@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Dowiedz się, które rozwiązanie zabezpieczające punkty końcowe, Symantec czy McAfee, najlepiej nadaje się do ochrony zasobów cyfrowych Twojej organizacji przed cyberzagrożeniami."
 genre: ["Technologia", "Cyberbezpieczeństwo", "Bezpieczeństwo punktów końcowych", "Antywirus", "Firewall", "Wykrywanie włamań", "Zapobieganie utracie danych", "Ochrona przed zagrożeniami", "Rozwiązania bezpieczeństwa", "Porównanie"]
 tags: ["bezpieczeństwo punktów końcowych", "Symantec", "McAfee", "cyberbezpieczeństwo", "antywirus", "firewall", "wykrywanie włamań", "zapobieganie utracie danych", "ochrona przed zagrożeniami", "rozwiązania bezpieczeństwa", "porównanie", "złośliwe oprogramowanie", "ransomware", "ataki phishingowe", "ataki zero-day", "uczenie maszynowe", "Analityka oparta na zachowaniu", "konsola zarządzania chmurą", "Widoczność w czasie rzeczywistym", "scentralizowane zarządzanie", "możliwości integracji", "opinie klientów", "wsparcie techniczne", "ciągłość działania", "Środowisko IT", "zdalne wdrożenie", "szyfrowanie danych", "kontrola dostępu do sieci"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "Obraz przedstawiający tarczę z logo firm Symantec i McAfee, symbolizujący ich możliwości w zakresie bezpieczeństwa punktów końcowych."
 ---
 

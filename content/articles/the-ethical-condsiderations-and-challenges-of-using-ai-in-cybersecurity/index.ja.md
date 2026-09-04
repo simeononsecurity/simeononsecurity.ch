@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーセキュリティにおけるAI活用の倫理的配慮や課題、効果的な活用のための対処方法についてご紹介します。"
 tags: ["エーアイ", "サイバーセキュリティ", "りんりきてい", "僻み", "プライバシー", "アカウンタビリティ", "複雑性", "適応性", "人心掌握", "資源強度", "データプライバシー", "機械学習", "スレットインテリジェンス", "データ保護", "技術", "オートメーション", "サイバー脅威", "情報セキュリティ", "規制遵守", "デジタルトランスフォーメーション"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "サイバーセキュリティにおけるAIの活用を象徴する歯車付きの錠前をイメージし、人間の手が鍵を持っていることで人間の監視を表現しています。"
 coverCaption: ""
 ---

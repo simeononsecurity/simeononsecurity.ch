@@ -6,7 +6,7 @@ draft: false
 description: "Discover the importance of safeguarding Controlled Unclassified Information (CUI) and learn how to protect sensitive data effectively."
 genre: ["Data Security", "Information Protection", "Privacy Management", "Sensitive Data Handling", "Cybersecurity", "Compliance", "Risk Management", "Information Governance", "Data Confidentiality", "Information Assurance"]
 tags: ["CUI Protection", "Sensitive Information", "Data Privacy", "Information Security", "Safeguarding Tips", "Data Handling", "Risk Mitigation", "Privacy Compliance", "Confidential Data", "Security Measures", "Data Integrity", "Information Management", "Cyber Threats", "Data Confidentiality", "Privacy Best Practices", "Access Controls", "Encryption", "Information Sharing", "Security Awareness", "Data Protection Policy", "Information Handling", "CUI Categories", "CUI Examples", "PII Protection", "Law Enforcement Data", "Business Information", "CUI Guidelines", "Consequences of Mishandling", "Protecting Sensitive Data", "CUI Importance"]
-cover: "/img/cover/CUI-Safeguarding-Sensitive-Data.png"
+cover: "/img/cover/CUI-Safeguarding-Sensitive-Data.webp"
 coverAlt: "Symbolic illustration of a locked vault with shield protecting sensitive data."
 coverCaption: "Unlocking Security: Safeguarding Sensitive Information"
 ---

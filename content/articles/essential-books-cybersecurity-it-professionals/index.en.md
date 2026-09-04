@@ -6,7 +6,7 @@ draft: false
 description: "Boost your skills with top Cybersecurity, Automation, Programming, and IT books."
 genre: ["Technology", "Education", "Books", "Cybersecurity", "Programming", "IT", "Automation", "Professional Development", "Career Growth", "Learning"]
 tags: ["Best Cybersecurity Books", "Top IT Programming Guides", "Essential Automation Literature", "Recommended Cybersecurity Reads", "Programming Language Learning Resources", "Cybersecurity", "Programming", "Automation", "IT Professionals", "Books", "Learning", "Skills Enhancement", "Technology", "Career Development", "Expertise"]
-cover: "/img/cover/coding_conqueror.png"
+cover: "/img/cover/coding_conqueror.webp"
 coverAlt: "A person conquering coding challenges in a digital landscape."
 coverCaption: "Unlock Brilliance: Master Cybersecurity, Code, and Automation with These Books"
 ---

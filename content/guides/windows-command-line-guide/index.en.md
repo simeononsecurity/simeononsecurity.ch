@@ -6,7 +6,7 @@ draft: false
 description: "Discover the essential Windows Command Prompt commands for efficient file and directory management, helping your system interactions."
 genre: ["Technology", "Computing", "Operating Systems", "Windows", "Command Line", "System Management", "File Navigation", "Directory Operations", "Productivity", "Software Tools"]
 tags: ["Windows Command Prompt", "CMD Basics", "File Management", "Directory Navigation", "System Commands", "Efficient Workflow", "Command Line Tools", "Windows Operating System", "Productivity Tips", "File Manipulation", "Command Prompt Guide", "System Interaction", "Windows Tips", "Operating System Tips", "IT Skills", "Technical Know-How", "CMD Commands", "Computer Skills", "Tech Knowledge", "Technology Insights", "Long-Tail Keywords", "Mastering CMD", "Windows Utilities", "Navigating Directories", "Managing Folders", "Text Display", "CMD Examples", "Windows Tricks", "Learning CMD", "Computer Mastery"]
-cover: "/img/cover/mastering-windows-command-line.png"
+cover: "/img/cover/mastering-windows-command-line.webp"
 coverAlt: "A 3D animated illustration depicts a friendly computer interface with folders and files, highlighting key CMD commands."
 coverCaption: "help Your System with CMD Mastery." 
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

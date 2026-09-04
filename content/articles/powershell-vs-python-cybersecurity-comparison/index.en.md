@@ -6,7 +6,7 @@ draft: false
 description: "Discover effortless ways to enhance system security with PowerShell and Python in this comprehensive cybersecurity analysis."
 genre: ["Cybersecurity", "Scripting Languages", "System Security", "Windows", "Linux", "Government Regulations", "Cyber Threats", "Secure Scripting", "Compliance", "Programming"]
 tags: ["PowerShell", "Python", "Cybersecurity", "Windows", "Linux", "Scripting Languages", "System Security", "Government Regulations", "Secure Scripting", "Compliance", "Cyber Threats", "Security Comparison", "Hardening", "VBScript", "Bash", "NIST Framework", "GDPR", "Secure Coding", "Scripting Best Practices", "Network Security", "IT Security", "Data Protection", "Open Source", "Programming Languages", "Cyber Defense", "Vulnerability", "Intrusion Prevention", "Cyber Resilience", "IT Governance"]
-cover: "/img/cover/cybersecurity_superheroes_defending_servers.png"
+cover: "/img/cover/cybersecurity_superheroes_defending_servers.webp"
 coverAlt: "Cybersecurity superheroes defending servers."
 coverCaption: "help Your Defense"
 ---

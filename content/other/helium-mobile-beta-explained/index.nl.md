@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe Helium Mobile Beta mobiele connectiviteit transformeert met zijn gedecentraliseerde netwerk, dat veiligheid, betrouwbaarheid en betaalbaarheid voor gebruikers garandeert."
 tags: ["Helium Mobiel Beta", "gedecentraliseerd netwerk", "mobiele connectiviteit", "beveiligde", "betrouwbare", "betaalbare plannen", "Helium Hotspots", "Helium blockchain", "beta programma", "draadloos netwerk", "cellulaire netwerken", "mobiele drager", "innovatie", "technologie", "netwerkuitbreiding", "gebruikersfeedback", "ontwrichting van de industrie", "Helium Mobile-compatibel apparaat", "toepassing", "opkomende technologie"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Een levendige illustratie van een netwerk van onderling verbonden apparaten met het merk Helium Mobile, als symbool voor de innovatieve en gedecentraliseerde benadering van mobiele connectiviteit."
 coverCaption: ""
 ---

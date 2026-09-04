@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți puterea lui TryHackMe: caracteristici, prețuri, certificări, servicii de rețea și multe altele, oferindu-vă posibilitatea de a stăpâni abilitățile de securitate cibernetică."
 genre: ["Tehnologie", "Securitatea cibernetică", "Învățare online", "Hacking etic", "Securitatea rețelelor", "Laboratoare virtuale", "Certificări", "Trasee de învățare", "Experiență practică", "TryHackMe Review"]
 tags: ["TryHackMe", "TryHackMe Review", "Certificatele TryHackMe", "TryHackMe Prețuri", "TryHackMe Servicii de rețea 2", "Abonament TryHackMe", "TryHackMe Bypass de autentificare", "TryHackMe Includerea de fișiere", "TryHackMe OWASP Top 10 Walkthrough", "TryHackMe VPN", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Bazele Active Directory", "TryHackMe Răspunsuri", "TryHackMe Linux Fundamentele Linux Partea 3", "TryHackMe Logo", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe Injecție SQL", "TryHackMe Suport", "TryHackMe Instrumente de informații despre amenințări", "TryHackMe Încărcați vulnerabilitățile TryHackMe", "TryHackMe Walking o aplicație", "TryHackMe Windows Fundamentals 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Blue", "TryHackMe Blue Walkthrough"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "O imagine care înfățișează un hacker cu o pelerină de supererou, simbolizând împuternicirea obținută prin intermediul formării în domeniul securității cibernetice oferite de TryHackMe."
 coverCaption: "Împuternicește-te cu TryHackMe: Eliberează-ți superputerile de securitate cibernetică"
 ---

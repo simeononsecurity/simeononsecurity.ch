@@ -6,7 +6,7 @@ draft: false
 description: "Discover the effortless way to secure your systems with Windows Task Scheduler and Linux Cron Jobs comparison."
 genre: ["Cybersecurity", "Operating Systems", "System Automation", "Security Tools", "Computer Technology", "Task Scheduling", "Network Security", "System Administration", "Cyber Defense", "IT Management"]
 tags: ["Cybersecurity", "Windows Task Scheduler", "Linux Cron Jobs", "System Hardening", "Task Scheduling", "Security Features", "Access Control", "Credential Encryption", "Audit Logs", "Group Policy Integration", "Least Privilege", "Network Security", "System Administration", "Automation", "Security Tools", "Cyber Defense", "IT Management", "Operating Systems", "Efficient System Management", "Security Comparison", "Secure Credential Management", "Scheduled Tasks", "System Architecture", "Intrusion Detection Systems", "Regular Updates", "Firewall Configuration", "Security Measures", "Security Strategy", "Cyber Threats"]
-cover: "/img/cover/cybersecurity_system_shield.png"
+cover: "/img/cover/cybersecurity_system_shield.webp"
 coverAlt: "A symbolic illustration of a shield protecting computer systems."
 coverCaption: "Shielding Your Systems"
 ---

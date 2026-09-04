@@ -6,7 +6,7 @@ draft: false
 description: "Verdienen Sie umweltfreundliche Belohnungen durch Spacemesh-Mining, einem dezentralen Ansatz, der den innovativen PoST-Konsensalgorithmus verwendet."
 genre: ["Kryptowährung Mining", "Proof-of-Space-Time", "Dezentralisierte Belohnungen", "Umweltfreundlicher Bergbau", "Blockchain-Technologie", "Kryptowährung", "Krypto-Bergbau", "Proof-of-Space", "Dezentralisierung", "Blockchain-Konsens"]
 tags: ["Spacemesh Bergbau", "Proof-of-Space-Time", "Eco-Friendly", "Dezentralisierung", "Kryptowährung Mining", "Blockchain-Technologie", "Maschendrahtzaun", "PoST-Nachweise", "Bergbau-Belohnungen", "Krypto-Enthusiasten", "Dezentrales Konsensieren", "Umweltverträgliche Lösungen für den Bergbau", "Belohnungen für Kryptowährungen", "Sicherheit von Kryptowährungen", "Proof-of-Space", "Krypto-Innovation", "Blockchain-Netzwerk", "Spacemesh-Netzwerk", "Meshing-Prozess", "Effizienz von Kryptowährungen", "Krypto-Beteiligung", "Skalierbarkeit von Kryptowährungen", "Blockchain-Anreize", "Raumnetz-Software", "Raumnetz-Marken", "Krypto-Netzwerk", "Kryptowährungs-Transaktionen", "Dezentralisierung von Kryptowährungen", "Krypto-Herausforderungen"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Eine auffällige Cartoon-Illustration eines raketengetriebenen Raumschiffs, das im Weltraum Kryptowährungen schürft und den umweltfreundlichen und innovativen Spacemesh-Schürfprozess symbolisiert."
 coverCaption: "Bergbau zu den Sternen! Die umweltfreundlichen Belohnungen von Spacemesh erwarten Sie."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explorați structura directoarelor Windows și învățați cum să gestionați eficient fișierele și să navigați prin sistemul ierarhic."
 genre: ["Structura directoarelor Windows", "Gestionarea fișierelor Windows", "Navigarea în directoare", "Organizarea fișierelor", "Căi de acces la fișiere Windows", "Dosare de sistem Windows", "Director de utilizator", "Directorul Program Files", "Directorul rădăcină Windows", "Directorul fișierelor temporare"]
 tags: ["structura directoarelor în Windows", "structura directoarelor Windows", "gestionarea fișierelor", "organizarea fișierelor", "căi de acces la fișiere", "directorul rădăcină", "directorul de sistem", "directorul utilizatorului", "directorul fișierelor de program", "navigarea în directorul Windows", "explorator de fișiere", "prompt de comandă", "calea absolută a fișierului", "calea relativă a fișierului", "sistemul de fișiere Windows", "gestionarea fișierelor Windows", "accesul la fișiere", "funcționarea sistemului", "instrument de explorare a fișierelor", "comenzi windows", "căi de acces la fișiere Windows", "gestionarea eficientă a fișierelor", "organizarea ferestrelor", "directorul de fișiere temporare", "structura fișierelor Windows", "sistem de operare Windows", "folderul de profil de utilizator Windows", "fișiere de sistem", "resurse de sistem windows"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "O imagine care descrie o structură arborescentă reprezentând sistemul de directoare Windows."
 coverCaption: "Gestionați-vă eficient fișierele cu ajutorul structurii de directoare din Windows."
 ---

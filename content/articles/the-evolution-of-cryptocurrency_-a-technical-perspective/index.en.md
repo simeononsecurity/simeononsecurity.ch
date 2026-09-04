@@ -8,7 +8,7 @@ genre: ["Cryptocurrency Evolution", "Blockchain Technology", "Bitcoin Origins", 
 tags: ["Cryptocurrency Evolution", "Blockchain Technology", "Bitcoin Origins", "Cryptocurrency Mining", "Consensus Mechanisms", "Proof of Work", "Proof of Stake", "Energy-Efficient Cryptocurrency", "Cryptocurrency Security", "Privacy Technologies",
 "Public and Private Key Encryption", "Smart Contract Vulnerabilities", "Wallet Security", "Zero-Knowledge Proofs", "Ring Signatures", "Homomorphic Encryption", "Scalability Solutions", "Lightning Network", "Sharding Techniques", "Cryptocurrency Adoption",
 "DeFi Platforms", "NFTs", "Digital Asset Ownership", "Innovation in Cryptocurrency", "Regulatory Challenges", "Cryptocurrency Future", "Digital Finance", "Decentralized Future", "Cryptocurrency Transactions", "Cryptocurrency Use Cases"]
-cover: "/img/cover/the-evolution-of-cryptocurrency_-a-technical-perspective.jpeg"
+cover: "/img/cover/the-evolution-of-cryptocurrency_-a-technical-perspective.webp"
 coverAlt: "The Evolution of Cryptocurrency: A Technical Perspective"
 ---
 

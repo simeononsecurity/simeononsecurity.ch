@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je een effectief cyberbewustzijnstrainingsprogramma opzet en beheert dat het risico op cyberaanvallen vermindert en gevoelige gegevens beschermt."
 tags: ["cyberbeveiliging", "bewustwordingstraining", "risicobeperking", "gegevensbescherming", "werknemersopleiding", "cyberdreigingen", "cyberbeveiligingsrisico's", "trainingsdoelen", "doelgroep", "opleidingsverstrekking", "interactieve training", "praktijkvoorbeelden", "simulaties", "praktische oefeningen", "opleidingsinhoud", "NIST 800-50", "beste praktijken op het gebied van cyberbeveiliging", "cyberbeveiligingscultuur", "beloningen en erkenning"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Een geanimeerde afbeelding van een groep werknemers rond een computer of een beveiligingsexpert die op een whiteboard uitleg geeft over cyberbeveiligingsconcepten."
 coverCaption: ""
 ---

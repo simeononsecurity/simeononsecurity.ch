@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "了解商业专业人士提高网络安全技能和保护敏感数据的顶级认证。"
 tags: ["网络安全认证", "非技术认证", "商务专业人士", "信息安全", "隐私管理", "网络安全技能", "数据保护", "认证计划", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP 美国", "安全治理", "隐私条例", "合规性", "风险管理", "信息隐私", "商业安全", "数据隐私"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "图片中，一群不同的商业专业人士在一个数字平台上开展合作，平台上的锁图标象征着网络安全。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Obtenga un conocimiento exhaustivo de las capas OSI y del modelo TCP IP, marcos esenciales en la creación de redes, para facilitar la comunicación eficaz y la resolución de problemas."
 genre: ["Conceptos básicos sobre redes", "Capas OSI", "Modelo TCP IP", "Protocolos de red", "Modelos de comunicación", "Fundamentos de las redes", "Transmisión de datos", "Solución de problemas de red", "Arquitectura de red", "Conceptos de red"]
 tags: ["Capas OSI", "Modelo TCP IP", "conceptos básicos de redes", "protocolos de red", "modelos de comunicación", "transmisión de datos", "solución de problemas de red", "arquitectura de red", "conceptos de red", "fundamentos de redes", "marcos de trabajo en red", "explicación de los protocolos de red", "normas de conexión en red", "capa física", "capa de enlace de datos", "capa de red", "capa de transporte", "capa de sesión", "capa de presentación", "capa de aplicación", "Capas TCP IP", "capa de interfaz de red", "capa de internet", "capa de transporte", "capa de aplicación", "explicación de los protocolos de red", "modelos de red", "explicación de los fundamentos de las redes", "guía de redes", "tutorial de redes", "mejores prácticas de trabajo en red"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Ilustración animada que muestra una red de nodos interconectados con datos que fluyen entre ellos, simbolizando una comunicación y una red eficientes."
 ---
  Conceptos básicos sobre redes: Comprensión de las capas OSI y del modelo IP TCP

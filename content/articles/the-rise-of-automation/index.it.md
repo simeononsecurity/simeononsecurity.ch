@@ -6,7 +6,7 @@ draft: false
 description: "Esplora l'evoluzione della tecnologia dell'automazione, i settori che la adottano e il suo impatto sulle opportunità di lavoro."
 genre: ["Tecnologia di automazione", "Rivoluzione industriale", "Progressi tecnologici", "Intelligenza artificiale", "Apprendimento automatico", "Produzione", "Assistenza sanitaria", "Trasporto", "Vendita al dettaglio", "Agricoltura"]
 tags: ["tecnologia di automazione", "industrie", "opportunità di lavoro", "evoluzione", "intelligenza artificiale", "apprendimento automatico", "produzione", "assistenza sanitaria", "trasporto", "veicoli a guida autonoma", "vendita al dettaglio", "Commercio elettronico", "agricoltura", "agricoltura intelligente", "impatto sul mercato del lavoro", "dislocazione del lavoro", "competenze tecniche", "riqualificazione", "riqualificazione", "iniziative educative", "Programmi STEM", "politiche governative", "regolamenti", "reddito di base universale", "programmi di riqualificazione professionale", "data privacy", "sicurezza dei dati", "divario digitale", "considerazioni etiche"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Un'immagine animata che raffigura varie industrie e tecnologie interconnesse."
 coverCaption: "Abbracciate il futuro automatizzato con ottimismo e adattabilità."
 ---

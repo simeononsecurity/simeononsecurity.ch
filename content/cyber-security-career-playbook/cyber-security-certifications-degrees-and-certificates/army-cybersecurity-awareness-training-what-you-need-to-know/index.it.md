@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Scoprite gli elementi chiave dell'Army Cybersecurity Awareness Training, la conformità alle normative e le migliori pratiche per il personale della difesa per combattere efficacemente le minacce informatiche."
 tags: ["Formazione dell'esercito sulla consapevolezza della sicurezza informatica", "Personale della difesa", "Minacce informatiche", "Le migliori pratiche di sicurezza informatica", "Compliance", "Consapevolezza del phishing", "Pratiche di password sicure", "Navigazione sicura in Internet", "Sicurezza dei dispositivi mobili", "Consapevolezza dell'ingegneria sociale", "Protezione dei dati", "Segnalazione degli incidenti", "Regolamenti sulla sicurezza informatica", "Direttiva DoD 8570", "Direttiva DoD 8140", "Attacchi di phishing", "Abitudini di navigazione sicure", "Crittografia dei dispositivi mobili", "Tecniche di ingegneria sociale", "Data privacy", "Risposta agli incidenti", "Ambiente sicuro dal punto di vista informatico", "Protezione delle informazioni sensibili", "Competenze di cybersecurity", "Sistemi dell'esercito", "Mitigazione delle minacce informatiche", "Educazione alla cybersicurezza", "Sensibilizzazione alla sicurezza delle informazioni", "Posizione di sicurezza informatica della Difesa"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Un'immagine raffigurante uno scudo con un lucchetto che simboleggia la difesa e la protezione dalle minacce informatiche."
 coverCaption: "Sorvegliare la fortezza digitale: Rafforzare le difese di sicurezza informatica dell'esercito"
 ---

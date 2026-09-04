@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți puterea Docker și beneficiile sale pentru transformarea întreprinderilor în acest ghid cuprinzător pentru îmbunătățirea portabilității, securității, eficienței și dezvoltării aplicațiilor."
 tags: ["Docker", "Transformarea întreprinderii", "Portabilitatea aplicațiilor", "Eficiență crescută", "Securitate îmbunătățită", "Dezvoltare și implementare simplificate", "Aplicații software", "Containere", "Productivitate", "Timpul până la comercializare"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "O balenă albastră care emite lumină"
 coverCaption: ""
 ---

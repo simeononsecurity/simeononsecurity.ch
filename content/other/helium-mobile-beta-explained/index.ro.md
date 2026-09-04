@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum Helium Mobile Beta transformă conectivitatea mobilă cu rețeaua sa descentralizată, asigurând securitate, fiabilitate și accesibilitate pentru utilizatori."
 tags: ["Helium Mobile Beta", "rețea descentralizată", "conectivitate mobilă", "sigur", "de încredere", "planuri accesibile", "Puncte fierbinți cu heliu", "Blockchain cu heliu", "program beta", "retea fara fir", "rețelele celulare", "operator de telefonie mobilă", "inovaţie", "tehnologie", "extinderea rețelei", "feedback-ul utilizatorului", "perturbarea industriei", "Dispozitiv compatibil Helium Mobile", "aplicarea", "Tehnologie emergentă"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "O ilustrație vibrantă care prezintă o rețea de dispozitive interconectate cu branding Helium Mobile, simbolizând abordarea inovatoare și descentralizată a conectivității mobile."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți cum cardurile de debit virtuale Privacy.com vă pot consolida securitatea online și vă pot proteja confidențialitatea, oferind în același timp un control ușor asupra tranzacțiilor și abonamentelor."
 genre: ["Securitate online", "Confidențialitatea digitală", "Carduri de debit virtuale", "Protecția financiară", "Tranzacții online", "Prevenirea fraudei", "Confidențialitatea datelor", "Confidențialitatea financiară", "Securitatea cibernetică", "Finanțe personale"]
 tags: ["Confidențialitate.com", "Carduri de debit virtuale", "Securitate online", "Confidențialitatea digitală", "Protecția financiară", "Criptarea datelor", "Prevenirea fraudei", "Tranzacții securizate", "Securitate la nivel de bancă", "Controale de confidențialitate", "Taxe recurente", "Carduri de blocare pentru comercianți", "Protecția datelor financiare", "Securitatea plăților", "Reglementări privind confidențialitatea", "Conformitate", "PCI DSS", "GDPR", "Biroul de protecție financiară a consumatorilor", "Tehnologie financiară", "Plăți online securizate", "Carduri virtuale pentru confidențialitate", "Cheltuieli controlate", "Abonamente online", "Managementul finanțelor personale", "Prevenirea încălcării datelor", "Plăți digitale sigure", "Soluții de securitate cibernetică", "Protejați informațiile financiare", "Confidențialitate sporită"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Imaginați-vă o ilustrație digitală vibrantă și dinamică care prezintă un card virtual protejat de un simbol de lacăt, reprezentând securitatea sporită și confidențialitatea oferită de cardurile de debit virtuale Privacy.com."
 coverCaption: "Protejați, controlați și împuterniciți tranzacțiile dvs. online."
 ---

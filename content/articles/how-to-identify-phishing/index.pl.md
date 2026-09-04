@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak rozpoznać próby wyłudzenia informacji w wiadomościach e-mail, SMS-ach i rozmowach telefonicznych, aby zachować bezpieczeństwo swoich danych osobowych."
 tags: ["phishing", "bezpieczeństwo w sieci", "bezpieczeństwo poczty elektronicznej", "cybersecurity", "bezpieczeństwo internetu", "maile phishingowe", "teksty phishingowe", "rozmowy phishingowe", "zagrożenia cyfrowe", "kradzież tożsamości", "ochrona danych", "oszustwo internetowe", "oszustwa internetowe", "prywatność w sieci", "wskazówki dotyczące bezpieczeństwa w sieci", "cyberprzestępczość", "bezpieczeństwo informacji", "hasło bezpieczeństwa", "bezpieczeństwo danych", "świadomość bezpieczeństwa"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Obraz postaci z kreskówki w kostiumie superbohatera i z tarczą blokującą wędkę, na której znajduje się e-mail phishingowy."
 coverCaption: ""
 ---

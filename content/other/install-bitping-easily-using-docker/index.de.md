@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Erfahren Sie, wie Sie Bitping installieren, eine leistungsstarke Lösung zur Website-Überwachung und Leistungsoptimierung für Echtzeit-Feedback zu Ausfallzeiten und Leistungseinbußen."
 tags: ["Bissig", "Website-Überwachung", "Leistungsoptimierung", "Echtzeit-Überwachung", "Ausfallzeit", "herabgesetzte Leistung", "Stressprüfung", "Benchmarking", "dynamisches Rerouting", "Reprovisionierung", "Netzwerk-Intelligenz", "Webhaken", "Solana", "Knoten", "leichte Netzwerktests", "Auszahlungen", "Ergebnis", "Website-Leistung", "Website-Analysen", "Web-Überwachung", "Leistungsüberwachung", "Überwachung der Betriebszeit", "echte Benutzerüberwachung", "Netzwerktests", "Website-Feedback", "Website-Warnungen", "Netzwerkintelligenzschicht", "Überwachungslösung", "Web-Performance", "Leistungskennzahlen"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Animierte Darstellung eines Dashboards für die Website-Performance mit Echtzeit-Metriken und Warnmeldungen."
 coverCaption: ""
 ---

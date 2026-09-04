@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Discover the top Linux distributions for gaming, including Ubuntu, Zorin OS, Manjaro, and SteamOS, and take your gaming experience to new heights on Linux."
 tags: ["Linux distros for gaming", "Ubuntu gaming", "Zorin OS gaming", "Manjaro gaming", "SteamOS gaming", "Linux gaming performance", "Linux gaming support", "Linux gaming community", "Ubuntu gaming experience", "Zorin OS gaming interface", "Manjaro gaming-focused", "SteamOS gaming OS", "Pop!_OS for gaming", "Fedora gaming support", "Solus gaming performance", "Linux gaming distros", "best Linux distros", "gaming on Linux", "Linux gaming platform", "Linux gaming guide", "gaming on Ubuntu", "gaming on Zorin OS", "gaming on Manjaro", "gaming on SteamOS", "Linux gaming software", "Linux gaming library", "Linux gaming compatibility", "Linux gaming community support", "Linux gaming setup", "Linux gaming performance optimization", "Linux gaming tips and tricks"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Illustration of a gamer immersed in a virtual world on a Linux-powered computer"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite come ottimizzare il mining di Spacemesh utilizzando più GPU con l'algoritmo ecologico PoST e massimizzare i vostri guadagni."
 genre: ["Criptovalute", "Blockchain", "Miniere", "Tecnologia", "Decentrato", "Estrazione di GPU", "Prova dello spazio-tempo", "Eco-compatibile", "Suggerimenti per le criptovalute", "Beni digitali"]
 tags: ["Maglia spaziale", "Miniere", "GPU", "Prova dello spazio-tempo", "Criptovalute", "Blockchain", "Eco-compatibile", "Decentrato", "Algoritmo PoST", "Guida alle miniere", "Suggerimenti per le criptovalute", "Premi", "Ottimizzazione", "Efficienza energetica", "Estrazione di GPU", "Beni digitali", "Tecnologia", "Decentramento", "Prova dello spazio", "Estrazione spazio-temporale", "Massimizzare l'efficienza mineraria", "Criptovaluta ecologica", "Rete Spacemesh", "Configurazione per il mining su GPU", "Estrazione con più GPU", "Estrazione decentralizzata su blockchain", "Suggerimenti per l'estrazione di criptovalute", "Estrazione efficiente su GPU", "Prova dell'algoritmo spazio-tempo", "Premi in criptovaluta"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "Un'illustrazione in stile cartone animato che mostra più GPU che lavorano insieme per estrarre Spacemesh."
 coverCaption: "Più intelligente, più verde!"
 ---

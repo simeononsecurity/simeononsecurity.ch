@@ -130,7 +130,7 @@ When creating custom Ethernet cables, you need to follow the correct wiring stan
 
 ### T568A Wiring Standard
 
-{{< figure src="T568A.jpg" alt="T568A Wiring Standard" caption="T568A Wiring Standard - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
+{{< figure src="T568A.webp" alt="T568A Wiring Standard" caption="T568A Wiring Standard - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
 
 The T568A wiring standard is one of the two most commonly used standards for Ethernet cable wiring. In this standard, the wire order for the RJ45 connector is as follows:
 
@@ -147,7 +147,7 @@ T568A is often used for residential and some commercial networks.
 
 ### T568B Wiring Standard
 
-{{< figure src="T568B.jpg" alt="T568B Wiring Standard" caption="T568B Wiring Standard - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
+{{< figure src="T568B.webp" alt="T568B Wiring Standard" caption="T568B Wiring Standard - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
 
 The T568B wiring standard is the other widely adopted wiring standard. It has a slightly different wire order for the RJ45 connector:
 
@@ -176,7 +176,7 @@ When creating custom Ethernet cables, you may encounter two main types: crossove
 
 Crossover cables are designed to connect two similar devices directly, such as two computers or two switches, without the need for a network hub or switch. These cables use a specific wiring configuration to allow data transmission between devices.
 
-{{< figure src="crossover.png" alt="Crossover Ethernet Cable Wiring" caption="Crossover Ethernet Cable Wiring - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
+{{< figure src="crossover.webp" alt="Crossover Ethernet Cable Wiring" caption="Crossover Ethernet Cable Wiring - showmecables.com" link="https://www.showmecables.com/blog/post/rj45-pinout" >}}
 
 **Crossover Cable Wiring**:
 - Send (TX) on one end connects to Receive (RX) on the other end.

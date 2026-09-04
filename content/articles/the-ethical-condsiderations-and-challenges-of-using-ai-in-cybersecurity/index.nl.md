@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over de ethische overwegingen en uitdagingen van het gebruik van AI in cyberbeveiliging en hoe deze kunnen worden aangepakt voor een effectief gebruik."
 tags: ["AI", "cyberbeveiliging", "ethische overwegingen", "bias", "privacy", "verantwoording", "complexiteit", "aanpassingsvermogen", "menselijk toezicht", "grondstofintensiteit", "gegevensprivacy", "machinaal leren", "dreigingsinformatie", "gegevensbescherming", "technologie", "automatisering", "cyberdreigingen", "informatiebeveiliging", "regelnaleving", "digitale transformatie"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "Een afbeelding van een slot met tandwielen symboliseert het gebruik van AI in cyberbeveiliging, terwijl een menselijke hand een sleutel vasthoudt om menselijk toezicht te illustreren."
 coverCaption: ""
 ---

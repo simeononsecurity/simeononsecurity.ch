@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "了解如何通过分享您的互联网并使用 Earn App 赚取奖励来使您的闲置设备货币化。"
 tags: ["赚取应用", "设备货币化", "共享互联网", "获得奖励", "被动收入", "设备资源", "VPN 服务", "住宅 IP", "闲置设备", "赚钱", "网络共享", "安装赚取应用", "docker 安装", "docker 容器", "赚取应用程序教程", "赚APP网站", "安装说明", "赚取帐户", "非托管版本", "UUID", "安装 docker", "docker 容器安装", "视频教程", "赚取应用程序引用", "赚取应用程序网站链接", "赚取应用程序安装说明"]
-cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.png"
+cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.webp"
 coverAlt: "图中展示了一部流淌着金钱的智能手机，代表了通过 赚 应用程序共享互联网资源赚取奖励的概念。"
 coverCaption: "利用盈利应用程序为闲置设备赚钱"
 ---

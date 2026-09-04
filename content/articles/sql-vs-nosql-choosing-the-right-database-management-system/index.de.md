@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die wichtigsten Unterschiede zwischen SQL- und NoSQL-Datenbanken und treffen Sie eine fundierte Entscheidung für das beste Datenbankmanagementsystem für Ihre Anforderungen."
 tags: ["Datenbankmanagementsystem", "SQL vs. NoSQL", "SQL-Datenbanken", "NoSQL-Datenbanken", "ACID-Konformität", "Datenmodell", "Skalierbarkeit", "Abfragesprache", "Leistung", "Schema-Entwicklung", "strukturierte Daten", "unstrukturierte Daten", "Datenintegrität", "horizontale Skalierbarkeit", "SQL-Abfragesprache", "MongoDB", "Dokumentendatenbanken", "Key-Value-Speicher", "spaltenförmige Datenbanken", "Graph-Datenbanken", "Datenverwaltung", "Datenstruktur", "analytische Abfragen", "Datenmodellierung", "flexible Schemata", "hoher Lesedurchsatz", "hoher Schreibdurchsatz", "komplexe Join-Operationen", "agile Entwicklung"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "Ein Bild, das ein Puzzleteil darstellt, das Daten repräsentiert, die in eine Datenbank eingegeben werden, und das den Entscheidungsprozess bei der Auswahl des richtigen Datenbankmanagementsystems symbolisiert."
 coverCaption: ""
 ---

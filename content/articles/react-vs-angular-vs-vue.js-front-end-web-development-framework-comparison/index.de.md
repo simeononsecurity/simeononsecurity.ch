@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Unterschiede zwischen React, Angular und Vue.js kennen, um das richtige Frontend-Framework für Ihr Webentwicklungsprojekt auszuwählen."
 tags: ["Frontend-Frameworks", "Web-Entwicklung", "Reagieren Sie", "Eckig", "Vue.js", "Rahmenwerkvergleich", "Benutzeroberflächen", "Leistung", "Popularität", "Gemeinschaftsunterstützung", "Lernkurve", "Ökosystem", "Anwendungsfälle", "JavaScript", "virtuelles DOM", "komponentenbasierte Architektur", "staatliches Management", "Skalierbarkeit", "Dokumentation", "Werkzeuge", "Projektanforderungen", "React vs. Angular", "React vs. Vue.js", "Angular vs. Vue.js", "Frontend-Entwicklung", "Webanwendungs-Frameworks", "UI-Entwicklung", "JavaScript-Frameworks", "Web-Entwicklungswerkzeuge", "Web-Entwicklungstechnologien"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "Ein Bild, das drei miteinander verbundene Zahnräder mit den Bezeichnungen React, Angular und Vue.js zeigt"
 coverCaption: ""
 ---

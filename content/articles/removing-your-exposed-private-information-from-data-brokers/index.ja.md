@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、オンラインディレクトリやデータブローカーから個人情報を削除して、個人情報を保護する方法をご紹介します。"
 tags: ["パーソナルデータ削除", "オンライン・ディレクトリー", "データブローカー", "プライバシー保護", "コンプリートガイド", "個人情報を削除する", "オンラインプライバシー", "インターネットプライバシー", "オンラインプライバシー", "データブローカー", "情報を削除する", "インテルテクニクス", "SimeonOnSecurity（シメオンセキュリティ", "オンラインセキュリティ", "プライバシー保護", "オンラインプライバシーを守る"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "名前、住所、電話番号などの個人情報のリストを赤いXで貫いたコンピューター画面のイメージで、オンラインディレクトリからの個人情報の削除を象徴しています。"
 coverCaption: ""
 ---

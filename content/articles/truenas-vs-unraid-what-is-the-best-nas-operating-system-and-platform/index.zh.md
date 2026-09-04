@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "对 Unraid 和 TrueNas 的全面比较，包括它们的用户友好性、功能、文档和社区，以帮助用户就哪种 NAS 操作系统最适合他们的需求做出明智的决定。"
 tags: ["未突袭", "真NAS", "操作系统", "比较", "用户友好性", "特征", "文档", "社区", "开源", "企业", "数据保护", "表现", "灵活性", "便于使用", "第三方应用", "网络附加存储", "RAID技术", "仓储管理", "OpenZFS", "家庭用户", "定价模式", "云储存", "虚拟化", "文档中心", "社区论坛", "高级数据保护", "成熟的网络存储操作系统", "技术专长", "资讯科技专业人士"]
-cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
+cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
 coverAlt: "两台服务器相对，一台蓝色，一台绿色。在蓝色一侧，一个人戴着安全帽，身穿安全背心。在绿色一侧，一个人坐在沙发上。"
 coverCaption: ""
 ---

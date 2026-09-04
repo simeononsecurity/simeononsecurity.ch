@@ -6,7 +6,7 @@ draft: false
 description: "Discover how human error plays a pivotal role in data breaches and how to prevent them effortlessly."
 genre: ["Cybersecurity", "Data Security", "Human Error", "Data Breaches", "Data Protection", "Cyber Threats", "Data Privacy", "Information Security", "Digital Security", "Security Training"]
 tags: ["Human Error", "Data Breaches", "Data Security", "Cybersecurity", "Data Protection", "Cyber Threats", "Data Privacy", "Information Security", "Digital Security", "Security Training", "Phishing Attacks", "Data Encryption", "Incident Response", "GDPR", "HIPAA", "Preventing Data Breaches", "Mitigating Human Error", "Data Breach Prevention", "Employee Training", "Access Controls", "Data Encryption", "Backup and Recovery", "Incident Response Plan", "Legal Implications", "Data Protection Regulations", "Cybersecurity Measures"]
-cover: "/img/cover/data-breach-prevention.png"
+cover: "/img/cover/data-breach-prevention.webp"
 coverAlt: "A shield protecting data from human error."
 coverCaption: "Secure Your Data Effortlessly"
 ---

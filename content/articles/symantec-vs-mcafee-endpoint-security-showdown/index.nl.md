@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Ontdek welke endpoint beveiligingsoplossing, Symantec of McAfee, het meest geschikt is om de digitale middelen van uw organisatie te beschermen tegen cyberbedreigingen."
 genre: ["Technologie", "Cyberbeveiliging", "Beveiliging van eindpunten", "Antivirus", "Firewall", "Inbraakdetectie", "Preventie van gegevensverlies", "Bescherming tegen bedreigingen", "Beveiligingsoplossingen", "Vergelijking"]
 tags: ["beveiliging van eindpunten", "Symantec", "McAfee", "cyberbeveiliging", "antivirus", "firewall", "inbraakdetectie", "preventie van gegevensverlies", "bescherming tegen bedreigingen", "beveiligingsoplossingen", "vergelijking", "malware", "ransomware", "phishing-aanvallen", "zero-day-aanvallen", "machinaal leren", "gedragsgebaseerde analyse", "console voor cloudbeheer", "real-time zichtbaarheid", "gecentraliseerd beheer", "integratiemogelijkheden", "klantbeoordelingen", "technische ondersteuning", "bedrijfscontinuïteit", "IT-omgeving", "externe plaatsing", "data-encryptie", "netwerktoegangsbeheer"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "Een afbeelding van een schild met de logo's van Symantec en McAfee, als symbool voor hun mogelijkheden op het gebied van endpointbeveiliging."
 ---
 

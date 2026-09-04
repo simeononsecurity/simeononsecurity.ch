@@ -6,7 +6,7 @@ draft: false
 description: "Understand the Critical Role of Your PC's Motherboard Battery. Explore its functions in CMOS, BIOS, timekeeping, and hardware detection."
 genre: ["Computer Components", "PC Maintenance", "Hardware Tutorials", "Tech Guides", "Computer Repairs", "DIY Tech Support", "Motherboard Insights", "BIOS Configuration", "PC Building Basics", "Electronic Troubleshooting"]
 tags: ["Motherboard Battery", "CMOS Power", "BIOS Settings Preservation", "PC Timekeeping", "System Boot Process", "Hardware Detection", "CR2032 Battery", "PC Troubleshooting", "Computer Maintenance", "PC Clock", "Motherboard Maintenance", "Computer Hardware Basics", "Tech DIY", "BIOS Configuration", "Motherboard Lifespan", "CMOS Chip", "Battery Replacement", "PC Boot Issues", "Peripheral Detection", "Maintaining PC Components", "Computer Setup", "Hardware Configuration", "System Stability", "Boot Order Settings", "Clock Battery", "Computer System Time", "Anti-Static Precautions", "Motherboard Setup", "Tech Repairs", "Hardware Compatibility"]
-cover: "/img/cover/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc.jpeg"
+cover: "/img/cover/the-little-battery-on-the-motherboard_-why-its-crucial-for-your-pc.webp"
 ---
 
 The Little Battery on the Motherboard: Why It's Crucial for Your PC

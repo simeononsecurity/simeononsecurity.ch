@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à identifier les tentatives d'hameçonnage dans les courriels, les textes et les appels afin de protéger vos informations personnelles."
 tags: ["hameçonnage", "sécurité en ligne", "Sécurité du courrier électronique", "cybersécurité", "sécurité sur internet", "courriels d'hameçonnage", "textes d'hameçonnage", "appels de phishing", "menaces numériques", "vol d'identité", "protection des données", "fraude en ligne", "escroqueries en ligne", "vie privée en ligne", "Conseils de sécurité en ligne", "cybercriminalité", "la sécurité de l'information", "sécurité du mot de passe", "la sécurité des données", "sensibilisation à la sécurité"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "Image d'un personnage de dessin animé portant un costume de super-héros et un bouclier, bloquant une canne à pêche sur laquelle figure un courriel de phishing."
 coverCaption: ""
 ---

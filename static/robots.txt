@@ -75,9 +75,8 @@ Disallow: /icons.json
 Allow: /
 
 # ---- Social / visual scrapers (moderately rate-limited) ----
-# Pinterest, Flipboard, and Crowsnest are image-first scrapers, so the
-# stricter ai-input=no signal applies here too, not just under /img/.
-User-agent: Pinterest
+# Flipboard and Crowsnest are image-first scrapers, so the stricter
+# ai-input=no signal applies here too, not just under /img/.
 User-agent: Flipboard
 User-agent: FlipboardProxy
 User-agent: Crowsnest
@@ -88,6 +87,23 @@ Disallow: /presskit.zip
 Disallow: /manifest-large.json
 Disallow: /icons.json
 Allow: /
+
+# ---- Pinterest: image paths only, everything else blocked ----
+# Pinterestbot is the documented user-agent token (Pinterest's help docs at
+# pinterest.com/bot.html); "Pinterest" is kept as an alias some third-party
+# lists still use. Per Pinterest's own crawler docs, it honors Crawl-delay
+# only up to 1 second: any larger value is silently truncated to 1, so 1 is
+# already the strictest rate limit robots.txt can enforce on this bot.
+# Restricted to /img/ only: Pinterestbot cannot fetch article/page HTML at
+# all, only files under the image directory tree. Page-bundle-relative
+# inline images (served from article/guide URLs rather than /img/) are also
+# blocked as a result, only /img/cover/, /img/ads/, etc. remain reachable.
+User-agent: Pinterestbot
+User-agent: Pinterest
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Crawl-delay: 1
+Disallow: /
+Allow: /img/
 
 # ---- AI content scrapers (heavily rate-limited) ----
 # Explicit AI-labeled crawlers. Content-Signal formally states what the

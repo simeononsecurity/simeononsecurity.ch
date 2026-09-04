@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Dowiedz się, jak zainstalować Bitping, potężne rozwiązanie do monitorowania witryn internetowych i optymalizacji wydajności, zapewniające informacje zwrotne w czasie rzeczywistym na temat przestojów i obniżonej wydajności."
 tags: ["Bitping", "monitorowanie stron internetowych", "optymalizacja wydajności", "Monitorowanie w czasie rzeczywistym", "przestój", "obniżona wydajność", "testy warunków skrajnych", "benchmarking", "dynamiczne przekierowywanie", "reprovisioning", "inteligencja sieciowa", "webhooks", "Solana", "węzeł", "Lekkie testy sieciowe", "wypłaty", "zarobki", "wydajność witryny", "analityka internetowa", "monitorowanie sieci", "monitorowanie wydajności", "monitorowanie czasu pracy", "Monitorowanie rzeczywistych użytkowników", "testowanie sieci", "opinie o witrynie", "alerty na stronie internetowej", "warstwa inteligencji sieciowej", "rozwiązanie do monitorowania", "wydajność sieci", "wskaźniki wydajności"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Animowana ilustracja pulpitu nawigacyjnego wydajności witryny z danymi w czasie rzeczywistym i alertami."
 coverCaption: ""
 ---

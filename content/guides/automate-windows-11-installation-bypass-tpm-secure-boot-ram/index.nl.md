@@ -6,7 +6,7 @@ draft: false
 description: "Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM."
 genre: ["Technologie", "Windows 11", "Installatie", "Virtualisatie", "Automatisering", "Registersleutels", "TPM omleiding", "Beveiligd opstarten omzeilen", "RAM omleiding", "vTPM"]
 tags: ["Windows 11", "Installatie", "Automatisering", "Virtualisatie", "vTPM", "Registersleutels", "TPM omleiding", "Beveiligd opstarten omzeilen", "RAM omleiding", "Autounattend.xml", "VMware vSphere", "Windows instellen", "Windows-omgeving voor installatie", "Virtuele machine", "Windows installatie-omleiding", "Register-editor", "Microsoft Windows instellen", "Systeemvereisten", "Windows Beveiliging", "Windows prestaties", "Overheidsvoorschriften", "NIST-naleving", "Microsoft", "Windows OS", "Controles omzeilen", "Windows installatie", "Automatisering instellen", "Opdrachtprompt", "Technische handleiding", "Geautomatiseerde installatie van Windows 11", "vTPM-configuratie in VMware vSphere", "Windows 11-vereisten omzeilen"]
-cover: "/img/cover/windows11-installation-cartoon.png"
+cover: "/img/cover/windows11-installation-cartoon.webp"
 coverAlt: " Een cartoonachtige afbeelding van een virtuele machine die Windows 11 installeert in een gevirtualiseerde omgeving met een lachende IT-professional die toezicht houdt op het proces."
 coverCaption: "Vereenvoudig installatie met Smiles: Installatie van Windows 11 automatiseren"
 ---

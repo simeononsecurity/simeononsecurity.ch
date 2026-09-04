@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Scoprite le migliori major per una carriera di successo nel campo della cybersecurity e imparate a percorrere il cammino per diventare professionisti qualificati."
 tags: ["lavoro nella cybersecurity", "requisito di laurea", "selezione principale", "percorso di carriera nella cybersecurity", "sicurezza delle informazioni", "minacce informatiche", "opportunità di carriera", "sviluppo delle competenze", "certificazioni di settore", "bootcamp di cybersicurezza", "opzioni di autoapprendimento", "corsi online", "programmi di stage", "posizioni di ingresso", "lavori di cybersicurezza", "educazione alla cybersicurezza", "orientamento professionale", "percorsi di cybersecurity", "le migliori major per la cybersicurezza", "curriculum di cybersecurity", "specializzazione in tecnologia dell'informazione", "specializzazione in informatica", "specializzazione in matematica", "specializzazione in ingegneria", "business e cybersicurezza", "psicologia e sicurezza informatica", "sociologia e sicurezza informatica", "prospettive di lavoro nella cybersecurity", "competenze pratiche in materia di cybersecurity", "apprendimento continuo nella cybersecurity", "domanda di professionisti della cybersecurity"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Illustrazione di una persona che tiene in mano un cappello di laurea con uno scudo che rappresenta la cybersecurity, a simboleggiare la necessità di istruzione e competenze nel campo della cybersecurity. --aspetto 16:9"
 coverCaption: "Sbloccate il vostro potenziale di carriera nella sicurezza informatica con l'istruzione e le competenze."
 ---

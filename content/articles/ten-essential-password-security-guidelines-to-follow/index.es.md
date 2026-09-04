@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Conozca las 10 pautas esenciales de seguridad de las contraseñas para proteger su identidad digital y sus datos personales de los ciberataques."
 genre: ["Tecnología", "Ciberseguridad", "Protección de la identidad digital", "Seguridad de contraseñas", "Seguridad en línea", "Protección de datos", "Consejos de seguridad en línea", "Gestión de contraseñas", "Autenticación de dos factores", "Recuperación de contraseñas"]
 tags: ["seguridad de contraseñas", "directrices sobre contraseñas", "contraseñas seguras", "ciberataques", "seguridad en línea", "riesgos de contraseña", "contraseñas débiles", "protección por contraseña", "seguridad de los datos", "defensa de contraseñas", "prevención de hackers", "importancia de la contraseña", "descifrado de contraseñas", "robo de identidad", "reutilización de contraseñas", "gestión de contraseñas", "autenticación de dos factores", "Ventajas de la 2FA", "actualizaciones de contraseña", "cambio de contraseña", "buenas prácticas en materia de contraseñas", "recuperación de contraseña", "gestor de contraseñas", "ventajas del gestor de contraseñas", "seleccionar un gestor de contraseñas", "seguridad de la cuenta en línea", "codificación", "autenticación multifactor"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Imagen simbólica que representa la seguridad de las contraseñas con un escudo que protege una cerradura."
 ---
 

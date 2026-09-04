@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de belangrijkste verschillen tussen SQL- en NoSQL-databases en neem een weloverwogen beslissing over het beste databasebeheersysteem voor uw behoeften."
 tags: ["database management systeem", "SQL vs NoSQL", "SQL-databases", "NoSQL-databases", "ACID-conformiteit", "datamodel", "schaalbaarheid", "querytaal", "prestatie", "evolutie van het schema", "gestructureerde gegevens", "ongestructureerde gegevens", "gegevensintegriteit", "horizontale schaalbaarheid", "SQL-querytaal", "MongoDB", "databases met documenten", "key-value stores", "kolomdatabases", "grafische databanken", "gegevensbeheer", "gegevensstructuur", "analytische vragen", "gegevensmodellering", "flexibele schema's", "hoge leesdoorvoer", "hoge schrijfdoorvoer", "complexe join operaties", "agile ontwikkeling"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "Een afbeelding van een puzzelstukje dat gegevens voorstelt die in een database worden geplaatst, als symbool voor het besluitvormingsproces om het juiste databasebeheersysteem te kiezen."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Dowiedz się o procesie klasyfikacji informacji, w tym o tym, kto wyznacza i przypisuje poziomy klasyfikacji, a także o znaczeniu przestrzegania przepisów rządowych."
 genre: ["Bezpieczeństwo informacji", "Klasyfikacja danych", "Przepisy rządowe", "Bezpieczeństwo narodowe", "Ochrona danych", "Prywatność danych", "Środki bezpieczeństwa", "Informacje niejawne", "Kontrola dostępu", "Wrażliwość danych"]
 tags: ["klasyfikacja informacji", "wyznaczanie poziomów klasyfikacji", "organ klasyfikacyjny", "bezpieczeństwo informacji", "regulacje rządowe", "bezpieczeństwo narodowe", "ochrona danych", "prywatność danych", "środki bezpieczeństwa", "informacje niejawne", "kontrola dostępu", "wrażliwość danych", "proces klasyfikacji", "poziomy klasyfikacji", "pierwotny organ klasyfikacyjny", "ściśle tajne", "tajna klasyfikacja", "klasyfikacja poufna", "Ograniczona klasyfikacja", "wrażliwość informacji", "poświadczenie bezpieczeństwa", "zasada ograniczonego dostępu", "oznaczenia klasyfikacyjne", "proces odtajniania", "Rozporządzenie wykonawcze 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "Obraz przedstawiający osobę z lupą analizującą tajne dokumenty i symbolem kłódki w tle."
 coverCaption: "Ujawnianie tajemnic: Znaczenie klasyfikacji informacji"
 ---

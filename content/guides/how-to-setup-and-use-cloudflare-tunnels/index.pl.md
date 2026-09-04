@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Dowiedz się, jak skonfigurować tunele Cloudflare, aby usprawnić i chronić ruch sieciowy, zwiększając wydajność i bezpieczeństwo."
 tags: ["Tunele Cloudflare", "Bezpieczeństwo sieci", "Wydajność strony internetowej", "Serwer proxy", "Ruch internetowy", "Konfiguracja sieci", "Ubuntu Server", "Konto Cloudflare", "Uwierzytelnianie", "Tworzenie tunelu", "Routing ruchu", "Rekordy DNS", "Bezpieczne połączenie", "Hosting stron internetowych", "Usługa proxy", "Ochrona sieci", "Optymalizacja wydajności", "Integracja z Cloudflare", "Konfiguracja serwera", "Szyfrowanie ruchu", "Zarządzanie ruchem sieciowym", "Bezpieczny hosting", "Bezpieczeństwo stron internetowych", "Konfiguracja Ubuntu", "Technologia tunelowania", "Usługi Cloudflare", "Wydajność sieci", "Bezpieczeństwo w sieci", "Bezpieczeństwo serwera", "Zarządzanie ruchem", "Cloudflare Proxy"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "Ilustracja przedstawiająca tunel sieciowy łączący lokalny serwer z logo Cloudflare, symbolizującym bezpieczny i usprawniony ruch sieciowy."
 coverCaption: ""
 ---

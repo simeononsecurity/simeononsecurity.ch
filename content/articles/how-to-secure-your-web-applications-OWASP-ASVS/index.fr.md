@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à sécuriser vos applications web à l'aide de la norme OWASP Application Security Verification Standard (ASVS) afin de respecter les mesures de sécurité les plus rigoureuses et de vous protéger contre les vulnérabilités les plus courantes."
 tags: ["sécurité des applications web", "OWASP", "ASVS", "sécurité des applications", "normes de sécurité", "cybersécurité", "gestion de la vulnérabilité", "codage sécurisé", "tests de pénétration", "modélisation des menaces", "contrôles de sécurité", "évaluation de la sécurité", "les tests de sécurité automatisés", "tests de sécurité manuels", "cycle de développement sécurisé", "meilleures pratiques en matière de sécurité", "la sécurité des données", "la gestion des risques", "conformité", "la sécurité de l'information"]
-cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png"
+cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Un bouclier blindé avec les lettres ASVS en gras, le bouclier protégeant une application web à l'arrière"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Poznaj taktyki stosowane przez oszustów phishingowych i odkryj skuteczne strategie ochrony przed staniem się ofiarą."
 tags: ["oszustwa phishingowe", "cyberbezpieczeństwo", "zagrożenia online", "Email spoofing", "inżynieria społeczna", "ochrona przed złośliwym oprogramowaniem", "bezpieczeństwo online", "bezpieczeństwo danych", "kradzież tożsamości", "bezpieczeństwo hasła", "uwierzytelnianie dwuskładnikowe", "aktualizacje oprogramowania", "regulacje rządowe", "prywatność online", "świadomość cybernetyczna", "oszustwo cyfrowe", "świadomość phishingu", "Bezpieczeństwo w mediach społecznościowych", "oszustwa internetowe", "Zapobieganie cyberprzestępczości"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Czujna tarcza chroniąca użytkownika przed atakami phishingowymi"
 coverCaption: ""
 ---

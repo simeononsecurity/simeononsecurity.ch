@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解网络安全的基础知识，包括网络威胁的类型、网络安全的重要性以及提高在线安全的步骤。"
 tags: ["网络安全", "网络威胁", "在线安全", "保护数据", "病毒", "恶意软件", "网络钓鱼诈骗", "黑客", "国家安全", "知识产权", "个人隐私"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "屏幕上显示的是一个人坐在电脑前表情忧虑的图像，而黑客或网络罪犯则显示在屏幕上，代表网络威胁的危险和网络安全的重要性"
 coverCaption: ""
 ---

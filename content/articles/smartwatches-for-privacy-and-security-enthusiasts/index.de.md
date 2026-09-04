@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die besten Smartwatches für Liebhaber des Datenschutzes mit Schwerpunkt auf Datensicherheit und Benutzerkontrolle."
 tags: ["Smartwatch-Optionen", "Geräte, die auf Datenschutz ausgerichtet sind", "Datensicherheit", "Benutzerkontrolle", "AsteroidOS", "PineTime", "Der Watchy", "Die offene Smartwatch", "Bangle.js 2", "Gadgetbridge", "tragbare Technologie", "Datenschutz", "anpassbare Erfahrung", "Schutz personenbezogener Daten", "Open-Source-Smartwatches", "Fitness-Tracking", "Benachrichtigungen", "Smartwatch-Firmware", "datenschutzbewusste Menschen", "Von Gadgetbridge unterstützte Geräte", "Amazfit Bip", "Garmin-Uhren", "Fitbit-Modelle", "Pinetime Smartwatch", "The Watchy von Squarofumi", "Die offene Smartwatch von Pauls_3D_Things", "Bangle.js 2 Smartwatch", "Kompatibilität von Gadgetbridge", "Von AsteroidOS unterstützte Geräte", "Smartwatch-Datenschutzfunktionen", "Open-Source-Wearable-Technologie", "Datenschutzlösungen"]
-cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.png"
+cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp"
 coverAlt: "Illustration einer Smartwatch mit einem Schild, das den Datenschutz symbolisiert"
 coverCaption: ""
 ---

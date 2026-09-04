@@ -6,7 +6,7 @@ draft: false
 description: "starting a comprehensive journey through the ages, unraveling the mysteries of cryptography. From ancient civilizations' secret communication to the forefront of modern security, this exploration digs into historical techniques, cryptographic algorithms, cryptanalysis, and applications shaping contemporary cybersecurity. Uncover the pivotal role cryptography plays in securing digital communications, transactions, and emerging technologies like blockchain. As threats evolve, the enduring battle between encryption and cryptanalysis unfolds, emphasizing the perpetual significance of cryptography in safeguarding sensitive information."
 genre: ["Cryptography History", "Ancient Cryptography", "Medieval Cryptography", "Renaissance Cryptography", "Modern Cryptographic Algorithms", "Symmetric Key Algorithms", "Asymmetric Key Algorithms", "Hash Functions", "Digital Signatures", "Cryptanalysis", "Cryptographic Attacks", "Secure Communication Protocols", "Data Encryption", "Blockchain Technology", "Cryptocurrency", "Digital Security"]
 tags: ["Cryptography Evolution", "Historical Cryptography", "Ancient Cryptography Techniques", "Medieval Cryptography Methods", "Renaissance Era Cryptography", "Modern Cryptographic Algorithms", "Symmetric Key Algorithms", "Asymmetric Key Algorithms", "Hash Functions", "Digital Signatures", "Cryptanalysis Techniques", "Cryptographic Weaknesses", "Cryptographic Vulnerabilities", "Secure Communication Protocols", "Data Encryption", "Blockchain Security", "Cryptocurrency Transactions"]
-cover: "/img/cover/the-evolution-of-cryptography-in-modern-security.jpeg"
+cover: "/img/cover/the-evolution-of-cryptography-in-modern-security.webp"
 coverAlt: "The Evolution of Cryptography in Modern Security"
 ---
 

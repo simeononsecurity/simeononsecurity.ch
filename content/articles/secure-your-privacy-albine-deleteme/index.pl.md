@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc Albine DeleteMe, usługi ochrony prywatności danych, która umożliwia ochronę danych osobowych, zapewniając bezpieczeństwo online i spokój ducha."
 genre: ["Prywatność danych", "Bezpieczeństwo online", "Ochrona danych osobowych", "Zapobieganie kradzieży tożsamości", "Zarządzanie cyfrowym śladem", "Cyberbezpieczeństwo", "Prywatność w Internecie", "Usuwanie danych", "Zgodność z RODO", "CCPA"]
 tags: ["Albine DeleteMe", "Prywatność danych", "Bezpieczeństwo online", "Dane osobowe", "Zapobieganie kradzieży tożsamości", "Cyfrowy ślad", "Cyberbezpieczeństwo", "Prywatność w Internecie", "Usuwanie danych", "Zgodność z RODO", "CCPA", "Ochrona danych", "Naruszenie ochrony danych", "Usługa ochrony prywatności", "Dane wrażliwe", "Obecność online", "Przepisy dotyczące ochrony danych", "Monitorowanie danych", "Ochrona tożsamości", "Szyfrowanie danych", "Naruszenie prywatności", "Ochrona danych osobowych", "Ochrona prywatności w Internecie", "Bezpieczne usuwanie danych", "Zapobieganie zagrożeniom prywatności", "Ograniczanie kradzieży tożsamości", "Rozwiązanie w zakresie prywatności danych", "Zarządzanie prywatnością online", "Środki bezpieczeństwa danych", "Zgodność z przepisami dotyczącymi prywatności", "Ochrona tożsamości online"]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "Kreskówkowy wizerunek osoby otoczonej tarczami ochronnymi, reprezentujący prywatność online i ochronę danych."
 coverCaption: "Strzeż swoich danych, korzystaj z prywatności."
 ---

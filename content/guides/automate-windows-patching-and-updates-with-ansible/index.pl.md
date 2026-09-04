@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Usprawnij proces aktualizacji systemów Windows poprzez automatyzację za pomocą Ansible - instrukcje krok po kroku i najlepsze praktyki w zestawie."
 tags: ["Automatyzacja aktualizacji systemu Windows", "Automatyzacja Ansible", "zarządzanie systemem", "poprawki zabezpieczeń", "Infrastruktura IT", "automatyzacja sieci", "zarządzanie konfiguracją", "Operacje IT", "DevOps", "cyberbezpieczeństwo", "Automatyzacja IT", "Wydajność IT", "Podręcznik Ansible", "Bezpieczeństwo systemu Windows", "zarządzanie aktualizacjami", "Wydajność IT", "Konserwacja IT", "Poświadczenia Ansible", "konfiguracja hosta", "automatyzacja systemu", "Aktualizacje systemu Windows", "Zarządzanie systemem Windows", "Poprawki zabezpieczeń systemu Windows", "Infrastruktura IT Windows", "Automatyzacja sieci Windows", "Zarządzanie konfiguracją systemu Windows", "Operacje IT w systemie Windows", "Windows DevOps", "Cyberbezpieczeństwo systemu Windows", "Automatyzacja IT w systemie Windows", "Wydajność systemu Windows IT"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Animowana ilustracja przedstawiająca logo Windows otoczone kołami zębatymi symbolizującymi automatyzację i aktualizacje."
 coverCaption: ""
 ---

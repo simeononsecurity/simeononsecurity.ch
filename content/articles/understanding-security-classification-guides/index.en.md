@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the importance of security classification guides in safeguarding classified information and ensuring compliance with regulations."
 tags: ["security classification guides", "information protection", "classified information", "government regulations", "risk mitigation", "access control", "information security", "marking procedures", "handling procedures", "national security", "compliance", "insider threats", "information sharing", "intellectual property", "decision-making", "legal obligations", "ethical obligations", "international collaboration", "ISO 27001", "NISPOM", "Executive Order 13526", "information classification", "data protection", "information handling", "controlled sharing", "information confidentiality", "information integrity", "information security culture", "information security guidelines", "information security practices", "information security awareness"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "An image depicting a locked document folder with a shield symbolizing the protection of classified information."
 coverCaption: ""
 ---

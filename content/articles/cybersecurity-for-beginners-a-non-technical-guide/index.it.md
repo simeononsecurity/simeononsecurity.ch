@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Scoprite i fondamenti della cybersecurity e i consigli pratici per proteggere la vostra vita digitale dalle minacce informatiche in questa guida completa."
 genre: ["Sicurezza informatica", "Sicurezza online", "Sicurezza digitale", "Minacce informatiche", "Privacy su Internet", "Protezione dei dati", "Sicurezza delle informazioni", "Tecnologia", "Difesa informatica", "Consapevolezza informatica"]
 tags: ["sicurezza informatica", "sicurezza online", "sicurezza digitale", "minacce informatiche", "privacy in internet", "protezione dei dati", "sicurezza delle informazioni", "tecnologia", "difesa informatica", "consapevolezza informatica", "nozioni di base di cybersecurity", "vita digitale", "attacchi informatici", "protezione online", "sicurezza dei dati", "sicurezza informatica", "sicurezza della rete", "online privacy", "sicurezza della password", "attacchi di phishing", "protezione da malware", "Consigli per la sicurezza informatica", "igiene informatica", "misure di sicurezza informatica", "pratiche di cybersicurezza", "panorama delle minacce informatiche", "Guida alla sicurezza informatica", "fondamenti di cybersecurity", "violazioni dei dati", "cybersecurity per principianti", "Consigli per la sicurezza online", "consapevolezza della cybersicurezza"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Un'illustrazione a fumetti di uno scudo che protegge un dispositivo digitale dalle minacce informatiche"
 ---
 

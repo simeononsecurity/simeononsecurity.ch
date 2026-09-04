@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Découvrez les éléments clés de la formation à la cybersécurité de l'armée, la conformité aux réglementations et les meilleures pratiques pour le personnel de la défense afin de lutter efficacement contre les cybermenaces."
 tags: ["Formation de sensibilisation à la cybersécurité de l'armée", "Defense personnel", "Cybermenaces", "Meilleures pratiques en matière de cybersécurité", "Conformité", "Sensibilisation à l'hameçonnage", "Pratiques de sécurisation des mots de passe", "Naviguer en toute sécurité sur Internet", "Sécurité des appareils mobiles", "Sensibilisation à l'ingénierie sociale", "Protection des données", "Rapport d'incident", "Réglementation en matière de cybersécurité", "Directive 8570 du ministère de la défense", "Directive 8140 du ministère de la défense", "Attaques par hameçonnage", "Des habitudes de navigation sécurisées", "Cryptage des appareils mobiles", "Techniques d'ingénierie sociale", "Confidentialité des données", "Réponse aux incidents", "Environnement cybersécurisé", "Protection des informations sensibles", "Compétences en cybersécurité", "Systèmes de l'armée", "Atténuation des cybermenaces", "Éducation à la cybersécurité", "Sensibilisation à la sécurité de l'information", "Position de la défense en matière de cybersécurité"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Image représentant un bouclier avec un cadenas symbolisant la défense de la cybersécurité et la protection contre les cybermenaces."
 coverCaption: "Protéger la forteresse numérique : Renforcer les défenses de l'armée en matière de cybersécurité"
 ---

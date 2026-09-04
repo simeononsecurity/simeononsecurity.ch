@@ -6,7 +6,7 @@ draft: false
 description: "Explorați teoria revoluționară a proiecției puterii și implicațiile sale pentru securitatea națională, pe măsură ce Bitcoin se transformă într-o puternică tehnologie de securitate electro-cyber."
 genre: ["Criptomonedă", "Securitatea cibernetică", "Tehnologie", "Securitatea națională", "Cercetare", "Financiar", "Inovație", "Moneda digitală", "Elaborarea politicilor", "Blockchain"]
 tags: ["Bitcoin", "Dovada de lucru", "Securitatea electro-cybernetică", "Teoria proiecției puterii", "Impact strategic național", "Tehnologie financiară", "Criptomonedă Cercetare", "Rolul Bitcoin", "Strategii de securitate cibernetică", "Ordinul prezidențial prezidențial al SUA", "Moneda digitală", "Bitcoin Whitepaper", "Evaluarea riscurilor", "Potențialul Bitcoin", "Sistemul monetar", "Softwar", "Spațiul cibernetic", "Abordare interdisciplinară", "Securitatea informațiilor", "Politici publice", "Securizarea informațiilor critice", "Inovare digitală", "Un viitor rezilient", "Crypto", "Securitatea Bitcoin", "Bursa financiară", "Implicațiile Bitcoin", "Bitcoin în secolul 21", "Recompensele Bitcoin"]
-cover: "/img/cover/empowered-national-security.png"
+cover: "/img/cover/empowered-national-security.webp"
 coverAlt: "O operă de artă simbolică care prezintă un scut-emblemă, reprezentând transformarea Bitcoin într-o puternică tehnologie de securitate electro-cybernetică."
 coverCaption: "Dezlănțuirea puterii Bitcoin: asigurarea viitorului nostru"
 ---

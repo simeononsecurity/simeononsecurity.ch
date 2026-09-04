@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de diverse toepassingen van blockchaintechnologie die verder gaan dan cryptocurrencies en een revolutie teweegbrengen op het gebied van financiën, supply chain management, gezondheidszorg, energie en nog veel meer."
 genre: ["Blockchain Technologie", "Cryptocurrency", "Financiën", "Beheer van de toeleveringsketen", "Gezondheidszorg", "Energie", "Nutsbedrijven", "Gedecentraliseerde financiering", "Slimme contracten", "Grensoverschrijdende betalingen"]
 tags: ["blockchain", "cryptocurrency", "financiën", "integraal ketenbeheer", "gezondheidszorg", "energie", "nutsbedrijven", "gedecentraliseerde financiering", "slimme contracten", "grensoverschrijdende betalingen", "bron", "traceerbaarheid", "logistiek", "namaakgoederen", "duurzame toeleveringsketens", "veilig beheer van patiëntgegevens", "traceerbaarheid van geneesmiddelen", "klinische proeven", "telegeneeskunde", "externe bewaking", "gedecentraliseerde energienetwerken", "peer-to-peer energiehandel", "slimme meters", "facturering", "publieke blockchains", "private blockchains", "transparantie", "beveiliging", "onveranderlijkheid"]
-cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png"
+cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.webp"
 coverAlt: "Een afbeelding van onderling verbonden blokken die een ketting vormen en de blockchaintechnologie voorstellen."
 coverCaption: "Het potentieel van blockchaintechnologie ontsluiten"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ten artykuł bada korzyści i wady uzyskania stopnia w dziedzinach cyberbezpieczeństwa i administracji systemami, w tym możliwości zatrudnienia, certyfikaty, czas i rozważania dotyczące kosztów."
 tags: ["cybersecurity", "administracja systemem", "stopień", "certyfikaty", "awans zawodowy", "potencjał płacowy", "czas i koszty", "prace rządowe", "samouk", "szkolenie online", "Certyfikaty CompTIA"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "Obraz osoby siedzącej przy biurku z komputerem przed sobą, otoczonej książkami, zasobami online i materiałami certyfikacyjnymi, symbolizującymi różne ścieżki zdobywania wiedzy i doświadczenia w zakresie cyberbezpieczeństwa i administracji systemami."
 coverCaption: ""
 ---

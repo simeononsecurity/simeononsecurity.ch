@@ -6,7 +6,7 @@ draft: false
 description: "Discover secure smart home hubs for a safe and convenient home automation experience."
 genre: ["Technology", "Home Security", "Smart Home", "Home Automation", "Privacy", "Internet of Things", "Digital Security", "Connected Devices", "Home Improvement", "Consumer Electronics"]
 tags: ["Best Smart Home Hubs", "Secure Home Automation", "Amazon Smart Devices", "Privacy-Focused Controllers", "Z-Wave vs Zigbee", "Secure Home Connectivity", "Smart Home Privacy", "Home Automation Guide", "Choosing Secure Controllers", "Connected Living Solutions", "Smart Home Hubs", "Home Automation Security", "Amazon", "Secure Devices", "Privacy", "Smart Technology", "Connected Living", "Home Security", "Z-Wave", "Zigbee"]
-cover: "/img/cover/secure-smart-home-hubs.png"
+cover: "/img/cover/secure-smart-home-hubs.webp"
 coverAlt: "Secure Smart Home Hubs ensuring privacy and control."
 coverCaption: "Safety and Convenience United: Secure Smart Home Hubs on Amazon"
 ---
@@ -30,7 +30,7 @@ SimeonOnSecurity presents a curated collection of smart home hubs and controller
 
 The [**Amazon Echo (4th Gen)**](https://amzn.to/43RJndY) stands as a central hub for orchestrating a symphony of smart devices in your abode. With integrated **Zigbee support** and smooth integration of **Alexa Guard**, it not only provides convenience but also upholds a fortress of security.
 
-{{< figure src="alexa.jpg" alt="Amazon Echo (4th Gen)" link="https://amzn.to/43RJndY" >}}
+{{< figure src="alexa.webp" alt="Amazon Echo (4th Gen)" link="https://amzn.to/43RJndY" >}}
 
 #### Key Attributes:
 - Zigbee compatibility for simplified connections with Zigbee devices
@@ -41,7 +41,7 @@ The [**Amazon Echo (4th Gen)**](https://amzn.to/43RJndY) stands as a central hub
 
 The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive home security system that extends its protective mantle over various smart home gadgets. Its robust security protocols and integration with other Ring products strengthen your home's defenses.
 
-{{< figure src="ring.jpg" alt="Ring Alarm 5-Piece Kit" link="https://amzn.to/3OFKRU0" >}}
+{{< figure src="ring.webp" alt="Ring Alarm 5-Piece Kit" link="https://amzn.to/3OFKRU0" >}}
 
 #### Key Attributes:
 - Professional monitoring to ensure swift response during emergencies
@@ -52,7 +52,7 @@ The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive hom
 
 [**Samsung SmartThings**](https://amzn.to/4576RN0) emerges as an ecosystem enabler, knitting together a diverse array of smart devices. Its commitment to security is demonstrated through its multifaceted approach to safeguarding your smart home.
 
-{{< figure src="smartthings.jpg" alt="Samsung SmartThings Home Hub" link="https://amzn.to/4576RN0" >}}
+{{< figure src="smartthings.webp" alt="Samsung SmartThings Home Hub" link="https://amzn.to/4576RN0" >}}
 
 #### Key Attributes:
 - Wide compatibility, making it a bridge between various devices and protocols
@@ -62,7 +62,7 @@ The [**Ring Alarm 5-Piece Kit**](https://amzn.to/3OFKRU0) is a comprehensive hom
 
 The [**Hubitat Home Automation Hub**](https://amzn.to/47aa14B) puts the control back into your hands, allowing you to manage your smart home environment without compromising security. Local processing and a focus on privacy set it apart.
 
-{{< figure src="hubitat.jpg" alt="Hubitat Home Automation Hub" link="https://amzn.to/47aa14B" >}}
+{{< figure src="hubitat.webp" alt="Hubitat Home Automation Hub" link="https://amzn.to/47aa14B" >}}
 
 #### Key Attributes:
 - Local processing for enhanced privacy and reduced reliance on cloud services
@@ -72,7 +72,7 @@ The [**Hubitat Home Automation Hub**](https://amzn.to/47aa14B) puts the control 
 
 [**Home Assistant**](https://www.home-assistant.io/) serves as your personal smart home manager, offering you complete control over your connected devices while maintaining top-notch security and privacy.
 
-{{< figure src="homeassistant.jpg" alt="Home Assistant Hub" link="https://www.home-assistant.io/" >}}
+{{< figure src="homeassistant.webp" alt="Home Assistant Hub" link="https://www.home-assistant.io/" >}}
 
 #### Key Features:
 - Open-source platform, giving you full control and customization

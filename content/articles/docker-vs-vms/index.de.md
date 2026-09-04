@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie in diesem Artikel die Leistungsfähigkeit von Docker im Cloud Computing, das VMs durch seine Einfachheit, Skalierbarkeit, Sicherheit und Kosteneffizienz übertrifft."
 tags: ["Docker", "Virtuelle Maschinen", "VMs", "Cloud Computing", "Behältnisse", "Vereinfachung", "Skalierbarkeit", "Sicherheit", "Kosten-Wirksamkeit", "Dockerdatei", "Erstellen, Testen und Bereitstellen", "Isolierung", "Sicherheitsbilanz", "Kostenvergleich", "Informativer Artikel"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Das Bild eines Frachtschiffs in Form eines Blauwals, das mehrere Docker-Container transportiert"
 coverCaption: ""
 ---

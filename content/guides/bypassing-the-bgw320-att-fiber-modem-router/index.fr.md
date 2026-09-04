@@ -44,7 +44,7 @@ En effectuant un balayage des ports de 1 à 65535, vous remarquerez que certains
 
 ### Personnaliser l'ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Maintenant vient la partie importante, c'est-à-dire la modification de certaines informations sur l'appareil pour le rendre compatible avec le réseau de votre fournisseur d'accès.
 

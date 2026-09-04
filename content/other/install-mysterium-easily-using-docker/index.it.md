@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Scoprite la potenza di Mysterium, una VPN decentralizzata e un servizio di web scraping costruito sulla tecnologia blockchain, che offre una navigazione sicura e opportunità di guadagno."
 tags: ["Mistero", "VPN", "scraping del web", "decentralizzato", "privacy", "sicurezza", "blockchain", "Ethereum", "Poligono", "navigazione in internet", "opportunità di reddito", "Docker", "impostazione", "inoltro delle porte", "VPN decentralizzata", "servizio di web scraping", "navigazione sicura", "guadagni", "tecnologia blockchain", "online privacy", "Contenitore Docker", "configurazione del nodo", "Indirizzo IP", "Portafoglio ERC20", "Indirizzo della meta-maschera", "Chiave API", "Istruzioni per l'inoltro delle porte", "PortForward.com", "Documentazione di Mysterium"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "Un'illustrazione raffigurante uno scudo che protegge lo schermo di un computer, simbolo di una maggiore privacy e sicurezza online."
 coverCaption: ""
 ---

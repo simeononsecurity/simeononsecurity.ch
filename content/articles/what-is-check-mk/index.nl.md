@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de functies, voordelen en use cases van CheckMK, een uitgebreide monitoringoplossing voor proactief beheer van de IT-infrastructuur."
 genre: ["Technologie", "IT-infrastructuur", "Netwerkbewaking", "Applicatiebewaking", "IT-werkzaamheden", "Prestatieanalyse", "Automatisering", "Evenement Beheer", "Schaalbaarheid", "Flexibiliteit"]
 tags: ["CheckMK", "controleoplossing", "IT-infrastructuur", "real-time controle", "evenementenmanagement", "prestatieanalyses", "automatisering", "schaalbaarheid", "flexibiliteit", "IT-werkzaamheden", "netwerkbewaking", "applicatiebewaking", "prestatieoptimalisatie", "proactieve bewaking", "reactie op incidenten", "capaciteitsplanning", "middelentoewijzing", "configuratiebeheer", "IT-efficiëntie", "infrastructuurbeheer", "allesomvattende bewakingsoplossing", "proactief beheer van de IT-infrastructuur", "analyse van netwerkprestaties", "automatiseringskader", "Schaalbaarheid van IT-infrastructuur", "platform voor evenementenbeheer", "real-time prestatiebewaking", "optimalisatie van applicatieprestaties", "cloudbewakingsdiensten", "oplossing voor nalevingscontrole"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "Een levendig en dynamisch kunstwerk dat een netwerkinfrastructuur met bewakingsindicatoren en analyses weergeeft."
 coverCaption: "Versterk uw IT-infrastructuur met CheckMK: maak efficiënter en betrouwbaarder!"
 ---

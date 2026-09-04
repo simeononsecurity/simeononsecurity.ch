@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Erfahren Sie mehr über die Taktiken von Phishing-Betrügern und entdecken Sie wirksame Strategien, um sich davor zu schützen, Opfer zu werden."
 tags: ["Phishing-Betrug", "Internet-Sicherheit", "Online-Bedrohungen", "E-Mail-Spoofing", "soziale Entwicklung", "Malware Schutz", "Online sicherheit", "Datensicherheit", "Identitätsdiebstahl", "Passwortsicherheit", "Zwei-Faktor-Authentifizierung", "Software-Updates", "staatliche Beschränkungen", "Online-Privatsphäre", "Cyber-Bewusstsein", "digitaler Betrug", "Phishing-Bewusstsein", "Sicherheit in sozialen Medien", "Online-Betrug", "Prävention von Cyberkriminalität"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Ein wachsamer Schutzschild, der einen Benutzer vor Phishing-Angriffen schützt"
 coverCaption: ""
 ---

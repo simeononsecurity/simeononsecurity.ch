@@ -6,7 +6,7 @@ draft: false
 description: "Learn the essential techniques for network hardening, including securing SNMP, implementing Router Advertisement Guard, configuring port security, dynamic ARP inspection, control plane policing, and private VLANs."
 genre: ["IT and Networking", "Cybersecurity", "Network Administration", "Information Security", "Network Hardening", "Network Infrastructure", "Network Security", "CompTIA Network Plus", "IT Certifications", "Online Courses"]
 tags: ["network hardening", "network security", "Securing SNMP", "Router Advertisement Guard", "port security", "dynamic ARP inspection", "control plane policing", "private VLANs", "network infrastructure", "IT certifications", "network administration", "cybersecurity", "CompTIA Network+", "online courses", "IT training", "network protection", "network monitoring", "access control", "patch management", "network segmentation", "SNMPv3", "access control lists", "RA Guard configuration", "NDP inspection", "port security configuration", "DAI", "CoPP", "PVLANs", "network vulnerabilities", "network best practices"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_network.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_network.webp"
 coverAlt: "An illustration depicting a shield protecting a network infrastructure from cyber threats and unauthorized access."
 coverCaption: "Strengthen Your Network Security with Network Hardening Techniques"
 ---

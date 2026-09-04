@@ -6,7 +6,7 @@ draft: false
 description: "Explore the world of cryptocurrencies, learn the basics, and discover smart strategies for successful investing in this comprehensive guide."
 genre: ["Cryptocurrencies", "Blockchain technology", "Investing", "Trading platforms", "Wallets", "Cryptocurrency history", "Bitcoin", "Ethereum", "Ripple", "Litecoin"]
 tags: ["cryptocurrencies", "blockchain", "investing", "trading platforms", "wallets", "cryptocurrency history", "Bitcoin", "Ethereum", "Ripple", "Litecoin", "digital currencies", "decentralized", "smart contracts", "cross-border payments", "scarcity", "store of value", "silver to gold", "scalability", "diversification", "high returns", "risks", "security concerns", "choosing the right cryptocurrency", "trading platforms", "wallets", "security measures", "customer support", "hot wallets", "cold wallets", "keeping cryptocurrency secure", "strategies for successful investing"]
-cover: "/img/cover/understanding-the-basics-of-cryptocurrencies.png"
+cover: "/img/cover/understanding-the-basics-of-cryptocurrencies.webp"
 coverAlt: "A symbolic image depicting a blockchain, symbolizing the potential of cryptocurrencies"
 coverCaption: "Unlock the Power of Cryptocurrencies: Invest with Confidence."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Vorteile und Risiken der biometrischen Authentifizierung für die Zugangskontrolle, einschließlich verbesserter Sicherheit, Datenschutzbedenken und bewährter Verfahren für die Implementierung."
 tags: ["biometrische Authentifizierung", "Zugangskontrolle", "Sicherheit", "Datenschutz", "datenschutz", "GDPR", "HIPAA", "Falschmeldungen", "falsche Negative", "Multi-Faktor-Authentifizierung", "Systemprüfung", "Sicherheitsrichtlinien", "efficiency", "Bequemlichkeit", "einzigartige Identität", "optimierte Arbeitsabläufe", "Schwachstellen", "Risikominderung", "Benutzererfahrung", "Cybersicherheit"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Eine animierte Illustration der Hand einer Person, die einen Fingerabdruckscanner benutzt, um sich Zugang zu einem gesicherten Bereich zu verschaffen, wobei im Hintergrund auch das Gesicht und die Iris einer Person zu sehen sind."
 coverCaption: ""
 ---

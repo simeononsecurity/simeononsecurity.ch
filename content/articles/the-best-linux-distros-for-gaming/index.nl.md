@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Ontdek de beste Linux-distributies voor gaming, waaronder Ubuntu, Zorin OS, Manjaro en SteamOS, en til je game-ervaring naar nieuwe hoogten op Linux."
 tags: ["Linux distro's voor gaming", "Ubuntu-gaming", "Zorin OS gaming", "Manjaro gaming", "SteamOS gaming", "Linux gaming prestaties", "Ondersteuning voor Linux-games", "Linux gaming gemeenschap", "Ubuntu game-ervaring", "Zorin OS spelinterface", "Manjaro gaming-gericht", "SteamOS gaming OS", "Pop! _OS voor gaming", "Fedora gaming ondersteuning", "Solus gaming prestaties", "Linux gaming distro's", "beste Linux distro's", "gamen op Linux", "Linux gaming platform", "Linux spelgids", "gamen op Ubuntu", "gaming op Zorin OS", "gamen op Manjaro", "gamen op SteamOS", "Linux-spelsoftware", "Linux spelbibliotheek", "Compatibiliteit met Linux-games", "Ondersteuning van de Linux gaming gemeenschap", "Linux gaming setup", "Linux gaming prestaties optimaliseren", "Linux-speltips en -trucs"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Illustratie van een gamer ondergedompeld in een virtuele wereld op een Linux-computer"
 coverCaption: ""
 ---

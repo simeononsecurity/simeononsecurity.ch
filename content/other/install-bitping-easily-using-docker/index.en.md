@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Learn how to install Bitping, a powerful website monitoring and performance optimization solution for real-time feedback on downtime and degraded performance."
 tags: ["Bitping", "website monitoring", "performance optimization", "real-time monitoring", "downtime", "degraded performance", "stress testing", "benchmarking", "dynamic rerouting", "reprovisioning", "network intelligence", "webhooks", "Solana", "node", "lightweight network tests", "payouts", "earnings", "website performance", "website analytics", "web monitoring", "performance monitoring", "uptime monitoring", "real user monitoring", "network testing", "website feedback", "website alerts", "network intelligence layer", "monitoring solution", "web performance", "performance metrics"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "An animated illustration of a website performance dashboard with real-time metrics and alerts."
 coverCaption: ""
 ---

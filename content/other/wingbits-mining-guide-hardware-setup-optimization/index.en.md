@@ -6,7 +6,7 @@ draft: false
 description: "Achieve success with our guide on WingBits setup, hardware tips, and gain optimization. Start earning now with efficient, budget-friendly solutions!"
 genre: ["Cryptocurrency Mining", "Hardware Setup", "ADSB Technology", "WingBits Guide", "Raspberry Pi", "Intel NUC", "Mining Optimization", "Tech How-To", "ADS-B Receivers", "Crypto Investment", "Wingbits"]
 tags: ["WingBits Mining", "WingBits Setup", "Cryptocurrency Hardware", "ADS-B Technology", "Raspberry Pi Setup", "Intel NUC Guide", "Mining Optimization Tips", "Low-Cost Mining", "ADSB Receivers", "Crypto Investment Strategies", "Efficient Mining Solutions", "Cryptocurrency Tech", "WingBits Setup Tutorial", "Budget-Friendly Mining", "Digital Currency Tips", "Hardware Recommendations", "Crypto Market Insights", "Mining Power Efficiency", "Blockchain Technology", "ADS-B Antennas", "Mining Hardware Budget", "Crypto Market Volatility", "Tech How-To Guide", "Mining Location Optimization", "Crypto Enthusiast Tips", "Mining Gain Levels", "Cryptocurrency Investments", "ADS-B Filters", "Mining Location Setup", "WingBits and DeFli Dual Mining", "Investment Caution"]
-cover: "/img/cover/WingBits-Mining-Optimization.png"
+cover: "/img/cover/WingBits-Mining-Optimization.webp"
 coverAlt: "Your Journey to WingBits Mining Success Begins!"
 ref: ["/other/effortless-dual-mining-wingbits-defli-guide", "/other/creating-profitable-low-powered-crypto-miners", "/other/adsb-sdr-adapter-performance-insights" ]
 ---
@@ -122,7 +122,7 @@ For aviation enthusiasts or those keen on monitoring aircraft movements, we reco
 ### WingBits System Requirements and Recommendations:
 One of the following is required. We basically just need any efficient and low powered computer we can get our hands on. Any Raspberry PI, Intel NUC, or similar will do. They don't have to be all that powerful. However I will recommend you have at least 32g-64g of storage, 4g of ram, and at least 2 cpu threads. For this we will be targeting a budget of around $100-$200 for hardware but feel free to go higher if it suits your needs. Our power target is 25w or better on average.
 
-{{< figure src="compute.jpeg" alt="Wingbits Compute Hardware" link="https://amzn.to/45IW4ZD" >}}
+{{< figure src="compute.webp" alt="Wingbits Compute Hardware" link="https://amzn.to/45IW4ZD" >}}
 
 | Model                                                                                                              | Description                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ One of the following is required. We basically just need any efficient and low p
 #### ADSB Receivers for WingBits
 We go into this in much greater detail in our [Guide on Best ADSB RTL-SDR Recievers](https://simeononsecurity.com/other/adsb-sdr-adapter-performance-insights/)
 
-{{< figure src="adsbreceiver.png" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
+{{< figure src="adsbreceiver.webp" alt="AirNav RadarBox FlightStick Best ADSB Receiver for Wingbits" link="https://amzn.to/3FSSql1" >}}
 
 | Model                                                                                                              | Description                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -551,7 +551,7 @@ ______
 
 For those interested, **Flight Tracking** involves the use of small computers, typically a Raspberry Pi, connected to a **software-defined radio (SDR)** USB stick operating at **1090 MHz**. This setup, known as a feeder or ADS-B receiver, captures aircraft positions transmitted on 1090 MHz, primarily through Automatic Dependent Surveillance–Broadcast (ADS-B). The essential components for building such a device are detailed below.
 
-{{< figure src="ADS-B_graphic.jpg" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
+{{< figure src="ADS-B_graphic.webp" alt="Simplified ADS-B Network Example" caption="Simplified ADS-B Network Example - southwestantennas.com" link="https://www.southwestantennas.com/articles/introduction-to-ads-b-technology" >}}
 
 ### Unique Identifiers and Aircraft History
 
@@ -567,7 +567,7 @@ All the data presented on the ADS-B Exchange website is sourced from volunteers 
 
 ##### ADS-B Aircraft Categories
 
-{{< figure src="aircraft_types_illustration.png" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
+{{< figure src="aircraft_types_illustration.webp" alt="A vibrant cartoon illustration showcasing diverse aircraft types in flight." caption="Soar to New Heights with Varied Aircraft Types!" >}}
 
 Flight tracking systems categorize ADS-B (Automatic Dependent Surveillance–Broadcast) equipped aircraft based on specific characteristics. These categories provide insights into the type and size of the aircraft, aiding in the identification and classification of air traffic. Here are the [defined ADS-B aircraft categories](https://mode-s.org/decode/content/ads-b/2-identification.html):
 

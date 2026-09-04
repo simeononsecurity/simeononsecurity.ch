@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Este artículo explora los beneficios e inconvenientes de obtener un título en los campos de la ciberseguridad y la administración de sistemas, incluidas las oportunidades de empleo, las certificaciones, el tiempo y las consideraciones de coste."
 tags: ["ciberseguridad", "administración del sistema", "grado", "certificaciones", "promoción profesional", "potencial salarial", "tiempo y coste", "empleos públicos", "autodidacta", "formación en línea", "Certificaciones CompTIA"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "Una imagen de una persona sentada en un escritorio con un ordenador delante, rodeada de libros, recursos en línea y materiales de certificación, que simbolizan los distintos caminos para adquirir conocimientos y experiencia en ciberseguridad y administración de sistemas. "
 coverCaption: ""
 ---

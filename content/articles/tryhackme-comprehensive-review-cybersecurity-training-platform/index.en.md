@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of TryHackMe: features, pricing, certifications, network services, and more, helping you to master cybersecurity skills."
 genre: ["Technology", "Cybersecurity", "Online Learning", "Ethical Hacking", "Network Security", "Virtual Labs", "Certifications", "Learning Paths", "Hands-on Experience", "TryHackMe Review"]
 tags: ["TryHackMe", "TryHackMe Review", "TryHackMe Certificates", "TryHackMe Pricing", "TryHackMe Network Services 2", "TryHackMe Subscription", "TryHackMe Authentication Bypass", "TryHackMe File Inclusion", "TryHackMe OWASP Top 10 Walkthrough", "TryHackMe VPN", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Active Directory Basics", "TryHackMe Answers", "TryHackMe Linux Fundamentals Part 3", "TryHackMe Logo", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQL Injection", "TryHackMe Support", "TryHackMe Threat Intelligence Tools", "TryHackMe Upload Vulnerabilities", "TryHackMe Walking an Application", "TryHackMe Windows Fundamentals 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Blue", "TryHackMe Blue Walkthrough"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "An image depicting a hacker with a superhero cape, symbolizing the empowerment gained through TryHackMe's cybersecurity training."
 coverCaption: "help Yourself with TryHackMe: Unleash Your Cybersecurity Superpowers"
 ---

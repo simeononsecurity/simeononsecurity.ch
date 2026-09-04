@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Bezpieczeństwo cybernetyczne jest krytycznym aspektem współczesnych działań biznesowych i wymaga kompleksowego podejścia, które obejmuje odpowiednie systemy, protokoły i personel, aby skutecznie zarządzać obroną przed cyberatakami."
 tags: ["cybersecurity", "działalność gospodarcza", "bezpieczeństwo sieci", "informacje wrażliwe", "cyberataki", "technologia", "oprogramowanie", "profesjonalizm", "zgodność", "standardy branżowe", "przepisy", "najlepsze praktyki", "priorytet", "kultura bezpieczeństwa", "naruszenia danych", "własność intelektualna", "proaktywne podejście", "niski priorytet", "brak środków", "szkolenie", "zaangażowanie w bezpieczeństwo", "urzędnicy ds. bezpieczeństwa informacji (ISSO)", "systemy zarządzania bezpieczeństwem informacji (ISSM)", "wykształcenie i doświadczenie", "zagrożenia dla bezpieczeństwa", "100% sukcesów w audytach zgodności", "przepisy", "normy", "najlepsze praktyki", "Seria NIST 800", "gra polityczna", "zaufanie", "uczciwość", "współpraca", "papeteria", "przejrzystość", "odpowiedzialność"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Obraz grupy specjalistów ds. cyberbezpieczeństwa w sali konferencyjnej, pracujących wspólnie nad zapewnieniem bezpieczeństwa systemów i danych ich organizacji."
 coverCaption: ""
 ---

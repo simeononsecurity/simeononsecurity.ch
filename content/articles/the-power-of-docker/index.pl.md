@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj potęgę Dockera i jego korzyści dla transformacji przedsiębiorstwa w tym kompleksowym przewodniku poprawiającym przenośność, bezpieczeństwo, wydajność i rozwój aplikacji."
 tags: ["Docker", "Transformacja przedsiębiorstwa", "Przenośność aplikacji", "Zwiększona wydajność", "Zwiększone bezpieczeństwo", "Uproszczone opracowywanie i wdrażanie", "Oprogramowanie Aplikacyjne", "Pojemniki", "Wydajność", "Time-to-Market"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Wieloryb błękitny wydający światło"
 coverCaption: ""
 ---

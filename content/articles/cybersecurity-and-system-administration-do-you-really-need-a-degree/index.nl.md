@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dit artikel verkent de voor- en nadelen van het behalen van een diploma op het gebied van cyberbeveiliging en systeembeheer, inclusief kansen op werk, certificeringen, tijd en kostenoverwegingen."
 tags: ["cyberbeveiliging", "systeembeheer", "graad", "certificaten", "loopbaanontwikkeling", "salarispotentieel", "tijd en kosten", "overheidsbanen", "autodidact", "online training", "CompTIA-certificaten"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "Een afbeelding van een persoon die aan een bureau zit met een computer voor zich, omringd door boeken, online hulpmiddelen en certificeringsmateriaal, als symbool voor de verschillende wegen naar kennis en expertise op het gebied van cyberbeveiliging en systeembeheer."
 coverCaption: ""
 ---

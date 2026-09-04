@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj moc inżynierii wstecznej, aby odkryć błędy w zabezpieczeniach sieci IoT i poprawić ogólne bezpieczeństwo systemu."
 tags: ["inżynieria odwrotna", "Bezpieczeństwo IoT", "podatności", "protokoły bezpieczeństwa", "analiza urządzenia", "Sieci IoT", "wewnętrzne funkcjonowanie", "złośliwy kod", "środki szyfrowania", "środki uwierzytelniania", "firewalle", "aktualizacja oprogramowania"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Obraz specjalisty ds. bezpieczeństwa badającego wewnętrzne działanie urządzenia IoT, z widocznymi różnymi komponentami sprzętowymi i płytkami drukowanymi."
 coverCaption: ""
 ---

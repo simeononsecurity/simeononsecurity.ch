@@ -7,7 +7,7 @@ draft: false
 description: "Comprehensive guide to understanding who designates whether information is classified, who determines classification levels, and the complete process of information classification in the United States."
 genre: ["Information Security", "Data Classification", "Government Regulations", "National Security", "Data Protection", "Data Privacy", "Security Measures", "Classified Information", "Access Control", "Data Sensitivity"]
 tags: ["information classification", "designating classification levels", "classification authority", "information security", "government regulations", "national security", "data protection", "data privacy", "security measures", "classified information", "access control", "data sensitivity", "classification process", "classification levels", "original classification authority", "top secret classification", "secret classification", "confidential classification", "restricted classification", "information sensitivity", "security clearance", "need-to-know basis", "classification markings", "declassification process", "Executive Order 13526", "NISPOM", "ITAR", "derivative classification", "OCA authority", "classification designators"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "An image depicting a person with a magnifying glass analyzing classified documents and a lock symbol in the background."
 coverCaption: "Unlocking the Secrets: The Importance of Information Classification"
 ---

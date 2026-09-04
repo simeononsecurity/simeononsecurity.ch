@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to identify phishing attempts in emails, texts, and calls to keep your personal information safe."
 tags: ["phishing", "online security", "email security", "cybersecurity", "internet safety", "phishing emails", "phishing texts", "phishing calls", "digital threats", "identity theft", "data protection", "online fraud", "online scams", "online privacy", "online safety tips", "cybercrime", "information security", "password security", "data security", "security awareness"]
-cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.png"
+cover: "/img/cover/An_image_of_a_cartoon_character_with_a_superhero_costume.webp"
 coverAlt: "An image of a cartoon character with a superhero costume and a shield blocking a fishing rod with a phishing email on it."
 coverCaption: ""
 ---

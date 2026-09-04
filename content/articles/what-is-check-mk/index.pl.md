@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj funkcje, korzyści i przypadki użycia CheckMK, kompleksowego rozwiązania monitorującego do proaktywnego zarządzania infrastrukturą IT."
 genre: ["Technologia", "Infrastruktura IT", "Monitorowanie sieci", "Monitorowanie aplikacji", "Operacje IT", "Analiza wydajności", "Automatyzacja", "Zarządzanie wydarzeniami", "Skalowalność", "Elastyczność"]
 tags: ["CheckMK", "rozwiązanie do monitorowania", "Infrastruktura IT", "Monitorowanie w czasie rzeczywistym", "zarządzanie wydarzeniami", "analiza wydajności", "automatyzacja", "skalowalność", "elastyczność", "Operacje IT", "monitorowanie sieci", "monitorowanie aplikacji", "optymalizacja wydajności", "proaktywne monitorowanie", "reakcja na incydent", "planowanie wydajności", "alokacja zasobów", "zarządzanie konfiguracją", "Wydajność IT", "zarządzanie infrastrukturą", "Kompleksowe rozwiązanie do monitorowania", "proaktywne zarządzanie infrastrukturą IT", "analiza wydajności sieci", "struktura automatyzacji", "Skalowalność infrastruktury IT", "platforma zarządzania wydarzeniami", "Monitorowanie wydajności w czasie rzeczywistym", "optymalizacja wydajności aplikacji", "usługi monitorowania w chmurze", "rozwiązanie do monitorowania zgodności"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "Żywa i dynamiczna grafika przedstawiająca infrastrukturę sieciową ze wskaźnikami monitorowania i analizami."
 coverCaption: "Wzmocnij swoją infrastrukturę IT dzięki CheckMK: Uwolnij wydajność i niezawodność!"
 ---

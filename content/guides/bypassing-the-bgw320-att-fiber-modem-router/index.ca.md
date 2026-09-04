@@ -44,7 +44,7 @@ En executar una exploració de ports des de l'1-65535, notareu alguns ports ober
 
 ### Personalització de l'ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Ara ve la part important, és a dir, canviar alguna informació del dispositiu per fer-lo compatible amb la xarxa del vostre ISP.
 

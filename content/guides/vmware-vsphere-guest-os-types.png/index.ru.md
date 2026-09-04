@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "Узнайте о допустимых значениях типа гостевой ОС для vSphere Packer Builder, что позволит оптимизировать процесс создания ВМ для VMware vSphere."
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## Список допустимых значений "guest_os_type" для vSphere Packer Builder

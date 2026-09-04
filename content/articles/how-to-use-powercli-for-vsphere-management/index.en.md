@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of PowerCLI and learn how to effectively use it for managing your VMware vSphere environment, automating tasks, and maximizing productivity."
 genre: ["Technology", "Virtualization", "VMware", "IT Management", "Automation", "Command-Line Interface", "Scripting", "System Administration", "Cloud Computing", "Datacenter Management"]
 tags: ["PowerCLI", "VMware PowerCLI", "PowerCLI Install", "Install PowerCLI", "PowerCLI Download", "Download PowerCLI", "PowerCLI Connect to vCenter", "vSphere Management", "Virtual Machine Management", "Host Management", "Automation", "Scripting", "Virtualization", "vCenter Server", "ESXi Hosts", "Datastore Management", "Network Adapter Management", "Virtual Machine Creation", "Virtual Machine Removal", "Virtual Machine Settings", "Host Resources Management", "CPU Allocation", "Memory Allocation", "Storage Settings", "PowerCLI Examples", "PowerCLI Documentation", "IT Management", "System Administration", "Cloud Computing"]
-cover: "/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.png"
+cover: "/img/cover/An_illustrated_cartoon_image_showcasing_a_pers.webp"
 coverAlt: "An illustrated cartoon image showing a person using PowerCLI commands to manage virtual machines and hosts in a vSphere environment."
 coverCaption: "help Your vSphere Management with PowerCLI"
 ---

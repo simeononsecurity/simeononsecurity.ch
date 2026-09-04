@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Aprenda a configurar los túneles de Cloudflare para agilizar y proteger el tráfico de su red, mejorando el rendimiento y la seguridad."
 tags: ["Túneles Cloudflare", "Seguridad de las redes", "Rendimiento del sitio web", "Servidor proxy", "Tráfico web", "Configuración de la red", "Servidor Ubuntu", "Cuenta Cloudflare", "Autenticación", "Creación de túneles", "Enrutamiento del tráfico", "Registros DNS", "Conexión segura", "Alojamiento web", "Servicio proxy", "Protección de redes", "Optimización del rendimiento", "Integración de Cloudflare", "Configuración del servidor", "Cifrado del tráfico", "Gestión del tráfico de red", "Alojamiento web seguro", "Seguridad del sitio web", "Configuración de Ubuntu", "Tecnología de túneles", "Servicios de Cloudflare", "Rendimiento de la red", "Seguridad web", "Seguridad del servidor", "Gestión del tráfico", "Proxy de Cloudflare"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "Ilustración que muestra un túnel de red que conecta un servidor local con el logotipo de Cloudflare, simbolizando el tráfico de red seguro y optimizado."
 coverCaption: ""
 ---

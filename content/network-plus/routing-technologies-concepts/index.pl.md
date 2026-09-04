@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj świat technologii i koncepcji routingu, od dynamicznych protokołów routingu, takich jak RIP, OSPF, EIGRP i BGP, po protokoły stanu łącza, wektora odległości i routingu hybrydowego, a także konfigurację routingu statycznego i tras domyślnych."
 genre: ["Technologia", "Tworzenie sieci", "Routing", "Protokoły sieciowe", "Zarządzanie siecią", "Routing dynamiczny", "Routing statyczny", "Zarządzanie przepustowością", "Jakość usług", "Urządzenia sieciowe"]
 tags: ["technologie routingu", "protokoły routingu dynamicznego", "RIP", "OSPF", "EIGRP", "BGP", "stan łącza", "wektor odległości", "hybrydowe protokoły routingu", "routing statyczny", "trasy domyślne", "odległość administracyjna", "Routing zewnętrzny", "routing wewnętrzny", "czas na życie", "Zarządzanie przepustowością", "kształtowanie ruchu", "jakość usług", "urządzenia sieciowe", "routery", "przełączniki", "firewalle", "load balancery", "punkty dostępu", "optymalizacja sieci", "wydajność sieci", "bezpieczeństwo sieci", "architektura sieci", "ruch sieciowy"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Ilustracja połączonych urządzeń sieciowych z danymi przepływającymi między nimi."
 coverCaption: "Nawigacja po cyfrowej autostradzie: Optymalizacja routingu sieci w celu uzyskania najwyższej wydajności"
 ---

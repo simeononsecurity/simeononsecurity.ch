@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra la potencia de Metasploit, un marco de trabajo de código abierto para pruebas de penetración y desarrollo de exploits, con sólidas funciones y una gran comunidad."
 tags: ["Metasploit", "pruebas de penetración", "desarrollo de exploits", "exploración de vulnerabilidades", "generación de carga útil", "postoperatorio", "hacking ético", "ciberseguridad", "código abierto", "marco de seguridad", "evaluación de la vulnerabilidad", "ingeniería social", "Marco Metasploit", "Metasploit Pro", "seguridad informática", "HD Moore", "Rápido7", "soluciones de seguridad", "normativa gubernamental", "Ley contra el fraude y el abuso informáticos", "CFAA", "concienciación sobre seguridad", "herramientas de hacking", "herramientas de ciberseguridad", "comunidad de ciberseguridad", "recursos de ciberseguridad", "profesionales de la ciberseguridad", "buenas prácticas de ciberseguridad", "cumplimiento de la ciberseguridad", "leyes de ciberseguridad"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Ilustración animada de un hacker que utiliza un ordenador y una lupa para representar la exploración y el análisis de vulnerabilidades y exploits en sistemas informáticos."
 coverCaption: ""
 ---

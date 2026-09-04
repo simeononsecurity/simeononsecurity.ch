@@ -87,7 +87,7 @@ Het vlaggenschipproduct van het bedrijf is de **Flock Safety Falcon-camera**, ee
 
 Flock-camera's leggen meer vast dan alleen plaatnummers. Ze registreren het merk, model, kleur, carrosserietype en onderscheidende kenmerken van elk voertuig dat passeert. Het bedrijf verkoopt deze als "vingerafdrukken" van voertuigen. Dit betekent dat elke rit die u maakt wordt gecatalogiseerd, zelfs wanneer u niets verkeerds heeft gedaan.
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="Een typische ALPR-camerainstallatie. Beeldcredit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="Een typische ALPR-camerainstallatie. Beeldcredit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Hoe ALPR-technologie Werkt
 
@@ -200,7 +200,7 @@ De wijdverspreide inzet van ALPR-surveillance roept ernstige **vragen over het V
 
 Wat begon als een hulpmiddel voor het **oplossen van eigendomsmisdrijven** is dramatisch uitgebreid. Dit zijn geen hypothetische risico's. Het zijn gedocumenteerde patronen.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="De 'Get The Flock Out'-campagne van de ACLU heeft wijdverspreid misbruik van ALPR-systemen gedocumenteerd. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="De 'Get The Flock Out'-campagne van de ACLU heeft wijdverspreid misbruik van ALPR-systemen gedocumenteerd. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE en Immigratiehandhaving
 **ICE heeft Flock gebruikt om ongedocumenteerde immigranten te lokaliseren en te vervolgen zonder bevelschriften.** Het landelijke netwerk van het platform geeft de federale immigratiehandhaving een hulpmiddel om personen over rechtsgebieden heen te volgen zonder enige geïndividualiseerde vermoedelijke reden. Veel gemeenschappen die hun Flock-netwerken hebben gefinancierd voor het terugkrijgen van eigendomsmisdrijven hebben ontdekt dat hun camera's deel uitmaken van federale immigratiehandhavingsoperaties.

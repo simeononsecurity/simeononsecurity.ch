@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Seien Sie den Cyber-Bedrohungen einen Schritt voraus, indem Sie sich mit Hilfe von effektiven Strategien und Ressourcen über die neuesten CVEs und Bedrohungsakteure informieren."
 tags: ["Cybersicherheit", "CVEs", "Bedrohungsakteure", "Sicherheitslücken-Scanning", "Bedrohungsdaten", "Informationsaustausch", "Zusammenarbeit mit der Industrie", "Sicherheitshinweise", "NVD", "CVE", "US-CERT", "CERT", "Mitre ATT&CK®", "OpenCTI", "NIST", "CISA", "Schwachstellen in der Cybersicherheit", "aufkommende Bedrohungen", "proaktive Verteidigung", "automatisiertes Scannen auf Sicherheitslücken", "Open-Source-Intelligence", "Echtzeit-Bedrohungsdaten", "Taktiken und Techniken von Bedrohungsakteuren", "Technische OSINT", "CVE-Datenbanken", "Sicherheitshinweise der Hersteller", "Sicherheits-Blogs", "Feeds zu Bedrohungsdaten", "Gemeinschaften zum Informationsaustausch", "staatliche Vorschriften"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Eine Illustration eines Schildes mit einem Vergrößerungsglas als Symbol für Cybersicherheit."
 coverCaption: "Verteidigen und Entdecken: Erweitern Sie Ihr Wissen im Bereich der Cybersicherheit."
 ---

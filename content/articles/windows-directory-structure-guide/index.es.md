@@ -6,7 +6,7 @@ draft: false
 description: "Explore la estructura de directorios de Windows y aprenda a gestionar eficazmente los archivos y a navegar por el sistema jerárquico."
 genre: ["Estructura de directorios de Windows", "Gestión de archivos de Windows", "Navegar por los directorios", "Organización de archivos", "Rutas de archivos de Windows", "Carpetas del sistema Windows", "Directorio de usuarios", "Directorio Archivos de programa", "Directorio raíz de Windows", "Directorio de archivos temporales"]
 tags: ["estructura de directorios en windows", "estructura de directorios de windows", "gestión de archivos", "organización de archivos", "rutas de archivo", "directorio raíz", "directorio del sistema", "directorio de usuarios", "directorio de archivos de programa", "navegación por directorios de windows", "explorador de archivos", "símbolo del sistema", "ruta absoluta del archivo", "ruta relativa del archivo", "sistema de archivos de windows", "gestión de archivos de windows", "acceso a archivos", "funcionamiento del sistema", "explorador de archivos", "comandos de windows", "rutas de archivos de windows", "gestión eficaz de archivos", "organización de ventanas", "directorio de archivos temporales", "estructura de archivos de windows", "sistema operativo windows", "carpeta de perfil de usuario de windows", "archivos de sistema", "recursos del sistema windows"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "Imagen de una estructura en forma de árbol que representa el sistema de directorios de Windows."
 coverCaption: "Gestiona eficazmente tus archivos con la estructura de directorios de Windows."
 ---

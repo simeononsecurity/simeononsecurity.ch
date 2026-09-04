@@ -44,7 +44,7 @@ coverCaption: ""
 
 ###自定义ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 现在是重要的部分，即更改一些设备信息以使其与您的 ISP 网络兼容。
 

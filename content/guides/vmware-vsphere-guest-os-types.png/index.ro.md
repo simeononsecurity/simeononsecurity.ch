@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "Descoperiți valorile valide ale tipului de os invitat pentru vSphere Packer Builder, optimizând cu ușurință procesul de creare a mașinilor virtuale pentru VMware vSphere."
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## Lista de valori valide "guest_os_type" pentru vSphere Packer Builder

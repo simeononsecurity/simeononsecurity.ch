@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek hoe u de Active Directory module voor PowerShell effectief kunt installeren en gebruiken om uw Windows Active Directory beheertaken te stroomlijnen."
 genre: ["Technologie", "Windows", "PowerShell", "Active Directory", "Administratie", "Scripting", "IT", "Automatisering", "Windows server", "Microsoft"]
 tags: ["Active Directory-module voor PowerShell", "module active directory importeren in PowerShell", "Active Directory-module voor Windows PowerShell", "actieve map PowerShell installeren", "actieve map installeren PowerShell", "PowerShell active directory module installeren Windows 10", "Active Directory installeren PowerShell-module Windows 10", "PowerShell-module voor actieve map ophalen", "AD administratie", "Windows Active Directory", "PowerShell cmdlets", "AD-informatie ophalen", "AD-objecten maken", "AD-objecten wijzigen", "AD-beveiliging beheren", "AD-gebruikersbeheer", "AD groepsbeheer", "AD OR beheer", "PowerShell-scripting", "Windows Server-beheer", "Microsoft PowerShell", "AD-taken automatiseren", "PowerShell-module installeren", "AD administratiegids", "Beheer van Active Directory", "AD beveiligingsbeheer", "PowerShell automatisering", "Active Directory PowerShell-opdrachten", "PowerShell cmdlet referentie"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "Een afbeelding van een netwerk van onderling verbonden servers en gebruikerspictogrammen, die het beheer en de automatisering van Active Directory symboliseert."
 coverCaption: "Ontgrendel de kracht van Active Directory-beheer met PowerShell."
 ---

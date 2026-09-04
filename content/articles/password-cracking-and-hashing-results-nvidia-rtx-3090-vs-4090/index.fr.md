@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'écart de performances entre les NVIDIA RTX 3090 et RTX 4090 dans le craquage de mots de passe, en soulignant les implications en termes de sécurité et les mesures de protection."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "craquage de mot de passe", "performance", "sécurité", "protection par mot de passe", "cybersécurité", "repère", "GPU", "gestionnaire de mot de passe", "des mots de passe forts", "authentification à deux facteurs", "les réglementations gouvernementales", "CISA", "GDPR", "la sécurité des données", "comparaison du matériel", "sécurité du mot de passe", "carte graphique", "force du mot de passe"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Représentation illustrée d'une serrure numérique en train d'être forcée, symbolisant le contenu de l'article sur les performances en matière de cassage de mots de passe."
 coverCaption: ""
 ---

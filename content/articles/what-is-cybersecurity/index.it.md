@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le basi della cybersecurity, compresi i tipi di minacce informatiche, l'importanza della cybersecurity e i passi per migliorare la sicurezza online."
 tags: ["Sicurezza informatica", "Minacce informatiche", "Sicurezza online", "Protezione dei dati", "Virus", "Malware", "Truffe di phishing", "Gli hacker", "Sicurezza nazionale", "Proprietà intellettuale", "Personal privacy"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "L'immagine di una persona seduta al computer con un'espressione preoccupata mentre sullo schermo appare un hacker o un criminale informatico, rappresenta i pericoli delle minacce informatiche e l'importanza della sicurezza informatica."
 coverCaption: ""
 ---

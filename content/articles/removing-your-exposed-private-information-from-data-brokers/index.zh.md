@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过本综合指南，了解如何从在线目录和数据经纪商中删除您的个人信息，从而保护您的个人信息。"
 tags: ["删除个人资料", "在线目录", "数据经纪人", "隐私保护", "完整指南", "删除个人信息", "在线隐私", "网络隐私", "在线隐私", "数据经纪人", "删除信息", "英特尔技术", "SimeonOnSecurity", "在线安全", "隐私保护", "保护在线隐私"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "电脑屏幕上一个红色 X 穿过个人信息列表（如姓名、地址和电话号码）的图像，象征着从在线目录中删除个人数据。"
 coverCaption: ""
 ---

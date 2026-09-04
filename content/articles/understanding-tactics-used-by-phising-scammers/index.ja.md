@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "フィッシング詐欺師が使用する戦術について学び、被害者から身を守るための効果的な戦略を見つけてください。"
 tags: ["フィッシング詐欺", "サイバーセキュリティ", "オンラインの脅威", "電子メールのなりすまし", "ソーシャルエンジニアリング", "マルウェアからの保護", "オンラインの安全性", "データセキュリティ", "個人情報の盗難", "パスワードセキュリティ", "二要素認証", "ソフトウェアの更新", "政府の規制", "オンラインプライバシー", "サイバー意識", "デジタル詐欺", "フィッシングに対する意識", "ソーシャルメディアの安全性", "オンライン詐欺", "サイバー犯罪防止"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "ユーザーをフィッシング攻撃から守る警戒心のあるシールド"
 coverCaption: ""
 ---

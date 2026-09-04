@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 这 [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) 仅当您在窗户内或窗户附近有良好或可用的覆盖范围而不是在房屋的其他区域时，它才会有所帮助。如果您只需要更均匀地分布整个住宅的覆盖范围，它的效果最好。
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 这 [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) 选项需要一些安装。它们要求您安装一根杆子、接地棒、避雷器、放大器和一根或多根室内天线。它们提供最好的信号，但如果您所在的区域没有任何信号，它们将无法工作。它们平均有大约 60 分贝的额外增益，但最高可达 100 分贝。这绝对是最好的永久性解决方案，因为您将获得尽可能多的信号改善并同时支持所有运营商。
 

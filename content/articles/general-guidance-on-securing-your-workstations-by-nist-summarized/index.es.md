@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a asegurar sus estaciones de trabajo y a proteger la información confidencial con esta completa guía basada en las recomendaciones del NIST para implantar controles de acceso estrictos, mantener el software actualizado, utilizar software antivirus, activar la protección mediante cortafuegos, implantar el cifrado de datos y realizar copias de seguridad periódicas."
 tags: ["Recomendaciones del NIST", "seguridad del puesto de trabajo", "ciberseguridad", "encriptación de datos", "protección firewall", "antivirus software", "controles de acceso", "información sensible", "ciberataques", "copia de seguridad de datos"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Imagen de una persona sentada en su puesto de trabajo con un candado de seguridad en primer plano, que indica la importancia de proteger los puestos de trabajo."
 coverCaption: ""
 ---

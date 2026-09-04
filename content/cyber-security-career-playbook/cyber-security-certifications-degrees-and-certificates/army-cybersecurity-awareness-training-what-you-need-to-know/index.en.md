@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Discover the key elements of Army Cybersecurity Awareness Training, compliance with regulations, and best practices for defense personnel to combat cyber threats effectively."
 tags: ["Army Cybersecurity Awareness Training","Defense personnel","Cyber threats","Cybersecurity best practices","Compliance","Phishing awareness","Secure password practices","Safe internet browsing","Mobile device security","Social engineering awareness","Data protection","Incident reporting","Cybersecurity regulations","DoD Directive 8570","DoD Directive 8140","Phishing attacks","Secure browsing habits","Mobile device encryption","Social engineering techniques","Data privacy","Incident response","Cyber-secure environment","Sensitive information protection","Cybersecurity skills","Army systems","Cyber threat mitigation","Cybersecurity education","Information security awareness","Defense cybersecurity posture"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "An image depicting a shield with a padlock symbolizing cybersecurity defense and protection against cyber threats."
 coverCaption:  "Guarding the Digital Fortress: Strengthening Army Cybersecurity Defenses"
 ---

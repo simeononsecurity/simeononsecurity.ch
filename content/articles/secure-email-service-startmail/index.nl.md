@@ -6,12 +6,12 @@ draft: false
 description: "Ontdek StartMail, een veilige e-mailservice met geavanceerde versleuteling en e-mailmaskering, die de grootst mogelijke privacy en bescherming tegen cyberbedreigingen biedt."
 genre: ["Cyberbeveiliging", "Privacy", "E-mail diensten", "Online beveiliging", "Digitale privacy", "Encryptie", "Gegevensbescherming", "E-mail privacy", "Identiteitsbescherming", "Online privacy"]
 tags: ["Beveiligde e-mail", "E-mail Service", "StartMail", "E-mail maskeren", "Privacy", "Encryptie", "Cyberbeveiliging", "Gegevensbescherming", "Online beveiliging", "Identiteitsbescherming", "Online privacy", "E-mail Beveiliging", "Beveiligde communicatie", "E-mail alias", "End-to-end versleuteling", "SMIME-codering", "Authenticatie met twee factoren", "Gegevenscodering", "E-mail privacy", "Digitale privacy", "E-mailbeveiligingsservice", "Privacy-gericht", "Veilige gegevensopslag", "Bescherming tegen phishing", "Spam voorkomen", "OPSEC", "Containerisatie", "Online identiteitsbescherming", "Digitale communicatie", "Preventie van datalekken"]
-cover: "/img/cover/secure_email_guard.png"
+cover: "/img/cover/secure_email_guard.webp"
 coverAlt: "Een symbolische illustratie van een vergrendelde e-mailenvelop die wordt bewaakt door een schild,"
 coverCaption: "Uw digitale privacy beschermen met StartMail."
 ---
 
-{{< figure src="startmail_logo.png" alt="StartMail Logo" >}}
+{{< figure src="startmail_logo.webp" alt="StartMail Logo" >}}
 
 ## Wat is StartMail?
 
@@ -47,25 +47,25 @@ Ga om te beginnen met StartMail naar hun [official website](https://www.startmai
 
 ### 2. **Een alias voor gemaskeerde e-mail maken**
 
-{{< figure src="startmail_pictured_alias.png" alt="Startmail Alias Dashboard" >}}
+{{< figure src="startmail_pictured_alias.webp" alt="Startmail Alias Dashboard" >}}
 
 Zodra je een StartMail account hebt, navigeer je naar de instellingen. Hier vind je de optie om **een gemaskeerde e-mailalias** aan te maken. Kies een unieke naam voor uw alias en wanneer u een e-mailadres moet opgeven op een website of service, gebruikt u deze gemaskeerde alias in plaats van uw primaire e-mailadres.
 
 ### 3. **E-mail doorsturen**
 
-{{< figure src="startmail_international.png" alt="Startmail Forwarding" >}}
+{{< figure src="startmail_international.webp" alt="Startmail Forwarding" >}}
 
 Als iemand een e-mail stuurt naar je gemaskerde alias, stuurt StartMail deze automatisch door naar je echte inbox. Op deze manier kun je alle communicatie volgen zonder je echte e-mailadres te onthullen.
 
 ### 4. **Aliassen beheren**
 
-{{< figure src="startmail_emailmasking.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_emailmasking.webp" alt="Startmail Aliases" >}}
 
 Met StartMail kun je je aliassen** effectief beheren. Je kunt een alias verwijderen als je te veel spam ontvangt en je kunt nieuwe aliassen aanmaken wanneer dat nodig is. Deze flexibiliteit geeft u meer controle over uw e-mailcommunicatie.
 
 ### 5. **Veilige communicatie**
 
-{{< figure src="startmail_pictured_encryption.png" alt="Startmail Encryption" >}}
+{{< figure src="startmail_pictured_encryption.webp" alt="Startmail Encryption" >}}
 
 Met de end-to-end-encryptie van StartMail is alle communicatie via de gemaskerde alias veilig en privé. Zelfs als de e-mail wordt onderschept, blijft de inhoud ervan versleuteld, waardoor onbevoegden de informatie niet kunnen ontcijferen.
 
@@ -91,7 +91,7 @@ ______
 
 ## Hoe u StartMail kunt gebruiken om te voorkomen dat u gehackt wordt door e-mailmasking
 
-{{< figure src="startmail_masking2.png" alt="Startmail Aliases" >}}
+{{< figure src="startmail_masking2.webp" alt="Startmail Aliases" >}}
 
 Het gebruik van **StartMail's e-mail maskering** voegt niet alleen een extra laag van bescherming toe aan uw online identiteit, maar helpt ook het voorkomen van tracking over het web en maakt het moeilijker om uw accounts te correleren met datalekken. Containerisatie, bereikt door e-mail maskering, is een krachtige praktijk in operationele beveiliging (OPSEC) die StartMail uitstekend faciliteert.
 

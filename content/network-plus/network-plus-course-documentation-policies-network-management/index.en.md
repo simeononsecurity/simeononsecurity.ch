@@ -6,7 +6,7 @@ draft: false
 description: "Explore the significance of organizational documents and policies, common types of documentation, baseline configurations, and agreements in network management for CompTIA's Network+ Certification Exam."
 genre: ["Network management", "IT certifications", "Documentation best practices", "Network infrastructure", "Network security", "Compliance requirements", "Network troubleshooting", "Business continuity", "Service level agreements", "Confidentiality agreements"]
 tags: ["CompTIA Network Plus Certification Exam", "network documentation", "network policies", "organizational documents", "network diagrams", "wiring diagrams", "site survey reports", "audit/assessment reports", "baseline configurations", "NDA", "SLA", "MOU", "standardization", "compliance", "knowledge transfer", "troubleshooting", "disaster recovery", "network reliability", "government regulations", "HIPAA", "PCI DSS", "GDPR", "network design", "network infrastructure", "confidentiality", "service expectations", "cooperation", "network performance", "security"]
-cover: "/img/cover/An_image_depicting_a_network_infrastructure_wi.png"
+cover: "/img/cover/An_image_depicting_a_network_infrastructure_wi.webp"
 coverAlt: "An image depicting a network infrastructure with interconnected devices, symbolizing the importance of documentation and policies in network management."
 coverCaption: "Secure your network's success with robust documentation and policies."
 ---

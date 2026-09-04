@@ -6,7 +6,7 @@ draft: false
 description: "Explorați lumea tehnologiilor și conceptelor de rutare, de la protocoale de rutare dinamice, cum ar fi RIP, OSPF, EIGRP și BGP, la protocoale de rutare de tip link state, distance vector și hibride, precum și configurarea rutelor statice și a rutelor implicite."
 genre: ["Tehnologie", "Rețea", "Rutarea", "Protocoale de rețea", "Managementul rețelei", "Rutarea dinamică", "Rutarea statică", "Managementul lățimii de bandă", "Calitatea serviciilor", "Dispozitive de rețea"]
 tags: ["tehnologii de rutare", "protocoale de rutare dinamice", "RIP", "OSPF", "EIGRP", "BGP", "starea legăturii", "vector de distanță", "protocoale de rutare hibride", "rutare statică", "rute implicite", "distanța administrativă", "rutare exterioară", "rutare interioară", "timp pentru a trăi", "gestionarea lățimii de bandă", "modelarea traficului", "calitatea serviciului", "dispozitive de rețea", "routere", "comutatoare", "firewall-uri", "echilibratoare de sarcină", "puncte de acces", "optimizarea rețelei", "performanța rețelei", "securitatea rețelei", "arhitectura rețelei", "traficul de rețea"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "O ilustrație a dispozitivelor de rețea interconectate, cu date care circulă între ele."
 coverCaption: "Navigarea pe autostrada digitală: Optimizarea rutelor de rețea pentru performanțe maxime"
 ---

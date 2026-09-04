@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le considerazioni etiche e le sfide dell'uso dell'IA nella sicurezza informatica e come affrontarle per un uso efficace."
 tags: ["AI", "sicurezza informatica", "considerazioni etiche", "sbieco", "privacy", "responsabilità", "complessità", "adattabilità", "supervisione umana", "intensità delle risorse", "data privacy", "apprendimento automatico", "intelligence sulle minacce", "protezione dei dati", "tecnologia", "automazione", "minacce informatiche", "sicurezza delle informazioni", "conformità normativa", "trasformazione digitale"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "L'immagine di una serratura con ingranaggi simboleggia l'uso dell'IA nella sicurezza informatica, mentre una mano umana tiene una chiave per illustrare la supervisione umana."
 coverCaption: ""
 ---

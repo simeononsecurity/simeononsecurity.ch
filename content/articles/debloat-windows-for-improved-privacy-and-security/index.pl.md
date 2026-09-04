@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Bądź bezpieczny w sieci: Learn the Importance of Windows Hardening and Debloating for Improved Security and Privacy..."
 tags: ["Utwardzanie systemu Windows", "Usuwanie skutków awarii systemu Windows", "Zwiększone bezpieczeństwo", "Prywatność", "Ataki cybernetyczne", "Bezpieczeństwo systemu operacyjnego", "System operacyjny Windows", "Prywatność danych", "Cyberprzestępca", "Powierzchnia ataku", "Podatności", "Aktualizacje zabezpieczeń", "Mechanizmy uwierzytelniania", "Niechciane oprogramowanie", "Poprawa wydajności", "Gromadzenie danych", "Uwierzytelnianie dwuskładnikowe", "Oprogramowanie antywirusowe", "Oprogramowanie Anti-Malware", "Informacje wrażliwe", "Kompleksowy przewodnik"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Obraz zamkniętej kłódki na górze ekranu komputera lub laptopa, symbolizujący środki bezpieczeństwa, które można wdrożyć poprzez utwardzenie systemu Windows i debloating."
 coverCaption: ""
 ---

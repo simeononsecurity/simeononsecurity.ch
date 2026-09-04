@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cyberbeveiliging is een cruciaal aspect van de moderne bedrijfsvoering en vereist een alomvattende aanpak met de juiste systemen, protocollen en personeel om de verdediging tegen cyberaanvallen doeltreffend te beheren."
 tags: ["cyberbeveiliging", "bedrijfsvoering", "netwerkbeveiliging", "gevoelige informatie", "cyberaanvallen", "technologie", "software", "professionaliteit", "compliance", "industrienormen", "voorschriften", "beste praktijken", "prioriteit", "cultuur van veiligheid", "datalekken", "intellectueel eigendom", "proactieve benadering", "lage prioriteit", "gebrek aan middelen", "training", "inzet voor veiligheid", "informatiebeveiligingsfunctionarissen (ISSO's)", "systemen voor het beheer van informatiebeveiliging (ISSM's)", "opleiding en ervaring", "veiligheidsbedreigingen", "100% succes bij nalevingscontroles", "voorschriften", "normen", "beste praktijken", "NIST 800-serie", "politiek spel", "vertrouwen", "eerlijkheid", "samenwerking", "papertrail", "transparantie", "verantwoording"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Een beeld van een groep cyberbeveiligingsprofessionals in een bestuurskamer, die samenwerken om ervoor te zorgen dat de systemen en gegevens van hun organisatie veilig zijn."
 coverCaption: ""
 ---

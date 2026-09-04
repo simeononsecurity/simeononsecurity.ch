@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Poznaj 10 podstawowych wskazówek dotyczących bezpieczeństwa haseł, aby chronić swoją tożsamość cyfrową i dane osobowe przed cyberatakami."
 genre: ["Technologia", "Cyberbezpieczeństwo", "Ochrona tożsamości cyfrowej", "Bezpieczeństwo haseł", "Bezpieczeństwo online", "Prywatność danych", "Wskazówki dotyczące bezpieczeństwa online", "Zarządzanie hasłami", "Uwierzytelnianie dwuskładnikowe", "Odzyskiwanie hasła"]
 tags: ["bezpieczeństwo hasła", "wytyczne dotyczące haseł", "silne hasła", "cyberataki", "bezpieczeństwo online", "ryzyko związane z hasłem", "słabe hasła", "ochrona hasłem", "bezpieczeństwo danych", "obrona hasła", "zapobieganie hakerom", "znaczenie hasła", "łamanie haseł", "kradzież tożsamości", "ponowne użycie hasła", "zarządzanie hasłami", "uwierzytelnianie dwuskładnikowe", "Korzyści z 2FA", "aktualizacje hasła", "zmiana hasła", "najlepsze praktyki dotyczące haseł", "odzyskiwanie hasła", "menedżer haseł", "zalety menedżera haseł", "Wybór menedżera haseł", "Bezpieczeństwo konta online", "szyfrowanie", "uwierzytelnianie wieloskładnikowe"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Symboliczny obraz przedstawiający bezpieczeństwo hasła z tarczą chroniącą zamek."
 ---
 

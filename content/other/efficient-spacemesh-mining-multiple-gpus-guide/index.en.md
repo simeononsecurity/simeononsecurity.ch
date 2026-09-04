@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to optimize your Spacemesh mining using multiple GPUs with the eco-friendly PoST algorithm and maximize your rewards."
 genre: ["Cryptocurrency", "Blockchain", "Mining", "Technology", "Decentralized", "GPU Mining", "Proof of Space-Time", "Eco-friendly", "Crypto Tips", "Digital Assets"]
 tags: ["Spacemesh", "Mining", "GPUs", "Proof of Space-Time", "Cryptocurrency", "Blockchain", "Eco-friendly", "Decentralized", "PoST Algorithm", "Mining Guide", "Crypto Tips", "Rewards", "Optimization", "Energy-efficient", "GPU Mining", "Digital Assets", "Technology", "Decentralization", "Proof of Space", "Space-Time Mining", "Maximizing Mining Efficiency", "Eco-friendly Cryptocurrency", "Spacemesh Network", "GPU Mining Setup", "Mining with Multiple GPUs", "Decentralized Blockchain Mining", "Crypto Mining Tips", "Efficient GPU Mining", "Proof of Space-Time Algorithm", "Cryptocurrency Rewards"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "A cartoon-style illustration showing multiple GPUs working together to mine Spacemesh."
 coverCaption: "Mine Smarter, Mine Greener!"
 ref: ["/other/spacemesh-mining-eco-friendly-decentralized-rewards"]

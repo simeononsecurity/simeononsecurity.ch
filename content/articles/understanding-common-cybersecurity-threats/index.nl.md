@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Ontdek veelvoorkomende bedreigingen van cyberbeveiliging, hun impact op personen en bedrijven, en effectieve manieren om je ertegen te beschermen."
 genre: ["Cyberbeveiligingsbedreigingen", "Het belang van cyberbeveiliging", "Soorten bedreigingen", "Invloed van bedreigingen", "Beschermen tegen bedreigingen", "De rol van de overheid in cyberbeveiliging", "De rol van de industrie in cyberbeveiliging", "Regelgeving en naleving", "Publiek-private samenwerking", "Onderzoek en ontwikkeling op het gebied van cyberbeveiliging"]
 tags: ["cyberdreigingen", "cyberaanvallen", "cyberbeveiligingsmaatregelen", "kleine bedrijven", "financiële verliezen", "reputatieschade", "datalekken", "identiteitsdiefstal", "phishing", "ransomware", "DDoS-aanvallen", "bedreigingen van binnenuit", "software-updates", "sterke wachtwoorden", "werknemersopleiding", "multi-factor authenticatie", "gegevensback-ups", "overheidsvoorschriften", "naleving", "publiek-private partnerschappen", "onderzoek en ontwikkeling op het gebied van cyberbeveiliging", "belang van cyberbeveiliging", "het beschermen van individuen", "het beschermen van bedrijven", "rol van de overheid", "rol van de industrie", "wettelijke boetes", "reputatieschade", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Een symbolische illustratie van een schild dat digitale activa beschermt tegen cyberbedreigingen met binaire code op de achtergrond."
 ---
 

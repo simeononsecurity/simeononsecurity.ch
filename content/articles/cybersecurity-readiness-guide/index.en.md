@@ -6,7 +6,7 @@ draft: false
 description: "Assess the cybersecurity readiness of companies before sharing sensitive information or doing business with them. Protect your data and stay secure!"
 genre: ["Cybersecurity", "Business Security", "Data Protection", "Risk Assessment", "Information Security", "Digital Safety", "Data Privacy", "Cyber Threats", "Network Security", "Vendor Risk Management"]
 tags: ["Cybersecurity Readiness", "Data Protection", "Business Security", "Risk Assessment", "Information Security", "Cyber Threats", "Network Security", "Vendor Management", "Data Privacy", "Incident Response", "Employee Training", "Data Backup", "Security Audits", "Phishing Prevention", "Encryption", "Firewalls", "Vulnerability Scanning", "Third-Party Risk", "Regulatory Compliance", "Continuous Monitoring", "Cyber Defense", "IT Security", "Cyber Awareness", "Secure Communication", "Data Breach", "Ransomware Protection", "Data Recovery", "Digital Safety", "Network Infrastructure", "Security Policies"]
-cover: "/img/cover/cybersecurity-shield-protection2.png"
+cover: "/img/cover/cybersecurity-shield-protection2.webp"
 coverAlt: "A symbolic illustration of a business shield protecting sensitive data from cyber threats."
 coverCaption: "Defend Your Data, Fortify Your Business."
 ---

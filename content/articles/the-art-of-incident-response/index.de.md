@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken für die Reaktion auf Vorfälle gemäß NIST SP 800-61 Rev. 2 kennen und entdecken Sie Beispiele aus der Praxis für effektive Strategien zur Reaktion auf Vorfälle."
 tags: ["Vorfallreaktion", "Cybersicherheit", "NIST", "beste Praktiken", "Bedrohungsdaten", "Kommunikation", "Analyse nach einem Zwischenfall", "Equifax", "NotPetya", "SolarWinds", "Koloniale Pipeline", "Microsoft Exchange Server", "Schwachstellen", "Einbruchserkennung", "Eindämmung", "Wiederherstellung", "Vorbereitung", "Cyberangriffe", "Internetkriminalität", "Sicherheitsvorfälle"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "Ein illustriertes Bild eines Teams von Cybersicherheitsexperten, die zusammenarbeiten, um auf einen Sicherheitsvorfall zu reagieren, mit einem roten Warnsymbol im Hintergrund, das die Dringlichkeit der Situation anzeigt. "
 coverCaption: ""
 ---

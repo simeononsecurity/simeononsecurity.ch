@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj misję i zasady działania Cyber Sentinels, społeczności profesjonalistów z branży cybernetycznej i IT, zaangażowanych w dzielenie się wiedzą i opracowywanie innowacyjnych rozwiązań dla wyzwań związanych z cyberbezpieczeństwem."
 tags: ["cyberbezpieczeństwo", "IT", "wspólnota", "dzielenie się wiedzą", "współpraca", "kształcenie ustawiczne", "wsparcie", "integracyjność", "pozytywny wpływ", "kanały tekstowe", "kanały głosowe", "porada zawodowa", "możliwości zatrudnienia", "zasoby edukacyjne", "pojawiające się trendy", "projekty", "wydarzenia", "konferencje", "zdjęcia zwierząt", "technologia"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Stylizowana tarcza cyfrowa z postacią cyberwojownika w centrum, otoczona abstrakcyjnymi kształtami i liniami reprezentującymi przepływy danych i połączenia sieciowe"
 coverCaption: ""
 ---

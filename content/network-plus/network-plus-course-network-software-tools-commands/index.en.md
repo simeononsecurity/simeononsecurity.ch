@@ -6,7 +6,7 @@ draft: false
 description: "Explore essential network software tools and command line utilities, learn their usage, and troubleshoot like a pro with this comprehensive Network+ Certification Exam course."
 genre: ["Networking", "Network Tools", "Command Line Utilities", "Network Troubleshooting", "CompTIA Network+ Certification", "Network Management", "Network Configuration", "WiFi Analysis", "Packet Capture", "Bandwidth Testing"]
 tags: ["Network Plus Certification", "Network Software Tools", "Command Line Tools", "WiFi Analyzer", "Protocol Analyzer", "Bandwidth Speed Tester", "Port Scanner", "iperf", "NetFlow Analyzer", "TFTP Server", "Terminal Emulator", "IP Scanner", "ping", "ipconfig", "nslookup", "traceroute", "arp", "netstat", "hostname", "route", "telnet", "tcpdump", "nmap", "show interface", "show config", "show route", "Device Configuration", "Routing Tables", "Documentation and Training"]
-cover: "/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.png"
+cover: "/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp"
 coverAlt: "An engaging cartoon-style illustration showing a network professional confidently using various tools and commands to troubleshoot a network."
 coverCaption: "Empower Your Network Troubleshooting Skills!"
 ---

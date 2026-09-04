@@ -6,7 +6,7 @@ draft: false
 description: "Supercharge Ansible with Shodan API integration using specialized modules for enhanced automation."
 genre: ["Technology", "Networking", "Cybersecurity", "Automation", "API", "Ansible", "IT Management", "Development", "Programming", "Digital Innovation"]
 tags:  ["Automating Network Scans", "Efficient IT Management", "API-Driven Automation", "Enhancing Ansible Workflows", "Shodan Integration Strategies", "Shodan API", "Ansible Modules", "Automation", "Networking", "Cybersecurity", "API Integration", "IT Management", "Development", "Programming", "Digital Innovation", "Technology", "Efficiency", "Search Engine", "Network Discovery", "Web Services", "Data Query", "Internet of Things", "Cloud Computing", "Security"]
-cover: "/img/cover/shodan-api-ansible-automation.png"
+cover: "/img/cover/shodan-api-ansible-automation.webp"
 coverAlt: "A 3D animated illustration showing interconnected nodes and data flows within a network."
 coverCaption: "Empower Ansible Automation with Shodan API Synergy."
 ---

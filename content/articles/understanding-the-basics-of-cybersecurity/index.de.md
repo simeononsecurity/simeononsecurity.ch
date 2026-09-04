@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Entdecken Sie die Bedeutung der Cybersicherheit und erfahren Sie, wie Sie Ihre persönliche, geschäftliche und nationale Sicherheit vor den sich entwickelnden Cyberbedrohungen schützen können."
 genre: ["Die Grundlagen der Cybersicherheit verstehen", "Bedeutung der Cybersicherheit", "Schutz von persönlichen Informationen", "Schutz von Unternehmensdaten", "Nationale Sicherheitsbedenken", "Wichtige Terminologie zur Cybersicherheit", "Arten von Cyberangriffen", "Bewährte Praktiken der Cybersicherheit", "Die Rolle der Verschlüsselung bei der Cybersicherheit", "Cybersecurity für Unternehmen"]
 tags: ["Cybersecurity", "Grundlagen der Cybersicherheit", "Bedeutung der Cybersicherheit", "Schutz von persönlichen Informationen", "Schutz von Unternehmensdaten", "Nationale Sicherheit", "Cyber-Bedrohungen", "Malware", "Phishing", "Ransomware", "Schwachstellen", "Exploits", "Social-Engineering-Angriffe", "Passwort-Angriffe", "Man-in-the-Middle-Angriffe", "DDoS-Angriffe", "Bewährte Praktiken der Cybersicherheit", "Starke Passwörter", "Software-Aktualisierungen", "Multi-Faktor-Authentifizierung", "Terminologie der Cybersicherheit", "Arten von Cyberangriffen", "Die Rolle der Verschlüsselung bei der Cybersicherheit", "Verschlüsselungstypen", "Datenschutz", "Cybersicherheitsplan", "Schulung und Sensibilisierung der Mitarbeiter", "Regelmäßige Sicherheitsaudits", "Aufkommende Cyber-Bedrohungen", "Künstliche Intelligenz in der Cybersicherheit"]
-cover: "/img/cover/understanding-the-basics-of-cybersecurity.png"
+cover: "/img/cover/understanding-the-basics-of-cybersecurity.webp"
 coverAlt: "Ein Schild mit einem Schlosssymbol, das für Cybersicherheit und Schutz vor Cyberbedrohungen steht."
 ---
 

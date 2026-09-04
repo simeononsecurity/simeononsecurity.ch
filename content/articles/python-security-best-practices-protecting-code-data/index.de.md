@@ -6,7 +6,7 @@ draft: false
 description: "Lernen Sie die wichtigsten Best Practices für Python-Sicherheit kennen, um Ihren Code und Ihre Daten vor potenziellen Bedrohungen zu schützen, Datenschutz und Systemintegrität zu gewährleisten und Vertrauen aufzubauen."
 genre: ["Python-Sicherheit", "Code Sicherheit", "Datenschutz", "Software-Entwicklung", "Cybersecurity", "Sichere Kodierung", "Web-Entwicklung", "Datenschutz", "Anwendungssicherheit", "IT-Sicherheit"]
 tags: ["Python-Sicherheit", "beste Praktiken", "Codesicherheit", "datenschutz", "Systemintegrität", "sichere Kodierung", "Datenschutz", "Anwendungssicherheit", "Cybersicherheit", "Web-Entwicklung", "Software-Entwicklung", "python programmierung", "sichere Programmierung", "Datenverschlüsselung", "rollenbasierte Zugangskontrolle", "sichere Handhabung von Passwörtern", "Eingabeüberprüfung", "SQL-Injection-Verhinderung", "Datenbanksicherheit", "Abhängigkeitsmanagement", "Protokollierung und Überwachung", "Entwicklerschulung", "python interpreter", "python sicherheits dokumentation", "AES-Verschlüsselung", "TLS-Verschlüsselung", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "Eine Illustration eines Schildes, das Python-Code und -Daten schützt, als Symbol für bewährte Python-Sicherheitspraktiken."
 coverCaption: "Sichern Sie Ihren Python-Code und Ihre Daten mit diesen bewährten Verfahren."
 ---

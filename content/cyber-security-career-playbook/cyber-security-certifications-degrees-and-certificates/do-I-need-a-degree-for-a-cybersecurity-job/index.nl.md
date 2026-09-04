@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Ontdek de beste majors voor een succesvolle cyberbeveiligingscarrière en leer hoe u het pad kunt bewandelen om een bekwame professional te worden."
 tags: ["baan in cyberbeveiliging", "diploma-eis", "grote selectie", "carrièrepad cyberbeveiliging", "informatiebeveiliging", "cyberbedreigingen", "carrièremogelijkheden", "ontwikkeling van vaardigheden", "branchecertificeringen", "cyberbeveiliging bootcamps", "zelfstudie-opties", "online trainingen", "stageprogramma's", "functies op instapniveau", "banen in cyberbeveiliging", "onderwijs in cyberbeveiliging", "loopbaanbegeleiding", "cyberbeveiligingstrajecten", "beste afstudeerrichtingen voor cyberbeveiliging", "curriculum cyberbeveiliging", "major informatietechnologie", "Informatica majoor", "wiskunde majoor", "technische hoofdvak", "bedrijfsleven en cyberbeveiliging", "psychologie en cyberbeveiliging", "sociologie en cyberbeveiliging", "vooruitzichten op werk in cyberbeveiliging", "praktische vaardigheden in cyberbeveiliging", "voortdurend leren in cyberbeveiliging", "vraag naar cyberbeveiligingsprofessionals"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Een illustratie van een persoon die een afstudeercap vasthoudt met een schild dat cyberbeveiliging voorstelt, als symbool voor de behoefte aan onderwijs en vaardigheden op het gebied van cyberbeveiliging. --aspect 16:9"
 coverCaption: "Ontgrendel het potentieel van uw cyberbeveiligingscarrière met onderwijs en vaardigheden."
 ---

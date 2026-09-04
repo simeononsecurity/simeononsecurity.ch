@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Descoperiți cele mai bune certificări pentru profesioniștii din domeniul afacerilor, pentru a îmbunătăți abilitățile de securitate cibernetică și a proteja datele sensibile."
 tags: ["certificări în domeniul securității cibernetice", "certificări non-tehnice", "profesioniști în afaceri", "securitatea informațiilor", "gestionarea confidențialității", "competențe în domeniul securității cibernetice", "protecția datelor", "programe de certificare", "CISSP", "CIPP E", "CIPM", "CISM", "CIPP US", "guvernanța securității", "reglementări privind confidențialitatea", "conformitate", "gestionarea riscurilor", "confidențialitatea informațiilor", "securitatea afacerilor", "confidențialitatea datelor"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "O imagine care prezintă un grup de diverși profesioniști din mediul de afaceri care colaborează pe o platformă digitală cu pictograme de blocare care simbolizează securitatea cibernetică."
 coverCaption: ""
 ---

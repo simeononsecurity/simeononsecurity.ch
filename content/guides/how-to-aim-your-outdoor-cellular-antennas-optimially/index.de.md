@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Erfahren Sie, wie Sie Ihre Richtfunkantenne auf optimale Signalstärke und Zuverlässigkeit ausrichten und ausrichten, einschließlich der Ortung von Mobilfunkmasten und dem Verständnis von Fresnel-Zonen."
 tags: ["Mobilfunkantenne", "Richtantenne", "Handy-Booster", "Mobilfunkmodem", "Signalstärke", "Mobilfunkmasten", "Funksichtlinie", "visuelle Sichtlinie", "Fresnel-Zonen", "Antennenausrichtung", "Signal optimieren", "Mobilfunkkonnektivität", "Signalstärke verbessern", "Zellsignal verstärken", "Mobilfunk-Signalverstärker", "Standort des Mobilfunkmastes", "Antenneninstallation", "Signalausbreitung", "Kabellose Kommunikation", "verbesserte Netzabdeckung", "Zeigeanleitung", "Zieltechniken", "Optimierung der Mobilfunkantenne", "Signalzuverlässigkeit", "Netzwerkleistung", "zelluläre Signalverstärkung", "Antennenausrichtung", "Tipps zur Signaloptimierung", "Platzierung der Mobilfunkantenne", "Signalverstärkungsstrategien", "Anweisungen zur Antennenausrichtung"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Abbildung einer Person, die eine gerichtete Mobilfunkantenne auf einen Mobilfunkmast richtet, während sich Signalwellen ausbreiten."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to effortlessly enhance your online privacy by writing Privacy.com virtual card numbers to physical cards. Protect your finances securely and conveniently."
 genre: ["Online Privacy", "Financial Security", "Virtual Cards", "Privacy.com", "Digital Transactions", "Secure Payments", "Financial Protection", "Ecommerce Security", "Card Management", "Privacy Enhancement"]
 tags: ["Privacy.com", "Virtual Card Numbers", "Physical Cards", "Online Privacy", "Financial Security", "Secure Payments", "Privacy Enhancement", "Digital Transactions", "Ecommerce Security", "Financial Protection", "Enhance Online Privacy", "Writing Virtual Card Numbers", "Secure Financial Transactions", "Protect Personal Information", "Privacy.com Card Management", "Virtual Cards for Security", "Privacy and Security Tips", "Online Payment Methods", "Financial Data Protection", "Privacy Strategies"]
-cover: "/img/cover/privacy-com-virtual-card-transformation.png"
+cover: "/img/cover/privacy-com-virtual-card-transformation.webp"
 coverAlt: "An illustration of a digital card transforming into a physical card."
 coverCaption: "Enhance your physical payment privacy."
 ---
@@ -27,7 +27,7 @@ While virtual cards offer excellent security, there are instances when a physica
 
 ## Hardware Requirements
 
-{{< figure src="cardwriter.jpg" alt="MXR Card Writer" link="https://amzn.to/3tfq956" >}}
+{{< figure src="cardwriter.webp" alt="MXR Card Writer" link="https://amzn.to/3tfq956" >}}
 
 - [Magnetic Strip Reader and Writer](https://amzn.to/3tfq956)
   - (**Optional**)[Bluetooth Magnetic Strip Reader and Writer](https://amzn.to/3ZNjfjG)
@@ -67,7 +67,7 @@ Create a new card, configure it to your liking, and notate the information the v
 
 Either using the Blank Cards mentioned above or a repurposed visa gift card and the software that came with your writer write the privacy.com card information to the physical card. 
 
-{{< figure src="softwareimage.jpg" alt="MXR Card Writer Software" link="https://amzn.to/3tfq956" >}}
+{{< figure src="softwareimage.webp" alt="MXR Card Writer Software" link="https://amzn.to/3tfq956" >}}
 
 You'll need to include a few extra details to the card like the name, address, and charge type and checksum information. We won't go into that here. But If you're determined enough to do this, the standards for this kind of information are public and available on wikipedia.
 

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți diferența de performanță dintre NVIDIA RTX 3090 și RTX 4090 în ceea ce privește spargerea parolelor, evidențiind implicațiile de securitate și măsurile de protecție."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "spargerea parolelor", "performanță", "securitate", "protecție prin parolă", "securitate cibernetică", "reper", "GPU", "manager de parole", "parole puternice", "autentificare cu doi factori", "reglementări guvernamentale", "CISA", "GDPR", "securitatea datelor", "comparație hardware", "securitatea parolei", "placă grafică", "puterea parolei"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "O reprezentare ilustrată a unei încuietori digitale în curs de spargere, simbolizând conținutul articolului referitor la performanța de spargere a parolelor."
 coverCaption: ""
 ---

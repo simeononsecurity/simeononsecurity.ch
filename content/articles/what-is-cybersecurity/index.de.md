@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Cybersicherheit kennen, einschließlich der Arten von Cyberbedrohungen, der Bedeutung der Cybersicherheit und der Schritte zur Verbesserung der Online-Sicherheit."
 tags: ["Cybersecurity", "Cyber-Bedrohungen", "Online-Sicherheit", "Schutz der Daten", "Virus", "Malware", "Phishing-Betrug", "Hacker", "Nationale Sicherheit", "Geistiges Eigentum", "Persönlicher Datenschutz"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Das Bild einer Person, die mit besorgtem Gesichtsausdruck an einem Computer sitzt, während ein Hacker oder Cyberkrimineller auf dem Bildschirm zu sehen ist, soll die Gefahren von Cyber-Bedrohungen und die Bedeutung der Cybersicherheit verdeutlichen"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Enhance your organization's cybersecurity with expert strategies! Learn the art of creating a robust human firewall, fortifying defenses against cyber attacks. Uncover the latest threats and help your team to stand strong against evolving risks. Level up your security game now!"
 genre: ["Cybersecurity Training", "Employee Empowerment", "Human Firewall Strategies", "Security Awareness", "Digital Defense Techniques", "Threat Mitigation", "Simulated Cyber Attacks", "Training Program Design", "Measuring Training Impact", "Continuous Improvement"]
 tags: ["Cybersecurity", "Employee Training", "Human Firewall", "Security Awareness", "Threat Mitigation", "Digital Defense", "Simulated Attacks", "Training Impact", "Continuous Improvement", "Security Strategies", "Phishing Prevention", "Malware Defense", "Ransomware Protection", "Employee Engagement", "Security Culture", "Training Objectives", "Interactive Learning", "Cyber Threats", "Risk Reduction", "ROI Measurement", "Behavioral Changes", "Security Compliance", "Incident Analysis", "Security Metrics", "Employee Incentives", "Ongoing Support", "Resource Provision", "Cybersecurity Helpdesk", "Skill Enhancement", "Data Protection"]
-cover: "/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.jpeg"
+cover: "/img/cover/building-a-human-firewall_-training-employees-in-cybersecurity.webp"
 ---
 
 Building a Human Firewall: Training Employees in Cybersecurity

@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Lernen Sie in diesem umfassenden Leitfaden die Grundlagen der Cybersicherheit und praktische Tipps zum Schutz Ihres digitalen Lebens vor Cyberbedrohungen kennen."
 genre: ["Cybersecurity", "Online-Sicherheit", "Digitale Sicherheit", "Cyber-Bedrohungen", "Internet Privacy", "Datenschutz", "Informationssicherheit", "Technologie", "Cyber Defense", "Cyber-Bewusstsein"]
 tags: ["Cybersicherheit", "Online-Sicherheit", "digitale Sicherheit", "Cyber-Bedrohungen", "Internetprivatsphäre", "datenschutz", "Informationssicherheit", "Technologie", "Cyber-Abwehr", "Cyber-Bewusstsein", "Grundlagen der Cybersicherheit", "digitales Leben", "Cyber-Angriffe", "Online-Schutz", "Datensicherheit", "Computersicherheit", "Netzwerksicherheit", "Online-Datenschutz", "Passwortsicherheit", "Phishing-Angriffe", "Malwareschutz", "Tipps zur Cybersicherheit", "cyber hygiene", "Cybersicherheitsmaßnahmen", "Praktiken der Cybersicherheit", "Cyber-Bedrohungslandschaft", "Leitfaden für Cybersicherheit", "Grundlagen der Cybersicherheit", "Datenschutzverletzungen", "Cybersicherheit für Anfänger", "Tipps zur Online-Sicherheit", "Bewusstsein für Cybersicherheit"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Cartoon-Illustration eines Schutzschilds, der ein digitales Gerät vor Cyber-Bedrohungen schützt"
 ---
 

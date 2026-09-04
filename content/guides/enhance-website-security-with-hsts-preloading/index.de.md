@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "Erfahren Sie, wie Sie die Sicherheit Ihrer Website und das Vertrauen der Nutzer verbessern können, indem Sie die HSTS-Einstellungen in Chrome und Firefox vorladen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Implementierung."
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "Eine Illustration einer Website im Cartoon-Stil, die mit einem Schloss versehen ist und für mehr Sicherheit und Schutz vor Cyber-Bedrohungen steht."
 coverCaption: "Stärken Sie den Schutz Ihrer Website, indem Sie das HSTS-Preloading einführen."
 ---

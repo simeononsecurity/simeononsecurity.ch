@@ -6,7 +6,7 @@ draft: false
 description: "Câștigați recompense ecologice prin minarea Spacemesh, o abordare descentralizată care utilizează algoritmul inovator de consens PoST."
 genre: ["Minerit de criptomonede", "Dovada de timp-spațiu", "Recompense descentralizate", "Minerit ecologic", "Tehnologia Blockchain", "Criptomonedă", "Crypto Mining", "Dovada spațiului", "Descentralizare", "Consensul Blockchain"]
 tags: ["Spacemesh Mining", "Dovada de timp-spațiu", "Ecologic", "Descentralizare", "Minerit de criptomonede", "Tehnologia Blockchain", "Plase", "Dovezile PoST", "Recompense pentru minerit", "Entuziaști cripto", "Consensul descentralizat", "Soluții miniere ecologice", "Recompense pentru criptomonede", "Securitatea criptomonedelor", "Dovada spațiului", "Inovație criptografică", "Rețeaua Blockchain", "Rețeaua Spacemesh", "Procesul de plasare", "Eficiența criptomonedelor", "Cripto Participare", "Scalabilitatea criptomonedelor", "Stimulente Blockchain", "Software Spacemesh", "Jetoane Spacemesh", "Rețeaua Crypto", "Tranzacții cu criptomonede", "Descentralizarea criptomonedelor", "Provocări criptografice"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "O ilustrație de desene animate atrăgătoare a unei nave spațiale cu propulsie de rachetă care exploatează criptomonede în spațiul cosmic, simbolizând procesul de minerit Spacemesh ecologic și inovator."
 coverCaption: "Minerit spre stele! Recompensele ecologice ale Spacemesh vă așteaptă."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to write secure Python code by avoiding unsafe functions and adopting best practices for robust and reliable applications."
 genre: ["Programming", "Cybersecurity", "Software Development", "Python", "Coding", "Web Development", "Secure Coding", "Technology", "Computer Science", "Data Security"]
 tags: ["Python programming", "secure coding", "safe Python functions", "code security", "Python alternatives", "programming best practices", "cybersecurity", "coding tips", "software development", "web development", "avoiding unsafe Python functions", "secure Python applications", "coding security measures", "secure code practices", "programming security tips"]
-cover: "/img/cover/secure-python-coding-wall.png"
+cover: "/img/cover/secure-python-coding-wall.webp"
 coverAlt: "A cartoon-style illustration of a developer securely building a wall of code blocks, representing safe Python programming practices."
 coverCaption: "Build Securely, Code Confidently!"
 ---

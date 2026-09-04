@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de uitdagingen op het gebied van cyberbeveiliging in de gezondheidszorg en verken strategieën voor bescherming en naleving om patiëntgegevens te beschermen en naleving van de regelgeving te waarborgen."
 tags: ["cyberbeveiliging", "gezondheidszorg", "patiëntgegevens", "gegevensprivacy", "compliance", "HIPAA", "GDPR", "veiligheidscontroles", "toegangscontroles", "encryptie", "training", "bedreigingen van binnenuit", "phishing-aanvallen", "IoT-apparaten", "netwerkbeveiliging", "datalekken", "telegeneeskunde", "malware", "beveiligingslekken", "voorschriften"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "Een afbeelding van een arts voor een schild met een hangslotsymbool om de bescherming van patiëntgegevens tegen cyberbeveiligingsdreigingen weer te geven."
 coverCaption: ""
 ---

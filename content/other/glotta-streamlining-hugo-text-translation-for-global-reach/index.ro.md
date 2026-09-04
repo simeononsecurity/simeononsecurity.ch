@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum Glotta simplifică traducerea textului Hugo, permițând dezvoltatorilor să ajungă la un public global fără efort."
 tags: ["Glotta", "Traducerea textului Hugo", "instrument de localizare", "conținut multilingv", "automatizarea traducerilor", "localizare lingvistică", "Integrare API Google Translate", "Integrarea API Deepl Translate", "Chevrotain.js", "lexere și analizoare", "arbori de sintaxă", "fluxul de lucru al traducerii", "Proiecte Hugo", "localizarea conținutului", "suport lingvistic", "eficiența traducerii", "API-uri de traducere", "cele mai bune practici de localizare", "controlul calității traducerilor", "testarea conținutului tradus", "audiență globală", "soluție de traducere de text", "optimizarea procesului de traducere", "codul terților", "măsuri de securitate", "Pachet NPM", "Depozitul GitHub", "instrument de traducere de text", "localizare prietenoasă pentru dezvoltator", "îmbunătățirea conținutului"]
-cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png"
+cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.webp"
 coverAlt: "O ilustrație care prezintă traducerea fără probleme a textului Hugo cu ajutorul Glotta, care conectează limbile lumii."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Poznaj typowe zagrożenia cyberbezpieczeństwa, ich wpływ na osoby fizyczne i firmy oraz skuteczne sposoby ochrony przed nimi."
 genre: ["Zagrożenia dla cyberbezpieczeństwa", "Znaczenie cyberbezpieczeństwa", "Rodzaje zagrożeń", "Wpływ zagrożeń", "Ochrona przed zagrożeniami", "Rola rządu w cyberbezpieczeństwie", "Rola przemysłu w cyberbezpieczeństwie", "Przepisy i zgodność", "Partnerstwa publiczno-prywatne", "Badania i rozwój w dziedzinie cyberbezpieczeństwa"]
 tags: ["zagrożenia cyberbezpieczeństwa", "cyberataki", "środki cyberbezpieczeństwa", "małe przedsiębiorstwa", "straty finansowe", "uszkodzenie reputacji", "naruszenia danych", "kradzież tożsamości", "phishing", "ransomware", "Ataki DDoS", "zagrożenia wewnętrzne", "aktualizacje oprogramowania", "silne hasła", "szkolenie pracowników", "uwierzytelnianie wieloskładnikowe", "kopie zapasowe danych", "regulacje rządowe", "zgodność", "partnerstwa publiczno-prywatne", "badania i rozwój w dziedzinie cyberbezpieczeństwa", "znaczenie cyberbezpieczeństwa", "ochrona osób fizycznych", "ochrona przedsiębiorstw", "rola rządu", "rola przemysłu", "grzywny regulacyjne", "uszczerbek na reputacji", "RODO", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Symboliczna ilustracja tarczy chroniącej zasoby cyfrowe przed cyberzagrożeniami z kodem binarnym w tle."
 ---
 

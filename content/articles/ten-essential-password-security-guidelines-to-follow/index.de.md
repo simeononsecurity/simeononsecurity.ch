@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Lernen Sie die 10 wichtigsten Richtlinien zur Passwortsicherheit kennen, um Ihre digitale Identität und Ihre persönlichen Daten vor Cyberangriffen zu schützen."
 genre: ["Technologie", "Cybersecurity", "Schutz digitaler Identitäten", "Passwortsicherheit", "Online-Sicherheit", "Datenschutz", "Tipps zur Online-Sicherheit", "Passwortverwaltung", "Zwei-Faktoren-Authentifizierung", "Passwort-Wiederherstellung"]
 tags: ["Passwortsicherheit", "Passwortrichtlinien", "sichere Passwörter", "Cyber-Attacken", "Online-Sicherheit", "Passwort-Risiken", "schwache Passwörter", "Passwortschutz", "Datensicherheit", "Passwortschutz", "Hackerschutz", "Bedeutung des Passworts", "Passwortknacken", "Identitätsdiebstahl", "Passwort-Wiederverwendung", "Passwortmanagement", "Zwei-Faktor-Authentifizierung", "2FA-Vorteile", "Passwort-Updates", "Passwortänderung", "bewährte Kennwortpraktiken", "Passwort-Wiederherstellung", "Passwort-Manager", "Passwort-Manager Vorteile", "Auswahl eines Passwort-Managers", "Online-Kontosicherheit", "Verschlüsselung", "Multi-Faktor-Authentifizierung"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Ein symbolisches Bild, das die Passwortsicherheit mit einem Schild darstellt, das ein Schloss schützt."
 ---
 

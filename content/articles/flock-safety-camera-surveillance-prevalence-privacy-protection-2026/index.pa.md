@@ -87,7 +87,7 @@ ______
 
 Flock ਕੈਮਰੇ ਸਿਰਫ਼ ਪਲੇਟ ਨੰਬਰਾਂ ਤੋਂ ਵੱਧ ਕੈਪਚਰ ਕਰਦੇ ਹਨ। ਉਹ ਲੰਘਦੇ ਹਰ ਵਾਹਨ ਦੀ ਬਣਾਉਟ, ਮਾਡਲ, ਰੰਗ, ਬਾਡੀ ਟਾਈਪ ਅਤੇ ਵਿਲੱਖਣ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਰਿਕਾਰਡ ਕਰਦੇ ਹਨ। ਕੰਪਨੀ ਇਹਨਾਂ ਨੂੰ ਵਾਹਨ "ਫਿੰਗਰਪ੍ਰਿੰਟ" ਵਜੋਂ ਮਾਰਕੀਟ ਕਰਦੀ ਹੈ। ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਤੁਹਾਡੀ ਹਰ ਯਾਤਰਾ ਸੂਚੀਬੱਧ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਭਾਵੇਂ ਤੁਸੀਂ ਕੁਝ ਵੀ ਗਲਤ ਨਹੀਂ ਕੀਤਾ ਹੋਵੇ।
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="ਇੱਕ ਖਾਸ ALPR ਕੈਮਰਾ ਇੰਸਟਾਲੇਸ਼ਨ। ਚਿੱਤਰ ਕ੍ਰੈਡਿਟ: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="ਇੱਕ ਖਾਸ ALPR ਕੈਮਰਾ ਇੰਸਟਾਲੇਸ਼ਨ। ਚਿੱਤਰ ਕ੍ਰੈਡਿਟ: DeFlock.org" link="https://deflock.org/" >}}
 
 ### ALPR ਤਕਨਾਲੋਜੀ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ
 
@@ -168,7 +168,7 @@ ______
 
 ### ਫੰਕਸ਼ਨ ਕ੍ਰੀਪ ਅਤੇ ਮਿਸ਼ਨ ਵਿਸਥਾਰ: ਦਸਤਾਵੇਜ਼ੀ ਦੁਰਵਰਤੋਂ
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="ACLU ਦੀ 'Get The Flock Out' ਮੁਹਿੰਮ ਨੇ ALPR ਪ੍ਰਣਾਲੀਆਂ ਦੀ ਵਿਆਪਕ ਦੁਰਵਰਤੋਂ ਦਸਤਾਵੇਜ਼ ਕੀਤੀ ਹੈ। ਚਿੱਤਰ ਕ੍ਰੈਡਿਟ: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="ACLU ਦੀ 'Get The Flock Out' ਮੁਹਿੰਮ ਨੇ ALPR ਪ੍ਰਣਾਲੀਆਂ ਦੀ ਵਿਆਪਕ ਦੁਰਵਰਤੋਂ ਦਸਤਾਵੇਜ਼ ਕੀਤੀ ਹੈ। ਚਿੱਤਰ ਕ੍ਰੈਡਿਟ: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE ਅਤੇ ਇਮੀਗ੍ਰੇਸ਼ਨ ਲਾਗੂ ਕਰਨਾ
 **ICE ਨੇ ਵਾਰੰਟ ਤੋਂ ਬਿਨਾਂ ਅਣਅਧਿਕਾਰਤ ਪ੍ਰਵਾਸੀਆਂ ਦਾ ਪਤਾ ਲਗਾਉਣ ਅਤੇ ਪਿੱਛਾ ਕਰਨ ਲਈ Flock ਵਰਤਿਆ ਹੈ।**

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Ontdek de beste Linux-distro's voor privacy en veiligheid, zodat uw gegevens beschermd blijven en uw online activiteiten veilig zijn."
 tags: ["Linux distro's", "privacy en veiligheid", "Staarten", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "gegevensbescherming", "veilig computergebruik", "anoniem browsen", "virtualisatie", "veiligheidscontrole", "forensische analyse", "penetratietesten", "encryptie-instrumenten", "veilige verwijdering", "anonimiteit", "cyberbeveiliging", "correctheid van de code", "online veiligheid", "bescherming van gebruikersgegevens", "vertrouwelijkheid", "gegevensherstel", "online bankieren", "online privacy", "veilige omgeving", "veilig browsen", "Tor netwerk", "veiligheidsmaatregelen", "standaard veilig"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Een afbeelding van een schild dat een computer beschermt, symbool voor privacy en veiligheid in de digitale wereld."
 coverCaption: ""
 ---

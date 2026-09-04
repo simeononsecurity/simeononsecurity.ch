@@ -6,7 +6,7 @@ draft: false
 description: "Explore el mundo de las tecnologías y conceptos de enrutamiento, desde protocolos de enrutamiento dinámico como RIP, OSPF, EIGRP y BGP hasta protocolos de estado de enlace, vector distancia y enrutamiento híbrido, así como la configuración de enrutamiento estático y rutas por defecto."
 genre: ["Tecnología", "Red", "Enrutamiento", "Protocolos de red", "Gestión de redes", "Enrutamiento dinámico", "Enrutamiento estático", "Gestión del ancho de banda", "Calidad del servicio", "Dispositivos de red"]
 tags: ["tecnologías de enrutamiento", "protocolos de enrutamiento dinámico", "RIP", "OSPF", "EIGRP", "BGP", "estado del enlace", "vector distancia", "protocolos de encaminamiento híbridos", "enrutamiento estático", "rutas por defecto", "distancia administrativa", "ruta exterior", "enrutamiento interior", "tiempo de vivir", "gestión del ancho de banda", "moldeado del tráfico", "calidad del servicio", "dispositivos de red", "routers", "interruptores", "cortafuegos", "balanceadores de carga", "puntos de acceso", "optimización de la red", "rendimiento de la red", "seguridad de la red", "arquitectura de red", "tráfico de red"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Ilustración de dispositivos de red interconectados con flujo de datos entre ellos."
 coverCaption: "Navegando por la autopista digital: Optimizar el enrutamiento de red para obtener el máximo rendimiento"
 ---

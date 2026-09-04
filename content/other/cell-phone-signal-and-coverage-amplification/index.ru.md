@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
  [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Это помогает только в том случае, если у вас есть хорошее или пригодное для использования покрытие в окне или рядом с ним, а не в другой части дома. Лучше всего это работает, если вам просто нужно более равномерно распределить покрытие по дому.
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
  [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) опции требуют некоторой установки. Они требуют, чтобы вы установили столб, заземляющий стержень, разрядник, усилитель и одну или несколько внутренних антенн. Они обеспечивают наилучший возможный сигнал, но не будут работать, если в вашем районе вообще нет сигнала. В среднем они дают около 60 дБ дополнительного усиления, но могут доходить до 100 дБ. Это определенно лучшее постоянное решение, так как вы получите максимально возможное улучшение сигнала, а также поддержку всех операторов связи одновременно.
 

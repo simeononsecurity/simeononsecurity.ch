@@ -44,7 +44,7 @@ coverCaption: ""
 
 ### ONT কাস্টমাইজ করা
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 এখন গুরুত্বপূর্ণ অংশটি আসে, যেমন আপনার আইএসপির নেটওয়ার্কের সাথে সামঞ্জস্যপূর্ণ করতে ডিভাইসের কিছু তথ্য পরিবর্তন করা।
 

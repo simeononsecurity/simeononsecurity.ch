@@ -6,7 +6,7 @@ draft: false
 description: "Informieren Sie sich über die sich entwickelnde Cybersicherheitslandschaft, neue Bedrohungen und wirksame Gegenmaßnahmen zum Schutz vor Cyberangriffen."
 genre: ["Cybersecurity-Bedrohungen", "Aufkommende Trends", "Gegenmaßnahmen", "Landschaft der Cyber-Bedrohungen", "Technologie-Risiken", "Datenverstöße", "Ransomware-Angriffe", "Phishing-Techniken", "IoT-Schwachstellen", "Insider-Bedrohungen"]
 tags: ["Bedrohungen der Cybersicherheit", "aufkommende Trends", "Gegenmaßnahmen", "Cyber-Bedrohungslandschaft", "technologische Risiken", "Datenschutzverletzungen", "Ransomware-Angriffe", "Phishing-Techniken", "IoT-Schwachstellen", "Insider-Bedrohungen", "Cyber-Angriffe", "Bewusstsein für Cybersicherheit", "Sicherheitsprotokolle", "Netzwerksicherheit", "datenschutz", "künstliche Intelligenz", "maschinelles Lernen", "Endpunkt-Erkennung und -Reaktion", "Sicherheitsbewertungen", "Informationsaustausch", "Mitarbeiterschulung", "Sicherheitsprüfungen", "Cyberangriffe von Nationalstaaten", "KI in der Cybersicherheit", "bewährte Praktiken der Cybersicherheit", "Sicherheitskultur", "staatliche Regulierung", "Cyber-Resilienz", "Quanteninformatik", "Blockchain-Technologie"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Ein Schild mit einem Schloss-Symbol, das für Cybersicherheit steht, umgeben von miteinander verbundenen Geräten und binärem Code"
 coverCaption: "Verteidigen Sie sich gegen Cyber-Bedrohungen mit einem widerstandsfähigen Cyber-Sicherheitsschild."
 ---

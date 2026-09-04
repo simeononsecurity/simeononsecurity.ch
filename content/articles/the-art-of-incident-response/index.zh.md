@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解根据 NIST SP 800-61 Rev. 2 制定的事件响应最佳实践，发现有效事件响应策略的真实案例。"
 tags: ["事件响应", "网络安全", "NIST", "最佳做法", "威胁情报", "交流", "事故后分析", "Equifax", "NotPetya", "SolarWinds", "殖民地管道", "微软 Exchange 服务器", "脆弱性", "入侵检测", "遏制", "恢复", "准备", "网络攻击", "网络犯罪", "安全事件"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "网络安全专业人员团队合作应对安全事件的插图，背景中的红色警报图标表示情况紧急。 "
 coverCaption: ""
 ---

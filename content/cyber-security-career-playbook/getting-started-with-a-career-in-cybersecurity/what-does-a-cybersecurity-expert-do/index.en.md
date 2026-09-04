@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Discover the responsibilities, skills, and industry regulations that define the role of a cybersecurity expert in safeguarding digital assets and combating cyber threats."
 tags: ["cybersecurity expert", "cybersecurity role", "cybersecurity responsibilities", "cybersecurity skills", "threat intelligence", "incident response", "security awareness", "network security", "encryption algorithms", "secure coding", "industry regulations", "GDPR", "HIPAA", "PCI DSS", "certifications", "CISSP", "CEH", "CompTIA Security+", "protecting digital assets", "cyber threats", "data security", "network protection", "vulnerability assessment", "security audits", "malware detection", "data breach prevention", "cybersecurity career", "cybersecurity training", "cybersecurity certifications", "information security", "cyber defense"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "An animated cybersecurity expert wearing a superhero cape, standing confidently with a shield in one hand and a lock symbol in the other, protecting digital assets."
 coverCaption: "A symbolic representation of a cybersecurity expert, armed with knowledge and tools, defending digital assets from cyber threats."
 ---

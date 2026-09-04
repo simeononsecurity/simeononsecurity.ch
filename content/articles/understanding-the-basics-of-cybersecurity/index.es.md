@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Descubra la importancia de la ciberseguridad y aprenda a proteger la seguridad personal, empresarial y nacional frente a las cambiantes ciberamenazas."
 genre: ["Comprender los fundamentos de la ciberseguridad", "Importancia de la ciberseguridad", "Protección de datos personales", "Protección de datos empresariales", "Cuestiones de seguridad nacional", "Terminología clave de ciberseguridad", "Tipos de ciberataques", "Buenas prácticas de ciberseguridad", "Papel del cifrado en la ciberseguridad", "Ciberseguridad para empresas"]
 tags: ["Ciberseguridad", "Conceptos básicos de ciberseguridad", "Importancia de la ciberseguridad", "Protección de datos personales", "Protección de datos empresariales", "Seguridad nacional", "Ciberamenazas", "Malware", "Phishing", "ransomware", "Vulnerabilidades", "Explota", "Ataques de ingeniería social", "Ataques a contraseñas", "Ataques Man-in-the-Middle", "Ataques DDoS", "Buenas prácticas de ciberseguridad", "Contraseñas seguras", "Actualizaciones de software", "Autenticación multifactor", "Terminología de ciberseguridad", "Tipos de ciberataques", "Papel del cifrado en la ciberseguridad", "Tipos de cifrado", "Protección de datos", "Plan de ciberseguridad", "Formación y sensibilización de los empleados", "Auditorías de seguridad periódicas", "Ciberamenazas emergentes", "Inteligencia artificial en ciberseguridad"]
-cover: "/img/cover/understanding-the-basics-of-cybersecurity.png"
+cover: "/img/cover/understanding-the-basics-of-cybersecurity.webp"
 coverAlt: "Un escudo con el símbolo de un candado, que representa la ciberseguridad y la protección contra las ciberamenazas."
 ---
 

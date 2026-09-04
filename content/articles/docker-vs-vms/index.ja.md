@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "シンプルさ、拡張性、セキュリティ、費用対効果でVMを凌駕するDockerのクラウドコンピューティングにおけるパワーを、この記事でご確認ください。"
 tags: ["ドッカー", "仮想マシン", "仮想計算機", "クラウドコンピューティング", "コンテナ", "シンプリシティ", "スケーラビリティ", "セキュリティ", "費用対効果", "Dockerfile（ドッカーファイル", "ビルド、テスト、デプロイメント", "アイソレーション", "セキュリティの実績", "コスト比較", "情報量の多い記事"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "シロナガスクジラのような形をした貨物船が、複数のDockerコンテナを積んでいるイメージ"
 coverCaption: ""
 ---

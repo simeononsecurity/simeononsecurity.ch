@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc poleceń Windows Defender PowerShell i dowiedz się, jak zwiększyć bezpieczeństwo systemu za pomocą sterowania z wiersza poleceń."
 genre: ["Windows Defender", "Polecenia PowerShell", "bezpieczeństwo systemu", "kontrola wiersza poleceń", "antywirus", "Systemy operacyjne Windows", "ochrona przed złośliwym oprogramowaniem", "zaawansowane ustawienia zabezpieczeń", "automatyzacja operacji bezpieczeństwa", "Windows PowerShell"]
 tags: ["Technologia", "Cyberbezpieczeństwo", "Systemy operacyjne", "Windows", "Narzędzia wiersza poleceń", "Bezpieczeństwo systemu", "PowerShell", "Antywirus", "Ochrona przed złośliwym oprogramowaniem", "Skrypty"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Animowana ilustracja przedstawiająca tarczę chroniącą system komputerowy przed różnymi cyberzagrożeniami."
 coverCaption: "Zwiększ bezpieczeństwo swojego systemu dzięki poleceniom Windows Defender PowerShell."
 ---

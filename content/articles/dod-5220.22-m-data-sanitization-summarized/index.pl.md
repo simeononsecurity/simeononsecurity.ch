@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Specyfikacja DoD 5220.22-M to krytyczny standard bezpiecznego usuwania wrażliwych informacji z cyfrowych nośników danych, szeroko wykorzystywany przez amerykańskie wojsko i organizacje rządowe."
 tags: ["DoD 5220.22-M", "sanityzacja danych", "cyfrowe nośniki informacji", "Wojsko amerykańskie", "organizacje rządowe", "informacje wrażliwe", "bezpieczeństwo", "usuwanie danych", "proces wieloprzebiegowy", "Metoda EKG"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Obraz dysku twardego bezpiecznie usuwanego przy użyciu oprogramowania do sanityzacji danych, z kłódką lub tarczą symbolizującą bezpieczeństwo na pierwszym planie"
 coverCaption: ""
 ---

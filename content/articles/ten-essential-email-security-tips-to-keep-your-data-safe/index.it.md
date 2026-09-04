@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Scoprite 10 consigli fondamentali per la sicurezza delle e-mail, per mantenere i vostri dati al sicuro e protetti da minacce e violazioni informatiche."
 genre: ["Sicurezza delle e-mail", "Protezione dei dati", "Sicurezza informatica", "Privacy online", "Furto d'identità", "Sicurezza della password", "Truffe di phishing", "Sicurezza in Internet", "Sicurezza digitale", "Formazione dei dipendenti"]
 tags: ["sicurezza delle e-mail", "protezione dei dati", "sicurezza informatica", "online privacy", "furto d'identità", "perdita finanziaria", "crittografia delle e-mail", "truffe di phishing", "sicurezza della password", "Wi-Fi pubblico", "VPN", "software di posta elettronica", "autenticazione a due fattori", "e-mail di phishing", "servizi di posta elettronica criptata", "patch di sicurezza", "caricamento automatico delle immagini", "informazioni sensibili", "reti Wi-Fi pubbliche", "rete privata virtuale", "informazioni personali", "formazione sulla sicurezza", "politiche di sicurezza", "comunicazione aperta", "incidenti di sicurezza", "formazione dei dipendenti", "minacce informatiche", "sicurezza dei dati", "digital privacy", "sicurezza online"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Un'illustrazione simbolica di una busta chiusa circondata da strati di protezione simili a uno scudo, che rappresenta la sicurezza delle e-mail e la protezione dei dati"
 ---
  **10 consigli essenziali per la sicurezza delle e-mail per mantenere al sicuro i vostri dati**

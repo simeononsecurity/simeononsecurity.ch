@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van TryHackMe: functies, prijzen, certificeringen, netwerkdiensten en meer, zodat u cyberbeveiligingsvaardigheden onder de knie krijgt."
 genre: ["Technologie", "Cyberbeveiliging", "Online leren", "Ethisch hacken", "Netwerkbeveiliging", "Virtuele laboratoria", "Certificeringen", "Leerpaden", "Praktijkervaring", "TryHackMe-beoordeling"]
 tags: ["TryHackMe", "TryHackMe-beoordeling", "TryHackMe certificaten", "TryHackMe Prijzen", "TryHackMe Netwerkdiensten 2", "TryHackMe Abonnement", "TryHackMe Authenticatie omzeilen", "TryHackMe Bestandsinsluiting", "TryHackMe OWASP Top 10 Doorloop", "TryHackMe VPN", "TryHackMe Windows Basis 1", "TryHackMe Active Directory", "TryHackMe Active Directory basis", "TryHackMe Antwoorden", "TryHackMe Linux-fundamentals deel 3", "TryHackMe-logo", "TryHackMe Mitre", "ProbeerHackMe Splunk", "SQL-injectie bij TryHackMe", "Ondersteuning voor TryHackMe", "TryHackMe informatie over bedreigingen", "TryHackMe Upload kwetsbaarheden", "TryHackMe Een toepassing lopen", "TryHackMe Windows Basis 2", "TryHackMe Windows Basiskennis 3", "ProbeerHackMe Blauw", "TryHackMe Blue Wandelgids"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Een afbeelding van een hacker met een superheldencape, als symbool voor de empowerment die wordt verkregen door de cyberbeveiligingstraining van TryHackMe."
 coverCaption: "Geef jezelf de kracht met TryHackMe: ontketen je superkrachten op het gebied van cyberbeveiliging"
 ---

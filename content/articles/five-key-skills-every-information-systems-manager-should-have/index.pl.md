@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj 5 kluczowych umiejętności, które powinien posiadać każdy menedżer systemów informatycznych, aby odnieść sukces w dzisiejszym cyfrowym świecie."
 genre: ["Technologia", "Biznes", "Zarządzanie", "IT", "Rozwój kariery", "Transformacja cyfrowa", "Analiza danych", "Przetwarzanie w chmurze", "Zarządzanie projektami", "Przywództwo"]
 tags: ["systemy informatyczne", "kierownik", "MIS", "umiejętności techniczne", "umiejętności analityczne", "umiejętności przywódcze", "umiejętności zarządzania projektami", "umiejętności komunikacyjne", "chmura obliczeniowa", "analiza danych", "rozwiązywanie problemów", "krytyczne myślenie", "podejmowanie decyzji", "zarządzanie zespołem", "współpraca", "planowanie projektu", "zarządzanie zasobami", "komunikacja", "technologia", "procesy biznesowe", "transformacja cyfrowa", "Decyzje oparte na danych", "platformy oparte na chmurze", "architektura systemu", "zarządzanie bazą danych", "języki programowania", "Umiejętności informatyczne", "rozwój kariery"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Ilustracja przedstawiająca menedżera systemów informatycznych nadzorującego sieć komputerów"
 coverCaption: "Opanuj umiejętności potrzebne, aby odnieść sukces jako menedżer systemów informatycznych."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Gagnez des récompenses écologiques grâce à l'exploitation minière de Spacemesh, une approche décentralisée utilisant l'algorithme de consensus innovant PoST."
 genre: ["Extraction de crypto-monnaies", "Preuve de l'espace-temps", "Récompenses décentralisées", "Exploitation minière respectueuse de l'environnement", "Technologie de la chaîne de blocs", "Crypto-monnaie", "Exploitation minière de cryptomonnaies", "Preuve d'espace", "Décentralisation", "Consensus sur la blockchain"]
 tags: ["Exploitation minière de Spacemesh", "Preuve de l'espace-temps", "Eco-Friendly", "Décentralisation", "Extraction de crypto-monnaies", "Technologie de la chaîne de blocs", "Maillets", "Preuves PoST", "Récompenses minières", "Les passionnés de cryptomonnaies", "Consensus décentralisé", "Solutions minières respectueuses de l'environnement", "Récompenses en crypto-monnaies", "Sécurité des crypto-monnaies", "Preuve d'espace", "Innovation dans le domaine des crypto-monnaies", "Réseau de chaînes de blocs", "Réseau Spacemesh", "Processus de maillage", "Efficacité des crypto-monnaies", "Participation aux crypto-monnaies", "Évolutivité des crypto-monnaies", "Incitations à la blockchain", "Logiciel Spacemesh", "Jetons Spacemesh", "Réseau Crypto", "Transactions en crypto-monnaie", "Cryptodevises Décentralisation", "Défis cryptographiques"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Illustration accrocheuse d'un vaisseau spatial propulsé par une fusée et minant des crypto-monnaies dans l'espace, symbolisant le processus de minage écologique et innovant de Spacemesh."
 coverCaption: "L'exploitation minière dans les étoiles ! Les récompenses écologiques de Spacemesh vous attendent."
 ---

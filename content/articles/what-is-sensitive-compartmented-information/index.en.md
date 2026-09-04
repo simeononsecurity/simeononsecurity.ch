@@ -6,7 +6,7 @@ draft: false
 description: "Explore the importance, classification levels, handling, and regulations of Sensitive Compartmented Information (SCI) for national security purposes."
 genre: ["Information Security", "National Security", "Intelligence", "Classified Information", "Government Regulations", "Access Controls", "Security Clearances", "Intelligence Community", "Defense Industry", "Intelligence Operations"]
 tags: ["Sensitive Compartmented Information", "SCI", "classified information", "national security", "intelligence sources", "intelligence operations", "access controls", "security clearances", "government regulations", "information security", "classified information handling", "handling requirements", "intelligence community directives", "Director of National Intelligence Security Manual", "National Industrial Security Program Operating Manual", "intelligence community", "defense industry", "security measures", "compliance", "security procedures", "intelligence activities", "counterintelligence operations", "foreign policy decisions", "threats", "information confidentiality", "information integrity", "information availability", "ODNI", "DCSA", "regulations", "oversight"]
-cover: "/img/cover/An_image_representing_sci.png"
+cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "An image representing Sensitive Compartmented Information (SCI) with a shield symbolizing security, a lock representing confidentiality, and a globe symbolizing national security."
 coverCaption: "Protecting national security through secure handling of Sensitive Compartmented Information (SCI)."
 ---

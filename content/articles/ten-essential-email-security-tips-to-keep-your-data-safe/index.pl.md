@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Poznaj 10 kluczowych wskazówek dotyczących bezpieczeństwa poczty e-mail, aby chronić swoje dane przed cyberzagrożeniami i naruszeniami."
 genre: ["Bezpieczeństwo poczty e-mail", "Ochrona danych", "Cyberbezpieczeństwo", "Prywatność online", "Kradzież tożsamości", "Bezpieczeństwo haseł", "Oszustwa phishingowe", "Bezpieczeństwo w Internecie", "Bezpieczeństwo cyfrowe", "Szkolenie pracowników"]
 tags: ["bezpieczeństwo poczty e-mail", "ochrona danych", "cyberbezpieczeństwo", "prywatność online", "kradzież tożsamości", "strata finansowa", "Szyfrowanie wiadomości e-mail", "oszustwa phishingowe", "bezpieczeństwo hasła", "publiczne Wi-Fi", "VPN", "oprogramowanie pocztowe", "uwierzytelnianie dwuskładnikowe", "wiadomości phishingowe", "Szyfrowane usługi poczty elektronicznej", "poprawki zabezpieczeń", "automatyczne ładowanie obrazu", "wrażliwe informacje", "publiczne sieci Wi-Fi", "wirtualna sieć prywatna", "dane osobowe", "szkolenie w zakresie bezpieczeństwa", "polityki bezpieczeństwa", "otwarta komunikacja", "incydenty bezpieczeństwa", "edukacja pracowników", "cyberzagrożenia", "bezpieczeństwo danych", "prywatność cyfrowa", "bezpieczeństwo online"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Symboliczna ilustracja zamkniętej koperty otoczonej warstwami ochronnymi przypominającymi tarcze, reprezentująca bezpieczeństwo poczty e-mail i ochronę danych"
 ---
  **10 podstawowych wskazówek dotyczących bezpieczeństwa poczty e-mail, aby zapewnić bezpieczeństwo danych**

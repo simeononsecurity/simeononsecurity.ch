@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Découvrez les tactiques utilisées par les escrocs par hameçonnage et découvrez des stratégies efficaces pour éviter de devenir une victime."
 tags: ["les escroqueries par phishing", "la cyber-sécurité", "menaces en ligne", "usurpation de courrier électronique", "ingénierie sociale", "protection contre les logiciels malveillants", "sécurité en ligne", "sécurité des données", "vol d'identité", "sécurité par mot de passe", "authentification à deux facteurs", "mises à jour de logiciel", "réglementations gouvernementales", "confidentialité en ligne", "cyber-sensibilisation", "fraude numérique", "sensibilisation au phishing", "sécurité sur les réseaux sociaux", "escroqueries en ligne", "prévention de la cybercriminalité"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Un bouclier vigilant protégeant un utilisateur des attaques de phishing"
 coverCaption: ""
 ---

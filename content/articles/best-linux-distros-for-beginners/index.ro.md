@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Descoperiți cele mai bune distribuții Linux pentru începători, inclusiv Ubuntu, Zorin OS, Linux Mint și Manjaro, care oferă interfețe ușor de utilizat și asistență excelentă din partea comunității."
 tags: ["Distribuții Linux", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "începători", "interfață ușor de utilizat", "compatibilitate hardware", "sprijin comunitar", "open-source", "Bazat pe Debian", "Interfață de tip Windows", "eliberare continuă", "Mediul desktop Cinnamon", "Mediul desktop Xfce", "Mediul de desktop KDE Plasma", "Mediul desktop GNOME", "depozit de software", "documentație cuprinzătoare", "software preinstalat", "cele mai recente actualizări de software", "bara de activități", "meniul de start", "tava de sistem", "codecuri multimedia", "manager de pachete", "comunitate de susținere", "reglementări guvernamentale", "conformitate juridică", "experiență în domeniul informaticii securizate"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "O ilustrație care prezintă un grup de utilizatori de calculatoare diferiți care folosesc diferite distribuții Linux cu zâmbete pe fețe, arătând ușurința și caracterul incluziv al Linux pentru începători"
 coverCaption: ""
 ---

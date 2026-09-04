@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Cyber Sentinels 的使命和原则，Cyber Sentinels 是一个由网络和 IT 专业人员组成的社区，致力于分享知识和开发创新解决方案以应对网络安全挑战。"
 tags: ["网络安全", "它", "社区", "知识共享", "合作", "持续学习", "支持", "包容性", "好的影响", "文字频道", "语音通道", "职业咨询", "工作机会", "学习资源", "新兴趋势", "项目", "事件", "会议", "宠物图片", "技术"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "一个程式化的数字盾牌，中心是一个网络战士形象，周围是代表数据流和网络连接的抽象形状和线条"
 coverCaption: ""
 ---

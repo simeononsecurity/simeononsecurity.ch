@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Odkryj najlepsze dystrybucje Linuksa dla początkujących, w tym Ubuntu, Zorin OS, Linux Mint i Manjaro, zapewniające przyjazne dla użytkownika interfejsy i doskonałe wsparcie społeczności."
 tags: ["Dystrybucje Linuksa", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "początkujący", "Przyjazny dla użytkownika interfejs", "kompatybilność sprzętowa", "wsparcie społeczności", "open-source", "Oparte na Debianie", "Interfejs przypominający Windows", "zwolnienie kroczące", "Środowisko graficzne Cinnamon", "Środowisko graficzne Xfce", "Środowisko graficzne KDE Plasma", "Środowisko graficzne GNOME", "repozytorium oprogramowania", "Kompleksowa dokumentacja", "preinstalowane oprogramowanie", "najnowsze aktualizacje oprogramowania", "pasek zadań", "menu startowe", "zasobnik systemowy", "kodeki multimedialne", "menedżer pakietów", "wspierająca społeczność", "regulacje rządowe", "zgodność z prawem", "doświadczenie w zakresie bezpiecznego przetwarzania danych"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "Ilustracja przedstawiająca grupę różnych użytkowników komputerów korzystających z różnych dystrybucji Linuksa z uśmiechami na twarzach, pokazująca łatwość i integracyjność Linuksa dla początkujących"
 coverCaption: ""
 ---

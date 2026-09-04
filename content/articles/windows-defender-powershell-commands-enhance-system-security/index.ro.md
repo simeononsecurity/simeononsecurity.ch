@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți puterea comenzilor Windows Defender PowerShell și învățați cum să vă îmbunătățiți securitatea sistemului cu ajutorul controlului prin linia de comandă."
 genre: ["Windows Defender", "Comenzi PowerShell", "securitatea sistemului", "controlul liniei de comandă", "antivirus", "Sisteme de operare Windows", "protecție împotriva malware-ului", "setări avansate de securitate", "automatizarea operațiunilor de securitate", "Windows PowerShell"]
 tags: ["Tehnologie", "Securitatea cibernetică", "Sisteme de operare", "Windows", "Instrumente de linie de comandă", "Securitatea sistemului", "PowerShell", "Antivirus", "Protecție împotriva programelor malware", "Scripting"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "O ilustrație animată reprezentând un scut care protejează un sistem informatic de diverse amenințări cibernetice."
 coverCaption: "Consolidarea securității sistemului dumneavoastră cu ajutorul comenzilor Windows Defender PowerShell."
 ---

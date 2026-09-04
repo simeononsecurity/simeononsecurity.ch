@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Verken de verborgen wereld van het dark web en het verband met cybercriminaliteit, terwijl u de dubbele aard en het potentieel ervan voor journalistiek en klokkenluiden ontdekt."
 tags: ["donker web", "cybercriminaliteit", "illegale activiteiten", "Tor", "hacken", "fraude", "identiteitsdiefstal", "journalistiek", "klokkenluiden", "online beveiliging", "persoonlijke informatie", "datalekken", "online privacy", "overheidsvoorschriften", "cyberbeveiliging", "misdaadpreventie", "anoniem browsen", "online anonimiteit", "online bedreigingen", "digitale veiligheid"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Een illustratie van een digitaal schild dat een computer beschermt tegen dark web en cybercriminaliteit."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Entdecken Sie die unverzichtbaren Cybersecurity-Kurse, die Sie mit den Fähigkeiten und Kenntnissen ausstatten, die Sie für eine erfolgreiche Karriere in der Branche benötigen."
 tags: ["Cybersicherheitskurse", "Grundlegende Kurse", "berufliche Entwicklung", "Cybersicherheitsschulung", "Informationssicherheit", "Netzwerksicherheit", "Ethisches Hacken", "Vorfallreaktion", "Sicherheitszertifizierungen", "Datenschutz", "Compliance", "Cloud-Sicherheit", "IoT-Sicherheit", "ICS-Sicherheit", "Cybersicherheitsfähigkeiten", "Cybersicherheitsausbildung", "Karriere im Bereich Cybersicherheit", "Beschäftigungsaussichten im Bereich der Cybersicherheit", "Cybersicherheits-Zertifizierungen", "Cybersicherheitsindustrie", "Trends in der Cybersicherheit", "bewährte Praktiken der Cybersicherheit", "Cybersecurity-Arbeitsmarkt", "Schulungsprogramme für Cybersicherheit", "Cybersicherheits-Lehrplan", "Spezialisierung auf Cybersicherheit", "Lernressourcen zur Cybersicherheit", "Online-Kurse zur Cybersicherheit", "Studiengänge im Bereich Cybersicherheit", "Karrieremöglichkeiten im Bereich Cybersicherheit"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "Eine Illustration, die einen Cybersicherheitsexperten mit Schild zeigt, der digitale Werte vor Cyberbedrohungen schützt."
 coverCaption: "Sichern Sie Ihre Zukunft mit wichtigen Kursen zur Cybersicherheit."
 ---

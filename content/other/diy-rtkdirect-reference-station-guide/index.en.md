@@ -58,7 +58,7 @@ Addressing the notion of minimum required position accuracy, RTKDirect adopts a 
 
 #### Signal-to-Noise Ratio (SNR) and Signal Levels
 
-{{< figure src="installedantenna.png" caption="Installed Antenna - doc.onocoy.com" alt="An Installed Tri-Band GPS Antenna" link="https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station" >}}
+{{< figure src="installedantenna.webp" caption="Installed Antenna - doc.onocoy.com" alt="An Installed Tri-Band GPS Antenna" link="https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station" >}}
 
 Signal-to-Noise Ratio (SNR) and signal levels emerge as pivotal factors. SNR above 40 dBHz, preferably reaching around 45 dBHz, signifies optimal performance. Lower SNR values, stemming from factors like extended cables or antenna quality, can elevate code/carrier noise, potentially affecting measurement quality. Two fundamental principles guide this aspect:
 
@@ -79,7 +79,7 @@ ______
 ## Hardware Requirements:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of flash-based storage** (for longevity of the SSD). For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**. 
 
-{{< figure src="compute.jpeg" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
+{{< figure src="compute.webp" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
 | Model                               | Description                                                    |
 |--------------------------------------|----------------------------------------------------------------|
@@ -93,7 +93,7 @@ One of the following is **required**. We basically just need any **efficient and
 ## Recommended GPS Receivers DIY RTKDirect Deployments
 There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
-{{< figure src="advanced-receivers.jpeg" alt="The Best GPS Receivers for RTKDirect" >}}
+{{< figure src="advanced-receivers.webp" alt="The Best GPS Receivers for RTKDirect" >}}
 
 | Model                                                | Description                                                                                                               |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ There are many receivers on the market but at a bare minimum it must support [**
 
 We've covered this in a more in depth guide about the [Best GPS Base Station Antennas](https://simeononsecurity.com/other/unveiling-best-gps-antennas-onocoy-geodnet/).
 
-{{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+{{< figure src="surveying-antenna.webp" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
 | Model                                                                                                       | Description                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|

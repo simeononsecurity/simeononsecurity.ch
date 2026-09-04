@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Stay ahead of cyber threats by learning about the latest CVEs and threat actors through effective strategies and resources."
 tags: ["cybersecurity", "CVEs", "threat actors", "vulnerability scanning", "threat intelligence", "information sharing", "industry collaboration", "security advisories", "NVD", "CVE", "US-CERT", "CERT", "Mitre ATT&CK®", "OpenCTI", "NIST", "CISA", "cybersecurity vulnerabilities", "emerging threats", "proactive defense", "automated vulnerability scanning", "open-source intelligence", "real-time threat intelligence", "tactics and techniques of threat actors", "OSINT techniques", "CVE databases", "security vendor advisories", "security blogs", "threat intelligence feeds", "information sharing communities", "government regulations"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "An illustration of a shield with a magnifying glass symbolizing cybersecurity."
 coverCaption: "Defend and Discover: Empower yourself with knowledge in the cybersecurity realm."
 ---

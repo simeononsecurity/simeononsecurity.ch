@@ -112,11 +112,16 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
-# Pinterest is image-first, so the stricter ai-input=no signal applies to
-# all of its traffic, not just an /img/ path.
+# Pinterestbot is the documented user-agent token (see pinterest.com/bot.html).
+# Pinterest honors Crawl-delay only up to 1 second, larger values are
+# silently truncated, so 1 is the strictest rate limit robots.txt can set.
+# Restricted to /img/ only: everything else is disallowed for this bot.
+User-agent: Pinterestbot
 User-agent: Pinterest
 Content-Signal: ai-train=no, search=yes, ai-input=no
-Crawl-delay: 5
+Crawl-delay: 1
+Disallow: /
+Allow: /img/
 
 # News & Feed Aggregators
 User-agent: Feedly

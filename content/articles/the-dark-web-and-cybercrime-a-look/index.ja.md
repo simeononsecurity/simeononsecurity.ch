@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ダークウェブの隠された世界とサイバー犯罪との関連性を探るとともに、その二面性とジャーナリズムや内部告発の可能性を明らかにする。"
 tags: ["ダークウェブ", "サイバー犯罪", "不法行為", "トーア", "ハッキング", "詐欺", "こじんじょうほうぬすみ", "ジャーナリズム", "内部告発", "オンラインセキュリティ", "個人情報", "情報漏えい", "オンラインプライバシー", "官制", "サイバーセキュリティ", "犯罪防止", "えんかくブラウズ", "オンラインアノニマス", "ネットの脅威", "デジタルセーフティー"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "ダークウェブやサイバー犯罪の脅威からコンピュータを守るデジタルシールドのイラストです。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von TryHackMe: Funktionen, Preise, Zertifizierungen, Netzwerkdienste und mehr, damit Sie Ihre Cybersecurity-Fähigkeiten beherrschen können."
 genre: ["Technologie", "Cybersecurity", "Online-Lernen", "Ethisches Hacking", "Netzwerksicherheit", "Virtuelle Labore", "Zertifizierungen", "Lernpfade", "Praktische Erfahrung", "TryHackMe Überprüfung"]
 tags: ["TryHackMe", "TryHackMe Überprüfung", "TryHackMe-Zertifikate", "TryHackMe Preisgestaltung", "TryHackMe Netzwerkdienste 2", "TryHackMe-Abonnement", "TryHackMe Umgehung der Authentifizierung", "TryHackMe Datei Einschluss", "TryHackMe OWASP Top 10 Komplettlösung", "TryHackMe VPN", "TryHackMe Windows Fundamentals 1", "TryHackMe Active Directory", "TryHackMe Active Directory-Grundlagen", "TryHackMe Answers", "TryHackMe Linux Fundamentals Part 3", "TryHackMe Logo", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQL Injection", "TryHackMe-Unterstützung", "TryHackMe Tools zur Bedrohungsanalyse", "TryHackMe Upload-Schwachstellen", "TryHackMe Gehen einer Anwendung", "TryHackMe Windows Fundamentals 2", "TryHackMe Windows Fundamentals 3", "TryHackMe Blau", "TryHackMe Blue Komplettlösung"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Ein Bild, das einen Hacker mit einem Superheldenumhang zeigt, symbolisiert die durch die Cybersicherheitsschulung von TryHackMe erlangte Machtfülle."
 coverCaption: "Ermächtigen Sie sich selbst mit TryHackMe: Entfesseln Sie Ihre Cybersecurity-Superkräfte"
 ---

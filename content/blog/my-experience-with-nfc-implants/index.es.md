@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra la historia jamás contada de mi experiencia con los implantes de etiquetas NFC y profundice en los riesgos, complicaciones y puntos de vista personales que ponen de relieve la importancia de tomar decisiones con conocimiento de causa."
 tags: ["Implantes de etiquetas NFC", "piratería informática", "cosas peligrosas", "riesgos de los implantes", "modificaciones corporales", "complicaciones", "rechazo de implantes", "dolor e inflamación", "lesiones nerviosas", "retirada de implantes", "dolor crónico", "precauciones de seguridad", "riesgos frente a beneficios", "consulta", "investigación", "instalación profesional", "riesgos de la modificación corporal", "desplazamiento del implante", "síndrome del túnel carpiano", "comprender las complicaciones", "seguridad personal", "decisión informada", "interacción digital", "procedimientos médicos", "seguridad de los implantes", "modificación corporal precaución", "complicaciones de los implantes", "bienestar personal", "consideraciones sanitarias", "asesoramiento profesional"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Imagen de una persona con una mano en la que se ve un implante de etiqueta NFC, acompañada de símbolos de dolor alrededor de la mano, que ilustra los riesgos y complicaciones asociados a los implantes de etiquetas NFC."
 coverCaption: ""
 ---

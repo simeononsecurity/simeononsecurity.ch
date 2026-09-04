@@ -6,7 +6,7 @@ draft: false
 description: "Dive Into the World of Coding with Must-Know Languages for Building Dynamic Software."
 genre: ["Software Development", "Programming Education", "Tech Careers", "Coding Tutorials", "Digital Skills", "Application Building", "Computer Science", "Emerging Tech", "Coding Languages", "Development Tools"]
 tags: ["CodingLanguages", "SoftwareDevelopment", "ProgrammingBasics", "Python", "JavaScript", "Java", "C++", "Ruby", "SQL", "EmergingLanguages", "CodingCareers", "SpecializedLanguages", "ProgrammingTrends", "CodingEducation", "CodeLearning", "SoftwareCreation", "LanguageComparison", "TechSkills", "DeveloperTools", "CodingFundamentals", "RProgramming", "TypeScript", "Haskell", "RustLanguage", "CodeInnovation", "WebDevelopment", "DataScienceCoding", "LanguageSelection", "ProgrammerTraining", "TechKnowledge"]
-cover: "/img/cover/fundamentals-of-coding_-languages-you-should-know.jpeg"
+cover: "/img/cover/fundamentals-of-coding_-languages-you-should-know.webp"
 ---
 
 Fundamentals of Coding: Languages You Should Know

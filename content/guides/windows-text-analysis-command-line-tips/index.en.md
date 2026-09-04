@@ -6,7 +6,7 @@ draft: false
 description: "Discover essential Windows command-line techniques for efficient text manipulation and analysis."
 genre: ["Technology", "Cybersecurity", "Data Analysis", "System Administration", "Text Processing", "Windows Commands", "Productivity", "IT Skills", "Coding", "Digital Tools"]
 tags: ["efficient text editing", "searching text in files", "Windows text processing", "command-line techniques", "cybersecurity professionals", "data enthusiasts", "system administrators", "text file creation", "text file editing", "log file analysis", "Windows command line", "text manipulation", "text analysis", "echo command", "type command", "find command", "findstr command", "sort command", "more command", "data processing"]
-cover: "/img/cover/windows-text-analysis-cartoon-computer.png"
+cover: "/img/cover/windows-text-analysis-cartoon-computer.webp"
 coverAlt: "A cartoon character analyzing text on a computer screen."
 coverCaption: "Unveil Insights Through Command-Line Text Mastery."
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

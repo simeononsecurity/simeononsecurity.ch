@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Die Spezifikation DoD 5220.22-M ist ein wichtiger Standard für die sichere Löschung sensibler Informationen von digitalen Speichermedien, der vom US-Militär und von Regierungsorganisationen weithin verwendet wird."
 tags: ["Bereinigung von Daten", "sichere Löschung", "sensible Informationen", "Datensicherheit", "digitale Speichermedien", "DoD 5220.22-M", "datenschutz", "Datenschutz", "Informationssicherheit", "Datenentsorgung", "Verhinderung von Datenschutzverletzungen", "Datenbereinigungssoftware", "digitale Sicherheit", "Datenvernichtung", "Datenverwaltung", "sichere Datenlöschung", "Verhinderung der Datenwiederherstellung", "Cybersicherheit", "Datenlöschung", "Informationsmanagement", "sichere Entsorgung", "Methoden der Datenvernichtung", "Datenbereinigungsprozess", "Daten überschreiben", "Datenüberprüfung", "Datenbereinigungsstandards", "bewährte Praktiken der Datenvernichtung", "sichere Datenvernichtung", "sichere Wiederverwendung", "Einhaltung der Datenbereinigungsvorschriften", "sichere Datenverwaltung"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Ein Bild einer Festplatte, die mit einer Datenbereinigungssoftware sicher gelöscht wird, mit einem Vorhängeschloss oder einem Schild als Sicherheitssymbol im Vordergrund"
 coverCaption: ""
 ---

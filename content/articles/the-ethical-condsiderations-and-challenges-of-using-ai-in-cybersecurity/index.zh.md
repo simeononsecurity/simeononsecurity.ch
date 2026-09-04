@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解在网络安全中使用人工智能的伦理考虑因素和挑战，以及如何解决这些问题才能有效使用人工智能。"
 tags: ["人工智能", "网络安全", "伦理方面的考虑", "偏见", "隐私", "问责制", "复杂性", "适应能力", "人的监督", "资源强度", "数据隐私", "机器学习", "威胁情报", "数据保护", "技术", "自动化", "网络威胁", "信息安全", "监管合规", "数字化转型"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "这是一个带有齿轮的锁的图像，象征着人工智能在网络安全中的应用，而人手则拿着一把钥匙，象征着人类的监督。"
 coverCaption: ""
 ---

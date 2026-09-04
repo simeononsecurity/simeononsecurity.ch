@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite in questo articolo la potenza di Docker nel cloud computing, che supera le macchine virtuali grazie alla sua semplicità, scalabilità, sicurezza ed economicità."
 tags: ["Docker", "Macchine virtuali", "Macchine virtuali", "Cloud Computing", "Contenitori", "Semplicità", "Scalability", "Sicurezza", "Costo-efficacia", "Profilo Docker", "Costruire, testare e distribuire", "Isolation", "Esperienza nel campo della sicurezza", "Confronto dei costi", "Articolo informativo"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Un'immagine di una nave da carico, a forma di balena blu, che trasporta più contenitori Docker."
 coverCaption: ""
 ---

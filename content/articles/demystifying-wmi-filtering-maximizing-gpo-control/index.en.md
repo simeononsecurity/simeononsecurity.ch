@@ -6,7 +6,7 @@ draft: false
 description: "Uncover the secrets of WMI filtering and learn how to use its power to enhance Group Policy Object (GPO) control, with practical examples and best practices."
 genre: ["Windows Management", "Group Policy", "System Administration", "Network Management", "IT Infrastructure", "Policy Management", "IT Governance", "IT Automation", "Active Directory", "Security Compliance"]
 tags: ["WMI filtering", "GPO", "Group Policy Objects", "WMI filters", "policy targeting", "WMI queries", "Windows Management Instrumentation", "GPO control", "Group Policy Management Console", "WMI Query Language", "policy application", "WQL", "fine-tune policies", "policy management", "system resources", "policy targeting examples", "system administration", "network management", "IT infrastructure management", "IT automation", "active directory management", "security compliance", "policy control techniques", "policy management best practices", "policy filtering", "GPO control strategies", "GPO security", "WMI filtering benefits", "WMI filtering implementation", "WMI filtering best practices"]
-cover: "/img/cover/An_illustration_of_a_magnifying_glass_focusing.png"
+cover: "/img/cover/An_illustration_of_a_magnifying_glass_focusing.webp"
 coverAlt: "An illustration of a magnifying glass focusing on a filter icon, representing the power of WMI filtering in GPOs."
 coverCaption: "use WMI Filtering for Efficient GPO Policy Targeting!"
 ---

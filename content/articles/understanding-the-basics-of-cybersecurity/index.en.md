@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Discover the importance of cybersecurity and learn how to protect personal, business, and national security against evolving cyber threats."
 genre: ["Understanding the Basics of Cybersecurity", "Importance of Cybersecurity", "Protecting Personal Information", "Safeguarding Business Data", "National Security Concerns", "Key Cybersecurity Terminology", "Types of Cyber Attacks", "Cybersecurity Best Practices", "Role of Encryption in Cybersecurity", "Cybersecurity for Businesses"]
 tags: ["Cybersecurity", "Basics of Cybersecurity", "Importance of Cybersecurity", "Protecting Personal Information", "Business Data Protection", "National Security", "Cyber Threats", "Malware", "Phishing", "Ransomware", "Vulnerabilities", "Exploits", "Social Engineering Attacks", "Password Attacks", "Man-in-the-Middle Attacks", "DDoS Attacks", "Cybersecurity Best Practices", "Strong Passwords", "Software Updates", "Multi-Factor Authentication", "Cybersecurity Terminology", "Types of Cyber Attacks", "Role of Encryption in Cybersecurity", "Encryption Types", "Data Protection", "Cybersecurity Plan", "Employee Training and Awareness", "Regular Security Audits", "Emerging Cyber Threats", "Artificial Intelligence in Cybersecurity"]
-cover: "/img/cover/understanding-the-basics-of-cybersecurity.png"
+cover: "/img/cover/understanding-the-basics-of-cybersecurity.webp"
 coverAlt: "A shield with a lock symbol, representing cybersecurity and protection against cyber threats." 
 coverCaption: "Stay secure, stay protected."
 ---

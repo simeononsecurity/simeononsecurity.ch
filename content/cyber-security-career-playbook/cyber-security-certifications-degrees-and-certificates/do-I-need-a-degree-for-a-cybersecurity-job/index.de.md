@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Entdecken Sie die besten Studienfächer für eine erfolgreiche Cybersecurity-Karriere und erfahren Sie, wie Sie den Weg zu einer qualifizierten Fachkraft finden."
 tags: ["Job im Bereich Cybersicherheit", "Abschlussvoraussetzung", "große Auswahl", "Karriere im Bereich Cybersicherheit", "Informationssicherheit", "Cyber-Bedrohungen", "Karrieremöglichkeiten", "Entwicklung von Fähigkeiten", "Branchenzertifizierungen", "Bootcamps für Cybersicherheit", "Möglichkeiten des Selbststudiums", "Online-Kurse", "Praktikantenprogramme", "Einstiegspositionen", "Jobs im Bereich Cybersicherheit", "Cybersicherheitsausbildung", "Berufsberatung", "Wege der Cybersicherheit", "beste Studiengänge für Cybersicherheit", "Cybersicherheits-Lehrplan", "Hauptfach Informationstechnologie", "Hauptfach Informatik", "Hauptfach Mathematik", "Schwerpunkt Ingenieurwesen", "Wirtschaft und Cybersicherheit", "Psychologie und Cybersicherheit", "Soziologie und Cybersicherheit", "Berufsaussichten im Bereich Cybersicherheit", "praktische Fähigkeiten im Bereich der Cybersicherheit", "kontinuierliches Lernen im Bereich der Cybersicherheit", "Nachfrage nach Fachleuten für Cybersicherheit"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Eine Illustration einer Person, die eine Abschlusskappe mit einem Schild hält, das für Cybersicherheit steht und die Notwendigkeit von Bildung und Fähigkeiten im Bereich der Cybersicherheit symbolisiert. --aspect 16:9"
 coverCaption: "Erschließen Sie Ihr Cybersecurity-Karrierepotenzial mit Bildung und Fähigkeiten."
 ---

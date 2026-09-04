@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek potentiële indicatoren voor bedreigingen van binnenuit en effectieve strategieën om de beveiliging van uw organisatie te beschermen."
 tags: ["indicatoren voor bedreiging met voorkennis", "het beperken van bedreigingen van binnenuit", "mogelijke risico's", "cyberbeveiliging", "gegevensbeveiliging", "werknemerscontrole", "toegangscontroles", "analyse van gebruikersgedrag", "veiligheidsbewustzijnstraining", "regelnaleving", "gegevensbescherming", "netwerkbewaking", "werknemersgedrag", "gegevenstoegang", "ongebruikelijke netwerkactiviteit", "verandering in werkpatronen", "financiële moeilijkheden", "ontevredenheid", "online gedrag", "veiligheidsbeleid", "incidentenbestrijdingsplan", "NISPOM", "HIPAA", "GDPR", "risicobeheer", "detectie van bedreigingen", "beperking van bedreigingen van binnenuit", "geprivilegieerde toegang", "verdacht gedrag", "preventie van voorkennis"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Een geanimeerde illustratie met een team van verschillende professionals die cybersecurity bespreken, omringd door sloten en schildpictogrammen."
 coverCaption: ""
 ---

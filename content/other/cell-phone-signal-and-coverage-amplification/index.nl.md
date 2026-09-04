@@ -15,7 +15,7 @@ Verbonden blijven is voor de meesten van ons een noodzaak geworden, vooral tijde
 
 ##[T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 De[T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Het helpt alleen als u een goede of bruikbare dekking hebt in of bij een raam en niet in een ander deel van het huis. Het werkt het beste als u de dekking gewoon gelijkmatiger door een woning moet verspreiden.
 
@@ -23,7 +23,7 @@ Ze worden geproduceerd door een bedrijf genaamd[Cell-Fi](https://nextivityinc.co
 
 ##[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 De[WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) opties vereisen enige installatie. Zij vereisen de installatie van een paal, een aardingspaal, een lichtbreker, een versterker en een of meer binnenantennes. Ze bieden het best mogelijke signaal, maar werken niet als er in uw omgeving helemaal geen signaal is. Ze bieden gemiddeld ongeveer 60db extra versterking, maar kunnen tot 100db gaan. Dit is zeker de beste permanente oplossing, want u krijgt de grootst mogelijke signaalverbetering en tegelijkertijd ondersteuning voor alle carriers.
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Apprenez à configurer les tunnels Cloudflare pour rationaliser et protéger votre trafic réseau, en améliorant les performances et la sécurité."
 tags: ["Tunnels Cloudflare", "Sécurité des réseaux", "Performance du site web", "Serveur Proxy", "Trafic web", "Configuration du réseau", "Serveur Ubuntu", "Compte Cloudflare", "Authentification", "Création d'un tunnel", "Acheminement du trafic", "Enregistrements DNS", "Connexion sécurisée", "Hébergement de sites web", "Service Proxy", "Protection du réseau", "Optimisation des performances", "Intégration de Cloudflare", "Configuration du serveur", "Chiffrement du trafic", "Gestion du trafic sur le réseau", "Hébergement Web sécurisé", "Sécurité du site web", "Installation d'Ubuntu", "Technologie des tunnels", "Services Cloudflare", "Performance du réseau", "Web Security", "Sécurité du serveur", "Gestion du trafic", "Proxy Cloudflare"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "Illustration d'un tunnel réseau reliant un serveur local au logo Cloudflare, symbolisant la sécurité et la rationalisation du trafic réseau."
 coverCaption: ""
 ---

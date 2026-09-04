@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "サイバーセキュリティのスキルを高め、機密データを保護するための、ビジネスプロフェッショナルのためのトップ認定資格をご覧ください。"
 tags: ["サイバーセキュリティ認定資格", "非技術系資格", "ビジネスプロフェッショナル", "情報セキュリティ", "プライバシー管理", "サイバーセキュリティスキル", "データ保護", "認証プログラム", "CISSP", "CIPP E", "シーピーエム", "CISM", "CIPP US", "セキュリティガバナンス", "個人情報保護規定", "コンプライアンス", "リスクマネージメント", "情報プライバシー", "ビジネスセキュリティ", "データプライバシー"]
-cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.png"
+cover: "/img/cover/An_image_featuring_a_group_of_diverse_business_professional.webp"
 coverAlt: "サイバーセキュリティを象徴するロックアイコンが描かれたデジタルプラットフォームで、多様なビジネスプロフェッショナルがコラボレーションしているイメージです。"
 coverCaption: ""
 ---

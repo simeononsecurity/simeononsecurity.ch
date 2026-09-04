@@ -87,7 +87,7 @@ Il prodotto principale dell'azienda è la **telecamera Flock Safety Falcon**, un
 
 Le telecamere Flock catturano molto più dei semplici numeri di targa. Registrano la marca, il modello, il colore, il tipo di carrozzeria e le caratteristiche distintive di ogni veicolo che passa. L'azienda le commercializza come "impronte digitali" del veicolo. Ciò significa che ogni viaggio che fai viene catalogato, anche quando non hai fatto nulla di sbagliato.
 
-{{< figure src="deflock-lpr-demo.png" alt="Una telecamera ALPR Flock Safety montata su un palo che dimostra come la tecnologia cattura le targhe" caption="Una tipica installazione di telecamera ALPR. Credito immagine: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="Una telecamera ALPR Flock Safety montata su un palo che dimostra come la tecnologia cattura le targhe" caption="Una tipica installazione di telecamera ALPR. Credito immagine: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Come funziona la tecnologia ALPR
 
@@ -200,7 +200,7 @@ Le **pratiche sui dati di Flock Safety** presentano molteplici sfide per la priv
 
 Quello che era iniziato come uno strumento per **risolvere crimini contro la proprietà** si è espanso drammaticamente. Non si tratta di rischi ipotetici. Sono schemi documentati.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="Immagine dell'intestazione della campagna ACLU Get The Flock Out che mostra un collage di telecamere ALPR" caption="La campagna 'Get The Flock Out' dell'ACLU ha documentato l'uso improprio diffuso dei sistemi ALPR. Credito immagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Immagine dell'intestazione della campagna ACLU Get The Flock Out che mostra un collage di telecamere ALPR" caption="La campagna 'Get The Flock Out' dell'ACLU ha documentato l'uso improprio diffuso dei sistemi ALPR. Credito immagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE e applicazione delle leggi sull'immigrazione
 **ICE ha usato Flock per localizzare e inseguire immigrati privi di documenti senza mandati.** La rete nazionale della piattaforma fornisce alle autorità federali sull'immigrazione uno strumento per tracciare individui attraverso le giurisdizioni senza alcuna causa probabile individualizzata. Molte comunità che hanno finanziato le loro reti Flock per il recupero di crimini contro la proprietà hanno scoperto che le loro telecamere fanno parte delle operazioni federali di applicazione delle leggi sull'immigrazione.

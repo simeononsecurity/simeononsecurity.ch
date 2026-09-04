@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i metodi approvati dal NIST per sanificare dischi rigidi, SSD, unità flash USB, CD, DVD e dischi Blu-ray per proteggere i dati sensibili da accessi non autorizzati."
 tags: ["Metodi approvati dal NIST", "Sanificazione dei supporti rimovibili", "Dischi rigidi", "SSD", "Unità flash USB", "CD", "DVD", "Dischi Blu-ray", "Sicurezza dei dati", "Protezione dei dati sensibili"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Un'immagine di una persona che tiene in mano una chiavetta USB con un distruggidocumenti sullo sfondo"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explore the California Consumer Privacy Act (CCPA) and learn how it helps consumers to control their data privacy."
 genre: ["Cybersecurity", "Data Privacy", "Legislation", "Digital Rights", "Consumer Protection", "California Law", "Online Privacy", "Data Regulation", "Privacy Rights", "Personal Data"]
 tags: ["CCPA overview", "California data privacy", "Consumer rights", "Data protection", "Data regulation", "Privacy law", "Personal information", "Data transparency", "Opt-out rights", "Data privacy rights","Understanding CCPA regulations", "California Consumer Privacy Act details", "CCPA implications", "Data privacy for Californian residents", "CCPA compliance guidelines","Consumer control over personal data", "CCPA impact on businesses", "Data breach prevention", "User data rights", "Digital privacy rights","Online data security", "CCPA requirements", "CCPA enforcement", "Data privacy legislation", "CCPA scope", "Digital consumer rights", "CCPA compliance process","California data protection", "Data privacy best practices", "CCPA and online tracking", "CCPA for businesses", "CCPA data collection rules"]
-cover: "/img/cover/ccpa-privacy-shield.png"
+cover: "/img/cover/ccpa-privacy-shield.webp"
 coverAlt: "A symbolic illustration depicting a user holding a shield labeled Privacy against a backdrop of digital data streams."
 coverCaption: "Protecting Privacy, helping Users"
 ---

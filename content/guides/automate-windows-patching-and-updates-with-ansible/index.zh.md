@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过使用 Ansible 实现自动化来简化更新 Windows 系统的过程 - 包括分步说明和最佳实践。"
 tags: ["自动化 Windows 更新", "Ansible 自动化", "系统管理", "安全补丁", "IT基础设施", "网络自动化", "配置管理", "资讯科技营运", "开发运营", "网络安全", "资讯科技自动化", "信息技术效率", "Ansible 剧本", "Windows 安全", "更新管理", "IT生产力", "资讯科技维护", "Ansible 凭据", "主机配置", "系统自动化", "Windows 更新", "Windows系统管理", "Windows 安全补丁", "Windows IT 基础设施", "Windows网络自动化", "Windows配置管理", "Windows IT 运营", "Windows 开发运营", "Windows 网络安全", "Windows IT 自动化", "Windows IT 效率"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "动画插图展示了 Windows 徽标，周围环绕着象征自动化和更新的齿轮。"
 coverCaption: ""
 ---

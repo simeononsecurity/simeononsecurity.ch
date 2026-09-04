@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les méthodes approuvées par le NIST pour désinfecter les disques durs, les disques SSD, les clés USB, les CD, les DVD et les disques Blu-ray afin de protéger les données sensibles contre les accès non autorisés."
 tags: ["Méthodes approuvées par le NIST", "Assainissement des supports amovibles", "Disques durs", "SSD", "Clés USB", "CD", "DVD", "Disques Blu-ray", "Sécurité des données", "Protection des données sensibles"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Image d'une personne tenant une clé USB avec une déchiqueteuse en arrière-plan"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La ciberseguridad es un aspecto crítico de las operaciones empresariales modernas y requiere un enfoque integral que implique los sistemas, protocolos y personal adecuados para gestionar eficazmente las defensas contra los ciberataques."
 tags: ["ciberseguridad", "operaciones comerciales", "seguridad de la red", "información sensible", "ciberataques", "tecnología", "software", "profesionalidad", "conformidad", "normas del sector", "normativa", "buenas prácticas", "prioridad", "cultura de seguridad", "violaciones de datos", "propiedad intelectual", "enfoque proactivo", "baja prioridad", "falta de recursos", "formación", "compromiso con la seguridad", "responsables de seguridad de la información (ISSO)", "sistemas de gestión de la seguridad de la información (ISSM)", "formación y experiencia", "amenazas a la seguridad", "100% de éxito en las auditorías de conformidad", "normativa", "normas", "buenas prácticas", "Serie NIST 800", "juego político", "confíe en", "honradez", "colaboración", "papertrail", "transparencia", "rendición de cuentas"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Una imagen de un grupo de profesionales de la ciberseguridad en una sala de juntas, trabajando juntos para garantizar la seguridad de los sistemas y datos de su organización."
 coverCaption: ""
 ---

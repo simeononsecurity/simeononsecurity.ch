@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Odkryj najlepsze kierunki studiów dla udanej kariery w dziedzinie cyberbezpieczeństwa i dowiedz się, jak poruszać się po ścieżce do zostania wykwalifikowanym profesjonalistą."
 tags: ["cyberbezpieczeństwo praca", "wymóg stopnia", "główny wybór", "ścieżka kariery w cyberbezpieczeństwie", "bezpieczeństwo informacji", "cyberzagrożenia", "możliwości kariery", "rozwój umiejętności", "certyfikaty branżowe", "bootcampy cyberbezpieczeństwa", "Opcje samodzielnej nauki", "kursy online", "programy stażowe", "stanowiska podstawowe", "cyberbezpieczeństwo praca", "edukacja w zakresie cyberbezpieczeństwa", "poradnictwo zawodowe", "ścieżki cyberbezpieczeństwa", "Najlepsze kierunki studiów związane z cyberbezpieczeństwem", "program nauczania cyberbezpieczeństwa", "kierunek technologia informacyjna", "kierunek informatyka", "kierunek matematyka", "kierunek inżynieria", "biznes i cyberbezpieczeństwo", "psychologia i cyberbezpieczeństwo", "socjologia i cyberbezpieczeństwo", "perspektywy pracy w cyberbezpieczeństwie", "praktyczne umiejętności w zakresie cyberbezpieczeństwa", "ciągłe uczenie się w zakresie cyberbezpieczeństwa", "zapotrzebowanie na specjalistów ds. cyberbezpieczeństwa"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "Ilustracja przedstawiająca osobę trzymającą czapkę absolwenta z tarczą reprezentującą cyberbezpieczeństwo, symbolizującą potrzebę edukacji i umiejętności w dziedzinie cyberbezpieczeństwa. --aspect 16:9"
 coverCaption: "Odblokuj swój potencjał kariery w dziedzinie cyberbezpieczeństwa dzięki edukacji i umiejętnościom."
 ---

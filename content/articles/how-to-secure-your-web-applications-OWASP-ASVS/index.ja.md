@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "OWASP Application Security Verification Standard (ASVS)を使用して、最も厳格なセキュリティ対策を満たし、一般的な脆弱性から保護するために、Webアプリケーションを保護する方法を学びます。"
 tags: ["ウェブアプリケーションセキュリティ", "オワスプ", "エーエスブイエス", "アプリケーションセキュリティ", "安全保護基準", "サイバーセキュリティ", "脆弱性管理", "えんぎ", "侵入テスト", "スレットモデリング", "セキュリティ制御", "セキュリティアセスメント", "自動化セキュリティ試験", "手動セキュリティテスト", "安全な開発ライフサイクル", "セキュリティベストプラクティス", "データ機密保護", "リスクマネージメント", "コンプライアンス", "情報セキュリティ"]
-cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png"
+cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "ASVS」の文字を太字にした装甲の盾、その後ろにWebアプリケーションを守る盾がある"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "医療が直面するサイバーセキュリティの課題を発見し、患者データを保護し、規制を遵守するための戦略を探る。"
 tags: ["サイバーセキュリティ", "ヘルスケア", "患者データ", "データプライバシー", "コンプライアンス", "ヒパア", "GDPR", "安全監査", "アクセス制御", "暗号化", "稽古", "内部脅威", "フィッシング攻撃", "IoTデバイス", "ネットワークセキュリティ", "情報漏えい", "テレメディスン", "マルウェア", "セキュリティ侵害", "規則"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "サイバーセキュリティの脅威から患者データを守ることを表す南京錠のマークが入った盾の前に立つ医師のイメージです。"
 coverCaption: ""
 ---

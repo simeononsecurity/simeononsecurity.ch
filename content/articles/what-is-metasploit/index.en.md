@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the power of Metasploit, an open-source framework for penetration testing and exploit development, with robust features and a large community."
 tags: ["Metasploit", "penetration testing", "exploit development", "vulnerability scanning", "payload generation", "post-exploitation", "ethical hacking", "cybersecurity", "open-source", "security framework", "vulnerability assessment", "social engineering", "Metasploit Framework", "Metasploit Pro", "computer security", "HD Moore", "Rapid7", "security solutions", "government regulations", "Computer Fraud and Abuse Act", "CFAA", "security awareness", "hacking tools", "cybersecurity tools", "cybersecurity community", "cybersecurity resources", "cybersecurity professionals", "cybersecurity best practices", "cybersecurity compliance", "cybersecurity laws"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "An animated illustration of a hacker using a computer and a magnifying glass to represent the exploration and analysis of vulnerabilities and exploits in computer systems."
 coverCaption: ""
 ---

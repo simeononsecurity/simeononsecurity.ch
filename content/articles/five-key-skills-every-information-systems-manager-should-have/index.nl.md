@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de 5 belangrijkste vaardigheden die elke manager van informatiesystemen moet hebben om te slagen in de huidige digitale wereld."
 genre: ["Technologie", "Bedrijf", "Beheer", "IT", "Carrière Ontwikkeling", "Digitale transformatie", "Gegevensanalyse", "Cloud computing", "Projectbeheer", "Leiderschap"]
 tags: ["informatiesystemen", "manager", "MIS", "technische vaardigheden", "analytische vaardigheden", "leiderschapsvaardigheden", "projectmanagementvaardigheden", "communicatieve vaardigheden", "cloudcomputing", "gegevensanalyse", "probleemoplossend", "kritisch denken", "besluitvorming", "teambeheer", "samenwerking", "projectplanning", "grondstoffenbeheer", "communicatie", "technologie", "bedrijfsprocessen", "digitale transformatie", "datagestuurde beslissingen", "cloudgebaseerde platforms", "systeemarchitectuur", "databasebeheer", "programmeertalen", "IT-vaardigheden", "loopbaanontwikkeling"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Tekenillustratie van een manager van informatiesystemen die toezicht houdt op een netwerk van computers"
 coverCaption: "Beheers de vaardigheden die nodig zijn om een succesvolle manager van informatiesystemen te worden."
 ---

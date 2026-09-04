@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "A guide on how to perform network segmentation for improved security and reduced risk in your organization."
 tags: ["network segmentation", "improve security", "reduce risk", "network performance", "network management", "security controls", "firewalls", "access controls", "least privilege", "authentication", "testing", "monitoring", "cyber threats", "data breaches", "network architecture", "comprehensive security", "layered security", "vulnerabilities", "cyber attacks", "employee training"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "An image of a network with multiple segments being protected by a firewall and access control mechanisms, with a hacker outside the network trying to get in."
 coverCaption: ""
 ---

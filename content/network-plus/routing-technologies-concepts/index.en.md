@@ -6,7 +6,7 @@ draft: false
 description: "Explore the world of routing technologies and concepts, from dynamic routing protocols like RIP, OSPF, EIGRP, and BGP to link state, distance vector, and hybrid routing protocols, as well as the configuration of static routing and default routes."
 genre: ["Technology", "Networking", "Routing", "Network Protocols", "Network Management", "Dynamic Routing", "Static Routing", "Bandwidth Management", "Quality of Service", "Network Devices"]
 tags: ["routing technologies", "dynamic routing protocols", "RIP", "OSPF", "EIGRP", "BGP", "link state", "distance vector", "hybrid routing protocols", "static routing", "default routes", "administrative distance", "exterior routing", "interior routing", "time to live", "bandwidth management", "traffic shaping", "quality of service", "network devices", "routers", "switches", "firewalls", "load balancers", "access points", "network optimization", "network performance", "network security", "network architecture", "network traffic"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "An illustration of interconnected network devices with data flowing between them."
 coverCaption: "Navigating the Digital Highway: Optimizing Network Routing for Peak Performance"
 ---

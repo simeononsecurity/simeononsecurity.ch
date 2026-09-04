@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解使用生物识别身份验证进行访问控制的好处和风险，包括增强安全性、隐私问题和最佳实施方法。"
 tags: ["生物识别认证", "门禁", "安全", "隐私", "数据保护", "GDPR", "HIPAA", "误报", "误报", "多因素认证", "系统测试", "安全政策", "效率", "便利", "独特身份", "简化的工作流程", "脆弱性", "降低风险", "用户体验", "网络安全"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "一幅动画插图，显示一个人的手使用指纹扫描仪进入安全区域，背景中还可以看到一个人的脸部和虹膜。"
 coverCaption: ""
 ---

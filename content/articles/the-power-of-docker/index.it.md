@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite la potenza di Docker e i suoi vantaggi per la trasformazione aziendale in questa guida completa per migliorare la portabilità, la sicurezza, l'efficienza e lo sviluppo delle applicazioni."
 tags: ["Docker", "Trasformazione aziendale", "Portabilità dell'applicazione", "Maggiore efficienza", "Sicurezza migliorata", "Sviluppo e distribuzione semplificati", "Applicazioni software", "Contenitori", "Produttività", "Tempo di commercializzazione"]
-cover: "/img/cover/a_blue_whale_giving_off_lighting.png"
+cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "Una balenottera azzurra che emette luce"
 coverCaption: ""
 ---

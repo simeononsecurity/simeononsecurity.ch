@@ -6,7 +6,7 @@ draft: false
 description: "Discover the power of Albine DeleteMe, a data privacy service that helps you to protect your personal information, ensuring online safety and peace of mind."
 genre: ["Data Privacy", "Online Security", "Personal Information Protection", "Identity Theft Prevention", "Digital Footprint Management", "Cybersecurity", "Internet Privacy", "Data Deletion", "GDPR Compliance", "CCPA"]
 tags: ["Albine DeleteMe", "Data Privacy", "Online Security", "Personal Information", "Identity Theft Prevention", "Digital Footprint", "Cybersecurity", "Internet Privacy", "Data Deletion", "GDPR Compliance", "CCPA", "Data Protection", "Data Breach", "Privacy Service", "Sensitive Data", "Online Presence", "Data Protection Regulations", "Data Monitoring", "Identity Protection", "Data Encryption", "Privacy Breach", "Protect Personal Data", "Safeguard Online Privacy", "Secure Data Removal", "Privacy Threats Prevention", "Identity Theft Mitigation", "Data Privacy Solution", "Online Privacy Management", "Data Security Measures", "Privacy Regulations Compliance", "Online Identity Protection" ]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "A cartoon-style image of a person surrounded by protective shields, representing online privacy and data protection."
 coverCaption: "Guard Your Data, Embrace Privacy."
 ---

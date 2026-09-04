@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie den Auftrag und die Grundsätze der Cyber Sentinels, einer Gemeinschaft von Cyber- und IT-Experten, die sich dem Wissensaustausch und der Entwicklung innovativer Lösungen für Cybersicherheitsherausforderungen verschrieben haben."
 tags: ["Cybersicherheit", "IT", "Gemeinschaft", "Weitergabe von Wissen", "Zusammenarbeit", "kontinuierliches Lernen", "Unterstützung", "Inklusivität", "positive Auswirkungen", "Textkanäle", "Sprachkanäle", "Karriereberatung", "Arbeitsmöglichkeiten", "Lernressourcen", "aufkommende Trends", "Projekte", "Veranstaltungen", "Konferenzen", "Tierbilder", "Technologie"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Ein stilisiertes digitales Schild mit einer Cyberkrieger-Figur in der Mitte, umgeben von abstrakten Formen und Linien, die Datenflüsse und Netzverbindungen darstellen"
 coverCaption: ""
 ---

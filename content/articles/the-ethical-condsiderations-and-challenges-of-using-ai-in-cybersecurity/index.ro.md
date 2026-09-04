@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați care sunt considerentele etice și provocările legate de utilizarea inteligenței artificiale în domeniul securității cibernetice și cum pot fi abordate pentru o utilizare eficientă."
 tags: ["AI", "securitate cibernetică", "considerații etice", "polarizare", "confidențialitate", "responsabilitate", "complexitate", "adaptabilitate", "supraveghere umană", "intensitatea resurselor", "confidențialitatea datelor", "învățare automată", "informații despre amenințări", "protecția datelor", "tehnologie", "automatizare", "amenințări cibernetice", "securitatea informațiilor", "conformitatea cu reglementările", "transformarea digitală"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "O imagine a unui lacăt cu roți dințate simbolizează utilizarea inteligenței artificiale în securitatea cibernetică, în timp ce o mână umană ține o cheie pentru a ilustra supravegherea umană."
 coverCaption: ""
 ---

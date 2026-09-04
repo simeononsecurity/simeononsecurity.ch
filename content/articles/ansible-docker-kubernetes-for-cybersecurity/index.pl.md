@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj moc Ansible, Docker i Kubernetes w automatyzacji procesów cyberbezpieczeństwa i zmniejszaniu ryzyka naruszenia danych."
 tags: ["Ansible", "Docker", "Kubernetes", "Automatyzacja cyberbezpieczeństwa", "Oceny podatności na zagrożenia", "Zarządzanie poprawkami", "Orkiestracja kontenerów", "Segmentacja sieci", "Kontrola dostępu oparta na rolach", "Tajne zarządzanie", "Skanowanie bezpieczeństwa", "Podpisywanie obrazów"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "Obraz trzech kół zębatych w kolorach czerwonym, niebieskim i niebieskim, zazębiających się i obracających razem, aby symbolizować ich integrację i współpracę w automatyzacji procesów cyberbezpieczeństwa"
 coverCaption: ""
 ---

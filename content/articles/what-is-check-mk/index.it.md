@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite le caratteristiche, i vantaggi e i casi d'uso di CheckMK, una soluzione di monitoraggio completa per la gestione proattiva dell'infrastruttura IT."
 genre: ["Tecnologia", "Infrastruttura IT", "Monitoraggio della rete", "Monitoraggio delle applicazioni", "Operazioni IT", "Analisi delle prestazioni", "Automazione", "Gestione degli eventi", "Scalability", "Flessibilità"]
 tags: ["CheckMK", "soluzione di monitoraggio", "Infrastruttura IT", "monitoraggio in tempo reale", "gestione degli eventi", "analisi delle prestazioni", "automazione", "scalability", "flessibilità", "Operazioni IT", "monitoraggio della rete", "monitoraggio delle applicazioni", "ottimizzazione delle prestazioni", "monitoraggio proattivo", "risposta agli incidenti", "pianificazione della capacità", "allocazione delle risorse", "gestione della configurazione", "Efficienza IT", "gestione dell'infrastruttura", "soluzione di monitoraggio completa", "gestione proattiva dell'infrastruttura IT", "analisi delle prestazioni di rete", "quadro di automazione", "Scalabilità dell'infrastruttura IT", "piattaforma di gestione degli eventi", "monitoraggio delle prestazioni in tempo reale", "ottimizzazione delle prestazioni delle applicazioni", "servizi di monitoraggio del cloud", "soluzione di monitoraggio della conformità"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "Un'opera d'arte vivace e dinamica che raffigura un'infrastruttura di rete con indicatori di monitoraggio e analisi."
 coverCaption: "Potenziate la vostra infrastruttura IT con CheckMK: liberate l'efficienza e l'affidabilità!"
 ---

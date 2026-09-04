@@ -6,7 +6,7 @@ draft: false
 description: "Îmbunătățiți securitatea mașinilor virtuale utilizând vTPM cu ajutorul ghidului nostru complet pas cu pas, care oferă atestare a platformei și suport pentru criptarea BitLocker."
 genre: ["Securitatea cibernetică", "Virtualizare", "VMware", "vSphere", "Securitate", "Modulul de platformă de încredere", "vTPM", "OS invitat", "Criptare", "Atestarea platformei"]
 tags: ["Modulul de platformă virtuală de încredere", "Ghid vTPM", "Securitate îmbunătățită pentru VM", "Atestarea platformei", "Criptarea BitLocker", "VMware vSphere", "Securitatea virtualizării", "Securitatea cibernetică", "Protecția sistemului de operare invitat", "Hardware VM", "TPM 2.0", "Boot securizat", "Operațiuni criptografice", "Cele mai bune practici de securitate VM", "Server vCenter", "Gazde ESXi", "Firmware EFI", "Furnizor de chei", "Documentația VMware", "Windows Server", "Windows 7", "Linux OS", "Configurarea securizată a VM", "Caracteristici de securitate", "Client vSphere", "Cip virtual", "Protecția datelor", "Detectarea sabotajului", "Verificarea integrității VM", "Securitatea VMware"]
-cover: "/img/cover/enhanced-vm-security.png"
+cover: "/img/cover/enhanced-vm-security.webp"
 coverAlt: "O ilustrație simbolică care arată o mașină virtuală cu un sistem de blocare strălucitoare, reprezentând securitatea sporită prin vTPM."
 coverCaption: "Deblocați o securitate fără precedent pentru VM!"
 ---

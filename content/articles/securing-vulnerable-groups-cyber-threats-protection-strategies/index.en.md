@@ -6,7 +6,7 @@ draft: false
 description: "Discover how cyber attacks by foreign powers impact vulnerable groups and effective protection strategies."
 genre: ["Cybersecurity", "Privacy", "Digital Safety", "Online Threats", "Data Protection", "Technology", "Digital Rights", "Information Security", "Cyber Espionage", "Online Privacy"]
 tags: ["cyber attacks", "foreign powers", "vulnerable groups", "high-risk individuals", "data compromise", "government regulations", "personal data", "online security", "cyber espionage", "identity theft", "privacy violations", "GDPR", "CCPA", "user education", "cyber hygiene", "security measures", "data protection", "online safety", "surveillance", "financial fraud", "communication data", "biometric data", "threat landscape", "identity theft", "online privacy", "digital landscape", "government protection", "cyber threats", "data breach", "online vulnerabilities","protecting vulnerable groups online", "cybersecurity for high-risk individuals", "foreign cyber attacks impact", "mitigating data compromise risks", "regulations for data protection"]
-cover: "/img/cover/securing_vulnerable_groups_cyber_threats.png"
+cover: "/img/cover/securing_vulnerable_groups_cyber_threats.webp"
 coverAlt: "A symbolic illustration of a diverse group surrounded by protective shields against cyber threats."
 coverCaption: "Empowerment Through Cybersecurity: Shielding Vulnerable Groups from Threats"
 ---

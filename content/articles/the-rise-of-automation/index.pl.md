@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj ewolucję technologii automatyzacji, branże, które ją wykorzystują, oraz jej wpływ na możliwości zatrudnienia."
 genre: ["Technologia automatyzacji", "Rewolucja przemysłowa", "Postęp technologiczny", "Sztuczna inteligencja", "Uczenie maszynowe", "Produkcja", "Opieka zdrowotna", "Transport", "Sprzedaż detaliczna", "Rolnictwo"]
 tags: ["technologia automatyzacji", "branże", "oferty pracy", "ewolucja", "sztuczna inteligencja", "uczenie maszynowe", "produkcja", "opieka zdrowotna", "transport", "samojezdne pojazdy", "sprzedaż detaliczna", "e-commerce", "rolnictwo", "inteligentne rolnictwo", "wpływ na rynek pracy", "zwolnienie z pracy", "umiejętności techniczne", "podnoszenie kwalifikacji", "przekwalifikowanie", "inicjatywy edukacyjne", "Programy STEM", "polityka rządu", "przepisy", "uniwersalny dochód podstawowy", "programy przekwalifikowania zawodowego", "prywatność danych", "bezpieczeństwo danych", "przepaść cyfrowa", "względy etyczne"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "Animowany obraz przedstawiający różne branże i technologie połączone ze sobą."
 coverCaption: "Przyjmij zautomatyzowaną przyszłość z optymizmem i umiejętnością adaptacji."
 ---

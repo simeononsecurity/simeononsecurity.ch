@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "NIST SP 800-61 Rev.2に準拠したインシデントレスポンスのベストプラクティスを学び、効果的なインシデントレスポンス戦略の実例を発見することができます。"
 tags: ["インシデントレスポンス", "サイバーセキュリティ", "エヌアイエスティー", "さいぜんのそち", "スレットインテリジェンス", "コミュニケーション", "インシデント後分析", "エクイファックス", "ノットペチャ", "ソーラーウインズ", "コロニアルパイプライン", "Microsoft Exchange Server", "脆弱性", "侵入検知", "封じ込め", "回復", "準備", "サイバー攻撃", "サイバー犯罪", "セキュリティインシデント"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "サイバーセキュリティの専門家がチームを組んでセキュリティインシデントに対応する様子を描いたイラスト画像で、背景には緊急性を示す赤いアラートアイコンが描かれています。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "了解信息分类过程，包括由谁指定和分配分类级别，以及遵守政府规定的重要性。"
 genre: ["信息安全", "数据分类", "政府法规", "国家安全", "数据保护", "数据隐私", "安全措施", "分类信息", "门禁控制", "数据敏感性"]
 tags: ["信息分类", "指定分类级别", "叙级权", "信息安全", "政府法规", "国家安全", "数据保护", "数据隐私", "安全措施", "机密信息", "门禁", "数据敏感性", "分类过程", "分类级别", "原定密级", "绝密级", "密级", "机密分类", "限制级", "信息敏感性", "安全审查", "保密原则", "分类标识", "解密过程", "第 13526 号行政命令", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "一幅描绘一个人拿着放大镜分析机密文件的图片，背景是一个锁的符号。"
 coverCaption: "揭开秘密：信息分类的重要性"
 ---

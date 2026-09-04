@@ -6,7 +6,7 @@ draft: false
 description: "Discover the best Visual Studio Code extensions for AI development, including Python, Jupyter, Git, IntelliCode, and Docker, to enhance your productivity and simplify your workflow."
 genre: ["Technology", "AI Development", "Visual Studio Code", "Code Editor", "AI Tools", "Productivity", "Python", "Jupyter", "Git", "Docker"]
 tags: ["best Visual Studio Code extensions for AI", "AI development tools", "Python extension for Visual Studio Code", "Jupyter extension for Visual Studio Code", "Git extension for Visual Studio Code", "IntelliCode extension for Visual Studio Code", "Docker extension for Visual Studio Code", "AI development productivity", "simplify AI workflow", "AI development with Visual Studio Code", "boost AI productivity", "AI coding tools", "VS Code extensions for AI", "AI development environment", "code editor for AI development", "AI experimentation with Jupyter", "version control for AI projects", "intelligent code suggestions", "containerization for AI workflows", "AI development best practices", "AI coding efficiency", "AI development collaboration", "AI development with Docker", "AI development with Python", "AI development with Git", "AI development with IntelliCode", "AI development with Jupyter"]
-cover: "/img/cover/An_image_depicting_a_computer_screen_with_Visu.png"
+cover: "/img/cover/An_image_depicting_a_computer_screen_with_Visu.webp"
 coverAlt: "An image depicting a computer screen with Visual Studio Code logo and AI-related symbols on the screen."
 coverCaption: "Supercharge your AI development with the best Visual Studio Code extensions."
 ---

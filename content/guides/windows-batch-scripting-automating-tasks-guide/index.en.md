@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the power of Windows batch scripting to automate tasks efficiently. Learn variables, loops, and more."
 genre: ["Technology", "Programming", "Automation", "Cybersecurity", "IT Management", "Productivity", "Scripting", "Windows OS", "Coding", "Software Development"]
 tags: ["batch scripting", "automate tasks", "Windows OS", "variables", "loops", "conditional statements", "error handling", "cybersecurity", "IT administration", "file manipulation", "software installation", "system configuration", "backup script", "user management", "efficiency", "productivity", "coding", "automation examples", "programming guide", "IT solutions", "code snippets", "command-line", "programming tips", "tech tutorial", "Windows commands", "IT workflows", "technical guide", "programming techniques", "batch programming", "system automation", "scripting tutorial"]
-cover: "/img/cover/windows-batch-scripting-automation.png"
+cover: "/img/cover/windows-batch-scripting-automation.webp"
 coverAlt: "An animated illustration of a computer screen displaying a batch script running with gears and cogs in the background."
 coverCaption: "Automate with Precision: Elevate Your Tasks through Batch Scripting"
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

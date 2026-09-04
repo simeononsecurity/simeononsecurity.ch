@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj wyzwania związane z cyberbezpieczeństwem, przed którymi stoi opieka zdrowotna i poznaj strategie ochrony i zgodności, aby chronić dane pacjentów i zapewnić zgodność z przepisami."
 tags: ["cybersecurity", "opieka zdrowotna", "dane pacjentów", "prywatność danych", "zgodność", "HIPAA", "GDPR", "audyty bezpieczeństwa", "kontrole dostępu", "szyfrowanie", "szkolenie", "zagrożenia wewnętrzne", "ataki phishingowe", "Urządzenia IoT", "bezpieczeństwo sieci", "naruszenia danych", "telemedycyna", "złośliwe oprogramowanie", "naruszenia bezpieczeństwa", "przepisy"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "Obraz lekarza stojącego przed tarczą z symbolem kłódki, która ma symbolizować ochronę danych pacjentów przed zagrożeniami cybernetycznymi."
 coverCaption: ""
 ---

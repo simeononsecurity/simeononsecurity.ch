@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Het implementeren van effectieve maatregelen voor gegevensbescherming is cruciaal om je bedrijf te beschermen tegen onbevoegde toegang en inbreuken op gegevens."
 genre: ["Strategieën voor gegevensbescherming", "Informatiebeveiliging", "Cyberbeveiligingsmaatregelen", "Privacy van gegevens", "Naleving voorschriften", "Risicobeoordeling", "Veiligheidscontroles", "Training voor werknemers", "Planning van respons bij incidenten", "Gegevensbescherming op lange termijn"]
 tags: ["gegevensbescherming", "veiligheidsmaatregelen", "datalekken", "cyberbeveiliging", "informatiebeveiliging", "nalevingsvoorschriften", "risicobeoordeling", "veiligheidscontroles", "werknemersopleiding", "incident response planning", "data-encryptie", "veilige gegevensopslag", "toegangscontroles", "authenticatie", "veiligheidsbewuste cultuur", "beleid gegevensverwerking", "reageren op datalekken", "incidentenbestrijdingsplan", "communicatie", "leren van beveiligingsincidenten", "Gegevensbescherming op lange termijn", "opkomende bedreigingen", "technologieën", "beleid", "gegevensbeveiliging", "privacy", "naleving", "cyberaanvallen", "kwetsbaarheden", "werknemersbewustzijn"]
-cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.png"
+cover: "/img/cover/implementing-effective-data-protection-measures-for-maximum-security.webp"
 coverAlt: "Een schild dat gegevens beschermt tegen cyberbedreigingen in een symbolische kunststijl."
 ---
 

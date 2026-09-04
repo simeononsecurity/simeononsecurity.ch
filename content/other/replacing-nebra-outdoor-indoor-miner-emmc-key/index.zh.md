@@ -39,9 +39,9 @@ Nebra 氦气矿机上的室内和室外型号都依靠 EMMC 密钥/SD 卡运行�
 
 ### Nebra氦气采矿器内部：
 ### Nebra 室内采矿器的内容：
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### Nebra Outdoor Miner 的内容：
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) 9-16V @ 15W DC 6.5MMx2.0MM 管状插孔
  - 2.)以太网连接器
  - 3.)LED 指示灯
@@ -53,7 +53,7 @@ Nebra 氦气矿机上的室内和室外型号都依靠 EMMC 密钥/SD 卡运行�
 ### 步骤 1：可选择从 EMMC Key 获取 config.json 文件：
 - 下载并安装 [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)将计算模块作为 USB 文件系统启动时需要此功能
 - 识别并调整 CM3 子板上的跳线引脚，以实现编程模式
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.)用于成像的微型 USB 端口
    - 7.)JP4 USB 跳线 - 用于在正常操作和闪存模式之间切换，确保处于 1-2 位置为正常操作，2-3 位置为编程模式。
    - 8.)JP3 电源跳线 - 允许通过微型 USB 接口为模块供电。仅在从 PC 编程时连接，并确保主板未连接。

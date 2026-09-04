@@ -6,7 +6,7 @@ draft: false
 description: "Discover the effortless journey through the Microsoft security certification path to safeguard your digital world."
 genre: ["Cybersecurity", "Certifications", "Microsoft", "Career Development", "IT Training", "Information Security", "Professional Skills", "Technology Education", "Cyber Defense", "Online Learning"]
 tags: ["microsoft security certification path", "cybersecurity", "certifications", "Microsoft", "career development", "IT training", "information security", "professional skills", "technology education", "cyber defense", "online learning", "cyber threats", "security professionals", "Azure security", "data protection", "GDPR", "HIPAA", "CCPA", "cybersecurity career", "cybersecurity landscape", "compliance", "security administrators", "data classification", "identity management", "DLP policies", "cybersecurity trends", "government regulations", "cybersecurity expertise", "digital protection"]
-cover: "/img/cover/cybersecurity-padlock-shield.png"
+cover: "/img/cover/cybersecurity-padlock-shield.webp"
 coverAlt: "A padlock shield protecting a digital world."
 coverCaption: "Secure your digital realm with knowledge and expertise."
 ---
@@ -17,7 +17,7 @@ In today's interconnected world, cybersecurity is of paramount importance. As th
 
 In this article, we will explore Microsoft's security certification path, highlighting key certifications, their benefits, and how they can help you advance your cybersecurity career. We'll also provide insights into the latest trends and government regulations in the cybersecurity landscape.
 
-{{< figure src="securitycertifications.png" alt="Microsoft Security Engineer Certification Path" link="https://learn.microsoft.com/en-us/credentials/certifications/roles/security-engineer" >}}
+{{< figure src="securitycertifications.webp" alt="Microsoft Security Engineer Certification Path" link="https://learn.microsoft.com/en-us/credentials/certifications/roles/security-engineer" >}}
 
 ______
 

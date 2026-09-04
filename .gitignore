@@ -23,6 +23,8 @@ bin-release/
 # Python virtual environment
 .venv/
 venv/
+__pycache__/
+*.pyc
 
 # PlatformIO MCP server workspace (audit logs, command history, local state)
 .pio-mcp-workspace/

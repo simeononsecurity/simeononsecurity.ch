@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Ontdek de beste Linux-distro's voor beginners, waaronder Ubuntu, Zorin OS, Linux Mint en Manjaro, met gebruiksvriendelijke interfaces en uitstekende ondersteuning van de gemeenschap."
 tags: ["Linux distro's", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "beginners", "gebruiksvriendelijke interface", "hardwarecompatibiliteit", "communautaire steun", "open-source", "Op Debian gebaseerde", "Windows-achtige interface", "rollende release", "Cinnamon bureaublad omgeving", "Xfce bureaubladomgeving", "KDE Plasma bureaubladomgeving", "GNOME bureaubladomgeving", "software opslagplaats", "uitgebreide documentatie", "voorgeïnstalleerde software", "nieuwste software-updates", "taakbalk", "startmenu", "systeemvak", "multimedia codecs", "pakketbeheerder", "ondersteunende gemeenschap", "overheidsvoorschriften", "wettelijke naleving", "ervaring met veilig computergebruik"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "Een illustratie van een groep uiteenlopende computergebruikers die verschillende Linux-distro's gebruiken met een glimlach op hun gezicht, om het gemak en de inclusiviteit van Linux voor beginners aan te tonen"
 coverCaption: ""
 ---

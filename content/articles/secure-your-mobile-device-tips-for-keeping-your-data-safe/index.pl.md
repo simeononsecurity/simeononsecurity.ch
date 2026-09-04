@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Dowiedz się, jak zabezpieczyć swoje urządzenie mobilne i chronić dane przed cyberzagrożeniami dzięki tym skutecznym wskazówkom dotyczącym bezpieczeństwa urządzeń mobilnych."
 genre: ["Technologia", "Cyberbezpieczeństwo", "Bezpieczeństwo mobilne", "Ochrona danych", "Bezpieczeństwo online", "Prywatność", "Ataki phishingowe", "Malware", "Bezpieczeństwo Wi-Fi", "Bezpieczeństwo haseł"]
 tags: ["Bezpieczeństwo mobilne", "Cyberbezpieczeństwo", "Ochrona danych", "Urządzenia mobilne", "Bezpieczeństwo online", "Prywatność", "Ataki phishingowe", "Malware", "Bezpieczeństwo Wi-Fi", "Skradzione urządzenia", "Bezpieczeństwo haseł", "Uwierzytelnianie biometryczne", "Uwierzytelnianie dwuskładnikowe", "Oprogramowanie antywirusowe", "Uprawnienia aplikacji", "Ustawienia prywatności", "Szyfrowanie danych", "Kopie zapasowe danych", "Bezpieczeństwo publicznych sieci Wi-Fi", "Zgubione lub skradzione urządzenia", "Wskazówki dotyczące bezpieczeństwa mobilnego", "Najlepsze praktyki bezpieczeństwa mobilnego", "Mobilne rozwiązania bezpieczeństwa", "Ochrona urządzeń mobilnych", "Zabezpieczanie aplikacji mobilnych", "Zarządzanie urządzeniami mobilnymi", "Zagrożenia bezpieczeństwa mobilnego", "Wskazówki dotyczące prywatności na urządzeniach mobilnych", "Bezpieczeństwo danych mobilnych", "Cyberbezpieczeństwo mobilne"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Rysunkowa ilustracja smartfona z tarczą i symbolem kłódki, reprezentująca bezpieczeństwo urządzeń mobilnych i ochronę danych"
 ---
 

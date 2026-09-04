@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à protéger vos informations personnelles en les supprimant des annuaires en ligne et des courtiers en données grâce à ce guide complet."
 tags: ["suppression des données à caractère personnel", "annuaires en ligne", "courtiers en données", "protection de la vie privée", "guide complet", "supprimer des informations personnelles", "vie privée en ligne", "internet privacy", "vie privée en ligne", "courtiers en données", "supprimer les informations", "IntelTechniques", "SimeonOnSecurity", "sécurité en ligne", "protection de la vie privée", "protéger la vie privée en ligne"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Image d'un écran d'ordinateur avec un X rouge traversant une liste d'informations personnelles, telles que le nom, l'adresse et le numéro de téléphone, symbolisant la suppression des données personnelles des annuaires en ligne."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite la storia non raccontata della mia esperienza con gli impianti di tag NFC, approfondendo i rischi, le complicazioni e le intuizioni personali che evidenziano l'importanza di un processo decisionale informato."
 tags: ["Impianti di tag NFC", "body hacking", "cose pericolose", "Rischi dell'impianto", "modifiche del corpo", "complicazioni", "rigetto dell'impianto", "dolore e infiammazione", "danni ai nervi", "rimozione dell'impianto", "dolore cronico", "precauzioni di sicurezza", "rischi e benefici", "consultazione", "ricerca", "installazione professionale", "rischi di modificazione del corpo", "spostamento dell'impianto", "sindrome del tunnel carpale", "comprensione delle complicazioni", "sicurezza personale", "decisione informata", "interazione digitale", "procedure mediche", "sicurezza degli impianti", "Attenzione alle modifiche del corpo", "Complicanze dell'impianto", "benessere personale", "considerazioni sulla salute", "consulenza professionale"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Un'immagine che ritrae una persona con una mano su cui è stato impiantato un tag NFC, accompagnata da simboli di dolore intorno alla mano, illustra i rischi e le complicazioni associate agli impianti di tag NFC."
 coverCaption: ""
 ---

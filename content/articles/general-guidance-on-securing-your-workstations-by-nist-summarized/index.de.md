@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser umfassende Leitfaden basiert auf den NIST-Empfehlungen für die Implementierung starker Zugangskontrollen, die Aktualisierung von Software, die Verwendung von Antivirensoftware, die Aktivierung von Firewalls, die Implementierung von Datenverschlüsselung und die regelmäßige Erstellung von Datensicherungen."
 tags: ["NIST-Empfehlungen", "Sicherheit am Arbeitsplatz", "Cybersicherheit", "Datenverschlüsselung", "Firewall-Schutz", "Antiviren-Software", "Zugangskontrollen", "sensible Informationen", "Cyberangriffe", "Datensicherung"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Ein Bild einer Person, die an ihrem Arbeitsplatz sitzt, mit einem Sicherheitsschloss im Vordergrund, das auf die Bedeutung der Sicherung von Arbeitsplätzen hinweist."
 coverCaption: ""
 ---

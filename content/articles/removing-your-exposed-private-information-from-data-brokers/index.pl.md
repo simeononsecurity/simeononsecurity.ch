@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić swoje dane osobowe, usuwając je z katalogów internetowych i brokerów danych za pomocą tego kompleksowego przewodnika."
 tags: ["usuwanie danych osobowych", "katalogi internetowe", "brokerzy danych", "ochrona prywatności", "kompletny przewodnik", "usunąć dane osobowe", "prywatność w sieci", "prywatność internetowa", "prywatność w sieci", "brokerzy danych", "usunąć informacje", "IntelTechniques", "SimeonOnSecurity", "bezpieczeństwo w sieci", "ochrona prywatności", "chronić prywatność w sieci"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Obraz ekranu komputera z czerwonym znakiem X przez listę danych osobowych, takich jak nazwisko, adres i numer telefonu, symbolizujący usunięcie danych osobowych z katalogów internetowych."
 coverCaption: ""
 ---

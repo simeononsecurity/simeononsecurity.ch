@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les indicateurs de menaces potentielles d'origine interne et les stratégies d'atténuation efficaces pour protéger la sécurité de votre organisation."
 tags: ["indicateurs de menaces d'initiés", "atténuer les menaces d'origine interne", "risques potentiels", "cybersécurité", "la sécurité des données", "surveillance des employés", "les contrôles d'accès", "analyse du comportement des utilisateurs", "formation à la sensibilisation à la sécurité", "conformité réglementaire", "protection des données", "surveillance du réseau", "comportement des employés", "accès aux données", "activité inhabituelle du réseau", "changement des schémas de travail", "difficultés financières", "disgruntlement", "comportement en ligne", "politiques de sécurité", "incident response plan", "NISPOM", "HIPAA", "GDPR", "la gestion des risques", "détection des menaces", "atténuation des menaces d'origine interne", "accès privilégié", "comportement suspect", "prévention des menaces d'origine interne"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Illustration animée montrant une équipe de professionnels divers discutant de cybersécurité, entourée de cadenas et d'icônes de bouclier."
 coverCaption: ""
 ---

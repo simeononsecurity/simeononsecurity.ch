@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Gardez une longueur d'avance sur les cybermenaces en vous informant sur les derniers CVE et acteurs de la menace grâce à des stratégies et des ressources efficaces."
 tags: ["cybersécurité", "CVE", "acteurs de la menace", "analyse de la vulnérabilité", "renseignements sur les menaces", "partage d'informations", "collaboration avec l'industrie", "avis de sécurité", "NVD", "CVE", "US-CERT", "CERT", "Mitre ATT&CK®", "OpenCTI", "NIST", "CISA", "vulnérabilités en matière de cybersécurité", "menaces émergentes", "défense proactive", "l'analyse automatisée des vulnérabilités", "renseignements provenant de sources ouvertes", "renseignements sur les menaces en temps réel", "tactiques et techniques des acteurs de la menace", "OSINT techniques", "Bases de données CVE", "avis de sécurité des fournisseurs", "blogs sur la sécurité", "flux de renseignements sur les menaces", "communautés d'échange d'informations", "les réglementations gouvernementales"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Illustration d'un bouclier avec une loupe symbolisant la cybersécurité."
 coverCaption: "Défendre et découvrir : Se donner les moyens d'acquérir des connaissances dans le domaine de la cybersécurité."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'histoire inédite de mon expérience avec les implants d'étiquettes NFC, en examinant les risques, les complications et les idées personnelles qui soulignent l'importance d'une prise de décision éclairée."
 tags: ["Implants d'étiquettes NFC", "piratage corporel", "choses dangereuses", "risques liés aux implants", "modifications corporelles", "les complications", "rejet de l'implant", "la douleur et l'inflammation", "lésions nerveuses", "retrait de l'implant", "douleur chronique", "précautions de sécurité", "risques et avantages", "consultation", "recherche", "installation professionnelle", "risques liés aux modifications corporelles", "implant displacement", "le syndrome du canal carpien", "comprendre les complications", "la sécurité personnelle", "décision éclairée", "interaction numérique", "procédures médicales", "sécurité des implants", "prudence en matière de modifications corporelles", "implant complications", "le bien-être personnel", "considérations sanitaires", "conseils professionnels"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Image représentant une personne dont la main porte un implant NFC, accompagnée de symboles de douleur autour de la main, illustrant les risques et les complications liés aux implants NFC."
 coverCaption: ""
 ---

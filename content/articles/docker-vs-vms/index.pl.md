@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj moc Dockera w chmurze obliczeniowej, ponieważ przewyższa on maszyny wirtualne swoją prostotą, skalowalnością, bezpieczeństwem i opłacalnością, w tym artykule."
 tags: ["Docker", "Maszyny wirtualne", "Maszyny wirtualne", "Chmura obliczeniowa", "Pojemniki", "Simplicity", "Skalowalność", "Bezpieczeństwo", "Efektywność kosztowa", "Dockerfile", "Budowanie, testowanie i wdrażanie", "Izolacja", "Historia bezpieczeństwa", "Porównanie kosztów", "Artykuł informacyjny"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Obraz statku towarowego, w kształcie niebieskiego wieloryba, przewożącego wiele kontenerów Docker"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "ブロックチェーン技術で構築された分散型VPNとウェブスクレイピングサービス、安全なブラウジングと収入機会を提供するMysteriumの力をご覧ください。"
 tags: ["ミステリー", "仮想私設通信網", "ウェブスクレイピング", "ぶんさんじょう", "プライバシー", "セキュリティ", "ブロックチェーン", "イーサリアム", "ポリゴン", "えつらん", "収入機会", "ドッカー", "セットアップ", "ポートフォワーディング", "分散型VPN", "ウェブスクレイピングサービス", "安全なブラウジング", "収益", "ブロックチェーン技術", "オンラインプライバシー", "Dockerコンテナ", "ノードセットアップ", "IPアドレス", "ERC20ウォレット", "メタマスクアドレス", "APIキー", "ポートフォワーディングの指示", "ポートフォワード・ドットコム", "Mysteriumのドキュメント"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "コンピュータの画面を守る盾を描いたイラストで、オンライン上のプライバシーとセキュリティの強化を象徴しています。"
 coverCaption: ""
 ---

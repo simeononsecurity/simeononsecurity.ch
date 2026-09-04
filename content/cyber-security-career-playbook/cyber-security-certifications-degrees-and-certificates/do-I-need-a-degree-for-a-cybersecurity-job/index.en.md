@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-15
 description: "Discover the best majors for a successful cybersecurity career and learn how to navigate the path to becoming a skilled professional."
 tags: ["cybersecurity job", "degree requirement", "major selection", "cybersecurity career path", "information security", "cyber threats", "career opportunities", "skills development", "industry certifications", "cybersecurity bootcamps", "self-study options", "online courses", "internship programs", "entry-level positions", "cybersecurity jobs", "cybersecurity education", "career guidance", "cybersecurity pathways", "best majors for cybersecurity", "cybersecurity curriculum", "information technology major", "computer science major", "mathematics major", "engineering major", "business and cybersecurity", "psychology and cybersecurity", "sociology and cybersecurity", "job prospects in cybersecurity", "practical skills in cybersecurity", "continuous learning in cybersecurity", "demand for cybersecurity professionals"]
-cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.png"
+cover: "/img/cover/An_illustration_of_a_person_holding_a_graduation_cap_with.webp"
 coverAlt: "An illustration of a person holding a graduation cap with a shield representing cybersecurity, symbolizing the need for education and skills in the field of cybersecurity. --aspect 16:9"
 coverCaption: "Unlock Your Cybersecurity Career Potential with Education and Skills."
 ---

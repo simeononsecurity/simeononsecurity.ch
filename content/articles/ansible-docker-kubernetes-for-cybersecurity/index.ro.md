@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți puterea lui Ansible, Docker și Kubernetes pentru automatizarea proceselor de securitate cibernetică și reducerea riscului de încălcare a securității datelor."
 tags: ["Ansible", "Docker", "Kubernetes", "Automatizarea securității cibernetice", "Evaluări ale vulnerabilității", "Managementul patch-urilor", "Orchestrarea containerelor", "Segmentarea rețelei", "Controlul accesului bazat pe roluri", "Management secret", "Scanări de securitate", "Semnarea imaginii", "Instrumente de automatizare", "Infrastructura IT", "Prevenirea încălcării datelor", "Îmbunătățirea eficienței", "Automatizarea securității", "Managementul configurației", "Implementarea aplicației", "Containerizare", "Securitatea containerelor", "Sisteme scalabile", "Medii sigure", "Securitatea rețelelor", "Cele mai bune practici în materie de securitate cibernetică", "Reducerea riscurilor", "Managementul securității", "Operațiuni IT", "Fluxuri de lucru eficiente", "Automatizarea sistemului de securitate", "Eficiența IT"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "O imagine a trei angrenaje, colorate în roșu, albastru și albastru, care se întrepătrund și se rotesc împreună pentru a simboliza integrarea și colaborarea lor în automatizarea proceselor de securitate cibernetică"
 coverCaption: ""
 ---

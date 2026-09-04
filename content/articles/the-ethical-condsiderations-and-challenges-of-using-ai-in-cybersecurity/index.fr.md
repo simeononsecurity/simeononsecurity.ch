@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les considérations éthiques et les défis liés à l'utilisation de l'IA dans le domaine de la cybersécurité et la manière dont ils peuvent être abordés pour une utilisation efficace."
 tags: ["AI", "cybersécurité", "considérations éthiques", "biais", "vie privée", "responsabilité", "complexité", "adaptabilité", "surveillance humaine", "l'intensité des ressources", "confidentialité des données", "apprentissage automatique", "renseignements sur les menaces", "protection des données", "technologie", "automation", "cybermenaces", "la sécurité de l'information", "conformité réglementaire", "transformation numérique"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "Image d'une serrure avec des engrenages symbolisant l'utilisation de l'IA dans la cybersécurité, tandis qu'une main humaine tient une clé pour illustrer la surveillance humaine."
 coverCaption: ""
 ---

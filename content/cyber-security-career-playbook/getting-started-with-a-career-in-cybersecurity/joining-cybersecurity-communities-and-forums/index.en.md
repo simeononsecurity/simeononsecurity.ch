@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Joining cybersecurity communities and forums can unlock a world of expertise, networking, and professional growth."
 tags: ["cybersecurity", "communities", "forums", "knowledge sharing", "networking", "professional growth", "expertise", "collaboration", "industry trends", "threat intelligence", "certification programs", "badges", "professional recognition", "credibility", "NIST", "GDPR", "CISA", "r/netsec", "Stack Exchange - Information Security", "Cybrary", "Hack Forums", "OWASP", "cyber threats", "webinars", "training sessions", "data breaches", "security incidents", "best practices", "career opportunities", "personal development"]
-cover: "/img/cover/An_image_illustrating_people_collaborating_in_a_digital_env.png"
+cover: "/img/cover/An_image_illustrating_people_collaborating_in_a_digital_env.webp"
 coverAlt: "An image illustrating people collaborating in a digital environment, sharing cybersecurity knowledge and connecting with each other."
 coverCaption:  "Unleash your potential in the cybersecurity community."
 ---

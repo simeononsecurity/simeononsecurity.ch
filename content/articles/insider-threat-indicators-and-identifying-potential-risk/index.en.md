@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover potential insider threat indicators and effective mitigation strategies to protect your organization's security."
 tags: ["insider threat indicators", "mitigating insider threats", "potential risks", "cybersecurity", "data security", "employee monitoring", "access controls", "user behavior analytics", "security awareness training", "regulatory compliance", "data protection", "network monitoring", "employee behavior", "data access", "unusual network activity", "change in work patterns", "financial difficulties", "disgruntlement", "online behavior", "security policies", "incident response plan", "NISPOM", "HIPAA", "GDPR", "risk management", "threat detection", "insider threat mitigation", "privileged access", "suspicious behavior", "insider threat prevention"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "An animated illustration showing a team of diverse professionals discussing cybersecurity while surrounded by locks and shield icons."
 coverCaption: ""
 ---

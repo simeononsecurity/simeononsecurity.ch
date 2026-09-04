@@ -6,7 +6,7 @@ draft: false
 description: "Discover the 5 key skills every manager of information systems should have to succeed These days ."
 genre: ["Technology", "Business", "Management", "IT", "Career Development", "Digital Transformation", "Data Analysis", "Cloud Computing", "Project Management", "Leadership"]
 tags: ["information systems", "manager", "MIS", "technical skills", "analytical skills", "leadership skills", "project management skills", "communication skills", "cloud computing", "data analysis", "problem-solving", "critical thinking", "decision-making", "team management", "collaboration", "project planning", "resource management", "communication", "technology", "business processes", "digital transformation", "data-driven decisions", "cloud-based platforms", "system architecture", "database management", "programming languages", "IT skills", "career development"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Cartoon illustration of a manager of information systems overseeing a network of computers"
 coverCaption: "Master the skills needed to become a successful manager of information systems."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Esplorate la struttura delle directory di Windows e imparate a gestire in modo efficiente i file e a navigare nel sistema gerarchico."
 genre: ["Struttura delle directory di Windows", "Gestione dei file di Windows", "Navigazione nelle directory", "Organizzazione dei file", "Percorsi dei file di Windows", "Cartelle di sistema di Windows", "Elenco utenti", "Cartella dei file di programma", "Directory principale di Windows", "Directory dei file temporanei"]
 tags: ["struttura delle directory in Windows", "struttura di directory di Windows", "gestione dei file", "organizzazione dei file", "percorsi dei file", "directory principale", "directory di sistema", "directory utente", "directory dei file di programma", "navigazione nella directory di Windows", "esploratore di file", "prompt dei comandi", "percorso assoluto del file", "percorso relativo del file", "file system di Windows", "Gestione dei file di Windows", "accesso ai file", "funzionamento del sistema", "strumento di esplorazione dei file", "comandi di windows", "percorsi dei file di Windows", "gestione efficiente dei file", "organizzazione delle finestre", "directory dei file temporanei", "struttura dei file di Windows", "sistema operativo Windows", "cartella del profilo utente di Windows", "file di sistema", "risorse di sistema di Windows"]
-cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.png"
+cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"
 coverAlt: "Un'immagine che raffigura una struttura ad albero che rappresenta il sistema di directory di Windows."
 coverCaption: "Gestite in modo efficiente i vostri file con la struttura di directory di Windows."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Descubra las principales diferencias y puntos fuertes de Session, Status, Signal y Threema en esta completa comparativa de servicios de mensajería segura."
 genre: ["Mensajería segura", "Comunicación centrada en la privacidad", "Comparación de aplicaciones de mensajería", "Protocolos de cifrado", "Ciberseguridad", "Comunicación privada", "Servicios de mensajería", "Protección de datos", "Cifrado de extremo a extremo", "Análisis de plataformas de mensajería"]
 tags: ["Sesión", "Estado", "Señal", "Threema", "Mensajería segura", "Privacidad", "Cifrado", "Ciberseguridad", "Aplicaciones de mensajería", "Comparación", "Cifrado de extremo a extremo", "Protección de datos", "Plataforma de mensajería", "Comunicación", "Aplicaciones descentralizadas", "Comunicación segura", "Servicios de mensajería", "Seguridad de la mensajería", "Privacidad de la mensajería", "Mensajería cifrada", "Las mejores aplicaciones de mensajería segura", "Comparación de cifrado de extremo a extremo", "Mensajería centrada en la privacidad", "Servicios de comunicación segura", "Señal vs Threema", "Sesión vs. Estado", "Revisión de las plataformas de mensajería segura", "Funciones de seguridad de las aplicaciones de mensajería", "Comparación de aplicaciones de mensajería segura", "Evaluación de aplicaciones de chat seguras"]
-cover: "/img/cover/secure-messaging-comparison.png"
+cover: "/img/cover/secure-messaging-comparison.webp"
 coverAlt: "Ilustración de cuatro smartphones, cada uno de los cuales representa a Session, Status, Signal y Threema, protegidos con candados, lo que pone de relieve su interés por la mensajería segura."
 coverCaption: "Asegure sus conversaciones: Comparación exhaustiva de mensajería."
 ---

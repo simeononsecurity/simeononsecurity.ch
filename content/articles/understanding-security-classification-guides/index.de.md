@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Untersuchung der Bedeutung von Leitfäden zur Sicherheitseinstufung für den Schutz von Verschlusssachen und zur Gewährleistung der Einhaltung von Vorschriften."
 tags: ["Sicherheitsklassifikationsleitfäden", "Informationsschutz", "Verschlusssachen", "staatliche Vorschriften", "Risikominderung", "Zugangskontrolle", "Informationssicherheit", "Kennzeichnungsverfahren", "Abwicklungsverfahren", "nationale Sicherheit", "Compliance", "Insider-Bedrohungen", "Informationsaustausch", "geistiges Eigentum", "Entscheidungsfindung", "rechtliche Verpflichtungen", "ethische Verpflichtungen", "internationale Zusammenarbeit", "ISO 27001", "NISPOM", "Durchführungsverordnung 13526", "Informationsklassifizierung", "datenschutz", "Informationsverarbeitung", "kontrollierte Weitergabe", "Informationsvertraulichkeit", "Informationsintegrität", "Informationssicherheitskultur", "Richtlinien zur Informationssicherheit", "Praktiken der Informationssicherheit", "Bewusstsein für Informationssicherheit"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Ein Bild, das eine verschlossene Dokumentenmappe mit einem Schild zeigt, das den Schutz von Verschlusssachen symbolisiert."
 coverCaption: ""
 ---

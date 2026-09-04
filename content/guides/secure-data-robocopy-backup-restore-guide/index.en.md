@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to securely back up and restore files using Robocopy, a powerful tool for data protection and peace of mind."
 genre: ["Cybersecurity", "Data Management", "Backup Strategies", "Data Protection", "Windows Tools", "File Copying", "Data Backup", "Disaster Recovery", "File Restore", "Command-Line Tools"]
 tags: ["Robocopy", "Backup and Restore", "Data Protection", "File Backup", "File Restoration", "Data Security", "Backup Strategies", "Cybersecurity", "Technology Guide", "IT Solutions", "Data Management", "Digital Safety", "Tech Tutorials", "Computer Backup", "Secure Data", "Data Recovery", "Windows Tools", "File Copying", "Data Backup Process", "Data Loss Prevention", "Data Backup Software", "Backup Tools", "Data Safety", "Backup Commands", "Data Backup Solutions", "Tech How-To", "Backup Best Practices", "Windows Utilities", "Data Preservation", "File Copy Guide", "Data Resilience"]
-cover: "/img/cover/data-protection-robocopy-shield.png"
+cover: "/img/cover/data-protection-robocopy-shield.webp"
 coverAlt: "A cartoon illustration showing files being safeguarded by a digital shield."
 coverCaption: "Keep Your Data Safe!"
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

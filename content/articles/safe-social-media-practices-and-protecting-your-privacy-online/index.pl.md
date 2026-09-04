@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj niezbędne wskazówki dotyczące bezpiecznych praktyk w mediach społecznościowych, aby chronić swoją prywatność w Internecie i dowiedzieć się o ustawieniach prywatności popularnych platform, takich jak LinkedIn, Facebook, Twitter i Instagram."
 tags: ["prywatność", "prywatność online", "media społecznościowe", "bezpieczne praktyki", "ustawienia prywatności", "LinkedIn", "Facebook", "Twitter", "Instagram", "zaproszenia do znajomych", "losowe linki", "ankiety", "regulacje rządowe", "RODO", "CCPA", "cyberbezpieczeństwo", "ochrona danych", "dane osobowe", "naruszenie prywatności", "bezpieczeństwo cyfrowe", "zagrożenia dla prywatności", "przepisy dotyczące prywatności", "przepisy dotyczące prywatności", "prywatność danych", "bezpieczeństwo online", "ochrona prywatności", "Prywatność w mediach społecznościowych", "wskazówki dotyczące prywatności", "praktyki dotyczące prywatności online", "ochrona danych osobowych"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Obraz przedstawiający tarczę chroniącą dane osobowe osoby korzystającej z platform mediów społecznościowych."
 coverCaption: ""
 ---

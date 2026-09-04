@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser Artikel befasst sich mit den Vorteilen eines Upgrades auf Server 2019 oder eines Wechsels zu Azure, einschließlich verbesserter Sicherheit, Leistung, Integration und Support, um Unternehmen dabei zu helfen, die beste Entscheidung für ihre IT-Infrastruktur zu treffen."
 tags: ["Upgrade auf Server 2019", "Wechsel zu Azure", "IT-Infrastruktur", "Business-Technologie", "Verbesserungen der Sicherheit", "Leistungsverbesserungen", "Integration mit Azure", "Langfristige Unterstützung", "Skalierbarkeit", "Kosten-Wirksamkeit", "Erhöhte Zuverlässigkeit", "Erweiterte Analytik", "Hybrider Ansatz", "Flexible und widerstandsfähige IT-Infrastruktur"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "Ein Bild eines Serverraums mit Serverregalen auf der einen Seite und einer Wolke auf der anderen Seite, mit einer Person, die in der Mitte steht und beides betrachtet."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Soyez en sécurité en ligne : Découvrez l'importance du durcissement et du déblocage de Windows pour améliorer la sécurité et la confidentialité..."
 tags: ["Durcissement des fenêtres", "Déblocage de Windows", "Amélioration de la sécurité", "Vie privée", "Cyber-attaques", "Sécurité des systèmes d'exploitation", "Système d'exploitation Windows", "Protection des données", "Cybercriminalité", "Surface d'attaque", "Vulnérabilités", "Mises à jour de la sécurité", "Mécanismes d'authentification", "Logiciels indésirables", "Amélioration des performances", "Collecte de données", "Authentification à deux facteurs", "Logiciel antivirus", "Logiciel anti-malware", "Informations sensibles", "Guide complet"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Image d'un cadenas verrouillé au-dessus de l'écran d'un ordinateur ou d'un portable, symbolisant les mesures de sécurité qui peuvent être mises en œuvre grâce au durcissement et au déblocage de Windows."
 coverCaption: ""
 ---

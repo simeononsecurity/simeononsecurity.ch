@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek hoe de virtuele debetkaarten van Privacy.com je online veiligheid kunnen verbeteren en je privacy kunnen beschermen, terwijl je tegelijkertijd eenvoudig controle hebt over transacties en abonnementen."
 genre: ["Online beveiliging", "Digitale privacy", "Virtuele betaalpassen", "Financiële bescherming", "Online transacties", "Fraudepreventie", "Privacy van gegevens", "Financiële privacy", "Cyberbeveiliging", "Persoonlijke Financiën"]
 tags: ["Privacy.nl", "Virtuele betaalpassen", "Online beveiliging", "Digitale privacy", "Financiële bescherming", "Gegevenscodering", "Fraudepreventie", "Veilige transacties", "Beveiliging op bankniveau", "Privacycontroles", "Terugkerende kosten", "Handelaarsslotkaarten", "Bescherming van financiële gegevens", "Betalingsbeveiliging", "Privacyregels", "Naleving", "PCI DSS", "GDPR", "Bureau voor consumentenbescherming", "Financiële Technologie", "Veilig online betalen", "Virtuele kaarten voor privacy", "Gecontroleerde uitgaven", "Online abonnementen", "Beheer van persoonlijke financiën", "Preventie van datalekken", "Veilige digitale betalingen", "Cyberbeveiligingsoplossingen", "Financiële informatie beschermen", "Verbeterde privacy"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Stel je een levendige en dynamische digitale illustratie voor met een afgeschermde virtuele kaart die een slotsymbool beschermt. Dit staat voor de verbeterde beveiliging en privacy die de virtuele betaalkaarten van Privacy.com bieden."
 coverCaption: "Bescherm, beheer en machtig uw online transacties."
 ---

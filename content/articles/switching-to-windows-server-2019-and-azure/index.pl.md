@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "W tym artykule przeanalizowano korzyści płynące z aktualizacji do Server 2019 lub przejścia na Azure, w tym lepsze bezpieczeństwo, wydajność, integrację i wsparcie, aby pomóc organizacjom podjąć najlepszą decyzję dla ich infrastruktury IT."
 tags: ["Aktualizacja do wersji Server 2019", "Przejdź na Azure", "Infrastruktura informatyczna", "Technologia biznesowa", "Ulepszenia w zakresie bezpieczeństwa", "Poprawa wydajności", "Integracja z Azure", "Wsparcie długoterminowe", "Skalowalność", "Efektywność kosztowa", "Zwiększona niezawodność", "Zaawansowana analityka", "Podejście hybrydowe", "Elastyczna i odporna infrastruktura IT"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "Obraz serwerowni z regałami serwerów po jednej stronie i chmurą po drugiej, z osobą stojącą na środku i patrzącą na nie obie."
 coverCaption: ""
 ---

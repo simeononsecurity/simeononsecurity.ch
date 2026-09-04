@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Descubre cómo monetizar tus dispositivos inactivos compartiendo Internet y ganando recompensas con Earn App."
 tags: ["ganar app", "monetizar dispositivos", "compartir internet", "gana premios", "ingresos pasivos", "recursos del dispositivo", "Servicio VPN", "IP residencial", "dispositivos inactivos", "ganar dinero", "compartir internet", "ganarse la instalación de la aplicación", "instalación docker", "contenedor docker", "tutorial de la aplicación earn", "ganar app sitio web", "instrucciones de instalación", "cuenta earn app", "versión no docker", "UUID", "instalar docker", "instalación de contenedores docker", "tutorial de vídeo", "ganar referencias de aplicaciones", "earn app website link", "ganarse las instrucciones de instalación de la aplicación"]
-cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.png"
+cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.webp"
 coverAlt: "Ilustración de un smartphone del que sale dinero, que representa el concepto de ganar recompensas compartiendo recursos de Internet a través de la aplicación Earn."
 coverCaption: "Monetiza tus dispositivos inactivos con Earn App"
 ---

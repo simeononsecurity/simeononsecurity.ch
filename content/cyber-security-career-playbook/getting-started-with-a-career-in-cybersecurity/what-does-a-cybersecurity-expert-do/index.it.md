@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Scoprite le responsabilità, le competenze e le normative di settore che definiscono il ruolo di un esperto di cybersecurity nella salvaguardia dei beni digitali e nella lotta alle minacce informatiche."
 tags: ["esperto di cybersicurezza", "ruolo di cybersecurity", "responsabilità della cybersecurity", "competenze di cybersecurity", "intelligence sulle minacce", "risposta agli incidenti", "consapevolezza della sicurezza", "sicurezza della rete", "algoritmi di crittografia", "codifica sicura", "normative di settore", "GDPR", "HIPAA", "PCI DSS", "certificazioni", "CISSP", "CEH", "Sicurezza CompTIA+", "Protezione dei beni digitali", "minacce informatiche", "sicurezza dei dati", "protezione della rete", "valutazione della vulnerabilità", "controlli di sicurezza", "rilevamento di malware", "prevenzione delle violazioni dei dati", "carriera nella cybersecurity", "formazione sulla cybersicurezza", "certificazioni di cybersecurity", "sicurezza delle informazioni", "difesa informatica"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Un esperto di cybersicurezza animato che indossa un mantello da supereroe, in piedi con sicurezza con uno scudo in una mano e il simbolo di un lucchetto nell'altra, che protegge le risorse digitali."
 coverCaption: "Una rappresentazione simbolica di un esperto di cybersecurity, armato di conoscenze e strumenti, che difende le risorse digitali dalle minacce informatiche."
 ---

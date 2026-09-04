@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Ontdek de onmisbare cyberbeveiligingscursussen waarmee je de vaardigheden en kennis opdoet die je nodig hebt voor een bloeiende carrière in de sector."
 tags: ["cyberbeveiligingscursussen", "essentiële cursussen", "loopbaanontwikkeling", "cyberbeveiligingstraining", "informatiebeveiliging", "netwerkbeveiliging", "ethisch hacken", "reactie op incidenten", "beveiligingscertificeringen", "gegevensprivacy", "naleving", "cloudbeveiliging", "IoT-beveiliging", "ICS-beveiliging", "cyberbeveiligingsvaardigheden", "onderwijs in cyberbeveiliging", "carrièrepad cyberbeveiliging", "vooruitzichten op een baan in cyberbeveiliging", "cyberbeveiligingscertificeringen", "cyberbeveiligingsindustrie", "cyberbeveiligingstrends", "beste praktijken op het gebied van cyberbeveiliging", "banenmarkt cyberbeveiliging", "cyberbeveiligingsopleidingen", "curriculum cyberbeveiliging", "specialisatie cyberbeveiliging", "leermiddelen voor cyberbeveiliging", "cyberbeveiliging online cursussen", "cyberbeveiliging opleidingen", "carrièremogelijkheden cyberbeveiliging"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "Een illustratie met een cyberbeveiligingsprofessional met een schild die digitale activa beschermt tegen cyberbedreigingen."
 coverCaption: "Stel je toekomst veilig met essentiële cyberbeveiligingscursussen."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explore the funniest cybersecurity myths in pop culture, from 'two people typing' to 'CSI Zoom Enhance.' Discover why hacking isn't always effortless."
 genre: ["Cybersecurity", "Hacking", "Entertainment", "Pop Culture", "TV Shows", "Film", "Technology", "Humor", "Digital World", "Media"]
 tags: ["Cybersecurity", "Hacking", "Entertainment", "Pop Culture", "TV Shows", "Film", "Technology", "Humor", "Digital World", "Media", "Cyber Myths", "Hollywood Hacking", "Funny Hacking Scenes", "NCIS", "Castle", "CSI Zoom Enhance", "Hacking Memes", "Cybersecurity Humor", "Fiction vs. Reality", "Digital Entertainment"]
-cover: "/img/cover/cybersecurity-hackers-cartoon.png"
+cover: "/img/cover/cybersecurity-hackers-cartoon.webp"
 coverAlt: "A cartoon image featuring hackers at a keyboard, one typing while the other looks puzzled, in front of a computer screen with exaggerated code symbols."
 coverCaption: "Busting Hacking Myths with Laughter"
 canonical: ""

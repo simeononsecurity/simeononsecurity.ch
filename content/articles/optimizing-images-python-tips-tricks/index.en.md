@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to optimize images with Python, reduce file sizes, and improve website performance and user experience with efficient techniques like compression, resizing, and format conversion."
 genre: ["Technology", "Web Development", "Python Programming", "Image Optimization", "SEO", "Web Performance", "User Experience", "Software Development", "Automation", "Programming"]
 tags: ["optimizing images", "Python", "image optimization", "web development", "website performance", "user experience", "compression", "resizing", "format conversion", "image processing", "Pillow library", "Tinify library", "automation", "Python script", "web performance optimization", "SEO optimization", "software development", "web design", "image compression", "file size reduction", "lazy loading", "image formats", "webp format", "API integration", "development workflow", "code example", "image optimization techniques", "performance optimization", "programming tutorial"]
-cover: "/img/cover/An_illustration_of_a_Python_script_optimizing.png"
+cover: "/img/cover/An_illustration_of_a_Python_script_optimizing.webp"
 coverAlt: "An illustration of a Python script optimizing images with a magnifying glass zooming in on a compressed image."
 coverCaption: "Optimize, compress, and enhance images with Python."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scopri come Helium Mobile Beta sta trasformando la connettività mobile con la sua rete decentralizzata, garantendo sicurezza, affidabilità e convenienza per gli utenti."
 tags: ["Elio Mobile Beta", "rete decentrata", "connettività mobile", "sicuro", "affidabile", "piani convenienti", "Punti caldi dell'elio", "Blockchain di elio", "programma beta", "rete senza fili", "reti cellulari", "operatore di telefonia mobile", "innovazione", "tecnologia", "espansione della rete", "feedback degli utenti", "sconvolgimento del settore", "Dispositivo compatibile con Helium Mobile", "applicazione", "tecnologia emergente"]
-cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.png"
+cover: "/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp"
 coverAlt: "Un'illustrazione vibrante che mostra una rete di dispositivi interconnessi con il marchio Helium Mobile, che simboleggia l'approccio innovativo e decentralizzato alla connettività mobile."
 coverCaption: ""
 ---

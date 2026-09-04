@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Leer meer over de tactieken van phishing scammers en ontdek effectieve strategieën om uzelf te beschermen tegen het worden van een slachtoffer."
 tags: ["phishing-zwendel", "cyberbeveiliging", "online bedreigingen", "e-mail spoofing", "social engineering", "bescherming tegen malware", "online veiligheid", "gegevensbeveiliging", "identiteitsdiefstal", "wachtwoordbeveiliging", "twee-factor authenticatie", "software-updates", "overheidsvoorschriften", "online privacy", "cyberbewustzijn", "digitale fraude", "phishing-bewustzijn", "veiligheid van sociale media", "online oplichting", "preventie van cybercriminaliteit"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Een waakzaam schild dat een gebruiker beschermt tegen phishing-aanvallen"
 coverCaption: ""
 ---

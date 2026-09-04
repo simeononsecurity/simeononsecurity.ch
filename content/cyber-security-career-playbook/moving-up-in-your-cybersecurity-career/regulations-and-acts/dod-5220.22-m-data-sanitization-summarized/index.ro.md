@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Specificația DoD 5220.22-M este un standard critic pentru ștergerea în siguranță a informațiilor sensibile de pe mediile de stocare digitală, utilizat pe scară largă de către armata și organizațiile guvernamentale americane."
 tags: ["Igienizarea datelor", "ștergerea securizată", "informații sensibile", "securitatea datelor", "medii de stocare digitală", "DoD 5220.22-M", "protecția datelor", "confidențialitatea datelor", "securitatea informațiilor", "eliminarea datelor", "prevenirea încălcării securității datelor", "software de igienizare a datelor", "securitate digitală", "distrugerea datelor", "gestionarea datelor", "ștergerea sigură a datelor", "prevenirea recuperării datelor", "securitate cibernetică", "ștergerea datelor", "gestionarea informațiilor", "eliminarea sigură", "metode de distrugere a datelor", "procesul de igienizare a datelor", "suprascrierea datelor", "verificarea datelor", "standarde de igienizare a datelor", "cele mai bune practici de eliminare a datelor", "eliminarea sigură a datelor", "reutilizare sigură", "conformitatea cu igienizarea datelor", "gestionarea securizată a datelor"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "O imagine a unui hard disk care este șters în siguranță cu ajutorul unui software de curățare a datelor, cu un lacăt sau un scut care simbolizează securitatea în prim-plan"
 coverCaption: ""
 ---

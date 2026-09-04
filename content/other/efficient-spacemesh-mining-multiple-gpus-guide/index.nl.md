@@ -6,7 +6,7 @@ draft: false
 description: "Leer hoe je Spacemesh mining kunt optimaliseren met behulp van meerdere GPU's met het milieuvriendelijke PoST-algoritme en maximaliseer je beloningen."
 genre: ["Cryptocurrency", "Blockchain", "Mijnbouw", "Technologie", "Gedecentraliseerd", "GPU-mijnbouw", "Bewijs van ruimte-tijd", "Milieuvriendelijk", "Cryptotips", "Digitale activa"]
 tags: ["Spacemesh", "Mijnbouw", "GPU's", "Bewijs van ruimte-tijd", "Cryptocurrency", "Blockchain", "Milieuvriendelijk", "Gedecentraliseerd", "PoST-algoritme", "Mijngids", "Cryptotips", "Beloningen", "Optimalisatie", "Energiezuinig", "GPU-mijnbouw", "Digitale activa", "Technologie", "Decentralisatie", "Bewijs van ruimte", "Ruimte-tijd mijnbouw", "Mijnefficiëntie maximaliseren", "Milieuvriendelijke cryptocurrency", "Spacemesh netwerk", "GPU Mijnbouw Opstelling", "Mijnen met meerdere GPU's", "Gedecentraliseerde blockchain-mijnbouw", "Crypto mijnbouw tips", "Efficiënte GPU-mijnbouw", "Bewijs van ruimte-tijd-algoritme", "Beloningen voor cryptocurrency"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "Een illustratie in cartoonstijl die laat zien hoe meerdere GPU's samenwerken om Spacemesh te ontginnen."
 coverCaption: "Mijn slimmer, mijn groener!"
 ---

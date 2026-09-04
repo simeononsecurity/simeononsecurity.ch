@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索暗网的隐秘世界及其与网络犯罪的联系，同时揭示其在新闻报道和举报方面的双重性质和潜力。"
 tags: ["暗网", "网络犯罪", "非法活动", "托尔", "黑客行为", "欺骗", "身份盗窃", "新闻", "举报", "在线安全", "个人信息", "数据泄露", "在线隐私", "政府法规", "网络安全", "预防犯罪", "匿名浏览", "在线匿名", "在线威胁", "数字安全"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "保护计算机免受暗网和网络犯罪威胁的数字盾牌插图。"
 coverCaption: ""
 ---

@@ -21,7 +21,7 @@ Cybersecurity is a rapidly evolving field with a wide range of specializations t
 
 ### Cyber Security Career Roadmap Chart
 This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career Paths as aligned with the [NICE CyberSecurity Workforce Framework Work Roles](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/).
-{{< figure src="SecCareerRoadmap2022.png" alt="Cyber Security Career Roadmap 2022" link="https://pauljerimy.com/it-career-roadmap/" >}}
+{{< figure src="SecCareerRoadmap2022.webp" alt="Cyber Security Career Roadmap 2022" link="https://pauljerimy.com/it-career-roadmap/" >}}
 
 ______
 

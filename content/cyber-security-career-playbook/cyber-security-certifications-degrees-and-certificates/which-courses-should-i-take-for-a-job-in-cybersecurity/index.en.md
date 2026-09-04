@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Discover the must-have cybersecurity courses that will equip you with the skills and knowledge needed for a thriving career in the industry."
 tags: ["cybersecurity courses", "essential courses", "career development", "cybersecurity training", "information security", "network security", "ethical hacking", "incident response", "security certifications", "data privacy", "compliance", "cloud security", "IoT security", "ICS security", "cybersecurity skills", "cybersecurity education", "cybersecurity career path", "cybersecurity job prospects", "cybersecurity certifications", "cybersecurity industry", "cybersecurity trends", "cybersecurity best practices", "cybersecurity job market", "cybersecurity training programs", "cybersecurity curriculum", "cybersecurity specialization", "cybersecurity learning resources", "cybersecurity online courses", "cybersecurity degree programs", "cybersecurity career opportunities"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "An illustration featuring a shield-wielding cybersecurity professional guarding digital assets against cyber threats."
 coverCaption:  "Secure your future with essential cybersecurity courses."
 ---

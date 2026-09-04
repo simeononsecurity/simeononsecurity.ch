@@ -6,7 +6,7 @@ draft: false
 description: "Zdobywaj ekologiczne nagrody dzięki wydobywaniu Spacemesh, zdecentralizowanemu podejściu wykorzystującemu innowacyjny algorytm konsensusu PoST."
 genre: ["Wydobywanie kryptowalut", "Dowód Czasoprzestrzeni", "Zdecentralizowane nagrody", "Przyjazne dla środowiska górnictwo", "Technologia blockchain", "Kryptowaluta", "Wydobywanie kryptowalut", "Proof-of-Space", "Decentralizacja", "Konsensus blockchain"]
 tags: ["Spacemesh Mining", "Dowód Czasoprzestrzeni", "Przyjazny dla środowiska", "Decentralizacja", "Wydobywanie kryptowalut", "Technologia blockchain", "Siatki", "Dowody PoST", "Nagrody górnicze", "Entuzjaści kryptowalut", "Zdecentralizowany konsensus", "Ekologiczne rozwiązania dla górnictwa", "Nagrody kryptowalutowe", "Bezpieczeństwo kryptowalut", "Proof-of-Space", "Innowacje kryptograficzne", "Sieć blockchain", "Sieć Spacemesh", "Proces tworzenia siatki", "Wydajność kryptowalut", "Udział w kryptowalutach", "Skalowalność kryptowalut", "Zachęty blockchain", "Oprogramowanie Spacemesh", "Żetony Spacemesh", "Sieć kryptograficzna", "Transakcje kryptowalutowe", "Decentralizacja kryptowalut", "Wyzwania kryptowalutowe"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "Przyciągająca wzrok kreskówkowa ilustracja statku kosmicznego z napędem rakietowym wydobywającego kryptowaluty w przestrzeni kosmicznej, symbolizująca przyjazny dla środowiska i innowacyjny proces wydobywania Spacemesh."
 coverCaption: "Górnictwo do gwiazd! Ekologiczne nagrody Spacemesh czekają."
 ---

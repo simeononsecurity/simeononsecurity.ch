@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Aflați 10 sfaturi esențiale de securitate a e-mailurilor pentru a vă păstra datele în siguranță și a vă proteja împotriva amenințărilor cibernetice și a încălcărilor."
 genre: ["Securitate e-mail", "Protecția datelor", "Securitatea cibernetică", "Confidențialitatea online", "Furtul de identitate", "Securitatea parolei", "Escrocherii de phishing", "Siguranța pe internet", "Securitate digitală", "Formarea angajaților"]
 tags: ["securitate e-mail", "protecția datelor", "securitate cibernetică", "confidențialitatea online", "furt de identitate", "pierdere financiară", "criptare e-mail", "escrocherii de phishing", "securitatea parolei", "Wi-Fi public", "VPN", "software de e-mail", "autentificare cu doi factori", "e-mailuri de phishing", "servicii de e-mail criptate", "patch-uri de securitate", "încărcare automată a imaginilor", "informații sensibile", "rețele Wi-Fi publice", "rețea privată virtuală", "informații personale", "formare în domeniul securității", "politici de securitate", "comunicare deschisă", "incidente de securitate", "educația angajaților", "amenințări cibernetice", "siguranța datelor", "confidențialitate digitală", "securitate online"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "O ilustrație simbolică a unui plic încuiat, înconjurat de straturi de protecție asemănătoare unui scut, reprezentând securitatea e-mailurilor și protecția datelor"
 ---
  **10 sfaturi esențiale de securitate a e-mailurilor pentru a vă păstra datele în siguranță**

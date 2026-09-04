@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "发现最适合初学者的 Linux 发行版，包括 Ubuntu、Zorin OS、Linux Mint 和 Manjaro，它们提供友好的用户界面和出色的社区支持。"
 tags: ["Linux 发行版", "乌班图", "佐林操作系统", "Linux Mint", "Manjaro", "初学者", "友好的用户界面", "硬件兼容性", "社区支持", "开放源代码", "基于 Debian", "类似 Windows 的界面", "滚动释放", "肉桂桌面环境", "Xfce 桌面环境", "KDE Plasma 桌面环境", "GNOME 桌面环境", "软件储存库", "综合文献", "预装软件", "最新软件更新", "任务栏", "开始菜单", "系统匣", "多媒体编解码器", "软件包管理器", "支持性社区", "政府法规", "法律合规性", "安全计算经验"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "一幅插图展示了一群使用不同 Linux 发行版的不同电脑用户，他们脸上洋溢着笑容，展示了 Linux 对初学者的便利性和包容性"
 coverCaption: ""
 ---

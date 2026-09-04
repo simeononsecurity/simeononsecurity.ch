@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Learn how to effectively set and handle time sources in Windows domains and standalone machines to ensure accurate time synchronization and avoid potential issues."
 tags: ["time sources", "Windows domain", "standalone machines", "time synchronization", "accurate timekeeping", "NTP servers", "domain controllers", "Windows Time service", "authentication failures", "log file inconsistencies", "replication issues", "time source configuration", "time source management", "Windows time synchronization", "timekeeping best practices", "time source setup", "synchronizing system time", "Windows domain time synchronization", "standalone machine time synchronization", "time source selection", "time source troubleshooting", "time source errors", "time source issues", "time source configuration commands", "time source setup instructions", "time synchronization challenges", "consequences of time loss", "time drift prevention", "time synchronization failure resolution", "time synchronization troubleshooting", "time source management in Windows domains", "handling time sources in standalone Windows machines", "preventing time loss in Windows environments", "consequences of time synchronization failures", "best practices for accurate timekeeping"]
-cover: "/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.png"
+cover: "/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.webp"
 coverAlt: "An image depicting a clock being synchronized with a domain controller and standalone machine, symbolizing time source management and accurate time synchronization in Windows environments."
 coverCaption: ""
 ---

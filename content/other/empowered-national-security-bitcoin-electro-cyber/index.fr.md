@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez la théorie révolutionnaire de la projection de puissance et ses implications pour la sécurité nationale, alors que le bitcoin se transforme en une puissante technologie de sécurité électro-cyber."
 genre: ["Crypto-monnaie", "Cybersécurité", "Technologie", "Sécurité nationale", "Recherche", "Financier", "L'innovation", "Monnaie numérique", "Élaboration des politiques", "Blockchain"]
 tags: ["Bitcoin", "Preuve de travail", "Sécurité cybernétique", "Théorie de la projection de puissance", "Impact stratégique national", "Technologie financière", "Recherche sur les crypto-monnaies", "Le rôle de Bitcoin", "Stratégies de cybersécurité", "Décret présidentiel américain", "Monnaie numérique", "Livre blanc sur le bitcoin", "Évaluation des risques", "Le potentiel du bitcoin", "Système monétaire", "Logiciels", "Cyberespace", "Approche interdisciplinaire", "Sécurité de l'information", "Politique publique", "Sécuriser les informations critiques", "Innovation numérique", "Resilient Future", "Crypto", "Sécurité du Bitcoin", "Bourse financière", "Les implications du bitcoin", "Bitcoin au 21ème siècle", "Les récompenses du bitcoin"]
-cover: "/img/cover/empowered-national-security.png"
+cover: "/img/cover/empowered-national-security.webp"
 coverAlt: "Une œuvre d'art symbolique présentant un bouclier, représentant la transformation de Bitcoin en une puissante technologie de sécurité électro-cyber."
 coverCaption: "Libérer la puissance de Bitcoin : sécuriser notre avenir"
 ---

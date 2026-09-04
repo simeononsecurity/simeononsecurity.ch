@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți sfaturi esențiale pentru practici sigure în social media pentru a vă proteja confidențialitatea online și aflați despre setările de confidențialitate ale unor platforme populare precum LinkedIn, Facebook, Twitter și Instagram."
 tags: ["confidențialitate", "confidențialitatea online", "social media", "practici sigure", "setări de confidențialitate", "LinkedIn", "Facebook", "Twitter", "Instagram", "cereri de prietenie", "linkuri aleatorii", "anchete", "reglementări guvernamentale", "GDPR", "CCPA", "securitate cibernetică", "protecția datelor", "date cu caracter personal", "încălcarea confidențialității", "securitate digitală", "riscuri de confidențialitate", "legile privind confidențialitatea", "reglementări privind confidențialitatea", "confidențialitatea datelor", "securitate online", "protecția vieții private", "confidențialitatea în social media", "sfaturi de confidențialitate", "practici de confidențialitate online", "protejarea informațiilor personale"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "O imagine reprezentând un scut care protejează informațiile personale ale unei persoane în timp ce utilizează platformele de socializare."
 coverCaption: ""
 ---

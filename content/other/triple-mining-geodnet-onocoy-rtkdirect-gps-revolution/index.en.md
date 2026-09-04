@@ -6,7 +6,7 @@ draft: false
 description: "Embark on a GPS revolution! Discover DIY triple mining with Geodnet, Onocoy, and RTKDirect for enhanced precision. Join a global network and save costs. Explore the future of navigation now!"
 genre: ["Technology", "DIY", "Navigation", "GPS", "Precision", "Geolocation", "Blockchain", "Networking", "Innovation", "Global Connectivity"]
 tags: ["Triple mining", "Geodnet", "Onocoy", "RTKDirect", "DIY technology", "GPS precision", "Navigation solutions", "Cost-effective setups", "Customization", "Blockchain rewards", "Geolocation networks", "Innovative GNSS", "Networking guide", "Location-based applications", "RTK Rovers", "GNSS capabilities", "Data contributions", "Internet connectivity", "Signal-to-Noise Ratio", "Precision surveys", "DIY innovation", "Location accuracy", "GNSS correction data", "Satellite navigation", "Global technology community", "Navigation advancements", "DIY enthusiasts", "Location-based rewards"]
-cover: "/img/cover/triple_mining_geodnet_onocoy_rtkdirect.png"
+cover: "/img/cover/triple_mining_geodnet_onocoy_rtkdirect.webp"
 coverAlt: "A symbolic representation of triple mining with Geodnet, Onocoy, and RTKDirect, revolutionizing GPS precision."
 coverCaption: "Triple Mining GPS Revolution: Unleash Precision with Geodnet, Onocoy, RTKDirect!"
 ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/other/diy-rtkdirect-reference-station-guide", "/other/creating-profitable-low-powered-crypto-miners","/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
@@ -32,7 +32,7 @@ For this project we need a few things.
 4. A [GPS Antenna](https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html) (You can use the one that came with your geodnet device)
 5. A really good [Power Blocking Antenna Splitter](https://www.gns-electronics.de/product/11359)
 
-{{< figure src="compute.jpeg" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
+{{< figure src="compute.webp" alt="RTKDirect DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
 ### Raspberry Pi and Pi Clones:
 Hard to get ahold of these days but they are super low power and are quite customizable. For info on how to install Raspbian on your Raspberry Pi:
@@ -65,7 +65,7 @@ There are many receivers on the market but at a bare minimum it must support [**
 
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. Most won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. THey will allow you to be capable of at most of the RTKDirect rewards. While you'll be able to use the same software we mention below, the instructions we've provided may not exactly line up. Be advised that things like COM ports and the dongle specific instructions may be different for you.
 
-{{< figure src="advanced-receivers.jpeg" alt="The Best GPS Receivers" >}}
+{{< figure src="advanced-receivers.webp" alt="The Best GPS Receivers" >}}
 
 | Model                                                                                                       | Description                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,7 +80,7 @@ These are all going to be devices that are Triple-Band, High Pull Rate, Extreme 
 
 We've covered this in a more in depth guide about the [Best GPS Base Station Antennas](https://simeononsecurity.com/other/unveiling-best-gps-antennas-onocoy-geodnet/).
 
-{{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+{{< figure src="surveying-antenna.webp" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
 | Model                                                                                                       | Description                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
@@ -392,7 +392,7 @@ Then, you'll need to run the following instructions on a system running Windows:
 3. Download and install [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port).
    1. You only need the [single-port](https://www.hw-group.com/files/download/sw/version/hw-vsp3s_3-1-2.exe) version
    2. On the Virtual Serial Port Tab
-   3. {{< figure src="hw-vsp.png" alt="HW VSP3 - Virtual Serial Port" link="https://www.hw-group.com/software/hw-vsp3-virtual-serial-port" >}}
+   3. {{< figure src="hw-vsp.webp" alt="HW VSP3 - Virtual Serial Port" link="https://www.hw-group.com/software/hw-vsp3-virtual-serial-port" >}}
    4. Specify the `COM PORT` from com0com, `IP` and `Port Number` of the RTKLIB or Docker Based TCP server and click `Create COM`
 4. Open [U-Blox's U-Center 2](https://www.u-blox.com/en/u-center-2) and on the second tab you'll see an option to "Add Device". 
    1. Click "Add Device" and select the com port you created during the `com0com` setup and selected in `HW VSP3`..

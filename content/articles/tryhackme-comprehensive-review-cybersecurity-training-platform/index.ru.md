@@ -6,7 +6,7 @@ draft: false
 description: "Откройте для себя возможности TryHackMe: особенности, цены, сертификации, сетевые сервисы и многое другое, что позволит вам овладеть навыками кибербезопасности."
 genre: ["Технология", "Кибербезопасность", "Онлайн-обучение", "Этический хакинг", "Сетевая безопасность", "Виртуальные лаборатории", "Сертификаты", "Пути обучения", "Практический опыт", "Обзор TryHackMe"]
 tags: ["TryHackMe", "Обзор TryHackMe", "Сертификаты TryHackMe", "Ценообразование TryHackMe", "TryHackMe Сетевые сервисы 2", "Подписка на TryHackMe", "Обход аутентификации TryHackMe", "Включение файлов TryHackMe", "TryHackMe OWASP Top 10 Walkthrough", "TryHackMe VPN", "TryHackMe Основы Windows 1", "TryHackMe Active Directory", "TryHackMe Основы работы с Active Directory", "Ответы TryHackMe", "TryHackMe Основы Linux Часть 3", "Логотип TryHackMe", "TryHackMe Mitre", "TryHackMe Splunk", "SQL-инъекция TryHackMe", "Поддержка TryHackMe", "Средства анализа угроз TryHackMe", "Уязвимости загрузки TryHackMe", "TryHackMe Walking an Application", "TryHackMe Основы Windows 2", "TryHackMe Основы Windows 3", "TryHackMe Blue", "TryHackMe Blue Walkthrough"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "Изображение хакера в плаще супергероя, символизирующее расширение возможностей, полученных в ходе обучения кибербезопасности в TryHackMe."
 coverCaption: "Расширьте свои возможности с помощью TryHackMe: раскройте свои суперспособности в области кибербезопасности"
 ---

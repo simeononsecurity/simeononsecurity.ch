@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "Adelántese a las ciberamenazas informándose sobre los últimos CVE y actores de amenazas mediante estrategias y recursos eficaces."
 tags: ["ciberseguridad", "CVEs", "actores de la amenaza", "exploración de vulnerabilidades", "información sobre amenazas", "intercambio de información", "colaboración industrial", "avisos de seguridad", "NVD", "CVE", "US-CERT", "CERT", "Refuerzo ATT&CK", "OpenCTI", "NIST", "CISA", "vulnerabilidades de ciberseguridad", "nuevas amenazas", "defensa proactiva", "análisis automatizado de vulnerabilidades", "inteligencia de fuentes abiertas", "inteligencia sobre amenazas en tiempo real", "tácticas y técnicas de los actores de amenazas", "OSINT técnica", "Bases de datos CVE", "avisos de seguridad para proveedores", "blogs de seguridad", "información sobre amenazas", "comunidades de intercambio de información", "normativa gubernamental"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "Ilustración de un escudo con una lupa que simboliza la ciberseguridad."
 coverCaption: "Defiende y descubre: Empodérate con conocimientos en el ámbito de la ciberseguridad."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Eficientizați procesul de actualizare a sistemelor Windows prin automatizarea cu Ansible - instrucțiuni pas cu pas și cele mai bune practici incluse."
 tags: ["automatizarea actualizărilor Windows", "Automatizare Ansible", "managementul sistemului", "patch-uri de securitate", "infrastructură IT", "automatizarea rețelei", "managementul configurației", "operațiuni IT", "DevOps", "securitate cibernetică", "automatizare IT", "eficienta IT", "Ansible playbook", "securitate Windows", "gestionarea actualizarilor", "productivitatea IT", "întreținere IT", "Acreditări Ansible", "configurația gazdei", "automatizarea sistemului", "Actualizări Windows", "Managementul sistemului Windows", "Patch-uri de securitate Windows", "Infrastructura IT Windows", "Automatizarea rețelei Windows", "Gestionarea configurației Windows", "Operațiuni IT Windows", "Windows DevOps", "securitate cibernetică Windows", "Automatizare Windows IT", "Eficiență IT Windows"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "O ilustrație animată care prezintă un logo Windows înconjurat de roți dințate care simbolizează automatizarea și actualizările."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Aflați cum să auditați eficient permisiunile pentru un vCenter utilizând PowerCLI, asigurând o infrastructură virtuală sigură."
 genre: ["Audit al permisiunilor vCenter", "Automatizarea PowerCLI", "Securitatea VMware", "Managementul infrastructurii virtuale", "Atribuții de permisiune", "Controlul accesului utilizatorilor", "Vulnerabilități de securitate", "Automatizarea PowerShell", "gestionarea mediului vSphere", "Revizuirea permisiunilor utilizatorilor"]
 tags: ["vCentre", "PowerCLI", "permisiuni de audit", "vSphere", "VMware", "infrastructură virtuală", "PowerShell", "controlul accesului utilizatorilor", "vulnerabilități de securitate", "atribuții de permisiune", "automatizare", "Clipul PowerCLI cmdlets", "roluri de utilizator", "revizuirea autorizațiilor", "politici de securitate", "conformitate", "rapoarte de audit", "protecția datelor", "GDPR", "HIPAA", "gestionarea utilizatorilor", "Utilizatori vCenter", "cele mai bune practici de securitate", "reglementări guvernamentale", "Instalarea PowerCLI", "Conexiune vCenter", "Scripting PowerCLI", "auditul procesului", "exportul datelor de audit", "eliminarea permisiunii"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.webp"
 coverAlt: "O ilustrație reprezentând un scut care protejează un centru de date virtual de accesul neautorizat."
 coverCaption: "Protejați-vă vCenter-ul cu un audit eficient al permisiunilor folosind PowerCLI."
 ---

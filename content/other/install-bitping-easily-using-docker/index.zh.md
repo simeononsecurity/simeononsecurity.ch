@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "了解如何安装 Bitping，这是一款功能强大的网站监控和性能优化解决方案，可实时反馈停机时间和性能下降情况。"
 tags: ["咬合", "网站监测", "性能优化", "实时监控", "宕机", "性能下降", "压力测试", "基准", "动态重新路由", "重置", "网络情报", "网络钩子", "索拉纳", "网站", "轻量级网络测试", "赔付", "收益", "网站性能", "网站分析", "网络监控", "性能监测", "正常运行时间监控", "真实用户监控", "网络测试", "网站反馈", "网站提示", "网络智能层", "监控解决方案", "网络性能", "性能指标"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "带有实时指标和警报的网站性能仪表盘动画插图。"
 coverCaption: ""
 ---

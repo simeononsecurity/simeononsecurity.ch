@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-05
 description: "Entdecken Sie die Verantwortlichkeiten, Fähigkeiten und Branchenvorschriften, die die Rolle eines Cybersecurity-Experten beim Schutz digitaler Ressourcen und der Bekämpfung von Cyber-Bedrohungen definieren."
 tags: ["Cybersicherheitsexperte", "Rolle im Bereich der Cybersicherheit", "Verantwortlichkeiten im Bereich der Cybersicherheit", "Cybersicherheitsfähigkeiten", "Bedrohungsdaten", "Vorfallreaktion", "Sicherheitsbewusstsein", "Netzwerksicherheit", "Verschlüsselungsalgorithmen", "sichere Kodierung", "Branchenvorschriften", "GDPR", "HIPAA", "PCI DSS", "Zertifizierungen", "CISSP", "CEH", "CompTIA Sicherheit+", "Schutz digitaler Vermögenswerte", "Cyber-Bedrohungen", "Datensicherheit", "Netzwerkschutz", "Schwachstellenanalyse", "Sicherheitsprüfungen", "Malware-Erkennung", "Verhinderung von Datenschutzverletzungen", "Karriere im Bereich Cybersicherheit", "Cybersicherheitsschulung", "Cybersicherheits-Zertifizierungen", "Informationssicherheit", "Cyber-Abwehr"]
-cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.png"
+cover: "/img/cover/An_animated_cybersecurity_expert_wearing_a_superhero_cape.webp"
 coverAlt: "Ein animierter Cybersecurity-Experte mit einem Superhelden-Umhang, der selbstbewusst mit einem Schild in der einen und einem Schloss-Symbol in der anderen Hand steht und digitale Werte schützt."
 coverCaption: "Eine symbolische Darstellung eines Cybersicherheitsexperten, der mit Wissen und Werkzeugen bewaffnet ist, um digitale Werte vor Cyberbedrohungen zu schützen."
 ---

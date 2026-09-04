@@ -6,7 +6,7 @@ draft: false
 description: "Discover the pros and cons of legalizing hacking back in cybersecurity, with a focus on its legality, ethics, and practical implications."
 genre: ["Cybersecurity", "Technology", "Legal Issues", "Ethical Dilemmas", "Internet Security", "Digital Vigilantism", "Legal Frameworks", "Cybercrime Prevention", "Hacking Countermeasures", "Digital Retaliation"]
 tags: ["Hacking Back Legalization", "Cybersecurity Debate", "Legal Frameworks", "Ethical Concerns", "Cybercrime Prevention", "Digital Vigilantism", "Internet Security", "Retaliation Risks", "Legal vs. Ethical", "Digital Counterattacks", "Legal Implications", "Cyber Threats", "Proactive Defense", "Attribution Challenges", "Collateral Damage", "Hacking Laws", "Budapest Convention", "CFAA", "ECPA", "Digital Forensics", "Hacking Retaliation", "Cyber Conflict", "Vigilantism", "Risk Mitigation", "Online Retribution", "Legal Boundaries", "Cybersecurity Measures", "Hacking Countermeasures", "Responsibility in Cyberspace"]
-cover: "/img/cover/hacker-courtroom-legal-debate.png"
+cover: "/img/cover/hacker-courtroom-legal-debate.webp"
 coverAlt: "A hacker in a courtroom, symbolizing the legal debate on hacking back."
 coverCaption: "Legalizing Hacking Back: A Complex Dilemma"
 ---

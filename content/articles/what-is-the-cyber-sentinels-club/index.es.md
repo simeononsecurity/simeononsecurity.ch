@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra la misión y los principios de los Cibercentinelas, una comunidad de profesionales de la ciberseguridad y las TI comprometidos con el intercambio de conocimientos y el desarrollo de soluciones innovadoras a los retos de la ciberseguridad."
 tags: ["ciberseguridad", "TI", "comunidad", "intercambio de conocimientos", "colaboración", "aprendizaje continuo", "soporte", "inclusión", "impacto positivo", "canales de texto", "canales de voz", "asesoramiento profesional", "oportunidades de empleo", "recursos didácticos", "tendencias emergentes", "proyectos", "eventos", "conferencias", "fotos de mascotas", "tecnología"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Un escudo digital estilizado con la figura de un ciberguerrero en el centro, rodeado de formas y líneas abstractas que representan flujos de datos y conexión de redes"
 coverCaption: ""
 ---

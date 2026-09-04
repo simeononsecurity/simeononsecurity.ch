@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cet article explore les avantages de la mise à niveau vers Server 2019 ou du passage à Azure, notamment l'amélioration de la sécurité, des performances, de l'intégration et de l'assistance, afin d'aider les entreprises à prendre la meilleure décision pour leur infrastructure informatique."
 tags: ["Mise à niveau vers le serveur 2019", "Passer à Azure", "Infrastructure informatique", "Technologie des affaires", "Renforcement de la sécurité", "Amélioration des performances", "Intégration avec Azure", "Soutien à long terme", "Évolutivité", "Rapport coût-efficacité", "Fiabilité accrue", "Analyse avancée", "Approche hybride", "Une infrastructure informatique souple et résiliente"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "Image d'une salle de serveurs avec des racks de serveurs d'un côté et un nuage de l'autre, avec une personne debout au milieu qui les regarde tous les deux."
 coverCaption: ""
 ---

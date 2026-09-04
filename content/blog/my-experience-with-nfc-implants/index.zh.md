@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "我将深入探讨植入 NFC 标签的风险、并发症和个人见解，强调知情决策的重要性。"
 tags: ["NFC 标签植入", "人体黑客", "危险事物", "植入风险", "身体改装", "并发症", "植入物排斥", "疼痛和炎症", "神经损伤", "植入物移除", "慢性疼痛", "安全预防措施", "风险与收益", "协商", "研究", "专业安装", "身体改造的风险", "植入物移位", "腕管综合征", "了解并发症", "人身安全", "明智决定", "数字互动", "医疗程序", "植入安全", "身体改造注意事项", "植入并发症", "个人福祉", "健康考虑", "专业建议"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "一张图片描述了一个人的手部植入了一个 NFC 标签，手部周围伴有疼痛符号，说明了植入 NFC 标签的风险和并发症。"
 coverCaption: ""
 ---

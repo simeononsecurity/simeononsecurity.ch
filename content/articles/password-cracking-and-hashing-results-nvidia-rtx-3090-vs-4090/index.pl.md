@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj różnicę w wydajności między NVIDIA RTX 3090 i RTX 4090 w łamaniu haseł, podkreślając konsekwencje dla bezpieczeństwa i środki ochrony."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "łamanie haseł", "wydajność", "bezpieczeństwo", "ochrona hasłem", "cyberbezpieczeństwo", "punkt odniesienia", "GPU", "menedżer haseł", "silne hasła", "uwierzytelnianie dwuskładnikowe", "regulacje rządowe", "CISA", "RODO", "bezpieczeństwo danych", "porównanie sprzętu", "bezpieczeństwo hasła", "karta graficzna", "siła hasła"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Ilustracja przedstawiająca łamanie zamka cyfrowego, symbolizująca treść artykułu na temat wydajności łamania haseł."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Informieren Sie sich über die von der NIST zugelassenen Methoden zur Bereinigung von Festplatten, SSDs, USB-Flash-Laufwerken, CDs, DVDs und Blu-ray-Disks, um sensible Daten vor unbefugtem Zugriff zu schützen."
 tags: ["NIST-geprüfte Methoden", "Desinfektion von Wechseldatenträgern", "Festplattenlaufwerke", "SSDs", "USB-Sticks", "CDs", "DVDs", "Blu-ray-Disks", "Sicherheit der Daten", "Schutz von sensiblen Daten"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Das Bild einer Person, die einen USB-Stick in der Hand hält, mit einem Schredder im Hintergrund"
 coverCaption: ""
 ---

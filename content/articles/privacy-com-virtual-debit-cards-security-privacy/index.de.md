@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie, wie die virtuellen Debitkarten von Privacy.com Ihre Online-Sicherheit erhöhen und Ihre Privatsphäre schützen können, während sie gleichzeitig eine einfache Kontrolle über Transaktionen und Abonnements bieten."
 genre: ["Online-Sicherheit", "Digitaler Datenschutz", "Virtuelle Debitkarten", "Finanzieller Schutz", "Online-Transaktionen", "Betrugsbekämpfung", "Datenschutz", "Finanzieller Datenschutz", "Cybersecurity", "Persönliche Finanzen"]
 tags: ["Datenschutz.com", "Virtuelle Debitkarten", "Online-Sicherheit", "Digitaler Datenschutz", "Finanzieller Schutz", "Datenverschlüsselung", "Betrugsbekämpfung", "Sichere Transaktionen", "Sicherheit auf Bankebene", "Datenschutz-Kontrollen", "Wiederkehrende Kosten", "Händler-Sperrkarten", "Schutz finanzieller Daten", "Zahlungssicherheit", "Datenschutzbestimmungen", "Einhaltung der Vorschriften", "PCI DSS", "GDPR", "Büro für Verbraucherfinanzschutz", "Finanztechnologie", "Sichere Online-Zahlungen", "Virtuelle Karten für den Datenschutz", "Kontrollierte Ausgaben", "Online-Abonnements", "Persönliches Finanzmanagement", "Prävention von Datenschutzverletzungen", "Sicherer digitaler Zahlungsverkehr", "Cybersecurity-Lösungen", "Schutz von Finanzinformationen", "Verbesserter Datenschutz"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Stellen Sie sich eine lebendige und dynamische digitale Illustration vor, die eine abgeschirmte virtuelle Karte zeigt, die ein Schlosssymbol schützt, das die verbesserte Sicherheit und den Schutz der Privatsphäre darstellt, die die virtuellen Debitkarten von Privacy.com bieten."
 coverCaption: "Schützen, kontrollieren und befähigen Sie Ihre Online-Transaktionen."
 ---

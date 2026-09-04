@@ -87,7 +87,7 @@ ______
 
 تلتقط كاميرات Flock أكثر من مجرد أرقام اللوحات. فهي تسجّل الماركة والطراز واللون ونوع الهيكل والميزات المميزة لكل مركبة تمر. تسوّق الشركة هذه المعلومات كـ"بصمات" المركبة. هذا يعني أن كل رحلة تقوم بها يتم تسجيلها، حتى عندما لا تفعل شيئًا مخالفًا للقانون.
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### كيف تعمل تكنولوجيا ALPR
 
@@ -200,7 +200,7 @@ ______
 
 ما بدأ كأداة **لحل جرائم الممتلكات** توسّع بشكل كبير. هذه ليست مخاطر افتراضية. بل أنماط موثّقة.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE وتطبيق قوانين الهجرة
 **استخدمت ICE Flock لتحديد موقع المهاجرين غير الموثقين وملاحقتهم دون أوامر قضائية.** تمنح الشبكة الوطنية للمنصة سلطة تطبيق الهجرة الفيدرالية أداةً لتتبع الأفراد عبر الولايات القضائية دون أي احتمال معقول فردي. اكتشفت كثير من المجتمعات التي موّلت شبكات Flock الخاصة بها لاسترداد الممتلكات المسروقة أن كاميراتها جزء من عمليات إنفاذ الهجرة الفيدرالية.

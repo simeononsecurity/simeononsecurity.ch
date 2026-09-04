@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprèn els conceptes bàsics de la ciberseguretat, inclosos els tipus d'amenaces cibernètiques, la importància de la ciberseguretat i els passos per millorar la seguretat en línia."
 tags: ["Seguretat cibernètica", "Amenaces cibernètiques", "Seguretat en línia", "Protecció de dades", "Virus", "Programari maliciós", "Estafes de pesca", "Hackers", "seguretat nacional", "Propietat intel · lectual", "Privacitat personal"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Imatge d'una persona asseguda davant d'un ordinador amb una expressió preocupada mentre es mostra a la pantalla un pirata informàtic o un ciberdelinqüent, que representa els perills de les amenaces cibernètiques i la importància de la ciberseguretat"
 coverCaption: ""
 ---

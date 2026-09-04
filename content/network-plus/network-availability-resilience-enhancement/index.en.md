@@ -6,7 +6,7 @@ draft: false
 description: "Learn about high availability, disaster recovery, load balancing, NIC teaming, and more to improve network uptime."
 genre: ["IT Certification", "Networking Technology", "Network Resilience", "IT Training", "Disaster Recovery", "High Availability", "Load Balancing", "Network Redundancy", "Infrastructure Support", "IT Resilience"]
 tags: ["Network Plus", "CompTIA Network Plus", "Network Certification", "Disaster Recovery Strategies", "Load Balancing Techniques", "NIC Teaming", "Redundant Hardware", "Network Clustering", "Facilities Support", "Infrastructure Resilience", "Fault Tolerance", "Data Backups", "Multipathing", "High Availability Concepts", "Network Infrastructure", "Redundant Power", "Network Connectivity", "VRRP", "STP", "Network Resilience Planning", "Business Continuity", "IT Infrastructure", "Network Architecture", "IT Operations", "Uptime Strategies", "Network Performance", "IT Resilience Best Practices", "Data Protection", "Disaster Preparedness", "Network Management"]
-cover: "/img/cover/An_animated_illustration_of_interconnected_ser.png"
+cover: "/img/cover/An_animated_illustration_of_interconnected_ser.webp"
 coverAlt: "An animated illustration of interconnected servers and routers working seamlessly."
 coverCaption: "Enhancing network availability and resilience for uninterrupted operations."
 ---

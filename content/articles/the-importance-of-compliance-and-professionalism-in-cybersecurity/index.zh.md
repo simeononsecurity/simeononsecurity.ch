@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "网络安全是现代企业运营的一个重要方面，需要采取全面的方法，包括正确的系统、协议和人员，以有效管理防御网络攻击。"
 tags: ["网络安全", "业务运营", "网络安全", "敏感信息", "网络攻击", "技术", "软件", "职业素质", "合规性", "行业标准", "法规", "最佳做法", "优先权", "安全文化", "数据泄露", "知识产权", "主动出击", "低优先级", "缺乏资源", "培训", "安全承诺", "信息安全官员（ISSO）", "信息安全管理系统（ISSM）", "培训和经验", "安全威胁", "100% 成功通过合规性审计", "法规", "标准", "最佳做法", "NIST 800 系列", "政治游戏", "信任", "正直", "合作", "paperrail", "透明度", "问责制"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "一组网络安全专业人员在会议室里齐心协力确保组织系统和数据安全的画面。"
 coverCaption: ""
 ---

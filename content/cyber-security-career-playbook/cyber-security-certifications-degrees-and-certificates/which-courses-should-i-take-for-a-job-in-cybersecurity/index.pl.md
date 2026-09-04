@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-17
 description: "Odkryj niezbędne kursy z zakresu cyberbezpieczeństwa, które wyposażą Cię w umiejętności i wiedzę potrzebne do rozwoju kariery w branży."
 tags: ["kursy cyberbezpieczeństwa", "niezbędne kursy", "rozwój kariery", "szkolenie w zakresie cyberbezpieczeństwa", "bezpieczeństwo informacji", "bezpieczeństwo sieci", "etyczne hakowanie", "reakcja na incydent", "certyfikaty bezpieczeństwa", "prywatność danych", "zgodność", "bezpieczeństwo w chmurze", "Bezpieczeństwo IoT", "Bezpieczeństwo ICS", "umiejętności w zakresie cyberbezpieczeństwa", "edukacja w zakresie cyberbezpieczeństwa", "ścieżka kariery w cyberbezpieczeństwie", "Perspektywy pracy w cyberbezpieczeństwie", "certyfikaty cyberbezpieczeństwa", "branża cyberbezpieczeństwa", "trendy w cyberbezpieczeństwie", "najlepsze praktyki cyberbezpieczeństwa", "rynek pracy cyberbezpieczeństwa", "programy szkoleniowe w zakresie cyberbezpieczeństwa", "program nauczania cyberbezpieczeństwa", "specjalizacja cyberbezpieczeństwo", "Zasoby edukacyjne dotyczące cyberbezpieczeństwa", "Kursy online dotyczące cyberbezpieczeństwa", "programy studiów w zakresie cyberbezpieczeństwa", "możliwości kariery w cyberbezpieczeństwie"]
-cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.png"
+cover: "/img/cover/An_illustration_featuring_a_shield-wielding_cybersecurity_p.webp"
 coverAlt: "Ilustracja przedstawiająca specjalistę ds. cyberbezpieczeństwa z tarczą chroniącą zasoby cyfrowe przed cyberzagrożeniami."
 coverCaption: "Zabezpiecz swoją przyszłość dzięki niezbędnym kursom z zakresu cyberbezpieczeństwa."
 ---

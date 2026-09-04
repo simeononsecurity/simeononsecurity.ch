@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Manténgase seguro en línea: Aprenda la Importancia del Hardening y Debloating de Windows para Mejorar la Seguridad y Privacidad.."
 tags: ["Endurecimiento de Windows", "Windows Debloating", "Seguridad mejorada", "Privacidad", "Ciberataques", "Seguridad del sistema operativo", "Sistema operativo Windows", "Protección de datos", "Ciberdelincuente", "Superficie de ataque", "Vulnerabilidades", "Actualizaciones de seguridad", "Mecanismos de autenticación", "Software no deseado", "Mejora del rendimiento", "Recogida de datos", "Autenticación de dos factores", "Software antivirus", "Software antimalware", "Información sensible", "Guía completa"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Imagen de un candado cerrado encima de la pantalla de un ordenador o portátil, que simboliza las medidas de seguridad que pueden aplicarse mediante el endurecimiento y la desprotección de Windows."
 coverCaption: ""
 ---

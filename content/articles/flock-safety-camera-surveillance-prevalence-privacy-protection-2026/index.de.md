@@ -87,7 +87,7 @@ Das Flaggschiffprodukt des Unternehmens ist die **Flock Safety Falcon-Kamera**, 
 
 Flock-Kameras erfassen mehr als nur Kennzeichennummern. Sie zeichnen Marke, Modell, Farbe, Karosserietyp und charakteristische Merkmale jedes vorbeifahrenden Fahrzeugs auf. Das Unternehmen vermarktet diese als Fahrzeug-"Fingerabdrücke". Das bedeutet, dass jede Fahrt, die du unternimmst, erfasst wird, selbst wenn du nichts Falsches getan hast.
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Wie ALPR-Technologie funktioniert
 
@@ -200,7 +200,7 @@ Der weitverbreitete Einsatz von ALPR-Überwachung wirft ernsthafte **Bedenken zu
 
 Was als Tool zur **Lösung von Eigentumsdelikten** begann, hat sich dramatisch ausgeweitet. Das sind keine hypothetischen Risiken. Es sind dokumentierte Muster.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE und Einwanderungsdurchsetzung
 **ICE hat Flock genutzt, um Personen ohne Papiere ohne Haftbefehle aufzuspüren und zu verfolgen.** Das landesweite Netzwerk der Plattform gibt der Bundeseinwanderungsbehörde ein Werkzeug, um Personen über Jurisdiktionen hinweg ohne jeden individualisierten wahrscheinlichen Grund zu verfolgen. Viele Gemeinschaften, die ihre Flock-Netzwerke zur Bekämpfung von Eigentumsdelikten finanziert hatten, haben entdeckt, dass ihre Kameras Teil von Bundeseinwanderungsdurchsetzungsoperationen sind.

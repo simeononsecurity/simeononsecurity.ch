@@ -6,7 +6,7 @@ draft: false
 description: "Een uitgebreide gids voor methodologie voor het oplossen van netwerkproblemen, inclusief stappen, tools en best practices voor het efficiënt en effectief oplossen van netwerkproblemen."
 genre: ["IT-onderwijs", "Problemen met netwerken oplossen", "Netwerkcertificering", "IT-opleiding", "Computernetwerken", "IT-vaardigheden", "Technische kennis", "IT-professionals", "Netwerkconcepten", "Netwerkondersteuning"]
 tags: ["methodologie voor het oplossen van netwerkproblemen", "netwerkproblemen", "IT-professionals", "OSI-model", "netwerkgereedschappen", "stappen voor probleemoplossing", "netwerkprestaties", "IT-vaardigheden", "probleemoplossend", "netwerkdiagnostiek", "probleemoplossing documenteren", "netwerkconfiguratie", "samenwerking tussen gebruikers", "overheidsvoorschriften", "industrienormen", "PCI DSS", "HIPAA", "GDPR", "netwerkdocumentatie", "voortdurende verbetering", "kennisbank netwerk", "systeemfunctionaliteit", "preventieve maatregelen", "optimalisatie van netwerkprestaties", "tools voor het oplossen van netwerkproblemen", "netwerkconnectiviteit", "IT-opleiding", "Proces voor probleemoplossing bij netwerken", "technieken voor probleemoplossing in netwerken", "best practices voor netwerkondersteuning", "gids voor probleemoplossing voor netwerken"]
-cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.png"
+cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.webp"
 coverAlt: "Een illustratie van een netwerktechnicus die een vergrootglas gebruikt om netwerkverbindingen te analyseren en problemen op te lossen."
 coverCaption: "Laat uw vaardigheden in het oplossen van netwerkproblemen de vrije loop"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Uncover the secrets of mining Duinocoin on ESP32 with our step-by-step guide. Optimize your setup for efficiency and explore energy-saving techniques. Learn more now!"
 genre: ["Cryptocurrency Mining", "ESP32 Tutorials", "IoT Development", "Embedded Systems", "Cryptocurrency Guides", "Duinocoin Tips", "Energy-Efficient Mining", "ESP32 Optimization", "Blockchain Technology", "Cryptocurrency Regulations"]
 tags: ["Mining Duinocoin", "ESP32", "Cryptocurrency Mining", "Duinocoin Guide", "Efficient Mining", "ESP32 Setup", "Energy-Efficient Cryptocurrency", "Duinocoin Optimization", "Blockchain", "IoT", "Embedded Systems", "Cryptocurrency Regulations", "Duinocoin Wallet", "Duinocoin Miner", "Hashrate Tracking", "Smart Scheduling", "Duinocoin Efficiency", "Government Regulations", "Mining Tips", "Duinocoin Best Practices", "Duinocoin Tutorial", "Duinocoin on Microcontrollers", "Duinocoin ESP32 Integration", "Cryptocurrency Compliance", "Duinocoin Mining Parameters", "ESP32 Temperature Monitoring", "Duinocoin Community", "Cryptocurrency News", "ESP32 Development"]
-cover: "/img/cover/esp32-duinocoin-mining.png"
+cover: "/img/cover/esp32-duinocoin-mining.webp"
 coverAlt: "An illustrative depiction of an ESP32 mining Duinocoin with energy-efficient icons, conveying the simplicity and effectiveness of the mining process."
 coverCaption: "Unlock Duinocoin riches on your ESP32 – mine smart, mine efficient!"
 ref: ["/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980"]
@@ -114,7 +114,7 @@ To ensure your ESP32 is mining Duinocoin effectively, consider implementing a mo
 
 - **Temperature Monitoring:** Keep an eye on your ESP32's temperature to prevent overheating.
 - **Hashrate Tracking:** Use the [Duino-coin dashboard](https://wallet.duinocoin.com/) to keep track of your hashrate.
-   {{< figure src="esp32_in_wallet.png" alt="Duinocoin ESP32 in Wallet" link="https://duinocoin.com/getting-started.html" >}}
+   {{< figure src="esp32_in_wallet.webp" alt="Duinocoin ESP32 in Wallet" link="https://duinocoin.com/getting-started.html" >}}
 
 ### Energy-Efficient Mining
 

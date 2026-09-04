@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Obteniu informació sobre com apuntar i apuntar la vostra antena cel·lular direccional per obtenir una intensitat i fiabilitat del senyal òptimes, inclosa la localització de torres cel·lulars i la comprensió de les zones de Fresnel."
 tags: ["antena cel·lular", "antena direccional", "reforç de telèfon mòbil", "mòdem cel·lular", "intensitat del senyal", "torres cel·lulars", "línia de visió de ràdio", "línia visual de visió", "Zones de Fresnel", "orientació de l'antena", "optimitzar el senyal", "connectivitat cel·lular", "millorar la força del senyal", "augmentar el senyal cel·lular", "amplificador de senyal cel·lular", "ubicació de la torre cel·lular", "instal·lació d'antenes", "propagació del senyal", "comunicació sense fils", "millora de la cobertura de la xarxa", "guia d'apunt", "tècniques de punteria", "optimització de l'antena mòbil", "fiabilitat del senyal", "rendiment de la xarxa", "millora del senyal cel·lular", "alineació de l'antena", "Consells d'optimització del senyal", "col·locació de l'antena mòbil", "estratègies per augmentar el senyal", "instruccions d'apuntament de l'antena"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Il·lustració d'una persona apuntant una antena cel·lular direccional cap a una torre cel·lular amb ones de senyal propagant-se."
 coverCaption: ""
 ---

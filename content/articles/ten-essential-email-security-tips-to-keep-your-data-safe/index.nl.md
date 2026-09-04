@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Leer 10 cruciale tips voor e-mailbeveiliging om uw gegevens veilig te houden en te beschermen tegen cyberbedreigingen en inbreuken."
 genre: ["E-mail Beveiliging", "Gegevensbescherming", "Cyberbeveiliging", "Online privacy", "Identiteitsdiefstal", "Wachtwoordbeveiliging", "Phishing-zwendel", "Veiligheid op internet", "Digitale veiligheid", "Training voor werknemers"]
 tags: ["e-mailbeveiliging", "gegevensbescherming", "cyberbeveiliging", "online privacy", "identiteitsdiefstal", "financieel verlies", "e-mailversleuteling", "phishing-oplichting", "wachtwoordbeveiliging", "openbare Wi-Fi", "VPN", "e-mailsoftware", "twee-factor authenticatie", "phishingmails", "Versleutelde e-mailservices", "beveiligingspatches", "automatisch laden van afbeeldingen", "gevoelige informatie", "openbare Wi-Fi-netwerken", "virtueel privénetwerk", "persoonlijke informatie", "veiligheidstraining", "veiligheidsbeleid", "open communicatie", "beveiligingsincidenten", "werknemerseducatie", "cyberbedreigingen", "dataveiligheid", "digitale privacy", "online beveiliging"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Een symbolische illustratie van een vergrendelde enveloppe omringd door schildachtige beschermingslagen, die e-mailbeveiliging en gegevensbescherming voorstellen"
 ---
  **10 essentiële tips voor e-mailbeveiliging om uw gegevens veilig te houden**

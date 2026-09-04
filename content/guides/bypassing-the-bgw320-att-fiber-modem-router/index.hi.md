@@ -44,7 +44,7 @@ coverCaption: ""
 
 ### ONT को अनुकूलित करना
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 अब महत्वपूर्ण हिस्सा आता है यानी कुछ डिवाइस जानकारी को अपने आईएसपी के नेटवर्क के साथ संगत बनाने के लिए बदलना।
 

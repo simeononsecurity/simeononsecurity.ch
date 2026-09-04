@@ -6,7 +6,7 @@ draft: false
 description: "Learn about PCI-DSS, its components, compliance, and benefits for safeguarding payment card data."
 genre: ["Cybersecurity", "Payment Card Security", "Data Protection", "Compliance", "Information Security", "Technology", "Business", "Risk Management", "Regulations", "E-commerce"]
 tags: ["PCI-DSS Overview", "Payment Card Security", "Data Protection", "Cybersecurity Framework", "Compliance", "Data Security Standard", "Cardholder Information", "Business Security", "PCI Compliance Levels", "Data Breach Prevention", "Risk Mitigation", "Customer Trust", "Information Security Policy", "Vulnerability Management", "Access Control Measures", "Network Security", "Secure Network", "Security Standards", "Financial Data Security", "Sensitive Data Handling", "Merchant Compliance", "Service Providers", "Security Requirements", "Secure Transactions", "Data Encryption", "Security Assessment", "Cyber Threats", "Digital Transactions", "Risk Management"]
-cover: "/img/cover/pci-dss-security-vault.png"
+cover: "/img/cover/pci-dss-security-vault.webp"
 coverAlt: "A cartoon-style image of a secure vault with credit cards and lock icons, representing PCI-DSS security measures."
 coverCaption: "Unlocking Secure Transactions: PCI-DSS Keeps Your Data Safe"
 ---

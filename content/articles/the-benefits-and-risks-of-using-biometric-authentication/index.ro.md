@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați care sunt beneficiile și riscurile utilizării autentificării biometrice pentru controlul accesului, inclusiv securitatea sporită, problemele legate de confidențialitate și cele mai bune practici de implementare."
 tags: ["autentificare biometrică", "controlul accesului", "securitate", "confidențialitate", "protecția datelor", "GDPR", "HIPAA", "rezultate fals pozitive", "falsuri negative", "autentificarea cu mai mulți factori", "testarea sistemului", "politici de securitate", "eficiență", "comoditate", "identitate unică", "fluxuri de lucru raționalizate", "vulnerabilități", "atenuarea riscurilor", "experiența utilizatorului", "securitate cibernetică"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "O ilustrație animată a unei mâini care utilizează un scaner de amprente pentru a accesa o zonă securizată, cu fața și irisul unei persoane vizibile în fundal."
 coverCaption: ""
 ---

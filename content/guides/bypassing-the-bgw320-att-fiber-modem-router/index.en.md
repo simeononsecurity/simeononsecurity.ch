@@ -44,7 +44,7 @@ Upon running a port scan from 1-65535, you will notice some open ports:
 
 ### Customizing the ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Now comes the important part i.e. changing some device info to make it compatible with your ISP's network.
 

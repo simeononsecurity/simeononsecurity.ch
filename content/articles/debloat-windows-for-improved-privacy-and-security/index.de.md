@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Sicher online bleiben: Lernen Sie die Bedeutung von Windows Hardening und Debloating für mehr Sicherheit und Datenschutz kennen."
 tags: ["Härtung von Windows", "Debloating von Fenstern", "Verbesserte Sicherheit", "Datenschutz", "Cyber-Angriffe", "Sicherheit des Betriebssystems", "Windows-Betriebssystem", "Datenschutz", "Cyber-Kriminelle", "Angriffsfläche", "Schwachstellen", "Sicherheits-Updates", "Authentifizierungsmechanismen", "Unerwünschte Software", "Leistungsverbesserung", "Datenerhebung", "Zwei-Faktoren-Authentifizierung", "Anti-Virus Software", "Anti-Malware Software", "Sensible Informationen", "Umfassender Leitfaden"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "Ein Bild eines verschlossenen Vorhängeschlosses über einem Computer- oder Laptop-Bildschirm, das die Sicherheitsmaßnahmen symbolisiert, die durch Windows-Hardening und Debloating implementiert werden können."
 coverCaption: ""
 ---

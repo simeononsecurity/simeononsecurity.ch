@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Optimieren Sie den Prozess der Aktualisierung von Windows-Systemen durch Automatisierung mit Ansible – Schritt-für-Schritt-Anleitungen und Best Practices inklusive."
 tags: ["Automatisierung von Windows-Updates", "Ansible-Automatisierung", "Systemmanagement", "Sicherheitspatches", "IT Infrastruktur", "Netzwerkautomatisierung", "Konfigurationsmanagement", "IT-Betrieb", "DevOps", "Internet-Sicherheit", "IT-Automatisierung", "IT-Effizienz", "Ansible-Playbook", "Windows-Sicherheit", "Update-Management", "IT-Produktivität", "IT-Wartung", "Ansible-Anmeldeinformationen", "Host-Konfiguration", "Systemautomatisierung", "Windows-Updates", "Windows-Systemverwaltung", "Windows-Sicherheitspatches", "Windows-IT-Infrastruktur", "Windows-Netzwerkautomatisierung", "Windows-Konfigurationsverwaltung", "Windows-IT-Betrieb", "Windows DevOps", "Windows-Cybersicherheit", "Windows-IT-Automatisierung", "Windows-IT-Effizienz"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Eine animierte Illustration mit einem Windows-Logo, umgeben von Zahnrädern, die Automatisierung und Updates symbolisieren."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La cybersecurity è un aspetto critico delle moderne operazioni aziendali e richiede un approccio completo che coinvolga i giusti sistemi, protocolli e personale per gestire efficacemente le difese contro i cyberattacchi."
 tags: ["sicurezza informatica", "operazioni commerciali", "sicurezza della rete", "informazioni sensibili", "attacchi informatici", "tecnologia", "software", "professionalism", "compliance", "standard di settore", "regolamenti", "migliori pratiche", "priorità", "cultura della sicurezza", "violazioni dei dati", "proprietà intellettuale", "approccio proattivo", "priorità bassa", "mancanza di risorse", "formazione", "impegno per la sicurezza", "responsabili della sicurezza delle informazioni (ISSO)", "sistemi di gestione della sicurezza delle informazioni (ISSM)", "formazione ed esperienza", "minacce alla sicurezza", "100% di successi negli audit di conformità", "regolamenti", "standard", "migliori pratiche", "Serie NIST 800", "gioco politico", "fiducia", "onestà", "collaborazione", "papertrail", "trasparenza", "responsabilità"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Un'immagine di un gruppo di professionisti della cybersecurity in una sala riunioni, che lavorano insieme per garantire la sicurezza dei sistemi e dei dati della loro organizzazione."
 coverCaption: ""
 ---

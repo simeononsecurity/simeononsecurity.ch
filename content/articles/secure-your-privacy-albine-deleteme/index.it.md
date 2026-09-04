@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite la potenza di Albine DeleteMe, un servizio di privacy dei dati che vi consente di proteggere le vostre informazioni personali, garantendovi sicurezza e tranquillità online."
 genre: ["Data Privacy", "Sicurezza online", "Protezione delle informazioni personali", "Prevenzione del furto d'identità", "Gestione dell'impronta digitale", "Sicurezza informatica", "Privacy su Internet", "Data Deletion", "GDPR Compliance", "CCPA"]
 tags: ["Albine Cancellami", "Data Privacy", "Sicurezza online", "Informazioni personali", "Prevenzione del furto d'identità", "Impronta digitale", "Sicurezza informatica", "Privacy su Internet", "Data Deletion", "GDPR Compliance", "CCPA", "Protezione dei dati", "Violazione dei dati", "Servizio Privacy", "Dati sensibili", "Presenza online", "Regolamento sulla protezione dei dati", "Data Monitoring", "Protezione dell'identità", "Crittografia dei dati", "Violazione della privacy", "Proteggere i dati personali", "Salvaguardare la privacy online", "Rimozione sicura dei dati", "Prevenzione delle minacce alla privacy", "Mitigazione del furto d'identità", "Soluzione per la privacy dei dati", "Gestione della privacy online", "Misure di sicurezza dei dati", "Conformità alle normative sulla privacy", "Protezione dell'identità online"]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "Un'immagine in stile cartoon di una persona circondata da scudi protettivi, che rappresenta la privacy online e la protezione dei dati."
 coverCaption: "Proteggete i vostri dati, abbracciate la privacy."
 ---

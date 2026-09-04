@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Descoperiți cum să vă monetizați dispozitivele inactive prin partajarea internetului și obținerea de recompense cu Earn App."
 tags: ["câștiga aplicație", "monetizează dispozitivele", "share internet", "câștiga recompense", "venituri pasive", "resurse ale dispozitivului", "Serviciul VPN", "IP rezidențial", "dispozitive inactive", "face bani", "partajarea pe internet", "câștigați instalarea aplicației", "instalare docker", "container docker", "câștigați tutorialul aplicației", "câștiga site-ul web app", "instrucțiuni de instalare", "câștigați contul de aplicații", "versiunea non-docker", "UUID", "instalați docker", "instalare container docker", "tutorial video", "câștiga referințe de aplicații", "câștigați link-ul site-ului web al aplicației", "câștigați instrucțiuni de instalare a aplicației"]
-cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.png"
+cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.webp"
 coverAlt: "O ilustrație care arată un smartphone din care curg bani, reprezentând conceptul de câștig de recompense prin partajarea resurselor de internet prin intermediul aplicației Earn."
 coverCaption: "Rentabilizați-vă dispozitivele inactive cu aplicația Earn App"
 ---

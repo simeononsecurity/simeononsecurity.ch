@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez des conseils essentiels pour des pratiques sûres en matière de médias sociaux afin de protéger votre vie privée en ligne et apprenez à connaître les paramètres de confidentialité des plateformes populaires telles que LinkedIn, Facebook, Twitter et Instagram."
 tags: ["vie privée", "vie privée en ligne", "médias sociaux", "pratiques sûres", "paramètres de confidentialité", "LinkedIn", "Facebook", "Twitter", "Instagram", "demandes d'amis", "Liens aléatoires", "enquêtes", "les réglementations gouvernementales", "GDPR", "CCPA", "cybersécurité", "protection des données", "données personnelles", "violation de la vie privée", "sécurité numérique", "risques pour la vie privée", "lois sur la protection de la vie privée", "réglementation en matière de protection de la vie privée", "confidentialité des données", "sécurité en ligne", "protection de la vie privée", "protection de la vie privée dans les médias sociaux", "conseils en matière de protection de la vie privée", "pratiques en matière de protection de la vie privée en ligne", "protection des informations personnelles"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Image représentant un bouclier protégeant les informations personnelles d'une personne lors de l'utilisation de plateformes de médias sociaux."
 coverCaption: ""
 ---

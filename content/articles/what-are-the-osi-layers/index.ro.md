@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Dobândiți o înțelegere cuprinzătoare a straturilor OSI și a modelului TCP IP, cadre esențiale în rețele, pentru a facilita o comunicare și o depanare eficiente."
 genre: ["Bazele rețelelor", "Straturi OSI", "Modelul TCP IP", "Protocoale de rețea", "Modele de comunicare", "Fundamentele rețelelor", "Transmiterea datelor", "Depanarea rețelei", "Arhitectura de rețea", "Concepte de rețea"]
 tags: ["Straturi OSI", "Modelul TCP IP", "elementele de bază ale rețelelor", "protocoale de rețea", "modele de comunicare", "transmisie de date", "depanarea rețelei", "arhitectura rețelei", "concepte de rețea", "fundamentele rețelelor", "cadre de rețea", "explicația protocoalelor de rețea", "standarde de rețea", "stratul fizic", "stratul de legătură de date", "stratul de rețea", "stratul de transport", "strat de sesiune", "strat de prezentare", "stratul de aplicație", "Straturi TCP IP", "stratul de interfață de rețea", "stratul internet", "stratul de transport", "stratul de aplicație", "protocoale de rețea explicate", "modele de rețea", "fundamentele rețelelor explicate", "ghid de rețea", "tutorial de rețea", "cele mai bune practici de rețea"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "O ilustrație animată care prezintă o rețea de noduri interconectate, cu date care circulă între ele, simbolizând o comunicare și o rețea eficiente."
 ---
  Bazele rețelelor: Înțelegerea straturilor OSI și a modelului TCP IP

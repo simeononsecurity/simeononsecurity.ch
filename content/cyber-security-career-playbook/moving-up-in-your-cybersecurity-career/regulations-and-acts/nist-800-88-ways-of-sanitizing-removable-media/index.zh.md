@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解经 NIST 批准的硬盘、固态硬盘、USB 闪存驱动器、CD、DVD 和蓝光光盘的消毒方法，以保护敏感数据免遭未经授权的访问。"
 tags: ["NIST 批准的方法", "可移动媒体的消毒", "硬盘驱动器", "固态硬盘", "USB 闪存盘", "光盘", "DVD", "蓝光光盘", "数据安全", "保护敏感数据"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "一个人手持 U 盘的图像，背景是一台碎纸机"
 coverCaption: ""
 ---

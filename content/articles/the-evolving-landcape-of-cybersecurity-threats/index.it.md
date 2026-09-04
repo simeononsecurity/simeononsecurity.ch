@@ -6,7 +6,7 @@ draft: false
 description: "Rimanete informati sull'evoluzione del panorama della cybersecurity, sulle minacce emergenti e sulle contromisure efficaci per proteggersi dagli attacchi informatici."
 genre: ["Minacce alla sicurezza informatica", "Tendenze emergenti", "Contromisure", "Il panorama delle minacce informatiche", "Rischi tecnologici", "Violazioni dei dati", "Attacchi ransomware", "Tecniche di phishing", "Vulnerabilità IoT", "Minacce interne"]
 tags: ["minacce alla sicurezza informatica", "tendenze emergenti", "contromisure", "panorama delle minacce informatiche", "rischi tecnologici", "violazioni dei dati", "attacchi ransomware", "tecniche di phishing", "Vulnerabilità IoT", "minacce interne", "attacchi informatici", "consapevolezza della cybersicurezza", "protocolli di sicurezza", "sicurezza della rete", "protezione dei dati", "intelligenza artificiale", "apprendimento automatico", "rilevamento e risposta degli endpoint", "valutazioni di sicurezza", "condivisione delle informazioni", "formazione dei dipendenti", "controlli di sicurezza", "attacchi informatici da parte di Stati nazionali", "L'intelligenza artificiale nella sicurezza informatica", "Le migliori pratiche di cybersicurezza", "cultura della sicurezza", "regolamentazione governativa", "resilienza informatica", "informatica quantistica", "tecnologia blockchain"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Uno scudo con il simbolo di un lucchetto che rappresenta la sicurezza informatica, circondato da dispositivi interconnessi e codici binari"
 coverCaption: "Difendetevi dalle minacce informatiche con uno scudo di cybersecurity resiliente."
 ---

@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Apprenez à sécuriser votre appareil mobile et à protéger vos données contre les cybermenaces grâce à ces conseils efficaces pour la sécurité des appareils mobiles."
 genre: ["Technologie", "Cybersécurité", "Sécurité mobile", "Protection des données", "Sécurité en ligne", "Vie privée", "Attaques par hameçonnage", "Logiciels malveillants", "Sécurité Wi-Fi", "Sécurité du mot de passe"]
 tags: ["Sécurité mobile", "Cybersécurité", "Protection des données", "Appareils mobiles", "Sécurité en ligne", "Vie privée", "Attaques par hameçonnage", "Logiciels malveillants", "Sécurité Wi-Fi", "Dispositifs volés", "Sécurité du mot de passe", "Authentification biométrique", "Authentification à deux facteurs", "Logiciel antivirus", "Permissions d'utilisation", "Paramètres de confidentialité", "Cryptage des données", "Sauvegardes de données", "Sécurité du Wi-Fi public", "Appareils perdus ou volés", "Conseils en matière de sécurité mobile", "Meilleures pratiques en matière de sécurité mobile", "Solutions de sécurité mobile", "Protéger les appareils mobiles", "Sécuriser les applications mobiles", "Gestion des appareils mobiles", "Menaces pour la sécurité mobile", "Conseils en matière de protection de la vie privée sur les téléphones portables", "Sécurité des données mobiles", "Cybersécurité mobile"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Illustration d'un smartphone avec un bouclier et un cadenas, représentant la sécurité des appareils mobiles et la protection des données"
 ---
 

@@ -6,7 +6,7 @@ draft: false
 description: "Dowiedz się, jak zoptymalizować wydobywanie Spacemesh przy użyciu wielu procesorów graficznych z przyjaznym dla środowiska algorytmem PoST i zmaksymalizować swoje nagrody."
 genre: ["Kryptowaluta", "Blockchain", "Górnictwo", "Technologia", "Zdecentralizowany", "GPU Mining", "Dowód czasoprzestrzeni", "Przyjazny dla środowiska", "Wskazówki dotyczące kryptowalut", "Zasoby cyfrowe"]
 tags: ["Spacemesh", "Górnictwo", "Procesory graficzne", "Dowód czasoprzestrzeni", "Kryptowaluta", "Blockchain", "Przyjazny dla środowiska", "Zdecentralizowany", "Algorytm PoST", "Przewodnik górniczy", "Wskazówki dotyczące kryptowalut", "Nagrody", "Optymalizacja", "Efektywność energetyczna", "GPU Mining", "Zasoby cyfrowe", "Technologia", "Decentralizacja", "Dowód przestrzeni", "Górnictwo czasoprzestrzenne", "Maksymalizacja wydajności wydobycia", "Kryptowaluta przyjazna dla środowiska", "Sieć Spacemesh", "Konfiguracja GPU Mining", "Wydobywanie przy użyciu wielu procesorów graficznych", "Zdecentralizowane wydobycie blockchain", "Wskazówki dotyczące wydobywania kryptowalut", "Wydajne górnictwo na GPU", "Dowód algorytmu czasoprzestrzennego", "Nagrody kryptowalutowe"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "Ilustracja w stylu kreskówki przedstawiająca wiele procesorów graficznych współpracujących ze sobą przy wydobywaniu Spacemesh."
 coverCaption: "Mój mądrzejszy, mój bardziej ekologiczny!"
 ---

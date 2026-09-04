@@ -6,7 +6,7 @@ draft: false
 description: "Dowiedz się, jak skutecznie zainstalować i wykorzystać moduł Active Directory dla PowerShell, aby usprawnić zadania administracyjne Windows Active Directory."
 genre: ["Technologia", "Windows", "PowerShell", "Active Directory", "Administracja", "Skrypty", "IT", "Automatyzacja", "Windows Server", "Microsoft"]
 tags: ["moduł Active Directory dla PowerShell", "import modułu active directory w PowerShell", "moduł Active Directory dla Windows PowerShell", "active directory PowerShell install", "instalacja usługi Active Directory PowerShell", "PowerShell instaluje moduł katalogu aktywnego Windows 10", "instalacja modułu PowerShell Active Directory Windows 10", "pobierz moduł PowerShell Active Directory", "Administracja AD", "Usługa Windows Active Directory", "Polecenia cmdlet PowerShell", "pobieranie informacji AD", "tworzenie obiektów AD", "modyfikować obiekty AD", "zarządzanie zabezpieczeniami AD", "Zarządzanie użytkownikami AD", "Zarządzanie grupą AD", "Zarządzanie AD OR", "Skrypty PowerShell", "Administracja Windows Server", "Microsoft PowerShell", "automatyzacja zadań AD", "Instalacja modułu PowerShell", "Przewodnik administracyjny AD", "Zarządzanie usługą Active Directory", "Zarządzanie bezpieczeństwem AD", "Automatyzacja PowerShell", "Polecenia PowerShell usługi Active Directory", "Odniesienie do polecenia cmdlet PowerShell"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "Obraz przedstawiający sieć połączonych serwerów i ikon użytkowników, symbolizujący zarządzanie i automatyzację Active Directory."
 coverCaption: "Odblokuj moc administracji Active Directory za pomocą PowerShell."
 ---

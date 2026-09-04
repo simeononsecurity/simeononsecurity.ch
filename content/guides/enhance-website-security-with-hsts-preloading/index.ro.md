@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "Aflați cum să îmbunătățiți securitatea site-urilor web și încrederea utilizatorilor prin preîncărcarea setărilor HSTS în Chrome și Firefox. Urmați ghidul nostru pas cu pas pentru o implementare fără probleme."
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "O ilustrație în stil de desen animat a unui site web protejat cu un lacăt, reprezentând securitate sporită și protecție împotriva amenințărilor cibernetice."
 coverCaption: "Întăriți apărarea site-ului dvs. web, adoptați preîncărcarea HSTS."
 ---

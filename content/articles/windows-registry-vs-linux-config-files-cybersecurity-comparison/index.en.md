@@ -6,7 +6,7 @@ draft: false
 description: "Discover the effortless ways to secure your system with Windows Registry and Linux Config Files, ensuring top-notch cybersecurity."
 genre: ["Cybersecurity", "Operating Systems", "Security Management", "Computer Technology", "Data Protection", "System Configuration", "IT Security", "Network Security", "Tech Comparisons", "Information Security"]
 tags: ["Windows Registry", "Linux Config Files", "Cybersecurity", "Operating System Security", "System Configuration", "Hardening", "Data Protection", "IT Security", "Network Security", "Windows vs. Linux", "Security Measures", "System Administration", "Configuration Management", "Registry Security", "File Permissions", "Security Best Practices", "Cyber Threats", "Cyber Defense", "Inherent Security", "Computer Security", "System Vulnerabilities", "Registry Management", "Linux Security", "Access Control", "Encryption", "Configuration Files", "System Auditing", "Firewall Rules", "Cybersecurity Comparison", "System Vulnerabilities"]
-cover: "/img/cover/windows-linux-security.png"
+cover: "/img/cover/windows-linux-security.webp"
 coverAlt: "A symbolic lock guarding both Windows and Linux icons."
 coverCaption: "Locking Down Systems for Ultimate Security."
 ---

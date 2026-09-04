@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le principali differenze tra i database SQL e NoSQL e decidete con cognizione di causa quale sia il sistema di gestione dei database più adatto alle vostre esigenze."
 tags: ["sistema di gestione del database", "SQL vs NoSQL", "SQL databases", "NoSQL databases", "ACID compliance", "data model", "scalability", "linguaggio di interrogazione", "prestazioni", "evoluzione dello schema", "dati strutturati", "dati non strutturati", "data integrity", "scalabilità orizzontale", "Linguaggio di interrogazione SQL", "MongoDB", "database di documenti", "negozi a valore-chiave", "database colonnari", "database a grafo", "gestione dei dati", "struttura dei dati", "query analitiche", "data modeling", "schemi flessibili", "elevata velocità di lettura", "elevata velocità di scrittura", "operazioni di unione complesse", "sviluppo agile"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "Un'immagine raffigurante un pezzo di puzzle che rappresenta l'inserimento di dati in un database, a simboleggiare il processo decisionale di scelta del giusto sistema di gestione dei database."
 coverCaption: ""
 ---

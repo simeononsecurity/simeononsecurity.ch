@@ -39,9 +39,9 @@ Um die SD-Karte des Nebra Helium Miners erfolgreich auszutauschen, benötigen Si
 
 ## Das Innere des Nebra Helium Miners:
 ### Inhalt des Nebra Indoor Miners:
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### Inhalt des Nebra Outdoor Miners:
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) 9-16V @ 15W DC 6,5MMx2,0MM Klinkenstecker
  - 2.) Ethernet-Anschluss
  - 3.) LED-Anzeige
@@ -53,7 +53,7 @@ Um die SD-Karte des Nebra Helium Miners erfolgreich auszutauschen, benötigen Si
 ### Schritt 1: Erwerben Sie optional die config.json Datei vom EMMC Key:
 - Herunterladen und installieren [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) Sie benötigen dies, um das Compute Module als USB-Dateisystem zu booten
 - Identifizieren Sie die Jumper-Pins auf der CM3-Tochterplatine und passen Sie sie für den Programmiermodus an
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.) Micro-USB-Anschluss für die Bildgebung
    - 7.) JP4 USB-Jumper - Dient zum Umschalten zwischen Normalbetrieb und Flash-Modus. Stellen Sie sicher, dass er sich in Position 1-2 für Normalbetrieb und 2-3 für die Programmierung befindet.
    - 8.) JP3 Power Jumper - Ermöglicht die Stromversorgung des Moduls über den Micro-USB-Anschluss. Schließen Sie ihn nur an, wenn Sie vom PC aus programmieren und stellen Sie sicher, dass die Hauptplatine nicht angeschlossen ist.

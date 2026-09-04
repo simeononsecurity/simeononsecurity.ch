@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-27
 description: "通过有效的策略和资源了解最新的 CVE 和威胁行为者，从而在网络威胁面前保持领先。"
 tags: ["网络安全", "CVE", "威胁行为者", "漏洞扫描", "威胁情报", "信息共享", "行业合作", "安全公告", "NVD", "CVE", "美国计算机应急小组", "计算机应急小组", "ATT&CK® 长枕", "OpenCTI", "NIST", "CISA", "网络安全漏洞", "新出现的威胁", "主动防御", "自动漏洞扫描", "公开情报", "实时威胁情报", "威胁行为者的战术和技术", "技术 OSINT", "CVE 数据库", "安全供应商建议", "安全博客", "威胁情报传送", "信息共享社区", "政府法规"]
-cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.png"
+cover: "/img/cover/An_illustration_of_a_shield_with_a_magnifying_glass_symboli.webp"
 coverAlt: "带有放大镜的盾牌插图，象征网络安全。"
 coverCaption: "防御与发现：用网络安全领域的知识增强自己的能力。"
 ---

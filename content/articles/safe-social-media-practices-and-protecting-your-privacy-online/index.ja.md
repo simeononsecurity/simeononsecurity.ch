@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "オンラインでプライバシーを守るために、安全なソーシャルメディアの実践に不可欠なヒントを発見し、LinkedIn、Facebook、Twitter、Instagramなどの人気プラットフォームのプライバシー設定について学ぶことができます。"
 tags: ["プライバシー", "オンラインプライバシー", "ソーシャル・メディア", "あんぜんそち", "プライバシー設定", "リンクトイン", "フェイスブック", "ツイッター", "インスタグラム", "ともだちしんせい", "ランダムリンク", "サーベイズ", "官制", "GDPR", "シーシーエー", "サイバーセキュリティ", "データ保護", "個人データ", "プライバシー侵害", "デジタルセキュリティ", "プライバシーリスク", "個人情報保護法", "個人情報保護規定", "データプライバシー", "オンラインセキュリティ", "プライバシー保護", "ソーシャル・メディア・プライバシー", "プライバシーポリシー", "オンラインプライバシープラクティス", "個人情報の保護"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "ソーシャルメディア利用時の個人情報を保護する盾を描いたイメージです。"
 coverCaption: ""
 ---

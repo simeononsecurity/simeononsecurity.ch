@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "オンラインで安全に過ごすために：セキュリティとプライバシーを向上させるためのWindows HardeningとDebloatingの重要性を学ぶ。"
 tags: ["Windowsのハード化", "ウィンドウズデブローティング", "セキュリティの向上", "プライバシー", "サイバー攻撃", "オペレーティングシステムのセキュリティ", "Windows オペレーティングシステム", "データプライバシー", "サイバークリミナル", "攻撃面", "脆弱性（ぜいじゃくせい", "セキュリティアップデート", "認証の仕組み", "不要なソフトウェア", "パフォーマンス・エンハンスメント", "データ収集", "二要素認証", "アンチウィルス・ソフトウェア", "マルウェア対策ソフト", "センシティブ情報", "包括的なガイド"]
-cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.png"
+cover: "/img/cover/An_image_of_a_locked_padlock_on_top_of_a_computer_or_laptop.webp"
 coverAlt: "パソコンやノートパソコンの画面の上に鍵のかかった南京錠があるイメージで、Windowsのハードニングやデブローテーションによるセキュリティ対策を象徴しています。"
 coverCaption: ""
 ---

@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 の [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) 家の他のエリアではなく、窓の中またはその近くに良好なまたは使用可能な通信範囲がある場合にのみ役に立ちます。住居全体をより均等にカバーする必要がある場合に最適です。
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 の [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) オプションを使用するにはインストールが必要です。ポール、接地棒、避雷器、アンプ、および 1 つ以上の屋内アンテナを設置する必要があります。可能な限り最高の信号を提供しますが、お住まいの地域に信号がまったくない場合は機能しません。平均して約 60db の追加利得が得られますが、最大 100db まで増加する可能性があります。これは、可能な限り信号を改善し、同時にすべての通信事業者をサポートできるため、間違いなく最良の永続的なソリューションです。
 

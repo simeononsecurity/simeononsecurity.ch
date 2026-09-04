@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Descubra los elementos clave de la formación en ciberseguridad del Ejército, el cumplimiento de la normativa y las mejores prácticas para que el personal de defensa combata eficazmente las ciberamenazas."
 tags: ["Formación en ciberseguridad del Ejército", "Personal de defensa", "Ciberamenazas", "Buenas prácticas de ciberseguridad", "Conformidad", "Concienciación sobre el phishing", "Prácticas seguras en materia de contraseñas", "Navegación segura por Internet", "Seguridad de los dispositivos móviles", "Concienciación sobre ingeniería social", "Protección de datos", "Notificación de incidentes", "Normativa sobre ciberseguridad", "Directiva 8570 del Departamento de Defensa", "Directiva 8140 del Departamento de Defensa", "Ataques de phishing", "Hábitos de navegación seguros", "Cifrado de dispositivos móviles", "Técnicas de ingeniería social", "Protección de datos", "Respuesta a incidentes", "Entorno ciberseguro", "Protección de la información sensible", "Competencias en ciberseguridad", "Sistemas militares", "Mitigación de las ciberamenazas", "Educación en ciberseguridad", "Concienciación sobre la seguridad de la información", "Ciberseguridad en defensa"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Una imagen que representa un escudo con un candado que simboliza la defensa de la ciberseguridad y la protección contra las ciberamenazas."
 coverCaption: "Proteger la fortaleza digital: Reforzar las defensas de ciberseguridad del Ejército"
 ---

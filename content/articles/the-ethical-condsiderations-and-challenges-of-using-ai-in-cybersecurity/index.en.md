@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the ethical considerations and challenges of using AI in cybersecurity and how they can be addressed for effective use."
 tags: ["AI", "cybersecurity", "ethical considerations", "bias", "privacy", "accountability", "complexity", "adaptability", "human oversight", "resource intensity", "data privacy", "machine learning", "threat intelligence", "data protection", "technology", "automation", "cyber threats", "information security", "regulatory compliance", "digital transformation"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "An image of a lock with gears symbolizing the use of AI in cybersecurity, while a human hand is holding a key to illustrate human oversight."
 coverCaption: ""
 ---

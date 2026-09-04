@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバー攻撃のリスクを低減し、機密データを保護する効果的なサイバーセキュリティ意識向上トレーニングプログラムの構築と管理方法についてご紹介します。"
 tags: ["サイバーセキュリティ", "アウェアネス・トレーニング", "リスク軽減", "データ保護", "社員教育", "サイバーセキュリティの脅威", "サイバーセキュリティリスク", "トレーニングゴール", "たいしょうこきゃくそう", "研修配信", "対話型トレーニング", "じつれい", "シミュレーション", "じっせんきゅうこう", "研修内容", "NIST 800-50", "サイバーセキュリティベストプラクティス", "サイバーセキュリティ文化", "報奨と認識"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "PCの周りに集まった従業員や、セキュリティ専門家がホワイトボードでサイバーセキュリティの概念を説明するアニメーション画像です。"
 coverCaption: ""
 ---

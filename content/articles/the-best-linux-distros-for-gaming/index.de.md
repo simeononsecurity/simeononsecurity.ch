@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Entdecken Sie die besten Linux-Distributionen für Spiele, darunter Ubuntu, Zorin OS, Manjaro und SteamOS, und erleben Sie neue Höhenflüge beim Spielen unter Linux."
 tags: ["Linux-Distributionen für Spiele", "Ubuntu-Spiele", "Zorin OS Spiele", "Manjaro Spiele", "SteamOS-Spiele", "Linux-Spielleistung", "Unterstützung für Linux-Spiele", "Linux-Gaming-Gemeinschaft", "Ubuntu-Spielerfahrung", "Zorin OS Spieloberfläche", "Manjaro gaming-fokussiert", "SteamOS Spielbetriebssystem", "Pop!_OS für Spiele", "Unterstützung für Fedora-Spiele", "Solus-Spielleistung", "Linux-Spiele-Distributionen", "best Linux distros", "Spielen unter Linux", "Linux-Spieleplattform", "Linux-Spielanleitung", "Spielen unter Ubuntu", "Spielen auf Zorin OS", "Spielen unter Manjaro", "Spielen auf SteamOS", "Linux-Spielesoftware", "Linux-Spielebibliothek", "Kompatibilität mit Linux-Spielen", "Unterstützung der Linux-Gaming-Community", "Linux-Spieleinrichtung", "Optimierung der Linux-Spielleistung", "Tipps und Tricks für Linux-Spiele"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Illustration eines Spielers, der in eine virtuelle Welt auf einem mit Linux betriebenen Computer eintaucht"
 coverCaption: ""
 ---

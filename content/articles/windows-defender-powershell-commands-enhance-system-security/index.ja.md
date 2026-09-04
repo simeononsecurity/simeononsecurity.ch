@@ -6,7 +6,7 @@ draft: false
 description: "Windows Defender PowerShellコマンドのパワーを発見し、コマンドライン制御でシステムセキュリティを強化する方法を学びましょう。"
 genre: ["ウィンドウズ・ディフェンダー", "PowerShellコマンド", "システムセキュリティ", "コマンドライン制御", "アンチウイルス", "Windowsオペレーティングシステム", "マルウェアプロテクション", "高度なセキュリティ設定", "セキュリティ運用の自動化", "Windows PowerShell"]
 tags: ["テクノロジー", "サイバーセキュリティ", "オペレーティング・システム", "ウィンドウズ", "コマンドラインツール", "システム・セキュリティ", "パワーシェル", "アンチウイルス", "マルウェア対策", "スクリプト"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "さまざまなサイバー脅威からコンピュータシステムを守るシールドを描いたアニメーションイラスト。"
 coverCaption: "Windows Defender PowerShell コマンドでシステムのセキュリティを強化。"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explore la innovadora Teoría de la Proyección de Poder y sus implicaciones para la seguridad nacional, a medida que Bitcoin se transforma en una potente tecnología de seguridad electrocibernética."
 genre: ["Criptomoneda", "Ciberseguridad", "Tecnología", "Seguridad nacional", "Investigación", "Financial", "Innovación", "Moneda digital", "Elaboración de políticas", "Blockchain"]
 tags: ["Bitcoin", "Prueba de trabajo", "Seguridad cibernética", "Teoría de la proyección del poder", "Impacto estratégico nacional", "Tecnología financiera", "Investigación sobre criptomonedas", "El papel de Bitcoin", "Estrategias de ciberseguridad", "Decreto presidencial de EE.UU", "Moneda digital", "Informe sobre Bitcoin", "Evaluación de riesgos", "El potencial de Bitcoin", "Sistema monetario", "Softwar", "Ciberespacio", "Enfoque interdisciplinar", "Seguridad de la información", "Política pública", "Proteger la información crítica", "Innovación digital", "Un futuro resiliente", "Cripto", "Seguridad Bitcoin", "Bolsa financiera", "Implicaciones de Bitcoin", "Bitcoin en el siglo XXI", "Las recompensas de Bitcoin"]
-cover: "/img/cover/empowered-national-security.png"
+cover: "/img/cover/empowered-national-security.webp"
 coverAlt: "Una obra de arte simbólica que muestra un escudo-emblema, representando la transformación de Bitcoin en una poderosa tecnología de seguridad electro-cibernética."
 coverCaption: "Liberar el poder de Bitcoin: asegurar nuestro futuro"
 ---

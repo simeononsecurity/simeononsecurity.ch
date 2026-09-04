@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Découvrez quelle solution de sécurité des terminaux, Symantec ou McAfee, est la mieux adaptée pour protéger les actifs numériques de votre organisation contre les cybermenaces."
 genre: ["Technologie", "Cybersécurité", "Sécurité des points finaux", "Antivirus", "Pare-feu", "Détection des intrusions", "Prévention de la perte de données", "Protection contre les menaces", "Solutions de sécurité", "Comparaison"]
 tags: ["sécurité des points finaux", "Symantec", "McAfee", "cybersécurité", "antivirus", "pare-feu", "détection des intrusions", "prévention de la perte de données", "protection contre les menaces", "solutions de sécurité", "comparison", "logiciels malveillants", "ransomware", "attaques par hameçonnage", "attaques de type zero-day", "apprentissage automatique", "analyse basée sur le comportement", "console de gestion du cloud", "visibilité en temps réel", "gestion centralisée", "capacités d'intégration", "avis des clients", "l'assistance technique", "continuité des activités", "Environnement informatique", "déploiement à distance", "cryptage des données", "contrôle d'accès au réseau"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "Image représentant un bouclier avec les logos de Symantec et McAfee, symbolisant leurs capacités en matière de sécurité des points d'accès."
 ---
 

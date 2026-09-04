@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de belangrijkste verschillen en sterke punten van Session, Status, Signal en Threema in deze uitgebreide vergelijking van beveiligde berichtenservices."
 genre: ["Beveiligd berichtenverkeer", "Privacy-gerichte communicatie", "Messaging app vergelijking", "Encryptieprotocollen", "Cyberbeveiliging", "Privécommunicatie", "Berichtendiensten", "Privacy van gegevens", "End-to-end versleuteling", "Analyse van het berichtenplatform"]
 tags: ["Sessie", "Status", "Signaal", "Threema", "Beveiligd berichtenverkeer", "Privacy", "Encryptie", "Cyberbeveiliging", "Berichten-apps", "Vergelijking", "End-to-end versleuteling", "Privacy van gegevens", "Berichtenplatform", "Communicatie", "Gedecentraliseerde toepassingen", "Beveiligde communicatie", "Berichtendiensten", "Beveiliging van berichtenverkeer", "Privacy van berichten", "Versleuteld berichtenverkeer", "Beste veilige berichtenapps", "End-to-End Encryptievergelijking", "Privacy-gerichte berichten", "Beveiligde communicatiediensten", "Signaal vs Threema", "Sessie vs Status", "Veilige berichtenplatforms beoordelen", "Beveiligingsfuncties voor berichtenapps", "Apps voor beveiligd berichtenverkeer vergelijken", "Evaluatie van veilige chatapps"]
-cover: "/img/cover/secure-messaging-comparison.png"
+cover: "/img/cover/secure-messaging-comparison.webp"
 coverAlt: "Een illustratie van vier smartphones, die elk staan voor Session, Status, Signal en Threema, beveiligd met sloten, wat hun focus op beveiligd berichtenverkeer benadrukt."
 coverCaption: "Beveilig uw gesprekken: Een uitgebreide vergelijking van messaging."
 ---

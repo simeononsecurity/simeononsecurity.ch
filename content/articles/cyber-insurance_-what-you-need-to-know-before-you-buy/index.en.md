@@ -6,7 +6,7 @@ draft: false
 description: "Navigate the intricacies of cyber insurance with expert insights! Learn key considerations, evaluate policies, and fortify your digital defenses against evolving cyber threats. Stay secure, stay informed!"
 genre: ["Cyber Insurance Overview", "Policy Evaluation", "Insurance Provider Selection", "Claims Process Navigation", "Best Practices in Cyber Insurance", "Digital Threat Protection", "Risk Management Insights", "Business Security Strategies", "Data Breach Preparedness", "Employee Cybersecurity Training"]
 tags: ["Cyber Insurance", "Digital Threats", "Business Security", "Policy Evaluation", "Insurance Provider", "Claims Process", "Risk Management", "Data Breach", "Insurance Coverage", "Best Practices", "Cybersecurity Measures", "Employee Training", "Financial Protection", "Reputation Management", "Cyber Attacks", "Security Strategies", "Digital Defense", "Policy Terms", "Coverage Limitations", "Insurance Claims", "Security Best Practices", "Threat Landscape", "Security Insights", "Insurance Selection", "Risk Mitigation", "Legal Liabilities", "Financial Stability", "Incident Response", "Data Protection", "Network Security"]
-cover: "/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.jpeg"
+cover: "/img/cover/cyber-insurance_-what-you-need-to-know-before-you-buy.webp"
 ---
 
 Cyber Insurance: What You Need to Know Before You Buy

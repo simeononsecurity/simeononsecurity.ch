@@ -6,7 +6,7 @@ draft: false
 description: "Discover why Password Complexity Rules are becoming obsolete and explore effortless ways to enhance online security in this informative article."
 genre: ["Cybersecurity", "Password Security", "Authentication Methods", "Online Threats", "User Education", "NIST Guidelines", "Modern Authentication", "Phishing Awareness", "Digital Security", "Online Safety"]
 tags: ["Password Complexity Rules", "Online Security", "Authentication Methods", "NIST Guidelines", "Cybersecurity", "User Education", "Phishing Awareness", "Password Hygiene", "Two-Factor Authentication", "Biometric Authentication", "Passwordless Authentication", "Password Security", "Digital Security", "User Awareness", "Cyber Threats", "Password Best Practices", "Modern Authentication", "Secure Online Access", "Enhanced Security Measures", "Cyber Defense", "Online Privacy", "Authentication Security", "Online Vulnerabilities", "Cybersecurity Strategies", "Online Threat Landscape", "NIST Recommendations", "User-Friendly Security", "Security Awareness", "Effortless Online Safety", "Cybersecurity Evolution"]
-cover: "/img/cover/password-complexity-security.png"
+cover: "/img/cover/password-complexity-security.webp"
 coverAlt: "A padlock symbolizing modern security."
 coverCaption: "Unlocking Modern Security"
 ---

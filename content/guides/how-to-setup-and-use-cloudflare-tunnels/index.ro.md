@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Aflați cum să configurați tunelurile Cloudflare pentru a simplifica și proteja traficul din rețea, îmbunătățind performanța și securitatea."
 tags: ["Tuneluri Cloudflare", "Securitatea rețelelor", "Performanța site-ului web", "Server Proxy", "Trafic web", "Configurarea rețelei", "Server Ubuntu", "Cont Cloudflare", "Autentificare", "Crearea tunelului", "Rutarea traficului", "Înregistrări DNS", "Conexiune securizată", "Găzduire site web", "Serviciul Proxy", "Protecția rețelei", "Optimizarea performanței", "Integrarea Cloudflare", "Configurația serverului", "Criptarea traficului", "Managementul traficului de rețea", "Găzduire web securizată", "Securitatea site-ului web", "Configurarea Ubuntu", "Tehnologia tunelurilor", "Servicii Cloudflare", "Performanța rețelei", "Securitate web", "Securitatea serverului", "Managementul traficului", "Cloudflare Proxy"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "O ilustrație care arată un tunel de rețea care conectează un server local la logo-ul Cloudflare, simbolizând traficul de rețea securizat și simplificat."
 coverCaption: ""
 ---

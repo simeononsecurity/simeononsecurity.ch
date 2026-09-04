@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de prestatiekloof tussen NVIDIA RTX 3090 en RTX 4090 bij het kraken van wachtwoorden, met aandacht voor veiligheidsimplicaties en beschermingsmaatregelen."
 tags: ["NVIDIA RTX 3090", "NVIDIA RTX 4090", "wachtwoord kraken", "prestatie", "beveiliging", "wachtwoordbeveiliging", "cyberbeveiliging", "benchmark", "GPU", "wachtwoord manager", "sterke wachtwoorden", "twee-factor authenticatie", "overheidsvoorschriften", "CISA", "GDPR", "gegevensbeveiliging", "hardwarevergelijking", "wachtwoordbeveiliging", "grafische kaart", "wachtwoordsterkte"]
-cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.png"
+cover: "/img/cover/An_illustrated_depiction_of_a_digital_lock_being_cracked.webp"
 coverAlt: "Een geïllustreerde afbeelding van een digitaal slot dat wordt gekraakt, als symbool voor de inhoud van het artikel over het kraken van wachtwoorden."
 coverCaption: ""
 ---

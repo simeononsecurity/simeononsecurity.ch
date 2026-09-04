@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak skutecznie używać Nmap do skanowania sieci, skanowania portów, wykrywania usług i identyfikacji systemu operacyjnego w celu oceny bezpieczeństwa sieci."
 tags: ["nmap", "skanowanie sieci", "ocena bezpieczeństwa", "skanowanie portów", "wykrywanie usług", "wykrywanie systemu operacyjnego", "Silnik skryptowy Nmap", "etyczne hakowanie", "bezpieczeństwo sieci", "infrastruktura sieciowa", "wykrywanie luk w zabezpieczeniach", "skanowanie ping", "Skanowanie TCP SYN", "pozwolenie", "legalność", "wpływ sieci", "skanowanie ukierunkowane", "ochrona danych", "CFAA", "RODO", "mapowanie sieci", "rozpoznawanie sieci", "narzędzia bezpieczeństwa sieci", "cyberbezpieczeństwo", "narzędzie open-source", "narzędzie wiersza poleceń", "wykrywanie hosta", "inteligencja sieciowa", "zbieranie informacji", "luki w zabezpieczeniach sieci", "bezpieczne środowisko sieciowe"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Koncepcja bezpieczeństwa sieci z narzędziami do skanowania Nmap w animowanym stylu 3D."
 coverCaption: ""
 ---

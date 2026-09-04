@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Erfahren Sie, wie Sie Ihre Privatsphäre auf sozialen Medienplattformen schützen können, indem Sie die Risiken für die Privatsphäre und allgemeine Bedenken verstehen und die Einstellungen auf Facebook, Instagram, Twitter und LinkedIn anpassen."
 genre: ["Datenschutz in sozialen Medien", "Schutz persönlicher Informationen in sozialen Medien", "Risiken und Bedenken in Bezug auf den Datenschutz in den sozialen Medien", "Privatsphäre-Einstellungen auf Facebook", "Verbesserung der Privatsphäre auf Instagram", "Sichern Ihres Twitter-Kontos", "Schutz der Privatsphäre auf LinkedIn"]
 tags: ["Anpassung der Facebook-Datenschutzeinstellungen", "Kontrolle von Instagram-Followern", "Verwaltung von Twitter-Daten", "Schutz der LinkedIn Privatsphäre", "Einschränkung der App-Berechtigungen in sozialen Medien", "Verbesserung der Privatsphäre bei Instagram", "Tweets auf Twitter schützen", "Verwaltung von LinkedIn-Verbindungen", "Sicherung des Twitter-Kontos", "Datenschutz auf sozialen Medienplattformen"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Ein symbolisches Bild im Cartoon-Stil, das ein verschlossenes Schild darstellt, das die persönlichen Daten einer Person in sozialen Medien schützt"
 ---
 

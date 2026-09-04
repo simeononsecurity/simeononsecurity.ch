@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Scoprite come installare Bitping, una potente soluzione per il monitoraggio dei siti web e l'ottimizzazione delle prestazioni per avere un feedback in tempo reale sui tempi di inattività e sulle prestazioni degradate."
 tags: ["Bitping", "monitoraggio del sito web", "ottimizzazione delle prestazioni", "monitoraggio in tempo reale", "tempo di inattività", "prestazioni degradate", "test di stress", "benchmarking", "reinstradamento dinamico", "riprovisionamento", "intelligenza di rete", "webhook", "Solana", "nodo", "test di rete leggeri", "pagamenti", "guadagni", "prestazioni del sito web", "analisi del sito web", "web monitoring", "monitoraggio delle prestazioni", "monitoraggio del tempo di attività", "monitoraggio degli utenti reali", "test di rete", "feedback sul sito web", "avvisi sul sito web", "livello di intelligenza di rete", "soluzione di monitoraggio", "prestazioni web", "metriche di prestazione"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Illustrazione animata di una dashboard delle prestazioni di un sito web con metriche e avvisi in tempo reale."
 coverCaption: ""
 ---

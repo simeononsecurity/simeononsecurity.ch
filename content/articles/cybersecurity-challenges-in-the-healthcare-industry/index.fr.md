@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les défis en matière de cybersécurité auxquels sont confrontés les soins de santé et explorez les stratégies de protection et de conformité afin de protéger les données des patients et de garantir la conformité aux réglementations."
 tags: ["cybersécurité", "soins de santé", "patient data", "confidentialité des données", "conformité", "HIPAA", "GDPR", "audits de sécurité", "les contrôles d'accès", "chiffrement", "formation", "menaces d'initiés", "attaques par hameçonnage", "Dispositifs IoT", "sécurité des réseaux", "violations de données", "télémédecine", "logiciels malveillants", "failles de sécurité", "règlements"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "Image d'un médecin se tenant devant un bouclier avec un symbole de cadenas pour représenter la protection des données des patients contre les menaces de cybersécurité. "
 coverCaption: ""
 ---

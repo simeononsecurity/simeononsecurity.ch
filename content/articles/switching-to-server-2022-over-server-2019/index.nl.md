@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de verbeterde beveiligingsfuncties, beheer- en automatiseringsmogelijkheden en prestaties en schaalbaarheid van Windows Server 2022, waardoor het de beste keuze is voor bedrijven die willen upgraden van Windows Server 2019."
 tags: ["Windows Server 2022", "Upgrade", "Business", "Beveiliging", "Beheer", "Automatisering", "Prestaties", "Schaalbaarheid", "Windows Server 2019"]
-cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.png"
+cover: "/img/cover/An_image_of_a_server_room_with_rows_of_servers_running.webp"
 coverAlt: "Een afbeelding van een serverruimte met rijen servers waarop Windows Server 2022 draait. De servers moeten netjes gerangschikt en goed verlicht zijn, wat duidt op een goed onderhouden en efficiënte IT-infrastructuur."
 coverCaption: ""
 ---

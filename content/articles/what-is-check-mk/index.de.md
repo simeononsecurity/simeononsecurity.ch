@@ -6,7 +6,7 @@ draft: false
 description: "Lernen Sie die Funktionen, Vorteile und Anwendungsfälle von CheckMK kennen, einer umfassenden Überwachungslösung für proaktives IT-Infrastrukturmanagement."
 genre: ["Technologie", "IT-Infrastruktur", "Netzwerk-Überwachung", "Überwachung von Anwendungen", "IT-Betrieb", "Leistungsanalyse", "Automatisierung", "Event Management", "Skalierbarkeit", "Flexibilität"]
 tags: ["CheckMK", "Überwachungslösung", "IT-Infrastruktur", "Echtzeit-Überwachung", "Veranstaltungsmanagement", "Leistungsanalytik", "Automatisierung", "Skalierbarkeit", "Flexibilität", "IT-Operationen", "Netzüberwachung", "Anwendungsüberwachung", "Leistungsoptimierung", "proaktive Überwachung", "Vorfallreaktion", "Kapazitätsplanung", "Ressourcenzuweisung", "Konfigurationsmanagement", "IT-Effizienz", "Verwaltung der Infrastruktur", "umfassende Überwachungslösung", "proaktives Management der IT-Infrastruktur", "Netzwerk-Performance-Analytik", "Automatisierungsrahmen", "Skalierbarkeit der IT-Infrastruktur", "Veranstaltungsmanagement-Plattform", "Echtzeit-Leistungsüberwachung", "Optimierung der Anwendungsleistung", "Cloud-Überwachungsdienste", "Lösung zur Überwachung der Einhaltung von Vorschriften"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "Ein lebendiges und dynamisches Kunstwerk, das eine Netzinfrastruktur mit Überwachungsindikatoren und Analysefunktionen darstellt."
 coverCaption: "Stärken Sie Ihre IT-Infrastruktur mit CheckMK: Erhöhen Sie die Effizienz und Zuverlässigkeit!"
 ---

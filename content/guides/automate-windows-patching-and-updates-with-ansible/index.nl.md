@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Stroomlijn het proces van het bijwerken van Windows-systemen door automatisering met Ansible - stap-voor-stap instructies en best practices inbegrepen."
 tags: ["het automatiseren van Windows updates", "Ansible automatisering", "systeembeheer", "beveiligingspatches", "IT-infrastructuur", "netwerkautomatisering", "configuratiebeheer", "IT-werkzaamheden", "DevOps", "cyberbeveiliging", "IT-automatisering", "IT-efficiëntie", "Ansible playbook", "Windows beveiliging", "updatebeheer", "IT-productiviteit", "IT-onderhoud", "Ansible referenties", "hostconfiguratie", "systeemautomatisering", "Windows updates", "Windows systeembeheer", "Windows beveiligingspatches", "Windows IT-infrastructuur", "Windows netwerk automatisering", "Windows configuratiebeheer", "Windows IT-operaties", "Windows DevOps", "Windows cyberveiligheid", "Windows IT-automatisering", "Windows IT-efficiëntie"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Een geanimeerde illustratie met een Windows-logo omringd door tandwielen die automatisering en updates symboliseren."
 coverCaption: ""
 ---

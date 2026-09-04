@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come utilizzare efficacemente Nmap per la scansione della rete, la scansione delle porte, il rilevamento dei servizi e l'identificazione del sistema operativo per valutare la sicurezza della rete."
 tags: ["nmap", "scansione della rete", "valutazione della sicurezza", "scansione della porta", "rilevamento del servizio", "rilevamento del sistema operativo", "Motore di scripting Nmap", "hacking etico", "sicurezza della rete", "infrastruttura di rete", "rilevamento delle vulnerabilità", "scansione ping", "Scansione TCP SYN", "permesso", "legalità", "impatto della rete", "scansione mirata", "protezione dei dati", "CFAA", "GDPR", "mappatura della rete", "riconoscimento della rete", "strumenti di sicurezza di rete", "sicurezza informatica", "strumento open-source", "strumento a riga di comando", "scoperta dell'host", "intelligenza di rete", "raccolta di informazioni", "vulnerabilità della rete", "ambiente di rete sicuro"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Concetto di sicurezza di rete con gli strumenti di scansione Nmap in stile 3D animato."
 coverCaption: ""
 ---

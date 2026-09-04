@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cele mai bune alegeri de smartwatch-uri adaptate pentru pasionații de confidențialitate, punând accentul pe securitatea datelor și controlul utilizatorului."
 tags: ["opțiuni smartwatch", "dispozitive axate pe confidențialitate", "securitatea datelor", "controlul utilizatorului", "AsteroidOS", "PineTime", "The Watchy", "Ceasul inteligent deschis", "Bangle.js 2", "Gadgetbridge", "tehnologie portabilă", "confidențialitatea datelor", "experiență personalizabilă", "protecția datelor cu caracter personal", "ceasuri inteligente open-source", "urmărire fitness", "notificări", "firmware-ul smartwatch", "persoane care respectă viața privată", "Gadgetbridge dispozitive acceptate", "Amazfit Bip", "Ceasuri Garmin", "Modele Fitbit", "Ceas inteligent Pinetime", "The Watchy de Squarofumi", "Ceasul inteligent deschis de Pauls_3D_Things", "Bangle.js 2 smartwatch", "Compatibilitatea Gadgetbridge", "Dispozitive acceptate de AsteroidOS", "Caracteristicile de confidențialitate ale smartwatch-ului", "tehnologie portabilă open-source", "soluții de confidențialitate a datelor"]
-cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.png"
+cover: "/img/cover/Illustration_of_a_smartwatch_with_a_shield_symbolizing_data.webp"
 coverAlt: "Ilustrație a unui smartwatch cu un scut care simbolizează confidențialitatea datelor"
 coverCaption: ""
 ---

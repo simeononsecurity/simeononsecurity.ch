@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Scopri le tattiche utilizzate dai truffatori di phishing e scopri strategie efficaci per proteggerti dal diventare una vittima."
 tags: ["truffe di phishing", "sicurezza informatica", "minacce online", "spoofing della posta elettronica", "Ingegneria sociale", "protezione da malware", "sicurezza in linea", "la sicurezza dei dati", "furto d'identità", "sicurezza della password", "autenticazione a due fattori", "aggiornamenti software", "regolamenti governativi", "riservatezza in linea", "consapevolezza informatica", "frode digitale", "consapevolezza del phishing", "sicurezza dei social media", "truffe online", "prevenzione del crimine informatico"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Uno scudo vigile che protegge un utente dagli attacchi di phishing"
 coverCaption: ""
 ---

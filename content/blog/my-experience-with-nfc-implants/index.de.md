@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über meine Erfahrungen mit NFC-Tag-Implantaten, über die Risiken, Komplikationen und persönlichen Erkenntnisse, die die Bedeutung einer fundierten Entscheidungsfindung unterstreichen."
 tags: ["NFC-Tag-Implantate", "Bodyhacking", "gefährliche Dinge", "Implantat-Risiken", "Körpermodifikationen", "Komplikationen", "Implantatabstoßung", "Schmerzen und Entzündungen", "Nervenschäden", "Implantatentfernung", "chronische Schmerzen", "Sicherheitsvorkehrungen", "Risiken und Nutzen", "Beratung", "Forschung", "professionelle Installation", "Risiken der Körpermodifikation", "Implantatverschiebung", "Karpaltunnelsyndrom", "Komplikationen verstehen", "persönliche Sicherheit", "informierte Entscheidung", "digitale Interaktion", "medizinische Verfahren", "Implantatsicherheit", "Vorsicht bei Körpermodifikationen", "Implantatkomplikationen", "persönliches Wohlbefinden", "gesundheitliche Aspekte", "professionelle Beratung"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_hand_showing_an_NFC_tag.webp"
 coverAlt: "Ein Bild, das eine Person mit einer Hand zeigt, die ein NFC-Tag-Implantat trägt, begleitet von Schmerzsymbolen um die Hand, die die Risiken und Komplikationen im Zusammenhang mit NFC-Tag-Implantaten veranschaulichen."
 coverCaption: ""
 ---

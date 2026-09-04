@@ -6,7 +6,7 @@ draft: false
 description: "Learn about bandwidth management, quality of service (QoS), and techniques for prioritizing network traffic in this comprehensive guide for CompTIA's Network+ Certification Exam."
 genre: ["Technology", "Networking", "IT Certifications", "Network Management", "Bandwidth Management", "QoS", "Traffic Shaping", "Ethernet Switching", "Network Performance", "Network Optimization"]
 tags: ["Bandwidth Management", "QoS", "Quality of Service", "Network+", "Certification Exam", "Traffic Shaping", "Prioritizing Traffic", "VLAN", "Port Configurations", "Port Tagging", "802.1Q", "Port Aggregation", "LACP", "Duplex", "Speed", "Flow Control", "Port Mirroring", "Port Security", "Jumbo Frames", "MDI-X", "Implementing QoS Techniques", "Ethernet Switching Features", "Network Performance Optimization", "Traffic Prioritization Methods", "PoE", "PoE+", "Spanning Tree Protocol", "CSMA CD", "ARP", "Neighbor Discovery Protocol"]
-cover: "/img/cover/An_illustration_showing_a_network_with_differe.png"
+cover: "/img/cover/An_illustration_showing_a_network_with_differe.webp"
 coverAlt: "An illustration showing a network with different devices connected, highlighting the prioritization of traffic and bandwidth management."
 coverCaption: "Optimize your network's potential with effective bandwidth management and QoS techniques."
 ---

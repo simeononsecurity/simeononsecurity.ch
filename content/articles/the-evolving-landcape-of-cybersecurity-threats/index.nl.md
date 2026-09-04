@@ -6,7 +6,7 @@ draft: false
 description: "Blijf op de hoogte van het veranderende cyberbeveiligingslandschap, nieuwe bedreigingen en effectieve tegenmaatregelen om u te beschermen tegen cyberaanvallen."
 genre: ["Cyberbeveiligingsbedreigingen", "Opkomende trends", "Tegenmaatregelen", "Cyberdreigingslandschap", "Technologierisico's", "Datalekken", "Ransomware-aanvallen", "Phishing-technieken", "IoT-kwetsbaarheden", "Bedreigingen van binnenuit"]
 tags: ["cyberdreigingen", "opkomende trends", "tegenmaatregelen", "cyberdreigingslandschap", "technologierisico's", "datalekken", "ransomware-aanvallen", "phishing-technieken", "IoT-kwetsbaarheden", "bedreigingen van binnenuit", "cyberaanvallen", "cyberbewustzijn", "veiligheidsprotocollen", "netwerkbeveiliging", "gegevensbescherming", "kunstmatige intelligentie", "machinaal leren", "detectie en reactie van endpoints", "beveiligingsbeoordelingen", "informatie-uitwisseling", "werknemersopleiding", "veiligheidscontroles", "cyberaanvallen door natiestaten", "AI in cyberbeveiliging", "beste praktijken op het gebied van cyberbeveiliging", "veiligheidscultuur", "overheidsregulering", "cyberweerbaarheid", "kwantumcomputing", "blockchaintechnologie"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Een schild met een slotsymbool dat staat voor cyberbeveiliging, omringd door onderling verbonden apparaten en binaire code"
 coverCaption: "Verdedig je tegen cyberbedreigingen met een veerkrachtig cyberbeveiligingsschild."
 ---

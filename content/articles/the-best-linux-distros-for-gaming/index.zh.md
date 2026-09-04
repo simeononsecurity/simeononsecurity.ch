@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "了解适用于游戏的顶级 Linux 发行版，包括 Ubuntu、Zorin OS、Manjaro 和 SteamOS，在 Linux 上将你的游戏体验提升到新的高度。"
 tags: ["适用于游戏的 Linux 发行版", "Ubuntu 游戏", "Zorin OS 游戏", "Manjaro 游戏", "SteamOS 游戏", "Linux 游戏性能", "支持 Linux 游戏", "Linux 游戏社区", "Ubuntu 游戏体验", "Zorin OS 游戏界面", "专注于游戏的 Manjaro", "SteamOS 游戏操作系统", "用于游戏的 Pop!", "Fedora 游戏支持", "Solus 游戏性能", "Linux 游戏发行版", "最佳 Linux 发行版", "在 Linux 上玩游戏", "Linux 游戏平台", "Linux 游戏指南", "在 Ubuntu 上玩游戏", "在 Zorin OS 上玩游戏", "在 Manjaro 上玩游戏", "在 SteamOS 上玩游戏", "Linux 游戏软件", "Linux 游戏库", "Linux 游戏兼容性", "Linux 游戏社区支持", "Linux 游戏设置", "优化 Linux 游戏性能", "Linux 游戏技巧和窍门"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "插图：一名玩家沉浸在由 Linux 驱动的计算机上的虚拟世界中"
 coverCaption: ""
 ---

@@ -87,7 +87,7 @@ O produto principal da empresa é a **câmera Flock Safety Falcon**, um disposit
 
 As câmeras Flock capturam mais do que apenas números de placas. Elas registram a marca, modelo, cor, tipo de carroceria e características distintivas de cada veículo que passa. A empresa comercializa isso como "impressões digitais" do veículo. Isso significa que cada viagem que você faz é catalogada, mesmo quando você não fez nada de errado.
 
-{{< figure src="deflock-lpr-demo.png" alt="Uma câmera ALPR da Flock Safety montada em um poste demonstrando como a tecnologia captura placas" caption="Uma instalação típica de câmera ALPR. Crédito da imagem: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="Uma câmera ALPR da Flock Safety montada em um poste demonstrando como a tecnologia captura placas" caption="Uma instalação típica de câmera ALPR. Crédito da imagem: DeFlock.org" link="https://deflock.org/" >}}
 
 ### Como a Tecnologia ALPR Funciona
 
@@ -200,7 +200,7 @@ A ampla implantação da vigilância ALPR levanta sérias **preocupações com a
 
 O que começou como uma ferramenta para **resolver crimes contra a propriedade** se expandiu drasticamente. Esses não são riscos hipotéticos. São padrões documentados.
 
-{{< figure src="aclu-get-flock-out-header.png" alt="Imagem de cabeçalho da campanha ACLU Get The Flock Out mostrando uma colagem de câmeras ALPR" caption="A campanha 'Get The Flock Out' da ACLU documentou o uso indevido generalizado de sistemas ALPR. Crédito da imagem: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Imagem de cabeçalho da campanha ACLU Get The Flock Out mostrando uma colagem de câmeras ALPR" caption="A campanha 'Get The Flock Out' da ACLU documentou o uso indevido generalizado de sistemas ALPR. Crédito da imagem: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE e Fiscalização da Imigração
 **O ICE usou a Flock para localizar e perseguir imigrantes indocumentados sem mandados.** A rede nacional da plataforma dá à fiscalização federal de imigração uma ferramenta para rastrear indivíduos entre jurisdições sem qualquer causa provável individualizada. Muitas comunidades que financiaram suas redes Flock para recuperação de crimes contra a propriedade descobriram que suas câmeras fazem parte de operações federais de fiscalização de imigração.

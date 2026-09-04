@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本文探讨了升级到 Server 2019 或切换到 Azure 的好处，包括改进的安全性、性能、集成和支持，以帮助企业做出最适合其 IT 基础架构的决定。"
 tags: ["升级至服务器 2019", "转至 Azure", "信息技术基础设施", "商业技术", "增强安全性", "性能改进", "与 Azure 集成", "长期支持", "可扩展性", "成本效益", "提高可靠性", "高级分析", "混合方法", "灵活弹性的 IT 基础设施"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "一幅服务器机房的图片，一边是服务器机架，另一边是云，一个人站在中间看着它们。"
 coverCaption: ""
 ---

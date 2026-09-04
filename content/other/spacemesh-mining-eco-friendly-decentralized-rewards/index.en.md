@@ -6,7 +6,7 @@ draft: false
 description: "Earn eco-friendly rewards through Spacemesh mining, a decentralized approach using the innovative PoST consensus algorithm."
 genre: ["Cryptocurrency Mining", "Proof-of-Space-Time", "Decentralized Rewards", "Eco-Friendly Mining", "Blockchain Technology", "Cryptocurrency", "Crypto Mining", "Proof-of-Space", "Decentralization", "Blockchain Consensus"]
 tags: ["Spacemesh Mining", "Proof-of-Space-Time", "Eco-Friendly", "Decentralization", "Cryptocurrency Mining", "Blockchain Technology", "Meshers", "PoST Proofs", "Mining Rewards", "Crypto Enthusiasts", "Decentralized Consensus", "Eco-Friendly Mining Solutions", "Cryptocurrency Rewards", "Cryptocurrency Security", "Proof-of-Space", "Crypto Innovation", "Blockchain Network", "Spacemesh Network", "Meshing Process", "Cryptocurrency Efficiency", "Crypto Participation", "Cryptocurrency Scalability", "Blockchain Incentives", "Spacemesh Software", "Spacemesh Tokens", "Crypto Network", "Cryptocurrency Transactions", "Cryptocurrency Decentralization", "Crypto Challenges"]
-cover: "/img/cover/spacemesh-mining-rocket.png"
+cover: "/img/cover/spacemesh-mining-rocket.webp"
 coverAlt: "An eye-catching cartoon illustration of a rocket-powered spaceship mining cryptocurrencies in outer space, symbolizing the eco-friendly and innovative Spacemesh mining process."
 coverCaption: "Mining to the Stars! Spacemesh's Eco-Friendly Rewards Await."
 ref: ["/other/efficient-spacemesh-mining-multiple-gpus-guide"]

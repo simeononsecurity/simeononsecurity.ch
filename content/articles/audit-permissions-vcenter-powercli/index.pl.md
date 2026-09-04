@@ -6,7 +6,7 @@ draft: false
 description: "Dowiedz się, jak skutecznie audytować uprawnienia dla vCenter za pomocą PowerCLI, zapewniając bezpieczną infrastrukturę wirtualną."
 genre: ["Audyt uprawnień vCenter", "Automatyzacja PowerCLI", "Bezpieczeństwo VMware", "Zarządzanie infrastrukturą wirtualną", "Przydział uprawnień", "Kontrola dostępu użytkownika", "Luki w zabezpieczeniach", "Automatyzacja PowerShell", "Zarządzanie środowiskiem vSphere", "Przegląd uprawnień użytkowników"]
 tags: ["vCentre", "PowerCLI", "uprawnienia do audytu", "vSphere", "VMware", "infrastruktura wirtualna", "PowerShell", "kontrola dostępu użytkowników", "luki w zabezpieczeniach", "przydział uprawnień", "automatyzacja", "Polecenia cmdlet PowerCLI", "role użytkowników", "przegląd uprawnień", "polityki bezpieczeństwa", "zgodność", "raporty z audytu", "ochrona danych", "RODO", "HIPAA", "zarządzanie użytkownikami", "Użytkownicy vCenter", "najlepsze praktyki bezpieczeństwa", "regulacje rządowe", "Instalacja PowerCLI", "Połączenie vCenter", "Skrypty PowerCLI", "audyt procesu", "eksportowanie danych audytu", "usunięcie zezwolenia"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.webp"
 coverAlt: "Ilustracja przedstawiająca osłonę chroniącą wirtualne centrum danych przed nieautoryzowanym dostępem."
 coverCaption: "Zabezpiecz swoje vCenter za pomocą skutecznego audytu uprawnień przy użyciu PowerCLI."
 ---

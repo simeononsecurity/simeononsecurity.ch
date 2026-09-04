@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "了解 vSphere Packer Builder 的有效 guest os 类型值，轻松优化 VMware vSphere 虚拟机创建流程。"
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## vSphere Packer Builder 的有效 "guest_os_type "值列表

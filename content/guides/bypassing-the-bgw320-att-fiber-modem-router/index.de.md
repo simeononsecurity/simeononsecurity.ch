@@ -44,7 +44,7 @@ Wenn Sie einen Port-Scan von 1-65535 durchführen, werden Sie einige offene Port
 
 ### Anpassen des ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Jetzt kommt der wichtige Teil, d. h. die Änderung einiger Geräteinformationen, um sie mit dem Netz Ihres Internetanbieters kompatibel zu machen.
 

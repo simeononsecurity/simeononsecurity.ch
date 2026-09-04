@@ -39,9 +39,9 @@ coverCaption: "Решайте проблемы с синхронизацией �
 
 ## Внутри гелиевых шахтеров Nebra:
 ### Содержание внутреннего шахтера Nebra:
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### Содержание Nebra Outdoor Miner:
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) 9-16 В @ 15 Вт DC 6.5MMx2.0MM Barrel Jack
  - 2.) Ethernet-коннектор
  - 3.) Светодиодный индикатор
@@ -53,7 +53,7 @@ coverCaption: "Решайте проблемы с синхронизацией �
 ### Шаг 1. По желанию получите файл config.json с ключа EMMC:
 - Скачайте и установите [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) это понадобится для загрузки вычислительного модуля в качестве файловой системы usb
 - Определите и установите перемычки на дочерней плате CM3 для режима программирования
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.) Порт Micro USB, используемый для формирования изображений
    - 7.) Перемычка JP4 USB - используется для переключения между обычным режимом работы и режимом вспышки; убедитесь, что она находится в положении 1-2 для обычного режима работы и 2-3 для программирования.
    - 8.) JP3 Power Jumper - позволяет питать модуль от разъема Micro USB. Подключайте его только при программировании с ПК и убедитесь, что материнская плата не подключена.

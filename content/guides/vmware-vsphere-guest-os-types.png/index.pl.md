@@ -4,7 +4,7 @@ date: 2023-09-01
 toc: true
 draft: false
 description: "Odkryj prawidłowe wartości typu systemu operacyjnego gościa dla vSphere Packer Builder, z łatwością optymalizując proces tworzenia maszyn wirtualnych dla VMware vSphere."
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 ---
 
 ## Lista prawidłowych wartości "guest_os_type" dla vSphere Packer Builder

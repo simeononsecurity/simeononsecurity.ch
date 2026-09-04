@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki pisania bezpiecznego kodu PowerShell, aby chronić systemy oparte na Windows przed lukami w zabezpieczeniach."
 tags: ["PowerShell", "Bezpieczne kodowanie", "Systemy oparte na Windowsie", "Walidacja wejścia", "Biblioteki kryptograficzne", "Najmniejszy przywilej", "Statyczny analizator kodu", "Bezpieczne protokoły komunikacyjne", "Rejestrowanie i monitorowanie", "Skanowanie podatności", "Edukacja", "Kod wtrysku", "Eskalacja uprawnień", "Wyciek danych", "Środowisko utwardzania", "Polityka bezpieczeństwa", "Firewalle", "Systemy wykrywania włamań", "Zarządzanie podatnościami", "Bezpieczeństwo sieci"]
-cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Obraz superbohatera stojącego przed komputerem z logo Windows na ekranie i tarczą w ręku, symbolizujący znaczenie praktyk bezpiecznego kodowania dla ochrony systemów opartych na Windows."
 coverCaption: ""
 ---

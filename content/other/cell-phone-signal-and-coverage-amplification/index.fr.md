@@ -15,7 +15,7 @@ Rester connecté est devenu une nécessité pour la plupart d'entre nous, surtou
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 Le [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) Cela n'aide que si vous avez une bonne couverture ou une couverture utilisable à l'intérieur ou à proximité d'une fenêtre et non dans une autre zone de la maison. Cela fonctionne mieux si vous avez juste besoin de répartir plus uniformément la couverture dans une habitation.
 
@@ -23,7 +23,7 @@ Ils sont produits par une société appelée [Cell-Fi](https://nextivityinc.com/
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 Le [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) les options nécessitent une certaine installation. Ils vous obligent à installer un poteau, une tige de mise à la terre, un parafoudre, un ampli et une ou plusieurs antennes intérieures. Ils offrent le meilleur signal possible mais ne fonctionneront pas s'il n'y a aucun signal dans votre région. Ils ont en moyenne environ 60db de gain supplémentaire mais peuvent aller jusqu'à 100db. Il s'agit certainement de la meilleure solution permanente, car vous obtiendrez la meilleure amélioration possible du signal ainsi que la prise en charge de tous les opérateurs en même temps.
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Aprenda a apuntar y apuntar su antena celular direccional para obtener una potencia y confiabilidad de señal óptimas, incluida la ubicación de torres celulares y la comprensión de las zonas de Fresnel."
 tags: ["antena celular", "antena direccional", "amplificador de teléfono celular", "módem celular", "Intensidad de señal", "torres celulares", "línea de visión de radio", "línea de visión visual", "zonas de fresnel", "apuntando la antena", "optimizar la señal", "conectividad celular", "mejorar la intensidad de la señal", "aumentar la señal celular", "amplificador de señal celular", "ubicación de la torre celular", "instalación de antena", "propagación de la señal", "Comunicación inalámbrica", "cobertura de red mejorada", "guía de señalización", "técnicas de puntería", "optimización de antena celular", "fiabilidad de la señal", "rendimiento de la red", "mejora de la señal celular", "alineación de la antena", "consejos de optimización de señal", "colocación de antena celular", "estrategias de refuerzo de señal", "Instrucciones para apuntar la antena"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Ilustración de una persona que apunta una antena celular direccional hacia una torre celular con ondas de señal que se propagan."
 coverCaption: ""
 ---

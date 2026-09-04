@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le sfide di cybersecurity che l'assistenza sanitaria deve affrontare ed esplorate le strategie di protezione e conformità per proteggere i dati dei pazienti e garantire la conformità normativa."
 tags: ["sicurezza informatica", "assistenza sanitaria", "dati del paziente", "data privacy", "compliance", "HIPAA", "GDPR", "controlli di sicurezza", "controlli di accesso", "crittografia", "formazione", "minacce interne", "attacchi di phishing", "Dispositivi IoT", "sicurezza della rete", "violazioni dei dati", "telemedicina", "malware", "violazioni della sicurezza", "regolamenti"]
-cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.png"
+cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "Un'immagine di un medico in piedi davanti a uno scudo con il simbolo di un lucchetto per rappresentare la protezione dei dati dei pazienti contro le minacce alla sicurezza informatica."
 coverCaption: ""
 ---

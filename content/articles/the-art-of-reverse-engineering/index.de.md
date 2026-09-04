@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Möglichkeiten des Reverse Engineering, um Sicherheitslücken in IoT-Netzwerken aufzudecken und die allgemeine Systemsicherheit zu verbessern."
 tags: ["Reverse Engineering", "IoT-Sicherheit", "Schwachstellen", "Sicherheitsprotokolle", "Geräteanalyse", "IoT-Netze", "innere Abläufe", "bösartiger Code", "Verschlüsselungsmaßnahmen", "Authentifizierungsmaßnahmen", "Firewalls", "Software-Update"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Ein Bild eines Sicherheitsexperten, der das Innenleben eines IoT-Geräts untersucht, wobei verschiedene Hardwarekomponenten und Leiterplatten sichtbar sind. "
 coverCaption: ""
 ---

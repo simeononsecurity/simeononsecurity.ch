@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las formas aprobadas por el NIST de desinfectar discos duros, unidades SSD, unidades flash USB, CD, DVD y discos Blu-ray para proteger los datos confidenciales de accesos no autorizados."
 tags: ["Métodos aprobados por el NIST", "Desinfección de soportes extraíbles", "Discos duros", "Unidades SSD", "Memorias USB", "CD", "DVD", "Discos Blu-ray", "Seguridad de los datos", "Protección de datos sensibles"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Imagen de una persona sosteniendo una memoria USB con una trituradora de fondo"
 coverCaption: ""
 ---

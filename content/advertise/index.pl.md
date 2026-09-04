@@ -19,13 +19,13 @@ Z niecierpliwością czekamy na współpracę z Tobą w celu promowania Twojej m
 ### Poniżej znajduje się kilka przykładów obsługiwanych przez nas rozmiarów i slotów reklamowych:
 
 #### 1. 300x250
-![300x250 Ad](/img/ads/amazon/audible-300x250.png)
+![300x250 Ad](/img/ads/amazon/audible-300x250.webp)
 
 #### 2. 300x300
-![300x300 Ad](/img/ads/pawnsapp/earn_money_general_300x300.png)
+![300x300 Ad](/img/ads/pawnsapp/earn_money_general_300x300.webp)
 
 #### 3. 468x60
-![468x60 Ad](/img/ads/startmail/startmail_468x60.png)
+![468x60 Ad](/img/ads/startmail/startmail_468x60.webp)
 
 #### 4. 728x90
-![728x90 Ad](/img/ads/traffmonetizer/make_money_by_simply_sharing_your_internet-728x90.png)
+![728x90 Ad](/img/ads/traffmonetizer/make_money_by_simply_sharing_your_internet-728x90.webp)

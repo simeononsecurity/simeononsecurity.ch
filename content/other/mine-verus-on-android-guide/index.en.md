@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to efficiently mine VerusCoin on your Android device using a step-by-step guide."
 genre: ["Cryptocurrency", "Mobile Mining", "Technology", "Smartphone Mining", "VerusCoin", "Android Mining", "Crypto Guide", "Mining Tutorial", "Digital Currency", "Blockchain"]
 tags:  ["Step-by-Step Mining", "Android Mining Tutorial", "VerusCoin Smartphone Mining", "Efficient Mobile Mining", "Cryptocurrency Mining Guide", "VerusCoin Mining Setup", "Mining on Android", "Easy Mining Tutorial", "Smartphone Crypto Mining", "VerusCoin Mining Tips", "VerusCoin", "Android Mining", "Smartphone Mining", "Cryptocurrency", "Mobile Mining", "Mining Tutorial", "Blockchain", "Digital Currency", "Mining Guide", "Verus"]
-cover: "/img/cover/veruscoin-android-mining.png"
+cover: "/img/cover/veruscoin-android-mining.webp"
 coverAlt: "A cartoon-style smartphone with a pickaxe mining VerusCoin."
 coverCaption: "Mine VerusCoin Anywhere with Smartphone Power!"
 ---
@@ -223,7 +223,7 @@ This requires some experience with linux command line and is only suggested for 
 
 ##### QR Code to Download the Verus Mining Script
 
-{{< figure src="verusscript.png" alt="QR Code to Download the Verus Mining Script" >}}
+{{< figure src="verusscript.webp" alt="QR Code to Download the Verus Mining Script" >}}
 
 ### Optional Advanced ADB Configuration Steps:
 

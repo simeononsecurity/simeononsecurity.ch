@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Obteniu informació sobre les tàctiques que fan servir els estafadors de pesca i descobriu estratègies efectives per protegir-vos de convertir-vos en una víctima."
 tags: ["estafes de pesca", "seguretat cibernètica", "amenaces en línia", "falsificació de correu electrònic", "Enginyeria social", "protecció contra programari maliciós", "seguretat en línia", "seguretat de dades", "el robatori d'identitat", "seguretat de contrasenya", "autenticació de dos factors", "actualitzacions de programari", "regulacions governamentals", "privadesa en línia", "ciberconsciència", "frau digital", "consciència de phishing", "seguretat a les xarxes socials", "estafes en línia", "prevenció del ciberdelicte"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Un escut vigilant que protegeix un usuari dels atacs de pesca"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek in dit artikel de kracht van Docker in cloud computing, omdat het VM's overtreft met zijn eenvoud, schaalbaarheid, veiligheid en kosteneffectiviteit."
 tags: ["Docker", "Virtuele machines", "VM's", "Cloud Computing", "Containers", "Eenvoud", "Schaalbaarheid", "Beveiliging", "Kosteneffectiviteit", "Dockerfile", "Bouwen, testen en uitrollen", "Isolatie", "Track record veiligheid", "Kostenvergelijking", "Informatief artikel"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Een afbeelding van een vrachtschip, in de vorm van een blauwe vinvis, met meerdere Docker-containers aan boord"
 coverCaption: ""
 ---

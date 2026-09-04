@@ -6,7 +6,7 @@ date: 2023-07-22
 description: "Gewinnen Sie ein umfassendes Verständnis der OSI-Schichten und des TCP-IP-Modells, die für Netzwerke unerlässlich sind, um eine effektive Kommunikation und Fehlersuche zu ermöglichen."
 genre: ["Grundlagen der Netzwerkarbeit", "OSI Layers", "TCP IP-Modell", "Netzwerk-Protokolle", "Kommunikationsmodelle", "Grundlagen der Netzwerkarbeit", "Datenübertragung", "Netzwerk-Fehlerbehebung", "Netzarchitektur", "Vernetzungskonzepte"]
 tags: ["OSI-Schichten", "TCP-IP-Modell", "Netzwerk-Grundlagen", "Netzwerkprotokolle", "Kommunikationsmodelle", "Datenübertragung", "Netzwerk-Fehlersuche", "Netzarchitektur", "Netzwerkkonzepte", "Netzwerk-Grundlagen", "Netzwerk-Frameworks", "Erklärung von Netzwerkprotokollen", "Vernetzungsstandards", "physikalische Schicht", "Datenverbindungsschicht", "Netzwerkschicht", "Transportschicht", "Sitzungsschicht", "Präsentationsschicht", "Anwendungsschicht", "TCP-IP-Schichten", "Netzwerkschnittstellenschicht", "Internetschicht", "Transportschicht", "Anwendungsschicht", "Netzwerkprotokolle erklärt", "Netzwerkmodelle", "Netzwerk-Grundlagen erklärt", "Netzwerk-Leitfaden", "Netzwerk-Tutorial", "bewährte Netzwerkpraktiken"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_network.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_network.webp"
 coverAlt: "Eine animierte Illustration, die ein Netz miteinander verbundener Knotenpunkte zeigt, zwischen denen Daten fließen, und die effiziente Kommunikation und Vernetzung symbolisiert."
 ---
  Grundlagen der Netzwerktechnik: Die OSI-Schichten und das TCP-IP-Modell verstehen

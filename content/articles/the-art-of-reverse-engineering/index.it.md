@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite la potenza del reverse engineering per scoprire le falle nella sicurezza delle reti IoT e migliorare la sicurezza complessiva del sistema."
 tags: ["ingegneria inversa", "Sicurezza IoT", "vulnerabilità", "protocolli di sicurezza", "analisi del dispositivo", "Reti IoT", "funzionamento interno", "codice maligno", "misure di crittografia", "misure di autenticazione", "firewall", "aggiornamento del software"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Un'immagine di un professionista della sicurezza che esamina il funzionamento interno di un dispositivo IoT, con vari componenti hardware e schede elettroniche visibili."
 coverCaption: ""
 ---

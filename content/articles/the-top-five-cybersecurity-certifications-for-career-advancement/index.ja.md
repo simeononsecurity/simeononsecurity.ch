@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "キャリアアップに役立つサイバーセキュリティ認定資格のトップ5をご覧いただき、急成長するサイバーセキュリティ分野での就職の可能性を高めてください。"
 tags: ["サイバーセキュリティ", "認定資格", "CompTIA Security Plus", "CISSP", "オフェンス・セキュリティ OSCP", "シスコCCNA", "(シーシーエスピー", "ITセキュリティ", "ネットワークセキュリティ", "クラウドセキュリティ", "プロフェッショナル・ディベロップメント", "キャリアアップ", "スキルの有効性確認", "情報セキュリティ", "エシカルハッキング", "ペネトレーションテスト", "ネットワーク管理", "クラウドコンピューティング", "セキュリティマネジメント", "脆弱性評価（Vulnerability Assessment"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "スーパーヒーローのマントを背負い、パソコンの前に立つ人のイメージで、サイバーセキュリティの資格を取得することで得られるスキルや知識を象徴しています。"
 coverCaption: ""
 ---

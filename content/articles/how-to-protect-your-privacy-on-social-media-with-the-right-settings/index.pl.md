@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Dowiedz się, jak chronić swoją prywatność na platformach mediów społecznościowych, rozumiejąc zagrożenia dla prywatności, typowe obawy i dostosowując ustawienia na Facebooku, Instagramie, Twitterze i LinkedIn."
 genre: ["Prywatność w mediach społecznościowych", "Ochrona danych osobowych w mediach społecznościowych", "Zagrożenia i obawy związane z prywatnością w mediach społecznościowych", "Ustawienia prywatności na Facebooku", "Zwiększanie prywatności na Instagramie", "Zabezpieczanie konta na Twitterze", "Ochrona prywatności na LinkedIn"]
 tags: ["dostosowywanie ustawień prywatności na Facebooku", "kontrolowanie obserwujących na Instagramie", "Zarządzanie danymi na Twitterze", "Ochrona prywatności w serwisie LinkedIn", "ograniczanie uprawnień aplikacji w mediach społecznościowych", "Zwiększanie prywatności na Instagramie", "Ochrona tweetów na Twitterze", "Zarządzanie połączeniami LinkedIn", "zabezpieczenie konta na Twitterze", "prywatność na platformach mediów społecznościowych"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Symboliczny obraz w stylu kreskówki przedstawiający zablokowaną tarczę chroniącą dane osobowe osoby w mediach społecznościowych"
 ---
 

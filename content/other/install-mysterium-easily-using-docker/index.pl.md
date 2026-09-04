@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Odkryj moc Mysterium, zdecentralizowanej sieci VPN i usługi skrobania stron internetowych opartej na technologii blockchain, oferującej bezpieczne przeglądanie i możliwości zarobkowe."
 tags: ["Tajemnica", "VPN", "web scraping", "zdecentralizowany", "prywatność", "bezpieczeństwo", "blockchain", "Ethereum", "Wielokąt", "przeglądanie internetu", "możliwość uzyskania dochodu", "Docker", "konfiguracja", "przekierowanie portów", "Zdecentralizowana sieć VPN", "Usługa skrobania stron internetowych", "bezpieczne przeglądanie", "zarobki", "technologia blockchain", "prywatność online", "Kontener Docker", "konfiguracja węzła", "Adres IP", "Portfel ERC20", "Adres MetaMask", "Klucz API", "instrukcje przekierowania portów", "PortForward.com", "Dokumentacja Mysterium"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_a_computer.webp"
 coverAlt: "Ilustracja przedstawiająca tarczę chroniącą ekran komputera, symbolizująca zwiększoną prywatność i bezpieczeństwo online."
 coverCaption: ""
 ---

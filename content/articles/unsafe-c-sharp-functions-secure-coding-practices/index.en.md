@@ -6,7 +6,7 @@ draft: false
 description: "Discover the risks of unsafe C sharp functions and learn secure alternatives."
 genre: ["Software Development", "C Sharp Programming", "Cybersecurity", "Code Security", "Secure Coding", "Programming Best Practices", "Software Vulnerabilities", "Cryptography", "Web Development", "Application Security"]
 tags: ["secure coding", "C Sharp programming", "software vulnerabilities", "buffer overflow", "input validation", "SQL injection", "XSS attacks", "memory handling", "file access control", "cryptography", "Bouncy Castle", "string manipulation", "string interpolation", "parameterized queries", "data security", "coding tips", "application development", "programming guidelines", "code security tips", "secure software", "software architecture", "coding practices", "file security", "data protection", "cybersecurity tips", "coding security", "coding standards", "web application security", "software engineering", "data encryption"]
-cover: "/img/cover/secure-coding-shield.png"
+cover: "/img/cover/secure-coding-shield.webp"
 coverAlt: "A 3D animated illustration of a shield protecting lines of code."
 coverCaption: "Guard Your Code: Secure C# Functions for Robust Applications"
 ---

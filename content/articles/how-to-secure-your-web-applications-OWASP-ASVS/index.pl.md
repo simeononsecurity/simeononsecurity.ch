@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zabezpieczyć swoje aplikacje internetowe za pomocą standardu OWASP Application Security Verification Standard (ASVS), aby spełnić najbardziej rygorystyczne środki bezpieczeństwa i chronić przed typowymi podatnościami."
 tags: ["bezpieczeństwo aplikacji internetowych", "OWASP", "ASVS", "bezpieczeństwo aplikacji", "normy bezpieczeństwa", "cybersecurity", "zarządzanie podatnością", "bezpieczne kodowanie", "test penetracyjny", "modelowanie zagrożeń", "kontrole bezpieczeństwa", "ocena bezpieczeństwa", "zautomatyzowane testy bezpieczeństwa", "ręczne badanie bezpieczeństwa", "bezpieczny cykl rozwoju", "najlepsze praktyki bezpieczeństwa", "bezpieczeństwo danych", "zarządzanie ryzykiem", "zgodność", "bezpieczeństwo informacji"]
-cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.png"
+cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "Tarcza pancerna z pogrubionymi literami ASVS, a za nią tarcza chroniąca aplikację internetową"
 coverCaption: ""
 ---

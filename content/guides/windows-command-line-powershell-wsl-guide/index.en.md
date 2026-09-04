@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the Power of Windows Command Line with PowerShell and WSL. Enhance Productivity and Bridge Windows-Linux Gap."
 genre: ["Technology", "Command Line", "Windows Tools", "PowerShell Scripting", "Windows Subsystem for Linux", "Automation", "System Administration", "Efficiency", "Productivity", "Linux Integration"]
 tags: ["Windows", "PowerShell", "WSL", "Command Line Tools", "Linux Utilities", "Automation", "System Administration", "Efficiency", "Productivity", "Technology", "Computing", "Scripting", "Object-Oriented", "Integration", "Linux on Windows", "Development", "Configuration", "Task Automation", "CLI", "Coding", "Software", "Technical", "Coding", "Programming", "Unix", "Microsoft", "Coding", "Linux Commands", "Windows System", "Network"]
-cover: "/img/cover/windows-linux-collaboration.png"
+cover: "/img/cover/windows-linux-collaboration.webp"
 coverAlt: "An animated illustration showing Windows and Linux collaboration."
 coverCaption: "Unleash the Power of Collaboration Between Windows and Linux!"
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

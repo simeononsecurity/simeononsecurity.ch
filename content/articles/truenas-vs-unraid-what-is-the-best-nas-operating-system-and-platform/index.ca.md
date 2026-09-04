@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Una comparació completa d'Unraid i TrueNas, que inclou la seva facilitat d'ús, característiques, documentació i comunitat, per ajudar els usuaris a prendre una decisió informada sobre quin sistema operatiu NAS s'adapta millor a les seves necessitats."
 tags: ["Unraid", "TrueNAS", "Sistema operatiu NAS", "Comparació", "Facilitat d'usuari", "Característiques", "Documentació", "Comunitat", "Codi obert", "Empresa", "Protecció de dades", "Rendiment", "Flexibilitat", "Fàcil d'usar", "Aplicacions de tercers", "Emmagatzematge connectat a la xarxa", "Tecnologia RAID", "Gestió d'emmagatzematge", "OpenZFS", "Usuaris domèstics", "Model de preus", "Emmagatzematge al núvol", "Virtualització", "Centre de documentació", "Fòrum comunitari", "Protecció de dades avançada", "Sistema operatiu NAS madur", "Experiència tècnica", "Professionals informàtics"]
-cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
+cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
 coverAlt: "Dos servidors enfrontats, un blau i un altre verd. Al costat blau hi ha una persona que porta un casc i armilla de seguretat. Al costat verd una persona asseguda al sofà."
 coverCaption: ""
 ---

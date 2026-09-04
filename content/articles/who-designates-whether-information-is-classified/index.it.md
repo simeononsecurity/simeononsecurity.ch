@@ -6,7 +6,7 @@ draft: false
 description: "Imparate a conoscere il processo di classificazione delle informazioni, compresi i soggetti che designano e assegnano i livelli di classificazione e l'importanza di aderire alle normative governative."
 genre: ["Sicurezza delle informazioni", "Classificazione dei dati", "Regolamenti governativi", "Sicurezza nazionale", "Protezione dei dati", "Data Privacy", "Misure di sicurezza", "Informazioni classificate", "Controllo degli accessi", "Data Sensitivity"]
 tags: ["classificazione delle informazioni", "designazione dei livelli di classificazione", "autorità di classificazione", "sicurezza delle informazioni", "regolamenti governativi", "sicurezza nazionale", "protezione dei dati", "data privacy", "misure di sicurezza", "informazioni classificate", "controllo degli accessi", "data sensitivity", "processo di classificazione", "livelli di classificazione", "autorità di classificazione originaria", "classificazione top secret", "classificazione segreta", "classificazione riservata", "classificazione ristretta", "sensibilità delle informazioni", "autorizzazione di sicurezza", "necessità di sapere", "marcature di classificazione", "processo di declassificazione", "Ordine esecutivo 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "Un'immagine che raffigura una persona con una lente di ingrandimento che analizza documenti classificati e il simbolo di un lucchetto sullo sfondo."
 coverCaption: "Svelare i segreti: L'importanza della classificazione delle informazioni"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear y gestionar un programa eficaz de formación en ciberseguridad que reduzca el riesgo de ciberataques y proteja los datos confidenciales."
 tags: ["ciberseguridad", "formación de sensibilización", "mitigación de riesgos", "protección de datos", "formación de empleados", "amenazas a la ciberseguridad", "riesgos de ciberseguridad", "objetivos de formación", "público destinatario", "impartición de formación", "formación interactiva", "ejemplos reales", "simulaciones", "ejercicios prácticos", "contenido de la formación", "NIST 800-50", "buenas prácticas de ciberseguridad", "cultura de la ciberseguridad", "recompensas y reconocimiento"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Una imagen animada de un grupo de empleados reunidos en torno a un ordenador o un experto en seguridad explicando conceptos de ciberseguridad en una pizarra."
 coverCaption: ""
 ---

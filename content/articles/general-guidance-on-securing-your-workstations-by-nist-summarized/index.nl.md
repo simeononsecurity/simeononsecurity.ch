@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw werkstations kunt beveiligen en gevoelige informatie kunt beschermen met deze uitgebreide gids op basis van de aanbevelingen van NIST voor het implementeren van sterke toegangscontroles, het up-to-date houden van software, het gebruik van antivirussoftware, het inschakelen van firewallbescherming, het implementeren van gegevensversleuteling en het regelmatig maken van back-ups van gegevens."
 tags: ["NIST-aanbevelingen", "werkstationbeveiliging", "cyberbeveiliging", "data-encryptie", "firewall bescherming", "antivirussoftware", "toegangscontroles", "gevoelige informatie", "cyberaanvallen", "gegevensback-up"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Een afbeelding van een persoon die op zijn werkstation zit met op de voorgrond een veiligheidsslot, waarmee het belang van de beveiliging van werkplekken wordt aangegeven."
 coverCaption: ""
 ---

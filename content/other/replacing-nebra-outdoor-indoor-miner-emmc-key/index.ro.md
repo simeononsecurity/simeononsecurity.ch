@@ -39,9 +39,9 @@ Pentru a înlocui cu succes cardul SD al Nebra Helium Miner, veți avea nevoie d
 
 ## În interiorul minerilor Nebra Helium:
 ### Conținutul minerului de interior Nebra:
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### Conținutul Nebra Outdoor Miner:
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) 9-16V @ 15W DC 6.5MMx2.0MM Barrel Jack 6.5MMx2.0MM
  - 2.) Conector Ethernet
  - 3.) Indicator LED
@@ -53,7 +53,7 @@ Pentru a înlocui cu succes cardul SD al Nebra Helium Miner, veți avea nevoie d
 ### Pasul 1: Opțional, dobândiți fișierul config.json din cheia EMMC:
 - Descărcați și instalați [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe) veți avea nevoie de acest lucru pentru a porni modulul de calcul ca un sistem de fișiere USB
 - Identificați și ajustați pinii jumper de pe placa fiică CM3 pentru modul de programare
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.) Port Micro USB utilizat pentru imagistică
    - 7.) Jumper USB JP4 - Utilizat pentru a comuta între modul de funcționare normală și modul flash, asigurați-vă că este în poziția 1-2 pentru funcționarea normală și 2-3 pentru programare.
    - 8.) JP3 Power Jumper (Jumper de alimentare JP3) - Permite ca modulul să fie alimentat de la conectorul Micro USB. Conectați-l numai atunci când programați de pe PC și asigurați-vă că placa de bază nu este conectată.

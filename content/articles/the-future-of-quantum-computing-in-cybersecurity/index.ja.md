@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ポスト量子暗号や古典暗号アルゴリズムの脆弱性など、量子コンピュータの将来とサイバーセキュリティへの影響を探る。"
 tags: ["量子コンピュータ", "サイバーセキュリティ", "キュービッツ", "アールエスエー", "エコー", "ポスト量子暗号", "量子アニーリング", "クォンタム至上主義", "重ね合わせ", "エンタングルメント", "暗号化アルゴリズム", "デジタルインフラ", "最適化問題", "テックジャイアント", "研究・開発", "デコヒーレンス", "オンライン取引", "セキュアメッセージング", "オンラインバンキング", "創薬"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "RSA暗号で保護されたコンピュータシステムに侵入しようとするハッカーが、バックグラウンドで量子コンピュータが数秒で暗号を解くため、失敗するアニメーション画像です。"
 coverCaption: ""
 ---

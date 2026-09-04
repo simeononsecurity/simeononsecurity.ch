@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Racionalitzeu el procés d'actualització dels sistemes Windows mitjançant l'automatització amb Ansible: instruccions pas a pas i pràctiques recomanades incloses."
 tags: ["automatitzar les actualitzacions de Windows", "Automatització Ansible", "gestió del sistema", "pedaços de seguretat", "infraestructura informàtica", "automatització de la xarxa", "gestió de la configuració", "operacions de TI", "DevOps", "seguretat cibernètica", "automatització informàtica", "eficiència informàtica", "Llibre de jugades Ansible", "Seguretat de Windows", "gestió de l'actualització", "productivitat informàtica", "Manteniment informàtic", "Credencials Ansible", "configuració de l'amfitrió", "automatització del sistema", "Actualitzacions de Windows", "Gestió del sistema Windows", "Pedaços de seguretat de Windows", "Infraestructura informàtica de Windows", "Automatització de xarxes de Windows", "Gestió de la configuració de Windows", "Operacions informàtiques de Windows", "Windows DevOps", "Ciberseguretat de Windows", "Automatització informàtica de Windows", "Eficiència informàtica de Windows"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "Una il·lustració animada que mostra un logotip de Windows envoltat d'engranatges que simbolitzen l'automatització i les actualitzacions."
 coverCaption: ""
 ---

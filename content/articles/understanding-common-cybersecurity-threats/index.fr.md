@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Découvrez les menaces les plus courantes en matière de cybersécurité, leur impact sur les particuliers et les entreprises, et les moyens efficaces de s'en protéger."
 genre: ["Menaces pour la cybersécurité", "Importance de la cybersécurité", "Types de menaces", "Impact des menaces", "Protection contre les menaces", "Rôle des pouvoirs publics dans la cybersécurité", "Rôle de l'industrie dans la cybersécurité", "Réglementation et conformité", "Partenariats public-privé", "Recherche et développement en matière de cybersécurité"]
 tags: ["menaces de cybersécurité", "cyberattaques", "mesures de cybersécurité", "petites entreprises", "pertes financières", "atteinte à la réputation", "violations de données", "vol d'identité", "hameçonnage", "ransomware", "Attaques DDoS", "menaces d'initiés", "mises à jour du logiciel", "des mots de passe forts", "formation des employés", "authentification multifactorielle", "les sauvegardes de données", "les réglementations gouvernementales", "conformité", "partenariats public-privé", "Recherche et développement en matière de cybersécurité", "importance de la cybersécurité", "la protection des personnes", "protéger les entreprises", "rôle du gouvernement", "rôle de l'industrie", "amendes réglementaires", "atteinte à la réputation", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Illustration symbolique d'un bouclier protégeant les actifs numériques des cybermenaces, avec un code binaire en arrière-plan."
 ---
 

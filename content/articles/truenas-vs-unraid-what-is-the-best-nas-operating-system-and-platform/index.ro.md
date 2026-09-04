@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "O comparație cuprinzătoare a Unraid și TrueNas, inclusiv ușurința de utilizare, caracteristicile, documentația și comunitatea acestora, pentru a ajuta utilizatorii să ia o decizie informată cu privire la sistemul de operare NAS cel mai potrivit pentru nevoile lor."
 tags: ["Unraid", "TrueNAS", "Sistem de operare NAS", "Comparaţie", "Ușurința în utilizare", "Caracteristici", "Documentație", "Comunitate", "Sursa deschisa", "Afacere", "Protejarea datelor", "Performanţă", "Flexibilitate", "Ușor de folosit", "Aplicații de la terți", "Stocare atașată la rețea", "Tehnologia RAID", "Managementul stocării", "OpenZFS", "Utilizatori acasă", "Model de prețuri", "Stocare in cloud", "Virtualizare", "Hub de documentare", "Forumul comunitatii", "Protecție avansată a datelor", "Sistem de operare NAS matur", "Expertiza tehnica", "Profesionişti IT"]
-cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.png"
+cover: "/img/cover/Two_computer_servers_facing_each_other_one_blue_one_green.webp"
 coverAlt: "Două servere față în față, unul albastru, unul verde. Pe partea albastră stă o persoană purtând o cască de protecție și o vestă de siguranță. Pe partea verde o persoană care stă pe canapea."
 coverCaption: ""
 ---

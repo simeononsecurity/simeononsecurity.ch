@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Learn the 10 essential password security guidelines to protect your digital identity and personal data from cyber-attacks."
 genre: ["Technology", "Cybersecurity", "Digital Identity Protection", "Password Security", "Online Safety", "Data Privacy", "Online Security Tips", "Password Management", "Two-Factor Authentication", "Password Recovery"]
 tags: ["password security", "password guidelines", "strong passwords", "cyber-attacks", "online security", "password risks", "weak passwords", "password protection", "data security", "password defense", "hacker prevention", "password importance", "password cracking", "identity theft", "password reuse", "password management", "two-factor authentication", "2FA benefits", "password updates", "password changing", "password best practices", "password recovery", "password manager", "password manager advantages", "selecting a password manager", "online account security", "encryption", "multi-factor authentication"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "A symbolic image representing password security with a shield protecting a lock."  
 coverCaption: "Secure your digital life with strong passwords and proper password management."
 ---

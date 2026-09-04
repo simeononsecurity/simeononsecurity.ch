@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Aprenda a asegurar su dispositivo móvil y a proteger sus datos de las ciberamenazas con estos eficaces consejos para la seguridad de los dispositivos móviles."
 genre: ["Tecnología", "Ciberseguridad", "Seguridad móvil", "Protección de datos", "Seguridad en línea", "Privacidad", "Ataques de phishing", "Malware", "Seguridad Wi-Fi", "Seguridad de contraseñas"]
 tags: ["Seguridad móvil", "Ciberseguridad", "Protección de datos", "Dispositivos móviles", "Seguridad en línea", "Privacidad", "Ataques de phishing", "Malware", "Seguridad Wi-Fi", "Dispositivos robados", "Seguridad de contraseñas", "Autenticación biométrica", "Autenticación de dos factores", "Antivirus Software", "Permisos de la aplicación", "Privacidad", "Cifrado de datos", "Copias de seguridad", "Seguridad Wi-Fi pública", "Dispositivos perdidos o robados", "Consejos de seguridad para móviles", "Buenas prácticas de seguridad móvil", "Soluciones de seguridad móvil", "Protección de los dispositivos móviles", "Seguridad de las aplicaciones móviles", "Gestión de dispositivos móviles", "Amenazas para la seguridad móvil", "Consejos sobre privacidad móvil", "Seguridad de los datos móviles", "Ciberseguridad móvil"]
-cover: "/img/cover/secure-your-mobile-device.png"
+cover: "/img/cover/secure-your-mobile-device.webp"
 coverAlt: "Ilustración animada de un smartphone con un escudo y un candado, que representa la seguridad de los dispositivos móviles y la protección de datos"
 ---
 

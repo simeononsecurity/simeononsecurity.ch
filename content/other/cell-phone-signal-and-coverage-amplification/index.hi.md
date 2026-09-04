@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
  [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) यह केवल तभी मदद करता है जब आपके पास खिड़की में या उसके पास अच्छा या प्रयोग करने योग्य कवरेज हो, न कि घर के किसी अन्य क्षेत्र में। यह सबसे अच्छा काम करता है अगर आपको आवास के माध्यम से अधिक समान रूप से कवरेज फैलाने की आवश्यकता है।
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
  [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) विकल्पों के लिए कुछ स्थापना की आवश्यकता होती है। उन्हें आपको एक पोल, ग्राउंडिंग रॉड, लाइटिंग अरेस्टर, amp, और एक या अधिक इनडोर एंटेना स्थापित करने की आवश्यकता होती है। वे सर्वोत्तम संभव सिग्नल प्रदान करते हैं लेकिन यदि आपके क्षेत्र में कोई सिग्नल नहीं है तो वे काम नहीं करेंगे। वे औसतन लगभग 60db अतिरिक्त लाभ प्राप्त करते हैं लेकिन 100db तक जा सकते हैं। यह निश्चित रूप से सबसे अच्छा स्थायी समाधान है क्योंकि आपको एक ही समय में सबसे अधिक सिग्नल सुधार के साथ-साथ सभी वाहकों के लिए समर्थन मिलेगा।
 

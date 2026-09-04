@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Protéjase de las amenazas en línea y garantice una experiencia en línea más segura desarrollando hábitos de navegación seguros. Infórmate sobre la importancia de una navegación segura, los hábitos esenciales que debes adoptar y cómo salvaguardar tu información personal."
 genre: ["Ciberseguridad", "Seguridad en línea", "Navegación segura", "Seguridad en Internet", "Protección de datos personales", "Privacidad en línea", "Amenazas en línea", "Prevención de la ciberdelincuencia", "Prevención del robo de identidad", "Seguridad en Internet"]
 tags: ["hábitos de navegación seguros", "amenazas en línea", "ciberseguridad", "seguridad en línea", "protección de datos personales", "privacidad en línea", "prevención del robo de identidad", "seguridad en internet", "prevención de la ciberdelincuencia", "navegación web segura", "estafas en línea", "estafas de phishing", "protección antimalware", "protección contra ransomware", "seguridad en las redes sociales", "seguridad de los datos", "protección de la privacidad en línea", "almacenamiento seguro de datos", "seguridad de contraseñas", "autenticación de dos factores", "VPN", "navegación cifrada", "seguridad de las redes Wi-Fi públicas", "educación sobre seguridad en línea", "concienciación sobre ciberseguridad", "hábitos seguros en internet", "cultura de seguridad en línea", "seguridad comunitaria", "consejos de seguridad en línea"]
-cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.png"
+cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
 coverAlt: "Representación ilustrada de la navegación por Internet con un candado que simboliza la navegación segura."
 ---
 

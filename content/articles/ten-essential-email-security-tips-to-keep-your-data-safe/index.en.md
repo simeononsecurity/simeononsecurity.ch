@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Learn 10 crucial email security tips to keep your data safe and protected from cyber threats and breaches."
 genre: ["Email Security", "Data Protection", "Cybersecurity", "Online Privacy", "Identity Theft", "Password Security", "Phishing Scams", "Internet Safety", "Digital Security", "Employee Training"]
 tags: ["email security", "data protection", "cybersecurity", "online privacy", "identity theft", "financial loss", "email encryption", "phishing scams", "password security", "public Wi-Fi", "VPN", "email software", "two-factor authentication", "phishing emails", "encrypted email services", "security patches", "automatic image loading", "sensitive information", "public Wi-Fi networks", "virtual private network", "personal information", "security training", "security policies", "open communication", "security incidents", "employee education", "cyber threats", "data safety", "digital privacy", "online security"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "A symbolic illustration of a locked envelope surrounded by shield-like protection layers, representing email security and data protection"  
 coverCaption: "Protect your data, secure your email. Stay safe in the digital world."
 ---

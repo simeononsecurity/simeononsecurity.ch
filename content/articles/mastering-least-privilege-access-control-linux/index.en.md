@@ -6,7 +6,7 @@ draft: false
 description: "Enhance cybersecurity with least privilege access control on Linux. Learn implementation steps, best practices, and troubleshooting tips."
 genre: ["Cybersecurity", "Linux Security", "Access Control", "IT Security", "Network Security", "Information Protection", "Data Privacy", "Cyber Threats", "Risk Management", "Security Best Practices"]
 tags: ["Least Privilege", "Access Control Policies", "Linux Security", "Cybersecurity Strategy", "Cyber Threat Mitigation", "User Permissions", "Role-Based Access Control", "Mandatory Access Control", "Security Compliance", "Intrusion Detection", "User Training", "Permission Management", "File Integrity Monitoring", "Security Auditing", "Firewall Configuration", "User Authentication", "Data Protection", "Security Implementation", "System Hardening", "Vulnerability Management", "Access Control Best Practices", "Security Monitoring", "Cyber Defense", "Data Access Management", "Incident Response", "Security Awareness", "Risk Mitigation", "Network Security", "Linux Access Controls", "Security Guidelines"]
-cover: "/img/cover/secure-access-control-linux.png"
+cover: "/img/cover/secure-access-control-linux.webp"
 coverAlt: "A 3D animated illustration showing a locked vault protected by a shield, representing secure access control on Linux systems."
 coverCaption: "help Security Through Controlled Access"
 ---

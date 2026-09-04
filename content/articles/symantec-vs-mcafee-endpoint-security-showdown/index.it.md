@@ -6,7 +6,7 @@ date: 2023-07-19
 description: "Scoprite quale soluzione di sicurezza per gli endpoint, Symantec o McAfee, è più adatta a proteggere le risorse digitali della vostra organizzazione dalle minacce informatiche."
 genre: ["Tecnologia", "Sicurezza informatica", "Sicurezza degli endpoint", "Antivirus", "Firewall", "Rilevamento delle intrusioni", "Prevenzione della perdita di dati", "Protezione dalle minacce", "Soluzioni di sicurezza", "Confronto"]
 tags: ["sicurezza degli endpoint", "Symantec", "McAfee", "sicurezza informatica", "antivirus", "firewall", "rilevamento delle intrusioni", "prevenzione della perdita di dati", "protezione dalle minacce", "soluzioni di sicurezza", "confronto", "malware", "ransomware", "attacchi di phishing", "attacchi zero-day", "apprendimento automatico", "analisi basata sul comportamento", "console di gestione del cloud", "visibilità in tempo reale", "gestione centralizzata", "capacità di integrazione", "recensioni dei clienti", "supporto tecnico", "continuità aziendale", "Ambiente IT", "distribuzione remota", "crittografia dei dati", "controllo dell'accesso alla rete"]
-cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_the_logos_of.webp"
 coverAlt: "Un'immagine che raffigura uno scudo con i loghi di Symantec e McAfee, a simboleggiare le loro capacità di sicurezza degli endpoint."
 ---
 

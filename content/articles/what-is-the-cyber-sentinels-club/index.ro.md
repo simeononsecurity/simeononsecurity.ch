@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți misiunea și principiile Cyber Sentinels, o comunitate de profesioniști cibernetici și IT angajați să împărtășească cunoștințe și să dezvolte soluții inovatoare pentru provocările de securitate cibernetică."
 tags: ["securitate cibernetică", "ACEASTA", "comunitate", "impartasire de cunostinte", "colaborare", "învățare continuă", "a sustine", "inclusivitate", "impact pozitiv", "canale de text", "canale vocale", "sfaturi de cariera", "oportunități de angajare", "resurse de învățare", "tendințe emergente", "proiecte", "evenimente", "conferințe", "poze cu animale de companie", "tehnologie"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Un scut digital stilizat cu o figură de războinic cibernetic în centru, înconjurat de forme abstracte și linii reprezentând fluxurile de date și conexiunea la rețea"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zabezpieczyć stacje robocze i chronić wrażliwe informacje dzięki temu kompleksowemu przewodnikowi opartemu na zaleceniach NIST dotyczących wdrażania silnej kontroli dostępu, utrzymywania aktualnego oprogramowania, korzystania z oprogramowania antywirusowego, włączania ochrony firewall, wdrażania szyfrowania danych i regularnego tworzenia kopii zapasowych danych."
 tags: ["Zalecenia NIST", "bezpieczeństwo stacji roboczych", "cybersecurity", "szyfrowanie danych", "ochrona firewalla", "oprogramowanie antywirusowe", "kontrole dostępu", "informacje wrażliwe", "cyberataki", "kopia zapasowa danych"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Obraz osoby siedzącej przy swoim stanowisku pracy z zamkiem bezpieczeństwa na pierwszym planie, wskazujący na znaczenie zabezpieczenia stanowisk pracy."
 coverCaption: ""
 ---

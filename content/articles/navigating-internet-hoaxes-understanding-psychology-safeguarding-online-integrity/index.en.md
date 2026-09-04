@@ -6,7 +6,7 @@ draft: false
 description: "Explore the psychology, history, and impact of internet hoaxes, and learn strategies to identify and counter false information online."
 genre: ["Digital Culture", "Online Deception", "Social Media Impact", "Media Literacy", "Internet Psychology", "Hoax Awareness", "Misinformation Insights", "Cyber Awareness", "Online Truth", "Digital Integrity"]
 tags: ["internet hoaxes", "online deception", "hoax psychology", "social media", "fake news", "media literacy", "misinformation", "cyber awareness", "online integrity", "hoax identification", "viral challenges", "digital culture", "psychology of belief", "information verification", "media influence", "critical thinking", "online safety", "digital misinformation", "hoax history", "media manipulation", "hoax consequences", "sensationalism", "internet myths", "trust in media", "confirmation bias", "hoax impact", "hoax evolution", "hoax examples", "hoax awareness", "truth in digital age"]
-cover: "/img/cover/internet-hoaxes-examination-magnify.png"
+cover: "/img/cover/internet-hoaxes-examination-magnify.webp"
 coverAlt: "A cartoon-style image showing a person holding a magnifying glass, examining a computer screen with hoax symbols."
 coverCaption: "Unmasking Deception: help Yourself Against Internet Hoaxes."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the keys to fortify your remote team's defenses! Learn crucial endpoint security practices, tackle common threats, and choose the right solutions. Safeguard your data and elevate your remote work security now!"
 genre: ["Endpoint Security", "Remote Work Security", "Cybersecurity Guide", "Data Protection", "IT Security Practices", "Future Trends in Security", "Secure Remote Work", "Cyber Threat Prevention", "Data Privacy Measures", "IT Security Solutions"]
 tags: ["Endpoint Security", "Remote Work", "Data Protection", "Cybersecurity", "Security Best Practices", "Remote Teams", "IT Security Solutions", "Cyber Threats", "Data Privacy", "Future Trends in Security", "Phishing Attacks", "Malware Prevention", "BYOD Policies", "Multi-factor Authentication", "Encryption Techniques", "Endpoint Security Measures", "Secure File Sharing", "IT Security Policies", "AI in Endpoint Security", "Cybersecurity Awareness", "Secure Remote Work Environment", "Endpoint Protection Platforms", "EDR Tools", "VPN Security", "Security Challenges", "Remote Work Risks", "Security Training", "Security Monitoring", "IT Infrastructure Integration", "Endpoint Security Policy"]
-cover: "/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.jpeg"
+cover: "/img/cover/the-ultimate-guide-to-endpoint-security-for-remote-teams.webp"
 ---
 
 The Ultimate Guide to Endpoint Security for Remote Teams

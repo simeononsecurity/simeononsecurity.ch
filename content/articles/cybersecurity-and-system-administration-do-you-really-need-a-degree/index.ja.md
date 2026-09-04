@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この記事では、サイバーセキュリティとシステム管理の分野で学位を取得することのメリットとデメリットを、就職先、資格、時間、コストの考慮事項などを含めて探ります。"
 tags: ["サイバーセキュリティ", "システム管理", "ディグリー", "証明書", "キャリアアップ", "ポテンシャル給", "タイムアンドコスト", "官公庁", "我流", "オンライントレーニング", "CompTIA認定資格"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "サイバーセキュリティやシステム管理の知識や専門性を身につけるためのさまざまな道を象徴する、書籍やオンラインリソース、資格取得のための資料などに囲まれながら、PCを前にして机に座る人のイメージです。"
 coverCaption: ""
 ---

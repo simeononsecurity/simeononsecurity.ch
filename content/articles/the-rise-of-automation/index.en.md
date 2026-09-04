@@ -6,7 +6,7 @@ draft: false
 description: "Explore the evolution of automation technology, industries embracing it, and its impact on job opportunities."
 genre: ["Automation Technology", "Industrial Revolution", "Technological Advancements", "Artificial Intelligence", "Machine Learning", "Manufacturing", "Healthcare", "Transportation", "Retail", "Agriculture"]
 tags: ["automation technology", "industries", "job opportunities", "evolution", "artificial intelligence", "machine learning", "manufacturing", "healthcare", "transportation", "self-driving vehicles", "retail", "e-commerce", "agriculture", "smart farming", "impact on job market", "job displacement", "technical skills", "upskilling", "reskilling", "educational initiatives", "STEM programs", "government policies", "regulations", "universal basic income", "job retraining programs", "data privacy", "data security", "digital divide", "ethical considerations"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "An animated image depicting various industries and technologies interconnected."
 coverCaption: "Embrace the automated future with optimism and adaptability."
 ---

@@ -31,11 +31,11 @@ To evaluate the practicality of this upgrade, we embarked on a journey to explor
 
 Our testing involved comprehensive trials of these alternative GNSS Mini-PCIe cards in both the [MobileCM Base Station](https://hyfix.ai/products/mobilecm-triple-band-gnss-base-station) and the [EVK USB-C Rover Kit](https://hyfix.ai/products/evk-usb-c-rover-kit). Regrettably, the results were unexpected. These cards were neither recognized nor operating as intended within these setups.
 
-{{< figure src="rtkrover-mpcie-test.jpeg" alt="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" caption="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" >}}
+{{< figure src="rtkrover-mpcie-test.webp" alt="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" caption="Trying UM980 mPCIe Card in the Hyfix USB C RTK Rover" >}}
 
 However, when we tested the same cards in well-established USB over mPCIe systems and adapters, they performed admirably. When testing the Hyfix upgrade card in the same systems, it did not work. This disparity in performance left us with a puzzling conclusion.
 
-{{< figure src="mpcie-adapter-test.jpeg" alt="Trying UM980 mPCIe Card in WWAN to USB Adapter" caption="Trying UM980 mPCIe Card in WWAN to USB Adapter" >}}
+{{< figure src="mpcie-adapter-test.webp" alt="Trying UM980 mPCIe Card in WWAN to USB Adapter" caption="Trying UM980 mPCIe Card in WWAN to USB Adapter" >}}
 
 ### USB Over mPCIe Standard
 
@@ -49,7 +49,7 @@ It's crucial to emphasize that this issue is not attributed to the manufacturers
 
 To an extent, we can confirm this based on their LC29H Based Module Schematics, which also includes the UM980 Pinout.
 
-{{< figure src="MCM_MINI-PCIE_SCH.jpeg" alt="Hyfix LC29H Rover mPCIe Card Schematics" caption="Hyfix LC29H Rover mPCIe Card Schematics" link="https://github.com/HYFIX/rtk_rover/blob/main/schematic/MCM_MINI-PCIE_SCH.pdf" >}}
+{{< figure src="MCM_MINI-PCIE_SCH.webp" alt="Hyfix LC29H Rover mPCIe Card Schematics" caption="Hyfix LC29H Rover mPCIe Card Schematics" link="https://github.com/HYFIX/rtk_rover/blob/main/schematic/MCM_MINI-PCIE_SCH.pdf" >}}
 
 > **Update**: *We received confirmation from gnss.store that the Hyfix MobileCM Upgrade Card itself is using a non-standard pinout that utilizes the mPCIe form factor.*
 

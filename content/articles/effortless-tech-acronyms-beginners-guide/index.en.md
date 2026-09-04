@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the world of IT with this beginner's guide to tech acronyms, making learning effortless for all tech enthusiasts."
 genre: ["Technology", "IT Education", "Tech Glossary", "Beginner's Guide", "Computer Science", "Digital Literacy", "Acronyms", "Learning Tech", "Jargon Demystified", "Simplified IT"]
 tags: ["Tech Acronyms", "Beginner's Guide", "IT Terminology", "Tech Jargon", "Digital Literacy", "Computer Science", "Learning IT", "Simplified Tech", "Tech Basics", "Tech Education", "Acronyms Explained", "IT Language", "Technology Guide", "IT Vocabulary", "IT Definitions", "Tech Learning", "Demystifying Jargon", "Simplified Learning", "Effortless Tech", "Tech Enthusiasts", "Acronyms Made Easy", "IT Learning", "Beginner-Friendly", "IT Acronyms", "Tech Glossary", "New to IT", "Tech Made Simple", "Technology Terms", "Simplified IT", "Tech Words"]
-cover: "/img/cover/Tech-Acronyms-Explained.png"
+cover: "/img/cover/Tech-Acronyms-Explained.webp"
 coverAlt: "A simplified and friendly robot explaining tech acronyms to a beginner with enthusiasm."
 coverCaption: "Demystifying Tech Jargon for Beginners"
 ---
@@ -19,7 +19,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### A
 
-{{< figure src="tech-abbreviations-encryption-ai.png" alt="A section illustrating tech-related abbreviations. A visual representation of data encryption and AI." caption="Unlocking the Digital World with Tech Abbreviations." >}}
+{{< figure src="tech-abbreviations-encryption-ai.webp" alt="A section illustrating tech-related abbreviations. A visual representation of data encryption and AI." caption="Unlocking the Digital World with Tech Abbreviations." >}}
 
 
 - **ACL**: Access Control List
@@ -186,7 +186,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### D
 
-{{< figure src="tech-abbreviations-diverse-concepts.png" alt="A section showing tech-related abbreviations. A visual representation of diverse tech concepts." caption="Navigating the Tech Alphabet" >}}
+{{< figure src="tech-abbreviations-diverse-concepts.webp" alt="A section showing tech-related abbreviations. A visual representation of diverse tech concepts." caption="Navigating the Tech Alphabet" >}}
 
 - **DBMS**: Database Management System
   - A software system used to manage, store, retrieve, and secure data in a structured way, often used in the context of relational databases.
@@ -312,7 +312,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### G
 
-{{< figure src="tech-terms-diverse-concepts.png" alt="Sections highlighting tech-related terms. A visual representation of diverse tech concepts." caption="From Gigabytes to IoT: Unveiling the Tech Alphabet." >}}
+{{< figure src="tech-terms-diverse-concepts.webp" alt="Sections highlighting tech-related terms. A visual representation of diverse tech concepts." caption="From Gigabytes to IoT: Unveiling the Tech Alphabet." >}}
 
 - **GB**: Gigabyte
   - A unit of digital information storage that represents 1,073,741,824 bytes, often used to measure the size of files or data.
@@ -438,7 +438,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### J
 
-{{< figure src="tech-terms-diverse-concepts2.png" alt="Sections highlighting tech-related terms. A visual representation of diverse tech concepts surrounding a man in a suit." caption="Key Concepts You Should Know" >}}
+{{< figure src="tech-terms-diverse-concepts2.webp" alt="Sections highlighting tech-related terms. A visual representation of diverse tech concepts surrounding a man in a suit." caption="Key Concepts You Should Know" >}}
 
 - **JAR**: Java Archive
   - A file format used for aggregating multiple files, including Java class files, into a single archive for easier distribution and execution.
@@ -552,7 +552,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### N
 
-{{< figure src="tech-concepts-diverse-terms.png" alt="Sections presenting tech-related terms. A visual representation of diverse tech concepts." caption="From Network Storage to Quantum Computing: Tech A to Z." >}}
+{{< figure src="tech-concepts-diverse-terms.webp" alt="Sections presenting tech-related terms. A visual representation of diverse tech concepts." caption="From Network Storage to Quantum Computing: Tech A to Z." >}}
 
 - **NAS**: Network-Attached Storage
   - A file-level data storage device that provides data access to a heterogeneous group of clients over a network.
@@ -645,7 +645,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### Q
 
-{{< figure src="tech-concepts-diverse-terms2.png" alt="Sections presenting tech-related terms. A visual representation of diverse tech concepts." caption="Tech Jargon from A to Z. " >}}
+{{< figure src="tech-concepts-diverse-terms2.webp" alt="Sections presenting tech-related terms. A visual representation of diverse tech concepts." caption="Tech Jargon from A to Z. " >}}
 
 
 - **QA**: Quality Assurance
@@ -742,7 +742,7 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 
 ### U
 
-{{< figure src="network-server-room.png" alt="A network server room with rows of servers." caption="Unlocking the World of Technology: A Guide to Tech Abbreviations" >}}
+{{< figure src="network-server-room.webp" alt="A network server room with rows of servers." caption="Unlocking the World of Technology: A Guide to Tech Abbreviations" >}}
 
 
 - **UAT**: User Acceptance Testing

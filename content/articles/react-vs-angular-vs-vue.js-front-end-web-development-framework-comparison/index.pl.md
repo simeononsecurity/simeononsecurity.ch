@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj różnice między React, Angular i Vue.js, aby wybrać odpowiedni framework front-end dla swojego projektu tworzenia stron internetowych."
 tags: ["frameworki front-end", "tworzenie stron internetowych", "React", "Kątowy", "Vue.js", "porównanie ram", "interfejsy użytkownika", "wydajność", "popularność", "wsparcie społeczności", "krzywa uczenia się", "ekosystem", "przypadki użycia", "JavaScript", "wirtualny DOM", "Architektura oparta na komponentach", "zarządzanie państwem", "skalowalność", "dokumentacja", "oprzyrządowanie", "wymagania projektu", "React vs Angular", "React vs Vue.js", "Angular vs Vue.js", "rozwój front-endu", "frameworki aplikacji internetowych", "Rozwój interfejsu użytkownika", "Struktury JavaScript", "narzędzia do tworzenia stron internetowych", "technologie tworzenia stron internetowych"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "Obraz przedstawiający trzy połączone ze sobą koła zębate z etykietami React, Angular i Vue.js"
 coverCaption: ""
 ---

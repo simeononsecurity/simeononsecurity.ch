@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索安全分类指南在保护机密信息和确保遵守法规方面的重要性。"
 tags: ["安全分类指南", "信息保护", "机密信息", "政府法规", "降低风险", "门禁", "信息安全", "打标程序", "处理程序", "国家安全", "合规性", "内部威胁", "信息共享", "知识产权", "决策", "法律义务", "道德义务", "国际合作", "ISO 27001", "NISPOM", "第 13526 号行政命令", "信息分类", "数据保护", "信息处理", "有控制的共享", "信息保密", "信息完整性", "信息安全文化", "信息安全准则", "信息安全实践", "信息安全意识"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "一张图片描绘了一个上锁的文件夹，文件夹上有一个盾牌，象征着对机密信息的保护。"
 coverCaption: ""
 ---

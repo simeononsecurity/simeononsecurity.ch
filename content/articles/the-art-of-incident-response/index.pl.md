@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki reagowania na incydenty zgodnie z NIST SP 800-61 Rev. 2 i odkryj rzeczywiste przykłady skutecznych strategii reagowania na incydenty."
 tags: ["reakcja na incydent", "cybersecurity", "NIST", "najlepsze praktyki", "wywiad o zagrożeniach", "komunikacja", "analiza powypadkowa", "Equifax", "NotPetya", "SolarWinds", "Rurociąg Colonial", "Microsoft Exchange Server", "podatności", "wykrywanie włamań", "izolacja", "odzyskiwanie", "przygotowanie", "cyberataki", "cyberprzestępczość", "incydenty związane z bezpieczeństwem"]
-cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_illustrated_image_of_a_team_of_cybersecurity_professionals.webp"
 coverAlt: "Ilustrowany obraz zespołu specjalistów ds. cyberbezpieczeństwa współpracujących ze sobą w celu zareagowania na incydent bezpieczeństwa, z czerwoną ikoną alarmu w tle, wskazującą na pilność sytuacji."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda os fundamentos da segurança cibernética, incluindo tipos de ameaças cibernéticas, a importância da segurança cibernética e as etapas para melhorar a segurança online."
 tags: ["Cíber segurança", "Ameaças cibernéticas", "segurança on-line", "Protegendo dados", "Vírus", "Malware", "golpes de phishing", "hackers", "segurança nacional", "Propriedade intelectual", "Privacidade pessoal"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "Uma imagem de uma pessoa sentada em um computador com uma expressão preocupada enquanto um hacker ou cibercriminoso é mostrado na tela, representando os perigos das ameaças cibernéticas e a importância da segurança cibernética"
 coverCaption: ""
 ---

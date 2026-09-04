@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Discover how to make passive money online by sharing your internet connection and completing surveys through PawnsApp."
 tags: ["passive income", "earn money online", "PawnsApp", "internet sharing", "survey completion", "minimum payout", "average payout", "online earning", "side hustle", "work from home", "earn rewards", "monetize internet", "digital sharing", "income generation", "financial independence", "earn extra income", "online surveys", "technology-based income", "monetization strategy", "digital economy", "peer-to-peer network", "income stream", "home internet", "money-making opportunity", "internet usage", "survey rewards", "online money-making", "easy money", "digital rewards", "internet monetization", "passive earnings"]
-cover: "/img/cover/An_illustration_showing_a_person_holding_a_laptop_with_a_money.png"
+cover: "/img/cover/An_illustration_showing_a_person_holding_a_laptop_with_a_money.webp"
 coverAlt: "An illustration showing a person holding a laptop with a money symbol on the screen, representing earning passive income through internet sharing and survey completion with PawnsApp."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las consideraciones éticas y los retos que plantea el uso de la IA en la ciberseguridad y cómo pueden abordarse para un uso eficaz."
 tags: ["AI", "ciberseguridad", "consideraciones éticas", "sesgo", "privacidad", "rendición de cuentas", "complejidad", "adaptabilidad", "supervisión humana", "intensidad de recursos", "privacidad de los datos", "aprendizaje automático", "información sobre amenazas", "protección de datos", "tecnología", "automatización", "amenazas cibernéticas", "seguridad de la información", "cumplimiento de la normativa", "transformación digital"]
-cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.png"
+cover: "/img/cover/An_image_of_a_lock_with_gears_symbolizing_the_use_of_AI.webp"
 coverAlt: "La imagen de una cerradura con engranajes simboliza el uso de la IA en la ciberseguridad, mientras que una mano humana sostiene una llave para ilustrar la supervisión humana."
 coverCaption: ""
 ---

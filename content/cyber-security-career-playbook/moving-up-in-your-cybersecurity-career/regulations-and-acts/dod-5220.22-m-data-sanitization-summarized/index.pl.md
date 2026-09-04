@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Specyfikacja DoD 5220.22-M jest krytycznym standardem bezpiecznego usuwania poufnych informacji z cyfrowych nośników danych, szeroko stosowanym przez amerykańskie wojsko i organizacje rządowe."
 tags: ["Oczyszczanie danych", "bezpieczne usuwanie", "wrażliwe informacje", "bezpieczeństwo danych", "cyfrowe nośniki pamięci", "DoD 5220.22-M", "ochrona danych", "prywatność danych", "bezpieczeństwo informacji", "usuwanie danych", "zapobieganie naruszeniom danych", "oprogramowanie do sanityzacji danych", "bezpieczeństwo cyfrowe", "niszczenie danych", "zarządzanie danymi", "bezpieczne usuwanie danych", "zapobieganie odzyskiwaniu danych", "cyberbezpieczeństwo", "czyszczenie danych", "zarządzanie informacjami", "bezpieczna utylizacja", "metody niszczenia danych", "proces sanityzacji danych", "nadpisywanie danych", "weryfikacja danych", "standardy sanityzacji danych", "najlepsze praktyki usuwania danych", "Bezpieczne usuwanie danych", "bezpieczne ponowne użycie", "zgodność sanityzacji danych", "bezpieczne zarządzanie danymi"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Obraz dysku twardego bezpiecznie usuwanego za pomocą oprogramowania do sanityzacji danych, z kłódką lub tarczą symbolizującą bezpieczeństwo na pierwszym planie"
 coverCaption: ""
 ---

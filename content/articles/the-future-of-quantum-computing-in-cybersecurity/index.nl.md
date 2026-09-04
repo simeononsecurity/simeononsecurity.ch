@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de toekomst van kwantumcomputing en de impact ervan op cyberbeveiliging, met inbegrip van post-kwantumcryptografie en kwetsbaarheden van klassieke cryptografische algoritmen."
 tags: ["Kwantumcomputing", "Cyberbeveiliging", "Qubits", "RSA", "ECC", "Post-kwantumcryptografie", "Kwantum gloeien", "Quantum suprematie", "Superpositie", "Verstrikking", "Cryptografische algoritmen", "Digitale infrastructuur", "Optimalisatieproblemen", "Tech reuzen", "Onderzoek en ontwikkeling", "Decoherence", "Online transacties", "Beveiligde berichtgeving", "Online bankieren", "Ontdekking van geneesmiddelen"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Een geanimeerd beeld van een hacker die probeert in te breken in een computersysteem dat beveiligd is met RSA-codering, maar vervolgens faalt omdat een kwantumcomputer de codering in enkele seconden op de achtergrond oplost."
 coverCaption: ""
 ---

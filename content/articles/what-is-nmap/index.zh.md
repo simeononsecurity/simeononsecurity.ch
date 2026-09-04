@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何有效使用 Nmap 进行网络扫描、端口扫描、服务检测和操作系统识别，以评估网络安全。"
 tags: ["网络地图", "网络扫描", "安全评估", "端口扫描", "服务检测", "操作系统检测", "Nmap 脚本引擎", "道德黑客", "网络安全", "网络基础设施", "漏洞检测", "ping 扫描", "TCP SYN 扫描", "准许", "合法性", "网络影响", "定向扫描", "数据保护", "CFAA", "GDPR", "网络映射", "网络识别", "网络安全工具", "网络安全", "开源工具", "命令行工具", "主机发现", "网络情报", "信息收集", "网络漏洞", "安全的网络环境"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "三维动画风格的 Nmap 扫描工具网络安全概念。"
 coverCaption: ""
 ---

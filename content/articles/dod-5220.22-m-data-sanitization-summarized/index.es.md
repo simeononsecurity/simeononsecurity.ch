@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La especificación DoD 5220.22-M es una norma fundamental para el borrado seguro de información confidencial de soportes de almacenamiento digital, ampliamente utilizada por el ejército y las organizaciones gubernamentales de Estados Unidos."
 tags: ["Saneamiento de datos", "borrado seguro", "información sensible", "seguridad de los datos", "medios de almacenamiento digital", "DoD 5220.22-M", "protección de datos", "privacidad de los datos", "seguridad de la información", "eliminación de datos", "prevención de la violación de datos", "software de saneamiento de datos", "seguridad digital", "destrucción de datos", "gestión de datos", "borrado seguro de datos", "prevención de la recuperación de datos", "ciberseguridad", "borrado de datos", "gestión de la información", "eliminación segura", "métodos de destrucción de datos", "proceso de saneamiento de datos", "sobrescritura de datos", "verificación de datos", "normas de saneamiento de datos", "buenas prácticas para la eliminación de datos", "eliminación segura de datos", "reutilización segura", "cumplimiento en materia de saneamiento de datos", "gestión segura de datos"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Imagen de un disco duro borrado de forma segura mediante un programa de limpieza de datos, con un candado o un escudo que simboliza la seguridad en primer plano"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite come le carte di debito virtuali di Privacy.com possono rafforzare la vostra sicurezza online e proteggere la vostra privacy, offrendo al contempo un facile controllo su transazioni e abbonamenti."
 genre: ["Sicurezza online", "Digital Privacy", "Carte di debito virtuali", "Protezione finanziaria", "Transazioni online", "Prevenzione delle frodi", "Data Privacy", "Privacy finanziaria", "Sicurezza informatica", "Finanza personale"]
 tags: ["Privacy.com", "Carte di debito virtuali", "Sicurezza online", "Digital Privacy", "Protezione finanziaria", "Crittografia dei dati", "Prevenzione delle frodi", "Transazioni sicure", "Sicurezza a livello di banca", "Controlli sulla privacy", "Spese ricorrenti", "Carte di blocco del commerciante", "Protezione dei dati finanziari", "Sicurezza dei pagamenti", "Regolamenti sulla privacy", "Compliance", "PCI DSS", "GDPR", "Ufficio di protezione finanziaria dei consumatori", "Tecnologia finanziaria", "Pagamenti online sicuri", "Carte virtuali per la privacy", "Spesa controllata", "Abbonamenti online", "Gestione delle finanze personali", "Prevenzione delle violazioni dei dati", "Pagamenti digitali sicuri", "Soluzioni di sicurezza informatica", "Proteggere le informazioni finanziarie", "Privacy migliorata"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Immaginate un'illustrazione digitale vivace e dinamica che mostra una carta virtuale schermata che protegge il simbolo di un lucchetto, a rappresentare la maggiore sicurezza e privacy offerta dalle carte di debito virtuali di Privacy.com."
 coverCaption: "Proteggere, controllare e rendere più efficaci le transazioni online."
 ---

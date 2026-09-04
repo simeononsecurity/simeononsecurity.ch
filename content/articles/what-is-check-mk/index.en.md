@@ -6,7 +6,7 @@ draft: false
 description: "Explore the features, benefits, and use cases of CheckMK, a comprehensive monitoring solution for proactive IT infrastructure management."
 genre: ["Technology", "IT Infrastructure", "Network Monitoring", "Application Monitoring", "IT Operations", "Performance Analytics", "Automation", "Event Management", "Scalability", "Flexibility"]
 tags: ["CheckMK", "monitoring solution", "IT infrastructure", "real-time monitoring", "event management", "performance analytics", "automation", "scalability", "flexibility", "IT operations", "network monitoring", "application monitoring", "performance optimization", "proactive monitoring", "incident response", "capacity planning", "resource allocation", "configuration management", "IT efficiency", "infrastructure management", "comprehensive monitoring solution", "proactive IT infrastructure management", "network performance analytics", "automation framework", "IT infrastructure scalability", "event management platform", "real-time performance monitoring", "application performance optimization", "cloud monitoring services", "compliance monitoring solution"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "A vibrant and dynamic artwork depicting a network infrastructure with monitoring indicators and analytics."
 coverCaption: "help your IT Infrastructure with CheckMK: Unleash Efficiency and Reliability!"
 ---

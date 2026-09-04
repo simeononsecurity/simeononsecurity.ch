@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to effortlessly set up a DIY GPS Onocoy Reference Station for precise location accuracy. Learn step-by-step with affordable hardware options and reliable receivers."
 genre: ["Technology", "DIY", "GPS", "Hardware", "Location Accuracy", "Server Setup", "Precision", "Guides", "Tutorials", "Tech Solutions", "Onocoy", "Geodnet", "Reference Station", "ntrip", "GNSS", "GPS"]
 tags: ["Onocoy", "Geodnet", "Reference Station", "ntrip", "GNSS", "GPS", "DIY GPS", "GPS Correction", "Location Accuracy", "Server Setup", "Precision Guides", "Tutorials", "Affordable Hardware", "Reliable Receivers", "Effortless Solutions", "Technology", "DIY Projects", "GPS Receivers", "Low-Power Computing", "Linux", "Raspberry Pi", "Intel NUC", "Budget Hardware", "Accuracy Enhancement", "Navigation", "Positioning", "DIY Technology", "GPS Correction Data", "Accurate Location", "Efficient Hardware", "GPS Accuracy", "NTRIP Server", "GNSS Receivers", "Low Power Consumption", "DIY Server Setup", "Enhance Precision", "Location-Based Applications"]
-cover: "/img/cover/gps-satellite-setup.png"
+cover: "/img/cover/gps-satellite-setup.webp"
 coverAlt: "A symbolic image showcasing a GPS satellite in orbit."
 coverCaption: "Unlock Ultimate Precision with DIY Onocoy Servers."
 ref: ["/other/triple-mining-geodnet-onocoy-rtkdirect-gps-revolution", "/other/diy-rtkdirect-reference-station-guide", "/other/creating-profitable-low-powered-crypto-miners","/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980", "/other/onocoy-supported-rtcm-messages"]
@@ -34,7 +34,7 @@ ______
 
 At its heart, **Onocoy** not only improves accuracy but also recognizes your contributions. Uncover how your role in enabling specific **NTRIP messages** and maintaining **low latency** translates into **tangible rewards**. **Onocoy's approach** ensures a fair distribution of rewards through **blockchain technology**, providing **transparency** in recognition.
 
-{{< figure src="onocoy-rewards.jpg" alt="Onocoy Reward calculation" link="https://docs.onocoy.com/documentation/topics/reward-calculation" >}}
+{{< figure src="onocoy-rewards.webp" alt="Onocoy Reward calculation" link="https://docs.onocoy.com/documentation/topics/reward-calculation" >}}
 
 ______
 
@@ -78,7 +78,7 @@ This combination ensures a powerful computing platform with the Beelink U59 Mini
 ## Recommended Hardware for Onocoy:
 One of the following is **required**. We basically just need any **efficient and low powered computer** we can get our hands on that also runs Linux. Any **Raspberry PI**, **Intel NUC**, or similar will do. They don't have to be all that powerful. However, we will recommend you have at least **32g-64g of flash-based storage** (for longevity of the SSD). For this, we will be targeting a **budget of around $50-$200** for compute hardware, but feel free to go higher if it suits your needs. Our **power target** is approximately **10w average**. 
 
-{{< figure src="compute.jpeg" alt="Onocoy DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
+{{< figure src="compute.webp" alt="Onocoy DIY Compute for Receivers" link="https://amzn.to/45IW4ZD" >}}
 
 ### Raspberry Pi and Pi Clones:
 
@@ -110,7 +110,7 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 ## Recommended GPS Receivers for DIY Onocoy Deployments
 There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
-{{< figure src="basic-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
+{{< figure src="basic-receivers.webp" alt="Basic GPS Receivers for Onocoy" >}}
 
 {{< centerbutton href="https://gnss.store/unicore-gnss-modules/247-elt0222.html" >}}Get your GNSS.STORE UM980 RTK GNSS USB Dongle Today!{{< /centerbutton >}}
 
@@ -141,7 +141,7 @@ Requires [FTDI Drivers](https://ftdichip.com/drivers/vcp-drivers/).
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. They likely won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. 
 If you don't know what that is or you aren't experienced, please use the options above. However these will allow you to be capable of at most 80% of Onocoy Rewards in the case of the [Unicorecomm UM980](https://en.unicorecomm.com/products/detail/26) and [Unicorecomm UM982](https://en.unicorecomm.com/products/detail/24) based boards and 100% of rewards in the [Septentrio Mosaic X5](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-x5) based boards. While you'll be able to use the same software we mention below, the instructions we've provided won't exactly line up. Be advised.
 
-{{< figure src="advanced-receivers.jpeg" alt="Basic GPS Receivers for Onocoy" >}}
+{{< figure src="advanced-receivers.webp" alt="Basic GPS Receivers for Onocoy" >}}
 
 {{< centerbutton href="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}Get the GNSS.STORE Triple Band Survey Antenna Today!{{< /centerbutton >}}
 
@@ -185,7 +185,7 @@ We've covered this in a more in depth guide about the [Best GPS Base Station Ant
 
 ### Basic Antennas for Onocoy
 
-{{< figure src="BT-800D.jpeg" alt="Beitian BT-800D High Gain High Precision GPS/GNSS Antenna" link="https://amzn.to/47MWdxa" >}}
+{{< figure src="BT-800D.webp" alt="Beitian BT-800D High Gain High Precision GPS/GNSS Antenna" link="https://amzn.to/47MWdxa" >}}
 
 For U-Blox based receivers, we recommend the following antenna options to enhance GPS navigation accuracy.
 
@@ -197,7 +197,7 @@ For U-Blox based receivers, we recommend the following antenna options to enhanc
 
 ### Advanced Antennas for Onocoy
 
-{{< figure src="surveying-antenna.jpeg" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
+{{< figure src="surveying-antenna.webp" alt="Ardusimple and GNSS.STORE Surveying Antennas" link="https://gnss.store/gnss-rtk-multiband-antennas/140-elt0123.html" >}}
 
 ### Antenna Options for Recommended GNSS Receivers:
 
@@ -226,7 +226,7 @@ We won't go into the technical details of how to install an operating system her
 
 ## Proper Onocoy Base Station Antenna Placement
 
-{{< figure src="installedantenna.png" caption="Installed Antenna - doc.onocoy.com" alt="An Installed Tri-Band GPS Antenna" link="https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station" >}}
+{{< figure src="installedantenna.webp" caption="Installed Antenna - doc.onocoy.com" alt="An Installed Tri-Band GPS Antenna" link="https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station" >}}
 
 Onocoy has published [antenna placement requirements](https://docs.onocoy.com/documentation/quick-start-guides/mine-rewards/2.-install-your-station), but to summarize you should understand the following:
 
@@ -462,17 +462,17 @@ On windows, one of our best options and arguably our best free option is [STRSVR
 
 2. Execute `STRSVR.exe`, select `Serial` as your input device, and configure the correct **COM Port** for your serial reciever.
 
-  {{< figure src="strsvr-serial.jpeg" alt="STRSVR Serial Configuration" caption="STRSVR Serial Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+  {{< figure src="strsvr-serial.webp" alt="STRSVR Serial Configuration" caption="STRSVR Serial Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
 
   > **Note**: *Your com port will be different on your device. Consult your manufactures documentation and the Windows **Device Manager** on to identify the correct com port* 
 
 3. Select `NTRIP Server` as one of your output devices and configure it using the credentials and settings you got from the [onocoy console](https://console.onocoy.com).
 
-{{< figure src="strsvr-ntrip-server.jpeg" alt="STRSVR NTRIP Server Configuration" caption="STRSVR NTRIP Server Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+{{< figure src="strsvr-ntrip-server.webp" alt="STRSVR NTRIP Server Configuration" caption="STRSVR NTRIP Server Configuration" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
 
 4. Hit the `Start Button`
 
-{{< figure src="strsvr-demo.jpeg" alt="STRSVR DEMO" caption="STRSVR DEMO" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
+{{< figure src="strsvr-demo.webp" alt="STRSVR DEMO" caption="STRSVR DEMO" link="https://github.com/Aceinna/rtklib_aceinna/releases" >}}
 
 
 #### Serial Connection Settings
@@ -496,23 +496,23 @@ On windows, our options are limited. One of the NTRIP communities favorite optio
 
 1. Download and install Snip from the [download page](https://www.use-snip.com/download/).
 
-{{< figure src="snipdownload.jpeg" alt="Snip Download Page" caption="Snip Download Page" link="https://www.use-snip.com/download/" >}}
+{{< figure src="snipdownload.webp" alt="Snip Download Page" caption="Snip Download Page" link="https://www.use-snip.com/download/" >}}
 
   > *You'll have to give them an email and get the download link in your email. Use a service like [10minutemail](https:/10minutemail.com) to avoid getting spam in your email.*
 
 2. Once installed, go to the [**relay streams tab**](https://www.use-snip.com/kb/knowledge-base/the-relay-streams-tab/#:~:text=The%20Relay%20Stream%20tab%20is,their%20overall%20operational%20up%20time.) tab and delete all options from that page.
 
-  {{< figure src="relaystreams.jpeg" alt="Snip Relay Streams Menu" caption="Snip Relay Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-relay-streams-tab/#:~:text=The%20Relay%20Stream%20tab%20is,their%20overall%20operational%20up%20time." >}}
+  {{< figure src="relaystreams.webp" alt="Snip Relay Streams Menu" caption="Snip Relay Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-relay-streams-tab/#:~:text=The%20Relay%20Stream%20tab%20is,their%20overall%20operational%20up%20time." >}}
 
 3. Under the [**Serial Streams Tab**](https://www.use-snip.com/kb/knowledge-base/the-serial-streams-tab/) add your COM device and create a serial stream device.
 
-  {{< figure src="serialstreams.jpeg" alt="Snip Serial Streams Menu" caption="Snip Serial Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-serial-streams-tab/" >}}
+  {{< figure src="serialstreams.webp" alt="Snip Serial Streams Menu" caption="Snip Serial Streams Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-serial-streams-tab/" >}}
 
   > [Learn more about how to add a serial stream source device on Snip](https://www.use-snip.com/kb/knowledge-base/adding-serial-uart-data-streams/)
 
 4. On the [**Pushed-Out Data Tab**](https://www.use-snip.com/kb/knowledge-base/the-pushed-out-streams-tab-output-data/) manually add the Ntrip server information from the [onocoy console](https://console.onocoy.com).
 
-  {{< figure src="pushoutdata.jpeg" alt="Snip Pushed-Out Data Menu" caption="Snip Pushed-Out Data Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-pushed-out-streams-tab-output-data/" >}}
+  {{< figure src="pushoutdata.webp" alt="Snip Pushed-Out Data Menu" caption="Snip Pushed-Out Data Menu - use-snip.com" link="https://www.use-snip.com/kb/knowledge-base/the-pushed-out-streams-tab-output-data/" >}}
 
   > [Learn more on how to add pushed-out data streams on snip](https://www.use-snip.com/kb/knowledge-base/sending-pushed-out-data/)
 
@@ -873,7 +873,7 @@ Next, follow these steps to set up UPrecise on a Windows PC within the same netw
 4. Enter the IP address of your Linux host and the port number specified in the previous command.
 5. You will now have access to the Data Stream and can continue sending commands as usual.
 
-{{< figure src="uprecise.png" alt="unicorecom uprecise tcp window" caption="Unicorecomm Uprecise TCP Window - wholovesburrito.com" link="https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/" >}}
+{{< figure src="uprecise.webp" alt="unicorecom uprecise tcp window" caption="Unicorecomm Uprecise TCP Window - wholovesburrito.com" link="https://wholovesburrito.com/2023/09/25/an-affordable-diy-gnss-station-for-onocoy/" >}}
 
 ______
 

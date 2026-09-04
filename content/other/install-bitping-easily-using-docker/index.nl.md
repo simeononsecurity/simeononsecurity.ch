@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Leer hoe u Bitping installeert, een krachtige oplossing voor websitebewaking en prestatieoptimalisatie voor real-time feedback over downtime en verminderde prestaties."
 tags: ["Bitping", "website monitoring", "prestatie-optimalisatie", "real-time controle", "uitvaltijd", "verminderde prestaties", "stresstests", "benchmarking", "dynamische omleiding", "reprovisioning", "netwerk intelligentie", "webhooks", "Solana", "knooppunt", "lichtgewicht netwerktests", "uitbetalingen", "inkomsten", "website prestaties", "website analytics", "webbewaking", "prestatiebewaking", "uptime monitoring", "echte gebruikerscontrole", "netwerk testen", "website feedback", "website waarschuwingen", "netwerkintelligentielaag", "toezichtsoplossing", "webprestaties", "prestatiecijfers"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Een geanimeerde illustratie van een dashboard voor websiteprestaties met realtime statistieken en waarschuwingen."
 coverCaption: ""
 ---

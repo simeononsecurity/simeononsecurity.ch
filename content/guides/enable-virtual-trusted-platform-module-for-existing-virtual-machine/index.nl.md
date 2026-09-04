@@ -6,7 +6,7 @@ draft: false
 description: "Verbeter de beveiliging van virtuele machines met behulp van vTPM met onze uitgebreide stap-voor-stap handleiding, die ondersteuning biedt voor platform-attestatie en BitLocker-encryptie."
 genre: ["Cyberbeveiliging", "Virtualisatie", "VMware", "vSphere", "Beveiliging", "Vertrouwde platformmodule", "vTPM", "Gast OS", "Encryptie", "Platform Attest"]
 tags: ["Virtuele vertrouwensplatformmodule", "vTPM Guide", "Verbeterde VM-beveiliging", "Platform Attest", "BitLocker-codering", "VMware vSphere", "Beveiliging van virtualisatie", "Cyberbeveiliging", "Bescherming gastbesturingssysteem", "VM-hardware", "TPM 2.0", "Beveiligd opstarten", "Cryptografische bewerkingen", "Best practices voor VM-beveiliging", "vCenter Server", "ESXi hosts", "EFI-firmware", "Belangrijke leverancier", "VMware-documentatie", "Windows server", "Windows 7", "Linux OS", "VM-configuratie beveiligen", "Beveiligingsfuncties", "vSphere-client", "Virtuele chip", "Gegevensbescherming", "Sabotagedetectie", "VM-integriteitsverificatie", "VMware Beveiliging"]
-cover: "/img/cover/enhanced-vm-security.png"
+cover: "/img/cover/enhanced-vm-security.webp"
 coverAlt: "Een symbolische illustratie van een virtuele machine met een blinkend slot, die een verbeterde beveiliging via vTPM voorstelt."
 coverCaption: "Ontgrendel ongekende VM-beveiliging!"
 ---

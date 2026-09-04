@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra consejos esenciales sobre prácticas seguras en las redes sociales para proteger su privacidad en línea y conozca la configuración de privacidad de plataformas populares como LinkedIn, Facebook, Twitter e Instagram."
 tags: ["privacidad", "privacidad en línea", "social media", "prácticas seguras", "configuración de privacidad", "LinkedIn", "Facebook", "Twitter", "Instagram", "solicitudes de amistad", "enlaces aleatorios", "encuestas", "normativa gubernamental", "GDPR", "CCPA", "ciberseguridad", "protección de datos", "datos personales", "violación de la privacidad", "seguridad digital", "riesgos para la intimidad", "leyes de privacidad", "normativa sobre privacidad", "privacidad de los datos", "seguridad en línea", "protección de la intimidad", "social media privacy", "consejos sobre privacidad", "prácticas de privacidad en línea", "protección de datos personales"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "Imagen que representa un escudo que protege la información personal de una persona mientras utiliza plataformas de redes sociales."
 coverCaption: ""
 ---

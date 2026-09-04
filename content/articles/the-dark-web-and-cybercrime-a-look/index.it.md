@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplora il mondo nascosto del dark web e la sua connessione con la criminalità informatica, scoprendo la sua duplice natura e il suo potenziale per il giornalismo e il whistleblowing."
 tags: ["dark web", "criminalità informatica", "attività illegali", "Tor", "hacking", "frode", "furto d'identità", "giornalismo", "whistleblowing", "sicurezza online", "informazioni personali", "violazioni dei dati", "online privacy", "regolamenti governativi", "sicurezza informatica", "prevenzione del crimine", "navigazione anonima", "anonimato online", "minacce online", "sicurezza digitale"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Illustrazione di uno scudo digitale che protegge un computer dalle minacce del dark web e della criminalità informatica."
 coverCaption: ""
 ---

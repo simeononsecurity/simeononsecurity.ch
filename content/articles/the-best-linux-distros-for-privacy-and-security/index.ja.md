@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "プライバシーとセキュリティに最適なLinuxディストロを発見し、データの保護とオンライン活動の安全性を確保しましょう。"
 tags: ["Linuxディストロ", "プライバシーとセキュリティ", "テール", "Qubes OS", "ホワニックス", "パロットセキュリティOS", "Ubuntu Privacy Remix", "オープンビーエスディー", "データ保護", "セキュアコンピューティング", "えんかくブラウズ", "仮想化", "セキュリティテスト", "フォレンジックアナリシス", "侵入テスト", "暗号化ツール", "安全な削除", "匿名性", "サイバーセキュリティ", "符号の正しさ", "オンラインセーフティー", "ユーザーデータ保護", "機密性", "データ復旧", "オンラインバンキング", "オンラインプライバシー", "セキュア環境", "安全なブラウジング", "トーアネットワーク", "けいび", "デフォルトで安全"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "コンピュータを守る盾を描いたイメージで、デジタル社会におけるプライバシーとセキュリティを象徴しています。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i vantaggi e i rischi dell'utilizzo dell'autenticazione biometrica per il controllo degli accessi, tra cui la maggiore sicurezza, i problemi di privacy e le migliori pratiche per l'implementazione."
 tags: ["autenticazione biometrica", "controllo degli accessi", "sicurezza", "privacy", "protezione dei dati", "GDPR", "HIPAA", "falsi positivi", "false negatives", "autenticazione a più fattori", "test del sistema", "politiche di sicurezza", "efficienza", "convenienza", "identità unica", "flussi di lavoro semplificati", "vulnerabilità", "mitigazione del rischio", "esperienza dell'utente", "sicurezza informatica"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Illustrazione animata della mano di una persona che utilizza uno scanner di impronte digitali per accedere a un'area protetta, con il volto e l'iride di una persona visibili sullo sfondo."
 coverCaption: ""
 ---

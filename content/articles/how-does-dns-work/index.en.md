@@ -6,7 +6,7 @@ date: 2023-07-20
 description: "Explore the working principles of DNS and Root DNS, their hierarchical structure, resolution process, caching mechanisms, and troubleshooting tips."
 genre: ["DNS basics", "Root DNS", "Domain Name System", "DNS resolution", "DNS hierarchy", "DNS caching", "DNS troubleshooting", "DNS records", "DNS management", "DNS commands"]
 tags: ["DNS", "Root DNS", "Domain Name System", "DNS resolution", "DNS hierarchy", "DNS caching", "DNS records", "DNS management", "DNS troubleshooting", "networking", "internet infrastructure", "IP addresses", "website access", "recursive query", "authoritative name servers", "TTL", "caching mechanisms", "DNS cache clearing", "Root DNS servers", "anycast routing", "ICANN", "DNS collaboration", "A record", "AAAA record", "CNAME record", "MX record", "TXT record", "SRV record", "NS record", "PTR record", "SOA record", "DNS troubleshooting commands", "Windows", "macOS", "Linux", "Command Prompt", "Terminal"]
-cover: "/img/cover/An_image_depicting_interconnected_computer_ne.png"
+cover: "/img/cover/An_image_depicting_interconnected_computer_ne.webp"
 coverAlt: "An image depicting interconnected computer networks with domain names and IP addresses floating around them, representing the working of DNS and Root DNS."  
 coverCaption: "Unravel the Secrets of DNS: Mastering the Domain Name System"
 ---

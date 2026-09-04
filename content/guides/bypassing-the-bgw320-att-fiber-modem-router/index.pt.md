@@ -44,7 +44,7 @@ Ao executar uma varredura de porta de 1-65535, você notará algumas portas aber
 
 ### Personalizando o ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Agora vem a parte importante, ou seja, alterar algumas informações do dispositivo para torná-lo compatível com a rede do seu ISP.
 

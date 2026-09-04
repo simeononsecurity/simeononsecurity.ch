@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Découvrez comment protéger votre vie privée sur les plateformes de médias sociaux en comprenant les risques liés à la confidentialité, les préoccupations courantes et en ajustant les paramètres sur Facebook, Instagram, Twitter et LinkedIn."
 genre: ["Vie privée sur les médias sociaux", "Protéger les informations personnelles sur les médias sociaux", "Risques et préoccupations en matière de protection de la vie privée sur les médias sociaux", "Paramètres de confidentialité sur Facebook", "Améliorer la confidentialité sur Instagram", "Sécuriser votre compte Twitter", "Protection de la vie privée sur LinkedIn"]
 tags: ["ajuster les paramètres de confidentialité de Facebook", "Contrôler le nombre de followers sur Instagram", "gérer les données de Twitter", "protection de la vie privée sur LinkedIn", "limiter les autorisations d'utilisation des applications sur les médias sociaux", "améliorer la confidentialité sur Instagram", "protéger les tweets sur Twitter", "gérer les connexions LinkedIn", "sécuriser le compte Twitter", "la vie privée sur les plateformes de médias sociaux"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Image symbolique de style bande dessinée représentant un bouclier verrouillé protégeant les informations personnelles d'une personne sur les médias sociaux"
 ---
 

@@ -6,7 +6,7 @@ draft: false
 description: "Erfahren Sie, wie Sie Ihr Spacemesh-Mining mit mehreren GPUs und dem umweltfreundlichen PoST-Algorithmus optimieren und Ihre Gewinne maximieren können."
 genre: ["Kryptowährung", "Blockchain", "Bergbau", "Technologie", "Dezentralisiert", "GPU-Bergbau", "Beweis der Raum-Zeit", "Umweltfreundlich", "Krypto-Tipps", "Digitale Vermögenswerte"]
 tags: ["Raumnetz", "Bergbau", "GPUs", "Beweis der Raum-Zeit", "Kryptowährung", "Blockchain", "Umweltfreundlich", "Dezentralisiert", "PoST-Algorithmus", "Bergbau-Leitfaden", "Krypto-Tipps", "Belohnungen", "Optimierung", "Energieeffizient", "GPU-Bergbau", "Digitale Vermögenswerte", "Technologie", "Dezentralisierung", "Nachweis des Weltraums", "Raum-Zeit-Bergbau", "Maximierung der Effizienz des Bergbaus", "Umweltfreundliche Kryptowährung", "Spacemesh-Netzwerk", "GPU-Bergbaueinrichtung", "Mining mit mehreren GPUs", "Dezentrales Blockchain-Mining", "Krypto Mining Tipps", "Effizientes GPU-Mining", "Nachweis des Raum-Zeit-Algorithmus", "Belohnungen für Kryptowährungen"]
-cover: "/img/cover/spacemesh-mining-gpus.png"
+cover: "/img/cover/spacemesh-mining-gpus.webp"
 coverAlt: "Eine Illustration im Cartoon-Stil, die zeigt, wie mehrere GPUs zusammenarbeiten, um Spacemesh abzubauen."
 coverCaption: "Mine Smarter, Mine Greener!"
 ---

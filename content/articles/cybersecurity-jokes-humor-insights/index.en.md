@@ -6,7 +6,7 @@ draft: false
 description: "Discover effortless humor and valuable insights in the world of cybersecurity jokes. Cybersecurity jokes made easy!"
 genre: ["Cybersecurity Humor", "Information Security Comedy", "Tech Jokes", "Online Safety", "Digital Defense"]
 tags: ["cybersecurity jokes", "IT humor", "password humor", "cybersecurity professionals", "hacker jokes", "online security", "information security", "tech jokes", "cyber threats", "phishing humor", "cybersecurity awareness", "cyber humor", "data protection", "cybersecurity regulations", "online privacy", "cyber defense", "digital threats", "cybersecurity best practices", "funny tech", "security tips", "IT department", "internet humor", "digital security", "cyber resilience", "cyberworld laughs", "cyber jokes", "cybersecurity standards", "cyber resilience humor", "cybersecurity guidelines", "cybersecurity humorist"]
-cover: "/img/cover/cybersecurity-jokes-cartoon-hacker.png"
+cover: "/img/cover/cybersecurity-jokes-cartoon-hacker.webp"
 coverAlt: "A cartoon hacker with a big grin holding a shield and a laptop."
 coverCaption: "Laugh while you learn, protect, and prevent. Cybersecurity humor rocks!"
 ---

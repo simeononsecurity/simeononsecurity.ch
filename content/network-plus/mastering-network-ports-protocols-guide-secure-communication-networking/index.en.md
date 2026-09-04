@@ -6,7 +6,7 @@ draft: false
 description: "Explore common network ports and protocols, their secure alternatives, and the importance of IP protocol types. Enhance network security and optimize communication."
 genre: ["Networking", "Network Security", "Protocols", "Ports", "IP Protocols", "Secure Communication", "Computer Networks", "IT", "Network Administration", "Technology"]
 tags: ["networking", "network security", "protocols", "ports", "IP protocols", "secure communication", "computer networks", "IT", "network administration", "technology", "FTP", "SFTP", "SSH", "Telnet", "SMTP", "DNS", "DHCP", "TFTP", "HTTP", "POP3", "NTP", "IMAP", "SNMP", "LDAP", "HTTPS", "SMB", "Syslog", "SMTP TLS", "LDAPS", "IMAP over SSL", "POP3 over SSL", "SQL Server", "SQLnet", "MySQL", "RDP", "SIP"]
-cover: "/img/cover/An_animated_illustration_showcasing_interconnted.png"
+cover: "/img/cover/An_animated_illustration_showcasing_interconnted.webp"
 coverAlt: "An animated illustration showcasing interconnected devices exchanging secure data over a network."
 coverCaption: "Secure communication and efficient networking for enhanced productivity."
 ---

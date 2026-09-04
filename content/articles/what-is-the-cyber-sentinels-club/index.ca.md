@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descobriu la missió i els principis dels Cyber Sentinels, una comunitat de ciberprofessionals i de TI compromesos a compartir coneixements i desenvolupar solucions innovadores per als reptes de la ciberseguretat."
 tags: ["seguretat cibernètica", "IT", "comunitat", "compartir coneixements", "col·laboració", "aprenentatge continu", "suport", "inclusivitat", "impacte positiu", "canals de text", "canals de veu", "assessorament professional", "oportunitats de treball", "recursos d'aprenentatge", "tendències emergents", "projectes", "esdeveniments", "conferències", "imatges de mascotes", "tecnologia"]
-cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.png"
+cover: "/img/cover/An_image_of_a_stylized_shield_or_emblem.webp"
 coverAlt: "Un escut digital estilitzat amb una figura de guerrer cibernètic al centre, envoltat de formes abstractes i línies que representen els fluxos de dades i la connexió a la xarxa"
 coverCaption: ""
 ---

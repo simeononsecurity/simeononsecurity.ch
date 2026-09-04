@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Esplorate le minacce comuni alla sicurezza informatica, il loro impatto su individui e aziende e i modi efficaci per proteggersi da esse."
 genre: ["Minacce alla sicurezza informatica", "Importanza della sicurezza informatica", "Tipi di minacce", "Impatto delle minacce", "Protezione dalle minacce", "Il ruolo del governo nella sicurezza informatica", "Il ruolo dell'industria nella sicurezza informatica", "Regolamenti e conformità", "Partenariati pubblico-privati", "Ricerca e sviluppo sulla sicurezza informatica"]
 tags: ["minacce alla sicurezza informatica", "attacchi informatici", "misure di sicurezza informatica", "piccole imprese", "perdite finanziarie", "danni alla reputazione", "violazioni dei dati", "furto d'identità", "phishing", "ransomware", "Attacchi DDoS", "minacce interne", "aggiornamenti software", "password forti", "formazione dei dipendenti", "autenticazione a più fattori", "backup dei dati", "regolamenti governativi", "compliance", "partenariati pubblico-privati", "ricerca e sviluppo sulla cybersicurezza", "importanza della sicurezza informatica", "proteggere le persone", "proteggere le imprese", "ruolo del governo", "ruolo dell'industria", "multe regolamentari", "danni alla reputazione", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Illustrazione simbolica di uno scudo che protegge le risorse digitali dalle minacce informatiche con un codice binario sullo sfondo."
 ---
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Entdecken Sie die Schlüsselelemente des Army Cybersecurity Awareness Training, die Einhaltung von Vorschriften und die besten Praktiken für Verteidigungspersonal zur effektiven Bekämpfung von Cyberbedrohungen."
 tags: ["Armee Cybersecurity Awareness Training", "Verteidigungspersonal", "Cyber-Bedrohungen", "Bewährte Praktiken der Cybersicherheit", "Einhaltung der Vorschriften", "Phishing-Bewusstsein", "Sichere Passwortpraktiken", "Sicheres Surfen im Internet", "Sicherheit mobiler Geräte", "Bewusstsein für Social Engineering", "Datenschutz", "Berichterstattung über Vorfälle", "Cybersecurity-Vorschriften", "DoD-Richtlinie 8570", "DoD-Richtlinie 8140", "Phishing-Angriffe", "Sichere Surfgewohnheiten", "Verschlüsselung von Mobilgeräten", "Techniken des Social Engineering", "Datenschutz", "Reaktion auf Vorfälle", "Cyber-sichere Umgebung", "Schutz sensibler Informationen", "Cybersecurity-Fähigkeiten", "Systeme der Armee", "Eindämmung von Cyber-Bedrohungen", "Bildung im Bereich Cybersicherheit", "Bewusstsein für Informationssicherheit", "Cybersicherheit im Verteidigungsbereich"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Ein Bild, das ein Schild mit einem Vorhängeschloss zeigt, das die Verteidigung der Cybersicherheit und den Schutz vor Cyber-Bedrohungen symbolisiert."
 coverCaption: "Bewachung der digitalen Festung: Stärkung der Cybersecurity-Verteidigung der Armee"
 ---

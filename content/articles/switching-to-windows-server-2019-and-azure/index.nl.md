@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dit artikel onderzoekt de voordelen van upgraden naar Server 2019 of overstappen naar Azure, waaronder verbeterde beveiliging, prestaties, integratie en ondersteuning, om organisaties te helpen de beste beslissing te nemen voor hun IT-infrastructuur."
 tags: ["Upgrade naar Server 2019", "Overschakelen naar Azure", "IT-infrastructuur", "Bedrijfstechnologie", "Verbetering van de beveiliging", "Prestatieverbeteringen", "Integratie met Azure", "Ondersteuning op lange termijn", "Schaalbaarheid", "Kosteneffectiviteit", "Grotere betrouwbaarheid", "Geavanceerde analyses", "Hybride aanpak", "Flexibele en veerkrachtige IT-infrastructuur"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "Een beeld van een serverruimte met rekken servers aan de ene kant en een wolk aan de andere kant, met een persoon in het midden die naar beide kijkt."
 coverCaption: ""
 ---

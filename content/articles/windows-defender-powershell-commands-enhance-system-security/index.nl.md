@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van Windows Defender PowerShell-opdrachten en leer hoe u de beveiliging van uw systeem kunt verbeteren met opdrachtregelbediening."
 genre: ["Windows Verdediger", "PowerShell-opdrachten", "systeemveiligheid", "commandoregelbesturing", "antivirus", "Windows-besturingssystemen", "bescherming tegen malware", "geavanceerde beveiligingsinstellingen", "beveiligingsactiviteiten automatiseren", "Windows PowerShell"]
 tags: ["Technologie", "Cyberbeveiliging", "Besturingssystemen", "Windows", "Commandoregeltools", "Systeembeveiliging", "PowerShell", "Antivirus", "Bescherming tegen malware", "Scripting"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Een geanimeerde illustratie van een schild dat een computersysteem beschermt tegen verschillende cyberbedreigingen."
 coverCaption: "Versterk de beveiliging van uw systeem met Windows Defender PowerShell-commando's."
 ---

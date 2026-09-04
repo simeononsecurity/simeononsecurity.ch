@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Aprenda sobre as táticas usadas pelos golpistas de phishing e descubra estratégias eficazes para se proteger de se tornar uma vítima."
 tags: ["golpes de phishing", "cíber segurança", "ameaças online", "falsificação de e-mail", "Engenharia social", "proteção contra malware", "segurança online", "segurança de dados", "roubo de identidade", "senha de segurança", "autenticação de dois fatores", "atualizações de software", "regulamentos governamentais", "privacidade online", "consciência cibernética", "fraude digital", "consciência de phishing", "segurança nas redes sociais", "golpes online", "prevenção de crimes cibernéticos"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Um escudo vigilante protegendo um usuário contra ataques de phishing"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La specifica DoD 5220.22-M è uno standard fondamentale per la cancellazione sicura di informazioni sensibili dai supporti di memorizzazione digitale, ampiamente utilizzato dalle forze armate e dalle organizzazioni governative statunitensi."
 tags: ["Sanitizzazione dei dati", "cancellazione sicura", "informazioni sensibili", "sicurezza dei dati", "supporti di memorizzazione digitale", "DoD 5220.22-M", "protezione dei dati", "data privacy", "sicurezza delle informazioni", "data disposal", "prevenzione delle violazioni dei dati", "software di sanificazione dei dati", "sicurezza digitale", "distruzione dei dati", "gestione dei dati", "secure data erasure", "prevenzione del recupero dati", "sicurezza informatica", "cancellazione dei dati", "gestione delle informazioni", "secure disposal", "metodi di distruzione dei dati", "processo di sanificazione dei dati", "sovrascrittura dei dati", "data verification", "standard di sanificazione dei dati", "migliori pratiche di smaltimento dei dati", "secure data disposal", "riutilizzo sicuro", "conformità della sanificazione dei dati", "gestione sicura dei dati"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Un'immagine di un disco rigido che viene cancellato in modo sicuro utilizzando un software di sanificazione dei dati, con un lucchetto o uno scudo che simboleggia la sicurezza in primo piano"
 coverCaption: ""
 ---

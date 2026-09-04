@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kracht van reverse engineering om gebreken in de beveiliging van IoT-netwerken bloot te leggen en de algehele systeembeveiliging te verbeteren."
 tags: ["reverse engineering", "IoT-beveiliging", "kwetsbaarheden", "veiligheidsprotocollen", "apparaatanalyse", "IoT-netwerken", "innerlijke werking", "kwaadaardige code", "encryptie maatregelen", "authenticatiemaatregelen", "firewalls", "software-update"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Een afbeelding van een beveiligingsprofessional die de interne werking van een IoT-apparaat onderzoekt, waarbij verschillende hardwarecomponenten en printplaten zichtbaar zijn."
 coverCaption: ""
 ---

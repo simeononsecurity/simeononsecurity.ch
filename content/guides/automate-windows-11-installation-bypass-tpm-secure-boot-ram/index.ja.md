@@ -6,7 +6,7 @@ draft: false
 description: "autounattend.xmlとvTPMを使用して、TPM、セキュアブート、RAMのチェックを回避することにより、仮想化環境におけるWindows 11のインストールを合理化します。"
 genre: ["テクノロジー", "ウィンドウズ11", "インストール", "仮想化", "オートメーション", "レジストリ・キー", "TPMバイパス", "セキュアブート・バイパス", "RAMバイパス", "ブイティピーエム"]
 tags: ["ウィンドウズ11", "インストール", "オートメーション", "仮想化", "ブイティピーエム", "レジストリ・キー", "TPMバイパス", "セキュアブート・バイパス", "RAMバイパス", "Autounattend.xml", "VMware vSphere", "Windowsセットアップ", "Windowsプリインストール環境", "仮想マシン", "Windowsインストールの回避策", "レジストリエディタ", "マイクロソフト・ウィンドウズのセットアップ", "システム要件", "Windowsセキュリティ", "ウィンドウズ・パフォーマンス", "政府規制", "NISTコンプライアンス", "マイクロソフト", "ウィンドウズOS", "チェックの回避", "ウィンドウズ展開", "セットアップ・オートメーション", "コマンドプロンプト", "技術ハウツー", "Windows 11の自動インストール", "VMware vSphereにおけるvTPMの構成", "Windows 11の要件を回避する"]
-cover: "/img/cover/windows11-installation-cartoon.png"
+cover: "/img/cover/windows11-installation-cartoon.webp"
 coverAlt: "仮想化環境にWindows 11をインストールする仮想マシンと、そのプロセスを見守る笑顔のITプロフェッショナルを描いた漫画風の画像。"
 coverCaption: "スマイルでセットアップを簡素化：Windows 11のインストールを自動化"
 ---

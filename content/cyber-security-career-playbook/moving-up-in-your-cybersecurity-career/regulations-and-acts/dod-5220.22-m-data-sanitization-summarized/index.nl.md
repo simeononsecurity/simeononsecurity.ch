@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "De DoD 5220.22-M specificatie is een kritieke standaard voor het veilig wissen van gevoelige informatie van digitale opslagmedia, op grote schaal gebruikt door het Amerikaanse leger en overheidsorganisaties."
 tags: ["Gegevens opschonen", "veilig wissen", "gevoelige informatie", "gegevensbeveiliging", "digitale opslagmedia", "DoD 5220.22-M", "gegevensbescherming", "gegevensprivacy", "informatiebeveiliging", "gegevensverwijdering", "preventie van datalekken", "software voor het opschonen van gegevens", "digitale veiligheid", "gegevensvernietiging", "gegevensbeheer", "veilig wissen van gegevens", "preventie van gegevensherstel", "cyberbeveiliging", "gegevens wissen", "informatiebeheer", "veilige verwijdering", "methoden voor gegevensvernietiging", "proces voor het opschonen van gegevens", "gegevens overschrijven", "gegevensverificatie", "standaarden voor het opschonen van gegevens", "best practices voor gegevensverwijdering", "veilige verwijdering van gegevens", "veilig hergebruik", "naleving van gegevenshygiëne", "veilig gegevensbeheer"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "Een afbeelding van een harde schijf die veilig wordt gewist met software voor gegevensopschoning, met op de voorgrond een hangslot of een schild als symbool voor beveiliging"
 coverCaption: ""
 ---

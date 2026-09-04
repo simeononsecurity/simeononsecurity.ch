@@ -6,7 +6,7 @@ draft: false
 description: "Descubra las diversas aplicaciones de la tecnología blockchain más allá de las criptomonedas, revolucionando las finanzas, la gestión de la cadena de suministro, la sanidad, la energía y mucho más."
 genre: ["Tecnología Blockchain", "Criptomoneda", "Finanzas", "Gestión de la cadena de suministro", "Sanidad", "Energía", "Servicios", "Financiación descentralizada", "Contratos inteligentes", "Pagos transfronterizos"]
 tags: ["blockchain", "criptomoneda", "finanzas", "gestión de la cadena de suministro", "sanidad", "energía", "servicios", "financiación descentralizada", "contratos inteligentes", "pagos transfronterizos", "fuente", "trazabilidad", "logística", "productos falsificados", "cadenas de suministro sostenibles", "gestión segura de los datos de los pacientes", "trazabilidad de los medicamentos", "ensayos clínicos", "telemedicine", "monitorización remota", "redes de energía descentralizadas", "comercio de energía entre pares", "medición inteligente", "facturación", "cadenas de bloques públicas", "cadenas de bloques privadas", "transparencia", "seguridad", "inmutabilidad"]
-cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png"
+cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.webp"
 coverAlt: "Imagen de bloques interconectados formando una cadena, que representa la tecnología blockchain."
 coverCaption: "Liberar el potencial de la tecnología Blockchain"
 ---

@@ -44,7 +44,7 @@ coverCaption: ""
 
 ### ONT ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰਨਾ
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 ਹੁਣ ਮਹੱਤਵਪੂਰਨ ਹਿੱਸਾ ਆਉਂਦਾ ਹੈ ਜਿਵੇਂ ਕਿ ਡਿਵਾਈਸ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਤੁਹਾਡੇ ISP ਦੇ ਨੈਟਵਰਕ ਦੇ ਅਨੁਕੂਲ ਬਣਾਉਣ ਲਈ ਬਦਲਣਾ।
 

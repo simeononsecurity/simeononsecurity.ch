@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "DoD 5220.22-M仕様は、デジタル記憶媒体から機密情報を安全に消去するための重要な規格であり、米軍や政府機関で広く使用されています。"
 tags: ["DoD 5220.22-M", "データサニタイゼーション", "デジタル記録媒体", "米軍", "政府機関", "機密情報", "セキュリティ", "データ消去", "マルチパスプロセス", "ECE方式"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "データ消去ソフトでハードディスクを安全に消去しているイメージで、手前にはセキュリティを象徴する南京錠や盾が描かれています。"
 coverCaption: ""
 ---

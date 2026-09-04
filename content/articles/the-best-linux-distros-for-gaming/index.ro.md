@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-30
 description: "Descoperiți cele mai bune distribuții Linux pentru jocuri, inclusiv Ubuntu, Zorin OS, Manjaro și SteamOS, și duceți-vă experiența de joc la noi culmi pe Linux."
 tags: ["Distribuții Linux pentru jocuri", "Jocuri Ubuntu", "Zorin OS gaming", "Jocurile Manjaro", "Jocuri SteamOS", "Performanța jocurilor Linux", "Suport pentru jocuri Linux", "Comunitatea de jocuri Linux", "Experiența de joc Ubuntu", "Interfața de joc Zorin OS", "Manjaro gaming-focalizat", "Sistemul de operare pentru jocuri SteamOS", "Pop!_OS pentru jocuri", "Suport pentru jocuri Fedora", "Performanța jocurilor Solus", "Distribuții de jocuri Linux", "cele mai bune distribuții Linux", "jocuri pe Linux", "Platforma de jocuri Linux", "Ghid de jocuri Linux", "jocuri pe Ubuntu", "jocuri pe Zorin OS", "jocuri pe Manjaro", "jocuri pe SteamOS", "Software de jocuri Linux", "Biblioteca de jocuri Linux", "Compatibilitate cu jocurile Linux", "Suportul comunității de jocuri Linux", "Configurație de jocuri Linux", "Optimizarea performanțelor jocurilor Linux", "Sfaturi și trucuri pentru jocuri Linux"]
-cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.png"
+cover: "/img/cover/Illustration_of_a_gamer_immersed_in_a_virtual_world.webp"
 coverAlt: "Ilustrație a unui jucător imersat într-o lume virtuală pe un computer cu Linux"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come Glotta semplifica la traduzione del testo Hugo, consentendo agli sviluppatori di raggiungere un pubblico globale senza alcuno sforzo."
 tags: ["Glotta", "Traduzione del testo Hugo", "strumento di localizzazione", "contenuti multilingue", "automazione della traduzione", "localizzazione linguistica", "Integrazione dell'API di Google Translate", "Integrazione API Deepl Translate", "Chevrotain.js", "lesser e parser", "alberi della sintassi", "flusso di lavoro della traduzione", "Progetti Hugo", "localizzazione dei contenuti", "supporto linguistico", "efficienza della traduzione", "API di traduzione", "Le migliori pratiche di localizzazione", "controllo di qualità della traduzione", "verifica dei contenuti tradotti", "pubblico globale", "soluzione per la traduzione di testi", "ottimizzazione del processo di traduzione", "codice di terze parti", "misure di sicurezza", "Pacchetto NPM", "Repository GitHub", "strumento di traduzione del testo", "localizzazione a misura di sviluppatore", "potenziamento della portata dei contenuti"]
-cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png"
+cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.webp"
 coverAlt: "Un'illustrazione che raffigura la traduzione senza soluzione di continuità del testo Hugo con Glotta, che collega le lingue globali."
 coverCaption: ""
 ---

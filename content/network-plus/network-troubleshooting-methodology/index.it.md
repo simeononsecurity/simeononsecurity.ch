@@ -6,7 +6,7 @@ draft: false
 description: "Una guida completa alla metodologia di risoluzione dei problemi di rete, che include i passaggi, gli strumenti e le best practice per risolvere i problemi di rete in modo efficiente ed efficace."
 genre: ["Formazione IT", "Risoluzione dei problemi di rete", "Certificazione di rete", "Formazione IT", "Reti di computer", "Competenze informatiche", "Conoscenze tecniche", "Professionisti IT", "Concetti di rete", "Supporto di rete"]
 tags: ["metodologia di risoluzione dei problemi di rete", "problemi di rete", "Professionisti IT", "OSI model", "strumenti di rete", "Fasi di risoluzione dei problemi", "prestazioni della rete", "Competenze informatiche", "risoluzione dei problemi", "diagnostica di rete", "documentare la risoluzione dei problemi", "configurazione di rete", "collaborazione con gli utenti", "regolamenti governativi", "standard di settore", "PCI DSS", "HIPAA", "GDPR", "Documentazione di rete", "miglioramento continuo", "base di conoscenza della rete", "funzionalità del sistema", "misure preventive", "ottimizzazione delle prestazioni di rete", "Strumenti per la risoluzione dei problemi di rete", "connettività di rete", "Corso di formazione IT", "processo di risoluzione dei problemi di rete", "tecniche di risoluzione dei problemi di rete", "Le migliori pratiche di supporto alla rete", "Guida alla risoluzione dei problemi di rete"]
-cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.png"
+cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.webp"
 coverAlt: "Un'illustrazione che raffigura un ingegnere di rete che utilizza una lente di ingrandimento per analizzare le connessioni di rete e risolvere i problemi."
 coverCaption: "Liberate le vostre capacità di risoluzione dei problemi di rete"
 ---

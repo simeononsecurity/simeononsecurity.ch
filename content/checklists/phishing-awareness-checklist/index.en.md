@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to identify, report, and prevent phishing attacks to safeguard your organization's sensitive information and strengthen your cybersecurity defenses."
 genre: ["Phishing Awareness", "Cybersecurity Education", "Email Security", "Social Engineering Prevention", "Cyber Threats", "Employee Training", "Cybersecurity Best Practices", "Online Safety", "Information Security", "Cyber Defense"]
 tags: ["phishing awareness", "cybersecurity education", "email security", "social engineering prevention", "cyber threats", "employee training", "cybersecurity best practices", "online safety", "information security", "cyber defense", "identifying phishing emails", "reporting suspicious emails", "safe browsing habits", "email hygiene", "email filtering", "email authentication", "social engineering awareness", "phishing training", "phishing simulations", "open communication culture", "cyber threat prevention", "cybersecurity awareness", "information protection", "cyber threat mitigation", "phishing attacks", "email security solutions", "security awareness training", "online threat prevention", "social engineering tactics", "cybersecurity culture", "information sharing awareness"]
-cover: "/img/cover/phishing-awareness-shield-lock.png"
+cover: "/img/cover/phishing-awareness-shield-lock.webp"
 coverAlt: "An illustrated cartoon image depicting a shield with a lock, symbolizing protection against phishing attacks and cyber threats."
 coverCaption: "Stay vigilant and secure against phishing threats with enhanced awareness."
 ---

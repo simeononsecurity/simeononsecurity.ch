@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 5 大网络安全认证，这些认证可帮助您提升职业发展，增加在快速发展的网络安全领域找到工作的机会。"
 tags: ["网络安全", "认证", "CompTIA Security Plus", "CISSP", "进攻型安全 OSCP", "思科 CCNA", "(ISC2) CCSP", "信息技术安全", "网络安全", "云安全", "专业发展", "职业发展", "技能验证", "信息安全", "道德黑客", "渗透测试", "网络管理", "云计算", "安全管理", "脆弱性评估"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "一个人站在电脑前，背上披着超级英雄斗篷的形象，象征着通过获得网络安全认证可以获得的技能和知识。"
 coverCaption: ""
 ---

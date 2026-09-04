@@ -15,7 +15,7 @@ coverCaption: ""
 
 ## [T-Mobile Cell Spot](https://amzn.to/41cXppc)
 
-{{< figure src="cellspot.jpg" alt="T-Mobile Cell Spot" >}}
+{{< figure src="cellspot.webp" alt="T-Mobile Cell Spot" >}}
 
 দ্য [T-Mobile Cell Spot](https://amzn.to/41cXppc) is a device that comes with a window unit and a coverage unit. You can rent it for free from T-Mobile or get it for free. Otherwise, you can [buy one on Amazon outright for around $25 - $50](https://amzn.to/41cXppc) এটি শুধুমাত্র তখনই সাহায্য করে যদি আপনার একটি জানালার মধ্যে বা কাছাকাছি ভাল বা ব্যবহারযোগ্য কভারেজ থাকে এবং বাড়ির অন্য এলাকায় না থাকে। এটি সবচেয়ে ভাল কাজ করে যদি আপনি কেবল একটি বাসস্থানের মাধ্যমে আরও সমানভাবে কভারেজ ছড়িয়ে দিতে চান।
 
@@ -23,7 +23,7 @@ coverCaption: ""
 
 ## [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6)
 
-{{< figure src="weboost.jpg" alt="Weboost Cell Amp and Signal Booster" >}}
+{{< figure src="weboost.webp" alt="Weboost Cell Amp and Signal Booster" >}}
 
 দ্য [WeBoost](https://amzn.to/42chuNG) and [Hiboost](https://amzn.to/3NPsSL6) বিকল্প কিছু ইনস্টলেশন প্রয়োজন. তাদের জন্য আপনাকে একটি পোল, গ্রাউন্ডিং রড, লাইটিং অ্যারেস্টর, এম্প এবং এক বা একাধিক ইনডোর অ্যান্টেনা ইনস্টল করতে হবে। তারা সর্বোত্তম সম্ভাব্য সংকেত অফার করে কিন্তু আপনার এলাকায় কোন সংকেত না থাকলে কাজ করবে না। তারা গড় অতিরিক্ত লাভের প্রায় 60db কিন্তু 100db পর্যন্ত যেতে পারে। এটি অবশ্যই সর্বোত্তম স্থায়ী সমাধান কারণ আপনি সম্ভাব্য সর্বাধিক সংকেত উন্নতির পাশাপাশি একই সময়ে সমস্ত ক্যারিয়ারের জন্য সমর্থন পাবেন।
 

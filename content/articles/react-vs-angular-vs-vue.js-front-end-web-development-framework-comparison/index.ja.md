@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "React、Angular、Vue.jsの違いを調べ、Web開発プロジェクトに適したフロントエンドフレームワークを選びましょう。"
 tags: ["フロントエンドフレームワーク", "ウェブ開発", "リアクト", "アンギュラー", "Vue.js", "フレームワーク比較", "ユーザーインターフェイス", "パフォーマンス", "ポピュラリティ", "地域支援", "ラーニングカーブ", "エコシステム", "ユースケース", "ジャバスクリプト", "仮想DOM", "コンポーネントベースアーキテクチャ", "国営", "スケーラビリティ", "ドキュメンテーション", "ツーリング", "プロジェクト要件", "ReactとAngularの比較", "ReactとVue.jsの比較", "AngularとVue.jsの比較", "フロントエンド開発", "ウェブアプリケーションフレームワーク", "UI開発", "JavaScriptのフレームワーク", "ウェブ開発ツール", "ウェブ開発技術"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "React、Angular、Vue.jsというラベルのついた3つの歯車が連動しているイメージ"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "GlottaがどのようにHugoのテキスト翻訳を簡素化し、開発者が楽にグローバルなオーディエンスにリーチできるようになったかをご覧ください。"
 tags: ["グロッタ", "ヒューゴのテキスト翻訳", "ローカライゼーションツール", "多言語コンテンツ", "トランスレーションオートメーション", "言語ローカライズ", "Google Translate API統合", "Deepl Translate API の統合", "シェブロテン.js", "レキサとパーサ", "構文木", "翻訳ワークフロー", "ユーゴープロジェクト", "コンテンツローカライゼーション", "言語サポート", "翻訳効率", "翻訳API", "ローカライゼーションのベストプラクティス", "翻訳品質管理", "翻訳テスト", "世界的な視聴者", "テキスト翻訳ソリューション", "翻訳プロセスの最適化", "じせきのコード", "けいび", "NPMパッケージ", "GitHubリポジトリ", "テキスト翻訳ツール", "開発者フレンドリーなローカライズ", "コンテンツリーチエンハンスメント"]
-cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.png"
+cover: "/img/cover/An_illustration_depicting_the_seamless_translation_of_Hugo.webp"
 coverAlt: "GlottaでHugoのテキストをシームレスに翻訳し、世界の言語をつなぐ様子を描いたイラストです。"
 coverCaption: ""
 ---

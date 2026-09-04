@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de top 5 cyberbeveiligingscertificeringen die u kunnen helpen uw carrière vooruit te helpen en uw kansen op een baan in het snelgroeiende gebied van cyberbeveiliging te vergroten."
 tags: ["Cyberbeveiliging", "Certificeringen", "CompTIA Beveiliging Plus", "CISSP", "Offensieve beveiliging OSCP", "Cisco CCNA", "(ISC2) CCSP", "IT Beveiliging", "Netwerkbeveiliging", "Cloudbeveiliging", "Professionele ontwikkeling", "Carrière", "Vaardigheden Validatie", "Informatiebeveiliging", "Ethisch hacken", "Penetratietesten", "Netwerkbeheer", "Cloud computing", "Beveiligingsbeheer", "Beoordeling van kwetsbaarheid"]
-cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Een afbeelding van een persoon die voor een computer staat met een superheldencape op zijn rug, als symbool voor de vaardigheden en kennis die kunnen worden opgedaan door het behalen van cyberbeveiligingscertificaten."
 coverCaption: ""
 ---

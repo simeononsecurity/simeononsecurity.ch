@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra en este artículo el poder de Docker en la computación en nube, ya que supera a las máquinas virtuales gracias a su sencillez, escalabilidad, seguridad y rentabilidad."
 tags: ["Docker", "Máquinas virtuales", "VMs", "Computación en nube", "Contenedores", "Simplicidad", "Escalabilidad", "Seguridad", "Relación coste-eficacia", "Dockerfile", "Construir, probar y desplegar", "Aislamiento", "Historial de seguridad", "Comparación de costes", "Artículo informativo"]
-cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.png"
+cover: "/img/cover/An_image_of_a_cargo_ship_shaped_like_a_blue_whale_carrying.webp"
 coverAlt: "Imagen de un carguero con forma de ballena azul que transporta varios contenedores Docker"
 coverCaption: ""
 ---

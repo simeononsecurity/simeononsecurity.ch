@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Protect yourself from online threats and ensure a safer online experience by developing secure browsing habits. Learn about the importance of secure browsing, essential habits to adopt, and how to safeguard your personal information."
 genre: ["Cybersecurity", "Online Safety", "Secure Browsing", "Internet Security", "Personal Data Protection", "Online Privacy", "Online Threats", "Cybercrime Prevention", "Identity Theft Prevention", "Internet Safety"]
 tags: ["secure browsing habits", "online threats", "cybersecurity", "online safety", "personal information protection", "online privacy", "identity theft prevention", "internet security", "cybercrime prevention", "secure web browsing", "online scams", "phishing scams", "malware protection", "ransomware protection", "social media security", "data security", "online privacy protection", "secure data storage", "password security", "two-factor authentication", "VPN", "encrypted browsing", "public Wi-Fi security", "online safety education", "cybersecurity awareness", "safe online habits", "online security culture", "community security", "online safety tips"]
-cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.png"
+cover: "/img/cover/developing-secure-browsing-habit-for-a-safer-online-experience.webp"
 coverAlt: "An illustrated depiction of browsing the internet with a padlock symbolizing secure browsing."  
 coverCaption: "Stay safe online and protect your personal information."
 ---

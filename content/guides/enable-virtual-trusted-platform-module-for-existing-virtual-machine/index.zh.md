@@ -6,7 +6,7 @@ draft: false
 description: "通过我们全面的分步指南，使用 vTPM 增强虚拟机安全性，提供平台验证和 BitLocker 加密支持。"
 genre: ["网络安全", "虚拟化", "虚拟软件", "vSphere", "安全", "可信平台模块", "vTPM", "访客操作系统", "加密", "平台认证"]
 tags: ["虚拟可信平台模块", "vTPM 指南", "增强虚拟机安全", "平台认证", "比特锁加密", "VMware vSphere", "虚拟化安全", "网络安全", "访客操作系统保护", "虚拟机硬件", "TPM 2.0", "安全启动", "密码操作", "虚拟机安全最佳实践", "vCenter 服务器", "ESXi 主机", "EFI 固件", "主要提供商", "VMware 文档", "Windows 服务器", "Windows 7", "Linux 操作系统", "安全虚拟机配置", "安全功能", "vSphere 客户端", "虚拟芯片", "数据保护", "篡改检测", "虚拟机完整性验证", "VMware 安全"]
-cover: "/img/cover/enhanced-vm-security.png"
+cover: "/img/cover/enhanced-vm-security.webp"
 coverAlt: "象征性插图显示了一个带有闪亮锁的虚拟机，代表通过 vTPM 增强的安全性。"
 coverCaption: "开启前所未有的虚拟机安全性！"
 ---

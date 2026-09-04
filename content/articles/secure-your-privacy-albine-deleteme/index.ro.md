@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți puterea lui Albine DeleteMe, un serviciu de confidențialitate a datelor care vă permite să vă protejați informațiile personale, asigurându-vă siguranța și liniștea online."
 genre: ["Confidențialitatea datelor", "Securitate online", "Protecția informațiilor personale", "Prevenirea furtului de identitate", "Managementul amprentei digitale", "Securitatea cibernetică", "Confidențialitatea pe Internet", "Ștergerea datelor", "Conformitatea GDPR", "CCPA"]
 tags: ["Albine DeleteMe", "Confidențialitatea datelor", "Securitate online", "Informații personale", "Prevenirea furtului de identitate", "Amprenta digitală", "Securitatea cibernetică", "Confidențialitatea pe Internet", "Ștergerea datelor", "Conformitatea GDPR", "CCPA", "Protecția datelor", "Încălcarea datelor", "Serviciul de confidențialitate", "Date sensibile", "Prezența online", "Regulamentul privind protecția datelor", "Monitorizarea datelor", "Protecția identității", "Criptarea datelor", "Încălcarea confidențialității", "Protejați datele personale", "Protejați confidențialitatea online", "Eliminarea securizată a datelor", "Prevenirea amenințărilor la adresa vieții private", "Atenuarea furtului de identitate", "Soluție de confidențialitate a datelor", "Managementul confidențialității online", "Măsuri de securitate a datelor", "Conformitatea cu reglementările privind confidențialitatea", "Protecția identității online"]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "O imagine în stil de desen animat a unei persoane înconjurate de scuturi de protecție, reprezentând confidențialitatea online și protecția datelor."
 coverCaption: "Protejați-vă datele, adoptați confidențialitatea."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "探索区块链技术在加密货币之外的各种应用，彻底改变金融、供应链管理、医疗保健、能源等领域。"
 genre: ["区块链技术", "加密货币", "财务", "供应链管理", "医疗保健", "能源", "公用设施", "分散式融资", "智能合约", "跨境支付"]
 tags: ["区块链", "加密货币", "金融", "供应链管理", "医护", "能源", "水电", "分散式融资", "智能合约", "跨境支付", "消息来源", "溯源性", "物流", "假冒商品", "可持续供应链", "安全的患者数据管理", "药物溯源", "临床试验", "远程医疗", "远程监控", "分散式能源网", "点对点能源交易", "智能计量", "账单", "公共区块链", "私有区块链", "透明度", "安全", "不变性"]
-cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.png"
+cover: "/img/cover/An_image_depicting_interconnected_blocks_forming_a_chain_re.webp"
 coverAlt: "代表区块链技术的图像，描绘了相互连接的区块形成的链条。"
 coverCaption: "释放区块链技术的潜力"
 ---

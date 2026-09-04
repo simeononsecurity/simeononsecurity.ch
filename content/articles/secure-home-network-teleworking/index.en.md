@@ -6,7 +6,7 @@ draft: false
 description: "Telework securely and protect your data. Follow these steps to secure your home wireless network for a safe remote work experience."
 genre: ["Teleworking", "Network Security", "Home Wireless", "Remote Work", "Cybersecurity", "Work from Home", "Internet Safety", "Data Protection", "Digital Security", "Online Privacy"]
 tags: ["Telework", "Network Security", "Home Wireless", "Remote Work", "Cybersecurity", "Data Protection", "Online Privacy", "Internet Safety", "Telecommuting", "Telecommuter", "Work from Home", "Secure Network", "VPN", "Wireless Encryption", "Home Office", "Firmware Update", "Internet Connection", "Router Settings", "Antivirus Software", "Firewall", "Intrusion Detection", "MAC Address Filtering", "Phishing Awareness", "Strong Passwords", "Virtual Private Network", "Data Breach", "Malware Protection", "Digital Safety", "Online Work"]
-cover: "/img/cover/secure-home-network-cartoon.png"
+cover: "/img/cover/secure-home-network-cartoon.webp"
 coverAlt: "A cartoon illustration of a person working securely from home with a shield protecting their network."
 coverCaption: "Work Safely, Shield Your Network"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les avantages et les risques liés à l'utilisation de l'authentification biométrique pour le contrôle d'accès, y compris la sécurité renforcée, les problèmes de confidentialité et les meilleures pratiques de mise en œuvre."
 tags: ["authentification biométrique", "le contrôle d'accès", "sécurité", "vie privée", "protection des données", "GDPR", "HIPAA", "faux positifs", "faux négatifs", "authentification multifactorielle", "test du système", "politiques de sécurité", "efficiency", "commodité", "identité unique", "des flux de travail rationalisés", "vulnérabilités", "atténuation des risques", "expérience utilisateur", "cybersécurité"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Illustration animée de la main d'une personne utilisant un lecteur d'empreintes digitales pour accéder à une zone sécurisée, le visage et l'iris de la personne étant également visibles en arrière-plan."
 coverCaption: ""
 ---

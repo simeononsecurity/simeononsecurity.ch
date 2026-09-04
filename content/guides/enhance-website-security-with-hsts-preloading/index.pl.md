@@ -4,7 +4,7 @@ date: 2023-08-20
 toc: true
 draft: false
 description: "Dowiedz się, jak zwiększyć bezpieczeństwo witryny i zaufanie użytkowników, wstępnie ładując ustawienia HSTS w przeglądarkach Chrome i Firefox. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne wdrożenie."
-cover: "/img/cover/enhanced-website-security.png"
+cover: "/img/cover/enhanced-website-security.webp"
 coverAlt: "Kreskówkowa ilustracja strony internetowej zabezpieczonej kłódką, reprezentująca zwiększone bezpieczeństwo i ochronę przed cyberzagrożeniami."
 coverCaption: "Wzmocnij ochronę swojej witryny, wykorzystaj wstępne ładowanie HSTS."
 ---

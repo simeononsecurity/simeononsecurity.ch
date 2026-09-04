@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a proteger su información personal eliminándola de directorios en línea y corredores de datos con esta completa guía."
 tags: ["eliminación de datos personales", "directorios en línea", "intermediarios de datos", "protección de la intimidad", "guía completa", "eliminar información personal", "privacidad en línea", "privacidad en internet", "privacidad en línea", "intermediarios de datos", "eliminar información", "IntelTécnicas", "SimeonOnSecurity", "seguridad en línea", "protección de la intimidad", "proteger la privacidad en línea"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Imagen de una pantalla de ordenador con una X roja atravesando una lista de información personal, como nombre, dirección y número de teléfono, que simboliza la eliminación de datos personales de los directorios en línea."
 coverCaption: ""
 ---

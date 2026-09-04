@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment utiliser efficacement Nmap pour l'analyse du réseau, l'analyse des ports, la détection des services et l'identification des systèmes d'exploitation afin d'évaluer la sécurité du réseau."
 tags: ["nmap", "analyse du réseau", "évaluation de la sécurité", "balayage des ports", "détection des services", "détection du système d'exploitation", "Moteur de script Nmap", "piratage éthique", "sécurité des réseaux", "l'infrastructure de réseau", "détection des vulnérabilités", "ping scan", "Analyse TCP SYN", "permission", "légalité", "impact sur le réseau", "analyse ciblée", "protection des données", "CFAA", "GDPR", "cartographie du réseau", "network reconnaissance", "outils de sécurité du réseau", "cybersécurité", "outil open-source", "outil en ligne de commande", "découverte de l'hôte", "intelligence du réseau", "la collecte d'informations", "vulnérabilités du réseau", "environnement de réseau sécurisé"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Concept de sécurité des réseaux avec les outils de balayage Nmap dans un style animé en 3D."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over de voordelen en risico's van het gebruik van biometrische authenticatie voor toegangscontrole, waaronder verbeterde beveiliging, privacyproblemen en beste praktijken voor implementatie."
 tags: ["biometrische authenticatie", "toegangscontrole", "beveiliging", "privacy", "gegevensbescherming", "GDPR", "HIPAA", "valse positieven", "valse negatieven", "multi-factor authenticatie", "systeemtests", "veiligheidsbeleid", "efficiëntie", "gemak", "unieke identiteit", "gestroomlijnde workflows", "kwetsbaarheden", "risicobeperking", "gebruikerservaring", "cyberbeveiliging"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Een geanimeerde illustratie van de hand van een persoon die een vingerafdrukscanner gebruikt om toegang te krijgen tot een beveiligde zone, met het gezicht en de iris van een persoon ook zichtbaar op de achtergrond."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explore the essential steps for businesses to master incident response planning, ensuring a swift and resilient defense against cyber threats - discover key strategies and help your team to safeguard against evolving security challenges."
 genre: ["Cybersecurity", "Incident Response", "Business Security", "Cyber Threats", "Risk Management", "Security Planning", "Data Protection", "IT Security", "Digital Resilience", "Crisis Management"]
 tags: ["Cybersecurity", "Incident Response", "Business Security", "Risk Mitigation", "Security Planning", "Data Protection", "Threat Detection", "Crisis Preparedness", "Digital Resilience", "Cyber Threats", "Security Strategies", "IT Security", "Security Protocols", "Business Continuity", "Emergency Response", "Risk Assessment", "Incident Handling", "Data Breach Prevention", "Security Awareness", "Security Best Practices", "Proactive Defense", "Security Measures", "Cyber Defense", "Risk Management", "Security Solutions", "Security Resilience", "Cyber Preparedness", "Security Framework", "Security Guidance", "IT Resilience"]
-cover: "/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.jpeg"
+cover: "/img/cover/incident-response-planning_-a-step-by-step-guide-for-businesses.webp"
 ---
 
 Incident Response Planning: A Step-by-Step Guide for Businesses

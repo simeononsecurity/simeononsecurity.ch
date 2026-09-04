@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Apprenez à installer Bitping, une solution puissante de surveillance et d'optimisation des performances des sites web, pour un retour d'information en temps réel sur les temps d'arrêt et les performances dégradées."
 tags: ["Bitping", "surveillance du site web", "l'optimisation des performances", "suivi en temps réel", "temps d'arrêt", "dégradation des performances", "tests de résistance", "l'étalonnage des performances", "reroutage dynamique", "reprovisionnement", "intelligence du réseau", "webhooks", "Solana", "nœud", "tests de réseaux légers", "paiements", "revenus", "performance du site web", "analyse du site web", "surveillance du web", "le contrôle des performances", "surveillance du temps de fonctionnement", "suivi des utilisateurs réels", "test du réseau", "retour d'information sur le site web", "alertes sur le site web", "couche d'intelligence du réseau", "solution de surveillance", "performance du web", "les mesures de performance"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Illustration animée d'un tableau de bord des performances d'un site web avec des mesures et des alertes en temps réel."
 coverCaption: ""
 ---

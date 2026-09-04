@@ -6,7 +6,7 @@ draft: false
 description: "Bądź na bieżąco z ewoluującym krajobrazem cyberbezpieczeństwa, pojawiającymi się zagrożeniami i skutecznymi środkami zaradczymi w celu ochrony przed cyberatakami."
 genre: ["Zagrożenia dla cyberbezpieczeństwa", "Pojawiające się trendy", "Środki zaradcze", "Krajobraz cyberzagrożeń", "Zagrożenia technologiczne", "Naruszenia ochrony danych", "Ataki ransomware", "Techniki phishingu", "Luki w zabezpieczeniach IoT", "Zagrożenia wewnętrzne"]
 tags: ["zagrożenia cyberbezpieczeństwa", "pojawiające się trendy", "środki zaradcze", "krajobraz cyberzagrożeń", "ryzyko technologiczne", "naruszenia danych", "ataki ransomware", "techniki phishingu", "Luki w zabezpieczeniach IoT", "zagrożenia wewnętrzne", "cyberataki", "świadomość cyberbezpieczeństwa", "protokoły bezpieczeństwa", "bezpieczeństwo sieci", "ochrona danych", "sztuczna inteligencja", "uczenie maszynowe", "wykrywanie i reagowanie na punkty końcowe", "oceny bezpieczeństwa", "udostępnianie informacji", "szkolenie pracowników", "audyty bezpieczeństwa", "cyberataki państw narodowych", "Sztuczna inteligencja w cyberbezpieczeństwie", "najlepsze praktyki cyberbezpieczeństwa", "kultura bezpieczeństwa", "regulacja rządowa", "odporność cybernetyczna", "obliczenia kwantowe", "technologia blockchain"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Tarcza z symbolem kłódki reprezentującym cyberbezpieczeństwo, otoczona połączonymi urządzeniami i kodem binarnym"
 coverCaption: "Ochrona przed cyberzagrożeniami dzięki odpornej tarczy cyberbezpieczeństwa."
 ---

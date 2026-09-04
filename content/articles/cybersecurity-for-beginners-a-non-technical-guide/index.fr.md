@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Ce guide complet présente les principes fondamentaux de la cybersécurité et des conseils pratiques pour protéger votre vie numérique contre les cybermenaces."
 genre: ["Cybersécurité", "Sécurité en ligne", "Sécurité numérique", "Cybermenaces", "Internet Privacy", "Protection des données", "Sécurité de l'information", "Technologie", "Cyberdéfense", "Sensibilisation au cyberespace"]
 tags: ["cybersécurité", "sécurité en ligne", "sécurité numérique", "cybermenaces", "internet privacy", "protection des données", "la sécurité de l'information", "technologie", "cyberdéfense", "cyber sensibilisation", "les bases de la cybersécurité", "vie numérique", "cyberattaques", "protection en ligne", "la sécurité des données", "sécurité informatique", "sécurité des réseaux", "vie privée en ligne", "sécurité du mot de passe", "attaques par hameçonnage", "protection contre les logiciels malveillants", "conseils en matière de cybersécurité", "cyber hygiène", "mesures de cybersécurité", "pratiques en matière de cybersécurité", "paysage des cybermenaces", "guide de la cybersécurité", "les fondamentaux de la cybersécurité", "violations de données", "la cybersécurité pour les débutants", "Conseils de sécurité en ligne", "sensibilisation à la cybersécurité"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Illustration d'un bouclier protégeant un appareil numérique des cybermenaces"
 ---
 

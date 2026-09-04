@@ -6,7 +6,7 @@ draft: false
 description: "Learn about VLANs, port configurations, security, and other essential features and configurations of Ethernet switches in this comprehensive guide for the CompTIA Network+ Certification Exam."
 genre: ["Networking", "CompTIA Network Plus", "Ethernet Switching", "Network Infrastructure", "IT Certifications", "Network Administration", "Data Transmission", "Network Security", "Switch Configuration", "Voice VLANs"]
 tags: ["Ethernet switches", "VLANs", "Voice VLANs", "port configurations", "tagging", "aggregation", "port security", "mirroring", "jumbo frames", "network administrators", "network infrastructure", "CompTIA Network Plus Certification Exam", "network performance", "network management", "security breaches", "voice traffic", "QoS parameters", "access ports", "trunk ports", "hybrid ports", "EtherChannel", "VLAN tagging", "link aggregation", "port security", "port mirroring", "jumbo frames", "network segmentation", "network troubleshooting", "performance analysis", "network integrity"]
-cover: "/img/cover/An_image_depicting_Ethernet_switches_and_netwo.png"
+cover: "/img/cover/An_image_depicting_Ethernet_switches_and_netwo.webp"
 coverAlt: "An image depicting Ethernet switches and network connections with various VLANs and ports configurations."
 coverCaption: "Building Secure and Efficient Networks with Ethernet Switching"
 ---

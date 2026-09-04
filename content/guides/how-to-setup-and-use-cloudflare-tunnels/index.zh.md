@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "了解如何设置 Cloudflare 通道，以简化和保护网络流量，提高性能和安全性。"
 tags: ["Cloudflare 隧道", "网络安全", "网站性能", "代理服务器", "网络流量", "网络配置", "Ubuntu 服务器", "Cloudflare 账户", "认证", "隧道创建", "交通路由", "DNS 记录", "安全连接", "网站托管", "代理服务", "网络保护", "性能优化", "Cloudflare 集成", "服务器配置", "流量加密", "网络流量管理", "安全虚拟主机", "网站安全", "Ubuntu 设置", "隧道技术", "Cloudflare 服务", "网络性能", "网络安全", "服务器安全", "交通管理", "Cloudflare 代理服务器"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "插图显示了一条连接本地服务器和 Cloudflare 徽标的网络隧道，象征着安全、精简的网络流量。"
 coverCaption: ""
 ---

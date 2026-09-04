@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Entdecken Sie die besten Linux-Distributionen für Datenschutz und Sicherheit, damit Ihre Daten geschützt bleiben und Ihre Online-Aktivitäten sicher sind."
 tags: ["Linux-Distros", "Privatsphäre und Sicherheit", "Tails", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Datenschutz Remix", "OpenBSD", "datenschutz", "sichere Datenverarbeitung", "anonymes Surfen", "Virtualisierung", "Sicherheitsprüfung", "forensische Analyse", "Penetrationstests", "Verschlüsselungsprogramme", "sichere Löschung", "Anonymität", "Cybersicherheit", "Korrektheit des Codes", "Online-Sicherheit", "Schutz der Benutzerdaten", "Vertraulichkeit", "Datenwiederherstellung", "Onlinebanking", "Online-Datenschutz", "sichere Umgebung", "sicheres Surfen", "Tor-Netzwerk", "Sicherheitsmaßnahmen", "standardmäßig sicher"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Das Bild zeigt ein Schild, das einen Computer schützt und die Privatsphäre und Sicherheit in der digitalen Welt symbolisiert."
 coverCaption: ""
 ---

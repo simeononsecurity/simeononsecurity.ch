@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Het belang van beveiligingsrubriceringsgidsen voor de bescherming van gerubriceerde informatie en de naleving van de regelgeving onderzoeken."
 tags: ["gidsen voor beveiligingsrubricering", "informatiebeveiliging", "gerubriceerde informatie", "overheidsvoorschriften", "risicobeperking", "toegangscontrole", "informatiebeveiliging", "markeringsprocedures", "hanteringsprocedures", "nationale veiligheid", "compliance", "bedreigingen van binnenuit", "informatie-uitwisseling", "intellectueel eigendom", "besluitvorming", "wettelijke verplichtingen", "ethische verplichtingen", "internationale samenwerking", "ISO 27001", "NISPOM", "Executive Order 13526", "informatieclassificatie", "gegevensbescherming", "informatieverwerking", "gecontroleerde uitwisseling", "informatie vertrouwelijkheid", "informatie-integriteit", "informatiebeveiligingscultuur", "richtsnoeren voor informatiebeveiliging", "informatiebeveiligingspraktijken", "bewustzijn van informatiebeveiliging"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Een afbeelding van een vergrendelde documentenmap met een schild dat de bescherming van geheime informatie symboliseert."
 coverCaption: ""
 ---

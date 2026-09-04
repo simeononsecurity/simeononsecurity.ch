@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de verschillen tussen React, Angular en Vue.js om het juiste front-end framework te kiezen voor uw webontwikkelingsproject."
 tags: ["front-end kaders", "webontwikkeling", "Reageer", "Hoekig", "Vue.js", "vergelijking van kaders", "gebruikersinterfaces", "prestatie", "populariteit", "communautaire steun", "leercurve", "ecosysteem", "gebruikssituaties", "JavaScript", "virtuele DOM", "op componenten gebaseerde architectuur", "staatsbeheer", "schaalbaarheid", "documentatie", "gereedschap", "projecteisen", "React vs. Angular", "React vs Vue.js", "Angular vs Vue.js", "front-end ontwikkeling", "kaders voor webtoepassingen", "UI-ontwikkeling", "JavaScript kaders", "tools voor webontwikkeling", "webontwikkelingstechnologieën"]
-cover: "/img/cover/An_image_depicting_three_interconnected_gears.png"
+cover: "/img/cover/An_image_depicting_three_interconnected_gears.webp"
 coverAlt: "Een afbeelding van drie onderling verbonden tandwielen met de labels React, Angular en Vue.js"
 coverCaption: ""
 ---

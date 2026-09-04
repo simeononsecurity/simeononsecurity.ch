@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kracht van Metasploit, een open-source framework voor penetratietesten en exploitontwikkeling, met robuuste functies en een grote gemeenschap."
 tags: ["Metasploit", "penetratietesten", "ontwikkeling van exploitaties", "scannen op kwetsbaarheden", "het genereren van de nuttige lading", "post-operatie", "ethisch hacken", "cyberbeveiliging", "open-source", "veiligheidskader", "kwetsbaarheidsbeoordeling", "social engineering", "Metasploit Framework", "Metasploit Pro", "computerbeveiliging", "HD Moore", "Rapid7", "beveiligingsoplossingen", "overheidsvoorschriften", "Wet computerfraude en -misbruik", "CFAA", "veiligheidsbewustzijn", "hacking tools", "cyberbeveiligingsinstrumenten", "cyberbeveiligingsgemeenschap", "cyberbeveiligingsmiddelen", "cyberbeveiligingsprofessionals", "beste praktijken op het gebied van cyberbeveiliging", "cyberbeveiliging", "wetten inzake cyberbeveiliging"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Een geanimeerde illustratie van een hacker die een computer en een vergrootglas gebruikt om de verkenning en analyse van kwetsbaarheden en exploits in computersystemen weer te geven."
 coverCaption: ""
 ---

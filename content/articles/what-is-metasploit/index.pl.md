@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj moc Metasploit, frameworka open-source do testów penetracyjnych i tworzenia exploitów, z solidnymi funkcjami i dużą społecznością."
 tags: ["Metasploit", "testy penetracyjne", "rozwój exploitów", "skanowanie luk w zabezpieczeniach", "generowanie ładunku", "po operacji", "etyczne hakowanie", "cyberbezpieczeństwo", "open-source", "ramy bezpieczeństwa", "ocena podatności na zagrożenia", "inżynieria społeczna", "Metasploit Framework", "Metasploit Pro", "bezpieczeństwo komputerowe", "HD Moore", "Rapid7", "rozwiązania bezpieczeństwa", "regulacje rządowe", "Ustawa o oszustwach i nadużyciach komputerowych", "CFAA", "świadomość bezpieczeństwa", "narzędzia hakerskie", "narzędzia cyberbezpieczeństwa", "społeczność cyberbezpieczeństwa", "zasoby cyberbezpieczeństwa", "specjaliści ds. cyberbezpieczeństwa", "najlepsze praktyki cyberbezpieczeństwa", "zgodność z cyberbezpieczeństwem", "przepisy dotyczące cyberbezpieczeństwa"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "Animowana ilustracja przedstawiająca hakera korzystającego z komputera i szkła powiększającego w celu przedstawienia eksploracji i analizy luk i exploitów w systemach komputerowych."
 coverCaption: ""
 ---

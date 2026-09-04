@@ -87,7 +87,7 @@ ______
 
 Flock摄像头捕获的不仅仅是车牌号码。它们会记录每辆经过车辆的品牌、型号、颜色、车身类型和显著特征。公司将其称为车辆"指纹"。这意味着您的每次出行都会被记录在案，即使您什么都没做错。
 
-{{< figure src="deflock-lpr-demo.png" alt="安装在电线杆上的Flock Safety ALPR摄像头，展示该技术如何捕获车牌" caption="典型的ALPR摄像头安装。图片来源：DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="安装在电线杆上的Flock Safety ALPR摄像头，展示该技术如何捕获车牌" caption="典型的ALPR摄像头安装。图片来源：DeFlock.org" link="https://deflock.org/" >}}
 
 ### ALPR技术的工作原理
 
@@ -200,7 +200,7 @@ ALPR监控的广泛部署引发了严重的**第四修正案关切**：
 
 最初作为**解决财产犯罪**的工具已大幅扩张。这些不是假设性风险，而是有据可查的规律。
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out运动标题图，展示ALPR摄像头拼贴" caption="ACLU的'Get The Flock Out'运动记录了ALPR系统被广泛滥用的情况。图片来源：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out运动标题图，展示ALPR摄像头拼贴" caption="ACLU的'Get The Flock Out'运动记录了ALPR系统被广泛滥用的情况。图片来源：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE与移民执法
 **ICE利用Flock在没有搜查令的情况下定位和追捕无证移民。**该平台的全国网络为联邦移民执法机构提供了一个跨地区追踪个人的工具，完全无需个别化的合理怀疑。许多为防范财产犯罪而为Flock网络出资的社区发现，他们的摄像头已成为联邦移民执法行动的一部分。

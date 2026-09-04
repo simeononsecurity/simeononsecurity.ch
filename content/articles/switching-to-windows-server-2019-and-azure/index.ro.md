@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Acest articol analizează beneficiile actualizării la Server 2019 sau ale trecerii la Azure, inclusiv îmbunătățirea securității, performanței, integrării și asistenței, pentru a ajuta organizațiile să ia cea mai bună decizie pentru infrastructura lor IT."
 tags: ["Actualizarea la Server 2019", "Treceți la Azure", "Infrastructura IT", "Tehnologie de afaceri", "Îmbunătățiri de securitate", "Îmbunătățiri de performanță", "Integrare cu Azure", "Sprijin pe termen lung", "Scalabilitate", "Raportul cost-eficacitate", "Fiabilitate crescută", "Analiză avansată", "Abordare hibridă", "Infrastructură IT flexibilă și rezistentă"]
-cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.png"
+cover: "/img/cover/An_image_of_a_server_room_with_racks_of_servers_on_one_side.webp"
 coverAlt: "O imagine a unei camere de servere cu rafturi de servere pe o parte și un nor pe cealaltă parte, cu o persoană care stă în mijloc și le privește pe amândouă."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "了解如何使用 PowerCLI 有效审核 vCenter 的权限，确保虚拟基础架构的安全。"
 genre: ["vCenter 权限审计", "PowerCLI 自动化", "VMware 安全", "虚拟基础设施管理", "许可任务", "用户访问控制", "安全漏洞", "PowerShell 自动化", "vSphere 环境管理", "用户权限审查"]
 tags: ["vCentre", "PowerCLI", "审计权限", "vSphere", "虚拟软件", "虚拟基础设施", "PowerShell", "用户访问控制", "安全漏洞", "权限分配", "自动化", "PowerCLI cmdlets", "用户角色", "权限审查", "安全政策", "合规性", "审计报告", "数据保护", "GDPR", "HIPAA", "用户管理", "vCenter 用户", "安全最佳做法", "政府法规", "PowerCLI 安装", "vCenter 连接", "PowerCLI 脚本", "过程审计", "导出审计数据", "清除许可"]
-cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.png"
+cover: "/img/cover/An_illustration_depicting_a_shield_protecting_servers.webp"
 coverAlt: "图示：保护虚拟数据中心免受未经授权访问的防护罩。"
 coverCaption: "使用 PowerCLI 进行有效的权限审计，保护您的 vCenter。"
 ---

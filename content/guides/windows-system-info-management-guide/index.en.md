@@ -6,7 +6,7 @@ draft: false
 description: "Explore Windows System Info retrieval, service management, and shutdown techniques for efficient computer control."
 genre: ["Technology", "Computer Administration", "Windows OS", "System Information", "Service Management", "Shutdown Commands", "IT Management", "Cybersecurity", "Computer Maintenance", "Digital Operations"]
 tags: ["Retrieve system details", "Control services", "Smooth system shutdown", "Service manipulation", "Optimize computer performance", "Windows command-line tools", "Efficient IT management", "Manage hardware and software", "Windows OS insights", "Shutdown and restart techniques", "Windows system information", "Service management", "Shutdown commands", "Computer administration", "System management", "Efficient computing", "IT skills", "System resources", "Windows commands", "Digital operations"]
-cover: "/img/cover/windows-system-management-gears.png"
+cover: "/img/cover/windows-system-management-gears.webp"
 coverAlt: "Symbolic representation of a computer tower with gears inside, illustrating efficient Windows system management."
 coverCaption: "help Your System, Master Windows Management."
 ref: ["/guides/windows-command-line-master-file-management", "/guides/windows-text-analysis-command-line-tips", "/guides/windows-system-info-management-guide", "/guides/windows-networking-internet-tools-guide", "/guides/windows-batch-scripting-automating-tasks-guide", "/guides/windows-user-accounts-permissions-guide", "/guides/windows-registry-command-line-tips", "/guides/secure-data-robocopy-backup-restore-guide", "/guides/windows-command-line-powershell-wsl-guide"]

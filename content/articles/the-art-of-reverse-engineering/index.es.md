@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra el poder de la ingeniería inversa para descubrir fallos de seguridad en redes IoT y mejorar la seguridad general del sistema."
 tags: ["ingeniería inversa", "Seguridad IoT", "vulnerabilidades", "protocolos de seguridad", "análisis de dispositivos", "Redes IoT", "funcionamiento interno", "código malicioso", "medidas de encriptación", "medidas de autenticación", "cortafuegos", "actualización del software"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "Imagen de un profesional de la seguridad examinando el funcionamiento interno de un dispositivo IoT, con varios componentes de hardware y placas de circuitos visibles. "
 coverCaption: ""
 ---

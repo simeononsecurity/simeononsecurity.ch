@@ -6,7 +6,7 @@ draft: false
 description: "Stay informed about the evolving cybersecurity landscape, emerging threats, and effective countermeasures to protect against cyber attacks."
 genre: ["Cybersecurity Threats", "Emerging Trends", "Countermeasures", "Cyber Threat Landscape", "Technology Risks", "Data Breaches", "Ransomware Attacks", "Phishing Techniques", "IoT Vulnerabilities", "Insider Threats"]
 tags: ["cybersecurity threats", "emerging trends", "countermeasures", "cyber threat landscape", "technology risks", "data breaches", "ransomware attacks", "phishing techniques", "IoT vulnerabilities", "insider threats", "cyber attacks", "cybersecurity awareness", "security protocols", "network security", "data protection", "artificial intelligence", "machine learning", "endpoint detection and response", "security assessments", "information sharing", "employee training", "security audits", "nation-state cyber attacks", "AI in cybersecurity", "cybersecurity best practices", "security culture", "government regulation", "cyber resilience", "quantum computing", "blockchain technology"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "A shield with a lock symbol representing cybersecurity, surrounded by interconnected devices and binary code"
 coverCaption: "Defend against cyber threats with a resilient cybersecurity shield."
 ---

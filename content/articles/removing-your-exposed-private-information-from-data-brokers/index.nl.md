@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw persoonlijke gegevens kunt beschermen door ze uit online gidsen en gegevensmakelaars te verwijderen met deze uitgebreide gids."
 tags: ["verwijdering van persoonsgegevens", "online telefoonboeken", "gegevensmakelaars", "privacybescherming", "complete gids", "persoonlijke informatie verwijderen", "online privacy", "internetprivacy", "online privacy", "gegevensmakelaars", "informatie verwijderen", "IntelTechniques", "SimeonOnSecurity", "online beveiliging", "privacybescherming", "online privacy beschermen"]
-cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.png"
+cover: "/img/cover/An_image_of_a_computer_screen_with_a_red_X_through_a_list.webp"
 coverAlt: "Een afbeelding van een computerscherm met een rode X door een lijst met persoonlijke gegevens, zoals naam, adres en telefoonnummer, als symbool voor het verwijderen van persoonlijke gegevens uit onlinegidsen."
 coverCaption: ""
 ---

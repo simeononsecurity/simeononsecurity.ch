@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a mettere in sicurezza le vostre postazioni di lavoro e a proteggere le informazioni sensibili con questa guida completa basata sulle raccomandazioni del NIST per l'implementazione di forti controlli di accesso, l'aggiornamento del software, l'utilizzo di software antivirus, l'attivazione di una protezione firewall, l'implementazione della crittografia dei dati e il backup regolare dei dati."
 tags: ["Raccomandazioni del NIST", "sicurezza della postazione di lavoro", "sicurezza informatica", "crittografia dei dati", "protezione firewall", "software antivirus", "controlli di accesso", "informazioni sensibili", "attacchi informatici", "backup dei dati"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Un'immagine di una persona seduta alla propria postazione di lavoro con un lucchetto di sicurezza in primo piano, a indicare l'importanza di proteggere le postazioni di lavoro."
 coverCaption: ""
 ---

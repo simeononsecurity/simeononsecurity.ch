@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "La cybersécurité est un aspect essentiel des activités des entreprises modernes et nécessite une approche globale impliquant les systèmes, les protocoles et le personnel adéquats pour gérer efficacement les défenses contre les cyberattaques."
 tags: ["cybersécurité", "opérations commerciales", "sécurité des réseaux", "informations sensibles", "cyberattaques", "technologie", "logiciel", "professionnalisme", "conformité", "normes industrielles", "règlements", "meilleures pratiques", "priorité", "culture de la sécurité", "violations de données", "la propriété intellectuelle", "approche proactive", "faible priorité", "le manque de ressources", "formation", "l'engagement en faveur de la sécurité", "les responsables de la sécurité de l'information (RSSI)", "les systèmes de gestion de la sécurité de l'information (SGSI)", "formation et expérience", "menaces pour la sécurité", "100% de réussite aux audits de conformité", "règlements", "normes", "meilleures pratiques", "Série 800 du NIST", "jeu politique", "confiance", "honnêteté", "collaboration", "chemin de fer en papier", "la transparence", "responsabilité"]
-cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.png"
+cover: "/img/cover/An_image_of_a_group_of_cybersecurity_professionals.webp"
 coverAlt: "Image d'un groupe de professionnels de la cybersécurité dans une salle de réunion, travaillant ensemble pour garantir la sécurité des systèmes et des données de leur organisation."
 coverCaption: ""
 ---

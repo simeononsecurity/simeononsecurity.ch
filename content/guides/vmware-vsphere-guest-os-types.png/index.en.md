@@ -8,7 +8,7 @@ genre: ["Virtualization", "VMware vSphere", "Packer Builder", "Guest OS Types", 
 tags: ["VMware", "vSphere", "Packer Builder", "Guest OS Types", "Virtual Machines", "Automation", "Infrastructure-as-Code", "DevOps", "System Administration", "Cloud Computing",
 "VM Images", "Server Configuration", "Legacy OS", "Compatibility Testing", "64-bit OS", "Data Center", "Testing Purposes", "Windows OS", "Server OS", "Operating Systems",
 "Windows 7", "Windows 10", "Windows Server 2019", "Windows Server 2022", "Windows XP", "Windows Vista", "Windows 8", "Windows 9", "Windows Server", "MS-DOS"]
-cover: "/img/cover/vmware-vsphere-guest-os-types.png"
+cover: "/img/cover/vmware-vsphere-guest-os-types.webp"
 coverAlt: "An animated art-style depiction of a virtual data center with VMs running various OS versions."
 coverCaption: "Mastering VM Creation: Unleash the Power of guest os type Values."
 ---

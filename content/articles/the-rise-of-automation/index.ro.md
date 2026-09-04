@@ -6,7 +6,7 @@ draft: false
 description: "Explorați evoluția tehnologiei de automatizare, industriile care o adoptă și impactul acesteia asupra oportunităților de angajare."
 genre: ["Tehnologia de automatizare", "Revoluția industrială", "Progrese tehnologice", "Inteligența artificială", "Învățare automată", "Fabricarea", "Asistență medicală", "Transport", "Comerț cu amănuntul", "Agricultură"]
 tags: ["tehnologie de automatizare", "industrii", "oportunități de angajare", "evoluție", "inteligența artificială", "învățare automată", "de fabricație", "asistență medicală", "transport", "vehicule care se conduc singure", "vânzare cu amănuntul", "comerț electronic", "agricultură", "agricultură inteligentă", "impactul asupra pieței muncii", "schimbarea locului de muncă", "competențe tehnice", "perfecționare", "recalificare", "inițiative educaționale", "Programe STEM", "politici guvernamentale", "reglementări", "venitul universal de bază", "programe de reconversie profesională", "confidențialitatea datelor", "securitatea datelor", "decalajul digital", "considerații etice"]
-cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.png"
+cover: "/img/cover/An_animated_image_depicting_various_industries_and_technolo.webp"
 coverAlt: "O imagine animată care prezintă diverse industrii și tehnologii interconectate."
 coverCaption: "Îmbrățișați viitorul automatizat cu optimism și adaptabilitate."
 ---

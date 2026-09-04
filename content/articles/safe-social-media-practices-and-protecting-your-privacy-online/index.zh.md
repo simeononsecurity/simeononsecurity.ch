@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解安全社交媒体实践的基本技巧，以保护您的网络隐私，并了解 LinkedIn、Facebook、Twitter 和 Instagram 等流行平台的隐私设置。"
 tags: ["隐私", "在线隐私", "社交媒体", "安全做法", "隐私设置", "LinkedIn", "在 Facebook 上", "推特", "Instagram", "好友申请", "随机链接", "调查", "政府法规", "GDPR", "CCPA", "网络安全", "数据保护", "个人资料", "隐私泄露", "数字安全", "隐私风险", "隐私法", "隐私条例", "数据隐私", "在线安全", "隐私保护", "社交媒体隐私", "隐私提示", "在线隐私保护措施", "保护个人信息"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "一幅描绘使用社交媒体平台时保护个人信息的盾牌的图片。"
 coverCaption: ""
 ---

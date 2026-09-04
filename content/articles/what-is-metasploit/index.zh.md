@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Metasploit 的强大功能，它是用于渗透测试和漏洞利用开发的开源框架，具有强大的功能和庞大的社区。"
 tags: ["Metasploit", "渗透测试", "开发", "漏洞扫描", "载荷生成", "手术后", "道德黑客", "网络安全", "开放源代码", "安全框架", "脆弱性评估", "社会工程", "Metasploit 框架", "Metasploit Pro", "计算机安全", "高清摩尔", "快速7", "安全解决方案", "政府法规", "计算机欺诈和滥用法", "CFAA", "安全意识", "黑客工具", "网络安全工具", "网络安全界", "网络安全资源", "网络安全专业人员", "网络安全最佳做法", "网络安全合规", "网络安全法"]
-cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.png"
+cover: "/img/cover/An_animated_illustration_of_a_hacker_using_a_computer.webp"
 coverAlt: "一幅黑客使用计算机和放大镜的动画插图，表现了对计算机系统漏洞和利用的探索和分析。"
 coverCaption: ""
 ---

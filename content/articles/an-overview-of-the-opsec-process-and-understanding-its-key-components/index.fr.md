@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les éléments essentiels du processus OPSEC et apprenez à protéger efficacement les informations sensibles."
 tags: ["Processus OPSEC", "sécurité opérationnelle", "information protection", "les mesures de sécurité", "les réglementations gouvernementales", "informations essentielles", "évaluation de la menace", "évaluation de la vulnérabilité", "l'analyse des risques", "contre-mesures", "la sécurité de l'information", "protection des données", "confidentialité", "l'intégrité", "disponibilité", "cybersécurité", "informations classifiées", "conformité", "NISPOM", "HIPAA", "GDPR", "confidentialité des données", "la gestion des risques", "posture de sécurité", "les actifs informationnels", "contrôles de sécurité", "atténuation des risques", "politiques de sécurité", "sensibilisation à la sécurité", "prévention des violations de données", "classification des informations", "Parmi les éléments suivants, lesquels font partie du processus opsec ?"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "Image montrant un bouclier protégeant un dossier verrouillé, représentant la protection d'informations sensibles."
 coverCaption: ""
 ---

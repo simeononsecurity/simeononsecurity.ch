@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați care sunt modalitățile aprobate de NIST pentru a igieniza hard disk-urile, SSD-urile, unitățile flash USB, CD-urile, DVD-urile și discurile Blu-ray pentru a proteja datele sensibile de accesul neautorizat."
 tags: ["Metode aprobate de NIST", "Igienizarea mediilor amovibile", "Unități de hard disk", "SSD-uri", "Unități flash USB", "CD-uri", "DVD-uri", "Discuri Blu-ray", "Securitatea datelor", "Protecția datelor sensibile"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "O imagine a unei persoane care ține în mână o unitate flash USB cu un distrugător în fundal"
 coverCaption: ""
 ---

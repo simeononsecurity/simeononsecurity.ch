@@ -6,7 +6,7 @@ draft: false
 description: "Una guía completa sobre la metodología de solución de problemas de red, que incluye pasos, herramientas y mejores prácticas para resolver problemas de red de forma eficiente y eficaz."
 genre: ["Educación en TI", "Solución de problemas de red", "Certificación de redes", "Formación en TI", "Redes informáticas", "Competencias informáticas", "Conocimientos técnicos", "Profesionales de TI", "Conceptos de red", "Soporte de red"]
 tags: ["metodología de resolución de problemas de red", "problemas de red", "Profesionales informáticos", "Modelo OSI", "herramientas de red", "pasos para solucionar problemas", "rendimiento de la red", "Conocimientos informáticos", "resolución de problemas", "diagnóstico de redes", "documentar la resolución de problemas", "configuración de red", "colaboración entre usuarios", "normativa gubernamental", "normas del sector", "PCI DSS", "HIPAA", "GDPR", "documentación de la red", "mejora continua", "base de conocimientos de la red", "funcionalidad del sistema", "medidas preventivas", "optimización del rendimiento de la red", "herramientas de solución de problemas de red", "conectividad de red", "Curso de formación en TI", "proceso de solución de problemas de red", "técnicas de solución de problemas de red", "mejores prácticas de soporte de red", "guía de solución de problemas de red"]
-cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.png"
+cover: "/img/cover/An_illustration_depicting_a_network_engineer_u.webp"
 coverAlt: "Ilustración de un ingeniero de redes utilizando una lupa para analizar las conexiones de red y solucionar problemas."
 coverCaption: "Dé rienda suelta a su destreza en la resolución de problemas de red"
 ---

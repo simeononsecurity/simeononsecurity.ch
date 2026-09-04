@@ -6,7 +6,7 @@ date: 2023-06-14
 description: "Découvrez 10 conseils essentiels en matière de sécurité des e-mails pour protéger vos données contre les cybermenaces et les failles de sécurité."
 genre: ["Sécurité du courrier électronique", "Protection des données", "Cybersécurité", "Confidentialité en ligne", "Vol d'identité", "Sécurité du mot de passe", "Escroqueries par hameçonnage", "Sécurité sur Internet", "Sécurité numérique", "Formation des employés"]
 tags: ["Sécurité du courrier électronique", "protection des données", "cybersécurité", "vie privée en ligne", "vol d'identité", "perte financière", "cryptage des courriels", "escroqueries par hameçonnage", "sécurité du mot de passe", "Wi-Fi public", "VPN", "logiciel de messagerie", "authentification à deux facteurs", "courriels d'hameçonnage", "services de courrier électronique crypté", "correctifs de sécurité", "chargement automatique des images", "informations sensibles", "les réseaux Wi-Fi publics", "réseau privé virtuel", "les informations personnelles", "formation à la sécurité", "politiques de sécurité", "communication ouverte", "incidents de sécurité", "formation des employés", "cybermenaces", "sécurité des données", "vie privée numérique", "sécurité en ligne"]
-cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.png"
+cover: "/img/cover/ten-essential-email-security-tips-to-keep-your-data-safe.webp"
 coverAlt: "Illustration symbolique d'une enveloppe verrouillée entourée de couches de protection en forme de bouclier, représentant la sécurité du courrier électronique et la protection des données"
 ---
  **10 conseils essentiels pour la sécurité des courriels afin de préserver vos données**

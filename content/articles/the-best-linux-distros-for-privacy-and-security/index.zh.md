@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "发现最能保护隐私和安全的 Linux 发行版，确保你的数据得到保护，确保你的在线活动安全。"
 tags: ["Linux 发行版", "隐私和安全", "尾巴", "Qubes 操作系统", "Whonix", "鹦鹉安全操作系统", "乌班图隐私混音版", "OpenBSD", "数据保护", "安全计算", "匿名浏览", "虚拟化", "安全测试", "法医分析", "渗透测试", "加密工具", "安全删除", "匿名性", "网络安全", "代码正确性", "在线安全", "用户数据保护", "机密性", "数据恢复", "网上银行", "在线隐私", "安全的环境", "安全浏览", "Tor 网络", "安全措施", "默认安全"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "一幅描绘保护电脑的盾牌的图片，象征着数字世界的隐私和安全。"
 coverCaption: ""
 ---

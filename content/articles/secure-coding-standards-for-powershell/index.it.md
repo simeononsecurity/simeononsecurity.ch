@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le migliori pratiche per scrivere codice PowerShell sicuro per proteggere i vostri sistemi basati su Windows dalle vulnerabilità di sicurezza."
 tags: ["PowerShell", "Codifica sicura", "Sistemi basati su Windows", "Convalida dell'ingresso", "Librerie di crittografia", "Privilegio minimo", "Analizzatore di codice statico", "Protocolli di comunicazione sicuri", "Registrazione e monitoraggio", "Scansioni di vulnerabilità", "Istruzione", "Codice di iniezione", "Escalation dei privilegi", "Perdita di dati", "Ambiente di tempra", "Politiche di sicurezza", "Firewall", "Sistemi di rilevamento delle intrusioni", "Gestione delle vulnerabilità", "Sicurezza di rete"]
-cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "L'immagine di un supereroe in piedi davanti a un computer con il logo di Windows sullo schermo e uno scudo in mano, simboleggia l'importanza delle pratiche di codifica sicura per proteggere i sistemi basati su Windows."
 coverCaption: ""
 ---

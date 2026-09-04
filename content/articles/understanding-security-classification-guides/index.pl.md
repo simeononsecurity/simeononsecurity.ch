@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj znaczenie przewodników po klauzulach tajności dla ochrony informacji niejawnych i zapewnienia zgodności z przepisami."
 tags: ["przewodniki po klauzulach tajności", "ochrona informacji", "informacje niejawne", "regulacje rządowe", "ograniczanie ryzyka", "kontrola dostępu", "bezpieczeństwo informacji", "procedury znakowania", "procedury obsługi", "bezpieczeństwo narodowe", "zgodność", "zagrożenia wewnętrzne", "udostępnianie informacji", "własność intelektualna", "podejmowanie decyzji", "zobowiązania prawne", "obowiązki etyczne", "współpraca międzynarodowa", "ISO 27001", "NISPOM", "Rozporządzenie wykonawcze 13526", "klasyfikacja informacji", "ochrona danych", "obsługa informacji", "kontrolowane udostępnianie", "poufność informacji", "integralność informacji", "kultura bezpieczeństwa informacji", "wytyczne dotyczące bezpieczeństwa informacji", "praktyki w zakresie bezpieczeństwa informacji", "świadomość bezpieczeństwa informacji"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "Obraz przedstawiający zamknięty folder dokumentów z tarczą symbolizującą ochronę informacji niejawnych."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "探索用于人工智能开发的最佳 Visual Studio Code 扩展，包括 Python、Jupyter、Git、IntelliCode 和 Docker，以提高您的工作效率并简化您的工作流程。"
 genre: ["技术", "人工智能发展", "Visual Studio 代码", "代码编辑器", "人工智能工具", "生产率", "Python", "木星", "Git", "Docker"]
 tags: ["适用于人工智能的最佳 Visual Studio Code 扩展", "人工智能开发工具", "Visual Studio Code 的 Python 扩展", "Visual Studio Code 的 Jupyter 扩展", "Visual Studio Code 的 Git 扩展", "Visual Studio 代码的 IntelliCode 扩展", "Visual Studio Code 的 Docker 扩展", "人工智能开发生产力", "简化人工智能工作流程", "使用 Visual Studio Code 开发人工智能", "提高人工智能生产力", "人工智能编码工具", "针对人工智能的 VS 代码扩展", "人工智能开发环境", "用于人工智能开发的代码编辑器", "使用 Jupyter 进行人工智能实验", "人工智能项目的版本控制", "智能代码建议", "人工智能工作流程的容器化", "人工智能开发最佳实践", "人工智能编码效率", "人工智能开发合作", "使用 Docker 进行人工智能开发", "使用 Python 开发人工智能", "使用 Git 进行人工智能开发", "使用 IntelliCode 进行人工智能开发", "使用 Jupyter 开发人工智能"]
-cover: "/img/cover/An_image_depicting_a_computer_screen_with_Visu.png"
+cover: "/img/cover/An_image_depicting_a_computer_screen_with_Visu.webp"
 coverAlt: "一幅描绘计算机屏幕的图片，屏幕上有 Visual Studio Code 徽标和人工智能相关符号。"
 coverCaption: "使用最好的 Visual Studio Code 扩展为您的人工智能开发增添动力。"
 ---

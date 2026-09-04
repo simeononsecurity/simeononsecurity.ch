@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Ontdek de belangrijkste elementen van de Cybersecurity Awareness Training van het leger, naleving van regelgeving en best practices voor defensiepersoneel om cyberbedreigingen effectief te bestrijden."
 tags: ["Cyberbewustzijnstraining van het leger", "Defensiepersoneel", "Cyberbedreigingen", "Beste praktijken op het gebied van cyberbeveiliging", "Naleving", "Phishing-bewustzijn", "Veilige wachtwoordpraktijken", "Veilig internetten", "Beveiliging van mobiele apparaten", "Social engineering bewustzijn", "Gegevensbescherming", "Rapportage van incidenten", "Cyberbeveiligingsvoorschriften", "DoD-richtlijn 8570", "DoD-richtlijn 8140", "Phishing-aanvallen", "Veilig browsen", "Encryptie van mobiele apparaten", "Technieken voor social engineering", "Privacy van gegevens", "Reactie op incidenten", "Cyberveilige omgeving", "Bescherming van gevoelige informatie", "Cyberbeveiligingsvaardigheden", "Legersystemen", "Cyberdreiging beperken", "Onderwijs in cyberbeveiliging", "Informatiebeveiligingsbewustzijn", "Cyberbeveiligingsstandpunt defensie"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Een afbeelding van een schild met een hangslot dat de verdediging tegen cyberbeveiliging en bescherming tegen cyberbedreigingen symboliseert."
 coverCaption: "De digitale vesting bewaken: De verdediging van de cyberveiligheid van het leger versterken"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Enhance on-the-go computing security with laptop privacy screens, webcam covers, and portable encryption devices. Stay secure and productive!"
 genre: ["Technology", "Cybersecurity", "Privacy", "Remote Work", "Mobile Computing", "Digital Security", "Productivity", "Online Privacy", "Data Protection", "Tech Accessories"]
 Tags: ["Laptop privacy screen", "Webcam cover", "Portable encryption device", "Mobile security", "Remote work", "Data protection", "Cybersecurity", "Digital privacy", "Online privacy", "Privacy tools", "Security accessories", "Tech gadgets", "Productivity", "Secure computing", "Device security", "Visual hacking prevention", "Webcam security", "Data encryption", "Privacy solutions", "Digital safety", "Work on the go", "Data security", "Mobile privacy", "Personal data protection", "Confidentiality", "Secure remote work", "Data privacy", "Information security", "Data breach prevention", "Mobile device protection"]
-cover: "/img/cover/mobile-security-illustration.png"
+cover: "/img/cover/mobile-security-illustration.webp"
 coverAlt: "A symbolic illustration of a laptop screen shielded by a privacy screen, with a webcam cover in place and a padlock symbolizing encryption."
 coverCaption: "Secure Your Digital Realm, Anywhere You Go."
 ---

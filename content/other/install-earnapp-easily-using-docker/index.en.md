@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Discover how to monetize your idle devices by sharing your internet and earning rewards with Earn App."
 tags: ["earn app", "monetize devices", "share internet", "earn rewards", "passive income", "device resources", "VPN service", "residential IP", "idle devices", "make money", "internet sharing", "earn app installation", "docker installation", "docker container", "earn app tutorial", "earn app website", "installation instructions", "earn app account", "non-docker version", "UUID", "install docker", "docker container installation", "video tutorial", "earn app references", "earn app website link", "earn app installation instructions"]
-cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.png"
+cover: "/img/cover/An_illustration_showing_a_smartphone_with_money_flowing_out.webp"
 coverAlt: "An illustration showing a smartphone with money flowing out of it, representing the concept of earning rewards by sharing internet resources through the Earn App."
 coverCaption: "Monetize Your Idle Devices with Earn App"
 ---

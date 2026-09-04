@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați componentele critice ale procesului OPSEC și învățați cum să protejați eficient informațiile sensibile."
 tags: ["Procesul OPSEC", "securitate operațională", "protecția informațiilor", "măsuri de securitate", "reglementări guvernamentale", "informații critice", "evaluarea amenințărilor", "evaluarea vulnerabilității", "analiza riscurilor", "contramăsuri", "securitatea informațiilor", "protecția datelor", "confidențialitate", "integritate", "disponibilitate", "securitate cibernetică", "informații clasificate", "conformitate", "NISPOM", "HIPAA", "GDPR", "confidențialitatea datelor", "gestionarea riscurilor", "postura de securitate", "active informaționale", "controale de securitate", "atenuarea riscurilor", "politici de securitate", "conștientizarea securității", "prevenirea încălcării securității datelor", "clasificarea informațiilor", "care dintre următoarele sunt părți ale procesului opsec"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "O imagine care arată un scut care protejează un dosar blocat, reprezentând protecția informațiilor sensibile."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți puterea ingineriei inverse pentru a descoperi defectele de securitate ale rețelei IoT și pentru a îmbunătăți securitatea generală a sistemului."
 tags: ["inginerie inversă", "Securitatea IoT", "vulnerabilități", "protocoale de securitate", "analiza dispozitivului", "Rețele IoT", "mecanismele interne", "cod malițios", "măsuri de criptare", "măsuri de autentificare", "firewall-uri", "actualizare software"]
-cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.png"
+cover: "/img/cover/An_image_of_a_security_professional_examining_the_inner_workings.webp"
 coverAlt: "O imagine a unui profesionist în domeniul securității care examinează funcționarea internă a unui dispozitiv IoT, cu diverse componente hardware și circuite vizibile. "
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las diferencias clave entre las bases de datos SQL y NoSQL y tome una decisión informada sobre el mejor sistema de gestión de bases de datos para sus necesidades."
 tags: ["sistema de gestión de bases de datos", "SQL frente a NoSQL", "Bases de datos SQL", "Bases de datos NoSQL", "Conformidad con ACID", "modelo de datos", "escalabilidad", "lenguaje de consulta", "rendimiento", "evolución del esquema", "datos estructurados", "datos no estructurados", "integridad de los datos", "escalabilidad horizontal", "Lenguaje de consulta SQL", "MongoDB", "bases de datos de documentos", "almacenes de valores clave", "columnar databases", "bases de datos gráficas", "gestión de datos", "estructura de datos", "consultas analíticas", "modelización de datos", "esquemas flexibles", "alto rendimiento de lectura", "alto rendimiento de escritura", "operaciones de unión complejas", "desarrollo ágil"]
-cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.png"
+cover: "/img/cover/An_image_depicting_a_puzzle_piece_representing_data.webp"
 coverAlt: "Imagen de una pieza de puzzle que representa la introducción de datos en una base de datos y simboliza el proceso de toma de decisiones para elegir el sistema de gestión de bases de datos adecuado."
 coverCaption: ""
 ---

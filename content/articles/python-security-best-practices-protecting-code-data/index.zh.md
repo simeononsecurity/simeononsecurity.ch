@@ -6,7 +6,7 @@ draft: false
 description: "学习基本的 Python 安全最佳实践，保护代码和数据免受潜在威胁，确保数据保护、系统完整性和建立信任。"
 genre: ["Python 安全", "代码安全", "数据保护", "软件开发", "网络安全", "安全编码", "网络开发", "数据隐私", "应用安全", "信息技术安全"]
 tags: ["python 安全", "最佳做法", "代码安全", "数据保护", "系统完整性", "安全编码", "数据隐私", "应用安全", "网络安全", "网站开发", "软件开发", "Python 编程", "安全编程", "数据加密", "基于角色的访问控制", "安全密码处理", "输入验证", "防止 SQL 注入", "数据库安全", "依赖性管理", "记录和监控", "开发人员培训", "python 解释器", "python 安全文档", "AES 加密", "TLS 加密", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "保护 Python 代码和数据的盾牌插图，象征着 Python 安全最佳实践。"
 coverCaption: "使用这些最佳实践保护您的 Python 代码和数据。"
 ---

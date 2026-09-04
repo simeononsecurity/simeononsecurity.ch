@@ -6,7 +6,7 @@ draft: false
 description: "Explore the enduring impact of dial-up internet, its operation, and nostalgic significance in the digital age."
 genre: ["Digital History", "Internet Technologies", "Tech Evolution", "Connectivity Insights", "Nostalgic Tech", "Rural Internet Access", "Historical Impacts", "Technology Trends", "Digital Infrastructure", "Tech Cultural Impact"]
 tags: ["DialUpInternet", "ModemTechnology", "DigitalEvolution", "LegacyOfDialUp", "InternetAccess", "TechNostalgia", "DialUpSounds", "TechLegacy", "RuralConnectivity", "DialUpUsers", "InternetSpeedExpectations", "PopCultureImpact", "TechLessonsLearned", "InternetProviders", "ConnectionTechnologies", "HistoricInternet", "DialUpModems", "EmergenceOfBroadband", "OnlineAccessibility", "InternetInCulture", "DialUpLimitations", "IconicInternetSounds", "DigitalRevolution", "InternetSpeeds", "ModemConnectionProcess", "DialUpVsBroadband", "TechTransition", "CyberConnection", "BroadbandImpact", "TechInRuralAreas"]
-cover: "/img/cover/modem-magic_-how-dial-up-internet-works-and-its-legacy-today.jpeg"
+cover: "/img/cover/modem-magic_-how-dial-up-internet-works-and-its-legacy-today.webp"
 ---
 
 Modem Magic: How Dial-Up Internet Works and Its Legacy Today

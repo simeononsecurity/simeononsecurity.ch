@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Poznaj podstawy cyberbezpieczeństwa i praktyczne wskazówki dotyczące ochrony swojego cyfrowego życia przed cyberzagrożeniami w tym kompleksowym przewodniku."
 genre: ["Cyberbezpieczeństwo", "Bezpieczeństwo online", "Bezpieczeństwo cyfrowe", "Zagrożenia cybernetyczne", "Prywatność w Internecie", "Ochrona danych", "Bezpieczeństwo informacji", "Technologia", "Cyberobrona", "Świadomość cybernetyczna"]
 tags: ["cyberbezpieczeństwo", "bezpieczeństwo online", "bezpieczeństwo cyfrowe", "cyberzagrożenia", "prywatność w internecie", "ochrona danych", "bezpieczeństwo informacji", "technologia", "cyberobrona", "świadomość cybernetyczna", "podstawy cyberbezpieczeństwa", "cyfrowe życie", "cyberataki", "ochrona online", "bezpieczeństwo danych", "bezpieczeństwo komputerowe", "bezpieczeństwo sieci", "prywatność online", "bezpieczeństwo hasła", "ataki phishingowe", "ochrona przed złośliwym oprogramowaniem", "wskazówki dotyczące cyberbezpieczeństwa", "cyberhigiena", "środki cyberbezpieczeństwa", "praktyki w zakresie cyberbezpieczeństwa", "krajobraz cyberzagrożeń", "przewodnik po cyberbezpieczeństwie", "podstawy cyberbezpieczeństwa", "naruszenia danych", "Cyberbezpieczeństwo dla początkujących", "Wskazówki dotyczące bezpieczeństwa online", "świadomość cyberbezpieczeństwa"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Rysunkowa ilustracja tarczy chroniącej urządzenie cyfrowe przed cyberzagrożeniami"
 ---
 

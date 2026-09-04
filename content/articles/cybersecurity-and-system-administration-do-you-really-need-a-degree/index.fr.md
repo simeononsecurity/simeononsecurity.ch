@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cet article examine les avantages et les inconvénients de l'obtention d'un diplôme dans les domaines de la cybersécurité et de l'administration des systèmes, y compris les possibilités d'emploi, les certifications, les délais et les coûts."
 tags: ["cybersécurité", "l'administration du système", "degré", "certifications", "l'avancement de la carrière", "potentiel salarial", "le temps et le coût", "emplois publics", "autodidacte", "formation en ligne", "Certifications CompTIA"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "Image d'une personne assise à un bureau, un ordinateur devant elle, entourée de livres, de ressources en ligne et de documents de certification, symbolisant les différentes voies d'acquisition de connaissances et d'expertise en matière de cybersécurité et d'administration de systèmes. "
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Esplorate il mondo delle tecnologie e dei concetti di routing, dai protocolli di routing dinamico come RIP, OSPF, EIGRP e BGP ai protocolli di routing a stato di collegamento, a vettore di distanza e ibridi, nonché la configurazione del routing statico e delle rotte predefinite."
 genre: ["Tecnologia", "Collegamento in rete", "Instradamento", "Protocolli di rete", "Gestione della rete", "Instradamento dinamico", "Instradamento statico", "Gestione della larghezza di banda", "Qualità del servizio", "Dispositivi di rete"]
 tags: ["tecnologie di routing", "protocolli di routing dinamico", "RIP", "OSPF", "EIGRP", "BGP", "stato del collegamento", "vettore distanza", "protocolli di routing ibridi", "instradamento statico", "percorsi predefiniti", "distanza amministrativa", "percorso esterno", "instradamento interno", "tempo di vivere", "Gestione della larghezza di banda", "Modellamento del traffico", "qualità del servizio", "dispositivi di rete", "router", "interruttori", "firewall", "bilanciatori di carico", "punti di accesso", "ottimizzazione della rete", "prestazioni della rete", "sicurezza della rete", "architettura di rete", "traffico di rete"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Un'illustrazione di dispositivi di rete interconnessi con dati che scorrono tra loro."
 coverCaption: "Navigare sull'autostrada digitale: Ottimizzare l'instradamento della rete per ottenere le massime prestazioni"
 ---

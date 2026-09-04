@@ -6,7 +6,7 @@ draft: false
 description: "Descubra las 5 habilidades clave que todo director de sistemas de información debe tener para triunfar en el mundo digital actual."
 genre: ["Tecnología", "Empresas", "Gestión", "TI", "Desarrollo profesional", "Transformación digital", "Análisis de datos", "Computación en nube", "Gestión de proyectos", "Liderazgo"]
 tags: ["sistemas de información", "director", "MIS", "competencias técnicas", "capacidad de análisis", "dotes de liderazgo", "competencias en gestión de proyectos", "habilidades comunicativas", "computación en nube", "análisis de datos", "resolución de problemas", "pensamiento crítico", "toma de decisiones", "gestión de equipos", "colaboración", "planificación del proyecto", "gestión de recursos", "comunicación", "tecnología", "procesos empresariales", "transformación digital", "decisiones basadas en datos", "plataformas en la nube", "arquitectura del sistema", "gestión de bases de datos", "lenguajes de programación", "Conocimientos informáticos", "desarrollo profesional"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Caricatura de un director de sistemas de información supervisando una red de ordenadores"
 coverCaption: "Domine las habilidades necesarias para convertirse en un gestor de sistemas de información de éxito."
 ---

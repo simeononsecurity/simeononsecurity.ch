@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo utilizar eficazmente Nmap para el escaneado de redes, el escaneado de puertos, la detección de servicios y la identificación de sistemas operativos para evaluar la seguridad de la red."
 tags: ["nmap", "exploración de redes", "evaluación de la seguridad", "exploración de puertos", "detección de servicios", "detección del sistema operativo", "Motor de scripting Nmap", "hacking ético", "seguridad de la red", "infraestructura de red", "detección de vulnerabilidades", "escaneo ping", "Exploración TCP SYN", "permiso", "legalidad", "impacto en la red", "exploración selectiva", "protección de datos", "CFAA", "GDPR", "mapeo de redes", "reconocimiento de redes", "herramientas de seguridad de red", "ciberseguridad", "herramienta de código abierto", "herramienta de línea de comandos", "descubrimiento de hosts", "inteligencia de red", "recopilación de información", "vulnerabilidades de la red", "entorno de red seguro"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Concepto de seguridad de redes con herramientas de exploración Nmap en un estilo animado en 3D."
 coverCaption: ""
 ---

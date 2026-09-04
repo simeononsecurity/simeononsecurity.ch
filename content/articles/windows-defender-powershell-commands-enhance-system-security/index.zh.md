@@ -6,7 +6,7 @@ draft: false
 description: "了解 Windows Defender PowerShell 命令的强大功能，学习如何通过命令行控制增强系统安全性。"
 genre: ["Windows Defender", "PowerShell 命令", "系统安全", "命令行控制", "杀毒", "视窗操作系统", "恶意软件保护", "高级安全设置", "自动化安全操作", "Windows PowerShell"]
 tags: ["技术", "网络安全", "操作系统", "视窗", "命令行工具", "系统安全", "PowerShell", "杀毒软件", "恶意软件保护", "脚本"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "一幅动画插图，描绘了保护计算机系统免受各种网络威胁的防护罩。"
 coverCaption: "使用 Windows Defender PowerShell 命令增强系统安全性。"
 ---

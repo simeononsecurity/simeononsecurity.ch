@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u Nmap effectief kunt gebruiken voor het scannen van netwerken, het scannen van poorten, het opsporen van services en het identificeren van besturingssystemen om de netwerkbeveiliging te beoordelen."
 tags: ["nmap", "netwerk scannen", "veiligheidsbeoordeling", "poort scannen", "dienstdetectie", "detectie van het besturingssysteem", "Nmap Scripting Engine", "ethisch hacken", "netwerkbeveiliging", "netwerkinfrastructuur", "detectie van kwetsbaarheden", "ping scan", "TCP SYN scan", "toestemming", "legaliteit", "netwerkeffect", "gericht scannen", "gegevensbescherming", "CFAA", "GDPR", "netwerkkartering", "netwerkherkenning", "netwerkbeveiligingstools", "cyberbeveiliging", "open-source hulpmiddel", "commandoregelhulpmiddel", "host discovery", "netwerk intelligentie", "informatieverzameling", "kwetsbaarheden in het netwerk", "veilige netwerkomgeving"]
-cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.png"
+cover: "/img/cover/Network_Security_Concept_with_Nmap_Scanning_Tools_in_a_3D.webp"
 coverAlt: "Netwerkbeveiligingsconcept met Nmap-scantools in een 3D-geanimeerde stijl."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las ventajas y los riesgos del uso de la autenticación biométrica para el control de acceso, incluida la mejora de la seguridad, los problemas de privacidad y las mejores prácticas de aplicación."
 tags: ["autenticación biométrica", "control de acceso", "seguridad", "privacidad", "protección de datos", "GDPR", "HIPAA", "falsos positivos", "falsos negativos", "autenticación multifactor", "pruebas del sistema", "políticas de seguridad", "eficacia", "convenience", "identidad única", "flujos de trabajo racionalizados", "vulnerabilidades", "mitigación de riesgos", "experiencia del usuario", "ciberseguridad"]
-cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.png"
+cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "Ilustración animada de la mano de una persona que utiliza un escáner de huellas dactilares para acceder a una zona segura, con la cara y el iris de una persona también visibles en el fondo."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to effortlessly turn your Linux system into a high-performance NAS server for smooth file sharing and management."
 genre: ["Technology", "Linux Systems", "Network-Attached Storage", "File Sharing", "Server Configuration", "Data Management", "Data Storage", "Home Network", "Small Business", "File Server"]
 tags: ["Linux NAS", "Network-Attached Storage", "File Sharing", "Server Configuration", "NFS Setup", "CIFS Setup", "Linux File Server", "Data Management", "Home Network", "Small Business Storage", "Effortless NAS", "Linux Server", "NAS Tutorial", "NFS Server", "CIFS Server", "Linux File Sharing", "Linux Data Storage", "NAS Solution", "Linux Network Storage", "NAS Configuration", "Samba Setup", "Network File System", "CIFS File Sharing", "Linux Data Sharing", "NAS Security", "Data Backup", "Linux Server Guide", "File Server Setup", "Remote Data Access", "Linux NAS Tutorial"]
-cover: "/img/cover/linux-nas-transformation.png"
+cover: "/img/cover/linux-nas-transformation.webp"
 coverAlt: "A symbolic illustration of a Linux penguin transforming into a NAS server."
 coverCaption: "Linux transformation: Unlock the power of NAS effortlessly."
 ---

@@ -44,7 +44,7 @@ Eseguendo una scansione delle porte da 1-65535, si noteranno alcune porte aperte
 
 ### Personalizzazione dell'ONT
 
-{{< figure src="customizingtheont.png" alt="A BGW-320" >}}
+{{< figure src="customizingtheont.webp" alt="A BGW-320" >}}
 
 Ora viene la parte importante, ovvero la modifica di alcune informazioni sul dispositivo per renderlo compatibile con la rete del vostro ISP.
 

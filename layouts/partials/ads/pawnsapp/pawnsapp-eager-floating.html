@@ -1,5 +1,5 @@
-{{ $tinysrc := resources.Get "img/ads/pawnsapp/earn_money_general_300x300.png" }}
-{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".gif" "" }}
+{{ $tinysrc := resources.Get "img/ads/pawnsapp/earn_money_general_300x300.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
 {{ $tiny := ($tinysrc.Resize "255x212 gif q90") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "gif" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}

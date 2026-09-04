@@ -87,7 +87,7 @@ ______
 
 Flock ক্যামেরা শুধু প্লেট নম্বরের চেয়ে বেশি ক্যাপচার করে। এগুলি প্রতিটি পার হওয়া যানবাহনের মেক, মডেল, রঙ, বডি টাইপ এবং বিশেষ বৈশিষ্ট্য রেকর্ড করে। কোম্পানি এগুলিকে যানবাহনের "আঙুলের ছাপ" হিসেবে বাজারজাত করে। এর মানে আপনি যে প্রতিটি ভ্রমণ করেন তা নথিভুক্ত হয়, এমনকি যখন আপনি কোনো ভুল করেননি।
 
-{{< figure src="deflock-lpr-demo.png" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
+{{< figure src="deflock-lpr-demo.webp" alt="A Flock Safety ALPR camera mounted on a pole demonstrating how the technology captures license plates" caption="A typical ALPR camera installation. Image credit: DeFlock.org" link="https://deflock.org/" >}}
 
 ### ALPR প্রযুক্তি কীভাবে কাজ করে
 
@@ -200,7 +200,7 @@ ALPR নজরদারির ব্যাপক মোতায়েন গু
 
 **সম্পত্তি অপরাধ সমাধানের** একটি হাতিয়ার হিসেবে যা শুরু হয়েছিল তা নাটকীয়ভাবে প্রসারিত হয়েছে। এগুলি অনুমানমূলক ঝুঁকি নয়। এগুলি নথিভুক্ত নিদর্শন।
 
-{{< figure src="aclu-get-flock-out-header.png" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign header image showing a collage of ALPR cameras" caption="The ACLU's 'Get The Flock Out' campaign has documented widespread misuse of ALPR systems. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 #### ICE এবং অভিবাসন প্রয়োগ
 **ICE ওয়ারেন্ট ছাড়াই অনথিভুক্ত অভিবাসীদের খুঁজে বের করতে এবং অনুসরণ করতে Flock ব্যবহার করেছে।** প্ল্যাটফর্মের জাতীয় নেটওয়ার্ক ফেডারেল অভিবাসন প্রয়োগকে কোনো ব্যক্তিগতকৃত সম্ভাব্য কারণ ছাড়াই এখতিয়ার জুড়ে ব্যক্তিদের ট্র্যাক করার একটি হাতিয়ার দেয়। অনেক সম্প্রদায় যারা সম্পত্তি অপরাধ পুনরুদ্ধারের জন্য তাদের Flock নেটওয়ার্ক অর্থায়ন করেছিল, তারা আবিষ্কার করেছে যে তাদের ক্যামেরাগুলি ফেডারেল অভিবাসন প্রয়োগ অপারেশনের অংশ।

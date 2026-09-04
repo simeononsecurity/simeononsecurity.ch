@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Découvrez les 10 règles essentielles de sécurité des mots de passe pour protéger votre identité numérique et vos données personnelles contre les cyber-attaques."
 genre: ["Technologie", "Cybersécurité", "Protection de l'identité numérique", "Sécurité du mot de passe", "Sécurité en ligne", "Protection des données", "Conseils de sécurité en ligne", "Gestion des mots de passe", "Authentification à deux facteurs", "Récupération du mot de passe"]
 tags: ["sécurité du mot de passe", "directives sur les mots de passe", "des mots de passe forts", "cyber-attaques", "sécurité en ligne", "risques liés aux mots de passe", "mots de passe faibles", "protection par mot de passe", "la sécurité des données", "défense du mot de passe", "prévention du piratage informatique", "importance du mot de passe", "craquage de mot de passe", "vol d'identité", "réutilisation du mot de passe", "gestion des mots de passe", "authentification à deux facteurs", "Avantages du 2FA", "mise à jour du mot de passe", "changement de mot de passe", "meilleures pratiques en matière de mots de passe", "récupération du mot de passe", "gestionnaire de mot de passe", "avantages du gestionnaire de mots de passe", "choisir un gestionnaire de mots de passe", "sécurité du compte en ligne", "chiffrement", "authentification multifactorielle"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Image symbolique représentant la sécurité d'un mot de passe avec un bouclier protégeant un cadenas."
 ---
 

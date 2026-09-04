@@ -6,7 +6,7 @@ draft: false
 description: "Learn the essential Python security best practices to safeguard your code and data from potential threats, ensuring data protection, system integrity, and building trust."
 genre: ["Python Security", "Code Security", "Data Protection", "Software Development", "Cybersecurity", "Secure Coding", "Web Development", "Data Privacy", "Application Security", "IT Security"]
 tags: ["python security", "best practices", "code security", "data protection", "system integrity", "secure coding", "data privacy", "application security", "cybersecurity", "web development", "software development", "python programming", "secure programming", "data encryption", "role-based access control", "secure password handling", "input validation", "SQL injection prevention", "database security", "dependency management", "logging and monitoring", "developer training", "python interpreter", "python security documentation", "AES encryption", "TLS encryption", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "An illustration of a shield protecting Python code and data, symbolizing Python security best practices."
 coverCaption: "Secure your Python code and data with these best practices."
 ---

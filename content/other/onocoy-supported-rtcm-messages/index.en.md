@@ -7,7 +7,7 @@ draft: false
 description: "Discover how Onocoy supports RTCM messages, enhancing location accuracy."
 genre: ["GNSS Technology", "RTK Services", "Precision Location Determination", "RTCM Messages", "Onocoy Platform", "Satellite Navigation", "Geospatial Data", "Navigation Corrections", "GNSS Receivers", "Geolocation Accuracy"]
 tags: ["Onocoy Supported RTCM Messages", "RTCM3-MSM", "High-Precision Location", "RTK Services", "GNSS Receivers", "Geospatial Data", "Satellite Navigation", "Navigation Corrections", "RTCM Message Format", "GNSS Constellations", "RTK Solutions", "RTCM Standards", "Precision GPS Data", "Location Determination", "Geolocation Accuracy", "Onocoy Platform", "RTCM Messages Overview", "RTCM Message Types", "RTCM Corrections", "Location-Based Services", "GNSS Technology", "RTCM Guidelines", "RTCM Data", "RTCM Compliance", "RTCM Support", "Geospatial Accuracy", "GNSS Data", "Onocoy Solutions", "RTCM Message Prerequisites", "RTCM Information"]
-cover: "/img/cover/gps-satellite-world-accuracy.png"
+cover: "/img/cover/gps-satellite-world-accuracy.webp"
 coverAlt: "A GPS satellite beaming accuracy onto a world map."
 coverCaption: "Precision at Your Fingertips"
 ref: ["/other/onocoy-gps-gnss-reciever-basestation-on-a-budget", "/guides/budget-diy-gps-gnss-base-station-setup-esp32-um980"]

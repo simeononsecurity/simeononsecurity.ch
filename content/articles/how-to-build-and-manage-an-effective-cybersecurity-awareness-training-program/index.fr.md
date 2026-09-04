@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à élaborer et à gérer un programme efficace de sensibilisation à la cybersécurité qui réduit le risque de cyber-attaques et protège les données sensibles."
 tags: ["cybersécurité", "formation de sensibilisation", "atténuation des risques", "protection des données", "formation des employés", "menaces de cybersécurité", "risques de cybersécurité", "objectifs de formation", "public cible", "l'offre de formation", "formation interactive", "exemples concrets", "simulations", "exercices pratiques", "le contenu de la formation", "NIST 800-50", "meilleures pratiques en matière de cybersécurité", "culture de la cybersécurité", "récompenses et reconnaissance"]
-cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.png"
+cover: "/img/cover/An_animated_image_of_a_group_of_employees_gathered_around_a_whiteboard.webp"
 coverAlt: "Une image animée d'un groupe d'employés réunis autour d'un ordinateur ou d'un expert en sécurité expliquant des concepts de cybersécurité sur un tableau blanc."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Descubre cómo salvaguardar tu privacidad en las plataformas de redes sociales conociendo los riesgos para la privacidad, las preocupaciones más comunes y ajustando la configuración en Facebook, Instagram, Twitter y LinkedIn."
 genre: ["Privacidad en las redes sociales", "Proteger la información personal en las redes sociales", "Riesgos y problemas de privacidad en las redes sociales", "Configuración de privacidad en Facebook", "Mejorar la privacidad en Instagram", "Cómo proteger su cuenta de Twitter", "Protección de la intimidad en LinkedIn"]
 tags: ["Ajustar la configuración de privacidad de Facebook", "controlar los seguidores de Instagram", "gestión de los datos de Twitter", "salvaguardar la privacidad de LinkedIn", "restringir los permisos de las aplicaciones en las redes sociales", "mejorar la privacidad de Instagram", "proteger los tweets en Twitter", "gestionar las conexiones de LinkedIn", "Asegurar la cuenta de Twitter", "privacidad en las redes sociales"]
-cover: "/img/cover/protect-your-privacy-on-social-media.png"
+cover: "/img/cover/protect-your-privacy-on-social-media.webp"
 coverAlt: "Una imagen simbólica de dibujos animados que representa un escudo cerrado que protege la información personal de una persona en las redes sociales"
 ---
 

@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Leer de 10 essentiële richtlijnen voor wachtwoordbeveiliging om uw digitale identiteit en persoonlijke gegevens te beschermen tegen cyberaanvallen."
 genre: ["Technologie", "Cyberbeveiliging", "Bescherming van digitale identiteit", "Wachtwoordbeveiliging", "Online veiligheid", "Privacy van gegevens", "Tips voor online beveiliging", "Wachtwoordbeheer", "Authenticatie met twee factoren", "Wachtwoord herstel"]
 tags: ["wachtwoordbeveiliging", "wachtwoordrichtlijnen", "sterke wachtwoorden", "cyberaanvallen", "online beveiliging", "wachtwoordrisico's", "zwakke wachtwoorden", "wachtwoordbeveiliging", "gegevensbeveiliging", "wachtwoordbeveiliging", "hacker preventie", "Wachtwoord belang", "wachtwoord kraken", "identiteitsdiefstal", "wachtwoord hergebruik", "wachtwoordbeheer", "twee-factor authenticatie", "2FA voordelen", "wachtwoord updates", "wachtwoord wijzigen", "best practices voor wachtwoorden", "wachtwoord herstel", "wachtwoordmanager", "Voordelen van wachtwoordbeheer", "een wachtwoordmanager kiezen", "online accountbeveiliging", "encryptie", "multi-factor authenticatie"]
-cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.png"
+cover: "/img/cover/ten-essential-password-security-guidelines-to-follow.webp"
 coverAlt: "Een symbolische afbeelding van wachtwoordbeveiliging met een schild dat een slot beschermt."
 ---
 

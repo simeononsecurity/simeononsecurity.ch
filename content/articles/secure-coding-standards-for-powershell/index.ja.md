@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Windowsベースのシステムをセキュリティの脆弱性から保護するために、安全なPowerShellコードを記述するためのベストプラクティスを学びます。"
 tags: ["パワーシェル", "セキュアコーディング", "Windowsベースのシステム", "入力バリデーション", "暗号ライブラリ", "最少特権", "スタティックコードアナライザー", "セキュアな通信プロトコル", "ロギングとモニタリング", "脆弱性スキャン", "教育", "インジェクションコード", "特権のエスカレーション", "データ漏えい", "ハード化環境", "セキュリティポリシー", "ファイアウォール", "侵入検知システム", "脆弱性管理", "ネットワークセキュリティ"]
-cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.png"
+cover: "/img/cover/An_image_of_a_superhero_standing_in_front_of_a_computer.webp"
 coverAlt: "Windowsのロゴが表示されたPCの前に立ち、盾を手にしたスーパーヒーローのイメージで、Windowsベースのシステムを保護するためのセキュアコーディングの実践の重要性を象徴しています。"
 coverCaption: ""
 ---

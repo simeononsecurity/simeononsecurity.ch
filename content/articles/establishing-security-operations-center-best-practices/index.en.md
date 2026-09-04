@@ -6,7 +6,7 @@ draft: false
 description: "Establish a robust Security Operations Center (SOC) to defend against evolving cyber threats, detect incidents, and safeguard your organization's assets."
 genre: ["Cybersecurity", "Technology", "Business", "Data Protection", "Incident Response", "IT Management", "Network Security", "Threat Detection", "Information Security", "Risk Management"]
 tags: ["SOC Implementation", "Cyber Threats", "Incident Response", "Network Security", "Threat Detection", "Data Protection", "IT Management", "Proactive Defense", "Cybersecurity Best Practices", "Security Analysts","Threat Intelligence", "Vulnerability Management", "Security Operations", "Cyber Defense", "IT Infrastructure", "Digital Security", "Data Breach Prevention", "Cyber Resilience", "Cyber Risk Management", "Security Posture","Early Detection", "Compliance", "Cybersecurity Team", "Security Incident", "Business Continuity", "Security Infrastructure", "Threat Mitigation","Cybersecurity Strategy", "Cyber Threat Landscape", "Information Protection"]
-cover: "/img/cover/SOC-Security-Analysts-Collaboration.png"
+cover: "/img/cover/SOC-Security-Analysts-Collaboration.webp"
 coverAlt: "Security Analysts collaborating in a high-tech SOC"
 coverCaption: "help Your Defense: Building a Strong Security Operations Center"
 ---

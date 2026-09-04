@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to effortlessly enhance your online searches using Google Dorks, the ultimate search power tool, and find hidden gems of information with ease."
 genre: ["SEO", "Cybersecurity", "Online Search", "Google Dorks", "Search Techniques", "Digital Skills", "Web Searching", "Internet Tips", "Online Research", "Data Discovery"]
 tags: ["Google Dorks", "Search Operators", "Online Search", "Cybersecurity", "Search Techniques", "Advanced Search", "Web Searching", "Efficient Searching", "Digital Skills", "Data Discovery", "Online Research", "Google Hacks", "Information Retrieval", "Effortless Search", "Keyword Optimization", "Search Tips", "Online Privacy", "Internet Techniques", "Hidden Information", "Efficient Research", "Advanced Google Search", "Online Security", "Web Queries", "Effective Search", "Keyword Search", "Information Search", "Online Skills", "Enhanced Searching", "Data Security"]
-cover: "/img/cover/cartoon-magnifying-glass-computer-search.png"
+cover: "/img/cover/cartoon-magnifying-glass-computer-search.webp"
 coverAlt: "A cartoon-style magnifying glass uncovering hidden treasures on a computer screen."
 coverCaption: "Search Smarter, Not Harder!"
 canonical: ""

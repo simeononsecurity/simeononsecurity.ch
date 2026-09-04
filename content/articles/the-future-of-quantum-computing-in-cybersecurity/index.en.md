@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the future of quantum computing and its impact on cybersecurity, including post-quantum cryptography and vulnerabilities of classical cryptographic algorithms."
 tags: ["Quantum computing", "Cybersecurity", "Qubits", "RSA", "ECC", "Post-quantum cryptography", "Quantum annealing", "Quantum supremacy", "Superposition", "Entanglement", "Cryptographic algorithms", "Digital infrastructure", "Optimization problems", "Tech giants", "Research and development", "Decoherence", "Online transactions", "Secure messaging", "Online banking", "Drug discovery"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "An animated image of a hacker trying to break into a computer system protected by RSA encryption, but then failing as a quantum computer solves the encryption in seconds in the background."
 coverCaption: ""
 ---

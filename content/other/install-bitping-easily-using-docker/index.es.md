@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aprenda a instalar Bitping, una potente solución de supervisión y optimización del rendimiento de sitios web para obtener información en tiempo real sobre el tiempo de inactividad y el rendimiento degradado."
 tags: ["Morder", "supervisión de sitios web", "optimización del rendimiento", "control en tiempo real", "tiempo de inactividad", "rendimiento degradado", "pruebas de estrés", "evaluación comparativa", "redireccionamiento dinámico", "Reaprovisionamiento", "inteligencia de red", "webhooks", "Solana", "nodo", "pruebas de redes ligeras", "pagos", "ganancias", "rendimiento del sitio web", "análisis de sitios web", "monitorización web", "control del rendimiento", "control del tiempo de actividad", "seguimiento de usuarios reales", "pruebas de red", "comentarios sobre el sitio web", "alertas del sitio web", "capa de inteligencia de red", "solución de supervisión", "rendimiento de la web", "métricas de rendimiento"]
-cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.png"
+cover: "/img/cover/An_animated_illustration_of_a_website_performance_dashboard.webp"
 coverAlt: "Ilustración animada del panel de rendimiento de un sitio web con métricas y alertas en tiempo real."
 coverCaption: ""
 ---

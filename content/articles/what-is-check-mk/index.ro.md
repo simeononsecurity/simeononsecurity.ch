@@ -6,7 +6,7 @@ draft: false
 description: "Explorați caracteristicile, beneficiile și cazurile de utilizare ale CheckMK, o soluție completă de monitorizare pentru gestionarea proactivă a infrastructurii IT."
 genre: ["Tehnologie", "Infrastructura IT", "Monitorizarea rețelei", "Monitorizarea aplicațiilor", "Operațiuni IT", "Analize de performanță", "Automatizare", "Managementul evenimentelor", "Scalabilitate", "Flexibilitate"]
 tags: ["CheckMK", "soluție de monitorizare", "Infrastructura IT", "monitorizare în timp real", "gestionarea evenimentelor", "analize de performanță", "automatizare", "scalabilitate", "flexibilitate", "Operațiuni IT", "monitorizarea rețelei", "monitorizarea aplicațiilor", "optimizarea performanțelor", "monitorizare proactivă", "răspunsul la incidente", "planificarea capacității", "alocarea resurselor", "gestionarea configurației", "Eficiența IT", "gestionarea infrastructurii", "soluție completă de monitorizare", "gestionarea proactivă a infrastructurii IT", "analiza performanței rețelei", "cadru de automatizare", "Scalabilitatea infrastructurii IT", "platformă de gestionare a evenimentelor", "monitorizarea performanțelor în timp real", "optimizarea performanței aplicațiilor", "servicii de monitorizare în cloud", "soluție de monitorizare a conformității"]
-cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp"
 coverAlt: "O operă de artă vibrantă și dinamică care descrie o infrastructură de rețea cu indicatori de monitorizare și analiză."
 coverCaption: "Împuternicește-ți infrastructura IT cu CheckMK: Dă frâu liber eficienței și fiabilității!"
 ---

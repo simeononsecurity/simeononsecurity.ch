@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorez le monde caché du dark web et son lien avec la cybercriminalité, tout en découvrant sa double nature et son potentiel pour le journalisme et la dénonciation."
 tags: ["web sombre", "cybercriminalité", "activités illégales", "Tor", "piratage", "fraude", "vol d'identité", "journalism", "dénonciation", "sécurité en ligne", "les informations personnelles", "violations de données", "vie privée en ligne", "les réglementations gouvernementales", "cybersécurité", "prévention de la criminalité", "navigation anonyme", "anonymat en ligne", "menaces en ligne", "sécurité numérique"]
-cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.png"
+cover: "/img/cover/An_illustration_of_a_digital_shield_protecting_a_computer.webp"
 coverAlt: "Illustration d'un bouclier numérique protégeant un ordinateur des menaces du dark web et de la cybercriminalité."
 coverCaption: ""
 ---

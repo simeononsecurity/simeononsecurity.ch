@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez le processus de classification des informations, notamment qui désigne et attribue les niveaux de classification, et l'importance de respecter les réglementations gouvernementales."
 genre: ["Sécurité de l'information", "Classification des données", "Réglementation gouvernementale", "Sécurité nationale", "Protection des données", "Protection des données", "Mesures de sécurité", "Informations classifiées", "Contrôle d'accès", "Sensibilité des données"]
 tags: ["classification des informations", "la désignation des niveaux de classification", "autorité de classification", "la sécurité de l'information", "les réglementations gouvernementales", "sécurité nationale", "protection des données", "confidentialité des données", "les mesures de sécurité", "informations classifiées", "le contrôle d'accès", "sensibilité des données", "processus de classification", "niveaux de classification", "autorité de classification initiale", "classification top secret", "classification secrète", "classification confidentielle", "classification restreinte", "sensibilité de l'information", "habilitation de sécurité", "base du besoin de savoir", "marques de classification", "processus de déclassification", "Décret 13526", "NISPOM", "ITAR"]
-cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.png"
+cover: "/img/cover/An_image_depicting_a_person_with_a_magnifying_glass_analyzi.webp"
 coverAlt: "Image représentant une personne avec une loupe analysant des documents classifiés et un symbole de cadenas en arrière-plan."
 coverCaption: "Dévoiler les secrets : L'importance de la classification des informations"
 ---

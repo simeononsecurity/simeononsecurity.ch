@@ -6,7 +6,7 @@ draft: false
 description: "了解如何有效安装和使用 PowerShell 的 Active Directory 模块来简化 Windows Active Directory 管理任务。"
 genre: ["技术", "视窗", "PowerShell", "活动目录", "行政部门", "脚本", "信息技术", "自动化", "Windows 服务器", "微软"]
 tags: ["PowerShell 的活动目录模块", "在 PowerShell 中导入活动目录模块", "Windows PowerShell 的活动目录模块", "活动目录 PowerShell 安装", "安装活动目录 PowerShell", "PowerShell 安装活动目录模块 Windows 10", "安装活动目录 PowerShell 模块 Windows 10", "获取活动目录 PowerShell 模块", "AD 管理", "Windows 活动目录", "PowerShell cmdlets", "检索 AD 信息", "创建 AD 对象", "修改 AD 对象", "管理 AD 安全", "AD 用户管理", "AD 组管理", "AD OR 管理", "PowerShell 脚本", "Windows 服务器管理", "微软 PowerShell", "自动执行 AD 任务", "安装 PowerShell 模块", "AD 管理指南", "活动目录管理", "AD 安全管理", "PowerShell 自动化", "活动目录 PowerShell 命令", "PowerShell cmdlet 参考"]
-cover: "/img/cover/An_image_depicting_a_network_of_interconnected.png"
+cover: "/img/cover/An_image_depicting_a_network_of_interconnected.webp"
 coverAlt: "该图片描绘了一个由相互连接的服务器和用户图标组成的网络，象征着 Active Directory 管理和自动化。"
 coverCaption: "用 PowerShell 释放 Active Directory 管理的威力。"
 ---

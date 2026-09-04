@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați importanța ghidurilor de clasificare a securității în protejarea informațiilor clasificate și în asigurarea conformității cu reglementările."
 tags: ["ghiduri de clasificare a securității", "protecția informațiilor", "informații clasificate", "reglementări guvernamentale", "atenuarea riscurilor", "controlul accesului", "securitatea informațiilor", "proceduri de marcare", "proceduri de manipulare", "securitatea națională", "conformitate", "amenințări din interior", "schimbul de informații", "proprietate intelectuală", "procesul decizional", "obligații legale", "obligații etice", "colaborare internațională", "ISO 27001", "NISPOM", "Ordinul executiv 13526", "clasificarea informațiilor", "protecția datelor", "gestionarea informațiilor", "partajare controlată", "confidențialitatea informațiilor", "integritatea informațiilor", "cultura securității informațiilor", "orientări privind securitatea informațiilor", "practici de securitate a informațiilor", "conștientizarea securității informațiilor"]
-cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.png"
+cover: "/img/cover/An_image_depicting_a_locked_document_folder_with_a_shield.webp"
 coverAlt: "O imagine reprezentând un dosar de documente blocat cu un scut care simbolizează protecția informațiilor clasificate."
 coverCaption: ""
 ---

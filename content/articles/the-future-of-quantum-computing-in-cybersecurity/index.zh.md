@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索量子计算的未来及其对网络安全的影响，包括后量子加密技术和经典加密算法的漏洞。"
 tags: ["量子计算", "网络安全", "Qubits", "RSA", "ECC", "后量子密码学", "量子退火", "量子至上", "叠加", "纠缠", "加密算法", "数字基础设施", "优化问题", "科技巨头", "研发", "去相干性", "在线交易", "安全信息传递", "网上银行", "药物发现"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "一幅黑客试图入侵受 RSA 加密保护的计算机系统的动画图片，但由于量子计算机在后台几秒钟内就解决了加密问题，黑客最终失败。"
 coverCaption: ""
 ---

@@ -39,9 +39,9 @@ Nebra Helium MinerのSDカードをうまく交換するには、特定のツー
 
 ## ネブラのヘリウム採掘機の内部
 ### ネブラ屋内鉱夫の中身：
-{{< figure src="Indoor-internal-lights.png" alt="Nebra Indoor Miner" >}}
+{{< figure src="Indoor-internal-lights.webp" alt="Nebra Indoor Miner" >}}
 ### ネブラ・アウトドア・マイナーの内容：
-{{< figure src="Inside-Interfaces.jpg" alt="Nebra Outdoor Miner" >}}
+{{< figure src="Inside-Interfaces.webp" alt="Nebra Outdoor Miner" >}}
  - 1.) 9-16V @ 15W DC 6.5MMx2.0MM バレル・ジャック
  - 2.)イーサネット・コネクター
  - 3.)LEDインジケーター
@@ -53,7 +53,7 @@ Nebra Helium MinerのSDカードをうまく交換するには、特定のツー
 ### ステップ1: EMMC Keyからconfig.jsonファイルを取得します：
 - ダウンロードしてインストールする [Raspberry Pi USB Boot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)これは、コンピュートモジュールをUSBファイルシステムとしてブートするために必要です。
 - CM3ドーターボードのジャンパーピンを特定し、プログラミングモードに合わせます。
- - {{< figure src="daughterboardBreakdown.png" alt="Nebra Daughterboard Overview" >}}
+ - {{< figure src="daughterboardBreakdown.webp" alt="Nebra Daughterboard Overview" >}}
    - 5.)マイクロUSBポート
    - 7.)JP4 USBジャンパー-通常動作とフラッシュ・モードの切り替えに使用され、通常動作の場合は1-2 の位置に、プログラミングの場合は2-3 の位置にあることを確認する。
    - 8.)JP3 電源ジャンパー - Micro USB コネクターからモジュールに電源を供給します。PCからプログラミングするときのみ接続し、メインボードが接続されていないことを確認してください。

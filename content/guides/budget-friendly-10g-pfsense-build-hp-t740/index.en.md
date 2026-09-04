@@ -25,7 +25,7 @@ ______
 
 ### **HP t740 Thin Client: A Budget-Friendly Option**
 
-{{< figure src="t740.jpg" alt="HP t740 Thin Client" link="https://amzn.to/3Td6xJE" >}}
+{{< figure src="t740.webp" alt="HP t740 Thin Client" link="https://amzn.to/3Td6xJE" >}}
 
 The [**HP t740 Thin Client**](https://support.hp.com/us-en/document/c06433828) is an often-overlooked piece of hardware that can be repurposed into a powerful pfSense router. It's cost-effective and can be had for $400 or less, energy-efficient uses 50w or less, and small in size about 1L in volume, making it ideal for home and small office use. The HP t740 comes with various hardware options, including an AMD Ryzen processor and support for multiple network interfaces through it's PCI expansion slot.
 
@@ -58,7 +58,7 @@ This video will help you get there.
 
 ### **Adding 10g NICs**
 
-{{< figure src="internal.jpg" alt="HP t740 Internal PCI Slot" link="https://amzn.to/3Td6xJE" >}}
+{{< figure src="internal.webp" alt="HP t740 Internal PCI Slot" link="https://amzn.to/3Td6xJE" >}}
 
 To achieve 10 Gigabit Ethernet capabilities, you'll need to add 10g NICs to your HP t740. Consult the [pfSense hardware compatibility list](https://docs.netgate.com/pfsense/en/latest/hardware/index.html) to ensure compatibility. Install the NICs and configure them in pfSense.
 

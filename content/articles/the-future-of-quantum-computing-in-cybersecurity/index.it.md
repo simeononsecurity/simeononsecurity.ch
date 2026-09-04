@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplora il futuro dell'informatica quantistica e il suo impatto sulla sicurezza informatica, compresa la crittografia post-quantistica e le vulnerabilità degli algoritmi crittografici classici."
 tags: ["Calcolo quantistico", "Sicurezza informatica", "Qubit", "RSA", "CEC", "Crittografia post-quantistica", "Ricottura quantistica", "Supremazia quantistica", "Superposizione", "Entanglement", "Algoritmi crittografici", "Infrastruttura digitale", "Problemi di ottimizzazione", "Giganti della tecnologia", "Ricerca e sviluppo", "Decoerenza", "Transazioni online", "Messaggistica sicura", "Banca online", "Scoperta di farmaci"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Un'immagine animata di un hacker che cerca di penetrare in un sistema informatico protetto dalla crittografia RSA, ma poi fallisce mentre un computer quantistico risolve la crittografia in pochi secondi sullo sfondo."
 coverCaption: ""
 ---

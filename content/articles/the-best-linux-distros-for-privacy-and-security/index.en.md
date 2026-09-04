@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Discover the best Linux distros for privacy and security, ensuring your data remains protected and your online activities secure."
 tags: ["Linux distros", "privacy and security", "Tails", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "data protection", "secure computing", "anonymous browsing", "virtualization", "security testing", "forensic analysis", "penetration testing", "encryption tools", "secure deletion", "anonymity", "cybersecurity", "code correctness", "online safety", "user data protection", "confidentiality", "data recovery", "online banking", "online privacy", "secure environment", "secure browsing", "Tor network", "security measures", "secure by default"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "An image depicting a shield protecting a computer, symbolizing privacy and security in the digital world."
 coverCaption: ""
 ---

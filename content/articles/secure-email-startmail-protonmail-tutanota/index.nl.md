@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de beste beveiligde e-mailservice! Een gedetailleerde vergelijking van StartMail, ProtonMail en Tutanota, om je privacy online te waarborgen"
 genre: ["Technologie", "Cyberbeveiliging", "Privacy van gegevens", "E-mail diensten", "Online beveiliging", "Encryptie", "Internethulpmiddelen", "Vergelijking", "Digitale bescherming", "Online privacy"]
 tags: ["StartMail", "ProtonMail", "Tutanota", "Beveiligde e-mail", "E-mail privacy", "E-mail Beveiliging", "Beveiligd berichtenverkeer", "End-to-end versleuteling", "PFS", "Nul-toegang encryptie", "Gegevensbescherming", "Cyberbeveiliging", "Online privacy", "Encryptiediensten", "Privacy-instrumenten", "Online beveiliging", "Gebruikersprivacy", "Beveiligde communicatie", "E-mailproviders", "Beveiligde e-mailservices", "Gebruiksvriendelijke beveiligde e-mail", "Anoniem aanmelden", "Zelfvernietigende berichten", "Integratie aangepast domein", "GDPR-naleving", "Zwitserse gegevensbescherming", "Duitse gegevensbescherming", "Veilig wachtwoordherstel", "Oplossingen voor online privacy", "Diensten voor gegevensversleuteling"]
-cover: "/img/cover/secure-email-showdown.png"
+cover: "/img/cover/secure-email-showdown.webp"
 coverAlt: "Een kleurrijke cartoonillustratie met drie enveloppen met hangsloten, die elk staan voor StartMail, ProtonMail en Tutanota, tegen een achtergrond van een schild voor beveiliging."
 coverCaption: "Kies uw beschermer: Een veilige zoektocht naar e-mail!"
 ---

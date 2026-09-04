@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Descoperiți cele mai bune distribuții Linux pentru confidențialitate și securitate, asigurându-vă că datele dumneavoastră rămân protejate și că activitățile dumneavoastră online sunt în siguranță."
 tags: ["Distribuții Linux", "confidențialitate și securitate", "Cozi", "Qubes OS", "Whonix", "Sistemul de securitate Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "protecția datelor", "calcul securizat", "navigare anonimă", "virtualizare", "teste de securitate", "analiză criminalistică", "teste de penetrare", "instrumente de criptare", "ștergere securizată", "anonimat", "securitate cibernetică", "corectitudinea codului", "siguranța online", "protecția datelor utilizatorului", "confidențialitate", "recuperarea datelor", "servicii bancare online", "confidențialitatea online", "mediu securizat", "navigare securizată", "Rețeaua Tor", "măsuri de securitate", "securizat în mod implicit"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Imagine reprezentând un scut care protejează un computer, simbolizând confidențialitatea și securitatea în lumea digitală."
 coverCaption: ""
 ---

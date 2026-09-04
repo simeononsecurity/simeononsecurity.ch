@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von Albine DeleteMe, einem Datenschutzdienst, der Sie in die Lage versetzt, Ihre persönlichen Informationen zu schützen und so für Online-Sicherheit und Seelenfrieden zu sorgen."
 genre: ["Datenschutz", "Online-Sicherheit", "Schutz persönlicher Informationen", "Prävention von Identitätsdiebstahl", "Verwaltung des digitalen Fußabdrucks", "Cybersecurity", "Internet Privacy", "Löschung von Daten", "GDPR-Einhaltung", "CCPA"]
 tags: ["Albine DeleteMe", "Datenschutz", "Online-Sicherheit", "Persönliche Informationen", "Prävention von Identitätsdiebstahl", "Digitaler Fußabdruck", "Cybersecurity", "Internet Privacy", "Löschung von Daten", "GDPR-Einhaltung", "CCPA", "Datenschutz", "Datenpanne", "Datenschutz Service", "Sensible Daten", "Online-Präsenz", "Datenschutzbestimmungen", "Überwachung der Daten", "Identitätsschutz", "Datenverschlüsselung", "Verletzung der Privatsphäre", "Persönliche Daten schützen", "Schutz der Online-Privatsphäre", "Sicheres Entfernen von Daten", "Prävention von Bedrohungen der Privatsphäre", "Eindämmung von Identitätsdiebstahl", "Lösung für den Datenschutz", "Online Privacy Management", "Maßnahmen zur Datensicherheit", "Einhaltung der Datenschutzbestimmungen", "Online-Identitätsschutz"]
-cover: "/img/cover/secure_privacy_cartoon.png"
+cover: "/img/cover/secure_privacy_cartoon.webp"
 coverAlt: "Ein Bild im Cartoon-Stil einer Person, die von Schutzschilden umgeben ist, die für den Schutz der Privatsphäre und der Daten im Internet stehen."
 coverCaption: "Schützen Sie Ihre Daten, achten Sie auf den Datenschutz."
 ---

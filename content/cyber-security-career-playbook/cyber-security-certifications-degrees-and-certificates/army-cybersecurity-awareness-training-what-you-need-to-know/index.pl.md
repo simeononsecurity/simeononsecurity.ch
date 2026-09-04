@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-20
 description: "Odkryj kluczowe elementy szkolenia Army Cybersecurity Awareness Training, zgodność z przepisami i najlepsze praktyki dla personelu obronnego, aby skutecznie zwalczać cyberzagrożenia."
 tags: ["Szkolenie Army Cybersecurity Awareness Training", "Personel obronny", "Zagrożenia cybernetyczne", "Najlepsze praktyki w zakresie cyberbezpieczeństwa", "Zgodność", "Świadomość phishingu", "Bezpieczne praktyki dotyczące haseł", "Bezpieczne przeglądanie Internetu", "Bezpieczeństwo urządzeń mobilnych", "Świadomość inżynierii społecznej", "Ochrona danych", "Zgłaszanie incydentów", "Przepisy dotyczące cyberbezpieczeństwa", "Dyrektywa DoD 8570", "Dyrektywa DoD 8140", "Ataki phishingowe", "Bezpieczne nawyki przeglądania", "Szyfrowanie urządzeń mobilnych", "Techniki inżynierii społecznej", "Prywatność danych", "Reakcja na incydent", "Cyberbezpieczne środowisko", "Ochrona wrażliwych informacji", "Umiejętności w zakresie cyberbezpieczeństwa", "Systemy wojskowe", "Ograniczanie cyberzagrożeń", "Edukacja w zakresie cyberbezpieczeństwa", "Świadomość bezpieczeństwa informacji", "Postawa cyberbezpieczeństwa w obronie"]
-cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.png"
+cover: "/img/cover/An_image_depicting_a_shield_with_a_padlock_symbolizing_cybe.webp"
 coverAlt: "Obraz przedstawiający tarczę z kłódką symbolizującą obronę cyberbezpieczeństwa i ochronę przed cyberzagrożeniami."
 coverCaption: "Ochrona cyfrowej twierdzy: Wzmocnienie obrony cyberbezpieczeństwa armii"
 ---

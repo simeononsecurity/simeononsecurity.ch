@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les 5 compétences clés que tout responsable des systèmes d'information doit posséder pour réussir dans le monde numérique d'aujourd'hui."
 genre: ["Technologie", "Entreprises", "Management", "IT", "Développement de carrière", "Transformation numérique", "Analyse des données", "Informatique en nuage", "Gestion de projet", "Leadership"]
 tags: ["les systèmes d'information", "gestionnaire", "MIS", "compétences techniques", "compétences analytiques", "compétences en matière de leadership", "compétences en matière de gestion de projet", "compétences en matière de communication", "informatique en nuage", "l'analyse des données", "résolution de problèmes", "la pensée critique", "la prise de décision", "gestion de l'équipe", "collaboration", "la planification des projets", "gestion des ressources", "communication", "technologie", "processus d'entreprise", "transformation numérique", "des décisions fondées sur des données", "plates-formes basées sur l'informatique en nuage", "architecture du système", "gestion de la base de données", "les langages de programmation", "Compétences informatiques", "développement de carrière"]
-cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.png"
+cover: "/img/cover/Cartoon_illustration_of_a_manager_of_information_systems_ov.webp"
 coverAlt: "Dessin humoristique d'un responsable des systèmes d'information supervisant un réseau d'ordinateurs"
 coverCaption: "Maîtriser les compétences nécessaires pour devenir un manager de systèmes d'information performant."
 ---

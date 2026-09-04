@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die kritischen Komponenten des OPSEC-Prozesses kennen und erfahren Sie, wie Sie sensible Informationen effektiv schützen können."
 tags: ["OPSEC-Prozess", "operative Sicherheit", "Informationsschutz", "Sicherheitsmaßnahmen", "staatliche Vorschriften", "kritische Informationen", "Bedrohungsanalyse", "Schwachstellenanalyse", "Risikoanalyse", "Gegenmaßnahmen", "Informationssicherheit", "datenschutz", "Vertraulichkeit", "Integrität", "Verfügbarkeit", "Cybersicherheit", "Verschlusssachen", "Compliance", "NISPOM", "HIPAA", "GDPR", "Datenschutz", "Risikomanagement", "Sicherheitsposition", "Informationsbestände", "Sicherheitskontrollen", "Risikominderung", "Sicherheitsrichtlinien", "Sicherheitsbewusstsein", "Verhinderung von Datenschutzverletzungen", "Informationsklassifizierung", "Welche der folgenden Elemente sind Teil des Opsec-Prozesses?"]
-cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.png"
+cover: "/img/cover/An_image_showing_a_shield_protecting_a_locked_folder.webp"
 coverAlt: "Ein Bild, das ein Schild zeigt, das einen gesperrten Ordner schützt, steht für den Schutz sensibler Informationen."
 coverCaption: ""
 ---

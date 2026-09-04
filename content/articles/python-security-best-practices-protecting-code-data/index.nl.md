@@ -6,7 +6,7 @@ draft: false
 description: "Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen."
 genre: ["Python Beveiliging", "Code Veiligheid", "Gegevensbescherming", "Software Ontwikkeling", "Cyberbeveiliging", "Veilig coderen", "Webontwikkeling", "Privacy van gegevens", "Beveiliging van toepassingen", "IT Beveiliging"]
 tags: ["python beveiliging", "optimale werkmethoden", "codebeveiliging", "gegevensbescherming", "systeemintegriteit", "veilig coderen", "gegevensprivacy", "applicatiebeveiliging", "cyberbeveiliging", "webontwikkeling", "softwareontwikkeling", "python programmeren", "veilig programmeren", "data-encryptie", "rolgebaseerde toegangscontrole", "veilige wachtwoordverwerking", "invoervalidatie", "SQL-injectiepreventie", "databasebeveiliging", "afhankelijkheidsbeheer", "registratie en bewaking", "opleiding tot ontwikkelaar", "python-interpreter", "python beveiligingsdocumentatie", "AES-codering", "TLS-codering", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "Een afbeelding van een schild dat Python-code en -gegevens beschermt, als symbool voor de best practices in Python-beveiliging."
 coverCaption: "Beveilig uw Python-code en -gegevens met deze best practices."
 ---

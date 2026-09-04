@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover essential tips for safe social media practices to protect your privacy online and learn about the privacy settings of popular platforms like LinkedIn, Facebook, Twitter, and Instagram."
 tags: ["privacy", "online privacy", "social media", "safe practices", "privacy settings", "LinkedIn", "Facebook", "Twitter", "Instagram", "friend requests", "random links", "surveys", "government regulations", "GDPR", "CCPA", "cybersecurity", "data protection", "personal data", "privacy breach", "digital security", "privacy risks", "privacy laws", "privacy regulations", "data privacy", "online security", "privacy protection", "social media privacy", "privacy tips", "online privacy practices", "protecting personal information"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_persons_personal.webp"
 coverAlt: "An image depicting a shield protecting a person's personal information while using social media platforms."
 coverCaption: ""
 ---

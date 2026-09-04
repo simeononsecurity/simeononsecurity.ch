@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Un guide sur la manière de segmenter le réseau pour améliorer la sécurité et réduire les risques au sein de votre organisation."
 tags: ["segmentation du réseau", "améliorer la sécurité", "réduire les risques", "performance du réseau", "gestion du réseau", "contrôles de sécurité", "pare-feu", "les contrôles d'accès", "moindre privilège", "l'authentification", "essais", "contrôle", "cybermenaces", "violations de données", "architecture du réseau", "sécurité globale", "sécurité à plusieurs niveaux", "vulnérabilités", "cyberattaques", "formation des employés"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Image d'un réseau à segments multiples protégé par un pare-feu et des mécanismes de contrôle d'accès, avec un pirate extérieur au réseau qui tente d'y pénétrer."
 coverCaption: ""
 ---

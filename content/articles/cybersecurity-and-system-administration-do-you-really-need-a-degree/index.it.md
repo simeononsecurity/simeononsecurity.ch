@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questo articolo esplora i vantaggi e gli svantaggi di conseguire una laurea nei settori della cybersecurity e dell'amministrazione di sistema, comprese le opportunità di lavoro, le certificazioni, le considerazioni sui tempi e sui costi."
 tags: ["sicurezza informatica", "amministrazione del sistema", "grado", "certificazioni", "avanzamento di carriera", "potenziale salariale", "tempi e costi", "lavori governativi", "autodidatta", "formazione online", "Certificazioni CompTIA"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_desk_with_a_computer.webp"
 coverAlt: "L'immagine di una persona seduta a una scrivania con un computer davanti a sé, circondata da libri, risorse online e materiali di certificazione, simboleggia i diversi percorsi per acquisire conoscenze e competenze in materia di cybersecurity e amministrazione di sistema."
 coverCaption: ""
 ---

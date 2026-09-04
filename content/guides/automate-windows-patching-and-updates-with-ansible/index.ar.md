@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "تبسيط عملية تحديث أنظمة Windows من خلال التشغيل الآلي باستخدام Ansible - تم تضمين الإرشادات خطوة بخطوة وأفضل الممارسات."
 tags: ["أتمتة تحديثات Windows", "أتمتة أنسبل", "ادارة النظام", "تصحيحات الأمان", "البنية التحتية لتكنولوجيا المعلومات", "أتمتة الشبكة", "إدارة التكوين", "عمليات تكنولوجيا المعلومات", "DevOps", "الأمن الإلكتروني", "أتمتة تكنولوجيا المعلومات", "كفاءة تكنولوجيا المعلومات", "كتاب اللعب أنسبل", "أمن Windows", "إدارة التحديث", "إنتاجية تكنولوجيا المعلومات", "صيانة تكنولوجيا المعلومات", "أوراق اعتماد جديرة بالثقة", "تكوين المضيف", "أتمتة النظام", "تحديثات Windows", "إدارة نظام Windows", "تصحيحات أمان Windows", "البنية التحتية لتكنولوجيا المعلومات لـ Windows", "أتمتة شبكة Windows", "إدارة تكوين Windows", "عمليات Windows IT", "Windows DevOps", "الأمن السيبراني لـ Windows", "أتمتة Windows IT", "كفاءة Windows IT"]
-cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.png"
+cover: "/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp"
 coverAlt: "رسم توضيحي متحرك يعرض شعار Windows محاطًا بتروس ترمز إلى التشغيل الآلي والتحديثات."
 coverCaption: ""
 ---

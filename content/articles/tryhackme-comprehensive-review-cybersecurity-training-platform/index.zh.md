@@ -6,7 +6,7 @@ draft: false
 description: "了解 TryHackMe 的强大功能：功能、定价、认证、网络服务等，让您掌握网络安全技能。"
 genre: ["技术", "网络安全", "在线学习", "道德黑客", "网络安全", "虚拟实验室", "认证", "学习路径", "实践经验", "TryHackMe 评论"]
 tags: ["TryHackMe", "TryHackMe 评论", "TryHackMe 证书", "TryHackMe 定价", "TryHackMe 网络服务 2", "订阅 TryHackMe", "TryHackMe 身份验证绕过", "TryHackMe 文件包含", "TryHackMe OWASP Top 10 演练", "TryHackMe VPN", "TryHackMe Windows 基础知识 1", "TryHackMe 活动目录", "TryHackMe 活动目录基础知识", "TryHackMe 答案", "TryHackMe Linux 基础知识第 3 部分", "TryHackMe 徽标", "TryHackMe Mitre", "TryHackMe Splunk", "TryHackMe SQL 注入", "TryHackMe 支持", "TryHackMe 威胁情报工具", "TryHackMe 上传漏洞", "TryHackMe 步行应用程序", "TryHackMe Windows 基础知识 2", "TryHackMe Windows 基础知识 3", "TryHackMe Blue", "TryHackMe Blue 演练"]
-cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.png"
+cover: "/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp"
 coverAlt: "一幅黑客披着超级英雄斗篷的图片，象征着通过 TryHackMe 网络安全培训获得的能力。"
 coverCaption: "利用 TryHackMe 增强自己的能力：释放你的网络安全超能力"
 ---

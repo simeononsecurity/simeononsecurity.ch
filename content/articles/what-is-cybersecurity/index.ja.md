@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバー脅威の種類、サイバーセキュリティの重要性、オンラインセキュリティを向上させるためのステップなど、サイバーセキュリティの基本を学ぶ。"
 tags: ["サイバーセキュリティ", "サイバー脅威", "オンラインセキュリティ", "データを保護する", "ウイルス", "マルウェア", "フィッシング詐欺", "ハッカーズ", "ナショナルセキュリティ", "知的財産権", "個人のプライバシー"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_a_computer_with_a_worried_face.webp"
 coverAlt: "ハッカーやサイバー犯罪者が映し出される中、心配そうな表情でPCに向かう人のイメージで、サイバー脅威の危険性とサイバーセキュリティの重要性を表現しています"
 coverCaption: ""
 ---

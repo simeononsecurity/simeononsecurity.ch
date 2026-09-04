@@ -6,7 +6,7 @@ draft: false
 description: "Explorer le monde des technologies et des concepts de routage, des protocoles de routage dynamiques tels que RIP, OSPF, EIGRP et BGP aux protocoles de routage à état de liens, à vecteur de distance et hybrides, ainsi que la configuration du routage statique et des itinéraires par défaut."
 genre: ["Technologie", "Mise en réseau", "Routage", "Protocoles de réseau", "Gestion du réseau", "Routage dynamique", "Routage statique", "Gestion de la bande passante", "Qualité du service", "Dispositifs de réseau"]
 tags: ["technologies de routage", "les protocoles de routage dynamique", "RIP", "OSPF", "EIGRP", "BGP", "état du lien", "vecteur de distance", "protocoles de routage hybrides", "routage statique", "routes par défaut", "distance administrative", "routage extérieur", "routage intérieur", "le temps de vivre", "gestion de la bande passante", "mise en forme du trafic", "la qualité du service", "dispositifs de réseau", "routeurs", "interrupteurs", "pare-feu", "équilibreurs de charge", "points d'accès", "optimisation du réseau", "performance du réseau", "sécurité des réseaux", "architecture du réseau", "le trafic sur le réseau"]
-cover: "/img/cover/An_illustration_of_interconnected_network_devi.png"
+cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "Illustration de dispositifs de réseau interconnectés entre lesquels circulent des données."
 coverCaption: "Naviguer sur l'autoroute numérique : Optimiser le routage des réseaux pour des performances maximales"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Descubra cómo las tarjetas de débito virtuales de Privacy.com pueden reforzar su seguridad en Internet y proteger su intimidad, a la vez que le ofrecen un fácil control de las transacciones y suscripciones."
 genre: ["Seguridad en línea", "Privacidad digital", "Tarjetas de débito virtuales", "Protección financiera", "Transacciones en línea", "Prevención del fraude", "Protección de datos", "Financial Privacy", "Ciberseguridad", "Finanzas personales"]
 tags: ["Privacidad", "Tarjetas de débito virtuales", "Seguridad en línea", "Privacidad digital", "Protección financiera", "Cifrado de datos", "Prevención del fraude", "Transacciones seguras", "Seguridad bancaria", "Controles de privacidad", "Gastos recurrentes", "Tarjetas de bloqueo de comercios", "Protección de datos financieros", "Seguridad en los pagos", "Normativa sobre privacidad", "Conformidad", "PCI DSS", "GDPR", "Oficina de Protección Financiera del Consumidor", "Tecnología financiera", "Pagos seguros en línea", "Tarjetas virtuales para la intimidad", "Gasto controlado", "Suscripciones en línea", "Gestión de las finanzas personales", "Prevención de la violación de datos", "Pagos digitales seguros", "Soluciones de ciberseguridad", "Proteger la información financiera", "Privacidad mejorada"]
-cover: "/img/cover/privacy_virtual_cards.png"
+cover: "/img/cover/privacy_virtual_cards.webp"
 coverAlt: "Imagine una ilustración digital vibrante y dinámica que muestre una tarjeta virtual blindada protegiendo el símbolo de un candado, en representación de la mayor seguridad y privacidad que ofrecen las tarjetas de débito virtuales de Privacy.com."
 coverCaption: "Proteja, controle y potencie sus transacciones en línea."
 ---

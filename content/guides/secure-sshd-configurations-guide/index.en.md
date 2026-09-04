@@ -6,7 +6,7 @@ draft: false
 description: "Discover how to achieve secure SSHD configurations effortlessly, fortify your server, and thwart cyber threats with our expert guidance on SSH security."
 genre: ["Cybersecurity", "SSH Configuration", "Server Security", "SSH Best Practices", "Network Security", "Data Protection", "Remote Access", "IT Security", "Secure Server", "Digital Defense"]
 tags: ["Secure SSHD Configurations", "SSH Security", "SSH Daemon", "Server Protection", "Cybersecurity Tips", "SSH Configuration Guide", "Network Security", "SSH Best Practices", "2FA for SSH", "SSH Logs Monitoring", "Server Hardening", "SSH Key Authentication", "SSHD Vulnerabilities", "SSH Access Control", "Data Encryption", "Cyber Threats", "DDoS Mitigation", "SSH Updates", "NIST Guidelines", "Remote Access Security", "Digital Defense", "Effortless Security", "Server Safety", "SSH Defense Strategies", "Cyber Resilience", "IT Security Measures", "Harden SSHD", "SSH Security Checklist", "Securing Remote Access", "Protecting SSH"]
-cover: "/img/cover/Secure-SSHD-Configurations.png"
+cover: "/img/cover/Secure-SSHD-Configurations.webp"
 coverAlt: "A shielded server with a lock, symbolizing secure SSHD configurations."
 coverCaption: "Maximize Your SSHD Security"
 ref: ["/articles/what-are-the-diferent-kinds-of-factors-in-mfa", "/articles/ten-essential-password-security-guidelines-to-follow", "/guides/automate-linux-patching-and-updates-with-ansible"]

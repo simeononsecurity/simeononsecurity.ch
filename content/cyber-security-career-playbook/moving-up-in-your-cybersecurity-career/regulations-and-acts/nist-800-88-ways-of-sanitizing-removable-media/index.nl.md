@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer meer over de door NIST goedgekeurde manieren om harde schijven, SSD's, USB flash drives, CD's, DVD's en Blu-ray disks te zuiveren om gevoelige gegevens te beschermen tegen ongeautoriseerde toegang."
 tags: ["Door NIST goedgekeurde methoden", "Verwijderbare media desinfecteren", "Harde schijven", "SSD's", "USB-sticks", "CD's", "DVD's", "Blu-ray schijven", "Gegevensbeveiliging", "Bescherming van gevoelige gegevens"]
-cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.png"
+cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
 coverAlt: "Een afbeelding van een persoon die een USB-stick vasthoudt met een papierversnipperaar op de achtergrond"
 coverCaption: ""
 ---

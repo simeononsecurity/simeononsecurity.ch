@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、強力なアクセス制御の実装、ソフトウェアの最新状態の維持、ウイルス対策ソフトウェアの使用、ファイアウォール保護の有効化、データ暗号化の実装、データの定期的なバックアップなど、NISTの推奨事項に基づき、ワークステーションを保護し機密情報を保護する方法をご紹介します。"
 tags: ["NISTの勧告", "ワークステーションセキュリティ", "サイバーセキュリティ", "データあんごうか", "ファイアウォールプロテクション", "アンチウイルスソフト", "アクセス制御", "機密情報", "サイバー攻撃", "データバックアップ"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "ワークステーションに座る人の手前にセキュリティロックがあるイメージで、ワークステーションのセキュリティ確保の重要性を示しています。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Manténgase informado sobre la evolución del panorama de la ciberseguridad, las amenazas emergentes y las contramedidas eficaces para protegerse de los ciberataques."
 genre: ["Amenazas para la ciberseguridad", "Tendencias emergentes", "Contramedidas", "Panorama de las ciberamenazas", "Riesgos tecnológicos", "Filtraciones de datos", "Ataques de ransomware", "Técnicas de phishing", "Vulnerabilidades de IoT", "Amenazas internas"]
 tags: ["amenazas a la ciberseguridad", "tendencias emergentes", "contramedidas", "panorama de las ciberamenazas", "riesgos tecnológicos", "violaciones de datos", "ataques de ransomware", "técnicas de phishing", "Vulnerabilidades de IoT", "amenazas internas", "ciberataques", "concienciación sobre ciberseguridad", "protocolos de seguridad", "seguridad de la red", "protección de datos", "inteligencia artificial", "aprendizaje automático", "detección y respuesta a puntos extremos", "evaluaciones de seguridad", "intercambio de información", "formación de empleados", "auditorías de seguridad", "ciberataques de estados-nación", "La IA en la ciberseguridad", "buenas prácticas de ciberseguridad", "cultura de seguridad", "normativa gubernamental", "ciberresiliencia", "informática cuántica", "tecnología blockchain"]
-cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.png"
+cover: "/img/cover/the-evolving-landscape-of-cybersecurity-threats.webp"
 coverAlt: "Un escudo con el símbolo de un candado que representa la ciberseguridad, rodeado de dispositivos interconectados y código binario"
 coverCaption: "Defiéndase contra las ciberamenazas con un escudo de ciberseguridad resistente."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Unlock the secrets of cables, connectors, and IP addressing with this comprehensive guide. Learn about different cable types, termination standards, and IP addressing schemes for efficient network design and management."
 genre: ["Technology", "Networking", "IT Infrastructure", "Network Administration", "Fiber Optics", "Ethernet", "IP Addressing", "Cable Types", "Connectors", "Subnet Configuration"]
 tags: ["cables", "connectors", "IP addressing", "network infrastructure", "fiber optics", "Ethernet", "subnet configuration", "cable types", "termination standards", "fiber types", "IP addressing schemes", "twisted pair", "Cat 5", "Cat 5e", "Cat 6", "Cat 6a", "Cat 7", "Cat 8", "coaxial", "RG-6", "LC connector", "ST connector", "SC connector", "MT connector", "RJ11", "RJ45", "F-type connector", "SFP", "SFP Plus", "QSFP", "QSFP Plus", "patch panel", "fiber distribution panel"]
-cover: "/img/cover/An_image_depicting_various_cables_and_connectors.png"
+cover: "/img/cover/An_image_depicting_various_cables_and_connectors.webp"
 coverAlt: "An image depicting various cables and connectors interconnecting devices in a network environment."
 coverCaption: "Unleash the Power of Cables and Connectors!"
 ---

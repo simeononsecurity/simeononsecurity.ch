@@ -6,7 +6,7 @@ date: 2023-06-13
 description: "Informieren Sie sich über gängige Bedrohungen der Cybersicherheit, ihre Auswirkungen auf Privatpersonen und Unternehmen sowie über wirksame Möglichkeiten, sich dagegen zu schützen."
 genre: ["Cybersecurity-Bedrohungen", "Bedeutung der Cybersicherheit", "Arten von Bedrohungen", "Auswirkungen von Bedrohungen", "Schutz vor Bedrohungen", "Die Rolle der Regierung bei der Cybersicherheit", "Die Rolle der Industrie bei der Cybersicherheit", "Vorschriften und Einhaltung", "Öffentlich-private Partnerschaften", "Cybersicherheitsforschung und -entwicklung"]
 tags: ["Bedrohungen der Cybersicherheit", "Cyber-Angriffe", "Cybersicherheitsmaßnahmen", "kleine Unternehmen", "finanzielle Verluste", "Rufschädigung", "Datenschutzverletzungen", "Identitätsdiebstahl", "Phishing", "Ransomware", "DDoS-Angriffe", "Insider-Bedrohungen", "Software-Aktualisierungen", "sichere Passwörter", "Mitarbeiterschulung", "Multi-Faktor-Authentifizierung", "Daten-Backups", "staatliche Vorschriften", "Compliance", "öffentlich-private Partnerschaften", "Forschung und Entwicklung im Bereich der Cybersicherheit", "Bedeutung der Cybersicherheit", "Schutz von Einzelpersonen", "Schutz der Unternehmen", "Rolle der Regierung", "Rolle der Industrie", "behördliche Geldbußen", "Reputationsschaden", "GDPR", "CISA"]
-cover: "/img/cover/understanding-common-cybersecurity-threats.png"
+cover: "/img/cover/understanding-common-cybersecurity-threats.webp"
 coverAlt: "Symbolische Darstellung eines Schildes zum Schutz digitaler Werte vor Cyber-Bedrohungen mit binärem Code im Hintergrund."
 ---
 

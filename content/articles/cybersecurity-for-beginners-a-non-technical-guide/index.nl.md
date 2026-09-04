@@ -6,7 +6,7 @@ date: 2023-06-11
 description: "Leer de basisprincipes van cyberbeveiliging en praktische tips om je digitale leven te beschermen tegen cyberbedreigingen in deze uitgebreide gids."
 genre: ["Cyberbeveiliging", "Online beveiliging", "Digitale veiligheid", "Cyberbedreigingen", "Privacy op internet", "Gegevensbescherming", "Informatiebeveiliging", "Technologie", "Cyberverdediging", "Cyberbewustzijn"]
 tags: ["cyberbeveiliging", "online beveiliging", "digitale veiligheid", "cyberbedreigingen", "internetprivacy", "gegevensbescherming", "informatiebeveiliging", "technologie", "cyberdefensie", "cyberbewustzijn", "basiskennis cyberbeveiliging", "digitaal leven", "cyberaanvallen", "online bescherming", "gegevensbeveiliging", "computerveiligheid", "netwerkbeveiliging", "online privacy", "wachtwoordbeveiliging", "phishing-aanvallen", "bescherming tegen malware", "tips voor cyberbeveiliging", "cyberhygiëne", "cyberbeveiligingsmaatregelen", "cyberbeveiligingspraktijken", "cyberdreigingslandschap", "cyberbeveiligingsgids", "cyberbeveiligingsfundamenten", "datalekken", "cyberbeveiliging voor beginners", "tips voor online veiligheid", "cyberbewustzijn"]
-cover: "/img/cover/cybersecurity-for-beginners.png"
+cover: "/img/cover/cybersecurity-for-beginners.webp"
 coverAlt: "Een cartoonillustratie van een schild dat een digitaal apparaat beschermt tegen cyberbedreigingen"
 ---
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-23
 description: "Conozca las tácticas utilizadas por los estafadores de phishing y descubra estrategias efectivas para protegerse de convertirse en una víctima."
 tags: ["estafas de phishing", "la seguridad cibernética", "amenazas en línea", "falsificación de correo electrónico", "Ingeniería social", "Protección de malware", "Seguridad en linea", "seguridad de datos", "el robo de identidad", "seguridad de contraseña", "Autenticación de dos factores", "actualizaciones de software", "regulaciones gubernamentales", "privacidad en línea", "conciencia cibernética", "fraude digital", "conciencia de phishing", "seguridad en las redes sociales", "estafas en línea", "prevención del cibercrimen"]
-cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.png"
+cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
 coverAlt: "Un escudo vigilante que protege a un usuario de los ataques de phishing"
 coverCaption: ""
 ---

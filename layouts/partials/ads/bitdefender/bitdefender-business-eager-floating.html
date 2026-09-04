@@ -1,5 +1,5 @@
-{{ $tinysrc := resources.Get "img/ads/bitdefender/bitwarden-business-300x250.jpeg" }}
-{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".jpeg" "" }}
+{{ $tinysrc := resources.Get "img/ads/bitdefender/bitwarden-business-300x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
 {{ $tiny := ($tinysrc.Resize "255x212 webp q80") }}
   {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
   {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}

@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite la potenza dei comandi PowerShell di Windows Defender e imparate a migliorare la sicurezza del vostro sistema con il controllo della riga di comando."
 genre: ["Windows Defender", "Comandi PowerShell", "sicurezza del sistema", "controllo a riga di comando", "antivirus", "Sistemi operativi Windows", "protezione da malware", "impostazioni di sicurezza avanzate", "automatizzare le operazioni di sicurezza", "Windows PowerShell"]
 tags: ["Tecnologia", "Sicurezza informatica", "Sistemi operativi", "Finestre", "Strumenti a riga di comando", "Sicurezza del sistema", "PowerShell", "Antivirus", "Protezione da malware", "Scripting"]
-cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.png"
+cover: "/img/cover/An_animated_illustration_depicting_a_shield_pr.webp"
 coverAlt: "Un'illustrazione animata che raffigura uno scudo che protegge un sistema informatico da varie minacce informatiche."
 coverCaption: "Potenziare la sicurezza del sistema con i comandi PowerShell di Windows Defender."
 ---

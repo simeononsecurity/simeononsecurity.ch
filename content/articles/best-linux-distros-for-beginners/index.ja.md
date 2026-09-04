@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Ubuntu、Zorin OS、Linux Mint、Manjaroなど、ユーザーフレンドリーなインターフェイスと優れたコミュニティサポートを提供する、初心者に最適なLinuxディストロをご紹介します。"
 tags: ["Linuxディストロ", "ウブントゥ", "ゾーリンOS", "Linux Mint", "マンジャロ", "初級者", "ユーザーフレンドリーインターフェース", "ハードウェアの互換性", "地域支援", "オープンソース", "Debianベース", "Windowsライクなインターフェイス", "ローリングリリース", "Cinnamonデスクトップ環境", "Xfceデスクトップ環境", "KDE Plasmaデスクトップ環境", "GNOMEデスクトップ環境", "ソフトウエアリポジトリ", "包括的文書化", "プリインストールソフトウェア", "最新ソフトウェアアップデート", "タスクバー", "スタートメニュー", "システムトレイ", "マルチメディアコーデック", "パッケージマネージャ", "しじょうコミュニティ", "官制", "法務コンプライアンス", "セキュアコンピューティング経験"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "多様なコンピューターユーザーが様々なLinuxディストロを笑顔で使いこなし、初心者でも簡単に使えるLinuxを紹介するイラストです。"
 coverCaption: ""
 ---

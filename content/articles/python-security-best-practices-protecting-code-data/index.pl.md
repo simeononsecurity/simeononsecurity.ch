@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj najważniejsze najlepsze praktyki bezpieczeństwa Python, aby zabezpieczyć swój kod i dane przed potencjalnymi zagrożeniami, zapewniając ochronę danych, integralność systemu i budowanie zaufania."
 genre: ["Bezpieczeństwo Python", "Bezpieczeństwo kodu", "Ochrona danych", "Rozwój oprogramowania", "Cyberbezpieczeństwo", "Bezpieczne kodowanie", "Tworzenie stron internetowych", "Prywatność danych", "Bezpieczeństwo aplikacji", "Bezpieczeństwo IT"]
 tags: ["bezpieczeństwo python", "najlepsze praktyki", "bezpieczeństwo kodu", "ochrona danych", "integralność systemu", "bezpieczne kodowanie", "prywatność danych", "bezpieczeństwo aplikacji", "cyberbezpieczeństwo", "tworzenie stron internetowych", "rozwój oprogramowania", "programowanie w pythonie", "bezpieczne programowanie", "szyfrowanie danych", "Kontrola dostępu oparta na rolach", "bezpieczna obsługa haseł", "walidacja danych wejściowych", "Zapobieganie iniekcjom SQL", "bezpieczeństwo bazy danych", "zarządzanie zależnościami", "rejestrowanie i monitorowanie", "szkolenie dla deweloperów", "interpreter pythona", "dokumentacja bezpieczeństwa python", "Szyfrowanie AES", "Szyfrowanie TLS", "OWASP", "NIST", "Snyk"]
-cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.png"
+cover: "/img/cover/An_illustration_of_a_shield_protecting_Python.webp"
 coverAlt: "Ilustracja tarczy chroniącej kod i dane Pythona, symbolizująca najlepsze praktyki bezpieczeństwa Pythona."
 coverCaption: "Zabezpiecz swój kod i dane w Pythonie za pomocą tych najlepszych praktyk."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Odkryj najlepsze dystrybucje Linuksa zapewniające prywatność i bezpieczeństwo, zapewniając ochronę danych i bezpieczeństwo działań online."
 tags: ["Dystrybucje Linuksa", "prywatność i bezpieczeństwo", "Ogony", "Qubes OS", "Whonix", "Parrot Security OS", "Ubuntu Privacy Remix", "OpenBSD", "ochrona danych", "bezpieczne przetwarzanie danych", "anonimowe przeglądanie", "wirtualizacja", "testy bezpieczeństwa", "analiza kryminalistyczna", "testy penetracyjne", "narzędzia szyfrujące", "bezpieczne usuwanie", "anonymity", "cyberbezpieczeństwo", "poprawność kodu", "bezpieczeństwo online", "ochrona danych użytkownika", "poufność", "odzyskiwanie danych", "bankowość internetowa", "prywatność online", "bezpieczne środowisko", "bezpieczne przeglądanie", "Sieć Tor", "środki bezpieczeństwa", "domyślnie bezpieczny"]
-cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.png"
+cover: "/img/cover/An_image_depicting_a_shield_protecting_a_computer_symbolism.webp"
 coverAlt: "Obraz przedstawiający tarczę chroniącą komputer, symbolizującą prywatność i bezpieczeństwo w cyfrowym świecie."
 coverCaption: ""
 ---

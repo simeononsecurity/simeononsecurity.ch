@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra posibles indicadores de amenazas internas y estrategias de mitigación eficaces para proteger la seguridad de su organización."
 tags: ["indicadores de amenazas internas", "mitigar las amenazas internas", "riesgos potenciales", "ciberseguridad", "seguridad de los datos", "supervisión de los empleados", "controles de acceso", "análisis del comportamiento de los usuarios", "formación sobre concienciación en materia de seguridad", "cumplimiento de la normativa", "protección de datos", "supervisión de redes", "comportamiento de los empleados", "acceso a los datos", "actividad inusual en la red", "cambio en las pautas de trabajo", "dificultades financieras", "descontento", "comportamiento en línea", "políticas de seguridad", "plan de respuesta a incidentes", "NISPOM", "HIPAA", "GDPR", "gestión de riesgos", "detección de amenazas", "mitigación de las amenazas internas", "acceso privilegiado", "comportamiento sospechoso", "prevención de amenazas internas"]
-cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.png"
+cover: "/img/cover/An_animated_illustration_showing_a_team_of_diverse.webp"
 coverAlt: "Ilustración animada que muestra a un equipo de diversos profesionales debatiendo sobre ciberseguridad mientras están rodeados de candados e iconos de escudos."
 coverCaption: ""
 ---

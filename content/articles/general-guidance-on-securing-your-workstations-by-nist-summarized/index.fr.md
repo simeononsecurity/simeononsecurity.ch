@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à sécuriser vos postes de travail et à protéger les informations sensibles grâce à ce guide complet basé sur les recommandations du NIST concernant la mise en œuvre de contrôles d'accès stricts, la mise à jour des logiciels, l'utilisation de logiciels antivirus, l'activation d'une protection par pare-feu, la mise en œuvre du cryptage des données et la sauvegarde régulière des données."
 tags: ["Recommandations du NIST", "sécurité des postes de travail", "cybersécurité", "cryptage des données", "protection par pare-feu", "logiciel antivirus", "les contrôles d'accès", "informations sensibles", "cyberattaques", "sauvegarde des données"]
-cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.png"
+cover: "/img/cover/An_image_of_a_person_sitting_at_their_workstation.webp"
 coverAlt: "Image d'une personne assise à son poste de travail avec un cadenas de sécurité au premier plan, indiquant l'importance de sécuriser les postes de travail."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Untersuchen Sie die Bedeutung, die Klassifizierungsstufen, die Handhabung und die Vorschriften von sensiblen Informationen (SCI) für Zwecke der nationalen Sicherheit."
 genre: ["Informationssicherheit", "Nationale Sicherheit", "Geheimdienst", "Klassifizierte Informationen", "Staatliche Vorschriften", "Zugangskontrollen", "Sicherheitsfreigaben", "Geheimdienstgemeinschaft", "Verteidigungsindustrie", "Geheimdienstliche Operationen"]
 tags: ["Sensible, unter Verschluss gehaltene Informationen", "SCI", "Verschlusssachen", "nationale Sicherheit", "nachrichtendienstliche Quellen", "nachrichtendienstliche Tätigkeiten", "Zugangskontrollen", "Sicherheitsüberprüfungen", "staatliche Vorschriften", "Informationssicherheit", "Umgang mit Verschlusssachen", "Handhabungsanforderungen", "Weisungen der Geheimdienste", "Direktor des Nationalen Nachrichtendienstes Sicherheitshandbuch", "Nationales Programm für industrielle Sicherheit Betriebshandbuch", "Geheimdienstgemeinschaft", "Verteidigungsindustrie", "Sicherheitsmaßnahmen", "Compliance", "Sicherheitsverfahren", "Geheimdienstaktivitäten", "Spionageabwehr", "außenpolitische Entscheidungen", "Bedrohungen", "Informationsvertraulichkeit", "Informationsintegrität", "Verfügbarkeit von Informationen", "ODNI", "DCSA", "Vorschriften", "Beaufsichtigung"]
-cover: "/img/cover/An_image_representing_sci.png"
+cover: "/img/cover/An_image_representing_sci.webp"
 coverAlt: "Ein Bild, das Sensitive Compartmented Information (SCI) darstellt, mit einem Schild als Symbol für Sicherheit, einem Schloss als Symbol für Vertraulichkeit und einer Weltkugel als Symbol für nationale Sicherheit."
 coverCaption: "Schutz der nationalen Sicherheit durch sicheren Umgang mit sensiblen Informationen (SCI)."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "美国国防部 5220.22-M 规范是安全擦除数字存储介质中敏感信息的重要标准，被美国军队和政府组织广泛使用。"
 tags: ["数据清除", "安全清除", "敏感信息", "数据安全", "数字存储媒体", "DoD 5220.22-M", "数据保护", "数据隐私", "信息安全", "数据处理", "防止数据泄露", "数据清理软件", "数字安全", "数据销毁", "数据管理", "安全清除数据", "防止数据恢复", "网络安全", "数据擦除", "信息管理", "安全处置", "数据销毁方法", "数据清理过程", "数据覆盖", "数据验证", "数据清理标准", "数据处理最佳实践", "安全数据处理", "安全再用", "数据清理合规性", "安全数据管理"]
-cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.png"
+cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
 coverAlt: "使用数据清除软件安全清除硬盘的图像，前景是挂锁或象征安全的盾牌"
 coverCaption: ""
 ---

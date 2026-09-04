@@ -12,7 +12,7 @@ put it in /layouts/partials/prepended_head.html. Do not put anything in this fil
 {{ if .Params.cover -}}
 <meta property="og:image" content="{{ .Params.cover | absURL }}">
 {{- else -}}
-<meta property="og:image" content="https://simeononsecurity.ch/img/banner.png">
+<meta property="og:image" content="https://simeononsecurity.ch/img/banner.webp">
 {{- end }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}">

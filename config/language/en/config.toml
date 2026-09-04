@@ -51,9 +51,9 @@ name = "SimeonOnSecurity"
 enableMissingTranslationPlaceholders = true
 
 googleAnalytics = "G-"
-images = ["/img/banner.png"]
-logo = "/img/banner.png"
-rssImage = "/img/banner.png"
+images = ["/img/banner.webp"]
+logo = "/img/banner.webp"
+rssImage = "/img/banner.webp"
 
 contentTypeName = "guides"
 contentdir = "content"
@@ -85,11 +85,11 @@ twitter = "https://twitter.com/simeonsecurity"
 facebook = ""
 
 alternatePageName = "SimeonOnSecurity"
-organizationLogo = "/img/banner.png"
+organizationLogo = "/img/banner.webp"
 organizationName = "SimeonOnSecurity"
 
 publisherName = "SimeonOnSecurity"
-publisherLogo = "/img/banner.png"
+publisherLogo = "/img/banner.webp"
 publisherLogoWidth = 460
 publisherLogoHeight = 460
 

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Entdecken Sie die besten Linux-Distributionen für Einsteiger, darunter Ubuntu, Zorin OS, Linux Mint und Manjaro, mit benutzerfreundlichen Oberflächen und hervorragendem Community-Support."
 tags: ["Linux-Distros", "Ubuntu", "Zorin OS", "Linux Minze", "Manjaro", "beginners", "benutzerfreundliche Schnittstelle", "Hardware-Kompatibilität", "Gemeinschaftsunterstützung", "Open-Source", "Debian-basiert", "Windows-ähnliche Schnittstelle", "rollende Freigabe", "Zimt-Desktop-Umgebung", "Xfce-Desktop-Umgebung", "KDE Plasma Desktop-Umgebung", "GNOME-Desktop-Umgebung", "Software-Repository", "umfassende Dokumentation", "vorinstallierte Software", "neueste Software-Updates", "Taskleiste", "Startmenü", "Systemfach", "Multimedia-Codecs", "Paketmanager", "hilfreiche Gemeinschaft", "staatliche Vorschriften", "Einhaltung von Rechtsvorschriften", "Erfahrung mit sicherer Datenverarbeitung"]
-cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.png"
+cover: "/img/cover/An_illustration_showing_a_group_of_diverse_computer_users.webp"
 coverAlt: "Eine Illustration, die eine Gruppe unterschiedlicher Computerbenutzer zeigt, die verschiedene Linux-Distributionen mit einem Lächeln auf den Lippen verwenden, um die Einfachheit und Integrationsfähigkeit von Linux für Anfänger zu verdeutlichen"
 coverCaption: ""
 ---

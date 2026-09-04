@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Ansible、Docker 和 Kubernetes 在实现网络安全流程自动化和降低数据泄露风险方面的强大功能。"
 tags: ["Ansible", "Docker", "Kubernetes", "网络安全自动化", "脆弱性评估", "补丁管理", "容器协调", "网络分割", "基于角色的访问控制", "秘密管理", "安全扫描", "图像签名", "自动化工具", "信息技术基础设施", "防止数据泄露", "提高效率", "安全自动化", "配置管理", "应用程序部署", "集装箱化", "集装箱安全", "可扩展系统", "安全环境", "网络安全", "网络安全最佳做法", "降低风险", "安全管理", "IT 运营", "高效的工作流程", "安全系统自动化", "信息技术效率"]
-cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.png"
+cover: "/img/cover/An_image_of_three_gears_colored_red_blue_and_blue_interlocking.webp"
 coverAlt: "红、蓝、蓝三色齿轮交错转动的图像，象征它们在网络安全自动化流程中的整合与协作"
 coverCaption: ""
 ---

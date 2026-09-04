@@ -6,7 +6,7 @@ draft: false
 description: "Master cybersecurity jargon effortlessly with our guide. Stay secure online."
 genre: ["Cybersecurity", "Technology", "Digital Security", "Online Threats", "Internet Safety", "Data Protection", "Privacy", "Online Defense", "IT Security", "Cyber Threats"]
 tags: ["Cybersecurity Jargon", "Digital Defense", "Online Security", "Malware", "Phishing", "DDoS Attacks", "Firewall", "VPN", "Two-Factor Authentication", "GDPR", "HIPAA", "Cyber Threats", "Data Protection", "Online Privacy", "Internet Safety", "Online Threats", "Cybersecurity Terms", "Cybersecurity Concepts", "Antivirus Software", "Intrusion Detection", "Phishing Attacks", "DDoS Mitigation", "VPN Encryption", "Two-Factor Verification", "GDPR Compliance", "HIPAA Regulations", "Cybersecurity Guide", "Online Safety Tips", "Cybersecurity Glossary"]
-cover: "/img/cover/cybersecurity-jargon-illustration.png"
+cover: "/img/cover/cybersecurity-jargon-illustration.webp"
 coverAlt: "A symbolic, 3D animated illustration representing cybersecurity concepts."
 coverCaption: "help Your Digital Defense"
 canonical: ""

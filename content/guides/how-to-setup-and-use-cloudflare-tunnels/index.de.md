@@ -6,7 +6,7 @@ date: 2023-05-26
 lastmod: 2026-05-24
 description: "Erfahren Sie, wie Sie Cloudflare Tunnels einrichten, um Ihren Netzwerktraffic zu vereinfachen und zu schützen – für mehr Leistung und Sicherheit."
 tags: ["Cloudflare Tunnels", "Netzwerksicherheit", "Website-Performance", "Proxy-Server", "Webtraffic", "Netzwerkkonfiguration", "Ubuntu Server", "Cloudflare-Konto", "Authentifizierung", "Tunnel erstellen", "Traffic-Routing", "DNS-Einträge", "sichere Verbindung", "Website-Hosting", "Proxy-Dienst", "Netzwerkschutz", "Performance-Optimierung", "Cloudflare-Integration", "Serverkonfiguration", "Traffic-Verschlüsselung", "cloudflared", "Tunnel-Technologie", "Websicherheit", "Ubuntu Setup"]
-cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.png"
+cover: "/img/cover/An_illustration_showing_a_network_tunnel_connecting_a_local.webp"
 coverAlt: "Eine Illustration, die einen Netzwerktunnel zeigt, der einen lokalen Server mit dem Cloudflare-Logo verbindet und den sicheren sowie vereinfachten Netzwerktraffic symbolisiert."
 coverCaption: ""
 ---

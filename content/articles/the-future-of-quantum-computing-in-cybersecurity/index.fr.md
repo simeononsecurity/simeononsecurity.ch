@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorer l'avenir de l'informatique quantique et son impact sur la cybersécurité, y compris la cryptographie post-quantique et les vulnérabilités des algorithmes cryptographiques classiques."
 tags: ["Informatique quantique", "Cybersécurité", "Qubits", "RSA", "CEC", "Cryptographie post-quantique", "Recuit quantique", "Suprématie quantique", "Superposition", "Entanglement", "Algorithmes cryptographiques", "Infrastructure numérique", "Problèmes d'optimisation", "Géants de la technologie", "Recherche et développement", "Décohérence", "Online transactions", "Messagerie sécurisée", "Banque en ligne", "Découverte de médicaments"]
-cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.png"
+cover: "/img/cover/An_animated_image_of_a_hacker_trying_to_break_into_a_computer.webp"
 coverAlt: "Image animée d'un pirate informatique qui tente de s'introduire dans un système informatique protégé par le cryptage RSA, mais qui échoue alors qu'un ordinateur quantique résout le cryptage en quelques secondes en arrière-plan."
 coverCaption: ""
 ---

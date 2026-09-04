@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ein Leitfaden für die Netzwerksegmentierung zur Verbesserung der Sicherheit und Verringerung der Risiken in Ihrem Unternehmen."
 tags: ["Netzwerksegmentierung", "die Sicherheit verbessern", "das Risiko verringern", "Netzleistung", "Netzmanagement", "Sicherheitskontrollen", "Firewalls", "Zugangskontrollen", "geringstes Privileg", "Authentifizierung", "Testen", "Überwachung", "Cyber-Bedrohungen", "Datenschutzverletzungen", "Netzarchitektur", "umfassende Sicherheit", "mehrschichtige Sicherheit", "Schwachstellen", "Cyber-Angriffe", "Mitarbeiterschulung"]
-cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.png"
+cover: "/img/cover/An_image_of_a_network_with_multiple_segments_being_protected.webp"
 coverAlt: "Ein Bild eines Netzes mit mehreren Segmenten, die durch eine Firewall und Zugangskontrollmechanismen geschützt sind, wobei ein Hacker von außerhalb des Netzes versucht, in das Netz einzudringen."
 coverCaption: ""
 ---

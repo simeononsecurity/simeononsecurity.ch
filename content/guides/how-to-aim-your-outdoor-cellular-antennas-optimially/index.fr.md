@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Apprenez à pointer et à viser votre antenne cellulaire directionnelle pour une force et une fiabilité optimales du signal, y compris la localisation des tours cellulaires et la compréhension des zones de Fresnel."
 tags: ["antenne cellulaire", "antenne directionnelle", "amplificateur de téléphone portable", "modem cellulaire", "force du signal", "tours cellulaires", "ligne de mire radio", "ligne de mire visuelle", "Zone de Fresnel", "visée de l'antenne", "optimiser le signal", "connectivité cellulaire", "améliorer la force du signal", "booster le signal cellulaire", "amplificateur de signal cellulaire", "emplacement de la tour cellulaire", "pose d'antenne", "propagation du signal", "Communication sans fil", "meilleure couverture du réseau", "guide de pointage", "techniques de visée", "optimisation d'antenne cellulaire", "fiabilité du signal", "performances du réseau", "amélioration du signal cellulaire", "alignement d'antenne", "conseils d'optimisation du signal", "emplacement de l'antenne cellulaire", "stratégies d'amplification du signal", "instructions de pointage de l'antenne"]
-cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.png"
+cover: "/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp"
 coverAlt: "Illustration d'une personne pointant une antenne cellulaire directionnelle vers une tour cellulaire avec des ondes de signal se propageant."
 coverCaption: ""
 ---
