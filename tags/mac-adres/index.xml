@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MAC-Adres on simeononsecurity</title><image><url>https://nl.simeononsecurity.com/tags/mac-adres//img/banner.webp</url><title>MAC-Adres on simeononsecurity</title><link>https://nl.simeononsecurity.com/tags/mac-adres/</link></image><link>https://nl.simeononsecurity.com/tags/mac-adres/</link><description>Recent content in MAC-Adres on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/tags/mac-adres/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Kaart van Flock Safety ALPR-camera's</title><link>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Tegenbewaking"
+, "Open-sourceprojecten"
+, "Digitale rechten"
+, "Netwerkbeveiliging"
+, "Privacy-tools"
+, "Hardware-hacking"
+, "Beveiligingsonderzoek"</category><guid>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is een open-source tool die wereldwijd meer dan 40.000 Flock Safety ALPR-camera's in kaart brengt met behulp van WiGLE WiFi-gegevens en OUI-vingerafdrukken. Leer hoe het werkt, de beperkingen en de hardwaretools voor realtime detectie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>De BGW-320 omzeilen: Een Azores COTS ONT gebruiken - een stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "Azoren"
+, "vezel"
+, "netwerk"
+, "XGS-PON"
+, "Ethernet"
+, "IP passthrough"
+, "maatwerk"
+, "ISP"
+, "hebben ID"
+, "MAC-adres"
+, "apparatuur-ID"
+, "beeldversie"
+, "hardwareversie"
+, "telnet"
+, "CLI-toepassing"
+, "web GUI"
+, "fabrieksconfiguratiemodus"
+, "compatibiliteitsproblemen"</category><guid>https://nl.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u de BGW-320 kunt omzeilen en een COTS ONT van Azores kunt gebruiken om verbinding te maken met het netwerk van uw ISP met deze gemakkelijk te volgen gids.</description></item></channel></rss>

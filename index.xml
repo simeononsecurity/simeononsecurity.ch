@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://nl.simeononsecurity.com//img/banner.webp</url><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link></image><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock-camera's: Instrument voor openbare veiligheid of machine voor bewaking zonder bevel?</title><link>https://nl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Bewaking"
+, "Burgerlijke vrijheden"
+, "Technologie voor rechtshandhaving"
+, "Digitale rechten"</category><guid>https://nl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een onafhankelijke analyse van Flock Safety ALPR-camera's: hoe ze werkelijk functioneren, welke gegevens ze verzamelen buiten kentekenplaten, hoe gegevensdeling een schaduwdatabase op nationaal niveau creëert, en waarom de kwestie van het bevel de echte kernvraag is.</description></item><item><title>Flock Finder: Kaart van Flock Safety ALPR-camera's</title><link>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Tegenbewaking"
+, "Open-sourceprojecten"
+, "Digitale rechten"
+, "Netwerkbeveiliging"
+, "Privacy-tools"
+, "Hardware-hacking"
+, "Beveiligingsonderzoek"</category><guid>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is een open-source tool die wereldwijd meer dan 40.000 Flock Safety ALPR-camera's in kaart brengt met behulp van WiGLE WiFi-gegevens en OUI-vingerafdrukken. Leer hoe het werkt, de beperkingen en de hardwaretools voor realtime detectie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock Safety Camerabewaking: Privacy en Bescherming</title><link>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Surveillancesystemen"
+, "Digitale Rechten"
+, "Wetshandhavingstechnologie"
+, "Privacybescherming"
+, "Contra-surveillance"
+, "Burgerlijke Vrijheden"
+, "Technologie-ethiek"
+, "Slimme Stadsinfrastructuur"
+, "Beveiligingshardware"</category><guid>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de wijdverspreide inzet van Flock Safety ALPR-camera's in 2026, begrijp de privacyimplicaties en leer effectieve contra-surveillancestrategieën inclusief detectieapparaten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Flock-You Detectie: Handleiding voor Contra-Surveillance</title><link>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Beveiligingshardware"
+, "Contra-surveillance"
+, "Privacytechnologie"
+, "Open Source Projecten"
+, "ESP32 Ontwikkeling"
+, "WiFi Monitoring"
+, "Privacytools"
+, "Digitale Rechten"
+, "Hardware Hacking"
+, "Netwerkbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide technische handleiding voor het open-source Flock-You project voor het detecteren van Flock Safety ALPR-camera's met ESP32-hardware. Inclusief installatie-instructies, firmware-details en aankoopinformatie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Beveiligde e-mailservice: Meer privacy met StartMail</title><link>https://nl.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Privacy"
+, "E-mail diensten"
+, "Online beveiliging"
+, "Digitale privacy"
+, "Encryptie"
+, "Gegevensbescherming"
+, "E-mail privacy"
+, "Identiteitsbescherming"
+, "Online privacy"</category><guid>https://nl.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek StartMail, een veilige e-mailservice met geavanceerde versleuteling en e-mailmaskering, die de grootst mogelijke privacy en bescherming tegen cyberbedreigingen biedt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Windows GVLK's: De kracht van licentiesleutels ontsluiten voor betere prestaties</title><link>https://nl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Software"
+, "Productiviteit"
+, "Besturingssystemen"
+, "Microsoft"
+, "Windows"
+, "Licentie"
+, "Sleutelbeheer"
+, "IT-oplossingen"
+, "Verbetering"</category><guid>https://nl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe Windows GVLK's de prestaties revolutioneren! Ontdek de beste licentiesleutels en verhoog de productiviteit van je systeem moeiteloos.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp" length="71578" type="image/webp"/></item><item><title>Windows 11-installatie automatiseren: TPM, Secure Boot en RAM-controles omzeilen</title><link>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installatie"
+, "Virtualisatie"
+, "Automatisering"
+, "Registersleutels"
+, "TPM omleiding"
+, "Beveiligd opstarten omzeilen"
+, "RAM omleiding"
+, "vTPM"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp"/></item><item><title>Spacemesh Mijnbouw: Het milieuvriendelijke pad naar gedecentraliseerde beloningen</title><link>https://nl.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><category>
+"Mijnen van cryptocurrency"
+, "Bewijs van ruimte-tijd"
+, "Gedecentraliseerde beloningen"
+, "Milieuvriendelijke mijnbouw"
+, "Blockchain Technologie"
+, "Cryptocurrency"
+, "Cryptomining"
+, "Bewijs van ruimte"
+, "Decentralisatie"
+, "Blockchain consensus"</category><guid>https://nl.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verdien milieuvriendelijke beloningen met Spacemesh mining, een gedecentraliseerde aanpak die gebruik maakt van het innovatieve PoST consensus algoritme.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/spacemesh-mining-rocket.webp" length="96402" type="image/webp"/></item><item><title>Verbeter veiligheid en privacy met Privacy.com virtuele kaarten</title><link>https://nl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate><category>
+"Online beveiliging"
+, "Digitale privacy"
+, "Virtuele betaalpassen"
+, "Financiële bescherming"
+, "Online transacties"
+, "Fraudepreventie"
+, "Privacy van gegevens"
+, "Financiële privacy"
+, "Cyberbeveiliging"
+, "Persoonlijke Financiën"</category><guid>https://nl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe de virtuele debetkaarten van Privacy.com je online veiligheid kunnen verbeteren en je privacy kunnen beschermen, terwijl je tegelijkertijd eenvoudig controle hebt over transacties en abonnementen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp"/></item><item><title>Verbeter de beveiliging van virtuele machines met vTPM: Stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Virtualisatie"
+, "VMware"
+, "vSphere"
+, "Beveiliging"
+, "Vertrouwde platformmodule"
+, "vTPM"
+, "Gast OS"
+, "Encryptie"
+, "Platform Attest"</category><guid>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter de beveiliging van virtuele machines met behulp van vTPM met onze uitgebreide stap-voor-stap handleiding, die ondersteuning biedt voor platform-attestatie en BitLocker-encryptie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>VMware vSphere onder de knie krijgen: Complete handleiding voor guest_os_type-waarden</title><link>https://nl.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://nl.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de geldige waarden voor het guest os-type voor vSphere Packer Builder, zodat u uw VM-creatieproces voor VMware vSphere eenvoudig kunt optimaliseren.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.webp" length="180110" type="image/webp"/></item><item><title>Affiliate informatieverschaffing: Steun ons en ontdek geweldige diensten</title><link>https://nl.simeononsecurity.com/affiliate/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Affiliate openbaarmaking"
+, "Online diensten"
+, "Productaanbevelingen"
+, "Digitale producten"
+, "Affiliate marketing"
+, "Online verdiensten"
+, "Website Monetization"
+, "Online verdienen"
+, "Internetmarketing"
+, "Transparantie"</category><guid>https://nl.simeononsecurity.com/affiliate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over ons beleid voor het bekendmaken van affiliates en ontdek topdiensten zoals Amazon, Audible, StartMail en meer.</description></item><item><title>De nationale veiligheid versterken: De impact van Bitcoin op Elektro-Cyber</title><link>https://nl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cryptocurrency"
+, "Cyberbeveiliging"
+, "Technologie"
+, "Nationale Veiligheid"
+, "Onderzoek"
+, "Financieel"
+, "Innovatie"
+, "Digitale valuta"
+, "Beleidsvorming"
+, "Blockchain"</category><guid>https://nl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verken de baanbrekende Power Projection Theory en de implicaties ervan voor de nationale veiligheid, nu Bitcoin verandert in een krachtige technologie voor elektro-cyberbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/empowered-national-security.webp" length="155026" type="image/webp"/></item><item><title>Privé webhosting: Bescherm uw online aanwezigheid met topaanbieders</title><link>https://nl.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><category>
+"Webhosting"
+, "Online privacy"
+, "Gegevensbeveiliging"
+, "Privé Hosting"
+, "Anoniem domein"
+, "Dedicated servers"
+, "VPS Hosting"
+, "Gegevensbescherming"
+, "Vrijheid van meningsuiting"
+, "Bitcoin-betalingen"</category><guid>https://nl.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vind de beste privé webhostingservice om je online aanwezigheid te beveiligen. Vergelijk Privex, OrangeWebsite, 1984 en Njalla voor de beste privacy en beveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy_hosting_security_shield.webp" length="98742" type="image/webp"/></item><item><title>OrangeWebsite Web Hosting: Ontketen uw online succes met snelheid en veiligheid</title><link>https://nl.simeononsecurity.com/articles/orangwebsite-web-hosting/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Webhosting"
+, "Cyberbeveiliging"
+, "Bedrijf"
+, "Digitale diensten"
+, "Website Beheer"
+, "Internet"
+, "E-commerce"
+, "Cloud Hosting"
+, "Server Hosting"</category><guid>https://nl.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van OrangeWebsite Web Hosting voor uw online ondernemingen - snelle, veilige en betrouwbare oplossingen voor al uw websitebehoeften.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp"/></item><item><title>Sessie vs Status vs Signaal vs Threema: Een uitgebreide vergelijking</title><link>https://nl.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><category>
+"Beveiligd berichtenverkeer"
+, "Privacy-gerichte communicatie"
+, "Messaging app vergelijking"
+, "Encryptieprotocollen"
+, "Cyberbeveiliging"
+, "Privécommunicatie"
+, "Berichtendiensten"
+, "Privacy van gegevens"
+, "End-to-end versleuteling"
+, "Analyse van het berichtenplatform"</category><guid>https://nl.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de belangrijkste verschillen en sterke punten van Session, Status, Signal en Threema in deze uitgebreide vergelijking van beveiligde berichtenservices.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure-messaging-comparison.webp" length="187968" type="image/webp"/></item><item><title>Veilige E-mail Showdown: StartMail vs ProtonMail vs Tutanota</title><link>https://nl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cyberbeveiliging"
+, "Privacy van gegevens"
+, "E-mail diensten"
+, "Online beveiliging"
+, "Encryptie"
+, "Internethulpmiddelen"
+, "Vergelijking"
+, "Digitale bescherming"
+, "Online privacy"</category><guid>https://nl.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de beste beveiligde e-mailservice! Een gedetailleerde vergelijking van StartMail, ProtonMail en Tutanota, om je privacy online te waarborgen</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>Beveilig uw privacy met Albine DeleteMe - Beveilig uw digitale aanwezigheid</title><link>https://nl.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate><category>
+"Privacy van gegevens"
+, "Online beveiliging"
+, "Bescherming van persoonlijke gegevens"
+, "Preventie van identiteitsdiefstal"
+, "Beheer van digitale voetafdruk"
+, "Cyberbeveiliging"
+, "Privacy op internet"
+, "Gegevens verwijderen"
+, "GDPR-naleving"
+, "CCPA"</category><guid>https://nl.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van Albine DeleteMe, een gegevensbeschermingsdienst die u in staat stelt uw persoonlijke gegevens te beschermen en online veiligheid en gemoedsrust te garanderen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure_privacy_cartoon.webp" length="127154" type="image/webp"/></item><item><title>HSTS Preloading Hoe de beveiliging van websites te verbeteren: Een stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://nl.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe u de beveiliging van websites en het vertrouwen van gebruikers kunt verbeteren door HSTS-instellingen vooraf te laden in Chrome en Firefox. Volg onze stapsgewijze handleiding voor naadloze implementatie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/enhanced-website-security.webp" length="67134" type="image/webp"/></item><item><title>Efficiënt Spacemesh-minen met meerdere GPU's - Maximaliseer uw beloning</title><link>https://nl.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cryptocurrency"
+, "Blockchain"
+, "Mijnbouw"
+, "Technologie"
+, "Gedecentraliseerd"
+, "GPU-mijnbouw"
+, "Bewijs van ruimte-tijd"
+, "Milieuvriendelijk"
+, "Cryptotips"
+, "Digitale activa"</category><guid>https://nl.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je Spacemesh mining kunt optimaliseren met behulp van meerdere GPU's met het milieuvriendelijke PoST-algoritme en maximaliseer je beloningen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/spacemesh-mining-gpus.webp" length="204992" type="image/webp"/></item><item><title>Machtigingen voor een vCenter controleren met PowerCLI</title><link>https://nl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</link><pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate><category>
+"Controle van vCenter-machtigingen"
+, "PowerCLI automatisering"
+, "VMware-beveiliging"
+, "Beheer van virtuele infrastructuur"
+, "Toestemming opdrachten"
+, "Toegangsbeheer voor gebruikers"
+, "Kwetsbaarheden in de beveiliging"
+, "PowerShell automatisering"
+, "vSphere-omgevingbeheer"
+, "Overzicht gebruikersrechten"</category><guid>https://nl.simeononsecurity.com/articles/audit-permissions-vcenter-powercli/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer hoe je effectief machtigingen voor een vCenter kunt controleren met PowerCLI, zodat je een veilige virtuele infrastructuur krijgt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_depicting_a_shield_protecting_servers.webp" length="97866" type="image/webp"/></item><item><title>Best practices voor Python-beveiliging: Uw code en gegevens beschermen</title><link>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"Python Beveiliging"
+, "Code Veiligheid"
+, "Gegevensbescherming"
+, "Software Ontwikkeling"
+, "Cyberbeveiliging"
+, "Veilig coderen"
+, "Webontwikkeling"
+, "Privacy van gegevens"
+, "Beveiliging van toepassingen"
+, "IT Beveiliging"</category><guid>https://nl.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Leer de essentiële best practices op het gebied van Python-beveiliging om je code en gegevens te beschermen tegen mogelijke bedreigingen, om gegevensbescherming en systeemintegriteit te garanderen en vertrouwen op te bouwen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>Geef je carrière in cyberbeveiliging een boost: Beste certificeringen voor beginners</title><link>https://nl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</link><pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiligingscertificaten"
+, "Handleiding voor beginners"
+, "IT-carrières"
+, "Informatiebeveiliging"
+, "Netwerkbeveiliging"
+, "Ethisch hacken"
+, "Penetratietesten"
+, "Instapbanen"</category><guid>https://nl.simeononsecurity.com/articles/best-cybersecurity-certifications-for-beginners-career-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de top cyberbeveiligingscertificeringen voor beginners om je carrière een kickstart te geven en de nodige vaardigheden te verwerven om uit te blinken in het vakgebied.</description></item><item><title>Basis Windows Hardening Best Practices voor veilige Windows 10 en Windows 11</title><link>https://nl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windows hardening"
+, "Windows beveiliging"
+, "Windows 10 hardening"
+, "Windows 11 hardening"
+, "Best practices voor Windows-beveiliging"
+, "Beveiligingstips voor Windows"
+, "Windows beveiligingsrichtlijnen"
+, "Windows-besturingssystemen beveiligen"
+, "Windows systeem hardening"
+, "Beveiligingsmaatregelen voor Windows"</category><guid>https://nl.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek effectieve strategieën om de beveiliging van uw Windows 10- en Windows 11-systemen te verbeteren met behulp van uitgebreide hardeningtechnieken en best practices.</description></item><item><title>Netwerk Plus Cursus: Methode voor het oplossen van netwerkproblemen</title><link>https://nl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"IT-onderwijs"
+, "Problemen met netwerken oplossen"
+, "Netwerkcertificering"
+, "IT-opleiding"
+, "Computernetwerken"
+, "IT-vaardigheden"
+, "Technische kennis"
+, "IT-professionals"
+, "Netwerkconcepten"
+, "Netwerkondersteuning"</category><guid>https://nl.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een uitgebreide gids voor methodologie voor het oplossen van netwerkproblemen, inclusief stappen, tools en best practices voor het efficiënt en effectief oplossen van netwerkproblemen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.webp" length="159928" type="image/webp"/></item></channel></rss>
