@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Expeditionary Power on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/expeditionary-power//img/banner.webp</url><title>Expeditionary Power on simeononsecurity</title><link>https://simeononsecurity.com/tags/expeditionary-power/</link></image><link>https://simeononsecurity.com/tags/expeditionary-power/</link><description>Recent content in Expeditionary Power on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 25 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/expeditionary-power/index.xml" rel="self" type="application/rss+xml"/><item><title>Field-Deployable Power and Environmental Resilience</title><link>https://simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><category>
+"Edge Computing"
+, "Field IT"
+, "Power Systems"
+, "Hardware"
+, "Disaster Recovery"
+, "Rugged Computing"
+, "Networking"</category><guid>https://simeononsecurity.com/articles/field-deployable-power-and-environmental-resilience/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+How to power and protect a compact edge-compute deployment in the field. Covers UPS runtime sizing and monitoring, DC and solar power, generators, battery chemistry, USB-C power delivery, offline time synchronization, IP and NEMA environmental ratings, and grounding and surge protection for rapidly deployable IT.</description><enclosure url="https://simeononsecurity.com/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp" length="312948" type="image/webp"/></item></channel></rss>

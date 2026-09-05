@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UART Hacking on simeononsecurity</title><image><url>https://simeononsecurity.com/tags/uart-hacking//img/banner.webp</url><title>UART Hacking on simeononsecurity</title><link>https://simeononsecurity.com/tags/uart-hacking/</link></image><link>https://simeononsecurity.com/tags/uart-hacking/</link><description>Recent content in UART Hacking on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/uart-hacking/index.xml" rel="self" type="application/rss+xml"/><item><title>Flipper Zero: The Complete Masterclass for Hackers and...</title><link>https://simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</link><pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate><category>
+"Hardware Hacking"
+, "Cybersecurity"
+, "Penetration Testing"
+, "Wireless Security"
+, "Red Teaming"</category><guid>https://simeononsecurity.com/articles/flipper-zero-a-everyday-hackers-companion/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+The definitive Flipper Zero guide covering every radio, protocol, firmware option, GPIO trick, BadUSB attack, pen-test workflow, legal risk, and accessory — everything you need to go from unboxing to expert.</description></item></channel></rss>
