@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALPR on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/tags/alpr//img/banner.webp</url><title>ALPR on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/alpr/</link></image><link>https://ar.simeononsecurity.com/tags/alpr/</link><description>Recent content in ALPR on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/alpr/index.xml" rel="self" type="application/rss+xml"/><item><title>كاميرات Flock: أداة للسلامة العامة أم آلة مراقبة بلا أوامر قضائية؟</title><link>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"الخصوصية"
+, "المراقبة"
+, "الحريات المدنية"
+, "تكنولوجيا إنفاذ القانون"
+, "الحقوق الرقمية"</category><guid>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تحليل مستقل لكاميرات Flock Safety ALPR: كيف تعمل فعلياً، وما البيانات التي تجمعها بما يتجاوز لوحات الترخيص، وكيف يُنشئ تبادل البيانات قاعدة بيانات وطنية موازية، ولماذا يُعدّ مسألة أوامر التفتيش هي القضية الحقيقية.</description></item><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مراقبة مضادة"
+, "مشاريع مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أدوات الخصوصية"
+, "اختراق الأجهزة"
+, "بحث الأمن"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>

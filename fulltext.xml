@@ -1,0 +1,2611 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ar.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ar</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>كاميرات Flock: أداة للسلامة العامة أم آلة مراقبة بلا أوامر قضائية؟</title><link>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><description>تحليل مستقل لكاميرات Flock Safety ALPR: كيف تعمل فعلياً، وما البيانات التي تجمعها بما يتجاوز لوحات الترخيص، وكيف يُنشئ تبادل البيانات قاعدة بيانات وطنية موازية، ولماذا يُعدّ مسألة أوامر التفتيش هي القضية الحقيقية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يُقسّم الجدل حول كاميرات Flock Safety الناس بطريقة لا يفعلها أي موضوع آخر في سياسة التكنولوجيا. مَن تعرّض لسرقة سيارته يميل إلى حبها. أما مَن يدرس القانون الدستوري فيميل إلى كرهها. وكلاهما يتفاعل مع شيء حقيقي.</strong></p>
+<p>هذا تحليل مستقل لما تفعله هذه الأنظمة فعلياً، وما تقوله الأدلة عن دقتها وإساءة استخدامها، ولماذا السؤال الأهم ليس ما إذا كان بإمكان الكاميرات تصوير الشوارع العامة — بل ما إذا كان ينبغي للحكومة أن تبني قاعدة بيانات قابلة للبحث وبلا أوامر قضائية لتتبع تحركات الجميع.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  yieldToMain(function () {
+      loadLiteYouTubeScript();
+  }, "user-visible");
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style>
+
+<p><em>أثار هذا الموضوع نقاشاً عاماً واسعاً في منتصف عام 2026. الفيديو أعلاه يغطي مجموعة من وجهات نظر المشاهدين والحجج المضادة التي تستحق الأخذ بعين الاعتبار إ
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><description>Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>أداة توعية بالمراقبة مفتوحة المصدر ترسم خرائط لكاميرات Flock Safety ALPR باستخدام بيانات WiFi المجمّعة جماعيًا.</strong></p>
+<h2 id="ما-هو-flock-finder">
+  <a href="#%d9%85%d8%a7-%d9%87%d9%88-flock-finder" title="ما هو Flock Finder؟">ما هو Flock Finder؟</a>
+  <a href="#%d9%85%d8%a7-%d9%87%d9%88-flock-finder" class="h-anchor" aria-hidden="true" title="ما هو Flock Finder؟">#</a>
+</h2>
+<p><strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Flock Finder">
+    <meta itemprop="url" content="https://simeononsecurity.github.io/flock-finder/">
+    <a href="https://simeononsecurity.github.io/flock-finder/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Flock Finder</a>
+</span>
+</strong> هو مشروع مفتوح المصدر يرسم خرائط لـ <strong>كاميرات Flock Safety ALPR (قارئ لوحات الترخيص الآلي)</strong> عبر الولايات المتحدة و108 دولة أخرى. يجمع <strong>31 بادئة OUI (معرف فريد تنظيمي) معروفة لـ Flock Safety WiFi</strong> مع <strong>قاعدة بيانات WiGLE WiFi المجمّعة جماعيًا</strong> لتحديد ورسم مواقع الكاميرات المشتبه بها على خريطة تفاعلية.</p>
+<p>يتواجد المشروع على <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="github.com/simeononsecurity/flock-finder">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/flock-finder">
+    <a href="https://github.com/simeon
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>مراقبة كاميرات Flock Safety: الخصوصية والحماية</title><link>https://ar.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><description>اكتشف الانتشار الواسع لكاميرات Flock Safety ALPR في عام 2026، وافهم انعكاساتها على الخصوصية، وتعلم استراتيجيات فعّالة لمواجهة المراقبة بما فيها أجهزة الكشف.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>صعود مراقبة Flock Safety ALPR وكيفية حماية خصوصيتك</strong></p>
+<h2 id="مقدمة-التوسع-الصامت-للمراقبة-الآلية">
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d9%84%d8%b5%d8%a7%d9%85%d8%aa-%d9%84%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%a2%d9%84%d9%8a%d8%a9" title="مقدمة: التوسع الصامت للمراقبة الآلية">مقدمة: التوسع الصامت للمراقبة الآلية</a>
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d9%84%d8%b5%d8%a7%d9%85%d8%aa-%d9%84%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d8%a7%d9%84%d8%a2%d9%84%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="مقدمة: التوسع الصامت للمراقبة الآلية">#</a>
+</h2>
+<p>في عام 2026، أصبحت كاميرات <strong>التعرف التلقائي على لوحات الترخيص (ALPR) من Flock Safety</strong> واحدة من أكثر أشكال تكنولوجيا المراقبة انتشارًا في الولايات المتحدة. ما بدأ كحل أمني متخصص للمجتمعات المسوّرة، تطور إلى شبكة وطنية من الكاميرات تراقب ملايين المركبات يوميًا. يفحص هذا الدليل الشامل <strong>انتشار مراقبة Flock Safety</strong>، و<strong>انعكاساتها على الخصوصية</strong>، و<strong>الاستراتيجيات العملية لحماية نفسك</strong> من التتبع الآلي المنتشر في كل مكان.</p>
+<p>على عكس كاميرات المراقبة التقليدية، لا يسجّل نظام Flock Safety فيديو. <em>بل <strong>يلتقط، ويحلل، ويخزّن بيانات لوحات الترخيص</strong> إلى جانب خصائص المركبة، مما يُنشئ قواعد بيانات قابلة للبحث يمكن لجهات إنفاذ القانون والكيانات الخاصة الوصول إليها.</em> أثار حجم هذه البنية التحتية للمراقبة أسئلة جدية حول <strong>الحريات المدنية، وحماية التعديل الرابع، والحق في الخصوصية</strong> في الأماكن العامة.</p>
+<p>تقاوم المجتمعات ومنظمات الحريات المدنية هذا التوجه. أطلق ACLU حملة <strong>&ldquo;احصل على 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>مشروع Flock-You للكشف: دليل إعداد مضادات المراقبة</title><link>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><description>دليل تقني شامل لمشروع Flock-You مفتوح المصدر للكشف عن كاميرات ALPR الخاصة بـ Flock Safety باستخدام أجهزة ESP32. يتضمن تعليمات الإعداد وتفاصيل البرامج الثابتة وخيارات الشراء.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>الدليل التقني الكامل لبناء واستخدام أجهزة الكشف Flock-You</strong></p>
+<h2 id="مقدمة-مضادات-المراقبة-مفتوحة-المصدر">
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9-%d9%85%d8%b6%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d9%85%d9%81%d8%aa%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%af%d8%b1" title="مقدمة: مضادات المراقبة مفتوحة المصدر">مقدمة: مضادات المراقبة مفتوحة المصدر</a>
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9-%d9%85%d8%b6%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%82%d8%a8%d8%a9-%d9%85%d9%81%d8%aa%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%af%d8%b1" class="h-anchor" aria-hidden="true" title="مقدمة: مضادات المراقبة مفتوحة المصدر">#</a>
+</h2>
+<p><strong>مشروع Flock-You</strong> هو <strong>مبادرة مجتمعية مفتوحة المصدر</strong> للكشف عن بنية مراقبة ALPR الخاصة بـ Flock Safety ورسمها على الخريطة. مستضاف على GitHub تحت اسم <strong>colonelpanichacks/flock-you</strong>، يستخدم هذا المشروع أجهزة ESP32 ذات تكلفة منخفضة للتعرف على كاميرات Flock من خلال <strong>بصماتها على شبكة WiFi</strong>.</p>
+<p>يغطي هذا الدليل الشامل كل شيء بدءاً من <strong>المنهجية التقنية</strong> وراء الكشف عن Flock وصولاً إلى <strong>تعليمات الإعداد خطوة بخطوة</strong> لثلاث منصات أجهزة، و<strong>تثبيت البرامج الثابتة</strong>، و<strong>معلومات الشراء من الموزعين المعتمدين</strong>. سواء كنت مناصراً للخصوصية أو باحثاً في مجال الأمن أو مواطناً مهتماً، سيمكنك هذا الدليل من بناء جهاز الكشف الخاص بك أو شرائه.</p>
+<p>للاطلاع على سياق أهمية هذه التقنية والمشهد الأشمل للمراقبة، اقرأ مقالتنا المرافقة: <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>الدليل النهائي: تحديثات Linux دون اتصال لـ Ubuntu Debian و CentOS RHEL</title><link>https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/</guid><description>Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** أفضل الطرق للتعامل مع تثبيت تحديثات Linux في وضع عدم الاتصال لـ Ubuntu / Debian و CentOS / RHEL **</p>
+<p>تعد تحديثات Linux ضرورية للحفاظ على أمان واستقرار نظامك. ومع ذلك ، في بعض السيناريوهات ، قد تضطر إلى التعامل مع البيئات غير المتصلة بالإنترنت حيث يكون الاتصال بالإنترنت محدودًا أو غير موجود. في مثل هذه الحالات ، يصبح من الضروري أن يكون لديك إستراتيجية مناسبة لتثبيت التحديثات في وضع عدم الاتصال. ستوجهك هذه المقالة عبر ** أفضل الطرق للتعامل مع تثبيت تحديثات Linux لـ Ubuntu / Debian و CentOS / RHEL ** في البيئات غير المتصلة بالإنترنت ، مع التركيز بشكل خاص على استخدام مستودع محلي أو ذاكرة تخزين مؤقت.</p>
+<h2 id="إنشاء-مستودع-محلي">
+  <a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9-%d9%85%d8%ad%d9%84%d9%8a" title="إنشاء مستودع محلي">إنشاء مستودع محلي</a>
+  <a href="#%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9-%d9%85%d8%ad%d9%84%d9%8a" class="h-anchor" aria-hidden="true" title="إنشاء مستودع محلي">#</a>
+</h2>
+<p>يعد إعداد مستودع محلي من أكثر الطرق فعالية للتعامل مع التحديثات دون اتصال بالإنترنت. يحتوي المستودع المحلي على جميع حزم البرامج والتحديثات الضرورية ، مما يسمح لك بتحديث نظامك دون اتصال بالإنترنت. إليك كيفية إعداد مستودع محلي للتوزيعات المستندة إلى دبيان والتوزيعات القائمة على Red Hat:</p>
+<h3 id="لـ-debian--ubuntu">
+  <a href="#%d9%84%d9%80-debian--ubuntu" title="لـ Debian / Ubuntu">لـ Debian / Ubuntu</a>
+  <a href="#%d9%84%d9%80-debian--ubuntu" class="h-anchor" aria-hidden="true" title="لـ Debian / Ubuntu">#</a>
+</h3>
+<ol>
+<li>ابدأ بإعداد ** مرآة مستودع دبيان ** على خادم متصل بالإنترنت. يمكنك استخدام أدوات مثل 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-handle-offline-network-linux-updates/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أتمتة تصحيح وتحديثات Linux باستخدام Ansible: دليل شامل</title><link>https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/</guid><description>تعرف على كيفية أتمتة تصحيح وتحديثات Linux باستخدام Ansible ، والتي تغطي التوزيعات المختلفة وإرشادات الإعداد.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** أتمتة Linux Patching and Updates مع Ansible **</p>
+<p>في عالم اليوم سريع الخطى والمراعي للأمان ، ** الأتمتة ** يعد تصحيح أنظمة Linux وتحديثها أمرًا بالغ الأهمية لضمان استقرار النظام وتخفيف نقاط الضعف. مع توفر العديد من توزيعات Linux ، قد يكون من الصعب إدارة التحديثات عبر الأنظمة الأساسية المختلفة بكفاءة. لحسن الحظ ، توفر ** Ansible ** ، وهي أداة أتمتة قوية ، حلاً موحدًا لأتمتة التصحيح والتحديثات عبر توزيعات Linux المختلفة. في هذه المقالة ، سوف نستكشف كيفية استخدام Ansible لأتمتة عملية التصحيح والتحديث للتوزيعات الأخرى ** المستندة إلى Debian ، والمستندة إلى Ubuntu ، والقائمة على RHEL ، والمستندة إلى Alpine ** ، والتوزيعات الأخرى. سنقدم أيضًا مثالاً مفصلاً عن دليل التشغيل Ansible الذي يعالج تثبيت التصحيحات والتحديثات على توزيعات Linux المختلفة ، جنبًا إلى جنب مع إرشادات حول إعداد بيانات اعتماد Ansible وملفات المضيف لجميع الأنظمة المستهدفة.</p>
+<h2 id="المتطلبات-الأساسية">
+  <a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" title="المتطلبات الأساسية">المتطلبات الأساسية</a>
+  <a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="المتطلبات الأساسية">#</a>
+</h2>
+<p>قبل الغوص في عملية الأتمتة ، دعنا نتأكد من توفر المتطلبات الأساسية اللازمة لدينا. وتشمل هذه:</p>
+<ol>
+<li>
+<p>** التثبيت Ansible **: لاستخدام Ansible ، تحتاج إلى تثبيته على النظام الذي ستقوم من خلاله بتشغيل مهام الأتمتة. يمكنك متابعة وثائق Ansible الرسمية على 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+ 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/automate-linux-patching-and-updates-with-ansible/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تحديث البرامج الثابتة دون اتصال لـ Ubiquiti Unifi UDM Pro و UDM SE عبر سطر الأوامر SSH</title><link>https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid><description>تعرف على كيفية تحديث البرنامج الثابت لـ Ubiquiti Unifi UDM Pro و UDM SE دون اتصال بالإنترنت من خلال سطر الأوامر SSH للحصول على أفضل أداء وأمان.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** قم بتحديث Ubiquiti Unifi UDM Pro و UDM SE في وضع عدم الاتصال عبر SSH **</p>
+<p>في عالم الشبكات ، اكتسبت ** Ubiquiti Networks ** اعترافًا بحلولها المبتكرة. ** Ubiquiti Unifi Dream Machine Pro (UDM Pro) ** و ** Unifi Dream Machine SE (UDM SE) ** هما منتجان شهيران يقدمان ميزات شاملة لإدارة الشبكة. يعد تحديث البرنامج الثابت لهذه الأجهزة أمرًا بالغ الأهمية لضمان الأداء الأمثل والأمان. في هذه المقالة ، سوف نستكشف كيفية تحديث البرنامج الثابت لـ UDM Pro و UDM SE ** دون اتصال ** باستخدام SSH لسطر الأوامر.</p>
+<hr>
+<h2 id="لماذا-يتم-تحديث-البرامج-الثابتة">
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ab%d8%a7%d8%a8%d8%aa%d8%a9" title="لماذا يتم تحديث البرامج الثابتة؟">لماذا يتم تحديث البرامج الثابتة؟</a>
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ab%d8%a7%d8%a8%d8%aa%d8%a9" class="h-anchor" aria-hidden="true" title="لماذا يتم تحديث البرامج الثابتة؟">#</a>
+</h2>
+<p>تعد تحديثات البرامج الثابتة ضرورية لأي جهاز شبكة ، حيث تحتوي غالبًا على إصلاحات للأخطاء وتحسينات في الأداء وتصحيحات أمان. يعد تحديث البرامج الثابتة لـ UDM Pro و UDM SE بشكل منتظم أمرًا بالغ الأهمية لضمان بقاء شبكتك آمنة وتعمل بسلاسة.</p>
+<hr>
+<h2 id="تحديث-البرامج-الثابتة-دون-اتصال">
+  <a href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ab%d8%a7%d8%a8%d8%aa%d8%a9-%d8%af%d9%88%d9%86-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84" title="تحديث البرامج الثابتة دون اتصال">تحديث البرامج الثابتة دون اتصال</a>
+  <a href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d8%ab%d8%a7%d8%a8%d8%aa%d8%a9-%d8%af%d9%88%d9%86-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84" class="h-anchor" aria-hidden="true" title="تحديث �
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أتمتة تحديثات Windows مع Ansible: دليل شامل</title><link>https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/</guid><description>تبسيط عملية تحديث أنظمة Windows من خلال التشغيل الآلي باستخدام Ansible - تم تضمين الإرشادات خطوة بخطوة وأفضل الممارسات.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/An_animated_illustration_showcasing_a_Windows_logo_surround.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** أتمتة تحديثات Windows مع Ansible: دليل شامل **</p>
+<p>يعد تحديث أنظمة Windows أمرًا بالغ الأهمية للحفاظ على الأمن والاستقرار. ومع ذلك ، يمكن أن تكون إدارة التحديثات وتثبيتها يدويًا عبر أنظمة متعددة مهمة مستهلكة للوقت وعرضة للخطأ. لحسن الحظ ، مع قوة أدوات الأتمتة مثل Ansible ، يمكنك تبسيط العملية والتأكد من أن أنظمتك محدثة دائمًا. في هذه المقالة ، سوف نستكشف كيفية أتمتة تحديثات Windows باستخدام Ansible ونقدم إرشادات خطوة بخطوة حول إعداد بيانات اعتماد Ansible وملفات المضيف لجميع الأنظمة المستهدفة.</p>
+<hr>
+<h2 id="لماذا-أتمتة-تحديثات-windows-باستخدام-ansible">
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab%d8%a7%d8%aa-windows-%d8%a8%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-ansible" title="لماذا أتمتة تحديثات Windows باستخدام Ansible؟">لماذا أتمتة تحديثات Windows باستخدام Ansible؟</a>
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a3%d8%aa%d9%85%d8%aa%d8%a9-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab%d8%a7%d8%aa-windows-%d8%a8%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-ansible" class="h-anchor" aria-hidden="true" title="لماذا أتمتة تحديثات Windows باستخدام Ansible؟">#</a>
+</h2>
+<p>تقدم أتمتة تحديثات Windows مع Ansible العديد من المزايا:</p>
+<ol>
+<li>
+<p>** توفير الوقت **: بدلاً من التحديث اليدوي لكل نظام على حدة ، يمكنك أتمتة العملية وتحديث أنظمة متعددة في وقت واحد ، مما يوفر لك الوقت والجهد الثمين.</p>
+</li>
+<li>
+<p>** الاتساق **: تضمن الأتمتة أن تتلقى جميع الأنظمة نفس التحديثات ، مما يقلل من مخاطر انحراف التهيئة ويحافظ على بيئة متسقة وآمنة.</p>
+</li>
+<li>
+<p>** الكفاءة **: يسمح لك Ansible بجدولة التحديثات في أوقات محددة ، مما يضمن أقل قدر من التعطيل لسير عملك ويزيد من توفر النظام.</p>
+</li>
+<li>
+<p>** قابلية التوسع **
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/automate-windows-patching-and-updates-with-ansible/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>هيليوم موبايل بيتا: إحداث ثورة في اتصال الهاتف المحمول من خلال شبكة لامركزية</title><link>https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/</link><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/</guid><description>اكتشف كيف يقوم Helium Mobile Beta بتحويل اتصال المحمول من خلال شبكته اللامركزية ، مما يضمن الأمان والموثوقية والقدرة على تحمل التكاليف للمستخدمين.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_vibrant_illustration_showcasing_a_network_of_interconnected_devices.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <h2 id="الهليوم-موبايل-بيتا">
+  <a href="#%d8%a7%d9%84%d9%87%d9%84%d9%8a%d9%88%d9%85-%d9%85%d9%88%d8%a8%d8%a7%d9%8a%d9%84-%d8%a8%d9%8a%d8%aa%d8%a7" title="الهليوم موبايل بيتا">الهليوم موبايل بيتا</a>
+  <a href="#%d8%a7%d9%84%d9%87%d9%84%d9%8a%d9%88%d9%85-%d9%85%d9%88%d8%a8%d8%a7%d9%8a%d9%84-%d8%a8%d9%8a%d8%aa%d8%a7" class="h-anchor" aria-hidden="true" title="الهليوم موبايل بيتا">#</a>
+</h2>
+<p>هيليوم موبايل بيتا هي شركة اتصالات متنقلة رائدة تخضع حاليًا للاختبار التجريبي ، بهدف إحداث ثورة في صناعة الاتصالات. مدعومًا بشبكة Helium blockchain اللامركزية ، يوفر Helium Mobile Beta أمانًا محسّنًا وموثوقية وقدرة على تحمل التكاليف مقارنة بالشبكات الخلوية التقليدية. في هذه المقالة ، سوف نستكشف الميزات والفوائد الرئيسية لبرنامج Helium Mobile Beta ، بالإضافة إلى حدوده وخطوات المشاركة في البرنامج التجريبي.</p>
+<h2 id="كيف-يعمل-الهيليوم-موبايل-بيتا">
+  <a href="#%d9%83%d9%8a%d9%81-%d9%8a%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%87%d9%8a%d9%84%d9%8a%d9%88%d9%85-%d9%85%d9%88%d8%a8%d8%a7%d9%8a%d9%84-%d8%a8%d9%8a%d8%aa%d8%a7" title="كيف يعمل الهيليوم موبايل بيتا؟">كيف يعمل الهيليوم موبايل بيتا؟</a>
+  <a href="#%d9%83%d9%8a%d9%81-%d9%8a%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d9%87%d9%8a%d9%84%d9%8a%d9%88%d9%85-%d9%85%d9%88%d8%a8%d8%a7%d9%8a%d9%84-%d8%a8%d9%8a%d8%aa%d8%a7" class="h-anchor" aria-hidden="true" title="كيف يعمل الهيليوم موبايل بيتا؟">#</a>
+</h2>
+<p>تعمل هيليوم موبايل بيتا على شبكة لاسلكية لا مركزية تتكون من أجهزة صغيرة منخفضة الطاقة تسمى هيليوم هوت سبوت. هذه النقاط الساخنة ، التي ينشرها الأفراد والشركات ، تنشئ خلايا شبكة لاسلكية جديدة. يمكن للأجهزة المتوافقة مع Helium Mobile Beta الاتصال بهذه النقاط الساخنة للوصول إلى الإنترنت.</p>
+<p>عندما يتصل جهاز بنقطة اتصال هيليوم ، فإنه يدفع رسومًا بسيطة بـ ** عملة الهليوم المشفرة **. ثم يتم ت
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/helium-mobile-beta-explained/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تبسيط إدارة حزمة Windows باستخدام Chocolatey: تبسيط التحديثات وتعزيز الأمان</title><link>https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</link><pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/</guid><description>اكتشف فوائد استخدام Chocolatey لإدارة حزم Windows: أتمتة التحديثات وتوفير الوقت وضمان أمان النظام.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** لماذا يجب عليك استخدام Chocolatey لإدارة وتحديثات حزمة Windows **</p>
+<p>تلعب إدارة حزم Windows والتحديثات دورًا مهمًا في الحفاظ على نظام تشغيل مستقر وآمن. قد تكون الطريقة التقليدية للبحث عن تحديثات البرامج وتثبيتها يدويًا مستهلكة للوقت وغير فعالة. لحسن الحظ ، هناك أداة قوية وسهلة الاستخدام متوفرة لنظام التشغيل Windows تسمى ** Chocolatey ** تعمل على تبسيط إدارة الحزم وأتمتة عملية التحديث. في هذه المقالة ، سوف نستكشف سبب وجوب استخدام Chocolatey لاحتياجات إدارة حزم Windows الخاصة بك.</p>
+<hr>
+<h2 id="تبسيط-إدارة-الحزم">
+  <a href="#%d8%aa%d8%a8%d8%b3%d9%8a%d8%b7-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d8%b2%d9%85" title="تبسيط إدارة الحزم">تبسيط إدارة الحزم</a>
+  <a href="#%d8%aa%d8%a8%d8%b3%d9%8a%d8%b7-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d8%b2%d9%85" class="h-anchor" aria-hidden="true" title="تبسيط إدارة الحزم">#</a>
+</h2>
+<p>تتمثل إحدى المزايا الرئيسية لاستخدام Chocolatey في قدرتها على تبسيط إدارة الحزم على Windows. يعمل Chocolatey كمدير حزم ** يوفر واجهة سطر أوامر لتثبيت حزم البرامج وتحديثها وإلغاء تثبيتها دون عناء. يستخدم مستودعًا منظمًا للحزم ، يسمى ** Chocolatey Community Repository ** ، والذي يستضيف مجموعة كبيرة من تطبيقات البرامج الشائعة.</p>
+<p>باستخدام Chocolatey ، يمكنك إدارة الحزم عبر أجهزة متعددة بكفاءة. بدلاً من تنزيل البرامج وتثبيتها يدويًا على كل جهاز ، يمكنك الاعتماد على Chocolatey لأتمتة العملية. هذا يبسط عمليات تثبيت الحزمة ويوفر لك الوقت الثمين.</p>
+<hr>
+<h2 id="واجهة-سطر-أوامر-مبسطة">
+  <a href="#%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%b3%d8%b7%d8%b1-%d8%a3%d9%88%d8%a7%d9%85%d8%b1-%d9%85%d8%a8%d8%b3%d8%b7%d8%a9" title="واجهة سطر أوامر مبسطة">واجهة سطر أوامر مبسطة</a>
+  <a href="#%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/why-you-should-be-using-chocolatey-for-windows-package-management/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أفضل الممارسات لإدارة مصادر الوقت في مجالات Windows والأجهزة المستقلة</title><link>https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/</guid><description>تعرف على كيفية تعيين مصادر الوقت والتعامل معها بشكل فعال في مجالات Windows والأجهزة المستقلة لضمان التزامن الدقيق للوقت وتجنب المشكلات المحتملة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/An_image_depicting_a_clock_being_synchronized_with_a_domain.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** كيفية تعيين مصادر الوقت والتعامل معها في مجال Windows وعلى أجهزة Windows المستقلة **</p>
+<p>تعد مزامنة الوقت أمرًا ضروريًا للحفاظ على طوابع زمنية دقيقة وضمان حسن سير الأنظمة في مجال Windows أو أجهزة Windows المستقلة. في هذه المقالة ، سنناقش أفضل الممارسات لإعداد مصادر الوقت والتعامل معها في كلا السيناريوهين ، مع إبراز أهمية إشارة أعضاء المجال إلى وحدات التحكم بالمجال. سنستكشف أيضًا خيارات مختلفة لمصادر الوقت ، مع التركيز على استخدام مجموعات NTP الخارجية أو خوادم الوقت المستندة إلى GPS لتحقيق الدقة المثلى.</p>
+<hr>
+<h2 id="ضبط-مصادر-الوقت-في-مجال-windows">
+  <a href="#%d8%b6%d8%a8%d8%b7-%d9%85%d8%b5%d8%a7%d8%af%d8%b1-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d9%81%d9%8a-%d9%85%d8%ac%d8%a7%d9%84-windows" title="ضبط مصادر الوقت في مجال Windows">ضبط مصادر الوقت في مجال Windows</a>
+  <a href="#%d8%b6%d8%a8%d8%b7-%d9%85%d8%b5%d8%a7%d8%af%d8%b1-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d9%81%d9%8a-%d9%85%d8%ac%d8%a7%d9%84-windows" class="h-anchor" aria-hidden="true" title="ضبط مصادر الوقت في مجال Windows">#</a>
+</h2>
+<p>في مجال Windows ، من الضروري أن يكون لديك مزامنة زمنية متسقة عبر جميع أعضاء المجال. أفضل ممارسة هي تكوين وحدات تحكم المجال كمصدر الوقت الأساسي لأعضاء المجال. من خلال القيام بذلك ، فإنك تضمن أن جميع الأنظمة داخل المجال لها وقت متزامن ، وهو أمر بالغ الأهمية للمصادقة والتسجيل وعمليات المجال المختلفة.</p>
+<h3 id="خيارات-مصدر-الوقت-لوحدات-تحكم-المجال">
+  <a href="#%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d8%b5%d8%af%d8%b1-%d8%a7%d9%84%d9%88%d9%82%d8%aa-%d9%84%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%aa%d8%ad%d9%83%d9%85-%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d9%84" title="خيارات مصدر الوقت لوحدات تحكم المجال">خيارات مصدر الوقت لوحدات تحكم المجال</a>
+  <a href="#%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d8
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-set-up-time-sources-on-windows-domains-and-standalone-systems/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تجنب عمليات التصيد الاحتيالي: التكتيكات والوقاية والحماية</title><link>https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/</guid><description>تعرف على الأساليب التي يستخدمها محتالو التصيد الاحتيالي واكتشف استراتيجيات فعالة لحماية نفسك من أن تصبح ضحية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** فهم التكتيكات التي يستخدمها محتالو التصيد وكيفية تجنب الوقوع ضحية **</p>
+<p>لا تزال عمليات التصيد الاحتيالي تمثل تهديدًا سائدًا في المشهد الرقمي اليوم. يستخدم مجرمو الإنترنت أساليب مختلفة لخداع الأفراد وخداعهم للكشف عن معلومات حساسة ، مثل كلمات المرور أو تفاصيل بطاقة الائتمان أو أرقام الضمان الاجتماعي. لحماية نفسك من الوقوع ضحية لعمليات الاحتيال هذه ، من الضروري فهم الأساليب التي يستخدمها المحتالون في التصيد واتخاذ التدابير المناسبة لحماية معلوماتك الشخصية.</p>
+<h2 id="تشريح-عملية-التصيد-الاحتيالي">
+  <a href="#%d8%aa%d8%b4%d8%b1%d9%8a%d8%ad-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d9%8a%d8%af-%d8%a7%d9%84%d8%a7%d8%ad%d8%aa%d9%8a%d8%a7%d9%84%d9%8a" title="تشريح عملية التصيد الاحتيالي">تشريح عملية التصيد الاحتيالي</a>
+  <a href="#%d8%aa%d8%b4%d8%b1%d9%8a%d8%ad-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b5%d9%8a%d8%af-%d8%a7%d9%84%d8%a7%d8%ad%d8%aa%d9%8a%d8%a7%d9%84%d9%8a" class="h-anchor" aria-hidden="true" title="تشريح عملية التصيد الاحتيالي">#</a>
+</h2>
+<p>** التصيد الاحتيالي ** هو ممارسة احتيالية حيث ينتحل المحتالون صفة كيانات شرعية ، مثل البنوك أو الخدمات عبر الإنترنت أو الوكالات الحكومية ، لخداع الأفراد للكشف عن معلومات حساسة. غالبًا ما يستخدم هؤلاء المحتالون تقنيات ** الهندسة الاجتماعية ** للتلاعب بضحاياهم نفسياً. يمكن أن يساعدك فهم تشريح عملية التصيد الاحتيالي في تحديد وتجنب الوقوع في الفخاخ.</p>
+<h3 id="رسائل-البريد-الإلكتروني-الاحتيالية-والروابط-المخادعة">
+  <a href="#%d8%b1%d8%b3%d8%a7%d8%a6%d9%84-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%af-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d8%a7%d9%84%d8%a7%d8%ad%d8%aa%d9%8a%d8%a7%d9%84%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b1%d9%88%d8%a7%d8%a8%d8%b7-%d8%a7%d9%84%d9%85%d8%ae%
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-tactics-used-by-phising-scammers/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تحسين الهوائي الخلوي الاتجاهي: دليل التوجيه والتوجيه</title><link>https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/</guid><description>تعرف على كيفية توجيه الهوائي الخلوي الاتجاهي وتوجيهه للحصول على أفضل قوة إشارة وموثوقية ، بما في ذلك تحديد موقع الأبراج الخلوية وفهم مناطق فريسنل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/Illustration_of_a_person_aiming_a_directional_cellular_antenna.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** كيفية توجيه وتوجيه الهوائي الخلوي الاتجاهي الخاص بك **</p>
+<p>يمكن أن تعمل معززات الهواتف المحمولة وأجهزة المودم الخلوية على تحسين قوة الإشارة وموثوقية اتصالك الخلوي بشكل كبير. ومع ذلك ، لزيادة فعاليتها إلى الحد الأقصى ، من الضروري توجيه الهوائي الخلوي الاتجاهي وتوجيهه بشكل صحيح نحو أقرب أبراج خلوية مدعومة. في هذه المقالة ، سنوجهك خلال عملية تحديد موقع أقرب أبراج خلوية مدعومة ، وحساب خط الرؤية الراديوي والمرئي ، وفهم أهمية مناطق فريسنل.</p>
+<hr>
+<h2 id="تحديد-موقع-أقرب-أبراج-خلوية-مدعومة">
+  <a href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d9%85%d9%88%d9%82%d8%b9-%d8%a3%d9%82%d8%b1%d8%a8-%d8%a3%d8%a8%d8%b1%d8%a7%d8%ac-%d8%ae%d9%84%d9%88%d9%8a%d8%a9-%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a9" title="تحديد موقع أقرب أبراج خلوية مدعومة">تحديد موقع أقرب أبراج خلوية مدعومة</a>
+  <a href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%af-%d9%85%d9%88%d9%82%d8%b9-%d8%a3%d9%82%d8%b1%d8%a8-%d8%a3%d8%a8%d8%b1%d8%a7%d8%ac-%d8%ae%d9%84%d9%88%d9%8a%d8%a9-%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a9" class="h-anchor" aria-hidden="true" title="تحديد موقع أقرب أبراج خلوية مدعومة">#</a>
+</h2>
+<p>قبل توجيه الهوائي الخلوي الاتجاهي ، تحتاج إلى تحديد موقع أقرب أبراج خلوية مدعومة. يمكن الحصول على هذه المعلومات من خلال طرق مختلفة:</p>
+<ol>
+<li>
+<p>** استخدام قواعد بيانات برج الهاتف الخلوي على الإنترنت **: هناك العديد من مواقع الويب وتطبيقات الأجهزة المحمولة التي توفر معلومات حول مواقع الأبراج الخلوية. تتضمن بعض الموارد الشائعة 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope item
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-aim-your-outdoor-cellular-antennas-optimially/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>الدليل النهائي: تثبيت نظام تشغيل Graphene على جهاز Google Pixel</title><link>https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><description>تعرف على كيفية تثبيت نظام تشغيل Graphene OS على جهاز Google Pixel لتحسين الخصوصية والأمان.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** كيفية تثبيت نظام تشغيل Graphene OS على جهاز Google Pixel الخاص بك **</p>
+<p>نظام تشغيل Graphene OS هو نظام تشغيل مفتوح المصدر يركز على الخصوصية ويعتمد على نظام Android الأساسي. يوفر ميزات أمان محسنة وحماية الخصوصية ، مما يجعله خيارًا ممتازًا للأفراد المهتمين بخصوصية البيانات وأمانها. إذا كنت تمتلك جهاز Google Pixel وترغب في التبديل إلى نظام تشغيل Graphene OS ، فستوجهك هذه المقالة خلال عملية التثبيت خطوة بخطوة.</p>
+<h2 id="المتطلبات-الأساسية">
+  <a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" title="المتطلبات الأساسية">المتطلبات الأساسية</a>
+  <a href="#%d8%a7%d9%84%d9%85%d8%aa%d8%b7%d9%84%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="المتطلبات الأساسية">#</a>
+</h2>
+<p>قبل أن تبدأ عملية التثبيت ، هناك بعض المتطلبات الأساسية التي يتعين عليك الوفاء بها:</p>
+<ol>
+<li>
+<p>** احتفظ بنسخة احتياطية من بياناتك **: سيؤدي تثبيت نظام تشغيل Graphene OS إلى محو جميع البيانات الموجودة على جهازك. تأكد من أنك قمت بعمل نسخة احتياطية من جميع الملفات المهمة والصور وجهات الاتصال والبيانات الأخرى في موقع آمن.</p>
+</li>
+<li>
+<p>** Unlock the bootloader **: bootloader هو جزء من البرنامج الذي يقوم بتهيئة النظام عند تشغيل جهازك. يتيح لك فتح محمل الإقلاع تثبيت برامج مخصصة مثل نظام الجرافين. يحتوي كل جهاز Google Pixel على عملية محددة لإلغاء تأمين أداة تحميل التشغيل. ارجع إلى الوثائق الرسمية لطراز جهازك لمعرفة كيفية فتحه.</p>
+</li>
+</ol>
+<ul>
+<li>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/how-to-install-graphine-os/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>نصائح الخبراء لكتابة سيرة ذاتية قوية</title><link>https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/</guid><description>تعرف على أفضل الممارسات لإنشاء سيرة ذاتية فعالة ، بما في ذلك استخدام الخط وأنواع السيرة الذاتية وتحسين الكلمات الرئيسية ومعالجة الفجوات وتحسين التخطيط.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** نصائح لكتابة سيرة ذاتية رائعة **</p>
+<p>تعد السيرة الذاتية المكتوبة جيدًا أمرًا بالغ الأهمية لجذب انتباه أصحاب العمل المحتملين وزيادة فرصك في الحصول على مقابلة عمل. باتباع هذه النصائح ، يمكنك إنشاء سيرة ذاتية احترافية ومقنعة تعرض بشكل فعال مهاراتك وخبراتك.</p>
+<h2 id="استخدم-خطا-واحدا-وحافظ-على-التصميم-والبنية-الموحد">
+  <a href="#%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d8%ae%d8%b7%d8%a7-%d9%88%d8%a7%d8%ad%d8%af%d8%a7-%d9%88%d8%ad%d8%a7%d9%81%d8%b8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%a8%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%ad%d8%af" title="استخدم خطًا واحدًا وحافظ على التصميم والبنية الموحد">استخدم خطًا واحدًا وحافظ على التصميم والبنية الموحد</a>
+  <a href="#%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d9%85-%d8%ae%d8%b7%d8%a7-%d9%88%d8%a7%d8%ad%d8%af%d8%a7-%d9%88%d8%ad%d8%a7%d9%81%d8%b8-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%aa%d8%b5%d9%85%d9%8a%d9%85-%d9%88%d8%a7%d9%84%d8%a8%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d8%ad%d8%af" class="h-anchor" aria-hidden="true" title="استخدم خطًا واحدًا وحافظ على التصميم والبنية الموحد">#</a>
+</h2>
+<p>يعد الاتساق في اختيار الخط والتصميم والبنية ضروريًا لإنشاء سيرة ذاتية جذابة بصريًا وسهلة القراءة. ** استخدام خط واحد ** في سيرتك الذاتية يضمن لك مظهرًا متماسكًا ومهنيًا. بالإضافة إلى ذلك ، تأكد من الحفاظ على ** تصميم موحد ** للعناوين والعناوين الفرعية والنص الأساسي لتحسين إمكانية القراءة.</p>
+<h2 id="أنواع-السير-الذاتية-ومتى-يتم-استخدامها">
+  <a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d8%a7%d9%84%d8%b3%d9%8a%d8%b1-%d8%a7%d9%84%d8%b0%d8%a7%d8%aa%d9%8a%d8%a9-%d9%88%d9%85%d8%aa%d9%89-%d9%8a%d8%aa%d9%85-%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85%d9%87%d8%a7" title="أنواع السير الذاتية ومتى يتم استخدامها">أنواع السير الذاتية ومتى يتم استخدامها</a>
+  <a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/tips-for-writing-a-great-resume/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Crankk vs Helium IoT: مقارنة شاملة لشبكات إنترنت الأشياء</title><link>https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</link><pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/</guid><description>اكتشف الاختلافات بين شبكات Crankk و Helium IoT ونماذج الإجماع وأجهزة التعدين ورسوم الغاز والمزيد.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** Crankk vs Helium IoT **</p>
+<p>في عالم إنترنت الأشياء (IoT) ، يعد الاتصال أمرًا بالغ الأهمية. مع استمرار تزايد الطلب على أجهزة إنترنت الأشياء ، تزداد أيضًا الحاجة إلى شبكات لاسلكية فعالة وموثوقة. اثنان من اللاعبين البارزين في مجال اتصال إنترنت الأشياء هما Crankk و Helium IoT. في هذه المقالة ، سنقارن بين هذين النظامين الأساسيين ونستكشف ميزاتهما وفوائدهما واختلافهما.</p>
+<h2 id="مقدمة">
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" title="مقدمة">مقدمة</a>
+  <a href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" class="h-anchor" aria-hidden="true" title="مقدمة">#</a>
+</h2>
+<hr>
+<p>** Crankk ** و ** Helium IoT ** هما شبكتان لاسلكيتان لامركزيتان تهدفان إلى توفير اتصال لأجهزة إنترنت الأشياء. تستخدم هذه الشبكات تقنيات لاسلكية طويلة المدى منخفضة الطاقة ، مثل LoRaWAN ، لتمكين اتصال جهاز إنترنت الأشياء عبر مسافات طويلة. في حين أنهم يشتركون في أوجه التشابه من حيث بروتوكولاتهم اللاسلكية ، إلا أن هناك اختلافات ملحوظة في مناهجهم وعروضهم.</p>
+<h2 id="هندسة-الشبكات">
+  <a href="#%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%b4%d8%a8%d9%83%d8%a7%d8%aa" title="هندسة الشبكات">هندسة الشبكات</a>
+  <a href="#%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%b4%d8%a8%d9%83%d8%a7%d8%aa" class="h-anchor" aria-hidden="true" title="هندسة الشبكات">#</a>
+</h2>
+<hr>
+<p>** Crankk ** تعمل على شبكة Kadena ، وهي منصة blockchain آمنة وقابلة للتطوير. إنها تستفيد من مجموعة متفق عليها من العقد للتحقق من صحة الشهود وتوظف أطرافًا ثالثة موثوقة (TTPs) لضمان سلامة الشبكة. تعزز هذه البنية الأمان وتقلل من مخاطر التواطؤ بين عقد الإجماع والشهود. يسمح نهج Crankk اللامركزي بمزيد من الشفافية ويلغي الحاجة إلى سلطة مركزية.</p>
+<p>من ناحية أخرى ، يستخدم ** Helium IoT ** بنية نظير إل
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/crankk-vs-helium-which-is-best/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>منع المطاردة عبر الإنترنت: نصائح للبقاء آمنًا على الإنترنت</title><link>https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/</guid><description>تعرف على كيفية حماية نفسك من المطاردة عبر الإنترنت والحفاظ على سلامتك عبر الإنترنت باستخدام هذه النصائح والتقنيات.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** فهم المطاردة عبر الإنترنت ومنعها: نصائح وتقنيات للبقاء آمنًا على الإنترنت **</p>
+<p>المطاردة عبر الإنترنت هي جريمة خطيرة يمكن أن تسبب ضغوطًا نفسية كبيرة وأذى جسديًا. إنه استخدام الإنترنت أو وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التقنيات الرقمية الأخرى لمطاردة أو مضايقة أو تهديد أي فرد. يمكن للمطاردين عبر الإنترنت أن يكونوا مجهولين ، ويمكنهم استهداف ضحاياهم من أي مكان في العالم. تقدم هذه المقالة نظرة عامة على ماهية المطاردة عبر الإنترنت وتقدم نصائح وتقنيات للبقاء آمنًا على الإنترنت.</p>
+<h2 id="ما-هو-المطاردة-عبر-الإنترنت">
+  <a href="#%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%b1%d8%af%d8%a9-%d8%b9%d8%a8%d8%b1-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa" title="ما هو المطاردة عبر الإنترنت؟">ما هو المطاردة عبر الإنترنت؟</a>
+  <a href="#%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%b1%d8%af%d8%a9-%d8%b9%d8%a8%d8%b1-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa" class="h-anchor" aria-hidden="true" title="ما هو المطاردة عبر الإنترنت؟">#</a>
+</h2>
+<p>المطاردة عبر الإنترنت هي استخدام الإنترنت أو وسائل التواصل الاجتماعي أو البريد الإلكتروني أو غيرها من التقنيات الرقمية لمطاردة أو مضايقة أو تهديد أي فرد. يمكن للمطاردين عبر الإنترنت أن يكونوا مجهولين ، ويمكنهم استهداف ضحاياهم من أي مكان في العالم. يمكن أن تتخذ المطاردة عبر الإنترنت عدة أشكال ، بما في ذلك:</p>
+<ul>
+<li>إرسال رسائل تهديد أو مضايقة عبر البريد الإلكتروني أو وسائل التواصل الاجتماعي</li>
+<li>مراقبة نشاط الضحية على الإنترنت</li>
+<li>نشر معلومات خاصة أو صور بدون موافقة الضحية</li>
+<li>إنشاء حسابات وهمية لمضايقة أو انتحال شخصية الضحية</li>
+<li>توجي�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-and-preventing-cyber-stalking/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>منع هجمات الهندسة الاجتماعية: الاستراتيجيات وأفضل الممارسات</title><link>https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</link><pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/</guid><description>تعرف على كيفية منع هجمات الهندسة الاجتماعية وحماية المعلومات الحساسة لمؤسستك من خلال تدريب الموظفين وسياسات الأمان والمزيد.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** فهم هجمات الهندسة الاجتماعية وكيفية منعها **</p>
+<p>الهندسة الاجتماعية هي شكل من أشكال الهجوم السيبراني الذي يعتمد على التلاعب بالأشخاص لإفشاء معلومات سرية أو تثبيت برامج ضارة أو تنفيذ إجراءات تقوض أمن المؤسسة. يمكن للمهاجمين استخدام مجموعة متنوعة من الأساليب لكسب ثقة ضحاياهم ، بما في ذلك رسائل البريد الإلكتروني التصيدية ، والخداع ، والطعم ، ومخططات المقايضة. في هذه المقالة ، سنناقش أنواعًا مختلفة من هجمات الهندسة الاجتماعية واستراتيجيات منعها.</p>
+<h2 id="أنواع-هجمات-الهندسة-الاجتماعية">
+  <a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9" title="أنواع هجمات الهندسة الاجتماعية">أنواع هجمات الهندسة الاجتماعية</a>
+  <a href="#%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="أنواع هجمات الهندسة الاجتماعية">#</a>
+</h2>
+<h3 id="phishing-attacks">
+  <a href="#phishing-attacks" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    Phishing Attacks
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Phishing Attacks">
+    <meta itemprop="url" content="https://simeononsecurity.com/articles/how-to-identify-phishing/">
+    <a href="https://simeononsecurity.com/articles/how-to-identify-phishing/"
+    
+        rel="follow me"
+    >Phishing Attacks</a>
+</span>
+</a>
+  <a 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/understanding-social-enginnering-attacks-and-how-to-prevent-them/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أفضل معززات إشارة الهاتف الخليوي للاستخدام المنزلي</title><link>https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</link><pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/</guid><description>عزز إشارة هاتفك الخلوي في المنزل من خلال أفضل اختياراتنا للاتصال الموثوق به والتغطية المنزلية بالكامل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>إشارة الخلية الخاصة بك في المواقع البعيدة **</p>
+<p>أصبح البقاء على اتصال أمرًا ضروريًا لمعظمنا ، خاصة أثناء الوباء. ومع ذلك ، في المواقع البعيدة ، قد يكون الحصول على إشارة خلوية موثوقة أمرًا صعبًا. لحسن الحظ ، هناك العديد من الخيارات المتاحة لتعزيز إشارة هاتفك الخلوي. في هذه المقالة ، سنناقش معززات الخلايا الداخلية مثل T-Mobile Cell Spot والمعززات الخارجية والداخلية مثل تلك الموجودة في WeBoost و Hiboost وخيارات femtocell لـ AT&amp;T و T-Mobile و Verizon.</p>
+<h2 id="t-mobile-cell-spot">
+  <a href="#t-mobile-cell-spot" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+
+    
+    
+    T-Mobile Cell Spot
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="T-Mobile Cell Spot">
+    <meta itemprop="url" content="https://amzn.to/41cXppc">
+    <a href="https://amzn.to/41cXppc"
+    
+        
+            
+                rel="nofollow noopener external sponsored" alt="Affiliate Link" target="_blank"
+            
+        
+    >T-Mobile Cell Spot</a>
+</span>
+</a>
+  <a href="#t-mobile-cell-spot" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+        
+        
+
+
+    
+
+
+
+    
+    
+    T-Mobile Cell Spot
+
+">#</a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https:\/\/ar.simeononsecurity.com\/",
+    "caption": "T-Mobile Cell Spot",
+    "license": "https://simeononsecurity.com/te
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/cell-phone-signal-and-coverage-amplification/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Ubiquiti Unifi vs TP-Link Omada: ما هو نظام الشبكة المناسب لك؟</title><link>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</link><pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/</guid><description>قارن بين أنظمة شبكات Ubiquiti Unifi و TP-Link Omada لاختيار النظام المناسب لاحتياجاتك.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_split-screen_illustration_of_a_complex_network.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>Unifi vs Tp-link Omada: مقارنة **</p>
+<p>عندما يتعلق الأمر بحلول الشبكات للشركات والمنازل ، يظهر اسمان 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Ubiquiti">
+    <meta itemprop="url" content="https://www.ui.com/">
+    <a href="https://www.ui.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Ubiquiti</strong></a>
+</span>
+ and 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="TP-Link">
+    <meta itemprop="url" content="https://www.tp-link.com/us/omada-sdn/">
+    <a href="https://www.tp-link.com/us/omada-sdn/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>TP-Link</strong></a>
+</span>
+ تقدم كلتا الشركتين حلولاً موثوقة وعالية الأداء ، ولكن أيهما تختار؟ في هذه المقالة ، سنقارن بين النظامين ونساعدك على تحديد النظام المناسب لاحتياجاتك.</p>
+<h2 id="ubiquiti-unifi">
+  <a href="#ubiquiti-unifi" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    Ubiquiti Unifi
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ubiquiti-unifi-vs-tp-link-omada/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تجاوز BGW-320: استخدام Azores COTS ONT - دليل خطوة بخطوة</title><link>https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><description>تعرف على كيفية تجاوز BGW-320 واستخدام COTS ONT من صنع Azores للاتصال بشبكة مزود خدمة الإنترنت الخاص بك باستخدام هذا الدليل السهل المتابعة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <h2 id="كيفية-تجاوز-bgw-320-واستخدام-azores-wag-d20">
+  <a href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-bgw-320-%d9%88%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-azores-wag-d20" title="كيفية تجاوز BGW-320 واستخدام Azores WAG-D20">كيفية تجاوز BGW-320 واستخدام Azores WAG-D20</a>
+  <a href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-bgw-320-%d9%88%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-azores-wag-d20" class="h-anchor" aria-hidden="true" title="كيفية تجاوز BGW-320 واستخدام Azores WAG-D20">#</a>
+</h2>
+<p>يمتلك معظم الأشخاص الذين يستخدمون الألياف طريقتين للاتصال بالإنترنت - الألياف إلى ONT أو Ethernet إلى بوابة أو الألياف مباشرة إلى البوابة. في هذه المقالة ، سنركز على كيفية تجاوز BGW-320 واستخدام COTS ONT من صنع Azores.</p>
+<h3 id="الجوانب-الفنية">
+  <a href="#%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d9%81%d9%86%d9%8a%d8%a9" title="الجوانب الفنية">الجوانب الفنية</a>
+  <a href="#%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d9%86%d8%a8-%d8%a7%d9%84%d9%81%d9%86%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="الجوانب الفنية">#</a>
+</h3>
+<p>ال
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Azores WAG-D20">
+    <meta itemprop="url" content="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153">
+    <a href="https://cdn.shopifycdn.net/s/files/1/0280/5153/8029/files/Azores_Product_Specification_-_WAG-D20_v0.6.pdf?v=1604914153"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Azores WAG-D20</a>
+</span>
+ is a XGS-PON ONU/ONT that comprises of a 10GE port along with a 2.5GE port even though it may be labeled on the device exterior as GE LAN. It may be acquired 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تشغيل pfSense على جهاز HP t740 Thin Client: تلميحات ودليل استكشاف الأخطاء وإصلاحها</title><link>https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/</guid><description>تعرف على كيفية إعداد pfSense على جهاز HP t740 Thin Client ، وكيفية استكشاف المشكلات المحتملة وإصلاحها مثل التجميد ومشاكل اكتشاف SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>pfSense أو OPNsense أو HardenedBSD على جهاز HP t740 Thin Client **</p>
+<p>إذا كنت تبحث عن جهاز قوي لتشغيل pfSense أو OPNsense أو HardenedBSD ، فقد يكون HP t740 Thin Client هو الخيار المناسب لك.</p>
+<h2 id="خادم-منزلي-أكثر-قوة-ومضغوطا">
+  <a href="#%d8%ae%d8%a7%d8%af%d9%85-%d9%85%d9%86%d8%b2%d9%84%d9%8a-%d8%a3%d9%83%d8%ab%d8%b1-%d9%82%d9%88%d8%a9-%d9%88%d9%85%d8%b6%d8%ba%d9%88%d8%b7%d8%a7" title="خادم منزلي أكثر قوة ومضغوطًا">خادم منزلي أكثر قوة ومضغوطًا</a>
+  <a href="#%d8%ae%d8%a7%d8%af%d9%85-%d9%85%d9%86%d8%b2%d9%84%d9%8a-%d8%a3%d9%83%d8%ab%d8%b1-%d9%82%d9%88%d8%a9-%d9%88%d9%85%d8%b6%d8%ba%d9%88%d8%b7%d8%a7" class="h-anchor" aria-hidden="true" title="خادم منزلي أكثر قوة ومضغوطًا">#</a>
+</h2>
+<p>HP t740 Thin Client هو جهاز مضغوط يمكن استخدامه كصندوق pfSense قوي أو خادم منزلي مضغوط. إنه يوفر طاقة أكبر من t730 أو t620 Plus ، مما يجعله خيارًا مناسبًا لتشغيل PPPoE ، خاصة إذا كان لديك إنترنت فايبر. يمكن أن يوفر أيضًا مسار ترقية لشبكات 10 جيجابت.</p>
+<h2 id="ps--2-يتجمد">
+  <a href="#ps--2-%d9%8a%d8%aa%d8%ac%d9%85%d8%af" title="PS / 2 يتجمد">PS / 2 يتجمد</a>
+  <a href="#ps--2-%d9%8a%d8%aa%d8%ac%d9%85%d8%af" class="h-anchor" aria-hidden="true" title="PS / 2 يتجمد">#</a>
+</h2>
+<p>ومع ذلك ، إذا كنت تخطط لتشغيل FreeBSD أو مشتقاته مثل pfSense أو OPNsense أو HardenedBSD على المعدن العاري (على عكس ESXi أو Proxmox) ، فقد تواجه مشكلة حيث يتجمد النظام عند الإقلاع بالرسالة `` atkbd0: [ عملاق مغلق] `. لحسن الحظ ، يمكن حل هذه المشكلة عن طريق إدخال الأوامر التالية في موجه التمهيد:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><p><em>Note that you need to unset both, otherwise, it will still lock up at boot.</em></p>
+<p>After you install the OS, open a
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>تشغيل pfSense على جهاز HP t740 Thin Client: تلميحات ودليل استكشاف الأخطاء وإصلاحها</title><link>https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</link><pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/</guid><description>تعرف على كيفية إعداد pfSense على جهاز HP t740 Thin Client ، وكيفية استكشاف المشكلات المحتملة وإصلاحها مثل التجميد ومشاكل اكتشاف SSD.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>pfSense أو OPNsense أو HardenedBSD على جهاز HP t740 Thin Client **</p>
+<p>إذا كنت تبحث عن جهاز قوي لتشغيل pfSense أو OPNsense أو HardenedBSD ، فقد يكون HP t740 Thin Client هو الخيار المناسب لك.</p>
+<h2 id="خادم-منزلي-أكثر-قوة-ومضغوطا">
+  <a href="#%d8%ae%d8%a7%d8%af%d9%85-%d9%85%d9%86%d8%b2%d9%84%d9%8a-%d8%a3%d9%83%d8%ab%d8%b1-%d9%82%d9%88%d8%a9-%d9%88%d9%85%d8%b6%d8%ba%d9%88%d8%b7%d8%a7" title="خادم منزلي أكثر قوة ومضغوطًا">خادم منزلي أكثر قوة ومضغوطًا</a>
+  <a href="#%d8%ae%d8%a7%d8%af%d9%85-%d9%85%d9%86%d8%b2%d9%84%d9%8a-%d8%a3%d9%83%d8%ab%d8%b1-%d9%82%d9%88%d8%a9-%d9%88%d9%85%d8%b6%d8%ba%d9%88%d8%b7%d8%a7" class="h-anchor" aria-hidden="true" title="خادم منزلي أكثر قوة ومضغوطًا">#</a>
+</h2>
+<p>HP t740 Thin Client هو جهاز مضغوط يمكن استخدامه كصندوق pfSense قوي أو خادم منزلي مضغوط. إنه يوفر طاقة أكبر من t730 أو t620 Plus ، مما يجعله خيارًا مناسبًا لتشغيل PPPoE ، خاصة إذا كان لديك إنترنت فايبر. يمكن أن يوفر أيضًا مسار ترقية لشبكات 10 جيجابت.</p>
+<h2 id="ps--2-يتجمد">
+  <a href="#ps--2-%d9%8a%d8%aa%d8%ac%d9%85%d8%af" title="PS / 2 يتجمد">PS / 2 يتجمد</a>
+  <a href="#ps--2-%d9%8a%d8%aa%d8%ac%d9%85%d8%af" class="h-anchor" aria-hidden="true" title="PS / 2 يتجمد">#</a>
+</h2>
+<p>ومع ذلك ، إذا كنت تخطط لتشغيل FreeBSD أو مشتقاته مثل pfSense أو OPNsense أو HardenedBSD على المعدن العاري (على عكس ESXi أو Proxmox) ، فقد تواجه مشكلة حيث يتجمد النظام عند بدء تشغيل الرسالة <code>atkbd0: [GIANT-LOCKED]</code> لحسن الحظ ، يمكن حل هذه المشكلة عن طريق إدخال الأوامر التالية في موجه التمهيد:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>unset hint.uart.0.at
+</span></span><span style="display:flex;"><span>unset hint.uart.1.at
+</span></span></code></pre></div><ul>
+<li>لاحظ أنك بحاجة إلى إلغاء ضبط كليهما ، وإلا فسيظل مغلقًا عند التمه
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/other/installing-pfsense-on-hp-t740-thin-client/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Protecting Your Personal Information: How to Keep Your Credit Cards Safe from RFID Skimming and other Physical Attacks</title><link>https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/</guid><description>Learn how to protect yourself from RFID skimming and keep your credit card information secure with these simple tips.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>simeononsecurity.com
+** كيف تحمي نفسك من الاحتيال المادي على بطاقة الائتمان **</p>
+<p>أصبحت بطاقات الائتمان جزءًا أساسيًا من حياتنا اليومية. ومع ذلك ، مع الراحة التي يوفرونها ، تأتي مخاطر الاحتيال. طور المجرمون تقنيات مختلفة لسرقة معلومات بطاقة الائتمان ، مثل القشط والتصيد والقرصنة. في هذه المقالة ، سنناقش كيف يمكنك حماية نفسك من الاحتيال المادي على بطاقة الائتمان.</p>
+<h2 id="الشريط-المغناطيسي">
+  <a href="#%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d9%85%d8%ba%d9%86%d8%a7%d8%b7%d9%8a%d8%b3%d9%8a" title="الشريط المغناطيسي">الشريط المغناطيسي</a>
+  <a href="#%d8%a7%d9%84%d8%b4%d8%b1%d9%8a%d8%b7-%d8%a7%d9%84%d9%85%d8%ba%d9%86%d8%a7%d8%b7%d9%8a%d8%b3%d9%8a" class="h-anchor" aria-hidden="true" title="الشريط المغناطيسي">#</a>
+</h2>
+<p>يحتوي الشريط المغناطيسي الموجود على ظهر بطاقة الائتمان الخاصة بك على جميع المعلومات الضرورية لإجراء الدفع ، بما في ذلك اسمك ورقم بطاقتك وتاريخ انتهاء الصلاحية. يمكن للمجرمين استخدام الكاشطات لسرقة هذه المعلومات عند استخدام بطاقتك في ماكينة الصراف الآلي أو محطة الدفع.</p>
+<p>لحماية نفسك من هذا النوع من الاحتيال:</p>
+<ul>
+<li>** استخدم محطات الدفع الموجودة في مناطق مضاءة جيدًا ومكتظة بالسكان **. من غير المرجح أن يقوم المجرمون بتركيب كاشطات في هذه المواقع.</li>
+<li>** غط لوحة المفاتيح عند إدخال رقم التعريف الشخصي الخاص بك **. سيمنع هذا أي شخص من رؤية رقم التعريف الشخصي الخاص بك.</li>
+<li>** تحقق من محطة الدفع بحثًا عن أي علامات تلاعب **. إذا كان الجهاز يبدو مريبًا ، فاستخدم جهازًا آخر أو ادفع نقدًا.</li>
+<li>** تحقق بانتظام من كشوفات بطاقتك الائتمانية ** وأبلغ البنك عن أي معاملات مشبوهة.</li>
+<li>** استخدم �
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/how-to-protect-yourself-from-physical-credit-fraud/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Overcoming Challenges and Embracing Opportunities of DevSecOps Implementation</title><link>https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/</guid><description>This article explores the challenges and opportunities of DevSecOps in organizations, including better collaboration, improved scalability, integration with government regulations, and more.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>** تحديات وفرص تنفيذ DevSecOps في مؤسستك **  لقد قمت بالتشغيل والتشغيل في دورات التطوير والتشغيل يُعرف هذا التكامل باسم DevSecOps ، والذي يحدد إلى توفير نتائج أمان محسّنة من خلال تحديد المخاطر ومعالجتها بشكل استباقي مع تسريع تسليم التطبيقات. وتنفيذ تنفيذ عمليات DevSecOps. هذه المقالة توضح بعض هذه التحديات والفرص.  ______  ## تحدي التغيير الثقافي  من أكبر التحديات التي تواجه تنفيذ DevSecOps في مؤسسة ما هو القدر الثقافي الذي يحدث. تقليديا ، تعمل فرق التطوير والقطع بشكل مستقل بشكل مستقل بشكل غير منتظم. يؤدي يؤدي إلى تحسن أو هبوط أثناء تنفيذ عمليات DevSecOps.  للتغلب على هذه التحديات ، يجب أن تتغلب على هذه التحديات ، حيث يجب أن تتعاون تعاونية حيث تعمل جميع الحلول المشتركة لتحقيق هدف مشترك في تقديم تطبيقات آمنة النهائيين. تحديد هذا المؤشر ، تحديد الأسعار ، والتصحيح ، والتحسين ، والتحسين المستمر.  بالإضافة إلى ذلك ، يجب أن تكون الشروع في برامج التدريب والتوعية لتثقيف الفرق حول محيط الحلقة في دورة حياة التطوير. مراحل التطوير الخاصة بالتصميم إلى الإنتاج.  ______  ## التحدي المتمثل في اختبار اختبار الأمان  يتمثل في أحد مراحل تطور تطور التطبيق. يؤدي تنفيذ سلسلة كاملة  للأسف ، أسهل وأقل تكلفة. أيضًا ، يمكن لأدوات تحديد الثغرات الأمنية بسرعة من إصدار الإنتاج دون توقف بالجودة.  وباكستان ، وباكستان ، وفترة نموهما يعد هذا تحديًا وطريقة للفرق ذات سير العمل وطرق تطوير البرامج.  ______  ## التحدي المتمثل في إدارة أدوات متعددة  تم تنفيذ مهام نهج  من أجل الحصول على فرصة الحصول على هذه الفرصة ، يمكنك إن�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/the-challenges-and-oppurtinities-of-implementing-devsecops-in-your-organization/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>

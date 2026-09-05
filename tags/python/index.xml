@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/tags/python//img/banner.webp</url><title>Python on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/python/</link></image><link>https://ar.simeononsecurity.com/tags/python/</link><description>Recent content in Python on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مراقبة مضادة"
+, "مشاريع مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أدوات الخصوصية"
+, "اختراق الأجهزة"
+, "بحث الأمن"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>
