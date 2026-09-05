@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contravigil·lància on simeononsecurity</title><image><url>https://ca.simeononsecurity.com/genre/contravigill%C3%A0ncia//img/banner.webp</url><title>Contravigil·lància on simeononsecurity</title><link>https://ca.simeononsecurity.com/genre/contravigill%C3%A0ncia/</link></image><link>https://ca.simeononsecurity.com/genre/contravigill%C3%A0ncia/</link><description>Recent content in Contravigil·lància on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ca</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ca.simeononsecurity.com/genre/contravigill%C3%A0ncia/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Mapa de càmeres ALPR de Flock Safety</title><link>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnologia de privacitat"
+, "Contravigil·lància"
+, "Projectes de codi obert"
+, "Drets digitals"
+, "Seguretat de xarxes"
+, "Eines de privacitat"
+, "Pirateria de maquinari"
+, "Recerca de seguretat"</category><guid>https://ca.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder és una eina de codi obert que mapeja més de 40.000 càmeres Flock Safety ALPR arreu del món utilitzant dades WiFi de WiGLE i empremta OUI. Aprèn com funciona, les seves limitacions i les eines de maquinari per a la detecció en temps real.</description><enclosure url="https://ca.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>
