@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Axon Body Camera on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/axon-body-camera//img/banner.webp</url><title>Axon Body Camera on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/axon-body-camera/</link></image><link>https://fr.simeononsecurity.com/tags/axon-body-camera/</link><description>Recent content in Axon Body Camera on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/axon-body-camera/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy : Détecteur de surveillance passif pour le M5Stack Atom Lite (ESP32)</title><link>https://fr.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Outils de confidentialité"
+, "Contre-surveillance"
+, "Sécurité IoT"
+, "Systèmes embarqués"
+, "Recherche en sécurité"
+, "Sécurité WiFi"
+, "Sécurité Bluetooth"
+, "Projets ESP32"
+, "Sécurité matérielle"
+, "Sécurité open source"</category><guid>https://fr.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Une référence technique complète pour Eye Spy v1.1 - un détecteur de surveillance passif BLE et WiFi open source fonctionnant sur le M5Stack Atom Lite (ESP32-PICO-D4) qui scanne les caméras corporelles, les systèmes ALPR, les AirTags, les drones et les caméras cachées avec un modèle de menace à score de confiance et une seule LED RGB.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item></channel></rss>

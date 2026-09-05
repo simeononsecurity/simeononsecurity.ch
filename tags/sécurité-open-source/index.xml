@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sécurité Open-Source on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/tags/s%C3%A9curit%C3%A9-open-source//img/banner.webp</url><title>Sécurité Open-Source on simeononsecurity</title><link>https://fr.simeononsecurity.com/tags/s%C3%A9curit%C3%A9-open-source/</link></image><link>https://fr.simeononsecurity.com/tags/s%C3%A9curit%C3%A9-open-source/</link><description>Recent content in Sécurité Open-Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/tags/s%C3%A9curit%C3%A9-open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder : Carte des caméras ALPR Flock Safety</title><link>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Technologie de confidentialité"
+, "Contre-surveillance"
+, "Projets open-source"
+, "Droits numériques"
+, "Sécurité des réseaux"
+, "Outils de confidentialité"
+, "Piratage matériel"
+, "Recherche en sécurité"</category><guid>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder est un outil open-source qui cartographie plus de 40 000 caméras Flock Safety ALPR dans le monde entier en utilisant les données WiFi de WiGLE et l'empreinte OUI. Découvrez comment il fonctionne, ses limites et les outils matériels pour la détection en temps réel.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Firmware personnalisé DagShell pour Orbic RCL400 : Guide complet d'installation et d'utilisation 2026</title><link>https://fr.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personnalisé"
+, "Sécurité mobile"
+, "Outils de confidentialité"
+, "Sécurité réseau"
+, "Wardriving"
+, "Tests d'intrusion"
+, "Hacking IoT"
+, "Recherche en sécurité"
+, "Hacking matériel"
+, "Technologie de confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide complet du firmware personnalisé DagShell pour le hotspot Orbic RCL400, incluant l'installation, les outils de confidentialité, les fonctionnalités de hacking, les capacités de wardriving et pourquoi il se combine parfaitement avec RayHunter pour la recherche en sécurité mobile.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Projet Flock-You : Guide complet de matériel et de configuration pour la contre-surveillance 2026</title><link>https://fr.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Matériel de sécurité"
+, "Contre-surveillance"
+, "Technologie de confidentialité"
+, "Projets open source"
+, "Développement ESP32"
+, "Surveillance WiFi"
+, "Outils de confidentialité"
+, "Droits numériques"
+, "Bricolage matériel"
+, "Sécurité réseau"</category><guid>https://fr.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide technique complet du projet open source Flock-You pour détecter les caméras ALPR Flock Safety à l'aide de matériel basé sur ESP32. Comprend les instructions de configuration, les détails du firmware et les options d'achat.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

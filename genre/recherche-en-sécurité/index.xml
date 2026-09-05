@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recherche en Sécurité on simeononsecurity</title><image><url>https://fr.simeononsecurity.com/genre/recherche-en-s%C3%A9curit%C3%A9//img/banner.webp</url><title>Recherche en Sécurité on simeononsecurity</title><link>https://fr.simeononsecurity.com/genre/recherche-en-s%C3%A9curit%C3%A9/</link></image><link>https://fr.simeononsecurity.com/genre/recherche-en-s%C3%A9curit%C3%A9/</link><description>Recent content in Recherche en Sécurité on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>fr</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fr.simeononsecurity.com/genre/recherche-en-s%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder : Carte des caméras ALPR Flock Safety</title><link>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Technologie de confidentialité"
+, "Contre-surveillance"
+, "Projets open-source"
+, "Droits numériques"
+, "Sécurité des réseaux"
+, "Outils de confidentialité"
+, "Piratage matériel"
+, "Recherche en sécurité"</category><guid>https://fr.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder est un outil open-source qui cartographie plus de 40 000 caméras Flock Safety ALPR dans le monde entier en utilisant les données WiFi de WiGLE et l'empreinte OUI. Découvrez comment il fonctionne, ses limites et les outils matériels pour la détection en temps réel.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Eye Spy : Détecteur de surveillance passif pour le M5Stack Atom Lite (ESP32)</title><link>https://fr.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Outils de confidentialité"
+, "Contre-surveillance"
+, "Sécurité IoT"
+, "Systèmes embarqués"
+, "Recherche en sécurité"
+, "Sécurité WiFi"
+, "Sécurité Bluetooth"
+, "Projets ESP32"
+, "Sécurité matérielle"
+, "Sécurité open source"</category><guid>https://fr.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Une référence technique complète pour Eye Spy v1.1 - un détecteur de surveillance passif BLE et WiFi open source fonctionnant sur le M5Stack Atom Lite (ESP32-PICO-D4) qui scanne les caméras corporelles, les systèmes ALPR, les AirTags, les drones et les caméras cachées avec un modèle de menace à score de confiance et une seule LED RGB.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary : Détection passive des menaces 2,4 GHz avec alertes LED RGB</title><link>https://fr.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Sécurité réseau"
+, "Sécurité WiFi"
+, "Sécurité IoT"
+, "Recherche en sécurité"
+, "Systèmes embarqués"
+, "Outils de confidentialité"
+, "Projets ESP32"
+, "Sécurité matérielle"
+, "Sécurité sans fil"
+, "Sécurité open source"</category><guid>https://fr.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Une analyse détaillée du projet ESP32 WiFi Canary - un capteur de surveillance compact et passif 2,4 GHz pour le M5Stack Atom Lite qui surveille silencieusement les AP Evil Twin, les attaques de désauthentification, les rétrogradations de sécurité et les floods de balises avec un modèle de menace à score de confiance et une seule LED RGB.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Firmware personnalisé DagShell pour Orbic RCL400 : Guide complet d'installation et d'utilisation 2026</title><link>https://fr.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personnalisé"
+, "Sécurité mobile"
+, "Outils de confidentialité"
+, "Sécurité réseau"
+, "Wardriving"
+, "Tests d'intrusion"
+, "Hacking IoT"
+, "Recherche en sécurité"
+, "Hacking matériel"
+, "Technologie de confidentialité"</category><guid>https://fr.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guide complet du firmware personnalisé DagShell pour le hotspot Orbic RCL400, incluant l'installation, les outils de confidentialité, les fonctionnalités de hacking, les capacités de wardriving et pourquoi il se combine parfaitement avec RayHunter pour la recherche en sécurité mobile.</description><enclosure url="https://fr.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item></channel></rss>
