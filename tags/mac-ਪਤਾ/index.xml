@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MAC ਪਤਾ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/tags/mac-%E0%A8%AA%E0%A8%A4%E0%A8%BE//img/banner.webp</url><title>MAC ਪਤਾ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/mac-%E0%A8%AA%E0%A8%A4%E0%A8%BE/</link></image><link>https://pa.simeononsecurity.com/tags/mac-%E0%A8%AA%E0%A8%A4%E0%A8%BE/</link><description>Recent content in MAC ਪਤਾ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/mac-%E0%A8%AA%E0%A8%A4%E0%A8%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Flock Safety ALPR ਕੈਮਰਿਆਂ ਦਾ ਨਕਸ਼ਾ</title><link>https://pa.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"ਗੋਪਨੀਯਤਾ ਤਕਨੀਕ"
+, "ਜਵਾਬੀ ਨਿਗਰਾਨੀ"
+, "ਓਪਨ ਸੋਰਸ ਪ੍ਰੋਜੈਕਟ"
+, "ਡਿਜੀਟਲ ਅਧਿਕਾਰ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "ਗੋਪਨੀਯਤਾ ਸਾਧਨ"
+, "ਹਾਰਡਵੇਅਰ ਹੈਕਿੰਗ"
+, "ਸੁਰੱਖਿਆ ਖੋਜ"</category><guid>https://pa.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder ਇੱਕ ਓਪਨ-ਸੋਰਸ ਟੂਲ ਹੈ ਜੋ WiGLE WiFi ਡੇਟਾ ਅਤੇ OUI ਫਿੰਗਰਪ੍ਰਿੰਟਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਦੁਨੀਆ ਭਰ ਵਿੱਚ 40,000+ Flock Safety ALPR ਕੈਮਰਿਆਂ ਦਾ ਨਕਸ਼ਾ ਬਣਾਉਂਦਾ ਹੈ। ਜਾਣੋ ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ, ਇਸ ਦੀਆਂ ਸੀਮਾਵਾਂ ਅਤੇ ਰੀਅਲ-ਟਾਈਮ ਖੋਜ ਲਈ ਹਾਰਡਵੇਅਰ ਟੂਲ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>BGW-320 ਨੂੰ ਬਾਈਪਾਸ ਕਰਨਾ: ਅਜ਼ੋਰਸ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ - ਇੱਕ ਕਦਮ-ਦਰ-ਕਦਮ ਗਾਈਡ</title><link>https://pa.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</link><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><category>
+"COTS ONT"
+, "BGW-320"
+, "ਅਜ਼ੋਰਸ"
+, "ਫਾਈਬਰ"
+, "ਨੈੱਟਵਰਕ"
+, "XGS-PON"
+, "ਈਥਰਨੈੱਟ"
+, "IP ਪਾਸਥਰੂ"
+, "ਅਨੁਕੂਲਤਾ"
+, "ISP"
+, "ont ID"
+, "MAC ਪਤਾ"
+, "ਉਪਕਰਨ ਆਈ.ਡੀ"
+, "ਚਿੱਤਰ ਸੰਸਕਰਣ"
+, "ਹਾਰਡਵੇਅਰ ਵਰਜਨ"
+, "telnet"
+, "CLI ਐਪਲੀਕੇਸ਼ਨ"
+, "ਵੈੱਬ GUI"
+, "ਫੈਕਟਰੀ ਸੰਰਚਨਾ ਮੋਡ"
+, "ਅਨੁਕੂਲਤਾ ਮੁੱਦੇ"</category><guid>https://pa.simeononsecurity.com/guides/bypassing-the-bgw320-att-fiber-modem-router/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਸਿੱਖੋ ਕਿ BGW-320 ਨੂੰ ਕਿਵੇਂ ਬਾਈਪਾਸ ਕਰਨਾ ਹੈ ਅਤੇ ਇਸ ਆਸਾਨ-ਅਧਾਰਿਤ ਗਾਈਡ ਨਾਲ ਆਪਣੇ ISP ਦੇ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਨ ਲਈ Azores ਦੁਆਰਾ ਬਣਾਏ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ।</description></item></channel></rss>
