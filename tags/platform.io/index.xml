@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platform.io on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/tags/platform.io//img/banner.webp</url>
+      <title>Platform.io on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/platform.io/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/platform.io/</link>
+
+    <description>Recent content in Platform.io on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/platform.io/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обнаружение Flock-You: Руководство по настройке контрнаблюдения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитное оборудование"
+            
+              , "Контрнаблюдение"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Разработка ESP32"
+            
+              , "Мониторинг WiFi"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Аппаратный хакинг"
+            
+              , "Сетевая безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

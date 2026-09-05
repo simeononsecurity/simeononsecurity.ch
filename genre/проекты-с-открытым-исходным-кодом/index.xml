@@ -1,0 +1,176 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Проекты С Открытым Исходным Кодом on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-%D1%81-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC-%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC//img/banner.webp</url>
+      <title>Проекты С Открытым Исходным Кодом on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-%D1%81-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC-%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-%D1%81-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC-%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC/</link>
+
+    <description>Recent content in Проекты С Открытым Исходным Кодом on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-%D1%81-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC-%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Картирование камер ALPR Flock Safety</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Исследования безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обнаружение Flock-You: Руководство по настройке контрнаблюдения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитное оборудование"
+            
+              , "Контрнаблюдение"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Разработка ESP32"
+            
+              , "Мониторинг WiFi"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Аппаратный хакинг"
+            
+              , "Сетевая безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
