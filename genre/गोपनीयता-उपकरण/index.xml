@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>गोपनीयता उपकरण on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/genre/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A8%E0%A5%80%E0%A4%AF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%AA%E0%A4%95%E0%A4%B0%E0%A4%A3//img/banner.webp</url><title>गोपनीयता उपकरण on simeononsecurity</title><link>https://hi.simeononsecurity.com/genre/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A8%E0%A5%80%E0%A4%AF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%AA%E0%A4%95%E0%A4%B0%E0%A4%A3/</link></image><link>https://hi.simeononsecurity.com/genre/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A8%E0%A5%80%E0%A4%AF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%AA%E0%A4%95%E0%A4%B0%E0%A4%A3/</link><description>Recent content in गोपनीयता उपकरण on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/genre/%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A8%E0%A5%80%E0%A4%AF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%AA%E0%A4%95%E0%A4%B0%E0%A4%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Flock Safety ALPR कैमरों का मानचित्र</title><link>https://hi.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"गोपनीयता तकनीक"
+, "प्रति-निगरानी"
+, "ओपन सोर्स प्रोजेक्ट"
+, "डिजिटल अधिकार"
+, "नेटवर्क सुरक्षा"
+, "गोपनीयता उपकरण"
+, "हार्डवेयर हैकिंग"
+, "सुरक्षा अनुसंधान"</category><guid>https://hi.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder एक ओपन-सोर्स टूल है जो WiGLE WiFi डेटा और OUI फिंगरप्रिंटिंग का उपयोग करके दुनिया भर में 40,000+ Flock Safety ALPR कैमरों का मानचित्र बनाता है। जानें यह कैसे काम करता है, इसकी सीमाएं और रियल-टाइम डिटेक्शन के लिए हार्डवेयर टूल।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock-You डिटेक्शन: काउंटर-सर्विलांस सेटअप गाइड</title><link>https://hi.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"सुरक्षा हार्डवेयर"
+, "काउंटर सर्विलांस"
+, "गोपनीयता तकनीक"
+, "ओपन सोर्स प्रोजेक्ट"
+, "ESP32 विकास"
+, "WiFi मॉनिटरिंग"
+, "गोपनीयता उपकरण"
+, "डिजिटल अधिकार"
+, "हार्डवेयर हैकिंग"
+, "नेटवर्क सुरक्षा"</category><guid>https://hi.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32-आधारित हार्डवेयर का उपयोग करके Flock Safety ALPR कैमरों का पता लगाने के लिए ओपन-सोर्स Flock-You प्रोजेक्ट का व्यापक तकनीकी गाइड। इसमें सेटअप निर्देश, फर्मवेयर विवरण और खरीद विकल्प शामिल हैं।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>
