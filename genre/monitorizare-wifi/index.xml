@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitorizare WiFi on simeononsecurity</title><image><url>https://ro.simeononsecurity.com/genre/monitorizare-wifi//img/banner.webp</url><title>Monitorizare WiFi on simeononsecurity</title><link>https://ro.simeononsecurity.com/genre/monitorizare-wifi/</link></image><link>https://ro.simeononsecurity.com/genre/monitorizare-wifi/</link><description>Recent content in Monitorizare WiFi on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ro</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ro.simeononsecurity.com/genre/monitorizare-wifi/index.xml" rel="self" type="application/rss+xml"/><item><title>Detectarea Flock-You: Ghid de Configurare pentru Contra-Supraveghere</title><link>https://ro.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware de Securitate"
+, "Contra-Supraveghere"
+, "Tehnologie pentru Confidențialitate"
+, "Proiecte Open Source"
+, "Dezvoltare ESP32"
+, "Monitorizare WiFi"
+, "Instrumente de Confidențialitate"
+, "Drepturi Digitale"
+, "Hacking Hardware"
+, "Securitate Rețele"</category><guid>https://ro.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ghid tehnic complet al proiectului open-source Flock-You pentru detectarea camerelor ALPR Flock Safety folosind hardware bazat pe ESP32. Include instrucțiuni de configurare, detalii despre firmware și opțiuni de achiziție.</description><enclosure url="https://ro.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>
