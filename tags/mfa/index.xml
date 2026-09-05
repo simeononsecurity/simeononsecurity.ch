@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MFA on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/tags/mfa//img/banner.webp</url><title>MFA on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/mfa/</link></image><link>https://zh.simeononsecurity.com/tags/mfa/</link><description>Recent content in MFA on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/mfa/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock摄像头：公共安全工具还是无证监控机器？</title><link>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"隐私"
+, "监控"
+, "公民自由"
+, "执法技术"
+, "数字权利"</category><guid>https://zh.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+对Flock Safety ALPR摄像头的独立分析：它们的实际工作原理、除车牌之外收集的数据、数据共享如何创建隐蔽的全国数据库，以及为何搜查令问题才是真正的核心问题。</description></item><item><title>多因素身份验证对企业安全的利弊</title><link>https://zh.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</link><pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate><category>
+"多因素认证"
+, "MFA"
+, "商业安全"
+, "网络安全"
+, "数据保护"
+, "监管合规"
+, "用户体验"
+, "网络钓鱼"
+, "蛮力攻击"
+, "技术复杂性"
+, "用户阻力"
+, "智能手机"
+, "象征性"
+, "智能卡"
+, "指纹"
+, "面部识别"
+, "语音识别"
+, "PCI DSS"
+, "HIPAA"
+, "数据泄露"</category><guid>https://zh.simeononsecurity.com/articles/the-pros-and-cons-of-multi-factor-autentication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+探索多因素身份验证 (MFA) 的优点和缺点，了解如何为企业安全选择合适的解决方案。</description></item></channel></rss>

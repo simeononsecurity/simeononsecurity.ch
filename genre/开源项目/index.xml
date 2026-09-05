@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开源项目 on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE//img/banner.webp</url><title>开源项目 on simeononsecurity</title><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link></image><link>https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link><description>Recent content in 开源项目 on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/genre/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder：绘制 Flock Safety ALPR 摄像头地图</title><link>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"隐私技术"
+, "反监控"
+, "开源项目"
+, "数字权利"
+, "网络安全"
+, "隐私工具"
+, "硬件黑客"
+, "安全研究"</category><guid>https://zh.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder 是一款开源工具，利用 WiGLE WiFi 数据和 OUI 指纹识别，绘制全球 40,000 多台 Flock Safety ALPR 摄像头的地图。了解其工作原理、局限性以及用于实时检测的硬件工具。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock-You检测：反监控设置指南</title><link>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"安全硬件"
+, "反监控"
+, "隐私技术"
+, "开源项目"
+, "ESP32开发"
+, "WiFi监控"
+, "隐私工具"
+, "数字权利"
+, "硬件破解"
+, "网络安全"</category><guid>https://zh.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+使用基于ESP32硬件检测Flock Safety ALPR摄像头的开源Flock-You项目综合技术指南。包括设置说明、固件详情和购买选项。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>
