@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/open-source//img/banner.webp</url><title>Open Source on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/open-source/</link></image><link>https://de.simeononsecurity.com/genre/open-source/</link><description>Recent content in Open Source on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxmox VE 8 auf 9 Upgrade-Anleitung: In-Place-Upgrade mit automatisiertem Skript</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualisierung"
+, "Linux-Administration"
+, "Proxmox"
+, "Serververwaltung"
+, "Open Source"
+, "Homelab"</category><guid>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vollständige Anleitung zum Upgrade von Proxmox VE 8 (Debian Bookworm) auf Proxmox VE 9 (Debian Trixie). Behandelt Voraussetzungen, schrittweises manuelles Upgrade, das Automatisierungsskript pve8to9-upgrade.sh, grundlegende Änderungen und bekannte Probleme.</description><enclosure url="https://de.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>Tailscale vs Headscale: Vollständiger Vergleichsleitfaden 2026 für selbst gehostete VPNs</title><link>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Netzwerksicherheit"
+, "Selbst gehostet"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh-Netzwerk"
+, "Open Source"
+, "Cloud-Infrastruktur"
+, "Fernzugriff"
+, "Netzwerkverwaltung"</category><guid>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich von Tailscale und Headscale für 2026, einschließlich Funktionen, Preise, Leistung, Sicherheit und Einsatzszenarien, damit Sie die beste WireGuard-basierte Mesh-VPN-Lösung wählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Beste Datenschutzbrowser 2026: LibreWolf vs Brave vs Firefox vs Tor – Vollständiger Vergleich</title><link>https://de.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Browser"
+, "Datenschutz"
+, "Sicherheit"
+, "Internet"
+, "Technologie"
+, "Digitaler Datenschutz"
+, "Online-Sicherheit"
+, "Open Source"
+, "Anonymität"
+, "Surfen im Web"</category><guid>https://de.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich der besten datenschutzorientierten Browser 2026: LibreWolf, Brave, Firefox, Tor und mehr. Detaillierte Datenschutztests, Performance-Benchmarks und Sicherheitsanalyse zum Schutz Ihrer Online-Daten.</description><enclosure url="https://de.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item></channel></rss>

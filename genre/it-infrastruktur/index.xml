@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT-Infrastruktur on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/it-infrastruktur//img/banner.webp</url><title>IT-Infrastruktur on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/it-infrastruktur/</link></image><link>https://de.simeononsecurity.com/genre/it-infrastruktur/</link><description>Recent content in IT-Infrastruktur on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/it-infrastruktur/index.xml" rel="self" type="application/rss+xml"/><item><title>Fortinet vs Cisco: Vollständiger Netzwerksicherheits-Vergleichsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "Cybersicherheit"
+, "Enterprise-Vernetzung"
+, "Firewall-Vergleich"
+, "IT-Infrastruktur"
+, "Netzwerk-Hardware"
+, "Sicherheitslösungen"
+, "Netzwerkverwaltung"
+, "Technologievergleich"
+, "IT-Entscheidungsfindung"</category><guid>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich der Netzwerksicherheitslösungen von Fortinet und Cisco, einschließlich Firewalls, Switches, SD-WAN, Preise, Leistungs-Benchmarks und Bereitstellungsempfehlungen für 2026.</description><enclosure url="https://de.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Verbesserung der Sicherheit: Die Macht der Schwachstellen-Management-Systeme</title><link>https://de.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "IT-Infrastruktur"
+, "Risikominderung"
+, "Einhaltung der Vorschriften"
+, "Datensicherheit"
+, "Bewertung der Anfälligkeit"
+, "Sicherheitsposition"
+, "Automatisierung"
+, "Integration"
+, "Berichterstattung"</category><guid>https://de.simeononsecurity.com/articles/vulnerability-management-systems-enhancing-security-mitigating-risks/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stärken Sie die Sicherheit Ihres Unternehmens und mindern Sie Risiken mit Schwachstellenmanagementsystemen. Erfahren Sie mehr über deren Vorteile und Bedeutung in der heutigen digitalen Landschaft.</description></item><item><title>Netzwerk-Plus-Kurs: Das OSI-Modell, Topologien und Netzwerktypen verstehen</title><link>https://de.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Vernetzung"
+, "IT-Infrastruktur"
+, "Netzarchitektur"
+, "Informatik"
+, "Datenkommunikation"
+, "Informationstechnologie"
+, "Netzwerksicherheit"
+, "Netzwerk-Management"
+, "Internet"</category><guid>https://de.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erkunden Sie die Bedeutung der Netzwerkgrundlagen, einschließlich des OSI-Modells, der Netzwerktopologien und der verschiedenen Netzwerktypen, für den Aufbau effizienter und zuverlässiger Infrastrukturen.</description></item><item><title>Automatisierungs-Showdown: Ansible vs. Puppet vs. Chef - Ein Vergleich der wichtigsten Automatisierungswerkzeuge</title><link>https://de.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Automatisierungstools"
+, "Konfigurationsmanagement"
+, "IT-Infrastruktur"
+, "DevOps"
+, "IT-Betrieb"
+, "Cloud-Automatisierung"
+, "Software-Bereitstellung"
+, "Infrastructure Management"
+, "Open-Source-Tools"</category><guid>https://de.simeononsecurity.com/articles/ansible-vs-puppet-vs-chef/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie in diesem umfassenden Vergleich die Unterschiede zwischen Ansible, Puppet und Chef, um das richtige Automatisierungstool für die Anforderungen Ihres Unternehmens auszuwählen.</description></item><item><title>GPOs beherrschen: Ein umfassender Leitfaden für effektives Netzwerkmanagement</title><link>https://de.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Netzwerk-Management"
+, "Gruppenrichtlinien-Objekte"
+, "GPOs"
+, "Windows-Verwaltung"
+, "IT-Infrastruktur"
+, "Netzwerksicherheit"
+, "Aktives Verzeichnis"
+, "Konfigurationsmanagement"
+, "Verwaltung von Gruppenrichtlinien"
+, "Netzwerk-Optimierung"</category><guid>https://de.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Leistungsfähigkeit von Gruppenrichtlinienobjekten (GPOs) und lernen Sie, wie Sie Ihre Netzwerkeinstellungen und -richtlinien effizient verwalten und optimieren können, um die Sicherheit zu erhöhen und den Betrieb zu optimieren.</description></item><item><title>CheckMK: Umfassende Überwachungslösung für effizientes IT-Infrastrukturmanagement</title><link>https://de.simeononsecurity.com/articles/what-is-check-mk/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "IT-Infrastruktur"
+, "Netzwerk-Überwachung"
+, "Überwachung von Anwendungen"
+, "IT-Betrieb"
+, "Leistungsanalyse"
+, "Automatisierung"
+, "Event Management"
+, "Skalierbarkeit"
+, "Flexibilität"</category><guid>https://de.simeononsecurity.com/articles/what-is-check-mk/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lernen Sie die Funktionen, Vorteile und Anwendungsfälle von CheckMK kennen, einer umfassenden Überwachungslösung für proaktives IT-Infrastrukturmanagement.</description><enclosure url="https://de.simeononsecurity.com/img/cover/A_vibrant_and_dynamic_artwork_depicting_a_network_infrastru.webp" length="151812" type="image/webp"/></item><item><title>Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</title><link>https://de.simeononsecurity.com/til/2022-05-04/</link><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate><category>
+"Automatisierung"
+, "Ansible"
+, "Konfigurationsmanagement"
+, "IT-Infrastruktur"
+, "DevOps"
+, "Playbook-Entwicklung"
+, "Variable Management"
+, "Bedingte Ausführung"</category><guid>https://de.simeononsecurity.com/til/2022-05-04/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Heute habe ich mehr über Ansible Conditionals und Variablenmanagement gelernt</description></item></channel></rss>

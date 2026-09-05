@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALPR-Erkennung on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/alpr-erkennung//img/banner.webp</url><title>ALPR-Erkennung on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/alpr-erkennung/</link></image><link>https://de.simeononsecurity.com/tags/alpr-erkennung/</link><description>Recent content in ALPR-Erkennung on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/alpr-erkennung/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Karte der Flock Safety ALPR-Kameras</title><link>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Datenschutztechnologie"
+, "Gegenüberwachung"
+, "Open-Source-Projekte"
+, "Digitale Rechte"
+, "Netzwerksicherheit"
+, "Datenschutz-Tools"
+, "Hardware-Hacking"
+, "Sicherheitsforschung"</category><guid>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder ist ein Open-Source-Tool, das weltweit über 40.000 Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting kartiert. Erfahren Sie, wie es funktioniert, welche Einschränkungen es gibt und welche Hardware-Tools zur Echtzeiterkennung verfügbar sind.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Eye Spy: Passiver Überwachungsdetektor für den M5Stack Atom Lite (ESP32)</title><link>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz-Tools"
+, "Gegenüberwachung"
+, "IoT-Sicherheit"
+, "Eingebettete Systeme"
+, "Sicherheitsforschung"
+, "WiFi-Sicherheit"
+, "Bluetooth-Sicherheit"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht.</description><enclosure url="https://de.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>Flock-You Erkennungsprojekt: Vollständiger Gegensurveillance-Hardware- und Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheits-Hardware"
+, "Gegensurveillance"
+, "Datenschutztechnologie"
+, "Open-Source-Projekte"
+, "ESP32-Entwicklung"
+, "WLAN-Monitoring"
+, "Datenschutz-Tools"
+, "Digitale Rechte"
+, "Hardware-Hacking"
+, "Netzwerksicherheit"</category><guid>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender technischer Leitfaden zum Open-Source-Projekt Flock-You zur Erkennung von Flock Safety ALPR-Kameras mit ESP32-basierter Hardware. Enthält Einrichtungsanweisungen, Firmware-Details und Einkaufsinformationen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

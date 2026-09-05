@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hardware-Hacking on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/hardware-hacking//img/banner.webp</url><title>Hardware-Hacking on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/hardware-hacking/</link></image><link>https://de.simeononsecurity.com/genre/hardware-hacking/</link><description>Recent content in Hardware-Hacking on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/hardware-hacking/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Karte der Flock Safety ALPR-Kameras</title><link>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Datenschutztechnologie"
+, "Gegenüberwachung"
+, "Open-Source-Projekte"
+, "Digitale Rechte"
+, "Netzwerksicherheit"
+, "Datenschutz-Tools"
+, "Hardware-Hacking"
+, "Sicherheitsforschung"</category><guid>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder ist ein Open-Source-Tool, das weltweit über 40.000 Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting kartiert. Erfahren Sie, wie es funktioniert, welche Einschränkungen es gibt und welche Hardware-Tools zur Echtzeiterkennung verfügbar sind.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>DagShell Custom Firmware für Orbic RCL400: Vollständige Installations- und Nutzungsanleitung 2026</title><link>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Custom Firmware"
+, "Mobile Sicherheit"
+, "Datenschutz-Tools"
+, "Netzwerksicherheit"
+, "Wardriving"
+, "Penetrationstests"
+, "IoT-Hacking"
+, "Sicherheitsforschung"
+, "Hardware-Hacking"
+, "Datenschutztechnologie"</category><guid>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassende Anleitung zur DagShell Custom Firmware für den Orbic RCL400 Hotspot, einschließlich Installation, Datenschutz-Tools, Hacking-Funktionen, Wardriving-Fähigkeiten und warum es sich perfekt mit RayHunter für mobile Sicherheitsforschung kombiniert.</description><enclosure url="https://de.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You Erkennungsprojekt: Vollständiger Gegensurveillance-Hardware- und Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheits-Hardware"
+, "Gegensurveillance"
+, "Datenschutztechnologie"
+, "Open-Source-Projekte"
+, "ESP32-Entwicklung"
+, "WLAN-Monitoring"
+, "Datenschutz-Tools"
+, "Digitale Rechte"
+, "Hardware-Hacking"
+, "Netzwerksicherheit"</category><guid>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender technischer Leitfaden zum Open-Source-Projekt Flock-You zur Erkennung von Flock Safety ALPR-Kameras mit ESP32-basierter Hardware. Enthält Einrichtungsanweisungen, Firmware-Details und Einkaufsinformationen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

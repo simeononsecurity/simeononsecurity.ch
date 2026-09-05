@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlatformIO on simeononsecurity</title><image><url>https://de.simeononsecurity.com/tags/platformio//img/banner.webp</url><title>PlatformIO on simeononsecurity</title><link>https://de.simeononsecurity.com/tags/platformio/</link></image><link>https://de.simeononsecurity.com/tags/platformio/</link><description>Recent content in PlatformIO on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/tags/platformio/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: Passiver Überwachungsdetektor für den M5Stack Atom Lite (ESP32)</title><link>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Datenschutz-Tools"
+, "Gegenüberwachung"
+, "IoT-Sicherheit"
+, "Eingebettete Systeme"
+, "Sicherheitsforschung"
+, "WiFi-Sicherheit"
+, "Bluetooth-Sicherheit"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht.</description><enclosure url="https://de.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive 2,4-GHz-Bedrohungserkennung mit RGB-LED-Alarmen</title><link>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "WiFi-Sicherheit"
+, "IoT-Sicherheit"
+, "Sicherheitsforschung"
+, "Eingebettete Systeme"
+, "Datenschutz-Tools"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Drahtlose Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine detaillierte Analyse des ESP32 WiFi Canary-Projekts - ein kompakter, passiver 2,4-GHz-Bewusstseinssensor für den M5Stack Atom Lite, der still nach Evil-Twin-APs, Deauthentifizierungsangriffen, Sicherheits-Downgrades und Beacon-Floods sucht und ein Konfidenz-Bewertungs-Bedrohungsmodell sowie eine einzige RGB-LED verwendet.</description><enclosure url="https://de.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

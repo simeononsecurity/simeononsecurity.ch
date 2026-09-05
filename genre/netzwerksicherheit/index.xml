@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Netzwerksicherheit on simeononsecurity</title><image><url>https://de.simeononsecurity.com/genre/netzwerksicherheit//img/banner.webp</url><title>Netzwerksicherheit on simeononsecurity</title><link>https://de.simeononsecurity.com/genre/netzwerksicherheit/</link></image><link>https://de.simeononsecurity.com/genre/netzwerksicherheit/</link><description>Recent content in Netzwerksicherheit on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>de</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/genre/netzwerksicherheit/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Karte der Flock Safety ALPR-Kameras</title><link>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Datenschutztechnologie"
+, "Gegenüberwachung"
+, "Open-Source-Projekte"
+, "Digitale Rechte"
+, "Netzwerksicherheit"
+, "Datenschutz-Tools"
+, "Hardware-Hacking"
+, "Sicherheitsforschung"</category><guid>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder ist ein Open-Source-Tool, das weltweit über 40.000 Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting kartiert. Erfahren Sie, wie es funktioniert, welche Einschränkungen es gibt und welche Hardware-Tools zur Echtzeiterkennung verfügbar sind.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>ESP32 WiFi Canary: Passive 2,4-GHz-Bedrohungserkennung mit RGB-LED-Alarmen</title><link>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "WiFi-Sicherheit"
+, "IoT-Sicherheit"
+, "Sicherheitsforschung"
+, "Eingebettete Systeme"
+, "Datenschutz-Tools"
+, "ESP32-Projekte"
+, "Hardware-Sicherheit"
+, "Drahtlose Sicherheit"
+, "Open-Source-Sicherheit"</category><guid>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Eine detaillierte Analyse des ESP32 WiFi Canary-Projekts - ein kompakter, passiver 2,4-GHz-Bewusstseinssensor für den M5Stack Atom Lite, der still nach Evil-Twin-APs, Deauthentifizierungsangriffen, Sicherheits-Downgrades und Beacon-Floods sucht und ein Konfidenz-Bewertungs-Bedrohungsmodell sowie eine einzige RGB-LED verwendet.</description><enclosure url="https://de.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>DagShell Custom Firmware für Orbic RCL400: Vollständige Installations- und Nutzungsanleitung 2026</title><link>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Custom Firmware"
+, "Mobile Sicherheit"
+, "Datenschutz-Tools"
+, "Netzwerksicherheit"
+, "Wardriving"
+, "Penetrationstests"
+, "IoT-Hacking"
+, "Sicherheitsforschung"
+, "Hardware-Hacking"
+, "Datenschutztechnologie"</category><guid>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassende Anleitung zur DagShell Custom Firmware für den Orbic RCL400 Hotspot, einschließlich Installation, Datenschutz-Tools, Hacking-Funktionen, Wardriving-Fähigkeiten und warum es sich perfekt mit RayHunter für mobile Sicherheitsforschung kombiniert.</description><enclosure url="https://de.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Flock-You Erkennungsprojekt: Vollständiger Gegensurveillance-Hardware- und Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicherheits-Hardware"
+, "Gegensurveillance"
+, "Datenschutztechnologie"
+, "Open-Source-Projekte"
+, "ESP32-Entwicklung"
+, "WLAN-Monitoring"
+, "Datenschutz-Tools"
+, "Digitale Rechte"
+, "Hardware-Hacking"
+, "Netzwerksicherheit"</category><guid>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender technischer Leitfaden zum Open-Source-Projekt Flock-You zur Erkennung von Flock Safety ALPR-Kameras mit ESP32-basierter Hardware. Enthält Einrichtungsanweisungen, Firmware-Details und Einkaufsinformationen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Fortinet vs Cisco: Vollständiger Netzwerksicherheits-Vergleichsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "Cybersicherheit"
+, "Enterprise-Vernetzung"
+, "Firewall-Vergleich"
+, "IT-Infrastruktur"
+, "Netzwerk-Hardware"
+, "Sicherheitslösungen"
+, "Netzwerkverwaltung"
+, "Technologievergleich"
+, "IT-Entscheidungsfindung"</category><guid>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich der Netzwerksicherheitslösungen von Fortinet und Cisco, einschließlich Firewalls, Switches, SD-WAN, Preise, Leistungs-Benchmarks und Bereitstellungsempfehlungen für 2026.</description><enclosure url="https://de.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Tailscale vs Headscale: Vollständiger Vergleichsleitfaden 2026 für selbst gehostete VPNs</title><link>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Netzwerksicherheit"
+, "Selbst gehostet"
+, "WireGuard"
+, "Zero Trust"
+, "Mesh-Netzwerk"
+, "Open Source"
+, "Cloud-Infrastruktur"
+, "Fernzugriff"
+, "Netzwerkverwaltung"</category><guid>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich von Tailscale und Headscale für 2026, einschließlich Funktionen, Preise, Leistung, Sicherheit und Einsatzszenarien, damit Sie die beste WireGuard-basierte Mesh-VPN-Lösung wählen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>pfSense vs Firewalla vs OPNsense: Vollständiger Netzwerksicherheits-Vergleich 2026</title><link>https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Netzwerksicherheit"
+, "Firewall-Vergleich"
+, "Cybersicherheitslösungen"
+, "Netzwerkverwaltung"
+, "Heimnetzwerk"
+, "Unternehmenssicherheit"
+, "Firewall-Funktionen"
+, "Sicherheitssoftware"
+, "VPN-Lösungen"
+, "IoT-Gerätesicherheit"</category><guid>https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich 2026 von pfSense, Firewalla und OPNsense für Heimnetz- und Unternehmenssicherheit. Finden Sie die beste Firewall für Ihre Anforderungen.</description><enclosure url="https://de.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: Der ultimative DNS-Sicherheitsvergleich 2026</title><link>https://de.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "DNS-Vergleich"
+, "Datenschutz"
+, "Werbeblocker"
+, "Netzwerksicherheit"
+, "Internetsicherheit"
+, "DNS-Resolver"
+, "Online-Datenschutz"
+, "Web-Sicherheit"
+, "DNS-Filterung"</category><guid>https://de.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Umfassender Vergleich von NextDNS, AdGuard DNS, Quad9, Cloudflare DNS und Pi-hole für Sicherheit, Datenschutz und Leistung im Jahr 2026. Finden Sie den besten DNS-Resolver für Ihre Bedürfnisse.</description><enclosure url="https://de.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item><item><title>Trojaner für den Fernzugriff verstehen: Risiken, Prävention und Schutz</title><link>https://de.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Bösartige Software"
+, "Computer-Sicherheit"
+, "Digitale Bedrohungen"
+, "Trojaner für den Fernzugriff"
+, "Datenschutz"
+, "Datenschutz"
+, "Cyberkriminalität"
+, "Netzwerksicherheit"
+, "Informationssicherheit"</category><guid>https://de.simeononsecurity.com/articles/understanding-remote-access-trojans-risks-prevention-protection/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Risiken, die von Remote-Access-Trojanern (RATs) ausgehen, und lernen Sie wirksame Präventions- und Schutzmaßnahmen zum Schutz Ihrer Computersysteme und Daten kennen.</description></item><item><title>Freisetzung von Cybersecurity-Fähigkeiten: Eine Überprüfung von TryHackMe</title><link>https://de.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Online-Lernen"
+, "Ethisches Hacking"
+, "Netzwerksicherheit"
+, "Virtuelle Labore"
+, "Zertifizierungen"
+, "Lernpfade"
+, "Praktische Erfahrung"
+, "TryHackMe Überprüfung"</category><guid>https://de.simeononsecurity.com/articles/tryhackme-comprehensive-review-cybersecurity-training-platform/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Leistungsfähigkeit von TryHackMe: Funktionen, Preise, Zertifizierungen, Netzwerkdienste und mehr, damit Sie Ihre Cybersecurity-Fähigkeiten beherrschen können.</description><enclosure url="https://de.simeononsecurity.com/img/cover/An_image_depicting_a_hacker_with_a_superhero_c.webp" length="98638" type="image/webp"/></item><item><title>Netzwerk-Plus-Kurs: Das OSI-Modell, Topologien und Netzwerktypen verstehen</title><link>https://de.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Vernetzung"
+, "IT-Infrastruktur"
+, "Netzarchitektur"
+, "Informatik"
+, "Datenkommunikation"
+, "Informationstechnologie"
+, "Netzwerksicherheit"
+, "Netzwerk-Management"
+, "Internet"</category><guid>https://de.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Erkunden Sie die Bedeutung der Netzwerkgrundlagen, einschließlich des OSI-Modells, der Netzwerktopologien und der verschiedenen Netzwerktypen, für den Aufbau effizienter und zuverlässiger Infrastrukturen.</description></item><item><title>Cybersecurity-Karriereleitfaden 2026: Wesentliche Fähigkeiten, Zertifizierungen und Gehaltsdaten</title><link>https://de.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersicherheit"
+, "Technologie"
+, "Karriereentwicklung"
+, "Informationssicherheit"
+, "Digitale Sicherheit"
+, "Fähigkeiten und Zertifizierungen"
+, "Jobmöglichkeiten"
+, "Netzwerksicherheit"
+, "Cloud-Sicherheit"
+, "Karriereplanung"</category><guid>https://de.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vollständiger Cybersecurity-Karriereleitfaden 2026 mit wesentlichen Fähigkeiten, Top-Zertifizierungen, Gehaltsdaten, Karrierepfaden und Arbeitsmarkteinblicken für angehende Sicherheitsprofis.</description><enclosure url="https://de.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item><item><title>GPOs beherrschen: Ein umfassender Leitfaden für effektives Netzwerkmanagement</title><link>https://de.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Netzwerk-Management"
+, "Gruppenrichtlinien-Objekte"
+, "GPOs"
+, "Windows-Verwaltung"
+, "IT-Infrastruktur"
+, "Netzwerksicherheit"
+, "Aktives Verzeichnis"
+, "Konfigurationsmanagement"
+, "Verwaltung von Gruppenrichtlinien"
+, "Netzwerk-Optimierung"</category><guid>https://de.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Entdecken Sie die Leistungsfähigkeit von Gruppenrichtlinienobjekten (GPOs) und lernen Sie, wie Sie Ihre Netzwerkeinstellungen und -richtlinien effizient verwalten und optimieren können, um die Sicherheit zu erhöhen und den Betrieb zu optimieren.</description></item><item><title>Security+ vs. SSCP: Welche Cybersecurity-Zertifizierung hat die Oberhand?</title><link>https://de.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Informationssicherheit"
+, "Vergleich der Zertifizierungen"
+, "IT-Karrieren"
+, "Anerkennung der Industrie"
+, "Arbeitsmöglichkeiten"
+, "Netzwerksicherheit"
+, "Sicherheit der Systeme"
+, "CompTIA"</category><guid>https://de.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vergleich der Security+- und SSCP-Zertifizierungen, um die beste Wahl für Cybersecurity-Profis zu ermitteln, die nach Beschäftigungsmöglichkeiten, Branchenanerkennung und umfassender Wissensabdeckung suchen.</description></item></channel></rss>

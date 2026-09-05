@@ -1,0 +1,3743 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://de.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>de</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://de.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock-Kameras: Werkzeug der öffentlichen Sicherheit oder anlasslose Überwachungsmaschine?</title><link>https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><description>Eine unabhängige Analyse der ALPR-Kameras von Flock Safety: wie sie tatsächlich funktionieren, welche Daten sie über Kennzeichen hinaus erfassen, wie die Datenweitergabe eine schattenhafte nationale Datenbank schafft und warum die Frage des Durchsuchungsbefehls das eigentliche Problem ist.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Die Debatte über Flock Safety-Kameras spaltet die Menschen auf eine Weise, wie es in der Technologiepolitik kaum etwas anderes tut. Wer schon einmal ein Auto gestohlen bekommen hat, neigt dazu, sie zu mögen. Wer Verfassungsrecht studiert, neigt dazu, sie zu hassen. Beide reagieren auf etwas Reales.</strong></p>
+<p>Dies ist eine unabhängige Analyse dessen, was diese Systeme tatsächlich tun, was die Beweise über ihre Genauigkeit und ihren Missbrauch aussagen, und warum die wichtigste Frage nicht ist, ob Kameras öffentliche Straßen fotografieren dürfen — sondern ob der Staat eine durchsuchbare, anlasslose Datenbank über die Bewegungen aller Menschen aufbauen sollte.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  yieldToMain(function () {
+      loadLiteYouTubeScript();
+  }, "user-visible");
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+    outline: 2px solid red;
+  }
+</style>
+
+<p><em>Dieses Thema löste Mitte 2026 erhebliche öffentliche Diskussionen aus. Das obige Video deckt eine Reihe von Zuschauerperspektiven und Gegenargumenten ab, die es wert sind, neben der Analyse hier berücksichtigt zu werden.</em></p>
+<hr>
+<h2 id="warum-flock-kameras-sich-von-ihrem-handy-unterscheiden">
+  <a href="#warum-flock-kameras-sich-von-ihrem-handy-unterscheiden" title="Warum Flock-Kameras sich von Ihrem Handy unterscheiden">Warum Flock-Kameras sich v
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ATS Resume Improver: Kostenloser, selbst hostbarer KI-Lebenslauf-Optimierer ohne Datenweitergabe</title><link>https://de.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><description>ATS Resume Improver ist ein kostenloser, quelloffener, clientseitiger Lebenslauf-Optimierer, der OpenAI, Anthropic Claude und lokale Ollama-Modelle unterstützt. Parsen, bewerten, Keywords abgleichen, optimieren und exportieren Sie Ihren Lebenslauf, ohne dass Ihre Daten den Browser verlassen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Kostenlos, quelloffen und selbst hostbar. Ihr Lebenslauf berührt keinen Server, es sei denn, Sie verwenden einen KI-Anbieter. Und selbst dann geht er direkt zum KI-Anbieter, nicht zu uns.</strong></p>
+<h2 id="was-ist-ats-resume-improver">
+  <a href="#was-ist-ats-resume-improver" title="Was ist ATS Resume Improver?">Was ist ATS Resume Improver?</a>
+  <a href="#was-ist-ats-resume-improver" class="h-anchor" aria-hidden="true" title="Was ist ATS Resume Improver?">#</a>
+</h2>
+<p><strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ATS Resume Improver">
+    <meta itemprop="url" content="https://atsresumeimprover.netlify.app/">
+    <a href="https://atsresumeimprover.netlify.app/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >ATS Resume Improver</a>
+</span>
+</strong> ist ein quelloffener, browserbasierer Lebenslauf-Optimierer, der Ihren Lebenslauf mit einer Stellenbeschreibung vergleicht und Ihnen hilft, die Lücke zwischen dem, was Sie haben, und dem, was Bewerber-Tracking-Systeme tatsächlich bewerten, zu schließen. Die App basiert auf React 19, Vite und TypeScript. Die gesamte <strong>Analyse- und Bewertungs-Pipeline läuft in Ihrem Browser</strong> ohne Backend-Server.</p>
+<p>Den Quellcode finden Sie unter <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="github.com/simeononsecurity/ats-resume-improver">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/ats-resume-improver">
+    <a href="https://github.com/simeononsecurity/ats-resume-improver"
+    
+        
+            
+                
+                    rel="noopener external" ta
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Flock Finder: Karte der Flock Safety ALPR-Kameras</title><link>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><description>Flock Finder ist ein Open-Source-Tool, das weltweit über 40.000 Flock Safety ALPR-Kameras mithilfe von WiGLE-WiFi-Daten und OUI-Fingerprinting kartiert. Erfahren Sie, wie es funktioniert, welche Einschränkungen es gibt und welche Hardware-Tools zur Echtzeiterkennung verfügbar sind.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Ein Open-Source-Tool zur Überwachungssensibilisierung, das Flock Safety ALPR-Kameras mithilfe von per Crowdsourcing gesammelten WiFi-Daten kartiert.</strong></p>
+<h2 id="was-ist-flock-finder">
+  <a href="#was-ist-flock-finder" title="Was ist Flock Finder?">Was ist Flock Finder?</a>
+  <a href="#was-ist-flock-finder" class="h-anchor" aria-hidden="true" title="Was ist Flock Finder?">#</a>
+</h2>
+<p><strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Flock Finder">
+    <meta itemprop="url" content="https://simeononsecurity.github.io/flock-finder/">
+    <a href="https://simeononsecurity.github.io/flock-finder/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Flock Finder</a>
+</span>
+</strong> ist ein Open-Source-Projekt, das <strong>Flock Safety ALPR (Automatischer Kennzeichenleser)-Kameras</strong> in den Vereinigten Staaten und 108 weiteren Ländern kartiert. Es kombiniert <strong>31 bekannte Flock Safety WiFi-OUI (Organisatorisch Eindeutige Kennung)-Präfixe</strong> mit der <strong>per Crowdsourcing erstellten WiGLE-WiFi-Datenbank</strong>, um mutmaßliche Kamerastandorte zu identifizieren und auf einer interaktiven Karte darzustellen.</p>
+<p>Das Projekt befindet sich unter <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="github.com/simeononsecurity/flock-finder">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/flock-finder">
+    <a href="https://github.com/simeononsecurity/flock-finder"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+ 
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Proxmox VE 8 auf 9 Upgrade-Anleitung: In-Place-Upgrade mit automatisiertem Skript</title><link>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><description>Vollständige Anleitung zum Upgrade von Proxmox VE 8 (Debian Bookworm) auf Proxmox VE 9 (Debian Trixie). Behandelt Voraussetzungen, schrittweises manuelles Upgrade, das Automatisierungsskript pve8to9-upgrade.sh, grundlegende Änderungen und bekannte Probleme.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Proxmox VE 9 basiert auf Debian 13 Trixie und wird mit Kernel 6.14, QEMU 10, LXC 6 und ZFS 2.3 ausgeliefert.</strong> Diese Anleitung behandelt sowohl den manuellen In-Place-Upgrade-Pfad als auch ein automatisiertes Bash-Skript, das Ihre Konfiguration erkennt und alle Repository-Änderungen, bekannten Probleme und Vorab-Prüfungen erledigt.</p>
+<h2 id="was-ist-neu-in-proxmox-ve-9">
+  <a href="#was-ist-neu-in-proxmox-ve-9" title="Was ist neu in Proxmox VE 9">Was ist neu in Proxmox VE 9</a>
+  <a href="#was-ist-neu-in-proxmox-ve-9" class="h-anchor" aria-hidden="true" title="Was ist neu in Proxmox VE 9">#</a>
+</h2>
+<p>Proxmox VE 9 (veröffentlicht August 2025) ist ein großes Versions-Upgrade. Wichtige Änderungen:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Komponente</th>
+					<th>PVE 8</th>
+					<th>PVE 9</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Debian-Basis</strong></td>
+					<td>Bookworm (12)</td>
+					<td>Trixie (13)</td>
+			</tr>
+			<tr>
+					<td><strong>Standardkernel</strong></td>
+					<td>6.8</td>
+					<td>6.14</td>
+			</tr>
+			<tr>
+					<td><strong>QEMU</strong></td>
+					<td>9.x</td>
+					<td>10.x</td>
+			</tr>
+			<tr>
+					<td><strong>LXC</strong></td>
+					<td>5.x</td>
+					<td>6.x</td>
+			</tr>
+			<tr>
+					<td><strong>ZFS</strong></td>
+					<td>2.2</td>
+					<td>2.3</td>
+			</tr>
+			<tr>
+					<td><strong>Ceph</strong></td>
+					<td>Quincy / Reef / Squid</td>
+					<td>Squid (erforderlich) / Tentacle (optional)</td>
+			</tr>
+			<tr>
+					<td><strong>cgroup</strong></td>
+					<td>cgroupv2 (v1 noch möglich)</td>
+					<td>nur cgroupv2</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Wichtige neue Funktionen in PVE 9.0+:</strong></p>
+<ul>
+<li>VM-Snapshots auf dick bereitgestellten LVM über Volume-Ketten (Technologievorschau in 9.1 als Produktion)</li>
+<li>Hochverfügbarkeits-Affinitätsregeln ersetzen HA-Gruppen</li>
+<li>SDN Fabrics für OpenFabric und OSPF Full-Mesh-Ceph-Netzwerke</li>
+<li>Neue mobile Weboberfläche (Rust/Yew)</li>
+<li>ZFS RAIDZ-Geräteerweiterung ohne Ausfallzeit</li>
+<li>Dynamischer Lastausgleich mit dem Cluster Resource Scheduler (PVE 9.2)</li>
+<li>WireGuard und BGP als SDN-Fabric-Protokolle (PVE 9.2)</li>
+<li><code>/tmp</code> ist jetzt ein <code>tmpfs</code> (Debian Trixie-Änderung: Dateien werden regelmäßig bereinigt)</li>
+</ul>
+<hr>
+<h2 id="vor-dem-start-voraussetzungen">
+  <a href="#vor-dem-start-voraussetzungen" title="Vor dem Start: Voraussetzungen">Vor dem Start: Voraussetzungen</a>
+  <a href="#vor-d
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Der Stand der KI-Cybersicherheit 2026: Schnell deployen, später sichern, irgendwann zahlen</title><link>https://de.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/</guid><description>Eine professionelle Einschätzung des tatsächlichen Stands der KI-Cybersicherheit 2026. Organisationen haben KI in einem Tempo eingeführt, mit dem Leitlinien, Werkzeuge und betriebliche Praktiken nicht Schritt gehalten haben. Die Lücke ist real, dokumentiert und wächst.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/state-of-ai-cybersecurity-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p>Organisationen haben KI-Systeme in 2023, 2024 und 2025 in einem Tempo eingesetzt, mit dem defensive Leitlinien, Sicherheitswerkzeuge und betriebliche Praktiken nicht Schritt hielten. <strong>Das Ergebnis im Jahr 2026 ist eine große, schlecht instrumentierte Angriffsfläche, die mit echten Geschäftssystemen verbunden ist, während Abwehrmaßnahmen noch zusammengestellt werden.</strong></p>
+<p>Ich möchte konkret darlegen, was mich besorgt und warum. Dies ist keine allgemeine Warnung vor KI-Risiken. Es ist eine Beschreibung der tatsächlichen Angriffsfläche, wo die Lücken dokumentiert sind und was Organisationen angehen müssen.</p>
+<h2 id="warum-diese-lücke-besteht">
+  <a href="#warum-diese-l%c3%bccke-besteht" title="Warum diese Lücke besteht">Warum diese Lücke besteht</a>
+  <a href="#warum-diese-l%c3%bccke-besteht" class="h-anchor" aria-hidden="true" title="Warum diese Lücke besteht">#</a>
+</h2>
+<p>Traditionelle Softwaresicherheit reifte über rund drei Jahrzehnte. Jahrzehnte an Erfahrung mit Vorfallreaktion, Schwachstellenforschung, Werkzeugentwicklung und hart erworbenem Betriebswissen haben die Rahmenwerke, Produkte und Praktiken hervorgebracht, auf die moderne Sicherheitsprogramme aufbauen.</p>
+<p><strong>Generative KI für Unternehmen erreichte innerhalb von etwa zwei Jahren Millionen von Produktionsdeployments.</strong></p>
+<p>Die Disziplinen, die Softwaresicherheit funktionsfähig machen — Bedrohungsmodellierung für spezifische Architekturen, gehärtete Deployment-Muster, ausgereifte Playbooks für Vorfallreaktion, etablierte Audit- und Beobachtbarkeitspraktiken — hatten keine Zeit, sich zu entwickeln, bevor Organisationen begannen, KI im großen Maßstab einzusetzen. <em>Die Leitlinien kamen nach dem Deployment. Die Werkzeuge kamen nach den Leitlinien. Das Betriebsexpertise entwickelt sich noch.</em></p>
+<p>Das ist keine Schuldzuweisung. Es erklärt, warum die Lücken strukturell und nicht zufällig sind.</p>
+<h2 id="die-vier-schichten-der-ki-sicherheit">
+  <a href="#die-vier-schichten-der-ki-sicherheit" title="Die vier Schichten der KI-Sicherheit">Die vier Schichten der KI-Sicherheit</a>
+  <a href="#die-vier-schichten-der-ki-sicherheit" class="h-anchor" aria-hidden="true" title="Die vier Schichten der KI-Sicherheit">#</a>
+</h2>
+<p>Ein Großteil der Verwirrung in KI-Sicherheitsdiskussionen entsteht dadurch, dass Governance-Dokumente, Bedrohungstaxonomie, Ingenieursleitlinien und operative Kontrollen so behandelt werden, als wären s
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/state-of-ai-cybersecurity-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>KI-Cybersicherheit und Governance-Zertifizierungen halten nicht mit dem Problem Schritt</title><link>https://de.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/</guid><description>Eine Facheinschätzung zur Lücke zwischen KI-Governance-Zertifizierungen und tatsächlicher KI-Sicherheitspraxis. Wir haben mehrere davon abgelegt und waren enttäuscht. Die Frameworks sind noch jung und governance-orientiert. Die Angriffsfläche ist schneller gewachsen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/ai-cybersecurity-governance-certifications-disappointing.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p>Wir haben die Prüfungen abgelegt. Wir haben bestanden. Wir haben Zertifikate erhalten und eine Enttäuschung mitgenommen, die ich genau beschreiben möchte.</p>
+<p>Dies ist keine Kritik an den Menschen, die diese Programme entwickelt haben. Sie arbeiten mit unvollständigem Material. KI-Sicherheit als Disziplin ist jung. Die Angriffsforschung bewegt sich schneller als die Verteidigungswerkzeuge. Die Governance-Frameworks kamen vor der Engineering-Anleitung.</p>
+<p>Das Problem ist die Lücke zwischen dem, was die Zertifizierungen lehren, und dem, was Sie wissen müssen, um KI-Systeme in der Produktion tatsächlich zu sichern.</p>
+<h2 id="drei-schichten-die-häufig-verwechselt-werden">
+  <a href="#drei-schichten-die-h%c3%a4ufig-verwechselt-werden" title="Drei Schichten, die häufig verwechselt werden">Drei Schichten, die häufig verwechselt werden</a>
+  <a href="#drei-schichten-die-h%c3%a4ufig-verwechselt-werden" class="h-anchor" aria-hidden="true" title="Drei Schichten, die häufig verwechselt werden">#</a>
+</h2>
+<p>Bevor erklärt wird, was fehlt, hilft es, das Vorhandene zu trennen.</p>
+<p>Die erste Schicht ist Governance. Dokumente wie das NIST AI Risk Management Framework (AI RMF 1.0, 2023), ISO/IEC 42001:2023 und der EU AI Act operieren auf der organisatorischen und prozessualen Ebene. Sie beschreiben, wie man KI-Risiken verwaltet, Aufsicht strukturiert und Verantwortlichkeit dokumentiert. Sie sind bewusst governance-orientiert statt kontrolvorschreibend. Das ist beabsichtigt.</p>
+<p>Die zweite Schicht ist die Bedrohungstaxonomie. MITRE ATLAS dokumentiert gegnerische Taktiken gegen KI-Systeme im gleichen Format wie ATT&amp;CK. Das OWASP Top 10 für Large Language Model Applications listet die Angriffsklassen auf, die für eingesetzte LLMs am relevantesten sind. Diese Dokumente benennen die Angriffe und beschreiben, wie sie funktionieren. Sie schreiben keine Verteidigungen vor.</p>
+<p>Die dritte Schicht ist technische Anleitung. Dazu gehören Googles Secure AI Framework (SAIF), Microsofts AI Security SDL, OWASP AI Exchange, NIST AI 600-1 (das Generative AI Profile) und anbieterspezifische Sicherheitsdokumentation von Anthropic, OpenAI, Meta und anderen. Diese bieten Engineering-Anleitung zu sicherem Einsatz, Evaluierungspraktiken und Laufzeitkontrollen.</p>
+<p>Die meisten KI-Governance-Zertifizierungen decken die erste Schicht gründlich ab. Sie referenzieren die zweite Schicht auf Zusammenfassungsebene. Die dritte berühren sie selten.</p>
+<h2 id="w
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ai-cybersecurity-governance-certifications-disappointing/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OT-, ICS- und SPS-Cybersicherheit ist ein Problem, das die Industrie nicht ehrlich lösen kann</title><link>https://de.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/</guid><description>Eine professionelle Einschätzung, warum OT-, ICS- und SPS-Cybersicherheitsanleitungen mit dem tatsächlichen Problem nicht Schritt halten können. Die Systeme wurden nie für eine Absicherung ausgelegt. Compliance mit schriftlichen Standards ist nicht dasselbe wie Sicherheit.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/ot-ics-plc-cybersecurity-fundamentally-broken.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p>Ich habe genug Zeit in industriellen Umgebungen verbracht, um das offen zu sagen: <strong>Die meisten OT-, ICS- und SPS-Cybersicherheitsprogramme sind Theater</strong>. Sie produzieren Compliance-Dokumentation. Sie produzieren keine Sicherheit. Die Lücke zwischen beiden ist dort, wo kritische Infrastruktur getroffen wird.</p>
+<p>Das ist kein Angriff auf die Menschen, die Standards schreiben. <strong>NIST SP 800-82 Rev 3</strong>, <strong>IEC 62443</strong> und <strong>NERC CIP</strong> sind technisch fundierte Dokumente. Das Problem ist nicht die Anleitung. <em>Das Problem ist, worauf die Anleitung angewendet wird.</em></p>
+<h2 id="die-systeme-wurden-gebaut-um-zu-funktionieren-nicht-um-gesichert-zu-werden">
+  <a href="#die-systeme-wurden-gebaut-um-zu-funktionieren-nicht-um-gesichert-zu-werden" title="Die Systeme wurden gebaut, um zu funktionieren, nicht um gesichert zu werden">Die Systeme wurden gebaut, um zu funktionieren, nicht um gesichert zu werden</a>
+  <a href="#die-systeme-wurden-gebaut-um-zu-funktionieren-nicht-um-gesichert-zu-werden" class="h-anchor" aria-hidden="true" title="Die Systeme wurden gebaut, um zu funktionieren, nicht um gesichert zu werden">#</a>
+</h2>
+<p><strong>SPSen, SCADA-Systeme, verteilte Steuerungssysteme (DCS) und Legacy-Industrial-IoT-Hardware</strong> wurden für eine einzige Sache entwickelt: zuverlässig sehr lange zu laufen. <strong>Verfügbarkeit war das einzige Designziel, das es wert war, diskutiert zu werden.</strong> Vertraulichkeit, Integrität, Authentifizierung und Protokollierung waren keine Anforderungen. In vielen Fällen waren sie nicht einmal Konzepte auf dem Tisch, als diese Systeme entwickelt wurden.</p>
+<p>NIST SP 800-82 Rev 3 (2023) ist diesbezüglich ehrlich. Es beschreibt OT-Umgebungen als solche mit <em>&ldquo;einzigartigen Leistungs-, Zuverlässigkeits- und Sicherheitsanforderungen&rdquo;</em>, bei denen <em>&ldquo;Sicherheit den Systembetrieb nicht beeinträchtigen darf.&rdquo;</em> Lesen Sie das nochmal. <strong>Das primäre Sicherheitsleit-Dokument für Betriebstechnologie erkennt explizit an, dass Sicherheit an zweiter Stelle steht.</strong> Das ist kein Fehler im Dokument. Es ist eine genaue Beschreibung der Umgebung.</p>
+<p>Sie können keine rollenbasierte Zugangskontrolle auf eine SPS anwenden, die kein Konzept von Benutzerrollen hat. Sie können keine Firmware auf Hardware patchen, deren Hersteller nicht mehr existiert. <strong>Legacy-Serienprotokolle, Modbus RTU und Profibus DP unter ihnen
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/ot-ics-plc-cybersecurity-fundamentally-broken/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>KI-Texte menschlicher gestalten: Der beste kostenlose Prompt, um KI-Text zu verbessern</title><link>https://de.simeononsecurity.com/articles/how-to-humanize-ai-writing-prompt-guide/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/how-to-humanize-ai-writing-prompt-guide/</guid><description>Schluss damit, dass Ihr KI-generierter Text wie ein Roboter klingt. Nutzen Sie diesen kostenlosen Prompt mit ChatGPT, Claude oder einem beliebigen LLM, um typische KI-Schreibzeichen zu entfernen und saubere, direkte, nach Mensch klingende Ausgaben zu erzeugen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/how-to-humanize-ai-writing-prompt-guide.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/how-to-humanize-ai-writing-prompt-guide/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p>KI schreibt auf eine Art, die die meisten Menschen sofort erkennen. <strong>Em-Dashes überall. Fettgedruckter Text zur Betonung. Wörter wie &ldquo;bahnbrechend,&rdquo; &ldquo;erkunden&rdquo; und &ldquo;revolutionieren.&rdquo;</strong> Hashtags in LinkedIn-Beiträgen, die niemand wollte.</p>
+<p>Wenn Sie rohe KI-Ausgabe kopieren, einfügen und ohne Bearbeitung veröffentlichen, merken das die Leser. Es signalisiert wenig Mühe. <em>Es begräbt Ihre eigentlichen Ideen unter einer Schicht generischen Füllmaterials.</em></p>
+<p>Die gute Nachricht: <strong>Sie brauchen kein separates Werkzeug dafür zu bezahlen.</strong> Ein gut strukturierter Prompt, einmal in Ihren KI-Einstellungen gespeichert, verändert die Ausgabequalität in jedem Gespräch.</p>
+<p>Dieser Artikel erklärt, wie dieser Prompt aussieht, warum jede Regel darin wichtig ist und wie Sie ihn speichern, damit ChatGPT ihn automatisch verwendet.</p>
+<h2 id="warum-ki-text-nach-ki-klingt">
+  <a href="#warum-ki-text-nach-ki-klingt" title="Warum KI-Text nach KI klingt">Warum KI-Text nach KI klingt</a>
+  <a href="#warum-ki-text-nach-ki-klingt" class="h-anchor" aria-hidden="true" title="Warum KI-Text nach KI klingt">#</a>
+</h2>
+<p>Große Sprachmodelle werden auf enormen Mengen von Web-Inhalten trainiert. Mit der Zeit lernen sie, dass bestimmte Muster in „guten&quot; Texten vorkommen, auch wenn diese Muster abgenutzte Klischees sind.</p>
+<p>Einige der <strong>häufigsten KI-Zeichen</strong>:</p>
+<ul>
+<li><strong>Em-Dashes</strong>, die jede Klausel verbinden, oft wo ein Punkt oder Komma besser wäre</li>
+<li><strong>Fett-Markdown-Formatierung</strong>, die auf zufällige Phrasen mitten im Satz angewendet wird</li>
+<li>Eröffnungszeilen wie <em>„In der heutigen schnelllebigen Welt&hellip;&quot;</em> oder <em>„Abschließend&hellip;&quot;</em></li>
+<li>Wörter, die Vagheit signalisieren: „könnte&quot;, „vielleicht&quot;, „sicherlich&quot;</li>
+<li><strong>Marketing-Hype</strong>, der alles übertreibt: „erschließen&quot;, „revolutionieren&quot;, „Game-Changer&quot;</li>
+<li>Hashtags an LinkedIn-Beiträge angehängt, auch wenn sie nichts beitragen</li>
+</ul>
+<p>Keines davon ist technisch falsch. <em>Es sind nur Signale, dass ein Modell auf trainierte Muster zurückgegriffen hat, anstatt etwas Direktes und Spezifisches zu produzieren.</em></p>
+<p><strong>Die Lösung ist, dem Modell genau zu sagen, was Sie nicht wollen.</strong></p>
+<h2 id="der-prompt">
+  <a href="#der-prompt" title="Der
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/how-to-humanize-ai-writing-prompt-guide/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Eye Spy: Passiver Überwachungsdetektor für den M5Stack Atom Lite (ESP32)</title><link>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><description>Eine vollständige technische Referenz für Eye Spy v1.1 - ein Open-Source-passiver BLE- und WiFi-Überwachungsdetektor, der auf dem M5Stack Atom Lite (ESP32-PICO-D4) läuft und nach Bodycams, ALPR-Systemen, AirTags, Drohnen und versteckten Kameras mit einem Konfidenz-Score-Bedrohungsmodell und einer einzigen RGB-LED sucht.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Ein daumengroßer passiver Sensor, der Ihnen sagt, wenn etwas beobachtet</strong></p>
+<h2 id="einführung-die-überwachungslandschaft-die-sie-nicht-sehen-können">
+  <a href="#einf%c3%bchrung-die-%c3%bcberwachungslandschaft-die-sie-nicht-sehen-k%c3%b6nnen" title="Einführung: Die Überwachungslandschaft, die Sie nicht sehen können">Einführung: Die Überwachungslandschaft, die Sie nicht sehen können</a>
+  <a href="#einf%c3%bchrung-die-%c3%bcberwachungslandschaft-die-sie-nicht-sehen-k%c3%b6nnen" class="h-anchor" aria-hidden="true" title="Einführung: Die Überwachungslandschaft, die Sie nicht sehen können">#</a>
+</h2>
+<p>Die physische Welt wird zunehmend mit Geräten instrumentiert, die beobachten, aufzeichnen und verfolgen. Kennzeichenleser an Straßenecken, Bodycams bei Strafverfolgungsbehörden, Mietobjekt-Kameras, kommerzielle AirTag-ähnliche Tracker in Taschen oder Autos und kommerzielle Überwachungskameras an jedem Einzelhandelseingang. Die meisten dieser Geräte kommunizieren drahtlos über <strong>Bluetooth LE</strong> oder <strong>WiFi</strong>, und <em>die meisten dieser Kommunikationen werden offen in die Luft gefunkt, sodass jeder mit dem richtigen Empfänger sie erkennen kann</em>.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Eye Spy">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/eye-spy">
+    <a href="https://github.com/simeononsecurity/eye-spy"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Eye Spy</strong></a>
+</span>
+ ist ein passives Überwachungserkennungswerkzeug, das genau diese Tatsache ausnutzt. Auf dem <strong>M5Stack Atom Lite</strong> ausgeführt, einem ESP32-PICO-D4-Entwicklungsboard etwa in der Größe eines Zuckerwürfels, überwacht Eye Spy kontinuierlich das BLE- und WiFi-Spektrum auf elektronische Signaturen von Aufnahmegeräten, Überwachungskameras, <strong>ALPR</strong>-Systemen (automatische Kennzeichenlesegeräte), Drohnen und persönlichen Trackern. Wenn es etwas findet
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ESP32 WiFi Canary: Passive 2,4-GHz-Bedrohungserkennung mit RGB-LED-Alarmen</title><link>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><description>Eine detaillierte Analyse des ESP32 WiFi Canary-Projekts - ein kompakter, passiver 2,4-GHz-Bewusstseinssensor für den M5Stack Atom Lite, der still nach Evil-Twin-APs, Deauthentifizierungsangriffen, Sicherheits-Downgrades und Beacon-Floods sucht und ein Konfidenz-Bewertungs-Bedrohungsmodell sowie eine einzige RGB-LED verwendet.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Ein daumengroßer passiver WiFi-Bedrohungssensor, der nie antwortet</strong></p>
+<h2 id="einführung-das-problem-mit-öffentlichem-wifi">
+  <a href="#einf%c3%bchrung-das-problem-mit-%c3%b6ffentlichem-wifi" title="Einführung: Das Problem mit öffentlichem WiFi">Einführung: Das Problem mit öffentlichem WiFi</a>
+  <a href="#einf%c3%bchrung-das-problem-mit-%c3%b6ffentlichem-wifi" class="h-anchor" aria-hidden="true" title="Einführung: Das Problem mit öffentlichem WiFi">#</a>
+</h2>
+<p>Jedes Mal, wenn Sie sich mit Hotel-WiFi, einem Café-Hotspot oder einem Flughafen-Netzwerk verbinden, vertrauen Sie darauf, dass der Access Point vor Ihnen der echte ist. Das Problem ist, dass <strong>802.11-Management-Frames</strong> - genau die Frames, die Netzwerke ankündigen, Verbindungen verwalten und Clients koordinieren - <em>in den meisten Deployments vollständig unauthentifiziert sind</em>. Jeder mit bescheidener Hardware kann eine SSID klonen, Deauthentifizierungs-Frames an Clients senden oder einen offenes Köder neben ein legitimes WPA2-Netzwerk setzen.</p>
+<p>Der 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="ESP32 WiFi Canary">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/esp32-wifi-canary">
+    <a href="https://github.com/simeononsecurity/esp32-wifi-canary"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>ESP32 WiFi Canary</strong></a>
+</span>
+ ist ein passiver Bewusstseinssensor, der diese Realität mit dem kleinstmöglichen Fußabdruck adressiert. Er passt auf den M5Stack Atom Lite, einem Gerät etwa in der Größe eines Zuckerwürfels, steckt in jeden USB-Port, lernt die Umgebung kennen und leuchtet eine RGB-LED auf, wenn es Muster erkennt, die mit drahtlosen Bedrohungen konsistent sind.</p>
+<p>Er verbindet sich mit nichts. Er erfasst keine Anmeldedaten. Er sendet keinen einzigen Frame. Er beobachtet, bewertet und sagt Ihnen, welche Farbe die Situation hat.</p>
+<p>Dieser Artikel ist eine vollständige technische Referenz f
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>DagShell Custom Firmware für Orbic RCL400: Vollständige Installations- und Nutzungsanleitung 2026</title><link>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><description>Umfassende Anleitung zur DagShell Custom Firmware für den Orbic RCL400 Hotspot, einschließlich Installation, Datenschutz-Tools, Hacking-Funktionen, Wardriving-Fähigkeiten und warum es sich perfekt mit RayHunter für mobile Sicherheitsforschung kombiniert.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Verwandeln Sie Ihren Orbic RCL400 in ein mobiles Sicherheitsforschungslabor</strong></p>
+<h2 id="einführung-ein-hacker-hotspot">
+  <a href="#einf%c3%bchrung-ein-hacker-hotspot" title="Einführung: Ein Hacker-Hotspot">Einführung: Ein Hacker-Hotspot</a>
+  <a href="#einf%c3%bchrung-ein-hacker-hotspot" class="h-anchor" aria-hidden="true" title="Einführung: Ein Hacker-Hotspot">#</a>
+</h2>
+<p><strong>DagShell</strong> ist Open-Source-Custom-Firmware für den <strong>Orbic RCL400 mobilen Hotspot</strong>, die ein gewöhnliches Mobilfunkgerät in ein <strong>tragbares Sicherheitsforschungs- und Datenschutz-Toolkit</strong> verwandelt. Vom Sicherheitsforscher &ldquo;dag&rdquo; erstellt, bietet diese terminal-stilisierte Firmware <strong>Hacking-Tools, Datenschutzfunktionen und Netzwerküberwachungsfähigkeiten</strong> in einer schlanken, grün-auf-schwarz Hacker-Ästhetik-Oberfläche.</p>
+<p>Dieser umfassende Leitfaden deckt ab:</p>
+<ul>
+<li><strong>Was DagShell ist</strong> und sein vollständiges Feature-Set</li>
+<li><strong>Schritt-für-Schritt-Installations</strong>-Anweisungen (Webflasher und manuelle Methoden)</li>
+<li><strong>Alle Tools und Fähigkeiten</strong> im Detail erklärt</li>
+<li><strong>Raspberry Pi Companion</strong>-Setup für erweiterte Funktionalität</li>
+<li><strong>Warum DagShell mit RayHunter kombinieren</strong> für ultimative mobile Sicherheit</li>
+<li><strong>Reale Anwendungsfälle</strong> für Sicherheitsforscher und Datenschutzbefürworter</li>
+<li><strong>Rechtliche und ethische Überlegungen</strong></li>
+</ul>
+<p><strong>Kurzfassung</strong>: DagShell + RayHunter auf Orbic RCL400 = <strong>Vollständiges mobiles Sicherheitslabor</strong> für IMSI-Catcher-Erkennung, Wardriving, Netzwerkanalyse und Datenschutzschutz.</p>
+<p><strong>Vorgeflashte Geräte erhältlich</strong>: Dieser Artikel wird von <strong>STS Collective</strong> gesponsert, das vorgeflashte Orbic RCL400 Hotspots mit sowohl <strong>RayHunter und DagShell</strong> vorinstalliert und einsatzbereit anbietet: 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="na
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Cybersecurity-Zertifizierungen Vergleich 2026: Vollständiger Anbieter-Leitfaden</title><link>https://de.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/</guid><description>Umfassender Vergleich von Cybersecurity-Zertifizierungsanbietern einschließlich CompTIA, Offensive Security, ISC2, SANS, AWS, Azure, HackTheBox und weiterer mit Preisgestaltung, ROI-Analyse und Karrierepfad-Empfehlungen für 2026.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/cybersecurity-certifications-comparison-guide-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="einführung-das-cybersecurity-zertifizierungs-labyrinth">
+  <a href="#einf%c3%bchrung-das-cybersecurity-zertifizierungs-labyrinth" title="Einführung: Das Cybersecurity-Zertifizierungs-Labyrinth">Einführung: Das Cybersecurity-Zertifizierungs-Labyrinth</a>
+  <a href="#einf%c3%bchrung-das-cybersecurity-zertifizierungs-labyrinth" class="h-anchor" aria-hidden="true" title="Einführung: Das Cybersecurity-Zertifizierungs-Labyrinth">#</a>
+</h2>
+<p>Die Cybersecurity-Zertifizierungslandschaft ist 2026 komplexer denn je. Mit <strong>Hunderten von Zertifizierungen bei Dutzenden von Anbietern</strong> kann die Wahl des richtigen Zertifizierungspfades überwältigend wirken. Sollten Sie mit <strong>CompTIA Security+</strong> als Einstieg beginnen? Ist die <strong>OSCP</strong> noch der Goldstandard für Penetrationstesting? Sind <strong>Cloud-Zertifizierungen von AWS und Azure</strong> jetzt wertvoller als traditionelle Sicherheitszertifikate?</p>
+<p>Dieser umfassende Leitfaden durchdringt das Marketingrauschen und liefert <strong>datengestützte Analysen</strong> jedes wichtigen Cybersecurity-Zertifizierungsanbieters. Wir vergleichen Kosten, untersuchen die Nachfrage am Arbeitsmarkt, bewerten den praktischen Wert und beurteilen, wie jede Institution sich an die <strong>KI-Revolution</strong> anpasst, die Cybersecurity-Rollen im Jahr 2026 umgestaltet.</p>
+<p>Basierend auf der Analyse von <strong>echten Stellenanzeigen, Zertifizierungspreisen und Branchentrends</strong> bewerten wir Zertifizierungsanbieter anhand von vier kritischen Metriken:</p>
+<ol>
+<li><strong>Einstellbarkeit</strong>: Wie oft Arbeitgeber diese Zertifizierungen anfordern</li>
+<li><strong>Kosten</strong>: Preis-Leistungs-Verhältnis und Zugänglichkeit</li>
+<li><strong>Schwierigkeit</strong>: Strenge und Qualität der praktischen Prüfung</li>
+<li><strong>Zukunftssicherheit</strong>: Inhaltliche Aktualisierungen für KI, Cloud und moderne Bedrohungen</li>
+</ol>
+<h3 id="das-lernen-in-diesem-leitfaden">
+  <a href="#das-lernen-in-diesem-leitfaden" title="Das Lernen in diesem Leitfaden">Das Lernen in diesem Leitfaden</a>
+  <a href="#das-lernen-in-diesem-leitfaden" class="h-anchor" aria-hidden="true" title="Das Lernen in diesem Leitfaden">#</a>
+</h3>
+<ul>
+<li><strong>Anbieter-für-Anbieter-Vergleich</strong> der wichtigsten Zertifizierungsanbieter</li>
+<li><strong>Arbeitsmarktdaten</strong> zu den von Arbeitgebern gewünschten Zertifizierungen</li>
+<li><strong>Kostenanalyse</strong> und ROI-Berech
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/cybersecurity-certifications-comparison-guide-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Flock Safety Kameraüberwachung: Privatsphäre und Schutz</title><link>https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><description>Entdecke die weit verbreitete Nutzung von Flock Safety ALPR-Kameras im Jahr 2026, verstehe die Datenschutzimplikationen und lerne effektive Gegenüberwachungsstrategien einschließlich Erkennungsgeräten.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Der Aufstieg der Flock Safety ALPR-Überwachung und wie du deine Privatsphäre schützen kannst</strong></p>
+<h2 id="einleitung-die-stille-ausbreitung-automatisierter-überwachung">
+  <a href="#einleitung-die-stille-ausbreitung-automatisierter-%c3%bcberwachung" title="Einleitung: Die stille Ausbreitung automatisierter Überwachung">Einleitung: Die stille Ausbreitung automatisierter Überwachung</a>
+  <a href="#einleitung-die-stille-ausbreitung-automatisierter-%c3%bcberwachung" class="h-anchor" aria-hidden="true" title="Einleitung: Die stille Ausbreitung automatisierter Überwachung">#</a>
+</h2>
+<p>Im Jahr 2026 sind die <strong>Automatic License Plate Recognition (ALPR)</strong>-Kameras von <strong>Flock Safety</strong> zu einer der verbreitetsten Formen der Überwachungstechnologie in den Vereinigten Staaten geworden. Was als Nischensicherheitslösung für Wohnanlagen mit Zugangskontrolle begann, hat sich zu einem landesweiten Kameranetzwerk entwickelt, das täglich Millionen von Fahrzeugen überwacht. Dieser umfassende Leitfaden untersucht die <strong>Verbreitung der Flock Safety-Überwachung</strong>, die <strong>Datenschutzimplikationen</strong> dieser Technologie und <strong>praktische Strategien zum Schutz</strong> vor allgegenwärtiger automatisierter Verfolgung.</p>
+<p>Im Gegensatz zu herkömmlichen Überwachungskameras zeichnet das Flock Safety-System kein Video auf. <em>Es <strong>erfasst, analysiert und speichert Kennzeichendaten</strong> zusammen mit Fahrzeugmerkmalen und erstellt durchsuchbare Datenbanken, auf die Strafverfolgungsbehörden und private Unternehmen zugreifen können.</em> Der Umfang dieser Überwachungsinfrastruktur hat wichtige Fragen zu <strong>Bürgerrechten, dem Schutz des Vierten Zusatzartikels und dem Recht auf Privatsphäre</strong> in öffentlichen Räumen aufgeworfen.</p>
+<p>Gemeinschaften und Bürgerrechtsorganisationen leisten Widerstand. Die ACLU startete eine nationale <strong>&ldquo;Get the Flock Out!&rdquo;</strong>-Kampagne. Freiwillige haben über <strong>124.000 Kamerastandorte</strong> durch das Projekt 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Flock-You Erkennungsprojekt: Vollständiger Gegensurveillance-Hardware- und Einrichtungsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><description>Umfassender technischer Leitfaden zum Open-Source-Projekt Flock-You zur Erkennung von Flock Safety ALPR-Kameras mit ESP32-basierter Hardware. Enthält Einrichtungsanweisungen, Firmware-Details und Einkaufsinformationen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Vollständiger technischer Leitfaden zum Aufbau und Einsatz von Flock-You-Erkennungsgeräten</strong></p>
+<h2 id="einführung-open-source-gegensurveillance">
+  <a href="#einf%c3%bchrung-open-source-gegensurveillance" title="Einführung: Open-Source-Gegensurveillance">Einführung: Open-Source-Gegensurveillance</a>
+  <a href="#einf%c3%bchrung-open-source-gegensurveillance" class="h-anchor" aria-hidden="true" title="Einführung: Open-Source-Gegensurveillance">#</a>
+</h2>
+<p>Das <strong>Flock-You-Projekt</strong> ist eine <strong>quelloffene, community-getriebene Initiative</strong> zur Erkennung und Kartierung der ALPR-Überwachungsinfrastruktur von Flock Safety. Auf GitHub gehostet unter <strong>colonelpanichacks/flock-you</strong>, nutzt dieses Projekt erschwingliche ESP32-basierte Hardware, um Flock-Kameras durch ihre <strong>WLAN-Netzwerksignaturen</strong> zu identifizieren.</p>
+<p>Dieser umfassende Leitfaden behandelt alles von der <strong>technischen Methodik</strong> hinter der Flock-Erkennung bis hin zu <strong>schrittweisen Einrichtungsanweisungen</strong> für drei Hardware-Plattformen, <strong>Firmware-Installation</strong> und <strong>Kaufinformationen von autorisierten Anbietern</strong>. Ob Sie ein Datenschutzadvokat, Sicherheitsforscher oder besorgter Bürger sind - dieser Leitfaden ermöglicht Ihnen den Aufbau oder Kauf Ihres eigenen Erkennungsgeräts.</p>
+<p>Für den Kontext, warum diese Technologie wichtig ist, lesen Sie unseren Begleitartikel: <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Flock Safety Kamera-Überwachung: Verbreitung, Datenschutzbedenken und Schutzstrategien">
+    <meta itemprop="url" content="/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/">
+    <a href="/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/"
+    
+        rel="follow me"
+    >Flock Safety Kamera-Überwachung: Verbreitung, Datenschutzbedenken und Schutzstrategien</a>
+</span>
+</strong>.</p>
+<p>Möchten Sie sehen, wo Flock-Kameras bereits kartiert wurden? <strong>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Fortinet vs Cisco: Vollständiger Netzwerksicherheits-Vergleichsleitfaden 2026</title><link>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><description>Umfassender Vergleich der Netzwerksicherheitslösungen von Fortinet und Cisco, einschließlich Firewalls, Switches, SD-WAN, Preise, Leistungs-Benchmarks und Bereitstellungsempfehlungen für 2026.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="einführung-fortinet-vs-cisco-netzwerksicherheitsvergleich">
+  <a href="#einf%c3%bchrung-fortinet-vs-cisco-netzwerksicherheitsvergleich" title="Einführung: Fortinet vs Cisco Netzwerksicherheitsvergleich">Einführung: Fortinet vs Cisco Netzwerksicherheitsvergleich</a>
+  <a href="#einf%c3%bchrung-fortinet-vs-cisco-netzwerksicherheitsvergleich" class="h-anchor" aria-hidden="true" title="Einführung: Fortinet vs Cisco Netzwerksicherheitsvergleich">#</a>
+</h2>
+<p>Die Wahl zwischen <strong>Fortinet</strong> und <strong>Cisco</strong> Netzwerksicherheitslösungen ist eine der kritischsten Infrastrukturentscheidungen, mit denen Unternehmen im Jahr 2026 konfrontiert sind. Beide Anbieter dominieren den Enterprise-Netzwerksicherheitsmarkt, verfolgen jedoch grundlegend unterschiedliche Ansätze bei Sicherheitsarchitektur, Verwaltung und Preisgestaltung.</p>
+<p><strong>Fortinet</strong> hat mit seinem integrierten <strong>Security Fabric</strong>-Ansatz und aggressiver Preisgestaltung erheblichen Marktanteil gewonnen, während <strong>Cisco</strong> seine Reputation für Enterprise-grade Zuverlässigkeit und umfassende Ecosystem-Integration beibehält. Laut dem neuesten <strong>Gartner Magic Quadrant für Netzwerk-Firewalls</strong> (2026) halten beide Anbieter Führungspositionen, jedoch mit unterschiedlichen Stärken.</p>
+<p>Dieser umfassende Leitfaden vergleicht <strong>Fortinet FortiGate-Firewalls</strong>, <strong>FortiSwitch</strong> und <strong>Security Fabric</strong> mit <strong>Cisco ASA</strong>, <strong>Firepower NGFW</strong>, <strong>Catalyst-Switches</strong> und <strong>Cisco Secure</strong>-Plattformen. Wir analysieren Leistungs-Benchmarks, Preise, Funktionen und geben Bereitstellungsempfehlungen basierend auf realen Szenarien.</p>
+<h3 id="was-sie-lernen-werden">
+  <a href="#was-sie-lernen-werden" title="Was Sie lernen werden">Was Sie lernen werden</a>
+  <a href="#was-sie-lernen-werden" class="h-anchor" aria-hidden="true" title="Was Sie lernen werden">#</a>
+</h3>
+<ul>
+<li><strong>Architekturvergleich</strong> zwischen Fortinet Security Fabric und Cisco Secure Ökosystem</li>
+<li><strong>Leistungs-Benchmarks</strong> für Firewalls, Switches und SD-WAN-Lösungen</li>
+<li><strong>Preisanalyse</strong> einschließlich Lizenzmodelle und Gesamtbetriebskosten</li>
+<li><strong>Funktions-für-Funktions-Vergleich</strong> der Sicherheitsfähigkeiten</li>
+<li><strong>Anwendungsfall-Empfehlungen</strong> für verschiedene Organisationsgrößen und Anford
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Tailscale vs Headscale: Vollständiger Vergleichsleitfaden 2026 für selbst gehostete VPNs</title><link>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><description>Umfassender Vergleich von Tailscale und Headscale für 2026, einschließlich Funktionen, Preise, Leistung, Sicherheit und Einsatzszenarien, damit Sie die beste WireGuard-basierte Mesh-VPN-Lösung wählen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="einführung">
+  <a href="#einf%c3%bchrung" title="Einführung">Einführung</a>
+  <a href="#einf%c3%bchrung" class="h-anchor" aria-hidden="true" title="Einführung">#</a>
+</h2>
+<p><strong>Tailscale</strong> und <strong>Headscale</strong> sind beides Koordinierungsserver für den Aufbau sicherer, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="WireGuard">
+    <meta itemprop="url" content="https://www.wireguard.com/">
+    <a href="https://www.wireguard.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >WireGuard</a>
+</span>
+-basierter Mesh-VPN-Netzwerke. Tailscale ist ein kommerzieller, cloudbasierter Dienst mit einem großzügigen kostenlosen Tarif, während Headscale eine quelloffene, selbst gehostete Alternative ist, die das Tailscale-Steuerungsprotokoll implementiert. Die Unterschiede zwischen diesen Lösungen zu verstehen ist entscheidend für die Wahl des richtigen Ansatzes für die Netzwerkanforderungen Ihrer Organisation.</p>
+<p>Im Jahr 2026 sind Mesh-VPNs zum Standard für sicheren Fernzugriff und Zero-Trust-Netzwerke geworden, mit über <strong>15 Millionen aktiven Bereitstellungen weltweit</strong> laut Branchenanalysten. Dieser umfassende Leitfaden vergleicht Tailscale und Headscale hinsichtlich Funktionen, Leistung, Kosten, Sicherheit und Betriebskomplexität, damit Sie eine fundierte Entscheidung treffen können.</p>
+<hr>
+<h2 id="mesh-vpns-und-wireguard-verstehen">
+  <a href="#mesh-vpns-und-wireguard-verstehen" title="Mesh-VPNs und WireGuard verstehen">Mesh-VPNs und WireGuard verstehen</a>
+  <a href="#mesh-vpns-und-wireguard-verstehen" class="h-anchor" aria-hidden="true" title="Mesh-VPNs und WireGuard verstehen">#</a>
+</h2>
+<p>Bevor Sie sich in den Vergleich stürzen, sollten Sie die zugrunde liegende Technologie verstehen:</p>
+<h3 id="was-ist-wireguard">
+  <a href="#was-ist-wireguard" title="Was ist WireGuard?">Was ist WireGuard?</a>
+  <a href="#was-ist-wireguard" class="h-anchor" aria-hidden="true" title="Was ist WireGuard?">#</a>
+</h3>
+<p><
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Visual Studio Code vs. Visual Studio: Vollständiger Entwickler-Tool-Vergleich 2026</title><link>https://de.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><description>Umfassender Vergleich 2026 von Visual Studio Code und Visual Studio Community/Professional/Enterprise, einschließlich Funktionen, Leistung, Preisgestaltung und Anwendungsfälle, um Entwicklern bei der Auswahl des richtigen IDEs zu helfen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="einführung">
+  <a href="#einf%c3%bchrung" title="Einführung">Einführung</a>
+  <a href="#einf%c3%bchrung" class="h-anchor" aria-hidden="true" title="Einführung">#</a>
+</h2>
+<p><strong>Visual Studio Code</strong> und <strong>Visual Studio</strong> sind beide mächtige Entwicklungswerkzeuge von Microsoft, dienen aber grundlegend unterschiedlichen Zwecken und Zielgruppen. Trotz ähnlicher Namen und einiger gemeinsamer Funktionen sind sie unterschiedliche Produkte: Visual Studio Code ist ein leichtgewichtiger, plattformübergreifender Code-Editor, während Visual Studio eine vollständige integrierte Entwicklungsumgebung (IDE) primär für Windows und macOS ist.</p>
+<p>Im Jahr 2026, mit über <strong>14 Millionen aktiven VS Code-Nutzern</strong> und <strong>2 Millionen Visual Studio-Abonnenten</strong> laut Microsofts Entwicklerstatistiken, ist das Verstehen, welches Tool zu Ihrem Workflow passt, entscheidend für die Produktivität. Dieser umfassende Leitfaden vergleicht beide Tools über Funktionen, Leistung, Kosten und Anwendungsfälle, um Ihnen eine fundierte Entscheidung zu ermöglichen.</p>
+<hr>
+<h2 id="visual-studio-code-vs-visual-studio-wichtigste-unterschiede-auf-einen-blick">
+  <a href="#visual-studio-code-vs-visual-studio-wichtigste-unterschiede-auf-einen-blick" title="Visual Studio Code vs. Visual Studio: Wichtigste Unterschiede auf einen Blick">Visual Studio Code vs. Visual Studio: Wichtigste Unterschiede auf einen Blick</a>
+  <a href="#visual-studio-code-vs-visual-studio-wichtigste-unterschiede-auf-einen-blick" class="h-anchor" aria-hidden="true" title="Visual Studio Code vs. Visual Studio: Wichtigste Unterschiede auf einen Blick">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Aspekt</th>
+					<th>Visual Studio Code</th>
+					<th>Visual Studio</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Typ</strong></td>
+					<td>Leichtgewichtiger Code-Editor</td>
+					<td>Vollständige IDE</td>
+			</tr>
+			<tr>
+					<td><strong>Lizenz</strong></td>
+					<td>Kostenlos und Open-Source (MIT)</td>
+					<td>Community (kostenlos), Professional &amp; Enterprise (kostenpflichtig)</td>
+			</tr>
+			<tr>
+					<td><strong>Plattformen</strong></td>
+					<td>Windows, macOS, Linux, Web</td>
+					<td>Windows, macOS</td>
+			</tr>
+			<tr>
+					<td><strong>Größe</strong></td>
+					<td>200–300 MB</td>
+					<td>5–50 GB (je nach Workloads)</td>
+			</tr>
+			<tr>
+					<td><strong>Startzeit</strong></td>
+					<td>1–3 Sekunden</td>
+					<td>10–30 Sekunde
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Azure DevOps, GitHub, GitLab und BitBucket im Vergleich: Die besten Code-Repositories finden</title><link>https://de.simeononsecurity.com/articles/best-code-repositories-comparison/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/best-code-repositories-comparison/</guid><description>Entdecken Sie die besten Code-Repositories, darunter Azure DevOps, GitHub, GitLab und BitBucket, um Ihren Entwicklungsweg mühelos und produktiv zu gestalten.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/Best-Code-Repositories-Comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/best-code-repositories-comparison/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Azure DevOps vs. GitHub vs. GitLab vs. BitBucket</strong></p>
+<p>In der Welt der Softwareentwicklung spielen Versionskontrolle und Kollaborationstools eine entscheidende Rolle für den Erfolg eines Projekts. Azure DevOps, GitHub, GitLab und BitBucket sind vier populäre Plattformen, die viele Dienste für Entwickler, Teams und Organisationen anbieten. In diesem Artikel vergleichen wir diese Plattformen hinsichtlich ihrer Funktionen, Möglichkeiten und Eignung für verschiedene Szenarien – mit besonderer Aufmerksamkeit auf den GitLab vs. Azure DevOps-Vergleich, den viele Unternehmensteams im Jahr 2026 evaluieren.</p>
+<hr>
+<h2 id="azure-devops-microsofts-all-in-one-lösung-für-code-repositories">
+  <a href="#azure-devops-microsofts-all-in-one-l%c3%b6sung-f%c3%bcr-code-repositories" title="Azure DevOps: Microsofts All-in-One-Lösung für Code-Repositories">Azure DevOps: Microsofts All-in-One-Lösung für Code-Repositories</a>
+  <a href="#azure-devops-microsofts-all-in-one-l%c3%b6sung-f%c3%bcr-code-repositories" class="h-anchor" aria-hidden="true" title="Azure DevOps: Microsofts All-in-One-Lösung für Code-Repositories">#</a>
+</h2>
+<p><strong>Azure DevOps</strong>, entwickelt von Microsoft, ist eine umfassende Suite von Softwareentwicklungstools. Es bietet einen integrierten Ansatz für Versionskontrolle, Build-Automatisierung, Release-Management und mehr – und macht es zu einem der <strong>besten Code-Repositories</strong> für kleine und große Teams.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  yieldToMain(function () {
+      loadLiteYouTubeScript();
+  }, "user-visible");
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/best-code-repositories-comparison/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>pfSense vs Firewalla vs OPNsense: Vollständiger Netzwerksicherheits-Vergleich 2026</title><link>https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><description>Umfassender Vergleich 2026 von pfSense, Firewalla und OPNsense für Heimnetz- und Unternehmenssicherheit. Finden Sie die beste Firewall für Ihre Anforderungen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/Network-Security-Shield.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>pfSense vs Firewalla vs OPNsense: Der vollständige Vergleich 2026</strong></p>
+<p>Im Jahr 2026 bleibt die Wahl der richtigen Firewall-Lösung entscheidend für den Schutz von Heim- und Unternehmensnetzwerken vor immer ausgefeilteren Cyber-Bedrohungen. Drei führende Kandidaten - 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="pfSense">
+    <meta itemprop="url" content="https://www.pfsense.org/">
+    <a href="https://www.pfsense.org/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>pfSense</strong></a>
+</span>
+, 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Firewalla">
+    <meta itemprop="url" content="https://firewalla.com/">
+    <a href="https://firewalla.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Firewalla</strong></a>
+</span>
+ und 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="OPNsense">
+    <meta itemprop="url" content="https://opnsense.org/">
+    <a href="https://opnsense.org/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>OPN
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Sicherer E-Mail-Dienst: Verbesserter Datenschutz mit StartMail</title><link>https://de.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/secure-email-service-startmail/</guid><description>Entdecken Sie StartMail, einen sicheren E-Mail-Dienst mit fortschrittlicher Verschlüsselung und E-Mail-Maskierung, der ein Höchstmaß an Datenschutz und Schutz vor Cyber-Bedrohungen gewährleistet.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/secure_email_guard.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/secure-email-service-startmail/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https:\/\/de.simeononsecurity.com\/",
+    "caption": "StartMail Logo",
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+    "@type": "Person",
+    "name": "SimeonOnSecurity"
+    },
+    "copyrightNotice": "SimeonOnSecurity",
+    "associatedArticle": {
+    "@type": "NewsArticle",
+    "headline": "Sicherer E-Mail-Dienst: Verbesserter Datenschutz mit StartMail",
+    "url": "https:\/\/de.simeononsecurity.com\/articles\/secure-email-service-startmail\/",
+    "datePublished": "2026-09-05 01:07:49.085277263 \u002b0000 UTC m=\u002b3.574524991",
+    "author": {
+        "@type": "Person",
+        "name": "SimeonOnSecurity",
+        "url": "https:\/\/de.simeononsecurity.com\/authors\/simeononsecurity"
+    }
+    }
+}
+</script> 
+
+
+<center>
+    <figure align="center" style="text-align: center; margin: 0 auto;"  itemscope itemtype="http://schema.org/ImageObject">
+        <meta property="article:published_time" content="2026-09-05 01:07:49.085277263 &#43;0000 UTC m=&#43;3.574524991">
+        <meta property="article:author" content="SimeonOnSecurity">
+        <meta property="article:author:url" content="https://de.simeononsecurity.com/authors/simeononsecurity">
+        <meta property="og:license" content="https://simeononsecurity.com/termsandconditions/">
+        <meta property="og:see_also" content="https://simeononsecurity.com/contactus/">
+        <meta property="og:copyright" content="SimeonOnSecurity">
+        
+        
+            
+                
+            
+        
+        <img align="center" style="text-align: center; margin: 0 auto; max-width: 80%; max-height: 600px; min-width: 100px; min-height: 100px; height: auto; width: auto;" src="https://de.simeononsecurity.com/articles/secure-email-service-startmail/startmail_logo.webp"
+             alt="StartMail Logo"loading="lazy"
+             fetchpriority="low"
+             itemprop="conte
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/secure-email-service-startmail/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Windows GVLKs: Entfesseln Sie die Macht der Lizenzierungsschlüssel für eine verbesserte Leistung</title><link>https://de.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><description>Entdecken Sie, wie Windows GVLKs die Leistung revolutionieren! Entdecken Sie die besten Lizenzierungsschlüssel und steigern Sie die Produktivität Ihres Systems mühelos.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="wie-man-einen-produktschlüssel-gvlk-für-windows-und-windows-server-installiert">
+  <a href="#wie-man-einen-produktschl%c3%bcssel-gvlk-f%c3%bcr-windows-und-windows-server-installiert" title="Wie man einen Produktschlüssel (GVLK) für Windows und Windows Server installiert">Wie man einen Produktschlüssel (GVLK) für Windows und Windows Server installiert</a>
+  <a href="#wie-man-einen-produktschl%c3%bcssel-gvlk-f%c3%bcr-windows-und-windows-server-installiert" class="h-anchor" aria-hidden="true" title="Wie man einen Produktschlüssel (GVLK) für Windows und Windows Server installiert">#</a>
+</h2>
+<p>Wenn Sie einen Computer von einem KMS-Host, MAK oder einer Retail-Edition von Windows zu einem KMS-Client konvertieren, müssen Sie den entsprechenden Produktschlüssel, auch bekannt als GVLK (Generic Volume License Key), installieren. GVLKs werden für die Volumenaktivierung mit Key Management Services (KMS) verwendet. Hier finden Sie eine Schritt-für-Schritt-Anleitung, wie Sie einen GVLK auf Ihrem Windows- oder Windows Server-System installieren.</p>
+<h2 id="automatisiertes-glvk-installationsskript">
+  <a href="#automatisiertes-glvk-installationsskript" title="Automatisiertes GLVK-Installationsskript">Automatisiertes GLVK-Installationsskript</a>
+  <a href="#automatisiertes-glvk-installationsskript" class="h-anchor" aria-hidden="true" title="Automatisiertes GLVK-Installationsskript">#</a>
+</h2>
+<p>Das Skript muss von einer administrativen Powershell in dem Verzeichnis gestartet werden, das alle Dateien aus dem 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="GitHub Repository">
+    <meta itemprop="url" content="https://github.com/simeononsecurity/KMS-Auto-PS/archive/main.zip">
+    <a href="https://github.com/simeononsecurity/KMS-Auto-PS/archive/main.zip"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >GitHub Repository</a>
+</span>
+</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Automatisieren Sie die Installation von Windows 11: Umgehung von TPM, Secure Boot und RAM-Prüfungen</title><link>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><description>Optimieren Sie die Installation von Windows 11 in virtualisierten Umgebungen, indem Sie TPM-, Secure Boot- und RAM-Prüfungen mit autounattend.xml und vTPM umgehen.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Automatisierte Windows 11-Installation in virtualisierten Umgebungen</strong></p>
+<h2 id="einführung">
+  <a href="#einf%c3%bchrung" title="Einführung"><strong>Einführung</strong></a>
+  <a href="#einf%c3%bchrung" class="h-anchor" aria-hidden="true" title="Einführung">#</a>
+</h2>
+<p>Windows 11 führt neue Systemanforderungen ein, darunter die Notwendigkeit eines TPM (Trusted Platform Module), Secure Boot und ausreichend RAM. Während diese Anforderungen die Sicherheit und Leistung verbessern, können sie bei der Installation von Windows 11 in virtualisierten Umgebungen ohne native TPM-Unterstützung zu Problemen führen. Es gibt jedoch Umgehungsmöglichkeiten, um diese Prüfungen zu umgehen und Windows 11 erfolgreich zu installieren.</p>
+<p><strong>Umgehung der TPM-, Secure Boot- und RAM-Prüfungen in Windows 11</strong></p>
+<p>Virtualisierte Umgebungen wie VMware vSphere können ein virtuelles TPM (vTPM) verwenden, um ein TPM 2.0-Gerät zu emulieren und so die TPM-Anforderungen für die Installation von Windows 11 zu erfüllen. Für Szenarien, in denen kein vTPM verfügbar ist, können jedoch die folgenden <strong>Registrierungsschlüssel</strong> verwendet werden, um die Prüfungen während des Installationsprozesses zu umgehen:</p>
+<ul>
+<li><strong>BypassTPMCheck</strong>: TPM-Prüfung überspringen.</li>
+<li><strong>BypassSecureBootCheck</strong>: Secure Boot-Prüfung überspringen.</li>
+<li><strong>BypassRAMCheck</strong>: RAM-Prüfung überspringen.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-reg" data-lang="reg"><span style="display:flex;"><span><span style="color:#66d9ef">[</span>HKEY_LOCAL_MACHINE<span style="color:#66d9ef">\SYSTEM\Setup\LabConfig]</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">&#34;BypassTPMCheck&#34;</span><span style="color:#f92672">=</span>dword:<span style="color:#ae81ff">00000001</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">&#34;BypassSecureBootCheck&#34;</span><span style="color:#f92672">=</span>dword:<span style="color:#ae81ff">00000001</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">&#34;BypassRAMCheck&#34;</span><span style="color:#f92672">=</span>dword:<span style="color:#ae81ff">00000001</span>
+</span></span></code></pre></div><p>Um die Prüfungen währ
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Spacemesh-Bergbau: Der umweltfreundliche Weg zu dezentralen Gewinnen</title><link>https://de.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid><description>Verdienen Sie umweltfreundliche Belohnungen durch Spacemesh-Mining, einem dezentralen Ansatz, der den innovativen PoST-Konsensalgorithmus verwendet.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/spacemesh-mining-rocket.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Spacemesh Mining: Ein Überblick</strong></p>
+<h2 id="einführung">
+  <a href="#einf%c3%bchrung" title="Einführung">Einführung</a>
+  <a href="#einf%c3%bchrung" class="h-anchor" aria-hidden="true" title="Einführung">#</a>
+</h2>
+<p>Spacemesh ist eine neuartige und innovative Kryptowährung, die einen einzigartigen Mining-Ansatz verwendet, der als 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Spacemesh mining">
+    <meta itemprop="url" content="https://www.spacemesh.io/">
+    <a href="https://www.spacemesh.io/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Spacemesh mining</strong></a>
+</span>
+. Unlike traditional proof-of-work (PoW) or proof-of-stake (PoS) mechanisms, Spacemesh utilizes a **proof-of-space-time (PoST) Konsensalgorithmus. Dieses bahnbrechende Konzept zielt darauf ab, umweltfreundlicher und dezentraler zu sein und gleichzeitig die Sicherheit und Effizienz des Netzes zu gewährleisten.</p>
+<p>In diesem Artikel werden wir die Vor- und Nachteile des Spacemesh-Minings erkunden, verstehen, wie es funktioniert, und seine Vorteile und potenziellen Herausforderungen diskutieren. Egal ob Sie ein erfahrener Krypto-Enthusiast oder ein Neuling in der Welt der Kryptowährungen sind, dieser Leitfaden wird Ihnen wertvolle Einblicke in die faszinierende Welt des Spacemesh-Minings geben.</p>
+<h2 id="was-ist-spacemesh-mining">
+  <a href="#was-ist-spacemesh-mining" title="Was ist Spacemesh Mining?">Was ist Spacemesh Mining?</a>
+  <a href="#was-ist-spacemesh-mining" class="h-anchor" aria-hidden="true" title="Was ist Spacemesh Mining?">#</a>
+</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/W
+
+        <br>
+        <a href="https://de.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Erhöhen Sie die Sicherheit und den Datenschutz mit virtuellen Karten von Privacy.com</title><link>https://de.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid><description>Entdecken Sie, wie die virtuellen Debitkarten von Privacy.com Ihre Online-Sicherheit erhöhen und Ihre Privatsphäre schützen können, während sie gleichzeitig eine einfache Kontrolle über Transaktionen und Abonnements bieten.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/privacy_virtual_cards.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <p><strong>Privacy.com Virtuelle Debitkarten und ihre Verwendung für Sicherheit und Datenschutz</strong></p>
+<h2 id="einleitung">
+  <a href="#einleitung" title="Einleitung">Einleitung</a>
+  <a href="#einleitung" class="h-anchor" aria-hidden="true" title="Einleitung">#</a>
+</h2>
+<p>In einer zunehmend digitalen Welt sind der Schutz unserer finanziellen Daten und die Wahrung der Online-Privatsphäre von größter Bedeutung. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Privacy.com">
+    <meta itemprop="url" content="https://privacy.com/">
+    <a href="https://privacy.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Privacy.com</strong></a>
+</span>
+ offers an innovative solution to enhance security and protect privacy through virtual debit cards. In this article, we&rsquo;ll explore what 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Privacy.com">
+    <meta itemprop="url" content="https://privacy.com/">
+    <a href="https://privacy.com/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    ><strong>Privacy.com</strong></a>
+</span>
+ was virtuelle Debitkarten sind, wie sie funktionieren und welche Vorteile sie für die Sicherheit und den Schutz der Privatsphäre mit sich bringen.</p>
+<h2 id="was-sind-virtuelle-debitkarten">
+  <a href="#was-sind-virtuelle-debitkarten" title="Was sind virtuelle Debitkarten?">Was sind virtuelle Debitkarten?</a>
+  <a href="#was-sind-virtuelle-debitkarten" class="h-anchor" aria-hidden="true" title="Was sind virtuelle Debitkarten?">#</a>
+</h
+
+        <br>
+        <a href="https://de.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Erhöhen Sie die Sicherheit virtueller Maschinen mit vTPM: Schritt-für-Schritt-Anleitung</title><link>https://de.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><guid>https://de.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><description>Erhöhen Sie die Sicherheit virtueller Maschinen mit vTPM mit unserer umfassenden Schritt-für-Schritt-Anleitung, die Plattform-Attestierung und BitLocker-Verschlüsselungsunterstützung bietet.</description><content:encoded><![CDATA[
+        
+            <img src="https://de.simeononsecurity.com/img/cover/enhanced-vm-security.webp">
+            
+        
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/">Read the full article at https://de.simeononsecurity.com/</a>
+
+        <h2 id="virtuelles-trusted-platform-module-für-eine-vorhandene-virtuelle-maschine-aktivieren">
+  <a href="#virtuelles-trusted-platform-module-f%c3%bcr-eine-vorhandene-virtuelle-maschine-aktivieren" title="Virtuelles Trusted Platform Module für eine vorhandene virtuelle Maschine aktivieren">Virtuelles Trusted Platform Module für eine vorhandene virtuelle Maschine aktivieren</a>
+  <a href="#virtuelles-trusted-platform-module-f%c3%bcr-eine-vorhandene-virtuelle-maschine-aktivieren" class="h-anchor" aria-hidden="true" title="Virtuelles Trusted Platform Module für eine vorhandene virtuelle Maschine aktivieren">#</a>
+</h2>
+<p>Das Virtual Trusted Platform Module (vTPM) ist eine wichtige Sicherheitsfunktion, die die Sicherheit von Gastbetriebssystemen, die auf virtuellen Maschinen ausgeführt werden, erhöht. Dieser Artikel führt Sie durch den Prozess des Hinzufügens eines vTPM zu einer vorhandenen virtuellen Maschine in einer VMware vSphere-Umgebung und bietet schrittweise Anleitungen und wichtige Überlegungen, um eine reibungslose Implementierung zu gewährleisten.</p>
+<hr>
+<h2 id="voraussetzungen">
+  <a href="#voraussetzungen" title="Voraussetzungen">Voraussetzungen</a>
+  <a href="#voraussetzungen" class="h-anchor" aria-hidden="true" title="Voraussetzungen">#</a>
+</h2>
+<p>Bevor Sie mit dem Hinzufügen eines vTPM zu Ihrer virtuellen Maschine fortfahren, müssen Sie sicherstellen, dass Sie die folgenden Voraussetzungen erfüllen:</p>
+<ol>
+<li>
+<p><strong>vSphere-Umgebung mit Key Provider:</strong> Stellen Sie sicher, dass Ihre vSphere-Umgebung für einen Key Provider konfiguriert ist. Dieser Schritt ist für die sichere Verwaltung kryptografischer Vorgänge von entscheidender Bedeutung. Lesen Sie die 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="vSphere Security documentation">
+    <meta itemprop="url" content="https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-52188148-C579-4F6A-8335-CFBCE0DD2167.html">
+    <a href="https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-52188148-C579-4F6A-8335-CFBCE0DD
+
+        <br>
+        <a href="https://de.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/">Read More at https://de.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
