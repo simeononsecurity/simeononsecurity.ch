@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://ja.simeononsecurity.com//img/banner.webp</url><title>simeononsecurity</title><link>https://ja.simeononsecurity.com/</link></image><link>https://ja.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Flockカメラ：公共安全ツールか、令状なし監視機械か？</title><link>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"プライバシー"
+, "監視"
+, "市民的自由"
+, "法執行技術"
+, "デジタル権利"</category><guid>https://ja.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Safety ALPRカメラの独立した分析：実際の仕組み、ナンバープレート以外に収集されるデータ、データ共有による影の全国データベースの形成、そして令状問題が真の核心である理由。</description></item><item><title>Flock Finder: Flock Safety ALPRカメラのマッピングツール</title><link>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "プライバシーツール"
+, "ハードウェアハッキング"
+, "セキュリティ研究"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock Safety カメラ監視：プライバシーと保護</title><link>https://ja.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "監視システム"
+, "デジタル権利"
+, "法執行技術"
+, "プライバシー保護"
+, "対監視"
+, "市民の自由"
+, "技術倫理"
+, "スマートシティインフラ"
+, "セキュリティハードウェア"</category><guid>https://ja.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年におけるFlock Safety ALPRカメラの広範な展開を探り、プライバシーへの影響を理解し、検知デバイスを含む効果的な監視対策戦略を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Flock-You検出：カウンター監視セットアップガイド</title><link>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"セキュリティハードウェア"
+, "カウンター監視"
+, "プライバシー技術"
+, "オープンソースプロジェクト"
+, "ESP32開発"
+, "WiFiモニタリング"
+, "プライバシーツール"
+, "デジタル権利"
+, "ハードウェアハッキング"
+, "ネットワークセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32ベースのハードウェアを使用してFlock Safety ALPRカメラを検出するオープンソースFlock-Youプロジェクトの包括的な技術ガイド。セットアップ手順、ファームウェアの詳細、購入オプションを含む。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>セキュアメールサービス：スタートメールでプライバシーを強化</title><link>https://ja.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "プライバシー"
+, "メールサービス"
+, "オンライン・セキュリティ"
+, "デジタル・プライバシー"
+, "暗号化"
+, "データ保護"
+, "電子メールのプライバシー"
+, "アイデンティティ保護"
+, "オンラインプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+StartMailは、高度な暗号化と電子メールのマスキングを備えたセキュアな電子メールサービスです。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Windows GVLKs：パフォーマンス向上のためのライセンスキーのパワーを解き放つ</title><link>https://ja.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ソフトウェア"
+, "生産性"
+, "オペレーティング・システム"
+, "マイクロソフト"
+, "ウィンドウズ"
+, "ライセンス"
+, "キーマネージメント"
+, "ITソリューション"
+, "強化"</category><guid>https://ja.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows GVLKがどのようにパフォーマンスに革命を起こすかをご覧ください！最高のライセンシングキーを探求し、あなたのシステムの生産性を楽に向上させましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp" length="71578" type="image/webp"/></item><item><title>Windows 11のインストールを自動化：TPM、セキュアブート、RAMチェックを回避する</title><link>https://ja.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ウィンドウズ11"
+, "インストール"
+, "仮想化"
+, "オートメーション"
+, "レジストリ・キー"
+, "TPMバイパス"
+, "セキュアブート・バイパス"
+, "RAMバイパス"
+, "ブイティピーエム"</category><guid>https://ja.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+autounattend.xmlとvTPMを使用して、TPM、セキュアブート、RAMのチェックを回避することにより、仮想化環境におけるWindows 11のインストールを合理化します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp"/></item><item><title>スペースメッシュ・マイニング環境に優しい分散型報酬への道</title><link>https://ja.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><category>
+"暗号通貨マイニング"
+, "時空の証明"
+, "分散型報酬"
+, "環境に優しい鉱山"
+, "ブロックチェーン技術"
+, "暗号通貨"
+, "暗号マイニング"
+, "プルーフ・オブ・スペース"
+, "地方分権"
+, "ブロックチェーン・コンセンサス"</category><guid>https://ja.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+革新的なPoSTコンセンサスアルゴリズムを使用した分散型アプローチであるSpacemeshマイニングを通じて、環境に優しい報酬を獲得しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/spacemesh-mining-rocket.webp" length="96402" type="image/webp"/></item><item><title>Privacy.comバーチャルカードでセキュリティとプライバシーを強化</title><link>https://ja.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate><category>
+"オンライン・セキュリティ"
+, "デジタル・プライバシー"
+, "バーチャルデビットカード"
+, "財務保護"
+, "オンライン取引"
+, "詐欺防止"
+, "データプライバシー"
+, "財務プライバシー"
+, "サイバーセキュリティ"
+, "パーソナル・ファイナンス"</category><guid>https://ja.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Privacy.comのバーチャルデビットカードで、オンラインセキュリティを強化し、プライバシーを保護しながら、取引や購読を簡単にコントロールする方法をご覧ください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp"/></item><item><title>vTPMで仮想マシンのセキュリティを強化：ステップバイステップガイド</title><link>https://ja.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "仮想化"
+, "VMware"
+, "ブイ・スフィア"
+, "セキュリティ"
+, "トラステッド・プラットフォーム・モジュール"
+, "ブイティピーエム"
+, "ゲストOS"
+, "暗号化"
+, "プラットフォーム認証"</category><guid>https://ja.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+包括的なステップバイステップのガイドでvTPMを使用して仮想マシンのセキュリティを強化し、プラットフォームの認証とBitLocker暗号化のサポートを提供します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>VMware vSphereを使いこなす：guest_os_type 値の完全ガイド</title><link>https://ja.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ja.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+vSphere Packer Builder で有効なゲスト OS タイプの値を確認し、VMware vSphere の VM 作成プロセスを簡単に最適化できます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.webp" length="180110" type="image/webp"/></item><item><title>アフィリエイトの開示：私たちをサポートし、驚くべきサービスを発見する</title><link>https://ja.simeononsecurity.com/affiliate/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"アフィリエイトの開示"
+, "オンラインサービス"
+, "おすすめ製品"
+, "デジタル製品"
+, "アフィリエイト・マーケティング"
+, "オンライン収益"
+, "ウェブサイトの収益化"
+, "オンラインで稼ぐ"
+, "インターネット・マーケティング"
+, "透明性"</category><guid>https://ja.simeononsecurity.com/affiliate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+アフィリエイトの開示方針について学び、Amazon、Audible、StartMailなどの一流サービスを探そう。</description></item><item><title>国家安全保障を強化する：ビットコインのエレクトロ・サイバー・インパクト</title><link>https://ja.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"暗号通貨"
+, "サイバーセキュリティ"
+, "テクノロジー"
+, "国家安全保障"
+, "リサーチ"
+, "財務"
+, "イノベーション"
+, "デジタル通貨"
+, "政策立案"
+, "ブロックチェーン"</category><guid>https://ja.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ビットコインが強力なサイバーセキュリティ技術へと変貌を遂げる中、画期的な「パワー・プロジェクション理論」と国家安全保障への影響を探る。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/empowered-national-security.webp" length="155026" type="image/webp"/></item><item><title>プライベートWebホスティング：トッププロバイダーによるオンラインプレゼンスの保護</title><link>https://ja.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><category>
+"ウェブホスティング"
+, "オンラインプライバシー"
+, "データ・セキュリティ"
+, "プライベート・ホスティング"
+, "匿名ドメイン"
+, "専用サーバー"
+, "VPSホスティング"
+, "データ保護"
+, "言論の自由"
+, "ビットコイン決済"</category><guid>https://ja.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+あなたのオンラインプレゼンスを保護する最高のプライベートウェブホスティングサービスを見つけましょう。Privex、OrangeWebsite、1984、Njallaを比較して、一流のプライバシーとセキュリティを確保しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/privacy_hosting_security_shield.webp" length="98742" type="image/webp"/></item><item><title>OrangeWebsiteウェブホスティング：スピードとセキュリティでオンラインを成功に導く</title><link>https://ja.simeononsecurity.com/articles/orangwebsite-web-hosting/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "ウェブホスティング"
+, "サイバーセキュリティ"
+, "ビジネス"
+, "デジタルサービス"
+, "ウェブサイト管理"
+, "インターネット"
+, "電子商取引"
+, "クラウド・ホスティング"
+, "サーバーホスティング"</category><guid>https://ja.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+お客様のオンラインベンチャーにOrangeWebsiteウェブホスティングのパワーをお試しください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp"/></item><item><title>セッション vs ステータス vs シグナル vs スリーマ：包括的な比較</title><link>https://ja.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate><category>
+"セキュア・メッセージング"
+, "プライバシー重視のコミュニケーション"
+, "メッセージング・アプリの比較"
+, "暗号化プロトコル"
+, "サイバーセキュリティ"
+, "プライベート・コミュニケーション"
+, "メッセージング・サービス"
+, "データプライバシー"
+, "エンド・ツー・エンドの暗号化"
+, "メッセージング・プラットフォーム分析"</category><guid>https://ja.simeononsecurity.com/articles/session-vs-status-vs-signal-vs-threema-secure-messaging-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+このセキュア・メッセージング・サービスの包括的な比較で、Session、Status、Signal、Threemaの主な違いと強みを発見してください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-messaging-comparison.webp" length="187968" type="image/webp"/></item><item><title>セキュアメール対決：スタートメール vs プロトンメール vs ツタノタ</title><link>https://ja.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</link><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "データプライバシー"
+, "メールサービス"
+, "オンライン・セキュリティ"
+, "暗号化"
+, "インターネット・ツール"
+, "比較"
+, "デジタル保護"
+, "オンラインプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/secure-email-startmail-protonmail-tutanota/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+最高のセキュアメールサービスを見つけましょう！StartMail、ProtonMail、Tutanotaを詳細に比較し、オンラインでのプライバシーを確保します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure-email-showdown.webp" length="84184" type="image/webp"/></item><item><title>Albine DeleteMeでプライバシーを保護 - あなたのデジタルプレゼンスを守る</title><link>https://ja.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate><category>
+"データプライバシー"
+, "オンライン・セキュリティ"
+, "個人情報保護について"
+, "個人情報盗難防止"
+, "デジタル・フットプリント・マネジメント"
+, "サイバーセキュリティ"
+, "インターネットのプライバシー"
+, "データ削除"
+, "GDPRコンプライアンス"
+, "中共"</category><guid>https://ja.simeononsecurity.com/articles/secure-your-privacy-albine-deleteme/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Albine DeleteMeは、あなたの個人情報を保護し、オンラインの安全性と安心感を保証するデータプライバシーサービスです。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/secure_privacy_cartoon.webp" length="127154" type="image/webp"/></item><item><title>HSTSプリロード ウェブサイトのセキュリティを強化する方法：ステップ・バイ・ステップ・ガイド</title><link>https://ja.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://ja.simeononsecurity.com/guides/enhance-website-security-with-hsts-preloading/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ChromeとFirefoxにHSTS設定をプリロードすることで、Webサイトのセキュリティとユーザーの信頼を向上させる方法をご紹介します。シームレスな実装のためのステップバイステップガイドに従ってください。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/enhanced-website-security.webp" length="67134" type="image/webp"/></item><item><title>マルチGPUによる効率的なSpacemeshマイニング - 報酬を最大化する</title><link>https://ja.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><category>
+"暗号通貨"
+, "ブロックチェーン"
+, "鉱業"
+, "テクノロジー"
+, "分散型"
+, "GPUマイニング"
+, "時空の証明"
+, "環境に優しい"
+, "暗号のヒント"
+, "デジタル資産"</category><guid>https://ja.simeononsecurity.com/other/efficient-spacemesh-mining-multiple-gpus-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+環境に優しいPoSTアルゴリズムで複数のGPUを使用してSpacemeshマイニングを最適化し、報酬を最大化する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/spacemesh-mining-gpus.webp" length="204992" type="image/webp"/></item><item><title>Pythonセキュリティのベストプラクティス：コードとデータの保護</title><link>https://ja.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><category>
+"パイソンセキュリティ"
+, "コード・セキュリティ"
+, "データ保護"
+, "ソフトウェア開発"
+, "サイバーセキュリティ"
+, "安全なコーディング"
+, "ウェブ開発"
+, "データプライバシー"
+, "アプリケーション・セキュリティ"
+, "ITセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/python-security-best-practices-protecting-code-data/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+あなたのコードとデータを潜在的な脅威から守り、データ保護、システムの完全性、信頼性を確保するために不可欠なPythonセキュリティのベストプラクティスを学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_of_a_shield_protecting_Python.webp" length="115818" type="image/webp"/></item><item><title>Windows Defender PowerShellコマンドでシステムセキュリティを強化する</title><link>https://ja.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"ウィンドウズ・ディフェンダー"
+, "PowerShellコマンド"
+, "システムセキュリティ"
+, "コマンドライン制御"
+, "アンチウイルス"
+, "Windowsオペレーティングシステム"
+, "マルウェアプロテクション"
+, "高度なセキュリティ設定"
+, "セキュリティ運用の自動化"
+, "Windows PowerShell"</category><guid>https://ja.simeononsecurity.com/articles/windows-defender-powershell-commands-enhance-system-security/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windows Defender PowerShellコマンドのパワーを発見し、コマンドライン制御でシステムセキュリティを強化する方法を学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_animated_illustration_depicting_a_shield_pr.webp" length="86638" type="image/webp"/></item><item><title>ネットワーク・プラス・コースネットワーク・トラブルシューティング手法</title><link>https://ja.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"IT教育"
+, "ネットワークのトラブルシューティング"
+, "ネットワーク認証"
+, "ITトレーニング"
+, "コンピュータ・ネットワーク"
+, "ITスキル"
+, "技術的知識"
+, "ITプロフェッショナル"
+, "ネットワーキングの概念"
+, "ネットワークサポート"</category><guid>https://ja.simeononsecurity.com/network-plus/network-troubleshooting-methodology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ネットワークの問題を効率的かつ効果的に解決するための手順、ツール、ベストプラクティスなど、ネットワークのトラブルシューティング方法に関する包括的なガイド。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_illustration_depicting_a_network_engineer_u.webp" length="159928" type="image/webp"/></item><item><title>安全なWindows 10とWindows 11のための基本的なWindows強化のベストプラクティス</title><link>https://ja.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><category>
+"ウィンドウズ強化"
+, "Windowsのセキュリティ"
+, "Windows 10のハードニング"
+, "ウィンドウズ11のハードニング"
+, "Windowsセキュリティのベストプラクティス"
+, "Windowsセキュリティのヒント"
+, "Windowsセキュリティガイドライン"
+, "Windowsオペレーティングシステムのセキュリティ"
+, "Windowsシステムのハードニング"
+, "ウィンドウズのセキュリティ対策"</category><guid>https://ja.simeononsecurity.com/articles/windows-hardening-best-practices-secure-windows-10-windows-11/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+包括的なハードニング技術とベストプラクティスを通じて、Windows 10およびWindows 11システムのセキュリティを強化するための効果的な戦略をご覧ください。</description></item><item><title>Windowsのディレクトリ構造：総合ガイド</title><link>https://ja.simeononsecurity.com/articles/windows-directory-structure-guide/</link><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate><category>
+"Windowsのディレクトリ構造"
+, "Windowsファイル管理"
+, "ディレクトリの移動"
+, "ファイル構成"
+, "Windowsのファイルパス"
+, "Windowsシステムフォルダ"
+, "ユーザーディレクトリ"
+, "Program Filesディレクトリ"
+, "Windowsのルートディレクトリ"
+, "一時ファイルディレクトリ"</category><guid>https://ja.simeononsecurity.com/articles/windows-directory-structure-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Windowsのディレクトリ構造を探求し、効率的にファイルを管理し、階層システムをナビゲートする方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/An_image_depicting_a_tree-like_structure_repre.webp" length="241158" type="image/webp"/></item></channel></rss>

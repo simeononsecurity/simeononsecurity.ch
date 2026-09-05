@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fastboot on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/fastboot//img/banner.webp</url><title>Fastboot on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/fastboot/</link></image><link>https://ja.simeononsecurity.com/tags/fastboot/</link><description>Recent content in Fastboot on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/fastboot/index.xml" rel="self" type="application/rss+xml"/><item><title>完全ガイド：Google PixelデバイスへのGrapheneOSのインストール</title><link>https://ja.simeononsecurity.com/guides/how-to-install-graphine-os/</link><pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate><category>
+"GrapheneOS"
+, "Google Pixel"
+, "プライバシー"
+, "セキュリティ"
+, "Android"
+, "モバイルデバイス"
+, "オペレーティングシステム"
+, "インストールガイド"
+, "カスタムROM"
+, "データ保護"
+, "セキュアOS"
+, "オープンソース"
+, "fastboot"
+, "ブートローダー"
+, "検証済みブート"
+, "Pixel 10"
+, "Pixel 9"</category><guid>https://ja.simeononsecurity.com/guides/how-to-install-graphine-os/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Webインストーラーまたはコマンドライン（CLI）を使用して、プライバシーとセキュリティを強化したGrapheneOSをGoogle Pixelデバイスにインストールする方法を解説します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/how-to-install-graphine-os.webp" length="114158" type="image/webp"/></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NitekryDPaul on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/tags/nitekrydpaul//img/banner.webp</url><title>NitekryDPaul on simeononsecurity</title><link>https://ja.simeononsecurity.com/tags/nitekrydpaul/</link></image><link>https://ja.simeononsecurity.com/tags/nitekrydpaul/</link><description>Recent content in NitekryDPaul on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/tags/nitekrydpaul/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Flock Safety ALPRカメラのマッピングツール</title><link>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "プライバシーツール"
+, "ハードウェアハッキング"
+, "セキュリティ研究"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>
