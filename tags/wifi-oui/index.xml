@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WiFi OUI on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/wifi-oui//img/banner.webp</url><title>WiFi OUI on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/wifi-oui/</link></image><link>https://es.simeononsecurity.com/tags/wifi-oui/</link><description>Recent content in WiFi OUI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/wifi-oui/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Mapa de cámaras ALPR de Flock Safety</title><link>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnología de privacidad"
+, "Contravigilancia"
+, "Proyectos de código abierto"
+, "Derechos digitales"
+, "Seguridad de redes"
+, "Herramientas de privacidad"
+, "Hacking de hardware"
+, "Investigación de seguridad"</category><guid>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder es una herramienta de código abierto que mapea más de 40.000 cámaras Flock Safety ALPR en todo el mundo utilizando datos WiFi de WiGLE y huellas digitales OUI. Aprende cómo funciona, sus limitaciones y las herramientas de hardware para la detección en tiempo real.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>

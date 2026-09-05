@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Detección De Vigilancia on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/detecci%C3%B3n-de-vigilancia//img/banner.webp</url><title>Detección De Vigilancia on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/detecci%C3%B3n-de-vigilancia/</link></image><link>https://es.simeononsecurity.com/tags/detecci%C3%B3n-de-vigilancia/</link><description>Recent content in Detección De Vigilancia on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/detecci%C3%B3n-de-vigilancia/index.xml" rel="self" type="application/rss+xml"/><item><title>Eye Spy: Detector pasivo de vigilancia para el M5Stack Atom Lite (ESP32)</title><link>https://es.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</link><pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate><category>
+"Herramientas de privacidad"
+, "Contra-vigilancia"
+, "Seguridad IoT"
+, "Sistemas embebidos"
+, "Investigación de seguridad"
+, "Seguridad WiFi"
+, "Seguridad Bluetooth"
+, "Proyectos ESP32"
+, "Seguridad de hardware"
+, "Seguridad de código abierto"</category><guid>https://es.simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una referencia técnica completa para Eye Spy v1.1 - un detector de vigilancia pasivo BLE y WiFi de código abierto que funciona en el M5Stack Atom Lite (ESP32-PICO-D4) y busca cámaras corporales, sistemas ALPR, AirTags, drones y cámaras ocultas usando un modelo de amenazas con puntuación de confianza y un único LED RGB.</description><enclosure url="https://es.simeononsecurity.com/img/cover/eye-spy-passive-surveillance-detector-esp32-2026.webp" length="208460" type="image/webp"/></item><item><title>Proyecto Flock-You: Guía completa de hardware de contravigilancia y configuración 2026</title><link>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware de seguridad"
+, "Contravigilancia"
+, "Tecnología de privacidad"
+, "Proyectos de código abierto"
+, "Desarrollo ESP32"
+, "Monitoreo WiFi"
+, "Herramientas de privacidad"
+, "Derechos digitales"
+, "Modificación de hardware"
+, "Seguridad de red"</category><guid>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía técnica completa del proyecto de código abierto Flock-You para detectar cámaras ALPR de Flock Safety usando hardware basado en ESP32. Incluye instrucciones de configuración, detalles de firmware y opciones de compra.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item></channel></rss>

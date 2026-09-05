@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seguridad De Red on simeononsecurity</title><image><url>https://es.simeononsecurity.com/genre/seguridad-de-red//img/banner.webp</url><title>Seguridad De Red on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/seguridad-de-red/</link></image><link>https://es.simeononsecurity.com/genre/seguridad-de-red/</link><description>Recent content in Seguridad De Red on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/seguridad-de-red/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: Detección pasiva de amenazas en 2,4 GHz con alertas LED RGB</title><link>https://es.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de red"
+, "Seguridad WiFi"
+, "Seguridad IoT"
+, "Investigación de seguridad"
+, "Sistemas embebidos"
+, "Herramientas de privacidad"
+, "Proyectos ESP32"
+, "Seguridad de hardware"
+, "Seguridad inalámbrica"
+, "Seguridad de código abierto"</category><guid>https://es.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un análisis detallado del proyecto ESP32 WiFi Canary - un sensor de concienciación 2,4 GHz compacto y pasivo para el M5Stack Atom Lite que vigila silenciosamente los AP Evil Twin, los ataques de desautenticación, las degradaciones de seguridad y las inundaciones de beacon con un modelo de amenazas de puntuación de confianza y un único LED RGB.</description><enclosure url="https://es.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item><item><title>Firmware personalizado DagShell para Orbic RCL400: Guía completa de instalación y uso 2026</title><link>https://es.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><category>
+"Firmware personalizado"
+, "Seguridad móvil"
+, "Herramientas de privacidad"
+, "Seguridad de red"
+, "Wardriving"
+, "Pruebas de penetración"
+, "Hacking IoT"
+, "Investigación de seguridad"
+, "Hacking de hardware"
+, "Tecnología de privacidad"</category><guid>https://es.simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía completa del firmware personalizado DagShell para el hotspot Orbic RCL400, incluyendo instalación, herramientas de privacidad, funciones de hacking, capacidades de wardriving y por qué se combina perfectamente con RayHunter para investigación de seguridad móvil.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dagshell-orbic-rcl400-custom-firmware-guide-2026.webp" length="249580" type="image/webp"/></item><item><title>Fortinet vs Cisco: Guía completa de comparación de seguridad de red 2026</title><link>https://es.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de red"
+, "Ciberseguridad"
+, "Redes empresariales"
+, "Comparación de cortafuegos"
+, "Infraestructura IT"
+, "Hardware de red"
+, "Soluciones de seguridad"
+, "Gestión de red"
+, "Comparación tecnológica"
+, "Toma de decisiones IT"</category><guid>https://es.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa de las soluciones de seguridad de red de Fortinet y Cisco que incluye cortafuegos, conmutadores, SD-WAN, precios, benchmarks de rendimiento y recomendaciones de implementación para 2026.</description><enclosure url="https://es.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Proyecto Flock-You: Guía completa de hardware de contravigilancia y configuración 2026</title><link>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Hardware de seguridad"
+, "Contravigilancia"
+, "Tecnología de privacidad"
+, "Proyectos de código abierto"
+, "Desarrollo ESP32"
+, "Monitoreo WiFi"
+, "Herramientas de privacidad"
+, "Derechos digitales"
+, "Modificación de hardware"
+, "Seguridad de red"</category><guid>https://es.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía técnica completa del proyecto de código abierto Flock-You para detectar cámaras ALPR de Flock Safety usando hardware basado en ESP32. Incluye instrucciones de configuración, detalles de firmware y opciones de compra.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Tailscale vs Headscale: Guía completa de comparación 2026 para VPN autoalojado</title><link>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Seguridad de red"
+, "Autoalojado"
+, "WireGuard"
+, "Zero Trust"
+, "Red malla"
+, "Código abierto"
+, "Infraestructura en la nube"
+, "Acceso remoto"
+, "Gestión de red"</category><guid>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de Tailscale y Headscale que incluye funciones, precios, rendimiento, seguridad y escenarios de implementación para ayudarle a elegir la mejor solución VPN mesh basada en WireGuard.</description><enclosure url="https://es.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>pfSense vs Firewalla vs OPNsense: Comparación completa de seguridad de red 2026</title><link>https://es.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Seguridad de red"
+, "Comparación de cortafuegos"
+, "Soluciones de ciberseguridad"
+, "Gestión de red"
+, "Red doméstica"
+, "Seguridad empresarial"
+, "Funciones de cortafuegos"
+, "Software de seguridad"
+, "Soluciones VPN"
+, "Seguridad de dispositivos IoT"</category><guid>https://es.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de pfSense, Firewalla y OPNsense para seguridad de red doméstica y empresarial. Encuentre la mejor opción para sus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>NextDNS vs AdGuard DNS vs Quad9 vs Cloudflare DNS vs Pi-hole: La comparación definitiva de seguridad DNS 2026</title><link>https://es.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Comparación DNS"
+, "Protección de privacidad"
+, "Bloqueo de anuncios"
+, "Seguridad de red"
+, "Seguridad en Internet"
+, "Resolvedor DNS"
+, "Privacidad en línea"
+, "Seguridad web"
+, "Filtrado DNS"</category><guid>https://es.simeononsecurity.com/articles/dns-comparison-adguard-quad9-cloudflare-pi-hole/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de NextDNS, AdGuard DNS, Quad9, Cloudflare DNS y Pi-hole para seguridad, privacidad y rendimiento. Encuentre el mejor resolvedor DNS para sus necesidades.</description><enclosure url="https://es.simeononsecurity.com/img/cover/dns_security_shield.webp" length="135812" type="image/webp"/></item><item><title>Guía de carrera en ciberseguridad 2026: Habilidades esenciales, certificaciones y datos salariales</title><link>https://es.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</link><pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate><category>
+"Ciberseguridad"
+, "Tecnología"
+, "Desarrollo profesional"
+, "Seguridad de la información"
+, "Seguridad digital"
+, "Habilidades y certificaciones"
+, "Oportunidades de empleo"
+, "Seguridad de red"
+, "Seguridad cloud"
+, "Planificación de carrera"</category><guid>https://es.simeononsecurity.com/articles/cybersecurity-career-guide-essential-skills-and-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía completa de carrera en ciberseguridad 2026 que cubre habilidades esenciales, certificaciones principales, datos salariales, trayectorias profesionales y perspectivas del mercado laboral para profesionales de seguridad aspirantes.</description><enclosure url="https://es.simeononsecurity.com/img/cover/cybersecurity-career-guide-essential-skills-and-certifications.webp" length="298156" type="image/webp"/></item></channel></rss>

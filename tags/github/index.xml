@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/github//img/banner.webp</url><title>GitHub on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/github/</link></image><link>https://es.simeononsecurity.com/tags/github/</link><description>Recent content in GitHub on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>ATS Resume Improver: optimizador de currículum de IA gratuito, autoalojable y sin envío de datos</title><link>https://es.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Herramientas de carrera"
+, "Proyectos de código abierto"
+, "Inteligencia artificial"
+, "Tecnología de privacidad"
+, "Herramientas para desarrolladores"
+, "Búsqueda de empleo"
+, "Productividad"</category><guid>https://es.simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver es un optimizador de currículum de código abierto y del lado del cliente que admite OpenAI, Anthropic Claude y modelos Ollama locales. Analice, puntúe, compare palabras clave, optimice y exporte su currículum sin que sus datos salgan del navegador.</description><enclosure url="https://es.simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Flock Finder: Mapa de cámaras ALPR de Flock Safety</title><link>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Tecnología de privacidad"
+, "Contravigilancia"
+, "Proyectos de código abierto"
+, "Derechos digitales"
+, "Seguridad de redes"
+, "Herramientas de privacidad"
+, "Hacking de hardware"
+, "Investigación de seguridad"</category><guid>https://es.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder es una herramienta de código abierto que mapea más de 40.000 cámaras Flock Safety ALPR en todo el mundo utilizando datos WiFi de WiGLE y huellas digitales OUI. Aprende cómo funciona, sus limitaciones y las herramientas de hardware para la detección en tiempo real.</description><enclosure url="https://es.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Comparación de Azure DevOps, GitHub, GitLab y BitBucket: Encontrando los mejores repositorios de código</title><link>https://es.simeononsecurity.com/articles/best-code-repositories-comparison/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate><category>
+"Desarrollo de software"
+, "Control de versiones"
+, "Herramientas DevOps"
+, "Alojamiento de código"
+, "Programación colaborativa"
+, "Plataformas de desarrollo"
+, "Alojamiento de código abierto"
+, "Soluciones de cumplimiento"
+, "Gestión de código"
+, "Colaboración de proyectos"</category><guid>https://es.simeononsecurity.com/articles/best-code-repositories-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore los mejores repositorios de código, incluyendo Azure DevOps, GitHub, GitLab y BitBucket, para hacer su camino de desarrollo sin esfuerzo y productivo.</description><enclosure url="https://es.simeononsecurity.com/img/cover/Best-Code-Repositories-Comparison.webp" length="84282" type="image/webp"/></item><item><title>Hoy aprendí más módulos de Powershell y Ansible</title><link>https://es.simeononsecurity.com/til/2022-05-03/</link><pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "PowerShell"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-03/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity aprendió sobre Windows STIG Ansible y actualizó los repos relacionados. Además, estudió varios recursos de Microsoft y Ansible relacionados con powershell, remoting y ejecución de comandos shell/powershell en Windows usando módulos como invoke-command, start-process, win_powershell, win_shell, psexec y win_psexec.&lt;/p&gt;
+&lt;h2 id="repos-nuevosactualizados"&gt;
+&lt;a href="#repos-nuevosactualizados" title="Repos nuevos/actualizados:"&gt;Repos nuevos/actualizados:&lt;/a&gt;
+&lt;a href="#repos-nuevosactualizados" class="h-anchor" aria-hidden="true" title="Repos nuevos/actualizados:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;meta itemprop="url" content="https://github.com/simeononsecurity/Windows_STIG_Ansible"&gt;
+&lt;a href="https://github.com/simeononsecurity/Windows_STIG_Ansible"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/Windows_STIG_Ansible&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="simeononsecurity/windows_stigs"&gt;
+&lt;meta itemprop="url" content="https://galaxy.ansible.com/simeononsecurity/windows_stigs"&gt;
+&lt;a href="https://galaxy.ansible.com/simeononsecurity/windows_stigs"
+rel="noopener external" target="_blank"
+&gt;simeononsecurity/windows_stigs&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="recursos-de-aprendizaje"&gt;
+&lt;a href="#recursos-de-aprendizaje" title="Recursos de Aprendizaje:"&gt;Recursos de Aprendizaje:&lt;/a&gt;
+&lt;a href="#recursos-de-aprendizaje" class="h-anchor" aria-hidden="true" title="Recursos de Aprendizaje:"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - invoke-command"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - invoke-command&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - start-process"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - start-process&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="microsoft - running remote commands"&gt;
+&lt;meta itemprop="url" content="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"&gt;
+&lt;a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/running-remote-commands?view=powershell-7.2"
+rel="noopener external" target="_blank"
+&gt;microsoft - running remote commands&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_powershell"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_powershell_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_powershell&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="ansible.windows.win_shell module"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/ansible/windows/win_shell_module.html"
+rel="noopener external" target="_blank"
+&gt;ansible.windows.win_shell module&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="community.windows.psexec"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/latest/collections/community/windows/psexec_module.html"
+rel="noopener external" target="_blank"
+&gt;community.windows.psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;span itemscope itemtype="https://schema.org/WebPage"&gt;
+&lt;meta itemprop="name" content="win_psexec"&gt;
+&lt;meta itemprop="url" content="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"&gt;
+&lt;a href="https://docs.ansible.com/ansible/2.5/modules/win_psexec_module.html"
+rel="noopener external" target="_blank"
+&gt;win_psexec&lt;/a&gt;
+&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Today I Learned about Ansible and Block/Rescue Modules</title><link>https://es.simeononsecurity.com/til/2022-05-02/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Ansible"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad de Windows"
+, "Administración de Windows"
+, "Cumplimiento de las normas de seguridad"
+, "Automatización informática"
+, "Gestión de la configuración"</category><guid>https://es.simeononsecurity.com/til/2022-05-02/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;SimeonOnSecurity se ha enterado y le ha parecido interesante hoy**&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity aprendió y descubrió hoy varias cosas interesantes relacionadas con la seguridad en Windows y la automatización usando Ansible.&lt;/p&gt;
+&lt;p&gt;En primer lugar, se identificaron dos repositorios nuevos y actualizados. El repositorio windows_STIG_Ansible proporciona una solución completa para configurar sistemas Windows para cumplir con los requisitos de la Guía de Implementación Técnica de Seguridad (STIG), utilizando la plataforma de automatización Ansible. El repositorio windows_stigs es una colección de roles de Ansible para configurar sistemas Windows que cumplan los requisitos de la STIG, y está disponible en Ansible Galaxy, un repositorio central para compartir contenido de Ansible.&lt;/p&gt;</description></item><item><title>Hoy he aprendido a manipular y analizar JSON en PowerShell y Bash</title><link>https://es.simeononsecurity.com/til/2021-02-17/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Conformidad"
+, "Seguridad de Windows"
+, "Guías Ansible"
+, "Colecciones Ansible"
+, "Seguridad informática"
+, "Gestión de la configuración"
+, "DevOps"
+, "Administración de Windows"
+, "Configuración del sistema"</category><guid>https://es.simeononsecurity.com/til/2021-02-17/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+&lt;p&gt;&lt;strong&gt;Lo que SimeonOnSecurity ha descubierto y encontrado interesante hoy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SimeonOnSecurity ha actualizado una página de su sitio web y se ha enterado de algunos recursos que le parecen interesantes. La página actualizada es el resumen del Invite Challenge en HackTheBox. Esta página ofrece un análisis en profundidad del proceso de resolución del desafío tanto en sistemas Windows como Linux.&lt;/p&gt;
+&lt;p&gt;Además de la página actualizada, SimeonOnSecurity también descubrió algunos recursos de aprendizaje útiles. Uno de estos recursos es una entrada de blog de Cameron Nokes que se centra en el trabajo con JSON en bash utilizando la herramienta jq. La herramienta jq es una utilidad de línea de comandos que facilita el análisis, filtrado y manipulación de datos JSON.&lt;/p&gt;</description></item><item><title>Contact Details for SimeonOnSecurity: Connect Safely for Business Inquiries and Security Concerns</title><link>https://es.simeononsecurity.com/contactus/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Contact Details"
+, "Secure Communication"
+, "Business Inquiries"
+, "Security Concerns"
+, "Social Media"
+, "Contact Form"
+, "Privacy"
+, "SimeonOnSecurity"
+, "Secure Connect"
+, "Secure Communication Platform"
+, "RSS Feed"
+, "GitHub"
+, "Twitter"
+, "Mastodon"
+, "Reddit"
+, "Medium"
+, "Substack"
+, "Discord"
+, "Connect Safely"
+, "Secure Messaging"
+, "Online Privacy"
+, "Data Protection"
+, "Secure Contact Form"
+, "Business Contact"
+, "Secure Connection"
+, "Online Security"
+, "Cybersecurity"
+, "Digital Privacy"
+, "Secure Platform"
+, "Secure Communication Channel"</category><guid>https://es.simeononsecurity.com/contactus/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ensure secure communication with SimeonOnSecurity by using our contact form for business inquiries or security concerns, while staying connected through various social media platforms.</description></item><item><title>Creadores de contenidos de seguridad recomendados</title><link>https://es.simeononsecurity.com/recommendations/creators/</link><pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate><category>
+"Creadores de contenidos de seguridad recomendados"
+, "Principales creadores de contenidos de seguridad"
+, "Mejores influyentes en ciberseguridad"
+, "Expertos creadores de seguridad"
+, "Creadores de seguridad de primera categoría"
+, "Recomendaciones de SimeonOnSecurity"
+, "ippSec y otros creadores de seguridad"
+, "John Hammond y otros creadores influyentes"
+, "LiveOverflow y otros creadores notables"
+, "NahamSec y otros creadores de seguridad de confianza"</category><guid>https://es.simeononsecurity.com/recommendations/creators/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra a los mejores creadores de contenidos de seguridad seleccionados por SimeonOnSecurity. Desde ippSec hasta John Hammond, LiveOverflow, NahamSec, Rob Fuller y TheBlindHacker, estos expertos le ofrecen lo último en este campo a través de sus diversas plataformas, como YouTube, Twitch, Twitter, GitHub y sitios web. Mantente al día y profundiza tus conocimientos con los mejores del sector.</description></item></channel></rss>

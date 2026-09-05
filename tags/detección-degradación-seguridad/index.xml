@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Detección Degradación Seguridad on simeononsecurity</title><image><url>https://es.simeononsecurity.com/tags/detecci%C3%B3n-degradaci%C3%B3n-seguridad//img/banner.webp</url><title>Detección Degradación Seguridad on simeononsecurity</title><link>https://es.simeononsecurity.com/tags/detecci%C3%B3n-degradaci%C3%B3n-seguridad/</link></image><link>https://es.simeononsecurity.com/tags/detecci%C3%B3n-degradaci%C3%B3n-seguridad/</link><description>Recent content in Detección Degradación Seguridad on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/tags/detecci%C3%B3n-degradaci%C3%B3n-seguridad/index.xml" rel="self" type="application/rss+xml"/><item><title>ESP32 WiFi Canary: Detección pasiva de amenazas en 2,4 GHz con alertas LED RGB</title><link>https://es.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><category>
+"Seguridad de red"
+, "Seguridad WiFi"
+, "Seguridad IoT"
+, "Investigación de seguridad"
+, "Sistemas embebidos"
+, "Herramientas de privacidad"
+, "Proyectos ESP32"
+, "Seguridad de hardware"
+, "Seguridad inalámbrica"
+, "Seguridad de código abierto"</category><guid>https://es.simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Un análisis detallado del proyecto ESP32 WiFi Canary - un sensor de concienciación 2,4 GHz compacto y pasivo para el M5Stack Atom Lite que vigila silenciosamente los AP Evil Twin, los ataques de desautenticación, las degradaciones de seguridad y las inundaciones de beacon con un modelo de amenazas de puntuación de confianza y un único LED RGB.</description><enclosure url="https://es.simeononsecurity.com/img/cover/esp32-wifi-canary-passive-wifi-threat-detection-2026.webp" length="123466" type="image/webp"/></item></channel></rss>

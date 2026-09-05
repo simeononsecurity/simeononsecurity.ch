@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Código Abierto on simeononsecurity</title><image><url>https://es.simeononsecurity.com/genre/c%C3%B3digo-abierto//img/banner.webp</url><title>Código Abierto on simeononsecurity</title><link>https://es.simeononsecurity.com/genre/c%C3%B3digo-abierto/</link></image><link>https://es.simeononsecurity.com/genre/c%C3%B3digo-abierto/</link><description>Recent content in Código Abierto on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>es</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://es.simeononsecurity.com/genre/c%C3%B3digo-abierto/index.xml" rel="self" type="application/rss+xml"/><item><title>Guía de actualización de Proxmox VE 8 a 9: actualización en sitio con script automatizado</title><link>https://es.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Virtualización"
+, "Administración Linux"
+, "Proxmox"
+, "Gestión de servidores"
+, "Código abierto"
+, "Homelab"</category><guid>https://es.simeononsecurity.com/articles/proxmox-ve-8-to-9-upgrade-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Guía completa para actualizar Proxmox VE 8 (Debian Bookworm) a Proxmox VE 9 (Debian Trixie). Cubre requisitos previos, actualización manual paso a paso, el script de automatización pve8to9-upgrade.sh, cambios importantes y problemas conocidos.</description><enclosure url="https://es.simeononsecurity.com/img/cover/proxmox-ve-8-to-9-upgrade-guide-automation.webp" length="219752" type="image/webp"/></item><item><title>Tailscale vs Headscale: Guía completa de comparación 2026 para VPN autoalojado</title><link>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"VPN"
+, "Seguridad de red"
+, "Autoalojado"
+, "WireGuard"
+, "Zero Trust"
+, "Red malla"
+, "Código abierto"
+, "Infraestructura en la nube"
+, "Acceso remoto"
+, "Gestión de red"</category><guid>https://es.simeononsecurity.com/articles/tailscale-vs-headscale-comparison-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de Tailscale y Headscale que incluye funciones, precios, rendimiento, seguridad y escenarios de implementación para ayudarle a elegir la mejor solución VPN mesh basada en WireGuard.</description><enclosure url="https://es.simeononsecurity.com/img/cover/tailscale-vs-headscale-comparison-guide.webp" length="134092" type="image/webp"/></item><item><title>Mejores navegadores de privacidad 2026: LibreWolf vs Brave vs Firefox vs Tor – Comparación completa</title><link>https://es.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"Navegadores"
+, "Privacidad"
+, "Seguridad"
+, "Internet"
+, "Tecnología"
+, "Privacidad digital"
+, "Seguridad en línea"
+, "Código abierto"
+, "Anonimato"
+, "Navegación web"</category><guid>https://es.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comparación completa 2026 de los mejores navegadores centrados en la privacidad: LibreWolf, Brave, Firefox, Tor y más. Pruebas detalladas de privacidad, benchmarks de rendimiento y análisis de seguridad para proteger sus datos en línea.</description><enclosure url="https://es.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Automatización Ansible: De Ansible simple a Ansible Tower y Semaphore</title><link>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"Automatización"
+, "Gestión de infraestructuras"
+, "Gestión de la configuración"
+, "DevOps"
+, "Operaciones informáticas"
+, "Código abierto"
+, "Gestión del flujo de trabajo"
+, "Escalabilidad"
+, "Colaboración"
+, "Herramientas Ansible"</category><guid>https://es.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra la potencia de la automatización de Ansible con una comparación de Ansible simple, Ansible Tower y Ansible Semaphore, y elija la herramienta adecuada para una gestión eficaz de la infraestructura.</description></item><item><title>Aumente la productividad con Homebox: Gestión de inventarios y activos de código abierto</title><link>https://es.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"Tecnología"
+, "Gestión de existencias"
+, "Gestión de activos"
+, "Código abierto"
+, "Productividad"
+, "Pequeña empresa"
+, "Gestión doméstica"
+, "Autoalojado"
+, "Software"
+, "Organización"</category><guid>https://es.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Descubra la potencia de Homebox, un software de código abierto para la gestión eficaz de inventarios y activos, que mejora la productividad de su hogar o pequeña empresa.</description></item></channel></rss>
