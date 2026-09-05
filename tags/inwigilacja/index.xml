@@ -1,0 +1,96 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inwigilacja on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/inwigilacja//img/banner.webp</url>
+      <title>Inwigilacja on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/inwigilacja/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/inwigilacja/</link>
+
+    <description>Recent content in Inwigilacja on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/inwigilacja/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kamery Flock: Narzędzie bezpieczeństwa publicznego czy maszyna do inwigilacji bez nakazu?</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link>
+        
+        <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Prywatność"
+            
+              , "Inwigilacja"
+            
+              , "Wolności obywatelskie"
+            
+              , "Technologia organów ścigania"
+            
+              , "Prawa cyfrowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Niezależna analiza kamer Flock Safety ALPR: jak naprawdę działają, jakie dane zbierają poza tablicami rejestracyjnymi, jak udostępnianie danych tworzy ukrytą ogólnokrajową bazę danych oraz dlaczego kwestia nakazu sądowego jest kluczowym problemem.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+          
+        </item>
+      
+  </channel>
+</rss>

@@ -1,0 +1,107 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flock Finder on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/tags/flock-finder//img/banner.webp</url>
+      <title>Flock Finder on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/flock-finder/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/flock-finder/</link>
+
+    <description>Recent content in Flock Finder on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/flock-finder/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Mapa kamer ALPR Flock Safety</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia prywatności"
+            
+              , "Kontrwywiad"
+            
+              , "Projekty open source"
+            
+              , "Prawa cyfrowe"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Narzędzia prywatności"
+            
+              , "Hakowanie sprzętu"
+            
+              , "Badania bezpieczeństwa"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder to narzędzie open source, które mapuje ponad 40 000 kamer Flock Safety ALPR na całym świecie, korzystając z danych WiFi WiGLE i odcisku palca OUI. Dowiedz się, jak działa, jakie ma ograniczenia i jakie narzędzia sprzętowe służą do wykrywania w czasie rzeczywistym.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
