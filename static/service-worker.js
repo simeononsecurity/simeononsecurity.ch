@@ -1,5 +1,12 @@
 /**
- * Service Worker — simeononsecurity.com  v4
+ * Service Worker — simeononsecurity.com  v5
+ *
+ * New in v5:
+ *   • Shell precache trim — '/js/ping.js' and '/js/search.js' removed from
+ *     eager SHELL_ASSETS precache (they were being force-fetched on every SW
+ *     install for every visitor regardless of whether they ever use search).
+ *   • offline.html shrunk from ~49KB to ~1.7KB (inline base64 PNG replaced
+ *     with an inline SVG), cutting the per-install precache weight further.
  *
  * New in v4:
  *   • SW update notification  — broadcasts SW_UPDATED to all open tabs on activate
@@ -17,7 +24,7 @@
  */
 
 // ── Version & cache names ────────────────────────────────────────────────────
-const CACHE_VERSION  = 4;
+const CACHE_VERSION  = 5;
 const CACHE_PAGES    = 'sos-pages-v'    + CACHE_VERSION;
 const CACHE_ASSETS   = 'sos-assets-v'   + CACHE_VERSION;
 const CACHE_IMAGES   = 'sos-images-v'   + CACHE_VERSION;
@@ -31,7 +38,17 @@ const MAX_PREFETCH = 50;
 const PAGE_TTL_MS  = 24 * 60 * 60 * 1000; // 24 hours
 
 // ── Shell assets (must exist; cached individually so one 404 ≠ install abort) ─
-const SHELL_ASSETS = ['/', '/offline.html', '/js/ping.js', '/js/search.js'];
+// '/js/ping.js' and '/js/search.js' were previously precached here too, which
+// meant EVERY visitor force-fetched both files on every SW install/update,
+// even though most never visit /search or /ping. They are still cached
+// normally (cache-first, background refresh) by the 'asset' fetch handler
+// below the first time a visitor actually loads a page that needs them, so
+// dropping them from eager precache costs nothing but saves a fetch on every
+// single install for the ~162K/week installs that never touch search. Fixed
+// 2026-09 alongside shrinking offline.html from ~49KB to ~1.7KB (removed an
+// inline base64 PNG), since offline.html is still precached unconditionally
+// as the offline-navigation fallback.
+const SHELL_ASSETS = ['/', '/offline.html'];
 const OFFLINE_URL  = '/offline.html';
 
 // ── Extension sets ───────────────────────────────────────────────────────────

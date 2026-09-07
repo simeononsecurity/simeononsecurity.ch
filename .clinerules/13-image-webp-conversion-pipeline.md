@@ -145,6 +145,31 @@ image conversion, following the existing repo convention (see commit history:
 "chore(resources): commit missing Hugo image-cache artifacts" /
 "chore(resources): prune orphaned Hugo image-cache artifacts").
 
+## Purge Cloudflare Cache After Deleting/Renaming Images (Critical)
+
+`netlify.toml` sends `Cache-Control: public, immutable, s-maxage=31536000,
+max-age=31536000` on `/img/*` and every `.png`/`.jpg`/`.jpeg`/`.webp` response.
+**"Immutable" tells Cloudflare's edge (and browsers) it never needs to
+revalidate that URL, so it will keep serving the old bytes for up to a full
+year even after the origin file is deleted, unless the cache is explicitly
+purged.**
+
+This was confirmed as a real, live bandwidth-waste bug 2026-09: after
+`741bfbe84e4` converted ~928 PNG/JPG/JPEG files to WebP and deleted the
+originals, Cloudflare kept serving stale copies of at least one deleted file
+(`installedantenna.png`, originally 13.3MB) at close to its pre-conversion
+size on repeat requests, weeks after the source file was gone from the repo
+and Netlify origin. The dead URL was not falling through to a small 404 page,
+it was still resolving to the old cached asset.
+
+**After every image conversion, rename, or deletion pass (WebP conversion,
+cover regeneration, ad-image regeneration), purge the affected paths from
+Cloudflare:** Cloudflare dashboard → Caching → Configuration → Purge Cache →
+Custom Purge (list the specific old URLs), or Purge Everything for a
+site-wide conversion pass like this one. Do not assume deleting the file from
+the repo and redeploying is sufficient; the edge cache is a separate
+long-lived store from the origin.
+
 ## Excluded From Conversion (Keep as PNG)
 
 - `static/img/windows11/*`, `static/img/ios/*`, `static/img/android/*` — Windows
