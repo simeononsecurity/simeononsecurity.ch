@@ -155,15 +155,22 @@ Allow: /
 # ---- Pinterest: image paths only, everything else blocked ----
 # Pinterestbot is the documented user-agent token (Pinterest's help docs at
 # pinterest.com/bot.html); "Pinterest" is kept as an alias some third-party
-# lists still use. Per Pinterest's own crawler docs, it honors Crawl-delay
-# only up to 1 second: any larger value is silently truncated to 1, so 1 is
-# already the strictest rate limit robots.txt can enforce on this bot.
-# Restricted to /img/ only: Pinterestbot cannot fetch article/page HTML at
-# all, only files under the image directory tree. Page-bundle-relative
-# inline images (served from article/guide URLs rather than /img/) are also
-# blocked as a result, only /img/cover/, /img/ads/, etc. remain reachable.
+# lists still use. "pinterest.com" and "pinterest.com/" are added explicitly
+# too, since some Pinterest-affiliated fetchers (e.g. link-preview/unfurl
+# requests triggered when a user pastes a URL into Pinterest) have been
+# observed identifying with the bare domain as the user-agent token rather
+# than the "Pinterestbot" product token. Per Pinterest's own crawler docs,
+# it honors Crawl-delay only up to 1 second: any larger value is silently
+# truncated to 1, so 1 is already the strictest rate limit robots.txt can
+# enforce on this bot. Restricted to /img/ only: Pinterestbot cannot fetch
+# article/page HTML at all, only files under the image directory tree.
+# Page-bundle-relative inline images (served from article/guide URLs rather
+# than /img/) are also blocked as a result, only /img/cover/, /img/ads/,
+# etc. remain reachable.
 User-agent: Pinterestbot
 User-agent: Pinterest
+User-agent: pinterest.com
+User-agent: pinterest.com/
 Content-Signal: ai-train=no, search=yes, ai-input=no
 Crawl-delay: 1
 Disallow: /

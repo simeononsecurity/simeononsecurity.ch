@@ -183,4 +183,9 @@ values above 1 second are silently truncated to 1, so `Crawl-delay: 1` is
 already the strictest rate limit robots.txt can express for this bot. Since
 Pinterestbot only ever fetches images and cannot render article/page HTML,
 its whole `User-agent` block is `Disallow: /` plus `Allow: /img/`, restricting
-it to the image directory tree only.
+it to the image directory tree only. Updated 2026-09 to also add `pinterest.com`
+and `pinterest.com/` as explicit `User-agent` tokens in both `static/robots.txt`
+and `layouts/_default/robots.txt`, since some Pinterest-affiliated fetchers
+(e.g. link-preview/unfurl requests triggered when a user pastes a URL into
+Pinterest) have been observed identifying with the bare domain rather than
+the `Pinterestbot` product token.
