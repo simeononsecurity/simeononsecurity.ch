@@ -114,9 +114,48 @@ When adding a new brand to `tools/generate_ad_images.py`:
    - `<slug>-eager.html` — `fetchpriority="high" loading="eager"`
    - `<slug>-eager-floating.html` — fixed position, 255×212 image, hidden below 900px
 4. Add the lazy partial path to the `$ads` slice in
-   `layouts/partials/ads/random-lazy.html`.
+   `layouts/partials/ads/random-lazy.html`, and add the matching eager/floating
+   partial paths to the `$ads` slices in `layouts/partials/ads/random-eager.html`
+   and `layouts/partials/ads/random-eager-floating.html`.
 5. Run the generator to produce the WebP images:
    `.venv/bin/python tools/generate_ad_images.py --brand <slug>`
 6. Visually inspect every generated image before committing. If any image contains
    pink or off-brand colour, run `--brand <slug> --force` to regenerate it.
-7. Commit the generated images in `assets/img/ads/<slug>/` alongside the partials.
+7. Add matching prefetch blocks to
+   `themes/soshellofriend/layouts/partials/preload-images.html` (see
+   "Preloading Ad Images" below). Skipping this step does not break the ad
+   itself, but it means the browser has to discover and fetch the ad image cold
+   instead of having it prefetched during `<head>` parsing.
+8. Commit the generated images in `assets/img/ads/<slug>/` alongside the partials.
+
+## Preloading Ad Images
+
+`themes/soshellofriend/layouts/partials/preload-images.html` emits
+`<link rel="prefetch">` tags for every ad brand's image variants so the browser
+starts fetching them before the ad partial itself renders further down the page.
+Every brand actually used in the `random-lazy.html` / `random-eager.html` /
+`random-eager-floating.html` rotation pools should have a corresponding block
+here (Presearch, OrangeWebsite, Pawnsapp, Earnapp, Amazon Audible,
+Traffmonetizer, StartMail, Bitdefender, STS Collective, RayHunter, FlockYou,
+Eye Spy, and Signal and Steel, as of 2026-09).
+
+**The `resources.Get` path and every `.Resize` call's dimension/format string
+must be copy-pasted byte-for-byte from the ad partial into the preload block.**
+Hugo's resource cache keys a resized image by its exact `.Resize` argument
+string, so `"468x60 webp q90"` and `"468x60 webp q80"` are two different cache
+entries even though they look almost identical. If the preload block uses a
+different resize string than the ad partial, the `<link rel="prefetch">`
+warms a resource the ad never actually requests, and the real ad image is
+still fetched cold. Verify alignment after adding a new preload block by
+building locally and confirming the prefetched filename
+(`<stem>_<width>x<height>.webp`) appears both in the `<link rel="prefetch">`
+tag and in the ad partial's own rendered `<picture>`/`<img>` markup on the
+same built page.
+
+When a brand has more than one distinct ad partial (STS Collective's
+`stscollective`, `rayhunter`, `flockyou`, and `eyespy` are four separate
+partials sharing one `img/ads/stscollective/` and three sibling `img/ads/`
+directories; Signal and Steel has a square/mpu partial and a separate
+728x90-only banner partial), give each partial its own preload block. Do not
+assume one block covers a whole brand family just because the CTA styling is
+shared.

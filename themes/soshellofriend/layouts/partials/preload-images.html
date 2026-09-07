@@ -233,6 +233,190 @@
 
 <!-- END Preload and Prefetch Bitdefender Ad Images -->
 
+<!-- Preload and Prefetch STS Collective Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/stscollective/stscollective_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/stscollective/stscollective_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/stscollective/stscollective_728x90_ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- Preload and Prefetch STS Collective Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/stscollective/stscollective_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch STS Collective Ad Images -->
+
+<!-- Preload and Prefetch RayHunter Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/rayhunter/rayhunter_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/rayhunter/rayhunter_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/rayhunter/rayhunter_728x90_ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- Preload and Prefetch RayHunter Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/rayhunter/rayhunter_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch RayHunter Ad Images -->
+
+<!-- Preload and Prefetch FlockYou Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/flockyou/flockyou_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/flockyou/flockyou_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/flockyou/flockyou_728x90_ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- Preload and Prefetch FlockYou Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/flockyou/flockyou_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch FlockYou Ad Images -->
+
+<!-- Preload and Prefetch Eye Spy Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/eyespy/eyespy_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/eyespy/eyespy_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/eyespy/eyespy_728x90_ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- Preload and Prefetch Eye Spy Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/eyespy/eyespy_ad_320x250.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch Eye Spy Ad Images -->
+
+<!-- Preload and Prefetch Signal and Steel Ad Images -->
+{{ $tinysrc := resources.Get "img/ads/signalandsteel/signalandsteel-ad.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "300x250 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/signalandsteel/signalandsteel-ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $mediumsrc := resources.Get "img/ads/signalandsteel/signalandsteel-ad.webp" }}
+{{ $mediumsrcpermalink := replace $mediumsrc.RelPermalink ".webp" "" }}
+{{ $medium := ($mediumsrc.Resize "728x90 webp q90") }}
+  {{ $mediumfilename := printf "%s_%dx%d.%s" $mediumsrcpermalink $medium.Width $medium.Height "webp" | urlize }}
+  {{ $mediumrenamedimage := $medium | resources.Copy $mediumfilename }}
+  {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
+  <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- Preload and Prefetch Signal and Steel Floating Ad Image -->
+{{ $tinysrc := resources.Get "img/ads/signalandsteel/signalandsteel-ad.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "255x212 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}   
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="high" media="(min-width: 900px)"/>
+<!-- END Preload and Prefetch Signal and Steel Ad Images -->
+
+<!-- Preload and Prefetch Signal and Steel Banner Ad Images -->
+{{ $bannersrc := resources.Get "img/ads/signalandsteel/signalandsteel_728x90_ad.webp" }}
+{{ $bannersrcpermalink := replace $bannersrc.RelPermalink ".webp" "" }}
+{{ $banner := ($bannersrc.Resize "728x90 webp q90") }}
+  {{ $bannerfilename := printf "%s_%dx%d.%s" $bannersrcpermalink $banner.Width $banner.Height "webp" | urlize }}
+  {{ $bannerrenamedimage := $banner | resources.Copy $bannerfilename }}
+  {{ $optimizedbanner := $bannerrenamedimage.Permalink }}   
+{{ $smallsrc := resources.Get "img/ads/signalandsteel/signalandsteel_728x90_ad.webp" }}
+{{ $smallsrcpermalink := replace $smallsrc.RelPermalink ".webp" "" }}
+{{ $small := ($smallsrc.Resize "468x60 webp q90") }}
+  {{ $smallfilename := printf "%s_%dx%d.%s" $smallsrcpermalink $small.Width $small.Height "webp" | urlize }}
+  {{ $smallrenamedimage := $small | resources.Copy $smallfilename }}
+  {{ $optimizedsmall := $smallrenamedimage.Permalink }}   
+{{ $tinysrc := resources.Get "img/ads/signalandsteel/signalandsteel_728x90_ad.webp" }}
+{{ $tinysrcpermalink := replace $tinysrc.RelPermalink ".webp" "" }}
+{{ $tiny := ($tinysrc.Resize "320x40 webp q90") }}
+  {{ $tinyfilename := printf "%s_%dx%d.%s" $tinysrcpermalink $tiny.Width $tiny.Height "webp" | urlize }}
+  {{ $tinyrenamedimage := $tiny | resources.Copy $tinyfilename }}
+  {{ $optimizedtiny := $tinyrenamedimage.Permalink }}  
+  <link rel="prefetch" href="{{ $optimizedbanner }}" fetchpriority="low" media="(min-width: 728px)"/>
+  <link rel="prefetch" href="{{ $optimizedsmall }}" fetchpriority="low" media="(max-width: 727px) and (min-width: 468px)"/>
+  <link rel="prefetch" href="{{ $optimizedtiny }}" fetchpriority="low" media="(max-width: 467px) and (min-width: 420px)"/>
+<!-- END Preload and Prefetch Signal and Steel Banner Ad Images -->
+
 <!-- Preload and Prefetch Cover Images on List Pages -->
 {{- if .IsSection -}}
     {{ range .Paginator.Pages }}
