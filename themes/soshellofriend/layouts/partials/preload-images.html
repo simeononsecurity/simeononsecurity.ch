@@ -257,7 +257,7 @@
             {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
             {{ $large := ($cover.Resize "1920x webp q90") }}
             {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
-            {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+            {{ $largerenamedimage := $large | resources.Copy $largefilename }}
             {{ $optimizedlarge := $largerenamedimage.Permalink}} 
                 <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>    
                 <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
@@ -291,7 +291,7 @@
     {{ $optimizedmedium := $mediumrenamedimage.Permalink }}
     {{ $large := ($cover.Resize "1920x webp q90") }}
     {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
-    {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+    {{ $largerenamedimage := $large | resources.Copy $largefilename }}
     {{ $optimizedlarge := $largerenamedimage.Permalink}} 
         <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>
         <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(min-width: 731px)"/>
@@ -334,7 +334,7 @@
         {{ $optimizedmedium := $mediumrenamedimage.Permalink }} 
         {{ $large := ($cover.Resize "1920x webp q90") }}
         {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
-        {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+        {{ $largerenamedimage := $large | resources.Copy $largefilename }}
         {{ $optimizedlarge := $largerenamedimage.Permalink}} 
           <link rel="prefetch" href="{{ $optimizedlarge }}" fetchpriority="low" media="(min-width: 1080px)"/>
           <link rel="prefetch" href="{{ $optimizedmedium }}" fetchpriority="low" media="(max-width: 1079px) and (min-width: 731px)"/>

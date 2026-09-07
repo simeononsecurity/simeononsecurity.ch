@@ -41,6 +41,8 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `10-cover-image-generation.md` | Cover and inline image generation pipeline (`generate_cover_images.py`) |
 | `11-inline-image-strategy.md` | When and how to break up walls of text with inline images |
 | `12-writeups-format.md` | CTF/Sherlock/challenge writeup skeleton, redaction rules, and fidelity checks |
+| `13-image-webp-conversion-pipeline.md` | Repo-wide PNG/JPG to WebP conversion pipeline |
+| `14-xml-feed-and-sitemap-validation.md` | Validating Hugo's RSS/sitemap/news/image-sitemap XML outputs and known fixed bugs |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create

@@ -64,12 +64,12 @@
         {{ $optimizedmedium := $mediumrenamedimage.Permalink}}
       {{ $large := ($cover.Resize "1920x webp q90") }}
         {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
-        {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+        {{ $largerenamedimage := $large | resources.Copy $largefilename }}
         {{ $optimizedlarge := $largerenamedimage.Permalink}} 
         <picture>
           <source 
-            srcset="{{ $optimizedmedium }} 1920w, {{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
-            sizes="(min-width: 4096px) 731px, (min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px"
+            srcset="{{ $optimizedlarge }} 1920w, {{ $optimizedmedium }} 731w, {{ $optimizedsmall }} 480w, {{ $optimizedtiny }} 240w" 
+            sizes="(min-width: 4096px) 1920px, (min-width: 2560px) 731px, (min-width: 780px) 480px, (min-width: 384px) 240px"
             media="(min-width: 200px)">
           <img src="{{ $optimizedtiny }}"
             alt="{{ .context.Params.CoverAlt | plainify | default .context.Title }}"

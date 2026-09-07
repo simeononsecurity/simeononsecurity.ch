@@ -23,7 +23,7 @@
     
     {{ with .Site.Params.RssImage }}
     <image>
-      <url>{{ printf "%s%s" $.Permalink $.Site.Params.RssImage }}</url>
+      <url>{{ . | absURL }}</url>
       <title>SimeonOnSecurity</title>
       <link>{{ $.Permalink }}</link>
     </image>
@@ -56,7 +56,7 @@
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ end }}
 
-    {{ with .OutputFormats.Get "RSS" }}
+    {{ with .OutputFormats.Get "smartnews" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
 

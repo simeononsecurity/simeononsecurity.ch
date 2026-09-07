@@ -1,7 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-{{ range .Site.RegularPages }}{{ if ne .Params.sitemap_exclude true }}
+{{ range .Site.RegularPages }}{{ if ne .Params.sitemap_ignore true }}
   {{ $detectedimage := "" }}
   {{ $og_image := "" }}
   {{ if .Params.cover }}
@@ -52,7 +52,7 @@
       {{ $optimizedmedium = $mediumrenamedimage.Permalink }}
       {{ $large := ($cover.Resize "1920x webp q90") }}
       {{ $largefilename := printf "%s_%dx%d.%s" $permalink $large.Width $large.Height "webp" | urlize }}
-      {{ $largerenamedimage := $large | resources.Copy $mediumfilename }}
+      {{ $largerenamedimage := $large | resources.Copy $largefilename }}
       {{ $optimizedlarge = $largerenamedimage.Permalink}} 
     {{ end }}
   {{ end }}
@@ -61,33 +61,27 @@
     {{- if .Permalink -}}
     <url>
       <loc>{{ .Permalink | safeURL }}</loc>
+      {{/* image:title and image:caption are deprecated by Google (no longer
+           processed) as of the 2025 image-sitemap docs update. image:loc is
+           the only tag Google still requires/reads, so it is the only child
+           emitted here. */}}
       {{ if $og_image }}
         <image:image>
           <image:loc>{{ $og_image | safeURL }}</image:loc>
-          <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
-          <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
         </image:image>
       {{ end }}
       {{ if $cover }}
       <image:image>
         <image:loc>{{ $optimizedtiny | safeURL }}</image:loc>
-          <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
-          <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ $optimizedsmall | safeURL }}</image:loc>
-        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
-        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ $optimizedmedium | safeURL }}</image:loc>
-        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
-        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ $optimizedlarge | safeURL }}</image:loc>
-        <image:title>{{ if .Page.Params.coverAlt }}{{ .Page.Params.coverAlt | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:title>
-        <image:caption>{{ if .Page.Params.coverCaption }}{{ .Page.Params.coverCaption | safeURL }}{{ else }}{{ .Page.Title | safeURL }}{{ end }}</image:caption>
       </image:image>
       {{ end }}
       {{ if .Params.featuredImage }}

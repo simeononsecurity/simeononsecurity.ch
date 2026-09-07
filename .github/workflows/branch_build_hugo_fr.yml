@@ -21,6 +21,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
+        with:
+          # enableGitInfo (used below) needs full history to compute an
+          # accurate per-file Lastmod. actions/checkout defaults to a shallow
+          # (depth 1) clone, which collapses every page's Lastmod to the same
+          # commit and corrupts sitemap.xml <lastmod> and news.xml recency
+          # filtering. See .clinerules note on shallow clones + enableGitInfo.
+          fetch-depth: 0
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
