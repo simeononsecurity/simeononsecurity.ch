@@ -180,13 +180,22 @@
 <meta name="coverage" content="Worldwide" />
 <meta name="description" content="{{ $desc }}" />
 <meta name="distribution" content="Global" />
-<meta name="googlebot" content="index,follow" />
 <meta name="imagemode" content="force" />
 <meta name="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ $count := 0 }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ if lt $count 20 }}{{ printf "%s," $term }}{{ end }}{{ $count = add $count 1 }}{{ end }}{{ end }}{{ end }}" />
 <meta name="msapplication-TileColor" content="#000000" />
 <meta name="msapplication-tap-highlight" content="no" />
 <meta name="revisit-after" content="1 days" />
+{{/* content/admin/index.html sets robotsdisallow: true in front matter as a
+     canary-token honeypot page. Honor it here so the page is actually kept
+     out of search indexes, matching the intent already expressed by
+     sitemap_ignore on the same page and robots.txt's Disallow: /admin. */}}
+{{ if .Params.robotsdisallow }}
+<meta name="googlebot" content="noindex,nofollow" />
+<meta name="robots" content="noindex, nofollow" />
+{{ else }}
+<meta name="googlebot" content="index,follow" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+{{ end }}
 
 <meta name="theme-color" content="#000000" />
 <meta name="url" content="{{ .Permalink }}" />

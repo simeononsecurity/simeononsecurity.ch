@@ -74,6 +74,12 @@
   {{ $randomAd = index $shuffledAds 0 }}
 {{ end }}
 
-{{ if and (not .IsHome) (.IsPage)}}
+{{/* .IsPage restricted this to single article pages only, silently
+     skipping every section/tag/taxonomy list page (list.html has no
+     dedicated section/taxonomy/term template, so all of those render
+     through here). Section pages are real traffic entry points and should
+     carry the same eager banner as single pages; only the homepage is
+     excluded. */}}
+{{ if not .IsHome }}
     {{ partial (printf "ads/%s" $randomAd) . }}
 {{ end }}

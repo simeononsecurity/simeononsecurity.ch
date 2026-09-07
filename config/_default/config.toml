@@ -8,7 +8,21 @@ canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
-relativeURLs = true
+# relativeURLs was true: this rewrites every literal absolute href/src (e.g.
+# "/js/sw-prefetch.js") into a depth-relative path ("./js/x.js" at the site
+# root, "../js/x.js" one level deep, "../../js/x.js" two levels deep, etc).
+# Root-relative template helpers (.RelPermalink, relURL, .Permalink, absURL)
+# are completely unaffected either way; only the literal HTML attribute
+# rewriting changes. With relativeURLs on, any client (bot, crawler, or a
+# custom 404 page served at an arbitrary deep URL by Netlify) that resolves
+# one of those relative paths against the wrong base URL produces an
+# ever-deepening, wrong path (confirmed in production logs: requests for
+# /tags/.net-framework-4.0/writeups/guides/practice-tests/recommendhome/
+# checklists/js/sw-prefetch.js). Disabling it makes every emitted href/src
+# root-relative and depth-independent, matching what the source templates
+# (extended_head.html, prepend_head.html) already intended by hardcoding a
+# leading slash.
+relativeURLs = false
 enableGitInfo = true
 rssLimit = 25
 refLinksNotFoundURL = "simeononsecurity.com"

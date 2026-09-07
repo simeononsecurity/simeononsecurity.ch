@@ -8,8 +8,40 @@
 User-agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=yes
 Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
+Crawl-delay: 10
 Disallow: /admin
 Disallow: /404/
+
+# SEO / backlink-analysis crawlers (heavily rate-limited): no referral
+# traffic or indexing benefit, kept in sync with the additions in
+# static/robots.txt (the file actually served, see .clinerules/13).
+User-agent: AhrefsBot
+User-agent: AhrefsSiteAudit
+User-agent: SemrushBot
+User-agent: SemrushBotBacklinks
+User-agent: SemrushBotBacklinkAudit
+User-agent: SemrushBotLinkBuilding
+User-agent: SiteAuditBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: dotbot
+User-agent: PetalBot
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: DataForSEO
+User-agent: SerpstatBot
+User-agent: SEOkicks
+User-agent: rogerbot
+User-agent: Barkrowler
+User-agent: linkdexbot
+User-agent: spbot
+User-agent: DomainCrawler
+User-agent: ZoomBot
+User-agent: AwarioBot
+User-agent: AwarioSmartBot
+Content-Signal: ai-train=no, search=no, ai-input=no
+Content-Signal: /img/ ai-train=no, search=no, ai-input=no
+Crawl-delay: 30
 
 # Archive bots - Block completely
 User-agent: ia_archiver
@@ -171,11 +203,6 @@ Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # Specific Bot Rules with Delays
-User-agent: MJ12bot
-Content-Signal: ai-train=no, search=yes, ai-input=yes
-Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
-Crawl-delay: 10
-
 User-agent: Nutch
 Disallow: /
 

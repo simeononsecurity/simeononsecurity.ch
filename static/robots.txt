@@ -17,12 +17,76 @@
 User-agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=yes
 Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
+# Baseline throttle for every bot not matched by a more specific group below.
+# This is a general slow-down, not a block: any crawler not explicitly
+# named elsewhere in this file (including ones not yet on any public bot
+# list) gets at least 10 seconds between requests.
+Crawl-delay: 10
 Disallow: /admin
 Disallow: /404/
 Disallow: /quiz-dicts/
 Disallow: /presskit.zip
 Disallow: /manifest-large.json
 Disallow: /icons.json
+
+# ---- SEO / backlink-analysis crawlers (heavily rate-limited) ----
+# These bots build commercial backlink/rank-tracking indexes. They generate
+# meaningful bandwidth and server load but no referral traffic or indexing
+# benefit to this site, so they get the same heavy throttle as the AI
+# scrapers below. List compiled from Cloudflare Radar's bot traffic
+# directory (2026-09) cross-referenced against this site's own traffic logs.
+User-agent: AhrefsBot
+User-agent: AhrefsSiteAudit
+User-agent: SemrushBot
+User-agent: SemrushBot-BA
+User-agent: SemrushBot-SI
+User-agent: SemrushBot-SWA
+User-agent: SemrushBot-CT
+User-agent: SemrushBotBacklinks
+User-agent: SemrushBotBacklinkAudit
+User-agent: SemrushBotLinkBuilding
+User-agent: SemrushBotSI
+User-agent: SemrushBotSwa
+User-agent: SemrushBotSocial
+User-agent: SemrushBot-OCOB
+User-agent: SiteAuditBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: dotbot
+User-agent: PetalBot
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: SerpstatBot
+User-agent: SEOkicks
+User-agent: SEOkicks-Robot
+User-agent: rogerbot
+User-agent: Barkrowler
+User-agent: linkdexbot
+User-agent: spbot
+User-agent: DomainCrawler
+User-agent: BacklinkCrawler
+User-agent: ZoomBot
+User-agent: Zoombot
+User-agent: BrightEdge Crawler
+User-agent: BUbiNG
+User-agent: Cegbot
+User-agent: DataForSEO
+User-agent: AwarioBot
+User-agent: AwarioSmartBot
+User-agent: AwarioRssBot
+User-agent: BLEXBotMobile
+User-agent: LinkpadBot
+User-agent: Cocolyzebot
+User-agent: OutclicksBot
+User-agent: Aboundexbot
+Content-Signal: ai-train=no, search=no, ai-input=no
+Content-Signal: /img/ ai-train=no, search=no, ai-input=no
+Crawl-delay: 30
+Disallow: /quiz-dicts/
+Disallow: /presskit.zip
+Disallow: /manifest-large.json
+Disallow: /icons.json
+Allow: /
 
 # ---- Block archival bots completely ----
 User-agent: ia_archiver

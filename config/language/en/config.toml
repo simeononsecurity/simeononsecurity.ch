@@ -9,7 +9,11 @@ canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
-relativeURLs = true
+# See config/_default/config.toml for why this is false: relativeURLs=true
+# rewrites absolute href/src into depth-relative paths that break when
+# resolved against the wrong base URL (e.g. Netlify's custom 404.html served
+# at an arbitrary deep request path).
+relativeURLs = false
 enableGitInfo = true
 rssLimit = 25
 refLinksNotFoundURL = "simeononsecurity.com"
