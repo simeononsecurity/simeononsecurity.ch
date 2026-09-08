@@ -1656,6 +1656,20 @@ svg {
   background-color: #333;
   color: #fff;
 }
+.search-results-empty,
+.search-results-error {
+  color: var(--color-secondary);
+  padding: 20px 0;
+}
+.search-results-error {
+  color: var(--error, #cc4444);
+}
+mark {
+  background: #ffe066;
+  color: #222;
+  border-radius: 2px;
+  padding: 0 1px;
+}
 #related-section .related-content {
   margin-top: 32px;
 }
