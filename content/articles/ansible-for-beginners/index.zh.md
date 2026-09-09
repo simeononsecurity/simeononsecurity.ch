@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "学习 Ansible 的基础知识，这是一款开源自动化工具，通过声明式语言简化 IT 基础架构管理。"
 tags: ["Ansible 简介", "IT 基础设施管理自动化", "Ansible 基础知识", "IT 基础设施自动化", "配置管理", "应用程序部署", "供应", "持续交付", "安全合规性", "编排", "YAML", "Ansible 模块", "角色", "最佳做法", "版本控制", "测试", "红帽", "系统管理员", "利纳克斯", "MacOS", "视窗", "Ansible 安装", "Ansible 清单", "Ansible 操作手册", "Ansible 模块", "Ansible 角色", "Ansible 最佳实践", "Ansible 测试", "IT 基础设施自动化工具", "Ansible 教程", "基础设施管理自动化"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "一个卡通人物坐在办公桌前，周围是服务器和线缆，电脑屏幕上显示着 Ansible 的标识，他微笑着完成自动化任务。"
 coverCaption: ""
 ---

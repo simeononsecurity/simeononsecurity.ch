@@ -6,7 +6,7 @@ draft: false
 description: "Enhance your understanding of physical security and its significance in network protection with this comprehensive Network+ course. Learn best practices for implementation, switchport security, password complexity enforcement, and more."
 genre: ["Network PLus Certification Course", "Physical Security", "Network Protection", "IT Security", "Cybersecurity", "Data Security", "Network Infrastructure", "Access Control", "Network Devices", "IT Training"]
 tags: ["physical security", "network pluis certification exam", "best practices", "switchports", "password complexity", "DHCP snooping", "default passwords", "VLAN security", "access control", "surveillance systems", "security guards", "training", "perimeter security", "alarms", "incident response", "intrusion detection systems", "network devices", "MAC addresses", "cybersecurity", "IT infrastructure", "IT security", "data breaches", "network protection", "network security", "network protocols", "network administration", "security awareness", "network vulnerabilities", "security-conscious culture", "security measures"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_lock_protect.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_lock_protect.webp"
 coverAlt: "A symbolic illustration showing a lock protecting network infrastructure."
 coverCaption: "Protect your network with robust physical security measures."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe informatie over bedreigingen de cyberbeveiliging verbetert door cyberaanvallen te beperken en erop te reageren."
 tags: ["Informatie over bedreigingen", "Reactie op incidenten", "Cyberbeveiliging", "Mitigatie", "Cyberaanvallen", "Gegevensanalyse", "Informatie Systemen", "Risicobeheer", "Beoordeling van de kwetsbaarheid", "Detectiemogelijkheden", "Veiligheidscontroles", "Strategische Intelligentie", "Tactische intelligentie", "Operationele Intelligentie", "Bedreigingslandschap", "Opkomende trends", "Veiligheidsbewustzijn", "Digitaal Forensisch Onderzoek", "Cyberbedreigingen", "Dark Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Een cartoon van een cyberbeveiligingsteam dat gegevens analyseert en reageert op een aanval terwijl een vergrootglas boven hen zweeft."
 coverCaption: ""
 ---

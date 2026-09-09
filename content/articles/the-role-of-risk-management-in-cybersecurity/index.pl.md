@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj znaczenie zarządzania ryzykiem w cyberbezpieczeństwie i dowiedz się, jak stworzyć program, który sprawdzi się w Twojej firmie."
 tags: ["cybersecurity", "zarządzanie ryzykiem", "postawa bezpieczeństwa", "ocena ryzyka", "ograniczanie ryzyka", "monitorowanie ryzyka", "zagrożenia", "podatności", "bezpieczeństwo informacji", "ochrona danych", "zgodność", "cyberataki", "podejmowanie decyzji", "obniżenie kosztów", "ciągłość działania", "analiza ryzyka", "identyfikacja ryzyka", "kontrola ryzyka", "postępowanie w przypadku zagrożenia", "ciągłe doskonalenie"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Tarcza z zamkiem i kluczem symbolizuje cyberbezpieczeństwo, a umieszczona nad nią lupa - zarządzanie ryzykiem."
 coverCaption: ""
 ---

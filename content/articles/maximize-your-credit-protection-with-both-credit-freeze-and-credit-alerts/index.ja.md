@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "クレジット・フリーズと詐欺アラートを組み合わせることで、不正アクセスからあなたの信用を守ることができます。"
 tags: ["クレジットプロテクション", "クレジットフリーズ", "詐欺注意報", "ふせいごうアクセス", "信用情報", "こじんじょうほうぬすみ", "エクイファックス", "エクスペリアン", "トランスユニオン", "信用情報機関", "最大保護"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "信用保護を表す錠前のマークがついたクレジットカードを持つ人。"
 coverCaption: ""
 ---

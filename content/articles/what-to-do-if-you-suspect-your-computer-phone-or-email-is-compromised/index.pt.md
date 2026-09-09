@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda as etapas essenciais a serem seguidas se você suspeitar que seu e-mail, área de trabalho ou telefone foi invadido ou comprometido, incluindo alteração de senhas, verificação de malware e limpeza do dispositivo."
 tags: ["segurança do dispositivo", "Proteção de dados", "dispositivo comprometido", "e-mail hackeado", "telefone hackeado", "malware", "remoção de vírus", "senha de segurança", "backup de dados", "autenticação de dois fatores", "cíber segurança", "segurança online", "privacidade digital", "roubo de identidade", "fraude online", "suporte técnico", "Conserto de computador", "recuperação de dados", "serviços de TI", "tecnologia"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Uma imagem de desenho animado de uma pessoa parada na frente de um computador ou telefone com uma expressão preocupada, enquanto um hacker de desenho animado espreita ao fundo."
 coverCaption: ""
 ---

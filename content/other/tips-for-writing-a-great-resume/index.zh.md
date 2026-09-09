@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "了解创建有效简历的最佳实践，包括字体使用、简历类型、关键字优化、处理空白和优化布局。"
 tags: ["简历写作", "简历提示", "字体使用", "简历结构", "简历类型", "按时间顺序排列的简历", "功能简历", "组合简历", "关键词优化", "简历上的参考资料", "简历声明", "处理裁员", "处理简历中的空白", "简历上的毕业年份", "上市认证", "恢复布局", "简洁的简历", "简历中的空白", "简历定制", "专业简历"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "一个彩色的卡通形象，一个人拿着放大镜的简历，象征着在优化简历时对细节的关注。"
 coverCaption: ""
 ---

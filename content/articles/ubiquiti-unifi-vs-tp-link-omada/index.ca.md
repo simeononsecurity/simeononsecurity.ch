@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Compareu els sistemes de xarxa Ubiquiti Unifi i TP-Link Omada per triar el més adequat per a les vostres necessitats."
 tags: ["Ubiquiti", "TP-Link", "treball en xarxa", "Unifi", "Omada", "gestió", "maquinari", "suport", "normatives", "característiques", "control", "interfície", "valor", "fiabilitat", "rendiment", "escalabilitat", "fàcil gestió", "seguretat", "fixació de preus", "inconvenients", "Controlador Unifi", "Controlador Omada", "comparació de maquinari", "atenció al client", "ofertes de productes addicionals", "Ubiquiti Unifi vs TP-Link Omada", "gestió de xarxes basada en web", "solucions de xarxa escalables", "funcions de seguretat de la xarxa", "maquinari de xarxa fiable", "preus competitius per a les xarxes"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "Una il·lustració de pantalla dividida d'una xarxa complexa per un costat, amb una interfície fàcil d'utilitzar per l'altre"
 coverCaption: ""
 ---

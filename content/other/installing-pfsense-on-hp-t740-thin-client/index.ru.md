@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Узнайте, как настроить pfSense на тонком клиенте HP t740 и как устранять потенциальные проблемы, такие как проблемы с зависанием и обнаружением SSD."
 tags: ["pfSense", "OPNsense", "ЗакаленнаяBSD", "HP т740", "Тонкий клиент", "домашний сервер", "PPPoE", "FreeBSD", "загрузочная подсказка", "loader.conf.local", "нано редактор", "Обнаружение SSD", "Твердотельный накопитель M.2", "Western Digital", "Поиск неисправностей", "после установки", "UART", "ESXi", "Проксмокс"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Карикатура, на которой волшебник произносит заклинание, чтобы починить зависший компьютер, с речевым пузырем, говорящим, что проблема решена"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"

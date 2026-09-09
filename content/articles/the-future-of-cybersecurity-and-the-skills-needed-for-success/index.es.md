@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las habilidades esenciales necesarias para tener éxito en el campo de la ciberseguridad, en constante evolución, y conozca la creciente importancia de la ciberseguridad en la industria tecnológica."
 tags: ["ciberseguridad", "futuro de la ciberseguridad", "habilidades para el éxito", "pensamiento crítico", "comunicación", "competencias técnicas", "gestión de riesgos", "desarrollo profesional", "La IA en la ciberseguridad", "seguridad en la nube", "amenazas cibernéticas", "ciberdelincuencia", "seguridad de la información", "profesionales de la ciberseguridad", "privacidad de los datos", "tecnología", "seguridad digital", "ciberdefensa", "ciberataques", "Seguridad informática"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Imagen de dibujos animados de una persona con traje de superhéroe que sostiene un escudo con la palabra Ciberseguridad, con un paisaje urbano y pantallas de ordenador de fondo."
 coverCaption: ""
 ---

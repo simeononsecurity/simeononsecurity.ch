@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Lernen Sie die wichtigsten Schritte für eine erfolgreiche Karriere im Bereich der Cybersicherheit kennen, vom Aufbau einer soliden Grundlage bis zur Erkundung verschiedener Bereiche und Zertifizierungen."
 tags: ["Karriere im Bereich Cybersicherheit", "Einstieg in die Cybersicherheit", "Grundlage schaffen", "Netzwerk-Grundlagen", "Betriebssysteme", "Programmierkenntnisse", "Unternehmenssystemverwaltung", "blaues Team", "rotes Team", "violette Mannschaft", "Zertifizierungen", "kontinuierliches Lernen", "erster Job im Bereich Cybersicherheit", "Portfolioaufbau", "Vernetzung für Cybersicherheit", "Praktika im Bereich Cybersicherheit", "CompTIA-Sicherheit", "Zertifizierter Ethischer Hacker CEH", "Zertifizierter Sicherheitsexperte für Informationssysteme CISSP", "Konferenzen zur Cybersicherheit", "Trends in der Cybersicherheit", "praktische Erfahrung", "Cybersicherheits-Projekte", "Treffen zur Cybersicherheit", "Einstiegsstufe in die Cybersicherheit", "Abwehr von Cyber-Bedrohungen", "Cybersicherheitsfachleute", "berufliche Entwicklung", "Cybersicherheitsfähigkeiten", "Cybersicherheitsausbildung"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "Eine Gruppe von Fachleuten für Cybersicherheit, die gemeinsam an der Sicherung digitaler Systeme und Netze arbeiten."
 coverCaption: "Ein vereintes Team von Cybersicherheitsexperten arbeitet zusammen, um digitale Systeme vor Cyberbedrohungen zu schützen."
 ---

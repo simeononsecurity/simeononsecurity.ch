@@ -6,7 +6,7 @@ draft: false
 description: "Visual Studio Code、Visual Studio Community、Visual Studio Enterpriseの違いを確認し、開発ニーズに合った最適な選択肢を選びましょう。"
 genre: ["ソフトウェア開発", "統合開発環境(IDE)", "マイクロソフトの開発ツール", "コードエディター", "開発プラットフォーム", "ソフトウェア比較", "プログラミング言語", "共同開発", "エンタープライズソフトウェア開発", "コードデバッギング"]
 tags: ["Visual Studioコード", "Visual Studioコミュニティ", "Visual Studio Enterprise", "アイディーイー", "コードエディター", "ソフトウェア開発", "マイクロソフト", "プログラミング言語", "共同開発", "エンタープライズ開発", "パフォーマンス・プロファイリング", "デバッギング", "テスト", "アーキテクチャーの解析", "コードメトリクス", "バージョン管理", "ソフトウェア比較", "クロスプラットフォーム", "エクステンション", "統合端子", "Azure Integration（アジュール・インテグレーション", "SQL Server", "Azure DevOps", "クラウド開発", "継続的インテグレーション", "継続的デリバリー", "開発ワークフロー", "生産性", "開発ツール", "ソフトウェア工学"]
-cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp"
 coverAlt: "Visual Studio CodeとVisual Studio Communityを使用する開発者が、共同でコード開発を行う様子を描いた漫画イラストです。"
 coverCaption: "Visual Studio CodeとVisual Studio Communityで開発のポテンシャルを引き出します。"
 ---

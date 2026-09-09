@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra por qué las VPN pueden no ser útiles para los usuarios estándar en un mundo en el que todo utiliza HTTPS y cómo confiar en su proveedor de VPN."
 tags: ["VPN", "Privacidad en línea", "Seguridad en Internet", "Ataques MITM", "Redes privadas virtuales", "Ciberseguridad", "Seguridad en línea", "Cifrado", "HTTPS", "Protección de datos", "Servicios de terceros", "Riesgos para la intimidad", "ISP", "Contenido georrestringido", "Censura en Internet", "Wi-Fi público", "Protección de datos", "Protección en línea", "Seguridad web", "Proveedores de VPN"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "Un usuario de ordenador de dibujos animados navega por Internet, mientras aparece un símbolo de candado gigante para proteger la intimidad del usuario."
 coverCaption: ""
 ---

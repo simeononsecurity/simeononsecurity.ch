@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem Artikel werden die Gefahren der Aufbewahrung von Kryptowährungen an Börsen erörtert. Es wird erklärt, warum dies der Aufbewahrung von Geld in einer Matratze gleichkommt, und es werden die Vorteile der Verwendung einer Hardware-Wallet zur sicheren Aufbewahrung hervorgehoben."
 tags: ["Lagerung von Kryptowährungen", "Wechselkursrisiken", "Hardware-Geldbörse", "Cybersecurity", "Investieren in Krypto", "Sichere Lagerung", "Private Schlüssel", "Tragbare Geldbörsen", "Staatliche Regulierung"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Eine Hardware-Wallet mit einem Vorhängeschloss und einer Kette, die die Sicherheit der Speicherung von Kryptowährungen in einer Hardware-Wallet symbolisiert."
 coverCaption: ""
 ---

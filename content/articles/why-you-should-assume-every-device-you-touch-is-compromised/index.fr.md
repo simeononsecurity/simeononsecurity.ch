@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez pourquoi il est essentiel de supposer que chaque appareil est déjà compromis et apprenez des mesures pratiques pour renforcer votre sécurité numérique dans le monde interconnecté d'aujourd'hui."
 tags: ["sécurité des appareils", "cybersécurité", "sécurité numérique", "cybermenaces", "piratage", "compromission de l'appareil", "protection des données", "navigation sécurisée", "la sécurité des données personnelles", "l'authentification", "sécurité du mot de passe", "protection de la vie privée dans les médias sociaux", "communication sécurisée", "hygiène des appareils", "sauvegarde des données", "meilleures pratiques en matière de cybersécurité", "vie privée numérique", "sensibilisation à la cybersécurité", "sécurité en ligne", "sécurité internet", "vie privée en ligne", "cyberdéfense", "cyber-résilience", "l'état d'esprit en matière de cybersécurité", "les mesures de sécurité", "prévention des cybermenaces", "stratégies de cybersécurité", "confidentialité des données", "éducation à la cybersécurité", "Ressources en matière de cybersécurité"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Illustration symbolique d'un bouclier avec des dispositifs interconnectés et des serrures, représentant l'importance d'assumer la compromission des dispositifs et de renforcer la sécurité numérique."
 coverCaption: ""
 ---

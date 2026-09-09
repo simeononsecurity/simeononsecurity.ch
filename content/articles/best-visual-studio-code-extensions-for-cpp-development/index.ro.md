@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți cele mai bune extensii C++ pentru Visual Studio Code, care vă vor îmbunătăți experiența de codare și vă vor spori productivitatea."
 genre: ["Programare", "Dezvoltarea de software", "C plus plus plus Dezvoltare", "Visual Studio Code", "Editori de cod", "Productivitate", "Instrumente de dezvoltare", "IDE", "Optimizarea codului", "Eficiența codului"]
 tags: ["cele mai bune extensii Visual Studio Code pentru C plus plus plus", "cele mai bune extensii C plus plus plus pentru Visual Studio Code", "C plus plus Intellisense", "C plus plus TestMate", "Instrumente CMake", "Comentarii mai bune", "completarea codului", "analiza codului", "testarea unitară", "integrarea sistemului de construcție", "comentarii organizație", "productivitatea codului", "Programare C plus plus plus", "editor de cod", "dezvoltarea codului", "optimizarea codului", "fluxul de lucru de codificare", "instrumente pentru dezvoltatori", "C plus plus instrumente de dezvoltare", "C plus plus IDE", "Editor de cod C plus plus plus", "C plus plus instrumente de productivitate", "Eficiența programării în C plus", "cod de colaborare", "codul de documentare"]
-cover: "/img/cover/A_cartoon_image_showing_a_developer_using_Visu.png"
+cover: "/img/cover/A_cartoon_image_showing_a_developer_using_Visu.webp"
 coverAlt: "O imagine de desen animat care arată un programator care utilizează Visual Studio Code cu cod C++ pe ecran."
 coverCaption: "Superchargează-ți dezvoltarea C++ cu cele mai bune extensii Visual Studio Code Extensions!"
 ---

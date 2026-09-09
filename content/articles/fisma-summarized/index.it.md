@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 fornisce una panoramica completa del Federal Information Security Modernization Act, compresi i suoi componenti chiave, i vantaggi e i requisiti per le agenzie federali."
 tags: ["FISMA", "Sicurezza informatica federale", "Sicurezza delle informazioni", "Gestione del rischio", "Valutazione dei controlli di sicurezza", "Monitoraggio continuo", "Risposta agli incidenti", "Autorizzazione e accreditamento", "Miglioramento della sicurezza delle informazioni", "Migliore gestione del rischio", "Maggiore trasparenza", "Collaborazione rafforzata"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Lo schermo di un computer con un lucchetto, simbolo di sicurezza e protezione delle informazioni, con uno sfondo di codice binario."
 coverCaption: ""
 ---

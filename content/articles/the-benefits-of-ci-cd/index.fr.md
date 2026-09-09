@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les avantages de l'intégration et du déploiement continus (CI CD) dans le développement de logiciels, en améliorant la collaboration, la qualité et la rapidité."
 tags: ["intégration continue", "déploiement continu", "CI CD", "développement de logiciels", "collaboration", "communication", "boucle de rétroaction", "détection des bogues", "qualité des logiciels", "fiabilité", "délai de mise sur le marché", "la gestion des risques", "évolutivité", "flexibilité", "tests automatisés", "développement agile", "DevOps", "productivité de l'équipe", "versions de logiciels", "automatisation du déploiement", "test automation", "livraison rapide de logiciels", "méthodologies agiles", "gestion des versions", "ingénierie logicielle", "équipes agiles", "l'amélioration continue", "tests de logiciels", "pipelines de déploiement", "processus de déploiement", "cycle de développement des logiciels"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Une illustration colorée montrant des développeurs collaborant et déployant des logiciels rapidement et efficacement grâce aux outils et processus de CI CD."
 coverCaption: ""
 ---

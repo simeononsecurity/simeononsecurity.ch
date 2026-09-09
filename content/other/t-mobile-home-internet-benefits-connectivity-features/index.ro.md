@@ -6,7 +6,7 @@ draft: false
 description: "Descoperă beneficiile T-Mobile Home Internet - planuri de mare viteză, planuri de date nelimitate, flexibilitate și integrare perfectă pentru o experiență online fără cusur."
 genre: ["Internet acasă", "Conectivitate", "Telecomunicații", "Servicii de internet", "Soluții fără fir", "Infrastructura de rețea", "Planuri de date", "Satisfacția clienților", "Experiență digitală", "Conectivitate la internet"]
 tags: ["T-Mobile Home Internet", "Internet rapid", "Conectivitate fiabilă", "Date nelimitate", "Planuri flexibile", "Integrare perfectă", "Rețea 4G", "Rețeaua 5G", "Soluții fără fir", "Furnizor de servicii de internet", "Plafoane de date", "Acoperirea rețelei", "Congestia rețelei", "Puterea semnalului", "Conexiune fără fir", "Confidențialitate", "Securitatea parolei", "Securitatea dispozitivelor", "Wi-Fi public", "Resurse de securitate", "Monitorizare continuă", "Reglementări guvernamentale", "FCC", "Neutralitatea rețelei", "Soluții de conectivitate", "Stil de viață digital", "Streaming online", "Munca de acasă", "Jocuri de noroc online", "Inovare digitală"]
-cover: "/img/cover/A_colorful_cartoon_illustration_depicting_a_ha.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_depicting_a_ha.webp"
 coverAlt: "O ilustrație colorată de desen animat care prezintă o familie fericită acasă, înconjurată de diverse dispozitive conectate la T-Mobile Home Internet."
 coverCaption: "Conectivitate fără întreruperi pentru stilul tău de viață digital."
 ---

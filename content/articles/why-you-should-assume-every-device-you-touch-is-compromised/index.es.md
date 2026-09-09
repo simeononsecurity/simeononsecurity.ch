@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra por qué es crucial asumir que cada dispositivo ya está comprometido y aprenda medidas prácticas para mejorar su seguridad digital en el mundo interconectado de hoy."
 tags: ["seguridad de los dispositivos", "ciberseguridad", "seguridad digital", "amenazas cibernéticas", "piratería", "compromiso del dispositivo", "protección de datos", "navegación segura", "seguridad de los datos personales", "autenticación", "seguridad de contraseñas", "social media privacy", "comunicación segura", "higiene del dispositivo", "copia de seguridad de datos", "buenas prácticas de ciberseguridad", "privacidad digital", "concienciación sobre ciberseguridad", "seguridad en línea", "seguridad en internet", "privacidad en línea", "ciberdefensa", "ciberresiliencia", "mentalidad de ciberseguridad", "medidas de seguridad", "prevención de ciberamenazas", "estrategias de ciberseguridad", "privacidad de los datos", "educación en ciberseguridad", "recursos de ciberseguridad"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Ilustración simbólica de un escudo con dispositivos y candados interconectados, que representa la importancia de asumir el compromiso de los dispositivos y reforzar la seguridad digital."
 coverCaption: ""
 ---

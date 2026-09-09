@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この究極のガイドで、CompTIA試験に合格するために必要なすべてのヒントとトリックを手に入れましょう。"
 tags: ["CompTIA試験", "IT検定", "スタディプラン", "模擬試験", "ぎょうせきしつもん", "試験目的", "ITプロフェッショナル", "受検の心得", "がくしゅうきょうざい", "タイムマネージメント", "試験形式", "めくらまし", "アンサーテクニック", "読解力", "批判的思考", "テスト不安", "信頼醸成", "試験対策", "インフォメーションテクノロジー", "キャリアアップ"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "本とノートパソコンで勉強している人がクエスチョンマークに囲まれ、その上にCompTIA認定資格が成功の鍵として描かれている漫画のイメージです。"
 coverCaption: ""
 ---

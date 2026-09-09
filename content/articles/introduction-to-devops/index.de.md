@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie DevOps die Lücke zwischen Entwicklung und Betrieb schließt, die Softwarebereitstellung rationalisiert und die Effizienz maximiert."
 tags: ["DevOps", "Software-Entwicklung", "Operationen", "Zusammenarbeit", "kontinuierliche Integration", "kontinuierliche Bereitstellung", "Infrastruktur als Code", "Überwachung", "Rückkopplungsschleifen", "Markteinführungszeit", "efficiency", "Qualität", "Zuverlässigkeit", "HIPAA", "GDPR", "Compliance", "Sicherheit", "Rechnungsprüfung", "Rückverfolgbarkeit", "Automatisierung", "Kommunikation", "wendig", "CICD", "Softwarebereitstellung", "Software-Lebenszyklus", "Software-Systeme", "Software-Industrie", "Datensicherheit", "Vorschriften", "Software-Aktualisierungen", "Wettbewerbsvorteil", "Datenschutz", "datenschutz", "Entwicklung der Softwarebranche"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Eine Cartoon-Illustration, die zeigt, wie Entwickler und Betriebsexperten zusammenarbeiten. Sie symbolisiert die Brücke zwischen Entwicklung und Betrieb in DevOps."
 coverCaption: ""
 ---

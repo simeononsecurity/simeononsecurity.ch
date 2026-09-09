@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Protégez votre crédit contre tout accès non autorisé en combinant un gel de crédit et une alerte à la fraude, la solution la plus efficace pour dissuader les criminels ordinaires d'accéder à votre dossier de crédit sans votre permission."
 tags: ["protection du crédit", "gel du crédit", "alerte à la fraude", "accès non autorisé", "rapport de solvabilité", "vol d'identité", "Equifax", "Experian", "TransUnion", "bureaux de crédit", "protection maximale"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Une personne tenant une carte de crédit sur laquelle figure le symbole d'un cadenas représentant la protection du crédit."
 coverCaption: ""
 ---

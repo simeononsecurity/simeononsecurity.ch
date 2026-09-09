@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解人工智能如何彻底改变威胁检测和响应领域，以及它带来的挑战和限制。"
 tags: ["人工智能", "网络安全", "威胁检测", "威胁应对", "机器学习", "深度学习", "自然语言处理", "人工智能算法", "网络安全", "数据安全", "网络防御", "事件响应", "内部威胁", "安保团队", "实时监控", "基于规则的系统", "网络犯罪", "脆弱性", "自适应安全", "网络复原力"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "一个印有 AI 字母的盾牌三维动画图像，挡住了象征网络威胁的箭头。"
 coverCaption: ""
 ---

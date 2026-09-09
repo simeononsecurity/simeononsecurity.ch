@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las ventajas y los riesgos de externalizar la ciberseguridad a proveedores externos y cómo elegir el proveedor adecuado para su empresa."
 tags: ["ciberseguridad", "externalización", "proveedores externos", "violación de datos", "selección de proveedores", "ahorro de costes", "experiencia", "escalabilidad", "pérdida de control", "plan de respuesta a incidentes", "gestión de riesgos", "seguridad empresarial", "externalización de la seguridad", "amenazas cibernéticas", "seguridad de la red", "protección de datos", "gestión de vulnerabilidades", "ciberdefensa", "continuidad de las actividades", "seguridad de la información"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Una imagen de dibujos animados de un empresario de pie sobre una roca y sosteniendo un escudo para proteger su empresa de las ciberamenazas, con una hilera de terceros proveedores de pie detrás de él ofreciendo diferentes servicios de seguridad."
 coverCaption: ""
 ---

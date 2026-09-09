@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aflați cum să vă protejați aplicațiile de partajare pe internet Linux cu măsuri avansate pentru a bloca programele malware, urmăritorii, traficul Tor și torrentele."
 tags: ["Securitate Linux", "aplicații de partajare pe internet", "protecție împotriva malware-ului", "blocarea urmăritorilor", "Blocarea traficului Tor", "prevenirea torrentului", "securitatea rețelei", "Snort", "Securita", "Protecția DNS", "reguli avansate de firewall", "Actualizări Ubuntu", "actualizări automate", "monitorizarea rețelei", "securitate cibernetică", "Linux securitate pe internet", "Securitatea aplicațiilor Linux", "blocarea malware", "Prevenirea traficului Tor", "protecție torrent", "firewall de rețea", "Securitatea rețelei Linux", "partajarea securizată a internetului", "Protecție DNS Linux", "securitate avansată a rețelei", "Actualizări ale sistemului Linux", "instrumente de monitorizare a rețelei", "Măsuri de securitate cibernetică Linux", "Practici de securitate Linux"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "O ilustrație de desen animat care prezintă un scut care protejează o rețea de dispozitive interconectate împotriva amenințărilor rău intenționate."
 coverCaption: ""
 ---

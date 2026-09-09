@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何保护您的宝贵数据免受网络攻击、自然灾害和硬件故障的影响。"
 tags: ["备份策略", "数据保护", "网络安全", "数据冗余", "数据丢失预防", "数据恢复", "遵守", "外部硬盘驱动器", "云存储服务", "网络附加存储", "备份软件", "自动备份", "数据安全", "灾难恢复", "异地备份", "冗余备份", "备份最佳实践", "备份解决方案", "存储类型", "数据安全"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "一个披着斗篷的卡通人物拿着一个盾牌，上面写着数字 3，同时站在两个存储箱上面，一个是硬盘，一个是云，并指向一个代表异地存储的地球仪。"
 coverCaption: ""
 ---

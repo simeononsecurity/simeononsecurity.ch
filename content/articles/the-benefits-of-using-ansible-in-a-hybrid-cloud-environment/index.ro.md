@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți modul în care capacitățile de automatizare ale Ansible pot eficientiza, securiza și optimiza mediile cloud hibride pentru o productivitate îmbunătățită."
 tags: ["Ops", "CICD", "scalabilitate", "performanță", "securitate", "conformitate", "integrare", "Servicii Web Amazon", "Microsoft Azure", "Google Cloud", "Turnul Ansible", "Ansible Galaxy", "Ansible Vault", "economii de costuri", "Eficiența IT"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "O ilustrație animată 3D vibrantă a unui nor cu unelte în interior, reprezentând un mediu cloud hibrid, care prezintă gestionarea eficientă și automatizată a infrastructurii cloud."
 coverCaption: ""
 ---

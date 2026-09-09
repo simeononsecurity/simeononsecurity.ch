@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Vorteile und Risiken des Outsourcings der Cybersicherheit an Drittanbieter und wie Sie den richtigen Anbieter für Ihr Unternehmen auswählen."
 tags: ["Cybersicherheit", "Outsourcing", "Drittanbieter", "Datenschutzverletzung", "Anbieterauswahl", "Kosteneinsparungen", "Fachwissen", "Skalierbarkeit", "Kontrollverlust", "Incident Response Plan", "Risikomanagement", "Unternehmenssicherheit", "Sicherheits-Outsourcing", "Cyber-Bedrohungen", "Netzwerksicherheit", "datenschutz", "Schwachstellenmanagement", "Cyber-Abwehr", "Geschäftskontinuität", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Eine Karikatur eines Geschäftsmannes, der auf einem Felsen steht und ein Schild hält, um sein Unternehmen vor Cyber-Bedrohungen zu schützen, mit einer Reihe von Drittanbietern hinter ihm, die verschiedene Sicherheitsdienste anbieten."
 coverCaption: ""
 ---

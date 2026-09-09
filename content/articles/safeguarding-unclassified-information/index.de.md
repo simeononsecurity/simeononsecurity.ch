@@ -6,7 +6,7 @@ draft: false
 description: "Erfahren Sie mehr über die wahre Natur nicht klassifizierter Informationen, ihre wichtigsten Merkmale, Schutzmaßnahmen und die einschlägigen Vorschriften für einen wirksamen Schutz."
 genre: ["Informationssicherheit", "Data Management", "Staatliche Vorschriften", "Gemeinsame Nutzung von Informationen", "Datenschutz", "Vertraulichkeit", "Risikominderung", "Informationsmanagement", "Klassifizierung der Daten", "Zugang zu Informationen"]
 tags: ["nicht eingestufte Informationen", "Informationssicherheit", "staatliche Stellen", "datenschutz", "Informationsmanagement", "kontrollierte nicht eingestufte Informationen", "Zugangskontrollen", "Verschlüsselung", "Mitarbeiterschulung", "physische Sicherheit", "Datenklassifizierung", "Vertraulichkeit", "Informationsmanagement", "Risikominderung", "Informationsaustausch", "Datenverwaltung", "staatliche Vorschriften", "Informationszugang", "Absicherung", "Sicherheitsmaßnahmen", "sensible Informationen", "Wert der nicht eingestuften Informationen", "öffentlich verfügbare Daten", "CUI-Programm", "offizielle Unterlagen der Agentur", "Zugänglichkeit", "Austauschbarkeit", "begrenzte Empfindlichkeit", "Wert der nicht eingestuften Informationen", "Vorschriften für das CUI-Programm", "Vorfallreaktion", "physische Sicherheitsmaßnahmen"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Eine symbolische Illustration eines verschlossenen Tresors, in dem sich nicht klassifizierte Informationen befinden."
 coverCaption: "Sichern der Schlüssel: Schutz von nicht klassifizierten Informationen für die Informationssicherheit"
 ---

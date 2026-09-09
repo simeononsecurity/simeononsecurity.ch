@@ -6,7 +6,7 @@ draft: false
 description: "Learn about the crucial role of freezing your credit in protecting your financial future and find out how to take control of your credit score."
 genre: ["Credit Freeze", "Credit Score Protection", "Identity Theft Prevention", "Financial Security", "Fraud Prevention", "Credit Bureaus", "Equifax", "Experian", "TransUnion", "Personal Finance"]
 tags: ["credit freeze", "credit score", "identity theft protection", "financial security", "fraud prevention", "credit bureaus", "Equifax", "Experian", "TransUnion", "protect credit score", "safeguard credit", "credit report", "credit fraud", "credit monitoring", "credit card issuers", "freezing credit", "credit protection", "credit report freeze", "credit monitoring services", "financial future", "importance of freezing credit", "how to freeze credit", "credit freeze process", "credit bureau security freeze", "freezing credit reports", "preventing identity theft", "credit score management", "protecting financial information", "security measures against fraud", "financial identity protection"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "A lock with a chain wrapped around a credit score report, symbolizing the protection and security that freezing your credit provides against identity theft and fraud"
 coverCaption: ""
 ---

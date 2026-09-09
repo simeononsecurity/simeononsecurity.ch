@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "Aprenda como contornar o BGW-320 e usar um COTS ONT feito pelos Açores para se conectar à rede do seu ISP com este guia fácil de seguir."
 tags: ["COTS ONT", "BGW-320", "Açores", "fibra", "rede", "XGS-PON", "Ethernet", "passagem de IP", "costumização", "ISP", "ont ID", "Endereço MAC", "identificação do equipamento", "versão da imagem", "versão de hardware", "telnet", "aplicativo CLI", "interface web", "modo de configuração de fábrica", "problemas de compatibilidade"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Um técnico de desenho animado segurando um COTS ONT com um cabo de fibra ao fundo."
 coverCaption: ""
 ---

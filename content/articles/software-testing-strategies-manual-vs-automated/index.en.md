@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the advantages and disadvantages of manual and automated software testing to make an informed decision for your organization."
 tags: ["software testing", "manual testing", "automated testing", "testing strategies", "software development", "quality assurance", "test cases", "test coverage", "exploratory testing", "user experience", "efficiency", "reusability", "adaptability", "human error", "false positives", "false negatives", "test automation", "hybrid testing", "resource optimization", "software testing practices", "choosing the right software testing strategy", "advantages of manual testing", "disadvantages of automated testing", "combining manual and automated testing", "optimizing software testing process"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "A colorful illustration of a human tester and a robot tester working together to test software applications."
 coverCaption: ""
 ---

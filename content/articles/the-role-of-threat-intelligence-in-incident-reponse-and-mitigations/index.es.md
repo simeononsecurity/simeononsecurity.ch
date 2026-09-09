@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo la inteligencia sobre amenazas mejora la ciberseguridad mitigando los ciberataques y respondiendo a ellos."
 tags: ["Inteligencia sobre amenazas", "Respuesta a incidentes", "Ciberseguridad", "Mitigación", "Ciberataques", "Análisis de datos", "Sistemas de información", "Gestión de riesgos", "Evaluación de la vulnerabilidad", "Capacidad de detección", "Controles de seguridad", "Inteligencia estratégica", "Inteligencia táctica", "Inteligencia operativa", "Panorama de las amenazas", "Tendencias emergentes", "Concienciación sobre seguridad", "Análisis forense digital", "Ciberamenazas", "Web oscura"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Una caricatura de un equipo de ciberseguridad analizando datos y respondiendo a un ataque mientras una lupa se cierne sobre ellos."
 coverCaption: ""
 ---

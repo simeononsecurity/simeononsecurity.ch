@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez l'essentiel des outils et techniques de test d'intrusion, des méthodologies et des certifications pour lancer votre carrière dans la cybersécurité."
 tags: ["tests de pénétration", "cybersécurité", "piratage éthique", "outils", "techniques", "guide du débutant", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "tests de sécurité", "évaluation de la vulnérabilité", "sécurité des réseaux", "la sécurité de l'information"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "Un pirate informatique caricatural portant une cagoule et tenant une loupe examine un écran d'ordinateur affichant divers outils de test de piratage tels que Nmap, Metasploit, Wireshark et Burp Suite, avec en arrière-plan des verrous numériques symbolisant des systèmes sécurisés."
 coverCaption: ""
 ---

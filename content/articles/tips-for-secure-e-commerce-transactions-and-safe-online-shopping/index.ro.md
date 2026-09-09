@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să faceți cumpărături online în siguranță și să vă protejați informațiile personale cu ajutorul acestor sfaturi de specialitate și servicii de mascare."
 tags: ["cumpărături online", "comerț electronic securizat", "tranzacții sigure", "protecția vieții private", "servicii de mascare", "Albine Blur", "privacy.com", "Căsuța poștală", "CMRA", "parole sigure", "autentificare cu doi factori", "prevenirea phishing-ului", "site-uri de încredere", "actualizări de software", "comentarii ale vânzătorului", "Wi-Fi public", "VPN", "confidențialitatea online", "prevenirea furtului de identitate", "fraudă cu carduri de credit", "sfaturi de securitate cibernetică", "protecția datelor", "măsuri de securitate online", "numere de telefon temporare", "adrese de e-mail temporare", "vânzători online de încredere", "protecție împotriva malware-ului", "prevenirea amenințărilor cibernetice", "tranzacții online securizate", "securitatea informațiilor personale"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "O ilustrație de desene animate a unei persoane care navighează pe un site de cumpărături online securizat, cu un simbol de lacăt și un scut în fundal."
 coverCaption: ""
 ---

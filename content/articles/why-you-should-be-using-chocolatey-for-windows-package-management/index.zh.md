@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "发现使用 Chocolatey for Windows 包管理的好处：自动更新、节省时间并确保系统安全。"
 tags: ["Windows 包管理", "巧克力味", "软件更新", "包管理器", "命令行界面", "自动更新", "定期维修", "安全", "稳定", "一体化", "政府规章", "遵守", "木偶", "厨师", "Ansible的", "NuGet 包", "国防部 STIG", "简化包管理", "软件漏洞", "部署工具", "Windows 更新", "Windows 软件包更新", "Windows软件管理", "Windows 包管理器", "包管理工具", "自动包更新", "Windows 安全更新", "软件包安装", "Windows 软件部署", "包管理系统", "Windows 软件存储库", "Windows软件缓存"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "一幅色彩丰富的插图，描绘了一个 Windows 徽标，周围环绕着代表简化的包管理和更新的各种软件图标。"
 coverCaption: ""
 ---

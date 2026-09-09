@@ -6,7 +6,7 @@ draft: false
 description: "Esplorare l'importanza dei fondamenti di rete, tra cui il modello OSI, le topologie di rete e i vari tipi di rete, per costruire infrastrutture efficienti e affidabili."
 genre: ["Tecnologia", "Collegamento in rete", "Infrastruttura IT", "Architettura di rete", "Informatica", "Comunicazione dati", "Tecnologia dell'informazione", "Sicurezza di rete", "Gestione della rete", "Internet"]
 tags: ["fondamenti di rete", "OSI model", "topologie di rete", "Tipi di rete", "incapsulamento dei dati", "Livelli di rete", "topologia di rete", "topologia a stella", "topologia bus", "topologia ad anello", "topologia ibrida", "rete peer-to-peer", "rete client-server", "LAN", "UOMO", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hypervisor", "satellite link", "DSL", "Internet via cavo", "linea affittata", "metro-ottico"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Illustrazione simbolica dei nodi interconnessi che formano una rete."
 coverCaption: "Liberare la potenza dei fondamenti di rete."
 ---

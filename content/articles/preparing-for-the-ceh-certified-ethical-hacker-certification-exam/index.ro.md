@@ -6,7 +6,7 @@ draft: false
 description: "Aflați cum să creați un plan de studiu eficient pentru a trece examenul de certificare CEH cu sfaturi și strategii pentru succes."
 genre: ["Securitatea cibernetică", "Securitatea informațiilor", "Dezvoltare profesională", "Certificare IT", "Securitatea rețelelor", "Hacking etic", "Pregătirea examenului", "Plan de studiu", "Managementul timpului", "Avansarea în carieră"]
 tags: ["Certificare CEH", "hacking etic", "plan de studiu", "gestionarea timpului", "pregătirea examenelor", "securitate cibernetică", "motivație", "materiale de studiu", "întrebări practice", "revizuire", "EC-Council", "securitatea informațiilor", "dezvoltare profesională", "Certificare IT", "avansarea în carieră", "securitatea rețelei", "teste de penetrare", "evaluarea vulnerabilității", "informații privind asigurarea", "teste de securitate", "program de studiu", "zone slabe", "examene practice", "grupuri de studiu", "strategii de gestionare a timpului", "să se familiarizeze cu formatul examenului", "gestionați timpul", "rămâneți motivați", "resurse de învățare", "CEH examen"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "O imagine în stil de desen animat a unei persoane care studiază la un birou cu un laptop și diverse cărți și notițe, cu logo-ul CEH în fundal."
 coverCaption: "Pregătește-te, perseverează, reușește: Călătoria ta pentru a deveni un Certified Ethical Hacker."
 ---

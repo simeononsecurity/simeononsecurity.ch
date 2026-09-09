@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apreneu els passos essencials a seguir si sospiteu que el vostre correu electrònic, escriptori o telèfon ha estat piratejat o compromès, com ara canviar les contrasenyes, buscar programari maliciós i netejar el vostre dispositiu."
 tags: ["seguretat del dispositiu", "protecció de dades", "dispositiu compromès", "correu electrònic piratejat", "telèfon piratejat", "programari maliciós", "eliminació de virus", "seguretat de contrasenya", "còpia de seguretat de dades", "autenticació de dos factors", "seguretat cibernètica", "seguretat en línia", "privadesa digital", "el robatori d'identitat", "frau en línia", "suport tècnic", "reparació d'ordinadors", "recuperació de dades", "serveis informàtics", "tecnologia"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Imatge de dibuixos animats d'una persona davant d'un ordinador o telèfon amb una expressió preocupada, mentre un pirata informàtic de dibuixos animats s'amaga al fons."
 coverCaption: ""
 ---

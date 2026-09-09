@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a prevenire gli attacchi di social engineering e a proteggere le informazioni sensibili della vostra organizzazione con la formazione dei dipendenti, le politiche di sicurezza e altro ancora."
 tags: ["ingegneria sociale", "sicurezza informatica", "prevenzione", "formazione dei dipendenti", "politiche di sicurezza", "autenticazione a più fattori", "antivirus", "sicurezza fisica", "regolamenti governativi", "FISMA", "HIPAA", "protezione dei dati", "minacce informatiche", "sicurezza della rete", "sicurezza delle informazioni", "informazioni sensibili", "criminalità informatica", "compliance", "strategia di cybersicurezza", "sicurezza dei dati"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Un hacker cerca di adescare una persona con una canna da pesca, mentre uno scudo e un lucchetto simboleggiano la sicurezza informatica."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーセキュリティに関する10の一般的な間違いを避けることで、サイバー脅威から身を守る方法を学びましょう。"
 tags: ["サイバーセキュリティ", "オンラインセキュリティ", "サイバー脅威", "ハッキング", "フィッシング", "マルウェア", "暗証番号", "公衆無線LAN", "アンチウイルス", "ソーシャル・メディア", "データバックアップ", "セキュリティ警告", "公共充電スタンド", "コンピューターセキュリティ", "サイバー犯罪防止", "こじんじょうほうぬすみ", "デジタルプライバシー", "ネットワークセキュリティ", "ソフトウェアアップデート", "オンラインセーフティー"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "ノートPCを保護する漫画のロック、背景にはハッカーがいる。"
 coverCaption: ""
 ---

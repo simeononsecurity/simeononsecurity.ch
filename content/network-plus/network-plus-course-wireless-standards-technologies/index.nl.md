@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de verschillende 802.11 standaarden, frequenties, bereik en encryptie in draadloze netwerken ter voorbereiding op het CompTIA Network+ certificeringsexamen."
 genre: ["Technologie", "Netwerken", "Draadloze netwerken", "Certificeringsexamen", "CompTIA Netwerk+", "IT-opleiding", "IT-certificering", "Draadloze standaarden", "Draadloze technologieën", "Informatie Technologie"]
 tags: ["CompTIA Netwerk Plus", "Netwerk+ Certificeringsexamen", "Draadloze standaarden", "Draadloze technologieën", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequenties", "Bereik", "Kanaalverbinding", "Typen antennes", "Encryptienormen", "SSID-configuraties", "Draadloze netwerken", "Examen draadloos netwerk", "Draadloze netwerk training", "Certificering draadloos netwerk", "Draadloze netwerktechnologie", "Draadloze netwerkbeveiliging", "Draadloze netwerkprestaties", "Protocollen voor draadloze netwerken", "Configuratie draadloos netwerk", "Problemen met draadloze netwerken oplossen", "Beste praktijken voor draadloze netwerken"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Een cartoonillustratie met verschillende draadloze netwerkapparaten en -signalen."
 coverCaption: "Ontketen de kracht van draadloze netwerken"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Actualitzacions de Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualitzacions fora de línia", "repositori local", "memòria cau", "configuració del servidor", "configuració del client", "mirall apte", "debmirror", "crearrepo", "apt-cacher-ng", "yum-cron", "Actualitzacions del sistema Linux", "actualitzacions de paquets fora de línia", "actualitzacions de programari fora de línia", "dipòsit local de paquets", "memòria cau de paquets locals", "actualitzacions fora de línia de Linux", "gestionar les actualitzacions fora de línia", "mètodes d'actualització fora de línia", "manteniment del sistema fora de línia", "Actualitzacions del servidor Linux", "Actualitzacions del client Linux", "gestió de programari fora de línia", "gestió de paquets fora de línia", "estratègies d'actualització", "Actualitzacions de seguretat de Linux"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "Una il·lustració de dibuixos animats que representa un servidor i diversos dispositius client intercanviant actualitzacions fora de línia."
 coverCaption: ""
 ---

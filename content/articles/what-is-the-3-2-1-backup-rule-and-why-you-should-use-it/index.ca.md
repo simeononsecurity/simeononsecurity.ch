@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apreneu a protegir les vostres dades valuoses d'atacs cibernètics, desastres naturals i errors de maquinari."
 tags: ["estratègia de còpia de seguretat", "protecció de dades", "seguretat cibernètica", "redundància de dades", "prevenció de pèrdues de dades", "recuperació de dades", "compliment", "discs durs externs", "serveis d'emmagatzematge al núvol", "emmagatzematge connectat a la xarxa", "programari de còpia de seguretat", "còpies de seguretat automatitzades", "seguretat de dades", "recuperació de desastres", "còpia de seguretat fora del lloc", "còpies de seguretat redundants", "bones pràctiques de còpia de seguretat", "solucions de còpia de seguretat", "tipus d'emmagatzematge", "seguretat de dades"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Un personatge de dibuixos animats amb una capa que sosté un escut amb el número 3, mentre es troba a sobre de dues caixes d'emmagatzematge, una que representa un disc dur i l'altra un núvol, i assenyala un globus que representa l'emmagatzematge fora del lloc."
 coverCaption: ""
 ---

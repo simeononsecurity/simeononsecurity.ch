@@ -6,7 +6,7 @@ draft: false
 description: "Un'analisi indipendente delle telecamere ALPR di Flock Safety: come funzionano realmente, quali dati raccolgono oltre alle targhe, come la condivisione dei dati crea un database nazionale ombra, e perché la questione del mandato è il vero problema."
 genre: ["Privacy", "Sorveglianza", "Libertà Civili", "Tecnologia delle Forze dell'Ordine", "Diritti Digitali"]
 tags: ["Flock Safety", "ALPR", "lettori di targhe", "sorveglianza", "privacy", "sorveglianza senza mandato", "analisi del convoglio", "tracciamento Bluetooth", "tracciamento TPMS", "condivisione dei dati", "telecamere Ring", "Quarto Emendamento", "niente da nascondere", "accuratezza LPR", "accusa erronea", "MFA", "tecnologia delle forze dell'ordine", "libertà civili", "minimizzazione dei dati", "DeFlock", "contro-sorveglianza", "sicurezza pubblica", "sorveglianza della polizia", "diritti alla privacy", "Quarto Emendamento", "sorveglianza digitale", "sorveglianza di massa", "riconoscimento delle targhe", "reti di telecamere", "conservazione dei dati"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Un incrocio buio illuminato da una telecamera di sorveglianza montata su un palo, con dati sulla targa sovrapposti alle auto di passaggio."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

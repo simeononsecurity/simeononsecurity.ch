@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect yourself from cyberstalking and keep yourself safe online with these tips and techniques."
 tags: ["cyberstalking", "online safety", "internet security", "stalking prevention", "personal safety", "online privacy", "cybersecurity", "digital safety", "internet safety", "cyberbullying", "harassment", "victim protection", "legal action", "counseling", "mental health", "social media safety", "online harassment", "online stalking", "law enforcement", "privacy protection"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "A person looking at their phone with a worried expression as a shadowy figure looms in the background."
 coverCaption: ""
 ---

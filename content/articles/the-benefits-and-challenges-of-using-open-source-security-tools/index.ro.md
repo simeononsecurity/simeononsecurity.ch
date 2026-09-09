@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați beneficiile și provocările legate de utilizarea instrumentelor de securitate open source pentru a îmbunătăți poziția de securitate a organizației dumneavoastră."
 tags: ["instrumente de securitate open source", "securitate cibernetică", "sprijin comunitar", "transparență", "economii de costuri", "flexibilitate", "instrumente brevetate", "riscuri de securitate", "set de competențe", "taxe de licențiere software", "costul total al proprietății", "sprijin comercial", "limbaje de programare", "integrare", "testarea securității", "auditul", "NIST", "CISA", "OWASP", "Institutul Național de Standarde și Tehnologie"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "O imagine în stil de desen animat a unei cutii de scule cu logo-uri open source pe fiecare unealtă, împreună cu un scut cu un lacăt în centru pentru a reprezenta securitatea cibernetică, totul pe un fundal cu cod binar."
 coverCaption: ""
 ---

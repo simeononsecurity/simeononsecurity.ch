@@ -6,7 +6,7 @@ draft: false
 description: "Explore the importance of networking fundamentals, including the OSI model, network topologies, and various types of networks, for building efficient and reliable infrastructures."
 genre: ["Technology", "Networking", "IT Infrastructure", "Network Architecture", "Computer Science", "Data Communication", "Information Technology", "Network Security", "Network Management", "Internet"]
 tags: ["networking fundamentals", "OSI model", "network topologies", "network types", "data encapsulation", "network layers", "mesh topology", "star topology", "bus topology", "ring topology", "hybrid topology", "peer-to-peer network", "client-server network", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hypervisor", "satellite link", "DSL", "cable internet", "leased line", "metro-optical"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "A symbolic illustration of interconnected nodes forming a network."
 coverCaption: "Unleashing the Power of Networking Fundamentals."
 ---

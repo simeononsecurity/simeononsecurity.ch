@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore las ventajas y los retos de adoptar un modelo de seguridad de confianza cero en la era digital actual."
 tags: ["Seguridad de confianza cero", "Ciberseguridad", "Seguridad de las redes", "Seguridad en la nube", "Protección de datos", "Modelo de seguridad", "Autenticación", "Autorización", "Cifrado", "Conformidad", "HIPAA", "GDPR", "PCI DSS", "Experiencia del usuario", "Coste", "Complejidad", "Seguridad multicapa", "Visibilidad", "Flexibilidad", "Fallos de seguridad"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Un candado y una llave sobre un cable de red representan simbólicamente la Seguridad de Confianza Cero."
 coverCaption: ""
 ---

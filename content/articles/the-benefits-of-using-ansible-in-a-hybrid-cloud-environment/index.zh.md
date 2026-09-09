@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Ansible 的自动化功能如何简化、保护和优化混合云环境，从而提高工作效率。"
 tags: ["行动", "CICD", "扩展性", "性能", "安全", "合规性", "整合", "亚马逊网络服务", "微软 Azure", "谷歌云", "Ansible Tower", "Ansible Galaxy", "Ansible Vault", "成本节约", "信息技术效率"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "一个充满活力的三维动画插图，展示了一个内部带有齿轮的云，代表了一个混合云环境，展示了云基础设施的高效和自动化管理。"
 coverCaption: ""
 ---

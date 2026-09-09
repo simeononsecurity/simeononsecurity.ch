@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Scoprite i passi essenziali per iniziare una carriera di successo nella cybersecurity, dalla costruzione di una solida base all'esplorazione di diversi domini e certificazioni."
 tags: ["carriera nella cybersecurity", "iniziare a lavorare nel campo della cybersecurity", "costruire le fondamenta", "fondamenti di rete", "sistemi operativi", "competenze di codifica", "amministrazione del sistema aziendale", "squadra blu", "squadra rossa", "squadra viola", "certificazioni", "apprendimento continuo", "primo lavoro nella cybersecurity", "costruzione del portafoglio", "networking per la cybersecurity", "stage in cybersecurity", "Sicurezza CompTIA", "Hacker etico certificato CEH", "Professionista certificato della sicurezza dei sistemi informativi CISSP", "conferenze sulla cybersicurezza", "tendenze della cybersicurezza", "esperienza pratica", "progetti di cybersecurity", "incontri di cybersicurezza", "sicurezza informatica di base", "Difendersi dalle minacce informatiche", "professionisti della cybersicurezza", "sviluppo della carriera", "competenze di cybersecurity", "educazione alla cybersicurezza"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "Un gruppo di professionisti della cybersicurezza che collaborano alla sicurezza dei sistemi e delle reti digitali."
 coverCaption: "Un team unito di professionisti della cybersecurity che lavorano insieme per proteggere i sistemi digitali dalle minacce informatiche."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de beste praktijken en strategieën om informatieverspreiding te voorkomen en gevoelige gegevens te beveiligen, zodat een betere beveiliging en bescherming wordt gewaarborgd."
 tags: ["informatiebeveiliging", "gegevensbescherming", "gerubriceerde informatie", "gemorste informatie", "preventiestrategieën", "beste praktijken", "toegangscontroles", "encryptie", "werknemersopleiding", "cyberbeveiliging", "preventie van gegevensverlies", "veiligheidsbeoordelingen", "overheidsvoorschriften", "NIST", "bedreigingen van binnenuit", "kwetsbaarheden op het gebied van cyberbeveiliging", "menselijke fout", "bewustwordingsprogramma's", "phishing-bewustzijn", "DLP-oplossingen", "rolgebaseerde toegangscontrole", "multi-factor authenticatie", "beheer van encryptiesleutels", "bescherming van eindpunten", "inhoudscontrole", "veiligheidscontroles", "penetratietesten", "planning van incidentenbestrijding", "veiligheidsprotocollen", "informatiebeveiliging"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Een vergrendeld schild dat gevoelige informatie beschermt tegen ongeoorloofde toegang."
 coverCaption: ""
 ---

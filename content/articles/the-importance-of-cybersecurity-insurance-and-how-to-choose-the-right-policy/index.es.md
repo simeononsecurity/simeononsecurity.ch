@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a elegir la póliza de seguro de ciberseguridad perfecta para proteger su empresa frente a las ciberamenazas."
 tags: ["seguro de ciberseguridad", "protección de datos", "gestión de riesgos", "política de ciberseguridad", "seguridad de los datos", "ciberataques", "ciberseguro", "seguridad de la red", "continuidad de las actividades", "cobertura del seguro", "violación de datos", "póliza de seguro", "Seguridad informática", "respuesta a incidentes", "evaluación de riesgos", "ciberdelincuencia", "protección financiera", "amenazas cibernéticas", "reclamaciones de seguros", "seguro de empresa"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Una imagen de dibujos animados de un empresario que sostiene un escudo con la etiqueta de seguro de ciberseguridad y bloquea las ciberamenazas."
 coverCaption: ""
 ---

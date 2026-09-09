@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u veilig online kunt winkelen en uw persoonlijke gegevens kunt beschermen met deze deskundige tips en afschermingsdiensten."
 tags: ["onlinewinkelen", "beveiligde e-commerce", "veilige transacties", "privacybescherming", "maskerende diensten", "Albine Waas", "privacy.com", "Postbus", "CMRA", "veilige wachtwoorden", "twee-factor authenticatie", "phishing preventie", "vertrouwde websites", "software-updates", "recensies van verkopers", "openbare Wi-Fi", "VPN", "online privacy", "preventie van identiteitsdiefstal", "creditcardfraude", "cyberbeveiligingstips", "gegevensbescherming", "online veiligheidsmaatregelen", "tijdelijke telefoonnummers", "tijdelijke e-mailadressen", "gerenommeerde online verkopers", "bescherming tegen malware", "preventie van cyberdreigingen", "veilige online transacties", "beveiliging van persoonlijke informatie"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Een cartoonillustratie van een persoon die op een beveiligde online winkelwebsite surft met een hangslotsymbool en een schild op de achtergrond."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Geschichte, die Funktionsweise und die Anwendungen der T9-Chiffre, einer bahnbrechenden Technologie zur Eingabe von Vorhersagetexten, die in frühen Mobiltelefonen eingesetzt wurde."
 tags: ["T9-Chiffre", "Texteingabetechnologie", "Texterkennung", "Handys", "Zifferntastatur", "Tegic Kommunikation", "Mehrklingeneingang", "statistische Sprachmodelle", "mobile Kommunikation", "SMS-Nachrichtenübermittlung", "Touchscreen-Smartphones", "virtuelle Tastaturen", "Geschichte von T9", "T9-Software", "Tippen auf Zifferntastaturen", "Wortvorhersage", "Wortvorschläge", "Effizienz bei der Texteingabe", "Verbesserung der Tippgeschwindigkeit", "weniger Tastendrücke", "Algorithmus zur Sprachvorhersage", "frühe Mobilfunktechnologie", "Entwicklung der Texteingabe", "mobile device communication", "Bedeutung der T9-Chiffre", "Revolution bei der Texteingabe", "Nutzbarkeit des Mobiltelefons", "T9-Prädiktionsalgorithmus", "T9-Wörterbuch", "Genauigkeit der Texterkennung"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Eine farbenfrohe Illustration, die ein Smartphone mit einer numerischen Tastatur und Textblasen zeigt und den Einfluss der T9-Chiffre auf die mobile Kommunikation symbolisiert."
 coverCaption: ""
 ---

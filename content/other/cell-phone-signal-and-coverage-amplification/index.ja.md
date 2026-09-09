@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "信頼性の高い接続性と家全体をカバーする当社のおすすめ製品を使用して、自宅の携帯電話の信号を強化します。"
 tags: ["携帯電話信号ブースター", "ウェブブースト", "ハイブースト", "ホームコネクティビティ", "携帯電話の通信範囲", "フェムトセル", "セルラー信号増幅器", "無線信号ブースター", "信号ブーストデバイス", "モバイル接続", "携帯電話の受信", "ホームインターネット", "ワイヤレスブースター", "エレクトロニクス", "家の修繕", "電気通信", "テクノロジー", "スマートホーム", "Wi-Fi通話", "モバイルネットワーク"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "携帯電話を持ち、信号バーが増加しているブースターの隣に立っている人が描かれた漫画風の画像。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak pobrać czysty plik ISO systemu Windows i zainstalować system Windows od podstaw dzięki temu przewodnikowi krok po kroku."
 tags: ["Windows 10", "Windows 11", "Plik ISO", "Czysta instalacja", "Narzędzie do tworzenia mediów", "Bootable USB", "Media instalacyjne", "BIOS", "Oprogramowanie sprzętowe UEFI", "Instalacja na zamówienie", "Klucz do produktu", "System 64-bitowy", "System 32-bitowy", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "MD5 & SHA Checksum Utility", "System type"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Obrazek z kreskówki przedstawiający osobę trzymającą pamięć USB z logo Windows i znakiem kontrolnym, stojącą przed ekranem komputera z logo Windows."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les meilleures pratiques et stratégies pour prévenir la fuite d'informations et sauvegarder les données sensibles, afin de garantir une sécurité et une protection accrues."
 tags: ["la sécurité de l'information", "protection des données", "informations classifiées", "la diffusion d'informations", "stratégies de prévention", "meilleures pratiques", "les contrôles d'accès", "chiffrement", "formation des employés", "cybersécurité", "prévention de la perte de données", "évaluations de sécurité", "les réglementations gouvernementales", "NIST", "menaces d'initiés", "vulnérabilités en matière de cybersécurité", "erreur humaine", "programmes de sensibilisation", "sensibilisation au phishing", "DLP solutions", "le contrôle d'accès basé sur les rôles", "authentification multifactorielle", "gestion des clés de cryptage", "protection des points finaux", "contrôle du contenu", "audits de sécurité", "tests de pénétration", "planification de la réponse aux incidents", "les protocoles de sécurité", "information protection"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Un bouclier verrouillé protégeant les informations sensibles d'un accès non autorisé."
 coverCaption: ""
 ---

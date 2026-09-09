@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a protegerse de las ciberamenazas evitando estos 10 errores comunes de ciberseguridad."
 tags: ["ciberseguridad", "seguridad en línea", "amenazas cibernéticas", "piratería", "phishing", "malware", "contraseñas", "Wi-Fi público", "antivirus", "social media", "copia de seguridad de datos", "advertencias de seguridad", "estaciones públicas de recarga", "seguridad informática", "prevención de la ciberdelincuencia", "robo de identidad", "privacidad digital", "seguridad de la red", "actualizaciones de software", "seguridad en línea"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un candado de dibujos animados protege un ordenador portátil, con un hacker al fondo."
 coverCaption: ""
 ---

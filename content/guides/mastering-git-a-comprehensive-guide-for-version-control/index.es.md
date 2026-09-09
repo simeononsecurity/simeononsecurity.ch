@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conviértete en un experto en Git con esta completa guía que abarca desde la instalación y configuración hasta la creación de ramas, la fusión y la colaboración."
 tags: ["Git", "control de versiones", "Tutoriales Git", "Guía Git", "Conceptos básicos de Git", "Comandos Git", "Instalación Git", "Configuración de Git", "ramificación en Git", "fusión en Git", "colaboración en Git", "control de versiones distribuido", "versionado de código", "Flujo de trabajo Git", "Consejos Git", "Buenas prácticas de Git", "Git para principiantes", "Git para desarrolladores", "desarrollo de software", "código de colaboración", "Dominio de Git", "Guía Git completa", "Tutorial de control de versiones Git", "Bifurcación y fusión en Git", "Consejos de colaboración Git"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "Una ilustración simbólica que muestra dos engranajes interconectados que representan la colaboración y el control de versiones, con el logotipo de Git integrado en el diseño."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Odkryj kluczową rolę języków programowania w cyberbezpieczeństwie i zagłęb się w ich zastosowania, narzędzia i znaczenie w zabezpieczaniu systemów cyfrowych."
 tags: ["języki programowania", "cyberbezpieczeństwo", "kluczowe narzędzia", "aplikacje", "bezpieczne systemy", "bezpieczeństwo sieci", "aplikacje internetowe", "ocena podatności na zagrożenia", "testy penetracyjne", "bezpieczne kodowanie", "bezpieczeństwo systemu", "języki skryptowe", "automatyzacja", "bezpieczna komunikacja", "analiza danych", "uczenie maszynowe", "reakcja na incydent", "rozwój exploitów", "ramy bezpieczeństwa", "utwardzanie systemu", "analiza dziennika", "Bezpieczeństwo systemu Windows", "protokoły sieciowe", "tworzenie stron internetowych", "praktyki bezpiecznego kodowania", "usługi kryptograficzne", "sandboxing", "kontrola dostępu", "inżynieria odwrotna", "wykrywanie zagrożeń", "zarządzanie bezpieczeństwem"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca ikonę w kształcie tarczy reprezentującą cyberbezpieczeństwo, otoczoną fragmentami kodu w różnych językach programowania."
 coverCaption: "Symboliczne przedstawienie istotnego związku między językami programowania a cyberbezpieczeństwem, podkreślające różnorodne narzędzia i aplikacje."
 ---

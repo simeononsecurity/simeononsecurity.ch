@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Imparate a creare password forti, a usare le passphrase e a gestirle in modo sicuro con i password manager come Bitwarden."
 tags: ["password forti", "sicurezza della password", "passphrase", "gestori di password", "Bitwarden", "sicurezza online", "sicurezza informatica", "forza della password", "protezione dei dati", "sicurezza digitale", "Le migliori pratiche per le password", "Suggerimenti per le password", "password sicure", "strumenti di gestione delle password", "online privacy", "protezione dei conti", "sicurezza dei dati", "complessità della password", "generatore di password", "autenticazione a due fattori", "creare password forti", "Guida alla gestione delle password", "Consigli per la sicurezza delle password", "creazione di password forti", "protezione con password", "gestione sicura delle password", "Vantaggi del gestore di password", "sicurezza della passphrase", "Raccomandazioni per i gestori di password", "Le migliori pratiche di gestione delle password", "sicurezza del gestore di password", "Caratteristiche del gestore di password"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Un personaggio dei cartoni animati con in mano uno scudo con il simbolo del lucchetto, che rappresenta la sicurezza e la protezione delle password."
 coverCaption: ""
 ---

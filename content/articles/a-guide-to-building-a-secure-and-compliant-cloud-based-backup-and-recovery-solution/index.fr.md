@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment élaborer une solution de sauvegarde en nuage sécurisée et conforme pour la protection des données."
 tags: ["sauvegarde dans le nuage", "récupération des données", "protection des données", "conformité", "GDPR", "HIPAA", "FISMA", "fournisseur de services en nuage", "chiffrement", "le contrôle d'accès", "sécurité", "règlements", "normes", "meilleures pratiques", "évaluation de la vulnérabilité", "tests de pénétration", "audits", "la gestion des risques", "évolutivité", "contrôle"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Une image animée en 3D d'une chambre forte sécurisée dans les nuages, avec diverses icônes réglementaires (GDPR, HIPAA, FISMA) flottant autour d'elle et un bouclier symbolisant la protection des données."
 coverCaption: ""
 ---

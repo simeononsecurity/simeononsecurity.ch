@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum să vă pregătiți pentru viitorul securității cibernetice într-o lume post-pandemică și cum să vă reduceți riscul de a deveni victime ale atacurilor cibernetice."
 tags: ["securitate cibernetică", "post-pandemic", "viitor", "munca la distanță", "AI", "învățare automată", "IoT", "actualizări de software", "parole", "autentificare cu doi factori", "educație", "VPN", "actualizări de firmware", "phishing", "ransomware", "securitate în cloud", "protecția datelor", "securitatea rețelei", "detectarea amenințărilor", "confidențialitate digitală"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "O imagine în stil de desen animat a unei persoane care stă în picioare cu un scut în fața unui ecran de calculator, protejându-l de diferite atacuri cibernetice, cum ar fi malware, viruși, phishing și încercări de hacking."
 coverCaption: ""
 ---

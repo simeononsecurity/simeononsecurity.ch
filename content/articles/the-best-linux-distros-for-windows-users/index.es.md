@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Descubra las mejores distribuciones de Linux para realizar la transición desde Windows, incluidas opciones populares como Ubuntu, Zorin OS y Linux Mint, con una experiencia fluida y fácil de usar."
 tags: ["Distribuidores Linux", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "Interruptor de Windows", "Linux para principiantes", "Sistema operativo Linux", "Descarga de Ubuntu", "Descarga de Zorin OS", "Descarga de Linux Mint", "Descarga de Manjaro", "Entornos de escritorio Linux", "Linux rolling release", "Comunidad Linux", "Compatible con Linux", "Repositorio de software Linux", "Documentación sobre Linux", "Interfaz de usuario de Linux", "Gestor de paquetes Linux", "Transición de Windows a Linux", "Interfaz similar a Windows", "Alternativas de Linux a Windows", "Distribuidores Linux fáciles de usar", "Comparación de distribuciones Linux", "Guía de migración a Linux", "Linux para usuarios de Windows", "Guía de instalación de Linux", "Características de la distribución Linux", "Ventajas de Linux", "Compatibilidad de Linux con aplicaciones Windows"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "Ilustración de dibujos animados de una persona que pasa de un logotipo de Windows a un logotipo de Linux con una transición fluida"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zbudować infrastrukturę odporną na cyberataki dzięki skutecznemu planowaniu odzyskiwania danych po awarii i najlepszym praktykom."
 tags: ["odporność cybernetyczna", "Planowanie odzyskiwania danych po awarii", "DRP", "zarządzanie ryzykiem", "ciągłość działania", "ochrona danych", "zgodność z przepisami", "Ramy bezpieczeństwa cybernetycznego NIST", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "kopia zapasowa w chmurze", "oprogramowanie do tworzenia kopii zapasowych i odzyskiwania danych", "narzędzia oceny ryzyka", "usługi reagowania na incydenty", "cyberbezpieczeństwo", "bezpieczeństwo informacji", "Infrastruktura IT"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Tarcza ze znacznikiem wyboru i napisem Cyber Resilient Infrastructure, otoczona spadającymi pikselami i tłem płonącego miasta."
 coverCaption: ""
 ---

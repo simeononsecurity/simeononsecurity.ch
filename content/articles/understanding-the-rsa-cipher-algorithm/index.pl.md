@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj wewnętrzne działanie algorytmu szyfrującego RSA i jego znaczenie w bezpiecznej komunikacji."
 tags: ["Szyfrowanie RSA", "szyfrowanie asymetryczne", "kryptografia klucza publicznego", "algorytm szyfrowania", "Generowanie kluczy RSA", "arytmetyka modułowa", "Funkcja sumy Eulera", "liczby pierwsze", "modułowe potęgowanie", "szyfrogram", "zwykły tekst", "Bezpieczeństwo RSA", "bezpieczna komunikacja", "podpisy cyfrowe", "bezpieczne przeglądanie stron internetowych", "Regulacje rządowe dotyczące RSA", "Wytyczne NIST dotyczące RSA", "Rozporządzenie eIDAS", "standardy szyfrowania", "ochrona danych", "kryptografia", "bezpieczeństwo informacji", "bezpieczne przesyłanie wiadomości", "szyfrowana poczta e-mail", "HTTPS", "RSA w bezpiecznej komunikacji", "RSA w podpisach cyfrowych", "mocne strony RSA", "słabości RSA", "złożoność obliczeniowa RSA", "długość klucza w RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Symboliczny obraz przedstawiający algorytm szyfru RSA z symbolami zamka i klucza, przekazujący koncepcję bezpiecznej komunikacji i szyfrowania."
 coverCaption: ""
 ---

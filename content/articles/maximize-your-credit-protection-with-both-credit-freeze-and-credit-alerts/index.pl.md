@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Chroń swój kredyt przed nieautoryzowanym dostępem, łącząc zamrożenie kredytu z alertem o oszustwach, najskuteczniejszym rozwiązaniem powstrzymującym pospolitych przestępców przed dostępem do Twojego raportu kredytowego bez Twojej zgody."
 tags: ["ochrona kredytowa", "zamrożenie kredytu", "ostrzeżenie przed oszustwem", "nieuprawniony dostęp", "raport kredytowy", "kradzież tożsamości", "Equifax", "Experian", "TransUnion", "biura kredytowe", "maksymalna ochrona"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Osoba trzymająca kartę kredytową z symbolem kłódki na niej, która ma symbolizować ochronę kredytową."
 coverCaption: ""
 ---

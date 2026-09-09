@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de beste veilige browsers voor privacybescherming, met Brave, Firefox en Tor, en leer meer over hun functies en voordelen."
 tags: ["veilige browsers", "privacybescherming", "Dappere browser", "Firefox", "Tor", "online beveiliging", "internetprivacy", "browsereigenschappen", "ad-blocking", "traceerbeveiliging", "open-source", "cross-platform", "Firefox Focus", "Tor Netwerk", "alternatieve browsers", "Vivaldi", "Epic", "Puffin", "Watervos"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding met drie cartooneske browserpictogrammen, Brave, Firefox en Tor, omgeven door een schild dat privacybescherming symboliseert, met een hangslot erop."
 coverCaption: ""
 ---

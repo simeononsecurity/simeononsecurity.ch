@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解准备和通过 CISSP 考试的步骤，这是信息安全专业人员的权威认证。"
 tags: ["CISSP 认证", "信息安全", "考试准备", "研究计划", "练习考试", "网络安全", "专业发展", "证书考试", "ISC2", "职业机会", "安全架构", "网络安全", "门禁", "风险管理", "加密", "安全行动", "实体安保", "业务连续性", "灾难恢复", "合规性", "CISSP 考试技巧", "CISSP 学习材料", "CISSP 资格", "CISSP 考试形式", "CISSP 模拟考试", "CISSP 注册", "信息安全认证", "安全专业认证", "安全管理", "安全评估", "软件安全"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "一个手持 CISSP 证书的人的卡通形象，思维泡显示了不同的信息安全主题，如安全架构、访问控制、加密和网络安全。"
 coverCaption: ""
 ---

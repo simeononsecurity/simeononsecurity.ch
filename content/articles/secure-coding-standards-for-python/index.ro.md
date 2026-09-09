@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Învățați cele mai bune practici de codare securizată în Python pentru a minimiza riscul de breșe de securitate și pentru a proteja datele sensibile."
 tags: ["Python", "Codare securizată", "Riscuri de securitate", "Validarea intrărilor", "Biblioteci de criptografie", "Cel mai mic privilegiu", "Analizator de cod static", "Aplicații web", "Cadre Python", "Django", "Flash", "Sistem de autentificare", "Hashing de parole", "Sistem de șabloane", "Gestionarea sesiunii", "MarkupSafe", "WTForms", "Blinker", "Protecția datelor", "Vulnerabilități", "Codare securizată", "Python", "Riscuri de securitate", "Validarea intrărilor", "Biblioteci de criptografie", "Cel mai mic privilegiu", "Analizator de cod static", "Aplicații web", "Cadre Python", "Django", "Flash", "Sistem de autentificare", "Hashing de parole", "Sistem de șabloane", "Gestionarea sesiunii", "MarkupSafe", "WTForms", "Blinker", "Protecția datelor", "Vulnerabilități", "Securitatea codului Python", "Revizuirea codului", "Instrumente de analiză statică", "Dezvoltare web securizată", "Practici de codare securizată", "Vulnerabilități de securitate", "Cele mai bune practici de securitate a codului", "Criptarea datelor", "Principiul celui mai mic privilegiu", "Analiza codului", "Securitate web"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Un scut de desen animat cu cuvântul Python scris pe el pentru a reprezenta standardele de codare sigură"
 coverCaption: ""
 ---

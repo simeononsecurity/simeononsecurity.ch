@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo crear una solución de copia de seguridad en la nube segura y conforme a la normativa para la protección de datos."
 tags: ["copia de seguridad en la nube", "recuperación de datos", "protección de datos", "conformidad", "GDPR", "HIPAA", "FISMA", "proveedor de servicios en la nube", "codificación", "control de acceso", "seguridad", "normativa", "normas", "buenas prácticas", "evaluación de la vulnerabilidad", "pruebas de penetración", "auditorías", "gestión de riesgos", "escalabilidad", "control"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Una imagen animada en 3D de una cámara acorazada segura en las nubes, con varios iconos normativos (GDPR, HIPAA, FISMA) flotando a su alrededor y un escudo que simboliza la protección de datos."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Vergelijk AWS, Azure en Google Cloud Platform op het gebied van cloudbeveiliging en leer de verschillen om een weloverwogen beslissing te nemen voor jouw organisatie."
 tags: ["AWS", "Azuur", "Google cloud", "cloudbeveiliging", "IAM", "GuardDuty", "Beveiligingscentrum", "Beveiligingscommandocentrum", "DDoS-bescherming", "Wolkenpantser", "WAF", "Privéverbinding", "DLP", "cloudcomputing", "clouddiensten", "cloudaanbieders", "gegevensbescherming", "cyberbeveiliging", "infrastructuurbeveiliging"]
-cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png"
+cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Een levendige, 3D geanimeerde afbeelding die drie verschillende cloudstructuren laat zien die AWS, Azure en Google Cloud Platform voorstellen, met schildsymbolen over elke cloud om hun beveiligingsaanbod te symboliseren."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le basi di Terraform, un popolare strumento di infrastructure as code, e come usarlo per gestire l'infrastruttura in modo efficiente."
 tags: ["Terraform", "Infrastruttura come codice", "IaC", "Cloud Computing", "DevOps", "Automazione", "AWS", "Azzurro", "Google Cloud", "Fornitori di cloud", "Gestione della configurazione", "Distribuzione", "Approvvigionamento", "Gestione delle risorse", "Scalability", "Resilienza", "Sicurezza", "Compliance", "Migliori pratiche"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Un monitor di computer a fumetti con dispositivi multipli collegati alla rete che appaiono come blocchi di costruzione che vengono aggiunti o rimossi, a significare la gestione dell'infrastruttura con Terraform."
 coverCaption: ""
 ---

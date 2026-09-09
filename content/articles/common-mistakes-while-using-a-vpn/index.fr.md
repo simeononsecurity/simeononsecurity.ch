@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Protégez votre vie privée en ligne en évitant ces erreurs courantes de VPN qui peuvent entraîner une fuite accidentelle de votre adresse IP publique."
 tags: ["Les erreurs du VPN", "Fuites d'IP", "vie privée en ligne", "cybersécurité", "sécurité internet", "réseau privé virtuel", "WebRTC", "Serveur DNS", "Fournisseur de VPN", "authentification à deux facteurs", "Logiciel VPN", "interrupteur d'arrêt d'urgence", "confidentialité des données", "internet privacy", "cybermenaces", "la sécurité des données", "sécurité des réseaux", "sécurité en ligne", "anonymat en ligne", "navigation anonyme"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Un personnage de bande dessinée debout sur un ordinateur portable avec une loupe, à la recherche d'une vie privée en ligne."
 coverCaption: ""
 ---

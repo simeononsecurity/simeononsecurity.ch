@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the advantages and disadvantages of open-source and commercial security tools, helping you make informed decisions for your organization's security strategy."
 tags: ["open-source security", "commercial security tools", "cost effectiveness", "flexibility", "customizability", "community support", "limited support", "documentation", "integration challenges", "quality and reliability", "smooth integration", "vendor lock-in", "IT resources", "security infrastructure", "security solutions", "budget constraints", "unique requirements", "software compatibility", "security goals", "decision making"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "A cartoon-style image of two contrasting characters representing open-source and commercial security tools, standing on opposite sides of a balanced scale, symbolizing the pros and cons of each option."
 coverCaption: ""
 ---

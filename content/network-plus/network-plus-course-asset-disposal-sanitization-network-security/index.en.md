@@ -6,7 +6,7 @@ draft: false
 description: "Learn the best practices for secure asset disposal in network security, including factory reset, wiping configurations, and sanitization methods to ensure data security."
 genre: ["CompTIA Network Plus", "IT Certification", "Cybersecurity", "Data Security", "Network Administration", "Technology Education", "Professional Development", "Digital Skills", "Information Technology", "Online Learning"]
 tags: ["asset disposal", "sanitization methods", "network security", "data security", "factory reset", "wiping configurations", "secure data wiping", "hardware disposal", "network administration", "technology education", "cybersecurity best practices", "secure device disposal", "IT certification", "data breaches", "government regulations", "NIST guidelines", "secure erasure methods", "electronic waste recycling", "data sanitization standards", "information assurance", "network asset management", "professional development", "digital skills", "online learning", "IT industry", "technology professionals", "secure network infrastructure", "data protection", "secure data removal", "asset management procedures"]
-cover: "/img/cover/A_3D_animated_illustration_showing_a_locked_pa.png"
+cover: "/img/cover/A_3D_animated_illustration_showing_a_locked_pa.webp"
 coverAlt: "A 3D animated illustration showing a locked padlock being securely disposed of."
 coverCaption: "Protect your Network: Safely Dispose of Assets and Ensure Data Security."
 ---

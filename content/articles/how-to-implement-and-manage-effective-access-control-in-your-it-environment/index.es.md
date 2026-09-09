@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a proteger los datos y sistemas confidenciales aplicando medidas eficaces de control de acceso a su entorno informático."
 tags: ["Control de acceso", "Seguridad informática", "Ciberseguridad", "Contraseñas", "Autenticación biométrica", "Control de acceso basado en funciones", "Autenticación multifactor", "Protección de datos", "Evaluación de riesgos", "Formación de los empleados", "Herramientas de auditoría", "Herramientas de información", "Pruebas de penetración", "Evaluación de la vulnerabilidad", "Control de acceso físico", "Control de acceso lógico", "Normativa de cumplimiento", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Una puerta cerrada con llave y un escáner de huellas dactilares como único medio para entrar."
 coverCaption: ""
 ---

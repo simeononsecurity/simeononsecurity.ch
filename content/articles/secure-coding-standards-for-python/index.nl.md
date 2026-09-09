@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de beste praktijken voor veilig coderen in Python om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
 tags: ["Python", "Veilige codering", "Veiligheidsrisico's", "Invoer validatie", "Cryptografie bibliotheken", "Minste voorrecht", "Statische code-analyzer", "Webtoepassingen", "Python kaders", "Django", "Flash", "Authenticatiesysteem", "Wachtwoord hashing", "Sjabloon systeem", "Beheer van sessies", "MarkupSafe", "WTForms", "Blinker", "Gegevensbescherming", "Kwetsbaarheden"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Een cartoonschild met het woord Python erop geschreven om veilige coderingsnormen voor te stellen"
 coverCaption: ""
 ---

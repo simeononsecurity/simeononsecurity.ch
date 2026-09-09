@@ -6,7 +6,7 @@ draft: false
 description: "Discover the true nature of unclassified information, its key characteristics, safeguarding measures, and relevant regulations for effective protection."
 genre: ["Information Security", "Data Management", "Government Regulations", "Information Sharing", "Data Protection", "Confidentiality", "Risk Mitigation", "Information Governance", "Data Classification", "Information Access"]
 tags: ["unclassified information", "information security", "government agencies", "data protection", "information management", "controlled unclassified information", "access controls", "encryption", "employee training", "physical security", "data classification", "confidentiality", "information governance", "risk mitigation", "information sharing", "data management", "government regulations", "information access", "safeguarding", "security measures", "sensitive information", "value of unclassified information", "publicly available data", "CUI program", "official agency records", "accessibility", "shareability", "limited sensitivity", "value of unclassified information", "CUI program regulations", "incident response", "physical security measures"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "A symbolic illustration showing a locked vault with unclassified information inside."
 coverCaption: "Securing the Keys: Safeguarding Unclassified Information for Information Security"
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Linuxのファイルパーミッションをマスターし、安全なファイルシステムを実現するための、所有権、アクセスコントロール、ベストプラクティスを網羅した総合ガイドです。"
 tags: ["Linuxのファイルパーミッション", "セキュアファイルシステム", "アクセスコントロール", "所有権", "ファイルパーミッションガイド", "Linuxのセキュリティ", "ファイルシステムセキュリティ", "chmodコマンド", "タウンコマンド", "ファイルパーミッションの監査", "さいゆうしゅうのげんり", "規制遵守", "GDPR", "ヒパア", "ファイルパーミッション監査", "規程の文書化", "システムセキュリティ", "ネットワークセキュリティ", "暗号化", "ユーザー管理"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "鍵のかかったファイルキャビネットを漫画で表現したもので、ユーザー、グループ、その他の権限を表すさまざまな鍵が描かれています。"
 coverCaption: ""
 ---

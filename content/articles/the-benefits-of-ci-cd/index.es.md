@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las ventajas de la integración continua y la implantación continua (CI CD) en el desarrollo de software, que mejoran la colaboración, la calidad y la velocidad."
 tags: ["integración continua", "despliegue continuo", "CI CD", "desarrollo de software", "colaboración", "comunicación", "bucle de retroalimentación", "detección de errores", "calidad del software", "fiabilidad", "tiempo de comercialización", "gestión de riesgos", "escalabilidad", "flexibilidad", "pruebas automatizadas", "desarrollo ágil", "DevOps", "productividad del equipo", "versiones de software", "automatización del despliegue", "automatización de pruebas", "entrega rápida de software", "metodologías ágiles", "gestión de la liberación", "ingeniería de software", "equipos ágiles", "mejora continua", "pruebas de software", "procesos de implantación", "proceso de despliegue", "ciclo de vida del desarrollo de software"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Una colorida ilustración de dibujos animados que muestra a los desarrolladores colaborando y desplegando software de forma rápida y eficaz con herramientas y procesos de CI CD."
 coverCaption: ""
 ---

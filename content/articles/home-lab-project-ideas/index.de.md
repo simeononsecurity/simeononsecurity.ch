@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie spannende und innovative Projektideen für Ihr Heimlabor, um Ihr Wissen zu erweitern und Ihre IT-Fähigkeiten zu verbessern."
 tags: ["Heimlabor-Projekte", "Virtualisierungsumgebung", "Netzwerksicherheitslabor", "Heim-Medienserver", "Hausautomatisierungssystem", "praktische Erfahrung", "IT-Kenntnisse", "Technologie", "Software", "Hardware", "Experimente", "Lernen", "Netzarchitektur", "Software-Konfigurationen", "Cybersicherheit", "Firewall", "Router", "Medien-Streaming", "Heimnetzwerk", "intelligente Geräte", "Automatisierung", "Raspberry Pi", "Z-Wave", "Zigbee", "Plex", "Kodi", "Emby", "VMware vSphere", "Microsoft Hyper-V", "Proxmox VE", "Aufbau einer Virtualisierungsumgebung zu Hause", "Netzwerksicherheitslabor mit pfSense erstellen", "Heim-Medienserver mit Plex einrichten", "Hausautomatisierungssystem mit Raspberry Pi bauen"]
-cover: "/img/cover/A_symbolic_image_depicting_a_person_working.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_person_working.webp"
 coverAlt: "Ein symbolisches Bild, das eine Person zeigt, die an einer Virtualisierungseinrichtung mit mehreren Betriebssystemen und Netzwerkkomponenten arbeitet."
 coverCaption: ""
 ---

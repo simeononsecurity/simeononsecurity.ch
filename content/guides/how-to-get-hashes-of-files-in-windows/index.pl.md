@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Dowiedz się, jak uzyskać skróty plików w systemie Windows za pomocą PowerShell, w tym SHA256, MD5 i SHA1, z instrukcjami krok po kroku i przykładami."
 tags: ["skróty plików", "PowerShell", "SHA256 hash", "Skrót MD5", "SHA1 hash", "integralność plików", "uwierzytelnianie danych", "weryfikacja plików", "algorytmy haszujące", "System operacyjny Windows", "język skryptowy", "powłoka wiersza poleceń", "bezpieczeństwo danych", "informatyka śledcza", "cyberbezpieczeństwo", "Obliczanie skrótu", "manipulowanie plikami", "integralność danych", "autentyczność pliku", "Bezpieczeństwo systemu Windows", "identyfikacja pliku", "cyberobrona", "bezpieczeństwo plików", "ochrona danych", "weryfikacja danych", "walidacja plików", "Windows PowerShell", "generowanie skrótu", "algorytmy skrótu", "funkcje skrótu"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "Ilustracja rysunkowa przedstawiająca plik z symbolem kłódki i lupą, reprezentująca weryfikację skrótu pliku i bezpieczeństwo."
 coverCaption: ""
 ---

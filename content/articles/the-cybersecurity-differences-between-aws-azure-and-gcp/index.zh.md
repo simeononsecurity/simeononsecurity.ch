@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "比较 AWS、Azure 和 Google 云平台在云安全方面的优势，了解它们的不同之处，以便为您的组织做出明智的决定。"
 tags: ["AWS", "天蓝色", "谷歌云", "云安全", "IAM", "值班警卫", "安全中心", "安全指挥中心", "DDoS 保护", "云装甲", "WAF", "私人链接", "DLP", "云计算", "云服务", "云提供商", "数据保护", "网络安全", "基础设施安全"]
-cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png"
+cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "一幅生动的三维动画展示了代表 AWS、Azure 和 Google 云平台的三种不同的云结构，每种云上都覆盖了盾牌符号，象征着它们的安全产品。"
 coverCaption: ""
 ---

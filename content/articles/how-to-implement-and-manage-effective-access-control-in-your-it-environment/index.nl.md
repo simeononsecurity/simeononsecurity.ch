@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je gevoelige gegevens en systemen kunt beschermen door effectieve toegangscontrolemaatregelen te implementeren voor je IT-omgeving."
 tags: ["Toegangscontrole", "IT-beveiliging", "Cyberbeveiliging", "Wachtwoorden", "Biometrische verificatie", "Rolgebaseerde toegangscontrole", "Multi-factor verificatie", "Gegevensbescherming", "Risicobeoordeling", "Training voor werknemers", "Auditingtools", "Rapportagetools", "Penetratietesten", "Beoordeling van kwetsbaarheid", "Fysieke toegangscontrole", "Logische toegangscontrole", "Naleving voorschriften", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Een gesloten deur met een vingerafdrukscanner als enige manier om binnen te komen."
 coverCaption: ""
 ---

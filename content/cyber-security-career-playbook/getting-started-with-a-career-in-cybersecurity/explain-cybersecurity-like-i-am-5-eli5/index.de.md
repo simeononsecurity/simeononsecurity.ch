@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Ein umfassender Leitfaden, der die Cybersicherheit in einfachen Worten erklärt und ihre Bedeutung, persönliche Sicherheitshygienepraktiken und die Rolle von Cybersicherheitsexperten hervorhebt."
 tags: ["Cybersicherheit", "digitaler Schutz", "persönliche Sicherheit", "Cyber-Bedrohungen", "Cybersicherheitsfachleute", "Phishing", "Software-Aktualisierungen", "sichere Passwörter", "Multi-Faktor-Authentifizierung", "Online-Sicherheit", "digitale Welt", "Cyber-Angriffe", "Informationssicherheit", "Internetsicherheit", "datenschutz", "Online-Datenschutz", "Cyber-Abwehr", "cyber hygiene", "Online-Sicherheitstipps", "Cyber-Bewusstsein", "Cyber-Bildung", "Prävention von Internetkriminalität", "Cyber-Resilienz", "sichere Online-Praktiken", "digitaler Datenschutz", "Leitfaden für Cybersicherheit", "Grundlagen der Cybersicherheit", "Bewusstsein für Cybersicherheit", "Tipps zur Cybersicherheit", "bewährte Praktiken der Cybersicherheit", "Cybersicherheit für Anfänger"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Eine Cartoon-Illustration eines Superhelden mit einem Schild, der die digitale Welt vor Hackern und Cyber-Bedrohungen schützt."
 coverCaption: ""
 ---

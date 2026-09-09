@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Wzmocnij sygnał telefonu komórkowego w domu dzięki naszym najlepszym propozycjom zapewniającym niezawodną łączność i zasięg w całym domu."
 tags: ["Wzmacniacze sygnału telefonii komórkowej", "Weboost", "Hiboost", "Łączność domowa", "Zasięg telefonii komórkowej", "Femtocell", "Wzmacniacze sygnału komórkowego", "Wzmacniacze sygnału bezprzewodowego", "Urządzenia wzmacniające sygnał", "Łączność mobilna", "Odbiór telefonów komórkowych", "Home Internet", "Wzmacniacze bezprzewodowe", "Elektronika", "Home Improvement", "Telekomunikacja", "Technologia", "Inteligentne Domy", "Wifi Calling", "Sieć komórkowa"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "Obrazek w stylu kreskówki przedstawiający osobę trzymającą telefon komórkowy i stojącą obok boostera z powiększającymi się paskami sygnału."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the essential steps to take when you've been doxxed, including how to remove personal information, strengthen online security, report the incident, seek support, and explore legal recourse."
 genre: ["Cybersecurity", "Privacy Protection", "Online Safety", "Digital Privacy", "Data Security", "Personal Information Protection", "Cybercrime Prevention", "Identity Theft", "Online Harassment", "Digital Self-Defense"]
 tags: ["doxxing prevention", "doxxing incident response", "personal information protection", "online privacy", "online security", "reporting doxxing", "legal recourse", "cybercrime", "identity protection", "online harassment", "data security", "privacy settings", "two-factor authentication", "online accounts", "online presence monitoring", "online safety", "online privacy measures", "cybersecurity tips", "support after doxxing", "GDPR", "CCPA", "law enforcement", "online communities", "cybersecurity laws", "data protection regulations", "digital self-defense", "online safety precautions", "protecting personal information", "online privacy guidelines"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "A person protecting their personal information on a shield."
 coverCaption: "Safeguarding personal information is key to digital self-defense."
 ---

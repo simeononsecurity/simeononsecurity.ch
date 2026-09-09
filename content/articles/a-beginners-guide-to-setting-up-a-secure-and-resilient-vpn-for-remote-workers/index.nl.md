@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u een veilige en veerkrachtige VPN opzet voor uw externe werknemers, zodat u veilig toegang krijgt tot bedrijfsmiddelen."
 tags: ["VPN", "werk op afstand", "bedrijfs-VPN", "netwerkbeveiliging", "encryptie", "tunnelprotocollen", "VPN opzetten", "VPN-server", "VPN-beveiliging", "VPN-onderhoud", "VPN-bewaking", "VPN-oplossing", "authenticatie", "gegevensbeveiliging", "privacy", "prestatie", "schaalbaarheid", "compatibiliteit", "werknemersopleiding", "beste praktijken"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "Een 3D geanimeerde afbeelding van een beveiligde tunnel die de laptop van een werknemer op afstand verbindt met een bedrijfsgebouw, als symbool voor de VPN-verbinding. Boven de tunnel zweeft een schildpictogram dat staat voor veiligheid en veerkracht."
 coverCaption: ""
 ---

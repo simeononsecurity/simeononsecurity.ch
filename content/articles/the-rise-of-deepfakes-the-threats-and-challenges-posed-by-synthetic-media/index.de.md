@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Erforschen Sie den Anstieg von Deepfakes, ihre Bedrohungen, Herausforderungen und Regulierungsmaßnahmen zur Bekämpfung synthetischer Medienmanipulationen."
 tags: ["deepfakes", "synthetische Medien", "KI-Technologie", "Fehlinformationen", "Fake News", "Betrug", "Eingriff in die Privatsphäre", "Deepfake-Erkennung", "regulatorische Rahmenbedingungen", "Bildung", "Bewusstsein", "digitales Zeitalter", "Technologie", "Gesellschaft", "challenges", "Bedrohungen", "Bekämpfung von Deepfakes", "Rechenschaftspflicht", "Zusammenarbeit", "erweiterte Algorithmen"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "Eine symbolische Illustration, die das Gesicht einer Person zeigt, das durch ein anderes Gesicht ersetzt wird, steht für die trügerische Natur von Deepfakes und die Herausforderungen, die sie bei der digitalen Medienmanipulation darstellen."
 coverCaption: ""
 ---

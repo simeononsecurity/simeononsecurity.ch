@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Dowiedz się, jak utworzyć bezpieczną sieć Wi-Fi, aby chronić swoje dane i zapewnić bezpieczne korzystanie z Internetu."
 tags: ["bezpieczna sieć Wi-Fi", "Bezpieczeństwo Wi-Fi", "szyfrowanie sieci", "Hasło Wi-Fi", "aktualizacje oprogramowania sprzętowego routera", "ochrona firewall", "zdalne zarządzanie wyłączone", "domyślny login routera", "Filtrowanie adresów MAC", "wyłączenie WPS", "sieć gości", "monitorowanie aktywności sieciowej", "bezpieczeństwo online", "ochrona danych", "prywatność sieci", "cyberbezpieczeństwo", "sieć bezprzewodowa", "bezpieczeństwo w internecie", "zabezpieczenia sieciowe", "podatność sieci"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Osłona chroniąca sygnał Wi-Fi przed hakerami."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Verken de verschillende cyberbeveiligingsbanen, de vooruitzichten op werk en de voordelen in dit snel groeiende veld."
 tags: ["cyberbeveiliging", "carrièrepaden", "werkgelegenheidsvooruitzichten", "informatiebeveiligingsanalisten", "veiligheidsingenieurs", "veiligheidsarchitecten", "veiligheidstesters", "forensisch analisten", "incidentenbestrijders", "beveiligingsadviseurs", "cyberdreigingen", "technologie", "gegevensbescherming", "privacy", "professionele ontwikkeling", "certificaten", "overheidsvoorschriften", "NIST", "CISA", "carrières in cyberbeveiliging"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Een cybersecurity professional die digitale systemen beschermt met een schild en een slot."
 coverCaption: ""
 ---

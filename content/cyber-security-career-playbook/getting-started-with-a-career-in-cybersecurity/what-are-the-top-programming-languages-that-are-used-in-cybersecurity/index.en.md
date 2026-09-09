@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Discover the pivotal role of programming languages in cybersecurity and delve into their applications, tools, and importance in securing digital systems."
 tags: ["programming languages", "cybersecurity", "key tools", "applications", "secure systems", "network security", "web applications", "vulnerability assessment", "penetration testing", "secure coding", "system security", "scripting languages", "automation", "secure communication", "data analysis", "machine learning", "incident response", "exploit development", "security frameworks", "system hardening", "log analysis", "Windows security", "network protocols", "web development", "secure coding practices", "cryptographic services", "sandboxing", "access control", "reverse engineering", "threat detection", "security management"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "A symbolic illustration showcasing a shield-shaped icon representing cybersecurity, surrounded by code snippets in different programming languages."
 coverCaption: "Symbolic representation of the vital connection between programming languages and cybersecurity, highlighting the diverse tools and applications."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、ベストプラクティス、ヒント、ステップバイステップの手順を使用して、効率的で安全なDockerコンテナを作成する方法について説明します。"
 tags: ["ドッカー", "容器", "コンテナリゼーション", "デボップス", "はいび", "ポータビリティ", "効率", "セキュリティ", "さいぜんのそち", "Dockerfile（ドッカーファイル", "ベースイメージ", "環境変数", "ボリュームマウント", "ルートユーザー", "最新画像", "ソフトウェア開発", "コンテナイメージ", "Docker Hub（ドッカーハブ", "コンテナオーケストレーション", "クーベルネッツ"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Dockerのロゴが描かれた安全で整ったコンテナを、ソフトウェアエンジニアリングやDevOpsに関連する様々なツールや機材が囲んでいる3Dアニメーション画像です。"
 coverCaption: ""
 ---

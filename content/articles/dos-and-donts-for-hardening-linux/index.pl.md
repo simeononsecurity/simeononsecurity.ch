@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Zapoznaj się z podstawowymi zaleceniami i zaleceniami dotyczącymi zabezpieczania systemu Linux, w tym aktualizacji, korzystania z zapór ogniowych, włączania SELinux lub AppArmor, konfigurowania zasad haseł i monitorowania dzienników systemowych."
 tags: ["Bezpieczeństwo systemu Linux", "utwardzanie systemu", "firewall", "SELinux", "AppArmor", "polityka haseł", "aktualizacje systemu", "logi systemowe", "moduły bezpieczeństwa", "zasady kontroli dostępu", "cyberbezpieczeństwo", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "zarządzanie podatnościami", "najlepsze praktyki bezpieczeństwa", "Bezpieczeństwo IT", "bezpieczeństwo informacji", "aktualizacje oprogramowania", "dostęp roota", "menedżer haseł"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Kreskówkowy zamek trzymający tarczę z napisem Linux, podczas gdy strzała odbija się od tarczy."
 coverCaption: ""
 ---

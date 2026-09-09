@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de geschiedenis, werkingsprincipes en toepassingen van het T9-cijfer, een baanbrekende voorspellende tekstinvoertechnologie die werd gebruikt in vroege mobiele telefoons."
 tags: ["T9-code", "technologie voor tekstinvoer", "voorspellende tekst", "mobiele telefoons", "numeriek toetsenbord", "Tegic Communications", "multi-tap ingang", "statistische taalmodellen", "mobiele communicatie", "SMS-berichten", "smartphones met aanraakscherm", "virtuele toetsenborden", "geschiedenis van T9", "T9 software", "typen op numerieke toetsenborden", "woordvoorspelling", "woordsuggesties", "efficiëntie bij tekstinvoer", "verbetering van de typesnelheid", "verminderen van toetsaanslagen", "taalvoorspellingsalgoritme", "vroege mobiele telefoontechnologie", "evolutie van tekstinvoer", "mobiele apparaat communicatie", "belang van het T9-cijfer", "tekstinvoer revolutie", "bruikbaarheid van mobiele telefoons", "T9 voorspellend algoritme", "T9 woordenboek", "nauwkeurigheid van voorspellende tekst"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Een kleurrijke illustratie van een smartphone met een numeriek toetsenbord en tekstballonnen, die de impact van het T9-cijfer op mobiele communicatie symboliseert."
 coverCaption: ""
 ---

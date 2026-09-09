@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "探索用于管理低功率矿工车队的最佳实践和工具，包括 remote.it、ngrok、OpenVPN、WireGuard 等。"
 tags: ["低功率矿工", "远程访问", "网络安全", "打开VPN", "线卫士", "哼哼", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "使用本文中讨论的工具连接到网络集线器的多个低功率矿工的卡通形象。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de essentiële factoren waarmee rekening moet worden gehouden bij het kiezen van een wachtwoordmanager en ontdek waarom Bitwarden en KeePassXC de aanbevolen opties zijn"
 tags: ["wachtwoord manager", "kies wachtwoord manager", "Bitwarden", "KeePassXC", "online beveiliging", "wachtwoordbeveiliging", "wachtwoordbeheer", "sterke wachtwoorden", "unieke wachtwoorden", "datalekken", "encryptie", "platformoverschrijdende compatibiliteit", "wachtwoord synchronisatie", "back-up", "gebruikersinterface", "wachtwoord generator", "2FA", "end-to-endencryptie", "nul-kennis architectuur", "open-source", "veilig wachtwoord delen", "autotype", "bevestigingssteun", "plugins", "aanbevelingen voor wachtwoordbeheer", "wachtwoordmanager vergelijking", "veiligheidstips voor wachtwoorden", "wachtwoord manager functies", "Voordelen van wachtwoordbeheer", "wachtwoord manager download"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "Een kleurrijke illustratie van een persoon met een sleutel en een schild, die de veiligheid en bescherming van een wachtwoord voorstellen."
 coverCaption: ""
 ---

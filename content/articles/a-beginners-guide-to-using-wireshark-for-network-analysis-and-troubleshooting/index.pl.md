@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj, jak skutecznie używać Wireshark do analizy sieci i rozwiązywania problemów dzięki temu szczegółowemu przewodnikowi dla początkujących."
 tags: ["Wireshark", "analiza sieci", "rozwiązywanie problemów", "przewodnik dla początkujących", "monitorowanie sieci", "przechwytywanie pakietów", "protokoły sieciowe", "TCP IP", "wizualizacja danych", "bezpieczeństwo sieci", "filtry przechwytujące", "filtry wyświetlacza", "urządzenia sieciowe", "Ethernet", "topologia sieci", "diagnostyka sieci", "administracja siecią", "wydajność sieci", "Samouczek Wireshark", "pakiety danych"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "Kreskówkowa ilustracja detektywa ze szkłem powiększającym analizującego kable sieciowe, podczas gdy logo Wireshark unosi się nad nimi, symbolizując proces rozwiązywania problemów i analizy sieci za pomocą Wireshark."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the legal and ethical considerations of cybersecurity and privacy in digital transformation."
 tags: ["Cybersecurity", "Privacy", "Digital Transformation", "Data Privacy", "Data Protection", "Ethics", "Responsibility", "Transparency", "Trust", "Data Breach", "Data Collection", "Data Security", "Data Regulation", "Data Privacy Regulations", "Cybersecurity Laws", "Liability", "Data Protection Laws", "Data Protection Regulations", "Online Security", "Information Security"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "A cartoon image of a padlock protecting a computer or a shield with a lock icon on it, symbolizing the importance of cybersecurity and privacy in the digital age."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Leer hoe u een veilig Wi-Fi-netwerk opzet om uw gegevens te beschermen en een veilige online ervaring te garanderen."
 tags: ["beveiligd Wi-Fi-netwerk", "Wi-Fi beveiliging", "netwerk encryptie", "Wi-Fi wachtwoord", "Firmware-updates van de router", "firewall bescherming", "beheer op afstand uitschakelen", "standaard router login", "Filteren van MAC-adressen", "WPS uitschakelen", "gastnetwerk", "toezicht houden op de netwerkactiviteit", "online beveiliging", "gegevensbescherming", "netwerkprivacy", "cyberbeveiliging", "draadloos netwerk", "internetbeveiliging", "netwerkbeveiliging", "kwetsbaarheid van het netwerk"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Een schild dat een Wi-Fi signaal beschermt tegen hackers."
 coverCaption: ""
 ---

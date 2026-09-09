@@ -6,7 +6,7 @@ draft: false
 description: "Discover the roles and features of networking devices such as switches, routers, and access points. Compare their functionalities to optimize your network infrastructure."
 genre: ["Networking", "Technology", "IT", "Computer Networks", "Network Infrastructure", "Network Devices", "Information Technology", "Network Management", "Network Security", "Wireless Networks"]
 tags: ["networking devices", "switches", "routers", "access points", "network infrastructure", "Layer 2 switch", "Layer 3 switch", "hubs", "bridges", "wireless LAN controller", "load balancer", "proxy server", "cable modem", "DSL modem", "repeater", "voice gateway", "media converter", "intrusion prevention system", "firewall", "VPN headend", networking device roles", "comparison of networking devices", "network management", "network security", "wireless networks", "network infrastructure features", "Layer 2 vs Layer 3 switches", "advantages of access points", "network device functions", "network device types"]
-cover: "/img/cover/A_colorful_illustration_depicting_various_network.png"
+cover: "/img/cover/A_colorful_illustration_depicting_various_network.webp"
 coverAlt: "A colorful illustration depicting various networking devices and their connections"
 coverCaption: "Unleash the Power of Networking Devices!"
 ---

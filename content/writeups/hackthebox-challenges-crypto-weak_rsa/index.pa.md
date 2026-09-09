@@ -4,7 +4,7 @@ draft: false
 description: "HackTheBox ਕਮਜ਼ੋਰ RSA ਕ੍ਰਿਪਟੋ ਚੁਣੌਤੀ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਹੱਲ ਕਰਨ ਲਈ ਇੱਕ ਸਵੈਚਲਿਤ RSA ਅਟੈਕ ਟੂਲ, RsaCtfTool ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਜਾਣੋ।"
 tags: ["HackTheBox", "ਚੁਣੌਤੀਆਂ", "ਕ੍ਰਿਪਟੋ", "ਕਮਜ਼ੋਰ RSA", "RsaCtfTool", "HTB ਕਮਜ਼ੋਰ RSA ਕ੍ਰਿਪਟੋ", "ਆਸਾਨ ਚੁਣੌਤੀ", "RSA ਸਿਫਰ", "flag.enc", "key.pub", "OpenSSL ਪੈਕੇਜ", "ਸਵੈਚਲਿਤ RSA ਅਟੈਕ ਟੂਲ", "python ਸਕ੍ਰਿਪਟ", "RsaCtfTool", "python3", "ਜਨਤਕ ਕੁੰਜੀ", "ਅਸਪਸ਼ਟ", "ਫਲੈਗ ਉਦਾਹਰਨ"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "ਇੱਕ ਕੇਪ ਅਤੇ ਇੱਕ ਮਾਸਕ ਪਹਿਨੇ ਹੋਏ ਇੱਕ ਕਾਰਟੂਨ ਹੈਕਰ, ਇੱਕ ਵਾਲਟ ਦੇ ਦਰਵਾਜ਼ੇ ਦੇ ਸਾਹਮਣੇ ਖੜ੍ਹਾ ਹੈ, ਜਿਸ 'ਤੇ HTB ਲੋਗੋ ਹੈ ਅਤੇ ਹਰੇ ਰੰਗ ਦੀ ਪਿੱਠਭੂਮੀ ਵਾਲਾ ਇੱਕ ਟੂਲ (ਜਿਵੇਂ ਕਿ ਰੈਂਚ ਜਾਂ ਇੱਕ ਸਕ੍ਰਿਊਡ੍ਰਾਈਵਰ) ਫੜਿਆ ਹੋਇਆ ਹੈ ਅਤੇ ਉੱਪਰ ਇੱਕ ਭਾਸ਼ਣ ਦੇ ਬੁਲਬੁਲੇ ਵਿੱਚ ਸਫਲਤਾ ਦਾ ਪ੍ਰਤੀਕ ਹੈ। ਉਹਨਾਂ ਦੇ ਸਿਰ."
 coverCaption: ""
 ---

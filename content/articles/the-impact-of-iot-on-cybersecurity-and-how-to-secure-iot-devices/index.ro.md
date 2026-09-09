@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți impactul IoT asupra securității cibernetice și învățați strategii eficiente pentru a vă proteja dispozitivele conectate."
 tags: ["IoT", "securitate cibernetică", "securitate", "Internetul lucrurilor", "Dispozitive IoT", "securitatea rețelei", "protecția datelor", "confidențialitate", "dispozitive inteligente", "cele mai bune practici", "Riscurile IoT", "autentificare", "actualizări de firmware", "monitorizare", "standarde industriale", "reglementări", "Orientări privind securitatea IoT", "segmentarea rețelei", "peisajul amenințărilor", "vulnerabilități"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "O imagine animată 3D a unui scut care protejează un grup de dispozitive IoT conectate, simbolizând importanța securității cibernetice pentru rețelele IoT."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-07-17
 description: "Dowiedz się o wyzwaniach, najlepszych praktykach i przyszłych trendach w zabezpieczaniu przemysłowych systemów sterowania (ICS) przed cyberzagrożeniami i zapewnianiu płynnego działania infrastruktury krytycznej."
 genre: ["Przemysłowe systemy sterowania", "Cyberbezpieczeństwo", "Wyzwania związane z bezpieczeństwem ICS", "Najlepsze praktyki dla ICS", "Składniki ICS", "Starsze systemy", "Szkolenie pracowników", "Podatności łańcucha dostaw", "Zagrożenia wewnętrzne", "Wdrożenia zabezpieczeń ICS"]
 tags: ["Przemysłowe systemy sterowania", "Bezpieczeństwo ICS", "Cyberbezpieczeństwo", "Wyzwania ICS", "Najlepsze praktyki ICS", "Starsze systemy", "Przestarzałe technologie", "Szkolenie uświadamiające", "Złożoność cyberzagrożeń", "Podatności łańcucha dostaw", "Zagrożenia wewnętrzne", "Błąd ludzki", "Kompleksowe ramy bezpieczeństwa", "Ocena ICS", "Szkolenie pracowników", "Segmentacja sieci", "Kontrola dostępu", "Planowanie reakcji na incydenty", "Bezpieczeństwo sektora energetycznego", "Bezpieczeństwo zakładów produkcyjnych", "Bezpieczeństwo zakładu uzdatniania wody", "Sztuczna inteligencja", "Uczenie maszynowe", "Technologia blockchain", "Współpraca publiczno-prywatna", "Środki bezpieczeństwa ICS", "Konsekwencje naruszenia ICS", "Proaktywne bezpieczeństwo ICS", "Wdrożenie zabezpieczeń ICS", "Trendy w bezpieczeństwie ICS"]
-cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.png"
+cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.webp"
 coverAlt: "Symboliczny obraz przedstawiający koncepcję zabezpieczenia przemysłowych systemów sterowania przed cyberzagrożeniami, przedstawiający tarczę z zamkiem chroniącą sieć połączonych ze sobą urządzeń."
 ---
 

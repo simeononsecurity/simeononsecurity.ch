@@ -6,7 +6,7 @@ draft: false
 description: "Learn essential troubleshooting techniques for cable connectivity issues in this comprehensive guide for the CompTIA Network+ Certification Exam."
 genre: ["Networking", "IT Certifications", "Cable Troubleshooting", "Network Connectivity", "CompTIA Network Plus", "IT Training", "Troubleshooting Techniques", "Networking Fundamentals", "Cable Issues", "IT Professionals"]
 tags: ["CompTIA Network PLus", "Network Plus Certification", "network troubleshooting", "cable connectivity", "cable considerations", "shielded cables", "unshielded cables", "plenum-rated cables", "riser-rated cables", "rollover cables", "console cables", "crossover cables", "Power over Ethernet", "attenuation", "interference", "incorrect pinout", "bad ports", "open/short", "LED status indicators", "incorrect transceivers", "duplexing issues", "transmit and receive reversed", "dirty optical cables", "cable crimper", "punchdown tool", "tone generator", "cable tester", "networking tools"]
-cover: "/img/cover/A_cartoon_illustration_of_two_networking_cables.png"
+cover: "/img/cover/A_cartoon_illustration_of_two_networking_cables.webp"
 coverAlt: "A cartoon illustration of two networking cables connecting devices with a troubleshooting toolkit nearby."
 coverCaption: "Troubleshooting Cable Connectivity Issues: Learn Effective Techniques for Network Problem Solving."
 ---

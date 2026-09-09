@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Leer de basis van PowerShell scripting en automatiseer taken met deze stap-voor-stap handleiding voor beginners, waarin cmdlets, loops, functies en meer aan bod komen."
 genre: ["Technologie", "Programmeren", "Automatisering", "Windows", "Scripting", "IT", "Administratieve taken", "Computerbeheer", "Software Ontwikkeling", "Codering"]
 tags: ["PowerShell-scripting", "PowerShell automatisering", "Windows scripting", "PowerShell cmdlets", "PowerShell-modules", "PowerShell-lussen", "PowerShell voorwaardelijke verklaringen", "PowerShell-functies", "PowerShell best practices", "PowerShell debugging", "PowerShell testen", "PowerShell-variabelen", "PowerShell ISE", "PowerShell Remoting", "Microsoft-technologieën", "IT-automatisering", "computerbeheer", "coderen voor beginners", "administratieve taken", "PowerShell script-ideeën", "geautomatiseerde back-ups", "bestandsbeheer", "systeeminformatie", "gebruikersbeheer", "software-installatie", "netwerkconfiguratie", "veiligheidsautomatisering", "taakplanning", "register manipulatie", "administratie op afstand"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Een stripfiguurtje dat een script vasthoudt en voor een computer met PowerShell prompt staat, wat duidt op gemak in PowerShell scripting voor beginners"
 coverCaption: ""
 ---

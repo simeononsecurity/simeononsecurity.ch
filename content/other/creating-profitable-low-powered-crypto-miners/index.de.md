@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-07
 description: "Erfahren Sie in dieser Anleitung, wie Sie mit einem Raspberry Pi oder Intel NUC einen Krypto-Miner mit geringem Stromverbrauch und passivem Einkommen einrichten und 10 bis 20 US-Dollar pro Monat und Box verdienen"
 tags: ["Bauen Sie eine profitable passive Einkommensbox auf", "Hardware mit geringem Stromverbrauch", "Passives Einkommen", "Krypto-Miner", "Raspberry Pi", "Intel NUC", "Führung", "Hardware-Anforderungen", "Betriebssysteminstallation", "Software Installation", "Docker", "Automatische Docker-Container-Updates", "Ubuntu-Server", "Ubuntu-Desktop", "Raspbian", "Budget", "USFF", "Winzig", "Mini", "Mikro-PC", "Technische Erfahrung", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TrafficMonitizer", "Wachturm", "Beißen", "Linux-Updates", "Ubuntu", "Debian", "CentOS", "RHEL", "Offline-Updates", "lokales Repository", "Zwischenspeicher", "Server-Setup", "Client-Setup", "passender Spiegel", "debmirror", "createrepo", "apt-cacher-ng", "lecker-cron", "Linux-Systemaktualisierungen", "Offline-Paketaktualisierungen", "Offline-Software-Updates", "lokales Paket-Repository", "lokaler Paketcache", "Offline-Linux-Updates", "Umgang mit Offline-Updates", "Offline-Update-Methoden", "Offline-Systemwartung", "Linux-Server-Updates", "Linux-Client-Updates", "Offline-Softwareverwaltung", "Offline-Paketverwaltung", "Update-Strategien", "Linux-Sicherheitsupdates"]
-cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp"
 coverAlt: "Eine grüne, kastenförmige Leiterplatte mit Symbolen für die Internetverbindung in Form von daran angeschlossenen Drähten."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解持续集成和持续部署（CI CD）在软件开发中的优势，增强协作、提高质量和速度。"
 tags: ["持续集成", "持续部署", "CI CD", "软件开发", "合作", "交流", "反馈回路", "错误检测", "软件质量", "可靠性", "上市时间", "风险管理", "扩展性", "灵活性", "自动测试", "敏捷开发", "DevOps", "团队生产力", "软件发布", "部署自动化", "测试自动化", "快速软件交付", "敏捷方法", "发布管理", "软件工程", "敏捷团队", "持续改进", "软件测试", "部署管道", "部署过程", "软件开发周期"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: "一幅色彩丰富的卡通插图，展示了开发人员利用 CI CD 工具和流程快速高效地协作和部署软件。"
 coverCaption: ""
 ---

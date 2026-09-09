@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki i strategie zapobiegania wyciekom informacji i ochrony wrażliwych danych, zapewniając zwiększone bezpieczeństwo i ochronę."
 tags: ["bezpieczeństwo informacji", "ochrona danych", "informacje niejawne", "wyciek informacji", "strategie zapobiegania", "najlepsze praktyki", "kontrola dostępu", "szyfrowanie", "szkolenie pracowników", "cyberbezpieczeństwo", "zapobieganie utracie danych", "oceny bezpieczeństwa", "regulacje rządowe", "NIST", "zagrożenia wewnętrzne", "luki w cyberbezpieczeństwie", "błąd ludzki", "programy uświadamiające", "świadomość phishingu", "Rozwiązania DLP", "Kontrola dostępu oparta na rolach", "uwierzytelnianie wieloskładnikowe", "Zarządzanie kluczami szyfrowania", "ochrona punktów końcowych", "kontrola zawartości", "audyty bezpieczeństwa", "testy penetracyjne", "Planowanie reakcji na incydenty", "protokoły bezpieczeństwa", "ochrona informacji"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Zablokowana osłona chroniąca poufne informacje przed nieautoryzowanym dostępem."
 coverCaption: ""
 ---

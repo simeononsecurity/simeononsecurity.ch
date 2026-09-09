@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the impact of IoT on cybersecurity and learn effective strategies for safeguarding your connected devices."
 tags: ["IoT", "cybersecurity", "security", "Internet of Things", "IoT devices", "network security", "data protection", "privacy", "smart devices", "best practices", "IoT risks", "authentication", "firmware updates", "monitoring", "industry standards", "regulations", "IoT security guidelines", "network segmentation", "threat landscape", "vulnerabilities"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "A 3D animated image of a shield protecting a group of connected IoT devices, symbolizing the importance of cybersecurity for IoT networks."
 coverCaption: ""
 ---

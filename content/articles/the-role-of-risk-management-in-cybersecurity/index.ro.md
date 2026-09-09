@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați despre importanța gestionării riscurilor în domeniul securității cibernetice și despre cum să creați un program care să funcționeze pentru afacerea dumneavoastră."
 tags: ["securitate cibernetică", "gestionarea riscurilor", "postura de securitate", "evaluarea riscurilor", "atenuarea riscurilor", "monitorizarea riscurilor", "amenințări", "vulnerabilități", "securitatea informațiilor", "protecția datelor", "conformitate", "atacuri cibernetice", "luarea deciziilor", "reducerea costurilor", "continuitatea afacerilor", "analiza riscurilor", "identificarea riscurilor", "controlul riscurilor", "tratamentul riscului", "îmbunătățire continuă"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Un scut cu o încuietoare și o cheie simbolizează securitatea cibernetică, iar o lupă deasupra reprezintă gestionarea riscurilor."
 coverCaption: ""
 ---

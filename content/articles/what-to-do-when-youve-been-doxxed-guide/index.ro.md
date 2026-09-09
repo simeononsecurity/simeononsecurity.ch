@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți pașii esențiali pe care trebuie să-i urmați atunci când ați fost doxxed, inclusiv cum să eliminați informațiile personale, să consolidați securitatea online, să raportați incidentul, să căutați sprijin și să explorați căile legale de atac."
 genre: ["Securitatea cibernetică", "Protecția vieții private", "Siguranța online", "Confidențialitatea digitală", "Securitatea datelor", "Protecția informațiilor personale", "Prevenirea criminalității cibernetice", "Furtul de identitate", "Hărțuirea online", "Autoapărare digitală"]
 tags: ["prevenirea doxxing-ului", "răspunsul la incidentele de doxxing", "protecția informațiilor personale", "confidențialitatea online", "securitate online", "raportarea doxxing", "recurs legal", "criminalitate informatică", "protecția identității", "hărțuirea online", "securitatea datelor", "setări de confidențialitate", "autentificare cu doi factori", "conturi online", "monitorizarea prezenței online", "siguranța online", "măsuri privind confidențialitatea online", "sfaturi de securitate cibernetică", "sprijin după doxxing", "GDPR", "CCPA", "aplicarea legii", "comunități online", "legile privind securitatea cibernetică", "reglementările privind protecția datelor", "autoapărare digitală", "precauții de siguranță online", "protejarea informațiilor personale", "orientări privind confidențialitatea online"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "O persoană care își protejează informațiile personale pe un scut."
 coverCaption: "Protejarea informațiilor personale este esențială pentru autoapărarea digitală."
 ---

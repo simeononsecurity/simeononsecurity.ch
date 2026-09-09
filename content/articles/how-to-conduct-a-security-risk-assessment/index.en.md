@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to conduct a thorough security risk assessment to protect your organization's sensitive information and assets."
 tags: ["Security risk assessment", "Cybersecurity", "Vulnerability assessment", "Threat identification", "Risk management", "Mitigation strategies", "Physical security", "Information security", "Asset protection", "Data protection", "Risk prioritization", "Security protocols", "IT systems", "Employee training", "Risk assessment review", "Internal threats", "External threats", "Security threats", "Data breach prevention", "Risk analysis"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "A cartoon shield protecting a laptop and physical assets with a magnifying glass identifying risks."
 coverCaption: ""
 ---

@@ -7,7 +7,7 @@ description:  "This article explores the advantages and disadvantages of bootcam
 genre: ["Career Development", "Education", "Technology", "Skills Development", "Professional Training", "Job Market", "Learning", "Higher Education", "Upskilling", "Online Learning"]
 tags: ["Bootcamps", "Career Development", "Skills Acquisition", "Certifications", "Education", "Job Market", "Hands-on Experience", "Cost-effective", "Comprehensive Education", "Credibility", "Physical and Mental Demand", "Upskilling", "Professional Training", "Online Learning", "Fast-paced Learning", "Rapid Skill Acquisition", "Career Switch", "Flexible Education", "Coding Bootcamp", "Cybersecurity Bootcamp", "Data Science Bootcamp", "Web Development Bootcamp", "Hands-on Learning", "Practical Skills", "Budget-friendly Learning", "Career Advancement", "Job Opportunities", "Flexible Learning Environment", "In-demand Skills", "Professional Credentials"]
 
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "A laptop with a graduation hat on the keyboard, surrounded by stacks of books and a stopwatch"
 coverCaption: ""
 ---

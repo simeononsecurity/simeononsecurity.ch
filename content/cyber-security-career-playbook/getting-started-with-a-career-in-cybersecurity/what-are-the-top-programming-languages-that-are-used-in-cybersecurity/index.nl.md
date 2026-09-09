@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Ontdek de centrale rol van programmeertalen in cyberbeveiliging en verdiep u in hun toepassingen, tools en belang bij het beveiligen van digitale systemen."
 tags: ["programmeertalen", "cyberbeveiliging", "belangrijkste instrumenten", "toepassingen", "beveiligde systemen", "netwerkbeveiliging", "webtoepassingen", "kwetsbaarheidsbeoordeling", "penetratietesten", "veilig coderen", "systeemveiligheid", "scripttalen", "automatisering", "veilige communicatie", "gegevensanalyse", "machinaal leren", "reactie op incidenten", "ontwikkeling van exploitaties", "beveiligingskaders", "systeemharding", "logboekanalyse", "Windows beveiliging", "netwerkprotocollen", "webontwikkeling", "veilige codeerpraktijken", "cryptografische diensten", "zandbakken", "toegangscontrole", "reverse engineering", "detectie van bedreigingen", "veiligheidsmanagement"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "Een symbolische illustratie met een schildvormig pictogram dat staat voor cyberbeveiliging, omringd door stukjes code in verschillende programmeertalen."
 coverCaption: "Symbolische weergave van de vitale verbinding tussen programmeertalen en cyberbeveiliging, met de nadruk op de verschillende tools en toepassingen."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Leer de top 10 essentiële PowerShell-beveiligingsbest practices voor het beveiligen van uw scripts, wachtwoorden en gevoelige informatie. Verbeter de beveiliging van uw PowerShell-omgeving en bescherm u tegen onbevoegde toegang en potentiële beveiligingslekken."
 genre: ["Best practices voor PowerShell-beveiliging", "Beveiliging tegen scripten", "Wachtwoordbeveiliging", "IT-beveiliging", "Cyberbeveiliging", "Windows-beheer", "Automatisering", "Veilig coderen", "Netwerkbeveiliging", "Gegevensbescherming"]
 tags: ["Best practices voor PowerShell-beveiliging", "PowerShell wachtwoordbeveiliging best practices", "best practices voor het beveiligen en gebruiken van PowerShell", "beleid voor scriptuitvoering", "code ondertekenen", "toegangscontrole voor gebruikers", "wachtwoordbeveiliging", "wachtwoorden hard coderen", "sterke wachtwoorden", "beleid voor wachtwoordrotatie", "PowerShell-scripts beveiligen", "wachtwoorden beschermen in PowerShell", "scriptuitvoering beheren in PowerShell", "gevoelige informatie beveiligen in PowerShell", "PowerShell-beveiliging verbeteren"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "Een symbolische afbeelding van een schild dat een PowerShell-script beschermt."
 coverCaption: "Beveilig je PowerShell-scripts met effectieve beveiligingsmethoden."
 ---

@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Apprenez à générer un code d'invitation et rejoignez la plateforme en ligne HackTheBox pour tester et faire progresser vos compétences en matière de tests d'intrusion et de cybersécurité sur Windows et Linux."
 tags: ["HackTheBox", "Inviter le défi", "Tests de pénétration", "La cyber-sécurité", "les fenêtres", "Linux", "Plateforme en ligne", "POSTE HTTP", "Code d'invitation", "Encodé en Base64", "Powershell", "Coup de Linux", "Décodage Base64", "Inviter la génération de code", "La programmation", "Développement web", "Technologie", "Sécurité informatique", "Formation informatique"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Un écran d'ordinateur de dessin animé montrant le site Web HackTheBox avec une porte de coffre-fort déverrouillée avec une clé, révélant un trophée ou une médaille, avec un fond de paysage urbain dans la palette de couleurs du logo de HackTheBox (bleu et blanc)."
 coverCaption: ""
 ---

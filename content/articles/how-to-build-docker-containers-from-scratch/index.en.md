@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to create efficient and secure Docker containers using best practices, tips, and step-by-step instructions in this comprehensive guide."
 tags: ["docker", "containers", "containerization", "devops", "deployment", "portability", "efficiency", "security", "best practices", "Dockerfile", "base images", "environment variables", "volume mounts", "root user", "up-to-date images", "software development", "container images", "Docker Hub", "container orchestration", "Kubernetes"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "A 3D animated image of a secure, well-organized container with the Docker logo on it, surrounded by various tools and equipment related to software engineering and DevOps."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to safeguard against social engineering attacks with effective strategies and best practices."
 genre: ["Social engineering attacks", "Protect yourself from social engineering", "Cybersecurity strategies", "Preventing social engineering", "Strengthening password security", "Avoiding phishing attacks", "Securing devices against social engineering", "Identifying suspicious emails and phone calls", "Reporting social engineering incidents", "Cybersecurity awareness and education"]
 tags: ["social engineering protection", "cybersecurity awareness", "phishing prevention", "password security", "multi-factor authentication", "email security", "phone call safety", "device security", "software updates", "public Wi-Fi precautions", "incident reporting", "cybersecurity education", "security news", "threat alerts", "password strength", "authentication practices", "suspicious emails", "phone call scams", "device updates", "antivirus software", "firewall protection", "public Wi-Fi risks", "incident reporting process", "collaborative sharing", "cybersecurity community", "identity theft", "FTC guidelines", "NIST password guidelines", "FCC cybersecurity tips", "US-CERT resources"]
-cover: "/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.png"
+cover: "/img/cover/A_shield_protecting_a_person_from_social_engineering_attack.webp"
 coverAlt: "A shield protecting a person from social engineering attacks."
 coverCaption: ""
 ---

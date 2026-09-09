@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect yourself from cyber threats by avoiding these 10 common cybersecurity mistakes."
 tags: ["cybersecurity", "online security", "cyber threats", "hacking", "phishing", "malware", "passwords", "public Wi-Fi", "antivirus", "social media", "data backup", "security warnings", "public charging stations", "computer security", "cybercrime prevention", "identity theft", "digital privacy", "network security", "software updates", "online safety"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "A cartoon lock protecting a laptop, with a hacker in the background."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o korzyściach i zagrożeniach wynikających z powierzenia cyberbezpieczeństwa zewnętrznym dostawcom oraz jak wybrać odpowiedniego dostawcę dla swojej firmy."
 tags: ["cybersecurity", "outsourcing", "sprzedawcy zewnętrzni", "naruszenie danych", "wybór sprzedawcy", "oszczędność kosztów", "wiedza specjalistyczna", "skalowalność", "utrata kontroli", "plan reagowania na incydenty", "zarządzanie ryzykiem", "bezpieczeństwo biznesowe", "outsourcing bezpieczeństwa", "zagrożenia cybernetyczne", "bezpieczeństwo sieci", "ochrona danych", "zarządzanie podatnością", "cyberobrona", "ciągłość działania", "bezpieczeństwo informacji"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Kreskówkowy obraz biznesmena stojącego na skale i trzymającego tarczę, która ma chronić jego firmę przed zagrożeniami cybernetycznymi, z rzędem stojących za nim sprzedawców zewnętrznych oferujących różne usługi bezpieczeństwa."
 coverCaption: ""
 ---

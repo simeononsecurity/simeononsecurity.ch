@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-07
 description: "了解如何使用 Raspberry Pi 或英特尔 NUC 设置低功率被动收入加密矿工，并通过本指南每月每箱赚取 10-20 美元"
 tags: ["建立一个有利可图的被动收入箱", "低功耗硬件", "被动收入", "加密矿工", "树莓派", "英特尔 NUC", "指导", "硬件要求", "操作系统安装", "软件安装", "码头工人", "自动 Docker 容器更新", "Ubuntu 服务器", "Ubuntu桌面", "树莓派", "预算", "USFF", "微小的", "小型的", "微型电脑", "技术经验", "赚应用程序", "神秘岛", "Peer2Profit", "蜂蜜增益", "TraffMonitizer", "岗楼", "咬咬牙", "Linux 更新", "Ubuntu", "德比安", "中央操作系统", "RHEL", "离线更新", "本地存储库", "缓存", "服务器设置", "客户端设置", "镜像", "debmirror", "创建仓库", "apt-缓存-ng", "yumcron", "Linux 系统更新", "离线包更新", "离线软件更新", "本地包存储库", "本地包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线包管理", "更新策略", "Linux 安全更新"]
-cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp"
 coverAlt: "一块绿色的电路板，形状像一个盒子，上面有互联网连接符号，就像连接到它的电线一样。"
 coverCaption: ""
 ---

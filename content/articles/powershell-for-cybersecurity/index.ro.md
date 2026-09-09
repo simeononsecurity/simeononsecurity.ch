@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați puterea lui PowerShell în îmbunătățirea operațiunilor de securitate cibernetică și în atingerea conformității cu standardele din industrie prin automatizare și procese simplificate."
 tags: ["PowerShell", "Securitatea cibernetică", "Operațiuni", "Conformitate", "Automatizare", "Cerințe STIG SRG", "Orientări NSACyber", "Sisteme Windows", "Apărarea echipei albastre", "Scripturi", "Unelte", "Proiecte C Sharp"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "O persoană care tastează pe o tastatură cu un fundal de servere de calculatoare și cabluri de rețea, reprezentând utilizarea PowerShell pentru operațiuni de securitate cibernetică și conformitate."
 coverCaption: ""
 ---

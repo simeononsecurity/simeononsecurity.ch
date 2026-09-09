@@ -6,7 +6,7 @@ draft: false
 description: "Learn the essentials of performance monitoring and management for CompTIA's Network+ Certification Exam, including device/chassis metrics, network metrics, and the use of SNMP."
 genre: ["CompTIA Network Plus Exam", "Performance Monitoring", "Performance Management", "Network Metrics", "SNMP", "Network Infrastructure", "IT Certifications", "Network Monitoring Tools", "Performance Metrics", "Network Performance"]
 tags: ["CompTIA Network Plus", "Network+ Certification Exam", "performance monitoring", "performance management", "device performance metrics", "network metrics", "bandwidth", "latency", "jitter", "SNMP", "traps", "OIDs", "MIBs", "temperature monitoring", "CPU usage", "memory utilization", "network congestion", "real-time applications", "network responsiveness", "data transmission", "network devices", "NMS", "network analysis", "network infrastructure", "resource utilization", "network reliability", "performance trends", "troubleshooting", "capacity upgrades"]
-cover: "/img/cover/A_symbolic_image_depicting_a_network_infrastru.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_network_infrastru.webp"
 coverAlt: "A symbolic image depicting a network infrastructure with performance metrics being monitored and managed."
 coverCaption: "Optimize your network's performance with effective monitoring and management."
 ---

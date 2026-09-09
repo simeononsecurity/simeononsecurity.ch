@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 bietet einen umfassenden Überblick über das Bundesgesetz zur Modernisierung der Informationssicherheit (Federal Information Security Modernization Act), einschließlich seiner wichtigsten Komponenten, Vorteile und Anforderungen für Bundesbehörden."
 tags: ["FISMA", "Föderale Informationssicherheit", "Informationssicherheit", "Risk Management", "Bewertung der Sicherheitskontrolle", "Kontinuierliche Überwachung", "Reaktion auf Vorfälle", "Autorisierung und Akkreditierung", "Verbesserte Informationssicherheit", "Besseres Risikomanagement", "Erhöhte Transparenz", "Gestärkte Zusammenarbeit", "US-Recht", "Bundesbehörden", "Programme zur Informationssicherheit", "Sicherheitskontrollen", "Risikobewertungen", "Kontinuierliche Überwachung", "Sicherheitsvorfälle", "Transparenz und Rechenschaftspflicht", "Überblick über den Federal Information Security Modernization Act", "Vorteile von FISMA in Bundesbehörden", "Risikomanagement in der föderalen Informationssicherheit", "Kontinuierliche Überwachung im Rahmen von FISMA", "Reaktion auf Zwischenfälle in Bundesbehörden", "Genehmigungs- und Akkreditierungsverfahren", "Verbesserte Informationssicherheit in der Bundesverwaltung", "Zusammenarbeit in der föderalen Informationssicherheit", "Transparenz bei der Einhaltung von FISMA", "Informationssicherheitsstandards für Bundesbehörden"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Ein Computerbildschirm mit einem Vorhängeschloss, das Informationssicherheit und Schutz symbolisiert, mit einem Hintergrund aus binärem Code"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come condurre un'accurata valutazione del rischio di sicurezza per proteggere le informazioni e le risorse sensibili della vostra organizzazione."
 tags: ["Valutazione del rischio di sicurezza", "Sicurezza informatica", "Valutazione della vulnerabilità", "Identificazione delle minacce", "Gestione del rischio", "Strategie di mitigazione", "Sicurezza fisica", "Sicurezza delle informazioni", "Protezione del patrimonio", "Protezione dei dati", "Priorità del rischio", "Protocolli di sicurezza", "Sistemi IT", "Formazione dei dipendenti", "Revisione della valutazione del rischio", "Minacce interne", "Minacce esterne", "Minacce alla sicurezza", "Prevenzione delle violazioni dei dati", "Analisi del rischio"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Uno scudo a fumetti che protegge un computer portatile e le risorse fisiche con una lente di ingrandimento che identifica i rischi."
 coverCaption: ""
 ---

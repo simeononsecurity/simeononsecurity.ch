@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Een uitgebreide gids waarin cyberbeveiliging in eenvoudige bewoordingen wordt uitgelegd, met aandacht voor het belang ervan, persoonlijke hygiënepraktijken en de rol van cyberbeveiligingsprofessionals."
 tags: ["cyberbeveiliging", "digitale bescherming", "persoonlijke veiligheid", "cyberbedreigingen", "cyberbeveiligingsprofessionals", "phishing", "software-updates", "sterke wachtwoorden", "multi-factor authenticatie", "online veiligheid", "digitale wereld", "cyberaanvallen", "informatiebeveiliging", "internetbeveiliging", "gegevensbescherming", "online privacy", "cyberdefensie", "cyberhygiëne", "tips voor online beveiliging", "cyberbewustzijn", "cyberonderwijs", "preventie van cybercriminaliteit", "cyberweerbaarheid", "veilige online praktijken", "digitale privacy", "cyberbeveiligingsgids", "basiskennis cyberbeveiliging", "cyberbewustzijn", "tips voor cyberbeveiliging", "beste praktijken op het gebied van cyberbeveiliging", "cyberbeveiliging voor beginners"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Een cartoonillustratie van een superheld met een schild die een digitale wereld beschermt tegen hackers en cyberbedreigingen."
 coverCaption: ""
 ---

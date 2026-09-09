@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți adevărata natură a informațiilor neclasificate, caracteristicile esențiale ale acestora, măsurile de protecție și reglementările relevante pentru o protecție eficientă."
 genre: ["Securitatea informațiilor", "Managementul datelor", "Reglementări guvernamentale", "Schimbul de informații", "Protecția datelor", "Confidențialitate", "Atenuarea riscurilor", "Guvernanța informațiilor", "Clasificarea datelor", "Accesul la informații"]
 tags: ["informații neclasificate", "securitatea informațiilor", "agenții guvernamentale", "protecția datelor", "gestionarea informațiilor", "informații neclasificate controlate", "controale de acces", "criptare", "formarea angajaților", "securitate fizică", "clasificarea datelor", "confidențialitate", "guvernanța informațiilor", "atenuarea riscurilor", "schimbul de informații", "gestionarea datelor", "reglementări guvernamentale", "accesul la informații", "salvgardare", "măsuri de securitate", "informații sensibile", "valoarea informațiilor neclasificate", "date disponibile public", "Programul CUI", "documente oficiale ale agenției", "accesibilitate", "partajabilitate", "sensibilitate limitată", "valoarea informațiilor neclasificate", "Reglementări privind programul CUI", "răspunsul la incidente", "măsuri de securitate fizică"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "O ilustrație simbolică care prezintă un seif încuiat cu informații neclasificate în interior."
 coverCaption: "Asigurarea cheilor: Protejarea informațiilor neclasificate pentru securitatea informațiilor"
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Descubra la potencia de Homebox, un software de código abierto para la gestión eficaz de inventarios y activos, que mejora la productividad de su hogar o pequeña empresa."
 genre: ["Tecnología", "Gestión de existencias", "Gestión de activos", "Código abierto", "Productividad", "Pequeña empresa", "Gestión doméstica", "Autoalojado", "Software", "Organización"]
 tags: ["Homebox", "gestión de inventario", "gestión de activos", "código abierto", "autoalojado", "software", "productividad", "pequeña empresa", "gestión doméstica", "organización", "inventario centralizado", "seguimiento de activos", "campos de datos personalizados", "recordatorios", "información", "privacidad de los datos", "conformidad", "normativa gubernamental", "servidor web", "base de datos", "proceso de instalación", "Repositorio GitHub", "seguridad de los datos", "privacidad", "mantenimiento de registros", "privacidad y seguridad de los datos", "instrucciones de instalación", "interfaz web", "privacidad de los datos", "cumplimiento de la legislación local"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Ilustración de dibujos animados de una persona organizando varios artículos con el software Homebox."
 coverCaption: "Racionalice su inventario y sus activos con Homebox, ¡aumentando la eficiencia!"
 ---

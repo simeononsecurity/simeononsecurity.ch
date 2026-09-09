@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Stań się biegły w Git dzięki temu kompleksowemu przewodnikowi obejmującemu wszystko, od instalacji i konfiguracji po rozgałęzianie, scalanie i współpracę."
 tags: ["Git", "kontrola wersji", "Samouczki Git", "Przewodnik Git", "Podstawy Git", "Polecenia Git", "Instalacja Git", "Konfiguracja Git", "rozgałęzienia w Git", "scalanie w Git", "współpraca w Git", "rozproszona kontrola wersji", "wersjonowanie kodu", "Przepływ pracy Git", "Wskazówki Git", "Najlepsze praktyki Git", "Git dla początkujących", "Git dla programistów", "rozwój oprogramowania", "kod współpracy", "Git mastering", "Kompleksowy przewodnik Git", "Samouczek kontroli wersji Git", "Rozgałęzianie i scalanie w Git", "Wskazówki dotyczące współpracy Git"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca dwa połączone ze sobą koła zębate reprezentujące współpracę i kontrolę wersji, z logo Git zintegrowanym z projektem."
 coverCaption: ""
 ---

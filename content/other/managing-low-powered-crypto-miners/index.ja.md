@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Remote.it、ngrok、OpenVPN、WireGuard など、低電力マイナーのフリートを管理するためのベスト プラクティスとツールを調べてください。"
 tags: ["パワーの低いマイナー", "リモートアクセス", "ネットワークセキュリティー", "オープンVPN", "ワイヤーガード", "鼻を鳴らす", "ングロク"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "記事で説明されているツールを使用してネットワーク ハブに接続された複数の低電力マイナーの漫画画像。"
 coverCaption: ""
 ---

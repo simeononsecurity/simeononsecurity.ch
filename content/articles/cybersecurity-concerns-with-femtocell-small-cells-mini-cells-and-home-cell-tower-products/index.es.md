@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Aprenda cómo los atacantes pueden explotar las femtoceldas para interceptar llamadas telefónicas y mensajes de texto, y qué puede hacer para protegerse contra estos ataques."
 tags: ["ataques con femtoceldas", "seguridad móvil", "ciberseguridad", "redes celulares", "VPN", "clonación de teléfonos", "privacidad de los datos", "seguridad en internet", "dispositivos móviles", "proveedores de telefonía móvil", "seguridad de la red", "seguridad inalámbrica", "seguridad del teléfono móvil", "vulnerabilidades", "ciberataques", "parches de seguridad", "encriptación de datos", "ciberdelincuencia", "consejos de seguridad", "mensajería segura"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Un escudo con el símbolo de un candado protege un teléfono móvil de la mano de un hacker que intenta acceder a él."
 coverCaption: ""
 ---

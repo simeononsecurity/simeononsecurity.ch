@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "تعرف على كيفية تجاوز BGW-320 واستخدام COTS ONT من صنع Azores للاتصال بشبكة مزود خدمة الإنترنت الخاص بك باستخدام هذا الدليل السهل المتابعة."
 tags: ["COTS ONT", "BGW-320", "جزر الأزور", "الفيبر", "شبكة", "XGS-PON", "إيثرنت", "عبور IP", "التخصيص", "مزود خدمة الإنترنت", "معرف ont", "عنوان ماك", "معرف المعدات", "نسخة الصورة", "النسخة الأجهزة", "telnet", "تطبيق CLI", "واجهة المستخدم الرسومية للويب", "وضع تكوين المصنع", "قضايا التوافق"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "فني رسوم متحركة يحمل COTS ONT بكابل ليفي في الخلفية."
 coverCaption: ""
 canonical: ""

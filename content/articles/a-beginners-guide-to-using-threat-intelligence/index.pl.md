@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Popraw swoją postawę w zakresie cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących na temat analizy zagrożeń i jej znaczenia."
 tags: ["Analiza zagrożeń", "Cyberbezpieczeństwo", "Przewodnik dla początkujących", "Taktyka", "Techniki", "Procedury", "Analiza danych", "Podatności", "Operacje bezpieczeństwa", "Uczenie maszynowe", "Eksploracja danych", "Podejmowanie decyzji", "Automatyzacja", "Wspólnota", "Monitorowanie ciemnej sieci", "Wewnętrzne dzienniki sieciowe", "Reakcja na incydent", "Kampanie phishingowe", "Malware", "Planowanie strategiczne"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Animowane szkło powiększające 3D z okiem w środku, unoszące się nad tłem kodu binarnego."
 coverCaption: ""
 ---

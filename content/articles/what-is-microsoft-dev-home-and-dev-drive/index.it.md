@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come Dev Home e Dev Drive migliorano il vostro flusso di lavoro di sviluppo Windows con widget personalizzabili, configurazione della macchina, integrazione con GitHub e archiviazione ottimizzata."
 tags: ["Casa del sviluppatore", "Unità Dev", "Sviluppo di Windows", "flusso di lavoro dello sviluppo", "widget personalizzabili", "configurazione della macchina", "Integrazione con GitHub", "stoccaggio ottimizzato", "Sviluppatori Windows", "flusso di lavoro ottimizzato", "gestione del codice", "monitoraggio del progetto", "ottimizzazione dello stoccaggio", "strumenti di sviluppo", "produttività degli sviluppatori", "Ambiente Windows", "Formato del volume ReFS", "ottimizzazione delle prestazioni", "prestazioni del file system", "Repository GitHub", "soluzione di stoccaggio", "Windows 11", "gestione dell'archiviazione", "collaborazione efficiente", "attività di sviluppo", "strumenti di produttività", "Documenti per sviluppatori di Windows", "efficienza dello sviluppo", "ottimizzazione del flusso di lavoro", "Ambiente di sviluppo Windows"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "Un'illustrazione a fumetti che raffigura uno sviluppatore che lavora in un ambiente snello ed efficiente con gli strumenti Dev Home e Dev Drive."
 coverCaption: ""
 ---

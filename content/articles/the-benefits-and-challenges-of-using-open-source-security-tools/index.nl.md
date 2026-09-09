@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen en uitdagingen van het gebruik van open source beveiligingstools om de beveiliging van uw organisatie te verbeteren."
 tags: ["open source beveiligingstools", "cyberbeveiliging", "communautaire steun", "transparantie", "kostenbesparingen", "flexibiliteit", "eigen instrumenten", "veiligheidsrisico's", "skillset", "kosten voor software licenties", "totale eigendomskosten", "commerciële ondersteuning", "programmeertalen", "integratie", "veiligheidstests", "auditing", "NIST", "CISA", "OWASP", "Nationaal Instituut voor Normen en Technologie"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Een beeld in cartoonstijl van een gereedschapskist met open source-logo's op elk gereedschap, samen met een schild met een slot in het midden om cyberbeveiliging voor te stellen, allemaal op een achtergrond met binaire code."
 coverCaption: ""
 ---

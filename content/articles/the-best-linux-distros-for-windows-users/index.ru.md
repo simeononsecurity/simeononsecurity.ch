@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Откройте для себя лучшие дистрибутивы Linux для перехода с Windows, включая такие популярные варианты, как Ubuntu, Zorin OS и Linux Mint, обеспечивающие плавную и удобную работу."
 tags: ["Дистрибутивы Linux", "Ubuntu", "Зорин ОС", "Linux Mint", "Manjaro", "Переключатель Windows", "Linux для начинающих", "Операционная система Linux", "Загрузка Ubuntu", "Скачать Zorin OS", "Загрузка Linux Mint", "Manjaro скачать", "Среды рабочего стола Linux", "Скользящий выпуск Linux", "Linux-сообщество", "Поддержка Linux", "Репозиторий программного обеспечения Linux", "Документация по Linux", "Пользовательский интерфейс Linux", "Менеджер пакетов Linux", "Переход с Windows на Linux", "Windows-подобный интерфейс", "Альтернативы Linux по сравнению с Windows", "Удобные для пользователя дистрибутивы Linux", "Сравнение дистрибутивов Linux", "Руководство по миграции на Linux", "Linux для пользователей Windows", "Руководство по установке Linux", "Особенности дистрибутива Linux", "Преимущества Linux", "Совместимость Linux с приложениями Windows"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "Мультяшная иллюстрация, изображающая человека, переходящего от логотипа Windows к логотипу Linux с плавным переходом"
 coverCaption: ""
 ---

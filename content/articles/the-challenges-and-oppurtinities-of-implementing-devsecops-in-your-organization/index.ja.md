@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本記事では、組織におけるDevSecOpsの課題と機会について、コラボレーションの向上、スケーラビリティの改善、政府規制との統合など、その内容を探ります。"
 tags: ["デブセックオプス", "情報セキュリティ", "セキュリティテスト", "アジャイルメソドロジー", "コラボレーション", "官制", "オートメーション", "アプリケーション開発", "スケーラビリティ", "連続監視", "NISTガイドライン", "フィードバックループ", "モジュラリティ", "脆弱性", "ひんしつほしょう", "サイバーセキュリティ", "ITインフラ", "ソフトウェア開発ツール", "リスクマネージメント"]
-cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png"
+cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "手前にパズルのピースがはめ込まれ、手をつないで山頂に立つ一行。"
 coverCaption: ""
 ---

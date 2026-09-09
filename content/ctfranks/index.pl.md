@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Bądź na bieżąco z najnowszymi rankingami w świecie CTF i wyzwań dzięki SimeonOnSecurity's CTF Rankings Log."
 tags: ["Rankingi CTF", "Capture the Flag", "Konkurs", "Wyzwania", "LockHeed Martin Cyber Grand Challenge", "Krajowa Liga Cyberprzestępczości", "Cipher Tech Challenge", "Wydajność", "Umieszczenie", "Zespół", "Indywidualnie", "2020", "2021", "Cybersecurity", "Cyberobrona", "Wydarzenia CTF", "Konkursy hakerskie", "Bezpieczeństwo informacji", "Badania nad bezpieczeństwem"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "Kreskówkowe trofeum z wstążką za 1 miejsce otoczone ekranami komputerów i symbolami cyberbezpieczeństwa, takimi jak kłódka, tarcza oraz symbole zamka i klucza."
 coverCaption: ""
 ---

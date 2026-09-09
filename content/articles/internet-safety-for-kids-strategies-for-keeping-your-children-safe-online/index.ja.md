@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "インターネット上の危険からお子さまを守るために、インターネットの安全対策についてご紹介します。"
 tags: ["インターネットの安全性", "オンラインセーフティー", "チャイルドセーフティ", "ペアレンタルコントロール", "ネットいじめ", "デジタルリテラシー", "こうさくしゃ", "ソーシャル・メディア", "ゲーム", "モバイル機器", "プライバシー", "セキュリティ", "安全なインターネット利用", "インターネットセキュリティ対策", "こどものオンライン保護", "デジタル子育て", "子供向けオンラインプライバシー", "ネットの危険", "ネット安全習慣", "インターネット安全教育"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "親子が一緒にパソコンを使っている漫画のイメージで、子供は虫眼鏡を持ち、親は画面を指差しています。"
 coverCaption: ""
 ---

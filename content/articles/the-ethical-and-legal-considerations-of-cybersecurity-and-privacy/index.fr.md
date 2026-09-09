@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les aspects juridiques et éthiques de la cybersécurité et de la protection de la vie privée dans le cadre de la transformation numérique."
 tags: ["Cybersécurité", "Vie privée", "Transformation numérique", "Protection des données", "Protection des données", "L'éthique", "Responsabilité", "Transparence", "Confiance", "Violation de données", "Collecte des données", "Sécurité des données", "Règlement sur les données", "Règlement sur la protection des données", "Lois sur la cybersécurité", "Responsabilité", "Lois sur la protection des données", "Règlement sur la protection des données", "Sécurité en ligne", "Sécurité de l'information"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Image animée d'un cadenas protégeant un ordinateur ou d'un bouclier portant l'icône d'un cadenas, symbolisant l'importance de la cybersécurité et de la protection de la vie privée à l'ère numérique."
 coverCaption: ""
 ---

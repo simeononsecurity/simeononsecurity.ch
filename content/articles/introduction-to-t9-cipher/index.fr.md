@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'histoire, les principes de fonctionnement et les applications du cryptogramme T9, une technologie révolutionnaire de saisie prédictive de texte utilisée dans les premiers téléphones portables."
 tags: ["Chiffre T9", "technologie de saisie de texte", "texte prédictif", "téléphones mobiles", "clavier numérique", "Tegic Communications", "entrée multi-tap", "modèles linguistiques statistiques", "communication mobile", "Messagerie SMS", "smartphones à écran tactile", "claviers virtuels", "histoire du T9", "Logiciel T9", "taper sur des claviers numériques", "prédiction de mots", "suggestions de mots", "efficacité de la saisie de texte", "améliorer la vitesse de frappe", "réduire les pressions sur les touches", "algorithme de prédiction linguistique", "les premières technologies de téléphonie mobile", "évolution de la saisie de texte", "mobile device communication", "l'importance du cryptogramme T9", "révolution de la saisie de texte", "l'utilisabilité des téléphones portables", "Algorithme prédictif T9", "Dictionnaire T9", "précision du texte prédictif"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Illustration colorée représentant un smartphone avec un clavier numérique et des bulles de texte, symbolisant l'impact du chiffre T9 sur la communication mobile."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 biedt een uitgebreid overzicht van de Federal Information Security Modernization Act, inclusief de belangrijkste onderdelen, voordelen en vereisten voor federale instanties."
 tags: ["FISMA", "Federale informatiebeveiliging", "Informatiebeveiliging", "Risicobeheer", "Beoordeling van veiligheidscontroles", "Continue bewaking", "Reactie op incidenten", "Autorisatie en accreditatie", "Verbeterde informatiebeveiliging", "Beter risicobeheer", "Verhoogde transparantie", "Versterkte samenwerking", "Amerikaanse wetgeving", "Federale agentschappen", "Informatiebeveiligingsprogramma's", "Veiligheidscontroles", "Risicobeoordelingen", "Continue bewaking", "Beveiligingsincidenten", "Transparantie en verantwoording", "Overzicht van de Federal Information Security Modernization Act", "Voordelen van FISMA voor federale instanties", "Risicobeheer in federale informatiebeveiliging", "Continue bewaking in FISMA", "Respons bij incidenten in federale agentschappen", "Autorisatie- en accreditatieproces", "Verbeterde informatiebeveiliging bij de federale overheid", "Samenwerking in federale informatiebeveiliging", "Transparantie in FISMA-compliance", "Informatiebeveiligingsstandaarden voor federale agentschappen"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Een computerscherm met een hangslot erop, symbool voor informatiebeveiliging en bescherming, met een achtergrond van binaire code"
 coverCaption: ""
 ---

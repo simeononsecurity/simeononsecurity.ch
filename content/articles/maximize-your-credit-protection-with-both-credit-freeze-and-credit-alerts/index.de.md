@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Schützen Sie Ihr Guthaben vor unbefugtem Zugriff durch eine Kombination aus Kreditsperre und Betrugsalarm, die effektivste Lösung, um Kriminelle davon abzuhalten, ohne Ihre Erlaubnis auf Ihre Kreditauskunft zuzugreifen."
 tags: ["Kreditschutz", "Kreditsperre", "Betrugswarnung", "unbefugter Zugriff", "Kreditauskunft", "Identitätsdiebstahl", "Equifax", "Experian", "TransUnion", "Kreditauskunfteien", "höchster Schutz"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Eine Person, die eine Kreditkarte mit einem Schlosssymbol in der Hand hält, das für den Kreditschutz steht."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the step-by-step process of forming your own personal threat model to enhance your online security and protect your valuable assets."
 genre: ["Online Security", "Personal Threat Modeling", "Cybersecurity Best Practices", "Privacy Protection", "Threat Assessment", "Risk Mitigation", "Digital Self-Defense", "Data Protection", "Online Privacy", "Internet Safety"]
 tags: ["personal threat model", "online security", "cybersecurity", "privacy protection", "threat assessment", "risk mitigation", "digital self-defense", "data protection", "online privacy", "internet safety", "how to form personal threat model", "safeguard online security", "protect valuable assets", "step-by-step threat modeling", "enhance online privacy"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_pro.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_pro.webp"
 coverAlt: "A symbolic illustration depicting a shield protecting a digital lock."
 coverCaption: "help Yourself: Form Your Own Personal Threat Model"
 ---

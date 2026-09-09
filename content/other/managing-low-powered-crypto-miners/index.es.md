@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Explore las mejores prácticas y herramientas para administrar una flota de mineros de bajo consumo, incluidos remote.it, ngrok, OpenVPN, WireGuard y más."
 tags: ["mineros de baja potencia", "acceso remoto", "Seguridad de la red", "abrirvpn", "protector de alambre", "bufido", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Una imagen de dibujos animados de varios mineros de baja potencia conectados a un centro de red con las herramientas discutidas en el artículo."
 coverCaption: ""
 ---

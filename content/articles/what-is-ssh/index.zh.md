@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 SSH 的优势，学习如何生成 SSH 密钥、连接远程服务器、安全传输文件以及自定义 SSH 配置。"
 tags: ["SSH", "安全外壳", "远程访问", "远程管理", "加密", "鉴别", "数据完整性", "便携性", "文件传输", "SCP", "SSH 密钥", "SSH 配置", "网络协议", "远程命令执行", "OpenSSH", "双因素认证", "公钥加密", "IP 地址", "域名", "终端", "命令提示符", "安全", "系统管理员", "开发者", "多功能性", "认证方法", "哈希函数", "隧道挖掘", "自定义选项"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "一个人使用 SSH 安全连接服务器的卡通插图。"
 coverCaption: ""
 ---

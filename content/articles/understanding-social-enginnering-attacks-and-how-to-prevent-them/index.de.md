@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Social-Engineering-Angriffe verhindern und die vertraulichen Daten Ihres Unternehmens durch Mitarbeiterschulungen, Sicherheitsrichtlinien und vieles mehr schützen können."
 tags: ["Social Engineering", "Cybersicherheit", "Prävention", "Mitarbeiterschulung", "Sicherheitsrichtlinien", "Multi-Faktor-Authentifizierung", "Antivirus", "physische Sicherheit", "staatliche Vorschriften", "FISMA", "HIPAA", "datenschutz", "Cyber-Bedrohungen", "Netzwerksicherheit", "Informationssicherheit", "sensible Informationen", "Internetkriminalität", "Compliance", "Cybersicherheitsstrategie", "Datensicherheit"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Ein Hacker, der versucht, eine Person mit einer Angelrute zu ködern, während ein Schild und ein Schloss die Cybersicherheit symbolisieren."
 coverCaption: ""
 ---

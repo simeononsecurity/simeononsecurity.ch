@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Leer hoe u een uitnodigingscode genereert en deelneemt aan het online platform HackTheBox om uw vaardigheden op het gebied van penetratietests en cyberbeveiliging op zowel Windows als Linux te testen en te verbeteren."
 tags: ["HackTheBox", "Uitnodiging uitdaging", "Penetratie testen", "Cyberbeveiliging", "Windows", "Linux", "Online platform", "HTTP POST", "Code uitnodigen", "Base64 gecodeerd", "Powershell", "Linux Bash", "Base64 decoderen", "Codegeneratie uitnodigen", "Programmering", "Web Ontwikkeling", "Technologie", "IT Beveiliging", "IT Opleiding"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Een cartoonachtig computerscherm waarop de HackTheBox-website te zien is met een kluisdeur die wordt ontgrendeld met een sleutel, waarop een trofee of medaille te zien is, met een stadslandschap als achtergrond in het kleurenschema van het logo van HackTheBox (blauw en wit)."
 coverCaption: ""
 ---

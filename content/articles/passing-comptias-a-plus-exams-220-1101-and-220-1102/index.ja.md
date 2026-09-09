@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "CompTIAのA+試験に合格するために必要な頭字語、機器の知識、一般的なトラブルシューティングの手順など、エキスパートによるヒントと戦略を得ることができます。"
 tags: ["CompTIA A+認定資格", "220-1101", "220-1102", "試験対策", "IT認証", "ITキャリア", "情報技術", "テスト受験対策", "勉強のヒント", "テクニカルスキル", "トラブルシューティングのテクニック", "ハードウェア部品", "ソフトウェアのインストール", "ネットワーキングの概念", "セキュリティ理念", "データリカバリー", "オンライン学習"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "CompTIA A+の略語やトラブルシューティングの手順が吹き出しで表示され、様々なハードウェア部品やネットワークケーブルに囲まれながらノートパソコンを持つ人の漫画画像。"
 coverCaption: ""
 ---

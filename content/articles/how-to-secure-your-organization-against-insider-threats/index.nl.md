@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de beste werkwijzen om je organisatie te beschermen tegen bedreigingen van binnenuit die worden veroorzaakt door werknemers, aannemers of partners die toegang hebben tot gevoelige gegevens en systemen."
 tags: ["bedreigingen van binnenuit", "cyberbeveiliging", "gegevensbescherming", "werknemersopleiding", "technische controles", "toegangscontroles", "beleidsontwikkeling", "preventie van gegevensverlies", "reactie op incidenten", "IT-beveiliging", "risicobeheer", "geprivilegieerde toegang", "beveiligingsbewustzijn", "cyberaanvallen", "netwerkbeveiliging", "informatiebeveiliging", "detectie van bedreigingen", "risicobeoordeling", "veiligheidsbeleid", "cybercriminaliteit"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Een cartoonafbeelding van een werknemer met een sleutel die een deur ontgrendelt waarop gevoelige gegevens staan terwijl een andere werknemer met een vergrootglas argwanend toekijkt "
 coverCaption: ""
 ---

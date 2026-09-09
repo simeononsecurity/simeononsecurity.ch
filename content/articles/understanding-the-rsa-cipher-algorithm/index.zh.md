@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索 RSA 密码算法的内部运作及其在安全通信中的重要性。"
 tags: ["RSA 加密", "非对称加密", "公钥加密", "加密算法", "RSA 密钥生成", "模块算术", "欧拉图腾函数", "质数", "模块指数化", "密码", "明文", "RSA 安全", "安全通信", "数字签名", "安全浏览网页", "政府关于登记册系统管理的规定", "NIST 有关 RSA 的指导方针", "eIDAS 法规", "加密标准", "数据保护", "加密", "信息安全", "安全信息传递", "加密电子邮件", "HTTPS", "安全通信中的 RSA", "数字签名中的 RSA", "登记册系统管理人的优势", "登记册系统管理人的弱点", "RSA 的计算复杂度", "RSA 中的密钥长度"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "用锁和钥匙符号表示 RSA 密码算法的符号图像，传达了安全通信和加密的概念。"
 coverCaption: ""
 ---

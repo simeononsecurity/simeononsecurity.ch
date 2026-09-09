@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Îmbunătățiți-vă șansele de a obține postul de vis cu aceste sfaturi de experți în redactarea CV-urilor pentru profesioniștii din domeniul securității cibernetice, dezvoltării de software și IT."
 tags: ["sfaturi de scriere a CV-ului", "profesioniști în domeniul securității cibernetice", "dezvoltarea de software", "Profesioniști IT", "căutarea unui loc de muncă", "sfaturi de carieră", "competențe tehnice", "Puncte de interes ale proiectului", "conștientizarea securității cibernetice", "abilități de rezolvare a problemelor", "tendințele industriei", "dezvoltare profesională", "Conformitatea GDPR", "Regulamentele CCPA", "piața muncii", "optimizarea CV-ului", "cerere de angajare", "sfaturi CV", "strategii de căutare a unui loc de muncă", "avansarea în carieră"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "O ilustrație în stil de desen animat a unei persoane care ține în mână un CV, înconjurată de simboluri de securitate cibernetică și fragmente de cod."
 coverCaption: ""
 ---

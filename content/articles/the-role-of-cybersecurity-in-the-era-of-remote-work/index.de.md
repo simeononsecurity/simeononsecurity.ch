@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ein umfassender Leitfaden für Unternehmen, um sicherzustellen, dass ihre Mitarbeiter im Zeitalter der Telearbeit sicher bleiben."
 tags: ["Cybersicherheit", "Fernarbeit", "Datenschutzverletzungen", "VPN", "Zwei-Faktor-Authentifizierung", "Sicherheitsmaßnahmen", "sichere Kommunikation", "Cyber-Bedrohungen", "Antiviren-Software", "Phishing-Mails", "Passwortmanagement", "Arbeit von zu Hause aus", "datenschutz", "Online-Sicherheit", "Mitarbeitersicherheit", "Fernarbeitskräfte", "Cyber-Kriminelle", "Videokonferenzen", "verschlüsselte Nachrichtenübermittlung", "virtuelles privates Netzwerk"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Eine Cartoon-Illustration eines Laptops mit einem Schloss, mit einem Schild und einem Schwert im Hintergrund, die für die Cybersicherheit stehen."
 coverCaption: ""
 ---

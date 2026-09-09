@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the benefits of SSH, learn how to generate SSH keys, connect to remote servers, transfer files securely, and customize SSH configurations."
 tags: ["SSH", "Secure Shell", "remote access", "remote management", "encryption", "authentication", "data integrity", "portability", "file transfer", "SCP", "SSH keys", "SSH configuration", "network protocol", "remote command execution", "OpenSSH", "two-factor authentication", "public key cryptography", "IP address", "domain name", "terminal", "command prompt", "security", "system administrators", "developers", "versatility", "authentication methods", "hash functions", "tunneling", "custom options"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "A cartoon illustration of a person securely connecting to a server using SSH."
 coverCaption: ""
 ---

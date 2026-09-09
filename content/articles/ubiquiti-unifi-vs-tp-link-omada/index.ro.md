@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Comparați sistemele de rețea Ubiquiti Unifi și TP-Link Omada pentru a-l alege pe cel potrivit pentru nevoile dvs."
 tags: ["Ubiquiti", "TP-Link", "rețele", "Unifi", "Omada", "management", "hardware", "a sustine", "reguli", "Caracteristici", "Control", "interfață", "valoare", "fiabilitate", "performanţă", "scalabilitate", "administrare usoara", "Securitate", "stabilirea prețurilor", "dezavantaje", "Controler Unifi", "Controller Omada", "comparație hardware", "relații Clienți", "oferte suplimentare de produse", "Ubiquiti Unifi vs TP-Link Omada", "managementul rețelei bazat pe web", "soluții de rețea scalabile", "caracteristici de securitate a rețelei", "hardware de rețea fiabil", "prețuri competitive pentru rețele"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "O ilustrare pe ecran împărțit a unei rețele complexe pe de o parte, cu o interfață ușor de utilizat pe de altă parte"
 coverCaption: ""
 ---

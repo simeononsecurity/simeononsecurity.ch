@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Exploreu les recomanacions d'experts de SimeonOnSecurity sobre productes i recursos de seguretat i privadesa de confiança i altament valorats."
 tags: ["recomanacions de seguretat", "productes de privadesa", "eines de ciberseguretat", "protecció de dades", "privadesa a Internet", "antivirus", "llibres", "connectors del navegador", "certificacions", "proveïdors de correu electrònic", "portar cada dia", "conjunt d'eines per a pirates informàtics", "auriculars", "micròfons", "altaveus", "recursos d'aprenentatge", "clients de missatgeria", "organitzacions per donar suport", "recursos de privadesa", "Proveïdors de VOIP SIP DID"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "Una imatge d'estil de dibuixos animats d'un escut amb un pany per simbolitzar la seguretat i la protecció de la privadesa, amb un ordinador portàtil o un dispositiu mòbil al fons."
 coverCaption: ""
 ---

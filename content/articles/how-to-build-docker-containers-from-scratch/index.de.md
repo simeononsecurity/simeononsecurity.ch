@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie, wie Sie mithilfe von Best Practices, Tipps und Schritt-für-Schritt-Anleitungen effiziente und sichere Docker-Container erstellen können."
 tags: ["Docker", "Container", "Containerisierung", "devops", "Bereitstellung", "Tragbarkeit", "efficiency", "Sicherheit", "beste Praktiken", "Dockerdatei", "Basisbilder", "Umgebungsvariablen", "Volumenhalterungen", "Stammbenutzer", "aktuelle Bilder", "Software-Entwicklung", "Container-Bilder", "Docker-Hub", "Container-Orchestrierung", "Kubernetes"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Ein animiertes 3D-Bild eines sicheren, gut organisierten Containers mit dem Docker-Logo darauf, umgeben von verschiedenen Werkzeugen und Geräten aus den Bereichen Software-Engineering und DevOps."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite tutti i suggerimenti e i trucchi necessari per superare gli esami CompTIA con questa guida definitiva."
 tags: ["Esami CompTIA", "Certificazione IT", "piano di studio", "esami pratici", "domande basate sulle prestazioni", "Obiettivi dell'esame", "Professionisti IT", "Consigli per l'esecuzione del test", "risorse di studio", "gestione del tempo", "formato dell'esame", "eliminare le risposte sbagliate", "tecniche di risposta", "comprensione della lettura", "pensiero critico", "ansia da test", "rafforzamento della fiducia", "preparazione agli esami", "tecnologia dell'informazione", "avanzamento di carriera"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "Un'immagine a fumetti di una persona che studia con libri e computer portatile, circondata da punti interrogativi, mentre sopra di essa è raffigurata una certificazione CompTIA come chiave del successo."
 coverCaption: ""
 ---

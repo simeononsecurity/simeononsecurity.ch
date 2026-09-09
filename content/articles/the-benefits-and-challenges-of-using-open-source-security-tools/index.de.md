@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Vorteile und Herausforderungen des Einsatzes von Open-Source-Sicherheitstools zur Verbesserung der Sicherheitslage Ihres Unternehmens."
 tags: ["Open-Source-Sicherheitstools", "Cybersicherheit", "Gemeinschaftsunterstützung", "Transparenz", "Kosteneinsparungen", "Flexibilität", "proprietäre Tools", "Sicherheitsrisiken", "Kompetenzbereich", "Software-Lizenzgebühren", "Gesamtbetriebskosten", "kommerzielle Unterstützung", "Programmiersprachen", "Integration", "Sicherheitsprüfung", "Rechnungsprüfung", "NIST", "CISA", "OWASP", "Nationales Institut für Normen und Technologie"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Ein Bild im Cartoon-Stil eines Werkzeugkastens mit Open-Source-Logos auf jedem Werkzeug, zusammen mit einem Schild mit einem Schloss in der Mitte, um Cybersicherheit zu repräsentieren, alles auf einem Hintergrund mit Binärcode."
 coverCaption: ""
 ---

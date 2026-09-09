@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj wpływ IoT na cyberbezpieczeństwo i poznaj skuteczne strategie zabezpieczania podłączonych urządzeń."
 tags: ["IoT", "cybersecurity", "bezpieczeństwo", "Internet rzeczy", "Urządzenia IoT", "bezpieczeństwo sieci", "ochrona danych", "prywatność", "inteligentne urządzenia", "najlepsze praktyki", "Ryzyko związane z IoT", "uwierzytelnianie", "aktualizacje oprogramowania sprzętowego", "monitorowanie", "standardy branżowe", "przepisy", "Wytyczne dotyczące bezpieczeństwa IoT", "segmentacja sieci", "krajobraz zagrożeń", "podatności"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Animowany obraz 3D tarczy chroniącej grupę połączonych urządzeń IoT, symbolizujący znaczenie cyberbezpieczeństwa dla sieci IoT."
 coverCaption: ""
 ---

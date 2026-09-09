@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment vous préparer à l'avenir de la cybersécurité dans un monde post-pandémique et réduire le risque d'être victime de cyberattaques."
 tags: ["cybersécurité", "post-pandémie", "futur", "travail à distance", "AI", "apprentissage automatique", "IdO", "mises à jour du logiciel", "mots de passe", "authentification à deux facteurs", "l'éducation", "VPN", "mises à jour du micrologiciel", "hameçonnage", "ransomware", "sécurité des nuages", "protection des données", "sécurité des réseaux", "détection des menaces", "vie privée numérique"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "Image de style bande dessinée d'une personne debout avec un bouclier devant un écran d'ordinateur, le protégeant de diverses cyberattaques telles que les logiciels malveillants, les virus, le phishing et les tentatives de piratage."
 coverCaption: ""
 ---

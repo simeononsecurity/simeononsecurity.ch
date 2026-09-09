@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Z tego kompleksowego przewodnika dowiesz się, jak budować i utrzymywać bezpieczny potok DevOps przy użyciu najlepszych praktyk i rzeczywistych przykładów."
 tags: ["DevOps", "bezpieczeństwo", "rurociąg", "ciągła integracja", "ciągłe dostarczanie", "automatyzacja", "konteneryzacja", "bezpieczne kodowanie", "skanowanie luk w zabezpieczeniach", "monitoring", "informacja zwrotna", "kontrola wersji", "kontrola dostępu", "odzyskiwanie po awarii", "ciągłość działania", "studium przypadku", "Wiosna", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
 coverAlt: "Kreskówkowy obraz tarczy chroniącej potok z zamkiem i kluczem, otoczony różnymi etapami potoku DevOps i narzędziami bezpieczeństwa."
 coverCaption: ""
 ---

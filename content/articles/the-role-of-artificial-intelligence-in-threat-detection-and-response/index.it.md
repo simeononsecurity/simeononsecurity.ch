@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come l'IA sta rivoluzionando il campo del rilevamento e della risposta alle minacce e quali sfide e limiti presenta."
 tags: ["Intelligenza artificiale", "Sicurezza informatica", "Rilevamento delle minacce", "Risposta alle minacce", "Apprendimento automatico", "Apprendimento profondo", "Elaborazione del linguaggio naturale", "Algoritmi di intelligenza artificiale", "Sicurezza di rete", "Sicurezza dei dati", "Difesa informatica", "Risposta agli incidenti", "Minacce interne", "Squadre di sicurezza", "Monitoraggio in tempo reale", "Sistemi basati su regole", "Crimine informatico", "Vulnerabilità", "Sicurezza adattiva", "Resilienza informatica"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "Un'immagine animata in 3D di uno scudo con le lettere AI, che blocca le frecce in arrivo che simboleggiano le minacce informatiche."
 coverCaption: ""
 ---

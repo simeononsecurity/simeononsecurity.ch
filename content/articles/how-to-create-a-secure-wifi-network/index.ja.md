@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "データを保護し、安全なオンライン体験を保証するために、安全なWi-Fiネットワークを構築する方法をご紹介します。"
 tags: ["セキュアWi-Fiネットワーク", "Wi-Fiセキュリティ", "ネットワークあんごうか", "Wi-Fiパスワード", "ルーターファームウェアの更新", "ファイアウォールプロテクション", "リモート管理無効", "デフォルトルーターログイン", "MACアドレスフィルタリング", "WPSを無効にする", "ゲストネットワーク", "ネットワークアクティビティーの監視", "オンラインセキュリティ", "データ保護", "ネットワークプライバシー", "サイバーセキュリティ", "ワイヤレスネットワーク", "インターネットセキュリティ", "ネットワークセーフヤード", "ネットワークの脆弱性"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "ハッカーからWi-Fiの電波を守るシールドです。"
 coverCaption: ""
 ---

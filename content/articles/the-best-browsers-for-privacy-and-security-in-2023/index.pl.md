@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze bezpieczne przeglądarki do ochrony prywatności, w tym Brave, Firefox i Tor, oraz dowiedz się o ich funkcjach i zaletach."
 tags: ["bezpieczne przeglądarki", "ochrona prywatności", "Odważna przeglądarka", "Firefox", "Tor", "bezpieczeństwo w sieci", "prywatność internetowa", "funkcje przeglądarki", "ad-blocking", "ochrona przed śledzeniem", "open-source", "cross-platform", "Firefox Focus", "Sieć Tor", "alternatywne przeglądarki", "Vivaldi", "Epic", "Puffin", "Waterfox"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "Animowany obraz 3D przedstawiający trzy kreskówkowe ikony przeglądarek Brave, Firefox i Tor, otoczone tarczą symbolizującą ochronę prywatności, z kłódką na górze."
 coverCaption: ""
 ---

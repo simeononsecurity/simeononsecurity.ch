@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the importance of risk management in cybersecurity and how to create a program that works for your business."
 tags: ["cybersecurity", "risk management", "security posture", "risk assessment", "risk mitigation", "risk monitoring", "threats", "vulnerabilities", "information security", "data protection", "compliance", "cyber attacks", "decision making", "cost reduction", "business continuity", "risk analysis", "risk identification", "risk control", "risk treatment", "continuous improvement"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "A shield with a lock and key symbolizes cybersecurity, with a magnifying glass over it representing risk management."
 coverCaption: ""
 ---

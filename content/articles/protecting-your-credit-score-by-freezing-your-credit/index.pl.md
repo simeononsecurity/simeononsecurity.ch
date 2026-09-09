@@ -6,7 +6,7 @@ draft: false
 description: "Dowiedz się o kluczowej roli zamrożenia kredytu w ochronie swojej przyszłości finansowej i dowiedz się, jak przejąć kontrolę nad swoją oceną kredytową."
 genre: ["Zamrożenie kredytu", "Ochrona zdolności kredytowej", "Zapobieganie kradzieży tożsamości", "Bezpieczeństwo finansowe", "Zapobieganie oszustwom", "Biura kredytowe", "Equifax", "Experian", "TransUnion", "Finanse osobiste"]
 tags: ["zamrożenie kredytu", "ocena kredytowa", "Ochrona przed kradzieżą tożsamości", "bezpieczeństwo finansowe", "zapobieganie oszustwom", "biura kredytowe", "Equifax", "Experian", "TransUnion", "ochrona zdolności kredytowej", "zabezpieczenie kredytu", "raport kredytowy", "oszustwo kredytowe", "monitoring kredytowy", "wydawcy kart kredytowych", "zamrożenie kredytu", "ochrona kredytu", "zamrożenie raportu kredytowego", "usługi monitorowania zdolności kredytowej", "przyszłość finansowa", "Znaczenie zamrożenia kredytu", "jak zamrozić kredyt", "Proces zamrażania kredytu", "zamrożenie bezpieczeństwa w biurze kredytowym", "zamrażanie raportów kredytowych", "Zapobieganie kradzieży tożsamości", "zarządzanie oceną kredytową", "Ochrona informacji finansowych", "środki bezpieczeństwa przeciwko oszustwom", "finansowa ochrona tożsamości"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Zamek z łańcuchem owiniętym wokół raportu oceny kredytowej, symbolizujący ochronę i bezpieczeństwo, jakie zamrożenie kredytu zapewnia przed kradzieżą tożsamości i oszustwami"
 coverCaption: ""
 ---

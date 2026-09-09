@@ -6,7 +6,7 @@ draft: false
 description: "Explorați importanța elementelor fundamentale ale rețelelor, inclusiv modelul OSI, topologiile de rețea și diversele tipuri de rețele, pentru construirea unor infrastructuri eficiente și fiabile."
 genre: ["Tehnologie", "Rețea", "Infrastructura IT", "Arhitectura de rețea", "Informatică", "Comunicarea datelor", "Tehnologia informației", "Securitatea rețelelor", "Managementul rețelei", "Internet"]
 tags: ["fundamentele rețelelor", "Modelul OSI", "topologii de rețea", "tipuri de rețele", "încapsularea datelor", "straturi de rețea", "topologie de plasă", "topologie în stea", "topologie bus", "topologie în inel", "topologie hibridă", "rețea peer-to-peer", "rețea client-server", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hipervizor", "legături prin satelit", "DSL", "internet prin cablu", "linie închiriată", "metro-optic"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "O ilustrare simbolică a nodurilor interconectate care formează o rețea."
 coverCaption: "Dezlănțuirea puterii noțiunilor de bază ale rețelelor."
 ---

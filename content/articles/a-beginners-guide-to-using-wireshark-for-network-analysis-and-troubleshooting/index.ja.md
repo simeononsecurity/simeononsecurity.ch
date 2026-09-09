@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この詳細な初心者向けガイドで、ネットワーク分析やトラブルシューティングのためにWiresharkを効果的に使用する方法を発見してください。"
 tags: ["ワイヤシャーク", "ネットワーク分析", "トラブルシューティング", "ビギナーズガイド", "ネットワークモニタリング", "パケットキャプチャ", "ネットワークプロトコル", "ティーケーピーアイピー", "データビジュアライゼーション", "ネットワークセキュリティ", "キャプチャフィルタ", "ディスプレイフィルタ", "ネットワーク機器", "イーサネット", "ネットワークトポロジー", "ネットワーク診断", "ネットワーク管理", "ネットワークパフォーマンス", "Wiresharkチュートリアル", "データパケット"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "虫眼鏡を持った刑事がネットワークケーブルを解析している漫画のイラストで、その上にWiresharkのロゴが浮かんでおり、Wiresharkを使ったネットワークのトラブルシューティングと解析のプロセスを象徴しています。"
 coverCaption: ""
 ---

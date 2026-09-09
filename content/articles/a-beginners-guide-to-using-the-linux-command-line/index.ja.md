@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーセキュリティのためのLinuxコマンドラインの使い方を、基本的なコマンドと高度なコマンドを交えてご紹介します。"
 tags: ["リナックス", "コマンドライン", "サイバーセキュリティ", "ビギナーズガイド", "ネットワーク・スキャニング", "脆弱性テスト", "マルウェア解析", "パーミッション", "ネットワークトラフィック", "プロセスステータス", "ネットワーク統計", "ファイル検索", "ワイヤシャーク", "ティーシーピーダンプ", "エヌマップ", "Linux CLI", "セキュリティ", "ペネトレーションテスト", "デジタルフォレンジック"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "パーカーを着た人が、Linuxのコマンドラインインターフェイスが見えるコンピュータ画面の前に座り、虫眼鏡を持っている漫画のイラストで、サイバーセキュリティの側面を表現しています。"
 coverCaption: ""
 ---

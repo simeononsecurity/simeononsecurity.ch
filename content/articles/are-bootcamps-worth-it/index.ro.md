@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Acest articol explorează avantajele și dezavantajele bootcamp-urilor și ajută persoanele să determine dacă acestea sunt alegerea potrivită pentru dobândirea rapidă de noi competențe și certificări."
 tags: ["Bootcamps", "Dezvoltarea carierei", "Dobândirea de competențe", "Certificări", "Educație", "Piața muncii", "Experiență practică", "Rentabil", "Educație cuprinzătoare", "Credibilitate", "Solicitare fizică și mentală"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Un laptop cu o pălărie de absolvire pe tastatură, înconjurat de teancuri de cărți și un cronometru"
 coverCaption: ""
 ---

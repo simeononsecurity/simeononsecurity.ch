@@ -6,7 +6,7 @@ draft: false
 description: "Conozca el papel crucial que desempeña la congelación de su crédito en la protección de su futuro financiero y descubra cómo tomar el control de su puntuación crediticia."
 genre: ["Congelación del crédito", "Protección de la puntuación de crédito", "Prevención del robo de identidad", "Seguridad financiera", "Prevención del fraude", "Oficinas de crédito", "Equifax", "Experian", "TransUnion", "Finanzas personales"]
 tags: ["congelación del crédito", "puntuación de crédito", "protección frente al robo de identidad", "seguridad financiera", "prevención del fraude", "agencias de crédito", "Equifax", "Experian", "TransUnion", "proteger la puntuación de crédito", "salvaguardar el crédito", "informe de crédito", "fraude crediticio", "control del crédito", "emisores de tarjetas de crédito", "congelación del crédito", "protección del crédito", "congelación del informe de crédito", "servicios de supervisión del crédito", "futuro financiero", "importancia de congelar el crédito", "cómo congelar el crédito", "proceso de congelación de crédito", "congelación de seguridad de la oficina de crédito", "congelación de los informes de crédito", "prevenir el robo de identidad", "gestión de la puntuación de crédito", "proteger la información financiera", "medidas de seguridad contra el fraude", "protección de la identidad financiera"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Un candado con una cadena que rodea un informe de solvencia, símbolo de la protección y la seguridad que ofrece la congelación del crédito contra el robo de identidad y el fraude"
 coverCaption: ""
 ---

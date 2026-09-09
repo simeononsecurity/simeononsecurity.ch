@@ -6,7 +6,7 @@ draft: false
 description: "了解非机密信息的真实性质、主要特征、保护措施以及有效保护的相关规定。"
 genre: ["信息安全", "数据管理", "政府法规", "信息共享", "数据保护", "保密性", "风险缓解", "信息管理", "数据分类", "信息获取"]
 tags: ["非机密信息", "信息安全", "政府机构", "数据保护", "信息管理", "受控非机密信息", "访问控制", "加密", "员工培训", "实体安保", "数据分类", "机密性", "信息管理", "降低风险", "信息共享", "数据管理", "政府法规", "信息访问", "保障", "安全措施", "敏感信息", "非机密信息的价值", "公开数据", "CUI 计划", "官方档案", "无障碍", "共享性", "灵敏度有限", "非机密信息的价值", "CUI 计划条例", "事件响应", "实体安全措施"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "一幅象征性插图展示了一个上锁的保险库，里面装有非机密信息。"
 coverCaption: "保护钥匙：为信息安全保护非机密信息"
 ---

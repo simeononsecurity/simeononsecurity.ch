@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Explorați creșterea numărului de deepfakes, amenințările și provocările acestora, precum și măsurile de reglementare în combaterea manipulării mediatice sintetice."
 tags: ["deepfakes", "medii sintetice", "Tehnologie AI", "dezinformare", "știri false", "fraudă", "invazia vieții private", "detectarea deepfake", "cadre de reglementare", "educație", "conștientizare", "era digitală", "tehnologie", "societate", "provocări", "amenințări", "combaterea deepfakes", "responsabilitate", "colaborare", "algoritmi avansați"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "O ilustrație simbolică care înfățișează fața unei persoane care este înlocuită cu o altă față, reprezentând natura înșelătoare a falsurilor și provocările pe care le ridică în manipularea media digitală."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "未使用のインターネット帯域を他の人と共有することで、受動的な収入源に変える方法をご紹介します。"
 tags: ["インターネットでマネタイズ", "パッシブインカム", "未使用帯域幅", "シェアインターネット", "金を稼ぐ", "インターネット接続", "ピアツーピア", "リポケット", "アーンアップ", "ハニーゲイン", "仮想私設通信網", "けんぎょう", "払出オプション", "かわせみ", "BTC", "LTC", "マティック", "収益", "柔軟性", "エイピーキー", "ネトゲで稼ぐ", "インターネット接続のマネタイズ", "パッシブインカム", "うまいこと儲ける", "さいしょうかいようしき", "へいきんしゅうえきりょく", "Repocket Dockerコンテナ", "Repocketのドキュメント", "ペイアウト・システムの徹底理解", "ようせい"]
-cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.webp"
 coverAlt: "Wi-Fi電波を持つ人のポケットにお金のマークが流れている様子をシンボライズしたイラストです。"
 coverCaption: ""
 ---

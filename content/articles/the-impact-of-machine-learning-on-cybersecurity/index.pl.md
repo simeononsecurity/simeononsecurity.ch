@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj wpływ uczenia maszynowego na cyberbezpieczeństwo i jak się do niego dostosować."
 tags: ["Uczenie maszynowe", "Cybersecurity", "Adaptacja", "Sztuczna inteligencja", "Wykrywanie zagrożeń", "Ochrona danych", "W czasie rzeczywistym", "Uczenie się pod nadzorem", "Uczenie bez nadzoru", "Uczenie się przez wzmocnienie", "Fałszywe pozytywy", "Fałszywe negatywy", "Szkolenie pracowników", "Rozwiązania w zakresie bezpieczeństwa", "Analityka danych", "Bezpieczeństwo sieci", "Bezpieczeństwo w chmurze", "Rozpoznawanie wzorów", "Wykrywanie anomalii", "Cyberzagrożenia"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Kreskówkowy robot stojący na straży przed wirtualną tarczą, symbolizujący wykorzystanie uczenia maszynowego w cyberbezpieczeństwie."
 coverCaption: ""
 ---

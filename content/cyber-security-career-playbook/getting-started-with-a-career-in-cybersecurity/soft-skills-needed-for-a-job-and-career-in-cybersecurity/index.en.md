@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-11
 description: "Discover the crucial soft skills needed for a thriving career in cybersecurity, complementing technical expertise and ensuring professional success."
 tags: ["cybersecurity jobs", "cybersecurity career path", "soft skills in cybersecurity", "communication skills in cybersecurity", "problem-solving in cybersecurity", "ethical conduct in cybersecurity", "teamwork in cybersecurity", "adaptability in cybersecurity", "continuous learning in cybersecurity", "cybersecurity industry trends", "cybersecurity certifications", "cybersecurity professionals", "job skills for cybersecurity", "cybersecurity job market", "professional growth in cybersecurity", "cybersecurity best practices", "cybersecurity risk assessment", "cybersecurity threat analysis", "cybersecurity incident response", "cybersecurity policy development", "cybersecurity awareness", "cybersecurity compliance", "cybersecurity regulations", "cybersecurity data protection", "cybersecurity professional development", "cybersecurity networking", "cybersecurity conferences", "cybersecurity job opportunities", "cybersecurity career advancement", "cybersecurity industry demands"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_prot.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_prot.webp"
 coverAlt: "A cartoon illustration of a cybersecurity professional protecting data."
 coverCaption: "Secure Your Future: Master Soft Skills for Cybersecurity Success"
 ---

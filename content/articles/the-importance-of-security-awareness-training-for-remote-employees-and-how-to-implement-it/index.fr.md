@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Renforcez la sécurité de votre personnel à distance grâce à une formation efficace de sensibilisation à la sécurité, et apprenez comment la mettre en œuvre avec succès."
 tags: ["employés à distance", "sensibilisation à la sécurité", "cybersécurité", "formation", "travail à distance", "hameçonnage", "meilleures pratiques", "culture de la sécurité", "gamification", "NIST", "CISA", "Sensibilisation à la sécurité SANS", "Infosec Institute", "KnowBe4", "l'apprentissage continu", "scénarios du monde réel", "formation interactive", "cybermenaces", "plates-formes de formation à la sécurité"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Dessin humoristique représentant un groupe diversifié d'employés à distance participant à une session de sensibilisation à la sécurité sur leur ordinateur portable, avec divers symboles de cybersécurité autour d'eux."
 coverCaption: ""
 ---

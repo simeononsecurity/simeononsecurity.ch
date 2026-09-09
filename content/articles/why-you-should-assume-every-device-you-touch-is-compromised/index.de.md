@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, warum es wichtig ist, davon auszugehen, dass jedes Gerät bereits gefährdet ist, und lernen Sie praktische Maßnahmen zur Verbesserung Ihrer digitalen Sicherheit in der heutigen vernetzten Welt."
 tags: ["Gerätesicherheit", "Cybersicherheit", "digitale Sicherheit", "Cyber-Bedrohungen", "Hacken", "Gerätekompromiss", "datenschutz", "sicheres Surfen", "Sicherheit personenbezogener Daten", "Authentifizierung", "Passwortsicherheit", "Datenschutz in den sozialen Medien", "sichere Kommunikation", "Gerätehygiene", "Datensicherung", "bewährte Praktiken der Cybersicherheit", "digitaler Datenschutz", "Bewusstsein für Cybersicherheit", "Online-Sicherheit", "Internetsicherheit", "Online-Datenschutz", "Cyber-Abwehr", "Cyber-Resilienz", "Denkweise im Bereich der Cybersicherheit", "Sicherheitsmaßnahmen", "Prävention von Cyber-Bedrohungen", "Cybersicherheitsstrategien", "Datenschutz", "Cybersicherheitsausbildung", "Ressourcen für die Cybersicherheit"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Eine symbolische Illustration, die ein Schild mit miteinander verbundenen Geräten und Schlössern zeigt und die Bedeutung der Annahme einer Gerätekompromittierung und der Stärkung der digitalen Sicherheit verdeutlicht."
 coverCaption: ""
 ---

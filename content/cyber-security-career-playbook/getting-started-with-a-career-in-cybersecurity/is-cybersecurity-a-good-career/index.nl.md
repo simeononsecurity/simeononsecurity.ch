@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-04
 description: "Ontdek de voordelen van een carrière in cyberbeveiliging, waaronder baanzekerheid, een hoog salarispotentieel en volop groeimogelijkheden in het digitale tijdperk."
 tags: ["carrière in cyberbeveiliging", "werkzekerheid", "hoog salarispotentieel", "groeikansen", "beroep cyberbeveiliging", "cyberbedreigingen", "digitale veiligheid", "informatiebeveiliging", "cyberbeveiligingsvaardigheden", "cyberbeveiligingsprofessionals", "vraag naar cyberbeveiliging", "cyberbeveiligingsindustrie", "banen in cyberbeveiliging", "cyberbeveiligingsvooruitzichten", "Uitdagingen op het gebied van cyberbeveiliging", "beloningen voor cyberbeveiliging", "cyberbeveiliging toekomst", "mentaliteit cyberbeveiliging", "cyberbeveiligingsbeleid", "technologische nieuwsgierigheid", "continu leren", "stressbeheer", "belang van cyberbeveiliging", "perceptie van cyberbeveiliging", "digitale bescherming", "ontwikkeling van cyberbeveiligingsvaardigheden", "digitale wereld beveiliging", "evoluerende bedreigingen voor cyberbeveiliging", "merkreputatie cyberbeveiliging", "winstgevendheid"]
-cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.webp"
 coverAlt: "Een professional in een superheldencape, staand voor een computerscherm met een schild dat cyberbeveiliging voorstelt."
 coverCaption: "Een cyberbeveiligingsprofessional, de bewaker van digitale veiligheid, uitgerust met het schild van bescherming tegen cyberbedreigingen."
 ---

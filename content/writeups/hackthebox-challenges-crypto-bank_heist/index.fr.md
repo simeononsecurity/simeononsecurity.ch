@@ -5,7 +5,7 @@ draft: false
 toc: true
 description: "Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox."
 tags: ["hackthebox", "cryptographie", "Chiffre T9", "cryptogramme multitap", "cryptogramme atbash", "la cybersécurité", "décoder", "texte chiffré", "challenge", "drapeau", "cybersécurité", "piratage", "apprendre", "tutoriel", "décodage du code", "résolution d'énigmes", "décryptage", "défi de la cryptographie", "compétences en matière de cybersécurité", "apprentissage en ligne"]
-cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png"
+cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.webp"
 coverAlt: "une porte de coffre-fort en bande dessinée qui s'ouvre avec une clé révélant un coffre au trésor, le tout sur fond de paysage urbain parisien au coucher du soleil."
 coverCaption: ""
 ---

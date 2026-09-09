@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect yourself and your business from the most common cyber attack vectors, including social engineering, malware, denial-of-service attacks, password attacks, and web application attacks."
 tags: ["cybersecurity", "cyber attacks", "social engineering", "malware", "denial-of-service", "password attacks", "web application attacks", "security awareness", "spam filters", "multi-factor authentication", "antivirus software", "firewalls", "botnets", "CDNs", "anti-DDoS services", "network performance", "vulnerabilities", "protection", "risk mitigation", "information security"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "A cartoon illustration of a person holding a shield and standing in front of a computer with various attack vectors coming towards them."
 coverCaption: ""
 ---

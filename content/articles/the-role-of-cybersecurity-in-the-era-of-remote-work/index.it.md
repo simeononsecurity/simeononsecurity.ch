@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Una guida completa per le organizzazioni che vogliono garantire la sicurezza della propria forza lavoro remota nell'era del lavoro a distanza."
 tags: ["sicurezza informatica", "lavoro a distanza", "violazioni dei dati", "VPN", "autenticazione a due fattori", "misure di sicurezza", "comunicazione sicura", "minacce informatiche", "software antivirus", "e-mail di phishing", "gestione delle password", "lavorare da casa", "protezione dei dati", "sicurezza online", "sicurezza dei dipendenti", "forza lavoro a distanza", "criminali informatici", "videoconferenza", "messaggistica criptata", "rete privata virtuale"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Illustrazione a fumetti di un computer portatile con un lucchetto, sullo sfondo uno scudo e una spada che rappresentano la sicurezza informatica."
 coverCaption: ""
 ---

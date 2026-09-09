@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți puterea Homebox, un software open-source pentru gestionarea eficientă a inventarului și a activelor, îmbunătățind productivitatea pentru casa sau mica dvs. afacere."
 genre: ["Tehnologie", "Managementul inventarului", "Gestionarea activelor", "Sursă deschisă", "Productivitate", "Afaceri mici", "Managementul casei", "Self-hosted", "Software", "Organizația"]
 tags: ["Homebox", "gestionarea inventarului", "gestionarea activelor", "sursă deschisă", "găzduit de sine stătător", "software", "productivitate", "afaceri mici", "managementul locuinței", "organizație", "inventar centralizat", "urmărirea activelor", "câmpuri de date personalizate", "memento-uri", "raportare", "confidențialitatea datelor", "conformitate", "reglementări guvernamentale", "server web", "baza de date", "procesul de instalare", "Depozitul GitHub", "securitatea datelor", "confidențialitate", "ținerea evidenței", "confidențialitatea și securitatea datelor", "instrucțiuni de instalare", "interfață web", "confidențialitatea datelor", "conformitatea cu legislația locală"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care organizează diverse obiecte cu ajutorul programului Homebox."
 coverCaption: "Simplificați-vă inventarul și bunurile cu Homebox, sporind eficiența!"
 ---

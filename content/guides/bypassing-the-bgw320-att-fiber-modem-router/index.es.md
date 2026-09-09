@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "Aprenda cómo evitar el BGW-320 y utilizar una ONT COTS fabricada por Azores para conectarse a la red de su ISP con esta guía fácil de seguir."
 tags: ["COTS ONT", "BGW-320", "Azores", "fibra", "red", "XGS-PON", "Ethernet", "Paso de IP", "personalización", "ISP", "tener ID", "Dirección MAC", "identificación del equipo", "versión de la imagen", "versión de hardware", "telnet", "Aplicación CLI", "GUI web", "modo de configuración de fábrica", "problemas de compatibilidad"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Un técnico de dibujos animados sostiene una ONT COTS con un cable de fibra al fondo."
 coverCaption: ""
 ---

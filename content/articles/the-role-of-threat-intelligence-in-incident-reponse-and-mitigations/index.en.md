@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how threat intelligence enhances cybersecurity by mitigating and responding to cyber attacks."
 tags: ["Threat Intelligence", "Incident Response", "Cybersecurity", "Mitigation", "Cyber Attacks", "Data Analysis", "Information Systems", "Risk Management", "Vulnerability Assessment", "Detection Capabilities", "Security Controls", "Strategic Intelligence", "Tactical Intelligence", "Operational Intelligence", "Threat Landscape", "Emerging Trends", "Security Awareness", "Digital Forensics", "Cyber Threats", "Dark Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " A cartoon of a cybersecurity team analyzing data and responding to an attack while a magnifying glass hovers over them."
 coverCaption: ""
 ---

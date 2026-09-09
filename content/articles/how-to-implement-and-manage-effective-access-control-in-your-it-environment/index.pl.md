@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić wrażliwe dane i systemy, wdrażając skuteczne środki kontroli dostępu do środowiska IT."
 tags: ["Kontrola dostępu", "Bezpieczeństwo IT", "Cyberbezpieczeństwo", "Hasła", "Uwierzytelnianie biometryczne", "Kontrola dostępu oparta na rolach", "Uwierzytelnianie wieloskładnikowe", "Ochrona danych", "Ocena ryzyka", "Szkolenie pracowników", "Narzędzia do audytu", "Narzędzia do raportowania", "Testy penetracyjne", "Ocena podatności na zagrożenia", "Fizyczna kontrola dostępu", "Logiczna kontrola dostępu", "Przepisy dotyczące zgodności", "HIPAA", "RODO"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Zamknięte drzwi ze skanerem linii papilarnych jako jedynym sposobem na wejście."
 coverCaption: ""
 ---

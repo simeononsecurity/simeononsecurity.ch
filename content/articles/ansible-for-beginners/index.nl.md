@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Leer de basis van Ansible, een open-source automatiseringstool die het beheer van de IT-infrastructuur vereenvoudigt door middel van een declaratieve taal."
 tags: ["Inleiding tot Ansible", "Automatisering van het beheer van de IT-infrastructuur", "Ansible grondbeginselen", "Automatisering van de IT-infrastructuur", "Configuratiebeheer", "Inzet van toepassingen", "Voorziening", "Continue levering", "Naleving van de veiligheidsvoorschriften", "Orkestratie", "YAML", "Ansible modules", "Rollen", "Beste praktijken", "Versiebeheer", "Testen", "Rode Hoed", "Systeembeheerders", "Linux", "macOS", "Windows", "Ansible installatie", "Ansible inventaris", "Ansible playbooks", "Ansible modules", "Ansible rollen", "Ansible best practices", "Ansible testen", "IT-infrastructuurautomatiseringstool", "Ansible handleiding", "Automatisering van het infrastructuurbeheer"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "Een stripfiguur zit aan een bureau, omringd door servers en kabels, met het logo van Ansible op het computerscherm, en lacht terwijl taken worden geautomatiseerd."
 coverCaption: ""
 ---

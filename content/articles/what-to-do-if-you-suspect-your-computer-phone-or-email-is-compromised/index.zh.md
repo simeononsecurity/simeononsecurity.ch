@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如果您怀疑您的电子邮件、台式机或手机遭到黑客攻击或遭到破坏，应采取的基本步骤，包括更改密码、扫描恶意软件和清理设备。"
 tags: ["设备安全", "数据保护", "受损设备", "被黑的电子邮件", "被黑的电话", "恶意软件", "病毒清除", "密码安全", "数据备份", "双因素认证", "网络安全", "上网安全", "数字隐私", "身份盗窃", "网上诈骗", "技术支持", "电脑维修", "数据恢复", "资讯科技服务", "技术"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "一个人站在电脑或电话前的卡通形象，表情忧郁，而卡通黑客则潜伏在背景中。"
 coverCaption: ""
 ---

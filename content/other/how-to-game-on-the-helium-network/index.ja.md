@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "MiddleMan および Chirp Stack Packet Multiplexer の脆弱性を悪用して Helium ネットワークを攻略する方法と、そのリスクと結果について学びます。"
 tags: ["ヘリウムネットワーク", "補償範囲の証明", "ミドルマン", "チャープスタックパケットマルチプレクサ", "ゲーム", "脆弱性の悪用", "LoRaWANネットワーク", "暗号通貨", "ブロックチェーン", "分散型ネットワーク", "ホットスポット", "スプーフィング", "不正行為", "違法行為", "罰則", "ネットワークの完全性", "報酬", "悪意のある俳優", "ネットワークセキュリティー", "正規のホスト"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "LoRaWAN ゲートウェイと MiddleMan または Chirp スタック パケット マルチプレクサの画像を背景に、ヘリウム風船を悪用する個人のグループを漫画風に描いたもの。"
 coverCaption: ""
 ---

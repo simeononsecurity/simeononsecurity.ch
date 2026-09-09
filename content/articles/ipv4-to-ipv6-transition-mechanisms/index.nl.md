@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over de verschillende mechanismen die worden gebruikt voor de overgang van IPv4 naar IPv6 in deze uitgebreide gids."
 tags: ["IPv4", "IPv6", "netwerken", "overgangsmechanismen", "dubbele stapel", "NAT64", "DNS64", "IPv6-tunneling", "ISATAP", "6to4", "DS-lite", "MAP-T", "IPv6-migratie", "netwerkprotocollen", "internetprotocol", "netwerkarchitectuur", "routing", "subnetting", "gericht op"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "Een cartoonbeeld van een persoon die op een kruispunt staat, met een wegwijzer met IPv4- en IPv6-richtingen, die de keuze en de overgang tussen de twee protocollen voorstelt."
 coverCaption: ""
 ---

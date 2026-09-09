@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Learn the essential steps to begin a successful career in cybersecurity, from building a strong foundation to exploring different domains and certifications."
 tags: ["cybersecurity career", "starting in cybersecurity", "build foundation", "networking fundamentals", "operating systems", "coding skills", "enterprise system administration", "blue team", "red team", "purple team", "certifications", "continuous learning", "first cybersecurity job", "portfolio building", "networking for cybersecurity", "internships in cybersecurity", "CompTIA Security", "Certified Ethical Hacker CEH", "Certified Information Systems Security Professional CISSP", "cybersecurity conferences", "cybersecurity trends", "practical experience", "cybersecurity projects", "cybersecurity meetups", "entry-level cybersecurity", "defending against cyber threats", "cybersecurity professionals", "career development", "cybersecurity skills", "cybersecurity education"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "A group of diverse cybersecurity professionals collaborating on securing digital systems and networks."
 coverCaption: "A united team of cybersecurity professionals working together to protect digital systems from cyber threats."
 ---

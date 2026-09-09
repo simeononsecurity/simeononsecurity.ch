@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą."
 genre: ["Automatyzacja", "Zarządzanie infrastrukturą", "Zarządzanie konfiguracją", "DevOps", "Operacje IT", "Open Source", "Zarządzanie przepływem pracy", "Skalowalność", "Współpraca", "Narzędzia Ansible"]
 tags: ["Ansible", "Automatyzacja", "Ansible Tower", "Ansible Semaphore", "Zwykły Ansible", "Zarządzanie infrastrukturą", "Zarządzanie konfiguracją", "DevOps", "Operacje IT", "Open Source", "Zarządzanie przepływem pracy", "Skalowalność", "Współpraca", "Podręczniki", "YAML", "Planowanie zadań", "RBAC", "GUI", "Integracja kontroli wersji", "Idempotentne wykonanie", "Architektura bezagentowa", "Przepływ pracy Ansible", "Funkcje klasy korporacyjnej", "Samodzielne wdrożenie", "Wdrożenie w chmurze", "Licencjonowanie", "Narzędzia do zarządzania infrastrukturą", "Platformy automatyzacji", "Systemy zarządzania przepływem pracy", "Narzędzia DevOps", "Zarządzanie operacjami IT"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca połączone ze sobą koła zębate symbolizujące automatyzację i zarządzanie infrastrukturą za pomocą Ansible"
 coverCaption: "Uwolnij potencjał Ansible do wydajnego zarządzania infrastrukturą"
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Erfahren Sie, wie Sie SHA256-, MD5- und SHA1-Hashes von Dateien unter Linux mithilfe integrierter Tools erhalten und dabei die Integrität und Authentizität der Daten sicherstellen."
 tags: ["Linux-Datei-Hashes", "SHA256-Hash", "MD5-Hash", "SHA1-Hash", "Linux-Befehlszeile", "Dateiintegrität", "Datenvalidierung", "Linux-Sicherheit", "integrierte Tools", "Dateiprüfung", "Datenauthentizität", "Datei-Hashing-Algorithmen", "Linux-Systemverwaltung", "Befehlszeilentools", "Dateiprüfsummen", "Linux-Utilities", "Datei-Integritätsprüfungen", "Überprüfung der Datenintegrität", "Datei-Hash-Beispiele", "Linux-Hash-Befehle", "Datei-Hashing-Methoden", "Linux-Sicherheitsmaßnahmen", "Linux-Datenschutz", "Linux-Dateimanagement", "Linux-Dateiverifizierung", "Integrität von Linux-Dateien", "Datensicherheit", "Linux-Datenvalidierung", "Sicherheit des Linux-Systems", "Datei-Hashing-Verfahren", "Sicherung der Dateiintegrität", "sichere Dateivalidierung", "Linux-Datenintegrität"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Eine digitale Darstellung von Datei-Hashes, die auf einem Linux-Terminal-Bildschirm berechnet werden, als Symbol für Datenintegrität und -sicherheit."
 coverCaption: ""
 ---

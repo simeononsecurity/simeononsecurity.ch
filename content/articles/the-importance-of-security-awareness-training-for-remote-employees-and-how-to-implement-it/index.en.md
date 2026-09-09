@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Strengthen your remote workforce's security through effective security awareness training, and learn how to implement it successfully."
 tags: ["remote employees", "security awareness", "cybersecurity", "training", "remote workforce", "phishing", "best practices", "security culture", "gamification", "NIST", "CISA", "SANS Security Awareness", "Infosec Institute", "KnowBe4", "continuous learning", "real-world scenarios", "interactive training", "cyber threats", "security training platforms"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "A cartoon image of a diverse group of remote employees participating in an engaging security awareness training session on their laptops, with various cybersecurity symbols surrounding them."
 coverCaption: ""
 ---

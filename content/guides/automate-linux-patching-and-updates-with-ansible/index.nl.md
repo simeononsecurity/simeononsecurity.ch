@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u Linux patching en updates kunt automatiseren met Ansible, waarbij verschillende distributies en installatie-instructies aan bod komen."
 tags: ["Linux patchen", "Ansible automatisering", "updates automatiseren", "systeemonderhoud", "IT-automatisering", "patch management", "Linux beveiliging", "Debian", "Ubuntu", "RHEL", "Alpine", "systeemstabiliteit", "beperking van de kwetsbaarheid", "IT-infrastructuur", "automatiseringshulpmiddel", "Ansible playbook", "hostconfiguratie", "software-updates", "naleving van de veiligheidsvoorschriften", "IT-werkzaamheden", "Linux-updates", "Ubuntu", "Debian", "CentOS", "RHEL", "offline updates", "lokale opslagplaats", "cache", "server instellen", "klantinstelling", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Linux systeem updates", "offline pakket updates", "offline software updates", "lokale pakketopslagplaats", "lokale pakketcache", "offline Linux-updates", "afhandeling van offline updates", "offline update-methoden", "offline systeemonderhoud", "Linux server updates", "Linux-client updates", "offline softwarebeheer", "offline pakketbeheer", "updatestrategieën", "Linux beveiligingsupdates"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Een kleurrijke, cartoonachtige afbeelding van een robot die patches aanbrengt op een cluster van Linux-servers."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Informieren Sie sich über die entscheidende Rolle, die das Einfrieren Ihres Kredits für den Schutz Ihrer finanziellen Zukunft spielt, und erfahren Sie, wie Sie die Kontrolle über Ihre Kreditwürdigkeit übernehmen können."
 genre: ["Kredit einfrieren", "Schutz der Kreditwürdigkeit", "Prävention von Identitätsdiebstahl", "Finanzielle Sicherheit", "Betrugsbekämpfung", "Kreditbüros", "Equifax", "Experian", "TransUnion", "Persönliche Finanzen"]
 tags: ["Kreditsperre", "Kreditwürdigkeit", "Schutz vor Identitätsdiebstahl", "finanzielle Sicherheit", "Betrugsverhütung", "Kreditauskunfteien", "Equifax", "Experian", "TransUnion", "Kreditwürdigkeit schützen", "Kredit absichern", "Kreditauskunft", "Kreditbetrug", "Kreditüberwachung", "Kreditkartenherausgeber", "Einfrieren von Krediten", "Kreditschutz", "Sperrung der Kreditauskunft", "Kreditüberwachungsdienste", "finanzielle Zukunft", "Bedeutung des Einfrierens von Krediten", "Kredit einfrieren", "Verfahren zum Einfrieren von Krediten", "Sicherheitssperre der Kreditbüros", "Einfrieren von Kreditberichten", "Verhinderung von Identitätsdiebstahl", "Kreditscore-Management", "Schutz von Finanzinformationen", "Sicherheitsmaßnahmen gegen Betrug", "Schutz der finanziellen Identität"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Ein Schloss mit einer Kette, die um einen Kreditbericht gewickelt ist, symbolisiert den Schutz und die Sicherheit, die das Einfrieren Ihres Kredits gegen Identitätsdiebstahl und Betrug bietet"
 coverCaption: ""
 ---

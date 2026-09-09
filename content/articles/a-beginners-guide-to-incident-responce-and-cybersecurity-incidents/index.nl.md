@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de basisprincipes van het reageren op incidenten en het afhandelen van cyberbeveiligingsincidenten met deze beginnershandleiding."
 tags: ["reactie op incidenten", "cyberbeveiliging", "beginnersgids", "gegevensbescherming", "gegevensbeveiliging", "IT-beveiliging", "netwerkbeveiliging", "cyberaanvallen", "informatiebeveiliging", "cybercriminaliteit", "digitale veiligheid", "IT-infrastructuur", "datalekken", "cyberbedreigingen", "cyberdefensie", "incidentmanagement", "gegevensherstel", "veiligheidsplanning", "risicobeheer", "cyberbeveiligingsstrategie"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "Een cartoonafbeelding van een superheld op het gebied van cyberbeveiliging die een stad verdedigt tegen cyberbedreigingen."
 coverCaption: ""
 ---

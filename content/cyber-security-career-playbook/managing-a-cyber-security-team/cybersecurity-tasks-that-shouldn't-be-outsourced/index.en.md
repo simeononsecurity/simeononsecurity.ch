@@ -6,7 +6,7 @@ date: 2023-07-06
 description: "Enhance your cybersecurity strategy with these essential in-house tasks to safeguard your organization's assets from evolving threats."
 genre: ["Cybersecurity", "In-House Security", "Data Protection", "IT Security", "Information Security", "Cyber Defense", "Cyber Threats", "Risk Management", "Business Security", "Data Privacy"]
 tags: ["cybersecurity tasks", "in-house security", "data protection", "IT security", "information security", "cyber defense", "cyber threats", "risk management", "business security", "data privacy", "security infrastructure", "control and governance", "confidential data", "comprehensive understanding", "communication and collaboration", "merging physical and cybersecurity", "priority attention", "quality maintenance", "cost", "resource limitations", "skill gap", "247 coverage", "cybersecurity regulations", "data breaches", "incident response", "physical security", "cyber-attacks", "outsourcing cybersecurity", "security architecture"]
-cover: "/img/cover/A_symbolic_artwork_depicting_a_shield_with_a_lock_represent.png"
+cover: "/img/cover/A_symbolic_artwork_depicting_a_shield_with_a_lock_represent.webp"
 coverAlt: "A symbolic artwork depicting a shield with a lock, representing robust cybersecurity protection."
 coverCaption: "Empower your defenses with in-house cybersecurity expertise." 
 ---

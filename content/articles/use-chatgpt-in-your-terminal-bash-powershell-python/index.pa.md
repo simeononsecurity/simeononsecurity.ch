@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ਪਾਠ ਬਣਾਉਣ ਅਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦੇਣ ਲਈ ਸੁਵਿਧਾਜਨਕ ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ (CLI) ਦੁਆਰਾ OpenAI ਦੇ ChatGPT ਮਾਡਲ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਬਾਰੇ ਸਿੱਖੋ।"
 tags: ["ਚੈਟਜੀਪੀਟੀ", "OpenAI", "ਕਮਾਂਡ ਲਾਈਨ ਇੰਟਰਫੇਸ", "ਸੀ.ਐਲ.ਆਈ", "ਟੈਕਸਟ ਪੀੜ੍ਹੀ", "ਸਵਾਲ ਦਾ ਜਵਾਬ", "ਡਿਵੈਲਪਰ ਟੂਲਕਿੱਟ", "ਪਾਈਪ ਪੈਕੇਜ ਮੈਨੇਜਰ", "ਪਾਈਥਨ 3.5", "ਪਾਵਰਸ਼ੇਲ", "ਬਾਸ਼"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "ਇੱਕ ਡਿਵੈਲਪਰ ਆਪਣੇ ਕੰਪਿਊਟਰ 'ਤੇ ਬੈਠਾ, ਆਪਣੇ ਟਰਮੀਨਲ 'ਤੇ ਖੁੱਲ੍ਹੇ ChatGPT CLI ਨਾਲ ਆਪਣੇ ਕੀਬੋਰਡ 'ਤੇ ਟਾਈਪ ਕਰ ਰਿਹਾ ਹੈ।"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Descoperiți pașii cheie pentru a implementa în mod eficient Cadrul de securitate cibernetică NICE și pentru a fortifica apărarea organizației dumneavoastră împotriva amenințărilor cibernetice."
 tags: ["Cadrul de securitate cibernetică NICE", "apărare cibernetică", "cele mai bune practici de implementare", "forța de muncă în domeniul securității cibernetice", "analiza deficitului de competențe", "programe de formare", "monitorizare și raportare", "postura de securitate cibernetică", "gestionarea riscurilor", "reglementări guvernamentale", "politici de securitate cibernetică", "protecția datelor", "răspunsul la incidente", "securitatea rețelei", "gestionarea vulnerabilității", "controale de securitate", "informații privind amenințările cibernetice", "măsurători de securitate cibernetică", "îmbunătățire continuă", "criterii de referință din industrie", "reziliența cibernetică", "gestionarea incidentelor de securitate", "peisajul amenințărilor cibernetice", "guvernanța în materie de securitate cibernetică", "supravegherea securității cibernetice", "aprovizionare securizată", "clasificarea datelor", "cerințe de conformitate", "certificări în domeniul securității cibernetice", "formare de conștientizare în domeniul securității cibernetice"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Un supererou cu scut care protejează o infrastructură de rețea de amenințările cibernetice."
 coverCaption: "Apărare, protecție, securitate: Consolidarea apărării dvs. cibernetice cu ajutorul cadrului NICE"
 ---

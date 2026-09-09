@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Découvrez le rôle central des langages de programmation dans la cybersécurité et examinez leurs applications, leurs outils et leur importance dans la sécurisation des systèmes numériques."
 tags: ["les langages de programmation", "cybersécurité", "outils clés", "applications", "systèmes sécurisés", "sécurité des réseaux", "applications web", "évaluation de la vulnérabilité", "tests de pénétration", "codage sécurisé", "sécurité du système", "les langages de script", "automation", "communication sécurisée", "l'analyse des données", "apprentissage automatique", "incident response", "développement de l'exploitation", "cadres de sécurité", "durcissement du système", "analyse du journal", "Sécurité Windows", "les protocoles de réseau", "développement web", "pratiques de codage sécurisées", "les services de cryptographie", "bac à sable", "le contrôle d'accès", "ingénierie inverse", "détection des menaces", "gestion de la sécurité"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "Illustration symbolique présentant une icône en forme de bouclier représentant la cybersécurité, entourée d'extraits de code dans différents langages de programmation."
 coverCaption: "Représentation symbolique du lien vital entre les langages de programmation et la cybersécurité, mettant en évidence la diversité des outils et des applications."
 ---

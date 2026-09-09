@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Imparate a creare una rete Wi-Fi sicura per proteggere i vostri dati e garantire un'esperienza online sicura."
 tags: ["rete Wi-Fi sicura", "Sicurezza Wi-Fi", "crittografia di rete", "Password Wi-Fi", "aggiornamenti del firmware del router", "protezione firewall", "disabilitare la gestione remota", "accesso al router predefinito", "Filtraggio degli indirizzi MAC", "disabilitare il WPS", "rete ospite", "monitorare l'attività di rete", "sicurezza online", "protezione dei dati", "privacy di rete", "sicurezza informatica", "rete wireless", "sicurezza in Internet", "Protezioni di rete", "vulnerabilità della rete"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Uno scudo che protegge il segnale Wi-Fi dagli hacker."
 coverCaption: ""
 ---

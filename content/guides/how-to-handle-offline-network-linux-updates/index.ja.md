@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Linuxのアップデート", "Ubuntu", "デビアン", "CentOS", "RHEL", "オフラインアップデート", "ローカルリポジトリ", "キャッシュ", "サーバーのセットアップ", "クライアントのセットアップ", "適切なミラー", "デブミラー", "リポジトリの作成", "apt-cacher-ng", "ヤムクロン", "Linux システムのアップデート", "オフラインパッケージのアップデート", "オフラインソフトウェアアップデート", "ローカルパッケージリポジトリ", "ローカルパッケージキャッシュ", "オフライン Linux アップデート", "オフラインアップデートの処理", "オフラインアップデート方法", "オフラインでのシステムメンテナンス", "Linuxサーバーのアップデート", "Linuxクライアントのアップデート", "オフラインのソフトウェア管理", "オフラインパッケージ管理", "戦略を更新する", "Linuxのセキュリティアップデート"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "オフラインで更新を交換するサーバーと複数のクライアント デバイスを描いた漫画のイラスト。"
 coverCaption: ""
 ---

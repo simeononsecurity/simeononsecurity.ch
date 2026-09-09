@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak wybrać idealną polisę ubezpieczeniową cyberbezpieczeństwa, aby chronić swoją firmę przed zagrożeniami cybernetycznymi."
 tags: ["ubezpieczenie cyberbezpieczeństwa", "ochrona danych", "zarządzanie ryzykiem", "polityka cyberbezpieczeństwa", "bezpieczeństwo danych", "cyberataki", "ubezpieczenie cybernetyczne", "bezpieczeństwo sieci", "ciągłość działania", "ochrona ubezpieczeniowa", "naruszenie danych", "polisa ubezpieczeniowa", "Bezpieczeństwo IT", "reakcja na incydent", "ocena ryzyka", "cyberprzestępczość", "ochrona finansowa", "cyberzagrożenia", "roszczenia ubezpieczeniowe", "ubezpieczenie biznesowe"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Kreskówka przedstawiająca właściciela firmy trzymającego tarczę z napisem cybersecurity insurance i blokującego cyberzagrożenia."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Dowiedz się, jak napastnicy mogą wykorzystywać femtokomórki do przechwytywania rozmów telefonicznych i tekstów oraz co możesz zrobić, aby zabezpieczyć się przed takimi atakami."
 tags: ["ataki femtokomórkowe", "bezpieczeństwo mobilne", "cybersecurity", "sieci komórkowe", "VPN", "klonowanie telefonu", "prywatność danych", "bezpieczeństwo internetu", "urządzenia mobilne", "dostawcy usług telefonii komórkowej", "bezpieczeństwo sieci", "bezpieczeństwo bezprzewodowe", "bezpieczeństwo telefonów komórkowych", "podatności", "cyberataki", "poprawki bezpieczeństwa", "szyfrowanie danych", "cyberprzestępczość", "wskazówki dotyczące bezpieczeństwa", "bezpieczne przesyłanie wiadomości"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Tarcza z symbolem zamka chroniąca telefon komórkowy przed ręką hakera próbującego uzyskać do niego dostęp."
 coverCaption: ""
 ---

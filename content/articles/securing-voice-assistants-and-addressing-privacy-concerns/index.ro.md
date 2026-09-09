@@ -6,7 +6,7 @@ date: 2023-07-18
 description: "Aflați cum să securizați asistenții vocali și să vă protejați confidențialitatea cu strategii eficiente de atenuare a problemelor legate de confidențialitate."
 genre: ["Știri despre tehnologie", "Confidențialitate și securitate", "Dispozitive inteligente pentru acasă", "Asistenți digitali", "Confidențialitatea datelor", "Electronice de consum", "Gadget-uri Tech", "Internetul lucrurilor", "Automatizarea locuinței", "Securitatea datelor"]
 tags: ["asistenți vocali", "probleme de confidențialitate", "securitatea datelor", "strategii de atenuare", "dispozitive inteligente pentru casă", "asistenți digitali", "comenzi vocale", "încălcări ale datelor", "riscuri de confidențialitate", "acces neautorizat", "interceptare", "stocarea datelor", "setări de confidențialitate", "protecția datelor", "integrări cu terți", "actualizări de firmware", "parole puternice", "autentificare cu doi factori", "alternative pentru asistentul vocal", "educația utilizatorilor", "știri despre tehnologie", "conștientizarea confidențialității", "utilizarea în siguranță a asistentului vocal", "protecția datelor cu caracter personal", "automatizare inteligentă a casei", "tendințe tehnologice", "confidențialitate digitală", "electronice de consum", "reglementările privind confidențialitatea datelor"]
-cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.png"
+cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.webp"
 coverAlt: "O ilustrație în stil de desen animat care prezintă o persoană care vorbește cu un dispozitiv de asistent vocal, cu un lacăt care simbolizează confidențialitatea și securitatea."
 ---
  Securizarea asistenților vocali: Preocupări legate de confidențialitate și strategii de atenuare

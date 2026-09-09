@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn best practices for secure coding in C# to minimize the risk of security breaches and protect sensitive data."
 tags: ["Secure coding", "C sharp development", "C Sharp programming", "secure coding practices", "C Sharp security", "ASP.NET security", ".NET Core security", "input validation", "password hashing", "cryptography", "least privilege", "static code analyzer", "web application security", "SQL injection prevention", "cross-site scripting prevention", "data protection", "health checks", "session management", "OWASP best practices", "C Sharp secure coding standards", "C Sharp security guidelines", "secure coding tips", "secure software development", "secure coding frameworks", "secure coding techniques", "secure coding recommendations", "C Sharp secure programming", "secure coding vulnerabilities", "secure coding tools", "secure coding tutorials", "Best practices for secure coding in C Sharp", "C Sharp secure coding guidelines", "Secure coding standards for C Sharp developers", "C Sharp secure coding practices", "How to implement secure coding in C Sharp", "Secure coding tips for C Sharp programmers", "Secure coding in C Sharp web applications", "C Sharp secure coding frameworks", "Secure coding techniques for C Sharp developers", "C Sharp secure coding tools"]
-cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png"
+cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.webp"
 coverAlt: " A cartoon developer with a lock icon as the head, surrounded by code and shielded by a firewall."
 coverCaption: ""
 ---

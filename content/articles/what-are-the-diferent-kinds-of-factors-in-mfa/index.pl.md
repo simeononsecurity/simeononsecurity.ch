@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj różne rodzaje uwierzytelniania wieloczynnikowego i dowiedz się, jak wybrać najlepszy dla swoich potrzeb bezpieczeństwa w naszym ostatecznym przewodniku."
 tags: ["uwierzytelnianie wieloczynnikowe", "bezpieczeństwo w sieci", "hasło bezpieczeństwa", "czynniki uwierzytelniające", "uwierzytelnianie dwuskładnikowe", "tokeny sprzętowe", "uwierzytelnianie oprogramowania", "cybersecurity", "ataki phishingowe", "zapobieganie hakerstwu", "ochrona danych", "weryfikacja tożsamości", "bezpieczeństwo haseł", "tokeny bezpieczeństwa", "kontrola dostępu", "kradzież tożsamości", "zagrożenia cybernetyczne", "bezpieczeństwo cyfrowe", "aplikacje uwierzytelniające", "cyberobrona"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Kreskówkowa postać stojąca przed komputerem, z symbolem kłódki nad głową i unoszącymi się wokół niej różnymi rodzajami czynników uwierzytelniających, takich jak klucz, telefon, odcisk palca itp."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come scegliere la polizza assicurativa di cybersecurity perfetta per proteggere la vostra azienda dalle minacce informatiche."
 tags: ["assicurazione di cybersicurezza", "protezione dei dati", "gestione del rischio", "politica di cybersicurezza", "sicurezza dei dati", "attacchi informatici", "assicurazione informatica", "sicurezza della rete", "continuità aziendale", "copertura assicurativa", "violazione dei dati", "polizza assicurativa", "Sicurezza informatica", "risposta agli incidenti", "valutazione del rischio", "criminalità informatica", "protezione finanziaria", "minacce informatiche", "sinistri assicurativi", "assicurazione aziendale"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Un'immagine a fumetti di un imprenditore che tiene in mano uno scudo con l'etichetta di assicurazione per la sicurezza informatica e blocca le minacce informatiche."
 coverCaption: ""
 ---

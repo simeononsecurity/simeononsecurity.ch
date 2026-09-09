@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーセキュリティにおけるリスクマネジメントの重要性と、ビジネスに有効なプログラムの作り方についてご紹介します。"
 tags: ["サイバーセキュリティ", "リスクマネージメント", "セキュリティポスチャー", "リスクアセスメント", "リスク軽減", "リスクモニタリング", "脅威", "脆弱性", "情報セキュリティ", "データ保護", "コンプライアンス", "サイバー攻撃", "意思決定", "コストダウン", "事業継続性", "リスク分析", "リスク識別", "リスクコントロール", "リスクトリートメント", "継続的改善"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "錠前と鍵がついた盾はサイバーセキュリティを象徴し、その上の虫眼鏡はリスクマネジメントを表しています。"
 coverCaption: ""
 ---

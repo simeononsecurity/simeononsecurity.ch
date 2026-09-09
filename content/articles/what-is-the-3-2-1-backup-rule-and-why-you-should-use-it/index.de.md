@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Ihre wertvollen Daten vor Cyberangriffen, Naturkatastrophen und Hardwareausfällen schützen können."
 tags: ["Backup-Strategie", "datenschutz", "Cybersicherheit", "Datenredundanz", "Vermeidung von Datenverlusten", "Datenwiederherstellung", "Compliance", "externe Festplattenlaufwerke", "Cloud-Speicherdienste", "netzgebundener Speicher", "Sicherungssoftware", "automatisierte Backups", "Datensicherheit", "Notfallwiederherstellung", "Offsite-Datensicherung", "redundante Backups", "bewährte Sicherungsmethoden", "Backup-Lösungen", "Lagertypen", "Datensicherheit"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Eine Zeichentrickfigur mit Umhang, die ein Schild mit der Zahl 3 in der Hand hält, während sie auf zwei Speicherboxen steht, von denen eine eine Festplatte und die andere eine Wolke darstellt, und auf einen Globus zeigt, der für die externe Speicherung steht."
 coverCaption: ""
 ---

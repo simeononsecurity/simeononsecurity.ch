@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u Packer kunt gebruiken om machine-images te maken die gemakkelijk te onderhouden en te beveiligen zijn."
 tags: ["Packer", "Infrastructuur als code", "DevOps", "Automatisering", "Beveiliging", "Herhaalbaarheid", "Schaalbaarheid", "Multi-Platform", "Versiecontrole", "Cloud Computing", "Machinebeelden", "Virtualisatie", "Configuratiebeheer", "Continue Integratie", "Continue levering", "Software Ontwikkeling", "Beste praktijken", "Testen", "Open Bron", "Multi-Cloud"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "Een beeld in cartoonstijl van een inpakker die verschillende machinebeelden maakt voor meerdere platforms, met een laptop en wolken op de achtergrond."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "通过这些针对网络安全、软件开发和 IT 专业人士的专业简历写作技巧，增加您找到理想工作的机会。"
 tags: ["简历写作技巧", "网络安全专业人员", "软件开发", "信息技术专业人员", "求职", "职业建议", "技术技能", "项目亮点", "网络安全意识", "解题技巧", "行业趋势", "专业发展", "遵守 GDPR", "CCPA 法规", "就业市场", "简历优化", "求职信", "简历技巧", "求职策略", "职业发展"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "这是一幅卡通风格的插图，人物手持简历，周围环绕着网络安全符号和代码片段。"
 coverCaption: ""
 ---

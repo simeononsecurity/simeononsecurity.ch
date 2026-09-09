@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear un laboratorio doméstico rentable y seguro para adquirir experiencia práctica en TI, experimentando con conceptos de software, hardware y redes."
 tags: ["laboratorio en casa", "virtualización", "hardware", "software", "red", "seguridad", "aprender", "pruebas", "Profesional de TI", "entusiasta de la tecnología", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "configuración de red", "gestión de máquinas virtuales", "copia de seguridad y recuperación", "computación en nube", "ciberseguridad"]
-cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png"
+cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Imagen animada en 3D de la configuración de un laboratorio doméstico bien organizado, que incluye un bastidor de servidores, equipos de red y varias pantallas que muestran máquinas virtuales, mapas de red y funciones de seguridad, todo ello en un acogedor entorno doméstico."
 coverCaption: ""
 ---

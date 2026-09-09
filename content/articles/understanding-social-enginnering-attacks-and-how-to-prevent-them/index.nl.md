@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u social engineering-aanvallen kunt voorkomen en de gevoelige informatie van uw organisatie kunt beschermen met behulp van personeelstraining, beveiligingsbeleid en meer."
 tags: ["social engineering", "cyberbeveiliging", "preventie", "werknemersopleiding", "veiligheidsbeleid", "multi-factor authenticatie", "anti-virus", "fysieke veiligheid", "overheidsvoorschriften", "FISMA", "HIPAA", "gegevensbescherming", "cyberdreigingen", "netwerkbeveiliging", "informatiebeveiliging", "gevoelige informatie", "cybercriminaliteit", "compliance", "cyberbeveiligingsstrategie", "gegevensbeveiliging"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Een hacker probeert een persoon te lokken met een hengel, terwijl een schild en slot cybersecurity symboliseren."
 coverCaption: ""
 ---

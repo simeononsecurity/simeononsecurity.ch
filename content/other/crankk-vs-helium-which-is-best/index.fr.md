@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Découvrez les différences entre les réseaux Crankk et Helium IoT, leurs modèles de consensus, le matériel minier, les frais de gaz, et plus encore."
 tags: ["Crankk contre l'IdO à l'hélium", "Réseaux IdO", "modèles consensuels", "matériel minier", "frais de gaz", "chaîne de blocs", "LoRaWAN", "Connectivité IdO", "Communication sans fil", "Internet des objets", "réseaux décentralisés", "appareils à faible consommation", "Solutions IdO", "appareils intelligents", "Applications IdO", "transmission de données", "solutions de connectivité", "Technologie IdO", "comparaison de réseau", "réseaux sans fil"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "Une illustration de dessin animé présentant les réseaux Crankk et Helium IoT connectant des appareils intelligents dans un environnement décentralisé et sans fil."
 coverCaption: ""
 ---

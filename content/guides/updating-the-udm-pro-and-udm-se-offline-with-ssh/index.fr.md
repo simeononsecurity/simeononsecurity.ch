@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Apprenez à mettre à jour le micrologiciel d'Ubiquiti Unifi UDM Pro et UDM SE hors ligne via la ligne de commande SSH pour des performances et une sécurité optimales."
 tags: ["Mise à jour du micrologiciel Ubiquiti", "UDMPro", "UDM SE", "mise à jour du firmware hors ligne", "SSH en ligne de commande", "la gestion du réseau", "sécurité Internet", "mise à jour du firmware", "Connexion SSH", "fichier du micrologiciel", "Contrôleur de réseau UniFi", "corrections de bogues", "Amélioration des performances", "correctifs de sécurité", "la mise en réseau", "Périphériques réseau", "technologie", "gestion IT", "processus de mise à jour du micrologiciel", "optimisation du réseau", "Mise à jour du micrologiciel Ubiquiti Networks", "Mise à jour du micrologiciel UDM Pro", "Mise à jour du micrologiciel UDM SE", "processus de mise à jour du firmware hors ligne", "Mise à jour du micrologiciel SSH", "gestion des périphériques réseau", "mises à jour de sécurité réseau", "stratégies de mise à jour du firmware", "gestion du micrologiciel hors ligne", "optimisation des performances du réseau", "gestion des correctifs de sécurité", "mises à jour de la technologie réseau"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Une illustration colorée représentant un ordinateur se connectant à un routeur via SSH symbolisant le processus de mise à jour du micrologiciel hors ligne pour les appareils Ubiquiti Unifi UDM Pro et UDM SE."
 coverCaption: ""
 ---

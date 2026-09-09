@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Poznaj zagrożenia ransomware i środki zapobiegawcze, które możesz podjąć, aby się przed nimi chronić."
 tags: ["ransomware", "cybersecurity", "prewencja", "kopia zapasowa", "antywirus", "VPN", "uwierzytelnianie wieloczynnikowe", "przepisy rządowe", "phishing", "inżynieria społeczna", "złośliwe oprogramowanie", "cyberprzestępczość", "bezpieczeństwo danych", "bezpieczeństwo sieci", "cyberatak", "szyfrowanie", "higiena cybernetyczna", "reakcja na incydent", "ochrona danych", "świadomość cybernetyczna"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Komputer z zamkiem i łańcuchem wokół niego, symbolizującym szyfrowanie danych przez oprogramowanie ransomware."
 coverCaption: ""
 ---

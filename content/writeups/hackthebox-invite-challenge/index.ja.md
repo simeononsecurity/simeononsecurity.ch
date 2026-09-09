@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "招待コードを生成し、HackTheBox オンライン プラットフォームに参加して、Windows と Linux の両方で侵入テストとサイバーセキュリティのスキルをテストして向上させる方法を学びます。"
 tags: ["ハックザボックス", "チャレンジを招待する", "侵入テスト", "サイバーセキュリティ", "ウィンドウズ", "Linux", "オンラインプラットフォーム", "HTTPポスト", "招待コード", "Base64エンコード", "パワーシェル", "Linuxバッシュ", "Base64 デコード", "コード生成の招待", "プログラミング", "ウェブ開発", "テクノロジー", "ITセキュリティ", "ITトレーニング"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "HackTheBox のロゴの配色 (青と白) の街並みの背景に、キーで金庫室のドアがロック解除され、トロフィーまたはメダルが現れる HackTheBox Web サイトを示す漫画のコンピューター画面。"
 coverCaption: ""
 ---

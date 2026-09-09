@@ -6,7 +6,7 @@ date: 2023-07-18
 description: "Leer hoe je spraakassistenten kunt beveiligen en je privacy kunt beschermen met effectieve strategieën tegen privacyproblemen."
 genre: ["Technologie Nieuws", "Privacy en veiligheid", "Slimme thuisapparaten", "Digitale assistenten", "Privacy van gegevens", "Consumentenelektronica", "Technische gadgets", "Internet der dingen", "Huis Automatisering", "Gegevensbeveiliging"]
 tags: ["spraakassistenten", "privacybelangen", "gegevensbeveiliging", "mitigatiestrategieën", "slimme thuisapparaten", "digitale assistenten", "spraakopdrachten", "datalekken", "privacyrisico's", "ongeautoriseerde toegang", "afluisteren", "gegevensopslag", "privacy-instellingen", "gegevensbescherming", "integraties met derden", "firmware-updates", "sterke wachtwoorden", "twee-factor authenticatie", "stemassistent alternatieven", "gebruikersvoorlichting", "technieuws", "privacybewustzijn", "Veilig stemassistent gebruik", "bescherming van persoonsgegevens", "slimme huisautomatisering", "technologische trends", "digitale privacy", "consumentenelektronica", "regelgeving gegevensbescherming"]
-cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.png"
+cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.webp"
 coverAlt: "Een illustratie in cartoonstijl van een persoon die praat met een spraakassistent, met een hangslot als symbool voor privacy en veiligheid."
 ---
  Beveiliging van spraakassistenten: Privacyproblemen en strategieën voor risicobeperking

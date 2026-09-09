@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解容器编排在现代 DevOps 中的意义和优势，以及流行的容器编排工具和与容器化相关的政府法规。"
 tags: ["容器协调", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "扩展性", "高可用性", "负载平衡", "安全", "自动化应用程序部署", "HIPAA", "SOX", "GDPR", "合规性", "软件开发", "云计算", "容器化", "技术", "自动化"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "一幅卡通图片，描绘了在乐队指挥的指挥下，跷跷板上的容器分担着相同的重量 "
 coverCaption: ""
 ---

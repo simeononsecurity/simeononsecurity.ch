@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-25
 description: "Découvrez des réponses d'experts et des conseils pour les questions d'entretien les plus courantes en matière de cybersécurité, afin de garantir votre réussite sur le marché du travail concurrentiel."
 tags: ["Entretien sur la cybersécurité", "questions d'entretien", "emploi en cybersécurité", "carrière en cybersécurité", "conseils en matière de cybersécurité", "compétences en matière de cybersécurité", "professionnel de la cybersécurité", "tendances en matière de cybersécurité", "meilleures pratiques en matière de cybersécurité", "principes de cybersécurité", "certifications en cybersécurité", "blogs sur la cybersécurité", "conférences sur la cybersécurité", "éducation à la cybersécurité", "menaces de cybersécurité", "sécurité des réseaux", "la sécurité des données", "incident response", "contrôles de sécurité", "formation des employés", "les contrôles d'accès", "cryptage des données", "segmentation du réseau", "sauvegarde et récupération", "gestion des risques pour les tiers", "sensibilisation à la cybersécurité", "mises à jour sur la cybersécurité", "vulnérabilités en matière de cybersécurité", "réglementation en matière de cybersécurité"]
-cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.png"
+cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.webp"
 coverAlt: "Un personnage de bande dessinée portant une cape de super-héros et tenant un bouclier sur lequel figure un symbole de cadenas."
 coverCaption: "Libérez votre potentiel lors des entretiens sur la cybersécurité."
 ---

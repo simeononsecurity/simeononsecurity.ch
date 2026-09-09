@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de best practices voor het efficiënt en veilig maken van images met Packer, het automatiseren van het proces en het garanderen van consistentie tussen platforms."
 tags: ["Best practices voor verpakkers", "Packer image maken", "automatisch afbeeldingen maken", "machine beeldoptimalisatie", "reproduceerbaarheid", "Inpakker bouwers", "Bevoorraders", "veilige beeldconfiguratie", "beeldformaat optimalisatie", "beeldvalidatie", "Packer documentatie", "Packer GitHub opslagplaats", "AWS EC2-beeldopbouwer", "Azure afbeeldingsbouwer", "VMware Packer bouwer", "Voordelen voor verpakkers", "infrastructuur-as-code-integratie", "versiebeheer voor Packer", "magere machine afbeeldingen", "beeldcompressietechnieken", "geautomatiseerd testen van afbeeldingen", "handmatig testen van afbeeldingen", "Best practices voor beeldvalidatie", "workflows voor software-implementatie", "consistente softwareomgevingen", "Inpakker SEO tips", "Automatisering van Packer-afbeeldingen", "efficiëntie bij het maken van afbeeldingen", "veilig afbeeldingen maken", "geoptimaliseerde machinebeelden"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.webp"
 coverAlt: "Een cartoonillustratie van een pictogram van een Packer-tool die een stapel afbeeldingen bouwt met efficiëntie- en beveiligingsfuncties."
 coverCaption: ""
 ---

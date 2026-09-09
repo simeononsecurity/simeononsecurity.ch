@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'impact de l'IdO sur la cybersécurité et apprenez des stratégies efficaces pour protéger vos appareils connectés."
 tags: ["IdO", "cybersécurité", "sécurité", "Internet des objets", "Dispositifs IoT", "sécurité des réseaux", "protection des données", "vie privée", "dispositifs intelligents", "meilleures pratiques", "Risques liés à l'IdO", "l'authentification", "mises à jour du micrologiciel", "contrôle", "normes industrielles", "règlements", "Lignes directrices sur la sécurité de l'IdO", "segmentation du réseau", "paysage des menaces", "vulnérabilités"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Image animée en 3D d'un bouclier protégeant un groupe d'appareils IoT connectés, symbolisant l'importance de la cybersécurité pour les réseaux IoT."
 coverCaption: ""
 ---

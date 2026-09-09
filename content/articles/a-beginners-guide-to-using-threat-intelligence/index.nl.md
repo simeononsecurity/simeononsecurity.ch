@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Verbeter uw cyberbeveiliging met deze beginnersgids over informatie over bedreigingen en het belang ervan."
 tags: ["Informatie over bedreigingen", "Cyberbeveiliging", "Gids voor beginners", "Tactiek", "Technieken", "Procedures", "Gegevensanalyse", "Kwetsbaarheden", "Veiligheidsoperaties", "Machinaal leren", "Datamining", "Besluitvorming", "Automatisering", "Gemeenschap", "Dark Web Monitoring", "Interne netwerk logs", "Reactie op incidenten", "Phishing-campagnes", "Malware", "Strategische planning"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Een 3D geanimeerd vergrootglas met een oog in het midden, zwevend over een binaire code achtergrond."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "HP t740 Thin Client で pfSense をセットアップする方法、およびフリーズや SSD 検出の問題などの潜在的な問題のトラブルシューティング方法を学びます。"
 tags: ["pfSense", "OPNセンス", "強化されたBSD", "HP t740", "シン・クライアント", "ホームサーバー", "PPPoE", "FreeBSD", "ブートプロンプト", "loader.conf.local", "ナノエディター", "SSDの検出", "M.2 SSD", "ウエスタンデジタル", "トラブルシューティング", "インストール後", "UART", "ESXi", "プロクスモックス"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "フリーズしたコンピューターを修復するための呪文を唱えるウィザードの漫画。「問題が解決しました」という吹き出しが表示されます。"
 coverCaption: ""
 ---

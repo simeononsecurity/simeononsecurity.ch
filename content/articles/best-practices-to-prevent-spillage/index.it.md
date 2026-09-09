@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le migliori pratiche e strategie per prevenire la fuoriuscita di informazioni e salvaguardare i dati sensibili, garantendo una maggiore sicurezza e protezione."
 tags: ["sicurezza delle informazioni", "protezione dei dati", "informazioni classificate", "fuoriuscita di informazioni", "strategie di prevenzione", "migliori pratiche", "controlli di accesso", "crittografia", "formazione dei dipendenti", "sicurezza informatica", "prevenzione della perdita di dati", "valutazioni di sicurezza", "regolamenti governativi", "NIST", "minacce interne", "vulnerabilità della sicurezza informatica", "errore umano", "programmi di sensibilizzazione", "consapevolezza del phishing", "Soluzioni DLP", "controllo degli accessi basato sui ruoli", "autenticazione a più fattori", "gestione delle chiavi di crittografia", "protezione degli endpoint", "ispezione dei contenuti", "controlli di sicurezza", "test di penetrazione", "pianificazione della risposta agli incidenti", "protocolli di sicurezza", "protezione delle informazioni"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Uno scudo chiuso che protegge le informazioni sensibili da accessi non autorizzati."
 coverCaption: ""
 ---

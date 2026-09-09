@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie mit effektiver Notfallplanung und bewährten Verfahren eine widerstandsfähige Infrastruktur aufbauen können."
 tags: ["Cyber-Resilienz", "Notfallwiederherstellungsplanung", "DRP", "Risikomanagement", "Geschäftskontinuität", "datenschutz", "Einhaltung von Rechtsvorschriften", "NIST Cybersecurity Framework", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "Cloud-Backup", "Sicherungs- und Wiederherstellungssoftware", "Risikobewertungsinstrumente", "incident response services", "Cybersicherheit", "Informationssicherheit", "IT-Infrastruktur"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Ein Schild mit einem Häkchen und dem Schriftzug Cyber Resilient Infrastructure, umgeben von herabfallenden Pixeln und dem Hintergrund einer brennenden Stadt."
 coverCaption: ""
 ---

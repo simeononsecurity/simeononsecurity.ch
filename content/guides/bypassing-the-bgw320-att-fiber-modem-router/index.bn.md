@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "কীভাবে BGW-320 বাইপাস করবেন এবং আপনার ISP-এর নেটওয়ার্কের সাথে সংযোগ করতে Azores-এর তৈরি একটি COTS ONT ব্যবহার করবেন তা এই সহজ-অনুসরণযোগ্য গাইডের মাধ্যমে শিখুন।"
 tags: ["COTS ONT", "BGW-320", "অ্যাজোরস", "ফাইবার", "অন্তর্জাল", "XGS-PON", "ইথারনেট", "আইপি পাসথ্রু", "কাস্টমাইজেশন", "আইএসপি", "অন আইডি", "MAC ঠিকানা", "সরঞ্জাম আইডি", "ইমেজ সংস্করণ", "হার্ডওয়্যার সংস্করণ", "টেলনেট", "CLI আবেদন", "ওয়েব GUI", "কারখানা কনফিগারেশন মোড", "উপযুক্ততা বিষয়"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "ব্যাকগ্রাউন্ডে একটি ফাইবার তারের সাথে একটি COTS ONT ধরে থাকা একজন কার্টুন প্রযুক্তিবিদ৷"
 coverCaption: ""
 ---

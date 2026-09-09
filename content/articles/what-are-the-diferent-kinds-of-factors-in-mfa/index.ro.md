@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați despre diferitele tipuri de autentificare cu mai mulți factori și despre cum să o alegeți pe cea mai bună pentru nevoile dvs. de securitate în ghidul nostru final."
 tags: ["autentificare multifactor", "securitate online", "securitatea parolei", "factori de autentificare", "autentificare cu doi factori", "jetoane hardware", "autentificare software", "securitate cibernetică", "atacuri de tip phishing", "prevenirea hackingului", "protejarea datelor", "verificarea identității", "siguranța parolei", "jetoane de securitate", "controlul accesului", "furt de identitate", "amenințări cibernetice", "securitate digitală", "aplicații de autentificare", "apărare cibernetică"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "O persoană din desene animate care stă în fața unui computer, cu un simbol de lacăt deasupra capului și diferite tipuri de factori de autentificare, cum ar fi o cheie, un telefon, o amprentă etc., plutind în jurul lor"
 coverCaption: ""
 ---

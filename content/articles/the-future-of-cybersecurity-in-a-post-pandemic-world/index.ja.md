@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "パンデミック後の世界におけるサイバーセキュリティの未来に備え、サイバー攻撃の被害に遭うリスクを低減する方法をご紹介します。"
 tags: ["サイバーセキュリティ", "ポストパンデミック", "後", "リモートワーク", "エーアイ", "機械学習", "IoT", "ソフトウェアアップデート", "暗証番号", "二要素認証", "教育", "仮想私設通信網", "ファームウェアの更新", "フィッシング", "ランサムウェア", "クラウドセキュリティ", "データ保護", "ネットワークセキュリティ", "脅威検出", "デジタルプライバシー"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "マルウェア、ウイルス、フィッシング、ハッキングなどの様々なサイバー攻撃からコンピュータ画面を守るために、コンピュータ画面の前に盾を持って立っている人を漫画風に表現した画像です。"
 coverCaption: ""
 ---

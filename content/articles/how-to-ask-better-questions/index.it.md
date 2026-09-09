@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a porre domande specifiche e pertinenti, evitando di perdere tempo."
 tags: ["produttività", "comunicazione", "risoluzione dei problemi", "ricerca", "conversazione", "interrogazione", "informazioni", "impegno", "competenza", "gestione del tempo", "conoscenza", "competenze", "apprendimento", "collaborazione", "pensiero critico", "curiosità", "focus", "analisi", "inchiesta", "curiosità"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "una persona che tiene in mano un megafono, circondato da punti interrogativi ed esclamativi, che rappresenta l'importanza di porre domande efficaci e di cercare intuizioni preziose"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra la importancia de la ciberseguridad en el sector educativo y aprenda a proteger los datos confidenciales de los estudiantes."
 tags: ["ciberseguridad", "educación", "datos del alumno", "protección de datos", "privacidad", "FERPA", "NIST", "HEISC", "Internet2", "Instituto SANS", "políticas de seguridad", "phishing", "formación de sensibilización", "evaluación de riesgos", "autenticación multifactor", "codificación", "respuesta a incidentes", "seguridad de la red", "acceso seguro", "cortafuegos"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Imagen animada en 3D que muestra un escudo que protege un ordenador portátil con un birrete de graduación, símbolo de la protección de los datos de los estudiantes en el sector educativo."
 coverCaption: ""
 ---

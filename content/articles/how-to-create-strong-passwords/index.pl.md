@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Dowiedz się, jak tworzyć silne hasła, używać fraz i bezpiecznie nimi zarządzać za pomocą menedżerów haseł, takich jak Bitwarden."
 tags: ["silne hasła", "bezpieczeństwo hasła", "hasła", "menedżery haseł", "Bitwarden", "bezpieczeństwo online", "cyberbezpieczeństwo", "siła hasła", "ochrona danych", "bezpieczeństwo cyfrowe", "najlepsze praktyki dotyczące haseł", "wskazówki dotyczące haseł", "bezpieczne hasła", "narzędzia do zarządzania hasłami", "prywatność online", "ochrona kont", "bezpieczeństwo danych", "złożoność hasła", "generator haseł", "uwierzytelnianie dwuskładnikowe", "Tworzenie silnych haseł", "przewodnik zarządzania hasłami", "wskazówki dotyczące bezpieczeństwa haseł", "Tworzenie silnych haseł", "ochrona hasłem", "Bezpieczne zarządzanie hasłami", "zalety menedżera haseł", "bezpieczeństwo hasła", "rekomendacje dotyczące menedżera haseł", "najlepsze praktyki dotyczące menedżera haseł", "bezpieczeństwo menedżera haseł", "Funkcje menedżera haseł"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Postać z kreskówki trzymająca tarczę z symbolem kłódki, reprezentująca bezpieczeństwo i ochronę hasła."
 coverCaption: ""
 ---

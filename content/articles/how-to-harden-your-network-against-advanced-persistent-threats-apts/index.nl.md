@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de belangrijkste stappen om uw netwerkinfrastructuur te harden tegen Advanced Persistent Threats (APT's) en uw organisatie te beschermen tegen cyberaanvallen."
 tags: ["netwerkbeveiliging", "cyberbeveiliging", "geavanceerde aanhoudende bedreigingen", "netwerkinfrastructuur", "toegangscontroles", "data-encryptie", "werknemersopleiding", "incidentenbestrijdingsplan", "kwetsbaarheidsbeoordelingen", "veiligheidsbeleid", "bewaking van het netwerkverkeer", "phishing-aanvallen", "bescherming van eindpunten", "inbraakdetectie", "firewalls", "SIEM", "gegevensback-up", "netwerksegmentatie", "cyberdreigingen", "gegevensprivacy"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Een cartoonachtig schild met een slotpictogram in het midden voor netwerkbeveiliging tegen APT's"
 coverCaption: ""
 ---

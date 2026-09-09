@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Zwiększ swoje umiejętności w zakresie cyberbezpieczeństwa dzięki programom online i kursom wideo obejmującym szeroki zakres tematów, aby wyprzedzić pojawiające się zagrożenia i zabezpieczyć środowiska cyfrowe."
 tags: ["szkolenie w zakresie cyberbezpieczeństwa", "programy online", "kursy wideo", "edukacja w zakresie cyberbezpieczeństwa", "szkolenia w zakresie bezpieczeństwa informacji", "certyfikaty cyberbezpieczeństwa", "kariera w cyberbezpieczeństwie", "Platformy edukacyjne online", "umiejętności w zakresie cyberbezpieczeństwa", "szkolenie praktyczne", "etyczne hakowanie", "bezpieczeństwo sieci", "prywatność danych", "Analiza cyberzagrożeń", "bezpieczne kodowanie", "reakcja na incydent", "bezpieczeństwo w chmurze", "bezpieczeństwo aplikacji internetowych", "bezpieczeństwo mobilne", "informatyka śledcza", "obrona sieci", "najlepsze praktyki cyberbezpieczeństwa", "branża cyberbezpieczeństwa", "specjaliści ds. cyberbezpieczeństwa", "cyberbezpieczeństwo praca", "trendy w cyberbezpieczeństwie", "zasoby cyberbezpieczeństwa", "świadomość cyberbezpieczeństwa", "aktualności dotyczące cyberbezpieczeństwa", "narzędzia cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Obraz w stylu kreskówki przedstawiający osobę z tarczą chroniącą środowisko cyfrowe przed zagrożeniami cybernetycznymi."
 coverCaption: "Wzmocnij swoją podróż w zakresie cyberbezpieczeństwa: Uwolnij swój cyfrowy potencjał obronny."
 ---

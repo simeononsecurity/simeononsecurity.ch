@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer meer over de verschillende soorten multi-factor authenticatie en hoe u de beste kiest voor uw beveiligingsbehoeften in onze ultieme gids."
 tags: ["multi-factor authenticatie", "online beveiliging", "wachtwoordbeveiliging", "authenticatiefactoren", "twee-factor authenticatie", "hardware tokens", "softwareverificatie", "cyberbeveiliging", "phishing-aanvallen", "preventie van hacken", "gegevensbescherming", "identiteitscontrole", "veiligheid van wachtwoorden", "veiligheidsmunten", "toegangscontrole", "identiteitsdiefstal", "cyberdreigingen", "digitale veiligheid", "authenticatie-apps", "cyberdefensie"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Een stripfiguur die voor een computer staat, met een slotsymbool boven zijn hoofd en verschillende soorten authenticatiefactoren, zoals een sleutel, een telefoon, een vingerafdruk, enz. die om hem heen zweven."
 coverCaption: ""
 ---

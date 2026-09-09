@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Infrastructure as Codeの代表的なツールであるTerraformの基本を学び、インフラを効率的に管理するための使い方を紹介します。"
 tags: ["テラフォーム", "コードとしてのインフラ", "アイエーシー", "クラウドコンピューティング", "デブオプス", "オートメーション", "エーダブリュエス", "アズール", "グーグルクラウド", "クラウドプロバイダー", "コンフィギュレーションマネジメント", "デプロイメント", "プロビジョニング", "リソースマネジメント", "スケーラビリティ", "レジリエンス", "セキュリティ", "コンプライアンス", "ベストプラクティス"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Terraformでインフラを管理することを意味し、ネットワークに接続された複数の機器が積み木のように見える漫画のようなコンピューターモニター。"
 coverCaption: ""
 ---

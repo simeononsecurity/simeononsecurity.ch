@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment créer un système Windows sécurisé et conforme avec le script Standalone-Windows-STIG facile à utiliser, un article informatif avec des instructions étape par étape et des explications détaillées sur les paramètres."
 tags: ["Script STIG", "Sécurité Windows", "Système Windows conforme", "Renforcement du système", "Windows STIG", "Secure Windows", "Conformité de Windows", "Installation manuelle", "Mises à jour de Windows", "Adobe Reader", "Firefox", "Chrome", "Internet Explorer 11", "Cadre .NET", "Bureau", "OneDrive", "Java", "Windows Defender", "Pare-feu Windows", "Atténuations", "Nessus PID", "VMware Horizon", "Durcissement en option"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "Capture d'écran d'un ordinateur avec une barre de progression indiquant le pourcentage d'achèvement."
 coverCaption: ""
 ---

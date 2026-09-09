@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à faire vos achats en ligne en toute sécurité et à protéger vos informations personnelles grâce à ces conseils d'experts et à ces services de masquage."
 tags: ["achats en ligne", "commerce électronique sécurisé", "des transactions sûres", "protection de la vie privée", "services de masquage", "Albine Blur", "privacy.com", "Boîte postale", "CMRA", "mots de passe sécurisés", "authentification à deux facteurs", "prévention de l'hameçonnage", "sites web de confiance", "mises à jour du logiciel", "commentaires des vendeurs", "Wi-Fi public", "VPN", "vie privée en ligne", "prévention de l'usurpation d'identité", "fraude à la carte de crédit", "conseils en matière de cybersécurité", "protection des données", "mesures de sécurité en ligne", "numéros de téléphone temporaires", "adresses électroniques temporaires", "vendeurs en ligne réputés", "protection contre les logiciels malveillants", "prévention des cybermenaces", "des transactions en ligne sécurisées", "la sécurité des informations personnelles"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Illustration de bande dessinée d'une personne naviguant sur un site d'achat en ligne sécurisé, avec un symbole de cadenas et un bouclier en arrière-plan."
 coverCaption: ""
 ---

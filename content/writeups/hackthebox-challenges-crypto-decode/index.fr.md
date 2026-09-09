@@ -5,7 +5,7 @@ draft: false
 description: "Apprenez à décoder les chiffrements Fernet et Malboge pour résoudre le HackTheBox Crypto Challenge et découvrir le drapeau caché."
 tags: ["HackTheBox", "Défis", "Crypto", "Décoder", "Rédaction", "Chiffre de Fernet", "Chiffre de Malboge", "Chiffrement symétrique", "La cyber-sécurité", "Cryptographie", "Tests de pénétration", "Python", "Sécurité", "Défi", "FCT", "Drapeau", "Chiffrement", "Décryptage", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Un hacker de dessin animé debout à côté d'une grande serrure avec une main tenant une clé avec le logo Fernet et l'autre main tenant une clé avec le logo Malboge tandis qu'un drapeau est vu à l'intérieur de la serrure"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Linux-Updates", "Ubuntu", "Debian", "CentOS", "RHEL", "Offline-Updates", "lokales Repository", "Zwischenspeicher", "Server-Setup", "Client-Setup", "passender Spiegel", "debmirror", "createrepo", "apt-cacher-ng", "lecker-cron", "Linux-Systemaktualisierungen", "Offline-Paketaktualisierungen", "Offline-Software-Updates", "lokales Paket-Repository", "lokaler Paketcache", "Offline-Linux-Updates", "Umgang mit Offline-Updates", "Offline-Update-Methoden", "Offline-Systemwartung", "Linux-Server-Updates", "Linux-Client-Updates", "Offline-Softwareverwaltung", "Offline-Paketverwaltung", "Update-Strategien", "Linux-Sicherheitsupdates"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "Eine Cartoon-Illustration, die einen Server und mehrere Client-Geräte zeigt, die offline Updates austauschen."
 coverCaption: ""
 ---

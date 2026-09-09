@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Erfahren Sie, wie Sie die Firmware von Ubiquiti Unifi UDM Pro und UDM SE offline über die Befehlszeile SSH aktualisieren, um optimale Leistung und Sicherheit zu gewährleisten."
 tags: ["Ubiquiti-Firmware-Update", "UDM Pro", "UDM SE", "Offline-Firmware-Update", "Befehlszeilen-SSH", "Netzwerk Management", "Netzwerksicherheit", "Firmware-Upgrade", "SSH-Verbindung", "Firmware-Datei", "UniFi-Netzwerkcontroller", "Fehlerbehebung", "Leistungsverbesserungen", "Sicherheitspatches", "Vernetzung", "Netzwerkgeräte", "Technologie", "IT-Management", "Firmware-Update-Prozess", "Netzwerkoptimierung", "Ubiquiti Networks-Firmware-Update", "UDM Pro-Firmware-Update", "UDM SE-Firmware-Update", "Offline-Firmware-Aktualisierungsprozess", "SSH-Firmware-Update", "Verwaltung von Netzwerkgeräten", "Netzwerksicherheitsupdates", "Firmware-Update-Strategien", "Offline-Firmware-Verwaltung", "Optimierung der Netzwerkleistung", "Verwaltung von Sicherheitspatches", "Aktualisierungen der Netzwerktechnologie"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Eine farbenfrohe Illustration, die einen Computer zeigt, der über SSH eine Verbindung zu einem Router herstellt und den Offline-Firmware-Aktualisierungsprozess für Ubiquiti Unifi UDM Pro- und UDM SE-Geräte symbolisiert."
 coverCaption: ""
 ---

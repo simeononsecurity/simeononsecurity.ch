@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sich vor Cyberstalking schützen und mit diesen Tipps und Techniken online sicher bleiben können."
 tags: ["Cyberstalking", "Online-Sicherheit", "Internetsicherheit", "Stalking-Prävention", "persönliche Sicherheit", "Online-Datenschutz", "Cybersicherheit", "digitale Sicherheit", "Internet-Sicherheit", "Cybermobbing", "Belästigung", "Opferschutz", "rechtliche Schritte", "Beratung", "geistige Gesundheit", "Social-Media-Sicherheit", "Online-Belästigung", "Online-Stalking", "Strafverfolgung", "Schutz der Privatsphäre"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Eine Person, die mit besorgter Miene auf ihr Telefon schaut, während sich im Hintergrund eine schemenhafte Gestalt abzeichnet."
 coverCaption: ""
 ---

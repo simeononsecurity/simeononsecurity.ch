@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum să creați o soluție de backup în cloud sigură și conformă pentru protecția datelor."
 tags: ["backup în cloud", "recuperarea datelor", "protecția datelor", "conformitate", "GDPR", "HIPAA", "FISMA", "furnizor de servicii cloud", "criptare", "controlul accesului", "securitate", "reglementări", "standarde", "cele mai bune practici", "evaluarea vulnerabilității", "teste de penetrare", "audituri", "gestionarea riscurilor", "scalabilitate", "monitorizare"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "O imagine animată 3D a unui seif securizat în nori, cu diverse pictograme de reglementare (GDPR, HIPAA, FISMA) plutind în jurul său și un scut care simbolizează protecția datelor."
 coverCaption: ""
 ---

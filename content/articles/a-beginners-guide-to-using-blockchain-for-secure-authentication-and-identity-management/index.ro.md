@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să utilizați tehnologia blockchain pentru autentificarea sigură și gestionarea identității cu acest ghid pentru începători."
 tags: ["blockchain", "gestionarea identității", "autentificare", "identitate descentralizată", "autentificare fără parolă", "contracte inteligente", "criptografie cu cheie publică", "criptografie cu cheie privată", "înregistrări imuabile", "sistem descentralizat", "autentificare unică", "verificarea acreditărilor", "scalabilitate", "confidențialitate", "adopție", "identitate digitală", "tehnologie de registru distribuit", "securitate cibernetică", "confidențialitatea datelor", "tehnologie"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png"
+cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
 coverAlt: "Un personaj de desene animate care ține o cheie într-o mână și un blockchain în cealaltă, înconjurat de o rețea de noduri și blocuri interconectate."
 coverCaption: ""
 ---

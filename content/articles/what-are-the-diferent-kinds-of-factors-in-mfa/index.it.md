@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i diversi tipi di autenticazione a più fattori e come scegliere quello migliore per le vostre esigenze di sicurezza nella nostra guida definitiva."
 tags: ["autenticazione a più fattori", "sicurezza online", "sicurezza della password", "fattori di autenticazione", "autenticazione a due fattori", "gettoni hardware", "autenticazione del software", "sicurezza informatica", "attacchi di phishing", "prevenzione dell'hacking", "protezione dei dati", "verifica dell'identità", "sicurezza delle password", "gettoni di sicurezza", "controllo degli accessi", "furto d'identità", "minacce informatiche", "sicurezza digitale", "applicazioni di autenticazione", "difesa informatica"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Un personaggio dei cartoni animati in piedi davanti a un computer, con il simbolo di un lucchetto sopra la testa e diversi tipi di fattori di autenticazione, come una chiave, un telefono, un'impronta digitale e così via, che fluttuano intorno a lui."
 coverCaption: ""
 ---

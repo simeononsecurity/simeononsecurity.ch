@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover how Ansible's automation capabilities can simplify, secure, and optimize hybrid cloud environments for improved productivity."
 tags: ["Ops", "CICD", "scalability", "performance", "security", "compliance", "integration", "Amazon Web Services", "Microsoft Azure", "Google Cloud", "Ansible Tower", "Ansible Galaxy", "Ansible Vault", "cost savings", "IT efficiency"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "A vibrant 3D animated illustration of a cloud with gears inside, representing a hybrid cloud environment, showing the efficient and automated management of the cloud infrastructure."
 coverCaption: ""
 ---

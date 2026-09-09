@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aquesta guia completa ofereix una visió general detallada de què és un Home Lab, per què crear-ne un, quins components es necessiten, com configurar-lo, temes avançats per explorar i bones pràctiques a seguir."
 tags: ["Laboratori a casa", "professionals informàtics", "estudiants", "aficionats", "treball en xarxa", "virtualització", "automatització", "maquinari", "programari", "millors pràctiques", "guia"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Una persona asseguda a un escriptori amb un ordinador i un equip de xarxa, envoltada de llibres i notes."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Proteggete i vostri figli dai pericoli online con questi consigli e strategie di sicurezza su Internet."
 tags: ["Sicurezza in Internet", "sicurezza online", "sicurezza dei bambini", "controlli parentali", "cyberbullismo", "alfabetizzazione digitale", "predatori online", "social media", "gioco", "dispositivi mobili", "privacy", "sicurezza", "uso sicuro di Internet", "Consigli per la sicurezza in Internet", "proteggere i bambini online", "genitorialità nell'era digitale", "privacy online per i bambini", "pericoli online per i bambini", "abitudini di internet sicure", "educazione alla sicurezza in Internet"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Un'immagine a fumetti di un genitore e di un bambino che usano insieme il computer, con il bambino che tiene in mano una lente di ingrandimento e il genitore che indica lo schermo."
 coverCaption: ""
 ---

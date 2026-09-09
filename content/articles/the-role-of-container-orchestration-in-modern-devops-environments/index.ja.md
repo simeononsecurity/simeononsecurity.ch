@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "現代のDevOpsにおけるコンテナオーケストレーションの意義やメリット、人気のコンテナオーケストレーションツール、コンテナ化に関連する政府規制などについてご紹介します。"
 tags: ["コンテナオーケストレーション", "デブオプス", "クーベルネッツ", "Docker Swarm（ドッカースワーム", "アパッチメソス", "スケーラビリティ", "高可用性", "ロードバランシング", "セキュリティ", "自動化されたアプリのデプロイメント", "ヒパア", "ソックス", "GDPR", "コンプライアンス", "ソフトウェア開発", "クラウドコンピューティング", "コンテナリゼーション", "技術", "オートメーション"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "シーソーの上で容器の重さを均等にし、オーケストラの指揮者が指示する漫画のようなイメージ。"
 coverCaption: ""
 ---

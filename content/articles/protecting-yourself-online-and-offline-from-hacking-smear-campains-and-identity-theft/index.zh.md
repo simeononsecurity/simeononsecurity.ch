@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过这些有用的提示，了解如何保护自己免受黑客攻击、诽谤宣传和身份盗窃等网络威胁。"
 tags: ["网络安全", "在线安全", "身份盗窃", "黑客行为", "抹黑运动", "社交媒体", "密码", "双因素认证", "信用冻结"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "一个人在电脑屏幕前拿着一把挂锁，屏幕上显示着 受保护 的信息。"
 coverCaption: ""
 ---

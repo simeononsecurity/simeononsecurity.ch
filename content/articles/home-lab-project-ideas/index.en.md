@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover exciting and innovative home lab project ideas to expand your knowledge and enhance your IT skills."
 tags: ["home lab projects", "virtualization environment", "network security lab", "home media server", "home automation system", "hands-on experience", "IT skills", "technology", "software", "hardware", "experimentation", "learning", "network architecture", "software configurations", "cybersecurity", "firewall", "router", "media streaming", "home network", "smart devices", "automation", "Raspberry Pi", "Z-Wave", "Zigbee", "Plex", "Kodi", "Emby", "VMware vSphere", "Microsoft Hyper-V", "Proxmox VE", "build virtualization environment at home", "create network security lab with pfSense", "set up home media server with Plex", "build home automation system with Raspberry Pi"]
-cover: "/img/cover/A_symbolic_image_depicting_a_person_working.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_person_working.webp"
 coverAlt: "A symbolic image depicting a person working on a virtualization setup with multiple operating systems and networking components."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-05-24
 lastmod: 2026-05-24
 description: "Learn how to create strong passwords in 2026, defend against AI-powered attacks, use passphrases effectively, implement passkeys, and manage passwords securely with modern password managers like Bitwarden."
 tags: ["strong passwords", "password security", "passphrases", "password managers", "Bitwarden", "online security", "cybersecurity", "password strength", "data protection", "digital security", "password best practices", "password tips", "secure passwords", "password management tools", "online privacy", "protecting accounts", "data security", "password complexity", "password generator", "two-factor authentication", "creating strong passwords", "password management guide", "password security tips", "strong password creation", "password protection", "secure password management", "password manager benefits", "passphrase security", "password manager recommendations", "password manager best practices", "password manager security", "password manager features", "2026 password security", "AI password cracking", "passkeys", "passwordless authentication", "credential stuffing", "password breaches", "password entropy", "password hygiene", "zero-knowledge encryption", "password vault", "biometric authentication", "hardware security keys", "password policies", "account security", "identity protection", "authentication methods"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "A cartoon character holding a shield with a lock symbol, representing password security and protection."
 coverCaption: ""
 ---

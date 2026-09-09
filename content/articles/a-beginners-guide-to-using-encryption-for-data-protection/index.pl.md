@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj podstawy szyfrowania i dowiedz się, jak używać go do zabezpieczania poufnych danych dzięki temu przewodnikowi dla początkujących."
 tags: ["szyfrowanie", "ochrona danych", "cyberbezpieczeństwo", "prywatność", "technologia", "bezpieczeństwo online", "szyfrowanie symetryczne", "szyfrowanie asymetryczne", "bezpieczeństwo", "prywatność w internecie", "kryptografia", "szyfrowane wiadomości", "bezpieczeństwo cyfrowe", "prywatność danych", "zaszyfrowane dane", "oprogramowanie szyfrujące", "szyfrowanie danych", "bezpieczeństwo komputerowe", "bezpieczeństwo sieci", "ochrona hasłem"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Kreskówkowa kłódka z dziurką od klucza, reprezentująca ochronę danych poprzez szyfrowanie."
 coverCaption: ""
 ---

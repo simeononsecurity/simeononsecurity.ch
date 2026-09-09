@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Verbessern Sie die Sicherheit Ihrer Mitarbeiter an entfernten Standorten durch ein effektives Sicherheitstraining, und erfahren Sie, wie Sie es erfolgreich umsetzen können."
 tags: ["externe Mitarbeiter", "Sicherheitsbewusstsein", "Cybersicherheit", "Ausbildung", "Fernarbeitskräfte", "Phishing", "beste Praktiken", "Sicherheitskultur", "Gamification", "NIST", "CISA", "SANS Security Awareness", "Infosec Institut", "KnowBe4", "kontinuierliches Lernen", "reale Szenarien", "interaktives Training", "Cyber-Bedrohungen", "Sicherheitsschulungsplattformen"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Eine Karikatur einer Gruppe von Mitarbeitern, die an einer spannenden Sicherheitsschulung auf ihren Laptops teilnehmen, wobei sie von verschiedenen Symbolen für Cybersicherheit umgeben sind."
 coverCaption: ""
 ---

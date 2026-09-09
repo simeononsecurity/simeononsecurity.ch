@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how DevOps bridges the gap between development and operations, simplifying software delivery and maximizing efficiency."
 tags: ["DevOps", "software development", "operations", "collaboration", "continuous integration", "continuous delivery", "infrastructure as code", "monitoring", "feedback loops", "time-to-market", "efficiency", "quality", "reliability", "HIPAA", "GDPR", "compliance", "security", "auditing", "traceability", "automation", "communication", "agile", "CICD", "software deployment", "software lifecycle", "software systems", "software industry", "data security", "regulations", "software updates", "competitive edge", "data privacy", "data protection", "software industry evolution"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "A cartoon illustration showing developers and operations professionals collaborating and working together, symbolizing the bridge between development and operations in DevOps."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați sfaturi și trucuri valoroase pentru a vă ajuta să treceți examenul CompTIA Linux+ XK0-005 și să avansați în cariera dvs. ca profesionist Linux."
 tags: ["Actualizări Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualizări offline", "depozit local", "cache", "configurare server", "configurare client", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Actualizări ale sistemului Linux", "actualizări de pachete offline", "actualizări software offline", "depozit local de pachete", "cache-ul pachetului local", "actualizări Linux offline", "gestionarea actualizărilor offline", "metode de actualizare offline", "întreținerea sistemului offline", "Actualizări pentru serverul Linux", "Actualizări client Linux", "gestionarea software-ului offline", "gestionarea pachetelor offline", "strategii de actualizare", "Actualizări de securitate Linux", "linux plus test de practică"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
 coverAlt: "Un pinguin Linux simpatic de desene animate care merge cu încredere peste un pod spre un viitor de succes."
 coverCaption: ""
 ---

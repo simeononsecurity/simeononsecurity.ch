@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Beheers Linux bestandspermissies om een veilig bestandssysteem te garanderen met deze uitgebreide gids over eigendom, toegangscontrole en best practices."
 tags: ["Linux bestandspermissies", "veilig bestandssysteem", "toegangscontrole", "eigendom", "gids voor bestandsrechten", "Linux beveiliging", "veiligheid van het bestandssysteem", "chmod commando", "chown commando", "controle van bestandsrechten", "Beginsel van de minste voorrechten", "regelnaleving", "GDPR", "HIPAA", "controle van bestandsrechten", "het documenteren van regelgeving", "systeemveiligheid", "netwerkbeveiliging", "encryptie", "gebruikersbeheer"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Een afbeelding in cartoonstijl van een afgesloten archiefkast met verschillende sleutels voor de rechten van gebruikers, groepen en anderen."
 coverCaption: ""
 ---

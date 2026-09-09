@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解威胁猎取如何防止网络攻击，以及将其作为一种主动网络安全措施实施的好处和挑战。"
 tags: ["狩猎威胁", "网络安全", "主动防御", "网络攻击", "网络安全", "端点安全", "日志分析", "行为分析", "威胁情报", "人工调查", "自动调查", "降低风险", "误报", "技能要求", "所需资源", "更快的反应时间", "改进的检测", "降低风险", "金融机构", "医疗服务提供者"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "一名卡通安全分析员手持放大镜，在电脑屏幕上寻找隐藏的网络威胁。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Explorați diferențele dintre Visual Studio Code, Visual Studio Community și Visual Studio Enterprise pentru a determina alegerea ideală pentru nevoile dumneavoastră de dezvoltare."
 genre: ["Dezvoltarea de software", "Mediu de dezvoltare integrat (IDE)", "Instrumente de dezvoltare Microsoft", "Editori de cod", "Platforme de dezvoltare", "Comparație de software", "Limbaje de programare", "Dezvoltare colaborativă", "Dezvoltarea de software pentru întreprinderi", "Depanarea codului"]
 tags: ["Visual Studio Code", "Comunitatea Visual Studio", "Visual Studio Enterprise", "IDE", "Editor de cod", "Dezvoltarea de software", "Microsoft", "Limbaje de programare", "Dezvoltare colaborativă", "Dezvoltarea întreprinderii", "Profilarea performanțelor", "Depanare", "Testare", "Analiza arhitecturală", "Coduri metrice", "Controlul versiunilor", "Comparație de software", "Cross-Platform", "Extensii", "Terminal integrat", "Integrare Azure", "SQL Server", "Azure DevOps", "Dezvoltare în cloud", "Integrare continuă", "Livrare continuă", "Fluxul de lucru pentru dezvoltare", "Productivitate", "Instrumente de dezvoltare", "Inginerie software"]
-cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp"
 coverAlt: "O ilustrație de desen animat care înfățișează dezvoltatori care utilizează Visual Studio Code și Visual Studio Community, lucrând în colaborare la dezvoltarea de cod."
 coverCaption: "Eliberați-vă potențialul de dezvoltare cu Visual Studio Code și Visual Studio Community."
 ---

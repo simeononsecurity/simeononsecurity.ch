@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "セキュリティ侵害のリスクを最小限に抑え、機密データを保護するために、Pythonでセキュアコーディングするためのベストプラクティスを学びます。"
 tags: ["パイソン", "セキュアコーディング", "セキュリティリスク", "入力バリデーション", "暗号化ライブラリ", "最小限の特権", "スタティックコードアナライザー", "ウェブアプリケーション", "Pythonフレームワーク", "ジャンゴ", "フラッシュ", "認証システム", "パスワードハッシュ化", "テンプレートシステム", "セッション管理", "マークアップセーフ", "WTForms（ワフフォームズ", "ブリンカー", "データ保護", "脆弱性（ぜいじゃくせい"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "セキュアなコーディング基準を表す、Pythonと書かれた漫画の盾"
 coverCaption: ""
 ---

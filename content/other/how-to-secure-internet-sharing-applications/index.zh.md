@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "了解如何使用先进的措施来阻止恶意软件、跟踪器、Tor 流量和 Torrent，从而确保 Linux 互联网共享应用程序的安全。"
 tags: ["Linux 安全", "互联网共享应用程序", "恶意软件保护", "跟踪器屏蔽", "阻止 Tor 流量", "防止激流", "网络安全", "嗤之以鼻", "Securita", "DNS 保护", "高级防火墙规则", "乌班图更新", "自动更新", "网络监控", "网络安全", "Linux 互联网安全", "Linux 应用程序安全", "恶意软件拦截", "防止 Tor 流量", "洪流保护", "网络防火墙", "Linux 网络安全", "安全网络共享", "Linux DNS 保护", "高级网络安全", "Linux 系统更新", "网络监控工具", "Linux 网络安全措施", "Linux 安全实践"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "一幅卡通插图，展示了保护互联设备网络免受恶意威胁的防护罩。"
 coverCaption: ""
 ---

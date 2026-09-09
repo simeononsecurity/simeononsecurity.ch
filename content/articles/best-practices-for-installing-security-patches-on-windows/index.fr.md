@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à installer les correctifs de sécurité cumulatifs sur Windows et à suivre les meilleures pratiques pour protéger votre système contre les cyberattaques."
 tags: ["Fenêtres", "correctifs de sécurité", "cybersécurité", "sécurité du système", "Microsoft", "correctifs cumulatifs", "gestion des correctifs", "sauvegarde des données", "Spectre Meltdown", "chiffrement", "vulnérabilités du système", "mises à jour du système", "déploiement de correctifs", "environnements de non-production", "configuration du système", "Sécurité informatique", "système de gestion des correctifs", "analyse de la vulnérabilité", "notes de mise à jour", "maintenance du système"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Image de bande dessinée d'un bouclier portant le logo Windows et protégé par un cadenas"
 coverCaption: ""
 ---

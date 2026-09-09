@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Ontdek de impact van veranderende personeelskaders op cyberbeveiligingsprofessionals en de uitdagingen waarmee ze worden geconfronteerd bij het voldoen aan nieuwe vereisten."
 tags: ["kaders voor personeel", "cyberbeveiligingsprofessionals", "Ministerie van Defensie", "DoD Cyber Workforce Framework", "certificeringen", "arbeidsmarkt", "professionele ontwikkeling", "carrièrepaden", "cyberbeveiligingsindustrie", "directe ervaring", "gestandaardiseerde eisen", "waiver opties", "kwalificaties", "evoluerend landschap", "DCWF", "gevolgen voor het kader", "veranderende eisen", "personeelsbestand cyberbeveiliging", "carrièreverbetering", "richtlijnen voor werknemers", "beveiligingscertificeringen", "cyberbeveiligingsrollen", "veranderingen in de sector", "banenmarkt cyberbeveiliging", "uitdagingen voor het personeelsbestand", "onderwijs in cyberbeveiliging", "uitbreiding van vaardigheden", "normen voor personeelsbestand cyberbeveiliging", "toekomstige cyberbeveiligingsprofessionals", "DoD DCWF voorbereiding", "personeelsverbetering"]
-cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.png"
+cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.webp"
 coverAlt: "Een symbolisch beeld in cartoonstijl dat een groep cyberbeveiligingsprofessionals afbeeldt die door een doolhofachtig landschap navigeren met personeelskaders als torenhoge obstakels, terwijl ze certificaten vasthouden en ladders van professionele ontwikkeling beklimmen."
 coverCaption: "Stijg boven de hindernissen uit: Navigeren door veranderende kaders voor personeel."
 ---

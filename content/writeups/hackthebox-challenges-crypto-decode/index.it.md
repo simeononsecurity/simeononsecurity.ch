@@ -5,7 +5,7 @@ draft: false
 description: "Scopri come decodificare i cifrari Fernet e Malboge per risolvere l'HackTheBox Crypto Challenge e scoprire la bandiera nascosta."
 tags: ["HackTheBox", "Sfide", "Cripto", "Decodificare", "Scrivilo", "Cifra Fernet", "Malboge cifrario", "Crittografia simmetrica", "Sicurezza informatica", "Crittografia", "Test di penetrazione", "Pitone", "Sicurezza", "Sfida", "CTF", "Bandiera", "Crittografia", "Decrittazione", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Un hacker di cartoni animati in piedi accanto a un grande lucchetto con una mano che tiene una chiave con il logo Fernet e l'altra mano che tiene una chiave con il logo Malboge mentre si vede una bandiera all'interno del lucchetto"
 coverCaption: ""
 ---

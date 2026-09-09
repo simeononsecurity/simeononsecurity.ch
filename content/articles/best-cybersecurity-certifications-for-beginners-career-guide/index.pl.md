@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj najlepsze certyfikaty cyberbezpieczeństwa dla początkujących, aby rozpocząć karierę i zdobyć umiejętności niezbędne do osiągnięcia doskonałości w tej dziedzinie."
 genre: ["Certyfikaty cyberbezpieczeństwa", "Przewodnik dla początkujących", "Kariera w IT", "Bezpieczeństwo informacji", "Bezpieczeństwo sieci", "Ethical Hacking", "Testy penetracyjne", "Praca dla początkujących"]
 tags: ["certyfikaty cyberbezpieczeństwa", "przewodnik dla początkujących", "Kariera w IT", "bezpieczeństwo informacji", "bezpieczeństwo sieci", "etyczne hakowanie", "testy penetracyjne", "praca dla początkujących", "CompTIA A Plus", "CompTIA Network Plus", "CompTIA Security Plus", "Certyfikowany analityk ds. cyberbezpieczeństwa", "Certyfikowany etyczny haker", "analityk bezpieczeństwa", "operacje bezpieczeństwa", "administrator bezpieczeństwa", "młodszy tester penetracyjny", "specjalista ds. wsparcia bezpieczeństwa", "Najlepsze certyfikaty dla początkujących", "kariera w cyberbezpieczeństwie", "umiejętności w zakresie cyberbezpieczeństwa", "podstawy sieci", "zasady bezpieczeństwa", "zarządzanie podatnościami", "analiza zagrożeń", "etyczne techniki hakerskie", "środki bezpieczeństwa", "branża cyberbezpieczeństwa", "stanowiska podstawowe", "praktyczne doświadczenie"]
-cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.png"
+cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca zamek i tarczę, symbolizująca ochronę cyberbezpieczeństwa."
 coverCaption: "Uwolnij swój potencjał: Najlepsze certyfikaty dla rozwijającej się kariery w cyberbezpieczeństwie"
 ---

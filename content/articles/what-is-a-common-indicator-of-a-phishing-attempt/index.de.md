@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ein umfassender Leitfaden zur Erkennung gängiger Anzeichen für Phishing-Versuche und praktische Tipps, um online sicher zu bleiben."
 tags: ["Phishing-Versuche", "gemeinsame Indikatoren", "Phishing-Betrügereien", "Online-Sicherheit", "Cybersicherheit", "verdächtige E-Mail-Adressen", "dringende Sprache", "Grammatikfehler", "Rechtschreibfehler", "verdächtige URLs", "Anfragen zu persönlichen Informationen", "unerwartete Anhänge", "Sicherer Aufenthalt im Internet", "Software-Aktualisierungen", "Zwei-Faktor-Authentifizierung", "Passwortsicherheit", "Online-Betrügereien", "Phishing-Techniken", "Cyber-Bedrohungen", "Phishing-Bewusstsein", "Erkennen von Phishing", "Phishing-Prävention", "Phishing-Schutz", "Tipps zur Sensibilisierung für Phishing", "Phishing-Erkennung", "Phishing-Sensibilisierungstraining", "Phishing-Mail", "Phishing-Sensibilisierungskampagne", "Phishing-Aufklärung", "Bewährte Praktiken zur Sensibilisierung für Phishing", "Was ist ein typisches Anzeichen für einen Phishing-Versuch?"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "Ein Cartoon-Bild, das eine Person zeigt, die eine verdächtige E-Mail erhält und skeptisch dreinschaut."
 coverCaption: ""
 ---

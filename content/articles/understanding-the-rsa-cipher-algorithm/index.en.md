@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the inner workings of the RSA cipher algorithm and its importance in secure communication."
 tags: ["RSA encryption", "asymmetric encryption", "public key cryptography", "encryption algorithm", "RSA key generation", "modular arithmetic", "Euler's totient function", "prime numbers", "modular exponentiation", "ciphertext", "plaintext", "RSA security", "secure communication", "digital signatures", "secure web browsing", "government regulations on RSA", "NIST guidelines on RSA", "eIDAS regulation", "encryption standards", "data protection", "cryptography", "information security", "secure messaging", "encrypted email", "HTTPS", "RSA in secure communication", "RSA in digital signatures", "strengths of RSA", "weaknesses of RSA", "computational complexity of RSA", "key length in RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "A symbolic image representing the RSA cipher algorithm with lock and key symbols, conveying the concept of secure communication and encryption."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "ランサムウェアの脅威と、その予防策についてご紹介します。"
 tags: ["ランサムウェア", "サイバーセキュリティ", "防止", "バックアップ", "アンチウイルス", "仮想私設通信網", "多要素認証", "官制", "フィッシング", "ソーシャルエンジニアリング", "マルウェア", "サイバー犯罪", "データ機密保護", "ネットワークセキュリティ", "サイバー攻撃", "暗号化", "サイバーハイジーン", "インシデントレスポンス", "データ保護", "サイバーアウェアネス"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "ランサムウェアによるデータの暗号化を象徴する、錠前と鎖を巻いたパソコン。"
 coverCaption: ""
 ---

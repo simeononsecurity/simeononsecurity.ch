@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u het Helium-netwerk kunt bespelen door kwetsbaarheden te misbruiken met MiddleMan en Chirp Stack Packet Multiplexer, en wat de risico's en gevolgen daarvan zijn."
 tags: ["Helium netwerk", "Bewijs van dekking", "MiddleMan", "Chirp Stack Packet Multiplexer", "gaming", "kwetsbaarheden uitbuiten", "LoRaWAN-netwerk", "cryptocurrency", "blockchain", "gedecentraliseerd netwerk", "hotspots", "spoofing", "vreemdgaan", "illegale activiteit", "sancties", "integriteit van het netwerk", "beloningen", "kwaadwillende actoren", "netwerkbeveiliging", "legitieme gastheren"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Een cartooneske afbeelding van een groep individuen die een heliumballon exploiteren met een afbeelding van een LoRaWAN-gateway en MiddleMan of Chirp Stack Packet Multiplexer op de achtergrond."
 coverCaption: ""
 ---

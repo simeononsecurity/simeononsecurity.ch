@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Aprenda a crear contraseñas seguras, utilizar frases de contraseña y gestionarlas de forma segura con gestores de contraseñas como Bitwarden."
 tags: ["contraseñas seguras", "seguridad de contraseñas", "frases de contraseña", "gestores de contraseñas", "Bitwarden", "seguridad en línea", "ciberseguridad", "seguridad de la contraseña", "protección de datos", "seguridad digital", "buenas prácticas en materia de contraseñas", "consejos sobre contraseñas", "contraseñas seguras", "herramientas de gestión de contraseñas", "privacidad en línea", "proteger las cuentas", "seguridad de los datos", "complejidad de la contraseña", "generador de contraseñas", "autenticación de dos factores", "crear contraseñas seguras", "guía de gestión de contraseñas", "consejos de seguridad de contraseñas", "creación de contraseñas seguras", "protección por contraseña", "gestión segura de contraseñas", "ventajas del gestor de contraseñas", "seguridad de la frase de contraseña", "recomendaciones sobre gestores de contraseñas", "prácticas recomendadas para la gestión de contraseñas", "gestor de contraseñas seguridad", "funciones del gestor de contraseñas"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Un personaje de dibujos animados sostiene un escudo con el símbolo de un candado, que representa la seguridad y la protección de las contraseñas."
 coverCaption: ""
 ---

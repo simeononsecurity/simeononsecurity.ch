@@ -6,7 +6,7 @@ date: 2023-07-17
 description: "Informieren Sie sich über Herausforderungen, bewährte Verfahren und künftige Trends bei der Sicherung industrieller Kontrollsysteme (ICS) gegen Cyber-Bedrohungen und zur Gewährleistung des reibungslosen Betriebs kritischer Infrastrukturen."
 genre: ["Industrielle Kontrollsysteme", "Cybersecurity", "ICS-Sicherheitsherausforderungen", "Bewährte Praktiken für ICS", "ICS-Komponenten", "Ältere Systeme", "Mitarbeiterschulung", "Schwachstellen in der Lieferkette", "Insider-Bedrohungen", "ICS-Sicherheitsimplementierungen"]
 tags: ["Industrielle Kontrollsysteme", "ICS-Sicherheit", "Cybersecurity", "ICS-Herausforderungen", "ICS Bewährte Praktiken", "Ältere Systeme", "Veraltete Technologien", "Sensibilisierungsschulung", "Komplexität von Cyber-Bedrohungen", "Schwachstellen in der Lieferkette", "Insider-Bedrohungen", "Menschliches Versagen", "Umfassender Sicherheitsrahmen", "ICS-Bewertung", "Mitarbeiterschulung", "Segmentierung des Netzes", "Zugangskontrolle", "Planung der Reaktion auf Vorfälle", "Sicherheit im Energiesektor", "Sicherheit von Produktionsanlagen", "Sicherheit der Wasseraufbereitungsanlage", "Künstliche Intelligenz", "Maschinelles Lernen", "Blockchain-Technologie", "Öffentlich-private Zusammenarbeit", "ICS-Sicherheitsmaßnahmen", "Folgen von ICS-Verletzungen", "Proaktive ICS-Sicherheit", "Implementierung der ICS-Sicherheit", "ICS-Sicherheitstrends"]
-cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.png"
+cover: "/img/cover/A_symbolic_image_representing_the_concept_of_s.webp"
 coverAlt: "Ein symbolisches Bild, das das Konzept der Sicherung industrieller Steuersysteme gegen Cyber-Bedrohungen darstellt und ein Schild mit einem Schloss zeigt, das ein Netz miteinander verbundener Geräte schützt."
 ---
 

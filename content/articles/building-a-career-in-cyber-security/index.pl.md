@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj niezbędne kroki, aby stworzyć udaną ścieżkę w cyberbezpieczeństwie, w tym edukację, certyfikaty i lukratywne perspektywy pracy."
 tags: ["cyberbezpieczeństwo", "budowanie kariery w cyberbezpieczeństwie", "edukacja w zakresie cyberbezpieczeństwa", "certyfikaty cyberbezpieczeństwa", "możliwości pracy w cyberbezpieczeństwie", "kariera technologiczna", "edukacja w zakresie cyberbezpieczeństwa", "cyberbezpieczeństwo praca", "branża cyberbezpieczeństwa", "specjaliści ds. cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "bezpieczeństwo sieci", "bezpieczeństwo informacji", "analityk cyberbezpieczeństwa", "etyczne hakowanie", "konsultant ds. cyberbezpieczeństwa", "reakcja na incydent", "CISO", "Strategia cyberbezpieczeństwa", "tytuł licencjata w dziedzinie cyberbezpieczeństwa", "tytuł magistra cyberbezpieczeństwa", "Certyfikacja CISSP", "Certyfikat CEH", "Certyfikat CompTIA Security+", "rynek pracy cyberbezpieczeństwa", "informatyka śledcza", "zarządzanie ryzykiem w cyberbezpieczeństwie", "bezpieczne tworzenie oprogramowania", "ochrona danych", "Trendy w cyberbezpieczeństwie"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Specjalista ds. cyberbezpieczeństwa z tarczą, chroniący zasoby cyfrowe przed atakami hakerów."
 coverCaption: ""
 ---

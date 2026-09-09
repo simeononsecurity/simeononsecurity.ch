@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Proteggete il vostro credito da accessi non autorizzati combinando il blocco del credito e l'avviso di frode, la soluzione più efficace per impedire ai criminali comuni di accedere al vostro rapporto di credito senza il vostro permesso."
 tags: ["protezione del credito", "congelamento del credito", "allarme frode", "accesso non autorizzato", "rapporto di credito", "furto d'identità", "Equifax", "Experian", "TransUnion", "uffici di credito", "massima protezione"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Una persona che tiene in mano una carta di credito con il simbolo del lucchetto per rappresentare la protezione del credito."
 coverCaption: ""
 ---

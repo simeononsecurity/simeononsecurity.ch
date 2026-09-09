@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the essential factors to consider when selecting a password manager and find out why Bitwarden and KeePassXC are the recommended options"
 tags: ["password manager", "choose password manager", "Bitwarden", "KeePassXC", "online security", "password security", "password management", "strong passwords", "unique passwords", "data breaches", "encryption", "cross-platform compatibility", "password synchronization", "backup", "user interface", "password generator", "2FA", "end-to-end encryption", "zero-knowledge architecture", "open-source", "secure password sharing", "auto-type", "attachment support", "plugins", "password manager recommendations", "password manager comparison", "password security tips", "password manager features", "password manager benefits", "password manager download"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "A colorful illustration of a person holding a key and a shield, representing password security and protection."
 coverCaption: ""
 ---

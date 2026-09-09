@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索 PowerShell 在增强网络安全操作方面的强大功能，并通过自动化和简化流程来实现符合行业标准。"
 tags: ["PowerShell", "网络安全", "业务", "合规性", "自动化", "STIG SRG 要求", "NSACyber 指南", "视窗系统", "蓝队防守", "脚本", "工具", "C Sharp 项目"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "一个人在键盘上打字，背景是计算机服务器和网线，代表使用 PowerShell 进行网络安全操作和合规。"
 coverCaption: ""
 ---

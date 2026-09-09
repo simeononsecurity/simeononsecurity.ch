@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u Wireshark effectief kunt gebruiken voor netwerkanalyse en probleemoplossing met deze gedetailleerde beginnersgids."
 tags: ["Wireshark", "netwerkanalyse", "probleemoplossing", "beginnersgids", "netwerkbewaking", "pakketopname", "netwerkprotocollen", "TCP IP", "datavisualisatie", "netwerkbeveiliging", "opvangfilters", "weergavefilters", "netwerkapparaten", "Ethernet", "netwerktopologie", "netwerkdiagnostiek", "netwerkadministratie", "netwerkprestaties", "Wireshark tutorial", "datapakketten"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "Een cartoonillustratie van een detective met een vergrootglas die netwerkkabels analyseert, terwijl het Wireshark-logo erboven zweeft, als symbool voor het proces van netwerkproblemen oplossen en analyseren met behulp van Wireshark."
 coverCaption: ""
 ---

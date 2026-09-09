@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Découvrez les différents cas d'utilisation de Flipper Zero, le gadget portable ultime pour le piratage de matériel, l'analyse des communications sans fil et les besoins technologiques de tous les jours."
 tags: ["Flipper Zero", "appareil portatif", "piratage de matériel", "ingénierie inverse", "analyse des communications sans fil", "contrôle des appareils", "l'audit de sécurité", "tests de pénétration", "le compagnon technologique de tous les jours", "open-source", "Bluetooth", "NFC", "RFID", "IR", "émulation", "tests de sécurité", "Kali Linux", "écran e-paper", "QR codes", "domotique", "vulnérabilités en matière de sécurité", "protocoles sans fil", "extraction du micrologiciel", "clignotant", "débogage", "systèmes de contrôle d'accès physique", "systèmes domotiques intelligents", "émulation de dispositif", "vulnérabilités des systèmes sans fil", "contre-mesures", "gadget compact"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Illustration colorée d'un appareil Flipper Zero entouré de divers outils et signaux sans fil, symbolisant sa polyvalence et ses capacités"
 coverCaption: ""
 ---

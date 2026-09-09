@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed skimmingiem RFID i zachować bezpieczeństwo informacji o karcie kredytowej dzięki tym prostym wskazówkom."
 tags: ["RFID skimming", "ochrona karty kredytowej", "Portfele z blokadą RFID", "chipowe karty kredytowe", "phishing", "cybersecurity", "kradzież tożsamości", "prywatność", "płatności zbliżeniowe", "płatności mobilne", "bezpieczeństwo finansowe", "karty inteligentne", "NFC", "szyfrowanie", "ochrona danych", "Czytniki RFID", "Technologia RFID", "elektroniczne kieszonkowstwo", "cicha kieszeń", "łowca-kot"]
-cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Komiksowa ilustracja złodzieja używającego urządzenia elektronicznego do kradzieży informacji o karcie kredytowej z portfela osoby."
 coverCaption: ""
 ---

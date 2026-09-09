@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Apprenez à passer avec succès de l'informatique à la cybersécurité grâce à notre guide complet, étape par étape, qui vous assurera une reconversion professionnelle réussie."
 tags: ["transition", "De l'informatique à la cybersécurité", "changement de carrière", "guide étape par étape", "l'éducation", "expérience", "compétences", "certifications", "spécialisation", "la mise en réseau professionnelle", "communauté de la cybersécurité", "pénurie de talents", "forte demande", "tendances de l'industrie", "expérience pratique", "compétences techniques", "compétences non techniques", "certifications en cybersécurité", "cours en ligne", "éducation à la cybersécurité", "transition vers la cybersécurité", "Transition de carrière dans l'informatique", "compétences en matière de cybersécurité", "marché de l'emploi dans le domaine de la cybersécurité", "formation à la cybersécurité", "spécialisation en cybersécurité", "les professionnels de la cybersécurité", "industrie de la cybersécurité", "Compétences informatiques en matière de cybersécurité", "carrières en cybersécurité", "Offres d'emploi dans le domaine de la cybersécurité"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Illustration de bande dessinée représentant une personne passant du monde des technologies de l'information à celui de la cybersécurité."
 coverCaption: "Améliorez votre carrière : Relevez le défi de la cybersécurité !"
 ---

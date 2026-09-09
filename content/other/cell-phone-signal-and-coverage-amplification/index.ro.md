@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Îmbunătățiți semnalul telefonului mobil acasă cu alegerile noastre de top pentru conectivitate fiabilă și acoperire pe toată casa."
 tags: ["Amplificatoare de semnal pentru telefonul mobil", "Weboost", "Hiboost", "Conectivitate la domiciliu", "Acoperire telefon mobil", "Femtocelulă", "Amplificatoare de semnal celular", "Amplificatoare de semnal wireless", "Dispozitive de amplificare a semnalului", "Conectivitate mobilă", "Recepție telefon mobil", "Internet de acasă", "Amplificatoare wireless", "Electronică", "Îmbunătățirea locuinței", "Telecomunicatii", "Tehnologie", "Case inteligente", "Apel Wifi", "Rețea de telefonie mobilă"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "O imagine în stil de desene animate a unei persoane care ține un telefon mobil și stă lângă un amplificator cu barele de semnal în creștere."
 coverCaption: ""
 ---

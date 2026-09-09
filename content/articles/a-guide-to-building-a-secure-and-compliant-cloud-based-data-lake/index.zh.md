@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "在本综合指南中了解规划、构建和管理基于云的数据湖时的安全性和合规性最佳实践。"
 tags: ["数据湖", "云安全", "合规条例", "访问控制", "加密", "AWS", "天蓝色", "HIPAA", "GDPR", "监测", "补丁", "网络安全", "SIEM 解决方案", "信息技术支持团队", "威胁状况", "云迁移", "云治理"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "一个由武士守卫城堡的卡通形象，象征着为安全、合规的云存储提供强大保护的概念"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de verschillen tussen Visual Studio Code, Visual Studio Community en Visual Studio Enterprise om de ideale keuze voor jouw ontwikkelbehoeften te bepalen."
 genre: ["Software Ontwikkeling", "Geïntegreerde ontwikkelomgeving (IDE)", "Microsoft-ontwikkeltools", "Code-editors", "Ontwikkelingsplatformen", "Software Vergelijking", "Programmeertalen", "Ontwikkeling in samenwerking", "Ontwikkeling van bedrijfssoftware", "Code Debugging"]
 tags: ["Visual Studio-code", "Visual Studio-gemeenschap", "Visual Studio Enterprise", "IDE", "Code-editor", "Software Ontwikkeling", "Microsoft", "Programmeertalen", "Ontwikkeling in samenwerking", "Ontwikkeling van ondernemingen", "Prestatieprofielen", "Debuggen op", "Testen", "Bouwkundige analyse", "Code statistieken", "Versiebeheer", "Software Vergelijking", "Platformoverschrijdend", "Uitbreidingen", "Geïntegreerde terminal", "Azure integratie", "SQL Server", "Azure DevOps", "Cloud Ontwikkeling", "Continue integratie", "Continue levering", "Ontwikkelworkflow", "Productiviteit", "Ontwikkelgereedschappen", "Software-engineering"]
-cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp"
 coverAlt: "Een cartoonillustratie van ontwikkelaars die Visual Studio Code en Visual Studio Community gebruiken en samenwerken aan de ontwikkeling van code."
 coverCaption: "Ontketen je ontwikkelpotentieel met Visual Studio Code en Visual Studio Community."
 ---

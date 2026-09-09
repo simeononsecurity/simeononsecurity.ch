@@ -6,7 +6,7 @@ draft: false
 description: "Descubra la verdadera naturaleza de la información no clasificada, sus características clave, las medidas de salvaguardia y la normativa pertinente para una protección eficaz."
 genre: ["Seguridad de la información", "Gestión de datos", "Normativa gubernamental", "Intercambio de información", "Protección de datos", "Confidencialidad", "Mitigación de riesgos", "Gobernanza de la información", "Clasificación de datos", "Acceso a la información"]
 tags: ["información no clasificada", "seguridad de la información", "organismos públicos", "protección de datos", "gestión de la información", "información no clasificada controlada", "controles de acceso", "codificación", "formación de empleados", "seguridad física", "clasificación de datos", "confidencialidad", "gobernanza de la información", "mitigación de riesgos", "intercambio de información", "gestión de datos", "normativa gubernamental", "acceso a la información", "salvaguardia", "medidas de seguridad", "información sensible", "valor de la información no clasificada", "datos disponibles públicamente", "Programa CUI", "registros oficiales del organismo", "accesibilidad", "compartibilidad", "sensibilidad limitada", "valor de la información no clasificada", "Normativa del programa CUI", "respuesta a incidentes", "medidas de seguridad física"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Ilustración simbólica de una cámara acorazada cerrada con información no clasificada en su interior."
 coverCaption: "Asegurar las claves: Salvaguardar la información no clasificada para la seguridad de la información"
 ---

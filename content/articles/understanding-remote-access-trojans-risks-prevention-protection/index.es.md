@@ -6,7 +6,7 @@ draft: false
 description: "Descubra los riesgos que plantean los troyanos de acceso remoto (RAT) y aprenda medidas eficaces de prevención y protección para salvaguardar sus sistemas informáticos y sus datos."
 genre: ["Ciberseguridad", "Software malicioso", "Seguridad informática", "Amenazas digitales", "Troyanos de acceso remoto", "Protección de datos", "Privacidad", "Ciberdelincuencia", "Seguridad de las redes", "Seguridad de la información"]
 tags: ["troyanos de acceso remoto", "RATs", "ciberseguridad", "software malicioso", "seguridad informática", "amenazas digitales", "protección de datos", "violación de la privacidad", "vigilancia no autorizada", "interrupción del sistema", "robo de identidad", "fraude financiero", "concienciación sobre ciberseguridad", "seguridad de la red", "seguridad de la información", "vulnerabilidades del software", "correos electrónicos de phishing", "robo de datos", "manipulación del sistema", "mando a distancia", "medidas de ciberseguridad", "protección de puntos finales", "contraseñas seguras", "cortafuegos", "detección de intrusos", "copia de seguridad de datos", "seguridad de los datos", "amenazas cibernéticas", "seguridad digital", "ciberdefensa"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "Ilustración simbólica de un ordenador bloqueado con cadenas, que representa la necesidad de protección contra los troyanos de acceso remoto."
 coverCaption: "Proteja su fortaleza digital."
 ---

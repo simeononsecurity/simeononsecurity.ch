@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggere voi stessi e la vostra azienda dai vettori di attacco informatico più comuni, tra cui social engineering, malware, attacchi denial-of-service, attacchi alle password e attacchi alle applicazioni web."
 tags: ["sicurezza informatica", "attacchi informatici", "ingegneria sociale", "malware", "negazione del servizio", "attacchi con password", "attacchi alle applicazioni web", "consapevolezza della sicurezza", "filtri antispam", "autenticazione a più fattori", "software antivirus", "firewall", "botnet", "CDN", "servizi anti-DDoS", "prestazioni della rete", "vulnerabilità", "protezione", "mitigazione del rischio", "sicurezza delle informazioni"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Un'illustrazione a fumetti di una persona che tiene uno scudo e si trova di fronte a un computer con vari vettori di attacco in arrivo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-28
 description: "Descubra la importancia del aprendizaje continuo, las certificaciones de ciberseguridad más populares y los pasos necesarios para adquirirlas y mantenerlas para una carrera exitosa en ciberseguridad."
 tags: ["profesional de la ciberseguridad", "aprender nuevas habilidades", "obtener certificaciones", "aprendizaje continuo", "certificaciones de ciberseguridad", "CISSP", "CEH", "CISM", "Seguridad", "CCSP", "importancia del aprendizaje continuo", "ventajas de obtener certificaciones", "desarrollo profesional en ciberseguridad", "crecimiento profesional", "últimas tendencias en ciberseguridad", "avances tecnológicos en ciberseguridad", "buenas prácticas en ciberseguridad", "adquirir competencias en ciberseguridad", "preparación para los exámenes de ciberseguridad", "mantener las certificaciones de ciberseguridad", "certificaciones de ciberseguridad reconocidas por el sector", "oportunidades profesionales en ciberseguridad", "educación y formación en ciberseguridad", "mejora de las competencias en ciberseguridad", "mercado laboral de la ciberseguridad", "panorama de las ciberamenazas", "desarrollo profesional continuo en ciberseguridad", "certificaciones de seguridad de redes", "certificaciones de seguridad en la nube", "certificaciones de hacking ético", "certificaciones de gestión de la seguridad de la información"]
-cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.png"
+cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.webp"
 coverAlt: " Un personaje de dibujos animados supera las ciberamenazas con un escudo y una espada."
 coverCaption: "¡Empodérate, conquista las ciberamenazas!"
 ---

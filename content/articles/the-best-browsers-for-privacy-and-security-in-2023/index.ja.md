@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "プライバシー保護に最適なセキュアブラウザ、Brave、Firefox、Torを紹介し、それぞれの特徴や利点を知ることができる。"
 tags: ["セキュアブラウザ", "プライバシー保護", "ブレイブブラウザ", "ファイアフォックス", "トーア", "オンラインセキュリティ", "インターネットプライバシー", "ブラウザ機能", "アドブロッキング", "トラッキング保護", "オープンソース", "クロスプラットホーム", "Firefox Focus", "Torネットワーク", "オールターナティブブラウザ", "ヴィヴァルディ", "エピック", "パッフィン", "ウォーターフォックス"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "Brave、Firefox、Torの3つの漫画のようなブラウザのアイコンを、プライバシー保護を象徴する盾で囲み、その上に南京錠を置いた3Dアニメーション画像です。"
 coverCaption: ""
 ---

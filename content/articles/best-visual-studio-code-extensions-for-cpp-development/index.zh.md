@@ -6,7 +6,7 @@ draft: false
 description: "探索 Visual Studio Code 的顶级 C++ 扩展，这些扩展将增强你的编码体验并提高工作效率。"
 genre: ["编程", "软件开发", "C plus plus Development", "Visual Studio 代码", "代码编辑器", "生产率", "开发工具", "IDE", "代码优化", "代码效率"]
 tags: ["适用于 C++ 的最佳 Visual Studio 代码扩展", "Visual Studio Code 的最佳 C++ 扩展", "C plus plus Intellisense", "C plus plus TestMate", "CMake 工具", "更好的评论", "代码完成", "代码分析", "单元测试", "构建系统集成", "评论 组织", "代码生产力", "C plus plus 编程", "代码编辑器", "代码开发", "代码优化", "编码工作流程", "开发人员工具", "C 加加开发工具", "C plus plus IDE", "C++ 代码编辑器", "C 加加生产力工具", "C 加编程效率", "协作代码", "文件代码"]
-cover: "/img/cover/A_cartoon_image_showing_a_developer_using_Visu.png"
+cover: "/img/cover/A_cartoon_image_showing_a_developer_using_Visu.webp"
 coverAlt: "一幅卡通图片，显示一名开发人员使用 Visual Studio Code，屏幕上显示 C++ 代码。"
 coverCaption: "用最好的 Visual Studio 代码扩展为你的 C++ 开发增添动力！"
 ---

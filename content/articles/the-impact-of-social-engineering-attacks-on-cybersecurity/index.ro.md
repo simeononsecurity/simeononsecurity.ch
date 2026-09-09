@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă apărați împotriva atacurilor de inginerie socială și cum să vă protejați datele de infractorii cibernetici în acest articol informativ."
 tags: ["securitate cibernetică", "inginerie socială", "escrocherii de phishing", "autentificare multifactorială", "actualizări de securitate", "securitatea parolei", "securitate web", "încălcări ale datelor", "Securitate IT", "furt de identitate", "prevenirea fraudei", "prevenirea spionajului", "securitate tehnică", "securitate fizică", "securitatea informațiilor", "prevenirea criminalității cibernetice", "detectarea intruziunilor", "patch-uri de securitate", "formarea angajaților", "protecția datelor"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Un scut din desene animate cu un lacăt în centru, reprezentând ideea de apărare împotriva atacurilor de inginerie socială în domeniul securității cibernetice"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de belangrijkste cloudbeveiligingsfuncties en certificeringen van AWS, Azure en Google Cloud Platform om de beste veilige cloudoplossing voor uw bedrijf te kiezen."
 genre: ["Cloud computing", "Cloudbeveiliging", "AWS", "Azuur", "Google cloudplatform", "Gegevensbeveiliging", "Encryptie", "Identiteits- en toegangsbeheer", "Naleving", "Bedreigingsdetectie"]
 tags: ["veilige cloudoplossingen", "AWS vs. Azure vs. Google Cloud Platform", "cloudbeveiligingsfuncties", "data-encryptie", "beheer van identiteit en toegang", "conformiteitscertificeringen", "detectie van bedreigingen", "gegevensbescherming", "netwerkbeveiliging", "cloudcomputing", "cloudplatforms", "datalekken", "veiligheidsrisico's", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "prijsvergelijking", "de juiste cloudoplossing kiezen", "bedrijfsbeveiligingsbehoeften", "schaalbaarheid", "flexibiliteit", "kosteneffectiviteit", "veiligheidsmaatregelen", "cloudaanbieders", "encryptieprotocollen", "nalevingseisen", "netwerkpoortbesturing", "firewalls", "inbraakdetectiesystemen", "gegevens in rust", "datum onderweg", "beveiligde toegang", "veilige omgeving", "veilig cloud computing"]
-cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png"
+cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp"
 coverAlt: "Een illustratie in symbolische kunststijl van een wolk met een slot erop, symbool voor veilige cloudoplossingen."
 coverCaption: "Beveilig uw bedrijf in de cloud"
 ---

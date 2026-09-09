@@ -5,7 +5,7 @@ draft: false
 description: "Leer hoe DTMF-tonen kunnen worden ontcijferd met behulp van een priemgetal om de Crypto - Call-uitdaging op HackTheBox op te lossen."
 tags: ["HackTheBox", "Crypto Uitdaging", "DTMF-tonen", "Prime Number Cipher", "Ontcijfering", "Puzzels oplossen", "Cryptografie", "Audio Conversie", "DialABC", "Decode.fr", "WAV", "MP3", "Frequentie", "Wiskundige eigenschap", "Vlag", "Audacity", "Sonic Visualizer", "Nummers", "Menu's voor geautomatiseerde kassa's", "Betaaltelefoon"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Een cartoontelefoon met een groen scherm en een hangslot erop, als symbool voor veiligheid en encryptie, met DTMF-tonen op de achtergrond."
 coverCaption: ""
 ---

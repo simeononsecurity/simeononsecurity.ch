@@ -6,7 +6,7 @@ date: 2022-02-13
 description: "通过本指南了解如何更换或重新刷新 Nebra 室内和室外版、第一代和第二代 EMMC Key SD 卡，并修复 Helium Miner 同步问题。"
 genre: ["技术", "加密货币", "硬件", "氦气开采", "故障排除", "更换 SD 卡", "同步问题", "树莓派", "Balena Etcher", "Nebra 氦气采矿机"]
 tags: ["Nebra 氦气采矿机", "更换 SD 卡", "同步问题", "氦气开采", "故障排除", "树莓派", "Balena Etcher", "硬件指南", "SD 卡升级", "解决同步问题", "分步指南", "氦气矿工同步修复", "Nebra 室内采矿机", "Nebra 户外采矿机", "树莓派计算模块 3", "Balena Raspberry Pi CM3 图像", "氦气矿工的故障排除", "内布拉采矿设备公司", "Balena Etcher 软件", "更换 Nebra 矿工机上的 EMMC 密钥", "氦气矿工的 SD 卡修复", "修复氦气矿工同步问题", "更换 Nebra Miner SD 卡", "Nebra 氦气开采器故障排除指南", "氦气开采技巧", "升级 Nebra Helium Miner SD 卡", "如何重新映像 Nebra Miner SD 卡", "解决 Nebra Helium Miner 同步问题"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp"
 coverAlt: "这是一幅卡通插图，描绘了一个手持 Nebra Helium Miner 的人，打开的面板上显示出 SD 卡插槽，指南的步骤以指南的形式浮现在设备上方。"
 coverCaption: "轻松解决同步问题并升级您的氦气矿工机。"
 ---

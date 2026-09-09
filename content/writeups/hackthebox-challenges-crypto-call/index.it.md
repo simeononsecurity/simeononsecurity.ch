@@ -5,7 +5,7 @@ draft: false
 description: "Scopri come decrittografare i toni DTMF utilizzando la crittografia dei numeri primi per risolvere la sfida Crypto - Call su HackTheBox."
 tags: ["HackTheBox", "Cripto sfida", "Toni DTMF", "Cifrario di numeri primi", "Decrittazione", "Risolvere enigmi", "Crittografia", "Conversione audio", "Comporre ABC", "Decodifica.fr", "WAV", "Mp3", "Frequenza", "Tratto matematico", "Bandiera", "Audacia", "Visualizzatore sonico", "Numeri", "Menu di cassa automatica", "Telefono a pagamento"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Un telefono animato con uno schermo verde e un lucchetto, simbolo di sicurezza e crittografia, con toni DTMF raffigurati sullo sfondo"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les meilleurs navigateurs sécurisés pour la protection de la vie privée, notamment Brave, Firefox et Tor, et apprenez-en plus sur leurs caractéristiques et leurs avantages."
 tags: ["navigateurs sécurisés", "protection de la vie privée", "Navigateur courageux", "Firefox", "Tor", "sécurité en ligne", "internet privacy", "caractéristiques du navigateur", "blocage des publicités", "protection contre le repérage", "open-source", "multiplateforme", "Firefox Focus", "Réseau Tor", "navigateurs alternatifs", "Vivaldi", "Épique", "Macareux", "Renard des mers"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "Image animée en 3D représentant trois icônes de navigateur de type bande dessinée, Brave, Firefox et Tor, entourées d'un bouclier symbolisant la protection de la vie privée et surmontées d'un cadenas."
 coverCaption: ""
 ---

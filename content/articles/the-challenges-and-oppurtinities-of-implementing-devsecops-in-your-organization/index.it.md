@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questo articolo esplora le sfide e le opportunità di DevSecOps nelle organizzazioni, tra cui una migliore collaborazione, una maggiore scalabilità, l'integrazione con le normative governative e altro ancora."
 tags: ["DevSecOps", "sicurezza delle informazioni", "test di sicurezza", "metodologie agili", "collaborazione", "regolamenti governativi", "automazione", "sviluppo di applicazioni", "scalability", "monitoraggio continuo", "Linee guida NIST", "anelli di feedback", "modularità", "vulnerabilità", "garanzia di qualità", "sicurezza informatica", "Infrastruttura IT", "strumenti di sviluppo software", "gestione del rischio"]
-cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png"
+cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "Un gruppo di persone in piedi su una cima che si tengono per mano, con pezzi di puzzle che si incastrano in primo piano."
 coverCaption: ""
 ---

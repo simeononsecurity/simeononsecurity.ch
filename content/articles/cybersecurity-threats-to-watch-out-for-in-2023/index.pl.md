@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj największe zagrożenia cyberbezpieczeństwa w 2024 roku i dowiedz się, jak pozostać bezpiecznym dzięki zaleceniom ekspertów."
 tags: ["cybersecurity", "zagrożenia", "ransomware", "phishing", "Bezpieczeństwo IoT", "zagrożenia wewnętrzne", "bezpieczeństwo w chmurze", "kopia zapasowa danych", "uwierzytelnianie wieloczynnikowe", "poprawki bezpieczeństwa", "szkolenie pracowników", "kontrole dostępu", "kontrole w tle", "zapobieganie utracie danych", "dostawcy chmur", "szyfrowanie danych", "bezpieczeństwo sieci", "bezpieczeństwo punktów końcowych", "monitorowanie sieci", "skanowanie podatności"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Haker z kreskówki próbujący włamać się do systemu komputerowego, podczas gdy chroni go tarcza z zamkiem."
 coverCaption: ""
 ---

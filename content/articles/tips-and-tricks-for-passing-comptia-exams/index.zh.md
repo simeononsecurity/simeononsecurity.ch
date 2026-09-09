@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过本终极指南，获取通过 CompTIA 考试所需的所有技巧和窍门。"
 tags: ["CompTIA 考试", "IT 认证", "研究计划", "练习考试", "绩效问题", "考试目标", "信息技术专业人员", "应试技巧", "学习资源", "时间管理", "考试形式", "消除错误答案", "答题技巧", "阅读理解", "批判性思维", "考试焦虑", "树立信心", "考试准备", "信息技术", "职业发展", "CompTIA 考试", "IT 认证", "研究计划", "练习考试", "绩效问题", "考试目标", "信息技术专业人员", "应试技巧", "学习资源", "时间管理", "考试形式", "消除错误答案", "答题技巧", "阅读理解", "批判性思维", "考试焦虑", "树立信心", "考试准备", "信息技术", "职业发展", "通过 CompTIA 考试", "CompTIA 考试技巧", "CompTIA 考试指南", "考试成功策略", "CompTIA 学习技巧", "备考技巧", "CompTIA 认证", "通过 IT 考试", "CompTIA 考试学习资源", "考试时间管理", "应试策略", "IT 职业发展"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "一个人拿着书本和笔记本电脑学习的卡通形象，周围是问号，而上方的 CompTIA 证书则被描绘成一把成功的钥匙。"
 coverCaption: ""
 ---

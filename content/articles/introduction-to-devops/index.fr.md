@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment DevOps comble le fossé entre le développement et les opérations, en rationalisant la livraison de logiciels et en optimisant l'efficacité."
 tags: ["DevOps", "développement de logiciels", "opérations", "collaboration", "intégration continue", "livraison continue", "l'infrastructure en tant que code", "contrôle", "boucles de rétroaction", "délai de commercialisation", "efficiency", "qualité", "fiabilité", "HIPAA", "GDPR", "conformité", "sécurité", "audit", "traçabilité", "automation", "communication", "agile", "CICD", "déploiement de logiciels", "cycle de vie des logiciels", "systèmes logiciels", "industrie du logiciel", "la sécurité des données", "règlements", "mises à jour du logiciel", "avantage concurrentiel", "confidentialité des données", "protection des données", "l'évolution de l'industrie du logiciel"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Une illustration de bande dessinée montrant des développeurs et des professionnels des opérations collaborant et travaillant ensemble, symbolisant le pont entre le développement et les opérations dans DevOps."
 coverCaption: ""
 ---

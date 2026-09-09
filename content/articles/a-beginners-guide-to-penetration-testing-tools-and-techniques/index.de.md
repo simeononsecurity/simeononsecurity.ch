@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Tools und Techniken für Penetrationstests, Methoden und Zertifizierungen kennen, um Ihre Karriere im Bereich der Cybersicherheit zu starten."
 tags: ["Penetrationstests", "Cybersicherheit", "Ethisches Hacken", "Werkzeuge", "Techniken", "Einsteigerhandbuch", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "Sicherheitsprüfung", "Schwachstellenanalyse", "Netzwerksicherheit", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "Ein Cartoon-Hacker mit einer Sturmhaube und einer Lupe in der Hand untersucht einen Computerbildschirm, auf dem verschiedene Hacking-Testtools wie Nmap, Metasploit, Wireshark und Burp Suite angezeigt werden, während im Hintergrund digitale Schlösser sichere Systeme symbolisieren."
 coverCaption: ""
 ---

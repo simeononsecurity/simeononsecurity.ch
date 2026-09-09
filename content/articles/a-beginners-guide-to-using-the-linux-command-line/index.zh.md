@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习如何使用 Linux 命令行的基本和高级命令来保护网络安全。"
 tags: ["利纳克斯", "命令行", "网络安全", "初学者指南", "网络扫描", "漏洞测试", "恶意软件分析", "权限", "网络流量", "进程状态", "网络统计", "文件搜索", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "安全", "渗透测试", "数字取证"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "一幅卡通插图，画中人身穿连帽衫，坐在电脑屏幕前，屏幕上显示 Linux 命令行界面，手持放大镜，代表网络安全方面。"
 coverCaption: ""
 ---

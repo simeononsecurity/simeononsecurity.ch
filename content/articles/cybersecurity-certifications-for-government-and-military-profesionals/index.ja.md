@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "政府機関や軍事分野におけるサイバーセキュリティ認定資格の要件、メリット、キャリアパスについてご紹介します。"
 tags: ["サイバーセキュリティ", "認定資格", "政府", "ミリタリー", "キャリアパス", "情報セキュリティ", "ディフェンス", "セキュリティクリアランス", "コンプライアンス", "レギュレーション", "サイバークライム", "サイバー脅威", "IT監査", "リスクマネジメント", "CISSP", "CISM", "セキュリティ＋α", "シーイーエイチ", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "デジタルロックとキーを背景にした、政府または軍の盾の様式化されたイメージです。"
 coverCaption: ""
 ---

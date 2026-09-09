@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Bedeutung und die Vorteile der Container-Orchestrierung in modernen DevOps, über gängige Container-Orchestrierungstools und über die für die Containerisierung relevanten staatlichen Vorschriften."
 tags: ["Container-Orchestrierung", "DevOps", "Kubernetes", "Docker-Schwarm", "Apache Mesos", "Skalierbarkeit", "Hochverfügbarkeit", "Lastausgleich", "Sicherheit", "automatisierte Anwendungsbereitstellungen", "HIPAA", "SOX", "GDPR", "Compliance", "Software-Entwicklung", "Cloud Computing", "Containerisierung", "Technologie", "Automatisierung"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Eine Karikatur, die Container mit gleichem Gewicht auf einer Wippe zeigt, die von einem Orchesterdirigenten geleitet wird "
 coverCaption: ""
 ---

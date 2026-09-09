@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Découvrez les cadres complets d'évaluation et de développement des effectifs de la cybersécurité : NICE et DoD DCWF, qui permettent aux organisations de disposer de professionnels qualifiés."
 tags: ["développement de la main-d'œuvre", "cybersécurité", "Cadre NICE", "Cadre du DCWF du ministère de la défense", "évaluation des compétences", "développement professionnel", "main-d'œuvre dans le domaine de la cybersécurité", "parcours professionnels", "éducation à la cybersécurité", "l'alignement des effectifs", "cadre des effectifs", "NIST", "les réglementations gouvernementales", "certifications en cybersécurité", "normes industrielles", "talent management", "rôles en matière de cybersécurité", "compétences en matière de cybersécurité", "développement de la main-d'œuvre dans le domaine de la cybersécurité", "les professionnels de la cybersécurité", "compétences en matière de cybersécurité", "planification des effectifs", "recrutement dans le domaine de la cybersécurité", "résilience du personnel", "formation à la cybersécurité", "stratégie en matière de main-d'œuvre", "marché de l'emploi dans le domaine de la cybersécurité", "avancement des carrières en cybersécurité", "préparation de la main-d'œuvre"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Un groupe de professionnels divers collaborant à un projet de cybersécurité."
 coverCaption: "Libérer le potentiel : Donner aux professionnels de la cybersécurité les moyens de réussir"
 ---

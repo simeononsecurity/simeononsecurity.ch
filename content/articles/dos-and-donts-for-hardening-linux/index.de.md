@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Maßnahmen zur Absicherung Ihres Linux-Systems kennen, einschließlich Updates, Verwendung von Firewalls, Aktivierung von SELinux oder AppArmor, Konfiguration von Passwortrichtlinien und Überwachung von Systemprotokollen."
 tags: ["Linux-Sicherheit", "Systemhärtung", "Firewall", "SELinux", "AppArmor", "Passwort-Richtlinie", "System-Updates", "Systemprotokolle", "Sicherheitsmodule", "Zugangskontrollrichtlinien", "Cybersicherheit", "Systemsicherheit", "Netzwerksicherheit", "Schwachstellenmanagement", "bewährte Sicherheitsverfahren", "IT-Sicherheit", "Informationssicherheit", "Software-Aktualisierungen", "Root-Zugang", "Passwort-Manager"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Ein Cartoon-Schloss, das ein Schild mit dem Wort Linux in der Hand hält, während ein Pfeil vom Schild abprallt."
 coverCaption: ""
 ---

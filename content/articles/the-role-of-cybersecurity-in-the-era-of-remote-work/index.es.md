@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Una guía completa para que las organizaciones garanticen la seguridad de su personal remoto en la era del trabajo a distancia."
 tags: ["ciberseguridad", "trabajo a distancia", "violaciones de datos", "VPN", "autenticación de dos factores", "medidas de seguridad", "comunicación segura", "amenazas cibernéticas", "antivirus software", "correos electrónicos de phishing", "gestión de contraseñas", "trabajar desde casa", "protección de datos", "seguridad en línea", "seguridad de los empleados", "personal a distancia", "ciberdelincuentes", "videoconferencia", "mensajería cifrada", "red privada virtual"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Ilustración de dibujos animados de un ordenador portátil con un candado, con un escudo y una espada que representan la ciberseguridad, de fondo."
 coverCaption: ""
 ---

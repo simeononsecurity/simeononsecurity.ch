@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les étapes essentielles pour réussir dans le domaine de la cybersécurité, y compris la formation, les certifications et les perspectives d'emploi lucratives."
 tags: ["la cybersécurité", "faire carrière dans la cybersécurité", "l'éducation à la cybersécurité", "certifications en cybersécurité", "Offres d'emploi dans le domaine de la cybersécurité", "carrières technologiques", "éducation à la cybersécurité", "emplois dans le domaine de la cybersécurité", "industrie de la cybersécurité", "les professionnels de la cybersécurité", "compétences en matière de cybersécurité", "sécurité des réseaux", "la sécurité de l'information", "analyste en cybersécurité", "piratage éthique", "consultant en cybersécurité", "incident response", "RSSI", "stratégie de cybersécurité", "licence en cybersécurité", "master en cybersécurité", "Certification CISSP", "Certification CEH", "Certification CompTIA Security+", "marché de l'emploi dans le domaine de la cybersécurité", "criminalistique numérique", "la gestion des risques en matière de cybersécurité", "développement de logiciels sécurisés", "protection des données", "tendances en matière de cybersécurité"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Un professionnel de la cybersécurité brandissant un bouclier pour protéger les actifs numériques contre les attaques de pirates informatiques."
 coverCaption: ""
 ---

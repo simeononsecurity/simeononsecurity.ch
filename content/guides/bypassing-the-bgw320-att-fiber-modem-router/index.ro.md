@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "Aflați cum să ocoliți BGW-320 și să utilizați un COTS ONT realizat de Azore pentru a vă conecta la rețeaua ISP-ului dvs. cu acest ghid ușor de urmat."
 tags: ["COTS ONT", "BGW-320", "Azore", "fibră", "reţea", "XGS-PON", "Ethernet", "trecere IP", "personalizare", "ISP", "ont ID", "Adresa mac", "ID echipament", "versiunea imaginii", "versiunea hardware", "telnet", "aplicație CLI", "GUI web", "modul de configurare din fabrică", "probleme de compatibilitate"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Un tehnician din desene animate care ține un COTS ONT cu un cablu de fibră în fundal."
 coverCaption: ""
 ---

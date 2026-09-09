@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Dowiedz się, jak uzyskać skróty SHA256, MD5 i SHA1 plików w systemie Linux za pomocą wbudowanych narzędzi, zapewniając integralność danych i autentyczność plików."
 tags: ["Skróty plików w systemie Linux", "SHA256 hash", "Skrót MD5", "SHA1 hash", "Wiersz poleceń systemu Linux", "integralność plików", "walidacja danych", "Bezpieczeństwo systemu Linux", "wbudowane narzędzia", "weryfikacja plików", "autentyczność danych", "algorytmy haszowania plików", "Administracja systemem Linux", "narzędzia wiersza poleceń", "sumy kontrolne plików", "Narzędzia systemu Linux", "sprawdzanie integralności plików", "weryfikacja integralności danych", "przykłady hashowania plików", "Polecenia skrótu w systemie Linux", "metody haszowania plików", "Środki bezpieczeństwa systemu Linux", "Ochrona danych w systemie Linux", "Zarządzanie plikami w systemie Linux", "Weryfikacja plików w systemie Linux", "Integralność plików w systemie Linux", "bezpieczeństwo danych", "Sprawdzanie poprawności danych w systemie Linux", "Bezpieczeństwo systemu Linux", "techniki haszowania plików", "zapewnienie integralności plików", "bezpieczna walidacja plików", "Integralność danych w systemie Linux"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Cyfrowa reprezentacja skrótów plików obliczanych na ekranie terminala Linux, symbolizująca integralność i bezpieczeństwo danych."
 coverCaption: ""
 ---

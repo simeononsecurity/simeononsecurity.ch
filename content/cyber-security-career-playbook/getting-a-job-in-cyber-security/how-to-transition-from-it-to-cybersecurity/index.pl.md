@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Dowiedz się, jak pomyślnie przejść z IT do cyberbezpieczeństwa dzięki naszemu kompleksowemu przewodnikowi krok po kroku, zapewniając udaną zmianę kariery."
 tags: ["przejście", "IT do cyberbezpieczeństwa", "zmiana kariery", "Przewodnik krok po kroku", "edukacja", "doświadczenie", "umiejętności", "certyfikaty", "specjalizacja", "profesjonalny networking", "społeczność cyberbezpieczeństwa", "niedobór talentów", "wysoki popyt", "trendy branżowe", "praktyczne doświadczenie", "umiejętności techniczne", "umiejętności nietechniczne", "certyfikaty cyberbezpieczeństwa", "kursy online", "edukacja w zakresie cyberbezpieczeństwa", "przejście do cyberbezpieczeństwa", "Zmiana ścieżki kariery w IT", "umiejętności w zakresie cyberbezpieczeństwa", "rynek pracy cyberbezpieczeństwa", "szkolenie w zakresie cyberbezpieczeństwa", "specjalizacja cyberbezpieczeństwo", "specjaliści ds. cyberbezpieczeństwa", "branża cyberbezpieczeństwa", "Umiejętności informatyczne w zakresie cyberbezpieczeństwa", "ścieżki kariery w cyberbezpieczeństwie", "Oferty pracy w dziedzinie cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Ilustracja rysunkowa przedstawiająca osobę przechodzącą ze świata IT do świata cyberbezpieczeństwa."
 coverCaption: "Rozwiń swoją karierę: Podejmij wyzwanie cyberbezpieczeństwa!"
 ---

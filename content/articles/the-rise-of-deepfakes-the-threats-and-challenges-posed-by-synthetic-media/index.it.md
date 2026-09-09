@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Esplora l'ascesa dei deepfakes, le loro minacce, le sfide e le misure normative per combattere la manipolazione sintetica dei media."
 tags: ["deepfakes", "media sintetici", "Tecnologia AI", "disinformazione", "notizie false", "frode", "invasione della privacy", "rilevamento deepfake", "quadri normativi", "educazione", "consapevolezza", "l'era digitale", "tecnologia", "società", "sfide", "minacce", "combattere i deepfakes", "responsabilità", "collaborazione", "algoritmi avanzati"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "Un'illustrazione simbolica che raffigura il volto di una persona sostituito da un altro volto, a rappresentare la natura ingannevole dei deepfake e le sfide che pongono nella manipolazione dei media digitali."
 coverCaption: ""
 ---

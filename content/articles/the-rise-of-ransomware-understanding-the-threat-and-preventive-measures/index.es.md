@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Conozca las amenazas del ransomware y las medidas preventivas que puede tomar para protegerse contra ellas."
 tags: ["ransomware", "ciberseguridad", "prevención", "copia de seguridad", "antivirus", "VPN", "autenticación multifactor", "normativa gubernamental", "phishing", "ingeniería social", "malware", "ciberdelincuencia", "seguridad de los datos", "seguridad de la red", "ciberataque", "codificación", "ciberhigiene", "respuesta a incidentes", "protección de datos", "cibersensibilización"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Un ordenador con un candado y una cadena a su alrededor, simbolizando la encriptación de datos por un ransomware."
 coverCaption: ""
 ---

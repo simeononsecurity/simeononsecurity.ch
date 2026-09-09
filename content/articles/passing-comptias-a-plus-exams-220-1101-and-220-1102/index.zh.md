@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "获取通过 CompTIA A+ 考试的专业技巧和策略，包括基本缩写词、设备知识和常见故障排除程序。"
 tags: ["CompTIA A+ 认证", "220-1101", "220-1102", "考试准备", "IT 认证", "IT 职业", "信息技术", "应试策略", "学习技巧", "技术技能", "故障排除技术", "硬件组件", "软件安装", "网络概念", "安全原则", "数据恢复", "在线学习", "CompTIA A+ 认证提示", "通过 CompTIA A+ 考试", "A+ 考试的学习策略", "IT 认证准备", "A+ 考试的应试技巧", "硬件组件知识", "软件安装技术", "A+ 考试的网络概念", "信息技术中的安全原则", "数据恢复方法", "A+ 考试在线学习资源", "Comptia A 1001 基于性能的问题示例"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "这是一幅卡通图片，人物手持一台笔记本电脑，周围布满了各种计算机硬件组件和网线，思维泡泡中显示了一系列 CompTIA A+ 缩写词和故障排除程序。"
 coverCaption: ""
 ---

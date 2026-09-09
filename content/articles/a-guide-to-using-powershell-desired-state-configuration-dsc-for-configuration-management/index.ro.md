@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați puterea PowerShell Desired State Configuration (DSC) pentru a automatiza și gestiona configurațiile de sistem pentru un mediu sigur și conform."
 tags: ["PowerShell", "DSC", "Managementul configurației", "Automatizare", "Windows", "Administrarea sistemului", "Cele mai bune practici", "Conformitate", "Securitate", "Infrastructură", "DevOps", "Configurația serverului", "Testare", "Git", "Controlul sursei", "Reglementări guvernamentale", "NIST", "CIS", "Deriva de configurare", "Resurse personalizate"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.png"
+cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
 coverAlt: "O imagine de desen animat a unui administrator de sistem încrezător, cu o pelerină de supererou, care stă lângă un raft de servere bine organizat, ținând un script PowerShell DSC într-o mână și un scut cu logo-ul Windows în cealaltă, protejând serverele de derapajele de configurare și de amenințările de securitate."
 coverCaption: ""
 ---

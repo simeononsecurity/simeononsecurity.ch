@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a mantener a sus hijos a salvo del ciberacoso con esta completa guía para padres."
 tags: ["ciberacoso", "seguridad en línea", "paternidad", "niños", "salud mental", "normativa gubernamental", "políticas de seguridad en internet", "control de la actividad en línea", "prevención", "acoso en línea", "ciberseguridad", "crianza digital", "social media", "ciudadanía digital", "huella digital", "acoso escolar", "ley", "tecnología", "seguridad", "educación"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Dibujo animado de un padre y su hijo utilizando juntos un ordenador, con un globo sonoro sobre el ordenador que muestra un mensaje positivo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca la importancia de la gestión de riesgos en la ciberseguridad y cómo crear un programa que funcione para su empresa."
 tags: ["ciberseguridad", "gestión de riesgos", "postura de seguridad", "evaluación de riesgos", "mitigación de riesgos", "seguimiento de riesgos", "amenazas", "vulnerabilidades", "seguridad de la información", "protección de datos", "conformidad", "ciberataques", "toma de decisiones", "reducción de costes", "continuidad de las actividades", "análisis de riesgos", "identificación de riesgos", "control de riesgos", "tratamiento del riesgo", "mejora continua"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Un escudo con un candado y una llave simboliza la ciberseguridad, con una lupa encima que representa la gestión de riesgos."
 coverCaption: ""
 ---

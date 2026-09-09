@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questa guida completa fornisce una panoramica dettagliata su cosa sia un Home Lab, perché crearne uno, quali siano i componenti necessari, come configurarlo, gli argomenti avanzati da esplorare e le migliori pratiche da seguire."
 tags: ["Laboratorio domestico", "Professionisti IT", "studenti", "hobbisti", "rete", "virtualizzazione", "automazione", "hardware", "software", "migliori pratiche", "guida"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Una persona seduta alla scrivania con un computer e apparecchiature di rete, circondata da libri e appunti."
 coverCaption: ""
 ---

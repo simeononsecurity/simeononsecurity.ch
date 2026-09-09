@@ -6,7 +6,7 @@ draft: false
 description: "Libere el potencial de su laboratorio doméstico con esta completa guía, diseñada para profesionales informáticos, estudiantes y aficionados, que abarca la configuración, los componentes, los temas avanzados y las mejores prácticas."
 genre: ["Laboratorio en casa", "Profesionales de TI", "Estudiantes", "Aficionados", "Red", "Virtualización", "Automatización", "Hardware", "Software", "Buenas prácticas"]
 tags: ["Laboratorio en casa", "Profesionales de TI", "Estudiantes", "Aficionados", "Red", "Virtualización", "Automatización", "Hardware", "Software", "Buenas prácticas", "Laboratorio personal", "Entorno de aprendizaje", "Experimentación", "Desarrollo de competencias", "Tecnología", "Guía de instalación", "Temas avanzados", "Documentación", "Copia de seguridad", "Seguridad", "Organización", "Experiencia práctica", "Tecnologías del mundo real", "Entorno seguro", "Competencias informáticas", "Entusiastas de la tecnología", "Aprendizaje de TI", "Experimentación tecnológica", "Laboratorio a domicilio", "Competencias técnicas"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Una persona sentada en un escritorio con un ordenador y equipos de red, rodeada de libros y apuntes."
 coverCaption: "Libere el poder del aprendizaje con su propio laboratorio casero."
 ---

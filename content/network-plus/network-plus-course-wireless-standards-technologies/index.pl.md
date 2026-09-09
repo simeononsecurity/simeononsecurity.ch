@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj różne standardy 802.11, częstotliwości, zasięg i szyfrowanie w sieciach bezprzewodowych, aby przygotować się do egzaminu certyfikacyjnego CompTIA Network+."
 genre: ["Technologia", "Tworzenie sieci", "Sieć bezprzewodowa", "Egzamin certyfikacyjny", "CompTIA Network+", "Szkolenie IT", "Certyfikacja IT", "Standardy bezprzewodowe", "Technologie bezprzewodowe", "Technologia informacyjna"]
 tags: ["CompTIA Network Plus", "Egzamin certyfikacyjny Network+", "Standardy bezprzewodowe", "Technologie bezprzewodowe", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Częstotliwości", "Zasięg", "Łączenie kanałów", "Typy anten", "Standardy szyfrowania", "Konfiguracje SSID", "Sieć bezprzewodowa", "Egzamin z sieci bezprzewodowej", "Szkolenie w zakresie sieci bezprzewodowych", "Certyfikacja sieci bezprzewodowej", "Technologia sieci bezprzewodowej", "Bezpieczeństwo sieci bezprzewodowej", "Wydajność sieci bezprzewodowej", "Protokoły sieci bezprzewodowych", "Konfiguracja sieci bezprzewodowej", "Rozwiązywanie problemów z siecią bezprzewodową", "Najlepsze praktyki dotyczące sieci bezprzewodowych"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca różne urządzenia i sygnały sieci bezprzewodowej."
 coverCaption: "Uwolnij moc sieci bezprzewodowych"
 ---

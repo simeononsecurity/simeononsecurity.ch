@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Vor- und Nachteile der Multi-Faktor-Authentifizierung (MFA) kennen und erfahren Sie, wie Sie die richtige Lösung für die Sicherheit Ihres Unternehmens auswählen."
 tags: ["Multi-Faktor-Authentifizierung", "MFA", "Unternehmenssicherheit", "Cybersicherheit", "datenschutz", "Einhaltung von Rechtsvorschriften", "Benutzererfahrung", "Phishing", "Brute-Force-Angriffe", "technische Komplexität", "Benutzerresistenz", "smartphones", "Token", "Chipkarte", "Fingerabdruck", "Gesichtserkennung", "Spracherkennung", "PCI DSS", "HIPAA", "Datenschutzverletzung"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Ein Cartoon-Schloss mit Zwei-Faktor-Authentifizierungssymbolen wie ein Smartphone und ein Schlüssel."
 coverCaption: ""
 ---

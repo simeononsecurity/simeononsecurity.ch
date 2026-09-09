@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Obteniu informació sobre els diferents tipus d'autenticació multifactor i com triar la millor per a les vostres necessitats de seguretat a la nostra guia definitiva."
 tags: ["autenticació multifactor", "seguretat en línia", "seguretat de contrasenya", "factors d'autenticació", "autenticació de dos factors", "fitxes de maquinari", "autenticació de programari", "seguretat cibernètica", "atacs de pesca", "prevenció de la pirateria", "protecció de dades", "verificació d'identitat", "seguretat de contrasenya", "fitxes de seguretat", "control d'accés", "el robatori d'identitat", "ciberamenaces", "seguretat digital", "aplicacions d'autenticació", "ciberdefensa"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Una persona de dibuixos animats davant d'un ordinador, amb un símbol de pany a sobre del seu cap i diferents tipus de factors d'autenticació, com ara una clau, un telèfon, una empremta digital, etc., flotant al seu voltant"
 coverCaption: ""
 ---

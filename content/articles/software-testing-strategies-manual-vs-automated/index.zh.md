@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解手动和自动软件测试的优缺点，为您的组织做出明智的决定。"
 tags: ["软件测试", "人工测试", "自动测试", "测试策略", "软件开发", "质量保证", "测试用例", "测试覆盖率", "探索性测试", "用户体验", "效率", "复用性", "适应能力", "人为错误", "误报", "误报", "测试自动化", "混合测试", "资源优化", "软件测试实践", "选择正确的软件测试策略", "人工测试的优势", "自动测试的缺点", "结合人工和自动测试", "优化软件测试过程"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "人类测试员和机器人测试员共同测试软件应用程序的彩色插图。"
 coverCaption: ""
 ---

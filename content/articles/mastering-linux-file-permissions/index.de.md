@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Beherrschen Sie die Linux-Dateiberechtigungen, um ein sicheres Dateisystem zu gewährleisten - mit diesem umfassenden Leitfaden, der Besitzverhältnisse, Zugriffskontrolle und bewährte Verfahren behandelt."
 tags: ["Linux-Dateiberechtigungen", "sicheres Dateisystem", "Zugangskontrolle", "Eigentum", "file permissions guide", "Linux-Sicherheit", "Sicherheit des Dateisystems", "chmod-Befehl", "Chown-Befehl", "Überprüfung der Dateiberechtigungen", "Grundsatz des geringsten Rechtsanspruchs", "Einhaltung von Rechtsvorschriften", "GDPR", "HIPAA", "file permissions audit", "Dokumentationsvorschriften", "Systemsicherheit", "Netzwerksicherheit", "Verschlüsselung", "Benutzerverwaltung"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Ein Bild im Comic-Stil, das einen verschlossenen Aktenschrank mit verschiedenen Schlüsseln darstellt, die Benutzer-, Gruppen- und andere Berechtigungen repräsentieren."
 coverCaption: ""
 ---

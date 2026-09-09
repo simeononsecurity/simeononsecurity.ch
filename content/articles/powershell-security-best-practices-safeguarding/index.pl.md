@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj 10 najważniejszych najlepszych praktyk bezpieczeństwa PowerShell w celu ochrony skryptów, haseł i poufnych informacji. Zwiększ bezpieczeństwo swojego środowiska PowerShell i chroń się przed nieautoryzowanym dostępem i potencjalnymi naruszeniami bezpieczeństwa."
 genre: ["Najlepsze praktyki bezpieczeństwa PowerShell", "Bezpieczeństwo skryptów", "Bezpieczeństwo haseł", "Bezpieczeństwo IT", "Cyberbezpieczeństwo", "Administracja systemem Windows", "Automatyzacja", "Bezpieczne kodowanie", "Bezpieczeństwo sieci", "Ochrona danych"]
 tags: ["Najlepsze praktyki bezpieczeństwa PowerShell", "Najlepsze praktyki dotyczące bezpieczeństwa haseł PowerShell", "najlepsze praktyki dotyczące zabezpieczania i korzystania z PowerShell", "zasady wykonywania skryptów", "podpisywanie kodu", "kontrola dostępu użytkowników", "bezpieczeństwo hasła", "zakodowane hasła", "silne hasła", "zasady rotacji haseł", "Zabezpieczanie skryptów PowerShell", "ochrona haseł w PowerShell", "zarządzanie wykonywaniem skryptów w PowerShell", "zabezpieczanie poufnych informacji w PowerShell", "Zwiększanie bezpieczeństwa PowerShell"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca tarczę chroniącą skrypt PowerShell."
 coverCaption: "Zabezpiecz swoje skrypty PowerShell za pomocą skutecznych praktyk bezpieczeństwa."
 ---

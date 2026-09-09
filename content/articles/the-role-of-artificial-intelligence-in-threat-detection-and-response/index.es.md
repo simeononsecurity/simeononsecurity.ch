@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo la IA está revolucionando el campo de la detección y respuesta ante amenazas, así como los retos y limitaciones que presenta."
 tags: ["Inteligencia artificial", "Ciberseguridad", "Detección de amenazas", "Respuesta a las amenazas", "Aprendizaje automático", "Aprendizaje profundo", "Procesamiento del lenguaje natural", "Algoritmos de IA", "Seguridad de las redes", "Seguridad de los datos", "Ciberdefensa", "Respuesta a incidentes", "Amenazas internas", "Equipos de seguridad", "Control en tiempo real", "Sistemas basados en reglas", "Ciberdelincuencia", "Vulnerabilidades", "Seguridad adaptable", "Ciberresiliencia"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "Una imagen animada en 3D de un escudo con las letras AI sobre él, bloqueando las flechas entrantes que simbolizan las ciberamenazas."
 coverCaption: ""
 ---

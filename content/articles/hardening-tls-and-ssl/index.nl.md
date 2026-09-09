@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In dit artikel worden de stappen besproken om de gegevensbeveiliging te verbeteren door oudere versies van SSL- en TLS-protocollen, die kwetsbaar zijn voor cyberdreigingen zoals POODLE, BEAST en Heartbleed, uit te schakelen in Windows- en Linux-systemen."
 tags: ["Verbetering van de computerbeveiliging", "SSL en TLS uitschakelen", "Gegevensbeveiliging", "POODLE", "BEAST", "Heartbleed", "Windows register editor", "Linux OpenSSL configuratie", "Apache", "Nginx"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "Een computer met een hangslotsymbool voor gegevensbeveiliging"
 coverCaption: ""
 ---

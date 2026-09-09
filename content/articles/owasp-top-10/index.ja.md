@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "OWASP Top 10による最も重要なWebアプリケーションセキュリティリスクとその対策について学ぶ"
 tags: ["ウェブアプリケーションセキュリティ", "OWASPトップ10", "インジェクション攻撃", "オーセンティケーション", "セッション管理", "XSS攻撃", "アクセスコントロール", "セキュリティの誤設定", "暗号化ストレージ", "トランスポート層の保護", "入力バリデーション", "サードパーティコンポーネント", "ロギングとモニタリング", "ウェブ開発", "サイバーセキュリティ", "データ保護", "ソフトウェア・セキュリティ", "ITセキュリティ", "セキュリティ対策", "リスクマネジメント"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "スーパーヒーローのマントを着て、盾を持つウェブ開発者の漫画画像です。盾は、画面にWebアプリケーションのインターフェイスが表示されているノートパソコンを守っています。"
 coverCaption: ""
 ---

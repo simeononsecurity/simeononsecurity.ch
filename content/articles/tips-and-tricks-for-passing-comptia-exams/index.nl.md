@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Met deze ultieme gids krijgt u alle tips en trucs om te slagen voor CompTIA-examens."
 tags: ["CompTIA examens", "IT-certificering", "onderzoekplan", "oefenexamens", "prestatiegerichte vragen", "examendoelstellingen", "IT-professionals", "tips voor het maken van toetsen", "studiemiddelen", "tijdmanagement", "examenvorm", "foute antwoorden elimineren", "beantwoordingstechnieken", "begrijpend lezen", "kritisch denken", "testangst", "vertrouwensopbouw", "examenvoorbereiding", "informatietechnologie", "loopbaanontwikkeling"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "Een cartoonbeeld van een studerende persoon met boeken en een laptop, omringd door vraagtekens, terwijl een CompTIA-certificaat als sleutel tot succes boven hen is afgebeeld."
 coverCaption: ""
 ---

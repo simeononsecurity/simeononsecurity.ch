@@ -5,7 +5,7 @@ draft: false
 description: "Apreneu a descodificar els xifratges de Fernet i Malboge per resoldre el HackTheBox Crypto Challenge i descobrir la bandera oculta."
 tags: ["HackTheBox", "Desafiaments", "Cripto", "Descodificar", "Escriure", "Xifrat de Fernet", "Xifrat de Malboge", "Xifratge simètric", "Seguretat cibernètica", "Criptografia", "Prova de penetració", "Python", "Seguretat", "Desafiament", "CTF", "Bandera", "Xifratge", "Desxifrat", "Base 64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Un pirata informàtic de dibuixos animats al costat d'un pany gran amb una mà sostenint una clau amb el logotip de Fernet i l'altra mà sostenint una clau amb el logotip de Malboge mentre es veu una bandera dins del pany"
 coverCaption: ""
 ---

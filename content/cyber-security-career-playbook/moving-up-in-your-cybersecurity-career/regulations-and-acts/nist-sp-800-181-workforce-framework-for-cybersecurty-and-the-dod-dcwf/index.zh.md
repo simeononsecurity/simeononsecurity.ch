@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "了解网络安全人才的综合评估和发展框架：NICE 和 DoD DCWF，为组织提供技能娴熟的专业人员。"
 tags: ["劳动力发展", "网络安全", "NICE 框架", "国防部 DCWF 框架", "技能评估", "专业发展", "网络安全人员队伍", "职业途径", "网络安全教育", "员工队伍调整", "劳动力框架", "NIST", "政府法规", "网络安全认证", "行业标准", "人才管理", "网络安全角色", "网络安全能力", "网络安全人才培养", "网络安全专业人员", "网络安全技能", "劳动力规划", "网络安全招聘", "员工队伍复原力", "网络安全培训", "劳动力战略", "网络安全就业市场", "网络安全职业发展", "劳动力准备"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "一群不同的专业人员合作开展网络安全项目。"
 coverCaption: "释放潜能：增强网络安全专业人员的成功能力"
 ---

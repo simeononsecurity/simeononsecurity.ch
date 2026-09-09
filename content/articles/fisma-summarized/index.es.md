@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 ofrece una visión completa de la Ley Federal de Modernización de la Seguridad de la Información, incluidos sus componentes clave, beneficios y requisitos para las agencias federales."
 tags: ["FISMA", "Seguridad de la información federal", "Seguridad de la información", "Gestión de riesgos", "Evaluación de los controles de seguridad", "Control continuo", "Respuesta a incidentes", "Autorización y acreditación", "Mayor seguridad de la información", "Mejor gestión del riesgo", "Mayor transparencia", "Colaboración reforzada", "Legislación estadounidense", "Agencias federales", "Programas de seguridad de la información", "Controles de seguridad", "Evaluación de riesgos", "Control continuo", "Incidentes de seguridad", "Transparencia y responsabilidad", "Ley Federal de Modernización de la Seguridad de la Información", "Beneficios de FISMA en las agencias federales", "Gestión de riesgos en la seguridad de la información federal", "Supervisión continua en FISMA", "Respuesta a incidentes en organismos federales", "Proceso de autorización y acreditación", "Mejora de la seguridad de la información en la administración federal", "Colaboración en la seguridad de la información federal", "Transparencia en el cumplimiento de la FISMA", "Normas de seguridad de la información para los organismos federales"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Una pantalla de ordenador con un candado, símbolo de seguridad y protección de la información, con un fondo de código binario"
 coverCaption: ""
 ---

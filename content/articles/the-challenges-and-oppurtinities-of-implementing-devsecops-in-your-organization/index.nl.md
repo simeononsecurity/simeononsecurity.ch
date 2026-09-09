@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dit artikel verkent de uitdagingen en kansen van DevSecOps in organisaties, waaronder betere samenwerking, verbeterde schaalbaarheid, integratie met overheidsvoorschriften en meer."
 tags: ["DevSecOps", "informatiebeveiliging", "veiligheidscontrole", "agile methodologieën", "samenwerking", "overheidsvoorschriften", "automatisering", "applicatieontwikkeling", "schaalbaarheid", "voortdurende controle", "NIST-richtsnoeren", "feedback-lussen", "modulariteit", "kwetsbaarheden", "kwaliteitsborging", "cyberbeveiliging", "IT-infrastructuur", "tools voor softwareontwikkeling", "risicobeheer"]
-cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.png"
+cover: "/img/cover/A_group_of_people_standing_on_a_summit_holding_hands.webp"
 coverAlt: "Een groep mensen die op een top staan en elkaars handen vasthouden, met op de voorgrond puzzelstukjes die in elkaar passen."
 coverCaption: ""
 ---

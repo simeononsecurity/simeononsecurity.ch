@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți beneficiile, provocările și cele mai bune practici pentru implementarea unei politici BYOD în organizația dumneavoastră."
 tags: ["Politica BYOD", "adu-ți propriul dispozitiv", "gestionarea dispozitivelor mobile", "productivitate", "riscuri de securitate", "economii de costuri", "formarea angajaților", "protocoale de securitate", "criptarea datelor", "suport tehnic", "sarcini legate de muncă", "satisfacția profesională", "politicile companiei", "ștergerea de la distanță", "Software MDM", "dispozitive pentru angajați", "măsuri de securitate", "utilizarea dispozitivului", "conformitate", "utilizarea adecvată"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "O imagine de desen animat a unei persoane care jonglează cu diverse dispozitive personale (laptop, smartphone, tabletă) și obiecte legate de muncă (documente, ceașcă de cafea)"
 coverCaption: ""
 ---

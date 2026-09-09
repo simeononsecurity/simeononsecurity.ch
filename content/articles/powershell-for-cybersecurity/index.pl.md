@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj moc PowerShell w zwiększaniu operacji cyberbezpieczeństwa i osiąganiu zgodności ze standardami branżowymi poprzez automatyzację i usprawnienie procesów."
 tags: ["PowerShell", "Cybersecurity", "Operacje", "Zgodność", "Automatyka", "STIG SRG Wymagania", "Wytyczne NSACyber", "Systemy Windows", "Obrona niebieskiej drużyny", "Skrypty", "Narzędzia", "Projekty C Sharp"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Osoba pisząca na klawiaturze na tle serwerów komputerowych i kabli sieciowych, reprezentująca wykorzystanie PowerShell do operacji cyberbezpieczeństwa i zgodności z przepisami."
 coverCaption: ""
 ---

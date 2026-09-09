@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer in dit informatieve artikel hoe je je kunt verdedigen tegen social engineering-aanvallen en je gegevens kunt beschermen tegen cybercriminelen."
 tags: ["cyberbeveiliging", "social engineering", "phishing-oplichting", "multifactor-authenticatie", "beveiligingsupdates", "wachtwoordbeveiliging", "webbeveiliging", "datalekken", "IT-beveiliging", "identiteitsdiefstal", "fraudepreventie", "spionagepreventie", "technische beveiliging", "fysieke beveiliging", "informatiebeveiliging", "preventie van cybercriminaliteit", "inbraakdetectie", "beveiligingspatches", "werknemersopleiding", "gegevensbescherming"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Een cartoonachtig schild met een hangslot in het midden, dat het idee weergeeft van verdediging tegen social engineering-aanvallen in cyberbeveiliging"
 coverCaption: ""
 ---

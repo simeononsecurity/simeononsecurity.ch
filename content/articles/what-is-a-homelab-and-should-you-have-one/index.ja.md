@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、ホームラボとは何か、なぜホームラボを作るのか、どのようなコンポーネントが必要なのか、どのようにセットアップするのか、探求すべき高度なトピック、従うべきベストプラクティスについて詳しく説明しています。"
 tags: ["ホームラボ", "ITプロフェッショナル", "がくせい", "道楽者", "ネットワーキング", "仮想化", "オートメーション", "ハードウエア", "ソフトウェア", "さいぜんのそち", "みちしるべ"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "パソコンやネットワーク機器のあるデスクに座り、本やノートに囲まれている人。"
 coverCaption: ""
 ---

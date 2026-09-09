@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie mit Packer leicht zu wartende und sichere Maschinen-Images erstellen können."
 tags: ["Packer", "Infrastruktur als Code", "DevOps", "Automatisierung", "Sicherheit", "Reproduzierbarkeit", "Skalierbarkeit", "Multiplattform", "Versionskontrolle", "Cloud Computing", "Machine Images", "Virtualisierung", "Konfigurationsmanagement", "Kontinuierliche Integration", "Kontinuierliche Bereitstellung", "Software-Entwicklung", "Bewährte Praktiken", "Prüfung", "Offene Quelle", "Multi-Cloud"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "Ein Bild im Cartoon-Stil von einem Packer, der verschiedene Maschinenbilder für mehrere Plattformen erstellt, mit einem Laptop und Wolken im Hintergrund."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "CEH認定試験に合格するための効果的な学習プランの作成方法を、合格のためのヒントや戦略とともにご紹介します。"
 tags: ["CEH認定", "倫理的ハッキング", "スタディプラン", "タイムマネージメント", "試験対策", "サイバーセキュリティ", "モチベーション", "がくしゅうざい", "練習問題", "見直し", "イーシーカウンシル", "情報セキュリティ", "プロフェッショナル・ディベロップメント", "IT検定", "キャリアアップ", "ネットワークセキュリティ", "侵入テスト", "脆弱性評価", "保険情報", "セキュリティテスト"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "CEHのロゴを背景に、ノートパソコンと様々な本やメモを持ち、机に向かって勉強している人を漫画風に表現した画像です。"
 coverCaption: ""
 ---

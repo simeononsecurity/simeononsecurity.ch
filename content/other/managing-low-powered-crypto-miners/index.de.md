@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Entdecken Sie die Best Practices und Tools für die Verwaltung einer Flotte von Minern mit geringem Stromverbrauch, darunter remote.it, ngrok, OpenVPN, WireGuard und mehr."
 tags: ["Bergleute mit geringer Leistung", "Fernzugriff", "Netzwerksicherheit", "openvpn", "Drahtschutz", "Schnauben", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Ein Cartoonbild mehrerer Miner mit geringem Stromverbrauch, die mit den im Artikel besprochenen Tools mit einem Netzwerk-Hub verbunden sind."
 coverCaption: ""
 ---

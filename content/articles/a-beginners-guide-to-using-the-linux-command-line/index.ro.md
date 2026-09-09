@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Învățați cum să utilizați linia de comandă Linux pentru securitatea cibernetică cu comenzi de bază și avansate."
 tags: ["Linux", "Linia de comandă", "Securitatea cibernetică", "Ghid pentru începători", "Scanarea rețelei", "Testarea vulnerabilității", "Analiza malware-ului", "Permisiuni", "Traficul de rețea", "Starea procesului", "Statistici de rețea", "Căutare fișiere", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Securitate", "Testarea de penetrare", "Criminalistică digitală"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care poartă un hanorac cu glugă, care stă în fața unui ecran de calculator pe care este vizibilă interfața liniei de comandă Linux și care ține în mână o lupă pentru a reprezenta aspectul de securitate cibernetică."
 coverCaption: ""
 ---

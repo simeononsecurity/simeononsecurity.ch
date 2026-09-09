@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Informieren Sie sich über die verschiedenen Karrierewege in der Cybersicherheit, die Berufsaussichten und die Vorteile in diesem schnell wachsenden Bereich."
 tags: ["Cybersicherheit", "Karrierewege", "Berufsaussichten", "Informationssicherheits-Analytiker", "Sicherheitsingenieure", "Sicherheitsarchitekten", "Sicherheitstester", "forensische Analysten", "Notfall-Einsatzkräfte", "Sicherheitsberater", "Cyber-Bedrohungen", "Technologie", "datenschutz", "Datenschutz", "berufliche Entwicklung", "Zertifizierungen", "staatliche Vorschriften", "NIST", "CISA", "Karrieren im Bereich Cybersicherheit"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Ein Cybersicherheitsexperte schützt digitale Systeme mit einem Schild und einem Schloss."
 coverCaption: ""
 ---

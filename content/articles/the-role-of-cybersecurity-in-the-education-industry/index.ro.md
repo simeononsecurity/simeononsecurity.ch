@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți importanța securității cibernetice în industria educației și învățați cum să protejați datele sensibile ale elevilor."
 tags: ["securitate cibernetică", "educație", "date despre elevi", "protecția datelor", "confidențialitate", "FERPA", "NIST", "HEISC", "Internet2", "Institutul SANS", "politici de securitate", "phishing", "formare de conștientizare", "evaluarea riscurilor", "autentificarea cu mai mulți factori", "criptare", "răspunsul la incidente", "securitatea rețelei", "acces securizat", "firewall-uri"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "O imagine animată 3D care prezintă un scut care protejează un laptop cu o șapcă de absolvire, simbolizând protecția datelor elevilor în industria educației."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie die Bedrohungsjagd Cyberangriffe verhindern kann und welche Vorteile und Herausforderungen die Implementierung als proaktive Cybersicherheitsmaßnahme mit sich bringt."
 tags: ["Bedrohungsjagd", "Cybersicherheit", "proaktive Verteidigung", "Cyber-Angriffe", "Netzwerksicherheit", "Endpunktsicherheit", "Protokollanalyse", "Verhaltensanalyse", "Bedrohungsdaten", "manuelle Untersuchung", "automatisierte Untersuchung", "Risikominderung", "Falschmeldungen", "Qualifikationsanforderungen", "Ressourcenbedarf", "schnellere Reaktionszeit", "verbesserte Erkennung", "verringertes Risiko", "Finanzinstitute", "Gesundheitsdienstleister"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Ein Cartoon-Sicherheitsanalytiker, der mit einer Lupe nach versteckten Cyber-Bedrohungen auf einem Computerbildschirm sucht."
 coverCaption: ""
 ---

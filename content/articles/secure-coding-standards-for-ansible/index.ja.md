@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "構成管理とデプロイのための一般的なツールであるAnsibleを使って、安全なコードを書くためのベストプラクティスを学ぶ。"
 tags: ["安全なコーディング", "アンシブル", "コンフィギュレーション管理", "配備", "最小特権の原則", "Ansible Vault", "強力なパスワード", "アクセス制御", "バージョン管理システム", "安全な通信プロトコル", "SSH", "ウィンアールエム", "TLS証明書", "ユーザー入力のサニタイズ", "入力検証", "エラー処理", "安全なコーディングの実践", "コード注入", "セキュア・コーディング・ガイドライン", "インフラ・セキュリティ", "Ansibleのセキュアコーディング・ガイドライン", "Ansibleによる安全なコードのためのベストプラクティス", "Ansibleによる安全な構成管理", "Ansibleによる安全なデプロイの実践", "Ansibleにおける最小特権の原則", "Ansible Vaultを安全なコードに使用する", "Ansibleで強力なパスワードを作成する", "Ansibleでのアクセス制御", "Ansibleプレイブックのバージョン管理システム", "Ansibleにおける安全な通信プロトコル", "AnsibleのSSHセキュリティ", "AnsibleのWinRMセキュリティ", "AnsibleのTLS証明書", "Ansibleでユーザー入力をサニタイズする", "Ansibleでの入力検証", "Ansibleのエラー処理", "Ansibleにおけるセキュアコーディングの実践", "Ansibleでコードインジェクションを防ぐ", "Ansibleで管理するインフラストラクチャのためのセキュアコーディングガイドライン", "Ansibleインフラの保護"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.webp"
 coverAlt: "盾に守られた城の漫画画像で、Ansibleが管理するインフラのセキュリティ対策を表している。"
 coverCaption: ""
 ---

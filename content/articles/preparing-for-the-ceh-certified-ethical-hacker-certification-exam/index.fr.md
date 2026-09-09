@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à créer un plan d'étude efficace pour passer l'examen de certification CEH avec des conseils et des stratégies pour réussir."
 tags: ["Certification CEH", "piratage éthique", "plan d'étude", "gestion du temps", "préparation à l'examen", "cybersécurité", "motivation", "matériel d'étude", "practice questions", "examen", "Conseil européen", "la sécurité de l'information", "développement professionnel", "Certification informatique", "l'avancement de la carrière", "sécurité des réseaux", "tests de pénétration", "évaluation de la vulnérabilité", "information assurance", "tests de sécurité"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "Image de style bande dessinée d'une personne étudiant à un bureau avec un ordinateur portable et divers livres et notes, avec le logo CEH en arrière-plan."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a usare Packer per creare immagini di macchine facili da mantenere e sicure."
 tags: ["Imballatore", "Infrastruttura come codice", "DevOps", "Automazione", "Sicurezza", "Ripetibilità", "Scalability", "Multipiattaforma", "Controllo della versione", "Cloud Computing", "Immagini della macchina", "Virtualizzazione", "Gestione della configurazione", "Integrazione continua", "Consegna continua", "Sviluppo di software", "Migliori pratiche", "Test", "Open Source", "Multi-Cloud"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "Un'immagine in stile cartone animato di un addetto al confezionamento che crea diverse immagini di macchine per più piattaforme, con un computer portatile e nuvole sullo sfondo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questa guida fornisce una panoramica su come iniziare a lavorare con Linux, compresi i suggerimenti per imparare le varianti di Linux basate su Debian e RHEL."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Sistema operativo", "Open Source", "Amministrazione del sistema", "Comandi", "Terminale", "Comunità", "Impresa", "Professionale", "Apprendimento", "Collegamento in rete", "Sicurezza", "Personalizzazione", "Stabilità", "Flessibilità"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Immagine a fumetti di un pinguino con un berretto di laurea, con in mano un diploma e in piedi davanti a un computer con un ambiente desktop Linux sullo sfondo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Erfahren Sie mehr über Ransomware-Bedrohungen und die Präventivmaßnahmen, die Sie ergreifen können, um sich davor zu schützen."
 tags: ["Ransomware", "Cybersicherheit", "Prävention", "Backup", "Antivirus", "VPN", "Multi-Faktor-Authentifizierung", "staatliche Vorschriften", "Phishing", "Social Engineering", "Malware", "Internetkriminalität", "Datensicherheit", "Netzwerksicherheit", "Cyberangriff", "Verschlüsselung", "cyber hygiene", "Vorfallreaktion", "datenschutz", "Cyber-Bewusstsein"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Ein Computer mit einem Schloss und einer Kette, die die Verschlüsselung von Daten durch Ransomware symbolisiert."
 coverCaption: ""
 ---

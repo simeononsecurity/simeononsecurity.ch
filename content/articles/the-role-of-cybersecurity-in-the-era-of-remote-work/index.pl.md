@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Kompleksowy przewodnik dla organizacji, aby zapewnić swoim zdalnym pracownikom bezpieczeństwo w erze pracy zdalnej."
 tags: ["cyberbezpieczeństwo", "praca zdalna", "naruszenia danych", "VPN", "uwierzytelnianie dwuskładnikowe", "środki bezpieczeństwa", "bezpieczna komunikacja", "cyberzagrożenia", "oprogramowanie antywirusowe", "wiadomości phishingowe", "zarządzanie hasłami", "praca w domu", "ochrona danych", "bezpieczeństwo online", "bezpieczeństwo pracowników", "pracownicy zdalni", "cyberprzestępcy", "wideokonferencje", "szyfrowane wiadomości", "wirtualna sieć prywatna"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Rysunkowa ilustracja laptopa z blokadą, z tarczą i mieczem reprezentującymi cyberbezpieczeństwo w tle."
 coverCaption: ""
 ---

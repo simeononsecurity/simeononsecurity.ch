@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-26
 description: "Descubra cómo encontrar y asegurarse los mejores empleos remotos en ciberseguridad, aprovechando la flexibilidad y las oportunidades globales de este campo en crecimiento."
 tags: ["empleos remotos en ciberseguridad", "encontrar trabajo a distancia", "conseguir empleos a distancia", "carreras en ciberseguridad", "oportunidades de trabajo a distancia", "plataformas de empleo en línea", "búsqueda de empleo en ciberseguridad", "conciliación de la vida laboral y familiar", "satisfacción laboral", "mercado laboral mundial", "estrategias de búsqueda de empleo", "bolsas de trabajo", "red", "autónomo", "contratos públicos", "conocimientos técnicos", "certificaciones de ciberseguridad", "capacidad de resolución de problemas", "habilidades comunicativas", "automotivación", "entrevistas a distancia", "consejos para el currículum", "consejos para la carta de presentación", "fundamentos de ciberseguridad", "seguridad de la red", "información sobre amenazas", "evaluación de la vulnerabilidad", "respuesta a incidentes", "tendencias del sector de la ciberseguridad", "colaboración virtual", "habilidades de gestión del tiempo"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.webp"
 coverAlt: "Ilustración de dibujos animados de una persona trabajando en un ordenador portátil con iconos y símbolos relacionados con la ciberseguridad a su alrededor."
 coverCaption: "Desbloquea tu futuro en empleos remotos de ciberseguridad"
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Discover the key steps to effectively implement the NICE Cybersecurity Framework and fortify your organization's defenses against cyber threats."
 tags: ["NICE Cybersecurity Framework", "cyber defense", "implementation best practices", "cybersecurity workforce", "skills gap analysis", "training programs", "monitoring and reporting", "cybersecurity posture", "risk management", "government regulations", "cybersecurity policies", "data protection", "incident response", "network security", "vulnerability management", "security controls", "cyber threat intelligence", "cybersecurity metrics", "continuous improvement", "industry benchmarks", "cyber resilience", "security incident management", "cyber threat landscape", "cybersecurity governance", "cybersecurity oversight", "secure provisioning", "data classification", "compliance requirements", "cybersecurity certifications", "cybersecurity awareness training"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "A shield-wielding superhero protecting a network infrastructure from cyber threats."
 coverCaption: "Defend, Protect, Secure: Strengthening Your Cyber Defense with the NICE Framework"
 ---

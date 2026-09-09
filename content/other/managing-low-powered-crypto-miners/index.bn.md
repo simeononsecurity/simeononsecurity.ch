@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "remote.it, ngrok, OpenVPN, WireGuard এবং আরও অনেক কিছু সহ স্বল্প-শক্তিসম্পন্ন খনি শ্রমিকদের বহর পরিচালনার জন্য সর্বোত্তম অনুশীলন এবং সরঞ্জামগুলি অন্বেষণ করুন৷"
 tags: ["কম ক্ষমতা সম্পন্ন খনি শ্রমিক", "দূরবর্তী প্রবেশাধিকার", "নেটওয়ার্ক নিরাপত্তা", "openvpn", "ওয়্যারগার্ড", "নাক ডাকা", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "নিবন্ধে আলোচনা করা সরঞ্জামগুলির সাথে একটি নেটওয়ার্ক হাবের সাথে সংযুক্ত একাধিক স্বল্প-শক্তিসম্পন্ন খনি শ্রমিকের একটি কার্টুন চিত্র৷"
 coverCaption: ""
 ---

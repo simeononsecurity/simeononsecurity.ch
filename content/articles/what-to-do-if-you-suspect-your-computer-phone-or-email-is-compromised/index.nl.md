@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer wat u moet doen als u vermoedt dat uw e-mail, desktop of telefoon is gehackt of gecompromitteerd, waaronder het wijzigen van wachtwoorden, scannen op malware en het wissen van uw apparaat."
 tags: ["apparaatbeveiliging", "gegevensbescherming", "aangetast apparaat", "gehackte e-mail", "gehackte telefoon", "malware", "virusverwijdering", "wachtwoordbeveiliging", "gegevensback-up", "twee-factor authenticatie", "cyberbeveiliging", "online veiligheid", "digitale privacy", "identiteitsdiefstal", "online fraude", "technische ondersteuning", "computer reparatie", "gegevensherstel", "IT-diensten", "technologie"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een persoon die met een bezorgde uitdrukking voor een computer of telefoon staat, terwijl een cartoonhacker op de achtergrond loert."
 coverCaption: ""
 ---

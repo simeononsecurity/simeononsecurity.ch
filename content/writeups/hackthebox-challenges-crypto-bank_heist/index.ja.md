@@ -5,7 +5,7 @@ draft: false
 toc: true
 description: "Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox."
 tags: ["ハックザボックス", "あんごうぎじゅつ", "ティーナイン暗号", "マルチタップサイファー", "アットバッシュサイファー", "サイバーセキュリティ", "デコード", "暗号文", "挑戦", "フラグ", "サイバーセキュリティ", "ハッキング", "学ぶ", "チュートリアル", "ふごうあんごうか", "謎解き", "コードブレーキング", "あんごうチャレンジ", "サイバーセキュリティスキル", "オンライン学習"]
-cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png"
+cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.webp"
 coverAlt: "夕暮れ時のパリの街並みを背景に、金庫の扉を鍵で開けると宝箱が出てくるという漫画のようなストーリーです。"
 coverCaption: ""
 ---

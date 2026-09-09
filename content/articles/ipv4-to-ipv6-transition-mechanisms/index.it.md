@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i diversi meccanismi utilizzati per la transizione da IPv4 a IPv6 in questa guida completa."
 tags: ["IPv4", "IPv6", "rete", "meccanismi di transizione", "doppio stack", "NAT64", "DNS64", "Tunneling IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migrazione IPv6", "protocolli di rete", "protocollo internet", "architettura di rete", "routing", "subnetting", "indirizzamento"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "Un'immagine a fumetti di una persona in piedi a un incrocio, con un cartello che indica le direzioni IPv4 e IPv6, che rappresenta la scelta e la transizione tra i due protocolli."
 coverCaption: ""
 ---

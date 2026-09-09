@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie sich das maschinelle Lernen auf die Cybersicherheit auswirkt und wie Sie sich anpassen können."
 tags: ["Maschinelles Lernen", "Cybersecurity", "Anpassung", "Künstliche Intelligenz", "Erkennung von Bedrohungen", "Datenschutz", "Echtzeit", "Überwachtes Lernen", "Unüberwachtes Lernen", "Reinforcement Learning", "Falsch-positive Meldungen", "Falsche Negative", "Mitarbeiterschulung", "Sicherheitslösungen", "Datenanalyse", "Netzwerksicherheit", "Cloud-Sicherheit", "Erkennung von Mustern", "Erkennung von Anomalien", "Cyber-Bedrohungen"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Ein Cartoon-Roboter, der vor einem virtuellen Schild Wache hält, symbolisiert den Einsatz von maschinellem Lernen in der Cybersicherheit."
 coverCaption: ""
 ---

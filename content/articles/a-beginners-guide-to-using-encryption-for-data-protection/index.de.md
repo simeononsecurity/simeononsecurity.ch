@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem Leitfaden für Einsteiger lernen Sie die Grundlagen der Verschlüsselung kennen und erfahren, wie Sie damit Ihre sensiblen Daten schützen können."
 tags: ["Verschlüsselung", "datenschutz", "Cybersicherheit", "Datenschutz", "Technologie", "Online-Sicherheit", "symmetrische Verschlüsselung", "asymmetrische Verschlüsselung", "Sicherheit", "Internetprivatsphäre", "Kryptographie", "verschlüsselte Nachrichtenübermittlung", "digitale Sicherheit", "Datenschutz", "verschlüsselte Daten", "Verschlüsselungssoftware", "Datenverschlüsselung", "Computersicherheit", "Netzwerksicherheit", "Passwortschutz"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Ein Cartoon-Vorhängeschloss mit einem Schlüsselloch, das den Schutz von Daten durch Verschlüsselung darstellt."
 coverCaption: ""
 ---

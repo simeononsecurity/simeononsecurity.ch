@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum să utilizați Wireshark în mod eficient pentru analiza și depanarea rețelelor cu acest ghid detaliat pentru începători."
 tags: ["Wireshark", "analiza rețelei", "depanare", "ghidul începătorului", "monitorizarea rețelei", "captura de pachete", "protocoale de rețea", "TCP IP", "vizualizarea datelor", "securitatea rețelei", "filtre de captură", "filtre de afișare", "dispozitive de rețea", "Ethernet", "topologia rețelei", "diagnosticarea rețelei", "administrarea rețelei", "performanța rețelei", "Tutorial Wireshark", "pachete de date"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "O ilustrație de desen animat a unui detectiv cu o lupă care analizează cablurile de rețea, în timp ce logo-ul Wireshark plutește deasupra lor, simbolizând procesul de depanare și analiză a rețelei cu ajutorul Wireshark."
 coverCaption: ""
 ---

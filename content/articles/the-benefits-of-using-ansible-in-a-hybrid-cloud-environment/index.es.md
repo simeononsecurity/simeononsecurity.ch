@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo las capacidades de automatización de Ansible pueden agilizar, proteger y optimizar los entornos de nube híbrida para mejorar la productividad."
 tags: ["Operaciones", "CICD", "escalabilidad", "rendimiento", "seguridad", "conformidad", "integración", "Servicios web de Amazon", "Microsoft Azure", "Nube de Google", "Torre Ansible", "Galaxia Ansible", "Bóveda Ansible", "ahorro de costes", "Eficacia informática"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Una vibrante ilustración animada en 3D de una nube con engranajes en su interior, que representa un entorno de nube híbrida y muestra la gestión eficiente y automatizada de la infraestructura de la nube."
 coverCaption: ""
 ---

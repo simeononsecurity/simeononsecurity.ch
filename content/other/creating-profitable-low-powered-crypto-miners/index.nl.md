@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-07
 description: "Leer hoe je een passief inkomen crypto miner met een Raspberry Pi of Intel NUC opzet, en verdien $10-$20 per maand per box met deze gids."
 tags: ["Bouw een winstgevende passief inkomen box", "Hardware met laag vermogen", "Passief inkomen", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Guide", "Hardwarevereisten", "OS Installatie", "Software-installatie", "Docker", "Automatische Docker Container Updates", "Ubuntu-server", "Ubuntu Desktop", "Raspbian", "Begroting", "USFF", "Kleine", "Mini", "Micro PC", "Technische ervaring", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Watchtower", "Bitping"]
-cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp"
 coverAlt: "een groene, printplaat in de vorm van een doos met daarop internetconnectiviteitssymbolen als draden."
 coverCaption: ""
 ---

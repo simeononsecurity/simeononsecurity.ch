@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i passi essenziali per intraprendere un percorso di successo nella sicurezza informatica, tra cui formazione, certificazioni e prospettive di lavoro redditizie."
 tags: ["sicurezza informatica", "costruire una carriera nella sicurezza informatica", "educazione alla sicurezza informatica", "certificazioni di sicurezza informatica", "opportunità di lavoro nella sicurezza informatica", "carriere tecnologiche", "educazione alla sicurezza informatica", "lavori di sicurezza informatica", "industria della sicurezza informatica", "professionisti della sicurezza informatica", "competenze di sicurezza informatica", "sicurezza della rete", "sicurezza delle informazioni", "analista di sicurezza informatica", "hacking etico", "consulente per la sicurezza informatica", "risposta agli incidenti", "CISO", "strategia di sicurezza informatica", "laurea in sicurezza informatica", "master in sicurezza informatica", "Certificazione CISSP", "Certificazione CEH", "Certificazione CompTIA Security+", "mercato del lavoro della sicurezza informatica", "medicina legale digitale", "gestione del rischio nella sicurezza informatica", "sviluppo sicuro del software", "protezione dei dati", "tendenze della sicurezza informatica"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Un professionista della sicurezza informatica con lo scudo che protegge le risorse digitali dagli attacchi degli hacker."
 coverCaption: ""
 ---

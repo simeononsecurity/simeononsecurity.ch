@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe DevOps de kloof tussen ontwikkeling en operatie overbrugt, de levering van software stroomlijnt en de efficiëntie maximaliseert."
 tags: ["DevOps", "softwareontwikkeling", "operaties", "samenwerking", "voortdurende integratie", "continue levering", "infrastructuur als code", "controle", "feedback-lussen", "time-to-market", "efficiëntie", "kwaliteit", "betrouwbaarheid", "HIPAA", "GDPR", "compliance", "beveiliging", "auditing", "traceerbaarheid", "automatisering", "communicatie", "agile", "CICD", "software-implementatie", "softwarelevenscyclus", "softwaresystemen", "software-industrie", "gegevensbeveiliging", "voorschriften", "software-updates", "concurrentievoordeel", "gegevensprivacy", "gegevensbescherming", "evolutie van de software-industrie"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Een cartoonillustratie met ontwikkelaars en operations professionals die samenwerken, als symbool voor de brug tussen ontwikkeling en operations in DevOps."
 coverCaption: ""
 ---

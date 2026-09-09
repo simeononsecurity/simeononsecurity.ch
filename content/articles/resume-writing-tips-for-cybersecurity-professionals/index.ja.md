@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "サイバーセキュリティ、ソフトウェア開発、ITの専門家のための履歴書作成のヒントで、夢の仕事を手に入れるチャンスを広げましょう。"
 tags: ["レジュメの書き方のコツ", "サイバーセキュリティプロフェッショナル", "ソフトウェア開発", "ITプロフェッショナル", "求職活動", "キャリア・アドバイス", "ぎのう", "プロジェクトハイライト", "サイバーセキュリティ意識", "問題解決能力", "業界動向", "プロフェッショナル・ディベロップメント", "GDPR対応", "中外製薬の規制", "雇用市場", "レジュメ最適化", "きゅうしょくもうしこみ", "レジュメのヒント", "就職活動対策", "キャリアアップ"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "履歴書を持つ人物を、サイバーセキュリティのシンボルとコードスニペットで囲んだ漫画風のイラストです。"
 coverCaption: ""
 ---

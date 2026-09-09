@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à mener une évaluation approfondie des risques de sécurité afin de protéger les informations et les biens sensibles de votre organisation."
 tags: ["Évaluation des risques de sécurité", "Cybersécurité", "Évaluation de la vulnérabilité", "Identification des menaces", "Gestion des risques", "Stratégies d'atténuation", "Sécurité physique", "Sécurité de l'information", "Protection des actifs", "Protection des données", "Hiérarchisation des risques", "Protocoles de sécurité", "Systèmes informatiques", "Formation des employés", "Examen de l'évaluation des risques", "Menaces internes", "Menaces extérieures", "Menaces pour la sécurité", "Prévention des violations de données", "Analyse des risques"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Un bouclier de bande dessinée protégeant un ordinateur portable et des biens matériels avec une loupe identifiant les risques."
 coverCaption: ""
 ---

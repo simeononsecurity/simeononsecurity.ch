@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda los conceptos básicos del cifrado y cómo utilizarlo para proteger sus datos confidenciales con esta guía para principiantes sobre el cifrado."
 tags: ["codificación", "protección de datos", "ciberseguridad", "privacidad", "tecnología", "seguridad en línea", "cifrado simétrico", "cifrado asimétrico", "seguridad", "privacidad en internet", "criptografía", "mensajería cifrada", "seguridad digital", "privacidad de los datos", "datos encriptados", "software de encriptación", "encriptación de datos", "seguridad informática", "seguridad de la red", "protección por contraseña"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un candado de dibujos animados con un ojo de cerradura, que representa la protección de datos mediante cifrado."
 coverCaption: ""
 ---

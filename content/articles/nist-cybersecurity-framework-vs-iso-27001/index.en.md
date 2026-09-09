@@ -6,7 +6,7 @@ draft: false
 description: "Learn the differences between the NIST Cybersecurity Framework and ISO 27001 to make an informed decision on the right security framework for your organization."
 genre: ["Cybersecurity", "Information Security", "Security Frameworks", "Risk Management", "Data Protection", "Compliance", "IT Governance", "Cyber Threats", "Cyber Defense", "Cyber Risk"]
 tags: ["NIST Cybersecurity Framework", "ISO 27001", "security framework", "cyber attacks", "data breaches", "information security", "risk management", "compliance", "IT governance", "cyber threats", "cyber defense", "cyber risk", "critical infrastructure", "security posture", "information assets", "security breaches", "security incidents", "security controls", "best practices", "cybersecurity risks", "PDCA cycle", "continuous improvement", "context of the organization", "leadership", "planning", "support", "operation", "performance evaluation", "improvement", "ISMS implementation", "cybersecurity posture", "risk management plan", "effectiveness evaluation", "information assets protection"]
-cover: "/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_shield_protecting_a_network_of.webp"
 coverAlt: "A symbolic illustration of a shield protecting a network of interconnected devices from cyber threats with a lock symbolizing data security."
 coverCaption: "Secure your digital assets with the right security framework."
 ---

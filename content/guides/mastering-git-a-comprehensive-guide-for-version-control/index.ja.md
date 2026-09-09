@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "インストールから設定、ブランチ、マージ、コラボレーションまで、Gitを使いこなすための包括的なガイドです。"
 tags: ["ギット", "バージョン管理", "Gitチュートリアル", "Gitガイド", "Gitの基礎知識", "Gitコマンド", "Gitのインストール", "Gitの構成", "Gitのブランチング", "Gitでマージする", "Gitでの共同作業", "分散型バージョン管理", "コードバージョニング", "Gitワークフロー", "Gitのヒント", "Gitのベストプラクティス", "初心者のためのGit", "開発者向けGit", "ソフトウェア開発", "コラボレーションコード", "Gitマスタリング", "Git総合ガイド", "Gitバージョン管理チュートリアル", "Gitのブランチとマージ", "Gitコラボレーションのヒント"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "コラボレーションとバージョン管理を表す2つの歯車が連結したシンボリックなイラストに、Gitのロゴを組み込んだデザインです。"
 coverCaption: ""
 ---

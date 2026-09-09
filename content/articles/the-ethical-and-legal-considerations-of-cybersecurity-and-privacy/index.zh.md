@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解数字化转型中网络安全和隐私的法律和道德考虑因素。"
 tags: ["网络安全", "隐私权", "数字化转型", "数据隐私", "数据保护", "伦理学", "责任", "透明度", "信任", "数据泄露", "数据收集", "数据安全", "数据条例", "数据隐私条例", "网络安全法", "责任", "数据保护法", "数据保护条例", "在线安全", "信息安全"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "保护电脑的挂锁或带有锁图标的盾牌的卡通形象，象征着数字时代网络安全和隐私的重要性。"
 coverCaption: ""
 ---

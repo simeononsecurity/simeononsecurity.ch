@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "マルウェア、トラッカー、Tor トラフィック、トレントをブロックする高度な対策で、Linux のインターネット共有アプリを保護する方法をご紹介します。"
 tags: ["Linuxのセキュリティ", "インターネット共有アプリ", "マルウェアプロテクション", "トラッカーブロッキング", "Torトラフィックブロッキング", "迸り防止", "ネットワークセキュリティ", "スノート", "セキュリタ", "DNSの保護", "アドバンスドファイアウォールルール", "Ubuntuのアップデート", "自動更新", "ネットワークモニタリング", "サイバーセキュリティ", "Linuxのインターネットセキュリティ", "Linuxアプリのセキュリティ", "マルウェアブロッキング", "Torトラフィック防止", "トレントプロテクション", "ネットワークファイアウォール", "Linuxのネットワークセキュリティ", "セキュアなインターネット共有", "LinuxのDNS対策", "高度なネットワークセキュリティ", "Linuxシステムのアップデート", "ネットワークモニタリングツール", "Linuxのサイバーセキュリティ対策", "Linuxのセキュリティ対策"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "相互に接続された機器のネットワークを悪意のある脅威から守るシールドを示す漫画のイラストです。"
 coverCaption: ""
 ---

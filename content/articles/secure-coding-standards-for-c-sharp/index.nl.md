@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer best practices voor veilig coderen in C# om het risico van beveiligingslekken te minimaliseren en gevoelige gegevens te beschermen."
 tags: ["Veilige codering", "C scherpe ontwikkeling", "C Sharp programmering", "veilige codeerpraktijken", "C Scherpe beveiliging", "ASP.NET beveiliging", ".NET Core beveiliging", "ingangsvalidatie", "wachtwoord hashing", "cryptografie", "minste voorrecht", "statische code analyzer", "beveiliging van webtoepassingen", "SQL-injectie preventie", "cross-site scripting preventie", "gegevensbescherming", "gezondheidscontroles", "sessiebeheer", "OWASP beste praktijken", "C Sharp veilige coderingsnormen", "C Scherpe beveiligingsrichtlijnen", "tips voor veilig coderen", "veilige softwareontwikkeling", "veilige coderingskaders", "veilige coderingstechnieken", "aanbevelingen voor veilige codering", "C Sharp veilig programmeren", "kwetsbaarheden voor veilige codering", "tools voor veilig coderen", "tutorials voor veilig coderen", "Beste praktijken voor veilig coderen in C Sharp", "C Sharp secure coding guidelines", "Veilige coderingsnormen voor C Sharp-ontwikkelaars", "C Scherpe veilige codeerpraktijken", "Veilig coderen in C Sharp", "Tips voor veilig coderen in C Sharp", "Veilig coderen in C Sharp webapplicaties", "C Sharp veilige coderingskaders", "Veilige coderingstechnieken voor C Sharp-ontwikkelaars", "C Sharp veilige coderingstools"]
-cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png"
+cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.webp"
 coverAlt: " Een cartoonontwikkelaar met een sloticoon als hoofd, omgeven door code en afgeschermd door een firewall."
 coverCaption: ""
 ---

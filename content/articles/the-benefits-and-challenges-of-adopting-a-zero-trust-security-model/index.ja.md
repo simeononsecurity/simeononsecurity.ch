@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "今日のデジタル時代において、Zero Trustのセキュリティモデルを採用することの利点と課題を探ります。"
 tags: ["ゼロ・トラスト・セキュリティ", "サイバーセキュリティ", "ネットワークセキュリティ", "クラウドセキュリティ", "データ保護", "セキュリティモデル", "オーセンティケーション", "オーソライズ", "暗号化", "コンプライアンス", "ヒパア", "GDPR", "PCI DSS", "ユーザーエクスペリエンス", "コスト", "複雑さ", "多層的なセキュリティ", "視認性", "フレキシビリティ", "セキュリティ侵害"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "ネットワークケーブルの上に立つ南京錠と鍵は、Zero Trust Securityを象徴的に表現しています。"
 coverCaption: ""
 ---

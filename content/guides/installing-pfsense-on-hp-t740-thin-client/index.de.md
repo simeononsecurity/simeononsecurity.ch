@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Erfahren Sie, wie Sie pfSense auf dem HP t740 Thin Client einrichten und potenzielle Probleme wie Einfrieren und SSD-Erkennungsprobleme beheben."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "Dünner Kunde", "Heimserver", "PPPoE", "FreeBSD", "Boot-Prompt", "loader.conf.local", "Nano-Editor", "SSD-Erkennung", "M.2-SSD", "Western Digital", "Fehlerbehebung", "nach der Installation", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Eine Karikatur eines Zauberers, der einen Zauber wirkt, um einen eingefrorenen Computer zu reparieren, mit einer Sprechblase mit der Aufschrift „Problem gelöst“."
 coverCaption: ""
 ---

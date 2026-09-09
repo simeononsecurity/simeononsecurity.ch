@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie eine saubere Windows-ISO-Datei herunterladen und Windows von Grund auf installieren."
 tags: ["Windows 10", "Fenster 11", "ISO-Datei", "Saubere Installation", "Werkzeug zur Medienerstellung", "Bootfähiger USB", "Installationsmedien", "BIOS", "UEFI-Firmware", "Benutzerdefinierte Installation", "Produktschlüssel", "64-Bit-System", "32-Bit-System", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "MD5 & SHA Prüfsummen-Dienstprogramm", "Systemtyp"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die einen USB-Stick mit einem Windows-Logo und einem Häkchen in der Hand hält und vor einem Computerbildschirm mit einem Windows-Logo steht."
 coverCaption: ""
 ---

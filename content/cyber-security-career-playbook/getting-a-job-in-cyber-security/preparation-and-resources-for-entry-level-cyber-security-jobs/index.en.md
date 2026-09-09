@@ -6,7 +6,7 @@ date: 2023-06-24
 lastmod: 2026-07-22
 description: "The entry-level cybersecurity job market is harder in 2026 than it was in 2022. AI automation has reduced tier-1 SOC headcounts. This guide gives you the honest picture and what actually differentiates candidates."
 tags: ["entry-level cybersecurity jobs 2026", "cybersecurity job market AI", "first cybersecurity job 2026", "SOC analyst 2026 AI", "cybersecurity homelab first job", "cybersecurity portfolio 2026", "how to get cybersecurity job 2026", "entry level cyber security difficult", "cybersecurity job competition 2026"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "A cartoon illustration of a person wearing a superhero cape, holding a shield, and standing in front of a computer with locks and shields around it."
 coverCaption: "Unlock your potential in cybersecurity and become a cyber defender."
 ---

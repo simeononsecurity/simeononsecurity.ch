@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Descubra los pasos clave para implantar eficazmente el marco de ciberseguridad de NICE y fortalecer las defensas de su organización frente a las ciberamenazas."
 tags: ["Marco de ciberseguridad de NICE", "ciberdefensa", "buenas prácticas de aplicación", "personal de ciberseguridad", "análisis de las carencias de cualificaciones", "programas de formación", "seguimiento e informes", "postura de ciberseguridad", "gestión de riesgos", "normativa gubernamental", "políticas de ciberseguridad", "protección de datos", "respuesta a incidentes", "seguridad de la red", "gestión de vulnerabilidades", "controles de seguridad", "inteligencia sobre ciberamenazas", "métricas de ciberseguridad", "mejora continua", "puntos de referencia del sector", "ciberresiliencia", "gestión de incidentes de seguridad", "panorama de las ciberamenazas", "gobernanza de la ciberseguridad", "supervisión de la ciberseguridad", "aprovisionamiento seguro", "clasificación de datos", "requisitos de conformidad", "certificaciones de ciberseguridad", "formación sobre ciberseguridad"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Un superhéroe con escudo que protege una infraestructura de red de las ciberamenazas."
 coverCaption: "Defender, Proteger, Asegurar: Refuerce su ciberdefensa con el marco NICE"
 ---

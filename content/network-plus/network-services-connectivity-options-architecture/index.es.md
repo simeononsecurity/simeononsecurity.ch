@@ -6,7 +6,7 @@ draft: false
 description: "Descubra las funcionalidades de los servicios DHCP, DNS y NTP, comprenda la arquitectura de redes corporativas y de centros de datos, y explore los conceptos de nube y las opciones de conectividad para una comunicación y gestión de datos sin fisuras."
 genre: ["Tecnología", "Red", "Conectividad", "Intercambio de datos", "Arquitectura de red", "Computación en nube", "Servicios de red", "DNS", "DHCP", "NTP"]
 tags: ["servicios de red", "opciones de conectividad", "arquitectura", "DHCP", "DNS", "NTP", "red corporativa", "red de centros de datos", "conceptos de nube", "conectividad", "arquitectura de tres niveles", "redes definidas por software", "arquitectura de la columna vertebral y de las hojas", "flujos de tráfico", "sucursal", "centro de datos local", "colocación", "redes de área de almacenamiento", "Canal de fibra sobre Ethernet", "iSCSI", "explorando DHCP", "Comprender el DNS", "sincronización horaria en red", "arquitectura de redes corporativas", "opciones de conectividad en la nube", "arquitectura de red de tres niveles", "ventajas de las redes definidas por software", "arquitectura de la red troncal y de la red de hojas", "conectividad en la nube para sucursales", "tipos de redes de área de almacenamiento"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Una ilustración de dibujos animados que muestra varios componentes de red y opciones de conectividad en la nube"
 coverCaption: "Libere el poder de los servicios de red y la conectividad en la nube"
 ---

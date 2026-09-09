@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a conoscere le considerazioni legali ed etiche sulla cybersicurezza e sulla privacy nella trasformazione digitale."
 tags: ["Sicurezza informatica", "Privacy", "Trasformazione digitale", "Data Privacy", "Protezione dei dati", "Etica", "Responsabilità", "Trasparenza", "Fiducia", "Violazione dei dati", "Raccolta dati", "Sicurezza dei dati", "Regolamento sui dati", "Regolamenti sulla privacy dei dati", "Leggi sulla sicurezza informatica", "Responsabilità", "Leggi sulla protezione dei dati", "Regolamento sulla protezione dei dati", "Sicurezza online", "Sicurezza delle informazioni"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Un'immagine a fumetti di un lucchetto che protegge un computer o uno scudo con l'icona di un lucchetto, che simboleggia l'importanza della sicurezza informatica e della privacy nell'era digitale."
 coverCaption: ""
 ---

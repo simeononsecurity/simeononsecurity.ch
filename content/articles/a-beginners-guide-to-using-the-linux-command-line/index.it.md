@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a utilizzare la riga di comando di Linux per la sicurezza informatica con comandi di base e avanzati."
 tags: ["Linux", "Linea di comando", "Sicurezza informatica", "Guida per principianti", "Scansione di rete", "Test di vulnerabilità", "Analisi del malware", "Permessi", "Traffico di rete", "Stato del processo", "Statistiche di rete", "Ricerca file", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Sicurezza", "Test di penetrazione", "Forensica digitale"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "Un'illustrazione a fumetti di una persona che indossa una felpa con cappuccio, seduta davanti allo schermo di un computer con l'interfaccia della riga di comando di Linux visibile e con in mano una lente di ingrandimento per rappresentare l'aspetto della sicurezza informatica."
 coverCaption: ""
 ---

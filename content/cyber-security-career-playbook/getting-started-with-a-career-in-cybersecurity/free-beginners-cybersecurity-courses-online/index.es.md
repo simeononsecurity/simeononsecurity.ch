@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-06
 description: "Descubra los mejores cursos gratuitos de ciberseguridad para principiantes en las mejores plataformas y comience su andadura en este campo crítico."
 tags: ["ciberseguridad", "cursos de ciberseguridad", "principiantes", "cursos gratuitos", "plataformas en línea", "formación en ciberseguridad", "recursos didácticos", "seguridad de la red", "hacking ético", "codificación segura", "habilidades prácticas", "experiencia práctica", "fundamentos de ciberseguridad", "Biblioteca", "Ases cibernéticos SANS en línea", "TryHackMe", "HackTheBox", "Laboratorios inmersivos", "INE", "Academia de redes Cisco", "Portal de aprendizaje de Juniper", "Microsoft Aprende", "Zona de aprendizaje de VMware", "Código.org", "Codecademy", "Instituto Python", "aprendizaje rentable", "aprendizaje flexible", "conocimiento exhaustivo", "experiencia práctica en ciberseguridad"]
-cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.png"
+cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.webp"
 coverAlt: "Una imagen simbólica de dibujos animados que representa a un grupo de personas diversas vestidas con atuendos de ciberseguridad, de pie y juntas formando un escudo, con iconos de código binario y candados a su alrededor, para subrayar la importancia de la unidad y la protección en el ámbito digital."
 coverCaption: "¡Libere su potencial en ciberseguridad con cursos gratuitos para principiantes!"
 ---

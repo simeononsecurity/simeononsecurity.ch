@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "使いやすいStandalone-Windows-STIG-Scriptで、安全でコンプライアンスに優れたWindowsシステムを構築する方法をご紹介します。この記事では、ステップバイステップの手順と詳細なパラメータ解説を掲載しています。"
 tags: ["STIGスクリプト", "Windowsのセキュリティ", "準拠のWindowsシステム", "システムハードニング", "ウィンドウズSTIG", "セキュアウィンドウズ", "Windows コンプライアンス", "マニュアルインストール", "Windowsのアップデート", "アドビリーダー", "ファイアフォックス", "クローム", "インターネットエクスプローラー11", ".NET Framework", "オフィス", "OneDrive（ワンドライブ", "Java", "Windows Defender", "Windowsファイアウォール", "ミティゲーション", "ネサスPID", "VMware Horizon", "オプションの焼入れ"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "完成度を示すプログレスバーが表示されたパソコン画面のスクリーンショットです。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "メンテナンスが容易で安全なマシンイメージを作成するためのPackerの使い方をご紹介します。"
 tags: ["パッカー", "コードとしてのインフラ", "デブオプス", "オートメーション", "セキュリティ", "再現性", "スケーラビリティ", "マルチプラットフォーム", "バージョン管理", "クラウドコンピューティング", "機械イメージ", "仮想化", "コンフィギュレーションマネジメント", "継続的インテグレーション", "継続的デリバリー", "ソフトウェア開発", "ベストプラクティス", "テスト", "オープンソース", "マルチクラウド"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "マルチプラットフォーム用に異なるマシンイメージを作成するパッカーが、ノートパソコンと雲を背景に漫画風に描かれたイメージ。"
 coverCaption: ""
 ---

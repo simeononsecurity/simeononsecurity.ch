@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggervi dal cyberstalking e a mantenervi al sicuro online con questi consigli e tecniche."
 tags: ["cyberstalking", "sicurezza online", "sicurezza in Internet", "prevenzione dello stalking", "sicurezza personale", "online privacy", "sicurezza informatica", "sicurezza digitale", "sicurezza in internet", "cyberbullismo", "molestie", "protezione delle vittime", "azione legale", "consulenza", "salute mentale", "sicurezza dei social media", "molestie online", "stalking online", "forze dell'ordine", "protezione della privacy"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Una persona che guarda il proprio telefono con un'espressione preoccupata mentre sullo sfondo si staglia una figura ombrosa."
 coverCaption: ""
 ---

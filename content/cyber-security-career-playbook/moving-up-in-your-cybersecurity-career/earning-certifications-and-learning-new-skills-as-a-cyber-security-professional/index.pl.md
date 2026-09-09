@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-28
 description: "Odkryj znaczenie ciągłego uczenia się, popularnych certyfikatów cyberbezpieczeństwa oraz kroków do ich zdobycia i utrzymania w celu udanej kariery w cyberbezpieczeństwie."
 tags: ["specjalista ds. cyberbezpieczeństwa", "nauka nowych umiejętności", "zdobywanie certyfikatów", "ciągłe uczenie się", "certyfikaty cyberbezpieczeństwa", "CISSP", "CEH", "CISM", "Security+", "CCSP", "Znaczenie ciągłego uczenia się", "Zalety zdobywania certyfikatów", "rozwój kariery w dziedzinie cyberbezpieczeństwa", "rozwój zawodowy", "Najnowsze trendy w cyberbezpieczeństwie", "postęp technologiczny w dziedzinie cyberbezpieczeństwa", "najlepsze praktyki w zakresie cyberbezpieczeństwa", "nabywanie umiejętności w zakresie cyberbezpieczeństwa", "Przygotowanie do egzaminów z cyberbezpieczeństwa", "utrzymywanie certyfikatów cyberbezpieczeństwa", "uznawane w branży certyfikaty cyberbezpieczeństwa", "możliwości kariery w cyberbezpieczeństwie", "Edukacja i szkolenia w zakresie cyberbezpieczeństwa", "podnoszenie kwalifikacji w zakresie cyberbezpieczeństwa", "rynek pracy cyberbezpieczeństwa", "krajobraz cyberzagrożeń", "ciągły rozwój zawodowy w zakresie cyberbezpieczeństwa", "certyfikaty bezpieczeństwa sieci", "certyfikaty bezpieczeństwa w chmurze", "certyfikaty etycznego hakowania", "certyfikaty zarządzania bezpieczeństwem informacji"]
-cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.png"
+cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.webp"
 coverAlt: " Postać z kreskówki pokonująca cyberzagrożenia za pomocą tarczy i miecza."
 coverCaption: "Wzmocnij swoją pozycję, pokonaj cyberzagrożenia!"
 ---

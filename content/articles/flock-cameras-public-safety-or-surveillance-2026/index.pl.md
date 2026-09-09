@@ -6,7 +6,7 @@ draft: false
 description: "Niezależna analiza kamer Flock Safety ALPR: jak naprawdę działają, jakie dane zbierają poza tablicami rejestracyjnymi, jak udostępnianie danych tworzy ukrytą ogólnokrajową bazę danych oraz dlaczego kwestia nakazu sądowego jest kluczowym problemem."
 genre: ["Prywatność", "Inwigilacja", "Wolności obywatelskie", "Technologia organów ścigania", "Prawa cyfrowe"]
 tags: ["Flock Safety", "ALPR", "czytniki tablic rejestracyjnych", "inwigilacja", "prywatność", "inwigilacja bez nakazu", "analiza konwoju", "śledzenie Bluetooth", "śledzenie TPMS", "udostępnianie danych", "kamery Ring", "Czwarta Poprawka", "nie mam nic do ukrycia", "dokładność LPR", "fałszywe oskarżenie", "MFA", "technologia organów ścigania", "wolności obywatelskie", "minimalizacja danych", "DeFlock", "kontr-inwigilacja", "bezpieczeństwo publiczne", "inwigilacja policyjna", "prawo do prywatności", "nadzór cyfrowy", "masowa inwigilacja", "rozpoznawanie tablic rejestracyjnych", "sieci kamer", "przechowywanie danych"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Ciemne skrzyżowanie ulic oświetlone przez kamerę monitoringu zamontowaną na słupie, z danymi tablic rejestracyjnych nałożonymi na przejeżdżające samochody."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

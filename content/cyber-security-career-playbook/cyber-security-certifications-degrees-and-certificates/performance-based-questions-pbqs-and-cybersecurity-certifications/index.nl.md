@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Ontdek de opkomst van prestatiegerichte vragen (PBQ's) in cyberbeveiligingscertificeringen en hun rol in het beoordelen van praktische vaardigheden en probleemoplossend vermogen in de echte wereld."
 tags: ["PBQ's", "Prestatiegerichte vragen", "cyberbeveiligingscertificeringen", "praktische vaardigheden", "problemen in de echte wereld oplossen", "simulatie PBQ's", "virtuele PBQ's", "examenvoorbereiding", "cyberbeveiligingsprofessionals", "praktijkervaring", "certificeringsexamens", "CompTIA", "IT-beveiliging", "cyberbedreigingen", "kritisch denken", "technische vaardigheid", "relevantie voor de industrie", "cyberbeveiligingstrends", "industrienormen", "NIST Cyberveiligheidskader", "CISA", "Nationaal Instituut voor Normen en Technologie", "beoordeling cyberbeveiliging", "onderwijs in cyberbeveiliging", "informatiebeveiliging", "beveiligingsprofessionals", "banenmarkt cyberbeveiliging", "IT-certificeringen", "cyberbeveiligingsvaardigheden", "netwerkbeveiliging"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "Een professional in een superheldencape, met een schild dat staat voor cyberbeveiliging, staat zelfverzekerd voor een computernetwerk."
 coverCaption: "Versterk jezelf met cyberbeveiligingscertificaten en ontketen je superheldenpotentieel!"
 ---

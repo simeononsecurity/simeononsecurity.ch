@@ -6,7 +6,7 @@ draft: false
 description: "通过全面的加固技术和最佳实践，了解增强 Windows 10 和 Windows 11 系统安全性的有效策略。"
 genre: ["窗口加固", "视窗安全", "Windows 10 加固", "Windows 11 加固", "Windows 安全最佳实践", "Windows 安全提示", "视窗安全指南", "确保 Windows 操作系统的安全", "Windows 系统加固", "视窗安全措施"]
 tags: ["窗口加固", "视窗安全", "Windows 10", "视窗 11", "操作系统安全", "Windows Defender", "用户账户控制", "比特锁加密", "防火墙配置", "AppLocker 政策", "视窗更新", "强密码", "数据备份", "Windows Hello", "安全启动", "TPM", "微软卫士杀毒软件", "Windows 沙盒", "Microsoft Defender 应用程序卫士", "受控文件夹访问", "保护 Windows 10 和 Windows 11 安全的最佳实践", "如何加固 Windows 操作系统", "针对个人和组织的视窗安全措施", "增强 Windows 系统安全性", "使用 BitLocker 加密技术保护数据", "使用 Microsoft Defender 应用程序防护隔离浏览器会话", "Windows 10 安全提示和指南", "实施 Windows 安全功能", "利用基于硬件的隔离保护 Windows", "确保 Windows 系统的完整性"]
-cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp"
 coverAlt: "一个保护 Windows 徽标免受各种网络威胁的盾牌的卡通插图。"
 coverCaption: "使用有效的加固技术保护你的 Windows 堡垒。"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ten przewodnik zawiera przegląd sposobów na rozpoczęcie pracy z Linuksem, w tym wskazówki dotyczące nauki zarówno wariantów Linuksa opartych na Debianie, jak i RHEL."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "System operacyjny", "Otwarte źródło", "Administracja systemem", "Polecenia", "Terminal", "Wspólnota", "Przedsiębiorstwo", "Profesjonalne", "Nauka", "Tworzenie sieci", "Bezpieczeństwo", "Dostosowanie", "Stabilność", "Elastyczność"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Kreskówkowy obraz pingwina z czapką absolwenta, trzymającego dyplom i stojącego przed komputerem ze środowiskiem graficznym Linux w tle."
 coverCaption: ""
 ---

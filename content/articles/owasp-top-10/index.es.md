@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca los riesgos más críticos para la seguridad de las aplicaciones web con el Top 10 de OWASP y cómo protegerse contra ellos"
 tags: ["Seguridad de las aplicaciones web", "Top 10 de OWASP", "Ataques de inyección", "Autenticación", "Gestión de sesiones", "Ataques XSS", "Control de acceso", "Desconfiguración de la seguridad", "Almacenamiento criptográfico", "Protección de la capa de transporte", "Validación de entradas", "Componentes de terceros", "Registro y supervisión", "Desarrollo web", "Ciberseguridad", "Protección de datos", "Seguridad del software", "Seguridad informática", "Medidas de seguridad", "Gestión de riesgos"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "Imagen de dibujos animados de un desarrollador web con una capa de superhéroe y un escudo en la mano. El escudo protege un ordenador portátil con una interfaz de aplicación web en la pantalla."
 coverCaption: ""
 ---

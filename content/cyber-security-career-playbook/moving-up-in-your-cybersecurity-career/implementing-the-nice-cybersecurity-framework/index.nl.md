@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Ontdek de belangrijkste stappen om het NICE Cybersecurity Framework effectief te implementeren en de verdediging van uw organisatie tegen cyberbedreigingen te versterken."
 tags: ["NICE Cyberveiligheidskader", "cyberdefensie", "beste praktijken voor implementatie", "personeelsbestand cyberbeveiliging", "analyse van vaardigheidskloof", "trainingsprogramma's", "bewaking en rapportage", "cyberbeveiligingshouding", "risicobeheer", "overheidsvoorschriften", "cyberbeveiligingsbeleid", "gegevensbescherming", "reactie op incidenten", "netwerkbeveiliging", "beheer van kwetsbaarheden", "beveiligingscontroles", "informatie over cyberdreigingen", "cyberbeveiligingscijfers", "voortdurende verbetering", "benchmarks voor de industrie", "cyberweerbaarheid", "beheer van beveiligingsincidenten", "cyberdreigingslandschap", "cyberbeveiligingsbeheer", "toezicht op cyberbeveiliging", "veilige levering", "gegevensindeling", "nalevingseisen", "cyberbeveiligingscertificeringen", "cyberbewustzijnstraining"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Een superheld met een schild die een netwerkinfrastructuur beschermt tegen cyberbedreigingen."
 coverCaption: "Verdedigen, beschermen, beveiligen: Uw cyberdefensie versterken met het NICE-raamwerk"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les principales menaces de cybersécurité en 2024 et apprenez à vous protéger grâce aux recommandations d'experts."
 tags: ["cybersécurité", "menaces", "ransomware", "hameçonnage", "Sécurité de l'IdO", "menaces d'initiés", "sécurité des nuages", "sauvegarde des données", "authentification multifactorielle", "correctifs de sécurité", "formation des employés", "les contrôles d'accès", "vérification des antécédents", "prévention de la perte de données", "fournisseurs d'informatique en nuage", "cryptage des données", "sécurité des réseaux", "sécurité des points finaux", "surveillance du réseau", "analyse de la vulnérabilité"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Un pirate informatique en dessin animé tente de s'introduire dans un système informatique tandis qu'un bouclier muni d'un cadenas le protège."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment la chasse aux menaces peut prévenir les cyberattaques et quels sont les avantages et les défis liés à sa mise en œuvre en tant que mesure proactive de cybersécurité."
 tags: ["chasse aux menaces", "cybersécurité", "défense proactive", "cyberattaques", "sécurité des réseaux", "sécurité des points finaux", "analyse du journal", "l'analyse comportementale", "renseignements sur les menaces", "enquête manuelle", "enquête automatisée", "réduction des risques", "faux positifs", "exigences en matière de compétences", "besoins en ressources", "un temps de réponse plus rapide", "amélioration de la détection", "risque réduit", "les institutions financières", "les prestataires de soins de santé"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Un analyste de sécurité en dessin animé tenant une loupe, à la recherche de cybermenaces cachées sur un écran d'ordinateur."
 coverCaption: ""
 ---

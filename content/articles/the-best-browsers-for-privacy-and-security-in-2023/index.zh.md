@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索保护隐私的最佳安全浏览器，包括 Brave、Firefox 和 Tor，了解它们的功能和优点。"
 tags: ["安全浏览器", "隐私保护", "勇敢的浏览器", "火狐浏览器", "托尔", "在线安全", "网络隐私", "浏览器功能", "广告拦截", "跟踪保护", "开放源代码", "跨平台", "Firefox Focus", "Tor 网络", "替代浏览器", "维瓦尔第", "史诗", "海雀", "水狐"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "这是一张三维动画图片，上面有三个卡通形状的浏览器图标：Brave、Firefox 和 Tor，周围环绕着一个象征隐私保护的盾牌，上面还有一个挂锁。"
 coverCaption: ""
 ---

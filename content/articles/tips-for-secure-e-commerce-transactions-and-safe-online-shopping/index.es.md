@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a comprar en Internet de forma segura y a proteger su información personal con estos consejos de expertos y servicios de enmascaramiento."
 tags: ["compras en línea", "comercio electrónico seguro", "transacciones seguras", "protección de la intimidad", "servicios de enmascaramiento", "Albine Blur", "privacy.com", "Apartado de correos", "CMRA", "contraseñas seguras", "autenticación de dos factores", "prevención de la suplantación de identidad", "sitios web de confianza", "actualizaciones de software", "opiniones de vendedores", "Wi-Fi público", "VPN", "privacidad en línea", "prevención del robo de identidad", "fraude con tarjetas de crédito", "consejos de ciberseguridad", "protección de datos", "medidas de seguridad en línea", "números de teléfono temporales", "direcciones de correo electrónico temporales", "vendedores en línea de confianza", "protección antimalware", "prevención de ciberamenazas", "transacciones en línea seguras", "seguridad de la información personal"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Ilustración de dibujos animados de una persona navegando por un sitio web seguro de compras en línea con el símbolo de un candado y un escudo de fondo."
 coverCaption: ""
 ---

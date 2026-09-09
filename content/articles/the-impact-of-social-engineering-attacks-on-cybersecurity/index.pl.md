@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Z tego artykułu dowiesz się, jak bronić się przed atakami socjotechnicznymi i chronić swoje dane przed cyberprzestępcami."
 tags: ["cyberbezpieczeństwo", "inżynieria społeczna", "oszustwa phishingowe", "uwierzytelnianie wieloskładnikowe", "aktualizacje zabezpieczeń", "bezpieczeństwo hasła", "bezpieczeństwo sieci", "naruszenia danych", "Bezpieczeństwo IT", "kradzież tożsamości", "zapobieganie oszustwom", "zapobieganie szpiegostwu", "bezpieczeństwo techniczne", "bezpieczeństwo fizyczne", "bezpieczeństwo informacji", "Zapobieganie cyberprzestępczości", "wykrywanie włamań", "poprawki zabezpieczeń", "szkolenie pracowników", "ochrona danych"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Kreskówkowa tarcza z kłódką pośrodku, reprezentująca ideę obrony przed atakami socjotechnicznymi w cyberbezpieczeństwie"
 coverCaption: ""
 ---

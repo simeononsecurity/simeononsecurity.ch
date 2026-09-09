@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Odkryj kompleksowe ramy oceny i rozwoju pracowników cyberbezpieczeństwa: NICE i DoD DCWF, zapewniając organizacjom wykwalifikowanych specjalistów."
 tags: ["rozwój siły roboczej", "cyberbezpieczeństwo", "Ramy NICE", "Struktura DCWF DoD", "ocena umiejętności", "rozwój zawodowy", "pracownicy cyberbezpieczeństwa", "ścieżki kariery", "edukacja w zakresie cyberbezpieczeństwa", "dostosowanie siły roboczej", "struktura zatrudnienia", "NIST", "regulacje rządowe", "certyfikaty cyberbezpieczeństwa", "standardy branżowe", "zarządzanie talentami", "role związane z cyberbezpieczeństwem", "kompetencje w zakresie cyberbezpieczeństwa", "rozwój pracowników cyberbezpieczeństwa", "specjaliści ds. cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "planowanie siły roboczej", "rekrutacja cyberbezpieczeństwo", "odporność pracowników", "szkolenie w zakresie cyberbezpieczeństwa", "strategia dotycząca siły roboczej", "rynek pracy cyberbezpieczeństwa", "rozwój kariery w dziedzinie cyberbezpieczeństwa", "gotowość siły roboczej"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Grupa zróżnicowanych specjalistów współpracujących nad projektem z zakresu cyberbezpieczeństwa."
 coverCaption: "Uwalnianie potencjału: Wzmacnianie pozycji specjalistów ds. cyberbezpieczeństwa w celu osiągnięcia sukcesu"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come acquistare online in modo sicuro e proteggere le vostre informazioni personali con questi consigli di esperti e servizi di mascheramento."
 tags: ["shopping online", "commercio elettronico sicuro", "transazioni sicure", "protezione della privacy", "servizi di mascheratura", "Sfumatura di Albine", "privacy.com", "Casella postale", "CMRA", "password sicure", "autenticazione a due fattori", "prevenzione del phishing", "siti web affidabili", "aggiornamenti software", "recensioni del venditore", "Wi-Fi pubblico", "VPN", "online privacy", "prevenzione del furto d'identità", "frode con carta di credito", "Consigli per la sicurezza informatica", "protezione dei dati", "misure di sicurezza online", "numeri di telefono temporanei", "indirizzi e-mail temporanei", "venditori online affidabili", "protezione da malware", "prevenzione delle minacce informatiche", "transazioni online sicure", "sicurezza delle informazioni personali"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Illustrazione a fumetti di una persona che naviga in un sito web di acquisti online sicuri con il simbolo del lucchetto e uno scudo sullo sfondo."
 coverCaption: ""
 ---

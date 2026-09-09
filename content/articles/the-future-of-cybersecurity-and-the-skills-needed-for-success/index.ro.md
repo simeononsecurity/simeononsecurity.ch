@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți competențele esențiale necesare pentru a avea succes în domeniul în continuă evoluție al securității cibernetice și aflați despre importanța tot mai mare a securității cibernetice în industria tehnologică."
 tags: ["securitate cibernetică", "viitorul securității cibernetice", "competențe pentru succes", "gândire critică", "comunicare", "competențe tehnice", "gestionarea riscurilor", "dezvoltare profesională", "Inteligența artificială în domeniul securității cibernetice", "securitate în cloud", "amenințări cibernetice", "criminalitate informatică", "securitatea informațiilor", "profesioniști în domeniul securității cibernetice", "confidențialitatea datelor", "tehnologie", "securitate digitală", "apărare cibernetică", "atacuri cibernetice", "Securitate IT"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "O imagine de desen animat a unei persoane într-un costum de supererou care ține un scut cu cuvântul Cybersecurity pe el, cu un peisaj urban și ecrane de calculator în fundal."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj różnice między uczeniem maszynowym a głębokim uczeniem, dwiema potężnymi gałęziami sztucznej inteligencji o unikalnych cechach i zastosowaniach."
 tags: ["uczenie maszynowe", "głębokie uczenie", "sztuczna inteligencja", "AI", "nauka o danych", "algorytm", "sieci neuronowe", "Inżynieria funkcji", "dane nieustrukturyzowane", "drzewa decyzyjne", "regresja logistyczna", "oznaczone dane", "nieoznakowane dane", "zasoby obliczeniowe", "wykrywanie oszustw", "systemy rekomendacji", "konserwacja predykcyjna", "rozpoznawanie obrazu", "przetwarzanie języka naturalnego", "odkrywanie leków", "aplikacje biznesowe", "złożoność algorytmu", "reprezentacja danych", "regulacje rządowe", "wizja komputerowa", "rozpoznawanie twarzy", "chatboty", "tłumaczenie językowe", "modele treningowe", "analityka predykcyjna"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca algorytm uczenia maszynowego i sieć neuronową głębokiego uczenia zaangażowane w przyjazną rywalizację."
 coverCaption: ""
 ---

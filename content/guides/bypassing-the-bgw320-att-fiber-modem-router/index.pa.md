@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "ਸਿੱਖੋ ਕਿ BGW-320 ਨੂੰ ਕਿਵੇਂ ਬਾਈਪਾਸ ਕਰਨਾ ਹੈ ਅਤੇ ਇਸ ਆਸਾਨ-ਅਧਾਰਿਤ ਗਾਈਡ ਨਾਲ ਆਪਣੇ ISP ਦੇ ਨੈੱਟਵਰਕ ਨਾਲ ਜੁੜਨ ਲਈ Azores ਦੁਆਰਾ ਬਣਾਏ COTS ONT ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਹੈ।"
 tags: ["COTS ONT", "BGW-320", "ਅਜ਼ੋਰਸ", "ਫਾਈਬਰ", "ਨੈੱਟਵਰਕ", "XGS-PON", "ਈਥਰਨੈੱਟ", "IP ਪਾਸਥਰੂ", "ਅਨੁਕੂਲਤਾ", "ISP", "ont ID", "MAC ਪਤਾ", "ਉਪਕਰਨ ਆਈ.ਡੀ", "ਚਿੱਤਰ ਸੰਸਕਰਣ", "ਹਾਰਡਵੇਅਰ ਵਰਜਨ", "telnet", "CLI ਐਪਲੀਕੇਸ਼ਨ", "ਵੈੱਬ GUI", "ਫੈਕਟਰੀ ਸੰਰਚਨਾ ਮੋਡ", "ਅਨੁਕੂਲਤਾ ਮੁੱਦੇ"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "ਇੱਕ ਕਾਰਟੂਨ ਟੈਕਨੀਸ਼ੀਅਨ ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਇੱਕ ਫਾਈਬਰ ਕੇਬਲ ਦੇ ਨਾਲ ਇੱਕ COTS ONT ਫੜੀ ਹੋਈ ਹੈ।"
 coverCaption: ""
 ---

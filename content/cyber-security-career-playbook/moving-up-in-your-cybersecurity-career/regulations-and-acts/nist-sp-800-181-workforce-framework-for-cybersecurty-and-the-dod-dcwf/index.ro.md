@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Descoperiți cadrele cuprinzătoare de evaluare și dezvoltare pentru forța de muncă în domeniul securității cibernetice: NICE și DoD DCWF, care permit organizațiilor să dispună de profesioniști calificați."
 tags: ["dezvoltarea forței de muncă", "securitate cibernetică", "Cadrul NICE", "Cadrul DCWF al DoD", "evaluarea competențelor", "dezvoltare profesională", "forța de muncă în domeniul securității cibernetice", "trasee de carieră", "educație în domeniul securității cibernetice", "alinierea forței de muncă", "cadrul forței de muncă", "NIST", "reglementări guvernamentale", "certificări în domeniul securității cibernetice", "standarde industriale", "managementul talentelor", "roluri în domeniul securității cibernetice", "competențe de securitate cibernetică", "dezvoltarea forței de muncă în domeniul securității cibernetice", "profesioniști în domeniul securității cibernetice", "competențe în domeniul securității cibernetice", "planificarea forței de muncă", "recrutare în domeniul securității cibernetice", "reziliența forței de muncă", "formare în domeniul securității cibernetice", "strategia privind forța de muncă", "piața muncii în domeniul securității cibernetice", "avansarea în carieră în domeniul securității cibernetice", "pregătirea forței de muncă"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Un grup de diverși profesioniști care colaborează la un proiect de securitate cibernetică."
 coverCaption: "Eliberarea potențialului: Împuternicirea profesioniștilor în domeniul securității cibernetice pentru succes"
 ---

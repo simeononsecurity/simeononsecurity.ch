@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Améliorez vos compétences en matière de cybersécurité grâce à des programmes en ligne et des cours vidéo couvrant un large éventail de sujets, afin de garder une longueur d'avance sur les menaces émergentes et de sécuriser les environnements numériques."
 tags: ["formation à la cybersécurité", "programmes en ligne", "cours vidéo", "éducation à la cybersécurité", "formation à la sécurité de l'information", "certifications en cybersécurité", "carrière en cybersécurité", "les plates-formes d'apprentissage en ligne", "compétences en matière de cybersécurité", "formation pratique", "piratage éthique", "sécurité des réseaux", "confidentialité des données", "renseignements sur les cybermenaces", "codage sécurisé", "incident response", "sécurité des nuages", "sécurité des applications web", "sécurité mobile", "criminalistique numérique", "défense du réseau", "meilleures pratiques en matière de cybersécurité", "industrie de la cybersécurité", "les professionnels de la cybersécurité", "emplois dans le domaine de la cybersécurité", "tendances en matière de cybersécurité", "Ressources en matière de cybersécurité", "sensibilisation à la cybersécurité", "Nouvelles sur la cybersécurité", "outils de cybersécurité"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Image de style bande dessinée montrant une personne munie d'un bouclier protégeant un environnement numérique des cybermenaces."
 coverCaption: "Donnez de l'autonomie à votre parcours en matière de cybersécurité : Libérez votre potentiel de défense numérique."
 ---

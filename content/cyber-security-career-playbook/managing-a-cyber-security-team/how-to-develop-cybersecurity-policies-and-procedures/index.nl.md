@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Leer hoe u een uitgebreid cyberbeveiligingsbeleid kunt ontwikkelen dat voldoet aan de industrienormen en wettelijke vereisten om de gevoelige informatie van uw organisatie te beschermen en cyberrisico's te beperken."
 genre: ["Technologie", "Beveiliging", "Naleving", "Risicobeheer", "Gegevensbescherming", "Informatiebeheer", "Reactie op incidenten", "Bedrijfscontinuïteit", "Cyberbedreigingen", "Beleidsontwikkeling"]
 tags: ["cyberbeveiligingsbeleid", "cyberbeveiligingsprocedures", "beste praktijken in de sector", "risicobeheer", "NIST-standaarden", "RMF", "PCI-DSS", "HIPAA", "FISMA", "gegevensbescherming", "reactie op incidenten", "bedrijfscontinuïteit", "beveiligingsbewustzijn", "regelnaleving", "cyberbedreigingen", "gegevensbeveiliging", "IT-governance", "netwerkbeveiliging", "informatiebeveiliging", "beveiligingscontroles", "cyberbeveiligingsbeleid ontwikkelen", "uitgebreide cyberbeveiligingsprocedures", "beleidskader voor cyberbeveiliging", "voorschriften voor cyberbeveiliging", "risicobeperking cyberbeveiliging", "incident response planning", "preventie van datalekken", "veiligheidstraining voor werknemers", "beheer van naleving van cyberbeveiliging", "privacy en bescherming van gegevens"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "Een cartoonillustratie van een schild dat een netwerkserver beschermt tegen cyberbedreigingen."
 coverCaption: "Beveilig uw netwerk: Verdedig u tegen cyberbedreigingen met effectief beleid"
 ---

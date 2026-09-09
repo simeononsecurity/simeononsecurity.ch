@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Proteja a sus hijos de los peligros de Internet con estos consejos y estrategias de seguridad."
 tags: ["Seguridad en Internet", "seguridad en línea", "seguridad infantil", "controles parentales", "ciberacoso", "alfabetización digital", "depredadores en línea", "social media", "juegos", "dispositivos móviles", "privacidad", "seguridad", "uso seguro de internet", "consejos de seguridad en internet", "protección de la infancia en internet", "crianza en la era digital", "privacidad en línea para niños", "peligros de internet para los niños", "hábitos seguros en internet", "educación para la seguridad en internet"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Imagen de dibujos animados de un padre y su hijo utilizando juntos un ordenador, con el niño sosteniendo una lupa y el padre señalando la pantalla."
 coverCaption: ""
 ---

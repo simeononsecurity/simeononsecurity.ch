@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "教育業界におけるサイバーセキュリティの重要性を理解し、生徒の機密データを保護する方法を学びます。"
 tags: ["サイバーセキュリティ", "教育", "学生データ", "データ保護", "プライバシー", "フェルパ", "エヌアイエスティー", "ハイスク", "インターネットツー", "SANSインスティテュート", "安全保護方針", "フィッシング", "アウェアネス・トレーニング", "リスクアセスメント", "多要素認証", "暗号化", "インシデントレスポンス", "ネットワークセキュリティ", "セキュアアクセス", "ファイアウォール"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "教育産業における学生データの保護を象徴する、卒業帽を掲げたノートパソコンを守る盾をモチーフにした3Dアニメーション画像です。"
 coverCaption: ""
 ---

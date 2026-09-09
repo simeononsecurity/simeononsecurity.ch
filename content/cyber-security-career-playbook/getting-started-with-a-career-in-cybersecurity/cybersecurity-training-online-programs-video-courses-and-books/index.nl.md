@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Verbeter uw vaardigheden op het gebied van cyberbeveiliging met online programma's en videocursussen over een breed scala aan onderwerpen om nieuwe bedreigingen voor te blijven en digitale omgevingen te beveiligen."
 tags: ["cyberbeveiligingstraining", "online programma's", "videocursussen", "onderwijs in cyberbeveiliging", "training informatiebeveiliging", "cyberbeveiligingscertificeringen", "carrière in cyberbeveiliging", "platforms voor online leren", "cyberbeveiligingsvaardigheden", "praktische training", "ethisch hacken", "netwerkbeveiliging", "gegevensprivacy", "informatie over cyberdreigingen", "veilig coderen", "reactie op incidenten", "cloudbeveiliging", "beveiliging van webtoepassingen", "mobiele beveiliging", "digitaal forensisch onderzoek", "netwerk verdediging", "beste praktijken op het gebied van cyberbeveiliging", "cyberbeveiligingsindustrie", "cyberbeveiligingsprofessionals", "banen in cyberbeveiliging", "cyberbeveiligingstrends", "cyberbeveiligingsmiddelen", "cyberbewustzijn", "nieuws over cyberbeveiliging", "tools voor cyberbeveiliging"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Een cartoonachtige afbeelding van een persoon met een schild die een digitale omgeving beschermt tegen cyberbedreigingen."
 coverCaption: "Versterk uw reis op het gebied van cyberbeveiliging: Ontketen uw digitale verdedigingspotentieel."
 ---

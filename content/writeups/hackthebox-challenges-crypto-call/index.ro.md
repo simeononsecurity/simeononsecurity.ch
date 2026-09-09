@@ -5,7 +5,7 @@ draft: false
 description: "Aflați cum să decriptați tonurile DTMF utilizând cifra primelor pentru a rezolva provocarea Crypto - Call pe HackTheBox."
 tags: ["HackTheBox", "Crypto Challenge", "Tonuri DTMF", "Cifrarea numărului prim", "Decriptare", "Rezolvarea puzzle-urilor", "Criptografie", "Conversie audio", "DialABC", "Decode.fr", "WAV", "MP3", "Frecvență", "Trăsătură matematică", "Steag", "Îndrăzneală", "Vizualizator sonic", "Numerele", "Meniuri automate", "Telefon cu plată"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Un telefon din desene animate cu un ecran verde și un lacăt pe el, simbolizând securitatea și criptarea, cu tonuri DTMF reprezentate în fundal"
 coverCaption: ""
 ---

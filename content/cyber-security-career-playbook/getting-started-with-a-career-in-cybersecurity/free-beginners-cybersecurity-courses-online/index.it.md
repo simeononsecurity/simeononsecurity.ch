@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-06
 description: "Scoprite i migliori corsi gratuiti di cybersecurity per principianti sulle principali piattaforme e iniziate il vostro viaggio in questo settore critico."
 tags: ["sicurezza informatica", "corsi di cybersicurezza", "principianti", "corsi gratuiti", "piattaforme online", "formazione sulla cybersicurezza", "risorse di apprendimento", "sicurezza della rete", "hacking etico", "codifica sicura", "competenze pratiche", "esperienza pratica", "fondamenti di cybersecurity", "Cibrario", "SANS Cyber Aces online", "TryHackMe", "HackTheBox", "Laboratori immersivi", "INE", "Accademia di rete Cisco", "Portale di apprendimento Juniper", "Microsoft Impara", "Zona di apprendimento VMware", "Codice.org", "Codecademy", "Istituto Python", "Apprendimento efficace dal punto di vista dei costi", "apprendimento flessibile", "conoscenza completa", "esperienza pratica di cybersecurity"]
-cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.png"
+cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.webp"
 coverAlt: "Un'immagine simbolica a fumetti che raffigura un gruppo di persone diverse che indossano un abbigliamento per la sicurezza informatica, in piedi insieme in una formazione a scudo, con icone di codici binari e lucchetti che li circondano, sottolineando l'importanza dell'unità e della protezione nel regno digitale."
 coverCaption: "Liberate il vostro potenziale di cybersecurity con i corsi gratuiti per principianti!"
 ---

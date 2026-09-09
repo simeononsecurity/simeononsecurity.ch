@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore el funcionamiento interno del algoritmo de cifrado RSA y su importancia en la comunicación segura."
 tags: ["Cifrado RSA", "cifrado asimétrico", "criptografía de clave pública", "algoritmo de encriptación", "Generación de claves RSA", "aritmética modular", "Función totiente de Euler", "números primos", "exponenciación modular", "texto cifrado", "texto sin formato", "Seguridad RSA", "comunicación segura", "firmas digitales", "navegación web segura", "normativa gubernamental sobre RSA", "Directrices del NIST sobre RSA", "Reglamento eIDAS", "normas de encriptación", "protección de datos", "criptografía", "seguridad de la información", "mensajería segura", "correo electrónico cifrado", "HTTPS", "RSA en la comunicación segura", "RSA en firmas digitales", "puntos fuertes de RSA", "puntos débiles de RSA", "complejidad computacional de RSA", "longitud de la clave en RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Imagen simbólica que representa el algoritmo de cifrado RSA con símbolos de cerradura y llave, que transmite el concepto de comunicación segura y cifrado."
 coverCaption: ""
 ---

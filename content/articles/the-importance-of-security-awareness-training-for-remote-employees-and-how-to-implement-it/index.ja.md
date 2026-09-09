@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "効果的なセキュリティ意識向上トレーニングを通じて、リモートワークのセキュリティを強化し、それをうまく実施する方法を学びます。"
 tags: ["えんかくしゃいん", "セキュリティ意識", "サイバーセキュリティ", "修練", "リモートワーカー", "フィッシング", "さいぜんのそち", "セキュリティ文化", "ゲーミフィケーション", "エヌアイエスティー", "シーサ", "SANS セキュリティ・アウェアネス", "インフォセック研究所", "KnowBe4", "継続学習", "実世界のシナリオ", "対話型トレーニング", "サイバー脅威", "セキュリティトレーニングプラットフォーム"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "多様な遠隔地の従業員がノートパソコンで魅力的なセキュリティ啓発トレーニングに参加し、その周りを様々なサイバーセキュリティのシンボルが取り囲んでいる漫画画像です。"
 coverCaption: ""
 ---

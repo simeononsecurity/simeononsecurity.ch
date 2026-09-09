@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come scaricare un file ISO di Windows pulito e installare Windows da zero con questa guida passo passo."
 tags: ["Windows 10", "Windows 11", "ISO file", "Installazione pulita", "Strumento di creazione dei media", "USB avviabile", "Supporti di installazione", "BIOS", "Firmware UEFI", "Installazione personalizzata", "Chiave del prodotto", "Sistema a 64 bit", "Sistema a 32 bit", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "Utilità di controllo MD5 e SHA", "Tipo di sistema"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Immagine a fumetti di una persona che tiene in mano una chiavetta USB con il logo di Windows e un segno di spunta, in piedi davanti allo schermo di un computer con il logo di Windows."
 coverCaption: ""
 ---

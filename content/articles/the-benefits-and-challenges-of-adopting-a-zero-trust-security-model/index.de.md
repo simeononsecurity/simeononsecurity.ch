@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erkunden Sie die Vorteile und Herausforderungen der Einführung eines Zero-Trust-Sicherheitsmodells im heutigen digitalen Zeitalter."
 tags: ["Zero Trust Sicherheit", "Cybersecurity", "Netzwerksicherheit", "Cloud-Sicherheit", "Datenschutz", "Sicherheitsmodell", "Authentifizierung", "Autorisierung", "Verschlüsselung", "Einhaltung der Vorschriften", "HIPAA", "GDPR", "PCI DSS", "User Experience", "Kosten", "Komplexität", "Mehrschichtige Sicherheit", "Sichtbarkeit", "Flexibilität", "Sicherheitsverstöße"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Ein Vorhängeschloss und ein Schlüssel, die auf einem Netzwerkkabel stehen und symbolisch für Zero Trust Security stehen."
 coverCaption: ""
 ---

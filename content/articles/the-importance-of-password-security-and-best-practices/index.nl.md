@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over het belang van wachtwoordbeveiliging en ontdek de beste praktijken voor wachtwoordbeheer om uw persoonlijke informatie en online identiteit te beschermen."
 tags: ["wachtwoordbeveiliging", "wachtwoordbeheer", "online beveiliging", "cyberdreigingen", "sterke wachtwoorden", "twee-factor authenticatie", "wachtwoord manager", "gegevensbeveiliging", "identiteitsdiefstal", "phishing-zwendel", "openbare Wi-Fi netwerken", "online privacy", "online veiligheid", "digitale veiligheid", "internetbeveiliging", "cyberbeveiliging", "gegevensbescherming", "accountbeveiliging", "online rekeningen", "online bescherming"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Een cartoonachtig beeld van een slot en sleutel, beschermd door een schild om de veiligheid en bescherming van een wachtwoord weer te geven."
 coverCaption: ""
 ---

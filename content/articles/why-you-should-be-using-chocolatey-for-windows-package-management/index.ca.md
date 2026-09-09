@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descobriu els avantatges d'utilitzar la gestió de paquets de Chocolatey per a Windows: automatitzeu les actualitzacions, estalvieu temps i garanteix la seguretat del sistema."
 tags: ["Gestió de paquets de Windows", "De xocolata", "actualitzacions de programari", "gestor de paquets", "interfície de línia d'ordres", "actualitzacions automatitzades", "manteniment programat", "seguretat", "estabilitat", "integració", "regulacions governamentals", "compliment", "Titella", "xef", "Ansible", "Paquets NuGet", "DoD STIG", "racionalitzar la gestió de paquets", "vulnerabilitats del programari", "eines de desplegament", "Actualitzacions de Windows", "Actualitzacions de paquets de Windows", "Gestió de programari de Windows", "Gestor de paquets de Windows", "eina de gestió de paquets", "actualitzacions automatitzades de paquets", "Actualitzacions de seguretat de Windows", "instal·lació del paquet de programari", "Desplegament de programari de Windows", "sistema de gestió de paquets", "Repositori de programari de Windows", "memòria cau del programari de Windows"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Una il·lustració acolorida que representa un logotip de Windows envoltat de diverses icones de programari que representen la gestió i les actualitzacions de paquets simplificades."
 coverCaption: ""
 ---

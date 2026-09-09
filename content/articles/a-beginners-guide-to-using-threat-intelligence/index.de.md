@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Verbessern Sie Ihre Cybersicherheit mit diesem Leitfaden für Einsteiger über Bedrohungsdaten und deren Bedeutung."
 tags: ["Intelligente Bedrohung", "Cybersecurity", "Leitfaden für Einsteiger", "Taktik", "Techniken", "Verfahren", "Datenanalyse", "Schwachstellen", "Sicherheitsmaßnahmen", "Maschinelles Lernen", "Data Mining", "Entscheidungsfindung", "Automatisierung", "Gemeinschaft", "Überwachung des Dark Web", "Interne Netzwerkprotokolle", "Reaktion auf Vorfälle", "Phishing-Kampagnen", "Malware", "Strategische Planung"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Eine animierte 3D-Lupe mit einem Auge in der Mitte, das über einem Binärcode-Hintergrund schwebt."
 coverCaption: ""
 ---

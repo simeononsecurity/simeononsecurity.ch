@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Aflați cum să actualizați firmware-ul Ubiquiti Unifi UDM Pro și UDM SE offline prin linia de comandă SSH pentru performanță și securitate optime."
 tags: ["Actualizare firmware Ubiquiti", "UDM Pro", "UDM SE", "actualizare offline de firmware", "linia de comandă SSH", "administrare rețea", "securitatea retelei", "upgrade de firmware", "Conexiune SSH", "fișier firmware", "Controler de rețea UniFi", "corectarea erorilor", "imbunatatiri ale performantei", "patch-uri de securitate", "rețele", "dispozitive de rețea", "tehnologie", "management IT", "procesul de actualizare a firmware-ului", "optimizarea rețelei", "Actualizare firmware Ubiquiti Networks", "Actualizare firmware UDM Pro", "Actualizare firmware UDM SE", "procesul de actualizare offline a firmware-ului", "Actualizare firmware SSH", "managementul dispozitivelor de rețea", "actualizări de securitate a rețelei", "strategii de actualizare a firmware-ului", "management offline de firmware", "optimizarea performanței rețelei", "managementul corecțiilor de securitate", "actualizări de tehnologie de rețea"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "O ilustrație colorată care ilustrează un computer care se conectează la un router prin SSH, simbolizând procesul de actualizare offline a firmware-ului pentru dispozitivele Ubiquiti Unifi UDM Pro și UDM SE."
 coverCaption: ""
 ---

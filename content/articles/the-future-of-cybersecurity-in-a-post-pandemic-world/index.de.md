@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie, wie Sie sich auf die Zukunft der Cybersicherheit in einer Welt nach der Pandemie vorbereiten und Ihr Risiko, Opfer von Cyberangriffen zu werden, verringern können."
 tags: ["Cybersicherheit", "Postpandemie", "Zukunft", "Fernarbeit", "AI", "maschinelles Lernen", "IoT", "Software-Aktualisierungen", "Passwörter", "Zwei-Faktor-Authentifizierung", "Bildung", "VPN", "Firmware-Updates", "Phishing", "Ransomware", "Cloud-Sicherheit", "datenschutz", "Netzwerksicherheit", "Bedrohungserkennung", "digitaler Datenschutz"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "Ein Bild im Cartoon-Stil von einer Person, die mit einem Schild vor einem Computerbildschirm steht und ihn vor verschiedenen Cyberangriffen wie Malware, Viren, Phishing und Hacking-Versuchen schützt."
 coverCaption: ""
 ---

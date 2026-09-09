@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Auswirkungen des IoT auf die Cybersicherheit und lernen Sie effektive Strategien zum Schutz Ihrer vernetzten Geräte kennen."
 tags: ["IoT", "Cybersicherheit", "Sicherheit", "Internet der Dinge", "IoT-Geräte", "Netzwerksicherheit", "datenschutz", "Datenschutz", "intelligente Geräte", "beste Praktiken", "IoT-Risiken", "Authentifizierung", "Firmware-Updates", "Überwachung", "Industriestandards", "Vorschriften", "IoT-Sicherheitsleitlinien", "Netzwerksegmentierung", "Bedrohungslandschaft", "Schwachstellen"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Ein animiertes 3D-Bild eines Schildes, das eine Gruppe verbundener IoT-Geräte schützt und die Bedeutung der Cybersicherheit für IoT-Netzwerke symbolisiert."
 coverCaption: ""
 ---

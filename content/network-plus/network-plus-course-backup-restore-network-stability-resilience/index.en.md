@@ -6,7 +6,7 @@ draft: false
 description: "Learn the importance of network device backup and restore, strategies for backing up and restoring device state and configuration, recovery sites, redundancy and high availability mechanisms, and essential metrics in network operations."
 genre: ["IT Certification", "Networking", "Network Infrastructure", "Backup and Restore", "Disaster Recovery", "High Availability", "Data Protection", "IT Resilience", "Network Management", "IT Operations"]
 tags: ["network plus course", "network plus certification exam", "backup and restore", "device backup", "configuration backup", "recovery sites", "redundancy", "high availability", "MTTR", "MTBF", "RTO", "RPO", "data recovery", "configuration rollback", "disaster recovery", "compliance and regulation", "peace of mind", "device state backup", "configuration backup", "TFTP", "FTP", "SCP", "RANCID", "Ansible", "Puppet", "cold sites", "warm sites", "hot sites", "cloud-based recovery", "redundant hardware", "failover systems", "load balancing"]
-cover: "/img/cover/A_symbolic_illustration_of_network_devices_pro.png"
+cover: "/img/cover/A_symbolic_illustration_of_network_devices_pro.webp"
 coverAlt: "A symbolic illustration of network devices protected by a shield, symbolizing backup and restore processes ensuring network stability and resilience."
 coverCaption: "Protecting network devices and data for uninterrupted operations."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić swoje dzieci przed cyberprzemocą dzięki temu kompleksowemu przewodnikowi dla rodziców."
 tags: ["cyberprzemoc", "bezpieczeństwo w sieci", "rodzicielstwo", "dzieci", "zdrowie psychiczne", "przepisy rządowe", "polityka bezpieczeństwa w internecie", "monitorowanie aktywności online", "prewencja", "molestowanie w sieci", "cyberbezpieczeństwo", "cyfrowe rodzicielstwo", "media społecznościowe", "obywatelstwo cyfrowe", "ślad cyfrowy", "zastraszanie", "prawo", "technologia", "bezpieczeństwo", "edukacja"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Kreskówka przedstawiająca rodzica i dziecko wspólnie korzystających z komputera, nad komputerem znajduje się dymek z napisem speech bubble przedstawiający pozytywny przekaz."
 coverCaption: ""
 ---

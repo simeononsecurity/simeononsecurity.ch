@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Leer hoe u de firmware van Ubiquiti Unifi UDM Pro en UDM SE offline kunt updaten via command line SSH voor optimale prestaties en veiligheid."
 tags: ["Ubiquiti firmware update", "UDM Pro", "UDM SE", "offline firmware update", "SSH-opdrachtregel", "netwerkbeheer", "netwerkbeveiliging", "firmware-upgrade", "SSH-verbinding", "firmwarebestand", "UniFi netwerkcontroller", "bugfixes", "prestatieverbeteringen", "beveiligingspatches", "netwerken", "netwerkapparaten", "technologie", "IT-beheer", "firmware update proces", "netwerkoptimalisatie", "Ubiquiti Networks firmware update", "UDM Pro firmware update", "UDM SE firmware update", "offline firmware update proces", "SSH-firmware update", "beheer van netwerkapparaten", "netwerkbeveiligingsupdates", "strategieën voor het bijwerken van firmware", "offline beheer van firmware", "optimalisatie van netwerkprestaties", "beheer van beveiligingspatchen", "updates voor netwerktechnologie"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Een kleurrijke illustratie van een computer die verbinding maakt met een router via SSH. Dit symboliseert het offline firmware update proces voor Ubiquiti Unifi UDM Pro en UDM SE apparaten."
 coverCaption: ""
 ---

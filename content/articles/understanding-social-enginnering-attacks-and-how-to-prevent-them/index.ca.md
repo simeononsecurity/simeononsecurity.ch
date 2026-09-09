@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Obteniu informació sobre com prevenir atacs d'enginyeria social i protegir la informació confidencial de la vostra organització amb formació dels empleats, polítiques de seguretat i molt més."
 tags: ["Enginyeria social", "seguretat cibernètica", "prevenció", "formació dels empleats", "polítiques de seguretat", "autenticació multifactor", "antivirus", "seguretat física", "regulacions governamentals", "FISMA", "HIPAA", "protecció de dades", "ciberamenaces", "seguretat de la xarxa", "Seguretat de la informació", "informació sensible", "cibercrim", "compliment", "estratègia de ciberseguretat", "seguretat de dades"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Un pirata informàtic que intenta atraure una persona amb una canya de pescar, mentre que un escut i un pany simbolitzen la ciberseguretat."
 coverCaption: ""
 ---

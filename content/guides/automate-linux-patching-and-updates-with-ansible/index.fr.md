@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à automatiser les correctifs et les mises à jour Linux à l'aide d'Ansible, couvrant diverses distributions et instructions de configuration."
 tags: ["Correctif Linux", "Automatisation Ansible", "automatisation des mises à jour", "entretien du système", "Automatisation informatique", "gestion des correctifs", "Sécurité Linux", "DebianName", "Ubuntu", "RHEL", "Alpin", "stabilité du système", "atténuation de la vulnérabilité", "infrastructure informatique", "outil d'automatisation", "Livre de jeu Ansible", "configuration de l'hôte", "mises à jour de logiciel", "conformité de sécurité", "Opérations informatiques", "Mises à jour Linux", "Ubuntu", "DebianName", "CentOS", "RHEL", "mises à jour hors ligne", "référentiel local", "cache", "configuration du serveur", "configuration du client", "apt-miroir", "debmirror", "créer un dépôt", "apt-cacher-ng", "miam-cron", "Mises à jour du système Linux", "mises à jour de packages hors ligne", "mises à jour logicielles hors ligne", "référentiel de packages local", "cache de paquets locaux", "mises à jour Linux hors ligne", "gestion des mises à jour hors ligne", "méthodes de mise à jour hors ligne", "maintenance du système hors ligne", "Mises à jour du serveur Linux", "Mises à jour des clients Linux", "gestion des logiciels hors ligne", "gestion hors ligne des packages", "mettre à jour les stratégies", "Mises à jour de sécurité Linux"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Une image colorée de style dessin animé représentant un robot appliquant des correctifs à un cluster de serveurs Linux."
 coverCaption: ""
 ---

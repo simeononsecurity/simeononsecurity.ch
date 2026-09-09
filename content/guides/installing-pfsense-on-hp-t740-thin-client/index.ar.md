@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "تعرف على كيفية إعداد pfSense على جهاز HP t740 Thin Client ، وكيفية استكشاف المشكلات المحتملة وإصلاحها مثل التجميد ومشاكل اكتشاف SSD."
 tags: ["pfSense", "OPNsense", "تصلب", "طابعة HP t740", "عميل رفيع", "خادم المنزل", "PPPOE", "فري بي إس دي", "موجه التمهيد", "loader.conf.local", "محرر نانو", "كشف SSD", "M.2 SSD", "ويسترن ديجيتال", "استكشاف الأخطاء وإصلاحها", "بعد التثبيت", "UART", "ESXi", "بروكسموكس"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "رسم كاريكاتوري لمعالج يلقي تعويذة لإصلاح جهاز كمبيوتر مجمّد ، مع فقاعة كلام تقو تم حل المشكلة"
 coverCaption: ""
 ---

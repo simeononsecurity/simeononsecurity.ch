@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie wichtig die Sicherheit von Passwörtern ist, und lernen Sie die besten Methoden für die Passwortverwaltung kennen, um Ihre persönlichen Daten und Ihre Online-Identität zu schützen."
 tags: ["Passwortsicherheit", "Passwortmanagement", "Online-Sicherheit", "Cyber-Bedrohungen", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "Passwort-Manager", "Datensicherheit", "Identitätsdiebstahl", "Phishing-Betrügereien", "öffentliche Wi-Fi-Netze", "Online-Datenschutz", "Online-Sicherheit", "digitale Sicherheit", "Internetsicherheit", "Cybersicherheit", "datenschutz", "Kontosicherheit", "Online-Konten", "Online-Schutz"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Eine Karikatur eines Schlosses und eines Schlüssels, die durch ein Schild geschützt werden, um die Sicherheit und den Schutz eines Passworts darzustellen."
 coverCaption: ""
 ---

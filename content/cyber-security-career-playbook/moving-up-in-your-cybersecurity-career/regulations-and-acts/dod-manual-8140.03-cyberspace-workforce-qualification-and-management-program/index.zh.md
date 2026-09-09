@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解《手册》8140.03 中概述的国防部网络空间人员资格认证和管理计划。"
 tags: ["国防部手册 8140.03", "网络空间工作人员", "资格计划", "国防部人员", "网络安全", "网络空间资格", "网络空间管理", "网络空间劳动力发展", "国防部网络空间政策", "网络安全人员队伍", "网络安全资格", "网络安全培训", "网络安全教育", "网络安全认证", "网络安全角色", "网络安全工作角色", "网络劳动力管理", "网络空间工作角色资格", "网络人事管理", "网络资格认证计划", "网络职业发展", "网络空间工作人员能力", "网络人员认证", "网络培训要求", "网络安全标准", "网络空间工作人员的能力", "网络威胁防御", "信息系统安全", "网络安全"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "显示网络安全仪表盘的计算机屏幕，上面有反映网络安全状况的图表"
 coverCaption: ""
 ---

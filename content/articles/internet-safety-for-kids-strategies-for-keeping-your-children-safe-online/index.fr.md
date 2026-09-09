@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Protégez vos enfants des dangers en ligne grâce à ces conseils et stratégies de sécurité sur Internet."
 tags: ["Sécurité sur Internet", "sécurité en ligne", "sécurité des enfants", "contrôle parental", "cyberintimidation", "alphabétisation numérique", "prédateurs en ligne", "médias sociaux", "jeux", "appareils mobiles", "vie privée", "sécurité", "utilisation sûre de l'internet", "conseils en matière de sécurité sur internet", "protéger les enfants en ligne", "l'éducation des enfants à l'ère numérique", "protection de la vie privée en ligne pour les enfants", "dangers en ligne pour les enfants", "habitudes sûres en matière d'internet", "éducation à la sécurité sur internet"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Dessin humoristique d'un parent et d'un enfant utilisant ensemble un ordinateur, l'enfant tenant une loupe et le parent pointant l'écran."
 coverCaption: ""
 ---

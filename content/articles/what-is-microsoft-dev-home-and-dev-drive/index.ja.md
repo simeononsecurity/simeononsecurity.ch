@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "カスタマイズ可能なウィジェット、マシン構成、GitHub統合、最適化されたストレージにより、Dev HomeとDev DriveがWindows開発ワークフローをどのように強化するか、ご覧ください。"
 tags: ["デヴ・ホーム", "デブドライブ", "Windowsの開発", "開発ワークフロー", "カスタマイズ可能なウィジェット", "機械構成", "GitHubとの連携", "最適化された記憶装置", "Windowsデベロッパー", "合理的なワークフロー", "コード管理", "プロジェクトモニタリング", "ストレージ最適化", "開発ツール", "開発者生産性", "ウィンドウズ環境", "ReFSボリュームフォーマット", "パフォーマンス最適化", "ファイルシステムの性能", "GitHubリポジトリー", "ストレージソリューション", "ウィンドウズ11", "記憶管理", "効率的なコラボレーション", "開発資産", "生産性ツール", "Windows Dev Docs", "開発効率", "ワークフローの最適化", "Windowsの開発環境"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "Dev HomeとDev Driveのツールを使って、合理的かつ効率的な環境で仕事をする開発者を描いた漫画イラストです。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cele mai bune practici și strategii pentru a preveni scurgerea informațiilor și pentru a proteja datele sensibile, asigurând o securitate și o protecție sporită."
 tags: ["securitatea informațiilor", "protecția datelor", "informații clasificate", "scurgere de informații", "strategii de prevenire", "cele mai bune practici", "controale de acces", "criptare", "formarea angajaților", "securitate cibernetică", "prevenirea pierderilor de date", "evaluări de securitate", "reglementări guvernamentale", "NIST", "amenințări din interior", "vulnerabilități de securitate cibernetică", "eroare umană", "programe de conștientizare", "conștientizarea phishing-ului", "Soluții DLP", "controlul accesului pe bază de roluri", "autentificarea cu mai mulți factori", "gestionarea cheilor de criptare", "protecție endpoint", "inspecția conținutului", "audituri de securitate", "teste de penetrare", "planificarea răspunsului la incidente", "protocoale de securitate", "protecția informațiilor"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Un scut blocat care protejează informațiile sensibile de accesul neautorizat."
 coverCaption: ""
 ---

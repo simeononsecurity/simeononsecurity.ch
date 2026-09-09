@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca la importancia y las ventajas de la orquestación de contenedores en el DevOps moderno, junto con las herramientas de orquestación de contenedores más populares y las normativas gubernamentales relevantes para la contenedorización."
 tags: ["orquestación de contenedores", "DevOps", "Kubernetes", "Enjambre Docker", "Apache Mesos", "escalabilidad", "alta disponibilidad", "equilibrio de carga", "seguridad", "implantación automatizada de aplicaciones", "HIPAA", "SOX", "GDPR", "conformidad", "desarrollo de software", "computación en nube", "contenedorización", "tecnología", "automatización"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Una imagen caricaturesca que representa contenedores que comparten el mismo peso en un balancín con un director de orquesta que los dirige. "
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore las ventajas e inconvenientes de la autenticación multifactor (AMF) y aprenda a elegir la solución adecuada para la seguridad de su empresa."
 tags: ["autenticación multifactor", "AMF", "seguridad empresarial", "ciberseguridad", "protección de datos", "cumplimiento de la normativa", "experiencia del usuario", "phishing", "ataques de fuerza bruta", "complejidad técnica", "resistencia del usuario", "smartphones", "ficha", "tarjeta inteligente", "huella dactilar", "reconocimiento facial", "reconocimiento de voz", "PCI DSS", "HIPAA", "violación de datos"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Un candado de dibujos animados con símbolos de autenticación de dos factores como un smartphone y una llave."
 coverCaption: ""
 ---

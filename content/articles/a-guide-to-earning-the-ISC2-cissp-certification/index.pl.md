@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak przygotować się i zdać egzamin CISSP, prestiżowy certyfikat dla specjalistów ds. bezpieczeństwa informacji."
 tags: ["Certyfikacja CISSP", "bezpieczeństwo informacji", "przygotowanie do egzaminu", "plan studiów", "egzaminy praktyczne", "cyberbezpieczeństwo", "rozwój zawodowy", "egzamin certyfikacyjny", "ISC2", "możliwości kariery", "architektura bezpieczeństwa", "bezpieczeństwo sieci", "kontrola dostępu", "zarządzanie ryzykiem", "szyfrowanie", "operacje bezpieczeństwa", "bezpieczeństwo fizyczne", "ciągłość działania", "odzyskiwanie po awarii", "zgodność"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Kreskówkowy wizerunek osoby posiadającej certyfikat CISSP z dymkiem przedstawiającym różne tematy związane z bezpieczeństwem informacji, takie jak architektura bezpieczeństwa, kontrola dostępu, szyfrowanie i bezpieczeństwo sieci."
 coverCaption: ""
 ---

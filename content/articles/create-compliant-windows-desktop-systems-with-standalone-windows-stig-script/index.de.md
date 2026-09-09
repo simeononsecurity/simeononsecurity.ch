@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie, wie Sie mit dem benutzerfreundlichen Standalone-Windows-STIG-Skript ein sicheres und konformes Windows-System erstellen können. Dieser informative Artikel enthält Schritt-für-Schritt-Anleitungen und detaillierte Erklärungen zu den Parametern."
 tags: ["STIG-Skript", "Windows-Sicherheit", "Kompatibles Windows-System", "System Hardening", "Fenster STIG", "Secure Windows", "Windows-Konformität", "Manuelle Installation", "Windows-Updates", "Adobe Reader", "Firefox", "Chrom", "Internet Explorer 11", ".NET-Rahmenwerk", "Büro", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Abhilfemaßnahmen", "Nessus PID", "VMware Horizont", "Optionale Härtung"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "Ein Screenshot eines Computerbildschirms mit einem Fortschrittsbalken, der den Fertigstellungsgrad anzeigt."
 coverCaption: ""
 ---

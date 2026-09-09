@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen, uitdagingen en beste praktijken voor het implementeren van een BYOD-beleid in uw organisatie."
 tags: ["BYOD-beleid", "bring-your-own-device", "beheer van mobiele apparaten", "productiviteit", "veiligheidsrisico's", "kostenbesparingen", "werknemersopleiding", "veiligheidsprotocollen", "data-encryptie", "technische ondersteuning", "werkgerelateerde taken", "werktevredenheid", "bedrijfsbeleid", "wissen op afstand", "MDM software", "werknemersapparaten", "veiligheidsmaatregelen", "apparaatgebruik", "compliance", "passend gebruik"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "Een cartoonbeeld van een persoon die jongleert met verschillende persoonlijke apparaten (laptop, smartphone, tablet) en werkgerelateerde zaken (documenten, koffiekopje)."
 coverCaption: ""
 ---

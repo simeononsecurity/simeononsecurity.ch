@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Manteniu-vos al dia amb les últimes classificacions del món dels CTF i els reptes amb el registre de classificacions CTF de SimeonOnSecurity"
 tags: ["Rànquings CTF", "Captura la bandera", "Competició", "Desafiaments", "LockHeed Martin Cyber Grand Challenge", "Lliga Nacional de Cibernètica", "Cipher Tech Challenge", "Rendiment", "Col·locació", "Equip", "Individual", "2020", "2021", "Seguretat cibernètica", "Ciberdefensa", "Esdeveniments CTF", "Competicions de Hacking", "Seguretat de la informació", "Recerca de seguretat"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "Un trofeu de dibuixos animats amb una cinta del primer lloc envoltada de pantalles d'ordinador i símbols de ciberseguretat com un cadenat, un escut i símbols de pany i clau."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索 PowerShell Desired State Configuration (DSC) 的强大功能，实现系统配置的自动化管理，打造安全、合规的环境。"
 tags: ["PowerShell", "DSC", "配置管理", "自动化", "视窗", "系统管理", "最佳做法", "合规性", "安全", "基础设施", "DevOps", "服务器配置", "测试", "Git", "源控制", "政府法规", "NIST", "独联体", "配置漂移", "定制资源"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.png"
+cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
 coverAlt: "一个披着超级英雄斗篷、自信满满的系统管理员站在井然有序的服务器机架旁，一手拿着 PowerShell DSC 脚本，一手拿着印有 Windows 徽标的盾牌，保护服务器免受配置漂移和安全威胁的卡通形象。"
 coverCaption: ""
 ---

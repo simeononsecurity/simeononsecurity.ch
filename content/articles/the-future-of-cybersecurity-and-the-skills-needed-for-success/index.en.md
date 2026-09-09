@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the essential skills needed for success in the rapidly changing field of cybersecurity and learn about the growing importance of cybersecurity in the tech industry."
 tags: ["cybersecurity", "future of cybersecurity", "skills for success", "critical thinking", "communication", "technical skills", "risk management", "professional development", "AI in cybersecurity", "cloud security", "cyber threats", "cybercrime", "information security", "cybersecurity professionals", "data privacy", "technology", "digital security", "cyber defense", "cyber attacks", "IT security"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "A cartoon image of a person in a superhero suit holding a shield with the word Cybersecurity on it, with a cityscape and computer screens in the background."
 coverCaption: ""
 ---

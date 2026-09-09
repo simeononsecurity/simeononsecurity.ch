@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esta guía proporciona una visión general de cómo iniciarse en Linux, incluyendo consejos para aprender tanto las variantes de Linux basadas en Debian como en RHEL."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Sistema operativo", "Código abierto", "Administración del sistema", "Comandos", "Terminal", "Comunidad", "Empresa", "Profesional", "Aprender", "Red", "Seguridad", "Personalización", "Estabilidad", "Flexibilidad"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Imagen de dibujos animados de un pingüino con una gorra de graduación, sosteniendo un diploma y de pie delante de un ordenador con un entorno de escritorio Linux de fondo."
 coverCaption: ""
 ---

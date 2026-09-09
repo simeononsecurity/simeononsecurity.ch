@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți funcționalitățile serviciilor DHCP, DNS și NTP, înțelegeți arhitectura rețelelor corporative și a centrelor de date și explorați conceptele de cloud și opțiunile de conectivitate pentru o comunicare și o gestionare a datelor fără întreruperi."
 genre: ["Tehnologie", "Rețea", "Conectivitate", "Schimbul de date", "Arhitectura de rețea", "Cloud Computing", "Servicii de rețea", "DNS", "DHCP", "NTP"]
 tags: ["servicii de rețea", "opțiuni de conectivitate", "arhitectură", "DHCP", "DNS", "NTP", "rețea corporativă", "rețeaua centrului de date", "concepte de cloud", "conectivitate", "arhitectură pe trei niveluri", "rețele definite de software", "arhitectura coloanei vertebrale și a frunzelor", "fluxuri de trafic", "sucursală", "centru de date local", "colocare", "rețele de stocare", "Fibre Channel peste Ethernet", "iSCSI", "explorarea DHCP", "înțelegerea DNS", "sincronizarea timpului în rețea", "arhitectura rețelei corporative", "opțiuni de conectivitate în cloud", "arhitectură de rețea pe trei niveluri", "beneficiile rețelelor definite de software", "arhitectura rețelei de coloană vertebrală și a rețelei foliare", "conectivitate cloud pentru sucursale", "tipuri de rețele de stocare"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "O ilustrație de desen animat care prezintă diferite componente de rețea și opțiuni de conectivitate în cloud"
 coverCaption: "Eliberați puterea serviciilor de rețea și a conectivității cloud"
 ---

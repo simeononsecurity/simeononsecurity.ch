@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Consolidați securitatea forței de muncă la distanță prin intermediul unei instruiri eficiente de conștientizare a securității și aflați cum să o implementați cu succes."
 tags: ["angajați la distanță", "conștientizarea securității", "securitate cibernetică", "formare", "forța de muncă la distanță", "phishing", "cele mai bune practici", "cultura de securitate", "gamificare", "NIST", "CISA", "Conștientizarea securității SANS", "Institutul Infosec", "KnowBe4", "învățare continuă", "scenarii din lumea reală", "formare interactivă", "amenințări cibernetice", "platforme de formare în domeniul securității"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "O imagine de desen animat a unui grup divers de angajați de la distanță care participă la o sesiune de instruire interesantă de conștientizare a securității pe laptopurile lor, cu diverse simboluri de securitate cibernetică în jurul lor."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Descubra por qué dominar las habilidades de programación puede beneficiar enormemente a su carrera en TI y ciberseguridad, y cómo empezar con PowerShell, Bash, Python, Ansible, Packer y Terraform."
 genre: ["Informática y ciberseguridad", "Conocimientos de programación", "Promoción profesional", "Automatización", "Línea de comandos", "Scripting", "Despliegue de infraestructuras", "Análisis de datos", "Pruebas de seguridad", "Desarrollo profesional"]
 tags: ["Informática y ciberseguridad", "Conocimientos de programación", "Promoción profesional", "PowerShell", "Bash", "Python", "Ansible", "Empaquetador", "Terraform", "Automatización", "Línea de comandos", "Scripting", "Despliegue de infraestructuras", "Análisis de datos", "Pruebas de seguridad", "Empleo en TI", "Carreras de ciberseguridad", "Profesionales de TI", "Profesionales de la ciberseguridad", "Automatización de redes", "Análisis de seguridad", "Lenguajes de programación", "Gestión de la configuración", "Infraestructura como código", "Automatización informática", "Industria informática", "Industria de la ciberseguridad", "Mercado laboral", "Competencias informáticas"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Una persona sentada frente a un ordenador, escribiendo código en una interfaz de línea de comandos con líneas de texto que se desplazan por la pantalla. "
 coverCaption: "Libere el poder de la programación para la informática y la ciberseguridad."
 ---

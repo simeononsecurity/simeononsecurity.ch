@@ -6,7 +6,7 @@ draft: false
 description: "Descubra los diferentes estándares 802.11, frecuencias, alcance y cifrado en redes inalámbricas para prepararse para el examen de certificación Network+ de CompTIA."
 genre: ["Tecnología", "Red", "Redes inalámbricas", "Examen de certificación", "CompTIA Network+", "Formación en TI", "Certificación informática", "Normas inalámbricas", "Tecnologías inalámbricas", "Tecnologías de la información"]
 tags: ["CompTIA Network Plus", "Examen de certificación Network", "Normas inalámbricas", "Tecnologías inalámbricas", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frecuencias", "Gama", "Vinculación de canales", "Tipos de antena", "Normas de cifrado", "Configuraciones SSID", "Redes inalámbricas", "Examen de redes inalámbricas", "Formación sobre redes inalámbricas", "Certificación de redes inalámbricas", "Tecnología de redes inalámbricas", "Seguridad de redes inalámbricas", "Rendimiento de la red inalámbrica", "Protocolos de redes inalámbricas", "Configuración de la red inalámbrica", "Resolución de problemas de redes inalámbricas", "Buenas prácticas para redes inalámbricas"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Ilustración de dibujos animados que muestra diferentes dispositivos y señales de redes inalámbricas."
 coverCaption: "Libere el poder de las redes inalámbricas"
 ---

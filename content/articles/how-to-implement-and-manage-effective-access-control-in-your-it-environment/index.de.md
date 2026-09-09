@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sensible Daten und Systeme schützen können, indem Sie wirksame Maßnahmen zur Zugriffskontrolle in Ihrer IT-Umgebung implementieren."
 tags: ["Zugangskontrolle", "IT-Sicherheit", "Cybersecurity", "Passwörter", "Biometrische Authentifizierung", "Rollenbasierte Zugriffskontrolle", "Multi-Faktor-Authentifizierung", "Datenschutz", "Risikobewertung", "Ausbildung der Mitarbeiter", "Werkzeuge für die Rechnungsprüfung", "Werkzeuge für die Berichterstattung", "Penetrationstests", "Bewertung der Anfälligkeit", "Physische Zugangskontrolle", "Logische Zugangskontrolle", "Vorschriften zur Einhaltung", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Eine verschlossene Tür mit einem Fingerabdruck-Scanner als einziges Mittel, um Zugang zu erhalten."
 coverCaption: ""
 ---

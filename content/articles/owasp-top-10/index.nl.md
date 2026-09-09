@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer meer over de meest kritieke beveiligingsrisico's voor webtoepassingen met de OWASP Top 10 en hoe u zich hiertegen kunt beschermen"
 tags: ["Beveiliging van webtoepassingen", "OWASP top 10", "Injectieaanvallen", "Authenticatie", "Sessiebeheer", "XSS-aanvallen", "Toegangscontrole", "Verkeerde configuratie van beveiliging", "Cryptografische opslag", "Bescherming transportlaag", "Validatie van invoer", "Componenten van derden", "Registratie en bewaking", "Webontwikkeling", "Cyberbeveiliging", "Gegevensbescherming", "Software Beveiliging", "IT Beveiliging", "Veiligheidsmaatregelen", "Risicobeheer"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "Een cartoonbeeld van een webontwikkelaar die een superheldencape draagt en een schild vasthoudt. Het schild beschermt een laptop met een webapplicatie-interface op het scherm."
 coverCaption: ""
 ---

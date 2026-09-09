@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się więcej o prawnych i etycznych aspektach cyberbezpieczeństwa i prywatności w transformacji cyfrowej."
 tags: ["Cyberbezpieczeństwo", "Prywatność", "Transformacja cyfrowa", "Prywatność danych", "Ochrona danych", "Etyka", "Odpowiedzialność", "Przejrzystość", "Zaufanie", "Naruszenie ochrony danych", "Gromadzenie danych", "Bezpieczeństwo danych", "Rozporządzenie o danych", "Przepisy dotyczące prywatności danych", "Przepisy dotyczące cyberbezpieczeństwa", "Odpowiedzialność", "Przepisy dotyczące ochrony danych", "Przepisy dotyczące ochrony danych", "Bezpieczeństwo online", "Bezpieczeństwo informacji"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Kreskówkowy obraz kłódki chroniącej komputer lub tarcza z ikoną kłódki, symbolizująca znaczenie cyberbezpieczeństwa i prywatności w erze cyfrowej."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-28
 description: "Ontdek het belang van voortdurend leren, populaire cyberbeveiligingscertificeringen en stappen om deze te verwerven en te behouden voor een succesvolle cyberbeveiligingscarrière."
 tags: ["cyberbeveiligingsprofessional", "nieuwe vaardigheden leren", "certificeringen verdienen", "continu leren", "cyberbeveiligingscertificeringen", "CISSP", "CEH", "CISM", "Beveiliging+", "CCSP", "belang van continu leren", "voordelen van het verdienen van certificeringen", "loopbaanontwikkeling cyberbeveiliging", "professionele groei", "nieuwste trends op het gebied van cyberbeveiliging", "technologische vooruitgang in cyberbeveiliging", "beste praktijken in cyberbeveiliging", "cyberbeveiligingsvaardigheden verwerven", "voorbereiden op cyberbeveiligingsexamens", "cyberbeveiligingscertificaten behouden", "door de industrie erkende cyberbeveiligingscertificeringen", "carrièremogelijkheden in cyberbeveiliging", "opleiding en training in cyberbeveiliging", "bijscholing in cyberbeveiliging", "banenmarkt cyberbeveiliging", "cyberdreigingslandschap", "voortdurende professionele ontwikkeling in cyberbeveiliging", "netwerkbeveiligingscertificeringen", "cloudbeveiligingscertificeringen", "ethisch hacken certificeringen", "informatiebeveiligingsbeheercertificeringen"]
-cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.png"
+cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.webp"
 coverAlt: " Een stripfiguur die cyberbedreigingen overwint met een schild en zwaard."
 coverCaption: "Stel jezelf in staat, overwin cyberbedreigingen!"
 ---

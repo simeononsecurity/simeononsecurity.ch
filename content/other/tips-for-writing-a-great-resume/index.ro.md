@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Aflați cele mai bune practici pentru crearea unui CV eficient, inclusiv utilizarea fonturilor, tipurile de CV, optimizarea cuvintelor cheie, gestionarea lacunelor și optimizarea aspectului."
 tags: ["reia scrisul", "sfaturi pentru CV", "utilizarea fontului", "relua structura", "tipuri de CV", "rezumat cronologic", "CV functional", "CV combinație", "optimizarea cuvintelor cheie", "referințe pe CV", "reluarea declarației", "gestionarea disponibilizărilor", "gestionarea lacunelor din CV", "anul de absolvire pe CV", "certificări de listare", "reluați aspectul", "CV concis", "spațiu alb în CV", "reluați personalizarea", "CV profesional"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "O imagine de desene animate colorate care arată o persoană care ține un CV cu o lupă, simbolizând atenția la detalii în optimizarea CV-ului."
 coverCaption: ""
 ---

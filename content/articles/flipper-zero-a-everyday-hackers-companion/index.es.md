@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Descubra los diversos usos de Flipper Zero, el dispositivo portátil definitivo para la piratería informática, el análisis de las comunicaciones inalámbricas y las necesidades tecnológicas cotidianas."
 tags: ["Pinball Cero", "dispositivo portátil", "piratería informática", "ingeniería inversa", "análisis de las comunicaciones inalámbricas", "control de dispositivos", "auditoría de seguridad", "pruebas de penetración", "compañero tecnológico diario", "código abierto", "Bluetooth", "NFC", "RFID", "IR", "emulación", "pruebas de seguridad", "Kali Linux", "Pantalla de papel electrónico", "Códigos QR", "domótica", "vulnerabilidades de seguridad", "protocolos inalámbricos", "extracción de firmware", "intermitente", "depuración", "sistemas de control de acceso físico", "sistemas domóticos inteligentes", "emulación de dispositivos", "vulnerabilidades de los sistemas inalámbricos", "contramedidas", "gadget compacto"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Una colorida ilustración de un dispositivo Flipper Zero con varias herramientas y señales inalámbricas a su alrededor, simbolizando su versatilidad y capacidades"
 coverCaption: ""
 ---

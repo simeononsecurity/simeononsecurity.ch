@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "AIが脅威の検知と対応の分野にどのような革命をもたらしているのか、そしてそれがもたらす課題と限界についてご紹介します。"
 tags: ["アーティフィシャル・インテリジェンス", "サイバーセキュリティ", "スレットディテクション", "スレットレスポンス", "機械学習", "ディープラーニング", "自然言語処理", "AI Algorithm", "ネットワークセキュリティ", "データセキュリティ", "サイバーディフェンス", "インシデントレスポンス", "インサイダー脅威", "セキュリティチーム", "リアルタイムモニタリング", "ルールベース・システム", "サイバークライム", "脆弱性（ぜいじゃくせい", "アダプティブセキュリティ", "サイバーレジリエンス"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "AIという文字が描かれた盾が、サイバー脅威を象徴する着信の矢印をブロックしている3Dアニメーション画像。"
 coverCaption: ""
 ---

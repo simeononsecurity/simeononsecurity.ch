@@ -5,7 +5,7 @@ draft: false
 description: "了解如何使用质数密码解密 DTMF 音调以解决 HackTheBox 上的加密 - 呼叫挑战。"
 tags: ["破解盒子", "加密挑战", "双音多频音", "质数密码", "解密", "解决难题", "密码学", "音频转换", "拨ABC", "解码.fr", "WAV格式", "MP3", "频率", "数学特质", "旗帜", "大胆", "声波展示台", "数字", "自动出纳菜单", "公用电话"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "带有绿色屏幕和挂锁的卡通电话，象征着安全和加密，背景中描绘了 DTMF 音调"
 coverCaption: ""
 ---

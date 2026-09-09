@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "在这篇内容丰富的文章中，您将了解如何抵御社交工程攻击，保护您的数据免受网络犯罪分子的侵害。"
 tags: ["网络安全", "社会工程", "网络钓鱼欺诈", "多因素身份验证", "安全更新", "密码安全", "网络安全", "数据泄露", "信息技术安全", "身份盗窃", "预防欺诈", "防止间谍活动", "技术安全", "实体安保", "信息安全", "预防网络犯罪", "入侵检测", "安全补丁", "员工培训", "数据保护"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "一个卡通盾牌，中间有一把挂锁，代表了网络安全中抵御社会工程学攻击的理念"
 coverCaption: ""
 ---

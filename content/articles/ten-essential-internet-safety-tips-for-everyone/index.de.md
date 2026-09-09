@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Lernen Sie 10 wichtige Tipps zur Internetsicherheit, um Ihre Privatsphäre, Ihre Sicherheit und Ihre Finanzen online zu schützen und Ihre Familie vor Cyberbedrohungen zu bewahren."
 genre: ["Sicherheit im Internet", "Online-Sicherheit", "Tipps zur Cybersicherheit", "Schutz der Privatsphäre", "Digitale Sicherheit", "Online-Bedrohungen", "Datensicherheit", "Sichere Internetpraktiken", "Schutz von persönlichen Informationen", "Online Privacy"]
 tags: ["Tipps zur Internetsicherheit", "Online-Sicherheit", "Cyber-Bedrohungen", "Schutz der Privatsphäre", "digitale Sicherheit", "Online-Bedrohungen", "Datensicherheit", "sichere Internetpraktiken", "Schutz persönlicher Informationen", "Online-Datenschutz", "Tipps zur Cybersicherheit", "Internetprivatsphäre", "Online-Betrügereien", "Phishing-Angriffe", "Malwareschutz", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "sicheres Wi-Fi", "Netzüberwachung", "E-Mail-Sicherheit", "Datenschutz in den sozialen Medien", "Sicherheit von Finanzinformationen", "sichere Websites", "Kontoauszugskontrolle", "sichere Passwörter", "Passwort-Manager", "Online-Bildung", "Bewusstsein für Cybersicherheit", "zuverlässige Sicherheitssoftware"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Ein symbolisches Bild, das die Sicherheit im Internet darstellt, mit einem Schild, das einen Computerbildschirm vor Cyber-Bedrohungen schützt."
 ---
 

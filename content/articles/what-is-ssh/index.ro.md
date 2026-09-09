@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți beneficiile SSH, învățați cum să generați chei SSH, să vă conectați la servere la distanță, să transferați fișiere în siguranță și să personalizați configurațiile SSH."
 tags: ["SSH", "Secure Shell", "acces de la distanță", "gestionare la distanță", "criptare", "autentificare", "integritatea datelor", "portabilitate", "transfer de fișiere", "SCP", "Chei SSH", "Configurația SSH", "protocol de rețea", "executarea comenzilor de la distanță", "OpenSSH", "autentificare cu doi factori", "criptografie cu cheie publică", "Adresa IP", "nume de domeniu", "terminal", "prompt de comandă", "securitate", "administratori de sistem", "dezvoltatori", "versatilitate", "metode de autentificare", "funcții hash", "tunelare", "opțiuni personalizate"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care se conectează în siguranță la un server folosind SSH."
 coverCaption: ""
 ---

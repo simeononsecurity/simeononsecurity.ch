@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scopri come automatizzare le patch e gli aggiornamenti di Linux utilizzando Ansible, coprendo varie distribuzioni e istruzioni di configurazione."
 tags: ["Patch di Linux", "Automazione Ansible", "automatizzare gli aggiornamenti", "sistema in manutenzione", "Automazione informatica", "gestione delle patch", "Sicurezza Linux", "Debian", "Ubuntu", "REL", "Alpino", "stabilità del sistema", "attenuazione della vulnerabilità", "Infrastruttura IT", "strumento di automazione", "Playbook Ansible", "configurazione dell'host", "aggiornamenti software", "conformità di sicurezza", "Operazioni informatiche", "Aggiornamenti Linux", "Ubuntu", "Debian", "CentOS", "REL", "aggiornamenti offline", "archivio locale", "cache", "configurazione del server", "configurazione del cliente", "apt-specchio", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Aggiornamenti del sistema Linux", "aggiornamenti dei pacchetti offline", "aggiornamenti software offline", "repository di pacchetti locale", "cache dei pacchetti locale", "aggiornamenti Linux offline", "gestire gli aggiornamenti offline", "metodi di aggiornamento offline", "manutenzione del sistema offline", "Aggiornamenti del server Linux", "Aggiornamenti del client Linux", "gestione del software offline", "gestione dei pacchetti offline", "aggiornare le strategie", "Aggiornamenti di sicurezza Linux"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Un'immagine colorata in stile cartone animato raffigurante un robot che applica patch a un cluster di server Linux."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Discover the comprehensive evaluation and development frameworks for cybersecurity workforce: NICE and DoD DCWF, empowering organizations with skilled professionals."
 tags: ["workforce development", "cybersecurity", "NICE framework", "DoD DCWF framework", "skills assessment", "professional development", "cybersecurity workforce", "career pathways", "cybersecurity education", "workforce alignment", "workforce framework", "NIST", "government regulations", "cybersecurity certifications", "industry standards", "talent management", "cybersecurity roles", "cybersecurity competencies", "cybersecurity workforce development", "cybersecurity professionals", "cybersecurity skills", "workforce planning", "cybersecurity recruitment", "workforce resilience", "cybersecurity training", "workforce strategy", "cybersecurity job market", "cybersecurity career advancement", "workforce readiness"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "A group of diverse professionals collaborating on a cybersecurity project."
 coverCaption: "Unlocking Potential: Empowering Cybersecurity Professionals for Success"
 ---

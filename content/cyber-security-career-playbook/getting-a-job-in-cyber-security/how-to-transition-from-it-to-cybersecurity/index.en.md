@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Learn how to successfully transition from IT to cybersecurity with our comprehensive step-by-step guide, ensuring a successful career switch."
 tags: ["transitioning", "IT to cybersecurity", "career switch", "step-by-step guide", "education", "experience", "skills", "certifications", "specialization", "professional networking", "cybersecurity community", "talent shortage", "high demand", "industry trends", "practical experience", "technical skills", "non-technical skills", "cybersecurity certifications", "online courses", "cybersecurity education", "transitioning to cybersecurity", "IT career transition", "cybersecurity skills", "cybersecurity job market", "cybersecurity training", "cybersecurity specialization", "cybersecurity professionals", "cybersecurity industry", "IT skills in cybersecurity", "cybersecurity career paths", "cybersecurity job opportunities"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "A cartoon illustration depicting a person stepping from an IT world to a cybersecurity world."
 coverCaption: "Level Up Your Career: Embrace the Cybersecurity Challenge!"
 ---

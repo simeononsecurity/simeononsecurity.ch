@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite l'impatto dell'IoT sulla sicurezza informatica e apprendete le strategie efficaci per proteggere i vostri dispositivi connessi."
 tags: ["IoT", "sicurezza informatica", "sicurezza", "Internet delle cose", "Dispositivi IoT", "sicurezza della rete", "protezione dei dati", "privacy", "dispositivi intelligenti", "migliori pratiche", "Rischi dell'IoT", "autenticazione", "aggiornamenti del firmware", "monitoring", "standard di settore", "regolamenti", "Linee guida per la sicurezza IoT", "segmentazione della rete", "panorama delle minacce", "vulnerabilità"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Un'immagine animata in 3D di uno scudo che protegge un gruppo di dispositivi IoT connessi, a simboleggiare l'importanza della sicurezza informatica per le reti IoT."
 coverCaption: ""
 ---

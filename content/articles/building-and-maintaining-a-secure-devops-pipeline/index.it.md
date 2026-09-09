@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a costruire e mantenere una pipeline DevOps sicura utilizzando best practice ed esempi reali in questa guida completa."
 tags: ["DevOps", "sicurezza", "conduttura", "integrazione continua", "consegna continua", "automazione", "containerizzazione", "codifica sicura", "scansione delle vulnerabilità", "monitoring", "feedback", "controllo della versione", "controllo degli accessi", "recupero in caso di disastro", "continuità aziendale", "studio di caso", "Primavera", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
 coverAlt: "Un'immagine a fumetti di uno scudo che protegge una pipeline con un lucchetto e una chiave, circondato da varie fasi della pipeline DevOps e da strumenti di sicurezza."
 coverCaption: ""
 ---

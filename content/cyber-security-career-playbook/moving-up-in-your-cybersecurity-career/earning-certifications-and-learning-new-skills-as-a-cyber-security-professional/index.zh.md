@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-28
 description: "了解持续学习的重要性、流行的网络安全认证，以及获取和保持这些认证的步骤，从而获得成功的网络安全职业生涯。"
 tags: ["网络安全专业人员", "学习新技能", "获得认证", "持续学习", "网络安全认证", "CISSP", "CEH", "CISM", "安全+", "CCSP", "持续学习的重要性", "获得认证的优势", "网络安全职业发展", "专业成长", "最新网络安全趋势", "网络安全技术的进步", "网络安全最佳做法", "获取网络安全技能", "准备网络安全考试", "保持网络安全认证", "行业认可的网络安全认证", "网络安全领域的职业机会", "网络安全教育和培训", "提高网络安全技能", "网络安全就业市场", "网络威胁状况", "网络安全方面的持续专业发展", "网络安全认证", "云安全认证", "道德黑客认证", "信息安全管理认证"]
-cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.png"
+cover: "/img/cover/A_cartoon_character_overcoming_cyber_threats_with_a_shield.webp"
 coverAlt: "一个用盾牌和剑战胜网络威胁的卡通人物。"
 coverCaption: "增强自身能力，战胜网络威胁！"
 ---

@@ -5,7 +5,7 @@ draft: false
 description: "Erfahren Sie, wie Sie Fernet- und Malboge-Chiffren entschlüsseln, um die HackTheBox Crypto Challenge zu lösen und die verborgene Flagge aufzudecken."
 tags: ["HackTheBox", "Herausforderungen", "Krypto", "Dekodieren", "Zuschreibung", "Fernet-Chiffre", "Malboge-Chiffre", "Symmetrische Verschlüsselung", "Internet-Sicherheit", "Kryptographie", "Penetrationstests", "Python", "Sicherheit", "Herausforderung", "CTF", "Flagge", "Verschlüsselung", "Entschlüsselung", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Ein Cartoon-Hacker steht neben einem großen Schloss und hält in einer Hand einen Fernet-Logo-Schlüssel und in der anderen Hand einen Malboge-Logo-Schlüssel, während im Schloss eine Flagge zu sehen ist"
 coverCaption: ""
 ---

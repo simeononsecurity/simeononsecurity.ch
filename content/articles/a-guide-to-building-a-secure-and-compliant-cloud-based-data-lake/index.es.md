@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las mejores prácticas de seguridad y cumplimiento de normativas a la hora de planificar, crear y gestionar lagos de datos basados en la nube en esta completa guía."
 tags: ["lago de datos", "seguridad en la nube", "normas de cumplimiento", "controles de acceso", "codificación", "AWS", "Azure", "HIPAA", "GDPR", "control", "parcheando", "ciberseguridad", "Solución SIEM", "Equipos de apoyo informático", "panorama de amenazas", "migración a la nube", "gobierno de la nube"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Una imagen de dibujos animados de un castillo custodiado por un caballero guerrero, que simboliza el concepto de protección sólida para un almacenamiento en la nube seguro y conforme a las normas"
 coverCaption: ""
 ---

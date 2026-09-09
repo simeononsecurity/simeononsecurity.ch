@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à protéger vos enfants contre la cyberintimidation grâce à ce guide complet destiné aux parents."
 tags: ["cyberintimidation", "sécurité en ligne", "l'éducation des enfants", "enfants", "santé mentale", "les réglementations gouvernementales", "politiques en matière de sécurité sur l'internet", "surveillance de l'activité en ligne", "la prévention", "harcèlement en ligne", "la cybersécurité", "la parentalité numérique", "médias sociaux", "citoyenneté numérique", "empreinte numérique", "harcèlement moral", "loi", "technologie", "sécurité", "l'éducation"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Dessin humoristique d'un parent et d'un enfant utilisant ensemble un ordinateur, avec une bulle au-dessus de l'ordinateur indiquant un message positif."
 coverCaption: ""
 ---

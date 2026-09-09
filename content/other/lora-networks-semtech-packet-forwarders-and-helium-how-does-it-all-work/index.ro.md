@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-17
 description: "Descoperiți beneficiile integrării rețelei LoRa cu Helium pentru dispozitive și industrii IoT, cum ar fi orașele inteligente, agricultura și logistica."
 tags: ["Rețeaua LoRa", "Integrarea heliului", "Redirecționare de pachete Semtech", "aplicații IoT", "LPWAN", "modulație cu spectru răspândit", "gateway-uri", "nor", "Protocolul LoRaWAN", "infrastructura retelei", "hotspot-uri", "senzori", "securitatea retelei", "geolocalizare", "mecanism de stimulare", "orașe inteligente", "agricultură", "logistică", "Dezvoltare IoT", "comunicare pe distanță lungă"]
-cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
+cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.webp"
 coverAlt: "O ilustrație stilizată a unui peisaj urban cu diverse dispozitive IoT conectate la o rețea reprezentată ca o rețea de lumină, cu sigla Helium afișată vizibil."
 coverCaption: ""
 ---

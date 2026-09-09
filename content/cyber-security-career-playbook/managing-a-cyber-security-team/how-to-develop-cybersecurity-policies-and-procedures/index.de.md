@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Erfahren Sie, wie Sie eine umfassende Cybersicherheitsrichtlinie entwickeln können, die den Branchenstandards und gesetzlichen Anforderungen entspricht, um die sensiblen Daten Ihres Unternehmens zu schützen und Cyberrisiken zu minimieren."
 genre: ["Technologie", "Sicherheit", "Einhaltung der Vorschriften", "Risk Management", "Datenschutz", "Informationsmanagement", "Reaktion auf Vorfälle", "Geschäftskontinuität", "Cyber-Bedrohungen", "Entwicklung der Politik"]
 tags: ["Cybersicherheitspolitik", "Cybersicherheitsverfahren", "beste Praktiken der Branche", "Risikomanagement", "NIST-Normen", "RMF", "PCI-DSS", "HIPAA", "FISMA", "datenschutz", "Vorfallreaktion", "Geschäftskontinuität", "Sicherheitsbewusstsein", "Einhaltung von Rechtsvorschriften", "Cyber-Bedrohungen", "Datensicherheit", "IT-Governance", "Netzwerksicherheit", "Informationssicherheit", "Sicherheitskontrollen", "Entwicklung einer Cybersicherheitspolitik", "umfassende Cybersicherheitsverfahren", "Rahmen für die Cybersicherheitspolitik", "Cybersicherheitsvorschriften", "Risikominderung im Bereich der Cybersicherheit", "Planung der Reaktion auf Vorfälle", "Verhinderung von Datenschutzverletzungen", "Sicherheitsschulung für Mitarbeiter", "Management der Einhaltung der Cybersicherheit", "Privatsphäre und Datenschutz"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "Eine Cartoon-Illustration, die ein Schild zeigt, das einen Netzwerkserver vor Cyber-Bedrohungen schützt."
 coverCaption: "Sichern Sie Ihr Netzwerk: Verteidigen Sie sich gegen Cyber-Bedrohungen mit wirksamen Richtlinien"
 ---

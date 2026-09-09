@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite le funzionalità dei servizi DHCP, DNS e NTP, comprendete l'architettura di rete aziendale e dei data center ed esplorate i concetti di cloud e le opzioni di connettività per una comunicazione e una gestione dei dati senza interruzioni."
 genre: ["Tecnologia", "Collegamento in rete", "Connettività", "Scambio di dati", "Architettura di rete", "Cloud Computing", "Servizi di rete", "DNS", "DHCP", "NTP"]
 tags: ["servizi di rete", "Opzioni di connettività", "architettura", "DHCP", "DNS", "NTP", "rete aziendale", "rete di data center", "concetti di cloud", "connettività", "architettura a tre livelli", "rete definita dal software", "architettura della colonna vertebrale e delle foglie", "flussi di traffico", "filiale", "centro dati on-premises", "colocazione", "reti di archiviazione", "Fibre Channel su Ethernet", "iSCSI", "esplorare il DHCP", "capire il DNS", "sincronizzazione dell'ora di rete", "architettura di rete aziendale", "opzioni di connettività cloud", "architettura di rete a tre livelli", "vantaggi della rete definita dal software", "architettura di rete spine e foglie", "connettività cloud per le filiali", "tipi di reti di storage area"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Un'illustrazione a fumetti che mostra i vari componenti di rete e le opzioni di connettività cloud"
 coverCaption: "Sbloccare la potenza dei servizi di rete e della connettività cloud"
 ---

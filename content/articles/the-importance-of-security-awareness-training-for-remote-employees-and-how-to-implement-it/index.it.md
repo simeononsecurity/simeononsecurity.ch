@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Rafforzate la sicurezza della vostra forza lavoro remota attraverso un'efficace formazione di sensibilizzazione alla sicurezza e imparate come implementarla con successo."
 tags: ["dipendenti remoti", "consapevolezza della sicurezza", "sicurezza informatica", "formazione", "forza lavoro a distanza", "phishing", "migliori pratiche", "cultura della sicurezza", "gamification", "NIST", "CISA", "Consapevolezza della sicurezza SANS", "Istituto Infosec", "ConoscereBe4", "apprendimento continuo", "scenari reali", "formazione interattiva", "minacce informatiche", "piattaforme di formazione sulla sicurezza"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Un'immagine a fumetti di un gruppo eterogeneo di dipendenti remoti che partecipano a una coinvolgente sessione di formazione sulla sicurezza sui loro laptop, con vari simboli di cybersicurezza che li circondano."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "了解勒索软件威胁以及您可以采取的防范措施。"
 tags: ["勒索软件", "网络安全", "预防", "后援", "杀毒", "虚拟专用网", "多因素认证", "政府法规", "网络钓鱼", "社会工程", "恶意代码", "网络犯罪", "数据安全", "网络安全", "网络攻击", "加密", "网络卫生", "事件响应", "数据保护", "网络意识"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "一台电脑上挂着锁和链条，象征着勒索软件对数据的加密。"
 coverCaption: ""
 ---

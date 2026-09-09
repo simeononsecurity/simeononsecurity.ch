@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți puterea automatizării Ansible cu o comparație între Ansible simplu, Ansible Tower și Ansible Semaphore și alegeți instrumentul potrivit pentru o gestionare eficientă a infrastructurii."
 genre: ["Automatizare", "Managementul infrastructurii", "Managementul configurației", "DevOps", "Operațiuni IT", "Sursă deschisă", "Managementul fluxului de lucru", "Scalabilitate", "Colaborare", "Instrumente Ansible"]
 tags: ["Ansible", "Automatizare", "Turnul Ansible", "Semaforul Ansible", "Ansible simplu", "Managementul infrastructurii", "Managementul configurației", "DevOps", "Operațiuni IT", "Sursă deschisă", "Managementul fluxului de lucru", "Scalabilitate", "Colaborare", "Cărți de joc", "YAML", "Programarea lucrărilor", "RBAC", "GUI", "Integrarea controlului versiunilor", "Execuție idempotentă", "Arhitectura fără agenți", "Fluxul de lucru Ansible", "Caracteristici de nivel enterprise", "Implementarea auto-hublicată", "Implementarea bazată pe cloud", "Licențiere", "Instrumente de gestionare a infrastructurii", "Platforme de automatizare", "Sisteme de gestionare a fluxurilor de lucru", "Instrumente DevOps", "Managementul operațiunilor IT"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "O ilustrație simbolică ce prezintă unelte interconectate care simbolizează automatizarea și gestionarea infrastructurii cu Ansible"
 coverCaption: "Eliberați potențialul Ansible pentru un management eficient al infrastructurii"
 ---

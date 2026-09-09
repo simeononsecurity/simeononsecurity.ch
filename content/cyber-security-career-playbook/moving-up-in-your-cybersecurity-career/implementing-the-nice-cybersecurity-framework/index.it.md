@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Scoprite i passaggi chiave per implementare efficacemente il NICE Cybersecurity Framework e rafforzare le difese della vostra organizzazione contro le minacce informatiche."
 tags: ["Quadro di sicurezza informatica NICE", "difesa informatica", "migliori pratiche di implementazione", "forza lavoro nella cybersecurity", "analisi del gap di competenze", "programmi di formazione", "monitoraggio e reporting", "postura di cybersicurezza", "gestione del rischio", "regolamenti governativi", "politiche di cybersicurezza", "protezione dei dati", "risposta agli incidenti", "sicurezza della rete", "gestione delle vulnerabilità", "controlli di sicurezza", "intelligence sulle minacce informatiche", "metriche di cybersicurezza", "miglioramento continuo", "benchmark di settore", "resilienza informatica", "gestione degli incidenti di sicurezza", "panorama delle minacce informatiche", "governance della cybersecurity", "supervisione della cybersicurezza", "provisioning sicuro", "data classification", "requisiti di conformità", "certificazioni di cybersecurity", "Formazione sulla consapevolezza della cybersicurezza"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Un supereroe con lo scudo che protegge un'infrastruttura di rete dalle minacce informatiche."
 coverCaption: "Difendere, proteggere, proteggere: Rafforzare la difesa informatica con il framework NICE"
 ---

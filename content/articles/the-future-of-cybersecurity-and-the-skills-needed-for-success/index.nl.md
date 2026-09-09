@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de essentiële vaardigheden die nodig zijn voor succes op het steeds veranderende gebied van cyberbeveiliging en leer meer over het groeiende belang van cyberbeveiliging in de technologische industrie."
 tags: ["cyberbeveiliging", "toekomst van cyberbeveiliging", "vaardigheden voor succes", "kritisch denken", "communicatie", "technische vaardigheden", "risicobeheer", "professionele ontwikkeling", "AI in cyberbeveiliging", "cloudbeveiliging", "cyberbedreigingen", "cybercriminaliteit", "informatiebeveiliging", "cyberbeveiligingsprofessionals", "gegevensprivacy", "technologie", "digitale veiligheid", "cyberdefensie", "cyberaanvallen", "IT-beveiliging"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Een cartoonafbeelding van een persoon in een superheldenpak die een schild vasthoudt met het woord Cybersecurity erop, met een stadsgezicht en computerschermen op de achtergrond."
 coverCaption: ""
 ---

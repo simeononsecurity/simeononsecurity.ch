@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect yourself from RFID skimming and keep your credit card information secure with these simple tips."
 tags: ["RFID skimming", "credit card protection", "RFID blocking wallets", "chip credit cards", "phishing", "cybersecurity", "identity theft", "privacy", "contactless payments", "mobile payments", "financial security", "smart cards", "NFC", "encryption", "data protection", "RFID readers", "RFID technology", "electronic pickpocketing", "silent pocket", "hunter-cat"]
-cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "A cartoon illustration of a thief using an electronic device to steal credit card information from a person's wallet."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić cenne dane przed cyberatakami, katastrofami naturalnymi i awariami sprzętu."
 tags: ["strategia archiwizacji", "ochrona danych", "cybersecurity", "redundancja danych", "zapobieganie utracie danych", "odzyskiwanie danych", "zgodność", "zewnętrzne dyski twarde", "usługi przechowywania w chmurze", "pamięć masowa podłączona do sieci", "oprogramowanie do tworzenia kopii zapasowych", "automatyczne kopie zapasowe", "bezpieczeństwo danych", "odzyskiwanie danych po katastrofie", "backup offsite", "nadmiarowe kopie zapasowe", "najlepsze praktyki w zakresie tworzenia kopii zapasowych", "rozwiązania w zakresie tworzenia kopii zapasowych", "rodzaje magazynów", "bezpieczeństwo danych"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Postać z kreskówki z peleryną, trzymająca tarczę z cyfrą 3, stojąca na szczycie dwóch pudełek do przechowywania danych, z których jedno reprezentuje dysk twardy, a drugie chmurę, i wskazująca na kulę ziemską reprezentującą pamięć masową poza siedzibą firmy."
 coverCaption: ""
 ---

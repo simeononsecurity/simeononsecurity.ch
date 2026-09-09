@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți beneficiile utilizării Chocolatey pentru gestionarea pachetelor Windows: automatizați actualizările, economisiți timp și asigurați securitatea sistemului."
 tags: ["Gestionarea pachetelor Windows", "Ciocolata", "actualizări software", "manager de pachete", "Linia de comandă", "actualizări automate", "Intretinere programata", "Securitate", "stabilitate", "integrare", "reglementările guvernamentale", "conformitate", "Marionetă", "bucătar", "Ansible", "Pachetele NuGet", "DoD STIG", "eficientizați gestionarea pachetelor", "vulnerabilități software", "instrumente de implementare", "Actualizări Windows", "Actualizări de pachete Windows", "Gestionarea software-ului Windows", "Manager de pachete Windows", "instrument de gestionare a pachetelor", "actualizări automate ale pachetelor", "Actualizări de securitate Windows", "instalarea pachetului software", "Implementarea software-ului Windows", "sistem de management al pachetelor", "Depozitul de software Windows", "Cache pentru software Windows"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "O ilustrație colorată care înfățișează un logo Windows înconjurat de diverse pictograme software reprezentând gestionarea eficientă a pachetelor și actualizări."
 coverCaption: ""
 ---

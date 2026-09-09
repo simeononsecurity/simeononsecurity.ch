@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバーストーカーから身を守る方法を学び、これらのヒントやテクニックを使ってオンライン上で安全を確保することができます。"
 tags: ["サイバーストーキング", "オンラインセーフティー", "インターネットセキュリティ", "ストーキング防止", "身の安全", "オンラインプライバシー", "サイバーセキュリティ", "デジタルセーフティー", "インターネットセーフティー", "ネットいじめ", "ハラスメント", "被害者保護", "ほうてきこうい", "カウンセリング", "メンタルヘルス", "ソーシャル・メディア・セーフティ", "ネット虐め", "オンラインストーカー", "法執行", "プライバシー保護"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "影が迫ってくる中、不安げな表情でスマホを見る人。"
 coverCaption: ""
 ---

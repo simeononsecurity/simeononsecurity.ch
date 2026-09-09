@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die Bedeutung des Risikomanagements für die Cybersicherheit und wie Sie ein für Ihr Unternehmen geeignetes Programm erstellen können."
 tags: ["Cybersicherheit", "Risikomanagement", "Sicherheitsposition", "Risikobewertung", "Risikominderung", "Risikoüberwachung", "Bedrohungen", "Schwachstellen", "Informationssicherheit", "datenschutz", "Compliance", "Cyber-Angriffe", "Entscheidungsfindung", "Kostensenkung", "Geschäftskontinuität", "Risikoanalyse", "Risikoermittlung", "Risikokontrolle", "Risikobehandlung", "ständige Verbesserung"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Ein Schild mit Schloss und Schlüssel symbolisiert die Cybersicherheit, während die Lupe darüber das Risikomanagement darstellt."
 coverCaption: ""
 ---

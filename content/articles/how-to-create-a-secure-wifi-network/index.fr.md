@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Apprenez à créer un réseau Wi-Fi sécurisé pour protéger vos données et garantir une expérience en ligne sûre."
 tags: ["réseau Wi-Fi sécurisé", "Sécurité Wi-Fi", "cryptage du réseau", "Mot de passe Wi-Fi", "mises à jour du micrologiciel du routeur", "protection par pare-feu", "remote management disable", "connexion au routeur par défaut", "Filtrage des adresses MAC", "disable WPS", "réseau d'invités", "surveiller l'activité du réseau", "sécurité en ligne", "protection des données", "confidentialité des réseaux", "cybersécurité", "réseau sans fil", "sécurité internet", "garanties du réseau", "vulnérabilité du réseau"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Un bouclier protégeant le signal Wi-Fi des pirates informatiques."
 coverCaption: ""
 ---

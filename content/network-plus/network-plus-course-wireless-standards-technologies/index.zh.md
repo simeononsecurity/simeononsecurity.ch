@@ -6,7 +6,7 @@ draft: false
 description: "了解无线网络中不同的 802.11 标准、频率、范围和加密，为参加 CompTIA 的 Network+ 认证考试做好准备。"
 genre: ["技术", "联网", "无线网络", "认证考试", "CompTIA Network+", "IT 培训", "IT 认证", "无线标准", "无线技术", "信息技术"]
 tags: ["CompTIA Network Plus", "Network+ 认证考试", "无线标准", "无线技术", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "频率", "范围", "通道粘接", "天线类型", "加密标准", "SSID 配置", "无线网络", "无线网络考试", "无线网络培训", "无线网络认证", "无线网络技术", "无线网络安全", "无线网络性能", "无线网络协议", "无线网络配置", "无线网络故障排除", "无线网络最佳实践"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "一幅卡通插图展示了不同的无线网络设备和信号。"
 coverCaption: "释放无线网络的力量"
 ---

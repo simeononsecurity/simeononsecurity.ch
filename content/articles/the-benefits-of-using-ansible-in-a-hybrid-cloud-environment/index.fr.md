@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment les capacités d'automatisation d'Ansible peuvent rationaliser, sécuriser et optimiser les environnements de cloud hybride pour améliorer la productivité."
 tags: ["Opérations", "CICD", "évolutivité", "performance", "sécurité", "conformité", "l'intégration", "Amazon Web Services", "Microsoft Azure", "Google Cloud", "Tour Ansible", "Ansible Galaxy", "Ansible Vault", "économies de coûts", "IT efficiency"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Illustration animée en 3D d'un nuage avec des engrenages à l'intérieur, représentant un environnement de nuage hybride, illustrant la gestion efficace et automatisée de l'infrastructure de nuage."
 coverCaption: ""
 ---

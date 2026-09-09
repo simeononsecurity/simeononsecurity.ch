@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Zwiększ swoje umiejętności w zakresie cyberbezpieczeństwa dzięki jednostkom kształcenia ustawicznego (CEU), aby być o krok przed cyberzagrożeniami i chronić krytyczne zasoby."
 tags: ["CEU w dziedzinie cyberbezpieczeństwa", "Jednostki kształcenia ustawicznego", "rozwój zawodowy w zakresie cyberbezpieczeństwa", "postęp w technologii sieciowej", "Łagodzenie cyberzagrożeń", "kompetencje zawodowe", "zgodność z certyfikatem", "konferencje dotyczące cyberbezpieczeństwa", "odpowiednie kursy szkoleniowe", "dzielenie się wiedzą", "publikowanie artykułów dotyczących cyberbezpieczeństwa", "wolontariat w dziedzinie cyberbezpieczeństwa", "zaangażowanie w opracowywanie egzaminów", "Ramy bezpieczeństwa cybernetycznego NIST", "Zgodność z RODO", "Przepisy HIPAA", "Wymagania FISMA", "ciągłe uczenie się w zakresie cyberbezpieczeństwa", "cyfrowa bitwa", "podnoszenie umiejętności w zakresie cyberbezpieczeństwa", "krajobraz cyberzagrożeń", "wiarygodność zawodowa", "rządowe regulacje dotyczące cyberbezpieczeństwa", "Bycie na bieżąco z cyberbezpieczeństwem", "Trendy w branży cyberbezpieczeństwa", "najlepsze praktyki cyberbezpieczeństwa", "pracownicy cyberbezpieczeństwa", "bezpieczeństwo w cyfrowym świecie", "Taktyka cyberprzestępców", "ewoluujące zagrożenia cybernetyczne"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "Kreskówkowa ilustracja przedstawiająca specjalistę ds. cyberbezpieczeństwa z tarczą broniącą przed rojem cyfrowych wirusów."
 coverCaption: "Obrona i podbój cyfrowego świata dzięki ciągłemu uczeniu się."
 ---

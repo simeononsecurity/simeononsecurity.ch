@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Erweitern Sie Ihre Cybersecurity-Kenntnisse mit Continuing Education Units (CEUs), um Cyber-Bedrohungen immer einen Schritt voraus zu sein und wichtige Anlagen zu schützen."
 tags: ["CEUs in Cybersicherheit", "Fortbildungseinheiten", "Berufliche Entwicklung im Bereich der Cybersicherheit", "Fortschritte in der Netzwerktechnologie", "Abwehr von Cyber-Bedrohungen", "fachliche Kompetenz", "Einhaltung der Zertifizierung", "Konferenzen zur Cybersicherheit", "einschlägige Ausbildungsgänge", "Weitergabe von Wissen", "Veröffentlichung von Artikeln zur Cybersicherheit", "Freiwilligenarbeit im Bereich der Cybersicherheit", "Beteiligung an der Prüfungsentwicklung", "NIST Cybersecurity Framework", "Einhaltung der GDPR", "HIPAA-Vorschriften", "FISMA-Anforderungen", "kontinuierliches Lernen im Bereich der Cybersicherheit", "digitale Schlacht", "Verbesserung der Cybersicherheitsfähigkeiten", "Cyber-Bedrohungslandschaft", "berufliche Glaubwürdigkeit", "staatliche Cybersicherheitsvorschriften", "im Bereich der Cybersicherheit auf dem Laufenden bleiben", "Trends in der Cybersicherheitsbranche", "bewährte Praktiken der Cybersicherheit", "Cybersicherheitspersonal", "Sicherheit in der digitalen Welt", "cyberkriminelle Taktiken", "sich entwickelnde Cyber-Bedrohungen"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "Eine Cartoon-Illustration eines Cybersicherheitsexperten mit einem Schild, der sich gegen einen Schwarm digitaler Viren verteidigt."
 coverCaption: "Verteidigen und erobern Sie die digitale Welt mit kontinuierlichem Lernen."
 ---

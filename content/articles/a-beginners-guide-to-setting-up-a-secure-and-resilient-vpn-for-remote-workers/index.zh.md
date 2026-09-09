@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何为企业远程员工设置安全、灵活的 VPN，确保安全访问公司资源。"
 tags: ["虚拟专用网", "远程工作", "企业 VPN", "网络安全", "加密", "隧道协议", "VPN 设置", "VPN 服务器", "VPN 安全", "VPN 维护", "VPN 监测", "VPN 解决方案", "鉴别", "数据安全", "隐私", "性能", "扩展性", "兼容性", "员工培训", "最佳做法"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "这是一幅三维动画图像，描绘了一条连接远程工作人员笔记本电脑和公司大楼的安全隧道，象征着 VPN 连接。隧道上方悬浮着一个盾牌图标，代表安全和弹性。"
 coverCaption: ""
 ---

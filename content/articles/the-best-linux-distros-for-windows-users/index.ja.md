@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Ubuntu、Zorin OS、Linux Mintといった人気の高い選択肢を含め、Windowsからの移行に最適なLinuxディストロを、スムーズでユーザーフレンドリーな体験で発見してください。"
 tags: ["Linuxディストロ", "ウブントゥ", "ゾーリンOS", "Linux Mint", "マンジャロ", "ウィンドウズ・スイッチ", "初心者のためのLinux", "Linuxオペレーティングシステム", "Ubuntuのダウンロード", "Zorin OS ダウンロード", "Linux Mint ダウンロード", "Manjaro ダウンロード", "Linuxのデスクトップ環境", "Linuxローリングリリース", "リナックスコミュニティ", "Linux対応", "Linuxソフトのリポジトリ", "Linuxのドキュメント", "Linuxのユーザーインターフェース", "Linuxパッケージマネージャ", "WindowsからLinuxへの移行", "Windowsライクなインターフェイス", "Windowsの代替となるLinux", "ユーザーフレンドリーなLinuxディストロ", "Linuxディストロ比較", "Linuxマイグレーションガイド", "Windowsユーザー向けLinux", "Linuxインストールガイド", "Linuxディストリビューションの特徴", "Linuxの利点", "LinuxとWindowsアプリケーションの互換性"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "WindowsのロゴからLinuxのロゴにシームレスに移行するステップを踏んでいる人の漫画イラスト"
 coverCaption: ""
 ---

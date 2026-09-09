@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj, jak stworzyć bezpieczny i zgodny z przepisami system Windows za pomocą łatwego w użyciu skryptu Standalone-Windows-STIG-Script, informacyjnego artykułu z instrukcjami krok po kroku i szczegółowymi wyjaśnieniami parametrów."
 tags: ["Skrypt STIG", "Bezpieczeństwo systemu Windows", "System Windows zgodny z przepisami", "Hartowanie systemu", "Windows STIG", "Bezpieczne okna", "Zgodność z systemem Windows", "Instalacja ręczna", "Aktualizacje systemu Windows", "Adobe Reader", "Firefox", "Chrom", "Internet Explorer 11", ".NET Framework", "Biuro", "OneDrive", "Java", "Windows Defender", "Zapora systemu Windows", "Środki zaradcze", "Nessus PID", "VMware Horizon", "Opcjonalne hartowanie"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "Zrzut ekranu komputera z paskiem postępu wskazującym procent ukończenia zadania."
 coverCaption: ""
 ---

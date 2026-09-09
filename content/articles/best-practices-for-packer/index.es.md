@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las mejores prácticas para crear imágenes de forma eficaz y segura con Packer, automatizando el proceso y garantizando la coherencia entre plataformas."
 tags: ["Mejores prácticas de empaquetado", "Creación de imágenes Packer", "creación automática de imágenes", "optimización de la imagen de la máquina", "reproducibility", "Constructores de embalajes", "Empaquetadores provisionales", "configuración de imagen segura", "optimización del tamaño de las imágenes", "validación de imágenes", "Documentación del empaquetador", "Packer Repositorio GitHub", "Creador de imágenes de AWS EC2", "Generador de imágenes Azure", "Creador de VMware Packer", "Ventajas del empaquetador", "integración de la infraestructura como código", "control de versiones para Packer", "imágenes de máquinas lean", "técnicas de compresión de imágenes", "pruebas de imagen automatizadas", "comprobación manual de imágenes", "mejores prácticas de validación de imágenes", "flujos de trabajo de implantación de software", "entornos de software coherentes", "Consejos SEO para empacadores", "Automatización de la imagen del empaquetador", "eficacia en la creación de imágenes", "creación segura de imágenes", "imágenes de máquinas optimizadas"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.webp"
 coverAlt: "Ilustración de dibujos animados del icono de una herramienta Packer que construye una pila de imágenes con funciones de eficacia y seguridad."
 coverCaption: ""
 ---

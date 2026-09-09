@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Imparate 10 consigli fondamentali per la sicurezza su Internet, per proteggere la vostra privacy, la vostra sicurezza e le vostre finanze online e per tenere la vostra famiglia al sicuro dalle minacce informatiche."
 genre: ["Sicurezza in Internet", "Sicurezza online", "Suggerimenti per la sicurezza informatica", "Protezione della privacy", "Sicurezza digitale", "Minacce online", "Sicurezza dei dati", "Pratiche di Internet sicure", "Protezione delle informazioni personali", "Privacy online"]
 tags: ["Consigli per la sicurezza in Internet", "sicurezza online", "minacce informatiche", "protezione della privacy", "sicurezza digitale", "minacce online", "sicurezza dei dati", "pratiche di internet sicure", "protezione delle informazioni personali", "online privacy", "Consigli per la sicurezza informatica", "privacy in internet", "online scams", "attacchi di phishing", "protezione da malware", "password sicure", "autenticazione a due fattori", "Wi-Fi sicuro", "monitoraggio della rete", "sicurezza delle e-mail", "privacy sui social media", "sicurezza delle informazioni finanziarie", "siti web sicuri", "monitoraggio dell'estratto conto bancario", "password forti", "gestori di password", "istruzione online", "consapevolezza della cybersicurezza", "un software di sicurezza affidabile"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Un'immagine simbolica che rappresenta la sicurezza di Internet, con uno scudo che protegge lo schermo di un computer dalle minacce informatiche."
 ---
 

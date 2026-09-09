@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Conegueu les millors pràctiques per crear un currículum eficaç, com ara l'ús de la font, els tipus de currículum, l'optimització de paraules clau, la gestió dels buits i l'optimització del disseny."
 tags: ["reprendre l'escriptura", "consells de currículum", "ús de la font", "reprendre l'estructura", "tipus de currículums", "currículum cronològic", "currículum funcional", "currículum combinat", "optimització de paraules clau", "referències al currículum", "resum de la declaració", "gestió dels acomiadaments", "manejar els buits en el currículum", "any de graduació al currículum", "certificacions de llista", "reprendre el disseny del currículum", "currículum concís", "espai en blanc al currículum", "reprendre la personalització", "currículum professional"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Una imatge de dibuixos animats acolorits que mostra una persona sostenint un currículum amb una lupa, que simbolitza l'atenció al detall en l'optimització del currículum."
 coverCaption: ""
 ---

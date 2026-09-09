@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Schützen Sie Ihre Online-Privatsphäre, indem Sie diese häufigen VPN-Fehler vermeiden, durch die Ihre öffentliche IP-Adresse versehentlich durchsickern kann"
 tags: ["VPN-Fehler", "IP-Lecks", "Online-Datenschutz", "Cybersicherheit", "Internetsicherheit", "virtuelles privates Netzwerk", "WebRTC", "DNS-Server", "VPN-Anbieter", "Zwei-Faktor-Authentifizierung", "VPN-Software", "Notschalter", "Datenschutz", "Internetprivatsphäre", "Cyber-Bedrohungen", "Datensicherheit", "Netzwerksicherheit", "Online-Sicherheit", "Online-Anonymität", "anonymes Surfen"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Eine Zeichentrickfigur, die mit einem Vergrößerungsglas an einem Laptop steht und nach Online-Privatsphäre sucht."
 coverCaption: ""
 ---

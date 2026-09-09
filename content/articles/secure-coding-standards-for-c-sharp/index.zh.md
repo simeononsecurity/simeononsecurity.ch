@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习 C# 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
 tags: ["安全编码", "C 急剧发展", "C Sharp 编程", "安全编码实践", "C Sharp 安全", "ASP.NET 安全", ".NET Core 安全性", "输入验证", "密码散列", "加密", "最不特权", "静态代码分析器", "网络应用安全", "防止 SQL 注入", "跨站脚本防护", "数据保护", "健康检查", "会话管理", "OWASP 最佳实践", "C Sharp 安全编码标准", "C Sharp 安全准则", "安全编码技巧", "安全软件开发", "安全编码框架", "安全编码技术", "安全编码建议", "C Sharp 安全编程", "安全编码漏洞", "安全编码工具", "安全编码教程", "C Sharp 语言安全编码的最佳实践", "C Sharp 安全编码指南", "C Sharp 开发人员的安全编码标准", "C Sharp 安全编码实践", "如何在 C Sharp 中实现安全编码", "C Sharp 程序员的安全编码技巧", "C Sharp 网络应用程序的安全编码", "C Sharp 安全编码框架", "面向 C Sharp 开发人员的安全编码技术", "C Sharp 安全编码工具"]
-cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.png"
+cover: "/img/cover/A_cartoon_developer_with_a_lock_icon_as_the_head_surrounded.webp"
 coverAlt: "一个以锁图标为头的卡通开发人员，周围布满代码，并被防火墙屏蔽。"
 coverCaption: ""
 ---

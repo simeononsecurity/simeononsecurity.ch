@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Este artículo analiza las ventajas y desventajas de los bootcamps, y ayuda a las personas a determinar si son la opción adecuada para adquirir rápidamente nuevas competencias y certificaciones."
 tags: ["Campamentos de entrenamiento", "Desarrollo profesional", "Adquisición de competencias", "Certificaciones", "Educación", "Mercado laboral", "Experiencia práctica", "Rentable", "Educación integral", "Credibilidad", "Exigencia física y mental"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Un portátil con un sombrero de graduación en el teclado, rodeado de pilas de libros y un cronómetro"
 coverCaption: ""
 ---

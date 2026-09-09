@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les compétences essentielles pour réussir dans le domaine en constante évolution de la cybersécurité et apprenez l'importance croissante de la cybersécurité dans l'industrie technologique."
 tags: ["cybersécurité", "l'avenir de la cybersécurité", "les compétences pour réussir", "la pensée critique", "communication", "compétences techniques", "la gestion des risques", "développement professionnel", "L'IA dans la cybersécurité", "sécurité des nuages", "cybermenaces", "cybercriminalité", "la sécurité de l'information", "les professionnels de la cybersécurité", "confidentialité des données", "technologie", "sécurité numérique", "cyberdéfense", "cyberattaques", "Sécurité informatique"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Image de bande dessinée représentant une personne portant un costume de super-héros et tenant un bouclier sur lequel figure le mot cybersécurité, avec un paysage urbain et des écrans d'ordinateur en arrière-plan."
 coverCaption: ""
 ---

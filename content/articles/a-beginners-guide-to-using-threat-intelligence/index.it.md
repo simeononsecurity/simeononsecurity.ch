@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Migliorate la vostra posizione di sicurezza informatica con questa guida per principianti sull'intelligence delle minacce e sulla sua importanza."
 tags: ["Informazioni sulle minacce", "Sicurezza informatica", "Guida per principianti", "Tattica", "Tecniche", "Procedure", "Analisi dei dati", "Vulnerabilità", "Operazioni di sicurezza", "Apprendimento automatico", "Estrazione dei dati", "Processo decisionale", "Automazione", "Comunità", "Dark Web Monitoring", "Registri di rete interni", "Risposta agli incidenti", "Campagne di phishing", "Malware", "Pianificazione strategica"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Una lente d'ingrandimento animata in 3D con un occhio al centro, che si libra su uno sfondo di codice binario."
 coverCaption: ""
 ---

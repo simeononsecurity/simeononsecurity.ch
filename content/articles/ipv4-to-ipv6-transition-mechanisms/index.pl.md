@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj różne mechanizmy wykorzystywane do przejścia z IPv4 na IPv6 w tym kompleksowym przewodniku."
 tags: ["IPv4", "IPv6", "tworzenie sieci", "mechanizmy przejściowe", "podwójny komin", "NAT64", "DNS64", "Tunelowanie IPv6", "ISATAP", "6to4", "DS-lite", "MAP-T", "Migracja IPv6", "protokoły sieciowe", "protokół internetowy", "architektura sieci", "routing", "podsieciowanie", "adresując"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "Kreskówkowy obrazek osoby stojącej na skrzyżowaniu, z drogowskazem pokazującym kierunki IPv4 i IPv6, reprezentujący wybór i przejście między tymi dwoma protokołami."
 coverCaption: ""
 ---

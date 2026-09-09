@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à mettre en œuvre le cadre de cybersécurité du NIST et à protéger votre organisation contre les cybermenaces grâce à notre guide étape par étape."
 tags: ["cybersécurité", "NIST", "cadre", "la gestion des risques", "la sécurité de l'information", "cybermenaces", "implementation", "meilleures pratiques", "lignes directrices", "normes", "cyberattaques", "l'évaluation des risques", "risque de cybersécurité", "protection des données", "conformité", "Sécurité informatique", "sécurité des réseaux", "incident response", "les mesures de sécurité", "plan de cybersécurité"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Dessin humoristique d'une personne munie d'un bouclier bloquant diverses cyberattaques."
 coverCaption: ""
 ---

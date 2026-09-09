@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Apprenez à obtenir des hachages de fichiers sous Windows à l'aide de PowerShell, notamment SHA256, MD5 et SHA1, à l'aide d'instructions et d'exemples étape par étape."
 tags: ["hachages de fichiers", "PowerShell", "Hachure SHA256", "Hachure MD5", "Hachure SHA1", "intégrité des fichiers", "authentification des données", "vérification des fichiers", "algorithmes de hachage", "Système d'exploitation Windows", "langage de script", "shell de ligne de commande", "la sécurité des données", "criminalistique numérique", "cybersécurité", "calcul du hachage", "falsification de fichiers", "l'intégrité des données", "authenticité du dossier", "Sécurité Windows", "identification du fichier", "cyberdéfense", "sécurité des fichiers", "protection des données", "vérification des données", "validation des fichiers", "Windows PowerShell", "génération de hachages", "algorithmes de hachage", "fonctions de hachage"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "Illustration de bande dessinée montrant un fichier avec un symbole de cadenas et une loupe, représentant la vérification et la sécurité du hachage des fichiers."
 coverCaption: ""
 ---

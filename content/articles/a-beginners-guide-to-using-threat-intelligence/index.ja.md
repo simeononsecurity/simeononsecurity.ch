@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "脅威インテリジェンスとその重要性についての初心者向けガイドで、サイバーセキュリティの態勢を改善しましょう。"
 tags: ["スレットインテリジェンス", "サイバーセキュリティ", "ビギナーズガイド", "タクティクス", "テクニック編", "プロシージャ", "データ分析", "脆弱性（ぜいじゃくせい", "セキュリティ・オペレーション", "機械学習", "データマイニング", "意思決定", "オートメーション", "コミュニティ", "ダークウェブ監視", "内部ネットワークログ", "インシデントレスポンス", "フィッシングキャンペーン", "マルウェア", "ストラテジック・プランニング"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "バイナリコードの背景に浮かぶ、中央に目を持つ3Dアニメーションの虫眼鏡。"
 coverCaption: ""
 ---

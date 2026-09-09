@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apreneu a jugar a la xarxa Helium aprofitant les vulnerabilitats amb MiddleMan i Chirp Stack Packet Multiplexer, així com els riscos i les conseqüències de fer-ho."
 tags: ["Xarxa d'heli", "Prova de cobertura", "MiddleMan", "Multiplexor de paquets Chirp Stack", "jocs", "explotant les vulnerabilitats", "Xarxa LoRaWAN", "criptomoneda", "cadena de blocs", "xarxa descentralitzada", "punts calents", "falsificació", "enganyar", "activitat il·legal", "sancions", "integritat de la xarxa", "recompenses", "actors maliciosos", "seguretat de la xarxa", "amfitrions legítims"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Una representació dibuixada d'un grup d'individus que exploten un globus d'heli amb una imatge d'una passarel·la LoRaWAN i un MiddleMan o un multiplexador de paquets Chirp Stack al fons."
 coverCaption: ""
 ---

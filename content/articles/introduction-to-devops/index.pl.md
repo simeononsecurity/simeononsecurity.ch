@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak DevOps wypełnia lukę między rozwojem a operacjami, usprawniając dostarczanie oprogramowania i maksymalizując wydajność."
 tags: ["DevOps", "rozwój oprogramowania", "operacje", "współpraca", "ciągła integracja", "ciągłe dostarczanie", "infrastruktura jako kod", "monitoring", "pętle sprzężenia zwrotnego", "czas wprowadzenia na rynek", "efektywność", "jakość", "niezawodność", "HIPAA", "RODO", "zgodność", "bezpieczeństwo", "audyt", "identyfikowalność", "automatyzacja", "komunikacja", "zwinny", "CICD", "wdrażanie oprogramowania", "cykl życia oprogramowania", "systemy oprogramowania", "przemysł oprogramowania", "bezpieczeństwo danych", "przepisy", "aktualizacje oprogramowania", "przewaga konkurencyjna", "prywatność danych", "ochrona danych", "Ewolucja branży oprogramowania"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca deweloperów i specjalistów operacyjnych współpracujących ze sobą, symbolizująca pomost między rozwojem a operacjami w DevOps."
 coverCaption: ""
 ---

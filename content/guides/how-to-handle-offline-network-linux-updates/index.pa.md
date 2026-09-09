@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["ਲੀਨਕਸ ਅੱਪਡੇਟ", "ਉਬੰਟੂ", "ਡੇਬੀਅਨ", "CentOS", "RHEL", "ਔਫਲਾਈਨ ਅੱਪਡੇਟ", "ਸਥਾਨਕ ਭੰਡਾਰ", "ਕੈਸ਼", "ਸਰਵਰ ਸੈੱਟਅੱਪ", "ਗਾਹਕ ਸੈੱਟਅੱਪ", "apt-ਸ਼ੀਸ਼ਾ", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "ਲੀਨਕਸ ਸਿਸਟਮ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਪੈਕੇਜ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ", "ਸਥਾਨਕ ਪੈਕੇਜ ਰਿਪੋਜ਼ਟਰੀ", "ਸਥਾਨਕ ਪੈਕੇਜ ਕੈਸ਼", "ਔਫਲਾਈਨ ਲੀਨਕਸ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਅੱਪਡੇਟਾਂ ਨੂੰ ਸੰਭਾਲਣਾ", "ਔਫਲਾਈਨ ਅੱਪਡੇਟ ਢੰਗ", "ਔਫਲਾਈਨ ਸਿਸਟਮ ਰੱਖ-ਰਖਾਅ", "ਲੀਨਕਸ ਸਰਵਰ ਅੱਪਡੇਟ", "ਲੀਨਕਸ ਕਲਾਇੰਟ ਅੱਪਡੇਟ", "ਔਫਲਾਈਨ ਸਾਫਟਵੇਅਰ ਪ੍ਰਬੰਧਨ", "ਔਫਲਾਈਨ ਪੈਕੇਜ ਪ੍ਰਬੰਧਨ", "ਅੱਪਡੇਟ ਰਣਨੀਤੀ", "ਲੀਨਕਸ ਸੁਰੱਖਿਆ ਅੱਪਡੇਟ"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "ਇੱਕ ਸਰਵਰ ਅਤੇ ਇੱਕ ਤੋਂ ਵੱਧ ਕਲਾਇੰਟ ਡਿਵਾਈਸਾਂ ਨੂੰ ਔਫਲਾਈਨ ਅਪਡੇਟਾਂ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰਨ ਵਾਲਾ ਇੱਕ ਕਾਰਟੂਨ ਚਿੱਤਰ।"
 coverCaption: ""
 ---

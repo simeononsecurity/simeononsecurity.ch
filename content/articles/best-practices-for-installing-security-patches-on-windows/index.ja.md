@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Windowsに累積的なセキュリティパッチをインストールする方法を学び、サイバー攻撃からシステムを安全に保つためのベストプラクティスに従います。"
 tags: ["ウィンドウズ", "セキュリティパッチ", "サイバーセキュリティ", "システムセキュリティ", "マイクロソフト", "累積パッチ", "パッチマネジメント", "データバックアップ", "スペクター メルトダウン", "暗号化", "システムの脆弱性", "システムアップデート", "パッチ展開", "非稼働環境", "システムコンフィギュレーション", "ITセキュリティ", "パッチマネジメントシステム", "脆弱性スキャン", "リリースノート", "システム保守"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Windowsのロゴが入った盾がロックで保護されている漫画の画像"
 coverCaption: ""
 ---

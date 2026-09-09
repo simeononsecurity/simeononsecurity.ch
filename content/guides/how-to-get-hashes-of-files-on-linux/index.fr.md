@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Apprenez à obtenir des hachages SHA256, MD5 et SHA1 de fichiers sous Linux à l'aide d'outils intégrés, en garantissant l'intégrité des données et l'authenticité des fichiers."
 tags: ["Hachures de fichiers Linux", "Hachure SHA256", "Hachure MD5", "Hachure SHA1", "Linux command line", "intégrité des fichiers", "validation des données", "Linux security", "outils intégrés", "vérification des fichiers", "authenticité des données", "algorithmes de hachage de fichiers", "Administration du système Linux", "outils de ligne de commande", "Sommes de contrôle des fichiers", "Linux utilities", "contrôle de l'intégrité des fichiers", "vérification de l'intégrité des données", "exemples de hachage de fichiers", "Commandes de hachage Linux", "méthodes de hachage de fichiers", "Mesures de sécurité pour Linux", "Linux data protection", "Linux file management", "Vérification des fichiers sous Linux", "Intégrité des fichiers sous Linux", "la sécurité des données", "Validation des données Linux", "Sécurité du système Linux", "techniques de hachage de fichiers", "assurance de l'intégrité des fichiers", "validation sécurisée des fichiers", "Intégrité des données sous Linux"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Représentation numérique des hachages de fichiers en cours de calcul sur l'écran d'un terminal Linux, symbolisant l'intégrité et la sécurité des données."
 coverCaption: ""
 ---

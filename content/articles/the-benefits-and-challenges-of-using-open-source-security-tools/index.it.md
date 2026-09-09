@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplorate i vantaggi e le sfide dell'utilizzo di strumenti di sicurezza open source per migliorare la posizione di sicurezza della vostra organizzazione."
 tags: ["strumenti di sicurezza open source", "sicurezza informatica", "sostegno alla comunità", "trasparenza", "risparmio sui costi", "flessibilità", "strumenti proprietari", "rischi per la sicurezza", "competenze", "canoni di licenza software", "costo totale di proprietà", "supporto commerciale", "linguaggi di programmazione", "integrazione", "test di sicurezza", "auditing", "NIST", "CISA", "OWASP", "Istituto nazionale per gli standard e la tecnologia"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Un'immagine in stile cartone animato di una cassetta degli attrezzi con loghi open source su ogni strumento, insieme a uno scudo con un lucchetto al centro per rappresentare la sicurezza informatica, il tutto su uno sfondo con codice binario."
 coverCaption: ""
 ---

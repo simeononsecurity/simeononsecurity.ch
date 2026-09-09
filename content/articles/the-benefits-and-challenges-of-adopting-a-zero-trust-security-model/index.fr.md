@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorer les avantages et les défis liés à l'adoption d'un modèle de sécurité Zero Trust à l'ère numérique actuelle."
 tags: ["Sécurité zéro confiance", "Cybersécurité", "Sécurité des réseaux", "Sécurité de l'informatique en nuage", "Protection des données", "Modèle de sécurité", "Authentification", "Autorisation", "Cryptage", "Conformité", "HIPAA", "GDPR", "PCI DSS", "Expérience utilisateur", "Coût", "Complexité", "Sécurité multicouche", "Visibilité", "Flexibilité", "Violations de la sécurité"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Un cadenas et une clé posés sur un câble de réseau, représentant symboliquement la sécurité zéro confiance."
 coverCaption: ""
 ---

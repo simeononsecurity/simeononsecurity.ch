@@ -5,7 +5,7 @@ draft: false
 description: "HackTheBox の Crypto - Call チャレンジを解決するために、素数暗号を使用して DTMF トーンを復号する方法を学びます。"
 tags: ["ハックザボックス", "クリプトチャレンジ", "DTMF トーン", "素数暗号", "復号化", "パズルを解く", "暗号化", "オーディオ変換", "ダイヤルABC", "デコード.fr", "WAV", "MP3", "周波数", "数学的特性", "国旗", "大胆さ", "ソニックビジュアライザー", "数字", "現金自動預け払い機メニュー", "公衆電話"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "背景に DTMF トーンが描かれた、セキュリティと暗号化を象徴する緑色の画面と南京錠が付いた漫画の電話"
 coverCaption: ""
 ---

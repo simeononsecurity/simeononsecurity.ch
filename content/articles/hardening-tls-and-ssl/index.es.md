@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "En este artículo se analizan los pasos para mejorar la seguridad de los datos desactivando las versiones antiguas de los protocolos SSL y TLS, vulnerables a ciberamenazas como POODLE, BEAST y Heartbleed, en sistemas Windows y Linux."
 tags: ["Refuerzo de la seguridad informática", "Desactivación de SSL y TLS", "Seguridad de los datos", "POODLE", "BESTIA", "Heartbleed", "Editor del registro de Windows", "Configuración de OpenSSL en Linux", "Apache", "Nginx"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "Un ordenador con el símbolo de un candado que representa la seguridad de los datos"
 coverCaption: ""
 ---

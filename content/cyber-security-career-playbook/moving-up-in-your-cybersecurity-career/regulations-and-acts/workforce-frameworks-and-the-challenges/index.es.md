@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Explore el impacto de los cambios en los marcos laborales sobre los profesionales de la ciberseguridad y los retos a los que se enfrentan para cumplir los nuevos requisitos."
 tags: ["marcos de personal", "profesionales de la ciberseguridad", "Departamento de Defensa", "Marco del personal cibernético del DoD", "certificaciones", "mercado laboral", "desarrollo profesional", "trayectorias profesionales", "industria de la ciberseguridad", "experiencia directa", "requisitos normalizados", "opciones de exención", "cualificaciones", "paisaje en evolución", "DCWF", "implicaciones marco", "requisitos cambiantes", "personal de ciberseguridad", "promoción profesional", "directrices para el personal", "certificaciones de seguridad", "funciones de ciberseguridad", "cambios en la industria", "mercado laboral de la ciberseguridad", "retos para la mano de obra", "educación en ciberseguridad", "ampliación de competencias", "normas sobre personal de ciberseguridad", "futuros profesionales de la ciberseguridad", "Preparación del DoD DCWF", "mejora de la mano de obra"]
-cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.png"
+cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.webp"
 coverAlt: "Una imagen simbólica de dibujos animados que representa a un grupo de profesionales de la ciberseguridad recorriendo un paisaje laberíntico con marcos de trabajo como obstáculos imponentes, mientras sostienen certificados y suben escaleras de desarrollo profesional."
 coverCaption: "Superar los obstáculos: Navegar por los marcos cambiantes de la mano de obra."
 ---

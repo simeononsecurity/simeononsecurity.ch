@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra el impacto del IoT en la ciberseguridad y aprenda estrategias eficaces para salvaguardar sus dispositivos conectados."
 tags: ["IoT", "ciberseguridad", "seguridad", "Internet de los objetos", "Dispositivos IoT", "seguridad de la red", "protección de datos", "privacidad", "dispositivos inteligentes", "buenas prácticas", "Riesgos de la IO", "autenticación", "actualizaciones de firmware", "control", "normas del sector", "normativa", "Directrices de seguridad de IoT", "segmentación de la red", "panorama de amenazas", "vulnerabilidades"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Imagen animada en 3D de un escudo que protege un grupo de dispositivos IoT conectados, simbolizando la importancia de la ciberseguridad para las redes IoT."
 coverCaption: ""
 ---

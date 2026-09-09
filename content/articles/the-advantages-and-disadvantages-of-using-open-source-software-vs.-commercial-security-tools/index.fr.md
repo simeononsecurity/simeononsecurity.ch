@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorez les avantages et les inconvénients des outils de sécurité commerciaux et open-source, afin de vous aider à prendre des décisions éclairées pour la stratégie de sécurité de votre organisation."
 tags: ["sécurité des logiciels libres", "outils de sécurité commerciale", "rapport coût-efficacité", "flexibilité", "personnalisation", "soutien communautaire", "soutien limité", "documentation", "les défis de l'intégration", "qualité et fiabilité", "intégration transparente", "verrouillage des fournisseurs", "Ressources informatiques", "infrastructure de sécurité", "solutions de sécurité", "contraintes budgétaires", "unique requirements", "compatibilité des logiciels", "objectifs de sécurité", "prise de décision"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "Image de style bande dessinée de deux personnages contrastés représentant des outils de sécurité libres et commerciaux, se tenant sur les côtés opposés d'une balance équilibrée, symbolisant les avantages et les inconvénients de chaque option."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Entdecken Sie die wichtigsten Anforderungen, Vorbereitungen und Ressourcen für Einstiegsjobs im Bereich der Cybersicherheit, um Ihre Karriere in diesem stark nachgefragten Bereich zu starten."
 tags: ["Einstiegsjobs in der Cybersicherheit", "Karriere im Bereich Cybersicherheit", "Arbeitsanforderungen", "Ausbildung in Cybersicherheit", "Cybersicherheitsfähigkeiten", "Gewinnung von Erfahrungen", "Cybersicherheits-Zertifizierungen", "Jobs in der Cybersicherheit der Regierung", "Arbeitsplätze im Bereich Cybersicherheit in der Privatwirtschaft", "Plattformen für die Stellensuche", "Schulungsprogramme für Cybersicherheit", "Online-Kurse", "Lehrstellen im Bereich Cybersicherheit", "Praktika im Bereich Cybersicherheit", "USAJOBS", "Ministerium für Innere Sicherheit", "FBI", "In der Tat", "LinkedIn", "Würfel", "Cybersicherheitsindustrie", "Branchentrends", "Schutz der Daten", "Systemsicherheit", "Cyber-Bedrohungen", "berufliche Entwicklung", "Berufliches Wachstum", "Branchenvorschriften", "Ressourcen für die Cybersicherheit", "Arbeitsmöglichkeiten"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Eine Cartoon-Illustration einer Person, die einen Superhelden-Umhang trägt, ein Schild in der Hand hält und vor einem Computer mit Schlössern und Schilden um ihn herum steht."
 coverCaption: "Erschließen Sie Ihr Potenzial im Bereich der Cybersicherheit und werden Sie Cyberverteidiger."
 ---

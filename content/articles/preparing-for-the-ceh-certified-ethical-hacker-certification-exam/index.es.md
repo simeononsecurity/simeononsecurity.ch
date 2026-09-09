@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear un plan de estudio eficaz para aprobar el examen de certificación CEH con consejos y estrategias para el éxito."
 tags: ["Certificación CEH", "hacking ético", "plan de estudios", "gestión del tiempo", "preparación de exámenes", "ciberseguridad", "motivación", "materiales de estudio", "preguntas prácticas", "revise", "EC-Council", "seguridad de la información", "desarrollo profesional", "Certificación informática", "promoción profesional", "seguridad de la red", "pruebas de penetración", "evaluación de la vulnerabilidad", "información sobre seguros", "pruebas de seguridad"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "Imagen en estilo de dibujos animados de una persona estudiando en un escritorio con un ordenador portátil y varios libros y apuntes, con el logotipo CEH de fondo."
 coverCaption: ""
 ---

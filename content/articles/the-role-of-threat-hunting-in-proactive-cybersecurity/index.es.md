@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo la caza de amenazas puede prevenir los ciberataques y las ventajas y dificultades de su aplicación como medida proactiva de ciberseguridad."
 tags: ["caza de amenazas", "ciberseguridad", "defensa proactiva", "ciberataques", "seguridad de la red", "seguridad de puntos finales", "análisis de registros", "análisis del comportamiento", "información sobre amenazas", "investigación manual", "investigación automatizada", "reducción del riesgo", "falsos positivos", "requisitos de competencias", "recursos necesarios", "mayor rapidez de respuesta", "detección mejorada", "riesgo reducido", "entidades financieras", "profesionales sanitarios"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Un analista de seguridad de dibujos animados sostiene una lupa y busca ciberamenazas ocultas en la pantalla de un ordenador."
 coverCaption: ""
 ---

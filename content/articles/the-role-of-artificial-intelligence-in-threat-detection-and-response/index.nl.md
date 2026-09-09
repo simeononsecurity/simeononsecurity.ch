@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe AI een revolutie teweegbrengt op het gebied van detectie en reactie op bedreigingen, en welke uitdagingen en beperkingen dit met zich meebrengt."
 tags: ["Kunstmatige Intelligentie", "Cyberbeveiliging", "Detectie van bedreigingen", "Reactie op bedreiging", "Machinaal leren", "Diep Leren", "Natuurlijke taalverwerking", "AI-algoritmen", "Netwerkbeveiliging", "Gegevensbeveiliging", "Cyberverdediging", "Reactie op incidenten", "Bedreigingen van binnenuit", "Veiligheidsteams", "Controle in real time", "Regelgebaseerde systemen", "Cybercrime", "Kwetsbaarheden", "Adaptieve beveiliging", "Cyberweerbaarheid"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding van een schild met de letters AI erop, dat inkomende pijlen blokkeert die cyberdreigingen symboliseren."
 coverCaption: ""
 ---

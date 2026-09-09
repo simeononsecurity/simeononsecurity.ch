@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uzelf en uw bedrijf kunt beschermen tegen de meest voorkomende cyberaanvalsvectoren, waaronder social engineering, malware, denial-of-service-aanvallen, wachtwoordaanvallen en aanvallen op webtoepassingen."
 tags: ["cyberbeveiliging", "cyberaanvallen", "social engineering", "malware", "denial-of-service", "aanvallen met wachtwoorden", "aanvallen op webtoepassingen", "veiligheidsbewustzijn", "spamfilters", "multi-factor authenticatie", "antivirussoftware", "firewalls", "botnets", "CDN's", "anti-DDoS-diensten", "netwerkprestaties", "kwetsbaarheden", "bescherming", "risicobeperking", "informatiebeveiliging"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Een cartoonillustratie van een persoon die een schild vasthoudt en voor een computer staat met verschillende aanvalsvectoren die op hem afkomen."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "高度な持続的脅威（APT）に対してネットワークインフラを強化し、サイバー攻撃から組織を保護するための重要なステップを学びます。"
 tags: ["ネットワークセキュリティ", "サイバーセキュリティ", "エージーピーエステートスレット", "ネットワークインフラ", "アクセス制御", "データあんごうか", "社員教育", "インシデントレスポンス計画", "脆弱性評価", "安全保護方針", "モニタリング・ネットワーク・トラヒック", "フィッシング攻撃", "エンドポイントプロテクション", "侵入検知", "ファイアウォール", "SIEM", "データバックアップ", "ネットワークセグメンテーション", "サイバー脅威", "データプライバシー"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "APTに対するネットワークセキュリティを表す、中央に鍵のアイコンが描かれた漫画の盾"
 coverCaption: ""
 ---

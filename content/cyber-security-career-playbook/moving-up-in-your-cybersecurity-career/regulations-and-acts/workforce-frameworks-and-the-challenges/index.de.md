@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Erforschen Sie die Auswirkungen der sich ändernden Rahmenbedingungen für Arbeitskräfte auf Cybersecurity-Fachleute und die Herausforderungen, die sich ihnen bei der Erfüllung neuer Anforderungen stellen."
 tags: ["beschäftigungspolitische Rahmenbedingungen", "Cybersicherheitsfachleute", "Verteidigungsministerium", "DoD Cyber Workforce Framework", "Zertifizierungen", "Stellenmarkt", "berufliche Entwicklung", "Karrierewege", "Cybersicherheitsindustrie", "direkte Erfahrung", "standardisierte Anforderungen", "Verzichtsmöglichkeiten", "Qualifikationen", "sich entwickelnde Landschaft", "DCWF", "Implikationen des Rahmens", "wechselnde Anforderungen", "Cybersicherheitspersonal", "berufliches Fortkommen", "beschäftigungspolitische Leitlinien", "Sicherheitszertifizierungen", "Cybersicherheitsrollen", "Veränderungen in der Industrie", "Cybersecurity-Arbeitsmarkt", "personelle Herausforderungen", "Cybersicherheitsausbildung", "Kompetenzerweiterung", "Standards für Cybersicherheitspersonal", "zukünftige Fachleute für Cybersicherheit", "DoD DCWF Vorbereitung", "Personalaufstockung"]
-cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.png"
+cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.webp"
 coverAlt: "Ein symbolisches Bild im Cartoon-Stil, das eine Gruppe von Cybersicherheitsexperten zeigt, die sich durch eine labyrinthartige Landschaft bewegen, in der die Rahmenbedingungen für die Belegschaft wie hoch aufragende Hindernisse wirken, während sie Zertifikate in der Hand halten und die Leitern der beruflichen Entwicklung erklimmen."
 coverCaption: "Über die Hürden steigen: Navigieren durch sich verändernde Rahmenbedingungen für Arbeitskräfte."
 ---

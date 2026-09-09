@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Proteja su privacidad en línea evitando estos errores comunes de VPN que pueden filtrar accidentalmente su dirección IP pública"
 tags: ["Errores de VPN", "Fugas de IP", "privacidad en línea", "ciberseguridad", "seguridad en internet", "red privada virtual", "WebRTC", "Servidor DNS", "Proveedor de VPN", "autenticación de dos factores", "Software VPN", "interruptor de corte", "privacidad de los datos", "privacidad en internet", "amenazas cibernéticas", "seguridad de los datos", "seguridad de la red", "seguridad en línea", "anonimato en línea", "navegación anónima"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Un personaje de dibujos animados de pie sobre un ordenador portátil con una lupa, buscando privacidad en Internet."
 coverCaption: ""
 ---

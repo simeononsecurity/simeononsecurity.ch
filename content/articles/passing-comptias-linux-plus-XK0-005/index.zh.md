@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习宝贵的技巧和窍门，帮助您通过 CompTIA Linux+ XK0-005 考试，并提升您作为 Linux 专业人士的职业生涯。"
 tags: ["Linux 更新", "乌班图", "Debian", "CentOS", "RHEL", "离线更新", "本地存储库", "高速缓存", "服务器设置", "客户端设置", "apt-mirror", "镜像", "createerepo", "apt-cacher-ng", "yum-cron", "Linux 系统更新", "离线软件包更新", "离线软件更新", "本地软件包仓库", "本地软件包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线软件包管理", "更新策略", "Linux 安全更新", "linux plus 模拟测试"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
 coverAlt: "一只友好的卡通 Linux 企鹅自信地走过一座桥，走向成功的未来。"
 coverCaption: ""
 ---

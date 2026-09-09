@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过这本新手加密指南，了解加密的基础知识以及如何使用它来保护敏感数据的安全。"
 tags: ["加密", "数据保护", "网络安全", "隐私", "技术", "在线安全", "对称加密", "非对称加密", "安全", "网络隐私", "加密", "加密传输", "数字安全", "数据隐私", "加密数据", "加密软件", "数据加密", "计算机安全", "网络安全", "密码保护"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "带有钥匙孔的卡通挂锁，代表通过加密保护数据。"
 coverCaption: ""
 ---

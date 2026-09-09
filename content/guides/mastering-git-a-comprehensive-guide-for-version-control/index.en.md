@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Become proficient in Git with this comprehensive guide covering everything from installation and configuration to branching, merging, and collaboration."
 tags: ["Git", "version control", "Git tutorial", "Git guide", "Git basics", "Git commands", "Git installation", "Git configuration", "branching in Git", "merging in Git", "collaboration in Git", "distributed version control", "code versioning", "Git workflow", "Git tips", "Git best practices", "Git for beginners", "Git for developers", "software development", "code collaboration", "mastering Git", "comprehensive Git guide", "Git version control tutorial", "Git branching and merging", "Git collaboration tips"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "A symbolic illustration depicting two interconnected gears representing collaboration and version control, with Git logo integrated into the design."
 coverCaption: ""
 ---

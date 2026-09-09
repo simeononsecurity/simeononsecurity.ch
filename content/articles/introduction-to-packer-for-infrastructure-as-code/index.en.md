@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to use Packer for creating machine images that are easy to maintain and secure."
 tags: ["Packer", "Infrastructure as Code", "DevOps", "Automation", "Security", "Repeatability", "Scalability", "Multi-Platform", "Version Control", "Cloud Computing", "Machine Images", "Virtualization", "Configuration Management", "Continuous Integration", "Continuous Delivery", "Software Development", "Best Practices", "Testing", "Open Source", "Multi-Cloud"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "A cartoon-style image of a packer creating different machine images for multiple platforms, with a laptop and clouds in the background."
 coverCaption: ""
 ---

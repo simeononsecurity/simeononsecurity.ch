@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj różnice między Visual Studio Code, Visual Studio Community i Visual Studio Enterprise, aby określić idealny wybór dla swoich potrzeb programistycznych."
 genre: ["Rozwój oprogramowania", "Zintegrowane środowisko programistyczne (IDE)", "Narzędzia programistyczne Microsoft", "Edytory kodu", "Platformy programistyczne", "Porównanie oprogramowania", "Języki programowania", "Wspólny rozwój", "Rozwój oprogramowania dla przedsiębiorstw", "Debugowanie kodu"]
 tags: ["Visual Studio Code", "Społeczność Visual Studio", "Visual Studio Enterprise", "IDE", "Edytor kodu", "Rozwój oprogramowania", "Microsoft", "Języki programowania", "Wspólny rozwój", "Rozwój przedsiębiorstwa", "Profilowanie wydajności", "Debugowanie", "Testowanie", "Analiza architektoniczna", "Metryka kodu", "Kontrola wersji", "Porównanie oprogramowania", "Cross-Platform", "Rozszerzenia", "Zintegrowany terminal", "Integracja z platformą Azure", "SQL Server", "Azure DevOps", "Rozwój w chmurze", "Ciągła integracja", "Ciągłe dostarczanie", "Przepływ pracy deweloperskiej", "Wydajność", "Narzędzia programistyczne", "Inżynieria oprogramowania"]
-cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca programistów korzystających z Visual Studio Code i Visual Studio Community, pracujących wspólnie nad rozwojem kodu."
 coverCaption: "Uwolnij swój potencjał programistyczny dzięki Visual Studio Code i Visual Studio Community."
 ---

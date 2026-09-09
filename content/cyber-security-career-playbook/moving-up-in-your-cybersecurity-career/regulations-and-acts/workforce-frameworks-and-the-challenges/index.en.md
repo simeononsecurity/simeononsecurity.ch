@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Explore the impact of changing workforce frameworks on cybersecurity professionals and the challenges they face in meeting new requirements."
 tags: ["workforce frameworks", "cybersecurity professionals", "Department of Defense", "DoD Cyber Workforce Framework", "certifications", "job market", "professional development", "career paths", "cybersecurity industry", "direct experience", "standardized requirements", "waiver options", "qualifications", "evolving landscape", "DCWF", "framework implications", "changing requirements", "cybersecurity workforce", "career advancement", "workforce guidelines", "security certifications", "cybersecurity roles", "industry changes", "cybersecurity job market", "workforce challenges", "cybersecurity education", "skill set expansion", "cybersecurity workforce standards", "future cybersecurity professionals", "DoD DCWF preparation", "workforce enhancement"]
-cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.png"
+cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.webp"
 coverAlt: "A symbolic cartoon-style image depicting a group of cybersecurity professionals navigating a maze-like landscape with workforce frameworks as towering obstacles, while holding certificates and climbing ladders of professional development."
 coverCaption: "Rise Above the Hurdles: Navigating Changing Workforce Frameworks."
 ---

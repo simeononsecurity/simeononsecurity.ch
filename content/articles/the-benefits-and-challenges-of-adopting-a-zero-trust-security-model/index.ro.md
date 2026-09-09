@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați beneficiile și provocările adoptării unui model de securitate Zero Trust în era digitală de astăzi."
 tags: ["Securitate Zero Trust", "Securitatea cibernetică", "Securitatea rețelelor", "Securitatea în cloud", "Protecția datelor", "Modelul de securitate", "Autentificare", "Autorizare", "Criptare", "Conformitate", "HIPAA", "GDPR", "PCI DSS", "Experiența utilizatorului", "Cost", "Complexitate", "Securitate pe mai multe niveluri", "Vizibilitate", "Flexibilitate", "Breșe de securitate"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Un lacăt și o cheie pe un cablu de rețea, reprezentând în mod simbolic Securitatea Zero Trust."
 coverCaption: ""
 ---

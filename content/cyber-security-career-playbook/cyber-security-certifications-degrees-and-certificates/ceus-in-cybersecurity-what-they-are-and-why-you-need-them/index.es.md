@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Mejore sus conocimientos de ciberseguridad con Unidades de Formación Continua (CEU) para ir un paso por delante de las ciberamenazas y proteger los activos críticos."
 tags: ["CEUs en ciberseguridad", "Unidades de formación continua", "desarrollo profesional en ciberseguridad", "avances tecnológicos en la red", "mitigación de ciberamenazas", "competencia profesional", "cumplimiento de la certificación", "conferencias sobre ciberseguridad", "cursos de formación pertinentes", "intercambio de conocimientos", "publicación de artículos sobre ciberseguridad", "voluntariado en ciberseguridad", "participación en el desarrollo de exámenes", "Marco de ciberseguridad del NIST", "Cumplimiento del GDPR", "Normativa HIPAA", "Requisitos de la FISMA", "aprendizaje continuo en ciberseguridad", "batalla digital", "mejora de las competencias en ciberseguridad", "panorama de las ciberamenazas", "credibilidad profesional", "normativa gubernamental sobre ciberseguridad", "mantenerse al día en ciberseguridad", "tendencias del sector de la ciberseguridad", "buenas prácticas de ciberseguridad", "personal de ciberseguridad", "seguridad en el mundo digital", "tácticas de los ciberdelincuentes", "evolución de las ciberamenazas"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "Ilustración de dibujos animados de un profesional de la ciberseguridad con un escudo defendiéndose de un enjambre de virus digitales."
 coverCaption: "Defienda y conquiste el ámbito digital con un aprendizaje continuo."
 ---

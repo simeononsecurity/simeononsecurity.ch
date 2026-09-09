@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、ベストプラクティスと実例を使って、安全なDevOpsパイプラインを構築し、維持する方法を学ぶことができます。"
 tags: ["デブオプス", "セキュリティ", "管路", "継続的統合", "継続的デリバリー", "オートメーション", "コンテナリゼーション", "えんぎ", "脆弱性スキャン", "モニタリング", "フィードバック", "バージョン管理", "アクセスコントロール", "災害復旧", "事業継続性", "ケーススタディ", "春", "ジャンゴ", "オワスプ", "ネットフリックス", "キャピタルワン"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
 coverAlt: "パイプラインを錠前と鍵で守る盾を、様々なDevOpsのパイプラインステージとセキュリティツールで囲んだ漫画画像です。"
 coverCaption: ""
 ---

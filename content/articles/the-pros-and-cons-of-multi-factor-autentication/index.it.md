@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i vantaggi e gli svantaggi dell'autenticazione a più fattori (MFA) e imparate a scegliere la soluzione giusta per la sicurezza della vostra azienda."
 tags: ["autenticazione a più fattori", "MFA", "sicurezza aziendale", "sicurezza informatica", "protezione dei dati", "conformità normativa", "esperienza dell'utente", "phishing", "attacchi di forza bruta", "complessità tecnica", "resistenza dell'utente", "smartphone", "gettone", "smart card", "impronta digitale", "riconoscimento facciale", "riconoscimento vocale", "PCI DSS", "HIPAA", "violazione dei dati"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Un lucchetto a fumetti con simboli di autenticazione a due fattori come uno smartphone e una chiave."
 coverCaption: ""
 ---

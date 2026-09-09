@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo utilizar Wireshark de forma eficaz para el análisis y la solución de problemas de red con esta detallada guía para principiantes."
 tags: ["Wireshark", "análisis de redes", "solución de problemas", "guía para principiantes", "supervisión de redes", "captura de paquetes", "protocolos de red", "TCP IP", "visualización de datos", "seguridad de la red", "filtros de captura", "filtros de visualización", "dispositivos de red", "Ethernet", "topología de red", "diagnóstico de redes", "administración de redes", "rendimiento de la red", "Tutorial de Wireshark", "paquetes de datos"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "Una ilustración de dibujos animados de un detective con una lupa analizando cables de red, mientras el logotipo de Wireshark se cierne sobre ellos, simbolizando el proceso de solución de problemas y análisis de redes utilizando Wireshark."
 coverCaption: ""
 ---

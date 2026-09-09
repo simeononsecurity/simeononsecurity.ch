@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过本详细的入门指南，了解如何有效使用 Wireshark 进行网络分析和故障排除。"
 tags: ["Wireshark", "网络分析", "故障排除", "入门指南", "网络监控", "数据包捕获", "网络协议", "TCP IP", "数据可视化", "网络安全", "捕捉过滤器", "显示滤波器", "网络设备", "以太网", "网络拓扑结构", "网络诊断", "网络管理", "网络性能", "Wireshark 教程", "数据包"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "这是一幅卡通插图，画中的侦探拿着放大镜分析网线，Wireshark 徽标在其上方盘旋，象征着使用 Wireshark 进行网络故障排除和分析的过程。"
 coverCaption: ""
 ---

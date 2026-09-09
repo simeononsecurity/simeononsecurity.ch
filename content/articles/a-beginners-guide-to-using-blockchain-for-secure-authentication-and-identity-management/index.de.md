@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie in diesem Leitfaden für Einsteiger, wie Sie die Blockchain-Technologie für eine sichere Authentifizierung und Identitätsverwaltung nutzen können."
 tags: ["Blockchain", "Identitätsmanagement", "Authentifizierung", "dezentralisierte Identität", "passwortlose Authentifizierung", "intelligente Verträge", "Public-Key-Kryptographie", "Privatschlüssel-Kryptographie", "unveränderliche Datensätze", "dezentrales System", "einmalige Anmeldung", "Prüfung der Befähigungsnachweise", "Skalierbarkeit", "Datenschutz", "Adoption", "digitale Identität", "Distributed-Ledger-Technologie", "Cybersicherheit", "Datenschutz", "Technologie"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png"
+cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
 coverAlt: "Eine Zeichentrickfigur, die in der einen Hand einen Schlüssel und in der anderen eine Blockchain hält, umgeben von einem Netz miteinander verbundener Knoten und Blöcke."
 coverCaption: ""
 ---

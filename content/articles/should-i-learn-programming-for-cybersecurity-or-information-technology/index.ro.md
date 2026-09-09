@@ -6,7 +6,7 @@ draft: false
 description: "Aflați de ce stăpânirea abilităților de programare poate fi foarte benefică pentru cariera dumneavoastră în domeniul IT și al securității cibernetice și cum să începeți cu PowerShell, Bash, Python, Ansible, Packer și Terraform."
 genre: ["IT și securitate cibernetică", "Competențe de programare", "Avansarea în carieră", "Automatizare", "Linia de comandă", "Scripting", "Implementarea infrastructurii", "Analiza datelor", "Testarea securității", "Dezvoltare profesională"]
 tags: ["IT și securitate cibernetică", "Competențe de programare", "Avansarea în carieră", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automatizare", "Linia de comandă", "Scripting", "Implementarea infrastructurii", "Analiza datelor", "Testarea securității", "Cariere în IT", "Cariere în domeniul securității cibernetice", "Profesioniști IT", "Profesioniști în domeniul securității cibernetice", "Automatizarea rețelelor", "Analiza securității", "Limbaje de scripting", "Managementul configurației", "Infrastructură sub formă de cod", "Automatizare IT", "Industria IT", "Industria securității cibernetice", "Piața muncii", "Competențe IT"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "O persoană așezată în fața unui computer, care tastează cod într-o interfață de linie de comandă, cu linii de text care se derulează pe ecran. "
 coverCaption: "Eliberați puterea programării pentru IT și securitate cibernetică."
 ---

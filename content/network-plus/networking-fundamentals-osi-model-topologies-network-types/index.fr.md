@@ -6,7 +6,7 @@ draft: false
 description: "Explorer l'importance des principes fondamentaux des réseaux, y compris le modèle OSI, les topologies de réseau et les différents types de réseaux, pour construire des infrastructures efficaces et fiables."
 genre: ["Technologie", "Mise en réseau", "Infrastructure informatique", "Architecture du réseau", "Informatique", "Communication de données", "Technologie de l'information", "Sécurité des réseaux", "Gestion du réseau", "Internet"]
 tags: ["principes fondamentaux de la mise en réseau", "Modèle OSI", "topologies de réseaux", "types de réseaux", "encapsulation des données", "couches du réseau", "topologie du maillage", "topologie en étoile", "topologie du bus", "topologie en anneau", "topologie hybride", "réseau peer-to-peer", "réseau client-serveur", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hyperviseur", "liens satellites", "DSL", "internet par câble", "ligne louée", "métro-optique"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Illustration symbolique de nœuds interconnectés formant un réseau."
 coverCaption: "Libérer la puissance des fondamentaux de la mise en réseau."
 ---

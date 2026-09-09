@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie, gezielte und relevante Fragen zu stellen und keine Zeit zu verschwenden."
 tags: ["Produktivität", "Kommunikation", "Problemlösung", "Forschung", "Gespräch", "Befragung", "Informationen", "Engagement", "Fachwissen", "Zeitmanagement", "Wissen", "Fähigkeiten", "Lernen", "Zusammenarbeit", "kritisches Denken", "Neugierde", "Fokus", "Analyse", "Anfrage", "Neugierde"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "eine Person, die ein Megaphon in der Hand hält, umgeben von Frage- und Ausrufezeichen, als Symbol für die Wichtigkeit, effektive Fragen zu stellen und wertvolle Erkenntnisse zu gewinnen"
 coverCaption: ""
 ---

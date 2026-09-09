@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de essentiële stappen om een succesvol pad in cyberbeveiliging te smeden, waaronder opleidingen, certificeringen en lucratieve baanvooruitzichten."
 tags: ["cyberveiligheid", "een carrière in cyberbeveiliging opbouwen", "onderwijs in cyberveiligheid", "cyberbeveiligingscertificaten", "vacatures in cyberbeveiliging", "technologische carrières", "onderwijs in cyberveiligheid", "banen in cyberbeveiliging", "cyberbeveiligingsindustrie", "cyberbeveiligingsprofessionals", "cyberbeveiligingsvaardigheden", "netwerkbeveiliging", "informatiebeveiliging", "cyberveiligheidsanalist", "ethisch hacken", "adviseur cyberbeveiliging", "reactie op incidenten", "CISO", "cyberbeveiligingsstrategie", "bachelordiploma cyberbeveiliging", "master in cyberbeveiliging", "CISSP-certificering", "CEH-certificering", "CompTIA Security+ certificering", "banenmarkt voor cyberbeveiliging", "digitaal forensisch onderzoek", "risicobeheer in cyberbeveiliging", "veilige softwareontwikkeling", "gegevensbescherming", "cyberbeveiligingstrends"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Een schild dragende cybersecurity professional die digitale activa beschermt tegen hacker aanvallen."
 coverCaption: ""
 ---

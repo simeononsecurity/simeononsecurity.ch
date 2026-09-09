@@ -6,7 +6,7 @@ draft: false
 description: "了解 OWASP Top 10 中最关键的网络应用程序安全风险，以及如何防范这些风险"
 genre: ["网络应用程序安全风险", "OWASP 10 强", "注入攻击", "认证", "会话管理", "XSS 攻击", "门禁控制", "安全配置错误", "加密存储", "传输层保护"]
 tags: ["网络应用安全", "OWASP 10 强", "注入攻击", "认证", "会话管理", "XSS 攻击", "门禁控制", "安全配置错误", "加密存储", "传输层保护", "输入验证", "第三方组件", "记录和监控", "网络开发", "网络安全", "数据保护", "软件安全", "信息技术安全", "安全措施", "风险管理"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "这是一幅网络开发人员身穿超级英雄斗篷、手持盾牌的卡通图片。盾牌保护着一台笔记本电脑，屏幕上显示着网络应用程序界面。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u specifieke en relevante vragen kunt stellen en voorkom tijdverspilling."
 tags: ["productiviteit", "communicatie", "probleemoplossend", "onderzoek", "gesprek", "ondervragen", "informatie", "verbintenis", "expertise", "tijdmanagement", "kennis", "vaardigheden", "leren", "samenwerking", "kritisch denken", "nieuwsgierigheid", "focus", "analyse", "onderzoek", "nieuwsgierigheid"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "een persoon die een megafoon vasthoudt, omgeven door vraagtekens en uitroeptekens, die het belang van het stellen van effectieve vragen en het zoeken naar waardevolle inzichten weergeven"
 coverCaption: ""
 ---

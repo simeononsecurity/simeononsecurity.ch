@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "استكشف أفضل الممارسات والأدوات لإدارة أسطول من عمال المناجم منخفضي الطاقة ، بما في ذلك remote.it و ngrok و OpenVPN و WireGuard والمزيد."
 tags: ["عمال المناجم منخفضة الطاقة", "الوصول عن بعد", "أمن الشبكة", "openvpn", "واقي الأسلاك", "شخير", "نجروك"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "صورة كرتونية للعديد من عمال المناجم ذوي الطاقة المنخفضة والمتصلين بمحور شبكة بالأدوات التي تمت مناقشتها في المقالة."
 coverCaption: ""
 ---

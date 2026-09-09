@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Aflați 10 sfaturi vitale de siguranță pe internet pentru a vă proteja confidențialitatea, securitatea și finanțele online și pentru a vă proteja familia de amenințările cibernetice."
 genre: ["Siguranța pe internet", "Securitate online", "Sfaturi de securitate cibernetică", "Protecția vieții private", "Siguranța digitală", "Amenințări online", "Securitatea datelor", "Practici sigure pe internet", "Protejarea informațiilor personale", "Confidențialitatea online"]
 tags: ["sfaturi de siguranță pe internet", "securitate online", "amenințări cibernetice", "protecția vieții private", "siguranța digitală", "amenințări online", "securitatea datelor", "practici sigure pe internet", "protejarea informațiilor personale", "confidențialitatea online", "sfaturi de securitate cibernetică", "confidențialitatea pe internet", "escrocherii online", "atacuri de phishing", "protecție împotriva malware-ului", "parole sigure", "autentificare cu doi factori", "Wi-Fi securizat", "monitorizarea rețelei", "securitate e-mail", "confidențialitatea în social media", "securitatea informațiilor financiare", "site-uri web sigure", "monitorizarea extraselor de cont bancar", "parole puternice", "manageri de parole", "educație online", "conștientizarea securității cibernetice", "software de securitate fiabil"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "O imagine simbolică reprezentând siguranța pe internet, cu un scut care protejează ecranul unui computer de amenințările cibernetice."
 ---
 

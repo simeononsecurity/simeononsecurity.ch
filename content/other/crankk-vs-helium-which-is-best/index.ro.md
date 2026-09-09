@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Descoperiți diferențele dintre rețelele Crankk și Helium IoT, modelele lor de consens, hardware-ul pentru minerit, taxele de gaz și multe altele."
 tags: ["Crankk vs Helium IoT", "Rețele IoT", "modele de consens", "hardware de minerit", "taxe de gaz", "blockchain", "LoRaWAN", "Conectivitate IoT", "comunicații fără fir", "internetul Lucrurilor", "rețele descentralizate", "dispozitive cu putere redusă", "Soluții IoT", "dispozitive inteligente", "aplicații IoT", "transmiterea datelor", "soluții de conectivitate", "Tehnologia IoT", "comparație de rețea", "rețele fără fir"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "O ilustrație de desene animate care prezintă rețelele Crankk și Helium IoT care conectează dispozitive inteligente într-un mediu descentralizat și fără fir."
 coverCaption: ""
 ---

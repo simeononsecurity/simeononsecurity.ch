@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解机器学习对网络安全的影响以及如何适应。"
 tags: ["机器学习", "网络安全", "改编", "人工智能", "威胁检测", "数据保护", "实时", "监督学习", "无监督学习", "强化学习", "误报", "假阴性", "员工培训", "安全解决方案", "数据分析", "网络安全", "云安全", "模式识别", "异常检测", "网络威胁"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "一个卡通机器人在虚拟盾牌前站岗，象征着机器学习在网络安全中的应用。"
 coverCaption: ""
 ---

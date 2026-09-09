@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer in deze uitgebreide gids meer over best practices voor beveiliging en compliance bij het plannen, bouwen en beheren van cloud-gebaseerde datameren."
 tags: ["datameer", "cloudbeveiliging", "nalevingsvoorschriften", "toegangscontroles", "encryptie", "AWS", "Azuur", "HIPAA", "GDPR", "controle", "het patchen van", "cyberbeveiliging", "SIEM-oplossing", "IT-ondersteuningsteams", "dreigingslandschap", "cloud migratie", "cloudbeheer"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Een cartoon afbeelding van een kasteel bewaakt door een krijger ridder, symboliseert het concept van sterke bescherming voor veilige en compliant cloud-gebaseerde opslag"
 coverCaption: ""
 ---

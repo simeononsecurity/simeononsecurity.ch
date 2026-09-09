@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "这份综合指南详细概述了家庭实验室是什么、为什么要创建家庭实验室、需要哪些组件、如何设置它、要探索的高级主题以及要遵循的最佳实践。"
 tags: ["家庭实验室", "资讯科技专业人士", "学生", "爱好者", "联网", "虚拟化", "自动化", "硬件", "软件", "最佳实践", "指导"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "一个人坐在办公桌前，身边放着电脑和网络设备，周围都是书籍和笔记。"
 coverCaption: ""
 ---

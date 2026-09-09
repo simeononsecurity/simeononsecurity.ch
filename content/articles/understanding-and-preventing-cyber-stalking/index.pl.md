@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed cyberstalkingiem i zapewnić sobie bezpieczeństwo w sieci dzięki tym wskazówkom i technikom."
 tags: ["cyberstalking", "bezpieczeństwo w sieci", "bezpieczeństwo internetu", "zapobieganie stalkingowi", "bezpieczeństwo osobiste", "prywatność w sieci", "cybersecurity", "bezpieczeństwo cyfrowe", "bezpieczeństwo internetu", "cyberprzemoc", "molestowanie", "ochrona ofiar", "postępowanie sądowe", "doradztwo", "zdrowie psychiczne", "bezpieczeństwo mediów społecznościowych", "molestowanie w sieci", "stalking internetowy", "organy ścigania", "ochrona prywatności"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Osoba patrząca na swój telefon z zatroskanym wyrazem twarzy, gdy w tle majaczy cienista postać."
 coverCaption: ""
 ---

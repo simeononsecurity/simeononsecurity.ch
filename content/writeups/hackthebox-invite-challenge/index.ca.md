@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Apreneu a generar un codi d'invitació i uniu-vos a la plataforma en línia HackTheBox per provar i avançar les vostres habilitats en proves de penetració i ciberseguretat tant a Windows com a Linux."
 tags: ["HackTheBox", "Convida desafiament", "Prova de penetració", "Seguretat cibernètica", "Windows", "Linux", "Plataforma en línia", "HTTP POST", "Codi d'invitació", "Codificada en Base64", "Powershell", "Linux Bash", "Descodificació Base64", "Convida a la generació de codi", "Programació", "Desenvolupament web", "Tecnologia", "Seguretat informàtica", "Formació informàtica"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Una pantalla d'ordinador de dibuixos animats que mostra el lloc web de HackTheBox amb una porta de la volta que s'obre amb una clau, revelant un trofeu o una medalla, amb un fons de paisatge urbà amb l'esquema de colors del logotip de HackTheBox (blau i blanc)."
 coverCaption: ""
 ---

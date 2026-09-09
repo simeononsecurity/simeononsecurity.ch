@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite i passi essenziali da compiere quando siete stati oggetto di doxx, tra cui come rimuovere le informazioni personali, rafforzare la sicurezza online, denunciare l'incidente, cercare supporto ed esplorare le vie legali."
 genre: ["Sicurezza informatica", "Protezione della privacy", "Sicurezza online", "Digital Privacy", "Sicurezza dei dati", "Protezione delle informazioni personali", "Prevenzione del crimine informatico", "Furto d'identità", "Molestie online", "Autodifesa digitale"]
 tags: ["prevenzione del doxxing", "Risposta agli incidenti di doxxing", "protezione delle informazioni personali", "online privacy", "sicurezza online", "segnalazione di doxxing", "ricorso legale", "criminalità informatica", "protezione dell'identità", "molestie online", "sicurezza dei dati", "impostazioni sulla privacy", "autenticazione a due fattori", "conti online", "monitoraggio della presenza online", "sicurezza online", "misure di privacy online", "Consigli per la sicurezza informatica", "supporto dopo il doxxing", "GDPR", "CCPA", "forze dell'ordine", "comunità online", "leggi sulla cybersicurezza", "norme sulla protezione dei dati", "autodifesa digitale", "precauzioni per la sicurezza online", "protezione delle informazioni personali", "linee guida sulla privacy online"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "Una persona che protegge le proprie informazioni personali su uno scudo."
 coverCaption: "La salvaguardia delle informazioni personali è fondamentale per l'autodifesa digitale."
 ---

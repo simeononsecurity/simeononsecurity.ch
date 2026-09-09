@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Узнайте, как использовать модель OpenAI ChatGPT с помощью удобного интерфейса командной строки (CLI) для легкого создания текста и ответов на вопросы."
 tags: ["ЧатGPT", "OpenAI", "Интерфейс командной строки", "CLI", "генерация текста", "ответ на вопрос", "инструментарий разработчика", "pip-менеджер пакетов", "Питон 3.5", "PowerShell", "Баш"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "Разработчик, сидящий за своим компьютером и печатающий на клавиатуре с открытым интерфейсом командной строки ChatGPT на своем терминале."
 coverCaption: ""
 ---

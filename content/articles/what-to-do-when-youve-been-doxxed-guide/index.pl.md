@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj podstawowe kroki, które należy podjąć, gdy zostałeś doxxed, w tym jak usunąć dane osobowe, wzmocnić bezpieczeństwo online, zgłosić incydent, szukać wsparcia i zbadać możliwości prawne."
 genre: ["Cyberbezpieczeństwo", "Ochrona prywatności", "Bezpieczeństwo online", "Prywatność cyfrowa", "Bezpieczeństwo danych", "Ochrona danych osobowych", "Zapobieganie cyberprzestępczości", "Kradzież tożsamości", "Nękanie online", "Cyfrowa samoobrona"]
 tags: ["zapobieganie doxxingowi", "reagowanie na incydenty doxxingu", "ochrona danych osobowych", "prywatność online", "bezpieczeństwo online", "zgłaszanie doxxingu", "regres prawny", "cyberprzestępczość", "ochrona tożsamości", "nękanie online", "bezpieczeństwo danych", "ustawienia prywatności", "uwierzytelnianie dwuskładnikowe", "konta online", "Monitorowanie obecności online", "bezpieczeństwo online", "środki ochrony prywatności online", "wskazówki dotyczące cyberbezpieczeństwa", "wsparcie po doxxingu", "RODO", "CCPA", "organy ścigania", "społeczności internetowe", "przepisy dotyczące cyberbezpieczeństwa", "przepisy dotyczące ochrony danych", "cyfrowa samoobrona", "Środki ostrożności dotyczące bezpieczeństwa online", "ochrona danych osobowych", "wytyczne dotyczące prywatności online"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "Osoba chroniąca swoje dane osobowe na tarczy."
 coverCaption: "Ochrona danych osobowych jest kluczem do cyfrowej samoobrony."
 ---

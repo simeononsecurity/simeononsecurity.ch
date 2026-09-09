@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a superare l'esame CompTIA Security+ SY0-601 con suggerimenti, risorse di studio e strategie per affrontare il test."
 tags: ["Esame CompTIA Security+", "SY0-601", "Certificazione di sicurezza informatica", "Obiettivi dell'esame", "Strategie per l'esecuzione dei test", "Risorse di studio", "Formato dell'esame", "Suggerimenti per il passaggio", "Sicurezza delle informazioni", "Domande basate sulle prestazioni"]
-cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.png"
+cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp"
 coverAlt: "Una persona che studia con un computer portatile e dei libri davanti a sé, rappresenta la preparazione necessaria per superare l'esame di certificazione CompTIA Security+."
 coverCaption: ""
 ---

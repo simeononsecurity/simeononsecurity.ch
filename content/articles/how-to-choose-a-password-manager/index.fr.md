@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les facteurs essentiels à prendre en compte lors de la sélection d'un gestionnaire de mots de passe et découvrez pourquoi Bitwarden et KeePassXC sont les options recommandées"
 tags: ["gestionnaire de mot de passe", "choisir un gestionnaire de mots de passe", "Bitwarden", "KeePassXC", "sécurité en ligne", "sécurité du mot de passe", "gestion des mots de passe", "des mots de passe forts", "unique passwords", "violations de données", "chiffrement", "compatibilité multiplateforme", "synchronisation des mots de passe", "sauvegarde", "interface utilisateur", "générateur de mot de passe", "2FA", "chiffrement de bout en bout", "architecture à zéro connaissance", "open-source", "partage sécurisé des mots de passe", "auto-type", "soutien à l'attachement", "plugins", "recommandations sur les gestionnaires de mots de passe", "comparaison des gestionnaires de mots de passe", "conseils de sécurité pour les mots de passe", "fonctionnalités du gestionnaire de mots de passe", "avantages du gestionnaire de mots de passe", "téléchargement du gestionnaire de mot de passe"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "Illustration colorée d'une personne tenant une clé et un bouclier, représentant la sécurité et la protection du mot de passe."
 coverCaption: ""
 ---

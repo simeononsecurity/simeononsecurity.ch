@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Scoprite i framework completi per la valutazione e lo sviluppo della forza lavoro nella cybersecurity: NICE e DoD DCWF, che consentono alle organizzazioni di disporre di professionisti qualificati."
 tags: ["sviluppo della forza lavoro", "sicurezza informatica", "Quadro NICE", "Struttura DCWF del Dipartimento della Difesa", "valutazione delle competenze", "sviluppo professionale", "forza lavoro nella cybersecurity", "percorsi di carriera", "educazione alla cybersicurezza", "allineamento della forza lavoro", "quadro della forza lavoro", "NIST", "regolamenti governativi", "certificazioni di cybersecurity", "standard di settore", "gestione dei talenti", "ruoli di cybersecurity", "competenze di cybersecurity", "sviluppo della forza lavoro nella cybersecurity", "professionisti della cybersicurezza", "competenze di cybersecurity", "pianificazione della forza lavoro", "reclutamento di cybersicurezza", "resilienza della forza lavoro", "formazione sulla cybersicurezza", "strategia della forza lavoro", "mercato del lavoro della cybersecurity", "avanzamento di carriera nella cybersecurity", "preparazione della forza lavoro"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Un gruppo di professionisti diversi che collaborano a un progetto di cybersecurity."
 coverCaption: "Liberare il potenziale: Responsabilizzare i professionisti della cybersecurity per il successo"
 ---

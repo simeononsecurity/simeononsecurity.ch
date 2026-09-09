@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "BYODポリシーを組織に導入する際のメリット、課題、ベストプラクティスをご紹介します。"
 tags: ["BYODポリシー", "ビーオーディー", "モバイルデバイス管理", "生産性", "セキュリティリスク", "コスト削減", "社員教育", "セキュリティプロトコル", "データあんごうか", "テクニカルサポート", "業務上必要な業務", "職務満足", "社の方針", "リモートワイピング", "MDMソフト", "社員用端末", "けいび", "デバイスの使用法", "コンプライアンス", "てきようとくしゅ"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "様々な個人用機器（ノートパソコン、スマートフォン、タブレット）や仕事用アイテム（書類、コーヒーカップ）を扱う人物の漫画画像です。"
 coverCaption: ""
 ---

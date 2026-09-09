@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a protegerse de amenazas en línea como la piratería informática, las campañas de difamación y el robo de identidad con estos útiles consejos."
 tags: ["ciberseguridad", "seguridad en línea", "robo de identidad", "piratería", "campañas de desprestigio", "social media", "contraseñas", "autenticación de dos factores", "congelación del crédito"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Una persona sostiene un candado delante de una pantalla de ordenador que muestra un mensaje que dice Protegido"
 coverCaption: ""
 ---

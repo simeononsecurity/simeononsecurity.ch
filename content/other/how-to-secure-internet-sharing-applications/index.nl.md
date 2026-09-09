@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Leer hoe u uw Linux-apps voor internetdeling kunt beveiligen met geavanceerde maatregelen om malware, trackers, Tor-verkeer en torrents te blokkeren."
 tags: ["Linux beveiliging", "apps voor het delen van internet", "bescherming tegen malware", "tracker blokkeren", "Tor verkeer blokkeren", "preventie van torrents", "netwerkbeveiliging", "Snort", "Securita", "DNS-bescherming", "geavanceerde firewall-regels", "Ubuntu updates", "automatische updates", "netwerkbewaking", "cyberbeveiliging", "Linux internetbeveiliging", "Linux app beveiliging", "malware blokkering", "Tor-verkeer voorkomen", "torrent bescherming", "netwerk firewall", "Linux netwerkbeveiliging", "veilig delen via internet", "Linux DNS bescherming", "geavanceerde netwerkbeveiliging", "Linux systeem updates", "tools voor netwerkbewaking", "Linux-cyberbeveiligingsmaatregelen", "Linux beveiligingspraktijken"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "Een cartoonillustratie met een schild dat een netwerk van onderling verbonden apparaten beschermt tegen kwaadaardige bedreigingen."
 coverCaption: ""
 ---

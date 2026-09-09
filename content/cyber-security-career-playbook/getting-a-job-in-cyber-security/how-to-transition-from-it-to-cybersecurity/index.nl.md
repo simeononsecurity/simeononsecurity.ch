@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Leer hoe je succesvol kunt overstappen van IT naar cyberbeveiliging met onze uitgebreide stap-voor-stap gids, zodat je een succesvolle carrièreswitch kunt maken."
 tags: ["overgang", "IT naar cyberbeveiliging", "carrièreswitch", "stap-voor-stap handleiding", "onderwijs", "ervaring", "vaardigheden", "certificeringen", "specialisatie", "professioneel netwerken", "cyberbeveiligingsgemeenschap", "tekort aan talent", "sterke vraag", "trends in de sector", "praktijkervaring", "technische vaardigheden", "niet-technische vaardigheden", "cyberbeveiligingscertificeringen", "online trainingen", "onderwijs in cyberbeveiliging", "overstappen naar cyberbeveiliging", "IT-carrièretransitie", "cyberbeveiligingsvaardigheden", "banenmarkt cyberbeveiliging", "cyberbeveiligingstraining", "specialisatie cyberbeveiliging", "cyberbeveiligingsprofessionals", "cyberbeveiligingsindustrie", "IT-vaardigheden in cyberbeveiliging", "carrièrepaden in cyberbeveiliging", "banen op het gebied van cyberbeveiliging"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Een cartoonillustratie van een persoon die van de IT-wereld naar de wereld van cyberbeveiliging stapt."
 coverCaption: "Verhoog je carrière: Ga de uitdaging aan op het gebied van cyberbeveiliging!"
 ---

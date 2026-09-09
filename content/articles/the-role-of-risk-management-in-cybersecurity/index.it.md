@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite l'importanza della gestione del rischio nella sicurezza informatica e come creare un programma che funzioni per la vostra azienda."
 tags: ["sicurezza informatica", "gestione del rischio", "posizione di sicurezza", "valutazione del rischio", "mitigazione del rischio", "monitoraggio del rischio", "minacce", "vulnerabilità", "sicurezza delle informazioni", "protezione dei dati", "compliance", "attacchi informatici", "processo decisionale", "riduzione dei costi", "continuità aziendale", "analisi del rischio", "identificazione del rischio", "controllo del rischio", "trattamento del rischio", "miglioramento continuo"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Uno scudo con un lucchetto e una chiave simboleggia la cybersecurity, mentre una lente di ingrandimento rappresenta la gestione del rischio."
 coverCaption: ""
 ---

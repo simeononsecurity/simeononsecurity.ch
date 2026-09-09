@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习渗透测试工具、技术、方法和认证的基本要素，开启您的网络安全职业生涯。"
 tags: ["渗透测试", "网络安全", "道德黑客", "工具", "技巧", "入门指南", "Nmap", "Metasploit", "Wireshark", "打嗝套房", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "安全测试", "脆弱性评估", "网络安全", "信息安全"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "一名头戴巴拉克拉法帽、手持放大镜的卡通黑客，正在检查显示 Nmap、Metasploit、Wireshark 和 Burp Suite 等各种黑客测试工具的电脑屏幕，背景是象征安全系统的数字锁。"
 coverCaption: ""
 ---

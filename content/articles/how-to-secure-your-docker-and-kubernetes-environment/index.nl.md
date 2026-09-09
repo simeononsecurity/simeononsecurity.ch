@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer best practices voor het beveiligen van uw Docker- en Kubernetes-omgeving, waaronder het gebruik van officiële images, het beperken van machtigingen en het implementeren van netwerkbeveiliging."
 tags: ["Docker", "Kubernetes", "Beveiliging", "Containers", "Netwerkbeveiliging", "RBAC", "API-server", "Kwetsbaarheden", "Toezicht op", "Loggen", "Firewalls", "TLS", "Anchore", "Clair", "Aqua Veiligheid", "ELK Stapel", "Splunk", "Prometheus", "Cyberbeveiliging", "Beste praktijken"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Een cartoon docker container en een cartoon kubernetes pod houden elkaars hand vast en staan bovenop een afgesloten kluis. De achtergrond is een muur van computercode."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Obteniu informació sobre com configurar pfSense a l'HP t740 Thin Client i com resoldre problemes potencials com ara la congelació i els problemes de detecció de SSD."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "client prim", "servidor de casa", "PPPoE", "FreeBSD", "indicador d'arrencada", "loader.conf.local", "nano editor", "Detecció de SSD", "SSD M.2", "Western Digital", "resolució de problemes", "postinstal·lació", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Un dibuix animat d'un mag fent un encanteri per arreglar un ordinador congelat, amb una bafarada que diu Problema resolt"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"

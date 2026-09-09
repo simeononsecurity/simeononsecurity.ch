@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie einen effektiven Lernplan für das Bestehen der CEH-Zertifizierungsprüfung mit Tipps und Strategien für den Erfolg erstellen können."
 tags: ["CEH-Zertifizierung", "Ethisches Hacken", "Studienplan", "Zeitmanagement", "Prüfungsvorbereitung", "Cybersicherheit", "Motivation", "Studienmaterialien", "Übungsfragen", "Überprüfung", "EC-Council", "Informationssicherheit", "berufliche Entwicklung", "IT-Zertifizierung", "berufliches Fortkommen", "Netzwerksicherheit", "Penetrationstests", "Schwachstellenanalyse", "Versicherungsinformationen", "Sicherheitsprüfung"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "Ein Bild im Cartoon-Stil, das eine Person zeigt, die an einem Schreibtisch mit einem Laptop und verschiedenen Büchern und Notizen lernt, mit dem CEH-Logo im Hintergrund."
 coverCaption: ""
 ---

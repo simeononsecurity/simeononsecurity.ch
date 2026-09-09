@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "了解如何生成邀请码并加入 HackTheBox 在线平台，以测试和提高您在 Windows 和 Linux 上的渗透测试和网络安全方面的技能。"
 tags: ["破解盒子", "邀请挑战", "渗透测试", "网络安全", "视窗", "Linux", "在线平台", "HTTP POST", "邀请代码", "Base64编码", "电源外壳", "Linux 狂欢", "Base64解码", "邀请码生成", "编程", "Web开发", "技术", "信息安全", "资讯科技培训"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "卡通电脑屏幕显示 HackTheBox 网站，金库门用钥匙打开，露出奖杯或奖牌，城市景观背景采用 HackTheBox 徽标（蓝色和白色）的配色方案。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Verbeter uw vaardigheden op het gebied van cyberbeveiliging met Continuing Education Units (CEU's) om cyberbedreigingen een stap voor te blijven en kritieke bedrijfsmiddelen te beschermen."
 tags: ["CEU's in cyberbeveiliging", "Eenheden voor permanente educatie", "professionele ontwikkeling cyberbeveiliging", "ontwikkelingen in netwerktechnologie", "beperking van cyberdreigingen", "vakbekwaamheid", "certificatie conformiteit", "cyberbeveiligingsconferenties", "relevante trainingen", "kennisdeling", "cyberbeveiligingsartikelen publiceren", "vrijwilligerswerk in cyberbeveiliging", "betrokkenheid bij examenontwikkeling", "NIST Cyberveiligheidskader", "GDPR-naleving", "HIPAA-voorschriften", "FISMA-vereisten", "voortdurend leren in cyberbeveiliging", "digitale strijd", "vaardigheden op het gebied van cyberbeveiliging verbeteren", "cyberdreigingslandschap", "professionele geloofwaardigheid", "cyberbeveiligingsvoorschriften van de overheid", "actueel blijven in cyberbeveiliging", "trends in de cyberbeveiligingsindustrie", "beste praktijken op het gebied van cyberbeveiliging", "personeelsbestand cyberbeveiliging", "veiligheid in de digitale wereld", "cybercriminele tactieken", "evoluerende cyberbedreigingen"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "Een cartoonillustratie van een cyberbeveiligingsprofessional met een schild die zich verdedigt tegen een zwerm digitale virussen."
 coverCaption: "Verdedig en verover het digitale rijk met continu leren."
 ---

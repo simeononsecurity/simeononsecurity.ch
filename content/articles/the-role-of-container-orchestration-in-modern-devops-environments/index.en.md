@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the significance and benefits of container orchestration in modern DevOps, along with popular container orchestration tools and government regulations relevant to containerization."
 tags: ["container orchestration", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalability", "high-availability", "load balancing", "security", "automated app deployments", "HIPAA", "SOX", "GDPR", "compliance", "software development", "cloud computing", "containerization", "technology", "automation"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "A cartoonish image depicting containers sharing equal weight on a seesaw with an orchestra conductor directing them "
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Lees meer over de cruciale rol van het bevriezen van uw krediet bij het beschermen van uw financiële toekomst en ontdek hoe u uw kredietscore onder controle kunt krijgen."
 genre: ["Credit Freeze", "Bescherming kredietscore", "Preventie van identiteitsdiefstal", "Financiële zekerheid", "Fraudepreventie", "Credit Bureaus", "Equifax", "Experian", "TransUnion", "Persoonlijke Financiën"]
 tags: ["kredietbevriezing", "kredietscore", "bescherming tegen identiteitsdiefstal", "financiële zekerheid", "fraudepreventie", "credit bureaus", "Equifax", "Experian", "TransUnion", "credit score beschermen", "krediet veiligstellen", "kredietrapport", "kredietfraude", "kredietbewaking", "creditcardmaatschappijen", "krediet bevriezen", "kredietprotectie", "kredietrapport bevriezen", "kredietbewakingsdiensten", "financiële toekomst", "belang van kredietbevriezing", "hoe krediet bevriezen", "kredietbevriezingsproces", "krediet bureau beveiliging bevriezen", "kredietrapporten bevriezen", "identiteitsdiefstal voorkomen", "credit score beheer", "bescherming van financiële informatie", "veiligheidsmaatregelen tegen fraude", "financiële identiteitsbescherming"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Een slot met een ketting rond een credit score rapport, symboliseert de bescherming en beveiliging die het bevriezen van je krediet biedt tegen identiteitsdiefstal en fraude"
 coverCaption: ""
 ---

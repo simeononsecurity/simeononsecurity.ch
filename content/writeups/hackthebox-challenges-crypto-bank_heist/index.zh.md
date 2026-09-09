@@ -5,7 +5,7 @@ draft: false
 toc: true
 description: "Learn how to decode T9/Multitap and Atbash ciphers to solve the Bank Heist challenge on HackTheBox."
 tags: ["黑客盒子", "加密", "T9 密码", "多字节密码", "atbash 密码", "网络安全", "译码", "密码", "挑战", "国旗", "网络安全", "黑客行为", "学习", "教程", "密码解码", "解谜", "破译", "密码挑战", "网络安全技能", "在线学习"]
-cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.png"
+cover: "/img/cover/A_cartoon_vault_door_being_unlocked_with_a_key_revealing.webp"
 coverAlt: "卡通金库门被一把钥匙打开，露出一个宝箱，背景是日落时分的巴黎城市景观。"
 coverCaption: ""
 ---

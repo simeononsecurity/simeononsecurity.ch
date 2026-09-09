@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați care sunt beneficiile și riscurile externalizării securității cibernetice către furnizori terți și cum să alegeți furnizorul potrivit pentru afacerea dumneavoastră."
 tags: ["securitate cibernetică", "externalizare", "furnizori terți", "încălcarea datelor", "selecția furnizorului", "economii de costuri", "expertiză", "scalabilitate", "pierderea controlului", "planul de răspuns la incidente", "gestionarea riscurilor", "securitatea afacerilor", "externalizarea securității", "amenințări cibernetice", "securitatea rețelei", "protecția datelor", "gestionarea vulnerabilității", "apărare cibernetică", "continuitatea afacerilor", "securitatea informațiilor"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "O imagine de desen animat cu un om de afaceri care stă pe o stâncă și ține în mână un scut pentru a-și proteja afacerea de amenințările cibernetice, cu un rând de furnizori terți care stau în spatele său și oferă diferite servicii de securitate."
 coverCaption: ""
 ---

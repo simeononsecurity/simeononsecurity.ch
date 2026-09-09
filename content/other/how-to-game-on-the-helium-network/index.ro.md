@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să jucați rețeaua Helium exploatând vulnerabilitățile cu MiddleMan și Chirp Stack Packet Multiplexer, precum și riscurile și consecințele acestui lucru."
 tags: ["Rețeaua de heliu", "Dovada de acoperire", "Intermediar", "Multiplexor de pachete Chirp Stack", "jocuri de noroc", "exploatarea vulnerabilităților", "Rețeaua LoRaWAN", "criptomoneda", "blockchain", "rețea descentralizată", "hotspot-uri", "falsificarea", "înșelăciune", "activitate ilegală", "pedepsele", "integritatea rețelei", "recompense", "actori rău intenționați", "securitatea retelei", "gazde legitime"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "O reprezentare în desene animate a unui grup de indivizi care exploatează un balon cu heliu cu o imagine a unui gateway LoRaWAN și MiddleMan sau Chirp Stack Packet Multiplexer în fundal."
 coverCaption: ""
 ---

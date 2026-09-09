@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索在当今数字时代采用零信任安全模式的好处和挑战。"
 tags: ["零信任安全", "网络安全", "网络安全", "云安全", "数据保护", "安全模式", "认证", "授权", "加密", "合规性", "HIPAA", "GDPR", "PCI DSS", "用户体验", "费用", "复杂性", "多层次安全", "可见性", "灵活性", "安全漏洞"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "挂锁和钥匙矗立在网线上，象征着零信任安全。"
 coverCaption: ""
 ---

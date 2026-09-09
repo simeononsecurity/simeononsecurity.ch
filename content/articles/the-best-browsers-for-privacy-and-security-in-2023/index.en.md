@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best secure browsers for privacy protection, featuring Brave, Firefox, and Tor, and learn about their features and benefits."
 tags: ["secure browsers", "privacy protection", "Brave browser", "Firefox", "Tor", "online security", "internet privacy", "browser features", "ad-blocking", "tracking protection", "open-source", "cross-platform", "Firefox Focus", "Tor Network", "alternative browsers", "Vivaldi", "Epic", "Puffin", "Waterfox"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "A 3D animated image featuring three cartoon-like browser icons, Brave, Firefox, and Tor, surrounded by a shield symbolizing privacy protection, with a padlock on top."
 coverCaption: ""
 ---

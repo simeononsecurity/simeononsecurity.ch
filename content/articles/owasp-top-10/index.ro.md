@@ -6,7 +6,7 @@ draft: false
 description: "Aflați care sunt cele mai importante riscuri de securitate pentru aplicațiile web cu OWASP Top 10 și cum să vă protejați împotriva lor"
 genre: ["Riscuri de securitate a aplicațiilor web", "Top 10 OWASP", "Atacuri de injecție", "Autentificare", "Gestionarea sesiunilor", "Atacuri XSS", "Controlul accesului", "Configurarea greșită a securității", "Stocare criptografică", "Protecția stratului de transport"]
 tags: ["Securitatea aplicațiilor web", "Top 10 OWASP", "Atacuri de injecție", "Autentificare", "Gestionarea sesiunilor", "Atacuri XSS", "Controlul accesului", "Configurarea greșită a securității", "Stocare criptografică", "Protecția stratului de transport", "Validarea intrărilor", "Componente terțe părți", "Jurnalizare și monitorizare", "Dezvoltare Web", "Securitatea cibernetică", "Protecția datelor", "Securitate software", "Securitate IT", "Măsuri de securitate", "Managementul riscului"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "O imagine de desene animate a unui dezvoltator web care poartă o pelerină de supererou și ține un scut. Scutul protejează un laptop cu o interfață de aplicație web pe ecran."
 coverCaption: ""
 ---

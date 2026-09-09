@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "اكتشف فوائد استخدام Chocolatey لإدارة حزم Windows: أتمتة التحديثات وتوفير الوقت وضمان أمان النظام."
 tags: ["إدارة حزم Windows", "شوكولاتي", "تحديثات البرنامج", "مدير مجموعة", "واجهة خط الأوامر", "التحديثات الآلية", "الصيانة المجدولة", "حماية", "استقرار", "اندماج", "اللوائح الحكومية", "امتثال", "دمية", "طاه", "أنسبل", "حزم NuGet", "DoD ستيج", "تبسيط إدارة الحزم", "نقاط ضعف البرامج", "أدوات النشر", "تحديثات Windows", "تحديثات حزمة Windows", "إدارة برامج Windows", "مدير حزم Windows", "أداة إدارة الحزم", "تحديثات الحزمة الآلية", "تحديثات أمان Windows", "تثبيت حزمة البرامج", "نشر برامج Windows", "نظام إدارة الحزم", "مستودع برامج Windows", "ذاكرة التخزين المؤقت لبرنامج Windows"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "رسم توضيحي ملون يصور شعار Windows محاطًا بأيقونات برامج متنوعة تمثل إدارة وتحديثات مبسطة للحزم."
 coverCaption: ""
 ---

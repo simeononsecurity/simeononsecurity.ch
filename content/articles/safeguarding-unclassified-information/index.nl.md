@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de ware aard van niet-gerubriceerde informatie, de belangrijkste kenmerken, beschermingsmaatregelen en relevante regelgeving voor effectieve bescherming."
 genre: ["Informatiebeveiliging", "Gegevensbeheer", "Overheidsvoorschriften", "Informatie delen", "Gegevensbescherming", "Vertrouwelijkheid", "Risicobeperking", "Informatiebeheer", "Classificatie van gegevens", "Toegang tot informatie"]
 tags: ["niet-gerubriceerde informatie", "informatiebeveiliging", "overheidsinstellingen", "gegevensbescherming", "informatiebeheer", "gecontroleerde niet-gerubriceerde informatie", "toegangscontroles", "encryptie", "werknemersopleiding", "fysieke beveiliging", "gegevensindeling", "vertrouwelijkheid", "informatiebeheer", "risicobeperking", "informatie-uitwisseling", "gegevensbeheer", "overheidsvoorschriften", "toegang tot informatie", "vrijwaring", "veiligheidsmaatregelen", "gevoelige informatie", "waarde van niet-gerubriceerde informatie", "openbaar beschikbare gegevens", "CUI-programma", "officiële dossiers van het agentschap", "toegankelijkheid", "deelbaarheid", "beperkte gevoeligheid", "waarde van niet-gerubriceerde informatie", "Regelgeving CUI-programma", "reactie op incidenten", "fysieke veiligheidsmaatregelen"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Een symbolische illustratie van een gesloten kluis met niet-gerubriceerde informatie erin."
 coverCaption: "De sleutels veiligstellen: Bescherming van niet-gerubriceerde informatie voor informatiebeveiliging"
 ---

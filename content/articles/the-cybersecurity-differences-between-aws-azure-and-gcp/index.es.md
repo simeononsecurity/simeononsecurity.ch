@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Compare AWS, Azure y Google Cloud Platform en términos de seguridad en la nube, y conozca las diferencias para tomar una decisión informada para su organización."
 tags: ["AWS", "Azure", "Nube de Google", "seguridad en la nube", "IAM", "GuardDuty", "Centro de seguridad", "Centro de mando de seguridad", "Protección DDoS", "Armadura Nube", "WAF", "Enlace privado", "DLP", "computación en nube", "servicios en la nube", "proveedores de nube", "protección de datos", "ciberseguridad", "seguridad de las infraestructuras"]
-cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png"
+cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "Una vibrante imagen animada en 3D que muestra tres estructuras de nube distintas que representan AWS, Azure y Google Cloud Platform, con símbolos de escudo superpuestos a cada nube para simbolizar sus ofertas de seguridad."
 coverCaption: ""
 ---

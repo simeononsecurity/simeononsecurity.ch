@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Scopri le migliori pratiche per creare un curriculum efficace, inclusi l'utilizzo dei caratteri, i tipi di curriculum, l'ottimizzazione delle parole chiave, la gestione delle lacune e l'ottimizzazione del layout."
 tags: ["riprendere a scrivere", "riprendere suggerimenti", "utilizzo dei caratteri", "riprendere la struttura", "riprendere i tipi", "curriculum cronologico", "curriculum funzionale", "riprendere la combinazione", "ottimizzazione delle parole chiave", "referenze su curriculum", "riprendere la dichiarazione", "gestire i licenziamenti", "gestire le lacune nel curriculum", "anno di laurea in ripresa", "elencare le certificazioni", "riprendere il layout", "curriculum conciso", "spazio bianco nel curriculum", "riprendere la personalizzazione", "curriculum professionale"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Un'immagine a fumetti colorata che mostra una persona che tiene un curriculum con una lente d'ingrandimento, a simboleggiare l'attenzione ai dettagli nell'ottimizzazione del curriculum."
 coverCaption: ""
 ---

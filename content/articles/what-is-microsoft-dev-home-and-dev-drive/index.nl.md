@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe Dev Home en Dev Drive uw Windows-ontwikkelworkflow verbeteren met aanpasbare widgets, machineconfiguratie, GitHub-integratie en geoptimaliseerde opslag."
 tags: ["Dev Home", "Dev Drive", "Windows ontwikkeling", "ontwikkelingsworkflow", "aanpasbare widgets", "machineconfiguratie", "GitHub-integratie", "geoptimaliseerde opslag", "Windows ontwikkelaars", "gestroomlijnde workflow", "codebeheer", "projecttoezicht", "opslagoptimalisatie", "ontwikkelingshulpmiddelen", "productiviteit van ontwikkelaars", "Windows-omgeving", "ReFS volumeformaat", "prestatie-optimalisatie", "prestaties van het bestandssysteem", "GitHub-repositories", "opslagoplossing", "Windows 11", "opslagbeheer", "efficiënte samenwerking", "ontwikkelingsactiva", "productiviteitsmiddelen", "Windows Documenten", "ontwikkelingsrendement", "workflow optimalisatie", "Windows ontwikkelingsomgeving"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "Een cartoonillustratie van een ontwikkelaar die werkt in een gestroomlijnde en efficiënte omgeving met Dev Home en Dev Drive tools."
 coverCaption: ""
 ---

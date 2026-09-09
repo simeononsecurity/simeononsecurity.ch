@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de vereisten, voordelen en carrièrepaden voor cyberbeveiligingscertificaten bij de overheid en in de militaire sector."
 tags: ["Cyberbeveiliging", "Certificaten", "Overheid", "Militair", "Carrièrepad", "Informatiebeveiliging", "Verdediging", "Veiligheidsmachtiging", "Naleving", "Reglement", "Cybercrime", "Cyberbedreigingen", "IT-audit", "Risicobeheer", "CISSP", "CISM", "Beveiliging+", "CEH", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Een gestileerde afbeelding van een overheids- of militair schild met digitale sloten en sleutels op de achtergrond."
 coverCaption: ""
 ---

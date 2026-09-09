@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Aflați cum să generați un cod de invitație și să vă alăturați platformei online HackTheBox pentru a vă testa și îmbunătăți abilitățile în testarea de penetrare și securitatea cibernetică atât pe Windows, cât și pe Linux."
 tags: ["HackTheBox", "Provocare invitați", "Testarea de penetrare", "Securitate cibernetică", "Windows", "Linux", "Platforma online", "HTTP POST", "Cod de invitație", "Codul Base64", "Powershell", "Linux Bash", "Decodare Base64", "Invitați la generarea codului", "Programare", "Dezvoltare web", "Tehnologie", "Securitate IT", "Instruire IT"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Un ecran de computer cu desene animate care arată site-ul web HackTheBox cu o ușă de seif descuiată cu o cheie, dezvăluind un trofeu sau o medalie, cu un fundal peisaj urban în schema de culori a siglei HackTheBox (albastru și alb)."
 coverCaption: ""
 ---

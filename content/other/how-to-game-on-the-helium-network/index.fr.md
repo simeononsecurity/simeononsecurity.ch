@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à déjouer le réseau Helium en exploitant les vulnérabilités avec MiddleMan et Chirp Stack Packet Multiplexer, ainsi que les risques et les conséquences de le faire."
 tags: ["Réseau hélium", "Preuve de couverture", "Intermédiaire", "Multiplexeur de paquets de pile Chirp", "jeu vidéo", "exploiter les vulnérabilités", "Réseau LoRaWAN", "crypto-monnaie", "chaîne de blocs", "réseau décentralisé", "points chauds", "usurpation d'identité", "tricherie", "activité illégale", "pénalités", "intégrité du réseau", "récompenses", "acteurs malveillants", "sécurité Internet", "hôtes légitimes"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Une représentation caricaturale d'un groupe d'individus exploitant un ballon à hélium avec une image d'une passerelle LoRaWAN et d'un multiplexeur MiddleMan ou Chirp Stack Packet en arrière-plan."
 coverCaption: ""
 ---

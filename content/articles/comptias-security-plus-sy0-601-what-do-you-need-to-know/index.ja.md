@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "CompTIA Security+ SY0-601試験に合格するためのヒント、学習リソース、試験攻略法をご紹介します。"
 tags: ["CompTIA Security+試験", "SY0-601", "サイバーセキュリティ認証", "試験の目的", "テスト受験対策", "スタディーリソース", "試験形式", "合格の秘訣", "情報セキュリティ", "パフォーマンス重視の質問"]
-cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.png"
+cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp"
 coverAlt: "ノートパソコンと書籍を前にして勉強している人が、CompTIA Security+認定試験に合格するために必要な準備を表現しています。"
 coverCaption: ""
 ---

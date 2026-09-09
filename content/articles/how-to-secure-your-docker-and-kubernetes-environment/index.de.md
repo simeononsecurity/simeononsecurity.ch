@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie bewährte Verfahren zur Sicherung Ihrer Docker- und Kubernetes-Umgebung kennen, einschließlich der Verwendung offizieller Images, der Einschränkung von Berechtigungen und der Implementierung von Netzwerksicherheit."
 tags: ["Docker", "Kubernetes", "Sicherheit", "Behältnisse", "Netzwerksicherheit", "RBAC", "API Server", "Schwachstellen", "Überwachung", "Protokollierung", "Firewalls", "TLS", "Anchore", "Clair", "Aqua Sicherheit", "ELK-Stapel", "Splunk", "Prometheus", "Cybersecurity", "Bewährte Praktiken"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Ein Cartoon-Docker-Container und ein Cartoon-Kubernetes-Pod halten sich an den Händen und stehen auf einem verschlossenen Safe. Der Hintergrund ist eine Wand aus Computercode."
 coverCaption: ""
 ---

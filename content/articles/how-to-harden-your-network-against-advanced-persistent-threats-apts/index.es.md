@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca los pasos clave para reforzar su infraestructura de red contra las amenazas persistentes avanzadas (APT) y proteger su organización de los ciberataques."
 tags: ["seguridad de la red", "ciberseguridad", "amenazas persistentes avanzadas", "infraestructura de red", "controles de acceso", "encriptación de datos", "formación de empleados", "plan de respuesta a incidentes", "evaluaciones de vulnerabilidad", "política de seguridad", "supervisión del tráfico de red", "ataques de phishing", "protección de puntos finales", "detección de intrusos", "cortafuegos", "SIEM", "copia de seguridad de datos", "segmentación de la red", "amenazas cibernéticas", "privacidad de los datos"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Un escudo de dibujos animados con el icono de un candado en el centro que representa la seguridad de la red contra las APT"
 coverCaption: ""
 ---

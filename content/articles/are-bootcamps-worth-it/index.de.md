@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser Artikel befasst sich mit den Vor- und Nachteilen von Bootcamps und hilft dem Einzelnen festzustellen, ob sie die richtige Wahl für den schnellen Erwerb neuer Fähigkeiten und Zertifizierungen sind."
 tags: ["Bootcamps", "Berufliche Entwicklung", "Erwerb von Fertigkeiten", "Zertifizierungen", "Bildung", "Stellenmarkt", "Praktische Erfahrung", "Kostengünstig", "Umfassende Bildung", "Glaubwürdigkeit", "Körperliche und geistige Beanspruchung"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Ein Laptop mit einem Abiturientenhut auf der Tastatur, umgeben von Bücherstapeln und einer Stoppuhr"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite perché la padronanza delle competenze di programmazione può essere di grande beneficio per la vostra carriera nel settore IT e della sicurezza informatica e come iniziare con PowerShell, Bash, Python, Ansible, Packer e Terraform."
 tags: ["IT e sicurezza informatica", "Competenze di programmazione", "Avanzamento di carriera", "PowerShell", "Bash", "Pitone", "Ansible", "Imballatore", "Terraform", "Automazione", "Linea di comando", "Scripting", "Implementazione dell'infrastruttura", "Analisi dei dati", "Test di sicurezza"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Una persona seduta davanti a un computer, che digita codice in un'interfaccia a riga di comando con righe di testo che scorrono sullo schermo."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Learn the seven essential network security measures to safeguard your business from cyber threats and ensure data protection."
 genre: ["network security measures", "business network security", "cyber threats", "network security policy", "firewalls and intrusion prevention systems", "wireless network security", "software and hardware updates", "multi-factor authentication", "network activity monitoring", "security breach response"]
 tags: ["network security", "business security", "cyber threats", "network protection", "network security measures", "security policy", "firewalls", "intrusion prevention systems", "wireless network security", "software updates", "hardware updates", "multi-factor authentication", "network monitoring", "security breaches", "data protection", "cybersecurity", "security best practices", "security threats", "security measures", "security awareness", "essential network security measures", "importance of network security", "risks of inadequate network security", "benefits of strong security measures", "establishing a strong security policy", "educating employees on security practices", "regularly reviewing and updating security policy", "implementing firewall and intrusion prevention systems", "securing wireless networks", "regularly updating software and hardware"]
-cover: "/img/cover/7-essential-network-security-measures.png"
+cover: "/img/cover/7-essential-network-security-measures.webp"
 coverAlt: "A cartoon illustration of a shield protecting a network server from cyber threats"  
 coverCaption: "Secure your network from cyber threats with strong security measures."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "了解如何在 HP t740 瘦客户机上设置 pfSense，以及如何解决冻结和 SSD 检测问题等潜在问题。"
 tags: ["感知", "OPNsense", "强化BSD", "惠普t740", "瘦客户端", "家庭服务器", "PPPoE", "FreeBSD", "开机提示", "loader.conf.local", "纳米编辑器", "SSD检测", "M.2固态硬盘", "西部数据", "故障排除", "安装后", "串口", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "一幅卡通画，画的是巫师施咒修复冻结的计算机，并带有一个对话泡泡，上面写着“问题已解决”"
 coverCaption: ""
 ---

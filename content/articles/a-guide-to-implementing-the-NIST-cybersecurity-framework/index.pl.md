@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak wdrożyć NIST Cybersecurity Framework i chronić swoją organizację przed cyberzagrożeniami, korzystając z naszego przewodnika krok po kroku."
 tags: ["cyberbezpieczeństwo", "NIST", "ramy", "zarządzanie ryzykiem", "bezpieczeństwo informacji", "cyberzagrożenia", "wdrożenie", "najlepsze praktyki", "wytyczne", "standardy", "cyberataki", "ocena ryzyka", "ryzyko cyberbezpieczeństwa", "ochrona danych", "zgodność", "Bezpieczeństwo IT", "bezpieczeństwo sieci", "reakcja na incydent", "środki bezpieczeństwa", "plan cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Kreskówka przedstawiająca osobę z tarczą blokującą różne cyberataki."
 coverCaption: ""
 ---

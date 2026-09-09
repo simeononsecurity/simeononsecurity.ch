@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Leer hoe u sterke wachtwoorden maakt, wachtzinnen gebruikt en ze veilig beheert met wachtwoordmanagers zoals Bitwarden."
 tags: ["sterke wachtwoorden", "wachtwoordbeveiliging", "wachtzinnen", "wachtwoordbeheerders", "Bitwarden", "online beveiliging", "cyberbeveiliging", "wachtwoordsterkte", "gegevensbescherming", "digitale veiligheid", "beste praktijken voor wachtwoorden", "wachtwoord tips", "veilige wachtwoorden", "hulpmiddelen voor wachtwoordbeheer", "online privacy", "het beschermen van rekeningen", "gegevensbeveiliging", "complexiteit van het wachtwoord", "wachtwoord generator", "twee-factor authenticatie", "creëren van sterke wachtwoorden", "gids voor wachtwoordbeheer", "veiligheidstips voor wachtwoorden", "sterk wachtwoord aanmaken", "wachtwoordbeveiliging", "veilig wachtwoordbeheer", "Voordelen van wachtwoordbeheer", "wachtwoordbeveiliging", "aanbevelingen voor wachtwoordbeheer", "beste praktijken voor wachtwoordbeheer", "wachtwoord manager veiligheid", "wachtwoord manager functies"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Een stripfiguur die een schild vasthoudt met een slotsymbool, dat de veiligheid en bescherming van een wachtwoord voorstelt."
 coverCaption: ""
 ---

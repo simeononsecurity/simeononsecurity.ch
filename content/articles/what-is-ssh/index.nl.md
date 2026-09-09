@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen van SSH, leer hoe u SSH-sleutels genereert, verbinding maakt met externe servers, bestanden veilig overdraagt en SSH-configuraties aanpast."
 tags: ["SSH", "Beveiligde Shell", "toegang op afstand", "beheer op afstand", "encryptie", "authenticatie", "gegevensintegriteit", "draagbaarheid", "bestandsoverdracht", "SCP", "SSH-sleutels", "SSH-configuratie", "netwerkprotocol", "uitvoering van commando's op afstand", "OpenSSH", "twee-factor authenticatie", "openbare sleutel cryptografie", "IP-adres", "domeinnaam", "terminal", "opdrachtprompt", "beveiliging", "systeembeheerders", "ontwikkelaars", "veelzijdigheid", "authenticatiemethoden", "hashfuncties", "tunnelbouw", "aangepaste opties"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "Een cartoonillustratie van een persoon die veilig verbinding maakt met een server via SSH."
 coverCaption: ""
 ---

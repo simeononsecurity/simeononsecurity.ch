@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie in unserem umfassenden Leitfaden, wie Sie eine sichere und konforme Cloud-Umgebung für Ihr Unternehmen aufbauen."
 tags: ["Cloud Computing", "Cybersicherheit", "Datenschutz", "Compliance", "HIPAA", "PCI DSS", "GDPR", "Datensicherung", "Notfallwiederherstellung", "Verschlüsselung", "Zugangskontrollen", "Multi-Faktor-Authentifizierung", "kontinuierliche Überwachung", "Schwachstellenanalysen", "Datenschutzverletzungen", "Insider-Bedrohungen", "Fehlkonfiguration", "Datenverlust", "Cloud-Anbieter", "Sicherheitsmaßnahmen"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Eine Cartoon-Wolke mit einem Schloss, das die sichere und konforme Cloud-Umgebung darstellt, die in diesem Artikel aufgebaut wird."
 coverCaption: ""
 ---

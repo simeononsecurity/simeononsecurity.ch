@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Enhance your cybersecurity skills with Continuing Education Units (CEUs) to stay one step ahead of cyber threats and protect critical assets."
 tags: ["CEUs in cybersecurity", "Continuing Education Units", "cybersecurity professional development", "network technology advancements", "cyber threat mitigation", "professional competence", "certification compliance", "cybersecurity conferences", "relevant training courses", "knowledge sharing", "publishing cybersecurity articles", "volunteering in cybersecurity", "exam development involvement", "NIST Cybersecurity Framework", "GDPR compliance", "HIPAA regulations", "FISMA requirements", "continuous learning in cybersecurity", "digital battle", "cybersecurity skills enhancement", "cyber threat landscape", "professional credibility", "government cybersecurity regulations", "staying current in cybersecurity", "cybersecurity industry trends", "cybersecurity best practices", "cybersecurity workforce", "digital world safety", "cybercriminal tactics", "evolving cyber threats"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "A cartoon illustration of a cybersecurity professional with a shield defending against a swarm of digital viruses."
 coverCaption:  "Defend and conquer the digital realm with continuous learning."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come DevOps colma il divario tra sviluppo e operazioni, semplificando la consegna del software e massimizzando l'efficienza."
 tags: ["DevOps", "sviluppo software", "operazioni", "collaborazione", "integrazione continua", "consegna continua", "infrastruttura come codice", "monitoring", "anelli di feedback", "time-to-market", "efficienza", "qualità", "affidabilità", "HIPAA", "GDPR", "compliance", "sicurezza", "auditing", "tracciabilità", "automazione", "comunicazione", "agile", "CICD", "distribuzione del software", "ciclo di vita del software", "sistemi software", "industria del software", "sicurezza dei dati", "regolamenti", "aggiornamenti software", "vantaggio competitivo", "data privacy", "protezione dei dati", "evoluzione dell'industria del software"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Un'illustrazione a fumetti che mostra sviluppatori e professionisti delle operazioni che collaborano e lavorano insieme, simboleggiando il ponte tra sviluppo e operazioni in DevOps."
 coverCaption: ""
 ---

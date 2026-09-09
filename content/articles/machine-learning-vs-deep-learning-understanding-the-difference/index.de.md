@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Unterschiede zwischen maschinellem Lernen und Deep Learning, zwei leistungsstarken Zweigen der KI mit einzigartigen Eigenschaften und Anwendungen."
 tags: ["maschinelles Lernen", "Deep Learning", "künstliche Intelligenz", "AI", "Datenwissenschaft", "Algorithmus", "neuronale Netze", "Feature-Technik", "unstrukturierte Daten", "Entscheidungsbäume", "logistische Regression", "beschriftete Daten", "unmarkierte Daten", "rechnerische Ressourcen", "Betrugserkennung", "Empfehlungssysteme", "vorausschauende Instandhaltung", "Bilderkennung", "Verarbeitung natürlicher Sprache", "Arzneimittelentdeckung", "Unternehmensanwendungen", "Algorithmuskomplexität", "Datendarstellung", "staatliche Vorschriften", "Computervision", "Gesichtserkennung", "Chatbots", "Sprachübersetzung", "Ausbildungsmodelle", "prädiktive Analytik"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Eine Cartoon-Illustration, die einen Algorithmus für maschinelles Lernen und ein neuronales Netz für tiefes Lernen in einem freundschaftlichen Wettbewerb zeigt."
 coverCaption: ""
 ---

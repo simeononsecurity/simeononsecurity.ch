@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解物联网对网络安全的影响，学习保护联网设备的有效策略。"
 tags: ["物联网", "网络安全", "安全", "物联网", "物联网设备", "网络安全", "数据保护", "隐私", "智能设备", "最佳做法", "物联网风险", "鉴别", "固件更新", "监测", "行业标准", "法规", "物联网安全指南", "网络划分", "威胁状况", "脆弱性"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "一个保护一组联网物联网设备的盾牌的三维动画图像，象征着物联网网络安全的重要性。"
 coverCaption: ""
 ---

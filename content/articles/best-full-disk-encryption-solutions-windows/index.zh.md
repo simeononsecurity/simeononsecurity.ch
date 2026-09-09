@@ -6,7 +6,7 @@ draft: false
 description: "了解适用于 Windows 的顶级全磁盘加密解决方案，这些解决方案可提供强大的安全性，保护您的敏感数据免遭未经授权的访问。"
 genre: ["数据安全", "网络安全", "Windows 加密", "磁盘加密", "数据保护", "加密软件", "安全解决方案", "视窗安全", "数据隐私", "计算机安全"]
 tags: ["全磁盘加密", "Windows 加密", "磁盘加密软件", "数据安全", "网络安全", "加密解决方案", "比特锁", "VeraCrypt", "赛门铁克端点加密", "Sophos SafeGuard", "AES 加密", "数据保护", "视窗安全", "加密算法", "硬件加密", "集中管理", "启动前身份验证", "多因素认证", "跨平台兼容性", "数据隐私", "文件加密", "数据加密", "安全数据存储", "数据安全解决方案", "加密工具", "安全软件", "安全文件存储", "强加密", "安全数据访问"]
-cover: "/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_locked_hard_drive.webp"
 coverAlt: "一幅卡通插图，展示了一个上锁的硬盘驱动器和一个象征全磁盘加密的盾牌。"
 coverCaption: "使用 Windows 的最佳全磁盘加密解决方案保护数据安全。"
 ---

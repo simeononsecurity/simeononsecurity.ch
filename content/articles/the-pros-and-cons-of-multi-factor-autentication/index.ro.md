@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați avantajele și dezavantajele autentificării cu mai mulți factori (MFA) și aflați cum să alegeți soluția potrivită pentru securitatea afacerii dumneavoastră."
 tags: ["autentificarea cu mai mulți factori", "MFA", "securitatea afacerilor", "securitate cibernetică", "protecția datelor", "conformitatea cu reglementările", "experiența utilizatorului", "phishing", "atacuri prin forță brută", "complexitate tehnică", "rezistența utilizatorului", "smartphone-uri", "token", "card inteligent", "amprentă digitală", "recunoașterea facială", "recunoașterea vocală", "PCI DSS", "HIPAA", "încălcarea datelor"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "O încuietoare din desene animate cu simboluri de autentificare cu doi factori, precum un smartphone și o cheie."
 coverCaption: ""
 ---

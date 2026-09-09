@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何通过避免这 10 个常见的网络安全错误来保护自己免受网络威胁。"
 tags: ["网络安全", "在线安全", "网络威胁", "黑客行为", "网络钓鱼", "恶意代码", "密码", "公共 Wi-Fi", "杀毒", "社交媒体", "数据备份", "安全警告", "公共充电站", "计算机安全", "预防网络犯罪", "身份盗窃", "数字隐私", "网络安全", "软件更新", "在线安全"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "保护笔记本电脑的卡通锁，背景是一名黑客。"
 coverCaption: ""
 ---

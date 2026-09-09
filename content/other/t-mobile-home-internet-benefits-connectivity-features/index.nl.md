@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de voordelen van T-Mobile Home Internet: hoge snelheid, onbeperkte data, flexibiliteit en naadloze integratie voor een naadloze online ervaring."
 genre: ["Home Internet", "Connectiviteit", "Telecommunicatie", "Internetdiensten", "Draadloze oplossingen", "Netwerkinfrastructuur", "Gegevensplannen", "Klanttevredenheid", "Digitale ervaring", "Internetverbinding"]
 tags: ["T-Mobile Thuisinternet", "Snel internet", "Betrouwbare connectiviteit", "Onbeperkte gegevens", "Flexibele plannen", "Naadloze integratie", "4G-netwerk", "5G-netwerk", "Draadloze oplossingen", "Internetprovider", "Datacaps", "Netwerkdekking", "Netwerkcongestie", "Signaalsterkte", "Draadloze verbinding", "Privacy", "Wachtwoordbeveiliging", "Apparaatbeveiliging", "Openbaar Wi-Fi", "Beveiligingsbronnen", "Continue bewaking", "Overheidsvoorschriften", "FCC", "Net Neutrality", "Connectiviteitsoplossingen", "Digitale levensstijl", "Online streamen", "Thuiswerken", "Online gamen", "Digitale innovatie"]
-cover: "/img/cover/A_colorful_cartoon_illustration_depicting_a_ha.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_depicting_a_ha.webp"
 coverAlt: "Een kleurrijke cartoonillustratie van een gelukkig gezin thuis, omringd door verschillende apparaten die zijn aangesloten op T-Mobile Home Internet."
 coverCaption: "Naadloze connectiviteit voor je digitale levensstijl."
 ---

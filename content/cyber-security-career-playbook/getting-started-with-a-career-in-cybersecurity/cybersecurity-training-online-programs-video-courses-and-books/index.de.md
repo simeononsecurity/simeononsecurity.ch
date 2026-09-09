@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Erweitern Sie Ihre Cybersecurity-Kenntnisse mit Online-Programmen und Videokursen, die eine breite Palette von Themen abdecken, um neuen Bedrohungen einen Schritt voraus zu sein und digitale Umgebungen zu sichern."
 tags: ["Cybersicherheitsschulung", "Online-Programme", "Videokurse", "Cybersicherheitsausbildung", "Informationssicherheitsschulung", "Cybersicherheits-Zertifizierungen", "Karriere im Bereich Cybersicherheit", "Online-Lernplattformen", "Cybersicherheitsfähigkeiten", "praktisches Training", "Ethisches Hacken", "Netzwerksicherheit", "Datenschutz", "Informationen über Cyber-Bedrohungen", "sichere Kodierung", "Vorfallreaktion", "Cloud-Sicherheit", "Sicherheit von Webanwendungen", "mobile Sicherheit", "digitale Forensik", "Netzwerkverteidigung", "bewährte Praktiken der Cybersicherheit", "Cybersicherheitsindustrie", "Cybersicherheitsfachleute", "Jobs im Bereich Cybersicherheit", "Trends in der Cybersicherheit", "Ressourcen für die Cybersicherheit", "Bewusstsein für Cybersicherheit", "Cybersicherheitsnachrichten", "Cybersicherheits-Tools"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Ein Bild im Cartoon-Stil, das eine Person mit einem Schild zeigt, die eine digitale Umgebung vor Cyber-Bedrohungen schützt."
 coverCaption: "Stärken Sie Ihre Cybersecurity-Reise: Entfesseln Sie Ihr digitales Verteidigungspotenzial."
 ---

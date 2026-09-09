@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-17
 description: "Descobriu els avantatges d'integrar la xarxa LoRa amb Helium per a dispositius IoT i indústries com les ciutats intel·ligents, l'agricultura i la logística."
 tags: ["Xarxa LoRa", "Integració d'heli", "Reenviadors de paquets Semtech", "Aplicacions IoT", "LPWAN", "modulació d'espectre expandit", "passarel·les", "núvol", "Protocol LoRaWAN", "infraestructura de xarxa", "punts calents", "sensors", "seguretat de la xarxa", "geolocalització", "mecanisme d'incentius", "ciutats intel·ligents", "agricultura", "logística", "Desenvolupament IoT", "comunicació a llarg abast"]
-cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
+cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.webp"
 coverAlt: "Una il·lustració estilitzada d'un paisatge urbà amb diversos dispositius IoT connectats a una xarxa representats com una xarxa de llum, amb el logotip de Helium visible de manera destacada."
 coverCaption: ""
 ---

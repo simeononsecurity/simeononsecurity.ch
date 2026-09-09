@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorez les avantages et les défis liés à l'utilisation d'outils de sécurité open source pour améliorer la position de votre organisation en matière de sécurité."
 tags: ["outils de sécurité open source", "cybersécurité", "soutien communautaire", "la transparence", "économies de coûts", "flexibilité", "outils propriétaires", "risques de sécurité", "ensemble de compétences", "frais de licence de logiciel", "coût total de possession", "soutien commercial", "les langages de programmation", "l'intégration", "test de sécurité", "audit", "NIST", "CISA", "OWASP", "Institut national des normes et de la technologie"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Une image de style bande dessinée d'une boîte à outils avec des logos open source sur chaque outil, ainsi qu'un bouclier avec un cadenas au centre pour représenter la cybersécurité, le tout sur un fond de code binaire."
 coverCaption: ""
 ---

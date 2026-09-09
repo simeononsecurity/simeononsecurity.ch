@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erkunden Sie die Funktionsweise des RSA-Verschlüsselungsalgorithmus und seine Bedeutung für die sichere Kommunikation."
 tags: ["RSA-Verschlüsselung", "asymmetrische Verschlüsselung", "Public-Key-Kryptographie", "Verschlüsselungsalgorithmus", "RSA-Schlüsselerzeugung", "modulare Arithmetik", "Eulersche Totalitätsfunktion", "Primzahlen", "modulare Potenzierung", "Chiffretext", "Klartext", "RSA-Sicherheit", "sichere Kommunikation", "digitale Signaturen", "sicheres Surfen im Internet", "staatliche Vorschriften über RSA", "NIST-Richtlinien zu RSA", "eIDAS-Verordnung", "Verschlüsselungsstandards", "datenschutz", "Kryptographie", "Informationssicherheit", "sicherer Nachrichtenaustausch", "verschlüsselte E-Mail", "HTTPS", "RSA in der sicheren Kommunikation", "RSA in digitalen Signaturen", "Stärken von RSA", "Schwächen von RSA", "Berechnungskomplexität von RSA", "Schlüssellänge bei RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Ein symbolisches Bild, das den RSA-Verschlüsselungsalgorithmus mit Schloss- und Schlüsselsymbolen darstellt und das Konzept der sicheren Kommunikation und Verschlüsselung vermittelt."
 coverCaption: ""
 ---

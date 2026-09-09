@@ -5,7 +5,7 @@ draft: false
 description: "Apprenez à décrypter les tonalités DTMF à l'aide du chiffrement des nombres premiers pour résoudre le défi Crypto - Call sur HackTheBox."
 tags: ["HackTheBox", "Défi Crypto", "Tonalités DTMF", "Chiffrement des nombres premiers", "Décryptage", "Résoudre des puzzles", "Cryptographie", "Conversion audio", "ComposezABC", "Decode.fr", "WAV", "MP3", "Fréquence", "Trait mathématique", "Drapeau", "Audace", "Visualiseur sonique", "Nombres", "Menus des guichets automatiques", "Téléphone public"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Un téléphone de dessin animé avec un écran vert et un cadenas dessus, symbolisant la sécurité et le cryptage, avec des tonalités DTMF représentées dans le motif"
 coverCaption: ""
 ---

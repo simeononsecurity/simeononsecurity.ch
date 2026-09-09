@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak stworzyć ekonomiczne i bezpieczne domowe laboratorium, aby zdobyć praktyczne doświadczenie IT, eksperymentując z oprogramowaniem, sprzętem i koncepcjami sieciowymi."
 tags: ["domowe laboratorium", "wirtualizacja", "sprzęt", "oprogramowanie", "networking", "bezpieczeństwo", "nauka", "testowanie", "Profesjonalista IT", "entuzjasta technologii", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "konfiguracja sieci", "zarządzanie maszynami wirtualnymi", "tworzenie kopii zapasowych i odzyskiwanie danych", "chmura obliczeniowa", "cyberbezpieczeństwo"]
-cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png"
+cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Animowany obraz 3D przedstawiający dobrze zorganizowaną konfigurację domowego laboratorium, w tym szafę serwerową, sprzęt sieciowy i różne ekrany wyświetlające maszyny wirtualne, mapy sieci i funkcje bezpieczeństwa, a wszystko to w przytulnym środowisku domowym."
 coverCaption: ""
 ---

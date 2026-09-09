@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite l'importanza della sicurezza informatica nel settore dell'istruzione e imparate a proteggere i dati sensibili degli studenti."
 tags: ["sicurezza informatica", "educazione", "dati degli studenti", "protezione dei dati", "privacy", "FERPA", "NIST", "HEISC", "Internet2", "Istituto SANS", "politiche di sicurezza", "phishing", "formazione di sensibilizzazione", "valutazione del rischio", "autenticazione a più fattori", "crittografia", "risposta agli incidenti", "sicurezza della rete", "accesso sicuro", "firewall"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Un'immagine animata in 3D con uno scudo che protegge un computer portatile con un cappello di laurea, a simboleggiare la protezione dei dati degli studenti nel settore dell'istruzione."
 coverCaption: ""
 ---

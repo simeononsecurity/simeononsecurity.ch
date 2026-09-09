@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek het belang van cyberbeveiliging in de onderwijssector en leer hoe u gevoelige leerlinggegevens kunt beschermen."
 tags: ["cyberbeveiliging", "onderwijs", "student data", "gegevensbescherming", "privacy", "FERPA", "NIST", "HEISC", "Internet2", "SANS Instituut", "veiligheidsbeleid", "phishing", "bewustwordingstraining", "risicobeoordeling", "multi-factor authenticatie", "encryptie", "reactie op incidenten", "netwerkbeveiliging", "veilige toegang", "firewalls"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding met een schild dat een laptop met een afstudeerpet beschermt, als symbool voor de bescherming van studentengegevens in de onderwijssector."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Aflați cum să obțineți hașuri de fișiere în Windows utilizând PowerShell, inclusiv SHA256, MD5 și SHA1, cu instrucțiuni pas cu pas și exemple."
 tags: ["hașuri de fișiere", "PowerShell", "Hash SHA256", "Hash MD5", "Hash SHA1", "integritatea fișierelor", "autentificarea datelor", "verificarea fișierelor", "algoritmi de hashing", "Sistem de operare Windows", "limbaj de scripting", "shell cu linie de comandă", "securitatea datelor", "criminalistică digitală", "securitate cibernetică", "calculul hash", "falsificarea fișierelor", "integritatea datelor", "autenticitatea fișierelor", "Securitatea Windows", "identificarea fișierelor", "apărare cibernetică", "securitatea fișierelor", "protecția datelor", "verificarea datelor", "validarea fișierelor", "Windows PowerShell", "generarea hașurilor", "algoritmi de hash", "funcții hash"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "O ilustrație de desen animat care arată un fișier cu un simbol de blocare și o lupă, reprezentând verificarea și securitatea hash-ului unui fișier."
 coverCaption: ""
 ---

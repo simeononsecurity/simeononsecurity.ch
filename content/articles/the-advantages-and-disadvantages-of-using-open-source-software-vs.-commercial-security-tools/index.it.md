@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplorate i vantaggi e gli svantaggi degli strumenti di sicurezza open-source e commerciali, aiutandovi a prendere decisioni informate per la strategia di sicurezza della vostra organizzazione."
 tags: ["sicurezza open-source", "strumenti di sicurezza commerciali", "efficacia dei costi", "flessibilità", "personalizzazione", "sostegno alla comunità", "supporto limitato", "documentazione", "sfide di integrazione", "qualità e affidabilità", "Integrazione perfetta", "vendor lock-in", "Risorse IT", "infrastruttura di sicurezza", "soluzioni di sicurezza", "vincoli di bilancio", "requisiti unici", "compatibilità del software", "obiettivi di sicurezza", "processo decisionale"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "Un'immagine in stile cartone animato di due personaggi contrastanti che rappresentano gli strumenti di sicurezza open-source e commerciali, in piedi sui lati opposti di una bilancia bilanciata, a simboleggiare i pro e i contro di ciascuna opzione."
 coverCaption: ""
 ---

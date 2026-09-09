@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Aprenda como configurar o pfSense no HP t740 Thin Client e como solucionar possíveis problemas como congelamento e problemas de detecção de SSD."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "cliente magro", "servidor doméstico", "PPPoE", "FreeBSDGenericName", "prompt de inicialização", "loader.conf.local", "editor nano", "Detecção de SSD", "SSD M.2", "Western Digital", "solução de problemas", "pós-instalação", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Uma caricatura de um mago lançando um feitiço para consertar um computador congelado, com um balão dizendo Problema resolvido"
 coverCaption: ""
 ---

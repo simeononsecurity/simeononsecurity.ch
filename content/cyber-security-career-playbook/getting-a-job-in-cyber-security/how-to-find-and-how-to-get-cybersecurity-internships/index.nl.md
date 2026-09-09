@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-22
 description: "Ontdek de beste manieren om cyberbeveiligingsstages te vinden en te bemachtigen, praktische ervaring op te doen en je carrière in het veld te lanceren."
 tags: ["cyberbeveiligingsstages", "stagemogelijkheden", "cyberbeveiligingsstages vinden", "hoe krijg je cyberbeveiligingsstages", "betaalde stages", "onbetaalde stages", "stages bij overheidsinstanties", "particuliere bedrijfsstages", "stages", "stages voor studiepunten", "online vacatureplatforms", "cyberbeveiliging vacaturebanken", "overheidsvoorschriften", "NSA-stages", "DoD-stages", "FBI-stages", "IBM stages", "Microsoft-stages", "Cisco-stages", "Symantec stages", "ISACA stages", "(ISC)² stages", "CompTIA stages", "netwerken voor stages", "cv tips voor stages", "voorbereiding sollicitatiegesprek", "loopbaanontwikkeling cyberbeveiliging", "professionele banden", "praktijkervaring", "onderwijs in cyberbeveiliging"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.webp"
 coverAlt: "Een cartoonachtige afbeelding van een student met een superheldencape en een schild met een slotsymbool, die staat voor cyberbeveiligingsstages en carrièremogelijkheden."
 coverCaption: "Ontsluit je toekomst in cyberbeveiliging met waardevolle stages!"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over de juridische en ethische overwegingen van cyberbeveiliging en privacy bij digitale transformatie."
 tags: ["Cyberbeveiliging", "Privacy", "Digitale transformatie", "Privacy van gegevens", "Gegevensbescherming", "Ethiek", "Verantwoordelijkheid", "Transparantie", "Vertrouwen", "Datalekken", "Gegevensverzameling", "Gegevensbeveiliging", "Gegevensverordening", "Verordeningen inzake gegevensbescherming", "Cyberbeveiligingswetten", "Aansprakelijkheid", "Wetten inzake gegevensbescherming", "Verordeningen inzake gegevensbescherming", "Online veiligheid", "Informatiebeveiliging"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een hangslot dat een computer beschermt of een schild met een sloticoon erop, als symbool voor het belang van cyberveiligheid en privacy in het digitale tijdperk."
 coverCaption: ""
 ---

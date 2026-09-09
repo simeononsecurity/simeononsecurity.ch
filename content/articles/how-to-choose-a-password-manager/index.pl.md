@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj najważniejsze czynniki, które należy wziąć pod uwagę przy wyborze menedżera haseł i dowiedz się, dlaczego Bitwarden i KeePassXC są zalecanymi opcjami"
 tags: ["menedżer haseł", "wybór menedżera haseł", "Bitwarden", "KeePassXC", "bezpieczeństwo online", "bezpieczeństwo hasła", "zarządzanie hasłami", "silne hasła", "unikalne hasła", "naruszenia danych", "szyfrowanie", "Kompatybilność międzyplatformowa", "synchronizacja hasła", "kopia zapasowa", "interfejs użytkownika", "generator haseł", "2FA", "szyfrowanie typu end-to-end", "Architektura o zerowej wiedzy", "open-source", "bezpieczne udostępnianie haseł", "typ automatyczny", "wsparcie mocowania", "wtyczki", "rekomendacje dotyczące menedżera haseł", "Porównanie menedżerów haseł", "wskazówki dotyczące bezpieczeństwa haseł", "Funkcje menedżera haseł", "zalety menedżera haseł", "menedżer haseł do pobrania"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "Kolorowa ilustracja osoby trzymającej klucz i tarczę, reprezentująca bezpieczeństwo i ochronę hasła."
 coverCaption: ""
 ---

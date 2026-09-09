@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Poznaj wpływ zmieniających się ram zatrudnienia na specjalistów ds. cyberbezpieczeństwa i wyzwania, przed którymi stoją, aby spełnić nowe wymagania."
 tags: ["ramy dla pracowników", "specjaliści ds. cyberbezpieczeństwa", "Departament Obrony", "DoD Cyber Workforce Framework", "certyfikaty", "rynek pracy", "rozwój zawodowy", "ścieżki kariery", "branża cyberbezpieczeństwa", "bezpośrednie doświadczenie", "znormalizowane wymagania", "opcje zwolnienia", "kwalifikacje", "ewoluujący krajobraz", "DCWF", "implikacje ramowe", "zmieniające się wymagania", "pracownicy cyberbezpieczeństwa", "rozwój kariery", "wytyczne dla pracowników", "certyfikaty bezpieczeństwa", "role związane z cyberbezpieczeństwem", "zmiany w branży", "rynek pracy cyberbezpieczeństwa", "wyzwania związane z siłą roboczą", "edukacja w zakresie cyberbezpieczeństwa", "rozszerzenie zestawu umiejętności", "standardy pracowników cyberbezpieczeństwa", "przyszłych specjalistów ds. cyberbezpieczeństwa", "Przygotowanie DoD DCWF", "wzmocnienie siły roboczej"]
-cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.png"
+cover: "/img/cover/A_symbolic_cartoon-style_image_depicting_a_group_of_cyberse.webp"
 coverAlt: "Symboliczny obraz w stylu kreskówki przedstawiający grupę specjalistów ds. cyberbezpieczeństwa poruszających się po krajobrazie przypominającym labirynt z ramami siły roboczej jako wysokimi przeszkodami, trzymając certyfikaty i wspinając się po drabinach rozwoju zawodowego."
 coverCaption: "Wznieść się ponad przeszkody: Navigating Changing Workforce Frameworks."
 ---

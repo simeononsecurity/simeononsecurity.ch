@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum inteligența privind amenințările îmbunătățește securitatea cibernetică prin atenuarea atacurilor cibernetice și răspunsul la acestea."
 tags: ["Informații privind amenințările", "Răspuns la incidente", "Securitatea cibernetică", "Atenuare", "Atacuri cibernetice", "Analiza datelor", "Sisteme informatice", "Managementul riscului", "Evaluarea vulnerabilității", "Capacități de detecție", "Controale de securitate", "Informații strategice", "Informații tactice", "Informații operaționale", "Peisajul amenințărilor", "Tendințe emergente", "Conștientizarea securității", "Criminalistică digitală", "Amenințări cibernetice", "Dark Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Un desen animat cu o echipă de securitate cibernetică care analizează date și răspunde la un atac, în timp ce o lupă plutește deasupra lor."
 coverCaption: ""
 ---

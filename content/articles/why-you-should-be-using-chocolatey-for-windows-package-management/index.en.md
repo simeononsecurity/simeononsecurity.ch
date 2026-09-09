@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the benefits of using Chocolatey for Windows package management: automate updates, save time, and ensure system security."
 tags: ["Windows package management", "Chocolatey", "software updates", "package manager", "command-line interface", "automated updates", "scheduled maintenance", "security", "stability", "integration", "government regulations", "compliance", "Puppet", "Chef", "Ansible", "NuGet packages", "DoD STIG", "simplify package management", "software vulnerabilities", "deployment tools", "Windows updates", "Windows package updates", "Windows software management", "Windows package manager", "package management tool", "automated package updates", "Windows security updates", "software package installation", "Windows software deployment", "package management system", "Windows software repository", "Windows software cache"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "A colorful illustration depicting a Windows logo surrounded by various software icons representing simplified package management and updates."
 coverCaption: ""
 ---

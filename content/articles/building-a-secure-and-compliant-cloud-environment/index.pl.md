@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zbudować bezpieczne i zgodne z przepisami środowisko chmurowe dla swojej firmy, korzystając z naszego kompleksowego przewodnika."
 tags: ["chmura obliczeniowa", "cyberbezpieczeństwo", "prywatność danych", "zgodność", "HIPAA", "PCI DSS", "RODO", "kopia zapasowa danych", "odzyskiwanie po awarii", "szyfrowanie", "kontrola dostępu", "uwierzytelnianie wieloskładnikowe", "ciągłe monitorowanie", "oceny podatności na zagrożenia", "naruszenia danych", "zagrożenia wewnętrzne", "błędna konfiguracja", "utrata danych", "dostawca chmury", "środki bezpieczeństwa"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Rysunkowa chmura z kłódką, reprezentująca bezpieczne i zgodne z przepisami środowisko chmurowe, o którym mowa w artykule."
 coverCaption: ""
 ---

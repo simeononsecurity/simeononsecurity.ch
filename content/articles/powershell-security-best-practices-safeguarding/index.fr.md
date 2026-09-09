@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les 10 meilleures pratiques de sécurité PowerShell essentielles pour protéger vos scripts, vos mots de passe et vos informations sensibles. Renforcez la sécurité de votre environnement PowerShell et protégez-vous contre les accès non autorisés et les failles de sécurité potentielles."
 genre: ["Meilleures pratiques en matière de sécurité PowerShell", "Sécurité des scripts", "Sécurité du mot de passe", "Sécurité informatique", "Cybersécurité", "Administration de Windows", "Automatisation", "Codage sécurisé", "Sécurité des réseaux", "Protection des données"]
 tags: ["Meilleures pratiques en matière de sécurité PowerShell", "Meilleures pratiques en matière de sécurité des mots de passe PowerShell", "les meilleures pratiques pour sécuriser et utiliser PowerShell", "politique d'exécution des scripts", "signature du code", "le contrôle de l'accès des utilisateurs", "sécurité du mot de passe", "codage en dur des mots de passe", "des mots de passe forts", "politiques de rotation des mots de passe", "sauvegarde des scripts PowerShell", "protéger les mots de passe dans PowerShell", "gérer l'exécution des scripts dans PowerShell", "sécuriser les informations sensibles avec PowerShell", "renforcer la sécurité de PowerShell"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "Illustration symbolique d'un bouclier protégeant un script PowerShell."
 coverCaption: "Sécurisez vos scripts PowerShell grâce à des pratiques de sécurité efficaces."
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Flock Safety ALPRカメラの独立した分析：実際の仕組み、ナンバープレート以外に収集されるデータ、データ共有による影の全国データベースの形成、そして令状問題が真の核心である理由。"
 genre: ["プライバシー", "監視", "市民的自由", "法執行技術", "デジタル権利"]
 tags: ["Flock Safety", "ALPR", "license plate readers", "surveillance", "privacy", "warrantless surveillance", "convoy analysis", "Bluetooth tracking", "TPMS tracking", "data sharing", "Ring cameras", "Fourth Amendment", "nothing to hide", "LPR accuracy", "wrongful accusation", "MFA", "law enforcement technology", "civil liberties", "data minimization", "DeFlock", "counter-surveillance", "public safety", "police surveillance", "privacy rights", "Fourth Amendment", "digital surveillance", "mass surveillance", "license plate recognition", "camera networks", "data retention"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "電柱に設置された監視カメラに照らされた暗い交差点で、通過する車にナンバープレートデータが重ねて表示されている。"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

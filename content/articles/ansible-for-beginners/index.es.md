@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Aprenda los conceptos básicos de Ansible, una herramienta de automatización de código abierto que simplifica la gestión de la infraestructura de TI mediante un lenguaje declarativo."
 tags: ["Introducción a Ansible", "Automatización de la gestión de infraestructuras informáticas", "Conceptos básicos de Ansible", "Automatización de infraestructuras informáticas", "Gestión de la configuración", "Despliegue de aplicaciones", "Aprovisionamiento", "Entrega continua", "Cumplimiento de las normas de seguridad", "Orquestación", "YAML", "Módulos Ansible", "Funciones", "Buenas prácticas", "Control de versiones", "Pruebas", "Red Hat", "Administradores de sistemas", "Linux", "macOS", "Windows", "Instalación de Ansible", "Inventario Ansible", "Manuales Ansible", "Módulos Ansible", "Funciones de Ansible", "Mejores prácticas de Ansible", "Pruebas de Ansible", "Herramienta de automatización de infraestructuras informáticas", "Tutorial de Ansible", "Automatización de la gestión de infraestructuras"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "Un personaje de dibujos animados sentado en un escritorio, rodeado de servidores y cables, con el logotipo de Ansible en la pantalla del ordenador, sonriendo mientras se automatizan tareas."
 coverCaption: ""
 ---

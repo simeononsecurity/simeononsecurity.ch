@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Entdecken Sie die vielfältigen Einsatzmöglichkeiten von Flipper Zero, dem ultimativen Handheld-Gadget für Hardware-Hacking, drahtlose Kommunikationsanalysen und alltägliche technische Anforderungen."
 tags: ["Flipper Zero", "Handheld-Gerät", "Hardware-Hacking", "Reverse Engineering", "Analyse der drahtlosen Kommunikation", "Gerätesteuerung", "Sicherheitsprüfung", "Penetrationstests", "Technischer Alltagsbegleiter", "Open-Source", "Bluetooth", "NFC", "RFID", "IR", "Emulation", "Sicherheitsprüfung", "Kali Linux", "E-Paper-Display", "QR-Codes", "Hausautomatisierung", "Sicherheitsschwachstellen", "Funkprotokolle", "Firmware-Extraktion", "blinkend", "Fehlersuche", "Zugangskontrollsysteme", "intelligente Hausautomatisierungssysteme", "Geräteemulation", "Schwachstellen in drahtlosen Systemen", "Gegenmaßnahmen", "kompaktes Gerät"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Eine farbenfrohe Illustration eines Flipper Zero-Geräts mit verschiedenen Werkzeugen und drahtlosen Signalen um ihn herum, die seine Vielseitigkeit und Fähigkeiten symbolisieren"
 coverCaption: ""
 ---

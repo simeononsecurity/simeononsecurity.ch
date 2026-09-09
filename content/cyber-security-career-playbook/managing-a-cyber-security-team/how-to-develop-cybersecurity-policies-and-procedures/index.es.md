@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Aprenda a desarrollar una política de ciberseguridad integral que se ajuste a las normas del sector y a los requisitos normativos para proteger la información confidencial de su organización y mitigar los ciberriesgos."
 genre: ["Tecnología", "Seguridad", "Conformidad", "Gestión de riesgos", "Protección de datos", "Gobernanza de la información", "Respuesta a incidentes", "Continuidad de las actividades", "Ciberamenazas", "Desarrollo de políticas"]
 tags: ["política de ciberseguridad", "procedimientos de ciberseguridad", "mejores prácticas del sector", "gestión de riesgos", "Normas NIST", "RMF", "PCI-DSS", "HIPAA", "FISMA", "protección de datos", "respuesta a incidentes", "continuidad de las actividades", "concienciación sobre seguridad", "cumplimiento de la normativa", "amenazas cibernéticas", "seguridad de los datos", "Gobernanza informática", "seguridad de la red", "seguridad de la información", "controles de seguridad", "desarrollo de la política de ciberseguridad", "procedimientos exhaustivos de ciberseguridad", "marco político de ciberseguridad", "normativa sobre ciberseguridad", "mitigación de riesgos de ciberseguridad", "planificación de la respuesta a incidentes", "prevención de la violación de datos", "formación en seguridad para empleados", "gestión del cumplimiento de la ciberseguridad", "privacidad y protección de datos"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "Ilustración de dibujos animados que representa un escudo que protege un servidor de red de las ciberamenazas."
 coverCaption: "Proteja su red: Defiéndase contra las ciberamenazas con políticas eficaces"
 ---

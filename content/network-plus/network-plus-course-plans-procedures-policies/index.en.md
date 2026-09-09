@@ -6,7 +6,7 @@ draft: false
 description: "Explore the importance of plans, procedures, and policies in network operations, including change management, incident response, and business continuity."
 genre: ["Network Operations", "IT Management", "Network Security", "Change Management", "Incident Response", "Disaster Recovery", "Business Continuity", "System Life Cycle", "Standard Operating Procedures", "Network Management"]
 tags: ["network operations", "change management", "incident response plan", "disaster recovery plan", "business continuity plan", "system life cycle", "standard operating procedures", "network management", "network stability", "network infrastructure", "network performance", "network security", "network professionals", "ITIL best practices", "NIST SP 800-53", "ISO IEC 27001", "network planning", "network monitoring", "network configuration", "network troubleshooting", "network optimization", "network reliability", "network architects", "SOPs", "network administrators", "downtime prevention", "data backup and restoration", "IT infrastructure recovery", "business continuity strategies", "network maintenance best practices"]
-cover: "/img/cover/A_symbolic_art_style_image_illustrating_networ.png"
+cover: "/img/cover/A_symbolic_art_style_image_illustrating_networ.webp"
 coverAlt: "A symbolic art style image illustrating network stability and security."
 coverCaption: "Building a Strong Network Foundation for Success and Resilience"
 ---

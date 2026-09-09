@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "探讨深度伪造的兴起、其威胁、挑战以及打击合成媒体操纵的监管措施。"
 tags: ["深假", "合成媒体", "人工智能技术", "误导", "假新闻", "欺骗", "隐私侵犯", "深层伪造检测", "监管框架", "教育", "认识", "数字时代", "技术", "社团", "挑战", "威胁", "打击深度伪造", "问责制", "合作", "高级算法"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "这是一幅象征性插图，描绘了一个人的脸被另一张脸取代的情景，表现了深度伪造的欺骗性及其在数字媒体操纵中带来的挑战。"
 coverCaption: ""
 ---

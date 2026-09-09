@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți avantajele și dezavantajele testării manuale și automate a software-ului pentru a lua o decizie informată pentru organizația dumneavoastră."
 tags: ["testare software", "testare manuală", "testare automată", "strategii de testare", "dezvoltarea de software", "asigurarea calității", "cazuri de testare", "acoperirea testelor", "testarea exploratorie", "experiența utilizatorului", "eficiență", "reutilizabilitate", "adaptabilitate", "eroare umană", "rezultate fals pozitive", "falsuri negative", "automatizarea testelor", "testare hibridă", "optimizarea resurselor", "practici de testare software", "alegerea strategiei corecte de testare software", "avantaje ale testării manuale", "dezavantajele testării automate", "combinarea testării manuale și automate", "optimizarea procesului de testare software"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "O ilustrație colorată a unui tester uman și a unui tester robot care lucrează împreună pentru a testa aplicații software."
 coverCaption: ""
 ---

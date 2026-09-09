@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, w jaki sposób AI rewolucjonizuje dziedzinę wykrywania i reagowania na zagrożenia, a także jakie wyzwania i ograniczenia ze sobą niesie."
 tags: ["Sztuczna inteligencja", "Cybersecurity", "Wykrywanie zagrożeń", "Reagowanie na zagrożenia", "Uczenie maszynowe", "Uczenie głębokie", "Przetwarzanie języka naturalnego", "Algorytmy AI", "Bezpieczeństwo sieci", "Bezpieczeństwo danych", "Cyberobrona", "Reagowanie na incydenty", "Zagrożenia wewnętrzne", "Zespoły ds. bezpieczeństwa", "Monitorowanie w czasie rzeczywistym", "Systemy oparte na regułach", "Cyberprzestępczość", "Podatności", "Adaptacyjne bezpieczeństwo", "Cyberodporność"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "Animowany obraz 3D przedstawiający tarczę z umieszczonymi na niej literami AI, blokującą nadlatujące strzałki symbolizujące cyberzagrożenia."
 coverCaption: ""
 ---

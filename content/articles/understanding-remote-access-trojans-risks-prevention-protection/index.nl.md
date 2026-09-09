@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de risico's van remote access trojans (RAT's) en leer effectieve preventie- en beschermingsmaatregelen om uw computersystemen en gegevens te beschermen."
 genre: ["Cyberbeveiliging", "Kwaadaardige software", "Computerbeveiliging", "Digitale bedreigingen", "Trojaanse paarden voor externe toegang", "Gegevensbescherming", "Privacy", "Cybercriminaliteit", "Netwerkbeveiliging", "Informatiebeveiliging"]
 tags: ["Trojaanse paarden voor toegang op afstand", "RAT's", "cyberbeveiliging", "schadelijke software", "computerveiligheid", "digitale bedreigingen", "gegevensbescherming", "privacyschending", "ongeoorloofd toezicht", "systeemstoring", "identiteitsdiefstal", "financiële fraude", "cyberbewustzijn", "netwerkbeveiliging", "informatiebeveiliging", "kwetsbaarheden in software", "phishingmails", "gegevensdiefstal", "systeemmanipulatie", "afstandsbediening", "cyberbeveiligingsmaatregelen", "bescherming van eindpunten", "sterke wachtwoorden", "firewall", "inbraakdetectie", "gegevensback-up", "gegevensbeveiliging", "cyberbedreigingen", "digitale veiligheid", "cyberdefensie"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "Een symbolische illustratie van een vergrendelde computer met kettingen, die de noodzaak van bescherming tegen remote access trojans weergeeft."
 coverCaption: "Uw digitale fort beschermen."
 ---

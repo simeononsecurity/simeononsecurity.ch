@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ソーシャル・エンジニアリング攻撃を防ぎ、従業員トレーニングやセキュリティ・ポリシーなどで組織の機密情報を保護する方法をご紹介します。"
 tags: ["ソーシャルエンジニアリング", "サイバーセキュリティ", "防止", "社員教育", "安全保護方針", "多要素認証", "アンチウィルス", "物理的安全保護", "官制", "FISMA", "ヒパア", "データ保護", "サイバー脅威", "ネットワークセキュリティ", "情報セキュリティ", "機密情報", "サイバー犯罪", "コンプライアンス", "サイバーセキュリティ戦略", "データ機密保護"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "釣り竿で人をおびき寄せようとするハッカーと、サイバーセキュリティを象徴する盾と錠前。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj kluczowe kroki, aby utwardzić infrastrukturę sieciową przed zaawansowanymi trwałymi zagrożeniami (APT) i chronić swoją organizację przed cyberatakami."
 tags: ["bezpieczeństwo sieci", "cybersecurity", "zaawansowane trwałe zagrożenia", "infrastruktura sieciowa", "kontrole dostępu", "szyfrowanie danych", "szkolenie pracowników", "plan reagowania na incydenty", "oceny podatności", "polityka bezpieczeństwa", "monitorowanie ruchu sieciowego", "ataki phishingowe", "ochrona punktów końcowych", "wykrywanie włamań", "firewalle", "SIEM", "kopia zapasowa danych", "segmentacja sieci", "zagrożenia cybernetyczne", "prywatność danych"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Kreskówkowa tarcza z ikoną zamka w środku reprezentująca bezpieczeństwo sieci przed APT"
 coverCaption: ""
 ---

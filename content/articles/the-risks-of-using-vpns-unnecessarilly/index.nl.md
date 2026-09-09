@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek waarom VPN's misschien niet nuttig zijn voor standaardgebruikers in een wereld waarin alles HTTPS gebruikt en hoe u uw VPN-provider kunt vertrouwen."
 tags: ["VPN", "Online privacy", "Internet Veiligheid", "MITM-aanvallen", "Virtuele particuliere netwerken", "Cyberbeveiliging", "Online veiligheid", "Encryptie", "HTTPS", "Gegevensbescherming", "Diensten van derden", "Privacyrisico's", "ISP", "Geo-beperkte inhoud", "Internet Censuur", "Openbare Wi-Fi", "Privacy van gegevens", "Online bescherming", "Webbeveiliging", "VPN-aanbieders"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "Een cartooneske computergebruiker surft op het internet, terwijl een gigantisch slotsymbool verschijnt om de privacy van de gebruiker te beschermen."
 coverCaption: ""
 ---

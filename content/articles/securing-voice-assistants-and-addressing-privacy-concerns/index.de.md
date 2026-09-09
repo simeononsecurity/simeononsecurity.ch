@@ -6,7 +6,7 @@ date: 2023-07-18
 description: "Erfahren Sie, wie Sie Sprachassistenten sichern und Ihre Privatsphäre mit effektiven Strategien gegen Datenschutzbedenken schützen können."
 genre: ["Technologie-Nachrichten", "Datenschutz und Sicherheit", "Intelligente Haushaltsgeräte", "Digitale Assistenten", "Datenschutz", "Unterhaltungselektronik", "Technische Gadgets", "Internet der Dinge", "Hausautomatisierung", "Datensicherheit"]
 tags: ["Sprachassistenten", "Bedenken hinsichtlich des Schutzes der Privatsphäre", "Datensicherheit", "Minderungsstrategien", "Smart-Home-Geräte", "digitale Assistenten", "Sprachsteuerung", "Datenschutzverletzungen", "Risiken für die Privatsphäre", "unbefugter Zugriff", "Lauschangriff", "Datenspeicherung", "Datenschutzeinstellungen", "datenschutz", "Integrationen von Drittanbietern", "Firmware-Updates", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "Alternativen zum Sprachassistenten", "Benutzerschulung", "Technologie-Nachrichten", "Bewusstsein für den Datenschutz", "sichere Nutzung des Sprachassistenten", "Schutz personenbezogener Daten", "intelligente Hausautomatisierung", "Technologietrends", "digitaler Datenschutz", "Unterhaltungselektronik", "datenschutzrechtliche Bestimmungen"]
-cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.png"
+cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.webp"
 coverAlt: "Eine Illustration im Cartoon-Stil, die eine Person zeigt, die mit einem Sprachassistenten spricht, mit einem Vorhängeschloss als Symbol für Privatsphäre und Sicherheit."
 ---
  Sicherheit von Sprachassistenten: Datenschutzbedenken und Abhilfestrategien

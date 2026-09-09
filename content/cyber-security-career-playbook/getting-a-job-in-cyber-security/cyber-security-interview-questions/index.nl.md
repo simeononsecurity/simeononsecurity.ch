@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-25
 description: "Ontdek de antwoorden en adviezen van experts voor veelvoorkomende cyberbeveiligingsinterviewvragen en zorg ervoor dat je succesvol bent op de concurrerende banenmarkt."
 tags: ["interview cyberbeveiliging", "interviewvragen", "baan in cyberbeveiliging", "carrière in cyberbeveiliging", "cyberbeveiligingsadvies", "cyberbeveiligingsvaardigheden", "cyberbeveiligingsprofessional", "cyberbeveiligingstrends", "beste praktijken op het gebied van cyberbeveiliging", "cyberbeveiligingsprincipes", "cyberbeveiligingscertificeringen", "blogs over cyberbeveiliging", "cyberbeveiligingsconferenties", "onderwijs in cyberbeveiliging", "cyberdreigingen", "netwerkbeveiliging", "gegevensbeveiliging", "reactie op incidenten", "beveiligingscontroles", "werknemersopleiding", "toegangscontroles", "data-encryptie", "netwerksegmentatie", "back-up en herstel", "risicobeheer voor derden", "cyberbewustzijn", "updates cyberbeveiliging", "kwetsbaarheden in cyberbeveiliging", "voorschriften voor cyberbeveiliging"]
-cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.png"
+cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.webp"
 coverAlt: "Een stripfiguur die een superheldencape draagt en een schild vasthoudt met een slotsymbool erop."
 coverCaption: "Ontgrendel je potentieel in cyberbeveiligingsinterviews."
 ---

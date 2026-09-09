@@ -6,7 +6,7 @@ date: 2022-02-13
 description: "Learn how to replace or re-flash the Nebra Indoor and Outdoor, First and Second generation, EMMC Key SD Card and fix Helium Miner syncing issues with this guide."
 genre: ["Technology", "Cryptocurrency", "Hardware", "Helium Mining", "Troubleshooting", "SD Card Replacement", "Syncing Issues", "Raspberry Pi", "Balena Etcher", "Nebra Helium Miner"]
 tags: ["Nebra Helium Miner", "SD Card Replacement", "Syncing Issues", "Helium Mining", "Troubleshooting", "Raspberry Pi", "Balena Etcher", "Hardware Guide", "SD Card Upgrade", "Resolving Synchronization Issues", "Step-by-Step Guide", "Helium Miner Sync Fix", "Nebra Indoor Miner", "Nebra Outdoor Miner", "Raspberry Pi Compute Module 3", "Balena Raspberry Pi CM3 Image", "Troubleshooting Helium Miners", "Nebra Mining Equipment", "Balena Etcher Software", "Replacing EMMC Key on Nebra Miner", "SD Card Repair for Helium Miner", "Fixing Helium Miner Sync Issues", "Nebra Miner SD Card Replacement", "Guide to Nebra Helium Miner Troubleshooting", "Helium Mining Tips", "Upgrading Nebra Helium Miner SD Card", "How to Reimage Nebra Miner SD Card", "Troubleshooting Nebra Helium Miner Syncing Problems"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp"
 coverAlt: "A cartoon illustration of a person holding a Nebra Helium Miner with an open panel revealing the SD card slot and the steps of the guide appearing as a guidebook floating above the device."
 coverCaption: "Solve sync issues and upgrade your Helium Miner with ease."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索使用开源安全工具改善组织安全状况的好处和挑战。"
 tags: ["开源安全工具", "网络安全", "社区支持", "透明度", "成本节约", "灵活性", "专利工具", "安全风险", "技能", "软件许可费", "总拥有成本", "商业支持", "编程语言", "整合", "安全测试", "审计", "NIST", "CISA", "OWASP", "美国国家标准与技术研究院"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "一个卡通风格的工具箱图像，每个工具上都有开放源码标识，中间还有一个带锁的盾牌，代表网络安全，背景都是二进制代码。"
 coverCaption: ""
 ---

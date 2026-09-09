@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本文讨论了在交易所存储加密货币的危险，解释了为什么它等同于将钱存储在床垫中，并强调了使用硬件钱包进行安全存储的好处。"
 tags: ["加密货币存储", "汇兑风险", "硬件钱包", "网络安全", "投资加密货币", "安全储存", "私钥", "便携钱包", "政府监管"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "带有挂锁和链条的硬件钱包，象征着在硬件钱包中存储加密货币的安全性。"
 coverCaption: ""
 ---

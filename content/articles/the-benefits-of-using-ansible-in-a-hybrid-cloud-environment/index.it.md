@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come le funzionalità di automazione di Ansible possono semplificare, proteggere e ottimizzare gli ambienti cloud ibridi per migliorare la produttività."
 tags: ["Operazioni", "CICD", "scalability", "prestazioni", "sicurezza", "compliance", "integrazione", "Servizi Web di Amazon", "Microsoft Azure", "Google Cloud", "Torre Ansible", "Galassia Ansible", "Ansible Vault", "risparmio sui costi", "Efficienza IT"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Una vivace illustrazione animata in 3D di una nuvola con ingranaggi all'interno, che rappresenta un ambiente cloud ibrido e mostra la gestione efficiente e automatizzata dell'infrastruttura cloud."
 coverCaption: ""
 ---

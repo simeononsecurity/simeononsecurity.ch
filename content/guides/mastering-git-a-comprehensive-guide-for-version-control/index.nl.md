@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Word bedreven in Git met deze uitgebreide gids die alles behandelt van installatie en configuratie tot branching, samenvoegen en samenwerking."
 tags: ["Git", "versiebeheer", "Git tutorials", "Git gids", "Git grondbeginselen", "Git commando's", "Git installatie", "Git-configuratie", "branchen in Git", "samenvoegen in Git", "samenwerking in Git", "gedistribueerd versiebeheer", "code versioning", "Git workflow", "Git tips", "Git best practices", "Git voor beginners", "Git voor ontwikkelaars", "softwareontwikkeling", "samenwerkingscode", "Git beheersen", "uitgebreide Git gids", "Git versiebeheer tutorial", "Git branchen en samenvoegen", "Git samenwerkingstips"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "Een symbolische illustratie met twee onderling verbonden tandwielen die staan voor samenwerking en versiebeheer, met het Git-logo geïntegreerd in het ontwerp."
 coverCaption: ""
 ---

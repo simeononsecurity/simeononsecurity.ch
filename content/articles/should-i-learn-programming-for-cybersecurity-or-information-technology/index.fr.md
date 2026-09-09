@@ -6,7 +6,7 @@ draft: false
 description: "Apprenez pourquoi la maîtrise des compétences en programmation peut grandement bénéficier à votre carrière dans l'informatique et la cybersécurité, et comment commencer avec PowerShell, Bash, Python, Ansible, Packer et Terraform."
 genre: ["Technologies de l'information et cybersécurité", "Compétences en programmation", "Avancement de la carrière", "Automatisation", "Ligne de commande", "Scripting", "Déploiement de l'infrastructure", "Analyse des données", "Tests de sécurité", "Développement professionnel"]
 tags: ["Technologies de l'information et cybersécurité", "Compétences en programmation", "Avancement de la carrière", "PowerShell", "Le cambriolage", "Python", "Ansible", "Packer", "Terraform", "Automatisation", "Ligne de commande", "Scripting", "Déploiement de l'infrastructure", "Analyse des données", "Tests de sécurité", "Carrières en informatique", "Carrières en cybersécurité", "Professionnels de l'informatique", "Professionnels de la cybersécurité", "Automatisation des réseaux", "Analyse de la sécurité", "Langages de script", "Gestion de la configuration", "L'infrastructure en tant que code", "Automatisation des technologies de l'information", "Industrie des technologies de l'information", "Industrie de la cybersécurité", "Marché de l'emploi", "Compétences informatiques"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Une personne assise devant un ordinateur, tapant du code dans une interface de ligne de commande avec des lignes de texte défilant à l'écran. "
 coverCaption: "Débloquer la puissance de la programmation pour l'informatique et la cybersécurité."
 ---

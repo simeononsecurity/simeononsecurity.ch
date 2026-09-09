@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj korzyści, wyzwania i najlepsze praktyki dotyczące wdrażania polityki BYOD w Twojej organizacji."
 tags: ["BYOD policy", "bring-your-own-device", "zarządzanie urządzeniami mobilnymi", "wydajność", "zagrożenia bezpieczeństwa", "oszczędność kosztów", "szkolenie pracowników", "protokoły bezpieczeństwa", "szyfrowanie danych", "wsparcie techniczne", "zadania związane z pracą", "zadowolenie z pracy", "polityka firmy", "zdalne wycieranie", "Oprogramowanie MDM", "urządzenia pracownicze", "środki bezpieczeństwa", "wykorzystanie urządzenia", "zgodność", "właściwe zastosowanie"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "Kreskówkowy wizerunek osoby żonglującej różnymi urządzeniami osobistymi (laptop, smartfon, tablet) oraz przedmiotami związanymi z pracą (dokumenty, kubek z kawą)"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to effectively utilize Address Resolution Protocol (ARP) and Neighbor Discovery Protocol (NDP) to resolve IP addresses to MAC addresses, navigate IPv6 networks, and troubleshoot common issues for optimized network performance and security."
 genre: ["Technology", "Networking", "Protocols", "Network+ Certification", "Troubleshooting", "Network Security", "IPv4", "IPv6", "Network Communication", "Address Resolution"]
 tags: ["ARP", "Address Resolution Protocol", "Neighbor Discovery Protocol", "NDP", "IP address", "MAC address", "network communication", "troubleshooting", "network optimization", "network security", "IPv4", "IPv6", "network protocols", "address resolution", "network administrators", "CompTIA Network+ certification", "network devices", "ARP cache", "ARP spoofing", "NDP messages", "Router Advertisement", "Neighbor Solicitation", "Neighbor Advertisement", "Router Solicitation", "network traffic analysis", "firmware updates", "network performance", "network connectivity", "Resolving IP addresses to MAC addresses", "Explaining Neighbor Discovery Protocol", "Troubleshooting ARP and NDP issues", "Network communication protocols", "Optimizing network performance", "Enhancing network security", "IPv6 network configuration", "Clearing ARP cache", "Detecting ARP spoofing", "Analyzing network traffic"]
-cover: "/img/cover/A_symbolic_illustration_depicting_the_seamless.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_the_seamless.webp"
 coverAlt: "A symbolic illustration depicting the seamless connection between ARP and NDP protocols."
 coverCaption: "Unlock the Power of ARP and NDP: Building Reliable Network Communication."
 ---

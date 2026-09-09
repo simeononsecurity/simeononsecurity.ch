@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți riscurile pe care le prezintă troienii de acces la distanță (RAT) și învățați măsuri eficiente de prevenire și protecție pentru a vă proteja sistemele și datele informatice."
 genre: ["Securitatea cibernetică", "Software rău intenționat", "Securitate informatică", "Amenințări digitale", "Troieni de acces la distanță", "Protecția datelor", "Confidențialitate", "Criminalitatea informatică", "Securitatea rețelelor", "Securitatea informațiilor"]
 tags: ["troieni de acces la distanță", "RATs", "securitate cibernetică", "software malițios", "securitate informatică", "amenințări digitale", "protecția datelor", "încălcarea confidențialității", "supraveghere neautorizată", "întreruperea sistemului", "furt de identitate", "fraudă financiară", "conștientizarea securității cibernetice", "securitatea rețelei", "securitatea informațiilor", "vulnerabilități software", "e-mailuri de phishing", "furt de date", "manipularea sistemului", "telecomandă", "măsuri de securitate cibernetică", "protecție endpoint", "parole puternice", "firewall", "detectarea intruziunilor", "backup de date", "securitatea datelor", "amenințări cibernetice", "securitate digitală", "apărare cibernetică"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "O ilustrație simbolică a unui computer încuiat cu lanțuri, reprezentând necesitatea de protecție împotriva troienilor de acces la distanță."
 coverCaption: "Protejarea fortăreței tale digitale."
 ---

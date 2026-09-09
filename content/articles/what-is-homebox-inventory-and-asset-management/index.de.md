@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von Homebox, einer Open-Source-Software für die effiziente Verwaltung von Inventar und Vermögenswerten, die die Produktivität in Ihrem Haushalt oder Ihrem kleinen Unternehmen steigert."
 genre: ["Technologie", "Inventarverwaltung", "Asset Management", "Offene Quelle", "Produktivität", "Kleines Unternehmen", "Hausverwaltung", "Selbst gehostet", "Software", "Organisation"]
 tags: ["Homebox", "Bestandsverwaltung", "Asset Management", "offene Quelle", "selbst gehostet", "Software", "Produktivität", "kleines Unternehmen", "Hausverwaltung", "Organisation", "zentrale Bestandsaufnahme", "Anlagenverfolgung", "benutzerdefinierte Datenfelder", "Mahnungen", "Berichterstattung", "Datenschutz", "Compliance", "staatliche Vorschriften", "Webserver", "Datenbank", "Installationsvorgang", "GitHub-Repository", "Datensicherheit", "Datenschutz", "Buchführung", "Datenschutz und Datensicherheit", "Installationsanweisungen", "Webschnittstelle", "Datenschutz", "Einhaltung der lokalen Gesetze"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Eine Cartoon-Illustration einer Person, die verschiedene Gegenstände mit der Homebox-Software organisiert."
 coverCaption: "Optimieren Sie Ihr Inventar und Ihre Vermögenswerte mit Homebox und steigern Sie so Ihre Effizienz!"
 ---

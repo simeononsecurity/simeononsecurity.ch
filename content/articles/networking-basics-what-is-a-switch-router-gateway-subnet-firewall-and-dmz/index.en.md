@@ -6,7 +6,7 @@ date: 2023-07-21
 description: "Discover the fundamentals of networking components and their significance in building reliable and secure networks, including switches, routers, gateways, subnets, firewalls, and DMZs."
 genre: ["Networking", "IT Infrastructure", "Network Security", "Network Architecture", "Cybersecurity", "Data Communication", "Information Technology", "IT Fundamentals", "Network Management", "Internet Connectivity"]
 tags: ["networking basics", "switches", "routers", "gateways", "subnets", "firewalls", "DMZs", "local area network", "LAN", "network connectivity", "internet access", "IP address management", "network segmentation", "network security", "subnetting", "firewall protection", "network performance", "network architecture", "data communication", "network management", "cybersecurity", "network infrastructure", "IT fundamentals", "information technology", "data traffic management", "IT security", "network design", "IT compliance", "network protocols", "network troubleshooting", "network administration"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected.webp"
 coverAlt: "A symbolic illustration showing interconnected devices with switches, routers, gateways, and firewalls."  
 coverCaption: "helping secure and reliable networks with networking essentials."
 ---

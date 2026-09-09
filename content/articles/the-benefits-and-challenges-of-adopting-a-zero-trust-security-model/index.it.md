@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplora i vantaggi e le sfide dell'adozione di un modello di sicurezza Zero Trust nell'era digitale odierna."
 tags: ["Sicurezza a fiducia zero", "Sicurezza informatica", "Sicurezza di rete", "Sicurezza in-the-cloud", "Protezione dei dati", "Modello di sicurezza", "Autenticazione", "Autorizzazione", "Crittografia", "Compliance", "HIPAA", "GDPR", "PCI DSS", "Esperienza utente", "Costo", "Complessità", "Sicurezza a più livelli", "Visibilità", "Flessibilità", "Violazioni della sicurezza"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Un lucchetto e una chiave in piedi su un cavo di rete, a rappresentare simbolicamente la Zero Trust Security."
 coverCaption: ""
 ---

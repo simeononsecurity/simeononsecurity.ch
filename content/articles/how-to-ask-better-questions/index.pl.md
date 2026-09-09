@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zadawać konkretne i trafne pytania, i uniknąć straty czasu."
 tags: ["wydajność", "komunikacja", "rozwiązywanie problemów", "badania", "rozmowa", "przesłuchanie", "informacje", "zobowiązanie", "wiedza specjalistyczna", "zarządzanie czasem", "wiedza", "umiejętności", "nauka", "współpraca", "krytyczne myślenie", "ciekawość", "focus", "analiza", "zapytanie", "ciekawość"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "osoba trzymająca megafon, otoczona znakami zapytania i wykrzyknikami, reprezentująca znaczenie zadawania skutecznych pytań i poszukiwania wartościowych spostrzeżeń"
 coverCaption: ""
 ---

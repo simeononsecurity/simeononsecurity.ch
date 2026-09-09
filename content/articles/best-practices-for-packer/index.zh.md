@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解使用 Packer 高效、安全地创建镜像的最佳实践，实现流程自动化并确保跨平台的一致性。"
 tags: ["包装机最佳实践", "创建包装镜像", "自动图像创建", "机器图像优化", "再现性", "包装机制造商", "包装机供应器", "安全图像配置", "优化图像大小", "图像验证", "打包机文档", "Packer GitHub 代码库", "AWS EC2 映像生成器", "Azure 图像生成器", "VMware Packer 生成器", "包装机效益", "基础设施即代码集成", "Packer 的版本控制", "精益机械图像", "图像压缩技术", "自动图像测试", "人工图像测试", "图像验证最佳实践", "软件部署工作流程", "一致的软件环境", "包装工搜索引擎优化技巧", "包装机图像自动化", "图像创建效率", "安全图像创建", "优化的机器图像"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.webp"
 coverAlt: "这是一幅卡通插图，其中的 Packer 工具图标具有高效和安全的功能，可用于堆叠图像。"
 coverCaption: ""
 ---

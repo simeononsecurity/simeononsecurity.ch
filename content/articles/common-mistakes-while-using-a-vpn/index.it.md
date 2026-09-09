@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Proteggete la vostra privacy online evitando questi errori comuni delle VPN che possono far trapelare accidentalmente il vostro indirizzo IP pubblico."
 tags: ["Errori delle VPN", "Perdite IP", "online privacy", "sicurezza informatica", "sicurezza in Internet", "rete privata virtuale", "WebRTC", "Server DNS", "Fornitore di VPN", "autenticazione a due fattori", "Software VPN", "interruttore di spegnimento", "data privacy", "privacy in internet", "minacce informatiche", "sicurezza dei dati", "sicurezza della rete", "sicurezza online", "anonimato online", "navigazione anonima"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Un personaggio dei cartoni animati in piedi su un computer portatile con una lente di ingrandimento, alla ricerca della privacy online."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Potenzia il segnale del tuo cellulare a casa con le nostre migliori scelte per una connettività affidabile e una copertura per tutta la casa."
 tags: ["Amplificatori di segnale per telefoni cellulari", "Webboost", "Hi Boost", "Connettività domestica", "Copertura del telefono cellulare", "Femtocella", "Amplificatori di segnale cellulare", "Amplificatori di segnale wireless", "Dispositivi di potenziamento del segnale", "Connettività mobile", "Ricezione di telefoni cellulari", "Internet domestico", "Amplificatori wireless", "Elettronica", "Migliorie di casa", "Telecomunicazioni", "Tecnologia", "Case intelligenti", "Chiamata Wi-Fi", "Rete mobile"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "Un'immagine in stile cartone animato di una persona in possesso di un telefono cellulare e in piedi accanto a un booster con barre del segnale in aumento."
 coverCaption: ""
 ---

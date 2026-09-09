@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Deveniți expert în Git cu ajutorul acestui ghid cuprinzător care acoperă totul, de la instalare și configurare până la ramificare, fuziune și colaborare."
 tags: ["Git", "controlul versiunilor", "Tutoriale Git", "Ghid Git", "Noțiuni de bază Git", "Comenzi Git", "Instalarea Git", "Configurația Git", "ramificarea în Git", "îmbinarea în Git", "colaborare în Git", "controlul distribuit al versiunilor", "versionarea codului", "Fluxul de lucru Git", "Sfaturi Git", "Cele mai bune practici Git", "Git pentru începători", "Git pentru dezvoltatori", "dezvoltarea de software", "cod de colaborare", "Stăpânirea Git", "ghid Git cuprinzător", "Tutorial de control al versiunii Git", "Branșarea și îmbinarea Git", "Sfaturi de colaborare Git"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "O ilustrație simbolică ce înfățișează două angrenaje interconectate, reprezentând colaborarea și controlul versiunilor, cu logo-ul Git integrat în design."
 coverCaption: ""
 ---

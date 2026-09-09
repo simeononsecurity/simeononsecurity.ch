@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Obteniu informació sobre com actualitzar el microprogramari d'Ubiquiti Unifi UDM Pro i UDM SE fora de línia mitjançant SSH de línia d'ordres per obtenir un rendiment i una seguretat òptims."
 tags: ["Actualització del firmware Ubiquiti", "UDM Pro", "UDM SE", "actualització de firmware fora de línia", "línia d'ordres SSH", "gestió de la xarxa", "seguretat de la xarxa", "actualització del firmware", "Connexió SSH", "fitxer de firmware", "Controlador de xarxa UniFi", "reparació d'errors", "millores de rendiment", "pedaços de seguretat", "treball en xarxa", "dispositius de xarxa", "tecnologia", "gestió informàtica", "procés d'actualització del firmware", "optimització de la xarxa", "Actualització del firmware d'Ubiquiti Networks", "Actualització del firmware UDM Pro", "Actualització del firmware UDM SE", "procés d'actualització del firmware fora de línia", "Actualització del firmware SSH", "gestió de dispositius de xarxa", "actualitzacions de seguretat de la xarxa", "estratègies d'actualització del firmware", "gestió de firmware fora de línia", "optimització del rendiment de la xarxa", "gestió de pedaços de seguretat", "actualitzacions tecnològiques de xarxes"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Una il·lustració acolorida que representa un ordinador connectat a un encaminador mitjançant SSH que simbolitza el procés d'actualització del microprogramari fora de línia per als dispositius Ubiquiti Unifi UDM Pro i UDM SE."
 coverCaption: ""
 ---

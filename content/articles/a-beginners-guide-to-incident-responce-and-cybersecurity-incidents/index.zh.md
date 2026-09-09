@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过本初级指南了解事件响应和处理网络安全事件的基础知识。"
 tags: ["事件响应", "网络安全", "入门指南", "数据保护", "数据安全", "信息技术安全", "网络安全", "网络攻击", "信息安全", "网络犯罪", "数字安全", "信息技术基础设施", "数据泄露", "网络威胁", "网络防御", "事件管理", "数据恢复", "安全规划", "风险管理", "网络安全战略"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "网络安全超级英雄保卫城市免受网络威胁的卡通形象。"
 coverCaption: ""
 ---

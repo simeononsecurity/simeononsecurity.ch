@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a manipular a rede Helium explorando vulnerabilidades com MiddleMan e Chirp Stack Packet Multiplexer, bem como os riscos e consequências de fazê-lo."
 tags: ["rede de hélio", "Comprovante de Cobertura", "Intermediário", "Multiplexador de pacote de pilha Chirp", "jogos", "explorando vulnerabilidades", "rede LoRaWAN", "criptomoeda", "blockchain", "rede descentralizada", "pontos de acesso", "falsificação", "trapaceando", "atividade ilegal", "penalidades", "integridade da rede", "recompensas", "atores maliciosos", "segurança de rede", "hosts legítimos"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Uma representação caricatural de um grupo de indivíduos explorando um balão de hélio com uma imagem de um gateway LoRaWAN e MiddleMan ou Chirp Stack Packet Multiplexer ao fundo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate i passi essenziali da compiere se sospettate che la vostra e-mail, il vostro desktop o il vostro telefono siano stati violati o compromessi, tra cui la modifica delle password, la scansione alla ricerca di malware e la pulizia del dispositivo."
 tags: ["sicurezza del dispositivo", "protezione dei dati", "dispositivo compromesso", "email violate", "telefono violato", "malware", "rimozione dei virus", "sicurezza della password", "backup dei dati", "autenticazione a due fattori", "sicurezza informatica", "sicurezza online", "digital privacy", "furto d'identità", "frode online", "assistenza tecnica", "riparazione computer", "recupero dati", "Servizi IT", "tecnologia"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Un'immagine a fumetti di una persona in piedi davanti a un computer o a un telefono con un'espressione preoccupata, mentre un hacker a fumetti si aggira sullo sfondo."
 coverCaption: ""
 ---

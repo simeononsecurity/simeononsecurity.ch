@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Lernen Sie die Grundlagen der PowerShell-Skripterstellung und automatisieren Sie Aufgaben mit diesem schrittweisen Leitfaden für Anfänger, der Cmdlets, Schleifen, Funktionen und mehr umfasst."
 genre: ["Technologie", "Programmierung", "Automatisierung", "Windows", "Skripting", "IT", "Administrative Aufgaben", "Computer-Management", "Software-Entwicklung", "Codierung"]
 tags: ["PowerShell-Skripterstellung", "PowerShell-Automatisierung", "Windows-Skripting", "PowerShell-Cmdlets", "PowerShell-Module", "PowerShell-Schleifen", "PowerShell-Bedingungsanweisungen", "PowerShell-Funktionen", "Bewährte PowerShell-Verfahren", "PowerShell-Debugging", "PowerShell-Tests", "PowerShell-Variablen", "PowerShell ISE", "PowerShell-Fernsteuerung", "Microsoft-Technologien", "IT-Automatisierung", "Computerverwaltung", "Coding für Anfänger", "Verwaltungsaufgaben", "Ideen für PowerShell-Skripte", "automatisierte Backups", "Dateiverwaltung", "Systeminformationen", "Benutzerverwaltung", "Software-Installation", "Netzwerkkonfiguration", "Sicherheitsautomatisierung", "Task-Planung", "Registry-Manipulation", "Fernverwaltung"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Eine Zeichentrickfigur, die ein Skript in der Hand hält und vor einem Computer mit PowerShell-Eingabeaufforderung steht, was darauf hindeutet, dass die PowerShell-Skripterstellung für Anfänger einfach ist"
 coverCaption: ""
 ---

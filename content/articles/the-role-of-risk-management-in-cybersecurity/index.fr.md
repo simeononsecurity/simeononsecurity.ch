@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'importance de la gestion des risques en matière de cybersécurité et comment créer un programme adapté à votre entreprise."
 tags: ["cybersécurité", "la gestion des risques", "posture de sécurité", "l'évaluation des risques", "atténuation des risques", "surveillance des risques", "menaces", "vulnérabilités", "la sécurité de l'information", "protection des données", "conformité", "cyberattaques", "prise de décision", "réduction des coûts", "continuité des activités", "l'analyse des risques", "l'identification des risques", "le contrôle des risques", "traitement du risque", "l'amélioration continue"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Un bouclier avec un cadenas et une clé symbolise la cybersécurité, et une loupe au-dessus représente la gestion des risques."
 coverCaption: ""
 ---

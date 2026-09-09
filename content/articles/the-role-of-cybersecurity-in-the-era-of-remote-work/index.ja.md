@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "リモートワークの時代において、組織がリモートワークの安全を確保するための包括的なガイドです。"
 tags: ["サイバーセキュリティ", "リモートワーク", "情報漏えい", "仮想私設通信網", "二要素認証", "けいび", "セキュアコミュニケーション", "サイバー脅威", "アンチウイルスソフト", "フィッシングメール", "パスワード管理", "在宅ワーク", "データ保護", "オンラインセキュリティ", "社員用セキュリティ", "リモートワーカー", "サイバークライマーズ", "テレビ会議", "暗号化メッセージング", "仮想私設通信網"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "サイバーセキュリティを表す盾と剣を背景に、ロックがかかったノートPCを描いた漫画イラスト。"
 coverCaption: ""
 ---

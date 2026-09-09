@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați de amenințările online, cum ar fi hacking-ul, campaniile de denigrare și furtul de identitate, cu ajutorul acestor sfaturi utile."
 tags: ["securitate cibernetică", "siguranța online", "furt de identitate", "hacking", "campanii de defăimare", "social media", "parole", "autentificare cu doi factori", "înghețarea creditului"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "O persoană care ține un lacăt în fața unui ecran de calculator pe care este afișat un mesaj pe care scrie Protejat"
 coverCaption: ""
 ---

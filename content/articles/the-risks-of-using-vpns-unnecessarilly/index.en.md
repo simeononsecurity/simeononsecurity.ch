@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover why VPNs may not be useful for standard users in a world where everything uses HTTPS and how to trust your VPN provider."
 tags: ["VPN", "Online Privacy", "Internet Security", "MITM Attacks", "Virtual Private Networks", "Cybersecurity", "Online Safety", "Encryption", "HTTPS", "Data Protection", "Third-party Services", "Privacy Risks", "ISP", "Geo-restricted Content", "Internet Censorship", "Public Wi-Fi", "Data Privacy", "Online Protection", "Web Security", "VPN Providers"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "A cartoon computer user surfing on the internet, while a giant lock symbol appears to protect the user's privacy."
 coverCaption: ""
 ---

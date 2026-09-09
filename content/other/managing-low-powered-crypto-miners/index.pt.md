@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Explore as melhores práticas e ferramentas para gerenciar uma frota de mineradores de baixa potência, incluindo remote.it, ngrok, OpenVPN, WireGuard e muito mais."
 tags: ["mineiros de baixa potência", "acesso remoto", "segurança de rede", "openvpn", "guarda-fios", "bufar", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Uma imagem de desenho animado de vários mineradores de baixa potência conectados a um hub de rede com as ferramentas discutidas no artigo."
 coverCaption: ""
 ---

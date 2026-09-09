@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați pașii esențiali pe care trebuie să îi luați dacă bănuiți că e-mailul, desktopul sau telefonul dvs. au fost piratate sau compromise, inclusiv schimbarea parolelor, scanarea pentru malware și ștergerea dispozitivului."
 tags: ["securitatea dispozitivului", "protejarea datelor", "dispozitiv compromis", "e-mail piratat", "telefon spart", "malware", "eliminarea virusului", "securitatea parolei", "copia de rezerva a datelor", "autentificare cu doi factori", "securitate cibernetică", "siguranța online", "confidențialitate digitală", "furt de identitate", "fraudă online", "suport tehnic", "reparatie calculator", "recuperare date", "Servicii IT", "tehnologie"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "O imagine de desene animate a unei persoane care stă în fața unui computer sau a unui telefon cu o expresie îngrijorată, în timp ce un hacker de desene animate pândește în fundal."
 coverCaption: ""
 ---

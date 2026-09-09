@@ -5,7 +5,7 @@ draft: false
 description: "تعرف على كيفية فك شيفرات Fernet و Malboge لحل تحدي تشفير HackTheBox وكشف العلم المخفي."
 tags: ["هاكذا بوكس", "التحديات", "تشفير", "فك تشفير", "اكتب", "فيرنيت شيفر", "مالبوج شيفر", "التشفير المتماثل", "الأمن الإلكتروني", "التشفير", "اختبار الاختراق", "بايثون", "حماية", "تحدي", "CTF", "علَم", "التشفير", "فك التشفير", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "متسلل كرتوني يقف بجوار قفل كبير بيد واحدة تحمل مفتاح شعار Fernet والأخرى تحمل مفتاح شعار Malboge بينما يظهر العلم داخل القفل"
 coverCaption: ""
 ---

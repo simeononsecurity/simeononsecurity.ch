@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie die perfekte Cybersecurity-Versicherungspolice auswählen, um Ihr Unternehmen vor Cyberbedrohungen zu schützen."
 tags: ["Cybersicherheitsversicherung", "datenschutz", "Risikomanagement", "Cybersicherheitspolitik", "Datensicherheit", "Cyber-Angriffe", "Cyber-Versicherung", "Netzwerksicherheit", "Geschäftskontinuität", "Versicherungsschutz", "Datenschutzverletzung", "Versicherungspolice", "IT-Sicherheit", "Vorfallreaktion", "Risikobewertung", "Internetkriminalität", "finanzielle Absicherung", "Cyber-Bedrohungen", "Versicherungsansprüche", "Unternehmensversicherung"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Eine Karikatur eines Geschäftsinhabers, der ein Schild mit der Aufschrift Cybersicherheitsversicherung hält und Cyberbedrohungen abwehrt."
 coverCaption: ""
 ---

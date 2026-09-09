@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "信頼できる高評価のセキュリティおよびプライバシー関連の製品およびリソースに関する SimeonOnSecurity の専門家の推奨事項をご覧ください。"
 tags: ["セキュリティに関する推奨事項", "プライバシー製品", "サイバーセキュリティツール", "データ保護", "インターネットのプライバシー", "ウイルス対策", "本", "ブラウザプラグイン", "認証", "電子メールプロバイダー", "毎日持ち歩く", "ハッカーツールキット", "ヘッドフォン", "マイク", "スピーカー", "学習リソース", "メッセンジャークライアント", "支援する団体", "プライバシーリソース", "SIP DID VOIP プロバイダー"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "セキュリティとプライバシー保護を象徴するロックが付いたシールドの漫画風の画像。背景にラップトップまたはモバイル デバイスが表示されます。"
 coverCaption: ""
 ---

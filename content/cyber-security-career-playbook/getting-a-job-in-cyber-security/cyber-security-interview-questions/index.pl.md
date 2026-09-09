@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-25
 description: "Odkryj odpowiedzi ekspertów i porady dotyczące typowych pytań na rozmowach kwalifikacyjnych z zakresu cyberbezpieczeństwa, zapewniając sobie sukces na konkurencyjnym rynku pracy."
 tags: ["wywiad dotyczący cyberbezpieczeństwa", "pytania do wywiadu", "cyberbezpieczeństwo praca", "kariera w cyberbezpieczeństwie", "porady dotyczące cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "specjalista ds. cyberbezpieczeństwa", "trendy w cyberbezpieczeństwie", "najlepsze praktyki cyberbezpieczeństwa", "zasady cyberbezpieczeństwa", "certyfikaty cyberbezpieczeństwa", "blogi o cyberbezpieczeństwie", "konferencje dotyczące cyberbezpieczeństwa", "edukacja w zakresie cyberbezpieczeństwa", "zagrożenia cyberbezpieczeństwa", "bezpieczeństwo sieci", "bezpieczeństwo danych", "reakcja na incydent", "kontrole bezpieczeństwa", "szkolenie pracowników", "kontrola dostępu", "szyfrowanie danych", "segmentacja sieci", "tworzenie kopii zapasowych i odzyskiwanie danych", "zarządzanie ryzykiem stron trzecich", "świadomość cyberbezpieczeństwa", "Aktualizacje dotyczące cyberbezpieczeństwa", "luki w cyberbezpieczeństwie", "regulacje dotyczące cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.png"
+cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.webp"
 coverAlt: "Postać z kreskówki ubrana w pelerynę superbohatera, trzymająca tarczę z symbolem kłódki."
 coverCaption: "Uwolnij swój potencjał podczas rozmów kwalifikacyjnych dotyczących cyberbezpieczeństwa."
 ---

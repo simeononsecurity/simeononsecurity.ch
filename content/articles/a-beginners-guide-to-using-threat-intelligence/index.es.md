@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Mejore su postura de ciberseguridad con esta guía para principiantes sobre la inteligencia de amenazas y su importancia."
 tags: ["Inteligencia sobre amenazas", "Ciberseguridad", "Guía para principiantes", "Tácticas", "Técnicas", "Procedimientos", "Análisis de datos", "Vulnerabilidades", "Operaciones de seguridad", "Aprendizaje automático", "Minería de datos", "Toma de decisiones", "Automatización", "Comunidad", "Supervisión de la Dark Web", "Registros de red interna", "Respuesta a incidentes", "Campañas de phishing", "Malware", "Planificación estratégica"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Una lupa animada en 3D con un ojo en el centro, flotando sobre un fondo de código binario."
 coverCaption: ""
 ---

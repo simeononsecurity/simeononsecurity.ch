@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u een cyberbestendige infrastructuur kunt opbouwen met een effectieve planning en best practices voor noodherstel."
 tags: ["cyberweerbaarheid", "noodherstelplanning", "DRP", "risicobeheer", "bedrijfscontinuïteit", "gegevensbescherming", "regelnaleving", "NIST Cybersecurity Framework", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "cloudback-up", "software voor back-up en herstel", "instrumenten voor risicobeoordeling", "diensten voor incidentenbestrijding", "cyberbeveiliging", "informatiebeveiliging", "IT-infrastructuur"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Een schild met een vinkje en de woorden Cyber Resilient Infrastructure erop geschreven, omgeven door vallende pixels en een achtergrond van een brandende stad."
 coverCaption: ""
 ---

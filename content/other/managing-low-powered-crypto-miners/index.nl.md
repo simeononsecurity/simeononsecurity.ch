@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Ontdek de beste praktijken en hulpmiddelen voor het beheer van een vloot van miners met weinig vermogen, waaronder remote.it, ngrok, OpenVPN, WireGuard en meer."
 tags: ["mijnwerkers met weinig vermogen", "toegang op afstand", "netwerkbeveiliging", "openvpn", "draadbescherming", "snort", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Een cartoonbeeld van meerdere low-powered miners verbonden met een netwerkhub met de in het artikel besproken instrumenten."
 coverCaption: ""
 ---

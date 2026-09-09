@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment mettre en place un VPN sécurisé et résilient pour les employés distants de votre entreprise, afin de garantir un accès sécurisé aux ressources de l'entreprise."
 tags: ["VPN", "travail à distance", "VPN d'entreprise", "sécurité des réseaux", "chiffrement", "les protocoles de tunneling", "Configuration du VPN", "Serveur VPN", "Sécurité VPN", "VPN maintenance", "Surveillance VPN", "VPN solution", "l'authentification", "la sécurité des données", "vie privée", "performance", "évolutivité", "la compatibilité", "formation des employés", "meilleures pratiques"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "Image animée en 3D représentant un tunnel sécurisé reliant l'ordinateur portable d'un travailleur à distance à un bâtiment de l'entreprise, symbolisant la connexion VPN. Une icône de bouclier plane au-dessus du tunnel, représentant la sécurité et la résilience."
 coverCaption: ""
 ---

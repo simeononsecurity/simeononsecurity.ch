@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Chroń swoje dzieci przed niebezpieczeństwami w sieci za pomocą tych wskazówek i strategii dotyczących bezpieczeństwa w Internecie."
 tags: ["Bezpieczeństwo w Internecie", "bezpieczeństwo w sieci", "bezpieczeństwo dziecka", "kontrole rodzicielskie", "cyberprzemoc", "umiejętność posługiwania się technologią cyfrową", "drapieżcy internetowi", "media społecznościowe", "gaming", "urządzenia mobilne", "prywatność", "bezpieczeństwo", "bezpieczne korzystanie z Internetu", "wskazówki dotyczące bezpieczeństwa internetowego", "ochrona dzieci w Internecie", "rodzicielstwo w erze cyfrowej", "prywatność w sieci dla dzieci", "zagrożenia w sieci dla dzieci", "bezpieczne nawyki internetowe", "edukacja w zakresie bezpieczeństwa w internecie"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Kreskówkowy obrazek rodzica i dziecka korzystających wspólnie z komputera, przy czym dziecko trzyma lupę, a rodzic wskazuje na ekran."
 coverCaption: ""
 ---

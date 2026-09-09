@@ -6,7 +6,7 @@ date: 2023-06-04
 lastmod: 2026-07-22
 description: "An honest 2026 assessment of cybersecurity as a career after AI has reshaped entry-level hiring and threat automation. The answer is still yes — but only for people who can prove they do the work."
 tags: ["is cybersecurity a good career 2026", "cybersecurity career AI impact", "cybersecurity job market 2026", "entry level cybersecurity AI", "cybersecurity homelab career", "cybersecurity portfolio 2026", "cybersecurity career outlook", "AI cybersecurity jobs", "cybersecurity certifications 2026"]
-cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.webp"
 coverAlt: "A professional in a superhero cape, standing in front of a computer screen with a shield representing cybersecurity."
 coverCaption: "A cybersecurity professional, the guardian of digital security, equipped with the shield of protection against cyber threats."
 ---

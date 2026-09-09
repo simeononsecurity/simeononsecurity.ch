@@ -4,7 +4,7 @@ draft: false
 description: "Scopri come utilizzare uno strumento di attacco RSA automatizzato, RsaCtfTool, per risolvere facilmente la sfida HackTheBox Weak RSA Crypto."
 tags: ["HackTheBox", "Sfide", "Cripto", "RSA debole", "RsaCtfTool", "Crittografia RSA debole HTB", "Sfida facile", "cifratura RSA", "flag.enc", "key.pub", "Pacchetto OpenSSL", "strumento di attacco RSA automatizzato", "script Python", "RsaCtfTool", "python3", "chiave pubblica", "uncipherfile", "Esempio di bandiera"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "Un hacker di cartoni animati che indossa un mantello e una maschera, in piedi davanti a una porta del caveau con il logo HTB su di essa e con in mano uno strumento (come una chiave inglese o un cacciavite) con uno sfondo verde che simboleggia il successo e la bandiera in un fumetto sopra la loro testa."
 coverCaption: ""
 ---

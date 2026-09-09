@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the requirements, benefits, and career paths for cybersecurity certifications in the government and military sectors."
 tags: ["Cybersecurity", "Certifications", "Government", "Military", "Career Path", "Information Security", "Defense", "Security Clearance", "Compliance", "Regulations", "Cybercrime", "Cyber Threats", "IT Audit", "Risk Management", "CISSP", "CISM", "Security+", "CEH", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "A stylized image of a government or military shield with digital locks and keys in the background."
 coverCaption: ""
 ---

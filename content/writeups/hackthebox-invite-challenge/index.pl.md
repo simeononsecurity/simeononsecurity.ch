@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Dowiedz się, jak wygenerować kod zaproszenia i dołączyć do platformy online HackTheBox, aby przetestować i rozwinąć swoje umiejętności w zakresie testów penetracyjnych i cyberbezpieczeństwa w systemach Windows i Linux."
 tags: ["HackTheBox", "Zaproś do wyzwania", "Testy penetracyjne", "Cyberbezpieczeństwo", "Windows", "Linux", "Platforma internetowa", "HTTP POST", "Kod zaproszenia", "Kodowanie Base64", "Powershell", "Linux Bash", "Dekodowanie Base64", "Generowanie kodu zaproszenia", "Programowanie", "Tworzenie stron internetowych", "Technologia", "Bezpieczeństwo IT", "Szkolenie IT"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Kreskówkowy ekran komputera przedstawiający stronę internetową HackTheBox z drzwiami skarbca otwieranymi kluczem, odsłaniającymi trofeum lub medal, na tle miejskiego krajobrazu w kolorystyce logo HackTheBox (niebiesko-białej)."
 coverCaption: ""
 ---

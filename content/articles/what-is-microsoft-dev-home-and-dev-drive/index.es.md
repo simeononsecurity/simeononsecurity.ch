@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo Dev Home y Dev Drive mejoran su flujo de trabajo de desarrollo en Windows con widgets personalizables, configuración de máquinas, integración con GitHub y almacenamiento optimizado."
 tags: ["Inicio Dev", "Dev Drive", "Desarrollo Windows", "flujo de trabajo de desarrollo", "widgets personalizables", "configuración de la máquina", "Integración en GitHub", "almacenamiento optimizado", "Desarrolladores de Windows", "flujo de trabajo optimizado", "gestión de códigos", "seguimiento del proyecto", "optimización del almacenamiento", "herramientas de desarrollo", "productividad de los desarrolladores", "Entorno Windows", "Formato de volumen ReFS", "optimización del rendimiento", "rendimiento del sistema de archivos", "Repositorios de GitHub", "solución de almacenamiento", "Windows 11", "gestión del almacenamiento", "colaboración eficaz", "activos de desarrollo", "herramientas de productividad", "Documentos de desarrollo de Windows", "eficacia del desarrollo", "optimización del flujo de trabajo", "Entorno de desarrollo Windows"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "Una ilustración de dibujos animados que muestra a un desarrollador trabajando en un entorno racionalizado y eficiente con las herramientas Dev Home y Dev Drive."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この保護者向けの包括的なガイドで、お子様をネットいじめから守る方法を学びましょう。"
 tags: ["ネットいじめ", "オンラインセーフティー", "子育て", "こどもたち", "メンタルヘルス", "官制", "インターネット安全方針", "オンラインアクティビティモニタリング", "防止", "ネット虐め", "サイバーセーフティ", "デジタル・パーアレンティング", "ソーシャル・メディア", "デジタルシチズンシップ", "デジタルフットプリント", "いじめ", "法", "技術", "セキュリティ", "教育"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "親子が一緒にパソコンを使っている漫画で、パソコンの上にはポジティブなメッセージを示す吹き出しがあります。"
 coverCaption: ""
 ---

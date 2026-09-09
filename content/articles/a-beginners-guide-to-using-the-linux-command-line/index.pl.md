@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak korzystać z wiersza poleceń systemu Linux w celu zapewnienia cyberbezpieczeństwa za pomocą podstawowych i zaawansowanych poleceń."
 tags: ["Linux", "Wiersz poleceń", "Cyberbezpieczeństwo", "Przewodnik dla początkujących", "Skanowanie sieci", "Testowanie podatności", "Analiza złośliwego oprogramowania", "Uprawnienia", "Ruch sieciowy", "Status procesu", "Statystyki sieciowe", "Wyszukiwanie plików", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Bezpieczeństwo", "Testy penetracyjne", "Kryminalistyka cyfrowa"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "Kreskówkowa ilustracja przedstawiająca osobę ubraną w bluzę z kapturem, siedzącą przed ekranem komputera z widocznym interfejsem wiersza poleceń systemu Linux i trzymającą szkło powiększające w celu przedstawienia aspektu cyberbezpieczeństwa."
 coverCaption: ""
 ---

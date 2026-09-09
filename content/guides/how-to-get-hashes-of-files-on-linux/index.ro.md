@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Aflați cum să obțineți hașuri SHA256, MD5 și SHA1 ale fișierelor pe Linux utilizând instrumente integrate, asigurând integritatea datelor și autenticitatea fișierelor."
 tags: ["Hașuri de fișiere Linux", "Hash SHA256", "Hash MD5", "Hash SHA1", "Linia de comandă Linux", "integritatea fișierelor", "validarea datelor", "Securitate Linux", "instrumente încorporate", "verificarea fișierelor", "autenticitatea datelor", "algoritmi de hashing de fișiere", "Administrarea sistemului Linux", "instrumente de linie de comandă", "sume de verificare a fișierelor", "Utilități Linux", "verificări ale integrității fișierelor", "verificarea integrității datelor", "exemple de fișiere hash", "Comenzi hash Linux", "metode de hashing de fișiere", "Măsuri de securitate Linux", "Protecția datelor Linux", "Gestionarea fișierelor Linux", "Verificarea fișierelor Linux", "Integritatea fișierelor Linux", "securitatea datelor", "Validarea datelor Linux", "Securitatea sistemului Linux", "tehnici de hashing de fișiere", "asigurarea integrității fișierelor", "validarea securizată a fișierelor", "Integritatea datelor Linux"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "O reprezentare digitală a hașurilor de fișiere în curs de calcul pe ecranul unui terminal Linux, simbolizând integritatea și securitatea datelor."
 coverCaption: ""
 ---

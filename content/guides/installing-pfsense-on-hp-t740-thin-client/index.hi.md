@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "जानें कि HP t740 थिन क्लाइंट पर pfSense कैसे सेट अप करें, और फ्रीजिंग और SSD डिटेक्शन जैसी संभावित समस्याओं का निवारण कैसे करें।"
 tags: ["pfSense", "ओपीएनसेंस", "कठोरबीएसडी", "एचपी टी740", "दूसरे कंप्यूटर पर निर्भर रहने वाला कंप्यूटर प्रोग्राम", "होम सर्वर", "पीपीपीओई", "FreeBSD", "बूट प्रांप्ट", "loader.conf.local", "नैनो संपादक", "एसएसडी का पता लगाने", "एम.2 एसएसडी", "पश्चिमी डिजिटल", "समस्या निवारण", "स्थापना के बाद", "यूएआरटी", "ESXi", "प्रॉक्समॉक्स"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "जमे हुए कंप्यूटर को ठीक करने के लिए जादू करने वाले जादूगर का कार्टून, जिसमें स्पीच बबल कह रहा है प्रॉब्लम सॉल्व्ड"
 coverCaption: ""
 ---

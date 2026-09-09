@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți rolul crucial al testelor de penetrare în securitatea cibernetică și aflați despre metodele eficiente, instrumentele esențiale și cele mai bune practici."
 tags: ["teste de penetrare", "securitate cibernetică", "hacking etic", "vulnerabilități", "atenuarea riscurilor", "conformitate", "răspunsul la incidente", "încrederea clienților", "testarea cutiei negre", "testarea cutiei albe", "testele de tip gray box", "Metasploit", "Nmap", "Burp Suite", "Wireshark", "scanarea rețelei", "securitatea aplicațiilor web", "protecția datelor", "prevenirea amenințărilor cibernetice", "evaluarea securității digitale", "îmbunătățirea posturii de securitate", "analizor de protocol de rețea", "strategia de securitate cibernetică", "vulnerabilitățile sistemului", "consolidarea apărării", "protecția activelor digitale", "beneficiile testelor de penetrare", "cele mai bune practici în materie de securitate cibernetică", "conformitatea cu reglementările", "securitatea datelor clienților"]
-cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp"
 coverAlt: "Imagine simbolică reprezentând un hacker purtând o pălărie neagră și tastând pe un computer, în timp ce un scut cu un lacăt protejează o rețea în fundal."
 coverCaption: ""
 ---

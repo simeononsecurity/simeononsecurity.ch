@@ -5,7 +5,7 @@ draft: false
 description: "Aflați cum să decodați cifrurile Fernet și Malboge pentru a rezolva HackTheBox Crypto Challenge și a descoperi steagul ascuns."
 tags: ["HackTheBox", "Provocări", "Cripto", "Decodați", "Notează", "Cifrul Fernet", "Cifrul Malboge", "Criptare simetrică", "Securitate cibernetică", "Criptografie", "Testarea de penetrare", "Piton", "Securitate", "Provocare", "CTF", "Steag", "Criptare", "Decriptare", "Baza 64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Un hacker de desene animate stă lângă un lacăt mare, cu o mână ținând o cheie cu logo Fernet și cu cealaltă mână ținând o cheie cu logo Malboge, în timp ce un steag este văzut în interiorul lacătului"
 coverCaption: ""
 ---

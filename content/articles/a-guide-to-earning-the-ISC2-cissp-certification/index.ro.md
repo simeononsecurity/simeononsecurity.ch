@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați pașii de pregătire și de promovare a examenului CISSP, o certificare prestigioasă pentru profesioniștii din domeniul securității informațiilor."
 tags: ["Certificarea CISSP", "securitatea informațiilor", "pregătirea examenelor", "plan de studiu", "examene practice", "securitate cibernetică", "dezvoltare profesională", "examen de certificare", "ISC2", "oportunități de carieră", "arhitectura de securitate", "securitatea rețelei", "controlul accesului", "gestionarea riscurilor", "criptare", "operațiuni de securitate", "securitate fizică", "continuitatea afacerilor", "recuperare în caz de dezastru", "conformitate", "Sfaturi pentru examenul CISSP", "CISSP materiale de studiu CISSP", "Eligibilitate CISSP", "Formatul examenului CISSP", "CISSP practica examene de practică CISSP", "Înregistrare CISSP", "certificarea securității informațiilor", "certificare profesională de securitate", "managementul securității", "evaluarea securității", "securitate software"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "O imagine de desen animat a unei persoane care deține un certificat CISSP, cu o bulă de gândire care prezintă diferite subiecte de securitate a informațiilor, cum ar fi arhitectura de securitate, controlul accesului, criptarea și securitatea rețelei."
 coverCaption: ""
 ---

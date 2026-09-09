@@ -4,7 +4,7 @@ draft: false
 description: "Apreneu a utilitzar una eina d'atac RSA automatitzada, RsaCtfTool, per resoldre fàcilment el repte HackTheBox Weak RSA Crypto."
 tags: ["HackTheBox", "Desafiaments", "Cripto", "RSA feble", "RsaCtfTool", "HTB Weak RSA Crypto", "Repte fàcil", "Xifrat RSA", "flag.enc", "key.pub", "Paquet OpenSSL", "eina automatitzada d'atac RSA", "script python", "RsaCtfTool", "python3", "clau pública", "desxifrar fitxer", "Exemple de bandera"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "Un pirata informàtic de dibuixos animats amb una capa i una màscara, de peu davant d'una porta de la volta amb el logotip de HTB i sostenint una eina (com una clau anglesa o un tornavís) amb un fons verd que simbolitza l'èxit i la bandera en una bafarada a sobre el seu cap."
 coverCaption: ""
 ---

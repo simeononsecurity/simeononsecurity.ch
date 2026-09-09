@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to create a cost-effective, secure home lab for hands-on IT experience, experimenting with software, hardware, and networking concepts."
 tags: ["home lab", "virtualization", "hardware", "software", "networking", "security", "learning", "testing", "IT professional", "technology enthusiast", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "network configuration", "virtual machine management", "backup and recovery", "cloud computing", "cybersecurity"]
-cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png"
+cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "A 3D animated image of a well-organized home lab setup, including a server rack, networking equipment, and various screens displaying virtual machines, network maps, and security features, all in a cozy home environment."
 coverCaption: ""
 ---

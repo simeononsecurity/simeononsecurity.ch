@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何通过这些专家提示和屏蔽服务安全地进行网上购物并保护您的个人信息。"
 tags: ["网购", "安全电子商务", "安全交易", "隐私保护", "遮蔽服务", "阿尔宾模糊", "privacy.com", "邮政信箱", "CMRA", "安全密码", "双因素认证", "预防网络钓鱼", "可信网站", "软件更新", "卖家评论", "公共 Wi-Fi", "虚拟专用网", "在线隐私", "防止身份盗窃", "信用卡欺诈", "网络安全提示", "数据保护", "在线安全措施", "临时电话号码", "临时电子邮件地址", "信誉良好的网上卖家", "恶意软件保护", "预防网络威胁", "安全的在线交易", "个人信息安全"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "这是一幅卡通插图，人物正在浏览一个安全的在线购物网站，背景是一个挂锁符号和一个盾牌。"
 coverCaption: ""
 ---

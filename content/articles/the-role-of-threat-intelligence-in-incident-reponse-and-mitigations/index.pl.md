@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak wywiad o zagrożeniach zwiększa bezpieczeństwo cybernetyczne poprzez łagodzenie i reagowanie na cyberataki."
 tags: ["Threat Intelligence", "Reagowanie na incydenty", "Cybersecurity", "Łagodzenie skutków", "Ataki cybernetyczne", "Analiza danych", "Systemy informacyjne", "Zarządzanie ryzykiem", "Ocena podatności", "Zdolności wykrywania", "Kontrole bezpieczeństwa", "Wywiad strategiczny", "Wywiad taktyczny", "Wywiad operacyjny", "Krajobraz zagrożeń", "Pojawiające się trendy", "Świadomość bezpieczeństwa", "Informatyka śledcza", "Cyberzagrożenia", "Ciemna sieć"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Kreskówka zespołu ds. bezpieczeństwa cybernetycznego analizującego dane i reagującego na atak, podczas gdy nad nimi unosi się szkło powiększające."
 coverCaption: ""
 ---

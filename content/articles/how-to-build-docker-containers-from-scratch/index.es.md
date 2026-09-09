@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear contenedores Docker eficientes y seguros utilizando las mejores prácticas, consejos e instrucciones paso a paso en esta completa guía."
 tags: ["docker", "contenedores", "contenedorización", "devops", "despliegue", "portabilidad", "eficacia", "seguridad", "buenas prácticas", "Dockerfile", "imágenes base", "variables de entorno", "montajes de volumen", "usuario raíz", "imágenes actualizadas", "desarrollo de software", "imágenes de contenedores", "Centro Docker", "orquestación de contenedores", "Kubernetes"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Imagen animada en 3D de un contenedor seguro y bien organizado con el logotipo de Docker, rodeado de diversas herramientas y equipos relacionados con la ingeniería de software y DevOps."
 coverCaption: ""
 ---

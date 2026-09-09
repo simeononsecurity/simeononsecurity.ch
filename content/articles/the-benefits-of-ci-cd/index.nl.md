@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen van Continuous Integration en Continuous Deployment (CI CD) bij softwareontwikkeling, waardoor samenwerking, kwaliteit en snelheid verbeteren."
 tags: ["voortdurende integratie", "continue inzet", "CI CD", "softwareontwikkeling", "samenwerking", "communicatie", "feedbackloop", "bugdetectie", "softwarekwaliteit", "betrouwbaarheid", "marktintroductietijd", "risicobeheer", "schaalbaarheid", "flexibiliteit", "geautomatiseerd testen", "agile ontwikkeling", "DevOps", "teamproductiviteit", "softwarereleases", "inzetautomatisering", "testautomatisering", "snelle levering van software", "agile methodologieën", "release management", "software-engineering", "agile teams", "voortdurende verbetering", "software testen", "inzetpijplijnen", "inzetproces", "levenscyclus van softwareontwikkeling"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Een kleurrijke cartoonillustratie die laat zien hoe ontwikkelaars samenwerken en snel en efficiënt software inzetten met CI CD-tools en -processen."
 coverCaption: ""
 ---

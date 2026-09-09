@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zapobiegać atakom socjotechnicznym i chronić wrażliwe informacje organizacji dzięki szkoleniom pracowników, polityce bezpieczeństwa i nie tylko."
 tags: ["inżynieria społeczna", "cybersecurity", "prewencja", "szkolenie pracowników", "polityka bezpieczeństwa", "uwierzytelnianie wieloczynnikowe", "antywirus", "bezpieczeństwo fizyczne", "przepisy rządowe", "FISMA", "HIPAA", "ochrona danych", "zagrożenia cybernetyczne", "bezpieczeństwo sieci", "bezpieczeństwo informacji", "informacje wrażliwe", "cyberprzestępczość", "zgodność", "strategia bezpieczeństwa cybernetycznego", "bezpieczeństwo danych"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Haker próbuje zwabić osobę wędką, a tarcza i zamek symbolizują cyberbezpieczeństwo."
 coverCaption: ""
 ---

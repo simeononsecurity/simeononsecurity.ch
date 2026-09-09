@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Explore el auge de las preguntas basadas en el rendimiento (PBQ) en las certificaciones de ciberseguridad y su papel en la evaluación de las habilidades prácticas y la capacidad para resolver problemas del mundo real."
 tags: ["PBQs", "Preguntas basadas en el rendimiento", "certificaciones de ciberseguridad", "habilidades prácticas", "resolución de problemas reales", "simulación PBQ", "virtual PBQs", "preparación de exámenes", "profesionales de la ciberseguridad", "experiencia práctica", "exámenes de certificación", "CompTIA", "Seguridad informática", "amenazas cibernéticas", "pensamiento crítico", "competencia técnica", "importancia para el sector", "tendencias en ciberseguridad", "normas del sector", "Marco de ciberseguridad del NIST", "CISA", "Instituto Nacional de Normas y Tecnología", "evaluación de la ciberseguridad", "educación en ciberseguridad", "seguridad de la información", "profesionales de la seguridad", "mercado laboral de la ciberseguridad", "Certificaciones informáticas", "competencias en ciberseguridad", "seguridad de la red"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "Un profesional vestido con una capa de superhéroe, con un escudo que representa la ciberseguridad, de pie y confiado frente a una red informática."
 coverCaption: "Hágase con las certificaciones de ciberseguridad y libere su potencial de superhéroe"
 ---

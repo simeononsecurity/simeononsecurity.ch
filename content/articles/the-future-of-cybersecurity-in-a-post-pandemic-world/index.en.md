@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover how to prepare for the future of cybersecurity in a post-pandemic world and reduce your risk of falling victim to cyberattacks."
 tags: ["cybersecurity", "post-pandemic", "future", "remote work", "AI", "machine learning", "IoT", "software updates", "passwords", "two-factor authentication", "education", "VPN", "firmware updates", "phishing", "ransomware", "cloud security", "data protection", "network security", "threat detection", "digital privacy"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "A cartoon style image of a person standing with a shield in front of a computer screen, protecting it from various cyber attacks such as malware, viruses, phishing, and hacking attempts."
 coverCaption: ""
 ---

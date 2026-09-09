@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Apprenez les bases de l'écriture de scripts PowerShell et automatisez des tâches grâce à ce guide pas à pas pour les débutants, qui couvre les cmdlets, les boucles, les fonctions et bien plus encore."
 genre: ["Technologie", "Programmation", "Automatisation", "Fenêtres", "Scripting", "IT", "Tâches administratives", "Gestion informatique", "Développement de logiciels", "Codage"]
 tags: ["Scripting PowerShell", "Automatisation PowerShell", "Scripting Windows", "Les cmdlets PowerShell", "Modules PowerShell", "Boucles PowerShell", "Instructions conditionnelles PowerShell", "Fonctions PowerShell", "Meilleures pratiques PowerShell", "Débogage de PowerShell", "Tests PowerShell", "Variables PowerShell", "PowerShell ISE", "Remoting PowerShell", "Technologies Microsoft", "Automatisation des technologies de l'information", "gestion informatique", "codage pour les débutants", "les tâches administratives", "Idées de scripts PowerShell", "sauvegardes automatisées", "gestion des fichiers", "informations sur le système", "gestion des utilisateurs", "installation du logiciel", "configuration du réseau", "automatisation de la sécurité", "planification des tâches", "manipulation du registre", "administration à distance"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Un personnage de bande dessinée tenant un script et se tenant devant un ordinateur avec une invite PowerShell, indiquant la facilité d'utilisation des scripts PowerShell pour les débutants"
 coverCaption: ""
 ---

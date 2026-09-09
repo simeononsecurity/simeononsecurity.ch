@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra los requisitos, ventajas y trayectorias profesionales de las certificaciones de ciberseguridad en los sectores gubernamental y militar."
 tags: ["Ciberseguridad", "Certificaciones", "Gobierno", "Militar", "Trayectoria profesional", "Seguridad de la información", "Defensa", "Autorización de seguridad", "Conformidad", "Normativa", "Ciberdelincuencia", "Ciberamenazas", "Auditoría informática", "Gestión de riesgos", "CISSP", "CISM", "Seguridad", "CEH", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Imagen estilizada de un escudo gubernamental o militar con cerraduras y llaves digitales de fondo."
 coverCaption: ""
 ---

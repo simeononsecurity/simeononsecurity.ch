@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Learn how to create a secure Wi-Fi network to protect your data and ensure a safe online experience."
 tags: ["secure Wi-Fi network", "Wi-Fi security", "network encryption", "Wi-Fi password", "router firmware updates", "firewall protection", "remote management disable", "default router login", "MAC address filtering", "disable WPS", "guest network", "monitor network activity", "online security", "data protection", "network privacy", "cybersecurity", "wireless network", "internet security", "network safeguards", "network vulnerability"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "A shield protecting a Wi-Fi signal from hackers."
 coverCaption: ""
 ---

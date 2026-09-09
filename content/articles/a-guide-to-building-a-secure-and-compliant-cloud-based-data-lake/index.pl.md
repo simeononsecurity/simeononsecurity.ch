@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Z tego kompleksowego przewodnika dowiesz się o najlepszych praktykach w zakresie bezpieczeństwa i zgodności podczas planowania, tworzenia i zarządzania jeziorami danych w chmurze."
 tags: ["jezioro danych", "bezpieczeństwo w chmurze", "przepisy dotyczące zgodności", "kontrola dostępu", "szyfrowanie", "AWS", "Azure", "HIPAA", "RODO", "monitoring", "łatanie", "cyberbezpieczeństwo", "Rozwiązanie SIEM", "Zespoły wsparcia IT", "krajobraz zagrożeń", "migracja do chmury", "zarządzanie chmurą"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Kreskówkowy obraz zamku strzeżonego przez wojowniczego rycerza, symbolizujący koncepcję silnej ochrony bezpiecznej i zgodnej z przepisami pamięci masowej w chmurze"
 coverCaption: ""
 ---

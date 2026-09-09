@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "POODLE、BEAST、Heartbleedなどのサイバー脅威に弱い旧バージョンのSSLおよびTLSプロトコルをWindowsおよびLinuxシステムで無効化し、データセキュリティを向上する手順について説明します。"
 tags: ["コンピュータセキュリティの強化", "SSLおよびTLSの無効化", "データセキュリティ", "ポードル", "ビースト", "ハートブリード", "Windowsレジストリエディタ", "LinuxのOpenSSL設定", "アパッチ", "エヌジンクス"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "データの安全性を表す南京錠のマークが描かれたパソコン"
 coverCaption: ""
 ---

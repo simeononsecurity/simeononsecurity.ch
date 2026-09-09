@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "パスワードの変更、マルウェアのスキャン、デバイスの消去など、メールやデスクトップ、携帯電話がハッキングされた疑いがある場合に取るべき重要なステップをご紹介します。"
 tags: ["デバイスセキュリティ", "データ保護", "故障した装置", "ハッキングメール", "ハックフォン", "マルウェア", "ウィルス除去", "パスワードセキュリティ", "データバックアップ", "二要素認証", "サイバーセキュリティ", "オンラインセーフティー", "デジタルプライバシー", "こじんじょうほうぬすみ", "オンライン詐欺", "テクニカルサポート", "パソコン修理", "データ復旧", "ITサービス", "技術"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "パソコンやスマホの前に立って心配そうな表情を浮かべる人と、その背後に潜む漫画のハッカーが描かれた画像。"
 coverCaption: ""
 ---

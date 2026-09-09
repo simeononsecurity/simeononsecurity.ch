@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Imparate a ottenere gli hash dei file su Windows utilizzando PowerShell, compresi SHA256, MD5 e SHA1, con istruzioni ed esempi passo dopo passo."
 tags: ["hash dei file", "PowerShell", "hash SHA256", "hash MD5", "hash SHA1", "integrità dei file", "autenticazione dei dati", "file verification", "algoritmi di hashing", "Sistema operativo Windows", "linguaggio di scripting", "shell a riga di comando", "sicurezza dei dati", "medicina legale digitale", "sicurezza informatica", "calcolo dell'hash", "manomissione dei file", "data integrity", "autenticità del file", "Sicurezza di Windows", "identificazione del file", "difesa informatica", "sicurezza dei file", "protezione dei dati", "data verification", "convalida dei file", "Windows PowerShell", "generazione di hash", "algoritmi di hash", "funzioni hash"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "Illustrazione a fumetti che mostra un file con il simbolo di un lucchetto e una lente di ingrandimento, a rappresentare la verifica e la sicurezza dell'hash dei file."
 coverCaption: ""
 ---

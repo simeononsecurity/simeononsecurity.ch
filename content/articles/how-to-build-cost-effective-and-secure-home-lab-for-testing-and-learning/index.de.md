@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie, wie Sie ein kostengünstiges, sicheres Heimlabor einrichten, um praktische IT-Erfahrungen zu sammeln und mit Software, Hardware und Netzwerkkonzepten zu experimentieren."
 tags: ["Heimlabor", "Virtualisierung", "Hardware", "Software", "Vernetzung", "Sicherheit", "Lernen", "Testen", "IT-Fachmann", "Technikbegeisterter", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "Netzwerkkonfiguration", "Verwaltung virtueller Maschinen", "Sicherung und Wiederherstellung", "Cloud Computing", "Cybersicherheit"]
-cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png"
+cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Ein animiertes 3D-Bild eines gut organisierten Heimlabors mit einem Server-Rack, Netzwerkausrüstung und verschiedenen Bildschirmen, die virtuelle Maschinen, Netzwerkkarten und Sicherheitsfunktionen anzeigen, alles in einer gemütlichen Umgebung."
 coverCaption: ""
 ---

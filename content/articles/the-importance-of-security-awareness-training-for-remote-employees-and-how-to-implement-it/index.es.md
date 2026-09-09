@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Refuerce la seguridad de su personal remoto mediante una formación eficaz de concienciación sobre la seguridad y aprenda a aplicarla con éxito."
 tags: ["empleados remotos", "concienciación sobre seguridad", "ciberseguridad", "formación", "personal a distancia", "phishing", "buenas prácticas", "cultura de seguridad", "gamificación", "NIST", "CISA", "Concienciación sobre seguridad SANS", "Instituto Infosec", "KnowBe4", "aprendizaje continuo", "situaciones reales", "formación interactiva", "amenazas cibernéticas", "plataformas de formación en seguridad"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Una imagen de dibujos animados de un grupo diverso de empleados remotos participando en una atractiva sesión de formación de concienciación sobre seguridad en sus portátiles, con varios símbolos de ciberseguridad rodeándoles."
 coverCaption: ""
 ---

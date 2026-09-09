@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "了解如何使用内置工具在 Linux 上获取文件的 SHA256、MD5 和 SHA1 哈希值，确保数据完整性和文件真实性。"
 tags: ["Linux 文件哈希值", "SHA256 哈希值", "MD5 哈希值", "SHA1 哈希值", "Linux 命令行", "文件完整性", "数据验证", "Linux 安全", "内置工具", "文件验证", "数据真实性", "文件散列算法", "Linux 系统管理", "命令行工具", "文件校验和", "Linux 实用工具", "文件完整性检查", "数据完整性验证", "文件散列示例", "Linux 哈希命令", "文件散列方法", "Linux 安全措施", "Linux 数据保护", "Linux 文件管理", "Linux 文件验证", "Linux 文件完整性", "数据安全", "Linux 数据验证", "Linux 系统安全", "文件散列技术", "文件完整性保证", "安全文件验证", "Linux 数据完整性"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Linux 终端屏幕上正在计算文件哈希值的数字表示，象征着数据的完整性和安全性。"
 coverCaption: ""
 ---

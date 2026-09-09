@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Învățați elementele de bază ale răspunsului la incidente și gestionarea incidentelor de securitate cibernetică cu acest ghid pentru începători."
 tags: ["răspunsul la incidente", "securitate cibernetică", "ghidul începătorului", "protecția datelor", "securitatea datelor", "Securitate IT", "securitatea rețelei", "atacuri cibernetice", "securitatea informațiilor", "criminalitate informatică", "securitate digitală", "Infrastructura IT", "încălcări ale datelor", "amenințări cibernetice", "apărare cibernetică", "gestionarea incidentelor", "recuperarea datelor", "planificarea securității", "gestionarea riscurilor", "strategia de securitate cibernetică"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "O imagine de desen animat a unui supererou al securității cibernetice care apără un oraș împotriva amenințărilor cibernetice."
 coverCaption: ""
 ---

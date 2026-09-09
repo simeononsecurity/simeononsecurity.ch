@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过这本关于威胁情报及其重要性的新手指南，改善您的网络安全状况。"
 tags: ["威胁情报", "网络安全", "初学者指南", "战术", "技术", "程序", "数据分析", "脆弱性", "安全业务", "机器学习", "数据挖掘", "决策", "自动化", "社区", "暗网监控", "内部网络日志", "事件响应", "网络钓鱼活动", "恶意软件", "战略规划"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "三维动画放大镜，中间有一只眼睛，悬停在二进制代码背景上。"
 coverCaption: ""
 ---

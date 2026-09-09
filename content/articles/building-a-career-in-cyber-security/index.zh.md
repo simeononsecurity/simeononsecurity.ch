@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解在网络安全领域取得成功的基本步骤，包括教育、认证和有利可图的工作前景。"
 tags: ["网络安全", "打造网络安全职业生涯", "网络安全教育", "网络安全认证", "网络安全领域的工作机会", "技术职业", "网络安全教育", "网络安全职位", "网络安全行业", "网络安全专业人员", "网络安全技能", "网络安全", "信息安全", "网络安全分析员", "道德黑客", "网络安全顾问", "事件响应", "首席信息安全官", "网络安全战略", "网络安全学士学位", "网络安全硕士", "CISSP 认证", "CEH 认证", "CompTIA Security+ 认证", "网络安全就业市场", "数字取证", "网络安全风险管理", "安全软件开发", "数据保护", "网络安全趋势"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "一名手持盾牌的网络安全专业人员，保护数字资产免受黑客攻击。"
 coverCaption: ""
 ---

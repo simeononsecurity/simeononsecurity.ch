@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "あらゆるものがHTTPSを使用する世界において、VPNが標準的なユーザーにとって有用でない可能性がある理由と、VPNプロバイダーを信頼する方法についてご紹介します。"
 tags: ["仮想私設通信網", "オンラインプライバシー", "インターネットセキュリティ", "MITM攻撃", "仮想私設通信網", "サイバーセキュリティ", "オンライン・セーフティ", "暗号化", "HTTPS", "データ保護", "サードパーティ・サービス", "プライバシーリスク", "ISP", "地域制限のあるコンテンツ", "インターネット検閲", "公衆無線LAN", "データプライバシー", "オンライン保護", "ウェブセキュリティ", "VPNプロバイダー"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "漫画のコンピュータユーザーがインターネットサーフィンをしていると、ユーザーのプライバシーを保護するために巨大なロックマークが表示されます。"
 coverCaption: ""
 ---

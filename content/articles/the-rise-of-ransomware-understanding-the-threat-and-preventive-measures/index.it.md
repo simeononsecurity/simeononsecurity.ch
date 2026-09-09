@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Scoprite le minacce ransomware e le misure preventive che potete adottare per proteggervi da esse."
 tags: ["ransomware", "sicurezza informatica", "prevenzione", "backup", "antivirus", "VPN", "autenticazione a più fattori", "regolamenti governativi", "phishing", "ingegneria sociale", "malware", "criminalità informatica", "sicurezza dei dati", "sicurezza della rete", "attacco informatico", "crittografia", "igiene informatica", "risposta agli incidenti", "protezione dei dati", "consapevolezza informatica"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Un computer con un lucchetto e una catena intorno, a simboleggiare la crittografia dei dati da parte del ransomware."
 coverCaption: ""
 ---

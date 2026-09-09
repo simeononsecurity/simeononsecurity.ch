@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "A comprehensive guide for organizations to ensure their remote workforce stays secure in the era of remote work."
 tags: ["cybersecurity", "remote work", "data breaches", "VPN", "two-factor authentication", "security measures", "secure communication", "cyber threats", "antivirus software", "phishing emails", "password management", "work from home", "data protection", "online security", "employee security", "remote workforce", "cybercriminals", "video conferencing", "encrypted messaging", "virtual private network"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "A cartoon illustration of a laptop with a lock on it, with a shield and sword representing cybersecurity, in the background."
 coverCaption: ""
 ---

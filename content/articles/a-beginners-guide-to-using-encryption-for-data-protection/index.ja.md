@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "暗号化の初心者向けガイドで、暗号化の基本を学び、機密データを保護するために暗号化を使用する方法を学びましょう。"
 tags: ["暗号化", "データ保護", "サイバーセキュリティ", "プライバシー", "技術", "オンラインセキュリティ", "たいしょうがたあんごう", "ひたいしょうかこうじゅつ", "セキュリティ", "インターネットプライバシー", "あんごうぎじゅつ", "暗号化メッセージング", "デジタルセキュリティ", "データプライバシー", "暗号化データ", "暗号化ソフトウェア", "データあんごうか", "コンピューターセキュリティ", "ネットワークセキュリティ", "パスワード保護"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "暗号化によるデータ保護を表す、鍵穴付きの南京錠を漫画で表現しました。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe de automatiseringsmogelijkheden van Ansible hybride cloudomgevingen kunnen stroomlijnen, beveiligen en optimaliseren voor een hogere productiviteit."
 tags: ["Ops", "CICD", "schaalbaarheid", "prestatie", "beveiliging", "compliance", "integratie", "Amazon Web Services", "Microsoft Azure", "Google Cloud", "Ansible Toren", "Ansible Melkweg", "Ansible kluis", "kostenbesparingen", "IT-efficiëntie"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Een levendige 3D-geanimeerde illustratie van een wolk met tandwielen erin, die een hybride cloudomgeving voorstelt, en het efficiënte en geautomatiseerde beheer van de cloudinfrastructuur laat zien."
 coverCaption: ""
 ---

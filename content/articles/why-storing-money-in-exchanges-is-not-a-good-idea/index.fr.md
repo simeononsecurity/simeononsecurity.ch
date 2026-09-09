@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cet article aborde les dangers du stockage de crypto-monnaies sur les bourses d'échange, expliquant pourquoi cela équivaut à stocker de l'argent dans un matelas, et souligne les avantages de l'utilisation d'un porte-monnaie matériel pour un stockage sécurisé."
 tags: ["Stockage des crypto-monnaies", "Risques de change", "Portefeuille matériel", "Cybersécurité", "Investir dans les crypto-monnaies", "Stockage sécurisé", "Clés privées", "Portefeuilles portables", "Réglementation gouvernementale"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Portefeuille matériel entouré d'un cadenas et d'une chaîne, symbolisant la sécurité du stockage des crypto-monnaies dans un portefeuille matériel."
 coverCaption: ""
 ---

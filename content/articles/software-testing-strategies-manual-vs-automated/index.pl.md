@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj zalety i wady ręcznego i automatycznego testowania oprogramowania, aby podjąć świadomą decyzję dla swojej organizacji."
 tags: ["testowanie oprogramowania", "testowanie ręczne", "testowanie automatyczne", "strategie testowania", "rozwój oprogramowania", "zapewnienie jakości", "przypadki testowe", "pokrycie testami", "testy eksploracyjne", "doświadczenie użytkownika", "efektywność", "możliwość ponownego użycia", "zdolność adaptacji", "błąd ludzki", "fałszywe alarmy", "Fałszywe negatywy", "automatyzacja testów", "testowanie hybrydowe", "optymalizacja zasobów", "praktyki testowania oprogramowania", "Wybór właściwej strategii testowania oprogramowania", "zalety testowania ręcznego", "Wady testów automatycznych", "łączenie testów manualnych i automatycznych", "optymalizacja procesu testowania oprogramowania"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Kolorowa ilustracja przedstawiająca testera-człowieka i testera-robota współpracujących przy testowaniu aplikacji."
 coverCaption: ""
 ---

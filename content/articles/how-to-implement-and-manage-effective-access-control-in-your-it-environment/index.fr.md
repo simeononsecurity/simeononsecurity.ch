@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à protéger les données et les systèmes sensibles en mettant en œuvre des mesures de contrôle d'accès efficaces pour votre environnement informatique."
 tags: ["Contrôle d'accès", "Sécurité informatique", "Cybersécurité", "Mots de passe", "Authentification biométrique", "Contrôle d'accès basé sur les rôles", "Authentification multifactorielle", "Protection des données", "Évaluation des risques", "Formation des employés", "Outils d'audit", "Outils de reporting", "Tests de pénétration", "Évaluation de la vulnérabilité", "Contrôle d'accès physique", "Contrôle d'accès logique", "Règlements de conformité", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Une porte verrouillée avec un lecteur d'empreintes digitales comme seul moyen d'entrer."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie, wie Presearch, die dezentrale Suchmaschine, den Nutzern Privatsphäre, Belohnungen und Beteiligung an der Gemeinschaft bietet und damit eine Alternative zu Google darstellt."
 genre: ["Technologie", "Suchmaschinen", "Blockchain", "Kryptowährung", "Online Privacy", "Community-gesteuerte Plattformen", "Dezentralisierung", "Open-Source-Technologie", "Internetdienste", "Digitale Innovation"]
 tags: ["Vorrecherche", "Vorrecherche-Suchmaschine", "dezentralisierte Suchmaschine", "Alternative zu Google", "Blockchain-Technologie", "Kryptowährungsprämien", "datenschutzfreundliche Suche", "gemeinschaftsgesteuerte Plattform", "Open-Source-Suchmaschine", "Anpassbare Sucherfahrung", "werbefreie Suche", "Internetprivatsphäre", "digitale Innovation", "Revolution bei der Online-Suche", "Ökosystem der Suchmaschine", "Benutzer-Belohnungen", "dezentralisierte Technologie", "transparente Suchmaschine", "Benutzerdaten", "Schutz der Privatsphäre im Internet", "gesellschaftliches Engagement", "anpassbare Suchmaschinen", "Online-Werbung", "digitaler Datenschutz", "Suchmaschinenmarkt", "nutzerzentrierte Suche", "Plattform für den Datenschutz", "sichere Online-Suche", "Internet-Suchrevolution", "Nutzerbefähigung", "alternative Sucherfahrung"]
-cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.webp"
 coverAlt: "Eine karikaturhafte Weltkugel mit einem darüber schwebenden Vergrößerungsglas, das die Presearch-Plattform als gemeinschaftsgesteuerte und dezentralisierte Suchmaschine symbolisiert"
 coverCaption: "Befähigung zur Suche: Presearch bietet Datenschutz, Belohnungen und Community-Engagement."
 ---

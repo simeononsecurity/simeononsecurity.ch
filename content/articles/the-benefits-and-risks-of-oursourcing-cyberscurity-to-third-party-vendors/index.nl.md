@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer meer over de voordelen en risico's van het uitbesteden van cyberbeveiliging aan externe leveranciers en hoe u de juiste leverancier voor uw bedrijf kunt kiezen."
 tags: ["cyberbeveiliging", "uitbesteding", "derde leveranciers", "datalek", "leveranciersselectie", "kostenbesparingen", "expertise", "schaalbaarheid", "controleverlies", "incidentenbestrijdingsplan", "risicobeheer", "bedrijfsbeveiliging", "uitbesteding van beveiliging", "cyberdreigingen", "netwerkbeveiliging", "gegevensbescherming", "beheer van kwetsbaarheden", "cyberdefensie", "bedrijfscontinuïteit", "informatiebeveiliging"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Een cartoonbeeld van een zakenman die op een rots staat en een schild vasthoudt om zijn bedrijf te beschermen tegen cyberdreigingen, met achter hem een rij leveranciers van derden die verschillende beveiligingsdiensten aanbieden."
 coverCaption: ""
 ---

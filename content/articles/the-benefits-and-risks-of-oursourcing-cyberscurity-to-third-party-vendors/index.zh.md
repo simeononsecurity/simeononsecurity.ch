@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解将网络安全外包给第三方供应商的好处和风险，以及如何为企业选择合适的供应商。"
 tags: ["网络安全", "外包", "第三方供应商", "数据泄露", "供应商选择", "成本节约", "专长", "扩展性", "失控", "事件应急计划", "风险管理", "商业安全", "安全外包", "网络威胁", "网络安全", "数据保护", "漏洞管理", "网络防御", "业务连续性", "信息安全"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "一幅卡通图片：一位商人站在岩石上，手持盾牌保护自己的企业免受网络威胁，身后站着一排提供不同安全服务的第三方供应商。"
 coverCaption: ""
 ---

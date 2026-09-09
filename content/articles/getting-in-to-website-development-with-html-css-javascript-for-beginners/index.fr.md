@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les bases du développement de sites Web, notamment HTML, CSS et JavaScript, grâce à ce guide destiné aux débutants."
 tags: ["développement web", "HTML", "CSS", "JavaScript", "codification", "tutoriel", "l'apprentissage", "débutant", "CodePen", "W3Schools", "meilleures pratiques", "ressources", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "collaboration", "débogage", "projets"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Un développeur de bande dessinée assis à un bureau avec un ordinateur portable, entouré de divers éléments HTML, CSS et JavaScript flottant dans l'air autour d'eux."
 coverCaption: ""
 ---

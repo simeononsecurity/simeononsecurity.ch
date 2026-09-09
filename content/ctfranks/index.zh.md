@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "通过 SimeonOnSecurity 的 CTF 排名日志了解 CTF 世界的最新排名和挑战"
 tags: ["CTF排行榜", "夺旗", "竞赛", "挑战", "洛克希德马丁网络大挑战", "国家网络联盟", "密码技术挑战赛", "表现", "放置", "团队", "个人", "2020", "2021年", "网络安全", "网络防御", "周大福活动", "黑客竞赛", "信息安全", "安全研究"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "带有第一名丝带的卡通奖杯，周围环绕着电脑屏幕和网络安全符号，如挂锁、盾牌、锁和钥匙符号。"
 coverCaption: ""
 ---

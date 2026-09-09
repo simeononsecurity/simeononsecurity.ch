@@ -6,7 +6,7 @@ draft: false
 description: "学习 Python 安全编码的最佳实践，以确保应用程序的稳健安全，并防止 SQL 注入和跨站脚本等漏洞。"
 genre: ["编程", "应用安全", "Python 开发", "安全编码", "网络开发", "数据分析", "人工智能", "软件开发", "网络安全", "编程语言"]
 tags: ["安全编码", "Python", "应用安全", "网站开发", "数据分析", "人工智能", "软件开发", "安全漏洞", "SQL 注入", "跨站脚本", "缓冲区溢出", "数据泄露", "网络攻击", "安全编码实践", "用户体验", "行业法规", "安全认证", "安全授权", "密码安全", "基于角色的访问控制", "会话管理", "代码审计", "自动安全测试", "安全更新", "安全文化", "编程语言", "应用开发", "网络安全最佳做法", "数据保护"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.webp"
 coverAlt: "一幅卡通风格的图片，描绘了保护 Python 代码免受网络威胁的盾牌。"
 coverCaption: "保护您的 Python 代码，保护您的应用程序免受网络威胁。"
 ---

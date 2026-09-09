@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je cumulatieve beveiligingspatches installeert op Windows en volg de best practices om je systeem te beveiligen tegen cyberaanvallen."
 tags: ["Windows", "beveiligingspatches", "cyberbeveiliging", "systeemveiligheid", "Microsoft", "cumulatieve patches", "patchbeheer", "gegevensback-up", "Spectre Meltdown", "encryptie", "systeemkwetsbaarheden", "systeemupdates", "patchimplementatie", "niet-productieomgevingen", "systeemconfiguratie", "IT-beveiliging", "patchbeheersysteem", "scannen op kwetsbaarheden", "release notes", "systeemonderhoud"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Een cartoonafbeelding van een schild met een Windows-logo erop dat wordt beschermd door een slot"
 coverCaption: ""
 ---

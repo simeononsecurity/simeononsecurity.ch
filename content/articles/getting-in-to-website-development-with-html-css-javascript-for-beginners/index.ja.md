@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "HTML、CSS、JavaScriptなど、Webサイト制作の基礎を初心者にわかりやすく解説します。"
 tags: ["ウェブ開発", "HTML", "CSS", "ジャバスクリプト", "コーディング", "チュートリアル", "学習", "しょきゅうしゃ", "コードペン", "W3Schools", "さいぜんのそち", "資源", "freeCodeCamp（フリーコードキャンプ", "MDNウェブドックス", "コーデカデミー", "ユーダシティ", "コラボレーション", "デバッギング", "プロジェクトズ"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "ノートパソコンを持ってデスクに座る漫画の開発者が、周囲の空中に浮かぶ様々なHTML、CSS、JavaScriptの要素に囲まれています。"
 coverCaption: ""
 ---

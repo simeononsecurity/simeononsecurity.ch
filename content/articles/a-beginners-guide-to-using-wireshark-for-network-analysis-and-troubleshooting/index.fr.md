@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment utiliser efficacement Wireshark pour l'analyse et le dépannage des réseaux grâce à ce guide détaillé destiné aux débutants."
 tags: ["Wireshark", "l'analyse des réseaux", "dépannage", "guide du débutant", "surveillance du réseau", "capture de paquets", "les protocoles de réseau", "TCP IP", "visualisation des données", "sécurité des réseaux", "filtres de capture", "filtres d'affichage", "dispositifs de réseau", "Ethernet", "topologie du réseau", "diagnostic du réseau", "l'administration du réseau", "performance du réseau", "Tutoriel Wireshark", "paquets de données"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "Illustration de bande dessinée d'un détective avec une loupe analysant des câbles de réseau, tandis que le logo de Wireshark plane au-dessus d'eux, symbolisant le processus de dépannage et d'analyse de réseau à l'aide de Wireshark."
 coverCaption: ""
 ---

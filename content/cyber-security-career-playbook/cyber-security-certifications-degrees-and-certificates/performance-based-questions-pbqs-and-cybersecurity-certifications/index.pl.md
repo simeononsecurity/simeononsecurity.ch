@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Poznaj rozwój pytań opartych na wynikach (PBQ) w certyfikacji cyberbezpieczeństwa i ich rolę w ocenie praktycznych umiejętności i zdolności rozwiązywania problemów w świecie rzeczywistym."
 tags: ["PBQ", "Pytania oparte na wynikach", "certyfikaty cyberbezpieczeństwa", "umiejętności praktyczne", "rozwiązywanie problemów w świecie rzeczywistym", "symulacja PBQ", "wirtualne PBQ", "przygotowanie do egzaminu", "specjaliści ds. cyberbezpieczeństwa", "praktyczne doświadczenie", "egzaminy certyfikacyjne", "CompTIA", "Bezpieczeństwo IT", "cyberzagrożenia", "krytyczne myślenie", "biegłość techniczna", "znaczenie dla branży", "trendy w cyberbezpieczeństwie", "standardy branżowe", "Ramy bezpieczeństwa cybernetycznego NIST", "CISA", "Narodowy Instytut Standardów i Technologii", "ocena cyberbezpieczeństwa", "edukacja w zakresie cyberbezpieczeństwa", "bezpieczeństwo informacji", "specjaliści ds. bezpieczeństwa", "rynek pracy cyberbezpieczeństwa", "Certyfikaty IT", "umiejętności w zakresie cyberbezpieczeństwa", "bezpieczeństwo sieci"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "Profesjonalista w pelerynie superbohatera z tarczą reprezentującą cyberbezpieczeństwo, stojący pewnie przed siecią komputerową."
 coverCaption: "Zdobądź certyfikaty cyberbezpieczeństwa i uwolnij swój potencjał superbohatera!"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Niniejszy artykuł analizuje zalety i wady bootcampów i pomaga określić, czy są one właściwym wyborem do szybkiego zdobywania nowych umiejętności i certyfikatów."
 tags: ["Bootcampy", "Rozwój kariery", "Nabywanie umiejętności", "Certyfikaty", "Edukacja", "Rynek pracy", "Praktyczne doświadczenie", "Opłacalność", "Kompleksowa edukacja", "Wiarygodność", "Wymagania fizyczne i psychiczne"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Laptop z czapką absolwenta na klawiaturze, otoczony stosami książek i stoperem"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to choose the perfect cybersecurity insurance policy to protect your business against cyber threats."
 tags: ["cybersecurity insurance", "data protection", "risk management", "cybersecurity policy", "data security", "cyber attacks", "cyber insurance", "network security", "business continuity", "insurance coverage", "data breach", "insurance policy", "IT security", "incident response", "risk assessment", "cybercrime", "financial protection", "cyber threats", "insurance claims", "business insurance"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "A cartoon image of a business owner holding a shield labeled cybersecurity insurance and blocking cyber threats."
 coverCaption: ""
 ---

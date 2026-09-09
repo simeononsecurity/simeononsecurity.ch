@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-04
 description: "Descubra las ventajas de una carrera en ciberseguridad, incluida la seguridad laboral, el alto potencial salarial y las abundantes oportunidades de crecimiento en la era digital."
 tags: ["carrera en ciberseguridad", "seguridad laboral", "alto potencial salarial", "oportunidades de crecimiento", "profesión de ciberseguridad", "amenazas cibernéticas", "seguridad digital", "seguridad de la información", "competencias en ciberseguridad", "profesionales de la ciberseguridad", "demanda de ciberseguridad", "industria de la ciberseguridad", "empleos en ciberseguridad", "panorama de la ciberseguridad", "retos de ciberseguridad", "recompensas de ciberseguridad", "futuro de la ciberseguridad", "mentalidad de ciberseguridad", "política de ciberseguridad", "curiosidad tecnológica", "aprendizaje continuo", "gestión del estrés", "importancia de la ciberseguridad", "percepción de la ciberseguridad", "protección digital", "desarrollo de competencias en ciberseguridad", "salvaguardia del mundo digital", "evolución de las amenazas a la ciberseguridad", "ciberseguridad reputación de marca", "rentabilidad empresarial"]
-cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.webp"
 coverAlt: "Un profesional con capa de superhéroe, frente a una pantalla de ordenador con un escudo que representa la ciberseguridad."
 coverCaption: "Un profesional de la ciberseguridad, el guardián de la seguridad digital, equipado con el escudo de protección contra las ciberamenazas."
 ---

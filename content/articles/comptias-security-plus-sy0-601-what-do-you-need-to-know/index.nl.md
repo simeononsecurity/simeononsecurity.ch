@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u het CompTIA Security+ SY0-601 examen kunt halen met tips, studiehulpmiddelen en strategieën voor het maken van de test."
 tags: ["CompTIA Beveiliging+ Examen", "SY0-601", "Cyberbeveiligingscertificering", "Examendoelstellingen", "Strategieën voor het maken van toetsen", "Studiemiddelen", "Examenformaat", "Tips voor passeren", "Informatiebeveiliging", "Prestatiegerichte vragen"]
-cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.png"
+cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp"
 coverAlt: "Een persoon die studeert met een laptop en boeken voor zich, wat staat voor de voorbereiding die nodig is om het CompTIA Security+ certificeringsexamen te halen."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj ekscytujące i innowacyjne pomysły na projekty w domowym laboratorium, aby poszerzyć swoją wiedzę i rozwinąć umiejętności informatyczne."
 tags: ["domowe projekty laboratoryjne", "środowisko wirtualizacji", "laboratorium bezpieczeństwa sieci", "domowy serwer multimediów", "system automatyki domowej", "praktyczne doświadczenie", "Umiejętności informatyczne", "technologia", "oprogramowanie", "sprzęt", "eksperymentowanie", "nauka", "architektura sieci", "konfiguracje oprogramowania", "cyberbezpieczeństwo", "firewall", "router", "streaming multimediów", "sieć domowa", "inteligentne urządzenia", "automatyzacja", "Raspberry Pi", "Z-Wave", "Zigbee", "Plex", "Kodi", "Emby", "VMware vSphere", "Microsoft Hyper-V", "Proxmox VE", "Budowanie środowiska wirtualizacji w domu", "Tworzenie laboratorium bezpieczeństwa sieci za pomocą pfSense", "Konfiguracja domowego serwera multimediów z Plex", "Zbuduj system automatyki domowej z Raspberry Pi"]
-cover: "/img/cover/A_symbolic_image_depicting_a_person_working.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_person_working.webp"
 coverAlt: "Symboliczny obraz przedstawiający osobę pracującą nad konfiguracją wirtualizacji z wieloma systemami operacyjnymi i komponentami sieciowymi."
 coverCaption: ""
 ---

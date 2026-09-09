@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Poznaj 10 ważnych wskazówek dotyczących bezpieczeństwa w Internecie, aby chronić swoją prywatność, bezpieczeństwo i finanse online oraz chronić swoją rodzinę przed zagrożeniami cybernetycznymi."
 genre: ["Bezpieczeństwo w Internecie", "Bezpieczeństwo online", "Wskazówki dotyczące cyberbezpieczeństwa", "Ochrona prywatności", "Bezpieczeństwo cyfrowe", "Zagrożenia online", "Bezpieczeństwo danych", "Praktyki bezpiecznego korzystania z Internetu", "Ochrona danych osobowych", "Prywatność online"]
 tags: ["Wskazówki dotyczące bezpieczeństwa w Internecie", "bezpieczeństwo online", "cyberzagrożenia", "ochrona prywatności", "bezpieczeństwo cyfrowe", "zagrożenia online", "bezpieczeństwo danych", "bezpieczne praktyki internetowe", "ochrona danych osobowych", "prywatność online", "wskazówki dotyczące cyberbezpieczeństwa", "prywatność w internecie", "oszustwa internetowe", "ataki phishingowe", "ochrona przed złośliwym oprogramowaniem", "bezpieczne hasła", "uwierzytelnianie dwuskładnikowe", "bezpieczne Wi-Fi", "monitorowanie sieci", "bezpieczeństwo poczty e-mail", "Prywatność w mediach społecznościowych", "bezpieczeństwo informacji finansowych", "bezpieczne strony internetowe", "monitorowanie wyciągów bankowych", "silne hasła", "menedżery haseł", "edukacja online", "świadomość cyberbezpieczeństwa", "niezawodne oprogramowanie zabezpieczające"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Symboliczny obraz przedstawiający bezpieczeństwo w Internecie, z tarczą chroniącą ekran komputera przed cyberzagrożeniami."
 ---
 

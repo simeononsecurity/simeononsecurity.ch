@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie in unserem ultimativen Leitfaden mehr über die verschiedenen Arten der Multi-Faktor-Authentifizierung und wie Sie die beste Lösung für Ihre Sicherheitsanforderungen auswählen."
 tags: ["Multi-Faktor-Authentifizierung", "Online-Sicherheit", "Passwortsicherheit", "Authentifizierungsfaktoren", "Zwei-Faktor-Authentifizierung", "Hardware-Münzen", "Software-Authentifizierung", "Cybersicherheit", "Phishing-Angriffe", "Hacking-Prävention", "datenschutz", "Identitätsüberprüfung", "Passwortsicherheit", "Sicherheitsmünzen", "Zugangskontrolle", "Identitätsdiebstahl", "Cyber-Bedrohungen", "digitale Sicherheit", "Authentifizierungsanwendungen", "Cyber-Abwehr"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Eine Zeichentrickfigur, die vor einem Computer steht, mit einem Schlosssymbol über dem Kopf und verschiedenen Authentifizierungsfaktoren, wie Schlüssel, Telefon, Fingerabdruck usw., die um sie herum schweben"
 coverCaption: ""
 ---

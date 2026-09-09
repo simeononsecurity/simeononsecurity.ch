@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Versterk de beveiliging van uw personeel op afstand door middel van een effectieve beveiligingsbewustzijnstraining, en leer hoe u deze met succes kunt implementeren."
 tags: ["externe werknemers", "veiligheidsbewustzijn", "cyberbeveiliging", "training", "telewerkers", "phishing", "beste praktijken", "veiligheidscultuur", "gamificatie", "NIST", "CISA", "SANS Beveiligingsbewustzijn", "Infosec Instituut", "KnowBe4", "continu leren", "praktijkscenario's", "interactieve training", "cyberdreigingen", "platforms voor veiligheidsopleiding"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Een cartoonbeeld van een diverse groep werknemers op afstand die deelnemen aan een boeiende beveiligingsbewustzijnstraining op hun laptops, met verschillende cyberbeveiligingssymbolen om hen heen."
 coverCaption: ""
 ---

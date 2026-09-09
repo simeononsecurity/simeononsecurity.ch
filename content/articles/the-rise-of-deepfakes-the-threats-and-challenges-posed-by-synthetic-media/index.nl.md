@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Ontdek de opkomst van deepfakes, de bedreigingen, uitdagingen en regelgevende maatregelen bij de bestrijding van synthetische mediamanipulatie."
 tags: ["deepfakes", "synthetische media", "AI-technologie", "verkeerde informatie", "nepnieuws", "fraude", "inbreuk op de privacy", "deepfake detectie", "regelgevingskaders", "onderwijs", "bewustzijn", "digitaal tijdperk", "technologie", "maatschappij", "uitdagingen", "bedreigingen", "bestrijding van deepfakes", "verantwoording", "samenwerking", "geavanceerde algoritmen"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "Een symbolische illustratie van het gezicht van een persoon dat wordt vervangen door een ander gezicht, die de bedrieglijke aard van deepfakes en de uitdagingen die ze vormen bij digitale mediamanipulatie weergeeft."
 coverCaption: ""
 ---

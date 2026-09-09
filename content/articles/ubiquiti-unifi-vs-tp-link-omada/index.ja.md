@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ubiquiti UnifiとTP-Link Omadaのネットワークシステムを比較して、あなたのニーズに合ったものを選んでください。"
 tags: ["ユビキタス", "ティーピーリンク", "ネットワーキング", "ユニファイ", "所有する", "運営", "ハードウエア", "サポート", "規則", "顔立ち", "制御", "インタフェース", "価値", "信頼性", "パフォーマンス"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "複雑なネットワークを一方に、使いやすいインターフェイスをもう一方に配置した分割画面図解"
 coverCaption: ""
 ---

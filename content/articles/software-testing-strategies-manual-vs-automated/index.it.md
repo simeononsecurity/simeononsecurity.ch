@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i vantaggi e gli svantaggi dei test software manuali e automatizzati per prendere una decisione consapevole per la vostra organizzazione."
 tags: ["test del software", "test manuale", "test automatizzati", "strategie di test", "sviluppo software", "garanzia di qualità", "casi di test", "copertura del test", "test esplorativi", "esperienza dell'utente", "efficienza", "riutilizzabilità", "adattabilità", "errore umano", "falsi positivi", "false negatives", "automazione dei test", "test ibridi", "ottimizzazione delle risorse", "pratiche di test del software", "Scegliere la giusta strategia di test del software", "vantaggi del test manuale", "svantaggi dei test automatizzati", "combinare test manuali e automatizzati", "ottimizzazione del processo di test del software"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Un'illustrazione colorata di un tester umano e di un robot tester che lavorano insieme per testare le applicazioni software."
 coverCaption: ""
 ---

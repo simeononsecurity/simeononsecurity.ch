@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie Best Practices für eine effiziente und sichere Image-Erstellung mit Packer, die den Prozess automatisiert und plattformübergreifende Konsistenz gewährleistet."
 tags: ["Bewährte Praktiken für Packer", "Erstellung von Packer-Images", "automatische Bilderstellung", "maschinelle Bildoptimierung", "Reproduzierbarkeit", "Packerbauern", "Packerproviantierer", "sichere Image-Konfiguration", "Optimierung der Bildgröße", "Bildvalidierung", "Packer Dokumentation", "Packer GitHub-Repository", "AWS EC2 Image Builder", "Azure Image Builder", "VMware Packer-Erstellung", "Vorteile für Packer", "Infrastructure-as-Code-Integration", "Versionskontrolle für Packer", "Bilder von schlanken Maschinen", "Bildkompressionstechniken", "automatisierte Bildprüfung", "manuelle Bildprüfung", "Best Practices für die Bildvalidierung", "Software-Bereitstellungs-Workflows", "einheitliche Softwareumgebungen", "Packer SEO-Tipps", "Automatisierung des Packerbildes", "Effizienz der Bilderstellung", "sichere Image-Erstellung", "optimierte Maschinenbilder"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.webp"
 coverAlt: "Eine Cartoon-Illustration eines Packer-Symbols, das einen Stapel von Bildern mit Effizienz- und Sicherheitsfunktionen erstellt."
 coverCaption: ""
 ---

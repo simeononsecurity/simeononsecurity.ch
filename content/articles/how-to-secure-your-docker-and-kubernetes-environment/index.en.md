@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn best practices for securing your Docker and Kubernetes environment, including using official images, limiting permissions, and implementing network security."
 tags: ["Docker", "Kubernetes", "Security", "Containers", "Network Security", "RBAC", "API Server", "Vulnerabilities", "Monitoring", "Logging", "Firewalls", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometheus", "Cybersecurity", "Best Practices"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "A cartoon docker container and a cartoon kubernetes pod holding hands and standing on top of a locked safe. The background is a wall of computer code."
 coverCaption: ""
 ---

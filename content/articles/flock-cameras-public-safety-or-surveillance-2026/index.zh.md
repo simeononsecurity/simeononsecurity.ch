@@ -6,7 +6,7 @@ draft: false
 description: "对Flock Safety ALPR摄像头的独立分析：它们的实际工作原理、除车牌之外收集的数据、数据共享如何创建隐蔽的全国数据库，以及为何搜查令问题才是真正的核心问题。"
 genre: ["隐私", "监控", "公民自由", "执法技术", "数字权利"]
 tags: ["Flock Safety", "ALPR", "车牌识别仪", "监控", "隐私", "无证监控", "车队分析", "蓝牙追踪", "TPMS追踪", "数据共享", "Ring摄像头", "第四修正案", "无事可隐", "LPR准确性", "错误指控", "MFA", "执法技术", "公民自由", "数据最小化", "DeFlock", "反监控", "公共安全", "警察监控", "隐私权", "数字监控", "大规模监控", "车牌识别", "摄像头网络", "数据保留"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "一个黑暗的街道十字路口，路灯柱上安装的监控摄像头照亮周围，经过车辆上叠加显示着车牌数据。"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

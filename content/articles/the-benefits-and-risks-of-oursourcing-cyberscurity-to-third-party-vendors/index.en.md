@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the benefits and risks of outsourcing cybersecurity to third-party vendors and how to choose the right vendor for your business."
 tags: ["cybersecurity", "outsourcing", "third-party vendors", "data breach", "vendor selection", "cost savings", "expertise", "scalability", "loss of control", "incident response plan", "risk management", "business security", "security outsourcing", "cyber threats", "network security", "data protection", "vulnerability management", "cyber defense", "business continuity", "information security"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "A cartoon image of a businessman standing on a rock and holding a shield to protect his business from cyber threats, with a row of third-party vendors standing behind him offering different security services."
 coverCaption: ""
 ---

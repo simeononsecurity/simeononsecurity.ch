@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Vergelijk Ubiquiti Unifi en TP-Link Omada netwerksystemen om de juiste te kiezen voor uw behoeften."
 tags: ["Ubiquiti", "TP-Link", "netwerken", "Unifi", "Eigen", " management", "hardware", "steun", "voorschriften", "functies", "controle", "interface", "waarde", "betrouwbaarheid", "prestatie"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "Een split-screen illustratie van een complex netwerk aan de ene kant, met een gebruiksvriendelijke interface aan de andere kant"
 coverCaption: ""
 ---

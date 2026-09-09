@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Opanuj uprawnienia do plików w systemie Linux, aby zapewnić bezpieczny system plików dzięki temu kompleksowemu przewodnikowi obejmującemu własność, kontrolę dostępu i najlepsze praktyki."
 tags: ["Uprawnienia do plików w systemie Linux", "bezpieczny system plików", "kontrola dostępu", "własność", "przewodnik po uprawnieniach do plików", "Bezpieczeństwo systemu Linux", "bezpieczeństwo systemu plików", "polecenie chmod", "polecenie chown", "audyt uprawnień do plików", "Zasada najmniejszego przywileju", "zgodność z przepisami", "RODO", "HIPAA", "audyt uprawnień plików", "dokumentowanie regulacji", "bezpieczeństwo systemu", "bezpieczeństwo sieci", "szyfrowanie", "zarządzanie użytkownikami"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Obraz w stylu kreskówki przedstawiający zamkniętą szafkę z różnymi kluczami reprezentującymi uprawnienia użytkownika, grupy i innych osób."
 coverCaption: ""
 ---

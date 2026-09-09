@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-17
 description: "スマート シティ、農業、物流などの IoT デバイスおよび産業向けに、LoRa ネットワークと Helium を統合する利点を発見してください。"
 tags: ["LoRaネットワーク", "ヘリウムの統合", "Semtech パケット フォワーダー", "IoTアプリケーション", "LPWAN", "スペクトラム拡散変調", "ゲートウェイ", "雲", "LoRaWAN プロトコル", "ネットワークインフラストラクチャ", "ホットスポット", "センサー", "ネットワークセキュリティー", "地理位置情報", "インセンティブの仕組み", "スマートシティ", "農業", "ロジスティクス", "IoT開発", "長距離通信"]
-cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
+cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.webp"
 coverAlt: "さまざまな IoT デバイスがネットワークに接続され、光の網として表現された都市景観の様式化されたイラスト。Helium ロゴが目立つように表示されます。"
 coverCaption: ""
 ---

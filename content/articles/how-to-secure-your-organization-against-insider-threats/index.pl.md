@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki ochrony organizacji przed zagrożeniami wewnętrznymi powodowanymi przez pracowników, wykonawców lub partnerów, którzy mają dostęp do wrażliwych danych i systemów."
 tags: ["zagrożenia wewnętrzne", "cyberbezpieczeństwo", "ochrona danych", "szkolenie pracowników", "kontrole techniczne", "kontrola dostępu", "rozwój polityki", "zapobieganie utracie danych", "reakcja na incydent", "Bezpieczeństwo IT", "zarządzanie ryzykiem", "uprzywilejowany dostęp", "świadomość bezpieczeństwa", "cyberataki", "bezpieczeństwo sieci", "bezpieczeństwo informacji", "wykrywanie zagrożeń", "ocena ryzyka", "polityki bezpieczeństwa", "cyberprzestępczość"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Kreskówkowy obraz pracownika z kluczem odblokowującym drzwi oznaczone poufnymi danymi, podczas gdy inny pracownik z lupą przygląda się podejrzliwie. "
 coverCaption: ""
 ---

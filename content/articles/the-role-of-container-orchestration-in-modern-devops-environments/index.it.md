@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite l'importanza e i vantaggi dell'orchestrazione dei container nel DevOps moderno, insieme agli strumenti di orchestrazione dei container più diffusi e alle normative governative rilevanti per la containerizzazione."
 tags: ["orchestrazione dei container", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalability", "alta disponibilità", "bilanciamento del carico", "sicurezza", "Distribuzione automatizzata delle app", "HIPAA", "SOX", "GDPR", "compliance", "sviluppo software", "cloud computing", "containerizzazione", "tecnologia", "automazione"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Un'immagine fumettistica che rappresenta contenitori che condividono lo stesso peso su un'altalena con un direttore d'orchestra che li dirige."
 coverCaption: ""
 ---

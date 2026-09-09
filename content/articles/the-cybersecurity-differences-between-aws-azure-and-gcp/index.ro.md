@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Comparați AWS, Azure și Google Cloud Platform din punct de vedere al securității în cloud și aflați care sunt diferențele pentru a lua o decizie informată pentru organizația dumneavoastră."
 tags: ["AWS", "Azure", "Google Cloud", "securitate în cloud", "IAM", "GuardDuty", "Centrul de securitate", "Centrul de comandă al securității", "Protecție DDoS", "Cloud Armor", "WAF", "Legătură privată", "DLP", "cloud computing", "servicii cloud", "furnizori de cloud", "protecția datelor", "securitate cibernetică", "securitatea infrastructurii"]
-cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png"
+cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "O imagine animată 3D vibrantă, care prezintă trei structuri cloud distincte reprezentând AWS, Azure și Google Cloud Platform, cu simboluri de scut suprapuse peste fiecare nor pentru a simboliza ofertele de securitate ale acestora."
 coverCaption: ""
 ---

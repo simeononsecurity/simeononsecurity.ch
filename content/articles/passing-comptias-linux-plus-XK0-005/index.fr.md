@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez de précieux conseils et astuces qui vous aideront à réussir l'examen CompTIA Linux+ XK0-005 et à faire progresser votre carrière en tant que professionnel Linux."
 tags: ["Mises à jour Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "mises à jour hors ligne", "dépôt local", "cache", "configuration du serveur", "configuration du client", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Mises à jour du système Linux", "mises à jour hors ligne des paquets", "les mises à jour de logiciels hors ligne", "dépôt local de paquets", "cache local des paquets", "mises à jour hors ligne de Linux", "gestion des mises à jour hors ligne", "méthodes de mise à jour hors ligne", "maintenance du système hors ligne", "Mises à jour du serveur Linux", "Linux client updates", "gestion des logiciels hors ligne", "gestion des paquets hors ligne", "stratégies de mise à jour", "Mises à jour de sécurité pour Linux"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
 coverAlt: "Un pingouin Linux sympathique en dessin animé, marchant avec confiance sur un pont vers un avenir prospère."
 coverCaption: ""
 ---

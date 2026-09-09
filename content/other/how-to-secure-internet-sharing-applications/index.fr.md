@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Apprenez à sécuriser vos applications Linux de partage d'Internet avec des mesures avancées pour bloquer les logiciels malveillants, les traqueurs, le trafic Tor et les torrents."
 tags: ["Linux security", "applications de partage de l'internet", "protection contre les logiciels malveillants", "blocage du traceur", "Blocage du trafic Tor", "prévention des torrents", "sécurité des réseaux", "Snort", "Securita", "Protection DNS", "règles avancées de pare-feu", "Mises à jour d'Ubuntu", "mises à jour automatiques", "surveillance du réseau", "cybersécurité", "Linux internet security", "Sécurité des applications Linux", "blocage des logiciels malveillants", "Prévention du trafic Tor", "torrent protection", "pare-feu réseau", "Sécurité du réseau Linux", "partage sécurisé de l'internet", "Linux DNS protection", "sécurité avancée des réseaux", "Mises à jour du système Linux", "outils de surveillance du réseau", "Mesures de cybersécurité pour Linux", "Pratiques de sécurité Linux"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "Dessin humoristique montrant un bouclier protégeant un réseau d'appareils interconnectés contre les menaces malveillantes."
 coverCaption: ""
 ---

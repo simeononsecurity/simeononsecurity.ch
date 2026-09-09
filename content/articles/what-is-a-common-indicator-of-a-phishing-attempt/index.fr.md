@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Un guide complet sur l'identification des indicateurs communs des tentatives d'hameçonnage et des conseils pratiques pour rester en sécurité en ligne."
 tags: ["tentatives d'hameçonnage", "indicateurs communs", "escroqueries par hameçonnage", "sécurité en ligne", "cybersécurité", "adresses électroniques suspectes", "urgent language", "fautes de grammaire", "les fautes d'orthographe", "URL suspects", "demandes d'informations personnelles", "des pièces jointes inattendues", "rester en sécurité en ligne", "mises à jour du logiciel", "authentification à deux facteurs", "sécurité du mot de passe", "escroqueries en ligne", "techniques d'hameçonnage", "cybermenaces", "sensibilisation au phishing", "identifier le phishing", "prévention de l'hameçonnage", "protection contre le phishing", "Conseils de sensibilisation à l'hameçonnage", "détection de l'hameçonnage", "Formation de sensibilisation à l'hameçonnage", "courriel d'hameçonnage", "Campagne de sensibilisation à l'hameçonnage", "sensibilisation au phishing", "Sensibilisation à l'hameçonnage - Meilleures pratiques", "Quel est l'indicateur le plus courant d'une tentative d'hameçonnage ?"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "Image de bande dessinée représentant une personne recevant un courrier électronique suspect et paraissant sceptique."
 coverCaption: ""
 ---

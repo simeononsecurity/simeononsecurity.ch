@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uzelf kunt beschermen tegen RFID-skimming en uw creditcardgegevens veilig kunt houden met deze eenvoudige tips."
 tags: ["RFID skimming", "bescherming van de kredietkaart", "RFID-blokkerende portefeuilles", "chip-creditcards", "phishing", "cyberbeveiliging", "identiteitsdiefstal", "privacy", "contactloze betalingen", "mobiele betalingen", "financiële zekerheid", "smartcards", "NFC", "encryptie", "gegevensbescherming", "RFID-lezers", "RFID-technologie", "elektronische zakkenrollerij", "stille zak", "jager-kat"]
-cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Een cartoonillustratie van een dief die een elektronisch apparaat gebruikt om creditcardgegevens uit iemands portemonnee te stelen."
 coverCaption: ""
 ---

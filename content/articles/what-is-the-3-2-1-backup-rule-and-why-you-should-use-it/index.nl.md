@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw waardevolle gegevens kunt beschermen tegen cyberaanvallen, natuurrampen en hardwarestoringen."
 tags: ["back-up strategie", "gegevensbescherming", "cyberbeveiliging", "gegevensredundantie", "preventie van gegevensverlies", "gegevensherstel", "compliance", "externe harde schijven", "cloudopslagdiensten", "netwerkgebonden opslag", "backup software", "automatische back-ups", "gegevensbeveiliging", "noodherstel", "offsite back-up", "redundante back-ups", "beste praktijken voor back-up", "back-upoplossingen", "soorten opslag", "dataveiligheid"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Een stripfiguur met een cape die een schild met het cijfer 3 erop vasthoudt, terwijl hij bovenop twee opslagdozen staat, waarvan de ene een harde schijf voorstelt en de andere een wolk, en naar een wereldbol wijst die offsite-opslag voorstelt."
 coverCaption: ""
 ---

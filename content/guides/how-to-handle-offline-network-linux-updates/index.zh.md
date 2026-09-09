@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Linux 更新", "Ubuntu", "德比安", "中央操作系统", "RHEL", "离线更新", "本地存储库", "缓存", "服务器设置", "客户端设置", "镜像", "debmirror", "创建仓库", "apt-缓存-ng", "yumcron", "Linux 系统更新", "离线包更新", "离线软件更新", "本地包存储库", "本地包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线包管理", "更新策略", "Linux 安全更新"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "描绘服务器和多个客户端设备离线交换更新的卡通插图。"
 coverCaption: ""
 ---

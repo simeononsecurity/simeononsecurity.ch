@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum revoluționează inteligența artificială domeniul detectării și răspunsului la amenințări, precum și provocările și limitările pe care le prezintă."
 tags: ["Inteligența artificială", "Securitatea cibernetică", "Detectarea amenințărilor", "Răspuns la amenințări", "Învățare automată", "Învățare profundă", "Procesarea limbajului natural", "Algoritmi AI", "Securitatea rețelelor", "Securitatea datelor", "Apărare cibernetică", "Răspuns la incidente", "Amenințări din interior", "Echipe de securitate", "Monitorizare în timp real", "Sisteme bazate pe reguli", "Criminalitatea informatică", "Vulnerabilități", "Securitate adaptivă", "Reziliența cibernetică"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "O imagine animată 3D a unui scut cu literele AI pe el, care blochează săgețile care se apropie și care simbolizează amenințările cibernetice."
 coverCaption: ""
 ---

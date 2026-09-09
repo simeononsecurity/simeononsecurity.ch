@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear y mantener un canal DevOps seguro utilizando las mejores prácticas y ejemplos reales en esta completa guía."
 tags: ["DevOps", "seguridad", "tubería", "integración continua", "entrega continua", "automatización", "contenedorización", "codificación segura", "exploración de vulnerabilidades", "control", "comentarios", "control de versiones", "control de acceso", "recuperación en caso de catástrofe", "continuidad de las actividades", "estudio monográfico", "Primavera", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
 coverAlt: "Una imagen de dibujos animados de un escudo que protege una tubería con un candado y una llave, rodeado de varias etapas de tuberías DevOps y herramientas de seguridad."
 coverCaption: ""
 ---

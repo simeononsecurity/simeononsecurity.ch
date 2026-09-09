@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van Ansible automatisering met een vergelijking van gewone Ansible, Ansible Tower en Ansible Semaphore, en kies de juiste tool voor efficiënt infrastructuurbeheer."
 genre: ["Automatisering", "Beheer van infrastructuur", "Configuratiebeheer", "DevOps", "IT-werkzaamheden", "Open Bron", "Beheer van werkstromen", "Schaalbaarheid", "Samenwerking", "Ansible Gereedschap"]
 tags: ["Ansible", "Automatisering", "Toren van Ansible", "Ansible Semafoor", "Gewoon Ansible", "Beheer van infrastructuur", "Configuratiebeheer", "DevOps", "IT-werkzaamheden", "Open Bron", "Beheer van werkstromen", "Schaalbaarheid", "Samenwerking", "Spelboeken", "YAML", "Taakplanning", "RBAC", "GUI", "Integratie versiebeheer", "Idempotente uitvoering", "Agentloze architectuur", "Ansible Workflow", "Bedrijfsgerichte functies", "Zelf gehoste implementatie", "Cloud-gebaseerde implementatie", "Licentie", "Tools voor infrastructuurbeheer", "Automatiseringsplatforms", "Workflowbeheersystemen", "DevOps-tools", "Beheer van IT-activiteiten"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "Een symbolische illustratie met onderling verbonden tandwielen die automatisering en infrastructuurbeheer met Ansible symboliseren"
 coverCaption: "Benut het potentieel van Ansible voor efficiënt infrastructuurbeheer"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Maîtrisez Git grâce à ce guide complet qui couvre tous les aspects de l'installation et de la configuration, des branchements, de la fusion et de la collaboration."
 tags: ["Git", "contrôle des versions", "Tutoriels Git", "Guide Git", "Les bases de Git", "Commandes Git", "Installation de Git", "Configuration Git", "le branchement dans Git", "fusionner dans Git", "collaboration dans Git", "contrôle de version distribué", "version du code", "Flux de travail Git", "Conseils Git", "Meilleures pratiques Git", "Git pour les débutants", "Git pour les développeurs", "développement de logiciels", "code collaboration", "Maîtrise de Git", "un guide Git complet", "Tutoriel sur le contrôle de version Git", "Branchements et fusions Git", "Conseils pour la collaboration Git"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "Illustration symbolique de deux engrenages interconnectés représentant la collaboration et le contrôle des versions, avec le logo Git intégré dans le design."
 coverCaption: ""
 ---

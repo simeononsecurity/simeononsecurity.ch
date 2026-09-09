@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Learn how to turn your unused internet bandwidth into a passive income stream by sharing it with others."
 tags: ["monetize internet", "passive income", "unused bandwidth", "share internet", "earn money", "internet connection", "peer-to-peer", "Repocket", "EarnApp", "HoneyGain", "VPN", "scraping purposes", "payout options", "money orders", "BTC", "LTC", "MATIC", "earnings", "flexibility", "api key", "earn money from unused internet", "monetize internet connection", "passive income from sharing internet", "earn money effortlessly", "minimum payout threshold", "average earning potential", "Repocket Docker container", "Repocket documentation", "thoroughly understand payout system", "conduct research before using"]
-cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.webp"
 coverAlt: "A symbolic illustration of a person holding a Wi-Fi signal with money symbols flowing into their pocket."
 coverCaption: ""
 ---

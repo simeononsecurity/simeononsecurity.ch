@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "あなたの公開IPアドレスを誤って漏らしてしまう、よくあるVPNの間違いを避け、あなたのオンラインプライバシーを守りましょう。"
 tags: ["VPNの失敗例", "IPリーク", "オンラインプライバシー", "サイバーセキュリティ", "インターネットセキュリティ", "仮想私設通信網", "ウェブアールティーシー", "DNSサーバー", "VPNプロバイダー", "二要素認証", "VPNソフト", "キルスイッチ", "データプライバシー", "インターネットプライバシー", "サイバー脅威", "データ機密保護", "ネットワークセキュリティ", "オンラインセキュリティ", "オンラインアノニマス", "えんかくブラウズ"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "虫眼鏡を持ってノートパソコンに立ち、ネット上のプライバシーを検索している漫画のキャラクター。"
 coverCaption: ""
 ---

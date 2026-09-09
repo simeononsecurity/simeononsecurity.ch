@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a utilizar la línea de comandos de Linux para la ciberseguridad con comandos básicos y avanzados."
 tags: ["Linux", "Línea de comandos", "Ciberseguridad", "Guía para principiantes", "Exploración de redes", "Pruebas de vulnerabilidad", "Análisis de malware", "Permisos", "Tráfico de red", "Estado del proceso", "Estadísticas de la red", "Búsqueda de archivos", "Wireshark", "TCPDump", "Nmap", "CLI de Linux", "Seguridad", "Pruebas de penetración", "Análisis forense digital"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "Una ilustración de dibujos animados de una persona con capucha, sentada frente a la pantalla de un ordenador con la interfaz de línea de comandos de Linux visible y sosteniendo una lupa para representar el aspecto de la ciberseguridad."
 coverCaption: ""
 ---

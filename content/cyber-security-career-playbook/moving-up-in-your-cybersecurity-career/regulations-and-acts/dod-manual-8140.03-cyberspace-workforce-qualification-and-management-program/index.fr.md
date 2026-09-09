@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "En savoir plus sur le programme de qualification et de gestion de la main-d'œuvre dans le cyberespace du ministère de la défense, décrit dans le manuel 8140.03."
 tags: ["Manuel du ministère de la défense 8140.03", "main-d'œuvre du cyberespace", "programme de qualification", "DoD personnel", "cybersécurité", "qualification pour le cyberespace", "gestion du cyberespace", "développement de la main-d'œuvre dans le cyberespace", "Politiques du ministère de la défense en matière de cyberespace", "main-d'œuvre dans le domaine de la cybersécurité", "qualifications en matière de cybersécurité", "formation à la cybersécurité", "éducation à la cybersécurité", "certifications en cybersécurité", "rôles en matière de cybersécurité", "rôles professionnels dans le domaine de la cybersécurité", "gestion du personnel cybernétique", "qualifications pour le rôle professionnel dans le cyberespace", "cyber personnel management", "programme de qualification cybernétique", "cyberdéveloppement professionnel", "compétence de la main-d'œuvre dans le cyberespace", "certifications du cyberpersonnel", "exigences en matière de cyberformation", "normes de cybersécurité", "compétence de la main-d'œuvre dans le cyberespace", "défense contre les cybermenaces", "la sécurité des systèmes d'information", "sécurité des réseaux"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Écran d'ordinateur affichant un tableau de bord de cybersécurité avec des graphiques et des tableaux reflétant l'état de la sécurité d'un réseau"
 coverCaption: ""
 ---

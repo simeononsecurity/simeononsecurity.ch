@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las ventajas de SSH, aprenda a generar claves SSH, a conectarse a servidores remotos, a transferir archivos de forma segura y a personalizar las configuraciones SSH."
 tags: ["SSH", "Shell seguro", "acceso remoto", "gestión remota", "codificación", "autenticación", "integridad de los datos", "portabilidad", "transferencia de archivos", "SCP", "Claves SSH", "Configuración SSH", "protocolo de red", "ejecución remota de comandos", "OpenSSH", "autenticación de dos factores", "criptografía de clave pública", "Dirección IP", "nombre de dominio", "terminal", "símbolo del sistema", "seguridad", "administradores de sistemas", "desarrolladores", "versatilidad", "métodos de autenticación", "funciones hash", "túneles", "opciones personalizadas"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "Ilustración animada de una persona que se conecta de forma segura a un servidor mediante SSH."
 coverCaption: ""
 ---

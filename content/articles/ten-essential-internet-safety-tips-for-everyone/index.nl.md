@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Leer 10 belangrijke tips voor internetveiligheid om je privacy, veiligheid en financiën online te beschermen en je gezin te behoeden voor cyberbedreigingen."
 genre: ["Veiligheid op internet", "Online beveiliging", "Tips voor cyberbeveiliging", "Privacybescherming", "Digitale veiligheid", "Online bedreigingen", "Gegevensbeveiliging", "Veilige internetpraktijken", "Persoonlijke gegevens beschermen", "Online privacy"]
 tags: ["tips voor internetveiligheid", "online beveiliging", "cyberbedreigingen", "privacybescherming", "digitale veiligheid", "online bedreigingen", "gegevensbeveiliging", "veilige internetpraktijken", "bescherming van persoonlijke informatie", "online privacy", "tips voor cyberbeveiliging", "internetprivacy", "online zwendel", "phishing-aanvallen", "bescherming tegen malware", "veilige wachtwoorden", "twee-factor authenticatie", "beveiligde Wi-Fi", "netwerkbewaking", "e-mailbeveiliging", "privacy sociale media", "beveiliging van financiële informatie", "beveiligde websites", "bankafschriften controleren", "sterke wachtwoorden", "wachtwoordbeheerders", "online onderwijs", "cyberbewustzijn", "betrouwbare beveiligingssoftware"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Een symbolische afbeelding van internetveiligheid, met een schild dat een computerscherm beschermt tegen cyberbedreigingen."
 ---
 

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les avantages et les inconvénients des tests de logiciels manuels et automatisés afin de prendre une décision éclairée pour votre organisation."
 tags: ["tests de logiciels", "tests manuels", "tests automatisés", "les stratégies de test", "développement de logiciels", "l'assurance qualité", "cas de test", "couverture des tests", "essais exploratoires", "expérience utilisateur", "efficiency", "réutilisabilité", "adaptabilité", "erreur humaine", "faux positifs", "faux négatifs", "test automation", "essais hybrides", "optimisation des ressources", "les pratiques de test des logiciels", "choisir la bonne stratégie de test des logiciels", "avantages des tests manuels", "les inconvénients des tests automatisés", "combiner les tests manuels et automatisés", "optimiser le processus de test des logiciels"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Illustration colorée d'un testeur humain et d'un testeur robot travaillant ensemble pour tester des applications logicielles."
 coverCaption: ""
 ---

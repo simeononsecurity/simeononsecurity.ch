@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "SimeonOnSecurityのCTFランキングログで、CTFやチャレンジの世界の最新ランキングをチェックしよう"
 tags: ["CTFランキング", "キャプチャー・ザ・フラッグ", "コンペティション", "挑戦すること", "ロックヒードマーティン・サイバーグランドチャレンジ", "ナショナルサイバーリーグ", "サイファー・テック・チャレンジ", "パフォーマンス", "プレイスメント", "チーム", "個人", "2020", "2021", "サイバーセキュリティ", "サイバーディフェンス", "CTFイベント", "ハッキングのコンペティション", "情報セキュリティ", "セキュリティ研究"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "コンピュータの画面と南京錠、盾、錠前と鍵のマークなどのサイバーセキュリティのシンボルに囲まれた1位のリボンがついた漫画のトロフィーです。"
 coverCaption: ""
 ---

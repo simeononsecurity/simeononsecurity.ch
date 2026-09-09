@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Mejore sus conocimientos de ciberseguridad con programas en línea y cursos en vídeo, que abarcan una amplia gama de temas, para adelantarse a las amenazas emergentes y proteger los entornos digitales."
 tags: ["formación en ciberseguridad", "programas en línea", "cursos de vídeo", "educación en ciberseguridad", "formación en seguridad de la información", "certificaciones de ciberseguridad", "carrera en ciberseguridad", "plataformas de aprendizaje en línea", "competencias en ciberseguridad", "formación práctica", "hacking ético", "seguridad de la red", "privacidad de los datos", "inteligencia sobre ciberamenazas", "codificación segura", "respuesta a incidentes", "seguridad en la nube", "seguridad de las aplicaciones web", "seguridad móvil", "informática forense", "defensa de la red", "buenas prácticas de ciberseguridad", "industria de la ciberseguridad", "profesionales de la ciberseguridad", "empleos en ciberseguridad", "tendencias en ciberseguridad", "recursos de ciberseguridad", "concienciación sobre ciberseguridad", "noticias sobre ciberseguridad", "herramientas de ciberseguridad"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Imagen de dibujos animados que muestra a una persona con un escudo protegiendo un entorno digital de las ciberamenazas."
 coverCaption: "Potencie su viaje de ciberseguridad: Libere su potencial de defensa digital."
 ---

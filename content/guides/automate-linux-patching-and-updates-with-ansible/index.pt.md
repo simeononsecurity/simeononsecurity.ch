@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a automatizar patches e atualizações do Linux usando o Ansible, abrangendo várias distribuições e instruções de configuração."
 tags: ["Correção do Linux", "Automação Ansible", "automatizando atualizações", "Manutenção de sistema", "automação de TI", "gerenciamento de patches", "segurança Linux", "Debian", "ubuntu", "RHEL", "Alpino", "estabilidade do sistema", "mitigação de vulnerabilidade", "infraestrutura de TI", "ferramenta de automação", "Manual do Ansible", "configuração do host", "atualizações de software", "conformidade de segurança", "operações de TI", "Atualizações do Linux", "ubuntu", "Debian", "CentOS", "RHEL", "atualizações off-line", "repositório local", "cache", "configuração do servidor", "configuração do cliente", "apt-mirror", "debmirror", "criarrepo", "apt-cacher-ng", "yum-cron", "Atualizações do sistema Linux", "atualizações de pacotes off-line", "atualizações de software off-line", "repositório de pacotes local", "cache de pacote local", "atualizações off-line do Linux", "lidando com atualizações off-line", "métodos de atualização off-line", "manutenção do sistema off-line", "Atualizações do servidor Linux", "Atualizações do cliente Linux", "gerenciamento de software off-line", "gerenciamento de pacotes off-line", "estratégias de atualização", "Atualizações de segurança do Linux"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Uma imagem colorida em estilo de desenho animado representando um robô aplicando patches a um cluster de servidores Linux."
 coverCaption: ""
 ---

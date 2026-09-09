@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何实施 NIST 网络安全框架，并通过我们的分步指南保护您的组织免受网络威胁。"
 tags: ["网络安全", "NIST", "框架", "风险管理", "信息安全", "网络威胁", "执行", "最佳做法", "导则", "标准", "网络攻击", "风险评估", "网络安全风险", "数据保护", "合规性", "信息技术安全", "网络安全", "事件响应", "安全措施", "网络安全计划"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "一个人拿着盾牌阻挡各种网络攻击的卡通形象。"
 coverCaption: ""
 ---

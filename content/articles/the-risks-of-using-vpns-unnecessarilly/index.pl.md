@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj, dlaczego sieci VPN mogą nie być przydatne dla standardowych użytkowników w świecie, w którym wszystko używa HTTPS i jak zaufać swojemu dostawcy VPN."
 tags: ["VPN", "Prywatność online", "Bezpieczeństwo Internetu", "Ataki MITM", "Wirtualne sieci prywatne", "Cybersecurity", "Bezpieczeństwo w sieci", "Szyfrowanie", "HTTPS", "Ochrona danych", "Usługi osób trzecich", "Zagrożenia dla prywatności", "ISP", "Zawartość ograniczona geograficznie", "Cenzura internetowa", "Publiczne Wi-Fi", "Prywatność danych", "Ochrona online", "Bezpieczeństwo stron internetowych", "Dostawcy VPN"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "Użytkownik komputera z kreskówki surfuje po Internecie, podczas gdy pojawia się gigantyczny symbol kłódki, który ma chronić prywatność użytkownika."
 coverCaption: ""
 ---

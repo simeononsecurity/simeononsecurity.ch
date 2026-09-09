@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die wichtigsten Schritte, die Sie unternehmen müssen, wenn Sie Opfer eines Doxed geworden sind. Sie erfahren, wie Sie persönliche Informationen entfernen, die Online-Sicherheit erhöhen, den Vorfall melden, Unterstützung suchen und rechtliche Schritte einleiten können."
 genre: ["Cybersecurity", "Schutz der Privatsphäre", "Online-Sicherheit", "Digitaler Datenschutz", "Datensicherheit", "Schutz persönlicher Informationen", "Prävention von Cyberkriminalität", "Identitätsdiebstahl", "Online Harassment", "Digitale Selbstverteidigung"]
 tags: ["Doxxing-Prävention", "Reaktion auf Doxxing-Vorfälle", "Schutz personenbezogener Daten", "Online-Datenschutz", "Online-Sicherheit", "Meldung von Doxxing", "Rechtsweg", "Internetkriminalität", "Identitätsschutz", "Online-Belästigung", "Datensicherheit", "Datenschutzeinstellungen", "Zwei-Faktor-Authentifizierung", "Online-Konten", "Überwachung der Online-Präsenz", "Online-Sicherheit", "Maßnahmen zum Schutz der Privatsphäre im Internet", "Tipps zur Cybersicherheit", "Unterstützung nach Doxxing", "GDPR", "CCPA", "Strafverfolgung", "Online-Communities", "Cybersicherheitsgesetze", "Datenschutzbestimmungen", "digitale Selbstverteidigung", "Sicherheitsvorkehrungen im Internet", "Schutz persönlicher Informationen", "Online-Datenschutzrichtlinien"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "Eine Person, die ihre persönlichen Daten mit einem Schild schützt."
 coverCaption: "Der Schutz persönlicher Daten ist der Schlüssel zur digitalen Selbstverteidigung."
 ---

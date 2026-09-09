@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să alegeți polița de asigurare de securitate cibernetică perfectă pentru a vă proteja afacerea împotriva amenințărilor cibernetice."
 tags: ["asigurare de securitate cibernetică", "protecția datelor", "gestionarea riscurilor", "politica de securitate cibernetică", "securitatea datelor", "atacuri cibernetice", "asigurare cibernetică", "securitatea rețelei", "continuitatea afacerilor", "acoperire de asigurare", "încălcarea datelor", "poliță de asigurare", "Securitate IT", "răspunsul la incidente", "evaluarea riscurilor", "criminalitate informatică", "protecție financiară", "amenințări cibernetice", "despăgubiri de asigurare", "asigurare de afaceri"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "O imagine de desen animat a unui proprietar de afacere care ține în mână un scut pe care scrie asigurare de securitate cibernetică și care blochează amenințările cibernetice."
 coverCaption: ""
 ---

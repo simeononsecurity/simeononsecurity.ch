@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen van het gebruik van Chocolatey voor Windows pakketbeheer: updates automatiseren, tijd besparen en systeemveiligheid garanderen."
 tags: ["Windows pakketbeheer", "Chocolade", "software-updates", "pakketbeheerder", "opdrachtregelinterface", "geautomatiseerde updates", "gepland onderhoud", "beveiliging", "stabiliteit", "integratie", "overheidsvoorschriften", "naleving", "marionet", "Chef", "Ansible", "NuGet pakketten", "DoD STIG", "pakketbeheer stroomlijnen", "kwetsbaarheden in software", "inzetgereedschappen", "Windows-updates", "Windows pakketupdates", "Beheer van Windows-software", "Windows pakketbeheerder", "tool voor pakketbeheer", "geautomatiseerde pakketupdates", "Windows beveiligingsupdates", "installatie softwarepakket", "Uitrol van Windows-software", "pakketbeheersysteem", "Windows softwarerepository", "Windows software cache"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Een kleurrijke illustratie met een Windows-logo omringd door verschillende softwarepictogrammen die staan voor gestroomlijnd pakketbeheer en updates."
 coverCaption: ""
 ---

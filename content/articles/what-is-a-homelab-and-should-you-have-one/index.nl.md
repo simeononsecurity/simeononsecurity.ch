@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Deze uitgebreide gids geeft een gedetailleerd overzicht van wat een thuislab is, waarom er een moet worden opgezet, welke onderdelen nodig zijn, hoe het moet worden opgezet, geavanceerde onderwerpen om te onderzoeken, en de beste praktijken die moeten worden gevolgd."
 tags: ["Home Lab", "IT-professionals", "studenten", "hobbyisten", "netwerken", "virtualisatie", "automatisering", "hardware", "software", "beste praktijken", "gids"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Een persoon zit aan een bureau met een computer en netwerkapparatuur, omringd door boeken en notities."
 coverCaption: ""
 ---

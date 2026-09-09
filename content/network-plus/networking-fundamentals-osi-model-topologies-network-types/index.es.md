@@ -6,7 +6,7 @@ draft: false
 description: "Explore la importancia de los fundamentos de las redes, incluido el modelo OSI, las topologías de red y los distintos tipos de redes, para crear infraestructuras eficientes y fiables."
 genre: ["Tecnología", "Red", "Infraestructura informática", "Arquitectura de red", "Informática", "Comunicación de datos", "Tecnologías de la información", "Seguridad de las redes", "Gestión de redes", "Internet"]
 tags: ["fundamentos de redes", "Modelo OSI", "topologías de red", "tipos de red", "data encapsulation", "capas de red", "topología de malla", "topología en estrella", "topología de bus", "topología de anillo", "topología híbrida", "red de pares", "red cliente-servidor", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hipervisor", "enlaces por satélite", "DSL", "internet por cable", "línea arrendada", "metro-óptico"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Ilustración simbólica de nodos interconectados que forman una red."
 coverCaption: "Liberar el poder de los fundamentos de las redes."
 ---

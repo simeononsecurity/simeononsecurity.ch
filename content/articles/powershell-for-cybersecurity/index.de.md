@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Leistungsfähigkeit von PowerShell bei der Verbesserung von Cybersicherheitsvorgängen und der Einhaltung von Branchenstandards durch Automatisierung und optimierte Prozesse."
 tags: ["PowerShell", "Cybersecurity", "Betrieb", "Einhaltung der Vorschriften", "Automatisierung", "STIG SRG-Anforderungen", "NSACyber-Leitfaden", "Windows Systems", "Blue-Team-Verteidigung", "Skripte", "Werkzeuge", "C Sharp-Projekte"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Eine Person, die auf einer Tastatur tippt, mit einem Hintergrund aus Computerservern und Netzwerkkabeln, der die Verwendung von PowerShell für Cybersicherheitsvorgänge und Compliance darstellt."
 coverCaption: ""
 ---

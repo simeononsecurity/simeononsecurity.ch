@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de stappen ter voorbereiding op en het slagen voor het CISSP-examen, een prestigieuze certificering voor informatiebeveiligers."
 tags: ["CISSP-certificering", "informatiebeveiliging", "examenvoorbereiding", "onderzoekplan", "oefenexamens", "cyberbeveiliging", "professionele ontwikkeling", "certificatie-examen", "ISC2", "carrièrekansen", "veiligheidsarchitectuur", "netwerkbeveiliging", "toegangscontrole", "risicobeheer", "encryptie", "veiligheidsoperaties", "fysieke veiligheid", "bedrijfscontinuïteit", "noodherstel", "compliance"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Een cartoonbeeld van een persoon met een CISSP-certificaat, met een gedachtebron die verschillende informatiebeveiligingsonderwerpen toont, zoals beveiligingsarchitectuur, toegangscontrole, encryptie en netwerkbeveiliging."
 coverCaption: ""
 ---

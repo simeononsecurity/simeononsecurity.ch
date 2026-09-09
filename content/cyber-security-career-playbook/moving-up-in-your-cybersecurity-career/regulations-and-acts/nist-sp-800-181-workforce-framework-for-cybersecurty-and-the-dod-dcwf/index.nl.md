@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Ontdek de uitgebreide evaluatie- en ontwikkelingskaders voor cyberbeveiligingspersoneel: NICE en DoD DCWF, die organisaties voorzien van bekwame professionals."
 tags: ["personeelsontwikkeling", "cyberbeveiliging", "NICE-raamwerk", "DoD DCWF raamwerk", "beoordeling van vaardigheden", "professionele ontwikkeling", "personeelsbestand cyberbeveiliging", "loopbaantrajecten", "onderwijs in cyberbeveiliging", "afstemming van personeelsbestand", "personeelskader", "NIST", "overheidsvoorschriften", "cyberbeveiligingscertificeringen", "industrienormen", "talentmanagement", "cyberbeveiligingsrollen", "cyberbeveiligingscompetenties", "ontwikkeling van personeelsbestand cyberbeveiliging", "cyberbeveiligingsprofessionals", "cyberbeveiligingsvaardigheden", "personeelsplanning", "werving cyberbeveiliging", "veerkracht van werknemers", "cyberbeveiligingstraining", "personeelsstrategie", "banenmarkt cyberbeveiliging", "carrière in cyberbeveiliging", "personeelsgereedheid"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Een groep uiteenlopende professionals die samenwerken aan een cyberbeveiligingsproject."
 coverCaption: "Potentieel ontsluiten: Cyberbeveiligingsprofessionals klaar voor succes"
 ---

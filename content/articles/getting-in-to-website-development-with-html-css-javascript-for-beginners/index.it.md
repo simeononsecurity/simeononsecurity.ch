@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate i fondamenti dello sviluppo di siti web, compresi HTML, CSS e JavaScript, con questa guida per principianti."
 tags: ["sviluppo web", "HTML", "CSS", "JavaScript", "codifica", "tutorial", "apprendimento", "principiante", "CodicePenna", "W3Schools", "migliori pratiche", "risorse", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "collaborazione", "debug", "progetti"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Uno sviluppatore a fumetti seduto alla scrivania con un computer portatile, circondato da vari elementi HTML, CSS e JavaScript che fluttuano nell'aria intorno a lui."
 coverCaption: ""
 ---

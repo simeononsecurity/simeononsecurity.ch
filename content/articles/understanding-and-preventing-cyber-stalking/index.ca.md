@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apreneu a protegir-vos del ciberassetjament i a mantenir-vos segur en línia amb aquests consells i tècniques."
 tags: ["ciberassetjament", "seguretat en línia", "seguretat a internet", "prevenció de l'assetjament", "seguretat personal", "privadesa en línia", "seguretat cibernètica", "seguretat digital", "seguretat a internet", "Assetjament cibernètic", "assetjament", "protecció de les víctimes", "acció legal", "assessorament", "salut mental", "seguretat a les xarxes socials", "assetjament en línia", "assetjament en línia", "aplicació de la llei", "protecció de la privadesa"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Una persona mira el seu telèfon amb una expressió preocupada mentre una figura fosca apareix al fons."
 coverCaption: ""
 ---

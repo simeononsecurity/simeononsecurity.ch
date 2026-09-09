@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Aflați despre amenințările ransomware și măsurile preventive pe care le puteți lua pentru a vă proteja împotriva lor."
 tags: ["ransomware", "securitate cibernetică", "prevenire", "backup", "antivirus", "VPN", "autentificarea cu mai mulți factori", "reglementări guvernamentale", "phishing", "inginerie socială", "malware", "criminalitate informatică", "securitatea datelor", "securitatea rețelei", "atac cibernetic", "criptare", "igiena cibernetică", "răspunsul la incidente", "protecția datelor", "conștientizarea cibernetică"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Un computer cu un lacăt și un lanț în jurul lui, simbolizând criptarea datelor de către ransomware."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-28
 description: "Discover the diverse world of cybersecurity specializations and the essential skills needed to excel in this rapidly evolving field."
 tags: ["cybersecurity", "network security", "cloud security", "application security", "data privacy", "incident response", "digital forensics", "ICS security", "mobile security", "cryptography", "security operations", "security architecture", "cybersecurity consultant", "education and training", "IT careers", "cybersecurity skills", "cybersecurity trends", "cybersecurity professionals", "cybersecurity jobs", "cybersecurity frameworks", "cybersecurity regulations", "cybersecurity certifications", "cybersecurity industry", "cybersecurity best practices", "cybersecurity technologies", "cybersecurity threats", "cybersecurity awareness", "cybersecurity strategies", "cybersecurity specialization", "cybersecurity field", "secure future"]
-cover: "/img/cover/A_cartoon-style_hacker_protecting_a_network_shield_with_a_s.png"
+cover: "/img/cover/A_cartoon-style_hacker_protecting_a_network_shield_with_a_s.webp"
 coverAlt: "A cartoon-style hacker protecting a network shield with a sword."
 coverCaption: "Defend and conquer: Unlocking the world of cybersecurity."
 ---

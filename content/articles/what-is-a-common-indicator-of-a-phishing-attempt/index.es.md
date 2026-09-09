@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Una completa guía para identificar los indicadores más comunes de los intentos de phishing y consejos prácticos para mantenerse seguro en Internet."
 tags: ["intentos de phishing", "indicadores comunes", "estafas de phishing", "seguridad en línea", "ciberseguridad", "direcciones de correo electrónico sospechosas", "lenguaje urgente", "errores gramaticales", "faltas de ortografía", "URL sospechosas", "solicitudes de información personal", "accesorios inesperados", "seguridad en internet", "actualizaciones de software", "autenticación de dos factores", "seguridad de contraseñas", "estafas en línea", "técnicas de phishing", "amenazas cibernéticas", "concienciación sobre el phishing", "identificar el phishing", "prevención de la suplantación de identidad", "protección contra el phishing", "consejos sobre phishing", "detección de phishing", "formación sobre phishing", "correo phishing", "campaña de concienciación sobre el phishing", "concienciación sobre la suplantación de identidad", "buenas prácticas de concienciación sobre el phishing", "¿cuál es un indicador común de un intento de phishing?"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "Una imagen de dibujos animados que representa a una persona que recibe un correo electrónico sospechoso y se muestra escéptica."
 coverCaption: ""
 ---

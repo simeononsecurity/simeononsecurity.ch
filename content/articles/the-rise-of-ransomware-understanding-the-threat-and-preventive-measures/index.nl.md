@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Leer meer over ransomware-bedreigingen en de preventieve maatregelen die u kunt nemen om u ertegen te beschermen."
 tags: ["ransomware", "cyberbeveiliging", "preventie", "back-up", "antivirus", "VPN", "multi-factor authenticatie", "overheidsvoorschriften", "phishing", "social engineering", "malware", "cybercriminaliteit", "gegevensbeveiliging", "netwerkbeveiliging", "cyberaanval", "encryptie", "cyberhygiëne", "reactie op incidenten", "gegevensbescherming", "cyberbewustzijn"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Een computer met een slot en ketting eromheen, symbool voor de versleuteling van gegevens door ransomware."
 coverCaption: ""
 ---

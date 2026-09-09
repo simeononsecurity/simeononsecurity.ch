@@ -6,7 +6,7 @@ draft: false
 description: "Învățați cele mai bune practici de codare securizată în Python pentru a asigura securitatea robustă a aplicațiilor și pentru a vă proteja împotriva vulnerabilităților precum injecția SQL și scriptingul cross-site."
 genre: ["Programare", "Securitatea aplicațiilor", "Dezvoltare Python", "Codare securizată", "Dezvoltare Web", "Analiza datelor", "Inteligența artificială", "Dezvoltarea de software", "Securitatea cibernetică", "Limbaje de programare"]
 tags: ["codare sigură", "Python", "securitatea aplicațiilor", "dezvoltare web", "analiza datelor", "inteligența artificială", "dezvoltarea de software", "vulnerabilități de securitate", "Injecție SQL", "scripting cross-site", "depășirea bufferului", "încălcări ale datelor", "atacuri cibernetice", "practici de codificare sigură", "experiența utilizatorului", "reglementări industriale", "autentificare sigură", "autorizare securizată", "securitatea parolei", "controlul accesului pe bază de roluri", "gestionarea sesiunilor", "auditul de cod", "testarea automată a securității", "actualizări de securitate", "cultura de securitate", "limbaje de programare", "dezvoltarea aplicațiilor", "cele mai bune practici în materie de securitate cibernetică", "protecția datelor"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_shield_protecting_a_Pytho.webp"
 coverAlt: "O imagine în stil de desen animat reprezentând un scut care protejează un cod Python de amenințările cibernetice."
 coverCaption: "Protejați-vă codul Python și protejați-vă aplicațiile de amenințările cibernetice."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Descoperiți cele mai bune distribuții Linux pentru a face tranziția de la Windows, inclusiv opțiuni populare precum Ubuntu, Zorin OS și Linux Mint, cu o experiență ușoară și ușor de utilizat."
 tags: ["Distribuții Linux", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "Comutator Windows", "Linux pentru începători", "Sistem de operare Linux", "Descărcare Ubuntu", "Descărcare Zorin OS", "Descărcare Linux Mint", "Descărcare Manjaro", "Mediile desktop Linux", "Lansarea Linux de rulare", "Comunitatea Linux", "Suport Linux", "Depozit de software Linux", "Documentație Linux", "Interfață utilizator Linux", "Manager de pachete Linux", "Tranziția de la Windows la Linux", "Interfață de tip Windows", "Alternativele la Linux pentru Windows", "Distribuții Linux ușor de utilizat", "Comparație între distro-uri Linux", "Ghid de migrare Linux", "Linux pentru utilizatorii de Windows", "Ghid de instalare Linux", "Caracteristicile distribuției Linux", "Avantajele Linux", "Compatibilitatea Linux cu aplicațiile Windows"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care trece de la un logo Windows la un logo Linux cu o tranziție fără întreruperi"
 coverCaption: ""
 ---

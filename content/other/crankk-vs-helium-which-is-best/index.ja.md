@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Crankk と Helium IoT ネットワーク、そのコンセンサス モデル、マイニング ハードウェア、ガス料金などの違いを確認します。"
 tags: ["クランク vs ヘリウム IoT", "IoTネットワーク", "コンセンサスモデル", "マイニングハードウェア", "ガス料金", "ブロックチェーン", "LoRaWAN", "IoT接続性", "無線通信", "モノのインターネット", "分散型ネットワーク", "低電力デバイス", "IoTソリューション", "スマートデバイス", "IoTアプリケーション", "データ送信", "接続ソリューション", "IoT技術", "ネットワークの比較", "ワイヤレスネットワーク"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "分散型のワイヤレス環境でスマート デバイスを接続する Crankk および Helium IoT ネットワークを示す漫画のイラスト。"
 coverCaption: ""
 ---

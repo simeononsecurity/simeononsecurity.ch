@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "宣言型言語によりITインフラ管理を簡素化するオープンソースの自動化ツール、Ansibleの基本を学ぶ。"
 tags: ["Ansible入門", "ITインフラ管理の自動化", "Ansibleの基礎知識", "ITインフラの自動化", "コンフィギュレーション管理", "アプリケーションの展開", "プロビジョニング", "継続的デリバリー", "セキュリティコンプライアンス", "オーケストレーション", "ヤムル", "Ansibleモジュール", "役割分担", "ベストプラクティス", "バージョン管理", "テスト", "レッドハット", "システム管理者", "リナックス", "マックオス", "ウィンドウズ", "Ansibleのインストール", "Ansibleのインベントリ", "Ansible playbooks（アンシブル・プレイブック", "Ansibleモジュール", "Ansibleの役割", "Ansibleのベストプラクティス", "Ansibleのテスト", "ITインフラ自動化ツール", "Ansibleチュートリアル", "インフラ管理の自動化"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "サーバーやケーブルに囲まれたデスクに座り、パソコンの画面にはAnsibleのロゴが表示され、タスクが自動化されると微笑む漫画のキャラクターが登場します。"
 coverCaption: ""
 ---

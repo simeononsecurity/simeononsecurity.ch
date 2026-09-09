@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'importance de la cybersécurité dans le secteur de l'éducation et apprenez à protéger les données sensibles des élèves."
 tags: ["cybersécurité", "l'éducation", "données sur les étudiants", "protection des données", "vie privée", "FERPA", "NIST", "HEISC", "Internet2", "Institut SANS", "politiques de sécurité", "hameçonnage", "formation de sensibilisation", "l'évaluation des risques", "authentification multifactorielle", "chiffrement", "incident response", "sécurité des réseaux", "accès sécurisé", "pare-feu"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Image animée en 3D représentant un bouclier protégeant un ordinateur portable surmonté d'un chapeau de fin d'études, symbolisant la protection des données des étudiants dans le secteur de l'éducation."
 coverCaption: ""
 ---

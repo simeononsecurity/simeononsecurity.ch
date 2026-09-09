@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "了解从 Windows 过渡到 Linux 的最佳 Linux 发行版，包括 Ubuntu、Zorin OS 和 Linux Mint 等热门选择，获得流畅的用户友好体验。"
 tags: ["Linux 发行版", "乌班图", "佐林操作系统", "Linux Mint", "Manjaro", "视窗开关", "Linux 入门", "Linux 操作系统", "Ubuntu 下载", "Zorin OS 下载", "Linux Mint 下载", "Manjaro 下载", "Linux 桌面环境", "Linux 滚动发布", "Linux 社区", "支持 Linux", "Linux 软件库", "Linux 文档", "Linux 用户界面", "Linux 软件包管理器", "从 Windows 过渡到 Linux", "类似 Windows 的界面", "Windows 的 Linux 替代品", "用户友好型 Linux 发行版", "Linux 操作系统比较", "Linux 迁移指南", "面向 Windows 用户的 Linux", "Linux 安装指南", "Linux 发行版功能", "Linux 的优势", "Linux 与 Windows 应用程序的兼容性"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "一个人从 Windows 徽标无缝过渡到 Linux 徽标的卡通插图"
 coverCaption: ""
 ---

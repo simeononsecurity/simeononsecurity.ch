@@ -6,7 +6,7 @@ draft: false
 description: "Het vergelijken van Security+ en SSCP certificeringen om de beste keuze te bepalen voor cyberbeveiligingsprofessionals die op zoek zijn naar kansen op de arbeidsmarkt, erkenning in de branche en uitgebreide kennisdekking."
 genre: ["Cyberbeveiliging", "Informatiebeveiliging", "Certificeringsvergelijking", "IT-carrières", "Erkenning van de industrie", "Vacatures", "Netwerkbeveiliging", "Systeembeveiliging", "CompTIA"]
 tags: ["veiligheid plus", "SSCP", "cyberbeveiligingscertificering", "certificeringsvergelijking", "carrièremogelijkheden", "branche-erkenning", "kennisdekking", "CompTIA", "netwerkbeveiliging", "systeembeveiliging", "informatiebeveiliging", "IT-carrières", "cyberbeveiligingsprofessionals", "banen in cyberbeveiliging", "cyberbeveiligingscertificeringen", "cyberbeveiligingsindustrie", "kennis cyberbeveiliging", "cyberbeveiligingsvaardigheden", "cyberbeveiligingsfundamenten", "IT-certificeringen", "leveranciersonafhankelijke certificeringen", "veiligheidsanalisten", "beveiligingsadviseurs", "veiligheidsbeheerders", "systeembeveiligingsanalisten", "netwerkbeveiligingsingenieurs", "IT-auditors", "beveiligingscertificeringen", "IT-beveiliging", "onderwijs in cyberbeveiliging"]
-cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png"
+cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp"
 coverAlt: "Een symbolisch kunstwerk met twee schilden die in een dynamische pose tegenover elkaar staan en de vergelijking tussen de twee certificeringen voorstellen."
 coverCaption: "De juiste certificering kiezen voor je cyberbeveiligingscarrière."
 ---

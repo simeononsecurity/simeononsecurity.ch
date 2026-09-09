@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Azure Security Centerを使用してクラウド環境を保護する方法を、ベストプラクティスと実例を交えてご紹介します。"
 tags: ["アズール", "セキュリティセンター", "クラウドセキュリティ", "アズールセンチネル", "アズールディフェンダー", "ネットワークセキュリティ", "アイデンティティ管理", "データ機密保護", "脅威検出", "脅威応答", "エムエフエー", "アールビーエーシー", "ニューサウスウェールズ", "アジュールファイアウォール", "ウォーファーフ", "Azure AD", "Azure情報保護", "Azure Storage Serviceの暗号化", "Azure Disk Encryption（アジュール ディスク エンクリプション"]
-cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png"
+cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "安全なクラウド環境を表す、雲のシンボルに囲まれた盾のアイコンに、Azure Security Centerのロゴが描かれています。"
 coverCaption: ""
 ---

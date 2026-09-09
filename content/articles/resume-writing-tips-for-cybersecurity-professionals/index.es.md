@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Aumente sus posibilidades de conseguir el trabajo de sus sueños con estos consejos de expertos en redacción de currículos para profesionales de la ciberseguridad, el desarrollo de software y las TI."
 tags: ["consejos para redactar el currículum", "profesionales de la ciberseguridad", "desarrollo de software", "Profesionales informáticos", "búsqueda de empleo", "asesoramiento profesional", "competencias técnicas", "aspectos destacados del proyecto", "concienciación sobre ciberseguridad", "capacidad de resolución de problemas", "tendencias del sector", "desarrollo profesional", "Cumplimiento del GDPR", "Normativa CCPA", "mercado laboral", "optimización del currículum", "solicitud de empleo", "consejos para el currículum", "estrategias de búsqueda de empleo", "promoción profesional"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Ilustración en estilo de dibujos animados de una persona con un currículum en la mano, rodeada de símbolos de ciberseguridad y fragmentos de código."
 coverCaption: ""
 ---

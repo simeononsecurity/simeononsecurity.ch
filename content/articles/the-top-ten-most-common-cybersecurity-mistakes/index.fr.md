@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à vous protéger des cybermenaces en évitant ces 10 erreurs courantes en matière de cybersécurité."
 tags: ["cybersécurité", "sécurité en ligne", "cybermenaces", "piratage", "hameçonnage", "logiciels malveillants", "mots de passe", "Wi-Fi public", "antivirus", "médias sociaux", "sauvegarde des données", "avertissements de sécurité", "stations de recharge publiques", "sécurité informatique", "prévention de la cybercriminalité", "vol d'identité", "vie privée numérique", "sécurité des réseaux", "mises à jour du logiciel", "sécurité en ligne"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un cadenas de dessin animé protégeant un ordinateur portable, avec un pirate informatique en arrière-plan."
 coverCaption: ""
 ---

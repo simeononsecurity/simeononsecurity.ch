@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Explorați cele mai bune practici și instrumente pentru gestionarea unei flote de mineri cu putere redusă, inclusiv remote.it, ngrok, OpenVPN, WireGuard și multe altele."
 tags: ["mineri cu putere redusă", "acces de la distanță", "securitatea retelei", "openvpn", "sârmă de protecție", "pufni", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "O imagine de desen animat a mai multor mineri cu putere redusă conectați la un hub de rețea cu instrumentele discutate în articol."
 coverCaption: ""
 ---

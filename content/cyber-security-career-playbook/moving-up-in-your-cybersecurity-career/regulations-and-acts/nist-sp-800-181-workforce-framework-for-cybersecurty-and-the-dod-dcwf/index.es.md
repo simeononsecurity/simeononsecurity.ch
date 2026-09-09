@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Descubra los marcos integrales de evaluación y desarrollo de la mano de obra de ciberseguridad: NICE y DoD DCWF, que capacitan a las organizaciones con profesionales cualificados."
 tags: ["desarrollo de la mano de obra", "ciberseguridad", "Marco NICE", "Marco DCWF del DoD", "evaluación de competencias", "desarrollo profesional", "personal de ciberseguridad", "itinerarios profesionales", "educación en ciberseguridad", "alineación de la mano de obra", "marco de personal", "NIST", "normativa gubernamental", "certificaciones de ciberseguridad", "normas del sector", "gestión del talento", "funciones de ciberseguridad", "competencias en ciberseguridad", "desarrollo de la mano de obra en ciberseguridad", "profesionales de la ciberseguridad", "competencias en ciberseguridad", "planificación del personal", "contratación en ciberseguridad", "resistencia de la mano de obra", "formación en ciberseguridad", "estrategia de personal", "mercado laboral de la ciberseguridad", "promoción profesional en ciberseguridad", "preparación de la mano de obra"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Un grupo de profesionales diversos colaborando en un proyecto de ciberseguridad."
 coverCaption: "Liberar el potencial: Capacitar a los profesionales de la ciberseguridad para el éxito"
 ---

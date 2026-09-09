@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo prepararse para el futuro de la ciberseguridad en un mundo pospandémico y reduzca el riesgo de ser víctima de ciberataques."
 tags: ["ciberseguridad", "post-pandemia", "futuro", "trabajo a distancia", "AI", "aprendizaje automático", "IoT", "actualizaciones de software", "contraseñas", "autenticación de dos factores", "educación", "VPN", "actualizaciones de firmware", "phishing", "ransomware", "seguridad en la nube", "protección de datos", "seguridad de la red", "detección de amenazas", "privacidad digital"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "Imagen en estilo de dibujos animados de una persona de pie con un escudo delante de la pantalla de un ordenador, protegiéndola de diversos ciberataques como malware, virus, phishing e intentos de pirateo."
 coverCaption: ""
 ---

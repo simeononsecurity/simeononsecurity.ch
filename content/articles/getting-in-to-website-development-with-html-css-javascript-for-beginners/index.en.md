@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the fundamentals of website development, including HTML, CSS, and JavaScript, with this beginner-friendly guide."
 tags: ["web development", "HTML", "CSS", "JavaScript", "coding", "tutorial", "learning", "beginner", "CodePen", "W3Schools", "best practices", "resources", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "collaboration", "debugging", "projects"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "A cartoon developer sitting at a desk with a laptop, surrounded by various HTML, CSS, and JavaScript elements floating in the air around them."
 coverCaption: ""
 ---

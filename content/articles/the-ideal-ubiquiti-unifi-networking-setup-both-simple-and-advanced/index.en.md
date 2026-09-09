@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the perfect UniFi setup for your home wiring needs, from a simple and cost-effective solution to a complete networking setup with advanced capabilities."
 tags: ["UniFi", "home network", "wiring solution", "UniFi Dream Router", "complete setup", "networking equipment", "Ethernet cables", "patch panel", "wall plates", "keystone jacks", "network server cabinet", "UniFi Switch", "UniFi Flex", "UniFi Dream Machine", "WiFi 6", "home wiring guide", "reliable connectivity", "advanced security", "smooth integration", "cable management", "professional setup", "networking accessories", "scalability", "future-proof network", "simple home network", "complete home wiring", "high-performance network", "UniFi products", "network infrastructure", "internet connectivity", "smooth browsing"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_home_with_interconnected_devices.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_home_with_interconnected_devices.webp"
 coverAlt: "A cartoon illustration depicting a home with interconnected devices, both wired and wireless depicting an ideal home internet setup."
 coverCaption: ""
 ---

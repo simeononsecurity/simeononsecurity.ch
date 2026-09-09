@@ -6,7 +6,7 @@ draft: false
 description: "Join our comprehensive Network+ Mastery Course and gain expertise in Networking Fundamentals to excel in the world of IT networking."
 genre: ["Network+ Certification Course", "Networking Fundamentals", "CompTIA Network Plus", "IT Networking", "Network+ Exam Prep", "Network+ Study Guide", "Networking Basics", "Network Topologies", "TCP IP", "Subnetting"]
 tags: ["Network+ Certification", "CompTIA Network Plus", "networking course", "Networking Fundamentals", "IT networking", "Network+ exam prep", "Network+ study guide", "networking basics", "network topologies", "TCP IP", "subnetting", "network protocols", "network devices", "routing technologies", "Ethernet switching", "wireless standards", "network security", "network troubleshooting", "network monitoring", "bandwidth management", "QoS", "network logs", "network documentation", "network availability", "backup and restore", "network hardening", "physical security", "patch management"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Network.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Network.webp"
 coverAlt: "A cartoon illustration of a person holding a Network+ certification badge, surrounded by networking devices and cables, representing the Network+ Mastery Course."
 coverCaption: "Empower Your Networking Career"
 ---

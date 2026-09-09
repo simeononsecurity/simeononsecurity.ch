@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解为什么在一切都使用 HTTPS 的世界里，VPN 对普通用户可能没有用处，以及如何信任你的 VPN 提供商。"
 tags: ["虚拟专用网", "在线隐私", "互联网安全", "MITM 攻击", "虚拟专用网络", "网络安全", "在线安全", "加密", "HTTPS", "数据保护", "第三方服务", "隐私风险", "ISP", "受地域限制的内容", "互联网审查", "公共 Wi-Fi", "数据隐私", "在线保护", "网络安全", "VPN 提供商"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "一个卡通电脑用户在网上冲浪，同时出现了一个巨大的锁符号来保护用户的隐私。"
 coverCaption: ""
 ---

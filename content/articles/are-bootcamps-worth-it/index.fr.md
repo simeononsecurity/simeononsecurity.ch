@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Cet article explore les avantages et les inconvénients des bootcamps et aide les individus à déterminer s'ils sont le bon choix pour acquérir rapidement de nouvelles compétences et certifications."
 tags: ["Bootcamps", "Développement de carrière", "Acquisition de compétences", "Certifications", "L'éducation", "Marché de l'emploi", "Expérience pratique", "Rentabilité", "Éducation complète", "Crédibilité", "Exigences physiques et mentales"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Un ordinateur portable avec un chapeau de fin d'études sur le clavier, entouré de piles de livres et d'un chronomètre"
 coverCaption: ""
 ---

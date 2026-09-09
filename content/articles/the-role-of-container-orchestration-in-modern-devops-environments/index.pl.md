@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj znaczenie i korzyści orkiestracji kontenerów w nowoczesnym DevOps, wraz z popularnymi narzędziami do orkiestracji kontenerów oraz regulacjami rządowymi istotnymi dla konteneryzacji."
 tags: ["orkiestracja kontenerów", "DevOps", "Kubernetes", "Rój Docker", "Apache Mesos", "skalowalność", "wysoka dostępność", "równoważenie obciążenia", "bezpieczeństwo", "zautomatyzowane wdrożenia aplikacji", "HIPAA", "SOX", "GDPR", "zgodność", "rozwój oprogramowania", "chmura obliczeniowa", "konteneryzacja", "technologia", "automatyka"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "Karykaturalny obrazek przedstawiający pojemniki o równym ciężarze na huśtawce, którymi kieruje dyrygent orkiestry"
 coverCaption: ""
 ---

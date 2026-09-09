@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak wykorzystać model ChatGPT OpenAI poprzez wygodny interfejs wiersza poleceń (CLI) do generowania tekstu i odpowiadania na pytania z łatwością."
 tags: ["ChatGPT", "OpenAI", "Interfejs wiersza poleceń", "CLI", "generowanie tekstu", "odpowiadanie na pytania", "zestaw narzędzi dla deweloperów", "menedżer pakietów pip", "Python 3.5", "PowerShell", "Bash"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "Programista siedzący przy swoim komputerze, piszący na klawiaturze z ChatGPT CLI otwartym w swoim terminalu."
 coverCaption: ""
 ---

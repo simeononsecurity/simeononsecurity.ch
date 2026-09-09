@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "了解如何通过命令行 SSH 离线更新 Ubiquiti Unifi UDM Pro 和 UDM SE 的固件以获得最佳性能和安全性。"
 tags: ["泛在固件更新", "UDM临", "UDM SE", "离线固件更新", "命令行 SSH", "网络管理", "网络安全", "固件升级", "SSH连接", "固件文件", "UniFi 网络控制器", "bug修复", "性能改进", "安全补丁", "联网", "网络设备", "技术", "资讯科技管理", "固件更新过程", "网络优化", "泛在网络固件更新", "UDM Pro 固件更新", "UDM SE 固件更新", "离线固件更新过程", "SSH 固件更新", "网络设备管理", "网络安全更新", "固件更新策略", "离线固件管理", "网络性能优化", "安全补丁管理", "网络技术更新"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "彩色插图描绘了一台计算机通过 SSH 连接到路由器，象征着 Ubiquiti Unifi UDM Pro 和 UDM SE 设备的离线固件更新过程。"
 coverCaption: ""
 ---

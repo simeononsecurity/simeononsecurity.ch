@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["লিনাক্স আপডেট", "উবুন্টু", "ডেবিয়ান", "CentOS", "আরএইচইএল", "অফলাইন আপডেট", "স্থানীয় সংগ্রহস্থল", "ক্যাশে", "সার্ভার সেটআপ", "ক্লায়েন্ট সেটআপ", "apt-মিরর", "debmirror", "ক্রিয়েপো", "apt-cacher-ng", "yum-cron", "লিনাক্স সিস্টেম আপডেট", "অফলাইন প্যাকেজ আপডেট", "অফলাইন সফ্টওয়্যার আপডেট", "স্থানীয় প্যাকেজ সংগ্রহস্থল", "স্থানীয় প্যাকেজ ক্যাশে", "অফলাইন লিনাক্স আপডেট", "অফলাইন আপডেট পরিচালনা করা", "অফলাইন আপডেট পদ্ধতি", "অফলাইন সিস্টেম রক্ষণাবেক্ষণ", "লিনাক্স সার্ভার আপডেট", "লিনাক্স ক্লায়েন্ট আপডেট", "অফলাইন সফ্টওয়্যার পরিচালনা", "অফলাইন প্যাকেজ ব্যবস্থাপনা", "কৌশল আপডেট করুন", "লিনাক্স নিরাপত্তা আপডেট"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "একটি কার্টুন চিত্র একটি সার্ভার এবং একাধিক ক্লায়েন্ট ডিভাইস অফলাইনে আপডেট আদান প্রদান করে।"
 coverCaption: ""
 ---

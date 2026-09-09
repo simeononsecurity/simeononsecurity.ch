@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Scoprite come passare con successo dall'IT alla cybersecurity grazie alla nostra guida completa, che vi garantirà un passaggio di carriera di successo."
 tags: ["transizione", "Dall'IT alla cybersicurezza", "cambio di carriera", "guida passo-passo", "educazione", "esperienza", "competenze", "certificazioni", "specializzazione", "rete professionale", "comunità di cybersicurezza", "carenza di talenti", "domanda elevata", "tendenze del settore", "esperienza pratica", "competenze tecniche", "competenze non tecniche", "certificazioni di cybersecurity", "corsi online", "educazione alla cybersicurezza", "passaggio alla cybersecurity", "Transizione di carriera nel settore IT", "competenze di cybersecurity", "mercato del lavoro della cybersecurity", "formazione sulla cybersicurezza", "specializzazione in cybersecurity", "professionisti della cybersicurezza", "industria della cybersicurezza", "Competenze informatiche nella cybersecurity", "percorsi di carriera nella cybersecurity", "opportunità di lavoro nella cybersecurity"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Un'illustrazione a fumetti che raffigura una persona che passa dal mondo dell'informatica a quello della sicurezza informatica."
 coverCaption: "Migliora la tua carriera: Abbracciate la sfida della Cybersecurity!"
 ---

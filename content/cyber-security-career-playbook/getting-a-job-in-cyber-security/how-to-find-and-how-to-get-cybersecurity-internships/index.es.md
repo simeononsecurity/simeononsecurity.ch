@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-22
 description: "Descubra las mejores formas de encontrar y conseguir prácticas en ciberseguridad, adquirir experiencia práctica y lanzar su carrera en este campo."
 tags: ["prácticas en ciberseguridad", "oportunidades de prácticas", "encontrar prácticas de ciberseguridad", "cómo conseguir prácticas en ciberseguridad", "prácticas remuneradas", "prácticas no remuneradas", "prácticas en organismos públicos", "prácticas en empresas privadas", "prácticas externas", "prácticas para obtener créditos", "plataformas de empleo en línea", "bolsas de empleo en ciberseguridad", "normativa gubernamental", "Prácticas en la NSA", "Prácticas en el Departamento de Defensa", "Prácticas en el FBI", "Prácticas en IBM", "Prácticas en Microsoft", "Prácticas en Cisco", "Prácticas en Symantec", "Prácticas en ISACA", "Prácticas en (ISC)²", "Prácticas en CompTIA", "creación de redes para prácticas", "consejos para un currículum en prácticas", "preparación de entrevistas", "desarrollo profesional en ciberseguridad", "contactos profesionales", "experiencia práctica", "educación en ciberseguridad"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.webp"
 coverAlt: "Una imagen de dibujos animados que representa a un estudiante con una capa de superhéroe y un escudo con el símbolo de un candado, en representación de las prácticas y oportunidades profesionales en ciberseguridad."
 coverCaption: "¡Desbloquea tu futuro en ciberseguridad con unas valiosas prácticas!"
 ---

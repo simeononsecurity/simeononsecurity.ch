@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何在 Windows 上安装累积安全补丁，并遵循最佳实践，确保系统安全，免受网络攻击。"
 tags: ["视窗", "安全补丁", "网络安全", "系统安全", "微软", "累积补丁", "补丁管理", "数据备份", "Spectre Meltdown", "加密", "系统漏洞", "系统更新", "补丁部署", "非生产环境", "系统配置", "信息技术安全", "补丁管理系统", "漏洞扫描", "版本说明", "系统维护"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "印有 Windows 徽标的盾牌被锁保护的卡通图像"
 coverCaption: ""
 ---

@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Scopri come generare un codice di invito e unisciti alla piattaforma online HackTheBox per testare e migliorare le tue abilità nei penetration test e nella sicurezza informatica su Windows e Linux."
 tags: ["HackTheBox", "Sfida ad inviti", "Test di penetrazione", "Sicurezza informatica", "finestre", "Linux", "Piattaforma online", "POST HTTP", "Codice di invito", "Base64 codificato", "PowerShell", "Bash di Linux", "Decodifica Base64", "Generazione del codice di invito", "Programmazione", "Sviluppo web", "Tecnologia", "Sicurezza informatica", "Formazione informatica"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Lo schermo di un computer a cartone animato che mostra il sito Web di HackTheBox con una porta del caveau che viene sbloccata con una chiave, rivelando un trofeo o una medaglia, con uno sfondo di paesaggio urbano nella combinazione di colori del logo di HackTheBox (blu e bianco)."
 coverCaption: ""
 ---

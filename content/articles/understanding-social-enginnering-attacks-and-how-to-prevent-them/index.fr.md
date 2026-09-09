@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à prévenir les attaques d'ingénierie sociale et à protéger les informations sensibles de votre organisation grâce à la formation des employés, aux politiques de sécurité et à bien d'autres choses encore."
 tags: ["ingénierie sociale", "cybersécurité", "la prévention", "formation des employés", "politiques de sécurité", "authentification multifactorielle", "anti-virus", "la sécurité physique", "les réglementations gouvernementales", "FISMA", "HIPAA", "protection des données", "cybermenaces", "sécurité des réseaux", "la sécurité de l'information", "informations sensibles", "cybercriminalité", "conformité", "stratégie de cybersécurité", "la sécurité des données"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Un pirate informatique tente d'attirer une personne avec une canne à pêche, tandis qu'un bouclier et un cadenas symbolisent la cybersécurité."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à construire une infrastructure cyber-résiliente grâce à une planification efficace de la reprise après sinistre et aux meilleures pratiques."
 tags: ["cyber-résilience", "plan de reprise après sinistre", "DRP", "la gestion des risques", "continuité des activités", "protection des données", "conformité réglementaire", "Cadre de cybersécurité du NIST", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "sauvegarde dans le nuage", "logiciel de sauvegarde et de récupération", "outils d'évaluation des risques", "incident response services", "cybersécurité", "la sécurité de l'information", "Infrastructure informatique"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Un bouclier avec une coche et les mots Cyber Resilient Infrastructure, entouré de pixels qui tombent et d'une ville en flammes en toile de fond."
 coverCaption: ""
 ---

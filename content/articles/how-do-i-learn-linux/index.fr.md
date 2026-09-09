@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ce guide fournit une vue d'ensemble de la manière de démarrer avec Linux, y compris des conseils pour apprendre les variantes de Linux basées sur Debian et RHEL."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Red Hat", "Système d'exploitation", "Source ouverte", "Administration des systèmes", "Commandes", "Terminal", "Communauté", "Entreprise", "Professionnel", "Apprentissage", "Mise en réseau", "Sécurité", "Personnalisation", "Stabilité", "Flexibilité"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Image de bande dessinée d'un pingouin avec une casquette, tenant un diplôme et se tenant devant un ordinateur avec un environnement de bureau Linux en arrière-plan."
 coverCaption: ""
 ---

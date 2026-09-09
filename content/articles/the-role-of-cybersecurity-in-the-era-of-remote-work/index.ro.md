@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Un ghid cuprinzător pentru ca organizațiile să se asigure că forța lor de muncă la distanță rămâne în siguranță în era muncii la distanță."
 tags: ["securitate cibernetică", "munca la distanță", "încălcări ale datelor", "VPN", "autentificare cu doi factori", "măsuri de securitate", "comunicare securizată", "amenințări cibernetice", "software antivirus", "e-mailuri de phishing", "gestionarea parolelor", "munca de acasă", "protecția datelor", "securitate online", "securitatea angajaților", "forța de muncă la distanță", "infractori cibernetici", "videoconferință", "mesagerie criptată", "rețea privată virtuală"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "O ilustrație de desen animat a unui laptop cu un lacăt pe el, cu un scut și o sabie reprezentând securitatea cibernetică, pe fundal."
 coverCaption: ""
 ---

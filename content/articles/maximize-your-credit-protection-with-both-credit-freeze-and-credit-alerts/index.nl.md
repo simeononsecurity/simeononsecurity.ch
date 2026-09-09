@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Bescherm uw krediet tegen onbevoegde toegang door een combinatie van een kredietbevriezing en een fraudewaarschuwing, de meest effectieve oplossing om gewone criminelen ervan te weerhouden zonder uw toestemming toegang tot uw kredietrapport te krijgen."
 tags: ["kredietprotectie", "kredietbevriezing", "fraudemelding", "onbevoegde toegang", "kredietrapport", "identiteitsdiefstal", "Equifax", "Experian", "TransUnion", "credit bureaus", "maximale bescherming"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Een persoon die een creditcard vasthoudt met een slotsymbool erop om kredietbescherming weer te geven."
 coverCaption: ""
 ---

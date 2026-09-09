@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggervi da minacce online come hacking, campagne diffamatorie e furti di identità con questi consigli utili."
 tags: ["sicurezza informatica", "sicurezza online", "furto d'identità", "hacking", "campagne diffamatorie", "social media", "password", "autenticazione a due fattori", "congelamento del credito"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Una persona che tiene un lucchetto davanti allo schermo di un computer che visualizza un messaggio con la scritta Protetto"
 coverCaption: ""
 ---

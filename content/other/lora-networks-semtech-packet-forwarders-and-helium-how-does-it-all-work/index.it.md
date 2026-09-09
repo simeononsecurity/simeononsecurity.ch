@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-17
 description: "Scopri i vantaggi dell'integrazione della rete LoRa con Helium per dispositivi IoT e settori come città intelligenti, agricoltura e logistica."
 tags: ["Rete Lora", "Integrazione dell'elio", "Spedizionieri di pacchetti Semtech", "Applicazioni IoT", "LPWAN", "modulazione a spettro esteso", "gateway", "nuvola", "Protocollo LoRaWAN", "infrastruttura di rete", "hotspot", "sensori", "sicurezza della rete", "geolocalizzazione", "meccanismo di incentivazione", "città intelligenti", "agricoltura", "la logistica", "Sviluppo dell'IoT", "comunicazione a lungo raggio"]
-cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
+cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.webp"
 coverAlt: "Un'illustrazione stilizzata di un paesaggio urbano con vari dispositivi IoT collegati a una rete rappresentata come una rete di luce, con il logo Helium ben visibile."
 coverCaption: ""
 ---

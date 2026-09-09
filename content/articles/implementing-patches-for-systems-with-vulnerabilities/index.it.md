@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Imparate a implementare le patch di sicurezza per i server vulnerabili con le migliori pratiche e a prevenire gli attacchi dannosi."
 tags: ["Sicurezza del server", "Gestione delle vulnerabilità", "Gestione delle patch", "Sicurezza informatica", "Patching del server", "Il panorama delle minacce", "Test di penetrazione", "Aggiornamenti sulla sicurezza", "Patch del software", "Sicurezza informatica", "Protezione dei dati", "Sicurezza del sistema", "Gestione del rischio", "Politiche di sicurezza", "Ambienti di stage", "Vulnerabilità del software", "Patch critiche", "Toppe del venditore", "Bollettini di sicurezza", "Sicurezza delle informazioni"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Un'immagine a fumetti di una persona che tiene uno scudo e fa la guardia davanti a una sala server per rappresentare la protezione e la sicurezza che l'implementazione delle patch fornisce."
 coverCaption: ""
 ---

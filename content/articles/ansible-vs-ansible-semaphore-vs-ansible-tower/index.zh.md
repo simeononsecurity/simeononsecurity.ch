@@ -6,7 +6,7 @@ draft: false
 description: "通过对普通 Ansible、Ansible Tower 和 Ansible Semaphore 的比较，了解 Ansible 自动化的强大功能，并为高效的基础架构管理选择合适的工具。"
 genre: ["自动化", "基础设施管理", "配置管理", "DevOps", "IT 运营", "开放源代码", "工作流程管理", "可扩展性", "合作", "Ansible 工具"]
 tags: ["Ansible", "自动化", "Ansible Tower", "Ansible 信号", "普通 Ansible", "基础设施管理", "配置管理", "DevOps", "IT 运营", "开放源代码", "工作流程管理", "可扩展性", "合作", "游戏手册", "YAML", "工作调度", "RBAC", "图形用户界面", "版本控制集成", "无效执行", "无代理架构", "Ansible 工作流程", "企业级功能", "自托管部署", "基于云的部署", "许可", "基础设施管理工具", "自动化平台", "工作流程管理系统", "DevOps 工具", "IT 运营管理"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "用 Ansible 展示相互连接的齿轮，象征自动化和基础设施管理的符号插图"
 coverCaption: "释放 Ansible 的潜力，实现高效的基础设施管理"
 ---

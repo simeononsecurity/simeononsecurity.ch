@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Poznaj rekomendacje ekspertów SimeonOnSecurity dotyczące zaufanych i wysoko ocenianych produktów i zasobów związanych z bezpieczeństwem i prywatnością."
 tags: ["zalecenia dotyczące bezpieczeństwa", "produkty do ochrony prywatności", "narzędzia cyberbezpieczeństwa", "ochrona danych", "prywatność internetowa", "antywirus", "książki", "wtyczki do przeglądarki", "certyfikaty", "dostawcy poczty elektronicznej", "codzienne noszenie", "zestaw narzędzi dla hakerów", "słuchawki", "mikrofony", "głośniki", "zasoby edukacyjne", "klienci komunikatora", "organizacje wspierające", "zasoby prywatności", "Dostawcy usług SIP DID VOIP"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "Obraz w stylu kreskówki tarczy z zamkiem na niej, aby symbolizować bezpieczeństwo i ochronę prywatności, z laptopem lub urządzeniem mobilnym w tle."
 coverCaption: ""
 ---

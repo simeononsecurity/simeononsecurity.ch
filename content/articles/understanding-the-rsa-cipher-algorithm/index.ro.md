@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați mecanismele interne ale algoritmului de cifrare RSA și importanța acestuia în comunicarea securizată."
 tags: ["Criptare RSA", "criptare asimetrică", "criptografie cu cheie publică", "algoritm de criptare", "Generarea cheilor RSA", "aritmetică modulară", "Funcția de totizare a lui Euler", "numere prime", "exponențiere modulară", "Textul cifrat", "Textul în clar", "Securitate RSA", "comunicare securizată", "semnături digitale", "navigare web securizată", "reglementări guvernamentale privind RSA", "Orientările NIST privind RSA", "Regulamentul eIDAS", "standarde de criptare", "protecția datelor", "criptografie", "securitatea informațiilor", "mesagerie securizată", "e-mail criptat", "HTTPS", "RSA în comunicarea securizată", "RSA în semnăturile digitale", "Punctele forte ale RSA", "Punctele slabe ale RSA", "complexitatea computațională a RSA", "lungimea cheii în RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "O imagine simbolică reprezentând algoritmul de cifrare RSA cu simboluri de blocare și cheie, care transmite conceptul de comunicare și criptare sigură."
 coverCaption: ""
 ---

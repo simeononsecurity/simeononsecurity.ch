@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die wichtigsten Schritte, um Ihre Netzwerkinfrastruktur gegen Advanced Persistent Threats (APTs) zu härten und Ihr Unternehmen vor Cyberangriffen zu schützen."
 tags: ["Netzwerksicherheit", "Cybersicherheit", "fortgeschrittene hartnäckige Bedrohungen", "Netzinfrastruktur", "Zugangskontrollen", "Datenverschlüsselung", "Mitarbeiterschulung", "Incident Response Plan", "Schwachstellenanalysen", "Sicherheitspolitik", "Überwachung des Netzverkehrs", "Phishing-Angriffe", "Endpunktschutz", "Einbruchserkennung", "Firewalls", "SIEM", "Datensicherung", "Netzwerksegmentierung", "Cyber-Bedrohungen", "Datenschutz"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Ein Cartoon-Schild mit einem Schloss-Symbol in der Mitte, das die Netzwerksicherheit gegen APTs darstellt"
 coverCaption: ""
 ---

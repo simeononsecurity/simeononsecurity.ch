@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "公式イメージの使用、権限の制限、ネットワークセキュリティの実装など、DockerとKubernetes環境のセキュリティを確保するためのベストプラクティスを学びます。"
 tags: ["ドッカー", "クーベルネッツ", "セキュリティ", "コンテナ", "ネットワークセキュリティ", "アールビーエーシー", "APIサーバー", "脆弱性（ぜいじゃくせい", "モニタリング", "ロギング", "ファイアウォール", "ティーエスエルエス", "アンコール", "クレア", "アクアセキュリティ", "ELKスタック", "スプランク", "プロメテウス", "サイバーセキュリティ", "ベストプラクティス"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "漫画のdockerコンテナと漫画のkubernetesポッドが手をつないで、鍵のかかった金庫の上に立っています。背景はコンピュータコードの壁です。"
 coverCaption: ""
 ---

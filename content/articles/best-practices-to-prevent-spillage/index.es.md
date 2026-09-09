@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las mejores prácticas y estrategias para evitar la fuga de información y salvaguardar los datos confidenciales, garantizando una mayor seguridad y protección."
 tags: ["seguridad de la información", "protección de datos", "información clasificada", "vertido de información", "estrategias de prevención", "buenas prácticas", "controles de acceso", "codificación", "formación de empleados", "ciberseguridad", "prevención de pérdida de datos", "evaluaciones de seguridad", "normativa gubernamental", "NIST", "amenazas internas", "vulnerabilidades de ciberseguridad", "error humano", "programas de sensibilización", "concienciación sobre el phishing", "Soluciones DLP", "control de acceso basado en funciones", "autenticación multifactor", "gestión de claves de cifrado", "protección de puntos finales", "inspección de contenidos", "auditorías de seguridad", "pruebas de penetración", "planificación de la respuesta a incidentes", "protocolos de seguridad", "protección de la información"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Un escudo cerrado que protege la información sensible de accesos no autorizados."
 coverCaption: ""
 ---

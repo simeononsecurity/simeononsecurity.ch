@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "脅威ハンティングがどのようにサイバー攻撃を防ぐことができるのか、また、プロアクティブなサイバーセキュリティ対策として脅威ハンティングを導入するメリットと課題についてご紹介します。"
 tags: ["脅威ハンティング", "サイバーセキュリティ", "プロテクティブ・ディフェンス", "サイバー攻撃", "ネットワークセキュリティ", "エンドポイントセキュリティ", "ログ分析", "行動分析学", "スレットインテリジェンス", "マニュアル調査", "自動調査", "リスク低減", "偽陽性", "スキル要件", "リソース要件", "より速い応答時間", "検出性能の向上", "リスク低減", "金融機関", "医療従事者"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "虫眼鏡を持ち、コンピューター画面上に隠れたサイバー脅威を探す漫画のセキュリティ・アナリスト。"
 coverCaption: ""
 ---

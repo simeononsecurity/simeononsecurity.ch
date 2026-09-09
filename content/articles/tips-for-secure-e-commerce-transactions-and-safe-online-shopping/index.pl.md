@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak bezpiecznie robić zakupy online i chronić swoje dane osobowe dzięki tym poradom ekspertów i usługom maskowania."
 tags: ["zakupy online", "bezpieczny handel elektroniczny", "bezpieczne transakcje", "ochrona prywatności", "usługi maskowania", "Albine Blur", "privacy.com", "Skrytka pocztowa", "CMRA", "bezpieczne hasła", "uwierzytelnianie dwuskładnikowe", "zapobieganie phishingowi", "zaufane strony internetowe", "aktualizacje oprogramowania", "recenzje sprzedawców", "publiczne Wi-Fi", "VPN", "prywatność online", "Zapobieganie kradzieży tożsamości", "oszustwa związane z kartami kredytowymi", "wskazówki dotyczące cyberbezpieczeństwa", "ochrona danych", "Środki bezpieczeństwa online", "tymczasowe numery telefonów", "tymczasowe adresy e-mail", "renomowani sprzedawcy online", "ochrona przed złośliwym oprogramowaniem", "Zapobieganie cyberzagrożeniom", "bezpieczne transakcje online", "bezpieczeństwo danych osobowych"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Kreskówkowa ilustracja osoby przeglądającej bezpieczną witrynę zakupów online z symbolem kłódki i tarczą w tle."
 coverCaption: ""
 ---

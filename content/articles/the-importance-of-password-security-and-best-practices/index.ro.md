@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați despre importanța securității parolelor și descoperiți cele mai bune practici de gestionare a parolelor pentru a vă proteja informațiile personale și identitatea online."
 tags: ["securitatea parolei", "gestionarea parolelor", "securitate online", "amenințări cibernetice", "parole puternice", "autentificare cu doi factori", "manager de parole", "securitatea datelor", "furt de identitate", "escrocherii de phishing", "rețele Wi-Fi publice", "confidențialitatea online", "siguranța online", "securitate digitală", "securitate pe internet", "securitate cibernetică", "protecția datelor", "securitatea contului", "conturi online", "protecție online"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "O imagine de desen animat a unui lacăt și a unei chei protejate de un scut pentru a reprezenta securitatea și protecția parolei."
 coverCaption: ""
 ---

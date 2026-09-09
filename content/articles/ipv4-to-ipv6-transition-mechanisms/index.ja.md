@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、IPv4からIPv6への移行に使用されるさまざまなメカニズムについて説明します。"
 tags: ["アイピーブイフォー", "アイピーブイシックス", "ネットワーキング", "トランジションメカニズム", "デュアルスタック", "NAT64", "ディーエヌエスろくじゅうよん", "IPv6トンネリング", "アイサタップ", "6to4", "DS-lite（ディーエスライト", "マップティー", "IPv6マイグレーション", "ネットワークプロトコル", "インターネットプロトコル", "ネットワークアーキテクチャ", "ルーティング", "サブネッティング", "アドレッシング"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_at_a_crossroads.webp"
 coverAlt: "十字路に立つ人の漫画画像で、IPv4とIPv6の方向を示す道標があり、2つのプロトコル間の選択と移行を表現しています。"
 coverCaption: ""
 ---

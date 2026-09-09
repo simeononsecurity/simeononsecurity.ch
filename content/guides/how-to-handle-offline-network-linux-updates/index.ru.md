@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Обновления Linux", "Убунту", "Дебиан", "CentOS", "РЕЛ", "автономные обновления", "локальный репозиторий", "тайник", "настройка сервера", "настройка клиента", "подходящее зеркало", "debmirror", "создать репозиторий", "apt-cacher-нг", "ням-крон", "Обновления системы Linux", "автономные обновления пакетов", "автономные обновления программного обеспечения", "локальный репозиторий пакетов", "локальный кэш пакетов", "автономные обновления Linux", "обработка автономных обновлений", "автономные способы обновления", "автономное обслуживание системы", "Обновления сервера Linux", "Обновления клиента Linux", "автономное управление программным обеспечением", "автономное управление пакетами", "обновить стратегии", "Обновления безопасности Linux"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "Мультяшная иллюстрация, изображающая сервер и несколько клиентских устройств, обменивающихся обновлениями в автономном режиме."
 coverCaption: ""
 ---

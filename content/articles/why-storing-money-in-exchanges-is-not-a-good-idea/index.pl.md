@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ten artykuł omawia niebezpieczeństwa związane z przechowywaniem kryptowalut na giełdach, wyjaśniając, dlaczego jest to równoznaczne z przechowywaniem pieniędzy w materacu, i podkreśla korzyści płynące z używania portfela sprzętowego do bezpiecznego przechowywania."
 tags: ["Przechowywanie kryptowalut", "Ryzyko walutowe", "Portfel na sprzęt", "Cybersecurity", "Inwestowanie w kryptowaluty", "Bezpieczne przechowywanie", "Klucze prywatne", "Portfele przenośne", "Regulacje rządowe"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Portfel sprzętowy z kłódką i łańcuchem wokół niej, symbolizujący bezpieczeństwo przechowywania kryptowalut w portfelu sprzętowym."
 coverCaption: ""
 ---

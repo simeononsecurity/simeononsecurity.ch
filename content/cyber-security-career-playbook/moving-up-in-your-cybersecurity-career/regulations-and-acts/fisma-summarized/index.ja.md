@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101は、連邦情報セキュリティ近代化法（Federal Information Security Modernization Act）の主要な構成要素、利点、連邦政府機関に対する要件を含む包括的な概要を提供します。"
 tags: ["FISMA", "連邦情報セキュリティ", "情報セキュリティ", "リスク管理", "セキュリティ管理評価", "連続モニタリング", "インシデント対応", "認可と認定", "情報セキュリティの向上", "より良いリスク管理", "透明性の向上", "コラボレーションの強化", "米国法", "連邦政府機関", "情報セキュリティ・プログラム", "セキュリティ管理", "リスク評価", "連続モニタリング", "セキュリティ・インシデント", "透明性と説明責任", "連邦情報セキュリティ近代化法の概要", "連邦政府機関におけるFISMAのメリット", "連邦政府の情報セキュリティにおけるリスク管理", "FISMAにおける継続的モニタリング", "連邦政府機関におけるインシデント対応", "認可および認定プロセス", "連邦政府における情報セキュリティの向上", "連邦情報セキュリティにおける協力", "FISMAコンプライアンスにおける透明性", "連邦政府機関の情報セキュリティ基準"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "情報セキュリティと保護を象徴する南京錠がかかったコンピューター画面と、背景のバイナリコード。"
 coverCaption: ""
 ---

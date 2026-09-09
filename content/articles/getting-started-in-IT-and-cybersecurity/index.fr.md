@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les étapes à suivre pour lancer votre carrière dans le domaine passionnant et en constante évolution de l'informatique et de la cybersécurité grâce à ce guide complet"
 tags: ["Informatique et cybersécurité", "Guide des carrières", "Certifications CompTIA", "MCSA", "Linux+", "CCNA", "Test de pénétration", "Piratage éthique", "OSCP", "Scripting", "Emplois IT", "Emplois dans le domaine de la cybersécurité"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Image d'une personne assise à son poste de travail avec un cadenas de sécurité au premier plan, indiquant l'importance de sécuriser les postes de travail."
 coverCaption: ""
 ---

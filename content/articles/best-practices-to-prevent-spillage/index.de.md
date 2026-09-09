@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken und Strategien kennen, um den Verlust von Informationen zu verhindern und sensible Daten zu schützen, um mehr Sicherheit und Schutz zu gewährleisten."
 tags: ["Informationssicherheit", "datenschutz", "Verschlusssachen", "Informationsüberflutung", "Präventionsstrategien", "beste Praktiken", "Zugangskontrollen", "Verschlüsselung", "Mitarbeiterschulung", "Cybersicherheit", "Vermeidung von Datenverlusten", "Sicherheitsbewertungen", "staatliche Vorschriften", "NIST", "Insider-Bedrohungen", "Schwachstellen in der Cybersicherheit", "menschliches Versagen", "Aufklärungsprogramme", "Phishing-Bewusstsein", "DLP-Lösungen", "rollenbasierte Zugangskontrolle", "Multi-Faktor-Authentifizierung", "Verwaltung von Verschlüsselungsschlüsseln", "Endpunktschutz", "Inhaltskontrolle", "Sicherheitsprüfungen", "Penetrationstests", "Planung der Reaktion auf Vorfälle", "Sicherheitsprotokolle", "Informationsschutz"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "Ein verschlossenes Schild, das sensible Informationen vor unbefugtem Zugriff schützt."
 coverCaption: ""
 ---

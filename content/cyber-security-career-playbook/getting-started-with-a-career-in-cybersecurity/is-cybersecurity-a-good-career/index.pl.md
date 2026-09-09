@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-04
 description: "Odkryj zalety kariery związanej z cyberbezpieczeństwem, w tym bezpieczeństwo zatrudnienia, wysoki potencjał płacowy i liczne możliwości rozwoju w erze cyfrowej."
 tags: ["kariera w cyberbezpieczeństwie", "bezpieczeństwo pracy", "Wysoki potencjał płacowy", "możliwości rozwoju", "zawód związany z cyberbezpieczeństwem", "cyberzagrożenia", "bezpieczeństwo cyfrowe", "bezpieczeństwo informacji", "umiejętności w zakresie cyberbezpieczeństwa", "specjaliści ds. cyberbezpieczeństwa", "zapotrzebowanie na cyberbezpieczeństwo", "branża cyberbezpieczeństwa", "cyberbezpieczeństwo praca", "Perspektywy cyberbezpieczeństwa", "wyzwania związane z cyberbezpieczeństwem", "nagrody za cyberbezpieczeństwo", "przyszłość cyberbezpieczeństwa", "sposób myślenia o cyberbezpieczeństwie", "polityka cyberbezpieczeństwa", "ciekawość technologiczna", "ciągłe uczenie się", "zarządzanie stresem", "znaczenie cyberbezpieczeństwa", "postrzeganie cyberbezpieczeństwa", "ochrona cyfrowa", "rozwój umiejętności w zakresie cyberbezpieczeństwa", "ochrona cyfrowego świata", "ewoluujące zagrożenia cyberbezpieczeństwa", "Reputacja marki cyberbezpieczeństwa", "rentowność biznesu"]
-cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.webp"
 coverAlt: "Profesjonalista w pelerynie superbohatera, stojący przed ekranem komputera z tarczą reprezentującą cyberbezpieczeństwo."
 coverCaption: "Specjalista ds. cyberbezpieczeństwa, strażnik bezpieczeństwa cyfrowego, wyposażony w tarczę ochronną przed cyberzagrożeniami."
 ---

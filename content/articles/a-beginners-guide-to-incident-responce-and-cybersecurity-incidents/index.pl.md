@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj podstawy reagowania na incydenty i obsługi incydentów cyberbezpieczeństwa dzięki temu przewodnikowi dla początkujących."
 tags: ["reakcja na incydent", "cyberbezpieczeństwo", "przewodnik dla początkujących", "ochrona danych", "bezpieczeństwo danych", "Bezpieczeństwo IT", "bezpieczeństwo sieci", "cyberataki", "bezpieczeństwo informacji", "cyberprzestępczość", "bezpieczeństwo cyfrowe", "Infrastruktura IT", "naruszenia danych", "cyberzagrożenia", "cyberobrona", "zarządzanie incydentami", "odzyskiwanie danych", "planowanie bezpieczeństwa", "zarządzanie ryzykiem", "strategia cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "Kreskówka przedstawiająca superbohatera cyberbezpieczeństwa broniącego miasta przed cyberzagrożeniami."
 coverCaption: ""
 ---

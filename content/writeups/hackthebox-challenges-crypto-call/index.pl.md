@@ -5,7 +5,7 @@ draft: false
 description: "Dowiedz się, jak odszyfrować tony DTMF za pomocą szyfru liczb pierwszych, aby rozwiązać wyzwanie Crypto - Call na HackTheBox."
 tags: ["HackTheBox", "Crypto Challenge", "Sygnały DTMF", "Szyfr liczb pierwszych", "Odszyfrowanie", "Rozwiązywanie zagadek", "Kryptografia", "Konwersja audio", "DialABC", "Decode.fr", "WAV", "MP3", "Częstotliwość", "Cecha matematyczna", "Flaga", "Audacity", "Wizualizer dźwiękowy", "Numery", "Menu automatycznych kasjerów", "Telefon płatny"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Kreskówkowy telefon z zielonym ekranem i kłódką na nim, symbolizujący bezpieczeństwo i szyfrowanie, z tonami DTMF przedstawionymi w tle"
 coverCaption: ""
 ---

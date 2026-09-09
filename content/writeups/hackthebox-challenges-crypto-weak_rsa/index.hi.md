@@ -4,7 +4,7 @@ draft: false
 description: "HackTheBox Weak RSA Crypto चुनौती को आसानी से हल करने के लिए एक स्वचालित RSA अटैक टूल, RsaCtfTool का उपयोग करना सीखें।"
 tags: ["HackTheBox", "चुनौतियां", "क्रिप्टो", "कमजोर आरएसए", "रुपयेसीटीएफटूल", "एचटीबी कमजोर आरएसए क्रिप्टो", "आसान चुनौती", "आरएसए सिफर", "flag.enc", "key.pub", "ओपनएसएसएल पैकेज", "स्वचालित आरएसए हमला उपकरण", "अजगर स्क्रिप्ट", "रुपयेसीटीएफटूल", "python3", "सार्वजनिक कुंजी", "uncipherfile", "ध्वज उदाहरण"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "टोपी और मास्क पहने एक कार्टून हैकर, तिजोरी के दरवाजे के सामने एचटीबी लोगो के साथ खड़ा है और हरे रंग की पृष्ठभूमि के साथ एक टूल (जैसे रिंच या स्क्रूड्राइवर) पकड़े हुए है, जो सफलता का प्रतीक है और ऊपर एक स्पीच बबल में झंडा है। उनका सिर।"
 coverCaption: ""
 ---

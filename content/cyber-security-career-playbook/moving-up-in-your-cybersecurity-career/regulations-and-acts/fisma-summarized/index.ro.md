@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 oferă o prezentare generală cuprinzătoare a Legii federale de modernizare a securității informațiilor, inclusiv a componentelor sale cheie, a beneficiilor și a cerințelor pentru agențiile federale."
 tags: ["FISMA", "Securitatea informațiilor federale", "Securitatea informațiilor", "Managementul riscului", "Evaluarea controlului de securitate", "Monitorizare continuă", "Răspuns la incidente", "Autorizare și acreditare", "Îmbunătățirea securității informațiilor", "O mai bună gestionare a riscurilor", "Transparență sporită", "Colaborare consolidată", "Legea SUA", "Agenții federale", "Programe de securitate a informațiilor", "Controale de securitate", "Evaluări ale riscurilor", "Monitorizare continuă", "Incidente de securitate", "Transparență și responsabilitate", "Prezentare generală a Federal Information Security Modernization Act", "Beneficiile FISMA în agențiile federale", "Managementul riscului în securitatea informației la nivel federal", "Monitorizarea continuă în cadrul FISMA", "Răspunsul la incidente în agențiile federale", "Procesul de autorizare și acreditare", "Îmbunătățirea securității informațiilor în administrația federală", "Colaborarea în domeniul securității informațiilor la nivel federal", "Transparența în ceea ce privește respectarea FISMA", "Standarde de securitate a informațiilor pentru agențiile federale"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Un ecran de calculator cu un lacăt pe el, simbolizând securitatea și protecția informațiilor, pe un fundal de cod binar"
 coverCaption: ""
 ---

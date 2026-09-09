@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak skonfigurować bezpieczną i odporną sieć VPN dla zdalnych pracowników firmy, zapewniając bezpieczny dostęp do zasobów firmy."
 tags: ["VPN", "praca zdalna", "korporacyjna sieć VPN", "bezpieczeństwo sieci", "szyfrowanie", "protokoły tunelowania", "Konfiguracja VPN", "Serwer VPN", "Bezpieczeństwo VPN", "Konserwacja VPN", "Monitorowanie VPN", "Rozwiązanie VPN", "uwierzytelnianie", "bezpieczeństwo danych", "prywatność", "wydajność", "skalowalność", "kompatybilność", "szkolenie pracowników", "najlepsze praktyki"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "Animowany obraz 3D przedstawiający bezpieczny tunel łączący laptopa pracownika zdalnego z budynkiem firmy, symbolizujący połączenie VPN. Nad tunelem unosi się ikona tarczy, reprezentująca bezpieczeństwo i odporność."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las ventajas y desventajas de las pruebas de software manuales y automatizadas para tomar una decisión informada para su organización."
 tags: ["pruebas de software", "pruebas manuales", "pruebas automatizadas", "estrategias de ensayo", "desarrollo de software", "garantía de calidad", "casos de prueba", "cobertura de pruebas", "pruebas exploratorias", "experiencia del usuario", "eficacia", "reutilización", "adaptabilidad", "error humano", "falsos positivos", "falsos negativos", "automatización de pruebas", "pruebas híbridas", "optimización de recursos", "prácticas de pruebas de software", "elegir la estrategia de pruebas de software adecuada", "ventajas de las pruebas manuales", "desventajas de las pruebas automatizadas", "combinar pruebas manuales y automatizadas", "optimización del proceso de pruebas de software"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Una colorida ilustración de un probador humano y un probador robot trabajando juntos para probar aplicaciones de software."
 coverCaption: ""
 ---

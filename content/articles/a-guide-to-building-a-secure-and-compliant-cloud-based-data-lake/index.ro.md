@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "În acest ghid cuprinzător, aflați care sunt cele mai bune practici de securitate și de conformitate atunci când planificați, construiți și gestionați lacuri de date bazate pe cloud."
 tags: ["lac de date", "securitate în cloud", "reglementări de conformitate", "controale de acces", "criptare", "AWS", "Azure", "HIPAA", "GDPR", "monitorizare", "patch-uri", "securitate cibernetică", "Soluție SIEM", "Echipe de suport IT", "peisajul amenințărilor", "migrarea în cloud", "guvernanța cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "O imagine de desen animat a unui castel păzit de un cavaler războinic, simbolizând conceptul de protecție puternică pentru o stocare în cloud sigură și conformă"
 coverCaption: ""
 ---

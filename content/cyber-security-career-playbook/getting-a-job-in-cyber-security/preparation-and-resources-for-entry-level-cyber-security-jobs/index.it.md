@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Scoprite i requisiti chiave, i preparativi e le risorse per i lavori di cybersecurity di primo livello per avviare la vostra carriera in questo settore ad alta domanda."
 tags: ["lavori di cybersecurity entry-level", "carriera nella cybersecurity", "requisiti del lavoro", "educazione alla cybersicurezza", "competenze di cybersecurity", "acquisire esperienza", "certificazioni di cybersecurity", "lavori di cybersecurity del governo", "lavori di cybersecurity nel settore privato", "piattaforme di ricerca di lavoro", "programmi di formazione sulla cybersicurezza", "corsi online", "apprendistato in cybersecurity", "stage di cybersicurezza", "USAJOBS", "Dipartimento di Sicurezza Nazionale", "FBI", "Infatti", "LinkedIn", "Dadi", "industria della cybersicurezza", "tendenze del settore", "protezione dei dati", "sicurezza del sistema", "minacce informatiche", "sviluppo della carriera", "crescita professionale", "normative di settore", "risorse per la sicurezza informatica", "opportunità di lavoro"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Illustrazione a fumetti di una persona che indossa un mantello da supereroe, tiene in mano uno scudo e si trova di fronte a un computer con lucchetti e scudi intorno."
 coverCaption: "Liberate il vostro potenziale nella cybersecurity e diventate un cyber defender."
 ---

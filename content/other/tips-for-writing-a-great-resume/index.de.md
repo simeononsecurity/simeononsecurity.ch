@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Lernen Sie die Best Practices zum Erstellen eines effektiven Lebenslaufs kennen, einschließlich der Verwendung von Schriftarten, Lebenslauftypen, Schlüsselwortoptimierung, Umgang mit Lücken und Optimierung des Layouts."
 tags: ["Wiederaufnahme des Schreibens", "Lebenslauf-Tipps", "Verwendung von Schriftarten", "Lebenslaufstruktur", "Lebenslauftypen", "chronologischen Lebenslauf", "funktionsfähiger Lebenslauf", "Kombinationslebenslauf", "Keyword-Optimierung", "Referenzen im Lebenslauf", "Lebenslauferklärung", "Umgang mit Entlassungen", "Umgang mit Lücken im Lebenslauf", "Abschlussjahr im Lebenslauf", "Auflistung von Zertifizierungen", "Lebenslauf-Layout", "prägnanter Lebenslauf", "Leerraum im Lebenslauf", "Lebenslaufanpassung", "professioneller Lebenslauf"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Ein farbenfrohes Comicbild, das eine Person zeigt, die einen Lebenslauf mit einer Lupe in der Hand hält und die Liebe zum Detail bei der Optimierung des Lebenslaufs symbolisiert."
 coverCaption: ""
 ---

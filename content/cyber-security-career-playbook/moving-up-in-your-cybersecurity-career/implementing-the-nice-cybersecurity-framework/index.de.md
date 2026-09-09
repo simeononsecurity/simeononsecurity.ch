@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Entdecken Sie die wichtigsten Schritte, um das NICE Cybersecurity Framework effektiv zu implementieren und die Abwehrkräfte Ihres Unternehmens gegen Cyberbedrohungen zu stärken."
 tags: ["NICE Cybersecurity Framework", "Cyber-Abwehr", "beste Praktiken für die Umsetzung", "Cybersicherheitspersonal", "Analyse der Qualifikationslücke", "Ausbildungsprogramme", "Überwachung und Berichterstattung", "Cybersicherheitslage", "Risikomanagement", "staatliche Vorschriften", "Cybersicherheitsstrategien", "datenschutz", "Vorfallreaktion", "Netzwerksicherheit", "Schwachstellenmanagement", "Sicherheitskontrollen", "Informationen über Cyber-Bedrohungen", "Metriken zur Cybersicherheit", "ständige Verbesserung", "Branchen-Benchmarks", "Cyber-Resilienz", "Management von Sicherheitsvorfällen", "Cyber-Bedrohungslandschaft", "Cybersicherheits-Governance", "Aufsicht über die Cybersicherheit", "sichere Bereitstellung", "Datenklassifizierung", "Compliance-Anforderungen", "Cybersicherheits-Zertifizierungen", "Schulungen zum Bewusstsein für Cybersicherheit"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Ein Superheld mit Schild, der eine Netzinfrastruktur vor Cyber-Bedrohungen schützt."
 coverCaption: "Verteidigen, schützen, sichern: Stärkung Ihrer Cyber-Verteidigung mit dem NICE Framework"
 ---

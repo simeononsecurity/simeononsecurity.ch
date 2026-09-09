@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Découvrez comment configurer pfSense sur le client léger HP t740 et comment résoudre les problèmes potentiels tels que les problèmes de blocage et de détection de SSD."
 tags: ["pfSense", "OPNsense", "BSD renforcé", "HP t740", "client léger", "serveur domestique", "PPPoE", "FreeBSD", "invite de démarrage", "loader.conf.local", "nano-éditeur", "Détection SSD", "SSD M.2", "Numérique occidental", "dépannage", "post-installation", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Un dessin animé d'un assistant jetant un sort pour réparer un ordinateur gelé, avec une bulle disant Problème résolu"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"

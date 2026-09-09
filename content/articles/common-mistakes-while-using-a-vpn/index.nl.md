@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Bescherm uw online privacy door deze veelvoorkomende VPN-fouten te vermijden die per ongeluk uw openbare IP-adres kunnen lekken"
 tags: ["VPN-fouten", "IP lekken", "online privacy", "cyberbeveiliging", "internetbeveiliging", "virtueel privénetwerk", "WebRTC", "DNS-server", "VPN-provider", "twee-factor authenticatie", "VPN software", "noodschakelaar", "gegevensprivacy", "internetprivacy", "cyberdreigingen", "gegevensbeveiliging", "netwerkbeveiliging", "online beveiliging", "online anonimiteit", "anoniem browsen"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Een stripfiguur die op een laptop staat met een vergrootglas, op zoek naar online privacy."
 coverCaption: ""
 ---

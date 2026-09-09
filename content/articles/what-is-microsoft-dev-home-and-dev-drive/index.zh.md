@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解 Dev Home 和 Dev Drive 如何通过可定制的 widget、机器配置、GitHub 集成和优化存储来增强 Windows 开发工作流程。"
 tags: ["开发首页", "开发驱动器", "Windows 开发", "开发工作流程", "可定制的小部件", "机器配置", "GitHub 集成", "优化存储", "Windows 开发人员", "简化工作流程", "代码管理", "项目监测", "存储优化", "开发工具", "开发人员的生产力", "Windows 环境", "ReFS 卷格式", "性能优化", "文件系统性能", "GitHub 存储库", "存储解决方案", "视窗 11", "存储管理", "高效协作", "开发资产", "生产力工具", "Windows 开发文档", "发展效率", "工作流程优化", "Windows 开发环境"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "一幅卡通插图，描绘了开发人员在精简高效的环境中使用 Dev Home 和 Dev Drive 工具工作的情景。"
 coverCaption: ""
 ---

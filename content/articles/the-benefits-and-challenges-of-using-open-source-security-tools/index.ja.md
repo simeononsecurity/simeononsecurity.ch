@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "オープンソースのセキュリティツールを使用して、組織のセキュリティ態勢を改善するメリットと課題を探ります。"
 tags: ["オープンソースセキュリティツール", "サイバーセキュリティ", "地域支援", "透明性", "コスト削減", "柔軟性", "専用ツール", "セキュリティリスク", "スキルセット", "ソフトウェアライセンス料", "総所有コスト", "商業支援", "プログラミング言語", "統合", "セキュリティテスウティング", "会計監査", "エヌアイエスティー", "シーサ", "オワスプ", "全米標準技術協会"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "バイナリーコードを背景に、各ツールにオープンソースのロゴが入ったツールボックスと、サイバーセキュリティを表す中央に鍵のついた盾が描かれた漫画風のイメージです。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Libérez le potentiel de votre Home Lab grâce à ce guide complet, conçu pour les professionnels de l'informatique, les étudiants et les amateurs, qui couvre l'installation, les composants, les sujets avancés et les meilleures pratiques."
 genre: ["Home Lab", "Professionnels de l'informatique", "Les étudiants", "Hobbyistes", "Mise en réseau", "Virtualisation", "Automatisation", "Matériel", "Logiciel", "Meilleures pratiques"]
 tags: ["Home Lab", "Professionnels de l'informatique", "Les étudiants", "Hobbyistes", "Mise en réseau", "Virtualisation", "Automatisation", "Matériel", "Logiciel", "Meilleures pratiques", "Laboratoire personnel", "Environnement d'apprentissage", "Expérimentation", "Développement des compétences", "Technologie", "Guide d'installation", "Sujets avancés", "Documentation", "Sauvegarde", "Sécurité", "Organisation", "Expérience de prise en main", "Technologies du monde réel", "Un environnement sûr", "Compétences informatiques", "Passionnés de technologie", "Apprentissage des technologies de l'information", "Expérimentation technologique", "Laboratoire à domicile", "Compétences techniques"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Une personne assise à un bureau avec un ordinateur et du matériel de mise en réseau, entourée de livres et de notes."
 coverCaption: "Libérez le pouvoir de l'apprentissage avec votre propre laboratoire domestique."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解在企业中实施 BYOD 政策的好处、挑战和最佳实践。"
 tags: ["自带设备政策", "自带设备", "移动设备管理", "生产力", "安全风险", "成本节约", "员工培训", "安全协议", "数据加密", "技术支持", "工作任务", "工作满意度", "公司政策", "远程擦拭", "MDM 软件", "员工设备", "安全措施", "设备使用", "合规性", "适当使用"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "一个人在玩弄各种个人设备（笔记本电脑、智能手机、平板电脑）和工作相关物品（文件、咖啡杯）的卡通形象"
 coverCaption: ""
 ---

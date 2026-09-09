@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Conozca los pasos esenciales para iniciar una carrera de éxito en ciberseguridad, desde la creación de una base sólida hasta la exploración de diferentes dominios y certificaciones."
 tags: ["carrera en ciberseguridad", "iniciarse en la ciberseguridad", "sentar las bases", "fundamentos de redes", "sistemas operativos", "conocimientos de codificación", "administración de sistemas empresariales", "equipo azul", "equipo rojo", "equipo púrpura", "certificaciones", "aprendizaje continuo", "primer empleo en ciberseguridad", "creación de carteras", "redes para la ciberseguridad", "prácticas en ciberseguridad", "Seguridad CompTIA", "Hacker Ético Certificado CEH", "Profesional certificado en seguridad de sistemas de información CISSP", "conferencias sobre ciberseguridad", "tendencias en ciberseguridad", "experiencia práctica", "proyectos de ciberseguridad", "reuniones sobre ciberseguridad", "ciberseguridad para principiantes", "defensa contra las ciberamenazas", "profesionales de la ciberseguridad", "desarrollo profesional", "competencias en ciberseguridad", "educación en ciberseguridad"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "Un grupo de diversos profesionales de la ciberseguridad que colaboran en la protección de sistemas y redes digitales."
 coverCaption: "Un equipo unido de profesionales de la ciberseguridad que trabajan juntos para proteger los sistemas digitales de las ciberamenazas."
 ---

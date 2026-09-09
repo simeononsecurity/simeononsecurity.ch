@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj korzyści i wady uwierzytelniania wieloczynnikowego (MFA) i dowiedz się, jak wybrać odpowiednie rozwiązanie dla bezpieczeństwa Twojej firmy."
 tags: ["uwierzytelnianie wieloczynnikowe", "MFA", "bezpieczeństwo biznesowe", "cybersecurity", "ochrona danych", "zgodność z przepisami", "doświadczenie użytkownika", "phishing", "ataki typu brute force", "złożoność techniczna", "odporność użytkownika", "smartfony", "token", "karta inteligentna", "odcisk palca", "rozpoznawanie twarzy", "rozpoznawanie głosu", "PCI DSS", "HIPAA", "naruszenie danych"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Kreskówkowy zamek z symbolami uwierzytelniania dwuskładnikowego jak smartfon i klucz."
 coverCaption: ""
 ---

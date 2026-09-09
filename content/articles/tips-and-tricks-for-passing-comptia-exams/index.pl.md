@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Uzyskaj wszystkie wskazówki i porady, których potrzebujesz, aby zdać egzaminy CompTIA z tym ostatecznym przewodnikiem."
 tags: ["Egzaminy CompTIA", "Certyfikacja IT", "plan studiów", "egzaminy praktyczne", "pytania oparte na wynikach", "cele egzaminu", "informatycy", "wskazówki dotyczące rozwiązywania testów", "materiały do nauki", "zarządzanie czasem", "format egzaminu", "eliminowanie błędnych odpowiedzi", "techniki udzielania odpowiedzi", "rozumienie tekstu czytanego", "krytyczne myślenie", "lęk przed testami", "budowa zaufania", "przygotowanie do egzaminu", "technologia informacyjna", "awans zawodowy"]
-cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_studying_with_books_and_a_laptop.webp"
 coverAlt: "Kreskówkowy obrazek osoby studiującej z książkami i laptopem, otoczonej znakami zapytania, podczas gdy nad nimi przedstawiony jest certyfikat CompTIA jako klucz do sukcesu."
 coverCaption: ""
 ---

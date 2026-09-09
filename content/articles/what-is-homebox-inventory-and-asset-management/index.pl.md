@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy."
 genre: ["Technologia", "Zarządzanie zapasami", "Zarządzanie aktywami", "Open Source", "Wydajność", "Mała firma", "Zarządzanie domem", "Self-hosted", "Oprogramowanie", "Organizacja"]
 tags: ["Homebox", "zarządzanie zapasami", "zarządzanie aktywami", "open source", "self-hosted", "oprogramowanie", "wydajność", "mały biznes", "zarządzanie domem", "organizacja", "scentralizowana inwentaryzacja", "śledzenie zasobów", "niestandardowe pola danych", "przypomnienia", "raportowanie", "prywatność danych", "zgodność", "regulacje rządowe", "serwer WWW", "baza danych", "proces instalacji", "Repozytorium GitHub", "bezpieczeństwo danych", "prywatność", "prowadzenie dokumentacji", "prywatność i bezpieczeństwo danych", "instrukcje instalacji", "interfejs sieciowy", "prywatność danych", "zgodność z lokalnymi przepisami"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca osobę porządkującą różne przedmioty za pomocą oprogramowania Homebox."
 coverCaption: "Usprawnij inwentaryzację i zasoby dzięki Homebox, zwiększając wydajność!"
 ---

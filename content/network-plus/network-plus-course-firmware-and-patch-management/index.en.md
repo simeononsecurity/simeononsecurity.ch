@@ -6,7 +6,7 @@ draft: false
 description: "Master the art of Patch and Firmware Management with this comprehensive Network Plus course, ensuring enhanced network security and protection against cyber threats."
 genre: ["Technology & Cybersecurity", "IT Certification", "Network Security", "Software Updates", "Firmware Management", "Access Control Lists", "Firewall Rules", "Wireless Security", "Best Practices", "Government Regulations"]
 tags: ["Importance of Patch and Firmware Management", "Configuring Access Control Lists", "Implicit vs. Explicit Deny", "Wireless Security Considerations", "Government Regulations for Network Security", "Automated Patch Management", "Vulnerability Scanning", "Network Performance Improvement", "Compliance Requirements", "Network Infrastructure Security", "CompTIA Network Plus", "Patch Management", "Firmware Updates", "Network Security", "Vulnerability Mitigation", "Best Practices", "Access Control Lists", "Role-Based Access", "Firewall Rules", "Wireless Security"]
-cover: "/img/cover/A_symbolic_art_depicting_a_secure_network_shie.png"
+cover: "/img/cover/A_symbolic_art_depicting_a_secure_network_shie.webp"
 coverAlt: "A symbolic art depicting a secure network shielded with patches and firmware updates, safeguarding against cyber threats and vulnerabilities."
 coverCaption: "Secure Your Network: Patches and Firmware as Shields"
 ---

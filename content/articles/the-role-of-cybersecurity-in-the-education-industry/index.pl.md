@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj znaczenie cyberbezpieczeństwa w branży edukacyjnej i dowiedz się, jak chronić wrażliwe dane uczniów."
 tags: ["cybersecurity", "edukacja", "dane uczniów", "ochrona danych", "prywatność", "FERPA", "NIST", "HEISC", "Internet2", "Instytut SANS", "polityka bezpieczeństwa", "phishing", "szkolenie uświadamiające", "ocena ryzyka", "uwierzytelnianie wieloczynnikowe", "szyfrowanie", "reakcja na incydent", "bezpieczeństwo sieci", "bezpieczny dostęp", "firewalle"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Animowany obraz 3D przedstawiający tarczę chroniącą laptopa wyświetlającego czapkę absolwenta, symbolizującą ochronę danych uczniów w branży edukacyjnej."
 coverCaption: ""
 ---

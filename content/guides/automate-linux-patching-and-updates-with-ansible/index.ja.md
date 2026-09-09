@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ansible を使用して Linux のパッチ適用と更新を自動化する方法を学び、さまざまなディストリビューションとセットアップ手順をカバーします。"
 tags: ["Linuxのパッチ適用", "Ansible 自動化", "更新の自動化", "システム・メンテナンス", "ITオートメーション", "パッチ管理", "Linuxのセキュリティ", "デビアン", "Ubuntu", "RHEL", "高山", "システムの安定性", "脆弱性の軽減", "ITインフラストラクチャ", "自動化ツール", "Ansible プレイブック", "ホスト構成", "ソフトウェアの更新", "セキュリティコンプライアンス", "IT運用", "Linuxのアップデート", "Ubuntu", "デビアン", "CentOS", "RHEL", "オフラインアップデート", "ローカルリポジトリ", "キャッシュ", "サーバーのセットアップ", "クライアントのセットアップ", "適切なミラー", "デブミラー", "リポジトリの作成", "apt-cacher-ng", "ヤムクロン", "Linux システムのアップデート", "オフラインパッケージのアップデート", "オフラインソフトウェアアップデート", "ローカルパッケージリポジトリ", "ローカルパッケージキャッシュ", "オフライン Linux アップデート", "オフラインアップデートの処理", "オフラインアップデート方法", "オフラインでのシステムメンテナンス", "Linuxサーバーのアップデート", "Linuxクライアントのアップデート", "オフラインのソフトウェア管理", "オフラインパッケージ管理", "戦略を更新する", "Linuxのセキュリティアップデート"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Linux サーバーのクラスターにパッチを適用するロボットを描いたカラフルな漫画風の画像。"
 coverCaption: ""
 ---

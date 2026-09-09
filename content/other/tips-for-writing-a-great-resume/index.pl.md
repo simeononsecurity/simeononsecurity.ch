@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Poznaj najlepsze praktyki tworzenia skutecznego CV, w tym użycie czcionki, typy CV, optymalizację słów kluczowych, obsługę luk i optymalizację układu."
 tags: ["pisanie CV", "wskazówki dotyczące CV", "użycie", "struktura CV", "rodzaje CV", "CV chronologiczne", "funkcjonalne CV", "kombinacja CV", "optymalizacja słów kluczowych", "referencje w CV", "życiorys", "obsługa zwolnień", "Obsługa luk w CV", "Rok ukończenia studiów w CV", "certyfikaty notowań", "układ CV", "zwięzłe CV", "Biała przestrzeń w CV", "dostosowanie CV", "życiorys zawodowy"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Kolorowa kreskówka przedstawiająca osobę trzymającą CV z lupą, symbolizującą dbałość o szczegóły w optymalizacji CV."
 coverCaption: ""
 ---

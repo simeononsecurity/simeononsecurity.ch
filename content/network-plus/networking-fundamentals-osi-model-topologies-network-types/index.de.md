@@ -6,7 +6,7 @@ draft: false
 description: "Erkunden Sie die Bedeutung der Netzwerkgrundlagen, einschließlich des OSI-Modells, der Netzwerktopologien und der verschiedenen Netzwerktypen, für den Aufbau effizienter und zuverlässiger Infrastrukturen."
 genre: ["Technologie", "Vernetzung", "IT-Infrastruktur", "Netzarchitektur", "Informatik", "Datenkommunikation", "Informationstechnologie", "Netzwerksicherheit", "Netzwerk-Management", "Internet"]
 tags: ["Netzwerk-Grundlagen", "OSI-Modell", "Netzwerktopologien", "Netzwerktypen", "Datenkapselung", "Netzwerkschichten", "Maschentopologie", "Sterntopologie", "Bus-Topologie", "Ringtopologie", "Hybridtopologie", "Peer-to-Peer-Netzwerk", "Client-Server-Netzwerk", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "Hypervisor", "Satellitenverbindungen", "DSL", "Kabelinternet", "Mietleitung", "metro-optisch"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Eine symbolische Darstellung von miteinander verbundenen Knoten, die ein Netz bilden."
 coverCaption: "Entfesseln Sie die Kraft der Netzwerkgrundlagen."
 ---

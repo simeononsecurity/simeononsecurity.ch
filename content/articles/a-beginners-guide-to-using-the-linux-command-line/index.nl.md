@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u de Linux-opdrachtregel kunt gebruiken voor cyberbeveiliging met basis- en geavanceerde commando's."
 tags: ["Linux", "Opdrachtregel", "Cyberbeveiliging", "Gids voor beginners", "Scannen van het netwerk", "Kwetsbaarheidstesten", "Analyse van malware", "Machtigingen", "Netwerkverkeer", "Processtatus", "Netwerkstatistieken", "Bestanden zoeken", "Wireshark", "TCPDump", "Nmap", "Linux CLI", "Beveiliging", "Penetratie testen", "Digitaal Forensisch Onderzoek"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_hoodie.webp"
 coverAlt: "Een cartoonillustratie van een persoon met een capuchon op, zittend voor een computerscherm waarop de Linux-opdrachtregelinterface zichtbaar is, en met een vergrootglas in de hand om het aspect cyberbeveiliging weer te geven."
 coverCaption: ""
 ---

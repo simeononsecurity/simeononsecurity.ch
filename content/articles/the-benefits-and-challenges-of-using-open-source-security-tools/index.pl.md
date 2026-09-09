@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj korzyści i wyzwania związane z wykorzystaniem narzędzi open source do poprawy bezpieczeństwa Twojej organizacji."
 tags: ["narzędzia bezpieczeństwa typu open source", "cybersecurity", "wsparcie społeczności", "przejrzystość", "oszczędność kosztów", "elastyczność", "narzędzia własne", "zagrożenia bezpieczeństwa", "zestaw umiejętności", "opłaty za licencje na oprogramowanie", "całkowity koszt posiadania", "wsparcie handlowe", "języki programowania", "integracja", "teswing bezpieczeństwa", "audyty", "NIST", "CISA", "OWASP", "Krajowy Instytut Norm i Technologii"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Obraz w stylu kreskówki przedstawiający skrzynkę z narzędziami z logo open source na każdym z nich, wraz z tarczą z zamkiem w środku, aby reprezentować bezpieczeństwo cybernetyczne, wszystko na tle z kodem binarnym."
 coverCaption: ""
 ---

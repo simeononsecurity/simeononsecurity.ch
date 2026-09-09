@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ハッキング、中傷キャンペーン、個人情報の盗難など、オンライン上の脅威から身を守るためのヒントをご紹介しています。"
 tags: ["サイバーセキュリティ", "オンラインセーフティー", "こじんじょうほうぬすみ", "ハッキング", "ちゅうしゃうんどう", "ソーシャル・メディア", "暗証番号", "二要素認証", "クレジットフリーズ"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "保護されています」というメッセージが表示されたコンピューター画面の前で、南京錠を持っている人"
 coverCaption: ""
 ---

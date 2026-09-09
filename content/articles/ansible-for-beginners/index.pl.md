@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Poznaj podstawy Ansible, narzędzia do automatyzacji o otwartym kodzie źródłowym, które upraszcza zarządzanie infrastrukturą IT za pomocą języka deklaratywnego."
 tags: ["Wprowadzenie do Ansible", "Automatyzacja zarządzania infrastrukturą IT", "Podstawy Ansible", "Automatyzacja infrastruktury IT", "Zarządzanie konfiguracją", "Wdrażanie aplikacji", "Udostępnianie", "Ciągłe dostarczanie", "Zgodność z przepisami bezpieczeństwa", "Orkiestracja", "YAML", "Moduły Ansible", "Role", "Najlepsze praktyki", "Kontrola wersji", "Testowanie", "Red Hat", "Administratorzy systemu", "Linux", "macOS", "Windows", "Instalacja Ansible", "Inwentaryzacja Ansible", "Podręczniki Ansible", "Moduły Ansible", "Role Ansible", "Najlepsze praktyki Ansible", "Testowanie Ansible", "Narzędzie do automatyzacji infrastruktury IT", "Samouczek Ansible", "Automatyzacja zarządzania infrastrukturą"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "Postać z kreskówki siedząca przy biurku, otoczona serwerami i kablami, z logo Ansible na ekranie komputera, uśmiechająca się, gdy zadania są automatyzowane."
 coverCaption: ""
 ---

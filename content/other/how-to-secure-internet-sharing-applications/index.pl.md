@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Dowiedz się, jak zabezpieczyć aplikacje do udostępniania Internetu w systemie Linux za pomocą zaawansowanych środków blokowania złośliwego oprogramowania, modułów śledzących, ruchu Tor i torrentów."
 tags: ["Bezpieczeństwo systemu Linux", "aplikacje do udostępniania w internecie", "ochrona przed złośliwym oprogramowaniem", "blokowanie trackera", "Blokowanie ruchu Tor", "zapobieganie torrentom", "bezpieczeństwo sieci", "Snort", "Securita", "Ochrona DNS", "zaawansowane reguły zapory", "Aktualizacje Ubuntu", "automatyczne aktualizacje", "monitorowanie sieci", "cyberbezpieczeństwo", "Bezpieczeństwo internetowe w systemie Linux", "Bezpieczeństwo aplikacji Linux", "Blokowanie złośliwego oprogramowania", "Zapobieganie ruchowi Tor", "ochrona torrentów", "zapora sieciowa", "Bezpieczeństwo sieci Linux", "Bezpieczne udostępnianie Internetu", "Ochrona DNS w systemie Linux", "zaawansowane bezpieczeństwo sieci", "Aktualizacje systemu Linux", "narzędzia do monitorowania sieci", "Środki cyberbezpieczeństwa systemu Linux", "Praktyki bezpieczeństwa systemu Linux"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca tarczę chroniącą sieć połączonych urządzeń przed złośliwymi zagrożeniami."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voor- en nadelen van multi-factor authenticatie (MFA) en leer hoe u de juiste oplossing kiest voor de beveiliging van uw bedrijf."
 tags: ["multi-factor authenticatie", "MFA", "bedrijfsbeveiliging", "cyberbeveiliging", "gegevensbescherming", "regelnaleving", "gebruikerservaring", "phishing", "brute kracht aanvallen", "technische complexiteit", "weerstand van de gebruiker", "smartphones", "token", "smartcard", "vingerafdruk", "gezichtsherkenning", "stemherkenning", "PCI DSS", "HIPAA", "datalek"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "Een tekenfilm slot met twee-factor authenticatie symbolen als een smartphone en een sleutel."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "这本全面的指南涵盖了从安装和配置到分支、合并和协作的方方面面，让你精通 Git。"
 tags: ["Git", "版本控制", "Git 教程", "Git 指南", "Git 基础知识", "Git 命令", "Git 安装", "Git 配置", "分支", "在 Git 中合并", "协同工作", "分布式版本控制", "代码版本化", "Git 工作流程", "Git 提示", "Git 最佳实践", "Git 入门", "面向开发人员的 Git", "软件开发", "协作代码", "掌握 Git", "全面的 Git 指南", "Git 版本控制教程", "Git 分支和合并", "Git 协作技巧"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "这是一幅象征性插图，描绘了两个相互连接的齿轮，代表协作和版本控制，并在设计中融入了 Git 徽标。"
 coverCaption: ""
 ---

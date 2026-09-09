@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Boostez le signal de votre téléphone portable à la maison avec nos meilleurs choix pour une connectivité fiable et une couverture dans toute la maison."
 tags: ["Amplificateurs de signal de téléphone portable", "Webboost", "Hiboost", "Connectivité domestique", "Couverture du téléphone cellulaire", "Femtocellule", "Amplificateurs de signaux cellulaires", "Amplificateurs de signal sans fil", "Dispositifs d'amplification du signal", "Connectivité mobile", "Réception de téléphone portable", "Internet résidentiel", "Amplificateurs sans fil", "Électronique", "Amélioration de l'habitat", "Télécommunications", "Technologie", "Maisons intelligentes", "Appel Wi-Fi", "Réseau mobile"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "Une image de style dessin animé d'une personne tenant un téléphone portable et debout à côté d'un booster avec des barres de signal qui augmentent."
 coverCaption: ""
 ---

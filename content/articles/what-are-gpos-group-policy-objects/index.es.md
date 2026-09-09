@@ -6,7 +6,7 @@ draft: false
 description: "Descubra el poder de los objetos de directiva de grupo (GPO) y aprenda a gestionar y optimizar eficazmente la configuración y las directivas de su red para mejorar la seguridad y agilizar las operaciones."
 genre: ["Gestión de redes", "Objetos de directiva de grupo", "GPOs", "Administración de Windows", "Infraestructura informática", "Seguridad de las redes", "Directorio Activo", "Gestión de la configuración", "Gestión de directivas de grupo", "Optimización de la red"]
 tags: ["GPOs", "Objetos de directiva de grupo", "Gestión de redes", "Administración de Windows", "Directorio Activo", "Gestión de la configuración", "Seguridad de las redes", "Gestión de directivas de grupo", "Optimización de la red", "Infraestructura informática", "Gestión eficaz de la red", "Optimización de la configuración de red", "Políticas de seguridad reforzadas", "Racionalización de las operaciones", "Prácticas recomendadas de directivas de grupo", "Solución de problemas de GPO", "Jerarquía y herencia de GPO", "Consola de administración de directivas de grupo", "Herramientas de gestión de redes", "Consejos para solucionar problemas de GPO"]
-cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png"
+cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp"
 coverAlt: "Imagen de estilo artístico simbólico que ilustra una red de engranajes interconectados, símbolo de una gestión y optimización eficaces de la red."
 coverCaption: "Libere el poder de los GPO: ¡Agilice la gestión de su red hoy mismo!"
 ---

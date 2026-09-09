@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索开源和商业安全工具的优缺点，帮助您为组织的安全战略做出明智决策。"
 tags: ["开源安全", "商业安全工具", "成本效益", "灵活性", "定制性", "社区支持", "有限支持", "文献资料", "整合挑战", "质量和可靠性", "无缝集成", "供应商锁定", "信息技术资源", "安全基础设施", "安全解决方案", "预算限制", "独特要求", "软件兼容性", "安全目标", "决策"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "这是一幅卡通风格的图像，两个对比鲜明的人物分别代表开源和商业安全工具，站在一个平衡天平的两侧，象征着每种选择的利弊。"
 coverCaption: ""
 ---

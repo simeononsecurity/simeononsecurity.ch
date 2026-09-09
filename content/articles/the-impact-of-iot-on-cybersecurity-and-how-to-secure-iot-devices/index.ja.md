@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "IoTがサイバーセキュリティに与える影響を知り、接続されたデバイスを保護するための効果的な戦略を学ぶことができます。"
 tags: ["IoT", "サイバーセキュリティ", "セキュリティ", "モノのインターネット", "IoTデバイス", "ネットワークセキュリティ", "データ保護", "プライバシー", "スマートデバイス", "さいぜんのそち", "IoTのリスク", "認証", "ファームウェアの更新", "モニタリング", "業界標準", "規則", "IoTセキュリティガイドライン", "ネットワークセグメンテーション", "脅威の風景", "脆弱性"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "接続されたIoT機器群を守るシールドの3Dアニメーション画像で、IoTネットワークにおけるサイバーセキュリティの重要性を象徴しています。"
 coverCaption: ""
 ---

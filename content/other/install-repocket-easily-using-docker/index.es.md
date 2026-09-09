@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aprende a convertir el ancho de banda de Internet que no utilizas en un flujo de ingresos pasivos compartiéndolo con los demás."
 tags: ["monetizar internet", "ingresos pasivos", "ancho de banda no utilizado", "compartir internet", "ganar dinero", "conexión a Internet", "peer-to-peer", "Repocket", "EarnApp", "HoneyGain", "VPN", "fines de raspado", "opciones de pago", "giros postales", "BTC", "LTC", "MATIC", "ganancias", "flexibilidad", "clave api", "ganar dinero con internet sin usar", "monetizar la conexión a internet", "ingresos pasivos por compartir internet", "ganar dinero sin esfuerzo", "umbral mínimo de pago", "potencial de ingresos medios", "Contenedor Docker Repocket", "Documentación Repocket", "comprender a fondo el sistema de pagos", "investigar antes de utilizar"]
-cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.webp"
 coverAlt: "Ilustración simbólica de una persona sosteniendo una señal Wi-Fi con símbolos de dinero fluyendo hacia su bolsillo."
 coverCaption: ""
 ---

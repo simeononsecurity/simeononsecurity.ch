@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "アップデート、ファイアウォールの使用、SELinuxやAppArmorの有効化、パスワードポリシーの設定、システムログの監視など、Linuxシステムの堅牢化に不可欠なDoとDonを学ぶことができます。"
 tags: ["Linuxのセキュリティ", "システムハードニング", "ファイヤーウォール", "セリナックス", "AppArmor", "パスワードポリシー", "システムアップデート", "システムログ", "セキュリティモジュール", "アクセスコントロールポリシー", "サイバーセキュリティ", "システムセキュリティ", "ネットワークセキュリティ", "脆弱性管理", "セキュリティベストプラクティス", "ITセキュリティ", "情報セキュリティ", "ソフトウェアアップデート", "ルートアクセス", "パスワードマネージャ"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Linuxと書かれた盾を持つ漫画のロックが、矢を盾に跳ね返される。"
 coverCaption: ""
 ---

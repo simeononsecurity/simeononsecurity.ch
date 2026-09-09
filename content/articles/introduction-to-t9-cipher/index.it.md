@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite la storia, i principi di funzionamento e le applicazioni del cifrario T9, un'innovativa tecnologia di inserimento del testo predittivo utilizzata nei primi telefoni cellulari."
 tags: ["Cifrario T9", "tecnologia di inserimento del testo", "testo predittivo", "telefoni cellulari", "tastierino numerico", "Comunicazioni Tegic", "ingresso multi-tap", "modelli linguistici statistici", "comunicazione mobile", "Messaggistica SMS", "smartphone touchscreen", "tastiere virtuali", "storia del T9", "Software T9", "digitazione su tastierini numerici", "previsione delle parole", "suggerimenti di parole", "efficienza nell'inserimento del testo", "migliorare la velocità di battitura", "ridurre la pressione dei tasti", "algoritmo di previsione linguistica", "tecnologia dei primi telefoni cellulari", "evoluzione dell'immissione di testo", "comunicazione con i dispositivi mobili", "importanza del cifrario T9", "rivoluzione dell'inserimento del testo", "usabilità del telefono cellulare", "Algoritmo predittivo T9", "Dizionario T9", "accuratezza del testo predittivo"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Un'illustrazione colorata raffigurante uno smartphone con tastierino numerico e bolle di testo, che simboleggia l'impatto del cifrario T9 sulla comunicazione mobile."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment créer un environnement cloud sécurisé et conforme pour votre entreprise grâce à notre guide complet."
 tags: ["informatique en nuage", "cybersécurité", "confidentialité des données", "conformité", "HIPAA", "PCI DSS", "GDPR", "sauvegarde des données", "reprise après sinistre", "chiffrement", "les contrôles d'accès", "authentification multifactorielle", "surveillance continue", "l'évaluation de la vulnérabilité", "violations de données", "menaces d'initiés", "mauvaise configuration", "perte de données", "fournisseur de cloud", "les mesures de sécurité"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Un nuage de bande dessinée avec un cadenas, représentant l'environnement sécurisé et conforme de l'informatique en nuage en cours de construction dans l'article."
 coverCaption: ""
 ---

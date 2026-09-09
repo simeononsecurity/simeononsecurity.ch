@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las ventajas de utilizar Chocolatey para la gestión de paquetes de Windows: automatice las actualizaciones, ahorre tiempo y garantice la seguridad del sistema."
 tags: ["Gestión de paquetes de Windows", "Chocolate", "actualizaciones de software", "gestor de paquetes", "interfaz de línea de comandos", "actualizaciones automáticas", "mantenimiento programado", "seguridad", "estabilidad", "integración", "normativa gubernamental", "conformidad", "marioneta", "Jefe", "Ansible", "Paquetes NuGet", "DoD STIG", "agilizar la gestión de paquetes", "vulnerabilidades del software", "herramientas de despliegue", "Actualizaciones de Windows", "Actualizaciones de paquetes de Windows", "Gestión del software de Windows", "Gestor de paquetes de Windows", "herramienta de gestión de paquetes", "actualizaciones automáticas de paquetes", "Actualizaciones de seguridad de Windows", "instalación del paquete de software", "Implantación de software Windows", "sistema de gestión de paquetes", "Repositorio de software de Windows", "Caché de software de Windows"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Una colorida ilustración que muestra un logotipo de Windows rodeado de varios iconos de software que representan la gestión optimizada de paquetes y actualizaciones."
 coverCaption: ""
 ---

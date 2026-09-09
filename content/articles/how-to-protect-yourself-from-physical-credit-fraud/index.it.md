@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggervi dallo skimming RFID e a tenere al sicuro i dati della vostra carta di credito con questi semplici consigli."
 tags: ["Scrematura RFID", "protezione della carta di credito", "Portafogli con blocco RFID", "carte di credito con chip", "phishing", "sicurezza informatica", "furto d'identità", "privacy", "pagamenti senza contatto", "pagamenti mobili", "sicurezza finanziaria", "carte intelligenti", "NFC", "crittografia", "protezione dei dati", "Lettori RFID", "Tecnologia RFID", "borseggio elettronico", "tasca silenziosa", "cacciatore-gatto"]
-cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "Illustrazione a fumetti di un ladro che utilizza un dispositivo elettronico per rubare i dati della carta di credito dal portafoglio di una persona."
 coverCaption: ""
 ---

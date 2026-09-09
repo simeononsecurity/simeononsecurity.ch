@@ -6,7 +6,7 @@ date: 2023-07-18
 description: "Dowiedz się, jak zabezpieczyć asystentów głosowych i chronić swoją prywatność dzięki skutecznym strategiom ograniczania obaw o prywatność."
 genre: ["Wiadomości technologiczne", "Prywatność i bezpieczeństwo", "Urządzenia inteligentnego domu", "Cyfrowi asystenci", "Prywatność danych", "Elektronika użytkowa", "Gadżety techniczne", "Internet rzeczy", "Automatyka domowa", "Bezpieczeństwo danych"]
 tags: ["asystenci głosowi", "obawy dotyczące prywatności", "bezpieczeństwo danych", "strategie łagodzące", "inteligentne urządzenia domowe", "asystenci cyfrowi", "polecenia głosowe", "naruszenia danych", "zagrożenia dla prywatności", "nieautoryzowany dostęp", "podsłuch", "przechowywanie danych", "ustawienia prywatności", "ochrona danych", "Integracje stron trzecich", "aktualizacje oprogramowania sprzętowego", "silne hasła", "uwierzytelnianie dwuskładnikowe", "alternatywy dla asystentów głosowych", "edukacja użytkowników", "aktualności technologiczne", "świadomość prywatności", "bezpieczne korzystanie z asystenta głosowego", "ochrona danych osobowych", "automatyka inteligentnego domu", "trendy technologiczne", "prywatność cyfrowa", "elektronika użytkowa", "przepisy dotyczące prywatności danych"]
-cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.png"
+cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.webp"
 coverAlt: "Ilustracja w stylu kreskówki przedstawiająca osobę rozmawiającą z asystentem głosowym, z kłódką symbolizującą prywatność i bezpieczeństwo."
 ---
  Zabezpieczanie asystentów głosowych: Obawy dotyczące prywatności i strategie łagodzenia skutków

@@ -6,7 +6,7 @@ draft: false
 description: "Aflați despre rolul crucial al înghețării creditului în protejarea viitorului dvs. financiar și aflați cum să preluați controlul asupra scorului dvs. de credit."
 genre: ["Înghețarea creditului", "Protecția scorului de credit", "Prevenirea furtului de identitate", "Securitate financiară", "Prevenirea fraudei", "Birouri de credit", "Equifax", "Experian", "TransUnion", "Finanțe personale"]
 tags: ["înghețarea creditului", "scor de credit", "protecția împotriva furtului de identitate", "securitate financiară", "prevenirea fraudei", "birouri de credit", "Equifax", "Experian", "TransUnion", "protejarea scorului de credit", "salvgardarea creditului", "raport de credit", "fraudă de credit", "monitorizarea creditelor", "emitenți de carduri de credit", "înghețarea creditului", "protecția creditului", "raport de credit îngheață", "servicii de monitorizare a creditelor", "viitorul financiar", "importanța înghețării creditului", "cum să înghețe creditul", "procesul de înghețare a creditului", "biroul de credit de securitate îngheață de securitate", "înghețarea rapoartelor de credit", "prevenirea furtului de identitate", "gestionarea scorului de credit", "protejarea informațiilor financiare", "măsuri de securitate împotriva fraudei", "protecția identității financiare"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Un lacăt cu un lanț înfășurat în jurul unui raport de scor de credit, simbolizând protecția și securitatea pe care înghețarea creditului dvs. le oferă împotriva furtului de identitate și a fraudei"
 coverCaption: ""
 ---

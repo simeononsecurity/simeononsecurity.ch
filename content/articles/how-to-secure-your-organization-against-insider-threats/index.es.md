@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las mejores prácticas para proteger a su organización contra las amenazas internas causadas por empleados, contratistas o socios que tienen acceso a datos y sistemas confidenciales."
 tags: ["amenazas internas", "ciberseguridad", "protección de datos", "formación de empleados", "controles técnicos", "controles de acceso", "desarrollo de políticas", "prevención de pérdida de datos", "respuesta a incidentes", "Seguridad informática", "gestión de riesgos", "acceso privilegiado", "concienciación sobre seguridad", "ciberataques", "seguridad de la red", "seguridad de la información", "detección de amenazas", "evaluación de riesgos", "políticas de seguridad", "ciberdelincuencia"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Una imagen de dibujos animados de un empleado con una llave abriendo una puerta etiquetada con datos confidenciales mientras otro empleado con una lupa mira con suspicacia. "
 coverCaption: ""
 ---

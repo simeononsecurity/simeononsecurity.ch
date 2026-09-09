@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "2023年のサイバーセキュリティの脅威のトップを発見し、専門家が推奨する安全な方法を学ぶことができます。"
 tags: ["サイバーセキュリティ", "脅威", "ランサムウェア", "フィッシング", "IoTセキュリティ", "内部脅威", "クラウドセキュリティ", "データバックアップ", "多要素認証", "セキュリティパッチ", "社員教育", "アクセス制御", "バックグラウンドチェック", "データ損失防止", "クラウドプロバイダー", "データあんごうか", "ネットワークセキュリティ", "エンドポイントセキュリティ", "ネットワークモニタリング", "脆弱性スキャン"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "ロック付きのシールドで守られながら、コンピュータシステムに侵入しようとする漫画のハッカー。"
 coverCaption: ""
 ---

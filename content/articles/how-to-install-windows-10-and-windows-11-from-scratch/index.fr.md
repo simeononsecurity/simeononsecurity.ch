@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à télécharger un fichier ISO Windows propre et à installer Windows à partir de zéro grâce à ce guide étape par étape."
 tags: ["Windows 10", "Windows 11", "Fichier ISO", "Installation propre", "Outil de création de médias", "USB amorçable", "Support d'installation", "BIOS", "Firmware UEFI", "Installation sur mesure", "Clé de produit", "Système 64 bits", "Système 32 bits", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "Utilitaire de somme de contrôle MD5 et SHA", "Type de système"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Image de bande dessinée représentant une personne tenant une clé USB portant le logo Windows et une coche, devant un écran d'ordinateur portant le logo Windows."
 coverCaption: ""
 ---

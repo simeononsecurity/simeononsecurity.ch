@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie KI den Bereich der Bedrohungserkennung und -bekämpfung revolutioniert und welche Herausforderungen und Grenzen sie mit sich bringt."
 tags: ["Künstliche Intelligenz", "Cybersecurity", "Erkennung von Bedrohungen", "Reaktion auf Bedrohungen", "Maschinelles Lernen", "Tiefes Lernen", "Verarbeitung natürlicher Sprache", "KI-Algorithmen", "Netzwerksicherheit", "Datensicherheit", "Cyber Defense", "Reaktion auf Vorfälle", "Insider-Bedrohungen", "Sicherheitsteams", "Überwachung in Echtzeit", "Regelbasierte Systeme", "Cyberkriminalität", "Schwachstellen", "Adaptive Sicherheit", "Cyber Resilience"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_with_the_letters_AI_on_it.webp"
 coverAlt: "Ein animiertes 3D-Bild eines Schildes mit den Buchstaben AI, das ankommende Pfeile abblockt, die Cyber-Bedrohungen symbolisieren."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Scoprite come sviluppare una politica di cybersecurity completa che sia in linea con gli standard di settore e i requisiti normativi per proteggere le informazioni sensibili della vostra organizzazione e mitigare i rischi informatici."
 genre: ["Tecnologia", "Sicurezza", "Compliance", "Gestione del rischio", "Protezione dei dati", "Governance dell'informazione", "Risposta agli incidenti", "Continuità aziendale", "Minacce informatiche", "Sviluppo della politica"]
 tags: ["politica di cybersicurezza", "procedure di cybersecurity", "Le migliori pratiche del settore", "gestione del rischio", "Standard NIST", "RMF", "PCI-DSS", "HIPAA", "FISMA", "protezione dei dati", "risposta agli incidenti", "continuità aziendale", "consapevolezza della sicurezza", "conformità normativa", "minacce informatiche", "sicurezza dei dati", "Governance IT", "sicurezza della rete", "sicurezza delle informazioni", "controlli di sicurezza", "sviluppare una politica di cybersecurity", "procedure complete di cybersecurity", "quadro di riferimento per la cybersecurity", "regolamenti sulla cybersicurezza", "mitigazione del rischio di cybersecurity", "pianificazione della risposta agli incidenti", "prevenzione delle violazioni dei dati", "formazione sulla sicurezza dei dipendenti", "gestione della conformità alla cybersecurity", "privacy e protezione dei dati"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "Un'illustrazione a fumetti raffigurante uno scudo che protegge un server di rete dalle minacce informatiche."
 coverCaption: "Proteggere la rete: Difendersi dalle minacce informatiche con politiche efficaci"
 ---

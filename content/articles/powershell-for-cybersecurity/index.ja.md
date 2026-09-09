@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "自動化と合理化されたプロセスにより、サイバーセキュリティの運用を強化し、業界標準へのコンプライアンスを達成するためのPowerShellの力を探求してください。"
 tags: ["パワーシェル", "サイバーセキュリティ", "オペレーション", "コンプライアンス", "オートメーション", "STIG SRGの要件", "NSACyberガイダンス", "ウィンドウズ・システムズ", "ブルーチーム・ディフェンス", "スクリプト", "ツール", "Cシャープのプロジェクト"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "コンピューターサーバーやネットワークケーブルを背景にキーボードを打つ人が、サイバーセキュリティの運用やコンプライアンスにPowerShellを活用する様子を表現しています。"
 coverCaption: ""
 ---

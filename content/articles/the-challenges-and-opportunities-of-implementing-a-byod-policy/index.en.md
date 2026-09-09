@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the benefits, challenges, and best practices for implementing a BYOD policy in your organization."
 tags: ["BYOD policy", "bring-your-own-device", "mobile device management", "productivity", "security risks", "cost savings", "employee training", "security protocols", "data encryption", "technical support", "work-related tasks", "job satisfaction", "company policies", "remote wiping", "MDM software", "employee devices", "security measures", "device usage", "compliance", "appropriate use"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "A cartoon image of a person juggling various personal devices (laptop, smartphone, tablet) and work-related items (documents, coffee cup)"
 coverCaption: ""
 ---

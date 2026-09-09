@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a prevenir los ataques de ingeniería social y a proteger la información confidencial de su organización con formación para empleados, políticas de seguridad y mucho más."
 tags: ["ingeniería social", "ciberseguridad", "prevención", "formación de empleados", "políticas de seguridad", "autenticación multifactor", "antivirus", "seguridad física", "normativa gubernamental", "FISMA", "HIPAA", "protección de datos", "amenazas cibernéticas", "seguridad de la red", "seguridad de la información", "información sensible", "ciberdelincuencia", "conformidad", "estrategia de ciberseguridad", "seguridad de los datos"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Un hacker intenta atraer a una persona con una caña de pescar, mientras que un escudo y un candado simbolizan la ciberseguridad."
 coverCaption: ""
 ---

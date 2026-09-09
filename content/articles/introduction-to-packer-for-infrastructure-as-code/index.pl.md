@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak używać Packera do tworzenia obrazów maszyn, które są łatwe do utrzymania i bezpieczne."
 tags: ["Pakowacz", "Infrastruktura jako kod", "DevOps", "Automatyka", "Bezpieczeństwo", "Powtarzalność", "Skalowalność", "Multi-Platforma", "Kontrola wersji", "Chmura obliczeniowa", "Obrazy maszyn", "Wirtualizacja", "Zarządzanie konfiguracją", "Ciągła integracja", "Ciągłe dostarczanie", "Rozwój oprogramowania", "Najlepsze praktyki", "Testowanie", "Otwarte źródło", "Multi-Cloud"]
-cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_packer_creating_different_machines.webp"
 coverAlt: "Obraz w stylu kreskówki pakowacza tworzącego różne obrazy maszyn dla wielu platform, z laptopem i chmurami w tle."
 coverCaption: ""
 ---

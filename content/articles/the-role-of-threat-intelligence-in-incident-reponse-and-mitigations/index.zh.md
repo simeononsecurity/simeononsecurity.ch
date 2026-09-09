@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解威胁情报如何通过减轻和应对网络攻击来增强网络安全。"
 tags: ["威胁情报", "事件响应", "网络安全", "缓解", "网络攻击", "数据分析", "信息系统", "风险管理", "脆弱性评估", "检测能力", "安全控制", "战略情报", "战术情报", "业务情报", "威胁状况", "新兴趋势", "安全意识", "数字取证", "网络威胁", "暗网"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: "一幅网络安全团队分析数据和应对攻击的漫画，同时一个放大镜在他们头顶盘旋。"
 coverCaption: ""
 ---

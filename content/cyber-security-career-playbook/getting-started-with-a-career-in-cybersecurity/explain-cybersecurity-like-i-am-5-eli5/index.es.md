@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Una guía completa que explica la ciberseguridad en términos sencillos, destaca su importancia, las prácticas de higiene de la seguridad personal y el papel de los profesionales de la ciberseguridad."
 tags: ["ciberseguridad", "protección digital", "seguridad personal", "amenazas cibernéticas", "profesionales de la ciberseguridad", "phishing", "actualizaciones de software", "contraseñas seguras", "autenticación multifactor", "seguridad en línea", "mundo digital", "ciberataques", "seguridad de la información", "seguridad en internet", "protección de datos", "privacidad en línea", "ciberdefensa", "ciberhigiene", "consejos de seguridad en línea", "cibersensibilización", "cibereducación", "prevención de la ciberdelincuencia", "ciberresiliencia", "prácticas seguras en línea", "privacidad digital", "guía de ciberseguridad", "conceptos básicos de ciberseguridad", "concienciación sobre ciberseguridad", "consejos de ciberseguridad", "buenas prácticas de ciberseguridad", "ciberseguridad para principiantes"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Ilustración de dibujos animados de un superhéroe con un escudo que protege el mundo digital de los piratas informáticos y las ciberamenazas."
 coverCaption: ""
 ---

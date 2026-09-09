@@ -5,7 +5,7 @@ draft: false
 description: "Apreneu a desxifrar els tons DTMF mitjançant el xifrat de nombres primers per resoldre el repte Crypto - Call a HackTheBox."
 tags: ["HackTheBox", "Crypto Challenge", "Tons DTMF", "Xifrat de nombre primer", "Desxifrat", "Resolució de trencaclosques", "Criptografia", "Conversió d'àudio", "Marqueu ABC", "Decode.fr", "WAV", "MP3", "Freqüència", "Tret matemàtic", "Bandera", "Audàcia", "Visualitzador sonor", "Nombres", "Menús de caixers automàtics", "Telèfon de pagament"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Un telèfon de dibuixos animats amb una pantalla verda i un cadenat al damunt, que simbolitza la seguretat i el xifratge, amb tons DTMF representats al fons"
 coverCaption: ""
 ---

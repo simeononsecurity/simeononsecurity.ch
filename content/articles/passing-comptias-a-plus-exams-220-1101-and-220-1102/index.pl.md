@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj wskazówki ekspertów i strategie zdawania egzaminów CompTIA A+, w tym najważniejsze akronimy, wiedzę o sprzęcie i typowe procedury rozwiązywania problemów."
 tags: ["Certyfikacja CompTIA A+", "220-1101", "220-1102", "Przygotowanie do egzaminu", "Certyfikacja IT", "Kariera IT", "Technologia informacyjna", "Strategie rozwiązywania testów", "Wskazówki do nauki", "Umiejętności techniczne", "Techniki rozwiązywania problemów", "Komponenty sprzętowe", "Instalacja oprogramowania", "Koncepcje sieciowe", "Zasady bezpieczeństwa", "Odzyskiwanie danych", "Nauka online"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "Kreskówkowy obraz osoby trzymającej laptopa w otoczeniu różnych elementów sprzętu komputerowego i kabli sieciowych, z bańką myślową wyświetlającą serię akronimów CompTIA A+ i procedur rozwiązywania problemów."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak przeprowadzić dokładną ocenę ryzyka związanego z bezpieczeństwem, aby chronić wrażliwe informacje i zasoby Twojej organizacji."
 tags: ["Ocena ryzyka w zakresie bezpieczeństwa", "Cybersecurity", "Ocena podatności na zagrożenia", "Identyfikacja zagrożeń", "Zarządzanie ryzykiem", "Strategie łagodzenia skutków", "Bezpieczeństwo fizyczne", "Bezpieczeństwo informacji", "Ochrona majątku", "Ochrona danych", "Priorytetyzacja ryzyka", "Protokoły bezpieczeństwa", "Systemy informatyczne", "Szkolenie pracowników", "Przegląd oceny ryzyka", "Zagrożenia wewnętrzne", "Zagrożenia zewnętrzne", "Zagrożenia bezpieczeństwa", "Zapobieganie naruszeniom danych", "Analiza ryzyka"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Kreskówkowa tarcza chroniąca laptopa i aktywa fizyczne z lupą identyfikującą zagrożenia."
 coverCaption: ""
 ---

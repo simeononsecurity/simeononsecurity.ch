@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-19
 description: "Migliorate le vostre competenze in materia di sicurezza informatica con le unità di formazione continua (CEU) per essere sempre un passo avanti alle minacce informatiche e proteggere le risorse critiche."
 tags: ["CEU in sicurezza informatica", "Unità di formazione continua", "sviluppo professionale della cybersicurezza", "progressi della tecnologia di rete", "mitigazione delle minacce informatiche", "competenza professionale", "conformità alla certificazione", "conferenze sulla cybersicurezza", "corsi di formazione pertinenti", "condivisione delle conoscenze", "pubblicazione di articoli sulla sicurezza informatica", "volontariato nella cybersicurezza", "coinvolgimento nello sviluppo degli esami", "Quadro di sicurezza informatica NIST", "GDPR compliance", "Regolamenti HIPAA", "Requisiti FISMA", "apprendimento continuo nella cybersecurity", "battaglia digitale", "potenziamento delle competenze di cybersecurity", "panorama delle minacce informatiche", "credibilità professionale", "regolamenti governativi sulla cybersicurezza", "rimanere aggiornati sulla sicurezza informatica", "tendenze del settore della cybersicurezza", "Le migliori pratiche di cybersicurezza", "forza lavoro nella cybersecurity", "sicurezza del mondo digitale", "tattiche dei criminali informatici", "minacce informatiche in evoluzione"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_with.webp"
 coverAlt: "Illustrazione a fumetti di un professionista della sicurezza informatica con uno scudo per difendersi da uno sciame di virus digitali."
 coverCaption: "Difendere e conquistare il regno digitale con l'apprendimento continuo."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Poznaj najlepsze praktyki i narzędzia do zarządzania flotą górników o małej mocy, w tym remote.it, ngrok, OpenVPN, WireGuard i inne."
 tags: ["górnicy o małej mocy", "zdalny dostęp", "bezpieczeństwo sieci", "openvpn", "wireguard", "snort", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Karykaturalny obraz wielu górników o małej mocy podłączonych do koncentratora sieciowego z narzędziami omawianymi w artykule."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-09
 description: "Découvrez les menaces liées aux ransomwares et les mesures préventives que vous pouvez prendre pour vous en protéger."
 tags: ["ransomware", "cybersécurité", "la prévention", "sauvegarde", "antivirus", "VPN", "authentification multifactorielle", "les réglementations gouvernementales", "hameçonnage", "ingénierie sociale", "logiciels malveillants", "cybercriminalité", "la sécurité des données", "sécurité des réseaux", "cyberattaque", "chiffrement", "cyber hygiène", "incident response", "protection des données", "cyber sensibilisation"]
-cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.png"
+cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
 coverAlt: "Un ordinateur entouré d'un cadenas et d'une chaîne, symbolisant le cryptage des données par un ransomware."
 coverCaption: ""
 ---

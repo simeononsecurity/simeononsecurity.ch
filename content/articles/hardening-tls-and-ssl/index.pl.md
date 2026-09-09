@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "W artykule omówiono kroki mające na celu zwiększenie bezpieczeństwa danych poprzez wyłączenie w systemach Windows i Linux starszych wersji protokołów SSL i TLS, które są podatne na cyberzagrożenia, takie jak POODLE, BEAST i Heartbleed."
 tags: ["Wzmocnienie bezpieczeństwa komputerowego", "Wyłączenie SSL i TLS", "Bezpieczeństwo danych", "POODLE", "BEAST", "Heartbleed", "Edytor rejestru Windows", "Konfiguracja OpenSSL w systemie Linux", "Apache", "Nginx"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "Komputer z symbolem kłódki symbolizującym bezpieczeństwo danych"
 coverCaption: ""
 ---

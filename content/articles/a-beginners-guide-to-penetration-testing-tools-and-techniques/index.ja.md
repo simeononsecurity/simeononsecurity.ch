@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "侵入テストのツールやテクニック、方法論、認定資格のエッセンスを学び、サイバーセキュリティのキャリアをスタートさせましょう。"
 tags: ["侵入テスト", "サイバーセキュリティ", "倫理的ハッキング", "用具", "取り口", "ビギナーズガイド", "エヌマップ", "メタスプロイト", "ワイヤシャーク", "バープスイート", "オーエスティーエムエム", "ピーティーエス", "オワスプ", "シーイーエイチ", "オーエスシーピー", "ジーペン", "セキュリティテスト", "脆弱性評価", "ネットワークセキュリティ", "情報セキュリティ"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "バラクラバを被り虫眼鏡を持った漫画のハッカーが、Nmap、Metasploit、Wireshark、Burp Suiteなど様々なハッキングテストツールを表示したコンピュータ画面を調べ、背景には安全なシステムを象徴するデジタルロックが表示されています。"
 coverCaption: ""
 ---

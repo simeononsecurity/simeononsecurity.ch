@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i fattori essenziali da considerare nella scelta di un gestore di password e scoprite perché Bitwarden e KeePassXC sono le opzioni consigliate"
 tags: ["gestore di password", "scegliere il gestore di password", "Bitwarden", "KeePassXC", "sicurezza online", "sicurezza della password", "gestione delle password", "password forti", "password uniche", "violazioni dei dati", "crittografia", "compatibilità multipiattaforma", "sincronizzazione della password", "backup", "interfaccia utente", "generatore di password", "2FA", "crittografia end-to-end", "architettura a conoscenza zero", "open-source", "condivisione sicura delle password", "tipo automatico", "supporto per l'attacco", "plugin", "Raccomandazioni per i gestori di password", "Confronto tra i gestori di password", "Consigli per la sicurezza delle password", "Caratteristiche del gestore di password", "Vantaggi del gestore di password", "download del gestore di password"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "Illustrazione colorata di una persona con in mano una chiave e uno scudo, che rappresenta la sicurezza e la protezione delle password."
 coverCaption: ""
 ---

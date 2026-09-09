@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez la formation complète et les défis pratiques proposés par la Hackthebox Academy pour libérer votre potentiel en matière de cybersécurité et améliorer vos compétences."
 genre: ["Formation à la cybersécurité", "Laboratoires pratiques", "Exercices pratiques", "Parcours d'apprentissage", "Collaboration communautaire", "Compétences en cybersécurité", "Plateforme en ligne", "Scénarios du monde réel", "Tutoriels et documentation", "Abonnement Premium"]
 tags: ["académie hackthebox", "formation à la cybersécurité", "laboratoires pratiques", "exercices pratiques", "parcours d'apprentissage", "collaboration communautaire", "compétences en matière de cybersécurité", "plateforme en ligne", "scénarios du monde réel", "tutoriels et documentation", "abonnement premium", "hackthebox academy login", "coût de l'académie hackthebox", "prix de l'académie hackthebox", "site web de l'académie hackthebox", "caractéristiques de l'académie hackthebox", "les défis de la cybersécurité", "sécurité des réseaux", "sécurité des applications web", "cryptographie", "tests de pénétration", "ingénierie inverse", "criminalistique numérique", "communauté de la cybersécurité", "les passionnés de cybersécurité", "cybermenaces", "expertise en matière de cybersécurité", "prix de l'académie hackthebox", "les réglementations gouvernementales"]
-cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.png"
+cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.webp"
 coverAlt: "Un groupe d'individus divers travaillant ensemble pour résoudre les problèmes de cybersécurité à l'Académie Hackthebox."
 coverCaption: "Libérez votre potentiel en matière de cybersécurité avec Hackthebox Academy !"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come creare un sistema Windows sicuro e conforme con lo Standalone-Windows-STIG-Script, un articolo informativo con istruzioni passo-passo e spiegazioni dettagliate dei parametri."
 tags: ["Script STIG", "Sicurezza di Windows", "Sistema Windows conforme", "Tempra del sistema", "Windows STIG", "Finestre sicure", "Conformità a Windows", "Installazione manuale", "Aggiornamenti di Windows", "Adobe Reader", "Firefox", "Cromo", "Internet Explorer 11", "Quadro .NET", "Ufficio", "OneDrive", "Java", "Windows Defender", "Firewall di Windows", "Mitigazioni", "PID di Nessus", "VMware Horizon", "Tempra opzionale"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "Un'immagine della schermata di un computer con una barra di avanzamento che indica la percentuale di completamento."
 coverCaption: ""
 ---

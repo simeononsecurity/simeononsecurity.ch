@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les exigences, les avantages et les perspectives de carrière des certifications en cybersécurité dans les secteurs gouvernementaux et militaires."
 tags: ["Cybersécurité", "Certifications", "Gouvernement", "Militaire", "Parcours professionnel", "Sécurité de l'information", "Défense", "Habilitation de sécurité", "Conformité", "Règlements", "Cybercriminalité", "Cybermenaces", "Audit informatique", "Risk Management", "CISSP", "CISM", "Sécurité", "CEH", "PAC", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Image stylisée d'un bouclier gouvernemental ou militaire avec des serrures et des clés numériques en arrière-plan."
 coverCaption: ""
 ---

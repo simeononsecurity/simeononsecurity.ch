@@ -6,7 +6,7 @@ draft: false
 description: "Een onafhankelijke analyse van Flock Safety ALPR-camera's: hoe ze werkelijk functioneren, welke gegevens ze verzamelen buiten kentekenplaten, hoe gegevensdeling een schaduwdatabase op nationaal niveau creëert, en waarom de kwestie van het bevel de echte kernvraag is."
 genre: ["Privacy", "Bewaking", "Burgerlijke vrijheden", "Technologie voor rechtshandhaving", "Digitale rechten"]
 tags: ["Flock Safety", "ALPR", "license plate readers", "surveillance", "privacy", "warrantless surveillance", "convoy analysis", "Bluetooth tracking", "TPMS tracking", "data sharing", "Ring cameras", "Fourth Amendment", "nothing to hide", "LPR accuracy", "wrongful accusation", "MFA", "law enforcement technology", "civil liberties", "data minimization", "DeFlock", "counter-surveillance", "public safety", "police surveillance", "privacy rights", "Fourth Amendment", "digital surveillance", "mass surveillance", "license plate recognition", "camera networks", "data retention"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Een donker straatkruispunt verlicht door een bewakingscamera op een paal, met kentekengegevens die over passerende auto's worden weergegeven."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

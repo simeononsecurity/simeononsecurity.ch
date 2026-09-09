@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "フォントの使用法、履歴書の種類、キーワードの最適化、ギャップの処理、レイアウトの最適化など、効果的な履歴書を作成するためのベスト プラクティスを学びます。"
 tags: ["履歴書を書く", "履歴書のヒント", "フォントの使用法", "履歴書の構造", "履歴書の種類", "時系列の履歴書", "職務経歴書", "組み合わせ履歴書", "キーワードの最適化", "履歴書の参考文献", "履歴書ステートメント", "解雇の処理", "履歴書の空白部分に対処する", "履歴書の卒業年", "認証のリスト", "履歴書のレイアウト", "簡潔な履歴書", "履歴書の空白", "カスタマイズを再開する", "職務経歴書"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "履歴書を最適化する際の細部へのこだわりを象徴する、履歴書を虫眼鏡で持っている人を示すカラフルな漫画の画像。"
 coverCaption: ""
 ---

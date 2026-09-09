@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Anforderungen, Vorteile und Karrieremöglichkeiten für Cybersecurity-Zertifizierungen im staatlichen und militärischen Bereich."
 tags: ["Cybersecurity", "Zertifizierungen", "Regierung", "Militär", "Beruflicher Werdegang", "Informationssicherheit", "Verteidigung", "Sicherheitsfreigabe", "Einhaltung der Vorschriften", "Verordnungen", "Cyberkriminalität", "Cyber-Bedrohungen", "IT-Audit", "Risk Management", "CISSP", "CISM", "Sicherheit+", "CEH", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Ein stilisiertes Bild eines Regierungs- oder Militärschildes mit digitalen Schlössern und Schlüsseln im Hintergrund."
 coverCaption: ""
 ---

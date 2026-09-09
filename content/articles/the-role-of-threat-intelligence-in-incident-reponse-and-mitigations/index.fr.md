@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez comment la veille sur les menaces renforce la cybersécurité en atténuant les cyberattaques et en y répondant."
 tags: ["Renseignements sur les menaces", "Réponse aux incidents", "Cybersécurité", "Atténuation", "Cyber-attaques", "Analyse des données", "Systèmes d'information", "Risk Management", "Évaluation de la vulnérabilité", "Capacités de détection", "Contrôles de sécurité", "Intelligence stratégique", "Renseignement tactique", "Intelligence opérationnelle", "Paysage des menaces", "Tendances émergentes", "Sensibilisation à la sécurité", "Criminalistique numérique", "Cybermenaces", "Dark Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Dessin humoristique d'une équipe de cybersécurité analysant des données et réagissant à une attaque, tandis qu'une loupe plane au-dessus d'eux."
 coverCaption: ""
 ---

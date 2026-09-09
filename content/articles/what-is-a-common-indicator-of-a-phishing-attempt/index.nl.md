@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Een uitgebreide gids over het herkennen van veelvoorkomende indicatoren van phishingpogingen en praktische tips om veilig online te blijven."
 tags: ["pogingen tot phishing", "gemeenschappelijke indicatoren", "phishing-zwendel", "online veiligheid", "cyberbeveiliging", "verdachte e-mailadressen", "dringende taal", "grammaticafouten", "spelfouten", "verdachte URL's", "verzoeken om persoonlijke informatie", "onverwachte bijlagen", "veilig online blijven", "software-updates", "twee-factor authenticatie", "wachtwoordbeveiliging", "online oplichting", "phishing-technieken", "cyberdreigingen", "phishing-bewustzijn", "phishing herkennen", "phishing preventie", "bescherming tegen phishing", "tips voor phishing", "phishing detectie", "phishing-bewustzijnstraining", "phishing e-mail", "phishing-bewustmakingscampagne", "voorlichting over phishing", "beste praktijken op het gebied van phishing", "wat is een algemene indicator van een phishing-poging?"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "Een cartoonbeeld van een persoon die een verdachte e-mail ontvangt en sceptisch kijkt."
 coverCaption: ""
 ---

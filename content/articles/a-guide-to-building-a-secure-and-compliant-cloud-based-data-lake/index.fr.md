@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ce guide complet présente les meilleures pratiques en matière de sécurité et de conformité lors de la planification, de la création et de la gestion de lacs de données basés sur le cloud."
 tags: ["lac de données", "sécurité des nuages", "règles de conformité", "les contrôles d'accès", "chiffrement", "AWS", "Azure", "HIPAA", "GDPR", "contrôle", "rapiéçage", "cybersécurité", "Solution SIEM", "Équipes d'assistance informatique", "paysage des menaces", "migration dans le nuage", "gouvernance du cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Une image de dessin animé représentant un château gardé par un chevalier guerrier, symbolisant le concept de protection forte pour un stockage en nuage sécurisé et conforme"
 coverCaption: ""
 ---

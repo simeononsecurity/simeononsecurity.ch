@@ -4,7 +4,7 @@ draft: false
 description: "Apprenez à utiliser un outil d'attaque RSA automatisé, RsaCtfTool, pour résoudre facilement le défi HackTheBox Weak RSA Crypto."
 tags: ["HackTheBox", "Défis", "Crypto", "RSA faible", "Outil RsaCtf", "Chiffrement RSA faible HTB", "Défi facile", "chiffrement RSA", "flag.enc", "key.pub", "Paquet OpenSSL", "outil d'attaque RSA automatisé", "script python", "Outil RsaCtf", "python3", "Clé publique", "déchiffrerfichier", "Exemple de drapeau"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "Un hacker de dessin animé portant une cape et un masque, debout devant une porte de coffre-fort avec le logo HTB dessus et tenant un outil (comme une clé ou un tournevis) avec un fond vert symbolisant le succès et le drapeau dans une bulle au-dessus leur tête."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de kracht van PowerShell bij het verbeteren van cyberbeveiligingsactiviteiten en het voldoen aan industrienormen door middel van automatisering en gestroomlijnde processen."
 tags: ["PowerShell", "Cyberbeveiliging", "Operaties", "Naleving", "Automatisering", "STIG SRG Vereisten", "NSACyber begeleiding", "Windows Systemen", "Blauw team verdediging", "Scripts", "Gereedschap", "C Sharp projecten"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Een persoon die op een toetsenbord typt met een achtergrond van computerservers en netwerkkabels, die het gebruik van PowerShell voor cyberbeveiligingsoperaties en -naleving voorstelt."
 coverCaption: ""
 ---

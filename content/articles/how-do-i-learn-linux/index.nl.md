@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Deze gids geeft een overzicht van hoe u aan de slag kunt met Linux, inclusief tips voor het leren van zowel Debian als RHEL-gebaseerde varianten van Linux."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Rode Hoed", "Besturingssysteem", "Open Bron", "Systeembeheer", "Commando's", "Terminal", "Gemeenschap", "Onderneming", "Professioneel", "Leren", "Netwerken", "Beveiliging", "Aanpassing", "Stabiliteit", "Flexibiliteit"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Een cartoon afbeelding van een pinguïn met een afstudeercap, die een diploma vasthoudt en voor een computer staat met een Linux desktop omgeving op de achtergrond."
 coverCaption: ""
 ---

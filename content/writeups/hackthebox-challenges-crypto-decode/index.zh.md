@@ -5,7 +5,7 @@ draft: false
 description: "了解如何解码 Fernet 和 Malboge 密码以解决 HackTheBox 加密挑战并揭开隐藏的旗帜。"
 tags: ["破解盒子", "挑战", "加密货币", "解码", "写上去", "费内特密码", "马尔博格密码", "对称加密", "网络安全", "密码学", "渗透测试", "Python", "安全", "挑战", "周大福", "旗帜", "加密", "解密", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "一位卡通黑客站在一把大锁旁边，一只手拿着 Fernet 标志钥匙，另一只手拿着 Malboge 标志钥匙，锁内有一面旗帜"
 coverCaption: ""
 ---

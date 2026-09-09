@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie ein sicheres und stabiles VPN für Ihre externen Mitarbeiter einrichten, um einen sicheren Zugriff auf Unternehmensressourcen zu gewährleisten."
 tags: ["VPN", "Fernarbeit", "Unternehmens-VPN", "Netzwerksicherheit", "Verschlüsselung", "Tunneling-Protokolle", "VPN-Einrichtung", "VPN-Server", "VPN-Sicherheit", "VPN-Wartung", "VPN-Überwachung", "VPN-Lösung", "Authentifizierung", "Datensicherheit", "Datenschutz", "Leistung", "Skalierbarkeit", "Kompatibilität", "Mitarbeiterschulung", "beste Praktiken"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "Ein animiertes 3D-Bild, das einen sicheren Tunnel zeigt, der den Laptop eines Außendienstmitarbeiters mit einem Firmengebäude verbindet und die VPN-Verbindung symbolisiert. Ein Schildsymbol schwebt über dem Tunnel und steht für Sicherheit und Ausfallsicherheit."
 coverCaption: ""
 ---

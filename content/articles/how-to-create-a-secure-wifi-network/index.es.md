@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Aprenda a crear una red Wi-Fi segura para proteger sus datos y garantizar una experiencia en línea segura."
 tags: ["red Wi-Fi segura", "Seguridad Wi-Fi", "cifrado de red", "Contraseña Wi-Fi", "actualizaciones del firmware del router", "protección firewall", "gestión remota desactivada", "login por defecto del router", "Filtrado de direcciones MAC", "desactivar WPS", "red de invitados", "supervisar la actividad de la red", "seguridad en línea", "protección de datos", "privacidad de la red", "ciberseguridad", "red inalámbrica", "seguridad en internet", "salvaguardias de la red", "vulnerabilidad de la red"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Un escudo que protege la señal Wi-Fi de los piratas informáticos."
 coverCaption: ""
 ---

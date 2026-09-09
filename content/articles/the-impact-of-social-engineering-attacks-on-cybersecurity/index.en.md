@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to defend against social engineering attacks and protect your data from cybercriminals in this informative article."
 tags: ["cybersecurity", "social engineering", "phishing scams", "multifactor authentication", "security updates", "password security", "web security", "data breaches", "IT security", "identity theft", "fraud prevention", "espionage prevention", "technical security", "physical security", "information security", "cybercrime prevention", "intrusion detection", "security patches", "employee training", "data protection"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "A cartoon shield with a padlock in the center, representing the idea of defending against social engineering attacks in cybersecurity"
 coverCaption: ""
 ---

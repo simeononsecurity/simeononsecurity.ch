@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-30
 description: "Unlock valuable networking tips to secure your dream job in cybersecurity, connecting with professionals and discovering hidden opportunities."
 tags: ["cybersecurity", "networking", "job search", "career advice", "LinkedIn", "conferences", "online platforms", "cybersecurity communities", "professional associations", "open source projects", "CTF competitions", "industry insights", "cybersecurity trends", "skills development", "professional network expansion", "job opportunities", "certifications", "elevator pitch", "online forums", "industry professionals", "digital age", "networking tips", "landing a job", "cybersecurity job market", "effective LinkedIn profile", "cybersecurity conferences", "online networking platforms", "engaging in communities", "professional networking strategies", "breaking into cybersecurity"]
-cover: "/img/cover/A_group_of_professionals_in_a_virtual_meeting_discussing_cy.png"
+cover: "/img/cover/A_group_of_professionals_in_a_virtual_meeting_discussing_cy.webp"
 coverAlt: "A group of professionals in a virtual meeting discussing cybersecurity strategies."
 coverCaption: "Connecting minds, unlocking possibilities - mastering cybersecurity networking."
 ---

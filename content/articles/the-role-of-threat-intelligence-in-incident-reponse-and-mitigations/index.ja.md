@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "脅威インテリジェンスがサイバー攻撃を緩和し、対応することでサイバーセキュリティを強化することを学びます。"
 tags: ["スレットインテリジェンス", "インシデントレスポンス", "サイバーセキュリティ", "ミティゲーション", "サイバー攻撃", "データ分析", "情報システム", "リスクマネジメント", "脆弱性評価（Vulnerability Assessment", "検出能力", "セキュリティ・コントロール", "ストラテジック・インテリジェンス", "タクティカルインテリジェンス", "オペレーショナルインテリジェンス", "スレットランドスケープ", "新たな潮流", "セキュリティ意識", "デジタルフォレンジック", "サイバー脅威", "ダークウェブ"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: "サイバーセキュリティチームが虫眼鏡で覆われながら、データを分析し、攻撃に対応している様子を描いた漫画です。"
 coverCaption: ""
 ---

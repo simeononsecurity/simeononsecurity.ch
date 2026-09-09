@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Aprenda a aplicar parches de seguridad para servidores vulnerables con las mejores prácticas y evite ataques malintencionados."
 tags: ["Seguridad del servidor", "Gestión de vulnerabilidades", "Gestión de parches", "Ciberseguridad", "Parcheado de servidores", "Panorama de las amenazas", "Pruebas de penetración", "Actualizaciones de seguridad", "Parches de software", "Seguridad informática", "Protección de datos", "Seguridad del sistema", "Gestión de riesgos", "Políticas de seguridad", "Entornos de ensayo", "Vulnerabilidades del software", "Parches críticos", "Parches para vendedores", "Boletines de seguridad", "Seguridad de la información"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Una imagen de dibujos animados de una persona que sostiene un escudo y monta guardia delante de una sala de servidores para representar la protección y seguridad que proporciona la aplicación de parches."
 coverCaption: ""
 ---

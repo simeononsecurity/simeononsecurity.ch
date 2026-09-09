@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Padroneggiate i permessi dei file di Linux per garantire un file system sicuro con questa guida completa che copre la proprietà, il controllo degli accessi e le migliori pratiche."
 tags: ["Permessi dei file di Linux", "sistema di file sicuro", "controllo degli accessi", "proprietà", "Guida ai permessi dei file", "Sicurezza di Linux", "sicurezza del file system", "comando chmod", "comando chown", "controllo dei permessi dei file", "Principio del minor privilegio", "conformità normativa", "GDPR", "HIPAA", "verifica dei permessi dei file", "documentare le normative", "sicurezza del sistema", "sicurezza della rete", "crittografia", "gestione degli utenti"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Un'immagine in stile fumetto che raffigura un archivio chiuso a chiave con diverse chiavi che rappresentano le autorizzazioni di utenti, gruppi e altri."
 coverCaption: ""
 ---

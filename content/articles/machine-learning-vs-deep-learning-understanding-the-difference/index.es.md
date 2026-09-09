@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las diferencias entre el aprendizaje automático y el aprendizaje profundo, dos potentes ramas de la IA con características y aplicaciones únicas."
 tags: ["aprendizaje automático", "aprendizaje profundo", "inteligencia artificial", "AI", "ciencia de datos", "algoritmo", "redes neuronales", "ingeniería de funciones", "datos no estructurados", "árboles de decisión", "regresión logística", "datos etiquetados", "datos no etiquetados", "recursos informáticos", "detección del fraude", "sistemas de recomendación", "mantenimiento predictivo", "reconocimiento de imágenes", "procesamiento del lenguaje natural", "descubrimiento de fármacos", "aplicaciones empresariales", "complejidad del algoritmo", "representación de datos", "normativa gubernamental", "visión por ordenador", "reconocimiento facial", "chatbots", "traducción de idiomas", "modelos de formación", "análisis predictivo"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Ilustración de dibujos animados que muestra un algoritmo de aprendizaje automático y una red neuronal de aprendizaje profundo enzarzados en una competición amistosa."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Discover the importance of monitoring environmental factors, such as temperature and humidity, the impact of flooding on networks, the significance of baselines in network monitoring, an overview of NetFlow data analysis, and techniques for tracking network uptime and downtime with the Network Plus Course."
 genre: ["CompTIA Network Plus Certification", "Network Monitoring", "Environmental Monitoring", "Flooding Impact", "Baselines in Network Monitoring", "NetFlow Data Analysis", "Network Uptime Tracking", "Network Downtime Tracking", "Network Performance", "Disaster Recovery"]
 tags: ["CompTIA Network Plus certification", "network monitoring", "environmental factors", "temperature monitoring", "humidity monitoring", "electrical conditions", "flooding impact", "disaster recovery plans", "baselines in network monitoring", "NetFlow data analysis", "tracking network uptime", "tracking network downtime", "ping monitoring", "SNMP monitoring", "syslog monitoring", "network performance optimization", "PRTG Network Monitor", "SolarWinds NetFlow Traffic Analyzer", "Zabbix", "Nagios", "network infrastructure", "network reliability", "hardware failure", "performance degradation", "network traffic patterns", "network connectivity", "security breaches", "network availability", "ICMP Echo requests", "network metrics"]
-cover: "/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.png"
+cover: "/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.webp"
 coverAlt: "A symbolic cartoon illustration of a network server with environmental sensors measuring temperature, humidity, and electrical conditions"
 coverCaption: "Network health is the key to success!"
 ---

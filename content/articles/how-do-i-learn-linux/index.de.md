@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser Leitfaden bietet einen Überblick über die ersten Schritte mit Linux, einschließlich Tipps zum Erlernen der Debian- und RHEL-basierten Varianten von Linux."
 tags: ["Linux", "Debian", "Ubuntu", "CentOS", "RHEL", "Roter Hut", "Betriebssystem", "Offene Quelle", "Systemverwaltung", "Befehle", "Terminal", "Gemeinschaft", "Unternehmen", "Professionell", "Lernen", "Vernetzung", "Sicherheit", "Personalisierung", "Stabilität", "Flexibilität"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "Ein Cartoon-Bild eines Pinguins mit einer Abschlussmütze, der ein Diplom in der Hand hält und vor einem Computer mit einer Linux-Desktop-Umgebung im Hintergrund steht."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "Apprenez à contourner le BGW-320 et à utiliser un ONT COTS fabriqué par Azores pour vous connecter au réseau de votre FAI grâce à ce guide facile à suivre."
 tags: ["COTS ONT", "BGW-320", "Açores", "fibre", "réseau", "XGS-PON", "Ethernet", "Passage IP", "personnalisation", "FAI", "ont ID", "Adresse MAC", "ID de l'équipement", "image version", "version du matériel", "telnet", "Application CLI", "interface graphique web", "mode de configuration d'usine", "problèmes de compatibilité"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Un technicien en dessin animé tenant un ONT COTS avec un câble en fibre optique en arrière-plan."
 coverCaption: ""
 ---

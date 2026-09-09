@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "組織の機密情報や資産を守るために、徹底したセキュリティリスク評価を実施する方法をご紹介します。"
 tags: ["セキュリティリスクアセスメント", "サイバーセキュリティ", "脆弱性評価", "脅威の識別", "リスクマネジメント", "緩和策", "物理的なセキュリティ", "情報セキュリティ", "資産保護", "データ保護", "リスクの優先順位付け", "セキュリティプロトコル", "ITシステム", "社員教育", "リスクアセスメントの見直し", "内部脅威", "外部からの脅威", "セキュリティ上の脅威", "情報漏えい対策", "リスク分析"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "ノートパソコンや物理的な資産を保護するマンガの盾と、リスクを特定する虫眼鏡。"
 coverCaption: ""
 ---

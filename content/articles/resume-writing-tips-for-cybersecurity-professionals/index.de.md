@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Verbessern Sie Ihre Chancen, Ihren Traumjob zu bekommen, mit diesen Tipps von Experten für das Verfassen von Lebensläufen für Fachleute aus den Bereichen Cybersicherheit, Softwareentwicklung und IT."
 tags: ["Tipps zum Schreiben von Lebensläufen", "Cybersicherheitsfachleute", "Software-Entwicklung", "IT-Fachleute", "Stellensuche", "Karriereberatung", "technische Fähigkeiten", "Projekt-Highlights", "Bewusstsein für Cybersicherheit", "Problemlösungskompetenz", "Branchentrends", "berufliche Entwicklung", "Einhaltung der GDPR", "CCPA-Verordnungen", "Stellenmarkt", "Lebenslaufoptimierung", "Stellenbewerbung", "Lebenslauf-Tipps", "Strategien zur Arbeitssuche", "berufliches Fortkommen"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Eine Illustration im Cartoon-Stil einer Person, die einen Lebenslauf in der Hand hält, umgeben von Cybersicherheitssymbolen und Codeschnipseln."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Eine unabhängige Analyse der ALPR-Kameras von Flock Safety: wie sie tatsächlich funktionieren, welche Daten sie über Kennzeichen hinaus erfassen, wie die Datenweitergabe eine schattenhafte nationale Datenbank schafft und warum die Frage des Durchsuchungsbefehls das eigentliche Problem ist."
 genre: ["Datenschutz", "Überwachung", "Bürgerrechte", "Strafverfolgungstechnologie", "Digitale Rechte"]
 tags: ["Flock Safety", "ALPR", "Kennzeichenleser", "Überwachung", "Datenschutz", "anlasslose Überwachung", "Konvoi-Analyse", "Bluetooth-Tracking", "TPMS-Tracking", "Datenweitergabe", "Ring-Kameras", "Vierter Zusatzartikel", "nichts zu verbergen", "LPR-Genauigkeit", "falsche Anschuldigung", "MFA", "Strafverfolgungstechnologie", "Bürgerrechte", "Datensparsamkeit", "DeFlock", "Gegenüberwachung", "öffentliche Sicherheit", "Polizeiüberwachung", "Datenschutzrechte", "Vierter Zusatzartikel", "digitale Überwachung", "Massenüberwachung", "Kennzeichenerkennung", "Kameranetzwerke", "Datenspeicherung"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Eine dunkle Straßenkreuzung, beleuchtet von einer an einem Mast montierten Überwachungskamera, mit überlagerten Kennzeichendaten auf vorbeifahrenden Autos."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

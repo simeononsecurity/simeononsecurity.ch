@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über die rechtlichen und ethischen Aspekte der Cybersicherheit und des Datenschutzes bei der digitalen Transformation."
 tags: ["Cybersecurity", "Datenschutz", "Digitale Transformation", "Datenschutz", "Datenschutz", "Ethik", "Verantwortung", "Transparenz", "Vertrauen", "Datenpanne", "Datenerhebung", "Datensicherheit", "Datenverordnung", "Datenschutzbestimmungen", "Cybersicherheitsgesetze", "Haftung", "Datenschutzgesetze", "Datenschutzbestimmungen", "Online-Sicherheit", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Ein Cartoonbild eines Vorhängeschlosses, das einen Computer schützt, oder ein Schild mit einem Schlosssymbol, das die Bedeutung von Cybersicherheit und Datenschutz im digitalen Zeitalter symbolisiert."
 coverCaption: ""
 ---

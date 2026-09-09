@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "ソーシャルエンジニアリング、マルウェア、サービス拒否攻撃、パスワード攻撃、Webアプリケーション攻撃など、最も一般的なサイバー攻撃のベクトルから自分と自分のビジネスを守る方法を学ぶ。"
 tags: ["サイバーセキュリティ", "サイバー攻撃", "ソーシャルエンジニアリング", "マルウェア", "ディーオーエス", "パスワード攻撃", "ウェブアプリケーション攻撃", "セキュリティ意識", "スパム・フィルター", "多要素認証", "アンチウイルスソフト", "ファイアウォール", "ボットネット", "シーディーエヌエス", "アンチDDoSサービス", "ネットワークパフォーマンス", "脆弱性", "保護", "リスク軽減", "情報セキュリティ"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "様々な攻撃ベクトルが向かってくるコンピュータの前に、盾を持った人が立っている漫画のイラストです。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Krijg deskundige tips en strategieën voor het slagen voor CompTIA's A+ examens, inclusief essentiële acroniemen, kennis van apparatuur en gemeenschappelijke procedures voor probleemoplossing."
 tags: ["CompTIA A+ certificering", "220-1101", "220-1102", "Examenvoorbereiding", "IT-certificering", "IT Carrière", "Informatie Technologie", "Strategieën voor het maken van toetsen", "Studietips", "Technische vaardigheden", "Technieken voor probleemoplossing", "Hardware Componenten", "Software-installatie", "Netwerkconcepten", "Veiligheidsbeginselen", "Gegevensherstel", "Online leren"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "Een cartoon afbeelding van een persoon die een laptop vasthoudt, omringd door verschillende computer hardware componenten en netwerk kabels, met een gedachte bubbel die een reeks CompTIA A+ acroniemen en probleemoplossing procedures weergeeft."
 coverCaption: ""
 ---

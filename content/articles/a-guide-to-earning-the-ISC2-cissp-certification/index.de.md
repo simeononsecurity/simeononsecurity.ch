@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Schritte zur Vorbereitung und zum Bestehen der CISSP-Prüfung, einer angesehenen Zertifizierung für Informationssicherheitsexperten."
 tags: ["CISSP-Zertifizierung", "Informationssicherheit", "Prüfungsvorbereitung", "Studienplan", "Praxis-Prüfungen", "Cybersicherheit", "berufliche Entwicklung", "Zertifizierungsprüfung", "ISC2", "Karrieremöglichkeiten", "Sicherheitsarchitektur", "Netzwerksicherheit", "Zugangskontrolle", "Risikomanagement", "Verschlüsselung", "Sicherheitsoperationen", "physische Sicherheit", "Geschäftskontinuität", "Notfallwiederherstellung", "Compliance"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die ein CISSP-Zertifikat in der Hand hält, mit einer Gedankenblase, die verschiedene Themen der Informationssicherheit wie Sicherheitsarchitektur, Zugangskontrolle, Verschlüsselung und Netzwerksicherheit zeigt."
 coverCaption: ""
 ---

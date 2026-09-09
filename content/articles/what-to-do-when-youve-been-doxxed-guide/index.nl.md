@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de belangrijkste stappen die je moet nemen als je gedoxxed bent, inclusief het verwijderen van persoonlijke informatie, het versterken van online beveiliging, het melden van het incident, het zoeken naar ondersteuning en het onderzoeken van juridische stappen."
 genre: ["Cyberbeveiliging", "Privacybescherming", "Online veiligheid", "Digitale privacy", "Gegevensbeveiliging", "Bescherming van persoonlijke gegevens", "Preventie van cybercriminaliteit", "Identiteitsdiefstal", "Online intimidatie", "Digitale zelfverdediging"]
 tags: ["doxxing preventie", "reactie op doxxing-incidenten", "bescherming van persoonsgegevens", "online privacy", "online beveiliging", "doxxing melden", "rechtsmiddelen", "cybercriminaliteit", "identiteitsbescherming", "online intimidatie", "gegevensbeveiliging", "privacy-instellingen", "twee-factor authenticatie", "online accounts", "online aanwezigheidsmonitoring", "online veiligheid", "online privacymaatregelen", "tips voor cyberbeveiliging", "ondersteuning na doxxing", "GDPR", "CCPA", "wetshandhaving", "online gemeenschappen", "wetten inzake cyberbeveiliging", "gegevensbeschermingsvoorschriften", "digitale zelfverdediging", "voorzorgsmaatregelen voor online veiligheid", "bescherming van persoonlijke informatie", "richtlijnen voor online privacy"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "Een persoon die zijn persoonlijke informatie beschermt op een schild."
 coverCaption: "Het beschermen van persoonlijke informatie is de sleutel tot digitale zelfverdediging."
 ---

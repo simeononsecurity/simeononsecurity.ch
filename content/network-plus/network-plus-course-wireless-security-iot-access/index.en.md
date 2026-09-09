@@ -6,7 +6,7 @@ draft: false
 description: "Enhance your knowledge of wireless security and IoT access with this comprehensive Network+ course. Learn about MAC filtering, antenna placement, power level configuration, preshared keys, EAP, geofencing, and IoT device security."
 genre: ["CompTIA Network Plus Certification Exam", "Wireless Security", "IoT Access", "MAC Filtering", "Antenna Placement", "Power Levels", "Client Isolation", "Guest Network Isolation", "Preshared Keys", "EAP", "Geofencing", "Captive Portal", "IoT Security", "Wireless Networks", "Cybersecurity", "IT Certification", "Networking Fundamentals", "Information Technology", "Online Learning", "Professional Development"]
 tags: ["CompTIA Network Plus", "Network Plus Course", "Wireless Security", "IoT Access", "MAC Filtering", "Antenna Placement", "Power Levels", "Client Isolation", "Guest Network Isolation", "Preshared Keys", "EAP", "Geofencing", "Captive Portal", "IoT Security", "Wireless Networks", "Cybersecurity", "IT Certification", "Networking Fundamentals", "Online Learning", "Professional Development", "Wireless Network Security", "Wireless Technology", "Network Security Best Practices", "IoT Device Security", "FCC Guidelines", "Network Security Measures", "Wireless Network Optimization", "Wireless Network Performance", "IoT Network Segmentation", "Wireless Network Authentication"]
-cover: "/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.webp"
 coverAlt: "A cartoon illustration of a lock securing a wireless network connection."
 coverCaption: "Unlock the Power of Secure Wireless Networks and IoT Access"
 ---

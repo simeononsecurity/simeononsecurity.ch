@@ -5,7 +5,7 @@ draft: false
 description: "Aprenda a descifrar tonos DTMF utilizando el cifrado de números primos para resolver el desafío Crypto - Call en HackTheBox."
 tags: ["HackTheBox", "Desafío criptográfico", "Tonos DTMF", "Cifrado de números primos", "Descifrado", "Resolver rompecabezas", "Criptografía", "Conversión de audio", "DialABC", "Decode.fr", "WAV", "MP3", "Frecuencia", "Rasgo matemático", "Bandera", "Audacia", "visualizador sónico", "Números", "Menús de cajero automático", "Teléfono público"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Un teléfono de dibujos animados con una pantalla verde y un candado, que simboliza la seguridad y el cifrado, con tonos DTMF representados en el fondo"
 coverCaption: ""
 ---

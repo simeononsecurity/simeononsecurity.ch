@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie in diesem detaillierten Einsteigerhandbuch, wie Sie Wireshark effektiv für die Netzwerkanalyse und Fehlersuche einsetzen können."
 tags: ["Wireshark", "Netzwerkanalyse", "Fehlersuche", "Einsteigerhandbuch", "Netzüberwachung", "Paketerfassung", "Netzwerkprotokolle", "TCP IP", "Datenvisualisierung", "Netzwerksicherheit", "Erfassungsfilter", "Anzeigefilter", "Netzwerkgeräte", "Ethernet", "Netzwerktopologie", "Netzwerkdiagnose", "Netzwerkverwaltung", "Netzleistung", "Wireshark-Tutorial", "Datenpakete"]
-cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_detective_with_a_magnifying_glass.webp"
 coverAlt: "Eine Cartoon-Illustration eines Detektivs mit einem Vergrößerungsglas, der Netzwerkkabel analysiert, während das Wireshark-Logo über ihnen schwebt und den Prozess der Netzwerk-Fehlersuche und -analyse mit Wireshark symbolisiert."
 coverCaption: ""
 ---

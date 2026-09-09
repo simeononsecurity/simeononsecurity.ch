@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u een veilige, compatibele cloudback-upoplossing voor gegevensbescherming kunt bouwen."
 tags: ["cloudback-up", "gegevensherstel", "gegevensbescherming", "compliance", "GDPR", "HIPAA", "FISMA", "cloud service provider", "encryptie", "toegangscontrole", "beveiliging", "voorschriften", "normen", "beste praktijken", "kwetsbaarheidsbeoordeling", "penetratietesten", "audits", "risicobeheer", "schaalbaarheid", "controle"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding van een beveiligde kluis in de wolken, met verschillende regelgevingspictogrammen (GDPR, HIPAA, FISMA) die eromheen zweven en een schild dat de bescherming van gegevens symboliseert."
 coverCaption: ""
 ---

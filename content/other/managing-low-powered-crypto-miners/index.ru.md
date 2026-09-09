@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Изучите лучшие практики и инструменты для управления парком маломощных майнеров, включая remote.it, ngrok, OpenVPN, WireGuard и другие."
 tags: ["маломощные майнеры", "удаленный доступ", "сетевая безопасность", "опенвпн", "проволока", "фыркать", "нгрок"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Мультяшное изображение нескольких маломощных майнеров, подключенных к сетевому концентратору с инструментами, обсуждаемыми в статье."
 coverCaption: ""
 ---

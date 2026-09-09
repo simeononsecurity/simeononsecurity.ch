@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Learn how to install Peer 2 Profit and start earning passive income by sharing your internet connection for VPN and scraping purposes, with an average monthly earnings of $1 per node per IP."
 tags: ["Peer 2 Profit","passive income","share internet","earn money","VPN","scraping","earn online","payout options","money orders","BTC","LTC","MATIC","Docker container","installation tutorial","internet connection","earnings","make money","online income","monetize internet","earn from home","network sharing","earn from internet","earn from sharing","earn effortlessly","boost earnings","earn from VPN","earn from scraping","earn from Peer 2 Profit","internet monetization","passive income generation","earn from network sharing"]
-cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.webp"
 coverAlt: "A symbolic illustration of a laptop connected to a network of interconnected nodes, representing the concept of sharing internet for passive income generation."
 coverCaption: ""
 ---

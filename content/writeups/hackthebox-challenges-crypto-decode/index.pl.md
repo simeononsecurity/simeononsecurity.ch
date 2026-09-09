@@ -5,7 +5,7 @@ draft: false
 description: "Dowiedz się, jak rozszyfrować szyfry Fernet i Malboge, aby rozwiązać wyzwanie kryptograficzne HackTheBox i odkryć ukrytą flagę."
 tags: ["HackTheBox", "Wyzwania", "Kryptowaluty", "Dekodowanie", "Opis", "Fernet Cipher", "Szyfr Malboge", "Szyfrowanie symetryczne", "Cyberbezpieczeństwo", "Kryptografia", "Testy penetracyjne", "Python", "Bezpieczeństwo", "Wyzwanie", "CTF", "Flaga", "Szyfrowanie", "Deszyfrowanie", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Haker z kreskówki stojący obok dużego zamka z jedną ręką trzymającą klucz z logo Fernet i drugą ręką trzymającą klucz z logo Malboge, podczas gdy wewnątrz zamka widać flagę"
 coverCaption: ""
 ---

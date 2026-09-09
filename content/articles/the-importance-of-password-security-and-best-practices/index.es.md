@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca la importancia de la seguridad de las contraseñas y descubra las mejores prácticas de gestión de contraseñas para proteger su información personal y su identidad en Internet."
 tags: ["seguridad de contraseñas", "gestión de contraseñas", "seguridad en línea", "amenazas cibernéticas", "contraseñas seguras", "autenticación de dos factores", "gestor de contraseñas", "seguridad de los datos", "robo de identidad", "estafas de phishing", "redes Wi-Fi públicas", "privacidad en línea", "seguridad en línea", "seguridad digital", "seguridad en internet", "ciberseguridad", "protección de datos", "seguridad de la cuenta", "cuentas en línea", "protección en línea"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Una imagen de dibujos animados de una cerradura y una llave protegidas por un escudo para representar la seguridad y la protección de las contraseñas."
 coverCaption: ""
 ---

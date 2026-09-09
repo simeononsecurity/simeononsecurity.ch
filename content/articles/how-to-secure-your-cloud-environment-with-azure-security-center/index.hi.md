@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to secure your cloud environment using Azure Security Center, with best practices and real-world examples."
 tags: ["Azure", "Security Center", "cloud security", "Azure Sentinel", "Azure Defender", "network security", "identity management", "data security", "threat detection", "threat response", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
-cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png"
+cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "A shield icon surrounded by cloud symbols, representing a secure cloud environment, with the Azure Security Center logo on the shield."
 coverCaption: ""
 ---

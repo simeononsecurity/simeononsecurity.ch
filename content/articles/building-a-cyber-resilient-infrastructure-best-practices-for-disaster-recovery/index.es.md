@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear una infraestructura ciberresistente con una planificación eficaz de la recuperación en caso de catástrofe y las mejores prácticas."
 tags: ["ciberresiliencia", "planificación de la recuperación en caso de catástrofe", "PRD", "gestión de riesgos", "continuidad de las actividades", "protección de datos", "cumplimiento de la normativa", "Marco de ciberseguridad del NIST", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "copia de seguridad en la nube", "software de copia de seguridad y recuperación", "herramientas de evaluación de riesgos", "servicios de respuesta a incidentes", "ciberseguridad", "seguridad de la información", "Infraestructura informática"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Un escudo con una marca de verificación y las palabras Cyber Resilient Infrastructure escritas en él, rodeado de píxeles que caen y un telón de fondo de una ciudad en llamas."
 coverCaption: ""
 ---

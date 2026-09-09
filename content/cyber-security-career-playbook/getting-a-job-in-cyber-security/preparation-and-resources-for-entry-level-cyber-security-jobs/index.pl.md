@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Odkryj kluczowe wymagania, przygotowania i zasoby dla początkujących pracowników cyberbezpieczeństwa, aby rozpocząć karierę w tej bardzo poszukiwanej dziedzinie."
 tags: ["oferty pracy dla początkujących w dziedzinie cyberbezpieczeństwa", "kariera w cyberbezpieczeństwie", "wymagania dotyczące pracy", "edukacja w zakresie cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "zdobywanie doświadczenia", "certyfikaty cyberbezpieczeństwa", "rządowe oferty pracy w dziedzinie cyberbezpieczeństwa", "Oferty pracy w sektorze prywatnym w zakresie cyberbezpieczeństwa", "platformy poszukiwania pracy", "programy szkoleniowe w zakresie cyberbezpieczeństwa", "kursy online", "staże w dziedzinie cyberbezpieczeństwa", "staże w zakresie cyberbezpieczeństwa", "USAJOBS", "Departament Bezpieczeństwa Wewnętrznego", "FBI", "Rzeczywiście", "LinkedIn", "Kości", "branża cyberbezpieczeństwa", "trendy branżowe", "ochrona danych", "bezpieczeństwo systemu", "cyberzagrożenia", "rozwój kariery", "rozwój zawodowy", "regulacje branżowe", "zasoby cyberbezpieczeństwa", "oferty pracy"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Kreskówkowa ilustracja przedstawiająca osobę w pelerynie superbohatera, trzymającą tarczę i stojącą przed komputerem z zamkami i tarczami wokół niego."
 coverCaption: "Uwolnij swój potencjał w dziedzinie cyberbezpieczeństwa i zostań cyberobrońcą."
 ---

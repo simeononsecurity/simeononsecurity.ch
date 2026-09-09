@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-17
 description: "了解将 LoRa 网络与 Helium 集成，为物联网设备和智能城市、农业和物流等行业带来的好处。"
 tags: ["LoRa网络", "氦集成", "Semtech 数据包转发器", "物联网应用", "低功耗广域网", "扩频调制", "网关", "云", "LoRaWAN协议", "网络基础设施", "热点", "传感器", "网络安全", "地理定位", "激励机制", "智慧城市", "农业", "后勤", "物联网开发", "远程通讯"]
-cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.png"
+cover: "/img/cover/A_stylized_illustration_of_a_cityscape_with_various_IoT_dev.webp"
 coverAlt: "城市景观的风格化插图，各种物联网设备连接到网络，表示为光网，突出显示了 Helium 徽标。"
 coverCaption: ""
 ---

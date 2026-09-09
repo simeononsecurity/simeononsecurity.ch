@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj zagrożenia stwarzane przez trojany zdalnego dostępu (RAT) i poznaj skuteczne środki zapobiegania i ochrony, aby zabezpieczyć swoje systemy komputerowe i dane."
 genre: ["Cyberbezpieczeństwo", "Złośliwe oprogramowanie", "Bezpieczeństwo komputerowe", "Zagrożenia cyfrowe", "Trojany zdalnego dostępu", "Ochrona danych", "Prywatność", "Cyberprzestępczość", "Bezpieczeństwo sieci", "Bezpieczeństwo informacji"]
 tags: ["trojany zdalnego dostępu", "RAT", "cyberbezpieczeństwo", "złośliwe oprogramowanie", "bezpieczeństwo komputerowe", "zagrożenia cyfrowe", "ochrona danych", "naruszenie prywatności", "nieautoryzowany nadzór", "zakłócenie systemu", "kradzież tożsamości", "oszustwo finansowe", "świadomość cyberbezpieczeństwa", "bezpieczeństwo sieci", "bezpieczeństwo informacji", "luki w oprogramowaniu", "wiadomości phishingowe", "kradzież danych", "manipulacja systemem", "pilot zdalnego sterowania", "środki cyberbezpieczeństwa", "ochrona punktów końcowych", "silne hasła", "firewall", "wykrywanie włamań", "kopia zapasowa danych", "bezpieczeństwo danych", "cyberzagrożenia", "bezpieczeństwo cyfrowe", "cyberobrona"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "Symboliczna ilustracja zablokowanego komputera z łańcuchami, reprezentująca potrzebę ochrony przed trojanami zdalnego dostępu."
 coverCaption: "Ochrona cyfrowej fortecy."
 ---

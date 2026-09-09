@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Aflați cum să configurați pfSense pe clientul subțire HP t740 și cum să remediați problemele potențiale precum înghețarea și problemele de detectare a SSD-ului."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "client slab", "serverul de acasă", "PPPoE", "FreeBSD", "prompt de pornire", "loader.conf.local", "nano editor", "Detectare SSD", "SSD M.2", "Western Digital", "depanare", "post-instalare", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Un desen animat cu un vrăjitor care aruncă o vrajă pentru a repara un computer înghețat, cu un balon care spune Problema rezolvată"
 coverCaption: ""
 ---

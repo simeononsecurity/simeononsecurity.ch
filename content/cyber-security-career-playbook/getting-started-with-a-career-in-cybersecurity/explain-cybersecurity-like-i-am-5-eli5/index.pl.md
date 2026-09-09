@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Kompleksowy przewodnik wyjaśniający cyberbezpieczeństwo w prostych słowach, podkreślający jego znaczenie, osobiste praktyki higieny bezpieczeństwa i rolę specjalistów ds. cyberbezpieczeństwa."
 tags: ["cyberbezpieczeństwo", "ochrona cyfrowa", "bezpieczeństwo osobiste", "cyberzagrożenia", "specjaliści ds. cyberbezpieczeństwa", "phishing", "aktualizacje oprogramowania", "silne hasła", "uwierzytelnianie wieloskładnikowe", "bezpieczeństwo online", "cyfrowy świat", "cyberataki", "bezpieczeństwo informacji", "bezpieczeństwo w internecie", "ochrona danych", "prywatność online", "cyberobrona", "cyberhigiena", "Wskazówki dotyczące bezpieczeństwa online", "świadomość cybernetyczna", "cyberedukacja", "Zapobieganie cyberprzestępczości", "odporność cybernetyczna", "bezpieczne praktyki online", "prywatność cyfrowa", "przewodnik po cyberbezpieczeństwie", "podstawy cyberbezpieczeństwa", "świadomość cyberbezpieczeństwa", "wskazówki dotyczące cyberbezpieczeństwa", "najlepsze praktyki cyberbezpieczeństwa", "Cyberbezpieczeństwo dla początkujących"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Kreskówkowa ilustracja superbohatera z tarczą chroniącą cyfrowy świat przed hakerami i cyberzagrożeniami."
 coverCaption: ""
 ---

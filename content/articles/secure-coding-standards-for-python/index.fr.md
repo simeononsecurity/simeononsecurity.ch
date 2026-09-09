@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les meilleures pratiques de codage sécurisé en Python pour minimiser le risque de failles de sécurité et protéger les données sensibles."
 tags: ["Python", "Codage sécurisé", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Web applications", "Cadres Python", "Django", "Flash", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Session management", "MarkupSafe", "WTForms", "Clignotant", "Protection des données", "Vulnérabilités", "Codage sécurisé", "Python", "Risques pour la sécurité", "Validation des entrées", "Bibliothèques de cryptographie", "Le moindre privilège", "Analyseur de code statique", "Web applications", "Cadres Python", "Django", "Flash", "Système d'authentification", "Hachage de mot de passe", "Système de modèles", "Session management", "MarkupSafe", "WTForms", "Clignotant", "Protection des données", "Vulnérabilités", "Sécurité du code Python", "Examen du code", "Outils d'analyse statique", "Développement web sécurisé", "Pratiques de codage sécurisées", "Vulnérabilités en matière de sécurité", "Meilleures pratiques en matière de sécurité du code", "Data encryption", "Principe du moindre privilège", "Analyse du code", "Sécurité du web"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Un bouclier de bande dessinée sur lequel est inscrit le mot Python pour représenter les normes de codage sécurisées"
 coverCaption: ""
 ---

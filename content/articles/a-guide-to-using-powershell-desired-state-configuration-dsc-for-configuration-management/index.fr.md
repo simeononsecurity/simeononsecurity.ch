@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez la puissance de PowerShell Desired State Configuration (DSC) pour automatiser et gérer les configurations du système pour un environnement sécurisé et conforme."
 tags: ["PowerShell", "DSC", "Gestion de la configuration", "Automatisation", "Fenêtres", "Administration des systèmes", "Meilleures pratiques", "Conformité", "Sécurité", "Infrastructure", "DevOps", "Configuration du serveur", "Essais", "Git", "Contrôle à la source", "Réglementation gouvernementale", "NIST", "CEI", "Dérive de la configuration", "Ressources personnalisées"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.png"
+cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
 coverAlt: "Image caricaturale d'un administrateur système confiant, portant une cape de super-héros, debout à côté d'un rack de serveurs bien organisé, tenant un script DSC PowerShell dans une main et un bouclier avec le logo Windows dans l'autre, protégeant les serveurs contre les dérives de configuration et les menaces de sécurité."
 coverCaption: ""
 ---

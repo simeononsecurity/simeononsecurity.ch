@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Scoprite come gli aggressori possono sfruttare le femtocelle per intercettare chiamate e messaggi e cosa potete fare per proteggervi da questi attacchi."
 tags: ["attacchi alle femtocelle", "sicurezza mobile", "sicurezza informatica", "reti cellulari", "VPN", "clonazione del telefono", "data privacy", "sicurezza in Internet", "dispositivi mobili", "fornitori di servizi cellulari", "sicurezza della rete", "sicurezza wireless", "sicurezza dei telefoni cellulari", "vulnerabilità", "attacchi informatici", "patch di sicurezza", "crittografia dei dati", "criminalità informatica", "suggerimenti per la sicurezza", "messaggistica sicura"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Uno scudo con il simbolo di un lucchetto che protegge un telefono cellulare dalla mano di un hacker che cerca di accedervi."
 coverCaption: ""
 ---

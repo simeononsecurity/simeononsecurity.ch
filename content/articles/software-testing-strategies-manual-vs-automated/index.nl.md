@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voor- en nadelen van handmatig en geautomatiseerd testen van software om een weloverwogen beslissing te nemen voor uw organisatie."
 tags: ["software testen", "handmatig testen", "geautomatiseerd testen", "teststrategieën", "softwareontwikkeling", "kwaliteitsborging", "proefprocessen", "testdekking", "verkennende tests", "gebruikerservaring", "efficiëntie", "herbruikbaarheid", "aanpassingsvermogen", "menselijke fout", "valse positieven", "valse negatieven", "testautomatisering", "hybride testen", "grondstofoptimalisatie", "praktijken voor het testen van software", "de juiste teststrategie voor software kiezen", "voordelen van handmatig testen", "nadelen van geautomatiseerd testen", "handmatige en geautomatiseerde tests combineren", "optimaliseren van het testproces van software"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Een kleurrijke illustratie van een menselijke tester en een robot tester die samenwerken om softwaretoepassingen te testen."
 coverCaption: ""
 ---

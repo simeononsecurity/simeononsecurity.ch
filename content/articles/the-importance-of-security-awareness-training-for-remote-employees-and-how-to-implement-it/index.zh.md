@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过有效的安全意识培训加强远程工作人员的安全，并学习如何成功实施培训。"
 tags: ["远程员工", "安全意识", "网络安全", "培训", "远程劳动力", "网络钓鱼", "最佳做法", "安全文化", "游戏化", "NIST", "CISA", "SANS 安全意识", "信息安全研究所", "KnowBe4", "持续学习", "真实场景", "互动培训", "网络威胁", "安全培训平台"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "一组远程员工使用笔记本电脑参加安全意识培训课程的卡通图片，周围环绕着各种网络安全符号。"
 coverCaption: ""
 ---

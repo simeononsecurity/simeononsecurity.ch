@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak możliwości automatyzacji Ansible mogą usprawnić, zabezpieczyć i zoptymalizować środowiska chmur hybrydowych w celu zwiększenia wydajności."
 tags: ["Ops", "CICD", "skalowalność", "wydajność", "bezpieczeństwo", "zgodność", "integracja", "Amazon Web Services", "Microsoft Azure", "Google Cloud", "Wieża Ansible", "Ansible Galaxy", "Ansible Vault", "oszczędność kosztów", "Wydajność informatyczna"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Żywa animowana ilustracja 3D chmury z kołami zębatymi wewnątrz, reprezentująca środowisko chmury hybrydowej, pokazująca wydajne i zautomatyzowane zarządzanie infrastrukturą chmury."
 coverCaption: ""
 ---

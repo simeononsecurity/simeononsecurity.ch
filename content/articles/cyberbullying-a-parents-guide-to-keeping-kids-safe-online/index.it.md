@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggere i vostri figli dal cyberbullismo con questa guida completa per i genitori."
 tags: ["cyberbullismo", "sicurezza online", "genitorialità", "bambini", "salute mentale", "regolamenti governativi", "politiche di sicurezza in internet", "monitoraggio dell'attività online", "prevenzione", "molestie online", "sicurezza informatica", "genitorialità digitale", "social media", "cittadinanza digitale", "impronta digitale", "bullismo", "legge", "tecnologia", "sicurezza", "educazione"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Vignetta di un genitore e di un bambino che usano il computer insieme, con una bolla di testo sopra il computer che mostra un messaggio positivo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何在大流行后的世界中为未来的网络安全做好准备，并降低成为网络攻击受害者的风险。"
 tags: ["网络安全", "大流行后", "未来", "远程工作", "人工智能", "机器学习", "物联网", "软件更新", "密码", "双因素认证", "教育", "虚拟专用网", "固件更新", "网络钓鱼", "勒索软件", "云安全", "数据保护", "网络安全", "威胁检测", "数字隐私"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "这是一幅卡通风格的图像，一个人拿着盾牌站在电脑屏幕前，保护电脑屏幕免受恶意软件、病毒、网络钓鱼和黑客攻击等各种网络攻击。"
 coverCaption: ""
 ---

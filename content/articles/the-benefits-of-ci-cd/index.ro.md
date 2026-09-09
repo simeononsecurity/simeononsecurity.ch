@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți beneficiile integrării continue și implementării continue (CI CD) în dezvoltarea de software, îmbunătățind colaborarea, calitatea și viteza."
 tags: ["integrare continuă", "implementarea continuă", "CI CD", "dezvoltarea de software", "colaborare", "comunicare", "bucla de feedback", "detectarea erorilor", "calitatea software-ului", "fiabilitate", "timp de introducere pe piață", "gestionarea riscurilor", "scalabilitate", "flexibilitate", "testare automată", "dezvoltare agilă", "DevOps", "productivitatea echipei", "versiuni de software", "automatizarea implementării", "automatizarea testelor", "livrare rapidă de software", "metodologii agile", "gestionarea versiunilor", "inginerie software", "echipe agile", "îmbunătățire continuă", "testare software", "conducte de implementare", "procesul de desfășurare", "ciclul de viață al dezvoltării de software"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " O ilustrație colorată de desen animat care arată dezvoltatorii colaborând și implementând software rapid și eficient cu ajutorul instrumentelor și proceselor CI CD."
 coverCaption: ""
 ---

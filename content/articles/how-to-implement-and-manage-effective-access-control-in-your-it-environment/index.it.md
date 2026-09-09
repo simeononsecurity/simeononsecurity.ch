@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come proteggere i dati e i sistemi sensibili implementando misure efficaci di controllo degli accessi per il vostro ambiente IT."
 tags: ["Controllo degli accessi", "Sicurezza informatica", "Sicurezza informatica", "Password", "Autenticazione biometrica", "Controllo dell'accesso basato sui ruoli", "Autenticazione a più fattori", "Protezione dei dati", "Valutazione del rischio", "Formazione dei dipendenti", "Strumenti di audit", "Strumenti di reporting", "Test di penetrazione", "Valutazione della vulnerabilità", "Controllo degli accessi fisici", "Controllo dell'accesso logico", "Regolamenti di conformità", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "Una porta chiusa a chiave con uno scanner di impronte digitali come unico mezzo per entrare."
 coverCaption: ""
 ---

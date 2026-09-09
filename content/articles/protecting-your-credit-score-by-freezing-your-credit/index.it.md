@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite il ruolo cruciale del congelamento del credito nella protezione del vostro futuro finanziario e scoprite come prendere il controllo del vostro punteggio di credito."
 genre: ["Blocco del credito", "Protezione del punteggio di credito", "Prevenzione del furto d'identità", "Sicurezza finanziaria", "Prevenzione delle frodi", "Uffici di credito", "Equifax", "Experian", "TransUnion", "Finanza personale"]
 tags: ["congelamento del credito", "punteggio di credito", "protezione dal furto d'identità", "sicurezza finanziaria", "prevenzione delle frodi", "uffici di credito", "Equifax", "Experian", "TransUnion", "proteggere il punteggio di credito", "salvaguardare il credito", "rapporto di credito", "frode creditizia", "monitoraggio del credito", "emittenti di carte di credito", "congelamento del credito", "protezione del credito", "congelamento del rapporto di credito", "Servizi di monitoraggio del credito", "futuro finanziario", "importanza del congelamento del credito", "come congelare il credito", "processo di congelamento del credito", "blocco di sicurezza dell'ufficio crediti", "congelamento dei rapporti di credito", "prevenire il furto d'identità", "gestione del punteggio di credito", "protezione delle informazioni finanziarie", "misure di sicurezza contro le frodi", "protezione dell'identità finanziaria"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Un lucchetto con una catena avvolto intorno a un rapporto di credito, che simboleggia la protezione e la sicurezza che il congelamento del credito offre contro il furto di identità e le frodi"
 coverCaption: ""
 ---

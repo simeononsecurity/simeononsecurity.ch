@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die größten Cybersecurity-Bedrohungen des Jahres 2024 und erfahren Sie, wie Sie sich mit den Empfehlungen von Experten schützen können."
 tags: ["Cybersicherheit", "Bedrohungen", "Ransomware", "Phishing", "IoT-Sicherheit", "Insider-Bedrohungen", "Cloud-Sicherheit", "Datensicherung", "Multi-Faktor-Authentifizierung", "Sicherheitspatches", "Mitarbeiterschulung", "Zugangskontrollen", "Zuverlässigkeitsüberprüfungen", "Vermeidung von Datenverlusten", "Cloud-Anbieter", "Datenverschlüsselung", "Netzwerksicherheit", "Endpunktsicherheit", "Netzüberwachung", "Sicherheitslücken-Scanning"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Ein Zeichentrick-Hacker, der versucht, in ein Computersystem einzudringen, während ein Schild mit einem Schloss es schützt."
 coverCaption: ""
 ---

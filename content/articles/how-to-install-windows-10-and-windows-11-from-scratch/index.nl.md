@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je een schoon Windows ISO-bestand downloadt en Windows vanaf nul installeert met deze stap-voor-stap gids."
 tags: ["Windows 10", "Windows 11", "ISO-bestand", "Schone installatie", "Hulpmiddel voor mediacreatie", "Opstartbare USB", "Installatiemedia", "BIOS", "UEFI-firmware", "Aangepaste installatie", "Productsleutel", "64-bit systeem", "32-bits systeem", "Rufus", "ImgBurn", "CDBurnerXP", "HashCalc", "MD5 & SHA controlesom hulpprogramma", "Type systeem"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Een cartoonbeeld van een persoon die een USB-stick met een Windows-logo en een vinkje vasthoudt, staand voor een computerscherm met een Windows-logo erop."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra los pasos esenciales para forjarse un camino de éxito en la ciberseguridad, incluida la formación, las certificaciones y las perspectivas laborales lucrativas."
 tags: ["ciberseguridad", "hacer carrera en ciberseguridad", "educación en ciberseguridad", "certificaciones de ciberseguridad", "oportunidades de empleo en ciberseguridad", "carreras tecnológicas", "educación en ciberseguridad", "empleos en ciberseguridad", "industria de la ciberseguridad", "profesionales de la ciberseguridad", "competencias en ciberseguridad", "seguridad de la red", "seguridad de la información", "analista de ciberseguridad", "hacking ético", "consultor de ciberseguridad", "respuesta a incidentes", "CISO", "estrategia de ciberseguridad", "licenciatura en ciberseguridad", "máster en ciberseguridad", "Certificación CISSP", "Certificación CEH", "Certificación CompTIA Security+", "mercado laboral de la ciberseguridad", "informática forense", "gestión de riesgos en ciberseguridad", "desarrollo seguro de software", "protección de datos", "tendencias en ciberseguridad"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Un profesional de la ciberseguridad con escudo que protege los activos digitales contra los ataques de piratas informáticos."
 coverCaption: ""
 ---

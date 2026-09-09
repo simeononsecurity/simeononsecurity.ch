@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Chroń swoją prywatność w Internecie, unikając tych typowych błędów VPN, które mogą przypadkowo ujawnić Twój publiczny adres IP"
 tags: ["Błędy VPN", "Wycieki IP", "prywatność online", "cyberbezpieczeństwo", "bezpieczeństwo w internecie", "wirtualna sieć prywatna", "WebRTC", "Serwer DNS", "Dostawca VPN", "uwierzytelnianie dwuskładnikowe", "Oprogramowanie VPN", "wyłącznik awaryjny", "prywatność danych", "prywatność w internecie", "cyberzagrożenia", "bezpieczeństwo danych", "bezpieczeństwo sieci", "bezpieczeństwo online", "anonimowość online", "anonimowe przeglądanie"]
-cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"
 coverAlt: "Postać z kreskówki stojąca na laptopie z lupą, szukająca prywatności w Internecie."
 coverCaption: ""
 ---

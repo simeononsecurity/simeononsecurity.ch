@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie Linux-Patches und -Updates mit Ansible automatisieren, indem Sie verschiedene Distributionen und Setup-Anweisungen abdecken."
 tags: ["Linux-Patching", "Ansible-Automatisierung", "Automatisierung von Updates", "Systemwartung", "IT-Automatisierung", "Patch-Management", "Linux-Sicherheit", "Debian", "Ubuntu", "RHEL", "alpin", "Systemstabilität", "Schwachstellenminderung", "IT Infrastruktur", "Automatisierungstool", "Ansible-Playbook", "Host-Konfiguration", "Software-Updates", "Sicherheitskonformität", "IT-Betrieb", "Linux-Updates", "Ubuntu", "Debian", "CentOS", "RHEL", "Offline-Updates", "lokales Repository", "Zwischenspeicher", "Server-Setup", "Client-Setup", "passender Spiegel", "debmirror", "createrepo", "apt-cacher-ng", "lecker-cron", "Linux-Systemaktualisierungen", "Offline-Paketaktualisierungen", "Offline-Software-Updates", "lokales Paket-Repository", "lokaler Paketcache", "Offline-Linux-Updates", "Umgang mit Offline-Updates", "Offline-Update-Methoden", "Offline-Systemwartung", "Linux-Server-Updates", "Linux-Client-Updates", "Offline-Softwareverwaltung", "Offline-Paketverwaltung", "Update-Strategien", "Linux-Sicherheitsupdates"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Ein farbenfrohes Bild im Cartoon-Stil, das einen Roboter zeigt, der Patches auf einen Cluster von Linux-Servern anwendet."
 coverCaption: ""
 ---

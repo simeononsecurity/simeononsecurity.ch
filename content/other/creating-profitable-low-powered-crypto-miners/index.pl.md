@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-07
 description: "Dowiedz się, jak skonfigurować nisko zasilany pasywny dochód crypto miner przy użyciu Raspberry Pi lub Intel NUC, i zarabiać $10-$20 miesięcznie na pudełko z tym przewodnikiem"
 tags: ["Zbuduj dochodową skrzynkę dochodu pasywnego", "Sprzęt o małej mocy", "Dochód pasywny", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Przewodnik", "Wymagania sprzętowe", "Instalacja systemu operacyjnego", "Instalacja oprogramowania", "Docker", "Automatyczne aktualizacje kontenerów Docker", "Ubuntu Server", "Pulpit Ubuntu", "Raspbian", "Budżet", "USFF", "Tiny", "Mini", "Micro PC", "Doświadczenie techniczne", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Strażnica", "Bitping"]
-cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp"
 coverAlt: "zielona, płytka w kształcie pudełka z symbolami łączności internetowej w postaci podłączonych do niej przewodów."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aprende a instalar Peer 2 Profit y empieza a ganar ingresos pasivos compartiendo tu conexión a Internet para fines de VPN y scraping, con una media de ganancias mensuales de 1$ por nodo por IP."
 tags: ["Beneficio Peer 2", "ingresos pasivos", "compartir internet", "ganar dinero", "VPN", "raspado", "ganar en línea", "opciones de pago", "giros postales", "BTC", "LTC", "MATIC", "Contenedor Docker", "tutorial de instalación", "conexión a Internet", "ganancias", "ganar dinero", "ingresos en línea", "monetizar internet", "ganar desde casa", "uso compartido de la red", "ganar dinero con internet", "ganar compartiendo", "ganar sin esfuerzo", "aumentar los ingresos", "ganar con VPN", "ganar con el raspado", "ganar con Peer 2 Profit", "monetización de internet", "generación de ingresos pasivos", "ganar compartiendo red"]
-cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.webp"
 coverAlt: "Ilustración simbólica de un ordenador portátil conectado a una red de nodos interconectados, que representa el concepto de compartir Internet para generar ingresos pasivos."
 coverCaption: ""
 ---

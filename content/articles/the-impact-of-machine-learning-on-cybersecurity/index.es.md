@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra el impacto del aprendizaje automático en la ciberseguridad y cómo adaptarse."
 tags: ["Aprendizaje automático", "Ciberseguridad", "Adaptación", "Inteligencia artificial", "Detección de amenazas", "Protección de datos", "En tiempo real", "Aprendizaje supervisado", "Aprendizaje no supervisado", "Aprendizaje por refuerzo", "Falsos positivos", "Falsos negativos", "Formación de los empleados", "Soluciones de seguridad", "Análisis de datos", "Seguridad de las redes", "Seguridad en la nube", "Reconocimiento de patrones", "Detección de anomalías", "Ciberamenazas"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Un robot de dibujos animados monta guardia frente a un escudo virtual, simbolizando el uso del aprendizaje automático en ciberseguridad."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Proteja su crédito de accesos no autorizados combinando una congelación de crédito y una alerta de fraude, la solución más eficaz para disuadir a los delincuentes comunes de acceder a su informe crediticio sin su permiso."
 tags: ["protección del crédito", "congelación del crédito", "alerta de fraude", "acceso no autorizado", "informe de crédito", "robo de identidad", "Equifax", "Experian", "TransUnion", "agencias de crédito", "máxima protección"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "Persona que sostiene una tarjeta de crédito con el símbolo de un candado para representar la protección del crédito."
 coverCaption: ""
 ---

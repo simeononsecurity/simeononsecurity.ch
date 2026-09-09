@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sich mit diesen hilfreichen Tipps vor Online-Bedrohungen wie Hackerangriffen, Verleumdungskampagnen und Identitätsdiebstahl schützen können."
 tags: ["Cybersicherheit", "Online-Sicherheit", "Identitätsdiebstahl", "Hacken", "Hetzkampagnen", "soziale Medien", "Passwörter", "Zwei-Faktor-Authentifizierung", "Kreditsperre"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Eine Person, die ein Vorhängeschloss vor einen Computerbildschirm hält, auf dem die Meldung Geschützt erscheint"
 coverCaption: ""
 ---

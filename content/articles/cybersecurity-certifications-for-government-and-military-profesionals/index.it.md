@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i requisiti, i vantaggi e i percorsi di carriera delle certificazioni di cybersecurity nei settori governativo e militare."
 tags: ["Sicurezza informatica", "Certificazioni", "Governo", "Militare", "Percorso di carriera", "Sicurezza delle informazioni", "Difesa", "Nulla osta di sicurezza", "Compliance", "Regolamenti", "Crimine informatico", "Minacce informatiche", "Audit IT", "Gestione del rischio", "CISSP", "CISM", "Sicurezza+", "CEH", "CAP", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Immagine stilizzata di uno scudo governativo o militare con serrature e chiavi digitali sullo sfondo."
 coverCaption: ""
 ---

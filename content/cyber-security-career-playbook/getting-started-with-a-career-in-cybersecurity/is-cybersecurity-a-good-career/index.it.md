@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-04
 description: "Scoprite i vantaggi di una carriera nella cybersecurity, tra cui la sicurezza del lavoro, l'alto potenziale salariale e le numerose opportunità di crescita nell'era digitale."
 tags: ["carriera nella cybersecurity", "sicurezza del lavoro", "alto potenziale salariale", "opportunità di crescita", "professione di cybersicurezza", "minacce informatiche", "sicurezza digitale", "sicurezza delle informazioni", "competenze di cybersecurity", "professionisti della cybersicurezza", "domanda di cybersicurezza", "industria della cybersicurezza", "lavori di cybersicurezza", "prospettive di cybersicurezza", "sfide di cybersicurezza", "premi per la cybersicurezza", "futuro della cybersicurezza", "mentalità della cybersecurity", "politica di cybersicurezza", "curiosità tecnologica", "apprendimento continuo", "gestione dello stress", "importanza della cybersicurezza", "percezione della cybersicurezza", "protezione digitale", "sviluppo delle competenze di cybersecurity", "salvaguardia del mondo digitale", "minacce alla sicurezza informatica in continua evoluzione", "reputazione del marchio di cybersicurezza", "redditività aziendale"]
-cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_professional_in_a_superhero_cape_standing_in_front_of_a_computer.webp"
 coverAlt: "Un professionista con un mantello da supereroe, in piedi davanti allo schermo di un computer con uno scudo che rappresenta la cybersecurity."
 coverCaption: "Un professionista della cybersecurity, il guardiano della sicurezza digitale, dotato dello scudo di protezione contro le minacce informatiche."
 ---

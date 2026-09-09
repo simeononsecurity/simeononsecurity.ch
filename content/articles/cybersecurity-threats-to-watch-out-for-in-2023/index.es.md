@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra las principales amenazas a la ciberseguridad de 2024 y aprenda a mantenerse a salvo con las recomendaciones de los expertos."
 tags: ["ciberseguridad", "amenazas", "ransomware", "phishing", "Seguridad IoT", "amenazas internas", "seguridad en la nube", "copia de seguridad de datos", "autenticación multifactor", "parches de seguridad", "formación de empleados", "controles de acceso", "verificación de antecedentes", "prevención de pérdida de datos", "proveedores de nube", "encriptación de datos", "seguridad de la red", "seguridad de puntos finales", "supervisión de redes", "exploración de vulnerabilidades"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Un hacker de dibujos animados intenta entrar en un sistema informático mientras un escudo con un candado lo protege."
 coverCaption: ""
 ---

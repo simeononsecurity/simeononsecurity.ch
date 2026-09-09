@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate l'importanza della sicurezza delle password e scoprite le migliori pratiche per la gestione delle password per proteggere le vostre informazioni personali e la vostra identità online."
 tags: ["sicurezza della password", "gestione delle password", "sicurezza online", "minacce informatiche", "password forti", "autenticazione a due fattori", "gestore di password", "sicurezza dei dati", "furto d'identità", "truffe di phishing", "reti Wi-Fi pubbliche", "online privacy", "sicurezza online", "sicurezza digitale", "sicurezza in Internet", "sicurezza informatica", "protezione dei dati", "sicurezza del conto", "conti online", "protezione online"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Un'immagine a fumetti di una serratura e di una chiave protette da uno scudo per rappresentare la sicurezza e la protezione delle password."
 coverCaption: ""
 ---

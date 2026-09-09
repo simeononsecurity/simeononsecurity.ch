@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak tworzyć wydajne i bezpieczne kontenery Docker za pomocą najlepszych praktyk, wskazówek i instrukcji krok po kroku w tym kompleksowym przewodniku."
 tags: ["docker", "pojemniki", "konteneryzacja", "devops", "wdrożenie", "przenośność", "efektywność", "bezpieczeństwo", "najlepsze praktyki", "Dockerfile", "obrazy bazowe", "zmienne środowiskowe", "uchwyty na woluminy", "użytkownik root", "aktualne obrazy", "rozwój oprogramowania", "obrazy kontenerów", "Docker Hub", "orkiestracja kontenerów", "Kubernetes"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Animowany obraz 3D bezpiecznego, dobrze zorganizowanego kontenera z umieszczonym na nim logo Docker, w otoczeniu różnych narzędzi i urządzeń związanych z inżynierią oprogramowania i DevOps."
 coverCaption: ""
 ---

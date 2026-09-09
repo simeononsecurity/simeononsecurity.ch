@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les choses essentielles à faire et à ne pas faire pour renforcer votre système Linux, y compris la mise à jour, l'utilisation de pare-feu, l'activation de SELinux ou AppArmor, la configuration de politiques de mot de passe et la surveillance des journaux du système."
 tags: ["Linux security", "durcissement du système", "pare-feu", "SELinux", "AppArmor", "politique en matière de mot de passe", "mises à jour du système", "journaux du système", "modules de sécurité", "les politiques de contrôle d'accès", "cybersécurité", "sécurité du système", "sécurité des réseaux", "gestion de la vulnérabilité", "meilleures pratiques en matière de sécurité", "Sécurité informatique", "la sécurité de l'information", "mises à jour du logiciel", "accès à la racine", "gestionnaire de mot de passe"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Un cadenas de dessin animé tient un bouclier sur lequel figure le mot Linux, tandis qu'une flèche rebondit sur le bouclier."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Poznaj podstawy skryptów PowerShell i zautomatyzuj zadania dzięki temu przewodnikowi krok po kroku dla początkujących, obejmującemu polecenia cmdlet, pętle, funkcje i nie tylko."
 genre: ["Technologia", "Programowanie", "Automatyzacja", "Windows", "Skrypty", "IT", "Zadania administracyjne", "Zarządzanie komputerami", "Rozwój oprogramowania", "Kodowanie"]
 tags: ["Skrypty PowerShell", "Automatyzacja PowerShell", "Skrypty Windows", "Polecenia cmdlet PowerShell", "Moduły PowerShell", "Pętle PowerShell", "Instrukcje warunkowe PowerShell", "Funkcje PowerShell", "Najlepsze praktyki PowerShell", "Debugowanie PowerShell", "Testowanie PowerShell", "Zmienne PowerShell", "PowerShell ISE", "Remoting PowerShell", "Technologie Microsoft", "Automatyzacja IT", "zarządzanie komputerem", "Kodowanie dla początkujących", "zadania administracyjne", "Pomysły na skrypty PowerShell", "automatyczne kopie zapasowe", "zarządzanie plikami", "informacje o systemie", "zarządzanie użytkownikami", "instalacja oprogramowania", "konfiguracja sieci", "automatyzacja zabezpieczeń", "planowanie zadań", "manipulacja rejestrem", "zdalna administracja"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Postać z kreskówki trzymająca skrypt i stojąca przed komputerem z monitem PowerShell, wskazująca na łatwość tworzenia skryptów PowerShell dla początkujących"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Explore the rise of deepfakes, their threats, challenges, and regulatory measures in combating synthetic media manipulation."
 tags: ["deepfakes", "synthetic media", "AI technology", "misinformation", "fake news", "fraud", "privacy invasion", "deepfake detection", "regulatory frameworks", "education", "awareness", "digital age", "technology", "society", "challenges", "threats", "combatting deepfakes", "accountability", "collaboration", "advanced algorithms"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "A symbolic illustration depicting a person's face being replaced by another face, representing the deceptive nature of deepfakes and the challenges they pose in digital media manipulation."
 coverCaption: ""
 ---

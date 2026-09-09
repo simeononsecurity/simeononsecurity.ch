@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați de urmărirea cibernetică și să vă păstrați în siguranță online cu aceste sfaturi și tehnici."
 tags: ["cyberstalking", "siguranța online", "securitatea internetului", "prevenirea urmăririi", "siguranță personală", "confidențialitate online", "securitate cibernetică", "siguranta digitala", "siguranța pe internet", "hărțuirea cibernetică", "hărțuire", "protectia victimelor", "acțiune legală", "consiliere", "sănătate mentală", "siguranța rețelelor sociale", "hărțuirea online", "urmărirea online", "aplicarea legii", "protecție a vieții private"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "O persoană care își privește telefonul cu o expresie îngrijorată, în timp ce o siluetă întunecată se profilează în fundal."
 coverCaption: ""
 ---

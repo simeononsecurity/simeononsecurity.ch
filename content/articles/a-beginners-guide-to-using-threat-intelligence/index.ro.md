@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Îmbunătățiți-vă poziția de securitate cibernetică cu acest ghid pentru începători privind informațiile despre amenințări și importanța lor."
 tags: ["Informații privind amenințările", "Securitatea cibernetică", "Ghid pentru începători", "Tactici", "Tehnici", "Proceduri", "Analiza datelor", "Vulnerabilități", "Operațiuni de securitate", "Învățare automată", "Extracția de date", "Luarea deciziilor", "Automatizare", "Comunitate", "Monitorizarea Dark Web", "Jurnalele de rețea internă", "Răspuns la incidente", "Campanii de phishing", "Malware", "Planificarea strategică"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "O lupă animată 3D cu un ochi în centru, care plutește peste un fundal de cod binar."
 coverCaption: ""
 ---

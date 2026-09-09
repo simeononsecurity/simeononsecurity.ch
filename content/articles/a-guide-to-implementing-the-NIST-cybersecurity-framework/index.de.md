@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie das NIST Cybersecurity Framework implementieren und Ihr Unternehmen vor Cyber-Bedrohungen schützen können."
 tags: ["Cybersicherheit", "NIST", "Rahmenwerk", "Risikomanagement", "Informationssicherheit", "Cyber-Bedrohungen", "implementierung", "beste Praktiken", "Leitlinien", "Normen", "Cyber-Angriffe", "Risikobewertung", "Cybersicherheitsrisiko", "datenschutz", "Compliance", "IT-Sicherheit", "Netzwerksicherheit", "Vorfallreaktion", "Sicherheitsmaßnahmen", "Cybersicherheitsplan"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Ein Cartoonbild einer Person mit einem Schild, das verschiedene Cyberangriffe abwehrt."
 coverCaption: ""
 ---

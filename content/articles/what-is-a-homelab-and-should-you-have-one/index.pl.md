@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ten obszerny przewodnik zawiera szczegółowy przegląd tego, czym jest Domowe Laboratorium, dlaczego warto je stworzyć, jakie elementy są potrzebne, jak je skonfigurować, zaawansowane tematy do zbadania i najlepsze praktyki do naśladowania."
 tags: ["Home Lab", "informatycy", "uczniowie", "hobbyści", "tworzenie sieci", "wirtualizacja", "automatyka", "sprzęt", "oprogramowanie", "najlepsze praktyki", "przewodnik"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Osoba siedząca przy biurku z komputerem i sprzętem sieciowym, otoczona książkami i notatkami."
 coverCaption: ""
 ---

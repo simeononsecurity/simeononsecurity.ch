@@ -6,7 +6,7 @@ draft: false
 description: "Une analyse indépendante des caméras ALPR de Flock Safety : comment elles fonctionnent réellement, quelles données elles collectent au-delà des plaques d'immatriculation, comment le partage de données crée une base de données nationale fantôme, et pourquoi la question du mandat est le véritable enjeu."
 genre: ["Vie Privée", "Surveillance", "Libertés Civiles", "Technologie des Forces de l'Ordre", "Droits Numériques"]
 tags: ["Flock Safety", "ALPR", "lecteurs de plaques d'immatriculation", "surveillance", "vie privée", "surveillance sans mandat", "analyse de convoi", "suivi Bluetooth", "suivi TPMS", "partage de données", "caméras Ring", "Quatrième Amendement", "rien à cacher", "précision LPR", "accusation erronée", "MFA", "technologie des forces de l'ordre", "libertés civiles", "minimisation des données", "DeFlock", "contre-surveillance", "sécurité publique", "surveillance policière", "droits à la vie privée", "Quatrième Amendement", "surveillance numérique", "surveillance de masse", "reconnaissance de plaques d'immatriculation", "réseaux de caméras", "conservation des données"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Une intersection sombre éclairée par une caméra de surveillance montée sur un poteau, avec des données de plaque d'immatriculation superposées sur les voitures qui passent."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les différentes normes 802.11, les fréquences, la portée et le cryptage des réseaux sans fil pour vous préparer à l'examen de certification Network+ de CompTIA."
 genre: ["Technologie", "Mise en réseau", "Réseau sans fil", "Examen de certification", "CompTIA Network+", "Formation informatique", "Certification informatique", "Normes sans fil", "Technologies sans fil", "Technologie de l'information"]
 tags: ["CompTIA Network Plus", "Examen de certification Network+", "Normes sans fil", "Technologies sans fil", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Fréquences", "Range", "Collage des canaux", "Types d'antennes", "Normes de cryptage", "Configurations SSID", "Réseau sans fil", "Examen sur les réseaux sans fil", "Formation sur les réseaux sans fil", "Certification des réseaux sans fil", "Technologie des réseaux sans fil", "Sécurité des réseaux sans fil", "Performance des réseaux sans fil", "Protocoles de réseaux sans fil", "Configuration du réseau sans fil", "Dépannage des réseaux sans fil", "Meilleures pratiques pour les réseaux sans fil"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Illustration de bande dessinée présentant différents dispositifs et signaux de réseaux sans fil."
 coverCaption: "Libérer la puissance des réseaux sans fil"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "通过本初学者指南了解如何使用区块链技术进行安全身份验证和身份管理。"
 tags: ["区块链", "身份管理", "鉴别", "分散身份", "无密码身份验证", "智能合约", "公钥加密", "私钥加密", "不可变记录", "分散系统", "单点登录", "证书核查", "扩展性", "隐私", "采用", "数字身份", "分布式账本技术", "网络安全", "数据隐私", "技术"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png"
+cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
 coverAlt: "一个卡通人物一手拿着钥匙，一手拿着区块链，周围是由相互连接的节点和区块组成的网络。"
 coverCaption: ""
 ---

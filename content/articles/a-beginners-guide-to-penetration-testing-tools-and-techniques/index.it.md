@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate gli elementi essenziali degli strumenti e delle tecniche di penetration testing, le metodologie e le certificazioni per dare il via alla vostra carriera nella cybersecurity."
 tags: ["test di penetrazione", "sicurezza informatica", "hacking etico", "strumenti", "tecniche", "Guida per principianti", "Nmap", "Metasploit", "Wireshark", "Suite di rutti", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "test di sicurezza", "valutazione della vulnerabilità", "sicurezza della rete", "sicurezza delle informazioni"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "Un hacker dei cartoni animati che indossa un passamontagna e tiene in mano una lente d'ingrandimento, esaminando lo schermo di un computer su cui sono visualizzati vari strumenti di test di hacking come Nmap, Metasploit, Wireshark e Burp Suite, con serrature digitali che simboleggiano sistemi protetti sullo sfondo."
 coverCaption: ""
 ---

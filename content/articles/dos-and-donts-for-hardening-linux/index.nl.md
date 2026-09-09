@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de essentiële do's en donts voor het harden van je Linux systeem, inclusief updaten, firewalls gebruiken, SELinux of AppArmor inschakelen, wachtwoordbeleid configureren en systeemlogs controleren."
 tags: ["Linux beveiliging", "systeemharding", "firewall", "SELinux", "AppArmor", "wachtwoordbeleid", "systeemupdates", "systeemlogboeken", "beveiligingsmodules", "toegangscontrolebeleid", "cyberbeveiliging", "systeemveiligheid", "netwerkbeveiliging", "beheer van kwetsbaarheden", "beste beveiligingsprocedures", "IT-beveiliging", "informatiebeveiliging", "software-updates", "root-toegang", "wachtwoordmanager"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Een cartoonslot houdt een schild vast met het woord Linux erop, terwijl een pijl van het schild afketst."
 coverCaption: ""
 ---

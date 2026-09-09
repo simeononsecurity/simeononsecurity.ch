@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Ontdek de belangrijkste vereisten, voorbereidingen en bronnen voor banen op instapniveau in cyberbeveiliging om je carrière in dit veelgevraagde vakgebied een vliegende start te geven."
 tags: ["banen op instapniveau in cyberbeveiliging", "carrière in cyberbeveiliging", "functievereisten", "onderwijs in cyberbeveiliging", "cyberbeveiligingsvaardigheden", "ervaring opdoen", "cyberbeveiligingscertificeringen", "banen in cyberbeveiliging bij de overheid", "banen in de private sector op het gebied van cyberbeveiliging", "platforms voor het zoeken naar vacatures", "cyberbeveiligingsopleidingen", "online trainingen", "stages cyberbeveiliging", "cyberbeveiligingsstages", "USAJOBS", "Ministerie van Binnenlandse Veiligheid", "FBI", "Inderdaad", "LinkedIn", "Dobbelstenen", "cyberbeveiligingsindustrie", "trends in de sector", "gegevens beschermen", "systeemveiligheid", "cyberbedreigingen", "loopbaanontwikkeling", "professionele groei", "industriële regelgeving", "cyberbeveiligingsmiddelen", "carrièremogelijkheden"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Een cartoonillustratie van een persoon die een superheldencape draagt, een schild vasthoudt en voor een computer staat met sloten en schilden eromheen."
 coverCaption: "Ontgrendel je potentieel in cyberbeveiliging en word een cyberverdediger."
 ---

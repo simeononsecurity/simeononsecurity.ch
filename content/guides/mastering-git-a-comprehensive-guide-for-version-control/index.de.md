@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Mit diesem umfassenden Handbuch, das alles von der Installation und Konfiguration bis hin zum Branching, Merging und der Zusammenarbeit abdeckt, werden Sie mit Git vertraut."
 tags: ["Git", "Versionskontrolle", "Git-Tutorials", "Git-Anleitung", "Git-Grundlagen", "Git-Befehle", "Git-Installation", "Git-Konfiguration", "Verzweigung in Git", "Zusammenführen in Git", "Zusammenarbeit in Git", "verteilte Versionskontrolle", "Code-Versionierung", "Git-Arbeitsablauf", "Git-Tipps", "Bewährte Git-Verfahren", "Git für Anfänger", "Git für Entwickler", "Software-Entwicklung", "Kollaborationscode", "Git-Bearbeitung", "umfassendes Git-Handbuch", "Anleitung zur Git-Versionskontrolle", "Git-Verzweigung und -Zusammenführung", "Tipps zur Git-Zusammenarbeit"]
-cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_two_interconnected_gears.webp"
 coverAlt: "Eine symbolische Illustration mit zwei miteinander verbundenen Zahnrädern, die für Zusammenarbeit und Versionskontrolle stehen, wobei das Git-Logo in das Design integriert ist."
 coverCaption: ""
 ---

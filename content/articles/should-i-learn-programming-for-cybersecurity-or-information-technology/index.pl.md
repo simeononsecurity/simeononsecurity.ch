@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, dlaczego opanowanie umiejętności programowania może znacznie ułatwić Twoją karierę w branży IT i Cyberbezpieczeństwa oraz jak rozpocząć pracę z PowerShell, Bash, Python, Ansible, Packer i Terraform."
 tags: ["IT i cyberbezpieczeństwo", "Umiejętność programowania", "Awans zawodowy", "PowerShell", "Bash", "Python", "Ansible", "Pakowacz", "Terraform", "Automatyka", "Wiersz poleceń", "Skryptowanie", "Wdrożenie infrastruktury", "Analiza danych", "Testy bezpieczeństwa"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Osoba siedząca przed komputerem, wpisująca kod do interfejsu wiersza poleceń z liniami tekstu przewijającymi się na ekranie."
 coverCaption: ""
 ---

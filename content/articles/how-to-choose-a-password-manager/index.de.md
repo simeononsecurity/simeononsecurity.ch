@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die wesentlichen Faktoren, die bei der Auswahl eines Passwortmanagers zu berücksichtigen sind, und erfahren Sie, warum Bitwarden und KeePassXC die empfohlenen Optionen sind"
 tags: ["Passwort-Manager", "Passwort-Manager wählen", "Bitwarden", "KeePassXC", "Online-Sicherheit", "Passwortsicherheit", "Passwortmanagement", "sichere Passwörter", "unique passwords", "Datenschutzverletzungen", "Verschlüsselung", "plattformübergreifende Kompatibilität", "Passwort-Synchronisation", "Backup", "Benutzeroberfläche", "Passwort-Generator", "2FA", "End-to-End-Verschlüsselung", "Null-Wissens-Architektur", "Open-Source", "sicheres Passwort-Sharing", "Autotyp", "Anbindungshilfe", "Plugins", "Passwort-Manager-Empfehlungen", "Passwort-Manager-Vergleich", "Tipps zur Passwortsicherheit", "Passwort-Manager-Funktionen", "Vorteile des Passwort-Managers", "passwort manager download"]
-cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.png"
+cover: "/img/cover/A_colorful_illustration_of_a_person_holding_a_key_and_a_shield.webp"
 coverAlt: "Eine farbenfrohe Illustration einer Person, die einen Schlüssel und ein Schild in der Hand hält, als Symbol für Passwortsicherheit und Schutz."
 coverCaption: ""
 ---

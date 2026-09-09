@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți de ce VPN-urile pot fi inutile pentru utilizatorii standard într-o lume în care totul folosește HTTPS și cum să aveți încredere în furnizorul dvs. de VPN."
 tags: ["VPN", "Confidențialitatea online", "Securitate pe Internet", "Atacuri MITM", "Rețele private virtuale", "Securitatea cibernetică", "Siguranța online", "Criptare", "HTTPS", "Protecția datelor", "Servicii ale terților", "Riscuri legate de confidențialitate", "ISP", "Conținut restricționat geografic", "Cenzura pe internet", "Wi-Fi public", "Confidențialitatea datelor", "Protecție online", "Securitate web", "Furnizori VPN"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "Un utilizator de calculator din desene animate navighează pe internet, în timp ce un simbol uriaș de blocare apare pentru a proteja intimitatea utilizatorului."
 coverCaption: ""
 ---

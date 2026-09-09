@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索在不断发展的网络安全领域取得成功所需的基本技能，了解网络安全在科技行业日益增长的重要性。"
 tags: ["网络安全", "网络安全的未来", "成功技能", "批判性思维", "交流", "技术技能", "风险管理", "专业发展", "网络安全中的人工智能", "云安全", "网络威胁", "网络犯罪", "信息安全", "网络安全专业人员", "数据隐私", "技术", "数字安全", "网络防御", "网络攻击", "信息技术安全"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "一个身穿超级英雄套装的人手持印有网络安全字样的盾牌的卡通形象，背景是城市景观和电脑屏幕。"
 coverCaption: ""
 ---

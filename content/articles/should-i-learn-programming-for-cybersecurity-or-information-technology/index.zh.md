@@ -6,7 +6,7 @@ draft: false
 description: "了解为什么掌握编程技能会对您的 IT 和网络安全事业大有裨益，以及如何开始学习 PowerShell、Bash、Python、Ansible、Packer 和 Terraform。"
 genre: ["信息技术和网络安全", "编程技能", "职业发展", "自动化", "命令行", "脚本", "基础设施部署", "数据分析", "安全测试", "专业发展"]
 tags: ["信息技术和网络安全", "编程技能", "职业发展", "PowerShell", "巴什", "Python", "Ansible", "包装机", "Terraform", "自动化", "命令行", "脚本", "基础设施部署", "数据分析", "安全测试", "IT 职业", "网络安全职业", "信息技术专业人员", "网络安全专业人员", "网络自动化", "安全分析", "脚本语言", "配置管理", "基础设施即代码", "IT 自动化", "IT 行业", "网络安全行业", "就业市场", "信息技术技能"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "一个人坐在电脑前，在命令行界面上输入代码，屏幕上滚动着一行行文字。 "
 coverCaption: "释放 IT 和网络安全编程的力量。"
 ---

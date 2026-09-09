@@ -5,7 +5,7 @@ draft: false
 description: "تعرف على كيفية فك تشفير نغمات DTMF باستخدام تشفير الأرقام الأولية لحل تحدي Crypto - Call على HackTheBox."
 tags: ["هاكذا بوكس", "تحدي التشفير", "نغمات DTMF", "عدد الشفرات الأولية", "فك التشفير", "حل الألغاز", "التشفير", "تحويل الصوت", "DialABC", "فك الشفرة", "WAV", "MP3", "تكرار", "السمة الرياضية", "علَم", "الجرأة", "متخيل سونيك", "أعداد", "قوائم الصراف الآلي", "الهاتف المدفوع"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "هاتف كرتوني بشاشة خضراء وقفل عليه ، يرمز إلى الأمان والتشفير ، مع نغمات DTMF موضحة في الخلفية"
 coverCaption: ""
 ---

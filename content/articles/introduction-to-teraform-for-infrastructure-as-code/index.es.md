@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda los conceptos básicos de Terraform, una popular herramienta de infraestructura como código, y cómo utilizarla para gestionar la infraestructura de forma eficiente."
 tags: ["Terraform", "Infraestructura como código", "IaC", "Computación en nube", "DevOps", "Automatización", "AWS", "Azure", "Nube de Google", "Proveedores de nube", "Gestión de la configuración", "Despliegue", "Aprovisionamiento", "Gestión de recursos", "Escalabilidad", "Resiliencia", "Seguridad", "Conformidad", "Buenas prácticas"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Un monitor de ordenador de dibujos animados con múltiples dispositivos conectados a la red que aparecen como bloques de construcción que se añaden o eliminan, lo que significa gestión de infraestructuras con Terraform."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Bedrohungsdaten die Cybersicherheit verbessern, indem sie Cyberangriffe eindämmen und auf sie reagieren."
 tags: ["Intelligente Bedrohung", "Reaktion auf Vorfälle", "Cybersecurity", "Milderung", "Cyber-Angriffe", "Datenanalyse", "Information Systems", "Risk Management", "Bewertung der Anfälligkeit", "Aufdeckungsfähigkeiten", "Sicherheitskontrollen", "Strategische Intelligenz", "Taktische Intelligenz", "Operative Intelligenz", "Landschaft der Bedrohungen", "Aufkommende Trends", "Sicherheitsbewußtsein", "Digitale Forensik", "Cyber-Bedrohungen", "Dunkles Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Eine Karikatur eines Cybersicherheitsteams, das Daten analysiert und auf einen Angriff reagiert, während ein Vergrößerungsglas über ihnen schwebt."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați datele valoroase de atacuri cibernetice, dezastre naturale și defecțiuni hardware."
 tags: ["strategia de backup", "protejarea datelor", "securitate cibernetică", "Redundanță de date", "prevenirea pierderilor de date", "recuperare date", "conformitate", "hard disk-uri externe", "servicii de stocare în cloud", "stocare atașată la rețea", "software de backup", "backup automat", "securitatea datelor", "recuperare în caz de dezastru", "backup offsite", "copii de rezervă redundante", "cele mai bune practici de backup", "soluții de rezervă", "tipuri de depozitare", "siguranța datelor"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Un personaj de desene animate cu o pelerină ținând un scut cu numărul 3 pe el, în timp ce stă deasupra a două cutii de stocare, una reprezentând un hard disk, iar cealaltă un nor, și arătând spre un glob reprezentând stocarea în afara amplasamentului."
 coverCaption: ""
 ---

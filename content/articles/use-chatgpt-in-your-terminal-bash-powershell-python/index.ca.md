@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apreneu a utilitzar el model ChatGPT d'OpenAI mitjançant la còmoda interfície de línia d'ordres (CLI) per generar text i respondre preguntes amb facilitat."
 tags: ["ChatGPT", "OpenAI", "Interfície de línia d'ordres", "CLI", "generació de textos", "resposta a la pregunta", "conjunt d'eines per a desenvolupadors", "gestor de paquets pip", "Python 3.5", "PowerShell", "Bash"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "Un desenvolupador assegut al seu ordinador, escrivint al seu teclat amb la CLI de ChatGPT oberta al seu terminal."
 coverCaption: ""
 ---

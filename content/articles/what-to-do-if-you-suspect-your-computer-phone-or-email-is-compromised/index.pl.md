@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj podstawowe kroki, które należy podjąć w przypadku podejrzenia włamania do poczty elektronicznej, komputera lub telefonu, w tym zmianę haseł, skanowanie w poszukiwaniu złośliwego oprogramowania i czyszczenie urządzenia."
 tags: ["bezpieczeństwo urządzeń", "ochrona danych", "naruszone urządzenie", "zhakowany e-mail", "zhakowany telefon", "złośliwe oprogramowanie", "usuwanie wirusa", "hasło bezpieczeństwa", "kopia zapasowa danych", "uwierzytelnianie dwuskładnikowe", "cybersecurity", "bezpieczeństwo w sieci", "prywatność cyfrowa", "kradzież tożsamości", "oszustwo internetowe", "wsparcie techniczne", "naprawa komputerów", "odzyskiwanie danych", "Usługi informatyczne", "technologia"]
-cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Obrazek z kreskówki osoby stojącej przed komputerem lub telefonem z zatroskanym wyrazem twarzy, podczas gdy w tle czai się haker z kreskówki."
 coverCaption: ""
 ---

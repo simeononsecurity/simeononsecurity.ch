@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come utilizzare la tecnologia blockchain per l'autenticazione sicura e la gestione delle identità con questa guida per principianti."
 tags: ["blockchain", "gestione dell'identità", "autenticazione", "identità decentralizzata", "autenticazione senza password", "contratti intelligenti", "crittografia a chiave pubblica", "crittografia a chiave privata", "record immutabili", "sistema decentralizzato", "single sign-on", "verifica delle credenziali", "scalability", "privacy", "adozione", "identità digitale", "tecnologia a libro mastro distribuito", "sicurezza informatica", "data privacy", "tecnologia"]
-cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.png"
+cover: "/img/cover/A_cartoon_character_holding_a_key_in_one_hand.webp"
 coverAlt: "Un personaggio dei cartoni animati che tiene una chiave in una mano e una blockchain nell'altra, circondata da una rete di nodi e blocchi interconnessi."
 coverCaption: ""
 ---

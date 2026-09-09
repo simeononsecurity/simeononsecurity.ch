@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the impact of machine learning on cybersecurity and how to adapt."
 tags: ["Machine Learning", "Cybersecurity", "Adaptation", "Artificial Intelligence", "Threat Detection", "Data Protection", "Real-time", "Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "False Positives", "False Negatives", "Employee Training", "Security Solutions", "Data Analytics", "Network Security", "Cloud Security", "Pattern Recognition", "Anomaly Detection", "Cyber Threats"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "A cartoon robot standing guard in front of a virtual shield, symbolizing the use of machine learning in cybersecurity."
 coverCaption: ""
 ---

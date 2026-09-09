@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer in deze uitgebreide gids hoe u een veilige DevOps-pijplijn kunt bouwen en onderhouden aan de hand van best practices en voorbeelden uit de praktijk."
 tags: ["DevOps", "beveiliging", "pijpleiding", "voortdurende integratie", "continue levering", "automatisering", "containerisatie", "veilige codering", "scannen op kwetsbaarheden", "controle", "feedback", "versiebeheer", "toegangscontrole", "noodherstel", "bedrijfscontinuïteit", "casestudy", "Lente", "Django", "OWASP", "Netflix", "Capital One"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_protecting_a_pipeline.webp"
 coverAlt: "Een cartoonbeeld van een schild dat een pijplijn beschermt met een slot en sleutel, omringd door verschillende DevOps-pijplijnstadia en beveiligingshulpmiddelen."
 coverCaption: ""
 ---

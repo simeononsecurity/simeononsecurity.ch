@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Een uitgebreide gids voor organisaties om ervoor te zorgen dat hun personeel op afstand veilig blijft in het tijdperk van werken op afstand."
 tags: ["cyberbeveiliging", "werk op afstand", "datalekken", "VPN", "twee-factor authenticatie", "veiligheidsmaatregelen", "veilige communicatie", "cyberdreigingen", "antivirussoftware", "phishing e-mails", "wachtwoordbeheer", "thuiswerken", "gegevensbescherming", "online beveiliging", "werknemersveiligheid", "telewerkers", "cybercriminelen", "videoconferentie", "versleutelde berichtgeving", "virtueel privénetwerk"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "Een cartoonillustratie van een laptop met een slot erop, met op de achtergrond een schild en zwaard die cyberveiligheid voorstellen."
 coverCaption: ""
 ---

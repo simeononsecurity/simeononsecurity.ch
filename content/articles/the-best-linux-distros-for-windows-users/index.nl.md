@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Ontdek de beste Linux-distro's om over te stappen van Windows, waaronder populaire keuzes zoals Ubuntu, Zorin OS en Linux Mint, met een soepele en gebruiksvriendelijke ervaring."
 tags: ["Linux distro's", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "Windows schakelaar", "Linux voor beginners", "Linux-besturingssysteem", "Ubuntu downloaden", "Zorin OS download", "Linux Mint downloaden", "Manjaro download", "Linux desktop omgevingen", "Linux rollende release", "Linux gemeenschap", "Linux-ondersteuning", "Linux-softwareopslagplaats", "Linux-documentatie", "Linux gebruikersinterface", "Linux pakketbeheerder", "Overgang van Windows naar Linux", "Windows-achtige interface", "Linux alternatieven voor Windows", "Gebruiksvriendelijke Linux-distro's", "Linux distro vergelijking", "Linux migratiegids", "Linux voor Windows-gebruikers", "Linux installatiegids", "Linux distributie kenmerken", "Linux voordelen", "Linux-compatibiliteit met Windows-toepassingen"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "Een cartoonillustratie van een persoon die van een Windows-logo naar een Linux-logo stapt met een naadloze overgang"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite le differenze tra Ansible, Puppet e Chef per scegliere lo strumento di automazione più adatto alle esigenze della vostra organizzazione in questo confronto completo."
 genre: ["Tecnologia", "Strumenti di automazione", "Gestione della configurazione", "Infrastruttura IT", "DevOps", "Operazioni IT", "Automazione in-the-cloud", "Distribuzione del software", "Gestione dell'infrastruttura", "Strumenti open source"]
 tags: ["Ansible", "burattino", "Capo", "Strumenti di automazione IT", "Strumenti di gestione della configurazione", "Distribuzione dell'applicazione", "Gestione dell'infrastruttura", "Confronto tra automazione", "Flussi di lavoro DevOps", "Automazione del cloud", "Consegna continua", "Automazione della sicurezza", "Infrastruttura IT", "Gestione della configurazione", "Provisioning del server", "Audit di conformità", "Test dell'infrastruttura", "Integrazione DevOps", "Vantaggi dell'automazione", "Casi d'uso dell'automazione", "Strumenti di automazione a confronto", "Scalabilità dell'automazione", "Curva di apprendimento dell'automazione", "Prestazioni di automazione", "Integrazione dell'automazione", "Supporto della comunità dell'automazione", "Scegliere il giusto strumento di automazione"]
-cover: "/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png"
+cover: "/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.webp"
 coverAlt: "Un'immagine simbolica che rappresenta i tre strumenti di automazione, Ansible, Puppet e Chef, impegnati in una competizione amichevole."
 coverCaption: "Scegliete il miglior strumento di automazione per aumentare l'efficienza e semplificare le operazioni."
 ---

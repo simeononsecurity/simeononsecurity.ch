@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți impactul învățării automate asupra securității cibernetice și cum să vă adaptați."
 tags: ["Învățare automată", "Securitatea cibernetică", "Adaptare", "Inteligența artificială", "Detectarea amenințărilor", "Protecția datelor", "În timp real", "Învățare supravegheată", "Învățare nesupravegheată", "Învățarea prin întărire", "Pozitive false", "Falsificări negative", "Formarea angajaților", "Soluții de securitate", "Analiza datelor", "Securitatea rețelelor", "Securitatea în cloud", "Recunoașterea modelelor", "Detectarea anomaliei", "Amenințări cibernetice"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Un robot din desene animate care stă de pază în fața unui scut virtual, simbolizând utilizarea învățării automate în domeniul securității cibernetice."
 coverCaption: ""
 ---

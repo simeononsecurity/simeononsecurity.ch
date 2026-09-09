@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Aumente o sinal do seu celular em casa com nossas principais opções para conectividade confiável e cobertura em toda a casa."
 tags: ["Amplificadores de sinal de celular", "Weboost", "Hiboost", "Conectividade doméstica", "Cobertura de telefone celular", "femtocélula", "Amplificadores de Sinal Celular", "Amplificadores de sinal sem fio", "Dispositivos de aumento de sinal", "Conectividade Móvel", "Recepção de Celular", "Internet doméstica", "Boosters sem fio", "Eletrônicos", "Reforma residencial", "telecomunicações", "Tecnologia", "Casas Inteligentes", "Chamada wi-fi", "Rede móvel"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "Uma imagem em estilo cartoon de uma pessoa segurando um telefone celular e parada ao lado de um booster com barras de sinal aumentando."
 coverCaption: ""
 ---

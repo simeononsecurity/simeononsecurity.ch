@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Packerで効率的かつ安全にイメージを作成し、プロセスを自動化し、プラットフォーム間の一貫性を確保するためのベストプラクティスを紹介します。"
 tags: ["Packerのベストプラクティス", "Packerイメージの作成", "自動画像作成", "マシンイメージの最適化", "さいげんせい", "パッカービルダー", "パッカー・プロビジョナー", "セキュアイメージコンフィギュレーション", "イメージサイズ最適化", "イメージ確認", "Packerのドキュメント", "Packer GitHubリポジトリ", "AWS EC2イメージビルダー", "Azure Image Builder（アジュール・イメージ・ビルダー", "VMware Packerビルダー", "パッカー特典", "インフラストラクチャーアズコードインテグレーション", "Packerのバージョン管理", "リーンマシンイメージ", "画像圧縮技術", "自動画像検査", "マニュアルイメージテスト", "イメージバリデーションのベストプラクティス", "ソフトウェアデプロイメントワークフロー", "一貫したソフトウェア環境", "パッカーSEOのコツ", "パッカーイメージの自動化", "画像作成効率", "セキュアイメージ作成", "最適化されたマシンイメージ"]
-cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_Packer_tool_icon_building_a_stack.webp"
 coverAlt: "Packerのツールアイコンが効率化とセキュリティ機能で画像のスタックを構築している漫画イラストです。"
 coverCaption: ""
 ---

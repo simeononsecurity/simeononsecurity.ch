@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zautomatyzować łatanie i aktualizacje systemu Linux za pomocą Ansible, obejmując różne dystrybucje i instrukcje konfiguracji."
 tags: ["Łatanie systemu Linux", "Automatyzacja Ansible", "Automatyzacja aktualizacji", "konserwacja systemu", "Automatyzacja IT", "zarządzanie poprawkami", "Bezpieczeństwo systemu Linux", "Debian", "Ubuntu", "RHEL", "Alpine", "stabilność systemu", "łagodzenie podatności na zagrożenia", "Infrastruktura IT", "narzędzie do automatyzacji", "Podręcznik Ansible", "konfiguracja hosta", "aktualizacje oprogramowania", "zgodność z przepisami bezpieczeństwa", "Operacje IT", "Aktualizacje systemu Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "aktualizacje offline", "lokalne repozytorium", "cache", "konfiguracja serwera", "konfiguracja klienta", "apt-mirror", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Aktualizacje systemu Linux", "aktualizacje pakietów offline", "aktualizacje oprogramowania offline", "lokalne repozytorium pakietów", "lokalna pamięć podręczna pakietów", "Aktualizacje systemu Linux w trybie offline", "obsługa aktualizacji offline", "metody aktualizacji offline", "konserwacja systemu offline", "Aktualizacje serwerów Linux", "Aktualizacje klienta Linux", "Zarządzanie oprogramowaniem offline", "Zarządzanie pakietami offline", "strategie aktualizacji", "Aktualizacje zabezpieczeń systemu Linux"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "Kolorowy, kreskówkowy obraz przedstawiający robota stosującego poprawki do klastra serwerów Linux."
 coverCaption: ""
 ---

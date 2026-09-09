@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dit artikel onderzoekt de voor- en nadelen van bootcamps, en helpt mensen te bepalen of ze de juiste keuze zijn om snel nieuwe vaardigheden en certificeringen te verwerven."
 tags: ["Bootcamps", "Loopbaanontwikkeling", "Verwerving van vaardigheden", "Certificaten", "Onderwijs", "Job Market", "Praktijkervaring", "Kosteneffectief", "Uitgebreid onderwijs", "Geloofwaardigheid", "Fysieke en mentale eisen"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "Een laptop met een afstudeerhoed op het toetsenbord, omringd door stapels boeken en een stopwatch"
 coverCaption: ""
 ---

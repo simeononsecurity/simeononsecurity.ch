@@ -5,7 +5,7 @@ draft: false
 description: "Leer hoe je Fernet- en Malboge-sleutels kunt decoderen om de HackTheBox Crypto Challenge op te lossen en de verborgen vlag te ontdekken."
 tags: ["HackTheBox", "Uitdagingen", "Crypto", "Decodeer", "Writeup", "Fernet Cipher", "Malboge Cipher", "Symmetrische encryptie", "Cyberbeveiliging", "Cryptografie", "Penetratie testen", "Python", "Beveiliging", "Uitdaging", "CTF", "Vlag", "Encryptie", "Ontcijfering", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Een cartoon hacker staat naast een groot slot met een hand die een Fernet logo sleutel vasthoudt en de andere hand die een Malboge logo sleutel vasthoudt terwijl een vlag in het slot te zien is"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de uitgebreide training en praktijkgerichte uitdagingen die worden aangeboden door Hackthebox Academy om uw cyberbeveiligingspotentieel te ontsluiten en uw vaardigheden te verbeteren."
 genre: ["Cyberbeveiligingstraining", "Praktijkgerichte labs", "Praktische oefeningen", "Leerpaden", "Samenwerking", "Cyberbeveiligingsvaardigheden", "Online platform", "Scenario's uit de echte wereld", "Handleidingen en documentatie", "Premium abonnement"]
 tags: ["hackthebox academie", "cyberbeveiligingstraining", "praktische labs", "praktische oefeningen", "leertrajecten", "gemeenschapssamenwerking", "cyberbeveiligingsvaardigheden", "online platform", "scenario's uit de praktijk", "tutorials en documentatie", "premium abonnement", "hackthebox academy inloggen", "kosten hackthebox academy", "hackthebox academy prijs", "hackthebox academy website", "functies hackthebox academy", "Uitdagingen op het gebied van cyberbeveiliging", "netwerkbeveiliging", "beveiliging van webtoepassingen", "cryptografie", "penetratietesten", "reverse engineering", "digitaal forensisch onderzoek", "cyberbeveiligingsgemeenschap", "liefhebbers van cyberbeveiliging", "cyberbedreigingen", "deskundigheid op het gebied van cyberbeveiliging", "hackthebox academy prijzen", "overheidsvoorschriften"]
-cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.png"
+cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.webp"
 coverAlt: "Een groep verschillende individuen die samenwerken om cyberbeveiligingsuitdagingen op te lossen op Hackthebox Academy."
 coverCaption: "Ontgrendel uw cyberbeveiligingspotentieel met Hackthebox Academy!"
 ---

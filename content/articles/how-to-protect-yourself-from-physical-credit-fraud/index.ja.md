@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "RFIDスキミングから身を守り、クレジットカード情報を安全に保つための簡単な方法をご紹介します。"
 tags: ["RFIDスキミング", "クレジットカードの保護", "RFIDブロッキングウォレット", "チップクレジットカード", "フィッシング", "サイバーセキュリティ", "こじんじょうほうぬすみ", "プライバシー", "非接触決済", "モバイルペイメント", "金融安全保障", "スマートカード", "エヌエフシー", "暗号化", "データ保護", "RFIDリーダー", "RFID技術", "でんしスリ", "サイレントポケット", "狩猟猫"]
-cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_thief_using_an_electronic_device.webp"
 coverAlt: "泥棒が電子機器を使って、人の財布からクレジットカード情報を盗み出す様子を描いた漫画イラスト。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez l'impact de l'apprentissage automatique sur la cybersécurité et comment vous y adapter."
 tags: ["Apprentissage automatique", "Cybersécurité", "Adaptation", "Intelligence artificielle", "Détection des menaces", "Protection des données", "En temps réel", "Apprentissage supervisé", "Apprentissage non supervisé", "Apprentissage par renforcement", "Faux positifs", "Faux négatifs", "Formation des employés", "Solutions de sécurité", "Analyse des données", "Sécurité des réseaux", "Sécurité de l'informatique en nuage", "Reconnaissance des formes", "Détection des anomalies", "Cybermenaces"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Un robot de dessin animé monte la garde devant un bouclier virtuel, symbolisant l'utilisation de l'apprentissage automatique dans le domaine de la cybersécurité."
 coverCaption: ""
 ---

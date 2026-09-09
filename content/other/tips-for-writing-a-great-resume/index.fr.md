@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Découvrez les meilleures pratiques pour créer un CV efficace, y compris l'utilisation des polices, les types de CV, l'optimisation des mots clés, la gestion des lacunes et l'optimisation de la mise en page."
 tags: ["reprendre l'écriture", "conseils pour reprendre", "utilisation des polices", "structure du CV", "types de CV", "CV chronologique", "CV fonctionnel", "CV combiné", "optimisation des mots clés", "références sur CV", "CV", "gestion des licenciements", "gérer les lacunes dans le CV", "année d'obtention du diplôme sur CV", "attestations d'inscription", "CV mise en page", "CV concis", "espace blanc dans le CV", "CV personnalisation", "CV professionnel"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Une image de dessin animé colorée montrant une personne tenant un CV avec une loupe, symbolisant l'attention portée aux détails dans l'optimisation du CV."
 coverCaption: ""
 ---

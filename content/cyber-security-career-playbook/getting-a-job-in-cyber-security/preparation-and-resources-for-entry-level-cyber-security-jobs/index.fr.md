@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Découvrez les principales exigences, les préparations et les ressources pour les emplois de niveau débutant dans le domaine de la cybersécurité afin de lancer votre carrière dans ce domaine à forte demande."
 tags: ["emplois de débutants en cybersécurité", "carrière en cybersécurité", "exigences du poste", "l'éducation à la cybersécurité", "compétences en matière de cybersécurité", "acquérir de l'expérience", "certifications en cybersécurité", "emplois dans le domaine de la cybersécurité au sein du gouvernement", "emplois dans le secteur privé en matière de cybersécurité", "plateformes de recherche d'emploi", "programmes de formation à la cybersécurité", "cours en ligne", "Apprentissage de la cybersécurité", "stages en cybersécurité", "USAJOBS", "Département de la sécurité intérieure", "FBI", "En effet", "LinkedIn", "Dés", "industrie de la cybersécurité", "tendances de l'industrie", "la protection des données", "sécurité du système", "cybermenaces", "développement de carrière", "croissance professionnelle", "réglementation de l'industrie", "ressources en matière de cybersécurité", "opportunités d'emploi"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Illustration de bande dessinée d'une personne portant une cape de super-héros, tenant un bouclier, et se tenant devant un ordinateur entouré de verrous et de boucliers."
 coverCaption: "Libérez votre potentiel en matière de cybersécurité et devenez un cyberdéfenseur."
 ---

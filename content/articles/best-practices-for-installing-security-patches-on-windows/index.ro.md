@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să instalați patch-uri de securitate cumulative pe Windows și să urmați cele mai bune practici pentru a vă proteja sistemul împotriva atacurilor cibernetice."
 tags: ["Windows", "patch-uri de securitate", "securitate cibernetică", "securitatea sistemului", "Microsoft", "patch-uri cumulative", "gestionarea patch-urilor", "backup de date", "Spectre Meltdown", "criptare", "vulnerabilitățile sistemului", "actualizări de sistem", "implementarea patch-urilor", "medii de non-producție", "configurația sistemului", "Securitate IT", "sistem de gestionare a patch-urilor", "scanarea vulnerabilităților", "note de lansare", "întreținerea sistemului"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "O imagine de desen animat a unui scut cu logo-ul Windows protejat de un lacăt"
 coverCaption: ""
 ---

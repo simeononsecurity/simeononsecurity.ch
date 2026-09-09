@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "In dieser leicht verständlichen Anleitung erfahren Sie, wie Sie den BGW-320 umgehen und einen COTS ONT von Azores verwenden, um sich mit dem Netzwerk Ihres ISP zu verbinden."
 tags: ["COTS ONT", "BGW-320", "Azoren", "Faser", "Netzwerk", "XGS-PON", "Ethernet", "IP-Passthrough", "Personalisierung", "ISP", "haben ID", "MAC-Adresse", "Geräte-ID", "Bildversion", "Hardware-Version", "telnet", "CLI-Anwendung", "Web-GUI", "Werkskonfigurationsmodus", "Kompatibilitätsprobleme"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Ein Techniker mit einem COTS ONT in der Hand und einem Glasfaserkabel im Hintergrund."
 coverCaption: ""
 ---

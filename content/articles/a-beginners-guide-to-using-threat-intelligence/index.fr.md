@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Améliorez votre posture en matière de cybersécurité grâce à ce guide du débutant sur le renseignement sur les menaces et son importance."
 tags: ["Renseignements sur les menaces", "Cybersécurité", "Guide du débutant", "Tactique", "Techniques", "Procédures", "Analyse des données", "Vulnérabilités", "Opérations de sécurité", "Apprentissage automatique", "Exploration de données", "Prise de décision", "Automatisation", "Communauté", "Surveillance du Dark Web", "Journaux du réseau interne", "Réponse aux incidents", "Campagnes d'hameçonnage", "Logiciels malveillants", "Planification stratégique"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "Une loupe animée en 3D avec un œil au centre, flottant sur un fond de code binaire."
 coverCaption: ""
 ---

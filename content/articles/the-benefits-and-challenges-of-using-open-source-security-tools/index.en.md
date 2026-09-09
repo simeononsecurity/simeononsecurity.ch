@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the benefits and challenges of using open source security tools to improve your organization's security posture."
 tags: ["open source security tools", "cybersecurity", "community support", "transparency", "cost savings", "flexibility", "proprietary tools", "security risks", "skillset", "software licensing fees", "total cost of ownership", "commercial support", "programming languages", "integration", "security teswting", "auditing", "NIST", "CISA", "OWASP", "National Institute of Standards and Technology"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "A cartoon-style image of a toolbox with open source logos on each tool, along with a shield with a lock in the center to represent cybersecurity, all on a background with binary code."
 coverCaption: ""
 ---

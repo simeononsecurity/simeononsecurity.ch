@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj wymagania, korzyści i ścieżki kariery dla certyfikatów cyberbezpieczeństwa w sektorze rządowym i wojskowym."
 tags: ["Cybersecurity", "Certyfikaty", "Rząd", "Wojskowy", "Ścieżka kariery", "Bezpieczeństwo informacji", "Obrona", "Postępowanie sprawdzające", "Zgodność", "Regulamin", "Cyberprzestępczość", "Cyberzagrożenia", "Audyt IT", "Zarządzanie ryzykiem", "CISSP", "CISM", "Bezpieczeństwo+", "CEH", "WPR", "CSSLP"]
-cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.png"
+cover: "/img/cover/A_stylized_image_of_a_government_or_military_shield.webp"
 coverAlt: "Stylizowany obraz tarczy rządowej lub wojskowej z cyfrowymi zamkami i kluczami w tle."
 coverCaption: ""
 ---

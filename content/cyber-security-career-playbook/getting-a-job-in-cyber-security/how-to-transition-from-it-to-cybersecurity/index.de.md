@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Erfahren Sie, wie Sie mit unserem umfassenden Schritt-für-Schritt-Leitfaden erfolgreich von der IT in die Cybersicherheit wechseln können, um einen erfolgreichen Karrierewechsel zu gewährleisten."
 tags: ["Umstellung", "IT bis Cybersicherheit", "Berufswechsel", "Schritt-für-Schritt-Anleitung", "Bildung", "erleben", "Fähigkeiten", "Zertifizierungen", "Spezialisierung", "professionelles Networking", "Cybersicherheitsgemeinschaft", "Talentmangel", "hohe Nachfrage", "Branchentrends", "praktische Erfahrung", "technische Fähigkeiten", "nichttechnische Fertigkeiten", "Cybersicherheits-Zertifizierungen", "Online-Kurse", "Cybersicherheitsausbildung", "Umstellung auf Cybersicherheit", "IT-Laufbahnwechsel", "Cybersicherheitsfähigkeiten", "Cybersecurity-Arbeitsmarkt", "Cybersicherheitsschulung", "Spezialisierung auf Cybersicherheit", "Cybersicherheitsfachleute", "Cybersicherheitsindustrie", "IT-Kenntnisse im Bereich Cybersicherheit", "Karrierewege in der Cybersicherheit", "Beschäftigungsmöglichkeiten im Bereich der Cybersicherheit"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Eine Cartoon-Illustration, die eine Person zeigt, die von der IT-Welt in die Welt der Cybersicherheit wechselt."
 coverCaption: "Steigern Sie Ihre Karriere: Nehmen Sie die Herausforderung Cybersecurity an!"
 ---

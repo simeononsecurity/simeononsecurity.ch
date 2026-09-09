@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i passaggi chiave per rendere più solida la vostra infrastruttura di rete contro le minacce persistenti avanzate (APT) e proteggere la vostra organizzazione dagli attacchi informatici."
 tags: ["sicurezza della rete", "sicurezza informatica", "minacce persistenti avanzate", "infrastruttura di rete", "controlli di accesso", "crittografia dei dati", "formazione dei dipendenti", "piano di risposta agli incidenti", "valutazioni di vulnerabilità", "politica di sicurezza", "monitoraggio del traffico di rete", "attacchi di phishing", "protezione degli endpoint", "rilevamento delle intrusioni", "firewall", "SIEM", "backup dei dati", "segmentazione della rete", "minacce informatiche", "data privacy"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Uno scudo a fumetti con l'icona di un lucchetto al centro che rappresenta la sicurezza della rete contro le minacce informatiche."
 coverCaption: ""
 ---

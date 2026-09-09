@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorer le fonctionnement interne de l'algorithme de chiffrement RSA et son importance dans la communication sécurisée."
 tags: ["RSA encryption", "chiffrement asymétrique", "cryptographie à clé publique", "algorithme de cryptage", "Génération de clés RSA", "arithmétique modulaire", "Fonction totienne d'Euler", "nombres premiers", "exponentiation modulaire", "texte chiffré", "texte en clair", "Sécurité RSA", "communication sécurisée", "signatures numériques", "navigation web sécurisée", "les réglementations gouvernementales sur l'ASR", "Lignes directrices du NIST sur le RSA", "Règlement eIDAS", "normes de cryptage", "protection des données", "cryptographie", "la sécurité de l'information", "messagerie sécurisée", "courrier électronique crypté", "HTTPS", "RSA dans les communications sécurisées", "RSA dans les signatures numériques", "Points forts de l'ASR", "faiblesses de l'ASR", "complexité de calcul de l'algorithme RSA", "longueur de la clé RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Image symbolique représentant l'algorithme de chiffrement RSA avec des symboles de serrure et de clé, véhiculant le concept de communication sécurisée et de chiffrement."
 coverCaption: ""
 ---

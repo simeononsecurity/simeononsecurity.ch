@@ -6,7 +6,7 @@ draft: false
 description: "Learn the top 10 essential PowerShell security best practices for safeguarding your scripts, passwords, and sensitive information. Enhance the security of your PowerShell environment and protect against unauthorized access and potential security breaches."
 genre: ["PowerShell security best practices", "Scripting security", "Password security", "IT security", "Cybersecurity", "Windows administration", "Automation", "Secure coding", "Network security", "Data protection"]
 tags: ["PowerShell security best practices", "PowerShell password security best practices", "best practices for securing and using PowerShell", "script execution policy", "code signing", "user access control", "password security", "hardcoding passwords", "strong passwords", "password rotation policies", "safeguarding PowerShell scripts", "protecting passwords in PowerShell", "managing script execution in PowerShell", "securing sensitive information in PowerShell", "enhancing PowerShell security"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "A symbolic illustration showing a shield protecting a PowerShell script."
 coverCaption: "Secure your PowerShell scripts with effective security practices."
 ---

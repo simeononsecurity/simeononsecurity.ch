@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się więcej o programie DoD dotyczącym kwalifikacji i zarządzania pracownikami cyberprzestrzeni, opisanym w podręczniku 8140.03."
 tags: ["Podręcznik DoD 8140.03", "pracownicy cyberprzestrzeni", "program kwalifikacji", "Personel DoD", "cyberbezpieczeństwo", "kwalifikacja cyberprzestrzeni", "zarządzanie cyberprzestrzenią", "rozwój siły roboczej w cyberprzestrzeni", "Polityki DoD dotyczące cyberprzestrzeni", "pracownicy cyberbezpieczeństwa", "kwalifikacje w zakresie cyberbezpieczeństwa", "szkolenie w zakresie cyberbezpieczeństwa", "edukacja w zakresie cyberbezpieczeństwa", "certyfikaty cyberbezpieczeństwa", "role związane z cyberbezpieczeństwem", "role zawodowe związane z cyberbezpieczeństwem", "Zarządzanie pracownikami cybernetycznymi", "kwalifikacje do pracy w cyberprzestrzeni", "zarządzanie personelem cybernetycznym", "program kwalifikacji cybernetycznych", "rozwój zawodowy w cyberprzestrzeni", "biegłość pracowników cyberprzestrzeni", "certyfikaty personelu cybernetycznego", "wymagania dotyczące szkoleń cybernetycznych", "standardy cyberbezpieczeństwa", "kompetencje pracowników cyberprzestrzeni", "Obrona przed cyberzagrożeniami", "bezpieczeństwo systemów informatycznych", "bezpieczeństwo sieci"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Ekran komputera wyświetlający pulpit nawigacyjny cyberbezpieczeństwa z wykresami i wykresami odzwierciedlającymi stan bezpieczeństwa sieci"
 coverCaption: ""
 ---

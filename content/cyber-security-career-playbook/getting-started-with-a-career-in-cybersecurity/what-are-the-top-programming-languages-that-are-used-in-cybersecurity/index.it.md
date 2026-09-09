@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Scoprite il ruolo fondamentale dei linguaggi di programmazione nella cybersecurity e approfondite le loro applicazioni, gli strumenti e l'importanza della sicurezza dei sistemi digitali."
 tags: ["linguaggi di programmazione", "sicurezza informatica", "strumenti chiave", "applicazioni", "sistemi sicuri", "sicurezza della rete", "applicazioni web", "valutazione della vulnerabilità", "test di penetrazione", "codifica sicura", "sicurezza del sistema", "linguaggi di scripting", "automazione", "comunicazione sicura", "analisi dei dati", "apprendimento automatico", "risposta agli incidenti", "sviluppo di exploit", "quadri di sicurezza", "indurimento del sistema", "analisi dei log", "Sicurezza di Windows", "protocolli di rete", "sviluppo web", "pratiche di codifica sicura", "servizi crittografici", "sandboxing", "controllo degli accessi", "ingegneria inversa", "rilevamento delle minacce", "gestione della sicurezza"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "Un'illustrazione simbolica che mostra un'icona a forma di scudo che rappresenta la sicurezza informatica, circondata da frammenti di codice in diversi linguaggi di programmazione."
 coverCaption: "Rappresentazione simbolica del legame vitale tra i linguaggi di programmazione e la cybersicurezza, evidenziando i diversi strumenti e applicazioni."
 ---

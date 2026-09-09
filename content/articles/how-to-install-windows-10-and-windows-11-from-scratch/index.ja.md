@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "このステップバイステップガイドで、クリーンなWindows ISOファイルをダウンロードし、ゼロからWindowsをインストールする方法を学びましょう。"
 tags: ["ウィンドウズ10", "ウィンドウズ11", "ISOファイル", "クリーンインストール", "メディアクリエイトツール", "ブータブルUSB", "インストールメディア", "バイオス", "UEFIファームウェア", "カスタムインストール", "プロダクトキー", "64ビットシステム", "32ビットシステム", "ルーファス", "イムグバーン", "CDBurnerXP", "ハッシュカルク", "MD5 & SHA チェックサムユーティリティ", "システムタイプ"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp"
 coverAlt: "Windowsのロゴとチェックマークが描かれたUSBメモリを持った人が、Windowsのロゴが描かれたパソコンの画面の前に立っている漫画のイメージです。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Obțineți sfaturi și strategii de specialitate pentru a trece examenele CompTIA A+, inclusiv acronimele esențiale, cunoștințe despre echipamente și proceduri comune de depanare."
 tags: ["Certificarea CompTIA A+", "220-1101", "220-1102", "Pregătirea examenului", "Certificare IT", "Cariera IT", "Tehnologia informației", "Strategii de testare", "Sfaturi de studiu", "Competențe tehnice", "Tehnici de depanare", "Componente hardware", "Instalarea software-ului", "Concepte de rețea", "Principii de securitate", "Recuperarea datelor", "Învățare online", "CompTIA A+ Sfaturi pentru certificare", "promovarea examenelor CompTIA A+", "strategii de studiu pentru examenele A+", "Pregătirea pentru certificarea IT", "abilități de luare a testelor pentru examenele A+", "cunoașterea componentelor hardware", "tehnici de instalare de software", "concepte de rețea pentru examenele A+", "principii de securitate în IT", "metode de recuperare a datelor", "resurse de învățare online pentru examenele A+", "comptia a 1001 exemple de întrebări bazate pe performanță"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "O imagine de desen animat a unei persoane care ține un laptop în timp ce este înconjurată de diverse componente hardware și cabluri de rețea, cu o bulă de gândire care afișează o serie de acronime CompTIA A+ și proceduri de depanare."
 coverCaption: ""
 ---

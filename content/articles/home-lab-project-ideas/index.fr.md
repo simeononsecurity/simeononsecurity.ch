@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez des idées de projets de laboratoire à domicile passionnants et innovants pour élargir vos connaissances et améliorer vos compétences en informatique."
 tags: ["projets de laboratoire à domicile", "environnement de virtualisation", "laboratoire de sécurité réseau", "serveur multimédia domestique", "système domotique", "expérience pratique", "Compétences informatiques", "technologie", "logiciel", "matériel", "expérimentation", "l'apprentissage", "architecture du réseau", "les configurations logicielles", "cybersécurité", "pare-feu", "routeur", "diffusion en continu des médias", "réseau domestique", "dispositifs intelligents", "automation", "Raspberry Pi", "Z-Wave", "Zigbee", "Plex", "Kodi", "Emby", "VMware vSphere", "Microsoft Hyper-V", "Proxmox VE", "créer un environnement de virtualisation à domicile", "créer un laboratoire de sécurité réseau avec pfSense", "installation d'un serveur multimédia domestique avec Plex", "construire un système domotique avec Raspberry Pi"]
-cover: "/img/cover/A_symbolic_image_depicting_a_person_working.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_person_working.webp"
 coverAlt: "Image symbolique représentant une personne travaillant sur une installation de virtualisation avec plusieurs systèmes d'exploitation et composants de réseau."
 coverCaption: ""
 ---

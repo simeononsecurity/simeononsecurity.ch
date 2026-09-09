@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez l'importance de la sécurité des mots de passe et découvrez les meilleures pratiques de gestion des mots de passe pour protéger vos informations personnelles et votre identité en ligne."
 tags: ["sécurité du mot de passe", "gestion des mots de passe", "sécurité en ligne", "cybermenaces", "des mots de passe forts", "authentification à deux facteurs", "gestionnaire de mot de passe", "la sécurité des données", "vol d'identité", "escroqueries par hameçonnage", "les réseaux Wi-Fi publics", "vie privée en ligne", "sécurité en ligne", "sécurité numérique", "sécurité internet", "cybersécurité", "protection des données", "sécurité du compte", "comptes en ligne", "protection en ligne"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Image caricaturale d'une serrure et d'une clé protégées par un bouclier pour représenter la sécurité et la protection des mots de passe."
 coverCaption: ""
 ---

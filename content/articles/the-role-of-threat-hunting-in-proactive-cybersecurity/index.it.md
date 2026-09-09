@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come la caccia alle minacce può prevenire gli attacchi informatici e quali sono i vantaggi e le sfide dell'implementazione come misura proattiva di cybersecurity."
 tags: ["caccia alle minacce", "sicurezza informatica", "difesa proattiva", "attacchi informatici", "sicurezza della rete", "sicurezza degli endpoint", "analisi dei log", "analisi comportamentale", "intelligence sulle minacce", "indagine manuale", "indagine automatizzata", "riduzione del rischio", "falsi positivi", "requisiti di competenza", "requisiti delle risorse", "tempi di risposta più rapidi", "rilevamento migliorato", "rischio ridotto", "istituzioni finanziarie", "fornitori di servizi sanitari"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Un analista di sicurezza a fumetti con in mano una lente di ingrandimento, alla ricerca di minacce informatiche nascoste sullo schermo di un computer."
 coverCaption: ""
 ---

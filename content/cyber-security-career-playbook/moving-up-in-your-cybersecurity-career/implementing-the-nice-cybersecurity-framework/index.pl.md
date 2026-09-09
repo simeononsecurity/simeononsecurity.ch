@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Odkryj kluczowe kroki, aby skutecznie wdrożyć NICE Cybersecurity Framework i wzmocnić obronę swojej organizacji przed cyberzagrożeniami."
 tags: ["Ramy bezpieczeństwa cybernetycznego NICE", "cyberobrona", "najlepsze praktyki wdrażania", "pracownicy cyberbezpieczeństwa", "analiza luk w umiejętnościach", "programy szkoleniowe", "monitorowanie i raportowanie", "postawa w zakresie cyberbezpieczeństwa", "zarządzanie ryzykiem", "regulacje rządowe", "polityki cyberbezpieczeństwa", "ochrona danych", "reakcja na incydent", "bezpieczeństwo sieci", "zarządzanie podatnościami", "kontrole bezpieczeństwa", "Analiza cyberzagrożeń", "wskaźniki cyberbezpieczeństwa", "ciągłe doskonalenie", "benchmarki branżowe", "odporność cybernetyczna", "zarządzanie incydentami bezpieczeństwa", "krajobraz cyberzagrożeń", "zarządzanie cyberbezpieczeństwem", "nadzór nad cyberbezpieczeństwem", "bezpieczne udostępnianie", "klasyfikacja danych", "wymagania dotyczące zgodności", "certyfikaty cyberbezpieczeństwa", "Szkolenie w zakresie świadomości cyberbezpieczeństwa"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Superbohater z tarczą chroniący infrastrukturę sieciową przed cyberzagrożeniami."
 coverCaption: "Defend, Protect, Secure: Wzmocnienie cyberobrony za pomocą NICE Framework"
 ---

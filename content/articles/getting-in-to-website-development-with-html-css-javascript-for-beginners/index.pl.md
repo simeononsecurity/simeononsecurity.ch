@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj podstawy tworzenia stron internetowych, w tym HTML, CSS i JavaScript, dzięki temu przyjaznemu dla początkujących przewodnikowi."
 tags: ["rozwój sieci", "HTML", "CSS", "JavaScript", "kodowanie", "samouczek", "nauka", "początkujący", "CodePen", "W3Szkoły", "najlepsze praktyki", "zasoby", "freeCodeCamp", "Dokumenty internetowe MDN", "Codecademy", "Udacity", "współpraca", "debugowanie", "projekty"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Kreskówkowy deweloper siedzący przy biurku z laptopem, otoczony różnymi elementami HTML, CSS i JavaScript unoszącymi się w powietrzu wokół nich."
 coverCaption: ""
 ---

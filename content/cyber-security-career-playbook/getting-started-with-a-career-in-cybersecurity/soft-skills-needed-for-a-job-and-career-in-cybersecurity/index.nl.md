@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-11
 description: "Ontdek de cruciale zachte vaardigheden die nodig zijn voor een bloeiende carrière in cyberbeveiliging, die technische expertise aanvullen en zorgen voor professioneel succes."
 tags: ["banen in cyberbeveiliging", "carrièrepad cyberbeveiliging", "zachte vaardigheden in cyberbeveiliging", "communicatievaardigheden in cyberbeveiliging", "probleemoplossing in cyberbeveiliging", "ethisch gedrag in cyberbeveiliging", "teamwork in cyberbeveiliging", "aanpassingsvermogen in cyberbeveiliging", "voortdurend leren in cyberbeveiliging", "trends in de cyberbeveiligingsindustrie", "cyberbeveiligingscertificeringen", "cyberbeveiligingsprofessionals", "beroepsvaardigheden voor cyberbeveiliging", "banenmarkt cyberbeveiliging", "professionele groei in cyberbeveiliging", "beste praktijken op het gebied van cyberbeveiliging", "risicobeoordeling cyberbeveiliging", "analyse van bedreigingen voor cyberbeveiliging", "reactie op cyberbeveiligingsincidenten", "beleidsontwikkeling cyberbeveiliging", "cyberbewustzijn", "cybernaleving", "voorschriften voor cyberbeveiliging", "cyberbeveiliging gegevensbescherming", "professionele ontwikkeling cyberbeveiliging", "cyberbeveiliging netwerken", "cyberbeveiligingsconferenties", "banen op het gebied van cyberbeveiliging", "carrière in cyberbeveiliging", "eisen voor de cyberbeveiligingsindustrie"]
-cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_prot.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_cybersecurity_professional_prot.webp"
 coverAlt: "Een cartoonillustratie van een cyberbeveiligingsprofessional die gegevens beschermt."
 coverCaption: "Beveilig je toekomst: Beheers de zachte vaardigheden voor succes in cyberbeveiliging"
 ---

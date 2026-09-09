@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Schützen Sie Ihre Kinder mit diesen Tipps und Strategien zur Internetsicherheit vor den Gefahren des Internets."
 tags: ["Sicherheit im Internet", "Online-Sicherheit", "Kindersicherheit", "elterliche Kontrolle", "Cybermobbing", "digitale Kompetenz", "Online-Raubtiere", "soziale Medien", "Gaming", "mobile Geräte", "Datenschutz", "Sicherheit", "sichere Internetnutzung", "Tipps zur Internetsicherheit", "Schutz von Kindern im Internet", "Kindererziehung im digitalen Zeitalter", "Online-Datenschutz für Kinder", "Online-Gefahren für Kinder", "sichere Internetgewohnheiten", "Erziehung zur Internetsicherheit"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Eine Karikatur eines Elternteils und eines Kindes, die gemeinsam einen Computer benutzen, wobei das Kind eine Lupe hält und das Elternteil auf den Bildschirm zeigt."
 coverCaption: ""
 ---

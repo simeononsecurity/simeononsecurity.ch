@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda lo que debe y no debe hacer para reforzar su sistema Linux, incluidas las actualizaciones, el uso de cortafuegos, la activación de SELinux o AppArmor, la configuración de políticas de contraseñas y la supervisión de los registros del sistema."
 tags: ["Seguridad en Linux", "endurecimiento del sistema", "cortafuegos", "SELinux", "AppArmor", "política de contraseñas", "actualizaciones del sistema", "registros del sistema", "módulos de seguridad", "políticas de control de acceso", "ciberseguridad", "seguridad del sistema", "seguridad de la red", "gestión de vulnerabilidades", "buenas prácticas de seguridad", "Seguridad informática", "seguridad de la información", "actualizaciones de software", "acceso root", "gestor de contraseñas"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Un candado de dibujos animados sostiene un escudo con la palabra Linux, mientras una flecha rebota en el escudo."
 coverCaption: ""
 ---

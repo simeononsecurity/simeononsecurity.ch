@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Bedeutung der Cybersicherheit in der Bildungsbranche und erfahren Sie, wie Sie sensible Schülerdaten schützen können."
 tags: ["Cybersicherheit", "Bildung", "Studentendaten", "datenschutz", "Datenschutz", "FERPA", "NIST", "HEISC", "Internet2", "SANS-Institut", "Sicherheitspolitik", "Phishing", "Bewusstseinsschulung", "Risikobewertung", "Multi-Faktor-Authentifizierung", "Verschlüsselung", "Vorfallreaktion", "Netzwerksicherheit", "sicherer Zugang", "Firewalls"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "Ein animiertes 3D-Bild mit einem Schild, das einen Laptop mit einer Abschlusskappe schützt und den Schutz von Schülerdaten in der Bildungsbranche symbolisiert."
 coverCaption: ""
 ---

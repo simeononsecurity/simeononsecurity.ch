@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "OpenAIのChatGPTモデルを、便利なコマンドラインインターフェース（CLI）を使って、テキスト生成や質問応答を簡単に行う方法をご紹介します。"
 tags: ["チャットGPT", "オープンエーアイ", "コマンドラインインターフェイス", "コマンドライン", "テキストジェネレーションズ", "質問応答", "デベロッパーツールキット", "ピップパッケージマネージャ", "パイソン3.5", "パワーシェル", "バッシュ"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "開発者がパソコンに向かい、ターミナルでChatGPT CLIを開きながらキーボードを打っている。"
 coverCaption: ""
 ---

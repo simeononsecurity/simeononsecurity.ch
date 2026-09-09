@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "データ保護のために、安全でコンプライアンスに準拠したクラウドバックアップソリューションを構築する方法をご紹介します。"
 tags: ["クラウドバックアップ", "データ復旧", "データ保護", "コンプライアンス", "GDPR", "ヒパア", "FISMA", "クラウドサービスプロバイダ", "暗号化", "アクセスコントロール", "セキュリティ", "規則", "スタンダーズ", "さいぜんのそち", "脆弱性評価", "侵入テスト", "監査法人", "リスクマネージメント", "スケーラビリティ", "モニタリング"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "雲の上にある安全な金庫をイメージした3Dアニメーションで、周囲には様々な規制のアイコン（GDPR、HIPAA、FISMA）が浮かび、データ保護を象徴する盾が描かれています。"
 coverCaption: ""
 ---

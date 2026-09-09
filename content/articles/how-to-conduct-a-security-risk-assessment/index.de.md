@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie eine gründliche Sicherheitsrisikobewertung durchführen, um die sensiblen Daten und Vermögenswerte Ihres Unternehmens zu schützen."
 tags: ["Bewertung des Sicherheitsrisikos", "Cybersecurity", "Bewertung der Anfälligkeit", "Identifizierung von Bedrohungen", "Risikomanagement", "Strategien zur Schadensbegrenzung", "Physische Sicherheit", "Informationssicherheit", "Schutz des Vermögens", "Datenschutz", "Priorisierung der Risiken", "Sicherheitsprotokolle", "IT-Systeme", "Ausbildung der Mitarbeiter", "Überprüfung der Risikobewertung", "Interne Bedrohungen", "Externe Bedrohungen", "Sicherheitsbedrohungen", "Prävention von Datenschutzverletzungen", "Risikoanalyse"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Ein Cartoon-Schild zum Schutz eines Laptops und von Sachwerten mit einem Vergrößerungsglas zur Identifizierung von Risiken."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-26
 description: "Ontdek hoe u de beste banen op afstand in cyberbeveiliging kunt vinden en bemachtigen, door gebruik te maken van flexibiliteit en wereldwijde mogelijkheden in dit groeiende vakgebied."
 tags: ["banen in cyberbeveiliging op afstand", "banen op afstand vinden", "banen op afstand veiligstellen", "carrières in cyberbeveiliging", "mogelijkheden voor werk op afstand", "online vacatureplatforms", "zoeken naar een baan in cyberbeveiliging", "balans werk-privé", "werktevredenheid", "wereldwijde banenmarkt", "strategieën voor het zoeken naar een baan", "vacaturebanken", "netwerken", "freelancen", "overheidscontracten", "technische expertise", "cyberbeveiligingscertificeringen", "probleemoplossende vaardigheden", "communicatieve vaardigheden", "zelfmotivatie", "interviews op afstand", "cv-tips", "tips voor sollicitatiebrieven", "cyberbeveiligingsfundamenten", "netwerkbeveiliging", "dreigingsinformatie", "kwetsbaarheidsbeoordeling", "reactie op incidenten", "trends in de cyberbeveiligingsindustrie", "virtuele samenwerking", "tijdmanagementvaardigheden"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.webp"
 coverAlt: "Een cartoonillustratie van een persoon die op een laptop werkt met cyberbeveiligingspictogrammen en -symbolen eromheen."
 coverCaption: "Ontsluit je toekomst in Cybersecuritybanen op afstand"
 ---

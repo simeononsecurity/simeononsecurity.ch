@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Kali Purple 2023.1の高度な機能、ツール、拡張機能を、倫理的ハッカーとサイバーセキュリティの愛好家のための包括的レビューで発見してください。"
 tags: ["Kali Linux", "カリパープル", "2023.1", "倫理的ハッキング", "侵入テスト", "サイバーセキュリティ", "用具", "エクスプロイトフレームワーク", "Kali ARMのアップデート", "Kali NetHunter（カリ・ネットハンター", "Kaliのドキュメント", "カーネルサポート", "Bluetooth対応", "リネージュオーエス", "OneUI", "ラドックス・ゼロ", "エスビーシー", "カーネルパッチ", "きょうどうきょうしゅつきん", "Kali Discord"]
-cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png"
+cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
 coverAlt: "3DアニメーションのKali Linuxのドラゴンマスコットが、様々なサイバーセキュリティやハッキングツールに囲まれ、紫のドラゴンが描かれた盾の上に座っています。"
 coverCaption: ""
 ---

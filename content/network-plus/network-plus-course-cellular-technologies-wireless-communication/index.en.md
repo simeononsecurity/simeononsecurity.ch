@@ -6,7 +6,7 @@ draft: false
 description: "Explore cellular technologies like CDMA, GSM, LTE, 3G, 4G, and 5G, along with the concepts of MIMO and MU-MIMO in wireless communication, and analyze the advancements and implications of cellular networks."
 genre: ["CompTIA Network Plus Certification Exam", "Cellular Technologies", "Wireless Communication", "CDMA", "GSM", "LTE", "3G", "4G", "5G", "MIMO", "MU-MIMO", "Advancements in Cellular Networks", "Implications of Cellular Networks"]
 tags: ["network plus", "network plus course", "network plus certification", "cellular technologies", "wireless communication", "CDMA", "GSM", "LTE", "3G", "4G", "5G", "MIMO", "MU-MIMO", "advancements", "implications", "mobile networks", "wireless networks", "internet of things", "government regulations", "network security", "data privacy", "network capacity", "network performance", "network technology", "network professionals", "telecommunications", "information technology", "networking principles"]
-cover: "/img/cover/A_symbolic_representation_of_cellular_technoloy.png"
+cover: "/img/cover/A_symbolic_representation_of_cellular_technoloy.webp"
 coverAlt: "A symbolic representation of cellular technologies and wireless communication with interconnected devices and network signals."
 coverCaption: "Unleashing the Power of Cellular Technologies in Wireless Communication"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de impact van IoT op cyberbeveiliging en leer effectieve strategieën voor de beveiliging van uw aangesloten apparaten."
 tags: ["IoT", "cyberbeveiliging", "beveiliging", "Internet der dingen", "IoT-apparaten", "netwerkbeveiliging", "gegevensbescherming", "privacy", "slimme apparaten", "beste praktijken", "IoT-risico's", "authenticatie", "firmware-updates", "controle", "industrienormen", "voorschriften", "IoT-beveiligingsrichtlijnen", "netwerksegmentatie", "dreigingslandschap", "kwetsbaarheden"]
-cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.png"
+cover: "/img/cover/A_3D_animated_image_of_a_shield_protecting_a_group.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding van een schild dat een groep aangesloten IoT-apparaten beschermt, als symbool voor het belang van cyberbeveiliging voor IoT-netwerken."
 coverCaption: ""
 ---

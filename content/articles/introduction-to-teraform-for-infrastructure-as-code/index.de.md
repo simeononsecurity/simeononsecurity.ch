@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Grundlagen von Terraform, einem beliebten Infrastructure-as-Code-Tool, kennen und erfahren Sie, wie Sie es zur effizienten Verwaltung Ihrer Infrastruktur einsetzen können."
 tags: ["Terraform", "Infrastruktur als Code", "IaC", "Cloud Computing", "DevOps", "Automatisierung", "AWS", "Azure", "Google Cloud", "Cloud-Anbieter", "Konfigurationsmanagement", "Einsatz", "Bereitstellung", "Resource Management", "Skalierbarkeit", "Resilience", "Sicherheit", "Einhaltung der Vorschriften", "Bewährte Praktiken"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Ein Cartoon-Computermonitor, auf dem mehrere mit dem Netzwerk verbundene Geräte als Bausteine erscheinen, die hinzugefügt oder entfernt werden, steht für das Infrastrukturmanagement mit Terraform."
 coverCaption: ""
 ---

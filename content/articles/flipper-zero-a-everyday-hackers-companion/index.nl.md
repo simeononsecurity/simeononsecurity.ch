@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Ontdek de verschillende gebruiksmogelijkheden van Flipper Zero, de ultieme handheld gadget voor hardware hacking, draadloze communicatie analyse en alledaagse tech behoeften."
 tags: ["Pinball Zero", "draagbaar apparaat", "hardware hacking", "reverse engineering", "analyse van draadloze communicatie", "apparaatcontrole", "veiligheidscontrole", "penetratietesten", "dagelijkse tech metgezel", "open-source", "Bluetooth", "NFC", "RFID", "IR", "emulatie", "veiligheidscontrole", "Kali Linux", "e-paper display", "QR-codes", "huisautomatisering", "beveiligingsgaten", "draadloze protocollen", "Firmware extractie", "knipperend", "foutopsporing", "systemen voor fysieke toegangscontrole", "slimme domotica systemen", "apparaatemulatie", "kwetsbaarheden van draadloze systemen", "tegenmaatregelen", "compacte gadget"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Een kleurrijke illustratie van een Flipper Zero apparaat met verschillende gereedschappen en draadloze signalen eromheen, die de veelzijdigheid en mogelijkheden symboliseren"
 coverCaption: ""
 ---

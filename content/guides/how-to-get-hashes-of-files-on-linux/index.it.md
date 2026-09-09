@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Imparate a ottenere hash SHA256, MD5 e SHA1 dei file su Linux utilizzando gli strumenti integrati, garantendo l'integrità dei dati e l'autenticità dei file."
 tags: ["Hash dei file di Linux", "hash SHA256", "hash MD5", "hash SHA1", "Linea di comando Linux", "integrità dei file", "data validation", "Sicurezza di Linux", "strumenti integrati", "file verification", "autenticità dei dati", "algoritmi di hashing dei file", "Amministrazione del sistema Linux", "strumenti a riga di comando", "checksum dei file", "Utilità Linux", "controlli di integrità dei file", "verifica dell'integrità dei dati", "esempi di hash di file", "Comandi hash di Linux", "metodi di hashing dei file", "Misure di sicurezza di Linux", "Protezione dei dati Linux", "Gestione dei file di Linux", "Linux file verification", "Integrità dei file di Linux", "sicurezza dei dati", "Linux data validation", "Sicurezza del sistema Linux", "tecniche di hashing dei file", "garanzia di integrità dei file", "convalida sicura dei file", "Linux data integrity"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Una rappresentazione digitale del calcolo degli hash dei file sullo schermo di un terminale Linux, che simboleggia l'integrità e la sicurezza dei dati."
 coverCaption: ""
 ---

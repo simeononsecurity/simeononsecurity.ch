@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les différents types d'authentification multi-facteurs et comment choisir le meilleur pour vos besoins de sécurité dans notre guide ultime."
 tags: ["authentification multifactorielle", "sécurité en ligne", "sécurité du mot de passe", "facteurs d'authentification", "authentification à deux facteurs", "jetons matériels", "authentification logicielle", "cybersécurité", "attaques par hameçonnage", "prévention du piratage informatique", "protection des données", "vérification de l'identité", "sécurité des mots de passe", "jetons de sécurité", "le contrôle d'accès", "vol d'identité", "cybermenaces", "sécurité numérique", "applications d'authentification", "cyberdéfense"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Une personne de bande dessinée se tenant devant un ordinateur, avec un symbole de cadenas au-dessus de sa tête et différents types de facteurs d'authentification, tels qu'une clé, un téléphone, une empreinte digitale, etc. flottant autour d'elle"
 coverCaption: ""
 ---

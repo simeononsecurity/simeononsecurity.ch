@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à vous protéger des menaces en ligne telles que le piratage, les campagnes de diffamation et l'usurpation d'identité grâce à ces conseils utiles."
 tags: ["cybersécurité", "sécurité en ligne", "vol d'identité", "piratage", "campagnes de dénigrement", "médias sociaux", "mots de passe", "authentification à deux facteurs", "gel du crédit"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Une personne tenant un cadenas devant un écran d'ordinateur affichant un message indiquant Protégé"
 coverCaption: ""
 ---

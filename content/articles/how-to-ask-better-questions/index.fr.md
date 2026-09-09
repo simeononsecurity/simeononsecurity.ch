@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à poser des questions précises et pertinentes et évitez de perdre du temps."
 tags: ["la productivité", "communication", "résolution de problèmes", "recherche", "conversation", "questionnement", "information", "engagement", "expertise", "gestion du temps", "connaissances", "compétences", "l'apprentissage", "collaboration", "la pensée critique", "curiosité", "se focaliser", "l'analyse", "enquête", "curiosité"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "une personne tenant un mégaphone, entouré de points d'interrogation et d'exclamation, représentant l'importance de poser des questions efficaces et de rechercher des informations utiles"
 coverCaption: ""
 ---

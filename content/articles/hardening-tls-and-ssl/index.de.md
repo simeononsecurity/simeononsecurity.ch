@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dieser Artikel beschreibt die Schritte zur Verbesserung der Datensicherheit durch die Deaktivierung älterer Versionen von SSL- und TLS-Protokollen, die für Cyber-Bedrohungen wie POODLE, BEAST und Heartbleed anfällig sind, in Windows- und Linux-Systemen."
 tags: ["Verstärkung der Computersicherheit", "Deaktivieren von SSL und TLS", "Sicherheit der Daten", "POODLE", "BEAST", "Heartbleed", "Windows-Registrierungs-Editor", "Linux OpenSSL-Konfiguration", "Apache", "Nginx"]
-cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.png"
+cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "Ein Computer mit einem Vorhängeschloss-Symbol, das für Datensicherheit steht"
 coverCaption: ""
 ---

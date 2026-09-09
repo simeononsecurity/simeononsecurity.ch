@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie mit den OWASP Top 10 die wichtigsten Sicherheitsrisiken für Webanwendungen kennen und erfahren Sie, wie Sie sich davor schützen können"
 tags: ["Sicherheit von Webanwendungen", "OWASP Top 10", "Injektionsangriffe", "Authentifizierung", "Session Management", "XSS-Angriffe", "Zugangskontrolle", "Sicherheit Fehlkonfiguration", "Kryptografische Speicherung", "Schutz der Transportschicht", "Validierung der Eingaben", "Komponenten von Drittanbietern", "Protokollierung und Überwachung", "Web-Entwicklung", "Cybersecurity", "Datenschutz", "Software-Sicherheit", "IT-Sicherheit", "Sicherheitsmaßnahmen", "Risk Management"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "Ein Cartoonbild eines Webentwicklers, der einen Superheldenumhang trägt und ein Schild hält. Das Schild schützt einen Laptop mit einer Webanwendungsschnittstelle auf dem Bildschirm."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să implementați Cadrul de securitate cibernetică NIST și cum să vă protejați organizația de amenințările cibernetice cu ajutorul ghidului nostru pas cu pas."
 tags: ["securitate cibernetică", "NIST", "cadru", "gestionarea riscurilor", "securitatea informațiilor", "amenințări cibernetice", "implementare", "cele mai bune practici", "orientări", "standarde", "atacuri cibernetice", "evaluarea riscurilor", "risc de securitate cibernetică", "protecția datelor", "conformitate", "Securitate IT", "securitatea rețelei", "răspunsul la incidente", "măsuri de securitate", "plan de securitate cibernetică"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "O imagine de desen animat a unei persoane cu un scut care blochează diverse atacuri cibernetice."
 coverCaption: ""
 ---

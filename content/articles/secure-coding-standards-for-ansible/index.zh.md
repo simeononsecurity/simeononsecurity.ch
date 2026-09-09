@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解使用 Ansible 编写安全代码的最佳实践，Ansible 是一种用于配置管理和部署的流行工具。"
 tags: ["安全编码", "Ansible", "配置管理", "部署", "最小特权原则", "Ansible Vault", "强密码", "门禁控制", "版本控制系统", "安全通信协议", "SSH", "WinRM", "TLS 证书", "清除用户输入", "输入验证", "错误处理", "安全编码实践", "代码注入", "安全编码指南", "基础设施安全", "Ansible 安全编码指南", "使用 Ansible 编写安全代码的最佳实践", "使用 Ansible 进行安全配置管理", "使用 Ansible 安全部署实践", "Ansible 中的最小权限原则", "使用 Ansible Vault 获取安全代码", "在 Ansible 中创建强密码", "Ansible 中的访问控制", "Ansible 管理程序的版本控制系统", "Ansible 中的安全通信协议", "Ansible 中的 SSH 安全性", "Ansible 中的 WinRM 安全性", "Ansible 中的 TLS 证书", "在 Ansible 中净化用户输入", "Ansible 中的输入验证", "Ansible 中的错误处理", "Ansible 中的安全编码实践", "在 Ansible 中防止代码注入", "Ansible 管理的基础设施的安全编码指南", "确保 Ansible 基础设施的安全"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.webp"
 coverAlt: "一个由盾牌保护的城堡的卡通形象，代表 Ansible 所管理的基础设施的安全措施。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le migliori pratiche di codifica sicura in Python per ridurre al minimo il rischio di violazioni della sicurezza e proteggere i dati sensibili."
 tags: ["Pitone", "Codifica sicura", "Rischi per la sicurezza", "Convalida dell'ingresso", "Librerie di crittografia", "Privilegio minimo", "Analizzatore di codice statico", "Applicazioni web", "Quadri Python", "Django", "Flash", "Sistema di autenticazione", "Hashing della password", "Sistema di template", "Gestione della sessione", "MarkupSafe", "WTForms", "Lampeggiante", "Protezione dei dati", "Vulnerabilità"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Uno scudo a fumetti con la parola Python scritta sopra per rappresentare gli standard di codifica sicuri."
 coverCaption: ""
 ---

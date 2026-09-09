@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie mit diesen Expertentipps und Maskierungsdiensten sicher online einkaufen und Ihre persönlichen Daten schützen können."
 tags: ["Online-Shopping", "sicherer elektronischer Geschäftsverkehr", "sichere Transaktionen", "Schutz der Privatsphäre", "Maskierungsdienste", "Albine Blur", "privacy.com", "Postfach", "CMRA", "sichere Passwörter", "Zwei-Faktor-Authentifizierung", "Phishing-Prävention", "vertrauenswürdige Websites", "Software-Aktualisierungen", "Verkäuferbewertungen", "öffentliches Wi-Fi", "VPN", "Online-Datenschutz", "Prävention von Identitätsdiebstahl", "Kreditkartenbetrug", "Tipps zur Cybersicherheit", "datenschutz", "Online-Sicherheitsmaßnahmen", "vorläufige Telefonnummern", "temporäre E-Mail-Adressen", "seriöse Online-Händler", "Malwareschutz", "Prävention von Cyber-Bedrohungen", "sichere Online-Transaktionen", "Sicherheit der persönlichen Daten"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_browsing_a_secure_online.webp"
 coverAlt: "Eine Cartoon-Illustration einer Person, die eine sichere Online-Shopping-Website mit einem Vorhängeschloss-Symbol und einem Schild im Hintergrund durchsucht."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Learn how to develop a comprehensive cybersecurity policy that aligns with industry standards and regulatory requirements to protect your organization's sensitive information and mitigate cyber risks."
 genre: ["Technology", "Security", "Compliance", "Risk Management", "Data Protection", "Information Governance", "Incident Response", "Business Continuity", "Cyber Threats", "Policy Development"]
 tags: ["cybersecurity policy", "cybersecurity procedures", "industry best practices", "risk management", "NIST standards", "RMF", "PCI-DSS", "HIPAA", "FISMA", "data protection", "incident response", "business continuity", "security awareness", "regulatory compliance", "cyber threats", "data security", "IT governance", "network security", "information security", "security controls", "developing cybersecurity policy", "comprehensive cybersecurity procedures", "cybersecurity policy framework", "cybersecurity regulations", "cybersecurity risk mitigation", "incident response planning", "data breach prevention", "employee security training", "cybersecurity compliance management", "data privacy and protection"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "A cartoon illustration depicting a shield protecting a network server from cyber threats."
 coverCaption: "Secure Your Network: Defend Against Cyber Threats with Effective Policies"
 ---

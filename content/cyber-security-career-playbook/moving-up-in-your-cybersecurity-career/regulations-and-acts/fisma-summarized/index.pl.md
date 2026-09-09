@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 zapewnia kompleksowy przegląd federalnej ustawy o modernizacji bezpieczeństwa informacji, w tym jej kluczowych elementów, korzyści i wymagań dla agencji federalnych."
 tags: ["FISMA", "Federalne bezpieczeństwo informacji", "Bezpieczeństwo informacji", "Zarządzanie ryzykiem", "Ocena kontroli bezpieczeństwa", "Ciągłe monitorowanie", "Reakcja na incydent", "Autoryzacja i akredytacja", "Lepsze bezpieczeństwo informacji", "Lepsze zarządzanie ryzykiem", "Zwiększona przejrzystość", "Wzmocniona współpraca", "Prawo Stanów Zjednoczonych", "Agencje federalne", "Programy bezpieczeństwa informacji", "Kontrola bezpieczeństwa", "Oceny ryzyka", "Ciągłe monitorowanie", "Incydenty bezpieczeństwa", "Przejrzystość i odpowiedzialność", "Przegląd federalnej ustawy o modernizacji bezpieczeństwa informacji", "Korzyści z FISMA w agencjach federalnych", "Zarządzanie ryzykiem w federalnym bezpieczeństwie informacji", "Ciągłe monitorowanie w FISMA", "Reagowanie na incydenty w agencjach federalnych", "Proces autoryzacji i akredytacji", "Poprawa bezpieczeństwa informacji w rządzie federalnym", "Współpraca w zakresie federalnego bezpieczeństwa informacji", "Przejrzystość w zakresie zgodności z FISMA", "Standardy bezpieczeństwa informacji dla agencji federalnych"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "Ekran komputera z kłódką, symbolizującą bezpieczeństwo i ochronę informacji, na tle kodu binarnego"
 coverCaption: ""
 ---

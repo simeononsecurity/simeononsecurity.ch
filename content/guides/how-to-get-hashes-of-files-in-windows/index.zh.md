@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "通过分步说明和示例，了解如何使用 PowerShell 在 Windows 上获取文件哈希值，包括 SHA256、MD5 和 SHA1。"
 tags: ["文件哈希值", "PowerShell", "SHA256 哈希值", "MD5 哈希值", "SHA1 哈希值", "文件完整性", "数据认证", "文件验证", "散列算法", "Windows 操作系统", "脚本语言", "命令行 shell", "数据安全", "数字取证", "网络安全", "哈希计算", "篡改文件", "数据完整性", "文件真实性", "视窗安全", "文件标识", "网络防御", "文件安全", "数据保护", "数据验证", "文件验证", "Windows PowerShell", "哈希生成", "散列算法", "哈希函数"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "一幅卡通插图，显示了一个带有锁符号和放大镜的文件，代表文件哈希验证和安全。"
 coverCaption: ""
 ---

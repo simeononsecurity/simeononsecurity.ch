@@ -6,7 +6,7 @@ draft: false
 description: "Discover the realm of a hardware hacker and explore the essential tools and techniques they use for advanced hacking."
 genre: ["Technology & Hacking", "Cybersecurity", "Hardware Hacking", "Hacker Tools", "Electronics", "Internet of Things", "DIY Hacking", "Reverse Engineering", "Microcontrollers", "Wireless Hacking"]
 tags: ["hardware hacker", "hardware hacking", "hacker hardware", "hardware hacker tools", "hardware hacking tools", "hacking tools hardware", "JTAG debugger", "logic analyzer", "Bus Pirate", "Software-Defined Radio", "SDR", "soldering iron", "microcontrollers", "Arduino", "Raspberry Pi", "ESP8266", "reverse engineering", "wireless hacking", "electronics", "cybersecurity", "DIY hacking", "hackRF", "RTL-SDR", "OpenOCD", "J-Link", "Saleae Logic", "Sigrok", "technology", "security"]
-cover: "/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.png"
+cover: "/img/cover/A_symbolic_art_style_depicting_a_hacker_surrou.webp"
 coverAlt: "A symbolic art style depicting a hacker surrounded by electronic devices, representing the world of hardware hacking."
 coverCaption: "Unlocking Possibilities: The World of a Hardware Hacker."
 ---

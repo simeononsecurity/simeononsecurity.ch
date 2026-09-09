@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți modul în care Dev Home și Dev Drive vă îmbunătățesc fluxul de lucru de dezvoltare Windows cu widget-uri personalizabile, configurarea mașinii, integrarea GitHub și stocarea optimizată."
 tags: ["Dev Home", "Dev Drive", "Dezvoltare Windows", "fluxul de dezvoltare", "widget-uri personalizabile", "configurația mașinii", "Integrarea GitHub", "stocare optimizată", "Dezvoltatorii Windows", "flux de lucru simplificat", "gestionarea codului", "monitorizarea proiectului", "optimizarea stocării", "instrumente de dezvoltare", "productivitatea dezvoltatorilor", "Mediu Windows", "Formatul de volum ReFS", "optimizarea performanțelor", "performanța sistemului de fișiere", "Depozite GitHub", "soluție de stocare", "Windows 11", "gestionarea stocării", "colaborare eficientă", "active de dezvoltare", "instrumente de productivitate", "Documente de dezvoltare Windows", "eficiența dezvoltării", "optimizarea fluxului de lucru", "Mediu de dezvoltare Windows"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "O ilustrație de desen animat care descrie un dezvoltator care lucrează într-un mediu simplificat și eficient cu instrumentele Dev Home și Dev Drive."
 coverCaption: ""
 ---

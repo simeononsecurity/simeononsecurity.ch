@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le distinzioni tra apprendimento automatico e apprendimento profondo, due potenti branche dell'IA con caratteristiche e applicazioni uniche."
 tags: ["apprendimento automatico", "apprendimento profondo", "intelligenza artificiale", "AI", "scienza dei dati", "algoritmo", "reti neurali", "ingegneria delle caratteristiche", "dati non strutturati", "alberi decisionali", "regressione logistica", "dati etichettati", "dati non etichettati", "risorse computazionali", "rilevamento delle frodi", "sistemi di raccomandazione", "manutenzione predittiva", "riconoscimento delle immagini", "elaborazione del linguaggio naturale", "scoperta del farmaco", "applicazioni aziendali", "complessità dell'algoritmo", "rappresentazione dei dati", "regolamenti governativi", "visione computerizzata", "riconoscimento facciale", "chatbot", "traduzione linguistica", "modelli di formazione", "analisi predittiva"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Illustrazione a fumetti che mostra un algoritmo di apprendimento automatico e una rete neurale di apprendimento profondo impegnati in una competizione amichevole."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore las ventajas y los retos de utilizar herramientas de seguridad de código abierto para mejorar la seguridad de su organización."
 tags: ["herramientas de seguridad de código abierto", "ciberseguridad", "apoyo comunitario", "transparencia", "ahorro de costes", "flexibilidad", "herramientas patentadas", "riesgos de seguridad", "competencias", "tasas de licencias de software", "coste total de propiedad", "apoyo comercial", "lenguajes de programación", "integración", "pruebas de seguridad", "auditoría", "NIST", "CISA", "OWASP", "Instituto Nacional de Normas y Tecnología"]
-cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_toolbox_with_open_source_logos.webp"
 coverAlt: "Una imagen de dibujos animados de una caja de herramientas con logotipos de código abierto en cada una de ellas, junto con un escudo con un candado en el centro para representar la ciberseguridad, todo ello sobre un fondo con código binario."
 coverCaption: ""
 ---

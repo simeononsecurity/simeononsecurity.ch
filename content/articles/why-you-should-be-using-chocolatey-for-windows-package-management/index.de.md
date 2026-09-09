@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Vorteile von Chocolatey für die Windows-Paketverwaltung: Automatisieren Sie Updates, sparen Sie Zeit und gewährleisten Sie die Sicherheit Ihres Systems."
 tags: ["Windows-Paketverwaltung", "Schokoladig", "Software-Aktualisierungen", "Paketmanager", "Befehlszeilenschnittstelle", "automatische Updates", "planmäßige Wartung", "Sicherheit", "Stabilität", "Integration", "staatliche Vorschriften", "Compliance", "Puppe", "Chef", "Ansible", "NuGet-Pakete", "DoD STIG", "Rationalisierung der Paketverwaltung", "Software-Schwachstellen", "Bereitstellungstools", "Windows-Updates", "Windows-Paket-Updates", "Verwaltung von Windows-Software", "Windows-Paketmanager", "Paketmanagement-Tool", "automatische Paket-Updates", "Windows-Sicherheitsupdates", "Installation des Softwarepakets", "Bereitstellung von Windows-Software", "Paketmanagementsystem", "Windows-Software-Repository", "Windows-Software-Cache"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Eine farbenfrohe Illustration, die ein Windows-Logo zeigt, das von verschiedenen Software-Symbolen umgeben ist, die eine optimierte Paketverwaltung und Updates darstellen."
 coverCaption: ""
 ---

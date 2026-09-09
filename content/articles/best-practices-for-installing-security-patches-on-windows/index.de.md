@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie kumulative Sicherheitspatches unter Windows installieren und bewährte Verfahren anwenden, um Ihr System vor Cyberangriffen zu schützen."
 tags: ["Windows", "Sicherheitspatches", "Cybersicherheit", "Systemsicherheit", "Microsoft", "kumulative Patches", "Patch-Management", "Datensicherung", "Spectre Meltdown", "Verschlüsselung", "Systemanfälligkeiten", "System-Updates", "Patch-Bereitstellung", "Nicht-Produktionsumgebungen", "Systemkonfiguration", "IT-Sicherheit", "Patch-Management-System", "Sicherheitslücken-Scanning", "Versionshinweise", "Wartung des Systems"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Ein Cartoon-Bild eines Schildes mit einem Windows-Logo darauf, das durch ein Schloss geschützt ist"
 coverCaption: ""
 ---

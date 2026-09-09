@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe threat hunting cyberaanvallen kan voorkomen en wat de voordelen en uitdagingen zijn van het implementeren ervan als proactieve cyberbeveiligingsmaatregel."
 tags: ["jacht op bedreigingen", "cyberbeveiliging", "proactieve verdediging", "cyberaanvallen", "netwerkbeveiliging", "beveiliging van eindpunten", "logboekanalyse", "gedragsanalyse", "dreigingsinformatie", "handmatig onderzoek", "geautomatiseerd onderzoek", "risicoreductie", "fout-positieven", "vereisten voor vaardigheden", "grondstofvereisten", "snellere reactietijd", "verbeterde detectie", "verminderd risico", "bankinstellingen", "gezondheidszorgverstrekkers"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Een cartooneske beveiligingsanalist met een vergrootglas, op zoek naar verborgen cyberbedreigingen op een computerscherm."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "比较 Ubiquiti Unifi 和 TP-Link Omada 网络系统，选择适合您需求的一款。"
 tags: ["无处不在", "TP链接", "联网", "统一", "大间田", "管理", "硬件", "支持", "规定", "特征", "控制", "界面", "价值", "可靠性", "表现", "可扩展性", "易于管理", "安全", "价钱", "缺点", "统一控制器", "奥马达控制器", "硬件比较", "客户支持", "额外的产品供应", "Ubiquiti Unifi vs TP-Link Omada", "基于网络的网络管理", "可扩展网络解决方案", "网络安全功能", "可靠的网络硬件", "有竞争力的网络定价"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "一侧是复杂网络的分屏图示，另一侧是易于使用的界面"
 coverCaption: ""
 ---

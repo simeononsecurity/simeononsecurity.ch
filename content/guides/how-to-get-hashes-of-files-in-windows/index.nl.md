@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Leer hoe u met PowerShell hashes van bestanden in Windows verkrijgt, waaronder SHA256, MD5 en SHA1, met stapsgewijze instructies en voorbeelden."
 tags: ["bestandshashes", "PowerShell", "SHA256 hash", "MD5 hash", "SHA1 hash", "bestandsintegriteit", "gegevensauthenticatie", "bestandsverificatie", "hashing-algoritmen", "Windows-besturingssysteem", "scripttaal", "commandoregel", "gegevensbeveiliging", "digitaal forensisch onderzoek", "cyberbeveiliging", "hashberekening", "geknoei met bestanden", "gegevensintegriteit", "authenticiteit van het bestand", "Windows beveiliging", "bestandsidentificatie", "cyberdefensie", "bestandsbeveiliging", "gegevensbescherming", "gegevenscontrole", "bestandsvalidatie", "Windows PowerShell", "hash generatie", "hash-algoritmen", "hashfuncties"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "Een cartoonillustratie van een bestand met een slotsymbool en een vergrootglas, voor verificatie en beveiliging van de hash van een bestand."
 coverCaption: ""
 ---

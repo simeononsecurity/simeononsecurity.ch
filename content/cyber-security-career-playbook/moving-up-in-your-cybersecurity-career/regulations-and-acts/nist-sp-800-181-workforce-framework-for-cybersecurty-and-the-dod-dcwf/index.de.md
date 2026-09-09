@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Entdecken Sie die umfassenden Bewertungs- und Entwicklungsrahmen für Cybersicherheitspersonal: NICE und DoD DCWF, die Organisationen mit qualifizierten Fachkräften versorgen."
 tags: ["Arbeitskräfteentwicklung", "Cybersicherheit", "NICE-Rahmen", "DoD DCWF-Rahmen", "Kompetenzbilanz", "berufliche Entwicklung", "Cybersicherheitspersonal", "Karrierewege", "Cybersicherheitsausbildung", "Anpassung der Belegschaft", "Personalrahmen", "NIST", "staatliche Vorschriften", "Cybersicherheits-Zertifizierungen", "Industriestandards", "Talentmanagement", "Cybersicherheitsrollen", "Cybersicherheitskompetenzen", "Entwicklung von Arbeitskräften im Bereich der Cybersicherheit", "Cybersicherheitsfachleute", "Cybersicherheitsfähigkeiten", "Arbeitskräfteplanung", "Rekrutierung im Bereich Cybersecurity", "Widerstandsfähigkeit der Arbeitskräfte", "Cybersicherheitsschulung", "Belegschaftsstrategie", "Cybersecurity-Arbeitsmarkt", "Karriereförderung im Bereich Cybersicherheit", "Einsatzbereitschaft der Arbeitskräfte"]
-cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.png"
+cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"
 coverAlt: "Eine Gruppe verschiedener Fachleute arbeitet gemeinsam an einem Cybersicherheitsprojekt."
 coverCaption: "Potenzial freisetzen: Befähigung von Cybersecurity-Fachleuten zum Erfolg"
 ---

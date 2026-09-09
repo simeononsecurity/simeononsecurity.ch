@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Risiken, die von Remote-Access-Trojanern (RATs) ausgehen, und lernen Sie wirksame Präventions- und Schutzmaßnahmen zum Schutz Ihrer Computersysteme und Daten kennen."
 genre: ["Cybersecurity", "Bösartige Software", "Computer-Sicherheit", "Digitale Bedrohungen", "Trojaner für den Fernzugriff", "Datenschutz", "Datenschutz", "Cyberkriminalität", "Netzwerksicherheit", "Informationssicherheit"]
 tags: ["Trojaner für den Fernzugriff", "RATs", "Cybersicherheit", "bösartige Software", "Computersicherheit", "digitale Bedrohungen", "datenschutz", "Verletzung der Privatsphäre", "unbefugte Überwachung", "Systemunterbrechung", "Identitätsdiebstahl", "Finanzbetrug", "Bewusstsein für Cybersicherheit", "Netzwerksicherheit", "Informationssicherheit", "Software-Schwachstellen", "Phishing-Mails", "Datendiebstahl", "Systemmanipulation", "Fernsteuerung", "Cybersicherheitsmaßnahmen", "Endpunktschutz", "sichere Passwörter", "Firewall", "Einbruchserkennung", "Datensicherung", "Datensicherheit", "Cyber-Bedrohungen", "digitale Sicherheit", "Cyber-Abwehr"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "Eine symbolische Darstellung eines verschlossenen Computers mit Ketten, die die Notwendigkeit eines Schutzes gegen Fernzugriffstrojaner verdeutlicht."
 coverCaption: "Schützen Sie Ihre digitale Festung."
 ---

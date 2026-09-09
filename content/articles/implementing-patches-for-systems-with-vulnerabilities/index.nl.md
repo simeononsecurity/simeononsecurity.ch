@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Leer hoe u beveiligingspatches voor kwetsbare servers kunt implementeren met best practices en kwaadaardige aanvallen kunt voorkomen."
 tags: ["Serverbeveiliging", "Beheer van kwetsbaarheden", "Patchbeheer", "Cyberbeveiliging", "Server patchen", "Bedreigingslandschap", "Penetratietesten", "Beveiligingsupdates", "Software patches", "IT-beveiliging", "Gegevensbescherming", "Systeembeveiliging", "Risicobeheer", "Veiligheidsbeleid", "Staging-omgevingen", "Kwetsbaarheden in software", "Kritieke patches", "Verkoper patches", "Veiligheidsbulletins", "Informatiebeveiliging"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Een cartoonafbeelding van een persoon die een schild vasthoudt en de wacht houdt voor een serverruimte om de bescherming en beveiliging weer te geven die het implementeren van patches biedt."
 coverCaption: ""
 ---

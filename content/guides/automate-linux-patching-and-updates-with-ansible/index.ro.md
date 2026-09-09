@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să automatizați corecțiile și actualizările Linux folosind Ansible, acoperind diverse distribuții și instrucțiuni de configurare."
 tags: ["Patch-uri Linux", "Automatizare Ansible", "automatizarea actualizărilor", "întreținerea sistemului", "automatizare IT", "managementul patch-urilor", "securitate Linux", "Debian", "Ubuntu", "RHEL", "alpin", "stabilitatea sistemului", "atenuarea vulnerabilității", "infrastructură IT", "instrument de automatizare", "Ansible playbook", "configurația gazdei", "actualizări software", "conformitatea cu securitatea", "operațiuni IT", "Actualizări Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualizări offline", "depozit local", "cache", "configurarea serverului", "configurarea clientului", "apt-oglindă", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Actualizări de sistem Linux", "actualizări de pachete offline", "actualizări de software offline", "depozitul local de pachete", "cache-ul pachetului local", "actualizări offline Linux", "gestionarea actualizărilor offline", "metode de actualizare offline", "întreținere offline a sistemului", "Actualizări de server Linux", "Actualizări ale clientului Linux", "management software offline", "gestionarea pachetelor offline", "strategii de actualizare", "Actualizări de securitate Linux"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "O imagine colorată, în stil de desene animate, înfățișând un robot care aplică patch-uri unui grup de servere Linux."
 coverCaption: ""
 ---

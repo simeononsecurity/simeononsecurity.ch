@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["تحديثات Linux", "أوبونتو", "ديبيان", "CentOS", "RHEL", "التحديثات في وضع عدم الاتصال", "المستودع المحلي", "مخبأ", "إعداد الخادم", "إعداد العميل", "مرآة مناسبة", "debmirror", "مبتدئ", "apt-cacher-ng", "يم كرون", "تحديثات نظام Linux", "تحديثات الحزمة في وضع عدم الاتصال", "تحديثات البرامج في وضع عدم الاتصال", "مستودع الحزم المحلي", "ذاكرة التخزين المؤقت للحزمة المحلية", "تحديثات Linux في وضع عدم الاتصال", "التعامل مع التحديثات في وضع عدم الاتصال", "طرق التحديث حاليا", "صيانة النظام حاليا", "تحديثات خادم Linux", "تحديثات عميل Linux", "إدارة البرامج في وضع عدم الاتصال", "إدارة الحزمة حاليا", "تحديث الاستراتيجيات", "تحديثات أمان Linux"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "رسم توضيحي للرسوم المتحركة يصور خادمًا وأجهزة عميل متعددة تتبادل التحديثات في وضع عدم الاتصال."
 coverCaption: ""
 ---

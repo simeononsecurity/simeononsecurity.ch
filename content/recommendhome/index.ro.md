@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Explorați recomandările experților SimeonOnSecurity pentru produse și resurse de securitate și confidențialitate de încredere și foarte apreciate."
 tags: ["recomandări de securitate", "produse de confidențialitate", "instrumente de securitate cibernetică", "protejarea datelor", "confidențialitatea internetului", "anti-virus", "cărți", "pluginuri de browser", "certificari", "furnizorii de e-mail", "transport în fiecare zi", "trusa de instrumente pentru hackeri", "Căști", "microfoane", "difuzoare", "resurse de învățare", "clienți de mesagerie", "organizații să sprijine", "resurse de confidențialitate", "Furnizorii SIP DID VOIP"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "O imagine în stil de desene animate a unui scut cu un lacăt pe el pentru a simboliza securitatea și protecția vieții private, cu un laptop sau un dispozitiv mobil în fundal."
 coverCaption: ""
 ---

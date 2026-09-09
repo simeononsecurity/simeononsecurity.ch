@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-07
 description: "Aflați cum să configurați un cripto miner cu venituri pasive cu putere redusă folosind un Raspberry Pi sau Intel NUC și să câștigați 10-20 USD pe lună pe cutie cu acest ghid"
 tags: ["Construiți o cutie de venit pasiv profitabilă", "Hardware cu putere redusă", "Venit pasiv", "Crypto Miner", "Raspberry Pi", "Intel NUC", "Ghid", "Cerințe hardware", "Instalare OS", "Instalarea software-ului", "Docher", "Actualizări automate ale containerelor Docker", "Ubuntu Server", "Desktop Ubuntu", "Raspbian", "Buget", "USFF", "Micut", "Mini", "Micro PC", "Experiență tehnică", "EarnApp", "MYST", "Peer2Profit", "HoneyGain", "TraffMonitizer", "Turnul de veghe", "Mușcătură", "Actualizări Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualizări offline", "depozit local", "cache", "configurarea serverului", "configurarea clientului", "apt-oglindă", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Actualizări de sistem Linux", "actualizări de pachete offline", "actualizări de software offline", "depozitul local de pachete", "memoria cache locală a pachetelor", "actualizări offline Linux", "gestionarea actualizărilor offline", "metode de actualizare offline", "întreținerea sistemului offline", "Actualizări de server Linux", "Actualizări ale clientului Linux", "management software offline", "gestionarea pachetelor offline", "strategii de actualizare", "Actualizări de securitate Linux"]
-cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.png"
+cover: "/img/cover/A_green_circuit_board_shaped_like_a_box_with_internet.webp"
 coverAlt: "o placă de circuit verde, în formă de cutie, cu simboluri de conectare la internet ca fire conectate la ea."
 coverCaption: ""
 ---

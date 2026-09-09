@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the importance of cybersecurity in the education industry and learn how to protect sensitive student data."
 tags: ["cybersecurity", "education", "student data", "data protection", "privacy", "FERPA", "NIST", "HEISC", "Internet2", "SANS Institute", "security policies", "phishing", "awareness training", "risk assessment", "multi-factor authentication", "encryption", "incident response", "network security", "secure access", "firewalls"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "A 3D animated image featuring a shield protecting a laptop displaying a graduation cap, symbolizing the protection of student data in the education industry."
 coverCaption: ""
 ---

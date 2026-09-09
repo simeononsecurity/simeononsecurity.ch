@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i vantaggi della Continuous Integration e del Continuous Deployment (CI CD) nello sviluppo del software, migliorando la collaborazione, la qualità e la velocità."
 tags: ["integrazione continua", "distribuzione continua", "CI CD", "sviluppo software", "collaborazione", "comunicazione", "ciclo di feedback", "rilevamento di bug", "software quality", "affidabilità", "tempo di commercializzazione", "gestione del rischio", "scalability", "flessibilità", "test automatizzati", "sviluppo agile", "DevOps", "produttività del team", "rilasci di software", "automazione della distribuzione", "automazione dei test", "consegna rapida del software", "metodologie agili", "gestione del rilascio", "ingegneria del software", "team agili", "miglioramento continuo", "test del software", "pipeline di distribuzione", "processo di distribuzione", "ciclo di vita dello sviluppo del software"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Un'illustrazione a fumetti colorata che mostra gli sviluppatori che collaborano e distribuiscono il software in modo rapido ed efficiente con strumenti e processi di CI CD."
 coverCaption: ""
 ---

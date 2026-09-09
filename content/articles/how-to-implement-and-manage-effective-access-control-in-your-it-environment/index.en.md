@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect sensitive data and systems by implementing effective access control measures for your IT environment."
 tags: ["Access control", "IT security", "Cybersecurity", "Passwords", "Biometric authentication", "Role-based access control", "Multi-factor authentication", "Data protection", "Risk assessment", "Employee training", "Auditing tools", "Reporting tools", "Penetration testing", "Vulnerability assessment", "Physical access control", "Logical access control", "Compliance regulations", "HIPAA", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "A locked door with a fingerprint scanner as the only means to gain entry."
 coverCaption: ""
 ---

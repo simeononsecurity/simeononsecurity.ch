@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Bescherm uw kinderen tegen online gevaren met deze tips en strategieën voor internetveiligheid."
 tags: ["Veiligheid op het internet", "online veiligheid", "kinderveiligheid", "ouderlijk toezicht", "cyberpesten", "digitale geletterdheid", "online roofdieren", "sociale media", "gaming", "mobiele apparaten", "privacy", "beveiliging", "veilig internetgebruik", "tips voor internetbeveiliging", "bescherming van kinderen online", "ouderschap in het digitale tijdperk", "online privacy voor kinderen", "online gevaren voor kinderen", "veilige internetgewoonten", "voorlichting over internetveiligheid"]
-cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_parent_and_child_using_a_computer.webp"
 coverAlt: "Een cartoonbeeld van een ouder en een kind die samen een computer gebruiken, waarbij het kind een vergrootglas vasthoudt en de ouder naar het scherm wijst."
 coverCaption: ""
 ---

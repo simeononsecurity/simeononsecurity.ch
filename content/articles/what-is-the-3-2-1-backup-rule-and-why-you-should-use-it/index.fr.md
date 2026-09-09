@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à protéger vos données précieuses contre les cyberattaques, les catastrophes naturelles et les défaillances matérielles."
 tags: ["stratégie de sauvegarde", "protection des données", "cybersécurité", "redondance des données", "prévention de la perte de données", "récupération des données", "conformité", "disques durs externes", "services de stockage en nuage", "stockage en réseau", "logiciel de sauvegarde", "sauvegardes automatisées", "la sécurité des données", "reprise après sinistre", "sauvegarde hors site", "sauvegardes redondantes", "meilleures pratiques en matière de sauvegarde", "solutions de sauvegarde", "types de stockage", "sécurité des données"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Un personnage de bande dessinée avec une cape tenant un bouclier sur lequel figure le chiffre 3, debout au-dessus de deux boîtes de stockage, l'une représentant un disque dur et l'autre un nuage, et pointant vers un globe représentant le stockage hors site."
 coverCaption: ""
 ---

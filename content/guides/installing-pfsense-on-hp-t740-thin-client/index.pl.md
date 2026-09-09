@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Dowiedz się, jak skonfigurować pfSense na cienkim kliencie HP t740 i jak rozwiązywać potencjalne problemy, takie jak zamrażanie i problemy z wykrywaniem dysków SSD."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "cienki klient", "serwer domowy", "PPPoE", "FreeBSD", "zachęta do uruchomienia systemu", "loader.conf.local", "nano edytor", "Wykrywanie dysków SSD", "M.2 SSD", "Western Digital", "rozwiązywanie problemów", "poinstalacyjne", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Kreskówka z czarodziejem rzucającym zaklęcie, aby naprawić zamrożony komputer, z dymkiem mówiącym o rozwiązaniu problemu"
 coverCaption: ""
 ---

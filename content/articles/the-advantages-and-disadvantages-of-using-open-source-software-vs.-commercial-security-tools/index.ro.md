@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explorați avantajele și dezavantajele instrumentelor de securitate open-source și comerciale, ajutându-vă să luați decizii în cunoștință de cauză pentru strategia de securitate a organizației dumneavoastră."
 tags: ["securitate open-source", "instrumente comerciale de securitate", "eficiența costurilor", "flexibilitate", "personalizare", "sprijin comunitar", "sprijin limitat", "documentație", "provocări de integrare", "calitate și fiabilitate", "integrare fără cusur", "blocarea furnizorului", "Resurse IT", "infrastructura de securitate", "soluții de securitate", "constrângeri bugetare", "cerințe unice", "compatibilitate software", "obiective de securitate", "luarea deciziilor"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "O imagine în stil de desen animat cu două personaje contrastante reprezentând instrumente de securitate open-source și comerciale, aflate pe părțile opuse ale unei balanțe echilibrate, simbolizând avantajele și dezavantajele fiecărei opțiuni."
 coverCaption: ""
 ---

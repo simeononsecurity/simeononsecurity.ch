@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the history, working principles, and applications of the T9 cipher, a groundbreaking predictive text input technology used in early mobile phones."
 tags: ["T9 cipher", "text input technology", "predictive text", "mobile phones", "numeric keypad", "Tegic Communications", "multi-tap input", "statistical language models", "mobile communication", "SMS messaging", "touchscreen smartphones", "virtual keyboards", "history of T9", "T9 software", "typing on numeric keypads", "word prediction", "word suggestions", "efficiency in text input", "improving typing speed", "reducing keypresses", "language prediction algorithm", "early mobile phone technology", "evolution of text input", "mobile device communication", "importance of T9 cipher", "text input revolution", "mobile phone usability", "T9 predictive algorithm", "T9 dictionary", "predictive text accuracy"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "A colorful illustration depicting a smartphone with a numeric keypad and text bubbles, symbolizing the T9 cipher's impact on mobile communication."
 coverCaption: ""
 ---

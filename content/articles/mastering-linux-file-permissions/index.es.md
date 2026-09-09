@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Domine los permisos de archivos de Linux para garantizar un sistema de archivos seguro con esta completa guía que abarca la propiedad, el control de acceso y las mejores prácticas."
 tags: ["Permisos de archivos en Linux", "sistema de archivos seguro", "control de acceso", "propiedad", "guía de permisos de archivos", "Seguridad en Linux", "seguridad del sistema de archivos", "comando chmod", "comando chown", "auditoría de permisos de archivos", "Principio del menor privilegio", "cumplimiento de la normativa", "GDPR", "HIPAA", "auditoría de permisos de archivos", "documentar la normativa", "seguridad del sistema", "seguridad de la red", "codificación", "gestión de usuarios"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Una imagen de dibujos animados que representa un archivador cerrado con diferentes llaves que representan los permisos de usuario, grupo y otros."
 coverCaption: ""
 ---

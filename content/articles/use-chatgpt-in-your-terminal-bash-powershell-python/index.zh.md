@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何通过方便的命令行界面 (CLI) 使用 OpenAI 的 ChatGPT 模型轻松生成文本和回答问题。"
 tags: ["聊天GPT", "开放人工智能", "命令行界面", "命令行界面", "文本生成", "问答", "开发工具包", "pip 包管理器", "Python 3.5", "电源外壳", "狂欢"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "一位开发人员坐在他们的计算机前，在终端上打开 ChatGPT CLI 的情况下在键盘上打字。"
 coverCaption: ""
 ---

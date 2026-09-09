@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a costruire un'infrastruttura resiliente dal punto di vista informatico con una pianificazione efficace del disaster recovery e con le migliori pratiche."
 tags: ["resilienza informatica", "pianificazione del ripristino in caso di disastro", "DRP", "gestione del rischio", "continuità aziendale", "protezione dei dati", "conformità normativa", "Quadro di sicurezza informatica NIST", "HIPAA", "SOX", "PCI DSS", "GLBA", "FERPA", "backup nel cloud", "software di backup e ripristino", "strumenti di valutazione del rischio", "servizi di risposta agli incidenti", "sicurezza informatica", "sicurezza delle informazioni", "Infrastruttura IT"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "Uno scudo con un segno di spunta e la scritta Cyber Resilient Infrastructure, circondato da pixel in caduta e dallo sfondo di una città in fiamme."
 coverCaption: ""
 ---

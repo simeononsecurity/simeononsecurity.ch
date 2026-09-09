@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj kompleksowe szkolenia i praktyczne wyzwania oferowane przez Hackthebox Academy, aby uwolnić swój potencjał w zakresie cyberbezpieczeństwa i zwiększyć swoje umiejętności."
 genre: ["Szkolenie w zakresie cyberbezpieczeństwa", "Praktyczne laboratoria", "Ćwiczenia praktyczne", "Ścieżki kształcenia", "Współpraca społeczności", "Umiejętności w zakresie cyberbezpieczeństwa", "Platforma internetowa", "Rzeczywiste scenariusze", "Samouczki i dokumentacja", "Subskrypcja Premium"]
 tags: ["akademia hackthebox", "szkolenie w zakresie cyberbezpieczeństwa", "praktyczne laboratoria", "ćwiczenia praktyczne", "ścieżki kształcenia", "współpraca społeczności", "umiejętności w zakresie cyberbezpieczeństwa", "platforma internetowa", "Rzeczywiste scenariusze", "samouczki i dokumentacja", "subskrypcja premium", "hackthebox academy login", "koszt akademii hackthebox", "hackthebox academy cena", "strona akademii hackthebox", "Cechy akademii hackthebox", "wyzwania związane z cyberbezpieczeństwem", "bezpieczeństwo sieci", "bezpieczeństwo aplikacji internetowych", "kryptografia", "testy penetracyjne", "inżynieria odwrotna", "informatyka śledcza", "społeczność cyberbezpieczeństwa", "entuzjaści cyberbezpieczeństwa", "cyberzagrożenia", "Ekspertyza w zakresie cyberbezpieczeństwa", "cennik akademii hackthebox", "regulacje rządowe"]
-cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.png"
+cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.webp"
 coverAlt: "Grupa różnorodnych osób pracujących razem nad rozwiązywaniem wyzwań związanych z cyberbezpieczeństwem w Hackthebox Academy."
 coverCaption: "Uwolnij swój potencjał cyberbezpieczeństwa dzięki Hackthebox Academy!"
 ---

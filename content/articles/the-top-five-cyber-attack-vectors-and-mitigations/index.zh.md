@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何保护自己和企业免受最常见的网络攻击载体，包括社交工程、恶意软件、拒绝服务攻击、密码攻击和网络应用程序攻击。"
 tags: ["网络安全", "网络攻击", "社会工程", "恶意代码", "拒绝服务", "密码攻击", "网络应用攻击", "安全意识", "垃圾邮件过滤器", "多因素认证", "杀毒软件", "防火墙", "僵尸网络", "CDN", "反DDoS服务", "网络性能", "脆弱性", "保护", "降低风险", "信息安全"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "这是一幅卡通插图，一个手持盾牌的人站在电脑前，各种攻击载体正向他们袭来。"
 coverCaption: ""
 ---

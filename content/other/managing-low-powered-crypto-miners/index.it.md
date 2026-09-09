@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Esplora le best practice e gli strumenti per la gestione di una flotta di minatori a bassa potenza, tra cui remote.it, ngrok, OpenVPN, WireGuard e altri."
 tags: ["minatori a bassa potenza", "accesso remoto", "sicurezza della rete", "openvpn", "wireguard", "sbuffare", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Un'immagine cartoon di più minatori a bassa potenza collegati a un hub di rete con gli strumenti discussi nell'articolo."
 coverCaption: ""
 ---

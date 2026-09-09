@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je jezelf kunt beschermen tegen cyberstalking en houd jezelf veilig online met deze tips en technieken."
 tags: ["cyberstalking", "online veiligheid", "internetbeveiliging", "preventie van stalking", "persoonlijke veiligheid", "online privacy", "cyberbeveiliging", "digitale veiligheid", "internetveiligheid", "cyberpesten", "intimidatie", "slachtofferbescherming", "juridische procedure", "counseling", "geestelijke gezondheid", "veiligheid van sociale media", "online intimidatie", "online stalking", "wetshandhaving", "privacybescherming"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Een persoon kijkt naar zijn telefoon met een bezorgde uitdrukking terwijl een schimmige figuur op de achtergrond opdoemt."
 coverCaption: ""
 ---

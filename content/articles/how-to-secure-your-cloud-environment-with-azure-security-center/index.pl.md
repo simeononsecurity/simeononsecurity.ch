@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zabezpieczyć środowisko chmurowe za pomocą Azure Security Center, korzystając z najlepszych praktyk i rzeczywistych przykładów."
 tags: ["Lazurowy", "Centrum Bezpieczeństwa", "bezpieczeństwo w chmurze", "Lazurowy Sentinel", "Azure Defender", "bezpieczeństwo sieci", "zarządzanie tożsamością", "bezpieczeństwo danych", "wykrywanie zagrożeń", "reagowanie na zagrożenia", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Ochrona informacji w środowisku Azure", "Szyfrowanie usługi Azure Storage", "Szyfrowanie dysków w środowisku Azure"]
-cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png"
+cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "Ikona tarczy otoczona symbolami chmur, reprezentująca bezpieczne środowisko chmurowe, z logo Azure Security Center na tarczy."
 coverCaption: ""
 ---

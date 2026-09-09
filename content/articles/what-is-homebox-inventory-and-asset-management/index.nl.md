@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van Homebox, open-source software voor efficiënt inventaris- en activabeheer, waardoor de productiviteit van je huis of klein bedrijf toeneemt."
 genre: ["Technologie", "Voorraadbeheer", "Vermogensbeheer", "Open Bron", "Productiviteit", "Klein Bedrijf", "Home Beheer", "Zelf gehost", "Software", "Organisatie"]
 tags: ["Thuisbox", "voorraadbeheer", "vermogensbeheer", "open bron", "zelf gehost", "software", "productiviteit", "klein bedrijf", "woningbeheer", "organisatie", "gecentraliseerde inventaris", "het volgen van activa", "aangepaste gegevensvelden", "reminders", "rapportage", "gegevensprivacy", "naleving", "overheidsvoorschriften", "webserver", "database", "installatieproces", "GitHub opslagplaats", "gegevensbeveiliging", "privacy", "administratie", "privacy en beveiliging van gegevens", "installatie-instructies", "web-interface", "gegevensprivacy", "naleving van lokale wetten"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Een cartoonillustratie van een persoon die verschillende items organiseert met Homebox-software."
 coverCaption: "Stroomlijn je inventaris en bedrijfsmiddelen met Homebox en verhoog je efficiëntie!"
 ---

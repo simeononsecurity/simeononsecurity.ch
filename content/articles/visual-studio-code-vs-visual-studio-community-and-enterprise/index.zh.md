@@ -6,7 +6,7 @@ draft: false
 description: "探索 Visual Studio Code、Visual Studio Community 和 Visual Studio Enterprise 之间的差异，以确定满足您开发需求的理想选择。"
 genre: ["软件开发", "集成开发环境（IDE）", "微软开发工具", "代码编辑器", "开发平台", "软件比较", "编程语言", "合作发展", "企业软件开发", "代码调试"]
 tags: ["Visual Studio 代码", "Visual Studio 社区", "Visual Studio 企业版", "IDE", "代码编辑器", "软件开发", "微软", "编程语言", "合作发展", "企业发展", "性能剖析", "调试", "测试", "建筑分析", "代码度量", "版本控制", "软件比较", "跨平台", "扩展", "集成终端", "Azure 集成", "SQL 服务器", "Azure DevOps", "云计算开发", "持续集成", "持续交付", "开发工作流程", "生产率", "开发工具", "软件工程"]
-cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_developers_using_Visual_St.webp"
 coverAlt: "一幅卡通插图，描绘了开发人员使用 Visual Studio Code 和 Visual Studio Community 协作开发代码的情景。"
 coverCaption: "利用 Visual Studio Code 和 Visual Studio Community 释放你的开发潜能。"
 ---

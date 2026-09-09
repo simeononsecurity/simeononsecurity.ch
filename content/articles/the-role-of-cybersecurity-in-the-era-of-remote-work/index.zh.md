@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "一本全面的指南，帮助企业确保其远程员工在远程工作时代的安全。"
 tags: ["网络安全", "远程工作", "数据泄露", "虚拟专用网", "双因素认证", "安全措施", "安全通信", "网络威胁", "杀毒软件", "钓鱼电子邮件", "密码管理", "在家工作", "数据保护", "在线安全", "员工安全", "远程劳动力", "网络罪犯", "视频会议", "加密传输", "虚拟专用网络"]
-cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_laptop_with_a_lock_on_it.webp"
 coverAlt: "一幅笔记本电脑的卡通插图，上面有一把锁，背景是代表网络安全的盾牌和剑。"
 coverCaption: ""
 ---

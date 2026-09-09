@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Découvrez les meilleures pratiques et outils pour gérer une flotte de mineurs à faible puissance, notamment remote.it, ngrok, OpenVPN, WireGuard, etc."
 tags: ["mineurs de faible puissance", "accès à distance", "sécurité Internet", "openvpn", "grillage", "renifler", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Une image de dessin animé de plusieurs mineurs de faible puissance connectés à un concentrateur de réseau avec les outils décrits dans l'article."
 coverCaption: ""
 ---

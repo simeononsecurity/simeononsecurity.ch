@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de werking van het RSA-cijferalgoritme en het belang ervan voor veilige communicatie."
 tags: ["RSA-codering", "asymmetrische encryptie", "openbare sleutel cryptografie", "encryptie-algoritme", "RSA-sleutelgeneratie", "modulair rekenen", "Euler's totient functie", "priemgetallen", "modulaire exponentiatie", "cijfertekst", "platte tekst", "RSA beveiliging", "veilige communicatie", "digitale handtekeningen", "veilig surfen op het web", "overheidsvoorschriften inzake RSA", "NIST-richtsnoeren inzake RSA", "eIDAS-verordening", "encryptiestandaarden", "gegevensbescherming", "cryptografie", "informatiebeveiliging", "beveiligde berichtgeving", "gecodeerde e-mail", "HTTPS", "RSA in veilige communicatie", "RSA in digitale handtekeningen", "sterke punten van RSA", "zwakke punten van RSA", "computationele complexiteit van RSA", "sleutellengte in RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Een symbolische afbeelding van het RSA-cijferalgoritme met slot- en sleutelsymbolen, die het concept van veilige communicatie en vercijfering weergeven."
 coverCaption: ""
 ---

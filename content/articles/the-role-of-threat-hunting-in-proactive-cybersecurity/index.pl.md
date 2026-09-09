@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, w jaki sposób wyszukiwanie zagrożeń może zapobiegać cyberatakom oraz jakie korzyści i wyzwania wiążą się z wdrożeniem go jako proaktywnego środka cyberbezpieczeństwa."
 tags: ["polowanie na zagrożenia", "cyberbezpieczeństwo", "proaktywna obrona", "cyberataki", "bezpieczeństwo sieci", "bezpieczeństwo punktów końcowych", "analiza dziennika", "analiza behawioralna", "analiza zagrożeń", "ręczne dochodzenie", "zautomatyzowane dochodzenie", "redukcja ryzyka", "fałszywe alarmy", "wymagania dotyczące zestawu umiejętności", "wymagania dotyczące zasobów", "Krótszy czas reakcji", "ulepszone wykrywanie", "zmniejszone ryzyko", "instytucje finansowe", "dostawcy opieki zdrowotnej"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Rysunkowy analityk bezpieczeństwa trzymający szkło powiększające, szukający ukrytych cyberzagrożeń na ekranie komputera."
 coverCaption: ""
 ---

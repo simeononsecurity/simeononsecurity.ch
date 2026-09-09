@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lees meer over het kwalificatie- en beheerprogramma voor Cyberspace-werknemers van het DoD, beschreven in Handleiding 8140.03."
 tags: ["DoD-handleiding 8140.03", "cyberspace-werknemers", "kwalificatieprogramma", "DoD-personeel", "cyberbeveiliging", "kwalificatie cyberspace", "beheer van cyberspace", "ontwikkeling van arbeidspotentieel in cyberspace", "Beleid DoD cyberspace", "personeelsbestand cyberbeveiliging", "kwalificaties op het gebied van cyberbeveiliging", "cyberbeveiligingstraining", "onderwijs in cyberbeveiliging", "cyberbeveiligingscertificeringen", "cyberbeveiligingsrollen", "cyberbeveiligingswerkrollen", "beheer van cyberpersoneel", "kwalificaties voor cyberspace-rollen", "cyber-personeelsbeheer", "cyberkwalificatieprogramma", "cyber-professionele ontwikkeling", "bekwaamheid van personeel in cyberspace", "cyberpersoneelscertificeringen", "cyberopleidingseisen", "cyberbeveiligingsnormen", "competentie van personeel in cyberspace", "verdediging tegen cyberdreigingen", "beveiliging van informatiesystemen", "netwerkbeveiliging"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Een computerscherm met een cyberbeveiligingsdashboard met grafieken en diagrammen die de staat van de beveiliging van een netwerk weergeven"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Reaktion auf Vorfälle und den Umgang mit Cybersecurity-Vorfällen mit diesem Leitfaden für Einsteiger."
 tags: ["Vorfallreaktion", "Cybersicherheit", "Einsteigerhandbuch", "datenschutz", "Datensicherheit", "IT-Sicherheit", "Netzwerksicherheit", "Cyber-Angriffe", "Informationssicherheit", "Internetkriminalität", "digitale Sicherheit", "IT-Infrastruktur", "Datenschutzverletzungen", "Cyber-Bedrohungen", "Cyber-Abwehr", "Vorfallsmanagement", "Datenwiederherstellung", "Sicherheitsplanung", "Risikomanagement", "Cybersicherheitsstrategie"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "Ein Cartoonbild eines Cybersecurity-Superhelden, der eine Stadt gegen Cyberbedrohungen verteidigt."
 coverCaption: ""
 ---

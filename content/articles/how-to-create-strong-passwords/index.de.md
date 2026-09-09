@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Lernen Sie, wie Sie sichere Passwörter erstellen, Passphrasen verwenden und sie mit Passwortmanagern wie Bitwarden sicher verwalten."
 tags: ["sichere Passwörter", "Passwortsicherheit", "Passphrasen", "Passwort-Manager", "Bitwarden", "Online-Sicherheit", "Cybersicherheit", "Passwortstärke", "datenschutz", "digitale Sicherheit", "bewährte Kennwortpraktiken", "Passwort-Tipps", "sichere Passwörter", "Passwortmanagement-Tools", "Online-Datenschutz", "Schutz von Konten", "Datensicherheit", "Passwortkomplexität", "Passwort-Generator", "Zwei-Faktor-Authentifizierung", "Erstellung sicherer Passwörter", "Leitfaden zur Passwortverwaltung", "Tipps zur Passwortsicherheit", "Erstellung sicherer Passwörter", "Passwortschutz", "sichere Passwortverwaltung", "Vorteile des Passwort-Managers", "Passphrase-Sicherheit", "Passwort-Manager-Empfehlungen", "bewährte Praktiken für Passwort-Manager", "Passwort-Manager Sicherheit", "Passwort-Manager-Funktionen"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Eine Zeichentrickfigur, die ein Schild mit einem Schlosssymbol hält, das für Passwortsicherheit und Schutz steht."
 coverCaption: ""
 ---

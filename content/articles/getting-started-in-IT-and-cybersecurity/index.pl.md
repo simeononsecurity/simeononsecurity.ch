@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj kroki, które należy podjąć, aby rozpocząć karierę w ekscytującej i stale rozwijającej się dziedzinie IT i cyberbezpieczeństwa dzięki temu kompleksowemu przewodnikowi"
 tags: ["IT i cyberbezpieczeństwo", "Przewodnik po karierze", "Certyfikaty CompTIA", "MCSA", "Linux+", "CCNA", "Testy penetracyjne", "Ethical Hacking", "OSCP", "Skrypty", "Oferty pracy IT", "Oferty pracy w obszarze cyberbezpieczeństwa"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Obraz osoby siedzącej przy swoim stanowisku pracy z blokadą bezpieczeństwa na pierwszym planie, wskazujący na znaczenie zabezpieczenia stacji roboczych."
 coverCaption: ""
 ---

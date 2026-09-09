@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de stappen die u moet nemen om uw carrière in het spannende en steeds veranderende gebied van IT en cyberbeveiliging te starten met deze uitgebreide gids"
 tags: ["IT en cyberbeveiliging", "Career Guide", "CompTIA Certificaten", "MCSA", "Linux+", "CCNA", "Penetratie testen", "Ethisch hacken", "OSCP", "Scripting", "IT Banen", "Cybersecuritybanen"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Een afbeelding van een persoon die op zijn werkstation zit met op de voorgrond een veiligheidsslot, waarmee het belang van de beveiliging van werkplekken wordt aangegeven."
 coverCaption: ""
 ---

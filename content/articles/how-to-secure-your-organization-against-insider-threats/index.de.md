@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken zum Schutz Ihres Unternehmens vor Insider-Bedrohungen durch Mitarbeiter, Auftragnehmer oder Partner, die Zugang zu sensiblen Daten und Systemen haben."
 tags: ["Insider-Bedrohungen", "Cybersicherheit", "datenschutz", "Mitarbeiterschulung", "technische Kontrollen", "Zugangskontrollen", "Politikentwicklung", "Vermeidung von Datenverlusten", "Vorfallreaktion", "IT-Sicherheit", "Risikomanagement", "privilegierter Zugang", "Sicherheitsbewusstsein", "Cyber-Angriffe", "Netzwerksicherheit", "Informationssicherheit", "Bedrohungserkennung", "Risikobewertung", "Sicherheitsrichtlinien", "Internetkriminalität"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Eine Karikatur eines Mitarbeiters mit einem Schlüssel, der eine Tür mit sensiblen Daten öffnet, während ein anderer Mitarbeiter mit einer Lupe misstrauisch zuschaut "
 coverCaption: ""
 ---

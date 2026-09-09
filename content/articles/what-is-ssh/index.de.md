@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Vorteile von SSH, lernen Sie, wie man SSH-Schlüssel erzeugt, sich mit entfernten Servern verbindet, Dateien sicher überträgt und SSH-Konfigurationen anpasst."
 tags: ["SSH", "Sichere Shell", "Fernzugriff", "Fernverwaltung", "Verschlüsselung", "Authentifizierung", "Datenintegrität", "Tragbarkeit", "Dateiübertragung", "SCP", "SSH-Schlüssel", "SSH-Konfiguration", "Netzwerkprotokoll", "Remote-Befehlsausführung", "OpenSSH", "Zwei-Faktor-Authentifizierung", "Public-Key-Kryptographie", "IP-Adresse", "Domain-Name", "Terminal", "Eingabeaufforderung", "Sicherheit", "Systembetreuer", "Entwickler", "Vielseitigkeit", "Authentifizierungsverfahren", "Hash-Funktionen", "Tunnelbau", "kundenspezifische Optionen"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "Eine Karikatur einer Person, die sich mit Hilfe von SSH sicher mit einem Server verbindet."
 coverCaption: ""
 ---

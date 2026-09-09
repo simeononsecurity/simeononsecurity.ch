@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Erfahren Sie mehr über die Zunahme leistungsbasierter Fragen (Performance Based Questions, PBQs) bei Cybersecurity-Zertifizierungen und ihre Rolle bei der Bewertung praktischer Fähigkeiten und realer Problemlösungsfähigkeiten."
 tags: ["PBQs", "Leistungsbezogene Fragen", "Cybersicherheits-Zertifizierungen", "praktische Fähigkeiten", "Problemlösung in der realen Welt", "Simulation PBQs", "virtuelle PBQs", "Prüfungsvorbereitung", "Cybersicherheitsfachleute", "praktische Erfahrung", "Zertifizierungsprüfungen", "CompTIA", "IT-Sicherheit", "Cyber-Bedrohungen", "kritisches Denken", "technisches Geschick", "Branchenrelevanz", "Trends in der Cybersicherheit", "Industriestandards", "NIST Cybersecurity Framework", "CISA", "Nationales Institut für Normen und Technologie", "Bewertung der Cybersicherheit", "Cybersicherheitsausbildung", "Informationssicherheit", "Sicherheitsexperten", "Cybersecurity-Arbeitsmarkt", "IT-Zertifizierungen", "Cybersicherheitsfähigkeiten", "Netzwerksicherheit"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "Ein Fachmann mit einem Superheldenumhang und einem Schild, das für Cybersicherheit steht, steht selbstbewusst vor einem Computernetzwerk."
 coverCaption: "Ermächtigen Sie sich selbst mit Cybersecurity-Zertifizierungen und entfesseln Sie Ihr Superheldenpotenzial!"
 ---

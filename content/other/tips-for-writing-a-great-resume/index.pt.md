@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Aprenda as práticas recomendadas para criar um currículo eficaz, incluindo uso de fonte, tipos de currículo, otimização de palavras-chave, tratamento de lacunas e otimização de layout."
 tags: ["retomar a escrita", "dicas de currículo", "uso de fonte", "estrutura de currículo", "tipos de currículo", "resumo cronológico", "currículo funcional", "resumo de combinação", "otimização de palavras-chave", "referências no curriculo", "declaração de currículo", "lidando com demissões", "lidar com lacunas no currículo", "ano de formatura no currículo", "listagem de certificações", "retomar o layout", "currículo conciso", "espaço em branco no currículo", "retomar a personalização", "Currículo profissional"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Uma imagem colorida de desenho animado mostrando uma pessoa segurando um currículo com uma lupa, simbolizando a atenção aos detalhes na otimização do currículo."
 coverCaption: ""
 ---

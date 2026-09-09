@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki bezpiecznego kodowania w Pythonie, aby zminimalizować ryzyko naruszenia bezpieczeństwa i chronić wrażliwe dane."
 tags: ["Python", "Bezpieczne kodowanie", "Zagrożenia bezpieczeństwa", "Walidacja wejścia", "Biblioteki kryptograficzne", "Najmniejszy przywilej", "Statyczny analizator kodu", "Aplikacje internetowe", "Struktury Pythona", "Django", "Flash", "System uwierzytelniania", "Haszowanie hasła", "System szablonów", "Zarządzanie sesją", "MarkupSafe", "WTForms", "Blinker", "Ochrona danych", "Podatności"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Kreskówkowa tarcza z napisem Python, reprezentująca bezpieczne standardy kodowania"
 coverCaption: ""
 ---

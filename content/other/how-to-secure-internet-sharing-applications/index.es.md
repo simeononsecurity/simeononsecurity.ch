@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Aprende a proteger tus aplicaciones Linux para compartir Internet con medidas avanzadas para bloquear malware, rastreadores, tráfico Tor y torrents."
 tags: ["Seguridad en Linux", "aplicaciones para compartir internet", "protección antimalware", "bloqueo de rastreadores", "Bloqueo del tráfico Tor", "prevención de torrents", "seguridad de la red", "Snort", "Securita", "Protección DNS", "reglas avanzadas de cortafuegos", "Actualizaciones de Ubuntu", "actualizaciones automáticas", "supervisión de redes", "ciberseguridad", "Seguridad en Internet con Linux", "Seguridad de las aplicaciones Linux", "bloqueo de malware", "Prevención del tráfico Tor", "protección de torrents", "cortafuegos de red", "Seguridad de la red Linux", "compartir internet de forma segura", "Protección de DNS en Linux", "seguridad avanzada de redes", "Actualizaciones del sistema Linux", "herramientas de supervisión de redes", "Medidas de ciberseguridad en Linux", "Prácticas de seguridad en Linux"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "Ilustración de dibujos animados que muestra un escudo que protege una red de dispositivos interconectados de amenazas maliciosas."
 coverCaption: ""
 ---

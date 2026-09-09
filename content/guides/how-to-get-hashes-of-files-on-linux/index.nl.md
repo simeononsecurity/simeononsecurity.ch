@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Leer hoe u SHA256-, MD5- en SHA1-hashes van bestanden op Linux kunt verkrijgen met behulp van ingebouwde tools, waarbij de integriteit van de gegevens en de authenticiteit van het bestand worden gewaarborgd."
 tags: ["Linux bestandshashes", "SHA256 hash", "MD5 hash", "SHA1 hash", "Linux commandoregel", "bestandsintegriteit", "datavalidatie", "Linux beveiliging", "ingebouwde instrumenten", "bestandsverificatie", "authenticiteit van de gegevens", "hashing algoritmen voor bestanden", "Linux systeembeheer", "commandoregeltools", "bestandscontrolesommen", "Linux hulpprogramma's", "integriteitscontroles van bestanden", "verificatie van de integriteit van de gegevens", "bestands hash voorbeelden", "Linux hash-commando's", "hashingmethoden voor bestanden", "Linux beveiligingsmaatregelen", "Linux gegevensbescherming", "Linux bestandsbeheer", "Linux bestandsverificatie", "Linux bestandsintegriteit", "gegevensbeveiliging", "Validatie van Linux-gegevens", "Linux systeembeveiliging", "hashing technieken voor bestanden", "waarborging van de integriteit van bestanden", "veilige bestandsvalidatie", "Linux gegevensintegriteit"]
-cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.png"
+cover: "/img/cover/A_digital_representation_of_file_hashes_being_calculated.webp"
 coverAlt: "Een digitale weergave van bestandshashes die worden berekend op een Linux-terminalscherm, als symbool voor gegevensintegriteit en -beveiliging."
 coverCaption: ""
 ---

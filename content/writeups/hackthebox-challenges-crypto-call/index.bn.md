@@ -5,7 +5,7 @@ draft: false
 description: "HackTheBox-এ Crypto - Call চ্যালেঞ্জ সমাধান করতে প্রাইম নম্বর সাইফার ব্যবহার করে কীভাবে DTMF টোন ডিক্রিপ্ট করতে হয় তা শিখুন।"
 tags: ["HackTheBox", "ক্রিপ্টো চ্যালেঞ্জ", "DTMF টোন", "প্রাইম নাম্বার সাইফার", "ডিক্রিপশন", "ধাঁধা সমাধান করা", "ক্রিপ্টোগ্রাফি", "অডিও রূপান্তর", "ডায়ালএবিসি", "Decode.fr", "WAV", "MP3", "ফ্রিকোয়েন্সি", "গাণিতিক বৈশিষ্ট্য", "পতাকা", "ধৃষ্টতা", "সোনিক ভিজ্যুয়ালাইজার", "সংখ্যা", "স্বয়ংক্রিয় টেলার মেনু", "পে ফোন"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "একটি কার্টুন ফোন একটি সবুজ স্ক্রীন এবং এর উপর একটি প্যাডলক, নিরাপত্তা এবং এনক্রিপশনের প্রতীক, ব্যাকগ্রাউনে চিত্রিত DTMF টোন সহ"
 coverCaption: ""
 ---

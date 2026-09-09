@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Acest articol discută despre pericolele stocării criptomonedelor pe burse, explicând de ce este echivalent cu stocarea banilor într-o saltea și evidențiază beneficiile utilizării unui portofel hardware pentru stocarea securizată."
 tags: ["Stocare de criptomonede", "Riscuri de schimb", "Portofel hardware", "Securitate cibernetică", "Investiți în cripto", "Depozitare în siguranță", "Chei private", "Portofele portabile", "Regulament guvernamental"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Un portofel hardware cu un lacăt și un lanț în jurul său, simbolizând securitatea stocării criptomonedei într-un portofel hardware."
 coverCaption: ""
 ---

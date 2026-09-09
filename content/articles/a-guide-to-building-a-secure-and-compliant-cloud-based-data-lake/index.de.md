@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem umfassenden Leitfaden erfahren Sie mehr über bewährte Verfahren für Sicherheit und Compliance bei der Planung, Erstellung und Verwaltung von Cloud-basierten Data Lakes."
 tags: ["Datensee", "Cloud-Sicherheit", "Compliance-Vorschriften", "Zugangskontrollen", "Verschlüsselung", "AWS", "Azure", "HIPAA", "GDPR", "Überwachung", "Flicken", "Cybersicherheit", "SIEM-Lösung", "IT-Support-Teams", "Bedrohungslandschaft", "Cloud-Migration", "Cloud-Governance"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Das Cartoon-Bild einer Burg, die von einem Ritter bewacht wird, symbolisiert das Konzept eines starken Schutzes für sichere und konforme Cloud-basierte Speicherung"
 coverCaption: ""
 ---

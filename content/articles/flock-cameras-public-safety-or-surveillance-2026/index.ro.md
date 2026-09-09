@@ -6,7 +6,7 @@ draft: false
 description: "O analiză independentă a camerelor Flock Safety ALPR: cum funcționează cu adevărat, ce date colectează dincolo de plăcuțele de înmatriculare, cum partajarea datelor creează o bază de date națională paralelă și de ce problema mandatului este chestiunea esențială."
 genre: ["Confidențialitate", "Supraveghere", "Libertăți Civile", "Tehnologia Forțelor de Ordine", "Drepturi Digitale"]
 tags: ["Flock Safety", "ALPR", "cititoare de plăcuțe de înmatriculare", "supraveghere", "confidențialitate", "supraveghere fără mandat", "analiza convoiului", "urmărire Bluetooth", "urmărire TPMS", "partajarea datelor", "camere Ring", "Al Patrulea Amendament", "nu am nimic de ascuns", "precizie LPR", "acuzație nedreaptă", "MFA", "tehnologia forțelor de ordine", "libertăți civile", "minimizarea datelor", "DeFlock", "contra-supraveghere", "siguranță publică", "supraveghere polițienească", "drept la confidențialitate", "supraveghere digitală", "supraveghere în masă", "recunoașterea plăcuțelor de înmatriculare", "rețele de camere", "retenția datelor"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "O intersecție întunecată de stradă luminată de o cameră de supraveghere montată pe un stâlp, cu date despre plăcuțele de înmatriculare suprapuse pe mașinile care trec."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

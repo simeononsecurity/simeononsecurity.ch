@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Acest ghid cuprinzător oferă o imagine de ansamblu detaliată a ceea ce este un Home Lab, de ce să creați unul, de ce componente sunt necesare, cum să îl configurați, subiecte avansate de explorat și cele mai bune practici de urmat."
 tags: ["Laboratorul de acasă", "profesioniști IT", "elevi", "hobbyisti", "rețele", "virtualizare", "automatizare", "hardware", "software", "cele mai bune practici", "ghid"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "O persoană care stă la un birou cu un computer și echipamente de rețea, înconjurată de cărți și note."
 coverCaption: ""
 ---

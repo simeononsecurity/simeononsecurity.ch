@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u een grondige beveiligingsrisicobeoordeling kunt uitvoeren om de gevoelige informatie en activa van uw organisatie te beschermen."
 tags: ["Beoordeling van het veiligheidsrisico", "Cyberbeveiliging", "Beoordeling van de kwetsbaarheid", "Identificatie van bedreigingen", "Risicobeheer", "Matigingsstrategieën", "Fysieke veiligheid", "Informatiebeveiliging", "Bescherming van activa", "Gegevensbescherming", "Risicoprioriteiten", "Beveiligingsprotocollen", "IT-systemen", "Opleiding van werknemers", "Evaluatie van de risicobeoordeling", "Interne bedreigingen", "Externe bedreigingen", "Veiligheidsbedreigingen", "Preventie van datalekken", "Risicoanalyse"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Een cartoonschild dat een laptop en fysieke activa beschermt met een vergrootglas dat risico's identificeert."
 coverCaption: ""
 ---

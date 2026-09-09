@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie sich vor Cyber-Bedrohungen schützen können, indem Sie diese 10 häufigen Fehler im Bereich der Cybersicherheit vermeiden."
 tags: ["Cybersicherheit", "Online-Sicherheit", "Cyber-Bedrohungen", "Hacken", "Phishing", "Malware", "Passwörter", "öffentliches Wi-Fi", "Antivirus", "soziale Medien", "Datensicherung", "Sicherheitswarnungen", "öffentliche Ladestationen", "Computersicherheit", "Prävention von Internetkriminalität", "Identitätsdiebstahl", "digitaler Datenschutz", "Netzwerksicherheit", "Software-Aktualisierungen", "Online-Sicherheit"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Ein Cartoon-Schloss, das einen Laptop schützt, mit einem Hacker im Hintergrund."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "Découvrez les étapes clés pour mettre en œuvre efficacement le NICE Cybersecurity Framework et renforcer les défenses de votre organisation contre les cyber-menaces."
 tags: ["Cadre de cybersécurité de NICE", "cyberdéfense", "meilleures pratiques de mise en œuvre", "main-d'œuvre dans le domaine de la cybersécurité", "analyse des lacunes en matière de compétences", "les programmes de formation", "le suivi et l'établissement de rapports", "posture de cybersécurité", "la gestion des risques", "les réglementations gouvernementales", "politiques de cybersécurité", "protection des données", "incident response", "sécurité des réseaux", "gestion de la vulnérabilité", "contrôles de sécurité", "renseignements sur les cybermenaces", "mesures de cybersécurité", "l'amélioration continue", "critères de référence de l'industrie", "cyber-résilience", "gestion des incidents de sécurité", "paysage des cybermenaces", "gouvernance de la cybersécurité", "surveillance de la cybersécurité", "provisionnement sécurisé", "classification des données", "exigences de conformité", "certifications en cybersécurité", "sensibilisation à la cybersécurité"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "Un super-héros armé d'un bouclier protège l'infrastructure d'un réseau contre les cyber-menaces."
 coverCaption: "Défendre, protéger, sécuriser : Renforcer votre cyberdéfense avec le cadre NICE"
 ---

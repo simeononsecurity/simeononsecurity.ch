@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-01
 description: "Gain insights into the role of systems administration and practical experience in building a successful career in cybersecurity."
 tags: ["cybersecurity", "systems administration", "practical experience", "networking administration", "cyber threats", "holistic perspective", "technical knowledge", "enterprise environments", "real-world operations", "cybersecurity professionals", "hands-on training", "skills development", "cyber defense", "cyber resilience", "career path", "cybersecurity job market", "transitioning to cybersecurity", "cybersecurity skills", "cybersecurity expertise", "systems management", "cybersecurity foundation", "cybersecurity challenges", "practical knowledge", "cybersecurity professionals", "building a cybersecurity career", "hands-on projects", "self-guided learning", "cybersecurity industry", "cybersecurity education", "cybersecurity workforce"]
-cover: "/img/cover/A_symbolic_illustration_representing_cybersecurity_concepts.png"
+cover: "/img/cover/A_symbolic_illustration_representing_cybersecurity_concepts.webp"
 coverAlt: "A symbolic illustration representing cybersecurity concepts and protection."
 coverCaption: "Secure your future in cybersecurity with systems administration and practical experience."
 ---

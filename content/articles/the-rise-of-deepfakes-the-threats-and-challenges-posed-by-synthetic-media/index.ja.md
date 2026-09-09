@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "ディープフェイクの台頭、その脅威、課題、合成メディア操作に対抗する規制措置などを探る。"
 tags: ["まがい物", "ごうせいメディア", "AI技術", "誤報", "フェイクニュース", "詐欺", "プライバシー侵害", "ディープフェイクディテクション", "規制の枠組み", "教育", "意識", "デジタル時代", "技術", "社会", "課題", "脅威", "ディープフェイク対策", "アカウンタビリティ", "コラボレーション", "アドバンストアルゴリズム"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "人の顔が別の顔に置き換わる様子を象徴的に描いたイラストで、ディープフェイクの欺瞞性とデジタルメディア操作の課題を表現しています。"
 coverCaption: ""
 ---

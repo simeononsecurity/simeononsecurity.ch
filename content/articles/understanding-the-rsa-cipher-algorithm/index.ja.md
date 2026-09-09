@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "RSA暗号アルゴリズムの内部構造と、安全な通信におけるその重要性を探る。"
 tags: ["RSA暗号", "ひたいしょうかこうじゅつ", "公開鍵暗号", "暗号化アルゴリズム", "RSA鍵の生成", "モジュラーアリスティック", "オイラーのトーション関数", "素数", "モジュラーエクスポーネント", "暗号文", "げんぶん", "RSAセキュリティ", "セキュアコミュニケーション", "デジタル署名", "あんぜんウェブブラウジング", "RSAに関する政府規制", "RSAに関するNISTのガイドライン", "eIDASレギュレーション", "暗号化規格", "データ保護", "あんごうぎじゅつ", "情報セキュリティ", "セキュアメッセージング", "あんごうメール", "HTTPS", "セキュアな通信を実現するRSA", "デジタル署名におけるRSA", "RSAの強み", "RSAの弱点", "アールエスエー", "アールエスエー鍵長"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "RSA暗号アルゴリズムを錠前と鍵のシンボルで表現し、安全な通信と暗号化の概念を伝えるシンボル画像です。"
 coverCaption: ""
 ---

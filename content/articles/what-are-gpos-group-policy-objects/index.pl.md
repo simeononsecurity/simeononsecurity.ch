@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj moc obiektów zasad grupy (GPO) i dowiedz się, jak efektywnie zarządzać i optymalizować ustawienia sieciowe i zasady w celu zwiększenia bezpieczeństwa i usprawnienia operacji."
 genre: ["Zarządzanie siecią", "Obiekty zasad grupy", "GPO", "Administracja Windows", "Infrastruktura IT", "Bezpieczeństwo sieci", "Active Directory", "Zarządzanie konfiguracją", "Zarządzanie zasadami grupy", "Optymalizacja sieci"]
 tags: ["GPO", "Obiekty zasad grupy", "Zarządzanie siecią", "Administracja Windows", "Active Directory", "Zarządzanie konfiguracją", "Bezpieczeństwo sieci", "Zarządzanie zasadami grupy", "Optymalizacja sieci", "Infrastruktura IT", "Efektywne zarządzanie siecią", "Optymalizacja ustawień sieciowych", "Ulepszone zasady bezpieczeństwa", "Usprawnianie operacji", "Najlepsze praktyki zasad grupy", "Rozwiązywanie problemów z obiektami GPO", "Hierarchia i dziedziczenie GPO", "Konsola zarządzania zasadami grupy", "Narzędzia do zarządzania siecią", "Wskazówki dotyczące rozwiązywania problemów GPO"]
-cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png"
+cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp"
 coverAlt: "Symboliczny obraz w stylu artystycznym ilustrujący sieć połączonych ze sobą kół zębatych, symbolizujący wydajne zarządzanie siecią i optymalizację."
 coverCaption: "Odblokuj moc GPO: Usprawnij zarządzanie siecią już dziś!"
 ---

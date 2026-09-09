@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de cruciale rol van penetratietesten in cybersecurity en leer over effectieve methoden, essentiële tools en best practices."
 tags: ["penetratietesten", "cyberveiligheid", "ethisch hacken", "kwetsbaarheden", "risicobeperking", "compliance", "reactie op incidenten", "klantenvertrouwen", "black box testen", "white box testen", "gray box testing", "Metasploit", "Nmap", "Burp Suite", "Wireshark", "netwerk scannen", "beveiliging van webtoepassingen", "gegevensbescherming", "preventie van cyberdreigingen", "beoordeling van de digitale veiligheid", "verbetering van de veiligheidspositie", "netwerk protocol analyzer", "cyberbeveiligingsstrategie", "kwetsbaarheden in het systeem", "versterking van de defensie", "bescherming van digitaal vermogen", "voordelen van penetratietesten", "beste praktijken op het gebied van cyberbeveiliging", "regelnaleving", "beveiliging van klantgegevens"]
-cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp"
 coverAlt: "Een symbolische afbeelding van een hacker die een zwarte hoed draagt en op een computer typt, terwijl een schild met een slot een netwerk op de achtergrond beschermt."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de best practices voor het schrijven van veilige code met Ansible, een populaire tool voor configuratiebeheer en implementatie."
 tags: ["Veilig coderen", "Ansible", "Configuratiebeheer", "Inzet", "Minst bevoorrecht principe", "Ansible kluis", "Sterke wachtwoorden", "Toegangscontrole", "Versiebeheersysteem", "Veilige communicatieprotocollen", "SSH", "WinRM", "TLS-certificaten", "Gebruikersinvoer zuiveren", "Invoervalidatie", "Foutafhandeling", "Veilig coderen", "Code injectie", "Richtlijnen voor veilig coderen", "Infrastructuurbeveiliging", "Richtlijnen voor veilig coderen met Ansible", "Best practices voor veilige code met Ansible", "Veilig configuratiebeheer met Ansible", "Veilige implementatiepraktijken met Ansible", "Minst bevoorrechte principe in Ansible", "Ansible Vault gebruiken voor veilige code", "Sterke wachtwoorden maken in Ansible", "Toegangsbeheer in Ansible", "Versiebeheersysteem voor Ansible playbooks", "Veilige communicatieprotocollen in Ansible", "SSH-beveiliging in Ansible", "WinRM beveiliging in Ansible", "TLS-certificaten in Ansible", "Gebruikersinvoer zuiveren in Ansible", "Invoervalidatie in Ansible", "Foutafhandeling in Ansible", "Veilig coderen in Ansible", "Code-injectie in Ansible voorkomen", "Richtlijnen voor veilig coderen voor infrastructuur beheerd door Ansible", "Beveiligen van de Ansible-infrastructuur"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_protected_by_a_shield.webp"
 coverAlt: " Een cartoonafbeelding van een kasteel beschermd door een schild, die de beveiligingsmaatregelen voorstelt voor de infrastructuur die door Ansible wordt beheerd."
 coverCaption: ""
 ---

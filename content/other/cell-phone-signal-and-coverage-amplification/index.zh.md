@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "使用我们的首选增强您家中的手机信号，实现可靠的连接和整个家庭的覆盖。"
 tags: ["手机信号增强器", "Webboost", "升压", "家庭连接", "手机覆盖", "家庭基站", "蜂窝信号放大器", "无线信号增强器", "信号增强设备", "移动连接", "手机接待处", "家庭上网", "无线增强器", "电子产品", "家装", "电信", "技术", "智能家居", "无线通话", "移动网络"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "一个卡通风格的图像，一个人拿着手机站在信号条增加的助推器旁边。"
 coverCaption: ""
 ---

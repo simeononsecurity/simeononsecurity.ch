@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解风险管理在网络安全中的重要性，以及如何创建一个适合您企业的计划。"
 tags: ["网络安全", "风险管理", "安全态势", "风险评估", "降低风险", "风险监测", "威胁", "脆弱性", "信息安全", "数据保护", "合规性", "网络攻击", "决策", "降低成本", "业务连续性", "风险分析", "风险识别", "风险控制", "风险处理", "持续改进"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "带有锁和钥匙的盾牌象征网络安全，盾牌上的放大镜代表风险管理。"
 coverCaption: ""
 ---

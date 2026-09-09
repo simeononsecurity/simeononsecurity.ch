@@ -6,7 +6,7 @@ draft: false
 description: "Erschließen Sie das Potenzial Ihres Heimlabors mit diesem umfassenden Leitfaden, der sich an IT-Profis, Studenten und Hobbyisten richtet und die Einrichtung, Komponenten, fortgeschrittene Themen und bewährte Verfahren behandelt."
 genre: ["Heimlabor", "IT-Fachleute", "Studenten", "Bastler", "Vernetzung", "Virtualisierung", "Automatisierung", "Hardware", "Software", "Bewährte Praktiken"]
 tags: ["Heimlabor", "IT-Fachleute", "Studenten", "Bastler", "Vernetzung", "Virtualisierung", "Automatisierung", "Hardware", "Software", "Bewährte Praktiken", "Persönliches Labor", "Lernumgebung", "Experimentieren", "Entwicklung von Fertigkeiten", "Technologie", "Setup-Anleitung", "Fortgeschrittene Themen", "Dokumentation", "Sicherung", "Sicherheit", "Organisation", "Hands-On Experience", "Realitätsnahe Technologien", "Sichere Umgebung", "IT-Kenntnisse", "Technologie-Enthusiasten", "IT-Lernen", "Technisches Experimentieren", "Heimlabor", "Technische Fertigkeiten"]
-cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.png"
+cover: "/img/cover/A_person_sitting_at_a_desk_with_a_computer_and_networking.webp"
 coverAlt: "Eine Person, die an einem Schreibtisch mit einem Computer und Netzwerkausrüstung sitzt, umgeben von Büchern und Notizen."
 coverCaption: "Erschließen Sie die Kraft des Lernens mit Ihrem eigenen Heimlabor."
 ---

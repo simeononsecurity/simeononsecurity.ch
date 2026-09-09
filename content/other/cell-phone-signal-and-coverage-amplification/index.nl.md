@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-07
 description: "Verbeter het signaal van uw mobiele telefoon thuis met onze favorieten voor betrouwbare connectiviteit en dekking voor het hele huis."
 tags: ["Signaalverhogers voor mobiele telefoons", "Weboost", "Hiboost", "Thuisconnectiviteit", "Mobiele telefoon dekking", "Femtocell", "Cellulaire signaalversterkers", "Draadloze signaalversterkers", "Signaalversterkers", "Mobiele connectiviteit", "Mobiele telefoon ontvangst", "Home Internet", "Draadloze versterkers", "Elektronica", "Home Improvement", "Telecommunicatie", "Technologie", "Slimme huizen", "Wifi Bellen", "Mobiel netwerk"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_holding_a_cell_phone.webp"
 coverAlt: "Een beeld in cartoonstijl van een persoon die een mobiele telefoon vasthoudt en naast een booster staat met toenemende signaalbalken."
 coverCaption: ""
 ---

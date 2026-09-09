@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum vânătoarea de amenințări poate preveni atacurile cibernetice și care sunt beneficiile și provocările implementării acesteia ca măsură proactivă de securitate cibernetică."
 tags: ["vânătoarea de amenințări", "securitate cibernetică", "apărare proactivă", "atacuri cibernetice", "securitatea rețelei", "securitate endpoint", "analiza jurnalului", "analiza comportamentală", "informații despre amenințări", "investigație manuală", "investigație automatizată", "reducerea riscurilor", "rezultate fals pozitive", "cerințe privind competențele", "cerințe de resurse", "timp de răspuns mai rapid", "detecție îmbunătățită", "risc redus", "instituții financiare", "furnizori de servicii medicale"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "Un analist de securitate din desene animate cu o lupă în mână, căutând amenințări cibernetice ascunse pe ecranul unui computer."
 coverCaption: ""
 ---

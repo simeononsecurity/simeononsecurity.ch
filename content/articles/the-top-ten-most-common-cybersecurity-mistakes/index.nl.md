@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uzelf kunt beschermen tegen cyberdreigingen door deze 10 veelvoorkomende cyberbeveiligingsfouten te vermijden."
 tags: ["cyberbeveiliging", "online beveiliging", "cyberdreigingen", "hacken", "phishing", "malware", "wachtwoorden", "openbare Wi-Fi", "antivirus", "sociale media", "gegevensback-up", "veiligheidswaarschuwingen", "openbare oplaadstations", "computerbeveiliging", "preventie van cybercriminaliteit", "identiteitsdiefstal", "digitale privacy", "netwerkbeveiliging", "software-updates", "online veiligheid"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Een cartoonslot dat een laptop beschermt, met een hacker op de achtergrond."
 coverCaption: ""
 ---

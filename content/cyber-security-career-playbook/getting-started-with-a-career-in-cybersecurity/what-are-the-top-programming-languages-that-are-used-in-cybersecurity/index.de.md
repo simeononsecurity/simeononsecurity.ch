@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-07
 description: "Entdecken Sie die zentrale Rolle von Programmiersprachen im Bereich der Cybersicherheit und erfahren Sie mehr über ihre Anwendungen, Tools und ihre Bedeutung für die Sicherung digitaler Systeme."
 tags: ["Programmiersprachen", "Cybersicherheit", "wichtige Instrumente", "Anwendungen", "sichere Systeme", "Netzwerksicherheit", "Webanwendungen", "Schwachstellenanalyse", "Penetrationstests", "sichere Kodierung", "Systemsicherheit", "Skriptsprachen", "Automatisierung", "sichere Kommunikation", "Datenanalyse", "maschinelles Lernen", "Vorfallreaktion", "Exploit-Entwicklung", "Sicherheits-Frameworks", "Systemhärtung", "Protokollanalyse", "Windows-Sicherheit", "Netzwerkprotokolle", "Web-Entwicklung", "sichere Kodierungspraktiken", "kryptografische Dienste", "Sandboxing", "Zugangskontrolle", "Reverse Engineering", "Bedrohungserkennung", "Sicherheitsmanagement"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_shield-shaped_icon_rep.webp"
 coverAlt: "Eine symbolische Illustration, die ein schildförmiges Symbol für Cybersicherheit zeigt, umgeben von Codeschnipseln in verschiedenen Programmiersprachen."
 coverCaption: "Symbolische Darstellung der wichtigen Verbindung zwischen Programmiersprachen und Cybersicherheit, wobei die verschiedenen Tools und Anwendungen hervorgehoben werden."
 ---

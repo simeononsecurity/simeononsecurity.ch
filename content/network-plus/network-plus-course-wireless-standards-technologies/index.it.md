@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite i diversi standard 802.11, le frequenze, la portata e la crittografia delle reti wireless per prepararvi all'esame di certificazione Network+ di CompTIA."
 genre: ["Tecnologia", "Collegamento in rete", "Rete wireless", "Esame di certificazione", "CompTIA Network+", "Formazione IT", "Certificazione IT", "Standard wireless", "Tecnologie wireless", "Tecnologia dell'informazione"]
 tags: ["Rete CompTIA Plus", "Esame di certificazione Network+", "Standard wireless", "Tecnologie wireless", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequenze", "Gamma", "Legame dei canali", "Tipi di antenna", "Standard di crittografia", "Configurazioni SSID", "Rete wireless", "Esame di rete wireless", "Formazione sulle reti wireless", "Certificazione di rete wireless", "Tecnologia di rete wireless", "Sicurezza delle reti wireless", "Prestazioni della rete wireless", "Protocolli di rete wireless", "Configurazione della rete wireless", "Risoluzione dei problemi della rete wireless", "Migliori pratiche per le reti wireless"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Un'illustrazione a fumetti che mostra diversi dispositivi e segnali di rete wireless."
 coverCaption: "Liberate la potenza delle reti wireless"
 ---

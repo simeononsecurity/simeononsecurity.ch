@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u efficiënte en veilige Docker-containers maakt met behulp van best practices, tips en stapsgewijze instructies in deze uitgebreide gids."
 tags: ["docker", "containers", "containerisatie", "devops", "inzet", "draagbaarheid", "efficiëntie", "beveiliging", "beste praktijken", "Dockerfile", "basisbeelden", "omgevingsvariabelen", "volume mounts", "root-gebruiker", "actuele beelden", "softwareontwikkeling", "containerbeelden", "Docker Hub", "container orkestratie", "Kubernetes"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_well-organized_container.webp"
 coverAlt: "Een 3D-geanimeerde afbeelding van een veilige, goed georganiseerde container met het Docker-logo erop, omringd door verschillende gereedschappen en apparatuur die te maken hebben met software engineering en DevOps."
 coverCaption: ""
 ---

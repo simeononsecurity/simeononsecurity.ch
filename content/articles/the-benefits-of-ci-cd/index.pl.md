@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj zalety ciągłej integracji i ciągłego wdrażania (CI CD) w tworzeniu oprogramowania, poprawiając współpracę, jakość i szybkość."
 tags: ["ciągła integracja", "ciągłe wdrażanie", "CI CD", "rozwój oprogramowania", "współpraca", "komunikacja", "pętla sprzężenia zwrotnego", "wykrywanie błędów", "jakość oprogramowania", "niezawodność", "czas wprowadzenia na rynek", "zarządzanie ryzykiem", "skalowalność", "elastyczność", "testowanie automatyczne", "zwinny rozwój", "DevOps", "produktywność zespołu", "wydania oprogramowania", "automatyzacja wdrażania", "automatyzacja testów", "szybkie dostarczanie oprogramowania", "metodyki zwinne", "zarządzanie wydaniami", "inżynieria oprogramowania", "zwinne zespoły", "ciągłe doskonalenie", "testowanie oprogramowania", "potoki wdrażania", "proces wdrażania", "cykl życia oprogramowania"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Kolorowa ilustracja rysunkowa przedstawiająca programistów współpracujących i wdrażających oprogramowanie szybko i wydajnie za pomocą narzędzi i procesów CI CD."
 coverCaption: ""
 ---

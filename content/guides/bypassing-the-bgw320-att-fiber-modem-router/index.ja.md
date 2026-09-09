@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "BGW-320をバイパスして、アゾレス社製のCOTS ONTを使ってISPのネットワークに接続する方法を、この簡単なガイドでご紹介します。"
 tags: ["COTS ONT", "BGW-320", "アゾレス", "繊維", "ネットワーク", "XGS-PON（エックスジーエスポン", "イーサネット", "IPパススルー", "カスタム化", "ISP", "アイディー", "MACアドレス", "機器ID", "イメージバージョン", "ハードウェアバージョン", "テルネット", "CLIアプリケーション", "ウェブGUI", "ファクトリーコンフィグレーションモード", "相性問題"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "ファイバーケーブルを背景に、COTS ONTを手にする漫画の技術者。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die besten Praktiken zur sicheren Programmierung in Python kennen, um das Risiko von Sicherheitsverletzungen zu minimieren und sensible Daten zu schützen."
 tags: ["Python", "Sichere Kodierung", "Sicherheitsrisiken", "Überprüfung der Eingaben", "Kryptographie-Bibliotheken", "Geringstes Privileg", "Statischer Code-Analysator", "Web-Anwendungen", "Python-Frameworks", "Django", "Blitzlicht", "Authentifizierungssystem", "Passwort-Hashing", "Schablonensystem", "Session Management", "MarkupSafe", "WTForms", "Blinker", "Datenschutz", "Schwachstellen", "Sichere Kodierung", "Python", "Sicherheitsrisiken", "Überprüfung der Eingaben", "Kryptographie-Bibliotheken", "Geringstes Privileg", "Statischer Code-Analysator", "Web-Anwendungen", "Python-Frameworks", "Django", "Blitzlicht", "Authentifizierungssystem", "Passwort-Hashing", "Schablonensystem", "Session Management", "MarkupSafe", "WTForms", "Blinker", "Datenschutz", "Schwachstellen", "Sicherheit von Python-Code", "Code-Überprüfung", "Werkzeuge für die statische Analyse", "Sichere Webentwicklung", "Sichere Kodierungspraktiken", "Sicherheitsschwachstellen", "Bewährte Praktiken der Codesicherheit", "Datenverschlüsselung", "Grundsatz des geringsten Rechtsanspruchs", "Code-Analyse", "Sicherheit im Internet"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Ein Cartoon-Schild mit dem Wort Python als Symbol für sichere Kodierungsstandards"
 coverCaption: ""
 ---

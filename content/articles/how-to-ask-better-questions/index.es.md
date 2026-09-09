@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a formular preguntas concretas y pertinentes, y evite perder el tiempo."
 tags: ["productividad", "comunicación", "resolución de problemas", "investigación", "conversación", "cuestionando", "información", "compromiso", "experiencia", "gestión del tiempo", "conocimiento", "competencias", "aprender", "colaboración", "pensamiento crítico", "curiosidad", "enfoque", "análisis", "consulta", "curiosidad"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "una persona con un megáfono, rodeada de signos de interrogación y exclamación, que representa la importancia de formular preguntas eficaces y buscar ideas valiosas"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "探索多因素身份验证 (MFA) 的优点和缺点，了解如何为企业安全选择合适的解决方案。"
 tags: ["多因素认证", "MFA", "商业安全", "网络安全", "数据保护", "监管合规", "用户体验", "网络钓鱼", "蛮力攻击", "技术复杂性", "用户阻力", "智能手机", "象征性", "智能卡", "指纹", "面部识别", "语音识别", "PCI DSS", "HIPAA", "数据泄露"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "带有双因素验证符号的卡通锁，就像智能手机和钥匙。"
 coverCaption: ""
 ---

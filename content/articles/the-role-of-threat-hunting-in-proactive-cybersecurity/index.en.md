@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how threat hunting can prevent cyber attacks and the benefits and challenges of implementing it as a proactive cybersecurity measure."
 tags: ["threat hunting", "cybersecurity", "proactive defense", "cyber attacks", "network security", "endpoint security", "log analysis", "behavioral analysis", "threat intelligence", "manual investigation", "automated investigation", "risk reduction", "false positives", "skillset requirements", "resource requirements", "faster response time", "improved detection", "reduced risk", "financial institutions", "healthcare providers"]
-cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoon_security_analyst_holding_a_magnifying_glass.webp"
 coverAlt: "A cartoon security analyst holding a magnifying glass, searching for hidden cyber threats on a computer screen."
 coverCaption: ""
 ---

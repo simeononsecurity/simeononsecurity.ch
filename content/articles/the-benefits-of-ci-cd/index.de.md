@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Vorteile von Continuous Integration und Continuous Deployment (CI CD) in der Softwareentwicklung und verbessern Sie die Zusammenarbeit, Qualität und Geschwindigkeit."
 tags: ["kontinuierliche Integration", "kontinuierliche Bereitstellung", "CI CD", "Software-Entwicklung", "Zusammenarbeit", "Kommunikation", "Rückkopplungsschleife", "Fehlererkennung", "Software-Qualität", "Zuverlässigkeit", "Markteinführungszeit", "Risikomanagement", "Skalierbarkeit", "Flexibilität", "automatisierte Prüfung", "agile Entwicklung", "DevOps", "Team-Produktivität", "Software-Freigaben", "Einsatzautomatisierung", "Testautomatisierung", "schnelle Softwarebereitstellung", "agile Methodologien", "Freigabemanagement", "Softwaretechnik", "agile Teams", "ständige Verbesserung", "Softwaretests", "Bereitstellungspipelines", "Einsatzprozess", "Lebenszyklus der Softwareentwicklung"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showing_developers_collaborating.webp"
 coverAlt: " Eine bunte Cartoon-Illustration, die zeigt, wie Entwickler zusammenarbeiten und Software schnell und effizient mit CI-CD-Tools und -Prozessen bereitstellen."
 coverCaption: ""
 ---

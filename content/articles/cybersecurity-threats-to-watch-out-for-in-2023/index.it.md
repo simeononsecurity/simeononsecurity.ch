@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le principali minacce alla sicurezza informatica del 2024 e imparate a stare al sicuro con i consigli degli esperti."
 tags: ["sicurezza informatica", "minacce", "ransomware", "phishing", "Sicurezza IoT", "minacce interne", "sicurezza del cloud", "backup dei dati", "autenticazione a più fattori", "patch di sicurezza", "formazione dei dipendenti", "controlli di accesso", "controlli di base", "prevenzione della perdita di dati", "fornitori di cloud", "crittografia dei dati", "sicurezza della rete", "sicurezza degli endpoint", "monitoraggio della rete", "scansione delle vulnerabilità"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Un hacker dei cartoni animati cerca di entrare in un sistema informatico mentre uno scudo con un lucchetto lo protegge."
 coverCaption: ""
 ---

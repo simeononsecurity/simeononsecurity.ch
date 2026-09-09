@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Ontdek de deskundige aanbevelingen van SimeonOnSecurity voor vertrouwde en hoog gewaardeerde producten en middelen op het gebied van beveiliging en privacy."
 tags: ["veiligheidsaanbevelingen", "privacyproducten", "cyberbeveiligingsinstrumenten", "gegevensbescherming", "internetprivacy", "anti-virus", "boeken", "browser plugins", "certificaten", "e-mailproviders", "elke dag dragen", "hackers gereedschapskist", "hoofdtelefoon", "microfoons", "luidsprekers", "leermiddelen", "messenger klanten", "organisaties te ondersteunen", "bronnen over privacy", "SIP DID VOIP aanbieders"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "Een afbeelding in cartoonstijl van een schild met een slot erop om veiligheid en privacybescherming te symboliseren, met een laptop of mobiel apparaat op de achtergrond."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解渗透测试在网络安全中的重要作用，学习有效方法、基本工具和最佳实践。"
 tags: ["渗透测试", "网络安全", "道德黑客", "脆弱性", "降低风险", "合规性", "事件响应", "客户信任", "黑盒测试", "白盒测试", "灰盒测试", "Metasploit", "Nmap", "打嗝套房", "Wireshark", "网络扫描", "网络应用安全", "数据保护", "预防网络威胁", "数字安全评估", "加强安全态势", "网络协议分析仪", "网络安全战略", "系统漏洞", "加强防御", "数字资产保护", "渗透测试的优势", "网络安全最佳做法", "监管合规", "客户数据安全"]
-cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp"
 coverAlt: "一幅象征性的图片，描绘了一个头戴黑帽子的黑客在电脑上打字，背景是一个带锁的盾牌保护着网络。"
 coverCaption: ""
 ---

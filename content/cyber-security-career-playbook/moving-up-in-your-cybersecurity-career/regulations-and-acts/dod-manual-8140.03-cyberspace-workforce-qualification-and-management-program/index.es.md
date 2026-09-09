@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Infórmese sobre el Programa de cualificación y gestión de la mano de obra en el ciberespacio del DoD descrito en el Manual 8140.03."
 tags: ["Manual del Departamento de Defensa 8140.03", "mano de obra del ciberespacio", "programa de cualificación", "Personal del DoD", "ciberseguridad", "cualificación en el ciberespacio", "gestión del ciberespacio", "desarrollo de la mano de obra en el ciberespacio", "Políticas del ciberespacio del DoD", "personal de ciberseguridad", "cualificaciones en ciberseguridad", "formación en ciberseguridad", "educación en ciberseguridad", "certificaciones de ciberseguridad", "funciones de ciberseguridad", "funciones laborales en ciberseguridad", "gestión del personal cibernético", "cualificaciones de la función laboral en el ciberespacio", "cibergestión de personal", "programa de cualificación cibernética", "ciberdesarrollo profesional", "competencia de la mano de obra del ciberespacio", "certificaciones del personal cibernético", "requisitos de formación cibernética", "normas de ciberseguridad", "competencia de la mano de obra del ciberespacio", "defensa frente a ciberamenazas", "seguridad de los sistemas de información", "seguridad de la red"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Una pantalla de ordenador que muestra un panel de ciberseguridad con gráficos y tablas que reflejan el estado de la seguridad de una red"
 coverCaption: ""
 ---

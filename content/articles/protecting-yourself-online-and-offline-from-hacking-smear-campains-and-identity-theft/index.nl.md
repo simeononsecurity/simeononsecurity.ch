@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uzelf kunt beschermen tegen online bedreigingen zoals hacken, lastercampagnes en identiteitsdiefstal met deze nuttige tips."
 tags: ["cyberbeveiliging", "online veiligheid", "identiteitsdiefstal", "hacken", "lastercampagnes", "sociale media", "wachtwoorden", "twee-factor authenticatie", "kredietbevriezing"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Een persoon met een hangslot voor een computerscherm waarop een bericht staat met de tekst Protected"
 coverCaption: ""
 ---

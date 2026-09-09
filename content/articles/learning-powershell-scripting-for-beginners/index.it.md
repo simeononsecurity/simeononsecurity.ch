@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Imparate le basi dello scripting PowerShell e automatizzate le attività con questa guida passo passo per principianti, che comprende cmdlet, loop, funzioni e altro ancora."
 genre: ["Tecnologia", "Programmazione", "Automazione", "Finestre", "Scripting", "IT", "Compiti amministrativi", "Gestione del computer", "Sviluppo di software", "Codifica"]
 tags: ["Scripting PowerShell", "Automazione PowerShell", "Scripting per Windows", "I cmdlet di PowerShell", "Moduli PowerShell", "Loop di PowerShell", "Dichiarazioni condizionali di PowerShell", "Funzioni PowerShell", "Le migliori pratiche di PowerShell", "Debug di PowerShell", "Test di PowerShell", "Variabili PowerShell", "PowerShell ISE", "Remoting PowerShell", "Tecnologie Microsoft", "Automazione IT", "gestione del computer", "codifica per principianti", "compiti amministrativi", "Idee di script PowerShell", "backup automatici", "gestione dei file", "informazioni sul sistema", "gestione degli utenti", "installazione del software", "configurazione di rete", "automazione della sicurezza", "programmazione dei task", "manipolazione del registro", "amministrazione remota"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Un personaggio dei cartoni animati con in mano uno script e in piedi davanti a un computer con il prompt di PowerShell, che indica la facilità di scripting di PowerShell per i principianti"
 coverCaption: ""
 ---

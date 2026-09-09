@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Zwiększ swoje szanse na zdobycie wymarzonej pracy dzięki tym eksperckim wskazówkom dotyczącym pisania CV dla specjalistów ds. cyberbezpieczeństwa, rozwoju oprogramowania i IT."
 tags: ["Wskazówki dotyczące pisania CV", "specjaliści ds. cyberbezpieczeństwa", "rozwój oprogramowania", "Specjaliści IT", "poszukiwanie pracy", "porady dotyczące kariery", "umiejętności techniczne", "najważniejsze informacje o projekcie", "świadomość cyberbezpieczeństwa", "umiejętności rozwiązywania problemów", "trendy branżowe", "rozwój zawodowy", "Zgodność z RODO", "Przepisy CCPA", "rynek pracy", "optymalizacja CV", "podanie o pracę", "wskazówki dotyczące CV", "strategie poszukiwania pracy", "rozwój kariery"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Kreskówkowa ilustracja przedstawiająca osobę trzymającą CV, otoczoną symbolami cyberbezpieczeństwa i fragmentami kodu."
 coverCaption: ""
 ---

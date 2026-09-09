@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何选择完美的网络安全保险来保护您的企业免受网络威胁。"
 tags: ["网络安全保险", "数据保护", "风险管理", "网络安全政策", "数据安全", "网络攻击", "网络保险", "网络安全", "业务连续性", "保险范围", "数据泄露", "保险单", "信息技术安全", "事件响应", "风险评估", "网络犯罪", "财务保护", "网络威胁", "保险索赔", "商业保险"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "企业主手持标有网络安全保险和阻挡网络威胁的盾牌的卡通形象。"
 coverCaption: ""
 ---

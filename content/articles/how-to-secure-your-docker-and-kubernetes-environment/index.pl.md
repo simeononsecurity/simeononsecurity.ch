@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj najlepsze praktyki zabezpieczania środowiska Docker i Kubernetes, w tym korzystanie z oficjalnych obrazów, ograniczanie uprawnień i wdrażanie zabezpieczeń sieciowych."
 tags: ["Docker", "Kubernetes", "Bezpieczeństwo", "Pojemniki", "Bezpieczeństwo sieci", "RBAC", "Serwer API", "Podatności", "Monitoring", "Rejestrowanie", "Firewalle", "TLS", "Anchore", "Clair", "Aqua Security", "ELK Stack", "Splunk", "Prometeusz", "Cybersecurity", "Najlepsze praktyki"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Kreskówkowy kontener docker i kreskówkowy kubernetes pod trzymając się za ręce i stojąc na szczycie zamkniętego sejfu. W tle znajduje się ściana z kodu komputerowego."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "remote.it, ngrok, OpenVPN, WireGuard, ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਸਮੇਤ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰਾਂ ਦੇ ਫਲੀਟ ਦੇ ਪ੍ਰਬੰਧਨ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਅਭਿਆਸਾਂ ਅਤੇ ਸਾਧਨਾਂ ਦੀ ਪੜਚੋਲ ਕਰੋ।"
 tags: ["ਘੱਟ ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰ", "ਰਿਮੋਟ ਪਹੁੰਚ", "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ", "openvpn", "ਵਾਇਰਗਾਰਡ", "ਸੁੰਘਣਾ", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "ਲੇਖ ਵਿੱਚ ਵਿਚਾਰੇ ਗਏ ਟੂਲਸ ਦੇ ਨਾਲ ਇੱਕ ਨੈੱਟਵਰਕ ਹੱਬ ਨਾਲ ਜੁੜੇ ਕਈ ਘੱਟ-ਪਾਵਰ ਵਾਲੇ ਮਾਈਨਰਾਂ ਦਾ ਇੱਕ ਕਾਰਟੂਨ ਚਿੱਤਰ।"
 coverCaption: ""
 ---

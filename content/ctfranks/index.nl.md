@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Blijf op de hoogte van de laatste ranglijsten in de wereld van CTF's en uitdagingen met SimeonOnSecurity's CTF Rankings Log."
 tags: ["CTF klassementen", "De vlag veroveren", "Concurrentie", "Uitdagingen", "LockHeed Martin Cyber Grand Challenge", "Nationale Cyber Liga", "Cipher Tech Challenge", "Prestaties", "Plaatsing", "Team", "Individueel", "2020", "2021", "Cyberbeveiliging", "Cyberverdediging", "CTF Gebeurtenissen", "Hacking wedstrijden", "Informatiebeveiliging", "Veiligheidsonderzoek"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "Een cartoon trofee met een lint voor de 1e plaats omgeven door computerschermen en cybersecurity symbolen zoals een hangslot, schild en slot en sleutel symbolen."
 coverCaption: ""
 ---

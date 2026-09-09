@@ -4,7 +4,7 @@ draft: false
 description: "自動 RSA 攻撃ツール RsaCtfTool を使用して、HackTheBox Weak RSA Crypto チャレンジを簡単に解決する方法を学びます。"
 tags: ["ハックザボックス", "課題", "暗号", "弱い RSA", "RsaCtfツール", "HTB 弱い RSA 暗号", "簡単チャレンジ", "RSA暗号", "flag.enc", "key.pub", "OpenSSL パッケージ", "自動化されたRSA攻撃ツール", "Pythonスクリプト", "RsaCtfツール", "Python3", "公開鍵", "暗号化解除ファイル", "フラグの例"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "マントとマスクをかぶった漫画のハッカーが、HTB のロゴが付いた金庫室のドアの前に立ち、成功を象徴する緑色の背景と上の吹き出し内の旗が付いたツール (レンチやドライバーなど) を持っています。彼らの頭。"
 coverCaption: ""
 ---

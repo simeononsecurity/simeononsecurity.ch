@@ -6,7 +6,7 @@ draft: false
 description: "了解保护脚本、密码和敏感信息的 10 大基本 PowerShell 安全最佳实践。增强 PowerShell 环境的安全性，防止未经授权的访问和潜在的安全漏洞。"
 genre: ["PowerShell 安全最佳实践", "脚本安全", "密码安全", "信息技术安全", "网络安全", "视窗管理", "自动化", "安全编码", "网络安全", "数据保护"]
 tags: ["PowerShell 安全最佳实践", "PowerShell 密码安全最佳实践", "保护和使用 PowerShell 的最佳实践", "脚本执行政策", "代码签名", "用户访问控制", "密码安全", "硬编码密码", "强密码", "密码轮换政策", "保护 PowerShell 脚本", "在 PowerShell 中保护密码", "管理 PowerShell 中的脚本执行", "在 PowerShell 中保护敏感信息", "增强 PowerShell 的安全性"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "象征性插图显示了保护 PowerShell 脚本的防护罩。"
 coverCaption: "使用有效的安全实践保护您的 PowerShell 脚本。"
 ---

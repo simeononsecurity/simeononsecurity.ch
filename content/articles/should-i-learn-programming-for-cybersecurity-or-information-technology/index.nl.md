@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer waarom het beheersen van programmeervaardigheden uw IT- en cyberbeveiligingscarrière zeer ten goede kan komen, en hoe u aan de slag kunt met PowerShell, Bash, Python, Ansible, Packer en Terraform."
 tags: ["IT en cyberveiligheid", "Programmeervaardigheden", "Loopbaanontwikkeling", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automatisering", "Opdrachtregel", "Scripting", "Uitrol van de infrastructuur", "Gegevensanalyse", "Veiligheidstesten"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Een persoon die voor een computer zit en code typt in een commandoregelinterface met tekstregels die over het scherm rollen."
 coverCaption: ""
 ---

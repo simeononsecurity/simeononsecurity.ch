@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cele mai bune browsere sigure pentru protecția confidențialității, printre care Brave, Firefox și Tor, și aflați care sunt caracteristicile și avantajele acestora."
 tags: ["browsere sigure", "protecția vieții private", "Browser curajos", "Firefox", "Tor", "securitate online", "confidențialitatea pe internet", "caracteristici ale browserului", "blocarea reclamelor", "protecție de urmărire", "open-source", "cross-platform", "Firefox Focus", "Rețeaua Tor", "browsere alternative", "Vivaldi", "Epic", "Puffin", "Vulpea de apă"]
-cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.png"
+cover: "/img/cover/A_3D_animated_image_featuring_three_cartoon-like_browser.webp"
 coverAlt: "O imagine animată 3D care prezintă trei pictograme de browser asemănătoare desenelor animate, Brave, Firefox și Tor, înconjurate de un scut care simbolizează protecția vieții private, cu un lacăt în partea superioară."
 coverCaption: ""
 ---

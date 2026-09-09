@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj niezbędne umiejętności potrzebne do odniesienia sukcesu w stale rozwijającej się dziedzinie cyberbezpieczeństwa i dowiedz się o rosnącym znaczeniu cyberbezpieczeństwa w branży technologicznej."
 tags: ["cyberbezpieczeństwo", "przyszłość cyberbezpieczeństwa", "umiejętności dla sukcesu", "krytyczne myślenie", "komunikacja", "umiejętności techniczne", "zarządzanie ryzykiem", "rozwój zawodowy", "Sztuczna inteligencja w cyberbezpieczeństwie", "bezpieczeństwo w chmurze", "cyberzagrożenia", "cyberprzestępczość", "bezpieczeństwo informacji", "specjaliści ds. cyberbezpieczeństwa", "prywatność danych", "technologia", "bezpieczeństwo cyfrowe", "cyberobrona", "cyberataki", "Bezpieczeństwo IT"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Kreskówkowy obraz osoby w kostiumie superbohatera trzymającej tarczę z napisem Cybersecurity, z krajobrazem miasta i ekranami komputerów w tle."
 coverCaption: ""
 ---

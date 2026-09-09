@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "企業のリモート従業員のために、安全で弾力性のあるVPNを設定し、会社のリソースへの安全なアクセスを確保する方法を紹介します。"
 tags: ["仮想私設通信網", "リモートワーク", "企業内VPN", "ネットワークセキュリティ", "暗号化", "トンネリングプロトコル", "VPN設定", "VPNサーバー", "VPNセキュリティ", "VPNメンテナンス", "VPNモニタリング", "VPNソリューション", "認証", "データ機密保護", "プライバシー", "パフォーマンス", "スケーラビリティ", "相性", "社員教育", "さいぜんのそち"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "VPN接続を象徴する、リモートワーカーのノートPCと社屋をつなぐ安全なトンネルを描いた3Dアニメーション画像です。トンネルの上にはシールドアイコンが浮かび上がり、セキュリティとレジリエンスを表現しています。"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-07-07
 description: "Learn how to build a comprehensive security awareness training program to protect your organization from cyber threats and empower employees."
 genre: ["Cybersecurity","Employee Training","Security Awareness","Risk Mitigation","Data Protection","Compliance","Cyber Threats","Insider Threats","Password Security","Phishing Awareness"]
 tags: ["security awareness training","cybersecurity","employee training","risk mitigation","data protection","compliance","cyber threats","insider threats","password security","phishing awareness","security program development","security training content","security training delivery methods","security culture","training effectiveness","NIST","PCI DSS","GDPR","security best practices","security policies","security incidents","security awareness team","role-based security awareness","continuous security training","security training software","security metrics","password management","phishing detection","privacy protection","insider threat prevention"]
-cover: "/img/cover/A_cartoon_illustration_of_a_group_of_diverse_employees_enga.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_group_of_diverse_employees_enga.webp"
 coverAlt: "A cartoon illustration of a group of diverse employees engaged in a security training session with a cybersecurity backdrop."
 coverCaption: "Empower Your Workforce, Strengthen Your Security. Build a Training Program."
 ---

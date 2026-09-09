@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les étapes clés pour renforcer votre infrastructure réseau contre les menaces persistantes avancées (APT) et protégez votre organisation contre les cyberattaques."
 tags: ["sécurité des réseaux", "cybersécurité", "menaces persistantes avancées", "l'infrastructure de réseau", "les contrôles d'accès", "cryptage des données", "formation des employés", "incident response plan", "l'évaluation de la vulnérabilité", "politique de sécurité", "la surveillance du trafic sur le réseau", "attaques par hameçonnage", "protection des points finaux", "détection des intrusions", "pare-feu", "SIEM", "sauvegarde des données", "segmentation du réseau", "cybermenaces", "confidentialité des données"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "Un bouclier de bande dessinée avec une icône de cadenas au centre représentant la sécurité du réseau contre les APT"
 coverCaption: ""
 ---

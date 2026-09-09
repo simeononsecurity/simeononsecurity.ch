@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de grondbeginselen van website-ontwikkeling, waaronder HTML, CSS en JavaScript, met deze beginnersvriendelijke gids."
 tags: ["webontwikkeling", "HTML", "CSS", "JavaScript", "codering", "handleiding", "leren", "beginner", "CodePen", "W3Scholen", "beste praktijken", "middelen", "freeCodeCamp", "MDN Web Docs", "Codecademy", "Udacity", "samenwerking", "foutopsporing", "projecten"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Een tekenfilmontwikkelaar zit aan een bureau met een laptop, omringd door verschillende HTML-, CSS- en JavaScript-elementen die in de lucht om hem heen zweven."
 coverCaption: ""
 ---

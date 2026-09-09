@@ -6,7 +6,7 @@ draft: false
 description: "スクリプト、パスワード、機密情報を保護するために不可欠なPowerShellセキュリティのベストプラクティスTOP10をご紹介します。PowerShell環境のセキュリティを強化し、不正アクセスや潜在的なセキュリティ侵害から保護します。"
 genre: ["PowerShellセキュリティのベストプラクティス", "スクリプティング・セキュリティ", "パスワード・セキュリティ", "ITセキュリティ", "サイバーセキュリティ", "ウィンドウズ管理", "オートメーション", "安全なコーディング", "ネットワーク・セキュリティ", "データ保護"]
 tags: ["PowerShellセキュリティのベストプラクティス", "PowerShellパスワード・セキュリティのベストプラクティス", "PowerShellの保護と使用のベストプラクティス", "スクリプト実行ポリシー", "コードサイニング", "ユーザーアクセス制御", "パスワードセキュリティ", "パスワードのハードコーディング", "強力なパスワード", "パスワードローテーションポリシー", "PowerShellスクリプトの保護", "PowerShellでパスワードを保護する", "PowerShellでのスクリプト実行管理", "PowerShellで機密情報を保護する", "PowerShellのセキュリティ強化"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "PowerShellスクリプトを保護するシールドを示す象徴的な図。"
 coverCaption: "効果的なセキュリティ・プラクティスでPowerShellスクリプトを保護します。"
 ---

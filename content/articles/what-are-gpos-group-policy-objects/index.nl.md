@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de kracht van Group Policy Objects (GPOs) en leer hoe u uw netwerkinstellingen en -beleid efficiënt kunt beheren en optimaliseren voor een betere beveiliging en gestroomlijnde activiteiten."
 genre: ["Netwerkbeheer", "Objecten voor groepsbeleid", "GPO's", "Windows-beheer", "IT-infrastructuur", "Netwerkbeveiliging", "Active Directory", "Configuratiebeheer", "Beheer van groepsbeleid", "Netwerkoptimalisatie"]
 tags: ["GPO's", "Objecten voor groepsbeleid", "Netwerkbeheer", "Windows-beheer", "Active Directory", "Configuratiebeheer", "Netwerkbeveiliging", "Beheer van groepsbeleid", "Netwerkoptimalisatie", "IT-infrastructuur", "Effectief netwerkbeheer", "Netwerkinstellingen optimaliseren", "Verbeterd beveiligingsbeleid", "Operaties stroomlijnen", "Beste praktijken voor groepsbeleid", "GPO's oplossen", "GPO-hiërarchie en -erfenis", "Console voor beheer van groepsbeleid", "Tools voor netwerkbeheer", "Tips voor probleemoplossing in GPO"]
-cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png"
+cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp"
 coverAlt: "Een afbeelding in symbolische kunststijl die een netwerk van onderling verbonden tandwielen illustreert, als symbool voor efficiënt netwerkbeheer en -optimalisatie."
 coverCaption: "Ontgrendel de kracht van GPOs: Stroomlijn uw netwerkbeheer vandaag nog!"
 ---

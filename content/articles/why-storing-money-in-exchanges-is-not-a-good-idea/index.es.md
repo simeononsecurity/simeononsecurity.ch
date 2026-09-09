@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "En este artículo se analizan los peligros de almacenar criptomonedas en bolsas, se explica por qué es equivalente a guardar dinero en un colchón y se destacan las ventajas de utilizar una cartera de hardware para un almacenamiento seguro."
 tags: ["Almacenamiento de criptomonedas", "Riesgos de cambio", "Cartera de hardware", "Ciberseguridad", "Invertir en criptomonedas", "Almacenamiento seguro", "Claves privadas", "Carteras portátiles", "Normativa gubernamental"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Un monedero físico con un candado y una cadena alrededor, que simboliza la seguridad de almacenar criptomonedas en un monedero físico."
 coverCaption: ""
 ---

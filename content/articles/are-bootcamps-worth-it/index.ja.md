@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この記事では、ブートキャンプのメリットとデメリットを説明し、新しいスキルや資格を素早く取得するためにブートキャンプが適切な選択かどうかを個人が判断できるようにします。"
 tags: ["ブートキャンプ", "キャリア開発", "スキル習得", "認定資格", "教育", "ジョブマーケット", "ハンズオン体験", "費用対効果", "総合的な教育", "信頼性", "肉体的・精神的な要求"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "キーボードの上に卒業帽子が置かれたノートパソコン、その周りには書架とストップウォッチ"
 coverCaption: ""
 ---

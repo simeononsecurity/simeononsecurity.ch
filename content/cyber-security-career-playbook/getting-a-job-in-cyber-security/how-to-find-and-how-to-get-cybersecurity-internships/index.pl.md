@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-22
 description: "Odkryj najlepsze sposoby na znalezienie i zabezpieczenie staży w zakresie cyberbezpieczeństwa, zdobycie praktycznego doświadczenia i rozpoczęcie kariery w tej dziedzinie."
 tags: ["staże w zakresie cyberbezpieczeństwa", "możliwości odbycia stażu", "znajdowanie staży w zakresie cyberbezpieczeństwa", "Jak zdobyć staż w dziedzinie cyberbezpieczeństwa?", "płatne staże", "bezpłatne staże", "staże w agencjach rządowych", "staże w prywatnych firmach", "staże", "staże do zaliczenia", "Platformy pracy online", "tablice ogłoszeń dotyczące cyberbezpieczeństwa", "regulacje rządowe", "Staże w NSA", "Staże w DoD", "Staże w FBI", "Staże w IBM", "Staże Microsoft", "Staże w Cisco", "Staże w firmie Symantec", "Staże ISACA", "(ISC)² staże", "Staże CompTIA", "nawiązywanie kontaktów w celu odbycia stażu", "Wskazówki dotyczące CV dla stażystów", "przygotowanie do rozmowy kwalifikacyjnej", "rozwój kariery w dziedzinie cyberbezpieczeństwa", "połączenia zawodowe", "praktyczne doświadczenie", "edukacja w zakresie cyberbezpieczeństwa"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.webp"
 coverAlt: "Obrazek w stylu kreskówki przedstawiający studenta w pelerynie superbohatera i trzymającego tarczę z symbolem kłódki, reprezentujący staże i możliwości kariery w zakresie cyberbezpieczeństwa."
 coverCaption: "Odblokuj swoją przyszłość w cyberbezpieczeństwie dzięki cennym stażom!"
 ---

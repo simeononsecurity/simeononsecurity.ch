@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed zagrożeniami internetowymi, takimi jak hakerstwo, kampanie oszczerstw i kradzież tożsamości, korzystając z tych pomocnych wskazówek."
 tags: ["cybersecurity", "bezpieczeństwo w sieci", "kradzież tożsamości", "hakowanie", "kampanie oszczerstw", "media społecznościowe", "hasła", "uwierzytelnianie dwuskładnikowe", "zamrożenie kredytu"]
-cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.png"
+cover: "/img/cover/A_person_holding_a_padlock_in_front_of_a_computer_screen.webp"
 coverAlt: "Osoba trzymająca kłódkę przed ekranem komputera, na którym wyświetlany jest komunikat o treści Chronione"
 coverCaption: ""
 ---

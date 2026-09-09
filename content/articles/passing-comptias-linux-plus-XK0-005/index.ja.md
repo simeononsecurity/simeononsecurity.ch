@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "CompTIA Linux+ XK0-005試験に合格し、Linuxプロフェッショナルとしてキャリアアップするための貴重なヒントやコツを学ぶことができます。"
 tags: ["Linuxのアップデート", "ウブントゥ", "デビアン", "CentOS", "RHEL", "オフライン・アップデート", "ローカルリポジトリ", "キャッシュ", "サーバーセットアップ", "クライアントセットアップ", "アプトミラー", "デブミラー", "クリエイトレポ", "アプトキャッチャーエヌジー", "ヤムクロン", "Linuxシステムのアップデート", "オフラインパッケージアップデート", "オフラインソフトウェアアップデート", "ローカルパッケージリポジトリ", "ローカルパッケージキャッシュ", "オフラインのLinuxアップデート", "オフラインアップデートの処理", "オフライン更新方式", "オフラインシステムメンテナンス", "Linuxサーバーのアップデート", "Linuxクライアントのアップデート", "オフラインソフトウェア管理", "オフラインパッケージ管理", "アップデート戦略", "Linuxのセキュリティアップデート"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
 coverAlt: "成功する未来に向かって、自信満々に橋を渡っていく親しみやすい漫画のLinuxペンギンです。"
 coverCaption: ""
 ---

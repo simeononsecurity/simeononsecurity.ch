@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggere i vostri preziosi dati da attacchi informatici, disastri naturali e guasti hardware."
 tags: ["strategia di backup", "protezione dei dati", "sicurezza informatica", "ridondanza dei dati", "prevenzione della perdita di dati", "recupero dati", "compliance", "dischi rigidi esterni", "servizi di archiviazione in cloud", "storage collegato alla rete", "software di backup", "backup automatici", "sicurezza dei dati", "recupero in caso di disastro", "backup offsite", "backup ridondanti", "Le migliori pratiche di backup", "soluzioni di backup", "tipi di stoccaggio", "sicurezza dei dati"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Un personaggio dei cartoni animati con un mantello che regge uno scudo con il numero 3, mentre si trova in piedi sopra due scatole di archiviazione, una che rappresenta un disco rigido e l'altra un cloud, e indica un globo che rappresenta l'archiviazione fuori sede."
 coverCaption: ""
 ---

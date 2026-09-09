@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda las mejores prácticas de codificación segura en Python para minimizar el riesgo de brechas de seguridad y proteger los datos sensibles."
 tags: ["Python", "Codificación segura", "Riesgos de seguridad", "Validación de las entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flash", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Intermitente", "Protección de datos", "Vulnerabilidades", "Codificación segura", "Python", "Riesgos de seguridad", "Validación de entradas", "Bibliotecas criptográficas", "Menor privilegio", "Analizador de código estático", "Aplicaciones web", "Marcos de trabajo de Python", "Django", "Flash", "Sistema de autenticación", "Cifrado de contraseñas", "Sistema de plantillas", "Gestión de sesiones", "MarkupSafe", "WTForms", "Intermitente", "Protección de datos", "Vulnerabilidades", "Seguridad del código Python", "Revisión del código", "Herramientas de análisis estático", "Desarrollo web seguro", "Prácticas de codificación seguras", "Vulnerabilidades de seguridad", "Buenas prácticas de seguridad del código", "Cifrado de datos", "Principio del menor privilegio", "Análisis del código", "Seguridad web"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "Un escudo de dibujos animados con la palabra Python escrita en él para representar las normas de codificación segura"
 coverCaption: ""
 ---

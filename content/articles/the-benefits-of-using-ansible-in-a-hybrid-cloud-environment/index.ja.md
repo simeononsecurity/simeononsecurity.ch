@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ansibleの自動化機能により、ハイブリッドクラウド環境の合理化、安全性、最適化を実現し、生産性を向上させる方法をご紹介しています。"
 tags: ["オプス", "CICD", "スケーラビリティ", "パフォーマンス", "セキュリティ", "コンプライアンス", "統合", "アマゾンウェブサービス", "Microsoft Azure", "グーグルクラウド", "Ansibleタワー", "Ansible Galaxy（アンシブル・ギャラクシー", "Ansible Vault", "コスト削減", "IT効率"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "ハイブリッドクラウド環境を表現し、クラウドインフラの効率的な自動管理を示す、中に歯車がある雲の鮮やかな3Dアニメーションイラストです。"
 coverCaption: ""
 ---

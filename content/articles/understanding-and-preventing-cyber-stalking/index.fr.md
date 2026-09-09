@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à vous protéger du cyberharcèlement et à assurer votre sécurité en ligne grâce à ces conseils et techniques."
 tags: ["cyberharcèlement", "sécurité en ligne", "sécurité internet", "prévention du harcèlement", "la sécurité personnelle", "vie privée en ligne", "cybersécurité", "sécurité numérique", "sécurité sur internet", "cyberintimidation", "harcèlement", "protection des victimes", "action en justice", "conseil", "santé mentale", "sécurité des médias sociaux", "harcèlement en ligne", "harcèlement en ligne", "application de la loi", "protection de la vie privée"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Une personne regardant son téléphone d'un air inquiet, tandis qu'une ombre se profile à l'arrière-plan."
 coverCaption: ""
 ---

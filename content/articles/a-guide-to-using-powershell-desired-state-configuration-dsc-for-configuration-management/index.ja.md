@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "PowerShell Desired State Configuration (DSC)を使用して、安全でコンプライアンスに準拠した環境のためのシステム構成を自動化および管理する方法を説明します。"
 tags: ["パワーシェル", "ディスクロージャー", "コンフィギュレーションマネジメント", "オートメーション", "ウィンドウズ", "システム管理", "ベストプラクティス", "コンプライアンス", "セキュリティ", "インフラストラクチャー", "デブオプス", "サーバー構成", "テスト", "ギット", "ソースコントロール", "政府規制", "エヌアイエスティー", "CIS", "コンフィギュレーションドリフト", "カスタムリソース"]
-cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.png"
+cover: "/img/cover/A_cartoon_image_of_a_confident_system_administrator.webp"
 coverAlt: "スーパーヒーローのマントを羽織った自信に満ちたシステム管理者が、整然としたサーバーラックの横に立ち、片手にPowerShell DSCスクリプト、もう片手にWindowsロゴの入った盾を持ち、設定ドリフトやセキュリティ脅威からサーバーを守っている漫画のような画像です。"
 coverCaption: ""
 ---

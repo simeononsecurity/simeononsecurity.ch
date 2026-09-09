@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come implementare il NIST Cybersecurity Framework e proteggere la vostra organizzazione dalle minacce informatiche con la nostra guida passo passo."
 tags: ["sicurezza informatica", "NIST", "quadro", "gestione del rischio", "sicurezza delle informazioni", "minacce informatiche", "implementazione", "migliori pratiche", "linee guida", "standard", "attacchi informatici", "valutazione del rischio", "rischio di cybersicurezza", "protezione dei dati", "compliance", "Sicurezza informatica", "sicurezza della rete", "risposta agli incidenti", "misure di sicurezza", "piano di cybersicurezza"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Un'immagine a fumetti di una persona con uno scudo che blocca vari attacchi informatici."
 coverCaption: ""
 ---

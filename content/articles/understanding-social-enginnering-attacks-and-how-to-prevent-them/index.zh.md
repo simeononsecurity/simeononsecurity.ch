@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何通过员工培训、安全策略等来防止社会工程攻击和保护组织的敏感信息。"
 tags: ["社会工程学", "网络安全", "预防", "员工培训", "安全政策", "多因素认证", "抗病毒", "人身安全", "政府规章", "FISMA 认证", "HIPAA", "数据保护", "网络威胁", "网络安全", "信息安全", "敏感信息", "网络犯罪", "遵守", "网络安全策略", "数据安全"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "黑客试图用钓鱼竿引诱人，而盾牌和锁象征着网络安全。"
 coverCaption: ""
 ---

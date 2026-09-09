@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i passi da compiere per avviare la vostra carriera nell'entusiasmante settore in continua evoluzione dell'IT e della Cybersecurity con questa guida completa"
 tags: ["IT e sicurezza informatica", "Guida alla carriera", "Certificazioni CompTIA", "MCSA", "Linux+", "CCNA", "Test di penetrazione", "Hacking etico", "OSCP", "Scripting", "Offerte di lavoro IT", "Lavori di sicurezza informatica"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Un'immagine di una persona seduta alla propria postazione di lavoro con un lucchetto di sicurezza in primo piano, a indicare l'importanza di proteggere le postazioni di lavoro."
 coverCaption: ""
 ---

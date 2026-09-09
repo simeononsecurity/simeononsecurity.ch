@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a protegerse a sí mismo y a su empresa de los vectores de ciberataque más comunes, como la ingeniería social, el malware, los ataques de denegación de servicio, los ataques a contraseñas y los ataques a aplicaciones web."
 tags: ["ciberseguridad", "ciberataques", "ingeniería social", "malware", "denegación de servicio", "ataques con contraseña", "ataques a aplicaciones web", "concienciación sobre seguridad", "filtros de spam", "autenticación multifactor", "antivirus software", "cortafuegos", "botnets", "CDNs", "servicios anti-DDoS", "rendimiento de la red", "vulnerabilidades", "protección", "mitigación de riesgos", "seguridad de la información"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Ilustración de dibujos animados de una persona que sostiene un escudo y está de pie frente a un ordenador con varios vectores de ataque que se dirigen hacia ella."
 coverCaption: ""
 ---

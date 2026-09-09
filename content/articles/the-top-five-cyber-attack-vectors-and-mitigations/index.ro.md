@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați pe dumneavoastră și afacerea dumneavoastră de cei mai comuni vectori de atac cibernetic, inclusiv ingineria socială, malware, atacurile de refuz de serviciu, atacurile cu parole și atacurile aplicațiilor web."
 tags: ["securitate cibernetică", "atacuri cibernetice", "inginerie socială", "malware", "negare de serviciu", "atacuri cu parole", "atacuri la aplicațiile web", "conștientizarea securității", "filtre de spam", "autentificarea cu mai mulți factori", "software antivirus", "firewall-uri", "botnets", "CDN-uri", "servicii anti-DDoS", "performanța rețelei", "vulnerabilități", "protecție", "atenuarea riscurilor", "securitatea informațiilor"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "O ilustrație de desen animat a unei persoane care ține un scut și care stă în fața unui computer cu diverși vectori de atac care vin spre ea."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u een veilig en compliant Windows-systeem kunt maken met het gebruiksvriendelijke Standalone-Windows-STIG-Script, een informatief artikel met stapsgewijze instructies en gedetailleerde uitleg over parameters."
 tags: ["STIG Script", "Windows Beveiliging", "Compatibel Windows-systeem", "Systeemverharding", "Windows STIG", "Beveiligde ramen", "Overeenstemming met Windows", "Handmatige installatie", "Windows Updates", "Adobe Reader", "Firefox", "Chroom", "Internet Explorer 11", ".NET-kader", "Kantoor", "OneDrive", "Java", "Windows Defender", "Windows Firewall", "Mitigaties", "Nessus PID", "VMware Horizon", "Optionele verharding"]
-cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.png"
+cover: "/img/cover/A_screenshot_of_a_computer_screen_with_with_a_progress_bar.webp"
 coverAlt: "Een screenshot van een computerscherm met een voortgangsbalk die het voltooiingspercentage aangeeft."
 coverCaption: ""
 ---

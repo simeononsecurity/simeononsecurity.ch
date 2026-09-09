@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドで、ITとサイバーセキュリティのエキサイティングで進化し続ける分野であなたのキャリアを開始するためのステップを発見してください。"
 tags: ["IT・サイバーセキュリティ", "キャリアガイド", "CompTIA認定資格", "エムシーエスエー", "リナックスプラス", "シーシーエヌエー", "ペネトレーションテスト", "エシカルハッキング", "オーエスシーピー", "スクリプト", "ITジョブズ", "サイバーセキュリティの仕事"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "ワークステーションに座る人の手前にセキュリティロックがあるイメージで、ワークステーションのセキュリティ確保の重要性を示しています。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Vergroot uw kansen om uw droombaan te vinden met deze tips voor het schrijven van een cv voor cyberbeveiliging, softwareontwikkeling en IT-professionals."
 tags: ["tips voor het schrijven van een cv", "cyberbeveiligingsprofessionals", "softwareontwikkeling", "IT-professionals", "werk zoeken", "loopbaanadvies", "technische vaardigheden", "hoogtepunten van het project", "cyberbeveiligingsbewustzijn", "probleemoplossende vaardigheden", "trends in de sector", "professionele ontwikkeling", "GDPR-naleving", "CCPA-voorschriften", "arbeidsmarkt", "cv-optimalisatie", "sollicitatie", "cv tips", "strategieën om werk te zoeken", "loopbaanontwikkeling"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Een illustratie in cartoonstijl van een persoon die een cv vasthoudt, omgeven door cyberbeveiligingssymbolen en codefragmenten."
 coverCaption: ""
 ---

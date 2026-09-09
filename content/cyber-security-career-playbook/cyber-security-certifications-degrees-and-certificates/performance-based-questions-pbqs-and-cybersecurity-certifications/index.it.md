@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Esplora l'ascesa delle domande basate sulle prestazioni (PBQ) nelle certificazioni di cybersecurity e il loro ruolo nella valutazione delle competenze pratiche e delle capacità di risoluzione dei problemi del mondo reale."
 tags: ["PBQ", "Domande basate sulle prestazioni", "certificazioni di cybersecurity", "competenze pratiche", "risoluzione di problemi reali", "PBQ di simulazione", "PBQ virtuali", "preparazione agli esami", "professionisti della cybersicurezza", "esperienza pratica", "esami di certificazione", "CompTIA", "Sicurezza informatica", "minacce informatiche", "pensiero critico", "competenza tecnica", "rilevanza per il settore", "tendenze della cybersicurezza", "standard di settore", "Quadro di sicurezza informatica NIST", "CISA", "Istituto nazionale per gli standard e la tecnologia", "valutazione della cybersicurezza", "educazione alla cybersicurezza", "sicurezza delle informazioni", "professionisti della sicurezza", "mercato del lavoro della cybersecurity", "Certificazioni IT", "competenze di cybersecurity", "sicurezza della rete"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "Un professionista che indossa un mantello da supereroe, con uno scudo che rappresenta la sicurezza informatica, in piedi con sicurezza davanti a una rete di computer."
 coverCaption: "Potenziatevi con le certificazioni di cybersecurity e liberate il vostro potenziale di supereroi!"
 ---

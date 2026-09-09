@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Un guide complet expliquant la cybersécurité en termes simples, soulignant son importance, les pratiques d'hygiène personnelle en matière de sécurité et le rôle des professionnels de la cybersécurité."
 tags: ["cybersécurité", "protection numérique", "la sécurité personnelle", "cybermenaces", "les professionnels de la cybersécurité", "hameçonnage", "mises à jour du logiciel", "des mots de passe forts", "authentification multifactorielle", "sécurité en ligne", "monde numérique", "cyberattaques", "la sécurité de l'information", "sécurité internet", "protection des données", "vie privée en ligne", "cyberdéfense", "cyber hygiène", "conseils de sécurité en ligne", "cyber sensibilisation", "cyberéducation", "prévention de la cybercriminalité", "cyber-résilience", "pratiques en ligne sécurisées", "vie privée numérique", "guide de la cybersécurité", "les bases de la cybersécurité", "sensibilisation à la cybersécurité", "conseils en matière de cybersécurité", "meilleures pratiques en matière de cybersécurité", "la cybersécurité pour les débutants"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Illustration d'un super-héros muni d'un bouclier protégeant le monde numérique des pirates informatiques et des cyber-menaces."
 coverCaption: ""
 ---

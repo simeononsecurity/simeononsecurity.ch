@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Descobriu les diferències entre les xarxes IoT Crankk i Helium, els seus models de consens, el maquinari de mineria, les tarifes del gas i molt més."
 tags: ["Crankk vs Helium IoT", "Xarxes IoT", "models de consens", "maquinari de mineria", "tarifes de gas", "cadena de blocs", "LoRaWAN", "Connectivitat IoT", "comunicació sense fils", "Internet de les coses", "xarxes descentralitzades", "dispositius de baixa potència", "Solucions IoT", "dispositius intel·ligents", "Aplicacions IoT", "transmissió de dades", "solucions de connectivitat", "Tecnologia IoT", "comparació de xarxes", "xarxes sense fil"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "Una il·lustració de dibuixos animats que mostra les xarxes IoT Crankk i Helium que connecten dispositius intel·ligents en un entorn descentralitzat i sense fil."
 coverCaption: ""
 ---

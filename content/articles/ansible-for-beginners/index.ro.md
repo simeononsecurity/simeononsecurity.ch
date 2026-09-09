@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Învățați elementele de bază ale Ansible, un instrument de automatizare open-source care simplifică gestionarea infrastructurii IT printr-un limbaj declarativ."
 tags: ["Introducere în Ansible", "Automatizarea managementului infrastructurii IT", "Bazele Ansible", "Automatizarea infrastructurii IT", "Managementul configurației", "Implementarea aplicației", "Aprovizionare", "Livrare continuă", "Conformitatea în materie de securitate", "Orchestrare", "YAML", "Module Ansible", "Roluri", "Cele mai bune practici", "Controlul versiunilor", "Testare", "Red Hat", "Administratori de sistem", "Linux", "macOS", "Windows", "Instalarea Ansible", "Inventar Ansible", "Ansible playbooks", "Module Ansible", "Roluri Ansible", "Cele mai bune practici Ansible", "Testarea Ansible", "Instrument de automatizare a infrastructurii IT", "Tutorial Ansible", "Automatizarea gestionării infrastructurii"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "Un personaj de desene animate care stă la un birou, înconjurat de servere și cabluri, cu logo-ul Ansible pe ecranul computerului, zâmbind în timp ce sarcinile sunt automatizate."
 coverCaption: ""
 ---

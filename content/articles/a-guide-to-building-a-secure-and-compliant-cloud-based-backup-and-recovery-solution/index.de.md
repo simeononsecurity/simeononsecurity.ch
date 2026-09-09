@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie, wie Sie eine sichere, konforme Cloud-Backup-Lösung zum Schutz Ihrer Daten aufbauen können."
 tags: ["Cloud-Backup", "Datenwiederherstellung", "datenschutz", "Compliance", "GDPR", "HIPAA", "FISMA", "Cloud-Service-Anbieter", "Verschlüsselung", "Zugangskontrolle", "Sicherheit", "Vorschriften", "Normen", "beste Praktiken", "Schwachstellenanalyse", "Penetrationstests", "Audits", "Risikomanagement", "Skalierbarkeit", "Überwachung"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Ein animiertes 3D-Bild eines sicheren Tresors in den Wolken mit verschiedenen Symbolen für Vorschriften (GDPR, HIPAA, FISMA) und einem Schild, das den Datenschutz symbolisiert."
 coverCaption: ""
 ---

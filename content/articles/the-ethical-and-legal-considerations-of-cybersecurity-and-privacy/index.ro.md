@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați despre considerațiile juridice și etice privind securitatea cibernetică și confidențialitatea în transformarea digitală."
 tags: ["Securitatea cibernetică", "Confidențialitate", "Transformarea digitală", "Confidențialitatea datelor", "Protecția datelor", "Etică", "Responsabilitate", "Transparență", "Încredere", "Încălcarea datelor", "Colectarea datelor", "Securitatea datelor", "Regulamentul privind datele", "Reglementări privind confidențialitatea datelor", "Legile privind securitatea cibernetică", "Răspundere", "Legile privind protecția datelor", "Regulamentul privind protecția datelor", "Securitate online", "Securitatea informațiilor"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "O imagine de desen animat cu un lacăt care protejează un computer sau un scut cu o pictogramă de lacăt, simbolizând importanța securității cibernetice și a confidențialității în era digitală."
 coverCaption: ""
 ---

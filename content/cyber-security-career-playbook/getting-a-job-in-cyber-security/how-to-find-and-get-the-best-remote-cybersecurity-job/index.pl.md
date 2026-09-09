@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-26
 description: "Dowiedz się, jak znaleźć i zabezpieczyć najlepsze zdalne oferty pracy w obszarze cyberbezpieczeństwa, wykorzystując elastyczność i globalne możliwości w tej rozwijającej się dziedzinie."
 tags: ["zdalne oferty pracy w obszarze cyberbezpieczeństwa", "Znajdowanie pracy zdalnej", "zabezpieczanie pracy zdalnej", "kariery w cyberbezpieczeństwie", "możliwości pracy zdalnej", "Platformy pracy online", "cyberbezpieczeństwo poszukiwanie pracy", "równowaga między życiem zawodowym a prywatnym", "satysfakcja z pracy", "globalny rynek pracy", "strategie poszukiwania pracy", "ogłoszenia o pracę", "networking", "freelancing", "kontrakty rządowe", "wiedza techniczna", "certyfikaty cyberbezpieczeństwa", "umiejętności rozwiązywania problemów", "umiejętności komunikacyjne", "Motywacja własna", "wywiady zdalne", "wskazówki dotyczące CV", "wskazówki dotyczące listu motywacyjnego", "podstawy cyberbezpieczeństwa", "bezpieczeństwo sieci", "analiza zagrożeń", "ocena podatności na zagrożenia", "reakcja na incydent", "Trendy w branży cyberbezpieczeństwa", "wirtualna współpraca", "umiejętności zarządzania czasem"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.webp"
 coverAlt: "Rysunkowa ilustracja osoby pracującej na laptopie z ikonami i symbolami związanymi z cyberbezpieczeństwem wokół niej."
 coverCaption: "Odblokuj swoją przyszłość w zdalnych ofertach pracy związanych z cyberbezpieczeństwem"
 ---

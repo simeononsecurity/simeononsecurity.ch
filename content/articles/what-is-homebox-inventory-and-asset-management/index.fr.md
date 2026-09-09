@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez la puissance de Homebox, un logiciel open-source pour une gestion efficace des stocks et des actifs, améliorant la productivité de votre maison ou de votre petite entreprise."
 genre: ["Technologie", "Gestion des stocks", "Asset Management", "Source ouverte", "Productivité", "Petites entreprises", "Gestion des foyers", "Auto-hébergé", "Logiciel", "Organisation"]
 tags: ["Boîte à outils", "gestion des stocks", "asset management", "source ouverte", "auto-hébergé", "logiciel", "la productivité", "petites entreprises", "gestion des foyers", "l'organisation", "inventaire centralisé", "suivi des actifs", "champs de données personnalisés", "rappels", "rapport", "confidentialité des données", "conformité", "les réglementations gouvernementales", "serveur web", "base de données", "processus d'installation", "Dépôt GitHub", "la sécurité des données", "vie privée", "tenue de registres", "confidentialité et sécurité des données", "instructions d'installation", "interface web", "confidentialité des données", "le respect des lois locales"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "Illustration de bande dessinée d'une personne organisant divers objets à l'aide du logiciel Homebox."
 coverCaption: "Rationalisez votre inventaire et vos actifs avec Homebox, pour plus d'efficacité !"
 ---

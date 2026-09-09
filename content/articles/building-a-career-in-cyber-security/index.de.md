@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die wichtigsten Schritte für einen erfolgreichen Weg in der Cybersicherheit, einschließlich Ausbildung, Zertifizierungen und lukrativer Berufsaussichten."
 tags: ["Cybersicherheit", "Aufbau einer Karriere in der Cybersicherheit", "Ausbildung in Cybersicherheit", "Cybersicherheits-Zertifizierungen", "Beschäftigungsmöglichkeiten in der Cybersicherheit", "technische Berufe", "Cybersicherheitsausbildung", "Jobs im Bereich Cybersicherheit", "Cybersicherheitsindustrie", "Cybersicherheitsexperten", "Cybersicherheits-Fähigkeiten", "Netzwerksicherheit", "Informationssicherheit", "Cybersicherheitsanalytikerin", "Ethisches Hacken", "Berater für Cybersicherheit", "Vorfallreaktion", "CISO", "Cybersicherheitsstrategie", "Bachelor-Abschluss in Cybersicherheit", "Master-Abschluss in Cybersicherheit", "CISSP-Zertifizierung", "CEH-Zertifizierung", "CompTIA Security+ Zertifizierung", "Arbeitsmarkt für Cybersicherheit", "digitale Forensik", "Risikomanagement in der Cybersicherheit", "sichere Softwareentwicklung", "datenschutz", "Trends in der Cybersicherheit"]
-cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.png"
+cover: "/img/cover/A_shield-wielding_cybersecurity_professional_safeguarding.webp"
 coverAlt: "Ein Fachmann für Cybersicherheit, der mit einem Schild ausgestattet ist und digitale Werte vor Hackerangriffen schützt."
 coverCaption: ""
 ---

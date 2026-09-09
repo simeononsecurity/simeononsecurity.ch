@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "本文探讨了新兵训练营的优缺点，并帮助个人确定新兵训练营是否是快速获取新技能和认证的正确选择。"
 tags: ["训练营", "职业发展", "技能学习", "认证", "教育", "就业市场", "实践经验", "成本效益高", "综合教育", "可信度", "身心需求"]
-cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.png"
+cover: "/img/cover/A_laptop_with_a_graduation_hat_on_the_keyboard_surrounded_by_books.webp"
 coverAlt: "一台笔记本电脑，键盘上有一顶毕业帽，周围堆满了书和秒表"
 coverCaption: ""
 ---

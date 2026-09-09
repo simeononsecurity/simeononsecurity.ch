@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de essentie van tools en technieken voor penetratietesten, methodologieën en certificeringen om uw carrière in cyberbeveiliging een vliegende start te geven."
 tags: ["penetratietesten", "cyberbeveiliging", "ethisch hacken", "gereedschap", "technieken", "beginnersgids", "Nmap", "Metasploit", "Wireshark", "Burp Suite", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "veiligheidscontrole", "kwetsbaarheidsbeoordeling", "netwerkbeveiliging", "informatiebeveiliging"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "Een cartoonhacker met een bivakmuts op en een vergrootglas in de hand, die een computerscherm bekijkt waarop verschillende testprogramma's voor hacken te zien zijn, zoals Nmap, Metasploit, Wireshark en Burp Suite, met op de achtergrond digitale sloten als symbool voor beveiligde systemen."
 coverCaption: ""
 ---

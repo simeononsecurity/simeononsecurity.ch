@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Erfahren Sie, wie Sie mit bewährten Verfahren Sicherheits-Patches für anfällige Server implementieren und bösartige Angriffe verhindern können."
 tags: ["Sicherheit der Server", "Management von Schwachstellen", "Patch-Verwaltung", "Cybersecurity", "Server-Patching", "Bedrohungslandschaft", "Penetrationstests", "Sicherheits-Updates", "Software-Patches", "IT-Sicherheit", "Datenschutz", "Sicherheit des Systems", "Risikomanagement", "Sicherheitspolitik", "Staging-Umgebungen", "Software-Schwachstellen", "Kritische Patches", "Hersteller-Patches", "Sicherheitsbulletins", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die ein Schild hält und vor einem Serverraum Wache steht, um den Schutz und die Sicherheit darzustellen, die die Implementierung von Patches bietet."
 coverCaption: ""
 ---

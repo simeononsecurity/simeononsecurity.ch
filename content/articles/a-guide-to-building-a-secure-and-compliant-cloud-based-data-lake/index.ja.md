@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この包括的なガイドでは、クラウドベースのデータレイクを計画、構築、管理する際のセキュリティとコンプライアンスのベストプラクティスについて説明します。"
 tags: ["データレイク", "クラウドセキュリティ", "コンプライアンス規定", "アクセス制御", "暗号化", "エーダブリュエス", "アズール", "ヒパア", "GDPR", "モニタリング", "つづり", "サイバーセキュリティ", "SIEMソリューション", "ITサポートチーム", "脅威の風景", "クラウドマイグレーション", "クラウドガバナンス"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "城が戦士の騎士によって守られている漫画のイメージで、安全でコンプライアンスに優れたクラウドベースストレージのための強力な保護の概念を象徴しています"
 coverCaption: ""
 ---

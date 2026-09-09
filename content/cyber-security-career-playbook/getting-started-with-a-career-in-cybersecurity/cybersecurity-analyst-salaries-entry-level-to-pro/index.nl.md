@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Ontdek de salarisbereiken en factoren die van invloed zijn op de salarissen van cyberbeveiligingsanalisten, van startersfuncties tot doorgewinterde professionals."
 tags: ["cyberbeveiligingsanalist salarissen", "aanvangssalarissen", "pro salarissen", "carrières in cyberbeveiliging", "Compensatie voor cyberbeveiliging", "ervaring en deskundigheid", "opleiding en certificeringen", "invloed van de industrie op salarissen", "geografische locatie", "functieverantwoordelijkheden", "beginnende analisten", "analisten op middenniveau", "analisten op senior niveau", "carrièregroei", "verdienpotentieel", "banenmarkt cyberbeveiliging", "salaristrends", "cyberbeveiligingscertificeringen", "IT-beroepen", "compensatiefactoren", "cyberbeveiligingsindustrie", "salarisbereiken", "inzichten in de arbeidsmarkt", "salarisgids", "loopbaanadvies", "salaristrends in cyberbeveiliging", "cyberbeveiligingsprofessionals", "veiligheidsanalist posities", "analyse arbeidsmarkt cyberbeveiliging", "trends in salaris cyberbeveiliging"]
-cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.webp"
 coverAlt: "Een cartoonafbeelding van een cyberbeveiligingsanalist die achter een computer werkt, omringd door slotpictogrammen en gegevensstromen, die het belang van het beschermen van digitale activa en informatie symboliseren."
 coverCaption: "Een cartoonvoorstelling van een cyberbeveiligingsanalist die zorgt voor digitale veiligheid en de kritieke rol benadrukt die ze spelen bij het beschermen van organisaties tegen cyberbedreigingen."
 ---

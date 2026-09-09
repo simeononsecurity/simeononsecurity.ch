@@ -6,7 +6,7 @@ draft: false
 description: "Una anàlisi independent de les càmeres ALPR de Flock Safety: com funcionen realment, quines dades recullen més enllà de les matrícules, com l'intercanvi de dades crea una base de dades nacional oculta, i per què la qüestió de l'ordre judicial és el problema real."
 genre: ["Privadesa", "Vigilància", "Llibertats Civils", "Tecnologia per a l'Aplicació de la Llei", "Drets Digitals"]
 tags: ["Flock Safety", "ALPR", "lectors de matrícules", "vigilància", "privadesa", "vigilància sense ordre judicial", "anàlisi de comboi", "seguiment per Bluetooth", "seguiment TPMS", "intercanvi de dades", "càmeres Ring", "Quarta Esmena", "res a amagar", "precisió LPR", "acusació errònia", "MFA", "tecnologia per a l'aplicació de la llei", "llibertats civils", "minimització de dades", "DeFlock", "contravigilància", "seguretat pública", "vigilància policial", "drets a la privadesa", "Quarta Esmena", "vigilància digital", "vigilància massiva", "reconeixement de matrícules", "xarxes de càmeres", "retenció de dades"]
-cover: "/img/cover/flock-cameras-public-safety-or-surveillance-2026.webp"
+cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"
 coverAlt: "Una cruïlla fosca il·luminada per una càmera de vigilància muntada en un pal, amb dades de matrícules superposades als cotxes que passen."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/"

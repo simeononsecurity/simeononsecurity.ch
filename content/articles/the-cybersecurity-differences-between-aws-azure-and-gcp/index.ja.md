@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "クラウドセキュリティの観点からAWS、Azure、Google Cloud Platformを比較し、その違いを学ぶことで、組織にとって十分な情報を得た上で決断することができます。"
 tags: ["エーダブリュエス", "アズール", "グーグルクラウド", "クラウドセキュリティ", "アイアム", "GuardDuty（ガードデューティ", "セキュリティセンター", "セキュリティ・コマンド・センター", "DDoS対策", "クラウドアーマー", "ダブリューエーエフ", "プライベートリンク", "ディーエルピー", "クラウドコンピューティング", "クラウドサービス", "クラウドプロバイダー", "データ保護", "サイバーセキュリティ", "インフラストラクチャセキュリティ"]
-cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.png"
+cover: "/img/cover/A_vibrant_3D_animated_image_showcasing_three_distinct_cloud.webp"
 coverAlt: "AWS、Azure、Google Cloud Platformの3つのクラウドを3Dアニメーションで表現し、それぞれのクラウドが提供するセキュリティを盾のマークで象徴しています。"
 coverCaption: ""
 ---

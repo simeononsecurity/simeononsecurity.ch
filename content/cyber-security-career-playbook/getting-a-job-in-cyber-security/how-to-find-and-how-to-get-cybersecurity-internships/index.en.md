@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-22
 description: "Discover the best ways to find and secure cybersecurity internships, gaining practical experience and launching your career in the field."
 tags: ["cybersecurity internships", "internship opportunities", "finding cybersecurity internships", "how to get cybersecurity internships", "paid internships", "unpaid internships", "government agency internships", "private company internships", "externships", "internships for credits", "online job platforms", "cybersecurity job boards", "government regulations", "NSA internships", "DoD internships", "FBI internships", "IBM internships", "Microsoft internships", "Cisco internships", "Symantec internships", "ISACA internships", "(ISC)² internships", "CompTIA internships", "networking for internships", "resume tips for internships", "interview preparation", "cybersecurity career development", "professional connections", "practical experience", "cybersecurity education"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.webp"
 coverAlt: "A cartoon-style image depicting a student wearing a superhero cape and holding a shield with a lock symbol, representing cybersecurity internships and career opportunities."
 coverCaption: "Unlock your future in cybersecurity with valuable internships!"
 ---

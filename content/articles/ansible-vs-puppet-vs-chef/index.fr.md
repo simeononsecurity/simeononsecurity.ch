@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les différences entre Ansible, Puppet et Chef afin de choisir l'outil d'automatisation le mieux adapté aux besoins de votre organisation dans ce comparatif complet."
 genre: ["Technologie", "Outils d'automatisation", "Gestion de la configuration", "Infrastructure informatique", "DevOps", "Opérations informatiques", "Automatisation de l'informatique en nuage", "Déploiement de logiciels", "Infrastructure Management", "Outils libres"]
 tags: ["Ansible", "marionnette", "Chef", "Outils d'automatisation informatique", "Outils de gestion de la configuration", "Déploiement de l'application", "Gestion des infrastructures", "Automation comparison", "Flux de travail DevOps", "Cloud automation", "Livraison continue", "Automatisation de la sécurité", "Infrastructure informatique", "Gestion de la configuration", "Approvisionnement des serveurs", "Audit de conformité", "Tests d'infrastructure", "Intégration DevOps", "Avantages de l'automatisation", "Cas d'utilisation de l'automatisation", "Comparaison des outils d'automatisation", "Évolution de l'automatisation", "Courbe d'apprentissage de l'automatisation", "Performance de l'automatisation", "Intégration de l'automatisation", "Soutien à la communauté de l'automatisation", "Choisir le bon outil d'automatisation"]
-cover: "/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.png"
+cover: "/img/cover/A_symbolic_image_representing_the_three_automation_tools_An.webp"
 coverAlt: "Une image symbolique représentant les trois outils d'automatisation, Ansible, Puppet et Chef, engagés dans une compétition amicale."
 coverCaption: "Choisissez le meilleur outil d'automatisation pour améliorer l'efficacité et rationaliser les opérations."
 ---

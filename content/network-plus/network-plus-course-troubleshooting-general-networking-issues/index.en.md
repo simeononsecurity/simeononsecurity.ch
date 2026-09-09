@@ -6,7 +6,7 @@ draft: false
 description: "A comprehensive online course covering troubleshooting techniques and common issues related to general networking, including collisions, broadcast storms, duplicate MAC/IP addresses, asymmetrical routing, firewall settings, DNS resolution failures, and more."
 genre: ["Online Education", "IT Certification", "Network Troubleshooting", "Networking Concepts", "Security Solutions", "Network Performance", "DNS and NTP", "BYOD Challenges", "Licensed Feature Issues", "Troubleshooting Techniques"]
 tags: [ "CompTIA Network Plus", "network troubleshooting", "common networking issues", "switching loops", "routing loops", "DHCP server issues", "network performance", "firewall settings", "blocked services", "blocked ports", "blocked addresses", "DNS challenges", "NTP synchronization", "BYOD connectivity", "licensed feature challenges", "throughput", "speed", "distance", "RSSI signal strength", "EIRP power settings", "network performance considerations", "addressing security-related issues", "antennas and placement", "channel utilization", "site survey for wireless networks", "interference troubleshooting", "captive portal issues", "client disassociation troubleshooting", "device configuration review", "network performance baselines"]
-cover: "/img/cover/A_symbolic_image_depicting_interconnected_network.png"
+cover: "/img/cover/A_symbolic_image_depicting_interconnected_network.webp"
 coverAlt: "A symbolic image depicting interconnected network nodes with a magnifying glass representing troubleshooting concepts."
 coverCaption: "Troubleshooting the complexities of networks: Unraveling challenges for seamless connectivity."
 ---

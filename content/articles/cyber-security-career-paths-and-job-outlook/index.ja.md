@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "急速に成長するこの分野で、サイバーセキュリティのさまざまなキャリアパス、仕事の見通し、メリットなどを探ってみましょう。"
 tags: ["サイバーセキュリティ", "キャリアパス", "雇用統計", "インフォメーションセキュリティアナリスト", "セキュリティエンジニア", "セキュリティアーキテクト", "セキュリティテスター", "フォレンジックアナリスト", "インシデントレスポンス担当者", "セキュリティコンサルタント", "サイバー脅威", "技術", "データ保護", "プライバシー", "プロフェッショナル・ディベロップメント", "証明書", "官制", "エヌアイエスティー", "シーサ", "サイバーセキュリティのキャリア"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "シールドとロックでデジタルシステムを守るサイバーセキュリティのプロフェッショナル。"
 coverCaption: ""
 ---

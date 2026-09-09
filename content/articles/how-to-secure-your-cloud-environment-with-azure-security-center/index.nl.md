@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw cloudomgeving kunt beveiligen met behulp van Azure Security Center, met best practices en voorbeelden uit de praktijk."
 tags: ["Azuur", "Beveiligingscentrum", "cloudbeveiliging", "Azure Sentinel", "Azure Defender", "netwerkbeveiliging", "identiteitsbeheer", "gegevensbeveiliging", "detectie van bedreigingen", "reactie op bedreigingen", "MFA", "RBAC", "NSG's", "Azure Firewall", "WAF", "Azure AD", "Azure Informatiebeveiliging", "Encryptie van de Azure opslagdienst", "Azure schijfversleuteling"]
-cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png"
+cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "Een schildpictogram omgeven door wolkensymbolen, die een veilige cloudomgeving voorstellen, met het Azure Security Center-logo op het schild."
 coverCaption: ""
 ---

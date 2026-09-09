@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj zalety i wady narzędzi bezpieczeństwa typu open-source i komercyjnych, pomagając w podejmowaniu świadomych decyzji dotyczących strategii bezpieczeństwa Twojej organizacji."
 tags: ["bezpieczeństwo o otwartym kodzie źródłowym", "komercyjne narzędzia bezpieczeństwa", "efektywność kosztowa", "elastyczność", "możliwość dostosowania do potrzeb", "wsparcie społeczności", "ograniczone wsparcie", "dokumentacja", "wyzwania związane z integracją", "jakość i niezawodność", "płynna integracja", "uzależnienie od dostawcy", "Zasoby informatyczne", "infrastruktura bezpieczeństwa", "rozwiązania w zakresie bezpieczeństwa", "ograniczenia budżetowe", "wyjątkowe wymagania", "kompatybilność oprogramowania", "cele bezpieczeństwa", "podejmowanie decyzji"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "Obrazek w stylu kreskówki przedstawiający dwie kontrastujące postacie reprezentujące narzędzia bezpieczeństwa open-source i komercyjne, stojące po przeciwnych stronach wyważonej skali, symbolizujące plusy i minusy każdej opcji."
 coverCaption: ""
 ---

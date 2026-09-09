@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-26
 description: "Découvrez comment trouver et obtenir les meilleurs emplois à distance dans le domaine de la cybersécurité, en tirant parti de la flexibilité et des opportunités mondiales dans ce domaine en pleine croissance."
 tags: ["emplois à distance dans le domaine de la cybersécurité", "trouver des emplois à distance", "sécuriser les emplois à distance", "carrières en cybersécurité", "possibilités de travail à distance", "les plates-formes d'emploi en ligne", "recherche d'emploi en cybersécurité", "l'équilibre entre vie professionnelle et vie privée", "satisfaction au travail", "marché mondial de l'emploi", "stratégies de recherche d'emploi", "sites d'emploi", "la mise en réseau", "freelance", "marchés publics", "expertise technique", "certifications en cybersécurité", "les compétences en matière de résolution de problèmes", "compétences en matière de communication", "motivation personnelle", "entretiens à distance", "conseils en matière de curriculum vitae", "Conseils pour la lettre de motivation", "les fondamentaux de la cybersécurité", "sécurité des réseaux", "renseignements sur les menaces", "évaluation de la vulnérabilité", "incident response", "tendances du secteur de la cybersécurité", "collaboration virtuelle", "compétences en matière de gestion du temps"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_working_on_a_laptop_with.webp"
 coverAlt: "Dessin humoristique représentant une personne travaillant sur un ordinateur portable, entourée d'icônes et de symboles liés à la cybersécurité."
 coverCaption: "Débloquez votre avenir grâce aux emplois à distance dans le domaine de la cybersécurité"
 ---

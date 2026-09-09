@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "PowerShellスクリプトの基本を学び、タスクを自動化するための初心者向けステップバイステップガイドです。コマンドレット、ループ、関数などを網羅しています。"
 genre: ["技術情報", "プログラミング", "オートメーション", "ウィンドウズ", "スクリプト", "インフォメーション", "アドミニストレーティブタスク", "コンピュータ管理", "ソフトウェア開発", "コーディング"]
 tags: ["PowerShellスクリプティング", "PowerShellによる自動化", "ウィンドウズスクリプト", "PowerShellコマンドレット", "PowerShellモジュール", "PowerShellのループ", "PowerShellの条件文", "PowerShell関数", "PowerShellのベストプラクティス", "PowerShellのデバッギング", "PowerShellのテスト", "PowerShellの変数", "PowerShell ISE", "PowerShellリモーティング", "マイクロソフトテクノロジー", "ITオートメーション", "けいさんきかんり", "ビギナーズコーディング", "管理業務", "PowerShellスクリプトのアイデア", "自動バックアップ", "ファイル管理", "システム情報", "ユーザー管理", "ソフトウェアインストール", "ネットワーク構成", "セキュリティオートメーション", "タスクスケジューリング", "レジストリ操作", "リモート管理"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "スクリプトを持ち、PowerShellプロンプトのあるPCの前に立つ漫画のキャラクターは、初心者のためのPowerShellスクリプトの容易さを示しています。"
 coverCaption: ""
 ---

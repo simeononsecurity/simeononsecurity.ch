@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Erfahren Sie mehr über das Cyberspace Workforce Qualification and Management Program des Verteidigungsministeriums, das im Handbuch 8140.03 beschrieben ist."
 tags: ["DoD-Handbuch 8140.03", "Cyberspace-Beschäftigte", "Qualifizierungsprogramm", "DoD Personal", "Cybersicherheit", "Qualifizierung im Cyberspace", "Cyberspace-Management", "Entwicklung von Arbeitskräften im Cyberspace", "DoD-Cyberspace-Politik", "Cybersicherheitspersonal", "Cybersicherheitsqualifikationen", "Cybersicherheitsschulung", "Cybersicherheitsausbildung", "Cybersicherheits-Zertifizierungen", "Cybersicherheitsrollen", "Rollen im Bereich der Cybersicherheit", "Cyber Workforce Management", "Qualifikationen für die Arbeit im Cyberspace", "cyber personal management", "Cyber-Qualifizierungsprogramm", "berufliche Entwicklung im Cyberspace", "Kompetenz der Arbeitskräfte im Cyberspace", "Zertifizierungen für Cyber-Personal", "Cyber-Schulungsanforderungen", "Cybersicherheitsstandards", "Kompetenz der Arbeitskräfte im Cyberspace", "Abwehr von Cyber-Bedrohungen", "Sicherheit von Informationssystemen", "Netzwerksicherheit"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Ein Computerbildschirm, der eine Übersicht über die Cybersicherheit mit Grafiken und Diagrammen anzeigt, die den Sicherheitsstatus eines Netzwerks widerspiegeln"
 coverCaption: ""
 ---

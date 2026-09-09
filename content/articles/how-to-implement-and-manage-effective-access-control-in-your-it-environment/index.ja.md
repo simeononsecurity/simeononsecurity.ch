@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "IT環境に効果的なアクセスコントロールを導入し、機密データやシステムを保護する方法をご紹介します。"
 tags: ["アクセスコントロール", "ITセキュリティ", "サイバーセキュリティ", "パスワード", "バイオメトリクス認証", "ロールベースのアクセスコントロール", "多要素認証", "データ保護", "リスクアセスメント", "社員教育", "監査ツール", "レポーティングツール", "ペネトレーションテスト", "脆弱性評価", "物理的なアクセスコントロール", "論理的なアクセス制御", "コンプライアンス規制", "ヒパア", "GDPR"]
-cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.png"
+cover: "/img/cover/A_locked_door_with_a_fingerprint_scanner.webp"
 coverAlt: "鍵のかかったドアに、指紋認証だけで入室できる。"
 coverCaption: ""
 ---

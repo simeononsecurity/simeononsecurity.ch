@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je het NIST Cybersecurity Framework implementeert en je organisatie beschermt tegen cyberbedreigingen met onze stapsgewijze handleiding."
 tags: ["cyberbeveiliging", "NIST", "kader", "risicobeheer", "informatiebeveiliging", "cyberbedreigingen", "implementatie", "optimale werkmethoden", "richtlijnen", "normen", "cyberaanvallen", "risicobeoordeling", "cyberbeveiligingsrisico", "gegevensbescherming", "naleving", "IT-beveiliging", "netwerkbeveiliging", "reactie op incidenten", "veiligheidsmaatregelen", "cyberbeveiligingsplan"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Een cartoonafbeelding van een persoon met een schild die verschillende cyberaanvallen blokkeert."
 coverCaption: ""
 ---

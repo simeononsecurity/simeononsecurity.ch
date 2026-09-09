@@ -4,7 +4,7 @@ draft: false
 description: "了解如何使用自动化 RSA 攻击工具 RsaCtfTool 轻松解决 HackTheBox 弱 RSA 加密挑战。"
 tags: ["破解盒子", "挑战", "加密货币", "弱RSA", "RsaCtf工具", "HTB 弱RSA密码", "轻松挑战", "RSA密码", "flag.enc", "key.pub", "OpenSSL 包", "自动 RSA 攻击工具", "蟒蛇脚本", "RsaCtf工具", "蟒蛇3", "公钥", "解密文件", "标志示例"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "一位戴着斗篷和面具的卡通黑客，站在带有 HTB 标志的金库门前，手持工具（如扳手或螺丝刀），背景为绿色，象征成功，上方对话泡泡中有旗帜他们的头。"
 coverCaption: ""
 ---

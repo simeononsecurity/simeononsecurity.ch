@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite perché è fondamentale partire dal presupposto che ogni dispositivo è già compromesso e imparate le misure pratiche per migliorare la vostra sicurezza digitale nel mondo interconnesso di oggi."
 tags: ["sicurezza del dispositivo", "sicurezza informatica", "sicurezza digitale", "minacce informatiche", "hacking", "compromissione del dispositivo", "protezione dei dati", "navigazione sicura", "sicurezza dei dati personali", "autenticazione", "sicurezza della password", "privacy sui social media", "comunicazione sicura", "igiene del dispositivo", "backup dei dati", "Le migliori pratiche di cybersicurezza", "digital privacy", "consapevolezza della cybersicurezza", "sicurezza online", "sicurezza in Internet", "online privacy", "difesa informatica", "resilienza informatica", "mentalità della cybersecurity", "misure di sicurezza", "prevenzione delle minacce informatiche", "strategie di cybersicurezza", "data privacy", "educazione alla cybersicurezza", "risorse per la sicurezza informatica"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Un'illustrazione simbolica che raffigura uno scudo con dispositivi e serrature interconnessi, a rappresentare l'importanza di assumere la compromissione dei dispositivi e di rafforzare la sicurezza digitale."
 coverCaption: ""
 ---

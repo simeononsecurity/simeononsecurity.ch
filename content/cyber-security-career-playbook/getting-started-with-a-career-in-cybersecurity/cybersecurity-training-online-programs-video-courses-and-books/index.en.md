@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Enhance your cybersecurity skills with online programs and video courses, covering a wide range of topics, to stay ahead of emerging threats and secure digital environments."
 tags: ["cybersecurity training", "online programs", "video courses", "cybersecurity education", "information security training", "cybersecurity certifications", "cybersecurity career", "online learning platforms", "cybersecurity skills", "hands-on training", "ethical hacking", "network security", "data privacy", "cyber threat intelligence", "secure coding", "incident response", "cloud security", "web application security", "mobile security", "digital forensics", "network defense", "cybersecurity best practices", "cybersecurity industry", "cybersecurity professionals", "cybersecurity jobs", "cybersecurity trends", "cybersecurity resources", "cybersecurity awareness", "cybersecurity news", "cybersecurity tools"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "A cartoon-style image showing a person with a shield protecting a digital environment from cyber threats."
 coverCaption: "Empower Your Cybersecurity Journey: Unleash Your Digital Defense Potential."
 ---

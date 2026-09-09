@@ -4,7 +4,7 @@ draft: false
 description: "সহজে HackTheBox দুর্বল RSA ক্রিপ্টো চ্যালেঞ্জ সমাধান করতে একটি স্বয়ংক্রিয় RSA আক্রমণ টুল, RsaCtfTool ব্যবহার করতে শিখুন।"
 tags: ["HackTheBox", "চ্যালেঞ্জ", "ক্রিপ্টো", "দুর্বল RSA", "RsaCtfTool", "HTB দুর্বল RSA ক্রিপ্টো", "সহজ চ্যালেঞ্জ", "RSA সাইফার", "flag.enc", "key.pub", "OpenSSL প্যাকেজ", "স্বয়ংক্রিয় RSA আক্রমণ টুল", "পাইথন স্ক্রিপ্ট", "RsaCtfTool", "python3", "সর্বজনীন কী", "আনসিফারফাইল", "পতাকা উদাহরণ"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "একটি কেপ এবং একটি মুখোশ পরা একটি কার্টুন হ্যাকার, HTB লোগো সহ একটি ভল্টের দরজার সামনে দাঁড়িয়ে আছে এবং একটি টুল (যেমন একটি রেঞ্চ বা স্ক্রু ড্রাইভার) ধরে আছে একটি সবুজ পটভূমিতে সাফল্যের প্রতীক এবং উপরে একটি বক্তৃতা বুদ্বুদে পতাকা তাদের মাথা"
 coverCaption: ""
 ---

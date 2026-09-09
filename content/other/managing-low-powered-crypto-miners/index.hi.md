@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Remote.it, ngrok, OpenVPN, WireGuard, और बहुत कुछ सहित कम-संचालित खनिकों के बेड़े के प्रबंधन के लिए सर्वोत्तम प्रथाओं और उपकरणों का अन्वेषण करें।"
 tags: ["कम शक्ति वाले खनिक", "दूरदराज का उपयोग", "नेटवर्क सुरक्षा", "openvpn", "वायरगार्ड", "फक-फक करना", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "लेख में चर्चा किए गए उपकरणों के साथ एक नेटवर्क हब से जुड़े कई कम-शक्ति वाले खनिकों की एक कार्टून छवि।"
 coverCaption: ""
 ---

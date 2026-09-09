@@ -6,7 +6,7 @@ draft: false
 description: "Entdecken Sie die Funktionen von DHCP-, DNS- und NTP-Diensten, lernen Sie die Netzwerkarchitektur von Unternehmen und Rechenzentren kennen und erkunden Sie Cloud-Konzepte und Konnektivitätsoptionen für nahtlose Kommunikation und Datenverwaltung."
 genre: ["Technologie", "Vernetzung", "Konnektivität", "Datenaustausch", "Netzarchitektur", "Cloud Computing", "Netzdienste", "DNS", "DHCP", "NTP"]
 tags: ["Netzdienste", "Konnektivitätsoptionen", "Architektur", "DHCP", "DNS", "NTP", "Unternehmensnetzwerk", "Netzwerk des Rechenzentrums", "Cloud-Konzepte", "Konnektivität", "dreistufige Architektur", "Software-definiertes Netzwerk", "Wirbelsäule und Blattarchitektur", "Verkehrsströme", "Zweigstelle", "On-Premises Datacenter", "Kolokation", "Storage Area Networks", "Fibre Channel über Ethernet", "iSCSI", "DHCP erforschen", "DNS verstehen", "Netzwerk-Zeitsynchronisation", "Unternehmensnetzarchitektur", "Cloud-Konnektivitätsoptionen", "dreistufige Netzarchitektur", "Vorteile von Software-definierten Netzwerken", "Architektur des Wirbelsäulen- und Blattnetzes", "Cloud-Konnektivität für Zweigstellen", "Arten von Speichernetzwerken"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Eine Cartoon-Illustration, die verschiedene Netzwerkkomponenten und Cloud-Konnektivitätsoptionen zeigt"
 coverCaption: "Erschließen Sie das Potenzial von Netzwerkdiensten und Cloud-Konnektivität"
 ---

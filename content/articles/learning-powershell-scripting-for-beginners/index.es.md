@@ -6,7 +6,7 @@ date: 2023-02-25
 description: "Aprenda los conceptos básicos de las secuencias de comandos de PowerShell y automatice tareas con esta guía paso a paso para principiantes, que abarca cmdlets, bucles, funciones y mucho más."
 genre: ["Tecnología", "Programación", "Automatización", "Windows", "Scripting", "TI", "Tareas administrativas", "Gestión informática", "Desarrollo de software", "Codificación"]
 tags: ["Secuencias de comandos PowerShell", "Automatización PowerShell", "Secuencias de comandos de Windows", "Cmdlets de PowerShell", "Módulos PowerShell", "Bucles PowerShell", "Sentencias condicionales PowerShell", "Funciones PowerShell", "Mejores prácticas de PowerShell", "Depuración PowerShell", "Pruebas PowerShell", "Variables PowerShell", "PowerShell ISE", "Remoting PowerShell", "Tecnologías Microsoft", "Automatización informática", "gestión informática", "codificación para principiantes", "tareas administrativas", "Ideas para scripts PowerShell", "copias de seguridad automatizadas", "gestión de archivos", "información del sistema", "gestión de usuarios", "instalación de software", "configuración de red", "automatización de la seguridad", "programación de tareas", "manipulación del registro", "administración remota"]
-cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.png"
+cover: "/img/cover/A_cartoon_character_holding_a_script_and_standing.webp"
 coverAlt: "Un personaje de dibujos animados sosteniendo un script y de pie frente a un ordenador con PowerShell prompt, indicando facilidad en PowerShell scripting para principiantes"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca los distintos tipos de autenticación multifactor y cómo elegir el mejor para sus necesidades de seguridad en nuestra guía definitiva."
 tags: ["autenticación multifactor", "seguridad en línea", "seguridad de contraseñas", "factores de autenticación", "autenticación de dos factores", "fichas de hardware", "autenticación de software", "ciberseguridad", "ataques de phishing", "prevención de la piratería informática", "protección de datos", "verificación de identidad", "seguridad de la contraseña", "fichas de seguridad", "control de acceso", "robo de identidad", "amenazas cibernéticas", "seguridad digital", "aplicaciones de autenticación", "ciberdefensa"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "Una persona de dibujos animados delante de un ordenador, con el símbolo de un candado sobre su cabeza y diferentes tipos de factores de autenticación, como una llave, un teléfono, una huella dactilar, etc., flotando a su alrededor"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de impact van machine learning op cyberbeveiliging en hoe u zich kunt aanpassen."
 tags: ["Machinaal leren", "Cyberbeveiliging", "Aanpassing", "Kunstmatige Intelligentie", "Detectie van bedreigingen", "Gegevensbescherming", "Realtime", "Toezichthoudend leren", "Ongecontroleerd leren", "Versterking leren", "Valse positieven", "Valse negatieven", "Opleiding van werknemers", "Veiligheidsoplossingen", "Gegevensanalyse", "Netwerkbeveiliging", "Cloudbeveiliging", "Patroonherkenning", "Anomaliedetectie", "Cyberbedreigingen"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Een cartoonrobot die de wacht houdt voor een virtueel schild, als symbool voor het gebruik van machinaal leren bij cyberbeveiliging."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Améliorez vos chances de décrocher l'emploi de vos rêves grâce à ces conseils d'experts en rédaction de CV pour les professionnels de la cybersécurité, du développement de logiciels et de l'informatique."
 tags: ["Conseils pour la rédaction d'un curriculum vitae", "les professionnels de la cybersécurité", "développement de logiciels", "Professionnels de l'informatique", "recherche d'emploi", "conseils de carrière", "compétences techniques", "Points forts du projet", "sensibilisation à la cybersécurité", "les compétences en matière de résolution de problèmes", "tendances de l'industrie", "développement professionnel", "Conformité au GDPR", "Règlements de l'ACCP", "marché du travail", "optimisation du CV", "demande d'emploi", "conseils en matière de curriculum vitae", "les stratégies de recherche d'emploi", "l'avancement de la carrière"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Illustration de style bande dessinée d'une personne tenant un curriculum vitae, entourée de symboles de cybersécurité et d'extraits de code."
 coverCaption: ""
 ---

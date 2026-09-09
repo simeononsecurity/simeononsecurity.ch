@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "包括的なガイドで、ビジネスのための安全でコンプライアンスに準拠したクラウド環境を構築する方法をご覧ください。"
 tags: ["クラウドコンピューティング", "サイバーセキュリティ", "データプライバシー", "コンプライアンス", "ヒパア", "PCI DSS", "GDPR", "データバックアップ", "災害復旧", "暗号化", "アクセス制御", "多要素認証", "連続監視", "脆弱性診断", "情報漏えい", "内部脅威", "誤設定", "データ損失", "クラウドプロバイダー", "けいび"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "記事の中で構築されているセキュアでコンプライアンスに配慮したクラウド環境を表現した、鍵のかかった漫画のようなクラウドです。"
 coverCaption: ""
 ---

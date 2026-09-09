@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Explorer l'essor des deepfakes, leurs menaces, les défis qu'ils posent et les mesures réglementaires pour lutter contre la manipulation des médias synthétiques."
 tags: ["fausses couches", "médias synthétiques", "Technologie de l'IA", "désinformation", "fake news", "fraude", "atteinte à la vie privée", "Détection de fausses informations (deepfake)", "cadres réglementaires", "l'éducation", "sensibilisation", "ère numérique", "technologie", "société", "challenges", "menaces", "lutter contre les deepfakes", "responsabilité", "collaboration", "algorithmes avancés"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
 coverAlt: "Illustration symbolique montrant le visage d'une personne remplacé par un autre visage, représentant la nature trompeuse des deepfakes et les défis qu'ils posent en matière de manipulation des médias numériques."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo DevOps tiende puentes entre el desarrollo y las operaciones, agilizando la entrega de software y maximizando la eficiencia."
 tags: ["DevOps", "desarrollo de software", "operaciones", "colaboración", "integración continua", "entrega continua", "infraestructura como código", "control", "circuitos de retroalimentación", "plazo de comercialización", "eficacia", "calidad", "fiabilidad", "HIPAA", "GDPR", "conformidad", "seguridad", "auditoría", "trazabilidad", "automatización", "comunicación", "ágil", "CICD", "despliegue de software", "ciclo de vida del software", "sistemas informáticos", "industria del software", "seguridad de los datos", "normativa", "actualizaciones de software", "ventaja competitiva", "privacidad de los datos", "protección de datos", "evolución de la industria del software"]
-cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.png"
+cover: "/img/cover/A_cartoon_illustration_showing_developers_and_operations.webp"
 coverAlt: "Una ilustración de dibujos animados que muestra a desarrolladores y profesionales de operaciones colaborando y trabajando juntos, simbolizando el puente entre desarrollo y operaciones en DevOps."
 coverCaption: ""
 ---

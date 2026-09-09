@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come creare una soluzione di backup in-the-cloud sicura e conforme per la protezione dei dati."
 tags: ["backup nel cloud", "recupero dati", "protezione dei dati", "compliance", "GDPR", "HIPAA", "FISMA", "fornitore di servizi cloud", "crittografia", "controllo degli accessi", "sicurezza", "regolamenti", "standard", "migliori pratiche", "valutazione della vulnerabilità", "test di penetrazione", "verifiche", "gestione del rischio", "scalability", "monitoring"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Un'immagine animata in 3D di un caveau sicuro tra le nuvole, con varie icone normative (GDPR, HIPAA, FISMA) che fluttuano intorno e uno scudo che simboleggia la protezione dei dati."
 coverCaption: ""
 ---

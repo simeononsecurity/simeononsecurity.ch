@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questa guida completa illustra le best practice in materia di sicurezza e conformità per la pianificazione, la realizzazione e la gestione di data lake basati sul cloud."
 tags: ["lago di dati", "sicurezza del cloud", "regolamenti di conformità", "controlli di accesso", "crittografia", "AWS", "Azzurro", "HIPAA", "GDPR", "monitoring", "rattoppare", "sicurezza informatica", "Soluzione SIEM", "Team di supporto IT", "panorama delle minacce", "migrazione in cloud", "governance del cloud"]
-cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.png"
+cover: "/img/cover/A_cartoon_image_of_a_castle_being_guarded_by_a_warrior.webp"
 coverAlt: "Un'immagine a fumetti di un castello sorvegliato da un cavaliere guerriero, che simboleggia il concetto di forte protezione per uno storage sicuro e conforme al cloud"
 coverCaption: ""
 ---

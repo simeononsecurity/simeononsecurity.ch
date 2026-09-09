@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je de perfecte cyberbeveiligingspolis kiest om je bedrijf te beschermen tegen cyberbedreigingen."
 tags: ["cyberverzekering", "gegevensbescherming", "risicobeheer", "cyberbeveiligingsbeleid", "gegevensbeveiliging", "cyberaanvallen", "cyberverzekering", "netwerkbeveiliging", "bedrijfscontinuïteit", "verzekeringsdekking", "datalek", "verzekeringspolis", "IT-beveiliging", "reactie op incidenten", "risicobeoordeling", "cybercriminaliteit", "financiële bescherming", "cyberbedreigingen", "verzekeringsclaims", "bedrijfsverzekering"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "Een cartoonafbeelding van een bedrijfseigenaar die een schild vasthoudt met het label cyberbeveiligingsverzekering en cyberbedreigingen blokkeert."
 coverCaption: ""
 ---

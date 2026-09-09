@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra la historia, los principios de funcionamiento y las aplicaciones del cifrado T9, una innovadora tecnología de introducción de texto predictivo utilizada en los primeros teléfonos móviles."
 tags: ["Cifrado T9", "tecnología de introducción de texto", "texto predictivo", "teléfonos móviles", "teclado numérico", "Comunicaciones Tegic", "entrada multitoma", "modelos estadísticos del lenguaje", "comunicación móvil", "Mensajería SMS", "smartphones con pantalla táctil", "teclados virtuales", "historia de la T9", "Software T9", "escribir en teclados numéricos", "predicción de palabras", "sugerencias de palabras", "eficacia en la introducción de texto", "mejorar la velocidad de mecanografía", "reducir la pulsación de teclas", "algoritmo de predicción lingüística", "primeras tecnologías de telefonía móvil", "evolución de la introducción de texto", "comunicación entre dispositivos móviles", "importancia del cifrado T9", "revolución en la introducción de texto", "usabilidad del teléfono móvil", "Algoritmo predictivo T9", "Diccionario T9", "precisión del texto predictivo"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Una colorida ilustración que representa un smartphone con teclado numérico y burbujas de texto, símbolo del impacto del cifrado T9 en la comunicación móvil."
 coverCaption: ""
 ---

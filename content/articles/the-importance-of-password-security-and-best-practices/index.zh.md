@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解密码安全的重要性，发现密码管理的最佳实践，以保护您的个人信息和在线身份。"
 tags: ["密码安全", "密码管理", "在线安全", "网络威胁", "强密码", "双因素认证", "密码管理器", "数据安全", "身份盗窃", "网络钓鱼欺诈", "公共 Wi-Fi 网络", "在线隐私", "在线安全", "数字安全", "网络安全", "网络安全", "数据保护", "账户安全", "在线账户", "在线保护"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "一个卡通形象，一把锁和钥匙被一个盾牌保护着，代表密码安全和保护。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Windowsのパッケージ管理にChocolateyを使用する利点をご覧ください：アップデートを自動化し、時間を節約し、システムのセキュリティを確保します。"
 tags: ["Windowsパッケージ管理", "ショコラトリー", "ソフトウェア・アップデート", "パッケージマネージャ", "コマンドラインインタフェース", "自動更新", "定期メンテナンス", "セキュリティ", "安定性", "統合", "政府規制", "コンプライアンス", "人形", "チーフ", "アンシブル", "NuGetパッケージ", "国防総省STIG", "パッケージ管理の合理化", "ソフトウェアの脆弱性", "配備ツール", "ウィンドウズ・アップデート", "Windowsパッケージの更新", "Windowsソフトウェア管理", "Windowsパッケージマネージャ", "パッケージ管理ツール", "パッケージの自動更新", "Windowsのセキュリティ更新プログラム", "ソフトウェアパッケージのインストール", "Windowsソフトウェアの展開", "パッケージ管理システム", "Windowsソフトウェアリポジトリ", "Windowsソフトウェアのキャッシュ"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Windowsのロゴを囲むように、パッケージの管理やアップデートを効率化するさまざまなソフトウェアのアイコンが描かれたカラフルなイラスト。"
 coverCaption: ""
 ---

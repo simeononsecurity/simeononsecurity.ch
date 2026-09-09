@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "了解如何通过与他人分享，将闲置的网络带宽转化为被动收入流。"
 tags: ["互联网货币化", "被动收入", "闲置带宽", "共享互联网", "赚钱", "网络连接", "点对点", "Repocket", "EarnApp", "HoneyGain", "虚拟专用网", "刮削用途", "赔付选项", "汇票", "BTC", "LTC", "MATIC", "收益", "灵活性", "服务协议密钥", "利用闲置互联网赚钱", "将互联网连接货币化", "分享互联网带来的被动收入", "轻松赚钱", "最低赔付门槛", "平均收入潜力", "Repocket Docker 容器", "重置文件", "彻底了解支付系统", "在使用前进行研究"]
-cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_person_holding_a_Wi-Fi_signal.webp"
 coverAlt: "这是一幅象征性插图，一个人手持 Wi-Fi 信号，口袋里流淌着金钱符号。"
 coverCaption: ""
 ---

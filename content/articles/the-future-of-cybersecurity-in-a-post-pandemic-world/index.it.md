@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come prepararvi al futuro della sicurezza informatica in un mondo post-pandemia e come ridurre il rischio di cadere vittime di attacchi informatici."
 tags: ["sicurezza informatica", "post-pandemia", "futuro", "lavoro a distanza", "AI", "apprendimento automatico", "IoT", "aggiornamenti software", "password", "autenticazione a due fattori", "educazione", "VPN", "aggiornamenti del firmware", "phishing", "ransomware", "sicurezza del cloud", "protezione dei dati", "sicurezza della rete", "rilevamento delle minacce", "digital privacy"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "Un'immagine in stile cartoon di una persona in piedi con uno scudo davanti allo schermo di un computer, che lo protegge da vari attacchi informatici come malware, virus, phishing e tentativi di hacking."
 coverCaption: ""
 ---

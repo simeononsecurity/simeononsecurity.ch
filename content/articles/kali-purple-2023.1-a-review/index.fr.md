@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les fonctionnalités avancées, les outils et les améliorations de Kali Purple 2023.1 dans notre revue complète destinée aux hackers éthiques et aux passionnés de cybersécurité."
 tags: ["Kali Linux", "Pourpre de Kali", "2023.1", "piratage éthique", "tests de pénétration", "cybersécurité", "outils", "cadre d'exploitation", "Mises à jour de Kali ARM", "Kali NetHunter", "Documentation Kali", "Support du noyau", "Prise en charge Bluetooth", "LineageOS", "OneUI", "Radxa Zero", "SBC", "correctifs du noyau", "contributions communautaires", "Kali Discord", "Mises à jour Linux", "distribution de hacking éthique", "nouvelles fonctionnalités", "Améliorations", "Xfce", "KDE", "GNOME", "Xfce 4.18", "KDE Plasma 5.27", "nouveaux outils et paquets", "Prise en charge des dispositifs ARM", "Documentation Kali", "les réglementations gouvernementales"]
-cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png"
+cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
 coverAlt: "Une mascotte de dragon Kali Linux animée en 3D, entourée de divers outils de cybersécurité et de piratage, assise sur un bouclier orné d'un dragon violet."
 coverCaption: ""
 ---

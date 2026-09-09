@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die wesentlichen Fähigkeiten, die für den Erfolg im sich ständig weiterentwickelnden Bereich der Cybersicherheit erforderlich sind, und erfahren Sie mehr über die wachsende Bedeutung der Cybersicherheit in der Technologiebranche."
 tags: ["Cybersicherheit", "Zukunft der Cybersicherheit", "Kompetenzen für den Erfolg", "kritisches Denken", "Kommunikation", "technische Fähigkeiten", "Risikomanagement", "berufliche Entwicklung", "KI in der Cybersicherheit", "Cloud-Sicherheit", "Cyber-Bedrohungen", "Internetkriminalität", "Informationssicherheit", "Cybersicherheitsfachleute", "Datenschutz", "Technologie", "digitale Sicherheit", "Cyber-Abwehr", "Cyber-Angriffe", "IT-Sicherheit"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Ein Cartoonbild einer Person in einem Superheldenanzug, die ein Schild mit dem Wort Cybersecurity in der Hand hält, mit einer Stadtlandschaft und Computerbildschirmen im Hintergrund."
 coverCaption: ""
 ---

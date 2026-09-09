@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Odkryj różnorodne zastosowania Flipper Zero, najlepszego podręcznego gadżetu do hakowania sprzętu, analizy komunikacji bezprzewodowej i codziennych potrzeb technicznych."
 tags: ["Pinball Zero", "urządzenie przenośne", "hakowanie sprzętu", "inżynieria odwrotna", "analiza komunikacji bezprzewodowej", "kontrola urządzenia", "audyt bezpieczeństwa", "testy penetracyjne", "codzienny towarzysz technologiczny", "open-source", "Bluetooth", "NFC", "RFID", "IR", "emulacja", "testy bezpieczeństwa", "Kali Linux", "Wyświetlacz e-papierowy", "Kody QR", "automatyka domowa", "luki w zabezpieczeniach", "protokoły bezprzewodowe", "Ekstrakcja oprogramowania układowego", "miganie", "debugowanie", "systemy fizycznej kontroli dostępu", "inteligentne systemy automatyki domowej", "emulacja urządzenia", "luki w zabezpieczeniach systemów bezprzewodowych", "środki zaradcze", "kompaktowy gadżet"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Kolorowa ilustracja urządzenia Flipper Zero z różnymi narzędziami i sygnałami bezprzewodowymi wokół niego, symbolizująca jego wszechstronność i możliwości"
 coverCaption: ""
 ---

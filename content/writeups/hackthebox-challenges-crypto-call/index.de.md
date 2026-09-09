@@ -5,7 +5,7 @@ draft: false
 description: "Erfahren Sie, wie Sie DTMF-Töne mithilfe der Primzahlverschlüsselung entschlüsseln, um die Crypto-Call-Herausforderung auf HackTheBox zu lösen."
 tags: ["HackTheBox", "Krypto-Herausforderung", "DTMF-Töne", "Primzahl-Chiffre", "Entschlüsselung", "Rätsel lösen", "Kryptographie", "Audiokonvertierung", "Wählen Sie ABC", "Decode.fr", "WAV", "MP3", "Frequenz", "Mathematische Eigenschaft", "Flagge", "Unverfrorenheit", "Sonic Visualizer", "Zahlen", "Automatisierte Tellermenüs", "Münztelefon"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "Ein Cartoon-Telefon mit einem grünen Bildschirm und einem Vorhängeschloss darauf, das Sicherheit und Verschlüsselung symbolisiert, mit DTMF-Tönen im Hintergrund"
 coverCaption: ""
 ---

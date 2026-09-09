@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "FISMA 101 全面概述了《联邦信息安全现代化法案》，包括其主要组成部分、益处和对联邦机构的要求。"
 tags: ["FISMA", "联邦信息安全", "信息安全", "风险管理", "安全控制评估", "持续监测", "事件响应", "授权和认证", "加强信息安全", "更好的风险管理", "提高透明度", "加强合作", "美国法律", "联邦机构", "信息安全计划", "安全控制", "风险评估", "持续监测", "安全事件", "透明度和问责制", "联邦信息安全现代化法案》概述", "联邦机构实施 FISMA 的益处", "联邦信息安全风险管理", "FISMA 中的持续监控", "联邦机构的事件响应", "授权和认证程序", "改善联邦政府的信息安全", "联邦信息安全合作", "FISMA 合规的透明度", "联邦机构信息安全标准"]
-cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.png"
+cover: "/img/cover/A_computer_screen_with_a_padlock_on_it_symbolizing_information.webp"
 coverAlt: "电脑屏幕上的挂锁，象征着信息安全和保护，背景是二进制代码"
 coverCaption: ""
 ---

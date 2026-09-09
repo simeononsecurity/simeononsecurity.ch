@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "In diesem informativen Artikel erfahren Sie, wie Sie sich gegen Social-Engineering-Angriffe wehren und Ihre Daten vor Cyberkriminellen schützen können."
 tags: ["Cybersicherheit", "Social Engineering", "Phishing-Betrügereien", "Multi-Faktor-Authentifizierung", "Sicherheits-Updates", "Passwortsicherheit", "Web-Sicherheit", "Datenschutzverletzungen", "IT-Sicherheit", "Identitätsdiebstahl", "Betrugsverhütung", "Spionageprävention", "technische Sicherheit", "physische Sicherheit", "Informationssicherheit", "Prävention von Internetkriminalität", "Einbruchserkennung", "Sicherheitspatches", "Mitarbeiterschulung", "datenschutz"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Ein Cartoon-Schild mit einem Vorhängeschloss in der Mitte, das die Idee des Schutzes vor Social-Engineering-Angriffen im Bereich der Cybersicherheit darstellt"
 coverCaption: ""
 ---

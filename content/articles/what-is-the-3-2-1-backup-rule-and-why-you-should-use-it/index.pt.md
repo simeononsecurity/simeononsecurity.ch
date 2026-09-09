@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Saiba como proteger seus dados valiosos contra ataques cibernéticos, desastres naturais e falhas de hardware."
 tags: ["estratégia de backup", "Proteção de dados", "cíber segurança", "redundância de dados", "prevenção de perda de dados", "recuperação de dados", "conformidade", "discos rígidos externos", "serviços de armazenamento em nuvem", "armazenamento conectado à rede", "software de backup", "backups automatizados", "segurança de dados", "recuperação de desastres", "backup externo", "backups redundantes", "práticas recomendadas de backup", "soluções de backup", "tipos de armazenamento", "segurança de dados"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Um personagem de desenho animado com uma capa segurando um escudo com o número 3 nele, em pé sobre duas caixas de armazenamento, uma representando um disco rígido e a outra uma nuvem, e apontando para um globo representando armazenamento externo."
 coverCaption: ""
 ---

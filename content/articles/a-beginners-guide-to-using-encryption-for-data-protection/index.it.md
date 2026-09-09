@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le basi della crittografia e come usarla per proteggere i vostri dati sensibili con questa guida alla crittografia per principianti."
 tags: ["crittografia", "protezione dei dati", "sicurezza informatica", "privacy", "tecnologia", "sicurezza online", "crittografia simmetrica", "crittografia asimmetrica", "sicurezza", "privacy in internet", "crittografia", "messaggistica criptata", "sicurezza digitale", "data privacy", "dati criptati", "software di crittografia", "crittografia dei dati", "sicurezza informatica", "sicurezza della rete", "protezione con password"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un lucchetto a fumetti con il buco della serratura, che rappresenta la protezione dei dati attraverso la crittografia."
 coverCaption: ""
 ---

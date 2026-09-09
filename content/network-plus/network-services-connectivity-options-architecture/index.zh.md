@@ -6,7 +6,7 @@ draft: false
 description: "探索 DHCP、DNS 和 NTP 服务的功能，了解企业和数据中心网络架构，探索云概念和连接选项，以实现无缝通信和数据管理。"
 genre: ["技术", "联网", "连接性", "数据交换", "网络架构", "云计算", "网络服务", "DNS", "DHCP", "NTP"]
 tags: ["网络服务", "连接选项", "建筑学", "DHCP", "DNS", "NTP", "企业网络", "数据中心网络", "云概念", "连通性", "三级架构", "软件定义网络", "脊柱和叶片结构", "交通流量", "分公司", "内部数据中心", "代管", "存储区域网络", "以太网光纤通道", "iSCSI", "探索 DHCP", "了解 DNS", "网络时间同步", "企业网络架构", "云连接选项", "三级网络架构", "软件定义网络的优势", "骨干和叶片网络结构", "分支机构云连接", "存储区域网络类型"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "展示各种网络组件和云连接选项的卡通插图"
 coverCaption: "释放网络服务和云连接的力量"
 ---

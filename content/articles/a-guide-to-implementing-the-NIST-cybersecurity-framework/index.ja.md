@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "NISTサイバーセキュリティフレームワークを導入し、サイバー脅威から組織を保護する方法を、ステップバイステップのガイドでご覧ください。"
 tags: ["サイバーセキュリティ", "NIST", "フレームワーク", "リスク管理", "情報セキュリティ", "サイバー脅威", "インプリメンテーション", "ベストプラクティス", "ガイドライン", "規格", "サイバー攻撃", "リスクアセスメント", "サイバーセキュリティ・リスク", "データ保護", "コンプライアンス", "ITセキュリティ", "ネットワークセキュリティ", "インシデントレスポンス", "セキュリティ対策", "サイバーセキュリティ計画"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "様々なサイバー攻撃を防ぐ盾を持った人物の漫画画像。"
 coverCaption: ""
 ---

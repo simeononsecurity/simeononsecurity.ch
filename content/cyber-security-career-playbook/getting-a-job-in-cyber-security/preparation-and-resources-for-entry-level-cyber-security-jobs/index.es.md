@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-24
 description: "Descubra los requisitos clave, los preparativos y los recursos para los puestos de entrada en ciberseguridad para iniciar su carrera en este campo de gran demanda."
 tags: ["empleos de nivel inicial en ciberseguridad", "carrera en ciberseguridad", "requisitos del puesto", "educación en ciberseguridad", "competencias en ciberseguridad", "adquirir experiencia", "certificaciones de ciberseguridad", "empleos públicos en ciberseguridad", "empleos en ciberseguridad en el sector privado", "plataformas de búsqueda de empleo", "programas de formación en ciberseguridad", "cursos en línea", "aprendizaje en ciberseguridad", "prácticas en ciberseguridad", "USAJOBS", "Departamento de Seguridad Interior", "FBI", "En efecto", "LinkedIn", "Dados", "industria de la ciberseguridad", "tendencias del sector", "proteger los datos", "seguridad del sistema", "amenazas cibernéticas", "desarrollo profesional", "crecimiento profesional", "normativa del sector", "recursos de ciberseguridad", "oportunidades de empleo"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_wearing_a_superhero_cape.webp"
 coverAlt: "Ilustración de dibujos animados de una persona que lleva una capa de superhéroe, sostiene un escudo y está delante de un ordenador con candados y escudos a su alrededor."
 coverCaption: "Libere su potencial en ciberseguridad y conviértase en un ciberdefensor."
 ---

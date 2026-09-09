@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "সহজে পাঠ্য তৈরি এবং প্রশ্নের উত্তর দেওয়ার জন্য সুবিধাজনক কমান্ড লাইন ইন্টারফেস (CLI) এর মাধ্যমে OpenAI এর ChatGPT মডেলটি কীভাবে ব্যবহার করবেন তা শিখুন।"
 tags: ["চ্যাটজিপিটি", "OpenAI", "কমান্ড লাইন ইন্টারফেস", "সিএলআই", "পাঠ্য প্রজন্ম", "প্রশ্নের উত্তর", "বিকাশকারী টুলকিট", "পিপ প্যাকেজ ম্যানেজার", "পাইথন 3.5", "শক্তির উৎস", "বাশ"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "একজন ডেভেলপার তাদের কম্পিউটারে বসে, তাদের টার্মিনালে ChatGPT CLI খুলে কীবোর্ডে টাইপ করছে।"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite perché le VPN potrebbero non essere utili per gli utenti standard in un mondo in cui tutto utilizza HTTPS e come fidarsi del proprio provider VPN."
 tags: ["VPN", "Privacy online", "Sicurezza Internet", "Attacchi MITM", "Reti private virtuali", "Sicurezza informatica", "Sicurezza online", "Crittografia", "HTTPS", "Protezione dei dati", "Servizi di terze parti", "Rischi per la privacy", "ISP", "Contenuti con restrizioni geografiche", "Censura di Internet", "Wi-Fi pubblico", "Data Privacy", "Protezione online", "Sicurezza web", "Fornitori di VPN"]
-cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.png"
+cover: "/img/cover/A_cartoon_computer_user_surfing_on_the_internet.webp"
 coverAlt: "Un cartone animato di un utente di computer che naviga su Internet, mentre appare il simbolo di un lucchetto gigante per proteggere la privacy dell'utente."
 coverCaption: ""
 ---

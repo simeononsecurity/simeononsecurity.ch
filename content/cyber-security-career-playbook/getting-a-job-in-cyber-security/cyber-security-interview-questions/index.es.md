@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-25
 description: "Descubra respuestas y consejos de expertos para las preguntas más habituales de las entrevistas sobre ciberseguridad, que le garantizarán el éxito en el competitivo mercado laboral."
 tags: ["entrevista sobre ciberseguridad", "preguntas de la entrevista", "empleo en ciberseguridad", "carrera en ciberseguridad", "consejos de ciberseguridad", "competencias en ciberseguridad", "profesional de la ciberseguridad", "tendencias en ciberseguridad", "buenas prácticas de ciberseguridad", "principios de ciberseguridad", "certificaciones de ciberseguridad", "blogs de ciberseguridad", "conferencias sobre ciberseguridad", "educación en ciberseguridad", "amenazas a la ciberseguridad", "seguridad de la red", "seguridad de los datos", "respuesta a incidentes", "controles de seguridad", "formación de empleados", "controles de acceso", "encriptación de datos", "segmentación de la red", "copia de seguridad y recuperación", "gestión de riesgos de terceros", "concienciación sobre ciberseguridad", "actualizaciones de ciberseguridad", "vulnerabilidades de ciberseguridad", "normativa sobre ciberseguridad"]
-cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.png"
+cover: "/img/cover/A_cartoon_character_wearing_a_superhero_cape_holding_a_shie.webp"
 coverAlt: "Personaje de dibujos animados con capa de superhéroe que sostiene un escudo con el símbolo de un candado."
 coverCaption: "Libere su potencial en las entrevistas sobre ciberseguridad."
 ---

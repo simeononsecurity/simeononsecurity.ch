@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les avantages et les risques de l'externalisation de la cybersécurité à des fournisseurs tiers et comment choisir le bon fournisseur pour votre entreprise."
 tags: ["cybersécurité", "externalisation", "vendeurs tiers", "violation de données", "sélection des fournisseurs", "économies de coûts", "expertise", "évolutivité", "perte de contrôle", "incident response plan", "la gestion des risques", "sécurité des entreprises", "externalisation de la sécurité", "cybermenaces", "sécurité des réseaux", "protection des données", "gestion de la vulnérabilité", "cyberdéfense", "continuité des activités", "la sécurité de l'information"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Dessin humoristique représentant un homme d'affaires debout sur un rocher et tenant un bouclier pour protéger son entreprise des cybermenaces, avec derrière lui une rangée de vendeurs tiers proposant différents services de sécurité."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les fonctionnalités des services DHCP, DNS et NTP, comprenez l'architecture des réseaux d'entreprise et des centres de données, et explorez les concepts de cloud et les options de connectivité pour une communication et une gestion des données transparentes."
 genre: ["Technologie", "Mise en réseau", "Connectivité", "Échange de données", "Architecture du réseau", "Informatique en nuage", "Services de réseau", "DNS", "DHCP", "NTP"]
 tags: ["services de réseau", "options de connectivité", "l'architecture", "DHCP", "DNS", "NTP", "réseau d'entreprise", "réseau de centres de données", "concepts de nuages", "connectivité", "architecture à trois niveaux", "réseau défini par logiciel", "architecture de la colonne vertébrale et des feuilles", "les flux de trafic", "succursale", "on-premises datacenter", "colocation", "réseaux de stockage", "Fibre Channel sur Ethernet", "iSCSI", "explorer le DHCP", "comprendre les DNS", "synchronisation de l'heure du réseau", "architecture des réseaux d'entreprise", "options de connectivité au nuage", "architecture de réseau à trois niveaux", "avantages des réseaux définis par logiciel", "l'architecture des réseaux de type spine et leaf (épine dorsale et feuille)", "connectivité en nuage pour les succursales", "les types de réseaux de stockage"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Illustration de bande dessinée présentant les différents composants du réseau et les options de connectivité en nuage"
 coverCaption: "Libérer la puissance des services de réseau et de la connectivité en nuage"
 ---

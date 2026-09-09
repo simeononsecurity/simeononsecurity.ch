@@ -6,7 +6,7 @@ draft: false
 description: "了解适合初学者的顶级网络安全认证，开启您的职业生涯，获得在该领域出类拔萃的必要技能。"
 genre: ["网络安全认证", "初学者指南", "IT 职业", "信息安全", "网络安全", "道德黑客", "渗透测试", "初级职位"]
 tags: ["网络安全认证", "入门指南", "IT 职业", "信息安全", "网络安全", "道德黑客", "渗透测试", "初级职位", "CompTIA A Plus", "CompTIA Network Plus", "CompTIA Security Plus", "认证网络安全分析师", "认证道德黑客", "安全分析员", "安全行动", "安全管理员", "初级渗透测试员", "安全支持专家", "最适合初学者的认证", "网络安全职业", "网络安全技能", "网络基础知识", "安全原则", "漏洞管理", "威胁分析", "道德黑客技术", "安全措施", "网络安全行业", "初级职位", "实践经验"]
-cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.png"
+cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.webp"
 coverAlt: "象征网络安全保护的锁和盾牌插图。"
 coverCaption: "释放你的潜能：网络安全职业发展的最佳认证"
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "PowerShellを使用して、SHA256、MD5、SHA1などのファイルハッシュをWindows上で取得する方法を、ステップバイステップの手順と例で紹介します。"
 tags: ["ファイルハッシュ", "パワーシェル", "SHA256ハッシュ", "MD5ハッシュ", "SHA1ハッシュ", "ファイルの完全性", "データ認証", "ファイル検証", "ハッシュアルゴリズム", "Windows オペレーティングシステム", "スクリプト言語", "コマンドラインシェル", "データ機密保護", "デジタルフォレンジック", "サイバーセキュリティ", "ハッシュ計算", "ファイル改ざん", "データの完全性", "ファイルしんようせい", "Windowsのセキュリティ", "ファイル識別", "サイバーディフェンス", "ファイルセキュリティ", "データ保護", "データ検証", "ファイルバリデーション", "Windows PowerShell", "ハッシュ生成", "ハッシュアルゴリズム", "ハッシュ関数"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "ファイルのハッシュ認証とセキュリティを表現した、ロックマークと虫眼鏡を持つファイルを示す漫画のイラスト。"
 coverCaption: ""
 ---

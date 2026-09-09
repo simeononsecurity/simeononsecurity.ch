@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a protegerse del ciberacoso y manténgase a salvo en Internet con estos consejos y técnicas."
 tags: ["ciberacoso", "seguridad en línea", "seguridad en internet", "prevención del acoso", "seguridad personal", "privacidad en línea", "ciberseguridad", "seguridad digital", "seguridad en internet", "ciberacoso", "acoso", "protección de las víctimas", "acción judicial", "asesoramiento", "salud mental", "seguridad en las redes sociales", "acoso en línea", "acoso en línea", "aplicación de la ley", "protección de la intimidad"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "Una persona mira su teléfono con expresión preocupada mientras una figura sombría se cierne en el fondo."
 coverCaption: ""
 ---

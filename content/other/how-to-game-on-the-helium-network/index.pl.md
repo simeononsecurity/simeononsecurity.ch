@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak wykorzystać luki w sieci Helium za pomocą MiddleMan i Chirp Stack Packet Multiplexer, a także jakie są zagrożenia i konsekwencje takiego działania."
 tags: ["Sieć helowa", "Proof-of-Coverage", "MiddleMan", "Multiplekser pakietów Chirp Stack", "gaming", "wykorzystywanie słabych punktów", "Sieć LoRaWAN", "kryptowaluta", "blockchain", "sieć zdecentralizowana", "hotspoty", "spoofing", "oszukiwanie", "nielegalna działalność", "kary", "integralność sieci", "nagrody", "złośliwi aktorzy", "bezpieczeństwo sieci", "legalne hosty"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Karykaturalne przedstawienie grupy osób wykorzystujących balon z helem z wizerunkiem bramki LoRaWAN i multipleksera pakietów MiddleMan lub Chirp Stack w tle."
 coverCaption: ""
 ---

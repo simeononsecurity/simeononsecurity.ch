@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie die Grundlagen der Website-Entwicklung, einschließlich HTML, CSS und JavaScript, mit diesem einsteigerfreundlichen Leitfaden."
 tags: ["Web-Entwicklung", "HTML", "CSS", "JavaScript", "Kodierung", "Lehrgang", "Lernen", "beginner", "CodePen", "W3Schulen", "beste Praktiken", "Ressourcen", "freeCodeCamp", "MDN-Webdokumente", "Codecademy", "Udacity", "Zusammenarbeit", "Fehlersuche", "Projekte"]
-cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.png"
+cover: "/img/cover/A_cartoon_developer_sitting_at_a_desk_with_a_laptop.webp"
 coverAlt: "Ein Cartoon-Entwickler, der an einem Schreibtisch mit einem Laptop sitzt, umgeben von verschiedenen HTML-, CSS- und JavaScript-Elementen, die in der Luft um ihn herum schweben."
 coverCaption: ""
 ---

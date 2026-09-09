@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj korzyści płynące z używania Chocolatey do zarządzania pakietami Windows: zautomatyzuj aktualizacje, oszczędzaj czas i zapewnij bezpieczeństwo systemu."
 tags: ["Zarządzanie pakietami w systemie Windows", "Czekoladowy", "aktualizacje oprogramowania", "menedżer pakietów", "interfejs wiersza poleceń", "automatyczne aktualizacje", "zaplanowana konserwacja", "bezpieczeństwo", "stabilność", "integracja", "regulacje rządowe", "zgodność", "lalka", "Szef", "Ansible", "Pakiety NuGet", "DoD STIG", "usprawnienie zarządzania pakietami", "luki w oprogramowaniu", "narzędzia wdrażania", "Aktualizacje systemu Windows", "Aktualizacje pakietów systemu Windows", "Zarządzanie oprogramowaniem Windows", "Menedżer pakietów Windows", "narzędzie do zarządzania pakietami", "automatyczne aktualizacje pakietów", "Aktualizacje zabezpieczeń systemu Windows", "instalacja pakietu oprogramowania", "Wdrażanie oprogramowania Windows", "system zarządzania pakietami", "Repozytorium oprogramowania Windows", "Pamięć podręczna oprogramowania Windows"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_Windows_logo_surrounded.webp"
 coverAlt: "Kolorowa ilustracja przedstawiająca logo Windows otoczone różnymi ikonami oprogramowania reprezentującymi usprawnione zarządzanie pakietami i aktualizacjami."
 coverCaption: ""
 ---

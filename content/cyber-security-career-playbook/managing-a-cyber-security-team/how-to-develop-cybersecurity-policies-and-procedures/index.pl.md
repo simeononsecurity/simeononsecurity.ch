@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "Dowiedz się, jak opracować kompleksową politykę cyberbezpieczeństwa, która jest zgodna ze standardami branżowymi i wymogami regulacyjnymi, aby chronić poufne informacje organizacji i ograniczać ryzyko cybernetyczne."
 genre: ["Technologia", "Bezpieczeństwo", "Zgodność", "Zarządzanie ryzykiem", "Ochrona danych", "Zarządzanie informacjami", "Reakcja na incydent", "Ciągłość działania", "Zagrożenia cybernetyczne", "Rozwój polityki"]
 tags: ["polityka cyberbezpieczeństwa", "procedury cyberbezpieczeństwa", "najlepsze praktyki branżowe", "zarządzanie ryzykiem", "Standardy NIST", "RMF", "PCI-DSS", "HIPAA", "FISMA", "ochrona danych", "reakcja na incydent", "ciągłość działania", "świadomość bezpieczeństwa", "zgodność z przepisami", "cyberzagrożenia", "bezpieczeństwo danych", "Zarządzanie IT", "bezpieczeństwo sieci", "bezpieczeństwo informacji", "kontrole bezpieczeństwa", "opracowywanie polityki cyberbezpieczeństwa", "kompleksowe procedury cyberbezpieczeństwa", "ramy polityki cyberbezpieczeństwa", "regulacje dotyczące cyberbezpieczeństwa", "Ograniczanie ryzyka związanego z cyberbezpieczeństwem", "Planowanie reakcji na incydenty", "zapobieganie naruszeniom danych", "szkolenie pracowników w zakresie bezpieczeństwa", "Zarządzanie zgodnością z cyberbezpieczeństwem", "prywatność i ochrona danych"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca tarczę chroniącą serwer sieciowy przed cyberzagrożeniami."
 coverCaption: "Zabezpiecz swoją sieć: Skuteczne zasady ochrony przed cyberzagrożeniami"
 ---

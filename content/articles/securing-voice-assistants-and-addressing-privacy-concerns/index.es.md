@@ -6,7 +6,7 @@ date: 2023-07-18
 description: "Aprenda a proteger los asistentes de voz y su privacidad con estrategias eficaces para mitigar los problemas de privacidad."
 genre: ["Noticias de tecnología", "Privacidad y seguridad", "Dispositivos domésticos inteligentes", "Asistentes digitales", "Protección de datos", "Electrónica de consumo", "Gadgets tecnológicos", "Internet de los objetos", "Domótica", "Seguridad de los datos"]
 tags: ["asistentes de voz", "problemas de privacidad", "seguridad de los datos", "estrategias de mitigación", "dispositivos domésticos inteligentes", "asistentes digitales", "comandos de voz", "violaciones de datos", "riesgos para la intimidad", "acceso no autorizado", "escuchando a escondidas", "almacenamiento de datos", "configuración de privacidad", "protección de datos", "integraciones de terceros", "actualizaciones de firmware", "contraseñas seguras", "autenticación de dos factores", "alternativas al asistente de voz", "formación de usuarios", "noticias tecnológicas", "concienciación sobre la privacidad", "uso seguro del asistente de voz", "protección de datos personales", "domótica inteligente", "tendencias tecnológicas", "privacidad digital", "electrónica de consumo", "normativa sobre protección de datos"]
-cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.png"
+cover: "/img/cover/A_cartoon-style_illustration_showing_a_person.webp"
 coverAlt: "Ilustración de dibujos animados que muestra a una persona hablando con un dispositivo asistente de voz, con un candado que simboliza la privacidad y la seguridad."
 ---
  Protección de los asistentes de voz: Problemas de privacidad y estrategias de mitigación

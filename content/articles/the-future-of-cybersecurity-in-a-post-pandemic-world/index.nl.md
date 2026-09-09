@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek hoe u zich kunt voorbereiden op de toekomst van cyberbeveiliging in een post-pandemische wereld en uw risico om slachtoffer te worden van cyberaanvallen kunt verkleinen."
 tags: ["cyberbeveiliging", "post-pandemie", "toekomstige", "werk op afstand", "AI", "machinaal leren", "IoT", "software-updates", "wachtwoorden", "twee-factor authenticatie", "onderwijs", "VPN", "firmware-updates", "phishing", "ransomware", "cloudbeveiliging", "gegevensbescherming", "netwerkbeveiliging", "detectie van bedreigingen", "digitale privacy"]
-cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.png"
+cover: "/img/cover/A_cartoon_style_image_of_a_person_standing_with_a_shield.webp"
 coverAlt: "Een afbeelding in cartoonstijl van een persoon die met een schild voor een computerscherm staat en dit beschermt tegen verschillende cyberaanvallen zoals malware, virussen, phishing en hackpogingen."
 coverCaption: ""
 ---

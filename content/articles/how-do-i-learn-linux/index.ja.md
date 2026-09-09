@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "このガイドでは、DebianとRHELベースの両方のLinuxの変種を学ぶためのヒントを含む、Linuxを始める方法の概要を説明します。"
 tags: ["リナックス", "デビアン", "ウブントゥ", "CentOS", "RHEL", "レッドハット", "オペレーティングシステム", "オープンソース", "システム管理", "コマンド", "ターミナル", "コミュニティ", "エンタープライズ", "プロフェッショナル", "ラーニング", "ネットワーキング", "セキュリティ", "カスタマイズ", "安定性", "フレキシビリティ"]
-cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.png"
+cover: "/img/cover/A_cartoon_image_of_a_penguin_with_a_graduation_cap.webp"
 coverAlt: "卒業帽子をかぶったペンギンが卒業証書を持ち、Linuxのデスクトップ環境を背景にパソコンの前に立っている漫画画像です。"
 coverCaption: ""
 ---

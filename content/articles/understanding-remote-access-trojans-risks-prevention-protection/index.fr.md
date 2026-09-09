@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez les risques posés par les chevaux de Troie d'accès à distance (RAT) et apprenez des mesures de prévention et de protection efficaces pour protéger vos systèmes informatiques et vos données."
 genre: ["Cybersécurité", "Logiciels malveillants", "Sécurité informatique", "Menaces numériques", "Trojans d'accès à distance", "Protection des données", "Vie privée", "Cybercriminalité", "Sécurité des réseaux", "Sécurité de l'information"]
 tags: ["chevaux de Troie d'accès à distance", "RATs", "cybersécurité", "logiciel malveillant", "sécurité informatique", "menaces numériques", "protection des données", "violation de la vie privée", "surveillance non autorisée", "perturbation du système", "vol d'identité", "fraude financière", "sensibilisation à la cybersécurité", "sécurité des réseaux", "la sécurité de l'information", "vulnérabilités des logiciels", "courriels d'hameçonnage", "vol de données", "manipulation du système", "télécommande", "mesures de cybersécurité", "protection des points finaux", "des mots de passe forts", "pare-feu", "détection des intrusions", "sauvegarde des données", "la sécurité des données", "cybermenaces", "sécurité numérique", "cyberdéfense"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "Illustration symbolique d'un ordinateur verrouillé avec des chaînes, représentant le besoin de protection contre les chevaux de Troie d'accès à distance."
 coverCaption: "Protéger votre forteresse numérique."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn about the importance of password security and discover the best practices for password management to protect your personal information and online identity."
 tags: ["password security", "password management", "online security", "cyber threats", "strong passwords", "two-factor authentication", "password manager", "data security", "identity theft", "phishing scams", "public Wi-Fi networks", "online privacy", "online safety", "digital security", "internet security", "cybersecurity", "data protection", "account security", "online accounts", "online protection"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "A cartoon image of a lock and key being protected by a shield to represent password security and protection."
 coverCaption: ""
 ---

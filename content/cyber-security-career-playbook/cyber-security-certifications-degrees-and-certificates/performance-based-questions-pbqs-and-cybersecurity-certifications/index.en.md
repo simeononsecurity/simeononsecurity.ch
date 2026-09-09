@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-18
 description: "Explore the rise of Performance Based Questions (PBQs) in cybersecurity certifications and their role in assessing practical skills and real-world problem-solving abilities."
 tags: ["PBQs", "Performance Based Questions", "cybersecurity certifications", "practical skills", "real-world problem-solving", "simulation PBQs", "virtual PBQs", "exam preparation", "cybersecurity professionals", "hands-on experience", "certification exams", "CompTIA", "IT security", "cyber threats", "critical thinking", "technical proficiency", "industry relevance", "cybersecurity trends", "industry standards", "NIST Cybersecurity Framework", "CISA", "National Institute of Standards and Technology", "cybersecurity assessment", "cybersecurity education", "information security", "security professionals", "cybersecurity job market", "IT certifications", "cybersecurity skills", "network security"]
-cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.png"
+cover: "/img/cover/A_professional_wearing_a_superhero_cape_with_a_shield_repre.webp"
 coverAlt: "A professional wearing a superhero cape, with a shield representing cybersecurity, standing confidently in front of a computer network."
 coverCaption:  "Empower yourself with cybersecurity certifications and unleash your superhero potential!"
 ---

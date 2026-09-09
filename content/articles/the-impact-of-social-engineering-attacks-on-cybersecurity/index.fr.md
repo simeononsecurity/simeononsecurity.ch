@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à vous défendre contre les attaques d'ingénierie sociale et à protéger vos données contre les cybercriminels dans cet article informatif."
 tags: ["cybersécurité", "ingénierie sociale", "escroqueries par hameçonnage", "authentification multifactorielle", "mises à jour de sécurité", "sécurité du mot de passe", "sécurité web", "violations de données", "Sécurité informatique", "vol d'identité", "prévention de la fraude", "prévention de l'espionnage", "sécurité technique", "la sécurité physique", "la sécurité de l'information", "prévention de la cybercriminalité", "détection des intrusions", "correctifs de sécurité", "formation des employés", "protection des données"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Un bouclier de bande dessinée avec un cadenas au centre, représentant l'idée de se défendre contre les attaques d'ingénierie sociale dans le domaine de la cybersécurité"
 coverCaption: ""
 ---

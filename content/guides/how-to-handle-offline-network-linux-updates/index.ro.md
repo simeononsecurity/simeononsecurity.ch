@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Actualizări Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "actualizări offline", "depozit local", "cache", "configurarea serverului", "configurarea clientului", "apt-oglindă", "debmirror", "createrepo", "apt-cacher-ng", "yum-cron", "Actualizări de sistem Linux", "actualizări de pachete offline", "actualizări de software offline", "depozitul local de pachete", "memoria cache locală a pachetelor", "actualizări offline Linux", "gestionarea actualizărilor offline", "metode de actualizare offline", "întreținere offline a sistemului", "Actualizări de server Linux", "Actualizări ale clientului Linux", "management software offline", "gestionarea pachetelor offline", "strategii de actualizare", "Actualizări de securitate Linux"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "O ilustrație de desene animate ilustrând un server și mai multe dispozitive client care fac schimb de actualizări offline."
 coverCaption: ""
 ---

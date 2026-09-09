@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek spannende en innovatieve projectideeën voor thuis om uw kennis uit te breiden en uw IT-vaardigheden te verbeteren."
 tags: ["thuis lab projecten", "virtualisatie-omgeving", "netwerkbeveiligingslab", "home media server", "huisautomatiseringssysteem", "praktische ervaring", "IT-vaardigheden", "technologie", "software", "hardware", "experimenten", "leren", "netwerkarchitectuur", "softwareconfiguraties", "cyberbeveiliging", "firewall", "router", "media streaming", "thuisnetwerk", "slimme apparaten", "automatisering", "Raspberry Pi", "Z-Wave", "Zigbee", "Plex", "Kodi", "Emby", "VMware vSphere", "Microsoft Hyper-V", "Proxmox VE", "virtualisatie-omgeving thuis bouwen", "netwerkbeveiligingslab maken met pfSense", "home media server opzetten met Plex", "huisautomatiseringssysteem bouwen met Raspberry Pi"]
-cover: "/img/cover/A_symbolic_image_depicting_a_person_working.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_person_working.webp"
 coverAlt: "Een symbolische afbeelding van een persoon die werkt aan een virtualisatieopstelling met meerdere besturingssystemen en netwerkcomponenten."
 coverCaption: ""
 ---

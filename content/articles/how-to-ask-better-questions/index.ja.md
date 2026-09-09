@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "具体的で適切な質問の仕方を学び、無駄な時間を過ごさないようにしましょう。"
 tags: ["生産性", "コミュニケーション", "もんだいかいけつ", "研究", "たいわ", "追及", "インフォメーション", "コミットメント", "専門知識", "タイムマネージメント", "ノレッジ", "手腕", "学習", "コラボレーション", "批判的思考", "好奇心", "フォーカス", "解析", "問合せ", "好奇心"]
-cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.png"
+cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "メガホンを持った人が、クエスチョンマークとエクスクラメーションマークに囲まれ、効果的な質問をすること、価値ある洞察を求めることの重要性を表現しています。"
 coverCaption: ""
 ---

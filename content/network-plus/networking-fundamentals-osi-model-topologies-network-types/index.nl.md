@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek het belang van netwerkfundamenten, waaronder het OSI-model, netwerktopologieën en verschillende soorten netwerken, voor het bouwen van efficiënte en betrouwbare infrastructuren."
 genre: ["Technologie", "Netwerken", "IT-infrastructuur", "Netwerkarchitectuur", "Informatica", "Datacommunicatie", "Informatie Technologie", "Netwerkbeveiliging", "Netwerkbeheer", "Internet"]
 tags: ["netwerkbeginselen", "OSI-model", "netwerktopologieën", "netwerktypes", "gegevensinkapseling", "netwerklagen", "netwerktopologie", "stertopologie", "bustopologie", "ringtopologie", "hybride topologie", "peer-to-peer netwerk", "client-server-netwerk", "LAN", "MAN", "WAN", "WLAN", "PAN", "KAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hypervisor", "satellietverbindingen", "DSL", "kabelinternet", "huurlijn", "metro-optisch"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Een symbolische illustratie van onderling verbonden knooppunten die een netwerk vormen."
 coverCaption: "De kracht van netwerkgrondbeginselen ontketenen."
 ---

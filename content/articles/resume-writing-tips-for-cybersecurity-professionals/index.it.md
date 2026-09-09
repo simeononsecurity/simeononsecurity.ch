@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-19
 description: "Aumentate le possibilità di ottenere il lavoro dei vostri sogni con questi consigli di esperti per la stesura del curriculum per i professionisti della cybersicurezza, dello sviluppo software e dell'IT."
 tags: ["Consigli per la stesura del curriculum", "professionisti della cybersicurezza", "sviluppo software", "Professionisti IT", "ricerca di lavoro", "consigli di carriera", "competenze tecniche", "Punti salienti del progetto", "consapevolezza della cybersicurezza", "capacità di risolvere i problemi", "tendenze del settore", "sviluppo professionale", "GDPR compliance", "Regolamenti CCPA", "mercato del lavoro", "ottimizzazione del curriculum", "domanda di lavoro", "Suggerimenti per il curriculum", "strategie di ricerca del lavoro", "avanzamento di carriera"]
-cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.png"
+cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"
 coverAlt: "Illustrazione in stile cartoon di una persona con in mano un curriculum, circondata da simboli di cybersicurezza e frammenti di codice."
 coverCaption: ""
 ---

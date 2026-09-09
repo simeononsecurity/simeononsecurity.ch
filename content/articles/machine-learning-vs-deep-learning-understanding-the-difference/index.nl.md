@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek het onderscheid tussen machine learning en deep learning, twee krachtige takken van AI met unieke kenmerken en toepassingen."
 tags: ["machinaal leren", "diepgaand leren", "kunstmatige intelligentie", "AI", "gegevenswetenschap", "algoritme", "neurale netwerken", "feature engineering", "ongestructureerde gegevens", "beslisbomen", "logistische regressie", "gelabelde gegevens", "ongelabelde gegevens", "computermiddelen", "fraudedetectie", "aanbevelingssystemen", "predictief onderhoud", "beeldherkenning", "natuurlijke taalverwerking", "ontdekking van geneesmiddelen", "zakelijke toepassingen", "complexiteit van het algoritme", "gegevensweergave", "overheidsvoorschriften", "computervisie", "gezichtsherkenning", "chatbots", "taalvertaling", "opleidingsmodellen", "voorspellende analyses"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "Een cartoonillustratie met een algoritme voor machinaal leren en een diep lerend neuraal netwerk in een vriendschappelijke wedstrijd."
 coverCaption: ""
 ---

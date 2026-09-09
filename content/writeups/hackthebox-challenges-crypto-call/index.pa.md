@@ -5,7 +5,7 @@ draft: false
 description: "HackTheBox 'ਤੇ Crypto - Call ਚੁਣੌਤੀ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ DTMF ਟੋਨਾਂ ਨੂੰ ਡੀਕ੍ਰਿਪਟ ਕਰਨਾ ਸਿੱਖੋ।"
 tags: ["HackTheBox", "ਕ੍ਰਿਪਟੋ ਚੈਲੇਂਜ", "DTMF ਟੋਨਸ", "ਪ੍ਰਾਈਮ ਨੰਬਰ ਸਿਫਰ", "ਡਿਕ੍ਰਿਪਸ਼ਨ", "ਪਹੇਲੀਆਂ ਨੂੰ ਹੱਲ ਕਰਨਾ", "ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ", "ਆਡੀਓ ਪਰਿਵਰਤਨ", "ਡਾਇਲਏਬੀਸੀ", "Decode.fr", "ਡਬਲਯੂ.ਏ.ਵੀ", "MP3", "ਬਾਰੰਬਾਰਤਾ", "ਗਣਿਤ ਦੇ ਗੁਣ", "ਝੰਡਾ", "ਦਲੇਰੀ", "ਸੋਨਿਕ ਵਿਜ਼ੂਅਲਾਈਜ਼ਰ", "ਨੰਬਰ", "ਆਟੋਮੇਟਿਡ ਟੈਲਰ ਮੀਨੂ", "ਫ਼ੋਨ ਦਾ ਭੁਗਤਾਨ ਕਰੋ"]
 toc: true
-cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.png"
+cover: "/img/cover/A_cartoon_phone_with_a_green_screen_and_a_padlock_on_it.webp"
 coverAlt: "ਬੈਕਗ੍ਰਾਉਨ ਵਿੱਚ ਦਰਸਾਏ ਗਏ DTMF ਟੋਨਾਂ ਦੇ ਨਾਲ, ਸੁਰੱਖਿਆ ਅਤੇ ਏਨਕ੍ਰਿਪਸ਼ਨ ਦਾ ਪ੍ਰਤੀਕ, ਹਰੇ ਸਕ੍ਰੀਨ ਅਤੇ ਇਸ 'ਤੇ ਇੱਕ ਪੈਡਲੌਕ ਵਾਲਾ ਇੱਕ ਕਾਰਟੂਨ ਫ਼ੋਨ।"
 coverCaption: ""
 ---

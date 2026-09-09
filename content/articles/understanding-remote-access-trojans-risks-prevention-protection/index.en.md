@@ -6,7 +6,7 @@ draft: false
 description: "Discover the risks posed by remote access trojans (RATs) and learn effective prevention and protection measures to safeguard your computer systems and data."
 genre: ["Cybersecurity", "Malicious Software", "Computer Security", "Digital Threats", "Remote Access Trojans", "Data Protection", "Privacy", "Cybercrime", "Network Security", "Information Security"]
 tags: ["remote access trojans", "RATs", "cybersecurity", "malicious software", "computer security", "digital threats", "data protection", "privacy breach", "unauthorized surveillance", "system disruption", "identity theft", "financial fraud", "cybersecurity awareness", "network security", "information security", "software vulnerabilities", "phishing emails", "data theft", "system manipulation", "remote control", "cybersecurity measures", "endpoint protection", "strong passwords", "firewall", "intrusion detection", "data backup", "data security", "cyber threats", "digital security", "cyber defense"]
-cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.png"
+cover: "/img/cover/A_hacker_trying_to_control_a_computer_system.webp"
 coverAlt: "A symbolic illustration of a locked computer with chains, representing the need for protection against remote access trojans."
 coverCaption: "Protecting Your Digital Fortress."
 ---

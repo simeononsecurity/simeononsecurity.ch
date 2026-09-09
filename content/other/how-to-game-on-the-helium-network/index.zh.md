@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何利用 MiddleMan 和 Chirp Stack Packet Multiplexer 的漏洞来玩弄 Helium 网络，以及这样做的风险和后果。"
 tags: ["氦气网", "覆盖证明", "中间人", "Chirp 堆栈数据包多路复用器", "赌博", "利用漏洞", "LoRaWAN网络", "加密货币", "区块链", "去中心化网络", "热点", "欺骗", "作弊", "非法活动", "处罚", "网络完整性", "奖励", "恶意行为者", "网络安全", "合法主机"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "一群人利用氦气球的卡通形象，背景是 LoRaWAN 网关和 MiddleMan 或 Chirp 堆栈数据包多路复用器的图像。"
 coverCaption: ""
 ---

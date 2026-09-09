@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-14
 description: "Exploreu les millors pràctiques i eines per gestionar una flota de miners de poca potència, com remote.it, ngrok, OpenVPN, WireGuard i molt més."
 tags: ["miners de poca potència", "accés remot", "seguretat de la xarxa", "openvpn", "protector de fil", "bufar", "ngrok"]
-cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.png"
+cover: "/img/cover/A_cartoon_image_of_multiple_low-powered_miners_connected.webp"
 coverAlt: "Una imatge de dibuixos animats de diversos miners de poca potència connectats a un concentrador de xarxa amb les eines que es comenten a l'article."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Obtenga consejos y estrategias de expertos para aprobar los exámenes A+ de CompTIA, incluidos acrónimos esenciales, conocimiento de equipos y procedimientos comunes de solución de problemas."
 tags: ["Certificación CompTIA A", "220-1101", "220-1102", "Preparación de exámenes", "Certificación informática", "Carrera en TI", "Tecnologías de la información", "Estrategias de examen", "Consejos de estudio", "Competencias técnicas", "Técnicas de resolución de problemas", "Componentes de hardware", "Instalación del software", "Conceptos de red", "Principios de seguridad", "Recuperación de datos", "Aprendizaje en línea", "Consejos para la certificación CompTIA A", "aprobar los exámenes CompTIA A+", "estrategias de estudio para los exámenes A", "Preparación para la certificación informática", "técnicas de examen para los exámenes A", "conocimiento de los componentes de hardware", "técnicas de instalación de software", "conceptos de red para los exámenes A", "principios de seguridad en TI", "métodos de recuperación de datos", "recursos de aprendizaje en línea para los exámenes A", "comptia a 1001 ejemplos de preguntas basadas en el rendimiento"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "Una imagen de dibujos animados de una persona que sostiene un ordenador portátil mientras está rodeada de varios componentes de hardware informático y cables de red, con una burbuja de pensamiento que muestra una serie de acrónimos de CompTIA A+ y procedimientos de solución de problemas."
 coverCaption: ""
 ---

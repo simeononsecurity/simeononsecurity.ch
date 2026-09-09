@@ -6,7 +6,7 @@ draft: false
 description: "Erfahren Sie, warum die Beherrschung von Programmierkenntnissen für Ihre IT- und Cybersicherheitskarriere von großem Nutzen sein kann, und wie Sie mit PowerShell, Bash, Python, Ansible, Packer und Terraform beginnen können."
 genre: ["IT- und Cybersicherheit", "Programmierkenntnisse", "Beruflicher Aufstieg", "Automatisierung", "Befehlszeile", "Skripting", "Bereitstellung der Infrastruktur", "Datenanalyse", "Sicherheitsprüfung", "Berufliche Entwicklung"]
 tags: ["IT- und Cybersicherheit", "Programmierkenntnisse", "Beruflicher Aufstieg", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automatisierung", "Befehlszeile", "Skripting", "Bereitstellung der Infrastruktur", "Datenanalyse", "Sicherheitsprüfung", "IT-Karrieren", "Karrieren im Bereich Cybersicherheit", "IT-Fachleute", "Fachleute für Cybersicherheit", "Netzwerk-Automatisierung", "Sicherheitsanalyse", "Skriptsprachen", "Konfigurationsmanagement", "Infrastruktur als Code", "IT-Automatisierung", "IT-Industrie", "Cyber-Sicherheitsindustrie", "Stellenmarkt", "IT-Kenntnisse"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "Eine Person, die vor einem Computer sitzt und Code in eine Befehlszeilenschnittstelle eintippt, während Textzeilen über den Bildschirm laufen. "
 coverCaption: "Entfesseln Sie die Kraft der Programmierung für IT und Cybersicherheit."
 ---

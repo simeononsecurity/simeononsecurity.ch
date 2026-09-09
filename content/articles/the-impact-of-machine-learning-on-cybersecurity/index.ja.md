@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "機械学習がサイバーセキュリティに与える影響と、その対応策をご紹介します。"
 tags: ["機械学習", "サイバーセキュリティ", "アダプテーション", "アーティフィシャル・インテリジェンス", "スレットディテクション", "データ保護", "リアルタイム", "教師あり学習", "教師なし学習", "強化学習（Reinforcement Learning", "誤認識", "フォールス・ネガティブ", "社員教育", "セキュリティソリューション", "データアナリティクス", "ネットワークセキュリティ", "クラウドセキュリティ", "パターン認識", "アノマリーディテクション", "サイバー脅威"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "サイバーセキュリティにおける機械学習の活用を象徴する、仮想の盾の前で警備に当たるアニメのロボット。"
 coverCaption: ""
 ---

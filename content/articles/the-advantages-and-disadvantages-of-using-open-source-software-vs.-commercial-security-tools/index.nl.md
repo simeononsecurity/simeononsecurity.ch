@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voor- en nadelen van open-source en commerciële beveiligingstools, zodat u weloverwogen beslissingen kunt nemen voor de beveiligingsstrategie van uw organisatie."
 tags: ["open-source beveiliging", "commerciële beveiligingsinstrumenten", "kosteneffectiviteit", "flexibiliteit", "aanpasbaarheid", "communautaire steun", "beperkte ondersteuning", "documentatie", "integratie-uitdagingen", "kwaliteit en betrouwbaarheid", "naadloze integratie", "vendor lock-in", "IT-middelen", "beveiligingsinfrastructuur", "beveiligingsoplossingen", "budgettaire beperkingen", "unieke eisen", "softwarecompatibiliteit", "veiligheidsdoelstellingen", "besluitvorming"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "Een beeld in cartoonstijl van twee contrasterende personages die open-source en commerciële beveiligingstools voorstellen, staande aan weerszijden van een evenwichtige schaal, als symbool voor de voor- en nadelen van elke optie."
 coverCaption: ""
 ---

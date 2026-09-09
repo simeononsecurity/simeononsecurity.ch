@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite il programma di qualificazione e gestione della forza lavoro del cyberspazio del DoD descritto nel Manuale 8140.03."
 tags: ["Manuale DoD 8140.03", "forza lavoro nel cyberspazio", "programma di qualificazione", "Personale del Dipartimento della Difesa", "sicurezza informatica", "qualificazione nel cyberspazio", "gestione del cyberspazio", "sviluppo della forza lavoro nel cyberspazio", "Politiche del DoD per il cyberspazio", "forza lavoro nella cybersecurity", "qualifiche di cybersecurity", "formazione sulla cybersicurezza", "educazione alla cybersicurezza", "certificazioni di cybersecurity", "ruoli di cybersecurity", "ruoli lavorativi nella cybersecurity", "gestione della forza lavoro informatica", "qualifiche del ruolo lavorativo nel cyberspazio", "gestione del personale informatico", "programma di qualificazione informatica", "sviluppo professionale informatico", "competenza della forza lavoro nel cyberspazio", "certificazioni per il personale cyber", "requisiti di formazione informatica", "standard di cybersicurezza", "competenza della forza lavoro nel cyberspazio", "difesa dalle minacce informatiche", "sicurezza del sistema informativo", "sicurezza della rete"]
-cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.png"
+cover: "/img/cover/A_computer_screen_displaying_a_cybersecurity_dashboard.webp"
 coverAlt: "Uno schermo di computer che visualizza un cruscotto di cybersecurity con grafici e diagrammi che riflettono lo stato di sicurezza di una rete"
 coverCaption: ""
 ---

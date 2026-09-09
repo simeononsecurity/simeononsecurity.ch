@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u een veilige en compliant cloud-omgeving voor uw bedrijf kunt bouwen met onze uitgebreide gids."
 tags: ["cloud computing", "cyberbeveiliging", "gegevensprivacy", "compliance", "HIPAA", "PCI DSS", "GDPR", "gegevensback-up", "noodherstel", "encryptie", "toegangscontroles", "multi-factor authenticatie", "voortdurende controle", "kwetsbaarheidsbeoordelingen", "datalekken", "bedreigingen van binnenuit", "misconfiguratie", "gegevensverlies", "cloudprovider", "veiligheidsmaatregelen"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Een cartoonwolk met een slot erop, die de veilige en conforme cloudomgeving voorstelt die in het artikel wordt gebouwd."
 coverCaption: ""
 ---

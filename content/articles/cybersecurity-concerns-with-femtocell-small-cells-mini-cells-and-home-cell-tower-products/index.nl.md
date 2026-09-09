@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Leer hoe aanvallers femtocellen kunnen misbruiken om telefoongesprekken en sms'jes te onderscheppen en wat u kunt doen om u tegen dergelijke aanvallen te beschermen."
 tags: ["femtocel aanvallen", "mobiele beveiliging", "cyberbeveiliging", "cellulaire netwerken", "VPN", "telefoon klonen", "gegevensprivacy", "internetbeveiliging", "mobiele apparaten", "cellulaire aanbieders", "netwerkbeveiliging", "draadloze beveiliging", "beveiliging van mobiele telefoons", "kwetsbaarheden", "cyberaanvallen", "beveiligingspatches", "data-encryptie", "cybercriminaliteit", "veiligheidstips", "beveiligde berichtgeving"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Een schild met een slotsymbool dat een mobiele telefoon beschermt tegen de hand van een hacker die er toegang toe probeert te krijgen."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Lernen Sie, wie Sie sich und Ihr Unternehmen vor den häufigsten Cyberangriffen schützen können, darunter Social Engineering, Malware, Denial-of-Service-Angriffe, Passwortangriffe und Angriffe auf Webanwendungen."
 tags: ["Cybersicherheit", "Cyber-Angriffe", "Social Engineering", "Malware", "Denial-of-Service", "Passwort-Angriffe", "Angriffe auf Webanwendungen", "Sicherheitsbewusstsein", "Spam-Filter", "Multi-Faktor-Authentifizierung", "Antiviren-Software", "Firewalls", "Botnets", "CDNs", "Anti-DDoS-Dienste", "Netzleistung", "Schwachstellen", "Schutz", "Risikominderung", "Informationssicherheit"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Eine Cartoon-Illustration einer Person, die ein Schild hält und vor einem Computer steht, auf den verschiedene Angriffsvektoren zukommen."
 coverCaption: ""
 ---

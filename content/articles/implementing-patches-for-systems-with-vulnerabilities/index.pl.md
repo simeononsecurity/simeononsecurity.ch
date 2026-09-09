@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Dowiedz się, jak wdrożyć poprawki zabezpieczeń dla podatnych serwerów, stosując najlepsze praktyki i zapobiegając złośliwym atakom."
 tags: ["Bezpieczeństwo serwera", "Zarządzanie podatnościami", "Zarządzanie poprawkami", "Cyberbezpieczeństwo", "Łatanie serwera", "Krajobraz zagrożeń", "Testy penetracyjne", "Aktualizacje zabezpieczeń", "Poprawki oprogramowania", "Bezpieczeństwo IT", "Ochrona danych", "Bezpieczeństwo systemu", "Zarządzanie ryzykiem", "Zasady bezpieczeństwa", "Środowiska przejściowe", "Luki w oprogramowaniu", "Krytyczne poprawki", "Poprawki dostawcy", "Biuletyny bezpieczeństwa", "Bezpieczeństwo informacji"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Kreskówkowy wizerunek osoby trzymającej tarczę i stojącej na straży przed serwerownią, reprezentujący ochronę i bezpieczeństwo, jakie zapewnia wdrożenie poprawek."
 coverCaption: ""
 ---

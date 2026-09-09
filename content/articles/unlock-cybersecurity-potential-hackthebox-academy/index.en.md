@@ -6,7 +6,7 @@ draft: false
 description: "Discover the comprehensive training and hands-on challenges offered by Hackthebox Academy to unlock your cybersecurity potential and enhance your skills."
 genre: ["Cybersecurity Training", "Hands-on Labs", "Practical Exercises", "Learning Paths", "Community Collaboration", "Cybersecurity Skills", "Online Platform", "Real-world Scenarios", "Tutorials and Documentation", "Premium Subscription"]
 tags: ["hackthebox academy", "cybersecurity training", "hands-on labs", "practical exercises", "learning paths", "community collaboration", "cybersecurity skills", "online platform", "real-world scenarios", "tutorials and documentation", "premium subscription", "hackthebox academy login", "hackthebox academy cost", "hackthebox academy price", "hackthebox academy website", "hackthebox academy features", "cybersecurity challenges", "network security", "web application security", "cryptography", "penetration testing", "reverse engineering", "digital forensics", "cybersecurity community", "cybersecurity enthusiasts", "cyber threats", "cybersecurity expertise", "hackthebox academy pricing", "government regulations"]
-cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.png"
+cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.webp"
 coverAlt: "A group of diverse individuals working together to solve cybersecurity challenges at Hackthebox Academy."
 coverCaption: "Unlock your cybersecurity potential with Hackthebox Academy!"
 ---

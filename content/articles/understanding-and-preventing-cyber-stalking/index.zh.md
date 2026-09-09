@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何使用这些提示和技术保护自己免受网络跟踪并确保自己的在线安全。"
 tags: ["网络跟踪", "上网安全", "网络安全", "跟踪预防", "人身安全", "在线隐私", "网络安全", "数字安全", "网络安全", "网络欺凌", "骚扰", "受害者保护", "合法举动", "辅导", "精神健康", "社交媒体安全", "网络骚扰", "在线跟踪", "执法", "隐私保护"]
-cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.png"
+cover: "/img/cover/A_person_looking_at_their_phone_with_a_worried_expression.webp"
 coverAlt: "一个人带着忧虑的表情看着他们的手机，而一个阴暗的身影在背景中若隐若现。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda lo esencial sobre herramientas y técnicas de pruebas de penetración, metodologías y certificaciones para iniciar su carrera en ciberseguridad."
 tags: ["pruebas de penetración", "ciberseguridad", "hacking ético", "herramientas", "técnicas", "guía para principiantes", "Nmap", "Metasploit", "Wireshark", "Suite Eructo", "OSSTMM", "PTES", "OWASP", "CEH", "OSCP", "GPEN", "pruebas de seguridad", "evaluación de la vulnerabilidad", "seguridad de la red", "seguridad de la información"]
-cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_balaclava.webp"
 coverAlt: "Un hacker de dibujos animados con pasamontañas y una lupa en la mano examina una pantalla de ordenador en la que se muestran varias herramientas de pruebas de piratería informática, como Nmap, Metasploit, Wireshark y Burp Suite, con cerraduras digitales que simbolizan sistemas seguros en el fondo."
 coverCaption: ""
 ---

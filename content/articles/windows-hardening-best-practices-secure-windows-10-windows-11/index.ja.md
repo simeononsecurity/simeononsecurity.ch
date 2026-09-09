@@ -6,7 +6,7 @@ draft: false
 description: "包括的なハードニング技術とベストプラクティスを通じて、Windows 10およびWindows 11システムのセキュリティを強化するための効果的な戦略をご覧ください。"
 genre: ["ウィンドウズ強化", "Windowsのセキュリティ", "Windows 10のハードニング", "ウィンドウズ11のハードニング", "Windowsセキュリティのベストプラクティス", "Windowsセキュリティのヒント", "Windowsセキュリティガイドライン", "Windowsオペレーティングシステムのセキュリティ", "Windowsシステムのハードニング", "ウィンドウズのセキュリティ対策"]
 tags: ["ウィンドウズ強化", "Windowsのセキュリティ", "ウィンドウズ10", "ウィンドウズ11", "オペレーティングシステムのセキュリティ", "ウィンドウズ・ディフェンダー", "ユーザーアカウント制御", "ビットロッカーの暗号化", "ファイアウォール設定", "AppLocker ポリシー", "ウィンドウズ・アップデート", "強力なパスワード", "データバックアップ", "ウィンドウズ・ハロー", "セキュアブート", "TPM", "マイクロソフト・ディフェンダー・アンチウイルス", "ウィンドウズ サンドボックス", "Microsoft Defender Application Guard", "管理されたフォルダアクセス", "ウィンドウズ10とウィンドウズ11を保護するためのベストプラクティス", "Windowsオペレーティング・システムを強化する方法", "個人と組織のためのWindowsセキュリティ対策", "Windowsシステムのセキュリティ強化", "BitLocker暗号化によるデータ保護", "Microsoft Defender Application Guardによるブラウザセッションの分離", "Windows 10セキュリティのヒントとガイドライン", "Windowsセキュリティ機能の実装", "ハードウェアベースの分離によるWindowsの保護", "Windowsシステムの完全性の確保"]
-cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_shield_protecting-windows.webp"
 coverAlt: "様々なサイバー脅威からWindowsロゴを守る盾の漫画イラスト。"
 coverCaption: "効果的なハードニング・テクニックでWindowsの要塞を守りましょう。"
 ---

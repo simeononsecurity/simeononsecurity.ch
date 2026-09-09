@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a preparare e superare l'esame CISSP, una prestigiosa certificazione per i professionisti della sicurezza informatica."
 tags: ["Certificazione CISSP", "sicurezza delle informazioni", "preparazione agli esami", "piano di studio", "esami pratici", "sicurezza informatica", "sviluppo professionale", "esame di certificazione", "ISC2", "opportunità di carriera", "architettura di sicurezza", "sicurezza della rete", "controllo degli accessi", "gestione del rischio", "crittografia", "operazioni di sicurezza", "sicurezza fisica", "continuità aziendale", "recupero in caso di disastro", "compliance"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "Un'immagine a fumetti di una persona con in mano un certificato CISSP, con una bolla di pensiero che mostra diversi argomenti di sicurezza informatica come l'architettura della sicurezza, il controllo degli accessi, la crittografia e la sicurezza di rete."
 coverCaption: ""
 ---

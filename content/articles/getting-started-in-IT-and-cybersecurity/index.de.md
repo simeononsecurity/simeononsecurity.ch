@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Schritte, die Sie unternehmen müssen, um Ihre Karriere im aufregenden und sich ständig weiterentwickelnden Bereich der IT und Cybersicherheit zu starten, mit diesem umfassenden Leitfaden"
 tags: ["IT und Cybersicherheit", "Karriere-Leitfaden", "CompTIA-Zertifizierungen", "MCSA", "Linux+", "CCNA", "Penetrationstests", "Ethisches Hacking", "OSCP", "Skripting", "IT Jobs", "Cybersecurity-Jobs"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Ein Bild einer Person, die an ihrem Arbeitsplatz sitzt, mit einem Sicherheitsschloss im Vordergrund, das auf die Bedeutung der Sicherung von Arbeitsplätzen hinweist."
 coverCaption: ""
 ---

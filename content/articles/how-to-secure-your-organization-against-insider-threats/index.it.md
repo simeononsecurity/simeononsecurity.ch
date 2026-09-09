@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate le migliori pratiche per proteggere la vostra organizzazione dalle minacce interne causate da dipendenti, appaltatori o partner che hanno accesso a dati e sistemi sensibili."
 tags: ["minacce interne", "sicurezza informatica", "protezione dei dati", "formazione dei dipendenti", "controlli tecnici", "controlli di accesso", "sviluppo della politica", "prevenzione della perdita di dati", "risposta agli incidenti", "Sicurezza informatica", "gestione del rischio", "accesso privilegiato", "consapevolezza della sicurezza", "attacchi informatici", "sicurezza della rete", "sicurezza delle informazioni", "rilevamento delle minacce", "valutazione del rischio", "politiche di sicurezza", "crimine informatico"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Un'immagine a fumetti di un dipendente con una chiave che sblocca una porta etichettata con dati sensibili mentre un altro dipendente con una lente di ingrandimento guarda con sospetto. "
 coverCaption: ""
 ---

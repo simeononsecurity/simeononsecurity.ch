@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Învățați elementele de bază ale criptării și cum să o utilizați pentru a vă securiza datele sensibile cu acest ghid pentru începători privind criptarea."
 tags: ["criptare", "protecția datelor", "securitate cibernetică", "confidențialitate", "tehnologie", "securitate online", "criptare simetrică", "criptare asimetrică", "securitate", "confidențialitatea pe internet", "criptografie", "mesagerie criptată", "securitate digitală", "confidențialitatea datelor", "date criptate", "software de criptare", "criptarea datelor", "securitate informatică", "securitatea rețelei", "protecție prin parolă"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un lacăt din desene animate cu o gaură de cheie, reprezentând protecția datelor prin criptare."
 coverCaption: ""
 ---

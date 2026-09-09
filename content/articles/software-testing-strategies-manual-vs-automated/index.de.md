@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Vor- und Nachteile von manuellen und automatisierten Softwaretests, um eine fundierte Entscheidung für Ihr Unternehmen zu treffen."
 tags: ["Softwaretests", "manuelle Prüfung", "automatisierte Prüfung", "Teststrategien", "Software-Entwicklung", "qualitätssicherung", "Testfälle", "Testabdeckung", "exploratives Testen", "Benutzererfahrung", "efficiency", "Wiederverwendbarkeit", "Anpassungsfähigkeit", "menschliches Versagen", "Falschmeldungen", "falsche Negative", "Testautomatisierung", "Hybridtests", "Ressourcenoptimierung", "Software-Testverfahren", "Auswahl der richtigen Softwareteststrategie", "Vorteile der manuellen Prüfung", "Nachteile der automatisierten Prüfung", "Kombination von manuellen und automatisierten Tests", "Optimierung des Softwaretestprozesses"]
-cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.png"
+cover: "/img/cover/A_colorful_illustration_of_a_human_tester_and_a_robot_tester.webp"
 coverAlt: "Eine farbenfrohe Illustration eines menschlichen Testers und eines Robotertesters, die zusammenarbeiten, um Softwareanwendungen zu testen."
 coverCaption: ""
 ---

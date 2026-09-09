@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Obtenez des conseils d'experts et des stratégies pour réussir les examens A+ de CompTIA, y compris les acronymes essentiels, la connaissance de l'équipement et les procédures de dépannage courantes."
 tags: ["Certification CompTIA A+", "220-1101", "220-1102", "Préparation à l'examen", "Certification informatique", "Carrière en informatique", "Technologie de l'information", "Stratégies d'examen", "Conseils d'étude", "Compétences techniques", "Techniques de dépannage", "Composants matériels", "Installation du logiciel", "Concepts de mise en réseau", "Principes de sécurité", "Récupération de données", "Apprentissage en ligne", "Conseils pour la certification CompTIA A+", "réussir les examens CompTIA A+", "stratégies d'étude pour les examens A+", "Préparation à la certification informatique", "les compétences nécessaires pour passer les examens A+", "connaissance des composants matériels", "les techniques d'installation des logiciels", "concepts de mise en réseau pour les examens A+", "les principes de sécurité dans les technologies de l'information", "méthodes de récupération des données", "ressources d'apprentissage en ligne pour les examens A+", "comptia a 1001 performance based questions examples"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "Image de bande dessinée représentant une personne tenant un ordinateur portable, entourée de divers composants informatiques et de câbles de réseau, avec une bulle de pensée affichant une série d'acronymes CompTIA A+ et de procédures de dépannage."
 coverCaption: ""
 ---

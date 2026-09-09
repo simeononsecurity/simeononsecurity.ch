@@ -6,7 +6,7 @@ draft: false
 description: "Discover the functionalities of DHCP, DNS, and NTP services, understand corporate and datacenter network architecture, and explore cloud concepts and connectivity options for seamless communication and data management."
 genre: ["Technology", "Networking", "Connectivity", "Data Exchange", "Network Architecture", "Cloud Computing", "Network Services", "DNS", "DHCP", "NTP"]
 tags: ["network services", "connectivity options", "architecture", "DHCP", "DNS", "NTP", "corporate network", "datacenter network", "cloud concepts", "connectivity", "three-tiered architecture", "software-defined networking", "spine and leaf architecture", "traffic flows", "branch office", "on-premises datacenter", "colocation", "storage area networks", "Fibre Channel over Ethernet", "iSCSI", "exploring DHCP", "understanding DNS", "network time synchronization", "corporate network architecture", "cloud connectivity options", "three-tiered network architecture", "benefits of software-defined networking", "spine and leaf network architecture", "branch office cloud connectivity", "types of storage area networks"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "A cartoon illustration showcasing various network components and cloud connectivity options"
 coverCaption: "Unlock the Power of Network Services and Cloud Connectivity"
 ---

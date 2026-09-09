@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite l'impatto dell'apprendimento automatico sulla sicurezza informatica e come adattarsi."
 tags: ["Apprendimento automatico", "Sicurezza informatica", "Adattamento", "Intelligenza artificiale", "Rilevamento delle minacce", "Protezione dei dati", "In tempo reale", "Apprendimento supervisionato", "Apprendimento non supervisionato", "Apprendimento per rinforzo", "Falsi positivi", "Falsi negativi", "Formazione dei dipendenti", "Soluzioni di sicurezza", "Analisi dei dati", "Sicurezza di rete", "Sicurezza in-the-cloud", "Riconoscimento dei modelli", "Rilevamento delle anomalie", "Minacce informatiche"]
-cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.png"
+cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "Un robot dei cartoni animati che fa la guardia davanti a uno scudo virtuale, a simboleggiare l'uso dell'apprendimento automatico nella sicurezza informatica."
 coverCaption: ""
 ---

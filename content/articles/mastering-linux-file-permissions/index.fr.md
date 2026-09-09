@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-22
 description: "Maîtrisez les autorisations de fichiers Linux pour garantir un système de fichiers sécurisé grâce à ce guide complet couvrant la propriété, le contrôle d'accès et les meilleures pratiques."
 tags: ["Linux file permissions", "système de fichiers sécurisé", "le contrôle d'accès", "propriété", "file permissions guide", "Linux security", "sécurité du système de fichiers", "commande chmod", "commande chown", "audit des autorisations de fichiers", "Principe du moindre privilège", "conformité réglementaire", "GDPR", "HIPAA", "file permissions audit", "documenter les règlements", "sécurité du système", "sécurité des réseaux", "chiffrement", "gestion des utilisateurs"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"
 coverAlt: "Image de style bande dessinée représentant une armoire à dossiers verrouillée avec différentes clés représentant des autorisations d'utilisateurs, de groupes et d'autres personnes."
 coverCaption: ""
 ---

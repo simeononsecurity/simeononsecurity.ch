@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Dowiedz się, jakie kroki należy podjąć, aby rozpocząć udaną karierę w dziedzinie cyberbezpieczeństwa, od zbudowania solidnych podstaw po odkrywanie różnych dziedzin i certyfikatów."
 tags: ["kariera w cyberbezpieczeństwie", "start w cyberbezpieczeństwie", "zbudować fundament", "podstawy sieci", "systemy operacyjne", "umiejętności kodowania", "administracja systemami przedsiębiorstwa", "niebieska drużyna", "czerwona drużyna", "fioletowy zespół", "certyfikaty", "ciągłe uczenie się", "pierwsza praca w cyberbezpieczeństwie", "budowanie portfolio", "tworzenie sieci dla cyberbezpieczeństwa", "staże w dziedzinie cyberbezpieczeństwa", "CompTIA Security", "Certyfikowany etyczny haker CEH", "Certyfikowany specjalista ds. bezpieczeństwa systemów informatycznych CISSP", "konferencje dotyczące cyberbezpieczeństwa", "trendy w cyberbezpieczeństwie", "praktyczne doświadczenie", "projekty cyberbezpieczeństwa", "spotkania dotyczące cyberbezpieczeństwa", "cyberbezpieczeństwo na poziomie podstawowym", "Obrona przed cyberzagrożeniami", "specjaliści ds. cyberbezpieczeństwa", "rozwój kariery", "umiejętności w zakresie cyberbezpieczeństwa", "edukacja w zakresie cyberbezpieczeństwa"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "Grupa zróżnicowanych specjalistów ds. cyberbezpieczeństwa współpracujących przy zabezpieczaniu systemów i sieci cyfrowych."
 coverCaption: "Zjednoczony zespół specjalistów ds. cyberbezpieczeństwa współpracujących w celu ochrony systemów cyfrowych przed cyberzagrożeniami."
 ---

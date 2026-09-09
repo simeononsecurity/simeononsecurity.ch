@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Erfahren Sie, wie Sie Ihre Linux-Internet-Sharing-Anwendungen mit fortschrittlichen Maßnahmen zum Blockieren von Malware, Trackern, Tor-Traffic und Torrents absichern können."
 tags: ["Linux-Sicherheit", "Internet-Sharing-Anwendungen", "Malwareschutz", "Tracker-Blockierung", "Blockierung des Tor-Verkehrs", "Torrent-Prävention", "Netzwerksicherheit", "Snort", "Securita", "DNS-Schutz", "erweiterte Firewall-Regeln", "Ubuntu-Aktualisierungen", "automatische Aktualisierungen", "Netzüberwachung", "Cybersicherheit", "Linux Internetsicherheit", "Sicherheit von Linux-Anwendungen", "Malware-Blockierung", "Verhinderung von Tor-Verkehr", "Torrentschutz", "Netzwerk-Firewall", "Linux-Netzwerksicherheit", "sicheres Internet-Sharing", "Linux DNS-Schutz", "erweiterte Netzwerksicherheit", "Linux-System-Updates", "Netzwerk-Überwachungstools", "Linux-Cybersicherheitsmaßnahmen", "Linux-Sicherheitspraktiken"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "Eine Cartoon-Illustration, die ein Schild zeigt, das ein Netz miteinander verbundener Geräte vor bösartigen Bedrohungen schützt."
 coverCaption: ""
 ---

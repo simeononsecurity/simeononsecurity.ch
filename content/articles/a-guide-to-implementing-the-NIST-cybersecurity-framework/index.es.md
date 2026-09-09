@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a implantar el Marco de Ciberseguridad del NIST y a proteger su organización de las ciberamenazas con nuestra guía paso a paso."
 tags: ["ciberseguridad", "NIST", "marco", "gestión de riesgos", "seguridad de la información", "amenazas cibernéticas", "aplicación", "buenas prácticas", "directrices", "normas", "ciberataques", "evaluación de riesgos", "riesgo de ciberseguridad", "protección de datos", "conformidad", "Seguridad informática", "seguridad de la red", "respuesta a incidentes", "medidas de seguridad", "plan de ciberseguridad"]
-cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_with_a_shield_blocking.webp"
 coverAlt: "Imagen de dibujos animados de una persona con un escudo que bloquea varios ciberataques."
 coverCaption: ""
 ---

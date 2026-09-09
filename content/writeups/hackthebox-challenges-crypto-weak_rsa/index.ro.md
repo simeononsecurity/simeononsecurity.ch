@@ -4,7 +4,7 @@ draft: false
 description: "Aflați cum să utilizați un instrument automat de atac RSA, RsaCtfTool, pentru a rezolva cu ușurință provocarea HackTheBox Weak RSA Crypto."
 tags: ["HackTheBox", "Provocări", "Cripto", "RSA slab", "RsaCtfTool", "HTB Slab RSA Crypto", "Provocare ușoară", "Cifrul RSA", "flag.enc", "key.pub", "Pachetul OpenSSL", "instrument automat de atac RSA", "script python", "RsaCtfTool", "python3", "cheie publică", "uncipherfile", "Exemplu de steag"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "Un hacker de desene animate purtând o pelerină și o mască, stând în fața unei uși seifului cu sigla HTB pe ea și ținând în mână o unealtă (cum ar fi o cheie sau o șurubelniță) cu un fundal verde care simbolizează succesul și steagul într-un balon de vorbire deasupra capul lor."
 coverCaption: ""
 ---

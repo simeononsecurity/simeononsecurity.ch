@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez à vous protéger et à protéger votre entreprise contre les vecteurs d'attaques cybernétiques les plus courants, notamment l'ingénierie sociale, les logiciels malveillants, les attaques par déni de service, les attaques par mot de passe et les attaques d'applications web."
 tags: ["cybersécurité", "cyberattaques", "ingénierie sociale", "logiciels malveillants", "déni de service", "attaques par mot de passe", "les attaques d'applications web", "sensibilisation à la sécurité", "Filtres anti-spam", "authentification multifactorielle", "logiciel antivirus", "pare-feu", "réseaux de zombies", "CDN", "services anti-DDoS", "performance du réseau", "vulnérabilités", "protection", "atténuation des risques", "la sécurité de l'information"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Illustration de bande dessinée d'une personne tenant un bouclier et se tenant devant un ordinateur avec différents vecteurs d'attaque venant vers elle."
 coverCaption: ""
 ---

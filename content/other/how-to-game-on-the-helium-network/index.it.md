@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scopri come giocare alla rete Helium sfruttando le vulnerabilità con MiddleMan e Chirp Stack Packet Multiplexer, nonché i rischi e le conseguenze di ciò."
 tags: ["Rete di elio", "Prova di copertura", "Intermediario", "Multiplexer di pacchetti Chirp Stack", "gioco", "sfruttare le vulnerabilità", "Rete LoRaWAN", "criptovaluta", "blockchain", "rete decentrata", "hotspot", "spoofing", "imbrogliare", "attività illegale", "sanzioni", "integrità della rete", "ricompense", "attori malintenzionati", "sicurezza della rete", "host legittimi"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Una rappresentazione da cartone animato di un gruppo di individui che sfruttano un palloncino di elio con un'immagine di un gateway LoRaWAN e MiddleMan o Chirp Stack Packet Multiplexer sullo sfondo."
 coverCaption: ""
 ---

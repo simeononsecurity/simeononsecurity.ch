@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Poznaj przedziały wynagrodzeń i czynniki wpływające na płace analityków ds. cyberbezpieczeństwa, od stanowisk dla początkujących po doświadczonych specjalistów."
 tags: ["wynagrodzenia analityków cyberbezpieczeństwa", "wynagrodzenia dla początkujących", "wynagrodzenia pro", "kariery w cyberbezpieczeństwie", "wynagrodzenie za cyberbezpieczeństwo", "doświadczenie i wiedza", "wykształcenie i certyfikaty", "Wpływ branży na wynagrodzenia", "położenie geograficzne", "zakres obowiązków", "analitycy na poziomie podstawowym", "analitycy średniego szczebla", "analitycy wyższego szczebla", "rozwój kariery", "potencjał zarobkowy", "rynek pracy cyberbezpieczeństwa", "trendy płacowe", "certyfikaty cyberbezpieczeństwa", "Zawody informatyczne", "czynniki kompensacyjne", "branża cyberbezpieczeństwa", "zakresy wynagrodzeń", "spostrzeżenia dotyczące rynku pracy", "przewodnik po wynagrodzeniach", "porady dotyczące kariery", "trendy płacowe w cyberbezpieczeństwie", "specjaliści ds. cyberbezpieczeństwa", "stanowiska analityków bezpieczeństwa", "Analiza rynku pracy w obszarze cyberbezpieczeństwa", "Trendy płacowe w cyberbezpieczeństwie"]
-cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.webp"
 coverAlt: "Kreskówka przedstawiająca analityka ds. cyberbezpieczeństwa pracującego przy komputerze, otoczonego ikonami kłódek i strumieniami danych, symbolizującymi znaczenie ochrony zasobów cyfrowych i informacji."
 coverCaption: "Kreskówka przedstawiająca analityka cyberbezpieczeństwa zapewniającego bezpieczeństwo cyfrowe, podkreślająca kluczową rolę, jaką odgrywają w ochronie organizacji przed cyberzagrożeniami."
 ---

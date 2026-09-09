@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-25
 description: "Erfahren Sie, wie Sie mit PowerShell Dateihashes unter Windows abrufen, einschließlich SHA256, MD5 und SHA1, mit schrittweisen Anweisungen und Beispielen."
 tags: ["Datei-Hashes", "PowerShell", "SHA256-Hash", "MD5-Hash", "SHA1-Hash", "Dateiintegrität", "Datenauthentifizierung", "Dateiprüfung", "Hashing-Algorithmen", "Windows-Betriebssystem", "Skriptsprache", "Kommandozeilen-Shell", "Datensicherheit", "digitale Forensik", "Cybersicherheit", "Hash-Berechnung", "Dateimanipulation", "Datenintegrität", "Authentizität der Akten", "Windows-Sicherheit", "Dateikennung", "Cyber-Abwehr", "Dateisicherheit", "datenschutz", "Datenüberprüfung", "Dateivalidierung", "Windows PowerShell", "Hash-Erzeugung", "Hash-Algorithmen", "Hash-Funktionen"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_file_with_a_lock_symbol.webp"
 coverAlt: "Eine Cartoon-Illustration, die eine Datei mit einem Schlosssymbol und einer Lupe zeigt, was für die Überprüfung von Datei-Hashes und Sicherheit steht."
 coverCaption: ""
 ---

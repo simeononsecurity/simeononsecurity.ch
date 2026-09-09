@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer over het belang van risicobeheer bij cyberbeveiliging en hoe u een programma opstelt dat werkt voor uw bedrijf."
 tags: ["cyberbeveiliging", "risicobeheer", "veiligheidspositie", "risicobeoordeling", "risicobeperking", "risicobewaking", "bedreigingen", "kwetsbaarheden", "informatiebeveiliging", "gegevensbescherming", "compliance", "cyberaanvallen", "besluitvorming", "kostenbesparing", "bedrijfscontinuïteit", "risicoanalyse", "risico-identificatie", "risicobeheersing", "risicobehandeling", "voortdurende verbetering"]
-cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.png"
+cover: "/img/cover/A_shield_with_a_lock_and_key_symbolizes_cybersecurity.webp"
 coverAlt: "Een schild met een slot en sleutel symboliseert cybersecurity, met een vergrootglas erboven voor risicobeheer."
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "了解 AWS、Azure 和 Google Cloud Platform 的顶级云安全功能和认证，为您的企业选择最佳的安全云解决方案。"
 genre: ["云计算", "云安全", "AWS", "天蓝色", "谷歌云计算平台", "数据安全", "加密", "身份和访问管理", "合规性", "威胁检测"]
 tags: ["安全云解决方案", "AWS vs. Azure vs. Google 云平台", "云安全功能", "数据加密", "身份和访问管理", "合规认证", "威胁检测", "数据保护", "网络安全", "云计算", "云平台", "数据泄露", "安全风险", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "定价比较", "选择正确的云计算解决方案", "业务安全需求", "扩展性", "灵活性", "成本效益", "安全措施", "云提供商", "加密协议", "合规要求", "网络端口控制", "防火墙", "入侵检测系统", "静态数据", "在途日期", "安全访问", "安全的环境", "安全云计算"]
-cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png"
+cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp"
 coverAlt: "这是一幅象征艺术风格的插图，描绘了一朵带锁的云，象征着安全的云解决方案。"
 coverCaption: "在云中确保您的业务安全"
 ---

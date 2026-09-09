@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-21
 description: "Aprenda a realizar con éxito la transición de TI a ciberseguridad con nuestra completa guía paso a paso, que le garantizará el éxito en el cambio de carrera."
 tags: ["transición", "De la informática a la ciberseguridad", "cambio de carrera", "guía paso a paso", "educación", "experiencia", "competencias", "certificaciones", "especialización", "redes profesionales", "comunidad de ciberseguridad", "escasez de talentos", "gran demanda", "tendencias del sector", "experiencia práctica", "competencias técnicas", "competencias no técnicas", "certificaciones de ciberseguridad", "cursos en línea", "educación en ciberseguridad", "transición a la ciberseguridad", "Transición profesional en TI", "competencias en ciberseguridad", "mercado laboral de la ciberseguridad", "formación en ciberseguridad", "especialización en ciberseguridad", "profesionales de la ciberseguridad", "industria de la ciberseguridad", "Competencias informáticas en ciberseguridad", "trayectorias profesionales en ciberseguridad", "oportunidades de empleo en ciberseguridad"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
 coverAlt: "Una ilustración de dibujos animados que representa a una persona que pasa del mundo de la informática al de la ciberseguridad."
 coverCaption: "Mejora tu carrera profesional: Acepte el reto de la ciberseguridad"
 ---

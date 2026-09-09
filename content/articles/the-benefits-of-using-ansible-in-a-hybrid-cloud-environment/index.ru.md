@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Узнайте, как возможности автоматизации Ansible позволяют оптимизировать, защитить и оптимизировать гибридные облачные среды для повышения производительности."
 tags: ["Оперативная информация", "CICD", "масштабируемость", "производительность", "безопасность", "соответствие", "интеграция", "Amazon Web Services", "Microsoft Azure", "Облако Google", "Ansible Tower", "Ansible Galaxy", "Ansible Vault", "экономия средств", "Эффективность ИТ"]
-cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.png"
+cover: "/img/cover/A_vibrant_3D_animated_illustration_of_a_cloud_with_gears.webp"
 coverAlt: "Яркая 3D-анимационная иллюстрация облака с шестеренками внутри, представляющая гибридную облачную среду и демонстрирующая эффективное и автоматизированное управление облачной инфраструктурой."
 coverCaption: ""
 ---

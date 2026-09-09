@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["लिनक्स अद्यतन", "उबंटू", "डेबियन", "Centos", "आरएचईएल", "ऑफ़लाइन अद्यतन", "स्थानीय भंडार", "कैश", "सर्वर सेटअप", "क्लाइंट सेटअप", "apt-दर्पण", "demirror", "createrepo", "apt-cacher-एनजी", "यम-क्रोन", "लिनक्स सिस्टम अपडेट", "ऑफ़लाइन पैकेज अद्यतन", "ऑफ़लाइन सॉफ़्टवेयर अद्यतन", "स्थानीय पैकेज भंडार", "स्थानीय पैकेज कैश", "ऑफ़लाइन लिनक्स अद्यतन", "ऑफ़लाइन अद्यतनों को संभालना", "ऑफ़लाइन अद्यतन तरीके", "ऑफ़लाइन सिस्टम रखरखाव", "लिनक्स सर्वर अपडेट", "लिनक्स क्लाइंट अपडेट", "ऑफ़लाइन सॉफ्टवेयर प्रबंधन", "ऑफ़लाइन पैकेज प्रबंधन", "अद्यतन रणनीतियों", "लिनक्स सुरक्षा अद्यतन"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "एक कार्टून चित्रण एक सर्वर और कई क्लाइंट डिवाइसों को ऑफ़लाइन अद्यतनों का आदान-प्रदान करते हुए दर्शाता है।"
 coverCaption: ""
 ---

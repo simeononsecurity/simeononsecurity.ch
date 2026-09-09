@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți principalele caracteristici și certificări de securitate în cloud de la AWS, Azure și Google Cloud Platform pentru a alege cea mai bună soluție de cloud securizată pentru afacerea dumneavoastră."
 genre: ["Cloud Computing", "Securitatea în cloud", "AWS", "Azure", "Platforma Google Cloud", "Securitatea datelor", "Criptare", "Managementul identității și al accesului", "Conformitate", "Detectarea amenințărilor"]
 tags: ["soluții cloud securizate", "AWS vs. Azure vs. Google Cloud Platform", "caracteristici de securitate în cloud", "criptarea datelor", "gestionarea identității și a accesului", "certificări de conformitate", "detectarea amenințărilor", "protecția datelor", "securitatea rețelei", "cloud computing", "platforme cloud", "încălcări ale datelor", "riscuri de securitate", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "compararea prețurilor", "alegerea soluției cloud potrivite", "nevoile de securitate ale întreprinderilor", "scalabilitate", "flexibilitate", "raportul cost-eficacitate", "măsuri de securitate", "furnizori de cloud", "protocoale de criptare", "cerințe de conformitate", "controlul porturilor de rețea", "firewall-uri", "sisteme de detectare a intruziunilor", "date în repaus", "data în tranzit", "acces securizat", "mediu securizat", "cloud computing securizat"]
-cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png"
+cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp"
 coverAlt: "O ilustrație simbolică în stil artistic care reprezintă un nor cu un lacăt pe el, simbolizând soluțiile de cloud securizate."
 coverCaption: "Asigurați-vă afacerea în cloud"
 ---

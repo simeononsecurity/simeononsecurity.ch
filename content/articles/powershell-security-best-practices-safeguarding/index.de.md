@@ -6,7 +6,7 @@ draft: false
 description: "Lernen Sie die 10 wichtigsten PowerShell-Sicherheits-Best-Practices zum Schutz Ihrer Skripts, Kennwörter und sensiblen Informationen kennen. Verbessern Sie die Sicherheit Ihrer PowerShell-Umgebung und schützen Sie sich vor unbefugtem Zugriff und potenziellen Sicherheitsverletzungen."
 genre: ["Bewährte PowerShell-Sicherheitspraktiken", "Skripting-Sicherheit", "Passwortsicherheit", "IT-Sicherheit", "Cybersecurity", "Windows-Verwaltung", "Automatisierung", "Sichere Kodierung", "Sicherheit im Netz", "Datenschutz"]
 tags: ["Bewährte PowerShell-Sicherheitspraktiken", "Bewährte Praktiken für die PowerShell-Kennwortsicherheit", "bewährte Praktiken für die Sicherung und Verwendung von PowerShell", "Richtlinie für die Skriptausführung", "Code-Signierung", "Benutzerzugangskontrolle", "Passwortsicherheit", "hart kodierte Passwörter", "sichere Passwörter", "Passwort-Rotationsrichtlinien", "Absicherung von PowerShell-Skripten", "Schützen von Kennwörtern in PowerShell", "Verwaltung der Skriptausführung in PowerShell", "Sicherung sensibler Informationen in PowerShell", "Verbesserung der PowerShell-Sicherheit"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "Eine symbolische Abbildung, die ein Schild zum Schutz eines PowerShell-Skripts zeigt."
 coverCaption: "Sichern Sie Ihre PowerShell-Skripts mit effektiven Sicherheitsverfahren."
 ---

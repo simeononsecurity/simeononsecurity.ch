@@ -6,7 +6,7 @@ draft: false
 description: "Porównanie certyfikatów Security+ i SSCP w celu określenia najlepszego wyboru dla specjalistów ds. cyberbezpieczeństwa poszukujących możliwości zatrudnienia, uznania w branży i kompleksowego zakresu wiedzy."
 genre: ["Cyberbezpieczeństwo", "Bezpieczeństwo informacji", "Porównanie certyfikatów", "Kariera w IT", "Uznanie branży", "Oferty pracy", "Bezpieczeństwo sieci", "Bezpieczeństwo systemów", "CompTIA"]
 tags: ["bezpieczeństwo plus", "SSCP", "certyfikacja cyberbezpieczeństwa", "porównanie certyfikatów", "oferty pracy", "uznanie branży", "zakres wiedzy", "CompTIA", "bezpieczeństwo sieci", "bezpieczeństwo systemów", "bezpieczeństwo informacji", "Kariera w IT", "specjaliści ds. cyberbezpieczeństwa", "cyberbezpieczeństwo praca", "certyfikaty cyberbezpieczeństwa", "branża cyberbezpieczeństwa", "wiedza z zakresu cyberbezpieczeństwa", "umiejętności w zakresie cyberbezpieczeństwa", "podstawy cyberbezpieczeństwa", "Certyfikaty IT", "certyfikaty neutralne dla dostawców", "analitycy bezpieczeństwa", "konsultanci ds. bezpieczeństwa", "administratorzy bezpieczeństwa", "analitycy bezpieczeństwa systemów", "inżynierowie bezpieczeństwa sieci", "Audytorzy IT", "certyfikaty bezpieczeństwa", "Bezpieczeństwo IT", "edukacja w zakresie cyberbezpieczeństwa"]
-cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png"
+cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp"
 coverAlt: "Symboliczna grafika przedstawiająca dwie tarcze stojące naprzeciw siebie w dynamicznej pozie, reprezentujące porównanie między dwoma certyfikatami."
 coverCaption: "Wybór odpowiedniego certyfikatu dla ścieżki kariery w zakresie cyberbezpieczeństwa."
 ---

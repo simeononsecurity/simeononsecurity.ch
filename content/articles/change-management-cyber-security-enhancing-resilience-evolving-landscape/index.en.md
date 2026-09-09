@@ -6,7 +6,7 @@ draft: false
 description: "Discover the importance of change management in cyber security and learn how to enhance resilience in today's evolving threat landscape."
 genre: ["Cyber Security", "Change Management", "Resilience", "IT Infrastructure", "Risk Assessment", "Compliance", "Incident Response", "Best Practices", "ITIL", "Security Controls"]
 tags: ["Cyber security", "Change management", "Resilience", "Digital assets", "Security incidents", "Compliance", "IT infrastructure", "Risk assessment", "Testing and validation", "Communication", "Collaboration", "Documentation", "Best practices", "ITIL", "Security controls", "Threat landscape", "Business operations", "System disruptions", "Data breaches", "Vulnerabilities", "Regulatory requirements", "Impact assessments", "Training and awareness", "Resource use", "Continuous enhancement", "IT systems", "IT policies", "IT procedures", "Controlled environment", "Stakeholder engagement"]
-cover: "/img/cover/A_team_of_professionals_working_together_to_bu.png"
+cover: "/img/cover/A_team_of_professionals_working_together_to_bu.webp"
 coverAlt: "A team of professionals working together to build a shield around a network server, symbolizing protection and resilience against cyber threats."
 coverCaption: "Building Resilient Security: Safeguarding Your Digital Assets"
 ---

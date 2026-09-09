@@ -6,7 +6,7 @@ draft: false
 description: "Learn the best practices for placing access points to optimize wireless connectivity, minimize interference, and ensure smooth performance for your network."
 genre: ["Technology", "Networking", "Wireless Networks", "Access Points", "Wi-Fi Installation", "Network Optimization", "Home Networking", "Wireless Connectivity", "Internet of Things", "Networking Solutions"]
 tags: ["access points", "wireless interference", "wireless radios", "omnidirectional", "directional", "parabolic", "placement guidelines", "rectangle-style home", "multi-story home", "best practices", "network performance", "wireless network", "smooth connectivity", "site survey", "physical obstructions", "electromagnetic interference", "radio frequency interference", "WiFi installation", "network optimization", "coverage", "signal strength", "channel selection", "interference mitigation", "centralized placement", "strategic placement", "vertical coverage", "power over Ethernet", "site survey", "manufacturer guidelines"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_person.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_person.webp"
 coverAlt: "A cartoon illustration depicting a person placing access points in strategic locations for optimal wireless coverage and performance."
 coverCaption: "Unlock the Full Potential of Your Wi-Fi Network with Proper Access Point Placement"
 ---

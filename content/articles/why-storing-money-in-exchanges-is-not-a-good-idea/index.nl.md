@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dit artikel bespreekt de gevaren van het opslaan van cryptocurrency op beurzen, legt uit waarom het gelijk staat aan het opslaan van geld in een matras, en belicht de voordelen van het gebruik van een hardware wallet voor veilige opslag."
 tags: ["Opslag van cryptocurrency", "Wisselkoersrisico's", "Hardware portefeuille", "Cyberbeveiliging", "Investeren in crypto", "Veilige opslag", "Particuliere sleutels", "Draagbare portefeuilles", "Regelgeving van de overheid"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Een hardware wallet met een hangslot en ketting eromheen, als symbool voor de veiligheid van het opslaan van cryptocurrency in een hardware wallet."
 coverCaption: ""
 ---

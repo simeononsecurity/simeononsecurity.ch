@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-27
 description: "Erfahren Sie, wie Sie ein sicheres Wi-Fi-Netzwerk einrichten, um Ihre Daten zu schützen und ein sicheres Online-Erlebnis zu gewährleisten."
 tags: ["sicheres Wi-Fi-Netzwerk", "Wi-Fi-Sicherheit", "Netzwerkverschlüsselung", "Wi-Fi-Passwort", "Router-Firmware-Updates", "Firewall-Schutz", "remote management disable", "Standard-Router-Anmeldung", "MAC-Adressfilterung", "disable WPS", "Gastnetzwerk", "Netzwerkaktivitäten überwachen", "Online-Sicherheit", "datenschutz", "Datenschutz im Netz", "Cybersicherheit", "drahtloses Netzwerk", "Internetsicherheit", "Netzsicherheitsmaßnahmen", "Netzwerkverwundbarkeit"]
-cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.png"
+cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
 coverAlt: "Ein Schild, das ein Wi-Fi-Signal vor Hackern schützt."
 coverCaption: ""
 ---

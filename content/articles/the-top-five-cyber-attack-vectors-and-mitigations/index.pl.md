@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić siebie i swoją firmę przed najczęstszymi wektorami cyberataków, w tym socjotechniką, złośliwym oprogramowaniem, atakami typu denial-of-service, atakami na hasła i atakami na aplikacje internetowe."
 tags: ["cybersecurity", "cyberataki", "inżynieria społeczna", "złośliwe oprogramowanie", "denial-of-service", "ataki na hasła", "ataki na aplikacje internetowe", "świadomość bezpieczeństwa", "filtry antyspamowe", "uwierzytelnianie wieloczynnikowe", "oprogramowanie antywirusowe", "firewalle", "botnety", "CDN-y", "usługi anty-DDoS", "wydajność sieci", "podatności", "ochrona", "ograniczanie ryzyka", "bezpieczeństwo informacji"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_shield.webp"
 coverAlt: "Kreskówkowa ilustracja osoby trzymającej tarczę i stojącej przed komputerem z różnymi wektorami ataku idącymi w jej kierunku."
 coverCaption: ""
 ---

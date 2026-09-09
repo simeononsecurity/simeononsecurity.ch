@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les différentes carrières en cybersécurité, les perspectives d'emploi et les avantages offerts par ce domaine en pleine expansion."
 tags: ["cybersécurité", "parcours professionnels", "perspectives d'emploi", "analystes de la sécurité de l'information", "ingénieurs en sécurité", "architectes de la sécurité", "testeurs de sécurité", "analystes médico-légaux", "les intervenants en cas d'incident", "consultants en sécurité", "cybermenaces", "technologie", "protection des données", "vie privée", "développement professionnel", "certifications", "les réglementations gouvernementales", "NIST", "CISA", "carrières en cybersécurité"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Un professionnel de la cybersécurité protège les systèmes numériques à l'aide d'un bouclier et d'un cadenas."
 coverCaption: ""
 ---

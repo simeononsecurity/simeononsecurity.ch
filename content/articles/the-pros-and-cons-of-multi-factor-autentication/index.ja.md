@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "多要素認証（MFA）の利点と欠点を探り、ビジネスセキュリティに適したソリューションの選び方を学びます。"
 tags: ["多要素認証", "エムエフエー", "ビジネスセキュリティ", "サイバーセキュリティ", "データ保護", "規制遵守", "ユーザーエクスペリエンス", "フィッシング", "ブルートフォース攻撃", "技術的な複雑さ", "ユーザーレジスタンス", "スマートフォン", "トークン", "スマートカード", "フィンガープリント", "顔認識", "音声認識", "PCI DSS", "ヒパア", "情報漏えい"]
-cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.png"
+cover: "/img/cover/A_cartoon_lock_with_two-factor_authentication_symbols.webp"
 coverAlt: "スマートフォンや鍵のような二要素認証のシンボルが描かれた漫画の錠前です。"
 coverCaption: ""
 ---

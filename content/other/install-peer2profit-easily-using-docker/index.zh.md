@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "了解如何安装 Peer 2 Profit，并开始通过共享您的互联网连接用于 VPN 和搜刮目的来赚取被动收入，每个 IP 节点的平均月收入为 1 美元。"
 tags: ["同行 2 利润", "被动收入", "共享互联网", "赚钱", "虚拟专用网", "刮削", "网赚", "赔付选项", "汇票", "BTC", "LTC", "MATIC", "Docker 容器", "安装教程", "网络连接", "收益", "赚钱", "网赚", "互联网货币化", "在家赚钱", "网络共享", "网赚", "分享所得", "轻松赚取", "提高收益", "从虚拟专用网赚取", "刮赚", "从 Peer 2 Profit 赚取", "互联网货币化", "被动创收", "从网络共享中获利"]
-cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_laptop_connected_to_a_network.webp"
 coverAlt: "象征性的插图：一台笔记本电脑连接到一个由相互连接的节点组成的网络，代表了共享互联网以获取被动收入的概念。"
 coverCaption: ""
 ---

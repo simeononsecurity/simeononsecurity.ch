@@ -6,7 +6,7 @@ draft: false
 description: "Discover the different deployment and service models, infrastructure as code, and security implications in cloud computing. Gain insights into public, private, hybrid, and community clouds, SaaS, IaaS, PaaS, and DaaS, and harness the potential of automation, scalability, and network security measures."
 genre: ["Cloud Computing", "Infrastructure Concepts", "Deployment Models", "Service Models", "Infrastructure as Code", "Security Implications", "Elasticity", "Scalability", "Network Security", "Connectivity Options"]
 tags: ["cloud computing", "infrastructure concepts", "deployment models", "service models", "SaaS", "IaaS", "PaaS", "DaaS", "infrastructure as code", "automation", "orchestration", "connectivity options", "VPN", "private-direct connection", "multitenancy", "elasticity", "scalability", "security implications", "network security measures", "public cloud", "private cloud", "hybrid cloud", "community cloud", "software as a service", "infrastructure as a service", "platform as a service", "desktop as a service", "cloud security", "cloud networking"]
-cover: "/img/cover/A_symbolic_illustration_of_a_cloud_with_interc.png"
+cover: "/img/cover/A_symbolic_illustration_of_a_cloud_with_interc.webp"
 coverAlt: "A symbolic illustration of a cloud with interconnected devices and infrastructure"
 coverCaption: "Unlock the power of cloud computing and infrastructure concepts."
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-26
 description: "Scoprite i diversi casi d'uso di Flipper Zero, il gadget portatile definitivo per l'hacking dell'hardware, l'analisi delle comunicazioni wireless e le esigenze tecnologiche di tutti i giorni."
 tags: ["Flipper Zero", "dispositivo portatile", "hacking hardware", "ingegneria inversa", "analisi delle comunicazioni wireless", "controllo del dispositivo", "audit di sicurezza", "test di penetrazione", "compagno tecnologico di tutti i giorni", "open-source", "Bluetooth", "NFC", "RFID", "IR", "emulazione", "test di sicurezza", "Kali Linux", "display e-paper", "Codici QR", "automazione domestica", "vulnerabilità della sicurezza", "protocolli wireless", "estrazione del firmware", "lampeggiante", "debug", "sistemi di controllo degli accessi fisici", "sistemi di automazione domestica intelligente", "emulazione del dispositivo", "vulnerabilità del sistema wireless", "contromisure", "gadget compatto"]
-cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.png"
+cover: "/img/cover/A_colorful_illustration_of_a_Flipper_Zero_device.webp"
 coverAlt: "Un'illustrazione colorata di un dispositivo Flipper Zero con vari strumenti e segnali wireless intorno, a simboleggiare la sua versatilità e le sue capacità"
 coverCaption: ""
 ---

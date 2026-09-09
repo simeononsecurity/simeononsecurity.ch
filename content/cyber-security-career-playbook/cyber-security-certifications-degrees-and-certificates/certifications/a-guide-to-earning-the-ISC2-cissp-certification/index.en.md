@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the steps to prepare for and pass the CISSP exam, a prestigious certification for information security professionals."
 tags: ["CISSP certification", "information security", "exam preparation", "study plan", "practice exams", "cybersecurity", "professional development", "certification exam", "ISC2", "career opportunities", "security architecture", "network security", "access control", "risk management", "encryption", "security operations", "physical security", "business continuity", "disaster recovery", "compliance", "CISSP exam tips", "CISSP study materials", "CISSP eligibility", "CISSP exam format", "CISSP practice exams", "CISSP registration", "information security certification", "security professional certification", "security management", "security assessment", "software security"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "A cartoon image of a person holding a CISSP certificate, with a thought bubble showing different information security topics like security architecture, access control, encryption, and network security."
 coverCaption: ""
 canonical: "https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/"

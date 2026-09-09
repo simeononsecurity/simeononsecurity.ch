@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj funkcje usług DHCP, DNS i NTP, poznaj architekturę sieci korporacyjnych i centrów danych oraz poznaj koncepcje chmury i opcje łączności w celu zapewnienia płynnej komunikacji i zarządzania danymi."
 genre: ["Technologia", "Tworzenie sieci", "Łączność", "Wymiana danych", "Architektura sieci", "Przetwarzanie w chmurze", "Usługi sieciowe", "DNS", "DHCP", "NTP"]
 tags: ["usługi sieciowe", "opcje łączności", "architektura", "DHCP", "DNS", "NTP", "sieć korporacyjna", "sieć centrum danych", "koncepcje chmury", "łączność", "Architektura trójwarstwowa", "sieci definiowane programowo", "Architektura kręgosłupa i liści", "przepływy ruchu", "oddział", "Lokalne centrum danych", "kolokacja", "sieci pamięci masowej", "Fibre Channel over Ethernet", "iSCSI", "odkrywanie DHCP", "Zrozumienie DNS", "synchronizacja czasu w sieci", "Architektura sieci korporacyjnej", "Opcje łączności w chmurze", "Trójwarstwowa architektura sieci", "zalety sieci definiowanych programowo", "Architektura sieci typu spine i leaf", "łączność w chmurze dla oddziałów", "rodzaje sieci pamięci masowej"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca różne komponenty sieci i opcje łączności w chmurze"
 coverCaption: "Odblokuj moc usług sieciowych i łączności w chmurze"
 ---

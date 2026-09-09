@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj zalety SSH, dowiedz się, jak generować klucze SSH, łączyć się ze zdalnymi serwerami, bezpiecznie przesyłać pliki i dostosowywać konfiguracje SSH."
 tags: ["SSH", "Secure Shell", "zdalny dostęp", "zdalne zarządzanie", "szyfrowanie", "uwierzytelnianie", "integralność danych", "przenośność", "transfer plików", "SCP", "Klucze SSH", "Konfiguracja SSH", "protokół sieciowy", "zdalne wykonywanie poleceń", "OpenSSH", "uwierzytelnianie dwuskładnikowe", "kryptografia klucza publicznego", "Adres IP", "nazwa domeny", "terminal", "wiersz polecenia", "bezpieczeństwo", "administratorzy systemu", "deweloperzy", "wszechstronność", "metody uwierzytelniania", "funkcje skrótu", "tunelowanie", "opcje niestandardowe"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "Rysunkowa ilustracja osoby bezpiecznie łączącej się z serwerem za pomocą SSH."
 coverCaption: ""
 ---

@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Rămâneți la curent cu cele mai recente clasamente din lumea CTF-urilor și provocărilor cu Jurnalul de clasare CTF al SimeonOnSecurity"
 tags: ["Clasamentul CTF", "Captureaza steagul", "Competiție", "Provocări", "LockHeed Martin Cyber Grand Challenge", "Liga Națională Cyber", "Cipher Tech Challenge", "Performanţă", "Plasarea", "Echipă", "Individual", "2020", "2021", "Securitate cibernetică", "Apărare cibernetică", "Evenimente CTF", "Competiții de hacking", "Securitatea informațiilor", "Cercetare de securitate"]
-cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.png"
+cover: "/img/cover/A_cartoon_trophy_with_a_1st_place_ribbon_surrounded_by_comp.webp"
 coverAlt: "Un trofeu de desene animate cu o panglică pe locul 1, înconjurată de ecrane de computer și simboluri de securitate cibernetică, cum ar fi un lacăt, un scut și simboluri de lacăt și cheie."
 coverCaption: ""
 ---

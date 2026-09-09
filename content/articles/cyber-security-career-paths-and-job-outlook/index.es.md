@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore las distintas trayectorias profesionales en ciberseguridad, las perspectivas laborales y las ventajas de este campo en rápido crecimiento."
 tags: ["ciberseguridad", "trayectorias profesionales", "perspectivas de empleo", "analistas de seguridad de la información", "ingenieros de seguridad", "arquitectos de seguridad", "comprobadores de seguridad", "analistas forenses", "personal de respuesta a incidentes", "consultores de seguridad", "amenazas cibernéticas", "tecnología", "protección de datos", "privacidad", "desarrollo profesional", "certificaciones", "normativa gubernamental", "NIST", "CISA", "carreras en ciberseguridad"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Un profesional de la ciberseguridad protegiendo los sistemas digitales con un escudo y un candado."
 coverCaption: ""
 ---

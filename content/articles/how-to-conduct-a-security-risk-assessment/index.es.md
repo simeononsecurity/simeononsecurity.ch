@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a realizar una evaluación exhaustiva de los riesgos de seguridad para proteger la información y los activos confidenciales de su organización."
 tags: ["Evaluación de los riesgos de seguridad", "Ciberseguridad", "Evaluación de la vulnerabilidad", "Identificación de amenazas", "Gestión de riesgos", "Estrategias de mitigación", "Seguridad física", "Seguridad de la información", "Protección de activos", "Protección de datos", "Priorización de riesgos", "Protocolos de seguridad", "Sistemas informáticos", "Formación de los empleados", "Revisión de la evaluación de riesgos", "Amenazas internas", "Amenazas exteriores", "Amenazas a la seguridad", "Prevención de la violación de datos", "Análisis de riesgos"]
-cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.png"
+cover: "/img/cover/A_cartoon_shield_protecting_a_laptop_and_physical_assets.webp"
 coverAlt: "Un escudo de dibujos animados que protege un ordenador portátil y los activos físicos con una lupa que identifica los riesgos."
 coverCaption: ""
 ---

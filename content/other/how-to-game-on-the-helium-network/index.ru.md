@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Узнайте, как обмануть сеть Helium, используя уязвимости с помощью MiddleMan и Chirp Stack Packet Multiplexer, а также о рисках и последствиях этого."
 tags: ["Гелиевая сеть", "Доказательство покрытия", "Посредник", "Мультиплексор пакетов Chirp Stack", "игры", "использование уязвимостей", "Сеть LoRaWAN", "криптовалюта", "блокчейн", "децентрализованная сеть", "горячие точки", "подделка", "мошенничество", "незаконная деятельность", "штрафы", "целостность сети", "награды", "злоумышленники", "сетевая безопасность", "законные хосты"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "Мультяшное изображение группы людей, использующих гелиевый шар, с изображением шлюза LoRaWAN и мультиплексора пакетов MiddleMan или Chirp Stack на заднем плане."
 coverCaption: ""
 ---

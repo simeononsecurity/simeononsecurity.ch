@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Scopri come aggiornare il firmware di Ubiquiti Unifi UDM Pro e UDM SE offline tramite SSH della riga di comando per prestazioni e sicurezza ottimali."
 tags: ["Aggiornamento del firmware Ubiquiti", "UDM Pro", "UDM SE", "aggiornamento del firmware offline", "SSH della riga di comando", "gestione della rete", "sicurezza della rete", "aggiornamento del firmware", "Connessione SSH", "file firmware", "Controller di rete UniFi", "correzioni di bug", "miglioramenti delle prestazioni", "patch di sicurezza", "rete", "dispositivi di rete", "tecnologia", "gestione IT", "processo di aggiornamento del firmware", "ottimizzazione della rete", "Aggiornamento del firmware di Ubiquiti Networks", "Aggiornamento firmware UDM Pro", "Aggiornamento firmware UDM SE", "processo di aggiornamento del firmware offline", "Aggiornamento del firmware SSH", "gestione dei dispositivi di rete", "aggiornamenti di sicurezza della rete", "strategie di aggiornamento del firmware", "gestione del firmware offline", "ottimizzazione delle prestazioni della rete", "gestione delle patch di sicurezza", "aggiornamenti della tecnologia di rete"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Un'illustrazione colorata raffigurante un computer connesso a un router tramite SSH che simboleggia il processo di aggiornamento del firmware offline per i dispositivi Ubiquiti Unifi UDM Pro e UDM SE."
 coverCaption: ""
 ---

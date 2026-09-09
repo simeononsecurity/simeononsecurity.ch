@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "サイバー脅威からビジネスを守るために、最適なサイバーセキュリティ保険の選び方をご紹介します。"
 tags: ["サイバーセキュリティ保険", "データ保護", "リスクマネージメント", "サイバーセキュリティ政策", "データ機密保護", "サイバー攻撃", "サイバー保険", "ネットワークセキュリティ", "事業継続性", "保険適用", "情報漏えい", "保険証券", "ITセキュリティ", "インシデントレスポンス", "リスクアセスメント", "サイバー犯罪", "金融保護", "サイバー脅威", "保険金請求", "えいぎょうほけん"]
-cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_business_owner_holding_a_shield.webp"
 coverAlt: "サイバーセキュリティ保険と書かれた盾を持ち、サイバー脅威を遮断する企業経営者の漫画画像です。"
 coverCaption: ""
 ---

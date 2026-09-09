@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les bases du chiffrement et comment l'utiliser pour sécuriser vos données sensibles grâce à ce guide du chiffrement destiné aux débutants."
 tags: ["chiffrement", "protection des données", "cybersécurité", "vie privée", "technologie", "sécurité en ligne", "chiffrement symétrique", "chiffrement asymétrique", "sécurité", "internet privacy", "cryptographie", "messagerie cryptée", "sécurité numérique", "confidentialité des données", "données cryptées", "logiciel de cryptage", "cryptage des données", "sécurité informatique", "sécurité des réseaux", "protection par mot de passe"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Un cadenas de dessin animé avec un trou de serrure, représentant la protection des données par le cryptage."
 coverCaption: ""
 ---

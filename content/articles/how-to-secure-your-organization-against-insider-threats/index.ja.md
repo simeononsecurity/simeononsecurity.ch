@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "機密データやシステムにアクセスできる従業員、請負業者、パートナーによるインサイダー脅威から組織を守るためのベストプラクティスを学びます。"
 tags: ["内部脅威", "サイバーセキュリティ", "データ保護", "社員教育", "テクニカルコントロール", "アクセス制御", "政策展開", "データ損失防止", "インシデントレスポンス", "ITセキュリティ", "リスクマネージメント", "特権的アクセス", "セキュリティ意識", "サイバー攻撃", "ネットワークセキュリティ", "情報セキュリティ", "脅威検出", "リスクアセスメント", "安全保護方針", "サイバー犯罪"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "鍵を持っている社員が機密データの入った扉の鍵を開け、虫眼鏡を持った別の社員が不審そうに見ている漫画画像 "
 coverCaption: ""
 ---

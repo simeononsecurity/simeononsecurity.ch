@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite le competenze essenziali necessarie per avere successo nel campo della cybersecurity, in continua evoluzione, e imparate a conoscere la crescente importanza della cybersecurity nel settore tecnologico."
 tags: ["sicurezza informatica", "il futuro della cybersicurezza", "competenze per il successo", "pensiero critico", "comunicazione", "competenze tecniche", "gestione del rischio", "sviluppo professionale", "L'intelligenza artificiale nella sicurezza informatica", "sicurezza del cloud", "minacce informatiche", "criminalità informatica", "sicurezza delle informazioni", "professionisti della cybersicurezza", "data privacy", "tecnologia", "sicurezza digitale", "difesa informatica", "attacchi informatici", "Sicurezza informatica"]
-cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_in_a_superhero_suit.webp"
 coverAlt: "Un'immagine a fumetti di una persona con una tuta da supereroe che tiene in mano uno scudo con la scritta Cybersecurity, con un paesaggio urbano e schermi di computer sullo sfondo."
 coverCaption: ""
 ---

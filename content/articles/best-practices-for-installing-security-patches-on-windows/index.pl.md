@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zainstalować zbiorcze poprawki zabezpieczeń w systemie Windows i postępować zgodnie z najlepszymi praktykami, aby zabezpieczyć system przed cyberatakami."
 tags: ["Windows", "poprawki zabezpieczeń", "cyberbezpieczeństwo", "bezpieczeństwo systemu", "Microsoft", "zbiorcze poprawki", "zarządzanie poprawkami", "kopia zapasowa danych", "Spectre Meltdown", "szyfrowanie", "luki w zabezpieczeniach systemu", "aktualizacje systemu", "wdrażanie poprawek", "środowiska nieprodukcyjne", "konfiguracja systemu", "Bezpieczeństwo IT", "system zarządzania poprawkami", "skanowanie luk w zabezpieczeniach", "uwagi do wydania", "konserwacja systemu"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Kreskówkowy obraz tarczy z logo Windows chronionej zamkiem"
 coverCaption: ""
 ---

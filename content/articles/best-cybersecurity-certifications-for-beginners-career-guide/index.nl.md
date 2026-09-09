@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de top cyberbeveiligingscertificeringen voor beginners om je carrière een kickstart te geven en de nodige vaardigheden te verwerven om uit te blinken in het vakgebied."
 genre: ["Cyberbeveiligingscertificaten", "Handleiding voor beginners", "IT-carrières", "Informatiebeveiliging", "Netwerkbeveiliging", "Ethisch hacken", "Penetratietesten", "Instapbanen"]
 tags: ["cyberbeveiligingscertificeringen", "beginnersgids", "IT-carrières", "informatiebeveiliging", "netwerkbeveiliging", "ethisch hacken", "penetratietesten", "banen op instapniveau", "CompTIA A Plus", "CompTIA Netwerk Plus", "CompTIA Beveiliging Plus", "Gecertificeerd cyberveiligheidsanalist", "Gecertificeerd Ethisch Hacker", "veiligheidsanalist", "veiligheidsoperaties", "beveiligingsbeheerder", "junior penetratie tester", "specialist beveiligingsondersteuning", "beste certificaten voor beginners", "carrière in cyberbeveiliging", "cyberbeveiligingsvaardigheden", "netwerkbeginselen", "beveiligingsbeginselen", "beheer van kwetsbaarheden", "dreigingsanalyse", "ethische hacktechnieken", "veiligheidsmaatregelen", "cyberbeveiligingsindustrie", "functies op instapniveau", "praktijkervaring"]
-cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.png"
+cover: "/img/cover/A_symbolic_illustration_representing_a_lock_an.webp"
 coverAlt: "Een symbolische illustratie die een slot en schild voorstelt, als symbool voor cyberbeveiliging."
 coverCaption: "Ontketen uw potentieel: Beste certificaten voor een bloeiende carrière in cyberbeveiliging"
 ---

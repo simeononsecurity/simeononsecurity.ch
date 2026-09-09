@@ -5,7 +5,7 @@ toc: true
 date: 2023-07-02
 description: "了解有效实施 NICE 网络安全框架的关键步骤，加强组织对网络威胁的防御能力。"
 tags: ["NICE 网络安全框架", "网络防御", "实施最佳做法", "网络安全人员队伍", "技能差距分析", "培训计划", "监测和报告", "网络安全态势", "风险管理", "政府法规", "网络安全政策", "数据保护", "事件响应", "网络安全", "漏洞管理", "安全控制", "网络威胁情报", "网络安全指标", "持续改进", "行业基准", "网络复原力", "安全事件管理", "网络威胁状况", "网络安全治理", "网络安全监督", "安全供应", "数据分类", "合规要求", "网络安全认证", "网络安全意识培训"]
-cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.png"
+cover: "/img/cover/A_shield-wielding_superhero_protecting_a_network_infrastruc.webp"
 coverAlt: "一个手持盾牌的超级英雄，保护网络基础设施免受网络威胁。"
 coverCaption: "防御、保护、安全：利用 NICE 框架加强网络防御"
 ---

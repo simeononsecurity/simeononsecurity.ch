@@ -6,7 +6,7 @@ draft: false
 description: "プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。"
 genre: ["オートメーション", "インフラ管理", "コンフィギュレーション管理", "デブオプス", "ITオペレーション", "オープンソース", "ワークフロー管理", "スケーラビリティ", "コラボレーション", "Ansibleツール"]
 tags: ["アンシブル", "オートメーション", "アンシブル・タワー", "Ansibleセマフォ", "プレーンAnsible", "インフラ管理", "コンフィギュレーション管理", "デブオプス", "ITオペレーション", "オープンソース", "ワークフロー管理", "スケーラビリティ", "コラボレーション", "プレイブック", "ヤムル", "仕事のスケジューリング", "リレーショナルアクセス制御", "GUI", "バージョン管理の統合", "べき等実行", "エージェントレス・アーキテクチャ", "Ansibleワークフロー", "エンタープライズグレードの機能", "セルフホスト・デプロイメント", "クラウドベースの展開", "ライセンス", "インフラ管理ツール", "オートメーション・プラットフォーム", "ワークフロー管理システム", "DevOpsツール", "IT運用管理"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "Ansibleによる自動化とインフラ管理を象徴する、相互に接続された歯車を示すシンボル図"
 coverCaption: "効率的なインフラ管理のためのAnsibleの可能性を引き出す"
 ---

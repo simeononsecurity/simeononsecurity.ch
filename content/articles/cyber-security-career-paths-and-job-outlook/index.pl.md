@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj różne ścieżki kariery w obszarze cyberbezpieczeństwa, perspektywy zatrudnienia i korzyści w tej szybko rozwijającej się dziedzinie."
 tags: ["cyberbezpieczeństwo", "ścieżki kariery", "Perspektywy zatrudnienia", "analitycy bezpieczeństwa informacji", "inżynierowie bezpieczeństwa", "architekci bezpieczeństwa", "testerzy bezpieczeństwa", "analitycy kryminalistyczni", "osoby reagujące na incydenty", "konsultanci ds. bezpieczeństwa", "cyberzagrożenia", "technologia", "ochrona danych", "prywatność", "rozwój zawodowy", "certyfikaty", "regulacje rządowe", "NIST", "CISA", "kariery w cyberbezpieczeństwie"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Specjalista ds. cyberbezpieczeństwa chroniący systemy cyfrowe za pomocą tarczy i blokady."
 coverCaption: ""
 ---

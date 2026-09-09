@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "Una guida completa che spiega la cybersecurity in termini semplici, evidenziandone l'importanza, le pratiche di igiene della sicurezza personale e il ruolo dei professionisti della cybersecurity."
 tags: ["sicurezza informatica", "protezione digitale", "sicurezza personale", "minacce informatiche", "professionisti della cybersicurezza", "phishing", "aggiornamenti software", "password forti", "autenticazione a più fattori", "sicurezza online", "mondo digitale", "attacchi informatici", "sicurezza delle informazioni", "sicurezza in Internet", "protezione dei dati", "online privacy", "difesa informatica", "igiene informatica", "Consigli per la sicurezza online", "consapevolezza informatica", "educazione informatica", "prevenzione del crimine informatico", "resilienza informatica", "pratiche online sicure", "digital privacy", "Guida alla sicurezza informatica", "nozioni di base di cybersecurity", "consapevolezza della cybersicurezza", "Consigli per la sicurezza informatica", "Le migliori pratiche di cybersicurezza", "cybersecurity per principianti"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "Illustrazione a fumetti di un supereroe con scudo che protegge il mondo digitale da hacker e minacce informatiche."
 coverCaption: ""
 ---

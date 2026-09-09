@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe je een kosteneffectief, veilig thuislab kunt maken voor praktische IT-ervaring door te experimenteren met software, hardware en netwerkconcepten."
 tags: ["thuislab", "virtualisatie", "hardware", "software", "netwerken", "beveiliging", "leren", "testen", "IT-professional", "technologieliefhebber", "VMware", "Proxmox", "Hyper-V", "Linux", "Windows", "netwerkconfiguratie", "beheer van virtuele machines", "back-up en herstel", "cloudcomputing", "cyberbeveiliging"]
-cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.png"
+cover: "/img/cover/A_3D_animated_image_of_a_well-organized_home_lab_setup.webp"
 coverAlt: "Een 3D geanimeerde afbeelding van een goed georganiseerd thuislab, inclusief een serverrack, netwerkapparatuur en verschillende schermen met virtuele machines, netwerkkaarten en beveiligingsfuncties, allemaal in een gezellige thuisomgeving."
 coverCaption: ""
 ---

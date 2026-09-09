@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o znaczeniu bezpieczeństwa haseł i poznaj najlepsze praktyki zarządzania hasłami, aby chronić swoje dane osobowe i tożsamość online."
 tags: ["hasło bezpieczeństwa", "zarządzanie hasłami", "bezpieczeństwo w sieci", "zagrożenia cybernetyczne", "silne hasła", "uwierzytelnianie dwuskładnikowe", "menedżer haseł", "bezpieczeństwo danych", "kradzież tożsamości", "oszustwa phishingowe", "publiczne sieci Wi-Fi", "prywatność w sieci", "bezpieczeństwo w sieci", "bezpieczeństwo cyfrowe", "bezpieczeństwo internetu", "cybersecurity", "ochrona danych", "bezpieczeństwo konta", "konta internetowe", "ochrona online"]
-cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_and_key_being_protected.webp"
 coverAlt: "Kreskówkowy obrazek z zamkiem i kluczem chronionym przez tarczę, który ma reprezentować bezpieczeństwo i ochronę hasła."
 coverCaption: ""
 ---

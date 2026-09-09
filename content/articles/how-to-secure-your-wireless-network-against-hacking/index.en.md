@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect your wireless network from hacking and eavesdropping with practical tips and security protocols."
 tags: ['Wireless network security', 'WPA2', 'WPA3', 'network encryption', 'strong passwords', 'firewall', 'remote management', 'WPS', 'default SSID', 'default password', 'router firmware update', 'software update', 'network range', 'data encryption', 'hacking prevention', 'security breach prevention', 'device security', 'wireless network protection', 'Wi-Fi security', 'network vulnerability']
-cover: "/img/cover/A_cartoon_image_of_a_lock_protecting_a_wireless_network.png"
+cover: "/img/cover/A_cartoon_image_of_a_lock_protecting_a_wireless_network.webp"
 coverAlt: "A cartoon image of a lock protecting a wireless network with a shield."
 coverCaption: ""
 ---

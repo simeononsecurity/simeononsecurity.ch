@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplorate i vari percorsi di carriera nella cybersecurity, le prospettive di lavoro e i vantaggi di questo settore in rapida crescita."
 tags: ["sicurezza informatica", "percorsi di carriera", "prospettive di lavoro", "analisti della sicurezza informatica", "ingegneri della sicurezza", "architetti della sicurezza", "tester di sicurezza", "analisti forensi", "soccorritori di incidenti", "consulenti per la sicurezza", "minacce informatiche", "tecnologia", "protezione dei dati", "privacy", "sviluppo professionale", "certificazioni", "regolamenti governativi", "NIST", "CISA", "carriere nella cybersecurity"]
-cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.png"
+cover: "/img/cover/A_cybersecurity_professional_protecting_digital_systems.webp"
 coverAlt: "Un professionista della cybersecurity che protegge i sistemi digitali con uno scudo e un lucchetto."
 coverCaption: ""
 ---

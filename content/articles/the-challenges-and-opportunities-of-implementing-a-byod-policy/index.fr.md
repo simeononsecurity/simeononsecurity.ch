@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Découvrez les avantages, les défis et les meilleures pratiques pour la mise en œuvre d'une politique BYOD dans votre organisation."
 tags: ["Politique BYOD", "Apportez votre propre appareil", "mobile device management", "la productivité", "risques de sécurité", "économies de coûts", "formation des employés", "les protocoles de sécurité", "cryptage des données", "l'assistance technique", "les tâches liées au travail", "satisfaction au travail", "politiques de l'entreprise", "essuyage à distance", "Logiciel MDM", "dispositifs pour les employés", "les mesures de sécurité", "utilisation des appareils", "conformité", "utilisation appropriée"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "Image caricaturale d'une personne jonglant avec divers appareils personnels (ordinateur portable, smartphone, tablette) et des objets liés au travail (documents, tasse à café)"
 coverCaption: ""
 ---

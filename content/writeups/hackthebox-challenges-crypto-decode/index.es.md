@@ -5,7 +5,7 @@ draft: false
 description: "Aprenda a decodificar los cifrados Fernet y Malboge para resolver el desafío criptográfico HackTheBox y descubrir la bandera oculta."
 tags: ["HackTheBox", "Desafíos", "Cripto", "Descodificar", "redacción", "Cifrado Fernet", "Cifrado Malboge", "Cifrado simétrico", "La seguridad cibernética", "Criptografía", "Pruebas de penetración", "Pitón", "Seguridad", "Desafío", "CTF", "Bandera", "Cifrado", "Descifrado", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "Un hacker de dibujos animados parado junto a una gran cerradura con una mano sosteniendo una llave con el logo de Fernet y la otra mano sosteniendo una llave con el logo de Malboge mientras se ve una bandera dentro de la cerradura"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Aprenda 10 consejos vitales de seguridad en Internet para proteger su privacidad, seguridad y finanzas en línea y mantener a su familia a salvo de las ciberamenazas."
 genre: ["Seguridad en Internet", "Seguridad en línea", "Consejos de ciberseguridad", "Protección de la intimidad", "Seguridad digital", "Amenazas en línea", "Seguridad de los datos", "Prácticas seguras en Internet", "Protección de datos personales", "Privacidad en línea"]
 tags: ["consejos de seguridad en internet", "seguridad en línea", "amenazas cibernéticas", "protección de la intimidad", "seguridad digital", "amenazas en línea", "seguridad de los datos", "prácticas seguras en internet", "protección de datos personales", "privacidad en línea", "consejos de ciberseguridad", "privacidad en internet", "estafas en línea", "ataques de phishing", "protección antimalware", "contraseñas seguras", "autenticación de dos factores", "Wi-Fi seguro", "supervisión de redes", "seguridad del correo electrónico", "social media privacy", "seguridad de la información financiera", "sitios web seguros", "control de extractos bancarios", "contraseñas seguras", "gestores de contraseñas", "educación en línea", "concienciación sobre ciberseguridad", "software de seguridad fiable"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Imagen simbólica que representa la seguridad en Internet, con un escudo que protege la pantalla de un ordenador de las ciberamenazas."
 ---
 

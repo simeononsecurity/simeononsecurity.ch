@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați despre semnificația și beneficiile orchestrării containerelor în DevOps modern, împreună cu instrumentele populare de orchestrare a containerelor și reglementările guvernamentale relevante pentru containerizare."
 tags: ["orchestrarea containerelor", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalabilitate", "disponibilitate ridicată", "echilibrarea sarcinii", "securitate", "implementări automate de aplicații", "HIPAA", "SOX", "GDPR", "conformitate", "dezvoltarea de software", "cloud computing", "containerizare", "tehnologie", "automatizare"]
-cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.png"
+cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "O imagine caricaturală care înfățișează containere care împart greutatea egală pe o balansetă, cu un dirijor de orchestră care le dirijează. "
 coverCaption: ""
 ---

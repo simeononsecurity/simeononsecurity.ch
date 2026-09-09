@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come le informazioni sulle minacce migliorano la sicurezza informatica mitigando e rispondendo agli attacchi informatici."
 tags: ["Informazioni sulle minacce", "Risposta agli incidenti", "Sicurezza informatica", "Mitigazione", "Attacchi informatici", "Analisi dei dati", "Sistemi informativi", "Gestione del rischio", "Valutazione della vulnerabilità", "Capacità di rilevamento", "Controlli di sicurezza", "Intelligenza strategica", "Intelligenza tattica", "Intelligenza operativa", "Paesaggio delle minacce", "Tendenze emergenti", "Consapevolezza della sicurezza", "Forensica digitale", "Minacce informatiche", "Dark Web"]
-cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.png"
+cover: "/img/cover/A_cartoon_of_a_cybersecurity_team_analyzing_data_and_response.webp"
 coverAlt: " Una vignetta di un team di cybersicurezza che analizza i dati e risponde a un attacco mentre una lente d'ingrandimento si posa su di loro."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de belangrijkste cyberbeveiligingsbedreigingen van 2024 en leer hoe u veilig kunt blijven met aanbevelingen van deskundigen."
 tags: ["cyberbeveiliging", "bedreigingen", "ransomware", "phishing", "IoT-beveiliging", "bedreigingen van binnenuit", "cloudbeveiliging", "gegevensback-up", "multi-factor authenticatie", "beveiligingspatches", "werknemersopleiding", "toegangscontroles", "achtergrondcontroles", "preventie van gegevensverlies", "cloudproviders", "data-encryptie", "netwerkbeveiliging", "eindpuntbeveiliging", "netwerkbewaking", "scannen op kwetsbaarheden"]
-cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.png"
+cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "Een cartooneske hacker probeert in te breken in een computersysteem terwijl een schild met een slot het beschermt."
 coverCaption: ""
 ---

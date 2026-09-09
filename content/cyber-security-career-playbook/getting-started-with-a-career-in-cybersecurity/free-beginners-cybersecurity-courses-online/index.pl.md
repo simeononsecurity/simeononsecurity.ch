@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-06
 description: "Odkryj najlepsze darmowe kursy cyberbezpieczeństwa dla początkujących na najlepszych platformach i rozpocznij swoją podróż w tej krytycznej dziedzinie."
 tags: ["cyberbezpieczeństwo", "kursy cyberbezpieczeństwa", "początkujący", "bezpłatne kursy", "platformy internetowe", "szkolenie w zakresie cyberbezpieczeństwa", "zasoby edukacyjne", "bezpieczeństwo sieci", "etyczne hakowanie", "bezpieczne kodowanie", "umiejętności praktyczne", "praktyczne doświadczenie", "podstawy cyberbezpieczeństwa", "Cybrary", "SANS Cyber Aces Online", "TryHackMe", "HackTheBox", "Immersive Labs", "INE", "Cisco Networking Academy", "Portal edukacyjny Juniper", "Microsoft Learn", "Strefa edukacyjna VMware", "Code.org", "Codecademy", "Instytut Pythona", "opłacalna nauka", "elastyczne uczenie się", "kompleksowa wiedza", "praktyczne doświadczenie w zakresie cyberbezpieczeństwa"]
-cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.png"
+cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.webp"
 coverAlt: "Symboliczny rysunek przedstawiający grupę różnych osób w strojach cyberbezpieczeństwa, stojących razem w formacji tarczy, z otaczającymi ich ikonami kodu binarnego i blokady, podkreślającymi znaczenie jedności i ochrony w sferze cyfrowej."
 coverCaption: "Uwolnij swój potencjał cyberbezpieczeństwa dzięki darmowym kursom dla początkujących!"
 ---

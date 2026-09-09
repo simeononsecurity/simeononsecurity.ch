@@ -6,7 +6,7 @@ date: 2022-02-13
 description: "このガイドで、Nebra IndoorおよびOutdoor、第1世代および第2世代、EMMC Key SDカードの交換または再フラッシュの方法と、Helium Minerの同期に関する問題の解決方法をご覧ください。"
 genre: ["テクノロジー", "暗号通貨", "ハードウェア", "ヘリウム採掘", "トラブルシューティング", "SDカードの交換", "同期の問題", "ラズベリーパイ", "バレナ・エッチャー", "ネブラ・ヘリウム採掘機"]
 tags: ["ネブラ・ヘリウム採掘機", "SDカードの交換", "同期の問題", "ヘリウム採掘", "トラブルシューティング", "ラズベリーパイ", "バレナ・エッチャー", "ハードウェアガイド", "SDカードのアップグレード", "同期の問題を解決する", "ステップ・バイ・ステップ・ガイド", "ヘリウム・マイナーの同期修正", "ネブラ インドアマイナー", "ネブラ・アウトドア・マイナー", "Raspberry Piコンピュート・モジュール3", "Balena Raspberry Pi CM3 イメージ", "ヘリウム鉱山のトラブルシューティング", "ネブラ鉱山機械", "バレナ・エッチャー・ソフトウェア", "Nebra MinerのEMMCキーの交換", "ヘリウム・マイナーのSDカード修理", "ヘリウムマイナーの同期に関する問題の修正", "Nebra Miner SDカードの交換", "Nebraヘリウム鉱山のトラブルシューティングの手引き", "ヘリウム採掘のヒント", "Nebra Helium Miner SDカードのアップグレード", "Nebra Miner SDカードを再イメージする方法", "Nebra Helium Minerの同期に関する問題のトラブルシューティング"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Nebra_Helium_M.webp"
 coverAlt: "Nebra Helium Minerを持つ人の漫画イラスト。パネルが開いてSDカードスロットが見え、ガイドのステップがガイドブックとしてデバイスの上に浮かび上がっている。"
 coverCaption: "同期の問題を解決し、Helium Minerを簡単にアップグレードできます。"
 ---

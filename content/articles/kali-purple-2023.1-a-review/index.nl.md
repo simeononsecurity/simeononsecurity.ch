@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de geavanceerde functies, tools en verbeteringen van Kali Purple 2023.1 in onze uitgebreide review voor ethische hackers en liefhebbers van cyberbeveiliging."
 tags: ["Kali Linux", "Kali Purple", "2023.1", "ethisch hacken", "penetratietesten", "cyberbeveiliging", "gereedschap", "exploitatiekader", "Kali ARM updates", "Kali NetHunter", "Kali documentatie", "Kernel-ondersteuning", "Bluetooth-ondersteuning", "LineageOS", "OneUI", "Radxa Zero", "SBC", "kernel patches", "communautaire bijdragen", "Kali Discord"]
-cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.png"
+cover: "/img/cover/A_3D_animated_Kali_Linux_dragon_mascot_surrounded.webp"
 coverAlt: "Een 3D geanimeerde Kali Linux draak mascotte, omringd door verschillende cybersecurity en hacking tools, zittend bovenop een schild met een paarse draak erop."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "SSHの利点を発見し、SSHキーの生成、リモートサーバーへの接続、安全なファイル転送、SSH設定のカスタマイズ方法について学びます。"
 tags: ["SSH", "セキュアシェル", "リモートアクセス", "リモート管理", "暗号化", "認証", "データの完全性", "ポータビリティ", "ファイル転送", "きゅうけいじょ", "SSHキー", "SSHの設定", "ネットワークプロトコル", "リモートコマンド実行", "オープンエスエスエイチ", "二要素認証", "公開鍵暗号", "IPアドレス", "ドメイン名", "ターミナル", "コマンドプロンプト", "セキュリティ", "システム管理者", "デベロッパーズ", "多方面", "認証方法", "ハッシュ関数", "トンネリング", "カスタムオプション"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_securely_connecting.webp"
 coverAlt: "SSHを使って安全にサーバーに接続する様子を描いた漫画のイラストです。"
 coverCaption: ""
 ---

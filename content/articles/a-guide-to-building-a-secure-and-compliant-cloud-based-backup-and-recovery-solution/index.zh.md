@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何构建安全、合规的数据保护云备份解决方案。"
 tags: ["云备份", "数据恢复", "数据保护", "合规性", "GDPR", "HIPAA", "FISMA", "云服务提供商", "加密", "门禁", "安全", "法规", "标准", "最佳做法", "脆弱性评估", "渗透测试", "审计", "风险管理", "扩展性", "监测"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "云中安全保险库的三维动画图像，周围漂浮着各种监管图标（GDPR、HIPAA、FISMA）和象征数据保护的盾牌。"
 coverCaption: ""
 ---

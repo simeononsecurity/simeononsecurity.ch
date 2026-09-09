@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să vă protejați de amenințările cibernetice, evitând aceste 10 greșeli comune de securitate cibernetică."
 tags: ["securitate cibernetică", "securitate online", "amenințări cibernetice", "hacking", "phishing", "malware", "parole", "Wi-Fi public", "antivirus", "social media", "backup de date", "avertismente de securitate", "stații publice de încărcare", "securitate informatică", "prevenirea criminalității cibernetice", "furt de identitate", "confidențialitate digitală", "securitatea rețelei", "actualizări de software", "siguranța online"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "O încuietoare din desene animate care protejează un laptop, cu un hacker în fundal."
 coverCaption: ""
 ---

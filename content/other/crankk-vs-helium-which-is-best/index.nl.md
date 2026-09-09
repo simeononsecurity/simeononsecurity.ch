@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Ontdek de verschillen tussen Crankk en Helium IoT-netwerken, hun consensusmodellen, mijnbouwhardware, gastarieven en meer."
 tags: ["Crank vs Helium IoT", "IoT-netwerken", "consensusmodellen", "mijnbouw hardware", "gaskosten", "blockchain", "LoRaWAN", "IoT-connectiviteit", "draadloze communicatie", "Internet der dingen", "gedecentraliseerde netwerken", "apparaten met een laag stroomverbruik", "IoT-oplossingen", "slimme apparaten", "IoT-toepassingen", "gegevensoverdracht", "connectiviteitsoplossingen", "IoT-technologie", "netwerkvergelijking", "draadloze netwerken"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "Een cartoonillustratie die Crankk en Helium IoT-netwerken toont die slimme apparaten verbinden in een gedecentraliseerde en draadloze omgeving."
 coverCaption: ""
 ---

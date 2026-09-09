@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-01
 description: "Learn how to secure your Linux internet sharing apps with advanced measures to block malware, trackers, Tor traffic, and torrents."
 tags: ["Linux security","internet sharing apps","malware protection","tracker blocking","Tor traffic blocking","torrent prevention","network security","Snort","Securita","DNS protection","advanced firewall rules","Ubuntu updates","automatic updates","network monitoring","cybersecurity","Linux internet security","Linux app security","malware blocking","Tor traffic prevention","torrent protection","network firewall","Linux network security","secure internet sharing","Linux DNS protection","advanced network security","Linux system updates","network monitoring tools","Linux cybersecurity measures","Linux security practices"]
-cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.png"
+cover: "/img/cover/A_cartoon_illustration_showing_a_shield_protecting_a_network.webp"
 coverAlt: "A cartoon illustration showing a shield protecting a network of interconnected devices from malicious threats."
 coverCaption: ""
 ---

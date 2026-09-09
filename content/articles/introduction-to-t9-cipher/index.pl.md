@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj historię, zasady działania i zastosowania szyfru T9, przełomowej technologii predykcyjnego wprowadzania tekstu używanej we wczesnych telefonach komórkowych."
 tags: ["Szyfr T9", "technologia wprowadzania tekstu", "predykcja tekstu", "telefony komórkowe", "klawiatura numeryczna", "Tegic Communications", "wejście multi-tap", "statystyczne modele językowe", "komunikacja mobilna", "Wiadomości SMS", "smartfony z ekranem dotykowym", "wirtualne klawiatury", "historia T9", "Oprogramowanie T9", "pisanie na klawiaturze numerycznej", "przewidywanie słów", "propozycje słów", "wydajność wprowadzania tekstu", "poprawa szybkości pisania", "zmniejszenie liczby naciśnięć klawiszy", "algorytm przewidywania języka", "wczesna technologia telefonów komórkowych", "Ewolucja wprowadzania tekstu", "komunikacja z urządzeniami mobilnymi", "Znaczenie szyfru T9", "rewolucja we wprowadzaniu tekstu", "użyteczność telefonu komórkowego", "Algorytm predykcyjny T9", "Słownik T9", "Dokładność predykcji tekstu"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_smartphone_with_a_number.webp"
 coverAlt: "Kolorowa ilustracja przedstawiająca smartfon z klawiaturą numeryczną i dymkami tekstowymi, symbolizująca wpływ szyfru T9 na komunikację mobilną."
 coverCaption: ""
 ---

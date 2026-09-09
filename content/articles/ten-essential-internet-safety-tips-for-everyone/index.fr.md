@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Apprenez 10 conseils essentiels de sécurité sur Internet pour protéger votre vie privée, votre sécurité et vos finances en ligne et pour mettre votre famille à l'abri des cybermenaces."
 genre: ["Sécurité sur Internet", "Sécurité en ligne", "Conseils en matière de cybersécurité", "Protection de la vie privée", "Sécurité numérique", "Menaces en ligne", "Sécurité des données", "Pratiques Internet sûres", "Protection des informations personnelles", "Confidentialité en ligne"]
 tags: ["conseils de sécurité sur internet", "sécurité en ligne", "cybermenaces", "protection de la vie privée", "sécurité numérique", "menaces en ligne", "la sécurité des données", "pratiques sûres en matière d'internet", "protection des informations personnelles", "vie privée en ligne", "conseils en matière de cybersécurité", "internet privacy", "escroqueries en ligne", "attaques par hameçonnage", "protection contre les logiciels malveillants", "mots de passe sécurisés", "authentification à deux facteurs", "Wi-Fi sécurisé", "surveillance du réseau", "Sécurité du courrier électronique", "protection de la vie privée dans les médias sociaux", "sécurité de l'information financière", "sites web sécurisés", "suivi des relevés bancaires", "des mots de passe forts", "gestionnaires de mots de passe", "éducation en ligne", "sensibilisation à la cybersécurité", "un logiciel de sécurité fiable"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "Image symbolique représentant la sécurité sur internet, avec un bouclier protégeant un écran d'ordinateur des cybermenaces."
 ---
 

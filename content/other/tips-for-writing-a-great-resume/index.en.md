@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Learn the best practices for creating an effective resume, including font usage, resume types, keyword optimization, handling gaps, and optimizing layout."
 tags: ["resume writing", "resume tips", "font usage", "resume structure", "resume types", "chronological resume", "functional resume", "combination resume", "keyword optimization", "references on resume", "resume statement", "handling layoffs", "handling gaps in resume", "graduation year on resume", "listing certifications", "resume layout", "concise resume", "white space in resume", "resume customization", "professional resume"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "A colorful cartoon image showing a person holding a resume with a magnifying glass, symbolizing the attention to detail in optimizing the resume."
 coverCaption: ""
 ---

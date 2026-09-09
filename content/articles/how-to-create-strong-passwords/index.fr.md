@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-24
 description: "Apprenez à créer des mots de passe forts, à utiliser des phrases de passe et à les gérer en toute sécurité avec des gestionnaires de mots de passe tels que Bitwarden."
 tags: ["des mots de passe forts", "sécurité du mot de passe", "phrases de passe", "gestionnaires de mots de passe", "Bitwarden", "sécurité en ligne", "cybersécurité", "force du mot de passe", "protection des données", "sécurité numérique", "meilleures pratiques en matière de mots de passe", "conseils sur les mots de passe", "mots de passe sécurisés", "outils de gestion des mots de passe", "vie privée en ligne", "la protection des comptes", "la sécurité des données", "complexité du mot de passe", "générateur de mot de passe", "authentification à deux facteurs", "créer des mots de passe forts", "guide de gestion des mots de passe", "conseils de sécurité pour les mots de passe", "création d'un mot de passe fort", "protection par mot de passe", "gestion sécurisée des mots de passe", "avantages du gestionnaire de mots de passe", "sécurité de la phrase d'authentification", "recommandations sur les gestionnaires de mots de passe", "meilleures pratiques en matière de gestionnaire de mots de passe", "gestionnaire de mots de passe sécurité", "fonctionnalités du gestionnaire de mots de passe"]
-cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.png"
+cover: "/img/cover/A_cartoon_character_holding_a_shield_with_a_lock_symbol.webp"
 coverAlt: "Un personnage de bande dessinée tenant un bouclier avec un symbole de serrure, représentant la sécurité et la protection des mots de passe."
 coverCaption: ""
 ---

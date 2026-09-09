@@ -6,7 +6,7 @@ draft: false
 description: "比较 Security+ 和 SSCP 认证，为寻求工作机会、行业认可和全面知识覆盖的网络安全专业人员确定最佳选择。"
 genre: ["网络安全", "信息安全", "认证比较", "IT 职业", "行业认可", "工作机会", "网络安全", "系统安全", "CompTIA"]
 tags: ["安全加", "SSCP", "网络安全认证", "认证比较", "工作机会", "行业认可", "知识覆盖面", "CompTIA", "网络安全", "系统安全", "信息安全", "IT 职业", "网络安全专业人员", "网络安全工作", "网络安全认证", "网络安全行业", "网络安全知识", "网络安全技能", "网络安全基金会", "IT 认证", "供应商中立认证", "安全分析师", "安全顾问", "安全管理员", "系统安全分析师", "网络安全工程师", "信息技术审计员", "安全认证", "信息技术安全", "网络安全教育"]
-cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.png"
+cover: "/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp"
 coverAlt: "这是一幅具有象征意义的艺术作品，两面盾牌以动态的姿势对峙，代表了两种认证之间的比较。"
 coverCaption: "为您的网络安全职业道路选择正确的认证。"
 ---

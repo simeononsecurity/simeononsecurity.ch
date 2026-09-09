@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "Leer hoe u pfSense instelt op de HP t740 Thin Client en hoe u mogelijke problemen oplost, zoals vastlopen en problemen met SSD-detectie."
 tags: ["pfSense", "OPNsense", "HardenedBSD", "HP t740", "dunne cliënt", "homeserver", "PPPoE", "FreeBSD", "opstartprompt", "loader.conf.local", "nano-editor", "SSD-detectie", "M.2 SSD", "Western Digital", "probleemoplossing", "post-installatie", "UART", "ESXi", "Proxmox"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "Een cartoon van een tovenaar die een spreuk uitspreekt om een bevroren computer te repareren, met een tekstballon die zegt Probleem opgelost"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u uw kinderen kunt beschermen tegen cyberpesten met deze uitgebreide gids voor ouders."
 tags: ["cyberpesten", "online veiligheid", "ouderschap", "kinderen", "geestelijke gezondheid", "overheidsvoorschriften", "veiligheidsbeleid voor internet", "monitoring van online activiteiten", "preventie", "online intimidatie", "cyberveiligheid", "digitaal ouderschap", "sociale media", "digitaal burgerschap", "digitale voetafdruk", "pesten", "wet", "technologie", "beveiliging", "onderwijs"]
-cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.png"
+cover: "/img/cover/A_cartoon_of_a_parent_and_child_using_a_computer_together.webp"
 coverAlt: "Een cartoon van een ouder en een kind die samen een computer gebruiken, met een tekstballon boven de computer met een positieve boodschap."
 coverCaption: ""
 ---

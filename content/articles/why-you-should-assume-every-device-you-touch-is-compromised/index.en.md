@@ -6,7 +6,7 @@ draft: false
 description: "Discover why you need to assume every device is already compromised and learn practical measures to enhance your digital security in today's interconnected world."
 genre: ["Personal Data Protection", "Strong Authentication and Password Practices", "Social Media Privacy", "Secure Communication", "Device Hygiene", "Data Backup", "Cybersecurity Best Practices", "Digital Privacy", "Online Security Tips", "Protecting Sensitive Information"]
 tags: ["device security", "cybersecurity", "digital security", "cyber threats", "hacking", "device compromise", "data protection", "secure browsing", "personal data security", "authentication", "password security", "social media privacy", "secure communication", "device hygiene", "data backup", "cybersecurity best practices", "digital privacy", "cybersecurity awareness", "online safety", "internet security", "online privacy", "cyber defense", "cyber resilience", "cybersecurity mindset", "security measures", "cyber threat prevention", "cybersecurity strategies", "data privacy", "cybersecurity education", "cybersecurity resources"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "A symbolic illustration depicting a shield with interconnected devices and locks, representing the importance of assuming device compromise and strengthening digital security."
 coverCaption: "Safeguard Your Digital Life: Embrace Security and Protect Your Privacy"
 ---

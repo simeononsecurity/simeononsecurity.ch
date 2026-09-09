@@ -6,7 +6,7 @@ date: 2023-07-01
 description: "Discover how to build a cybersecurity team based on the NICE framework, focusing on key skills, steps, and considerations for effective risk mitigation."
 genre: ["Cybersecurity team building", "NICE framework", "Cybersecurity skills", "Recruitment strategies", "Training and development", "Cybersecurity workforce", "Cyber threats", "Risk management", "Incident response", "Security architecture"]
 tags: ["cybersecurity team building", "NICE framework", "cybersecurity skills", "recruitment strategies", "training and development", "cybersecurity workforce", "cyber threats", "risk management", "incident response", "security architecture", "cloud security", "network security", "security assessment and authorization", "incident response", "vulnerability assessment and management", "network defense", "risk management", "policy and planning", "security program management", "identity and access management", "data security", "security architecture and engineering", "analytical thinking", "problem-solving", "communication", "collaboration", "leadership", "adaptability", "continuous learning", "diversity and inclusion"]
-cover: "/img/cover/A_cartoon_cybersecurity_team_collaborating_on_a_digital_pla.png"
+cover: "/img/cover/A_cartoon_cybersecurity_team_collaborating_on_a_digital_pla.webp"
 coverAlt: "A cartoon cybersecurity team collaborating on a digital platform, symbolizing effective teamwork and risk mitigation."
 coverCaption: "Building a strong cybersecurity team: Together, we secure the digital future."
 ---

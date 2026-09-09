@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez la puissance des objets de stratégie de groupe (GPO) et apprenez à gérer efficacement et à optimiser les paramètres et les stratégies de votre réseau pour une sécurité accrue et des opérations rationalisées."
 genre: ["Gestion du réseau", "Objets de stratégie de groupe", "GPO", "Administration Windows", "Infrastructure informatique", "Sécurité des réseaux", "Active Directory", "Gestion de la configuration", "Gestion de la politique de groupe", "Optimisation du réseau"]
 tags: ["GPO", "Objets de stratégie de groupe", "Gestion du réseau", "Administration Windows", "Active Directory", "Gestion de la configuration", "Sécurité des réseaux", "Gestion de la politique de groupe", "Optimisation du réseau", "Infrastructure informatique", "Gestion efficace du réseau", "Optimisation des paramètres du réseau", "Politiques de sécurité renforcées", "Rationalisation des opérations", "Meilleures pratiques en matière de stratégie de groupe", "Dépannage des GPO", "Hiérarchie et héritage des GPO", "Console de gestion de la stratégie de groupe", "Outils de gestion de réseau", "Conseils de dépannage pour les GPO"]
-cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.png"
+cover: "/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp"
 coverAlt: "Image de style art symbolique illustrant un réseau d'engrenages interconnectés, symbolisant la gestion et l'optimisation efficaces d'un réseau."
 coverCaption: "Déverrouillez la puissance des GPO : Rationalisez la gestion de votre réseau dès aujourd'hui !"
 ---

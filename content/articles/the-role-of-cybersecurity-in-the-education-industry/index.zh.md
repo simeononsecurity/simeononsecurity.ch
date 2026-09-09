@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解教育行业网络安全的重要性，学习如何保护敏感的学生数据。"
 tags: ["网络安全", "教育", "学生数据", "数据保护", "隐私", "FERPA", "NIST", "HEISC", "互联网2", "SANS 研究所", "安全政策", "网络钓鱼", "提高认识培训", "风险评估", "多因素认证", "加密", "事件响应", "网络安全", "安全访问", "防火墙"]
-cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.png"
+cover: "/img/cover/A_3D_animated_image_featuring_a_shield_protecting_a_laptop.webp"
 coverAlt: "这是一幅三维动画图像，上面有一个保护笔记本电脑的盾牌，盾牌上显示着一顶毕业帽，象征着教育行业对学生数据的保护。"
 coverCaption: ""
 ---

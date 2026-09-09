@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "发现 Crankk 和 Helium IoT 网络、它们的共识模型、采矿硬件、gas 费用等之间的区别。"
 tags: ["Crankk 与 Helium 物联网", "物联网网络", "共识模型", "挖矿硬件", "煤气费", "区块链", "罗拉万", "物联网连接", "无线通信", "物联网", "去中心化网络", "低功耗设备", "物联网解决方案", "智能设备", "物联网应用", "数据传输", "连接解决方案", "物联网技术", "网络比较", "无线网络"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "卡通插图展示了 Crankk 和 Helium IoT 网络在分散和无线环境中连接智能设备。"
 coverCaption: ""
 ---

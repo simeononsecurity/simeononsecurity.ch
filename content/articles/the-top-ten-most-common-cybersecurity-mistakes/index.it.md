@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come proteggervi dalle minacce informatiche evitando questi 10 comuni errori di sicurezza informatica."
 tags: ["sicurezza informatica", "sicurezza online", "minacce informatiche", "hacking", "phishing", "malware", "password", "Wi-Fi pubblico", "antivirus", "social media", "backup dei dati", "avvisi di sicurezza", "stazioni di ricarica pubbliche", "sicurezza informatica", "prevenzione del crimine informatico", "furto d'identità", "digital privacy", "sicurezza della rete", "aggiornamenti software", "sicurezza online"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Un lucchetto a fumetti che protegge un computer portatile, con un hacker sullo sfondo."
 coverCaption: ""
 ---

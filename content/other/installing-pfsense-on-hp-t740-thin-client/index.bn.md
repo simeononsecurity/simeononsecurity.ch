@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "HP t740 থিন ক্লায়েন্টে কীভাবে pfSense সেট আপ করবেন এবং হিমায়িত এবং SSD সনাক্তকরণ সমস্যার মতো সম্ভাব্য সমস্যাগুলি কীভাবে সমাধান করবেন তা শিখুন।"
 tags: ["pfSense", "OPNsense", "শক্ত বিএসডি", "HP t740", "পাতলা ক্লায়েন্ট", "হোম সার্ভার", "PPPoE", "ফ্রিবিএসডি", "বুট প্রম্পট", "loader.conf.local", "ন্যানো সম্পাদক", "এসএসডি সনাক্তকরণ", "M.2 SSD", "পশ্চিমা ডিজিটাল", "সমস্যা সমাধান", "পোস্ট-ইনস্টলেশন", "UART", "ESXi", "প্রক্সমক্স"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "একটি জাদুকরের একটি কার্টুন একটি হিমায়িত কম্পিউটার ঠিক করার জন্য একটি বানান কাস্ট করছে, একটি বক্তৃতা বুদবুদ সহ বলছে সমস্যা সমাধান"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"

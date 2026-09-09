@@ -6,7 +6,7 @@ draft: false
 description: "Explore the significance of network device logs, log reviews, and different types of logs, and learn how to interpret interface statistics and monitor interface errors."
 genre: ["Network Management", "Network Security", "Log Analysis", "Network Monitoring", "Troubleshooting", "Network Infrastructure", "IT Certification", "Cybersecurity", "Data Analysis", "Compliance"]
 tags: ["Network logs", "Logging importance", "Log reviews", "Traffic logs", "Audit logs", "Syslog", "Logging levels", "Interface statistics", "Interface status", "Monitoring interface errors", "Network management", "Network security", "Log analysis", "Network monitoring", "Troubleshooting", "Network infrastructure", "IT certification", "Cybersecurity", "Data analysis", "Compliance", "Network performance", "Security incidents", "User activities", "Severity levels", "Network traffic", "Log interpretation", "Network downtime", "Optimal performance", "Network reliability", "User experience"]
-cover: "/img/cover/A_symbolic_image_representing_a_network_server.png"
+cover: "/img/cover/A_symbolic_image_representing_a_network_server.webp"
 coverAlt: "A symbolic image representing a network server with logs and a magnifying glass analyzing them."
 coverCaption: "Unveiling the Secrets Within: Unlocking the Power of Network Logs"
 ---

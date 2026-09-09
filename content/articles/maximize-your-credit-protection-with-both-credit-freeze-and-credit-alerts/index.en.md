@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Protect your credit from unauthorized access by combining a credit freeze and fraud alert, the most effective solution for deterring common criminals from accessing your credit report without your permission."
 tags: ["credit protection", "credit freeze", "fraud alert", "unauthorized access", "credit report", "identity theft", "Equifax", "Experian", "TransUnion", "credit bureaus", "maximum protection"]
-cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.png"
+cover: "/img/cover/A_person_holding_a_credit_card_with_a_lock_symbol_on_it.webp"
 coverAlt: "A person holding a credit card with a lock symbol on it to represent credit protection."
 coverCaption: ""
 ---

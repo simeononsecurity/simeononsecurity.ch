@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解如何使用 Ansible 自动执行 Linux 修补和更新，涵盖各种发行版和设置说明。"
 tags: ["Linux 补丁", "Ansible 自动化", "自动更新", "系统维护", "资讯科技自动化", "补丁管理", "Linux 安全", "德比安", "Ubuntu", "RHEL", "高山", "系统稳定性", "漏洞缓解", "IT基础设施", "自动化工具", "Ansible 剧本", "主机配置", "软件更新", "安全合规", "资讯科技营运", "Linux 更新", "Ubuntu", "德比安", "中央操作系统", "RHEL", "离线更新", "本地存储库", "缓存", "服务器设置", "客户端设置", "镜像", "debmirror", "创建仓库", "apt-缓存-ng", "yumcron", "Linux 系统更新", "离线包更新", "离线软件更新", "本地包存储库", "本地包缓存", "离线 Linux 更新", "处理离线更新", "离线更新方法", "离线系统维护", "Linux 服务器更新", "Linux 客户端更新", "离线软件管理", "离线包管理", "更新策略", "Linux 安全更新"]
-cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.png"
+cover: "/img/cover/A_colorful_cartoon-style_image_depicting_a_robot_applying_patches.webp"
 coverAlt: "一幅彩色卡通风格的图像，描绘了一个机器人正在向 Linux 服务器集群应用补丁。"
 coverCaption: ""
 ---

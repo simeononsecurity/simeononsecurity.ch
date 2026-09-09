@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to recognize common indicators of phishing attempts and protect yourself online with practical tips for enhanced cybersecurity."
 genre: ["Phishing awareness", "Online safety", "Cybersecurity", "Identity theft", "Internet scams", "Digital security", "Cyber threats", "Data protection", "Phishing prevention", "Online fraud"]
 tags: ["phishing attempts", "common indicators", "phishing scams", "online safety", "cybersecurity", "suspicious email addresses", "urgent language", "grammar mistakes", "spelling mistakes", "suspicious URLs", "personal information requests", "unexpected attachments", "staying safe online", "software updates", "two-factor authentication", "password security", "online scams", "phishing techniques", "cyber threats", "phishing awareness", "identifying phishing", "phishing prevention", "phishing protection", "phishing awareness tips", "phishing detection", "phishing awareness training", "phishing email", "phishing awareness campaign", "phishing awareness education", "phishing awareness best practices", "what is a common indicator of a phishing attempt"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "A cartoon image depicting a person receiving a suspicious email and looking skeptical."
 coverCaption: "Stay vigilant, stay secure."
 ---

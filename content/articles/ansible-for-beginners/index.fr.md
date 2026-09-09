@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Apprenez les bases d'Ansible, un outil d'automatisation open-source qui simplifie la gestion de l'infrastructure informatique grâce à un langage déclaratif."
 tags: ["Introduction à Ansible", "Automatiser la gestion de l'infrastructure informatique", "Les bases d'Ansible", "Automatisation de l'infrastructure informatique", "Gestion de la configuration", "Déploiement de l'application", "Provisionnement", "Livraison continue", "Conformité en matière de sécurité", "Orchestration", "YAML", "Modules Ansible", "Rôles", "Meilleures pratiques", "Contrôle des versions", "Essais", "Red Hat", "Administrateurs de systèmes", "Linux", "macOS", "Fenêtres", "Installation d'Ansible", "Inventaire Ansible", "Manuels Ansible", "Modules Ansible", "Rôles Ansible", "Meilleures pratiques Ansible", "Tests Ansible", "Outil d'automatisation de l'infrastructure informatique", "Tutoriel Ansible", "Infrastructure management automation"]
-cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.png"
+cover: "/img/cover/A_cartoon_character_sitting_at_a_desk_surrounded_by_servers.webp"
 coverAlt: "Un personnage de dessin animé assis à un bureau, entouré de serveurs et de câbles, avec le logo d'Ansible sur l'écran de l'ordinateur, souriant au fur et à mesure que les tâches sont automatisées."
 coverCaption: ""
 ---

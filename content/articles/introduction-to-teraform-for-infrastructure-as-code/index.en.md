@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the basics of Terraform, a popular infrastructure as code tool, and how to use it to manage infrastructure efficiently."
 tags: ["Terraform", "Infrastructure as Code", "IaC", "Cloud Computing", "DevOps", "Automation", "AWS", "Azure", "Google Cloud", "Cloud Providers", "Configuration Management", "Deployment", "Provisioning", "Resource Management", "Scalability", "Resilience", "Security", "Compliance", "Best Practices"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "A cartoon computer monitor with multiple network-connected devices appearing as building blocks being added or removed, signifying infrastructure management with Terraform."
 coverCaption: ""
 ---

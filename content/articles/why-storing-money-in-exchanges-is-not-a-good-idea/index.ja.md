@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この記事では、取引所に暗号通貨を保管することの危険性について、なぜマットレスにお金を保管するのと同じなのかを説明し、安全に保管するためにハードウェアウォレットを使用することの利点を紹介します。"
 tags: ["暗号通貨ストレージ", "為替リスク", "ハードウェアウォレット", "サイバーセキュリティ", "クリプトへの投資", "安全な保管", "秘密鍵", "携帯用ウォレット", "政府規制"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "ハードウェアウォレットに暗号通貨を保管する際の安全性を象徴する、南京錠と鎖を周囲につけたハードウェアウォレット。"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-15
 description: "Discover the differences between Crankk and Helium IoT networks, their consensus models, mining hardware, gas fees, and more."
 tags: ["Crankk vs Helium IoT", "IoT networks", "consensus models", "mining hardware", "gas fees", "blockchain", "LoRaWAN", "IoT connectivity", "wireless communication", "Internet of Things", "decentralized networks", "low-power devices", "IoT solutions", "smart devices", "IoT applications", "data transmission", "connectivity solutions", "IoT technology", "network comparison", "wireless networks"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_Crankk_and_Helium_IoT.webp"
 coverAlt: "A cartoon illustration showcasing Crankk and Helium IoT networks connecting smart devices in a decentralized and wireless environment."
 coverCaption: ""
 ---

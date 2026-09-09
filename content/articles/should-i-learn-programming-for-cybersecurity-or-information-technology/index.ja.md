@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "プログラミングスキルの習得がITやサイバーセキュリティのキャリアに大きく貢献する理由と、PowerShell、Bash、Python、Ansible、Packer、Terraformを使い始める方法についてご紹介いたします。"
 tags: ["IT・サイバーセキュリティ", "プログラミングスキル", "キャリアアップ", "パワーシェル", "バッシュ", "パイソン", "アンシブル", "パッカー", "テラフォーム", "オートメーション", "コマンドライン", "スクリプト", "インフラの展開", "データ分析", "セキュリティテスト"]
-cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.png"
+cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
 coverAlt: "コンピュータの前に座り、画面にスクロールするテキストの行を見ながら、コマンドラインインターフェイスにコードを打ち込んでいる人のこと。"
 coverCaption: ""
 ---

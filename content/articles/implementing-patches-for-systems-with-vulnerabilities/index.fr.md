@@ -5,7 +5,7 @@ toc: true
 date: 2023-02-25
 description: "Apprenez à mettre en œuvre des correctifs de sécurité pour les serveurs vulnérables en appliquant les meilleures pratiques et à prévenir les attaques malveillantes."
 tags: ["Sécurité du serveur", "Gestion de la vulnérabilité", "Gestion des correctifs", "Cybersécurité", "Corrections du serveur", "Le paysage des menaces", "Tests de pénétration", "Mises à jour de la sécurité", "Rustines logicielles", "Sécurité informatique", "Protection des données", "Sécurité du système", "Gestion des risques", "Politiques de sécurité", "Environnements de transition", "Vulnérabilités des logiciels", "Patchs critiques", "Rattrapage des vendeurs", "Bulletins de sécurité", "Sécurité de l'information"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_shield.webp"
 coverAlt: "Image caricaturale d'une personne tenant un bouclier et montant la garde devant une salle de serveurs pour représenter la protection et la sécurité qu'offre la mise en œuvre de correctifs."
 coverCaption: ""
 ---

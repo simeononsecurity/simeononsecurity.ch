@@ -6,7 +6,7 @@ date: 2023-07-02
 description: "了解如何制定符合行业标准和监管要求的全面网络安全政策，以保护贵组织的敏感信息并降低网络风险。"
 genre: ["技术", "安全", "合规性", "风险管理", "数据保护", "信息管理", "事件响应", "业务连续性", "网络威胁", "政策制定"]
 tags: ["网络安全政策", "网络安全程序", "行业最佳实践", "风险管理", "NIST 标准", "RMF", "PCI-DSS", "HIPAA", "FISMA", "数据保护", "事件响应", "业务连续性", "安全意识", "监管合规", "网络威胁", "数据安全", "信息技术管理", "网络安全", "信息安全", "安全控制", "制定网络安全政策", "全面的网络安全程序", "网络安全政策框架", "网络安全法规", "降低网络安全风险", "事件响应规划", "防止数据泄露", "员工安全培训", "网络安全合规管理", "数据隐私与保护"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_shield_protecting_a_netw.webp"
 coverAlt: "一幅卡通插图，描绘了保护网络服务器免受网络威胁的盾牌。"
 coverCaption: "确保网络安全：利用有效政策抵御网络威胁"
 ---

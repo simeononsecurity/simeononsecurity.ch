@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak zdać egzamin CompTIA Security+ SY0-601 z poradami, materiałami do nauki i strategiami rozwiązywania testów."
 tags: ["Egzamin CompTIA Security+", "SY0-601", "Certyfikacja w zakresie cyberbezpieczeństwa", "Cele egzaminu", "Strategie rozwiązywania testów", "Materiały do nauki", "Format egzaminu", "Porady dotyczące zdawania", "Bezpieczeństwo informacji", "Pytania oparte na wynikach"]
-cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.png"
+cover: "/img/cover/A_person_studying_with_a_laptop_and_books_in_front_of_them.webp"
 coverAlt: "Osoba studiująca z laptopem i książkami przed sobą, reprezentująca przygotowanie wymagane do zdania egzaminu CompTIA Security+ Certification Exam."
 coverCaption: ""
 ---

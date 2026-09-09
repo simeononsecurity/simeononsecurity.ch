@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "Leer hoe u de BGW-320 kunt omzeilen en een COTS ONT van Azores kunt gebruiken om verbinding te maken met het netwerk van uw ISP met deze gemakkelijk te volgen gids."
 tags: ["COTS ONT", "BGW-320", "Azoren", "vezel", "netwerk", "XGS-PON", "Ethernet", "IP passthrough", "maatwerk", "ISP", "hebben ID", "MAC-adres", "apparatuur-ID", "beeldversie", "hardwareversie", "telnet", "CLI-toepassing", "web GUI", "fabrieksconfiguratiemodus", "compatibiliteitsproblemen"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "Een tekenfilmtechnicus die een COTS ONT vasthoudt met een vezelkabel op de achtergrond."
 coverCaption: ""
 ---

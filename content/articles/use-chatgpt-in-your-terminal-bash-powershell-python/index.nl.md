@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u het OpenAI ChatGPT-model kunt gebruiken via de handige Command Line Interface (CLI) voor het eenvoudig genereren van tekst en het beantwoorden van vragen."
 tags: ["ChatGPT", "OpenAI", "Opdrachtregelinterface", "CLI", "tekstgeneratie", "het beantwoorden van vragen", "toolkit voor ontwikkelaars", "pip pakketbeheerder", "Python 3.5", "PowerShell", "Bash"]
-cover: "/img/cover/A_developer_sitting_at_their_computer_typing.png"
+cover: "/img/cover/A_developer_sitting_at_their_computer_typing.webp"
 coverAlt: "Een ontwikkelaar zit achter zijn computer en typt op zijn toetsenbord met de ChatGPT CLI geopend op zijn terminal."
 coverCaption: ""
 ---

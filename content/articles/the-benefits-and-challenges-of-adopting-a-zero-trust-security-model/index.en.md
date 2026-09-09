@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore the benefits and challenges of adopting a Zero Trust security model in today's digital age."
 tags: ["Zero Trust Security", "Cybersecurity", "Network Security", "Cloud Security", "Data Protection", "Security Model", "Authentication", "Authorization", "Encryption", "Compliance", "HIPAA", "GDPR", "PCI DSS", "User Experience", "Cost", "Complexity", "Multi-Layered Security", "Visibility", "Flexibility", "Security Breaches"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "A padlock and a key standing on a network cable in a symbolic way representing Zero Trust Security."
 coverCaption: ""
 ---

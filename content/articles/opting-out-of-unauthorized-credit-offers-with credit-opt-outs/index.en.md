@@ -6,7 +6,7 @@ draft: false
 description: "Prevent identity theft by opting out of pre-approved credit offers, using optoutprescreen, and protect your personal information from unauthorized access."
 genre: ["Personal Finance","Identity Protection","Consumer Rights","Financial Security","Credit Management","Privacy","Fraud Prevention","Data Security","Financial Education","Personal Information"]
 tags: ["Opt-Out","Pre-Approved Credit Offers","Identity Theft Prevention","Consumer Rights","Credit Management","Fraud Prevention","Data Security","Financial Security","Personal Information","Privacy","Fair Credit Reporting Act","FCRA","Credit Opt-Out","Identity Theft Protection","Protect Your Identity","Credit Reporting Companies","Financial Security Tips","Opt-Out Process","Unauthorized Credit Offers","Identity Theft Risks","Preventing Identity Theft","Credit and Insurance Offers","Identity Theft Awareness","Identity Protection Measures","Credit Opt-Out Options","Identity Theft Risks","Identity Theft Prevention Tips","Credit Security Measures","Prevent Identity Theft","Credit and Insurance Opt-Out","Secure Personal Information"]
-cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.png"
+cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp"
 coverAlt: "A person holding a credit card in one hand and a lock in the other hand, with a concerned look on their face, as if they're worried about the safety of their personal information."
 coverCaption: "Keep Your Information Safe: Opt-Out and Prevent Identity Theft"
 ---

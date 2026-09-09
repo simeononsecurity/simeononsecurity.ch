@@ -6,7 +6,7 @@ draft: false
 description: "Lernen Sie die verschiedenen 802.11-Standards, Frequenzen, Reichweiten und Verschlüsselungen in drahtlosen Netzwerken kennen, um sich auf die Network+-Zertifizierungsprüfung von CompTIA vorzubereiten."
 genre: ["Technologie", "Vernetzung", "Drahtlose Vernetzung", "Zertifizierungsprüfung", "CompTIA Network+", "IT-Ausbildung", "IT-Zertifizierung", "Drahtlose Normen", "Drahtlose Technologien", "Informationstechnologie"]
 tags: ["CompTIA Netzwerk Plus", "Network+ Zertifizierungsprüfung", "Drahtlose Normen", "Drahtlose Technologien", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequenzen", "Range", "Channel Bonding", "Antennenarten", "Verschlüsselungsstandards", "SSID-Konfigurationen", "Drahtlose Vernetzung", "Prüfung zum drahtlosen Netzwerk", "Schulung zum drahtlosen Netzwerk", "Zertifizierung für drahtlose Netzwerke", "Drahtlose Netzwerktechnologie", "Sicherheit drahtloser Netzwerke", "Leistung des drahtlosen Netzwerks", "Drahtlose Netzwerkprotokolle", "Konfiguration des drahtlosen Netzwerks", "Fehlerbehebung bei drahtlosen Netzwerken", "Bewährte Praktiken für drahtlose Netzwerke"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "Eine Cartoon-Illustration, die verschiedene drahtlose Netzwerkgeräte und Signale zeigt."
 coverCaption: "Entfesseln Sie die Leistung von drahtlosen Netzwerken"
 ---

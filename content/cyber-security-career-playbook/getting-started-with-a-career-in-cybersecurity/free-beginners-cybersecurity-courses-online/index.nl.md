@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-06
 description: "Ontdek de beste gratis cyberbeveiligingscursussen voor beginners op topplatforms en begin je reis op dit cruciale gebied."
 tags: ["cyberbeveiliging", "cyberbeveiligingscursussen", "beginners", "gratis cursussen", "online platforms", "cyberbeveiligingstraining", "leermiddelen", "netwerkbeveiliging", "ethisch hacken", "veilig coderen", "praktische vaardigheden", "praktijkervaring", "cyberbeveiligingsfundamenten", "Cybrary", "SANS Cyber Aces Online", "TryHackMe", "HackTheBox", "Immersieve laboratoria", "INE", "Cisco Netwerk Academie", "Juniper-leerportaal", "Microsoft leren", "VMware-leeromgeving", "Code.org", "Codecademy", "Python Instituut", "kosteneffectief leren", "flexibel leren", "omvangrijke kennis", "praktijkervaring op het gebied van cyberbeveiliging"]
-cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.png"
+cover: "/img/cover/A_symbolic_cartoon_image_depicting_a_group_of_diverse_indiv.webp"
 coverAlt: "Een symbolische cartoonafbeelding van een groep verschillende personen in cyberbeveiligingskleding die samen in een schild staan, met binaire codes en slotpictogrammen eromheen, om het belang van eenheid en bescherming in het digitale rijk te benadrukken."
 coverCaption: "Ontgrendel je cyberbeveiligingspotentieel met gratis beginnerscursussen!"
 ---

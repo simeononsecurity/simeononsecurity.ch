@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "在我们的终极指南中了解不同类型的多重身份验证以及如何选择最适合您的安全需求的身份验证。"
 tags: ["多因素认证", "在线安全", "密码安全", "认证因素", "双因素认证", "硬件令牌", "软件认证", "网络安全", "网络钓鱼攻击", "黑客攻击预防", "数据保护", "身份验证", "密码安全", "安全令牌", "访问控制", "身份盗窃", "网络威胁", "数字安全", "身份验证应用程序", "网络防御"]
-cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.png"
+cover: "/img/cover/A_cartoon_person_standing_in_front_of_a_computer.webp"
 coverAlt: "一个卡通人站在电脑前，头顶有一个锁符号，周围漂浮着不同类型的身份验证因素，如钥匙、手机、指纹等"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Conozca las consideraciones legales y éticas de la ciberseguridad y la privacidad en la transformación digital."
 tags: ["Ciberseguridad", "Privacidad", "Transformación digital", "Protección de datos", "Protección de datos", "Ética", "Responsabilidad", "Transparencia", "Confíe en", "Filtración de datos", "Recogida de datos", "Seguridad de los datos", "Reglamento sobre datos", "Normativa sobre protección de datos", "Legislación sobre ciberseguridad", "Responsabilidad", "Legislación sobre protección de datos", "Normativa sobre protección de datos", "Seguridad en línea", "Seguridad de la información"]
-cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.png"
+cover: "/img/cover/A_cartoon_image_of_a_padlock_protecting_a_computer.webp"
 coverAlt: "Una imagen de dibujos animados de un candado protegiendo un ordenador o un escudo con el icono de un candado, que simboliza la importancia de la ciberseguridad y la privacidad en la era digital."
 coverCaption: ""
 ---

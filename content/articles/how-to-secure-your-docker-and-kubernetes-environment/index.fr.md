@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les meilleures pratiques pour sécuriser votre environnement Docker et Kubernetes, notamment en utilisant des images officielles, en limitant les autorisations et en mettant en œuvre la sécurité du réseau."
 tags: ["Docker", "Kubernetes", "Sécurité", "Conteneurs", "Sécurité des réseaux", "RBAC", "API Server", "Vulnérabilités", "Contrôle", "Enregistrement", "Pare-feu", "TLS", "Ancre", "Clair", "Aqua Security", "Pile ELK", "Splunk", "Prométhée", "Cybersécurité", "Meilleures pratiques"]
-cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.png"
+cover: "/img/cover/A_cartoon_docker_container_and_a_cartoon_kubernetes_pod.webp"
 coverAlt: "Un conteneur docker de dessin animé et un pod kubernetes de dessin animé se tenant la main et se tenant au-dessus d'un coffre-fort verrouillé. L'arrière-plan est un mur de code informatique."
 coverCaption: ""
 ---

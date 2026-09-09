@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Aprenda a gerar um código de convite e ingressar na plataforma online HackTheBox para testar e aprimorar suas habilidades em testes de penetração e segurança cibernética no Windows e no Linux."
 tags: ["HackTheBox", "Desafio de convite", "Teste de penetração", "Cíber segurança", "janelas", "Linux", "Plataforma Online", "POST HTTP", "Código de convite", "Base64 codificado", "Powershell", "Linux Bash", "Decodificação Base64", "Geração de código de convite", "Programação", "Desenvolvimento web", "Tecnologia", "Segurança de TI", "Treinamento de TI"]
-cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.png"
+cover: "/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp"
 coverAlt: "Uma tela de desenho animado mostrando o site do HackTheBox com uma porta do cofre sendo destrancada com uma chave, revelando um troféu ou medalha, com um fundo de paisagem urbana no esquema de cores do logotipo do HackTheBox (azul e branco)."
 coverCaption: ""
 ---

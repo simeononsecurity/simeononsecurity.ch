@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra cómo configurar una VPN segura y resistente para sus empleados remotos corporativos, garantizando un acceso seguro a los recursos de la empresa."
 tags: ["VPN", "trabajo a distancia", "VPN corporativa", "seguridad de la red", "codificación", "protocolos de túnel", "Configuración VPN", "Servidor VPN", "Seguridad VPN", "Mantenimiento de VPN", "Supervisión de VPN", "Solución VPN", "autenticación", "seguridad de los datos", "privacidad", "rendimiento", "escalabilidad", "compatibilidad", "formación de empleados", "buenas prácticas"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "Imagen animada en 3D que muestra un túnel seguro que conecta el portátil de un trabajador remoto a un edificio de la empresa, simbolizando la conexión VPN. El icono de un escudo sobre el túnel representa la seguridad y la resistencia."
 coverCaption: ""
 ---

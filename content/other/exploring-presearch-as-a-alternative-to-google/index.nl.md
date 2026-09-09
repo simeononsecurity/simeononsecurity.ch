@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek hoe Presearch, de gedecentraliseerde zoekmachine, gebruikers privacy, beloningen en gemeenschapsparticipatie biedt als alternatief voor Google."
 genre: ["Technologie", "Zoekmachines", "Blockchain", "Cryptocurrency", "Online privacy", "Gemeenschapsgestuurde platforms", "Decentralisatie", "Open-source technologie", "Internetdiensten", "Digitale innovatie"]
 tags: ["vooronderzoek", "presearch zoekmachine", "gedecentraliseerde zoekmachine", "alternatief voor Google", "blockchaintechnologie", "beloningen voor cryptocurrency", "privacygericht zoeken", "gemeenschapsgestuurd platform", "open-source zoekmachine", "aanpasbare zoekervaring", "reclamevrij zoeken", "internetprivacy", "digitale innovatie", "online zoekrevolutie", "ecosysteem van zoekmachines", "beloningen voor gebruikers", "gedecentraliseerde technologie", "transparante zoekmachine", "gebruikersprivacy", "online privacybescherming", "maatschappelijke betrokkenheid", "aanpasbare zoekmachines", "online reclame", "digitale privacy", "zoekmachinemarkt", "gebruikersgericht zoeken", "privacy-eerste platform", "veilig online zoeken", "internet zoekrevolutie", "gebruikersemancipatie", "alternatieve zoekervaring"]
-cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.png"
+cover: "/img/cover/A_cartoonish_world_globe_with_a_magnifying_glass.webp"
 coverAlt: "Een cartooneske wereldbol met een vergrootglas erboven symboliseert het Presearch-platform als een community-gedreven en gedecentraliseerde zoekmachine"
 coverCaption: "Empowerment van zoeken: Presearch biedt privacy, beloningen en maatschappelijke betrokkenheid."
 ---

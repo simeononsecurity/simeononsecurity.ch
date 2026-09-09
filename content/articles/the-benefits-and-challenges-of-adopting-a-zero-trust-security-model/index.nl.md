@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek de voordelen en uitdagingen van een Zero Trust-beveiligingsmodel in het huidige digitale tijdperk."
 tags: ["Zero Trust Beveiliging", "Cyberbeveiliging", "Netwerkbeveiliging", "Cloudbeveiliging", "Gegevensbescherming", "Veiligheidsmodel", "Authenticatie", "Autorisatie", "Encryptie", "Naleving", "HIPAA", "GDPR", "PCI DSS", "Gebruikerservaring", "Kosten", "Complexiteit", "Meerlagige beveiliging", "Zichtbaarheid", "Flexibiliteit", "Inbreuken op de beveiliging"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Een hangslot en een sleutel op een netwerkkabel, symbolisch voor Zero Trust Security."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de basis van Terraform, een populaire infrastructure as code tool, en hoe u deze kunt gebruiken om infrastructuur efficiënt te beheren."
 tags: ["Terraform", "Infrastructuur als code", "IaC", "Cloud Computing", "DevOps", "Automatisering", "AWS", "Azuur", "Google Cloud", "Cloud aanbieders", "Configuratiebeheer", "Inzet", "Voorziening", "Beheer van middelen", "Schaalbaarheid", "Veerkracht", "Beveiliging", "Naleving", "Beste praktijken"]
-cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.png"
+cover: "/img/cover/A_cartoon_computer_monitor_with_multiple_network-connected.webp"
 coverAlt: "Een cartoonachtig computerscherm waarop meerdere op het netwerk aangesloten apparaten verschijnen als bouwstenen die worden toegevoegd of verwijderd, wat duidt op infrastructuurbeheer met Terraform."
 coverCaption: ""
 ---

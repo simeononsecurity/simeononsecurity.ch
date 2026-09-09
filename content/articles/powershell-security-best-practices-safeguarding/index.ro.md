@@ -6,7 +6,7 @@ draft: false
 description: "Aflați cele mai bune 10 practici esențiale de securitate PowerShell pentru a vă proteja scripturile, parolele și informațiile sensibile. Îmbunătățiți securitatea mediului dumneavoastră PowerShell și protejați-vă împotriva accesului neautorizat și a potențialelor breșe de securitate."
 genre: ["Cele mai bune practici de securitate PowerShell", "Securitatea scripturilor", "Securitatea parolei", "Securitate IT", "Securitatea cibernetică", "Administrare Windows", "Automatizare", "Codare securizată", "Securitatea rețelei", "Protecția datelor"]
 tags: ["Cele mai bune practici de securitate PowerShell", "Cele mai bune practici de securitate a parolelor PowerShell", "cele mai bune practici pentru securizarea și utilizarea PowerShell", "politica de execuție a scripturilor", "semnarea codului", "controlul accesului utilizatorilor", "securitatea parolei", "parolele hardcoding", "parole puternice", "politici de rotație a parolelor", "protejarea scripturilor PowerShell", "protejarea parolelor în PowerShell", "gestionarea executării scripturilor în PowerShell", "securizarea informațiilor sensibile în PowerShell", "îmbunătățirea securității PowerShell"]
-cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.png"
+cover: "/img/cover/A_symbolic_illustration_showing_a_shield_prot.webp"
 coverAlt: "O ilustrație simbolică care arată un scut care protejează un script PowerShell."
 coverCaption: "Protejați-vă scripturile PowerShell cu practici de securitate eficiente."
 ---

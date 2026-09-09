@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the best methods for handling offline Linux updates on Ubuntu/Debian and CentOS/RHEL systems, using local repositories or caches."
 tags: ["Mises à jour Linux", "Ubuntu", "DebianName", "CentOS", "RHEL", "mises à jour hors ligne", "référentiel local", "cache", "configuration du serveur", "configuration du client", "apt-miroir", "debmirror", "créer un dépôt", "apt-cacher-ng", "miam-cron", "Mises à jour du système Linux", "mises à jour de packages hors ligne", "mises à jour logicielles hors ligne", "référentiel de packages local", "cache de paquets locaux", "mises à jour Linux hors ligne", "gestion des mises à jour hors ligne", "méthodes de mise à jour hors ligne", "maintenance du système hors ligne", "Mises à jour du serveur Linux", "Mises à jour des clients Linux", "gestion des logiciels hors ligne", "gestion hors ligne des packages", "mettre à jour les stratégies", "Mises à jour de sécurité Linux"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_server_and_multiple_clients.webp"
 coverAlt: "Une illustration de dessin animé représentant un serveur et plusieurs appareils clients échangeant des mises à jour hors ligne."
 coverCaption: ""
 ---

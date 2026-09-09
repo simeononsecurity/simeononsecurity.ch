@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Odkryj, jak Dev Home i Dev Drive usprawniają pracę programistyczną w systemie Windows dzięki dostosowywanym widżetom, konfiguracji maszyn, integracji z GitHub i zoptymalizowanej pamięci masowej."
 tags: ["Dev Home", "Dev Drive", "Rozwój systemu Windows", "przepływ pracy deweloperskiej", "konfigurowalne widżety", "konfiguracja maszyny", "Integracja z serwisem GitHub", "zoptymalizowana pamięć masowa", "Programiści Windows", "usprawniony przepływ pracy", "zarządzanie kodem", "monitorowanie projektu", "optymalizacja pamięci masowej", "narzędzia programistyczne", "produktywność deweloperów", "Środowisko Windows", "Format woluminu ReFS", "optymalizacja wydajności", "wydajność systemu plików", "Repozytoria GitHub", "rozwiązanie pamięci masowej", "Windows 11", "zarządzanie pamięcią masową", "Efektywna współpraca", "aktywa deweloperskie", "narzędzia zwiększające produktywność", "Dokumenty programistyczne Windows", "efektywność rozwoju", "optymalizacja przepływu pracy", "Środowisko programistyczne Windows"]
-cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.png"
+cover: "/img/cover/A_cartoon_illustration_depicting_a_developer_working.webp"
 coverAlt: "Rysunkowa ilustracja przedstawiająca dewelopera pracującego w usprawnionym i wydajnym środowisku z narzędziami Dev Home i Dev Drive."
 coverCaption: ""
 ---

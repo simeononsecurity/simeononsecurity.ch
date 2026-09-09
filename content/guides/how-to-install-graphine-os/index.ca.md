@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-21
 description: "Obteniu informació sobre com instal·lar Graphene OS al vostre dispositiu Google Pixel per millorar la privadesa i la seguretat."
 tags: ["Graphene OS", "Google Pixel", "privadesa", "seguretat", "Android", "dispositius mòbils", "sistema operatiu", "guia d'instal·lació", "ROM personalitzada", "centrat en la privadesa", "protecció de dades", "sistema operatiu segur", "codi obert", "seguretat del dispositiu", "funcions de privadesa", "dades personals", "privadesa mòbil", "privadesa de dades", "personalització del dispositiu", "tecnologia", "Instal·lació de píxels", "sistema operatiu centrat en la privadesa", "Instal·lació del sistema operatiu Graphene", "seguretat mòbil", "privadesa i seguretat", "Personalització del dispositiu Pixel", "millores de privadesa", "guia de protecció de dades", "sistema operatiu segur", "Funcions de privadesa de píxels", "privadesa de dades mòbils"]
-cover: "/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.png"
+cover: "/img/cover/A_colorful_cartoon_illustration_showcasing_a_Google_Pixel.webp"
 coverAlt: "Una il·lustració de dibuixos animats acolorits que mostra un dispositiu Google Pixel amb un escut que simbolitza funcions de privadesa i seguretat millorades."
 coverCaption: ""
 ---

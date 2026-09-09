@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubre los pasos que debes dar para lanzar tu carrera en el apasionante y siempre cambiante campo de las TI y la ciberseguridad con esta completa guía"
 tags: ["Informática y ciberseguridad", "Guía profesional", "Certificaciones CompTIA", "MCSA", "Linux", "CCNA", "Pruebas de penetración", "Hacking ético", "OSCP", "Scripting", "Empleo en TI", "Ciberseguridad Empleo"]
-cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.png"
+cover: "/img/cover/A_person_typing_on_a_keyboard_with_a_background_of_computer.webp"
 coverAlt: "Imagen de una persona sentada en su puesto de trabajo con un candado de seguridad en primer plano, que indica la importancia de proteger los puestos de trabajo."
 coverCaption: ""
 ---

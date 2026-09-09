@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a defenderse de los ataques de ingeniería social y a proteger sus datos de los ciberdelincuentes en este artículo informativo."
 tags: ["ciberseguridad", "ingeniería social", "estafas de phishing", "autenticación multifactor", "actualizaciones de seguridad", "seguridad de contraseñas", "seguridad web", "violaciones de datos", "Seguridad informática", "robo de identidad", "prevención del fraude", "prevención del espionaje", "seguridad técnica", "seguridad física", "seguridad de la información", "prevención de la ciberdelincuencia", "detección de intrusos", "parches de seguridad", "formación de empleados", "protección de datos"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Un escudo de dibujos animados con un candado en el centro, que representa la idea de la defensa contra los ataques de ingeniería social en ciberseguridad"
 coverCaption: ""
 ---

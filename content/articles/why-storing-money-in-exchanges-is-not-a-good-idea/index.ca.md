@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "En aquest article s'analitza els perills d'emmagatzemar criptomoneda en els intercanvis, explica per què és equivalent a emmagatzemar diners en un matalàs i destaca els avantatges d'utilitzar una cartera de maquinari per a l'emmagatzematge segur."
 tags: ["Emmagatzematge de criptomoneda", "Riscos de canvi", "Cartera de maquinari", "Seguretat cibernètica", "Invertir en cripto", "Emmagatzematge segur", "Claus privades", "Carteres portàtils", "Normativa governamental"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Una cartera de maquinari amb un cadenat i una cadena al voltant, que simbolitza la seguretat d'emmagatzemar criptomoneda en una cartera de maquinari."
 coverCaption: ""
 ---

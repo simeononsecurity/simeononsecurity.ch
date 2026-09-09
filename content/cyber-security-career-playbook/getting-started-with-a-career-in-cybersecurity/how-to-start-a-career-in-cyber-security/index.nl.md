@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-03
 description: "Leer de essentiële stappen om een succesvolle carrière in cyberbeveiliging te beginnen, van het bouwen van een sterke basis tot het verkennen van verschillende domeinen en certificeringen."
 tags: ["carrière in cyberbeveiliging", "beginnen in cyberbeveiliging", "fundament leggen", "netwerkbeginselen", "besturingssystemen", "coderingsvaardigheden", "administratie van bedrijfssystemen", "blauw team", "rood team", "paars team", "certificeringen", "continu leren", "eerste baan in cyberbeveiliging", "portfolio opbouwen", "netwerken voor cyberbeveiliging", "stages in cyberbeveiliging", "CompTIA Beveiliging", "Gecertificeerd ethisch hacker CEH", "Gecertificeerde beveiligingsprofessional voor informatiesystemen CISSP", "cyberbeveiligingsconferenties", "cyberbeveiligingstrends", "praktijkervaring", "cyberbeveiligingsprojecten", "cyberbeveiligingsbijeenkomsten", "instapniveau cyberbeveiliging", "verdedigen tegen cyberbedreigingen", "cyberbeveiligingsprofessionals", "loopbaanontwikkeling", "cyberbeveiligingsvaardigheden", "onderwijs in cyberbeveiliging"]
-cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.png"
+cover: "/img/cover/A_group_of_diverse_cybersecurity_professionals_collaborating.webp"
 coverAlt: "Een groep uiteenlopende cyberbeveiligingsprofessionals die samenwerken aan het beveiligen van digitale systemen en netwerken."
 coverCaption: "Een verenigd team van cyberbeveiligingsprofessionals die samenwerken om digitale systemen te beschermen tegen cyberbedreigingen."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate preziosi suggerimenti e trucchi per superare l'esame CompTIA Linux+ XK0-005 e progredire nella vostra carriera di professionisti Linux."
 tags: ["Aggiornamenti Linux", "Ubuntu", "Debian", "CentOS", "RHEL", "aggiornamenti offline", "repository locale", "cache", "configurazione del server", "impostazione del cliente", "apt-mirror", "debmirror", "creare un file", "apt-cacher-ng", "yum-cron", "Aggiornamenti del sistema Linux", "aggiornamenti dei pacchetti offline", "aggiornamenti software offline", "repository locale dei pacchetti", "cache locale dei pacchetti", "aggiornamenti offline di Linux", "gestione degli aggiornamenti offline", "metodi di aggiornamento offline", "manutenzione del sistema offline", "Aggiornamenti del server Linux", "Aggiornamenti del client Linux", "gestione del software offline", "gestione dei pacchetti offline", "aggiornare le strategie", "Aggiornamenti di sicurezza per Linux"]
-cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.png"
+cover: "/img/cover/A_friendly_cartoon_Linux_penguin_confidently_walking_over_a_bridge.webp"
 coverAlt: "Un simpatico pinguino Linux dei cartoni animati che cammina fiducioso su un ponte verso un futuro di successo."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak stworzyć bezpieczne i zgodne z przepisami rozwiązanie do tworzenia kopii zapasowych danych w chmurze."
 tags: ["kopia zapasowa w chmurze", "odzyskiwanie danych", "ochrona danych", "zgodność", "RODO", "HIPAA", "FISMA", "dostawca usług w chmurze", "szyfrowanie", "kontrola dostępu", "bezpieczeństwo", "przepisy", "standardy", "najlepsze praktyki", "ocena podatności na zagrożenia", "testy penetracyjne", "audyty", "zarządzanie ryzykiem", "skalowalność", "monitoring"]
-cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.png"
+cover: "/img/cover/A_3D_animated_image_of_a_secure_vault_in_the_clouds.webp"
 coverAlt: "Animowany obraz 3D bezpiecznego skarbca w chmurach, z różnymi ikonami regulacyjnymi (RODO, HIPAA, FISMA) unoszącymi się wokół niego i tarczą symbolizującą ochronę danych."
 coverCaption: ""
 ---

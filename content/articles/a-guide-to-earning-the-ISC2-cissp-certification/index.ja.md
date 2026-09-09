@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "情報セキュリティの専門家のための権威ある資格であるCISSP試験の準備と合格のためのステップを学びます。"
 tags: ["CISSP資格", "情報セキュリティ", "試験対策", "スタディプラン", "模擬試験", "サイバーセキュリティ", "プロフェッショナル・ディベロップメント", "検定試験", "アイエスシーツー", "しゅうぎょうきかい", "セキュリティアーキテクチャ", "ネットワークセキュリティ", "アクセスコントロール", "リスクマネージメント", "暗号化", "治安維持活動", "物理的安全保護", "事業継続性", "災害復旧", "コンプライアンス"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_CISSP_certificate.webp"
 coverAlt: "CISSPの証明書を持つ人の漫画画像で、セキュリティアーキテクチャ、アクセスコントロール、暗号化、ネットワークセキュリティなど、さまざまな情報セキュリティのトピックを示す思考バブルが描かれています。"
 coverCaption: ""
 ---

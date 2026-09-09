@@ -6,7 +6,7 @@ draft: false
 description: "Poznaj znaczenie podstaw sieci, w tym modelu OSI, topologii sieci i różnych typów sieci, dla budowania wydajnych i niezawodnych infrastruktur."
 genre: ["Technologia", "Tworzenie sieci", "Infrastruktura IT", "Architektura sieci", "Informatyka", "Transmisja danych", "Technologia informacyjna", "Bezpieczeństwo sieci", "Zarządzanie siecią", "Internet"]
 tags: ["podstawy sieci", "Model OSI", "topologie sieci", "typy sieci", "enkapsulacja danych", "warstwy sieci", "Topologia siatki", "topologia gwiazdy", "topologia magistrali", "topologia pierścienia", "topologia hybrydowa", "sieć peer-to-peer", "sieć klient-serwer", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hiperwizor", "łącza satelitarne", "DSL", "internet kablowy", "linia dzierżawiona", "metro-optyczny"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "Symboliczna ilustracja połączonych węzłów tworzących sieć."
 coverCaption: "Uwolnienie mocy podstaw sieci."
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Poznaj korzyści i wyzwania związane z przyjęciem modelu bezpieczeństwa Zero Trust w dzisiejszej erze cyfrowej."
 tags: ["Zero zaufania Bezpieczeństwo", "Cybersecurity", "Bezpieczeństwo sieci", "Bezpieczeństwo w chmurze", "Ochrona danych", "Model bezpieczeństwa", "Uwierzytelnianie", "Upoważnienie", "Szyfrowanie", "Zgodność", "HIPAA", "GDPR", "PCI DSS", "Doświadczenie użytkownika", "Koszt", "Złożoność", "Wielowarstwowe bezpieczeństwo", "Widoczność", "Elastyczność", "Naruszenia bezpieczeństwa"]
-cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.png"
+cover: "/img/cover/A_padlock_and_a_key_standing_on_a_network_cable.webp"
 coverAlt: "Kłódka i klucz stojące na kablu sieciowym w symboliczny sposób reprezentujące Zero Trust Security."
 coverCaption: ""
 ---

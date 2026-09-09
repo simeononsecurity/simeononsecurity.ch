@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ottenete i consigli e le strategie degli esperti per superare gli esami A+ di CompTIA, compresi gli acronimi essenziali, la conoscenza delle apparecchiature e le procedure comuni di risoluzione dei problemi."
 tags: ["Certificazione CompTIA A+", "220-1101", "220-1102", "Preparazione agli esami", "Certificazione IT", "Carriera IT", "Tecnologia dell'informazione", "Strategie per l'esecuzione dei test", "Suggerimenti per lo studio", "Competenze tecniche", "Tecniche di risoluzione dei problemi", "Componenti hardware", "Installazione del software", "Concetti di rete", "Principi di sicurezza", "Recupero dati", "Apprendimento online"]
-cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_holding_a_laptop.webp"
 coverAlt: "Un'immagine a fumetti di una persona che tiene in mano un computer portatile circondato da vari componenti hardware e cavi di rete, con una bolla di pensiero che visualizza una serie di acronimi e procedure di risoluzione dei problemi di CompTIA A+."
 coverCaption: ""
 ---

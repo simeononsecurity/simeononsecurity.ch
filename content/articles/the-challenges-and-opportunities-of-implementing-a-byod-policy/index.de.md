@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Entdecken Sie die Vorteile, Herausforderungen und Best Practices für die Umsetzung einer BYOD-Richtlinie in Ihrem Unternehmen."
 tags: ["BYOD-Richtlinie", "Bring-Your-Own-Device", "mobile device management", "Produktivität", "Sicherheitsrisiken", "Kosteneinsparungen", "Mitarbeiterschulung", "Sicherheitsprotokolle", "Datenverschlüsselung", "technische Unterstützung", "arbeitsbezogene Aufgaben", "Arbeitszufriedenheit", "Unternehmensrichtlinien", "Fernwischen", "MDM-Software", "Mitarbeitergeräte", "Sicherheitsmaßnahmen", "Gerätenutzung", "Compliance", "angemessene Verwendung"]
-cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.png"
+cover: "/img/cover/A_cartoon_image_of_a_person_juggling_various_personal_device.webp"
 coverAlt: "Ein Cartoon-Bild einer Person, die mit verschiedenen persönlichen Geräten (Laptop, Smartphone, Tablet) und arbeitsbezogenen Gegenständen (Dokumente, Kaffeetasse) jongliert"
 coverCaption: ""
 ---

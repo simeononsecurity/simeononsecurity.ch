@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "効果的な災害復旧計画とベストプラクティスで、サイバーレジリエントなインフラを構築する方法を学びます。"
 tags: ["サイバーレジリエンス", "災害復旧計画", "DRP", "リスクマネージメント", "事業継続性", "データ保護", "規制遵守", "NIST Cybersecurity Framework", "ヒパア", "ソックス", "PCI DSS", "グルバ", "フェルパ", "クラウドバックアップ", "バックアップ＆リカバリーソフトウェア", "リスクアセスメントツール", "インシデントレスポンスサービス", "サイバーセキュリティ", "情報セキュリティ", "ITインフラ"]
-cover: "/img/cover/A_shield_with_a_check_mark.png"
+cover: "/img/cover/A_shield_with_a_check_mark.webp"
 coverAlt: "チェックマークとCyber Resilient Infrastructureの文字が書かれた盾が、落ちてくるピクセルと燃え盛る街を背景に囲まれています。"
 coverCaption: ""
 ---

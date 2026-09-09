@@ -6,7 +6,7 @@ draft: false
 description: "了解 Homebox 的强大功能，这是一款用于高效库存和资产管理的开源软件，可提高家庭或小型企业的生产力。"
 genre: ["技术", "库存管理", "资产管理", "开放源代码", "生产率", "小型企业", "主页管理", "自托管", "软件", "组织结构"]
 tags: ["家庭邮箱", "库存管理", "资产管理", "开放源代码", "自办", "软件", "生产力", "小型企业", "家庭管理", "组织", "集中库存", "资产追踪", "自定义数据字段", "提醒", "报告", "数据隐私", "合规性", "政府法规", "网络服务器", "资料库", "安装过程", "GitHub 存储库", "数据安全", "隐私", "记账", "数据隐私与安全", "安装说明", "网络界面", "数据隐私", "遵守当地法律"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp"
 coverAlt: "一幅卡通插图，描绘了一个人利用 Homebox 软件整理各种物品的情景。"
 coverCaption: "使用 Homebox 简化库存和资产，提高效率！"
 ---

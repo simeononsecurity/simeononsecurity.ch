@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-08
 description: "Migliorate le vostre competenze in materia di cybersecurity con programmi e videocorsi online, che coprono un'ampia gamma di argomenti, per stare al passo con le minacce emergenti e proteggere gli ambienti digitali."
 tags: ["formazione sulla cybersicurezza", "programmi online", "corsi video", "educazione alla cybersicurezza", "formazione sulla sicurezza informatica", "certificazioni di cybersecurity", "carriera nella cybersecurity", "piattaforme di apprendimento online", "competenze di cybersecurity", "formazione pratica", "hacking etico", "sicurezza della rete", "data privacy", "intelligence sulle minacce informatiche", "codifica sicura", "risposta agli incidenti", "sicurezza del cloud", "sicurezza delle applicazioni web", "sicurezza mobile", "medicina legale digitale", "difesa della rete", "Le migliori pratiche di cybersicurezza", "industria della cybersicurezza", "professionisti della cybersicurezza", "lavori di cybersicurezza", "tendenze della cybersicurezza", "risorse per la sicurezza informatica", "consapevolezza della cybersicurezza", "notizie sulla sicurezza informatica", "strumenti di cybersicurezza"]
-cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.png"
+cover: "/img/cover/A_cartoon-style_image_showing_a_person_with_a_shield_protec.webp"
 coverAlt: "Un'immagine in stile cartone animato che mostra una persona con uno scudo che protegge un ambiente digitale dalle minacce informatiche."
 coverCaption: "Potenziate il vostro viaggio nella cybersecurity: Liberate il vostro potenziale di difesa digitale."
 ---

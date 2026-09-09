@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Explore las ventajas y desventajas de las herramientas de seguridad comerciales y de código abierto, que le ayudarán a tomar decisiones informadas para la estrategia de seguridad de su organización."
 tags: ["seguridad de código abierto", "herramientas de seguridad comercial", "rentabilidad", "flexibilidad", "personalización", "apoyo comunitario", "apoyo limitado", "documentación", "retos de integración", "calidad y fiabilidad", "integración perfecta", "vendor lock-in", "Recursos informáticos", "infraestructura de seguridad", "soluciones de seguridad", "limitaciones presupuestarias", "requisitos específicos", "compatibilidad del software", "objetivos de seguridad", "toma de decisiones"]
-cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.png"
+cover: "/img/cover/A_cartoon-style_image_of_two_contrasting_characters.webp"
 coverAlt: "Imagen de dibujos animados de dos personajes que representan herramientas de seguridad comerciales y de código abierto, situadas en lados opuestos de una balanza equilibrada, simbolizando los pros y los contras de cada opción."
 coverCaption: ""
 ---

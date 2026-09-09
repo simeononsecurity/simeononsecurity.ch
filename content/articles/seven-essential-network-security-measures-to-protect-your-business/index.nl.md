@@ -6,7 +6,7 @@ date: 2023-06-15
 description: "Leer de zeven essentiële netwerkbeveiligingsmaatregelen om je bedrijf te beschermen tegen cyberbedreigingen en gegevensbescherming te garanderen."
 genre: ["netwerkbeveiligingsmaatregelen", "beveiliging van bedrijfsnetwerken", "cyberbedreigingen", "netwerkbeveiligingsbeleid", "firewalls en inbraakpreventiesystemen", "draadloze netwerkbeveiliging", "software- en hardware-updates", "multi-factor authenticatie", "bewaking van netwerkactiviteiten", "Reactie op beveiligingsinbreuk"]
 tags: ["netwerkbeveiliging", "bedrijfsbeveiliging", "cyberbedreigingen", "netwerkbeveiliging", "netwerkbeveiligingsmaatregelen", "veiligheidsbeleid", "firewalls", "inbraakpreventiesystemen", "draadloze netwerkbeveiliging", "software-updates", "hardware-updates", "multi-factor authenticatie", "netwerkbewaking", "beveiligingslekken", "gegevensbescherming", "cyberbeveiliging", "beste beveiligingsprocedures", "veiligheidsbedreigingen", "veiligheidsmaatregelen", "beveiligingsbewustzijn", "essentiële netwerkbeveiligingsmaatregelen", "belang van netwerkbeveiliging", "risico's van ontoereikende netwerkbeveiliging", "voordelen van sterke beveiligingsmaatregelen", "een sterk beveiligingsbeleid opstellen", "werknemers voorlichten over beveiligingspraktijken", "het regelmatig herzien en bijwerken van het beveiligingsbeleid", "firewall- en inbraakpreventiesystemen implementeren", "draadloze netwerken beveiligen", "software en hardware regelmatig bijwerken"]
-cover: "/img/cover/7-essential-network-security-measures.png"
+cover: "/img/cover/7-essential-network-security-measures.webp"
 coverAlt: "Een cartoonillustratie van een schild dat een netwerkserver beschermt tegen cyberbedreigingen"
 ---
 

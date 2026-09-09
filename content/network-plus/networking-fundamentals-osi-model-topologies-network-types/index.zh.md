@@ -6,7 +6,7 @@ draft: false
 description: "探索网络基础知识的重要性，包括 OSI 模型、网络拓扑结构和各种类型的网络，以建立高效可靠的基础设施。"
 genre: ["技术", "联网", "信息技术基础设施", "网络架构", "计算机科学", "数据通信", "信息技术", "网络安全", "网络管理", "互联网"]
 tags: ["网络基础知识", "OSI 模型", "网络拓扑结构", "网络类型", "数据封装", "网络层", "网状拓扑", "星型拓扑结构", "总线拓扑结构", "环形拓扑结构", "混合拓扑", "点对点网络", "客户机服务器网络", "局域网", "MAN", "广域网", "无线局域网", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "虚拟机管理程序", "卫星链接", "数字订购线路", "有线网络", "租赁线路", "城域光"]
-cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.png"
+cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "相互连接的节点组成网络的符号图示。"
 coverCaption: "释放网络基础知识的力量。"
 ---

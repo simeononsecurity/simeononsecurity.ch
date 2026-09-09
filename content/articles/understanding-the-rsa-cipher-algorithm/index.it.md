@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Esplorare il funzionamento interno dell'algoritmo di cifratura RSA e la sua importanza nelle comunicazioni sicure."
 tags: ["Crittografia RSA", "crittografia asimmetrica", "crittografia a chiave pubblica", "algoritmo di crittografia", "Generazione di chiavi RSA", "aritmetica modulare", "Funzione totiente di Eulero", "numeri primi", "esponenziazione modulare", "testo cifrato", "testo in chiaro", "Sicurezza RSA", "comunicazione sicura", "firme digitali", "navigazione web sicura", "regolamenti governativi sulle RSA", "Linee guida NIST su RSA", "Regolamento eIDAS", "standard di crittografia", "protezione dei dati", "crittografia", "sicurezza delle informazioni", "messaggistica sicura", "e-mail crittografate", "HTTPS", "RSA nella comunicazione sicura", "RSA nelle firme digitali", "Punti di forza della RSA", "debolezze di RSA", "complessità computazionale di RSA", "lunghezza della chiave in RSA"]
-cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.png"
+cover: "/img/cover/A_symbolic_image_representing_the_RSA_cipher_algorithm.webp"
 coverAlt: "Un'immagine simbolica che rappresenta l'algoritmo di cifratura RSA con i simboli del lucchetto e della chiave, trasmettendo il concetto di comunicazione sicura e di crittografia."
 coverCaption: ""
 ---

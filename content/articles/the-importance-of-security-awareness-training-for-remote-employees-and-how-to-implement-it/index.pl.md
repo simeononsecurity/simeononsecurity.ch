@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Wzmocnij bezpieczeństwo swoich pracowników zdalnych dzięki skutecznemu szkoleniu z zakresu świadomości bezpieczeństwa i dowiedz się, jak je skutecznie wdrożyć."
 tags: ["pracownicy zdalni", "świadomość bezpieczeństwa", "cybersecurity", "szkolenie", "pracownicy zdalni", "phishing", "najlepsze praktyki", "kultura bezpieczeństwa", "gamifikacja", "NIST", "CISA", "SANS Świadomość bezpieczeństwa", "Instytut Infosec", "KnowBe4", "kształcenie ustawiczne", "scenariusze realne", "szkolenie interaktywne", "zagrożenia cybernetyczne", "platformy szkoleniowe w zakresie bezpieczeństwa"]
-cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.png"
+cover: "/img/cover/A_cartoon_image_of_a_diverse_group_of_remote_employees.webp"
 coverAlt: "Kreskówkowy obraz zróżnicowanej grupy zdalnych pracowników uczestniczących w angażującym szkoleniu z zakresu świadomości bezpieczeństwa na swoich laptopach, z otaczającymi ich różnymi symbolami cyberbezpieczeństwa."
 coverCaption: ""
 ---

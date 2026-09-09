@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the key steps to harden your network infrastructure against Advanced Persistent Threats (APTs) and protect your organization from cyber attacks."
 tags: ["network security", "cybersecurity", "advanced persistent threats", "network infrastructure", "access controls", "data encryption", "employee training", "incident response plan", "vulnerability assessments", "security policy", "monitoring network traffic", "phishing attacks", "endpoint protection", "intrusion detection", "firewalls", "SIEM", "data backup", "network segmentation", "cyber threats", "data privacy"]
-cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.png"
+cover: "/img/cover/A_cartoon_shield_with_a_lock_icon_in_the_center_representing.webp"
 coverAlt: "A cartoon shield with a lock icon in the center representing network security against APTs"
 coverCaption: ""
 ---

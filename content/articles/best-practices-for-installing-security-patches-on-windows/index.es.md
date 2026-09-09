@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a instalar los parches de seguridad acumulativos en Windows y siga las mejores prácticas para mantener su sistema a salvo de ciberataques."
 tags: ["Windows", "parches de seguridad", "ciberseguridad", "seguridad del sistema", "Microsoft", "parches acumulativos", "gestión de parches", "copia de seguridad de datos", "Spectre Deshielo", "codificación", "vulnerabilidades del sistema", "actualizaciones del sistema", "despliegue de parches", "entornos no productivos", "configuración del sistema", "Seguridad informática", "sistema de gestión de parches", "exploración de vulnerabilidades", "notas de la versión", "mantenimiento del sistema"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Imagen animada de un escudo con el logotipo de Windows protegido por un candado"
 coverCaption: ""
 ---

@@ -6,7 +6,7 @@ draft: false
 description: "Learn how to create an effective study plan for passing the CEH certification exam with tips and strategies for success."
 genre: ["Cybersecurity", "Information Security", "Professional Development", "IT Certification", "Network Security", "Ethical Hacking", "Exam Preparation", "Study Plan", "Time Management", "Career Advancement"]
 tags: ["CEH certification", "ethical hacking", "study plan", "time management", "exam preparation", "cybersecurity", "motivation", "study materials", "practice questions", "review", "EC-Council", "information security", "professional development", "IT certification", "career advancement", "network security", "penetration testing", "vulnerability assessment", "information assurance", "security testing", "study schedule", "weak areas", "practice exams", "study groups", "time management strategies", "familiarize with exam format", "manage time", "stay motivated", "learning resources", "CEH exam"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "A cartoon-style image of a person studying at a desk with a laptop and various books and notes, with the CEH logo in the background."
 coverCaption: "Prepare, Persist, Succeed: Your Journey to Becoming a Certified Ethical Hacker."
 ---

@@ -4,7 +4,7 @@ draft: false
 description: "Узнайте, как использовать автоматизированный инструмент RSA-атаки RsaCtfTool, чтобы легко решить проблему HackTheBox Weak RSA Crypto."
 tags: ["ХакБокс", "Проблемы", "Крипто", "Слабый RSA", "RsaCtfTool", "HTB Слабая RSA Crypto", "Легкий вызов", "шифр RSA", "flag.enc", "key.pub", "Пакет OpenSSL", "автоматизированный инструмент для RSA-атак", "скрипт питона", "RsaCtfTool", "питон3", "открытый ключ", "расшифровать файл", "Пример флага"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.png"
+cover: "/img/cover/A_cartoon_hacker_wearing_a_cape_and_a_mask_standing.webp"
 coverAlt: "Мультяшный хакер в плаще и маске стоит перед дверью хранилища с логотипом HTB и держит инструмент (например, гаечный ключ или отвертку) на зеленом фоне, символизирующем успех, и флаг в речевом пузыре выше их голова."
 coverCaption: ""
 ---

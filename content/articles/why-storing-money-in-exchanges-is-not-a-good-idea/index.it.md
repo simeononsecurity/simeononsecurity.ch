@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Questo articolo illustra i pericoli dell'archiviazione di criptovalute sugli exchange, spiegando perché equivale a conservare il denaro in un materasso, e sottolinea i vantaggi dell'utilizzo di un portafoglio hardware per l'archiviazione sicura."
 tags: ["Deposito di criptovalute", "Rischi di cambio", "Portafoglio hardware", "Sicurezza informatica", "Investire in criptovalute", "Conservazione sicura", "Chiavi private", "Portafogli portatili", "Regolamentazione governativa"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Un portafoglio hardware con un lucchetto e una catena intorno, che simboleggia la sicurezza di conservare criptovalute in un portafoglio hardware."
 coverCaption: ""
 ---

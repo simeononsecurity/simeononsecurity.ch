@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się o najbardziej krytycznych zagrożeniach bezpieczeństwa aplikacji internetowych z OWASP Top 10 i jak się przed nimi chronić"
 tags: ["Bezpieczeństwo aplikacji internetowych", "OWASP Top 10", "Ataki typu injection", "Uwierzytelnianie", "Zarządzanie sesjami", "Ataki XSS", "Kontrola dostępu", "Błędna konfiguracja zabezpieczeń", "Pamięć kryptograficzna", "Ochrona warstwy transportowej", "Walidacja danych wejściowych", "Komponenty innych firm", "Rejestrowanie i monitorowanie", "Tworzenie stron internetowych", "Cyberbezpieczeństwo", "Ochrona danych", "Bezpieczeństwo oprogramowania", "Bezpieczeństwo IT", "Środki bezpieczeństwa", "Zarządzanie ryzykiem"]
-cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.png"
+cover: "/img/cover/A_cartoon_image_of_a_web_developer_wearing_a_superhero_cape.webp"
 coverAlt: "Kreskówka przedstawiająca programistę internetowego w pelerynie superbohatera i trzymającego tarczę. Tarcza chroni laptopa z interfejsem aplikacji internetowej na ekranie."
 coverCaption: ""
 ---

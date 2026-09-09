@@ -4,7 +4,7 @@ draft: false
 toc: true
 description: "Esplora i consigli degli esperti di SimeonOnSecurity per prodotti e risorse relativi alla sicurezza e alla privacy affidabili e di alto livello."
 tags: ["raccomandazioni di sicurezza", "prodotti per la privacy", "strumenti di sicurezza informatica", "protezione dati", "privacy in internet", "antivirus", "libri", "plug-in del browser", "certificazioni", "fornitori di posta elettronica", "ogni giorno porta", "kit di strumenti per hacker", "cuffie", "microfoni", "Altoparlanti", "risorse di apprendimento", "client di messaggistica", "organizzazioni da sostenere", "risorse riservate", "SIP HA FATTO fornitori di VOIP"]
-cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_shield_with_a_lock_on_it.webp"
 coverAlt: "Un'immagine in stile cartone animato di uno scudo con un lucchetto per simboleggiare la sicurezza e la protezione della privacy, con un laptop o un dispositivo mobile sullo sfondo."
 coverCaption: ""
 ---

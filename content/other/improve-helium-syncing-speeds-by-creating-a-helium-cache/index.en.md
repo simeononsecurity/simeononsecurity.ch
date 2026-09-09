@@ -5,7 +5,7 @@ toc: true
 date: 2022-02-19
 description: "Learn how to install a Helium Miner Docker container on a VPS or Linux virtual machine for faster syncing speeds."
 tags: ['Resolve Helium Miner Syncing Problems', 'Helium Mining', 'Helium Network Token (HNT)', 'Solve Synchronization Problems', 'Blockchain Technology for Helium', 'Docker Container', 'Docker Watchtower Monitoring', 'Virtual Private Server (VPS)', 'Automated Task Scheduler (Cron)', 'Automated Tasks with Cron Jobs']
-cover: "/img/cover/A_cartoon_or_3d_animated_image_of_a_computer_with_a_chain.png"
+cover: "/img/cover/A_cartoon_or_3d_animated_image_of_a_computer_with_a_chain.webp"
 coverAlt: "A cartoon or 3d animated image of a computer with a chain symbolizing the blockchain, connected to multiple other computer symbols representing the peers in the network, all connected to a central hub symbolizing the centralized cache setup."
 coverCaption: ""
 ---

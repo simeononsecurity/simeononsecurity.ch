@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les meilleures pratiques pour protéger votre organisation contre les menaces internes causées par des employés, des sous-traitants ou des partenaires qui ont accès à des données et à des systèmes sensibles."
 tags: ["menaces d'initiés", "cybersécurité", "protection des données", "formation des employés", "contrôles techniques", "les contrôles d'accès", "développement de la politique", "prévention de la perte de données", "incident response", "Sécurité informatique", "la gestion des risques", "accès privilégié", "sensibilisation à la sécurité", "cyberattaques", "sécurité des réseaux", "la sécurité de l'information", "détection des menaces", "l'évaluation des risques", "politiques de sécurité", "cybercriminalité"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "Image caricaturale d'un employé muni d'une clé déverrouillant une porte contenant des données sensibles, sous le regard suspicieux d'un autre employé muni d'une loupe. "
 coverCaption: ""
 ---

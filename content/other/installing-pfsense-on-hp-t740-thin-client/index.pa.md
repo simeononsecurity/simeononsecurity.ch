@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-29
 description: "ਜਾਣੋ ਕਿ HP t740 ਥਿਨ ਕਲਾਇੰਟ 'ਤੇ pfSense ਨੂੰ ਕਿਵੇਂ ਸੈੱਟ ਕਰਨਾ ਹੈ, ਅਤੇ ਸੰਭਾਵੀ ਸਮੱਸਿਆਵਾਂ ਜਿਵੇਂ ਕਿ ਫ੍ਰੀਜ਼ਿੰਗ ਅਤੇ SSD ਖੋਜ ਸਮੱਸਿਆਵਾਂ ਦਾ ਨਿਪਟਾਰਾ ਕਿਵੇਂ ਕਰਨਾ ਹੈ।"
 tags: ["pfSense", "OPNsense", "ਸਖ਼ਤ ਬੀ.ਐੱਸ.ਡੀ", "HP t740", "ਪਤਲਾ ਗਾਹਕ", "ਹੋਮ ਸਰਵਰ", "PPPoE", "FreeBSD", "ਬੂਟ ਪ੍ਰੋਂਪਟ", "loader.conf.local", "ਨੈਨੋ ਸੰਪਾਦਕ", "SSD ਖੋਜ", "M.2 SSD", "ਪੱਛਮੀ ਡਿਜੀਟਲ", "ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ", "ਪੋਸਟ-ਇੰਸਟਾਲੇਸ਼ਨ", "UART", "ESXi", "ਪ੍ਰੌਕਸਮੌਕਸ"]
-cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.png"
+cover: "/img/cover/A_cartoon_of_a_wizard_casting_a_spell_to_fix_a_frozen_computer.webp"
 coverAlt: "ਇੱਕ ਵਿਜ਼ਾਰਡ ਦਾ ਇੱਕ ਕਾਰਟੂਨ ਜੋ ਇੱਕ ਜੰਮੇ ਹੋਏ ਕੰਪਿਊਟਰ ਨੂੰ ਠੀਕ ਕਰਨ ਲਈ ਇੱਕ ਸਪੈੱਲ ਕੱਢਦਾ ਹੈ, ਇੱਕ ਸਪੀਚ ਬੁਲਬੁਲੇ ਦੇ ਨਾਲ ਸਮੱਸਿਆ ਹੱਲ ਹੋ ਗਈ ਹੈ"
 coverCaption: ""
 canonical: "https://simeononsecurity.com/guides/installing-pfsense-on-hp-t740-thin-client/"

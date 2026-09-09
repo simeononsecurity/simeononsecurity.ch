@@ -6,7 +6,7 @@ draft: false
 description: "Découvrez le rôle crucial du gel de votre crédit dans la protection de votre avenir financier et apprenez comment prendre le contrôle de votre cote de crédit."
 genre: ["Gel du crédit", "Protection du pointage de crédit", "Prévention du vol d'identité", "Sécurité financière", "Prévention de la fraude", "Bureaux de crédit", "Equifax", "Experian", "TransUnion", "Finances personnelles"]
 tags: ["gel du crédit", "score de crédit", "protection contre l'usurpation d'identité", "la sécurité financière", "prévention de la fraude", "bureaux de crédit", "Equifax", "Experian", "TransUnion", "protéger la cote de crédit", "sauvegarder le crédit", "rapport de solvabilité", "fraude au crédit", "surveillance du crédit", "émetteurs de cartes de crédit", "gel du crédit", "protection du crédit", "gel du dossier de crédit", "services de surveillance du crédit", "avenir financier", "importance du gel du crédit", "comment geler le crédit", "processus de gel de crédit", "gel de sécurité du bureau de crédit", "gel des rapports de solvabilité", "prévenir l'usurpation d'identité", "gestion du score de crédit", "protection des informations financières", "mesures de sécurité contre la fraude", "protection de l'identité financière"]
-cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.png"
+cover: "/img/cover/A_lock_with_a_chain_wrapped_around_a_credit_score_report.webp"
 coverAlt: "Un cadenas avec une chaîne enroulée autour d'un rapport de score de crédit, symbolisant la protection et la sécurité que le gel de votre crédit apporte contre le vol d'identité et la fraude"
 coverCaption: ""
 ---

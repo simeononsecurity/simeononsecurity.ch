@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "この初心者向けガイドで、インシデントレスポンスとサイバーセキュリティインシデント対応の基本を学びましょう。"
 tags: ["インシデントレスポンス", "サイバーセキュリティ", "ビギナーズガイド", "データ保護", "データ機密保護", "ITセキュリティ", "ネットワークセキュリティ", "サイバー攻撃", "情報セキュリティ", "サイバー犯罪", "デジタル・セキュリティ", "ITインフラ", "データ漏洩", "サイバー脅威", "サイバー防衛", "インシデント管理", "データ復旧", "保安計画", "リスク管理", "サイバーセキュリティ戦略"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "サイバー脅威から街を守るサイバーセキュリティのスーパーヒーローの漫画画像。"
 coverCaption: ""
 ---

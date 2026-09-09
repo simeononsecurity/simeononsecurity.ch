@@ -6,7 +6,7 @@ draft: false
 description: "Discover the different 802.11 standards, frequencies, range, and encryption in wireless networks to prepare for CompTIA's Network+ Certification Exam."
 genre: ["Technology", "Networking", "Wireless Networking", "Certification Exam", "CompTIA Network+", "IT Training", "IT Certification", "Wireless Standards", "Wireless Technologies", "Information Technology"]
 tags: ["CompTIA Network Plus", "Network+ Certification Exam", "Wireless Standards", "Wireless Technologies", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequencies", "Range", "Channel Bonding", "Antenna Types", "Encryption Standards", "SSID Configurations", "Wireless Networking", "Wireless Network Exam", "Wireless Network Training", "Wireless Network Certification", "Wireless Network Technology", "Wireless Network Security", "Wireless Network Performance", "Wireless Network Protocols", "Wireless Network Configuration", "Wireless Network Troubleshooting", "Wireless Network Best Practices"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "A cartoon illustration showcasing different wireless network devices and signals."
 coverCaption: "Unleash the Power of Wireless Networks"
 ---

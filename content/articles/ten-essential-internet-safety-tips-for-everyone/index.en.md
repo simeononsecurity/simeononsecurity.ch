@@ -6,7 +6,7 @@ date: 2023-06-12
 description: "Learn 10 vital internet safety tips to protect your privacy, security, and finances online and keep your family safe from cyber threats."
 genre: ["Internet Safety", "Online Security", "Cybersecurity Tips", "Privacy Protection", "Digital Safety", "Online Threats", "Data Security", "Safe Internet Practices", "Protecting Personal Information", "Online Privacy"]
 tags: ["internet safety tips", "online security", "cyber threats", "privacy protection", "digital safety", "online threats", "data security", "safe internet practices", "protecting personal information", "online privacy", "cybersecurity tips", "internet privacy", "online scams", "phishing attacks", "malware protection", "secure passwords", "two-factor authentication", "secure Wi-Fi", "network monitoring", "email security", "social media privacy", "financial information security", "secure websites", "bank statement monitoring", "strong passwords", "password managers", "online education", "cybersecurity awareness", "reliable security software"]
-cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.png"
+cover: "/img/cover/10-essential-internet-safety-tips-for-everyone.webp"
 coverAlt: "A symbolic image representing internet safety, with a shield protecting a computer screen from cyber threats." 
 coverCaption: "Stay Safe Online: Protect Yourself and Your Family from Cyber Threats"
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, jak chronić się przed cyberzagrożeniami, unikając tych 10 powszechnych błędów cyberbezpieczeństwa."
 tags: ["cybersecurity", "bezpieczeństwo w sieci", "zagrożenia cybernetyczne", "hakowanie", "phishing", "złośliwe oprogramowanie", "hasła", "publiczna sieć Wi-Fi", "antywirus", "media społecznościowe", "kopia zapasowa danych", "ostrzeżenia dotyczące bezpieczeństwa", "publiczne stacje ładowania", "bezpieczeństwo komputerowe", "zapobieganie cyberprzestępczości", "kradzież tożsamości", "prywatność cyfrowa", "bezpieczeństwo sieci", "aktualizacje oprogramowania", "bezpieczeństwo w sieci"]
-cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.png"
+cover: "/img/cover/A_cartoon_lock_protecting_a_laptop_with_a_hacker.webp"
 coverAlt: "Kreskówkowy zamek zabezpieczający laptopa, z hakerem w tle."
 coverCaption: ""
 ---

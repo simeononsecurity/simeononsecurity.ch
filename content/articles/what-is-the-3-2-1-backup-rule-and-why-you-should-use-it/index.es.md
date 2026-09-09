@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a proteger sus valiosos datos de ciberataques, catástrofes naturales y fallos de hardware."
 tags: ["estrategia de copias de seguridad", "protección de datos", "ciberseguridad", "data redundancy", "prevención de pérdida de datos", "recuperación de datos", "conformidad", "discos duros externos", "servicios de almacenamiento en la nube", "almacenamiento en red", "software de copia de seguridad", "copias de seguridad automatizadas", "seguridad de los datos", "recuperación en caso de catástrofe", "copia de seguridad externa", "copias de seguridad redundantes", "buenas prácticas de copia de seguridad", "soluciones de copia de seguridad", "tipos de almacenamiento", "seguridad de los datos"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "Un personaje de dibujos animados con una capa sostiene un escudo con el número 3, mientras está de pie encima de dos cajas de almacenamiento, una que representa un disco duro y la otra una nube, y señala un globo terráqueo que representa el almacenamiento externo."
 coverCaption: ""
 ---

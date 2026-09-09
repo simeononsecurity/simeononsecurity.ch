@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a conoscere i comportamenti essenziali per rendere più sicuro il vostro sistema Linux, tra cui l'aggiornamento, l'uso dei firewall, l'abilitazione di SELinux o AppArmor, la configurazione dei criteri per le password e il monitoraggio dei registri di sistema."
 tags: ["Sicurezza di Linux", "indurimento del sistema", "firewall", "SELinux", "AppArmor", "politica delle password", "aggiornamenti del sistema", "registri di sistema", "moduli di sicurezza", "politiche di controllo degli accessi", "sicurezza informatica", "sicurezza del sistema", "sicurezza della rete", "gestione delle vulnerabilità", "migliori pratiche di sicurezza", "Sicurezza informatica", "sicurezza delle informazioni", "aggiornamenti software", "accesso root", "gestore di password"]
-cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.png"
+cover: "/img/cover/A_cartoon_lock_holding_a_shield_with_the_word_Linux_on_it.webp"
 coverAlt: "Un lucchetto a fumetti che regge uno scudo con la parola Linux, mentre una freccia rimbalza sullo scudo."
 coverCaption: ""
 ---

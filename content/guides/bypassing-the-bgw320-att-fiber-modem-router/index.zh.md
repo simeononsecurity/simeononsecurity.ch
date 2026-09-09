@@ -5,7 +5,7 @@ toc: true
 date: 2023-04-30
 description: "通过这份易于遵循的指南，了解如何绕过 BGW-320 并使用 Azores 制造的 COTS ONT 连接到您的 ISP 网络。"
 tags: ["科茨安大略省", "BGW-320", "亚速尔群岛", "纤维", "网络", "XGS-PON", "以太网", "IP透传", "定制", "网络服务提供商", "手机号", "MAC地址", "设备编号", "图像版本", "硬件版本", "远程登录", "CLI 应用程序", "网页界面", "出厂配置模式", "兼容性问题"]
-cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.png"
+cover: "/img/cover/A_cartoon_technician_holding_a_COTS_ONT_with_a_fiber_cable.webp"
 coverAlt: "一位卡通技术人员手持 COTS ONT，背景中有一根光缆。"
 coverCaption: ""
 ---

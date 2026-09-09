@@ -6,7 +6,7 @@ draft: false
 description: "Descoperiți diferitele standarde 802.11, frecvențele, raza de acțiune și criptarea în rețelele wireless pentru a vă pregăti pentru examenul de certificare Network+ de la CompTIA."
 genre: ["Tehnologie", "Rețea", "Rețele fără fir", "Examen de certificare", "CompTIA Network+", "Formare IT", "Certificare IT", "Standardele wireless", "Tehnologii fără fir", "Tehnologia informației"]
 tags: ["CompTIA Network Plus", "Network+ Examen de certificare", "Standardele wireless", "Tehnologii fără fir", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frecvențe", "Gama", "Lipirea canalelor", "Tipuri de antene", "Standarde de criptare", "Configurații SSID", "Rețele fără fir", "Examen de rețea fără fir", "Formare în domeniul rețelelor fără fir", "Certificare pentru rețele wireless", "Tehnologia rețelelor fără fir", "Securitatea rețelelor fără fir", "Performanța rețelei wireless", "Protocoale de rețea fără fir", "Configurarea rețelei fără fir", "Depanarea rețelei wireless", "Cele mai bune practici de rețea wireless"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "O ilustrație de desen animat care prezintă diferite dispozitive și semnale de rețea fără fir."
 coverCaption: "Eliberați puterea rețelelor fără fir"
 ---

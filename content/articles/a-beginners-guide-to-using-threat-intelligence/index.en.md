@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Improve your cybersecurity posture with this beginner's guide to threat intelligence and its importance."
 tags: ["Threat Intelligence", "Cybersecurity", "Beginner's Guide", "Tactics", "Techniques", "Procedures", "Data Analysis", "Vulnerabilities", "Security Operations", "Machine Learning", "Data Mining", "Decision-Making", "Automation", "Community", "Dark Web Monitoring", "Internal Network Logs", "Incident Response", "Phishing Campaigns", "Malware", "Strategic Planning"]
-cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.png"
+cover: "/img/cover/A_3D_animated_magnifying_glass_with_an_eye_in_the_center.webp"
 coverAlt: "A 3D animated magnifying glass with an eye in the center, hovering over a binary code background."
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn the best practices for protecting your organization against insider threats caused by employees, contractors, or partners who have access to sensitive data and systems."
 tags: ["insider threats", "cybersecurity", "data protection", "employee training", "technical controls", "access controls", "policy development", "data loss prevention", "incident response", "IT security", "risk management", "privileged access", "security awareness", "cyber attacks", "network security", "information security", "threat detection", "risk assessment", "security policies", "cyber crime"]
-cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.png"
+cover: "/img/cover/A_cartoon_image_of_an_employee_with_a_key_unlocking_a_door.webp"
 coverAlt: "A cartoon image of an employee with a key unlocking a door labeled sensitive data while another employee with a magnifying glass looks on suspiciously "
 coverCaption: ""
 ---

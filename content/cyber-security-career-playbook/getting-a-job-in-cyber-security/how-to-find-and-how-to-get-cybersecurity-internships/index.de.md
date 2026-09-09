@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-22
 description: "Entdecken Sie die besten Möglichkeiten, um Praktika im Bereich Cybersicherheit zu finden und zu sichern, praktische Erfahrungen zu sammeln und Ihre Karriere in diesem Bereich zu starten."
 tags: ["Praktika im Bereich Cybersicherheit", "Praktikumsmöglichkeiten", "Praktika im Bereich Cybersicherheit finden", "wie man Praktika im Bereich Cybersicherheit bekommt", "bezahlte Praktika", "unbezahlte Praktika", "Praktika bei staatlichen Stellen", "Praktika in privaten Unternehmen", "Praktika", "Praktika für Credits", "Online-Jobbörsen", "Jobbörsen für Cybersicherheit", "staatliche Vorschriften", "NSA-Praktika", "DoD-Praktika", "FBI-Praktika", "IBM-Praktika", "Microsoft Praktika", "Cisco Praktika", "Symantec-Praktika", "ISACA-Praktika", "(ISC)²-Praktika", "CompTIA-Praktika", "Networking für Praktika", "Lebenslauftipps für Praktika", "Interviewvorbereitung", "Karriereentwicklung im Bereich Cybersicherheit", "berufliche Verbindungen", "praktische Erfahrung", "Cybersicherheitsausbildung"]
-cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.png"
+cover: "/img/cover/A_cartoon-style_image_depicting_a_student_wearing_a_superhe.webp"
 coverAlt: "Ein Bild im Cartoon-Stil, das einen Studenten zeigt, der einen Superhelden-Umhang trägt und ein Schild mit einem Schloss-Symbol in der Hand hält, das für Praktika und Karrieremöglichkeiten im Bereich Cybersicherheit steht."
 coverCaption: "Erschließen Sie sich Ihre Zukunft in der Cybersicherheit mit wertvollen Praktika!"
 ---

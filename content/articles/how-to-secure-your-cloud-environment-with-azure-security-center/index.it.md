@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a proteggere il vostro ambiente cloud utilizzando Azure Security Center, con best practice ed esempi reali."
 tags: ["Azzurro", "Centro di sicurezza", "sicurezza del cloud", "Sentinella Azzurra", "Difensore dell'Azzurro", "sicurezza della rete", "gestione dell'identità", "sicurezza dei dati", "rilevamento delle minacce", "risposta alle minacce", "MFA", "RBAC", "NSG", "Firewall Azure", "WAF", "Azure AD", "Protezione delle informazioni di Azure", "Crittografia del servizio di archiviazione Azure", "Crittografia del disco di Azure"]
-cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.png"
+cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "Un'icona a forma di scudo circondata da simboli di nuvole, che rappresenta un ambiente cloud sicuro, con il logo del Centro sicurezza Azure sullo scudo."
 coverCaption: ""
 ---

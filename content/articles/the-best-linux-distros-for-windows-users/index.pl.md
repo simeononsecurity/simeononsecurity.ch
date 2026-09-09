@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-29
 description: "Odkryj najlepsze dystrybucje Linuksa do przejścia z systemu Windows, w tym popularne opcje, takie jak Ubuntu, Zorin OS i Linux Mint, z płynnym i przyjaznym dla użytkownika doświadczeniem."
 tags: ["Dystrybucje Linuksa", "Ubuntu", "Zorin OS", "Linux Mint", "Manjaro", "Przełącznik Windows", "Linux dla początkujących", "System operacyjny Linux", "Pobieranie Ubuntu", "Zorin OS do pobrania", "Pobieranie Linux Mint", "Pobieranie Manjaro", "Środowiska graficzne Linux", "Linux rolling release", "Społeczność Linux", "Obsługa systemu Linux", "Repozytorium oprogramowania dla systemu Linux", "Dokumentacja systemu Linux", "Interfejs użytkownika systemu Linux", "Menedżer pakietów Linux", "Przejście z systemu Windows na Linux", "Interfejs przypominający Windows", "Linux alternatywą dla Windows", "Przyjazne dla użytkownika dystrybucje Linuksa", "Porównanie dystrybucji Linuksa", "Przewodnik migracji do systemu Linux", "Linux dla użytkowników Windows", "Podręcznik instalacji systemu Linux", "Funkcje dystrybucji Linuksa", "Zalety systemu Linux", "Kompatybilność systemu Linux z aplikacjami Windows"]
-cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_person_stepping_from_a_Windows.webp"
 coverAlt: "Kreskówkowa ilustracja osoby przechodzącej od logo Windows do logo Linux z płynnym przejściem"
 coverCaption: ""
 ---

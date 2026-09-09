@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Learn how to protect your valuable data from cyber attacks, natural disasters, and hardware failures."
 tags: ["backup strategy", "data protection", "cybersecurity", "data redundancy", "data loss prevention", "data recovery", "compliance", "external hard drives", "cloud storage services", "network-attached storage", "backup software", "automated backups", "data security", "disaster recovery", "offsite backup", "redundant backups", "backup best practices", "backup solutions", "storage types", "data safety"]
-cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.png"
+cover: "/img/cover/A_cartoon_character_with_a_cape_holding_a_shield.webp"
 coverAlt: "A cartoon character with a cape holding a shield with the number 3 on it, while standing on top of two storage boxes, one representing a hard drive and the other a cloud, and pointing to a globe representing offsite storage."
 coverCaption: ""
 ---

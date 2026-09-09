@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Ontdek waarom het cruciaal is om ervan uit te gaan dat elk apparaat al gecompromitteerd is en leer praktische maatregelen om uw digitale beveiliging in de huidige onderling verbonden wereld te verbeteren."
 tags: ["apparaatbeveiliging", "cyberbeveiliging", "digitale veiligheid", "cyberdreigingen", "hacken", "apparaatcompromis", "gegevensbescherming", "veilig browsen", "beveiliging van persoonsgegevens", "authenticatie", "wachtwoordbeveiliging", "privacy van sociale media", "veilige communicatie", "apparaathygiëne", "gegevensback-up", "beste praktijken op het gebied van cyberbeveiliging", "digitale privacy", "cyberbeveiligingsbewustzijn", "online veiligheid", "internetbeveiliging", "online privacy", "cyberdefensie", "cyberweerbaarheid", "cyberbeveiligingsmentaliteit", "veiligheidsmaatregelen", "preventie van cyberdreigingen", "cyberbeveiligingsstrategieën", "gegevensprivacy", "onderwijs in cyberbeveiliging", "cyberbeveiligingsmiddelen"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Een symbolische afbeelding van een schild met onderling verbonden apparaten en sloten, die het belang van het aannemen van compromittering van apparaten en het versterken van de digitale veiligheid voorstelt."
 coverCaption: ""
 ---

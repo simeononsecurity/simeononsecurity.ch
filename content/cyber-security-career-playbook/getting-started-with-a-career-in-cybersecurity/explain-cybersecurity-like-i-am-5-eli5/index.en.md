@@ -5,7 +5,7 @@ toc: true
 date: 2023-06-02
 description: "A comprehensive guide explaining cybersecurity in simple terms, highlighting its importance, personal security hygiene practices, and the role of cybersecurity professionals."
 tags: ["cybersecurity", "digital protection", "personal security", "cyber threats", "cybersecurity professionals", "phishing", "software updates", "strong passwords", "multi-factor authentication", "online safety", "digital world", "cyber attacks", "information security", "internet security", "data protection", "online privacy", "cyber defense", "cyber hygiene", "online security tips", "cyber awareness", "cyber education", "cybercrime prevention", "cyber resilience", "secure online practices", "digital privacy", "cybersecurity guide", "cybersecurity basics", "cybersecurity awareness", "cybersecurity tips", "cybersecurity best practices", "cybersecurity for beginners"]
-cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.png"
+cover: "/img/cover/A_cartoon_illustration_of_a_superhero_with_a_shield_protecting_a_digital.webp"
 coverAlt: "A cartoon illustration of a superhero with a shield protecting a digital world from hackers and cyber threats."
 coverCaption: ""
 ---

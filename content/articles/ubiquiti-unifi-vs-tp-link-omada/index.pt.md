@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Compare os sistemas de rede Ubiquiti Unifi e TP-Link Omada para escolher o ideal para suas necessidades."
 tags: ["Ubiquiti", "TP-Link", "rede", "unifi", "Omada", "gerenciamento", "hardware", "apoiar", "regulamentos", "características", "ao controle", "interface", "valor", "confiabilidade", "desempenho", "escalabilidade", "gerenciamento fácil", "segurança", "preços", "desvantagens", "Controlador Unifi", "Controlador Omada", "comparação de hardware", "suporte ao cliente", "ofertas de produtos adicionais", "Ubiquiti Unifi x TP-Link Omada", "gerenciamento de rede baseado na web", "soluções de rede escaláveis", "recursos de segurança de rede", "hardware de rede confiável", "preços competitivos para redes"]
-cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.png"
+cover: "/img/cover/A_split-screen_illustration_of_a_complex_network.webp"
 coverAlt: "Uma ilustração em tela dividida de uma rede complexa de um lado, com uma interface fácil de usar do outro"
 coverCaption: ""
 ---

@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Dowiedz się, dlaczego ważne jest, aby zakładać, że każde urządzenie jest już zagrożone i poznaj praktyczne środki zwiększające bezpieczeństwo cyfrowe w dzisiejszym połączonym świecie."
 tags: ["bezpieczeństwo urządzenia", "cyberbezpieczeństwo", "bezpieczeństwo cyfrowe", "cyberzagrożenia", "hakowanie", "kompromis urządzenia", "ochrona danych", "bezpieczne przeglądanie", "bezpieczeństwo danych osobowych", "uwierzytelnianie", "bezpieczeństwo hasła", "Prywatność w mediach społecznościowych", "bezpieczna komunikacja", "higiena urządzenia", "kopia zapasowa danych", "najlepsze praktyki cyberbezpieczeństwa", "prywatność cyfrowa", "świadomość cyberbezpieczeństwa", "bezpieczeństwo online", "bezpieczeństwo w internecie", "prywatność online", "cyberobrona", "odporność cybernetyczna", "sposób myślenia o cyberbezpieczeństwie", "środki bezpieczeństwa", "Zapobieganie cyberzagrożeniom", "strategie cyberbezpieczeństwa", "prywatność danych", "edukacja w zakresie cyberbezpieczeństwa", "zasoby cyberbezpieczeństwa"]
-cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.png"
+cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_with_interconnected.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca tarczę z połączonymi urządzeniami i zamkami, reprezentująca znaczenie zakładania kompromitacji urządzeń i wzmacniania bezpieczeństwa cyfrowego."
 coverCaption: ""
 ---

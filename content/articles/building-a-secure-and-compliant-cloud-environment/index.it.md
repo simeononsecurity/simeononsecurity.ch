@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come creare un ambiente cloud sicuro e conforme per la vostra azienda con la nostra guida completa."
 tags: ["cloud computing", "sicurezza informatica", "data privacy", "compliance", "HIPAA", "PCI DSS", "GDPR", "backup dei dati", "recupero in caso di disastro", "crittografia", "controlli di accesso", "autenticazione a più fattori", "monitoraggio continuo", "valutazioni di vulnerabilità", "violazioni dei dati", "minacce interne", "misconfiguration", "perdita di dati", "fornitore di cloud", "misure di sicurezza"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Una nuvola a fumetti con un lucchetto, che rappresenta l'ambiente cloud sicuro e conforme che viene costruito nell'articolo."
 coverCaption: ""
 ---

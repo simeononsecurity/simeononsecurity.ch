@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "学习 Python 安全编码的最佳实践，最大限度地降低安全漏洞的风险并保护敏感数据。"
 tags: ["Python", "安全编码", "安全风险", "输入验证", "密码学图书馆", "最低特权", "静态代码分析器", "网络应用", "Python 框架", "Django", "闪光灯", "认证系统", "密码散列", "模板系统", "会话管理", "标记安全", "WTForms", "闪烁器", "数据保护", "脆弱性", "安全编码", "Python", "安全风险", "输入验证", "密码学图书馆", "最低特权", "静态代码分析器", "网络应用", "Python 框架", "Django", "闪光灯", "认证系统", "密码散列", "模板系统", "会话管理", "标记安全", "WTForms", "闪烁器", "数据保护", "脆弱性", "Python 代码安全", "代码审查", "静态分析工具", "安全的网络开发", "安全编码实践", "安全漏洞", "代码安全最佳实践", "数据加密", "最小特权原则", "代码分析", "网络安全"]
-cover: "/img/cover/A_cartoon_shield_with_the_word_Python.png"
+cover: "/img/cover/A_cartoon_shield_with_the_word_Python.webp"
 coverAlt: "一个写有 Python 字样的卡通盾牌，代表安全编码标准"
 coverCaption: ""
 ---

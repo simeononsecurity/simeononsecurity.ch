@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite le principali caratteristiche di sicurezza del cloud e le certificazioni di AWS, Azure e Google Cloud Platform per scegliere la migliore soluzione cloud sicura per la vostra azienda."
 genre: ["Cloud Computing", "Sicurezza in-the-cloud", "AWS", "Azzurro", "Piattaforma cloud di Google", "Sicurezza dei dati", "Crittografia", "Gestione dell'identità e dell'accesso", "Compliance", "Rilevamento delle minacce"]
 tags: ["soluzioni cloud sicure", "AWS vs. Azure vs. Google Cloud Platform", "caratteristiche di sicurezza del cloud", "crittografia dei dati", "gestione dell'identità e dell'accesso", "certificazioni di conformità", "rilevamento delle minacce", "protezione dei dati", "sicurezza della rete", "cloud computing", "piattaforme cloud", "violazioni dei dati", "rischi per la sicurezza", "HIPAA", "ISO 27001", "SOC 2", "SOC 3", "FISMA", "confronto dei prezzi", "scegliere la giusta soluzione cloud", "esigenze di sicurezza aziendale", "scalability", "flessibilità", "efficacia dei costi", "misure di sicurezza", "fornitori di cloud", "protocolli di crittografia", "requisiti di conformità", "controllo delle porte di rete", "firewall", "sistemi di rilevamento delle intrusioni", "dati a riposo", "data in transit", "accesso sicuro", "ambiente sicuro", "cloud computing sicuro"]
-cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.png"
+cover: "/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp"
 coverAlt: "Un'illustrazione in stile arte simbolica che raffigura una nuvola con un lucchetto, simbolo di soluzioni cloud sicure."
 coverCaption: "Proteggete la vostra azienda nel cloud"
 ---

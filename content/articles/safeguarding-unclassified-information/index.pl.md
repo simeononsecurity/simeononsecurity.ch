@@ -6,7 +6,7 @@ draft: false
 description: "Odkryj prawdziwą naturę informacji jawnych, ich kluczowe cechy, środki zabezpieczające i odpowiednie przepisy dotyczące skutecznej ochrony."
 genre: ["Bezpieczeństwo informacji", "Zarządzanie danymi", "Przepisy rządowe", "Udostępnianie informacji", "Ochrona danych", "Poufność", "Ograniczanie ryzyka", "Zarządzanie informacjami", "Klasyfikacja danych", "Dostęp do informacji"]
 tags: ["informacje jawne", "bezpieczeństwo informacji", "agencje rządowe", "ochrona danych", "zarządzanie informacjami", "kontrolowane informacje jawne", "kontrola dostępu", "szyfrowanie", "szkolenie pracowników", "bezpieczeństwo fizyczne", "klasyfikacja danych", "poufność", "zarządzanie informacjami", "ograniczanie ryzyka", "udostępnianie informacji", "zarządzanie danymi", "regulacje rządowe", "dostęp do informacji", "ochrona", "środki bezpieczeństwa", "wrażliwe informacje", "wartość informacji jawnych", "publicznie dostępne dane", "Program CUI", "oficjalne rejestry agencji", "dostępność", "współdzielenie", "ograniczona czułość", "wartość informacji jawnych", "Regulamin programu CUI", "reakcja na incydent", "środki bezpieczeństwa fizycznego"]
-cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.png"
+cover: "/img/cover/A_symbolic_illustration_showcasing_a_locked_vault_with_uncl.webp"
 coverAlt: "Symboliczna ilustracja przedstawiająca zamknięty skarbiec z niesklasyfikowanymi informacjami w środku."
 coverCaption: "Zabezpieczanie kluczy: Ochrona informacji jawnych dla bezpieczeństwa informacji"
 ---

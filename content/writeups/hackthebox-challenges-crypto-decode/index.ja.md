@@ -5,7 +5,7 @@ draft: false
 description: "フェルネット暗号とマルボゲ暗号を解読して HackTheBox 暗号チャレンジを解決し、隠されたフラグを明らかにする方法を学びます。"
 tags: ["ハックザボックス", "課題", "暗号", "デコード", "書き上げる", "フェルネット暗号", "マルボゲ暗号", "対称暗号化", "サイバーセキュリティ", "暗号化", "侵入テスト", "パイソン", "安全", "チャレンジ", "CTF", "国旗", "暗号化", "復号化", "Base64"]
 toc: true
-cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.png"
+cover: "/img/cover/A_cartoon_hacker_standing_next_to_a_large_lock_with_one_hand.webp"
 coverAlt: "大きな錠の横に立っている漫画のハッカー。片手でフェルネットのロゴの鍵を持ち、もう一方の手でマルボゲのロゴの鍵を持ち、錠の内側に旗が見える"
 coverCaption: ""
 ---

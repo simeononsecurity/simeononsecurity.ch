@@ -6,7 +6,7 @@ draft: false
 description: "Ontdek de functionaliteiten van DHCP, DNS en NTP-services, begrijp de netwerkarchitectuur van bedrijven en datacenters en verken cloudconcepten en connectiviteitsopties voor naadloze communicatie en gegevensbeheer."
 genre: ["Technologie", "Netwerken", "Connectiviteit", "Uitwisseling van gegevens", "Netwerkarchitectuur", "Cloud computing", "Netwerkdiensten", "DNS", "DHCP", "NTP"]
 tags: ["netwerkdiensten", "connectiviteitsopties", "architectuur", "DHCP", "DNS", "NTP", "bedrijfsnetwerk", "datacenternetwerk", "cloudconcepten", "connectiviteit", "drielaagse architectuur", "softwaregedefinieerde netwerken", "wervelkolom en bladarchitectuur", "verkeersstromen", "vestiging", "on-premises datacenter", "colocatie", "opslagnetwerken", "Fibre Channel over Ethernet", "iSCSI", "DHCP verkennen", "understanding DNS", "netwerk tijdsynchronisatie", "bedrijfsnetwerkarchitectuur", "opties voor cloudconnectiviteit", "drieledige netwerkarchitectuur", "voordelen van softwaregedefinieerde netwerken", "ruggengraat- en bladnetwerkarchitectuur", "cloudconnectiviteit voor bijkantoren", "soorten netwerken voor opslagruimte"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "Een cartoonillustratie die verschillende netwerkcomponenten en cloudconnectiviteitsopties laat zien"
 coverCaption: "Ontsluit de kracht van netwerkservices en cloudconnectiviteit"
 ---

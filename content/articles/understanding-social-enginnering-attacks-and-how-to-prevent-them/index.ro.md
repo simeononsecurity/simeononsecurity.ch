@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aflați cum să preveniți atacurile de inginerie socială și să protejați informațiile sensibile ale organizației dvs. prin instruirea angajaților, politici de securitate și multe altele."
 tags: ["Inginerie sociala", "securitate cibernetică", "prevenirea", "formarea angajatilor", "politici de securitate", "autentificare multifactor", "anti-virus", "siguranță fizică", "reglementările guvernamentale", "FISMA", "HIPAA", "protejarea datelor", "amenințări cibernetice", "securitatea retelei", "securitatea informatiei", "informatii sensibile", "criminalitatea cibernetică", "conformitate", "strategie de securitate cibernetică", "securitatea datelor"]
-cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.png"
+cover: "/img/cover/A_hacker_trying_to_lure_a_person_with_a_fishing_rod.webp"
 coverAlt: "Un hacker care încearcă să ademenească o persoană cu o undiță, în timp ce un scut și un lacăt simbolizează securitatea cibernetică."
 coverCaption: ""
 ---

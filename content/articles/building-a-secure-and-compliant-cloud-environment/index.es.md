@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Aprenda a crear un entorno en la nube seguro y conforme a la normativa para su empresa con nuestra completa guía."
 tags: ["computación en nube", "ciberseguridad", "privacidad de los datos", "conformidad", "HIPAA", "PCI DSS", "GDPR", "copia de seguridad de datos", "recuperación en caso de catástrofe", "codificación", "controles de acceso", "autenticación multifactor", "control continuo", "evaluaciones de vulnerabilidad", "violaciones de datos", "amenazas internas", "mala configuración", "data loss", "proveedor de nube", "medidas de seguridad"]
-cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.png"
+cover: "/img/cover/A_cartoon_cloud_with_a_lock_on_it_representing_the_secure_cloud.webp"
 coverAlt: "Una nube de dibujos animados con un candado, que representa el entorno de nube seguro y conforme que se está construyendo en el artículo."
 coverCaption: ""
 ---

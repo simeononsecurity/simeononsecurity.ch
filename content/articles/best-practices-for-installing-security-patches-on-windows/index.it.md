@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Imparate a installare le patch di sicurezza cumulative su Windows e a seguire le best practice per mantenere il vostro sistema al sicuro dagli attacchi informatici."
 tags: ["Finestre", "patch di sicurezza", "sicurezza informatica", "sicurezza del sistema", "Microsoft", "patch cumulative", "gestione delle patch", "backup dei dati", "Spectre Meltdown", "crittografia", "vulnerabilità del sistema", "aggiornamenti del sistema", "distribuzione delle patch", "ambienti non di produzione", "configurazione del sistema", "Sicurezza informatica", "sistema di gestione delle patch", "scansione delle vulnerabilità", "note di rilascio", "manutenzione del sistema"]
-cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.png"
+cover: "/img/cover/A_cartoon_image_of_a_shield_with_a_Windows_logo_on_it.webp"
 coverAlt: "Un'immagine a fumetti di uno scudo con il logo di Windows protetto da un lucchetto"
 coverCaption: ""
 ---

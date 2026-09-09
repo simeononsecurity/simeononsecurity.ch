@@ -6,7 +6,7 @@ draft: false
 description: "Scoprite la potenza dell'automazione di Ansible con un confronto tra Ansible semplice, Ansible Tower e Ansible Semaphore e scegliete lo strumento giusto per una gestione efficiente dell'infrastruttura."
 genre: ["Automazione", "Gestione dell'infrastruttura", "Gestione della configurazione", "DevOps", "Operazioni IT", "Open Source", "Gestione del flusso di lavoro", "Scalability", "Collaborazione", "Strumenti Ansible"]
 tags: ["Ansible", "Automazione", "Torre Ansible", "Semaforo Ansible", "Ansible semplice", "Gestione dell'infrastruttura", "Gestione della configurazione", "DevOps", "Operazioni IT", "Open Source", "Gestione del flusso di lavoro", "Scalability", "Collaborazione", "Libri di gioco", "YAML", "Pianificazione del lavoro", "RBAC", "INTERFACCIA GRAFICA", "Integrazione del controllo della versione", "Esecuzione idempotente", "Architettura Agentless", "Flusso di lavoro Ansible", "Caratteristiche di livello enterprise", "Distribuzione in self-hosted", "Distribuzione basata sul cloud", "Licenze", "Strumenti di gestione dell'infrastruttura", "Piattaforme di automazione", "Sistemi di gestione del flusso di lavoro", "Strumenti DevOps", "Gestione delle operazioni IT"]
-cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.png"
+cover: "/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp"
 coverAlt: "Un'illustrazione simbolica che mostra ingranaggi interconnessi che simboleggiano l'automazione e la gestione dell'infrastruttura con Ansible"
 coverCaption: "Sfruttate il potenziale di Ansible per una gestione efficiente dell'infrastruttura"
 ---

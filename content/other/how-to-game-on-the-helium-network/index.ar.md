@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "تعرف على كيفية التلاعب بشبكة Helium من خلال استغلال الثغرات الأمنية مع MiddleMan و Chirp Stack Packet Multiplexer ، بالإضافة إلى مخاطر وعواقب القيام بذلك."
 tags: ["شبكة الهليوم", "إثبات التغطية", "الرجل الأوسط", "Chirp Stack Packet Multiplexer", "الألعاب", "استغلال نقاط الضعف", "شبكة لوراوان", "عملة مشفرة", "blockchain", "شبكة لامركزية", "نقاط الجذب", "انتحال", "الغش", "نشاط غير قانوني", "ضربات الجزاء", "سلامة الشبكة", "المكافآت", "الجهات الخبيثة", "أمن الشبكة", "المضيفين الشرعيين"]
-cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.png"
+cover: "/img/cover/A_cartoonish_depiction_of_a_group_of_individuals_exploiting.webp"
 coverAlt: "رسم كاريكاتوري لمجموعة من الأفراد يستغلون بالون الهيليوم مع صورة لبوابة LoRaWAN و MiddleMan أو Chirp Stack Packet Multiplexer في الخلفية."
 coverCaption: ""
 ---

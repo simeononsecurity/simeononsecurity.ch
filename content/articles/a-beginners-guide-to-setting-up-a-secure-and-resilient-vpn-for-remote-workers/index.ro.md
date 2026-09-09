@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descoperiți cum să configurați o rețea VPN sigură și rezistentă pentru angajații dvs. de la distanță, asigurând accesul sigur la resursele companiei."
 tags: ["VPN", "munca la distanță", "VPN corporativ", "securitatea rețelei", "criptare", "protocoale de tunelare", "Configurarea VPN", "Server VPN", "Securitatea VPN", "Întreținerea VPN", "Monitorizarea VPN", "Soluție VPN", "autentificare", "securitatea datelor", "confidențialitate", "performanță", "scalabilitate", "compatibilitate", "formarea angajaților", "cele mai bune practici"]
-cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.png"
+cover: "/img/cover/A_3D_animated_image_depicting_a_secure_tunnel.webp"
 coverAlt: "O imagine animată 3D care descrie un tunel securizat care conectează laptopul unui lucrător la distanță cu o clădire a companiei, simbolizând conexiunea VPN. O pictogramă cu un scut plutește deasupra tunelului, reprezentând securitatea și rezistența."
 coverCaption: ""
 ---

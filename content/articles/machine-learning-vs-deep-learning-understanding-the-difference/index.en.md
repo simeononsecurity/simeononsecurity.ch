@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Discover the distinctions between machine learning and deep learning, two powerful branches of AI with unique characteristics and applications."
 tags: ["machine learning", "deep learning", "artificial intelligence", "AI", "data science", "algorithm", "neural networks", "feature engineering", "unstructured data", "decision trees", "logistic regression", "labeled data", "unlabeled data", "computational resources", "fraud detection", "recommendation systems", "predictive maintenance", "image recognition", "natural language processing", "drug discovery", "business applications", "algorithm complexity", "data representation", "government regulations", "computer vision", "facial recognition", "chatbots", "language translation", "training models", "predictive analytics"]
-cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.png"
+cover: "/img/cover/A_cartoon_illustration_showcasing_a_machine_learning.webp"
 coverAlt: "A cartoon illustration showing a machine learning algorithm and a deep learning neural network engaged in a friendly competition."
 coverCaption: ""
 ---

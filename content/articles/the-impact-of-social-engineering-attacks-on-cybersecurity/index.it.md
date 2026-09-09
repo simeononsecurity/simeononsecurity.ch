@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite come difendervi dagli attacchi di social engineering e proteggere i vostri dati dai criminali informatici in questo articolo informativo."
 tags: ["sicurezza informatica", "ingegneria sociale", "truffe di phishing", "autenticazione a più fattori", "aggiornamenti di sicurezza", "sicurezza della password", "sicurezza web", "violazioni dei dati", "Sicurezza informatica", "furto d'identità", "prevenzione delle frodi", "prevenzione dello spionaggio", "sicurezza tecnica", "sicurezza fisica", "sicurezza delle informazioni", "prevenzione del crimine informatico", "rilevamento delle intrusioni", "patch di sicurezza", "formazione dei dipendenti", "protezione dei dati"]
-cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.png"
+cover: "/img/cover/A_cartoon_shield_with_a_padlock_in_the_center.webp"
 coverAlt: "Uno scudo animato con un lucchetto al centro, che rappresenta l'idea di difesa dagli attacchi di ingegneria sociale nella cybersecurity"
 coverCaption: ""
 ---

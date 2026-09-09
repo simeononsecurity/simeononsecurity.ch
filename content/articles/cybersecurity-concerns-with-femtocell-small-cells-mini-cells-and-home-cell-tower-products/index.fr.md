@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Découvrez comment les attaquants peuvent exploiter les femtocellules pour intercepter les appels téléphoniques et les textes et ce que vous pouvez faire pour vous protéger contre de telles attaques."
 tags: ["attaques de femtocellules", "sécurité mobile", "cybersécurité", "réseaux cellulaires", "VPN", "clonage de téléphone", "confidentialité des données", "sécurité internet", "appareils mobiles", "fournisseurs de services cellulaires", "sécurité des réseaux", "sécurité sans fil", "sécurité des téléphones portables", "vulnérabilités", "cyberattaques", "correctifs de sécurité", "cryptage des données", "cybercriminalité", "conseils de sécurité", "messagerie sécurisée"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Un bouclier avec un symbole de verrouillage protégeant un téléphone portable de la main d'un pirate essayant d'y accéder."
 coverCaption: ""
 ---

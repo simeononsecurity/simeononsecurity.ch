@@ -6,7 +6,7 @@ draft: false
 description: "了解 Hackthebox Academy 提供的全面培训和实践挑战，发掘您的网络安全潜能并提高您的技能。"
 genre: ["网络安全培训", "实践实验室", "实践练习", "学习路径", "社区合作", "网络安全技能", "在线平台", "真实场景", "教程和文档", "高级订阅"]
 tags: ["黑盒子学院", "网络安全培训", "实践实验室", "实践练习", "学习路径", "社区合作", "网络安全技能", "在线平台", "真实场景", "教程和文档", "保费订阅", "hackthebox 学院登录", "hackthebox 学院费用", "hackthebox 学院价格", "hackthebox 学院网站", "hackthebox 学院功能", "网络安全挑战", "网络安全", "网络应用安全", "加密", "渗透测试", "反向工程", "数字取证", "网络安全界", "网络安全爱好者", "网络威胁", "网络安全专业知识", "hackthebox 学院定价", "政府法规"]
-cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.png"
+cover: "/img/cover/A_group_of_diverse_individuals_working_togethe.webp"
 coverAlt: "在 Hackthebox 学院，一群不同的人携手解决网络安全难题。"
 coverCaption: "通过 Hackthebox Academy 发掘你的网络安全潜能！"
 ---

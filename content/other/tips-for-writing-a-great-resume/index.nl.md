@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Leer de beste praktijken voor het maken van een effectief cv, waaronder het gebruik van lettertypen, cv-typen, het optimaliseren van trefwoorden, het omgaan met hiaten en het optimaliseren van de lay-out."
 tags: ["CV schrijven", "cv tips", "gebruik", "cv-structuur", "soorten cv's", "chronologisch cv", "functioneel cv", "combinatie cv", "trefwoord optimalisatie", "referenties op cv", "cv-verklaring", "omgaan met ontslagen", "omgaan met hiaten in cv", "afstudeerjaar op cv", "lijst van certificaten", "cv-indeling", "beknopt cv", "witruimte in cv", "CV aanpassen", "professioneel cv"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Een kleurrijk cartoonbeeld van een persoon die een cv vasthoudt met een vergrootglas, als symbool voor de aandacht voor details bij het optimaliseren van het cv."
 coverCaption: ""
 ---

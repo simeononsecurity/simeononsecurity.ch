@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer de basis van encryptie en hoe u deze kunt gebruiken om uw gevoelige gegevens te beveiligen met deze beginnersgids voor encryptie."
 tags: ["encryptie", "gegevensbescherming", "cyberbeveiliging", "privacy", "technologie", "online beveiliging", "symmetrische encryptie", "asymmetrische encryptie", "beveiliging", "internetprivacy", "cryptografie", "versleutelde berichtgeving", "digitale veiligheid", "gegevensprivacy", "gecodeerde gegevens", "encryptie software", "data-encryptie", "computerbeveiliging", "netwerkbeveiliging", "wachtwoordbeveiliging"]
-cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.png"
+cover: "/img/cover/A_cartoon_padlock_with_a_keyhole_representing_data_protection.webp"
 coverAlt: "Een cartoonachtig hangslot met een sleutelgat, dat staat voor gegevensbescherming door encryptie."
 coverCaption: ""
 ---

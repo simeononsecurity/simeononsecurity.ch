@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Scoprite i vantaggi e i rischi dell'esternalizzazione della sicurezza informatica a fornitori terzi e come scegliere il fornitore giusto per la vostra azienda."
 tags: ["sicurezza informatica", "esternalizzazione", "fornitori terzi", "violazione dei dati", "selezione dei fornitori", "risparmio sui costi", "competenza", "scalability", "perdita di controllo", "piano di risposta agli incidenti", "gestione del rischio", "sicurezza aziendale", "outsourcing della sicurezza", "minacce informatiche", "sicurezza della rete", "protezione dei dati", "gestione delle vulnerabilità", "difesa informatica", "continuità aziendale", "sicurezza delle informazioni"]
-cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.png"
+cover: "/img/cover/A_cartoon_image_of_a_businessman_standing_on_a_rock.webp"
 coverAlt: "Un'immagine a fumetti di un uomo d'affari in piedi su una roccia e con in mano uno scudo per proteggere la sua azienda dalle minacce informatiche, con una fila di venditori terzi in piedi dietro di lui che offrono diversi servizi di sicurezza."
 coverCaption: ""
 ---

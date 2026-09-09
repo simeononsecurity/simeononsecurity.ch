@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Leer hoe u een effectief studieplan maakt om te slagen voor het CEH-certificeringsexamen met tips en strategieën voor succes."
 tags: ["CEH-certificering", "ethisch hacken", "onderzoekplan", "tijdmanagement", "examenvoorbereiding", "cyberbeveiliging", "motivatie", "studiematerialen", "oefenvragen", "beoordeling", "EC-Raad", "informatiebeveiliging", "professionele ontwikkeling", "IT-certificering", "loopbaanontwikkeling", "netwerkbeveiliging", "penetratietesten", "kwetsbaarheidsbeoordeling", "verzekeringsinformatie", "veiligheidscontrole"]
-cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.png"
+cover: "/img/cover/A_cartoon-style_image_of_a_person_studying_at_a_desk.webp"
 coverAlt: "Een beeld in cartoonstijl van een persoon die studeert aan een bureau met een laptop en verschillende boeken en notities, met het CEH-logo op de achtergrond."
 coverCaption: ""
 ---

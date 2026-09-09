@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Kompleksowy przewodnik na temat rozpoznawania typowych oznak prób phishingu i praktyczne wskazówki dotyczące zachowania bezpieczeństwa w Internecie."
 tags: ["próby phishingu", "wspólne wskaźniki", "oszustwa phishingowe", "bezpieczeństwo online", "cyberbezpieczeństwo", "podejrzane adresy e-mail", "pilny język", "błędy gramatyczne", "błędy ortograficzne", "podejrzane adresy URL", "wnioski o udostępnienie danych osobowych", "nieoczekiwane załączniki", "Bezpieczeństwo w sieci", "aktualizacje oprogramowania", "uwierzytelnianie dwuskładnikowe", "bezpieczeństwo hasła", "oszustwa internetowe", "techniki phishingu", "cyberzagrożenia", "świadomość phishingu", "Rozpoznawanie phishingu", "zapobieganie phishingowi", "ochrona przed phishingiem", "Wskazówki dotyczące świadomości phishingu", "wykrywanie phishingu", "Szkolenie uświadamiające w zakresie phishingu", "phishing e-mail", "kampania uświadamiająca na temat phishingu", "edukacja w zakresie świadomości phishingu", "Najlepsze praktyki w zakresie świadomości phishingu", "Co jest typowym wskaźnikiem próby wyłudzenia danych?"]
-cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.png"
+cover: "/img/cover/A_cartoon_image_depicting_a_person_receiving_a_suspicious_email.webp"
 coverAlt: "Obrazek z kreskówki przedstawiający osobę otrzymującą podejrzaną wiadomość e-mail i patrzącą sceptycznie."
 coverCaption: ""
 ---

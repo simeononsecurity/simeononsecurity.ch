@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "了解防止信息外泄和保护敏感数据的最佳实践和策略，确保加强安全和保护。"
 tags: ["信息安全", "数据保护", "机密信息", "信息泄漏", "预防策略", "最佳做法", "访问控制", "加密", "员工培训", "网络安全", "防止数据丢失", "安全评估", "政府法规", "NIST", "内部威胁", "网络安全漏洞", "人为错误", "宣传计划", "网络钓鱼意识", "DLP 解决方案", "基于角色的访问控制", "多因素认证", "加密密钥管理", "端点保护", "内容检查", "安全审计", "渗透测试", "事件响应规划", "安全协议", "信息保护"]
-cover: "/img/cover/A_locked_shield_protecting_sensitive_information.png"
+cover: "/img/cover/A_locked_shield_protecting_sensitive_information.webp"
 coverAlt: "一个上锁的防护罩，保护敏感信息免遭未经授权的访问。"
 coverCaption: ""
 ---

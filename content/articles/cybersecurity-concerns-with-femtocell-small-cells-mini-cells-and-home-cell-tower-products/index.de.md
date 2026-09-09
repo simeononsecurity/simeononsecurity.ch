@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-08
 description: "Erfahren Sie, wie Angreifer Femtozellen ausnutzen können, um Telefonanrufe und SMS abzufangen, und was Sie tun können, um sich vor solchen Angriffen zu schützen."
 tags: ["Femtocell-Angriffe", "mobile Sicherheit", "Cybersicherheit", "zellulare Netzwerke", "VPN", "Telefonklonen", "Datenschutz", "Internetsicherheit", "mobile Geräte", "Mobilfunkanbieter", "Netzwerksicherheit", "Funksicherheit", "Sicherheit des Mobiltelefons", "Schwachstellen", "Cyber-Angriffe", "Sicherheitspatches", "Datenverschlüsselung", "Internetkriminalität", "Sicherheitstipps", "sicherer Nachrichtenaustausch"]
-cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.png"
+cover: "/img/cover/A_shield_with_a_lock_symbol_protecting_a_mobile_phone.webp"
 coverAlt: " Ein Schild mit einem Schlosssymbol, das ein Mobiltelefon vor den Händen eines Hackers schützt, der versucht, darauf zuzugreifen."
 coverCaption: ""
 ---

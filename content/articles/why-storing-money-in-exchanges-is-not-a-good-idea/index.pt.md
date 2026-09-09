@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Este artigo discute os perigos de armazenar criptomoedas em bolsas, explicando por que é equivalente a armazenar dinheiro em um colchão e destaca os benefícios de usar uma carteira de hardware para armazenamento seguro."
 tags: ["Armazenamento de criptomoeda", "riscos cambiais", "carteira de hardware", "Cíber segurança", "Investir em criptomoeda", "Armazenamento seguro", "chaves privadas", "carteiras portáteis", "regulamentação governamental"]
-cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.png"
+cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "Uma carteira de hardware com um cadeado e uma corrente ao redor, simbolizando a segurança de armazenar criptomoedas em uma carteira de hardware."
 coverCaption: ""
 ---

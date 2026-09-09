@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Descubra el papel crucial de las pruebas de penetración en la ciberseguridad y conozca métodos eficaces, herramientas esenciales y mejores prácticas."
 tags: ["pruebas de penetración", "ciberseguridad", "hacking ético", "vulnerabilidades", "mitigación de riesgos", "conformidad", "respuesta a incidentes", "confianza del cliente", "pruebas de caja negra", "pruebas de caja blanca", "pruebas de caja gris", "Metasploit", "Nmap", "Suite Eructo", "Wireshark", "exploración de redes", "seguridad de las aplicaciones web", "protección de datos", "prevención de ciberamenazas", "evaluación de la seguridad digital", "mejora de la postura de seguridad", "analizador de protocolos de red", "estrategia de ciberseguridad", "vulnerabilidades del sistema", "refuerzo de la defensa", "protección de activos digitales", "ventajas de las pruebas de penetración", "buenas prácticas de ciberseguridad", "cumplimiento de la normativa", "seguridad de los datos de los clientes"]
-cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.png"
+cover: "/img/cover/A_symbolic_image_depicting_a_hacker_wearing_a_black_hat.webp"
 coverAlt: "Imagen simbólica que representa a un hacker con sombrero negro y tecleando en un ordenador, mientras un escudo con candado protege una red en segundo plano."
 coverCaption: ""
 ---

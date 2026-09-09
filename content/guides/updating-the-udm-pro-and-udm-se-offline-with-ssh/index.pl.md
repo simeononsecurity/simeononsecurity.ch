@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-28
 description: "Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo."
 tags: ["Aktualizacja oprogramowania układowego Ubiquiti", "UDM Pro", "UDM SE", "aktualizacja oprogramowania sprzętowego offline", "Wiersz poleceń SSH", "zarządzanie siecią", "bezpieczeństwo sieci", "aktualizacja oprogramowania sprzętowego", "Połączenie SSH", "plik oprogramowania układowego", "Kontroler sieci UniFi", "poprawki błędów", "poprawa wydajności", "poprawki zabezpieczeń", "networking", "urządzenia sieciowe", "technologia", "Zarządzanie IT", "Proces aktualizacji oprogramowania sprzętowego", "optymalizacja sieci", "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks", "Aktualizacja oprogramowania sprzętowego UDM Pro", "Aktualizacja oprogramowania sprzętowego UDM SE", "Proces aktualizacji oprogramowania sprzętowego offline", "Aktualizacja oprogramowania sprzętowego SSH", "zarządzanie urządzeniami sieciowymi", "aktualizacje zabezpieczeń sieci", "strategie aktualizacji oprogramowania sprzętowego", "Zarządzanie oprogramowaniem sprzętowym offline", "optymalizacja wydajności sieci", "zarządzanie poprawkami zabezpieczeń", "aktualizacje technologii sieciowych"]
-cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.png"
+cover: "/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp"
 coverAlt: "Kolorowa ilustracja przedstawiająca komputer łączący się z routerem przez SSH symbolizuje proces aktualizacji oprogramowania sprzętowego offline dla urządzeń Ubiquiti Unifi UDM Pro i UDM SE."
 coverCaption: ""
 ---

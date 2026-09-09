@@ -5,7 +5,7 @@ toc: true
 draft: false
 description: "Apprenez les bases de la réponse aux incidents et de la gestion des incidents de cybersécurité grâce à ce guide destiné aux débutants."
 tags: ["incident response", "cybersécurité", "guide du débutant", "protection des données", "la sécurité des données", "Sécurité informatique", "sécurité des réseaux", "cyberattaques", "la sécurité de l'information", "cybercriminalité", "sécurité numérique", "Infrastructure informatique", "violations de données", "cybermenaces", "cyberdéfense", "incident management", "récupération des données", "planification de la sécurité", "la gestion des risques", "stratégie de cybersécurité"]
-cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.png"
+cover: "/img/cover/A_cartoon_image_of_a_cybersecurity_superhero_defending_a_city.webp"
 coverAlt: "Dessin animé d'un super-héros de la cybersécurité défendant une ville contre les cybermenaces."
 coverCaption: ""
 ---

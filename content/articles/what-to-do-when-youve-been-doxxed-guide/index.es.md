@@ -6,7 +6,7 @@ draft: false
 description: "Descubra los pasos esenciales que debe dar cuando ha sido víctima de un doxxing, incluyendo cómo eliminar información personal, reforzar la seguridad en línea, denunciar el incidente, buscar apoyo y explorar recursos legales."
 genre: ["Ciberseguridad", "Protección de la intimidad", "Seguridad en línea", "Privacidad digital", "Seguridad de los datos", "Protección de datos personales", "Prevención de la ciberdelincuencia", "Robo de identidad", "Acoso en línea", "Autodefensa digital"]
 tags: ["prevención del doxxing", "respuesta a incidentes de doxxing", "protección de datos personales", "privacidad en línea", "seguridad en línea", "denunciar el doxxing", "recurso legal", "ciberdelincuencia", "protección de la identidad", "acoso en línea", "seguridad de los datos", "configuración de privacidad", "autenticación de dos factores", "cuentas en línea", "seguimiento de la presencia en línea", "seguridad en línea", "medidas de privacidad en línea", "consejos de ciberseguridad", "apoyo tras doxxing", "GDPR", "CCPA", "aplicación de la ley", "comunidades en línea", "leyes de ciberseguridad", "normativa sobre protección de datos", "autodefensa digital", "precauciones de seguridad en línea", "protección de datos personales", "directrices sobre privacidad en línea"]
-cover: "/img/cover/A_person_protecting_their_personal_information.png"
+cover: "/img/cover/A_person_protecting_their_personal_information.webp"
 coverAlt: "Una persona protegiendo su información personal en un escudo."
 coverCaption: "Salvaguardar la información personal es clave para la autodefensa digital."
 ---

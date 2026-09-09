@@ -5,7 +5,7 @@ toc: true
 date: 2023-05-18
 description: "Aprenda las mejores prácticas para crear un currículum efectivo, incluido el uso de fuentes, tipos de currículum, optimización de palabras clave, manejo de brechas y optimización del diseño."
 tags: ["reanudar la escritura", "consejos para currículum", "uso de fuentes", "estructura del currículum", "tipos de currículum", "currículum cronológico", "currículum funcional", "currículum combinado", "optimización de palabras clave", "referencias en currículum", "declaración de currículum", "manejo de despidos", "manejar las lagunas en el currículum", "año de graduación en currículum", "listado de certificaciones", "diseño de currículum", "currículum conciso", "espacio en blanco en currículum", "personalización del currículum", "Resumen profesional"]
-cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.png"
+cover: "/img/cover/A_colorful_cartoon_image_showing_a_person_holding_a_resume.webp"
 coverAlt: "Una caricatura colorida que muestra a una persona que sostiene un currículum con una lupa, lo que simboliza la atención al detalle en la optimización del currículum."
 coverCaption: ""
 ---
