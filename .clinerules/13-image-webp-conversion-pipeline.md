@@ -256,6 +256,46 @@ there; this conversion pipeline exists only to clean up the large backlog of
 pre-existing raster images that predate those scripts, plus any manually-added
 image that bypasses them.
 
+## "Image Cannot Be Displayed" Report Traced to Cloudflare Edge, Not the Repo (2026-09)
+
+A user reported a specific cover image
+(`A_cartoon_illustration_depicting_a_home_with_interconnected_devices.webp`, used by
+`content/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/index.en.md`)
+as "cannot be displayed because it contains errors" in their browser. Investigation found
+**zero corruption anywhere in the repository or build pipeline**:
+
+- The source blob in `assets/img/cover/` decodes cleanly via `webpinfo -diag`, `dwebp`, and
+  `PIL.Image.load()` (1456x816, no error detected).
+- Every git commit that ever touched this file, across all 19 language branches
+  (`git log --all --oneline -- 'assets/img/cover/....webp'`), points at the identical blob
+  hash (`8ce8762952df3d97b992633c2b1f47e551549541`), confirmed via `git ls-tree <commit> --
+  <path>` + `git cat-file -s <blob>` for every commit, including `origin/website-en-alt`
+  HEAD (the branch Netlify actually serves per `.clinerules/14`).
+- Every Hugo-generated resized derivative (`_240x135`, `_480x269`, `_731x410`, `_1200x630`,
+  `_1920x1076`) in both `resources/_gen/images/` and a fresh `/tmp` build decodes cleanly
+  with zero errors.
+- A full repo-wide integrity scan (`PIL.Image.open().load()` on all 6,467 `.webp` files,
+  excluding `node_modules`/`public`/`.git`/`.venv`/`themes`) found **zero** corrupt files.
+- The `<figure class=post-cover>` markup on the article correctly emits a `<picture>` with
+  a real `srcset` of the four resized derivatives, and `imagessitemap.xml` also correctly
+  references only the resized derivatives, never the raw un-resized path.
+
+**Conclusion: this is a live Cloudflare edge-cache issue, not a repo bug**, matching the
+`Cache-Control: public, immutable, s-maxage=31536000` behavior already documented above
+("Purge Cloudflare Cache After Deleting/Renaming Images"). Every fetch tool available in
+this environment (`fetch_web_content`, `mcp-webresearch visit_page`, raw `curl` with a
+browser `User-Agent`) got an identical Cloudflare bot-challenge `403` for **every** URL on
+`simeononsecurity.com` tested, including unrelated cover images, the homepage, and
+`sitemap.xml` (only `robots.txt` and `favicon.ico` returned `200`), so none of those tools
+can be used to directly inspect what Cloudflare's edge is currently serving for a specific
+asset. **When a user reports a single broken image and the repo/git/build/cache all check
+out clean, do not keep searching the repo for a bug that is not there.** The fix is a
+Cloudflare cache purge for that specific URL (or "Purge Everything" if the scope is
+unclear), not a code or content change. There is no Cloudflare purge automation in this
+repo's CI (`branch_build_hugo_en.yml` has `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ZONE_ID` as
+declared secrets but every step that would use them is commented out), so a purge must be
+done manually via the Cloudflare dashboard or API by someone with zone access.
+
 ## Restricting Pinterestbot in `robots.txt`
 
 Applied alongside this conversion since Pinterest is a pure image scraper and
