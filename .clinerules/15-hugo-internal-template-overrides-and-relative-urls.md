@@ -121,6 +121,46 @@ wrong URL, 404 pattern in logs), always:
 4. Reproduce the suspected mechanism in an isolated minimal Hugo project (a few
    files in `/tmp`) to confirm the exact behavior before touching the real repo.
 
+## Pushing a Content Fix to `master` Does Not Guarantee It Deploys (Confirmed 2026-09)
+
+Every `branch_build_hugo_*.yml` workflow (one per language, plus `EN` and `EN_alt`) is
+`on: push: branches: [master]` with an explicit `paths:` filter, e.g.
+`branch_build_hugo_es.yml` only fires on `contents/**/*.es.md`, `index.es.md`,
+`**/index.es.md`, or `bump.md`. **Every single one of these workflows also lists
+`bump.md` as one of its trigger paths, and this is the load-bearing fallback, not a
+decoration.** When a push's changed-file set does not happen to match a given
+language's narrow filter, that language's build silently does not run, and the commit
+just sits in `master` unbuilt and undeployed until something else triggers it.
+
+**Symptom observed directly**: after committing a real content fix (2291 files under
+`content/**/index.*.md`, touching `**/index.en.md` among others) and pushing it, a
+second reported page confirmed the live production HTML at `origin/website-en-alt`
+(the branch Netlify actually serves, see `.clinerules/14`) still matched the pre-fix
+version. Comparing commit timestamps showed the `website-en-alt` branch's last update
+commit predated the fix's push, i.e. the fix had not been built/deployed yet. Fetching
+`https://github.com/<owner>/<repo>/actions` and reading the in-progress/queued run list
+is the fastest way to confirm whether a given push actually fired the language build
+workflows.
+
+**The fix**: append a trivial change to `bump.md` at the repo root (the existing
+convention, confirmed via `git log --oneline -- bump.md`, is literally appending one
+more blank/space line, commit message `Update bump.md`) and push it. Because `bump.md`
+is in every workflow's path filter, this single small commit reliably fires all 18+
+`branch_build_hugo_*` workflows regardless of what the preceding content commits
+touched. Do this any time a content-only fix needs to reach production immediately
+rather than waiting for the next push that happens to satisfy a language's specific
+path filter.
+
+**Do not assume** that because a workflow's path filter includes a broad pattern like
+`**/index.en.md`, every push touching any file under `content/` will fire it — path
+filters match the exact file list, and a previous unrelated push (e.g. a docs-only
+`.clinerules` commit) can coincidentally satisfy one language's filter (observed
+`Branch Build Hugo - es` and `- zh` firing on a clinerules-only commit, unrelated to
+their own path filters, likely because those two runs were still catching up from an
+earlier queued push) while genuinely missing another's. Verify via the Actions run list
+after any push whose deployment matters, rather than assuming the path filter logic
+worked as expected.
+
 ## Ad Placement Bug Fixed Alongside This (2026-09)
 
 `layouts/partials/ads/random-eager.html` and `random-eager-floating.html` guarded
