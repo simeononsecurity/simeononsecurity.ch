@@ -145,6 +145,55 @@
     </form>
   </div>
 
+  {{/* The homepage form above previously had no results container, no
+       search.js, and no Fuse.js/Mark.js, so submitting it only did a full
+       page GET to /search?q=... instead of searching in place like the
+       dedicated /search page does. This block gives the homepage the same
+       in-place, live-as-you-type search UX. The <form>'s normal GET submit
+       above still works unmodified as a no-JS fallback and keeps the
+       schema.org SearchAction markup meaningful. */}}
+  <div id="search-results"></div>
+  <div id="search-pagination" style="max-width:700px;"></div>
+  <div class="search-loading" style="display:none;"></div>
+
+  <script id="search-result-template" type="text/x-js-template">
+        <div class="posts" itemscope itemtype="https://schema.org/SearchResultsPage">
+        <article class="post on-list" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <div id="summary-${key}">
+            <h2 itemprop="name" class="post-title"><a itemprop="url" href="${link}" style="color: var(--link-color);">${title}</a></h2>
+            <div class="post-meta"></div>
+            <div class="post-content">
+              <a itemprop="description" style="color: var(--text-secondary);"> {{ i18n "description_placeholder" }} ${snippet} </a>
+            </div>
+            <span itemprop="item" class="post-tags">
+            <p>
+                <small>
+                    ${ isset tags }{{ i18n "tags_placeholder" }} ${tags}<br>${ end }
+                </small>
+            </p>
+            <div>
+        </div>
+    </article>
+    </div>
+  </script>
+
+  <script defer
+    src="/p/cdnjs/ajax/libs/fuse.js/6.6.2/fuse.min.js"
+    integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script defer
+    src="/p/cdnjs/ajax/libs/mark.js/8.11.1/mark.min.js"
+    integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <!-- Search Functionality -->
+  <script async src="{{ "js/search.js"| absURL }}"></script>
+
   <hr id="index-hr">
 
   <div class="menu-buttons">

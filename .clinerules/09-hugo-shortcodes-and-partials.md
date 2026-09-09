@@ -313,6 +313,32 @@ To add a new ad partial to the rotation, add its path to the `$ads` slice in
 
 ---
 
+## Homepage (`layouts/_default/index.html`) Search Was Missing Its Runtime (Fixed 2026-09)
+
+The homepage (Hugo `kind = home`, template `themes/soshellofriend/layouts/_default/index.html`)
+had the search `<form>`/`<input id="search-query">` markup (with the schema.org `SearchAction`
+metadata) but was missing every piece `static/js/search.js` actually needs to run: no
+`#search-results`/`#search-pagination`/`.search-loading` containers, no `#search-result-template`,
+and no `<script>` tags for Fuse.js, Mark.js, or `search.js` itself. Submitting the form only did a
+full-page GET redirect to `/search?q=...`; it never searched in place on the homepage the way the
+dedicated `layouts/section/search.html` page does.
+
+**Fix:** copy the exact same results container / template / library `<script>` block from
+`layouts/section/search.html` into the homepage template, right after the existing `.search-form`
+div. The `<form>`'s plain GET submit is left untouched as the no-JS fallback; `search.js` calls
+`event.preventDefault()` on submit and intercepts input events for progressive enhancement, so both
+paths keep working. This is homepage-only (Hugo's `kind = home` uses `_default/index.html`
+specifically, never `list.html` or `single.html`), so this had zero effect on `/search` or any
+section/list page.
+
+**Verification technique:** build locally, then use `jsdom` (`npm install jsdom fuse.js@6.6.2` in a
+scratch `/tmp` dir) to load the real built homepage HTML, inject the real pinned Fuse.js version,
+mock `fetch("/index.json")` with the real built `/index.json`, `eval()` the real `static/js/search.js`
+unmodified, dispatch a real `input` event on `#search-query`, and assert `#search-results` renders
+actual result markup (not the empty-state) for a query known to match real content, the empty-state
+for a nonsense query, and pagination links for a broad query. This is the same jsdom pattern used to
+validate `search.js` itself; it also works for any other page template that embeds the search widget.
+
 ## Hugo Content File Conventions for This Site
 
 - All content lives in `content/`. Articles use `content/articles/<slug>/index.en.md`.
