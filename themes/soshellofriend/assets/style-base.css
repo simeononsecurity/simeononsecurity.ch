@@ -789,41 +789,13 @@ nav.sharebuttons li > a:hover .will-change {
       justify-content: center; /* Center the buttons horizontally */
   }
 }
-.sponsor-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 9999;
-}
-.sponsor-button a {
-  background-color: var(--background-secondary);
-  color: var(--color);
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.sponsor-button a:hover {
-  background-color: #fe5186;
-}
-
-.sponsor-button a span {
-  margin: auto;
-}
-
-@media (max-width: 767px) {
-  /* For screens smaller than 768px width (mobile devices) */
-  .sponsor-button a::after {
-    margin: auto;
-  }
-}
+/* .sponsor-button / .sponsor-button-link styling lives entirely in the
+   inline <style> block of layouts/partials/donatebutton.html now. This
+   stale duplicate (a legacy `.sponsor-button a` descendant selector) used
+   to silently win over the partial's own rules on some pages because it
+   has higher CSS specificity, undoing the button's floating-ad-collision
+   fix and hover/focus states defined there. Do not re-add donate-button
+   CSS here; edit the partial instead so there is a single source of truth. */
 /* Apply styles to the <hr> element with id="index-hr" */
 #index-hr {
   max-width: 800px;

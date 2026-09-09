@@ -377,6 +377,52 @@ page (no `content/` file anywhere sets `layout: "image-carousel"`) that predated
 lazy-batching/click-to-expand rewrite and had none of its fixes. Confirmed dead via
 `grep -rn "image-carousel\|image_carousel" content/ layouts/ static/_redirects` before deleting.
 
+## Donate/Sponsor Button CSS Had a Stale Duplicate in `style-base.css` (Fixed 2026-09)
+
+`layouts/partials/donatebutton.html` (the fixed floating "Support SimeonOnSecurity" CTA,
+rendered via `extended_footer.html` on every page) had two real problems: it used the
+identical `position: fixed; bottom: 20px; left: 20px; z-index: 9999` coordinates as every
+floating ad partial (`stscollective`, `eyespy`, `rayhunter`, `flockyou`, `signalandsteel`,
+`audible`, `bitdefender`, `presearch`, etc.), so on any viewport >= 901px (where those ads
+are visible) the donate button and the floating ad rendered stacked in the exact same
+corner; and its hover state swapped the brand pink background for a flat gray
+(`var(--background-secondary)`), losing the CTA's visual identity on interaction.
+
+**The fix looked simple (rewrite the inline `<style>` block in the partial) but a second,
+independent bug made the first build of the fix appear to silently fail**:
+`themes/soshellofriend/assets/style-base.css` (loaded render-blocking on every page via
+`prepended_head.html`) had its own stale, legacy copy of `.sponsor-button` /
+`.sponsor-button a` rules using the old flat-gray-hover, non-offset styling. Because that
+selector (`.sponsor-button a`, specificity 0,1,1) is more specific than the partial's new
+`.sponsor-button-link` class selector (0,1,0), it kept winning regardless of the two
+stylesheets' load order, so the built HTML still showed the old CSS text after the partial
+was edited. **Lesson: when a component's styling doesn't seem to update after editing its
+partial's own `<style>` block, grep every theme-level CSS file
+(`themes/soshellofriend/assets/*.css`) for the same class name before assuming the edit
+didn't take effect** — a leftover duplicate rule elsewhere in the cascade can win purely on
+specificity, independent of document order. Fixed by deleting the stale block from
+`style-base.css` and leaving a comment pointing back at the partial as the single source of
+truth.
+
+**Also fixed while investigating**: `.sponsor-button` now offsets to `bottom: 296px` at
+`min-width: 901px` (the breakpoint where the floating ad partials switch from `display:none`
+to visible) so the two CTAs stack vertically instead of overlapping, gained a `max-width`
+so the long i18n label (`support_button_text`, up to ~48 chars in English) can't overflow a
+narrow viewport, gained a `:focus-visible` outline and a `prefers-reduced-motion` guard
+(this was the first use of that media query anywhere in the theme's CSS), and the dead
+`@media (max-width: 767px) { .sponsor-button a::after { margin: auto; } }` rule (targeted a
+`::after` pseudo-element that never existed in the markup) was removed entirely.
+
+**Caution for anyone re-running a full local Hugo build while investigating a CSS/asset
+issue**: do NOT `rm -rf resources/_gen` before rebuilding. Unlike `resources/_gen/assets`
+(gitignored), `resources/_gen/images` is intentionally committed to git as a build-cache
+artifact (see `.clinerules/13-image-webp-conversion-pipeline.md`). Deleting it and rebuilding
+regenerates thousands of files that git then reports as locally modified/deleted; recover
+with `git checkout -- resources/` immediately after the rebuild completes, before committing
+anything else. A cold-cache rebuild (no `resources/_gen`) also takes roughly 2x as long
+(~240s vs ~110s locally) since every image variant gets reprocessed from scratch instead of
+reused from cache.
+
 ## Hugo Content File Conventions for This Site
 
 - All content lives in `content/`. Articles use `content/articles/<slug>/index.en.md`.
