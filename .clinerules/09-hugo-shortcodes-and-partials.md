@@ -339,6 +339,44 @@ actual result markup (not the empty-state) for a query known to match real conte
 for a nonsense query, and pagination links for a broad query. This is the same jsdom pattern used to
 validate `search.js` itself; it also works for any other page template that embeds the search widget.
 
+## robots.txt Disallow Directives Do Not Inherit Across `User-agent:` Groups
+
+`static/robots.txt` and `layouts/_default/robots.txt` repeat the same `Disallow:` lines (e.g.
+`/quiz-dicts/`, `/presskit.zip`) inside every distinct `User-agent:` group in the file (the
+wildcard `*` group, the SEO-crawler group, each image-crawler group, the AI-crawler group, the
+general-crawler group). This is intentional and required: per the robots.txt spec, a crawler only
+applies the rules in the single most-specific group that names it (or the wildcard group if no
+named group matches), so a path added only to the `User-agent: *` block has zero effect on
+`Googlebot-Image`, `SemrushBot`, `GPTBot`, etc. **When adding a new `Disallow:` path that should
+apply site-wide, add it to every group's repeated disallow block, not just the wildcard group.**
+Confirmed by adding `Disallow: /carousel/` (see below) to all 9 occurrences of the repeated
+`Disallow: /quiz-dicts/` block using a script that inserts the new line immediately before each
+occurrence, then verifying the count of both lines matches (9 == 9) and no line is malformed.
+
+## `/carousel/` Noindexed and Hardened (Fixed 2026-09)
+
+`content/carousel/_index.en.md` (rendered by `layouts/section/carousel.html`) aggregates every
+cover image on the site into one page with no unique text content, a classic thin/duplicate-content
+page that also has no reason to be crawled by search engines and is a magnet for image-scraping
+bots. It already had `sitemap_ignore: true` but was missing `robotsdisallow: true`, so
+`layouts/partials/opengraph.html` was still emitting `<meta name="robots" content="index, follow...">`
+for it. Added `robotsdisallow: true` (front matter key already wired up in `opengraph.html`, see the
+`content/admin` honeypot page for the original pattern) and added `Disallow: /carousel/` to every
+`User-agent:` group in both `static/robots.txt` and `layouts/_default/robots.txt` (see rule above).
+
+Separately, the carousel's own `<img>` tags (both the server-rendered initial batch and the ones
+inserted by the `IntersectionObserver` lazy-batch-loader in `carousel.html`) had no `onerror`
+handling, so a single broken/blocked image request (bot noise, a stale Cloudflare cache entry, a
+dead file) left a permanently-broken tile in the grid instead of being dropped. Added
+`onerror="this.closest('.carousel-item').remove()"` to the initial-batch `<img>` and an equivalent
+`img.onerror = function () { wrapper.remove(); }` in the JS batch-loader so a bad image just
+disappears instead of showing a broken-image icon forever.
+
+Also deleted `layouts/section/image-carousel.html`, a stale, unreferenced duplicate of the same
+page (no `content/` file anywhere sets `layout: "image-carousel"`) that predated `carousel.html`'s
+lazy-batching/click-to-expand rewrite and had none of its fixes. Confirmed dead via
+`grep -rn "image-carousel\|image_carousel" content/ layouts/ static/_redirects` before deleting.
+
 ## Hugo Content File Conventions for This Site
 
 - All content lives in `content/`. Articles use `content/articles/<slug>/index.en.md`.

@@ -11,6 +11,7 @@ Content-Signal: /img/ ai-train=no, search=yes, ai-input=no
 Crawl-delay: 10
 Disallow: /admin
 Disallow: /404/
+Disallow: /carousel/
 
 # SEO / backlink-analysis crawlers (heavily rate-limited): no referral
 # traffic or indexing benefit, kept in sync with the additions in
