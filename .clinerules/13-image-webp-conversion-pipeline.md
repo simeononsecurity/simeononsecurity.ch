@@ -182,6 +182,69 @@ long-lived store from the origin.
   OrangeWebsite ad animation). GIF-to-WebP animated conversion is out of scope
   for this pipeline; only static PNG/JPG/JPEG are converted.
 
+## 2275 Cover References Left Pointing at Deleted Raster Files (Found and Fixed 2026-09)
+
+A live symptom report ("this article's cover image is missing:
+`/articles/the-ideal-ubiquiti-unifi-networking-setup-both-simple-and-advanced/`") traced
+back to the original `741bfbe84e4` WebP conversion commit itself, not a later regression.
+`convert_images_to_webp.py` correctly deleted the `.png`/`.jpg`/`.jpeg` and created the
+`.webp`, but `rewrite_webp_references.py`'s global "cover" category replacement (a plain
+`dict[old_string] = new_string` built from the TSV map, applied via string substitution
+across every text file) silently failed to rewrite 2275 `cover:` front-matter lines across
+17 languages (222 unique English articles/sections, mirrored across a subset of
+translations each). Since `postcover.html`'s `resources.Get` returns `nil` for a path that
+no longer exists on disk, every affected page fell through to an empty
+`<figure class="post-cover"></figure>` with **no image at all**, plus a dead `og:image` URL,
+and the build produced zero warnings or errors, exactly the "invisible until a human
+reports it" failure pattern described in
+`.clinerules/15-hugo-internal-template-overrides-and-relative-urls.md`.
+
+**Root cause of the miss was never fully isolated** (the original TSV map and script run
+logs no longer exist to diff against), but the fix does not require knowing why the
+original rewrite pass skipped these 2275 lines: every single one of them already had a
+same-stem `.webp` file sitting on disk (the real converted image was never lost, only the
+front-matter *pointer* to it), so the fix is a pure text substitution, not an image
+regeneration. Confirmed this holds for **all** 2275 broken references, in every language,
+with zero exceptions, before writing a single byte.
+
+**Detection query** (run this after any bulk image rename/conversion, not just this one):
+
+```python
+import os, re, glob
+broken = []
+for md in glob.glob('content/**/index.*.md', recursive=True) + glob.glob('content/**/_index.*.md', recursive=True):
+    with open(md, errors='ignore') as f:
+        text = f.read()
+    m = re.search(r'^cover:\s*"?(/img/cover/[^"\n]+)"?', text, re.M)
+    if not m:
+        continue
+    cover_path = m.group(1).strip().strip('"')
+    if not os.path.exists('assets' + cover_path):
+        broken.append((md, cover_path))
+print(len(broken))
+```
+
+**Fix approach**: for each broken reference, check whether a same-stem `.webp` exists
+(`os.path.splitext(basename)[0] + ".webp"` in `assets/img/cover/`). If yes, and the exact
+old path string appears **exactly once** in the file (verified per-file before writing, to
+guarantee the substitution cannot touch an unrelated occurrence), rewrite the extension in
+place. If no same-stem `.webp` exists, that page needs real image regeneration via
+`tools/generate_cover_images.py --force`, not a text fix — none of the 2275 hit that case
+this time, but do not assume that will always be true.
+
+**A second, unrelated bug with the identical symptom was found in the same audit**: all 16
+non-English translations of one 2026 article
+(`content/articles/flock-cameras-public-safety-or-surveillance-2026/`) had a `cover:` value
+derived from the article's URL slug (a filename that was never actually generated) instead
+of the real English cover image, a translation-tool (glotta) slug/cover mismatch with no
+connection to the WebP conversion. **Lesson: "missing cover image" has more than one
+possible root cause on this site.** Always run the detection query above fresh rather than
+assuming every broken cover reference traces back to the same historical commit; compare
+the broken translation's `cover:` value against its English sibling's `cover:` value to
+tell the two failure modes apart (WebP-conversion miss: broken ref matches a real file with
+a different extension; glotta slug mismatch: broken ref matches neither the English cover
+nor any real file, but a slug-derived filename that was never generated).
+
 ## Upstream Fix: Image-Generation Scripts Already Output WebP
 
 `tools/generate_ad_images.py` and `tools/generate_cover_images.py` (the two
