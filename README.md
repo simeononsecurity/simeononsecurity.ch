@@ -46,6 +46,105 @@ We are excited to announce that we now accept guest blog submissions on topics r
 ## About Our Advertising Opportunities
 At SimeonOnSecurity, we offer a range of advertising options to help you promote your brand and reach a targeted audience of security enthusiasts and professionals. Our [Advertising page](https://simeononsecurity.com/advertise/) provides detailed information about the ad sizes and slots we support, ensuring optimal performance and quality for your advertisements. Partner with us to showcase your products and services to our engaged community. Explore the various opportunities available to grow your reach and connect with like-minded individuals in the cybersecurity industry.
 
+## Notable Features & Optimizations
+
+This is a statically generated site, but it's engineered well past what most static
+sites ship with. A few things we're proud of:
+
+### Performance & Caching
+- **Tiered edge caching tuned per asset type.** `netlify.toml` sets distinct
+  `Cache-Control` policies for HTML, JS/CSS, XML feeds, JSON quiz banks, and
+  immutable images, splitting browser TTL from CDN (`s-maxage`) TTL so Cloudflare
+  can serve stale-but-safe responses for far longer than a browser should cache
+  them.
+- **A real Service Worker with a minimal precache.** `static/service-worker.js`
+  precaches only `/` and `/offline.html` (a ~1.7KB SVG-based fallback, down from a
+  ~49KB inline-base64 version) instead of eagerly force-fetching every script on
+  install, so first-install cost stays tiny while the app-shell/runtime caching
+  strategy still makes repeat visits and offline navigation fast.
+- **Live-search runs entirely client-side.** `/search` and the homepage both ship
+  a Fuse.js + Mark.js powered fuzzy search against a prebuilt `index.json`, with
+  debounced live-as-you-type results, in-place client-side pagination (no re-fetch
+  per page), and graceful empty/error states. No server, no database, no
+  third-party search SaaS.
+- **Every image is served responsively and lazily.** The custom `figure`
+  shortcode auto-generates multiple `.webp` resolutions with `srcset`/`sizes`,
+  lazy-loads below-the-fold images, and emits `ImageObject` schema, all from a
+  single shortcode call in Markdown.
+- **Font and image preloading is hand-tuned, not guessed at.** `preload-fonts.html`
+  and `preload-images.html` emit exact-match `<link rel="preload"/prefetch">` tags
+  keyed to the same `.Resize` cache strings the actual partials use, so the
+  browser starts fetching the *exact* bytes that will render, not a near-miss that
+  gets fetched twice.
+
+### Security
+- **A real, enforced Content-Security-Policy**, plus `Strict-Transport-Security`
+  (HSTS with `preload`), `X-Frame-Options`, `X-Content-Type-Options`, and a locked
+  down `Permissions-Policy` disabling camera, microphone, USB, geolocation, and
+  more by default, all set at the edge via `netlify.toml`.
+- **`security.txt` (RFC 9116) support** at `/.well-known/security.txt`, with a
+  public [Hall of Fame](https://simeononsecurity.com/hof) for researchers who
+  report issues responsibly, and a dedicated
+  [`SECURITY.md`](./SECURITY.md) disclosure policy.
+- **Automated malware/virus scanning on every push.** GitHub Actions runs a
+  [VirusTotal scan](.github/workflows/virustotal.yml) and a full
+  [ClamAV git-history scan](.github/workflows/git_av_scan.yml) against the repo,
+  not just a one-time check.
+- **A live canary-token honeypot** (`content/admin/index.html`) that fires an
+  alert if anyone actually goes digging where they shouldn't, kept out of search
+  engines and sitemaps via `robotsdisallow`/`sitemap_ignore` front matter.
+- **Locked-down CI.** Every `branch_build_hugo_*.yml` workflow does a full,
+  non-shallow (`fetch-depth: 0`) Hugo build per language so `Lastmod`/GitInfo data
+  stays accurate, and `html_verify_built.yml` validates the actual built HTML
+  output on every push before it ships.
+
+### SEO & Structured Data
+- **A per-bot-family `robots.txt` built for the AI-crawler era**, over 350 lines
+  distinguishing search bots, image bots, AI/LLM training and RAG bots
+  (`GPTBot`, `ClaudeBot`, `PerplexityBot`, etc.), archive bots, and SEO scrapers,
+  each with its own `Crawl-delay` and IETF
+  [Content-Signal](https://contentsignals.org/) directives (`ai-train=no,
+  search=yes, ai-input=yes`) stating exactly how the content may and may not be
+  used, per bot family, not one blanket rule.
+- **Eight distinct XML output formats** generated straight from Hugo: standard
+  RSS, a full-text RSS variant, a Google News sitemap, a SmartNews feed, an image
+  sitemap, and a combined sitemap index, across every language, all validated for
+  well-formedness and self-referencing `atom:link` correctness in CI.
+- **JSON-LD structured data everywhere it matters**: `Organization`/`WebSite`
+  site-wide schema, `ImageObject` on every figure, `VideoObject`/
+  `LearningResource` on every embedded YouTube video, `Quiz`/`LearningResource` on
+  every practice test, and `ItemList` carousels on article listing pages.
+- **Automatic search-engine push on publish.** A scheduled GitHub Action
+  ([`sitemap_submission.yml`](.github/workflows/sitemap_submission.yml)) submits
+  the sitemap to Bing IndexNow and the Google Indexing API daily, instead of
+  waiting for a crawl.
+
+### Accessibility & PWA
+- **Installable as a real Progressive Web App**, with a full `manifest.json`
+  covering iOS, Android, and Windows tile icon sets, an offline fallback page,
+  and background-sync-friendly service worker caching.
+- **Raw HTML is intentionally avoided in content.** Every image, video, button,
+  and social embed goes through a purpose-built Hugo shortcode
+  (`figure`, `youtube`, `button`, `gist`, `twitter`, `instagram`, `vimeo`, ...)
+  so accessibility attributes, lazy-loading, and schema markup stay consistent
+  across hundreds of content pages without any single article having to get it
+  right by hand.
+
+### Content Scale & Automation
+- **16 fully translated languages** via the in-house
+  [glotta](https://github.com/simeononsecurity/glotta) translation pipeline, each
+  published to its own subdomain with its own sitemap and RSS feed (see the table
+  below).
+- **Certification practice tests with real question banks**, not a handful of
+  sample questions: each exam ships a deterministically generated (seeded), 100+
+  question-per-domain JSON bank, versioned and served straight from the CDN.
+- **AI-assisted, pipeline-generated cover and inline imagery** for every article
+  and guide, with automatic WebP compression, alt-text generation, and stem-aware
+  duplicate detection so the same image is never regenerated twice.
+- **89 top-level content sections and 500+ articles, guides, and writeups**, all
+  built, translation-checked, and HTML-validated automatically on every push
+  across 18 parallel per-language build workflows.
+
 ## Domains Built with This Source
 
 This source code has been used to build the following domains:
