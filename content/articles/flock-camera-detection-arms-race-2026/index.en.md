@@ -4,9 +4,9 @@ date: 2026-09-10
 lastmod: 2026-09-10
 toc: true
 draft: false
-description: "Flock-You users are reporting zero detections on drives that used to catch cameras every time. Here is what changed in Flock Safety's hardware, why BLE and the old management AP both stopped working, and how the open-source detection community responded."
+description: "Flock-You users are reporting zero detections on drives that used to catch cameras every time. Here is what changed in Flock Safety's hardware, why BLE and the old management AP both stopped working, how the open-source detection community responded, and an emerging infrared-based detection approach that skips WiFi entirely."
 genre: ["Privacy Technology", "Counter Surveillance", "Open Source Projects", "Digital Rights", "Network Security", "Security Research", "Hardware Hacking", "Privacy Tools"]
-tags: ["Flock Safety", "ALPR", "Flock-You", "OUI Detection", "Wildcard Probe Request", "Promiscuous Mode WiFi", "802.11 Monitoring", "DeFlockJoplin", "NitekryDPaul", "BLE Detection", "5GHz WiFi", "Locally Administered MAC", "SSID Pattern Matching", "Counter Surveillance Hardware", "STS Collective", "colonelpanichacks", "Detection Evasion", "ESP32", "WiFi Detection", "Surveillance Awareness", "OUI-SPY", "M5 Atom Lite", "Flock Finder", "GitHub Issue Tracking", "Firmware Update", "Anti-Fingerprinting", "MAC Randomization", "Information Element Fingerprinting", "Channel Hopping", "Privacy Advocacy", "Open Source Security", "Mass Surveillance", "Detection Firmware", "Wardriving", "Camera Uprooting", "Privacy Hardware"]
+tags: ["Flock Safety", "ALPR", "Flock-You", "OUI Detection", "Wildcard Probe Request", "Promiscuous Mode WiFi", "802.11 Monitoring", "DeFlockJoplin", "NitekryDPaul", "BLE Detection", "5GHz WiFi", "Locally Administered MAC", "SSID Pattern Matching", "Counter Surveillance Hardware", "STS Collective", "colonelpanichacks", "Detection Evasion", "ESP32", "WiFi Detection", "Surveillance Awareness", "OUI-SPY", "M5 Atom Lite", "Flock Finder", "GitHub Issue Tracking", "Firmware Update", "Anti-Fingerprinting", "MAC Randomization", "Information Element Fingerprinting", "Channel Hopping", "Privacy Advocacy", "Open Source Security", "Mass Surveillance", "Detection Firmware", "Wardriving", "Camera Uprooting", "Privacy Hardware", "Infrared Detection", "IR Illuminator", "ESP32-CAM", "Seeed Studio XIAO ESP32S3 Sense", "Quectel L76K", "Optical Detection", "Valleytech Custom Solutions"]
 cover: "/img/cover/flock-camera-detection-techniques-2026.webp"
 coverAlt: "An urban scene with a Flock camera on a lamppost and a vehicle equipped with a high-tech detection device. Glowing signals illustrate wireless data communication in a dark background."
 coverCaption: "How Flock Safety's shifting hardware keeps breaking open-source detection tools, and how the community keeps catching up"
@@ -132,6 +132,18 @@ But look at the pattern across both issues together. A detection surface goes da
 
 *The most useful stance is not to argue which one it is. It is to build detection that does not depend on any single assumption holding forever, because on this project's own two-year track record, none of them have.*
 
+### Visual Confirmation: Powered On, Broadcasting Nothing
+
+**[A third Valleytech Custom Solutions short](https://www.youtube.com/shorts/sjI8FB0cLk0) closes the loop on the "maybe the camera was removed" explanation.**
+
+{{< youtube id="sjI8FB0cLk0" >}}
+
+The creator returned to the same camera from the first video, at night, and visually confirmed its **IR LEDs were still firing**, meaning the unit was powered on and actively illuminating for night capture. At the same time, **every custom firmware they tested logged zero legitimate hits** against that camera. One alert did fire, but it was a confirmed false positive rather than a real detection. Nothing from the camera was reaching the wireless side at all.
+
+**This separates the two competing explanations cleanly.** A camera that has been uprooted or relocated cannot explain a unit that is visibly powered on and illuminating at night. A camera that is live, illuminating, and still silent on every WiFi detection method is evidence the wireless signature itself has gone dark, not that the hardware disappeared.
+
+The creator also reported, after talking with other developers working on the same problem, that this was not an isolated result. **Multiple people observed the same pattern at roughly the same time**, which points toward a coordinated, nationwide change on Flock's side rather than a local fluke at one camera. *That claim is anecdotal, based on informal conversation rather than a published dataset, but it lines up with the same December 2025 and spring 2026 windows described in Issue #20, and it is the kind of report that belongs in a new GitHub issue rather than staying as a comment thread.*
+
 ______
 
 ## What This Means for Your Detection Hardware
@@ -147,6 +159,40 @@ If your device has gone quiet, work through this checklist before assuming it is
 **None of this makes the hardware pointless.** The OUI list and wildcard-probe fingerprint still catch the overwhelming majority of deployed cameras today. It means treating any detector, DIY or purchased, as a snapshot of the current arms race rather than a permanent solution.
 
 {{< stscollective-ad "flockyou" >}}
+
+______
+
+## A Parallel Approach: Detecting the Infrared Flash Instead of the WiFi Signal
+
+Wireless detection is not the only front in this arms race. **[A separate follow-up video](https://www.youtube.com/shorts/mzpr6bslsYA) from the same creator, Valleytech Custom Solutions, describes an entirely different approach**: instead of listening for a radio signature, watch for the camera's infrared illuminator.
+
+{{< youtube id="mzpr6bslsYA" >}}
+
+Most ALPR cameras, Flock's included, use **infrared illumination to capture readable plates at night**, the same reason ordinary security cameras work in the dark. That IR light is invisible to the human eye but visible to an image sensor that has not had its infrared-cut filter installed. *That single hardware detail, a missing IR-cut filter, is what turns an ordinary camera module into a Flock detector.*
+
+### What the Prototype Looks Like
+
+The approach documented in the video went through several iterations before landing on a workable combination:
+
+- **First attempt**: dedicated IR photodiode receivers. Technically workable, but the parts were too expensive to be a practical DIY option.
+- **Second attempt**: a **Jetson Nano paired with a Raspberry Pi camera module**. This proved the concept worked, but the hardware cost and power draw made it impractical for a handheld or vehicle-mounted build.
+- **Current build**: an **ESP32-based camera module without an IR-cut lens**. The creator tested an **ESP32-CAM** and an **M5Stack S3 Cam** before settling on the **Seeed Studio XIAO ESP32S3 Sense**, paired with a **Seeed XIAO GNSS module built on the Quectel L76K chip** for GPS-tagging detections, the same GPS-wardriving pattern the WiFi-based `flock-you` dashboard already uses.
+
+| Requirement | Why it matters |
+|---|---|
+| **No IR-cut filter on the camera module** | The filter that makes ordinary photos look color-correct also blocks the exact light this method needs to see |
+| **A camera rather than a photodiode** | Photodiode receivers capable of isolating the signal were too expensive to be practical for a DIY build |
+| **GPS logging** | Matches detections to a location the same way the WiFi firmware's Flask dashboard does |
+
+### The Camera's Blink Pattern
+
+The premise depends on the illuminator flashing in a detectable, repeating pattern rather than staying continuously lit. The creator reported a **self-measured timing of roughly 20 milliseconds on and 80 milliseconds off, a 100-millisecond period, which works out to a 20% duty cycle at 10Hz**, and was explicit that this figure is unverified and could be wrong. *Treat that specific number as a starting point for your own measurement, not a confirmed spec, since Flock has never published it and the creator did not claim certainty either.*
+
+### Where the Project Stands
+
+**This is an early, DIY-only prototype, not a finished product.** The creator described the software as "vibe coded" and still in progress, with a buzzer for audible alerts planned but not yet added, and no packaged board equivalent to the OUI-SPY hardware. The current version still requires a **human to visually confirm** that a flagged detection is an actual camera rather than another IR-emitting light source, so it works as a screening tool rather than a fully automated one.
+
+*This is a genuinely different detection surface than everything else in this article. It does not depend on WiFi, 2.4GHz or 5GHz, OUI matching, or MAC address behavior at all, which means none of the evasion techniques described in Issue #43 apply to it. That also means it inherits its own limitations: line of sight, daylight interference, and a duty cycle assumption that has not been independently confirmed.*
 
 ______
 
@@ -173,6 +219,8 @@ A silent detector on a route that used to catch cameras is not proof your hardwa
 - **Two documented detection surfaces have already gone dark**: the management WiFi AP (deactivated around December 2025) and BLE beaconing (unreliable by spring 2026).
 - **The current method, wildcard probe requests plus OUI and IE fingerprint matching, has a field-verified 11-of-12 detection rate**, but it is WiFi-only and 2.4GHz-only.
 - **A pending report describes a new SSID format, a confirmed 5GHz hotspot, and locally-administered MAC addresses** that the current OUI-based, 2.4GHz-only method cannot see.
+- **A separate, non-wireless approach is emerging**: an ESP32 camera module with its IR-cut filter removed spots a Flock camera's infrared illuminator, a detection surface that ignores WiFi entirely and is immune to every evasion technique above.
+- **Visual confirmation backs the wireless silence up**: a camera visibly powered on and illuminating at night still logged zero legitimate WiFi hits, which rules out "the camera was removed" as the explanation for that specific unit.
 - **A zero-detection result on a known camera does not automatically mean your hardware is broken.** Update your firmware first, then confirm the camera is physically still there.
 - **This is an open-source project that keeps shipping fixes as the community finds gaps.** Read the GitHub issues, not only the README, to know the current state of detection.
 
@@ -217,3 +265,8 @@ ______
 10. [Colonel Panic Tech - OUI-SPY and Detection Hardware](https://colonelpanic.tech)
 11. [STS Collective - FlockYou Devices](https://stscollective.com/discount/SIMEONONSECURITY)
 12. [Something Strange Is Happening With Flock Cameras - Valleytech Custom Solutions](https://www.youtube.com/shorts/cVf-id71BuQ)
+13. [Infrared Wardriving Flock Cameras - Valleytech Custom Solutions](https://www.youtube.com/shorts/mzpr6bslsYA)
+14. [Flock Cameras Still On But No Broadcast - Valleytech Custom Solutions](https://www.youtube.com/shorts/sjI8FB0cLk0)
+15. [Automatic Number-Plate Recognition - Wikipedia (infrared illumination in ANPR/ALPR systems)](https://en.wikipedia.org/wiki/Automatic_number-plate_recognition)
+16. [Seeed Studio XIAO ESP32S3 Sense](https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html)
+17. [L76K GNSS Module for Seeed Studio XIAO](https://www.seeedstudio.com/L76K-GNSS-Module-for-Seeed-Studio-XIAO-p-5864.html)
