@@ -30,6 +30,7 @@ __pycache__/
 .pio-mcp-workspace/
 
 # Other files and folders
+/reports/
 .settings/
 .DS_Store
 dist
