@@ -49,6 +49,22 @@ The six levels of the cognitive domain, from simplest to most complex:
 Do not mix levels within a single section. A definition list should only define. A command block
 should only demonstrate. A comparison table should only compare.
 
+### Expanding Explainers Into Practical Guides
+
+An expansion needs a new reader outcome beyond additional definitions. For related articles:
+
+- **Define a distinct question** for each page and compare its scope with existing site coverage.
+- **Progress through the cognitive levels** with definitions, explanations, a worked action,
+  an evidence comparison, a justified choice, and a reader-created plan or record.
+- **Give exercises expected reasoning** so readers check their conclusions independently.
+- **Label illustrative examples** and distinguish expected behavior from observed results.
+- **Keep topic-specific outputs:** an access specification, app inventory, hosting plan, and
+  diagnostic record serve different tasks. Avoid repeating one generic exercise across pages.
+
+Record the section-to-level mapping during review. Keep instructional design labels out of
+reader-facing headings unless the article explicitly teaches instructional design. Verify the
+400-word visual-break limit, scoped internal links, and actual rendered output after expansion.
+
 ---
 
 ## Text Emphasis for Skimmability
