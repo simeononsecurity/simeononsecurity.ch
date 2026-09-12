@@ -439,3 +439,33 @@ reused from cache.
 - The `layout:` front matter key selects a specific template. Quiz pages use
   `layout: "<exam>_quiz"` to load the quiz section template. Do not set `layout` on ordinary
   articles or guides.
+
+## `{{< youtube >}}` Renders No Player Site-Wide (`privacy.youtube.disable = true`)
+
+`config/_default/privacy.toml` sets `[privacy.youtube] disable = true`. The project shortcode
+`layouts/shortcodes/youtube.html` guards its entire video element (the `<div itemscope ...>`
+wrapper, the `<lite-youtube>` element, the `<noscript>` fallback, and the `VideoObject` /
+`LearningResource` JSON-LD) behind `{{- if not $pc.Disable -}}`. Only the two blocks ABOVE that
+guard (the `loadLiteYouTubeScript()` `<script>` and the `.lite-youtube-fallback` `<style scoped>`)
+are unconditional, so a disabled shortcode still emits dead loader script and CSS but **no video
+player on any page**.
+
+Verified with `npx hugo config --config config/language/en/config.toml | grep -B1 -A4 youtube`,
+which shows `[privacy.youtube] disable = true / privacyenhanced = true` in the MERGED config the
+CI build actually uses. `config/language/en/config.toml` does not override the setting, and Hugo
+still merges `config/_default/privacy.toml` when `--config` names a single file, so this is
+production behavior and not a local-only artifact.
+
+**Consequences for content authors:** a `{{< youtube id="..." >}}` shortcode produces a working
+no-op. Do not write prose such as "the video below" or "watch the embedded video" on a page whose
+only video reference is the shortcode, because no player renders. When a video matters to a page,
+also add a plain Markdown link to `https://www.youtube.com/watch?v=<id>` (or the `/shorts/` URL)
+so readers can reach it, and keep the shortcode for consistency and in case the privacy setting is
+ever flipped.
+
+**Verification technique:** after a build, confirm the rendered page contains
+`<lite-youtube videoid=` (a working embed) rather than only `lite-youtube@1.5.0/lite-youtube.js`
+(the disabled-state loader). Grepping for the bare video ID proves nothing, because the same ID
+appears in ordinary Markdown links, in a working embed's `<noscript>`/JSON-LD, and in reference
+lists.
+
