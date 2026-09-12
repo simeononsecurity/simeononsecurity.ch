@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DeFlockJoplin on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>DeFlockJoplin on simeononsecurity</title><link>https://simeononsecurity.com/tags/deflockjoplin/</link></image><link>https://simeononsecurity.com/tags/deflockjoplin/</link><description>Recent content in DeFlockJoplin on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/deflockjoplin/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Camera Detection Arms Race: What Changed in 2026</title><link>https://simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Counter Surveillance"
+, "Open Source Projects"
+, "Digital Rights"
+, "Network Security"
+, "Security Research"
+, "Hardware Hacking"
+, "Privacy Tools"</category><guid>https://simeononsecurity.com/articles/flock-camera-detection-arms-race-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock-You users are reporting zero detections on drives that used to catch cameras every time. Here is what changed in Flock Safety's hardware, why BLE and the old management AP both stopped working, how the open-source detection community responded, and an emerging infrared-based detection approach that skips WiFi entirely.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-camera-detection-techniques-2026.webp" length="229586" type="image/webp"/></item><item><title>Flock Finder: Map Flock Safety ALPR Cameras</title><link>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacy Technology"
+, "Counter Surveillance"
+, "Open Source Projects"
+, "Digital Rights"
+, "Network Security"
+, "Privacy Tools"
+, "Hardware Hacking"
+, "Security Research"</category><guid>https://simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is an open-source tool that maps 40,000+ Flock Safety ALPR cameras worldwide using WiGLE WiFi data and OUI fingerprinting. Learn how it works, its limitations, and the hardware tools for real-time detection.</description><enclosure url="https://simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item></channel></rss>
