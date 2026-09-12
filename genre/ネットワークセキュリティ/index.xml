@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ネットワークセキュリティ on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>ネットワークセキュリティ on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/</link><description>Recent content in ネットワークセキュリティ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: Flock Safety ALPRカメラのマッピングツール</title><link>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"プライバシー技術"
+, "対監視"
+, "オープンソースプロジェクト"
+, "デジタル権利"
+, "ネットワークセキュリティ"
+, "プライバシーツール"
+, "ハードウェアハッキング"
+, "セキュリティ研究"</category><guid>https://ja.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock FinderはWiGLE WiFiデータとOUIフィンガープリンティングを使用して、世界中の40,000以上のFlock Safety ALPRカメラをマッピングするオープンソースツールです。仕組み、制限事項、およびリアルタイム検出のハードウェアツールについて学びましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock-You検出：カウンター監視セットアップガイド</title><link>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"セキュリティハードウェア"
+, "カウンター監視"
+, "プライバシー技術"
+, "オープンソースプロジェクト"
+, "ESP32開発"
+, "WiFiモニタリング"
+, "プライバシーツール"
+, "デジタル権利"
+, "ハードウェアハッキング"
+, "ネットワークセキュリティ"</category><guid>https://ja.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ESP32ベースのハードウェアを使用してFlock Safety ALPRカメラを検出するオープンソースFlock-Youプロジェクトの包括的な技術ガイド。セットアップ手順、ファームウェアの詳細、購入オプションを含む。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>GPOを使いこなす：効果的なネットワーク管理のための包括的なガイド</title><link>https://ja.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"ネットワーク管理"
+, "グループポリシーオブジェクト"
+, "GPO"
+, "ウィンドウズ・アドミニストレーション"
+, "ITインフラ"
+, "ネットワークセキュリティ"
+, "アクティブディレクトリ"
+, "コンフィギュレーションマネジメント"
+, "グループポリシー管理"
+, "ネットワークの最適化"</category><guid>https://ja.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+グループポリシーオブジェクト（GPO）の威力を知り、ネットワーク設定やポリシーを効率的に管理・最適化し、セキュリティ強化と合理的な運用を実現する方法を学びます。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item><item><title>Security+とSSCP：どちらのサイバーセキュリティ認定資格が頂点に君臨するのか？</title><link>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><category>
+"サイバーセキュリティ"
+, "情報セキュリティ"
+, "認証比較"
+, "ITキャリア"
+, "業界からの評価"
+, "求人情報"
+, "ネットワークセキュリティ"
+, "システムセキュリティ"
+, "CompTIA"</category><guid>https://ja.simeononsecurity.com/articles/security-plus-vs-sscp-what-is-the-better-certification/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Security+とSSCPの認定資格を比較し、就職の機会、業界での認知度、包括的な知識の網羅性を求めるサイバーセキュリティ専門家にとって最適な選択を決定します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_artwork_featuring_two_shields_facing_off_against.webp" length="167514" type="image/webp"/></item></channel></rss>
