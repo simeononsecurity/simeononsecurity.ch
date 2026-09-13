@@ -26,6 +26,9 @@ Front matter is always **YAML**, delimited by `---` ... `---`. Never use TOML (`
   exist on older posts).
 - `coverAlt` — descriptive alt text for the cover image.
 - `coverCaption` — short caption, frequently left empty (`""`).
+- `coverCredit` / `coverCreditURL` — optional source credit and source-page URL for
+  third-party covers. The project `postcover.html` override emits this credit and
+  omits the default site creator, copyright, and licensing claims for credited images.
 
 Do **not** add `author` or `authors` keys. Authorship is handled by the single author profile at
 `content/authors/simeononsecurity/`, so article front matter carries no author field.
@@ -71,6 +74,10 @@ affiliate/external `rel` handling.
   `rel="nofollow noopener external sponsored"`, generic external links get `noopener external`,
   and internal `simeononsecurity.com` links are followed.
 - Other optional params: `title`, `class`, `width`, `height`, `target`, `attr`, `attrlink`.
+- `credit` — optional source credit for third-party images. Use alongside visible
+  `attr` and `attrlink` attribution. It sets structured image credit and omits the
+  default site creator, copyright, and licensing claims. `attrlink` supplies the
+  structured source URL. Attribution does not establish a reuse license.
 
 Prefer locally stored `.webp` images placed in the page's own folder, referenced by bare filename.
 

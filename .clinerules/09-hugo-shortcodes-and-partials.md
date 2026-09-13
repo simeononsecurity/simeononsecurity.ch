@@ -58,6 +58,10 @@ Parameters:
   - Internal simeononsecurity.com links → `rel="follow me"`
 - `title` — rendered as an `<h4>` in the figcaption.
 - `attr` / `attrlink` — attribution text and link in the caption.
+- `credit` — source credit for third-party image metadata. Pair with `attr` and
+  `attrlink` for visible attribution. Credited figures omit the default site
+  creator, copyright, and licensing claims. Image `contentUrl` uses the resolved
+  `src`, independently of an optional click-through `link`.
 - `width`, `height` — pass through to the `<img>` tag.
 - `class` — CSS class on the `<figure>` element.
 
