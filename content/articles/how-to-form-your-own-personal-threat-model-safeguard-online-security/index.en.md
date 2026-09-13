@@ -1,176 +1,198 @@
 ---
 title: "How to Form Your Own Personal Threat Model"
 date: 2023-07-25
+lastmod: 2026-09-12
 toc: true
 draft: false
-description: "Discover the step-by-step process of forming your own personal threat model to enhance your online security and protect your valuable assets."
+description: "A step-by-step process for building a personal threat model: name your assets, threat actors, and the mitigations protecting them."
 genre: ["Online Security", "Personal Threat Modeling", "Cybersecurity Best Practices", "Privacy Protection", "Threat Assessment", "Risk Mitigation", "Digital Self-Defense", "Data Protection", "Online Privacy", "Internet Safety"]
 tags: ["personal threat model", "online security", "cybersecurity", "privacy protection", "threat assessment", "risk mitigation", "digital self-defense", "data protection", "online privacy", "internet safety", "how to form personal threat model", "safeguard online security", "protect valuable assets", "step-by-step threat modeling", "enhance online privacy"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_shield_pro.webp"
 coverAlt: "A symbolic illustration depicting a shield protecting a digital lock."
-coverCaption: "help Yourself: Form Your Own Personal Threat Model"
+coverCaption: "Build a personal threat model to focus protection on your highest-risk assets."
 ---
 
-**How to Form Your Own Personal Threat Model**
+A **personal threat model** is a short written answer to three questions: who is likely to target you, what they want, and how they reach it. It turns a vague feeling of being at risk into a plan you act on.
 
-## Introduction
-
-In an increasingly digital world, ensuring personal security has become **more important than ever**. **Personal threat modeling** is a proactive approach that helps individuals identify potential risks and develop strategies to protect themselves. By **assessing the potential threats** they may face and taking appropriate measures, individuals can **enhance their online safety and privacy**. This article will guide you through the process of **forming your own personal threat model**.
+*Security effort is finite. A threat model spends it on the attacks most likely to reach you, so you do not burn energy protecting against problems you will never face.*
 
 ______
 
-## Understanding Personal Threat Modeling
+## What Is a Personal Threat Model?
 
-**Personal threat modeling** involves systematically analyzing the potential risks and vulnerabilities you may encounter in various aspects of your life, both online and offline. It allows you to **tailor your security measures** to your specific circumstances. By following the steps outlined below, you can **create an effective personal threat model**.
+**Threat modeling** is the practice of listing your assets, the people who might come after them, and the routes these people use. You already do a rough version of this when you lock your front door but leave your bicycle unlocked in the garage. A written model makes those choices deliberate and repeatable.
+
+The process runs in order: name the asset, identify the attacker, map the route, then pick the control. Each step narrows the list so the final protections fit your situation instead of a generic checklist.
+
+> **Key Takeaway:** a personal threat model is not a one-time worksheet. You rebuild it on a schedule and after any major life change, a new job, a move, or a public controversy.
+
+______
+
+## Key Takeaways
+
+- **Assets come first.** You defend things, not an abstract idea of security.
+- **Threat actors differ.** A scammer, a stalker, and a nation-state attacker need different defenses.
+- **Attack vectors repeat.** Phishing, malware, password reuse, and lost devices cause most harm.
+- **Consequences set priority.** Spend on the loss you least want to absorb.
+- **Mitigations are simple on purpose.** Strong passwords, MFA, and updates stop most attacks.
+
+______
+
+## The Seven Steps at a Glance
+
+| Step | Action | Output |
+|------|--------|--------|
+| **1** | Identify your assets | ranked list of what to protect |
+| **2** | Evaluate threat actors | who is likely to target you |
+| **3** | Assess motives and capabilities | attacker profile |
+| **4** | Identify attack vectors | how an attacker gets in |
+| **5** | Evaluate consequences | impact of each loss |
+| **6** | Implement mitigation strategies | the controls you apply |
+| **7** | Review and update | a living document |
+
+Each step builds on the one before it. A skipped step leaves a gap an attacker uses.
+
+______
 
 ## Free Personal Threat Model Checklist
 
-Use the following checklist to assess and enhance your personal threat model:
-
-- [ ] **Identify Your Assets**: Make a list of your valuable assets, including financial accounts, digital information, personal documents, and professional data.
-
-- [ ] **Evaluate Potential Threat Actors**: Consider the potential threat actors who may target your assets, such as hackers, scammers, cyberstalkers, competitors, or state-sponsored attackers.
-
-- [ ] **Assess Motivations and Capabilities**: Understand the motivations and capabilities of potential threat actors, including financial gain, revenge, espionage, or hacktivism.
-
-- [ ] **Identify Attack Vectors**: Identify the methods or paths that attackers can exploit to compromise your assets, such as phishing, malware, social engineering, password attacks, or physical theft.
-
-- [ ] **Evaluate Consequences**: Assess the potential consequences of an attack, including financial loss, reputation damage, identity theft, or emotional distress.
-
-- [ ] **Implement Mitigation Strategies**: Implement appropriate security measures, such as using strong passwords, enabling two-factor authentication, keeping software up to date, using firewalls and antivirus software, adjusting privacy settings, and staying educated about online threats.
-
-- [ ] **Regularly Review and Update Your Threat Model**: Continuously review and update your threat model to adapt to changing technology, monitor the threat landscape, assess regulatory changes, and perform regular risk assessments.
-
-Take the time to go through this checklist and customize it according to your specific needs and circumstances. Regularly review and update your personal threat model to maintain effective security measures and protect your personal and professional digital assets.
-
-## Step 1: Identify Your Assets
-
-To **form your own Personal Threat Model**, you need to **start by identifying your valuable assets**. These assets encompass personal information, financial accounts, online profiles, intellectual property, and any other elements that hold significance to you. By recognizing and categorizing your assets, you can better understand the potential risks you may face and take proactive measures to protect them.
-
-Consider the following examples of assets to get you started:
-
-- **Financial Assets**: This includes your bank accounts, credit card information, investment portfolios, and any other financial resources you possess.
-
-- **Digital Assets**: Your digital assets comprise email accounts, social media profiles, cloud storage, and other online platforms where you store personal or sensitive information.
-
-- **Personal Assets**: Identity documents, health records, personal photographs, and any other personal belongings that are important to you.
-
-- **Professional Assets**: Intellectual property, trade secrets, client data, and any other confidential or proprietary information related to your professional life.
-
-By thoroughly assessing and documenting these assets, you will have a clear overview of what needs to be protected within your personal threat model. This knowledge forms the foundation for the subsequent steps in creating an effective threat model.
-
-Remember, the key is to identify and categorize your assets based on their **significance** and **value** to you.
-
-## Step 2: Evaluate Potential Threat Actors
-
-To **form your own Personal Threat Model**, you need to **evaluate the potential threat actors** who may target your assets. Understanding these threat actors can help you identify their motivations and tactics, allowing you to implement appropriate security measures. Here are some common threat actors to consider:
-
-- **Hackers**: These individuals possess advanced technical skills and exploit vulnerabilities in systems and networks. They may attempt to gain unauthorized access to your digital assets, such as email accounts or social media profiles, with the intent to steal sensitive information or cause disruption.
-
-- **Scammers**: Fraudsters who use deceptive tactics to trick individuals into providing personal or financial information. They often pose as legitimate entities, such as banks or online service providers, in phishing attempts or other social engineering techniques.
-
-- **Cyberstalkers**: Individuals who engage in online harassment, intimidation, or threats. They may target your personal or professional reputation, invade your privacy, or cause emotional distress through persistent online presence and malicious behavior.
-
-- **Competitors**: Rival businesses or professionals who seek to gain an advantage by compromising your intellectual property, trade secrets, or client data. They may attempt to gather information about your strategies, clients, or sensitive projects to undermine your competitive position.
-
-- **State-sponsored attackers**: Government entities or intelligence agencies that target specific individuals for various reasons, including political, economic, or intelligence interests. These sophisticated attackers may possess significant resources and capabilities to carry out targeted attacks on personal or professional assets.
-
-By understanding the motivations and tactics of these potential threat actors, you can tailor your personal threat model to mitigate the risks associated with each category. Implementing appropriate security measures and staying vigilant can help safeguard your assets from these threats.
-
-## Step 3: Assess Motivations and Capabilities
-
-To **form your own Personal Threat Model**, it's important to assess the **motivations and capabilities** of potential threat actors. Understanding their goals and abilities allows you to anticipate the types of attacks you may face and implement appropriate security measures. Here are some common motivations and capabilities to be aware of:
-
-- **Financial gain**: Some attackers are primarily motivated by **financial gain**. They may engage in activities such as **fraud** or **theft** to acquire monetary benefits. For example, **phishing attacks** where attackers trick individuals into revealing their sensitive financial information.
-
-- **Revenge**: Certain threat actors may have a personal vendetta or grudge against you. Their motivation is driven by a desire for **revenge** or causing harm. These individuals may resort to **cyberstalking**, **doxing**, or other forms of online harassment to target their victims.
-
-- **Espionage**: State-sponsored actors often engage in **espionage** to gather intelligence. They may target individuals or organizations to access sensitive information, trade secrets, or intellectual property. Such attacks can have significant implications for national security, as seen in high-profile cases involving **government-sponsored hacking**.
-
-- **Hacktivism**: Activists or groups with specific **political motivations** engage in **hacktivism**. They use cyber techniques to promote their **political agenda** or raise awareness about social issues. For instance, **Distributed Denial of Service (DDoS)** attacks on government websites to protest certain policies.
-
-By considering the motivations and capabilities of potential threat actors, you can better understand the risks you may face and take appropriate measures to protect your assets and privacy.
-
-## Step 4: Identify Attack Vectors
-
-To **form your own Personal Threat Model**, you need to identify the **attack vectors** that potential threat actors may exploit to compromise your assets. By understanding these methods or paths, you can focus on implementing specific security measures to mitigate the risks. Here are some common attack vectors to consider:
-
-- **Phishing**: Phishing is a prevalent attack vector where attackers send deceptive emails or messages that appear to be from trusted sources. These messages often contain malicious links or attachments and aim to **trick individuals into revealing sensitive information** such as passwords or credit card details. For example, an attacker may send an email pretending to be from a well-known financial institution, requesting the recipient to update their account information by clicking on a link. Awareness and caution are essential in **detecting and avoiding phishing attempts**.
-
-- **Malware**: Malware refers to malicious software designed to gain unauthorized access or cause harm to your devices. It can take various forms, including **viruses**, **trojans**, **ransomware**, and **spyware**. Malware can infect your devices through **untrusted downloads**, **malicious websites**, or **infected email attachments**. Implementing robust **antivirus** and **anti-malware solutions** and keeping your software up to date are vital to **protect against malware attacks**.
-
-- **Social Engineering**: Social engineering involves manipulating individuals to obtain confidential information. Attackers may use techniques such as **pretexting**, **baiting**, or **phishing calls** to gain trust and deceive victims into sharing sensitive data or performing actions that compromise security. An example of social engineering is when an attacker poses as a technical support representative and convinces a victim to provide remote access to their computer. **Vigilance** and **verification** are key in preventing social engineering attacks.
-
-- **Password Attacks**: Password attacks involve various methods to crack passwords or use stolen credentials to gain unauthorized access to accounts. These can include **brute-force attacks**, **dictionary attacks**, or using **password leaks** from data breaches. To protect against password attacks, you need to use **strong, unique passwords** for each account and consider enabling **multi-factor authentication** (MFA) whenever possible.
-
-- **Physical Theft**: Physical theft occurs when attackers gain access to your devices or documents containing sensitive information. For example, a stolen laptop or smartphone can provide unauthorized individuals with direct access to your personal or professional data. To mitigate the risk of physical theft, it is important to **secure your devices**, use **strong encryption**, and implement **remote wipe or tracking** features for mobile devices.
-
-By identifying these common attack vectors, you can better understand the potential risks you may face and take appropriate measures to **safeguard your assets and personal information**.
-
-## Step 5: Evaluate Consequences
-
-As you **form your own Personal Threat Model**, you need to evaluate the potential **consequences** that an attack could have on your personal and professional life. Understanding the impact of these consequences allows you to prioritize your security measures effectively. Here are some common consequences to consider:
-
-- **Financial Loss**: An attack that results in **theft or unauthorized access to your financial accounts** can have significant financial implications. For instance, if a cybercriminal gains access to your online banking credentials, they may be able to conduct fraudulent transactions or drain your accounts. Implementing **strong passwords**, enabling **two-factor authentication**, and regularly monitoring your financial statements are essential steps to mitigate the risk of financial loss.
-
-- **Reputation Damage**: Attacks that involve **spreading false information** or engaging in **defamation** can harm your reputation both personally and professionally. For example, a malicious actor may post damaging content on social media platforms or create fake profiles using your name to tarnish your image. **Monitoring your online presence**, practicing **good online hygiene**, and promptly addressing any false information or malicious activities can help protect your reputation.
-
-- **Identity Theft**: **Unauthorized use of personal information** for fraudulent activities can result in identity theft. Cybercriminals may use stolen identities to open fraudulent accounts, apply for loans or credit cards, or commit other forms of financial fraud. To prevent identity theft, you need to **safeguard your personal information** by using secure online practices, such as being cautious with sharing personal details online and regularly monitoring your credit reports for any suspicious activities.
-
-- **Emotional Distress**: Attacks such as **online harassment** or **cyberbullying** can have a severe impact on your mental well-being. These attacks may involve persistent online threats, hate speech, or the dissemination of private and sensitive information. It is important to prioritize your mental health by taking steps to **prevent and address cyberbullying**, such as adjusting privacy settings, reporting abusive behavior, and seeking support from trusted individuals or organizations.
-
-By evaluating these potential consequences, you can gain a deeper understanding of the risks associated with different threat scenarios and focus on implementing **appropriate security measures** to mitigate those risks effectively.
-
-## Step 6: Implement Mitigation Strategies
-
-To effectively **form your own Personal Threat Model**, it is vital to implement **mitigation strategies** that address the identified threats and vulnerabilities. By taking proactive measures, you can significantly reduce the risk of potential attacks. Consider the following strategies:
-
-- [**Strong Passwords**](https://simeononsecurity.com/articles/how-to-create-strong-passwords/): Use **unique and complex passwords** for your accounts to prevent unauthorized access. Avoid using common passwords or reusing passwords across multiple accounts. Consider using a **password manager** to securely store and generate strong passwords.
-
-- [**Two-Factor Authentication (2FA)**](https://simeononsecurity.com/articles/what-are-the-diferent-kinds-of-factors-in-mfa/): Enable **2FA** whenever possible to add an extra layer of security to your online accounts. With 2FA, you will need to provide a second form of authentication, such as a verification code sent to your mobile device, in addition to your password.
-
-- **Software Updates**: Regularly update your operating systems, applications, and security software to **patch vulnerabilities**. Software updates often include security fixes that address known vulnerabilities exploited by attackers. Enable automatic updates whenever possible to ensure you're always using the latest versions.
-
-- [**Firewalls and Antivirus**](https://simeononsecurity.com/recommendations/anti-virus): Install and regularly update **firewalls** and **antivirus software** on your devices. Firewalls help monitor and control incoming and outgoing network traffic, while antivirus software scans for and removes malicious software (malware) from your system. Consider reputable security solutions from companies such as **Norton**, **McAfee**, or **Avast**.
-
-- **Privacy Settings**: Adjust **privacy settings** on social media platforms and other online services to limit the exposure of your personal information. Review and customize the privacy settings to control who can view your profile, posts, and other sensitive information. Also, be cautious about sharing personal details publicly.
-
-- [**Education and Awareness**](https://simeononsecurity.com/articles/what-is-a-common-indicator-of-a-phishing-attempt/): Stay informed about current **threats and scams** by regularly educating yourself on best practices for online safety. Keep up with the latest security news and be aware of common phishing techniques, social engineering tactics, and other fraudulent activities. Websites like [**US-CERT**](https://www.cisa.gov/) (United States Computer Emergency Readiness Team) and [**Krebs on Security**](https://krebsonsecurity.com/) provide valuable insights and updates on cybersecurity threats.
-
-By implementing these mitigation strategies, you can significantly strengthen your security posture and reduce the likelihood of successful attacks on your personal and professional assets.
-
-
-## Step 7: Regularly Review and Update Your Threat Model
-
-To ensure the continued effectiveness of your **Personal Threat Model**, you need to **regularly review and update** it. Technology is constantly evolving, and new threats can emerge at any time. By staying proactive and informed, you can adapt your security measures to mitigate potential risks. Here are some important considerations for reviewing and updating your threat model:
-
-- **Stay Informed**: Keep up with the latest **cybersecurity trends** and developments. Stay informed about new attack techniques, emerging vulnerabilities, and best practices for online security. Subscribe to reputable cybersecurity blogs and follow industry-leading websites like [**SecurityWeek**](https://www.securityweek.com/) or [**SimeonOnSecurity**](https://simeononsecurity.com/) to stay updated.
-
-- **Monitor Threat Landscape**: Continuously monitor the **threat landscape** to identify new threats and assess their potential impact on your personal security. Follow cybersecurity news outlets and organizations like [**CERT-CC**](https://www.kb.cert.org/vuls/) (Computer Emergency Response Team Coordination Center) or [**MITRE ATT&CK**](https://attack.mitre.org/) to gain insights into emerging threats and attack vectors.
-
-- **Evaluate Changes in Technology**: Regularly assess the **technological changes** in your digital environment. Consider the adoption of new devices, applications, or services and evaluate their potential impact on your threat model. Research the security features and privacy practices of new technologies before integrating them into your digital ecosystem.
-
-- **Assess Regulatory and Privacy Changes**: Stay updated on **government regulations** and **privacy practices** that may impact your threat model. Laws and regulations related to data protection, online privacy, and cybersecurity can evolve over time. Familiarize yourself with regulations such as the [**General Data Protection Regulation (GDPR)**](https://gdpr.eu/what-is-gdpr/) or the [**California Consumer Privacy Act (CCPA)**](https://oag.ca.gov/privacy/ccpa).
-
-- **Perform Regular Risk Assessments**: Conduct **periodic risk assessments** to identify any changes in your threat landscape and evaluate the effectiveness of your mitigation strategies. Assess the relevance of existing threats, identify potential new threats, and determine if any adjustments or improvements are necessary.
-
-By **regularly reviewing and updating** your Personal Threat Model, you can stay ahead of evolving threats and ensure your security measures are up to date. Remember, cybersecurity is an ongoing process, and maintaining vigilance is key to safeguarding your personal and professional digital assets.
+- [ ] **List assets** across financial, digital, personal, and professional categories, ranked by value.
+- [ ] **Name threat actors** most likely to target each asset.
+- [ ] **Write motives and capabilities** for each actor, from low-skill to state-sponsored.
+- [ ] **Map attack vectors** such as phishing, malware, password attacks, and device theft.
+- [ ] **Rate consequences** for each asset if it is lost or exposed.
+- [ ] **Apply mitigations** such as unique passwords, MFA, updates, and privacy settings.
+- [ ] **Schedule a review** every few months and after any major life change.
 
 ______
 
-## Conclusion
+## Step 1: Identify Your Assets
 
-Wrapping up, forming your own **Personal Threat Model** is a crucial step in protecting your personal and professional life in the digital world. By understanding the potential risks, identifying valuable assets, and implementing appropriate security measures, you can navigate the digital landscape safely and mitigate potential threats.
+An **asset** is anything with value to you or to an attacker. It holds money, data, identity, or reputation. You defend assets, so list them before anything else.
 
-Remember to prioritize **strong passwords** and enable **two-factor authentication** to enhance the security of your online accounts. Stay informed about the latest **cybersecurity trends** and regularly update your software and security tools to protect against emerging threats. Adjust the **privacy settings** on your social media platforms and be cautious about sharing personal information publicly.
+| Asset class | Examples |
+|-------------|----------|
+| **Financial** | bank accounts, cards, investments, crypto wallets |
+| **Digital** | email, social profiles, cloud files, photos |
+| **Personal** | identity documents, health records, home address |
+| **Professional** | intellectual property, client data, trade secrets |
 
-Regularly review and update your threat model to adapt to changing technologies, monitor the threat landscape, and assess any regulatory or privacy changes that may affect your security measures. By maintaining vigilance and staying informed, you can effectively safeguard your digital assets and maintain your online security.
+Rank each item by what losing or exposing it would cost you. The items at the top drive the rest of the model.
+
+*Do not skip email. It is the master key to every other account you own.*
+
+______
+
+## Step 2: Evaluate Potential Threat Actors
+
+A **threat actor** is anyone with a reason and a method to reach an asset. Different actors want different things, so you need different defenses.
+
+| Threat actor | What they want |
+|--------------|----------------|
+| **Hackers** | credentials, data, access |
+| **Scammers** | money, card numbers, gift cards |
+| **Cyberstalkers** | intimidation, control, harassment |
+| **Competitors** | your intellectual property and clients |
+| **Nation-state attackers** | intelligence, leverage, access |
+
+A journalist, an executive, and a student face different actors at different strengths. Match each asset to the most plausible actor, not the scariest one.
+
+______
+
+## Step 3: Assess Motivations and Capabilities
+
+A threat actor has a **motive** (why they attack) and a **capability** (what resources they bring). Motive tells you what they chase. Capability tells you what you must withstand.
+
+| Motivation | What drives it |
+|------------|----------------|
+| **Financial gain** | ransom, fraud, selling stolen data |
+| **Revenge** | a personal or professional grievance |
+| **Espionage** | secrets and intellectual property |
+| **Hacktivism** | a cause, publicity, or disruption |
+
+Capability ranges from an opportunistic scammer with a script to a funded team with bespoke tools. *A low-skill attacker is still dangerous, because the same phishing and password attacks run at enormous scale.* Match your controls to the highest plausible capability, then accept residual risk below it.
+
+______
+
+## Step 4: Identify Attack Vectors
+
+An **attack vector** is the path an attacker uses to reach an asset. Most personal compromises travel a small set of routes.
+
+| Attack vector | How the attacker gets in |
+|---------------|--------------------------|
+| **Phishing** | a fake email, text, link, or login page |
+| **Malware** | a download, attachment, or drive-by install |
+| **Social engineering** | pressure or impersonation |
+| **Password attacks** | reuse, brute force, leaked credentials |
+| **Physical theft** | a stolen or unattended device |
+
+List the vectors fitting your assets and actors. Each vector below gets a matching control in Step 6.
+______
+
+## Step 5: Evaluate Consequences
+
+A **consequence** is what the loss of an asset costs you. Rate them, then spend your defenses on the outcome you least want to absorb.
+
+| Consequence | Impact |
+|-------------|--------|
+| **Financial loss** | drained accounts, fraudulent charges |
+| **Reputation damage** | defamation, fake profiles, leaked messages |
+| **Identity theft** | new accounts and loans opened in your name |
+| **Emotional distress** | harassment, fear, loss of control |
+
+*Two people often hold the same assets with opposite priorities. A public figure ranks reputation first. A retiree ranks financial loss first. Your ranking is the output of this step.*
+
+______
+
+## Step 6: Implement Mitigation Strategies
+
+A **mitigation** closes an attack vector. Apply your controls in order of consequence, not convenience.
+
+| Control | Protects against |
+|---------|------------------|
+| [**Strong, unique passwords**](/articles/how-to-create-strong-passwords/) and a password manager | password attacks |
+| [**Two-factor authentication (2FA)**](/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) | credential theft |
+| **Software and firmware updates** | known vulnerabilities |
+| [**Firewalls and antivirus**](/recommendations/anti-virus) | malware |
+| **Privacy settings** | public exposure |
+| [**Security education**](/articles/what-is-a-common-indicator-of-a-phishing-attempt/) | phishing and social engineering |
+
+> **Tip:** keep your threat model somewhere private and encrypted. The document names your assets and weak points, so it becomes a target if it leaks.
+
+These controls are simple because they work. Attackers count on people skipping them.
+
+______
+
+## Step 7: Review and Update
+
+A threat model rots as your life and the threats around you change. Review it on a cadence and after major events.
+
+- **Stay informed.** Follow sources such as [SecurityWeek](https://www.securityweek.com/) and [Krebs on Security](https://krebsonsecurity.com/) for new attacks and scams.
+- **Monitor emerging threats.** Track [MITRE ATT&CK](https://attack.mitre.org/) and [CISA](https://www.cisa.gov/cybersecurity) for new attack techniques.
+- **Reassess new technology.** Before adding a device, app, or service, check its security and privacy record.
+- **Watch regulations.** Follow [GDPR](https://gdpr.eu/what-is-gdpr/) and [CCPA](https://oag.ca.gov/privacy/ccpa) for rules affecting your data.
+- **Run a periodic risk assessment.** Revisit Steps 1 through 6 to find gaps and stale controls.
+
+______
+
+## Next Steps
+
+A threat model only helps if you act on it. Move from the model to the mechanics:
+
+- [Create strong, unique passwords](/articles/how-to-create-strong-passwords/) and store them in a manager.
+- [Understand the factors of MFA](/articles/what-are-the-diferent-kinds-of-factors-in-mfa/) and turn on 2FA everywhere.
+- [Learn to spot a phishing attempt](/articles/what-is-a-common-indicator-of-a-phishing-attempt/) before you click.
+- [Review antivirus and endpoint protection](/recommendations/anti-virus) options.
+
+Then schedule your next review in three months. A model you revisit beats a perfect model you abandon.
+
+______
 
 ## References
 
 - [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
-- [Federal Trade Commission (FTC) - Protecting Personal Information](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
-- [Cybersecurity & Infrastructure Security Agency (CISA)](https://www.cisa.gov/cybersecurity)
+- [Federal Trade Commission (FTC)](https://www.consumer.ftc.gov/articles/0272-how-keep-your-personal-information-secure)
+- [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cybersecurity)
 - [European Union Agency for Cybersecurity (ENISA)](https://www.enisa.europa.eu/)
-- [United Kingdom National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/)
+- [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/)
 - [Australian Cyber Security Centre (ACSC)](https://www.cyber.gov.au/)
