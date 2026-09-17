@@ -17,6 +17,8 @@ coverCaption: "Module 16: turn a normal user into domain privilege."
 
 *This module takes about 18 minutes.*
 
+> **Why it matters:** The KDC hands you a ticket encrypted with a password hash, and you crack it off the network. The whole attack stays quiet until the crack.
+
 ______
 
 ## Key Terms
@@ -125,6 +127,12 @@ Walk a Kerberoast from a normal domain user to a cracked ticket:
 4. What raises your odds of a crack?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Kerberos Analysis Matters
+
+Kerberoasting works because a service ticket is encrypted with the service account secret, allowing offline password analysis. Older environments used short service passwords, while current defenses use long random secrets, managed service accounts, and ticket monitoring. A synthetic service account and a captured lab ticket show the control without exposing a real password. **Destroy test credentials after the exercise.**
+
 ______
 
 ## Common Mistakes

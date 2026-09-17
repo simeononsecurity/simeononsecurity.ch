@@ -17,6 +17,8 @@ coverCaption: "Module 2: ready the paperwork and the platform before the first p
 
 *This module takes about 15 minutes. It decides whether the operation happens at all.*
 
+> **Why it matters:** Authorization keeps you legal, and a broken redirector means a beacon which never checks in. The platform holds the customer's secrets, so compromise hands an adversary the crown jewels.
+
 ______
 
 ## Key Terms
@@ -144,6 +146,12 @@ Draft a prep checklist for a sample engagement. For each item, write what you wo
 5. How do you verify the redirector before go?
 
 A complete checklist names the signers, the scope lists, the hardening steps, the redirector count, and the verification step. If any is missing, the operation is not ready.
+
+______
+
+## Why Infrastructure Choices Matter
+
+Infrastructure separates operator traffic from the customer network and gives defenders useful indicators for detection. Disposable domains and unmanaged hosting were common in older operations, but they create ownership and abuse problems. A current lab uses registered assets, short-lived certificates, access logging, and an explicit teardown record. **Do not route test traffic through infrastructure outside the written scope.**
 
 ______
 

@@ -17,6 +17,8 @@ coverCaption: "Module 17: reach the domain controller and hold it."
 
 *This module takes about 18 minutes.*
 
+> **Why it matters:** The DC holds every hash, and it never browses out. SMB and service manipulation reach it without the signatured jump commands.
+
 ______
 
 ## Key Terms
@@ -139,6 +141,12 @@ Plan the jump from a workstation to the DC:
 4. What do you restore after borrowing a service?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Movement Leaves Evidence
+
+Remote execution inherits trust from SMB, WMI, WinRM, or a service account, and each path leaves a different event pattern. Older playbooks treated all remote execution as equivalent, while modern detection joins logon type, source host, service creation, and process lineage. Test each method between two lab machines and compare the logs. **Do not reuse customer credentials in a movement test.**
+
 ______
 
 ## Common Mistakes

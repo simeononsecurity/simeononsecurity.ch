@@ -17,6 +17,8 @@ coverCaption: "Module 10: phishing and delivery, the path in."
 
 *This module takes about 15 minutes.*
 
+> **Why it matters:** Phishing targets people, and no appliance fully trains a workforce. Matching the listener to the host decides whether the callback blends or stands out.
+
 ______
 
 ## Key Terms
@@ -137,6 +139,12 @@ Your payload landed on a workstation and on a file server. For each host, pick t
 3. A 32-bit process dropped on a 64-bit host.
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Delivery Choices Matter
+
+Delivery succeeds when the message, file type, and callback path fit the target context. Older macro-heavy campaigns rely on behaviors modern Office controls block, while training labs use inert documents and simulated callbacks. Mail headers, attachment hashes, and process telemetry give defenders a complete detection exercise. **Use a mail sandbox and pre-approved test accounts only.**
+
 ______
 
 ## Common Mistakes

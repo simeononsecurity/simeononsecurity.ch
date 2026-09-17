@@ -17,6 +17,8 @@ coverCaption: "Module 5: the flow from beacon to team server."
 
 *This module takes about 12 minutes.*
 
+> **Why it matters:** A held-open connection is what monitoring catches. Asynchronous check-ins hide you behind normal web traffic, and sleep time is the knob trading speed for stealth.
+
 ______
 
 ## Key Terms
@@ -108,6 +110,12 @@ Describe the startup sequence for a fresh operation:
 4. Which sleep time do you pick for a quiet operation?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+
+______
+
+## Why C2 Design Matters
+
+C2 design controls both operator latency and defender visibility. Old beacon profiles often used fixed intervals and obvious HTTP paths, which made periodic traffic easy to group. A current lab compares a fixed schedule with jitter in a closed network and measures the resulting event pattern. **Keep callbacks inside the range and record every listener.**
 
 ______
 

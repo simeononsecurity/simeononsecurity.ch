@@ -17,6 +17,8 @@ coverCaption: "Module 3: the ground every later technique stands on."
 
 *This module is foundational reading for the whole course, about 12 minutes. Do not skip it.*
 
+> **Why it matters:** The protocol wrapper decides whether your C2 reads as browsing or as an anomaly, and the domain structure decides the escalation path. The DC holds the hashes.
+
 ______
 
 ## Key Terms
@@ -122,6 +124,12 @@ Given a callback on a workstation inside a customer domain:
 4. Which transport carries your C2, and why?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+
+______
+
+## Why the Foundations Matter
+
+Protocols explain both reachability and evidence. Older training often stops at port numbers, while modern analysis follows DNS, SMB, LDAP, Kerberos, and RPC relationships through the network. A packet capture and a small AD lab show why a name-resolution failure changes the attack path. **Use synthetic accounts and networks when testing discovery.**
 
 ______
 

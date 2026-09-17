@@ -17,6 +17,8 @@ coverCaption: "Module 13: turn a low-privilege foothold into SYSTEM."
 
 *This module takes about 15 minutes.*
 
+> **Why it matters:** The quiet path is datamining and enumeration, which cost almost no signal. Exploits come last because they are loud and crash services.
+
 ______
 
 ## Key Terms
@@ -108,6 +110,12 @@ Pick the order and method for each step:
 4. Why does the planted binary's architecture matter?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Enumeration Comes First
+
+Enumeration works because misconfiguration is more common than a reliable exploit. Older playbooks reached for known vulnerabilities early, while current assessment starts with service permissions, paths, tokens, and writable locations. A snapshot with intentionally weak permissions demonstrates the finding and its fix. **Use a benign trigger instead of an exploit when the objective is detection.**
+
 ______
 
 ## Common Mistakes

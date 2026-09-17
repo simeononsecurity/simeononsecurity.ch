@@ -17,6 +17,8 @@ coverCaption: "Module 6: run code inside the beacon, not beside it."
 
 *This module takes about 12 minutes.*
 
+> **Why it matters:** Every new process is a chance to get caught. A BOF runs inside the beacon you already hold, but it shares the process, so a crash costs access.
+
 ______
 
 ## Key Terms
@@ -123,6 +125,12 @@ For each task, name the quietest execution path and why:
 3. Inject a payload queued to fire before a new thread's main routine.
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+
+______
+
+## Why Execution Location Matters
+
+Execution location changes the telemetry footprint and the failure radius. A child process gives defenders a process tree, while in-process code avoids a child process but shares the host process and its crash risk. A benign BOF or test DLL in a snapshot demonstrates the tradeoff without deploying a payload to a production host. **Prefer a simulator when the code has destructive side effects.**
 
 ______
 

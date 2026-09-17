@@ -17,6 +17,8 @@ coverCaption: "Module 12: hold the foothold across reboots."
 
 *This module takes about 12 minutes.*
 
+> **Why it matters:** A foothold gone on reboot is a foothold lost. The run key wins because it is ordinary and set from memory, not a file write in a watched folder.
+
 ______
 
 ## Key Terms
@@ -38,6 +40,29 @@ ______
 | **Run key persistence** | basic user or admin | starts on login, works from the low-privilege context |
 
 For this module the focus is the run key, since it works from the low-privilege context most initial callbacks land in.
+
+______
+
+## Legacy Options and Why to Skip Them
+
+These methods appear in older tradecraft and malware reports. Study them to recognize evidence, not to deploy them outside an isolated, authorized lab. Their common weakness is a conspicuous change to a sensitive location, a fragile boot path, or a behavior modern Windows and EDR products watch closely.
+
+| Legacy method | Historical use | Detection and risk | Safer lab alternative |
+|---------------|-----------------|-------------------|-----------------------|
+| **Startup folder shortcut** | launch a program when a user signs in | file creation in an auto-start folder, a new `.lnk`, and a child process from Explorer are easy to correlate | create a benign shortcut which opens Notepad, then review the file event and process tree |
+| **`RunOnce` key** | launch a program once at the next sign-in | the value is short-lived, and registry auditing or EDR records the write and resulting process | use a disposable `Run` value in a snapshot and remove it during the same exercise |
+| **Shortcut argument abuse** | hide a command behind a familiar document or application shortcut | shortcut metadata, unusual arguments, and Office or script-child processes trigger inspection | inspect a known-good shortcut with `Get-Item` and compare its target and arguments with a benign test shortcut |
+| **Winlogon `Shell` or `Userinit`** | replace or wrap the logon process | changes to `Winlogon` values affect a critical boot path and risk a failed logon, while registry baselines and EDR alert on the modification | compare the default values in a disposable VM and document the expected registry locations without changing them |
+| **`AppInit_DLLs`** | load a DLL into GUI processes | it affects many processes, depends on loader settings, and is constrained by code-signing and mitigation policies | load a signed test DLL in a purpose-built lab process and observe module-load telemetry |
+| **Image File Execution Options debugger** | run a debugger or replacement when a named executable starts | a `Debugger` value under an image-specific key is a high-signal modification and often breaks application startup | create a registry record in a snapshot, query it for detection practice, then revert the snapshot |
+| **Office macro persistence** | run code when a document or Office application opens | macro blocking, Protected View, AMSI, ASR rules, and Office child-process telemetry expose the behavior | use a signed macro which displays a message only, with macros enabled in a disposable VM, then remove it |
+| **Scheduled-task abuse** | trigger code at logon, startup, or a timer | task creation, hidden flags, unusual principals, and execution from a user-writable path are logged and commonly alerted on | use a visible task named `Lab-Persistence-Demo` which launches Notepad, record its XML, and delete it |
+
+**Defensive controls:** Sysmon Event IDs 1, 11, and 13 help connect process creation, file creation, and registry changes. Windows Defender and EDR products inspect auto-start extensibility points, Office child processes, DLL loads, and task creation. Autoruns provides an analyst view of startup locations. Registry auditing and a known-good baseline expose changes to `Winlogon`, `AppInit_DLLs`, IFEO, and `Run` keys.
+
+**Why the Run key remains useful for this lab:** it demonstrates user-context persistence with a small, reversible registry change. A BOF does not make the change invisible, and a normal user callback does not justify writing to a customer host. The authorized exercise should use a snapshot, a benign payload, a named change log, and a cleanup check.
+
+*The safe substitute preserves the learning objective: identify the auto-start location, observe its telemetry, verify execution, and remove the change.*
 
 ______
 
@@ -120,6 +145,10 @@ ______
 2. Give the three-step BOF workflow for a run key.
 3. How should you name the value, and why?
 4. Where do user payloads land versus SYSTEM payloads?
+5. Name two reasons the Startup folder is a poor modern choice for a real operation.
+6. Which controls help defenders find Run-key, IFEO, or scheduled-task changes?
+7. What safe exercise replaces changing `Winlogon` values?
+8. Why does a BOF not make a Run-key write invisible?
 
 ______
 
@@ -131,6 +160,10 @@ ______
 2. **`reg_set` to add, `reg_query` to verify, `reboot` to test** the value in a lab.
 3. **Like legitimate software, no `.exe` in the name.** A file-extension value stands out in the key.
 4. **User payloads go to the user's appdata, SYSTEM payloads to System32 or SysWOW64.**
+5. **It creates a visible file artifact, often a `.lnk`, and Explorer-launched execution is easy to correlate.**
+6. **Sysmon, registry auditing, Autoruns, Windows Defender, and EDR telemetry** help identify these changes. The relevant evidence includes registry writes, task creation, file creation, and child processes.
+7. **Compare the default values in a disposable VM, record the registry locations, and restore the snapshot.** Do not alter a real logon path for this objective.
+8. **The registry write and the later logon process still produce telemetry.** In-memory execution changes the delivery path, not the defender's view of the persistence location.
 
 **Exercise**
 

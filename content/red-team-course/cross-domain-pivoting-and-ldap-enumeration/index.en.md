@@ -17,6 +17,8 @@ coverCaption: "Module 18: read the directory and follow the trust out."
 
 *This module takes about 16 minutes.*
 
+> **Why it matters:** Active Directory answers whatever you ask. Name the distinguished name, and the directory becomes your map across trusts.
+
 ______
 
 ## Key Terms
@@ -135,6 +137,12 @@ Map a domain trust and pivot across it:
 4. How do you point the next query at the remote domain?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Trust Enumeration Matters
+
+A trust is a relationship, not automatic permission. LDAP reveals names, groups, and trust direction, while access still depends on SID filtering, selective authentication, and delegated rights. A two-domain lab with synthetic groups makes the difference visible. **Query only the directory objects listed in the scope.**
+
 ______
 
 ## Common Mistakes

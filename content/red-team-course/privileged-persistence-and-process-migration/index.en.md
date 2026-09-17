@@ -17,6 +17,8 @@ coverCaption: "Module 14: SYSTEM-level persistence which outlives the session."
 
 *This module takes about 14 minutes.*
 
+> **Why it matters:** A service survives boot as SYSTEM before anyone logs in. Matching architecture and restoring the binpath keep it alive and clean.
+
 ______
 
 ## Key Terms
@@ -134,6 +136,12 @@ You hold admin and need SYSTEM persistence. Decide:
 4. What do you do right after the callback arrives?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Privileged Persistence Is Risky
+
+A service or migrated process gains durability through trusted operating-system behavior, which also gives defenders strong service, token, and process telemetry. Older service abuse ignored rollback, while current lab work records the original configuration before testing. A signed benign service and a documented process move demonstrate the evidence safely. **Restore the service and terminate the test process before leaving the VM.**
+
 ______
 
 ## Common Mistakes

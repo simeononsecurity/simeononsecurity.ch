@@ -101,6 +101,8 @@ ______
 | **NTLM hash** | `pth` | authenticate without plaintext |
 | **Realm naming** | `spawnas` / `make_token` | act as another account |
 
+> **Why it matters:** Where Windows keeps configuration and credentials decides where persistence lands and how you move. The HKCU pointer and unsalted NTLM are the two details which trip operators.
+
 ______
 
 ## Key Terms
@@ -126,6 +128,12 @@ You hold a SYSTEM callback on a workstation and need to read a run key a low-pri
 4. Where do domain hashes live versus local hashes?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+
+______
+
+## Why Windows Internals Matter
+
+Authentication artifacts explain what a token proves and what a password exchange exposes. Legacy NTLM habits still work in some environments, but modern policy favors Kerberos, credential isolation, and multifactor authentication. Security logs, token inspection, and a disposable VM demonstrate the distinction without collecting real credentials. **Stop when the exercise reaches a real user secret.**
 
 ______
 

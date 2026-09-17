@@ -3,9 +3,9 @@ title: "Module 8: Open-Source Intelligence"
 date: 2026-09-12
 toc: true
 draft: false
-description: "Collect intelligence from public sources: Google dorks, Whois ownership, Shodan banners, SpiderFoot automation, DNS and certificate enumeration, and people and code harvesting."
+description: "Collect intelligence from public sources: Google dorks, Whois ownership, Shodan banners, SpiderFoot automation, DNS and certificate enumeration, people and code harvesting, plus the collection methodology and the OPSEC around it."
 genre: ["Red Team", "Offensive Security", "OSINT"]
-tags: ["red team", "OSINT", "Google dorks", "site operator", "filetype", "Whois", "ARIN", "Shodan", "SpiderFoot", "theHarvester", "subdomain enumeration", "certificate transparency", "crt.sh", "open source intelligence", "red team course"]
+tags: ["red team", "OSINT", "Google dorks", "Whois", "Shodan", "SpiderFoot", "theHarvester", "Maltego", "subdomain enumeration", "certificate transparency", "crt.sh", "GEOINT", "ADS-B", "AIS", "open source intelligence", "red team course"]
 cover: "/img/cover/open-source-intelligence-osint-collection-techniques.webp"
 coverAlt: "A modern workspace with multiple screens showing open-source intelligence data, including social media feeds and analytics, against a dark background. Abstract data flows connect the screens."
 coverCaption: "Module 8: read what the internet already knows before you touch the target."
@@ -15,7 +15,9 @@ coverCaption: "Module 8: read what the internet already knows before you touch t
 
 **Open-source intelligence (OSINT) is collection from public sources, done so it never triggers an alert or a deconfliction.** You read what the internet already knows. Done right, it lets you walk into active reconnaissance already knowing the network.
 
-*This module takes about 20 minutes. The goal is to enter active recon knowing the layout, not discovering it.*
+*This module takes about 25 minutes. The goal is to enter active recon knowing the layout, not discovering it.*
+
+> **Why it matters:** Reading what is already public costs you no alerts. Every query you skip by using others' scan data is one less chance to burn the operation.
 
 ______
 
@@ -30,7 +32,11 @@ ______
 | **Subdomain** | a name beneath a domain, like `vpn.corp.local` |
 | **Certificate transparency** | a public log of every TLS certificate issued |
 | **Zone transfer** | a misconfigured DNS copy of every host in a domain |
-| **Breach data** | credentials leaked from a past compromise |
+| **OSINF** | raw open-source data, before analysis |
+| **Sock puppet** | a managed research account |
+| **Managed attribution** | hiding your real identity while you collect |
+| **ADS-B and AIS** | aviation and maritime position broadcasts |
+| **GEOINT** | intelligence from geospatial and imagery data |
 
 ______
 
@@ -40,7 +46,36 @@ OSINT is the first active-feeling phase, yet done right it touches nothing a def
 
 Several services have already scanned the entire internet and stored the results. You query their data instead of scanning yourself, which keeps you quiet during the one phase where generating a deconfliction is exactly what you want to avoid.
 
+There is a split worth holding onto. Raw open-source information (OSINF) is the unanalyzed data. OSINT is what you get after the data goes through verification and analysis. Collection is only the first step. The intelligence product, cross-checked and turned into a finding, is what feeds an attack plan.
+
 The mindset matters as much as the tooling. Assume something useful is exposed, and go find it. Good OSINT separates a failed operation from walking straight in.
+
+______
+
+## Passive, Semi-Passive, and Active
+
+OSINT spans a spectrum of how much you touch, and staying quiet depends on staying at the left end of it.
+
+| Method | What you touch | Example |
+|--------|----------------|---------|
+| **Passive** | nothing, read what others already collected | search engines, Whois, certificate logs |
+| **Semi-passive** | auxiliary services, not the target itself | DNS servers, third-party databases |
+| **Active** | the target directly | port scans, direct banner grabs |
+
+Stay passive as long as possible. Each step toward active collection raises your visibility and edges you into the next phase. The line between semi-passive and active is where a deconfliction starts to become possible.
+
+______
+
+## OPSEC for the Collector
+
+OSINT sounds safe, but your own query tips the target. Protect the investigation with the same care you put into the operation:
+
+- Use an isolated virtual machine with a privacy browser.
+- Use a managed research account, a sock puppet, for social collection.
+- Obfuscate your browser fingerprint and block DNS leaks.
+- Never query from infrastructure tied to you or your employer.
+
+Counterintelligence cuts both ways. Burn a research account or leak your IP, and the target learns someone is watching before a single packet reaches their network.
 
 ______
 
@@ -122,6 +157,25 @@ The two tools work together. SpiderFoot casts wide, then you read the raw Shodan
 
 ______
 
+## More Tools and the Framework
+
+Beyond the core set, a few tools cover the gaps:
+
+| Tool | Purpose |
+|------|---------|
+| **Maltego** | graph relationships between people, domains, and entities |
+| **Metagoofil** | extract metadata from documents |
+| **BuiltWith** | profile a website's technology stack |
+| **Recon-ng** | a modular reconnaissance framework |
+| **Mitaka** | browser lookups for IPs, domains, and hashes |
+| **Epieos** | de-anonymize an email across services |
+| **PimEyes** | reverse image search for a face |
+| **`theHarvester`** | harvest emails and subdomains |
+
+For structure, `osintframework.com` lists methods and tools by category. Use it as a map when you do not know which tool fits the question you are asking.
+
+______
+
 ## DNS and Subdomain Enumeration
 
 DNS is free, public data, and it expands the attack surface fast:
@@ -147,6 +201,7 @@ People are the weakest link, so names and addresses feed the phishing phase:
 - `theHarvester` pulls emails and subdomains from search engines and public services.
 - LinkedIn and similar profiles map the org chart and job titles.
 - Breach data, via Have I Been Pwned, shows which accounts already leaked, a direct prompt for password reuse.
+- Reverse image search finds where a person's photo appears, connecting profiles across platforms.
 
 An employee email list plus one known leaked password is frequently the beginning of an initial-access campaign.
 
@@ -163,6 +218,31 @@ Search these for the target's name, domain, and product names. What an employee 
 
 ______
 
+## Geospatial Intelligence
+
+Physical movement is public data too, and it matters when the objective involves a person or a site:
+
+- **ADS-B** transponders broadcast aircraft positions, so flight paths expose logistics and travel.
+- **AIS** transponders broadcast ship positions, revealing supply chains and ship-to-ship transfers.
+- Satellite imagery and public maps corroborate ground activity and infrastructure.
+
+GEOINT turns these feeds into answers about where things are and where they move, a different lens from the network-level picture the rest of the module builds.
+
+______
+
+## Limits and Risks
+
+OSINT has sharp limits, and a false finding is worse than no finding:
+
+- **Privacy.** Collection edges toward sensitive personal data.
+- **Misinformation.** A source is wrong, outdated, or planted.
+- **Legal.** Scraping and illicit data sit outside the lines.
+- **Bias.** You only read the sources you found, not the whole picture.
+
+Verify across independent sources, note what the evidence supports, and treat anything unverified as a lead, not a fact.
+
+______
+
 ## Build Your Target List
 
 For a target domain, decide which tool answers each need:
@@ -176,12 +256,19 @@ Answer from memory first. The explanations are in the Answer Key at the end.
 
 ______
 
+## Why Collection Discipline Matters
+
+Public data reduces contact with the target, but collection still leaves search, API, and account records. Older OSINT practice treated screenshots as proof, while modern work records source, time, query, confidence, and corroboration. Passive collection and a fictional domain provide the same verification exercise without targeting a real person. **Stop at the boundary set by law and the engagement scope.**
+
+______
+
 ## Common Mistakes
 
 - Skipping the Whois ownership check and scanning a third-party block.
 - Using search operators one at a time instead of stacking them.
 - Treating Shodan banners as optional before planning recon.
 - Ignoring subdomains and certificate logs, and missing most of the surface.
+- Querying from your real machine or a personal account, and tipping the target.
 - Firing at an address which ownership did not clearly resolve to the customer.
 
 ______
@@ -194,6 +281,8 @@ ______
 4. How do SpiderFoot and Shodan complement each other?
 5. What does a certificate-transparency log reveal?
 6. Why does subdomain enumeration expand the attack surface?
+7. What separates passive from active collection, and why stay passive?
+8. What turns raw OSINF into actionable OSINT?
 
 ______
 
@@ -207,6 +296,8 @@ ______
 4. **SpiderFoot correlates across sources, then you read the right Shodan banners.** One casts wide, the other confirms detail.
 5. **Every subdomain which ever held a certificate.** The public logs list each TLS certificate, so the hosts surface with no scanning.
 6. **Each subdomain names another host.** Five registered hosts often become one hundred real attack surfaces.
+7. **Passive reads what others already collected, active touches the target.** Staying passive keeps you unseen.
+8. **Verification and analysis.** OSINF becomes OSINT when the raw data is cross-checked and turned into a finding.
 
 **Exercise**
 

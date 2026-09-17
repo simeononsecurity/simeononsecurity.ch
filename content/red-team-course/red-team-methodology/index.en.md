@@ -39,6 +39,8 @@ ______
 
 *Do not treat the phases as a one-way street. New access restarts recon, and recon feeds a new plan.*
 
+> **Why it matters:** Methodology is the order of operations. Without it you chase findings with no plan, and access without an objective is noise.
+
 ______
 
 ## Key Terms
@@ -171,6 +173,12 @@ Draft a phase-mapped plan for a sample target, a mid-size company with a public 
 6. Mission Objective: what would you deliver as proof of impact?
 
 A complete plan names a concrete action per phase, picks the quietest route available, and states the objective before the foothold. If any phase is blank, the operation stalls there.
+
+______
+
+## Why the Method Matters
+
+A red team method turns observations into a controlled sequence. The older checklist style treated access as the finish line, while a modern engagement ties each action to an objective and a stopping rule. Scope records, operator notes, and cleanup evidence let defenders reproduce the path without guessing. **Use a tabletop or range exercise when an action has no approved objective.**
 
 ______
 

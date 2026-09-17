@@ -17,6 +17,8 @@ coverCaption: "Module 9: the first touch, done quietly and logged."
 
 *This module takes about 12 minutes.*
 
+> **Why it matters:** The first touch generates logs on both sides. Scanning slow and quiet from a disposable host is the difference between a plan and a burned engagement.
+
 ______
 
 ## Key Terms
@@ -100,6 +102,12 @@ You must map a set of customer hosts without burning your source. Decide each po
 4. What do you log as you go?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Scan Strategy Matters
+
+A scan creates evidence before exploitation begins. Broad, fast scans were useful on a flat network, but modern environments need rate limits, allowlists, and a reason for every probe. Compare a local full scan with a slow approved scan and review firewall and IDS events. **Never scan an address range without written authorization.**
+
 ______
 
 ## Common Mistakes

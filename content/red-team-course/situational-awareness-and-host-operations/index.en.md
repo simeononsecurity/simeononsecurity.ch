@@ -17,6 +17,8 @@ coverCaption: "Module 11: know the box before you change it."
 
 *This module takes about 12 minutes.*
 
+> **Why it matters:** You change a box you understand, and you dump hashes once you hold SYSTEM. Acting before you look is how operators blow access.
+
 ______
 
 ## Key Terms
@@ -85,6 +87,12 @@ You landed a new callback. Walk the first moments:
 4. Which reads do you hold until you have SYSTEM, and why?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Host Awareness Matters
+
+Host awareness prevents an operator from confusing a useful system with a dangerous one to touch. Legacy tradecraft often gathered broad data first, but current operations favor minimal collection tied to the objective. Build a host profile from benign commands, then compare it with the event log. **Do not dump credentials or alter logs in a customer environment.**
+
 ______
 
 ## Common Mistakes

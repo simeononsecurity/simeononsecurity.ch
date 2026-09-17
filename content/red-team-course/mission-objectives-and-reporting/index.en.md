@@ -17,6 +17,8 @@ coverCaption: "Module 20: prove impact against the thing which matters."
 
 *This module takes about 18 minutes.*
 
+> **Why it matters:** Impact, not access, is what the customer pays for. Reaching the objective and documenting evidence and cleanup is the whole point.
+
 ______
 
 ## Key Terms
@@ -142,6 +144,12 @@ Close out the operation with impact and a report:
 4. What does the final report list?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Reporting Matters
+
+A technical action has value only when it answers the customer question and leaves reproducible evidence. Older reports listed tools and screenshots, while modern reports connect impact, control failure, timeline, and fix. A fictional objective with sanitized evidence gives analysts the same writing practice. **Remove secrets and unrelated personal data before delivery.**
+
 ______
 
 ## Common Mistakes

@@ -17,6 +17,8 @@ coverCaption: "Module 19: make removal hard."
 
 *This module takes about 10 minutes.*
 
+> **Why it matters:** One beacon is one thread to pull. Spreading quiet, redundant access with a reserve path is what keeps the operation alive under hunting.
+
 ______
 
 ## Key Terms
@@ -78,6 +80,12 @@ The customer starts hunting. Spread your presence:
 4. Which habits keep your footprint small?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Operator Discipline Matters
+
+Redundancy protects an authorized operation from one failed host, but every extra implant adds evidence and cleanup work. Older tradecraft favored many callbacks, while modern operations use a small access graph with owners, expiration times, and health checks. A range exercise with two controlled paths demonstrates failover without excess persistence. **Expire unused access on schedule.**
+
 ______
 
 ## Common Mistakes

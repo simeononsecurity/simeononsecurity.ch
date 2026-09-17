@@ -17,6 +17,8 @@ coverCaption: "Module 15: leave the host free of your user-level artifacts."
 
 *This module takes about 10 minutes.*
 
+> **Why it matters:** Leftover artifacts are evidence with no upside. Query, remove, query is what lets you honestly mark a box clean.
+
 ______
 
 ## Key Terms
@@ -94,6 +96,12 @@ You must remove the run key and payload from a SYSTEM session. Decide:
 4. What does a failed `rm` warn about?
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Cleanup Is Part of the Test
+
+Cleanup proves whether the operator understood the artifact rather than relying on memory. Older operations often deleted the obvious file and missed registry hives, scheduled tasks, event records, or alternate user profiles. A before-and-after inventory makes those gaps measurable. **Never delete customer logs or evidence. Mark them for the report instead.**
+
 ______
 
 ## Common Mistakes

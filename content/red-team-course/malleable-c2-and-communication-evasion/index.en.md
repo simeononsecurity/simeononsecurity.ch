@@ -17,6 +17,8 @@ coverCaption: "Module 7: the cover story your traffic tells on the network."
 
 *This module takes about 10 minutes.*
 
+> **Why it matters:** The default C2 is the most signatured traffic in the field. Shaping it to look ordinary, and avoiding the rare and the loud, is what keeps you in the gray area.
+
 ______
 
 ## Key Terms
@@ -139,6 +141,12 @@ Your beacon keeps getting flagged on a client network. For each problem, name th
 3. A memory scan flags an RWX blob in your process.
 
 Answer from memory first. The explanations are in the Answer Key at the end.
+______
+
+## Why Traffic Shape Matters
+
+Traffic shape matters because detection systems compare headers, timing, paths, and response sizes. Legacy profiles copied popular web services and became easy signatures, while random changes reduce repeatability but do not remove attribution. Compare two harmless profiles against a local web server and inspect the logs. **Do not impersonate a third party on the public internet.**
+
 ______
 
 ## Common Mistakes
