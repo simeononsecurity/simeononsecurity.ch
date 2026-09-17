@@ -94,6 +94,11 @@ the bare positional form (`{{< youtube VIDEO_ID >}}`).
 - `playlistid` — optional, to play within a playlist:
   `{{< youtube id="6XqYB1J1vQY" playlistid="PLBQ_gEkQNRZLSWCk7Z0PnwGVBhiKRBugw" >}}`
 - Optional `autoplay="true"`, `class`, `title`, `description`.
+- `enable="true"` explicitly renders this embed when the global YouTube privacy
+  setting disables embeds. Leave the global setting unchanged.
+- `uploadDate` accepts a verified video publication timestamp. Omit it if unknown.
+- Players load on click by default. `autoload="true"` enables automatic iframe
+  loading when the component enters the viewport.
 
 The shortcode uses the privacy-friendly `lite-youtube` web component and emits `VideoObject` /
 `LearningResource` schema, so a single video tag handles SEO and performance for you.
