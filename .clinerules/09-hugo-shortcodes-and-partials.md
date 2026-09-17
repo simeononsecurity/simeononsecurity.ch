@@ -444,32 +444,34 @@ reused from cache.
   `layout: "<exam>_quiz"` to load the quiz section template. Do not set `layout` on ordinary
   articles or guides.
 
-## `{{< youtube >}}` Renders No Player Site-Wide (`privacy.youtube.disable = true`)
+## YouTube Privacy Defaults and Explicit Embeds
 
-`config/_default/privacy.toml` sets `[privacy.youtube] disable = true`. The project shortcode
-`layouts/shortcodes/youtube.html` guards its entire video element (the `<div itemscope ...>`
-wrapper, the `<lite-youtube>` element, the `<noscript>` fallback, and the `VideoObject` /
-`LearningResource` JSON-LD) behind `{{- if not $pc.Disable -}}`. Only the two blocks ABOVE that
-guard (the `loadLiteYouTubeScript()` `<script>` and the `.lite-youtube-fallback` `<style scoped>`)
-are unconditional, so a disabled shortcode still emits dead loader script and CSS but **no video
-player on any page**.
+`config/_default/privacy.toml` sets `[privacy.youtube] disable = true`. Ordinary
+YouTube shortcodes therefore render no player. For an explicitly requested embed,
+use the per-shortcode opt-in rather than changing the global privacy setting:
 
-Verified with `npx hugo config --config config/language/en/config.toml | grep -B1 -A4 youtube`,
-which shows `[privacy.youtube] disable = true / privacyenhanced = true` in the MERGED config the
-CI build actually uses. `config/language/en/config.toml` does not override the setting, and Hugo
-still merges `config/_default/privacy.toml` when `--config` names a single file, so this is
-production behavior and not a local-only artifact.
+```text
+{{< youtube id="VIDEO_ID" enable="true" title="Actual video title" uploadDate="VERIFIED_ISO_DATE" >}}
+```
 
-**Consequences for content authors:** a `{{< youtube id="..." >}}` shortcode produces a working
-no-op. Do not write prose such as "the video below" or "watch the embedded video" on a page whose
-only video reference is the shortcode, because no player renders. When a video matters to a page,
-also add a plain Markdown link to `https://www.youtube.com/watch?v=<id>` (or the `/shorts/` URL)
-so readers can reach it, and keep the shortcode for consistency and in case the privacy setting is
-ever flipped.
+The `enable="true"` parameter overrides the global disable flag for this instance
+only. It does not override `privacyEnhanced`: the player still uses YouTube's
+privacy-enhanced host when configured. Disabled instances emit neither the loader
+nor the player. Keep a normal YouTube watch link in the article as a fallback.
 
-**Verification technique:** after a build, confirm the rendered page contains
-`<lite-youtube videoid=` (a working embed) rather than only `lite-youtube@1.5.0/lite-youtube.js`
-(the disabled-state loader). Grepping for the bare video ID proves nothing, because the same ID
-appears in ordinary Markdown links, in a working embed's `<noscript>`/JSON-LD, and in reference
-lists.
+Players load on click by default. `autoload="true"` opts into the component's
+intersection-triggered iframe loading. `nocookie` and `autoload` are presence-based
+boolean attributes in lite-youtube 1.5.0: emitting `nocookie="false"` or
+`autoload="false"` still enables them, so omit false attributes entirely.
 
+`title` is interpolated into `videotitle` rather than emitted as the literal
+`$title`. `uploadDate` is optional and must come from verified video metadata.
+When unknown, omit it instead of substituting the article's publication date.
+The loader falls back to direct loading if the site's `yieldToMain` helper is
+unavailable. The no-JavaScript fallback links to the normal YouTube watch URL.
+
+After a build, verify `<lite-youtube videoid=...>` exists for the requested video.
+A bare video ID or loader-script URL does not establish a working embed. Test
+both the enabled instance and an ordinary shortcode under the disabled global
+setting. Check the video title, privacy attribute, absence of automatic loading,
+and accurate VideoObject upload date in rendered output.
