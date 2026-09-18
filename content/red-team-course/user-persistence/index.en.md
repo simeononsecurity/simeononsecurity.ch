@@ -1,182 +1,237 @@
 ---
 title: "Module 12: User Persistence"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Hold a low-privilege foothold across reboots with registry run keys, blending the value in, and hiding the payload next to files which belong there."
+description: "Understand user startup triggers, HKCU context, and restoration. Follow a benign Notepad Run-entry lab with evidence and cleanup checks."
 genre: ["Red Team", "Offensive Security", "Persistence"]
 tags: ["red team", "persistence", "run key", "registry", "reg_set", "reg_query", "timestomp", "HKCU", "red team course"]
 cover: "/img/cover/user-persistence-techniques-windows-registry.webp"
 coverAlt: "An illustration of a computer screen showing a Windows registry editor. The focus is on the 'Run' key path, with vibrant colors highlighting the persistence techniques. The background is dark."
-coverCaption: "Module 12: hold the foothold across reboots."
+coverCaption: "Module 12: verify the trigger, execution, and complete restoration."
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Persistence is the first goal once you have access. If the machine restarts or the user logs out, an unmanaged foothold is gone.** Many techniques exist, and picking the right one for the situation is a core operator skill, not a checkbox.
+**User persistence** arranges for an action to recur in a user's context after a defined trigger. A configuration entry, a successful launch, and a verified removal are three separate outcomes. This module uses a visible Notepad startup entry in a disposable Windows VM to examine the complete lifecycle.
 
-*This module takes about 12 minutes.*
+*Allow about 20 minutes, plus two lab sign-ins. Use a dedicated test account and save your work before signing out.*
 
-> **Why it matters:** A foothold gone on reboot is a foothold lost. The run key wins because it is ordinary and set from memory, not a file write in a watched folder.
+## What You Will Learn
 
-______
+- **Distinguish** logon-triggered startup from boot-triggered services.
+- **Explain** user identity, executable availability, and policy dependencies.
+- **Inspect** startup configuration before changing it.
+- **Observe** a benign entry through creation, trigger, and removal.
+- **Create** a lifecycle record with independent cleanup evidence.
 
-## Key Terms
+| Term | Meaning |
+|---|---|
+| **Startup entry** | Configuration requesting execution at a defined trigger |
+| **Run value** | Named registry value specifying a command at user logon |
+| **RunOnce value** | Startup configuration intended for a single logon execution |
+| **HKCU** | HKEY_CURRENT_USER, resolved for the calling context |
+| **Trigger** | Event which makes the configured action eligible to run |
+| **Restoration** | Return to the recorded baseline with verification |
 
-| Term | Plain meaning |
-|------|---------------|
-| **Run key** | registry value launching a program at login |
-| **HKCU** | the per-user hive pointer |
-| **Timestomp** | editing a file's timestamps to blend |
-| **BOF** | the in-memory `reg_set` / `reg_query` form |
-| **Roaming profile** | the profile following a user between machines |
-______
+## Define the Persistence Requirement
 
-## Two Methods
+**Persistence is optional** unless the assessment objective requires it. A short test with a controlled starting context might have no reason to create a recurring action. If recurrence is needed, define the trigger, account, duration, and removal owner before choosing a mechanism.
 
-| Method | Requires | Notes |
-|--------|----------|-------|
-| **Service persistence** | admin | launches the implant at startup as SYSTEM, covered in privileged persistence |
-| **Run key persistence** | basic user or admin | starts on login, works from the low-privilege context |
+**A Run entry uses logon**, so a reboot without the relevant user signing in is not a complete test. A service with automatic startup follows a different lifecycle. User persistence also does not automatically increase the account's permissions. [Read Microsoft's Run and RunOnce documentation](https://learn.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys).
 
-For this module the focus is the run key, since it works from the low-privilege context most initial callbacks land in.
+**Configuration success** proves only the entry was written. The referenced executable must exist, the relevant user must encounter the trigger, and policy must permit the resulting action. Separate those dependencies in both your test and your report.
 
-______
+| Mechanism | Trigger context | Question to verify |
+|---|---|---|
+| **User Run value** | Relevant user's logon | Which user hive and command? |
+| **User Startup shortcut** | Relevant user's logon | Which shortcut, target, and arguments? |
+| **Scheduled task** | Configured trigger and principal | Which conditions and execution identity? |
+| **Automatic service** | Service-control startup behavior | Which account, dependencies, and service state? |
 
-## Legacy Options and Why to Skip Them
+## Resolve the User Context
 
-These methods appear in older tradecraft and malware reports. Study them to recognize evidence, not to deploy them outside an isolated, authorized lab. Their common weakness is a conspicuous change to a sensitive location, a fragile boot path, or a behavior modern Windows and EDR products watch closely.
+**HKCU** is context-dependent. It is not a universal alias for whichever person appears on the visible desktop. Record the calling account's SID before interpreting a user startup entry. [Read Microsoft's predefined-key reference](https://learn.microsoft.com/en-us/windows/win32/sysinfo/predefined-keys).
 
-| Legacy method | Historical use | Detection and risk | Safer lab alternative |
-|---------------|-----------------|-------------------|-----------------------|
-| **Startup folder shortcut** | launch a program when a user signs in | file creation in an auto-start folder, a new `.lnk`, and a child process from Explorer are easy to correlate | create a benign shortcut which opens Notepad, then review the file event and process tree |
-| **`RunOnce` key** | launch a program once at the next sign-in | the value is short-lived, and registry auditing or EDR records the write and resulting process | use a disposable `Run` value in a snapshot and remove it during the same exercise |
-| **Shortcut argument abuse** | hide a command behind a familiar document or application shortcut | shortcut metadata, unusual arguments, and Office or script-child processes trigger inspection | inspect a known-good shortcut with `Get-Item` and compare its target and arguments with a benign test shortcut |
-| **Winlogon `Shell` or `Userinit`** | replace or wrap the logon process | changes to `Winlogon` values affect a critical boot path and risk a failed logon, while registry baselines and EDR alert on the modification | compare the default values in a disposable VM and document the expected registry locations without changing them |
-| **`AppInit_DLLs`** | load a DLL into GUI processes | it affects many processes, depends on loader settings, and is constrained by code-signing and mitigation policies | load a signed test DLL in a purpose-built lab process and observe module-load telemetry |
-| **Image File Execution Options debugger** | run a debugger or replacement when a named executable starts | a `Debugger` value under an image-specific key is a high-signal modification and often breaks application startup | create a registry record in a snapshot, query it for detection practice, then revert the snapshot |
-| **Office macro persistence** | run code when a document or Office application opens | macro blocking, Protected View, AMSI, ASR rules, and Office child-process telemetry expose the behavior | use a signed macro which displays a message only, with macros enabled in a disposable VM, then remove it |
-| **Scheduled-task abuse** | trigger code at logon, startup, or a timer | task creation, hidden flags, unusual principals, and execution from a user-writable path are logged and commonly alerted on | use a visible task named `Lab-Persistence-Demo` which launches Notepad, record its XML, and delete it |
+**Profile portability** is also conditional. Even if a profile-management system carries a registry entry to another machine, the executable, path, architecture, and applicable policies still need to match. A roaming profile is not a guarantee of execution across the environment.
 
-**Defensive controls:** Sysmon Event IDs 1, 11, and 13 help connect process creation, file creation, and registry changes. Windows Defender and EDR products inspect auto-start extensibility points, Office child processes, DLL loads, and task creation. Autoruns provides an analyst view of startup locations. Registry auditing and a known-good baseline expose changes to `Winlogon`, `AppInit_DLLs`, IFEO, and `Run` keys.
+**Scope your claim** to the account and machine observed. A successful test for one user does not establish recurrence for every user on the host. Record machine-level and user-level startup locations separately.
 
-**Why the Run key remains useful for this lab:** it demonstrates user-context persistence with a small, reversible registry change. A BOF does not make the change invisible, and a normal user callback does not justify writing to a customer host. The authorized exercise should use a snapshot, a benign payload, a named change log, and a cleanup check.
+{{< figure src="user-startup-trigger-and-restoration.webp" alt="Four connected boxes show the user baseline, named startup entry, logon execution evidence, and verified restoration of the original state" caption="Removing configuration and stopping a running process are different cleanup tasks" >}}
 
-*The safe substitute preserves the learning objective: identify the auto-start location, observe its telemetry, verify execution, and remove the change.*
+## Inspect Before Changing
 
-______
-
-## The Run Key
-
-You add a value to the `Run` key in the registry. The user-level location is `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`. Because `HKCU` is per user, a roaming profile carries the run key to any system the user logs into, quietly widening your reach.
-
-______
-
-## Building a Run Key
-
-The workflow:
-
-1. Upload the executable to a quiet place, usually under the user's appdata folder.
-2. Timestomp the executable so it blends with the surrounding folder.
-3. Add the run key value.
-
-The native form:
+**Start with read-only queries** in the test account's shell. The first command records the SID, while the second displays values under the user Run key. A missing key or an access error is a result to document, not permission to create unrelated configuration.
 
 ```text
-REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "My App" /t REG_SZ /F /D "C:\MyAppPath\MyApp.exe"
+whoami /user
+reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run"
 ```
 
-The native form uses `reg.exe`, so operators prefer the Cobalt Strike BOFs:
+**`reg query`** displays the selected key's entries without changing them. The **`/v`** option, used later, restricts the request to a named value. Save the baseline output with the account and timestamp. [Read the reg-query reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg-query).
+
+**Autoruns** provides a broader view of configured automatic-start locations. Select the appropriate user and inspect the Logon category, while recording any active filters. A hidden entry in a filtered view is not an absent entry. [Read the Autoruns documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns).
+
+| Baseline field | Purpose |
+|---|---|
+| **Account SID** | Identify the user context |
+| **Registry path and view** | Reproduce the location inspected |
+| **Existing value names** | Avoid overwriting another entry |
+| **Tool filters** | Explain which entries the view omits |
+| **Executable path** | Establish the intended benign target |
+
+## Create a Benign Lab Entry
+
+**Use native 64-bit PowerShell** in a disposable 64-bit Windows VM with the dedicated account. This exercise assumes the Run key already exists and Notepad is installed at the checked system path. If either prerequisite is missing, use a prepared lab image rather than changing broader startup configuration.
+
+**The following code** creates one visibly named value pointing to Notepad. It stops if the value already exists, checks the target file, and avoids a force-overwrite option. It does not copy an executable or contact a network endpoint.
+
+```powershell
+$runPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
+$valueName = 'CourseLab-Notepad'
+$notepadPath = Join-Path $env:SystemRoot 'System32\notepad.exe'
+$runKey = Get-Item -LiteralPath $runPath -ErrorAction Stop
+
+if ($runKey.GetValueNames() -contains $valueName) {
+    throw 'The lab value already exists. Review the baseline first.'
+}
+if (-not (Test-Path -LiteralPath $notepadPath -PathType Leaf)) {
+    throw 'The expected Notepad executable is missing.'
+}
+$expectedCommand = '"' + $notepadPath + '"'
+New-ItemProperty -LiteralPath $runPath -Name $valueName `
+    -PropertyType String -Value $expectedCommand -ErrorAction Stop
+```
+
+**Parameter meanings:** **`-LiteralPath`** uses the exact registry path, **`-Name`** selects the single new value, and **`-PropertyType String`** creates a string value. **`-Value`** stores the quoted command path, while **`-ErrorAction Stop`** prevents continuing past a reported error in the selected operation. [Read New-ItemProperty](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/new-itemproperty?view=powershell-7.5).
+
+**Verify the stored value** before testing logon. The query should show the visible lab name and the intended quoted path. Recheck the account SID if you opened a different shell or changed credentials.
 
 ```text
-reg_set HKCU SOFTWARE\microsoft\windows\currentversion\run testValue REG_SZ C:\beacon.exe
-reg_query HKCU SOFTWARE\microsoft\windows\currentversion\run
-reg_delete HKCU SOFTWARE\microsoft\windows\currentversion\run testValue
-reboot 127.0.0.1
+reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v CourseLab-Notepad
 ```
 
-`reboot` exists so you prove the beacon returns. Do not reboot a customer host to test persistence on a real operation.
+## Observe the Logon Trigger
 
-> **Operator takeaway:** query before you add, and query again after. Keep a precise log of what you set and where, because this run key gets cleaned up later.
+**Close existing Notepad windows**, save the baseline and creation records, then sign out and back into the dedicated VM account. Observe whether a new Notepad instance appears and collect process evidence for the relevant window. Windows does not promise an immediate launch order for Run entries, so record the observation window rather than assuming a precise startup deadline.
 
-______
+**Interpret the trigger carefully.** Automatic application restoration or another startup entry also might launch Notepad. Correlate the new entry, the sign-in, and process evidence instead of treating a visible window as unique proof of its origin.
 
-## Blending In
+**A missing launch** calls for dependency checks. Verify the account, stored command, executable availability, startup policy, and recorded errors. Do not alter security settings merely to force the expected result.
 
-Run key value names matter. Real entries look like `Synapse3`, `OneDrive`, or `Spotify`, and none carries a `.exe` in the name. Name your value the way legitimate software names its own, so a defender scrolling the `Run` key sees nothing unexpected.
+| Observation | Supported conclusion |
+|---|---|
+| **Registry value exists** | Configuration creation succeeded |
+| **Relevant logon occurred** | The intended trigger was exercised |
+| **New process correlated** | Execution evidence supports the tested path |
+| **No visible window** | Further evidence is needed to explain the outcome |
 
-______
+## Verify Restoration Separately
 
-## Hiding Files on Target
+**Removal starts with identity.** Use the same test account and compare its SID with the creation record. Recreate the variables in the new PowerShell session, then verify the stored command still matches the lab entry before removing the named value.
 
-Place the payload next to files which already belong there:
+```powershell
+$runPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
+$valueName = 'CourseLab-Notepad'
+$notepadPath = Join-Path $env:SystemRoot 'System32\notepad.exe'
+$expectedCommand = '"' + $notepadPath + '"'
+$runKey = Get-Item -LiteralPath $runPath -ErrorAction Stop
 
-- Running as a **user**: upload to the user directory. Survey the appdata folders, find an existing file, and match the beacon's filename to it.
-- Running as **SYSTEM**: payloads go to `C:\Windows\System32` or `SysWOW64`, remembering the 32-bit filesystem redirection rule.
+if ($runKey.GetValueNames() -notcontains $valueName) {
+    throw 'The lab value is absent. Reconcile the account and evidence.'
+}
+if ($runKey.GetValue($valueName) -cne $expectedCommand) {
+    throw 'The value changed. Review it before removal.'
+}
+Remove-ItemProperty -LiteralPath $runPath -Name $valueName -ErrorAction Stop
+if ((Get-Item -LiteralPath $runPath).GetValueNames() -contains $valueName) {
+    throw 'The lab value is still present.'
+}
+```
 
-Do not forget to timestomp where possible. A file dated today in a folder full of three-year-old files is an easy flag.
+**`Remove-ItemProperty`** removes the selected value rather than the entire Run key. The prechecks protect against deleting an unexpected entry encountered during the exercise. Preserve the removal result and a fresh query. [Read Remove-ItemProperty](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-itemproperty?view=powershell-7.5).
 
-______
+**Configuration removal does not terminate Notepad.** Close the specific lab window normally, then repeat the sign-out and sign-in test. Confirm the value remains absent and no execution attributable to the lab entry recurs.
 
-## Hold a Foothold
+| Cleanup layer | Evidence |
+|---|---|
+| **Configuration** | Named value absent in the correct user context |
+| **Running instance** | Lab process or window closed normally |
+| **Later trigger** | No recurrence attributable to the removed entry |
+| **Baseline** | Unrelated startup entries preserved |
 
-A normal user callback must survive reboot. Answer:
+## Understand Observation Limits
 
-1. Which persistence method works from this low-privilege context?
-2. Where do you drop the executable so it blends?
-3. What do you set with the `reg_set` BOF?
-4. What do you do to the file's timestamp before finishing?
+**Startup configuration is observable** regardless of whether a native utility or in-process extension writes it. MITRE documents registry Run keys and Startup folders as established persistence locations. The delivery mechanism does not erase the resulting configuration. [Read ATT&CK T1547.001](https://attack.mitre.org/techniques/T1547/001/).
 
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
+**A familiar value name** is not proof of legitimate ownership. Evaluate the command, path, signer information, installation context, and observed behavior together. A file timestamp also does not establish provenance or explain who created the startup entry.
 
-## Common Mistakes
+**Broader startup locations** have different consequences. Winlogon configuration, service settings, and application-loading mechanisms affect different triggers and process contexts. Inspect them as distinct mechanisms rather than treating every autostart entry as an interchangeable Run value.
 
-- Naming the run key value with a file extension, unlike legitimate software.
-- Placing the payload alone in an odd directory instead of beside similar files.
-- Skipping timestomp and leaving a fresh creation date in an old folder.
-- Rebooting a customer host to test persistence.
+| Evidence type | Useful question |
+|---|---|
+| **Configuration record** | What action is requested, for whom, and when? |
+| **File identity** | Which executable or document is referenced? |
+| **Execution record** | Did the intended process run under the expected context? |
+| **Removal record** | Was the specific change reversed and retested? |
 
-______
+## Work a Failed-Launch Case
 
-## Self-Check
+**Illustrative scenario:** a user Run value appears in both the registry and Autoruns. After signing into another account, the reviewer sees no Notepad window and reports the persistence test failed. The original account's hive still contains the lab entry.
 
-1. Why does `HKCU` persist a roaming profile across machines?
-2. Give the three-step BOF workflow for a run key.
-3. How should you name the value, and why?
-4. Where do user payloads land versus SYSTEM payloads?
-5. Name two reasons the Startup folder is a poor modern choice for a real operation.
-6. Which controls help defenders find Run-key, IFEO, or scheduled-task changes?
-7. What safe exercise replaces changing `Winlogon` values?
-8. Why does a BOF not make a Run-key write invisible?
+**Evaluate the report** using trigger and identity evidence. Decide which part of the test was completed and which prerequisite was missed. Then write the narrowest justified next step.
 
-______
+**Expected reasoning:** configuration creation was confirmed, but the intended user's logon was not tested. Signing into another account does not exercise the same user Run entry. Resume the test in the original lab account or record the untested trigger as a limitation.
 
-## Answer Key
+| Case variation | Expected next check |
+|---|---|
+| **Wrong user signed in** | Reconcile SID and user hive |
+| **Correct user, missing executable** | Confirm path and file availability |
+| **Correct entry, delayed launch** | Review the observation window and execution evidence |
+| **Entry removed, window remains** | Close the existing instance and test recurrence separately |
 
-**Self-Check**
+## Watch the Autoruns Demonstration
 
-1. **HKCU is per user, so a roaming profile carries the key to each machine the user logs into.**
-2. **`reg_set` to add, `reg_query` to verify, `reboot` to test** the value in a lab.
-3. **Like legitimate software, no `.exe` in the name.** A file-extension value stands out in the key.
-4. **User payloads go to the user's appdata, SYSTEM payloads to System32 or SysWOW64.**
-5. **It creates a visible file artifact, often a `.lnk`, and Explorer-launched execution is easy to correlate.**
-6. **Sysmon, registry auditing, Autoruns, Windows Defender, and EDR telemetry** help identify these changes. The relevant evidence includes registry writes, task creation, file creation, and child processes.
-7. **Compare the default values in a disposable VM, record the registry locations, and restore the snapshot.** Do not alter a real logon path for this objective.
-8. **The registry write and the later logon process still produce telemetry.** In-memory execution changes the delivery path, not the defender's view of the persistence location.
+**Aaron Margosis's Microsoft demonstration** explains Autoruns and its startup views. Watch how selecting categories, users, and filters changes the visible configuration. Identify which view supports each stage of your lab record.
 
-**Exercise**
+{{< youtube id="G_YlltkI2mA" enable="true" title="Sysinternals: Autoruns deep dive (demo) | Startup, Boot, Login, Apps, Windows | Microsoft" >}}
 
-1. **The run key**, it works from low privilege.
-2. **The user's appdata folder**, beside files which belong there.
-3. **A value pointing at the beacon** under the `Run` key.
-4. **Timestomp it** to match the surrounding files.
-______
+**Watch on YouTube:** [Sysinternals: Autoruns deep dive](https://www.youtube.com/watch?v=G_YlltkI2mA).
+
+## Create the Lifecycle Record
+
+**Document the whole exercise**, including an unexpected result if one occurred. Record the before-state, exact named change, trigger, evidence, removal, and later retest. If you stop before removal verification, leave the exercise open with a named owner.
+
+```text
+Lab asset, account SID, and registry view:
+Baseline timestamp and evidence:
+Value name, type, and exact command:
+Creation result:
+Logon trigger and observation window:
+Execution evidence and alternative explanations:
+Removal result and fresh configuration query:
+Existing process closure:
+Later logon result:
+Remaining differences from baseline:
+```
+
+**A completed record** proves more than a single screenshot of Notepad. Another reviewer should reconstruct the sequence and identify the evidence supporting restoration. Keep this record for the cleanup comparison in [Module 15](/red-team-course/persistence-cleanup-and-defense-evasion/).
+
+## Check Your Understanding
+
+1. **Trigger:** is a reboot without user logon a sufficient Run-entry test?
+2. **Identity:** which account determines the HKCU context?
+3. **Portability:** why does a copied profile entry not guarantee execution elsewhere?
+4. **Cleanup:** does removing the value stop a running process?
+
+| Question | Expected reasoning |
+|---|---|
+| **Trigger** | The relevant user logon still needs to occur |
+| **Identity** | The calling security context, verified against the recorded SID |
+| **Portability** | Executable, path, policy, and environment dependencies remain |
+| **Cleanup** | Configuration removal and process termination are separate actions |
 
 ## Next Steps
 
-Your low-privilege foothold now survives. Next, climb out of the low-privilege context: local privilege escalation.
-
-**[→ Module 13: Local Privilege Escalation](/red-team-course/local-privilege-escalation/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+**Local privilege escalation** concerns crossing a permission boundary, which user persistence alone does not establish. Continue to [Module 13: Local Privilege Escalation](/red-team-course/local-privilege-escalation/) to analyze prerequisites and supported impact. Return to the [Red Team Course hub](/red-team-course-start/) for the full sequence.

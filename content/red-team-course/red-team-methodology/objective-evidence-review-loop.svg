@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#56c9be"/></marker></defs>
+<rect width="1600" height="1000" fill="#101c2e"/>
+<text x="80" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">From an objective to a supported result</text>
+<text x="80" y="148" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">A sequence of techniques becomes a test when its prerequisites and proof are explicit.</text>
+<path d="M730 350 L836 350" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M1175 475 L1175 551" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M850 690 L744 690" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="80" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">1  DEFINE THE QUESTION</text>
+<text x="110" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Name the business or control boundary</text>
+<text x="110" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Select a minimal proof of impact</text>
+<text x="110" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Write the stopping condition</text>
+<rect x="850" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">2  PLAN THE TEST</text>
+<text x="880" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Approved assets and starting context</text>
+<text x="880" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">One bounded action at a time</text>
+<text x="880" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Define expected observations</text>
+<rect x="80" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">4  REVIEW THE RESULT</text>
+<text x="110" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Separate fact from inference</text>
+<text x="110" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Choose stop, revise, or retest</text>
+<text x="110" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Verify restoration and report limits</text>
+<rect x="850" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">3  COLLECT EVIDENCE</text>
+<text x="880" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Execution and target-side result</text>
+<text x="880" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Telemetry, alerts, and response</text>
+<text x="880" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Record missing or conflicting data</text>
+<rect x="80" y="885" width="1420" height="65" rx="12" fill="#263951"/>
+<text x="104" y="927" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#f2d295">Feedback: revise the plan when evidence changes the next justified action</text>
+</svg>

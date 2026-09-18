@@ -1,6 +1,7 @@
 ---
 title: "Module 3: Networking and Active Directory Foundations"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
 description: "The networking and Active Directory concepts every red team technique builds on: HTTP and HTTPS, TCP and UDP, the domain controller, users, groups, and group nesting."
@@ -13,170 +14,161 @@ coverCaption: "Module 3: the ground every later technique stands on."
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Before any tool comes out, you need the networking and Active Directory concepts every later technique leans on.** HTTP and HTTPS, TCP and UDP, and the structure of a Windows domain decide how your traffic looks on the wire and how you plan an escalation.
+**Network reachability, authentication, and authorization** answer different questions. A reachable server does not prove an account is valid, and a successful login does not grant every permission. This module connects web transports, directory services, DNS, and group membership so you diagnose the right layer before choosing a tool.
 
-*This module is foundational reading for the whole course, about 12 minutes. Do not skip it.*
+*Allow 25 minutes for reading and 20 minutes for a small domain-lab exercise. You need basic IP addressing and access to your own Windows lab.*
 
-> **Why it matters:** The protocol wrapper decides whether your C2 reads as browsing or as an anomaly, and the domain structure decides the escalation path. The DC holds the hashes.
+## Learning Outcomes
 
-______
+- **Distinguish layers:** separate an application protocol from its transport and encryption.
+- **Explain the domain:** identify the roles of DNS, a domain controller, and a resource server.
+- **Trace permissions:** follow a group-membership path to an explicit resource permission.
+- **Interpret failure:** distinguish name resolution, connection, authentication, and access denial.
+- **Create an evidence map:** connect observations without assuming a complete attack path.
 
-## Key Terms
+## Protocols Have Different Jobs
 
-| Term | Plain meaning |
-|------|---------------|
-| **HTTP / HTTPS** | unencrypted vs encrypted web traffic |
-| **TCP** | reliable transport with a handshake |
-| **UDP** | fast transport with no delivery guarantee |
-| **Active Directory (AD)** | the domain's central directory of users and hosts |
-| **Domain Controller (DC)** | the server holding the domain's hashes |
-| **Group nesting** | a group inside another group |
+**TCP** provides an ordered byte stream with mechanisms for acknowledging and retransmitting data. **UDP** sends datagrams without TCP's connection and delivery mechanisms. An application using UDP still implements additional reliability or security when its protocol requires it. [TCP specification, RFC 9293](https://www.rfc-editor.org/rfc/rfc9293.html)
 
-______
+| Layer | Example | Question it answers |
+|---|---|---|
+| **Naming** | DNS | Which address or service location corresponds to this name? |
+| **Transport** | TCP or UDP | How are bytes or datagrams carried? |
+| **Channel protection** | TLS | How is the connection authenticated and protected? |
+| **Application** | HTTP, SMB, LDAP | What operation does the client request? |
 
-## Why Foundations First
+**A port number is a clue**, not proof of the application behind it. A TCP listener on port 443 still needs protocol validation. A service moved to another port keeps its application behavior, and a proxy often presents a different network endpoint from the underlying application.
 
-A red team levels these concepts to a shared baseline before tooling appears. When you stare at a callback and decide how it should look on the wire, or read a group membership to plan an escalation, you are using exactly this material.
+## HTTP, TLS, and Visibility
 
-Skip it and the later techniques have no context. Every persistence trick, every Kerberos abuse, and every lateral movement you learn later sits on top of these few ideas.
+**HTTPS** protects HTTP traffic using a secure channel. TLS provides confidentiality and integrity for application data and supports authentication of the communicating endpoints. The protection applies between the endpoints of the TLS connection, including an inspecting proxy when one terminates the connection. [TLS 1.3 specification, RFC 8446](https://www.rfc-editor.org/rfc/rfc8446.html)
 
-______
+**Encryption does not establish ordinary behavior.** A network observer still has connection-level information such as destination addresses, timing, and traffic volume. Endpoint tools and a configured inspection proxy have different visibility. A rarely used destination or an unusual initiating process remains relevant even when the content is encrypted.
 
-## HTTP vs HTTPS
+| Observation | Reasonable conclusion | Unsupported conclusion |
+|---|---|---|
+| **TLS negotiation succeeds** | The tested TLS connection was established | The application is trustworthy |
+| **TCP port 443 is reachable** | Something accepts connections there | All application requests will succeed |
+| **HTTP body contains binary data** | The application transfers binary content | The transfer is malicious because it is not readable text |
+| **No plaintext in a capture** | The capture lacks clear application content | Defenders have no other evidence |
 
-`HTTP` and `HTTPS` are web protocols running over TCP. **HTTP is unencrypted, HTTPS is encrypted.**
+**HTTP is not limited to text pages.** Images, compressed bodies, software downloads, and application data are ordinary uses of HTTP. A claim about command-and-control traffic needs evidence from the application, endpoint, or traffic pattern, rather than a blanket assumption about binary data.
 
-On plain HTTP, anyone listening on the wire reads every byte between client and server. On an open wireless hotspot, a listener sees each page you load in the clear. On HTTPS, a listener sees only ciphertext.
+**HTTP/3** also corrects the shortcut “web traffic always uses TCP.” It maps HTTP semantics onto QUIC, which uses UDP. Distinguish the application protocol from its transport before interpreting a capture or proposing a firewall rule. [HTTP/3 specification, RFC 9114](https://www.rfc-editor.org/rfc/rfc9114.html)
 
-The red team angle shows up immediately. Normal web traffic is plaintext, and most remote access tools wrap their commands in encryption. Encrypted data riding over an HTTP channel is a tell, because plaintext pages should not contain ciphertext. A defender who sees ciphertext where cleartext pages belong has reason to look closer.
+## Read a TCP Exchange
 
-> **Operator takeaway:** match the wrapper to the protocol. Encrypted payloads over HTTP look wrong. Encrypted payloads over HTTPS look like normal browsing.
+```text
+Client                    Server
+SYN --------------------->
+    <--------------------- SYN-ACK
+ACK --------------------->
+Application data -------->
+```
 
-Use HTTPS when you control the choice. Your C2 blends better when its encryption matches the protocol carrying it. This is why your listener selection later favors HTTPS for a client network, and why an HTTP beacon on an internet-facing host reads as noise.
+**The three-way handshake** establishes a TCP connection. It does not prove authentication to the application or permission to read its data. A connection failure belongs to a different diagnostic stage from a valid application response denying access.
 
-______
+**A burst of connection attempts** deserves interpretation in context. Destination count, port distribution, time interval, and the initiating application help distinguish a scan from an expected inventory job. Completing the handshake does not make scanning invisible, and a SYN scan is not inherently undetectable either.
 
-## TCP vs UDP
+## What Active Directory Stores
 
-**TCP is connection-oriented.** A client opens a session with a three-way handshake (`SYN`, `SYN-ACK`, `ACK`) and confirms data arrived intact with checksums.
+**Active Directory Domain Services (AD DS)** stores directory objects and supports identity, authentication, and administration for a domain environment. A **domain controller (DC)** runs those services and participates in directory replication. A deployment normally includes multiple domain controllers rather than a single universal database server. [Microsoft AD DS overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 
-**UDP is connectionless.** One host sends to another without confirming the port is open or every packet landed.
+**A domain is not a subnet.** Systems in different routed networks belong to the same domain, while systems sharing a subnet belong to different domains or no domain. Separate logical identity structure from packet-routing structure in your notes.
 
-| Protocol | Trait | Used for |
-|----------|-------|----------|
-| **TCP** | reliable handshake, delivery checks | web pages, banking, downloads |
-| **UDP** | fast, no delivery guarantee | streaming, voice, real time |
+| Object or role | Purpose |
+|---|---|
+| **User account** | Represents a person or application identity |
+| **Computer account** | Represents a domain-joined machine identity |
+| **Security group** | Collects principals for rights or permissions |
+| **Organizational unit** | Organizes objects for delegation and policy application |
+| **Domain controller** | Provides directory and authentication services |
+| **Resource server** | Hosts the share, application, or other resource being accessed |
 
-Streaming and real-time services choose UDP because speed matters more than perfect delivery. Live audio and call video trade lost packets for lower latency.
+**Domain-controller access is not every engagement's objective.** An assessment might instead test access to one application role, a file share, or an approved synthetic record. Domain controllers are sensitive dependencies, and local workstation account secrets are not simply copies of the domain account database.
 
-The TCP handshake matters to an attacker because defenders watch it. A burst of `SYN` packets from one host is the classic signature of a port scan. During active reconnaissance you watch for exactly this tell, both when you run a scan and when you shape your own traffic to avoid tripping it.
+## DNS Finds Domain Services
 
-______
+**DNS service records** help clients locate domain controllers and domain services. A directory operation depends on more than reaching an IP address. The client also needs appropriate naming, routing, time, authentication, and permission for the requested action. [Microsoft domain-controller location process](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/dc-locator)
 
-## Active Directory and the Domain Controller
+**Worked failure:** A workstation reaches a file server's address but cannot resolve the domain's service records through its configured resolver. This supports investigating DNS configuration before calling the account invalid. Record the resolver and query result, then compare them with the intended lab configuration.
 
-**Active Directory (AD)** is the directory service for Windows domain networks. It registers users, computers, printers, and other principals in one central database.
+{{< figure src="domain-access-dependency-map.webp" alt="Diagram connecting DNS service location, domain authentication, resource authorization, and evidence from each stage" caption="Reachability, authentication, and permission require separate evidence" >}}
 
-Larger organizations split the database across a hierarchy of parent and child domains, for example `corp.local` with `chicago.corp.local` and `detroit.corp.local` beneath it.
+## Groups and Effective Access
 
-The central database runs on the **Domain Controller (DC)**. The DC stores password hashes, every computer in the domain, and every user and group. It is the prize, because the domain's credential material lives on it.
+**Security groups** support permission assignments to collections of accounts and other groups. Distribution groups serve a different purpose and are not security principals for permission assignment. Group scope constrains valid membership and where permissions apply. [Microsoft security-group documentation](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups)
 
-> **Operator takeaway:** the DC holds the hashes for the whole domain. A large share of post-exploitation work exists to push toward it.
+**Group names are not permission evidence.** A group called Finance Admins needs an actual rights assignment or resource permission before the name establishes anything useful. A direct account entry in an access-control list is also possible. The common administrative preference for groups does not prohibit permissions assigned to an individual account.
 
-______
+```text
+Illustrative lab access path:
+LAB\Alice
+  -> member of Finance-Readers
+  -> member of Reports-Read
+  -> explicit read permission on a sample report folder
+```
 
-## Users, Groups, and Nesting
+**The membership path is only part of the decision.** Inspect the intended operation, the resource's access-control entries, and the token used for the attempt. File access through a share involves both share and filesystem permissions. Membership changes also need an appropriate session or token refresh before testing their effect.
 
-AD grants permission through **groups**, not one account at a time. Add a user to a group and the user inherits everything the group does.
+| Evidence | What it contributes |
+|---|---|
+| **Directory membership** | A relationship between an account and group |
+| **Current access token** | Group information available to the running process |
+| **Resource permissions** | Rights granted or denied on the target object |
+| **Observed operation** | The result for the exact action and context tested |
 
-Groups also contain other groups, which is where mapping becomes messy. A user not listed in Domain Admins directly still inherits it through a chain of groups.
+**Illustrative decision:** Alice belongs to Reports-Read and successfully reads a sample file. This proves the read operation under the tested context. It does not prove write access, local administrator rights, or access to another share with a similar name.
 
-| Concept | Meaning | Why it matters |
-|---------|---------|----------------|
-| **User** | an account for a person or service | holds credentials you reuse |
-| **Group** | a set of users or groups with shared rights | permission inheritance |
-| **Nesting** | a group inside another group | hidden inheritance to admin rights |
+## Supplemental Video
 
-Read the group names to map which principals hold which rights. Typical names tell the story: `Workstation Admins`, `Server Admins`, `Domain Admins`, `Exchange Admins`. A well-run domain separates these privileges. A poorly run domain collapses them, and the collapse is an escalation path you hunt for. This is why group enumeration gets dedicated tooling later in the course.
+{{< youtube id="4qC7H-y7oKI" enable="true" title="Active Directory Domain Service Deep Dive" >}}
 
-______
+**Watch:** [Active Directory Domain Service Deep Dive](https://www.youtube.com/watch?v=4qC7H-y7oKI), by John Savill's Technical Training. Use the architecture explanation to connect domains, forests, and domain controllers. Record the logical relationship between the components before studying the later technique-specific modules.
 
-## These Concepts Feed Your Tooling
+**Viewing task:** Draw two domain controllers in one domain and two member servers on different subnets. Explain which relationship is directory membership and which relationship is network reachability. Your diagram should work without treating a subnet as a domain boundary.
 
-Every idea above maps to a command you run later. Keep the mapping in view:
+## Observe a Lab Connection
 
-| Concept | Tool it feeds | What you do with it |
-|---------|---------------|---------------------|
-| **HTTPS** | a C2 listener | choose HTTPS for a client network so beacons browse like users |
-| **TCP handshake** | `nmap` | `-sS` SYN scan lights up exactly what defenders watch |
-| **Domain Controller** | `netGroupListMembers` | enumerate `Domain Controllers` to locate the target host |
-| **Group nesting** | `netGroupListMembers` | enumerate `Domain Admins` and chase nested members |
+Use **PowerShell** on your domain-joined lab workstation. Replace the example names with your own approved domain and server:
 
-______
+```powershell
+Resolve-DnsName -Name _ldap._tcp.dc._msdcs.lab.example -Type SRV
+Test-NetConnection -ComputerName files.lab.example -Port 445
+whoami /groups
+```
 
-## Reason About Your Traffic and Domain
+**`Resolve-DnsName`** asks for the specified DNS record type. **`Test-NetConnection`** tests the selected TCP destination and reports connection information. **`whoami /groups`** shows group information in your current context. None of these commands proves permission to a particular file. [Resolve-DnsName reference](https://learn.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname?view=windowsserver2025-ps), [Test-NetConnection reference](https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection)
 
-Given a callback on a workstation inside a customer domain:
+**Record actual results.** A successful TCP test indicates reachability for this connection attempt, while an unsuccessful one has several possible causes. Name resolution, routing, firewall policy, and a stopped service belong in the differential diagnosis. Do not label every failure “bad credentials.”
 
-1. Should the beacon ride HTTP or HTTPS, and why?
-2. Where do the domain's hashes live, and which host do you aim toward?
-3. You find a user absent from Domain Admins but reachable through two nested groups. What does this tell you?
-4. Which transport carries your C2, and why?
+## Work Through a Failure
 
-Answer from memory first. The explanations are in the Answer Key at the end.
+**Scenario:** A lab user resolves the file server, connects to port 445, and receives access denied when opening a sample report. Another approved lab user reads the same file successfully. No network or account changes have yet been made.
 
-______
+| Check | Observation | Next inference |
+|---|---|---|
+| **Name resolution** | Both users resolve the same server | Compare the remaining layers |
+| **Transport** | Both connect to TCP 445 | A basic connection is available |
+| **Identity** | The users present different accounts | Confirm which token and authentication were used |
+| **Resource operation** | One read succeeds and one fails | Compare the exact permissions and context |
 
-## Why the Foundations Matter
+**Expected reasoning:** The successful second read makes a universal service outage less likely. By itself, it does not identify the missing permission or establish whether the denied operation failed authentication or authorization. Inspect the resource and correlated records before recommending a change.
 
-Protocols explain both reachability and evidence. Older training often stops at port numbers, while modern analysis follows DNS, SMB, LDAP, Kerberos, and RPC relationships through the network. A packet capture and a small AD lab show why a name-resolution failure changes the attack path. **Use synthetic accounts and networks when testing discovery.**
-
-______
-
-## Common Mistakes
-
-- Running an encrypted payload over plain HTTP, so the ciphertext rides where cleartext belongs.
-- Forgetting the TCP handshake is a detectable signature, then hammering a target with `SYN` packets.
-- Confusing a local group with a domain group, or the reverse.
-- Treating a group listing as flat, and missing the nested membership which grants the real privilege.
-
-______
+**Create a dependency record** for this scenario or your own lab observation. Include resolver, destination, protocol, account authority, requested operation, result, and the next evidence needed. This record becomes the starting point for the Windows identity module.
 
 ## Self-Check
 
-Before moving on, answer these from memory:
+1. **HTTPS:** Which observations remain available outside the encrypted content?
+2. **HTTP/3:** Why is “all web traffic uses TCP” inaccurate?
+3. **Directory structure:** Does one subnet imply one domain?
+4. **Group nesting:** What additional evidence turns a membership chain into a supported access claim?
+5. **Connection success:** What has a successful TCP 445 test left untested?
 
-1. Why does encrypted C2 over HTTP stand out, and over HTTPS does not?
-2. Order the three-way handshake packets.
-3. Why is the domain controller the prize?
-4. What is group nesting, and why does it matter to an operator?
+**Answer key:** Addresses, timing, and volume remain useful, and endpoint or proxy visibility differs from a passive capture. HTTP/3 uses QUIC over UDP. A domain and a subnet describe different structures.
 
-If any answer is thin, reread the matching section. These four ideas recur in every later module.
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **Plaintext should not carry ciphertext.** Encrypted C2 over HTTP is visible as an oddity, while HTTPS hides it inside normal browsing.
-2. **SYN, SYN-ACK, ACK.** The three packets which open a TCP session.
-3. **It holds every domain hash.** The DC stores the hashes for the whole domain, so it is the post-exploitation target.
-4. **A group inside another group, which grants inherited rights.** A user outside Domain Admins still reaches admin through the chain.
-
-**Exercise**
-
-1. **HTTPS.** It reads as browsing and hides the payload.
-2. **On the domain controller.** Aim at the DC to reach the hashes.
-3. **The user inherits admin through nesting.** Absent from Domain Admins yet still admin via the groups.
-4. **TCP.** A callback needs reliable, ordered delivery.
-
-______
+**Access checks:** A membership chain needs the relevant token, permissions, and requested operation. TCP reachability leaves application authentication and authorization unproven.
 
 ## Next Steps
 
-Networking and the domain model are the ground floor. Next comes the Windows internals behind every later technique: processes, tokens, and how authentication works.
-
-**[→ Module 4: Windows Internals and Authentication](/red-team-course/foundations-windows-internals-and-authentication/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+**Keep the dependency map** beside your lab notes. It helps separate a naming problem from a credential or permission problem. Continue with **[Module 4: Windows Internals and Authentication](/red-team-course/foundations-windows-internals-and-authentication/)**, or return to the **[course hub](/red-team-course-start/)**.

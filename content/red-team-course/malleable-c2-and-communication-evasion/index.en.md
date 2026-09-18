@@ -1,192 +1,195 @@
 ---
 title: "Module 7: Malleable C2 and Communication Evasion"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "How Malleable C2 profiles shape beacon traffic, why asynchronous check-ins hide better than synchronous, and the session hygiene habits keeping an operation manageable."
+description: "Separate profile validity, working communication, telemetry, and detection with a local HTTP exercise and controlled comparison record."
 genre: ["Red Team", "Offensive Security", "Command and Control"]
 tags: ["red team", "Malleable C2", "C2 profile", "traffic shaping", "asynchronous C2", "synchronous C2", "session hygiene", "Cobalt Strike", "red team course"]
 cover: "/img/cover/malleable-c2-communication-evasion-techniques.webp"
 coverAlt: "An abstract digital network scene showing data packets flowing in vibrant blue and green colors against a dark background, symbolizing Malleable C2 and asynchronous communications."
-coverCaption: "Module 7: the cover story your traffic tells on the network."
+coverCaption: "Module 7: measure communication behavior and support detection claims."
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Malleable C2 controls how your traffic looks on the wire, and asynchronous check-ins keep it from looking like a live remote-control session.** These two ideas decide whether a defender's tools flag your beacon.
+A **Malleable C2 profile** describes configurable aspects of Cobalt Strike communication and related behavior. It changes indicators, but a changed indicator is insufficient evidence of a bypass. This module teaches you to separate configuration validity, successful communication, collected telemetry, and detection outcomes.
 
-*This module takes about 10 minutes.*
+*Allow about 20 minutes, plus time for the local HTTP exercise. The exercise sends harmless requests to your own loopback interface and does not deploy an agent.*
 
-> **Why it matters:** The default C2 is the most signatured traffic in the field. Shaping it to look ordinary, and avoiding the rare and the loud, is what keeps you in the gray area.
+## What You Will Learn
 
-______
+- **Define** profiles, transforms, polling, jitter, and observation points.
+- **Explain** which parts of an HTTP exchange different sensors observe.
+- **Inspect** two local requests and compare their records.
+- **Evaluate** the evidence behind a claim of reduced detection.
+- **Create** a controlled comparison with explicit assumptions and limits.
 
-## Key Terms
+| Term | Meaning |
+|---|---|
+| **Profile** | Configuration describing selected communication and runtime behavior |
+| **Transform** | Reversible operation used to encode and recover exchanged data |
+| **Polling** | Checking periodically for work or results |
+| **Jitter** | Variation applied to a timing interval |
+| **Telemetry** | Recorded observations of system or network activity |
+| **Detection** | Logic interpreting observations as a condition of interest |
 
-| Term | Plain meaning |
-|------|---------------|
-| **Malleable profile** | config shaping how beacon traffic looks |
-| **Sleep time** | the gap between check-ins |
-| **Synchronous C2** | a connection held open the whole session |
-| **Asynchronous C2** | connect, exchange, disconnect on a schedule |
-| **PEB** | the process structure where the command line lives |
-| **Parent PID spoofing** | naming a benign parent for a new process |
-______
+## Understand Profile Scope
 
-## Malleable C2 Profiles
+The **communication profile** describes where data appears in transactions and how the receiving side recovers it. This is more specific than changing a display name or cosmetic label. Both ends need compatible expectations for the exchange to work. [Read the Malleable C2 overview](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_main.htm).
 
-Cobalt Strike shapes its connection, and how it appears to defenders, through a **Malleable C2 profile**. The team server parses and loads the profile at startup, so the look of your traffic is set before the first beacon calls home.
+**Other profile sections** govern aspects of memory, process injection, and post-exploitation jobs. Keep those settings separate from a claim about network behavior. A change in one category is not evidence of a result in another. [Read the profile-extension overview](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2-extend_main.htm).
 
-A profile changes the `GET` and `POST` parameters, the default sleep time, and more. Public templates exist for common applications.
+**Configuration behavior** is version-specific. The 4.13 documentation introduces overrides for a defined subset of settings when generating new payloads. Check the documented override scope instead of assuming a restart is always required or every running agent inherits an edit. [Read the override documentation](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_profile-overrides.htm).
 
-Why bother: the default Cobalt Strike traffic is among the most heavily signatured patterns in security tooling. A profile lets your requests imitate a real application, so a defender watching the wire sees ordinary web traffic instead of a known C2 fingerprint.
+| Question | Evidence needed |
+|---|---|
+| **Was the profile accepted?** | Validation output and selected configuration |
+| **Did the exchange work?** | Correct decoded result through the tested path |
+| **What did a sensor see?** | Sensor record, configuration, and timestamp |
+| **Did a rule alert?** | Rule identity, outcome, and evaluation window |
 
-> **Operator takeaway:** the profile is your cover story on the network.
+## Separate Four Outcomes
 
-______
+**Syntactic validity** means a configuration passed specified checks. **Functional success** means the intended exchange produced the expected result. Neither outcome establishes how a security product classified the activity.
 
-## Asynchronous vs Synchronous
+**Telemetry collection** precedes many detection decisions. A request might be recorded without generating an alert, or an alert might depend on later correlation with endpoint behavior. Report those stages independently so an absence of alerts does not become a claim of invisibility.
 
-| RAT | Behavior | Detection |
-|-----|----------|-----------|
-| **Synchronous** | processes commands instantly, holds the connection | a persistent link is what monitoring catches |
-| **Asynchronous** | connects, exchanges, disconnects, waits | only a short burst while it talks |
+**Response** adds another stage after detection. An analyst's investigation or a containment action depends on workflow, policy, and available context. A test of network visibility should not silently become a claim about the entire response program.
 
-Beacon is asynchronous. The gap between check-ins is the sleep time. Longer sleep means less traffic and better cover, at the cost of slower response. Commands wait in queue until the next check-in.
+{{< figure src="profile-observation-and-detection.webp" alt="Four connected boxes distinguish accepted configuration, working communication, collected observations, and evaluated detection results" caption="A pass at one stage leaves the following stage unproven" >}}
 
-*Plan your work around the sleep rather than expecting an instant response.*
+## Read HTTP in Context
 
-______
+An **HTTP request** includes a method, target, headers, and sometimes content. A user-agent value is supplied by the client and does not authenticate the application sending it. Read the whole exchange and its context before assigning meaning to one field. [Read the HTTP semantics specification](https://www.rfc-editor.org/rfc/rfc9110.html).
 
-## Session Hygiene
+**HTTPS** protects application data in transit between TLS peers. A passive observer outside the TLS session does not ordinarily read its HTTP path and headers, while an endpoint or configured inspection proxy has a different view. State the observation point whenever you discuss visibility. [Read the TLS 1.3 specification](https://www.rfc-editor.org/rfc/rfc8446.html).
 
-Two habits keep a busy operation from turning into chaos:
+**Network metadata** still carries useful context, including observed endpoints, timing, and traffic sizes. Which names and application details remain exposed depends on the actual protocols and deployment. Do not equate encrypted content with a complete absence of observable behavior.
 
-- **Keep windows tidy.** Hold tabs only for the machines you are actively working.
-- **Mark and sort callbacks.** Prefix dead sessions so they sort to the bottom, and color-code entries.
+| Observation point | Typical evidence | Main limitation |
+|---|---|---|
+| **Application server** | Received request and response outcome | Its configured logs omit some fields |
+| **Endpoint sensor** | Process and connection context | Coverage depends on configuration |
+| **Passive network sensor** | Traffic timing and transport metadata | Encrypted application content is restricted |
 
-Clean session hygiene is how you spot a new foothold the moment it arrives, and how you avoid firing a loud command at the wrong beacon.
+## Check Functional Validity
 
-______
+**`c2lint`** is the vendor's profile-checking tool. It checks syntax and performs additional tests using generated data. Use it as evidence about configuration validity, then validate the actual permitted communication path separately. [Read the validator documentation](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_checking-errors.htm).
 
-## Lingering Beacons
+```text
+./c2lint /path/to/approved-lab.profile
+```
 
-When you exit a beacon, it occasionally fails to kill the process in memory. Verify the kill.
+**The path argument** selects an existing profile for validation. Run the validator supplied with the release under review and retain its output with the profile's hash. This command checks a file, so it does not prove an agent exchanged tasks through a proxy or a detection rule evaluated the resulting traffic.
 
-- Same host, after migrating: list processes and confirm the old beacon name is gone.
-- Different host: list remote processes as a last resort.
+| Exit code | Documented meaning |
+|---|---|
+| **0** | No reported errors or warnings |
+| **1** | Warnings only |
+| **2** | Errors only |
+| **3** | Both errors and warnings |
 
-A lingering beacon is a live artifact you did not clean up, a process still calling out under your control. Confirm the exit rather than assuming it.
+**Intermediaries** introduce additional variables. A proxy might rewrite a field, enforce a body-size limit, or reject a request under policy. Successful direct communication in a lab is insufficient proof of the same behavior through a different path.
 
-______
+## Inspect Harmless Local Requests
 
-## How EDR Sees You
+**Create a disposable directory** containing one synthetic text file. The following commands create it under your temporary directory and start Python's demonstration HTTP server bound to **`127.0.0.1`**. The **`--directory`** argument limits the served tree to the generated folder. [Read Python's HTTP-server command-line documentation](https://docs.python.org/3/library/http.server.html).
 
-An EDR agent, a mix of userland and kernel components, runs on every host and does two jobs:
+```bash
+lab_dir=$(mktemp -d)
+printf 'synthetic training response\n' > "$lab_dir/sample.txt"
+python3 -m http.server 8765 --bind 127.0.0.1 --directory "$lab_dir"
+```
 
-| Job | What it handles | Examples |
-|-----|-----------------|----------|
-| **Detect** | image loads, persistence, services, scheduled tasks, process execution, driver loading, memory forensics | a DLL loaded where no DLL belongs |
-| **Respond** | dump process memory, grab files, isolate a host | pulling evidence, cutting a box off |
+**Keep this terminal open** while making the requests below in a second terminal. The server is a local teaching aid, not a production service. If port 8765 is occupied, choose an unused port and update both commands consistently.
 
-The data lands in a SIEM for a standalone stack, or in a cloud MDR pipeline. A vendor's sharpest tools are:
+```bash
+curl --noproxy '*' --verbose \
+  --user-agent 'CourseLab/1.0' \
+  http://127.0.0.1:8765/sample.txt
 
-- **Real-time process tracing**, especially parent-child relationships and command-line arguments. Most detection logic rests on these two.
-- **Memory analysis**, live forensics applied across the estate.
-- **Anomaly detection**, frequency analysis and clustering which flag the odd one out.
-- **Threat feeds**, checking each binary against VirusTotal.
+curl --noproxy '*' --verbose \
+  --user-agent 'CourseLab/2.0' \
+  http://127.0.0.1:8765/sample.txt
+```
 
-The vendor fights scale. Millions of hosts emit enormous noise, and the job is separating signal from it. This is where the openings are.
+**`--noproxy '*'`** bypasses configured proxies for these requests. **`--verbose`** prints request and response details, while **`--user-agent`** sets the client-supplied header. The response body remains the same synthetic file in both cases. [Read the curl options reference](https://curl.se/docs/manpage.html).
 
-## Three Ways to Stay Unseen
+| Record | Expected comparison |
+|---|---|
+| **curl request details** | User-agent changes between requests |
+| **Response body** | Same synthetic content |
+| **Default server log** | Request line and status, without every request header |
 
-| Strategy | Idea | Techniques |
-|----------|------|-----------|
-| **Misdirect** | make the EDR record false information | spoof the command line, spoof the parent PID |
-| **Minimize** | spawn nothing to watch | remote execution, direct API calls |
-| **Obfuscate memory** | hide the implant's in-memory signs | process hollowing, module stomping, memory toggling |
+**Interpret the difference:** a header changed even if the default server log does not display it. Missing fields in a log reflect the record's coverage, not necessarily the absence of those fields on the wire. These are expected observations for the example, so compare them with your own run and explain any discrepancy.
 
-**Misdirect.** The command line lives in the process's userland memory, inside the PEB, so it is fair game. Spawn a legitimate process in a suspended state, overwrite its command line with the malicious one, then resume it. Windows records the clean arguments but executes the bad ones. The same idea hides the parent: pass an extended startup structure naming a benign parent, so a macro-spawned shell appears to come from Explorer instead of Word.
+**Finish the exercise** by pressing **Ctrl+C** in the server terminal. In the same shell, run **`printf '%s\n' "$lab_dir"`** to identify the generated folder and remove only the disposable folder when your notes are saved. This exercise measures HTTP representation and logging coverage, not Cobalt Strike behavior or an EDR result.
 
-**Minimize.** The simplest way to avoid a process-creation alert is to never create the process. Tunnel through the compromised host as a network ingress point and run tooling remotely, or call the Windows API directly the way a BOF does, so `reg.exe` and `whoami.exe` never fire.
+## Evaluate Detection Claims
 
-**Obfuscate memory.** Reflective DLL injection leaves an RWX blob and a suspicious thread. Process hollowing and module stomping replace a legitimate image or DLL with the payload, leaving no RWX region behind. Gargoyle toggles the payload between read-only and executable on a timer, so a memory scan finds nothing.
+**A fair comparison** defines one changed variable and keeps the remaining conditions stable. Record sensor configuration, rule version, clock reference, workload, and collection window. If several settings change together, attribute the result to the combined experiment instead of guessing which change caused it.
 
-## Blend Into the Gray Area
+**Endpoint detection and response (EDR)** combines product-specific sensors and analysis. Direct API use, fewer child processes, or a changed memory layout does not establish the absence of other observable activity. Microsoft's Sysmon documentation offers concrete examples of separate process, network, registry, and image-load observations. [Review the documented events](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon).
 
-Anomalous behavior is rare, so it is high-fidelity, easy to automate, and quick to flag. Staying in the rare column turns you into low hanging fruit. Pitch instead to the gray area, the noise every enterprise already has:
+**Reputation is separate from correctness.** Uploading an artifact to a scanning service is not a way to make it trusted. VirusTotal describes sharing submitted samples with its partners and community, so submission decisions require the artifact owner's data-handling policy. [Read how VirusTotal works](https://docs.virustotal.com/docs/how-it-works).
 
-- Legitimate tools doing odd things, like updaters injecting into other processes.
-- Admins using `psexec` or TeamViewer to reach their own servers.
-- Environment-specific scripts the analysts stopped chasing.
+| Claim | Evidence problem | Better conclusion |
+|---|---|---|
+| **“No alert means unseen”** | Collection and rule coverage unverified | No alert observed in the stated window |
+| **“Longer sleep is safer”** | Timing changed without measured detection | Lower request frequency in this run |
+| **“A renamed process is trusted”** | Name treated as provenance | Identity and behavior still require review |
+| **“The profile passed lint”** | Syntax treated as a security outcome | Specified validation checks passed |
 
-Match your tooling to what the organization already runs. Avoid living-off-the-land binaries (LOLBins) and encoded PowerShell, which no legitimate workflow uses. Pre-upload payloads to VirusTotal so they look boring and known, the way you categorize a domain before a campaign. Move to hosts where the EDR agent is missing, the blind spot every estate has.
+## Work a Comparison Case
 
-{{< youtube id="l8nkXCOYQC4" >}}
+**Illustrative scenario:** two synthetic request runs each complete successfully. Run A produces an alert and Run B does not. Before Run B, the operator changes the user-agent and the analyst disables the relevant network-event collection rule.
 
-Watch the full talk: [Red teaming in the EDR age](https://www.youtube.com/watch?v=l8nkXCOYQC4)
+**Evaluate the conclusion:** is the new user-agent responsible for the missing alert? Identify the confounding variable and write a justified next step. Keep the distinction between actual request behavior and available evidence explicit.
 
-{{< youtube id="7hP9HcaZtyA" >}}
+**Expected reasoning:** the comparison does not isolate the user-agent change. Collection changed as well, so the experiment cannot establish causation. Restore the agreed observation configuration, confirm it with a benign control, then repeat a bounded comparison with one changed variable.
 
-Watch the technique: [Unhooking APIs to bypass EDR](https://www.youtube.com/watch?v=7hP9HcaZtyA)
+```text
+Question:
+Fixed environment and software versions:
+Changed variable:
+Baseline and comparison workloads:
+Sensor health and collection configuration:
+Expected observation and alert criteria:
+Run IDs and timestamps:
+Raw evidence locations:
+Observed result and missing data:
+Supported conclusion:
+Follow-up or closure decision:
+```
 
-______
+**Your deliverable** is a comparison record another reader would repeat using synthetic traffic. Include one alternative explanation for the result and the check which would distinguish it. Keep operational configuration details separate from unsupported claims about universal evasion.
 
-## Pick the Quiet Path
+## Watch the C2 Lecture
 
-Your beacon keeps getting flagged on a client network. For each problem, name the fix and the strategy:
+The **Cobalt Strike Archive** lecture introduces the profile language and communication design. Use it to identify the distinctions between an indicator, a transport dependency, and a claimed security outcome. Compare its examples with the evidence requirements in your experiment record.
 
-1. A macro-spawned PowerShell shows a Word-to-PowerShell parent chain.
-2. Your `reg.exe` call fires a process-creation alert.
-3. A memory scan flags an RWX blob in your process.
+*This historical 2019 lecture predates current releases. The documentation linked above takes precedence for current settings and supported behavior.*
 
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
+{{< youtube id="Z8n9bIPAIao" enable="true" title="Red Team Ops with Cobalt Strike (3 of 9): C2" >}}
 
-## Why Traffic Shape Matters
+**Watch on YouTube:** [Red Team Ops with Cobalt Strike (3 of 9): C2](https://www.youtube.com/watch?v=Z8n9bIPAIao).
 
-Traffic shape matters because detection systems compare headers, timing, paths, and response sizes. Legacy profiles copied popular web services and became easy signatures, while random changes reduce repeatability but do not remove attribution. Compare two harmless profiles against a local web server and inspect the logs. **Do not impersonate a third party on the public internet.**
+## Check Your Understanding
 
-______
+1. **Configuration:** why does successful linting leave end-to-end behavior unproven?
+2. **Observation:** why should every visibility claim name its sensor location?
+3. **Experiment:** what invalidates the two-run comparison above?
+4. **Reporting:** how would you phrase an absent alert without claiming invisibility?
 
-## Common Mistakes
-
-- Running the default Cobalt Strike profile, which every signature already matches.
-- Expecting instant command response from a long-sleep beacon.
-- Leaving unneeded beacon tabs open and firing into the wrong session.
-- Assuming an exit killed the beacon without verifying.
-
-______
-
-## Self-Check
-
-1. What does a Malleable C2 profile change about your traffic?
-2. Contrast synchronous and asynchronous C2.
-3. What does a longer sleep time trade away?
-4. Why should you verify a beacon exit instead of assuming it?
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **How the traffic looks.** The profile changes GET and POST parameters and sleep so requests imitate a real application.
-2. **Synchronous holds a connection, asynchronous connects and disconnects.** The persistent link is what monitoring catches.
-3. **Responsiveness.** Commands wait for the next check-in.
-4. **A lingering beacon is a live unclaimed artifact.** Verify the process is gone instead of assuming the exit worked.
-
-**Exercise**
-
-1. **Spoof the parent PID, misdirect.** Name a benign parent so the chain breaks.
-2. **Call the API directly, minimize.** Use a BOF or plugin instead of `reg.exe`.
-3. **Process hollowing or module stomping, obfuscate memory.** Replace a legitimate image so no RWX blob remains.
-______
+| Question | Expected reasoning |
+|---|---|
+| **Configuration** | The real route and its intermediaries were not exercised |
+| **Observation** | Encryption, endpoint context, and log configuration change the available view |
+| **Experiment** | Both the traffic field and collection configuration changed |
+| **Reporting** | Name the rule, collection state, window, and absence observed |
 
 ## Next Steps
 
-Traffic hides, and the beacon is manageable. Next, the information gathering which happens before you ever touch the target: open-source intelligence.
-
-**[→ Module 8: Open-Source Intelligence](/red-team-course/open-source-intelligence/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+**Evidence quality** matters before any endpoint interaction as well. Continue to [Module 8: Open-Source Intelligence](/red-team-course/open-source-intelligence/) to evaluate public information, freshness, and corroboration. Return to the [Red Team Course hub](/red-team-course-start/) for the full sequence.

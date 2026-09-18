@@ -1,317 +1,279 @@
 ---
 title: "Module 8: Open-Source Intelligence"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Collect intelligence from public sources: Google dorks, Whois ownership, Shodan banners, SpiderFoot automation, DNS and certificate enumeration, people and code harvesting, plus the collection methodology and the OPSEC around it."
+description: "Evaluate public sources, RDAP, DNS, certificate logs, and scan data. Build a traceable OSINT brief with worked examples and source-quality checks."
 genre: ["Red Team", "Offensive Security", "OSINT"]
 tags: ["red team", "OSINT", "Google dorks", "Whois", "Shodan", "SpiderFoot", "theHarvester", "Maltego", "subdomain enumeration", "certificate transparency", "crt.sh", "GEOINT", "ADS-B", "AIS", "open source intelligence", "red team course"]
 cover: "/img/cover/open-source-intelligence-osint-collection-techniques.webp"
 coverAlt: "A modern workspace with multiple screens showing open-source intelligence data, including social media feeds and analytics, against a dark background. Abstract data flows connect the screens."
-coverCaption: "Module 8: read what the internet already knows before you touch the target."
+coverCaption: "Module 8: turn public observations into supported decisions."
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Open-source intelligence (OSINT) is collection from public sources, done so it never triggers an alert or a deconfliction.** You read what the internet already knows. Done right, it lets you walk into active reconnaissance already knowing the network.
+**Open-source intelligence (OSINT)** turns publicly available information into an answer to a defined question. Collection alone produces observations. Useful intelligence adds provenance, context, corroboration, uncertainty, and a decision the assessment team is authorized to make.
 
-*This module takes about 25 minutes. The goal is to enter active recon knowing the layout, not discovering it.*
+*Allow about 25 minutes, plus time to complete the evidence-ledger exercise. All organizations, observations, and assessment decisions in the worked case are fictional.*
 
-> **Why it matters:** Reading what is already public costs you no alerts. Every query you skip by using others' scan data is one less chance to burn the operation.
+## What You Will Learn
 
-______
+- **Distinguish** a source observation from an inference and a confirmed finding.
+- **Explain** the limits of registration, DNS, certificate, and scan-index data.
+- **Apply** search operators and normalize a synthetic list of names.
+- **Compare** evidence freshness and independent corroboration.
+- **Create** a research brief which supports a bounded next action.
 
-## Key Terms
+| Term | Meaning |
+|---|---|
+| **Provenance** | Where information originated and how you obtained it |
+| **Observation** | A specific item recorded from a source |
+| **Inference** | A conclusion drawn from one or more observations |
+| **Corroboration** | Additional evidence supporting or challenging a claim |
+| **RDAP** | Registration Data Access Protocol for structured registration queries |
+| **Certificate transparency** | Public logging system for certificates and precertificates |
+| **ASN** | Autonomous system number identifying a routing administration |
 
-| Term | Plain meaning |
-|------|---------------|
-| **Google dork** | a search operator narrowing results |
-| **Whois** | the registry lookup naming an IP's owner |
-| **Banner** | what a service answers when you connect |
-| **ASN** | the number naming a routing block |
-| **Subdomain** | a name beneath a domain, like `vpn.corp.local` |
-| **Certificate transparency** | a public log of every TLS certificate issued |
-| **Zone transfer** | a misconfigured DNS copy of every host in a domain |
-| **OSINF** | raw open-source data, before analysis |
-| **Sock puppet** | a managed research account |
-| **Managed attribution** | hiding your real identity while you collect |
-| **ADS-B and AIS** | aviation and maritime position broadcasts |
-| **GEOINT** | intelligence from geospatial and imagery data |
+## Start With a Question
 
-______
+**A research question** limits both collection and interpretation. “Which externally named services need ownership clarification before our approved scan?” produces a different collection plan from “Which public documents describe the organization's remote-work policy?” Write the question before opening tools.
 
-## What OSINT Buys You
+**A finding** needs a supported statement and its boundary. A search result mentioning a product does not prove the product is deployed now. A service banner naming a version does not establish the installed patch state or exploitability.
 
-OSINT is the first active-feeling phase, yet done right it touches nothing a defender flags. The material includes the customer's own website, externally facing devices, employee posts on social media and forums, leaked documents, and scan data other people already collected.
+**Decision relevance** keeps the work focused. If a source does not change the answer or the next authorized action, collecting more of it adds handling work without improving the result. Maintain a short list of unresolved questions instead of an unlimited list of names.
 
-Several services have already scanned the entire internet and stored the results. You query their data instead of scanning yourself, which keeps you quiet during the one phase where generating a deconfliction is exactly what you want to avoid.
+| Research question | Useful evidence | Premature conclusion |
+|---|---|---|
+| **Who manages a service?** | Current inventory plus registration context | Shared IP means shared ownership |
+| **Was a name publicly disclosed?** | Dated certificate or document record | The service is live today |
+| **Is a technology plausible?** | Recent technical publication | Every listed product is deployed |
 
-There is a split worth holding onto. Raw open-source information (OSINF) is the unanalyzed data. OSINT is what you get after the data goes through verification and analysis. Collection is only the first step. The intelligence product, cross-checked and turned into a finding, is what feeds an attack plan.
+## Map the Collection Path
 
-The mindset matters as much as the tooling. Assume something useful is exposed, and go find it. Good OSINT separates a failed operation from walking straight in.
+**Public availability** describes access to information, not the visibility of collecting it. Reading a search index, loading the original website, and requesting a fresh service banner contact different systems. Search providers, APIs, resolvers, and websites have their own records of activity.
 
-______
+**Passive relative to the target** is a useful description if you define it. Querying an existing third-party dataset often avoids a new connection from you to the target service. Opening a result, fetching a linked image, or enabling an active tool module changes the collection path.
 
-## Passive, Semi-Passive, and Active
+**Collection records** should therefore name the provider, account context where applicable, query, timestamp, and whether the tool initiates fresh target contact. An isolated browser profile separates work from personal sessions, but it does not guarantee anonymity or eliminate service-side logs.
 
-OSINT spans a spectrum of how much you touch, and staying quiet depends on staying at the left end of it.
+{{< figure src="osint-observation-to-decision.webp" alt="Four connected boxes move from a research question to source observations, corroboration, and a bounded decision with uncertainty recorded" caption="Public information becomes useful intelligence through supported interpretation" >}}
 
-| Method | What you touch | Example |
-|--------|----------------|---------|
-| **Passive** | nothing, read what others already collected | search engines, Whois, certificate logs |
-| **Semi-passive** | auxiliary services, not the target itself | DNS servers, third-party databases |
-| **Active** | the target directly | port scans, direct banner grabs |
+## Use Search Operators Deliberately
 
-Stay passive as long as possible. Each step toward active collection raises your visibility and edges you into the next phase. The line between semi-passive and active is where a deconfliction starts to become possible.
+**Search operators** narrow indexed results. Google documents quoted phrases, **`site:`**, **`filetype:`**, exclusions with **`-`**, and date filters such as **`after:`**. Operator support and interpretation differ between services, so check the search engine's documentation. [Read Google's search guidance](https://support.google.com/websearch/answer/2466433?hl=en).
 
-______
+**Practice query design** with the fictional examples below. The reserved example domain is a placeholder, so no matching results are expected. Replace it only with the domain selected for your authorized research task. [Read IANA's example-domain guidance](https://www.iana.org/help/example-domains).
 
-## OPSEC for the Collector
+```text
+site:example.com "remote access"
+site:example.com filetype:pdf "annual report"
+site:example.com "service status" -careers
+site:example.com "migration" after:2025-01-01
+```
 
-OSINT sounds safe, but your own query tips the target. Protect the investigation with the same care you put into the operation:
+**Explain each filter** before collecting results. The first limits the site and requests an exact phrase, the second adds a document type, the third excludes a word, and the fourth applies a date condition. A search-engine date filter is a retrieval aid, so verify the source's own dates before interpreting freshness.
 
-- Use an isolated virtual machine with a privacy browser.
-- Use a managed research account, a sock puppet, for social collection.
-- Obfuscate your browser fingerprint and block DNS leaks.
-- Never query from infrastructure tied to you or your employer.
+**An empty result set** is limited evidence. Indexing gaps, query wording, access restrictions, and removed pages affect the result. Record the query and its limits instead of concluding the organization has no remote-access service.
 
-Counterintelligence cuts both ways. Burn a research account or leak your IP, and the target learns someone is watching before a single packet reaches their network.
+| Source item | Preserve | Avoid assuming |
+|---|---|---|
+| **Search snippet** | Query, retrieval time, and destination | Snippet equals current page content |
+| **Public document** | Original file, date, and source URL | Metadata proves current employment |
+| **Job posting** | Publication context and named requirements | Every listed skill reflects production use |
 
-______
+## Read Registration Records Carefully
 
-## Google Hacking
+**Domain registration data** and **IP-number registration data** answer different questions. ICANN's January 2025 transition made RDAP the definitive delivery mechanism for generic top-level-domain registration information in place of sunsetted WHOIS requirements. This does not mean every country-code domain or number-registry service follows an identical transition. [Read ICANN's announcement](https://www.icann.org/en/announcements/details/icann-update-launching-rdap-sunsetting-whois-27-01-2025-en).
 
-Google is a search engine, but for an operator it is a targeted collection tool. A handful of operators narrow results from millions to the few pages you want:
+**Regional Internet Registries** provide number-resource information. ARIN's RDAP documentation covers queries for networks, autonomous systems, and related entities. A returned record describes registration relationships, not necessarily the current application operator using an address. [Read ARIN's RDAP guide](https://www.arin.net/resources/registry/whois/rdap/).
 
-| Operator | What it does | Example use |
-|----------|--------------|-------------|
-| `site:` | limits results to one domain | everything indexed under the target |
-| `inurl:` | matches text in the URL | find login, admin, or upload paths |
-| `filetype:` | matches a file extension | surface documents, not pages |
-| `intext:` | matches text in the page body | find pages mentioning a keyword |
-| `intitle:` | matches text in the page title | find portal and index titles |
+**Scope remains a separate record.** A cloud provider's allocation does not authorize testing every tenant within it. Conversely, a customer-operated service on provider address space is not automatically excluded if the agreed scope and applicable provider conditions explicitly include it.
 
-Stack them until the noise drops away. Point `site:` at the target and add `filetype:` to pull only documents, or add `inurl:` to find a specific kind of page. Most other search engines accept the same syntax, so the skill carries across services.
+| Record | Supports | Does not establish |
+|---|---|---|
+| **Domain RDAP** | Registration details exposed by the service | Current technical administrator in every case |
+| **Network RDAP** | Number-resource registration context | Application ownership or assessment permission |
+| **Approved asset register** | Named assessment targets and constraints | Current network state without verification |
 
-______
+## Interpret DNS Relationships
 
-## What to Hunt For
+**DNS names** are not a one-to-one inventory of machines. Multiple names resolve to one service, one name resolves to multiple addresses, and an alias refers to another name. Delegation also separates a parent zone from a child zone. [Read the DNS concepts specification](https://www.rfc-editor.org/rfc/rfc1034.html).
 
-Know what leaks detail, then search for it directly:
+**Record types** provide different evidence. Address records associate names with addresses, MX records identify mail exchangers, NS records describe authoritative servers, and TXT records carry text with application-specific meaning. A TXT value mentioning a provider is a lead about configuration, not proof every provider feature is active.
 
-- `.vsd` Visio files hand you the network diagram and its layout.
-- `.ppt` files reveal planned or newly deployed systems.
-- `.txt` and `.xls` files hold potential passwords and configuration data.
-- `.doc` and `.docx` files carry embedded metadata, authors, and software versions.
+**AXFR** transfers the contents of a DNS zone under the protocol's rules. It is not inherently a misconfiguration and does not return every host in an entire delegated domain tree. Whether a requester is permitted to receive a zone is an authorization and configuration question. [Read the AXFR specification](https://www.rfc-editor.org/rfc/rfc5936.html).
 
-Beyond documents, find the human trail:
+| Observation | Reasonable interpretation |
+|---|---|
+| **Two names, one address** | Shared resolution result, with service identity still unresolved |
+| **Alias to a provider name** | A DNS dependency worth validating with the asset owner |
+| **Child-zone delegation** | Separate authoritative data below the delegation point |
+| **No public answer** | No answer from this query context, not proof no internal service exists |
 
-- Forums where employees posted machine names, versions, or error messages.
-- Internet-exposed printers, cameras, and SCADA devices the owner forgot.
-- Job postings which name the technologies and systems in use.
+## Understand Certificate Transparency
 
-Any one of these names a host or reveals a credential before you send a single packet at the customer.
+**Certificate transparency (CT)** makes submitted certificates and precertificates auditable through public logs. It supports monitoring issuance in the public web PKI ecosystem. It is not a complete database of every certificate, private PKI, or service endpoint. [Read how CT works](https://certificate.transparency.dev/howctworks/).
 
-______
+**Certificate names** provide historical naming evidence. A certificate containing **`portal.example.com`** suggests the name mattered to its requester at issuance, but does not prove a service is currently reachable there. A wildcard such as **`*.example.com`** does not enumerate all individual names covered by its pattern.
 
-## Whois Lookups
+**Log duplicates** also need interpretation. One certificate submitted to several logs is not several independently observed servers. Preserve the certificate identity and source relationships when counting evidence.
 
-Before you target an IP, confirm who owns it. A Whois lookup tells you which organization a block belongs to, and the check protects the operation. Firing at an address owned by a third party is a scope mistake which burns a red team.
+| Certificate evidence | Supported statement | Unsupported leap |
+|---|---|---|
+| **Named entry** | A name appears in the recorded certificate | A live vulnerable server exists |
+| **Wildcard entry** | A wildcard name was included | Every possible subdomain is deployed |
+| **Expired certificate** | Historical issuance evidence exists | The associated service remains active |
 
-- `whois.icann.org`
-- `whois.arin.net`
-- `godaddy.com/whois`
+## Treat Scan Data as Historical
 
-ARIN is the regional registry for North American address space, and it is where you confirm ownership of a US customer's netblocks. Cross-check against the scope documents from mission preparation. If ownership does not clearly resolve to the customer, treat the address as out of scope until it does.
+**Shodan records** describe observations made by Shodan's collection systems. Their value comes from the captured service information and associated timestamps. A stored banner is not a new measurement from your current vantage point.
 
-______
+**Timeframes matter.** Shodan documents different historical windows across its services, with its principal search interfaces presenting recent banner observations within a defined rolling window. Read the record's collection timestamp and the interface's documented behavior before describing a result as current. [Read Shodan's data-timeframe documentation](https://help.shodan.io/mastery/data_timeline).
 
-## Shodan
+**Service identity needs corroboration.** An address might be reassigned, a reverse proxy might answer on behalf of several applications, or a banner might conceal the underlying version. A result is a lead for the approved validation plan, not automatic proof of ownership or vulnerability.
 
-**Shodan** crawls the open internet and indexes the services running on reachable devices. Where Google indexes page content, Shodan indexes what a machine says when you connect: the service banner. It captures banners across `80`, `8080`, `443`, and `8443`, plus FTP, SSH, Telnet, and RTSP.
+| Compare these times | Why they differ |
+|---|---|
+| **Observed at** | When the provider collected the source observation |
+| **Retrieved at** | When you obtained the record |
+| **Published at** | When a page or report became available |
+| **Valid for decision** | Your stated freshness requirement for the research question |
 
-The value is what organizations forgot to remove. Outdated devices sitting on the open internet show up in Shodan even when the owner stops thinking about them, including traffic-light controls and SCADA systems. Those poorly-defended, high-impact targets are what you want to find early. Shodan also offers an API, so it plugs into other red team tools rather than living only in a browser.
+## Choose Automation by Behavior
 
-> **Operator takeaway:** Shodan shows a target's front door without you knocking. Read the banners for outdated services and forgotten devices before planning active recon.
+**SpiderFoot** provides modules for gathering and correlating information from multiple sources. Module selection, API access, and collection behavior affect what a run does. Review the selected modules before assuming a tool labeled “OSINT” only reads existing third-party records. [Read the project documentation](https://github.com/smicallef/spiderfoot).
 
-______
+**Tool choice** follows the question. A graph helps review relationships, a document parser extracts metadata, and a search service locates indexed material. None of those operations independently verifies the meaning of the resulting relationship.
 
-## SpiderFoot
+**Rate and data limits** belong in the collection plan. Record provider limits, allowed input types, and the necessary output fields before automation. Avoid expanding from an approved domain investigation into unrelated personal profiles because a module offers more pivots.
 
-**SpiderFoot** automates OSINT, querying many services in one run to build a picture of a target:
+| Need | Appropriate tool behavior | Review requirement |
+|---|---|---|
+| **Find published material** | Search an index | Verify the original source |
+| **Correlate names** | Normalize and graph records | Preserve provenance and duplicates |
+| **Extract document metadata** | Parse a saved public file | Distinguish metadata from verified identity |
+| **Map exposure leads** | Read existing service observations | Check age, ownership, and scope |
 
-| Tool | What it is | Good for |
-|------|-----------|----------|
-| **Shodan** | internet-wide banner index | exposed and forgotten services |
-| **SpiderFoot** | automation across many sources | correlating IPs, domains, emails, and people |
+## Normalize Without Inventing Evidence
 
-Three things make SpiderFoot flexible:
+**Normalization** removes superficial differences while preserving the original observations. Lowercasing a DNS name and removing its final root dot helps compare names. Treat a certificate wildcard separately instead of converting it into an invented host.
 
-- **Modules.** You switch modules on or off, so you control what gets queried and how loud the collection is.
-- **API keys.** Add your own keys to reach paid sources through the same interface.
-- **Seed types.** It starts from an IP, domain, hostname, ASN, email address, phone number, or human name.
+**Run this local example** with Python 3. It performs no network requests and writes no files. The output separates exact names from a wildcard certificate pattern.
 
-It pulls from sources like Shodan, Whois, and Have I Been Pwned. Feed it a domain and it fans out. Feed it an email and it correlates back to accounts and breaches.
+```python
+observations = [
+    "Portal.Example.com.",
+    "portal.example.com",
+    "*.example.com",
+    "status.example.com",
+]
 
-The two tools work together. SpiderFoot casts wide, then you read the raw Shodan banners for the targets worth a closer look.
+names = set()
+wildcards = set()
+for original in observations:
+    normalized = original.lower().rstrip(".")
+    if normalized.startswith("*."):
+        wildcards.add(normalized)
+    else:
+        names.add(normalized)
 
-______
+print("Exact names:", ", ".join(sorted(names)))
+print("Wildcard patterns:", ", ".join(sorted(wildcards)))
+```
 
-## More Tools and the Framework
+**Expected output** contains two distinct exact names and one wildcard pattern. The duplicate portal spelling collapses into one name, but your evidence ledger should retain both original source rows. Deduplication for counting is different from deleting provenance.
 
-Beyond the core set, a few tools cover the gaps:
+```text
+Exact names: portal.example.com, status.example.com
+Wildcard patterns: *.example.com
+```
 
-| Tool | Purpose |
-|------|---------|
-| **Maltego** | graph relationships between people, domains, and entities |
-| **Metagoofil** | extract metadata from documents |
-| **BuiltWith** | profile a website's technology stack |
-| **Recon-ng** | a modular reconnaissance framework |
-| **Mitaka** | browser lookups for IPs, domains, and hashes |
-| **Epieos** | de-anonymize an email across services |
-| **PimEyes** | reverse image search for a face |
-| **`theHarvester`** | harvest emails and subdomains |
+## Work an Evidence Case
 
-For structure, `osintframework.com` lists methods and tools by category. Use it as a map when you do not know which tool fits the question you are asking.
+**Illustrative case:** an assessment permits research about the fictional Example organization. The active-scan list contains **`status.example.com`** only. You collect the following synthetic records while investigating whether a second portal needs ownership review.
 
-______
+| Record | Observation | Collection context |
+|---|---|---|
+| **A** | Certificate names portal.example.com | Issued 18 months before review |
+| **B** | Blog repeats the certificate name | Links directly to record A |
+| **C** | Archived banner identifies a portal | Provider observed it 24 days earlier |
+| **D** | Owner inventory lists a retired portal | Inventory updated this week |
 
-## DNS and Subdomain Enumeration
+**Analyze the evidence:** decide whether A and B independently corroborate the portal's current state. Identify the newest relevant record and the unresolved relationship between C and D. Then decide whether these records authorize scanning the portal.
 
-DNS is free, public data, and it expands the attack surface fast:
+**Expected reasoning:** B repeats A, so they share one underlying source. D is the newest inventory statement, while C reflects an earlier external observation. The apparent conflict might represent a retirement after collection, a stale inventory, or a mistaken service association.
 
-- Query the record types, A, MX, NS, and TXT, for the domain.
-- Enumerate subdomains with tools like `amass` or `sublist3r`, which pull from search engines, DNS, and certificate logs.
-- A misconfigured DNS server still holds a full zone, and an `AXFR` zone transfer copies every host at once.
+**The next action** is ownership clarification through the assessment's agreed contact. The evidence supports asking about an unresolved exposure lead, not adding the portal to the scan list. A useful brief names the exact conflict and requests the smallest confirmation needed.
 
-Every subdomain you find names another host, another login portal, another forgotten box. A domain with five registered hosts often has one hundred real attack surfaces.
+```text
+Claim ID: OSINT-PORTAL-01
+Question: Does the historical portal need approved exposure validation?
+Supported facts: Certificate name, dated banner, retirement inventory entry
+Shared sources: B derives from A
+Uncertainty: Current state and relationship between C and D
+Scope status: Not on the approved active-scan list
+Next action: Ask the asset owner to reconcile the records
+Evidence locations: A, B, C, D with source URLs and timestamps
+```
 
-______
+## Assess Source Quality
 
-## Certificate Transparency
+**Independent corroboration** depends on origin, not website count. Ten articles repeating one press release still share a source. Follow citations backward and retain both the originating item and the later interpretation when the distinction matters.
 
-Every TLS certificate issued for a domain is logged in the public certificate-transparency logs. `crt.sh` searches those logs, so you pull a list of subdomains straight from the certificates with no scanning at all. It fills in the hosts DNS enumeration missed, and it never touches the customer.
+**Visual evidence** also needs context. An image or video supports claims about what it depicts only after its origin, location, time, and relevant features are examined. Bellingcat's verification examples demonstrate checking an item's claimed context against other evidence. [Read its social-media verification guide](https://www.bellingcat.com/resources/2021/11/01/a-beginners-guide-to-social-media-verification/).
 
-______
+**Confidence** should explain reasoning rather than imply a calculated probability without a model. Use terms such as “supported historical observation,” “current owner confirmation,” and “unverified lead.” State what new evidence would change the conclusion.
 
-## Email and People Harvesting
+| Quality question | Useful check |
+|---|---|
+| **Origin** | Locate the earliest identifiable source |
+| **Freshness** | Compare collection time with the decision window |
+| **Independence** | Trace whether sources copy one another |
+| **Contradiction** | Record evidence challenging the preferred explanation |
+| **Relevance** | Connect the observation to the research question |
 
-People are the weakest link, so names and addresses feed the phishing phase:
+## Watch the Toolkit Introduction
 
-- `theHarvester` pulls emails and subdomains from search engines and public services.
-- LinkedIn and similar profiles map the org chart and job titles.
-- Breach data, via Have I Been Pwned, shows which accounts already leaked, a direct prompt for password reuse.
-- Reverse image search finds where a person's photo appears, connecting profiles across platforms.
+**Bellingcat's toolkit presentation** introduces resources for open-source investigation. Use it to choose a method for a defined question rather than collecting a long list of unrelated tools. For one demonstrated resource, write down its input, output, and verification limits.
 
-An employee email list plus one known leaked password is frequently the beginning of an initial-access campaign.
+{{< youtube id="-Y3GQ6mSGqM" enable="true" title="Presenting: The Bellingcat Online Open Source Investigations Toolkit" >}}
 
-______
+**Watch on YouTube:** [Presenting: The Bellingcat Online Open Source Investigations Toolkit](https://www.youtube.com/watch?v=-Y3GQ6mSGqM).
 
-## Code and Forums
+## Create Your Research Brief
 
-Source and support material leak credentials and internal names:
+**Build a one-page brief** from five synthetic observations. Include one duplicate source, one stale record, one conflicting record, and one item irrelevant to the research question. Explain which items affect the decision and which do not.
 
-- GitHub and GitLab code search find repositories and commits mentioning the target.
-- Paste sites and support forums carry error messages, machine names, and software versions employees posted.
+**Preserve a minimal evidence package** with source URLs, retrieval times, original records where appropriate, and the relevant excerpts. Avoid unnecessary personal information or secrets. If a public source appears to expose a credential, follow the agreed reporting process rather than treating availability as permission to use it.
 
-Search these for the target's name, domain, and product names. What an employee pasted into a forum in a hurry is often the exact detail which names a host or a secret.
+| Brief section | Required content |
+|---|---|
+| **Question and scope** | What the research should answer and permitted next actions |
+| **Evidence** | Observations with provenance and timestamps |
+| **Analysis** | Corroboration, contradictions, and source dependencies |
+| **Conclusion** | Supported answer and explicit uncertainty |
+| **Next action** | Owner, requested clarification, or approved validation |
 
-______
+**Evaluate your brief** by asking another reader to reconstruct the reasoning from the preserved evidence. They should distinguish what you observed, what you inferred, and what remains unresolved. A persuasive paragraph without traceable sources is not a finished intelligence product.
 
-## Geospatial Intelligence
+## Check Your Understanding
 
-Physical movement is public data too, and it matters when the objective involves a person or a site:
+1. **Collection:** does public availability guarantee an unobserved lookup?
+2. **Registration:** why is an IP allocation record insufficient to establish scan scope?
+3. **Certificates:** does a wildcard enumerate deployed hostnames?
+4. **Corroboration:** do two websites repeating one certificate entry count as independent evidence?
+5. **Freshness:** which timestamp describes when a scan provider observed a banner?
 
-- **ADS-B** transponders broadcast aircraft positions, so flight paths expose logistics and travel.
-- **AIS** transponders broadcast ship positions, revealing supply chains and ship-to-ship transfers.
-- Satellite imagery and public maps corroborate ground activity and infrastructure.
-
-GEOINT turns these feeds into answers about where things are and where they move, a different lens from the network-level picture the rest of the module builds.
-
-______
-
-## Limits and Risks
-
-OSINT has sharp limits, and a false finding is worse than no finding:
-
-- **Privacy.** Collection edges toward sensitive personal data.
-- **Misinformation.** A source is wrong, outdated, or planted.
-- **Legal.** Scraping and illicit data sit outside the lines.
-- **Bias.** You only read the sources you found, not the whole picture.
-
-Verify across independent sources, note what the evidence supports, and treat anything unverified as a lead, not a fact.
-
-______
-
-## Build Your Target List
-
-For a target domain, decide which tool answers each need:
-
-1. What does the company own, IP-wise?
-2. Which forgotten devices still face the internet?
-3. Which subdomains exist beyond the obvious few?
-4. Which emails and leaked accounts feed the phishing list?
-
-Answer from memory first. The explanations are in the Answer Key at the end.
-
-______
-
-## Why Collection Discipline Matters
-
-Public data reduces contact with the target, but collection still leaves search, API, and account records. Older OSINT practice treated screenshots as proof, while modern work records source, time, query, confidence, and corroboration. Passive collection and a fictional domain provide the same verification exercise without targeting a real person. **Stop at the boundary set by law and the engagement scope.**
-
-______
-
-## Common Mistakes
-
-- Skipping the Whois ownership check and scanning a third-party block.
-- Using search operators one at a time instead of stacking them.
-- Treating Shodan banners as optional before planning recon.
-- Ignoring subdomains and certificate logs, and missing most of the surface.
-- Querying from your real machine or a personal account, and tipping the target.
-- Firing at an address which ownership did not clearly resolve to the customer.
-
-______
-
-## Self-Check
-
-1. Name three Google operators and each use.
-2. Why check ownership through Whois before scanning?
-3. What does Shodan index which Google does not?
-4. How do SpiderFoot and Shodan complement each other?
-5. What does a certificate-transparency log reveal?
-6. Why does subdomain enumeration expand the attack surface?
-7. What separates passive from active collection, and why stay passive?
-8. What turns raw OSINF into actionable OSINT?
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **`site:` limits to a domain, `inurl:` matches URLs, `filetype:` matches extensions.** Each narrows results toward the pages you want.
-2. **Ownership protects scope.** A Whois check stops you firing at a third-party block.
-3. **Service banners.** Shodan indexes what a machine says when you connect, not page content.
-4. **SpiderFoot correlates across sources, then you read the right Shodan banners.** One casts wide, the other confirms detail.
-5. **Every subdomain which ever held a certificate.** The public logs list each TLS certificate, so the hosts surface with no scanning.
-6. **Each subdomain names another host.** Five registered hosts often become one hundred real attack surfaces.
-7. **Passive reads what others already collected, active touches the target.** Staying passive keeps you unseen.
-8. **Verification and analysis.** OSINF becomes OSINT when the raw data is cross-checked and turned into a finding.
-
-**Exercise**
-
-1. **Whois and ARIN** name the owner of the address space.
-2. **Shodan** lists the exposed, forgotten devices.
-3. **DNS enumeration and `crt.sh`** surface the subdomains.
-4. **`theHarvester` and breach data** build the phishing list.
-
-______
+| Question | Expected reasoning |
+|---|---|
+| **Collection** | Providers and contacted systems have their own observation paths |
+| **Registration** | Resource registration and assessment authorization are separate facts |
+| **Certificates** | A wildcard is a naming pattern, not a host list |
+| **Corroboration** | Shared origin limits independence |
+| **Freshness** | The observation timestamp, distinct from your retrieval time |
 
 ## Next Steps
 
-OSINT fills your target list quietly. Next, the moment you start touching infrastructure: active reconnaissance and scanning.
-
-**[→ Module 9: Active Reconnaissance and Scanning](/red-team-course/active-reconnaissance-and-scanning/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+**Active reconnaissance** tests approved questions against current services. Continue to [Module 9: Active Reconnaissance and Scanning](/red-team-course/active-reconnaissance-and-scanning/) with a bounded target list and unresolved questions. Return to the [Red Team Course hub](/red-team-course-start/) for the full sequence.

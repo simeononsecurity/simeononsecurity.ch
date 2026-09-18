@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#56c9be"/></marker></defs>
+<rect width="1600" height="1000" fill="#101c2e"/>
+<text x="80" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">Pass movement gates in order</text>
+<text x="80" y="148" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Name resolution, transport, authentication, authorization, execution, and collection.</text>
+<path d="M730 350 L836 350" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M1175 475 L1175 551" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M850 690 L744 690" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="80" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">1  OBJECTIVE</text>
+<text x="110" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Question and scope</text>
+<text x="110" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Owner and window</text>
+<text x="110" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Stopping condition</text>
+<rect x="850" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">2  OBSERVE</text>
+<text x="880" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Named source and action</text>
+<text x="880" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Timestamp and raw result</text>
+<text x="880" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Expected versus observed</text>
+<rect x="80" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">4  VERIFY</text>
+<text x="110" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Independent check</text>
+<text x="110" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Limit and alternate cause</text>
+<text x="110" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Retest condition</text>
+<rect x="850" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">3  DECIDE</text>
+<text x="880" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Impact boundary</text>
+<text x="880" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Remediation owner</text>
+<text x="880" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Evidence location</text>
+<rect x="80" y="885" width="1420" height="65" rx="12" fill="#263951"/>
+<text x="104" y="927" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#f2d295">Record the boundary, preserve the raw result, and state what remains untested</text>
+</svg>

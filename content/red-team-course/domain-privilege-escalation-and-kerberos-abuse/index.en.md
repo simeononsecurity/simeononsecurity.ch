@@ -1,179 +1,170 @@
 ---
 title: "Module 16: Domain Privilege Escalation and Kerberos Abuse"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Map who holds domain power, mine readable shares for credentials, then request and crack service tickets with Kerberoasting, plus RBCD, DNSAdmins, and DCShadow."
+description: "Analyze Kerberos service-ticket exposure, account privilege, encryption choices, and delegation evidence with a domain escalation review record."
 genre: ["Red Team", "Offensive Security", "Active Directory", "Kerberos"]
-tags: ["red team", "kerberoasting", "Kerberos", "SPN", "TGS", "hashcat", "domain admins", "RBCD", "DNSAdmins", "DCShadow", "red team course"]
+tags: ["red team", "kerberoasting", "Kerberos", "SPN", "TGS", "gMSA", "delegation", "red team course"]
 cover: "/img/cover/kerberoasting-domain-privilege-escalation-cyber-security.webp"
 coverAlt: "An illustration of a dark server room with a glowing network diagram. Nodes represent users and service accounts, with a highlighted path showing the flow of Kerberos ticket exchange."
-coverCaption: "Module 16: turn a normal user into domain privilege."
+coverCaption: "Module 16: separate ticket exposure from account authority"
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Kerberoasting is the quiet road from a normal domain user to a valuable service account.** Any authenticated user requests a service ticket, take it offline, and crack it. The loud part never touches the network.
+**Domain privilege escalation** combines identity, ticket, directory, and authorization evidence. Kerberoasting is one possible path. A service principal name (SPN) identifies a service account for Kerberos, but it does not grant administrative authority to the account.
 
-*This module takes about 18 minutes.*
+This module builds a **ticket and privilege review**. You will distinguish a ticket request from offline password analysis, compare service-account designs, and produce a defensible decision about the next approved test.
 
-> **Why it matters:** The KDC hands you a ticket encrypted with a password hash, and you crack it off the network. The whole attack stays quiet until the crack.
+*Allow 40–55 minutes. Difficulty: intermediate. Examples use synthetic account names and expected evidence.*
 
-______
+## Learning Outcomes
 
-## Key Terms
+- **Define** KDC, TGT, TGS, SPN, service account, and delegation.
+- **Explain** why ticket encryption and account privilege are separate questions.
+- **Inspect** ticket-cache and directory evidence in an approved lab.
+- **Compare** traditional service accounts with managed service accounts.
+- **Create** a domain escalation review with evidence and limits.
 
-| Term | Plain meaning |
-|------|---------------|
-| **KDC** | the trusted third party issuing tickets |
-| **TGS** | the service ticket you roast |
-| **SPN** | the name marking an account as roastable |
-| **Kerberoasting** | requesting and cracking a service ticket |
-| **RBCD** | resource-based constrained delegation |
-______
+## Before You Begin
 
-## Enumerate Who Holds Power
+Use the **domain lab and collection agreement** from [networking and Active Directory](/red-team-course/foundations-networking-and-active-directory/). Record the requesting principal, domain controller, account names, SPNs, encryption types, and the purpose of each service. Do not request tickets for customer accounts outside the approved scope.
 
-Before you roast anything, map the people and groups which matter:
+| Record | Why it matters |
+|---|---|
+| **Requesting identity** | Attributes the ticket request to a real principal |
+| **Service account** | Separates SPN ownership from authorization |
+| **Encryption type** | Determines which analysis paths are relevant |
+| **Group membership** | Establishes potential impact after authentication |
+| **Collection window** | Connects directory and controller evidence |
 
-| Goal | Native net.exe | BOF / plugin |
-|------|----------------|--------------|
-| List domain groups | `net group /domain` | `netGroupList` |
-| Group members | `net group "domain admins" /domain` | `netGroupListMembers "domain admins"` |
-| Local admins | `net localgroup administrators` | `netLocalGroupList` |
-| User detail | `net user <name> /domain` | `netuser <name> <domain>` |
-| Remote shares | `net view \<host> /all` | `netshares <host>` |
-| Connections | `net use` | `netuse_list` |
+## Map Kerberos Roles
 
-Chase nested groups. A user who is not directly in `Domain Admins` still inherits it through a chain of memberships, and the indirect path is often the cleanest route up.
+{{< figure src="kerberos-ticket-exposure-and-impact.webp" alt="A Kerberos flow separates ticket request, encryption evidence, account authority, and service authorization" caption="Ticket exposure and account impact require separate evidence" >}}
 
-______
+**Kerberos** uses a key distribution center (KDC) to issue tickets. A **ticket-granting ticket (TGT)** represents an authenticated session. A **ticket-granting service ticket (TGS)** authorizes access to a named service and is issued for an SPN.
 
-## Datamine First
+| Component | Role | Does it prove privilege? |
+|---|---|---|
+| **KDC** | Issues tickets for the domain | No |
+| **TGT** | Requests later service tickets | No |
+| **TGS** | Targets one service SPN | No |
+| **SPN** | Maps a service name to an account | No |
+| **Group membership** | Contributes to authorization | Sometimes, after policy evaluation |
 
-Read what you already have access to before any exploit:
+An SPN is a **directory mapping**, not an access-control decision. A service account might have no elevated groups, or it might run a critical application with delegated rights. Review both the account and the service it supports.
 
-- Documents, Downloads, Desktop, and Recent Documents on the user folders.
-- `C:\` setup scripts and `C:\Windows\Temp` log files.
-- File servers and home directory shares on `net user` output.
-- Password files named `pass.txt`, `password.txt`, or `key.txt`, and scripts with hardcoded credentials.
+## Separate Request and Crack
 
-Datamining is the quietest escalation there is. Exhaust it before you touch an exploit.
+**Kerberoasting** describes requesting service tickets for SPN-associated accounts and analyzing the ticket material offline. The KDC request is a network event. The password-guessing phase runs against a captured representation and does not contact the KDC for each guess.
 
-______
+An **offline result is uncertain**. Long random passwords, AES keys, account rotation, and managed service accounts change the feasibility of guessing. A failed guess does not prove the account is safe, while a recovered password still requires an authorization review before any use.
 
-## What Kerberos Is
+{{< youtube id="PhNspeJ0r-4" enable="true" title="Kerberos Deep Dive Part 2 - Kerberoasting" >}}
 
-Kerberos is the authentication protocol Active Directory uses. A handful of components exchange encrypted keys:
+**Compass Security's Kerberos presentation** supplements the ticket flow. Track which claims describe protocol behavior and which depend on an account's password, groups, or delegation settings. [Watch the presentation on YouTube](https://www.youtube.com/watch?v=PhNspeJ0r-4).
 
-| Piece | Role |
-|-------|------|
-| **KDC** | trusted third party on the domain controller |
-| **TGT** | ticket proving you authenticated, encrypted with the KDC key |
-| **TGS** | the ticket you Kerberoast, encrypted with the service account hash |
-| **SPN** | Service Principal Name which marks an account as roastable |
-| **NTLM hash** | the service account key, your crack target |
+## Review Encryption Evidence
 
-Kerberos never sends a password over the network. It sends encrypted tickets instead, so most attacks impersonate a component and get the KDC to hand over tickets rather than attacking the crypto.
+**RC4-HMAC** and **AES** are different Kerberos encryption choices. Hashcat mode 13100 is commonly associated with Kerberoastable RC4 ticket material. It is not a universal mode for every ticket representation or encryption type. Confirm the format and encryption field before selecting an analysis method.
 
-______
+Event 4769 records a **Kerberos service-ticket request** on a domain controller when auditing is enabled. Current Windows documentation includes fields for the requesting account, service name, ticket encryption type, client address, and status. The event shows a request, not a password crack or successful service use. [Microsoft's event 4769 reference](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4769).
 
-## Kerberoasting
+| Evidence | Supports | Does not support |
+|---|---|---|
+| **4769 success** | A TGS request reached the KDC | Password recovery |
+| **RC4 encryption field** | RC4-specific review path | Weak password by itself |
+| **Offline candidate** | A possible secret match | Authorization to use it |
+| **Privileged group member** | Potential high impact | Current session access |
 
-The weakness is step four of the flow. Any domain-authenticated user requests a TGS for any account with an SPN attached, and the KDC does not check whether you should have access to the service. It encrypts a ticket with the service account's NTLM hash and hands it over.
+## Compare Account Designs
 
-Then you crack it offline:
+**Traditional user service accounts** often keep long-lived secrets managed by a team. **Group Managed Service Accounts (gMSAs)** allow Windows to manage password retrieval and rotation for approved hosts. Neither design removes the need to review SPNs, delegation, groups, or service scope. [Microsoft's gMSA overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-managed-service-accounts/group-managed-service-accounts/group-managed-service-accounts-overview).
 
-```text
-hashcat -m 13100 ticket.hash wordlist.txt
+| Design | Secret management | Review focus |
+|---|---|---|
+| **Traditional account** | Team-managed password and rotation | Age, length, reuse, and owner |
+| **gMSA** | Directory-managed rotation | Allowed hosts and delegated use |
+| **Computer account** | Machine-managed secret | SPNs, delegation, and machine role |
+| **Disabled account** | Authentication disabled | Stale SPNs and ownership cleanup |
+
+**SPN ownership** also needs review. Duplicate SPNs, stale registrations, and undocumented services create confusing ticket evidence. Resolve the directory object and application owner before assigning impact.
+
+## Examine Delegation Carefully
+
+**Delegation** permits one service or computer to act toward another service under defined conditions. Unconstrained, constrained, and resource-based constrained delegation use different directory attributes and trust assumptions. A delegation flag alone does not identify which users or services are impersonated in the observed scenario.
+
+Use the **[MITRE ATT&CK Kerberoasting reference](https://attack.mitre.org/techniques/T1558/003/)** as a taxonomy aid, then validate the actual domain configuration. Record the relevant attribute, object owner, allowed principals, target service, and time of observation. Avoid treating a technique label as evidence of successful abuse.
+
+## Inspect a Lab Ticket Cache
+
+```powershell
+klist.exe
+klist.exe get cifs/fileserver.corp.example
 ```
 
-Service accounts are frequently over-privileged, so one cracked SPN hands you a large jump in access. The request and the crack happen off the domain controller, so the brute force never touches the target network.
+**`klist.exe`** displays and requests tickets for the current logon session. Use the second command only against the named lab service and within the approved window. Preserve the output without publishing ticket blobs or secrets. [Microsoft's klist reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/klist).
 
-{{< youtube id="nJSMJyRNvlM" >}}
+**Expected result:** The lab either shows a TGS for the requested SPN or returns an error because the service, DNS record, or policy is unavailable. Either result needs the requesting identity, target SPN, time, and controller evidence. This command was documentation-reviewed and not executed on the macOS authoring host.
 
-Watch the technique: [Kerberoasting walkthrough](https://www.youtube.com/watch?v=nJSMJyRNvlM)
+## Analyze a Synthetic Case
 
-______
+Assume **analyst.user** requests a TGS for `HTTP/reporting.corp.example`. Event 4769 records success with AES encryption. The service account is a gMSA allowed on two application hosts and has no privileged group membership. No offline candidate matches the captured lab fixture.
 
-## Beyond Kerberoasting
+The **defensible conclusion** is a successful service-ticket request for a managed account. The evidence does not show password recovery, domain privilege, or unauthorized service use. A follow-up should review the gMSA host scope and SPN ownership rather than escalate the severity solely because a ticket exists.
 
-Once you hold privileged tickets or admin rights, several follow-on abuses extend your reach:
+| Observation | Correct interpretation |
+|---|---|
+| **Ticket request** | KDC issued or attempted a TGS |
+| **AES type** | Encryption choice recorded in the event |
+| **gMSA owner** | Rotation and host policy apply |
+| **No password match** | Offline test did not recover the lab secret |
+| **No privileged group** | No group-based domain-admin claim |
 
-- **Resource-based constrained delegation (RBCD)** lets you configure a service to impersonate users on your behalf.
-- **DNSAdmins to SYSTEM** abuses DNS managers to load an attacker DLL into the DNS service.
-- **DCShadow** plants a rogue domain controller to write directly to Active Directory replication.
+## Choose the Next Test
 
-{{< youtube id="RUbADHcBLKg" >}}
-{{< youtube id="8KJebvmd1Fk" >}}
-{{< youtube id="KILnU4FhQbc" >}}
+A **bounded next test** should resolve one uncertainty. If the question is SPN ownership, query directory metadata. If it is ticket monitoring, correlate event 4769 with the requesting host. If it is service authorization, inspect the application's access control. Do not combine password analysis, delegation changes, and remote access in one unexplained action.
 
-- [Resource-based constrained delegation](https://www.youtube.com/watch?v=RUbADHcBLKg)
-- [DNSAdmins to SYSTEM](https://www.youtube.com/watch?v=8KJebvmd1Fk)
-- [DCShadow](https://www.youtube.com/watch?v=KILnU4FhQbc)
-- [Detecting DCShadow](https://www.youtube.com/watch?v=yWFUKwZaT_4)
+| Uncertainty | Smallest useful evidence |
+|---|---|
+| **Who owns the SPN?** | Directory object and owner record |
+| **Which encryption was used?** | Event 4769 encryption field |
+| **Account resource reachability** | Approved authorization test |
+| **Did a password guess succeed?** | Reproducible lab fixture result |
 
-> **Operator takeaway:** find a service account with an SPN, request its TGS as any domain user, extract the ticket, and crack it offline with `hashcat`. The domain controller willingly gives you the ticket, so the whole thing is quiet until you crack.
+## Create the Review Record
 
-______
+Produce a **ticket and privilege review** for the synthetic case. Include the request event, account design, group and delegation evidence, offline result, and one condition able to change your conclusion.
 
-## Roast a Service Account
+```text
+Requesting principal and host:
+Domain controller and event reference:
+Target SPN and owning object:
+Ticket type and encryption evidence:
+Account design, groups, and delegation:
+Offline analysis scope and result:
+Authorization impact established / untested:
+Next approved observation and stopping condition:
+Owner, timestamp, and retention location:
+```
 
-Walk a Kerberoast from a normal domain user to a cracked ticket:
+**Completion standard:** A reviewer sees which fact came from the KDC, directory, endpoint, or offline analysis. The record states what remains untested.
 
-1. What do you enumerate before roasting?
-2. Which ticket do you request, and from where?
-3. What do you do with the ticket offline?
-4. What raises your odds of a crack?
+## Self-Check and Answers
 
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
-
-## Why Kerberos Analysis Matters
-
-Kerberoasting works because a service ticket is encrypted with the service account secret, allowing offline password analysis. Older environments used short service passwords, while current defenses use long random secrets, managed service accounts, and ticket monitoring. A synthetic service account and a captured lab ticket show the control without exposing a real password. **Destroy test credentials after the exercise.**
-
-______
-
-## Common Mistakes
-
-- Roasting before enumerating groups, so you chase the wrong accounts.
-- Expecting a crack from a strong service password.
-- Skipping datamining and reaching for the loud option first.
-- Treating the SPN-tied account as the target instead of the over-privilege it reaches.
-
-______
-
-## Self-Check
-
-1. Which Kerberos step lets any domain user request a service ticket?
-2. Which component encrypts the roastable ticket?
-3. What does `hashcat -m 13100` do?
-4. Name two abuses beyond Kerberoasting.
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **Step four, the TGS exchange.** Any authenticated user requests a ticket for any SPN-tied account.
-2. **The service account's NTLM hash** encrypts the TGS, so it is the crack target.
-3. **It cracks the ticket offline.** Mode 13100 handles Kerberoast tickets.
-4. **RBCD, DNSAdmins to SYSTEM, DCShadow, and more** extend reach beyond the roast.
-
-**Exercise**
-
-1. **Groups and administrators**, with `netGroupListMembers` and local admin reads.
-2. **A TGS for an SPN-tied account**, requested as a normal domain user.
-3. **Crack it with `hashcat -m 13100`** offline.
-4. **A weak service password**, the only target worth roasting.
-______
+| Question | Expected reasoning |
+|---|---|
+| **Does an SPN grant admin rights?** | No, it maps a service name to an account |
+| **What does event 4769 show?** | A service-ticket request on the domain controller |
+| **Does RC4 prove a weak password?** | No, it identifies an encryption path for review |
+| **Does a recovered secret prove authorization?** | No, groups, ACLs, and policy still determine access |
+| **Why review gMSAs separately?** | Their managed rotation and host scope alter exposure |
+| **What makes a conclusion defensible?** | Source-specific evidence plus explicit untested conditions |
 
 ## Next Steps
 
-You hold domain credentials and the map of who is where. Next, use those to move across the domain and reach more hosts.
+Carry the **ticket and privilege review** into [Module 17: Lateral Movement and Expanding Access](/red-team-course/lateral-movement-and-expanding-access/). The next module uses it to test path prerequisites without assuming every credential reaches every host.
 
-**[→ Module 17: Lateral Movement and Expanding Access](/red-team-course/lateral-movement-and-expanding-access/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+Return to the **[Red Team Course](/red-team-course-start/)** for the complete sequence.

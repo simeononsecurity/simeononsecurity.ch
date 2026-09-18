@@ -1,188 +1,200 @@
 ---
 title: "Module 14: Privileged Persistence and Process Migration"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Install a Windows service which launches your implant as SYSTEM, migrate off rundll32, and keep the binpath valid by matching process architecture first."
+description: "Understand Windows service persistence, process lifetime, architecture, and migration tradeoffs through read-only inspection and a service lifecycle exercise."
 genre: ["Red Team", "Offensive Security", "Persistence"]
 tags: ["red team", "privileged persistence", "service", "sc.exe", "sc_create", "process migration", "sysnative", "inject", "red team course"]
 cover: "/img/cover/windows-service-architecture-privileged-persistence-process-migration.webp"
 coverAlt: "A digital illustration showing a Windows service architecture with vibrant colors, depicting a central service running in the background and pathways indicating process migration, all against a dark navy background."
-coverCaption: "Module 14: SYSTEM-level persistence which outlives the session."
+coverCaption: "Module 14: distinguish service configuration from process execution and durability"
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**Privileged persistence is a Windows service running as SYSTEM. A service starts at boot, before anyone logs in, and runs at the highest privilege on the box.** This is the persistence you want once you hold admin.
+**Privileged persistence** preserves an approved execution opportunity across a defined interruption. A Windows service is one possible mechanism. Its configured account, startup behavior, running process, and recovery dependencies need separate verification.
 
-*This module takes about 14 minutes.*
+This module teaches you to build a **service lifecycle record** and judge whether process migration serves a concrete requirement. A running callback proves connectivity at one moment. It does not establish boot durability, service health, or successful restoration.
 
-> **Why it matters:** A service survives boot as SYSTEM before anyone logs in. Matching architecture and restoring the binpath keep it alive and clean.
+*Allow 35–45 minutes. Difficulty: intermediate. The timeline exercise uses synthetic observations.*
 
-______
+## Learning Outcomes
 
-## Key Terms
+- **Distinguish** service configuration, service state, and process lifetime.
+- **Explain** account selection and filesystem redirection.
+- **Inspect** a prepared service without changing its configuration.
+- **Evaluate** migration against stability and evidence requirements.
+- **Create** a lifecycle record covering trigger, observation, and restoration.
 
-| Term | Plain meaning |
-|------|---------------|
-| **Service persistence** | an implant launched at boot as SYSTEM |
-| **Windows Service EXE** | the payload speaking the SCM protocol |
-| **`sysnative`** | the keyword cancelling 32-bit redirection |
-| **Process migration** | moving the beacon into a clean process |
-| **`sc_qc`** | the query returning a service's binpath |
-______
+## Before You Begin
 
-## Where It Fits
+Use the **prepared Windows lab VM** and service manifest from [local privilege escalation](/red-team-course/local-privilege-escalation/). You need the exact training service name, expected executable path, permitted inspection account, and the owner's expected start and stop behavior. An instructor-provided trace supports the paper exercise if no VM is available.
 
-Post exploitation breaks into five phases: user persistence, privilege escalation, privileged persistence, expanding access to the domain controller, and fortifying access. User persistence lived in a run key under the current user. Privileged persistence means a service. Other methods exist, but the service pattern is the one to learn first.
+The commands below are **read-only queries**. A separate service demonstration needs an approved benign service program, a bounded trigger, and a restoration plan. An arbitrary console executable is not a substitute for a program implementing the service interface.
 
-______
+| Prerequisite | Why it matters |
+|---|---|
+| **Service manifest** | Separates lab-owned objects from operating-system services |
+| **Baseline account** | Establishes the identity expected during execution |
+| **Lifecycle description** | Defines whether the service stays running or completes a task |
+| **Collection window** | Connects configuration and process evidence in time |
+| **Recovery owner** | Resolves failures before another experiment starts |
 
-## Match Architecture Before You Touch sc.exe
+## Separate Four States
 
-Your service launches a Cobalt Strike executable, which must match the target architecture. Confirm what your Beacon runs as:
+**Service configuration** specifies properties such as executable path, startup mode, and account. **Service state** describes its current relationship with the Service Control Manager, or SCM. **Process state** describes a particular executing instance. **Session state** describes the operator's connection or task transport.
 
-| Current process | Spawn path | Next step |
-|-----------------|------------|-----------|
-| **x64** | `C:\Windows\System32\` | install the service directly |
-| **x86 on 64-bit host** | `C:\Windows\Sysnative\` | migrate, then install |
+These states often change together, but they are **not interchangeable**. A service is configured even while stopped. A process might exit before an operator retrieves its result. A lost connection might leave a process running. Design observations around each state instead of using a callback as the single success signal.
 
-The reason is filesystem redirection. A 32-bit process asking for `System32` gets silently redirected to `SysWOW64`, so a beacon dropped there lands in the wrong folder and the service binpath points at nothing.
+| Layer | Example question |
+|---|---|
+| **Configuration** | What program and account should the service use? |
+| **Service state** | Does SCM report running, stopped, or a pending transition? |
+| **Process state** | Which process instance executed, and when did it exit? |
+| **Session state** | Did the expected result reach the operator? |
 
-______
+## Follow the Service Lifecycle
 
-## Process Migration Workflow
+{{< figure src="service-process-session-lifecycle.webp" alt="Four panels distinguish service configuration, an approved start event, process evidence, and verified restoration after a Windows service exercise" caption="A service result needs configuration, runtime, and restoration evidence" >}}
 
-When running as x86 on a 64-bit host:
+A **Windows service program** implements SCM interfaces for startup and control handling. Services use different accounts and startup arrangements, and some share a process. A service is not inherently LocalSystem, automatically started, or a guarantee of durable access. [Microsoft's service-program documentation](https://learn.microsoft.com/en-us/windows/win32/services/service-programs).
 
-```text
-execute C:\Windows\Sysnative\upnpcont.exe
-ps
-inject PID x64 <listener>
-kill <old-pid>
+Your **success condition** follows the exercise objective. A one-shot maintenance service might legitimately stop after completing work. A continuously running service stopping unexpectedly is a different outcome. Record the program's intended lifecycle before interpreting its state.
+
+> **Key takeaway:** A stopped service is a state to explain, not a universal success or failure signal.
+
+## Read the Service Baseline
+
+```powershell
+sc.exe qc CourseLabService
+sc.exe query CourseLabService
 ```
 
-`Sysnative` is not a real directory. It is a hint telling Windows not to redirect the call into `SysWOW64`. Use `ps` to find the fresh process PID, then `inject` a matching Beacon into it.
+**`sc.exe qc`** reads configuration, while **`sc.exe query`** reports service state and related status fields. Record both outputs with timestamps. An error or missing service belongs in the result, and a similarly named service is not an acceptable substitute. [Microsoft's configuration query](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc742055%28v%3Dws.11%29) and [state query](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query).
 
-______
+```powershell
+$service = Get-CimInstance -ClassName Win32_Service `
+    -Filter "Name = 'CourseLabService'"
+$service | Select-Object Name, State, StartMode, StartName, PathName, ProcessId
+```
 
-## Safe Processes to Spawn
+**`Win32_Service`** exposes the selected service's state, configured account, path, startup mode, and process ID. The filter narrows the query to the named lab object. A zero or unavailable process ID does not name a running service process. [Microsoft's Win32_Service class](https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-service).
 
-Migration is a tradeoff. Injecting into a live customer process blends in but drags a legitimate app down if Beacon hangs. Spawning your own disposable Windows process is the safer default:
+```powershell
+if ($null -ne $service -and $service.ProcessId -gt 0) {
+    Get-Process -Id $service.ProcessId -ErrorAction Stop |
+        Select-Object Id, ProcessName, StartTime, Path
+}
+```
 
-- `C:\Windows\System32\upnpcont.exe`
-- `C:\Windows\System32\rdpclip.exe`
-- `C:\Windows\System32\logagent.exe`
+**Process correlation** is time-sensitive. A service might stop between the two queries, a PID might be reused, or access to a property might be denied. Preserve those limitations instead of inventing missing values. This example reads process properties through [Get-Process](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.5).
 
-Use `System32` when your process is x64, and `Sysnative` when it is x86.
+**Expected result:** A prepared running service supplies a service record and, with sufficient query access, a matching process observation. These commands were checked against documentation, not executed on the macOS authoring host. Your VM supplies the actual runtime evidence.
 
-______
+## Resolve Architecture Questions
 
-## Create the Service
+**Filesystem redirection** affects some paths requested by 32-bit applications on 64-bit Windows. The **`Sysnative`** alias lets a 32-bit application address the native system directory. It is not a real directory or a universal path for every process. Microsoft also documents exceptions to redirection. [Windows filesystem redirector](https://learn.microsoft.com/en-us/windows/win32/winprog64/file-system-redirector).
 
-The Service Control tool `sc.exe` creates, queries, changes, and deletes services. It needs admin, which you already hold.
+Separate the **querying process**, the configured executable, and any library it loads. A 32-bit management process does not inherently require migration before inspecting or configuring a service. Verify the resolved path and the application's compatibility instead of treating a change of process as a mandatory ritual.
 
-| Action | Native sc.exe | BOF |
-|--------|---------------|-----|
-| Query state | `sc.exe query <name>` | `sc_query vss` |
-| Query config | `sc.exe qc <name>` | `sc_qc vss` |
-| Start | `sc.exe start <name>` | `sc_start vss` |
-| Stop | `sc.exe stop <name>` | `sc_stop vss` |
-| Delete | `sc.exe delete <name>` | `sc_delete <name>` |
-| Set description | `sc.exe description <name> "..."` | `sc_description <name> <desc>` |
-| Create | `sc.exe create <name> ...` | `sc_create <name> <display> <binpath> <desc> <errmode> <startmode>` |
+| Question | Evidence to collect |
+|---|---|
+| **Which OS architecture?** | Host inventory |
+| **Which process architecture?** | Process properties for the relevant instance |
+| **Which executable path?** | Service configuration and file identity |
+| **Which path was used?** | Runtime process or file-access evidence |
 
-Build the payload as the Cobalt Strike **Windows Service EXE**, not a plain executable. A normal EXE does not speak the Service Control Manager protocol, so Windows times out and marks the launch failed.
+## Evaluate Process Migration
 
-______
+**Process migration** places an agent's execution into a different process context, depending on the tool's implementation. It is distinct from changing a service's stored configuration. Moving execution does not automatically preserve every task, handle, impersonation state, or communication property.
 
-## The Stopped Service Is Success
+Windows checks **process access rights** for operations such as querying information, writing process memory, and creating threads. Permissions and process protections constrain the available operations. A familiar executable name does not remove those boundaries. [Microsoft's process security and access rights](https://learn.microsoft.com/en-us/windows/win32/procthread/process-security-and-access-rights).
 
-After you start the service it shows as stopped. This is expected. Windows starts the service EXE, which kicks off the Beacon, and once the Beacon runs the service stops itself while Beacon keeps running in its own process. A stopped service with a live callback is a success, not a failure.
+The right decision begins with the **operational requirement**. If a compatible approved process already satisfies the objective, another transition adds dependencies and cleanup work. If a lab investigates migration itself, define the expected before-and-after identity, architecture, task behavior, and failure result.
 
-Name and describe the service to blend in. Dozens of legitimate services already run, so one more with a credible description rarely stands out.
+| Consideration | Review question |
+|---|---|
+| **Lifetime** | What event ends the destination process? |
+| **Compatibility** | Does the implementation support the destination architecture? |
+| **Identity** | Which primary or impersonation context applies afterward? |
+| **Stability** | What legitimate function fails if the destination exits? |
+| **Evidence** | Which source proves the transition occurred? |
+| **Restoration** | Which processes and configuration changes remain afterward? |
 
-______
+**No universal safe process list** exists. A process's role, protection, workload, and lifetime matter more than its basename. Avoid inferring either guaranteed detection or guaranteed concealment from names such as **`rundll32.exe`**.
 
-## Migrate Off rundll32
+## Observe Process Evidence
 
-When the service launches, it runs `rundll32.exe` and injects Beacon into it, so `rundll32.exe` is the process calling out. Defenders signature it on sight, and a persistent callback tied to it is a liability. Migrate again with `inject`, this time into one of the safe process names above.
+{{< youtube id="6W6pXp6EojY" enable="true" title="Sysinternals: System Monitor deep dive (demo) | Sysmon, device, driver, Windows | Microsoft" >}}
 
-______
+**Microsoft's Sysmon demonstration** provides context for observing endpoint behavior. While watching, distinguish a recorded event from a detection rule and an analyst's conclusion. Collection configuration determines which event types are available. [Watch on YouTube](https://www.youtube.com/watch?v=6W6pXp6EojY).
 
-## Other Persistence Methods
+A **service installation event**, where the relevant auditing is enabled, records an installation rather than proving later service health or successful execution. Preserve service metadata and correlate it with the exercise timeline. [Microsoft's event 4697 reference](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4697).
 
-Services are the pattern to learn, but not the only lever. WMI event subscriptions and process-list persistence extend the same idea without a service start event:
+For your **collection plan**, request only the events needed to answer the exercise question. A full host capture introduces review volume and potential sensitive data. An absent event needs a collection-health check before it becomes a statement about the tested behavior.
 
-{{< youtube id="0SjMgnGwpq8" >}}
+## Analyze a Stopped Service
 
-Watch how each persistence path works:
+This **synthetic timeline** describes an instructor's one-shot service. The service manifest says it launches a benign worker and reports completion after dispatch. The worker writes a lab marker and exits independently.
 
-- [WMI event subscription persistence](https://www.youtube.com/watch?v=0SjMgnGwpq8)
-- [Trust provider hijacking](https://www.youtube.com/watch?v=wxmxxgL6Nz8)
-- [AddMonitor process persistence](https://www.youtube.com/watch?v=dq2Hv7J9fvk)
+| Time | Observation |
+|---|---|
+| **10:00:00** | Approved start request accepted |
+| **10:00:01** | Service process and worker creation recorded |
+| **10:00:02** | SCM reports the service stopped |
+| **10:00:03** | Worker writes the expected marker |
+| **10:00:05** | Worker exit recorded |
 
-> **Operator takeaway:** build the Windows Service EXE, create the service with a blended name, expect it to read stopped after Beacon starts, then migrate off `rundll32.exe` immediately. Learn the service method first, then extend to WMI and process-list variants when the situation calls for it.
+The **supported conclusion** is successful dispatch and worker completion for this specific fixture. The stopped state agrees with its documented design. A callback without the worker evidence would support a weaker conclusion, and the same timeline would violate a continuously running service's expected behavior.
 
-______
+**Durability remains untested.** The timeline contains no reboot, dependency outage, or later trigger. If boot survival is the actual requirement, define a separate approved test. Do not use one successful start to claim resilience across events the exercise never observed.
 
-## Persist as SYSTEM
+## Plan Restoration Early
 
-You hold admin and need SYSTEM persistence. Decide:
+A **lifecycle record** links each created object to its owner and original state. A newly created lab service and a modified pre-existing service require different restoration actions. Deleting a borrowed service would remove the customer's original configuration.
 
-1. What do you build the payload as, and why?
-2. Which command creates the service?
-3. After the beacon starts, why does the service read stopped?
-4. What do you do right after the callback arrives?
+Service removal also has **asynchronous consequences**. Microsoft's deletion API marks a service for deletion, and removal waits for relevant handles to close and the service to stop. A successful deletion request therefore needs a later verification. [DeleteService behavior](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-deleteservice).
 
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
+| Object | Restoration question |
+|---|---|
+| **Service registration** | Was it created for the lab or present beforehand? |
+| **Configuration** | Which exact fields changed from baseline? |
+| **Processes** | Which lab-owned instances are still running? |
+| **Files** | Which hashes and paths identify the lab's files? |
+| **Evidence** | Where are logs retained for the joint review? |
 
-## Why Privileged Persistence Is Risky
+## Create Your Lifecycle Record
 
-A service or migrated process gains durability through trusted operating-system behavior, which also gives defenders strong service, token, and process telemetry. Older service abuse ignored rollback, while current lab work records the original configuration before testing. A signed benign service and a documented process move demonstrate the evidence safely. **Restore the service and terminate the test process before leaving the VM.**
+Prepare a **service lifecycle record** for the synthetic timeline. Include one alternative explanation for a missing marker and one reason to avoid migration. Your review should establish the exercise outcome without assuming any unobserved startup behavior.
 
-______
+```text
+Service name and owner:
+Original account, startup mode, and path:
+Expected lifecycle and approved trigger:
+Service and process observations with timestamps:
+Identity and architecture evidence:
+Migration requirement or reason to omit it:
+Observed result and untested durability condition:
+Restoration action, owner, and verification:
+```
 
-## Common Mistakes
+**Expected reasoning:** The one-shot fixture succeeded within its stated lifecycle, but boot persistence was not tested. Migration supplies no benefit to this short benign task unless the exercise explicitly studies a process transition. A missing marker needs execution and collection checks before attributing failure to SCM.
 
-- Installing the service from a 32-bit process and pointing the binpath at `SysWOW64`.
-- Building the payload as a plain EXE instead of the Windows Service EXE.
-- Forgetting to restore the original binpath after borrowing a service.
-- Leaving the callback on `rundll32.exe` after the service starts.
+## Self-Check and Answers
 
-______
-
-## Self-Check
-
-1. Why migrate out of a 32-bit process before installing the service?
-2. Name two safe Windows processes to spawn for migration.
-3. Why does a stopped service with a live callback mean success?
-4. What does `sc_qc` show you?
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **Redirection sends `system32` writes to SysWOW64**, so the service binpath points at nothing.
-2. **`upnpcont.exe`, `rdpclip.exe`, or `logagent.exe`.** Safe, windowless hosts.
-3. **The service stops itself once the beacon runs.** A stopped service with a live callback is the expected state.
-4. **The binpath and the account.** `sc_qc` confirms what the service runs and as whom.
-
-**Exercise**
-
-1. **The Windows Service EXE**, a plain EXE fails the Service Control Manager handshake.
-2. **`sc_create`** with a display name, binpath, and description.
-3. **It starts the beacon then stops itself** while the beacon keeps running.
-4. **Migrate off `rundll32.exe`** into a safe process.
-______
+| Question | Expected reasoning |
+|---|---|
+| **Does every service run as SYSTEM?** | No, inspect the configured account and actual execution context |
+| **Does stopped always mean success?** | No, compare observed state with the program's intended lifecycle |
+| **Does x86 management require migration?** | No, investigate compatibility and path resolution directly |
+| **Is a process basename a safety guarantee?** | No, assess role, access rights, lifetime, and failure consequences |
+| **Does one start prove boot durability?** | No, the boot condition needs its own approved observation |
+| **Does deletion success finish cleanup?** | No, verify final registration, runtime state, and owned artifacts |
 
 ## Next Steps
 
-Your foothold now survives as SYSTEM. Later you remove the earlier user-level run key so it stops being extra evidence on the host.
+Bring the **lifecycle record** to [Module 15: Persistence Cleanup and Defense Evasion](/red-team-course/persistence-cleanup-and-defense-evasion/). Use it to restore the exact objects touched by the exercise and preserve the evidence needed for a joint review.
 
-**[→ Module 15: Persistence Cleanup and Defense Evasion](/red-team-course/persistence-cleanup-and-defense-evasion/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+Return to the **[Red Team Course](/red-team-course-start/)** for the complete sequence.

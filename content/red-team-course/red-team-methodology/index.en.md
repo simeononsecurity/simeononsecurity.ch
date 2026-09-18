@@ -1,231 +1,207 @@
 ---
 title: "Module 1: Red Team Methodology"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "The six-phase red team methodology: mission preparation, OSINT, active reconnaissance, target exploitation, post exploitation, and mission objective, with the tools and judgment behind each."
+description: "The seven-phase red team methodology: preparation, intelligence, reconnaissance, access, post exploitation, cleanup and backout, and reporting, with the judgment behind each."
 genre: ["Red Team", "Offensive Security", "Methodology"]
-tags: ["red team", "red team methodology", "mission preparation", "OSINT", "active reconnaissance", "target exploitation", "post exploitation", "mission objective", "adversary emulation", "red team course"]
+tags: ["red team", "red team methodology", "mission preparation", "OSINT", "active reconnaissance", "target exploitation", "post exploitation", "cleanup", "backout", "mission objective", "adversary emulation", "red team course"]
 cover: "/img/cover/red-team-methodology-six-phases-visualization.webp"
 coverAlt: "An illustration of a circular flowchart representing the six phases of Red Team methodology, featuring vibrant colors against a dark background. Abstract elements suggest data streams and network connections."
-coverCaption: "Module 1: the six phases every technique slots into."
+coverCaption: "Module 1: the seven phases every technique slots into."
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**The six phases are the map for the whole course. Every technique you learn later slots into one of these phases, and operators revisit all of them throughout an operation.**
+**Red team methodology** connects an agreed business question to a controlled test and evidence the customer is able to use. This course uses six phases to organize the work, with feedback between phases as observations change the plan. Your outcome is an evidence-backed conclusion, an explained limit, and a verified restoration record.
 
-*This module takes about 15 minutes. Memorize the phases, then expect to loop.*
+*Allow 25 minutes for reading and 30 minutes for the tabletop exercise. No attack tooling is required for this module.*
 
-______
+## Learning Outcomes
+
+- **Recall the phases:** place a technique within a larger operation.
+- **Explain the objective:** distinguish access, business impact, and assessment evidence.
+- **Apply a planning method:** connect an approved action to a specific observation.
+- **Evaluate a result:** distinguish prevention, missing telemetry, and insufficient evidence.
+- **Create a test plan:** define entry conditions, stopping points, cleanup, and acceptance criteria.
 
 ## The Six Phases
 
-1. Mission Preparation
-2. Open-Source Intelligence (OSINT)
-3. Active Reconnaissance
-4. Target Exploitation
-5. Post Exploitation
-6. Mission Objective
+**The seven-phase model** is this course's organizing convention. It is not the MITRE ATT&CK matrix, an official maturity score, or a guarantee of one correct sequence. An operation often returns to reconnaissance after a new observation, and some tests finish without persistence or a domain-controller objective.
 
-| Phase | What you do |
-|-------|-------------|
-| **Mission Preparation** | sign rules of engagement, stand up the platform and redirectors, confirm scope |
-| **OSINT** | collect from public sources, generate no alerts |
-| **Active Reconnaissance** | fingerprint, scan, enumerate, build the attack plan |
-| **Target Exploitation** | run the plan with the simplest workable route |
-| **Post Exploitation** | hold access, escalate, expand, fortify |
-| **Mission Objective** | reach the point the operation existed to deliver |
+| Phase | Main question | Deliverable |
+|---|---|---|
+| **Mission preparation** | What is authorized and ready? | Scope, test conditions, contacts, and infrastructure inventory |
+| **Open-source intelligence** | What does public information support? | Attributed observations with confidence and collection dates |
+| **Active reconnaissance** | What does interaction with the approved environment reveal? | A bounded target and dependency map |
+| **Target exploitation** | Does the selected route produce the intended test condition? | Reproducible evidence of success, prevention, or a limit |
+| **Post exploitation** | Which approved objective follows from the obtained context? | An access path and its observed effects |
+| **Cleanup and backout** | What must be removed or restored? | Artifact ledger, backout actions, and baseline verification |
+| **Mission objective and reporting** | What did the assessment prove? | Findings, restoration evidence, and remediation priorities |
 
-*Do not treat the phases as a one-way street. New access restarts recon, and recon feeds a new plan.*
+**Cleanup, backout, and reporting begin during preparation.** They are not tasks postponed until the final day. An operation lacking an artifact register, original-state record, or timestamps is difficult to explain even when the technical action succeeds.
 
-> **Why it matters:** Methodology is the order of operations. Without it you chase findings with no plan, and access without an objective is noise.
+## Objectives Before Techniques
 
-______
+A **mission objective** states the question the assessment is intended to answer. “Obtain administrator access” is incomplete unless it explains which business or control outcome the access tests. A customer might instead need evidence about segregation between application roles or the ability to recognize one defined behavior.
 
-## Key Terms
+**Illustrative objective:** Determine whether a synthetic finance user is permitted to read a restricted sample report outside their role. The sample report contains no real financial data. Success means the test establishes an access-control result and collects enough evidence to reproduce the conclusion.
 
-Every phase leans on a small vocabulary. Lock these in first:
+| Weak objective | More useful formulation |
+|---|---|
+| **Get a shell** | Determine whether the approved entry route reaches the designated lab execution context |
+| **Become domain admin** | Evaluate the named privilege boundary supporting the agreed business scenario |
+| **Avoid detection** | Measure which approved behaviors produce telemetry, alerts, and analyst action |
+| **Exfiltrate data** | Demonstrate the approved data path using a designated synthetic marker and transfer limit |
 
-| Term | Plain meaning |
-|------|---------------|
-| **Rules of engagement (ROE)** | the signed document granting authority to operate and listing boundaries |
-| **Scope / out-of-scope** | the targets you are allowed to touch, and the targets you must never touch |
-| **Deconfliction** | the customer asking whether activity was you, and the fast honest answer |
-| **Redirector** | a disposable outside host which hides your true origin |
-| **Attack plan** | the prioritized list of targets and routes built by active recon |
-| **Low hanging fruit** | the simplest workable vulnerability, the one you exploit first |
-| **Foothold** | your initial access on a host, before persistence |
-| **Domain controller (DC)** | the server holding the domain's hashes, the post-exploitation target |
+**An objective also defines when to stop.** If a sample-file read answers the question, copying an entire share adds data exposure without improving the finding. The test plan should identify the minimum proof before an operator reaches the resource.
 
-______
+## Use ATT&CK Precisely
 
-## Mission Preparation
+**MITRE ATT&CK** provides a vocabulary for adversary behavior. A tactic describes an adversary goal, while a technique describes behavior supporting a goal. Map a specific observation to a technique when the evidence supports it, then retain the actual procedure and environment details alongside the mapping. [MITRE guidance on adversary emulation and red teaming](https://attack.mitre.org/resources/get-started/adversary-emulation-and-red-teaming/)
 
-Before you touch anything, the paperwork and the platform are ready. Sign the **rules of engagement**. Stand up the attack platform and redirectors. Confirm the in-scope and out-of-scope lists. Most shops carry their own pre-operational checklist, so finish the organizational items to the customer's standard.
+**A technique identifier is not a test result.** Listing an identifier does not establish whether an action executed, whether a sensor recorded it, or whether an analyst understood it. Different implementations of a related behavior also exercise different prerequisites and telemetry.
 
-This phase is unglamorous and decides whether the operation happens at all. Getting it wrong means you either cannot operate, or you operate somewhere you were never authorized to be.
+{{< figure src="objective-evidence-review-loop.webp" alt="Diagram linking an assessment objective to an approved test, collected evidence, and a review decision" caption="Every test needs a question, a bounded action, and evidence supporting its conclusion" >}}
 
-______
+## Preparation and Scope
 
-## Open-Source Intelligence
+**Mission preparation** establishes the assets, actions, identities, and time windows included in the exercise. It also records exclusions, data-handling rules, operational contacts, and the restoration process. NIST's assessment guidance provides a planning reference for these decisions. [NIST SP 800-115](https://csrc.nist.gov/pubs/sp/800/115/final)
 
-**OSINT** collects from public sources. Its defining trait: it never triggers an alert or a deconfliction. You read what is already public, not the customer's infrastructure.
+**Deconfliction** is the process for comparing suspicious activity with the team's authorized actions. A matching source address alone is weak evidence. Use timestamps, action identifiers, hosts, accounts, and operator records to distinguish the exercise from an unrelated incident.
 
-- Google dork searches enumerate the target.
-- Social profiles on LinkedIn and similar platforms map the people.
-- IP lookups through **ARIN** tie public addresses to owners.
+| Planning item | Example decision |
+|---|---|
+| **Target boundary** | Only the named lab application and two test accounts |
+| **Permitted action** | Attempt a read of the designated synthetic report |
+| **Stop condition** | An unrelated production record appears |
+| **Contact** | Named exercise controller and a tested backup channel |
+| **Restoration** | Remove test grants and verify the baseline role assignments |
 
-Be nosey and creative here. Good OSINT is often the difference between failing and getting in.
+**Scope changes require a recorded decision.** A newly reachable system or interesting credential is an observation, not an extension of the approved target list. Bring the observation to the exercise controller before treating it as another test step.
 
-______
+## OSINT and Active Reconnaissance
 
-## Active Reconnaissance
+**Open-source intelligence (OSINT)** uses publicly available information. Its collection method determines whether it touches customer-controlled infrastructure. Reading an archived page differs from browsing the customer's live site, and public content still produces access logs when requested directly.
 
-Now you touch customer infrastructure, so your activity gets flagged and often triggers a deconfliction. You fingerprint the network, scan with `Nmap`, and enumerate web applications for weaknesses: **LFI/RFI**, file uploads, **SQL injection**, and **remote code execution (RCE)**.
+**Active reconnaissance** deliberately interacts with a target to answer a specific question. The important distinction is the collection path and the resulting evidence, not an absolute claim about generating zero alerts. Document both third-party sources and direct interactions.
 
-The output is an attack plan. Log every step, because everything here lands on the target.
+| Collection | Likely observation point | Limitation |
+|---|---|---|
+| **Third-party archive** | Archive provider | Historical content might be stale |
+| **Public registration record** | Registry or lookup provider | Ownership does not establish test authorization |
+| **Live customer webpage** | Customer web or proxy logs | Public access is still direct interaction |
+| **Approved service probe** | Target network and service logs | A response establishes only the tested condition |
 
-______
+**Reconnaissance produces hypotheses.** A banner suggesting an older product version is a lead to validate, not proof of an exploitable vulnerability. A missing response likewise does not prove a host is absent.
 
-## Target Exploitation
+## Exploitation and Post Exploitation
 
-You run the plan: attempt what active recon turned up (LFI/RFI, web shell uploads, RCE, SQL injection) and send phishing to the addresses OSINT surfaced.
+**Target exploitation** tests a selected route within the agreed conditions. Select the route because it answers the objective and fits the risk constraints. There is no requirement to demonstrate every possible weakness or to persist after every successful entry.
 
-**Low hanging fruit** matters. A red team is paid to take the simplest workable vulnerability and show its impact, not to find every bug. Find the easy way in, prove it matters, move on.
+**Post exploitation** evaluates the context obtained after access. Identity, privilege, reachable resources, and dependencies determine which approved next step is meaningful. Extra persistence or lateral movement adds work and artifacts, so it needs a reason tied to the scenario.
 
-______
+| Result | Useful next decision |
+|---|---|
+| **Route prevented** | Preserve prevention evidence and determine whether another route is part of scope |
+| **Low-privilege access obtained** | Record the context and test the permitted objective |
+| **Objective already satisfied** | Stop expansion and validate evidence and restoration |
+| **Unexpected sensitive access** | Pause and use the agreed deconfliction channel |
 
-## Post Exploitation
+**A domain controller is one possible dependency**, not the destination of every operation. The assessment might finish at a file-server permission boundary or a cloud application's role check. Explain the business significance of the result instead of treating domain control as a universal score.
 
-The largest phase, broken into five parts:
+## Supplemental Video
 
-- **User persistence** holds access across reboots.
-- **Privilege escalation** moves from a normal user to privileged.
-- **Privileged persistence** survives at the higher level.
-- **Expanding access** reaches the domain controller.
-- **Fortifying access** makes removal genuinely hard.
+{{< youtube id="tvQbh0bawEM" enable="true" title="Adversary Emulation: Generating MITRE ATT&CK Technique Sequences" >}}
 
-The through-line never changes: the domain controller holds the hashes, so post exploitation keeps pushing toward it.
+**Watch:** [Adversary Emulation: Generating MITRE ATT&CK Technique Sequences](https://www.youtube.com/watch?v=tvQbh0bawEM), presented by Martin Eian and published by FIRST. The presentation examines dependencies between techniques when assembling an emulation sequence. Use it to assess why a list of behaviors needs an execution plan.
 
-______
+**Viewing task:** Pick two behaviors from a fictional scenario and write the prerequisite connecting them. Then identify one condition under which the second behavior would be irrelevant. Compare the dependency with the objective instead of assuming a longer sequence is a better test.
 
-## Mission Objective
+## Evidence Has Several Stages
 
-The point of the operation. Objectives fall into three kinds:
+**Execution, collection, alerting, and response** are different outcomes. A successful test action might produce an event without generating an alert. An alert might exist without reaching an analyst inside the evaluation window. Report each observed stage separately.
 
-- **Network effects**, like taking down an external server to test failover.
-- **Specific information**, like changing one record on a workstation.
-- **Demonstrated impact**, like reaching a Linux server storing customer data.
+| Stage | Evidence needed |
+|---|---|
+| **Action executed** | Operator record and observed target-side result |
+| **Telemetry collected** | Relevant event present at the expected sensor or collector |
+| **Detection generated** | Alert tied to the test's entity and time |
+| **Analyst response** | Case activity showing interpretation and an action |
+| **Restoration verified** | Comparison against the agreed baseline |
 
-Access with no objective is noise. The objective turns a foothold into a finding the customer acts on.
+**An empty search is not a detection verdict.** The event might be missing because logging was disabled, collection failed, timestamps differ, or the search selected the wrong host. Resolve these possibilities before classifying a control gap.
 
-> **Operator takeaway:** memorize the six phases as your default order of operations, but expect to loop. New access restarts recon, and recon feeds a new attack plan.
+**Illustrative reasoning:** A file-access exercise succeeds at 10:05 UTC. The operator has a screenshot, but the analyst searches local time and finds no event. The first follow-up is time and collection correlation, not a claim of undetected access.
 
-______
+## Cleanup and Backout
 
-## What Each Phase Looks Like
+**Cleanup** removes artifacts owned by the exercise. **Backout** returns modified systems to the agreed baseline. The two actions overlap, but they are not identical. A newly created test value might be removed, while a pre-existing permission change needs its recorded original value restored.
 
-| Phase | Example activity | Example tool |
-|-------|------------------|--------------|
-| **OSINT** | dork the domain, check ownership | Google operators, Whois, ARIN, Shodan, SpiderFoot |
-| **Active Recon** | scan and fingerprint | `Nmap`, DNS tools, web proxies |
-| **Exploitation** | phish, upload a web shell, or RCE | GoPhish, Cobalt Strike listener |
-| **Post Exploitation** | persist, escalate, expand, fortify | `reg_set`, `sc_create`, `netGroupListMembers`, `hashcat` |
-| **Objective** | locate the target, reach it, record impact | `ldapsearch`, `eventlog_query`, `portfwd` |
+**Plan the backout before the first state change.** Record the owner, original value, affected process, trigger, evidence location, and verification step. Preserve customer logs and assessment evidence according to the engagement agreement. Backout does not mean erasing the record of what happened.
 
-______
+| Backout item | Required evidence |
+|---|---|
+| **Created artifact** | Ownership record, removal result, and absence check |
+| **Modified setting** | Original value, narrow restoration, and comparison |
+| **Running process** | Process owner, stop action, and later state |
+| **Service or task** | Configuration baseline, state, and trigger retest |
+| **Customer evidence** | Retention decision and report reference |
 
-## Quiet vs Loud
+**Backout completion is a finding**, not an assumption. Mark each item verified, unresolved, or retained by agreement. If another administrator changed the same object, pause the reversal and use the named owner to resolve the conflict.
 
-| Phase | Touch the target? | Noise level |
-|-------|-------------------|-------------|
-| **OSINT** | no | none |
-| **Active Recon** | yes | low, but logged |
-| **Target Exploitation** | yes | moderate, deliberate |
-| **Post Exploitation** | yes | depends on the technique |
+**Exercise:** Add a cleanup and backout section to the synthetic finance-report test card. List one created artifact, one modified setting, one running process, and the evidence proving each final state. State the condition preventing backout from proceeding safely.
 
-The curve is deliberate. You start silent and add noise only as each phase earns it, because once a defender notices, they are chasing you for the rest of the operation.
+**Expected reasoning:** The artifact register determines ownership. The original-state record determines restoration. A process check determines whether the removed trigger left an existing instance running. A conflict with a later administrator change requires owner review rather than an automatic overwrite.
 
-______
+## Design One Bounded Test
 
-## When to Loop
+Use this **test-card template** before a tabletop or lab exercise:
 
-The phases are a cycle, not a line. Loop back when:
+```text
+Business question:
+Approved assets and identities:
+Required starting context:
+Behavior and ATT&CK mapping, if justified:
+Permitted action and maximum scope:
+Expected operator-side evidence:
+Expected defender-side observation:
+Stop conditions and controller contact:
+Restoration steps and verification:
+Observed result, limitations, and next decision:
+```
 
-- New access lands, and you restart recon from the new host's view.
-- A route dies, and recon feeds a fresh attack plan.
-- The objective shifts, and you re-aim the whole chain.
+**Micro emulation plans** provide examples of narrowly scoped tests organized around specific behaviors. Their value is repeatability and an explicit relationship between action and observation. Adapt the idea to the customer question rather than treating a public plan as approval to run it. [MITRE Center for Threat-Informed Defense project](https://ctid.mitre.org/projects/micro-emulation-plans/)
 
-*Expect to loop. An operation which never loops stayed above the surface, and never found the thing worth finding.*
+**Exercise:** Create a card for the synthetic finance-report scenario. Include an authorized reader and a restricted reader, the exact sample resource, a collection window, and the restoration check. Record what would establish a permission problem and what would leave the result inconclusive.
 
-______
+## Evaluate Your Test Card
 
-## Plan Your Own Operation
+**Expected reasoning:** The authorized reader establishes a baseline for the resource's availability. The restricted reader tests the intended access boundary. A successful unauthorized read supports the access-control finding, while a timeout requires investigation before it supports any permission conclusion.
 
-Draft a phase-mapped plan for a sample target, a mid-size company with a public website and employee email. For each phase, write one concrete action and the tool you would use.
+**Improve the plan** by adding one controlled variation. For example, repeat the same read after correcting the sample folder permission. Keep the identities, resource, and collection method stable so the comparison answers a clear question.
 
-1. Mission Preparation: what is signed, and what do you stand up?
-2. OSINT: what three sources do you check first?
-3. Active Recon: which hosts and ports do you scan?
-4. Target Exploitation: what is your simplest route in?
-5. Post Exploitation: what is your first persistence move?
-6. Mission Objective: what would you deliver as proof of impact?
-
-A complete plan names a concrete action per phase, picks the quietest route available, and states the objective before the foothold. If any phase is blank, the operation stalls there.
-
-______
-
-## Why the Method Matters
-
-A red team method turns observations into a controlled sequence. The older checklist style treated access as the finish line, while a modern engagement ties each action to an objective and a stopping rule. Scope records, operator notes, and cleanup evidence let defenders reproduce the path without guessing. **Use a tabletop or range exercise when an action has no approved objective.**
-
-______
-
-## Common Mistakes
-
-- Treating the six phases as a one-way checklist instead of a loop.
-- Skipping OSINT and touching the target early, burning the quiet phase.
-- Chasing every finding in exploitation instead of the simplest workable one.
-- Failing to log active recon, so a deconfliction has no trail.
-
-______
+| Review question | A useful answer contains |
+|---|---|
+| **What is being tested?** | A named business or control boundary |
+| **What changes?** | One explicit action or configuration difference |
+| **What proves the result?** | Evidence from the relevant layer |
+| **What ends the test?** | A success condition, limit, or stop rule |
+| **What remains afterward?** | An artifact inventory and verified baseline |
 
 ## Self-Check
 
-1. Name the six phases in order.
-2. Which phase must generate no alerts, and why?
-3. Name the five parts of post exploitation.
-4. Name the three kinds of mission objective.
-5. Why is the objective decided before the foothold?
+1. **Seven phases:** Which phases repeat after new evidence appears?
+2. **OSINT:** Why does publicly available information not imply zero interaction?
+3. **ATT&CK:** What does a technique identifier leave unspecified?
+4. **Post exploitation:** When is additional persistence unnecessary?
+5. **Negative result:** What must you examine before calling an action undetected?
 
-______
+**Answer key:** Reconnaissance and planning repeat as the situation changes. Public resources still have collection paths and access logs. ATT&CK identifiers leave procedure, prerequisites, and actual test results to document.
 
-## Answer Key
-
-**Self-Check**
-
-1. **Mission Preparation, OSINT, Active Reconnaissance, Target Exploitation, Post Exploitation, Mission Objective.** The six phases form the default order of operations for the course.
-2. **OSINT.** It reads only public data, touches nothing, and so generates no alerts and no deconfliction.
-3. **User persistence, privilege escalation, privileged persistence, expanding access, fortifying access.** These five parts fill the largest phase.
-4. **Network effects, specific information, demonstrated impact.** The three shapes the objective takes.
-5. **The objective defines success before any foothold lands.** Access with no objective is noise, so the objective is decided first to keep the operation aimed.
-
-**Exercise**
-
-1. **The rules of engagement, signed by the network owner.** Plus the attack platform and redirectors, stood up and tested.
-2. **A domain dork, an ownership lookup, and a social-media sweep.** Three public sources which never touch the customer.
-3. **Only the in-scope hosts and the common external ports, scanned slow and quiet.** For example port 443 and 80 over a short list.
-4. **The simplest workable route, low hanging fruit.** One crafty phishing message or an exposed upload beats an exhaustive hunt.
-5. **Hold the foothold first.** A run key or service which returns after a reboot.
-6. **Impact against the stated objective.** The changed record, the reached server, or the failover result, with evidence.
-
-______
+**Operation decisions:** Persistence is unnecessary when the objective does not require it. An undetected-action claim needs verified execution, appropriate collection, a valid search, and a defined observation window. Cleanup and backout need their own final-state evidence.
 
 ## Next Steps
 
-With the map in hand, you start at the first phase. Next: mission preparation, infrastructure, and the rules keeping an operation legal.
-
-**[→ Module 2: Mission Preparation and Infrastructure](/red-team-course/mission-preparation-and-infrastructure/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+**Keep your test card** and refine its infrastructure and deconfliction requirements in **[Module 2: Mission Preparation and Infrastructure](/red-team-course/mission-preparation-and-infrastructure/)**. Return to the **[course hub](/red-team-course-start/)** for the module sequence.

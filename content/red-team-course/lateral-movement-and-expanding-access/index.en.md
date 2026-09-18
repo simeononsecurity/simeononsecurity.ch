@@ -1,193 +1,171 @@
 ---
 title: "Module 17: Lateral Movement and Expanding Access"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Move from a workstation to the domain controller with SMB beacons, service manipulation instead of signatured jump commands, and the link step which catches new operators."
+description: "Plan lateral movement with explicit name resolution, authentication, authorization, service, and rollback evidence instead of assuming every credential reaches every host."
 genre: ["Red Team", "Offensive Security", "Lateral Movement", "Active Directory"]
-tags: ["red team", "lateral movement", "domain controller", "SMB beacon", "service manipulation", "sc_query", "sc_qc", "pass the hash", "red team course"]
-cover: "/img/cover/lateral-movement-domain-controller-cybersecurity.webp"
-coverAlt: "An abstract illustration showing interconnected servers and data flows in cybersecurity, with a central domain controller and vibrant colors against a dark background."
-coverCaption: "Module 17: reach the domain controller and hold it."
+tags: ["red team", "lateral movement", "SMB", "WinRM", "SSH", "authentication", "authorization", "red team course"]
+cover: "/img/cover/lateral-movement-expanding-access.webp"
+coverAlt: "A dark network diagram showing a controlled path between Windows hosts with identity and access checkpoints highlighted."
+coverCaption: "Module 17: prove each movement prerequisite before crossing a host boundary"
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**The domain controller is the prize: it holds every password hash, it reaches every host, and it gates the trusts to other domains.** Getting a Beacon on it turns a single-host foothold into domain-wide control.
+**Lateral movement** is a sequence of host-to-host decisions. A credential, route, protocol, service, and authorization rule each influence the result. One successful login does not prove access to every server or every administrative function.
 
-*This module takes about 18 minutes.*
+This module creates a **movement path ledger**. You will separate network reachability, authentication, authorization, execution, and result collection so a failed attempt produces useful evidence.
 
-> **Why it matters:** The DC holds every hash, and it never browses out. SMB and service manipulation reach it without the signatured jump commands.
+*Allow 35–50 minutes. Difficulty: intermediate. The examples use an approved lab inventory.*
 
-______
+## Learning Outcomes
 
-## Key Terms
+- **Define** reachability, authentication, authorization, and execution.
+- **Explain** why a valid credential does not imply remote administration.
+- **Inspect** a named host and service using read-only checks.
+- **Compare** SMB, WinRM, and SSH prerequisites.
+- **Create** a path ledger with a stopping condition.
 
-| Term | Plain meaning |
-|------|---------------|
-| **Domain controller** | the host holding the domain's hashes |
-| **SMB beacon** | a callback riding internal 445 traffic |
-| **Service manipulation** | borrowing a service to run a payload |
-| **`link`** | connecting to a live SMB beacon |
-| **`sc_qc`** | the query returning a service's binpath |
-______
+## Before You Begin
 
-## Locate the DC and the Accounts
+**Use the host and identity records** from [domain privilege escalation](/red-team-course/domain-privilege-escalation-and-kerberos-abuse/) and [host operations](/red-team-course/situational-awareness-and-host-operations/). The lab manifest should list source host, destination host, approved protocol, account, time window, and owner. Do not scan or authenticate to unlisted hosts.
 
-Two group reads answer both halves of the problem:
+| Gate | Evidence to collect |
+|---|---|
+| **Name resolution** | Resolved address and resolver used |
+| **Network path** | Route, port, and firewall result |
+| **Authentication** | Protocol response and account identity |
+| **Authorization** | Requested action and access decision |
+| **Execution** | Process or service evidence on destination |
+| **Collection** | Returned output and timestamp |
 
-```text
-netGroupListMembers "Domain Controllers" corp.local
-netGroupListMembers "Domain Admins" corp.local
+## Model the Five Gates
+
+{{< figure src="movement-gates-and-path-ledger.webp" alt="A movement path passes through name resolution, transport, authentication, authorization, execution, and collection gates" caption="A path ledger keeps each remote-access gate visible" >}}
+
+**Reachability** asks whether packets are able to reach a service. **Authentication** asks whether the endpoint accepts the presented identity. **Authorization** asks whether the identity is permitted to perform the requested operation. **Execution** asks whether the operation created the intended remote activity. **Collection** asks whether the result returned to the operator.
+
+| Gate | Failure example | Correct conclusion |
+|---|---|---|
+| **Reachability** | Port blocked | No transport path observed |
+| **Authentication** | Logon rejected | Credential or protocol failure, not bad DNS by itself |
+| **Authorization** | Access denied | Identity reached the service but lacks which right |
+| **Execution** | Service did not start | Remote action outcome is unproven |
+| **Collection** | Session timed out | Result transport is unproven |
+
+Treating all five as “access” hides the next useful test. A **valid password** still fails because the account is denied network logon, the service is disabled, or the requested operation needs a separate right.
+
+## Name the Destination Precisely
+
+```powershell
+Resolve-DnsName fileserver.corp.example
+Test-NetConnection fileserver.corp.example -Port 445
 ```
 
-The first gives you the hostnames. The second gives you the accounts which log into them. Cross-reference those names against the credentials and tokens you already collected, and you have your target host and your key before you touch the DC.
+**`Resolve-DnsName`** records the answer returned by the selected resolver. **`Test-NetConnection`** tests a TCP path to the named port. Neither command authenticates or authorizes an action. Preserve address, port, interface, and time in the ledger.
 
-______
+**Expected result:** The lab might return multiple addresses, a failed lookup, or a closed port. A DNS answer does not prove the endpoint is the intended host, and an open port does not prove a successful logon. These commands were documentation-reviewed and not executed on the macOS authoring host.
 
-## Test the Credential First
+## Compare Remote Services
 
-Before any jump, `ls` the admin share of the target and read the error code:
+**SMB** commonly supports file and named-pipe access. **WinRM** exposes Windows management through configured HTTP or HTTPS listeners and policy. **SSH** supports password, key, certificate, or GSSAPI methods depending on server configuration. Each protocol has its own authorization model and audit trail.
 
-```text
-ls \CORP-DC1.corp.local\c$
-```
+| Service | Reachability | Authorization question |
+|---|---|---|
+| **SMB** | TCP 445 and server policy | Share and filesystem rights |
+| **WinRM** | Listener and firewall policy | Remote-management group and endpoint policy |
+| **SSH** | Listener and host policy | Allowed account, key, shell, and command policy |
 
-| Error | Meaning |
-|-------|---------|
-| Access denied (code 5) | connected, but the account lacks rights there |
-| Logon failure (code 1326) | the credential itself is bad |
-| Network path not found | the FQDN is not resolving |
+**Do not infer** an HTTPS page implies WinRM, or an open SMB port grants administrative shares. Confirm the protocol and resource named in the exercise.
 
-Fix the account, fix the credential, or fix the name. Do not fire a payload at a target you have not confirmed as reachable.
+## Track Error Meaning
 
-______
+**Error 1326** commonly maps to a logon failure, but the surrounding protocol and account policy still matter. A path-not-found response might reflect an incorrect share, route, or name. DNS, authentication, authorization, and resource errors need their original text and protocol context.
 
-## SMB, Not HTTPS, for the DC
+| Symptom | First review |
+|---|---|
+| **Name not resolved** | Resolver, suffix, and manifest spelling |
+| **Port closed** | Destination service state and firewall owner |
+| **Logon failure** | Account, method, time, and policy response |
+| **Access denied** | Requested resource and effective rights |
+| **Path not found** | Share name, namespace, and server response |
+| **Timeout** | Transport, service, and result-collection windows |
 
-On systems which do not normally reach the internet, use an SMB beacon. Domain controllers, file servers, and Exchange servers do not make outbound HTTPS, so an HTTPS beacon there stands out. SMB beacons never call the internet. They run over port 445 through a named pipe, linked through a Beacon you already hold.
+## Watch a Movement Demonstration
 
-______
+{{< youtube id="XWq3v9Z6pgo" enable="true" title="Sysinternals: PsTools deep dive (demo) | Command line tool, remote management, Windows | Microsoft" >}}
 
-## execute Runs Locally
+**Microsoft's PsTools demonstration** shows remote administration utilities and their operational context. Use it to identify which actions require remote service access and which produce process or service evidence. [Watch the demonstration on YouTube](https://www.youtube.com/watch?v=XWq3v9Z6pgo).
 
-New operators assume `execute` reaches across the network. It does not:
+**The video is a supplement, It does not prove every lab account uses every tool. Record the selected tool, destination, requested operation, and resulting event before assigning impact.
 
-```text
-execute \REMOTE\c$\windows\system32\implant.exe
-```
+## Build a Movement Path
 
-It runs the remote file where you typed the command, on your current machine, the same way double-clicking a file on a share runs it locally. Remote execution needs a plugin built for it.
-
-______
-
-## Skip the Signatured Jump Commands
-
-| Jump | Why to avoid |
-|------|--------------|
-| `psexec_psh` | encoded PowerShell, random service names |
-| `psexec` / `psexec64` | random services and binaries |
-| `winrm` / `winrm64` | PowerShell over WinRM |
-
-All three are heavily signatured. Use service manipulation instead.
-
-______
-
-## Service Manipulation
-
-Reconfigure an existing service instead of creating one:
+Start with the **least expansive action** answering the question. A read-only share listing might resolve resource ownership. A remote service query might confirm configuration. A command changing state needs a separate approval and rollback entry.
 
 ```text
-sc_query vss 192.168.1.10
-sc_qc vss 192.168.1.10
+Source host and principal:
+Destination host and owner:
+Name and address evidence:
+Protocol, port, and listener evidence:
+Authentication method and result:
+Requested resource or operation:
+Authorization result:
+Execution and collection evidence:
+Rollback owner and stopping condition:
 ```
 
-Confirm the service is stopped and runs as Local System. Record the original binpath. Then the manual sequence:
+**Path completeness** matters. If the destination process ran but no output returned, report execution and collection separately. If authentication succeeded but the share denied access, report authentication without claiming file access.
 
-1. Upload the beacon to blend into the file system.
-2. Record the original binpath from `sc_qc`.
-3. Change the binpath to your beacon.
-4. Start the service, which launches the beacon.
-5. Set the binpath back to the original.
-6. Remove the uploaded beacon.
+## Analyze a Synthetic Failure
 
-Restoring the binpath and deleting the beacon are the steps which keep it clean. Skip them and you have left a reconfigured service plus a payload on disk.
+Assume **analyst.user** resolves `app01.corp.example` to `10.20.30.14`. TCP 5985 is open. WinRM accepts the account, but the endpoint denies the requested command because the user is not in the approved remote-management group.
 
-______
+The **supported conclusion** is name resolution, transport, and authentication success. Authorization and execution failed. The next action is an owner-approved group or endpoint-policy review, not a second protocol chosen at random.
 
-## Link Into the SMB Beacon
+| Evidence | Claim supported |
+|---|---|
+| **DNS answer** | Name resolved at the recorded time |
+| **Open 5985** | TCP path to the listener exists |
+| **WinRM logon** | Endpoint accepted the identity |
+| **Endpoint denial** | Requested operation was not authorized |
+| **No process event** | No execution evidence in the collected window |
 
-SMB sessions behave differently in the client:
+## Evaluate Expansion Risk
 
-- A chain link icon marks an SMB-linked session.
-- The chain appears broken when the SMB link is not connected.
-- SMB beacons incorrectly show the HTTPS listener name in the column. This is a display quirk, not a misconfiguration.
+**Expanding access** increases the number of hosts, accounts, and owners affected by the exercise. A broad credential sweep creates more audit events and more cleanup obligations. Limit each move to the host and operation answering the mission question.
 
-The step operators forget: after `servicemanip` runs, the SMB beacon is alive but not connected. Run `link` to link into it over the named pipe. Until you link, the chain stays broken and you have no interaction.
+Consider **credential scope**, **host criticality**, **service impact**, and **evidence quality** before proceeding. A destination appearing reachable might be a production controller, a backup server, or a safety-critical system. The asset owner and engagement scope determine whether the test is appropriate.
 
-______
+| Decision factor | Question |
+|---|---|
+| **Need** | Does this host answer the objective? |
+| **Exposure** | Which account and data cross the boundary? |
+| **Impact** | Would the action interrupt a service? |
+| **Evidence** | What exact result will prove or disprove the hypothesis? |
+| **Recovery** | Who restores state if the action fails? |
 
-> **Operator takeaway:** enumerate with `sc_query` and `sc_qc`, confirm the service is stopped and runs as Local System, write down the original binpath, restore it after, delete the beacon, and remember to `link` when the SMB beacon lands.
+## Create the Path Ledger
 
-______
+Produce a **movement path ledger** for the synthetic WinRM case and one proposed SMB comparison. Include the gate which failed, an alternative explanation, and the smallest owner-approved next check.
 
-## Reach the Controller
+**Completion standard:** A reviewer distinguishes a network result, an authentication result, an authorization result, and an execution result. The ledger contains no claim based only on a port scan or credential possession.
 
-Plan the jump from a workstation to the DC:
+## Self-Check and Answers
 
-1. Which two commands name the target host and the login account?
-2. What do you do before any jump command?
-3. Which transport does the DC beacon use?
-4. What do you restore after borrowing a service?
-
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
-
-## Why Movement Leaves Evidence
-
-Remote execution inherits trust from SMB, WMI, WinRM, or a service account, and each path leaves a different event pattern. Older playbooks treated all remote execution as equivalent, while modern detection joins logon type, source host, service creation, and process lineage. Test each method between two lab machines and compare the logs. **Do not reuse customer credentials in a movement test.**
-
-______
-
-## Common Mistakes
-
-- Assuming `execute` reaches a remote host when it runs locally.
-- Firing a payload at a target before testing the `c$` share.
-- Creating new jump commands instead of borrowing a service.
-- Forgetting to `link` into the SMB beacon after `servicemanip`.
-
-______
-
-## Self-Check
-
-1. Which two group reads locate the DC and the login accounts?
-2. What does error code 5 versus 1326 tell you?
-3. Why is SMB the right transport for the DC?
-4. List the six steps of manual service manipulation.
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **`netGroupListMembers "Domain Controllers"` and `"Domain Admins"`.** One names the host, the other the login accounts.
-2. **5 means connected but lacking rights, 1326 means bad credentials.** Fix the account or fix the credential.
-3. **The DC never browses externally.** SMB rides internal 445 traffic instead of standing out.
-4. **Upload, record binpath, swap binpath, start, restore binpath, delete beacon.**
-
-**Exercise**
-
-1. **The two `netGroupListMembers` reads** for Domain Controllers and Domain Admins.
-2. **`ls` the `c$` share and read the error code.**
-3. **SMB**, linked over a named pipe.
-4. **The original binpath**, and remove the uploaded beacon.
-______
+| Question | Expected reasoning |
+|---|---|
+| **Does an open port prove remote execution?** | No, it proves only a transport path to a listener |
+| **Does successful authentication prove share access?** | No, resource authorization is a separate gate |
+| **What does error context add?** | It distinguishes protocol, resource, and policy failures |
+| **Why avoid broad credential sweeps?** | They add scope, telemetry, and cleanup without proving the objective |
+| **What should follow an endpoint denial?** | An owner-approved policy or group review |
+| **What makes the ledger complete?** | Evidence for each gate plus an explicit stopping condition |
 
 ## Next Steps
 
-You have moved laterally and reached the controller. Next, read the directory itself with ldapsearch and pivot across domain trusts.
+Carry the **movement path ledger** into [Module 18: Cross-Domain Pivoting and LDAP Enumeration](/red-team-course/cross-domain-pivoting-and-ldap-enumeration/), where trust direction and directory query scope add more gates.
 
-**[→ Module 18: Cross-Domain Pivoting and LDAP Enumeration](/red-team-course/cross-domain-pivoting-and-ldap-enumeration/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+Return to the **[Red Team Course](/red-team-course-start/)** for the complete sequence.

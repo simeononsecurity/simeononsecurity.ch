@@ -482,3 +482,21 @@ headings and bullets, add a shortcode. The mix keeps readers scrolling instead o
 
 Add one shortcode check to the scannability pass: after drafting, scan for any 400-word stretch
 with no shortcode, heading, table, or code block. Break it up.
+
+## Revising Technical Course Claims
+
+When extending an existing module, correct unsupported claims in its explanation,
+comparison tables, exercises, and answer key together. An accurate supplement does
+not resolve a contradictory answer elsewhere on the page.
+
+- Distinguish **reachability, authentication, and authorization** in network examples.
+- Describe **visibility as an observation**, not a universal property of HTTPS, a
+  scan type, a process name, or in-process execution.
+- Identify **account authority, SID, and process context** before interpreting HKCU
+  or a Windows permission result.
+- Treat **public availability and collection method** as separate OSINT facts.
+- Label proposed lab results as **expected reasoning**, never as measurements made
+  during article preparation.
+
+After revision, check the complete module for older contradictory claims and verify
+its linked primary sources. Recheck the answer key against the revised explanation.

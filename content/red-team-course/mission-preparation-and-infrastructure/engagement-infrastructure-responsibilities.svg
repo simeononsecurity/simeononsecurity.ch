@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#56c9be"/></marker></defs>
+<rect width="1600" height="1000" fill="#101c2e"/>
+<text x="80" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">Separate the operational responsibilities</text>
+<text x="80" y="148" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Each component needs an owner, an allowed path, a record, and a removal deadline.</text>
+<path d="M730 350 L836 350" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M1175 475 L1175 551" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M405 475 L405 551" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M850 690 L744 690" stroke="#56c9be" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="80" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">OPERATOR MANAGEMENT</text>
+<text x="110" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Named operator authentication</text>
+<text x="110" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Recoverable management connection</text>
+<text x="110" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Approved configuration changes</text>
+<rect x="850" y="225" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="278" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">ASSESSMENT INFRASTRUCTURE</text>
+<text x="880" y="333" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Server and redirector inventory</text>
+<text x="880" y="378" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Required listeners and forwarding</text>
+<text x="880" y="423" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Domain and certificate ownership</text>
+<rect x="80" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="110" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">CONTROLLED EVIDENCE</text>
+<text x="110" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Activity and collection records</text>
+<text x="110" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Restricted access and retention</text>
+<text x="110" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Restoration and handover evidence</text>
+<rect x="850" y="565" width="650" height="250" rx="18" fill="#1d304a" stroke="#4e729a" stroke-width="2"/>
+<text x="880" y="618" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#78dcd0">APPROVED TEST ENVIRONMENT</text>
+<text x="880" y="673" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Named assets and synthetic identities</text>
+<text x="880" y="718" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Health checks and stop conditions</text>
+<text x="880" y="763" font-family="Arial, sans-serif" font-size="27" font-weight="normal" fill="#dce6f2">Known target-side observation points</text>
+<rect x="80" y="885" width="1420" height="65" rx="12" fill="#263951"/>
+<text x="104" y="927" font-family="Arial, sans-serif" font-size="25" font-weight="normal" fill="#f2d295">Forwarding success does not prove authorization, collection, or teardown readiness</text>
+</svg>

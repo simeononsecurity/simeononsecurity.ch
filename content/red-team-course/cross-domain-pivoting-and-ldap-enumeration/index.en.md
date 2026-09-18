@@ -1,189 +1,154 @@
 ---
 title: "Module 18: Cross-Domain Pivoting and LDAP Enumeration"
 date: 2026-09-12
+lastmod: 2026-09-17
 toc: true
 draft: false
-description: "Query Active Directory quietly with ldapsearch, map trust relationships, and pivot across domains with a fully specified distinguished name."
+description: "Analyze trust direction, selective authentication, SID filtering, LDAP scope, and query results with a cross-domain pivot decision record."
 genre: ["Red Team", "Offensive Security", "Active Directory", "LDAP"]
-tags: ["red team", "ldapsearch", "LDAP", "trusts", "trustdirection", "flatname", "cross-domain", "red team course"]
-cover: "/img/cover/ldap-enumeration-cross-domain-pivoting-illustration.webp"
-coverAlt: "A digital illustration showing a computer interface with flowing data streams and network nodes. The design features vibrant colors against a dark background, representing Active Directory enumeration and cross-domain queries."
-coverCaption: "Module 18: read the directory and follow the trust out."
+tags: ["red team", "cross-domain", "trusts", "LDAP", "enumeration", "selective authentication", "red team course"]
+cover: "/img/cover/cross-domain-pivoting-ldap-enumeration.webp"
+coverAlt: "A controlled directory graph shows two domains connected by a trust with query and authorization boundaries marked."
+coverCaption: "Module 18: treat a trust as a relationship to test, not a shortcut"
 ---
 
 #### [← Return to the Red Team Course](/red-team-course-start/)
 
-**ldapsearch is how you enumerate Active Directory objects from inside Beacon memory, with nothing on disk and no collector process.** Active Directory willingly answers questions about users, groups, computers, and trusts, and this tool asks quietly.
+**Cross-domain pivoting** depends on trust direction, name resolution, authentication, authorization, and directory visibility. A trust does not make every object readable or every credential valid in both domains.
 
-*This module takes about 16 minutes.*
+This module creates a **trust and query record**. You will identify the queried directory, constrain LDAP filters, and decide whether a proposed cross-domain action has enough evidence to proceed.
 
-> **Why it matters:** Active Directory answers whatever you ask. Name the distinguished name, and the directory becomes your map across trusts.
+*Allow 35–50 minutes. Difficulty: intermediate. The examples are synthetic and read-only.*
 
-______
+## Learning Outcomes
 
-## Key Terms
+- **Define** trust direction, LDAP, DN, SID filtering, and selective authentication.
+- **Explain** why a trust relationship does not imply broad access.
+- **Inspect** a bounded LDAP query and its server scope.
+- **Compare** query visibility with authorization to act.
+- **Create** a trust and query decision record.
 
-| Term | Plain meaning |
-|------|---------------|
-| **ldapsearch** | the in-memory BOF querying Active Directory |
-| **Filter** | the parenthesized condition selecting objects |
-| **Trust** | a relationship letting one domain authenticate to another |
-| **`trustdirection`** | the integer naming which way auth flows |
-| **Distinguished name** | the `DC=` path to a domain |
-______
+## Before You Begin
 
-## The Basic Query
+**Bring the source and destination records from [lateral movement](/red-team-course/lateral-movement-and-expanding-access/). Record the source principal's domain, target domain, resolver, domain controller, approved query base, and owner. Cross-domain queries need explicit scope because directory data includes sensitive identities and group relationships.
 
-```text
-ldapsearch "(objectclass=user)" --attributes * --count 2
+| Field | Record |
+|---|---|
+| **Source domain** | Domain and account authority |
+| **Target domain** | Domain and directory owner |
+| **Trust direction** | Direction from the queried relationship |
+| **Authentication** | Account and protocol used |
+| **LDAP base** | Exact naming context and organizational unit |
+| **Filter and limit** | Object classes, attributes, and page size |
+
+## Read Trust Direction
+
+A **trust direction** is relative to the two named domains. If domain A trusts domain B, accounts from B might be accepted by A under configured conditions. The phrase does not describe every reverse operation, resource ACL, or group membership.
+
+**Selective authentication** requires explicit permission to authenticate to particular computers. **SID filtering** limits how security identifiers from a trusted domain are interpreted across the boundary. Forest and external trusts also differ in scope and transitivity. Validate the actual trust object and policy rather than relying on a diagram label.
+
+| Observation | Does not establish |
+|---|---|
+| **Trust exists** | Universal resource access |
+| **Direction is outbound** | Reverse trust |
+| **Name resolves** | Authentication or authorization |
+| **Authentication succeeds** | LDAP read or group membership |
+| **Object is visible** | Permission to change it |
+
+## Define LDAP Scope
+
+{{< figure src="trust-direction-and-ldap-scope.webp" alt="Two domains connect through a directional trust while LDAP base, filter, authorization, and host access remain separate boundaries" caption="Trust direction and query scope constrain a cross-domain pivot" >}}
+
+**LDAP** is a directory protocol. A **distinguished name (DN)** identifies an object location, while a server name identifies where the query is sent. A valid DN on one server does not prove the same object exists in another directory.
+
+**Object classes matter.** In Active Directory, a filter for `objectClass=user` includes user and computer objects because computer objects inherit from user-related classes. Use explicit attributes and classes when the exercise needs human accounts.
+
+| Query choice | Risk to review |
+|---|---|
+| **Base DN** | Querying the wrong naming context |
+| **Filter** | Returning computers or service objects unintentionally |
+| **Attributes** | Collecting more identity data than needed |
+| **Paging** | Missing or duplicating results across pages |
+| **Escaping** | Altering filter meaning with special characters |
+
+## Run a Bounded Query
+
+```powershell
+$base = "DC=target,DC=corp,DC=example"
+$filter = "(&(objectCategory=person)(objectClass=user)(sAMAccountName=analyst.user))"
+Get-ADUser -Server "dc01.target.corp.example" -SearchBase $base `
+    -LDAPFilter $filter -Properties memberOf,servicePrincipalName
 ```
 
-Three pieces do the work:
+**`-Server`** names the directory endpoint. **`-SearchBase`** limits the naming context, and the filter selects a person user with an exact account name. **`-Properties`** requests only the attributes needed for the review. This command requires the ActiveDirectory module and an approved lab account. It was documentation-reviewed, not executed on the macOS authoring host.
 
-- `(objectclass=user)` is the filter, always in parentheses.
-- `--attributes *` names the fields to return. `*` means all of them.
-- `--count 2` caps the result at two objects.
+**Expected result:** The lab might return one user, no user, or an access error. A result needs server, base, filter, attributes, page behavior, and timestamp. Do not infer a trust or authorization decision from an empty result without checking query scope and collection health.
 
-Leaving off `--attributes` defaults to every attribute, and leaving off `--count` means no limit. A lazy query dumps every attribute of hundreds of objects down your C2 channel.
+## Watch Directory Context
 
-______
+{{< youtube id="pzrtfRpPVM4" enable="true" title="Kerberos Deep Dive Part 1 - Introduction" >}}
 
-## Combining Filters
+**Compass Security's Kerberos introduction** supplies protocol context for cross-domain authentication. Use it to distinguish domain tickets from LDAP authorization and to note where trust policy enters the flow. [Watch the presentation on YouTube](https://www.youtube.com/watch?v=pzrtfRpPVM4).
 
-```text
-ldapsearch "(&(objectclass=user)(name=*smith*))" --attributes * --count 2
-```
+**The presentation is supplemental.** Record your domain's actual trust objects, supported encryption types, and authorization policy before making a claim.
 
-The `&` means both conditions must hold. The `*` inside a value is a wildcard, so `*smith*` matches anything with `smith` in the name.
+## Analyze a Synthetic Trust
 
-______
+Assume **source.corp.example** has a one-way trust to **target.corp.example**. The source user resolves a target controller and authenticates, but LDAP search returns access denied for the requested organizational unit. Selective authentication is enabled for target servers.
 
-## The --attributes Discipline
+The **supported conclusion** states DNS and an authentication exchange reached the target. Directory authorization for the search base failed. The trust's existence does not prove broad LDAP visibility or access to target hosts.
 
-Specify the fields you want:
+| Evidence | Supported claim |
+|---|---|
+| **Target controller resolved** | Name resolution succeeded |
+| **Authentication accepted** | The protocol accepted the principal |
+| **LDAP access denied** | The requested directory read was not authorized |
+| **Selective authentication** | Computer-specific permission needs review |
+| **No group result** | Group membership remains unobserved |
 
-```text
-ldapsearch "(objectclass=user)" --attributes name,samaccountname,description
-```
+## Choose a Pivot Decision
 
-To learn what fields exist, pull one full record first, then query for real with those names:
+A **pivot decision** should state the target object, operation, principal, trust evidence, and stopping condition. If the goal is inventory, a narrow directory read might suffice. If the goal is remote administration, host logon rights and resource ACLs need separate proof.
 
-```text
-ldapsearch "(objectclass=user)" --attributes * --count 1
-```
+| Objective | Next bounded check |
+|---|---|
+| **Confirm trust** | Read the named trust object and direction |
+| **Confirm identity** | Correlate authentication event and principal |
+| **Confirm LDAP scope** | Repeat the exact base and filter with owner approval |
+| **Confirm host access** | Test the named host and operation, not a domain sweep |
+| **Confirm privilege** | Resolve group nesting and resource ACLs |
 
-______
+## Create the Trust Record
 
-## Enumerate Trusts
-
-A trust is a configured relationship which lets principals in one domain authenticate into another. Query them:
-
-```text
-ldapsearch "(objectclass=trusteddomain)" --attributes flatname,trustdirection
-```
-
-- `flatname` is the short NetBIOS name of the remote domain.
-- `trustdirection` tells you which way authentication flows, always relative to your domain:
-
-| Value | Meaning |
-|-------|---------|
-| `1` | you have access to their domain |
-| `2` | they have access to your domain |
-| `3` | both directions trusted |
-
-A `1` or `3` is a live path out. A `2` is worth noting for the report, not your immediate exit.
-
-______
-
-## Pivot Across the Trust
-
-Point `ldapsearch` at the remote domain with `--dn`:
+Produce a **trust and query decision record** for the synthetic case. Include one alternative explanation for the access denial, the exact LDAP scope, and the evidence needed before a host pivot.
 
 ```text
-ldapsearch "(objectclass=user)" --attributes * --count 2 --dn DC=child,DC=corp,DC=local
+Source principal and domain:
+Target domain, controller, and trust direction:
+Selective-authentication or SID-filtering evidence:
+LDAP base, filter, attributes, and page limit:
+Authentication result:
+Directory authorization result:
+Proposed host operation and owner:
+Alternative explanation and next bounded test:
+Stopping condition and evidence location:
 ```
 
-Format the distinguished name as one `DC=` per label. `child.corp.local` becomes `DC=child,DC=corp,DC=local`.
+**Completion standard:** The record identifies the directory queried and avoids converting object visibility into permission to modify or administer it.
 
-______
+## Self-Check and Answers
 
-## Always Name the DN
-
-You query as whatever token you hold. If you do not specify `--dn`, ldapsearch tries to infer the server from your current token, and the resolution breaks under pass-the-hash or `steal_token`. Name the DN every time. Do not let the tool guess.
-
-______
-
-## Object Classes to Know
-
-| Object class | Useful attributes |
-|--------------|-------------------|
-| `computer` | `description`, `samaccountname`, `operatingsystem`, `dnshostname` |
-| `user` | `description`, `samaccountname`, `name` |
-| `trusteddomain` | `flatname`, `trustdirection` |
-| `group` | `description`, `samaccountname`, `name`, `member` |
-| SID lookups | `objectSID` |
-
-> **Operator takeaway:** enumerate trusts, act on any `1` or `3`, and re-run ldapsearch against the remote domain with a fully specified `--dn`. Name the DN every time, because letting the tool infer it from your token is where cross-domain queries silently break.
-
-______
-
-## Follow the Trust
-
-Map a domain trust and pivot across it:
-
-1. Which object class do you query for trusts?
-2. What two attributes tell you the remote name and direction?
-3. Which direction values are your exit path?
-4. How do you point the next query at the remote domain?
-
-Answer from memory first. The explanations are in the Answer Key at the end.
-______
-
-## Why Trust Enumeration Matters
-
-A trust is a relationship, not automatic permission. LDAP reveals names, groups, and trust direction, while access still depends on SID filtering, selective authentication, and delegated rights. A two-domain lab with synthetic groups makes the difference visible. **Query only the directory objects listed in the scope.**
-
-______
-
-## Common Mistakes
-
-- Querying without `--attributes` and flooding your callback.
-- Omitting `--dn` and letting ldapsearch infer the server from your token.
-- Reading a trustdirection `2` as your exit when it points the wrong way.
-- Treating a lazy wildcard query as free when it returns a wall of data.
-
-______
-
-## Self-Check
-
-1. What are the three parts of an ldapsearch query?
-2. What does the `&` operator do?
-3. What does `trustdirection` value `1` mean?
-4. How do you format a distinguished name for a child domain?
-
-______
-
-## Answer Key
-
-**Self-Check**
-
-1. **Filter, `--attributes`, and `--count`.** The parenthesized filter, the fields returned, and the result cap.
-2. **It requires both conditions.** The `&` wraps two filters so both must match.
-3. **You have access to their domain.** The remote domain trusts you.
-4. **One `DC=` per label.** `child.corp.local` becomes `DC=child,DC=corp,DC=local`.
-
-**Exercise**
-
-1. **`(objectclass=trusteddomain)`.** The class holding trust objects.
-2. **`flatname` and `trustdirection`.** The short name and the direction.
-3. **`1` or `3`.** A path into the remote domain.
-4. **`--dn`** with the remote domain's distinguished name.
-______
+| Question | Expected reasoning |
+|---|---|
+| **Does a one-way trust work both ways?** | No, direction is relative to the named domains |
+| **Does a valid DN prove a server connection?** | No, server and naming context are separate |
+| **Does `objectClass=user` include computers?** | Yes, use a more precise filter when needed |
+| **Does LDAP visibility grant write access?** | No, read and change rights are separate |
+| **What does selective authentication change?** | It adds explicit computer or resource authorization checks |
+| **What makes a query reproducible?** | Server, base, filter, attributes, limits, and timestamp |
 
 ## Next Steps
 
-You have mapped the trusts and pivoted across. Next, spread quiet, redundant access so no single discovery ends the operation.
+Carry the **trust and query record** into [Module 19: Fortifying Access and Operator Discipline](/red-team-course/fortifying-access-and-operator-discipline/). The next module turns these boundaries into expiry, failover, and least-privilege decisions.
 
-**[→ Module 19: Fortifying Access and Operator Discipline](/red-team-course/fortifying-access-and-operator-discipline/)**
-
-Or return to the hub: **[Red Team Course](/red-team-course-start/)**
+Return to the **[Red Team Course](/red-team-course-start/)** for the complete sequence.
