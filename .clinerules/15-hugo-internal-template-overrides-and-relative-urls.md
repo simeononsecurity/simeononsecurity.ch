@@ -121,6 +121,23 @@ wrong URL, 404 pattern in logs), always:
 4. Reproduce the suspected mechanism in an isolated minimal Hugo project (a few
    files in `/tmp`) to confirm the exact behavior before touching the real repo.
 
+## Current `bump.md` Policy (User Directive, 2026-09-19)
+
+Do not change `bump.md` for every content or interface commit. Use `bump.md` only
+when **at least two** of the following conditions are true:
+
+1. The change is a critical functionality fix which affects every site variant.
+2. The content update affects every language.
+3. Updating every language version of the site is necessary for the change.
+
+For a minor UI or front-end change, commit the source change without touching
+`bump.md`. Let the existing GitHub Actions workflows handle the normal language
+builds and deployment timing. Do not create a bump solely to force unrelated
+language builds after an ordinary content, rule, or interface change.
+
+Before touching `bump.md`, record which two conditions apply in the commit or
+review notes. If fewer than two apply, leave `bump.md` unchanged.
+
 ## Pushing a Content Fix to `master` Does Not Guarantee It Deploys (Confirmed 2026-09)
 
 Every `branch_build_hugo_*.yml` workflow (one per language, plus `EN` and `EN_alt`) is
@@ -142,14 +159,12 @@ commit predated the fix's push, i.e. the fix had not been built/deployed yet. Fe
 is the fastest way to confirm whether a given push actually fired the language build
 workflows.
 
-**The fix**: append a trivial change to `bump.md` at the repo root (the existing
-convention, confirmed via `git log --oneline -- bump.md`, is literally appending one
-more blank/space line, commit message `Update bump.md`) and push it. Because `bump.md`
-is in every workflow's path filter, this single small commit reliably fires all 18+
-`branch_build_hugo_*` workflows regardless of what the preceding content commits
-touched. Do this any time a content-only fix needs to reach production immediately
-rather than waiting for the next push that happens to satisfy a language's specific
-path filter.
+**Historical workaround:** appending a trivial change to `bump.md` at the repo root
+was the former way to force every `branch_build_hugo_*` workflow. Because `bump.md`
+is in every workflow's path filter, that small commit reliably fired all language
+builds. This remains useful only when the current two-condition policy above is met.
+For ordinary changes, leave `bump.md` untouched and allow the normal GitHub Actions
+path filters to decide which builds run.
 
 **Do not assume** that because a workflow's path filter includes a broad pattern like
 `**/index.en.md`, every push touching any file under `content/` will fire it — path
@@ -174,4 +189,3 @@ list-type page on the site (`/articles/`, `/writeups/`, every `/tags/<x>/` page,
 etc.), leaving only the footer's `random-lazy.html` (which has no such restriction)
 showing on those pages. Fixed by changing the guard to `{{ if not .IsHome }}` in both
 files, matching the pattern `random-lazy.html` already used correctly.
-
