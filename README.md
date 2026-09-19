@@ -25,13 +25,13 @@ Welcome to the SimeonOnSecurity website! Here, we provide the latest information
 
 ## Technologies
 
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)](https://www.cloudflare.com/)
-[![Hugo Extended](https://img.shields.io/badge/Hugo%20Extended-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
-[![Hello Friend theme](https://img.shields.io/badge/Hugo%20Theme-Hello%20Friend-FF4088?logo=hugo&logoColor=white)](https://themes.gohugo.io/hugo-theme-hello-friend/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/en/)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)](https://www.netlify.com/)
-[![glotta](https://img.shields.io/badge/glotta-translation-181717?logo=github&logoColor=white)](https://github.com/simeononsecurity/glotta)
-[![Progressive Web App](https://img.shields.io/badge/PWA-Service%20Worker-5A0FC8?logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare)](https://www.cloudflare.com/)
+[![Hugo Extended](https://img.shields.io/badge/Hugo%20Extended-FF4088?logo=hugo)](https://gohugo.io/)
+[![Hello Friend theme](https://img.shields.io/badge/Hugo%20Theme-Hello%20Friend-FF4088?logo=hugo)](https://themes.gohugo.io/hugo-theme-hello-friend/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)](https://nodejs.org/en/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify)](https://www.netlify.com/)
+[![glotta](https://img.shields.io/badge/glotta-translation-181717?logo=github)](https://github.com/simeononsecurity/glotta)
+[![Progressive Web App](https://img.shields.io/badge/PWA-Service%20Worker-5A0FC8?logo=pwa)](https://web.dev/progressive-web-apps/)
 
 - [CloudFlare](https://www.cloudflare.com/): Utilized for Proxy, CDN, Caching, and Country Blocking.
 - [Hugo Extended](https://gohugo.io/): Used for Static Site Generation.
