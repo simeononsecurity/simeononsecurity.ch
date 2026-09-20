@@ -1,7 +1,13 @@
 # Generated files by hugo
 /public/
 /assets/jsconfig.json
-resources/_gen/assets
+
+# Hugo generated resources and build cache. Regenerated on demand by any local
+# build, and restored in CI from actions/cache (see
+# .github/workflows/branch_build_hugo_*.yml), never from git. Each workflow also
+# deletes resources/ before pushing the built output to its website-<lang>
+# branch, so nothing here ever reaches a deploy branch.
+resources/_gen/
 resources/json
 hugo_stats.json
 

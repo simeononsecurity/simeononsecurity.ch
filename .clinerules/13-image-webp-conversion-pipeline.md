@@ -133,17 +133,40 @@ extension literal, which is why only they needed the idiom fix.
 3. **Delete `tools/_webp_conversion_map.tsv`** once the reference rewrite is
    confirmed correct. It is a temporary intermediate file, not a repo artifact.
 
-## `resources/_gen/images` Is Committed to Git
+## `resources/_gen/` Is Gitignored (Policy Changed 2026-09)
 
-Unlike `resources/_gen/assets` (gitignored), `resources/_gen/images` is
-deliberately tracked in this repo as a build-cache/CDN artifact store restored
-and saved by `actions/cache` in the CI workflows. After converting source images
-to WebP, the old cache entries under the previous filenames become orphaned
-(their source no longer exists) and new entries appear under new content
-hashes. Commit both the deletions and the additions together with the source
-image conversion, following the existing repo convention (see commit history:
-"chore(resources): commit missing Hugo image-cache artifacts" /
-"chore(resources): prune orphaned Hugo image-cache artifacts").
+`.gitignore` carries a single `resources/_gen/` entry covering both
+`resources/_gen/assets` and `resources/_gen/images`. Cache files are no longer
+tracked going forward and no longer appear in `git status`.
+
+**Why it is safe:** nothing in the build or deploy path reads these files from
+git. Every `branch_build_hugo_*.yml` workflow restores and saves
+`resources/_gen` through `actions/cache`, and each one then deletes
+`resources/` (along with everything except `public/`) before running
+`git add .` and force-pushing the built output to its `website-<lang>` branch.
+So a cache artifact can never reach a deploy branch, and a fresh clone
+regenerates what it needs from source images.
+
+**Two consequences to keep in mind:**
+
+- **The historically tracked copies are still tracked.** `git rm -r --cached`
+  is what untracks them, not a `.gitignore` entry. Around 5099 files remain in
+  the index until someone runs:
+
+  ```bash
+  git rm -r --cached resources/_gen/images
+  git commit -m "chore(resources): stop tracking the Hugo image cache"
+  ```
+
+  Files stay on disk after that, history keeps them, and no clone loses
+  anything it cannot rebuild.
+- **`hugo --gc` still prunes tracked entries** until that untracking happens,
+  which shows up as ` D resources/_gen/images/...` in `git status`. Recover
+  with `git checkout -- resources/`. Since the directory is now ignored,
+  newly generated entries no longer clutter `git status` at all.
+
+Do not delete cache files to solve an image problem, and do not commit them
+either. Both are build output.
 
 ## Purge Cloudflare Cache After Deleting/Renaming Images (Critical)
 

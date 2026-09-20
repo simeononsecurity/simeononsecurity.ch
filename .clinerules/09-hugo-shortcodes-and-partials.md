@@ -418,14 +418,12 @@ narrow viewport, gained a `:focus-visible` outline and a `prefers-reduced-motion
 `::after` pseudo-element that never existed in the markup) was removed entirely.
 
 **Caution for anyone re-running a full local Hugo build while investigating a CSS/asset
-issue**: do NOT `rm -rf resources/_gen` before rebuilding. Unlike `resources/_gen/assets`
-(gitignored), `resources/_gen/images` is intentionally committed to git as a build-cache
-artifact (see `.clinerules/13-image-webp-conversion-pipeline.md`). Deleting it and rebuilding
-regenerates thousands of files that git then reports as locally modified/deleted; recover
-with `git checkout -- resources/` immediately after the rebuild completes, before committing
-anything else. A cold-cache rebuild (no `resources/_gen`) also takes roughly 2x as long
-(~240s vs ~110s locally) since every image variant gets reprocessed from scratch instead of
-reused from cache.
+issue**: `resources/_gen/` is gitignored, so freshly generated cache entries never show up
+in `git status`. Historically tracked copies still do, so `hugo --gc` pruning them appears
+as ` D resources/_gen/images/...`; recover with `git checkout -- resources/` before
+committing anything else. Do not `rm -rf resources/_gen` casually either: a cold-cache
+rebuild takes roughly 2x as long (~240s vs ~110s locally) since every image variant is
+reprocessed from scratch instead of reused.
 
 ## Hugo Content File Conventions for This Site
 
