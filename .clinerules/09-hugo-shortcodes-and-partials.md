@@ -475,3 +475,89 @@ A bare video ID or loader-script URL does not establish a working embed. Test
 both the enabled instance and an ordinary shortcode under the disabled global
 setting. Check the video title, privacy attribute, absence of automatic loading,
 and accurate VideoObject upload date in rendered output.
+
+## Sibling Sites: Subdomain Tools and the English-Only Footer "Tools" Group (Added 2026-09)
+
+SimeonOnSecurity runs six standalone tools on dedicated `simeononsecurity.com`
+subdomains. They are grouped on the site as **sibling sites**: a tool with a full
+application behind it (its own dataset, build pipeline, and subdomain) rather than a
+browser-only utility on the main domain.
+
+| Subdomain | Project | What it does | Data source | Freshness |
+|---|---|---|---|---|
+| `heliummap.simeononsecurity.com` | `track-helium-mobile-wifi` | Maps Helium Mobile and Helium Free WiFi hotspots | WiGLE.net + Helium Blockchain Exporter API | Upstream repo archived 2025-04-29, so the map is a dated snapshot |
+| `offloadsearch.simeononsecurity.com` | `location-search-tool` | Rates one address for carrier offload | FCC Broadband Map, Nominatim, Google Maps / Foursquare / Yelp | Static page, client-side |
+| `openroamingmap.simeononsecurity.com` | `track-openroaming-passpoint` | Maps Hotspot 2.0, Passpoint, and OpenRoaming APs | WiGLE.net | Daily rebuild, yearly reset with archives |
+| `flockfinder.simeononsecurity.com` | `flock-finder` | Maps suspected Flock Safety ALPR cameras by WiFi OUI fingerprint | WiGLE.net + public OUI research | Daily at 06:00 UTC, 730-day retention |
+| `eyespy.simeononsecurity.com` | `eye-spy` | Web flasher and dashboard for ESP32 passive surveillance detection firmware | None (device telemetry only) | Firmware releases, M5Stack Atom Lite |
+| `flockyouesp32.simeononsecurity.com` | `flock-you-esp32` | Web flasher and dashboard for WiFi promiscuous-mode Flock Safety camera detection | None (device telemetry only) | Fork of `colonelpanichacks/flock-you`, ESP32 DevKit and M5 boards |
+| `atsresumeimprover.simeononsecurity.com` | `ats-resume-improver` | ATS resume scoring, keyword gap analysis, cover letter generation | None (browser-local, optional user-supplied AI key) | React + Vite + TypeScript + Docker |
+| (no subdomain, repository only) | `track-carrier-openroaming-support` | Tracks OpenRoaming support per carrier PLMNID with NAPTR and SRV lookups | mcc-mnc.com PLMNID list | Weekly GitHub Actions run, results committed to the README |
+
+Facts worth keeping straight when writing about these tools:
+
+- **Flock Finder records are heuristics, not confirmations.** An OUI match means the
+  MAC prefix matches a known Flock Safety prefix. Prefixes get shared, reassigned, or
+  spoofed, and WiGLE data arrives sporadically because the cameras wake only to upload.
+  Always pair a Flock Finder claim with a "suspected" qualifier and suggest on-site
+  confirmation.
+- **Helium Map is the only sibling site whose upstream repo is archived.** State the
+  archive date rather than claiming a live daily cadence.
+- **Eye Spy is firmware, not a website feature.** The subdomain hosts a web flasher and
+  dashboard, and the flashing target is an M5Stack Atom Lite (ESP32-PICO-D4).
+- **Two sibling sites are camera-detection firmware and they are not duplicates.**
+  `eye-spy` (M5Stack Atom Lite, wider sensor list, one RGB score LED) and
+  `flock-you-esp32` (a fork of `colonelpanichacks/flock-you`, any ESP32 with 4MB flash,
+  five WiFi and BLE detection techniques, Flask GPS wardriving dashboard, $5 to $12
+  builds). Keep the distinction in prose rather than describing them as the same tool.
+- **`track-carrier-openroaming-support` has no subdomain.** Its output is a carrier table
+  and a realm lookup table, so it publishes through the repository README and a weekly
+  GitHub Actions run. It lives on the `/sibling-sites/` page under `## Related Research
+  Projects` and must **not** be added to the footer Tools group, which lists subdomains
+  only. The repo's About panel points at `simeononsecurity.com`, not a subdomain, which is
+  the tell.
+
+### The `/sibling-sites/` Hub Page
+
+`content/sibling-sites/index.en.md` is the index for all six. It carries one `##`
+section per tool, each ending in a `{{< centerbutton >}}` CTA, plus a `## Sibling Sites
+at a Glance` two-column table, a `## What Counts as a Sibling Site` section that
+contrasts sibling sites against the browser-only utilities on `/tools/`, a `## Why They
+Live on Subdomains` section, an `## ItemList` JSON-LD block, and a `## Next Steps`
+section. Cover and inline images were generated with
+`tools/generate_cover_images.py --content-dir all --slug sibling-sites --force
+--include-inline-images`.
+
+Only an `index.en.md` file exists in the directory, which is what makes the page
+English-only. Do not add translated `index.<lang>.md` files for it.
+
+### The Footer "Tools" Group Is Language-Gated
+
+`themes/soshellofriend/layouts/partials/footer.html` carries a fourth nav group, `Tools`,
+between `<nav class="footer__nav">` and the `Company` group. It links `/sibling-sites/`
+plus all six subdomains. The whole group sits inside:
+
+```gotemplate
+{{ if or (eq .Site.Language.Lang "en") (eq .Site.Language.Lang "EN") }}
+```
+
+Sibling sites are English-only, so the group must never render on the translated
+subdomains. Adding a new sibling site means three edits: the new tool's content page (if
+it gets one), the footer group, and the `/sibling-sites/` page. `partialCached` already
+keys the footer by `.Site.Language.Lang`, so the per-language render is cached correctly.
+
+Two details to watch:
+
+- **`{{ ("sibling-sites/" | absURL) }}` resolves against the language baseURL.** The EN
+  config (`config/language/en/config.toml`) sets `baseurl = "https://simeononsecurity.ch"`,
+  so the footer link on the EN site points at the `.ch` domain while the tool subdomains
+  stay on `.com`. This matches every other `absURL` link already in the footer.
+- **`{{< button >}}` and `{{< centerbutton >}}` build their `title` attribute from
+  `$.Page.Title`, not from the inner button text.** On a page with six CTAs, every tool
+  button therefore carries the page title as its tooltip. This is existing shortcode
+  behavior, not a bug introduced by the sibling-sites page. Fix the shortcode if a
+  per-button title ever matters.
+
+External subdomain links in the footer use `target="_blank" rel="noopener external"`,
+matching the social icon row.
+

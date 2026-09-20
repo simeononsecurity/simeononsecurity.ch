@@ -60,3 +60,9 @@ coverCaption: ""
 | Link                                       | Tool Description                                                                                                    |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | [Chmod Command Generator](/chmod/)         | A menu-based tool that generates chmod commands based on user input for modifying file permissions.               |
+
+---
+
+### Sibling Sites
+
+Some projects grew past a single page and moved to their own subdomains. The **[Sibling Sites](/sibling-sites/)** page covers all seven: **Helium Map**, **Offload Search**, **OpenRoaming Map**, **Flock Finder**, **Eye Spy**, **Flock-You ESP32**, and **ATS Resume Match**.

@@ -102,3 +102,29 @@ Before committing any file that contains new or changed URLs:
 4. [ ] Confirmed page description or opening content is topically consistent.
 5. [ ] Replaced any failed URLs with a working authoritative alternative.
 6. [ ] Confirmed all internal links resolve to an existing content file.
+
+## Sibling-Site Subdomains Return 403 to Every Automated Fetcher
+
+`simeononsecurity.com` and its tool subdomains sit behind Cloudflare bot protection.
+`cIv3Kr0mcp0visit_page`, `fetch_web_content`, and the web-search MCP tools all receive
+`HTTP 403 Forbidden` for `heliummap.simeononsecurity.com`, `offloadsearch.simeononsecurity.com`,
+`openroamingmap.simeononsecurity.com`, `flockfinder.simeononsecurity.com`,
+`eyespy.simeononsecurity.com`, and `atsresumeimprover.simeononsecurity.com`. This is a
+tooling limitation, not a broken link, and it is the same wall documented in
+`13-image-webp-conversion-pipeline.md` for image and sitemap fetches.
+
+**When a subdomain 403s, verify the target a different way instead of guessing:**
+
+1. Fetch the upstream GitHub repository for the same resource
+   (`https://github.com/simeononsecurity/<project>`). Every sibling-site repo lists its
+   subdomain as the repository homepage in the About panel, which confirms the mapping.
+2. Fetch the published page source from
+   `https://raw.githubusercontent.com/simeononsecurity/<project>/main/<docs|public>/index.html`
+   and read the `<title>` and `<meta name="description">`. The CNAME on the branch
+   (`location-search-tool` publishes one at the repo root) confirms the custom domain.
+3. Record the failure mode in the commit note: "subdomain returned 403 to automated
+   fetch, mapping confirmed via upstream repo homepage and raw page source."
+
+Do not add a "link works" claim for a subdomain you could not fetch. State the
+verification method instead.
+
