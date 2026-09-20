@@ -138,6 +138,45 @@
 
     <!-- Navigation links in labeled groups -->
     <nav class="footer__nav" aria-label="Footer navigation">
+      {{/* Sibling sites are English-only projects, so this group renders on the EN site only. */}}
+      {{ if or (eq .Site.Language.Lang "en") (eq .Site.Language.Lang "EN") }}
+      <div class="footer__nav-group">
+        <span class="footer__nav-label">Tools</span>
+        <a itemprop="url" href="{{ ("sibling-sites/" | absURL) }}" title="Sibling Sites - standalone tool subdomains" aria-label="Sibling Sites">
+          <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+          <span itemprop="name">Sibling Sites</span>
+        </a>
+        <a itemprop="url" href="https://heliummap.simeononsecurity.com/" title="Helium Map - Helium Mobile and Helium Free WiFi coverage map" aria-label="Helium Map" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i>
+          <span itemprop="name">Helium Map</span>
+        </a>
+        <a itemprop="url" href="https://offloadsearch.simeononsecurity.com/" title="Offload Search - check whether an address suits carrier offload" aria-label="Offload Search" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-magnifying-glass-location" aria-hidden="true"></i>
+          <span itemprop="name">Offload Search</span>
+        </a>
+        <a itemprop="url" href="https://openroamingmap.simeononsecurity.com/" title="OpenRoaming Map - Hotspot 2.0, Passpoint, and OpenRoaming access points" aria-label="OpenRoaming Map" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-wifi" aria-hidden="true"></i>
+          <span itemprop="name">OpenRoaming Map</span>
+        </a>
+        <a itemprop="url" href="https://flockfinder.simeononsecurity.com/" title="Flock Finder - map suspected Flock Safety ALPR cameras" aria-label="Flock Finder" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-camera-retro" aria-hidden="true"></i>
+          <span itemprop="name">Flock Finder</span>
+        </a>
+        <a itemprop="url" href="https://eyespy.simeononsecurity.com/" title="Eye Spy - passive surveillance detector firmware for the M5Stack Atom Lite" aria-label="Eye Spy" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-eye" aria-hidden="true"></i>
+          <span itemprop="name">Eye Spy</span>
+        </a>
+        <a itemprop="url" href="https://atsresumeimprover.simeononsecurity.com/" title="ATS Resume Match - score and rewrite a resume for applicant tracking systems" aria-label="ATS Resume Match" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-file-circle-check" aria-hidden="true"></i>
+          <span itemprop="name">ATS Resume Match</span>
+        </a>
+        <a itemprop="url" href="https://flockyouesp32.simeononsecurity.com/" title="Flock-You ESP32 - WiFi detection firmware for Flock Safety cameras, any ESP32 board" aria-label="Flock-You ESP32" target="_blank" rel="noopener external">
+          <i class="fa-solid fa-satellite-dish" aria-hidden="true"></i>
+          <span itemprop="name">Flock-You ESP32</span>
+        </a>
+      </div>
+      {{ end }}
+
       <div class="footer__nav-group">
         <span class="footer__nav-label">Company</span>
         <a itemprop="url" href="{{ ("contactus/" | absURL) }}" title="{{ i18n "contact_page_title" }}" aria-label="{{ i18n "contact_page_title" }}">
