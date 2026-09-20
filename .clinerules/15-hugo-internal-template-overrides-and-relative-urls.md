@@ -189,3 +189,111 @@ list-type page on the site (`/articles/`, `/writeups/`, every `/tags/<x>/` page,
 etc.), leaving only the footer's `random-lazy.html` (which has no such restriction)
 showing on those pages. Fixed by changing the guard to `{{ if not .IsHome }}` in both
 files, matching the pattern `random-lazy.html` already used correctly.
+
+## Invalid JSON-LD in `extended_footer.html` (Fixed 2026-09) and the Raw-HTML-in-Markdown Minifier Flake
+
+Two separate findings from the same investigation. Neither is a content bug in the page that
+reported the error.
+
+### Finding 1: trailing comma made `OnlineBusiness` schema invalid on every page
+
+`themes/soshellofriend/layouts/partials/extended_footer.html` ended with an
+`OnlineBusiness` JSON-LD block carrying a **trailing comma** after its final property:
+
+```json
+"url": "https://simeononsecurity.com",
+  }
+```
+
+Trailing commas are valid in JavaScript and invalid in JSON, so the block never passed a
+strict JSON parser. The consequence is silent: every page shipped invalid
+`application/ld+json`, so strict consumers (Google Rich Results, schema validators)
+discarded the `OnlineBusiness` schema entirely. Nothing in the build reported it.
+
+**Fix:** remove the trailing comma. Never "fix" this by disabling `--minify` or the JSON
+minifier.
+
+### Finding 2: raw HTML in markdown is the minifier flake trigger
+
+After the comma fix, `npx hugo --minify -D --config config/language/en/config.toml`
+still failed intermittently, always naming the same page:
+
+```
+failed to process "/sibling-sites/index.html": "...:8281:36": expected comma character
+or an array or object ending on line 8281 and column 36
+```
+
+What the investigation established:
+
+1. **The failure is nondeterministic.** The identical command produced a clean build on
+   retry. Measured on the content that existed at the time: 2 failures in 9 minified
+   builds (about 22 percent). `Total in ... ms` prints before the error, so the site
+   renders fully and then dies in the post-processing pass.
+2. **The unminified render of the same page is complete and valid.** Every JSON-LD block
+   parses cleanly. The corruption is introduced by the minifier stage only.
+3. **Hugo's own debug dump is misleading.** On failure Hugo writes the input to
+   `$TMPDIR/hugo-transform-error<N>` and prints a context line whose line number does not
+   correspond to the reported position (the error said line 8281, the printed context was
+   labelled `16:`). In the dump the closing tag appeared truncated to `</s`. Do not treat
+   that dump as ground truth when diagnosing.
+4. **The page is the only page on the site that authors raw HTML in markdown.**
+   `content/sibling-sites/index.en.md` was the sole file under `content/` containing a
+   literal `<script type="application/ld+json">` block or a `<u>` tag. Every other page
+   gets its markup from templates and shortcodes.
+5. **Both failure positions land at or immediately after that raw `<script>` block.** One
+   error resolved at the block's own closing tag, the other inside the mailerlite
+   `<style type="text/css">` block which follows it directly in document order.
+6. **The ad partials were ruled out.** All 43 files under `layouts/partials/ads/` have
+   balanced `div`, `span`, `a`, and `style` tags, and none contains a `<script>`.
+
+**Rule: do not author raw HTML inside markdown content.** This is the convention rule 09
+already states ("Use shortcodes instead of raw HTML to avoid this requirement"). Put page
+schema in a template or shortcode, and use a `> **Warning:**` blockquote callout instead of
+`<u>`. The sibling-sites page had both constructs removed and now matches every other page
+in markup provenance.
+
+### Diagnosing a minifier failure on a page you just added
+
+1. **Do not assume your new content is at fault just because the error names your page.**
+   The path in the error is the page whose output was being minified, not the origin of the
+   malformed token. Retry the build once; if the second run passes, the trigger is
+   intermittent.
+2. **Compare the minified build against an unminified one.** If
+   `hugo -D --config config/language/<lang>/config.toml` (no `--minify`) renders the page
+   correctly, the content and templates are fine and the problem is in the minify stage.
+3. **Check whether the page authors raw HTML.** Run
+   `grep -rn '<[a-z]' content/<section>/<slug>/index.en.md`. If it returns a tag, that is
+   the suspect. Remove it.
+4. **Validate every JSON-LD block on the built page mechanically** rather than reading
+   them. This handles Hugo's minified, unquoted-attribute output:
+
+   ```bash
+   python3 - <<'PY'
+   import re, json
+   html = open('/tmp/build/<page>/index.html', encoding='utf-8').read()
+   blocks = re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', html, re.S)
+   print('blocks:', len(blocks))
+   for i, b in enumerate(blocks):
+       try:
+           json.loads(b)
+           print(i, 'VALID', len(b))
+       except Exception as e:
+           print(i, 'INVALID', e)
+           print(b[:400])
+   PY
+   ```
+
+   A `type="application/ld+json"` selector must match on the **unquoted** form too. A
+   regex looking for `<script type="application/ld+json">` returns 0 blocks on minified
+   output and looks like "there is no JSON-LD here", which is wrong.
+3. **Check whether the failing element is inside an ad partial.** `layouts/partials/ads/`
+   is the only nondeterministic content in a build (`random-lazy.html` /
+   `random-eager.html` / `random-eager-floating.html` pick a random partial per page and
+   per build). Confirm with `grep -rn '<script' layouts/partials/ads/`. As of 2026-09 the
+   ad partials contain inline `<style>` only and **no** `<script>`, so they cannot be the
+   source of a JS or JSON minifier error.
+4. The count of JSON-LD blocks on a standard article page is **7**: `Article`,
+   `BreadcrumbList`, one `ImageObject` per `{{< figure >}}`, any page-authored `ItemList`,
+   and the footer's `OnlineBusiness`. If the count drops, a schema partial silently
+   stopped emitting.
+

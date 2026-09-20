@@ -118,8 +118,18 @@ warnings where bold alone is not enough — for example, a step that causes irre
 ```
 
 Limit underline to one or two instances per page. If every warning is underlined, none stand out.
-The site config must have `markup.goldmark.renderer.unsafe = true` for raw HTML to pass through.
-Verify this before relying on `<u>` in content.
+
+**Do not use the `<u>` tag in markdown content.** Raw HTML inside markdown is the one construct
+associated with intermittent `hugo --minify` build failures on this site (see
+`15-hugo-internal-template-overrides-and-relative-urls.md`). Use a blockquote callout instead,
+which needs no raw HTML and matches the callout style in this rule:
+
+```markdown
+> **Warning: this command wipes all data on the target disk.**
+```
+
+The site config does have `markup.goldmark.renderer.unsafe = true`, so raw HTML passes through
+in the rendered page. Passing rendering is not the risk. The risk is the minify stage downstream.
 
 ### Combined emphasis — bold + italic
 
