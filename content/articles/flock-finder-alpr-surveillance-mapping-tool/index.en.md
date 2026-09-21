@@ -14,6 +14,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-alpr-surveillance
 
 **An open-source surveillance awareness tool that maps Flock Safety ALPR cameras using crowdsourced WiFi data.**
 
+> **Correction, September 21, 2026:** We audited the underlying 146,526-record dataset and found that the original headline and uniform map markers substantially overstated what OUI matching could prove. The audit found 50,278 Barco ClickShare systems and 60,793 rows matching known-other naming rules. Flock Finder now publishes evidence classes, excludes those records from the default map and headline, and exposes confidence filters. Read the full methodology and correction in **[We Mapped 146,526 “Flock Cameras.” 50,278 Were ClickShare Systems](/articles/flock-finder-oui-false-positive-audit-2026/)**.
+
 ## What Is Flock Finder?
 
 **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** is an open-source project that maps **Flock Safety ALPR (Automatic License Plate Reader) cameras** across the United States and 108 other countries. It combines **31 known Flock Safety WiFi OUI (Organizationally Unique Identifier) prefixes** with the **WiGLE crowdsourced WiFi database** to identify and plot suspected camera locations on an interactive map.
