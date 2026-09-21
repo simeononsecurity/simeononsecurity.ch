@@ -188,6 +188,27 @@ There is also a credibility asymmetry. A vendor or critic needs one demonstrably
 
 Open-source transparency work earns trust through inspectable methods and visible uncertainty. Publishing the raw data helped expose our error, but raw access did not excuse the interface that overstated it. The correction belongs wherever a reader encounters the claim: field, filter, marker, legend, and headline.
 
+### A Request to Every Flock and ALPR Map
+
+Other Flock and ALPR mapping projects should audit their datasets too. This is an invitation to compare methods, not an allegation that every map inherited our mistake.
+
+[WiGLE](https://www.wigle.net/stats/) is the broadest publicly accessible, globally searchable WiFi observation dataset we know of. That reach is exactly what made Flock Finder attractive: one API could turn a field-researched signature list into a worldwide map. It also made the error large enough to measure. A global database will return every unrelated product sharing a radio supplier's address space, not only the product that motivated the query.
+
+Other maps use different evidence. Some rely on photographs and volunteer field observations; others import OpenStreetMap surveillance tags, public records, vendor disclosures, or data from another community project. Their totals are not directly comparable to our WiGLE results, and our 2.4% SSID-confirmed rate should not be projected onto a field-verified dataset. The common risk is that one project's classification can flow into another project's source data, then appear to be independent corroboration.
+
+Every public map should be able to answer a short audit:
+
+1. **What does one marker mean?** A photographed device, a government record, an OUI match, a user report, or an import from another map?
+2. **How many records have direct product evidence?** Publish counts by evidence class instead of one aggregate camera total.
+3. **Which sources are independent?** Track provenance through imports so the same observation is not counted as multiple confirmations.
+4. **What contradicts the classification?** Run frequency tables over SSIDs, vendors, countries, contributor labels, and every other categorical field.
+5. **How are uncertainty and disputes rendered?** Put confidence and correction status in the marker, filters, exports, and headline.
+6. **Can another researcher reproduce the count?** Publish the query, source snapshot, classification rules, and date.
+
+This audit does not make the Flock problem smaller. A network of ALPR cameras can still record travel, support searches across jurisdictions, and affect people who never consented to the collection. Accurate counts make that criticism harder to dismiss. If we are going to challenge surveillance systems, our maps need to distinguish what we observed, what we inferred, and what we confirmed.
+
+We made a well-informed mistake. The prefixes came from legitimate field research, the pipeline was reproducible, and the caveats were real. The inference still exceeded the evidence. Good intentions and good inputs do not remove the obligation to test what a system produces at scale.
+
 ______
 
 ## Reproduce the Audit
