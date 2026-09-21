@@ -132,3 +132,67 @@ diff against `git show origin/website-en-alt:<file>`.
    (`_240x135`, `_480x270`, `_731x411`, `_1920x1080` for a typical 16:9 cover) are all
    distinct file sizes/dimensions on disk under `img/cover/`, not two identical files
    under different names.
+
+## Front-Matter `lastmod` Is Ignored While `enableGitInfo` Is On (Found 2026-09-20)
+
+Adding `lastmod:` to article front matter does **not** change `.Lastmod`. Hugo's default
+front-matter precedence resolves `lastmod` from this ordered list:
+
+```toml
+[frontmatter]
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+```
+
+`:git` sits **first**, so with `enableGitInfo = true` (set in both
+`config/_default/config.toml` and every `config/language/<lang>/config.toml`) the Git
+commit date always wins over the front-matter value. Confirm the live list with:
+
+```bash
+npx hugo config | grep -A6 -i frontmatter
+```
+
+**What this means in practice:** front-matter `lastmod` is decorative on this site. The
+date a reader or crawler sees comes from the last commit touching the file, which is why
+`.clinerules/14`'s `fetch-depth: 0` fix matters so much. A page edited but not yet
+committed still reports its previous commit date in `dateModified`.
+
+Do not "fix" this by reordering the list without deciding the policy first. Setting
+`lastmod = ['lastmod', ':git', ...]` would make front matter authoritative, but it also
+changes `sitemap.xml` `<lastmod>`, every `dateModified` schema value, and the news
+sitemap's 48-hour window at once, across all 17 languages.
+
+**Verify which date actually rendered rather than trusting the front matter:**
+
+```bash
+grep -o 'dateModified[^,]*' public/articles/<slug>/index.html | head -1
+```
+
+## The "Modified:" Indicator Only Renders on Guides, Not Articles (Found 2026-09-20)
+
+`themes/soshellofriend/layouts/_default/single.html` gates the `lastmod.html` partial
+behind two conditions:
+
+```gotemplate
+{{ if eq .Type $contentTypeName }}
+  {{ if $.Site.Params.LastModDisplay }}
+    {{ partialCached "lastmod.html" . .Page ... }}
+```
+
+`$contentTypeName` resolves from the `contentTypeName` param, which both config files set
+to **`"guides"`**. Article pages have `.Type == "articles"`, so the comparison fails and
+the modified-date span never renders on them.
+
+Empirically confirmed on a single built tree:
+
+| Page kind | `.Type` | `post-moddate` spans rendered |
+|---|---|---|
+| Guide | `guides` | 1 |
+| Article | `articles` | 0 |
+| Homepage article cards | (calls the partial directly) | 1 per card |
+
+Article pages therefore show only the published date, while guides and homepage cards
+also show `(Modified: YYYY-MM-DD)`. `lastModDisplay` is a real per-language param
+(`config/_default/config.toml` carries translated values such as `"Modifié :"`), so the
+label is not the reason for the gap. Whether suppressing the modified date on articles is
+intended is a product decision, since changing `contentTypeName` or removing the `.Type`
+guard adds the span to roughly every article on the site.
