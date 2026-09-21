@@ -14,6 +14,9 @@
 <!-- ── Author meta ───────────────────────────────────────────────────── -->
 <meta name="author" content="{{ with .Params.Author }}{{ . }}{{ else }}SimeonOnSecurity{{ end }}">
 
+<!-- ── Author profile page: full Person entity in structured data ─────── -->
+{{ if and .IsPage (eq .Section "authors") }}{{ partial "schema/author_person.html" . }}{{ end }}
+
 <!-- ── Service-worker link prefetcher: idle + hover-intent caching ───── -->
 <script defer src="/js/sw-prefetch.js"></script>
 

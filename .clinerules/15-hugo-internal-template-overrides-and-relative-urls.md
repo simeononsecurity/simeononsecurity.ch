@@ -297,3 +297,55 @@ in markup provenance.
    and the footer's `OnlineBusiness`. If the count drops, a schema partial silently
    stopped emitting.
 
+
+## Emitting JSON-LD From a Template Requires `jsonify` Plus `safeJS`
+
+Page-specific structured data belongs in a template, not in the markdown body (see the
+raw-HTML finding above). The author profile `Person` entity is the worked example:
+`layouts/partials/schema/author_person.html`, called from
+`layouts/partials/extended_head.html` behind
+`{{ if and .IsPage (eq .Section "authors") }}`.
+
+Build the object with `dict` and `slice` rather than hand-written JSON. That removes the
+whole class of trailing-comma and quote-escaping bugs, and it keeps every string escaped by
+Go's JSON encoder instead of by hand.
+
+**The trap:** `{{ $person | jsonify }}` alone is not enough. Hugo renders templates with
+`html/template`, which treats the inside of a `<script>` element as a JavaScript context.
+The `jsonify` output arrives there as a plain string, so the escaper encodes it as a JS
+*string literal* and the page ends up with double-encoded JSON:
+
+```
+<script type="application/ld+json">"{\"@context\":\"https://schema.org\", ...}"</script>
+```
+
+That block fails every strict parser, and the failure is invisible in a browser. The fix is
+one more pipe:
+
+```gotemplate
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+```
+
+Note that `site_schema.html` avoids the problem a different way, by hand-writing the JSON and
+applying `safeJS` to each interpolated value. Either pattern is fine. Do not mix them.
+
+**Verification:** parse every block rather than eyeballing it. Wrap the parse in a type check,
+because a double-encoded block parses successfully as a Python `str` and a naive script
+reports it as valid:
+
+```python
+import re, json
+html = open('/tmp/build/<page>/index.html', encoding='utf-8').read()
+for i, b in enumerate(re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', html, re.S)):
+    obj = json.loads(b)
+    if isinstance(obj, str):
+        print(i, 'DOUBLE-ENCODED STRING - missing safeJS')
+    else:
+        print(i, 'VALID', obj.get('@type'))
+```
+
+Also confirm the `@id` you emit matches the reference other pages use. `site_schema.html`
+points `Organization.founder` at `$baseURL + authors/simeononsecurity/#person`, so the profile
+page has to publish a `Person` with that exact `@id` for the two nodes to resolve to one
+entity.
+
