@@ -1,6 +1,7 @@
 ---
 title: "Flock Safety Camera Vulnerabilities: 50+ Flaws Found"
 date: 2026-05-24
+lastmod: 2026-09-20
 toc: true
 draft: false
 description: "Comprehensive analysis of 50+ critical security vulnerabilities discovered in Flock Safety ALPR cameras including hardcoded passwords, lack of encryption, unauthorized data collection, and physical access exploits based on independent security research."
@@ -24,6 +25,7 @@ This article provides a comprehensive technical analysis of these vulnerabilitie
 - **404 Media's reporting** on publicly exposed camera feeds
 - **Official responses** from Flock Safety and U.S. Senators
 - **National Vulnerability Database** (NVD) published disclosures
+- **The September 2026 filesystem dump** published by Distributed Denial of Secrets, with a line-by-line technical teardown by Micah Lee and a joint WIRED and 404 Media investigation
 
 For context on **why these cameras exist** and **privacy implications**, see our article: **[Flock Safety Camera Surveillance: Prevalence, Privacy Concerns, and Protection Strategies](/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/)**
 
@@ -63,6 +65,68 @@ The 50+ vulnerabilities span multiple categories:
 5. **Data Privacy** (unauthorized data collection, extended retention)
 6. **System Design** (outdated software, inadequate access controls)
 7. **Information Disclosure** (exposed API keys, public camera feeds)
+
+______
+
+## The September 2026 Filesystem Dump
+
+**In September 2026, the transparency nonprofit Distributed Denial of Secrets published complete filesystem images taken from an in-service Flock camera.** A collective calling itself **stegan0gram** unscrewed the hardware from its pole, copied the internal storage, and released the images. **404 Media** and **WIRED** ran a joint investigation, and security researcher **Micah Lee** published a technical teardown of the contents.
+
+Every earlier finding in this article came from a researcher's lab device or a purchased unit. This dataset comes from a camera in active municipal service, which makes it the strongest evidence published to date.
+
+*The camera was not breached over the network. It was physically removed.*
+
+### What the Dump Contains
+
+The release includes three partition images, and each one carries a different part of the story.
+
+| Partition | Size | Why It Matters |
+|-----------|------|----------------|
+| **system** | 1.5 GB | Android system image holding **19 Flock-built apps**, among them `flock-sambuca`, `flock-collins`, and `flock-phone-home` |
+| **persist** | 32 MB | Device credentials at `flock/auth0/auth0_cred`, on an **unencrypted partition built to survive a factory reset** |
+| **media** | 18 GB | Logs and imagery inside a container whose **decryption key is stored on the same partition** |
+
+### The Credentials Problem, Confirmed
+
+The dump settles whether hardcoded credentials are theoretical or deployed. They are deployed.
+
+**An API key granting access to Flock's backend appears hardcoded into the application binaries.** The value lives in a class called `CameraSettings` inside `com.flocksafety.android.common.lib`. Flock bundles the shared library into all 19 apps, so the key ships inside every one of them. The `flock-sambuca` app uses it during provisioning.
+
+**The authentication flow works like this:**
+
+1. Each camera requests credentials from a Flock server, identifying itself by **MAC address**
+2. Flock's **Okta Auth0** sign-in service returns a short-lived `FlockAuth0Token`
+3. The camera stores the returned credentials **in plain text**
+
+The Auth0 client ID and client secret sit on the **unencrypted `/persist` partition**, in a file built to survive a factory reset. An attacker recovers the persist partition first, because nothing protects it.
+
+[Critical Vulnerability #4](#critical-vulnerability-4-hardcoded-credentials-throughout-system) covers the wider pattern of hardcoded secrets across the platform.
+
+### The Encryption Key Shipped With the Lock
+
+Flock describes its cameras as protected by **on-device encryption**. The dump shows what the implementation looks like in practice.
+
+The 18 GB media partition does sit inside an encrypted container. The decryption key sits on the same partition, in a filename ending `.key`. The stegan0gram collective recovered the key, unlocked the container, and read the contents. **The imagery is encrypted in the same sense a locked box is locked when the key is taped to the lid.**
+
+Recovered logs also revealed the camera's own position. GPS coordinates appear **155 times** in the logs, clustered within roughly 100 meters, which is ordinary drift for a receiver bolted to a pole. The coordinates resolve to **Wauwatosa, Wisconsin**, a suburb of Milwaukee, where the camera was mounted on N Mayfair Road. Micah Lee matched the logs against Google Street View and identified the specific unit by serial number and MAC address.
+
+*Encryption at rest means nothing when the key is stored beside the ciphertext.*
+
+### What Flock Said
+
+Flock's response repeated its position from the earlier GainSec findings. A spokesperson stated:
+
+> "Flock takes security seriously and maintains a public Vulnerability Disclosure Policy for security researchers to report potential vulnerabilities directly to us. We received no report through that process, and based on the limited information provided, we do not have enough detail to assess the claims being made."
+
+This response is difficult to reconcile with the timeline. The vulnerabilities in the camera's operating system were patched publicly in **2018 and 2021**, and the standards for credential storage and key management are unchanged since well before the camera shipped. **Reviewing a decade of public vulnerability history does not require an external report.**
+
+Flock also characterized the removal and analysis of the camera as illegal, which it is under current law, while the security findings stand on their own regardless of how the hardware was obtained.
+
+### Why This Matters More Than the Earlier Research
+
+The GainSec white paper documented 51 findings against devices obtained legally. Flock disputed severity and argued access required physical proximity.
+
+This dump removes those caveats. The default state of a production camera, with no modifications by its operators, contains plain-text infrastructure credentials, keys stored alongside the data they protect, and an operating system missing eight years of security patches. **None of it required an exploit. It required a wrench.**
 
 ______
 
@@ -144,6 +208,29 @@ Flock Safety cameras run **Android Things 8.0 or 8.1**, which:
 **Known Vulnerabilities**: 900+
 **Security Patches**: None since EOL
 **Affected Devices**: Falcon, Sparrow, Condor, Bravo compute boxes
+
+### What the September 2026 Dump Shows
+
+The filesystem images published in September 2026 give exact versions for a camera in active service, rather than a lab unit.
+
+| Component | Version On the Camera | Status |
+|-----------|----------------------|--------|
+| **Android** | 8.1, build dated June 5, 2025 | Security patch level **2018-06-05** |
+| **Linux kernel** | 3.18.71 | Released 2017, and the 3.18 series ended at 3.18.140 in May 2019 |
+| **Current Android release** | Android 17, June 2026 | Nine major versions ahead |
+
+The camera build itself is recent. The **operating system underneath it is not**, and the patch level shows the device has received no Android security updates for **eight years**. The kernel sits **69 patch releases behind** even the end of its own maintenance branch, which is over nine years of missing fixes.
+
+### Two Vulnerabilities Present in This Build
+
+Micah Lee identified two publicly known flaws affecting components the camera ships with. The patch dates prove the camera predates every fix.
+
+| CVE | Component | Effect | Patched |
+|-----|-----------|--------|---------|
+| **CVE-2021-1905** | Qualcomm Adreno GPU driver | A use-after-free allowing **any code on the device, including unprivileged apps, to corrupt kernel memory and take full control** | May 2021 |
+| **CVE-2018-9568** "WrongZone" | Linux kernel socket handling | Type confusion over IPv6 allowing a program to **escalate to root**. Public exploit code exists | December 2018 |
+
+Both were patched years before this camera's firmware was built. **Neither depends on physical access, because both are reachable by software already running on the device.** The proximity caveat Flock used to downplay the GainSec findings does not apply to either one.
 
 ### Comparison to Consumer Devices
 
@@ -230,6 +317,9 @@ Security researchers discovered **extensive hardcoded credentials**:
 - **Hard-coded in firmware** and application code
 - **Grants backend access** to various services
 - **Found via reverse engineering** of Android APKs
+- **Confirmed by the September 2026 dump**: a backend API key hardcoded in `CameraSettings` inside `com.flocksafety.android.common.lib`, a shared library bundled into **all 19 Flock apps** on the device
+- **Auth0 client ID and secret stored on the unencrypted `/persist` partition** at `flock/auth0/auth0_cred`, a location built to survive a factory reset
+- **Returned credentials stored in plain text** after the camera authenticates to Flock's Okta Auth0 service using its own MAC address
 
 #### 3. Database Credentials
 - **SQLite databases** with no password protection
@@ -1160,3 +1250,9 @@ ______
 10. [Senator Wyden Letter to FTC](https://www.wyden.senate.gov/)
 11. [Lucy Parsons Labs - ALPR Research](https://lucyparsonslabs.com/)
 12. [DeFlock Project - Camera Mapping](https://deflockproject.org/)
+13. [Distributed Denial of Secrets - Flock ALPR Camera Filesystem Images](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Micah Lee - Flock cameras are riddled with security vulnerabilities and hard-coded credentials](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+15. [WIRED and 404 Media - Hackers Got Inside a Flock Camera](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+16. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+17. [NVD - CVE-2021-1905 Qualcomm Adreno GPU Use-After-Free](https://nvd.nist.gov/vuln/detail/CVE-2021-1905)
+18. [NVD - CVE-2018-9568 Linux Kernel Socket Type Confusion](https://nvd.nist.gov/vuln/detail/CVE-2018-9568)

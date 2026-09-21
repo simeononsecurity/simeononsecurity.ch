@@ -1,7 +1,7 @@
 ---
 title: "Flock Camera Detection Arms Race: What Changed in 2026"
 date: 2026-09-10
-lastmod: 2026-09-10
+lastmod: 2026-09-20
 toc: true
 draft: false
 description: "Flock-You users are reporting zero detections on drives that used to catch cameras every time. Here is what changed in Flock Safety's hardware, why BLE and the old management AP both stopped working, how the open-source detection community responded, and an emerging infrared-based detection approach that skips WiFi entirely."
@@ -89,6 +89,8 @@ The wildcard-probe fingerprint above only fires after the transmitter's MAC addr
 ```
 
 **This list is not static.** The upstream research notes several prefixes that were tested and then demoted (one turned out to be a Sony media player, another an early placeholder that never matched anything). Two entries are flagged as low-confidence and one, `82:6b:f2`, is deliberately kept even though it is a locally-administered address, because filtering it out would have silently dropped a real, confirmed DeFlockJoplin detection.
+
+**One entry now has independent hardware confirmation from a camera in municipal service.** The Flock unit whose filesystem images were published in September 2026 carried the MAC address **`f4:6a:dd:57:46:fb`**, and `f4:6a:dd` sits on this list at position 13. This unit was not a lab device or a purchased sample. It was mounted on a pole in Wauwatosa, Wisconsin, photographing traffic, which makes it the strongest single confirmation any prefix here has received.
 
 *If you maintain your own firmware fork, pull the OUI list from the upstream `datasets/` folder rather than hardcoding a copy. The list changes as the research does, and a stale copy is a slow, silent way to start missing cameras again.*
 
@@ -208,6 +210,40 @@ The response to both issues followed the same pattern that has kept this project
 
 ______
 
+## The Other Response: Taking the Hardware
+
+Wireless detection is one reaction to these cameras. A parallel effort went after the hardware itself, and in September 2026 it produced the most detailed public evidence about how a Flock camera works from the inside.
+
+**The stegan0gram collective removed a camera from its pole, copied the internal storage, and published the filesystem images through Distributed Denial of Secrets.** They describe the work in plain terms:
+
+> "Why just destroy them when we can reverse engineer them and find the secrets of those spying on us? We liberated hardware in the field, disarmed them, and proceeded with reverse engineering of the cameras and associated solar equipment."
+
+*The distinction matters. Destroying a camera removes one unit. Reverse engineering produces evidence about all of them.*
+
+### What the Removal Produced
+
+The published dataset includes an **18 GB media partition**, a **1.5 GB Android system image**, and a **32 MB credentials partition**, along with the recovered key for the encrypted media container. From it, researchers established the operating system version, the kernel version, the hardcoded backend credentials, and the plain-text authentication tokens the camera stores.
+
+This evidence base now supports the security research covered in **[Flock Safety Camera Vulnerabilities: 50+ Flaws Found](/articles/flock-safety-camera-security-vulnerabilities-research-2026/)**, which previously rested on lab devices and purchased units.
+
+### The Response to Removal
+
+Physical interference carries consequences, and the picture is mixed.
+
+- **Multiple people have been arrested nationwide** for allegedly tampering with or sabotaging Flock cameras.
+- **Some towns have announced they will stop using Flock cameras**, which is the outcome the cameras' opponents want.
+- **One police department built a fake, 3D-printed Flock camera case** to bait potential vandals, a decoy intended to generate arrests.
+
+Noel Pichardo, a former Pawtucket, Rhode Island police officer who became a critic of Flock after challenging his department's use of the cameras, makes the argument against sabotage directly. He told WIRED he understands the frustration but worries the tactic backfires. "I think that type of vigilantism will only crystallize the police and the state at large in their belief that this tool is necessary," he said. "The longer the state continues to ignore the groanings of their constituents who are against this type of surveillance, the more this will happen."
+
+### Where Detection Fits
+
+Nothing about the teardown changes the detection problem this article covers. The camera still broadcasts the way it broadcasts, the firmware still needs its OUI list and probe signature, and the two documented outages still stand.
+
+What the dump adds is **confirmation of the hardware identity**, including one OUI entry now verified against a real unit, plus a reminder about which kind of pressure moves deployments. **Cameras leave a route because a council vote ends a contract, not because a detector went dark.** The wireless tooling answers a personal question about your own surroundings. The policy fight answers the larger one, and the dump handed the policy fight its strongest evidence yet.
+
+______
+
 ## Conclusion: Detection Is a Moving Target, Not a Fixed Answer
 
 A silent detector on a route that used to catch cameras is not proof your hardware failed. It is evidence that the wireless signature it was built to recognize has changed, again, in a pattern that has now repeated twice inside a single year. The **management AP, BLE beaconing, and now potentially the 2.4GHz-only, OUI-only assumptions baked into the current firmware** have each had a limited shelf life.
@@ -260,6 +296,10 @@ ______
 5. [nitekry/nite-oui-collection](https://github.com/nitekry/nite-oui-collection)
 6. [DeFlock Joplin - Community ALPR Research](https://deflockjoplin.today)
 7. [Pintor, L. & Atzori, L. (2022) - Analysis of Wi-Fi Probe Requests Towards Information Element Fingerprinting, IEEE GLOBECOM](https://ieeexplore.ieee.org/document/10001618)
+8. [WIRED and 404 Media - Hackers Got Inside a Flock Camera](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+9. [Micah Lee - Flock cameras are riddled with security vulnerabilities and hard-coded credentials](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+10. [Distributed Denial of Secrets - Flock ALPR Camera Filesystem Images](https://ddosecrets.org/article/flock-alpr-camera)
+11. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
 8. [The Hunt for the Hidden Probe - Hidden SSID Wildcard Probe Behavior](https://goodwi.fi/posts/2023/12/hunt-for-hidden-probe/)
 9. [DeFlock - Crowdsourced ALPR Camera Map](https://deflock.org/)
 10. [Colonel Panic Tech - OUI-SPY and Detection Hardware](https://colonelpanic.tech)

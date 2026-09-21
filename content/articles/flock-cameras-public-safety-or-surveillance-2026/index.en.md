@@ -1,6 +1,7 @@
 ---
 title: "Flock Cameras: Public Safety Tool or Warrantless Surveillance Machine?"
 date: 2026-08-01
+lastmod: 2026-09-20
 toc: true
 draft: false
 description: "An independent analysis of Flock Safety ALPR cameras: how they actually work, what data they collect beyond license plates, how data sharing creates a shadow national database, and why the warrant question is the real issue."
@@ -76,6 +77,69 @@ This is not a hypothetical future capability. RTL-SDR receivers that can log TPM
 
 ______
 
+## What the Camera Recorded
+
+**In September 2026, a hacker collective removed a Flock camera from a pole, copied its storage, and published the filesystem images through Distributed Denial of Secrets.** The recovered logs gave researchers a complete operating record for a real deployment, and the numbers are larger than the public marketing implies.
+
+*The camera was not hacked. It was unscrewed.*
+
+### Twenty-One Days of Traffic
+
+The recoverable logs covered roughly **21 days** of operation across several periods. Over those windows the camera photographed about **50,200 vehicles and generated roughly 1.6 million images**.
+
+| Measure | Value |
+|---------|-------|
+| Vehicles photographed | **50,200** |
+| Images generated | **~1.6 million** |
+| Typical day | ~3,300 vehicles |
+| Busiest logged day | **4,454 vehicles** |
+| Images per passing vehicle | ~28 typical, **over 100 in some cases** |
+
+Older logs had been overwritten on the device, so the camera ran longer than the captured window shows. **A single roadway position produced a million images in under a month.**
+
+### Every Vehicle Gets Dozens of Photographs
+
+When motion enters the frame, the camera fires a rapid burst. A typical passing vehicle produced about **28 images**, and some produced more than 100.
+
+The camera shoots at **different exposures** so it captures the license plate and the wider scene in separate frames, then scans the results, crops useful frames, and uploads them over cellular. The device itself does not read the plate. It runs roughly **20 Flock-built apps** handling motion detection, image capture, object classification, upload, and remote updates. **Plate reading and vehicle identification happen on Flock's servers, not at the roadside.**
+
+This distinction matters for the warrant argument. The camera is not a passive recorder of a plate number. It is a sensor feeding a remote identification pipeline.
+
+### The Software Detects People Too
+
+Flock states its cameras detect vehicles. The recovered code shows otherwise.
+
+**The on-device software explicitly includes a person detector.** When it identifies a person, it records where the person appears in the frame and a confidence score for the detection. This sits separate from the vehicle, plate, and bicycle detectors, and it is a deliberate part of the product rather than an artifact of a general-purpose model.
+
+WIRED tested the claim by extracting the models from the device and running them against recovered footage and control images. **The models readily detected people, including in a reporter's selfie.** Running the models across **27,321 stored video clips** returned person detections in 11 clips, all of them motorcyclists. The low count reflects camera placement above a roadway aimed at traffic lanes, not a limitation of the detector.
+
+**Those clips are the other finding worth noting.** They are **MP4 video files, one to two seconds long, at 1024 by 768 pixels without audio**, and they are stored separately from the high-resolution still bursts. Flock's public descriptions emphasize still images of plates. The device also records short video.
+
+*Flock maintains its cameras do not perform face recognition, and the investigation found no evidence of face recognition beyond capabilities included by default in Android, which did not appear enabled or in use.*
+
+### The Plate Detector Sees Plates Everywhere
+
+The same investigation found the license plate detector interpreting graphics as plates.
+
+**Bumper stickers, dealership frames, and other vehicle graphics were cropped out as if they were license plates.** In one video of a passing motorcycle, the detector isolated an **American flag patch on the rider's saddlebag** and treated it as a plate.
+
+This is a technical accuracy problem and a privacy problem at once. It shows the detector's classification is loose enough to collect images of things it was not designed to collect, and those images travel to the same servers as legitimate reads.
+
+### The Camera Was Running Out of Space
+
+The logs show a device under constant storage pressure.
+
+Recovered logs recorded **more than 27,000 "no space left on device" errors** while attempting to save full-resolution images, alongside tens of thousands of related errors, crashes, and reboots.
+
+Two log messages stand out for what they say about the engineering.
+
+- Roughly every two minutes, a service checked whether the camera was still running and logged the message **"Who's a good boy?!"**. More than **12,000** of those entries appear in the recovered logs.
+- When the camera restarted, another service left the message **"A reboot was requested! ¡Adiós, Amigos!"**
+
+The tone is informal. The substance is not. This is a surveillance device missing eight years of operating system patches, and it spends its time crashing and running out of disk while saving the images it exists to collect.
+
+______
+
 ## The Real Problem: Photography vs. Database
 
 Taking a photo of a car on a public street is legal. A police officer writing down a license plate is legal. A neighbor's security camera recording traffic is legal.
@@ -99,6 +163,8 @@ Individual Flock camera networks are not isolated. Cities and counties enter **d
 **This is how a local camera network becomes a de facto national surveillance system without Congress ever voting on it.**
 
 The data sharing is voluntary and legally murky. There is no federal statute authorizing it. There are no standardized data retention limits. There are no mandatory audit requirements. And there is no mechanism for a citizen to find out whether their vehicle's movements have been queried.
+
+**The scale of this access is now documented.** In Alpharetta, Georgia, WIRED found records from the city's Flock cameras were reachable by **more than 2,000 agencies**, including police departments, colleges, airports, and the Office of Inspector General for the federal General Services Administration. The agency count is not a quirk of Alpharetta's own agreements. It reflects how Flock's national network is wired by default.
 
 DeFlock.org, which crowdsources Flock camera locations, has mapped over **124,000 suspected LPR deployments** across the United States. The coverage in urban and suburban areas is dense enough that driving across most American cities generates a near-continuous surveillance record.
 
@@ -230,4 +296,8 @@ ______
 8. [FBI Vault — COINTELPRO](https://vault.fbi.gov/cointel-pro)
 9. [MuckRock — Flock Safety](https://www.muckrock.com/tags/flock-safety/)
 10. [Flock Finder GitHub](https://github.com/simeononsecurity/flock-finder)
+11. [WIRED and 404 Media - Hackers Got Inside a Flock Camera](https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/)
+12. [Micah Lee - Flock cameras are riddled with security vulnerabilities and hard-coded credentials](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
+13. [Distributed Denial of Secrets - Flock ALPR Camera Filesystem Images](https://ddosecrets.org/article/flock-alpr-camera)
+14. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
 11. [Flock Finder Interactive Map](https://simeononsecurity.github.io/flock-finder/)
