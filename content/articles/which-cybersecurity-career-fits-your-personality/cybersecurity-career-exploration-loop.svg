@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">A four-step career exploration loop</title>
+  <desc id="desc">Notice a preference, try a realistic task, reflect on the experience, and check a real work role before repeating.</desc>
+  <defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#eef8ff}.step{font-size:28px;font-weight:700}.sub{font-size:20px;fill:#b9cce2}.num{font-size:28px;font-weight:700}</style></defs>
+  <rect width="1200" height="420" rx="28" fill="#0b172d"/>
+  <path d="M265 210 H332 M555 210 H622 M845 210 H912" stroke="#86dff2" stroke-width="6" fill="none"/>
+  <path d="m323 195 20 15-20 15 m290-30 20 15-20 15 m290-30 20 15-20 15" stroke="#86dff2" stroke-width="6" fill="none"/>
+  <g><rect x="20" y="100" width="245" height="220" rx="22" fill="#153351" stroke="#408cd4" stroke-width="3"/><circle cx="142" cy="142" r="25" fill="#408cd4"/><text x="142" y="152" text-anchor="middle" class="num">1</text><text x="142" y="215" text-anchor="middle" class="step">Notice</text><text x="142" y="253" text-anchor="middle" class="sub">your preferences</text></g>
+  <g><rect x="310" y="100" width="245" height="220" rx="22" fill="#2b2454" stroke="#9a79ef" stroke-width="3"/><circle cx="432" cy="142" r="25" fill="#9a79ef"/><text x="432" y="152" text-anchor="middle" class="num">2</text><text x="432" y="215" text-anchor="middle" class="step">Try</text><text x="432" y="253" text-anchor="middle" class="sub">a realistic task</text></g>
+  <g><rect x="600" y="100" width="245" height="220" rx="22" fill="#173f42" stroke="#73d3b1" stroke-width="3"/><circle cx="722" cy="142" r="25" fill="#4cae8f"/><text x="722" y="152" text-anchor="middle" class="num">3</text><text x="722" y="215" text-anchor="middle" class="step">Reflect</text><text x="722" y="253" text-anchor="middle" class="sub">on the routine work</text></g>
+  <g><rect x="890" y="100" width="290" height="220" rx="22" fill="#4b302c" stroke="#edaf77" stroke-width="3"/><circle cx="1035" cy="142" r="25" fill="#d18b55"/><text x="1035" y="152" text-anchor="middle" class="num">4</text><text x="1035" y="215" text-anchor="middle" class="step">Check</text><text x="1035" y="253" text-anchor="middle" class="sub">real role descriptions</text></g>
+</svg>

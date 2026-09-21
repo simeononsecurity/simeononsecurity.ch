@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Four families of cybersecurity work</title>
+  <desc id="desc">Defense and investigation, offensive security and research, governance risk and privacy, and engineering response and leadership surround a central prompt to try the tasks.</desc>
+  <defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#eef8ff}.small{font-size:26px}.label{font-size:34px;font-weight:700}.sub{font-size:22px;fill:#b9cce2}</style></defs>
+  <rect width="1200" height="610" rx="28" fill="#0b172d"/>
+  <path d="M600 265 V185 M470 305 H390 M730 305 H810 M600 345 V425" stroke="#65dbe8" stroke-width="7" fill="none"/>
+  <rect x="400" y="250" width="400" height="110" rx="25" fill="#234668" stroke="#7be7f3" stroke-width="4"/>
+  <text x="600" y="300" text-anchor="middle" class="label">Try the work</text><text x="600" y="337" text-anchor="middle" class="sub">Then compare what you enjoyed</text>
+  <rect x="390" y="45" width="420" height="135" rx="24" fill="#153351" stroke="#408cd4" stroke-width="3"/>
+  <text x="600" y="96" text-anchor="middle" class="small">Defense &amp; investigation</text><text x="600" y="135" text-anchor="middle" class="sub">Alerts · evidence · intelligence</text>
+  <rect x="28" y="237" width="355" height="135" rx="24" fill="#2b2454" stroke="#9a79ef" stroke-width="3"/>
+  <text x="205" y="289" text-anchor="middle" class="small">Offensive research</text><text x="205" y="327" text-anchor="middle" class="sub">Testing · reversing · OSINT</text>
+  <rect x="817" y="237" width="355" height="135" rx="24" fill="#173f42" stroke="#73d3b1" stroke-width="3"/>
+  <text x="995" y="289" text-anchor="middle" class="small">Governance &amp; privacy</text><text x="995" y="327" text-anchor="middle" class="sub">Risk · vendors · data</text>
+  <rect x="390" y="430" width="420" height="135" rx="24" fill="#4b302c" stroke="#edaf77" stroke-width="3"/>
+  <text x="600" y="481" text-anchor="middle" class="small">Engineering &amp; response</text><text x="600" y="520" text-anchor="middle" class="sub">Build · respond · lead · teach</text>
+</svg>
