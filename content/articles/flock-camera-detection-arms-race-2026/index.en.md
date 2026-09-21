@@ -96,6 +96,45 @@ The wildcard-probe fingerprint above only fires after the transmitter's MAC addr
 
 ______
 
+## Ranking the Detection Signals
+
+OUI matching is the method the current firmware leans on, and it is the weakest of the five available signals. The detection community at **[WiFi Mothership](https://wifimothership.com/flock)** ranks them by confidence, drawing on GainSec's firmware research.
+
+| Confidence | Signal | Notes |
+|------------|--------|-------|
+| **HIGH** | **BLE manufacturer ID `0x09C8`** (XUNTONG) | The strongest digital fingerprint. Appears on Raven units and on any Falcon or Sparrow with a battery module attached |
+| **HIGH** | **Raven BLE service UUIDs `0x3100` to `0x3500`** | Raven-specific GATT services covering GPS, power, network, upload, and error. Fires only on Raven hardware |
+| **MEDIUM** | **WiFi SSID pattern `^Flock-[A-Z0-9]+$`** | The default provisioning hotspot name. Other SSIDs found in firmware include `FS Ext Battery`, `Penguin`, and `Pigvision` |
+| **MEDIUM** | **BLE device-name substring** | Names such as `FS Ext Battery` appear in advertisement payloads and need no manufacturer-data parsing |
+| **LOW** | **MAC and OUI prefix matching** | **The noisiest method.** The component-vendor prefixes ship in thousands of unrelated products |
+
+*The bottom row is the one the current firmware depends on most, and this is the central problem with OUI-first detection.*
+
+### Why the OUI List Is So Noisy
+
+The 31 prefixes in the list above are not 31 Flock identifiers. WiFi Mothership tracks a parallel set of **26 prefixes and classifies every one by its actual owner**, which makes the composition visible.
+
+| Class | Count | Owner |
+|-------|-------|-------|
+| **Flock Safety** | **1** | `B4:1E:52`, an IEEE assignment to the company itself |
+| **Battery modules** | 10 | Silicon Labs parts in extended-battery packs |
+| **Camera modules** | 11 | Liteon Technology WiFi camera modules |
+| **Compute infrastructure** | 4 | Raspberry Pi Foundation and Raspberry Pi Trading |
+
+**Twenty-five of those 26 prefixes belong to component vendors**, and those parts ship in enormous volumes of unrelated hardware. A Silicon Labs battery-pack prefix or a Liteon camera-module prefix appears in products with no connection to Flock Safety, and Raspberry Pi boards are everywhere.
+
+**A match on any of them is a hint, not an identification.** This is why the wildcard-probe signature carries so much weight in the current firmware. Pairing an OUI match with an empty-SSID probe request raises confidence from a guess to 62 on the project's own scale.
+
+*Only `B4:1E:52` answers the question "is this a Flock device" by itself. Treat the other 30 prefixes as supporting evidence.*
+
+### How Many Cameras Expose a Hotspot at All
+
+Wardriving data gives a floor for the population. WiFi Mothership counted **900 or more Flock access points on WiGLE during 2025**, where a Flock AP means a device broadcasting a default `Flock-XXXX` hotspot SSID.
+
+This figure describes devices exposing a provisioning hotspot, not the installed base. Flock claims tens of thousands of deployments, and most of those cameras never broadcast anything a passing wardriver records. **The map is a sample, and a small one.**
+
+______
+
 ## Issue #43: New SSID Pattern, 5GHz, and MAC Anti-Fingerprinting
 
 Three months after Issue #20 closed, a second report arrived that describes what looks like a deliberate anti-detection countermeasure rather than an incidental firmware change. **[Issue #43](https://github.com/colonelpanichacks/flock-you/issues/43)**, filed in May 2026, is built on WiGLE wardriving data captured against a camera already confirmed on DeFlock, and it documents three findings none of the existing tooling accounted for.
@@ -300,6 +339,8 @@ ______
 9. [Micah Lee - Flock cameras are riddled with security vulnerabilities and hard-coded credentials](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
 10. [Distributed Denial of Secrets - Flock ALPR Camera Filesystem Images](https://ddosecrets.org/article/flock-alpr-camera)
 11. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+12. [WiFi Mothership - Flock Safety ALPR Detection and Device Reference](https://wifimothership.com/flock)
+13. [GainSec - Firmware Research and Security Advisories](https://gainsec.com/)
 8. [The Hunt for the Hidden Probe - Hidden SSID Wildcard Probe Behavior](https://goodwi.fi/posts/2023/12/hunt-for-hidden-probe/)
 9. [DeFlock - Crowdsourced ALPR Camera Map](https://deflock.org/)
 10. [Colonel Panic Tech - OUI-SPY and Detection Hardware](https://colonelpanic.tech)

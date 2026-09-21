@@ -140,6 +140,47 @@ The tone is informal. The substance is not. This is a surveillance device missin
 
 ______
 
+## The Product Line Collects More Than Plates
+
+The recovered camera was one Falcon unit. The fleet around it is larger, and the newer products collect signals a license plate reader never touched.
+
+### The Audio Sensor Classifies Distress
+
+**Raven** is an audio detection device mounted separately from the cameras. It runs on an ESP32 with a Syntiant NDP120-B0 neural DSP, and it initially shipped to sort four classes of sound: gunshots, tires, background, and unknown.
+
+**An October 2025 firmware update added a fifth class, sounds of human distress.** The sensor now scores whether a person nearby sounds like they need help, and it auto-cues co-located Condor and Falcon cameras through Flock's FlockOne platform layer.
+
+*This expansion is the one to pay attention to. A device marketed as gunshot detection quietly became an acoustic distress monitor.*
+
+### The Cameras Now Fly
+
+**Alpha** is Flock's own drone, unveiled in October 2025 and flying in active deployment, including a **South Bend Police Department pilot in March 2026**. It is Flock-designed, US-assembled, and NDAA-compliant.
+
+| Specification | Value |
+|---------------|-------|
+| Maximum speed | **60 MPH** |
+| Flight time | ~45 minutes |
+| Battery swap | **90 seconds** at a dual-battery dock |
+| Cellular links | **4 independent modems** for failover |
+| Plate reading altitude | **up to 2,000 feet** |
+| Coverage | Up to **50 square miles per dock** |
+
+**Aerodome** is the legacy drone line, inherited through a **$300 million acquisition in October 2024**. It flies DJI Matrice M350 and M300 RTK airframes, and the Hextronics Atlas nest holds eight batteries for continuous operation. Prosper Police and Scottsdale still operate them.
+
+### The Network Ingests Other People's Cameras
+
+**Wing** is not hardware. It is a software bridge announced in October 2025, and it wraps existing third-party IP cameras with Flock's analytics so non-Flock cameras feed into the same **Nova** investigation surface.
+
+**This changes the scale of the question.** A city installing Flock cameras knows exactly what it installed. A city running Wing converts its existing camera estate into Flock sensors without buying a single new camera, and the footage lands in one searchable system.
+
+### The Trailer Makes Deployment Trivial
+
+The **LPR Trailer** mounts a Flock camera on an All Traffic Solutions ATS-5 chassis with **120 watts of solar**, a **47 amp-hour battery**, and a radar unit with a message sign. It attaches to a 2 inch receiver hitch and deploys with one person.
+
+It also reports tampering and low battery, which tells you the company expects the hardware to be interfered with in the field.
+
+______
+
 ## The Real Problem: Photography vs. Database
 
 Taking a photo of a car on a public street is legal. A police officer writing down a license plate is legal. A neighbor's security camera recording traffic is legal.
@@ -300,4 +341,5 @@ ______
 12. [Micah Lee - Flock cameras are riddled with security vulnerabilities and hard-coded credentials](https://micahflee.com/flock-cameras-are-riddled-with-security-vulnerabilities-and-hard-coded-credentials/)
 13. [Distributed Denial of Secrets - Flock ALPR Camera Filesystem Images](https://ddosecrets.org/article/flock-alpr-camera)
 14. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
+15. [WiFi Mothership - Flock Safety ALPR Detection and Device Reference](https://wifimothership.com/flock)
 11. [Flock Finder Interactive Map](https://simeononsecurity.github.io/flock-finder/)

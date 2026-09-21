@@ -130,9 +130,81 @@ This dump removes those caveats. The default state of a production camera, with 
 
 ______
 
+## The Device Fleet
+
+Flock sells a product line rather than a single camera, and the security properties differ by device. The specifications below come from GainSec teardowns and the firmware analysis compiled by the detection community at **[WiFi Mothership](https://wifimothership.com/flock)**.
+
+| Device | Role | Platform | OS |
+|--------|------|----------|-----|
+| **Falcon** | Solar-powered ALPR camera | Qualcomm MSM8953 (Snapdragon 625) / OpenQ 624A SoM | Android 8.1 |
+| **Sparrow** | Wired-power ALPR camera | Same as Falcon | Android 8.1 |
+| **Raven** | Gunshot and distress audio detection | ESP32-WROOM-32D with Syntiant NDP120-B0 DSP | FreeRTOS / ESP-IDF |
+| **Bravo** | Edge AI compute box | Qualcomm QCS6490 / TurboX QCS6490-U8B | **Android 13, kernel 5.4.180** |
+| **Picard** | Legacy compute box | Phased out in favor of Bravo | |
+| **Condor** | PTZ camera | Not fully documented | |
+| **Alpha** | Autonomous drone | Flock-designed, NDAA-compliant | Proprietary autopilot |
+| **Aerodome M350** | Legacy drone | DJI Matrice M350 / M300 RTK | DJI firmware |
+| **LPR Trailer (ATS-5)** | Mobile ALPR platform | All Traffic Solutions chassis with a Flock camera | Same as Falcon |
+| **Wing** | Software bridge for third-party cameras | None, it wraps existing IP cameras | |
+
+*The generational gap is the first thing worth noticing. The compute box runs Android 13 while the cameras it serves run Android 8.1, an operating system released in 2017.*
+
+**Falcon is the device to watch.** It carries the ALPR workload, it has not moved off Android 8.1, and it stores to **32 GB of unencrypted eMMC**. The same eMMC is where the media and logs recovered by the stegan0gram collective lived. Sparrow is the same platform with wired power.
+
+**Bravo is the opposite case.** A modern compute box running Android 13 with AI inference for camera feeds shows the company is willing to ship current software when it chooses to.
+
+## Verified CVE Identifiers
+
+Fifteen CVEs are assigned across the Falcon, Sparrow, Raven, and Bravo families. Every identifier below was verified against its **CVE.org record** in September 2026 rather than quoted from a secondary source.
+
+### Gunshot Detection and Audio Devices
+
+| CVE | Finding | CVSS |
+|-----|---------|------|
+| **CVE-2025-47818** | Hard-coded password for a connection | 2.2 |
+| **CVE-2025-47819** | On-chip debug interface with improper access control | 6.4 |
+| **CVE-2025-47820** | Cleartext storage of code | 2.0 |
+| **CVE-2025-47821** | Hard-coded password for a system | 2.2 |
+
+All four affect Gunshot Detection devices **before version 1.3**.
+
+### License Plate Readers
+
+| CVE | Finding | CVSS |
+|-----|---------|------|
+| **CVE-2025-47822** | On-chip debug interface with improper access control | 6.4 |
+| **CVE-2025-47823** | Hard-coded password for a system | 2.2 |
+| **CVE-2025-47824** | Cleartext storage of code | 2.0 |
+
+These three affect License Plate Reader firmware **through version 2.2**.
+
+### Fleet-Wide Application Flaws
+
+| CVE | Finding | CVSS |
+|-----|---------|------|
+| **CVE-2025-59403** | The Collins app exposes administrative endpoints on **port 8080 with no authentication**: `/reboot`, `/logs`, `/crashpack`, and `/adb/enable`. The last one starts ADB over TCP without debugging confirmation, which hands an attacker on the same network a shell | **9.8 CRITICAL** |
+| **CVE-2025-59407** | The DetectionProcessing app bundles a Java keystore together with its **hard-coded password**, and the keystore holds a private key | **9.8 CRITICAL** |
+| **CVE-2025-59405** | The Peripheral app contains a cleartext DataDog API key | 7.5 |
+| **CVE-2025-59409** | Production Falcon and Sparrow firmware ships **development WiFi credentials in cleartext** | 7.5 |
+| **CVE-2025-59406** | The Pisco app embeds a cleartext **Auth0 client secret** | 6.2 |
+
+### Bravo Compute Box
+
+| CVE | Finding | CVSS |
+|-----|---------|------|
+| **CVE-2025-59402** | Accepts the default Thundercomm TurboX 6490 Firehose loader, allowing firmware flashing and partition dumps | 5.4 |
+| **CVE-2025-59404** | Ships with the bootloader unlocked, bypassing Android Verified Boot | 7.5 |
+| **CVE-2025-59408** | Ships with Secure Boot disabled | 7.3 |
+
+**Four of these carry a network attack vector at 7.5 or higher, which means none of them require physical access.** CVE-2025-59403 is the assigned identifier for the unauthenticated API path, and it includes the `/adb/enable` call which [Critical Vulnerability #1](#critical-vulnerability-1-button-press-wireless-access-point) depends on to reach a root shell.
+
+*The CVE records matter for a second reason. They confirm the plaintext-secret problem from independent registries rather than only from researcher writeups, and Flock's own security alert page is listed as a reference on the Raven and LPR entries.*
+
+______
+
 ## Critical Vulnerability #1: Button Press Wireless Access Point
 
-### CVE-2025-XXXXX (Pending Assignment)
+### CVE-2025-59403
 
 **Severity**: CRITICAL (CVSS 9.8)
 
@@ -189,9 +261,9 @@ ______
 
 ## Critical Vulnerability #2: Outdated Android Operating System
 
-### CVE-2025-XXXXX Series (Multiple CVEs)
+### CVE-2025-47822 through CVE-2025-47824
 
-**Severity**: CRITICAL (Multiple)
+**Severity**: MEDIUM to LOW (CVSS 6.4, 2.2, and 2.0)
 
 ### The Problem
 
@@ -253,9 +325,9 @@ ______
 
 ## Critical Vulnerability #3: Lack of Encryption at Runtime
 
-### CVE-2025-XXXXX (Multiple Findings)
+### CVE-2025-47824 and CVE-2025-59407
 
-**Severity**: HIGH (CVSS 7.5-8.5)
+**Severity**: HIGH to CRITICAL (CVSS 2.0 to 9.8)
 
 ### Flock Safety's Claims vs. Reality
 
@@ -300,9 +372,9 @@ ______
 
 ## Critical Vulnerability #4: Hardcoded Credentials Throughout System
 
-### CVE-2025-XXXXX Series (Multiple)
+### CVE-2025-47818, CVE-2025-47821, CVE-2025-47823, CVE-2025-59407, and CVE-2025-59409
 
-**Severity**: CRITICAL (CVSS 9.1)
+**Severity**: CRITICAL (CVSS 9.8 at the top of the range)
 
 ### Categories of Hardcoded Secrets
 
@@ -312,6 +384,7 @@ Security researchers discovered **extensive hardcoded credentials**:
 - **Universal password** across all Falcon/Sparrow cameras
 - **Cannot be changed** by users or administrators
 - **Known to researchers** and published in white paper (redacted sections)
+- **Confirmed by CVE-2025-59409**: production Falcon and Sparrow firmware (build `OPM1.171019.026`) ships **development WiFi credentials in cleartext**
 
 #### 2. API Keys and Tokens
 - **Hard-coded in firmware** and application code
@@ -326,11 +399,15 @@ Security researchers discovered **extensive hardcoded credentials**:
 - **MySQL/PostgreSQL** credentials in configuration files
 - **Direct database access** from local shell
 
-#### 4. Wi-Fi Network Names
+#### 4. Cryptographic Keystores
+- **Confirmed by CVE-2025-59407**: the DetectionProcessing app bundles a Java keystore alongside its hard-coded password, and the keystore holds a **private key**
+- **Severity**: CRITICAL (CVSS 9.8), because the key material travels with the binary meant to protect it
+
+#### 5. Wi-Fi Network Names
 - **List of preferred** networks hard-coded in firmware
 - Enables **rogue access point** attacks (see Vulnerability #6)
 
-#### 5. Cloud Service Credentials
+#### 6. Cloud Service Credentials
 - **AWS/Azure tokens** embedded in code
 - **Third-party API keys** (ArcGIS, mapping services)
 - **OAuth tokens** never rotated
@@ -405,9 +482,11 @@ ______
 
 ## Critical Vulnerability #6: Clear-Text Network Traffic
 
-### CVE-2025-XXXXX (Pending)
+### Awaiting Identifier Assignment
 
-**Severity**: HIGH (CVSS 7.8)
+**Severity**: HIGH (CVSS 7.8 estimated by researchers)
+
+**No CVE identifier has been assigned to this category.** The closest assigned record, CVE-2025-59406, carries the CWE-319 cleartext transmission classification, but it covers an embedded Auth0 secret rather than in-transit interception. The findings in this section still rest on the researcher writeups cited above.
 
 ### The Vulnerability
 
@@ -1256,3 +1335,8 @@ ______
 16. [Hackaday - This Week In Security: Flock Cameras Are Old](https://hackaday.com/2026/09/18/this-week-in-security-flock-cameras-are-old-microsoft-patches-patches-and-researchers-attack-ssh/)
 17. [NVD - CVE-2021-1905 Qualcomm Adreno GPU Use-After-Free](https://nvd.nist.gov/vuln/detail/CVE-2021-1905)
 18. [NVD - CVE-2018-9568 Linux Kernel Socket Type Confusion](https://nvd.nist.gov/vuln/detail/CVE-2018-9568)
+19. [WiFi Mothership - Flock Safety ALPR Detection and Device Reference](https://wifimothership.com/flock)
+20. [CVE.org - CVE Program Record Search](https://www.cve.org/)
+21. [Flock Safety Security Alert - Gunshot Detection and License Plate Reader](https://www.flocksafety.com/articles/gunshot-detection-and-license-plate-reader-security-alert)
+22. [GainSec - Fly By Device 2: Falcon and Sparrow Wireless RCE](https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/)
+23. [GainSec - Root from the Coop Device 3: Bravo Compute Box](https://gainsec.com/2025/09/19/root-from-the-coop-device-3-root-shell-on-flock-safetys-bravo-compute-box/)
