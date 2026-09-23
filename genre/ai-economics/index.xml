@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Economics on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>AI Economics on simeononsecurity</title><link>https://simeononsecurity.com/genre/ai-economics/</link></image><link>https://simeononsecurity.com/genre/ai-economics/</link><description>Recent content in AI Economics on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/ai-economics/index.xml" rel="self" type="application/rss+xml"/><item><title>Local AI in 2026: A 27B Model Beats Sonnet 4.6, and the Hardware Window Is Closing</title><link>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Self-Hosted AI"
+, "Open Source Models"
+, "AI Hardware"
+, "Machine Learning"
+, "Quantization"
+, "Homelab"
+, "Privacy"
+, "AI Economics"
+, "Consumer Hardware"</category><guid>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen3.8 27B and its ternary repack Bonsai 2 27B now outscore Claude Sonnet 4.6 on the aggregate intelligence index while running on one consumer GPU. What changed, what the benchmarks show, and why memory pricing makes waiting the most expensive option.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

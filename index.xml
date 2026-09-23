@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://simeononsecurity.com/</link></image><link>https://simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Cowork and Claude Code With Local Models: 2026 Setup Guide</title><link>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Coding Tools"
+, "Self-Hosted AI"
+, "Developer Tools"
+, "Privacy"
+, "Open Source Models"
+, "Automation"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only.</description><enclosure url="https://simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>Local AI in 2026: A 27B Model Beats Sonnet 4.6, and the Hardware Window Is Closing</title><link>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Self-Hosted AI"
+, "Open Source Models"
+, "AI Hardware"
+, "Machine Learning"
+, "Quantization"
+, "Homelab"
+, "Privacy"
+, "AI Economics"
+, "Consumer Hardware"</category><guid>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Qwen3.8 27B and its ternary repack Bonsai 2 27B now outscore Claude Sonnet 4.6 on the aggregate intelligence index while running on one consumer GPU. What changed, what the benchmarks show, and why memory pricing makes waiting the most expensive option.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Mining Pearl (PRL) in 2026: Setup, Profitability, and Whether the Chain Is Useful</title><link>https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cryptocurrency"
+, "GPU Mining"
+, "AI Compute"
+, "DePIN"
+, "Blockchain"
+, "Linux"
+, "Homelab"
+, "Hardware"</category><guid>https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+How to mine Pearl (PRL) with SRBMiner, what proof-of-useful-work computes, why margins compressed after launch, and an honest assessment of whether the chain produces anything anyone buys.</description><enclosure url="https://simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp" length="266670" type="image/webp"/></item><item><title>We Mapped 146,526 ‘Flock Cameras.’ 50,278 Were ClickShare Systems</title><link>https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><category>
+"Security Research"
+, "Privacy Technology"
+, "Open Source Projects"
+, "Data Journalism"
+, "Counter Surveillance"</category><guid>https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Our audit of Flock Finder found 50,278 Barco ClickShare devices and thousands of other false positives inside a 146,526-record camera map. Here is what failed, how we proved it, and what we changed.</description></item><item><title>Sibling Sites - SimeonOnSecurity's Standalone Cybersecurity Tools</title><link>https://simeononsecurity.com/sibling-sites/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Privacy"
+, "Open Source"
+, "Network Tools"
+, "Surveillance"
+, "Self-Hosted"</category><guid>https://simeononsecurity.com/sibling-sites/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Every SimeonOnSecurity sibling site in one place. Seven standalone tools on their own subdomains, covering WiFi data maps, ALPR surveillance mapping, ESP32 counter-surveillance firmware, and resume optimization.</description><enclosure url="https://simeononsecurity.com/img/cover/sibling-sites-simeononsecurity-cybersecurity-tools.webp" length="114820" type="image/webp"/></item><item><title>Which AI Models Can Run on a Raspberry Pi 4 or 5?</title><link>https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Raspberry Pi"
+, "Artificial Intelligence"
+, "Self Hosting"</category><guid>https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Use measured Raspberry Pi 4 and 5 results to choose local language models by memory, speed, and workload, from tiny LFM2.5 models to 3B and larger options.</description><enclosure url="https://simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp" length="172552" type="image/webp"/></item><item><title>Which Cybersecurity Career Fits You? 16 Starting Points, Many Paths</title><link>https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Careers"</category><guid>https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore a personality-themed video, multiple cybersecurity roles for each type, and practical exercises to compare career paths by their real work.</description><enclosure url="https://simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp" length="155796" type="image/webp"/></item><item><title>Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration</title><link>https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><category>
+"Virtualization"
+, "Linux Administration"
+, "Homelab"</category><guid>https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan.</description><enclosure url="https://simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp" length="152134" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item><item><title>Module 1: Red Team Methodology</title><link>https://simeononsecurity.com/red-team-course/red-team-methodology/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Methodology"</category><guid>https://simeononsecurity.com/red-team-course/red-team-methodology/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+The seven-phase red team methodology: preparation, intelligence, reconnaissance, access, post exploitation, cleanup and backout, and reporting, with the judgment behind each.</description><enclosure url="https://simeononsecurity.com/img/cover/red-team-methodology-six-phases-visualization.webp" length="222728" type="image/webp"/></item><item><title>Module 10: Initial Access: Phishing and Delivery</title><link>https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Initial Access"
+, "Phishing"</category><guid>https://simeononsecurity.com/red-team-course/initial-access-phishing-and-delivery/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Distinguish phishing delivery, interaction, execution, and access. Interpret campaign metrics, modern Office controls, and Windows architecture with worked examples.</description><enclosure url="https://simeononsecurity.com/img/cover/initial-access-phishing-cybersecurity-illustration.webp" length="162564" type="image/webp"/></item><item><title>Module 11: Situational Awareness and Host Operations</title><link>https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Post Exploitation"</category><guid>https://simeononsecurity.com/red-team-course/situational-awareness-and-host-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a current host-state record using Windows and Linux identity, process, socket, and routing evidence, with a worked snapshot comparison.</description><enclosure url="https://simeononsecurity.com/img/cover/situational-awareness-post-exploitation-techniques.webp" length="183340" type="image/webp"/></item><item><title>Module 12: User Persistence</title><link>https://simeononsecurity.com/red-team-course/user-persistence/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Persistence"</category><guid>https://simeononsecurity.com/red-team-course/user-persistence/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand user startup triggers, HKCU context, and restoration. Follow a benign Notepad Run-entry lab with evidence and cleanup checks.</description><enclosure url="https://simeononsecurity.com/img/cover/user-persistence-techniques-windows-registry.webp" length="144910" type="image/webp"/></item><item><title>Module 13: Local Privilege Escalation</title><link>https://simeononsecurity.com/red-team-course/local-privilege-escalation/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Privilege Escalation"</category><guid>https://simeononsecurity.com/red-team-course/local-privilege-escalation/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Evaluate Windows privilege escalation paths through service permissions, DLL loading, evidence quality, and a read-only lab exercise.</description><enclosure url="https://simeononsecurity.com/img/cover/local-privilege-escalation-techniques-windows-api.webp" length="229908" type="image/webp"/></item><item><title>Module 14: Privileged Persistence and Process Migration</title><link>https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Persistence"</category><guid>https://simeononsecurity.com/red-team-course/privileged-persistence-and-process-migration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Understand Windows service persistence, process lifetime, architecture, and migration tradeoffs through read-only inspection and a service lifecycle exercise.</description><enclosure url="https://simeononsecurity.com/img/cover/windows-service-architecture-privileged-persistence-process-migration.webp" length="138852" type="image/webp"/></item><item><title>Module 15: Persistence Cleanup and Defense Evasion</title><link>https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Persistence"</category><guid>https://simeononsecurity.com/red-team-course/persistence-cleanup-and-defense-evasion/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Restore persistence changes with a precise artifact ledger, correct registry identity, evidence preservation, and independent verification of cleanup.</description><enclosure url="https://simeononsecurity.com/img/cover/persistence-cleanup-defense-evasion-cybersecurity.webp" length="136890" type="image/webp"/></item><item><title>Module 16: Domain Privilege Escalation and Kerberos Abuse</title><link>https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Active Directory"
+, "Kerberos"</category><guid>https://simeononsecurity.com/red-team-course/domain-privilege-escalation-and-kerberos-abuse/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Analyze Kerberos service-ticket exposure, account privilege, encryption choices, and delegation evidence with a domain escalation review record.</description><enclosure url="https://simeononsecurity.com/img/cover/kerberoasting-domain-privilege-escalation-cyber-security.webp" length="160398" type="image/webp"/></item><item><title>Module 17: Lateral Movement and Expanding Access</title><link>https://simeononsecurity.com/red-team-course/lateral-movement-and-expanding-access/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Lateral Movement"
+, "Active Directory"</category><guid>https://simeononsecurity.com/red-team-course/lateral-movement-and-expanding-access/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Plan lateral movement with explicit name resolution, authentication, authorization, service, and rollback evidence instead of assuming every credential reaches every host.</description></item><item><title>Module 18: Cross-Domain Pivoting and LDAP Enumeration</title><link>https://simeononsecurity.com/red-team-course/cross-domain-pivoting-and-ldap-enumeration/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Active Directory"
+, "LDAP"</category><guid>https://simeononsecurity.com/red-team-course/cross-domain-pivoting-and-ldap-enumeration/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Analyze trust direction, selective authentication, SID filtering, LDAP scope, and query results with a cross-domain pivot decision record.</description></item><item><title>Module 19: Fortifying Access and Operator Discipline</title><link>https://simeononsecurity.com/red-team-course/fortifying-access-and-operator-discipline/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Operations"
+, "OPSEC"</category><guid>https://simeononsecurity.com/red-team-course/fortifying-access-and-operator-discipline/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Design bounded red-team access with expiry, ownership, redundancy, failover, and operator records that remain useful during a live assessment.</description></item><item><title>Module 2: Mission Preparation and Infrastructure</title><link>https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Infrastructure"</category><guid>https://simeononsecurity.com/red-team-course/mission-preparation-and-infrastructure/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Everything required before an attack: scope and rules of engagement, deconfliction, hardening the attack platform, standing up redirectors, and validating the infrastructure before go.</description><enclosure url="https://simeononsecurity.com/img/cover/red-team-mission-preparation-infrastructure.webp" length="301096" type="image/webp"/></item><item><title>Module 20: Mission Objectives and Reporting</title><link>https://simeononsecurity.com/red-team-course/mission-objectives-and-reporting/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Reporting"
+, "Assessment"</category><guid>https://simeononsecurity.com/red-team-course/mission-objectives-and-reporting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Turn red-team objectives into bounded tests and evidence-backed findings with explicit limits, remediation owners, and retest conditions.</description></item><item><title>Module 3: Networking and Active Directory Foundations</title><link>https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Networking"
+, "Active Directory"</category><guid>https://simeononsecurity.com/red-team-course/foundations-networking-and-active-directory/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+The networking and Active Directory concepts every red team technique builds on: HTTP and HTTPS, TCP and UDP, the domain controller, users, groups, and group nesting.</description><enclosure url="https://simeononsecurity.com/img/cover/networking-active-directory-foundations-illustration.webp" length="154110" type="image/webp"/></item><item><title>Module 4: Windows Internals and Authentication</title><link>https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Windows Internals"</category><guid>https://simeononsecurity.com/red-team-course/foundations-windows-internals-and-authentication/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+How Windows stores configuration and credentials: the registry and hives, registry paths, NTLM hashes, and the difference between domain and local authentication.</description><enclosure url="https://simeononsecurity.com/img/cover/windows-internals-authentication-registry-structure.webp" length="176170" type="image/webp"/></item><item><title>Module 5: Command and Control Operations</title><link>https://simeononsecurity.com/red-team-course/command-and-control-operations/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Command and Control"</category><guid>https://simeononsecurity.com/red-team-course/command-and-control-operations/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Follow C2 task delivery, polling latency, uncertain outcomes, and operator handovers through worked examples and a task-ledger exercise.</description><enclosure url="https://simeononsecurity.com/img/cover/command-and-control-operations-cybersecurity.webp" length="235064" type="image/webp"/></item></channel></rss>

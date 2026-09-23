@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Retest on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Retest on simeononsecurity</title><link>https://simeononsecurity.com/tags/retest/</link></image><link>https://simeononsecurity.com/tags/retest/</link><description>Recent content in Retest on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/retest/index.xml" rel="self" type="application/rss+xml"/><item><title>Module 20: Mission Objectives and Reporting</title><link>https://simeononsecurity.com/red-team-course/mission-objectives-and-reporting/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><category>
+"Red Team"
+, "Offensive Security"
+, "Reporting"
+, "Assessment"</category><guid>https://simeononsecurity.com/red-team-course/mission-objectives-and-reporting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Turn red-team objectives into bounded tests and evidence-backed findings with explicit limits, remediation owners, and retest conditions.</description></item></channel></rss>

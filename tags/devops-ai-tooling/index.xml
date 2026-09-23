@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops Ai Tooling on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Devops Ai Tooling on simeononsecurity</title><link>https://simeononsecurity.com/tags/devops-ai-tooling/</link></image><link>https://simeononsecurity.com/tags/devops-ai-tooling/</link><description>Recent content in Devops Ai Tooling on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/devops-ai-tooling/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Cowork and Claude Code With Local Models: 2026 Setup Guide</title><link>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Coding Tools"
+, "Self-Hosted AI"
+, "Developer Tools"
+, "Privacy"
+, "Open Source Models"
+, "Automation"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only.</description><enclosure url="https://simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item></channel></rss>
