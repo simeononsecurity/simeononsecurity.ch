@@ -1,0 +1,202 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="unix-timestamp-converter">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. Conversion uses your own system
+    clock and the browser timezone database. Nothing you enter is transmitted, logged, or stored.
+  </p>
+
+  <div class="ts-panel">
+    <p class="ts-live">
+      Current Unix time: <code id="tsNow">reading system clock</code>
+      <button onclick="tsUseNow()" class="ts-button ts-inline">Use Now</button>
+    </p>
+
+    <label for="tsInput" class="ts-label">Unix timestamp or date string</label>
+    <input type="text" id="tsInput" class="ts-input" placeholder="1759000000 or 2026-09-27T12:00:00Z">
+
+    <div class="ts-buttons">
+      <button onclick="tsConvert()" class="ts-button">Convert</button>
+      <button onclick="tsClear()" class="ts-button ts-secondary">Clear</button>
+    </div>
+
+    <h2 class="ts-heading">Results</h2>
+    <table class="ts-table">
+      <tbody id="tsResults">
+        <tr><td class="ts-idle">Enter a timestamp or a date string and press Convert.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 class="ts-heading">Seconds or Milliseconds</h2>
+    <p>
+      A 10-digit value is seconds, which is what most Unix timestamps use. A 13-digit value is milliseconds, which is
+      what JavaScript and many APIs use. The tool detects which one you supplied and reports it rather than silently
+      guessing.
+    </p>
+  </div>
+
+  <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function tsRender(rows) {
+      document.getElementById('tsResults').innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + row[0] + '</th><td>' + row[1] + '</td></tr>';
+      }).join('');
+    }
+
+    function tsError(message) {
+      tsRender([['Error', '<span class="ts-error">' + message + '</span>']]);
+    }
+
+    function tsRelative(millis) {
+      var diff = millis - Date.now();
+      var past = diff < 0;
+      var seconds = Math.abs(Math.round(diff / 1000));
+      var units = [
+        ['year', 31536000],
+        ['month', 2592000],
+        ['day', 86400],
+        ['hour', 3600],
+        ['minute', 60],
+        ['second', 1]
+      ];
+      for (var i = 0; i < units.length; i++) {
+        if (seconds >= units[i][1]) {
+          var amount = Math.floor(seconds / units[i][1]);
+          var label = amount === 1 ? units[i][0] : units[i][0] + 's';
+          return amount + ' ' + label + (past ? ' ago' : ' from now');
+        }
+      }
+      return 'right now';
+    }
+
+    function tsUseNow() {
+      document.getElementById('tsInput').value = String(Math.floor(Date.now() / 1000));
+      tsConvert();
+    }
+
+    function tsClear() {
+      document.getElementById('tsInput').value = '';
+      tsRender([['Ready', 'Enter a timestamp or a date string.']]);
+    }
+
+    function tsConvert() {
+      var raw = document.getElementById('tsInput').value.trim();
+      if (!raw) { tsError('Enter a timestamp or a date string first.'); return; }
+
+      var date = null;
+      var detected = '';
+
+      if (/^-?\d+$/.test(raw)) {
+        var digits = raw.replace('-', '').length;
+        var numeric = parseInt(raw, 10);
+        if (digits >= 12) {
+          date = new Date(numeric);
+          detected = 'Read as milliseconds since the Unix epoch, based on ' + digits + ' digits.';
+        } else {
+          date = new Date(numeric * 1000);
+          detected = 'Read as seconds since the Unix epoch, based on ' + digits + ' digits.';
+        }
+      } else {
+        date = new Date(raw);
+        detected = 'Read as a date string using your browser timezone.';
+      }
+
+      if (!date || isNaN(date.getTime())) {
+        tsError('That value could not be parsed as a Unix timestamp or a date.');
+        return;
+      }
+
+      var millis = date.getTime();
+      var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+      tsRender([
+        ['Detected as', detected],
+        ['ISO 8601, UTC', '<code>' + date.toISOString() + '</code>'],
+        ['UTC string', date.toUTCString()],
+        ['Local time', date.toString()],
+        ['Local timezone', Intl.DateTimeFormat().resolvedOptions().timeZone],
+        ['Unix seconds', '<code>' + Math.floor(millis / 1000) + '</code>'],
+        ['Unix milliseconds', '<code>' + millis + '</code>'],
+        ['Day of week', days[date.getDay()]],
+        ['Relative', tsRelative(millis)]
+      ]);
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', {
+            event_category: 'Unix Timestamp Converter',
+            event_label: 'Converted a timestamp',
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+
+    function tsTick() {
+      var el = document.getElementById('tsNow');
+      if (el) { el.textContent = String(Math.floor(Date.now() / 1000)); }
+    }
+    tsTick();
+    setInterval(tsTick, 1000);
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .ts-panel { max-width: 820px; }
+    .ts-live { margin: 14px 0; }
+    .ts-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .ts-input {
+      padding: 6px;
+      width: 100%;
+      max-width: 380px;
+      font-family: monospace;
+    }
+    .ts-buttons { margin: 14px 0; }
+    .ts-button {
+      padding: 6px 12px;
+      background-color: var(--background-secondary);
+      color: var(--color);
+      border: none;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+    .ts-button:hover { background-color: #0056b3; }
+    .ts-inline { margin-left: 8px; padding: 2px 8px; }
+    .ts-secondary { opacity: 0.85; }
+    .ts-heading { font-size: 24px; margin: 24px 0 10px; }
+    .ts-table { width: 100%; border-collapse: collapse; }
+    .ts-table th, .ts-table td {
+      border: 1px solid #ccc;
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+      word-break: break-word;
+    }
+    .ts-table th { width: 32%; font-weight: bold; }
+    .ts-idle { font-style: italic; }
+    .ts-error { color: #b00020; font-weight: bold; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
