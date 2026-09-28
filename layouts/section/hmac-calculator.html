@@ -1,0 +1,151 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="hmac-calculator">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. Your key and message never leave
+    your machine, and the signature is computed locally with the Web Crypto API. Nothing is transmitted or stored.
+  </p>
+
+  <div class="hm-panel">
+    <label for="hmKey" class="hm-label">Secret key</label>
+    <input type="text" id="hmKey" class="hm-input" placeholder="shared secret">
+
+    <label for="hmAlgo" class="hm-label">Hash algorithm</label>
+    <select id="hmAlgo" class="hm-input">
+      <option value="SHA-256" selected>SHA-256</option>
+      <option value="SHA-1">SHA-1</option>
+      <option value="SHA-384">SHA-384</option>
+      <option value="SHA-512">SHA-512</option>
+    </select>
+
+    <label for="hmMsg" class="hm-label">Message</label>
+    <textarea id="hmMsg" class="hm-input" rows="4" placeholder="Paste the body exactly as it was received"></textarea>
+
+    <div class="hm-buttons">
+      <button onclick="hmCompute()" class="hm-button">Compute HMAC</button>
+      <button onclick="hmClear()" class="hm-button hm-secondary">Clear</button>
+    </div>
+
+    <h2 class="hm-heading">Signature</h2>
+    <p class="hm-sub">Hex</p>
+    <pre id="hmHex" class="hm-out">-</pre>
+    <p class="hm-sub">Base64</p>
+    <pre id="hmB64" class="hm-out">-</pre>
+    <p id="hmNote" class="hm-note"></p>
+
+    <h2 class="hm-heading">Where HMAC Is Used</h2>
+    <ul class="hm-list">
+      <li><b>Webhook verification.</b> Providers sign the request body so you can prove it came from them and was not altered in transit.</li>
+      <li><b>API request signing.</b> A shared secret plus the request content produces a signature only a key holder can generate.</li>
+      <li><b>Comparison discipline.</b> Compare signatures with a constant-time function. A normal string comparison leaks how many bytes matched.</li>
+    </ul>
+  </div>
+
+  <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function hmNote(message) {
+      document.getElementById('hmNote').textContent = message;
+    }
+
+    function hmToHex(bytes) {
+      var out = '';
+      for (var i = 0; i < bytes.length; i++) {
+        out += ('0' + bytes[i].toString(16)).slice(-2);
+      }
+      return out;
+    }
+
+    function hmToBase64(bytes) {
+      var binary = '';
+      for (var i = 0; i < bytes.length; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      return btoa(binary);
+    }
+
+    function hmClear() {
+      document.getElementById('hmKey').value = '';
+      document.getElementById('hmMsg').value = '';
+      document.getElementById('hmHex').textContent = '-';
+      document.getElementById('hmB64').textContent = '-';
+      hmNote('');
+    }
+
+    async function hmCompute() {
+      var key = document.getElementById('hmKey').value;
+      var message = document.getElementById('hmMsg').value;
+      var algorithm = document.getElementById('hmAlgo').value;
+
+      if (!key) { hmNote('Enter a secret key first.'); return; }
+      if (!window.crypto || !window.crypto.subtle) {
+        hmNote('This browser does not expose the Web Crypto API, which requires a secure context over HTTPS.');
+        return;
+      }
+
+      try {
+        var encoder = new TextEncoder();
+        var cryptoKey = await crypto.subtle.importKey(
+          'raw', encoder.encode(key), { name: 'HMAC', hash: algorithm }, false, ['sign']
+        );
+        var signature = await crypto.subtle.sign('HMAC', cryptoKey, encoder.encode(message));
+        var bytes = new Uint8Array(signature);
+        document.getElementById('hmHex').textContent = hmToHex(bytes);
+        document.getElementById('hmB64').textContent = hmToBase64(bytes);
+        hmNote(algorithm + ' produced a ' + bytes.length + '-byte signature.');
+      } catch (error) {
+        hmNote('Could not compute the signature: ' + error.message);
+        return;
+      }
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', { event_category: 'HMAC Calculator', event_label: algorithm });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .hm-panel { max-width: 820px; }
+    .hm-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .hm-input { padding: 6px; width: 100%; max-width: 460px; font-family: monospace; box-sizing: border-box; }
+    .hm-buttons { margin: 14px 0; }
+    .hm-button {
+      padding: 6px 12px; background-color: var(--background-secondary); color: var(--color);
+      border: none; cursor: pointer; margin-right: 8px;
+    }
+    .hm-button:hover { background-color: #0056b3; }
+    .hm-secondary { opacity: 0.85; }
+    .hm-heading { font-size: 24px; margin: 24px 0 10px; }
+    .hm-sub { font-weight: bold; margin: 12px 0 4px; }
+    .hm-out { border: 1px solid #ccc; padding: 8px; overflow-x: auto; white-space: pre-wrap; word-break: break-all; margin: 0; }
+    .hm-note { font-style: italic; margin-top: 10px; }
+    .hm-list { margin-left: 0; padding-left: 20px; }
+    .hm-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}

@@ -48,6 +48,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [String Hash Calculator](/hash-calculator/)  | Enhance cybersecurity with our Hash Calculator tool, calculating MD5, SHA-1, and SHA-256 hash values to verify file integrity. |
 | [Base64 Encoder and Decoder](/base64_encode_decode/) | An online tool to encode or decode text or files using Base64 encoding. Convert data for data transmission and storage.        |
 | [URL Encoder and Decoder](/url-encode-decode/) | Percent-encode or decode text, query values, and full URLs. Separate component and full-URL modes with clear errors for malformed input. |
+| [HMAC Calculator](/hmac-calculator/) | Compute an HMAC signature with SHA-256, SHA-1, SHA-384, or SHA-512 to verify webhook signatures and API request signing. Your shared secret stays in the browser. |
+| [Base32 Encoder and Decoder](/base32-encode-decode/) | Encode text to RFC 4648 Base32 or decode it back. The usual first step when checking why a TOTP secret will not produce valid codes. |
 
 ---
 
@@ -65,6 +67,16 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [JWT Decoder](/jwt-decoder/)                  | Decode the header, payload, and registered claims of a JSON Web Token without sending it anywhere. Flags unsecured tokens and expired claims, and states plainly that decoding is not verification. |
 | [Unix Timestamp Converter](/unix-timestamp-converter/) | Convert Unix timestamps in seconds or milliseconds to ISO 8601, UTC, and local time, or turn a date string back into an epoch value. Detects which unit you supplied instead of guessing. |
+| [UUID Generator](/uuid-generator/) | Generate cryptographically random version 4 UUIDs in bulk using the Web Crypto API, with the version and variant bits set correctly rather than pasted in by hand. |
+
+---
+
+### Security Analysis Tools
+
+| Link                                          | Tool Description                                                                                                                |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [Hash Identifier](/hash-identifier/)          | Identify a hash format from its length, character set, and prefix. Recognises bcrypt, Argon2, crypt formats, LDAP schemes, and the common hex lengths, and states plainly that length narrows the field without deciding it. |
+| [CVSS v3.1 Calculator](/cvss-calculator/)     | Calculate a CVSS v3.1 base score from the eight base metrics. Shows the exploitability and impact sub-scores, generates the vector string, and colour-codes the severity band. |
 
 ---
 

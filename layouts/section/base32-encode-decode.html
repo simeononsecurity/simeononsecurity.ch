@@ -1,0 +1,163 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="base32-encode-decode">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. Anything you paste stays on your
+    machine and is never transmitted, logged, or stored.
+  </p>
+
+  <div class="b32-panel">
+    <label for="b32Input" class="b32-label">Input</label>
+    <textarea id="b32Input" class="b32-input" rows="6" placeholder="Text to encode, or a Base32 string to decode"></textarea>
+
+    <div class="b32-buttons">
+      <button onclick="b32Encode()" class="b32-button">Encode Text</button>
+      <button onclick="b32Decode()" class="b32-button">Decode to Text</button>
+      <button onclick="b32Clear()" class="b32-button b32-secondary">Clear</button>
+    </div>
+
+    <label for="b32Output" class="b32-label">Output</label>
+    <textarea id="b32Output" class="b32-output" rows="6" readonly></textarea>
+    <p id="b32Note" class="b32-note"></p>
+
+    <h2 class="b32-heading">Why Base32 Exists Alongside Base64</h2>
+    <ul class="b32-list">
+      <li><b>Case-insensitive and human readable.</b> The alphabet is A to Z and 2 to 7, so it survives being read aloud or typed by hand.</li>
+      <li><b>The cost is size.</b> Base32 expands data by 60 percent while Base64 expands it by 33 percent. Base32 is chosen for legibility, not efficiency.</li>
+      <li><b>TOTP secrets use it.</b> Two-factor setup strings are Base32, which makes this the first tool to reach for when a generated code will not validate.</li>
+    </ul>
+  </div>
+
+  <script>
+    var B32_ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
+
+    function b32Note(message) {
+      document.getElementById('b32Note').textContent = message;
+    }
+
+    function b32Set(value, note) {
+      document.getElementById('b32Output').value = value;
+      b32Note(note || '');
+    }
+
+    function b32EncodeBytes(bytes) {
+      var out = '';
+      var bits = 0;
+      var value = 0;
+      for (var i = 0; i < bytes.length; i++) {
+        value = (value << 8) | bytes[i];
+        bits += 8;
+        while (bits >= 5) {
+          out += B32_ALPHABET.charAt((value >>> (bits - 5)) & 31);
+          bits -= 5;
+        }
+      }
+      if (bits > 0) {
+        out += B32_ALPHABET.charAt((value << (5 - bits)) & 31);
+      }
+      while (out.length % 8 !== 0) {
+        out += '=';
+      }
+      return out;
+    }
+
+    function b32DecodeBytes(input) {
+      var clean = input.toUpperCase().replace(/\s+/g, '').replace(/=+$/, '');
+      var bits = 0;
+      var value = 0;
+      var out = [];
+      for (var i = 0; i < clean.length; i++) {
+        var index = B32_ALPHABET.indexOf(clean.charAt(i));
+        if (index === -1) {
+          throw new Error('"' + clean.charAt(i) + '" is not a Base32 character. The alphabet is A to Z and 2 to 7.');
+        }
+        value = (value << 5) | index;
+        bits += 5;
+        if (bits >= 8) {
+          out.push((value >>> (bits - 8)) & 0xff);
+          bits -= 8;
+        }
+      }
+      return new Uint8Array(out);
+    }
+
+    function b32Encode() {
+      var input = document.getElementById('b32Input').value;
+      if (!input) { b32Set('', 'Enter some text to encode.'); return; }
+      var bytes = new TextEncoder().encode(input);
+      var encoded = b32EncodeBytes(bytes);
+      b32Set(encoded, 'Encoded ' + bytes.length + ' bytes into ' + encoded.replace(/=+$/, '').length + ' Base32 characters.');
+      b32Track('Encode');
+    }
+
+    function b32Decode() {
+      var input = document.getElementById('b32Input').value;
+      if (!input) { b32Set('', 'Enter a Base32 string to decode.'); return; }
+      var bytes;
+      try {
+        bytes = b32DecodeBytes(input);
+      } catch (error) {
+        b32Set('', error.message);
+        return;
+      }
+      var text;
+      try {
+        text = new TextDecoder('utf-8', { fatal: true }).decode(bytes);
+      } catch (error) {
+        b32Set('', 'Decoded ' + bytes.length + ' bytes, but they are not valid UTF-8 text. The input may be binary rather than a string.');
+        return;
+      }
+      b32Set(text, 'Decoded ' + bytes.length + ' bytes of UTF-8 text.');
+      b32Track('Decode');
+    }
+
+    function b32Clear() {
+      document.getElementById('b32Input').value = '';
+      b32Set('', '');
+    }
+
+    function b32Track(label) {
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', { event_category: 'Base32 Encoder', event_label: label });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(sendTrackingEvent);
+      } else {
+        setTimeout(sendTrackingEvent, 0);
+      }
+    }
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .b32-panel { max-width: 860px; }
+    .b32-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .b32-input, .b32-output { width: 100%; padding: 6px; font-family: monospace; box-sizing: border-box; }
+    .b32-buttons { margin: 14px 0; }
+    .b32-button {
+      padding: 6px 12px; background-color: var(--background-secondary); color: var(--color);
+      border: none; cursor: pointer; margin: 0 8px 8px 0;
+    }
+    .b32-button:hover { background-color: #0056b3; }
+    .b32-secondary { opacity: 0.85; }
+    .b32-note { font-style: italic; margin-top: 8px; }
+    .b32-heading { font-size: 24px; margin: 24px 0 10px; }
+    .b32-list { margin-left: 0; padding-left: 20px; }
+    .b32-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
