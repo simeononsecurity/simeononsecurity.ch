@@ -77,6 +77,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [Hash Identifier](/hash-identifier/)          | Identify a hash format from its length, character set, and prefix. Recognises bcrypt, Argon2, crypt formats, LDAP schemes, and the common hex lengths, and states plainly that length narrows the field without deciding it. |
 | [CVSS v3.1 Calculator](/cvss-calculator/)     | Calculate a CVSS v3.1 base score from the eight base metrics. Shows the exploitability and impact sub-scores, generates the vector string, and colour-codes the severity band. |
+| [IOC Defang, Refang, and Extractor](/ioc-defang-refang/) | Defang indicators so they are inert, refang them for your own tooling, and pull URLs, IP addresses, hashes, emails and domains out of raw text. Live incident data never leaves the browser. |
+| [Entropy Analyzer](/entropy-analyzer/)        | Measure Shannon entropy to tell repetitive data from encoded, compressed or encrypted content. Indispensable for a first look at a suspected payload, and it runs locally so samples stay put. |
 
 ---
 
@@ -98,6 +100,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [What's My IP](/whatsmyip/)       | Check your public IP address with our What's My IP tool. Easily find your IP address for networking and security purposes.     |
 | [Security Headers Check](/securityheaders/) | Check the security headers of a website and ensure it follows best security practices. This tool is capable of handling some CORS policies. |
 | [CIDR Subnet Calculator](/cidr-calculator/) | Work out the network address, broadcast address, subnet mask, wildcard mask, and usable host range for any IPv4 CIDR block, with a binary breakdown and private range detection. |
+| [IP Address Format Converter](/ip-format-converter/) | Convert an address into decimal, hex, octal, binary, short and IPv4-mapped IPv6 forms so you can check whether your own validation normalises a value before blocking it. |
+| [URL Parser and Query Analyzer](/url-parser/) | Break a URL into scheme, credentials, host, port, path, query and fragment, decode the path, and list every parameter. Flags credentials in the URL and percent-encoded paths. |
 
 ---
 

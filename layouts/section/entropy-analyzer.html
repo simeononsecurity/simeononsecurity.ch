@@ -1,0 +1,205 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="entropy-analyzer">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. The data you paste is measured
+    locally and is never transmitted, logged, or stored. That matters here, because suspected malware samples and
+    customer data are exactly what gets pasted into an entropy checker.
+  </p>
+
+  <div class="ent-panel">
+    <label for="entInput" class="ent-label">Input, measured as UTF-8 bytes</label>
+    <textarea id="entInput" class="ent-input" rows="6" placeholder="Paste text, a Base64 blob, or a hex string"></textarea>
+
+    <label class="ent-label ent-check">
+      <input type="checkbox" id="entDecodeHex"> Input is a hex string, decode it to bytes first
+    </label>
+
+    <div class="ent-buttons">
+      <button onclick="entAnalyse()" class="ent-button">Analyse</button>
+      <button onclick="entClear()" class="ent-button ent-secondary">Clear</button>
+    </div>
+
+    <h2 class="ent-heading">Results</h2>
+    <table class="ent-table">
+      <tbody id="entResults">
+        <tr><td class="ent-idle">Paste some data and press Analyse.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 class="ent-heading">Most Frequent Bytes</h2>
+    <table class="ent-table">
+      <tbody id="entFreq">
+        <tr><td class="ent-idle">Frequency breakdown appears here.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 class="ent-heading">Reading the Number</h2>
+    <ul class="ent-list">
+      <li><b>0 to 3 bits per byte.</b> Repetitive data, such as a run of one character or a fixed padding byte.</li>
+      <li><b>3 to 5 bits per byte.</b> Ordinary English prose sits here, usually around 4.0 to 4.5.</li>
+      <li><b>5 to 7 bits per byte.</b> Structured or encoded data. Base64 lands near 6, and compiled binaries often sit in this band.</li>
+      <li><b>Above 7.5 bits per byte.</b> Almost certainly compressed or encrypted, because both exist to remove predictable pattern.</li>
+      <li><b>High entropy is not proof.</b> A compressed document, an encrypted archive and a packed malware sample all look the same. Entropy tells you what to investigate, not what you found.</li>
+    </ul>
+  </div>
+
+  <script>
+    function yieldToMain(callback) {
+      if (typeof callback !== 'function') {
+        throw new Error('Callback must be a function.');
+      }
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function entRender(target, rows) {
+      document.getElementById(target).innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + row[0] + '</th><td>' + row[1] + '</td></tr>';
+      }).join('');
+    }
+
+    function entShannon(bytes) {
+      var counts = new Array(256);
+      var i;
+      for (i = 0; i < 256; i++) { counts[i] = 0; }
+      for (i = 0; i < bytes.length; i++) { counts[bytes[i]]++; }
+
+      var entropy = 0;
+      var distinct = 0;
+      var frequencies = [];
+      for (i = 0; i < 256; i++) {
+        if (counts[i] > 0) {
+          distinct++;
+          var probability = counts[i] / bytes.length;
+          entropy -= probability * (Math.log(probability) / Math.log(2));
+          frequencies.push([i, counts[i]]);
+        }
+      }
+      frequencies.sort(function (a, b) { return b[1] - a[1]; });
+      return { entropy: entropy, distinct: distinct, frequencies: frequencies };
+    }
+
+    function entInterpret(bitsPerByte) {
+      if (bitsPerByte < 3) { return 'Very low. The data is highly repetitive.'; }
+      if (bitsPerByte < 5) { return 'Typical of natural language or simple structured text.'; }
+      if (bitsPerByte < 7) { return 'Elevated. Often encoded or compiled data such as Base64 or a binary.'; }
+      if (bitsPerByte < 7.5) { return 'High. Likely compressed or partly encrypted.'; }
+      return 'Very high. Consistent with compression or encryption.';
+    }
+
+    function entPrintable(byte) {
+      if (byte === 32) { return 'space'; }
+      if (byte >= 33 && byte <= 126) { return String.fromCharCode(byte); }
+      return '0x' + ('0' + byte.toString(16)).slice(-2).toUpperCase();
+    }
+
+    function entClear() {
+      document.getElementById('entInput').value = '';
+      document.getElementById('entResults').innerHTML = '<tr><td class="ent-idle">Paste some data and press Analyse.</td></tr>';
+      document.getElementById('entFreq').innerHTML = '<tr><td class="ent-idle">Frequency breakdown appears here.</td></tr>';
+    }
+
+    function entAnalyse() {
+      var raw = document.getElementById('entInput').value;
+      if (!raw) {
+        entRender('entResults', [['Error', '<span class="ent-err">Paste some data first.</span>']]);
+        return;
+      }
+
+      var bytes;
+      var note = '';
+      var hexMode = document.getElementById('entDecodeHex').checked;
+
+      if (hexMode) {
+        var cleaned = raw.replace(/[^0-9a-fA-F]/g, '');
+        if (cleaned.length % 2 !== 0) {
+          entRender('entResults', [['Error', '<span class="ent-err">A hex string needs an even number of digits.</span>']]);
+          return;
+        }
+        if (!cleaned.length) {
+          entRender('entResults', [['Error', '<span class="ent-err">No hexadecimal digits were found in the input.</span>']]);
+          return;
+        }
+        bytes = new Uint8Array(cleaned.length / 2);
+        for (var i = 0; i < bytes.length; i++) {
+          bytes[i] = parseInt(cleaned.substr(i * 2, 2), 16);
+        }
+        note = 'Whitespace and separators were stripped before decoding.';
+      } else {
+        bytes = new TextEncoder().encode(raw);
+      }
+
+      var result = entShannon(bytes);
+      var maxEntropy = Math.log(Math.min(result.distinct, 256)) / Math.log(2);
+      var ratio = maxEntropy > 0 ? (result.entropy / maxEntropy) * 100 : 0;
+
+      entRender('entResults', [
+        ['Shannon entropy', '<code>' + result.entropy.toFixed(4) + '</code> bits per byte'],
+        ['Maximum for this input', maxEntropy.toFixed(4) + ' bits per byte, based on ' + result.distinct + ' distinct byte values'],
+        ['Share of the maximum', ratio.toFixed(2) + ' percent. The 8 bit ceiling only applies when all 256 values appear.'],
+        ['Input size', bytes.length + ' bytes after ' + (hexMode ? 'hex decoding' : 'UTF-8 encoding')],
+        ['Distinct byte values', result.distinct + ' of 256'],
+        ['Interpretation', entInterpret(result.entropy) + (note ? ' ' + note : '')]
+      ]);
+
+      entRender('entFreq', result.frequencies.slice(0, 10).map(function (entry) {
+        var share = (entry[1] / bytes.length) * 100;
+        return [entPrintable(entry[0]), entry[1] + ' occurrences, ' + share.toFixed(2) + ' percent'];
+      }));
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', {
+            event_category: 'Entropy Analyzer',
+            event_label: result.entropy.toFixed(1) + ' bits per byte',
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .ent-panel { max-width: 860px; }
+    .ent-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .ent-check { font-weight: normal; }
+    .ent-input { width: 100%; padding: 6px; font-family: monospace; box-sizing: border-box; }
+    .ent-buttons { margin: 14px 0; }
+    .ent-button {
+      padding: 6px 12px; background-color: var(--background-secondary); color: var(--color);
+      border: none; cursor: pointer; margin-right: 8px;
+    }
+    .ent-button:hover { background-color: #0056b3; }
+    .ent-secondary { opacity: 0.85; }
+    .ent-heading { font-size: 24px; margin: 24px 0 10px; }
+    .ent-table { width: 100%; border-collapse: collapse; }
+    .ent-table th, .ent-table td {
+      border: 1px solid #ccc; padding: 6px 8px; text-align: left;
+      vertical-align: top; word-break: break-word;
+    }
+    .ent-table th { width: 32%; font-weight: bold; }
+    .ent-idle { font-style: italic; }
+    .ent-err { color: #b00020; font-weight: bold; }
+    .ent-list { margin-left: 0; padding-left: 20px; }
+    .ent-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
+
