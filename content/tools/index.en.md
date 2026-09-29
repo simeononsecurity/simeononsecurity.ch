@@ -113,6 +113,17 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 
 ---
 
+### TLS Certificate Tools
+
+| Link                                          | Tool Description                                                                                                                |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [SSL Certificate Information](/ssl-certificate-info/) | Decode an X.509 certificate and read every field: subject, issuer, serial, validity, key size, signature algorithm, SHA-256 and SHA-1 fingerprints, subjectAltName entries, key usage and every extension. Includes a hostname check with wildcard and IP handling. |
+| [SSL Certificate Chain Tester](/ssl-chain-tester/) | Paste a chain and have it ordered and verified. Every signature is checked with the Web Crypto API in your browser, so a broken or mismatched link is caught rather than assumed, and missing intermediates, expired certificates, weak algorithms and CA misissuance are all reported. |
+
+Both work on certificates you paste, not on a live host. A browser does not expose the TLS handshake to JavaScript, so reading a certificate from a running server would mean sending your hostname to somebody else's server. Fetch it first with `openssl s_client -connect host:443 -showcerts` and paste the result.
+
+---
+
 ### File Permissions Tools
 
 | Link                                       | Tool Description                                                                                                    |

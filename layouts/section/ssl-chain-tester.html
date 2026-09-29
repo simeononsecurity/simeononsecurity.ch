@@ -1,0 +1,306 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="ssl-chain-tester">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. The certificates you paste are
+    decoded and verified locally and are never transmitted, logged, or stored.
+  </p>
+  <p>
+    <b>HOW THIS WORKS:</b> This tool does <b>not</b> connect to a server. A browser does not expose the TLS handshake
+    to JavaScript, so a purely client-side page cannot read a live chain. Get the chain first with
+    <code>openssl s_client -connect host:443 -showcerts</code>, then paste it here. The certificates are ordered by
+    matching each issuer to the next subject, and <b>every signature is verified with the Web Crypto API</b>, so a
+    broken or forged link is detected rather than assumed.
+  </p>
+
+  <div class="ct-panel">
+    <label for="ctInput" class="ct-label">Certificate chain, PEM. Order does not matter.</label>
+    <textarea id="ctInput" class="ct-input" rows="9" placeholder="-----BEGIN CERTIFICATE-----&#10;... leaf ...&#10;-----END CERTIFICATE-----&#10;-----BEGIN CERTIFICATE-----&#10;... intermediate ...&#10;-----END CERTIFICATE-----"></textarea>
+
+    <div class="ct-buttons">
+      <button onclick="ctTest()" class="ct-button">Test Chain</button>
+      <button onclick="ctClear()" class="ct-button ct-secondary">Clear</button>
+    </div>
+
+    <h2 class="ct-heading">Verdict</h2>
+    <table class="ct-table"><tbody id="ctVerdict"><tr><td class="ct-idle">Paste a chain and press Test Chain.</td></tr></tbody></table>
+
+    <h2 class="ct-heading">Chain Order</h2>
+    <table class="ct-table"><tbody id="ctOrder"><tr><td class="ct-idle">The ordered chain appears here.</td></tr></tbody></table>
+
+    <h2 class="ct-heading">Link by Link</h2>
+    <table class="ct-table"><tbody id="ctLinks"><tr><td class="ct-idle">Each link between certificates is checked here.</td></tr></tbody></table>
+
+    <h2 class="ct-heading">Findings</h2>
+    <table class="ct-table"><tbody id="ctFindings"><tr><td class="ct-idle">Specific problems appear here.</td></tr></tbody></table>
+
+    <h2 class="ct-heading">What This Checks, and What It Cannot</h2>
+    <ul class="ct-list">
+      <li><b>Chain building.</b> The tool works out the order by matching each certificate's issuer to the next certificate's subject, so you do not need to paste them in the right sequence.</li>
+      <li><b>Signature validity.</b> Each link is verified cryptographically. A certificate whose signature does not match its issuer's key is reported, which catches a chain assembled from the wrong files.</li>
+      <li><b>Validity dates.</b> Every certificate in the chain is checked against the current time, not just the leaf.</li>
+      <li><b>CA and key usage.</b> An issuer must have CA:TRUE and keyCertSign, otherwise it is not permitted to sign certificates.</li>
+      <li><b>What it cannot do.</b> It cannot check revocation, because that needs a CRL or OCSP request to a live server. It also cannot decide whether a root is trustworthy, since that depends on your trust store rather than anything in the certificate.</li>
+    </ul>
+  </div>
+
+  <script defer src='{{ "js/x509-parser.js" | relURL }}'></script>
+  <script>
+    function ctEsc(text) {
+      return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function ctRender(target, rows) {
+      document.getElementById(target).innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + ctEsc(row[0]) + '</th><td>' + (row[2] === true ? row[1] : '<code>' + ctEsc(row[1]) + '</code>') + '</td></tr>';
+      }).join('');
+    }
+
+    function ctClear() {
+      document.getElementById('ctInput').value = '';
+      ctRender('ctVerdict', [['Ready', 'Paste a chain and press Test Chain.', true]]);
+      ctRender('ctOrder', [['Ready', 'The ordered chain appears here.', true]]);
+      ctRender('ctLinks', [['Ready', 'Each link is checked here.', true]]);
+      ctRender('ctFindings', [['Ready', 'Specific problems appear here.', true]]);
+    }
+
+    function ctDays(date) {
+      return Math.round((date.getTime() - Date.now()) / 86400000);
+    }
+
+    function ctShortName(cert) {
+      for (var i = 0; i < cert.subject.length; i++) {
+        if (cert.subject[i].short === 'CN') { return cert.subject[i].value; }
+      }
+      return cert.subjectText;
+    }
+
+    /*
+     * Works out the order by matching issuers to subjects. A certificate that no
+     * other certificate claims as its issuer is the leaf, then the chain is
+     * followed upwards until no further issuer is present in the input.
+     */
+    function ctOrder(certs) {
+      // A certificate is an issuer when some certificate names it as one, so the
+      // set is built from issuers rather than subjects. Using subjects would mark
+      // every certificate as claimed and no leaf would ever be found.
+      var isNamedAsIssuer = {};
+      certs.forEach(function (cert) { isNamedAsIssuer[X509.nameKey(cert.issuer)] = true; });
+
+      var leaf = null;
+      for (var i = 0; i < certs.length; i++) {
+        if (!isNamedAsIssuer[certs[i].subjectKey]) { leaf = certs[i]; break; }
+      }
+      if (!leaf) { leaf = certs[0]; }
+
+      var chain = [leaf];
+      var remaining = certs.filter(function (cert) { return cert !== leaf; });
+      var current = leaf;
+      var guard = 0;
+
+      while (remaining.length && guard++ < certs.length + 1) {
+        var wanted = X509.nameKey(current.issuer);
+        var next = null;
+        for (var j = 0; j < remaining.length; j++) {
+          if (remaining[j].subjectKey === wanted) { next = remaining[j]; break; }
+        }
+        if (!next) { break; }
+        chain.push(next);
+        remaining = remaining.filter(function (cert) { return cert !== next; });
+        current = next;
+      }
+      return { chain: chain, unused: remaining };
+    }
+
+    async function ctTest() {
+      var raw = document.getElementById('ctInput').value.trim();
+      if (!raw) { ctRender('ctVerdict', [['Error', '<span class="ct-err">Paste a chain first.</span>', true]]); return; }
+      if (!window.X509) { ctRender('ctVerdict', [['Error', '<span class="ct-err">The certificate parser is not available.</span>', true]]); return; }
+
+      var blocks = X509.readCertificates(raw);
+      if (!blocks.length) {
+        ctRender('ctVerdict', [['Error', '<span class="ct-err">No PEM certificates were found in the input.</span>', true]]);
+        return;
+      }
+
+      var certs = [];
+      var findings = [];
+      blocks.forEach(function (block, index) {
+        if (block.error) { findings.push('Certificate ' + (index + 1) + ': ' + block.error); return; }
+        try {
+          certs.push(X509.parseCertificate(block.der));
+        } catch (error) {
+          findings.push('Certificate ' + (index + 1) + ' could not be parsed: ' + error.message);
+        }
+      });
+
+      if (!certs.length) {
+        ctRender('ctVerdict', [['Error', '<span class="ct-err">None of the ' + blocks.length + ' PEM blocks could be read as a certificate.</span>', true]]);
+        return;
+      }
+
+      var built = ctOrder(certs);
+      var chain = built.chain;
+      var now = Date.now();
+      var selfSignedRoot = chain[chain.length - 1].isSelfSigned;
+      var allVerified = true;
+      var anySkipped = false;
+
+      ctRender('ctOrder', chain.map(function (cert, index) {
+        var role;
+        if (chain.length === 1 && cert.isSelfSigned) { role = 'self signed root'; }
+        else if (index === 0) { role = 'leaf, presented by the server'; }
+        else if (index === chain.length - 1 && cert.isSelfSigned) { role = 'root, self signed'; }
+        else { role = 'intermediate'; }
+        return ['Position ' + (index + 1) + ', ' + role, cert.subjectText + '\nissued by ' + cert.issuerText];
+      }));
+
+      var linkRows = [];
+      for (var i = 0; i < chain.length - 1; i++) {
+        var child = chain[i];
+        var parent = chain[i + 1];
+        var result = await X509.verifySignature(child, parent);
+        if (result.skipped) { anySkipped = true; } else if (!result.ok) { allVerified = false; }
+
+        var problems = [];
+        if (!result.ok) { problems.push(result.skipped ? 'not checked, ' + result.reason : result.reason); }
+        if (parent.notAfter.getTime() < now) { problems.push('the issuer certificate is expired'); }
+        if (parent.notBefore.getTime() > now) { problems.push('the issuer certificate is not valid yet'); }
+        if (!parent.isCa) { problems.push('the issuer lacks the CA:TRUE basic constraint'); }
+        if (parent.keyUsage.length && parent.keyUsage.indexOf('keyCertSign') === -1) {
+          problems.push('the issuer key usage omits keyCertSign');
+        }
+
+        linkRows.push([
+          'Link ' + (i + 1) + ': ' + ctShortName(child) + ' signed by ' + ctShortName(parent),
+          (result.ok ? 'Signature verifies' : (result.skipped ? 'Signature not checked' : 'SIGNATURE FAILS')) +
+            (problems.length ? '. ' + problems.join('. ') + '.' : '. No problems found.'),
+          true
+        ]);
+      }
+      if (!linkRows.length) {
+        linkRows.push(['Single certificate', 'There is only one certificate, so there are no links to verify between certificates.', true]);
+      }
+      ctRender('ctLinks', linkRows);
+
+      if (!selfSignedRoot) {
+        findings.push('The chain does not end at a self signed root. An intermediate certificate is almost certainly missing from the input.');
+      }
+      if (built.unused.length) {
+        findings.push(built.unused.length + ' certificate(s) in the input were not part of the chain and were ignored: ' +
+          built.unused.map(ctShortName).join(', '));
+      }
+
+      chain.forEach(function (cert, index) {
+        var position = index === 0 ? 'The leaf' : ('The certificate at position ' + (index + 1));
+        if (cert.notAfter.getTime() < now) {
+          findings.push(position + ' expired ' + Math.abs(ctDays(cert.notAfter)) + ' days ago, on ' + cert.notAfter.toISOString() + '.');
+        }
+        if (cert.notBefore.getTime() > now) {
+          findings.push(position + ' is not valid until ' + cert.notBefore.toISOString() + '.');
+        }
+        if (cert.signatureAlg.weak) {
+          findings.push(position + ' uses ' + cert.signatureAlg.name + ', which is deprecated and rejected by modern clients.');
+        }
+        if ((cert.keyAlg === 'RSA' || cert.keyAlg === 'RSA-PSS') && cert.keyBits && cert.keyBits < 2048) {
+          findings.push(position + ' uses a ' + cert.keyBits + ' bit RSA key, below the 2048 bit minimum.');
+        }
+        if (index === 0 && cert.isCa) {
+          findings.push('The leaf has CA:TRUE, so it may sign certificates. That is a misissuance for a server certificate.');
+        }
+        if (index > 0 && !cert.isCa) {
+          findings.push(position + ' is not a CA but is being used as an issuer.');
+        }
+      });
+
+      var leafCert = chain[0];
+      if (!leafCert.sanAll.length) {
+        findings.push('The leaf has no subjectAltName extension, so hostname verification will fail against every client.');
+      }
+      if (!leafCert.extensions.byOid['2.5.29.19']) {
+        findings.push('The leaf has no basic constraints extension, so its CA status is undefined.');
+      }
+
+      ctRender('ctFindings', findings.length
+        ? findings.map(function (text) { return ['Finding', text, true]; })
+        : [['None', 'No problems were found in this chain.', true]]);
+
+      var verdict;
+      if (!allVerified) {
+        verdict = 'At least one signature in this chain does not verify. The certificates probably do not belong together, or one has been altered.';
+      } else if (!selfSignedRoot) {
+        verdict = 'Every signature that could be checked is valid, but the chain is incomplete because it does not reach a self signed root.';
+      } else if (!findings.length) {
+        verdict = 'The chain is complete, every signature verifies, and no problems were found.';
+      } else if (anySkipped) {
+        verdict = 'The chain is complete, but at least one signature could not be checked in this browser. See the notes on each link.';
+      } else {
+        verdict = 'The chain is complete and every signature verifies. Review the findings for anything that still needs attention.';
+      }
+
+      ctRender('ctVerdict', [
+        ['Certificates found', String(blocks.length), true],
+        ['Certificates parsed', String(certs.length), true],
+        ['Chain length', String(chain.length), true],
+        ['Reaches a self signed root', selfSignedRoot ? 'Yes' : 'No', true],
+        ['Links checked', anySkipped
+          ? 'Every link was attempted, and at least one could not be checked here'
+          : String(Math.max(0, chain.length - 1)), true],
+        ['Findings', String(findings.length), true],
+        ['Verdict', verdict, true]
+      ]);
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', {
+            event_category: 'SSL Chain Tester',
+            event_label: chain.length + ' certificates, ' + findings.length + ' findings',
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(sendTrackingEvent);
+      } else {
+        setTimeout(sendTrackingEvent, 0);
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', function () {
+      if (!window.X509) {
+        ctRender('ctVerdict', [['Error', 'The certificate parser did not load. Reload the page, or check that JavaScript is enabled.', true]]);
+      }
+    });
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .ct-panel { max-width: 940px; }
+    .ct-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .ct-input { width: 100%; padding: 6px; font-family: monospace; box-sizing: border-box; }
+    .ct-buttons { margin: 14px 0; }
+    .ct-button { padding: 6px 12px; background-color: var(--background-secondary); color: var(--color); border: none; cursor: pointer; margin-right: 8px; }
+    .ct-button:hover { background-color: #0056b3; }
+    .ct-secondary { opacity: 0.85; }
+    .ct-heading { font-size: 24px; margin: 24px 0 10px; }
+    .ct-table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+    .ct-table th, .ct-table td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; white-space: pre-line; word-break: break-word; }
+    .ct-table th { width: 34%; font-weight: bold; }
+    .ct-idle { font-style: italic; }
+    .ct-err { color: #b00020; font-weight: bold; }
+    .ct-list { margin-left: 0; padding-left: 20px; }
+    .ct-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
