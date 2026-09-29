@@ -1,0 +1,218 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="ipv6-expander">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. The address you enter is expanded
+    locally and is never transmitted, logged, or stored.
+  </p>
+
+  <div class="v6-panel">
+    <label for="v6Input" class="v6-label">IPv6 address</label>
+    <input type="text" id="v6Input" class="v6-input" value="2001:db8::1">
+
+    <div class="v6-buttons">
+      <button onclick="v6Run('expand')" class="v6-button">Expand</button>
+      <button onclick="v6Run('compress')" class="v6-button">Compress</button>
+      <button onclick="v6Clear()" class="v6-button v6-secondary">Clear</button>
+    </div>
+
+    <h2 class="v6-heading">Results</h2>
+    <table class="v6-table">
+      <tbody id="v6Results"><tr><td class="v6-idle">Enter an address to expand it.</td></tr></tbody>
+    </table>
+
+    <h2 class="v6-heading">Reading IPv6</h2>
+    <ul class="v6-list">
+      <li><b>Eight groups of four hex digits.</b> Each group is 16 bits, so a full address is 128 bits. The double colon stands in for one run of all-zero groups and may appear only once.</li>
+      <li><b>Compression is a display choice.</b> <code>2001:db8::1</code> and <code>2001:0db8:0000:0000:0000:0000:0000:0001</code> are the same address. Expanding shows the true bit pattern, which is what you need when two addresses look different but are not.</li>
+      <li><b>The prefix matters more than the rest.</b> Firewall and routing decisions act on the prefix, so two addresses in the same <code>/64</code> are neighbours no matter how the host portion is written.</li>
+    </ul>
+  </div>
+
+  <script>
+    function yieldToMain(callback) {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function v6Pad(value) {
+      var text = value.toString(16);
+      while (text.length < 4) { text = '0' + text; }
+      return text;
+    }
+
+    // Returns eight 16-bit values, or null when the input is not a valid
+    // address. Handles a zone identifier and a trailing dotted quad.
+    function v6Parse(input) {
+      var text = input.trim().split('%')[0];
+      if (!text.length) { return null; }
+
+      var embedded = '';
+      if (text.indexOf('.') !== -1) {
+        var cut = text.lastIndexOf(':');
+        var octets = text.substring(cut + 1).split('.');
+        if (octets.length !== 4) { return null; }
+        var nums = [];
+        for (var i = 0; i < 4; i++) {
+          if (!/^[0-9]{1,3}$/.test(octets[i])) { return null; }
+          var octet = parseInt(octets[i], 10);
+          if (octet > 255) { return null; }
+          nums.push(octet);
+        }
+        embedded = text.substring(cut + 1);
+        text = text.substring(0, cut + 1) +
+          (nums[0] * 256 + nums[1]).toString(16) + ':' + (nums[2] * 256 + nums[3]).toString(16);
+      }
+
+      if (text.indexOf(':::') !== -1) { return null; }
+      var halves = text.split('::');
+      if (halves.length > 2) { return null; }
+
+      var head = halves[0] ? halves[0].split(':') : [];
+      var tail = halves.length === 2 ? (halves[1] ? halves[1].split(':') : []) : null;
+      var groups;
+
+      if (tail === null) {
+        if (head.length !== 8) { return null; }
+        groups = head;
+      } else {
+        var fill = 8 - head.length - tail.length;
+        if (fill < 1) { return null; }
+        groups = head.concat(new Array(fill).fill('0')).concat(tail);
+      }
+
+      var values = [];
+      for (var g = 0; g < groups.length; g++) {
+        if (!/^[0-9a-fA-F]{1,4}$/.test(groups[g])) { return null; }
+        values.push(parseInt(groups[g], 16));
+      }
+      return { groups: values, embedded: embedded };
+    }
+
+    function v6Full(groups) {
+      return groups.map(v6Pad).join(':');
+    }
+
+    // RFC 5952: compress the longest run of two or more zero groups, taking the
+    // leftmost run when two runs tie.
+    function v6Short(groups) {
+      var bestStart = -1;
+      var bestLength = 0;
+      var runStart = -1;
+      var runLength = 0;
+      for (var i = 0; i < 8; i++) {
+        if (groups[i] === 0) {
+          if (runStart === -1) { runStart = i; runLength = 0; }
+          runLength++;
+          if (runLength > bestLength) { bestLength = runLength; bestStart = runStart; }
+        } else {
+          runStart = -1;
+          runLength = 0;
+        }
+      }
+      var hex = groups.map(function (g) { return g.toString(16); });
+      if (bestLength < 2) { return hex.join(':'); }
+      return hex.slice(0, bestStart).join(':') + '::' + hex.slice(bestStart + bestLength).join(':');
+    }
+    function v6Scope(groups) {
+      var first = groups[0];
+      var zeroRun = groups.slice(0, 7).every(function (g) { return g === 0; });
+      if (zeroRun && groups[7] === 1) { return 'Loopback (::1)'; }
+      if (groups.every(function (g) { return g === 0; })) { return 'Unspecified (::)'; }
+      if ((first & 0xffc0) === 0xfe80) { return 'Link local, fe80::/10. Not routable and not unique across networks.'; }
+      if ((first & 0xfe00) === 0xfc00) { return 'Unique local, fc00::/7. The IPv6 counterpart to RFC 1918 space.'; }
+      if ((first & 0xff00) === 0xff00) { return 'Multicast, ff00::/8.'; }
+      if (first === 0x2001 && groups[1] === 0x0db8) { return 'Documentation range, 2001:db8::/32. Reserved for examples.'; }
+      if (first === 0x2002) { return '6to4, 2002::/16. Embeds an IPv4 address in groups two and three.'; }
+      if (first === 0x2001 && groups[1] === 0x0000) { return 'Teredo, 2001::/32.'; }
+      if (first === 0x0064 && groups[1] === 0xff9b) { return 'NAT64 well known prefix, 64:ff9b::/96.'; }
+      return 'Global unicast.';
+    }
+
+    function v6Render(parsed, mode) {
+      var groups = parsed.groups;
+      var rows = [
+        ['Expanded', v6Full(groups)],
+        ['Compressed, RFC 5952', v6Short(groups)],
+        ['Uppercase', v6Full(groups).toUpperCase()],
+        ['Group count', '8 groups of 16 bits, so 128 bits total'],
+        ['First group', '0x' + v6Pad(groups[0]) + ', which is ' + groups[0]],
+        ['Scope', v6Scope(groups)],
+        ['First 32 bits in binary', groups.slice(0, 2).map(function (g) {
+          var bits = '';
+          for (var b = 15; b >= 0; b--) { bits += (g >>> b) & 1; }
+          return bits;
+        }).join(' ')],
+        ['Trailing dotted quad', parsed.embedded ? parsed.embedded : 'none']
+      ];
+
+      document.getElementById('v6Results').innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + row[0] + '</th><td><code>' + row[1] + '</code></td></tr>';
+      }).join('');
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', { event_category: 'IPv6 Expander', event_label: mode });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+
+    function v6Error(message) {
+      document.getElementById('v6Results').innerHTML =
+        '<tr><th scope="row">Error</th><td><span class="v6-err">' + message +
+        ' Check for a missing group, a second double colon, or a group longer than four hex digits.</span></td></tr>';
+    }
+
+    function v6Run(mode) {
+      var raw = document.getElementById('v6Input').value.trim();
+      if (!raw) { v6Error('Enter an IPv6 address first.'); return; }
+      var parsed = v6Parse(raw);
+      if (!parsed) { v6Error('That is not a valid IPv6 address.'); return; }
+      v6Render(parsed, mode);
+    }
+
+    function v6Clear() {
+      document.getElementById('v6Input').value = '';
+      document.getElementById('v6Results').innerHTML = '<tr><td class="v6-idle">Enter an address to expand it.</td></tr>';
+    }
+
+    v6Run('expand');
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .v6-panel { max-width: 900px; }
+    .v6-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .v6-input { padding: 6px; width: 100%; max-width: 480px; font-family: monospace; }
+    .v6-buttons { margin: 14px 0; }
+    .v6-button { padding: 6px 12px; background-color: var(--background-secondary); color: var(--color); border: none; cursor: pointer; margin-right: 8px; }
+    .v6-button:hover { background-color: #0056b3; }
+    .v6-secondary { opacity: 0.85; }
+    .v6-heading { font-size: 24px; margin: 24px 0 10px; }
+    .v6-table { width: 100%; border-collapse: collapse; }
+    .v6-table th, .v6-table td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; word-break: break-word; }
+    .v6-table th { width: 34%; font-weight: bold; }
+    .v6-idle { font-style: italic; }
+    .v6-err { color: #b00020; font-weight: bold; }
+    .v6-list { margin-left: 0; padding-left: 20px; }
+    .v6-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
+

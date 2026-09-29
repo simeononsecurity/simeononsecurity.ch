@@ -1,0 +1,236 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="ssh-key-fingerprint">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. Public keys are public by design,
+    but the key you paste is still processed locally and is never transmitted, logged, or stored.
+  </p>
+
+  <div class="sk-panel">
+    <label for="skInput" class="sk-label">SSH public key, or just the base64 blob</label>
+    <textarea id="skInput" class="sk-input" rows="5" placeholder="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... user@host"></textarea>
+
+    <div class="sk-buttons">
+      <button onclick="skCompute()" class="sk-button">Compute Fingerprint</button>
+      <button onclick="skClear()" class="sk-button sk-secondary">Clear</button>
+    </div>
+
+    <h2 class="sk-heading">Results</h2>
+    <table class="sk-table">
+      <tbody id="skResults"><tr><td class="sk-idle">Paste a public key to see its fingerprint.</td></tr></tbody>
+    </table>
+
+    <h2 class="sk-heading">How to Read This</h2>
+    <ul class="sk-list">
+      <li><b>The fingerprint hashes the decoded key, not the text.</b> Reformatting the line, changing the comment, or altering whitespace does not change it.</li>
+      <li><b>Compare it against <code>ssh-keygen -lf</code>.</b> The value here uses the same unpadded base64 form modern OpenSSH prints, so the two should match character for character.</li>
+      <li><b>MD5 fingerprints are deliberately absent.</b> The Web Crypto API omits MD5 and OpenSSH has moved away from it, so the legacy colon form is left out rather than implemented badly.</li>
+      <li><b>A matching fingerprint proves the file is intact, not that the key is trustworthy.</b> An unmodified key can still come from a compromised source.</li>
+    </ul>
+  </div>
+
+  <script>
+    var SK_TYPES = {
+      'ssh-ed25519': { label: 'Ed25519', bits: 256 },
+      'ssh-rsa': { label: 'RSA', bits: 0 },
+      'rsa-sha2-256': { label: 'RSA', bits: 0 },
+      'rsa-sha2-512': { label: 'RSA', bits: 0 },
+      'ssh-dss': { label: 'DSA', bits: 0 },
+      'ecdsa-sha2-nistp256': { label: 'ECDSA', bits: 256 },
+      'ecdsa-sha2-nistp384': { label: 'ECDSA', bits: 384 },
+      'ecdsa-sha2-nistp521': { label: 'ECDSA', bits: 521 },
+      'sk-ssh-ed25519@openssh.com': { label: 'Ed25519 security key', bits: 256 },
+      'sk-ecdsa-sha2-nistp256@openssh.com': { label: 'ECDSA security key', bits: 256 }
+    };
+
+    function yieldToMain(callback) {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function skRender(rows) {
+      document.getElementById('skResults').innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + row[0] + '</th><td><code>' + row[1] + '</code></td></tr>';
+      }).join('');
+    }
+
+    function skError(message) {
+      skRender([['Error', '<span class="sk-err">' + message + '</span>']]);
+    }
+
+    function skBase64ToBytes(text) {
+      var padded = text.replace(/-/g, '+').replace(/_/g, '/');
+      while (padded.length % 4 !== 0) { padded += '='; }
+      var binary = atob(padded);
+      var bytes = new Uint8Array(binary.length);
+      for (var i = 0; i < binary.length; i++) { bytes[i] = binary.charCodeAt(i); }
+      return bytes;
+    }
+
+    function skBytesToBase64(bytes) {
+      var binary = '';
+      for (var i = 0; i < bytes.length; i++) { binary += String.fromCharCode(bytes[i]); }
+      return btoa(binary);
+    }
+
+    function skToHex(bytes) {
+      var parts = [];
+      for (var i = 0; i < bytes.length; i++) {
+        parts.push(('0' + bytes[i].toString(16)).slice(-2));
+      }
+      return parts.join(':');
+    }
+
+    // The blob is a flat sequence of length-prefixed byte strings.
+    function skParseBlob(bytes) {
+      var view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+      var fields = [];
+      var offset = 0;
+      while (offset + 4 <= bytes.length) {
+        var length = view.getUint32(offset);
+        offset += 4;
+        if (offset + length > bytes.length) { return null; }
+        fields.push(bytes.slice(offset, offset + length));
+        offset += length;
+      }
+      return offset === bytes.length ? fields : null;
+    }
+
+    function skAscii(bytes) {
+      var text = '';
+      for (var i = 0; i < bytes.length; i++) { text += String.fromCharCode(bytes[i]); }
+      return text;
+    }
+
+    // RSA and DSA carry the modulus, so the key size comes from its bit length.
+    function skModulusBits(value) {
+      var index = 0;
+      while (index < value.length && value[index] === 0) { index++; }
+      if (index >= value.length) { return 0; }
+      var bits = (value.length - index) * 8;
+      var top = value[index];
+      while (top > 0 && (top & 0x80) === 0) { bits--; top = top << 1; }
+      return bits;
+    }
+
+    function skClear() {
+      document.getElementById('skInput').value = '';
+      document.getElementById('skResults').innerHTML = '<tr><td class="sk-idle">Paste a public key to see its fingerprint.</td></tr>';
+    }
+    async function skCompute() {
+      var raw = document.getElementById('skInput').value.trim();
+      if (!raw) { skError('Paste a public key first.'); return; }
+
+      if (!window.crypto || !window.crypto.subtle) {
+        skError('This browser does not expose the Web Crypto API, which requires a secure context over HTTPS.');
+        return;
+      }
+
+      // Accept either a full authorised_keys line or a bare base64 blob.
+      var parts = raw.split(/\s+/);
+      var keyType = '';
+      var blobText = '';
+      var comment = '';
+
+      if (/^[A-Za-z0-9+/=_-]+$/.test(parts[0]) && parts[0].length > 40) {
+        blobText = parts[0];
+        comment = parts.slice(1).join(' ');
+      } else {
+        keyType = parts[0];
+        blobText = parts[1] || '';
+        comment = parts.slice(2).join(' ');
+      }
+
+      if (!blobText) { skError('No base64 key material was found.'); return; }
+
+      var blob;
+      try {
+        blob = skBase64ToBytes(blobText);
+      } catch (error) {
+        skError('The base64 key material could not be decoded.');
+        return;
+      }
+      if (!blob.length) { skError('The base64 key material decoded to zero bytes.'); return; }
+
+      var fields = skParseBlob(blob);
+      var declaredType = (fields && fields.length) ? skAscii(fields[0]) : keyType;
+      var known = SK_TYPES[declaredType];
+      var bits = known ? known.bits : 0;
+
+      if (!bits && fields && fields.length >= 3) {
+        if (declaredType === 'ssh-rsa' || declaredType.indexOf('rsa-sha2') === 0) {
+          bits = skModulusBits(fields[2]);
+        } else if (declaredType === 'ssh-dss') {
+          bits = skModulusBits(fields[1]);
+        }
+      }
+      if (!bits && declaredType.indexOf('nistp') !== -1) {
+        var match = declaredType.match(/nistp([0-9]+)/);
+        if (match) { bits = parseInt(match[1], 10); }
+      }
+
+      var digest = new Uint8Array(await crypto.subtle.digest('SHA-256', blob));
+      var fingerprint = 'SHA256:' + skBytesToBase64(digest).replace(/=+$/, '');
+
+      skRender([
+        ['Fingerprint, SHA-256', fingerprint],
+        ['Key type', declaredType || 'unknown'],
+        ['Key algorithm', known ? known.label : 'unrecognised'],
+        ['Key size', bits ? bits + ' bits' : 'not determined from the available fields'],
+        ['Blob size', blob.length + ' bytes'],
+        ['Fields in blob', fields ? String(fields.length) : 'could not be parsed as length-prefixed strings'],
+        ['Comment', comment || '(none)'],
+        ['SHA-256 digest in hex', skToHex(digest)],
+        ['Declared type matches blob', (keyType && keyType !== declaredType)
+          ? 'No. The line says ' + keyType + ' but the blob says ' + declaredType + '.'
+          : 'Yes, or no type was given on the line.']
+      ]);
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', {
+            event_category: 'SSH Key Fingerprint',
+            event_label: known ? known.label : 'unknown',
+          });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .sk-panel { max-width: 900px; }
+    .sk-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .sk-input { width: 100%; padding: 6px; font-family: monospace; box-sizing: border-box; }
+    .sk-buttons { margin: 14px 0; }
+    .sk-button { padding: 6px 12px; background-color: var(--background-secondary); color: var(--color); border: none; cursor: pointer; margin-right: 8px; }
+    .sk-button:hover { background-color: #0056b3; }
+    .sk-secondary { opacity: 0.85; }
+    .sk-heading { font-size: 24px; margin: 24px 0 10px; }
+    .sk-table { width: 100%; border-collapse: collapse; }
+    .sk-table th, .sk-table td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; word-break: break-word; }
+    .sk-table th { width: 30%; font-weight: bold; }
+    .sk-idle { font-style: italic; }
+    .sk-err { color: #b00020; font-weight: bold; }
+    .sk-list { margin-left: 0; padding-left: 20px; }
+    .sk-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
+

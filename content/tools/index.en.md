@@ -50,6 +50,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [URL Encoder and Decoder](/url-encode-decode/) | Percent-encode or decode text, query values, and full URLs. Separate component and full-URL modes with clear errors for malformed input. |
 | [HMAC Calculator](/hmac-calculator/) | Compute an HMAC signature with SHA-256, SHA-1, SHA-384, or SHA-512 to verify webhook signatures and API request signing. Your shared secret stays in the browser. |
 | [Base32 Encoder and Decoder](/base32-encode-decode/) | Encode text to RFC 4648 Base32 or decode it back. The usual first step when checking why a TOTP secret will not produce valid codes. |
+| [HTML Entity Encoder and Decoder](/html-entity-encode-decode/) | Encode the characters that change meaning inside HTML, or decode named and numeric entities back to text. Useful for reviewing encoded payloads. |
+| [Escape Sequence Decoder](/escape-decoder/) | Decode backslash escapes in hexadecimal, Unicode and octal forms such as `\x3c`, `\u0041` and `\101`, then re-escape non-printables for safe pasting. |
 
 ---
 
@@ -82,6 +84,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [Entropy Analyzer](/entropy-analyzer/)        | Measure Shannon entropy to tell repetitive data from encoded, compressed or encrypted content. Indispensable for a first look at a suspected payload, and it runs locally so samples stay put. |
 | [Hex Dump Viewer](/hex-dump-viewer/)          | Render text or a hex string as a classic hex dump with offsets, byte columns and an ASCII gutter. Handy for spotting magic numbers and unexpected bytes without uploading a sample. |
 | [Classic Ciphers](/classic-ciphers/)          | Apply ROT13, Atbash, a full Caesar brute force across all 26 shifts, or XOR with a text or hex key. Built for CTF work and for showing why substitution ciphers are not encryption. |
+| [TOTP and HOTP Generator](/totp-generator/)    | Generate one time codes from a Base32 secret or an otpauth URI, with a live countdown and a verifier that checks the current, previous and next window. The secret never leaves the browser. |
+| [SSH Public Key Fingerprint](/ssh-key-fingerprint/) | Compute the SHA-256 fingerprint of an SSH public key, matching `ssh-keygen -lf` exactly, and report the key type and size parsed straight from the key blob. |
 
 ---
 
@@ -105,6 +109,7 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [CIDR Subnet Calculator](/cidr-calculator/) | Work out the network address, broadcast address, subnet mask, wildcard mask, and usable host range for any IPv4 CIDR block, with a binary breakdown and private range detection. |
 | [IP Address Format Converter](/ip-format-converter/) | Convert an address into decimal, hex, octal, binary, short and IPv4-mapped IPv6 forms so you can check whether your own validation normalises a value before blocking it. |
 | [URL Parser and Query Analyzer](/url-parser/) | Break a URL into scheme, credentials, host, port, path, query and fragment, decode the path, and list every parameter. Flags credentials in the URL and percent-encoded paths. |
+| [IPv6 Address Expander](/ipv6-expander/) | Expand an IPv6 address to its full eight group form or compress it per RFC 5952, with scope detection and support for embedded IPv4 and zone identifiers. |
 
 ---
 
