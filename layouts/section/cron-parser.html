@@ -1,0 +1,245 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="cron-parser">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. The expression you enter and the
+    times it calculates are processed locally and are never transmitted, logged, or stored.
+  </p>
+
+  <div class="crn-panel">
+    <label for="crnInput" class="crn-label">Cron expression</label>
+    <input type="text" id="crnInput" class="crn-input" value="0 3 * * 1-5">
+
+    <div class="crn-buttons">
+      <button onclick="crnParse()" class="crn-button">Parse</button>
+      <button onclick="crnClear()" class="crn-button crn-secondary">Clear</button>
+    </div>
+
+    <h2 class="crn-heading">Fields</h2>
+    <table class="crn-table">
+      <tbody id="crnFields"><tr><td class="crn-idle">Enter an expression and press Parse.</td></tr></tbody>
+    </table>
+
+    <h2 class="crn-heading">Next Run Times</h2>
+    <table class="crn-table">
+      <tbody id="crnRuns"><tr><td class="crn-idle">Upcoming runs appear here.</td></tr></tbody>
+    </table>
+    <p id="crnNote" class="crn-note"></p>
+
+    <h2 class="crn-heading">Syntax</h2>
+    <ul class="crn-list">
+      <li><b>Five fields</b> in order: minute, hour, day of month, month, day of week.</li>
+      <li><b>A number matches exactly.</b> <code>*</code> matches every value, <code>a-b</code> is a range, and <code>a,b,c</code> is a list.</li>
+      <li><b>Steps use a slash.</b> <code>*/15</code> in the minute field means every fifteen minutes, and <code>1-30/5</code> means every five within that range.</li>
+      <li><b>The two day fields have a trap.</b> When both are restricted, cron matches if <b>either</b> one matches rather than requiring both. This tool follows that rule and tells you when it applies.</li>
+    </ul>
+  </div>
+
+  <script>
+    var CRN_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    var CRN_DAYS = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+
+    function yieldToMain(callback) {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function crnRender(target, rows) {
+      document.getElementById(target).innerHTML = rows.map(function (row) {
+        return '<tr><th scope="row">' + row[0] + '</th><td>' + row[1] + '</td></tr>';
+      }).join('');
+    }
+
+    function crnExpandNames(text, names, offset) {
+      var out = text;
+      for (var i = 0; i < names.length; i++) {
+        out = out.replace(new RegExp(names[i], 'gi'), i + offset);
+      }
+      return out;
+    }
+
+    function crnParseField(raw, min, max, names, offset) {
+      var text = names ? crnExpandNames(raw, names, offset) : raw;
+      var values = {};
+      var restricted = text !== '*';
+      var parts = text.split(',');
+
+      for (var i = 0; i < parts.length; i++) {
+        var part = parts[i];
+        var step = 1;
+        var slash = part.indexOf('/');
+        if (slash !== -1) {
+          step = parseInt(part.substring(slash + 1), 10);
+          part = part.substring(0, slash);
+          if (isNaN(step) || step < 1) { return null; }
+        }
+
+        var lo;
+        var hi;
+        if (part === '*' || part === '') {
+          lo = min;
+          hi = max;
+        } else if (part.indexOf('-') !== -1) {
+          var bounds = part.split('-');
+          lo = parseInt(bounds[0], 10);
+          hi = parseInt(bounds[1], 10);
+        } else {
+          lo = parseInt(part, 10);
+          hi = lo;
+        }
+
+        if (isNaN(lo) || isNaN(hi) || lo < min || hi > max || lo > hi) { return null; }
+        for (var v = lo; v <= hi; v += step) { values[v] = true; }
+      }
+
+      return { values: values, restricted: restricted };
+    }
+
+    function crnMatch(date, fields) {
+      if (!fields.minute.values[date.getMinutes()]) { return false; }
+      if (!fields.hour.values[date.getHours()]) { return false; }
+      if (!fields.month.values[date.getMonth() + 1]) { return false; }
+
+      var domOk = !!fields.dom.values[date.getDate()];
+      var dowOk = !!fields.dow.values[date.getDay()];
+
+      // Where both day fields are constrained, cron uses OR rather than AND.
+      if (fields.dom.restricted && fields.dow.restricted) { return domOk || dowOk; }
+      return domOk && dowOk;
+    }
+
+    function crnList(values, min, max, names, offset) {
+      var out = [];
+      for (var v = min; v <= max; v++) {
+        if (values[v]) {
+          if (names) { out.push(names[v - offset]); }
+          else { out.push(String(v)); }
+        }
+      }
+      return out.join(', ');
+    }
+
+    function crnClear() {
+      document.getElementById('crnInput').value = '';
+      crnRender('crnFields', [['Ready', 'Enter an expression and press Parse.']]);
+      crnRender('crnRuns', [['Ready', 'Upcoming runs appear here.']]);
+      document.getElementById('crnNote').textContent = '';
+    }
+    function crnParse() {
+      var raw = document.getElementById('crnInput').value.trim();
+      if (!raw) {
+        crnRender('crnFields', [['Error', '<span class="crn-err">Enter a cron expression first.</span>']]);
+        return;
+      }
+
+      var parts = raw.split(/\s+/);
+      if (parts.length !== 5) {
+        crnRender('crnFields', [['Error', '<span class="crn-err">Expected five fields but found ' + parts.length + '. The order is minute, hour, day of month, month, day of week.</span>']]);
+        crnRender('crnRuns', [['Ready', 'Nothing to calculate.']]);
+        return;
+      }
+
+      var fields = {
+        minute: crnParseField(parts[0], 0, 59, null, 0),
+        hour: crnParseField(parts[1], 0, 23, null, 0),
+        dom: crnParseField(parts[2], 1, 31, null, 0),
+        month: crnParseField(parts[3], 1, 12, CRN_MONTHS, 1),
+        dow: crnParseField(parts[4], 0, 7, CRN_DAYS, 0)
+      };
+
+      var bad = null;
+      ['minute', 'hour', 'dom', 'month', 'dow'].forEach(function (key) {
+        if (!fields[key]) { bad = key; }
+      });
+      if (bad) {
+        crnRender('crnFields', [['Error', '<span class="crn-err">The ' + bad + ' field could not be parsed. Check the ranges and any step values.</span>']]);
+        crnRender('crnRuns', [['Ready', 'Nothing to calculate.']]);
+        return;
+      }
+
+      // Day of week accepts both 0 and 7 for Sunday.
+      if (fields.dow.values[7]) { fields.dow.values[0] = true; }
+
+      crnRender('crnFields', [
+        ['Minute', '<code>' + parts[0] + '</code> matches ' + crnList(fields.minute.values, 0, 59, null, 0)],
+        ['Hour', '<code>' + parts[1] + '</code> matches ' + crnList(fields.hour.values, 0, 23, null, 0)],
+        ['Day of month', '<code>' + parts[2] + '</code> matches ' + crnList(fields.dom.values, 1, 31, null, 0)],
+        ['Month', '<code>' + parts[3] + '</code> matches ' + crnList(fields.month.values, 1, 12, CRN_MONTHS, 1)],
+        ['Day of week', '<code>' + parts[4] + '</code> matches ' + crnList(fields.dow.values, 0, 6, CRN_DAYS, 0)],
+        ['Day field logic', (fields.dom.restricted && fields.dow.restricted)
+          ? '<span class="crn-warn">Both day fields are restricted, so this fires when either matches.</span>'
+          : 'Both day fields use normal AND logic here.']
+      ]);
+
+      var runs = [];
+      var cursor = new Date();
+      cursor.setSeconds(0, 0);
+      cursor.setMinutes(cursor.getMinutes() + 1);
+      var limit = 60 * 24 * 366 * 4;
+
+      for (var i = 0; i < limit && runs.length < 10; i++) {
+        if (crnMatch(cursor, fields)) { runs.push(new Date(cursor.getTime())); }
+        cursor.setMinutes(cursor.getMinutes() + 1);
+      }
+
+      if (!runs.length) {
+        crnRender('crnRuns', [['None found', 'No matching time was found in the next four years, so this expression may be unsatisfiable. A February 30 entry is the usual cause.']]);
+      } else {
+        crnRender('crnRuns', runs.map(function (run, index) {
+          return ['Run ' + (index + 1), run.toString()];
+        }));
+      }
+
+      document.getElementById('crnNote').textContent = runs.length
+        ? 'Times are calculated in your local timezone.'
+        : '';
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', { event_category: 'Cron Parser', event_label: 'Parsed an expression' });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+
+    crnParse();
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .crn-panel { max-width: 860px; }
+    .crn-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .crn-input { padding: 6px; width: 100%; max-width: 420px; font-family: monospace; }
+    .crn-buttons { margin: 14px 0; }
+    .crn-button { padding: 6px 12px; background-color: var(--background-secondary); color: var(--color); border: none; cursor: pointer; margin-right: 8px; }
+    .crn-button:hover { background-color: #0056b3; }
+    .crn-secondary { opacity: 0.85; }
+    .crn-heading { font-size: 24px; margin: 24px 0 10px; }
+    .crn-table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+    .crn-table th, .crn-table td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; word-break: break-word; }
+    .crn-table th { width: 24%; font-weight: bold; }
+    .crn-idle { font-style: italic; }
+    .crn-err { color: #b00020; font-weight: bold; }
+    .crn-warn { color: #b45309; font-weight: bold; }
+    .crn-note { font-style: italic; margin-top: 8px; }
+    .crn-list { margin-left: 0; padding-left: 20px; }
+    .crn-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}
+

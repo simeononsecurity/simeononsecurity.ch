@@ -1,0 +1,150 @@
+{{ define "main" }}
+{{ $style := resources.Get "style-append.css" | resources.Minify }}
+<link rel="preload" href="{{ $style.Permalink }}" as="style" fetchpriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ partial "google_tag_manager.html" . }}
+
+<main class="hex-dump-viewer">
+  {{ partialCached "breadcrumbs.html" . .Page }}
+
+  <h1 class="post-title">
+    <a title="{{ .Title | markdownify }}" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h1>
+  <p>
+    <b>NOTE:</b> This tool runs entirely in your browser with client-side JavaScript. Whatever you paste is converted
+    locally and is never transmitted, logged, or stored. That matters when the input is a captured payload or a
+    snippet lifted from a memory dump.
+  </p>
+
+  <div class="hd-panel">
+    <label for="hdInput" class="hd-label">Input</label>
+    <textarea id="hdInput" class="hd-input" rows="6" placeholder="Type or paste text, or tick the box below to supply raw hex"></textarea>
+
+    <label class="hd-label hd-check">
+      <input type="checkbox" id="hdHex"> Input is a hex string, decode it to bytes before dumping
+    </label>
+
+    <div class="hd-buttons">
+      <button onclick="hdDump()" class="hd-button">Dump</button>
+      <button onclick="hdClear()" class="hd-button hd-secondary">Clear</button>
+    </div>
+
+    <h2 class="hd-heading">Hex Dump</h2>
+    <textarea id="hdOutput" class="hd-output" rows="14" readonly spellcheck="false"></textarea>
+    <p id="hdNote" class="hd-note"></p>
+
+    <h2 class="hd-heading">Reading a Hex Dump</h2>
+    <ul class="hd-list">
+      <li><b>The left column is the offset</b> from the start of the data, in hexadecimal, so you can point at an exact byte.</li>
+      <li><b>The middle is the bytes themselves,</b> spaced in groups of one so a 16-byte row lines up.</li>
+      <li><b>The right gutter is the ASCII view.</b> Anything outside the printable range shows as a dot, which is why a stray dot in a text string usually means an unexpected byte.</li>
+      <li><b>Text input is encoded as UTF-8.</b> A character above the ASCII range becomes two or more bytes, so one accented letter shifts every offset after it. Tick the hex box when you need byte-exact input rather than a text encoding.</li>
+      <li><b>Look at the first bytes for a magic number.</b> <code>50 4B 03 04</code> is a ZIP or Office file, <code>1F 8B</code> is gzip, <code>4D 5A</code> is a Windows executable, and <code>25 50 44 46</code> is a PDF.</li>
+    </ul>
+  </div>
+
+  <script>
+    var HD_MAX = 4096;
+
+    function yieldToMain(callback) {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(() => { callback(); });
+      } else {
+        setTimeout(() => { callback(); }, 0);
+      }
+    }
+
+    function hdNote(message) {
+      document.getElementById('hdNote').textContent = message;
+    }
+
+    function hdClear() {
+      document.getElementById('hdInput').value = '';
+      document.getElementById('hdOutput').value = '';
+      hdNote('');
+    }
+
+    function hdDump() {
+      var input = document.getElementById('hdInput').value;
+      if (!input) {
+        hdNote('Enter something to dump.');
+        return;
+      }
+
+      var bytes;
+      var hexMode = document.getElementById('hdHex').checked;
+
+      if (hexMode) {
+        var clean = input.replace(/[^0-9a-fA-F]/g, '');
+        if (!clean.length) {
+          hdNote('No hexadecimal digits were found in the input.');
+          return;
+        }
+        if (clean.length % 2 !== 0) {
+          hdNote('A hex string needs an even number of digits. This one has ' + clean.length + '.');
+          return;
+        }
+        bytes = new Uint8Array(clean.length / 2);
+        for (var i = 0; i < bytes.length; i++) {
+          bytes[i] = parseInt(clean.substr(i * 2, 2), 16);
+        }
+      } else {
+        bytes = new TextEncoder().encode(input);
+      }
+
+      var shown = Math.min(bytes.length, HD_MAX);
+      var lines = [];
+
+      for (var offset = 0; offset < shown; offset += 16) {
+        var hexPart = '';
+        var asciiPart = '';
+        for (var slot = 0; slot < 16; slot++) {
+          var index = offset + slot;
+          if (index < shown) {
+            var byte = bytes[index];
+            hexPart += (byte < 16 ? '0' : '') + byte.toString(16) + ' ';
+            asciiPart += (byte >= 32 && byte <= 126) ? String.fromCharCode(byte) : '.';
+          } else {
+            hexPart += '   ';
+          }
+        }
+        var label = ('00000000' + offset.toString(16)).slice(-8);
+        lines.push(label + '  ' + hexPart + ' |' + asciiPart + '|');
+      }
+
+      document.getElementById('hdOutput').value = lines.join('\n');
+
+      hdNote(bytes.length > HD_MAX
+        ? 'Showing the first ' + HD_MAX + ' bytes of ' + bytes.length + ' to keep the page responsive.'
+        : 'Dumped ' + bytes.length + ' byte' + (bytes.length === 1 ? '' : 's') + ' across ' + lines.length + ' row' + (lines.length === 1 ? '' : 's') + '.');
+
+      function sendTrackingEvent() {
+        try {
+          gtag('event', 'conversion', { event_category: 'Hex Dump Viewer', event_label: 'Dumped data' });
+        } catch (error) {
+          console.error('Failed to send tracking event:', error);
+        }
+      }
+      yieldToMain(sendTrackingEvent);
+    }
+  </script>
+
+  {{ partialCached "displayads-responsive-horizontal.html" . }}
+  <style scoped>
+    .hd-panel { max-width: 900px; }
+    .hd-label { font-weight: bold; display: block; margin: 14px 0 6px; }
+    .hd-check { font-weight: normal; }
+    .hd-input, .hd-output { width: 100%; padding: 6px; font-family: monospace; box-sizing: border-box; }
+    .hd-output { white-space: pre; overflow-x: auto; }
+    .hd-buttons { margin: 14px 0; }
+    .hd-button { padding: 6px 12px; background-color: var(--background-secondary); color: var(--color); border: none; cursor: pointer; margin-right: 8px; }
+    .hd-button:hover { background-color: #0056b3; }
+    .hd-secondary { opacity: 0.85; }
+    .hd-heading { font-size: 24px; margin: 24px 0 10px; }
+    .hd-note { font-style: italic; margin-top: 8px; }
+    .hd-list { margin-left: 0; padding-left: 20px; }
+    .hd-list li { margin: 6px 0; }
+  </style>
+  {{ partialCached "cybersentinelsclub.html" . }}
+</main>
+{{ end }}

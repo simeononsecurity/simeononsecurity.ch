@@ -68,6 +68,7 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [JWT Decoder](/jwt-decoder/)                  | Decode the header, payload, and registered claims of a JSON Web Token without sending it anywhere. Flags unsecured tokens and expired claims, and states plainly that decoding is not verification. |
 | [Unix Timestamp Converter](/unix-timestamp-converter/) | Convert Unix timestamps in seconds or milliseconds to ISO 8601, UTC, and local time, or turn a date string back into an epoch value. Detects which unit you supplied instead of guessing. |
 | [UUID Generator](/uuid-generator/) | Generate cryptographically random version 4 UUIDs in bulk using the Web Crypto API, with the version and variant bits set correctly rather than pasted in by hand. |
+| [Cron Expression Parser](/cron-parser/) | Parse a five field cron expression, see what each field matches in plain language, and list the next ten run times. Handles ranges, lists, steps, and named months and days. |
 
 ---
 
@@ -79,6 +80,8 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 | [CVSS v3.1 Calculator](/cvss-calculator/)     | Calculate a CVSS v3.1 base score from the eight base metrics. Shows the exploitability and impact sub-scores, generates the vector string, and colour-codes the severity band. |
 | [IOC Defang, Refang, and Extractor](/ioc-defang-refang/) | Defang indicators so they are inert, refang them for your own tooling, and pull URLs, IP addresses, hashes, emails and domains out of raw text. Live incident data never leaves the browser. |
 | [Entropy Analyzer](/entropy-analyzer/)        | Measure Shannon entropy to tell repetitive data from encoded, compressed or encrypted content. Indispensable for a first look at a suspected payload, and it runs locally so samples stay put. |
+| [Hex Dump Viewer](/hex-dump-viewer/)          | Render text or a hex string as a classic hex dump with offsets, byte columns and an ASCII gutter. Handy for spotting magic numbers and unexpected bytes without uploading a sample. |
+| [Classic Ciphers](/classic-ciphers/)          | Apply ROT13, Atbash, a full Caesar brute force across all 26 shifts, or XOR with a text or hex key. Built for CTF work and for showing why substitution ciphers are not encryption. |
 
 ---
 
