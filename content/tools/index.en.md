@@ -55,6 +55,14 @@ Everything else is local. If a tool ever needs to send data somewhere, that will
 
 ---
 
+### Payment and Card Tools
+
+| Link                                         | Tool Description                                                                                                                |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/) | Decode Track 1 and Track 2 from a payment card or ID, read the PAN, cardholder name, expiry, service code and discretionary data, then edit any field and get correctly re-encoded tracks with sentinels and a calculated LRC. Everything runs locally, so card data never leaves the browser. |
+
+---
+
 ### Number Conversion Tools
 
 | Link                                                 | Tool Description                                                                                                          |
