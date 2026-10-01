@@ -30,6 +30,7 @@ We offer courses and career playbooks for **CompTIA, EC-Council, and ISC2 certif
 
 - #### [Resume Optimization Course](/resume-optimization-course-start/)
 - #### [Red Team Course](/red-team-course-start/)
+- #### [Personal Security Course](/personal-security-course-start/)
 
 ---
 
