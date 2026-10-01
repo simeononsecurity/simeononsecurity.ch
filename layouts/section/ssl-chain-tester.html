@@ -121,7 +121,7 @@
       return { chain: chain, unused: remaining };
     }
 
-    async function ctTest() {
+    async function ctTest(track) {
       var raw = document.getElementById('ctInput').value.trim();
       if (!raw) { ctRender('ctVerdict', [['Error', '<span class="ct-err">Paste a chain first.</span>', true]]); return; }
       if (!window.X509) { ctRender('ctVerdict', [['Error', '<span class="ct-err">The certificate parser is not available.</span>', true]]); return; }
@@ -269,10 +269,12 @@
           console.error('Failed to send tracking event:', error);
         }
       }
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(sendTrackingEvent);
-      } else {
-        setTimeout(sendTrackingEvent, 0);
+      if (track !== false) {
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(sendTrackingEvent);
+        } else {
+          setTimeout(sendTrackingEvent, 0);
+        }
       }
     }
 
@@ -281,7 +283,28 @@
         ctRender('ctVerdict', [['Error', 'The certificate parser did not load. Reload the page, or check that JavaScript is enabled.', true]]);
       }
     });
-  </script>
+  
+
+    // Recompute whenever the input changes, so the derived values on screen
+    // always match the data above them. Analytics stays on the button, so a
+    // paste or a keystroke never fires an event.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+          var el = document.getElementById('ctInput');
+          if (!el) { return; }
+          if (!el.value.trim()) { ctClear(); return; }
+          ctTest(false);
+        }, 250);
+      }
+      ['ctInput'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) { el.addEventListener('input', auto); el.addEventListener('change', auto); }
+      });
+    })();
+</script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}
   <style scoped>

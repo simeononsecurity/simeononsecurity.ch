@@ -209,7 +209,7 @@
         (uriInfo && uriInfo.label ? ' Account: ' + uriInfo.label + '.' : ''));
     }
 
-    async function otpRefresh() {
+    async function otpRefresh(track) {
       try {
         await otpGenerateCode();
       } catch (error) {
@@ -224,7 +224,7 @@
           console.error('Failed to send tracking event:', error);
         }
       }
-      yieldToMain(sendTrackingEvent);
+      if (track !== false) { yieldToMain(sendTrackingEvent); }
     }
 
     async function otpHotpNow() {
@@ -278,10 +278,32 @@
       }
     }
 
-    otpRefresh();
+    otpRefresh(false);
     setInterval(function () {
-      if (document.getElementById('otpSecret').value.trim()) { otpRefresh(); }
+      if (document.getElementById('otpSecret').value.trim()) { otpRefresh(false); }
     }, 30000);
+
+    // Recompute whenever the secret or any parameter changes.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+          var raw = document.getElementById('otpSecret').value.trim();
+          if (!raw) {
+            document.getElementById('otpOutput').textContent = '------';
+            otpNote('otpMeta', '');
+            return;
+          }
+          otpRefresh(false);
+        }, 250);
+      }
+      ['otpSecret', 'otpDigits', 'otpPeriod', 'otpAlgo'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) { el.addEventListener('input', auto); el.addEventListener('change', auto); }
+      });
+    })();
+
   </script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}

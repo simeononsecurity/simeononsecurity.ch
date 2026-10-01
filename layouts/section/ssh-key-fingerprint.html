@@ -129,7 +129,7 @@
       document.getElementById('skInput').value = '';
       document.getElementById('skResults').innerHTML = '<tr><td class="sk-idle">Paste a public key to see its fingerprint.</td></tr>';
     }
-    async function skCompute() {
+    async function skCompute(track) {
       var raw = document.getElementById('skInput').value.trim();
       if (!raw) { skError('Paste a public key first.'); return; }
 
@@ -208,9 +208,30 @@
           console.error('Failed to send tracking event:', error);
         }
       }
-      yieldToMain(sendTrackingEvent);
+      if (track !== false) { yieldToMain(sendTrackingEvent); }
     }
-  </script>
+  
+
+    // Recompute whenever the input changes, so the derived values on screen
+    // always match the data above them. Analytics stays on the button, so a
+    // paste or a keystroke never fires an event.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+          var el = document.getElementById('skInput');
+          if (!el) { return; }
+          if (!el.value.trim()) { skClear(); return; }
+          skCompute(false);
+        }, 250);
+      }
+      ['skInput'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) { el.addEventListener('input', auto); el.addEventListener('change', auto); }
+      });
+    })();
+</script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}
   <style scoped>

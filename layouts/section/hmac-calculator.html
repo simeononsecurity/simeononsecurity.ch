@@ -90,7 +90,7 @@
       hmNote('');
     }
 
-    async function hmCompute() {
+    async function hmCompute(track) {
       var key = document.getElementById('hmKey').value;
       var message = document.getElementById('hmMsg').value;
       var algorithm = document.getElementById('hmAlgo').value;
@@ -123,8 +123,32 @@
           console.error('Failed to send tracking event:', error);
         }
       }
-      yieldToMain(sendTrackingEvent);
+      if (track !== false) { yieldToMain(sendTrackingEvent); }
     }
+
+    // Recompute whenever the key, message or algorithm changes. Empty inputs
+    // reset the outputs rather than nagging while the form is being filled in.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+          var key = document.getElementById('hmKey').value;
+          var msg = document.getElementById('hmMsg').value;
+          if (!key || !msg) {
+            document.getElementById('hmHex').textContent = '-';
+            document.getElementById('hmB64').textContent = '-';
+            hmNote('');
+            return;
+          }
+          hmCompute(false);
+        }, 200);
+      }
+      ['hmKey', 'hmMsg', 'hmAlgo'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) { el.addEventListener('input', auto); el.addEventListener('change', auto); }
+      });
+    })();
   </script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}

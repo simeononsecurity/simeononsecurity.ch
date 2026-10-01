@@ -44,6 +44,7 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `13-image-webp-conversion-pipeline.md` | Repo-wide PNG/JPG to WebP conversion pipeline |
 | `14-xml-feed-and-sitemap-validation.md` | Validating Hugo's RSS/sitemap/news/image-sitemap XML outputs and known fixed bugs |
 | `15-hugo-internal-template-overrides-and-relative-urls.md` | `_internal/` template override pitfall, `relativeURLs` depth-relative path bug, ad-placement `.IsPage` bug |
+| `16-client-side-tools.md` | Client-side tool rules, derived-value recalculation, tool verification, ISO 7811-2 stripe encoding |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create

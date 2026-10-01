@@ -273,13 +273,33 @@
 
     // Longitudinal redundancy check: XOR of the data values of every character
     // from the start sentinel through the end sentinel inclusive.
+    //
+    // The result is the DATA value of the LRC character. To turn it back into a
+    // printable character it must be offset into the track's character set, the
+    // same way every other character maps. Pararity is a property of the bits
+    // written to the stripe, not of the ASCII character, so it is reported
+    // separately by msLrcCode and never folded into this string.
     function msLrc(str, track) {
       var mask = (track === 1) ? 0x3F : 0x0F;
+      var offset = (track === 1) ? 0x20 : 0x30;
       var acc = 0;
       for (var i = 0; i < str.length; i++) {
         acc ^= msCharValue(str.charCodeAt(i), track);
       }
-      return String.fromCharCode(msAddOddParity(acc & mask, track));
+      return String.fromCharCode((acc & mask) + offset);
+    }
+
+    // The full encoded code for the LRC character, data bits plus odd parity,
+    // as it would appear in the magnetic bit stream.
+    function msLrcCode(str, track) {
+      var mask = (track === 1) ? 0x3F : 0x0F;
+      var bits = (track === 1) ? 6 : 4;
+      var acc = 0;
+      for (var i = 0; i < str.length; i++) {
+        acc ^= msCharValue(str.charCodeAt(i), track);
+      }
+      var full = msAddOddParity(acc & mask, track);
+      return '0b' + full.toString(2).padStart(bits + 1, '0');
     }
   </script>
 
@@ -432,8 +452,15 @@
         rows.push(['Track 2 sentinels', '; at the start and ? at the end']);
       }
       if (sent && lrc) {
-        rows.push(['Track 1 LRC', '<code>' + msLrc('%' + msBuildT1(o, false, false) + '?', 1) + '</code>']);
-        rows.push(['Track 2 LRC', '<code>' + msLrc(';' + msBuildT2(o, false, false) + '?', 2) + '</code>']);
+        // Recomputed from the current field values on every edit, never cached.
+        var s1l = '%' + msBuildT1(o, false, false) + '?';
+        var s2l = ';' + msBuildT2(o, false, false) + '?';
+        var c1l = msLrc(s1l, 1);
+        var c2l = msLrc(s2l, 2);
+        rows.push(['Track 1 LRC', '<code>' + c1l + '</code> (char 0x' +
+          c1l.charCodeAt(0).toString(16).toUpperCase() + ', ' + msLrcCode(s1l, 1) + ')']);
+        rows.push(['Track 2 LRC', '<code>' + c2l + '</code> (char 0x' +
+          c2l.charCodeAt(0).toString(16).toUpperCase() + ', ' + msLrcCode(s2l, 2) + ')']);
       }
 
       var html = '<table>';
@@ -476,8 +503,14 @@
         msEl(id).addEventListener('input', msEncode);
         msEl(id).addEventListener('change', msEncode);
       });
-      ['msOptSentinel', 'msOptLrc', 'msOptInterpret'].forEach(function (id) {
+      ['msOptSentinel', 'msOptInterpret'].forEach(function (id) {
         msEl(id).addEventListener('change', msEncode);
+      });
+      // An LRC is computed over the sentinels, so enabling it turns them on
+      // rather than silently emitting nothing.
+      msEl('msOptLrc').addEventListener('change', function () {
+        if (msEl('msOptLrc').checked) { msEl('msOptSentinel').checked = true; }
+        msEncode();
       });
       msEl('msSvc1').value = '2';
       msEl('msSvc2').value = '0';

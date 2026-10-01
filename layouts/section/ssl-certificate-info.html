@@ -82,7 +82,7 @@
       ciRender('ciExt', [['Ready', 'Extensions appear here after inspection.', true]]);
     }
 
-    async function ciInspect() {
+    async function ciInspect(track) {
       var raw = document.getElementById('ciInput').value.trim();
       if (!raw) { ciError('Paste a certificate first.'); return; }
       if (!window.X509) { ciError('The certificate parser is not available.'); return; }
@@ -171,10 +171,12 @@
           console.error('Failed to send tracking event:', error);
         }
       }
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(sendTrackingEvent);
-      } else {
-        setTimeout(sendTrackingEvent, 0);
+      if (track !== false) {
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(sendTrackingEvent);
+        } else {
+          setTimeout(sendTrackingEvent, 0);
+        }
       }
     }
 
@@ -183,7 +185,28 @@
         ciError('The certificate parser did not load. Reload the page, or check that JavaScript is enabled.');
       }
     });
-  </script>
+  
+
+    // Recompute whenever the input changes, so the derived values on screen
+    // always match the data above them. Analytics stays on the button, so a
+    // paste or a keystroke never fires an event.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () {
+          var el = document.getElementById('ciInput');
+          if (!el) { return; }
+          if (!el.value.trim()) { ciClear(); return; }
+          ciInspect(false);
+        }, 250);
+      }
+      ['ciInput', 'ciHost'].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) { el.addEventListener('input', auto); el.addEventListener('change', auto); }
+      });
+    })();
+</script>
 
   {{ partialCached "displayads-responsive-horizontal.html" . }}
   <style scoped>

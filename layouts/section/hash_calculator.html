@@ -58,7 +58,7 @@
         }, 0);
       }
     }
-    function calculateHash() {
+    function calculateHash(track) {
       var data = document.getElementById("data").value;
       var algorithm = document.getElementById("algorithm").value;
 
@@ -99,7 +99,7 @@
           console.error("Failed to send tracking event:", error);
         }
       }
-      yieldToMain(sendTrackingEvent);
+      if (track !== false) { yieldToMain(sendTrackingEvent); }
     }
 
     function calculateMD5(data) {
@@ -126,6 +126,21 @@
       var ripemd160Hash = CryptoJS.RIPEMD160(data);
       return ripemd160Hash.toString();
     }
+
+    // Recompute whenever the input or the algorithm changes, so the digest on
+    // screen always matches the data above it. Analytics stays on the button,
+    // so keystrokes do not fire events.
+    (function () {
+      var timer = null;
+      function auto() {
+        if (timer) { clearTimeout(timer); }
+        timer = setTimeout(function () { calculateHash(false); }, 200);
+      }
+      var dataEl = document.getElementById('data');
+      var algoEl = document.getElementById('algorithm');
+      if (dataEl) { dataEl.addEventListener('input', auto); dataEl.addEventListener('change', auto); }
+      if (algoEl) { algoEl.addEventListener('change', auto); }
+    })();
   </script>
 
   <style>
