@@ -7,8 +7,8 @@ draft: false
 description: "A phone is a sensor platform which travels with you. This module covers carrier-level protections including SIM swap defense, permission and app inventory, stalkerware detection, and why the keyboard matters."
 genre: ["Personal Security", "Mobile Security", "Privacy", "Android", "iOS"]
 tags: ["mobile security", "phone privacy", "sim swap", "carrier pin", "app permissions", "stalkerware", "juice jacking", "mobile firewall", "custom keyboard privacy", "android privacy", "ios privacy", "custom rom", "location tracking", "personal security course"]
-cover: "/img/cover/mobile-device-security-sensors-privacy-illustration.webp"
-coverAlt: "An illustration of a smartphone surrounded by sensor icons for location, camera, microphone, and Bluetooth, with permission dialogs layered over a dark background."
+cover: "/img/cover/mobile-device-security-app-permissions-sim-pin.webp"
+coverAlt: "A smartphone surrounded by icons of security features like app permissions, SIM PINs, and data streams, set against a dark background with vibrant colors."
 coverCaption: "Module 7: the phone travels with you"
 ---
 

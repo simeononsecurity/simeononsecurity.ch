@@ -7,8 +7,8 @@ draft: false
 description: "How stateful and stateless tracking differ, which browser changes reduce collection, why fingerprint tweaks are lower yield than they appear, and what incognito does not protect against."
 genre: ["Personal Security", "Web Browsing", "Privacy", "Tracking", "Browser Security"]
 tags: ["browser privacy", "tracking", "cookies", "browser fingerprint", "third-party cookies", "tracker blocking", "ad blocking", "privacy browser", "search engine privacy", "dns over https", "incognito", "browser extensions", "https", "tor", "personal security course"]
-cover: "/img/cover/web-browsing-tracking-privacy-illustration.webp"
-coverAlt: "An illustration of a browser window with tracking identifiers flowing toward collection points while a shield filters them, on a dark background with teal accents."
+cover: "/img/cover/web-browsing-tracking-privacy-settings.webp"
+coverAlt: "An illustration of a web browser interface on a dark background, featuring tabs for privacy settings and abstract icons representing tracking mechanisms like cookies and fingerprinting, highlighted in vibrant colors."
 coverCaption: "Module 2: reduce what the browser reports about you"
 ---
 

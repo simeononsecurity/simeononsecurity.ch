@@ -7,8 +7,8 @@ draft: false
 description: "Fraud and financial profiling are separate problems. This module covers credit freezes, virtual cards and payment isolation, alias details in commerce, and an honest look at cryptocurrency privacy."
 genre: ["Personal Security", "Personal Finance", "Identity Theft", "Privacy", "Fraud Prevention"]
 tags: ["credit freeze", "fraud alerts", "credit monitoring", "virtual cards", "identity theft", "payment privacy", "financial profiling", "online shopping privacy", "crypto privacy", "delivery address privacy", "personal security course"]
-cover: "/img/cover/personal-finance-security-payment-privacy-illustration.webp"
-coverAlt: "An illustration of a credit card fragmenting into a virtual card and a padlock, with transaction records flowing away from a central bank building, on a dark background."
+cover: "/img/cover/personal-finance-security-virtual-cards-credit-freeze.webp"
+coverAlt: "An illustration showing a virtual credit card, a digital wallet interface, and abstract data flows, all set against a dark navy background with vibrant color accents."
 coverCaption: "Module 10: fraud prevention and profiling are different problems"
 ---
 

@@ -7,8 +7,8 @@ draft: false
 description: "Smart devices trade data for convenience, and the trade is rarely disclosed clearly. This module covers the purchase decision, network segmentation for IoT, voice assistant specifics, and wearables."
 genre: ["Personal Security", "Smart Home", "IoT Security", "Privacy", "Network Segmentation"]
 tags: ["smart home security", "iot security", "voice assistant privacy", "alexa privacy", "smart speaker", "iot network segmentation", "device data collection", "wearables privacy", "smart lock", "camera privacy", "firmware updates", "vlan iot", "personal security course"]
-cover: "/img/cover/smart-home-iot-device-data-collection-illustration.webp"
-coverAlt: "An illustration of a home floor plan with connected device icons for cameras, speakers, locks, and thermostats, with data streams leaving the building, on a dark background."
+cover: "/img/cover/smart-home-iot-devices-network-segmentation.webp"
+coverAlt: "An illustration of a modern smart home featuring various IoT devices like a smart speaker, thermostat, camera, and smart lock, interconnected with a network diagram on a dark background."
 coverCaption: "Module 9: every device is a sensor with a network connection"
 ---
 

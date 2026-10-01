@@ -133,7 +133,7 @@ A vault holds credentials. It should not hold everything adjacent to them.
 
 Also worth reviewing: **password hints and security questions**. Answers about your mother's maiden name or first car are frequently public record. If a site forces questions, **store invented answers in the vault** rather than real ones.
 
-Two more habits from the source material deserve a mention because they cut in opposite directions:
+Two more habits deserve a mention because they cut in opposite directions:
 
 - **Do not let a browser save passwords.** Browser stores are not consistently encrypted and are a primary target for infostealer malware.
 - **Do not use your password manager to generate second-factor codes.** It concentrates both factors in one store, which converts a single compromise into a complete one.

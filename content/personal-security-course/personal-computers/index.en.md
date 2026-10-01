@@ -7,8 +7,8 @@ draft: false
 description: "Updates, encryption, and backups matter more than anything else on a desktop. This module covers those three, then least privilege, endpoint integrity, attack surface reduction, and isolation techniques."
 genre: ["Personal Security", "Computer Security", "Endpoint Security", "Privacy", "Operating Systems"]
 tags: ["computer security", "endpoint security", "full disk encryption", "bitlocker", "filevault", "luks", "least privilege", "secure boot", "ssh hardening", "rootkit", "keylogger", "usbguard", "virtual machines", "compartmentalization", "mandatory access control", "canary tokens", "personal security course"]
-cover: "/img/cover/personal-computer-security-endpoint-illustration.webp"
-coverAlt: "An illustration of a laptop with layered shield segments representing disk encryption, system updates, and privilege separation, on a dark background with pink accents."
+cover: "/img/cover/personal-computer-security-controls-updates-encryption-backups.webp"
+coverAlt: "An illustration of a modern desktop computer setup showcasing three key security concepts: automatic updates, full disk encryption, and backups, with vibrant colors against a dark background."
 coverCaption: "Module 8: three controls carry most of the weight"
 ---
 

@@ -7,8 +7,8 @@ draft: false
 description: "A twelve module course covering the security and privacy of one person rather than one organization. Each module moves from definitions to comparisons, decisions, and a record you create for yourself."
 genre: ["Personal Security", "Privacy", "Digital Hygiene", "Account Security", "Consumer Security", "Threat Modeling", "Data Protection"]
 tags: ["personal security course", "personal security", "digital security course", "privacy course", "personal cybersecurity", "security checklist course", "account security", "authentication module", "browser privacy", "email security", "secure messaging", "social media privacy", "home network security", "mobile device security", "computer security", "smart home privacy", "personal finance security", "social engineering defense", "physical security", "threat modeling", "security training", "free security course", "self-paced security course"]
-cover: "/img/cover/personal-security-course-twelve-modules.webp"
-coverAlt: "An illustration of twelve connected modules arranged as a circular path around a single shield icon, representing a twelve part personal security curriculum on a dark background."
+cover: "/img/cover/personal-security-course-illustration.webp"
+coverAlt: "An engaged individual surrounded by elements of personal security, including a password manager, a locked laptop, and a smartphone, all on a dark background with vibrant accent colors."
 coverCaption: "Twelve modules covering the security of one person"
 ---
 
@@ -96,7 +96,7 @@ Three commitments shape every module:
 | **[How to Form Your Own Personal Threat Model](/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/)** | Determines which modules deserve the most of your attention |
 | **[All Client-Side Tools](/tools/)** | Local tools for passwords, certificates, hashing, and metadata, with no upload |
 | **[Every Checklist](/checklists/)** | The organizational counterparts for readers who also manage systems |
-| **[Personal Security Checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)** | The comprehensive external reference this course is organized around |
+| **[Personal Security Checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)** | A widely used community checklist covering personal security in depth |
 
 ## Next Steps
 

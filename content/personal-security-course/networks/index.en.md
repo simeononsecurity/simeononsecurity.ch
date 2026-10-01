@@ -7,8 +7,8 @@ draft: false
 description: "Your router is the boundary between your devices and the internet. This module covers a hardening sequence, what a VPN does and does not change, DNS privacy versus integrity, and how WiFi networks get catalogued."
 genre: ["Personal Security", "Network Security", "Router Hardening", "Privacy", "WiFi"]
 tags: ["network security", "router hardening", "wifi security", "wpa3", "vpn", "dns over https", "dns privacy", "upnp", "wps", "ssid", "guest network", "wireguard", "openvpn", "wigle", "dns leak", "port forwarding", "personal security course"]
-cover: "/img/cover/home-network-router-security-illustration.webp"
-coverAlt: "An illustration of a home router at the center of a network diagram, with devices connecting through it and the internet beyond, on a dark background with violet accents."
+cover: "/img/cover/home-network-security-router-devices-illustration.webp"
+coverAlt: "An illustration of a modern home network with a glowing router at the center, surrounded by smart devices and abstract representations of the internet, all on a dark background with vibrant colors."
 coverCaption: "Module 6: every device trusts the router"
 ---
 

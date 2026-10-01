@@ -32,7 +32,7 @@ This article keeps the topic and drops the false equivalence. The same advice, o
 
 ## Why Order Beats Completeness
 
-The well-known **Personal Security Checklist** by Alicia Sykes catalogs **over 300 tips across 12 domains**, and it is genuinely excellent as a reference. Its own structure acknowledges the problem by tagging every item **Essential**, **Optional**, or **Advanced**.
+A comprehensive checklist typically catalogs several hundred entries and tags each one **Essential**, **Optional**, or **Advanced**. The tag is useful as a filter, and it is a poor substitute for a ranking, because every item carries the same label regardless of how much risk it removes.
 
 **My argument: even three tiers is not enough resolution**, because "Essential" lumps together items with wildly different risk reduction. Compare two entries both marked Essential:
 
@@ -344,7 +344,7 @@ A password strength checker which posts your password to a server is a liability
 ## Next Steps
 
 1. **Do Tier 1 today**, which takes about two hours: a password manager, a phishing-resistant second factor, automatic updates, device encryption, and one tested backup.
-2. **Read the comprehensive reference** if you want the complete 300-item picture, with the credit it deserves: **[Personal Security Checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)**
+2. **Go deeper with a community checklist** covering several hundred items across a dozen categories: **[Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist)**
 3. **Use the interactive version** to filter by threat model and track progress: **[Digital Defense](https://digital-defense.io)**
 4. **Apply the site's organizational checklists** for the professional counterparts to this article: **[Password Security](/checklists/password-security-checklist/)**, **[Phishing Awareness](/checklists/phishing-awareness-checklist/)**, **[Data Backup and Recovery](/checklists/data-backup-recovery-checklist/)**, **[Mobile Device Security](/checklists/mobile-device-security-checklist/)**, and **[Social Media Security](/checklists/social-media-security-checklist/)**
 5. **Choose your password manager** with the architectural comparison: **[Bitwarden vs KeePassXC](/articles/bitwarden-and-keepassxc-vs-the-rest/)**
@@ -364,13 +364,9 @@ A password strength checker which posts your password to a server is a liability
 | **[Privacy-First Smartwatch Options](/articles/smartwatches-for-privacy-and-security-enthusiasts/)** | Applying the same tiering logic to wearables |
 | **[Privacy.com Virtual Cards](/articles/privacy-com-virtual-debit-cards-security-privacy/)** | Limiting payment exposure, which pairs with the credit freeze item |
 
-## References and Attribution
+## References
 
-This article was written independently and covers the same subject area as a widely respected community project. The project is the authoritative comprehensive reference for this topic, and the credit is entirely its own.
-
-**Personal Security Checklist**, by **Alicia Sykes** (Lissy93), a **compiled checklist of 300+ tips for protecting digital security and privacy**, spanning 12 domains including authentication, browsing, email, messaging, social media, networking, mobile devices, computers, smart home, finance, the human aspect, and physical security. The repository carries **22.4k stars and 1.5k forks**, and the project is openly licensed. It remains the best single reference on this subject, and anyone wanting the complete picture rather than a prioritized subset should read it in full.
-
-1. [Personal Security Checklist - Alicia Sykes (Lissy93)](https://github.com/Lissy93/personal-security-checklist)
+1. [Personal Security Checklist - a community checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)
 2. [Personal Security Checklist - the full checklist document](https://github.com/Lissy93/personal-security-checklist/blob/HEAD/CHECKLIST.md)
 3. [Digital Defense - the interactive version](https://digital-defense.io)
 4. [Awesome Privacy - privacy-respecting software list](https://github.com/lissy93/awesome-privacy)

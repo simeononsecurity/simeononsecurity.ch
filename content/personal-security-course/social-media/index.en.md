@@ -7,8 +7,8 @@ draft: false
 description: "Social profiles aggregate into a detailed dossier. This module covers the two assumptions behind every post, upload discipline, permission and integration review, and when leaving is the honest answer."
 genre: ["Personal Security", "Social Media", "Privacy", "OPSEC", "Data Protection"]
 tags: ["social media privacy", "privacy settings", "doxxing", "osint", "geolocation privacy", "metadata removal", "third party apps", "account security", "oversharing", "image cloaking", "social media permissions", "digital footprint", "personal security course"]
-cover: "/img/cover/social-media-privacy-digital-footprint-illustration.webp"
-coverAlt: "An illustration of a silhouette constructed from social media icons, with fragments of personal data radiating outward toward unknown observers, on a dark background."
+cover: "/img/cover/social-media-privacy-settings-review.webp"
+coverAlt: "A person at a desk focused on a laptop displaying abstract icons symbolizing personal data. The dark background contrasts with vibrant colors from the screen and desk items related to privacy."
 coverCaption: "Module 5: the profile is the dossier"
 ---
 

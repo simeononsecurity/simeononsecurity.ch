@@ -7,8 +7,8 @@ draft: false
 description: "End-to-end encryption protects content, not metadata. This module covers how to evaluate a messenger, why group chats multiply risk, and what your provider still learns about you."
 genre: ["Personal Security", "Secure Messaging", "Privacy", "Encryption", "Communications"]
 tags: ["secure messaging", "end-to-end encryption", "e2ee", "signal", "forward secrecy", "metadata", "group chat security", "ephemeral messages", "defang urls", "messaging privacy", "anonymous messaging", "decentralized messaging", "self-destructing messages", "personal security course"]
-cover: "/img/cover/secure-messaging-e2ee-metadata-illustration.webp"
-coverAlt: "An illustration of two devices exchanging encrypted message bubbles while a separate stream of metadata flows to an observer, on a dark background with cyan accents."
+cover: "/img/cover/secure-messaging-end-to-end-encryption-metadata-risks.webp"
+coverAlt: "An illustration of a smartphone showing encrypted chat bubbles, surrounded by abstract icons representing metadata risks, set against a dark navy background with vibrant accent colors."
 coverCaption: "Module 4: content is encrypted, context often is not"
 ---
 

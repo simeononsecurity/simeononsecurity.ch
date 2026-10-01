@@ -7,8 +7,8 @@ draft: false
 description: "Every digital control assumes the device stays in your hands. This module covers device seizure and theft, document disposal, observation and skimming, and why a PIN sometimes beats biometrics."
 genre: ["Personal Security", "Physical Security", "OPSEC", "Privacy", "Device Seizure"]
 tags: ["physical security", "device seizure", "shoulder surfing", "skimmer", "cctv", "biometrics", "kensington lock", "document disposal", "public records", "biometric coercion", "privacy screen", "personal security course"]
-cover: "/img/cover/physical-security-device-documents-observation-illustration.webp"
-coverAlt: "An illustration of a locked laptop, a shredded document, and a shielded keypad representing physical security controls, on a dark background with amber accents."
+cover: "/img/cover/physical-security-workspace-tech-measures.webp"
+coverAlt: "A digital illustration of a secure workspace featuring a laptop with a cable lock, a privacy screen, and a shredder filled with shredded documents. Surrounding elements include biometric devices."
 coverCaption: "Module 12: the layer no software reaches"
 ---
 
@@ -157,7 +157,7 @@ Exposure:
 
 1. **Return to the course hub** and review your completed records: **[Personal Security Course](/personal-security-course-start/)**
 2. **Read the four-tier summary** for the whole course on one page: **[Prioritized Personal Security Checklist](/articles/personal-security-checklist-prioritized-2026/)**
-3. **Consult the comprehensive reference** for items beyond this course: **[Personal Security Checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)**
+3. **Go deeper with a community checklist** if you want several hundred items: **[Personal Security Checklist by Alicia Sykes](https://github.com/Lissy93/personal-security-checklist)**
 4. **Apply the organizational checklists** if you also manage systems: **[Every Checklist](/checklists/)**
 5. **Use the local tools** for anything involving a secret: **[All Client-Side Tools](/tools/)**
 6. **Revisit your threat model** annually, since circumstances and adversaries change: **[How to Form Your Own Personal Threat Model](/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/)**
