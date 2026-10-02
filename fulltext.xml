@@ -1,0 +1,6581 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>en</language><lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>How to Disable Contactless Payment on a Credit Card</title><link>https://simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>A practical guide to disabling contactless payment on a spare credit card while keeping chip and magnetic-stripe payments available, with safety limits and better alternatives.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>A contactless card has a separate NFC antenna.</strong> If you keep the card inside a phone case, the antenna triggers card clash or repeated NFC alerts on some phones. A physical break in the antenna loop disables tap to pay while the chip and magnetic stripe remain available on some cards.</p>
+<p><em>Use a spare card for this project. Treat the modification as permanent, and confirm the result with the card issuer before relying on it.</em></p>
+<h2 id="why-disable-contactless-payment">
+  <a href="#why-disable-contactless-payment" title="Why Disable Contactless Payment?">Why Disable Contactless Payment?</a>
+  <a href="#why-disable-contactless-payment" class="h-anchor" aria-hidden="true" title="Why Disable Contactless Payment?">#</a>
+</h2>
+<p>Tap to pay is convenient, and modern mobile wallets add another payment token to the same phone. The problem starts when an NFC-enabled physical card sits close to the phone&rsquo;s NFC reader.</p>
+<p>Two payment instruments might answer the same reader. Android might also detect the physical card when you open or handle the phone. Removing the card from the case solves the problem, but it adds friction every time you pay.</p>
+<p>The goal here is narrow: disable the card&rsquo;s contactless interface while keeping other payment methods available.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Payment method</th>
+					<th>Expected result after an antenna break</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Contactless payment</strong></td>
+					<td>Disabled because the NFC antenna loop no longer couples with a reader</td>
+			</tr>
+			<tr>
+					<td><strong>EMV chip</strong></td>
+					<td>Often remains available if the chip and its contacts are untouched</td>
+			</tr>
+			<tr>
+					<td><strong>Magnetic stripe</strong></td>
+					<td>Often remains available if the stripe is untouched</td>
+			</tr>
+			<tr>
+					<td><strong>Online card payments</strong></td>
+					<td>Usually unaffected, but the issuer might replace or deactivate the card after damage</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="how-the-card-works">
+  <a href="#how-the-card-works" title="How the Card Works">How the Card Works</a>
+  <a href="#how-the-card-works" class="h-anchor" aria-hidden="true" title="How the Card Works">#</a>
+</h2>
+<p><strong>The NFC antenna is a thin conductive loop inside the plastic.</strong> It usually runs around much of the card perimeter. A contactless reader powers the card through this loop and exchanges data with the embe
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Llama 3.1 8B and Qwen3.8 27B GPU Benchmarks on Vast.ai</title><link>https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><description>Measured Ollama benchmarks of Llama 3.1 8B and Qwen3.8 27B across leading Vast.ai GPUs. Compare decode speed, long-context behavior, rental cost, self-hosting tradeoffs, API credits, and subscriptions.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>The H100 SXM was the fastest card in both Ollama model tests, but it was not the best value.</strong> The RTX PRO 5000 and RTX 6000 Ada delivered a stronger speed-to-rental-cost balance, while the CMP 170HX offered the lowest hourly rate among the completed Qwen3.8 27B runs.</p>
+<p><em>These results measure one model, one Ollama wrapper, one default quantization, and one serving pattern. Treat them as sizing data for this workload, not as a universal GPU ranking.</em></p>
+<p>This article compares <strong>Llama 3.1:8b</strong>, an Ollama Q4_K_M build at 8.03B parameters, with <strong>Qwen3.8:27b</strong>, an Ollama Q4_K_M build at roughly 27.3B parameters. Both were tested across GPU instances rented from Vast.ai. The tests focused on decode throughput at actual prompt lengths up to the supported context limit.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<p><strong>Rent an RTX PRO 5000 or RTX 6000 Ada for regular single-user work.</strong> The RTX PRO 5000 led the value comparison at short and medium context lengths. The RTX 6000 Ada cost less and kept a useful lead over the A100 cards. Rent an H100 SXM when response speed matters more than hourly cost or when long prompts are part of the workload.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Goal</th>
+					<th>Recommendation</th>
+					<th>Reason</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Lowest test cost</strong></td>
+					<td>CMP 170HX</td>
+					<td>$0.420 per hour and enough VRAM for the tested Q4_K_M models</td>
+			</tr>
+			<tr>
+					<td><strong>Best value under $1.25/hr</strong></td>
+					<td>RTX PRO 5000 or RTX 6000 Ada</td>
+					<td>Strong decode speed without H100 rental cost</td>
+			</tr>
+			<tr>
+					<td><strong>Fastest replies</strong></td>
+					<td>H100 SXM</td>
+					<td>Highest decode speed in both model tests</td>
+			</tr>
+			<tr>
+					<td><strong>Long-context Qwen work</strong></td>
+					<td>H100 SXM or RTX PRO 6000 Max-Q</td>
+					<td>Both completed the approximately 131k-token Qwen run with substantial VRAM headroom</td>
+			</tr>
+			<tr>
+					<td><strong>Popular 8B baseline</strong></td>
+					<td>Llama 3.1:8b</td>
+					<td>A practical 8B comparison with a 128K context limit</td>
+			</tr>
+			<tr>
+					<td><strong>Small recurring workload</strong></td>
+					<td>API credits or a chat subscription</td>
+					<td>N
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 1: Authentication and Credentials</title><link>https://simeononsecurity.com/personal-security-course/authentication/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/authentication/</guid><description>Why credentials fail, how to choose between a cloud and an offline vault, which second factors stop phishing, and why recovery belongs in the same sitting as setup.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/authentication-and-credentials-digital-vault-security.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/authentication/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>Authentication is where every other control begins.</strong> An attacker who holds your credentials does not need to defeat your browser hardening, your encrypted disk, or your network segmentation. They log in as you and inherit everything.</p>
+<p>This module covers how credentials fail, how to choose a vault, which second factors genuinely resist phishing, and why recovery configuration belongs in the same sitting as setup.</p>
+<p><em>Budget about 45 minutes. The vault decision and the second-factor upgrade are the two highest-yield actions in the entire course.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn"
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/authentication/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 10: Personal Finance Security</title><link>https://simeononsecurity.com/personal-security-course/personal-finance/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/personal-finance/</guid><description>Fraud and financial profiling are separate problems. This module covers credit freezes, virtual cards and payment isolation, alias details in commerce, and an honest look at cryptocurrency privacy.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/personal-finance-security-virtual-cards-credit-freeze.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/personal-finance/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>Two different problems hide under financial security.</strong> One is fraud, where someone spends your money or opens credit in your name. The other is profiling, where your transaction history is analyzed, sold, and used to make decisions about you.</p>
+<p>They demand different countermeasures, and conflating them produces advice which is good for one and useless for the other.</p>
+<p><em>Budget about 25 minutes. The credit freeze is the strongest single action and it costs nothing.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/personal-finance/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 11: The Human Aspect</title><link>https://simeononsecurity.com/personal-security-course/human-aspect/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/human-aspect/</guid><description>Social engineering targets decisions rather than systems. This module covers why pretexts work, verification patterns which survive pressure, phishing recognition, and reducing what public records reveal.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/importance-of-callback-verification-in-personal-security.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/human-aspect/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>Every technical control in this course assumes somebody makes a good decision at the moment it matters.</strong> Social engineering targets the decision directly, which is why it survives every improvement to the layers beneath it.</p>
+<p>Software did not stop these attacks because the software worked as designed. Someone authorized the action.</p>
+<p><em>Budget about 30 minutes. One habit, calling back on a number you already had, prevents more loss than any tool in this course.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<ul>
+<li>
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/human-aspect/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 12: Physical Security</title><link>https://simeononsecurity.com/personal-security-course/physical-security/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/physical-security/</guid><description>Every digital control assumes the device stays in your hands. This module covers device seizure and theft, document disposal, observation and skimming, and why a PIN sometimes beats biometrics.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/physical-security-workspace-tech-measures.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/physical-security/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>Every control in the previous eleven modules assumes the device stays in your hands.</strong> Physical access invalidates a great deal of it. An unlocked laptop is a complete account compromise, a stolen phone is a second-factor loss, and a seized device is a question about whether your encryption holds.</p>
+<p>This final module covers device control, document disposal, observation, and the biometric question which depends on your legal situation rather than your preferences.</p>
+<p><em>Budget about 25 minutes. The device and biometric decisions are the ones with lasting consequences.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/physical-security/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 2: Web Browsing and Tracking</title><link>https://simeononsecurity.com/personal-security-course/web-browsing/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/web-browsing/</guid><description>How stateful and stateless tracking differ, which browser changes reduce collection, why fingerprint tweaks are lower yield than they appear, and what incognito does not protect against.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/web-browsing-tracking-privacy-settings.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/web-browsing/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>The browser is where most of your personal data exposure happens.</strong> It holds your authenticated sessions, reports a detailed description of your device to every site you visit, and executes code written by parties you never chose to trust.</p>
+<p>This module covers the two distinct tracking mechanisms, the changes which reduce collection, and an honest accounting of which popular advice is lower yield than it appears.</p>
+<p><em>Budget about 30 minutes. Two settings and one extension produce most of the benefit.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="Wh
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/web-browsing/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 3: Email Security</title><link>https://simeononsecurity.com/personal-security-course/email/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/email/</guid><description>Email is the recovery path for every other account. This module covers address strategy, remote content and tracking pixels, provider selection, third-party access, and what self-hosting genuinely requires.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/email-security-strategies-protection-access.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/email/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>Your email account is the recovery path for everything else.</strong> A password reset goes there. A second-factor fallback goes there. An account takeover notification goes there. Anyone who controls your inbox does not need to break into your other accounts, because they reset their way in.</p>
+<p>This module covers address strategy, the tracking mechanisms built into mail itself, provider selection, and an honest assessment of self-hosting.</p>
+<p><em>Budget about 25 minutes. The address strategy decision is the one which compounds over years.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" 
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/email/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 4: Secure Messaging</title><link>https://simeononsecurity.com/personal-security-course/messaging/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/messaging/</guid><description>End-to-end encryption protects content, not metadata. This module covers how to evaluate a messenger, why group chats multiply risk, and what your provider still learns about you.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/secure-messaging-end-to-end-encryption-metadata-risks.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/messaging/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>End-to-end encryption protects what you say, not who you spoke to.</strong> This distinction defines the whole module. A messenger which encrypts every message perfectly still hands your provider a record of every conversation partner, every timestamp, and every group you belong to.</p>
+<p>This module covers how to evaluate a messenger on properties rather than reputation, why metadata deserves separate attention, and why group chats raise risk faster than message content ever does.</p>
+<p><em>Budget about 20 minutes. Messenger choice is a single decision with long-lasting consequences.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/messaging/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 5: Social Media Privacy</title><link>https://simeononsecurity.com/personal-security-course/social-media/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/social-media/</guid><description>Social profiles aggregate into a detailed dossier. This module covers the two assumptions behind every post, upload discipline, permission and integration review, and when leaving is the honest answer.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/social-media-privacy-settings-review.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/social-media/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>A social profile is a dossier you assemble for someone else.</strong> Individually, a birthday, a hometown, a pet&rsquo;s name, and a photograph of your street are trivial. Aggregated, they answer the security questions protecting your accounts and locate your home.</p>
+<p>This module covers the two assumptions behind every post, upload discipline, permission and integration review, and when leaving a platform is the honest answer.</p>
+<p><em>Budget about 25 minutes. Most of the value comes from a settings review and a single privacy decision.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" ari
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/social-media/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 6: Home Network Security</title><link>https://simeononsecurity.com/personal-security-course/networks/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/networks/</guid><description>Your router is the boundary between your devices and the internet. This module covers a hardening sequence, what a VPN does and does not change, DNS privacy versus integrity, and how WiFi networks get catalogued.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/home-network-security-router-devices-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/networks/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>The router is the boundary between your devices and the internet.</strong> It decides what reaches your network, what your devices reach, and which of them talk to each other. Everything downstream inherits its configuration.</p>
+<p>This module covers a hardening sequence in priority order, what a VPN genuinely changes, the two separate problems hiding under &ldquo;secure DNS&rdquo;, and how your WiFi network gets catalogued by strangers.</p>
+<p><em>Budget about 40 minutes. The router work is done once and then mostly forgotten.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true"
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/networks/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 7: Mobile Device Security</title><link>https://simeononsecurity.com/personal-security-course/mobile-devices/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/mobile-devices/</guid><description>A phone is a sensor platform which travels with you. This module covers carrier-level protections including SIM swap defense, permission and app inventory, stalkerware detection, and why the keyboard matters.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/mobile-device-security-app-permissions-sim-pin.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/mobile-devices/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>A phone is a sensor platform which travels with you.</strong> It knows your location continuously, holds a camera and two microphones, carries your authenticated sessions, and receives your second-factor codes. Losing control of it compromises almost everything in Module 1.</p>
+<p>This module covers the carrier layer, which most guides skip, then permissions, app inventory, stalkerware, and the input methods people never think about.</p>
+<p><em>Budget about 30 minutes. The SIM PIN and the permission audit are the two highest-yield actions.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hi
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/mobile-devices/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 8: Personal Computer Security</title><link>https://simeononsecurity.com/personal-security-course/personal-computers/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/personal-computers/</guid><description>Updates, encryption, and backups matter more than anything else on a desktop. This module covers those three, then least privilege, endpoint integrity, attack surface reduction, and isolation techniques.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/personal-computer-security-controls-updates-encryption-backups.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/personal-computers/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>On a desktop, three controls carry more weight than everything else combined:</strong> updates, disk encryption, and backups. The remaining controls reduce the consequences when one of those three fails.</p>
+<p>This module covers those three first, then least privilege, endpoint integrity, attack surface reduction, and the isolation techniques which matter for readers who run untrusted software.</p>
+<p><em>Budget about 45 minutes. Encryption and the backup check are the two items to finish today.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/personal-computers/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Module 9: Smart Home and IoT</title><link>https://simeononsecurity.com/personal-security-course/smart-home/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course/smart-home/</guid><description>Smart devices trade data for convenience, and the trade is rarely disclosed clearly. This module covers the purchase decision, network segmentation for IoT, voice assistant specifics, and wearables.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/smart-home-iot-devices-network-segmentation.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/smart-home/">Read the full article at https://simeononsecurity.com/</a>
+
+        <h4 id="-return-to-the-personal-security-course">
+  <a href="#-return-to-the-personal-security-course" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="← Return to the Personal Security Course">
+    <meta itemprop="url" content="/personal-security-course-start/">
+    <a href="/personal-security-course-start/"
+    
+        rel="follow me"
+    >← Return to the Personal Security Course</a>
+</span>
+</a>
+  <a href="#-return-to-the-personal-security-course" class="h-anchor" aria-hidden="true" title="
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+    
+    ← Return to the Personal Security Course
+
+">#</a>
+</h4>
+<p><strong>A smart device is a sensor with a network connection attached.</strong> A speaker holds a microphone, a camera holds a lens and often a microphone, a thermostat learns occupancy, and a lock reports who comes and goes. Each one is a small computer with its own update history and its own data practices.</p>
+<p>This module covers the purchase decision, network segmentation for devices you did not build, voice assistant specifics, and wearables.</p>
+<p><em>Budget about 30 minutes. The segmentation decision has more effect than any individual device setting.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-a
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course/smart-home/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Personal Security Checklist 2026: Where to Start and What to Skip</title><link>https://simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/</guid><description>Most personal security advice is a flat list of 300 tips with no order. Here is the same advice ranked by real impact, with the five steps which stop most attacks and the common habits worth abandoning.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/personal-security-checklist-2026-tiered-structure.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Every personal security guide hands you the same thing: a long flat list of hundreds of tips with no ranking.</strong> You are told to disable WebRTC, spoof your canvas fingerprint, and rotate your user agent, in the same breath as setting up a password manager and turning on auto-updates.</p>
+<p><em>Those items are not equally valuable, and treating them as equal is why so many people do the easy ones, skip the important ones, and remain exactly as exposed.</em></p>
+<p>This article keeps the topic and drops the false equivalence. The same advice, ordered by what removes the most risk for the least effort, plus an honest look at the habits worth abandoning.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Question</th>
+					<th>Short Answer</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>What stops the most attacks?</strong></td>
+					<td>A password manager, phishing-resistant second factors, and prompt updates. Three habits cover the majority of real-world account compromise</td>
+			</tr>
+			<tr>
+					<td><strong>What is the single biggest upgrade available today?</strong></td>
+					<td><strong>Passkeys or a hardware security key.</strong> Both defeat phishing entirely, because the credential never leaves your device</td>
+			</tr>
+			<tr>
+					<td><strong>What is overrated?</strong></td>
+					<td>Complex passwords you memorize, password rotation schedules, and most browser fingerprint tweaks</td>
+			</tr>
+			<tr>
+					<td><strong>What is underrated?</strong></td>
+					<td>Backups, account recovery setup, and physical security of your devices</td>
+			</tr>
+			<tr>
+					<td><strong>Does order matter?</strong></td>
+					<td>Yes, and more than completeness. <strong>Tier 1 done today beats all 300 items done eventually</strong></td>
+			</tr>
+			<tr>
+					<td><strong>How long does Tier 1 take?</strong></td>
+					<td>About two hours, once</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="why-order-beats-completeness">
+  <a href="#why-order-beats-completeness" title="Why Order Beats Completeness">Why Order Beats Completeness</a>
+  <a href="#why-order-beats-completeness" class="h-anchor" aria-hidden="true" title="Why Order Beats Completeness">#</a>
+</h2>
+<p>A comprehensive checklist typically catalogs several hundred entries and tags each one <strong>Essential<
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/personal-security-checklist-prioritized-2026/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Personal Security Course</title><link>https://simeononsecurity.com/personal-security-course-start/</link><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/personal-security-course-start/</guid><description>A twelve module course covering the security and privacy of one person rather than one organization. Each module moves from definitions to comparisons, decisions, and a record you create for yourself.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/personal-security-course-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course-start/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>This course treats the individual as the asset.</strong> This is the opposite of most security training, which teaches you to defend an organization and then assumes your personal life works the same way.</p>
+<p>The difference matters. You do not have a security team, a managed detection service, or a compliance officer. You have a limited amount of time and a threat model shaped by who you are. <strong>The course is built around the constraint.</strong></p>
+<p><em>Every module ends with something you produce: a decision, a configuration, or a record. Reading without acting teaches nothing.</em></p>
+<h2 id="what-you-will-learn">
+  <a href="#what-you-will-learn" title="What You Will Learn">What You Will Learn</a>
+  <a href="#what-you-will-learn" class="h-anchor" aria-hidden="true" title="What You Will Learn">#</a>
+</h2>
+<p>The course runs in a fixed order, from account credentials up to the physical layer. Each module builds on the previous one, and the ordering is deliberate rather than alphabetical.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Module</th>
+					<th>Focus</th>
+					<th>Reader outcome</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>1. Authentication</strong></td>
+					<td>Credentials and second factors</td>
+					<td>Choose a vault architecture and a phishing-resistant factor</td>
+			</tr>
+			<tr>
+					<td><strong>2. Web Browsing</strong></td>
+					<td>Tracking and browser exposure</td>
+					<td>Harden one browser and understand what remains</td>
+			</tr>
+			<tr>
+					<td><strong>3. Email</strong></td>
+					<td>The recovery gateway</td>
+					<td>Separate addresses and control remote content</td>
+			</tr>
+			<tr>
+					<td><strong>4. Messaging</strong></td>
+					<td>Conversation privacy</td>
+					<td>Evaluate a messenger against real criteria</td>
+			</tr>
+			<tr>
+					<td><strong>5. Social Media</strong></td>
+					<td>Public exposure</td>
+					<td>Reduce what your profile reveals</td>
+			</tr>
+			<tr>
+					<td><strong>6. Networks</strong></td>
+					<td>Traffic and routing</td>
+					<td>Configure a router and judge a VPN claim</td>
+			</tr>
+			<tr>
+					<td><strong>7. Mobile Devices</strong></td>
+					<td>Sensors and tracking</td>
+					<td>Cut permissions and background collection</td>
+			</tr>
+			<tr>
+					<td><strong>8. Personal Computers</strong></td>
+					<td>The operating system</td>
+					<td>Enable encryption, updates, and least privilege</td>
+			</tr>
+			<tr>
+					<td><strong>9. Smart Home</strong></td>
+					<td>Microphones
+
+        <br>
+        <a href="https://simeononsecurity.com/personal-security-course-start/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Containers Are No Longer a Security Boundary: Kernel Escapes in 2026</title><link>https://simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/</guid><description>AI-driven kernel bug hunting produced four new local privilege escalation families in 2026, all of which escape containers. Here is how they work, why patching is losing ground, and where microVMs fit.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Containers share one kernel, and in 2026 four separate vulnerability families proved a single kernel bug is enough to walk out of a container and onto the host.</strong> Copy Fail, Dirty Frag, Fragnesia, and CVE-2026-80521 each grant root to an unprivileged local user, and every one of them crosses the container boundary.</p>
+<p><em>The uncomfortable part is not the bugs themselves. It is how cheaply AI now finds them, and how one patch created another.</em></p>
+<p>This article explains how containers isolate workloads, why the isolation now rests on a shrinking foundation, what each 2026 vulnerability does, and which isolation technology is worth trusting instead.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Question</th>
+					<th>Short Answer</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Do containers isolate?</strong></td>
+					<td>Yes, for process and filesystem separation. All containers share one kernel, so kernel bugs are a shared risk</td>
+			</tr>
+			<tr>
+					<td><strong>Why now?</strong></td>
+					<td>AI-assisted bug hunting collapsed the cost of finding kernel flaws. Nearly <strong>6,000 kernel CVEs</strong> are published as of September 2026</td>
+			</tr>
+			<tr>
+					<td><strong>What breaks the boundary?</strong></td>
+					<td>Any local privilege escalation in the kernel. Escaping needs no container misconfiguration</td>
+			</tr>
+			<tr>
+					<td><strong>Is patching enough?</strong></td>
+					<td>It is necessary and it is losing the race. One 2026 patch <strong>introduced a new exploitable bug</strong></td>
+			</tr>
+			<tr>
+					<td><strong>What works better?</strong></td>
+					<td>MicroVMs such as Firecracker or Kata Containers, which give each workload its own kernel</td>
+			</tr>
+			<tr>
+					<td><strong>Is the alternative perfect?</strong></td>
+					<td>No. The hypervisor is code too. The attack surface is orders of magnitude smaller, and the difference is the point</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="how-containers-isolate">
+  <a href="#how-containers-isolate" title="How Containers Isolate">How Containers Isolate</a>
+  <a href="#how-containers-isolate" class="h-anchor" aria-hidden="true" title="How Containers Isolate">#</a>
+</h2>
+<p>Understanding the boundary starts with understanding what a container is not.</p>
+<
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/containers-no-longer-security-boundary-2026/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Cowork and Claude Code With Local Models: 2026 Setup Guide</title><link>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><description>Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Claude&rsquo;s agentic tools now run against models on your own hardware, with no API key, no subscription, and no data leaving the machine.</strong> Ollama exposes an Anthropic-compatible API, and both Claude Code and Claude Desktop connect to it in a few commands.</p>
+<p><em>Most guides get one important detail wrong. They describe Claude Cowork, then hand you setup steps which configure the command-line tool instead. Those are two different integrations, and only one of them gives you Cowork.</em></p>
+<p>This guide covers both paths separately, the environment variable the popular tutorials skip, which models to pair with each in September 2026, and the features which stay cloud-only no matter what you configure.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<p><strong>Ollama connects to Claude in two distinct ways, and picking the wrong one is the most common reason people finish a setup guide with a working terminal and no Cowork.</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>Integration</th>
+					<th>What You Get</th>
+					<th>Setup Path</th>
+					<th>Platform</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Desktop</strong></td>
+					<td>Cowork, subagents, web search, auto mode</td>
+					<td>Ollama app, then <strong>Apps</strong> and <strong>Connect Claude</strong></td>
+					<td><strong>macOS only</strong></td>
+			</tr>
+			<tr>
+					<td><strong>Claude Code</strong></td>
+					<td>The CLI coding agent with tool calling and file edits</td>
+					<td><code>ollama launch claude</code>, or environment variables</td>
+					<td>macOS, Linux, Windows</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>If you want Cowork, use the Claude Desktop integration.</strong> It is a graphical flow in the Ollama app, and it is macOS-only while Windows support is still listed as coming soon.</p>
+<p><strong>If you want an agent in your terminal, use Claude Code.</strong> One command does it.</p>
+<p><em>Both are free. The only cost is the hardware and the electricity.</em></p>
+<h2 id="two-integrations-not-one">
+  <a href="#two-integrations-not-one" title="Two Integrations, Not One">Two Integrations, Not One</a>
+  <a href="#two-integrations-not-one" class="h-anchor" aria-hidden="true" title="Two Integrations, Not One">#</a>
+</h2>
+<p>The confusion starts with the naming. <strong>Claude Cowork is
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Local AI in 2026: A 27B Model Beats Sonnet 4.6, and the Hardware Window Is Closing</title><link>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/</guid><description>Qwen3.8 27B and its ternary repack Bonsai 2 27B now outscore Claude Sonnet 4.6 on the aggregate intelligence index while running on one consumer GPU. What changed, what the benchmarks show, and why memory pricing makes waiting the most expensive option.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>A downloadable model which fits on a single consumer graphics card now outscores a frontier API model on the aggregate intelligence index.</strong> Qwen3.8 27B is an open-weight vision-language model released in August 2026. Its ternary repack, Bonsai 2 27B, squeezes the same weights into 5.53 GiB. Together they mark the moment local inference stopped being a hobbyist compromise and became a genuine substitute for a paid API.</p>
+<p><em>The hardware side of this story is closing fast. Memory prices are the worst they have been in two decades, and they are dragging graphics card prices up with them.</em></p>
+<p>This article covers what the benchmarks show, what the two models are under the hood, where the open model still loses, and why the next twelve months are the wrong time to wait.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<p><strong>The intelligence gap between a local 27B model and a paid frontier-adjacent API model has closed, and the remaining advantages of the paid model are narrower than the price difference suggests.</strong></p>
+<p>Three things changed at once:</p>
+<ul>
+<li><strong>Open 27B models reached frontier-adjacent scores.</strong> Qwen3.8 27B posts a 33.7 Intelligence Index against Sonnet 4.6 at 30.1, on the same evaluation suite.</li>
+<li><strong>Ternary quantization cut the memory requirement by roughly two thirds.</strong> Bonsai 2 27B runs the full 27B model in <strong>5.53 GiB</strong>, which fits on cards costing a few hundred dollars.</li>
+<li><strong>Memory supply went in the wrong direction.</strong> Conventional DRAM contract prices rose <strong>90 to 95 percent</strong> quarter over quarter in early 2026, the steepest quarterly jump TrendForce has recorded, which pushed next-generation GPUs out to 2028.</li>
+</ul>
+<p><em>Buying or building now is the cheap option. This is not a sales pitch, it is what the supply data says.</em></p>
+<h2 id="watch-the-single-gpu-test">
+  <a href="#watch-the-single-gpu-test" title="Watch the Single-GPU Test">Watch the Single-GPU Test</a>
+  <a href="#watch-the-single-gpu-test" class="h-anchor" aria-hidden="true" title="Watch the Single-GPU Test">#</a>
+</h2>
+<p>The claim above deserves a demonstration rather than a table. Bijan Bowen tested Bonsai 2 27B on a single-GPU machine and asked whether it is the best model avail
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/local-ai-2026-build-your-rig-now/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Mining Pearl (PRL) in 2026: Setup, Profitability, and Whether the Chain Is Useful</title><link>https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/</guid><description>How to mine Pearl (PRL) with SRBMiner, what proof-of-useful-work computes, why margins compressed after launch, and an honest assessment of whether the chain produces anything anyone buys.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Pearl is the first proof-of-useful-work chain to reach real production scale, and the work it pays miners for is matrix multiplication rather than hashing.</strong> Mainnet launched on <strong>April 27, 2026</strong>, and within weeks it triggered a GPU mining rush built on a claim of securing a blockchain while producing AI compute in the same pass.</p>
+<p><em>The claim is technically real and economically unproven, and the gap between those two things is the whole story.</em></p>
+<p>This guide covers how to mine PRL, what the miner computes, why the margins compressed so quickly after launch, and a direct answer to whether the chain produces anything of value.</p>
+<h2 id="the-short-answer">
+  <a href="#the-short-answer" title="The Short Answer">The Short Answer</a>
+  <a href="#the-short-answer" class="h-anchor" aria-hidden="true" title="The Short Answer">#</a>
+</h2>
+<p><strong>Pearl is a genuine technical achievement wrapped around a mining economics problem which every new coin faces.</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>Question</th>
+					<th>Short Answer</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>What is it?</strong></td>
+					<td>A Bitcoin-derived L1 secured by proof-of-useful-work, where miners run noisy matrix multiplication instead of SHA-256</td>
+			</tr>
+			<tr>
+					<td><strong>How do you mine it?</strong></td>
+					<td>SRBMiner-MULTI with <code>--algorithm pearlhash</code> against a pool, or Pearl&rsquo;s own vLLM miner against your own node</td>
+			</tr>
+			<tr>
+					<td><strong>Why was it profitable?</strong></td>
+					<td>Launch-era emissions outpaced difficulty for a few weeks, then difficulty caught up</td>
+			</tr>
+			<tr>
+					<td><strong>Is it still profitable?</strong></td>
+					<td>Hardware dependent, and the window is narrowing. See the margins section below</td>
+			</tr>
+			<tr>
+					<td><strong>Is the chain useful?</strong></td>
+					<td><strong>The mechanism is, the marketplace is not yet.</strong> Details in the verdict section</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>The single most important thing to understand before you build a rig for this:</strong> the miner developer&rsquo;s own release notes for version 3.6.8 state Pearl has an upgrade coming which will make consumer-grade GPUs &ldquo;pretty much useless&rdquo; for mining it. This is not an outside critic. This is the person writing the miner.</p>
+<h2 id="what-pearl-actually-is">
+  <a href="#what-pearl-actually-is" title="What Pearl
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/pearl-prl-mining-guide-2026/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>We Mapped 146,526 ‘Flock Cameras.’ 50,278 Were ClickShare Systems</title><link>https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/</guid><description>Our audit of Flock Finder found 50,278 Barco ClickShare devices and thousands of other false positives inside a 146,526-record camera map. Here is what failed, how we proved it, and what we changed.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/flock-finder-oui-false-positive-audit-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>We put 146,526 points on a surveillance-camera map. At least 50,278 of them were Barco ClickShare presentation systems. Conference-room hardware accounted for more than one-third of what our headline called “Cameras Mapped.”</strong></p>
+<p>This was our project, our data pipeline, and our mistake. Flock Finder queried WiGLE every day for MAC-address prefixes observed on Flock Safety cameras, published the results at full coordinate precision, and rendered them as equivalent pins. The records carried the word <code>suspected</code> in their metadata and the documentation mentioned false positives. The map and headline still communicated certainty.</p>
+<p>When we finally ran a frequency histogram over the SSID column, the dataset explained the failure in minutes. ClickShare was only the largest category. Another 6,099 records named themselves <code>SMARTGATE_*</code>; 3,801 began with the generic WiFi Direct prefix <code>DIRECT-</code>; 314 were the exact name <code>AndroidAP</code>; 138 said <code>Audi HUD</code>; 133 said <code>MAX-PRINTER</code>; and 30 contained another detector&rsquo;s verdict string. In total, <strong>60,793 rows, or 41.5%, matched the original audit&rsquo;s known-other naming rules.</strong></p>
+<p>We have now changed Flock Finder to publish evidence classes per record, exclude known-other hardware from the default map and headline, expose filters, flag records outside the primary market, and separate high-confidence prefixes from contract-manufacturer prefixes. This article documents the error, the evidence, and the limits that remain.</p>
+<hr>
+<h2 id="how-community-alpr-detection-works">
+  <a href="#how-community-alpr-detection-works" title="How Community ALPR Detection Works">How Community ALPR Detection Works</a>
+  <a href="#how-community-alpr-detection-works" class="h-anchor" aria-hidden="true" title="How Community ALPR Detection Works">#</a>
+</h2>
+<p>Community-built Flock detectors generally combine three kinds of wireless evidence:</p>
+<ol>
+<li><strong>WiFi MAC/OUI prefixes.</strong> The first bytes of a globally administered MAC address can identify the organization that received the address block.</li>
+<li><strong>WiFi behavior.</strong> An SSID, wildcard probe request, receiver address, channel pattern, or sequence of 802.11 information elements can narrow the device class.</li>
+<li><strong>Bluetooth evidence.</strong> Manufacturer IDs and service UUIDs can identify radios exposed by a particular product or fi
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/flock-finder-oui-false-positive-audit-2026/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Sibling Sites - SimeonOnSecurity's Standalone Cybersecurity Tools</title><link>https://simeononsecurity.com/sibling-sites/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/sibling-sites/</guid><description>Every SimeonOnSecurity sibling site in one place. Seven standalone tools on their own subdomains, covering WiFi data maps, ALPR surveillance mapping, ESP32 counter-surveillance firmware, and resume optimization.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/sibling-sites-simeononsecurity-cybersecurity-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/sibling-sites/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>SimeonOnSecurity builds tools large enough to deserve their own web address.</strong> Seven standalone projects run on dedicated subdomains today. Each one does a single job, pulls its own data, and ships on its own schedule.</p>
+<p>This page collects all seven in one place so you know what exists, what each tool does, and where to find it. One more project, <strong>track-carrier-openroaming-support</strong>, publishes its results through a repository instead.</p>
+<p><em>Sibling sites are written in English only. They are not translated into the other site languages.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": "https:\/\/simeononsecurity.com\/sibling-sites\/simeononsecurity-sibling-sites-subdomain-family.webp",
+    "caption": "Illustration of the main SimeonOnSecurity site with its tool subdomains branching from it",
+    
+    "license": "https://simeononsecurity.com/termsandconditions/",
+    "acquireLicensePage": "https://simeononsecurity.com/contactus/",
+    "creditText": "SimeonOnSecurity",
+    "creator": {
+    "@type": "Person",
+    "name": "SimeonOnSecurity"
+    },
+    "copyrightNotice": "SimeonOnSecurity",
+    
+    "associatedArticle": {
+    "@type": "NewsArticle",
+    "headline": "Sibling Sites - SimeonOnSecurity\u0027s Standalone Cybersecurity Tools",
+    "url": "https:\/\/simeononsecurity.com\/sibling-sites\/",
+    "datePublished": "2026-10-02 21:20:24.557789769 \u002b0000 UTC m=\u002b324.282515514",
+    "author": {
+        "@type": "Person",
+        "name": "SimeonOnSecurity",
+        "url": "https:\/\/simeononsecurity.com\/authors\/simeononsecurity"
+    }
+    }
+}
+</script> 
+
+
+<center>
+    <figure align="center" style="text-align: center; margin: 0 auto;"  itemscope itemtype="http://schema.org/ImageObject">
+        <meta property="article:published_time" content="2026-10-02 21:20:24.557789769 &#43;0000 UTC m=&#43;324.282515514">
+        <meta property="article:author" content="SimeonOnSecurity">
+        <meta property="article:author:url" content="https://sime
+
+        <br>
+        <a href="https://simeononsecurity.com/sibling-sites/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Which AI Models Can Run on a Raspberry Pi 4 or 5?</title><link>https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/</guid><description>Use measured Raspberry Pi 4 and 5 results to choose local language models by memory, speed, and workload, from tiny LFM2.5 models to 3B and larger options.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/raspberry-pi-4-5-local-ai-models.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p>A Raspberry Pi can run a useful language model locally, but the model must fit the board&rsquo;s memory and the response time your application can tolerate. A 2 GB Raspberry Pi 4 is best suited to models below about one billion parameters. An 8 GB Raspberry Pi 5 can run compact 1B–3B models comfortably and load some larger quantized models with substantial compromises.</p>
+<p>We benchmarked these models ourselves through Ollama on a <strong>2 GB Pi 4B</strong> and an <strong>8 GB Pi 5</strong>, both using microSD storage. The runs behind the tables used the same five short assistant prompts, system prompt, fixed seed, and 140-token output cap. We unloaded other models before each run and measured cold-load time, time to first visible token, total reply time, output speed, and peak resident memory. These were single-pass tests of a short-reply workload, so the results are sizing examples rather than universal speed or answer-quality rankings. The Pi 5&rsquo;s 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Cortex-A76 CPU and available memory configurations">
+    <meta itemprop="url" content="https://www.raspberrypi.com/products/raspberry-pi-5/">
+    <a href="https://www.raspberrypi.com/products/raspberry-pi-5/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Cortex-A76 CPU and available memory configurations</a>
+</span>
+ also differ materially from the Pi 4&rsquo;s 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Cortex-A72 platform">
+    <meta itemprop="url" content="https://pip-assets.raspberrypi.com/categories/545-raspberry-pi-4-model-b/documents/RP-008341-DS-1-rasp
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/ai-models-raspberry-pi-4-5/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Which Cybersecurity Career Fits You? 16 Starting Points, Many Paths</title><link>https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</link><pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/</guid><description>Explore a personality-themed video, multiple cybersecurity roles for each type, and practical exercises to compare career paths by their real work.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/cybersecurity-careers-personality-paths.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Cybersecurity is a collection of very different jobs.</strong> A security operations center (SOC) analyst investigates alerts, a security engineer builds controls, a privacy specialist works through data handling decisions, and a sales engineer explains technology to customers. Finding work you enjoy starts with understanding those daily tasks.</p>
+<p>The video below uses all 16 personality labels as a playful way to introduce these paths. Watch it, take the linked test if you want a starting point for reflection, and then use the role descriptions and small experiments in this article to see what actually holds your interest.</p>
+
+
+<p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="Watch the video on YouTube">
+    <meta itemprop="url" content="https://www.youtube.com/watch?v=FsplOmkbPI4">
+    <a href="https://www.youtube.com/watch?v=FsplOmkbPI4"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >Watch the video on YouTube</a>
+</span>
+.</p>
+<h2 id="take-the-personality-test">
+  <a href="#take-the-personality-test" title="Take the personality test">Take the personality test</a>
+  <a href="#take-the-personality-test" class="h-anchor" aria-hidden="true" title="Take the personality test">#</a>
+</h2>
+<p>The video points viewers to the 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="free 16Personalities test">
+    <meta itemprop="url" content="https://www.16personalities.com/free-personality-test">
+    <a href="https://www.16personalities.com/free-personality-test"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+  
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/which-cybersecurity-career-fits-your-personality/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration</title><link>https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><guid>https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/</guid><description>Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan.</description><content:encoded><![CDATA[
+        
+            <img src="https://simeononsecurity.com/img/cover/docker-lxc-vm-homelab-isolation.webp">
+            
+        
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/">Read the full article at https://simeononsecurity.com/</a>
+
+        <p><strong>Docker inside Linux Containers (LXC)</strong> trades some infrastructure overhead for more interactions between the application runtime and the Proxmox host. For Docker services your household depends on, a Debian <strong>virtual machine (VM)</strong> is a practical starting point because it separates the guest kernel and simplifies the environment you must reproduce during troubleshooting. This article examines the supplied video, checks its underlying incident report, and adds documented failures and a migration plan.</p>
+<h2 id="key-takeaways">
+  <a href="#key-takeaways" title="Key Takeaways">Key Takeaways</a>
+  <a href="#key-takeaways" class="h-anchor" aria-hidden="true" title="Key Takeaways">#</a>
+</h2>
+<ul>
+<li><strong>Separate failure types:</strong> A Docker startup error, a stalled VM, and an unresponsive physical host require different investigations.</li>
+<li><strong>Evaluate the evidence:</strong> Stability after migration supports a recovery decision without proving the original cause.</li>
+<li><strong>Check current documentation:</strong> Native OCI image support and Docker nested inside LXC are different deployment paths.</li>
+<li><strong>Protect persistent data:</strong> Proxmox backups and Compose files do not automatically cover every application data location.</li>
+<li><strong>Test the recovery plan:</strong> Measure restoration, reboot behavior, and service availability before retiring the old deployment.</li>
+</ul>
+<h2 id="before-you-begin">
+  <a href="#before-you-begin" title="Before You Begin">Before You Begin</a>
+  <a href="#before-you-begin" class="h-anchor" aria-hidden="true" title="Before You Begin">#</a>
+</h2>
+<p><strong>Difficulty:</strong> Intermediate. <strong>Audience:</strong> Proxmox administrators choosing between nested Docker and Docker in a VM. You should recognize a Compose project, a container mount, and a Linux shell prompt before following the diagnostic examples.</p>
+<p><strong>Estimated effort:</strong> Allow 30–60 minutes for inventory and evidence collection. Migration time depends on database size, storage throughput, hardware access, and the outage window you choose. The examples below are documented procedures and illustrative reasoning, not benchmarks from a lab operated for this article.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Requirement</th>
+					<th>Why it matters</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Host console access</strong></td>
+					<td>Distinguishes network failure
+
+        <br>
+        <a href="https://simeononsecurity.com/articles/docker-in-lxc-proxmox-reliability/">Read More at https://simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
