@@ -1,7 +1,7 @@
 ---
 title: "Privacy.com Virtual Cards: How Payment Privacy Works"
 date: 2023-09-03
-lastmod: 2026-09-30
+lastmod: 2026-10-02
 toc: true
 draft: false
 description: "What is stored on a payment card, why the magnetic stripe is the weakest part of it, what a merchant sees when you pay with a virtual number, and how Privacy.com's card types and limits work in practice."
@@ -71,6 +71,111 @@ Two developments are ending it:
 
 {{< figure src="magnetic-stripe-track-layout-track1-track2.webp" alt="Diagram of a magnetic stripe showing the physical position of tracks one, two and three, with the field layout of each track including sentinels, PAN, name, expiry and service code" >}}
 
+## How to Read Track Data
+
+**A magnetic-stripe string is a sequence of fields, not a second card number.** The reader finds the start sentinel, separates fields, reads the expiry and service code, then checks the end sentinel and LRC.
+
+| Track | Start | Main fields | End | Character set |
+|---|---|---|---|---|
+| **Track 1** | `%` | Format code, PAN, name, expiry, service code, discretionary data | `?` plus LRC | Six-bit ALPHA, so it carries letters |
+| **Track 2** | `;` | PAN, expiry, service code, discretionary data | `?` plus LRC | Four-bit BCD, so it carries digits and a small punctuation set |
+
+The optional sentinels identify the physical record boundaries. A decoder often omits them when it displays the fields, but a physical encoder needs the complete record format expected by the reader.
+
+### Track 1 Example
+
+This is a synthetic example. It uses the standard test PAN from the tool and fake name, expiry, service code, and discretionary data. It is not a Privacy.com card and it is not valid payment data.
+
+```text
+%B4111111111111111^TEST/USER^2912501000000000?
+```
+
+Read it from left to right:
+
+| Segment | Value | Meaning |
+|---|---|---|
+| **Start sentinel** | `%` | Track 1 record begins |
+| **Format code** | `B` | Financial-card format B |
+| **PAN** | `4111111111111111` | Synthetic primary account number |
+| **Field separator** | `^` | PAN ends and name begins |
+| **Name** | `TEST/USER` | Surname, separator, first name |
+| **Field separator** | `^` | Name ends and transaction fields begin |
+| **Expiry** | `2912` | December 2029 in YYMM form |
+| **Service code** | `501` | National interchange, normal processing, no restrictions |
+| **Discretionary data** | `0000000` | Issuer-defined filler in this example |
+| **End sentinel** | `?` | Track 1 data ends before the LRC |
+
+The real encoded record also carries an LRC character after the end sentinel when the reader expects it. The visible text form is useful for studying structure. The bit-level representation also carries odd parity for each character.
+
+### Track 2 Example
+
+Track 2 removes the name and format code. The same synthetic values become:
+
+```text
+;4111111111111111=291250100000000?
+```
+
+| Segment | Value | Meaning |
+|---|---|---|
+| **Start sentinel** | `;` | Track 2 record begins |
+| **PAN** | `4111111111111111` | Synthetic primary account number |
+| **Separator** | `=` | PAN ends and transaction fields begin |
+| **Expiry** | `2912` | December 2029 in YYMM form |
+| **Service code** | `501` | Same synthetic service code as Track 1 |
+| **Discretionary data** | `0000000` | Issuer-defined filler in this example |
+| **End sentinel** | `?` | Track 2 data ends before the LRC |
+
+**Track 2 is shorter because it has no cardholder name.** Many terminals read Track 2 for ordinary swipe transactions, while Track 1 provides the name field when a reader requests it.
+
+### Service-Code Digits
+
+**The three service-code digits describe terminal and authorization behavior.** They do not contain the CVV, and changing them on a real card without issuer authorization produces a malformed or misleading payment credential.
+
+| Digit | Example values | What it describes |
+|---|---|---|
+| **First** | `1`, `2`, `5`, `6`, `7`, `9` | Interchange rules and whether chip use is preferred |
+| **Second** | `0`, `2`, `4` | Normal processing or online issuer contact |
+| **Third** | `0` through `7` | PIN, cash, goods-and-services, and other restrictions |
+
+For example, `201` means international interchange with chip use where feasible, normal authorization processing, and no service restrictions. The decoder exposes each digit separately so you do not have to memorize the table.
+
+### LRC and Parity
+
+**The LRC is a check character, not another field to invent.** The encoder XORs the data value of each character from the start sentinel through the end sentinel. It converts the result back into the track's printable character range and reports the encoded odd-parity bits separately.
+
+Track 1 uses a six-bit ALPHA character set. Its data value is the ASCII code minus `0x20`. Track 2 uses a four-bit BCD character set. Its data value is the low nibble of the ASCII code. Applying the Track 1 mapping to Track 2 produces the wrong LRC.
+
+The decoder's **Include calculated LRC** option adds the printable LRC character to the output. Its breakdown also shows the LRC bit pattern with odd parity. Use this to learn how a reader checks the record, not to bypass an issuer's controls.
+
+## Writing Synthetic Cards for Testing
+
+**Use the decoder to write test strings, not live payment cards.** The tool accepts fields, rebuilds Track 1 and Track 2, adds optional sentinels, and calculates the LRC. It runs locally in the browser.
+
+1. Open the **[Magnetic Stripe Decoder and Encoder](/magnetic-stripe-decoder/)**.
+2. Select **Load Test Card**. This fills the tool with the synthetic PAN `4111111111111111`, the name `TEST/USER`, expiry `2912`, service code `201`, and test discretionary data.
+3. Enable **Include start and end sentinels** to display the physical record boundaries.
+4. Enable **Include calculated LRC** to append the calculated check character.
+5. Enable **Split discretionary data into PVKI, PVV and CVV** only to see how a nine-digit synthetic field is displayed. Those labels are issuer conventions, not a universal Track 1 or Track 2 layout.
+6. Change the name, expiry, service code, or synthetic discretionary data. The output updates as you type.
+7. Compare the decoded fields with the generated strings. Clear the fields when finished.
+
+For a synthetic Track 1 exercise, use:
+
+```text
+PAN: 4111111111111111
+Surname: TEST
+First name: USER
+Expiry: 12/29
+Service code: 201
+Discretionary data: 000000000
+```
+
+For a synthetic Track 2 exercise, use the same PAN, expiry, service code, and a numeric discretionary field. The generated Track 2 string omits the name because Track 2 has no name field.
+
+**Do not copy a live Privacy.com PAN, expiry, CVV, or discretionary value into a writable card.** Privacy.com describes its product as virtual card numbers created through its website or app. Its official page does not present the service as a magnetic-stripe-writing system, while a virtual card number is not proof of an issuer-authorized physical stripe record. A writable test card containing a live credential creates a duplicate payment instrument and violates issuer terms or payment rules.
+
+The safe boundary is simple: use the tool's built-in synthetic sample, use a lab card with dummy values, and use an issuer-approved physical card when you need to pay in person. Do not attempt to turn a Privacy.com virtual card into a physical swipe card.
+
 ## What a Virtual Card Changes
 
 **A virtual card is a second number standing in front of the first one.**
@@ -135,7 +240,7 @@ Two operational details worth knowing:
 | **Pause** | Any charge at all, reversibly |
 | **Close** | Any future charge, permanently |
 
-**Set both a per-transaction and a monthly limit on any card tied to a subscription.** A merchant quietly raising its price hits the limit rather than your balance, and you find out from a failed charge instead of a statement line you might not read.
+**Set both a per-transaction and a monthly limit on any card tied to a subscription.** A merchant quietly raising its price hits the limit rather than your balance, and you notice it from a failed charge instead of missing a statement line.
 
 *Our **[Personal Finance Security](/personal-security-course/personal-finance/)** module places this alongside credit freezes and card tokenization as the three controls limiting what a single compromised merchant reaches.*
 
@@ -203,7 +308,7 @@ Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Dec
 2. **Use single-use for anything unfamiliar**, including trials and one-off purchases from smaller sites.
 3. **Set both spend limits** on subscription cards, so a price increase fails rather than charges.
 4. **Name each card after the merchant**, so a transaction list is readable and an unexpected charge stands out.
-5. **Pause rather than close** when you might resume a service, and close when you will not.
+5. **Pause rather than close** when you plan to resume a service, and close when you will not.
 6. **Keep one real card for merchants rejecting virtual ranges**, so a blocked checkout does not become an emergency.
 
 > **Common Mistake: treating a virtual card as a substitute for noticing your statements.** Merchant locking stops one class of harm. It does not detect a compromised account at your bank, an unauthorised transfer, or a fraudulent charge on the real card behind it.
@@ -231,7 +336,7 @@ Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Dec
 ## References
 
 1. [Privacy.com - what virtual cards are, merchant locking, and spend limits](https://www.privacy.com/virtual-card)
-2. [Digital card - Wikipedia, covering magnetic stripe history, track formats, and card type definitions](https://en.wikipedia.org/wiki/Digital_card)
+2. [Digital card - Wikipedia, covering digital versus virtual cards, magnetic-stripe tracks, service codes, parity, and LRC](https://en.wikipedia.org/wiki/Digital_card)
 3. [ISO/IEC 7813:2006 - identification cards, financial transaction cards, tracks 1 and 2 data structure](https://webstore.iec.ch/en/publication/11605)
 4. [ISO/IEC 7813 - track field layout in detail, including sentinels and service codes](https://en.wikipedia.org/wiki/ISO/IEC_7813)
 5. [PCI Security Standards Council - cardholder data environment requirements](https://www.pcisecuritystandards.org/)
