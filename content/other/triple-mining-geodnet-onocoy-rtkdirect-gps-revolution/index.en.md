@@ -63,6 +63,8 @@ Older Raspberry Pi models (1, 2, 3) should be sufficient. But newer models shoul
 ## Recommended GPS Receivers DIY RTKDirect Deployments
 There are many receivers on the market but at a bare minimum it must support [**RTCM (Radio Technical Commission for Maritime Services)**](https://en.wikipedia.org/wiki/RTCM_SC-104) and ideally have the ability to be hooked up to an antenna outside of the install location with 360 degree unobstructed view of the sky.
 
+For background on RTCM message types and correction-stream transport, see the [Kalmix RTCM guide](https://www.kalmixtech.com/blogs/blog/rtcm-unpacked-binary-protocol-rtk-fix) and [Kalmix NTRIP guide](https://www.kalmixtech.com/blogs/blog/inside-ntrip-protocol-rtk-corrections). These explain MSM observations, base-station coordinates, and NTRIP server/caster/client roles.
+
 These are all going to be devices that are Triple-Band, High Pull Rate, Extreme Position Receivers. Most won't support USB. They will require PCI-E, UART, I2C, or Serial Connections. THey will allow you to be capable of at most of the RTKDirect rewards. While you'll be able to use the same software we mention below, the instructions we've provided may not exactly line up. Be advised that things like COM ports and the dongle specific instructions may be different for you.
 
 {{< figure src="advanced-receivers.webp" alt="The Best GPS Receivers" >}}
