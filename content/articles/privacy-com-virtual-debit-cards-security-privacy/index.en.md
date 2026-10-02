@@ -236,3 +236,6 @@ Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Dec
 4. [ISO/IEC 7813 - track field layout in detail, including sentinels and service codes](https://en.wikipedia.org/wiki/ISO/IEC_7813)
 5. [PCI Security Standards Council - cardholder data environment requirements](https://www.pcisecuritystandards.org/)
 6. [Consumer Financial Protection Bureau - credit reports and scores](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/)
+7. [ANSI/ISO ALPHA data encoding, the Track 1 character set and parity table](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
+8. [Magnetic card ISO characters, the Track 1 and Track 2 sets side by side](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
+9. [Reading magnetic card data, a practical walkthrough with a live card scan](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
