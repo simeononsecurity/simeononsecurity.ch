@@ -87,7 +87,12 @@ After cloning, verify with `grep`:
 
 ## Build Notes
 
-- Adding a new treatment adds content pages, so a full build is the real test:
+- A new treatment adds many content pages, so run a full build when the treatment
+  introduces a new layout, shortcode, shared asset, output behavior, or other
+  site-wide rendering change. If it only adds Markdown pages, validate front
+  matter, links, question-bank counts, and the changed files without forcing a
+  full multilingual build.
+- When a full build is required, use:
   `npx hugo --gc --minify -D` (multilingual build takes roughly 8+ minutes).
 - `execute_command` times out at 30s. Launch long builds in the background and poll a log file
   for `Total in`:

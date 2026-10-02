@@ -120,10 +120,13 @@ extension literal, which is why only they needed the idiom fix.
    for p, r in bad: print(' ', p, r)
    "
    ```
-2. **Full local Hugo build**, cold cache, to catch any Resize-time errors the
-   integrity scan alone would miss (a valid WebP can still trip a transient
-   resize timeout under heavy concurrent load right after a full cache wipe;
-   retry once before treating it as a real bug):
+2. **Full local Hugo build when the image change affects Hugo resource processing.**
+   Run this after a bulk conversion, rename, deletion, cover-reference rewrite,
+   image-processing change, or any other change that exercises shared `resources`
+   pipelines. Do not run it for an ordinary Markdown edit that only points at an
+   existing, already-validated image. A valid WebP can still trip a transient
+   resize timeout under heavy concurrent load right after a full cache wipe, so
+   retry once before treating it as a real bug:
    ```bash
    rm -rf resources/_gen public
    nohup sh -c 'npx hugo --gc --minify -D --panicOnWarning' > /tmp/build.log 2>&1 &

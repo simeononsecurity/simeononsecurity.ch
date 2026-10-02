@@ -80,6 +80,36 @@ Update rules **during the task**, not after. Before committing work, ask:
 If the answer to any of those is yes, update or create the relevant clinerule
 before the final git commit, and include the `.clinerules/` file in that commit.
 
+## Conditional Hugo Builds
+
+Do not run a full Hugo build after every content or documentation change. A full
+build takes several minutes and tests the site-wide rendering pipeline, not the
+basic validity of one Markdown page.
+
+Use targeted checks for ordinary changes such as:
+
+- adding or editing one article, guide, writeup, course page, or reference list
+- changing front matter on an isolated page
+- adding verified external links
+- updating a question bank and its generator validation
+- editing a clinerule or other documentation file
+
+Run a Hugo build when the change can affect how many pages render or how Hugo
+processes shared resources. This includes:
+
+- layouts, templates, partials, shortcodes, theme overrides, or shared CSS and JS
+- Hugo configuration, output formats, menus, taxonomies, permalinks, or language config
+- site-wide assets, image-processing code, cover references, or resource pipelines
+- XML feeds, sitemaps, robots output, schema, metadata, or canonical URL behavior
+- a new content type or a course treatment that adds many pages and exercises shared templates
+- a user-reported rendering problem that needs confirmation in generated HTML
+
+For a single content page, inspect the source, verify internal and external links,
+check front matter, run the relevant script or unit tests, and build only that page
+or section if a local render is useful. Reserve the full multilingual build for
+site-wide changes or a release check. If a full build is required, run it in the
+background and inspect the generated output, not only the exit status.
+
 ## Commit Convention
 
 When a clinerule is the only change, the commit message should be:

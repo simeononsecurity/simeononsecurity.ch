@@ -200,10 +200,17 @@ follow Rule 2.
 
 ---
 
-## A Full Build Is the Only Real Test
+## When a Full Build Is Needed
 
-An EN build renders roughly 34,000 pages and takes 10 to 15 minutes. It runs long past
-the 30 second command timeout, so launch it in the background and poll:
+Unit tests, extracted JavaScript checks, DOM recalculation tests, and a targeted
+render are enough for an isolated tool layout change. Do not run the full site
+build for every tool edit.
+
+Run a full EN build when changing shared layouts, theme overrides, shared CSS or
+JavaScript, Hugo configuration, output formats, shortcodes, resource processing,
+or another component used by many pages. An EN build renders roughly 34,000 pages
+and takes 10 to 15 minutes. It runs long past the 30 second command timeout, so
+launch it in the background and poll:
 
 ```bash
 nohup npx hugo --minify -D --config config/language/en/config.toml --destination /tmp/en_tools > /tmp/en_tools.log 2>&1 &
