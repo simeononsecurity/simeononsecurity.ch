@@ -1,23 +1,23 @@
 ---
-title: "Qwen3.8 27B GPU Benchmark on Vast.ai: H100, RTX PRO, A100, and More"
+title: "Llama 3.1 8B and Qwen3.8 27B GPU Benchmarks on Vast.ai"
 date: 2026-10-02
 lastmod: 2026-10-02
 toc: true
 draft: false
-description: "A measured Ollama benchmark of Qwen3.8 27B across leading Vast.ai GPUs. Compare decode speed, long-context behavior, rental cost, self-hosting tradeoffs, API credits, and subscriptions."
+description: "Measured Ollama benchmarks of Llama 3.1 8B and Qwen3.8 27B across leading Vast.ai GPUs. Compare decode speed, long-context behavior, rental cost, self-hosting tradeoffs, API credits, and subscriptions."
 genre: ["Local AI", "GPU Benchmarking", "Self-Hosted AI", "Cloud Computing", "Artificial Intelligence", "AI Economics"]
-tags: ["Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "GPU benchmark", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "local LLM", "long context", "GPU rental", "self-hosted AI", "abliterated models", "uncensored models", "API credits", "AI subscription", "Q4_K_M", "tokens per second"]
+tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "GPU benchmark", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "local LLM", "long context", "GPU rental", "self-hosted AI", "abliterated models", "uncensored models", "API credits", "AI subscription", "Q4_K_M", "tokens per second"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"
 coverAlt: "A high-tech workspace with a graphics card and screens displaying local AI benchmark results"
 coverCaption: ""
 ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/ai-models-raspberry-pi-4-5"]
 ---
 
-**The H100 SXM was the fastest card in this Qwen3.8 27B Ollama test, but it was not the best value.** The RTX PRO 5000 and RTX 6000 Ada delivered a stronger speed-to-rental-cost balance, while the CMP 170HX offered the lowest hourly rate among the completed runs.
+**The H100 SXM was the fastest card in both Ollama model tests, but it was not the best value.** The RTX PRO 5000 and RTX 6000 Ada delivered a stronger speed-to-rental-cost balance, while the CMP 170HX offered the lowest hourly rate among the completed Qwen3.8 27B runs.
 
 *These results measure one model, one Ollama wrapper, one default quantization, and one serving pattern. Treat them as sizing data for this workload, not as a universal GPU ranking.*
 
-This article compares **Qwen3.8:27b**, the Ollama Q4_K_M build at roughly 27.3B parameters, across GPU instances rented from Vast.ai. The test focused on decode throughput at four actual prompt lengths, including a long-context run near 131,000 prompt tokens.
+This article compares **Llama 3.1:8b**, an Ollama Q4_K_M build at 8.03B parameters, with **Qwen3.8:27b**, an Ollama Q4_K_M build at roughly 27.3B parameters. Both were tested across GPU instances rented from Vast.ai. The tests focused on decode throughput at actual prompt lengths up to the supported context limit.
 
 ## The Short Answer
 
@@ -25,10 +25,11 @@ This article compares **Qwen3.8:27b**, the Ollama Q4_K_M build at roughly 27.3B 
 
 | Goal | Recommendation | Reason |
 |---|---|---|
-| **Lowest test cost** | CMP 170HX | $0.420 per hour and enough VRAM for this Q4_K_M model |
+| **Lowest test cost** | CMP 170HX | $0.420 per hour and enough VRAM for the tested Q4_K_M models |
 | **Best value under $1.25/hr** | RTX PRO 5000 or RTX 6000 Ada | Strong decode speed without H100 rental cost |
-| **Fastest replies** | H100 SXM | Highest decode speed at every completed prompt length |
-| **Long-context work** | H100 SXM or RTX PRO 6000 Max-Q | Both completed the approximately 131k-token run with substantial VRAM headroom |
+| **Fastest replies** | H100 SXM | Highest decode speed in both model tests |
+| **Long-context Qwen work** | H100 SXM or RTX PRO 6000 Max-Q | Both completed the approximately 131k-token Qwen run with substantial VRAM headroom |
+| **Popular 8B baseline** | Llama 3.1:8b | A practical 8B comparison with a 128K context limit |
 | **Small recurring workload** | API credits or a chat subscription | No idle GPU charge, maintenance, or deployment work |
 | **Private and frequent workload** | Owned GPU workstation | Hardware cost becomes easier to justify with sustained utilization |
 | **Abliterated or uncensored experiments** | Rent first, then buy only after sustained use | Model behavior, licensing, and operational risk deserve a separate test before hardware spend |
@@ -50,7 +51,59 @@ The benchmark used two valid trials per context and recorded the median decode r
 
 The requested 256k-token run was not completed. The 40 GB A100 cards and several smaller cards were still processing or failed to finish at the target context length.
 
-> **Benchmark limit:** The figures describe one Qwen3.8 27B Q4_K_M workload. They do not predict training speed, multi-user throughput, image generation speed, vLLM performance, or another model's result.
+> **Benchmark limit:** The figures describe two Ollama Q4_K_M workloads under one serving pattern. They do not predict training speed, multi-user throughput, image generation speed, vLLM performance, or another model's result.
+
+## Llama 3.1 8B Rerun
+
+**Llama 3.1:8b provides a useful practical baseline for the same GPU pool.** Ollama lists the model at roughly 120 million downloads, which makes it a reasonable popularity-based choice for a second benchmark. The [official Ollama model page](https://ollama.com/library/llama3.1:8b) lists a 4.9 GB Q4_K_M build, 8.03B parameters, and a 128K context window.
+
+The rerun used a model-specific benchmark runner and calibrated the prompt generator against Ollama's tokenizer. The labels below use actual prompt counts rather than requested context settings:
+
+- **Approximately 32,676 actual prompt tokens** for the 32k target
+- **Approximately 65,342 actual prompt tokens** for the 64k target
+- **Approximately 130,671 actual prompt tokens** for the 128k target
+
+The 256k level is explicitly unsupported for Llama 3.1 8B because the model's listed context limit is 128K. The runner added retry handling and status rows, so a timeout remains visible instead of disappearing from the table.
+
+### Llama 3.1 8B Results
+
+| GPU | ~32k decode tok/s | ~64k decode tok/s | ~128k decode tok/s |
+|---|---:|---:|---:|
+| **H100 SXM** | **163.5** | **124.0** | **82.4** |
+| **H100 SXM** | **158.6** | **121.2** | **80.6** |
+| **RTX PRO 5000** | 110.1 | 79.8 | 49.9 |
+| **CMP 170HX 64GB** | 91.9 | 71.0 | 50.1 |
+| **RTX 6000 Ada** | 88.3 | 53.9 | 29.3 |
+| **RTX PRO 6000 Max-Q** | 66.7 | 53.0 | 40.3 |
+| **RTX PRO 6000 S** | 60.3 | 42.5 | 33.9 |
+| **A100 SXM4 40GB** | 2.0 | 40.6 | 38.5 |
+| **A100 PCIe 40GB** | 1.2 | 20.3 | 20.3 |
+| **2x RTX 5060 Ti** | 1.3 | 26.8 | Timeout |
+
+The two H100 rows came from separate valid instances of the same GPU class. Both were clearly ahead of the other cards. Their 32k results were 44% to 48% faster than the RTX PRO 5000, and their 128k results were about 61% to 65% faster.
+
+The A100 and RTX 5060 Ti 32k results are too low to represent comparable GPU execution for this workload. The RTX 5060 Ti host also timed out during the second 128k trial. Treat the host as unsuitable for valid GPU throughput comparisons rather than as a genuine ranking result.
+
+| Context target | Status |
+|---|---|
+| **32k** | Completed on all 10 hosts |
+| **64k** | Completed on all 10 hosts |
+| **128k** | Completed on 9 hosts. The 2x RTX 5060 Ti host timed out during its second trial |
+| **256k** | Unsupported for all hosts because Llama 3.1 8B supports up to 128K context |
+
+## Comparing the Two Models
+
+**The smaller Llama model was faster on every comparable GPU, but model size and quality are not interchangeable.** Llama 3.1 8B is useful for a popular, lower-memory baseline. Qwen3.8 27B needs more memory and delivers a different capability profile, so the numbers should guide hardware selection rather than declare one model universally better.
+
+| Use case | Better benchmark reference | Why |
+|---|---|---|
+| **Fast 8B assistant** | Llama 3.1:8b | Higher decode speed and lower model memory demand |
+| **27B local model sizing** | Qwen3.8:27b | More representative of a larger single-GPU workload |
+| **128K context ceiling** | Llama 3.1:8b | The model has an explicit 128K limit, so 256k is not a valid target |
+| **Testing VRAM headroom** | Qwen3.8:27b | The larger model exposes memory and long-context limits sooner |
+| **Cross-provider baseline** | Llama 3.1:8b | Popularity and model size make the result easier to reproduce |
+
+The earlier Qwen rerun also corrected its actual prompt counts to approximately **32,770**, **65,538**, and **131,074** tokens on the supported context levels. Those corrected labels replace requested `num_ctx` values when comparing Qwen runs.
 
 ## Approximately 16k Tokens
 
@@ -205,30 +258,31 @@ If the model becomes a daily tool, compare the monthly rental total with the ful
 
 ## Benchmark Caveats
 
-**The missing results are part of the result.** A dash means the run did not produce a valid measurement. It does not mean the GPU is slow by the amount implied by another card's score.
+**The missing results are part of the result.** An `N/A` value means the run did not produce a valid measurement. It does not mean the GPU is slow by the amount implied by another card's score.
 
 - **The second H100 instance produced no valid benchmark set** because the model download completed too late.
 - **The 2x RTX 5060 Ti instance was excluded** because Ollama loaded the model on the CPU instead of using the GPUs.
-- **The 256k-token prompt was not completed.** The highest valid level was approximately 131k actual prompt tokens.
+- **The Qwen3.8 27B 256k-token prompt was not completed.** Its highest valid level was approximately 131k actual prompt tokens. Llama 3.1 8B marks 256k as unsupported because its context limit is 128K.
 - **The requested `num_ctx` was not used as the ranking label.** The final tables use actual `prompt_eval_count` values.
 - **Two valid trials per context were summarized with the median decode result.** This reduces the effect of one slow run, but it does not replace a larger test set.
 - **The wrapper was simple by design.** A tuned vLLM or llama.cpp deployment will produce a different ranking.
 
 ## Final Recommendation
 
-**Start with an RTX 6000 Ada or RTX PRO 5000 rental.** The RTX 6000 Ada is the budget choice when its $0.813 hourly rate is available. The RTX PRO 5000 is the stronger speed choice below H100 pricing. Use the H100 SXM for long prompts, demanding interactive latency, or a short benchmark window where time matters more than rental cost.
+**Start with an RTX 6000 Ada or RTX PRO 5000 rental.** The RTX 6000 Ada is the budget choice when its $0.813 hourly rate is available. The RTX PRO 5000 is the stronger speed choice below H100 pricing. Use the H100 SXM for long prompts, demanding interactive latency, or a short benchmark window where time matters more than rental cost. For an 8B model, the CMP 170HX is worth testing when its lower hourly rate matters more than peak speed.
 
 **Do not buy a GPU after one successful test.** Rent for a month of real workloads, record active hours, prompt lengths, concurrency, and model changes, then compare the rental total with the complete ownership bill. Buy hardware when the workload is frequent enough to keep the card busy and stable enough to justify the loss of flexibility.
 
-For occasional work, API credits or a chat subscription are simpler. For private local inference, open model experimentation, or abliterated model testing, Vast.ai provides a lower-commitment path than buying a workstation immediately.
+For occasional work, API credits or a chat subscription are simpler. For private local inference, open model experimentation, or abliterated model testing, Vast.ai provides a lower-commitment path than buying a workstation immediately. Use Llama 3.1 8B as the lower-memory baseline and Qwen3.8 27B when the larger model is the actual deployment target.
 
 ## References
 
 1. [Vast.ai GPU cloud marketplace](https://vast.ai/)
 2. [Vast.ai documentation: marketplace, instances, pricing, and rental types](https://docs.vast.ai/)
 3. [Ollama Qwen3 model library](https://ollama.com/library/qwen3)
-4. [OpenRouter model catalog and pricing comparison](https://openrouter.ai/models)
-5. [Claude pricing and individual subscription plans](https://www.anthropic.com/pricing)
-6. [NVIDIA GeForce RTX 4090 specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/)
-7. [Local AI in 2026: Qwen3.8 27B and self-hosted model hardware](/articles/local-ai-2026-build-your-rig-now/)
-8. [Ollama model testing on Raspberry Pi hardware](/articles/ai-models-raspberry-pi-4-5/)
+4. [Ollama Llama 3.1 8B model page](https://ollama.com/library/llama3.1:8b)
+5. [OpenRouter model catalog and pricing comparison](https://openrouter.ai/models)
+6. [Claude pricing and individual subscription plans](https://www.anthropic.com/pricing)
+7. [NVIDIA GeForce RTX 4090 specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/)
+8. [Local AI in 2026: Qwen3.8 27B and self-hosted model hardware](/articles/local-ai-2026-build-your-rig-now/)
+9. [Ollama model testing on Raspberry Pi hardware](/articles/ai-models-raspberry-pi-4-5/)
