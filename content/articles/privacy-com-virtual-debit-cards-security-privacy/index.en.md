@@ -131,11 +131,45 @@ Track 2 removes the name and format code. The same synthetic values become:
 
 **The three service-code digits describe terminal and authorization behavior.** They do not contain the CVV, and changing them on a real card without issuer authorization produces a malformed or misleading payment credential.
 
-| Digit | Example values | What it describes |
+| Digit | Values | What it describes |
 |---|---|---|
-| **First** | `1`, `2`, `5`, `6`, `7`, `9` | Interchange rules and whether chip use is preferred |
-| **Second** | `0`, `2`, `4` | Normal processing or online issuer contact |
-| **Third** | `0` through `7` | PIN, cash, goods-and-services, and other restrictions |
+| **First** | `0`, `1`, `2`, `5`, `6`, `7`, `9` | Interchange rules and chip preference |
+| **Second** | `0`, `1`, `2`, `4` | Authorization path |
+| **Third** | `0` through `7` | PIN, cash, goods-and-services restrictions |
+
+**First digit** covers interchange and chip preference:
+
+| Value | Meaning |
+|---|---|
+| `0` | National use |
+| `1` | International interchange OK |
+| `2` | International interchange, use IC (chip) where feasible |
+| `5` | National interchange only except under bilateral agreement |
+| `6` | National interchange only except under bilateral agreement, use IC where feasible |
+| `7` | No interchange except under bilateral agreement (closed loop) |
+| `9` | Test |
+
+**Second digit** covers authorization handling:
+
+| Value | Meaning |
+|---|---|
+| `0` | Normal authorization |
+| `1` | Normal authorization |
+| `2` | Contact issuer via online means |
+| `4` | Contact issuer via online means except under bilateral agreement |
+
+**Third digit** covers service restrictions:
+
+| Value | Meaning |
+|---|---|
+| `0` | No restrictions, PIN required |
+| `1` | No restrictions |
+| `2` | Goods and services only (no cash) |
+| `3` | ATM only, PIN required |
+| `4` | Cash only |
+| `5` | Goods and services only (no cash), PIN required |
+| `6` | No restrictions, use PIN where feasible |
+| `7` | Goods and services only (no cash), use PIN where feasible |
 
 For example, `201` means international interchange with chip use where feasible, normal authorization processing, and no service restrictions. The decoder exposes each digit separately so you do not have to memorize the table.
 
