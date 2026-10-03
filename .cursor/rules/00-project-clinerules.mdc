@@ -1,0 +1,10 @@
+---
+description: Load the repository's canonical project rules before any Cursor task
+alwaysApply: true
+---
+
+Read `./AGENTS.md` first.
+
+The canonical rules for this repository are in `./.clinerules/`. Read
+`./.clinerules/08-clinerules-maintenance.md` and every rule relevant to the current task before
+planning or editing. Preserve unrelated working-tree changes and validate all edited files.

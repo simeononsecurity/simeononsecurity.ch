@@ -80,6 +80,20 @@ Update rules **during the task**, not after. Before committing work, ask:
 If the answer to any of those is yes, update or create the relevant clinerule
 before the final git commit, and include the `.clinerules/` file in that commit.
 
+## Agent Bootstrap Files
+
+The repository exposes the same rule system through tool-specific entry points so agents find it
+regardless of which tool starts the session:
+
+- `AGENTS.md` is the canonical repository-root bootstrap file.
+- `CLAUDE.md`, `CODEX.md`, and `GEMINI.md` point back to `AGENTS.md`.
+- `.github/copilot-instructions.md` points to `AGENTS.md` and `.clinerules/`.
+- `.cursor/rules/00-project-clinerules.mdc` loads `AGENTS.md` and `.clinerules/` for Cursor.
+
+Keep `./.clinerules/` as the single source of truth. When adding another agent integration, add a
+small bootstrap file that points to `AGENTS.md` and the relevant `.clinerules/` files instead of
+copying the project rules into another directory.
+
 ## Conditional Hugo Builds
 
 Do not run a full Hugo build after every content or documentation change. A full
