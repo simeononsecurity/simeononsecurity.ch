@@ -137,3 +137,16 @@ tooling limitation, not a broken link, and it is the same wall documented in
 Do not add a "link works" claim for a subdomain you could not fetch. State the
 verification method instead.
 
+
+## YouTube Metadata and Supplied Transcripts
+
+When a YouTube watch page fails in a text fetcher, verify its video ID, title, and
+publisher through YouTube's public `oembed` endpoint with the watch URL as the
+`url` parameter and `format=json`. A successful metadata response verifies the
+video identity, not playback or the accuracy of its claims. Omit `uploadDate`
+unless another verified source supplies it.
+
+For articles based on supplied transcripts, replace truncated source URLs with
+verified canonical pages. Attribute memory-fit estimates to their original source
+when exact model-file revisions or runtime settings are unavailable. Keep those
+estimates separate from independently checked benchmark results.

@@ -519,3 +519,30 @@ same organization. Name the surface being evaluated, such as Claude Code CLI or
 GitHub Copilot in VS Code. Separate standalone editors from editor extensions
 inside GUI roundups, and distinguish the interface from the model and execution
 host. Check every comparison table against this scope before publishing.
+
+## Original Articles From Source Material
+
+Treat supplied articles, videos, transcripts, reports, and notes as research inputs.
+Define the reader's question and build an independent outline around the answer.
+Research primary sources, reconcile conflicting evidence, and add useful analysis,
+comparisons, calculations, or practical guidance.
+
+- **Structure:** choose headings and argument order for the reader's needs. Avoid
+  following a source's sequence, opening, examples, and conclusion section by section.
+- **Expression:** explain the subject from verified facts and your own reasoning.
+  Sentence-by-sentence paraphrasing and synonym replacement do not produce an
+  original article. Quote distinctive wording sparingly and attribute it.
+- **Contribution:** add a supported insight, worked example, decision method, or
+  explanation beyond the source material. Label illustrative examples and assumptions.
+  Never invent testing, observations, or evidence to create apparent originality.
+- **Attribution:** cite borrowed findings, measurements, and distinctive ideas near
+  the relevant claim. Preserve credit even when rewriting the explanation. Keep
+  source introductions and commentary brief unless the user requests a review,
+  critique, summary, or other source-focused treatment.
+- **Supporting media:** place requested embeds where they support the subject and
+  include a reference entry. Avoid chapter recaps and narration about the source
+  unless those are part of the requested format.
+
+Before finishing, compare the draft's outline, examples, and phrasing with its main
+sources. Rework close structural or verbal imitation, check attribution, and confirm
+the article answers its reader's question without requiring the original material.
