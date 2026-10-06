@@ -510,3 +510,12 @@ not resolve a contradictory answer elsewhere on the page.
 
 After revision, check the complete module for older contradictory claims and verify
 its linked primary sources. Recheck the answer key against the revised explanation.
+
+## Coding Agent Comparison Scope
+
+Compare CLI products with CLI products and GUI products with GUI products in
+cross-vendor articles. Reserve CLI-versus-GUI comparisons for interfaces from the
+same organization. Name the surface being evaluated, such as Claude Code CLI or
+GitHub Copilot in VS Code. Separate standalone editors from editor extensions
+inside GUI roundups, and distinguish the interface from the model and execution
+host. Check every comparison table against this scope before publishing.
