@@ -76,6 +76,15 @@ canonical URL for the resource before visiting it.
 cIv3Kr0mcp0search_google(query="NIST SP 800-53 Rev 5 official PDF site:nist.gov")
 ```
 
+## Local AI Benchmark Sources
+
+For local inference articles, compare a supplied demonstration with its results
+file and the runtime's current documentation. Label reused-prefix timings as warm
+continuations, not cold prompt processing. Keep tested hardware separate from
+current minimum requirements. Distinguish generated packaging files from verified
+builds, and syntax checks from interactive application tests. Attribute external
+measurements and retain failed attempts in the results summary.
+
 ## Internal Link Accuracy
 
 For links to other pages on this site (relative paths like `/secot-plus/` or
