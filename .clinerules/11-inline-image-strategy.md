@@ -151,16 +151,10 @@ See `.clinerules/10-cover-image-generation.md` for the full stem-matching detail
 ### After generation
 
 Images are saved to the page bundle directory alongside `index.en.md`. Verify them
-visually before committing. The AI occasionally generates off-topic images when the
-surrounding context is ambiguous — regenerate with `--force` and `--slug <slug>` if
-the output does not match the alt text.
-
-```bash
-# Regenerate one article's inline images
-.venv/bin/python tools/generate_cover_images.py \
-  --content-dir articles --slug my-article-slug \
-  --include-inline-images --inline-only --force
-```
+visually before committing. If an image is off-topic or contains unsupported claims,
+replace its exact asset through the controlled regeneration procedure in
+`10-cover-image-generation.md`. The `--force` flag does not overwrite existing images.
+Update the alt text to match the replacement and inspect it again.
 
 ---
 

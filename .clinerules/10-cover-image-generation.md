@@ -164,3 +164,16 @@ keeps prompt costs low while providing enough context for a specific image promp
 For missing inline images, 700 chars of surrounding text (before and after the
 image reference position) are extracted and sent as context. This lets the prompt
 model understand what the image should illustrate.
+
+## Comparison Covers and Regeneration
+
+Inspect comparison covers for invented commands, model versions, benchmark results,
+security promises, and marketing copy. Generated terminal screenshots are illustrations,
+not evidence. Prefer a short title and abstract interface shapes when a cover otherwise
+adds unsupported technical claims.
+
+The `--force` flag only includes missing cover files. It does not overwrite existing
+covers or existing inline images. For a rejected new image, replace only its exact
+asset with the pipeline's `generate_image` and `save_image` helpers and an explicit,
+reviewed prompt. Keep credentials in the existing environment, update the alt text,
+and inspect the replacement before finishing.
