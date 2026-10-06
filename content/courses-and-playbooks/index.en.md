@@ -28,9 +28,12 @@ We offer courses and career playbooks for **CompTIA, EC-Council, and ISC2 certif
 
 ## Skills Courses
 
+**Implementation courses** teach practical workflows rather than certification exam objectives.
+
 - #### [Resume Optimization Course](/resume-optimization-course-start/)
 - #### [Red Team Course](/red-team-course-start/)
 - #### [Personal Security Course](/personal-security-course-start/)
+- #### [AI Collaboration Implementation Course](/ai-collaboration-course-start/)
 
 ---
 

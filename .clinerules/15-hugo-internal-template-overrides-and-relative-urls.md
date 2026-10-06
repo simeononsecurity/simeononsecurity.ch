@@ -349,3 +349,12 @@ points `Organization.founder` at `$baseURL + authors/simeononsecurity/#person`, 
 page has to publish a `Person` with that exact `@id` for the two nodes to resolve to one
 entity.
 
+## HTMLParser Checks Need Empty-Attribute Handling
+
+Python's `HTMLParser` returns `None` for a valueless attribute in minified HTML,
+including an empty `href`. Normalize attribute values before checking anchor
+targets: use `(attrs.get('href') or '').startswith('#')`, not
+`attrs.get('href', '').startswith('#')`. The latter fails when the key exists with
+a `None` value. Rerun the output audit with the corrected parser before treating
+the exception as an article rendering defect.
+

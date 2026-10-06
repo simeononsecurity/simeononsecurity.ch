@@ -1,0 +1,8 @@
+{
+  "source_id": "REQ-17",
+  "revision": 1,
+  "status": "approved",
+  "retention_days": 7,
+  "scope": "synthetic export files",
+  "owner_role": "product-owner"
+}
