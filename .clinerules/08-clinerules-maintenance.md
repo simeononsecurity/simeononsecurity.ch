@@ -124,6 +124,25 @@ or section if a local render is useful. Reserve the full multilingual build for
 site-wide changes or a release check. If a full build is required, run it in the
 background and inspect the generated output, not only the exit status.
 
+## Repository Skills and Routing
+
+Store shared repository skills in `.agents/skills/<name>/SKILL.md`. `AGENTS.md`
+contains the task-to-skill routing table; tool-specific bootstrap files point to
+that table. Agents without native discovery read the selected skill file directly.
+Do not maintain separate copies for each coding tool.
+
+Keep policy, schemas, and exceptions in the numbered clinerules. Skills describe
+the workflow and identify which rules to read. When a rule changes, check its
+dependent skills for stale commands or conflicting instructions. A historical
+tool name is not a required dependency when an available equivalent verifies the
+same evidence. Do not infer authorization to publish, push, or purge caches from
+loading a skill.
+
+Validate each skill's front matter and references. Run new executable helpers on
+valid and failing fixtures and on the selected real files. Skill and documentation
+changes alone do not require a Hugo build. Check every routing link after moving
+or renaming a skill.
+
 ## Commit Convention
 
 When a clinerule is the only change, the commit message should be:

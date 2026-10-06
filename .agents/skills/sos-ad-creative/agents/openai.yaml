@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Sponsored Creative"
+  short_description: "Align ad artwork, partials, and preload variants"
+  default_prompt: "Use $sos-ad-creative for the requested work in this repository."

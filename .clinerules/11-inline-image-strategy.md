@@ -177,6 +177,25 @@ Use this checklist when auditing any article:
 
 ---
 
+## Repeatable Media Audit
+
+Run the read-only checker on explicit page paths before and after media work:
+
+```bash
+.venv/bin/python tools/check_content_media.py --require-cover content/articles/<slug>/index.en.md
+```
+
+Dependencies are declared in `tools/requirements.txt`. The checker parses YAML,
+checks cover and figure alt text, resolves exact local references, and decodes
+raster files with Pillow. Same-stem alternatives are repair suggestions, not a
+passing result. Fenced examples and HTML comments are excluded. Remote images and
+non-raster files are listed for manual verification; they are not fetched.
+
+Use `--generated` only when every selected local raster comes from the current
+2048×1152 WebP generation pipeline. Do not impose that size on source photographs
+or legacy artwork. The checker does not replace visual review, a full Markdown
+parser, external-link verification, or rendered Hugo path checks.
+
 ## Git Workflow
 
 Commit article changes and generated images together. Do not commit a `{{< figure >}}`

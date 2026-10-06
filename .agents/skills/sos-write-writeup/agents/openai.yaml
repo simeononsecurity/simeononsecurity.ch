@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Challenge Writeups"
+  short_description: "Preserve solves in the site writeup format"
+  default_prompt: "Use $sos-write-writeup for the requested work in this repository."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Browser Utilities"
+  short_description: "Implement local tools with reactive validation"
+  default_prompt: "Use $sos-build-browser-tool for the requested work in this repository."
