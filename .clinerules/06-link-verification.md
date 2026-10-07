@@ -166,6 +166,15 @@ For approximate cache reuse, check whether retained states still encode the old
 context. Do not describe matching task scores as proof of exact recomputation or
 complete removal of deleted information.
 
+## Skill and Plugin Comparisons
+
+Verify the canonical skill distribution separately from the product repository.
+Check host-specific support, hook enforcement, runtime dependencies, and licensing
+against current documentation. Distinguish copied skill files, host discovery,
+dependency readiness, and a verified end-to-end task. Do not call a static scan
+fully offline when dependency lookups still contact a service, or call a partial
+scan clean. Keep personal installation paths and configuration out of articles.
+
 ## Documentation Moves and Soft Error Pages
 
 A documentation URL returning text or HTTP success still needs a body check.
