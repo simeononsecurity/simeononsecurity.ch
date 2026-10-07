@@ -165,3 +165,13 @@ separate even when they share the same model and benchmark names.
 For approximate cache reuse, check whether retained states still encode the old
 context. Do not describe matching task scores as proof of exact recomputation or
 complete removal of deleted information.
+
+## Documentation Moves and Soft Error Pages
+
+A documentation URL returning text or HTTP success still needs a body check.
+n8n's former `/advanced-ai/accessing-n8n-mcp-server` path returns a Markdown
+"Page Not Found" response. Find its replacement through the official
+`https://docs.n8n.io/sitemap.md` index, then read the destination. The current
+connection guide lives at `/connect/connect-to-n8n-mcp-server`. Verify tool
+creation, execution, and permission claims against the deployed version rather
+than carrying behavior forward from an older video.
