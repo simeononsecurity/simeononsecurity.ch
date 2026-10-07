@@ -101,3 +101,11 @@ Before finalizing any content, confirm:
 5. No hashtags.
 6. No "not just X, but also Y" constructions.
 7. Every hedged claim either carries a specific source/fact or is deleted.
+
+## Technical Uses of Otherwise Banned Words
+
+Preserve an established technical noun when it is the requested subject or the
+precise name of a component. For example, `agent harness` names the software around
+a model and is appropriate in a comparison of agent harnesses. The promotional
+verb in phrases such as "harness the power" remains banned. Define the technical
+term, use it only where needed, and review other prose against the existing list.
