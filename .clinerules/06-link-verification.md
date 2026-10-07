@@ -150,3 +150,18 @@ For articles based on supplied transcripts, replace truncated source URLs with
 verified canonical pages. Attribute memory-fit estimates to their original source
 when exact model-file revisions or runtime settings are unavailable. Keep those
 estimates separate from independently checked benchmark results.
+
+## Research Metrics and Experimental Variants
+
+For research-based articles, inspect the methods and appendices before converting
+headline gains into recommendations. Record the model, context budget, baseline,
+training status, and serving configuration for each numerical comparison.
+
+Distinguish estimated FLOPs from measured latency, API charges, and task accuracy.
+Label illustrative calculations as calculations. Do not present a cache-invalidation
+cost multiplier as a reliability improvement. Keep separately configured results
+separate even when they share the same model and benchmark names.
+
+For approximate cache reuse, check whether retained states still encode the old
+context. Do not describe matching task scores as proof of exact recomputation or
+complete removal of deleted information.
