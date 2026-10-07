@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer Tools on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Developer Tools on simeononsecurity</title><link>https://simeononsecurity.com/genre/developer-tools/</link></image><link>https://simeononsecurity.com/genre/developer-tools/</link><description>Recent content in Developer Tools on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/genre/developer-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>10 Claude Code Plugins, Skills, and MCP Tools: A Practical Guide</title><link>https://simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Developer Tools"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choose Claude Code extensions for planning, code review, knowledge management, design, and automation. Compare ten tools, dependencies, and practical checks.</description><enclosure url="https://simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp"/></item><item><title>9 AI Agent Skill Projects for Research, Design, and Development</title><link>https://simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Artificial Intelligence"
+, "Developer Tools"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare nine agent skill projects by workflow, host support, dependencies, and cost. Learn how to install, inspect, and test the skills you need.</description><enclosure url="https://simeononsecurity.com/img/cover/agent-skill-workflow-library.webp" length="230146" type="image/webp"/></item><item><title>Claude Code CLI vs Desktop: 2026 Workflow Comparison</title><link>https://simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Claude Code in the terminal and desktop Code workspace, including shared settings, session handoff, scripting, visual review, and permission choices.</description><enclosure url="https://simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp"/></item><item><title>CLI Coding Agents Compared: Claude Code, Codex, Gemini, OpenCode, Copilot, and Aider</title><link>https://simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare six terminal coding agents by workflow, automation, model access, permissions, and review effort. Build a shortlist with a repeatable repository trial.</description><enclosure url="https://simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp" length="39756" type="image/webp"/></item><item><title>Codex CLI vs Desktop: 2026 Workflow Comparison</title><link>https://simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Choose between Codex in the terminal and OpenAI’s desktop coding workspace. Compare scripting, worktrees, visual review, schedules, and execution environments.</description><enclosure url="https://simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp" length="26512" type="image/webp"/></item><item><title>GitHub Copilot CLI vs VS Code: 2026 Workflow Comparison</title><link>https://simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare Copilot’s terminal agent with its VS Code experience, including editor context, visual diffs, agent mode, CLI integration, and account policies.</description><enclosure url="https://simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp" length="25598" type="image/webp"/></item><item><title>GUI Coding Agents Compared: Cursor, Windsurf, Cline, Copilot, and Continue</title><link>https://simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare graphical coding agents, separate full editors from extensions, and examine Roo Code shutdown context, model access, approvals, and review workflows.</description><enclosure url="https://simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp" length="36684" type="image/webp"/></item><item><title>Local AI Coding on a 16GB GPU: Strata, OpenCode, and Qwen3.8</title><link>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Developer Tools"
+, "Self-Hosted AI"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Run a local coding agent with Strata and OpenCode. Examine reported RTX 4060 Ti results, RAM requirements, prompt reuse, reasoning budgets, and the limits of replacing a paid subscription.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Local AI vs ChatGPT: How Close Are We Really?</title><link>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "Artificial Intelligence"
+, "AI Hardware"
+, "Developer Tools"</category><guid>https://simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare local AI with ChatGPT and Claude through benchmark scores, memory estimates, serving speed, and agent verification. Includes RTX 5090, DGX Spark, and Mac Studio scenarios.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>OpenCode CLI vs Desktop: 2026 Workflow Comparison</title><link>https://simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Software Development"</category><guid>https://simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare OpenCode’s terminal and desktop clients through their server architecture, provider configuration, scripting, session state, and troubleshooting.</description><enclosure url="https://simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp" length="34248" type="image/webp"/></item><item><title>OpenCode vs Claude Code: 2026 Coding Agent Comparison</title><link>https://simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Developer Tools"
+, "Artificial Intelligence"
+, "Open Source"</category><guid>https://simeononsecurity.com/articles/opencode-vs-claude-code/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Compare OpenCode and Claude Code across model choice, local inference, pricing, permissions, project instructions, and daily coding workflows.</description><enclosure url="https://simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp"/></item><item><title>Which Local AI Model Should You Run? A GPU Context and Coding Guide for October 2026</title><link>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical October 2026 guide to choosing local AI models for coding agents. Compare GPU memory, KV-cache growth, context size, quantization quality, prompt processing, reasoning settings, and cloud rental costs.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Claude Cowork and Claude Code With Local Models: 2026 Setup Guide</title><link>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Coding Tools"
+, "Self-Hosted AI"
+, "Developer Tools"
+, "Privacy"
+, "Open Source Models"
+, "Automation"
+, "AI Hardware"</category><guid>https://simeononsecurity.com/articles/claude-cowork-claude-code-local-models-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only.</description><enclosure url="https://simeononsecurity.com/img/cover/claude-cowork-setup-guide-local-models-2026.webp" length="238658" type="image/webp"/></item><item><title>ATS Resume Improver: Free AI-Powered Resume Optimizer</title><link>https://simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Career Tools"
+, "Open Source Projects"
+, "Artificial Intelligence"
+, "Privacy Technology"
+, "Developer Tools"
+, "Job Hunting"
+, "Productivity"</category><guid>https://simeononsecurity.com/articles/ats-resume-improver-ai-powered-resume-optimizer/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ATS Resume Improver is a free, open-source, client-side resume optimizer supporting OpenAI, Anthropic Claude, and local Ollama models. Parse, score, keyword-match, optimize, and export your resume — all without your data leaving the browser.</description><enclosure url="https://simeononsecurity.com/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp" length="158574" type="image/webp"/></item><item><title>Visual Studio Code vs Visual Studio</title><link>https://simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Development Tools"
+, "IDE"
+, "Software Development"
+, "Programming"
+, "Code Editors"
+, "Visual Studio"
+, "VS Code"
+, "Microsoft Development"
+, "Developer Tools"
+, "Software Engineering"</category><guid>https://simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Comprehensive 2026 comparison of Visual Studio Code and Visual Studio Community/Professional/Enterprise including features, performance, pricing, and use cases to help developers choose the right IDE.</description><enclosure url="https://simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item><item><title>Boost PowerShell Performance: use Ngen for Effortless Speed</title><link>https://simeononsecurity.com/guides/boost-powershell-performance-with-ngen/</link><pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technology"
+, "Software Optimization"
+, "PowerShell Tips"
+, "Performance Improvement"
+, "Scripting"
+, "Native Image Generation"
+, "Command Line"
+, "IT Efficiency"
+, "Developer Tools"
+, "Coding Techniques"</category><guid>https://simeononsecurity.com/guides/boost-powershell-performance-with-ngen/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Learn how to supercharge PowerShell startup and execution with Ngen, enhancing performance effortlessly.</description><enclosure url="https://simeononsecurity.com/img/cover/boost-powershell-performance-with-ngen.webp" length="229452" type="image/webp"/></item></channel></rss>

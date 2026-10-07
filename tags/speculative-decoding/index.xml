@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Speculative Decoding on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>Speculative Decoding on simeononsecurity</title><link>https://simeononsecurity.com/tags/speculative-decoding/</link></image><link>https://simeononsecurity.com/tags/speculative-decoding/</link><description>Recent content in Speculative Decoding on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/speculative-decoding/index.xml" rel="self" type="application/rss+xml"/><item><title>Which Local AI Model Should You Run? A GPU Context and Coding Guide for October 2026</title><link>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "Self-Hosted AI"
+, "GPU Benchmarking"
+, "Developer Tools"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical October 2026 guide to choosing local AI models for coding agents. Compare GPU memory, KV-cache growth, context size, quantization quality, prompt processing, reasoning settings, and cloud rental costs.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>

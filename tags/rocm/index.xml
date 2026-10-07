@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ROCm on simeononsecurity</title><image><url>https://simeononsecurity.com/img/banner.webp</url><title>ROCm on simeononsecurity</title><link>https://simeononsecurity.com/tags/rocm/</link></image><link>https://simeononsecurity.com/tags/rocm/</link><description>Recent content in ROCm on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>en</language><lastBuildDate>Sat, 03 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://simeononsecurity.com/tags/rocm/index.xml" rel="self" type="application/rss+xml"/><item><title>32GB VRAM for Qwen 27B: The Local AI Hardware Guide for October 2026</title><link>https://simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><category>
+"Local AI"
+, "AI Hardware"
+, "GPU Benchmarking"
+, "Self-Hosted AI"
+, "Computer Hardware"
+, "AI Economics"</category><guid>https://simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical October 2026 guide to running a Qwen 27B model with 32GB of usable accelerator memory. Compare single GPUs, two-card builds, unified memory, used data-center cards, rented compute, software support, and full-context limits.</description><enclosure url="https://simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item></channel></rss>
