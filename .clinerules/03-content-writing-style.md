@@ -546,3 +546,13 @@ comparisons, calculations, or practical guidance.
 Before finishing, compare the draft's outline, examples, and phrasing with its main
 sources. Rework close structural or verbal imitation, check attribution, and confirm
 the article answers its reader's question without requiring the original material.
+
+
+## Supplied Videos as Topic Context
+
+When the user supplies a video or transcript as context for a topic, write a
+standalone article organized around the reader's decisions and tasks. Do not
+frame the introduction or sections as a video recap, reaction, or fact-check.
+Use verified primary sources for technical claims. Omit source-video sections
+and embeds unless requested. Keep necessary source attribution brief and local
+to the supported claim. Review the full article for leftover transcript framing.

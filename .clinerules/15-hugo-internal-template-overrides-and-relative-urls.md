@@ -358,3 +358,11 @@ targets: use `(attrs.get('href') or '').startswith('#')`, not
 a `None` value. Rerun the output audit with the corrected parser before treating
 the exception as an article rendering defect.
 
+
+## Targeted Content Builds Need Real Bundle Copies
+
+For an isolated article render, copy the page bundle into the temporary content
+directory. A directory symlink to the original bundle was skipped by Hugo
+0.163.3, producing a successful build without the article. Verify the expected
+article HTML exists before checking embeds, metadata, or images. Refresh the
+bundle copy after media generation or source edits.

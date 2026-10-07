@@ -184,3 +184,15 @@ n8n's former `/advanced-ai/accessing-n8n-mcp-server` path returns a Markdown
 connection guide lives at `/connect/connect-to-n8n-mcp-server`. Verify tool
 creation, execution, and permission claims against the deployed version rather
 than carrying behavior forward from an older video.
+
+## Local Inference Cost and Capacity Arithmetic
+
+For a buy-versus-host comparison, compute local variable cost before dividing by
+savings. If hosted cost is less than or equal to local variable cost, the stated
+scenario has no positive break-even point. Separate GPU-only power from measured
+system power, and generation hours from hours with an assistant open.
+
+For memory estimates, distinguish decimal GB from binary GiB. Include cache
+quantization metadata, recurrent state, and runtime buffers. Label a chosen
+memory reserve as an assumption unless the exact runtime version documents the
+default. Recalculate supplied estimates before presenting them as capacity limits.
