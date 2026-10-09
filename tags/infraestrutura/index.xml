@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infraestrutura on simeononsecurity</title><image><url>https://pt.simeononsecurity.com/img/banner.webp</url><title>Infraestrutura on simeononsecurity</title><link>https://pt.simeononsecurity.com/tags/infraestrutura/</link></image><link>https://pt.simeononsecurity.com/tags/infraestrutura/</link><description>Recent content in Infraestrutura on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pt</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pt.simeononsecurity.com/tags/infraestrutura/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell DSC: Um Guia Inicial</title><link>https://pt.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</link><pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate><category>
+"PowerShell"
+, "DSC"
+, "Gerenciamento de Configuração"
+, "Automação"
+, "Windows"
+, "Administração de Sistemas"
+, "Melhores Práticas"
+, "Conformidade"
+, "Segurança"
+, "Infraestrutura"
+, "DevOps"
+, "Configuração de Servidor"
+, "Testes"
+, "Git"
+, "Controle de Versão"
+, "Regulamentações Governamentais"
+, "NIST"
+, "CIS"
+, "Deriva de Configuração"
+, "Recursos Personalizados"</category><guid>https://pt.simeononsecurity.com/articles/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Explore o poder do PowerShell Desired State Configuration (DSC) para automatizar e gerenciar configurações de sistema para um ambiente seguro e em conformidade.</description><enclosure url="https://pt.simeononsecurity.com/img/cover/a-guide-to-using-powershell-desired-state-configuration-dsc-for-configuration-management.webp" length="141768" type="image/webp"/></item></channel></rss>
