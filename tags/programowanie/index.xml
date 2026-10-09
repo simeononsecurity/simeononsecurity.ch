@@ -1,0 +1,363 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Programowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/programowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/programowanie/</link>
+
+    <description>Recent content in Programowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/programowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox Academy kontra TryHackMe</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</link>
+        
+        <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "cyberbezpieczeństwo"
+            
+              , "HackTheBox Academy"
+            
+              , "TryHackMe"
+            
+              , "nauka"
+            
+              , "początkujący"
+            
+              , "interaktywne laboratoria"
+            
+              , "wyzwania"
+            
+              , "ćwiczenia"
+            
+              , "wskazówki"
+            
+              , "wsparcie"
+            
+              , "scenariusze z życia"
+            
+              , "umiejętności"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "bezpieczeństwo aplikacji webowych"
+            
+              , "kryptografia"
+            
+              , "programowanie"
+            
+              , "społeczność"
+            
+              , "nauka online"
+            
+              , "ustrukturyzowana nauka"
+            
+              , "hackthebox kontra tryhackme"
+            
+              , "tryhackme kontra hackthebox"
+            
+              , "platformy do testów penetracyjnych"
+            
+              , "nauka cyberbezpieczeństwa"
+            
+              , "młodszy tester penetracyjny"
+            
+              , "wyzwania na maszynach wirtualnych"
+            
+              , "umiejętności bezpieczeństwa sieci"
+            
+              , "bezpieczeństwo aplikacji webowych"
+            
+              , "nauka kryptografii"
+            
+              , "programowanie dla cyberbezpieczeństwa"
+            
+              , "platformy do nauki online"
+            
+              , "ustrukturyzowane doświadczenie edukacyjne"
+            
+              , "kreatywne myślenie w cyberbezpieczeństwie"
+            
+              , "początkujący w cyberbezpieczeństwie"
+            
+              , "wsparcie społeczności"
+            
+              , "scenariusze cyberbezpieczeństwa z życia"
+            
+              , "rozwój umiejętności cyberbezpieczeństwa"
+            
+              , "społeczność hackthebox"
+            
+              , "społeczność tryhackme"
+            
+              , "wyzwania z cyberbezpieczeństwa"
+            
+              , "nauka cyberbezpieczeństwa"
+            
+              , "umiejętności testów penetracyjnych"
+            
+              , "szkolenie z cyberbezpieczeństwa"
+            
+              , "praktyczna nauka cyberbezpieczeństwa"
+            
+              , "prowadzone nauczanie cyberbezpieczeństwa"
+            
+              , "wyzwania hackthebox"
+            
+              , "wyzwania tryhackme"
+            
+              , "stosowanie umiejętności cyberbezpieczeństwa"
+            
+              , "edukacja w zakresie cyberbezpieczeństwa"
+            
+              , "platformy cyberbezpieczeństwa online"
+            
+              , "subskrypcja hackthebox"
+            
+              , "subskrypcja tryhackme"
+            
+              , "wsparcie hackthebox"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/hackthebox-academy-vs-tryhackme-what-is-best/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie HackTheBox Academy i TryHackMe na rok 2026, obejmujące ceny, funkcje, ścieżki nauki oraz wskaźniki wydajności, które pomogą początkującym wybrać najlepszą platformę do nauki umiejętności z zakresu cyberbezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_animated_image_featuring_two_characters.webp" length="141542" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows Optimize-Harden-Debloat GUI - instalacja z przewodnikiem</title>
+        
+          <link>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</link>
+        
+        <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Optymalizacja systemu Windows"
+            
+              , "Debiut systemu Windows 10"
+            
+              , "Usprawnienia systemu Windows 10"
+            
+              , "GUI"
+            
+              , "Ostrołęka"
+            
+              , "Powershell"
+            
+              , "Automatyka"
+            
+              , "Stabilność systemu"
+            
+              , "Administracja systemu"
+            
+              , "Aktualizacje systemu Windows"
+            
+              , "Skrypt"
+            
+              , "Programowanie"
+            
+              , "Debloating"
+            
+              , "Dostosowanie systemu Windows 10"
+            
+              , "Wydajność systemu"
+            
+              , "Prywatność w Windows 10"
+            
+              , "Bezpieczeństwo"
+            
+              , "Konfiguracja Windows 10"
+            
+              , "Konserwacja systemu Windows 10"
+            
+              , "Zarządzanie Windows 10"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/github/windows-optimize-harden-debloat-gui/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Zwiększ swoje doświadczenie z systemem Windows 10 z łatwością za pomocą automatycznego skryptu Windows-Optimize-Harden-Debloat GUI, który oferuje instalację z przewodnikiem, aby zminimalizować konfigurację systemu Windows 10.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>HackTheBox - Invite Challenge (Windows/Linux)</title>
+        
+          <link>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</link>
+        
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0700</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "HackTheBox"
+            
+              , "Zaproś do wyzwania"
+            
+              , "Testy penetracyjne"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Windows"
+            
+              , "Linux"
+            
+              , "Platforma internetowa"
+            
+              , "HTTP POST"
+            
+              , "Kod zaproszenia"
+            
+              , "Kodowanie Base64"
+            
+              , "Powershell"
+            
+              , "Linux Bash"
+            
+              , "Dekodowanie Base64"
+            
+              , "Generowanie kodu zaproszenia"
+            
+              , "Programowanie"
+            
+              , "Tworzenie stron internetowych"
+            
+              , "Technologia"
+            
+              , "Bezpieczeństwo IT"
+            
+              , "Szkolenie IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/writeups/hackthebox-invite-challenge/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak wygenerować kod zaproszenia i dołączyć do platformy online HackTheBox, aby przetestować i rozwinąć swoje umiejętności w zakresie testów penetracyjnych i cyberbezpieczeństwa w systemach Windows i Linux.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_computer_screen_showing_the_HackTheBox_website.webp" length="76322" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

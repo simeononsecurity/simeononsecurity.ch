@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Fabric on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Security Fabric on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/security-fabric/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/security-fabric/</link>
+
+    <description>Recent content in Security Fabric on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/security-fabric/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Fortinet kontra Cisco: Kompleksowe porównanie zabezpieczeń sieciowych...</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zabezpieczenia sieciowe"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Sieci korporacyjne"
+            
+              , "Porównanie zapór sieciowych"
+            
+              , "Infrastruktura IT"
+            
+              , "Sprzęt sieciowy"
+            
+              , "Rozwiązania zabezpieczeń"
+            
+              , "Zarządzanie siecią"
+            
+              , "Porównanie technologii"
+            
+              , "Podejmowanie decyzji IT"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie rozwiązań zabezpieczeń sieciowych Fortinet i Cisco, w tym zapór sieciowych, przełączników, SD-WAN, cen, testów wydajności oraz rekomendacji wdrożeniowych na 2026 rok.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

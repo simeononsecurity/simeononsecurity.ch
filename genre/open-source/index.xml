@@ -1,0 +1,387 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Open Source on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/open-source/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/open-source/</link>
+
+    <description>Recent content in Open Source on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf kontra Firefox</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Prywatność"
+            
+              , "Przeglądarki internetowe"
+            
+              , "Bezpieczeństwo online"
+            
+              , "Open Source"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Oprogramowanie"
+            
+              , "Porównanie"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Prywatność w internecie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj funkcje LibreWolf i Firefox, dwóch przeglądarek skoncentrowanych na prywatności, aby dokonać świadomego wyboru dla zwiększonego bezpieczeństwa i prywatności online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Top 5 technik zabezpieczania i utwardzania systemu Linux</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Cyberbezpieczeństwo"
+            
+              , "Linux"
+            
+              , "Bezpieczeństwo systemu"
+            
+              , "Open-source"
+            
+              , "Utwardzanie"
+            
+              , "IT"
+            
+              , "Ochrona danych"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Informatyka"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj 5 najlepszych technik zabezpieczania Linuxa, które wzmocnią Twój system przed zagrożeniami. Popraw integralność systemu i chroń wrażliwe dane dzięki profesjonalnym metodom utwardzania.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Najlepsze Przeglądarki Prywatności 2026: LibreWolf vs Brave vs Tor</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link>
+        
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przeglądarki"
+            
+              , "Prywatność"
+            
+              , "Bezpieczeństwo"
+            
+              , "Internet"
+            
+              , "Technologia"
+            
+              , "Prywatność Cyfrowa"
+            
+              , "Bezpieczeństwo Online"
+            
+              , "Open Source"
+            
+              , "Anonimowość"
+            
+              , "Przeglądanie Sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompleksowe porównanie najlepszych przeglądarek skoncentrowanych na prywatności w 2026 roku: LibreWolf, Brave, Firefox, Tor i inne. Szczegółowe testy prywatności, benchmarki wydajności oraz analiza bezpieczeństwa chroniąca Twoje dane online.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Automatyzacja Ansible: Od zwykłego Ansible do Ansible Tower i Semaphore</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link>
+        
+        <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Automatyzacja"
+            
+              , "Zarządzanie infrastrukturą"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "DevOps"
+            
+              , "Operacje IT"
+            
+              , "Open Source"
+            
+              , "Zarządzanie przepływem pracy"
+            
+              , "Skalowalność"
+            
+              , "Współpraca"
+            
+              , "Narzędzia Ansible"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc automatyzacji Ansible dzięki porównaniu zwykłego Ansible, Ansible Tower i Ansible Semaphore i wybierz odpowiednie narzędzie do wydajnego zarządzania infrastrukturą.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp" length="98438" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Zwiększ produktywność z Homebox: Otwarte oprogramowanie do zarządzania zapasami i zasobami</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link>
+        
+        <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Zarządzanie zapasami"
+            
+              , "Zarządzanie aktywami"
+            
+              , "Open Source"
+            
+              , "Wydajność"
+            
+              , "Mała firma"
+            
+              , "Zarządzanie domem"
+            
+              , "Self-hosted"
+            
+              , "Oprogramowanie"
+            
+              , "Organizacja"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Homebox, oprogramowania open-source do wydajnego zarządzania zapasami i zasobami, zwiększającego produktywność domu lub małej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
