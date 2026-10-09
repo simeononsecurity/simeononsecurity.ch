@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gestione Della Rete on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Gestione Della Rete on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/gestione-della-rete/</link></image><link>https://it.simeononsecurity.com/genre/gestione-della-rete/</link><description>Recent content in Gestione Della Rete on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/gestione-della-rete/index.xml" rel="self" type="application/rss+xml"/><item><title>pfSense vs Firewalla vs OPNsense</title><link>https://it.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Sicurezza di Rete"
+, "Confronto Firewall"
+, "Soluzioni di Cybersecurity"
+, "Gestione della Rete"
+, "Rete Domestica"
+, "Sicurezza Aziendale"
+, "Caratteristiche del Firewall"
+, "Software di Sicurezza"
+, "Soluzioni VPN"
+, "Sicurezza dei Dispositivi IoT"</category><guid>https://it.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto completo 2026 delle soluzioni firewall pfSense, Firewalla e OPNsense per la sicurezza delle reti domestiche e aziendali. Trova l'opzione migliore per le tue esigenze.</description><enclosure url="https://it.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>Corso Network Plus: Padroneggiare gli Strumenti Software di Rete...</title><link>https://it.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate><category>
+"Reti"
+, "Strumenti di Rete"
+, "Utility da Riga di Comando"
+, "Risoluzione dei Problemi di Rete"
+, "Certificazione CompTIA Network+"
+, "Gestione della Rete"
+, "Configurazione della Rete"
+, "Analisi WiFi"
+, "Cattura Pacchetti"
+, "Test della Banda"</category><guid>https://it.simeononsecurity.com/network-plus/network-plus-course-network-software-tools-commands/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplora gli strumenti software essenziali per la rete e le utility da riga di comando, impara il loro utilizzo e risolvi i problemi come un professionista con questo corso completo per la Certificazione Network+.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp" length="147920" type="image/webp"/></item><item><title>Corso Network Plus: Protocolli di Routing, Concetti e Ottimizzazione</title><link>https://it.simeononsecurity.com/network-plus/routing-technologies-concepts/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Collegamento in rete"
+, "Instradamento"
+, "Protocolli di rete"
+, "Gestione della rete"
+, "Instradamento dinamico"
+, "Instradamento statico"
+, "Gestione della larghezza di banda"
+, "Qualità del servizio"
+, "Dispositivi di rete"</category><guid>https://it.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplorate il mondo delle tecnologie e dei concetti di routing, dai protocolli di routing dinamico come RIP, OSPF, EIGRP e BGP ai protocolli di routing a stato di collegamento, a vettore di distanza e ibridi, nonché la configurazione del routing statico e delle rotte predefinite.</description><enclosure url="https://it.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.webp" length="62296" type="image/webp"/></item><item><title>Corso Network Plus: Capire il modello OSI, le topologie e i tipi di rete</title><link>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Collegamento in rete"
+, "Infrastruttura IT"
+, "Architettura di rete"
+, "Informatica"
+, "Comunicazione dati"
+, "Tecnologia dell'informazione"
+, "Sicurezza di rete"
+, "Gestione della rete"
+, "Internet"</category><guid>https://it.simeononsecurity.com/network-plus/networking-fundamentals-osi-model-topologies-network-types/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplorare l'importanza dei fondamenti di rete, tra cui il modello OSI, le topologie di rete e i vari tipi di rete, per costruire infrastrutture efficienti e affidabili.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp" length="91778" type="image/webp"/></item><item><title>Padroneggiare i GPO: Una Guida Completa per una Gestione Efficace...</title><link>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link><pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate><category>
+"Gestione della Rete"
+, "Group Policy Objects"
+, "GPO"
+, "Amministrazione Windows"
+, "Infrastruttura IT"
+, "Sicurezza di Rete"
+, "Active Directory"
+, "Gestione della Configurazione"
+, "Gestione delle Group Policy"
+, "Ottimizzazione della Rete"</category><guid>https://it.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri il potere dei Group Policy Objects (GPO) e impara a gestire e ottimizzare efficacemente le impostazioni e le politiche della tua rete per una maggiore sicurezza e operazioni semplificate.</description><enclosure url="https://it.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp"/></item></channel></rss>
