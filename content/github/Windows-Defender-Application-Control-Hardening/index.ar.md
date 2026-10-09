@@ -1,11 +1,99 @@
 ---
-title: 'Complete Guide to Harden Windows with Windows Defender Application Control (WDAC)'
+title: "الدليل الكامل لتقوية ويندوز باستخدام Windows Defender..."
 date: 2020-12-16
 toc: true
 draft: false
-description: "Learn how to use Windows Defender Application Control (WDAC) to harden your Windows operating system with scripts and tools."
-tags: ["Windows Defender Application Control (WDAC) Hardening", "PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Exploit Protection (WDEP)", "Windows Defender Attack Surface Reduction (ASR)", "Windows Server 2016/2019", "Windows Server Core", "Microsoft WDAC-Toolkit", "Refresh CI Policy", "Microsoft Recommended block rules", "Microsoft Recommended driver block rules", "XML policies", "BIN policies", "Group Policy", "Microsoft Intune"]
+description: تعلم كيفية استخدام Windows Defender Application Control WDAC لتقوية نظام تشغيل ويندوز الخاص بك باستخدام السكربتات والأدوات.
+tags:
+- تقوية Windows Defender Application Control WDAC
+- PowerShell
+- سكريبت PowerShell
+- الأتمتة
+- الامتثال
+- فريق الدفاع الأزرق
+- سكريبت Windows Defender STIG
+- تقوية Windows Defender
+- Windows Defender STIG
+- Defender STIG
+- حماية استغلال Windows Defender WDEP
+- تقليل سطح الهجوم Windows Defender ASR
+- Windows Server 2016 2019
+- Windows Server Core
+- مجموعة أدوات Microsoft WDAC
+- تحديث سياسة CI
+- قواعد الحظر الموصى بها من Microsoft
+- قواعد حظر برامج التشغيل الموصى بها من Microsoft
+- سياسات XML
+- سياسات BIN
+- سياسة المجموعة
+- Microsoft Intune
+cover: /img/cover/Windows-Defender-Application-Control-Hardening.webp
+coverAlt: رسم توضيحي لغرفة خوادم مستقبلية مع شاشات متوهجة تعرض هياكل ملفات XML و BIN المتعلقة بـ Windows Defender Application Control. الخلفية الداكنة تعزز الألوان الزاهية.
+coverCaption: ''
+lastmod: 2026-10-08
 ---
+
+**تقوية ويندوز باستخدام Windows Defender Application Control WDAC**
+
+## ملاحظات:
+- يدعم Windows Server 2016/2019 أو أي إصدار قبل 1903 سياسة تراثية واحدة فقط في كل مرة.
+- إصدار Windows Server Core يدعم [WDAC](https://simeononsecurity.com/til/2022-05-18/) لكن بعض المكونات التي تعتمد على AppLocker لن تعمل
+- يرجى قراءة [القراءة الموصى بها](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) قبل التنفيذ أو حتى الاختبار.
+
+## قائمة السكربتات والأدوات التي يستخدمها هذا التجميع:
+
+- [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
+- [Microsoft - تحديث سياسة CI](https://www.microsoft.com/en-us/download/details.aspx?id=102925)
+
+## تم النظر في تكوينات إضافية من:
+
+- [Microsoft - قواعد الحظر الموصى بها](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
+- [Microsoft - قواعد حظر برامج التشغيل الموصى بها](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
+- [Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+
+## شرح:
+
+### XML مقابل BIN:
+
+- ببساطة، السياسات **"XML"** مخصصة للتطبيق محليًا على الجهاز وملفات **"BIN"** مخصصة لفرضها عبر [سياسة المجموعة](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) أو [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune). بينما يمكنك استخدام سياسات XML أو BIN أو CIP في نشر محلي، من الأفضل عمومًا الالتزام بـ XML حيثما أمكن وخاصة أثناء التدقيق أو استكشاف الأخطاء وإصلاحها.
+
+### وصف السياسات:
+
+- **السياسات الافتراضية:**
+  - تستخدم سياسات "الافتراضية" فقط الميزات الافتراضية المتاحة في WDAC-Toolkit.
+- **السياسات الموصى بها:**
+  - تستخدم سياسات "الموصى بها" الميزات الافتراضية بالإضافة إلى قواعد [الحظر](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) وقواعد حظر برامج التشغيل [الموصى بها](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules) من Microsoft.
+- **سياسات التدقيق:**
+  - تسجل سياسات "التدقيق" فقط الاستثناءات من القواعد. هذا للاختبار في بيئتك، بحيث يمكنك تعديل السياسات بحرية لتناسب احتياجات بيئتك.
+- **السياسات المفروضة:**
+  - لا تسمح سياسات "المفروضة" بأي استثناءات للقواعد، سيتم حظر التطبيقات وبرامج التشغيل وملفات dll، إلخ إذا لم تمتثل.
+
+### السياسات المتاحة:
+
+- **XML:**
+  - **تدقيق فقط:**
+    - `WDAC_V1_Default_Audit_{version}.xml`
+    - `WDAC_V1_Recommended_Audit_{version}.xml`
+  - **مفروضة:**
+    - `WDAC_V1_Default_Enforced_{version}.xml`
+    - `WDAC_V1_Recommended_Enforced_{version}.xml`
+- **BIN:**
+  - **تدقيق فقط:**
+    - `WDAC_V1_Default_Audit_{version}.bin`
+    - `WDAC_V1_Recommended_Audit_{version}.bin`
+  - **مفروضة:**
+    - `WDAC_V1_Default_Enforced_{version}.bin`
+    - `WDAC_V1_Recommended_Enforced_{version}.bin`
+- **CIP:**
+  - **تدقيق فقط:**
+    - `WDAC_V1_Default_Audit\{uid}.cip`
+    - `WDAC_V1_Recommended_Audit\{uid}.cip`
+  - **مفروضة:**
+    - `WDAC_V1_Default_Enforced\{uid}.cip`
+    - `WDAC_V1_Recommended_Enforced\{uid}.cip`
+
+قم بتحديث السطر التالي في السكربت لاستخدام السياسة التي ترغب بها محليًا:
+
 ```powershell
 $PolicyPath = "C:\temp\Windows Defender\CIP\WDAC_V1_Recommended_Enforced\*.cip"
 #https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script
@@ -17,10 +105,35 @@ ForEach ($Policy in (Get-ChildItem -Recurse $PolicyPath).Fullname) {
   & $RefreshPolicyTool
 }
 ```
+
+بدلاً من ذلك، يمكنك استخدام [سياسة المجموعة](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) أو [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) لفرض سياسات WDAC.
+
+## التدقيق:
+
+يمكنك عرض سجلات أحداث WDAC في عارض الأحداث تحت:
+
+`Applications and Services Logs\Microsoft\Windows\CodeIntegrity\Operational`
+
+## القراءة الموصى بها:
+
+- [Argonsys - نشر سياسة التحكم في تطبيقات Windows 10](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/)
+- [Microsoft - تدقيق سياسات Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
+- [Microsoft - إنشاء سياسة WDAC لأجهزة العمل الثابتة باستخدام جهاز مرجعي](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy)
+- [Microsoft - نشر سياسات Windows Defender Application Control باستخدام سياسة المجموعة](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
+- [Microsoft - نشر سياسات Windows Defender Application Control باستخدام Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
+- [Microsoft - نشر سياسات WDAC باستخدام سكربت](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script)
+- [Microsoft - فرض سياسات Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
+- [Microsoft - إرشادات إنشاء سياسات رفض WDAC](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy)
+- [Microsoft - استخدام سياسات متعددة لـ Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies)
+
+## كيفية تشغيل السكربت:
+
+### التثبيت اليدوي:
+
+إذا تم التنزيل يدويًا، يجب تشغيل السكربت من PowerShell بصلاحيات المسؤول في الدليل الذي يحتوي على جميع الملفات من [مستودع GitHub](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip)
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Get-ChildItem -Recurse *.ps1 | Unblock-File
 .\sos-wdachardening.ps1
 ```
-
- تصلب النوافذ مع التحكم في تطبيق Windows Defender (WDAC)  ## ملحوظات: - يدعم Windows Server 2016/2019 أو أي شيء قبل الإصدار 1903 سياسة قديمة فقط في كل مرة. - يدعم إصدار Windows Server Core WDAC ولكن بعض تعتمد على AppLocker لن تعمل - يرجى قراءة [خشبة القراءة] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) قبل التنفيذ أو حتى الاختبار.  ## النصوص والأدوات التي تستخدمها هذه المجموعة:  - [MicrosoftDocs - WDAC-Toolkit] (https://github.com/MicrosoftDocs/WDAC-Toolkit) - [Microsoft - Refresh CI Policy] (https://www.microsoft.com/en-us/download/details.aspx؟id=102925)  ## تم اعتبار التكوينات الإضافية من:  - [Microsoft - قواعد الحظر بها] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) - [Microsoft - قواعد حظر برنامج التشغيل الخاص بها] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block - قواعد) - [Microsoft - التحكم في تطبيق Windows Defender] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design - مرشد)  ## توضيح:  ### XML مقابل BIN:  - ببساطة ، سياسات ** "XML" ** تنطبق على جهاز محليًا وملفات ** "BIN" ** لفرضها باستخدام نهج المجموعة] (https://docs.microsoft.com / en-us / windows / security / التهديدات -protection / windows-defender-application-control / publish-windows-defender-application-control-policies-using-group-policy) أو [Microsoft Intune] (https: // docs .microsoft.com / en-us / windows / security / التهديدات- Protection / windows-defender-application-control / publish-windows-defender-application-control-policies-using-intune). سياسات استخدام سياسات XML أو BIN أو CIP في النشر المحلي ،  ### أوصاف السياسة:  - ** التفاعل: **   - مَظهر الصورة. - ** براقها: **   تستخدم -recommended-block-rules) و [driver block] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver- كتلة القواعد) القواعد. - ** سياسات التدقيق: **   - سياسات "التدقيق" ، ما عليك سوى تسجيل الاستثناءات من القواعد. هذا النوع من التجارة يجعلهم مناسبين. - ** التنفيذ: **   - لن تنص على تعديلها.  ### الفرص المتاحة:  - ** XML: **   - ** التدقيق فقط: **     - `WDAC_V1_Default_Audit_ {version} .xml`     - `WDAC_V1_Recommended_Audit_ {version} .xml`   - ** فرض: **     - `WDAC_V1_Default_Enforced_ {version} .xml`     - `WDAC_V1_Recommended_Enforced_ {version} .xml` - ** سلة مهملات: **   - ** التدقيق فقط: **     - `WDAC_V1_Default_Audit_ {version} .bin`     - `WDAC_V1_Recommended_Audit_ {version} .bin`   - ** فرض: **     - `WDAC_V1_Default_Enforced_ {version} .bin`     - `WDAC_V1_Recommended_Enforced_ {version} .bin` - ** CIP: **   - ** التدقيق فقط: **     - `WDAC_V1_Default_Audit \ {uid} .cip`     - `WDAC_V1_Recommended_Audit \ {uid} .cip`   - ** فرض: **     - `WDAC_V1_Default_Enforced \ {uid} .cip`     - `WDAC_V1_Recommended_Enforced \ {uid} .cip`  قم بتحديث السطر التالي في البرنامج الذي تريده محليًا:   أو استخدام [نهج المجموعة] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control - سياسات- استخدام -group-policy) أو [Microsoft Intune] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender - سياسات التحكم في التطبيق يستخدم intune) لفرض سياسات WDAC.  ## التدقيق:  يمكنك عرض أحداث أحداث WDAC في عارض الأحداث ضمن:  التطبيقات والجهاز \ Microsoft \ Windows \ CodeIntegrity \ Operational "  ## اقتراحات للقراءة:  - [Argonsys - نشر سياسة التحكم في تطبيق Windows 10] (https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/) - [Microsoft - تدقيق سياسات التحكم في تطبيق Windows Defender] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application - سياسات الرقابة) - [Microsoft - إنشاء سياسة WDAC للأجهزة ذات حمل العمل باستخدام كمبيوتر مرجعي] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create سياسة التقصيرئي ) - [Microsoft - نشر سياسات التحكم في تطبيق Windows Defender باستخدام نهج المجموعة] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows- defender-application-control-policies-using-group-policy) - [Microsoft - نشر سياسات التحكم في تطبيق Windows Defender باستخدام Microsoft Intune] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows- defender-application-control-policies-using-intune) - [Microsoft - نشر سياسات WDAC التي تظهر البرنامج] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies- مع -النصي) - [Microsoft - فرض سياسات التحكم في تطبيق Windows Defencer] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application - سياسات الرقابة) - [Microsoft - أرشفة إنشاء سياسات رفض WDAC] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy) - [Microsoft - استخدام سياسات التحكم في تطبيق Windows Defender المتعددة] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows- مدافع-التطبيق-التحكم-الظهيرة)  ## كيفية تشغيل البرنامج:  ### التثبيت اليدوي:  الدليل الذي تم تطويره من [GitHub Repository] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main. 

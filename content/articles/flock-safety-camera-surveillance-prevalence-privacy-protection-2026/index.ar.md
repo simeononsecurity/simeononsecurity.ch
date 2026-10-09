@@ -1,7 +1,7 @@
 ---
 title: "مراقبة كاميرات Flock Safety: الخصوصية والحماية"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "اكتشف الانتشار الواسع لكاميرات Flock Safety ALPR في عام 2026، وافهم انعكاساتها على الخصوصية، وتعلم استراتيجيات فعّالة لمواجهة المراقبة بما فيها أجهزة الكشف."
@@ -277,7 +277,7 @@ ______
 
 ينجح التنظيم الشعبي. تلغي مجالس المدن في جميع أنحاء البلاد عقود Flock حين يحضر السكان ويطالبون بالمساءلة. بنى **ACLU** بنية تحتية كاملة لمساعدة المجتمعات على التصدي.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### حزمة أدوات ACLU
 

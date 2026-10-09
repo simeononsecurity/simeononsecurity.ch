@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety Camerabewaking: Privacy en Bescherming"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Ontdek de wijdverspreide inzet van Flock Safety ALPR-camera's in 2026, begrijp de privacyimplicaties en leer effectieve contra-surveillancestrategieën inclusief detectieapparaten."
@@ -277,7 +277,7 @@ ______
 
 Grassroots-organisatie werkt. Gemeenteraden in het hele land annuleren Flock-contracten wanneer bewoners opdagen en rekenschap eisen. De **ACLU** heeft een volledige infrastructuur gebouwd om gemeenschappen te helpen terug te vechten.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Gemeenschappen in het hele land verzetten zich tegen ALPR-surveillance. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Gemeenschappen in het hele land verzetten zich tegen ALPR-surveillance. Beeldcredit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### De ACLU Toolkit
 

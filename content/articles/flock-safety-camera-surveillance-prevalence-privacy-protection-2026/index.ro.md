@@ -1,7 +1,7 @@
 ---
 title: "Supravegherea prin Camere Flock Safety: Confidențialitate și Protecție"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Descoperă implementarea pe scară largă a camerelor ALPR Flock Safety în 2026, înțelege implicațiile pentru confidențialitate și învață strategii eficiente de contra-supraveghere, inclusiv dispozitive de detectare."
@@ -277,7 +277,7 @@ ______
 
 Organizarea la baza societății funcționează. Consiliile municipale din întreaga țară anulează contractele Flock atunci când rezidenții se prezintă și cer responsabilitate. **ACLU** a construit o infrastructură completă pentru a ajuta comunitățile să reacționeze.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="Banner al campaniei ACLU Get The Flock Out promovând acțiunea comunitară împotriva camerelor ALPR Flock Safety" caption="Comunitățile din întreaga țară reacționează împotriva supravegherii ALPR. Credit imagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Banner al campaniei ACLU Get The Flock Out promovând acțiunea comunitară împotriva camerelor ALPR Flock Safety" caption="Comunitățile din întreaga țară reacționează împotriva supravegherii ALPR. Credit imagine: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### Setul de Instrumente ACLU
 

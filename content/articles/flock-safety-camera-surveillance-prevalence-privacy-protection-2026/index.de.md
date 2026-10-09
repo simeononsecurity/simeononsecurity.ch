@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety Kameraüberwachung: Privatsphäre und Schutz"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Entdecke die weit verbreitete Nutzung von Flock Safety ALPR-Kameras im Jahr 2026, verstehe die Datenschutzimplikationen und lerne effektive Gegenüberwachungsstrategien einschließlich Erkennungsgeräten."
@@ -277,7 +277,7 @@ ______
 
 Die Basisorganisation funktioniert. Stadträte im ganzen Land kündigen Flock-Verträge, wenn Bewohner erscheinen und Rechenschaftspflicht fordern. Die **ACLU** hat eine vollständige Infrastruktur aufgebaut, um Gemeinschaften beim Gegensteuern zu helfen.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### Das ACLU-Toolkit
 

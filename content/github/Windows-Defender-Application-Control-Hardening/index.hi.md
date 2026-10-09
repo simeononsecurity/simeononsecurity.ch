@@ -1,11 +1,99 @@
 ---
-title: 'Complete Guide to Harden Windows with Windows Defender Application Control (WDAC)'
+title: "Windows Defender के साथ Windows को मजबूत करने के लिए पूर्ण मार्गदर्शिका..."
 date: 2020-12-16
 toc: true
 draft: false
-description: "Learn how to use Windows Defender Application Control (WDAC) to harden your Windows operating system with scripts and tools."
-tags: ["Windows Defender Application Control (WDAC) Hardening", "PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Exploit Protection (WDEP)", "Windows Defender Attack Surface Reduction (ASR)", "Windows Server 2016/2019", "Windows Server Core", "Microsoft WDAC-Toolkit", "Refresh CI Policy", "Microsoft Recommended block rules", "Microsoft Recommended driver block rules", "XML policies", "BIN policies", "Group Policy", "Microsoft Intune"]
+description: स्क्रिप्ट और टूल्स के साथ अपने Windows ऑपरेटिंग सिस्टम को मजबूत करने के लिए Windows Defender Application Control WDAC का उपयोग कैसे करें, जानें।
+tags:
+- Windows Defender Application Control WDAC हार्डनिंग
+- PowerShell
+- PowerShell स्क्रिप्ट
+- स्वचालन
+- अनुपालन
+- ब्लू-टीम
+- Windows Defender STIG स्क्रिप्ट
+- Windows Defender हार्डनिंग
+- Windows Defender STIG
+- Defender STIG
+- Windows Defender Exploit Protection WDEP
+- Windows Defender Attack Surface Reduction ASR
+- Windows Server 2016 2019
+- Windows Server Core
+- Microsoft WDAC-Toolkit
+- CI पॉलिसी रीफ्रेश करें
+- Microsoft अनुशंसित ब्लॉक नियम
+- Microsoft अनुशंसित ड्राइवर ब्लॉक नियम
+- XML नीतियां
+- BIN नीतियां
+- ग्रुप पॉलिसी
+- Microsoft Intune
+cover: /img/cover/Windows-Defender-Application-Control-Hardening.webp
+coverAlt: एक भविष्यवादी सर्वर रूम का चित्रण जिसमें चमकती स्क्रीन पर Windows Defender Application Control से संबंधित XML और BIN फ़ाइल संरचनाएं दिखाई दे रही हैं। गहरा पृष्ठभूमि जीवंत रंगों को बढ़ाता है।
+coverCaption: ''
+lastmod: 2026-10-08
 ---
+
+**Windows Defender Application Control WDAC के साथ Windows को मजबूत करें**
+
+## नोट्स:
+- Windows Server 2016/2019 या संस्करण 1903 से पहले के किसी भी संस्करण में एक समय में केवल एक ही पुरानी नीति का समर्थन होता है।
+- Windows Server Core संस्करण [WDAC](https://simeononsecurity.com/til/2022-05-18/) का समर्थन करता है लेकिन कुछ ऐसे घटक जो AppLocker पर निर्भर हैं, काम नहीं करेंगे
+- कृपया लागू करने या परीक्षण करने से पहले [अनुशंसित पठन](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) पढ़ें।
+
+## इस संग्रह में उपयोग की गई स्क्रिप्ट और टूल्स की सूची:
+
+- [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
+- [Microsoft - CI पॉलिसी रीफ्रेश करें](https://www.microsoft.com/en-us/download/details.aspx?id=102925)
+
+## अतिरिक्त कॉन्फ़िगरेशन विचार किए गए:
+
+- [Microsoft - अनुशंसित ब्लॉक नियम](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
+- [Microsoft - अनुशंसित ड्राइवर ब्लॉक नियम](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
+- [Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+
+## व्याख्या:
+
+### XML बनाम BIN:
+
+- सरल शब्दों में, **"XML"** नीतियां स्थानीय मशीन पर लागू करने के लिए होती हैं और **"BIN"** फ़ाइलें उन्हें [ग्रुप पॉलिसी](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) या [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) के साथ लागू करने के लिए होती हैं। जबकि आप स्थानीय परिनियोजन में XML, BIN, या CIP नीतियों का उपयोग कर सकते हैं, सामान्यतः जहां संभव हो XML का उपयोग करना चाहिए, खासकर ऑडिटिंग या समस्या निवारण के दौरान।
+
+### नीति विवरण:
+
+- **डिफ़ॉल्ट नीतियां:**
+  - "डिफ़ॉल्ट" नीतियां केवल WDAC-Toolkit में उपलब्ध डिफ़ॉल्ट सुविधाओं का उपयोग करती हैं।
+- **अनुशंसित नीतियां:**
+  - "अनुशंसित" नीतियां डिफ़ॉल्ट सुविधाओं के साथ-साथ Microsoft के अनुशंसित [ब्लॉक्स](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) और [ड्राइवर ब्लॉक](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules) नियमों का उपयोग करती हैं।
+- **ऑडिट नीतियां:**
+  - "ऑडिट" नीतियां केवल नियमों के अपवादों को लॉग करती हैं। यह आपके वातावरण में परीक्षण के लिए है ताकि आप अपनी आवश्यकताओं के अनुसार नीतियों को संशोधित कर सकें।
+- **प्रवर्तन नीतियां:**
+  - "प्रवर्तन" नीतियां नियमों के किसी भी अपवाद की अनुमति नहीं देतीं, अनुप्रयोग, ड्राइवर, dll आदि को ब्लॉक कर दिया जाएगा यदि वे अनुपालन नहीं करते।
+
+### उपलब्ध नीतियां:
+
+- **XML:**
+  - **केवल ऑडिट:**
+    - `WDAC_V1_Default_Audit_{version}.xml`
+    - `WDAC_V1_Recommended_Audit_{version}.xml`
+  - **प्रवर्तन:**
+    - `WDAC_V1_Default_Enforced_{version}.xml`
+    - `WDAC_V1_Recommended_Enforced_{version}.xml`
+- **BIN:**
+  - **केवल ऑडिट:**
+    - `WDAC_V1_Default_Audit_{version}.bin`
+    - `WDAC_V1_Recommended_Audit_{version}.bin`
+  - **प्रवर्तन:**
+    - `WDAC_V1_Default_Enforced_{version}.bin`
+    - `WDAC_V1_Recommended_Enforced_{version}.bin`
+- **CIP:**
+  - **केवल ऑडिट:**
+    - `WDAC_V1_Default_Audit\{uid}.cip`
+    - `WDAC_V1_Recommended_Audit\{uid}.cip`
+  - **प्रवर्तन:**
+    - `WDAC_V1_Default_Enforced\{uid}.cip`
+    - `WDAC_V1_Recommended_Enforced\{uid}.cip`
+
+स्क्रिप्ट में निम्न पंक्ति को स्थानीय रूप से अपनी इच्छित नीति का उपयोग करने के लिए अपडेट करें:
+
 ```powershell
 $PolicyPath = "C:\temp\Windows Defender\CIP\WDAC_V1_Recommended_Enforced\*.cip"
 #https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script
@@ -17,10 +105,35 @@ ForEach ($Policy in (Get-ChildItem -Recurse $PolicyPath).Fullname) {
   & $RefreshPolicyTool
 }
 ```
+
+वैकल्पिक रूप से, आप WDAC नीतियों को लागू करने के लिए [ग्रुप पॉलिसी](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) या [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) का उपयोग कर सकते हैं।
+
+## ऑडिटिंग:
+
+आप इवेंट व्यूअर में WDAC इवेंट लॉग देख सकते हैं:
+
+`Applications and Services Logs\Microsoft\Windows\CodeIntegrity\Operational`
+
+## अनुशंसित पठन:
+
+- [Argonsys - Windows 10 एप्लिकेशन नियंत्रण नीति तैनात करना](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/)
+- [Microsoft - Windows Defender Application Control नीतियों का ऑडिट करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
+- [Microsoft - संदर्भ कंप्यूटर का उपयोग करके फिक्स्ड-वर्कलोड डिवाइस के लिए WDAC नीति बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy)
+- [Microsoft - ग्रुप पॉलिसी का उपयोग करके Windows Defender Application Control नीतियां तैनात करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
+- [Microsoft - Microsoft Intune का उपयोग करके Windows Defender Application Control नीतियां तैनात करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
+- [Microsoft - स्क्रिप्ट का उपयोग करके WDAC नीतियां तैनात करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script)
+- [Microsoft - Windows Defender Application Control नीतियों को लागू करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
+- [Microsoft - WDAC डिनाय नीतियां बनाने पर मार्गदर्शन](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy)
+- [Microsoft - कई Windows Defender Application Control नीतियों का उपयोग करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies)
+
+## स्क्रिप्ट कैसे चलाएं:
+
+### मैनुअल इंस्टॉल:
+
+यदि मैनुअल रूप से डाउनलोड किया गया है, तो स्क्रिप्ट को प्रशासनिक पॉवरशेल से लॉन्च करना होगा जिसमें सभी फ़ाइलें [GitHub रिपॉजिटरी](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip) से हों।
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Get-ChildItem -Recurse *.ps1 | Unblock-File
 .\sos-wdachardening.ps1
 ```
-
- विंडोज कंप्यूटर कंट्रोल (WDAC) के साथ हार्डन विंडोज  ## सुचना: - विंडोज सर्वर 2016/2019 या संस्करण 1903 से पहले कुछ भी एक ही समय में केवल एक ही विरासत नीति का समर्थन करता है। - विंडोज सर्वर कोर संस्करण डी एसे का समर्थन करता है लेकिन ऐप लॉकर पर चिपका हुआ कुछ घटक काम नहीं करेगा - कृपया लागू करें या परीक्षण करने से पहले [अनुशंसित पठान] पढ़ें।  ## इस संग्रह द्वारा उपयोग की जाने वाली स्क्रिप्ट और टूल की सूची:  - [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit) - [Microsoft - सीआई नीति ताज़ा करें](https://www.microsoft.com/en-us/download/details.aspx?id=102925)  ## अतिरिक्त विस्तार पर विचार किया गया:  - [माइक्रोसॉफ्ट - सुधार ब्लॉक नियम] - [माइक्रोसॉफ्ट - खराब ड्राइवर ब्लॉक नियम] - [माइक्रोसॉफ्ट - विनोद लाइसेस कंट्रोल] निर्देश)  ## व्याख्या:  ### यांत्रिकी बनाम रोलिंग:  - सीधे शब्दों में कहें, तो **"XML"** घना मशीन पर स्थानीय रूप से लागू करने के लिए हैं और **"BIN"** फ़ाइलें उन्हें [समूह नीति](https://docs.microsoft.com) के साथ लागू करने के लिए हैं /en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-use-group-policy) या [Microsoft Intune ](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-use-intune)। जब आप किसी स्थानीय परिनियोजन में XML, BIN, या CIP का उपयोग कर सकते हैं, तो आम तौर पर जहां संभव हो, आपको XML से विज्ञापन दिखाना चाहिए और विशेष रूप से समस्या या समस्या का खुलासा करना चाहिए।  ### नीति विवरण:  - **डिफॉल्ट प्रजनक:**   - "डिफॉल्ट" नेटवर्क केवल डब्लूडीआईएस-टूलकिट में उपलब्ध चूक सुविधा का उपयोग करता है। - **अनुशंसित प्रचार:**   - "अनुशंसित" फिक्स सिस्टम के साथ-साथ Microsoft की सूचना [ब्लॉक] का उपयोग करती हैं -अनुशंसित-ब्लॉक-नियम) और [ड्राइवर ब्लॉक] -ड्राइवर-ब्लॉक -नियम) नियम। - **ऑडिट अलाट:**   - "ऑडिट" देख रहे हैं, केवल आशंका के अपवाद होंगे। यह आपकी सहमति के लिए परीक्षण के लिए है, ताकि आप अपनी सहमति की आवश्यकताओं के अनुकूल होने के लिए उपलब्ध हों। - **लागू प्रचार:**   - "लागू" रैप्टर्स को किसी भी अपवाद की अनुमति नहीं देंगे, अगर वे संपर्क नहीं करते हैं, तो Apple, ड्राइवर, डीएलएस आदि को ब्लॉक कर दिया जाएगा।  ### ऑफर ऑफर:  - **एक्स कॉलेज:**   - **केवल अपकार:**     - `WDAC_V1_Default_Audit_{संस्करण}.xml`     - `WDAC_V1_अनुशंसित_ऑडिट_{संस्करण}.xml`   - **लागू:**     - `WDAC_V1_Default_Enforced_{संस्करण}.xml`     - `WDAC_V1_अनुशंसित_प्रवर्तित_{संस्करण}.xml` - **बिन:**   - **केवल अपकार:**     - `WDAC_V1_Default_Audit_{संस्करण}.बिन`     - `WDAC_V1_अनुशंसित_ऑडिट_{संस्करण}.बिन`   - **लागू:**     - `WDAC_V1_Default_Enforced_{संस्करण}.बिन`     - `WDAC_V1_अनुशंसित_प्रवर्तित_{संस्करण}.बिन` - **सीआईपी:**   - **केवल अपकार:**     - `WDAC_V1_Default_Audit\{uid}.cip`     - `WDAC_V1_अनुशंसित_ऑडिट\{uid}.cip`   - **लागू:**     - `WDAC_V1_Default_Enforced\{uid}.cip`     - `WDAC_V1_अनुशंसित_प्रवर्तित\{uid}.cip`  आप स्थानीय रूप से जो नीति चाहते हैं, उसका उपयोग करने के लिए स्क्रिप्ट में इसकी पंक्ति को अपडेट करें:   वैकल्पिक रूप से, आप [समूह नीति](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control- लेटर-यूजिंग-ग्रुप-पॉलिसी) या [माइक्रोसॉफ्ट इंट्यून](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender- application-control-polices-use-intune) WDAC को लागू करने के लिए।  ## आफत करना:  आप नीचे इवेंट व्यूअर में WDAC इवेंट देख सकते हैं:  `अनुप्रयोग और सेवाएँ \ Microsoft \ Windows \ CodeIntegrity \ Operational`  ## सुधार पाठ:  - [Argonsys - Windows 10 एप नियंत्रण नीति योजना बनाना](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/) - [Microsoft - Windows डिफ़ेंडर का नियंत्रण दुर्घटना का शिकार हो जाएगा] application- control-नीतियां) - [Microsoft - एक संदर्भ कंप्यूटर का उपयोग करके फिक्स्ड-वर्कलोड डिवाइस के लिए WDAC नीति बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control /रचना -प्रारंभिक-डिफॉल्ट-नीति) - [Microsoft - समूह नीति का उपयोग करके Windows डिफ़ेंडर एप नियंत्रण एक परियोजन तैयार करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy - विंडोज़- एससी-आवेदन- नियंत्रण-नीतियां- उपयोग-समूह-नीति) - [Microsoft - Microsoft Intune का उपयोग करके Windows डिफ़ेंडर ऐप नियंत्रण नियंत्रण योजना बनाएं](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy- अशुद्ध- एससी-एप्लीकेशन-नियंत्रक-पॉलिसी-यूजिंग-इंट्यून) - [Microsoft - स्क्रिप्ट का उपयोग करके WDAC सूचना अभ्यस्त करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac- Policies-with -लिखी हुई कहानी) - [Microsoft - Windows Defencer ऐप नियंत्रण नियंत्रण लागू करें](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application - नियंत्रण-नीतियां) - [Microsoft - WDAC निषेध बनाने पर समर्थन] - [माइक्रोसॉफ्ट - कई विंडोज़ प्रोटेक्ट्स एक्ट कंट्रोल का उपयोग करें] -आवेदन-नियंत्रण-नीतियां)  ## स्क्रिप्ट कैसे चलाएं:  ### मैनुअल रिकॉर्ड करें:  यदि कोई किसी से डाउनलोड किया गया है, तो स्क्रिप्ट को [GitHub रिपॉजिटरी] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main) की सभी दस्तावेज़ निर्देशिकाओं में एक प्रत्यक्ष फ़ाइल से लॉन्च किया गया। फ़्रैंक) 

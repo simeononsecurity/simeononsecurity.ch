@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety कैमरा निगरानी: गोपनीयता और सुरक्षा"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "2026 में Flock Safety ALPR कैमरों के व्यापक प्रसार को जानें, गोपनीयता के निहितार्थों को समझें और पहचान उपकरणों सहित प्रभावी काउंटर-सर्विलांस रणनीतियाँ सीखें।"
@@ -277,7 +277,7 @@ ______
 
 जमीनी आयोजन काम कर रहा है। जब निवासी आते हैं और जवाबदेही मांगते हैं तो देश भर के सिटी काउंसिल Flock अनुबंध रद्द कर रहे हैं। **ACLU** ने समुदायों को पलटवार करने में मदद करने के लिए पूर्ण बुनियादी ढांचा बनाया है।
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out अभियान बैनर Flock Safety ALPR कैमरों के खिलाफ सामुदायिक कार्रवाई को बढ़ावा देता है" caption="देश भर के समुदाय ALPR निगरानी के खिलाफ पलटवार कर रहे हैं। छवि श्रेय: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out अभियान बैनर Flock Safety ALPR कैमरों के खिलाफ सामुदायिक कार्रवाई को बढ़ावा देता है" caption="देश भर के समुदाय ALPR निगरानी के खिलाफ पलटवार कर रहे हैं। छवि श्रेय: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### ACLU टूलकिट
 

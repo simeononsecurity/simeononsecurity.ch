@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety カメラ監視：プライバシーと保護"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "2026年におけるFlock Safety ALPRカメラの広範な展開を探り、プライバシーへの影響を理解し、検知デバイスを含む効果的な監視対策戦略を学びましょう。"
@@ -277,7 +277,7 @@ ______
 
 草の根の組織化は機能しています。住民が現れて説明責任を求めると、全国の市議会がFlockの契約を解除しています。**ACLU**はコミュニティが反撃するための完全なインフラを構築しました。
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="全国のコミュニティがALPR監視に反撃しています。画像クレジット：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="全国のコミュニティがALPR監視に反撃しています。画像クレジット：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### ACLUツールキット
 

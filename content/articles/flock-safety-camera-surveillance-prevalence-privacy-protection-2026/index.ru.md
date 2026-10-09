@@ -1,7 +1,7 @@
 ---
 title: "Видеонаблюдение Flock Safety: Конфиденциальность и Защита"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Узнайте о широком распространении камер ALPR Flock Safety в 2026 году, разберитесь в последствиях для конфиденциальности и изучите эффективные стратегии противодействия слежке, включая устройства обнаружения."
@@ -277,7 +277,7 @@ ______
 
 Низовая организация работает. Городские советы по всей стране расторгают контракты с Flock, когда жители приходят и требуют подотчётности. **ACLU** создала полноценную инфраструктуру для помощи сообществам в борьбе.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="Баннер кампании ACLU Get The Flock Out, пропагандирующий общественные действия против камер ALPR Flock Safety" caption="Сообщества по всей стране дают отпор слежке ALPR. Изображение: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Баннер кампании ACLU Get The Flock Out, пропагандирующий общественные действия против камер ALPR Flock Safety" caption="Сообщества по всей стране дают отпор слежке ALPR. Изображение: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### Набор Инструментов ACLU
 

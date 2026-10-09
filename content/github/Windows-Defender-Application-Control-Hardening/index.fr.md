@@ -1,11 +1,99 @@
 ---
-title: 'Complete Guide to Harden Windows with Windows Defender Application Control (WDAC)'
+title: "Guide complet pour renforcer Windows avec Windows Defender..."
 date: 2020-12-16
 toc: true
 draft: false
-description: "Learn how to use Windows Defender Application Control (WDAC) to harden your Windows operating system with scripts and tools."
-tags: ["Windows Defender Application Control (WDAC) Hardening", "PowerShell", "PowerShell Script", "Automation", "Compliance", "Blue-Team", "Windows Defender STIG Script", "Windows Defender Hardening", "Windows Defender STIG", "Defender STIG", "Windows Defender Exploit Protection (WDEP)", "Windows Defender Attack Surface Reduction (ASR)", "Windows Server 2016/2019", "Windows Server Core", "Microsoft WDAC-Toolkit", "Refresh CI Policy", "Microsoft Recommended block rules", "Microsoft Recommended driver block rules", "XML policies", "BIN policies", "Group Policy", "Microsoft Intune"]
+description: Apprenez à utiliser Windows Defender Application Control WDAC pour renforcer votre système d'exploitation Windows avec des scripts et des outils.
+tags:
+- Renforcement de Windows Defender Application Control WDAC
+- PowerShell
+- Script PowerShell
+- Automatisation
+- Conformité
+- Équipe Bleue
+- Script STIG Windows Defender
+- Renforcement de Windows Defender
+- STIG Windows Defender
+- STIG Defender
+- Protection contre les exploits Windows Defender WDEP
+- Réduction de la surface d'attaque Windows Defender ASR
+- Windows Server 2016 2019
+- Windows Server Core
+- Microsoft WDAC-Toolkit
+- Actualiser la politique CI
+- Règles de blocage recommandées par Microsoft
+- Règles de blocage des pilotes recommandées par Microsoft
+- Politiques XML
+- Politiques BIN
+- Stratégie de groupe
+- Microsoft Intune
+cover: /img/cover/Windows-Defender-Application-Control-Hardening.webp
+coverAlt: Une illustration d'une salle de serveurs futuriste avec des écrans lumineux affichant des structures de fichiers XML et BIN liées à Windows Defender Application Control. Le fond sombre met en valeur les couleurs vives.
+coverCaption: ''
+lastmod: 2026-10-08
 ---
+
+**Renforcer Windows avec Windows Defender Application Control WDAC**
+
+## Notes :
+- Windows Server 2016/2019 ou toute version antérieure à la 1903 ne supporte qu'une seule politique héritée à la fois.
+- L'édition Windows Server Core supporte [WDAC](https://simeononsecurity.com/til/2022-05-18/) mais certains composants dépendant d'AppLocker ne fonctionneront pas
+- Veuillez lire les [Lectures recommandées](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) avant de mettre en œuvre ou même de tester.
+
+## Une liste des scripts et outils utilisés dans cette collection :
+
+- [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
+- [Microsoft - Actualiser la politique CI](https://www.microsoft.com/en-us/download/details.aspx?id=102925)
+
+## Configurations supplémentaires prises en compte :
+
+- [Microsoft - Règles de blocage recommandées](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
+- [Microsoft - Règles de blocage des pilotes recommandées](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
+- [Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+
+## Explication :
+
+### XML vs. BIN :
+
+- En termes simples, les politiques **"XML"** sont destinées à être appliquées localement sur une machine et les fichiers **"BIN"** servent à les appliquer via [Stratégie de groupe](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) ou [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune). Bien que vous puissiez utiliser des politiques XML, BIN ou CIP en déploiement local, il est généralement conseillé de privilégier XML lorsque c'est possible, surtout lors d'audits ou de dépannage.
+
+### Descriptions des politiques :
+
+- **Politiques par défaut :**
+  - Les politiques "Par défaut" utilisent uniquement les fonctionnalités par défaut disponibles dans le WDAC-Toolkit.
+- **Politiques recommandées :**
+  - Les politiques "Recommandées" utilisent les fonctionnalités par défaut ainsi que les [règles de blocage](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) et [règles de blocage des pilotes](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules) recommandées par Microsoft.
+- **Politiques d'audit :**
+  - Les politiques "Audit" ne font que consigner les exceptions aux règles. Ceci est destiné aux tests dans votre environnement, afin que vous puissiez modifier les politiques librement pour répondre aux besoins de votre environnement.
+- **Politiques appliquées :**
+  - Les politiques "Appliquées" n'autorisent aucune exception aux règles, les applications, pilotes, dll, etc. seront bloqués s'ils ne sont pas conformes.
+
+### Politiques disponibles :
+
+- **XML :**
+  - **Audit uniquement :**
+    - `WDAC_V1_Default_Audit_{version}.xml`
+    - `WDAC_V1_Recommended_Audit_{version}.xml`
+  - **Appliquées :**
+    - `WDAC_V1_Default_Enforced_{version}.xml`
+    - `WDAC_V1_Recommended_Enforced_{version}.xml`
+- **BIN :**
+  - **Audit uniquement :**
+    - `WDAC_V1_Default_Audit_{version}.bin`
+    - `WDAC_V1_Recommended_Audit_{version}.bin`
+  - **Appliquées :**
+    - `WDAC_V1_Default_Enforced_{version}.bin`
+    - `WDAC_V1_Recommended_Enforced_{version}.bin`
+- **CIP :**
+  - **Audit uniquement :**
+    - `WDAC_V1_Default_Audit\{uid}.cip`
+    - `WDAC_V1_Recommended_Audit\{uid}.cip`
+  - **Appliquées :**
+    - `WDAC_V1_Default_Enforced\{uid}.cip`
+    - `WDAC_V1_Recommended_Enforced\{uid}.cip`
+
+Mettez à jour la ligne suivante dans le script pour utiliser la politique souhaitée localement :
+
 ```powershell
 $PolicyPath = "C:\temp\Windows Defender\CIP\WDAC_V1_Recommended_Enforced\*.cip"
 #https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script
@@ -17,10 +105,35 @@ ForEach ($Policy in (Get-ChildItem -Recurse $PolicyPath).Fullname) {
   & $RefreshPolicyTool
 }
 ```
+
+Alternativement, vous pouvez utiliser [Stratégie de groupe](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) ou [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) pour appliquer les politiques WDAC.
+
+## Audit :
+
+Vous pouvez consulter les journaux d'événements WDAC dans l'observateur d'événements sous :
+
+`Applications and Services Logs\Microsoft\Windows\CodeIntegrity\Operational`
+
+## Lectures recommandées :
+
+- [Argonsys - Déploiement de la politique de contrôle des applications Windows 10](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/)
+- [Microsoft - Auditer les politiques Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
+- [Microsoft - Créer une politique WDAC pour les appareils à charge de travail fixe en utilisant un ordinateur de référence](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy)
+- [Microsoft - Déployer les politiques Windows Defender Application Control via la stratégie de groupe](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
+- [Microsoft - Déployer les politiques Windows Defender Application Control via Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
+- [Microsoft - Déployer les politiques WDAC via script](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script)
+- [Microsoft - Appliquer les politiques Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
+- [Microsoft - Guide pour créer des politiques WDAC de refus](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy)
+- [Microsoft - Utiliser plusieurs politiques Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies)
+
+## Comment exécuter le script :
+
+### Installation manuelle :
+
+Si téléchargé manuellement, le script doit être lancé depuis un PowerShell administrateur dans le répertoire contenant tous les fichiers du [dépôt GitHub](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip)
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Get-ChildItem -Recurse *.ps1 | Unblock-File
 .\sos-wdachardening.ps1
 ```
-
- Renforcez Windows avec Windows Defender Application Control (WDAC)  ##Remarques : - Windows Server 2016/2019 ou toute version antérieure à la version 1903 ne prend en charge qu'une seule stratégie transmise à la fois. - L'édition Windows Server Core prend en charge WDAC mais certains composants qui dépendent d'AppLocker ne fonctionneront pas - Veuillez lire la [Lecture recommandée] (https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) avant de mettre en œuvre ou même de tester.  ## Une liste de scripts et d'outils utilisés par cette collection :  - [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit) - [Microsoft - Actualiser la politique CI](https://www.microsoft.com/en-us/download/details.aspx?id=102925)  ## Des configurations supplémentaires ont été prises en charge à partir de :  - [Microsoft - Règles de blocage recommandées](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) - [Microsoft - Règles de blocage des pilotes recommandés](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block- règles) - [Microsoft - Contrôle des applications Windows Defender](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design - guide)  ## Explication :  ### XML contre BIN :  - En termes simples, les stratégies **"XML"** sont destinées à être appliquées localement à une machine et les fichiers **"BIN"** sont destinés à les appliquer avec [la stratégie de groupe] (https:// docs.microsoft.com /en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) ou [Microsoft Intune]( https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune). Bien que vous puissiez utiliser des stratégies XML, BIN ou CIP dans un déploiement local, en règle générale, vous devez tenir en XML dans la mesure du possible, en particulier lors de l'audit ou du dépannage.  ### Description des règles :  - **Règles par défaut :**   - Les politiques "par défaut" utilisent uniquement les fonctionnalités par défaut disponibles dans le WDAC-Toolkit. - **Politiques recommandées :**   - Les stratégies "recommandées" utilisent les fonctionnalités par défaut ainsi que les [blocs] recommandés par Microsoft (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control /microsoft -recommended-block-rules) et [driver block](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver -bloc -règles) règles. - **Politiques d'audit :**   - Les politiques "Audit", il suffit de consigner les exceptions aux règles. Ceci est destiné aux tests dans votre environnement, afin que vous puissiez modifier les politiques, à volonté, pour répondre aux besoins de votre environnement. - **Règles appliquées :**   - Les politiques "Enforced" n'autoriseront aucune exception aux règles, les applications, les pilotes, les dll, etc. seront bloqués s'ils ne sont pas conformes.  ### Politiques disponibles :  - **XML :**   - **Audit uniquement :**     - `WDAC_V1_Default_Audit_{version}.xml`     - `WDAC_V1_Recommended_Audit_{version}.xml`   - **Forcée :**     - `WDAC_V1_Default_Enforced_{version}.xml`     - `WDAC_V1_Recommended_Enforced_{version}.xml` - **POUBELLE :**   - **Audit uniquement :**     - `WDAC_V1_Default_Audit_{version}.bin`     - `WDAC_V1_Recommended_Audit_{version}.bin`   - **Forcée :**     - `WDAC_V1_Default_Enforced_{version}.bin`     - `WDAC_V1_Recommended_Enforced_{version}.bin` - **CPE :**   - **Audit uniquement :**     - `WDAC_V1_Default_Audit\{uid}.cip`     - `WDAC_V1_Recommended_Audit\{uid}.cip`   - **Forcée :**     - `WDAC_V1_Default_Enforced\{uid}.cip`     - `WDAC_V1_Recommended_Enforced\{uid}.cip`  Mettez à jour la ligne suivante dans le script pour utiliser la stratégie requise localement :   Vous pouvez également utiliser la [stratégie de groupe](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control - politiques-using-group-policy) ou [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender - application-control-policies-using-intune) pour appliquer les stratégies WDAC.  ## Audit :  Vous pouvez afficher les journaux d'événements WDAC dans l'observateur d'événements sous :  `Journaux des applications et des services\Microsoft\Windows\CodeIntegrity\Operational`  ## Conférence recommandée :  - [Argonsys - Déploiement de la politique de contrôle des applications Windows 10](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/) - [Microsoft - Auditer les politiques de contrôle des applications Windows Defender](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender -application-politiques de contrôle) - [Microsoft - Créer une stratégie WDAC pour les appareils à charge de travail fixe à l'aide d'un ordinateur de référence] (https://docs.microsoft.com/en-us/windows/security/threat-protection/ windows-defender-application-control/create-stratégie-par-défaut-initiale) - [Microsoft - Déployer les stratégies de contrôle des applications Windows Defender à l'aide de la stratégie de groupe] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender- application-control/deploy-windows-defenseur-application-control-politiques-utilisant-groupe-politique) - [Microsoft - Déployer les stratégies de contrôle des applications Windows Defender à l'aide de Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application- control/deploy-windows-defender-application-contrôle-politiques-utilisant-intune) - [Microsoft - Déployeur des stratégies WDAC à l'aide d'un script] (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/ déployer-wdac-politiques-avec-scénario) - [Microsoft - Appliquer les politiques de contrôle des applications Windows Defencer](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender -application-politiques de contrôle) - [Microsoft - Conseils sur la création de stratégies de refus WDAC](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny -politique) - [Microsoft - Utiliser plusieurs politiques de contrôle des applications Windows Defender](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows -defender -application-control-policies)  ## Commentez le script :  ### Installation manuelle :  S'il est téléchargé manuellement, le script doit être lancé à partir d'un powershell administratif dans le répertoire contenant tous les fichiers du [GitHub Repository](https://github.com/simeononsecurity/Windows-Defender-Application-Control- Durcissement/archive/main .zipper) 

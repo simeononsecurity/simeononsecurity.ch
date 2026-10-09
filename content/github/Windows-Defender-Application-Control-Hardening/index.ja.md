@@ -1,72 +1,98 @@
 ---
-title: "Windows Defender Application Control WDAC を使用して Windows を強化するための完全ガイド"
+title: "Windows DefenderでWindowsを強化する完全ガイド..."
 date: 2020-12-16
 toc: true
 draft: false
-description: "Windows Defender Application Control WDAC を使用して、スクリプトとツールを使用して Windows オペレーティング システムを強化する方法を学びます。"
-tags: ["Windows Defender アプリケーション コントロール WDAC の強化", "パワーシェル", "PowerShell スクリプト", "オートメーション", "コンプライアンス", "ブルーチーム", "Windows Defender STIG スクリプト", "Windows Defenderの強化", "Windows Defender STIG", "ディフェンダーSTIG", "Windows Defender エクスプロイト保護 WDEP", "Windows Defender の攻撃対象領域の削減 ASR", "Windows Server 2016 2019", "Windowsサーバーコア", "Microsoft WDAC ツールキット", "CI ポリシーを更新する", "Microsoft が推奨するブロック ルール", "Microsoft が推奨するドライバーのブロック ルール", "XMLポリシー", "BIN ポリシー", "グループポリシー", "Microsoft Intune"]
+description: Windows Defender Application Control（WDAC）を使用して、スクリプトやツールでWindowsオペレーティングシステムを強化する方法を学びます。
+tags:
+- Windows Defender Application Control（WDAC）強化
+- PowerShell
+- PowerShellスクリプト
+- 自動化
+- コンプライアンス
+- ブルーチーム
+- Windows Defender STIGスクリプト
+- Windows Defender強化
+- Windows Defender STIG
+- Defender STIG
+- Windows Defender Exploit Protection（WDEP）
+- Windows Defender Attack Surface Reduction（ASR）
+- Windows Server 2016 2019
+- Windows Server Core
+- Microsoft WDAC-Toolkit
+- CIポリシーの更新
+- Microsoft推奨のブロックルール
+- Microsoft推奨のドライバーブロックルール
+- XMLポリシー
+- BINポリシー
+- グループポリシー
+- Microsoft Intune
+cover: /img/cover/Windows-Defender-Application-Control-Hardening.webp
+coverAlt: Windows Defender Application Controlに関連するXMLおよびBINファイル構造を表示する発光スクリーンがある未来的なサーバールームのイラスト。暗い背景が鮮やかな色を際立たせています。
+coverCaption: ''
+lastmod: 2026-10-08
 ---
 
-**Windows Defender Application Control WDAC で Windows を強化**
+**Windows Defender Application Control（WDAC）でWindowsを強化する**
 
-＃＃ ノート：
-- Windows Server 2016/2019 またはバージョン 1903 より前のバージョンでは、一度に 1 つのレガシー ポリシーのみがサポートされます。
-- Windows Server Core エディションは WDAC をサポートしていますが、AppLocker に依存する一部のコンポーネントは動作しません
-- 必ずお読みください[Recommended Reading](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading) 実装する前、あるいはテストする前に。
+## 注意事項:
+- Windows Server 2016/2019またはバージョン1903以前は、同時に1つのレガシーポリシーのみをサポートします。
+- Windows Server Coreエディションは[WDAC](https://simeononsecurity.com/til/2022-05-18/)をサポートしますが、AppLockerに依存する一部のコンポーネントは動作しません。
+- 実装やテストの前に必ず[推奨読書](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening#recommended-reading)をお読みください。
 
-## このコレクションが使用するスクリプトとツールのリスト:
+## このコレクションで使用されるスクリプトとツールの一覧:
 
--[MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
--[Microsoft - Refresh CI Policy ](https://www.microsoft.com/en-us/download/details.aspx?id=102925)
+- [MicrosoftDocs - WDAC-Toolkit](https://github.com/MicrosoftDocs/WDAC-Toolkit)
+- [Microsoft - CIポリシーの更新](https://www.microsoft.com/en-us/download/details.aspx?id=102925)
 
-## 追加の構成は以下から検討されました。
+## 追加で検討された設定:
 
--[Microsoft - Recommended block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
--[Microsoft - Recommended driver block rules](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
--[Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+- [Microsoft - 推奨ブロックルール](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)
+- [Microsoft - 推奨ドライバーブロックルール](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)
+- [Microsoft - Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
 
-＃＃ 説明：
+## 説明:
 
-### XML と BIN:
+### XMLとBINの違い:
 
-- 簡単に言えば、**"XML"** ポリシーはローカルのマシンに適用するためのものであり、**"BIN"** ファイルはそれらを次のいずれかで適用するためのものです。[Group Policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) or [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) ローカル展開では XML、BIN、または CIP ポリシーを使用できますが、一般的には、可能な限り XML を使用する必要があり、特に監査やトラブルシューティングを行う場合はそうしてください。
+- 簡単に言うと、**「XML」**ポリシーはローカルマシンに適用するためのもので、**「BIN」**ファイルは[グループポリシー](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)や[Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)で適用するためのものです。ローカル展開ではXML、BIN、CIPポリシーのいずれも使用可能ですが、一般的には監査やトラブルシューティング時に特にXMLを使用することを推奨します。
 
 ### ポリシーの説明:
 
-- **デフォルト ポリシー:**
-  - 「デフォルト」ポリシーは、WDAC ツールキットで利用可能なデフォルト機能のみを使用します。
+- **デフォルトポリシー:**
+  - 「デフォルト」ポリシーはWDAC-Toolkitのデフォルト機能のみを使用します。
 - **推奨ポリシー:**
-  - 「推奨」ポリシーでは、デフォルトの機能と Microsoft の推奨機能が使用されます。[blocks](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules) and [driver block](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules) ルール。
+  - 「推奨」ポリシーはデフォルト機能に加え、Microsoftの推奨する[ブロック](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules)および[ドライバーブロック](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-driver-block-rules)ルールを使用します。
 - **監査ポリシー:**
-  - 「監査」ポリシーは、ルールの例外をログに記録するだけです。これは環境でのテスト用であり、環境のニーズに合わせてポリシーを自由に変更できます。
-- **適用されるポリシー:**
-  - 「強制」ポリシーではルールの例外は許可されず、準拠しない場合、アプリケーション、ドライバー、DLL などがブロックされます。
+  - 「監査」ポリシーはルールの例外をログに記録するだけです。これは環境でのテスト用で、環境のニーズに合わせてポリシーを自由に変更できます。
+- **強制ポリシー:**
+  - 「強制」ポリシーはルールの例外を許可しません。準拠しないアプリケーション、ドライバー、dllなどはブロックされます。
 
 ### 利用可能なポリシー:
 
 - **XML:**
   - **監査のみ:**
-    - `WDAC_V1_Default_Audit_{バージョン}.xml`
-    - `WDAC_V1_Recommend_Audit_{バージョン}.xml`
+    - `WDAC_V1_Default_Audit_{version}.xml`
+    - `WDAC_V1_Recommended_Audit_{version}.xml`
   - **強制:**
-    - `WDAC_V1_Default_Enforced_{バージョン}.xml`
-    - `WDAC_V1_Recommend_Enforced_{バージョン}.xml`
-- **置き場：**
+    - `WDAC_V1_Default_Enforced_{version}.xml`
+    - `WDAC_V1_Recommended_Enforced_{version}.xml`
+- **BIN:**
   - **監査のみ:**
-    - `WDAC_V1_Default_Audit_{バージョン}.bin`
-    - `WDAC_V1_Recommend_Audit_{バージョン}.bin`
+    - `WDAC_V1_Default_Audit_{version}.bin`
+    - `WDAC_V1_Recommended_Audit_{version}.bin`
   - **強制:**
-    - `WDAC_V1_Default_Enforced_{バージョン}.bin`
-    - `WDAC_V1_Recommend_Enforced_{バージョン}.bin`
+    - `WDAC_V1_Default_Enforced_{version}.bin`
+    - `WDAC_V1_Recommended_Enforced_{version}.bin`
 - **CIP:**
   - **監査のみ:**
     - `WDAC_V1_Default_Audit\{uid}.cip`
-    - `WDAC_V1_Recommend_Audit\{uid}.cip`
+    - `WDAC_V1_Recommended_Audit\{uid}.cip`
   - **強制:**
     - `WDAC_V1_Default_Enforced\{uid}.cip`
     - `WDAC_V1_Recommended_Enforced\{uid}.cip`
 
-スクリプト内の次の行を更新して、必要なポリシーをローカルで使用します。
+スクリプト内の次の行を更新して、ローカルで使用したいポリシーを指定してください:
 
 ```powershell
 $PolicyPath = "C:\temp\Windows Defender\CIP\WDAC_V1_Recommended_Enforced\*.cip"
@@ -80,31 +106,31 @@ ForEach ($Policy in (Get-ChildItem -Recurse $PolicyPath).Fullname) {
 }
 ```
 
-Alternatively, you may use [Group Policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy) or [Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune) to enforce the WDAC policies.
+または、[グループポリシー](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)や[Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)を使用してWDACポリシーを適用することもできます。
 
-## Auditing:
+## 監査:
 
-You can view the WDAC event logs in event viewer under:
+WDACのイベントログはイベントビューアーの以下の場所で確認できます:
 
 `Applications and Services Logs\Microsoft\Windows\CodeIntegrity\Operational`
 
-## Recommended Reading:
+## 推奨読書:
 
-- [Argonsys - Deploying Windows 10 Application Control Policy](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/)
-- [Microsoft - Audit Windows Defender Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
-- [Microsoft - Create a WDAC policy for fixed-workload devices using a reference computer](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy)
-- [Microsoft - Deploy Windows Defender Application Control policies by using Group Policy](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
-- [Microsoft - Deploy Windows Defender Application Control policies by using Microsoft Intune](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
-- [Microsoft - Deploy WDAC policies using script](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script)
-- [Microsoft - Enforce Windows Defencer Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
-- [Microsoft - Guidance on Creating WDAC Deny Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy)
-- [Microsoft - Use multiple Windows Defender Application Control Policies](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies)
+- [Argonsys - Windows 10アプリケーションコントロールポリシーの展開](https://argonsys.com/microsoft-cloud/library/deploying-windows-10-application-control-policy/)
+- [Microsoft - Windows Defender Application Controlポリシーの監査](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/audit-windows-defender-application-control-policies)
+- [Microsoft - 参照コンピューターを使用した固定ワークロードデバイス向けWDACポリシーの作成](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy)
+- [Microsoft - グループポリシーを使用したWindows Defender Application Controlポリシーの展開](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-group-policy)
+- [Microsoft - Microsoft Intuneを使用したWindows Defender Application Controlポリシーの展開](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-windows-defender-application-control-policies-using-intune)
+- [Microsoft - スクリプトを使用したWDACポリシーの展開](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script)
+- [Microsoft - Windows Defender Application Controlポリシーの強制](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/enforce-windows-defender-application-control-policies)
+- [Microsoft - WDAC拒否ポリシー作成のガイダンス](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy)
+- [Microsoft - 複数のWindows Defender Application Controlポリシーの使用](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deploy-multiple-windows-defender-application-control-policies)
 
-## How to run the script:
+## スクリプトの実行方法:
 
-### Manual Install:
+### 手動インストール:
 
-If manually downloaded, the script must be launched from an administrative powershell in the directory containing all the files from the [GitHub Repository](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip)
+手動でダウンロードした場合、スクリプトは[GitHubリポジトリ](https://github.com/simeononsecurity/Windows-Defender-Application-Control-Hardening/archive/main.zip)からすべてのファイルがあるディレクトリ内の管理者権限のPowerShellから起動する必要があります。
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force

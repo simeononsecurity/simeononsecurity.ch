@@ -1,7 +1,7 @@
 ---
 title: "Kamery monitorujące Flock Safety: Prywatność i ochrona"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Odkryj skalę wdrożenia kamer ALPR Flock Safety w 2026 roku, poznaj implikacje dla prywatności i naucz się skutecznych strategii kontrwywiadowczych, w tym urządzeń wykrywających."
@@ -277,7 +277,7 @@ ______
 
 Oddolne organizowanie się przynosi efekty. Rady miast w całym kraju anulują umowy z Flock, gdy mieszkańcy przychodząc i domagają się odpowiedzialności. **ACLU** zbudowało pełną infrastrukturę, aby pomóc społecznościom w walce.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="Baner kampanii ACLU Get The Flock Out promujący działania społeczności przeciwko kamerom ALPR Flock Safety" caption="Społeczności w całym kraju sprzeciwiają się inwigilacji ALPR. Źródło zdjęcia: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Baner kampanii ACLU Get The Flock Out promujący działania społeczności przeciwko kamerom ALPR Flock Safety" caption="Społeczności w całym kraju sprzeciwiają się inwigilacji ALPR. Źródło zdjęcia: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### Zestaw narzędzi ACLU
 

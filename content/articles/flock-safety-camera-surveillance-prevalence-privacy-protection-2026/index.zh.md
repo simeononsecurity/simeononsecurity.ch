@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety摄像头监控：隐私与保护"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "了解2026年Flock Safety ALPR摄像头的广泛部署情况，理解其隐私影响，并学习有效的反监控策略，包括检测设备。"
@@ -277,7 +277,7 @@ ______
 
 基层组织工作正在发挥作用。当居民出席并要求问责时，全国各地的市议会正在取消与Flock的合同。**ACLU**已构建起完整的基础设施，帮助社区反击。
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out运动横幅，号召社区行动抵制Flock Safety ALPR摄像头" caption="全国各地社区正在反击ALPR监控。图片来源：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out运动横幅，号召社区行动抵制Flock Safety ALPR摄像头" caption="全国各地社区正在反击ALPR监控。图片来源：ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### ACLU工具包
 

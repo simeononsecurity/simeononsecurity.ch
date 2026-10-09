@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety ক্যামেরা নজরদারি: গোপনীয়তা ও সুরক্ষা"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "২০২৬ সালে Flock Safety ALPR ক্যামেরার ব্যাপক বিস্তার আবিষ্কার করুন, গোপনীয়তার উপর প্রভাব বুঝুন, এবং কার্যকর পাল্টা নজরদারি কৌশল শিখুন, যার মধ্যে শনাক্তকরণ ডিভাইসও রয়েছে।"
@@ -277,7 +277,7 @@ ______
 
 তৃণমূল সংগঠন কাজ করছে। যখন বাসিন্দারা উপস্থিত হয়ে জবাবদিহিতা দাবি করে তখন সারা দেশে সিটি কাউন্সিলগুলি Flock চুক্তি বাতিল করছে। **ACLU** সম্প্রদায়গুলিকে ফিরে লড়াই করতে সাহায্য করার জন্য একটি সম্পূর্ণ পরিকাঠামো তৈরি করেছে।
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### ACLU টুলকিট
 

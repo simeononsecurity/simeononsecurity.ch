@@ -1,7 +1,7 @@
 ---
 title: "Vigilància amb càmeres Flock Safety: Privadesa i Protecció"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Descobreix el desplegament massiu de les càmeres Flock Safety ALPR el 2026, comprèn les implicacions per a la privadesa i aprèn estratègies efectives de contravigilància, inclosos dispositius de detecció."
@@ -277,7 +277,7 @@ ______
 
 L'organització de base funciona. Els consells municipals de tot el país estan cancel·lant contractes Flock quan els residents es presenten i exigeixen rendició de comptes. L'**ACLU** ha construït una infraestructura completa per ajudar les comunitats a lluitar.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="ACLU Get The Flock Out campaign banner promoting community action against Flock Safety ALPR cameras" caption="Communities nationwide are pushing back against ALPR surveillance. Image credit: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### El Kit d'Eines de l'ACLU
 

@@ -1,7 +1,7 @@
 ---
 title: "Vigilância por Câmeras Flock Safety: Privacidade e Proteção"
 date: 2026-05-24
-lastmod: 2026-08-01
+lastmod: 2026-10-08
 toc: true
 draft: false
 description: "Descubra a ampla implantação das câmeras ALPR da Flock Safety em 2026, compreenda as implicações para a privacidade e aprenda estratégias eficazes de contravigilância, incluindo dispositivos de detecção."
@@ -277,7 +277,7 @@ ______
 
 A organização de base está funcionando. Conselhos municipais em todo o país estão cancelando contratos da Flock quando os moradores comparecem e exigem responsabilidade. A **ACLU** construiu uma infraestrutura completa para ajudar as comunidades a reagir.
 
-{{< figure src="aclu-get-flock-out-header.jpg" alt="Banner da campanha ACLU Get The Flock Out promovendo ação comunitária contra as câmeras ALPR da Flock Safety" caption="Comunidades em todo o país estão reagindo contra a vigilância ALPR. Crédito da imagem: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
+{{< figure src="aclu-get-flock-out-header.webp" alt="Banner da campanha ACLU Get The Flock Out promovendo ação comunitária contra as câmeras ALPR da Flock Safety" caption="Comunidades em todo o país estão reagindo contra a vigilância ALPR. Crédito da imagem: ACLU" link="https://www.aclu.org/campaigns-initiatives/get-the-flock-out" >}}
 
 ### O Kit de Ferramentas da ACLU
 
