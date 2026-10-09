@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Решения VDI on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Решения VDI on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-vdi/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-vdi/</link>
+
+    <description>Recent content in Решения VDI on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-vdi/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware против Hyper-V против Proxmox: сравнение виртуализации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Виртуализация серверов"
+            
+              , "Корпоративное программное обеспечение"
+            
+              , "Облачные вычисления"
+            
+              , "Решения для дата-центров"
+            
+              , "Виртуализация с открытым исходным кодом"
+            
+              , "Управление виртуальными машинами"
+            
+              , "Сравнение виртуализации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя простое сравнение VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE и XCP-NG и выберите идеальное решение для виртуализации для успеха вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

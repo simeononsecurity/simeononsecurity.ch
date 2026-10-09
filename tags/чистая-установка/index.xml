@@ -1,0 +1,129 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Чистая Установка on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Чистая Установка on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/%D1%87%D0%B8%D1%81%D1%82%D0%B0%D1%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/%D1%87%D0%B8%D1%81%D1%82%D0%B0%D1%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0/</link>
+
+    <description>Recent content in Чистая Установка on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/%D1%87%D0%B8%D1%81%D1%82%D0%B0%D1%8F-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Как скачать чистый ISO-файл Windows и установить систему с нуля</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/how-to-install-windows-10-and-windows-11-from-scratch/</link>
+        
+        <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Windows 10"
+            
+              , "Windows 11"
+            
+              , "ISO-файл"
+            
+              , "Чистая установка"
+            
+              , "Media Creation Tool"
+            
+              , "Загрузочная USB-флешка"
+            
+              , "Установочный носитель"
+            
+              , "BIOS"
+            
+              , "Прошивка UEFI"
+            
+              , "Пользовательская установка"
+            
+              , "Ключ продукта"
+            
+              , "64-битная система"
+            
+              , "32-битная система"
+            
+              , "Rufus"
+            
+              , "ImgBurn"
+            
+              , "CDBurnerXP"
+            
+              , "HashCalc"
+            
+              , "Утилита проверки контрольных сумм MD5 и SHA"
+            
+              , "Тип системы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/how-to-install-windows-10-and-windows-11-from-scratch/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, как скачать чистый ISO-файл Windows и установить Windows с нуля с помощью этого пошагового руководства.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/A_cartoon_image_of_a_person_holding_a_USB_stick.webp" length="88866" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

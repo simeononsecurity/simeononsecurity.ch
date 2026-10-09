@@ -1,0 +1,1717 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/</link>
+
+    <description>Recent content on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Камеры Flock: Инструмент общественной безопасности или машина слежки без ордера?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link>
+        
+        <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Конфиденциальность"
+            
+              , "Слежка"
+            
+              , "Гражданские свободы"
+            
+              , "Технологии правоохранительных органов"
+            
+              , "Цифровые права"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Независимый анализ камер Flock Safety ALPR: как они реально работают, какие данные собирают помимо номерных знаков, как обмен данными создаёт теневую общенациональную базу данных и почему вопрос ордера является ключевой проблемой.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Flock Finder: Картирование камер ALPR Flock Safety</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link>
+        
+        <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Контрнаблюдение"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Цифровые права"
+            
+              , "Сетевая безопасность"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Аппаратный хакинг"
+            
+              , "Исследования безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Flock Finder — это инструмент с открытым исходным кодом, который картирует более 40 000 камер ALPR Flock Safety по всему миру с использованием данных WiFi от WiGLE и отпечатков OUI. Узнайте, как это работает, его ограничения и аппаратные инструменты для обнаружения в реальном времени.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Fortinet против Cisco: Полное сравнение сетевой безопасности...</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Кибербезопасность"
+            
+              , "Корпоративные сети"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Сетевое оборудование"
+            
+              , "Решения по безопасности"
+            
+              , "Управление сетью"
+            
+              , "Сравнение технологий"
+            
+              , "Принятие ИТ-решений"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Всестороннее сравнение решений Fortinet и Cisco для сетевой безопасности, включая межсетевые экраны, коммутаторы, SD-WAN, цены, показатели производительности и рекомендации по развертыванию на 2026 год.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Visual Studio Code против Visual Studio</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработки"
+            
+              , "IDE"
+            
+              , "Разработка программного обеспечения"
+            
+              , "Программирование"
+            
+              , "Редакторы кода"
+            
+              , "Visual Studio"
+            
+              , "VS Code"
+            
+              , "Разработка Microsoft"
+            
+              , "Инструменты для разработчиков"
+            
+              , "Программная инженерия"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение 2026 года Visual Studio Code и Visual Studio Community/Professional/Enterprise, включая функции, производительность, цены и сценарии использования, чтобы помочь разработчикам выбрать подходящую IDE.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Видеонаблюдение Flock Safety: Конфиденциальность и Защита</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии конфиденциальности"
+            
+              , "Системы видеонаблюдения"
+            
+              , "Цифровые права"
+            
+              , "Правоохранительные технологии"
+            
+              , "Защита конфиденциальности"
+            
+              , "Противодействие слежке"
+            
+              , "Гражданские свободы"
+            
+              , "Технологическая этика"
+            
+              , "Инфраструктура умного города"
+            
+              , "Оборудование безопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о широком распространении камер ALPR Flock Safety в 2026 году, разберитесь в последствиях для конфиденциальности и изучите эффективные стратегии противодействия слежке, включая устройства обнаружения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Обнаружение Flock-You: Руководство по настройке контрнаблюдения</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link>
+        
+        <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защитное оборудование"
+            
+              , "Контрнаблюдение"
+            
+              , "Технологии конфиденциальности"
+            
+              , "Проекты с открытым исходным кодом"
+            
+              , "Разработка ESP32"
+            
+              , "Мониторинг WiFi"
+            
+              , "Инструменты конфиденциальности"
+            
+              , "Цифровые права"
+            
+              , "Аппаратный хакинг"
+            
+              , "Сетевая безопасность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное техническое руководство по открытому проекту Flock-You для обнаружения ALPR-камер Flock Safety с использованием оборудования на базе ESP32. Включает инструкции по настройке, детали прошивки и варианты покупки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Поднимите свою IT-карьеру</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-network-certifications/</link>
+        
+        <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Развитие IT-карьеры"
+            
+              , "Обучение сетевым навыкам"
+            
+              , "Подготовка к сертификации"
+            
+              , "Профессиональное образование"
+            
+              , "Ресурсы по технологическим сертификатам"
+            
+              , "Стратегии карьерного роста"
+            
+              , "Формирование сетевой экспертизы"
+            
+              , "Информация о IT-квалификациях"
+            
+              , "Профессиональные IT-сети"
+            
+              , "Пути сертификации в кибербезопасности"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/the-ultimate-guide-to-network-certifications/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Освойте мир сетевых технологий с правильной сертификацией! Наш полный гид поможет вам проложить путь к становлению специалистом по сетям.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/the-ultimate-guide-to-network-certifications.webp" length="146710" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Выберите лучший сетевой фильтр: ваш полный гид</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</link>
+        
+        <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Защита электроники"
+            
+              , "Обзоры сетевых фильтров"
+            
+              , "Техническая безопасность"
+            
+              , "Настройка домашнего офиса"
+            
+              , "Управление электропитанием"
+            
+              , "Оборудование умного дома"
+            
+              , "Уход за гаджетами"
+            
+              , "Инструменты энергоэффективности"
+            
+              , "Безопасность бытовой техники"
+            
+              , "Решения для безопасности устройств"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Защитите свои гаджеты с помощью лучших сетевых фильтров! Узнайте важные советы по выбору для защиты электроники от скачков напряжения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/protecting-your-tech_-the-best-surge-protectors.webp" length="180618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Сравнение ОС: Windows, Linux и macOS. Функции и безопасность</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link>
+        
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Операционные системы"
+            
+              , "Технические обзоры"
+            
+              , "Сравнение программного обеспечения"
+            
+              , "Компьютерная безопасность"
+            
+              , "Дизайн пользовательского опыта"
+            
+              , "Производительность системы"
+            
+              , "Программное обеспечение с открытым исходным кодом"
+            
+              , "Технические руководства"
+            
+              , "Персональные вычисления"
+            
+              , "ИТ-решения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте, какая ОС лидирует по безопасности и удобству: Windows, Linux или macOS? Получите ключевые сведения, которые НУЖНЫ для выбора. Сделайте это прежде чем принять решение!
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Глоссарий технического жаргона: Руководство для начинающих по ИТ и аббревиатурам кибербезопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/effortless-tech-acronyms-beginners-guide/</link>
+        
+        <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Образование в ИТ"
+            
+              , "Технический глоссарий"
+            
+              , "Руководство для начинающих"
+            
+              , "Информатика"
+            
+              , "Цифровая грамотность"
+            
+              , "Аббревиатуры"
+            
+              , "Изучение технологий"
+            
+              , "Жаргон без тайн"
+            
+              , "Упрощённое ИТ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/effortless-tech-acronyms-beginners-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте мир ИТ с этим руководством для начинающих по техническим аббревиатурам, делая обучение легким для всех любителей технологий.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Tech-Acronyms-Explained.webp" length="63456" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>VMware против Hyper-V против Proxmox: сравнение виртуализации</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link>
+        
+        <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Виртуализация"
+            
+              , "ИТ-инфраструктура"
+            
+              , "Виртуализация серверов"
+            
+              , "Корпоративное программное обеспечение"
+            
+              , "Облачные вычисления"
+            
+              , "Решения для дата-центров"
+            
+              , "Виртуализация с открытым исходным кодом"
+            
+              , "Управление виртуальными машинами"
+            
+              , "Сравнение виртуализации"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя простое сравнение VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE и XCP-NG и выберите идеальное решение для виртуализации для успеха вашего бизнеса.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>pfSense против Firewalla против OPNsense</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link>
+        
+        <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "Решения по кибербезопасности"
+            
+              , "Управление сетью"
+            
+              , "Домашняя сеть"
+            
+              , "Корпоративная безопасность"
+            
+              , "Функции межсетевого экрана"
+            
+              , "Программное обеспечение безопасности"
+            
+              , "VPN-решения"
+            
+              , "Безопасность IoT-устройств"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение 2026 года решений pfSense, Firewalla и OPNsense для защиты домашних и корпоративных сетей. Найдите лучший вариант для ваших нужд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>LibreWolf против Firefox</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link>
+        
+        <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Конфиденциальность"
+            
+              , "Веб-браузеры"
+            
+              , "Онлайн-безопасность"
+            
+              , "Открытый исходный код"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Программное обеспечение"
+            
+              , "Сравнение"
+            
+              , "Кибербезопасность"
+            
+              , "Интернет-конфиденциальность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите особенности LibreWolf и Firefox, двух браузеров, ориентированных на конфиденциальность, чтобы сделать осознанный выбор для повышения безопасности и приватности в интернете.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Топ-5 техник безопасности и укрепления Linux</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link>
+        
+        <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технологии"
+            
+              , "Кибербезопасность"
+            
+              , "Linux"
+            
+              , "Безопасность системы"
+            
+              , "Открытый исходный код"
+            
+              , "Укрепление"
+            
+              , "ИТ"
+            
+              , "Защита данных"
+            
+              , "Сетевая безопасность"
+            
+              , "Информатика"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя топ-5 техник безопасности Linux, чтобы укрепить вашу систему против угроз. Повышайте целостность системы и защищайте конфиденциальные данные с помощью экспертных мер по укреплению.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Безопасный сервис электронной почты: Повышение уровня конфиденциальности с помощью StartMail</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/secure-email-service-startmail/</link>
+        
+        <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Конфиденциальность"
+            
+              , "Услуги электронной почты"
+            
+              , "Безопасность в Интернете"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Шифрование"
+            
+              , "Защита информации"
+            
+              , "Конфиденциальность электронной почты"
+            
+              , "Защита личности"
+            
+              , "Конфиденциальность в Интернете"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/secure-email-service-startmail/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя StartMail - безопасный почтовый сервис с усовершенствованной системой шифрования и маскировки электронной почты, обеспечивающий максимальную конфиденциальность и защиту от киберугроз.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Windows GVLKs: Использование возможностей лицензионных ключей для повышения производительности</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link>
+        
+        <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Программное обеспечение"
+            
+              , "Производительность"
+            
+              , "Операционные системы"
+            
+              , "Microsoft"
+            
+              , "Windows"
+            
+              , "Лицензирование"
+            
+              , "Управление ключами"
+            
+              , "ИТ-решения"
+            
+              , "Enhancement"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя, как Windows GVLK революционизируют производительность! Ознакомьтесь с лучшими лицензионными ключами и повысьте производительность своей системы без особых усилий.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp" length="71578" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Автоматизация установки Windows 11: Обход проверок TPM, безопасной загрузки и оперативной памяти</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link>
+        
+        <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Windows 11"
+            
+              , "Установка"
+            
+              , "Виртуализация"
+            
+              , "Автоматизация"
+            
+              , "Ключи реестра"
+            
+              , "Обходной путь TPM"
+            
+              , "Обход безопасной загрузки"
+            
+              , "Обход оперативной памяти"
+            
+              , "vTPM"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Оптимизация установки Windows 11 в виртуальных средах за счет обхода проверок TPM, Secure Boot и оперативной памяти с помощью autounattend.xml и vTPM.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Spacemesh Mining: Экологически чистый путь к децентрализованным вознаграждениям</title>
+        
+          <link>https://ru.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link>
+        
+        <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Майнинг криптовалюты"
+            
+              , "Доказательство пространства-времени"
+            
+              , "Децентрализованное вознаграждение"
+            
+              , "Экологически чистая добыча полезных ископаемых"
+            
+              , "Технология блокчейн"
+            
+              , "Криптовалюта"
+            
+              , "Майнинг криптовалют"
+            
+              , "Proof-of-Space"
+            
+              , "Децентрализация"
+            
+              , "Блокчейн-консенсус"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Зарабатывайте экологически чистые вознаграждения благодаря децентрализованному майнингу Spacemesh, использующему инновационный алгоритм консенсуса PoST.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/spacemesh-mining-rocket.webp" length="96402" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Виртуальные карты Privacy.com: как работает конфиденциальность платежей</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Безопасность платежей"
+            
+              , "Цифровая конфиденциальность"
+            
+              , "Виртуальные карты"
+            
+              , "Финансовая конфиденциальность"
+            
+              , "Предотвращение мошенничества"
+            
+              , "Безопасность потребителей"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Что хранится на платежной карте, почему магнитная полоса считается самым уязвимым местом, что видит продавец при оплате виртуальным номером и как на практике работают типы карт и лимиты Privacy.com.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Повышение безопасности виртуальных машин с помощью vTPM: Пошаговое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link>
+        
+        <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Кибербезопасность"
+            
+              , "Виртуализация"
+            
+              , "VMware"
+            
+              , "vSphere"
+            
+              , "Безопасность"
+            
+              , "Модуль доверенной платформы"
+            
+              , "vTPM"
+            
+              , "Гостевая ОС"
+            
+              , "Шифрование"
+            
+              , "Аттестация платформы"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Повышение безопасности виртуальных машин с использованием vTPM с помощью нашего исчерпывающего пошагового руководства, обеспечивающего аттестацию платформы и поддержку шифрования BitLocker.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Mastering VMware vSphere: Полное руководство по значениям guest_os_type</title>
+        
+          <link>https://ru.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link>
+        
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+          "cybersecurity", "security", "information security"
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о допустимых значениях типа гостевой ОС для vSphere Packer Builder, что позволит оптимизировать процесс создания ВМ для VMware vSphere.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.webp" length="180110" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Раскрытие партнерских отношений: поддержите нас и откройте для себя удивительные услуги</title>
+        
+          <link>https://ru.simeononsecurity.com/affiliate/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Раскрытие информации о партнерах"
+            
+              , "Онлайн-сервисы"
+            
+              , "Рекомендации по продуктам"
+            
+              , "Цифровые продукты"
+            
+              , "Партнерский маркетинг"
+            
+              , "Заработок в Интернете"
+            
+              , "Монетизация сайта"
+            
+              , "Заработок в Интернете"
+            
+              , "Интернет-маркетинг"
+            
+              , "Прозрачность"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/affiliate/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Узнайте о нашей политике раскрытия информации об аффилированных лицах и ознакомьтесь с такими первоклассными сервисами, как Amazon, Audible, StartMail и др.
+          
+        
+        </description>
+          
+          
+            
+            
+            
+          
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Расширение возможностей национальной безопасности: Электрокибернетическое воздействие биткойна</title>
+        
+          <link>https://ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link>
+        
+        <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Криптовалюта"
+            
+              , "Кибербезопасность"
+            
+              , "Технология"
+            
+              , "Национальная безопасность"
+            
+              , "Исследование"
+            
+              , "Финансы"
+            
+              , "Инновации"
+            
+              , "Цифровая валюта"
+            
+              , "Разработка политики"
+            
+              , "Blockchain"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Изучите новаторскую теорию проекции мощности и ее последствия для национальной безопасности, поскольку биткойн превращается в мощную технологию электрокибербезопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/empowered-national-security.webp" length="155026" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Частный веб-хостинг: Защитите свое присутствие в Интернете с помощью лучших провайдеров</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link>
+        
+        <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Веб-хостинг"
+            
+              , "Конфиденциальность в Интернете"
+            
+              , "Безопасность данных"
+            
+              , "Частный хостинг"
+            
+              , "Анонимный домен"
+            
+              , "Выделенные серверы"
+            
+              , "VPS-хостинг"
+            
+              , "Защита информации"
+            
+              , "Свобода слова"
+            
+              , "Биткойн-платежи"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Найдите лучший частный веб-хостинг для обеспечения безопасности вашего присутствия в Интернете. Сравните Privex, OrangeWebsite, 1984 и Njalla, предлагающие первоклассный уровень конфиденциальности и безопасности.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/privacy_hosting_security_shield.webp" length="98742" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Хостинг OrangeWebsite: Развертывание успеха в Интернете с помощью скорости и безопасности</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</link>
+        
+        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Технология"
+            
+              , "Веб-хостинг"
+            
+              , "Кибербезопасность"
+            
+              , "Бизнес"
+            
+              , "Цифровые услуги"
+            
+              , "Управление сайтом"
+            
+              , "Интернет"
+            
+              , "Электронная коммерция"
+            
+              , "Облачный хостинг"
+            
+              , "Хостинг серверов"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Откройте для себя возможности хостинга OrangeWebsite - быстрые, безопасные и надежные решения для всех ваших веб-сайтов.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

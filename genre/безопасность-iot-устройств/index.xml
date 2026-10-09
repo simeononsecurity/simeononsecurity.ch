@@ -1,0 +1,111 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Безопасность IoT-Устройств on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Безопасность IoT-Устройств on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2/</link>
+
+    <description>Recent content in Безопасность IoT-Устройств on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/genre/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C-iot-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>pfSense против Firewalla против OPNsense</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link>
+        
+        <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Сетевая безопасность"
+            
+              , "Сравнение межсетевых экранов"
+            
+              , "Решения по кибербезопасности"
+            
+              , "Управление сетью"
+            
+              , "Домашняя сеть"
+            
+              , "Корпоративная безопасность"
+            
+              , "Функции межсетевого экрана"
+            
+              , "Программное обеспечение безопасности"
+            
+              , "VPN-решения"
+            
+              , "Безопасность IoT-устройств"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Полное сравнение 2026 года решений pfSense, Firewalla и OPNsense для защиты домашних и корпоративных сетей. Найдите лучший вариант для ваших нужд.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
