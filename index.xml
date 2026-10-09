@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simeononsecurity</title><image><url>https://nl.simeononsecurity.com/img/banner.webp</url><title>simeononsecurity</title><link>https://nl.simeononsecurity.com/</link></image><link>https://nl.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>nl</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://nl.simeononsecurity.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock-camera's: Instrument voor openbare veiligheid of machine voor bewaking zonder bevel?</title><link>https://nl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</link><pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate><category>
+"Privacy"
+, "Bewaking"
+, "Burgerlijke vrijheden"
+, "Technologie voor rechtshandhaving"
+, "Digitale rechten"</category><guid>https://nl.simeononsecurity.com/articles/flock-cameras-public-safety-or-surveillance-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Een onafhankelijke analyse van Flock Safety ALPR-camera's: hoe ze werkelijk functioneren, welke gegevens ze verzamelen buiten kentekenplaten, hoe gegevensdeling een schaduwdatabase op nationaal niveau creëert, en waarom de kwestie van het bevel de echte kernvraag is.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-safety-cameras-public-safety-surveillance.webp" length="257030" type="image/webp"/></item><item><title>Flock Finder: Kaart van Flock Safety ALPR-camera's</title><link>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Tegenbewaking"
+, "Open-sourceprojecten"
+, "Digitale rechten"
+, "Netwerkbeveiliging"
+, "Privacy-tools"
+, "Hardware-hacking"
+, "Beveiligingsonderzoek"</category><guid>https://nl.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder is een open-source tool die wereldwijd meer dan 40.000 Flock Safety ALPR-camera's in kaart brengt met behulp van WiGLE WiFi-gegevens en OUI-vingerafdrukken. Leer hoe het werkt, de beperkingen en de hardwaretools voor realtime detectie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>Flock Safety Camerabewaking: Privacy en Bescherming</title><link>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Privacytechnologie"
+, "Surveillancesystemen"
+, "Digitale Rechten"
+, "Wetshandhavingstechnologie"
+, "Privacybescherming"
+, "Contra-surveillance"
+, "Burgerlijke Vrijheden"
+, "Technologie-ethiek"
+, "Slimme Stadsinfrastructuur"
+, "Beveiligingshardware"</category><guid>https://nl.simeononsecurity.com/articles/flock-safety-camera-surveillance-prevalence-privacy-protection-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de wijdverspreide inzet van Flock Safety ALPR-camera's in 2026, begrijp de privacyimplicaties en leer effectieve contra-surveillancestrategieën inclusief detectieapparaten.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-safety-camera-surveillance-prevalence-privacy-protection-2026.webp" length="316668" type="image/webp"/></item><item><title>Flock-You Detectie: Handleiding voor Contra-Surveillance</title><link>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Beveiligingshardware"
+, "Contra-surveillance"
+, "Privacytechnologie"
+, "Open Source Projecten"
+, "ESP32 Ontwikkeling"
+, "WiFi Monitoring"
+, "Privacytools"
+, "Digitale Rechten"
+, "Hardware Hacking"
+, "Netwerkbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide technische handleiding voor het open-source Flock-You project voor het detecteren van Flock Safety ALPR-camera's met ESP32-hardware. Inclusief installatie-instructies, firmware-details en aankoopinformatie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>Fortinet vs Cisco: Complete vergelijking netwerkbeveiliging...</title><link>https://nl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "Cybersecurity"
+, "Enterprise-netwerken"
+, "Firewallvergelijking"
+, "IT-infrastructuur"
+, "Netwerkhardware"
+, "Beveiligingsoplossingen"
+, "Netwerkbeheer"
+, "Technologievergelijking"
+, "IT-besluitvorming"</category><guid>https://nl.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide vergelijking van Fortinet en Cisco netwerkbeveiligingsoplossingen inclusief firewalls, switches, SD-WAN, prijsstelling, prestatiebenchmarks en implementatie-aanbevelingen voor 2026.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>Visual Studio Code versus Visual Studio</title><link>https://nl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Ontwikkeltools"
+, "IDE"
+, "Softwareontwikkeling"
+, "Programmeren"
+, "Code-editors"
+, "Visual Studio"
+, "VS Code"
+, "Microsoft-ontwikkeling"
+, "Ontwikkelaarstools"
+, "Software-engineering"</category><guid>https://nl.simeononsecurity.com/articles/visual-studio-code-vs-visual-studio-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide vergelijking 2026 van Visual Studio Code en Visual Studio Community/Professional/Enterprise inclusief functies, prestaties, prijzen en gebruiksscenario's om ontwikkelaars te helpen de juiste IDE te kiezen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/visual-studio-code-vs-visual-studio-comparison.webp" length="147806" type="image/webp"/></item><item><title>Til je IT-carrière naar een hoger niveau</title><link>https://nl.simeononsecurity.com/articles/the-ultimate-guide-to-network-certifications/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><category>
+"IT-carrièreontwikkeling"
+, "Training netwerktechnieken"
+, "Voorbereiding op certificering"
+, "Professioneel onderwijs"
+, "Technologiecertificeringsbronnen"
+, "Strategieën voor carrièreontwikkeling"
+, "Opbouw van netwerkexpertise"
+, "Inzichten in IT-kwalificaties"
+, "Netwerken voor techprofessionals"
+, "Cybersecurity-certificeringsroutes"</category><guid>https://nl.simeononsecurity.com/articles/the-ultimate-guide-to-network-certifications/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Beheers de wereld van netwerken met de juiste certificering! Onze ultieme gids helpt je op weg om Netwerkspecialist te worden.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/the-ultimate-guide-to-network-certifications.webp" length="146710" type="image/webp"/></item><item><title>Kies de Beste Overspanningsbeveiliging: Uw Uitgebreide Gids</title><link>https://nl.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</link><pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate><category>
+"Elektronica Bescherming"
+, "Overspanningsbeveiliging Reviews"
+, "Technische Veiligheid"
+, "Thuiswerkplek Inrichting"
+, "Stroomvoorziening Beheer"
+, "Slimme Huisapparatuur"
+, "Apparaatverzorging"
+, "Energie-efficiëntie Hulpmiddelen"
+, "Apparaatbeveiliging"
+, "Oplossingen voor Apparatenveiligheid"</category><guid>https://nl.simeononsecurity.com/articles/protecting-your-tech_-the-best-surge-protectors/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Bescherm Uw Apparaten met Top Overspanningsbeveiligers! Leer essentiële selectietips om elektronica te beschermen tegen spanningspieken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/protecting-your-tech_-the-best-surge-protectors.webp" length="180618" type="image/webp"/></item><item><title>Vergelijking van besturingssystemen: Windows, Linux &amp; macOS functies en beveiliging</title><link>https://nl.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</link><pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate><category>
+"Besturingssystemen"
+, "Technische recensies"
+, "Softwarevergelijking"
+, "Computerbeveiliging"
+, "Gebruikerservaring ontwerp"
+, "Systeemprestaties"
+, "Open source software"
+, "Technische handleidingen"
+, "Persoonlijk computergebruik"
+, "IT-oplossingen"</category><guid>https://nl.simeononsecurity.com/articles/operating-systems_-windows-linux-and-macos-compared/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek welk besturingssysteem uitblinkt in beveiliging en gebruiksgemak: Windows, Linux of macOS? Krijg de essentiële inzichten die je MOET weten voordat je een keuze maakt!</description><enclosure url="https://nl.simeononsecurity.com/img/cover/operating-systems_-windows-linux-and-macos-compared.webp" length="44424" type="image/webp"/></item><item><title>Technische Jargonwoordenlijst: Een Beginnersgids voor IT- en Cyberbeveiligingsafkortingen</title><link>https://nl.simeononsecurity.com/articles/effortless-tech-acronyms-beginners-guide/</link><pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "IT-Onderwijs"
+, "Technische Woordenlijst"
+, "Beginnersgids"
+, "Informatica"
+, "Digitale Geletterdheid"
+, "Afkortingen"
+, "Techniek Leren"
+, "Jargon Ontwarren"
+, "Vereenvoudigde IT"</category><guid>https://nl.simeononsecurity.com/articles/effortless-tech-acronyms-beginners-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontgrendel de wereld van IT met deze beginnersgids voor technische afkortingen, waardoor leren moeiteloos wordt voor alle techliefhebbers.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Tech-Acronyms-Explained.webp" length="63456" type="image/webp"/></item><item><title>VMware vs Hyper-V vs Proxmox: Virtualisatie Vergelijken</title><link>https://nl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</link><pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Virtualisatie"
+, "IT-Infrastructuur"
+, "Servervirtualisatie"
+, "Enterprise Software"
+, "Cloud Computing"
+, "Datacenteroplossingen"
+, "Open Source Virtualisatie"
+, "Beheer van Virtuele Machines"
+, "Virtualisatievergelijking"</category><guid>https://nl.simeononsecurity.com/articles/vmware-esxi-citrix-xenserver-hyper-v-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de moeiteloze vergelijking van VMware ESXi, Citrix XenServer, Hyper-V, Proxmox VE en XCP-NG en kies uw ideale virtualisatieoplossing voor zakelijk succes.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/virtualization-server-comparison.webp" length="66598" type="image/webp"/></item><item><title>pfSense vs Firewalla vs OPNsense</title><link>https://nl.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"Netwerkbeveiliging"
+, "Firewall Vergelijking"
+, "Cybersecurity Oplossingen"
+, "Netwerkbeheer"
+, "Thuisnetwerk"
+, "Bedrijfsbeveiliging"
+, "Firewallfuncties"
+, "Beveiligingssoftware"
+, "VPN Oplossingen"
+, "Beveiliging van IoT-apparaten"</category><guid>https://nl.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Uitgebreide vergelijking 2026 van pfSense, Firewalla en OPNsense firewall-oplossingen voor thuis- en bedrijfsnetwerkbeveiliging. Vind de beste optie voor uw behoeften.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://nl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Privacy"
+, "Webbrowsers"
+, "Online Beveiliging"
+, "Open Source"
+, "Digitale Privacy"
+, "Software"
+, "Vergelijking"
+, "Cybersecurity"
+, "Internetprivacy"</category><guid>https://nl.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de functies van LibreWolf en Firefox, twee privacygerichte browsers, om een weloverwogen keuze te maken voor verbeterde online beveiliging en privacy.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Top 5 Linux Beveiligings- en Versterkingstechnieken</title><link>https://nl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Cybersecurity"
+, "Linux"
+, "Systeembeveiliging"
+, "Open-source"
+, "Versterking"
+, "IT"
+, "Gegevensbescherming"
+, "Netwerkbeveiliging"
+, "Informatica"</category><guid>https://nl.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de top 5 Linux beveiligingstechnieken om uw systeem te versterken tegen bedreigingen. Verbeter de systeemechtheid en bescherm gevoelige gegevens met deskundige versterkingsmaatregelen.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>Beveiligde e-mailservice: Meer privacy met StartMail</title><link>https://nl.simeononsecurity.com/articles/secure-email-service-startmail/</link><pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Privacy"
+, "E-mail diensten"
+, "Online beveiliging"
+, "Digitale privacy"
+, "Encryptie"
+, "Gegevensbescherming"
+, "E-mail privacy"
+, "Identiteitsbescherming"
+, "Online privacy"</category><guid>https://nl.simeononsecurity.com/articles/secure-email-service-startmail/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek StartMail, een veilige e-mailservice met geavanceerde versleuteling en e-mailmaskering, die de grootst mogelijke privacy en bescherming tegen cyberbedreigingen biedt.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/secure_email_guard.webp" length="45872" type="image/webp"/></item><item><title>Windows GVLK's: De kracht van licentiesleutels ontsluiten voor betere prestaties</title><link>https://nl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Software"
+, "Productiviteit"
+, "Besturingssystemen"
+, "Microsoft"
+, "Windows"
+, "Licentie"
+, "Sleutelbeheer"
+, "IT-oplossingen"
+, "Verbetering"</category><guid>https://nl.simeononsecurity.com/guides/windows-gvlks-enhanced-performance/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek hoe Windows GVLK's de prestaties revolutioneren! Ontdek de beste licentiesleutels en verhoog de productiviteit van je systeem moeiteloos.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows_gvlks_unlocked.webp" length="71578" type="image/webp"/></item><item><title>Windows 11-installatie automatiseren: TPM, Secure Boot en RAM-controles omzeilen</title><link>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</link><pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Windows 11"
+, "Installatie"
+, "Virtualisatie"
+, "Automatisering"
+, "Registersleutels"
+, "TPM omleiding"
+, "Beveiligd opstarten omzeilen"
+, "RAM omleiding"
+, "vTPM"</category><guid>https://nl.simeononsecurity.com/guides/automate-windows-11-installation-bypass-tpm-secure-boot-ram/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Stroomlijn de installatie van Windows 11 in gevirtualiseerde omgevingen door TPM, Secure Boot en RAM-controles te omzeilen met autounattend.xml en vTPM.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/windows11-installation-cartoon.webp" length="56442" type="image/webp"/></item><item><title>Spacemesh Mijnbouw: Het milieuvriendelijke pad naar gedecentraliseerde beloningen</title><link>https://nl.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><category>
+"Mijnen van cryptocurrency"
+, "Bewijs van ruimte-tijd"
+, "Gedecentraliseerde beloningen"
+, "Milieuvriendelijke mijnbouw"
+, "Blockchain Technologie"
+, "Cryptocurrency"
+, "Cryptomining"
+, "Bewijs van ruimte"
+, "Decentralisatie"
+, "Blockchain consensus"</category><guid>https://nl.simeononsecurity.com/other/spacemesh-mining-eco-friendly-decentralized-rewards/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verdien milieuvriendelijke beloningen met Spacemesh mining, een gedecentraliseerde aanpak die gebruik maakt van het innovatieve PoST consensus algoritme.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/spacemesh-mining-rocket.webp" length="96402" type="image/webp"/></item><item><title>Privacy.com Virtuele Kaarten: Hoe Betalingsprivacy Werkt</title><link>https://nl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link><pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate><category>
+"Betalingsbeveiliging"
+, "Digitale Privacy"
+, "Virtuele Kaarten"
+, "Financiële Privacy"
+, "Fraudepreventie"
+, "Consumentenbeveiliging"</category><guid>https://nl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Wat er op een betaalkaart wordt opgeslagen, waarom de magneetstrip het zwakste onderdeel is, wat een handelaar ziet wanneer je betaalt met een virtueel nummer, en hoe de kaarttypes en limieten van Privacy.com in de praktijk werken.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp"/></item><item><title>Verbeter de beveiliging van virtuele machines met vTPM: Stap-voor-stap handleiding</title><link>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</link><pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate><category>
+"Cyberbeveiliging"
+, "Virtualisatie"
+, "VMware"
+, "vSphere"
+, "Beveiliging"
+, "Vertrouwde platformmodule"
+, "vTPM"
+, "Gast OS"
+, "Encryptie"
+, "Platform Attest"</category><guid>https://nl.simeononsecurity.com/guides/enable-virtual-trusted-platform-module-for-existing-virtual-machine/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verbeter de beveiliging van virtuele machines met behulp van vTPM met onze uitgebreide stap-voor-stap handleiding, die ondersteuning biedt voor platform-attestatie en BitLocker-encryptie.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/enhanced-vm-security.webp" length="99734" type="image/webp"/></item><item><title>VMware vSphere onder de knie krijgen: Complete handleiding voor guest_os_type-waarden</title><link>https://nl.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><category>
+"cybersecurity", "security", "information security"</category><guid>https://nl.simeononsecurity.com/guides/vmware-vsphere-guest-os-types.png/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de geldige waarden voor het guest os-type voor vSphere Packer Builder, zodat u uw VM-creatieproces voor VMware vSphere eenvoudig kunt optimaliseren.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/vmware-vsphere-guest-os-types.webp" length="180110" type="image/webp"/></item><item><title>Affiliate informatieverschaffing: Steun ons en ontdek geweldige diensten</title><link>https://nl.simeononsecurity.com/affiliate/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Affiliate openbaarmaking"
+, "Online diensten"
+, "Productaanbevelingen"
+, "Digitale producten"
+, "Affiliate marketing"
+, "Online verdiensten"
+, "Website Monetization"
+, "Online verdienen"
+, "Internetmarketing"
+, "Transparantie"</category><guid>https://nl.simeononsecurity.com/affiliate/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Lees meer over ons beleid voor het bekendmaken van affiliates en ontdek topdiensten zoals Amazon, Audible, StartMail en meer.</description></item><item><title>De nationale veiligheid versterken: De impact van Bitcoin op Elektro-Cyber</title><link>https://nl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><category>
+"Cryptocurrency"
+, "Cyberbeveiliging"
+, "Technologie"
+, "Nationale Veiligheid"
+, "Onderzoek"
+, "Financieel"
+, "Innovatie"
+, "Digitale valuta"
+, "Beleidsvorming"
+, "Blockchain"</category><guid>https://nl.simeononsecurity.com/other/empowered-national-security-bitcoin-electro-cyber/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Verken de baanbrekende Power Projection Theory en de implicaties ervan voor de nationale veiligheid, nu Bitcoin verandert in een krachtige technologie voor elektro-cyberbeveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/empowered-national-security.webp" length="155026" type="image/webp"/></item><item><title>Privé webhosting: Bescherm uw online aanwezigheid met topaanbieders</title><link>https://nl.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</link><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate><category>
+"Webhosting"
+, "Online privacy"
+, "Gegevensbeveiliging"
+, "Privé Hosting"
+, "Anoniem domein"
+, "Dedicated servers"
+, "VPS Hosting"
+, "Gegevensbescherming"
+, "Vrijheid van meningsuiting"
+, "Bitcoin-betalingen"</category><guid>https://nl.simeononsecurity.com/articles/private-web-hosting-comparison-top-providers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Vind de beste privé webhostingservice om je online aanwezigheid te beveiligen. Vergelijk Privex, OrangeWebsite, 1984 en Njalla voor de beste privacy en beveiliging.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/privacy_hosting_security_shield.webp" length="98742" type="image/webp"/></item><item><title>OrangeWebsite Web Hosting: Ontketen uw online succes met snelheid en veiligheid</title><link>https://nl.simeononsecurity.com/articles/orangwebsite-web-hosting/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><category>
+"Technologie"
+, "Webhosting"
+, "Cyberbeveiliging"
+, "Bedrijf"
+, "Digitale diensten"
+, "Website Beheer"
+, "Internet"
+, "E-commerce"
+, "Cloud Hosting"
+, "Server Hosting"</category><guid>https://nl.simeononsecurity.com/articles/orangwebsite-web-hosting/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Ontdek de kracht van OrangeWebsite Web Hosting voor uw online ondernemingen - snelle, veilige en betrouwbare oplossingen voor al uw websitebehoeften.</description><enclosure url="https://nl.simeononsecurity.com/img/cover/OrangeWebsite-rocket.webp" length="58398" type="image/webp"/></item></channel></rss>
