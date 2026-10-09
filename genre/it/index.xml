@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IT on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>IT on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/it/</link></image><link>https://ja.simeononsecurity.com/genre/it/</link><description>Recent content in IT on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/it/index.xml" rel="self" type="application/rss+xml"/><item><title>Linuxセキュリティとハードニングのトップ5技術</title><link>https://ja.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "Linux"
+, "システムセキュリティ"
+, "オープンソース"
+, "ハードニング"
+, "IT"
+, "データ保護"
+, "ネットワークセキュリティ"
+, "コンピュータサイエンス"</category><guid>https://ja.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+システムを脅威から強化するためのトップ5のLinuxセキュリティ技術を発見しましょう。専門的なハードニング対策でシステムの整合性を向上させ、機密データを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>PowerShellによるActive Directory管理</title><link>https://ja.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</link><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "Windows"
+, "PowerShell"
+, "Active Directory"
+, "管理"
+, "スクリプティング"
+, "IT"
+, "自動化"
+, "Windows Server"
+, "Microsoft"</category><guid>https://ja.simeononsecurity.com/articles/active-directory-module-powershell-installation-usage-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+PowerShell用のActive Directoryモジュールを効果的にインストールし、使用する方法を学び、Windows Active Directoryの管理作業を簡素化しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/active-directory-module-powershell-installation-usage-guide.webp" length="86330" type="image/webp"/></item></channel></rss>

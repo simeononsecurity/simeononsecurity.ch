@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オープンソース on simeononsecurity</title><image><url>https://ja.simeononsecurity.com/img/banner.webp</url><title>オープンソース on simeononsecurity</title><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/</link></image><link>https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/</link><description>Recent content in オープンソース on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ja</language><lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ja.simeononsecurity.com/genre/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>LibreWolf対Firefox</title><link>https://ja.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "プライバシー"
+, "ウェブブラウザ"
+, "オンラインセキュリティ"
+, "オープンソース"
+, "デジタルプライバシー"
+, "ソフトウェア"
+, "比較"
+, "サイバーセキュリティ"
+, "インターネットプライバシー"</category><guid>https://ja.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プライバシー重視のブラウザであるLibreWolfとFirefoxの特徴を探り、オンラインのセキュリティとプライバシーを強化するための情報に基づいた選択をしましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Linuxセキュリティとハードニングのトップ5技術</title><link>https://ja.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"テクノロジー"
+, "サイバーセキュリティ"
+, "Linux"
+, "システムセキュリティ"
+, "オープンソース"
+, "ハードニング"
+, "IT"
+, "データ保護"
+, "ネットワークセキュリティ"
+, "コンピュータサイエンス"</category><guid>https://ja.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+システムを脅威から強化するためのトップ5のLinuxセキュリティ技術を発見しましょう。専門的なハードニング対策でシステムの整合性を向上させ、機密データを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>2026年の最高プライバシーブラウザ：LibreWolf vs Brave vs Tor</title><link>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</link><pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate><category>
+"ブラウザ"
+, "プライバシー"
+, "セキュリティ"
+, "インターネット"
+, "テクノロジー"
+, "デジタルプライバシー"
+, "オンライン安全"
+, "オープンソース"
+, "匿名性"
+, "ウェブ閲覧"</category><guid>https://ja.simeononsecurity.com/articles/best-privacy-browsers-librewolf-brave-firefox-tor/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+2026年の最高のプライバシー重視ブラウザを包括的に比較：LibreWolf、Brave、Firefox、Torなど。詳細なプライバシーテスト、パフォーマンスベンチマーク、セキュリティ分析でオンラインデータを保護します。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/best-privacy-browsers-librewolf-brave-firefox-tor.webp" length="242396" type="image/webp"/></item><item><title>Ansibleの自動化：プレーンなAnsibleからAnsible TowerとSemaphoreまで</title><link>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate><category>
+"オートメーション"
+, "インフラ管理"
+, "コンフィギュレーション管理"
+, "デブオプス"
+, "ITオペレーション"
+, "オープンソース"
+, "ワークフロー管理"
+, "スケーラビリティ"
+, "コラボレーション"
+, "Ansibleツール"</category><guid>https://ja.simeononsecurity.com/articles/ansible-vs-ansible-semaphore-vs-ansible-tower/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+プレーンなAnsible、Ansible Tower、Ansible Semaphoreを比較してAnsible自動化のパワーを発見し、効率的なインフラ管理のために適切なツールを選択しましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_symbolic_illustration_showing_interconnected_gears_symbol.webp" length="98438" type="image/webp"/></item><item><title>Homeboxで生産性を向上させる：オープンソースの在庫管理・資産管理</title><link>https://ja.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><category>
+"技術情報"
+, "インベントリーマネジメント"
+, "アセットマネジメント"
+, "オープンソース"
+, "生産性"
+, "スモールビジネス"
+, "ホームマネジメント"
+, "セルフホスティング"
+, "ソフトウェア"
+, "組織"</category><guid>https://ja.simeononsecurity.com/articles/what-is-homebox-inventory-and-asset-management/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在庫や資産管理を効率的に行うオープンソースソフトウェア、Homeboxのパワーを発見し、家庭やスモールビジネスの生産性を向上させましょう。</description><enclosure url="https://ja.simeononsecurity.com/img/cover/A_cartoon_illustration_of_a_person_organizing_various_items.webp" length="60896" type="image/webp"/></item></channel></rss>
