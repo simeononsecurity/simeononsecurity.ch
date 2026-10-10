@@ -1,6 +1,7 @@
 ---
 title: "Network+ Course: ARP and Neighbor Discovery Protocol"
 date: 2023-07-10
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn how to effectively utilize Address Resolution Protocol (ARP) and Neighbor Discovery Protocol (NDP) to resolve IP addresses to MAC addresses, navigate IPv6 networks, and troubleshoot common issues for optimized network performance and security."
@@ -118,6 +119,36 @@ When working with **ARP** and **NDP**, network administrators may encounter vari
 Remember that troubleshooting network issues requires a systematic approach, including gathering information, isolating the problem, and applying appropriate solutions based on the analysis of the issue.
 
 For more information on troubleshooting ARP and NDP issues, refer to the documentation and resources provided by the respective operating system or network equipment manufacturers.
+
+## Practical Cache Checks and Security Controls
+
+Use the host cache as a starting point, not as proof of a healthy path. A stale entry, duplicate address, VLAN error, or local firewall rule often produces the same symptom as a failed ARP request.
+
+Windows commands:
+
+```powershell
+arp -a
+Get-NetNeighbor -AddressFamily IPv4
+Get-NetNeighbor -AddressFamily IPv6
+```
+
+Linux commands:
+
+```shell
+ip neigh show
+ip -6 neigh show
+ip -s neigh show
+```
+
+Use this troubleshooting order:
+
+1. Confirm the interface, VLAN, IP address, prefix, and default gateway.
+2. Check the cache state. `REACHABLE`, `STALE`, `DELAY`, `PROBE`, `FAILED`, and `INCOMPLETE` describe different stages of neighbor resolution.
+3. Capture traffic on the affected link. Look for an ARP request with no reply, an unexpected reply, or IPv6 Router Advertisements from an unapproved router.
+4. Compare the observed MAC address with the switch's forwarding table and the expected device inventory.
+5. Record the stale entry before clearing it, then repeat the test. A cache flush hides evidence when performed first.
+
+ARP inspection and port-security features on managed switches help limit forged IPv4 replies. Cisco's [Dynamic ARP Inspection guidance](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9400/software/release/17-18/configuration_guide/sec/b_1718_sec_9400_cg/configuring_dynamic_arp_inspection.pdf) describes one vendor implementation. IPv6 needs separate controls, such as [RA Guard](https://www.rfc-editor.org/rfc/rfc6105.html) where supported, because NDP uses ICMPv6 messages. These controls reduce risk but do not prove a device is trusted. The [ARP specification, RFC 826](https://www.rfc-editor.org/rfc/rfc826.html) defines IPv4 address resolution. [RFC 4861](https://www.rfc-editor.org/rfc/rfc4861.html) defines IPv6 Neighbor Discovery and its security considerations.
 
 ## Conclusion: Understanding ARP and NDP in Network Communication
 
