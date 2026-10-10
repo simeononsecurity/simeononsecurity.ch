@@ -34,6 +34,7 @@ If the tool does not discover repository skills automatically, open the linked
 |---|---|
 | Write or revise an article, guide, comparison, or video-based article | [sos-write-article](.agents/skills/sos-write-article/SKILL.md) |
 | Generate, replace, convert, or verify article covers and inline images | [sos-content-media](.agents/skills/sos-content-media/SKILL.md) |
+| Use the repository's bundled media-generation and validation scripts | [sos-repo-media-generation](.agents/skills/sos-repo-media-generation/SKILL.md) |
 | Build or extend a course, certification treatment, quiz bank, or course lab | [sos-build-course](.agents/skills/sos-build-course/SKILL.md) |
 | Turn a supplied CTF, HackTheBox, or Sherlock solve into a writeup | [sos-write-writeup](.agents/skills/sos-write-writeup/SKILL.md) |
 | Validate or debug Hugo rendering, metadata, shortcodes, feeds, or asset paths | [sos-hugo-validation](.agents/skills/sos-hugo-validation/SKILL.md) |
