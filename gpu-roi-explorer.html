@@ -512,6 +512,34 @@
             <option value="all">All cards</option>
             <option value="consumer">Consumer cards</option>
             <option value="pro">Professional cards</option>
+            <option value="datacenter">Datacenter cards</option>
+            <option value="reference">Reference entries</option>
+          </select>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="gpuFamily">Architecture family</label>
+          <select id="gpuFamily">
+            <option value="all">All families</option>
+            <option value="Blackwell">Blackwell</option>
+            <option value="Grace Blackwell">Grace Blackwell</option>
+            <option value="Ada">Ada</option>
+            <option value="Ampere A">Ampere A</option>
+            <option value="Pascal P">Pascal P</option>
+            <option value="Volta V">Volta V</option>
+            <option value="Hopper H">Hopper H</option>
+            <option value="AMD RDNA">AMD RDNA</option>
+            <option value="Strix Halo">Strix Halo</option>
+            <option value="AMD CDNA">AMD CDNA</option>
+            <option value="Turing">Turing</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="gpuScope">VRAM scope</label>
+          <select id="gpuScope">
+            <option value="24plus">24GB and up</option>
+            <option value="all">All catalog entries</option>
+            <option value="reference">Below 24GB reference</option>
           </select>
         </div>
         <div class="gpu-roi-control">
@@ -525,14 +553,36 @@
           <small>Leave blank for no upper limit.</small>
         </div>
         <div class="gpu-roi-control">
+          <label for="supportFilter">Runtime support</label>
+          <select id="supportFilter">
+            <option value="all">All support states</option>
+            <option value="nohack">Supported without hacks</option>
+            <option value="native">Native support on every path</option>
+            <option value="cuda">CUDA supported</option>
+            <option value="llama">llama.cpp supported</option>
+            <option value="rocm">ROCm supported</option>
+            <option value="ollama">Ollama supported</option>
+          </select>
+        </div>
+        <div class="gpu-roi-control">
           <label for="sortBy">Sort rows by</label>
           <select id="sortBy">
             <option value="best">Best modeled ROI</option>
+            <option value="name">GPU name</option>
+            <option value="vram">VRAM capacity</option>
+            <option value="power">AI power draw</option>
+            <option value="miningNet">Mining net per day</option>
             <option value="mining">Mining ROI</option>
             <option value="average">Average API ROI</option>
             <option value="frontier">Frontier API ROI</option>
             <option value="price">Street price</option>
             <option value="speed">Qwen generation speed</option>
+            <option value="support">Supported runtime paths</option>
+            <option value="cuda">CUDA support</option>
+            <option value="llama">llama.cpp support</option>
+            <option value="rocm">ROCm support</option>
+            <option value="ollama">Ollama support</option>
+            <option value="worst">Worst modeled ROI</option>
           </select>
         </div>
       </div>
@@ -566,15 +616,16 @@
         <caption id="comparison-title" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);">GPU ROI comparison</caption>
         <thead>
           <tr>
-            <th scope="col">GPU</th>
-            <th scope="col">VRAM</th>
-            <th scope="col">Street</th>
-            <th scope="col">Qwen3.8 27B</th>
-            <th scope="col">AI power</th>
-            <th scope="col">Mining net</th>
-            <th scope="col">Avg API ROI</th>
-            <th scope="col">Frontier ROI</th>
-            <th scope="col">Best / worst</th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="name">GPU</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="vram">Memory</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="price">Street</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="speed">Qwen3.8 27B</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="support">Runtime paths</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="power">AI power</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="miningNet">Mining net</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="average">Avg API ROI</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="frontier">Frontier ROI</button></th>
+            <th scope="col"><button class="gpu-roi-sort-button" type="button" data-gpu-sort="best">Best / worst</button></th>
           </tr>
         </thead>
         <tbody id="gpuRoiRows"></tbody>
