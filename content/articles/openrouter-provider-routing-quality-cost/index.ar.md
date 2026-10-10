@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **يعطي `max_tokens` الصريح** الموجّه طول مخرج مطلوبا لمطابقته مع دعم المزود. اختره من احتياجات المهام المقاسة والسياق المتاح. تضيق قيمة مفرطة الأهلية، ولا تضمن إجابة أطول أو أفضل.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="رسم يوضح تجمع رموز مقسما يتدفق عبر نموذج إلى مجرى مخرجات" caption="توزيع رموز تصوري، حيث تتشارك رموز الاستدلال والمخرج المرئي بدل الإكمال لدى المزودين المدعومين" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## اطلب معاملاتك
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## شرح توجيه نقطة النهاية
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="توجيه نقاط نهاية OpenRouter والدقة والتسعير" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **مشاهدة إضافية:** [نقاش جودة نقاط نهاية OpenRouter وتوجيهها](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). أعد فحص قوائم نقاط النهاية قبل تطبيق أسعار أو حدود أو مقارنات مزود محددة.
 

@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **Ein explizites `max_tokens`** gibt dem Router eine gewünschte Ausgabelänge für den Abgleich mit Provider-Support. Wählen Sie den Wert nach gemessenem Bedarf und verfügbarem Kontext. Ein zu hoher Wert verengt die Auswahl, garantiert aber keine längere oder bessere Antwort.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration eines geteilten Tokenpools, der durch ein Modell in einen Ausgabestrom fließt" caption="Konzeptionelle Tokenverteilung, bei der Reasoning und sichtbare Ausgabe bei unterstützten Providern dasselbe Completion-Limit teilen" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## Ihre Parameter erzwingen
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## Endpoint-Routing im Ablauf
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter-Endpoint-Routing, Präzision und Preisgestaltung" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **Weiterführendes Video:** [Diskussion zu OpenRouter-Endpointqualität und Routing](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). Prüfen Sie Endpointlisten erneut, bevor Sie konkrete Preise, Limits oder Providervergleiche anwenden.
 
