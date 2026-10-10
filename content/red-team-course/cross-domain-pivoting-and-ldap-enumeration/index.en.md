@@ -7,8 +7,8 @@ draft: false
 description: "Analyze trust direction, selective authentication, SID filtering, LDAP scope, and query results with a cross-domain pivot decision record."
 genre: ["Red Team", "Offensive Security", "Active Directory", "LDAP"]
 tags: ["red team", "cross-domain", "trusts", "LDAP", "enumeration", "selective authentication", "red team course"]
-cover: "/img/cover/cross-domain-pivoting-ldap-enumeration.webp"
-coverAlt: "A controlled directory graph shows two domains connected by a trust with query and authorization boundaries marked."
+cover: "/img/cover/cross-domain-pivoting-ldap-enumeration-illustration.webp"
+coverAlt: "An abstract illustration showing two server towers connected by arrows, representing cross-domain trust and data flow. The background is dark with vibrant blue and green accents, depicting LDAP enumeration themes."
 coverCaption: "Module 18: treat a trust as a relationship to test, not a shortcut"
 ---
 

@@ -7,8 +7,8 @@ draft: false
 description: "Plan lateral movement with explicit name resolution, authentication, authorization, service, and rollback evidence instead of assuming every credential reaches every host."
 genre: ["Red Team", "Offensive Security", "Lateral Movement", "Active Directory"]
 tags: ["red team", "lateral movement", "SMB", "WinRM", "SSH", "authentication", "authorization", "red team course"]
-cover: "/img/cover/lateral-movement-expanding-access.webp"
-coverAlt: "A dark network diagram showing a controlled path between Windows hosts with identity and access checkpoints highlighted."
+cover: "/img/cover/lateral-movement-cybersecurity-network-diagram.webp"
+coverAlt: "An abstract network diagram showing interconnected nodes representing lateral movement in cybersecurity, with vibrant colors on a dark background illustrating different protocols and processes."
 coverCaption: "Module 17: prove each movement prerequisite before crossing a host boundary"
 ---
 

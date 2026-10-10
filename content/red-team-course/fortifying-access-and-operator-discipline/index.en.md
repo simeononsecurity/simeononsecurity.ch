@@ -7,8 +7,8 @@ draft: false
 description: "Design bounded red-team access with expiry, ownership, redundancy, failover, and operator records that remain useful during a live assessment."
 genre: ["Red Team", "Offensive Security", "Operations", "OPSEC"]
 tags: ["red team", "operator discipline", "access control", "failover", "OPSEC", "red team course"]
-cover: "/img/cover/fortifying-access-operator-discipline.webp"
-coverAlt: "A red team operations board shows expiring credentials, approved routes, owners, and fallback dependencies connected by clear boundaries."
+cover: "/img/cover/fortifying-access-operator-discipline-cybersecurity.webp"
+coverAlt: "A cybersecurity expert interacts with a holographic interface displaying complex network diagrams and data points, emphasizing access control and redundancy in a dark, vibrant environment."
 coverCaption: "Module 19: make access bounded, owned, and recoverable"
 ---
 

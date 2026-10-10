@@ -7,8 +7,8 @@ draft: false
 description: "Turn red-team objectives into bounded tests and evidence-backed findings with explicit limits, remediation owners, and retest conditions."
 genre: ["Red Team", "Offensive Security", "Reporting", "Assessment"]
 tags: ["red team", "objectives", "reporting", "evidence", "remediation", "retest", "red team course"]
-cover: "/img/cover/mission-objectives-reporting.webp"
-coverAlt: "A red team report board connects an objective to evidence, impact, remediation ownership, and a retest decision."
+cover: "/img/cover/mission-objectives-reporting-cyber-security-analysis.webp"
+coverAlt: "A cyber security professional analyzing data on a laptop with graphs and an evidence chain displayed on the screen. A notepad and pen are beside the laptop, all set against a dark navy background."
 coverCaption: "Module 20: make the final report useful to the next decision maker"
 ---
 
