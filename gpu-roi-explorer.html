@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore GPU mining profitability and local Qwen3.8 27B inference ROI against API token costs.">
+  <title>GPU ROI Explorer</title>
+  <style>
+    :root {
+      --ink: #11171d;
+      --ink-soft: #1b2730;
+      --paper: #f2efe6;
+      --paper-deep: #e8e1d3;
+      --line: rgba(17, 23, 29, 0.16);
+      --muted: #64717a;
+      --cyan: #59d7ca;
+      --cyan-deep: #0d7774;
+      --orange: #ef8759;
+      --orange-deep: #9b3f25;
+      --yellow: #f4c95d;
+      --white: #fffdf7;
+      --shadow: 0 18px 60px rgba(17, 23, 29, 0.14);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background:
+        radial-gradient(circle at 84% 4%, rgba(89, 215, 202, 0.18), transparent 28rem),
+        radial-gradient(circle at 4% 40%, rgba(239, 135, 89, 0.13), transparent 24rem),
+        var(--paper);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      min-width: 320px;
+    }
+
+    a { color: inherit; }
+
+    button, input, select { font: inherit; }
+
+    button, select, input { -webkit-tap-highlight-color: transparent; }
+
+    button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+      outline: 3px solid var(--cyan-deep);
+      outline-offset: 3px;
+    }
+
+    .gpu-roi-shell {
+      margin: 0 auto;
+      max-width: 1440px;
+      padding: 28px clamp(18px, 4vw, 64px) 64px;
+    }
+
+    .gpu-roi-topline {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 56px;
+    }
+
+    .gpu-roi-brand {
+      align-items: center;
+      display: inline-flex;
+      gap: 10px;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+
+    .gpu-roi-brand-mark {
+      align-items: center;
+      background: var(--ink);
+      color: var(--cyan);
+      display: inline-flex;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 14px;
+      font-weight: 700;
+      height: 30px;
+      justify-content: center;
+      width: 30px;
+    }
+
+    .gpu-roi-brand-name { font-size: 14px; font-weight: 750; }
+
+    .gpu-roi-date {
+      color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .gpu-roi-hero {
+      align-items: end;
+      display: grid;
+      gap: 42px;
+      grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+      margin-bottom: 48px;
+    }
+
+    .gpu-roi-kicker {
+      color: var(--cyan-deep);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      margin: 0 0 18px;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      font-size: clamp(42px, 6.5vw, 88px);
+      letter-spacing: -0.075em;
+      line-height: 0.94;
+      margin-bottom: 24px;
+      max-width: 820px;
+    }
+
+    .gpu-roi-lede {
+      color: #40505a;
+      font-size: clamp(17px, 1.8vw, 22px);
+      line-height: 1.42;
+      margin-bottom: 0;
+      max-width: 690px;
+    }
+
+    .gpu-roi-signal {
+      background: var(--ink);
+      box-shadow: var(--shadow);
+      color: var(--white);
+      min-height: 240px;
+      overflow: hidden;
+      padding: 28px;
+      position: relative;
+    }
+
+    .gpu-roi-signal::after {
+      border: 1px solid rgba(89, 215, 202, 0.45);
+      border-radius: 50%;
+      content: "";
+      height: 230px;
+      position: absolute;
+      right: -74px;
+      top: -72px;
+      width: 230px;
+    }
+
+    .gpu-roi-signal-label {
+      color: var(--cyan);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    .gpu-roi-signal-value {
+      font-size: clamp(36px, 5vw, 68px);
+      font-weight: 760;
+      letter-spacing: -0.08em;
+      line-height: 1;
+      margin: 34px 0 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .gpu-roi-signal-copy {
+      color: #bfccc9;
+      font-size: 14px;
+      margin: 0;
+      max-width: 300px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .gpu-roi-panel {
+      background: rgba(255, 253, 247, 0.74);
+      border: 1px solid var(--line);
+      box-shadow: 0 8px 36px rgba(17, 23, 29, 0.06);
+      padding: clamp(18px, 3vw, 30px);
+    }
+
+    .gpu-roi-controls {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .gpu-roi-control label {
+      color: var(--muted);
+      display: block;
+      font-size: 12px;
+      font-weight: 750;
+      margin-bottom: 8px;
+    }
+
+    .gpu-roi-control small {
+      color: var(--muted);
+      display: block;
+      font-size: 11px;
+      margin-top: 7px;
+    }
+
+    .gpu-roi-control input,
+    .gpu-roi-control select {
+      background: var(--white);
+      border: 1px solid rgba(17, 23, 29, 0.28);
+      border-radius: 10px;
+      color: var(--ink);
+      min-height: 44px;
+      padding: 9px 11px;
+      width: 100%;
+    }
+
+    .gpu-roi-control input:focus,
+    .gpu-roi-control select:focus { border-color: var(--cyan-deep); }
+
+    .gpu-roi-summary {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin: 28px 0;
+    }
+
+    .gpu-roi-stat {
+      border-left: 4px solid var(--ink);
+      padding: 4px 0 4px 16px;
+    }
+
+    .gpu-roi-stat:nth-child(1) { border-color: var(--cyan-deep); }
+    .gpu-roi-stat:nth-child(2) { border-color: var(--orange); }
+    .gpu-roi-stat:nth-child(3) { border-color: var(--yellow); }
+    .gpu-roi-stat:nth-child(4) { border-color: #7f8cff; }
+
+    .gpu-roi-stat-label {
+      color: var(--muted);
+      display: block;
+      font-size: 11px;
+      font-weight: 750;
+      letter-spacing: 0.03em;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+    }
+
+    .gpu-roi-stat-value {
+      display: block;
+      font-size: 22px;
+      font-weight: 780;
+      letter-spacing: -0.04em;
+    }
+
+    .gpu-roi-stat-copy {
+      color: var(--muted);
+      display: block;
+      font-size: 12px;
+      line-height: 1.35;
+      margin-top: 2px;
+    }
+
+    .gpu-roi-table-wrap {
+      border: 1px solid var(--line);
+      overflow-x: auto;
+    }
+
+    .gpu-roi-table {
+      border-collapse: collapse;
+      min-width: 1030px;
+      width: 100%;
+    }
+
+    .gpu-roi-table th,
+    .gpu-roi-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 16px 14px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .gpu-roi-table th {
+      background: var(--ink);
+      color: #dfe9e6;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      position: sticky;
+      text-transform: uppercase;
+      top: 0;
+      z-index: 2;
+    }
+
+    .gpu-roi-table th:first-child { min-width: 190px; }
+    .gpu-roi-table tbody tr { background: rgba(255, 253, 247, 0.62); transition: background-color 160ms ease; }
+    .gpu-roi-table tbody tr:hover, .gpu-roi-table tbody tr.gpu-roi-selected { background: #fffdf7; }
+    .gpu-roi-table tbody tr:last-child td { border-bottom: 0; }
+
+    .gpu-roi-gpu-button {
+      background: none;
+      border: 0;
+      color: var(--ink);
+      cursor: pointer;
+      display: block;
+      font-weight: 780;
+      padding: 0;
+      text-align: left;
+    }
+
+    .gpu-roi-gpu-button:hover { color: var(--cyan-deep); }
+
+    .gpu-roi-gpu-meta {
+      color: var(--muted);
+      font-size: 11px;
+      margin-top: 3px;
+    }
+
+    .gpu-roi-number {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .gpu-roi-tag {
+      border: 1px solid var(--line);
+      border-radius: 99px;
+      color: var(--muted);
+      display: inline-block;
+      font-size: 10px;
+      margin-left: 5px;
+      padding: 1px 6px;
+      vertical-align: 2px;
+    }
+
+    .gpu-roi-bar {
+      background: var(--paper-deep);
+      height: 5px;
+      margin-top: 7px;
+      min-width: 90px;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .gpu-roi-bar span { display: block; height: 100%; }
+    .gpu-roi-bar-mining span { background: var(--orange); }
+    .gpu-roi-bar-api span { background: var(--cyan-deep); }
+    .gpu-roi-bar-frontier span { background: var(--yellow); }
+
+    .gpu-roi-cell-label {
+      color: var(--muted);
+      display: block;
+      font-size: 10px;
+      margin-top: 4px;
+    }
+
+    .gpu-roi-footnote {
+      color: var(--muted);
+      font-size: 12px;
+      margin: 14px 0 0;
+    }
+
+    .gpu-roi-detail {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      margin-top: 28px;
+    }
+
+    .gpu-roi-detail h2 {
+      font-size: clamp(24px, 3vw, 36px);
+      letter-spacing: -0.05em;
+      margin-bottom: 10px;
+    }
+
+    .gpu-roi-detail-copy { color: #40505a; margin-bottom: 0; max-width: 520px; }
+
+    .gpu-roi-detail-box {
+      background: var(--ink);
+      color: var(--white);
+      padding: 24px;
+    }
+
+    .gpu-roi-detail-box h3 {
+      color: var(--cyan);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+
+    .gpu-roi-detail-row {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+
+    .gpu-roi-detail-row:last-child { border-bottom: 0; }
+    .gpu-roi-detail-row span:first-child { color: #aebdb9; }
+    .gpu-roi-detail-row span:last-child { font-variant-numeric: tabular-nums; text-align: right; }
+
+    .gpu-roi-method {
+      border-top: 1px solid var(--line);
+      display: grid;
+      gap: 22px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 48px;
+      padding-top: 22px;
+    }
+
+    .gpu-roi-method h3 {
+      font-size: 15px;
+      letter-spacing: -0.02em;
+      margin-bottom: 7px;
+    }
+
+    .gpu-roi-method p, .gpu-roi-method ul {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+
+    .gpu-roi-method ul { padding-left: 17px; }
+
+    .gpu-roi-method a { color: var(--cyan-deep); }
+
+    .gpu-roi-empty {
+      color: var(--muted);
+      padding: 34px;
+      text-align: center;
+    }
+
+    @media (max-width: 960px) {
+      .gpu-roi-hero { grid-template-columns: 1fr; }
+      .gpu-roi-signal { min-height: 0; }
+      .gpu-roi-controls, .gpu-roi-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .gpu-roi-detail { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 600px) {
+      .gpu-roi-shell { padding-top: 18px; }
+      .gpu-roi-topline { margin-bottom: 38px; }
+      .gpu-roi-date { font-size: 9px; }
+      .gpu-roi-controls, .gpu-roi-summary, .gpu-roi-method { grid-template-columns: 1fr; }
+      .gpu-roi-panel { padding: 16px; }
+      .gpu-roi-detail-box { padding: 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .gpu-roi-table tbody tr { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="gpu-roi-shell">
+    <header class="gpu-roi-topline">
+      <a class="gpu-roi-brand" href="#top" aria-label="GPU ROI Explorer home">
+        <span class="gpu-roi-brand-mark">G</span>
+        <span class="gpu-roi-brand-name">GPU ROI Explorer</span>
+      </a>
+      <span class="gpu-roi-date">Snapshot 2026-10-10</span>
+    </header>
+
+    <section class="gpu-roi-hero" id="top" aria-labelledby="page-title">
+      <div>
+        <p class="gpu-roi-kicker">Local inference / mining / token economics</p>
+        <h1 id="page-title">Where does your GPU pay back first?</h1>
+        <p class="gpu-roi-lede">Compare current crypto mining profit with the value of running Qwen3.8 27B locally. Change the assumptions. The table recalculates in your browser.</p>
+      </div>
+      <div class="gpu-roi-signal" aria-live="polite">
+        <span class="gpu-roi-signal-label">Fastest modeled payback</span>
+        <div class="gpu-roi-signal-value" id="gpuRoiHeadline">36 days</div>
+        <p class="gpu-roi-signal-copy" id="gpuRoiHeadlineCopy">RTX 3090 through frontier API savings.</p>
+      </div>
+    </section>
+
+    <section class="gpu-roi-panel" aria-labelledby="assumptions-title">
+      <h2 id="assumptions-title" class="gpu-roi-kicker">Change the assumptions</h2>
+      <div class="gpu-roi-controls">
+        <div class="gpu-roi-control">
+          <label for="powerRate">Power cost, USD per kWh</label>
+          <input id="powerRate" type="number" min="0" max="5" step="0.001" value="0.115" inputmode="decimal">
+          <small>Used for mining and local inference.</small>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="averageTokenRate">Average API, USD per million tokens</label>
+          <input id="averageTokenRate" type="number" min="0" max="100" step="0.01" value="0.85" inputmode="decimal">
+          <small>Blended market median assumption.</small>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="frontierTokenRate">Frontier API, USD per million tokens</label>
+          <input id="frontierTokenRate" type="number" min="0" max="200" step="0.01" value="10" inputmode="decimal">
+          <small>Blended premium-model assumption.</small>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="gpuSearch">Find a GPU</label>
+          <input id="gpuSearch" type="search" placeholder="Search model or vendor" autocomplete="off">
+          <small>Rows update as you type.</small>
+        </div>
+      </div>
+      <div class="gpu-roi-controls" style="margin-top: 18px;">
+        <div class="gpu-roi-control">
+          <label for="gpuTier">GPU tier</label>
+          <select id="gpuTier">
+            <option value="all">All cards</option>
+            <option value="consumer">Consumer cards</option>
+            <option value="pro">Professional cards</option>
+          </select>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="minVram">Minimum VRAM, GB</label>
+          <input id="minVram" type="number" min="0" max="512" step="1" placeholder="No minimum" inputmode="numeric">
+          <small>Leave blank for no lower limit.</small>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="maxVram">Maximum VRAM, GB</label>
+          <input id="maxVram" type="number" min="0" max="512" step="1" placeholder="No maximum" inputmode="numeric">
+          <small>Leave blank for no upper limit.</small>
+        </div>
+        <div class="gpu-roi-control">
+          <label for="sortBy">Sort rows by</label>
+          <select id="sortBy">
+            <option value="best">Best modeled ROI</option>
+            <option value="mining">Mining ROI</option>
+            <option value="average">Average API ROI</option>
+            <option value="frontier">Frontier API ROI</option>
+            <option value="price">Street price</option>
+            <option value="speed">Qwen generation speed</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="gpu-roi-summary" aria-label="Live comparison summary">
+      <div class="gpu-roi-stat">
+        <span class="gpu-roi-stat-label">Best local speed</span>
+        <span class="gpu-roi-stat-value" id="summarySpeed">75 tok/s</span>
+        <span class="gpu-roi-stat-copy" id="summarySpeedCopy">RTX PRO 6000 Max-Q</span>
+      </div>
+      <div class="gpu-roi-stat">
+        <span class="gpu-roi-stat-label">Best mining ROI</span>
+        <span class="gpu-roi-stat-value" id="summaryMining">325 days</span>
+        <span class="gpu-roi-stat-copy" id="summaryMiningCopy">RTX 4090</span>
+      </div>
+      <div class="gpu-roi-stat">
+        <span class="gpu-roi-stat-label">Best average API ROI</span>
+        <span class="gpu-roi-stat-value" id="summaryAverage">609 days</span>
+        <span class="gpu-roi-stat-copy" id="summaryAverageCopy">RTX 3090</span>
+      </div>
+      <div class="gpu-roi-stat">
+        <span class="gpu-roi-stat-label">Best frontier ROI</span>
+        <span class="gpu-roi-stat-value" id="summaryFrontier">36 days</span>
+        <span class="gpu-roi-stat-copy" id="summaryFrontierCopy">RTX 3090</span>
+      </div>
+    </section>
+
+    <section class="gpu-roi-table-wrap" aria-labelledby="comparison-title">
+      <table class="gpu-roi-table">
+        <caption id="comparison-title" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);">GPU ROI comparison</caption>
+        <thead>
+          <tr>
+            <th scope="col">GPU</th>
+            <th scope="col">VRAM</th>
+            <th scope="col">Street</th>
+            <th scope="col">Qwen3.8 27B</th>
+            <th scope="col">AI power</th>
+            <th scope="col">Mining net</th>
+            <th scope="col">Avg API ROI</th>
+            <th scope="col">Frontier ROI</th>
+            <th scope="col">Best / worst</th>
+          </tr>
+        </thead>
+        <tbody id="gpuRoiRows"></tbody>
+      </table>
+    </section>
+    <p class="gpu-roi-footnote" id="gpuRoiRowCount">8 cards shown. Click a GPU name for the calculation detail.</p>
+
+    <section class="gpu-roi-detail" aria-labelledby="detail-title">
+      <div>
+        <p class="gpu-roi-kicker">Selected card</p>
+        <h2 id="detail-title">RTX 3090</h2>
+        <p class="gpu-roi-detail-copy" id="detailCopy">The selected row shows the inputs used for each payback path. Mining values use the current Hashrate.no best row. API values use the local generation estimate and the selected token prices.</p>
+        <p class="gpu-roi-footnote"><a id="detailMiningLink" href="https://www.hashrate.no/gpus/3090" target="_blank" rel="noopener noreferrer">Open Hashrate.no data</a> · <a id="detailPriceLink" href="https://aiindigo.com/hardware/nvidia-rtx-3090-24gb" target="_blank" rel="noopener noreferrer">Open price reference</a></p>
+      </div>
+      <div class="gpu-roi-detail-box">
+        <h3>Calculation detail</h3>
+        <div class="gpu-roi-detail-row"><span>Hardware price</span><span id="detailPrice">$1,200</span></div>
+        <div class="gpu-roi-detail-row"><span>Mining revenue</span><span id="detailMiningGross">$3.18 / day</span></div>
+        <div class="gpu-roi-detail-row"><span>Mining power cost</span><span id="detailMiningPower">$0.88 / day</span></div>
+        <div class="gpu-roi-detail-row"><span>Average API savings</span><span id="detailAverageSavings">$1.97 / day</span></div>
+        <div class="gpu-roi-detail-row"><span>Frontier API savings</span><span id="detailFrontierSavings">$33.59 / day</span></div>
+        <div class="gpu-roi-detail-row"><span>Best modeled path</span><span id="detailBest">36 days</span></div>
+      </div>
+    </section>
+
+    <section class="gpu-roi-method" aria-label="Method and source notes">
+      <div>
+        <h3>What the numbers mean</h3>
+        <p>Mining net subtracts GPU power from the current Hashrate.no gross daily estimate. Local API savings multiply Qwen generation speed by 86,400 seconds, then subtract AI power.</p>
+      </div>
+      <div>
+        <h3>Benchmark boundary</h3>
+        <p>The RTX 3090 Qwen result is measured. Other generation rates use memory bandwidth and architecture estimates. Runtime, quantization, context length, and drivers change the result.</p>
+      </div>
+      <div>
+        <h3>Source links</h3>
+        <ul>
+          <li><a href="https://www.hashrate.no/gpus" target="_blank" rel="noopener noreferrer">Hashrate.no GPU data</a></li>
+          <li><a href="https://chinkeong.github.io/qwen-27b/index.html" target="_blank" rel="noopener noreferrer">Qwen3.8 27B benchmark table</a></li>
+          <li><a href="https://www.runyard.dev/llms" target="_blank" rel="noopener noreferrer">Market API pricing</a></li>
+          <li><a href="https://www-cdn.anthropic.com/files/4zrzovbb/website/3684c2faafb97418665782cea0001f439f74b1d2.pdf" target="_blank" rel="noopener noreferrer">Anthropic official pricing</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var GPUs = [
+        {
+          id: '3090', name: 'RTX 3090', vendor: 'NVIDIA', tier: 'consumer', vram: 24,
+          price: 1200, tps: 40, tpsType: 'measured', aiWatts: 350, miningWatts: 320,
+          miningGross: 3.18, miningUrl: 'https://www.hashrate.no/gpus/3090',
+          priceUrl: 'https://aiindigo.com/hardware/nvidia-rtx-3090-24gb'
+        },
+        {
+          id: '3090ti', name: 'RTX 3090 Ti', vendor: 'NVIDIA', tier: 'consumer', vram: 24,
+          price: 1434, tps: 43, tpsType: 'estimated', aiWatts: 450, miningWatts: 206,
+          miningGross: 3.81, miningUrl: 'https://www.hashrate.no/gpus/3090ti',
+          priceUrl: 'https://www.getpcparts.com/market-prices/gpu-graphics-cards/rtx-3090-ti'
+        },
+        {
+          id: '4090', name: 'RTX 4090', vendor: 'NVIDIA', tier: 'consumer', vram: 24,
+          price: 2589, tps: 42.5, tpsType: 'estimated', aiWatts: 450, miningWatts: 280,
+          miningGross: 8.74, miningUrl: 'https://www.hashrate.no/gpus/4090',
+          priceUrl: 'https://openclawdc.com/blog/is-the-rtx-4090-worth-it-local-llm/'
+        },
+        {
+          id: '5090', name: 'RTX 5090', vendor: 'NVIDIA', tier: 'consumer', vram: 32,
+          price: 4999, tps: 72.5, tpsType: 'estimated', aiWatts: 575, miningWatts: 519,
+          miningGross: 12.8, miningUrl: 'https://www.hashrate.no/gpus/5090',
+          priceUrl: 'https://bestvaluegpu.com/history/new-and-used-rtx-5090-price-history-and-specs/'
+        },
+        {
+          id: '7900xtx', name: 'RX 7900 XTX', vendor: 'AMD', tier: 'consumer', vram: 24,
+          price: 1799, tps: 35, tpsType: 'estimated', aiWatts: 355, miningWatts: 89,
+          miningGross: 1.24, miningUrl: 'https://www.hashrate.no/gpus/7900xtx',
+          priceUrl: 'https://pangoly.com/en/price-trends/vga/rx-7900-xtx'
+        },
+        {
+          id: 'a5000', name: 'RTX A5000', vendor: 'NVIDIA', tier: 'pro', vram: 24,
+          price: 2293, tps: 33, tpsType: 'estimated', aiWatts: 230, miningWatts: 209,
+          miningGross: 0.89, miningUrl: 'https://www.hashrate.no/gpus/a5000',
+          priceUrl: 'https://gpupoet.com/gpu/shop/nvidia-rtx-a5000'
+        },
+        {
+          id: 'pro4000', name: 'RTX PRO 4000 Blackwell', vendor: 'NVIDIA', tier: 'pro', vram: 24,
+          price: 3200, tps: 29, tpsType: 'estimated', aiWatts: 140, miningWatts: 105,
+          miningGross: 0.69, miningUrl: 'https://www.hashrate.no/gpus/pro4000',
+          priceUrl: 'https://rtx.live/brands/pny/rtx-pro'
+        },
+        {
+          id: 'pro6000maxq', name: 'RTX PRO 6000 Max-Q', vendor: 'NVIDIA', tier: 'pro', vram: 96,
+          price: 13250, tps: 75, tpsType: 'estimated', aiWatts: 300, miningWatts: 300,
+          miningGross: 9.4, miningUrl: 'https://www.hashrate.no/gpus/pro6000maxq/specs',
+          priceUrl: 'https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time'
+        }
+      ];
+
+      var selectedId = '3090';
+      var els = {
+        powerRate: document.getElementById('powerRate'),
+        averageTokenRate: document.getElementById('averageTokenRate'),
+        frontierTokenRate: document.getElementById('frontierTokenRate'),
+        search: document.getElementById('gpuSearch'),
+        tier: document.getElementById('gpuTier'),
+        minVram: document.getElementById('minVram'),
+        maxVram: document.getElementById('maxVram'),
+        sort: document.getElementById('sortBy'),
+        rows: document.getElementById('gpuRoiRows'),
+        rowCount: document.getElementById('gpuRoiRowCount'),
+        headline: document.getElementById('gpuRoiHeadline'),
+        headlineCopy: document.getElementById('gpuRoiHeadlineCopy'),
+        summarySpeed: document.getElementById('summarySpeed'),
+        summarySpeedCopy: document.getElementById('summarySpeedCopy'),
+        summaryMining: document.getElementById('summaryMining'),
+        summaryMiningCopy: document.getElementById('summaryMiningCopy'),
+        summaryAverage: document.getElementById('summaryAverage'),
+        summaryAverageCopy: document.getElementById('summaryAverageCopy'),
+        summaryFrontier: document.getElementById('summaryFrontier'),
+        summaryFrontierCopy: document.getElementById('summaryFrontierCopy'),
+        detailTitle: document.getElementById('detail-title'),
+        detailCopy: document.getElementById('detailCopy'),
+        detailMiningLink: document.getElementById('detailMiningLink'),
+        detailPriceLink: document.getElementById('detailPriceLink'),
+        detailPrice: document.getElementById('detailPrice'),
+        detailMiningGross: document.getElementById('detailMiningGross'),
+        detailMiningPower: document.getElementById('detailMiningPower'),
+        detailAverageSavings: document.getElementById('detailAverageSavings'),
+        detailFrontierSavings: document.getElementById('detailFrontierSavings'),
+        detailBest: document.getElementById('detailBest')
+      };
+
+      function numberValue(input, fallback) {
+        var value = Number(input.value);
+        return Number.isFinite(value) && value >= 0 ? value : fallback;
+      }
+
+      function optionalNumber(input) {
+        var value = Number(input.value);
+        return input.value.trim() !== '' && Number.isFinite(value) && value >= 0 ? value : null;
+      }
+
+      function getAssumptions() {
+        return {
+          power: numberValue(els.powerRate, 0.115),
+          average: numberValue(els.averageTokenRate, 0.85),
+          frontier: numberValue(els.frontierTokenRate, 10)
+        };
+      }
+
+      function calculate(gpu, assumptions) {
+        var miningPowerCost = gpu.miningWatts / 1000 * 24 * assumptions.power;
+        var aiPowerCost = gpu.aiWatts / 1000 * 24 * assumptions.power;
+        var miningNet = gpu.miningGross - miningPowerCost;
+        var averageSavings = gpu.tps * 86400 * assumptions.average / 1000000 - aiPowerCost;
+        var frontierSavings = gpu.tps * 86400 * assumptions.frontier / 1000000 - aiPowerCost;
+        var miningRoi = miningNet > 0 ? gpu.price / miningNet : Infinity;
+        var averageRoi = averageSavings > 0 ? gpu.price / averageSavings : Infinity;
+        var frontierRoi = frontierSavings > 0 ? gpu.price / frontierSavings : Infinity;
+        var scenarios = [miningRoi, averageRoi, frontierRoi].filter(function (value) {
+          return Number.isFinite(value);
+        });
+        return {
+          miningPowerCost: miningPowerCost,
+          aiPowerCost: aiPowerCost,
+          miningNet: miningNet,
+          averageSavings: averageSavings,
+          frontierSavings: frontierSavings,
+          miningRoi: miningRoi,
+          averageRoi: averageRoi,
+          frontierRoi: frontierRoi,
+          bestRoi: scenarios.length ? Math.min.apply(null, scenarios) : Infinity,
+          worstRoi: scenarios.length ? Math.max.apply(null, scenarios) : Infinity
+        };
+      }
+
+      function dollars(value) {
+        return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 }).format(value);
+      }
+
+      function wholeDays(value) {
+        return Number.isFinite(value) ? Math.max(1, Math.round(value)).toLocaleString('en-US') + ' days' : 'No payback';
+      }
+
+      function compactDays(value) {
+        return Number.isFinite(value) ? Math.max(1, Math.round(value)).toLocaleString('en-US') + 'd' : 'n/a';
+      }
+
+      function rate(value) {
+        return Number.isFinite(value) ? value.toFixed(1) + ' tok/s' : 'n/a';
+      }
+
+      function barWidth(value, max) {
+        if (!Number.isFinite(value) || !Number.isFinite(max) || max <= 0) { return 0; }
+        return Math.max(4, Math.min(100, Math.sqrt(value / max) * 100));
+      }
+
+      function visibleRows() {
+        var query = els.search.value.trim().toLowerCase();
+        var tier = els.tier.value;
+        var minVram = optionalNumber(els.minVram);
+        var maxVram = optionalNumber(els.maxVram);
+        return GPUs.filter(function (gpu) {
+          var matchesQuery = !query || (gpu.name + ' ' + gpu.vendor).toLowerCase().indexOf(query) !== -1;
+          var matchesTier = tier === 'all' || gpu.tier === tier;
+          var matchesMinVram = minVram === null || gpu.vram >= minVram;
+          var matchesMaxVram = maxVram === null || gpu.vram <= maxVram;
+          return matchesQuery && matchesTier && matchesMinVram && matchesMaxVram;
+        });
+      }
+
+      function sortRows(rows, assumptions) {
+        var sortBy = els.sort.value;
+        return rows.slice().sort(function (a, b) {
+          var first = calculate(a, assumptions);
+          var second = calculate(b, assumptions);
+          if (sortBy === 'price') { return a.price - b.price; }
+          if (sortBy === 'speed') { return second.tps - first.tps; }
+          if (sortBy === 'mining') { return first.miningRoi - second.miningRoi; }
+          if (sortBy === 'average') { return first.averageRoi - second.averageRoi; }
+          if (sortBy === 'frontier') { return first.frontierRoi - second.frontierRoi; }
+          return first.bestRoi - second.bestRoi;
+        });
+      }
+
+      function updateSummary(rows, assumptions) {
+        if (!rows.length) {
+          els.headline.textContent = 'No match';
+          els.headlineCopy.textContent = 'Change the search or tier filter.';
+          return;
+        }
+        var calculations = rows.map(function (gpu) { return { gpu: gpu, calc: calculate(gpu, assumptions) }; });
+        var fastest = calculations.slice().sort(function (a, b) { return b.gpu.tps - a.gpu.tps; })[0];
+        var mining = calculations.slice().sort(function (a, b) { return a.calc.miningRoi - b.calc.miningRoi; })[0];
+        var average = calculations.slice().sort(function (a, b) { return a.calc.averageRoi - b.calc.averageRoi; })[0];
+        var frontier = calculations.slice().sort(function (a, b) { return a.calc.frontierRoi - b.calc.frontierRoi; })[0];
+        var bestPath = calculations.slice().sort(function (a, b) { return a.calc.bestRoi - b.calc.bestRoi; })[0];
+
+        els.headline.textContent = wholeDays(bestPath.calc.bestRoi);
+        els.headlineCopy.textContent = bestPath.gpu.name + ' through the fastest modeled path.';
+        els.summarySpeed.textContent = rate(fastest.gpu.tps);
+        els.summarySpeedCopy.textContent = fastest.gpu.name;
+        els.summaryMining.textContent = wholeDays(mining.calc.miningRoi);
+        els.summaryMiningCopy.textContent = mining.gpu.name;
+        els.summaryAverage.textContent = wholeDays(average.calc.averageRoi);
+        els.summaryAverageCopy.textContent = average.gpu.name;
+        els.summaryFrontier.textContent = wholeDays(frontier.calc.frontierRoi);
+        els.summaryFrontierCopy.textContent = frontier.gpu.name;
+      }
+
+      function renderRows() {
+        var assumptions = getAssumptions();
+        var rows = sortRows(visibleRows(), assumptions);
+        updateSummary(rows, assumptions);
+        if (!rows.length) {
+          els.rows.innerHTML = '<tr><td class="gpu-roi-empty" colspan="9">No GPU matches those filters.</td></tr>';
+          els.rowCount.textContent = '0 cards shown.';
+          return;
+        }
+
+        var calculations = rows.map(function (gpu) { return { gpu: gpu, calc: calculate(gpu, assumptions) }; });
+        var maxRoi = Math.max.apply(null, calculations.map(function (item) { return item.calc.worstRoi; }));
+        els.rows.innerHTML = calculations.map(function (item) {
+          var gpu = item.gpu;
+          var calc = item.calc;
+          var selected = gpu.id === selectedId ? ' class="gpu-roi-selected"' : '';
+          var typeLabel = gpu.tpsType === 'measured' ? 'measured' : 'estimated';
+          return '<tr' + selected + '>' +
+            '<td><button class="gpu-roi-gpu-button" type="button" data-gpu-id="' + gpu.id + '">' + gpu.name + '</button><div class="gpu-roi-gpu-meta">' + gpu.vendor + ' <span class="gpu-roi-tag">' + typeLabel + '</span></div></td>' +
+            '<td class="gpu-roi-number">' + gpu.vram + 'GB</td>' +
+            '<td class="gpu-roi-number"><a href="' + gpu.priceUrl + '" target="_blank" rel="noopener noreferrer">' + dollars(gpu.price) + '</a></td>' +
+            '<td class="gpu-roi-number">' + rate(gpu.tps) + '</td>' +
+            '<td class="gpu-roi-number">' + gpu.aiWatts + 'W<span class="gpu-roi-cell-label">' + dollars(calc.aiPowerCost) + ' / day</span></td>' +
+            '<td class="gpu-roi-number">' + dollars(Math.max(0, calc.miningNet)) + '<span class="gpu-roi-cell-label">' + compactDays(calc.miningRoi) + '</span><div class="gpu-roi-bar gpu-roi-bar-mining"><span style="width:' + barWidth(calc.miningRoi, maxRoi) + '%"></span></div></td>' +
+            '<td class="gpu-roi-number">' + compactDays(calc.averageRoi) + '<div class="gpu-roi-bar gpu-roi-bar-api"><span style="width:' + barWidth(calc.averageRoi, maxRoi) + '%"></span></div></td>' +
+            '<td class="gpu-roi-number">' + compactDays(calc.frontierRoi) + '<div class="gpu-roi-bar gpu-roi-bar-frontier"><span style="width:' + barWidth(calc.frontierRoi, maxRoi) + '%"></span></div></td>' +
+            '<td class="gpu-roi-number">' + compactDays(calc.bestRoi) + '<span class="gpu-roi-cell-label">worst ' + compactDays(calc.worstRoi) + '</span></td>' +
+          '</tr>';
+        }).join('');
+        els.rowCount.textContent = rows.length + (rows.length === 1 ? ' card shown.' : ' cards shown.') + ' Click a GPU name for the calculation detail.';
+        Array.prototype.forEach.call(els.rows.querySelectorAll('[data-gpu-id]'), function (button) {
+          button.addEventListener('click', function () {
+            selectedId = button.getAttribute('data-gpu-id');
+            updateDetail();
+            renderRows();
+          });
+        });
+      }
+
+      function updateDetail() {
+        var gpu = GPUs.find(function (item) { return item.id === selectedId; }) || GPUs[0];
+        var calc = calculate(gpu, getAssumptions());
+        els.detailTitle.textContent = gpu.name;
+        els.detailCopy.textContent = gpu.name + ' has ' + gpu.vram + 'GB of VRAM and a ' + gpu.tpsType + ' Qwen3.8 27B estimate. Mining uses the current Hashrate.no best row. API values use local generation speed and the selected token prices.';
+        els.detailMiningLink.href = gpu.miningUrl;
+        els.detailPriceLink.href = gpu.priceUrl;
+        els.detailPrice.textContent = dollars(gpu.price);
+        els.detailMiningGross.textContent = dollars(gpu.miningGross) + ' / day';
+        els.detailMiningPower.textContent = dollars(calc.miningPowerCost) + ' / day at ' + gpu.miningWatts + 'W';
+        els.detailAverageSavings.textContent = dollars(Math.max(0, calc.averageSavings)) + ' / day';
+        els.detailFrontierSavings.textContent = dollars(Math.max(0, calc.frontierSavings)) + ' / day';
+        els.detailBest.textContent = wholeDays(calc.bestRoi);
+      }
+
+      [els.powerRate, els.averageTokenRate, els.frontierTokenRate, els.search, els.tier, els.minVram, els.maxVram, els.sort].forEach(function (input) {
+        input.addEventListener('input', function () {
+          updateDetail();
+          renderRows();
+        });
+        input.addEventListener('change', function () {
+          updateDetail();
+          renderRows();
+        });
+      });
+
+      updateDetail();
+      renderRows();
+    }());
+  </script>
+</body>
+</html>
