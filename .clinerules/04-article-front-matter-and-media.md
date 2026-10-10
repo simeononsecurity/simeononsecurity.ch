@@ -99,6 +99,10 @@ the bare positional form (`{{< youtube VIDEO_ID >}}`).
 - `uploadDate` accepts a verified video publication timestamp. Omit it if unknown.
 - Players load on click by default. `autoload="true"` enables automatic iframe
   loading when the component enters the viewport.
+- After adding an embed, inspect rendered HTML for the `lite-youtube` element, the
+  requested video ID, and `VideoObject` metadata. A valid source shortcode may still
+  produce no player when the global privacy setting blocks embeds, so add
+  `enable="true"` per instance when the article requests playback.
 
 The shortcode uses the privacy-friendly `lite-youtube` web component and emits `VideoObject` /
 `LearningResource` schema, so a single video tag handles SEO and performance for you.
