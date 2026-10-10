@@ -1,6 +1,7 @@
 ---
 title: "FISMA: Enhancing Federal Cybersecurity for Safer Data"
 date: 2023-11-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover the power of FISMA in fortifying federal cybersecurity. Learn its key features, process, and impact for secure data."
@@ -89,6 +90,12 @@ Another significant entity intertwined with FISMA is the **Federal Risk and Auth
 FISMA's significance is deeply rooted in its ability to establish a unified and systematic approach to cybersecurity practices across various federal agencies. By setting a common framework and **standardizing security measures**, FISMA helps agencies to defend against **emerging cyber threats**. This proactive stance helps shield sensitive data and crucial information systems from unauthorized access, data breaches, and other security vulnerabilities.
 
 
+
+## 2026 FISMA Review Workflow
+
+FISMA work starts with system scope and impact level. Identify the information system, assign a system owner, categorize information with FIPS 199, select controls from the applicable NIST catalog, tailor the control set, and record evidence for assessment.
+
+Do not treat an authorization package as a one-time document. Track control owners, open plans of action, assessment findings, system changes, inherited controls, and continuous monitoring results. The [NIST Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf) and [NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) provide the current reference path. Agency policy, contract language, and system type still determine the required workflow.
 
 ## **Conclusion**: helping Federal Cybersecurity
 

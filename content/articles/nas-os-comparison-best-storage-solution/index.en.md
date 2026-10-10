@@ -1,6 +1,7 @@
 ---
 title: "NAS OS Comparison: Finding the Best Storage Solution for..."
 date: 2023-09-07
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Explore the top NAS operating systems in this comprehensive comparison to discover the perfect solution for your data storage requirements."
@@ -98,6 +99,53 @@ The **storage tiering** capability in Windows Storage Server allows users to cla
 [Windows Storage Server](https://learn.microsoft.com/en-us/windows-server/storage/storage)
 
 
+## Current Names and Support
+
+This article includes historical product context. **FreeNAS** became the TrueNAS family name. For a current deployment, read the vendor's release status instead of treating an old version or old application list as supported. The [TrueNAS Software Status](https://www.truenas.com/docs/softwarereleases/) page lists stable, maintenance, and early releases. The [TrueNAS lifecycle guide](https://www.truenas.com/docs/scale/26/gettingstarted/useragreements/softwaredevelopmentlifecycle/) states the project does not set a fixed end-of-life date and uses its software status recommendations as the authority.
+
+Vendor application catalogs, plugin names, and hardware support change faster than storage concepts. Check the current documentation for [Synology DSM](https://www.synology.com/en-global/dsm), [QNAP QTS](https://www.qnap.com/qts/5.0/en-us/), [Unraid](https://unraid.net/), and [OpenMediaVault](https://www.openmediavault.org/) before installing an app or buying a device.
+
+## Storage Choice by Workload
+
+Use the storage layout and recovery requirements to choose a NAS OS. A feature list alone does not predict write latency, rebuild time, or application behavior.
+
+| Requirement | Strong starting point | Question to verify |
+|---|---|---|
+| **Mixed disk upgrades** | Unraid parity array | Is parity protection sufficient for the data value and rebuild window? |
+| **Checksums and snapshots** | TrueNAS with OpenZFS | Does the hardware support the memory, disk, and controller design? |
+| **Appliance management** | Synology DSM or QNAP QTS | Does the vendor support your model and required apps? |
+| **Lightweight file server** | OpenMediaVault | Which plugins and Debian packages need separate maintenance? |
+| **Windows identity integration** | Windows Server storage roles | Does licensing and patching fit your environment? |
+
+**Parity, RAID, and snapshots are availability or integrity tools.** They do not provide an off-device backup. Keep a separate copy for deletion, encryption, fire, theft, controller failure, and an operator mistake.
+
+## NAS Recovery Checklist
+
+1. Export the NAS configuration after each material change.
+2. Record disk serial numbers, pool layout, share names, permissions, and encryption keys.
+3. Back up irreplaceable data to a different device or service.
+4. Test a file restore and a full share restore.
+5. Test a replacement-disk or pool recovery procedure with current documentation.
+6. Record the date, result, and missing step after every restore test.
+
+The [CISA 3-2-1 backup guidance](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf) recommends three copies, two media types, and one offsite copy. Apply the model to NAS data even when the NAS has redundancy.
+
+
+
+## 2026 NAS Selection and Recovery Checks
+
+Choose a NAS operating system by filesystem, disk expansion path, backup tooling, and recovery process. App availability matters, but storage failure and restore testing matter more.
+
+Before buying hardware, document:
+
+- The number and size of disks
+- The chosen redundancy layout and usable capacity
+- The replacement disk process
+- Snapshot and backup destinations
+- Encryption key storage and recovery access
+- Client protocols and required permissions
+
+RAID or a storage pool does not replace a backup. Keep at least one copy on a separate system and test a file restore. Review the current [TrueNAS documentation](https://www.truenas.com/docs/), [Unraid documentation](https://docs.unraid.net/), and [OpenMediaVault documentation](https://docs.openmediavault.org/) because installation and feature details change between releases.
 
 ## **Conclusion:**
 

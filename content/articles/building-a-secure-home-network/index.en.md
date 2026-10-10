@@ -1,6 +1,7 @@
 ---
 title: "Secure Your Home Network"
 date: 2023-06-27
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn how to safeguard your home network and connected devices against cyber threats with these essential tips and tools."
@@ -65,6 +66,8 @@ One of the simplest and most effective ways to secure your network is to use a *
 
 In addition to using a strong password, you should also consider **disabling guest access** and **MAC address filtering**. Guest access can provide an easy entry point for hackers, while MAC address filtering can be bypassed by skilled attackers. By disabling these features, you can help prevent unauthorized access to your network.
 
+Keep guest access enabled when visitors or untrusted devices need internet access. Put guest clients on a separate network instead of disabling the feature by default. Turn off WPS, change the router administrator password, choose WPA3-Personal when every client supports it, and use WPA2-AES for older clients. Do not use WPA2-TKIP or an open network.
+
 #### Creating Strong and Unique Passwords
 
 While using a strong password is important for securing your Wi-Fi network, it's also essential for protecting your other online accounts and devices. Unfortunately, many people still rely on **weak and easily guessed passwords**, which can leave them vulnerable to **cyber attacks**.
@@ -97,6 +100,21 @@ In addition to using network encryption, you should also consider **disabling an
 
 Implementing these advanced security measures can help protect your home network from **cyber threats** and keep your sensitive information safe. By using a **VPN**, setting up a **firewall**, and enabling network encryption, you can create a secure and private online environment for you and your family.
 
+#### Firewall Deployment Checks
+
+Place a dedicated firewall between the modem or fiber ONT and the switch or access point when your design supports it. Put an existing router into access-point or bridge mode. Otherwise, document the double-NAT design and test port forwarding, gaming, inbound VPN access, and IPv6 behavior before relying on the network.
+
+After installation, verify these points:
+
+- The firewall receives the public WAN address or the expected upstream address.
+- Only one device provides DHCP on each local network.
+- The management interface is unreachable from the guest and IoT networks.
+- No unexpected inbound ports appear in an external scan.
+- A test IoT device reaches required cloud services but not a trusted laptop or NAS.
+- Backups exist for the firewall configuration and access point settings.
+
+A firewall does not secure traffic between two devices on the same flat LAN. Use separate networks or VLANs when local isolation matters. Test both the allowed path and the blocked path after every topology change.
+
 ### Protecting Your Connected Devices
 
 As technology continues to advance, more and more of our daily lives are becoming connected to the internet. From **smartphones** and **laptops** to **smart home devices** and **appliances**, we rely on these devices to make our lives easier and more convenient. However, with this increased connectivity comes increased risk. **Cybercriminals** are always looking for vulnerabilities to exploit, and it's up to us to protect our devices and personal information.
@@ -120,6 +138,22 @@ Always **change the default usernames and passwords** on these devices, as these
 Regularly **check for firmware updates** for your smart home devices. These updates can address security vulnerabilities and improve the overall performance of your device. You may also want to consider placing smart home devices on a **separate network** to limit their access to your other devices. This can help prevent a compromised smart home device from spreading malware to your other devices.
 
 By following these tips, you can help protect your connected devices from **cyber threats** and keep your personal information safe and secure.
+
+### Device-Specific Hardening Checklist
+
+Apply controls by device type instead of treating the whole home as one trusted group:
+
+| Device group | Hardening actions |
+|---|---|
+| **Router and access point** | Update firmware, disable WPS and remote administration, use WPA3 or WPA2-AES, and export a configuration backup |
+| **Phones and laptops** | Enable screen lock, automatic updates, full-disk encryption, phishing-resistant MFA where supported, and encrypted backups |
+| **Cameras and doorbells** | Use a separate IoT network, disable unused remote viewing, review cloud accounts, and check recording retention |
+| **Smart speakers and televisions** | Review microphone, camera, casting, and advertising settings. Remove unused integrations |
+| **Printers and NAS devices** | Change the administrator password, update firmware, disable internet administration, and restrict management to the trusted network |
+| **Game consoles and streaming devices** | Use separate accounts for children, update the device, remove unused apps, and review UPnP exposure |
+| **Guests and temporary devices** | Use a guest network with client isolation and a separate password |
+
+Keep an inventory with the device owner, network, firmware date, account, and replacement date. Remove devices with no supported update path from trusted networks.
 
 ### Educating Your Household on Cybersecurity Best Practices
 

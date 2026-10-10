@@ -1,7 +1,7 @@
 ---
 title: "Ansible vs Puppet vs Chef 2026: Config Management"
 date: 2026-05-24
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comprehensive 2026 comparison of Ansible, Puppet, and Chef configuration management tools. Detailed analysis of architecture, features, learning curve, performance, pricing, and use cases to help you choose the best automation tool for infrastructure management."
@@ -660,6 +660,12 @@ end
 | **Continuous Enforcement** | Medium | 5/10 | 10/10 | 10/10 |
 | **Compliance Reporting** | High | 7/10 | 10/10 | 9/10 |
 | **Total (Weighted)** | | **8.4/10** | **8.0/10** | **7.4/10** |
+
+## Current Configuration Management Review
+
+The tool choice should follow the target state and the recovery plan. Write one test for a new host, one test for a changed setting, one test for drift, and one test for rollback. Include secret storage, approval records, and log retention in the review.
+
+Check current licensing, supported operating systems, controller requirements, and integration limits in the official [Ansible documentation](https://docs.ansible.com/), [Puppet documentation](https://www.puppet.com/docs), and [Chef documentation](https://docs.chef.io/). Benchmark claims without host type, module version, concurrency, and network conditions are not portable.
 
 ## Conclusion and Final Recommendations
 

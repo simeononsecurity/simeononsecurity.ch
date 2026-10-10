@@ -1,7 +1,7 @@
 ---
 title: "GrapheneOS Sandboxed Google Play Explained"
 date: 2026-09-11
-lastmod: 2026-09-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn what sandboxed Google Play changes on GrapheneOS, when a separate profile helps, and how accounts, notifications, and app compatibility fit together."
@@ -134,6 +134,8 @@ Use a short **personal acceptance test** before relying on a new setup:
 **An app launching** is only the first check. Record the app version, GrapheneOS version, and failed operation when troubleshooting. This article provides a decision framework, not a tested compatibility list.
 
 **Migration decision:** keep your previous access method until each essential operation has passed. A messaging app and a banking app need different acceptance criteria. Successful message delivery says nothing about another app's account or device checks.
+
+**Recheck after GrapheneOS or app updates.** Profile placement, permissions, notification channels, and session state still define the test. Record the version beside each result so a changed notification or sign-in behavior does not become an unexplained privacy conclusion.
 
 For **a work login**, test the complete sign-in sequence and the required second factor. For a travel app, test the feature you expect to use away from home. Choose representative actions without making unnecessary purchases or changing account security.
 

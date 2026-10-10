@@ -3,6 +3,7 @@ title: "Networking Basics: Switches, Routers, Firewalls & DMZs"
 draft: false
 toc: true
 date: 2023-07-21
+lastmod: 2026-10-10
 description: "Discover the fundamentals of networking components and their significance in building reliable and secure networks, including switches, routers, gateways, subnets, firewalls, and DMZs."
 genre: ["Networking", "IT Infrastructure", "Network Security", "Network Architecture", "Cybersecurity", "Data Communication", "Information Technology", "IT Fundamentals", "Network Management", "Internet Connectivity"]
 tags: ["networking basics", "switches", "routers", "gateways", "subnets", "firewalls", "DMZs", "local area network", "LAN", "network connectivity", "internet access", "IP address management", "network segmentation", "network security", "subnetting", "firewall protection", "network performance", "network architecture", "data communication", "network management", "cybersecurity", "network infrastructure", "IT fundamentals", "information technology", "data traffic management", "IT security", "network design", "IT compliance", "network protocols", "network troubleshooting", "network administration"]
@@ -102,6 +103,12 @@ Key benefits and use cases of DMZs include:
 - **Regulatory compliance**: DMZs are often required by government regulations, such as the Payment Card Industry Data Security Standard (PCI DSS), to protect sensitive customer data.
 
 ______
+
+## 2026 Troubleshooting Sequence
+
+Troubleshoot from the client outward. Check link state, address assignment, default gateway, DNS resolution, route selection, firewall policy, and application service. Record the source address, destination, protocol, port, timestamp, and observed error before changing a rule.
+
+Use a packet capture only on networks you own or administer. Keep management interfaces on a restricted network, segment guest and IoT devices, and review the path created by every port forward. The [NIST networking glossary](https://csrc.nist.gov/glossary) and [CISA advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) provide useful references for terminology and current risks.
 
 ## Conclusion
 

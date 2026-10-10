@@ -1,7 +1,7 @@
 ---
 title: "How to Disable Contactless Payment on a Credit Card"
 date: 2026-10-02
-lastmod: 2026-10-02
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A practical guide to disabling contactless payment on a spare credit card while keeping chip and magnetic-stripe payments available, with safety limits and better alternatives."
@@ -15,6 +15,8 @@ coverCaption: "Disable contactless payment on a spare card without replacing its
 **A contactless card has a separate NFC antenna.** If you keep the card inside a phone case, the antenna triggers card clash or repeated NFC alerts on some phones. A physical break in the antenna loop disables tap to pay while the chip and magnetic stripe remain available on some cards.
 
 *Use a spare card for this project. Treat the modification as permanent, and confirm the result with the card issuer before relying on it.*
+
+**Do not modify your only payment method.** Issuer rules, card construction, and terminal support differ. Keep a second card or cash available while you test the damaged card.
 
 ## Why Disable Contactless Payment?
 

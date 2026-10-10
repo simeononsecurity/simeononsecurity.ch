@@ -1,7 +1,7 @@
 ---
 title: "Privacy.com Virtual Cards: How Payment Privacy Works"
 date: 2023-09-03
-lastmod: 2026-10-02
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "What is stored on a payment card, why the magnetic stripe is the weakest part of it, what a merchant sees when you pay with a virtual number, and how Privacy.com's card types and limits work in practice."
@@ -229,6 +229,21 @@ When you pay with a virtual card, the merchant receives a number, an expiry, and
 
 {{< figure src="virtual-card-merchant-shielding-flow.webp" alt="Diagram showing a virtual card number going to the merchant while the real card number stays between the cardholder and the issuing bank" >}}
 
+## What the Merchant Still Sees
+
+**A virtual card masks the funding account and the original PAN.** The change does not erase checkout data.
+
+Privacy's support documentation lists the card data shared with a merchant: the 16-digit card number, expiration date, CVV, and billing address entered at checkout. The merchant also sees the name you provide. Read the [official explanation of merchant-visible data](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant) before treating a virtual card as an identity shield.
+
+| Layer | Data still visible or retained |
+|---|---|
+| **Merchant** | Virtual card number, expiration, CVV, billing address entered at checkout, name entered at checkout, order data, and merchant-account data |
+| **Privacy.com** | Identity data, funding source, card records, transaction data, and device data under its [privacy policy](https://www.privacy.com/privacy-policy) |
+| **Funding bank** | Transaction date, amount, and a descriptor containing Privacy.com or `PWP*`, with the exact display set by the bank |
+| **Payment network and issuer** | Authorization, settlement, fraud, and dispute records needed to process the payment |
+
+The practical boundary is simple. A virtual card reduces reuse of card credentials. Your name, shipping address, merchant account, browser session, and other details submitted outside card fields stay visible to the merchant. Separate merchant accounts and email aliases help limit cross-site identity linkage. A virtual card alone does not provide this separation.
+
 ## The Three Kinds of Card-Shaped Thing
 
 The terminology is used inconsistently, and the difference matters when you are choosing what to hand a merchant.
@@ -278,6 +293,22 @@ Two operational details worth knowing:
 
 *Our **[Personal Finance Security](/personal-security-course/personal-finance/)** module places this alongside credit freezes and card tokenization as the three controls limiting what a single compromised merchant reaches.*
 
+## Recurring Charges and Authorizations
+
+**Card controls act at authorization time.** Privacy describes a pending transaction as permission for the merchant to debit an agreed amount. A $0 authorization checks whether a card is active. A $0 authorization is not a completed purchase. Bank-funded transactions add a settling stage before the debit finishes. See the [official transaction-state guide](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized).
+
+| Event | What happens | Control boundary |
+|---|---|---|
+| **Card added to a service** | The merchant sends a $0 authorization to check the card | A valid card check does not prove a paid order |
+| **Purchase authorized** | Privacy records a pending amount and grants permission for the merchant to collect the agreed amount | Available funds and later approvals reflect the pending transaction |
+| **Purchase settled** | The funding source is debited after merchant processing | Order changes or an added tip produce a final amount different from the first authorization |
+| **Card paused or closed after authorization** | Future authorizations stop | An earlier authorization still follows payment-network rules |
+| **Spend limit changed after authorization** | The new limit applies to future attempts | The earlier authorization keeps its existing status |
+
+**A card limit is not a prepaid balance.** Privacy's card-specific guide says the limit blocks authorization attempts above the chosen amount. The funding source is debited as transactions complete. Its rolling windows include 24 hours for daily limits, 30 days for monthly limits, and 364 days for yearly limits, with a six-day buffer for some subscription billing cycles. The [official spend-limit guide](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) documents those rules.
+
+For subscriptions, set a recurring limit before the first charge, review pending and settling entries, and cancel with the merchant separately. Closing a card blocks future authorizations. The action does not cancel an authorized purchase or create a refund. Privacy's [pause and close guide](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards) states the same boundary.
+
 ## Plans and What Each Unlocks
 
 Privacy.com runs a free tier alongside three paid plans. Prices and feature boundaries change, so confirm current terms before subscribing.
@@ -292,6 +323,8 @@ Privacy.com runs a free tier alongside three paid plans. Prices and feature boun
 **The free tier covers the core security benefit.** Merchant locking, single-use cards, and spend limits are the mechanisms reducing exposure, and they are available without paying. The paid tiers add organisation and convenience rather than additional protection.
 
 **Foreign transaction fees differ by tier.** The free tier charges 3% on foreign transactions with a $0.50 minimum, while the paid tiers do not.
+
+*This plan snapshot was checked on October 10, 2026. Pricing, eligibility, card availability, and limits are provider-controlled. Read the [current Privacy.com terms](https://www.privacy.com/terms) before subscribing.*
 
 ## What Privacy.com Does Not Do
 
@@ -334,6 +367,27 @@ Two certifications are worth naming because they are independently verifiable ra
 
 Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Decoder](/magnetic-stripe-decoder/)**, which reports the major scheme range and validates the Luhn check digit.
 
+## Account Recovery and Provider Dependency
+
+**Account access is a separate control from card isolation.** Privacy's guidance for unrecognized activity says to contact the merchant, check 2FA and shared cards, review new-device login codes, reset the password, and contact support. The [account-security guide](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account) lists those steps.
+
+Keep the recovery email and US phone number current. Privacy requires confirmation when either detail changes, according to its [account-details guide](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number). Enable 2FA, and keep merchant names and card last-four values in a password manager. Do not place a full PAN or CVV in an ordinary notes app.
+
+Closing your account does not erase all records. Privacy's policy, last updated June 8, 2026, states retention periods of at least five years for identity-verification and payment-card data, six years for funding-bank information and ACH transactions, and three years for audit logs. Read the [Privacy Policy retention section](https://www.privacy.com/privacy-policy) before treating account closure as deletion.
+
+**Privacy remains dependent on its funding bank, Plaid, ACH, card networks, and its own account systems.** Bank funding uses ACH through Plaid. Privacy says unsupported banks have a debit-card funding alternative, yet eligibility still depends on a US bank or credit union and a US phone number. Its [bank-connection guide](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account) and [eligibility guide](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy) describe those requirements.
+
+Funding problems affect payment operations. Privacy documents temporary account pauses when the service fails to debit a funding source, including an insufficient balance or a closed account. Its support page also states a funding-source removal does not stop transactions already authorized against the source. Read the [unsettled-transaction guide](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction) and [funding-source removal guide](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account) before removing a bank or debit card.
+
+| Dependency | Failure mode | Practical response |
+|---|---|---|
+| **Funding bank or Plaid** | Unsupported, closed, or out-of-date connection | Keep an eligible fallback source and review account status |
+| **Privacy account** | New identity review, lost recovery channel, or account suspension | Keep 2FA and recovery details current |
+| **Merchant** | Virtual or prepaid range rejected, or a recurring capture continues | Keep a real card for exceptions and cancel with the merchant |
+| **Network or issuer** | Authorization, settlement, refund, or dispute delay | Keep receipts, statements, and transaction records |
+
+Privacy's terms describe separate services from the company and its financial-service partners. The terms also allow additional identity information requests and account restrictions. Treat provider access and account records as part of the threat model. Do not route every essential bill through one card provider.
+
 ## Using Virtual Cards Well
 
 **The controls only help if you configure them.** Six habits carry most of the benefit.
@@ -346,6 +400,19 @@ Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Dec
 6. **Keep one real card for merchants rejecting virtual ranges**, so a blocked checkout does not become an emergency.
 
 > **Common Mistake: treating a virtual card as a substitute for noticing your statements.** Merchant locking stops one class of harm. It does not detect a compromised account at your bank, an unauthorised transfer, or a fraudulent charge on the real card behind it.
+
+## Current Control Boundaries
+
+Privacy.com's current support documentation states that a card-specific spend limit blocks authorization attempts above the limit. Its [spend-limit guide](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work) also describes rolling time windows. The [developer card documentation](https://developers.privacy.com/docs/cards) lists merchant-locked cards and spend-limit fields.
+
+| Control | Helps with | Does not solve |
+| --- | --- | --- |
+| Merchant-locked card | Reuse of a number at a different merchant | A compromised Privacy.com account or a fraudulent transaction at the intended merchant |
+| Spend limit | Unexpected authorization amounts and recurring billing drift | A charge made before you change the limit or a compromised funding account |
+| Closing a virtual card | Future authorizations on that number | A refund, dispute, or merchant record already created |
+| Separate card per service | Fast identification and revocation | Provider outages, identity checks, or bank-side records |
+
+Review the funding account, account recovery methods, alerts, and card list as one control set. A virtual number changes the number shared with a merchant. It does not hide the transaction from the issuing bank, the card provider, the merchant, payment networks, tax records, or a court with lawful authority. It also does not turn a debit card into a credit line or guarantee a dispute outcome.
 
 ## Key Takeaways
 
@@ -378,3 +445,17 @@ Inspect the scheme and bank from the PAN prefix using the **[Magnetic Stripe Dec
 7. [ANSI/ISO ALPHA data encoding, the Track 1 character set and parity table](http://www.hhhh.org/~joeboy/resources/magcards/trackdata_ANSI-ISO_ALPHA.html)
 8. [Magnetic card ISO characters, the Track 1 and Track 2 sets side by side](https://www.pos.swiftpos.com.au/Help-SP/MagneticCardSwipeISOCharacters.html)
 9. [Reading magnetic card data, a practical walkthrough with a live card scan](https://blog.j2i.net/2024/06/18/reading-magnetic-card-data/)
+10. [Privacy developer documentation - card types, states, and spend limits](https://developers.privacy.com/docs/cards)
+11. [Privacy support - information shared with merchants](https://support.privacy.com/hc/en-us/articles/24450438423063-What-information-does-Privacy-share-with-the-merchant)
+12. [Privacy support - card-specific spending limits](https://support.privacy.com/hc/en-us/articles/360012285094-How-do-Privacy-Card-specific-spending-limits-work)
+13. [Privacy support - transaction states and authorizations](https://support.privacy.com/hc/en-us/articles/360012287514-Transaction-states-pending-settling-settled-and-authorized)
+14. [Privacy support - pausing and closing cards](https://support.privacy.com/hc/en-us/articles/360039148094-How-do-I-pause-close-Privacy-Cards)
+15. [Privacy support - bank statement descriptors](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)
+16. [Privacy support - connecting a bank account through Plaid](https://support.privacy.com/hc/en-us/articles/360040584834-How-do-I-connect-a-bank-account)
+17. [Privacy support - account activity and recovery checks](https://support.privacy.com/hc/en-us/articles/7971053265815-What-should-I-do-if-I-don-t-recognize-activity-on-my-Privacy-Account)
+18. [Privacy support - updating account email and phone](https://support.privacy.com/hc/en-us/articles/7970949442583-How-do-I-update-my-email-address-or-phone-number)
+19. [Privacy support - account eligibility](https://support.privacy.com/hc/en-us/articles/360012046934-Who-can-use-Privacy)
+20. [Privacy support - unsettled transactions](https://support.privacy.com/hc/en-us/articles/34877696240535-How-do-I-resolve-an-unsettled-transaction)
+21. [Privacy support - removing a funding source](https://support.privacy.com/hc/en-us/articles/360041454834-How-do-I-remove-a-funding-source-from-my-Privacy-Account)
+22. [Privacy.com Privacy Policy](https://www.privacy.com/privacy-policy)
+23. [Privacy.com Terms of Service](https://www.privacy.com/terms)

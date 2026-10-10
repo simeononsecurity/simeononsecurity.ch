@@ -1,6 +1,7 @@
 ---
 title: "Building a Resilient SOC"
 date: 2023-10-26
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Establish a robust Security Operations Center (SOC) to defend against evolving cyber threats, detect incidents, and safeguard your organization's assets."
@@ -138,6 +139,21 @@ Regularly organize tabletop exercises and simulated attacks to test the team's r
 Regularly review and update the SOC's hardware, software, and processes to ensure they remain effective in the face of evolving threats. Stay informed about emerging technologies, threat intelligence sources, and industry best practices to continuously improve your organization's security posture.
 
 Conduct regular audits of your SOC's processes, documentation, and performance to identify areas for improvement. Embrace a culture of continuous improvement, encouraging feedback from team members and adapting the SOC's operations accordingly.
+
+## 2026 SOC Operating Checks
+
+Start with a defined service boundary. List the data sources, detection goals, response authority, coverage hours, escalation path, and recovery responsibilities. A SOC without an incident owner produces alerts without decisions.
+
+Review these measures each month:
+
+- Time from event to triage
+- Time from confirmed incident to containment
+- False positive rate by detection
+- Percentage of critical assets sending usable logs
+- Restore and communication exercise results
+- Open detection and response gaps
+
+Use [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final) for incident response planning and [CISA guidance](https://www.cisa.gov/topics/cyber-threats-and-advisories) for current advisories. Keep playbooks short, assign an owner, and test one playbook after each major platform change.
 
 ## Conclusion
 

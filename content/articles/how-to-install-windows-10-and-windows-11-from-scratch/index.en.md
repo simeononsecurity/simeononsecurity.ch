@@ -1,6 +1,7 @@
 ---
 title: "How to Download a Clean Windows ISO & Install from Scratch"
 date: 2023-02-20
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn how to download a clean Windows ISO file and install Windows from scratch with this step-by-step guide."
@@ -101,7 +102,80 @@ You'll then be asked to select the partition where you want to install Windows. 
 
 Once the installation is complete, Windows will restart, and you'll be prompted to set up your user account.
 
+## Current Clean-Install Checks
+
+Microsoft publishes the current Windows 11 download options at the [Windows 11 software download page](https://www.microsoft.com/en-us/software-download/windows11). On October 10, 2026, the page lists the Windows 11 2026 Update, version 26H2. The [Windows 10 ISO page](https://www.microsoft.com/en-us/software-download/windows10iso) still publishes Windows 10 22H2 media.
+
+Windows 10 support ended on October 14, 2025. Microsoft no longer provides free feature updates or security fixes for Windows 10. Choose Windows 11 for a new deployment when the hardware meets its requirements. Use Windows 10 for a known compatibility need, then review Microsoft's [Windows 10 end-of-support guidance](https://support.microsoft.com/en-us/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025) and the Consumer Extended Security Updates option.
+
+| Check | Windows 10 | Windows 11 |
+|---|---|---|
+| Architecture | 32-bit or 64-bit media, matching the CPU | 64-bit CPU required |
+| Firmware | Check the device vendor's requirements | UEFI and Secure Boot capable |
+| Trusted hardware | Windows 10 requirements differ by device | TPM 2.0 required |
+| Support on October 10, 2026 | Ended, with limited ESU options | Current release page lists version 26H2 |
+
+Before you erase the disk, confirm these items:
+
+1. Back up files, browser exports, recovery keys, and application licenses. A custom install does not preserve the old Windows installation when you delete its partitions.
+2. Confirm the target disk and record its size. Disconnect other disks when possible to reduce the chance of selecting the wrong disk.
+3. For Windows 11, confirm UEFI firmware, Secure Boot support, TPM 2.0, at least 4 GB of memory, and at least 64 GB of storage. See Microsoft's [Windows 11 requirements](https://learn.microsoft.com/en-us/windows/whats-new/windows-11-requirements).
+4. Create the USB installer from official Microsoft media. Third-party download mirrors add a source-integrity problem.
+5. If you downloaded an ISO directly, compare its SHA-256 value with a trusted value from the same publisher. Run this in PowerShell:
+
+```powershell
+Get-FileHash .\Win.iso -Algorithm SHA256
+```
+
+Microsoft's ISO pages show SHA-256 values after you choose the edition and language. Compare the value for the exact architecture, language, and release you downloaded. A hash proves a match with the published file. It does not prove authenticity when no trusted publisher value exists.
+
+After setup reaches the desktop, install firmware and network drivers from the device manufacturer, run Windows Update until no further updates appear, confirm Microsoft Defender is active, and turn on BitLocker when your edition and hardware support it. Keep the recovery key in a separate protected location. Microsoft also documents clean installation and recovery choices in [Reinstall Windows with installation media](https://support.microsoft.com/en-us/windows/deployment/install-upgrade/reinstall-windows-with-the-installation-media).
+
+### Check UEFI, Secure Boot, and TPM
+
+On an existing Windows installation, run `msinfo32`. Check `BIOS Mode` for `UEFI` and `Secure Boot State` for `On`. Run `tpm.msc` and confirm the security processor reports specification version 2.0. Microsoft lists UEFI, Secure Boot capability, and TPM 2.0 among the Windows 11 minimum requirements.
+
+If firmware uses Legacy or CSM mode, do not change the setting without a backup. A mode change might stop the current installation from booting. For a clean Windows 11 install, select the boot-menu entry beginning with `UEFI:` for your USB drive. If setup requires a temporary Secure Boot change, follow the device vendor's instructions and turn Secure Boot back on after setup.
+
+### Choose the Installation Path
+
+The Windows 11 download page offers an Installation Assistant, a Media Creation Tool, and an x64 multi-edition ISO. Choose the Media Creation Tool for a simple USB installer. Choose the ISO when you need to save the file, create media with Rufus, or keep a copy for a virtual machine. Windows 11 uses the product key or digital license to select the matching edition from the multi-edition ISO.
+
+The Windows 10 page offers a Media Creation Tool and a direct ISO page. The Windows 11 Media Creation Tool creates x64 media, not Arm64 media. Use the Arm64 download option on Microsoft's Windows 11 page for a compatible Arm device.
+
+When Rufus or another USB writer asks for a partition scheme, select GPT and UEFI for a modern Windows 11 system. Confirm the USB target before starting. The write process erases the selected USB drive.
+
+### Activation and Edition Matching
+
+Windows activation requires a digital license or a 25-character product key. During a reinstall, select `I don't have a product key` when the device already has a digital license. Install the same edition as the existing license, such as Home or Pro. A different edition needs its own valid license or product key. Check activation after setup at `Settings > System > Activation` on Windows 11 or `Settings > Update & Security > Activation` on Windows 10. See Microsoft's [Activate Windows](https://support.microsoft.com/en-us/windows/activation/activate-windows) guidance.
+
+Windows 11 Home requires internet access and a Microsoft account during first-use setup. Prepare account access before starting. A new device without a digital license needs a valid product key or a license purchase after installation.
+
+### First-Boot Hardening
+
+Complete these checks before installing normal applications:
+
+1. Run Windows Update, restart, and check again until no further updates appear.
+2. Install firmware, chipset, storage, graphics, and network drivers from the computer or motherboard vendor.
+3. Open Windows Security. Check Virus & threat protection, Firewall & network protection, and App & browser control. Review Microsoft's [Device security guidance](https://support.microsoft.com/en-us/windows/security/windows-security/device-security-in-the-windows-security-app).
+4. In Device security, confirm Secure Boot and the security processor status. Turn on Memory integrity after checking for incompatible drivers.
+5. Turn on Device Encryption or BitLocker when the edition and hardware support it. Device Encryption covers more editions, including some Windows Home devices. BitLocker Drive Encryption is available in Pro, Enterprise, and Education editions. Save the recovery key outside the computer and use Microsoft's [BitLocker recovery key guidance](https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key) to confirm its location.
+6. Use a standard account for daily work when the device supports separate administrator access. Keep administrator access for software installation and system changes.
+7. Install applications from vendor or Microsoft sources. Remove unused vendor utilities and browser extensions. Turn on update features inside applications where available.
+
+For managed devices, review Microsoft's [Windows security documentation](https://learn.microsoft.com/en-us/windows/security/) and apply the appropriate security baseline after testing it against business applications.
+
+## Common Problems
+
+| Problem | Action |
+|---|---|
+| USB does not appear | Open the one-time boot menu, select the `UEFI:` USB entry, and check the vendor's firmware instructions. |
+| Windows 11 rejects the device | Check the CPU, UEFI mode, Secure Boot, TPM 2.0, memory, and storage. Do not bypass the requirements on a device needing Microsoft support and update eligibility. |
+| Activation fails | Connect to the internet, sign in with the account linked to the digital license, and confirm the installed edition matches the license. |
+| SHA-256 values differ | Do not use the ISO. Download it again from Microsoft's ISO page and compare the value for the exact language, architecture, and release. |
+| Windows has no network after setup | Use another device to download the network driver from the computer or motherboard vendor, then install it from removable media. |
+
 ## Conclusion
 
-Downloading a clean Windows ISO and installing Windows from scratch may seem daunting, but it's a straightforward process that anyone can do. By following the steps in this guide, you can ensure that you have a clean Windows
+Downloading a clean Windows ISO and installing Windows from scratch may seem daunting, but it's a straightforward process that anyone can do. By following the steps in this guide, you can ensure that you have a clean Windows installation, an activated system, and a safer first boot. Use official Microsoft media, match your license and edition, verify the ISO, and protect the recovery key before you erase the disk.
 

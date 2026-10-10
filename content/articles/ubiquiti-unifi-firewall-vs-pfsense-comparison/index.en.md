@@ -1,6 +1,7 @@
 ---
 title: "Ubiquiti UniFi Firewall vs pfSense"
 date: 2023-12-14
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Explore the effortless choice between Ubiquiti UniFi Firewall and pfSense for robust network security."
@@ -111,6 +112,12 @@ When it comes to choosing between Ubiquiti UniFi Firewall and pfSense, there's n
 - **pfSense**: With its adaptability, pfSense offers the **flexibility** to integrate smoothly with a wide array of systems, catering to your specific needs.
 
 Wrapping up, both **Ubiquiti UniFi Firewall** and **pfSense** shine in their own right, with distinct strengths catering to diverse network setups. Your choice should be guided by factors like network complexity, budget, and customization requirements.
+
+## 2026 Firewall Migration Checks
+
+Record VLANs, DHCP reservations, DNS policy, VPN peers, port forwards, and administrator access before changing firewalls. Export the configuration and keep an emergency path that does not depend on the new management interface.
+
+UniFi fits users who prefer an integrated vendor ecosystem. pfSense fits users who want broad routing and firewall control. Compare total management effort, update process, logging, hardware support, and recovery time. Check the current [UniFi security gateway documentation](https://help.ui.com/hc/en-us/categories/6583256755367-UniFi-Gateways) and [pfSense documentation](https://docs.netgate.com/pfsense/en/latest/) before selecting hardware.
 
 ## Conclusion: Safeguarding Your Network, Your Way
 

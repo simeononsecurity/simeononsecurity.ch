@@ -1,6 +1,7 @@
 ---
 title: "Mastering Google Dorks"
 date: 2023-12-04
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover how to effortlessly enhance your online searches using Google Dorks, the ultimate search power tool, and find hidden treasures of information with ease. Uncover vulnerabilities, gather OSINT, and stay ahead of the game."
@@ -62,6 +63,12 @@ Before diving into how Google Dorks are used, let's understand some fundamental 
 
 
 
+
+## Ethical OSINT Boundaries
+
+Limit OSINT collection to a lawful purpose and public information. Confirm identity before attributing an account or document to a person. Avoid collecting sensitive personal data when a less detailed record answers the question. Keep source URLs, access dates, and confidence notes so another reviewer can reproduce the result.
+
+For a defensive disclosure, notify the asset owner through a published security contact and do not probe past the evidence needed to confirm exposure. The [Google Search help page](https://support.google.com/websearch/answer/2466433) describes supported operators. The [CISA vulnerability disclosure guidance](https://www.cisa.gov/vulnerability-disclosure-policy) describes a safer path for reporting public exposure.
 
 ## Conclusion
 

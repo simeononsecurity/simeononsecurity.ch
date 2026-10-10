@@ -3,6 +3,7 @@ title: "Creating a Secure Wi-Fi Network"
 draft: false
 toc: true
 date: 2023-05-27
+lastmod: 2026-10-10
 description: "Learn how to create a secure Wi-Fi network to protect your data and ensure a safe online experience."
 tags: ["secure Wi-Fi network", "Wi-Fi security", "network encryption", "Wi-Fi password", "router firmware updates", "firewall protection", "remote management disable", "default router login", "MAC address filtering", "disable WPS", "guest network", "monitor network activity", "online security", "data protection", "network privacy", "cybersecurity", "wireless network", "internet security", "network safeguards", "network vulnerability"]
 cover: "/img/cover/A_shield_protecting_a_Wi-Fi_signal_from_hackers.webp"
@@ -88,7 +89,43 @@ To ensure the ongoing security of your Wi-Fi network, you need to **regularly mo
 
 ______
 
+## Choose the Right Wireless Security Mode
+
+Use **WPA3-Personal** with a strong passphrase when all important clients support it. Use **WPA2-Personal with AES or CCMP** for older clients. Use a WPA2/WPA3 transition mode during a planned compatibility period, then move compatible devices to WPA3 and retire clients requiring older security.
+
+Use **WPA3-Enterprise** or WPA2-Enterprise with 802.1X and a RADIUS service for an organization. Enterprise authentication gives each user or device separate credentials. It needs certificate, identity, and recovery procedures.
+
+Avoid WEP, original WPA, WPA2 with TKIP, and open security for a private network. Enable **Protected Management Frames** when the access point and clients support them. The NSA home network guide recommends WPA3-Personal, a passphrase of at least twenty characters, and protected management frames when available. Read the [NSA home network guidance](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF).
+
+Do not treat a hidden SSID as access control. Hiding the name does not replace encryption and creates compatibility problems for some clients. MAC filtering also does not authenticate a person because many clients randomize their MAC address and an attacker with local access can copy an allowed address.
+
+## Roaming, Placement, and Segmentation
+
+Use one SSID and one security policy across access points when you want client roaming. Roaming remains a client decision. 802.11k, 802.11v, and 802.11r improve assistance and handoff behavior, but older or low-power clients sometimes disconnect when fast transition is enabled. Test phones, printers, cameras, and voice devices before enabling every roaming option.
+
+Place access points above furniture and away from metal, aquariums, microwaves, and dense masonry. Start with overlapping coverage, then lower transmit power or change channels when neighboring cells create sticky clients or co-channel contention. A wired Ethernet backhaul gives each node a stable path. A wireless backhaul needs a strong link between nodes, so a satellite belongs between the router and the weak area, not inside the weak area.
+
+Create separate **primary**, **guest**, and **IoT** networks. Block guest and IoT access to management interfaces and personal devices. Permit only the device-to-service traffic required by the IoT workload. Confirm isolation from a test client instead of relying on the network name.
+
+## Secure Wi-Fi Checklist
+
+- **Router administration:** Change the administrator password, update firmware, disable internet-facing management, and disable UPnP unless a documented device needs it.
+- **Wireless mode:** Use WPA3-Personal, or WPA2-Personal with AES when compatibility requires it.
+- **Credentials:** Use a unique passphrase of at least 16 characters. Use 20 characters or more for a new deployment.
+- **WPS:** Disable WPS after setup. Prefer an app or QR workflow for onboarding.
+- **Segmentation:** Isolate guest and IoT clients from trusted devices.
+- **Roaming:** Test fast transition with all important clients before enabling it everywhere.
+- **Recovery:** Keep a configuration backup and record the reset and restore procedure.
+
+The [FTC home Wi-Fi guide](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network) also recommends WPA3 or WPA2, firmware updates, changed default credentials, and disabled remote management, WPS, and UPnP.
+
 ## Conclusion
 
 Creating a secure Wi-Fi network is essential for safeguarding your personal information and ensuring a safe online experience. By following the steps mentioned in this article, such as choosing a strong network name, enabling encryption, setting a strong Wi-Fi password, and regularly updating your router firmware, you can significantly enhance the security of your Wi-Fi network. Also, implementing measures like enabling a firewall, disabling remote management, and using MAC address filtering further strengthen the security of your network. Stay vigilant, and regularly monitor your network for any signs of unauthorized access or suspicious activity. By prioritizing Wi-Fi security
+
+## References
+
+- [NSA Best Practices for Securing Your Home Network](https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICES_FOR_SECURING_YOUR_HOME_NETWORK.PDF)
+- [FTC How to Secure Your Home Wi-Fi Network](https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network)
+- [CISA Using Wireless Technology Securely](https://www.cisa.gov/sites/default/files/publications/Wireless-Security.pdf)
 

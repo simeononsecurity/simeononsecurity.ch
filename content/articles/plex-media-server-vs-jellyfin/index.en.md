@@ -1,6 +1,7 @@
 ---
 title: "Jellyfin vs Plex Media Server"
 date: 2023-02-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover the differences between Plex Media Server and Jellyfin, two popular media server options, and make an informed choice based on features and costs."
@@ -114,6 +115,53 @@ Jellyfin also marches alongside Plex by supporting **hardware transcoding**. Thi
 **In essence**, both Plex and Jellyfin offer **client apps** to access your media trove, wield robust **media server software** for organization and streaming, and embrace **hardware transcoding** to elevate playback quality. Plex takes the lead with a wider selection of official apps and integrated streaming services. Conversely, Jellyfin's open-source philosophy builds community-driven enhancements and self-reliant media management.
 
 
+## Is Jellyfin Better Than Plex?
+
+**Jellyfin is a better fit for privacy, open-source control, and self-hosted access.** **Plex is a better fit for a polished client ecosystem, account-based sharing, and paid features supported by the Plex service.** Neither choice wins every use case.
+
+The current [Jellyfin client list](https://jellyfin.org/docs/general/clients/) describes requirements for inclusion and notes the role of community clients. Jellyfin's [hardware acceleration documentation](https://jellyfin.org/docs/general/post-install/transcoding/hardware-acceleration/) lists Intel QSV, NVIDIA NVENC, AMD AMF, VA-API, Apple VideoToolbox, and Rockchip methods. Hardware support depends on the GPU, operating system, driver, codec, and transcode path.
+
+The [Plex Pass feature overview](https://support.plex.tv/articles/201751006-plex-pass-feature-overview/) states hardware-accelerated streaming and remote streaming features depend on the subscription and compatible hardware. Plex's [remote playback requirements](https://support.plex.tv/articles/requirements-for-remote-playback-of-personal-media/) also changed for affected apps in 2025. Check current support pages before purchase.
+
+| Priority | Better starting point | Reason to verify |
+|---|---|---|
+| **No subscription for core self-hosting** | Jellyfin | Test the clients and codecs used by your household |
+| **Broad official device support** | Plex | Confirm your exact TV, console, or streaming box app |
+| **Privacy and local control** | Jellyfin | Keep metadata, authentication, and remote access under your control |
+| **Remote sharing for less technical users** | Plex | Review account, subscription, and server exposure settings |
+| **GPU transcoding** | Either | Test the target codec, subtitles, tone mapping, and concurrent streams |
+
+## Secure Remote Access
+
+Remote media access expands the attack surface. Keep the server and its operating system updated. Use individual accounts, strong passwords, and the smallest sharing scope needed. Do not publish an administration interface or an unauthenticated media service.
+
+Jellyfin's [networking guide](https://jellyfin.org/docs/general/networking/index.html) states direct internet port exposure is insecure and recommends handling HTTPS termination with a reverse proxy. Its [reverse proxy guide](https://jellyfin.org/docs/general/post-install/networking/reverse-proxy/) also requires correct trusted-proxy settings and warns about sensitive URL logging. Use a trusted certificate, forward only required ports, and check logs for failed sign-ins.
+
+| Access method | Security boundary | Practical check |
+|---|---|---|
+| **Local-only access** | Firewall and local network | Confirm remote connections remain disabled |
+| **Private VPN or mesh network** | VPN identity and device approval | Test access from an approved device outside the home LAN |
+| **Reverse proxy with HTTPS** | Proxy, certificate, authentication, and app settings | Configure trusted proxies and verify WebSocket playback |
+| **Direct port forwarding** | Public service endpoint | Avoid this pattern for administration. Use a managed access layer instead |
+
+**Test remote access from a separate network.** Confirm login, playback, subtitle handling, logout, and account revocation. A local playback test does not validate remote security or bandwidth.
+
+
+
+## 2026 Media Server Decision Checks
+
+Plex and Jellyfin differ in service model, client coverage, account requirements, and hardware transcoding support. Test the clients you use before moving a large library.
+
+Use a small sample library and measure:
+
+- Direct play on each television, phone, and browser
+- Transcoding with subtitles enabled
+- Remote playback on a limited upload connection
+- Metadata matching for unusual filenames
+- Server logs and user permission controls
+- Recovery after a database or disk restore
+
+Keep the media server on a restricted network when possible. Do not expose an administration panel to the internet without a documented update and access plan. See the [Plex support documentation](https://support.plex.tv/) and [Jellyfin documentation](https://jellyfin.org/docs/) for current client, codec, and hardware guidance.
 
 ## Conclusion:
 

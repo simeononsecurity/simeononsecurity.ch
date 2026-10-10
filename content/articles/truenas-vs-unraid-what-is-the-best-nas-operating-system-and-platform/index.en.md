@@ -1,6 +1,7 @@
 ---
 title: "Unraid vs TrueNas: Which NAS Operating System is Right..."
 date: 2023-02-16
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A comprehensive comparison of Unraid and TrueNas, including their user-friendliness, features, documentation, and community, to help users make an informed decision on which NAS operating system is best for their needs."
@@ -42,6 +43,8 @@ In contrast, **Unraid** isn't free but uses a fair pricing model with no subscri
 [^4]: [Unraid Basic Plan](https://unraid.net/pricing/basic)
 [^5]: [Unraid Plus Plan](https://unraid.net/pricing/plus)
 [^6]: [Unraid Pro Plan](https://unraid.net/pricing/pro)
+
+The listed Unraid prices are historical values from the original publication. Check the [current Unraid pricing page](https://unraid.net/pricing) before purchase. License limits, plan names, and included features are commercial terms, not fixed product properties.
 ______
 
 ## User-Friendliness
@@ -85,6 +88,20 @@ Similarly, TrueNas also maintains its own **official community forum**, which se
 
 ______
 
+## 2026 Storage Decision Checks
+
+TrueNAS suits users who want ZFS features, pooled storage controls, and a storage-first workflow. Unraid suits users who value mixed-disk expansion and a broad application ecosystem. The right choice depends on the disk layout, data value, and recovery skills in your household.
+
+Write down the answer to these questions before installing:
+
+- Can you replace a failed disk with the model and capacity you plan to buy?
+- Where do snapshots and backups live?
+- How do you recover if the boot device fails?
+- Which applications need privileged access to the storage?
+- How will you test a full restore?
+
+Read the current [TrueNAS storage documentation](https://www.truenas.com/docs/scale/scaletutorials/), [OpenZFS documentation](https://openzfs.github.io/openzfs-docs/), and [Unraid documentation](https://docs.unraid.net/) before selecting a pool layout. A NAS protects availability. A separate backup protects against deletion, ransomware, and hardware loss.
+
 ## Conclusion
 
 Both **TrueNas** and **Unraid** are powerful and mature [**NAS operating systems**](https://simeononsecurity.com/articles/nas-os-comparison-best-storage-solution/) that cater to different user needs. TrueNas is well-suited for users with **advanced knowledge** of storage management and a desire for **advanced data protection** using **OpenZFS**[^1]. On the other hand, Unraid offers a **flexible and user-friendly** NAS system, making it ideal for **home users**[^2].
@@ -122,3 +139,32 @@ Ultimately, the choice between TrueNas and Unraid depends on your **specific nee
 
 [^1]: [TrueNas Documentation](https://www.truenas.com/docs/)
 [^2]: [Unraid Website](https://unraid.net/)
+
+## Current TrueNAS Lifecycle
+
+The original comparison describes TrueNAS CORE and FreeBSD. The [TrueNAS migration guide](https://www.truenas.com/docs/scale/26/gettingstarted/migrate/) identifies TrueNAS 13.3-U1.2 as the final release for the CORE 13.3 train and points users toward Linux-based Community Edition releases. The [TrueNAS software status page](https://www.truenas.com/docs/softwarereleases/) lists the supported release tracks.
+
+Use this distinction during planning:
+
+| Question | TrueNAS | Unraid |
+|---|---|---|
+| **Platform status** | Confirm the current Community Edition or Enterprise release before deployment | Confirm the current stable release and license terms |
+| **Storage model** | OpenZFS pools use vdev layout decisions made during pool design | Parity arrays support mixed drive sizes within documented limits |
+| **Expansion boundary** | Pool expansion depends on vdev design and release support | Drive replacement and parity rebuilds still need capacity, time, and health checks |
+| **Application boundary** | App and container support follows the selected TrueNAS release | Docker and VM support follows the selected Unraid release and hardware |
+
+**Neither platform turns redundancy into backup.** Use a separate backup target and test restoration before storing irreplaceable data.
+
+## Choose by Recovery Needs
+
+Choose **TrueNAS with OpenZFS** when checksums, snapshots, replication, and a planned pool layout matter more than simple disk-by-disk expansion. Choose **Unraid** when mixed-drive growth, application hosting, and a simpler first setup matter more. These are decision criteria, not universal performance claims.
+
+Before committing data, record:
+
+- **Pool or array layout:** disk roles, usable capacity, parity or vdev design, and replacement procedure.
+- **Application data:** container paths, VM disks, databases, secrets, and external mounts.
+- **Backup target:** location, encryption, retention, and network path.
+- **Restore test:** one file, one application dataset, and one complete share.
+- **Upgrade path:** current version, next supported version, rollback method, and maintenance window.
+
+The [CISA backup guide](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf) describes the 3-2-1 model. Apply it to both systems, then run a restore test after storage changes.

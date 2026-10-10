@@ -1,9 +1,10 @@
 ---
-title: "Azure Security Center"
+title: "Securing Your Cloud Environment with Microsoft Defender for Cloud"
 date: 2023-04-10
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn how to secure your cloud environment using Azure Security Center, with best practices and real-world examples."
+description: "Learn how to secure your cloud environment with Microsoft Defender for Cloud, including historical Azure Security Center terminology, best practices, and practical examples."
 tags: ["Azure", "Security Center", "cloud security", "Azure Sentinel", "Azure Defender", "network security", "identity management", "data security", "threat detection", "threat response", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
 cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "A shield icon surrounded by cloud symbols, representing a secure cloud environment, with the Azure Security Center logo on the shield."
@@ -13,6 +14,10 @@ coverCaption: ""
 **How to Secure Your Cloud Environment with Azure Security Center**
 
 Securing your cloud environment is essential for protecting your organization's data, applications, and infrastructure from threats. Microsoft's **Azure Security Center** is a powerful tool that helps you strengthen your security posture and quickly identify potential risks in your Azure environment. In this article, we will discuss how to secure your cloud environment using Azure Security Center, and cover the best practices for implementing various security features. Additionally in this article, we will dive into more technical details and examples to help you better understand how to secure your cloud environment using Azure Security Center.
+
+*Product names changed after this article's original publication. Microsoft Azure Security Center is now Microsoft Defender for Cloud. Azure Active Directory is now Microsoft Entra ID. Azure Sentinel is now Microsoft Sentinel. Azure Defender refers to Defender plans and workload protections within Defender for Cloud. The older names remain below where they describe the 2023 terminology.*
+
+The current [Defender for Cloud overview](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) describes a Cloud Native Application Protection Platform with cloud security posture management, DevSecOps, and cloud workload protection. Feature availability and licensing depend on the cloud, resource type, subscription, and plan.
 
 ______
 
@@ -53,6 +58,8 @@ az network nsg rule create --name MyNSGRule --nsg-name MyNSG --priority 100 --re
 ```
 Learn more about [Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview) in the official documentation.
 
+The example above allows inbound TCP port 80 from every IPv4 source. Use a known source range, private endpoint, or a load balancer path for production traffic. Review the current [NSG security overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) before copying the example.
+
 #### Azure Firewall
 Azure Firewall is a managed, cloud-based network security service that protects your Azure resources. It provides advanced features like threat intelligence-based filtering, web categories, and centralized logging and analytics. To set up Azure Firewall, you can follow these [quickstart instructions](https://learn.microsoft.com/en-us/azure/firewall-manager/quick-firewall-policy-bicep).
 
@@ -79,7 +86,7 @@ Learn more about [Web Application Firewall](https://docs.microsoft.com/en-us/azu
 
 ### Identity and Access Management
 
-**Azure Active Directory (Azure AD)** is an essential component of securing your cloud environment. Azure Security Center provides recommendations for improving identity and access management, such as enabling **Multi-Factor Authentication (MFA)**, implementing **Role-Based Access Control (RBAC)**, and monitoring suspicious activities.
+**Microsoft Entra ID, formerly Azure Active Directory (Azure AD),** is an essential component of securing your cloud environment. Defender for Cloud provides recommendations for improving identity and access management, such as enabling **Multi-Factor Authentication (MFA)**, implementing **Role-Based Access Control (RBAC)**, and monitoring suspicious activities.
 
 #### Multi-Factor Authentication (MFA)
 
@@ -162,7 +169,9 @@ $LabelProtectionSettings = @{
 New-AipServiceLabel -Name $LabelName -Description $LabelDescription -ProtectionSettings $LabelProtectionSettings
 ```
 #### Azure Storage Service Encryption
-**Azure Storage Service Encryption (SSE**) automatically encrypts your data at rest in Azure Storage accounts, including Blob, File, Table, and Queue storage. SSE uses Azure-managed keys or customer-managed keys to provide encryption at the storage account level. To enable SSE, follow the [step-by-step guide](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) provided by Microsoft.
+**Azure Storage Service Encryption (SSE)** automatically encrypts your data at rest in Azure Storage accounts, including Blob, File, Table, and Queue storage. SSE uses Azure-managed keys or customer-managed keys to provide encryption at the storage account level. To enable SSE, follow the [step-by-step guide](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) provided by Microsoft.
+
+Azure Information Protection is a historical product name. Microsoft lists Azure Information Protection as deprecated in current Sentinel feature availability guidance. Review current Microsoft Purview Information Protection documentation before starting a new labeling deployment.
 
 Example: Enable SSE for a storage account
 
@@ -209,6 +218,8 @@ az logic workflow create --resource-group MyResourceGroup --location EastUS --na
 The `playbook-definition.json` file should contain the Logic App playbook definition. You can find examples of playbooks for Azure Sentinel in the [Azure-Sentinel GitHub repository](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks).
 
 By using Azure Security Center's threat detection capabilities and integrating with Azure Sentinel, you can create a robust security strategy to detect and respond to threats in your Azure environment. Learn more about [Azure Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security) and [Azure Sentinel](https://docs.microsoft.com/en-us/azure/sentinel/overview) in the official documentation.
+
+The current integration path sends Defender for Cloud alerts to Microsoft Sentinel through the [Defender for Cloud connector](https://learn.microsoft.com/en-us/azure/sentinel/connect-defender-for-cloud). Validate the connector, data collection rules, analytic rules, and incident workflow in the Defender portal or Azure portal before relying on an automation.
 ______
 
 ## Monitoring and Reporting
@@ -238,6 +249,25 @@ To get the most out of Azure Security Center, consider implementing the followin
 3. **Implement security recommendations**: Addressing the security recommendations provided by Azure Security Center helps you improve your security posture and reduce potential risks.
 4. **Monitor security alerts**: Regularly review and respond to security alerts to mitigate potential threats and maintain a secure environment.
 5. **Stay up-to-date with compliance requirements**: Ensure that your organization stays compliant with the latest regulatory frameworks by regularly reviewing and updating your compliance policies.
+
+## Current Defender for Cloud Workflow
+
+Use the following sequence for a current deployment. The names in the original sections remain useful for historical searches, but the portal and documentation use Defender for Cloud terminology.
+
+1. **Inventory subscriptions and connectors.** Record Azure subscriptions, AWS or GCP connectors, DevOps projects, and critical resources.
+2. **Enable the required Defender plans.** Select plans by workload and confirm licensing before enabling them across production subscriptions.
+3. **Review Cloud secure score and recommendations.** Prioritize internet exposure, identity risk, exploitable vulnerabilities, and missing logging. Do not treat a score as proof of full compliance.
+4. **Configure Microsoft Entra controls.** Require phishing-resistant MFA for high-impact accounts, use least-privilege RBAC, and review privileged access.
+5. **Send alerts to Microsoft Sentinel.** Confirm alert ingestion, analytic rules, ownership, response automation, and retention.
+6. **Recheck after changes.** Review recommendations after patching, architecture changes, new connectors, or plan changes.
+
+## Practical Review Checklist
+
+- **Identity:** Remove stale accounts, reduce standing administrator access, and review Conditional Access exclusions.
+- **Network:** Remove public management ports, narrow NSG source ranges, and confirm firewall and WAF logs reach the monitoring workspace.
+- **Data:** Classify sensitive stores, confirm encryption and key ownership, and test backup restoration.
+- **Detection:** Confirm alert severity, notification routing, incident ownership, and response playbooks.
+- **Governance:** Map each policy initiative to an owner, an exception expiry date, and evidence for the required framework.
 
 ______
 

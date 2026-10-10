@@ -1,6 +1,7 @@
 ---
 title: "Passing CompTIA Security+ SY0-601 Exam: Tips and Resources"
 date: 2023-02-16
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn how to pass the CompTIA Security+ SY0-601 exam with tips, study resources, and test-taking strategies."
@@ -181,6 +182,12 @@ In addition to studying the exam objectives and using the recommended materials,
 - [**SimeonOnSecurity's Security Plus Practice Test**](https://simeononsecurity.com/security-plus-practice-test)
    
 5. **Stay current with industry trends**: Stay up-to-date with current industry trends and news related to information security. This will help you contextualize the exam material and understand how it applies in real-world situations.
+
+## Exam Version and Study Plan Check
+
+SY0-601 is a retired exam version. Students planning a new certification attempt should start with the current [CompTIA Security+ exam page](https://www.comptia.org/certifications/security) and the current exam objectives. Keep this article as background for the older objectives, not as a complete study plan for a new attempt.
+
+Use the objectives as a checklist. For each topic, define the control, name one failure mode, and practice one investigation step. Spend extra time on identity, secure architecture, incident response, governance, and operational procedures. Practice questions help locate gaps. They do not replace lab work or the official objectives.
 
 ## Conclusion
 The CompTIA Security+ SY0-601 exam is a challenging but valuable certification for anyone looking to enter or advance their career in the field of cybersecurity. To pass the exam, you will need to demonstrate your knowledge and skills in a range of areas related to information security, including attacks, threats, and vulnerabilities, architecture and design, implementation, operations and incident response, and governance, risk, and compliance.

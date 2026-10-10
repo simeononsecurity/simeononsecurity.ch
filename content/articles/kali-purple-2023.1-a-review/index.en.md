@@ -1,6 +1,7 @@
 ---
 title: "Kali Purple 2023.1: Updates & Essential Features"
 date: 2023-04-08
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover Kali Purple 2023.1's advanced features, tools, and enhancements in our comprehensive review for ethical hackers and cybersecurity enthusiasts."
@@ -12,7 +13,15 @@ coverCaption: ""
 
 **Kali Purple 2023.1: A Review**
 
-Kali Purple 2023.1 is the **latest version** of the popular **penetration testing** and **ethical hacking** distribution. In this article, we will take a closer look at the new features, improvements, and updates that this version brings. 
+Kali Purple 2023.1 was the initial technical preview of Kali's defensive security direction. It is no longer the latest Kali release. This article records the original release and adds current release references so you do not treat the 2023.1 package versions as current.
+
+## Current Kali Status
+
+Kali's official release history lists Kali 2026.2, released on 29 June 2026, as the second 2026 rolling release. The release uses Linux kernel 6.19 and Xfce 4.20.7. The [Kali 2026.2 release notes](https://www.kali.org/blog/kali-linux-2026-2-release/) also describe GNOME 50, KDE Plasma 6.6, the move from `sources.list` to `sources.list.d/kali.source`, and virtual-machine boot changes.
+
+Kali Purple remains a defensive and purple-team direction within Kali. The 2023.1 announcement described a technical preview with a SOC-in-a-box reference architecture, defensive tools, and NIST Cybersecurity Framework menu categories. Treat those details as historical scope. For current package selection, use Kali's [metapackage documentation](https://www.kali.org/docs/general-use/metapackages/) and choose only the tool groups required for your lab.
+
+*Use an isolated, authorized lab for every offensive or defensive security exercise. A Kali installation does not grant permission to test systems you do not own or administer.*
 
 ______
 
@@ -64,7 +73,7 @@ Kali Purple 2023.1 introduces a number of new tools and packages, enhancing its 
 - **Ghidra 10.1**: An open-source software reverse engineering suite
 - **Python 3.10**: The latest version of the popular programming language
 
-These new tools, along with updates to existing ones, make Kali Purple 2023.1 an even more powerful and versatile distribution for security professionals.
+These new tools, along with updates to existing ones, expanded the 2023.1 preview for security professionals. Their versions in this section describe the 2023.1 release and do not identify the versions shipped in Kali 2026.2.
 
 ______
 
@@ -110,6 +119,14 @@ ______
 - [Official Kali Linux Forums](https://forums.kali.org/)
 - [Kali Linux Blog](https://www.kali.org/blog/)
 - [Kali Linux Training and Certification](https://www.offensive-security.com/)
+
+## Update Checklist
+
+- **Check the release history.** Read the current [Kali release history](https://www.kali.org/releases/) before downloading an image.
+- **Use official images.** Download from [Get Kali](https://www.kali.org/get-kali/) and verify the published checksums.
+- **Update rolling installs.** Follow the current [Kali update documentation](https://www.kali.org/docs/general-use/updating-kali/) instead of copying the 2023.1 repository example without review.
+- **Choose metapackages deliberately.** A default or Purple-oriented lab does not require every Kali package.
+- **Record the lab scope.** Define authorized systems, test windows, logging, and cleanup before running tools.
 
 
 

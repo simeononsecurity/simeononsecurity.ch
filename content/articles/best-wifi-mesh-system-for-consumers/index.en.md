@@ -1,7 +1,7 @@
 ---
 title: "Best WiFi Mesh Systems 2026: Buyer's Guide and Top Picks"
 date: 2023-08-06
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comprehensive 2026 guide to the best WiFi mesh systems for consumers. Detailed comparison of WiFi 6E and WiFi 7 mesh routers including Google Nest Wifi Pro 6E, Eero Max 7, Netgear Orbi, TP-Link Deco, and more. Performance tests, coverage analysis, setup guides, and buying recommendations."
@@ -521,6 +521,10 @@ subscription ($10/month or $100/year)
 
 ## Performance Comparison: Real-World Tests 2026
 
+The tables in this section are useful as a comparison format, but the page does not include the raw capture files, test scripts, channel plan, firmware versions, client drivers, or radio settings needed to reproduce them. Treat the values as historical article measurements, not universal product limits. Vendor headline rates are aggregate PHY rates or laboratory targets. A client usually uses one radio chain and sees lower application throughput.
+
+Before buying, verify the current product page, supported bands, Ethernet port speeds, subscription terms, firmware support, and return policy. The [eero Max 7 support page](https://www.eero.com/support/articles/eero-max-7) lists tri-band Wi-Fi 7, 10 GbE and 2.5 GbE ports, while the [NETGEAR Orbi 970 specification](https://www.downloads.netgear.com/files/GDC/RBE971/RBE971_TS.pdf) lists its aggregate rate and satellite coverage. These vendor specifications do not replace an independent test in your home.
+
 **Test Environment**:
 - 2,400 sq ft, 2-story home
 - Construction: Wood frame, drywall
@@ -628,6 +632,17 @@ subscription ($10/month or $100/year)
 3. Connect satellite nodes via Ethernet (any LAN port)
 4. System automatically detects wired backhaul
 5. Verify in app settings (should show "wired" or "Ethernet backhaul")
+
+### Placement and Roaming Check
+
+1. Place the primary node beside the modem or gateway, with clear space around the radios.
+2. Place each satellite where the app reports a strong connection to the upstream node.
+3. Keep a satellite between the primary node and the weak area. Do not place it inside a dead zone.
+4. Prefer Ethernet backhaul for fixed rooms, multi-story homes, and multi-gig traffic.
+5. Test roaming with a phone call, a video meeting, and a moving speed test. A shared SSID does not guarantee a fast handoff because the client decides when to roam.
+6. Record the node position, backhaul type, band, channel, RSSI, and packet loss before changing settings.
+
+Wireless backhaul trades installation effort for radio capacity. A dedicated third band reduces client contention, but walls and distance still reduce the backhaul link. Wired backhaul removes that radio hop and leaves more airtime for clients.
 
 ## Advanced Configuration and Optimization
 
@@ -762,6 +777,19 @@ subscription ($10/month or $100/year)
 
 ## Decision Framework: Which Mesh System Is Right for You?
 
+### Limits of Product Rankings
+
+Product rankings change when prices, firmware, subscriptions, regional radio rules, and client support change. A mesh system with a higher aggregate rate does not guarantee lower latency in your home. A single strong access point also beats an over-sized mesh deployment when extra nodes create co-channel contention.
+
+Use this order for a purchase decision:
+
+1. Confirm the ISP handoff and required WAN speed.
+2. Count wired rooms and select port speeds before comparing wireless rates.
+3. Draw the floor plan and mark walls, floors, and likely node locations.
+4. Select wired or wireless backhaul based on the building, not the package count.
+5. Check WPA3, guest and IoT isolation, update policy, local administration, and subscription requirements.
+6. Compare independent tests only when the test client, channel width, firmware, distance, and backhaul match.
+
 ### By Home Size
 
 | Home Size | Best Choice | Alternative |
@@ -876,3 +904,6 @@ With modern mesh systems delivering **5x better coverage**, **3x faster speeds**
 - [Ubiquiti UniFi](https://ui.com/wi-fi)
 - [WiFi Alliance - WiFi 7 Specifications](https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7)
 - [FCC WiFi Regulations](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/afcd/wifi)
+- [eero Max 7 Official Support and Specifications](https://www.eero.com/support/articles/eero-max-7)
+- [NETGEAR Orbi 970 Technical Specifications](https://www.downloads.netgear.com/files/GDC/RBE971/RBE971_TS.pdf)
+- [TP-Link Deco XE75 Pro Specifications](https://static.tp-link.com/upload/product-overview/2022/202206/20220628/Deco%20XE75%20Pro%28EU%26US%29%201.0_Datasheet.pdf)

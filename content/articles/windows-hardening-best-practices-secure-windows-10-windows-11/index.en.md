@@ -1,6 +1,7 @@
 ---
 title: "Basic Windows Hardening Best Practices for Secure..."
 date: 2023-07-27
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover effective strategies for enhancing the security of your Windows 10 and Windows 11 systems through comprehensive hardening techniques and best practices."
@@ -420,6 +421,58 @@ To enable Windows Automatic Maintenance, follow these steps:
 Enabling Windows Automatic Maintenance ensures that your system stays optimized and protected by regularly performing essential maintenance tasks such as software updates, disk optimization, and security scans. By keeping your system in good health, you can enjoy a smoother and more secure computing experience.
 
 For more detailed information on Windows Automatic Maintenance and its configuration options, refer to the official [**Microsoft documentation**](https://learn.microsoft.com/en-us/windows/win32/taskschd/task-maintenence).
+
+______
+
+## Recommended Hardening Order
+
+Apply controls in an order that protects access and recovery first:
+
+1. Confirm the Windows edition, build, support status, hardware security features, and recovery options.
+2. Install current security updates and restart during a planned window.
+3. Create a tested backup and record the current firewall, Defender, BitLocker, service, and local policy state.
+4. Keep UAC enabled, use separate administrator accounts, and require MFA for supported remote and cloud access.
+5. Enable Defender protections, firewall profiles, Secure Boot, BitLocker, and hardware isolation where the edition and hardware support them.
+6. Test ASR rules, Controlled Folder Access, AppLocker, and service changes in audit or pilot scope before blocking or disabling anything broadly.
+7. Centralize logs and review failed logons, policy changes, Defender events, and firewall drops.
+8. Reboot, test required applications, verify recovery access, and document the final state.
+
+Microsoft's [Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) supplies versioned baselines for Windows 10, Windows 11, and Windows Server. Use the matching baseline as a reviewed starting point. Microsoft warns that baseline changes need testing before production deployment.
+
+## Windows 10 Support Boundary
+
+Microsoft ended support for Windows 10 version 22H2 on October 14, 2025. A hardened Windows 10 installation still lacks a normal security-update path after that date unless a separate lifecycle or Extended Security Update arrangement applies. Treat migration, replacement, or an approved exception as part of the security plan. Hardening does not extend the product lifecycle. See [Microsoft's Windows 10 end-of-support notice](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+## Service and Feature Change Rollback
+
+Disabling a service requires dependency and workload testing. Do not disable **RPC**, **Windows Update**, **Windows Event Log**, or another service because a generic list labels it unnecessary. A service name alone does not describe its role on your system.
+
+Before a change, export the service configuration and record dependent services:
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, DisplayName, State, StartMode, StartName, PathName |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -DependentServices
+Get-Service -Name $name -RequiredServices
+```
+
+Change one service at a time. Use **Manual** before **Disabled** when a workload starts the service on demand. Record the prior startup mode. After testing, inspect application behavior, Event Viewer, Windows Update, printing, remote management, VPN access, and scheduled tasks.
+
+To roll back, restore the recorded startup mode and start the service only after confirming its dependencies:
+
+```powershell
+Set-Service -Name $name -StartupType Manual
+Start-Service -Name $name
+Get-Service -Name $name
+```
+
+For a broader policy change, restore the saved GPO or registry backup through the same management tool used to create it. Keep an offline recovery path and a local administrator credential before remote changes. Microsoft documents the service configuration syntax in [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Control Validation Record
+
+For each hardening change, record the control, scope, previous value, new value, test result, event IDs reviewed, owner, and rollback command. A blocked application or broken printer is an operational finding, not proof that the control is wrong. Tune the scope, exclusions, or deployment ring after reviewing evidence.
 
 ______
 

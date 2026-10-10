@@ -1,6 +1,7 @@
 ---
 title: "Mastering Google Dorks: Unleash Effortless Search Power"
 date: 2023-12-03
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover how to effortlessly enhance your online searches using Google Dorks, the ultimate search power tool, and find hidden gems of information with ease."
@@ -48,6 +49,12 @@ Google Dorks also allow you to exclude specific terms from your search results u
 
 ______
 ______
+
+## Safe Search and Verification Workflow
+
+Use search operators to narrow public information, then verify the result from the original publisher. Search results may expose an old copy, an indexed directory, or a page with misleading context. Do not access a private system, bypass an access control, or download exposed personal data.
+
+For defensive work, search only assets you own or have written permission to assess. Record the query, date, result URL, owner notification, and removal request when a page exposes sensitive content. Use [Google's search operator guidance](https://support.google.com/websearch/answer/2466433) and [Google Search Central](https://developers.google.com/search/docs/appearance/structured-data/intro) for supported search behavior.
 
 ## Conclusion
 

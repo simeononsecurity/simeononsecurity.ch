@@ -1,7 +1,7 @@
 ---
 title: "Windows Directory Structure"
 date: 2023-07-26
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Complete 2026 guide to the Windows directory structure including visual diagrams, Windows 11 updates, security considerations, and expert navigation techniques for efficient file management."
@@ -137,7 +137,7 @@ The **Program Files Directory** is the default location where applications and p
 | Consideration | Recommendation |
 |--------------|----------------|
 | **User Access** | Programs should write user-specific data to AppData, not Program Files |
-| **Permissions** | Program Files requires admin rights; proper applications respect UAC |
+| **Permissions** | Program Files requires admin rights. Proper applications respect UAC |
 | **Legacy Software** | 32-bit apps install to Program Files (x86) for compatibility |
 | **Disk Space** | Monitor installation: average modern application is 500 MB - 5 GB |
 
@@ -627,6 +627,34 @@ Event Viewer > Windows Logs > Security (Event IDs 4663, 4656)
 - Deploy file screens to prevent unauthorized file types
 
 ______
+
+## Current Windows Path Notes
+
+Windows keeps the same main folders across supported desktop releases, but several paths need care:
+
+| Path | Current role | Safe handling |
+|------|--------------|---------------|
+| **`C:\Windows\System32`** | Native system binaries and libraries for the installed architecture. On 64-bit Windows, 32-bit processes use the Windows-on-Windows layer through **`SysWOW64`**. | Do not replace files by hand. Use Windows Update, DISM, or the vendor installer. |
+| **`C:\Windows\WinSxS`** | Component store used for servicing and recovery. Hard links make Explorer size estimates misleading. | Use DISM component-store analysis and cleanup. Do not delete files from the folder. |
+| **`C:\Users\<name>\AppData`** | Per-user application state. `Local`, `LocalLow`, and `Roaming` serve different application and profile needs. | Back up application data before clearing caches. Do not assume every folder is disposable. |
+| **WSL 2 distribution storage** | A distribution uses an `ext4.vhdx` virtual disk under the package's `LocalState` directory. | Export or shut down the distribution before disk maintenance. Do not edit the virtual disk as a normal folder. |
+
+The older diagram and examples remain useful as a map. Microsoft documents the WSL 2 virtual disk path and explains why the distribution is stored in a virtual hard disk rather than as ordinary Windows files. The exact package name differs by distribution and installation method. See [Microsoft's WSL disk-space guidance](https://learn.microsoft.com/en-us/windows/wsl/disk-space).
+
+Microsoft ended support for Windows 10 version 22H2 on October 14, 2025, apart from editions with separate lifecycle terms or an eligible Extended Security Update arrangement. Treat Windows 10 as a migration or exception-management case in 2026. See [Microsoft's Windows 10 lifecycle notice](https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-end-of-support).
+
+The size ranges and adoption percentages in the original sections are illustrative figures, not measurements from this site. Directory size depends on installed software, update history, profile contents, and retention settings. Check the local system before deleting anything.
+
+## Safe Directory Maintenance Checklist
+
+1. Record the path, owner, ACL, and business purpose before changing a protected directory.
+2. Create or confirm a recoverable backup before removing application data or changing permissions.
+3. Prefer supported tools such as **Storage Sense**, **DISM**, **`robocopy`**, and application uninstallers.
+4. Test changes under a standard user account when the task does not need elevation.
+5. Review Event Viewer and application logs after maintenance.
+6. Keep a rollback record with the original path, command, time, and result.
+
+**Never use `/MIR` with an unreviewed destination.** `robocopy /MIR` removes destination files missing from the source.
 
 ## Conclusion
 

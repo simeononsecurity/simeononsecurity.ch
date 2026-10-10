@@ -1,6 +1,7 @@
 ---
 title: "Why Password Complexity Rules Are Outdated"
 date: 2023-12-18
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover why Password Complexity Rules are becoming obsolete and explore effortless ways to enhance online security in this informative article."
@@ -72,6 +73,31 @@ Organizations should invest in educating users about the importance of strong pa
 Phishing remains a prevalent threat. Users need to be aware of social engineering tactics used by attackers to trick them into revealing sensitive information.
 
 
+
+## Current Password Policy Guidance
+
+**NIST SP 800-63B-4 supersedes the older SP 800-63-3 link used above.** The 2025 revision requires a single-factor password to contain at least 15 characters. A password used as part of multi-factor authentication has an eight-character minimum. Verifiers should allow at least 64 characters, accept spaces, block common or compromised values, and avoid composition rules. [Read the current NIST publication](https://pages.nist.gov/800-63-4/sp800-63b.html).
+
+| Threat | Strong control | Why it matters |
+|---|---|---|
+| **Online guessing** | Rate limits, MFA, and breached-password blocking | The service limits repeated attempts |
+| **Credential stuffing** | A unique password for every account | A breach at one service does not unlock another |
+| **Offline hash cracking** | Long random passwords and a memory-hard password hash | The attacker works without the service's rate limit |
+| **Phishing** | Passkeys or phishing-resistant security keys | A copied password does not defeat the second control |
+| **Device theft** | Encrypted storage, screen lock, and account recovery planning | Local access and recovery paths become part of the threat model |
+
+**Password length does not defeat phishing.** NIST states that passwords are not phishing-resistant. Use a password manager to generate a unique random password for each site. Prefer a passkey or a hardware security key when the service supports one. Keep recovery codes in a protected offline location.
+
+Use this practical policy checklist:
+
+- Permit long passwords and passphrases. Do not force a symbol, digit, or case pattern when a blocklist and length policy address the risk better.
+- Reject common and compromised passwords. Tell the user why a rejected value fails without exposing the blocklist.
+- Require a password change after evidence of compromise. Do not force routine calendar-based changes.
+- Permit password-manager paste and autofill.
+- Add phishing-resistant MFA for administrator, finance, email, and recovery accounts.
+- Review account recovery as part of the authentication design.
+
+The older NIST link in the References section remains useful as historical context. Use SP 800-63B-4 for current policy decisions.
 
 ## Conclusion
 

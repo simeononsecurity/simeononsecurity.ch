@@ -1,6 +1,7 @@
 ---
 title: "LibreWolf vs Firefox"
 date: 2023-11-03
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Explore the features of LibreWolf and Firefox, two privacy-focused browsers, to make an informed choice for enhanced online security and privacy."
@@ -99,6 +100,35 @@ ______
 Similarly, **Firefox** is licensed under the Mozilla Public License 2.0, underscoring its dedication to open-source values. This licensing framework facilitates user freedoms, allowing individuals to leverage, modify, and distribute Firefox while adhering to the license's terms and conditions.
 
 ______
+
+## 2026 Decision Checklist
+
+LibreWolf and Firefox share the Firefox engine, but they serve different maintenance preferences. LibreWolf applies a privacy-focused configuration and removes or changes some Mozilla services. Firefox offers the broader support path, more familiar defaults, and direct Mozilla account integration.
+
+Before switching, check four items:
+
+- Update timing. Install security updates promptly from the browser's official channel.
+- Site compatibility. Test banking, work portals, video calls, and password manager extensions in a separate profile.
+- Account separation. Keep personal sync data out of a profile used for research or shared devices.
+- Recovery. Export bookmarks, record extension names, and confirm access to recovery codes before changing browsers.
+
+Privacy settings still require an operating system, account, router, and network review. A private browser does not hide activity from a signed-in service, the local device owner, or a network provider. Use [Mozilla's privacy and security support](https://support.mozilla.org/en-US/products/firefox/privacy-and-security) and [LibreWolf's documentation](https://librewolf.net/docs/) when checking a setting.
+
+## Update, Fingerprinting, and Compatibility Checks
+
+**LibreWolf and Firefox solve different problems.** LibreWolf ships a stricter configuration and removes selected Firefox services. Its project FAQ says updates usually follow Firefox within three days, but LibreWolf relies on package managers or users for updates. Firefox supplies a mainstream update path, account sync, broader compatibility, and per-site protection controls. [Read the LibreWolf FAQ](https://librewolf.net/docs/faq/) and [Mozilla's tracking protection guide](https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection?is_listing=false).
+
+**Fingerprinting protection has limits.** Strict settings reduce common tracking signals, but they do not make every user look identical. Screen size, language, operating system, extensions, and unusual overrides still affect the result. Firefox's Total Cookie Protection isolates site storage. It does not hide an account identity from the site you use. Tor Browser is the option in this comparison designed around a shared anonymity set. [See the Tor Browser fingerprinting documentation](https://support.torproject.org/tor-browser/features/fingerprinting-protections/).
+
+| Decision point | LibreWolf | Firefox |
+|---|---|---|
+| **Default posture** | Stronger privacy defaults with more compatibility tradeoffs | Balanced defaults with adjustable protection levels |
+| **Updates** | Follow the package manager or manual installation path | Mozilla-managed browser updates |
+| **Sync** | No Mozilla account sync by design | Built-in Firefox account sync |
+| **Site compatibility** | Test DRM, work portals, and unusual web apps first | Broad compatibility with per-site exceptions |
+| **Best fit** | A separate desktop browser for privacy-sensitive research | A daily browser where support and sync matter |
+
+Before switching, open the sites you rely on, confirm the installed version, and test a fresh profile. Do not stack multiple fingerprinting extensions without a measured reason. Extra modifications increase breakage and may make your browser less common.
 
 ## Conclusion: Choosing the Right Privacy-Focused Browser
 

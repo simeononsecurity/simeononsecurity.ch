@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox Academy vs TryHackMe"
 date: 2023-02-26
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 description: "Comprehensive 2026 comparison of HackTheBox Academy and TryHackMe including pricing, features, learning paths, and performance metrics to help beginners choose the best platform for learning cybersecurity skills."
 tags: ["cybersecurity", "HackTheBox Academy", "TryHackMe", "learning", "beginner", "interactive labs", "challenges", "exercises", "guidance", "support", "real-world scenarios", "skills", "network security", "web application security", "cryptography", "programming", "community", "online learning", "structured learning", "hackthebox vs tryhackme", "tryhackme vs hackthebox", "penetration testing platforms", "cybersecurity learning", "junior penetration testing", "virtual machine challenges", "network security skills", "web application security", "cryptography learning", "programming for cybersecurity", "online learning platforms", "structured learning experience", "creative thinking in cybersecurity", "beginner cybersecurity", "community support", "real-world cybersecurity scenarios", "cybersecurity skills development", "hackthebox community", "tryhackme community", "cybersecurity challenges", "learning cybersecurity", "penetration testing skills", "cybersecurity training", "hands-on cybersecurity learning", "guided cybersecurity learning", "hackthebox challenges", "tryhackme challenges", "applying cybersecurity skills", "cybersecurity education", "online cybersecurity platforms", "hackthebox subscription", "tryhackme subscription", "hackthebox support"]
 cover: "/img/cover/An_animated_image_featuring_two_characters.webp"
@@ -16,6 +16,8 @@ coverCaption: ""
 In 2026, the cybersecurity skills gap continues to widen, with over **3.5 million unfilled cybersecurity positions globally** according to [Cybersecurity Ventures](https://cybersecurityventures.com/). For aspiring security professionals, choosing the right learning platform can make the difference between career success and frustration. **HackTheBox Academy** and **TryHackMe** remain the two dominant hands-on cybersecurity training platforms, but they cater to different learning styles and career paths.
 
 This comprehensive comparison analyzes both platforms based on 2026 pricing, features, learning paths, community support, and real-world outcomes to help you make an informed decision.
+
+**Current-source note, checked October 10, 2026:** Several platform statistics, outcome tables, and plan names below come from an earlier draft. The official pages reviewed for this update do not publish matching independent datasets for both services. Treat those figures as historical context, not current measurements. Use the dated official pricing, path, and certification details added below before paying.
 
 ______
 
@@ -37,6 +39,8 @@ While both platforms aim to teach cybersecurity concepts, they have different ap
 | **Community Size** | 850K Discord members | 1.2M Discord members |
 | **Enterprise Customers** | 2,500+ organizations | 4,100+ organizations |
 
+The current [TryHackMe certifications page](https://tryhackme.com/certifications) lists **8 million+ users** and **1,100+ hands-on labs**. Its [beginner page](https://tryhackme.com/beginner-path) lists a **300,000+ Discord community**. These counts use different definitions from the earlier table. The official Academy pages reviewed for this update do not show a matching current HTB Academy user count. Treat vendor-published counts as product scale indicators, not independent audit results.
+
 ### HackTheBox Academy
 
 **HackTheBox Academy** is an online platform that provides a structured learning experience for cybersecurity professionals. It offers many cybersecurity topics, including penetration testing, forensics, and malware analysis, and provides both free and paid subscription options.
@@ -47,6 +51,12 @@ In 2026, HackTheBox Academy has added **AI-powered hint systems**, **live instru
 
 {{< youtube id="J4NmHJon2wY" >}}
 
+### Current HTB Academy structure
+
+HTB Academy now separates **cube-based subscriptions** from **access-based subscriptions**. Cube-based plans issue a monthly cube allocation, and modules unlocked with cubes stay attached to your account after cancellation. Access-based plans cover content up to a tier while the plan stays active. Completed modules stay available for review after expiry, but incomplete modules lock again. [HTB's subscription guide](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) also states HTB Academy and HTB Labs use separate subscriptions.
+
+The current plan names and prices are listed in the pricing section below. The model matters more than the headline price. Compare permanent module ownership, path access, exam vouchers, and your expected study pace.
+
 ### TryHackMe
 
 **TryHackMe** is an online platform that provides interactive labs, challenges, and exercises to teach cybersecurity concepts. It is also available in both free and paid subscription options. TryHackMe is known for its beginner-friendly approach, with a focus on providing structured learning and guidance.
@@ -55,9 +65,15 @@ By 2026, TryHackMe has expanded significantly with **gamified learning paths**, 
 
 {{< youtube id="5zE27zvsmMM" >}}
 
+### Current TryHackMe structure
+
+TryHackMe currently lists **Free**, **Premium**, and **MAX** individual plans. The public pricing page shows Free at €0, Premium at €16.99 monthly or €7.35 per month on an annual promotion, and MAX at €29.11 monthly or €17.99 per month on an annual promotion. The page states Premium includes beginner paths, path completion certificates, unlimited AttackBox, and a 15% certification discount. MAX adds advanced paths, cloud content, a persistent AttackBox, all rooms, and a 40% discount on one certification. Currency, promotion, taxes, and billing terms affect the final amount. Check the [current TryHackMe pricing page](https://tryhackme.com/pricing) before purchase.
+
 ______
 
 ## 2026 Pricing Comparison
+
+The tables below preserve earlier draft figures for context. They do not match every current plan name or price. Use the current-source table after them for a dated comparison.
 
 ### HackTheBox Academy Pricing
 
@@ -79,6 +95,24 @@ ______
 | **Teams** | $25/user/month | Custom | Team management, progress tracking, custom content, SSO integration |
 
 **Price-to-Value Analysis:** TryHackMe offers more content accessibility at lower price points, making it **20-30% more cost-effective for beginners**. HackTheBox Academy provides deeper specialization and industry-recognized certification paths at premium tiers, making it more valuable for **career advancement and specialized roles**.
+
+The **20-30% estimate is not an audited comparison**. The earlier draft does not identify its basket of features, currency, tax treatment, study hours, or source data. Official plan pages now show different names, currencies, discounts, and access rules.
+
+### Current official plans, checked October 10, 2026
+
+| Plan | Public listing | Access and certificate caveat |
+|------|----------------|-------------------------------|
+| **HTB Academy Silver** | $18/month, cube-based | 200 cubes per month, unlimited Pwnbox, and CPE submission |
+| **HTB Academy Gold** | $38/month, cube-based | 500 cubes per month, unlimited Pwnbox, and CPE submission |
+| **HTB Academy Platinum** | $68/month, cube-based | 1,000 cubes per month, unlimited Pwnbox, and CPE submission |
+| **HTB Academy Silver Annual** | $490/year, access-based | Tier II access, role paths, unlimited Pwnbox, and annual voucher benefits listed by HTB |
+| **HTB Academy Gold Annual** | $1,260/year, access-based | Tier III access, advanced role paths, unlimited Pwnbox, and broader voucher benefits listed by HTB |
+| **HTB Academy Student** | $8/month, access-based | Academic verification required, Tier II access, role paths, and unlimited Pwnbox |
+| **TryHackMe Free** | €0 | Free rooms, limited learning paths, and one hour per day of AttackBox |
+| **TryHackMe Premium** | €16.99/month shown, €7.35/month on the displayed annual promotion | Beginner paths, path certificates, unlimited AttackBox, and 15% off professional certifications |
+| **TryHackMe MAX** | €29.11/month shown, €17.99/month on the displayed annual promotion | Advanced paths, cloud content, persistent AttackBox, all rooms, and 40% off one certification |
+
+The [HTB Academy subscription guide](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions) supplies the HTB figures and access rules. The [TryHackMe pricing page](https://tryhackme.com/pricing) supplies the TryHackMe figures. Both pages are live commercial pages. Recheck them when you pay.
 
 ______
 
@@ -123,6 +157,23 @@ ______
 | **VPN Access** | ✅ Yes (OpenVPN) | ✅ Yes (OpenVPN) |
 | **Custom Lab Creation** | ❌ No | ✅ Yes (Premium+) |
 | **Lab Reset Time** | Instant | 1-3 minutes |
+
+______
+
+## Beginner Onboarding in 2026
+
+Both platforms provide browser-based practice, but their first steps differ.
+
+| Starting point | HackTheBox Academy | TryHackMe |
+|----------------|--------------------|-----------|
+| **No prior experience** | HTB's FAQ points beginners to Fundamental and Easy modules. A new account starts with free cubes for initial Fundamental modules. | Pre Security targets complete beginners, requires no prior cyber experience, and runs in the browser. |
+| **First guided route** | Information Security Foundations leads into job-role paths. The Penetration Tester path lists Information Security Foundations as prerequisite knowledge. | Pre Security leads into Web Fundamentals. Cyber Security 101 covers networking, operating systems, offensive basics, defensive basics, and career topics. |
+| **First defensive route** | The SOC Analyst and Junior Cybersecurity Analyst job-role paths appear in the current Academy catalogue. | SOC Level 1 covers alert triage, reporting, SIEM, EDR, phishing analysis, and network traffic analysis. |
+| **Time estimate** | The official FAQ describes module tiers and access rules, but it does not publish one completion time for all beginners. | The beginner page estimates 30 to 40 hours for Pre Security. Treat this as TryHackMe's planning estimate, not a guarantee. |
+
+Read the [HTB Academy FAQ](https://academy.hackthebox.com/faq), [HTB Penetration Tester path](https://academy.hackthebox.com/path/preview/penetration-tester), [TryHackMe beginner path](https://tryhackme.com/beginner-path), and [TryHackMe Cyber Security 101 path](https://tryhackme.com/path/outline/cybersecurity101) before choosing a route. These pages give a stronger current onboarding signal than platform-wide counts.
+
+*For a learner starting from zero, TryHackMe has the clearer first click. HTB Academy still fits beginners who prefer documentation, target-based exercises, and a staged path into penetration testing.*
 
 ______
 
@@ -174,6 +225,8 @@ ______
 
 ## Learning Path Comparison
 
+The detailed lists below preserve the earlier draft's route names, hour estimates, and cost ranges. Path contents change, so map them against the current [HTB Academy paths catalogue](https://academy.hackthebox.com/catalogue/paths), [TryHackMe Cyber Security 101 path](https://tryhackme.com/path/outline/cybersecurity101), and [TryHackMe SOC Level 1 path](https://tryhackme.com/path/outline/soclevel1) before using the totals as a study plan.
+
 ### Beginner to Junior Penetration Tester
 
 #### HackTheBox Academy Path
@@ -222,6 +275,8 @@ ______
 
 ## Real-World Success Metrics (2026 Data)
 
+The tables in this section are retained from the earlier draft. They do not identify a survey publisher, sample design, questionnaire, dates, or source links. The official product pages reviewed on October 10, 2026 describe training, paths, and credentials. They do not support the placement rates, salary figures, exam pass rates, satisfaction scores, or employer conclusions below. Treat those figures as unverified claims, not platform benchmarks.
+
 ### Job Placement Rates
 
 According to independent surveys and platform-provided data:
@@ -259,6 +314,40 @@ Based on surveys of 10,000+ users on each platform:
 | **Community Support** | 4.4/5.0 | 4.7/5.0 |
 | **Career Impact** | 4.7/5.0 | 4.5/5.0 |
 | **Would Recommend** | 92% | 94% |
+
+### What the official pages support
+
+| Evidence | Supported current claim | Limit |
+|----------|--------------------------|-------|
+| **HTB Academy role paths** | HTB says role paths prepare learners for hands-on certification exams. Exam eligibility requires 100% path completion and a valid voucher. | A path or certificate does not establish employment, salary, or seniority. |
+| **TryHackMe learning paths** | TryHackMe issues path completion certificates. Its professional certifications use mapped learning paths and shareable, verifiable credentials. | A completion certificate does not prove independent assessment performance. |
+| **Platform profiles** | Both services record progress or completion details for learner use. | Profile activity alone does not show report quality, teamwork, or workplace performance. |
+
+Use the [HTB Academy certifications guide](https://help.hackthebox.com/en/articles/12741732-academy-certifications) and [TryHackMe certifications page](https://tryhackme.com/certifications) for current credential rules. Neither page promises a job or salary outcome.
+
+______
+
+## Certificates and Portfolio Value
+
+Training records help a hiring manager see how you studied. They do not replace work samples.
+
+| Portfolio item | What it shows | What it does not show |
+|----------------|---------------|------------------------|
+| **Path completion certificate** | You finished a guided curriculum | Independent problem solving under new conditions |
+| **Professional certification** | You passed a defined practical assessment | Long-term work performance or team experience |
+| **Public profile** | Consistent practice and completed rooms or modules | The quality of every solution or the help used |
+| **Sanitized writeup** | Method, evidence, commands, and remediation thinking | Permission to publish real client or employer data |
+| **Sample report or script** | Communication, repeatability, and technical judgment | A substitute for references or professional experience |
+
+Build a small record while you study:
+
+- Complete one current path for your target role.
+- Publish three sanitized writeups with dates, scope, evidence, and remediation.
+- Add one short assessment report or defensive incident report.
+- Link your public profile and certificate pages.
+- State where you used hints, walkthroughs, or supplied solutions.
+
+The strongest portfolio value comes from showing your process. A badge proves completion. A clear report shows how you work.
 
 ______
 
@@ -364,19 +453,32 @@ ______
 
 1. **Don't skip prerequisites**: Even if you have IT experience, review the fundamentals modules to ensure no gaps.
 2. **Take detailed notes**: The complexity requires maintaining personal documentation.
-3. **Use the AI tutor strategically**: Don't rely on it immediately; struggle first to maximize learning.
+3. **Use the AI tutor strategically**: Don't rely on it immediately. Struggle first to maximize learning.
 4. **Join study groups**: The Discord server has active study groups for each major path.
 5. **Complete certification paths fully**: The platform's certifications (CPTS, CBBH) are most valuable when earned.
 
 ### Maximizing TryHackMe
 
-1. **Follow structured paths**: Don't room-hop randomly; complete full learning paths for coherent progression.
+1. **Follow structured paths**: Don't room-hop randomly. Complete full learning paths for coherent progression.
 2. **Join the 30-day streak challenge**: Gamification elements significantly boost consistency.
 3. **Participate in King of the Hill**: Competitive modes provide realistic pressure scenarios.
 4. **Create content for the community**: Top contributors often get noticed by employers.
 5. **Leverage career resources**: Use the job board and resume review services included with Premium+.
 
 ______
+
+## Verify the Current Offer Before Paying
+
+Plan names, prices, included modules, and access rules change. Treat the figures in this comparison as dated observations, not permanent platform facts. Check the [Hack The Box Academy](https://academy.hackthebox.com/) site and the [TryHackMe paths and pricing pages](https://tryhackme.com/paths) before starting a paid plan.
+
+Use this short comparison process:
+
+1. Open the syllabus for the path you want. Count the modules that match your target role instead of comparing platform-wide topic lists.
+2. Check whether the plan includes the labs, targets, and review features you need. A low subscription price does not help if the required path sits outside your plan.
+3. Confirm the platform's current rules for certificates, badges, notes, and completed-work visibility. These records support a portfolio, but neither platform replaces a proctored industry certification or work sample.
+4. Start with one defined outcome, such as completing an entry-level path and publishing a sanitized lab report. Reassess after four weeks using completed modules, practice time, and retained skills.
+
+This approach also resolves the beginner question. TryHackMe offers a gentler starting point when you need guided fundamentals. Hack The Box Academy fits better when you already understand the basics and want deeper task-driven practice. The best choice depends on the path, current plan rules, and your study goal.
 
 ## Authoritative Sources and References
 
@@ -387,6 +489,15 @@ ______
 5. [ISC² Cybersecurity Workforce Study 2026](https://www.isc2.org/workforce-study)
 6. [CompTIA State of Cybersecurity 2026](https://www.comptia.org/)
 7. [Offensive Security Certification Statistics](https://www.offensive-security.com/)
+8. [HTB Academy Subscriptions](https://help.hackthebox.com/en/articles/13677074-academy-subscriptions)
+9. [HTB Academy Certifications](https://help.hackthebox.com/en/articles/12741732-academy-certifications)
+10. [HTB Academy FAQ](https://academy.hackthebox.com/faq)
+11. [HTB Academy Paths Catalogue](https://academy.hackthebox.com/catalogue/paths)
+12. [TryHackMe Premium Plans](https://tryhackme.com/pricing)
+13. [TryHackMe Beginner Path](https://tryhackme.com/beginner-path)
+14. [TryHackMe Cyber Security 101 Path](https://tryhackme.com/path/outline/cybersecurity101)
+15. [TryHackMe SOC Level 1 Path](https://tryhackme.com/path/outline/soclevel1)
+16. [TryHackMe Certifications](https://tryhackme.com/certifications)
 
 ______
 
@@ -396,6 +507,10 @@ Both HackTheBox Academy and TryHackMe are excellent platforms for learning cyber
 
 **The data clearly shows that TryHackMe is better for absolute beginners**, with its comprehensive IT fundamentals, gentler learning curve, and lower cost. **HackTheBox Academy excels for those with IT backgrounds** who want to specialize in offensive security and pursue advanced certifications.
 
+The recommendation above follows the current onboarding pages, not the unverified outcome tables. TryHackMe's official beginner page starts from zero and lists browser-based guided labs. HTB's FAQ lists Fundamental and Easy modules for beginners, while its Penetration Tester path lists Information Security Foundations as prerequisite knowledge.
+
 Ultimately, the choice between the two platforms depends on your current skill level, career goals, learning style, and budget. Many successful cybersecurity professionals use both platforms strategically - starting with TryHackMe for foundational knowledge and transitioning to HackTheBox Academy for advanced specialization. By choosing the right platform (or combination of platforms), you can develop the skills you need to succeed in the exciting and lucrative field of cybersecurity.
 
 **Our recommendation for most beginners**: Start with **TryHackMe Premium** ($140/year) for your first 6 months, then evaluate whether to add **HackTheBox Academy Individual** ($190/year) based on your career direction and progress. This staged approach minimizes initial investment while maximizing learning outcomes.
+
+**Current plan recommendation, checked October 10, 2026:** Start with TryHackMe Pre Security at no subscription cost. Move to Premium when you need full beginner paths and unlimited AttackBox. Review MAX for advanced paths and cloud content. For HTB Academy, compare the Student, Silver Annual, Gold Annual, and cube-based plans against your target path and exam voucher needs. The old dollar amounts in the recommendation above are retained from the earlier draft and do not describe the current public plan pages.

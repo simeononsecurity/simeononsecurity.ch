@@ -1,9 +1,10 @@
 ---
-title: "2024 Cybersecurity Threats"
+title: "Cybersecurity Threats: 2024 Context and 2026 Defensive Checklist"
 date: 2024-02-20
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Discover the top cybersecurity threats of 2024 and learn how to stay safe with expert recommendations."
+description: "Review the threat categories discussed in 2024 and apply a dated 2026 defensive checklist for ransomware, phishing, IoT, insider, and cloud risks."
 tags: ["cybersecurity", "threats", "ransomware", "phishing", "IoT security", "insider threats", "cloud security", "data backup", "multi-factor authentication", "security patches", "employee training", "access controls", "background checks", "data loss prevention", "cloud providers", "data encryption", "network security", "endpoint security", "network monitoring", "vulnerability scanning"]
 cover: "/img/cover/A_cartoon_hacker_trying_to_break_into_a_computer_system.webp"
 coverAlt: "A cartoon hacker trying to break into a computer system while a shield with a lock protects it."
@@ -12,7 +13,7 @@ coverCaption: ""
 
 **Cybersecurity Threats to Watch Out for in 2024: Expert Insights and Recommendations**
 
-As we move into 2024 , the threat landscape for cybersecurity continues to evolve and become more complex. In this article, we will explore some of the top cybersecurity threats that businesses and individuals should be aware of, as well as expert insights and recommendations on how to stay safe.
+This article preserves a 2024 threat review and adds a dated 2026 operating checklist. The threat categories remain useful, but the examples and defensive priorities require regular review. CISA's current [ransomware guidance](https://www.cisa.gov/stopransomware/ransomware-guide) still emphasizes phishing-resistant MFA, tested backups, vulnerability management, and identity controls.
 
 ## 1. Ransomware Attacks
 
@@ -104,3 +105,17 @@ To protect your data in the cloud, it is important to take the following steps:
 ## Conclusion
 
 Wrapping up, the cybersecurity threat landscape in 2024 is rapidly changing and poses significant risks to individuals and businesses alike. You need to stay vigilant and take proactive measures to protect against potential threats, such as ransomware attacks, phishing scams, IoT security risks, insider threats, and cloud security vulnerabilities. By following the expert insights and recommendations provided in this article, individuals and businesses can take significant steps towards improving their cybersecurity posture and protecting their valuable data and information. These measures include regular data backups, keeping software up-to-date, training employees, implementing access controls, conducting background checks, and using reputable cybersecurity solutions. Staying informed and taking action can help to mitigate the risk of cybersecurity threats and keep you and your business safe in 2024 and beyond.
+
+## Dated 2026 Defensive Checklist
+
+Use this checklist when reviewing the older 2024 recommendations. CISA reported continuing cloud identity targeting in 2025 and its updated ransomware guidance calls for phishing-resistant MFA on email, VPN, and critical accounts.
+
+- **Identity:** Require phishing-resistant MFA for administrators, email, VPN, and other high-impact services. Review dormant accounts and standing privileges.
+- **Recovery:** Keep offline or otherwise isolated backups. Test restoration and record recovery time and recovery point results.
+- **Exposure:** Track internet-facing assets, patch exploited vulnerabilities first, and remove unused services.
+- **Email:** Use sender authentication, attachment and link controls, and a reporting path for suspected phishing.
+- **Cloud:** Review identity, storage, network exposure, audit logs, and provider responsibilities for each workload.
+- **IoT:** Place devices on a separate network, replace default credentials, update firmware, and disable unused management paths.
+- **Insider risk:** Limit data access by role, monitor unusual downloads, and provide a documented reporting process. Background checks require a lawful, role-appropriate process.
+
+For current ransomware actions, read CISA's [StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide). For cloud identity risk, read CISA's [cloud identity infrastructure advisory](https://www.cisa.gov/news-events/news/securing-core-cloud-identity-infrastructure-addressing-advanced-threats-through-public-private).

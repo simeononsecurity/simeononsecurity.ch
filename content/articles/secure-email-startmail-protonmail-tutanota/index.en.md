@@ -1,7 +1,7 @@
 ---
 title: "Secure Email Showdown: StartMail vs ProtonMail vs Tutanota"
 date: 2023-08-24
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover the best secure email service! A detailed comparison of StartMail, ProtonMail, and Tutanota, ensuring your privacy online"
@@ -87,6 +87,14 @@ Recent improvements to StartMail include:
 - **Import and export of PGP keys** for compatibility, providing users the flexibility to use their existing PGP keys with ProtonMail, ensuring **smooth integration** with existing encrypted communication setups
 - **Bridge for desktop clients**: Allows use of ProtonMail with Thunderbird, Apple Mail, and Outlook
 - **Tor accessibility**: Access via Tor network for enhanced anonymity
+
+### Message Path Boundaries
+
+| Message path | Default protection | Boundary to remember |
+| --- | --- | --- |
+| Proton Mail to Proton Mail | End-to-end encryption | Subject lines and addressing metadata are not end-to-end encrypted |
+| Proton Mail to another provider | TLS in transit | The recipient's provider may read or retain the message unless password-protected email or PGP is used |
+| Another provider to Proton Mail | TLS in transit, then zero-access storage | The sender's provider may retain its own copy |
 
 ### ProtonMail 2026 Enhancements
 
@@ -672,6 +680,21 @@ The secure email landscape continues evolving:
 - **Standardization**: Industry standards emerging for encrypted email protocols
 
 ______
+
+## Current Encryption Boundaries
+
+Secure email does not mean every message is end-to-end encrypted for every recipient. Provider-to-provider delivery still depends on the recipient's service and the selected sending mode. Proton's current documentation states that messages between Proton Mail users receive end-to-end encryption, while messages to other providers use TLS unless the sender selects password-protected email or PGP. Its [encryption explanation](https://proton.me/support/what-is-encrypted-within-protonmail) also notes that subject lines and addressing metadata are not end-to-end encrypted.
+
+Use this checklist for any provider:
+
+1. Identify whether the recipient uses the same provider. Do not assume a branded secure mailbox makes external delivery end-to-end encrypted.
+2. Test the provider's password-protected or PGP workflow with a non-sensitive message before relying on it.
+3. Protect the account with a unique password, multi-factor authentication, recovery codes, and a trusted device.
+4. Check local mail clients and bridge software. Messages stored on a device still depend on device encryption and account security.
+5. Use neutral subject lines when the subject itself would disclose sensitive information.
+6. Read the provider's current jurisdiction, retention, export, recovery, and transparency documentation before moving a primary mailbox.
+
+StartMail, Proton Mail, and Tuta differ in jurisdiction, feature set, client design, and account recovery choices. Compare the current provider documentation and plan pages before paying. Proton's [current PGP guide](https://proton.me/support/how-to-use-pgp) explains the separate trust and key-management decisions behind end-to-end email encryption.
 
 ## Conclusion - Making Your Secure Email Choice
 

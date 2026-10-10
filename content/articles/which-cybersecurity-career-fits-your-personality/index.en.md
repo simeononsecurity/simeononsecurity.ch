@@ -1,7 +1,7 @@
 ---
 title: "Which Cybersecurity Career Fits You? 16 Starting Points, Many Paths"
 date: 2026-09-20
-lastmod: 2026-09-20
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Explore a personality-themed video, multiple cybersecurity roles for each type, and practical exercises to compare career paths by their real work."
@@ -15,6 +15,8 @@ coverCaption: "The best career path starts with exploring the work behind each r
 **Cybersecurity is a collection of very different jobs.** A security operations center (SOC) analyst investigates alerts, a security engineer builds controls, a privacy specialist works through data handling decisions, and a sales engineer explains technology to customers. Finding work you enjoy starts with understanding those daily tasks.
 
 The video below uses all 16 personality labels as a playful way to introduce these paths. Watch it, take the linked test if you want a starting point for reflection, and then use the role descriptions and small experiments in this article to see what actually holds your interest.
+
+**Reader outcome:** leave with two or three roles to test, one realistic task for each, and a short record of what you enjoyed, tolerated, or avoided. Use the personality label to form questions, never as a hiring prediction.
 
 {{< youtube id="FsplOmkbPI4" title="Which Cybersecurity Job Is Right for You?" description="A personality-themed tour of 16 cybersecurity roles, from SOC analysis and forensics to GRC, engineering, and leadership." >}}
 

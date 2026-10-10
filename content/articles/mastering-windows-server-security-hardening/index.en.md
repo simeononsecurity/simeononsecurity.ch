@@ -1,6 +1,7 @@
 ---
 title: "Mastering Windows Server Security"
 date: 2023-10-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn effective Windows Server security strategies, from hardening basics to advanced techniques, safeguarding your infrastructure with confidence."
@@ -139,6 +140,48 @@ SIEM tools collect and analyze security event logs from various sources, providi
 ### using Artificial Intelligence for Threat Detection
 
 Artificial Intelligence (AI) technologies can enhance threat detection capabilities by **analyzing vast amounts of data** and identifying patterns indicative of malicious activity. AI-powered solutions can **augment human efforts** and provide early warning signs of potential security breaches.
+
+## Server-Specific Control Order
+
+Server hardening must follow the server's role. A domain controller, member server, file server, database host, and workgroup server have different dependencies and exposure.
+
+1. Inventory the role, listening ports, installed roles, scheduled tasks, service accounts, remote administration paths, and backup targets.
+2. Apply current updates in a maintenance window. Confirm console or out-of-band access before changing remote access controls.
+3. Use a role-matched Microsoft security baseline. The [Security Compliance Toolkit](https://learn.microsoft.com/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10) supports Windows Server 2016, 2019, 2022, and 2025 baselines.
+4. Protect administrative access with separate accounts, MFA where supported, Windows LAPS for local administrator passwords, and a managed administrative workstation.
+5. Restrict RDP, WinRM, SMB, LDAP, database ports, and management interfaces to approved networks. Require modern SMB protections for file services.
+6. Enable audit policy, central log forwarding, Defender protections, firewall logging, and alerting before production traffic arrives.
+7. Test backup restoration, service restart, domain authentication, application health, and failover.
+
+Microsoft's [Windows Server security guidance](https://learn.microsoft.com/en-us/windows-server/security/security-and-assurance) covers built-in protections, while Microsoft's training path includes LAPS, privileged administration, domain controller protection, security baselines, and SMB 3.1.1 protections. Treat vendor baseline settings as a starting point. Test role-specific compatibility before enforcement.
+
+## Domain Controller and Member Server Differences
+
+| Server role | Priority controls | Change risk |
+|-------------|------------------|-------------|
+| **Domain controller** | Protect AD DS, SYSVOL, DNS, replication, privileged groups, and physical or virtual console access | A bad policy or authentication change affects the domain |
+| **Member server** | Restrict local administration, service accounts, SMB, RDP, WinRM, and application ports | Application and domain dependencies vary by workload |
+| **File server** | SMB signing or encryption, share and NTFS ACL review, ransomware protection, snapshots, and restore tests | Share permissions and NTFS permissions combine |
+| **Workgroup server** | Local account separation, unique administrator credentials, firewall allow lists, patching, and console recovery | No domain policy provides centralized recovery |
+
+## Service Change Rollback Plan
+
+Before disabling a service, capture its current configuration, dependencies, recovery actions, service account, executable path, and workload owner. Use a pilot server or maintenance window. Do not disable a service on a domain controller or production application host from a generic debloat list.
+
+```powershell
+$name = 'Spooler'
+Get-CimInstance Win32_Service -Filter "Name='$name'" |
+    Select-Object Name, State, StartMode, StartName, PathName, ExitCode |
+    Export-Csv "C:\Temp\$name-before.csv" -NoTypeInformation
+Get-Service -Name $name -RequiredServices
+Get-Service -Name $name -DependentServices
+```
+
+Record the old startup mode. Prefer **Manual** when a service is needed by an occasional task. After the change, test authentication, name resolution, file shares, scheduled jobs, monitoring, backups, and application health. Restore the old mode with `Set-Service`, start the service, and review the System and Service Control Manager logs. Microsoft documents service configuration with [`sc.exe config`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-config).
+
+## Windows Server 2025 Baseline Option
+
+Windows Server 2025 provides role-aware OSConfig security baseline scenarios for domain controllers, member servers, and workgroup members. Microsoft states that OSConfig does not support earlier server versions. Use the Security Compliance Toolkit for supported earlier baselines. Read the [Windows Server 2025 baseline guide](https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure), test the selected role scenario, and keep the removal procedure available before applying it.
 
 ## Conclusion
 

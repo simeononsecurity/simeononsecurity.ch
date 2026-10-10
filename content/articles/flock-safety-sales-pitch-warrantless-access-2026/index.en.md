@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety's Sales Pitch: Warrantless Access to Every Movement"
 date: 2026-09-11
-lastmod: 2026-09-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company."
@@ -86,6 +86,8 @@ The newer line pulls the other way. **United States v. Jones** (2012) held a GPS
 | **Chhatri v. United States** | cited in the video | Location shared with a third party stays protected, so the warrant requirement survives |
 
 *Flock's product is the comprehensive movement record Jones and Carpenter protect. The company argues its cameras escape those rulings because a sensor, not a GPS unit or a cell tower, gathers the positions. The distinction is in the sensor, not in the underlying record.*
+
+**Legal boundary:** Jones and Carpenter do not decide every automated license-plate-reader dispute. The cases provide a constitutional framework for long-term location tracking and government access to movement records. Courts, statutory rules, retention periods, access controls, and the facts of a particular query still affect the result. The sales claims in this article are an argument for scrutiny, not a substitute for jurisdiction-specific legal advice.
 
 ______
 

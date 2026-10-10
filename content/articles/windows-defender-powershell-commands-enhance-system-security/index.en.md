@@ -1,6 +1,7 @@
 ---
 title: "Boost Your System Security with Windows Defender..."
 date: 2023-07-27
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover the power of Windows Defender PowerShell commands and learn how to enhance your system security with command-line control."
@@ -159,6 +160,12 @@ This command ensures that Windows Defender skips scanning the specified folder, 
 Exclusions can be useful in various scenarios, such as excluding trusted applications, development environments, or specific files that may trigger false positives. By using the flexibility of `Add-MpPreference`, you can fine-tune Windows Defender to suit your specific security needs and optimize its performance.
 
 Protect your system effectively while minimizing false positives and unnecessary scanning interruptions by using the powerful exclusion capabilities provided by `Add-MpPreference`.
+
+## 2026 Defender Command Checks
+
+Run Defender commands from an elevated session only when the task needs elevation. Review the current module help on the target Windows version before using a parameter. Capture the existing configuration, change one setting, verify the result, and record the rollback command.
+
+Useful review steps include checking protection status, signature age, exclusions, preferences, scan history, and recent detections. Keep exclusions narrow and document the owner and expiry date. Use the maintained [Microsoft Defender PowerShell module documentation](https://learn.microsoft.com/en-us/powershell/module/defender/) and [Microsoft Defender Antivirus documentation](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows) for current cmdlets and behavior.
 
 ## Conclusion
 

@@ -1,7 +1,7 @@
 ---
 title: "We Mapped 146,526 ‘Flock Cameras.’ 50,278 Were ClickShare Systems"
 date: 2026-09-21
-lastmod: 2026-09-21
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Our audit of Flock Finder found 50,278 Barco ClickShare devices and thousands of other false positives inside a 146,526-record camera map. Here is what failed, how we proved it, and what we changed."
@@ -16,6 +16,8 @@ canonical: "https://simeononsecurity.com/articles/flock-finder-oui-false-positiv
 **We put 146,526 points on a surveillance-camera map. At least 50,278 of them were Barco ClickShare presentation systems. Conference-room hardware accounted for more than one-third of what our headline called “Cameras Mapped.”**
 
 This was our project, our data pipeline, and our mistake. Flock Finder queried WiGLE every day for MAC-address prefixes observed on Flock Safety cameras, published the results at full coordinate precision, and rendered them as equivalent pins. The records carried the word `suspected` in their metadata and the documentation mentioned false positives. The map and headline still communicated certainty.
+
+**Reader outcome:** reproduce the audit, separate observation from attribution, and publish confidence at the same layer as the map marker and headline. A prefix match is evidence for investigation, not proof of a camera.
 
 When we finally ran a frequency histogram over the SSID column, the dataset explained the failure in minutes. ClickShare was only the largest category. Another 6,099 records named themselves `SMARTGATE_*`; 3,801 began with the generic WiFi Direct prefix `DIRECT-`; 314 were the exact name `AndroidAP`; 138 said `Audi HUD`; 133 said `MAX-PRINTER`; and 30 contained another detector's verdict string. In total, **60,793 rows, or 41.5%, matched the original audit's known-other naming rules.**
 

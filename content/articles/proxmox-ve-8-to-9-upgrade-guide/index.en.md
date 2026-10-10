@@ -1,7 +1,7 @@
 ---
 title: "Proxmox VE 8 to 9 Upgrade Guide"
 date: 2026-07-22
-lastmod: 2026-07-22
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Complete guide to upgrading Proxmox VE 8 (Debian Bookworm) to Proxmox VE 9 (Debian Trixie). Covers prerequisites, step-by-step manual upgrade, the pve8to9-upgrade.sh automation script, breaking changes, and known issues."
@@ -530,6 +530,12 @@ After rebooting each node:
 - [ ] Move any `/etc/sysctl.conf` custom settings to `/etc/sysctl.d/`
 
 ______
+
+## Post-Upgrade Verification
+
+After an upgrade, check repository configuration, cluster quorum, storage status, guest boot, backups, firewall rules, and management access. Review system logs before declaring the upgrade complete. Test one guest restore on a separate host when the cluster supports it.
+
+Use the current [Proxmox VE administration guide](https://pve.proxmox.com/pve-docs/) and [release notes](https://pve.proxmox.com/wiki/Roadmap) for version-specific commands. Do not copy a command from an older release without checking the target version and backup state.
 
 ## References
 

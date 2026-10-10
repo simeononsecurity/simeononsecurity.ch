@@ -1,6 +1,7 @@
 ---
 title: "Mastering Wireshark: A Comprehensive Beginner's Guide to Network Analysis"
 date: 2023-04-07
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover how to use Wireshark effectively for network analysis and troubleshooting with this detailed beginner's guide."
@@ -63,6 +64,26 @@ Wireshark is an excellent tool for troubleshooting various network problems, suc
 - **Identifying Slow Network Connections:** Determine whether slow network connections are caused by network latency or application delays by analyzing the round-trip time (RTT) between packets. Use the TCP Stream Graph feature to visualize the RTT values and identify possible bottlenecks.
 - **Detecting Unauthorized Access:** Monitor network traffic for suspicious activities or unauthorized access attempts by filtering packets based on IP addresses, ports, or protocols.
 
+## A Beginner Capture Plan
+
+Start with a question and a short capture window. Capture on the interface carrying the traffic under review, reproduce one problem, then stop and save the pcapng file with a timestamp. Packet captures often contain credentials, personal data, hostnames, and internal addresses. Store them as sensitive records and share them only with authorized people.
+
+Use a **capture filter** to reduce packets written during capture. Use a **display filter** after capture to hide packets while preserving the file. The syntaxes differ. Wireshark's guide documents both filter languages.
+
+| Goal | Display filter | What to check |
+|---|---|---|
+| **DNS failure** | `dns` | Query name, response code, server address, and response delay. |
+| **TCP setup** | `tcp.flags.syn == 1` | SYN, SYN-ACK, and final ACK for the intended endpoint. |
+| **Retransmissions** | `tcp.analysis.retransmission` | Direction, timing, and whether loss repeats on one path. |
+| **One host** | `ip.addr == 192.168.1.20` | Traffic to or from the selected host. |
+| **One service** | `tcp.port == 443` | The selected TCP port, without assuming the application. |
+
+For a terminal workflow, `tshark -i <interface> -f "host 192.168.1.20" -w incident.pcapng` writes a pcapng capture with a libpcap capture filter. `tshark -r incident.pcapng -Y "dns or tcp.analysis.retransmission"` reads the file with a display filter. Replace the interface, address, and file name with values from your authorized test.
+
+Select a packet and use **Analyze > Follow** to inspect a protocol stream. Wireshark supports TCP, UDP, TLS, HTTP, HTTP/2, QUIC, WebSocket, SIP, and other stream types. Following a stream does not decrypt TLS by itself. The [Wireshark stream guide](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html) explains the scope and limits.
+
+Treat **Expert Information** as a lead. A retransmission, duplicate packet, or malformed packet needs correlation with timestamps, endpoints, interface counters, and application logs. Wireshark's documentation states that expert information is a starting point, not proof of a fault.
+
 ______
 
 ## Following Government Regulations
@@ -85,6 +106,9 @@ ______
 2. [Wireshark User's Guide](https://www.wireshark.org/docs/wsug_html_chunked/)
 3. [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 4. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+5. [Wireshark TShark Manual](https://www.wireshark.org/docs/man-pages/tshark.html)
+6. [Wireshark Follow Protocol Streams](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
+7. [Wireshark Expert Information](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvExpert.html)
 
 Remember to practice and experiment with Wireshark on your own to gain a deeper understanding of its capabilities. The more you use it, the more proficient you'll become in identifying and resolving network
 

@@ -1,7 +1,7 @@
 ---
 title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
 date: 2026-09-11
-lastmod: 2026-09-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
@@ -241,6 +241,8 @@ Each category feeds a different data source. The table below pairs them, which g
 
 *Begin detection work with the telemetry column. A useful rule grows from a known data source and a known behavior, not from a tool name.*
 
+**Categories overlap during an incident.** A phishing message can lead to credential theft, malware execution, and an identity-based intrusion. Label the initial access technique, then record the follow-on behaviors separately. This keeps one event from becoming four unrelated alerts and gives your investigation a clearer timeline.
+
 ______
 
 ## Practice Detecting Them in a Lab
@@ -261,6 +263,8 @@ Start with the identity category. Create a test user, enable sign-in logging, an
 6. **Record the limits** of the rule, including the activity it misses.
 
 The [Microsoft SOC Home Lab guide](/articles/microsoft-soc-home-lab-2026/) covers the environment build in detail: licensing, network segmentation, log collection, and identity control testing. The [Mad Hat Cyber Range guide](https://madhat.io/pages/cyber-range-guide) expands the same idea into a workshop-grade build with an attack, detect, and defend exercise.
+
+For a consistent vocabulary, map the observed behavior to the relevant [MITRE ATT&CK technique](https://attack.mitre.org/). Treat the mapping as an analyst aid, not as proof of attribution. Keep the raw event, query, rule version, and known blind spots with the exercise record.
 
 {{< centerbutton href="/articles/microsoft-soc-home-lab-2026/" >}}
   Read the Microsoft SOC Home Lab Guide

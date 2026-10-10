@@ -1,7 +1,7 @@
 ---
 title: "NextDNS vs AdGuard vs Quad9 vs Cloudflare: 2026 DNS"
 date: 2023-08-30
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comprehensive 2026 comparison of NextDNS, AdGuard DNS, Quad9, Cloudflare DNS, and Pi-hole DNS services for security, privacy, and performance. Find the best DNS resolver for your needs."
@@ -364,6 +364,42 @@ For organizations using **OPNsense** firewalls, DNS service selection is critica
 For more on OPNsense security, see our [pfSense vs Firewalla vs OPNsense comparison](https://simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/).
 
 ______
+
+## DNS Deployment Checks for 2026
+
+DNS filtering and encrypted transport solve different problems. A resolver such as Quad9 or Cloudflare answers queries. A filtering service such as NextDNS, AdGuard DNS, or Pi-hole applies policy. Do not treat a fast resolver as a complete security control.
+
+Before changing a router or device, record the current resolver, DHCP settings, local hostnames, and fallback behavior. Then test:
+
+- IPv4 and IPv6 lookups
+- DNS over HTTPS or DNS over TLS from each client type
+- Local names used by printers, storage, and home automation
+- Block pages and false positives for work and banking sites
+- Behavior during an upstream outage
+- Whether guest and IoT networks receive the intended policy
+
+Use [Quad9's service documentation](https://docs.quad9.net/), [Cloudflare's 1.1.1.1 documentation](https://developers.cloudflare.com/1.1.1.1/), [AdGuard DNS setup guidance](https://adguard-dns.io/public-dns.html), and [Pi-hole's documentation](https://docs.pi-hole.net/) for product-specific settings. A router-wide change gives consistent coverage. A device profile gives finer control. Choose one as the primary path and document the fallback so troubleshooting remains possible.
+
+## Current Resolver Boundaries and Test Plan
+
+**Encrypted DNS protects the path to the resolver.** DNS-over-HTTPS and DNS-over-TLS hide queries from devices on the local network and the ISP path. The resolver still sees the query unless a design such as Oblivious DoH separates the client address from the query. Encryption does not hide the destination from the websites you visit, and it does not replace HTTPS.
+
+**Cloudflare's current public-resolver policy** says source IP data is not stored in non-volatile storage except for limited sampled packets, truncated IP data is deleted within 25 hours, and resolver logs are deleted within 25 hours. Cloudflare also states that standard 1.1.1.1 does not filter content. [Read the public DNS resolver policy](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/).
+
+**Quad9's service addresses have distinct behavior.** The recommended 9.9.9.9 service blocks malware and validates DNSSEC. The 9.9.9.11 service enables EDNS Client Subnet. The 9.9.9.10 service does not block malware. Pick the address by policy, not by a generic speed claim. [Check Quad9's address table](https://quad9.net/service/service-addresses-and-features/).
+
+**NextDNS pricing and limits require a current check.** Its pricing page lists 300,000 queries per month on the free plan. After the quota, queries continue as a classic non-blocking DNS service. The page lists the current paid price in GBP, so older dollar figures in this article are historical. [Check current NextDNS pricing](https://nextdns.io/pricing).
+
+Use this resolver test plan:
+
+- **Policy:** List the domains you need to block, allow, or leave untouched.
+- **Transport:** Confirm DoH or DoT works from each device and that the router does not silently replace it.
+- **Failure behavior:** Test a resolver outage, a blocked false positive, and a local Pi-hole restart.
+- **Privacy:** Read the provider's current retention policy. A resolver still receives DNS queries even when transport encryption is enabled.
+- **Performance:** Test uncached and repeated lookups from your own network at different times. Public benchmark averages do not predict every ISP path.
+- **Coverage:** Check IPv4, IPv6, VPN, guest Wi-Fi, and mobile fallback paths.
+
+The response-time table and provider rankings in this article describe a dated comparison. They lack a reproducible test method in this page, so treat them as context rather than a current Quad9 versus Cloudflare result.
 
 ## Conclusion: Which DNS Service Should You Choose in 2026?
 

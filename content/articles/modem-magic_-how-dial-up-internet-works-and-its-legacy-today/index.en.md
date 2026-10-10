@@ -1,12 +1,14 @@
 ---
 title: "Dial-Up Internet Today: Understanding Its Lasting Influence"
 date: 2024-02-22
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Explore the enduring impact of dial-up internet, its operation, and nostalgic significance in the digital age."
 genre: ["Digital History", "Internet Technologies", "Tech Evolution", "Connectivity Insights", "Nostalgic Tech", "Rural Internet Access", "Historical Impacts", "Technology Trends", "Digital Infrastructure", "Tech Cultural Impact"]
 tags: ["DialUpInternet", "ModemTechnology", "DigitalEvolution", "LegacyOfDialUp", "InternetAccess", "TechNostalgia", "DialUpSounds", "TechLegacy", "RuralConnectivity", "DialUpUsers", "InternetSpeedExpectations", "PopCultureImpact", "TechLessonsLearned", "InternetProviders", "ConnectionTechnologies", "HistoricInternet", "DialUpModems", "EmergenceOfBroadband", "OnlineAccessibility", "InternetInCulture", "DialUpLimitations", "IconicInternetSounds", "DigitalRevolution", "InternetSpeeds", "ModemConnectionProcess", "DialUpVsBroadband", "TechTransition", "CyberConnection", "BroadbandImpact", "TechInRuralAreas"]
 cover: "/img/cover/modem-magic_-how-dial-up-internet-works-and-its-legacy-today.webp"
+coverAlt: "Black cover image for an article about dial-up internet history."
 ---
 
 Modem Magic: How Dial-Up Internet Works and Its Legacy Today
@@ -200,6 +202,23 @@ Wrapping up, **dial-up internet** played a significant role in the early days of
 
 Frequently Asked Questions
 --------------------------
+
+## The Technical Connection Sequence
+
+The modem did more than convert a computer's bits into sound. A typical connection followed a sequence:
+
+1. The modem seized the telephone line and dialed the access number.
+2. The answering modem sent tones so both devices identified a compatible signaling mode.
+3. The modems negotiated modulation, error correction, compression, and the highest supported rate.
+4. The modem link connected to the provider's network. If the provider used PPP, Link Control Protocol negotiated options and an authentication protocol might run after link establishment. PPP authentication was optional, and older access services also used other session protocols.
+5. The computer established a network session and received access to IP traffic over the modem link.
+6. Hanging up ended the circuit. The telephone line became available for voice calls again.
+
+V.90 defined a common 56 kbit/s modem recommendation for suitable telephone networks. The advertised rate described a theoretical upper limit. Line noise, analog conversions, provider equipment, compression, and error correction reduced usable throughput. The connection also had high latency and a single call occupied the line.
+
+This explains why broadband changed the user experience. Broadband kept a network link available while voice service remained separate, so browsing no longer depended on dialing, negotiation, and a circuit reserved for one session. The older design still matters when troubleshooting legacy alarm systems, out-of-band console links, and remote rural equipment.
+
+The [ITU-T V.90 recommendation](https://www.itu.int/rec/T-REC-V.90/en) documents the modem standard. [RFC 1661](https://www.rfc-editor.org/rfc/rfc1661.html) describes PPP link establishment and optional authentication. Use the service provider, equipment manual, and local telecommunications records when investigating a specific legacy connection.
 
 ### What is dial-up internet?
 

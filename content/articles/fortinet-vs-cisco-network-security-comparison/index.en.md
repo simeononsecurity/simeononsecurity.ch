@@ -1,6 +1,7 @@
 ---
 title: "Fortinet vs Cisco: Complete Network Security Comparison..."
 date: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comprehensive comparison of Fortinet and Cisco network security solutions including firewalls, switches, SD-WAN, pricing, performance benchmarks, and deployment recommendations for 2026."
@@ -1125,6 +1126,20 @@ Rate each factor from 1-5 (1=not important, 5=critical), then multiply by the ve
 {{< figure src="fortinet-vs-cisco-vendor-selection-scorecard-decision-framework.webp" alt="Decision framework scorecard showing how to choose between Fortinet and Cisco based on weighted criteria including cost, performance, management simplicity, ecosystem integration, and support requirements" >}}
 
 ______
+
+## 2026 Firewall Evaluation Checklist
+
+Use measured requirements instead of a generic feature count. Record WAN speed, encrypted throughput, concurrent sessions, VPN users, inspection profiles, log volume, management locations, and support requirements. Ask each vendor to define the test conditions behind a performance figure.
+
+Evaluate the operating model as well:
+
+- Who approves and reviews policy changes?
+- Where do logs go, and how long are they retained?
+- How does a failed appliance receive a configuration?
+- How do administrators restrict management access?
+- What happens when a license or cloud service expires?
+
+Review current [FortiGate documentation](https://docs.fortinet.com/product/fortigate) and [Cisco Secure Firewall documentation](https://www.cisco.com/c/en/us/support/security/secure-firewall-ngfw/series.html). Product names, license bundles, and release features change. Confirm the exact model and software release in a procurement record.
 
 ## Conclusion
 

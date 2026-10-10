@@ -1,7 +1,7 @@
 ---
 title: "pfSense vs Firewalla vs OPNsense"
 date: 2023-11-14
-lastmod: 2026-05-24
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comprehensive 2026 comparison of pfSense, Firewalla, and OPNsense firewall solutions for home and enterprise network security. Find the best option for your needs."
@@ -305,6 +305,32 @@ ______
 | **Hardware Flexibility** | Any x86 | Any x86 | Proprietary only |
 | **High Availability** | ✅ | ✅ | ❌ |
 
+## Comparison Limits and Current Checks
+
+The feature table gives a useful starting point. It does not establish equal protection or equal performance. A firewall product, appliance model, software release, enabled packages, WAN speed, VPN cipher, packet size, and test method all affect the result.
+
+The throughput figures above need a reproducible test record before you use them for capacity planning. Record the exact hardware, software release, WAN and LAN interfaces, packet size, VPN protocol, IDS rules, traffic direction, and test duration. Treat the figures as illustrative until those details are available.
+
+Firewalla's current documentation lists Gold SE, Gold Plus, Gold Pro, and Purple SE families, with Router Mode as the recommended deployment for the full feature set. Older references to Firewalla Red and the original Purple should be checked against current availability before purchase. [Firewalla's router compatibility guide](https://help.firewalla.com/hc/en-us/articles/360009401874-Router-Compatibility) also documents Bridge Mode limits.
+
+| Decision question | Evidence to check | Why it matters |
+|---|---|---|
+| **Who manages the firewall?** | App workflow, web console, role support, and recovery process | A complex policy fails when nobody owns maintenance. |
+| **What must be segmented?** | VLAN, guest, IoT, VPN, and inter-VLAN rule support | Device isolation depends on routing and policy, not product labels. |
+| **What must survive a failure?** | CARP, configuration backup, spare hardware, and restore test | A single appliance remains a single failure domain. |
+| **What traffic needs inspection?** | TLS visibility limits, IDS rules, encrypted DNS, and false-positive handling | Encrypted traffic limits application-level conclusions. |
+
+### Safe First Setup Sequence
+
+1. Export the existing router configuration and record the ISP handoff details.
+2. Build a management network and restrict firewall administration to trusted hosts.
+3. Create separate LAN, guest, and IoT networks before adding devices.
+4. Add outbound rules for required services. Start with logging and narrow exceptions.
+5. Enable VPN and IDS features after baseline connectivity works.
+6. Save a configuration backup and test a restore on spare hardware or a lab instance.
+
+OPNsense documents CARP failover and Suricata-based IPS separately. Read the [OPNsense high availability guide](https://docs.opnsense.org/manual/hacarp.html) and [IPS guide](https://docs.opnsense.org/manual/ips.html) before treating a default installation as a high-availability or prevention design.
+
 ______
 
 ## Migration and Coexistence
@@ -324,6 +350,14 @@ All three can coexist in various network topologies:
 - **VPN chaining**: Use one as VPN server, another as client for enhanced privacy
 
 ______
+
+## Firewall Selection and Migration Checks
+
+A firewall choice affects routing, updates, logging, remote access, and recovery. Compare the operating workflow before comparing throughput numbers.
+
+Record the current WAN settings, VLANs, DHCP reservations, DNS policy, VPN peers, port forwards, and emergency access path. Export configuration before a migration and keep a tested rollback device or restore image. Start with one network segment, confirm client access, then move the next segment.
+
+For home networks, Firewalla often reduces setup work through its appliance and app workflow. pfSense and OPNsense offer broader control when you accept more administration. Read the current [pfSense documentation](https://docs.netgate.com/pfsense/en/latest/), [OPNsense documentation](https://docs.opnsense.org/), and [Firewalla help center](https://help.firewalla.com/) before relying on an older feature comparison.
 
 ## Conclusion: Which Firewall Should You Choose in 2026?
 
@@ -372,3 +406,6 @@ ______
 5. [Netgate pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/)
 6. [OPNsense Documentation](https://docs.opnsense.org/)
 7. [Firewalla Knowledge Base](https://help.firewalla.com/)
+8. [Firewalla Router Mode Configuration Guides](https://help.firewalla.com/hc/en-us/articles/4411167832851-Firewalla-Router-Mode-Configuration-Guides)
+9. [OPNsense High Availability Documentation](https://docs.opnsense.org/manual/hacarp.html)
+10. [OPNsense Intrusion Prevention Documentation](https://docs.opnsense.org/manual/ips.html)

@@ -1,7 +1,7 @@
 ---
 title: "Flock Safety Camera Surveillance: Privacy and Protection"
 date: 2026-05-24
-lastmod: 2026-09-03
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover the widespread deployment of Flock Safety ALPR cameras in 2026, understand the privacy implications, and learn effective counter-surveillance strategies including detection devices."
@@ -25,15 +25,25 @@ Communities and civil liberties organizations are pushing back. The ACLU launche
 
 ______
 
+## How to Read the Current Evidence
+
+This page brings together vendor statements, court opinions, civil-liberties research, and community mapping. These sources answer different questions. A vendor page describes product design and stated controls. A court opinion addresses one record and one legal issue. A community map records submitted observations.
+
+Use dates and source type beside every number. Treat map markers as leads. A marker does not prove camera ownership, live status, or a record about your vehicle.
+
+As checked on October 10, 2026, [Flock's LPR page](https://www.flocksafety.com/products/license-plate-readers) reports 1M+ cases supported in 2025, 20% of cleared cases supported by Flock, and network connections in 49 states. These are vendor-reported figures. An [ACLU release dated August 13, 2026](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates) cites more than 120,000 Flock readers in at least 6,000 cities. [DeFlock's homepage](https://deflock.org/) reports 143,924 LPRs mapped in the United States. DeFlock says its map uses volunteer and OpenStreetMap contributions, so the total covers ALPR installations and does not equal a Flock-owned camera count.
+
+The earlier 75,000, 3,500, 5,000, 150 million, 124,186, and 97 figures remain below as historical context from the prior revision. I did not locate a primary source confirming each one on this review date. Treat them as estimates unless a local record or dated source supports them.
+
 ## What You Can Do Right Now
 
 You do not have to be a security researcher or a lawyer to push back against ALPR surveillance. Here is a clear action plan from least to most involved:
 
 ### 1. See Where Cameras Are Near You
 
-- **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)** — Open-source interactive map of 40,000+ suspected Flock cameras built from crowdsourced WiFi data. Updated daily. [Source on GitHub](https://github.com/simeononsecurity/flock-finder).
-- **[DeFlock.org](https://deflock.org/)** — 124,186 community-mapped ALPR cameras. Submit locations, find local groups, and track city council votes.
-- **[DontGetFlocked.com](https://dontgetflocked.com/)** — Route planner that avoids known ALPR camera concentrations.
+- **[Flock Finder](https://simeononsecurity.github.io/flock-finder/)**: Open-source interactive map of 40,000+ suspected Flock cameras built from crowdsourced WiFi data. Updated daily. [Source on GitHub](https://github.com/simeononsecurity/flock-finder).
+- **[DeFlock.org](https://deflock.org/)**: 124,186 community-mapped ALPR cameras. Submit locations, find local groups, and track city council votes.
+- **[DontGetFlocked.com](https://dontgetflocked.com/)**: Route planner that avoids known ALPR camera concentrations.
 
 ### 2. Carry a Real-Time Detector
 
@@ -41,9 +51,9 @@ Software maps show you where cameras *have been seen*. A hardware detector tells
 
 **[STS Collective](https://stscollective.com/discount/SIMEONONSECURITY)** makes pre-flashed, plug-and-play Flock detection devices. No technical setup required:
 
-- **[FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)** ($49.99) — Compact detector, LED turns blue on detection. Plug into a USB power bank and put it in your cup holder.
-- **FlockYou Pro** — Adds audio alerts so you never miss a camera while driving.
-- **FlockYou Atom VoiceS3R** — Voice-spoken alerts for hands-free operation.
+- **[FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector)** ($49.99): Compact detector, LED turns blue on detection. Plug into a USB power bank and put it in your cup holder.
+- **FlockYou Pro**: Adds audio alerts so you never miss a camera while driving.
+- **FlockYou Atom VoiceS3R**: Voice-spoken alerts for hands-free operation.
 
 > 💰 Use code **FLOCKFINDER** for **20% off** all FlockYou devices, or **SIMEONONSECURITY** for up to **20% off** your entire STS Collective order: **[stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY)**
 
@@ -51,13 +61,15 @@ For a full technical comparison of all detection hardware (including the OUI-SPY
 
 ### 3. Know What's in Your Neighborhood
 
-- **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** — Check if your license plate has appeared in Flock searches by law enforcement in your area.
-- **[ALPR.watch](https://alpr.watch/)** — Find out if your city council is voting on an ALPR contract soon so you can show up and speak.
+- **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)**: Check if your license plate has appeared in Flock searches by law enforcement in your area.
+- **[ALPR.watch](https://alpr.watch/)**: Find out if your city council is voting on an ALPR contract soon so you can show up and speak.
 - File a **public records request** for your local Flock contract using the **[DeFlock FOIA guide](https://deflock.org/foia)** and the **[MuckRock template library](https://www.muckrock.com/search/?q=Flock)**.
+
+Both maps are research leads. A Wi-Fi OUI match or crowd-sourced point does not establish camera ownership, live status, or data collection. Confirm a location with public records, the agency, or direct visual observation from a lawful public place.
 
 ### 4. Organize Your Community
 
-- Download the **[ACLU Get The Flock Out Toolkit](https://www.aclu.org/get-the-flock-out-toolkit)** — sample emails, questions to ask your council, and model legislation all in one place.
+- Download the **[ACLU Get The Flock Out Toolkit](https://www.aclu.org/get-the-flock-out-toolkit)**: sample emails, questions to ask your council, and model legislation all in one place.
 - Use the **[ACLU model contract cancellation resolution](https://www.aclu.org/documents/model-resolution-for-local-flock-contract-cancellation)** to give your city council a ready-made vehicle to cancel an existing Flock contract.
 - Connect with **[local organizers through DeFlock Groups](https://deflock.org/groups)** in your city.
 - Track national organizing at **[NoALPRs.com](https://noalprs.com/)**.
@@ -107,6 +119,21 @@ This creates a **searchable database of vehicle movements** that can be queried 
 - Identify patterns of life and associations
 - Create geofences and alert on vehicle movements
 - Reconstruct timelines for investigations
+
+## ALPR Data Flow and Control Points
+
+An ALPR event moves through several stages. The exact fields and retention period depend on the camera model, customer order, local policy, and law.
+
+| Stage | What happens | What to verify locally |
+|------|--------------|------------------------|
+| **Capture** | The camera captures several still images during a vehicle session. Flock describes plate, make, color, and body type data in its [LPR documentation](https://www.flocksafety.com/products/license-plate-readers). | Camera model, field of view, placement, and whether video or audio products sit at the same location |
+| **Extract** | Software reads the plate and creates vehicle attributes, a timestamp, location, and camera identifier. | Error handling, manual confirmation rules, and correction process |
+| **Transmit** | Flock says device data moves to Amazon Web Services with encryption in transit and at rest. See its [privacy policy](https://www.flocksafety.com/legal/privacy-policy). | Device storage, cloud region, exports, backups, and vendor support access |
+| **Retain** | The record stays searchable for the period set by the current product policy, customer order, local law, or legal hold. | Exact deletion date for device, cloud, export, and backup copies |
+| **Search and alert** | Approved users search by plate, partial plate, time, location, or vehicle attributes. Hot-list matches produce alerts for authorized users. | Required search reason, case number, hot-list owner, and manual confirmation before a stop |
+| **Share and audit** | The agency chooses sharing relationships. Flock says searches use individual accounts and create reviewable records. See its [law enforcement access page](https://www.flocksafety.com/trust/law-enforcement-access). | Participating agencies, federal access, written agreements, audit reviewers, and sanctions for misuse |
+
+This flow explains why a plate scan is more than a single photograph. The event joins an image, extracted fields, time, place, device identity, search history, and sharing decisions. Request each layer in policy or contract records.
 
 ______
 
@@ -200,6 +227,20 @@ The widespread deployment of ALPR surveillance raises serious **Fourth Amendment
 - **Data breaches**: *A 2024 incident exposed thousands of records*
 - **No user notification**: *Individuals tracked are never informed of data collection*
 
+Flock's current FAQ says data is deleted after 7 days unless a longer period follows law. Its [privacy policy](https://www.flocksafety.com/legal/privacy-policy) still describes 30 days in cloud storage and permits retention as required by law. Flock's [LPR product page](https://www.flocksafety.com/products/license-plate-readers) says customers control retention and sharing settings. These public pages do not substitute for a signed order form or local policy. Request both before quoting a retention period.
+
+The earlier 2024 incident statement remains as an unverified historical claim in this article. I did not locate a primary incident notice supporting its exact scope during this review. Flock's [Security Center](https://security.flocksafety.com/) lists public security materials and restricted compliance reports. Vendor controls are claims about design and policy, not proof of compliant use by every customer.
+
+### Questions to Put in Writing
+
+The [Bureau of Justice Assistance LPR policy template](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf) recommends written controls for collection, access, sharing, retention, purging, audit, and redress. Ask the local agency for:
+
+- **Retention**: The signed order form, local schedule, deletion rules, legal-hold process, and retention for exports and backups.
+- **Access**: Approved roles, search reasons, case-number rules, supervisor review, and user training.
+- **Sharing**: Participating agencies, federal access, network terms, permitted purposes, and a record of each disclosure.
+- **Accuracy**: False-positive review, manual plate confirmation, correction requests, and notice after a wrongful stop.
+- **Accountability**: Search logs, hot-list changes, audit reports, disciplinary rules, and breach notices.
+
 ### Function Creep and Mission Expansion: Documented Abuses
 
 What began as a tool for **solving property crimes** has expanded dramatically. These are not hypothetical risks. They are documented patterns.
@@ -265,6 +306,12 @@ Recent court decisions are shaping ALPR law:
 - **2025 Fourth Circuit**: *Commonwealth v. Flock Safety* limited warrantless long-term ALPR tracking
 - **2024 Ninth Circuit**: *ACLU v. San Diego* required disclosure of ALPR vendor contracts
 - **2026 pending**: *Rodriguez v. Flock Safety* class action regarding data retention practices
+
+### Court-Record Correction
+
+The earlier entry "2025 Fourth Circuit: Commonwealth v. Flock Safety" needs a precise citation. The primary court document located for this topic is [Commonwealth of Virginia v. Ronnie D. Church, Record No. 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf), an unpublished memorandum opinion from the Virginia Court of Appeals dated October 14, 2025. It reversed the Norfolk circuit court suppression ruling and held a warrant was not required on the facts presented. This is a Virginia state appellate decision, not Fourth Circuit precedent. It does not decide every ALPR deployment or long-term tracking question.
+
+The existing "2024 Ninth Circuit: ACLU v. San Diego" and "2026 pending: Rodriguez v. Flock Safety" entries remain as names from the prior version. I did not locate a primary opinion or docket matching either label during this review. Treat them as unverified until an official docket or opinion is added.
 
 ### Municipal Policies
 
@@ -336,6 +383,18 @@ If your city or HOA has or is considering a Flock contract, ask these questions 
 
 **[ALPR.watch](https://alpr.watch/)** tracks upcoming local government meetings where ALPR contracts and policies are on the agenda. If you want to show up and speak, this is how you find out when and where to be.
 
+### A Lawful Community Response
+
+Use public observation, records requests, meeting comment, and elected-official channels. Do not trespass, touch, disable, jam, obscure, or modify equipment.
+
+1. **Confirm the owner**: Record the location, date, sign, pole, and camera details from a lawful public place. Ask the city, county, sheriff, school, business, or HOA who operates the system.
+2. **Read the agenda**: Find the contract approval, renewal, budget item, procurement file, and privacy policy. Submit written questions before the meeting deadline.
+3. **Bring specific questions**: Ask about retention, searches, sharing, federal access, audit review, false positives, deletion, and redress.
+4. **Request a public vote**: Ask the governing body to pause renewal until the agency publishes the contract, policy, sharing relationships, audit process, and annual use report.
+5. **Keep a source record**: Save the request, response, contract version, meeting date, and public statement. Share documents with local organizers and journalists with context.
+
+Federal FOIA and local records are different. The [Department of Justice Office of Information Policy](https://www.justice.gov/oip/about-foia) says FOIA covers Executive Branch records. It does not cover state, local, or private records. For a city, county, sheriff, school, or HOA, use state public-record law, an open-records request, or a board-records process.
+
 ______
 
 ## EFF Defends DeFlock: Flock Safety's Trademark Bullying
@@ -393,7 +452,7 @@ The **open-source Flock-You project** has transformed counter-surveillance capab
 
 The project leverages **31 WiFi OUIs** discovered by researchers **@NitekryDPaul** and the **DeFlockJoplin** community:
 
-```
+```text
 D4:AD:FC - Espressif (ESP32 modules in cameras)
 AC:67:B2 - Espressif (Common in Flock deployments)
 84:F3:EB - Espressif (ESP32-S3 variants)
@@ -439,13 +498,13 @@ Three primary hardware platforms are available for Flock detection:
 - Professional-grade enclosure
 - Multi-mode detection including RayHunter signatures
 
-> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products including the mesh-detect v2 — use code **SIMEONONSECURITY** at checkout or [shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
+> 💰 **Exclusive Discount**: Save up to 20% on STS Collective products including the mesh-detect v2. Use code **SIMEONONSECURITY** at checkout or [shop with the discount applied](https://stscollective.com/discount/SIMEONONSECURITY).
 
 ### Where to Purchase Detection Devices
 
 **Authorized Vendors**:
 - **Colonel Panic Tech**: [colonelpanic.tech](https://colonelpanic.tech) - OUI-SPY and DIY kits
-- **STS Collective**: [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY) — [FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector), mesh-detect v2, and accessories
+- **STS Collective**: [stscollective.com/discount/SIMEONONSECURITY](https://stscollective.com/discount/SIMEONONSECURITY): [FlockYou M5 Atom Lite](https://stscollective.com/products/flockyou-m5-atom-lite-flock-camera-detector), mesh-detect v2, and accessories
 
 > 💰 Two codes work at STS Collective: **FLOCKFINDER** saves **20% off** all FlockYou detectors specifically, and **SIMEONONSECURITY** saves up to **20% off** your entire order. Use whichever gets you a better deal.
 
@@ -477,7 +536,7 @@ Filing a **Freedom of Information Act (FOIA)** or state public records request i
 **[DeFlock's FOIA guide](https://deflock.org/foia)** walks through the process step by step:
 
 1. **Find the agency**: Identify which police department or HOA operates cameras in your area
-2. **Find the records portal**: Most agencies have an online portal; many states require one
+2. **Find the records portal**: Most agencies have an online portal. Many states require one.
 3. **Use MuckRock as a guide**: Search **[MuckRock's Flock database](https://www.muckrock.com/search/?q=Flock)** for hundreds of example requests and responses from other jurisdictions
 4. **Request these specific records**:
    - Right-of-Way Installation Permits for camera locations
@@ -489,8 +548,8 @@ Filing a **Freedom of Information Act (FOIA)** or state public records request i
 *The MuckRock database already contains hundreds of successful FOIA requests about Flock contracts nationwide. Start there to see exactly what records other people have obtained and adapt those request templates for your jurisdiction.*
 
 **Additional resources for public records**:
-- **[HaveIBeenFlocked.com/pd](https://haveibeenflocked.com/pd)** — check which law enforcement agencies have Flock transparency portals
-- **[HaveIBeenFlocked.com/news/transparency-portals](https://haveibeenflocked.com/news/transparency-portals)** — crowdsourced list of agencies with public-facing ALPR portals
+- **[HaveIBeenFlocked.com/pd](https://haveibeenflocked.com/pd)**: check which law enforcement agencies have Flock transparency portals
+- **[HaveIBeenFlocked.com/news/transparency-portals](https://haveibeenflocked.com/news/transparency-portals)**: crowdsourced list of agencies with public-facing ALPR portals
 
 ### Technical Counter-Surveillance
 
@@ -566,8 +625,8 @@ A growing ecosystem of tools and projects supports individuals and communities f
 
 | Tool | What it does |
 |------|-------------|
-| **[DeFlock.org](https://deflock.org/)** | Crowdsourced map of 124,000+ ALPR cameras; city council tracker; FOIA guide |
-| **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** | Check if your plate has appeared in Flock searches; law enforcement audit tool |
+| **[DeFlock.org](https://deflock.org/)** | Crowdsourced map of 124,000+ ALPR cameras. City council tracker. FOIA guide |
+| **[HaveIBeenFlocked.com](https://haveibeenflocked.com/)** | Check if your plate has appeared in Flock searches. Law enforcement audit tool |
 | **[DontGetFlocked.com](https://dontgetflocked.com/)** | FlockHopper route planner that avoids known camera concentrations |
 | **[ALPR.watch](https://alpr.watch/)** | Tracks upcoming public government meetings where ALPR is on the agenda |
 | **[EyesOnFlock.com](https://eyesonflock.com/)** | Dashboard analyzing Flock usage patterns across agencies |
@@ -593,6 +652,8 @@ ALPR technology continues to evolve:
 - **Real-time tracking**: Moving from database searches to live pursuit capabilities
 - **International networks**: Cross-border data sharing agreements
 
+Flock's current LPR page states facial recognition is not included and not planned for its LPR product. Other vendors and Flock products differ. Verify the active camera model, contract, and policy before applying this statement to a local deployment.
+
 ### Privacy Technology Counter-Developments
 
 The privacy community is responding with innovation:
@@ -613,6 +674,20 @@ The regulatory landscape will shift:
 - **Municipal victories**: The 97 cities that have rejected ALPRs demonstrate that organizing works
 
 ______
+
+## Evidence Checks Before You Act
+
+ALPR coverage differs by city, agency, contract, and time period. A map marker does not prove who owns a camera, which agency receives the data, or whether a particular vehicle record exists. Treat deployment counts and retention claims as dated evidence. Confirm local policy with the agency, council record, contract, and public-record response.
+
+Use this sequence when researching a local system:
+
+1. Record the camera location and the date you observed it. Do not enter a private property or interfere with equipment.
+2. Search the city or county website for the contract, procurement record, privacy policy, retention schedule, and sharing agreement.
+3. Ask who operates the system, which agency receives searches, which outside agencies receive data, how long records remain searchable, and how a person requests access or correction.
+4. Compare the answer with the vendor's public description and the local policy. Save the document title, date, and URL.
+5. Use a public-records request for missing documents. Ask for policy and contract records, not a private person's travel history.
+
+The [National Conference of State Legislatures ALPR state statutes overview](https://www.ncsl.org/technology-and-communication/automated-license-plate-readers-state-statutes) and the [Electronic Frontier Foundation Atlas of Surveillance](https://atlasofsurveillance.org/atlas) provide useful starting points. They do not replace local records. The [DeFlock map](https://deflock.org/) also shows community research, but map coverage is not a complete inventory.
 
 ## Conclusion: Balancing Security and Privacy
 
@@ -640,10 +715,10 @@ This article is part of a series on Flock Safety ALPR surveillance and counter-s
 
 | Article | What it covers |
 |---------|---------------|
-| **[Flock Finder: Map Flock Safety ALPR Cameras](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Open-source interactive map of 40,000+ suspected Flock cameras via WiGLE WiFi data — see the scale of deployment in your area before you drive |
-| **[Flock-You Detection Project: Counter-Surveillance Hardware Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technical guide to building or buying ESP32-based Flock detectors — firmware setup, hardware comparison, step-by-step instructions |
+| **[Flock Finder: Map Flock Safety ALPR Cameras](/articles/flock-finder-alpr-surveillance-mapping-tool/)** | Open-source interactive map of 40,000+ suspected Flock cameras via WiGLE WiFi data. See the scale of deployment in your area before you drive |
+| **[Flock-You Detection Project: Counter-Surveillance Hardware Guide](/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/)** | Complete technical guide to building or buying ESP32-based Flock detectors. Firmware setup, hardware comparison, step-by-step instructions |
 | **[How to Flash Rayhunter Devices: Complete Guide](/articles/how-to-flash-rayhunter-devices-complete-guide/)** | Detect IMSI catchers (cell-site simulators) alongside ALPR cameras for full counter-surveillance awareness |
-| **[DagShell Custom Firmware for Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Turn a mobile hotspot into a security research platform — pairs well with Flock detection hardware |
+| **[DagShell Custom Firmware for Orbic RCL400](/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/)** | Turn a mobile hotspot into a security research platform. Pairs well with Flock detection hardware |
 | **[Rayhunter Device Comparison 2026](/articles/rayhunter-device-comparison-2026-complete-review/)** | Compare detection hardware options across ALPR and cellular surveillance threat categories |
 
 ______
@@ -679,3 +754,12 @@ ______
 27. [NoALPRs.com - National Week of Action](https://noalprs.com/)
 28. [DontGetFlocked.com - FlockHopper Route Planner](https://dontgetflocked.com/)
 29. [PlatPrivacy.com - Institute for Justice ALPR Analysis](https://plateprivacy.com/)
+30. [Flock Safety - License Plate Readers](https://www.flocksafety.com/products/license-plate-readers)
+31. [Flock Safety - Frequently Asked Questions](https://www.flocksafety.com/faq)
+32. [Flock Safety - Privacy Policy](https://www.flocksafety.com/legal/privacy-policy)
+33. [Flock Safety - Law Enforcement Data Access](https://www.flocksafety.com/trust/law-enforcement-access)
+34. [Flock Safety - Security Center](https://security.flocksafety.com/)
+35. [ACLU - As Public Opposition to Flock Grows](https://www.aclu.org/press-releases/as-public-opposition-to-flock-grows-aclu-responds-to-surveillance-companys-new-updates)
+36. [U.S. Department of Justice - About the FOIA](https://www.justice.gov/oip/about-foia)
+37. [Bureau of Justice Assistance - LPR Policy Development Template](https://bja.ojp.gov/doc/lpr-policy-development-template.pdf)
+38. [Virginia Court of Appeals - Commonwealth v. Church, Record No. 0737-25-1](https://www.vacourts.gov/static/opinions/opncavwp/0737251.pdf)

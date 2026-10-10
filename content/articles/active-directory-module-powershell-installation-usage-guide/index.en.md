@@ -1,6 +1,7 @@
 ---
 title: "Active Directory Administration with PowerShell"
 date: 2023-07-25
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover how to effectively install and use the Active Directory module for PowerShell to simplify your Windows Active Directory administration tasks."
@@ -211,6 +212,33 @@ Add-ADGroupMember -Identity "Managers" -Members "JohnDoe"
 Remove-ADGroupMember -Identity "Developers" -Members "JaneSmith"
 Set-ADUserPassword -Identity "AmyJohnson" -NewPassword (ConvertTo-SecureString -AsPlainText "NewPassword123" -Force)
 ```
+
+## Current RSAT and PowerShell Checks
+
+Microsoft now distributes the Active Directory module through Remote Server Administration Tools. On supported Windows client editions, install the feature on demand from an elevated PowerShell session:
+
+```powershell
+Get-WindowsCapability -Online | Where-Object Name -like 'Rsat.ActiveDirectory.DS-LDS.Tools*'
+Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+```
+
+On Windows Server, use the server feature workflow documented by Microsoft:
+
+```powershell
+Install-WindowsFeature -Name RSAT-AD-PowerShell
+```
+
+Verify the module before running administrative commands:
+
+```powershell
+Get-Module -ListAvailable -Name ActiveDirectory
+Import-Module ActiveDirectory
+Get-Command -Module ActiveDirectory
+```
+
+The [ActiveDirectory module reference](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) states that RSAT supplies the module and lists the available cmdlets. Use the version that matches the host operating system. PowerShell 7 has compatibility considerations, so test the module on a non-production workstation before changing an established administration workflow.
+
+As an operational recommendation, use `-WhatIf` where a cmdlet supports it, scope queries with `-Server` when a specific domain controller matters, and request only the permissions required for the task. PowerShell documents `-WhatIf` in its [common parameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters). Avoid placing passwords in command history or scripts. Prefer a secure [Get-Credential prompt](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-credential), a protected secret store, or a delegated service account with a documented rotation process.
 
 ## Conclusion
 

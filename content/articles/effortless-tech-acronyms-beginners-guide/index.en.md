@@ -1,6 +1,7 @@
 ---
 title: "Tech Jargon Glossary: A Beginner's Guide to IT and Cyber Security Acronyms"
 date: 2023-12-23
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Unlock the world of IT with this beginner's guide to tech acronyms, making learning effortless for all tech enthusiasts."
@@ -838,6 +839,31 @@ In the rapidly changing landscape of technology, abbreviations and acronyms are 
 - **ZPL**: ZFS POSIX-compliant Layer
   - A layer in the ZFS file system that provides compatibility with the POSIX standard for file operations.
 
+
+## How to Read Information Technology Acronyms
+
+An acronym only has meaning in context. Check the surrounding system, protocol, or job function before expanding a term.
+
+| Term | Common meanings | Context check |
+|------|-----------------|---------------|
+| **AD** | Active Directory, advertisement | Windows identity or marketing context |
+| **AI** | Artificial intelligence, Adobe Illustrator | Machine learning or design software context |
+| **DOS** | Denial of service, disk operating system | Security incident or legacy operating system context |
+| **MAC** | Media Access Control address, macOS | Network hardware address or Apple operating system context |
+| **OTP** | One-time password, one-time pad | Authentication workflow or cryptography context |
+| **SSL/TLS** | Historical SSL name paired with current TLS | Use TLS for current protocol discussions. SSL is obsolete. |
+
+Some entries above describe historical, informal, vendor-specific, or overlapping terms. **Do not treat a glossary expansion as a configuration recommendation.** Check the relevant standard or vendor documentation before selecting a protocol, algorithm, cloud service, or security control.
+
+For network and security terms, the [Internet Engineering Task Force RFC index](https://www.rfc-editor.org/) provides the standards record. For Windows administration terms, use [Microsoft Learn](https://learn.microsoft.com/en-us/windows/). For cryptographic terms, use the [NIST Computer Security Resource Center glossary](https://csrc.nist.gov/glossary).
+
+## Acronym Study Checklist
+
+1. Write the full expansion and the system where you saw it.
+2. Record whether the term names a protocol, product, role, file format, metric, or policy.
+3. Check the date and version when the term describes a product or standard.
+4. Separate a definition from a recommendation.
+5. Test an unfamiliar acronym against the source document before using it in a change request.
 
 ## Conclusion
 

@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Home Network Security with Firewalla"
 date: 2023-11-13
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Discover how Firewalla improves home network security. Explore its benefits, suitability for home labs, and user-friendly features."
@@ -31,6 +32,29 @@ ______
 - **Firewall Protection:** Firewalla acts as a barrier between your devices and potential threats from the internet, effectively blocking unauthorized access and malicious content.
 - **Intrusion Detection System (IDS):** The IDS functionality of Firewalla monitors network traffic for any suspicious or unauthorized activities, providing an extra layer of security.
 - **Family Protection:** For households with children, Firewalla offers content filtering and monitoring, allowing parents to control and track online activities.
+
+Firewalla's current documentation focuses on Gold, Purple, and Orange series boxes for Router Mode, Bridge Mode, and network segmentation. Older Blue references in this article describe an earlier product generation. Check current availability and support before buying a used unit.
+
+## Firewalla deployment checks
+
+Router Mode is the preferred design for current Gold, Purple, and Orange boxes. Place Firewalla between the modem or fiber ONT and the access point or switch. Put an existing Wi-Fi router into access point or bridge mode so it does not create a second routed network. See Firewalla's [monitoring mode guide](https://help.firewalla.com/hc/en-us/articles/115004292514-How-Does-Firewalla-Intercept-Traffic-Which-Firewalla-Mode-Should-I-Use) before choosing a topology.
+
+Use Bridge Mode when the upstream router must stay in control. Record the features you lose before selecting it. Firewalla documents Route, Smart Queue, and VPN Client as unavailable in Bridge Mode. A misconfigured bridge also creates an exposure risk, so test from an external connection after installation.
+
+For segmentation, create a trusted, IoT, guest, and camera network only when the access points and switch support the needed VLAN or port design. Add explicit rules blocking IoT and camera networks from all local networks, then test both allowed internet access and blocked access to a trusted device. Firewalla's [network segmentation guide](https://help.firewalla.com/hc/en-us/articles/4408644783123-Network-Segmentation) states that same-LAN traffic is not visible unless segmentation separates the devices.
+
+## Firewalla competitors
+
+Firewalla is one option, not a universal best choice. Compare the management model, routing mode, update process, subscription terms, and hardware needs.
+
+| Option | Fit |
+|---|---|
+| **Firewalla** | Appliance with app-led monitoring, policy controls, Router Mode, Bridge Mode, and segmentation on supported models |
+| **UniFi gateway** | Unified gateway, switch, and access-point ecosystem for users who want one controller |
+| **OPNsense on Protectli** | Flexible firewall software on an appliance, suited to users who accept more manual configuration |
+| **ISP gateway** | Lowest hardware effort, with fewer independent controls and less visibility on many models |
+
+The best comparison depends on topology. A Firewalla purchase still needs a separate access point or switch in many homes. An OPNsense appliance needs time for updates, rules, backups, and troubleshooting. A UniFi gateway fits best when the rest of the network uses compatible UniFi equipment.
 
 
 
@@ -75,6 +99,8 @@ While **Firewalla** offers a range of benefits, you need to acknowledge its limi
 ## **Conclusion**
 
 **Firewalla** has demonstrated its value as a versatile cybersecurity solution, suitable for both home labs and general home use. Its blend of **network security**, **monitoring features**, and **user-friendly design** positions it as a contender in personal cybersecurity. However, prospective users should weigh its advantages against limitations and consider their specific needs before making a decision.
+
+*Choose Router Mode for a new Firewalla deployment when your modem or ONT and access-point layout supports it. Verify segmentation with a real device-to-device test before trusting the policy.*
 
 ## **References**
 

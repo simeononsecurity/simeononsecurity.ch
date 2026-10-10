@@ -1,7 +1,7 @@
 ---
 title: "Personal Security Checklist 2026: Where to Start and What to Skip"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Most personal security advice is a flat list of 300 tips with no order. Here is the same advice ranked by real impact, with the five steps which stop most attacks and the common habits worth abandoning."
@@ -23,8 +23,8 @@ This article keeps the topic and drops the false equivalence. The same advice, o
 
 | Question | Short Answer |
 |---|---|
-| **What stops the most attacks?** | A password manager, phishing-resistant second factors, and prompt updates. Three habits cover the majority of real-world account compromise |
-| **What is the single biggest upgrade available today?** | **Passkeys or a hardware security key.** Both defeat phishing entirely, because the credential never leaves your device |
+| **What stops the most attacks?** | A password manager, phishing-resistant second factors, and prompt updates. These habits address common account-compromise paths, not every threat |
+| **What is the single biggest upgrade available today?** | **Passkeys or a hardware security key.** Both resist phishing during sign-in because the credential never leaves your device. Protect recovery methods and the device itself |
 | **What is overrated?** | Complex passwords you memorize, password rotation schedules, and most browser fingerprint tweaks |
 | **What is underrated?** | Backups, account recovery setup, and physical security of your devices |
 | **Does order matter?** | Yes, and more than completeness. **Tier 1 done today beats all 300 items done eventually** |
@@ -296,6 +296,8 @@ A practical problem runs through this whole topic. **The tools which help you se
 A password strength checker which posts your password to a server is a liability. A hash calculator which uploads the file defeats the purpose. A certificate tool which fetches your hostname tells a third party which sites you operate.
 
 **Every tool below runs entirely in your browser**, with no upload and no account. This is a stated policy on this site, and the exceptions are named openly rather than buried.
+
+**Verify the boundary yourself:** disconnect from the network, open the tool, and inspect the browser's network panel while processing a test value. A local-processing claim describes the intended design. Your browser extensions and the tool version still deserve review.
 
 | Task | Tool | What It Handles |
 |---|---|---|

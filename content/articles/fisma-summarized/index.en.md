@@ -1,6 +1,7 @@
 ---
 title: "FISMA 101: An Overview of the Federal Information..."
 date: 2023-02-12
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "FISMA 101 provides a comprehensive overview of the Federal Information Security Modernization Act, including its key components, benefits, and requirements for federal agencies."
@@ -108,6 +109,12 @@ FISMA requires federal agencies to report on their information security programs
 
 FISMA also helps strengthen collaboration and coordination among federal agencies and their contractors and other stakeholders by requiring them to follow the same information security standards. This helps ensure that everyone is working together to protect sensitive information and that information security risks are managed effectively across all levels of the federal government.
 
+
+## 2026 FISMA Evidence Checklist
+
+For each control, keep evidence tied to a system, owner, date, and review result. Useful evidence includes policy approvals, configuration exports, access reviews, vulnerability reports, incident records, training results, and restore tests.
+
+Review the package after major changes. A new identity provider, network path, cloud service, administrator group, or data type may change the risk assessment and control evidence. Use the [NIST Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf), [FIPS 199](https://csrc.nist.gov/publications/detail/fips/199/final), and current agency guidance as the source of truth.
 
 ## Conclusion
 

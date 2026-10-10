@@ -1,6 +1,7 @@
 ---
 title: "NextDNS vs. AdGuard: Which DNS-Based Ad Blocker Wins?"
 date: 2023-09-05
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Comparing NextDNS and AdGuard, the two powerful DNS-based ad blockers, to find the best fit for your browsing needs."
@@ -120,6 +121,37 @@ Similarly, [**AdGuard**](https://adguard.com/) emphasizes user privacy and emplo
 Both [**NextDNS**](https://nextdns.io/?from=jyfq92sk) and [**AdGuard**](https://adguard.com/) prioritize user privacy, making them reliable choices for privacy-conscious individuals.
 
 ______
+
+## Current Comparison Criteria
+
+**DNS filtering is narrower than browser ad blocking.** A resolver blocks a hostname before a connection starts. It does not inspect page elements, remove cosmetic ads, or fix ads served from the same hostname as the content. A browser blocker and a DNS service therefore address different layers.
+
+| Criterion | NextDNS | AdGuard DNS |
+|---|---|---|
+| **Filtering model** | Profile-based service with custom lists, allowlists, and analytics | Public filtered endpoints plus private profiles and filtering controls |
+| **Free-plan boundary** | 300,000 queries per month, then non-blocking DNS according to the current pricing page | Public default, family, and non-filtering endpoints are documented by AdGuard |
+| **Transport** | Use the configuration-specific DoH or DoT endpoint | DoH, DoT, DoQ, and DNSCrypt endpoints are documented for public profiles |
+| **Best fit** | Users who need per-profile policy and query visibility | Users who want a documented default or family resolver with simple setup |
+
+NextDNS lists current pricing and quota behavior on its [official pricing page](https://nextdns.io/pricing). AdGuard lists its public default endpoint at `94.140.14.14`, its family endpoint at `94.140.14.15`, and its non-filtering endpoint at `94.140.14.140` in the [official provider guide](https://adguard-dns.io/kb/general/dns-providers/). Plans, limits, and endpoints change, so verify them before deployment.
+
+**Privacy needs a policy check.** DoH hides DNS traffic from the local network path. It does not prevent the selected resolver from processing the query, and it does not stop a website from tracking an identified account. Read each provider's current retention policy, then decide whether local Pi-hole or a self-hosted AdGuard Home better fits your threat model.
+
+Before choosing, test the same blocked and allowed domains on home Wi-Fi, cellular data, VPN, IPv4, and IPv6. Record false positives, app behavior, outage behavior, and the time needed to maintain exceptions. Do not treat a public DNS benchmark as a guarantee for your location.
+
+## 2026 Setup and Testing Notes
+
+NextDNS and AdGuard both filter DNS requests, but the user experience depends on where policy lives. A cloud profile is useful for roaming devices and per-device rules. A local resolver is useful when you need local names, local logs, or control during an upstream outage.
+
+Use this test sequence after setup:
+
+1. Confirm the device uses the intended resolver with a DNS leak test.
+2. Test a known advertising domain, a malware test domain, and a normal work site.
+3. Check whether the service logs the request and whether the retention setting matches your privacy goal.
+4. Test a family, guest, or IoT policy separately from your personal policy.
+5. Record the recovery path. A blocked login or broken application needs a quick allow-list change.
+
+Read the current [NextDNS documentation](https://help.nextdns.io/) and [AdGuard DNS documentation](https://adguard-dns.io/kb/) before copying older setup instructions. DNS filtering does not inspect encrypted page content and does not replace endpoint security.
 
 ## **Conclusion**
 
