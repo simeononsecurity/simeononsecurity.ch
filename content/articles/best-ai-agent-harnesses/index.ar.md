@@ -160,7 +160,7 @@ coverCaption: "رسم توضيحي مفاهيمي للمكونات المحيط�
 **لا تفرض تهيئات غير مدعومة على المسار المتحكم به.** إذا افتقر مرشحان إلى نموذج أو واجهة أدوات مشتركة، فأبلغ عن المقارنة كتقييم للنظام. أبق جهد الإعداد وتوجيه الإنسان في السجل.
 
 ```yaml
-# سجل تجربة توضيحي، وليس ملف تهيئة لإطار
+# Illustrative trial record, not a framework configuration file
 candidate: "package and pinned version"
 model: "provider and exact model identifier"
 workspace: "isolated test environment"

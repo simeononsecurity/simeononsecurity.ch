@@ -226,7 +226,7 @@ notebooklm skill install
 **تمرين توضيحي:** أضف مستورد CSV إلى تطبيق صغير. يعاين المستورد الصفوف ويبلغ عن حقول البريد غير الصالحة ويمنع إنشاء التكرارات. لا تحتاج التمرين إلى سجلات عملاء أو وجهات خارجية حية.
 
 ```yaml
-# ورقة تقييم، وليست ملف إعداد أداة
+# Evaluation worksheet, not a tool configuration file
 task: "add CSV import preview"
 inputs:
   - "valid rows"
