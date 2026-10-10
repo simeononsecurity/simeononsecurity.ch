@@ -15,7 +15,9 @@ Locate the repository root through `AGENTS.md`. Read `.clinerules/08-clinerules-
 4. Write the page bundle and front matter using rule 04. Apply rule 03's article structure and scannability checks and rule 05's prose review. For new articles, include `lastmod`; preserve the original publication date when revising.
 5. For requested YouTube embeds, use the named `id` form and the per-instance privacy opt-in in rule 09. Keep a watch link, omit an unverified upload date, and confirm a rendered player exists. Do not change the global privacy setting.
 6. Use `sos-content-media` when creating, replacing, or auditing images. Keep visual breaks within rule 11's limit. Generated illustrations must not supply invented evidence.
-7. Validate YAML, local links, shortcode arguments, table width, prose restrictions, and image references for the selected files. Review the entire page after a correction so older tables or examples do not contradict it. Follow rule 08 for targeted versus full rendering; use `sos-hugo-validation` when inspecting generated output.
+7. Run the full media-generation scan after creating every new article:
+   `.venv/bin/python tools/generate_cover_images.py --content-dir all --force --include-inline-images --workers 3`
+8. Validate YAML, local links, shortcode arguments, table width, prose restrictions, and image references for the selected files. Review the entire page after a correction so older tables or examples do not contradict it. Follow rule 08 for targeted versus full rendering; use `sos-hugo-validation` when inspecting generated output.
 
 ## Finish
 

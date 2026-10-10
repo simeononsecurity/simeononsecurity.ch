@@ -60,6 +60,19 @@ tail -f /tmp/cover_gen.log
   --content-dir all --inline-only
 ```
 
+## New Article Requirement
+
+Run the full media scan after creating every new article. This keeps the article
+cover and missing inline figures synchronized across all content folders.
+
+```bash
+.venv/bin/python tools/generate_cover_images.py \
+  --content-dir all --force --include-inline-images --workers 3
+```
+
+Run the dry-run form first when reviewing scope. After generation, run the media
+checker on every changed page and inspect generated covers before committing.
+
 **Key flags:**
 
 | Flag | Purpose |
