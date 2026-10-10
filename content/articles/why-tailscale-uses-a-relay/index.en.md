@@ -1,7 +1,7 @@
 ---
 title: "Why Tailscale Uses a Relay: Direct Connections, DERP, and Peer Relays"
 date: 2026-09-11
-lastmod: 2026-09-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Find out why Tailscale uses a relay, read status and netcheck output, and decide whether a DERP or peer-relay connection needs troubleshooting."
@@ -167,6 +167,8 @@ Decision to keep or revert:
 ```
 
 **Completion criterion:** the record links a specific symptom to observations, a hypothesis, and a measured retest. “Relay disappeared” is incomplete if the application is still slow. “The backup meets its time requirement through DERP” is a valid result if the requirement is explicit.
+
+**Use `tailscale netcheck` as evidence, not as a verdict.** The command describes the network seen by one device. The settled path belongs to a device pair and a workload. Capture both endpoints, the final `tailscale status` line, and the application measurement before changing firewall or NAT settings.
 
 ## Next Steps
 

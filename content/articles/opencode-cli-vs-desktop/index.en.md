@@ -1,7 +1,7 @@
 ---
 title: "OpenCode CLI vs Desktop: 2026 Workflow Comparison"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare OpenCode’s terminal and desktop clients through their server architecture, provider configuration, scripting, session state, and troubleshooting."
@@ -40,6 +40,14 @@ coverCaption: ""
 | **Session** | Existing conversation or new task? |
 
 **A server location is not an inference location.** An agent server on your computer still sends requests to a configured hosted model. Conversely, a compatible local inference service is a separate process with its own model and resource requirements.
+
+The official server reference lists `127.0.0.1` as the default hostname for `opencode serve`. Keep the service on loopback during a local trial:
+
+```bash
+opencode serve --hostname 127.0.0.1
+```
+
+Use a wider bind address only after defining authentication, firewall rules, and the repository paths exposed to the server.
 
 {{< figure src="opencode-clients-server-provider.webp" alt="Terminal and desktop clients connected to an agent server, repository files, and separate inference service" caption="Check the agent server and inference provider independently" >}}
 

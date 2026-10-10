@@ -1,7 +1,7 @@
 ---
 title: "Claude Code CLI vs Desktop: 2026 Workflow Comparison"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare Claude Code in the terminal and desktop Code workspace, including shared settings, session handoff, scripting, visual review, and permission choices."
@@ -23,7 +23,7 @@ coverCaption: ""
 - **Shared configuration reduces duplication**, but session behavior and available controls differ.
 - **Moving a conversation requires supported handoff**, not copying a prompt into a new chat.
 
-**Scope and date:** Official documentation checked on October 6, 2026. This is a feature and workflow comparison, not a coding benchmark. You need a testable repository and an approved account route. Allow 45–60 minutes for a small trial.
+**Scope and date:** Official documentation checked on October 10, 2026. This is a feature and workflow comparison, not a coding benchmark. You need a testable repository and an approved account route. Allow 45–60 minutes for a small trial.
 
 ## Same Engine, Different Controls
 

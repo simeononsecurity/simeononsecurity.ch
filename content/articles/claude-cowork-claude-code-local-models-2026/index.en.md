@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork and Claude Code With Local Models: 2026 Setup Guide"
 date: 2026-09-22
-lastmod: 2026-09-22
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only."
@@ -18,6 +18,8 @@ ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/ai-models-raspber
 *Most guides get one important detail wrong. They describe Claude Cowork, then hand you setup steps which configure the command-line tool instead. Those are two different integrations, and only one of them gives you Cowork.*
 
 This guide covers both paths separately, the environment variable the popular tutorials skip, which models to pair with each in September 2026, and the features which stay cloud-only no matter what you configure.
+
+**Reader outcome:** identify the integration you need, connect it through the documented Ollama path, and prove the endpoint with one tool-calling test. Local inference keeps model requests local only when you select a local model and avoid cloud-backed features.
 
 ## The Short Answer
 

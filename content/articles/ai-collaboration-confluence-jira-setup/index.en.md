@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration with Confluence and Jira: Setup"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Configure Confluence authority pages and company-managed Jira permissions for reviewed mixed-team collaboration."
@@ -30,6 +30,8 @@ coverCaption: ""
 **Plan requirement:** Confluence Free does not support content restrictions. Jira Free lacks configurable permission schemes, space roles, and work-item security schemes. Use suitable Standard-or-higher sandboxes for this track. Verify the actual plan and privileges against the references before testing.
 
 **Navigation note:** current Jira documentation uses “space” and “work item.” Some tenants retain “project” and “issue.” Select a company-managed configuration. Team-managed permission behavior is outside this procedure. No Rovo, marketplace app, Jira Service Management approvals, or paid chat connector is required.
+
+**Reader outcome:** finish with a permission matrix, named authority pages, a lab-only Jira workflow, and denial evidence from separate users. Record tenant plan and role assumptions beside the test results.
 
 ## Create Authority Pages
 

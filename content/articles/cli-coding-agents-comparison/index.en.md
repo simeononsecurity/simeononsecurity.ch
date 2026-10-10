@@ -1,7 +1,7 @@
 ---
 title: "CLI Coding Agents Compared: Claude Code, Codex, Gemini, OpenCode, Copilot, and Aider"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare six terminal coding agents by workflow, automation, model access, permissions, and review effort. Build a shortlist with a repeatable repository trial."
@@ -14,7 +14,7 @@ coverCaption: ""
 
 **Terminal coding agents** share a familiar interface but differ in how they gather context, edit files, request approval, and fit into scripts. This guide compares Claude Code CLI, Codex CLI, Gemini CLI, OpenCode CLI, GitHub Copilot CLI, and Aider. It evaluates their terminal workflows, independently of each vendor's desktop products.
 
-**Start with your constraints.** Provider access, repeatable automation, and review habits are better filters than a generic leaderboard. The recommendations below are editorial judgments based on official documentation checked on October 6, 2026, not measured performance rankings.
+**Start with your constraints.** Provider access, repeatable automation, and review habits are better filters than a generic leaderboard. The recommendations below are editorial judgments based on official documentation checked on October 10, 2026, not measured performance rankings.
 
 ## Key Takeaways
 
@@ -86,6 +86,8 @@ coverCaption: ""
 | **Failed work** | Abandoned runs and reverted patches |
 
 **Compare cost per accepted change.** Keep subscription fees separate from incremental API charges and developer time. A free client with paid inference differs from a subscription with an allowance. Recheck current account terms before changing providers.
+
+**Freeze the comparison inputs.** Record each CLI version, model identifier, provider, starting revision, permission mode, and tool configuration. Re-run a task after any one of those changes. Otherwise, a better result identifies a changed system, not a better terminal interface.
 
 ## Permissions and Repository Context
 

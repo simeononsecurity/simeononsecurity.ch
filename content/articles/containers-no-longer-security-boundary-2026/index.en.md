@@ -1,7 +1,7 @@
 ---
 title: "Containers Are No Longer a Security Boundary: Kernel Escapes in 2026"
 date: 2026-09-28
-lastmod: 2026-09-28
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "AI-driven kernel bug hunting produced four new local privilege escalation families in 2026, all of which escape containers. Here is how they work, why patching is losing ground, and where microVMs fit."
@@ -18,6 +18,8 @@ ref: ["/articles/docker-vs-vms", "/articles/how-to-secure-your-docker-and-kubern
 *The uncomfortable part is not the bugs themselves. It is how cheaply AI now finds them, and how one patch created another.*
 
 This article explains how containers isolate workloads, why the isolation now rests on a shrinking foundation, what each 2026 vulnerability does, and which isolation technology is worth trusting instead.
+
+**Reader outcome:** map each workload by who supplies the code, identify the kernel features it needs, and choose between hardened containers and a microVM boundary. Treat the 2026 case studies as dated research evidence. Recheck current vendor advisories before changing a production kernel.
 
 ## The Short Answer
 

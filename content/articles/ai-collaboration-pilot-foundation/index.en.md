@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration Pilot: Charter, Authority, and Policies"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Define pilot roles, authoritative sources, policy templates, and acceptance tests before connecting AI tools."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** Python 3.10 or later for the executable lab, GitHub access, and separate contributor and reviewer users for live tests. The mixed track also needs Confluence Cloud and a company-managed Jira Cloud sandbox. Keep customer data and production credentials out of the exercise.
 
 **Estimated time:** 60 to 90 minutes. **Difficulty:** introductory governance work. This course's approval rules and retention values are design choices, not vendor defaults or compliance guidance.
+
+**Completion outcome:** you finish with a charter, authority register, versioned policy, and negative tests showing where publication stops.
 
 ## Define the Pilot
 

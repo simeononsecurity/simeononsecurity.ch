@@ -68,6 +68,16 @@ lsof -nP -iTCP -sTCP:LISTEN | rg 'ollama|llama|8080|11434'
 
 Check the selected model name too. Ollama's cloud documentation describes cloud models as a separate service path. A local interface does not prove local execution.
 
+Ollama's [FAQ](https://docs.ollama.com/faq) documents a local-only mode. Set `disable_ollama_cloud` in `~/.ollama/server.json`, or set `OLLAMA_NO_CLOUD=1` before restarting the service. This removes Ollama cloud models and web search from the selected runtime. It does not restrict other applications, browser tools, plugins, or network access on the host.
+
+```json
+{
+  "disable_ollama_cloud": true
+}
+```
+
+Verify the setting after restart. A local-only runtime narrows one path. It does not establish a private host.
+
 ## Count the Hosted Cost
 
 Token prices separate input from output. [Anthropic lists Claude Haiku 5.5 at $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens](https://www.anthropic.com/claude/haiku). Prompts above 100,000 tokens use the higher listed rates.

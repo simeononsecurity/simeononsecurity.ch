@@ -1,7 +1,7 @@
 ---
 title: "Mining Pearl (PRL) in 2026: Setup, Profitability, and Whether the Chain Is Useful"
 date: 2026-09-22
-lastmod: 2026-09-22
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "How to mine Pearl (PRL) with SRBMiner, what proof-of-useful-work computes, why margins compressed after launch, and an honest assessment of whether the chain produces anything anyone buys."
@@ -18,6 +18,8 @@ ref: ["/other/efficient-spacemesh-mining-multiple-gpus-guide", "/articles/local-
 *The claim is technically real and economically unproven, and the gap between those two things is the whole story.*
 
 This guide covers how to mine PRL, what the miner computes, why the margins compressed so quickly after launch, and a direct answer to whether the chain produces anything of value.
+
+**Reader outcome:** finish with a wallet, a verified miner, a measured power draw, and a profitability calculation using your own electricity rate. Treat pool estimates and launch-era revenue as observations for a date, not as a purchase guarantee.
 
 ## The Short Answer
 

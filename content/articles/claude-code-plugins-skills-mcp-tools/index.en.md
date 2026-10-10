@@ -1,7 +1,7 @@
 ---
 title: "10 Claude Code Plugins, Skills, and MCP Tools: A Practical Guide"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Choose Claude Code extensions for planning, code review, knowledge management, design, and automation. Compare ten tools, dependencies, and practical checks."
@@ -32,7 +32,9 @@ This guide compares **ten projects** across those jobs, with setup examples and 
 
 **Estimated time:** 15 minutes to read, then allow 30 to 60 minutes for one bounded trial. **Difficulty:** intermediate for CLI setup and service integration. Reading instruction skills requires less setup.
 
-**Documentation checked October 6, 2026.** Commands and access rules reflect the linked sources. Recheck your installed version before following an older tutorial. This article focuses on extensions used from Claude Code, with host differences called out where relevant.
+**Documentation checked October 10, 2026.** Commands and access rules reflect the linked sources. Recheck your installed version before following an older tutorial. This article focuses on extensions used from Claude Code, with host differences called out where relevant.
+
+**Verify in layers after installation.** Check the files, host discovery, executable dependencies, credentials, and one representative task separately. A successful installer does not prove that a browser, MCP server, media tool, or external account works. Keep the first test on synthetic data and record the upstream revision.
 
 ## Know the Extension Type
 

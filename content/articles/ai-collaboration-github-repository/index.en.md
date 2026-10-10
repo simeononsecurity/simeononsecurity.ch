@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI Collaboration: Repository and Review Boundaries"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Build a GitHub-first source map, file ownership, and protected publication boundary for reviewed AI contributions."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** the [pilot foundation](/articles/ai-collaboration-pilot-foundation/), extracted lab, repository administrator, and separate product and operations reviewers. **Estimated time:** 60 minutes. **Difficulty:** moderate.
 
 **Plan boundary:** GitHub documents protected branches for public repositories on Free and private repositories on Pro, Team, or Enterprise. Use public repositories only for synthetic content. Verify visibility and plan against the protected-branch reference before relying on enforcement.
+
+**Completion outcome:** you finish with a protected publication branch, file owners, a source map, and a denial test recorded as evidence.
 
 ## Create the Repository
 

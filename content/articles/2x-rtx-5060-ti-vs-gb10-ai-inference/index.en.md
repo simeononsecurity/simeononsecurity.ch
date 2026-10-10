@@ -119,7 +119,7 @@ For a Qwen 3 27B deployment, ask four questions before buying hardware:
 
 The supplied test answers the last question for the dual-card system. The run reached 171,359 tokens during the 256K Qwen request and generated at 1.2 tokens per second. The GB10 completed 256K at 25.8 tokens per second.
 
-**Unified memory is always the better architecture when the alternative relies on PCIe to span the model's working set.** PCIe remains a capacity workaround. PCIe does not create the same memory pool, latency, or transfer path. The [local AI GPU context guide](/articles/local-ai-model-gpu-context-guide/) explains why model weights, KV cache, tool output, and runtime buffers must be sized together. The [Ollama Qwen3.8 27B GPU benchmark](/articles/qwen38-27b-vast-ai-gpu-benchmark/) also shows why long-context results need separate attention from short-context decode numbers.
+**For this long-context workload, unified memory is the better architecture when the alternative relies on PCIe to span the model's working set.** PCIe remains a capacity workaround. PCIe does not create the same memory pool, latency, or transfer path. The [local AI GPU context guide](/articles/local-ai-model-gpu-context-guide/) explains why model weights, KV cache, tool output, and runtime buffers must be sized together. The [Ollama Qwen3.8 27B GPU benchmark](/articles/qwen38-27b-vast-ai-gpu-benchmark/) also shows why long-context results need separate attention from short-context decode numbers.
 
 ## Verdict
 

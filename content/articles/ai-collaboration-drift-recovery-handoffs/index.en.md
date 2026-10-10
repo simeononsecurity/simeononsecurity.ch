@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration Operations: Drift, Recovery, and Handoffs"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Detect stale sources and policy adapters, recover interrupted publication, and verify independent agent handoffs."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** the [GitHub browser workflow](/articles/ai-collaboration-github-browser-workflow/) or [mixed publication workflow](/articles/ai-collaboration-confluence-jira-publication/). **Estimated time:** 60 to 90 minutes. **Difficulty:** advanced review.
 
 **Safety:** synthetic records only. Freeze automatic publication before recovery tests. No running deletion service is supplied.
+
+**Reader outcome:** finish with a state inventory, an owner decision, a reviewed repair, and a handoff another reviewer reconstructs from current sources. A completed exercise is not a publication approval.
 
 ## Classify Drift
 

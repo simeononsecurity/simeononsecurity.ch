@@ -1,7 +1,7 @@
 ---
 title: "Best AI Agent Harnesses in 2026: Choose by Workflow"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare Deep Agents, Claude Agent SDK, OpenAI Agents SDK, Pydantic AI, Pi, and LangGraph by tool execution, memory, recovery, and integration effort."
@@ -14,7 +14,7 @@ coverCaption: "Conceptual illustration of the components surrounding an AI model
 
 **Deep Agents is my first shortlist entry for a general-purpose agent with configurable models and built-in context management.** Claude Agent SDK is a strong fit for embedding Claude Code's execution behavior. OpenAI Agents SDK and Pydantic AI deserve a trial for application-specific agents, while Pi favors a small extensible core and LangGraph favors explicit workflow control.
 
-**The best choice depends on the work you intend to accept.** A research assistant, a repository editor, and a service processing customer requests need different tools and recovery rules. These recommendations are editorial judgments from official documentation checked on **October 6, 2026**, not results from a hands-on performance benchmark.
+**The best choice depends on the work you intend to accept.** A research assistant, a repository editor, and a service processing customer requests need different tools and recovery rules. These recommendations are editorial judgments from official documentation checked on **October 10, 2026**, not results from a hands-on performance benchmark.
 
 <!--more-->
 
@@ -55,6 +55,8 @@ Consider an **illustrative support agent** asked to inspect an order and prepare
 | **Explicit durable workflow** | LangGraph | Design graph state and recovery behavior |
 
 **These are different starting points.** Deep Agents already uses LangGraph, so choosing them is not necessarily an either-or decision. Pydantic AI also separates its core agent framework from assembled harness capabilities. Compare the amount of application code you need to own, rather than treating every row as an interchangeable library.
+
+**Start with the smallest layer that meets the acceptance test.** Use a typed application framework for bounded tool calls, an assembled agent for open-ended file or research work, and an explicit graph when recovery and transitions need named states. Add memory, shell access, or subagents only after a test shows why the simpler layer fails.
 
 ## Deep Agents: Assembled Capabilities
 

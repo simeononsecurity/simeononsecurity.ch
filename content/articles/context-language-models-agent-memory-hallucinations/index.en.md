@@ -1,7 +1,7 @@
 ---
 title: "Meta's Context Language Models: Better Agent Memory, Not the End of Hallucinations"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "How Context Language Models edit agent memory, what the benchmarks establish, and how cache costs, model capability, and untrusted notes affect reliability."
@@ -124,9 +124,11 @@ The [llama.cpp discussion of hybrid-model reprocessing](https://github.com/ggml-
 
 The authors report **35% less server-side compute** in their BrowseComp-Plus comparison. Of the 7.8 percentage points of prompt tokens additionally reused, 5.3 come from stripped reasoning blocks and 2.5 from other edits. Much of this benefit therefore applies beyond explicit CLM editing. See the [SCR implementation notes](https://raw.githubusercontent.com/facebookresearch/context-language-models/main/suffix_cache_reuse/README.md).
 
-**For API billing**, separate ordinary input, cache writes, and cache reads. Anthropic lists Sonnet 4.6 at $3, $3.75, and $0.30 per million tokens respectively for ordinary input, five-minute cache writes, and cache hits. Rewriting 20,000 tokens as a cache write costs $0.075, versus $0.006 for a hit. The $0.069 difference excludes output and other billing modifiers. [Prompt-caching documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), checked October 6, 2026.
+**For API billing**, separate ordinary input, cache writes, and cache reads. Anthropic lists Sonnet 4.6 at $3, $3.75, and $0.30 per million tokens respectively for ordinary input, five-minute cache writes, and cache hits. Rewriting 20,000 tokens as a cache write costs $0.075, versus $0.006 for a hit. The $0.069 difference excludes output and other billing modifiers. [Prompt-caching documentation](https://platform.claude.com/docs/en/build-with-claude/prompt-caching), checked October 10, 2026.
 
 **Total task cost decides the tradeoff.** Occasional expensive edits still produce savings if they substantially reduce later input. Frequent edits followed by few remaining turns offer less opportunity to recover their cost.
+
+**Check cache behavior in the serving path you deploy.** The paper's reuse measurements do not prove that an API, SGLang release, or local runtime exposes the same cache controls. Record cache hits, prompt tokens, recomputation, and reset behavior during the pilot. Treat missing telemetry as an evaluation limitation.
 
 ## Keep Notes Below Instructions
 

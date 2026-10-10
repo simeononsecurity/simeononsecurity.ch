@@ -1,7 +1,7 @@
 ---
 title: "32GB VRAM for Qwen 27B: The Local AI Hardware Guide for October 2026"
 date: 2026-10-03
-lastmod: 2026-10-03
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A practical October 2026 guide to running a Qwen 27B model with 32GB of usable accelerator memory. Compare single GPUs, two-card builds, unified memory, used data-center cards, rented compute, software support, and full-context limits."
@@ -74,7 +74,7 @@ The price is the problem. A new 5090 gives a clean path to 32GB, but the purchas
 
 ### Radeon AI PRO R9700
 
-The R9700 is a 32GB-class AMD option with high memory bandwidth and a lower entry price than the 5090 in many listings. Its value depends heavily on the runtime. A default llama.cpp path might produce a usable result, while a faster community backend could produce a much higher result on the same card.
+The R9700 is a 32GB-class AMD option with high memory bandwidth and a lower entry price than the 5090 in many listings. Its value depends heavily on the runtime. A default llama.cpp path produces a usable result, while a faster community backend produces a much higher result on the same card in some reported tests.
 
 This is the clearest example of why a GPU comparison needs two speed columns. **Decode speed** measures generated tokens. **Prefill speed** measures how quickly the backend reads the prompt before the first generated token. A 50,000-token codebase exposes a weak prefill path even when decode speed looks acceptable.
 
@@ -96,7 +96,7 @@ The other issue is software age. The current CUDA GPU table focuses on newer arc
 
 ### AMD Instinct MI50
 
-The MI50 offers an attractive used price per gigabyte, yet its current software support is a serious constraint. A card that needs an older ROCm stack or a community-maintained fork is not equivalent to a current consumer card with mainstream application support.
+The MI50 offers an attractive used price per gigabyte, yet its current software support is a serious constraint. A card requiring an older ROCm stack or a community-maintained fork is not equivalent to a current consumer card with mainstream application support.
 
 The reported prompt-processing gap is more important than the sticker price. One comparison measured about **128 tokens per second** on an MI50 against roughly **2,652 tokens per second** on a newer 32GB card for a prompt-processing workload. A 50,000-token codebase would take minutes on the slower path and seconds on the faster path before generation begins.
 
@@ -196,3 +196,7 @@ The 32GB question is therefore not “Which card has the cheapest gigabyte?” I
 - [Local AI in 2026: A 27B Model Beats Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/), related local-model and hardware analysis.
 - [Llama 3.1 8B and Qwen3.8 27B GPU Benchmarks on Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/), related rental-GPU benchmark analysis.
 - [The 64GB DGX Spark Is a Warning Sign for Local AI Hardware Prices](/articles/dgx-spark-64gb-memory-crisis-2027/), related memory-capacity and supply analysis.
+
+## Next Steps
+
+Use the worksheet with a representative prompt before buying. Compare time to first token, prompt processing, decode speed, memory use, power, and total platform cost. For a short project, rent first and keep the measured result with the purchase decision.

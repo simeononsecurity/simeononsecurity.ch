@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration Retrieval: Maps, Search, and Optional RAG"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Use map-first source lookup, native search, live-source verification, and optional RAG evaluation without changing authority."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** one completed track and its authority register. **Estimated time:** 60 minutes for map/native-search tests. **Difficulty:** moderate.
 
 **Scope:** no embedding provider, vector database, or paid connector is required. The executable baseline uses browser lookup. A later RAG deployment needs separately approved access controls and data-processing terms.
+
+**Completion outcome:** you produce a retrieval record showing the source ID, revision, access decision, surrounding exception, and live-source check for one concrete question.
 
 ## Run Direct Lookup
 

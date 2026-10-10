@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI vs Desktop: 2026 Workflow Comparison"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Choose between Codex in the terminal and OpenAI’s desktop coding workspace. Compare scripting, worktrees, visual review, schedules, and execution environments."
@@ -23,7 +23,7 @@ coverCaption: ""
 - **Keep execution location explicit**, especially when working through remote connections.
 - **The interface does not guarantee better code** or create an independent inference allowance.
 
-**Scope and date:** Official documentation checked on October 6, 2026. Recommendations concern workflow, not measured model performance. Prerequisites are a repository, working tests, and suitable account access. Allow an hour for a small cross-interface trial.
+**Scope and date:** Official documentation checked on October 10, 2026. Recommendations concern workflow, not measured model performance. Prerequisites are a repository, working tests, and suitable account access. Allow an hour for a small cross-interface trial.
 
 ## Compare the Workflows
 
@@ -97,6 +97,8 @@ codex exec "Identify the documented test command. Do not modify files."
 5. **Record your effort** supplying context, finding output, and approving the result.
 
 **Choose the CLI** if the task becomes easier to repeat and inspect through shell tools. **Choose desktop** if project organization and visual review reduce your supervision effort. Keeping both installed is reasonable when each serves a distinct part of your workflow.
+
+**Keep the trial record with the result.** Record the starting revision, selected model, execution host, permission profile, commands run, and final verification output. Without those fields, a later interface comparison also compares hidden environment changes.
 
 ## Troubleshooting and Next Steps
 

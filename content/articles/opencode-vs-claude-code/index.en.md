@@ -1,7 +1,7 @@
 ---
 title: "OpenCode vs Claude Code: 2026 Coding Agent Comparison"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare OpenCode and Claude Code across model choice, local inference, pricing, permissions, project instructions, and daily coding workflows."

@@ -1,7 +1,7 @@
 ---
 title: "The 64GB DGX Spark Is a Warning Sign for Local AI Hardware Prices"
 date: 2026-10-03
-lastmod: 2026-10-03
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "NVIDIA's 64GB DGX Spark tier shows how memory supply pressure is shaping local AI hardware. This guide explains the capacity cut, unified-memory tradeoffs, and why DRAM relief is unlikely before late 2027."
@@ -24,6 +24,8 @@ ref: ["/articles/local-ai-2026-build-your-rig-now", "/articles/qwen38-27b-vast-a
 The reported 64GB DGX Spark adds a lower-capacity tier to NVIDIA's compact Grace Blackwell system. Tom's Hardware reports a $4,999 starting price for the 64GB unit and a $6,950 price for the 128GB model. The two tiers target different memory budgets while keeping the same general product family and GB10 platform. [Tom's Hardware reports the product and pricing details](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less).
 
 NVIDIA's own documentation lists the standard DGX Spark configuration with **128GB of LPDDR5x unified system memory**, a 256-bit interface, and 273GB/s of bandwidth. The memory is shared by the CPU and GPU instead of being split into ordinary system RAM and a separate graphics card pool. [NVIDIA's DGX Spark hardware guide documents the memory design](https://docs.nvidia.com/dgx/dgx-spark/hardware.html).
+
+**NVIDIA also advertises support for models up to 200 billion parameters on the 128GB system.** Treat this as a platform capability claim, not a promise that every model at that size fits with your quantization, context, runtime, and operating-system headroom. The 64GB tier has half the shared pool, so test the exact model and context before treating the lower tier as equivalent.
 
 | Configuration | Shared memory | Listed price | Best fit |
 |---|---:|---:|---|

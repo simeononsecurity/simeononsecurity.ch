@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration Capstone: One Change, Both Tracks"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Deliver a synthetic retention change through GitHub-first and Confluence/Jira workflows with failure evidence and independent review."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** preceding [course modules](/ai-collaboration-course-start/), approved sandbox access, and separate reviewers. **Estimated time:** three to four hours plus review. **Difficulty:** advanced.
 
 **Required artifacts:** charter, map, policy, adapters, baseline, manifest, fixed proposal, owner reviews, ledger, recovery record, and handoff. Missing plan-dependent permissions block completion instead of becoming assumed passes.
+
+**Prepare one evidence directory per track before testing.** A reviewer should identify the actor, source revisions, attempted action, observed result, and final state without relying on a chat summary.
 
 ## Establish Two Baselines
 

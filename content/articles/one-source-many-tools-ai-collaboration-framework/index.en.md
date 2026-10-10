@@ -1,7 +1,7 @@
 ---
 title: "One Source, Many Tools: Building an AI Collaboration Framework for Mixed Teams"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Build a shared AI collaboration framework for coders and non-coders. Assign sources of truth, track context versions, review durable changes, and choose project maps, RAG, or both."
@@ -19,6 +19,8 @@ coverCaption: ""
 **Give every fact one home.** Make every tool read from the home, and route every durable change back through a person. A repository, wiki, and tracker still serve different purposes. They need explicit authority, named owners, and a shared procedure for moving information between them.
 
 **This guide gives you a model to apply this week**, with or without retrieval-augmented generation. Start with a project map, versioned instructions, evidence records, and reviewed proposals. Add search infrastructure only when the retrieval problem warrants it.
+
+**Your first deliverable is a source register**, not a connector. List each fact type, its authoritative home, its owner, its current revision, and the person who approves changes.
 
 ## Key Takeaways
 

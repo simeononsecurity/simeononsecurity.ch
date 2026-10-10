@@ -1,7 +1,7 @@
 ---
 title: "OpenRouter Provider Routing: Model Quality, Token Limits, and Real Costs"
 date: 2026-10-05
-lastmod: 2026-10-05
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Diagnose inconsistent OpenRouter answers, compare endpoint limits and caching costs, and configure provider routing without disabling quality controls by accident."
@@ -22,7 +22,7 @@ coverCaption: ""
 - **Auto Exacto** improves provider selection using quality signals, with an opt-in route for requests without tools.
 - **Effective cost** includes output, cache behavior, retries, and successful task completion.
 
-**Prerequisites:** Familiarity with JSON requests and access to your application's OpenRouter configuration. Endpoint inspection uses a public API. Sending model requests requires an API key and incurs usage charges.
+**Prerequisites:** Familiarity with JSON requests and access to your application's OpenRouter configuration. Endpoint inspection uses a public API. Sending model requests requires an API key and incurs usage charges. Recheck endpoint metadata before repeating any dated example.
 
 **Time and difficulty:** About 20 minutes for an initial configuration review. Intermediate. A useful comparison across providers requires additional testing with representative prompts.
 
@@ -203,6 +203,8 @@ B =  $3.84 / 7 = $0.55
 | **No eligible provider** | Conflicting limits, allowlists, and fallback restrictions |
 
 **Preserve the generation ID** returned with the response. OpenRouter's [generation metadata API](https://openrouter.ai/docs/api/api-reference/generations/get-request-&-usage-metadata-for-a-generation) exposes provider identity, usage, cost, and finish information. A session ID groups related work, but it does not replace the generation ID for a single-request lookup.
+
+**Save the request alongside the generation ID.** Keep the model, provider preferences, requested parameters, timestamp, and response usage together. This makes a later quality or cost comparison reproducible when routing, prices, or endpoint metadata change.
 
 **Compare endpoints under matching conditions.** Use the same prompt, tools, reasoning settings, and token budget. Repeat across several representative tasks. Separate incomplete responses, invalid tool calls, and wrong answers instead of combining them into one unexplained quality score.
 

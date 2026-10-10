@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI Collaboration for Non-Coders"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Use browser edits, Issues, chat context packets, and reviewed pull requests without a local development environment."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** the [agent and Actions lesson](/articles/ai-collaboration-github-agents-actions/), lab read access, and an approved chat tool if desired. **Estimated time:** 45 to 60 minutes. **Difficulty:** introductory.
 
 **Connector-free baseline:** open GitHub yourself and supply only synthetic excerpts. No chat subscription feature is assumed. If a provider is not approved, draft manually using the same records.
+
+**Completion outcome:** you hand off one Issue or PR with fixed source revisions, proposed wording, affected files, exclusions, and unresolved questions.
 
 ## Read the Source Packet
 

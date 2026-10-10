@@ -1,7 +1,7 @@
 ---
 title: "Which Local AI Model Should You Run? A GPU Context and Coding Guide for October 2026"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A practical October 2026 guide to choosing local AI models for coding agents. Compare GPU memory, KV-cache growth, context size, quantization quality, prompt processing, reasoning settings, and cloud rental costs."
@@ -45,6 +45,14 @@ The model weights are the first allocation. The **KV cache** is the growing allo
 Coding agents spend context on more than source files. The budget also includes system instructions, tool schemas, directory listings, shell output, compiler messages, test results, and prior conversation turns.
 
 Three MCP connections with verbose tool definitions often consume several thousand tokens before the agent opens a project file. A small default context then leaves little room for code. The agent still responds, but it loses the working set needed for multi-step repairs.
+
+Ollama's [runtime FAQ](https://docs.ollama.com/faq) lists a default context of 4,096 tokens. Its `OLLAMA_CONTEXT_LENGTH` setting changes the default, while `OLLAMA_NUM_PARALLEL` scales the required memory with the number of concurrent requests. Record both values before comparing a local benchmark with a single-request result.
+
+```bash
+OLLAMA_CONTEXT_LENGTH=32768 OLLAMA_NUM_PARALLEL=1 ollama serve
+```
+
+This example sets a 32K default for one active request. It does not reserve 32K tokens for project files. Instructions, tool definitions, input, and output still share the window.
 
 ### A Simple Context Record
 

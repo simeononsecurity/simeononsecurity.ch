@@ -1,7 +1,7 @@
 ---
 title: "Why Port Forwarding Doesn't Work on T-Mobile Home Internet"
 date: 2026-09-11
-lastmod: 2026-09-11
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Understand T-Mobile 5G Home Internet port-forwarding limits, carrier NAT, and practical options for reaching a home server without a public inbound port."
@@ -36,6 +36,8 @@ This article covers **cellular Home Internet**. Treat fiber and business product
 **Carrier-grade NAT (CGNAT)** adds address translation in the provider's network. Subscribers share public IPv4 capacity, while the provider controls the outer translation. RFC 6598 reserves **`100.64.0.0/10`** for shared address space used in this kind of deployment. [RFC 6598](https://www.rfc-editor.org/rfc/rfc6598.html).
 
 **Gateway support and carrier NAT are separate issues.** T-Mobile's support page establishes the gateway restriction. CGNAT explains why configuring your own router is also insufficient when upstream translation sits outside your control. A missing port-forwarding menu alone does not reveal the full carrier network design.
+
+**The practical outcome is a choice of connection model.** Use an overlay network for private access, an outbound tunnel for an HTTP service, or a hosted endpoint when outside users need public access. Test the chosen method from a separate network. Do not use a successful LAN request as evidence of external reachability.
 
 | Change | What it changes | What remains unresolved |
 |---|---|---|

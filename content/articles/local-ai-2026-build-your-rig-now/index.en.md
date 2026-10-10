@@ -1,7 +1,7 @@
 ---
 title: "Local AI in 2026: A 27B Model Beats Sonnet 4.6, and the Hardware Window Is Closing"
 date: 2026-09-22
-lastmod: 2026-09-22
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Qwen3.8 27B and its ternary repack Bonsai 2 27B now outscore Claude Sonnet 4.6 on the aggregate intelligence index while running on one consumer GPU. What changed, what the benchmarks show, and why memory pricing makes waiting the most expensive option."
@@ -18,6 +18,8 @@ ref: ["/articles/ai-models-raspberry-pi-4-5", "/articles/building-a-privacy-pres
 *The hardware side of this story is closing fast. Memory prices are the worst they have been in two decades, and they are dragging graphics card prices up with them.*
 
 This article covers what the benchmarks show, what the two models are under the hood, where the open model still loses, and why the next twelve months are the wrong time to wait.
+
+**Reader outcome:** choose a model and memory tier from your workload, then compare hardware cost, power cost, context size, and measured throughput before buying. The benchmark comparison does not predict your task quality or your future GPU price.
 
 ## The Short Answer
 

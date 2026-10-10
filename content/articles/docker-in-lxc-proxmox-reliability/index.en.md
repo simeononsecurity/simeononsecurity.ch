@@ -1,7 +1,7 @@
 ---
 title: "Docker in LXC on Proxmox: Reliability, Evidence, and VM Migration"
 date: 2026-09-16
-lastmod: 2026-09-16
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Evaluate Docker inside Proxmox LXC with a documented AppArmor failure, a careful reading of a host-freeze report, diagnostic commands, and a VM migration plan."
@@ -304,6 +304,12 @@ Condition requiring another architecture review:
 ```
 
 **Choose LXC nesting deliberately** when its benefits justify the integration work and you have tested the recovery path. Choose a VM when a conventional Docker guest environment and a separate guest kernel simplify the service’s operation. Neither decision substitutes for backups, monitoring, and host maintenance.
+
+## Use a change gate before migration
+
+Treat migration as a **controlled change**, not as proof of the original incident cause. Before the cutover, capture the current container configuration, image digests, bind-mount paths, environment keys, device mappings, and last successful restore. After the cutover, compare the same service checks and resource readings. Keep the old workload stopped until the new copy passes its acceptance window.
+
+If the incident returns after migration, compare host kernel, storage, memory pressure, device access, and Docker versions across both placements. The comparison narrows the investigation. It does not turn a successful migration into a causal experiment unless the relevant variables stayed controlled.
 
 ## Next Steps
 

@@ -1,7 +1,7 @@
 ---
 title: "GitHub AI Collaboration: Agent Adapters and Actions"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Capture context manifests, load agent policies, and validate retention proposals with trusted-base GitHub Actions checks."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** the [repository boundary](/articles/ai-collaboration-github-repository/), an approved local coding agent, and Actions enabled. **Estimated time:** 90 minutes. **Difficulty:** moderate.
 
 **Product scope:** no hosted GitHub coding agent or paid chat connector is required. Obtain provider approval before sending repository text to a model. Product instruction-loading behavior varies by installed version.
+
+**Completion outcome:** you finish with a trusted-base check, a reproduced consistency failure, a stale-context rejection, and a review record showing why green checks do not equal approval.
 
 ## Install Thin Adapters
 

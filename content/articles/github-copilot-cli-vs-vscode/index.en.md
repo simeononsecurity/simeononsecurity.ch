@@ -1,7 +1,7 @@
 ---
 title: "GitHub Copilot CLI vs VS Code: 2026 Workflow Comparison"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare Copilot’s terminal agent with its VS Code experience, including editor context, visual diffs, agent mode, CLI integration, and account policies."
@@ -23,7 +23,7 @@ coverCaption: ""
 - **Connect the CLI to VS Code** when you want terminal prompts with editor context and diffs.
 - **Account, model, and policy settings require verification**, even within one product family.
 
-**Scope and date:** Official documentation checked on October 6, 2026. This compares the standalone `copilot` CLI with Copilot in VS Code, not the old `gh copilot` extension or a cloud agent assigned a GitHub issue. Prerequisites are a testable repository and permitted Copilot access. Allow an hour for a trial.
+**Scope and date:** Official documentation checked on October 10, 2026. This compares the standalone `copilot` CLI with Copilot in VS Code, not the old `gh copilot` extension or a cloud agent assigned a GitHub issue. Prerequisites are a testable repository and permitted Copilot access. Allow an hour for a trial.
 
 ## Three Ways to Work
 
@@ -46,6 +46,8 @@ copilot
 **A strong first task has a concrete failure.** Supply the failing command, expected behavior, and a restriction against unrelated refactoring. Ask the agent to reproduce the issue before changing files. Review whether its final explanation matches the observed test output.
 
 **Automation requires explicit boundaries.** Use GitHub's [CLI usage guides](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli) for the current invocation and control options. Define allowed tools, time limits, and output handling before running unattended jobs. Avoid converting an interactive permission policy into blanket authorization for a pipeline.
+
+**Sandboxing changes the trial boundary.** GitHub documents local sandboxing for filesystem, network, and system restrictions, plus cloud sandboxes for isolated execution. A trusted-directory prompt and an approval flag do not replace those boundaries. Test the intended sandbox, network access, and write scope with a harmless fixture before allowing a real repository change.
 
 ## What VS Code Adds
 

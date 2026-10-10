@@ -1,7 +1,7 @@
 ---
 title: "Llama 3.1 8B and Qwen3.8 27B GPU Benchmarks on Vast.ai"
 date: 2026-10-02
-lastmod: 2026-10-02
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Measured Ollama benchmarks of Llama 3.1 8B and Qwen3.8 27B across leading Vast.ai GPUs. Compare decode speed, long-context behavior, rental cost, self-hosting tradeoffs, API credits, and subscriptions."
@@ -274,6 +274,10 @@ If the model becomes a daily tool, compare the monthly rental total with the ful
 **Do not buy a GPU after one successful test.** Rent for a month of real workloads, record active hours, prompt lengths, concurrency, and model changes, then compare the rental total with the complete ownership bill. Buy hardware when the workload is frequent enough to keep the card busy and stable enough to justify the loss of flexibility.
 
 For occasional work, API credits or a chat subscription are simpler. For private local inference, open model experimentation, or abliterated model testing, Vast.ai provides a lower-commitment path than buying a workstation immediately. Use Llama 3.1 8B as the lower-memory baseline and Qwen3.8 27B when the larger model is the actual deployment target.
+
+## Next Steps
+
+Repeat the comparison with your own prompt lengths and active-hour estimate. Verify GPU use, record the model revision and runtime version, stop the instance after each run, and compare the monthly rental total with the full ownership cost before buying hardware.
 
 ## References
 

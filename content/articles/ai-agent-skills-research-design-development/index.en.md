@@ -1,7 +1,7 @@
 ---
 title: "9 AI Agent Skill Projects for Research, Design, and Development"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Compare nine agent skill projects by workflow, host support, dependencies, and cost. Learn how to install, inspect, and test the skills you need."
@@ -16,7 +16,7 @@ coverCaption: "Conceptual illustration of a task-specific agent skill library."
 
 **Nine projects deserve consideration:** last30days, Humanizer, Impeccable, Superpowers, gstack, Claude Video, Remotion, HyperFrames, and NVIDIA SkillSpector. Some are instruction bundles, some include executable tools, and some are frameworks with companion skills. This guide compares their documented roles and provides a practical way to select, install, and evaluate them.
 
-**Documentation snapshot: October 6, 2026.** Recommendations reflect project documentation and source inspection, not a comparative benchmark of output quality. Free installation does not establish free inference, rendering, data access, or commercial use.
+**Documentation snapshot: October 10, 2026.** Recommendations reflect project documentation and source inspection, not a comparative benchmark of output quality. Free installation does not establish free inference, rendering, data access, or commercial use.
 
 <!--more-->
 
@@ -177,6 +177,8 @@ npx skills add remotion-dev/skills
 | **Task verified** | A representative result passes independent checks |
 
 **Verify each stage in order.** A successful folder copy is an installation check, not evidence of a working browser, download, transcription, or render. Keep optional provider setup separate from the basic installation and avoid storing credentials in skill files.
+
+**Record the host and revision for every trial.** Note whether the skill runs through Claude Code, Codex, Cowork, or another host. Save the upstream commit or package version with the acceptance result. Similar skill names do not establish identical discovery, hooks, permissions, or tool access.
 
 ## Test Before Customizing
 

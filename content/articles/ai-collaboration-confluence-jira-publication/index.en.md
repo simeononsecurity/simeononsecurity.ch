@@ -1,7 +1,7 @@
 ---
 title: "AI Collaboration Across GitHub, Confluence, and Jira"
 date: 2026-10-01
-lastmod: 2026-10-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Publish a fixed retention proposal across Confluence, GitHub, and Jira with version checks and partial-publication recovery."
@@ -28,6 +28,8 @@ coverCaption: ""
 **Prerequisites:** the [workplace setup](/articles/ai-collaboration-confluence-jira-setup/), publisher access, owners, and repository maintainer. **Estimated time:** two hours. **Difficulty:** advanced coordination.
 
 **Baseline interface:** browser reads, optional approved chat drafting, and human publication. No connector subscription is assumed. Review tenant availability, scopes, provider handling, and identity mapping before adding an integration. Never share an owner's credential with a contributor.
+
+**Reader outcome:** finish with a fixed proposal, a per-system publication ledger, read-back evidence, and a recovery decision for the first incomplete step. The exercise proves procedure and evidence handling, not production retention behavior.
 
 ## Capture Live Sources
 

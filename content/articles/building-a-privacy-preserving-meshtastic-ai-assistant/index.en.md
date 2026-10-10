@@ -1,7 +1,7 @@
 ---
 title: "Building a Privacy-Preserving AI Assistant for Meshtastic"
 date: 2026-09-13
-lastmod: 2026-09-13
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard."
@@ -156,6 +156,12 @@ This separation also makes the project easier to share. The source explains the 
 The next useful step is to move every Meshtastic write into the bridge control queue. Channel edits, node configuration, and send operations should share one audited path. The dashboard should then show the queue job, result, and error message for each operation.
 
 The current build already demonstrates the core pattern. Keep one owner for the radio connection, keep deployment values outside source control, and pass external information to the model as labeled context. The longer-term ideal is a quiet, low-power node that can continue providing local knowledge and mesh assistance from a Raspberry Pi 4, including during a solar-powered deployment.
+
+## Define the off-grid acceptance test
+
+Treat solar operation as a measured operating mode. Log radio uptime, queue depth, model load time, reply length, battery voltage, and retrieval failures during the same test window. Then set a clear fallback, such as local answers only, queued replies, or an explicit unavailable response when energy or network conditions cross your limit.
+
+The privacy boundary also needs a failure test. Disable external retrieval, inspect application logs, and confirm the bridge still answers local questions without sending private configuration to a remote service. Test the dashboard from the administration network only, and keep the radio queue as the single owner of node writes.
 
 Meshtastic documentation: [Meshtastic introduction](https://meshtastic.org/docs/)
 
