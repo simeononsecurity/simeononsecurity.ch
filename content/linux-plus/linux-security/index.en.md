@@ -64,14 +64,14 @@ Three special bits change how files and directories behave.
 - The **sticky bit** on a directory lets only a file's owner delete it. `/tmp` uses this so users cannot delete each other's files.
 
 ```bash
-chmod u+s /usr/local/bin/tool    # set SUID (shows as 's' in owner execute)
+ls -l /usr/bin/passwd            # inspect a known SUID example
 chmod g+s /srv/shared            # set SGID on a shared directory
 chmod +t /srv/dropbox            # set the sticky bit
 ls -ld /tmp
 # drwxrwxrwt  ... the trailing 't' is the sticky bit
 ```
 
-*Stray SUID root binaries are a top privilege-escalation risk, so audit them often (covered below).*
+Do not add SUID to an arbitrary executable. First identify its owner and permissions, then compare the result with a trusted package or host baseline. An unexpected SUID root binary needs investigation.
 
 ## Access Control Lists (ACLs)
 
@@ -151,22 +151,23 @@ sudo systemctl restart sshd
 
 These are **mandatory access control** systems that confine processes beyond standard permissions.
 
-**SELinux** (Red Hat family) labels everything with a context and enforces policy:
+**SELinux** (Red Hat family) labels files and processes with contexts and enforces policy. The last two commands below change policy and belong only in a disposable lab after you confirm the service needs the access:
 
 ```bash
 getenforce                 # Enforcing, Permissive, or Disabled
-sudo setenforce 0          # switch to Permissive temporarily
 ls -Z /var/www/html        # show file contexts
 sudo restorecon -Rv /var/www/html   # reset contexts to policy
 sudo semanage port -a -t http_port_t -p tcp 8080
 sudo setsebool -P httpd_can_network_connect on
 ```
 
-When a service breaks under SELinux, check the audit log and build an allow rule:
+When a service fails under SELinux, leave enforcement enabled while you inspect the denial. Check the path label, process domain, expected policy, and service configuration. Restore a known-good file context when the label is wrong. A temporary permissive test belongs only in an isolated lab with a rollback plan. Do not disable enforcement as a routine fix.
 
 ```bash
-sudo ausearch -m avc -ts recent | audit2allow -M mypolicy
+sudo ausearch -m avc -ts recent   # inspect the denial and its timestamp
 ```
+
+If the service needs new policy, review the minimal proposed rule with the security owner and test it in a disposable environment before loading a module. A generated `audit2allow` rule grants access and should never be loaded without review.
 
 **AppArmor** (Debian/Ubuntu) uses path-based profiles:
 
@@ -176,7 +177,7 @@ sudo aa-enforce /etc/apparmor.d/usr.sbin.nginx
 sudo aa-complain /etc/apparmor.d/usr.sbin.nginx   # log only, do not block
 ```
 
-*Switch SELinux to Permissive (not Disabled) while troubleshooting, so it logs violations without blocking and you keep the labels intact.*
+Restore the enforcing state after any approved, temporary permissive test. Record the original state and the test result.
 
 ## Host Firewalls
 

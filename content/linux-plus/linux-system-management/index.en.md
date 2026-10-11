@@ -102,6 +102,8 @@ The shell expands wildcards before the command runs:
 
 You prepare a new disk in three steps: partition it, put a filesystem on it, then mount it.
 
+Use a disposable VM and an empty virtual disk for this exercise. First run `lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS` and record the disk size, device path, and mount state. Confirm the selected disk contains no needed data. A device name such as `/dev/sdb` is an example, not a safe default. Partitioning and `mkfs` erase data on the selected device. Stop if the disk identity is uncertain.
+
 **Partition** the disk. Use **fdisk** for MBR and **gdisk** or **parted** for GPT:
 
 ```bash
