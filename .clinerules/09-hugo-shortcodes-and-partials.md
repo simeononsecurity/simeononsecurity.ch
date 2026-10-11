@@ -168,6 +168,17 @@ line numbers (`linenos=table`) or line highlighting (`hl_lines=`).
 Single positional parameter: path relative to the project root. The file content is output
 as raw HTML. Use for embedding shared scripts or config snippets from `static/`.
 
+### Review-only interactive article embeds
+
+When an article needs an interactive prototype for review, keep the source beside the
+article in its leaf bundle and use a dedicated shortcode which reads that bundle file with
+`readFile`. Embed the source in a sandboxed `data:` iframe. Keep the article `draft: true`
+while the review remains unpublished. Do not point an article at a local `file:` URL.
+
+Hugo's minifier might rewrite a base64 data URL as percent-encoded HTML. Inspect both the
+unminified and minified output, decode the iframe payload, and confirm the expected controls,
+data, and executable script remain present.
+
 ---
 
 ### `ref` / `relref` — Resolve internal page URLs
