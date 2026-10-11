@@ -191,6 +191,10 @@ Add TLS at the gateway for any remote client path. Repeat unauthorized, authoriz
 - **Listener scope:** Both ports bind to `127.0.0.1`.
 - **Security limit:** The fixed token and plain HTTP suit loopback training only. They do not satisfy a remote deployment.
 
+## Expected Result
+
+The gateway rejects a missing token, accepts the approved fake token, rejects an oversized body, and keeps both listeners on loopback.
+
 ## Troubleshooting
 
 - **Address already in use:** Stop the conflicting local process or choose two unused high ports and update every reference.

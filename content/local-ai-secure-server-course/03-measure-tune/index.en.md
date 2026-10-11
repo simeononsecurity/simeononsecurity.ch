@@ -112,6 +112,6 @@ Your record contains three comparable warm trials, separate prompt and generatio
 
 ## Verify Completion
 
-Pass when another person could repeat your test from the record. The record must include commands, exact prompt, model identity, runtime version, host state, three runs, and the chosen configuration.
+Pass when the record gives another person enough detail to repeat your test. The record must include commands, exact prompt, model identity, runtime version, host state, three runs, and the chosen configuration.
 
 Continue with [Lesson 4: Design a Secure Local AI Server](/local-ai-secure-server-course/04-secure-server/).
