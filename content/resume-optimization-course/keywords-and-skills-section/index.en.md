@@ -1,5 +1,6 @@
 ---
 title: "Module 5: Keywords and the Skills Section"
+lastmod: 2026-10-10
 date: 2026-07-22
 toc: true
 draft: false

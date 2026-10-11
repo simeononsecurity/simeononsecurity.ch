@@ -1,5 +1,6 @@
 ---
 title: "Module 3: Writing Your Resume Summary"
+lastmod: 2026-10-10
 date: 2026-07-22
 toc: true
 draft: false
@@ -58,3 +59,5 @@ ______
 Write the summary after you choose your strongest bullets. Update it for a different role only when your relevant evidence changes. A summary is optional when the first experience or project entry already makes your fit clear.
 
 Continue to [Module 4: Bullet Points and Accomplishments](/resume-optimization-course/bullet-points-and-accomplishments/), or [return to the course hub](/resume-optimization-course-start/).
+
+For current public resume guidance, compare your summary with [CareerOneStop resume writing guidance](https://cloudfront.careeronestop.org/JobSearch/Resumes/ResumeGuide/top-portion-of-resume.aspx) and keep only claims supported by your experience.
