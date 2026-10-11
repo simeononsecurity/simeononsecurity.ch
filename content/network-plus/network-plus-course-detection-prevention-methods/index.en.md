@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Detection and Prevention Methods..."
+title: "CompTIA Network+ N10-009: Physical Detection"
 date: 2023-07-25
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Enhance network security with effective detection and prevention methods, including camera-based detection, asset tags, employee training, and access control hardware."
-genre: ["Network Security", "Cybersecurity", "IT Training", "Network Infrastructure", "Data Protection", "Physical Security", "Security Awareness", "Access Control", "Motion Detection", "Employee Training"]
-tags: ["network security", "detection methods", "prevention methods", "camera-based detection", "motion detection", "asset tags", "tamper detection mechanisms", "employee training", "access control hardware", "locking racks", "locking cabinets", "access control vestibules", "network infrastructure", "physical security", "data protection", "security awareness", "badge readers", "biometrics", "network defense", "enhancing network security", "real-time monitoring", "suspicious activities", "comprehensive security coverage", "tamper detection", "security incidents", "security awareness programs", "phishing awareness", "network access control", "physical access restrictions"]
+description: "Study physical detection for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Physical Detection", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_animated_illustration_of_a_network_shield_p.webp"
 coverAlt: "An animated illustration of a network shield protecting data flowing through a network"
 coverCaption: "Secure Your Network: Protect, Detect, and Prevent Unauthorized Access"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 The security of a computer network is of utmost importance in today's digital landscape. Organizations need to implement robust **detection and prevention methods** to safeguard their network infrastructure from potential threats and attacks. In this article, we will explore various techniques and strategies that can be employed to enhance network security and protect sensitive data.
 
@@ -77,4 +78,27 @@ Remember, network security is an ongoing process, and organizations should stay 
 2. [Federal Information Security Management Act (FISMA)](https://www.govinfo.gov/content/pkg/PLAW-107publ347/html/PLAW-107publ347.htm)
 3. [ISO/IEC 27001:2013 - Information technology — Security techniques — Information security management systems — Requirements](https://www.iso.org/standard/54534.html)
 4. [HIPAA Security Rule - U.S. Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/security/index.html)
+
+
+## Progressive Lab Checkpoint 23: Physical Detection
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `23-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering cameras, badges, biometrics, lighting, racks, assets, privacy, retention, alert ownership, tailgating, and evidence. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Create a camera blind spot or active badge for a departed worker. Detect, correct, and close the finding.
+
+### Deliverable and pass gate
+
+Submit **`23-network-plus-course-detection-prevention-methods.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-importance-of-physical-security/) | [Next checkpoint](/network-plus/network-plus-course-network-hardening-techniques/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 

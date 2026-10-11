@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Understanding the Importance of..."
+title: "CompTIA Network+ N10-009: Network Logs and Syslog"
 date: 2023-07-14
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore the significance of network device logs, log reviews, and different types of logs, and learn how to interpret interface statistics and monitor interface errors."
-genre: ["Network Management", "Network Security", "Log Analysis", "Network Monitoring", "Troubleshooting", "Network Infrastructure", "IT Certification", "Cybersecurity", "Data Analysis", "Compliance"]
-tags: ["Network logs", "Logging importance", "Log reviews", "Traffic logs", "Audit logs", "Syslog", "Logging levels", "Interface statistics", "Interface status", "Monitoring interface errors", "Network management", "Network security", "Log analysis", "Network monitoring", "Troubleshooting", "Network infrastructure", "IT certification", "Cybersecurity", "Data analysis", "Compliance", "Network performance", "Security incidents", "User activities", "Severity levels", "Network traffic", "Log interpretation", "Network downtime", "Optimal performance", "Network reliability", "User experience"]
+description: "Study network logs and syslog for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Logs and Syslog", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_image_representing_a_network_server.webp"
 coverAlt: "A symbolic image representing a network server with logs and a magnifying glass analyzing them."
 coverCaption: "Unveiling the Secrets Within: Unlocking the Power of Network Logs"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 In today's interconnected world, computer networks play a crucial role in facilitating communication and data transfer. As networks become more complex and sophisticated, monitoring and maintaining their performance and security become paramount. One essential aspect of network management is **network logs and logging**. In this article, we will explore the importance of network device logs, the significance of log reviews, types of logs, logging levels, and interpreting interface statistics and status. Let's dive in!
@@ -91,3 +92,26 @@ ______
 - [Payment Card Industry Data Security Standard (PCI DSS)](https://www.pcisecuritystandards.org/)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
 - [Syslog Protocol](https://tools.ietf.org/html/rfc5424)
+
+
+## Progressive Lab Checkpoint 18: Network Logs and Syslog
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `18-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering facility, severity, timestamps, time zones, secure transport, retention, access, normalization, correlation, SIEM, and dropped events. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Set SW1 to a wrong time zone or stop forwarding. Detect the gap, restore service, and confirm a fresh event.
+
+### Deliverable and pass gate
+
+Submit **`18-network-plus-course-understanding-importance-network-logs-logging.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-performance-monitoring-management/) | [Next checkpoint](/network-plus/network-plus-course-backup-restore-network-stability-resilience/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

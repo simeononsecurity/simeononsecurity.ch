@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Mastering Network Ports and Protocols"
+title: "CompTIA Network+ N10-009: Ports and Protocols"
 date: 2023-07-03
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore common network ports and protocols, their secure alternatives, and the importance of IP protocol types. Enhance network security and optimize communication."
-genre: ["Networking", "Network Security", "Protocols", "Ports", "IP Protocols", "Secure Communication", "Computer Networks", "IT", "Network Administration", "Technology"]
-tags: ["networking", "network security", "protocols", "ports", "IP protocols", "secure communication", "computer networks", "IT", "network administration", "technology", "FTP", "SFTP", "SSH", "Telnet", "SMTP", "DNS", "DHCP", "TFTP", "HTTP", "POP3", "NTP", "IMAP", "SNMP", "LDAP", "HTTPS", "SMB", "Syslog", "SMTP TLS", "LDAPS", "IMAP over SSL", "POP3 over SSL", "SQL Server", "SQLnet", "MySQL", "RDP", "SIP"]
+description: "Study ports and protocols for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Ports and Protocols", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_animated_illustration_showcasing_interconnted.webp"
 coverAlt: "An animated illustration showcasing interconnected devices exchanging secure data over a network."
 coverCaption: "Secure communication and efficient networking for enhanced productivity."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -94,3 +95,26 @@ ______
 ## Conclusion
 
 Ports, protocols, and network services are fundamental elements of computer networks. They enable communication, facilitate secure data transmission, and ensure the smooth operation of various network applications. By understanding common ports and protocols, their applications, and encrypted alternatives, individuals can enhance network security and make informed decisions regarding network configuration and administration. Additionally, having knowledge of IP protocol types allows for better network troubleshooting and optimization.
+
+
+## Progressive Lab Checkpoint 04: Ports and Protocols
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `04-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering service identification, packet capture, firewall rules, SFTP, FTPS, SMTP submission, DoT, DoH, DNSSEC, SNMPv3, syslog TLS, and SIP TLS. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Block DNS while leaving HTTPS open. Record failed lookup and successful direct-address access, then remove the rule.
+
+### Deliverable and pass gate
+
+Submit **`04-mastering-network-ports-protocols-guide-secure-communication-networking.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/cables-connectors-ip-addressing-guide/) | [Next checkpoint](/network-plus/network-services-connectivity-options-architecture/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

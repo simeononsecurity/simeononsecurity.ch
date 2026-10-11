@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Understanding the OSI Model,..."
+title: "CompTIA Network+ N10-009: OSI and Modern Networks"
 date: 2023-07-01
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore the importance of networking fundamentals, including the OSI model, network topologies, and various types of networks, for building efficient and reliable infrastructures."
-genre: ["Technology", "Networking", "IT Infrastructure", "Network Architecture", "Computer Science", "Data Communication", "Information Technology", "Network Security", "Network Management", "Internet"]
-tags: ["networking fundamentals", "OSI model", "network topologies", "network types", "data encapsulation", "network layers", "mesh topology", "star topology", "bus topology", "ring topology", "hybrid topology", "peer-to-peer network", "client-server network", "LAN", "MAN", "WAN", "WLAN", "PAN", "CAN", "SAN", "SDWAN", "MPLS", "mGRE", "vSwitch", "vNIC", "NFV", "hypervisor", "satellite link", "DSL", "cable internet", "leased line", "metro-optical"]
+description: "Study osi and modern networks for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "OSI and Modern Networks", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_of_interconnected_nodes.webp"
 coverAlt: "A symbolic illustration of interconnected nodes forming a network."
 coverCaption: "Unleashing the Power of Networking Fundamentals."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Networking fundamentals play a crucial role in today's interconnected world. Whether it's browsing the internet, sending emails, or streaming videos, all these activities rely on a robust network infrastructure. In this article, we will provide an overview of **networking fundamentals**, starting with the **OSI model** and **encapsulation** concepts. We will also explore different **network topologies** and their characteristics.
 
@@ -192,3 +193,26 @@ In conclusion, understanding networking fundamentals is crucial for building and
 References:
 - [OSI Model - Cisco](https://learningnetwork.cisco.com/s/article/osi-model-reference-chart)
 - [How Does the Internet Work? - Stanford University](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+
+
+## Progressive Lab Checkpoint 02: OSI and Modern Networks
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `02-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering PDUs, MAC and IP addressing, encapsulation, SD-WAN, VXLAN, zero-touch provisioning, zero trust, SASE, SSE, dual stack, tunneling, and NAT64. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Disable the SW1 uplink. Compare the outage under star, full-mesh, and partial-mesh designs, then restore it.
+
+### Deliverable and pass gate
+
+Submit **`02-networking-fundamentals-osi-model-topologies-network-types.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/introduction-to-networking-devices-roles-features-comparison/) | [Next checkpoint](/network-plus/cables-connectors-ip-addressing-guide/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

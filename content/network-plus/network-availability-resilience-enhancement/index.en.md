@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Enhancing Network Availability and..."
+title: "CompTIA Network+ N10-009: High Availability"
 date: 2023-07-18
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn about high availability, disaster recovery, load balancing, NIC teaming, and more to improve network uptime."
-genre: ["IT Certification", "Networking Technology", "Network Resilience", "IT Training", "Disaster Recovery", "High Availability", "Load Balancing", "Network Redundancy", "Infrastructure Support", "IT Resilience"]
-tags: ["Network Plus", "CompTIA Network Plus", "Network Certification", "Disaster Recovery Strategies", "Load Balancing Techniques", "NIC Teaming", "Redundant Hardware", "Network Clustering", "Facilities Support", "Infrastructure Resilience", "Fault Tolerance", "Data Backups", "Multipathing", "High Availability Concepts", "Network Infrastructure", "Redundant Power", "Network Connectivity", "VRRP", "STP", "Network Resilience Planning", "Business Continuity", "IT Infrastructure", "Network Architecture", "IT Operations", "Uptime Strategies", "Network Performance", "IT Resilience Best Practices", "Data Protection", "Disaster Preparedness", "Network Management"]
+description: "Study high availability for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "High Availability", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_animated_illustration_of_interconnected_ser.webp"
 coverAlt: "An animated illustration of interconnected servers and routers working seamlessly."
 coverCaption: "Enhancing network availability and resilience for uninterrupted operations."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 **Network Availability and Resilience**
 
@@ -55,3 +56,26 @@ ______
 ## Conclusion
 
 Network availability and resilience are paramount for businesses in today's digital landscape. High availability and disaster recovery strategies, load balancing, multipathing, NIC teaming, redundant hardware, clustering, and robust facilities and infrastructure all contribute to ensuring uninterrupted network operations. By implementing these measures, organizations can minimize downtime, mitigate risks, and maintain a reliable and resilient network infrastructure.
+
+
+## Progressive Lab Checkpoint 14: High Availability
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `14-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering failure domains, quorum, split brain, VRRP, STP recovery, health checks, providers, availability, resilience, continuity, and recovery. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Disable the active uplink or gateway. Measure loss and convergence, restore it, and clear alarms.
+
+### Deliverable and pass gate
+
+Submit **`14-network-availability-resilience-enhancement.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/) | [Next checkpoint](/network-plus/environmental-factors-sensors-network-monitoring/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

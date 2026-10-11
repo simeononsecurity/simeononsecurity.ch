@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Network Hardening Techniques"
+title: "CompTIA Network+ N10-009: Network Hardening"
 date: 2023-07-21
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn the essential techniques for network hardening, including securing SNMP, implementing Router Advertisement Guard, configuring port security, dynamic ARP inspection, control plane policing, and private VLANs."
-genre: ["IT and Networking", "Cybersecurity", "Network Administration", "Information Security", "Network Hardening", "Network Infrastructure", "Network Security", "CompTIA Network Plus", "IT Certifications", "Online Courses"]
-tags: ["network hardening", "network security", "Securing SNMP", "Router Advertisement Guard", "port security", "dynamic ARP inspection", "control plane policing", "private VLANs", "network infrastructure", "IT certifications", "network administration", "cybersecurity", "CompTIA Network+", "online courses", "IT training", "network protection", "network monitoring", "access control", "patch management", "network segmentation", "SNMPv3", "access control lists", "RA Guard configuration", "NDP inspection", "port security configuration", "DAI", "CoPP", "PVLANs", "network vulnerabilities", "network best practices"]
+description: "Study network hardening for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Hardening", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_illustration_depicting_a_shield_protecting_network.webp"
 coverAlt: "An illustration depicting a shield protecting a network infrastructure from cyber threats and unauthorized access."
 coverCaption: "Strengthen Your Network Security with Network Hardening Techniques"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -116,6 +117,29 @@ Remember, network security is an ongoing process, and it's important to regularl
 - US-CERT (United States Computer Emergency Readiness Team) - [https://www.us-cert.gov/](https://www.us-cert.gov/)
 - Microsoft Security Blog - [https://www.microsoft.com/security/blog/](https://www.microsoft.com/security/blog/)
 - Cisco Networking Academy - [https://www.netacad.com/](https://www.netacad.com/)
+
+
+## Progressive Lab Checkpoint 24: Network Hardening
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `24-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering secure management, SNMPv3, DAI, RA Guard, port security, private VLANs, control plane, ACLs, RADIUS, TACACS+, and recovery. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Apply an overbroad ACL or inspection rule. Use recovery access and restore service.
+
+### Deliverable and pass gate
+
+Submit **`24-network-plus-course-network-hardening-techniques.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-detection-prevention-methods/) | [Next checkpoint](/network-plus/network-plus-course-asset-disposal-sanitization-network-security/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 
 
 

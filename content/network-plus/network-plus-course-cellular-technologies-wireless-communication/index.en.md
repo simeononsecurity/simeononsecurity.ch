@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Cellular Technologies and Wireless..."
+title: "CompTIA Network+ N10-009: Cellular Networks"
 date: 2023-07-12
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore cellular technologies like CDMA, GSM, LTE, 3G, 4G, and 5G, along with the concepts of MIMO and MU-MIMO in wireless communication, and analyze the advancements and implications of cellular networks."
-genre: ["CompTIA Network Plus Certification Exam", "Cellular Technologies", "Wireless Communication", "CDMA", "GSM", "LTE", "3G", "4G", "5G", "MIMO", "MU-MIMO", "Advancements in Cellular Networks", "Implications of Cellular Networks"]
-tags: ["network plus", "network plus course", "network plus certification", "cellular technologies", "wireless communication", "CDMA", "GSM", "LTE", "3G", "4G", "5G", "MIMO", "MU-MIMO", "advancements", "implications", "mobile networks", "wireless networks", "internet of things", "government regulations", "network security", "data privacy", "network capacity", "network performance", "network technology", "network professionals", "telecommunications", "information technology", "networking principles"]
+description: "Study cellular networks for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Cellular Networks", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_representation_of_cellular_technoloy.webp"
 coverAlt: "A symbolic representation of cellular technologies and wireless communication with interconnected devices and network signals."
 coverCaption: "Unleashing the Power of Cellular Technologies in Wireless Communication"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Wireless communication has become an integral part of our lives, enabling us to stay connected on the go. Cellular technologies play a crucial role in establishing reliable wireless networks. In this article, we will explore the various cellular technologies, such as CDMA, GSM, LTE, 3G, 4G, and 5G. Additionally, we will discuss the concepts of MIMO and MU-MIMO in wireless communication, as well as analyze the advancements and implications of cellular networks.
 
@@ -71,3 +72,26 @@ In conclusion, cellular technologies, including CDMA, GSM, LTE, 3G, 4G, and 5G, 
 - 3GPP - [https://www.3gpp.org/](https://www.3gpp.org/)
 - 4G Americas - [https://www.4gamericas.org/](https://www.4gamericas.org/)
 - 5G Americas - [https://www.5gamericas.org/](https://www.5gamericas.org/)
+
+
+## Progressive Lab Checkpoint 11: Cellular Networks
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `11-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering LTE, 5G NSA and SA, SIM, eSIM, private cellular, handoff, frequency, coverage, latency, security, and branch failover. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Use low-signal evidence or remove the backup route. Correct placement or service choice, then restore wired primary.
+
+### Deliverable and pass gate
+
+Submit **`11-network-plus-course-cellular-technologies-wireless-communication.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-wireless-security-iot-access/) | [Next checkpoint](/network-plus/cloud-computing-infrastructure-concepts/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

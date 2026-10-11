@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Mastering Cables, Connectors, and..."
+title: "CompTIA Network+ N10-009: Cabling and Addressing"
 date: 2023-07-02
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Unlock the secrets of cables, connectors, and IP addressing with this comprehensive guide. Learn about different cable types, termination standards, and IP addressing schemes for efficient network design and management."
-genre: ["Technology", "Networking", "IT Infrastructure", "Network Administration", "Fiber Optics", "Ethernet", "IP Addressing", "Cable Types", "Connectors", "Subnet Configuration"]
-tags: ["cables", "connectors", "IP addressing", "network infrastructure", "fiber optics", "Ethernet", "subnet configuration", "cable types", "termination standards", "fiber types", "IP addressing schemes", "twisted pair", "Cat 5", "Cat 5e", "Cat 6", "Cat 6a", "Cat 7", "Cat 8", "coaxial", "RG-6", "LC connector", "ST connector", "SC connector", "MT connector", "RJ11", "RJ45", "F-type connector", "SFP", "SFP Plus", "QSFP", "QSFP Plus", "patch panel", "fiber distribution panel"]
+description: "Study cabling and addressing for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Cabling and Addressing", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_image_depicting_various_cables_and_connectors.webp"
 coverAlt: "An image depicting various cables and connectors interconnecting devices in a network environment."
 coverCaption: "Unleash the Power of Cables and Connectors!"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -147,3 +148,26 @@ ______
 
 - [TIA/EIA-568A and TIA/EIA-568B Termination Standards](https://www.csd.uoc.gr/~hy435/material/Cabling%20Standard%20-%20ANSI-TIA-EIA%20568%20B%20-%20Commercial%20Building%20Telecommunications%20Cabling%20Standard.pdf)
 - [RFC 1918 - Address Allocation for Private Internets](https://tools.ietf.org/html/rfc1918)
+
+
+## Progressive Lab Checkpoint 03: Cabling and Addressing
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `03-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering copper, fiber, DAC, AOC, connectors, transceivers, cable tests, IPv4 subnetting, IPv6 compression, prefixes, gateways, and broadcasts. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Inject an open pair or wrong transceiver. Diagnose it from link and cable-test evidence, then restore the link.
+
+### Deliverable and pass gate
+
+Submit **`03-cables-connectors-ip-addressing-guide.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/networking-fundamentals-osi-model-topologies-network-types/) | [Next checkpoint](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

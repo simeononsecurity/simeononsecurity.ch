@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Troubleshooting General Networking..."
+title: "CompTIA Network+ N10-009: Network Issues"
 date: 2023-07-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A comprehensive online course covering troubleshooting techniques and common issues related to general networking, including collisions, broadcast storms, duplicate MAC/IP addresses, asymmetrical routing, firewall settings, DNS resolution failures, and more."
-genre: ["Online Education", "IT Certification", "Network Troubleshooting", "Networking Concepts", "Security Solutions", "Network Performance", "DNS and NTP", "BYOD Challenges", "Licensed Feature Issues", "Troubleshooting Techniques"]
-tags: [ "CompTIA Network Plus", "network troubleshooting", "common networking issues", "switching loops", "routing loops", "DHCP server issues", "network performance", "firewall settings", "blocked services", "blocked ports", "blocked addresses", "DNS challenges", "NTP synchronization", "BYOD connectivity", "licensed feature challenges", "throughput", "speed", "distance", "RSSI signal strength", "EIRP power settings", "network performance considerations", "addressing security-related issues", "antennas and placement", "channel utilization", "site survey for wireless networks", "interference troubleshooting", "captive portal issues", "client disassociation troubleshooting", "device configuration review", "network performance baselines"]
+description: "Study network issues for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Issues", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_image_depicting_interconnected_network.webp"
 coverAlt: "A symbolic image depicting interconnected network nodes with a magnifying glass representing troubleshooting concepts."
 coverCaption: "Troubleshooting the complexities of networks: Unraveling challenges for seamless connectivity."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -233,3 +234,26 @@ ___
 - [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)
 - [Network Time Protocol (NTP)](https://en.wikipedia.org/wiki/Network_Time_Protocol)
 - [Bring Your Own Device (BYOD)](https://en.wikipedia.org/wiki/Bring_your_own_device)
+
+
+## Progressive Lab Checkpoint 29: Network Issues
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `29-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering switching and routing loops, rogue DHCP, exhausted scopes, VLAN, DNS, NTP, certificate, firewall, optical, wireless, route, and license faults. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Ask a peer to select three cases. Solve each under 45 minutes and restore every project copy.
+
+### Deliverable and pass gate
+
+Submit **`29-network-plus-course-troubleshooting-general-networking-issues.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-troubleshooting-cable-connectivity-issues/) | [Practical final](/network-plus-start/#practical-final)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

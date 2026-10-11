@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Environmental Factors and Sensors..."
+title: "CompTIA Network+ N10-009: Facilities Monitoring"
 date: 2023-07-15
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Discover the importance of monitoring environmental factors, such as temperature and humidity, the impact of flooding on networks, the significance of baselines in network monitoring, an overview of NetFlow data analysis, and techniques for tracking network uptime and downtime with the Network Plus Course."
-genre: ["CompTIA Network Plus Certification", "Network Monitoring", "Environmental Monitoring", "Flooding Impact", "Baselines in Network Monitoring", "NetFlow Data Analysis", "Network Uptime Tracking", "Network Downtime Tracking", "Network Performance", "Disaster Recovery"]
-tags: ["CompTIA Network Plus certification", "network monitoring", "environmental factors", "temperature monitoring", "humidity monitoring", "electrical conditions", "flooding impact", "disaster recovery plans", "baselines in network monitoring", "NetFlow data analysis", "tracking network uptime", "tracking network downtime", "ping monitoring", "SNMP monitoring", "syslog monitoring", "network performance optimization", "PRTG Network Monitor", "SolarWinds NetFlow Traffic Analyzer", "Zabbix", "Nagios", "network infrastructure", "network reliability", "hardware failure", "performance degradation", "network traffic patterns", "network connectivity", "security breaches", "network availability", "ICMP Echo requests", "network metrics"]
+description: "Study facilities monitoring for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Facilities Monitoring", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.webp"
 coverAlt: "A symbolic cartoon illustration of a network server with environmental sensors measuring temperature, humidity, and electrical conditions"
 coverCaption: "Network health is the key to success!"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -102,3 +103,26 @@ By leveraging the knowledge gained from the CompTIA Network+ certification, netw
 3. [SolarWinds NetFlow Traffic Analyzer](https://www.solarwinds.com/netflow-traffic-analyzer)
 4. [Zabbix](https://www.zabbix.com/)
 5. [Nagios](https://www.nagios.org/)
+
+
+## Progressive Lab Checkpoint 15: Facilities Monitoring
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `15-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering thresholds, units, placement, baselines, alerts, power, cooling, flood response, MDF, IDF, racks, airflow, panels, UPS, PDU, and NetFlow. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Inject rising inlet temperature or a water alarm. Record safety action, escalation, cause, and closure.
+
+### Deliverable and pass gate
+
+Submit **`15-environmental-factors-sensors-network-monitoring.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-availability-resilience-enhancement/) | [Next checkpoint](/network-plus/network-plus-course-documentation-policies-network-management/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

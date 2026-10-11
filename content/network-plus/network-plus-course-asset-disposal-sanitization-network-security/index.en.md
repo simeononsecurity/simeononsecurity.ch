@@ -1,12 +1,12 @@
 ---
-title: "Network+ Asset Disposal: Clear, Purge, Destroy, and Verify"
+title: "CompTIA Network+ N10-009: Media Sanitization"
 date: 2023-07-26
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Plan safe network device disposal with NIST SP 800-88 Rev. 2. Select a media-specific method, verify the result, and record custody and disposition."
-genre: ["CompTIA Network Plus", "Network Security", "Asset Management"]
-tags: ["Network+ N10-009", "network asset disposal", "NIST SP 800-88", "media sanitization", "clear purge destroy", "sanitization verification", "chain of custody"]
+description: "Inventory retired network media, choose Clear, Purge, or Destroy, verify results, track custody, and record final disposition."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Media Sanitization", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_3D_animated_illustration_showing_a_locked_pa.webp"
 coverAlt: "A 3D illustration of a padlock representing secure disposal of stored network data"
 coverCaption: ""
@@ -93,3 +93,31 @@ Disposition: internal reuse, external reuse, recycling, or destruction
 ## Next Steps
 
 Continue with [Network Hardening Techniques](/network-plus/network-plus-course-network-hardening-techniques/) and return to the [Network+ course](/network-plus-start/).
+
+
+## Progressive Lab Checkpoint 25: Media Sanitization
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `25-before` before changing state.
+
+**Goal and tasks:** Create a simulated router inventory record. Identify media, data sensitivity, reuse goal, and media-specific method. Choose Clear, Purge, or Destroy. Record custody, verification, validation, exceptions, final destination, and certificate serial and date. Formatting alone does not prove sanitization.
+
+### Expected evidence
+
+Save command output, packet data, counters, diagrams, or records which prove each task result. Compare observed evidence with the topology and address plan. Explain every mismatch before changing state.
+
+### Fault injection and recovery
+
+Remove the serial number or custody signature from a copy. Reject the package, repair the gap, and reconcile inventory.
+
+### Deliverable and pass gate
+
+Submit **`25-disposition-record.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** Inventory, method, verification, validation, custody, certificate, and disposition all match.
+
+[Previous checkpoint](/network-plus/network-plus-course-network-hardening-techniques/) | [Next checkpoint](/network-plus/network-plus-course-network-software-tools-commands/)
+
+### Primary references
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
+- [Topic source](https://csrc.nist.gov/pubs/sp/800/88/r2/final)

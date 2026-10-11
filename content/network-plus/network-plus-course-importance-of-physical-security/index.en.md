@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Importance of Physical Security"
+title: "CompTIA Network+ N10-009: Physical Security"
 date: 2023-07-22
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Enhance your understanding of physical security and its significance in network protection with this comprehensive Network+ course. Learn best practices for implementation, switchport security, password complexity enforcement, and more."
-genre: ["Network PLus Certification Course", "Physical Security", "Network Protection", "IT Security", "Cybersecurity", "Data Security", "Network Infrastructure", "Access Control", "Network Devices", "IT Training"]
-tags: ["physical security", "network pluis certification exam", "best practices", "switchports", "password complexity", "DHCP snooping", "default passwords", "VLAN security", "access control", "surveillance systems", "security guards", "training", "perimeter security", "alarms", "incident response", "intrusion detection systems", "network devices", "MAC addresses", "cybersecurity", "IT infrastructure", "IT security", "data breaches", "network protection", "network security", "network protocols", "network administration", "security awareness", "network vulnerabilities", "security-conscious culture", "security measures"]
+description: "Study physical security for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Physical Security", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_showing_a_lock_protect.webp"
 coverAlt: "A symbolic illustration showing a lock protecting network infrastructure."
 coverCaption: "Protect your network with robust physical security measures."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 **Physical security** is a crucial aspect of any organization's overall security strategy. While cybersecurity focuses on protecting data and information in digital environments, physical security deals with safeguarding the tangible assets and infrastructure of a business. This article delves into the significance of physical security, best practices for its implementation, and specific measures to secure network devices, such as switchports and VLANs.
 
@@ -103,3 +104,26 @@ ______
 6. [Implementing Cisco Network Security](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/iins-210-260.html)
 7. [Cisco Certified Network Associate (CCNA) Certification](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)
 8. [Microsoft Technology Associate (MTA) Certification](https://www.microsoft.com/en-us/learning/mta-certification.aspx)
+
+
+## Progressive Lab Checkpoint 22: Physical Security
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `22-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering doors, racks, consoles, ports, management access, default, native and management VLANs, DHCP snooping, quarantine, and switch ports. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Mark a user port trusted or leave an unused port active. Detect the exposure and correct it.
+
+### Deliverable and pass gate
+
+Submit **`22-network-plus-course-importance-of-physical-security.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-plans-procedures-policies/) | [Next checkpoint](/network-plus/network-plus-course-detection-prevention-methods/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

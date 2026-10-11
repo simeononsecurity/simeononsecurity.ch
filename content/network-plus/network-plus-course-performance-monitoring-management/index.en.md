@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Performance Monitoring and Management"
+title: "CompTIA Network+ N10-009: Performance Monitoring"
 date: 2023-07-13
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn the essentials of performance monitoring and management for CompTIA's Network+ Certification Exam, including device/chassis metrics, network metrics, and the use of SNMP."
-genre: ["CompTIA Network Plus Exam", "Performance Monitoring", "Performance Management", "Network Metrics", "SNMP", "Network Infrastructure", "IT Certifications", "Network Monitoring Tools", "Performance Metrics", "Network Performance"]
-tags: ["CompTIA Network Plus", "Network+ Certification Exam", "performance monitoring", "performance management", "device performance metrics", "network metrics", "bandwidth", "latency", "jitter", "SNMP", "traps", "OIDs", "MIBs", "temperature monitoring", "CPU usage", "memory utilization", "network congestion", "real-time applications", "network responsiveness", "data transmission", "network devices", "NMS", "network analysis", "network infrastructure", "resource utilization", "network reliability", "performance trends", "troubleshooting", "capacity upgrades"]
+description: "Study performance monitoring for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Performance Monitoring", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_image_depicting_a_network_infrastru.webp"
 coverAlt: "A symbolic image depicting a network infrastructure with performance metrics being monitored and managed."
 coverCaption: "Optimize your network's performance with effective monitoring and management."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Performance monitoring and management play a crucial role in maintaining and optimizing network infrastructure. By tracking and analyzing various performance metrics, organizations can identify and resolve issues proactively, ensuring smooth network operations. In this article, we will explore the fundamentals of performance monitoring and management, including key metrics, monitoring techniques, and the use of SNMP (Simple Network Management Protocol).
 
@@ -64,4 +65,27 @@ MIBs provide a hierarchical structure for organizing performance data. They defi
 Performance monitoring and management are vital for maintaining a healthy and efficient network infrastructure. By leveraging performance metrics and monitoring techniques, organizations can proactively identify and resolve issues, ensuring optimal network performance. SNMP serves as a powerful tool for collecting and organizing performance data, enabling administrators to monitor devices, receive real-time notifications, and retrieve valuable information for network analysis.
 
 By implementing effective performance monitoring and management practices, organizations can enhance their network reliability, optimize resource utilization, and deliver a seamless experience to users.
+
+
+## Progressive Lab Checkpoint 17: Performance Monitoring
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `17-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering sampling, utilization, errors, thresholds, alert fatigue, capacity, SNMPv3, OID walks, graphs, traps, latency, jitter, and loss. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Set a threshold below normal variance. Record alert noise and revise it from baseline data.
+
+### Deliverable and pass gate
+
+Submit **`17-network-plus-course-performance-monitoring-management.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-documentation-policies-network-management/) | [Next checkpoint](/network-plus/network-plus-course-understanding-importance-network-logs-logging/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 

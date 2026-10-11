@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Wireless Security and IoT Access"
+title: "CompTIA Network+ N10-009: Wireless Security"
 date: 2023-07-24
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Enhance your knowledge of wireless security and IoT access with this comprehensive Network+ course. Learn about MAC filtering, antenna placement, power level configuration, preshared keys, EAP, geofencing, and IoT device security."
-genre: ["CompTIA Network Plus Certification Exam", "Wireless Security", "IoT Access", "MAC Filtering", "Antenna Placement", "Power Levels", "Client Isolation", "Guest Network Isolation", "Preshared Keys", "EAP", "Geofencing", "Captive Portal", "IoT Security", "Wireless Networks", "Cybersecurity", "IT Certification", "Networking Fundamentals", "Information Technology", "Online Learning", "Professional Development"]
-tags: ["CompTIA Network Plus", "Network Plus Course", "Wireless Security", "IoT Access", "MAC Filtering", "Antenna Placement", "Power Levels", "Client Isolation", "Guest Network Isolation", "Preshared Keys", "EAP", "Geofencing", "Captive Portal", "IoT Security", "Wireless Networks", "Cybersecurity", "IT Certification", "Networking Fundamentals", "Online Learning", "Professional Development", "Wireless Network Security", "Wireless Technology", "Network Security Best Practices", "IoT Device Security", "FCC Guidelines", "Network Security Measures", "Wireless Network Optimization", "Wireless Network Performance", "IoT Network Segmentation", "Wireless Network Authentication"]
+description: "Study wireless security for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Wireless Security", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.webp"
 coverAlt: "A cartoon illustration of a lock securing a wireless network connection."
 coverCaption: "Unlock the Power of Secure Wireless Networks and IoT Access"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Wireless networks have become an integral part of our lives, providing convenient connectivity and enabling the Internet of Things (IoT). However, with the increasing prevalence of wireless technology, ensuring **wireless security** has become paramount. In this article, we will explore key considerations for securing wireless networks and managing IoT access.
 
@@ -68,3 +69,26 @@ Remember, securing wireless networks and IoT devices is an ongoing process that 
 
 - [NIST Special Publication 800-48 - Wireless Network Security: 802.11, Bluetooth, and Handheld Devices](https://csrc.nist.gov/publications/detail/sp/800-48/rev-1/final)
 - [CompTIA Network+ Certification Exam](https://www.comptia.org/certifications/network)
+
+
+## Progressive Lab Checkpoint 10: Wireless Security
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `10-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering WPA2, WPA3, PSK, 802.1X, EAP certificates, protected frames, guest and IoT segmentation, isolation, and key rotation. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Place IOT1 on the staff VLAN or use a weak test key. Restore segmentation and remove the test credential.
+
+### Deliverable and pass gate
+
+Submit **`10-network-plus-course-wireless-security-iot-access.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-wireless-standards-technologies/) | [Next checkpoint](/network-plus/network-plus-course-cellular-technologies-wireless-communication/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

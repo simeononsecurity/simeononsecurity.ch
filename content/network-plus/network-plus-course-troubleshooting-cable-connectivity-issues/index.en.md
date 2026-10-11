@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Troubleshooting Cable Connectivity..."
+title: "CompTIA Network+ N10-009: Cable Troubleshooting"
 date: 2023-07-28
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn essential troubleshooting techniques for cable connectivity issues in this comprehensive guide for the CompTIA Network+ Certification Exam."
-genre: ["Networking", "IT Certifications", "Cable Troubleshooting", "Network Connectivity", "CompTIA Network Plus", "IT Training", "Troubleshooting Techniques", "Networking Fundamentals", "Cable Issues", "IT Professionals"]
-tags: ["CompTIA Network PLus", "Network Plus Certification", "network troubleshooting", "cable connectivity", "cable considerations", "shielded cables", "unshielded cables", "plenum-rated cables", "riser-rated cables", "rollover cables", "console cables", "crossover cables", "Power over Ethernet", "attenuation", "interference", "incorrect pinout", "bad ports", "open/short", "LED status indicators", "incorrect transceivers", "duplexing issues", "transmit and receive reversed", "dirty optical cables", "cable crimper", "punchdown tool", "tone generator", "cable tester", "networking tools"]
+description: "Study cable troubleshooting for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Cable Troubleshooting", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_of_two_networking_cables.webp"
 coverAlt: "A cartoon illustration of two networking cables connecting devices with a troubleshooting toolkit nearby."
 coverCaption: "Troubleshooting Cable Connectivity Issues: Learn Effective Techniques for Network Problem Solving."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 In a computer network, cable connectivity is crucial for transmitting data effectively and maintaining a reliable connection. When cable issues arise, it can disrupt network performance and cause frustration for users. This article aims to provide an in-depth understanding of common cable considerations, cable applications, and troubleshooting techniques for cable connectivity issues in the context of CompTIA's Network+ Certification Exam.
 
@@ -156,3 +157,26 @@ ______
 ## Conclusion
 
 Troubleshooting cable connectivity issues is an essential skill for network technicians, and it plays a significant role in the CompTIA Network+ Certification Exam. By understanding common cable considerations, cable applications, and troubleshooting techniques, professionals can diagnose and resolve cable-related problems effectively. Equipped with the right knowledge and tools, network technicians can ensure reliable and efficient network connectivity.
+
+
+## Progressive Lab Checkpoint 28: Cable Troubleshooting
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `28-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering distance, PoE, auto-MDI-X, safety, cleaning, light levels, OTDR, cable maps, transceivers, duplex, and power budgets. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Inject one wrong medium, failed pair, duplex value, or PoE budget. Diagnose and restore it.
+
+### Deliverable and pass gate
+
+Submit **`28-network-plus-course-troubleshooting-cable-connectivity-issues.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-troubleshooting-methodology/) | [Next checkpoint](/network-plus/network-plus-course-troubleshooting-general-networking-issues/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

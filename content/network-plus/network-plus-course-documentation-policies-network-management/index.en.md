@@ -1,17 +1,18 @@
 ---
-title: "Network+ Course: Documentation and Policy Management"
+title: "CompTIA Network+ N10-009: Network Documentation"
 date: 2023-07-17
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore the significance of organizational documents and policies, common types of documentation, baseline configurations, and agreements in network management for CompTIA's Network+ Certification Exam."
-genre: ["Network management", "IT certifications", "Documentation best practices", "Network infrastructure", "Network security", "Compliance requirements", "Network troubleshooting", "Business continuity", "Service level agreements", "Confidentiality agreements"]
-tags: ["CompTIA Network Plus Certification Exam", "network documentation", "network policies", "organizational documents", "network diagrams", "wiring diagrams", "site survey reports", "audit/assessment reports", "baseline configurations", "NDA", "SLA", "MOU", "standardization", "compliance", "knowledge transfer", "troubleshooting", "disaster recovery", "network reliability", "government regulations", "HIPAA", "PCI DSS", "GDPR", "network design", "network infrastructure", "confidentiality", "service expectations", "cooperation", "network performance", "security"]
+description: "Study network documentation for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Documentation", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_image_depicting_a_network_infrastructure_wi.webp"
 coverAlt: "An image depicting a network infrastructure with interconnected devices, symbolizing the importance of documentation and policies in network management."
 coverCaption: "Secure your network's success with robust documentation and policies."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -110,3 +111,26 @@ ______
 - [HIPAA](https://www.hhs.gov/hipaa/index.html)
 - [PCI DSS](https://www.pcisecuritystandards.org/)
 - [GDPR](https://gdpr.eu/)
+
+
+## Progressive Lab Checkpoint 16: Network Documentation
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `16-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering logical and physical diagrams, racks, cables, IPAM, surveys, baselines, changes, SLAs, and audit findings. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Leave an old PC-B port in a copied cable schedule. Detect and correct the stale record.
+
+### Deliverable and pass gate
+
+Submit **`16-network-plus-course-documentation-policies-network-management.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/environmental-factors-sensors-network-monitoring/) | [Next checkpoint](/network-plus/network-plus-course-performance-monitoring-management/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

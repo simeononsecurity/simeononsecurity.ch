@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Routing Protocols, Concepts, and..."
+title: "CompTIA Network+ N10-009: Routing"
 date: 2023-07-07
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore the world of routing technologies and concepts, from dynamic routing protocols like RIP, OSPF, EIGRP, and BGP to link state, distance vector, and hybrid routing protocols, as well as the configuration of static routing and default routes."
-genre: ["Technology", "Networking", "Routing", "Network Protocols", "Network Management", "Dynamic Routing", "Static Routing", "Bandwidth Management", "Quality of Service", "Network Devices"]
-tags: ["routing technologies", "dynamic routing protocols", "RIP", "OSPF", "EIGRP", "BGP", "link state", "distance vector", "hybrid routing protocols", "static routing", "default routes", "administrative distance", "exterior routing", "interior routing", "time to live", "bandwidth management", "traffic shaping", "quality of service", "network devices", "routers", "switches", "firewalls", "load balancers", "access points", "network optimization", "network performance", "network security", "network architecture", "network traffic"]
+description: "Study routing for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Routing", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_illustration_of_interconnected_network_devi.webp"
 coverAlt: "An illustration of interconnected network devices with data flowing between them."
 coverCaption: "Navigating the Digital Highway: Optimizing Network Routing for Peak Performance"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -114,3 +115,26 @@ Understanding **routing technologies and concepts** is crucial for network admin
 By mastering **routing technologies and concepts**, network administrators can build **robust and efficient networks** that meet the demands of modern connectivity.
 
 ______
+
+
+## Progressive Lab Checkpoint 06: Routing
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `06-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering longest-prefix match, route source, metrics, static and default routes, OSPF cost, NAT, PAT, FHRP, VIPs, and subinterfaces. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Add a more specific route to a wrong next hop. Record route and trace evidence, then remove it.
+
+### Deliverable and pass gate
+
+Submit **`06-routing-technologies-concepts.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-services-connectivity-options-architecture/) | [Next checkpoint](/network-plus/ethernet-switching-vlans-port-configurations-security/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

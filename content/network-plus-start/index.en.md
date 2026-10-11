@@ -1,12 +1,12 @@
 ---
-title: "CompTIA Network+ (N10-009) Complete Study Guide"
+title: "CompTIA Network+ N10-009 Course and Labs"
 date: 2023-07-28
 toc: true
 draft: false
-description: "Study the five CompTIA Network+ N10-009 domains, from networking concepts and implementation through operations, security, and troubleshooting."
+description: "Prepare for CompTIA Network+ N10-009 through focused lessons, a progressive network lab, fault tests, saved evidence, and a practical final."
 lastmod: 2026-10-10
-genre: ["Network+ Certification Course", "Networking Fundamentals", "CompTIA Network Plus", "IT Networking", "Network+ Exam Prep", "Network+ Study Guide", "Networking Basics", "Network Topologies", "TCP IP", "Subnetting"]
-tags: ["Network+ Certification", "CompTIA Network Plus", "networking course", "Networking Fundamentals", "IT networking", "Network+ exam prep", "Network+ study guide", "networking basics", "network topologies", "TCP IP", "subnetting", "network protocols", "network devices", "routing technologies", "Ethernet switching", "wireless standards", "network security", "network troubleshooting", "network monitoring", "bandwidth management", "QoS", "network logs", "network documentation", "network availability", "backup and restore", "network hardening", "physical security", "patch management"]
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "network lab", "networking concepts", "network implementation", "network operations", "network security", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Network.webp"
 coverAlt: "A cartoon illustration of a person holding a Network+ certification badge, surrounded by networking devices and cables, representing the Network+ Mastery Course."
 coverCaption: "Empower Your Networking Career"
@@ -264,4 +264,95 @@ coverCaption: "Empower Your Networking Career"
 - Network performance considerations and baselines
 - Addressing security-related issues: Firewall settings, blocked services/ports/addresses, and more
 - Exploring DNS, NTP, BYOD, and licensed feature challenges
+
+## Progressive N10-009 Lab
+
+Use one isolated simulator project throughout the course. Packet Tracer, GNS3, EVE-NG, or an equivalent network simulator fits the work. Keep every address inside the ranges below. Do not connect the lab to a production network.
+
+**Prerequisites:** Basic command-line use, IPv4 binary math, access to a network simulator, and permission to save packet captures and configuration files.
+
+**Time:** Plan 20 to 30 hours for the 29 checkpoints and 3 hours for the practical final.
+
+### Topology
+
+```text
+Internet cloud
+     |
+    R2 -------- SRV1
+     |
+    R1
+   /  \
+ SW1==SW2 ---- AP1
+  |     |       | \
+PC-A  PC-B   LAP1 IOT1
+```
+
+- **R1** routes campus VLANs and connects to R2 through `10.255.0.0/30`.
+- **R2** represents the WAN edge and connects to SRV1 on `10.10.30.0/24`.
+- **SW1** and **SW2** use two links for later VLAN, spanning-tree, and aggregation work.
+- **AP1** serves a staff SSID and an isolated IoT SSID.
+- **PC-A**, **PC-B**, **LAP1**, and **IOT1** provide test endpoints.
+- **SRV1** provides DHCP, DNS, NTP, HTTPS, syslog, and monitoring services as lessons add them.
+
+### Address plan
+
+| Segment | IPv4 prefix | IPv6 documentation prefix | Gateway |
+|---|---|---|---|
+| **VLAN 10 Users** | `10.10.10.0/24` | `2001:db8:10::/64` | `.1` and `::1` |
+| **VLAN 20 Voice** | `10.10.20.0/24` | `2001:db8:20::/64` | `.1` and `::1` |
+| **VLAN 30 Servers** | `10.10.30.0/24` | `2001:db8:30::/64` | `.1` and `::1` |
+| **VLAN 40 IoT** | `10.10.40.0/24` | `2001:db8:40::/64` | `.1` and `::1` |
+| **VLAN 99 Management** | `10.10.99.0/24` | `2001:db8:99::/64` | `.1` and `::1` |
+| **R1 to R2** | `10.255.0.0/30` | `2001:db8:255::/64` | R1 `.1`, R2 `.2` |
+
+The `2001:db8::/32` block is reserved for documentation. The lab uses it to avoid collisions with real IPv6 assignments.
+
+### Baseline setup
+
+1. Build the topology and label every device and link.
+2. Create the five VLANs on both switches. Assign PC-A to VLAN 10, PC-B to VLAN 30, and IOT1 to VLAN 40.
+3. Configure the SW1 to SW2 link as a trunk. Permit VLANs 10, 20, 30, 40, and 99.
+4. Configure R1 to route the five VLANs. Configure the R1 to R2 transit link.
+5. Give SRV1 `10.10.30.10/24`. Give the endpoints static addresses until the services lesson adds DHCP.
+6. Test same-VLAN traffic, inter-VLAN traffic, and R1 to R2 traffic.
+7. Save a clean snapshot named `00-baseline`. Export device configurations and a topology image.
+
+**Expected baseline evidence:** Each endpoint reaches its gateway. PC-A reaches SRV1. R1 reaches R2 at `10.255.0.2`. The switch MAC table lists each attached endpoint on the expected access port.
+
+**Baseline artifact:** Save `00-topology.png`, `00-address-plan.md`, `00-connectivity.txt`, and the exported configurations. Record simulator name and version.
+
+### Checkpoint rules
+
+Every lesson produces a numbered artifact. Each artifact must include:
+
+- **Change record** with purpose, affected devices, risk, and rollback step
+- **Before evidence** from a command, capture, diagram, counter, or record
+- **Fault evidence** from the assigned controlled failure
+- **Recovery evidence** after the fault is removed
+- **Cleanup statement** naming the restored snapshot or retained approved change
+
+A checkpoint passes when the expected evidence matches, the fault is diagnosed from evidence, service returns after cleanup, and the named artifact exists.
+
+## Practical Final
+
+Start from a copy of `00-baseline`. Ask another person to inject three faults from this list without identifying them: wrong access VLAN, missing trunk VLAN, incorrect default route, wrong DNS server, exhausted DHCP pool, blocked service port, disabled switch link, duplicate IPv4 address, mismatched wireless key, or incorrect NTP source.
+
+1. Open a ticket and record scope, affected users, safety limits, and start time.
+2. Draw the expected packet path.
+3. Collect interface, VLAN, route, address, name-resolution, and service evidence.
+4. Rank at least two theories. Test the least disruptive theory first.
+5. Repair each confirmed cause through a written change record.
+6. Verify user traffic, management traffic, logs, time, and monitoring after the repair.
+7. Restore the clean snapshot and repeat the core connectivity tests.
+
+**Submit:** `final-ticket.md`, `final-topology.png`, `final-before.txt`, `final-captures.pcapng`, `final-changes.md`, `final-after.txt`, and `final-configs/`.
+
+**Pass gate:** Identify all three faults, avoid unrelated changes, preserve evidence, restore every required service, explain each packet path, and complete cleanup. A hidden fault, missing proof, or failed cleanup requires another attempt.
+
+## Current Exam Scope
+
+The official N10-009 objectives list five domains: Networking Concepts at 23%, Network Implementation at 20%, Network Operations at 19%, Network Security at 14%, and Network Troubleshooting at 24%. Check the issuing organization's document before booking an exam.
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
+- [IPv6 documentation prefix, RFC 3849](https://www.rfc-editor.org/rfc/rfc3849)
 

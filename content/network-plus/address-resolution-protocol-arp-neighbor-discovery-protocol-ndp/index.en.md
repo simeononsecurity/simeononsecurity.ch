@@ -1,18 +1,18 @@
 ---
-title: "Network+ Course: ARP and Neighbor Discovery Protocol"
+title: "CompTIA Network+ N10-009: ARP and NDP"
 date: 2023-07-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn how to effectively utilize Address Resolution Protocol (ARP) and Neighbor Discovery Protocol (NDP) to resolve IP addresses to MAC addresses, navigate IPv6 networks, and troubleshoot common issues for optimized network performance and security."
-genre: ["Technology", "Networking", "Protocols", "Network+ Certification", "Troubleshooting", "Network Security", "IPv4", "IPv6", "Network Communication", "Address Resolution"]
-tags: ["ARP", "Address Resolution Protocol", "Neighbor Discovery Protocol", "NDP", "IP address", "MAC address", "network communication", "troubleshooting", "network optimization", "network security", "IPv4", "IPv6", "network protocols", "address resolution", "network administrators", "CompTIA Network+ certification", "network devices", "ARP cache", "ARP spoofing", "NDP messages", "Router Advertisement", "Neighbor Solicitation", "Neighbor Advertisement", "Router Solicitation", "network traffic analysis", "firmware updates", "network performance", "network connectivity", "Resolving IP addresses to MAC addresses", "Explaining Neighbor Discovery Protocol", "Troubleshooting ARP and NDP issues", "Network communication protocols", "Optimizing network performance", "Enhancing network security", "IPv6 network configuration", "Clearing ARP cache", "Detecting ARP spoofing", "Analyzing network traffic"]
+description: "Capture ARP and IPv6 Neighbor Discovery, inspect neighbor states, test duplicate detection, and document DAI and RA Guard limits."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "ARP and NDP", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_depicting_the_seamless.webp"
 coverAlt: "A symbolic illustration depicting the seamless connection between ARP and NDP protocols."
 coverCaption: "Unlock the Power of ARP and NDP: Building Reliable Network Communication."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -54,7 +54,7 @@ In IPv6 networks, the Neighbor Discovery Protocol (NDP) is used to perform funct
 
 ### How ARP Works: Understanding the Functions of NDP
 
-Network Discovery Protocol (NDP) is a crucial component of IPv6 networks, performing functions similar to the Address Resolution Protocol (ARP) in IPv4 networks. In this article, we will delve into the inner workings of NDP and its key functions, providing clear explanations and examples.
+Neighbor Discovery Protocol (NDP) supports address resolution, router discovery, prefix discovery, and neighbor reachability for IPv6. Its ICMPv6 messages perform several roles beyond IPv4 ARP.
 
 #### Address Resolution
 
@@ -172,3 +172,31 @@ For more detailed information and examples, you can refer to the [Address Resolu
 - [Arpwatch](https://github.com/Arpwatch/arpwatch)
 - [Wireshark](https://www.wireshark.org/)
 - [CompTIA Network+ Certification Exam](https://www.comptia.org/certifications/network)
+
+
+## Progressive Lab Checkpoint 08: ARP and NDP
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `08-before` before changing state.
+
+**Goal and tasks:** Clear caches. Capture ARP request and reply, Router Solicitation, Router Advertisement, Neighbor Solicitation, Neighbor Advertisement, and Duplicate Address Detection. Record cache states. Document DHCP snooping prerequisites for DAI and port-role plus implementation limits for RA Guard.
+
+### Expected evidence
+
+Save command output, packet data, counters, diagrams, or records which prove each task result. Compare observed evidence with the topology and address plan. Explain every mismatch before changing state.
+
+### Fault injection and recovery
+
+Assign a duplicate IPv6 address. Save DAD evidence, remove the duplicate, and clear stale entries.
+
+### Deliverable and pass gate
+
+Submit **`08-arp-ndp-capture.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact separates address resolution, neighbor reachability, router discovery, and route selection.
+
+[Previous checkpoint](/network-plus/ethernet-switching-vlans-port-configurations-security/) | [Next checkpoint](/network-plus/network-plus-course-wireless-standards-technologies/)
+
+### Primary references
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
+- [Topic source](https://www.rfc-editor.org/rfc/rfc4861)

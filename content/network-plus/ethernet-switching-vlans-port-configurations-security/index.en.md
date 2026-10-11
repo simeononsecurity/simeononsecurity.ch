@@ -1,17 +1,18 @@
 ---
-title: "Network+ Course: Ethernet Switching and VLANs"
+title: "CompTIA Network+ N10-009: Switching and VLANs"
 date: 2023-07-09
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn about VLANs, port configurations, security, and other essential features and configurations of Ethernet switches in this comprehensive guide for the CompTIA Network+ Certification Exam."
-genre: ["Networking", "CompTIA Network Plus", "Ethernet Switching", "Network Infrastructure", "IT Certifications", "Network Administration", "Data Transmission", "Network Security", "Switch Configuration", "Voice VLANs"]
-tags: ["Ethernet switches", "VLANs", "Voice VLANs", "port configurations", "tagging", "aggregation", "port security", "mirroring", "jumbo frames", "network administrators", "network infrastructure", "CompTIA Network Plus Certification Exam", "network performance", "network management", "security breaches", "voice traffic", "QoS parameters", "access ports", "trunk ports", "hybrid ports", "EtherChannel", "VLAN tagging", "link aggregation", "port security", "port mirroring", "jumbo frames", "network segmentation", "network troubleshooting", "performance analysis", "network integrity"]
+description: "Study switching and vlans for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Switching and VLANs", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_image_depicting_Ethernet_switches_and_netwo.webp"
 coverAlt: "An image depicting Ethernet switches and network connections with various VLANs and ports configurations."
 coverCaption: "Building Secure and Efficient Networks with Ethernet Switching"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Ethernet switching is a fundamental aspect of networking that involves the use of Ethernet switches to connect devices within a local area network (LAN). In this article, we will explore various **Ethernet switching features and configurations** that are important for network administrators and professionals preparing for CompTIA's Network+ Certification Exam.
 
@@ -95,4 +96,27 @@ Ethernet switching features and configurations play a crucial role in building r
 
 1. [CompTIA Network+ Certification](https://www.comptia.org/certifications/network)
 2. [IEEE 802.1Q VLAN Tagging](https://standards.ieee.org/standard/802_1Q-2018.html)
+
+
+## Progressive Lab Checkpoint 07: Switching and VLANs
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `07-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering access, trunk, native and voice VLANs, SVI, LACP, STP, port security, SPAN, MTU, and jumbo frames. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Remove VLAN 30 from one trunk side or mismatch native VLANs. Repair both ends and retest PC-B.
+
+### Deliverable and pass gate
+
+Submit **`07-ethernet-switching-vlans-port-configurations-security.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/routing-technologies-concepts/) | [Next checkpoint](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 

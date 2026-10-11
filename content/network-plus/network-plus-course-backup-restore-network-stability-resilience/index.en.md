@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Backup and Restore for Network..."
+title: "CompTIA Network+ N10-009: Backup and Restore"
 date: 2023-07-20
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn the importance of network device backup and restore, strategies for backing up and restoring device state and configuration, recovery sites, redundancy and high availability mechanisms, and essential metrics in network operations."
-genre: ["IT Certification", "Networking", "Network Infrastructure", "Backup and Restore", "Disaster Recovery", "High Availability", "Data Protection", "IT Resilience", "Network Management", "IT Operations"]
-tags: ["network plus course", "network plus certification exam", "backup and restore", "device backup", "configuration backup", "recovery sites", "redundancy", "high availability", "MTTR", "MTBF", "RTO", "RPO", "data recovery", "configuration rollback", "disaster recovery", "compliance and regulation", "peace of mind", "device state backup", "configuration backup", "TFTP", "FTP", "SCP", "RANCID", "Ansible", "Puppet", "cold sites", "warm sites", "hot sites", "cloud-based recovery", "redundant hardware", "failover systems", "load balancing"]
+description: "Study backup and restore for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Backup and Restore", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_of_network_devices_pro.webp"
 coverAlt: "A symbolic illustration of network devices protected by a shield, symbolizing backup and restore processes ensuring network stability and resilience."
 coverCaption: "Protecting network devices and data for uninterrupted operations."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 In the world of IT and networking, **backup and restore** are critical components of a robust infrastructure. These processes ensure that network devices, configurations, and data can be safeguarded and quickly recovered in case of unexpected failures or disasters. In this article, we will explore the **importance of network device backup and restore**, various strategies for **backing up and restoring device state and configuration**, different recovery sites, and how to implement redundancy and high availability (HA) mechanisms. Additionally, we'll delve into the concepts of **MTTR**, **MTBF**, **RTO**, and **RPO** in the context of network operations.
 
@@ -141,3 +142,26 @@ ______
 13. [F5 Networks' BIG-IP](https://www.f5.com/products/big-ip-services)
 14. [NGINX](https://www.nginx.com/)
 15. [Apache HTTP Server](https://httpd.apache.org/)
+
+
+## Progressive Lab Checkpoint 19: Backup and Restore
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `19-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering exports, secrets, versions, checksums, encrypted transfer, restore tests, RTO, RPO, sites, and recovery proof. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Present a wrong version label or missing dependency. Stop before overwrite and restore the baseline.
+
+### Deliverable and pass gate
+
+Submit **`19-network-plus-course-backup-restore-network-stability-resilience.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-understanding-importance-network-logs-logging/) | [Next checkpoint](/network-plus/network-plus-course-firmware-and-patch-management/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

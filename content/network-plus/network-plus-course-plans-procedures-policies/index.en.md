@@ -1,17 +1,18 @@
 ---
-title: "Network+ Course: Plans, Procedures, and Policies"
+title: "CompTIA Network+ N10-009: Plans and Procedures"
 date: 2023-07-16
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore the importance of plans, procedures, and policies in network operations, including change management, incident response, and business continuity."
-genre: ["Network Operations", "IT Management", "Network Security", "Change Management", "Incident Response", "Disaster Recovery", "Business Continuity", "System Life Cycle", "Standard Operating Procedures", "Network Management"]
-tags: ["network operations", "change management", "incident response plan", "disaster recovery plan", "business continuity plan", "system life cycle", "standard operating procedures", "network management", "network stability", "network infrastructure", "network performance", "network security", "network professionals", "ITIL best practices", "NIST SP 800-53", "ISO IEC 27001", "network planning", "network monitoring", "network configuration", "network troubleshooting", "network optimization", "network reliability", "network architects", "SOPs", "network administrators", "downtime prevention", "data backup and restoration", "IT infrastructure recovery", "business continuity strategies", "network maintenance best practices"]
+description: "Study plans and procedures for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Plans and Procedures", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_art_style_image_illustrating_networ.webp"
 coverAlt: "A symbolic art style image illustrating network stability and security."
 coverCaption: "Building a Strong Network Foundation for Success and Resilience"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -80,3 +81,26 @@ ______
 7.  [Network Monitoring Best Practices - SolarWinds](https://www.solarwinds.com/network-monitoring-best-practices)
 
 ______
+
+
+## Progressive Lab Checkpoint 21: Plans and Procedures
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `21-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering change, incident, continuity, disaster recovery, SOP, authority, impact, window, rollback, communication, evidence, injects, and review. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Inject failed validation or missing approval. Put the change on hold, escalate, restore service, and close records.
+
+### Deliverable and pass gate
+
+Submit **`21-network-plus-course-plans-procedures-policies.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-firmware-and-patch-management/) | [Next checkpoint](/network-plus/network-plus-course-importance-of-physical-security/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

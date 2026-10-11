@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Networking Device Roles, Features,..."
+title: "CompTIA Network+ N10-009: Network Devices"
 date: 2023-07-06
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Discover the roles and features of networking devices such as switches, routers, and access points. Compare their functionalities to optimize your network infrastructure."
-genre: ["Networking", "Technology", "IT", "Computer Networks", "Network Infrastructure", "Network Devices", "Information Technology", "Network Management", "Network Security", "Wireless Networks"]
-tags: ["networking devices", "switches", "routers", "access points", "network infrastructure", "Layer 2 switch", "Layer 3 switch", "hubs", "bridges", "wireless LAN controller", "load balancer", "proxy server", "cable modem", "DSL modem", "repeater", "voice gateway", "media converter", "intrusion prevention system", "firewall", "VPN headend", networking device roles", "comparison of networking devices", "network management", "network security", "wireless networks", "network infrastructure features", "Layer 2 vs Layer 3 switches", "advantages of access points", "network device functions", "network device types"]
+description: "Study network devices for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Devices", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_colorful_illustration_depicting_various_network.webp"
 coverAlt: "A colorful illustration depicting various networking devices and their connections"
 coverCaption: "Unleash the Power of Networking Devices!"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Networking devices play a crucial role in the functioning of modern computer networks. They enable the efficient transfer of data, facilitate communication between devices, and provide the foundation for various network services. In this article, we will explore the different types of networking devices and their respective roles in a network environment.
 
@@ -70,4 +71,27 @@ Networking devices are constantly evolving, and it is important to stay updated 
 2. [Juniper Networks Documentation](https://www.juniper.net/documentation/)
 3. [Federal Communications Commission (FCC)](https://www.fcc.gov/)
 4. [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
+
+
+## Progressive Lab Checkpoint 01: Network Devices
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `01-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering device placement, packet paths, OSI roles, failure domains, throughput, ports, PoE, redundancy, and security. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Remove R1 from the topology. Mark every lost path, restore R1, and verify traffic.
+
+### Deliverable and pass gate
+
+Submit **`01-introduction-to-networking-devices-roles-features-comparison.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Course lab setup](/network-plus-start/) | [Next checkpoint](/network-plus/networking-fundamentals-osi-model-topologies-network-types/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 

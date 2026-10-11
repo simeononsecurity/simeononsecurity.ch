@@ -1,17 +1,18 @@
 ---
-title: "Network+ Course: Patch and Firmware Management"
+title: "CompTIA Network+ N10-009: Firmware and Patching"
 date: 2023-07-23
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Master the art of Patch and Firmware Management with this comprehensive Network Plus course, ensuring enhanced network security and protection against cyber threats."
-genre: ["Technology & Cybersecurity", "IT Certification", "Network Security", "Software Updates", "Firmware Management", "Access Control Lists", "Firewall Rules", "Wireless Security", "Best Practices", "Government Regulations"]
-tags: ["Importance of Patch and Firmware Management", "Configuring Access Control Lists", "Implicit vs. Explicit Deny", "Wireless Security Considerations", "Government Regulations for Network Security", "Automated Patch Management", "Vulnerability Scanning", "Network Performance Improvement", "Compliance Requirements", "Network Infrastructure Security", "CompTIA Network Plus", "Patch Management", "Firmware Updates", "Network Security", "Vulnerability Mitigation", "Best Practices", "Access Control Lists", "Role-Based Access", "Firewall Rules", "Wireless Security"]
+description: "Study firmware and patching for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Firmware and Patching", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_art_depicting_a_secure_network_shie.webp"
 coverAlt: "A symbolic art depicting a secure network shielded with patches and firmware updates, safeguarding against cyber threats and vulnerabilities."
 coverCaption: "Secure Your Network: Patches and Firmware as Shields"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -70,4 +71,27 @@ ______
 1. [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 2. [Payment Card Industry Data Security Standard (PCI DSS)](https://www.pcisecuritystandards.org/)
 3. [WPA3 Wi-Fi Security](https://www.wi-fi.org/discover-wi-fi/security)
+
+
+## Progressive Lab Checkpoint 20: Firmware and Patching
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `20-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering advisories, asset versions, signatures, hashes, compatibility, dependencies, lab tests, windows, backups, rollback, staging, and health. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Insert a mismatched model or dependency. Detect it during preflight, stop the change, and reject the package.
+
+### Deliverable and pass gate
+
+Submit **`20-network-plus-course-firmware-and-patch-management.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-backup-restore-network-stability-resilience/) | [Next checkpoint](/network-plus/network-plus-course-plans-procedures-policies/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 

@@ -1,18 +1,18 @@
 ---
-title: "Network Plus Course: Exploring Wireless Standards and..."
+title: "CompTIA Network+ N10-009: Wireless Standards"
 date: 2023-07-11
 toc: true
 draft: false
-description: "Compare 802.11 standards, 2.4 GHz, 5 GHz, and 6 GHz operation, channel planning, and current WPA2 and WPA3 authentication for Network+."
+description: "Compare wireless standards, bands, channels, PHY rates, RSSI, noise, SNR, antennas, roaming, BSSID, ESSID, and access point models."
 lastmod: 2026-10-10
-genre: ["Technology", "Networking", "Wireless Networking", "Certification Exam", "CompTIA Network+", "IT Training", "IT Certification", "Wireless Standards", "Wireless Technologies", "Information Technology"]
-tags: ["CompTIA Network Plus", "Network+ Certification Exam", "Wireless Standards", "Wireless Technologies", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequencies", "Range", "Channel Bonding", "Antenna Types", "Encryption Standards", "SSID Configurations", "Wireless Networking", "Wireless Network Exam", "Wireless Network Training", "Wireless Network Certification", "Wireless Network Technology", "Wireless Network Security", "Wireless Network Performance", "Wireless Network Protocols", "Wireless Network Configuration", "Wireless Network Troubleshooting", "Wireless Network Best Practices"]
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Wireless Standards", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
 coverAlt: "A cartoon illustration showcasing different wireless network devices and signals."
 coverCaption: "Unleash the Power of Wireless Networks"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Wireless networks play a crucial role in our interconnected world, allowing seamless communication and internet access. As part of the **CompTIA Network+ Certification Exam**, it's essential to understand various wireless standards and technologies. In this article, we will explore the **802.11 standards**, frequencies, range, channel bonding, antenna types, encryption standards, and SSID configurations commonly used in wireless networks.
 
@@ -106,3 +106,31 @@ Remember to stay up to date with the latest advancements and government regulati
 
 - [Federal Communications Commission (FCC)](https://www.fcc.gov/)
 - [WiFi Alliance](https://www.wi-fi.org/)
+
+
+## Progressive Lab Checkpoint 09: Wireless Standards
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `09-before` before changing state.
+
+**Goal and tasks:** Place AP1 and a proposed second AP on a floor plan. Record SSID, BSSID, band, channel, width, security, antenna, and client type. Analyze six RSSI, noise, and SNR samples. Explain 802.11h, band steering, roaming, and autonomous versus lightweight APs. Separate PHY rate from measured throughput.
+
+### Expected evidence
+
+Save command output, packet data, counters, diagrams, or records which prove each task result. Compare observed evidence with the topology and address plan. Explain every mismatch before changing state.
+
+### Fault injection and recovery
+
+Put both APs on the same wide channel. Record contention risk, revise the plan, and save the corrected layout.
+
+### Deliverable and pass gate
+
+Submit **`09-wireless-channel-plan.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The plan ties channel width, overlap, signal, noise, antenna, roaming, and security to measured evidence.
+
+[Previous checkpoint](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/) | [Next checkpoint](/network-plus/network-plus-course-wireless-security-iot-access/)
+
+### Primary references
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
+- [Topic source](https://standards.ieee.org/ieee/802.11/10548/)

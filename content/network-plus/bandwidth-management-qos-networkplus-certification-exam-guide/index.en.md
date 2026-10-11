@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Bandwidth Management and QoS"
+title: "CompTIA Network+ N10-009: QoS and Bandwidth"
 date: 2023-07-08
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn about bandwidth management, quality of service (QoS), and techniques for prioritizing network traffic in this comprehensive guide for CompTIA's Network+ Certification Exam."
-genre: ["Technology", "Networking", "IT Certifications", "Network Management", "Bandwidth Management", "QoS", "Traffic Shaping", "Ethernet Switching", "Network Performance", "Network Optimization"]
-tags: ["Bandwidth Management", "QoS", "Quality of Service", "Network+", "Certification Exam", "Traffic Shaping", "Prioritizing Traffic", "VLAN", "Port Configurations", "Port Tagging", "802.1Q", "Port Aggregation", "LACP", "Duplex", "Speed", "Flow Control", "Port Mirroring", "Port Security", "Jumbo Frames", "MDI-X", "Implementing QoS Techniques", "Ethernet Switching Features", "Network Performance Optimization", "Traffic Prioritization Methods", "PoE", "PoE+", "Spanning Tree Protocol", "CSMA CD", "ARP", "Neighbor Discovery Protocol"]
+description: "Study qos and bandwidth for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "QoS and Bandwidth", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_illustration_showing_a_network_with_differe.webp"
 coverAlt: "An illustration showing a network with different devices connected, highlighting the prioritization of traffic and bandwidth management."
 coverCaption: "Optimize your network's potential with effective bandwidth management and QoS techniques."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -107,3 +108,26 @@ Remember, successful network management requires continuous monitoring, analysis
 
 1. [Address Resolution Protocol (ARP) - RFC 826](https://datatracker.ietf.org/doc/html/rfc826)
 2. [Neighbor Discovery Protocol (NDP) - RFC 4861](https://datatracker.ietf.org/doc/html/rfc4861)
+
+
+## Progressive Lab Checkpoint 13: QoS and Bandwidth
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `13-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering DSCP, CoS, trust boundaries, queues, scheduling, congestion avoidance, shaping, policing, markings, and measured results. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Trust false endpoint markings or map priority traffic to the wrong queue. Restore the approved policy.
+
+### Deliverable and pass gate
+
+Submit **`13-bandwidth-management-qos-networkplus-certification-exam-guide.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/cloud-computing-infrastructure-concepts/) | [Next checkpoint](/network-plus/network-availability-resilience-enhancement/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

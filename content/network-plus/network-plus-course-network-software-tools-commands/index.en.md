@@ -1,18 +1,18 @@
 ---
-title: "Network Plus Course: Mastering Network Software Tools..."
+title: "CompTIA Network+ N10-009: Network Tools"
 date: 2023-07-29
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Explore essential network software tools and command line utilities, learn their usage, and troubleshoot like a pro with this comprehensive Network+ Certification Exam course."
-genre: ["Networking", "Network Tools", "Command Line Utilities", "Network Troubleshooting", "CompTIA Network+ Certification", "Network Management", "Network Configuration", "WiFi Analysis", "Packet Capture", "Bandwidth Testing"]
-tags: ["Network Plus Certification", "Network Software Tools", "Command Line Tools", "WiFi Analyzer", "Protocol Analyzer", "Bandwidth Speed Tester", "Port Scanner", "iperf", "NetFlow Analyzer", "TFTP Server", "Terminal Emulator", "IP Scanner", "ping", "ipconfig", "nslookup", "traceroute", "arp", "netstat", "hostname", "route", "telnet", "tcpdump", "nmap", "show interface", "show config", "show route", "Device Configuration", "Routing Tables", "Documentation and Training"]
+description: "Use scoped address, route, DNS, socket, scan, and packet tools, save expected output, and diagnose one controlled lab fault."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Tools", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp"
 coverAlt: "An engaging cartoon-style illustration showing a network professional confidently using various tools and commands to troubleshoot a network."
 coverCaption: "Empower Your Network Troubleshooting Skills!"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 In the field of networking, having the right **network software tools** and **command line tools** can make a significant difference in troubleshooting and managing networks effectively. Whether you are preparing for the CompTIA Network+ Certification Exam or simply looking to enhance your networking skills, understanding these tools and commands is essential. In this article, we will explore the key network software tools and command line tools that every network professional should be familiar with.
 
@@ -136,3 +136,31 @@ Network software tools and command line utilities play a vital role in network t
 - [Microsoft nslookup Command Reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup)
 - [Microsoft netstat Command Reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
 - [Nmap Reference Guide](https://nmap.org/book/man.html)
+
+
+## Progressive Lab Checkpoint 26: Network Tools
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `26-before` before changing state.
+
+**Goal and tasks:** Create a UTC evidence folder. Record interface addresses, neighbor cache, routes, DNS, sockets, and path tests. Scan SRV1 only. Capture one approved flow. Record command, platform, expected result, observed result, and interpretation. Treat version detection as observed service evidence, not proof of vulnerability. Use Telnet only for a permitted connectivity test.
+
+### Expected evidence
+
+Save command output, packet data, counters, diagrams, or records which prove each task result. Compare observed evidence with the topology and address plan. Explain every mismatch before changing state.
+
+### Fault injection and recovery
+
+Change PC-A's default gateway. Separate local link, route, DNS, and service evidence. Restore the gateway and stop captures.
+
+### Deliverable and pass gate
+
+Submit **`26-tool-transcript.txt`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The transcript reaches a supported diagnosis with scoped commands, named evidence, and restored service.
+
+[Previous checkpoint](/network-plus/network-plus-course-asset-disposal-sanitization-network-security/) | [Next checkpoint](/network-plus/network-troubleshooting-methodology/)
+
+### Primary references
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
+- [Topic source](https://nmap.org/book/man.html)

@@ -1,17 +1,18 @@
 ---
-title: "Network+ Course: Network Services and Architecture"
+title: "CompTIA Network+ N10-009: Network Services"
 date: 2023-07-04
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Discover the functionalities of DHCP, DNS, and NTP services, understand corporate and datacenter network architecture, and explore cloud concepts and connectivity options for seamless communication and data management."
-genre: ["Technology", "Networking", "Connectivity", "Data Exchange", "Network Architecture", "Cloud Computing", "Network Services", "DNS", "DHCP", "NTP"]
-tags: ["network services", "connectivity options", "architecture", "DHCP", "DNS", "NTP", "corporate network", "datacenter network", "cloud concepts", "connectivity", "three-tiered architecture", "software-defined networking", "spine and leaf architecture", "traffic flows", "branch office", "on-premises datacenter", "colocation", "storage area networks", "Fibre Channel over Ethernet", "iSCSI", "exploring DHCP", "understanding DNS", "network time synchronization", "corporate network architecture", "cloud connectivity options", "three-tiered network architecture", "benefits of software-defined networking", "spine and leaf network architecture", "branch office cloud connectivity", "types of storage area networks"]
+description: "Study network services for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Network Services", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"
 coverAlt: "A cartoon illustration showcasing various network components and cloud connectivity options"
 coverCaption: "Unlock the Power of Network Services and Cloud Connectivity"
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 ## Introduction
 
@@ -165,3 +166,26 @@ Network services, connectivity options, and architectural frameworks form the fo
 - DNS: [https://www.ietf.org/rfc/rfc1035.txt](https://www.ietf.org/rfc/rfc1035.txt)
 - NTP: [https://www.ietf.org/rfc/rfc958.txt](https://www.ietf.org/rfc/rfc958.txt)
 - Cloud Concepts: [https://aws.amazon.com/what-is-cloud-computing/](https://aws.amazon.com/what-is-cloud-computing/)
+
+
+## Progressive Lab Checkpoint 05: Network Services
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `05-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering DHCP DORA and relay, DNS recursion, secured transfers, split DNS, DNSSEC, DoH, DoT, NTP, PTP, NTS, VPN management, jump hosts, and architectures. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Point DHCP relay to a wrong address. Prove the missing offer, repair it, and renew the client lease.
+
+### Deliverable and pass gate
+
+Submit **`05-network-services-connectivity-options-architecture.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/) | [Next checkpoint](/network-plus/routing-technologies-concepts/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

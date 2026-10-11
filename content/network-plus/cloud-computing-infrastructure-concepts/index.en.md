@@ -1,17 +1,18 @@
 ---
-title: "Network Plus Course: Cloud Computing and Infrastructure..."
+title: "CompTIA Network+ N10-009: Cloud Networking"
 date: 2023-07-05
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Discover the different deployment and service models, infrastructure as code, and security implications in cloud computing. Gain insights into public, private, hybrid, and community clouds, SaaS, IaaS, PaaS, and DaaS, and harness the potential of automation, scalability, and network security measures."
-genre: ["Cloud Computing", "Infrastructure Concepts", "Deployment Models", "Service Models", "Infrastructure as Code", "Security Implications", "Elasticity", "Scalability", "Network Security", "Connectivity Options"]
-tags: ["cloud computing", "infrastructure concepts", "deployment models", "service models", "SaaS", "IaaS", "PaaS", "DaaS", "infrastructure as code", "automation", "orchestration", "connectivity options", "VPN", "private-direct connection", "multitenancy", "elasticity", "scalability", "security implications", "network security measures", "public cloud", "private cloud", "hybrid cloud", "community cloud", "software as a service", "infrastructure as a service", "platform as a service", "desktop as a service", "cloud security", "cloud networking"]
+description: "Study cloud networking for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
+tags: ["CompTIA Network+", "N10-009", "Cloud Networking", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_of_a_cloud_with_interc.webp"
 coverAlt: "A symbolic illustration of a cloud with interconnected devices and infrastructure"
 coverCaption: "Unlock the power of cloud computing and infrastructure concepts."
 ---
 
-#### [Click Here to Return To the Network Plus Course Page](/network-plus-start)
+[Click Here to Return To the Network Plus Course Page](/network-plus-start)
 
 Cloud computing has revolutionized the way businesses operate, offering flexible and scalable solutions for various IT needs. To fully leverage the benefits of cloud computing, it is essential to understand the different deployment models, service models, and infrastructure concepts associated with it. In this article, we will explore the key concepts and their significance in the cloud computing landscape.
 
@@ -134,3 +135,26 @@ ______
 - [AWS Direct Connect](https://aws.amazon.com/directconnect/)
 - [Microsoft Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)
 - [Multitenancy in Cloud Computing](https://www.redhat.com/en/topics/cloud-computing/what-is-multitenancy)
+
+
+## Progressive Lab Checkpoint 12: Cloud Networking
+
+This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `12-before` before changing state.
+
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering VPC addressing, route tables, security groups, network lists, endpoints, gateways, direct links, shared responsibility, elasticity, and scalability. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+
+### Fault injection and recovery
+
+Remove a private route or block the required service. Diagnose from route and rule evidence, then restore it.
+
+### Deliverable and pass gate
+
+Submit **`12-cloud-computing-infrastructure-concepts.md`** with purpose, affected nodes, risk, rollback, before evidence, fault evidence, recovery evidence, and cleanup statement.
+
+**Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
+
+[Previous checkpoint](/network-plus/network-plus-course-cellular-technologies-wireless-communication/) | [Next checkpoint](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/)
+
+### Primary reference
+
+- [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
