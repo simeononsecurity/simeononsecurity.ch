@@ -1,4 +1,0 @@
-interface:
-  display_name: "Write Site Articles"
-  short_description: "Draft sourced articles with site conventions"
-  default_prompt: "Use $sos-write-article for the requested work in this repository."
