@@ -107,7 +107,7 @@ coverCaption: "Empower Your Networking Career"
 - Explaining port configurations, tagging, and aggregation
 - Implementation of port security, mirroring, and jumbo frames
 
-### [Address Resolution Protocol (ARP/) and Neighbor Discovery Protocol](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
+### [Address Resolution Protocol (ARP) and Neighbor Discovery Protocol](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
 
 - Understanding ARP and its role in resolving IP addresses to MAC addresses
 - Explaining Neighbor Discovery Protocol (NDP/) in IPv6 networks
@@ -267,9 +267,9 @@ coverCaption: "Empower Your Networking Career"
 
 ## Progressive N10-009 Lab
 
-Use one isolated simulator project throughout the course. Packet Tracer, GNS3, EVE-NG, or an equivalent network simulator fits the work. Keep every address inside the ranges below. Do not connect the lab to a production network.
+Use **Cisco Packet Tracer**, the latest stable non-beta release offered through Cisco Networking Academy. The baseline uses only built-in Packet Tracer devices. No IOS image download is needed. Keep the project isolated from production networks.
 
-**Prerequisites:** Basic command-line use, IPv4 binary math, access to a network simulator, and permission to save packet captures and configuration files.
+**Prerequisites:** A computer supported by the current Packet Tracer release, a free Cisco Networking Academy account, and permission to install software and save project files.
 
 **Time:** Plan 20 to 30 hours for the 29 checkpoints and 3 hours for the practical final.
 
@@ -278,21 +278,22 @@ Use one isolated simulator project throughout the course. Packet Tracer, GNS3, E
 ```text
 Internet cloud
      |
-    R2 -------- SRV1
+    R2
      |
     R1
-   /  \
- SW1==SW2 ---- AP1
-  |     |       | \
-PC-A  PC-B   LAP1 IOT1
+     |
+    SW1 ===== SW2 ---- SRV1
+     |         | \
+   PC-A      PC-B AP1 )) LAP1
+                  AP2 )) IOT1
 ```
 
 - **R1** routes campus VLANs and connects to R2 through `10.255.0.0/30`.
-- **R2** represents the WAN edge and connects to SRV1 on `10.10.30.0/24`.
+- **R2** represents the WAN edge. Its loopback `198.51.100.1/32` represents an external test target.
 - **SW1** and **SW2** use two links for later VLAN, spanning-tree, and aggregation work.
-- **AP1** serves a staff SSID and an isolated IoT SSID.
+- **AP1** serves the staff SSID on VLAN 10. **AP2** serves the IoT SSID on VLAN 40.
 - **PC-A**, **PC-B**, **LAP1**, and **IOT1** provide test endpoints.
-- **SRV1** provides DHCP, DNS, NTP, HTTPS, syslog, and monitoring services as lessons add them.
+- **SRV1** attaches to SW2 in VLAN 30 at `10.10.30.10/24`. It provides supported Packet Tracer services as lessons add them.
 
 ### Address plan
 
@@ -307,15 +308,248 @@ PC-A  PC-B   LAP1 IOT1
 
 The `2001:db8::/32` block is reserved for documentation. The lab uses it to avoid collisions with real IPv6 assignments.
 
+### Obtain Packet Tracer legally
+
+1. Create or use a Cisco Networking Academy account.
+2. Enroll in Cisco's free [Getting Started with Cisco Packet Tracer](https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000) course.
+3. Download the latest stable non-beta installer from the course. Use no mirror, shared installer, or third-party IOS image.
+4. Install the package for your operating system, accept Cisco's license, and sign in.
+5. Open **Help > About**. Record the version in `00-environment.md`.
+
+### Device inventory
+
+Add these built-in devices:
+
+| Lab name | Packet Tracer device | Quantity |
+|---|---|---:|
+| **R1, R2** | 2911 router | 2 |
+| **SW1, SW2** | 2960 switch | 2 |
+| **SRV1** | Server-PT | 1 |
+| **PC-A, PC-B** | PC-PT | 2 |
+| **LAP1** | Laptop-PT | 1 |
+| **AP1, AP2** | AccessPoint-PT | 2 |
+| **IOT1** | Any wireless IoT end device | 1 |
+
+### Exact port map
+
+| Device port | Connected port | Role |
+|---|---|---|
+| **R1 G0/0** | R2 G0/0 | Routed transit |
+| **R1 G0/1** | SW1 G0/1 | 802.1Q campus trunk |
+| **SW1 G0/2** | SW2 G0/1 | 802.1Q switch trunk |
+| **SW1 F0/1** | PC-A F0 | VLAN 10 access |
+| **SW2 F0/1** | SRV1 F0 | VLAN 30 access |
+| **SW2 F0/2** | PC-B F0 | VLAN 10 access |
+| **SW2 F0/3** | AP1 Port 0 | VLAN 10 staff access |
+| **SW2 F0/4** | AP2 Port 0 | VLAN 40 IoT access |
+| **LAP1 Wireless0** | AP1 radio | Staff wireless |
+| **IOT1 wireless** | AP2 radio | IoT wireless |
+
+Use copper straight-through links for all wired connections. Packet Tracer handles Ethernet medium-dependent crossover on these device models.
+
+### Baseline router configuration
+
+Enter this configuration on R1:
+
+```text
+enable
+configure terminal
+hostname R1
+no ip domain-lookup
+ipv6 unicast-routing
+interface g0/0
+ description Transit_to_R2
+ ip address 10.255.0.1 255.255.255.252
+ ipv6 address 2001:db8:255::1/64
+ no shutdown
+interface g0/1
+ no shutdown
+interface g0/1.10
+ encapsulation dot1Q 10
+ ip address 10.10.10.1 255.255.255.0
+ ipv6 address 2001:db8:10::1/64
+interface g0/1.20
+ encapsulation dot1Q 20
+ ip address 10.10.20.1 255.255.255.0
+ ipv6 address 2001:db8:20::1/64
+interface g0/1.30
+ encapsulation dot1Q 30
+ ip address 10.10.30.1 255.255.255.0
+ ipv6 address 2001:db8:30::1/64
+interface g0/1.40
+ encapsulation dot1Q 40
+ ip address 10.10.40.1 255.255.255.0
+ ipv6 address 2001:db8:40::1/64
+interface g0/1.99
+ encapsulation dot1Q 99
+ ip address 10.10.99.1 255.255.255.0
+ ipv6 address 2001:db8:99::1/64
+ip route 0.0.0.0 0.0.0.0 10.255.0.2
+end
+copy running-config startup-config
+```
+
+Enter this configuration on R2:
+
+```text
+enable
+configure terminal
+hostname R2
+no ip domain-lookup
+interface g0/0
+ description Transit_to_R1
+ ip address 10.255.0.2 255.255.255.252
+ no shutdown
+interface loopback0
+ ip address 198.51.100.1 255.255.255.255
+ip route 10.10.0.0 255.255.0.0 10.255.0.1
+end
+copy running-config startup-config
+```
+
+### Baseline switch configuration
+
+Enter this shared block on both switches:
+
+```text
+enable
+configure terminal
+vlan 10
+ name USERS
+vlan 20
+ name VOICE
+vlan 30
+ name SERVERS
+vlan 40
+ name IOT
+vlan 99
+ name MANAGEMENT
+end
+```
+
+On SW1, enter:
+
+```text
+configure terminal
+hostname SW1
+interface g0/1
+ description Trunk_to_R1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,99
+interface g0/2
+ description Trunk_to_SW2
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,99
+interface f0/1
+ description PC-A
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+interface vlan 99
+ ip address 10.10.99.11 255.255.255.0
+ no shutdown
+ip default-gateway 10.10.99.1
+end
+copy running-config startup-config
+```
+
+On SW2, enter:
+
+```text
+configure terminal
+hostname SW2
+interface g0/1
+ description Trunk_to_SW1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,99
+interface f0/1
+ description SRV1
+ switchport mode access
+ switchport access vlan 30
+ spanning-tree portfast
+interface f0/2
+ description PC-B
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+interface f0/3
+ description AP1_STAFF
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+interface f0/4
+ description AP2_IOT
+ switchport mode access
+ switchport access vlan 40
+ spanning-tree portfast
+interface vlan 99
+ ip address 10.10.99.12 255.255.255.0
+ no shutdown
+ip default-gateway 10.10.99.1
+end
+copy running-config startup-config
+```
+
+### Endpoint setup
+
+Use **Desktop > IP Configuration** on each endpoint:
+
+| Endpoint | IPv4 address | Mask | Gateway | DNS |
+|---|---|---|---|---|
+| **PC-A** | `10.10.10.10` | `255.255.255.0` | `10.10.10.1` | `10.10.30.10` |
+| **PC-B** | `10.10.10.20` | `255.255.255.0` | `10.10.10.1` | `10.10.30.10` |
+| **SRV1** | `10.10.30.10` | `255.255.255.0` | `10.10.30.1` | `10.10.30.10` |
+
+Open each access point's **Config** tab. Give AP1 the SSID `LAB-STAFF` and AP2 the SSID `LAB-IOT`. Select WPA2-PSK when available. Create a lab-only key and keep it out of submitted screenshots. Join LAP1 to AP1 and IOT1 to AP2. Assign LAP1 `10.10.10.30/24` and IOT1 `10.10.40.30/24` with their VLAN gateways.
+
+### Baseline verification
+
+Run:
+
+```text
+R1# show ip interface brief
+R1# show ip route
+SW1# show vlan brief
+SW1# show interfaces trunk
+SW2# show mac address-table dynamic
+PC-A> ping 10.10.10.1
+PC-A> ping 10.10.30.10
+PC-A> tracert 198.51.100.1
+```
+
+Expected facts:
+
+- R1 G0/0 and G0/1 show `up/up`.
+- R1 lists connected routes for all five VLANs and `10.255.0.0/30`.
+- SW1 and SW2 list VLANs 10, 20, 30, 40, and 99.
+- The trunks allow all five VLANs.
+- PC-A reaches its gateway, SRV1, and R2 loopback.
+- The trace to `198.51.100.1` crosses `10.10.10.1` and `10.255.0.2`.
+
+Save the file as `network-plus-n10-009-baseline.pkt`. Then save a second copy for each checkpoint. Do not edit the baseline file.
+
+### Packet Tracer limits and supplied-evidence route
+
+Packet Tracer does not reproduce every N10-009 technology. Use live Packet Tracer work only where the chosen device supports the command or service. Use the filled sample evidence in the matching lesson for the rest.
+
+| Topic | Course route |
+|---|---|
+| **Cable maps, optical levels, OTDR, PoE budgets** | Analyze the supplied physical-layer evidence. Do not claim a simulated measurement. |
+| **Temperature, humidity, water, power, and NetFlow** | Analyze the supplied CSV-style samples and thresholds. |
+| **LTE, 5G, real RF surveys** | Analyze supplied radio and survey data. |
+| **Cloud IAM, billing, direct connectivity** | Use the local paper design and supplied route-policy fixture. No cloud account or charge is required. |
+| **SNMPv3, NTS, PTP, syslog TLS, advanced RADIUS** | Use supplied command transcripts and event samples when Packet Tracer omits the feature. |
+| **VRRP, load balancers, clusters, power, recovery sites** | Use the supplied failure-domain record. Run only link and route failover in Packet Tracer. |
+| **Physical access, cameras, badges, disposal, firmware failure** | Use fictional records. Do not treat project deletion as physical control or media sanitization. |
+
 ### Baseline setup
 
-1. Build the topology and label every device and link.
-2. Create the five VLANs on both switches. Assign PC-A to VLAN 10, PC-B to VLAN 30, and IOT1 to VLAN 40.
-3. Configure the SW1 to SW2 link as a trunk. Permit VLANs 10, 20, 30, 40, and 99.
-4. Configure R1 to route the five VLANs. Configure the R1 to R2 transit link.
-5. Give SRV1 `10.10.30.10/24`. Give the endpoints static addresses until the services lesson adds DHCP.
-6. Test same-VLAN traffic, inter-VLAN traffic, and R1 to R2 traffic.
-7. Save a clean snapshot named `00-baseline`. Export device configurations and a topology image.
+1. Build the exact device inventory and port map.
+2. Apply the router and switch configurations.
+3. Apply the endpoint and wireless settings.
+4. Run every baseline verification command.
+5. Fix any mismatch before starting checkpoint 1.
+6. Save the read-only baseline and export the device configurations.
 
 **Expected baseline evidence:** Each endpoint reaches its gateway. PC-A reaches SRV1. R1 reaches R2 at `10.255.0.2`. The switch MAC table lists each attached endpoint on the expected access port.
 
@@ -335,7 +569,13 @@ A checkpoint passes when the expected evidence matches, the fault is diagnosed f
 
 ## Practical Final
 
-Start from a copy of `00-baseline`. Ask another person to inject three faults from this list without identifying them: wrong access VLAN, missing trunk VLAN, incorrect default route, wrong DNS server, exhausted DHCP pool, blocked service port, disabled switch link, duplicate IPv4 address, mismatched wireless key, or incorrect NTP source.
+Start from a copy of `network-plus-n10-009-baseline.pkt`. Use these three fixed faults so a learner needs no partner:
+
+1. On SW2, remove VLAN 30 from the G0/1 trunk allowed list.
+2. On PC-A, replace the default gateway with `10.10.10.254`.
+3. On R2, replace the return route next hop with `10.255.0.3`.
+
+Apply one fault at a time without reading the repair steps below. Save each faulty copy. Diagnose and repair it through the course method.
 
 1. Open a ticket and record scope, affected users, safety limits, and start time.
 2. Draw the expected packet path.
@@ -347,7 +587,11 @@ Start from a copy of `00-baseline`. Ask another person to inject three faults fr
 
 **Submit:** `final-ticket.md`, `final-topology.png`, `final-before.txt`, `final-captures.pcapng`, `final-changes.md`, `final-after.txt`, and `final-configs/`.
 
-**Pass gate:** Identify all three faults, avoid unrelated changes, preserve evidence, restore every required service, explain each packet path, and complete cleanup. A hidden fault, missing proof, or failed cleanup requires another attempt.
+**Expected diagnoses:** Fault 1 isolates SRV1 while VLAN 10 traffic still crosses the trunk. Fault 2 stops PC-A beyond its local subnet. Fault 3 permits traffic to leave R1 but breaks the return path from R2.
+
+**Repair check:** Restore the VLAN 30 allowed list, PC-A gateway `10.10.10.1`, and R2 route next hop `10.255.0.1`. Repeat the baseline commands and compare the output with `00-connectivity.txt`.
+
+**Pass gate:** Identify all three faults, avoid unrelated changes, preserve before and after evidence, restore every required service, explain each packet path, and return to the exact baseline state.
 
 ## Current Exam Scope
 
