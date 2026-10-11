@@ -1,0 +1,114 @@
+---
+title: "Capstone: Review a Secure Agent and MCP Design"
+date: 2026-10-10
+lastmod: 2026-10-10
+toc: true
+draft: false
+description: "Produce and evaluate a review-ready security package for an AI agent with MCP tools."
+genre: ["Artificial Intelligence", "Cybersecurity", "Capstone"]
+tags: ["AI agent security capstone", "MCP design review", "agent threat model", "security evidence"]
+cover: "/img/cover/secure-agent-mcp-capstone.webp"
+coverAlt: "Review board with an agent authority map, MCP contract, test trace, and approval record"
+coverCaption: "Capstone cover placeholder. Image generation follows editorial review."
+---
+
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+
+**Your capstone is a security decision package for Patch Clerk.** Another reviewer should reach the same deployment decision from your artifacts and evidence.
+
+## Scenario Change
+
+Patch Clerk now reads synthetic issues, reads repository files, proposes a patch, and applies a reviewed patch in a test repository. A product owner requests a new `post_comment` tool. The tool would publish text to a fictional issue system.
+
+Your job is to decide whether `post_comment` enters the first release. Treat publication as an external side effect.
+
+## Required Package
+
+Create **`capstone/`** with these files:
+
+```text
+capstone/
+  system-map.md
+  authority-matrix.md
+  mcp-security-contract.md
+  event-schema.json
+  detection-plan.md
+  attack-test.md
+  deployment-decision.md
+```
+
+Each file has one purpose:
+
+- **`system-map.md`** names components, trust boundaries, data origins, and owners.
+- **`authority-matrix.md`** lists operations, identities, approval, and evidence.
+- **`mcp-security-contract.md`** defines inputs, outputs, limits, errors, and side effects.
+- **`event-schema.json`** records decisions without storing unnecessary raw content.
+- **`detection-plan.md`** maps signals to stop and recovery actions.
+- **`attack-test.md`** records the hostile fixture, expected result, observed result, and retest.
+- **`deployment-decision.md`** states approve, approve with conditions, or reject.
+
+## Build the Review
+
+1. Copy your lesson artifacts into **`capstone/`**.
+2. Add `post_comment` to the authority matrix as proposed.
+3. Define a 2,000-character limit and one approved issue target.
+4. Require a preview and single-use approval bound to the comment digest.
+5. Give the tool a dedicated identity restricted to comment creation on the approved test project.
+6. Add rate limits and a stop rule for repeated publication requests.
+7. Run the lab abuse case against the proposed tool policy.
+8. Record your decision and residual risks.
+
+Do not connect a live issue service. Treat the capstone as a design and local policy test.
+
+## Decision Rubric
+
+| Area | 0 points | 1 point | 2 points |
+|---|---|---|---|
+| **Authority** | Broad shared identity | Narrow identity with gaps | Dedicated least-privilege identity |
+| **Input** | Free-form unchecked payload | Length or target check | Typed input, target allowlist, and length limit |
+| **Approval** | None | Approval before final payload | Preview and digest-bound single-use approval |
+| **Evidence** | Model transcript only | Host event | Host, server, and downstream correlation |
+| **Attack test** | No hostile fixture | Expected result only | Observed local denial plus positive test |
+| **Recovery** | Restart only | Revoke or restore | Stop, revoke, preserve, restore, repair, retest |
+
+A score below **10 out of 12** fails the release review. Any zero in authority, approval, or attack test also fails.
+
+## Reference Answer
+
+The reference decision is **approve with conditions for a test environment**.
+
+Required conditions:
+
+1. `post_comment` uses a dedicated test-project identity.
+2. The host shows issue identifier and final comment text.
+3. Approval binds to a digest and expires after one use.
+4. The server rejects any other project, issue, or payload over 2,000 characters.
+5. The event stream records preview, approval, call, and downstream result under one run ID.
+6. A hostile issue instruction fails before the downstream request.
+7. A valid approved comment succeeds in the synthetic positive test.
+
+Production release stays out of scope until a real authorization test, downstream audit review, and incident exercise produce evidence.
+
+## Expected Result
+
+Your package scores at least 10. It contains no real secrets or external connections. The decision states who owns remaining risk and which evidence is still missing for production.
+
+## Troubleshooting
+
+- **The package repeats chat transcripts:** Replace narrative with maps, contracts, events, diffs, and test results.
+- **The comment identity reaches every project:** Restrict the downstream account before relying on server input checks.
+- **Approval lacks a payload digest:** Bind approval to the final issue target and comment text.
+- **The attack test blocks valid comments:** Add a positive test and repair the narrow policy path.
+- **Residual risk has no owner:** Assign a named role with a review date and acceptance decision.
+
+## Verify Completion
+
+```bash
+find capstone -maxdepth 1 -type f -print | sort
+python3 -m json.tool capstone/event-schema.json
+grep -Ein "decision|owner|residual|approval|digest" capstone/deployment-decision.md
+```
+
+Pass when all seven files exist, JSON parses, the rubric score reaches ten, no core area scores zero, and the decision separates observed local evidence from future production tests.
+
+Return to the [course hub](/secure-ai-agents-mcp-course/) or review the [MCP 2026-07-28 release notes](https://blog.modelcontextprotocol.io/posts/2026-07-28/) before adapting the package to a real implementation.
