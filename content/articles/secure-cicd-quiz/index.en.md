@@ -14,7 +14,7 @@ coverCaption: ""
 
 [Return to the Secure CI/CD Course](/secure-cicd-course-start/)
 
-**Answer all ten questions before opening the key.** Write one sentence explaining each choice. Eight correct answers and a corrected explanation for every miss prepare you for the capstone. This is a skills check, not certification prep.
+**Answer all ten questions before opening the separate [answer key](/articles/secure-cicd-quiz-answer-key/).** Write one sentence explaining each choice. Eight correct answers and a corrected explanation for every miss prepare you for the capstone. This is a skills check, not certification prep.
 
 ## Questions
 
@@ -29,21 +29,8 @@ coverCaption: ""
 9. **SLSA:** Does an attestation alone prove a build meets a SLSA level? A. Yes. B. Only for private repositories. C. Only if the SBOM exists. D. No, review all level requirements.
 10. **Lab:** The tampered file produces a digest mismatch. What should the gate do? A. Publish with a note. B. Recompute the trusted digest from the tampered file. C. Reject and retain evidence. D. Ignore the exit code.
 
-## Answer Key
-
-1. **B.** A direct change may pull new transitive code into the build.
-2. **C.** An empty interface does not prove the dependency set is safe.
-3. **B.** Record the scan target and scanner version. An SBOM is an inventory, not a safety certificate.
-4. **A.** Read access supports checkout without granting publication authority.
-5. **B.** Untrusted code in a privileged job may use its token or secrets.
-6. **C.** Missing evidence needs a separate decision.
-7. **C.** The attacker may replace both artifact and checksum.
-8. **B.** Signature validity does not override the expected source policy.
-9. **D.** SLSA levels include build platform and provenance requirements.
-10. **C.** A failed integrity gate should block release and preserve the observed digest.
-
 ## Review and Continue
 
-**For every missed question**, link the relevant lesson section in your packet and rewrite the rule in your own words. Reanswer without looking at the key. Use the [SLSA build track](https://slsa.dev/spec/v1.2/tracks) and [GitHub's secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) for questions 5 and 9.
+**After answering, open the [answer key](/articles/secure-cicd-quiz-answer-key/).** For every missed question, link the relevant lesson section in your packet and rewrite the rule in your own words. Reanswer without looking at the key. Use the [SLSA build track](https://slsa.dev/spec/v1.2/tracks) and [GitHub's secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) for questions 5 and 9.
 
 **Next:** [Complete the release gate capstone](/articles/secure-cicd-capstone/).

@@ -24,7 +24,7 @@ coverCaption: ""
 
 ## Read the Claim
 
-**Start with a release policy**, not an attestation file. Write the expected repository, protected ref or tag, workflow path, artifact name, and digest algorithm. Then compare the statement with your policy. The [SLSA build provenance specification](https://slsa.dev/spec/v1.2/build-provenance) defines the fields and their meaning.
+**Start with `release-policy.json`** in the extracted [lab archive](/downloads/secure-cicd-lab.zip). It names the fictional `example/workshop-calculator` repository, `refs/tags/v1.0.0`, `.github/workflows/release.yml`, an illustrative builder, and SHA-256. Open `sample-provenance.json` and compare its subject, source, ref, workflow, and builder fields with that policy. The sample is unsigned. It teaches field matching, not cryptographic verification. The [SLSA build provenance specification](https://slsa.dev/spec/v1.2/build-provenance) defines the format.
 
 | Field | Reader question |
 |---|---|
@@ -35,30 +35,46 @@ coverCaption: ""
 
 **Expected result:** Your policy is precise enough to reject a valid attestation from the wrong repository. A valid signature with the wrong source is a policy failure.
 
-## Create a Hosted Attestation
+**Run the local field check** from the extracted folder:
 
-**Use a disposable GitHub repository** with a protected release workflow. Read GitHub's current [artifact attestation guide](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) for feature availability and syntax. The release job needs `contents: read`, `id-token: write`, and `attestations: write`. Build the file first. Then pass its path to `actions/attest`:
-
-```yaml
-permissions:
-  contents: read
-  id-token: write
-  attestations: write
-steps:
-  - uses: actions/checkout@v6
-    with:
-      persist-credentials: false
-  - run: cp release-good.txt release.txt
-  - uses: actions/attest@v4
-    with:
-      subject-path: release.txt
+```bash
+python3 inspect_packet.py
+python3 inspect_packet.py sample-provenance-wrong-source.json
 ```
 
-**Expected result:** The release job reports an attestation for `release.txt`. The snippet belongs inside a release job. It is not a complete workflow. Add a protected trigger, project tests, and a reviewed action pin before using the pattern for a real release. If the attestation step reports a permission error, inspect the job permissions and repository feature availability. Do not add broad write access as a shortcut.
+**Expected result:** The first command prints five `MATCH` fields and says `Signature not verified`. The second prints `source: MISMATCH`, `HOLD`, and exits with code 1. On Windows use `py -3`. If a JSON file is missing, extract the archive again. Record the mismatched field and the decision in your packet.
+
+## Create a Hosted Attestation
+
+**For the optional hosted path, use a disposable GitHub repository.** Copy `release-good.txt` to the repository root and save this full workflow as `.github/workflows/release.yml`. Trigger it manually from Actions after checking repository settings. Read GitHub's current [artifact attestation guide](https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations) for feature availability and syntax:
+
+```yaml
+name: Release exercise
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - run: cp release-good.txt release.txt
+      - uses: actions/attest@v4
+        with:
+          subject-path: release.txt
+```
+
+**Expected result:** The Actions run reports an attestation for `release.txt`. This is a training workflow. It does not publish the file or meet a SLSA level. Protect a real release trigger, add project tests, and pin reviewed action commits before production use. If the attestation step reports a permission error, inspect the job permissions and repository feature availability. Do not add broad write access as a shortcut.
 
 ## Verify as a Consumer
 
-**Download the release file independently**, then run the official GitHub CLI verification against the expected repository:
+**For the hosted path, download `release.txt` from the job or build output independently**, then run the official GitHub CLI verification against the repository you used:
 
 ```bash
 gh attestation verify release.txt -R OWNER/REPOSITORY
@@ -70,6 +86,6 @@ gh attestation verify release.txt -R OWNER/REPOSITORY
 
 ## Verify Your Work
 
-**Pass this lesson** when your packet includes a release policy with source and workflow identity, a digest, a verification result or “not run,” and a decision for the wrong-source case. Keep expected examples separate from observed hosted results.
+**Pass this lesson** when your packet includes the supplied policy values, the sample digest, the local five-field comparison, the wrong-source rejection, and a hosted verification result or “not run.” Keep expected examples separate from observed hosted results.
 
 **Next:** [Run the tampered release lab](/articles/secure-cicd-tampered-release-lab/).

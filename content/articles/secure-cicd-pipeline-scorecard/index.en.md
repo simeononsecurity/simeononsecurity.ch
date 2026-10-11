@@ -24,14 +24,14 @@ coverCaption: ""
 
 ## Map Job Authority
 
-**Start with a two-row table.** Write the event, job, inputs, token permissions, secrets, and output for each job. Use GitHub's [token permissions documentation](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token) for permission names. Plan 40 minutes.
+**Start with the [lab archive](/downloads/secure-cicd-lab.zip).** Extract it and open `release-policy.json`. A **job** is one group of workflow steps. `GITHUB_TOKEN` is the temporary token GitHub provides to a workflow. **Job permissions** limit its API access. A **source ref** names a branch or tag. **Secrets** are credentials supplied to a job. Write the event, job, inputs, permissions, secrets, and output for each row below. Use GitHub's [token permissions documentation](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token) for permission names. Plan 40 minutes.
 
 | Job | Expected permission | Output |
 |---|---|---|
 | **Pull request test** | `contents: read` | Test result, no release |
 | **Protected release** | `contents: read`, then specific publication and attestation writes | Published digest and provenance |
 
-**Make read access explicit** in the test workflow:
+**For the hosted path, save this as `.github/workflows/test.yml`** in a disposable repository. It runs on a pull request and grants read access only:
 
 ```yaml
 name: Test
@@ -48,7 +48,7 @@ jobs:
       - run: python3 -m compileall -q .
 ```
 
-**Expected result:** The test job checks out code and reports syntax status without publishing. The example command checks Python syntax only. Replace it with project tests before relying on the job. If checkout fails, inspect repository access and the token scope. If the project is not Python, use its own test command.
+**Expected result:** After opening a pull request, the Actions tab shows `Test` and a syntax result. The command checks Python syntax only. Replace it with project tests before relying on the job. If checkout fails, inspect repository access and the token scope. If the project is not Python, use its own test command. For the local path, review the YAML on paper and mark the run “not run.”
 
 ## Separate the Release
 
@@ -58,12 +58,14 @@ jobs:
 
 ## Use Scorecard as a Review Queue
 
-**Run OpenSSF Scorecard** against a public repository you own or a known public training repository. Follow the [official CLI or action setup](https://www.scorecard.dev/) and record the tool version, repository, time, check names, scores, and reasons. Scorecard's automated checks cover source, build, dependencies, and maintenance. A score is evidence to investigate, not proof of a secure release.
+**For the local path, open `sample-scorecard.json`.** It is an illustrative finding, not output from Scorecard. Its Pinned-Dependencies score is 3 because the fictional workflow uses mutable tags. Record the check name, score, reason, and a correction. Inspect the `uses: actions/checkout@v6` line above and explain why a reviewed full commit ID would give a stronger pin.
 
-**Choose one actionable finding.** For example, a low Pinned-Dependencies score may lead you to pin a workflow action after reviewing its upstream commit. A low Branch-Protection score may lead you to require review on the release branch. Record the original finding, the exact control change, and a second Scorecard result after the change. If a check reports `?`, record unavailable evidence instead of treating it as zero risk. Read the [check definitions](https://github.com/ossf/scorecard/blob/main/docs/checks.md) before interpreting a result.
+**For the optional live path, run OpenSSF Scorecard** against a public repository you own. Install the CLI from its [official repository](https://github.com/ossf/scorecard), then run `scorecard --repo=github.com/OWNER/REPOSITORY` with your real owner and repository. Record the version, time, checks, scores, and reasons. If the command is unavailable, use the local fixture and mark the live run “not run.” Scorecard's automated checks cover source, build, dependencies, and maintenance. A score is evidence to investigate, not proof of a secure release.
+
+**Choose one actionable finding.** For the fixture, write `Pinned-Dependencies | 3 | mutable tags | review and pin action commit | rerun Scorecard after change`. A low Branch-Protection score in a live result may lead you to require review on the release branch. Record the original finding, the exact control change, and a second result when you run the tool. If a check reports `?`, record unavailable evidence instead of treating it as zero risk. Read the [check definitions](https://github.com/ossf/scorecard/blob/main/docs/checks.md) before interpreting a result.
 
 ## Verify Your Work
 
-**Pass this lesson** when your packet contains the two-job permissions table, one untrusted-input boundary, and one Scorecard finding with a reason and proposed correction. If you lack repository access, mark the hosted checks “not run” and evaluate the sample workflow on paper. Do not claim Scorecard observed a control you did not run.
+**Pass this lesson** when your packet contains the two-job permissions table, one untrusted-input boundary, and the fixture finding with a reason and correction. Mark hosted checks “not run” on the local path. Do not claim Scorecard observed a control you did not run.
 
 **Next:** [Verify provenance and attestations](/articles/secure-cicd-provenance-attestations/).
