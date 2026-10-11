@@ -1,0 +1,8 @@
+{
+  "fixture": "illustrative, not an OpenSSF Scorecard run",
+  "repository": "github.com/example/workshop-calculator",
+  "check": "Pinned-Dependencies",
+  "score": 3,
+  "reason": "The example test workflow uses mutable action tags",
+  "review_action": "Check the upstream action commit, then pin the reviewed revision"
+}

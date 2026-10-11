@@ -1,0 +1,9 @@
+{
+  "fixture": "illustrative release policy",
+  "artifact": "release-good.txt",
+  "source_repository": "https://github.com/example/workshop-calculator",
+  "source_ref": "refs/tags/v1.0.0",
+  "builder_id": "https://build.example.invalid/runner",
+  "workflow": ".github/workflows/release.yml",
+  "digest_algorithm": "sha256"
+}

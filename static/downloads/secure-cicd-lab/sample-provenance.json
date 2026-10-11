@@ -1,0 +1,14 @@
+{
+  "fixture": "illustrative, unsigned statement. Do not treat as an attestation",
+  "_type": "https://in-toto.io/Statement/v1",
+  "subject": [{"name": "release-good.txt", "digest": {"sha256": "82637d3ccf11d6255d187b6cc8bf2023c5b7a6aa44a636feba792bcc580310f2"}}],
+  "predicateType": "https://slsa.dev/provenance/v1",
+  "predicate": {
+    "buildDefinition": {
+      "buildType": "https://build.example.invalid/workflow/v1",
+      "externalParameters": {"workflow": ".github/workflows/release.yml", "ref": "refs/tags/v1.0.0"},
+      "resolvedDependencies": [{"uri": "https://github.com/example/workshop-calculator", "digest": {"gitCommit": "1111111111111111111111111111111111111111"}}]
+    },
+    "runDetails": {"builder": {"id": "https://build.example.invalid/runner"}}
+  }
+}
