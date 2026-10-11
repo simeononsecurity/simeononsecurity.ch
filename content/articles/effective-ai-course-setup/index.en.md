@@ -8,7 +8,7 @@ description: "Prepare a safe AI practice workspace, learn the terminal and Git t
 genre: ["Artificial Intelligence", "Software Engineering", "Education"]
 tags: ["AI course setup", "terminal basics", "Git basics", "coding agent prerequisites", "AI practice lab", "beginner AI course"]
 cover: "/img/cover/effective-ai-course-setup.webp"
-coverAlt: "A beginner workspace showing a browser, terminal, practice folder, and simple passing test result"
+coverAlt: "A beginner practice workspace with terminal, Python and Git symbols, a checked lab folder, and a reset archive"
 coverCaption: ""
 ---
 
