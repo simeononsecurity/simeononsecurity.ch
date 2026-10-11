@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llama.cpp on simeononsecurity</title><image><url>https://zh.simeononsecurity.com/img/banner.webp</url><title>Llama.cpp on simeononsecurity</title><link>https://zh.simeononsecurity.com/tags/llama.cpp/</link></image><link>https://zh.simeononsecurity.com/tags/llama.cpp/</link><description>Recent content in Llama.cpp on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>zh</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zh.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml"/><item><title>本地 AI 隐私边界：哪些内容留在你的电脑上，哪些不会</title><link>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"本地 AI"
+, "隐私"
+, "自托管 AI"
+, "网络安全"
+, "AI 经济学"</category><guid>https://zh.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+在选择本地推理或托管 AI 服务前，追踪提示词、模型文件、工具、日志、网络暴露面和电力成本。</description><enclosure url="https://zh.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item></channel></rss>
