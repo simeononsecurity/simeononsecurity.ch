@@ -3,28 +3,30 @@ title: "CompTIA CySA+ Course"
 date: 2025-01-01
 toc: true
 draft: false
-description: "A comprehensive CompTIA CySA+ (CS0-003) study course covering security operations, vulnerability management, incident response, and reporting for cybersecurity analysts."
+description: "A CompTIA CySA+ CS0-004 topic guide for security operations, vulnerability management, incident response, and reporting. Use the official objectives to check exam coverage."
 genre: ["CompTIA CySA+ Course", "Cybersecurity Analyst", "Security Operations", "Vulnerability Management", "Incident Response", "CompTIA Certification", "SIEM", "Threat Intelligence", "Threat Hunting", "Security Analysis"]
-tags: ["CompTIA CySA+", "CS0-003", "cybersecurity analyst", "security operations", "vulnerability management", "incident response", "threat intelligence", "threat hunting", "SIEM", "log analysis", "digital forensics", "reporting", "compliance", "CompTIA certification"]
+tags: ["CompTIA CySA+", "CS0-004", "cybersecurity analyst", "security operations", "vulnerability management", "incident response", "threat intelligence", "threat hunting", "SIEM", "log analysis", "digital forensics", "reporting", "compliance", "CompTIA certification"]
 cover: "/img/cover/comptia-cysa-plus-security-operations-center-illustration.webp"
 coverAlt: "An illustration of a modern Security Operations Center with cybersecurity analysts working at a central workstation surrounded by multiple screens showing data analytics and threat intelligence."
 coverCaption: "Master CompTIA CySA+ and Excel as a Cybersecurity Analyst"
 ---
 
-The **CompTIA CySA+** (CS0-003) certification validates the skills of intermediate-level cybersecurity analysts working in **security operations**, **threat intelligence**, and **incident response**. *CompTIA Security+ is a recommended prerequisite before starting this course.*
+The **CompTIA CySA+** (CS0-004) certification validates the skills of intermediate-level cybersecurity analysts working in **security operations**, **threat intelligence**, and **incident response**. *CompTIA Security+ is a recommended prerequisite before starting this course.*
+
+**Use the current CS0-004 objectives as your checklist.** The four lessons introduce the domains and selected tasks. The exam objectives include more detailed tools, formats, AI use, scanning methods, incident artifacts, and reporting duties. Record each objective as practiced, needs review, or not covered before scheduling the exam.
 
 ## Resources
 
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [CompTIA CySA+ Practice Test](/cysa-plus-practice-test/) - Test your readiness
-- [Official CS0-003 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-cysa-cs0-003-exam-objectives-2-0.pdf)
+- [Official CS0-004 Exam Objectives](https://lecbyo.files.cmp.optimizely.com/download/68b1eae88e5011f08868a275d699e612)
 - [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 - [CompTIA Security+ Course](/security-plus-start/) - Recommended prerequisite
 - [Additional Learning Resources](/recommendations/learning_resources/)
 
 -----
 
-## Domain 1: Security Operations (33%)
+## Domain 1: Security Operations (34%)
 
 ### [Security Operations and Threat Intelligence](/cysa-plus/security-operations/)
 
@@ -46,11 +48,12 @@ The **CompTIA CySA+** (CS0-003) certification validates the skills of intermedia
 - Review **firewall**, **IDS/IPS**, **DNS**, and **proxy logs** for security-relevant events
 - Apply knowledge of **scripting and automation** to support repetitive SOC tasks
 - Understand **cloud security monitoring** concepts including cloud-native logging services
+- Assess AI-assisted log analysis for false claims, prompt injection, and sensitive-data exposure before using results in an incident decision
 - Implement threat intelligence sharing using **STIX** and **TAXII** protocols
 
 -----
 
-## Domain 2: Vulnerability Management (30%)
+## Domain 2: Vulnerability Management (26%)
 
 ### [Vulnerability Management and Scanning](/cysa-plus/vulnerability-management/)
 
@@ -75,7 +78,7 @@ The **CompTIA CySA+** (CS0-003) certification validates the skills of intermedia
 
 -----
 
-## Domain 3: Incident Response Management (20%)
+## Domain 3: Incident Response and Management (24%)
 
 ### [Incident Response and Digital Forensics](/cysa-plus/incident-response-management/)
 
@@ -101,7 +104,7 @@ The **CompTIA CySA+** (CS0-003) certification validates the skills of intermedia
 
 -----
 
-## Domain 4: Reporting and Communication (17%)
+## Domain 4: Reporting and Communication (16%)
 
 ### [Reporting, Communication, and Compliance](/cysa-plus/reporting-and-communication/)
 
@@ -123,4 +126,4 @@ The **CompTIA CySA+** (CS0-003) certification validates the skills of intermedia
 
 -----
 
-Work through all four domains, then test your readiness with the [CompTIA CySA+ Practice Test](/cysa-plus-practice-test/) before exam day. For more certifications and guided learning paths, see [Courses and Playbooks](/courses-and-playbooks/).
+Work through all four lessons, complete a lab for each domain, and compare your evidence against the [official CS0-004 objectives](https://lecbyo.files.cmp.optimizely.com/download/68b1eae88e5011f08868a275d699e612). Use the [CySA+ practice test](/cysa-plus-practice-test/) as one review tool, not as proof of work readiness. For other learning paths, see [Courses and Playbooks](/courses-and-playbooks/).

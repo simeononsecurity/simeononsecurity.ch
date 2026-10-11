@@ -1,19 +1,19 @@
 ---
-title: "CompTIA CySA+ (CS0-003)"
+title: "CySA+ CS0-004 Incident Response and Management"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master incident response and digital forensics for the CompTIA CySA+ CS0-003 exam. Learn the IR lifecycle, containment, chain of custody, memory and disk forensics, malware analysis, and recovery."
+description: "Master incident response and digital forensics for the CompTIA CySA+ CS0-004 exam. Learn the IR lifecycle, containment, chain of custody, memory and disk forensics, malware analysis, and recovery."
 genre: ["CompTIA CySA+ Course", "Incident Response", "Digital Forensics", "Malware Analysis", "Cybersecurity Analyst", "Threat Hunting", "Security Operations", "Root Cause Analysis", "Cybersecurity", "SOC Analyst"]
-tags: ["CompTIA CySA+", "CS0-003", "incident response", "digital forensics", "chain of custody", "Autopsy", "Volatility", "memory analysis", "malware analysis", "containment", "eradication", "recovery", "root cause analysis", "persistence"]
+tags: ["CompTIA CySA+", "CS0-004", "incident response", "digital forensics", "chain of custody", "Autopsy", "Volatility", "memory analysis", "malware analysis", "containment", "eradication", "recovery", "root cause analysis", "persistence"]
 cover: "/img/cover/comptia-cysa-incident-response-lifecycle-illustration.webp"
 coverAlt: "An illustration of the incident response lifecycle in cybersecurity with stages represented as a circular flowchart. Visual elements include a network, a shield, and forensic tools, set against a dark background."
-coverCaption: "Master Incident Response for the CS0-003 Exam"
+coverCaption: "Master Incident Response for the CS0-004 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA CySA+ Course Page](/cysa-plus-start/)
+[Return to the CySA+ course](/cysa-plus-start/)
 
-**Incident Response Management** is **20%** of the **CompTIA CySA+ (CS0-003)** exam. This module teaches you to respond to incidents from detection through lessons learned, and to collect forensic evidence that holds up. *Preparation before an incident decides how well you respond during one.*
+**Incident Response and Management** is **24%** of the **CompTIA CySA+ (CS0-004)** exam. This module teaches you to respond to incidents from detection through lessons learned, and to collect forensic evidence that holds up. *Preparation before an incident decides how well you respond during one.*
 
 ## The Incident Response Lifecycle
 
@@ -42,7 +42,7 @@ Contain fast without destroying evidence:
 
 Collect evidence from most to least volatile: **CPU registers and cache, RAM, network state, disk, then backups and archives**.
 
-Maintain **chain of custody** so evidence is admissible. Document who collected each item, when, where it was stored, and every transfer. Hash evidence to prove it has not changed:
+Maintain **chain of custody** to support authentication and reliable handling. Document who collected each item, when, where it was stored, and every transfer. A matching hash supports integrity of the bytes measured at two points, but does not by itself prove the collection process or decide legal admissibility:
 
 ```bash
 sha256sum disk.img > disk.img.sha256
@@ -50,11 +50,7 @@ sha256sum disk.img > disk.img.sha256
 
 ## Disk and Memory Forensics
 
-Image first, analyze the copy:
-
-```bash
-sudo dd if=/dev/sda of=/evidence/disk.img bs=4M status=progress
-```
+Image first, analyze a verified copy. A trained responder identifies the source by model, serial, and size, uses a suitable write blocker when required, and chooses a separate destination with enough free space. Record tool version, time, source and destination identifiers, acquisition method, and hashes. A copied command using a guessed `/dev/sdX` device can overwrite evidence. Practice the full workflow on disposable lab media before handling an incident device.
 
 - **Autopsy** and **FTK** analyze disk images for files, deleted data, and timelines
 - **Volatility** analyzes memory captures for running processes, injected code, and network connections

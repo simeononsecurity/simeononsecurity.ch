@@ -1,19 +1,19 @@
 ---
-title: "CompTIA CySA+ (CS0-003)"
+title: "CySA+ CS0-004 Reporting and Communication"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master reporting and communication for the CompTIA CySA+ CS0-003 exam. Learn vulnerability and incident reporting, security metrics, compliance frameworks, and communicating risk to stakeholders."
+description: "Master reporting and communication for the CompTIA CySA+ CS0-004 exam. Learn vulnerability and incident reporting, security metrics, compliance frameworks, and communicating risk to stakeholders."
 genre: ["CompTIA CySA+ Course", "Security Reporting", "Compliance", "Risk Communication", "Security Metrics", "Cybersecurity Analyst", "Governance", "Security Operations", "Audit", "Cybersecurity"]
-tags: ["CompTIA CySA+", "CS0-003", "reporting", "communication", "compliance", "MTTR", "KPIs", "KRIs", "NIST CSF", "ISO 27001", "CIS Controls", "PCI DSS", "HIPAA", "GDPR", "risk scoring", "after-action report"]
+tags: ["CompTIA CySA+", "CS0-004", "reporting", "communication", "compliance", "MTTR", "KPIs", "KRIs", "NIST CSF", "ISO 27001", "CIS Controls", "PCI DSS", "HIPAA", "GDPR", "risk scoring", "after-action report"]
 cover: "/img/cover/comptia-cysa-reporting-communication-compliance-2.webp"
 coverAlt: "A dual-screen cybersecurity reporting setup featuring a dashboard with colorful graphs and metrics. An executive in a suit views a summary on one screen, while a technical engineer examines detailed reports on the other."
-coverCaption: "Master Reporting and Communication for the CS0-003 Exam"
+coverCaption: "Master Reporting and Communication for the CS0-004 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA CySA+ Course Page](/cysa-plus-start/)
+[Return to the CySA+ course](/cysa-plus-start/)
 
-**Reporting and Communication** is **17%** of the **CompTIA CySA+ (CS0-003)** exam. This module teaches you to turn technical findings into reports and metrics that drive decisions. *Analysis only matters when stakeholders understand it and act on it.*
+**Reporting and Communication** is **16%** of the **CompTIA CySA+ (CS0-004)** exam. This module teaches you to turn technical findings into reports and metrics that drive decisions. *Analysis only matters when stakeholders understand it and act on it.*
 
 ## Writing for Two Audiences
 

@@ -1,19 +1,19 @@
 ---
-title: "CompTIA CySA+ (CS0-003)"
+title: "CySA+ CS0-004 Security Operations and Threat Intelligence"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master security operations and threat intelligence for the CompTIA CySA+ CS0-003 exam. Learn the SOC, threat intelligence, MITRE ATT&CK, log analysis, SIEM tuning, traffic analysis, and threat hunting."
+description: "Master security operations and threat intelligence for the CompTIA CySA+ CS0-004 exam. Learn the SOC, threat intelligence, MITRE ATT&CK, log analysis, SIEM tuning, traffic analysis, and threat hunting."
 genre: ["CompTIA CySA+ Course", "Security Operations", "Threat Intelligence", "SIEM", "Threat Hunting", "SOC Analyst", "Log Analysis", "MITRE ATT&CK", "Cybersecurity Analyst", "Network Security"]
-tags: ["CompTIA CySA+", "CS0-003", "security operations", "threat intelligence", "MITRE ATT&CK", "Diamond Model", "cyber kill chain", "SIEM", "log analysis", "threat hunting", "EDR", "STIX", "TAXII", "SOC", "network traffic analysis"]
+tags: ["CompTIA CySA+", "CS0-004", "security operations", "threat intelligence", "MITRE ATT&CK", "Diamond Model", "cyber kill chain", "SIEM", "log analysis", "threat hunting", "EDR", "STIX", "TAXII", "SOC", "network traffic analysis"]
 cover: "/img/cover/security-operations-center-soc-cybersecurity-illustration.webp"
 coverAlt: "A Security Operations Center with multiple analysts working at desks, monitoring screens filled with colorful graphs and alerts against a dark background."
-coverCaption: "Master Security Operations for the CS0-003 Exam"
+coverCaption: "Master Security Operations for the CS0-004 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA CySA+ Course Page](/cysa-plus-start/)
+[Return to the CySA+ course](/cysa-plus-start/)
 
-**Security Operations** is the largest domain on the **CompTIA CySA+ (CS0-003)** exam at **33%**. This module teaches how a **Security Operations Center (SOC)** detects threats through intelligence, log analysis, SIEM tuning, traffic analysis, and proactive hunting. *This is the daily work of a cybersecurity analyst, so learn the workflow, not only the terms.*
+**Security Operations** is the largest domain on the **CompTIA CySA+ (CS0-004)** exam at **34%**. This module teaches how a **Security Operations Center (SOC)** detects threats through intelligence, log analysis, SIEM tuning, traffic analysis, and proactive hunting. *This is the daily work of a cybersecurity analyst, so learn the workflow, not only the terms.*
 
 ## The SOC and the Alert Lifecycle
 
