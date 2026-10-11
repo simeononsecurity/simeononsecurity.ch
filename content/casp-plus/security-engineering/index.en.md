@@ -54,7 +54,7 @@ You harden the hosts where attackers land after initial access.
 | **EDR** | Records endpoint telemetry; responds to threats autonomously or with analyst guidance | Post-exploitation activity |
 | **XDR** | Extends EDR across endpoints, network, cloud, and email into one correlated view | Cross-vector attacks |
 | **MDR** | Managed EDR/XDR operated by a third party on your behalf | Gap when internal SOC capacity is limited |
-| **Application control** | Allowlists approved executables; blocks everything else | Malware, living-off-the-land binaries |
+| **Application control** | Restricts execution according to approved policy | Unapproved binaries, subject to policy gaps and misuse of approved tools |
 | **HIPS/HIDS** | Monitors host activity for attack signatures or anomalies | Known exploit patterns |
 | **MDM** | Enforces policy on mobile devices: encryption, PIN, remote wipe | Lost or stolen device data exposure |
 | **SELinux** | Applies mandatory access control labels on Linux | Process breakout, privilege escalation |
@@ -122,14 +122,14 @@ You root trust in hardware because software-only attestation can be subverted by
 
 | Technology | Role | Key detail |
 |-----------|------|------------|
-| **TPM 2.0** | Stores keys and boot measurements on the motherboard | Cannot be extracted; tied to the physical board |
-| **HSM** | Hardware appliance for high-volume cryptographic operations | FIPS 140-2/3 validated; used for CA key storage |
+| **TPM 2.0** | Protects keys and records boot measurements | Extraction resistance depends on hardware design and attack conditions. It is not an absolute guarantee. |
+| **HSM** | Hardware appliance or service for protected cryptographic operations | Some products hold FIPS 140-2 or 140-3 validation. Verify the specific model and certificate. |
 | **vTPM** | Software-emulated TPM for virtual machines | Provides measured boot in virtualized environments |
-| **Secure Boot** | Firmware validates bootloader signatures before executing | Blocks bootkit malware |
+| **Secure Boot** | Firmware validates approved boot-component signatures before executing | Reduces some bootkit paths when configured and maintained correctly |
 | **Measured Boot** | Records each boot stage hash into TPM PCR registers | Enables remote attestation of boot integrity |
 | **Self-encrypting drive (SED)** | Encrypts data at drive firmware level using AES | Decrypt key protected by authentication credential |
 
-*TPM PCR registers lock boot measurements. If the boot software changes, the PCR value changes and the stored key becomes unavailable. This is the mechanism behind BitLocker's pre-boot integrity check.*
+*PCRs record measurements. A key sealed to selected PCR values is released only when the configured policy matches. The selected measurements and recovery policy determine what a boot change triggers. Verify the actual BitLocker protector configuration instead of assuming every boot change blocks access.*
 
 ### Hardware Root of Trust
 
@@ -137,8 +137,8 @@ The chain of trust starts at hardware and extends to firmware, bootloader, OS, a
 
 1. Firmware (UEFI) verifies the bootloader signature (Secure Boot).
 2. Bootloader measures itself and components into TPM PCR registers (Measured Boot).
-3. OS verifies its own components against the TPM measurements.
-4. Remote attestation allows a remote verifier to confirm the chain is intact.
+3. The platform records selected boot measurements. An OS or verifier compares them with an approved reference when configured to do so.
+4. Remote attestation gives a verifier signed measurements to evaluate against policy. It does not prove an uncompromised device by itself.
 
 A broken link at any stage breaks the chain. This is why a compromised BIOS is so catastrophic.
 
@@ -219,7 +219,7 @@ Quantum computers running Shor's algorithm can break RSA, ECC, and Diffie-Hellma
 | **Digital signatures** | ECDSA or ML-DSA | Non-repudiation and integrity |
 | **Password storage** | Argon2id | Memory-hard; resists GPU cracking |
 | **Sensitive data in database** | Tokenization | Token has no mathematical relation to original |
-| **Software distribution** | Code signing (Authenticode, GPG) | Proves source and detects tampering |
+| **Software distribution** | Code signing (Authenticode, GPG) | Checks integrity and the signing key. Validate signer identity and key control separately. |
 | **Long-term data confidentiality** | Post-quantum hybrid | Combine classical + PQC during migration period |
 
 ### Side-Channel Attacks
@@ -237,7 +237,7 @@ Mitigations include constant-time implementations and hardware-isolated executio
 - Kerberos and SAML both fail on clock skew. Check NTP synchronization before deeper troubleshooting.
 - TPM stores keys; HSM performs high-volume operations. Know which is appropriate for each scenario.
 - Post-quantum: ML-KEM for key exchange, ML-DSA for signatures.
-- Application control (allowlisting) stops living-off-the-land attacks that bypass signature-based AV.
+- Application control restricts which programs run. Test policy gaps and approved tools that attackers could misuse. Allowlisting alone does not stop living-off-the-land attacks.
 - SELinux provides MAC; it confines processes even after compromise.
 - Forward secrecy (ECDHE) prevents session decryption even if the server private key is later stolen.
 

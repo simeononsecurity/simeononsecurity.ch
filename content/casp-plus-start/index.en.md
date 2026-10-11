@@ -95,7 +95,7 @@ Security Engineering implements what Architecture designed. You troubleshoot ide
 
 Endpoint hardening uses EDR, XDR, MDR, application control (allowlisting), SELinux/AppArmor/seccomp for MAC, and MDM for mobile. You identify attacker TTPs across the full MITRE ATT&CK lifecycle — initial access through exfiltration — and recognize indicators for credential dumping, lateral movement, and defense evasion.
 
-Hardware roots of trust ground security in physical components: **TPM** stores keys and boot measurements; **HSM** performs high-volume crypto operations; **Secure Boot** validates bootloader signatures; **Measured Boot** records boot stages into TPM PCR registers for attestation. This chain of trust is unbreakable from software.
+Hardware roots of trust anchor security in protected components: **TPM** protects keys and boot measurements; **HSM** manages cryptographic keys and operations; **Secure Boot** checks boot signatures; **Measured Boot** records boot stages into TPM PCR registers for attestation. Firmware flaws, signing-key compromise, configuration mistakes, and implementation bugs still threaten the boot chain. Verify measured state against an approved baseline.
 
 For specialized systems, you apply the **Purdue Model** to segment OT/ICS/SCADA environments and monitor passively. You automate at scale using PowerShell, Bash, Python, IaC, and SOAR playbooks. SCAP, OVAL, and XCCDF standardize configuration compliance checking.
 
@@ -123,9 +123,9 @@ Security Operations turns telemetry into decisions. Your **SIEM** parses, normal
 
 Attack analysis covers injection, XSS, CSRF, SSRF, deserialization, race conditions, path traversal, and weak ciphers. You recommend mitigations that fix root causes: parameterized queries stop SQL injection, CSRF tokens stop CSRF, output encoding stops XSS. Secrets management keeps credentials out of code.
 
-**Threat hunting** starts with a hypothesis and searches data proactively. Intel-based, anomaly-based, and adversary emulation approaches complement hypothesis-based hunts. Honeypots and honeytokens generate unambiguous attacker signals. Threat intelligence is shared in **STIX** (format) and **TAXII** (transport), with Sigma, YARA, and Snort for detection rules.
+**Threat hunting** starts with a hypothesis and searches data proactively. Intel-based, anomaly-based, and adversary emulation approaches complement hypothesis-based hunts. Honeypot and honeytoken alerts need triage because testing, indexing, and misconfiguration also produce access. Threat intelligence is shared in **STIX** (format) and **TAXII** (transport), with Sigma, YARA, and Snort for detection rules.
 
-Incident response follows **PICERL**: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned. Containment always comes before eradication. Digital forensics follows the **order of volatility** — RAM before disk — and maintains chain of custody. Timeline reconstruction across memory, network, and disk artifacts reveals the attacker's path from entry to action.
+Incident response often follows **PICERL**: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned. Incident conditions and safety needs determine the order of specific actions. Preserve volatile evidence when feasible without delaying urgent protection. Maintain chain-of-custody records and build a timeline from available memory, network, and disk artifacts.
 
 Key skills in this domain:
 
@@ -135,7 +135,7 @@ Key skills in this domain:
 - Distinguish hypothesis-based hunting from alert-driven response
 - Explain STIX vs. TAXII roles
 - Order forensic evidence collection correctly (RAM first)
-- Follow PICERL and know that containment precedes eradication
+- Explain the usual PICERL sequence and document any incident-driven change in action order
 
 -----
 

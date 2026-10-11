@@ -39,10 +39,10 @@ You place controls where traffic flows so each inspects the traffic it is design
 
 The layout of your network defines what attackers can reach after compromising one component.
 
-- A **DMZ** (demilitarized zone) sits between two firewalls. Internet-facing servers — web, email, DNS — live here, isolated so a DMZ breach does not reach internal assets.
-- A **screened subnet** uses a single firewall with three interfaces. Simpler but provides less depth.
-- **Air-gapped networks** have no electronic connection to untrusted networks. Required for classified environments and critical infrastructure control systems.
-- **VLANs** segment a flat network into logical zones, limiting lateral movement without new hardware.
+- A **DMZ** (demilitarized zone) isolates public-facing services from internal assets through separate network zones and access rules. One or more firewalls might enforce the boundaries. A DMZ breach still requires response because permitted paths, credentials, and misconfigurations might expose internal systems.
+- A **screened subnet** uses a firewall or other filtering devices to separate outside, DMZ, and inside networks. Assess rule quality, independent failure modes, monitoring, and operational capacity before comparing designs.
+- **Air-gapped networks** have no direct electronic connection to untrusted networks. Some high-assurance environments use them, subject to mission and system requirements. Removable media and maintenance paths still need controls.
+- **VLANs** separate Layer 2 broadcast domains. Limit lateral movement with routing policy, ACLs, or firewalls between zones.
 
 ### Availability and Integrity Design
 
@@ -80,8 +80,8 @@ You generate an **SBOM** (Software Bill of Materials) for every release so you c
 
 You verify software and hardware integrity across the supply chain.
 
-- **Signed software** uses code signing to prove provenance and detect tampering.
-- **Hardware attestation** uses TPM measurements to verify hardware has not been replaced with counterfeits.
+- **Signed software** uses a trusted signing key and signature verification to check integrity and the signer identity. Validate who controls the key before treating the signer as the software source.
+- **Hardware attestation** compares measured state against an approved baseline. TPM measurements alone do not establish that every hardware component is genuine.
 - **End-of-life planning** schedules hardware replacement before vendor support ends, removing unpatched risk.
 - **Secure boot process** validates firmware and bootloader signatures before executing them.
 
@@ -194,7 +194,7 @@ You integrate privacy into system design from the start.
 
 ## Architecture Exam Tips
 
-- DMZ questions: a two-firewall DMZ is always more secure than a single-firewall screened subnet.
+- DMZ questions: compare trust boundaries and effective rules. Two firewalls do not guarantee better security if both share mistakes or fail open.
 - Zero Trust vs. perimeter: the exam often presents a scenario where VPN and perimeter tools are insufficient. ZTNA and microsegmentation are the correct answers.
 - Active-active vs. active-passive: choose active-active for performance, active-passive for simplicity.
 - RBAC vs. ABAC: when coarse role assignment fails, ABAC provides the fine-grained control.

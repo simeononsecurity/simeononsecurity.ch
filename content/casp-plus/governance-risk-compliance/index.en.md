@@ -100,20 +100,20 @@ The BIA feeds directly into [Security Architecture](/casp-plus/security-architec
 Your security posture equals the security of your weakest link, which is often a vendor. You assess third-party risk across the whole chain:
 
 - **Supply chain risk** covers tampering, counterfeits, and compromised software updates inserted before the product reaches you.
-- **Vendor risk** covers a supplier's own security posture. You validate it with SOC 2 Type II reports, questionnaires, and right-to-audit clauses.
+- **Vendor risk** covers a supplier's own security posture. Review scoped SOC 2 reports, questionnaires, and right-to-audit clauses as evidence alongside your own risk assessment.
 - **Subprocessor risk** covers the vendors your vendors use — often the hidden weak link in large SaaS platforms.
 
-You require a **Software Bill of Materials (SBOM)** so you know every third-party component inside software you buy or deploy. An SBOM makes it possible to respond quickly when a new CVE hits a transitive dependency.
+Request a **Software Bill of Materials (SBOM)** to identify reported components inside software you buy or deploy. Check its scope, format, and completeness. A current SBOM helps trace exposure when a new CVE affects a listed dependency.
 
 | Third-Party Assessment Method | What it tells you |
 |-------------------------------|-------------------|
-| **SOC 2 Type I** | Controls exist at a point in time |
-| **SOC 2 Type II** | Controls operated effectively over a period (6–12 months) |
+| **SOC 2 Type I** | Auditor's opinion on control design at a stated point in time and within stated scope |
+| **SOC 2 Type II** | Auditor's opinion on control design and operation over the report's stated review period. Read scope, exceptions, and dates. |
 | **Questionnaire / SIG** | Self-reported posture — use as a starting point only |
 | **Penetration test report** | Technical verification of claimed controls |
 | **Right to audit** | Contractual ability to verify posture yourself |
 
-*SOC 2 Type II is far more valuable than Type I because it proves sustained operation, not just design.*
+*Type II gives evidence across a stated period, while Type I addresses a point in time. Neither report proves every vendor service or control is secure. Check the auditor's scope, exceptions, and period against your use case.*
 
 ## Compliance Frameworks and Regulations
 
@@ -124,8 +124,8 @@ Compliance frameworks shape your security strategy because noncompliance carries
 | **PCI DSS** | Payment card data | 12 requirements around card data protection |
 | **ISO/IEC 27001** | Information security management | ISMS with formal risk treatment |
 | **ISO/IEC 27002** | Controls guidance for 27001 | 93 controls across 4 themes |
-| **SOC 2** | Service provider controls | Trust Service Criteria: security, availability, confidentiality |
-| **NIST CSF** | Voluntary risk framework | Five functions: Identify, Protect, Detect, Respond, Recover |
+| **SOC 2** | Service provider controls | Trust Services Criteria: security, availability, processing integrity, confidentiality, privacy |
+| **NIST CSF 2.0** | Voluntary risk framework | Six functions: Govern, Identify, Protect, Detect, Respond, Recover |
 | **CIS Controls v8** | Prioritized defensive actions | 18 controls organized by implementation group |
 | **CSA CCM** | Cloud services | Cloud-specific controls mapped to ISO and NIST |
 
@@ -147,7 +147,7 @@ Privacy regulations add legal duties tied to personal data collection and proces
 
 Understanding audit types helps you advise leadership on evidence preparation:
 
-- **Attestation** — an independent auditor confirms controls work (SOC 2 reports).
+- **Attestation** — an independent practitioner reports an opinion or conclusion on defined assertions, scope, and period. Read the exceptions and limitations.
 - **Examination** — deep independent review of specific assertions.
 - **Agreed-upon procedures (AUP)** — auditor performs procedures both parties agree on; no opinion issued.
 - **Internal audit** — conducted by the organization's own audit function; less independence.
@@ -200,7 +200,7 @@ For a broader look at how AI is reshaping the threat landscape and what governan
 
 - When a question asks you to choose a governance document, ask: is it binding? Policies and standards are. Guidelines are not.
 - ALE math appears on the exam. Practice: Asset = $500,000, EF = 20%, ARO = 0.5. SLE = $100,000. ALE = $50,000.
-- SOC 2 Type II always beats Type I when assessing a vendor's ongoing reliability.
+- For ongoing vendor controls, review the Type II period, scope, exceptions, and complementary user entity controls. A Type I report can still help assess a newly implemented control.
 - STRIDE maps directly to countermeasures. Memorize the six categories and what stops each one.
 - GDPR's 72-hour breach notification window is a frequent distractor question.
 

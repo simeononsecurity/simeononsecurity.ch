@@ -114,7 +114,7 @@ Threat hunting is proactive: you search for attackers who are already present bu
 | **Anomaly-based** | Baseline normal behavior, then surface statistical outliers |
 | **Adversary emulation** | Simulate a real threat actor's TTPs to test detection coverage |
 
-**Honeypots** and **honeytokens** lure attackers by presenting convincing fake assets. Any access to a honeypot is an unambiguous signal — legitimate users have no reason to touch it. For a practical passive detection approach, see the [ESP32 Wi-Fi canary project](/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/).
+**Honeypots** and **honeytokens** expose decoy assets. Access is worth investigation, but scans, testing, indexing, and configuration mistakes also trigger alerts. Correlate the event with identity, source, and change records before declaring an intrusion. For a passive detection example, see the [ESP32 Wi-Fi canary project](/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/).
 
 ### Threat Intelligence Sources
 
@@ -159,7 +159,7 @@ CompTIA uses the **PICERL** model for incident response:
 | **Recovery** | Restore systems to production from clean backups; validate operations |
 | **Lessons Learned** | Post-incident review; update playbooks and controls |
 
-*Containment comes before eradication. You must stop the bleeding before you treat the wound.*
+*The PICERL framework lists containment before eradication. In a live incident, coordinate the sequence with the response plan, safety needs, and evidence preservation.*
 
 ### Containment Strategies
 
@@ -197,18 +197,17 @@ Evidence must be collected from most volatile to least volatile to maximize what
 - **Non-volatile storage analysis** examines disk images for persistence mechanisms, deleted files, browser history, and registry hives.
 - **Metadata analysis** reads file creation times, last-modified timestamps, author fields, and GPS coordinates embedded in images.
 
-Verify file integrity before and after handling using hash comparison:
+Only a trained responder should image evidence, under the organization's collection procedure. Confirm the source disk by serial number and size, attach a tested write blocker when appropriate, choose a separate destination with enough space, and record both paths before starting. An incorrect `dd` destination overwrites evidence. After acquisition, hash the saved image and record the hash with the tool version, operator, time, and custody entry:
 
 ```bash
-# Capture a disk image and immediately record its hash
-dd if=/dev/sdb bs=4M | tee sdb_evidence.img | sha256sum > sdb_evidence.sha256
+sha256sum acquired-evidence.img > acquired-evidence.sha256
 ```
 
 For more on file hashing in Linux, see [how to get hashes of files on Linux](/guides/how-to-get-hashes-of-files-on-linux/).
 
 ### Chain of Custody
 
-Every piece of evidence needs a documented chain of custody — who collected it, when, how it was stored, and who had access. A broken chain makes evidence inadmissible. You use write blockers when imaging disks so the act of copying cannot alter timestamps.
+Document who collected each item, when, where, how it was stored, and every transfer. A custody gap raises questions about integrity and weight. A court or other decision maker determines admissibility under the applicable rules. Use a suitable write blocker and verify the acquisition method before collecting disk evidence.
 
 ## Timeline Reconstruction and Root Cause Analysis
 
@@ -226,11 +225,11 @@ A post-incident writeup that only documents symptoms rather than root cause leav
 ## Operations Exam Tips
 
 - Order of volatility: collect RAM before disk, network state before file system. Any question about what to capture first should trigger this knowledge.
-- PICERL: containment comes before eradication. Never eradicate without first containing.
+- PICERL places containment before eradication as a response framework. Responders adapt the sequence to safety, evidence preservation, and the incident plan. Document any departure and its reason.
 - STIX describes intelligence; TAXII transports it.
 - CVSS score alone is not enough for prioritization — always factor in asset criticality and exploit availability.
 - Hypothesis-based hunting: you start with a theory, then search. This distinguishes hunting from alert-response.
-- Chain of custody is required for legal admissibility. A broken chain is a failed investigation.
+- Keep a chain-of-custody record for evidence. Missing transfers weaken authentication and weight. Admissibility depends on the jurisdiction and case.
 
 ## Next Steps
 
