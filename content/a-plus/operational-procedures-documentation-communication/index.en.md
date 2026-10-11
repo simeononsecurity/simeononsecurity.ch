@@ -11,7 +11,7 @@ coverAlt: "A futuristic IT workspace with multiple screens showing documentation
 coverCaption: "Master Operational Procedures for the A+ 220-1202 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Operational Procedures** is **21%** of the **CompTIA A+ 220-1202 Core 2** exam. This module covers documentation, change management, backups, safety, environment, professionalism, scripting, remote access, and AI basics. *This domain is about doing the job correctly and professionally, not just technically.*
 

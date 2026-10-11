@@ -11,7 +11,7 @@ coverAlt: "An abstract digital illustration showing interconnected virtual machi
 coverCaption: "Master Virtualization and Cloud Computing for the A+ 220-1201 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Virtualization and Cloud Computing** is **11%** of the **CompTIA A+ 220-1201 Core 1** exam. This module covers virtual machines, hypervisor types, VDI, containers, cloud models, and cloud characteristics. *This is the smallest Core 1 domain, but the concepts appear across modern IT support.*
 

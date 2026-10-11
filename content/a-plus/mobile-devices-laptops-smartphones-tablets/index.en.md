@@ -11,7 +11,7 @@ coverAlt: "A modern workspace illustration with smartphones, tablets, and laptop
 coverCaption: "Master Mobile Devices for the A+ 220-1201 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Mobile Devices** is **13%** of the **CompTIA A+ 220-1201 Core 1** exam. This module covers laptop hardware repair, accessories, connectivity, mobile device management, and synchronization. *Mobile support is daily work at any help desk, so know the parts and the settings cold.*
 

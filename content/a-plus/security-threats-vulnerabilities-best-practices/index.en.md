@@ -11,7 +11,7 @@ coverAlt: "An illustration showing various security elements including a badge r
 coverCaption: "Master Security for the A+ 220-1202 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Security** is **28%** of the **CompTIA A+ 220-1202 Core 2** exam, tied for the largest Core 2 domain. This module covers physical and logical security, Windows settings, wireless protocols, malware, social engineering, hardening, and data destruction. *Security knowledge protects every system you support, so master these controls.*
 

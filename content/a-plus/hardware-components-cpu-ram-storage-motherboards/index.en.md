@@ -11,7 +11,7 @@ coverAlt: "An illustration of computer hardware components including a motherboa
 coverCaption: "Master Hardware Components for the A+ 220-1201 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Hardware** is **25%** of the **CompTIA A+ 220-1201 Core 1** exam, the largest Core 1 domain. This module covers cables, RAM, storage, motherboards, CPUs, power supplies, and printers. *This domain is the hands-on heart of A+, so learn the parts by sight and by spec.*
 

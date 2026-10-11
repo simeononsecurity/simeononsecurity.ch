@@ -11,7 +11,7 @@ coverAlt: "An illustration of a modern workspace featuring three computer screen
 coverCaption: "Master Operating Systems for the A+ 220-1202 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Operating Systems** is **28%** of the **CompTIA A+ 220-1202 Core 2** exam, the largest Core 2 domain. This module covers OS types, installations, Windows editions, tools, the command line, settings, and macOS and Linux. *Core 2 is software-focused, and this domain rewards hands-on practice in real systems.*
 

@@ -11,7 +11,7 @@ coverAlt: "A digital illustration of a modern networking setup featuring routers
 coverCaption: "Master Networking Fundamentals for the A+ 220-1201 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
+[Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
 **Networking** is **23%** of the **CompTIA A+ 220-1201 Core 1** exam, the second-largest domain. This module covers ports and protocols, wireless standards, host services, network hardware, SOHO setup, and tools. *Memorize the common ports because the exam tests them directly.*
 
