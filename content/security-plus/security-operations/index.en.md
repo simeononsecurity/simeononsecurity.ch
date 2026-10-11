@@ -142,6 +142,25 @@ Build a five-row operations board for this case: asset inventory entry, approved
 
 Pass when your triage record separates observations from conclusions, identifies who receives an escalation, includes an evidence digest and custody notes, and shows a tracked fix with verification. The [NIST incident response guide](https://csrc.nist.gov/pubs/sp/800/61/r3/final) gives a response framework. Review the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) for exam scope.
 
+## Worked triage record and score key
+
+Save the four synthetic log lines from the practice case as `harbor-auth.log`. Make a read-only working copy and compute the original digest before analysis: `cp harbor-auth.log harbor-auth-working.log` then `sha256sum harbor-auth.log` on Linux, `shasum -a 256 harbor-auth.log` on macOS, or `Get-FileHash .\harbor-auth.log -Algorithm SHA256` in PowerShell. Record who created the fixture, collection time, source path, digest, copy location, each transfer, and who can read it. Do not claim a legal chain of custody from this training fixture.
+
+| Field | Worked entry |
+|-------|--------------|
+| Source and span | `laptop-17`, 09:01 to 09:06 UTC, fictional records |
+| Observation | Two failed sign-ins, one accepted key, one export |
+| Hypothesis | Authorized maintenance or misuse of archive account |
+| Missing evidence | Owner statement, change record, endpoint telemetry, export destination |
+| Immediate action | Preserve records, ask owner, check approved work, alert incident lead if unauthorized |
+| Decision | Pending evidence, not a confirmed compromise |
+
+A false-positive branch exists: the owner confirms a documented maintenance export to an approved location, and the endpoint log matches that change. Record the source and time of that confirmation, then close or monitor under local policy. A denial or unknown owner triggers escalation and possible account restriction by an authorized person.
+
+The five-row operations board should name `laptop-17` as a tracked asset, a role-specific baseline version, the archive IAM owner, a vulnerability ticket with affected version and verification date, and the latest tested backup. If no vulnerability is present in this fictional evidence, create a separate synthetic training finding and label it as such.
+
+Award one point each for timeline accuracy, fact/hypothesis separation, evidence digest and custody fields, an owner-led escalation decision, both true- and false-positive branches, and a vulnerability fix with verification. Pass at 6 of 6. Real incident handling requires local authority and live evidence.
+
 ## Next Steps
 
 Wrap the program with [Security Program Management and Oversight](/security-plus/security-program-management-oversight/), grounded in [General Security Concepts](/security-plus/general-security-concepts/) and [Security Architecture](/security-plus/security-architecture/). Return to the [CompTIA Security+ Course](/security-plus-start/).

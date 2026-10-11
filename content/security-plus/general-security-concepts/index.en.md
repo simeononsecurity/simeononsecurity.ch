@@ -120,6 +120,20 @@ Your evidence is two hash results, a three-row control matrix, a change record, 
 
 Reference: [CompTIA SY0-701 exam objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST digital identity guidelines](https://pages.nist.gov/800-63-4/).
 
+## Worked checkpoint and score key
+
+The exercise file has an exact answer if you create it with `python3 -c 'from pathlib import Path; Path("members.csv").write_bytes(b"id,name\n101,Example Person\n")'`. Its SHA-256 is `fdb1b48e72ca3af8cc562c6cca3632f7f5abd9152a4f9ee896bd4a3745130d74`. Change `Person` to `Pers0n` without changing any other byte and the digest is `f06ed90fbb846882df38e4502dedf78055ad23f4339d2ce3cd99589a893ef153`. A macOS or Linux hash command prints the digest and filename. PowerShell `Get-FileHash` prints a row with `SHA256`, the digest, and a path. Editor-added line endings or a final blank line change the digest, so inspect the bytes if your answer differs.
+
+| Control | Category | Function | Owner | Test |
+|---------|----------|----------|-------|------|
+| Folder role rule allows records staff only | Technical | Preventive | Records lead | Staff read succeeds; contractor read denied |
+| Export read alert | Technical | Detective | Security analyst | Synthetic unexpected read raises an alert |
+| Isolated backup restore | Operational | Corrective | Backup owner | Recovered file matches expected digest |
+
+Example change record: `CHG-04`, owner Records lead, scope export folder, reason contractor receives count only, approval Library IT lead, test staff allowed and contractor denied, rollback restore previous rule, evidence screenshot and timestamp. These are proposed tests, not observed results. Use disposable synthetic accounts `staff-test` and `contractor-test` if you run them. Do not claim a denial passed without a saved response.
+
+Award one point each for distinct digests, correct control categories and functions, least-privilege decision, complete change and rollback record, and honest test state. Pass at 5 of 5. A hash mismatch requires a byte-level recheck before you move on.
+
 ## Next Steps
 
 Continue with [Threats, Vulnerabilities, and Mitigations](/security-plus/threats-vulnerabilities-mitigations/) and [Security Architecture](/security-plus/security-architecture/). Operationalize these concepts in [Security Operations](/security-plus/security-operations/). Return to the [CompTIA Security+ Course](/security-plus-start/) and review [tips for passing CompTIA exams](/articles/tips-and-tricks-for-passing-comptia-exams/).

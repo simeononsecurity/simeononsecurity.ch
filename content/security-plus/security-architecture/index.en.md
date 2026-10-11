@@ -129,6 +129,24 @@ Pass when your diagram shows no public path to the records database, your matrix
 
 References: [CompTIA SY0-701 exam objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework).
 
+## Worked design and score key
+
+```text
+Internet -> public catalog
+Internet -X-> records database
+Staff PC -> staff app -> records database
+Backup worker -> encrypted backup object
+Anonymous user -X-> backup object
+```
+
+The arrows show permitted flows. `-X->` means the intended policy denies the path. A diagram alone does not prove a firewall or bucket rule works. A completed ownership matrix assigns the public-catalog rule to network operations, staff-app identity to IAM, database access to the records owner, backup-worker identity to IAM, object-store policy to the cloud owner, and restore tests to the backup owner.
+
+Example negative test record: `2026-10-10 10:00 UTC`, synthetic anonymous request to backup object, expected `access denied`, observed `not run`, evidence `none`, owner Cloud lead. Do not replace `not run` with an invented HTTP status. A completed live lab must save the actual request and response with secrets removed.
+
+Example recovery worksheet: latest healthy backup timestamp Friday 00:00, outage Saturday 00:00, isolated restore finishes Saturday 06:00. The 6-hour restore meets an 8-hour RTO, but the backup is 24 hours old, exactly at the 24-hour RPO limit. If the outage started Saturday 03:00 instead, the 27-hour gap would fail the RPO. A backup file count and one valid read after restore are needed before declaring success. These times are hypothetical and do not prove a real restore.
+
+Award one point each for separated trust zones, complete allow/deny rules, six assigned owners, clear positive and negative access tests, correct RTO/RPO arithmetic, and honest observed/unrun status. Pass at 6 of 6 for the synthetic design. Real operations also need an isolated restore and access evidence.
+
 ## Next Steps
 
 Operate this architecture securely in [Security Operations](/security-plus/security-operations/), and govern it through [Security Program Management and Oversight](/security-plus/security-program-management-oversight/). Review the basics in [General Security Concepts](/security-plus/general-security-concepts/), then return to the [CompTIA Security+ Course](/security-plus-start/).

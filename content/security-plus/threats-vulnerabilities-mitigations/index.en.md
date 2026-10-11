@@ -111,6 +111,22 @@ Choose at least three layered controls: block or isolate risky attachments, use 
 
 Pass when the worksheet distinguishes indicator from conclusion, avoids naming a threat actor without evidence, names an owner for each control, and gives a test which would show a control working. Review the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST CSF 2.0](https://www.nist.gov/cyberframework).
 
+## Worked attack-chain answer
+
+The following evidence is fictional and exists only in this lesson. `laptop-17` reports an attachment launch at 09:00. Two archive-account failures occur at 09:01 and 09:02, then a successful sign-in at 09:04. The records app reports a member export at 09:06. No destination or account-owner statement is available.
+
+| Observation | Vector | Weakness to test | Possible impact | Control | Validation |
+|-------------|--------|------------------|-----------------|---------|------------|
+| Invoice message at 08:58 | Message-based | Sender trust decision unknown | User opens file | Report and isolate suspicious message | Confirm mailbox record and report |
+| Attachment launch at 09:00 | File-based | Execution rule may allow untrusted file | Endpoint code runs | Attachment policy and endpoint protection | Benign test file blocked and approved file allowed |
+| Two failed sign-ins | Credential attack is possible | MFA status unknown | Account probing | Phishing-resistant MFA and alert | Synthetic failures alert; normal sign-in allowed |
+| Successful sign-in | Access via archive account | Account authorization unclear | Restricted data access | Least privilege and owner confirmation | Allowed read and denied export cases |
+| Member export | App action | Destination control unknown | Data disclosure | Export restriction and monitoring | Approved count-only export succeeds; named export denied |
+
+Do not label the actor from this sequence. Ask for source telemetry, account-owner confirmation, approved work record, export destination, and file access rules. A benign explanation remains possible. Residual risk: an authorized user might misuse permitted export access. The records lead decides whether the role needs export rights and reviews the test evidence.
+
+Award one point each for a correct observation sequence, at least two alternative explanations, three layered controls, an owner and positive/negative test for each control, and a stated residual risk. Pass at 5 of 5. Mark any unperformed test `not run`, never `passed`.
+
 ## Next Steps
 
 Continue with [Security Architecture](/security-plus/security-architecture/) to design defenses, and [Security Operations](/security-plus/security-operations/) to detect and respond. Review the [General Security Concepts](/security-plus/general-security-concepts/) module for controls. Return to the [CompTIA Security+ Course](/security-plus-start/).

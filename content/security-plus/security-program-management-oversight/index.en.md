@@ -136,6 +136,25 @@ Write a policy statement, a mandatory standard, a step-by-step procedure, and an
 
 Pass when your register records a decision owner, assumptions and uncertainty, vendor evidence, a measured recovery test, and an exception or follow-up for any failed control. [NIST CSF 2.0](https://www.nist.gov/cyberframework) includes governance. [PCI SSC](https://www.pcisecuritystandards.org/standards/pci-dss/) defines PCI DSS as an industry standard for payment account data; determine applicability from the actual payment environment rather than assuming it covers every library system. Match your study notes to the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf).
 
+## Worked governance package and score key
+
+A completed risk-register entry reads: `R-04`, member-export restore failure, owner Library IT lead, evidence no recorded test, likelihood estimate 0.2 per year, single loss estimate $10,000, annual estimate $2,000, treatment test isolated restore and restrict backup write access, due 2026-11-01, residual risk pending test, status open. At 0.1 events per year, the annual estimate is $1,000; at 0.4 it is $4,000. These values are fictional and highly uncertain. They do not establish the correct control budget by themselves.
+
+| Artifact | Filled example |
+|----------|----------------|
+| BIA | Records service supports staff access. RTO 8 hours, RPO 24 hours. Owner Records lead. |
+| Vendor question | Who reads backup objects and which logs prove access? Vendor answer: `not obtained`. Follow-up owner: Library IT lead. |
+| Policy | Member exports need an approved purpose and restricted audience. |
+| Standard | Only the records role may export named records. |
+| Procedure | Request, approve, export count-only when sufficient, log, review, delete on schedule. |
+| Guideline | Use an approved template for the count-only report. |
+| Audit record | Control backup restore; scope Harbor Library; test date pending; result unrun; exception open. |
+| Awareness tabletop | Five synthetic messages reviewed. Four were reported, three reports included useful evidence. No real staff campaign occurred. |
+
+The tabletop reporting rate is 4/5 and the useful-report rate is 3/5 in this fictional exercise. A small sample does not estimate an organization's security culture. Do not invent a vendor answer or a restore result to complete the table. Assign follow-up and leave the status open.
+
+Award one point each for correct SLE/ALE and sensitivity math, decision owner and due date, vendor question and honest answer state, BIA tied to a test, policy/standard/procedure distinction, and audit plus awareness evidence. Pass at 6 of 6 for the written package. A real recovery sign-off requires the actual restore record.
+
 ## Next Steps
 
 You have now covered all five SY0-701 domains. Revisit [Security Operations](/security-plus/security-operations/), [Security Architecture](/security-plus/security-architecture/), and [General Security Concepts](/security-plus/general-security-concepts/) as needed, then take the [CompTIA Security+ Practice Test](/security-plus-practice-test/) and review [tips for passing CompTIA exams](/articles/tips-and-tricks-for-passing-comptia-exams/). Return to the [CompTIA Security+ Course](/security-plus-start/).

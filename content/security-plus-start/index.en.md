@@ -48,6 +48,59 @@ Create one short security decision package:
 
 Pass only when you can defend each decision from the case facts, identify which tests remain unrun, and trace every proposed control to a risk. A peer should be able to reproduce your reasoning from the package without asking what a field means. Revise weak sections before taking the [Security+ practice test](/security-plus-practice-test/). Practice questions check recall and judgment; a score alone does not prove workplace readiness.
 
+## Objective map and limits
+
+Use the [official SY0-701 objectives, version 5.0](https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf) as the detailed checklist. Each numbered objective below has a lesson and a practice artifact or a declared gap. The Harbor Library case covers a subset of the exam's technologies and environments. An introduced topic is not evidence of independent implementation skill.
+
+| Objective | Lesson and artifact | Further practice needed |
+|-----------|---------------------|-------------------------|
+| 1.1 | General Concepts control matrix | Compare more control types. |
+| 1.2 | General Concepts access decision | Physical and deception controls. |
+| 1.3 | General Concepts change record | Run a supervised real change. |
+| 1.4 | General Concepts hash and signature choice | Certificate lifecycle and key management. |
+| 2.1 | Threats actor evidence decision | Attribute no actor from one case. |
+| 2.2 | Threats attack-chain worksheet | Compare more vector types. |
+| 2.3 | Threats weakness column | Reproduce distinct vulnerability classes safely. |
+| 2.4 | Threats indicator timeline | Interpret more log and network patterns. |
+| 2.5 | Threats control validation | Test controls in more environments. |
+| 3.1 | Architecture responsibility matrix | Compare IaaS, PaaS, and SaaS duties. |
+| 3.2 | Architecture flow rules | Test real network controls under supervision. |
+| 3.3 | Architecture data-state controls | Compare classification and data handling. |
+| 3.4 | Architecture restore plan | Perform an isolated restore. |
+| 4.1 | Operations baseline board | Apply platform-specific baselines. |
+| 4.2 | Operations asset entry | Trace an asset through disposal. |
+| 4.3 | Operations vulnerability ticket | Verify a real authorized remediation. |
+| 4.4 | Operations alert triage | Correlate varied alert sources. |
+| 4.5 | Operations protocol decision | Configure and test approved controls. |
+| 4.6 | Operations IAM rule | Test identity lifecycle in a lab. |
+| 4.7 | Operations automation decision | Build a reviewed automation runbook. |
+| 4.8 | Operations incident decision | Join a supervised exercise. |
+| 4.9 | Operations synthetic log record | Compare packet, endpoint, and cloud evidence. |
+| 5.1 | Program Management policy hierarchy | Review a real governance process. |
+| 5.2 | Program Management risk register | Validate assumptions with an owner. |
+| 5.3 | Program Management vendor question | Obtain an actual vendor answer. |
+| 5.4 | Program Management applicability note | Check duties with counsel or compliance staff. |
+| 5.5 | Program Management audit entry | Conduct a scoped assessment. |
+| 5.6 | Program Management tabletop result | Assess an approved awareness program. |
+
+Do not book the exam from this case alone. Close each gap with official objectives, additional labs, and practice questions. For workplace tasks, follow local authorization and review.
+
+## Filled final-package example
+
+The completed example begins with two separate flows: internet to public catalog allowed on HTTPS and internet to records database denied. The archive sign-in sequence is an observation, not proof of compromise. The incident lead receives the preserved log and asks the account owner for a change record. The records lead restricts named exports and approves count-only output for the contractor. The backup owner sets an 8-hour RTO and 24-hour RPO, then records a restore test as `not run`. The risk owner records an open exception until the test and vendor access answer exist.
+
+Score your own package before asking a peer:
+
+| Criterion | Points |
+|-----------|-------:|
+| Correct trust zones and allow/deny flows | 2 |
+| Timeline separates observed events from explanations | 2 |
+| Controls have owner and positive or negative test | 2 |
+| RTO/RPO math and restore evidence state are honest | 2 |
+| Risk register names assumptions, owner, follow-up | 2 |
+
+Pass the synthetic assessment at 10 of 10. If no peer is available, use each lesson's worked checkpoint, hide it while you attempt the task, then compare line by line. Record any missed criterion and redo the task with a changed fact, such as a different source account or shorter RPO. Do not label a test `passed` if it was not run. Passing this package supports supervised foundation work, not independent incident command or exam certification.
+
 ## References and next step
 
 Use the [official SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) as the scope checklist. [NIST CSF 2.0](https://www.nist.gov/cyberframework) offers a way to organize governance and security outcomes. Continue into the [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/) if you want role-specific pathways. Browse the [course index](/courses-and-playbooks/) for adjacent subjects.
