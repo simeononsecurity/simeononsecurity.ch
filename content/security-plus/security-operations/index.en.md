@@ -1,6 +1,7 @@
 ---
 title: "CompTIA Security+ (SY0-701): Security Operations"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Triage synthetic SY0-701 access logs, set an asset baseline, restrict identities, track a vulnerability, and preserve incident evidence."
@@ -19,7 +20,7 @@ This is where architecture meets practice. You harden systems, manage identities
 
 ## Hardening and Asset Management
 
-A **secure baseline** is a known-good configuration you apply to every system. You establish it, deploy it, and maintain it as threats change.
+A **secure baseline** is an approved configuration for a defined asset class. Establish separate baselines when systems have different roles, risks, or requirements, then review them as conditions change.
 
 - Harden by removing default accounts, closing unused ports, and disabling unneeded services.
 - Apply hardening to **mobile devices**, **workstations**, **servers**, **cloud infrastructure**, and **IoT**.
@@ -53,9 +54,9 @@ Apply **least privilege** so users get only what they need. Use **provisioning**
 
 You defend the endpoint and protect the keys.
 
-- **EDR** and **XDR** detect and respond to threats on hosts.
-- **Antivirus** blocks known malware, and **host-based firewalls** filter local traffic.
-- **DLP** stops sensitive data from leaving the environment.
+- **EDR** focuses on endpoint telemetry and response. **XDR** correlates signals across endpoints and other integrated sources.
+- **Antivirus** detects or blocks supported malicious patterns, with gaps. **Host-based firewalls** filter local traffic according to rules.
+- **DLP** detects or restricts selected data transfers when policy, coverage, and classification work.
 
 Key management keeps cryptography trustworthy:
 
@@ -82,7 +83,7 @@ Use **S/MIME** to sign and encrypt email. Verify file integrity with hashes, sho
 You find weaknesses before attackers do.
 
 - Identify with **scans**, **static and dynamic analysis**, threat feeds, and **penetration testing**.
-- Prioritize with **CVSS** scores and track flaws by **CVE** number.
+- Use **CVSS** severity with asset exposure, exploitation evidence, business impact, and existing controls when prioritizing. Track applicable flaws by **CVE** number.
 - Remediate, then **validate** the fix with a rescan.
 
 Learn the configuration side in [Ansible for beginners](/articles/ansible-for-beginners/) for automated patching.
@@ -112,12 +113,13 @@ You automate repetitive work to respond faster and reduce error.
 
 You follow a repeatable process under pressure.
 
-1. **Preparation** builds plans, tools, and training.
-2. **Identification** confirms an incident occurred.
-3. **Containment** limits the spread.
-4. **Eradication** removes the cause.
-5. **Recovery** restores normal operations.
-6. **Lessons learned** improves the next response.
+1. **Prepare** roles, tools, and communication paths.
+2. **Detect and analyze** events before declaring an incident.
+3. **Respond** through authorized containment and eradication decisions.
+4. **Recover** services and validate the result.
+5. **Improve** plans using recorded lessons.
+
+This is a teaching sequence aligned with current NIST CSF 2.0 functions and NIST SP 800-61 Rev. 3. Match the exact SY0-701 objective wording when studying for the exam.
 
 Digital forensics preserves evidence for investigation and possible legal use. Maintain a **chain of custody**, follow any applicable **legal hold**, and plan acquisition around volatility and incident needs. Document each transfer and action. Missing records weaken authentication and evidentiary weight, but admissibility depends on the jurisdiction and case.
 

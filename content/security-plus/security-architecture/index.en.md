@@ -1,6 +1,7 @@
 ---
 title: "CompTIA Security+ (SY0-701): Security Architecture"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Design a segmented SY0-701 lab for a library export. Compare cloud duties, data states, firewall rules, and tested recovery evidence."
@@ -23,19 +24,19 @@ Each model shifts cost, control, and responsibility differently.
 
 | Model | Strength | Trade-off |
 |-------|----------|-----------|
-| **On-premises** | Full control of data and hardware | High cost, you patch everything |
-| **Cloud** | Scales fast, provider handles hardware | Shared responsibility, less visibility |
-| **Hybrid** | Mixes control and scale | Complex to secure and connect |
-| **Edge** | Low latency near the user | Many devices, wide attack surface |
+| **On-premises** | More direct control of owned hardware | You operate and patch what you own or contract to manage |
+| **Cloud** | Capacity and managed services depend on the offering | Responsibility and visibility vary by service model |
+| **Hybrid** | Combines selected local and hosted services | Needs explicit identity, routing, and ownership boundaries |
+| **Edge** | Processing near a user or device can reduce latency | Distributed devices need lifecycle and access controls |
 
-You also design with **microservices**, **serverless**, and **Infrastructure as Code (IaC)**. *IaC lets you version and review infrastructure the same way you review code.* Embedded systems like **IoT**, **ICS/SCADA**, and **RTOS** often lack patching and run for years, so isolate them.
+You also design with **microservices**, **serverless**, and **Infrastructure as Code (IaC)**. *IaC lets you version and review infrastructure the same way you review code.* Embedded systems like **IoT**, **ICS/SCADA**, and **RTOS** may have constrained maintenance windows, so inventory and segment them according to their actual risk.
 
 ## Cloud Security and Shared Responsibility
 
-In the cloud the provider and customer split duties. The provider secures the **of the cloud** layer (hardware, hypervisor). You secure **in the cloud** (data, identities, configuration).
+Cloud duties vary by service model and contract. In a typical infrastructure service, the provider operates underlying facilities and hardware, while the customer manages data, identities, operating systems, and configuration. Managed services shift some tasks to the provider, but the customer still owns access and data decisions.
 
 - **CASB** (Cloud Access Security Broker) enforces policy between users and cloud apps.
-- **SASE** combines networking and security in one cloud service.
+- **SASE** converges networking and security capabilities delivered as a service.
 - A public storage bucket exposes data when access rules are wrong. Review configuration and test access before release.
 
 Compare the major platforms in [AWS vs Azure vs Google Cloud Platform](/articles/aws-vs-azure-vs-google-cloud-platform/).
@@ -58,7 +59,7 @@ Firewalls come in several types:
 | **WAF** | Web application traffic (XSS, SQLi) |
 | **UTM** | Many functions in one appliance |
 
-Place an **IDS** to detect and an **IPS** to block. Secure name resolution with **DNSSEC**. Study vendor designs in [Fortinet vs Cisco network security comparison](/articles/fortinet-vs-cisco-network-security-comparison/) and [pfSense vs Firewalla](/articles/pfsense-vs-firewalla-network-security-comparison/).
+Place an **IDS** to detect and an **IPS** to block. Use **DNSSEC** to authenticate DNS data. It does not encrypt queries. Study vendor designs in [Fortinet vs Cisco network security comparison](/articles/fortinet-vs-cisco-network-security-comparison/) and [pfSense vs Firewalla](/articles/pfsense-vs-firewalla-network-security-comparison/).
 
 ## Virtualization and Containerization
 

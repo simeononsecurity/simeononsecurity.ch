@@ -1,6 +1,7 @@
 ---
 title: "Security+ SY0-701 Threats, Vulnerabilities, and Mitigations"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Trace a synthetic phishing-to-export chain for SY0-701. Separate evidence from assumptions, select layered controls, and test residual risk."
@@ -37,7 +38,7 @@ You profile attackers by motivation and capability.
 You identify how attackers reach a target.
 
 - **Message-based**: phishing (email), vishing (voice), smishing (SMS).
-- **Business email compromise (BEC)** impersonates an executive to authorize fraud.
+- **Business email compromise (BEC)** uses a message which appears to come from a known source to induce a fraudulent request. The impersonated person need not be an executive.
 - **Supply chain** attacks compromise a trusted vendor or update.
 - **Removable media** spreads malware over USB.
 - **Unsecured networks** expose wireless and wired traffic.
@@ -53,9 +54,9 @@ You categorize weaknesses by where they live.
 | **Hardware** | Firmware, end-of-life devices |
 | **Virtualization** | VM escape, resource reuse |
 | **Cloud** | Misconfiguration, weak IAM |
-| **Zero-day** | A flaw exploited or disclosed before a fix is available in the relevant context |
+| **Zero-day** | A previously unknown vulnerability at the time of attack. Track awareness, disclosure, exploitation, and fix status separately. |
 
-A zero-day label describes the patch window, not necessarily whether a vendor already knows about the flaw. Track whether the issue is known, disclosed, exploited, and patched as separate states. Misconfigurations are one important, preventable source of exposure.
+A zero-day attack exploits a previously unknown vulnerability. Once discovered, the same flaw still needs a patch and exposure review. Track awareness, disclosure, exploitation, and fix status separately. Misconfigurations are one important, preventable source of exposure.
 
 ## Indicators of Malicious Activity
 

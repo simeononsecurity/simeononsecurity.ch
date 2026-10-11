@@ -1,6 +1,7 @@
 ---
 title: "Security+ SY0-701 Security Program Management"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Work a SY0-701 risk register with loss estimates, vendor review, recovery targets, audit evidence, and a measured awareness exercise."
@@ -50,7 +51,7 @@ Quantitative analysis uses three formulas:
 You then choose a **risk strategy**:
 
 - **Mitigate** reduces the risk with controls.
-- **Transfer** shifts it to a third party (insurance).
+- **Transfer** allocates some financial impact through a contract or insurance. The organization keeps accountability and uncovered impact.
 - **Accept** keeps the risk when cost outweighs benefit.
 - **Avoid** stops the activity that creates the risk.
 
@@ -92,7 +93,7 @@ Frameworks give you a proven structure instead of starting from scratch.
 |-----------|-------|
 | **NIST CSF 2.0** | Govern, Identify, Protect, Detect, Respond, Recover |
 | **ISO 27001** | Information security management system |
-| **SOC 2** | Service provider trust controls |
+| **SOC 2** | AICPA examination and report on controls relevant to selected Trust Services Criteria |
 | **PCI DSS** | Cardholder data protection |
 
 ## Audits and Assessments

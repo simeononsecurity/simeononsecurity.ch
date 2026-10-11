@@ -1,6 +1,7 @@
 ---
 title: "CompTIA Security+ (SY0-701): General Security Concepts"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Learn SY0-701 security controls, identity, change review, cryptography, and PKI through a local evidence and control-selection exercise."
@@ -32,11 +33,11 @@ Controls also have a **function**:
 
 | Function | Purpose |
 |----------|---------|
-| **Preventive** | Stops an event (firewall) |
+| **Preventive** | Aims to prevent or reduce the likelihood of an event (firewall) |
 | **Detective** | Identifies an event (IDS) |
 | **Corrective** | Fixes after an event (backup restore) |
 | **Deterrent** | Discourages an attacker (warning sign) |
-| **Compensating** | An alternative when the primary control fails |
+| **Compensating** | An alternative used in place of a required baseline control when it gives comparable protection |
 | **Directive** | Guides behavior (policy) |
 
 ## Fundamental Security Concepts
@@ -44,7 +45,7 @@ Controls also have a **function**:
 You protect the **CIA triad**:
 
 - **Confidentiality** keeps data secret from unauthorized access.
-- **Integrity** ensures data is not altered.
+- **Integrity** guards against unauthorized modification or destruction.
 - **Availability** keeps data and systems accessible.
 
 **Non-repudiation** uses evidence such as digital signatures to support a claim about who approved an action. The claim also depends on a trusted binding between the signer and key, key control, and reliable records. **AAA** is the access trio:
@@ -103,7 +104,7 @@ You manage trust with certificates.
 
 You verify identity with multiple factors.
 
-**MFA** combines factors: something you **know**, **have**, **are**, **do**, or somewhere you **are**. **SSO** lets one login reach many apps, often with **federation** through SAML or OpenID Connect. Strong, unique passwords remain the baseline, covered in [how to create strong passwords](/articles/how-to-create-strong-passwords/).
+**MFA** combines independent factor types, usually something you **know**, **have**, or **are**. Location and behavior can add signals, but do not automatically count as an independent factor. **SSO** lets one login reach many apps, often with **federation** through SAML or OpenID Connect. Strong, unique passwords remain the baseline, covered in [how to create strong passwords](/articles/how-to-create-strong-passwords/).
 
 ## Practice: Protect a Library Export
 
