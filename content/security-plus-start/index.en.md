@@ -1,6 +1,7 @@
 ---
 title: "CompTIA Security+ Course"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
 description: "Study all five Security+ SY0-701 domains through a safe library case, evidence worksheets, control decisions, log triage, and a final assessment."
