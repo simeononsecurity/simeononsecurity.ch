@@ -22,7 +22,7 @@ Virtualization runs many systems on one machine. Cloud computing rents that capa
 You run software-defined computers on physical hardware.
 
 - A **virtual machine (VM)** emulates a full computer with its own OS, isolated from the host.
-- A **sandbox** runs untrusted code in isolation so it cannot harm the host.
+- A **sandbox** restricts untrusted code and reduces host exposure. Escapes, shared folders, network access, and management mistakes remain possible.
 - **Test and development environments** let you try changes without risking production.
 - **Snapshots** capture a VM state so you roll back after a failed change.
 
@@ -34,10 +34,10 @@ You pick the hypervisor that fits the workload.
 
 | Type | Runs on | Example | Use |
 |------|---------|---------|-----|
-| **Type 1 (bare metal)** | Directly on hardware | ESXi, Hy-V, Proxmox | Data centers, servers |
+| **Type 1 (bare metal)** | Directly on hardware | ESXi, Hyper-V, Proxmox VE | Data centers, servers |
 | **Type 2 (hosted)** | On top of an OS | VirtualBox, VMware Workstation | Desktops, labs, testing |
 
-**Type 1** hypervisors are faster and more secure because no host OS sits between them and the hardware. **Type 2** hypervisors are easier to install on a normal desktop.
+**Type 1** hypervisors run directly on host hardware, while **Type 2** products run through a host OS. Security and speed depend on the product, workload, patch level, and configuration. Neither type guarantees guest isolation.
 
 ## Virtualization Requirements
 
@@ -47,7 +47,7 @@ You meet the prerequisites before a VM runs well.
 - Enough **RAM** to allocate to each guest plus the host.
 - **Storage** for virtual disks, ideally on fast SSDs.
 - **Network** configuration with bridged, NAT, or host-only adapters.
-- **Security** isolation so a compromised guest cannot reach the host.
+- **Security** isolation controls to reduce guest-to-host risk. Account for VM escapes, shared resources, network paths, and management mistakes.
 
 ## Desktop Virtualization and Containers
 

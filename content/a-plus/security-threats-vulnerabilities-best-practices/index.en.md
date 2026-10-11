@@ -48,9 +48,9 @@ You pick the strongest protocol the hardware supports.
 |----------|----------|
 | **WEP** | Broken, never use |
 | **WPA2** | AES encryption, still common |
-| **WPA3** | Strongest, current standard |
+| **WPA3** | Preferred current option where clients and access points support the selected mode |
 
-**WPA3** with **AES** is the goal. Enterprise networks add **RADIUS** or **TACACS+** for centralized authentication, and **Kerberos** issues tickets for domain logon.
+Prefer a supported WPA3 mode with strong credentials and current device updates. WPA2 with AES-based CCMP remains a compatibility choice. Enterprise Wi-Fi commonly uses 802.1X with RADIUS. TACACS+ typically serves device administration. Kerberos issues tickets in domain environments, but is not a direct substitute for Wi-Fi authentication.
 
 ## Types of Malware
 

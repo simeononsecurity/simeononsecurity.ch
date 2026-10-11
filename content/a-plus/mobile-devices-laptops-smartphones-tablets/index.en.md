@@ -59,10 +59,10 @@ You connect mobile devices with the right ports and protocols.
 
 You configure how devices reach the internet and the carrier.
 
-- **Cellular data** spans **3G, 4G/LTE, and 5G**, each faster than the last.
+- **Cellular data** spans **3G, 4G/LTE, and 5G**. Newer generations support higher peak rates, but actual service depends on coverage, spectrum, device, and congestion.
 - A **SIM** or **eSIM** holds the subscriber identity that authenticates the device on the carrier network.
 - A **hotspot** turns the device into a Wi-Fi access point for other devices.
-- **Airplane mode** disables all radios at once for flights or troubleshooting.
+- **Airplane mode** changes radio settings for flights or troubleshooting. Check the device because Wi-Fi or Bluetooth might remain available or be turned back on separately.
 
 **Location services** combine **GPS satellites** with **cellular and Wi-Fi positioning** for faster, indoor-capable location fixes. *Disabling GPS saves battery but breaks maps and find-my-device features.*
 

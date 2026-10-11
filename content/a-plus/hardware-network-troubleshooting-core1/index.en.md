@@ -13,7 +13,7 @@ coverCaption: "Master Hardware and Network Troubleshooting for the A+ 220-1201 E
 
 #### [Click Here to Return To the CompTIA A+ Course Page](/a-plus-start/)
 
-**Hardware and Network Troubleshooting** is **28%** of the **CompTIA A+ 220-1201 Core 1** exam, the largest domain on either exam. This module covers the troubleshooting methodology and how to diagnose hardware, displays, mobile devices, printers, and networks. *The exam tests process as much as parts, so learn the methodology in order.*
+**Hardware and Network Troubleshooting** is **28%** of the **CompTIA A+ 220-1201 Core 1** exam, tied with two Core 2 domains for the largest listed percentage across the two exams. This module covers the troubleshooting methodology and how to diagnose hardware, displays, mobile devices, printers, and networks. *The exam tests process as much as parts, so learn the methodology in order.*
 
 Troubleshooting is the skill that defines a good technician. You follow a repeatable process, read the symptoms, form a theory, and prove it before you replace anything. This module turns scattered symptoms into a reliable diagnosis.
 

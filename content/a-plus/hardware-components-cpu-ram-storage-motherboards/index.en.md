@@ -71,7 +71,7 @@ You install the core components and configure firmware.
 
 **Form factors** set board size: **ATX** is full-size, **microATX** is smaller, and **Mini-ITX** is the smallest. **CPU architecture** spans **x86/x64** for desktops and servers and **ARM** for phones, tablets, and modern laptops.
 
-You set firmware in **BIOS/UEFI**: boot order, virtualization support, **Secure Boot**, and a **TPM** for encryption keys. *UEFI replaced legacy BIOS with a GUI, mouse support, and drives larger than 2 TB.*
+You set firmware in **BIOS/UEFI**: boot order, virtualization support, **Secure Boot**, and a **TPM** for encryption keys. UEFI supports modern boot features, including Secure Boot, but does not require a graphical interface or mouse. Booting from a volume larger than 2 TB also depends on partition layout, firmware, operating system, and device support.
 
 ```text
 Common UEFI settings to know:
