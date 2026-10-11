@@ -1,8 +1,10 @@
+---
 title: "CEH v13: Cryptography and PKI"
 date: 2025-01-01
 toc: true
 draft: false
 description: "Master cryptography and PKI for the EC-Council Certified Ethical Hacker (CEH v13) exam. Learn symmetric and asymmetric encryption, PKI components, crypto attacks, the TLS handshake, and key management."
+lastmod: 2026-10-10
 genre: ["EC-Council CEH Course", "Ethical Hacking", "Penetration Testing", "Offensive Security", "Cybersecurity", "Network Security", "Security Testing", "Hacking Techniques", "CEH Certification", "Information Security"]
 tags: ["CEH", "CEH v13", "ethical hacking", "EC-Council", "penetration testing", "cryptography and pki", "offensive security", "cybersecurity", "hacking", "security testing"]
 cover: "/img/cover/ceh-v13-cryptography-pki-illustration.webp"
@@ -23,18 +25,18 @@ You divide encryption by how keys are used.
 | Type | Key | Examples | Use case |
 |------|-----|----------|----------|
 | **Symmetric** | One shared key | AES, ChaCha20 | Bulk data encryption |
-| **Asymmetric** | Public and private pair | RSA, ECC | Key exchange, signatures |
+| **Public-key cryptography** | Public and private pair | RSA, elliptic-curve schemes | Key agreement or transport, signatures |
 
-Most systems combine both. Asymmetric crypto exchanges a key, then fast symmetric crypto encrypts the data.
+Many protocols combine public-key operations with symmetric encryption. In modern TLS, ephemeral (EC)DHE key agreement commonly derives a shared secret, then symmetric keys protect application traffic. RSA key transport exists in older TLS designs, but it is not the general model for current sessions.
 
 ## Hashing and Digital Signatures
 
-A **hash** produces a fixed-length fingerprint of data. It is one-way, so you cannot reverse it to the original input.
+A **cryptographic hash** maps input to a fixed-length digest. Preimage resistance makes recovery of an arbitrary input computationally difficult. An attacker still tries likely inputs, so an unkeyed hash alone is unsuitable for password storage.
 
 - **SHA-256** and **SHA-3** are current secure hashes.
-- **MD5** and **SHA-1** are broken and must not be used.
+- **MD5** and **SHA-1** have practical collision attacks and are unsuitable for digital signatures or other collision-sensitive security uses. They still appear as nonsecurity checksums, where an attacker-resistant digest is not required.
 
-A **digital signature** hashes a message, then encrypts the hash with a private key. The receiver verifies it with the public key, which proves integrity and authenticity.
+A **digital signature** uses a private signing key to sign a message or its digest under a defined algorithm. The verifier uses the public key to check the signature. A valid signature supports message integrity and control of the signing key. It establishes a named signer's identity only when the verifier also trusts the key-to-identity binding, such as a validated certificate. ECDSA and EdDSA do not work by encrypting a hash.
 
 You can generate and compare hashes with the [hash calculator](/hash-calculator/) or follow the [Linux hashing guide](/guides/how-to-get-hashes-of-files-on-linux/) and the [Windows hashing guide](/guides/how-to-get-hashes-of-files-in-windows/).
 
