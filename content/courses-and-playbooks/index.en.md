@@ -1,6 +1,6 @@
 ---
 title: "CompTIA, Cisco & Cybersecurity Courses and Playbooks"
-description: "Explore practical AI, red team, personal security, career, CompTIA, Cisco, EC-Council, and ISC2 courses, playbooks, and practice tests."
+description: "Explore hands-on AI, incident response, cloud IAM, secure CI/CD, red team, personal security, career, and certification courses and playbooks."
 genre: ["CompTIA courses", "Cisco courses", "EC-Council courses", "ISC2 exams", "Cybersecurity careers", "Certification preparation", "Networking fundamentals", "Network security", "Ethical hacking", "Information security management"]
 tags: ["AI workflow course", "AI collaboration course", "coding agents", "red team course", "personal security course", "CompTIA", "CompTIA courses", "CompTIA certification", "CompTIA training", "CompTIA Network Plus", "CompTIA Security Plus", "CompTIA CySA Plus", "CompTIA PenTest Plus", "CompTIA CASP Plus", "CompTIA SecAI Plus", "CompTIA SecOT Plus", "Cisco", "Cisco courses", "Cisco certification", "Cisco training", "CCNA", "CCNP", "CCIE", "EC-Council", "EC-Council courses", "EC-Council certification", "EC-Council training", "CEH", "ECSA", "CHFI", "LPT", "ISC2", "ISC2 exams", "ISC2 certification", "ISC2 training", "CISSP", "CCSP", "SSCP", "Cybersecurity careers", "IT career playbook", "software development career playbook", "resume optimization"]
 sitemap:
@@ -35,6 +35,11 @@ We offer practical skills courses, career playbooks, certification study paths, 
 - #### [Personal Security Course](/personal-security-course-start/)
 - #### [Practical AI Workflow Course](/effective-ai-course-start/)
 - #### [AI Collaboration Implementation Course](/ai-collaboration-course-start/)
+- #### [Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+- #### [Local AI: From First Model to Secure Server](/local-ai-secure-server-course/)
+- #### [Detection Engineering and Incident Response Course](/detection-engineering-incident-response-course-start/)
+- #### [Cloud IAM and Zero Trust Lab Course](/cloud-iam-zero-trust-course-start/)
+- #### [Secure CI/CD and Software Supply Chains Course](/secure-cicd-course-start/)
 
 ---
 
