@@ -13,7 +13,7 @@ coverCaption: "Assess and Treat Risk in OT Environments from the SOT-001 Draft"
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Risk Management** is **17%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you how to find risk in an OT environment, decide how much risk the business will tolerate, and choose treatments that do not break the process. *In OT, a control that interrupts production or safety can be worse than the risk it addresses, so risk decisions must include the engineers who run the plant.*
 

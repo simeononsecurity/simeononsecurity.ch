@@ -13,7 +13,7 @@ coverCaption: "Build a Safety-First Foundation in OT Systems from the SOT-001 Dr
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Systems and Safety Foundations** is **14%** in the **draft SecOT+ (SOT-001)** objectives. This domain establishes the language and safety mindset you need before you secure anything. In operational technology, a mistake can injure people or shut down critical infrastructure, so safety always comes before security. *Learn the components, the systems, the control logic, and the protocols cold, because every later domain builds on this vocabulary.*
 

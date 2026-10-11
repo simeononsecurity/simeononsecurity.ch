@@ -13,7 +13,7 @@ coverCaption: "Run Day-to-Day OT Security Operations from the SOT-001 Draft"
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Security Operations** is **22%** in the **draft SecOT+ (SOT-001)** objectives, making it the most heavily weighted domain. This is the daily work of keeping an OT environment secure. You discover and track assets, collect and analyze data, hunt for threats, and manage vulnerabilities in systems you often cannot simply patch. *Spend the most study time here. Visibility is the foundation, because you cannot protect an asset you do not know exists.*
 

@@ -13,7 +13,7 @@ coverCaption: "Design Resilient, Segmented OT Architecture from the SOT-001 Draf
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Cybersecurity Architecture, Design, and Engineering** is **18%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you to build OT systems that resist attack and keep running through one. You apply layered controls, harden fragile devices, and segment the network so a compromise on one side cannot reach the process on the other. *Architecture is where you prevent the IT-to-OT pivot you studied in threat intelligence, so give this heavily weighted domain deep, hands-on attention.*
 

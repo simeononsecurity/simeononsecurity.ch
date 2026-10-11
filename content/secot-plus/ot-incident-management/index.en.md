@@ -13,7 +13,7 @@ coverCaption: "Lead OT Incident Response from Detection to Recovery from the SOT
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Incident Management** is **15%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you to respond when prevention fails. You follow a structured model, coordinate IT and OT teams, preserve evidence, and restore the process safely. *In OT, the response itself can cause harm, so every action weighs safety and physical impact, not just data recovery.*
 

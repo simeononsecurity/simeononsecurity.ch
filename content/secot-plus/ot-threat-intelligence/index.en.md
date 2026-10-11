@@ -13,7 +13,7 @@ coverCaption: "Understand the Adversaries Targeting OT from the SOT-001 Draft"
 
 **Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
-#### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
+[Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
 **OT Threat Intelligence** is **14%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you who attacks OT, how they operate, and how you turn raw information into intelligence that drives defense. *Real OT attacks are rare but consequential, so you study the landmark cases closely because they define the techniques you must detect.*
 
