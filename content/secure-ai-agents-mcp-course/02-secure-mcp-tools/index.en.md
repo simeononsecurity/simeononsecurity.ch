@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Software Engineering"]
 tags: ["MCP tool security", "MCP authorization", "Model Context Protocol security", "OAuth MCP", "least privilege tools"]
 cover: "/img/cover/secure-mcp-tools-authorization.webp"
 coverAlt: "MCP client and server with scoped tools, authorization checks, and an approval gate"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

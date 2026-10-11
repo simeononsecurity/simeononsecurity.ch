@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Operations"]
 tags: ["AI agent monitoring", "agent audit log", "MCP logging", "AI incident response", "agent recovery"]
 cover: "/img/cover/secure-agent-operations-evidence.webp"
 coverAlt: "Agent operations timeline with policy decisions, tool calls, alerts, and recovery checks"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

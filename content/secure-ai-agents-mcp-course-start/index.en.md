@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Software Engineering"]
 tags: ["secure AI agents", "MCP security", "Model Context Protocol", "prompt injection defense", "agent security", "least privilege", "tool approval", "AI threat model"]
 cover: "/img/cover/secure-ai-agents-mcp-course.webp"
 coverAlt: "Diagram of an AI agent separated from data and tools by policy and approval controls"
-coverCaption: "Course cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 **This course teaches you to contain an AI agent before you trust its output.** You will map authority, review MCP server and tool controls, test a prompt injection in an isolated lab, and produce an evidence package for review.

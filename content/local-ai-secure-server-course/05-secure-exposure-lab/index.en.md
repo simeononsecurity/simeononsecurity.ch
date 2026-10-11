@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Hands-On Lab"]
 tags: ["local AI security lab", "API authentication lab", "loopback server", "LLM gateway test", "secure model API"]
 cover: "/img/cover/local-ai-secure-exposure-lab.webp"
 coverAlt: "Lab gateway blocking unauthorized access before a synthetic loopback model service"
-coverCaption: "Lab cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

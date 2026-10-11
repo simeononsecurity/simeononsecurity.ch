@@ -7,9 +7,9 @@ draft: false
 description: "Map agent authority, data origins, side effects, and approval points before connecting tools."
 genre: ["Artificial Intelligence", "Cybersecurity"]
 tags: ["AI agent threat model", "agent trust boundary", "prompt injection", "agent authority", "AI security course"]
-cover: "/img/cover/secure-ai-agent-trust-boundaries.webp"
+cover: "/img/cover/agent-trust-boundaries.webp"
 coverAlt: "Trust boundary map linking a user, AI model, MCP client, tools, and downstream services"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

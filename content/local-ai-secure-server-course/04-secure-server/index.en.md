@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Self-Hosted"]
 tags: ["secure local AI server", "Ollama security", "LLM API authentication", "AI reverse proxy", "private AI server"]
 cover: "/img/cover/secure-local-ai-server-design.webp"
 coverAlt: "Local AI server behind a private network, authenticated proxy, firewall, and monitoring controls"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

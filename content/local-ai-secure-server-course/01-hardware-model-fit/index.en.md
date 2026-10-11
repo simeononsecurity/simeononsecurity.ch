@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Hardware", "Self-Hosted"]
 tags: ["local LLM hardware", "VRAM model sizing", "GGUF quantization", "local AI model selection", "AI model license"]
 cover: "/img/cover/local-ai-hardware-model-fit.webp"
 coverAlt: "Hardware inventory matched to model weights, context memory, and workload requirements"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

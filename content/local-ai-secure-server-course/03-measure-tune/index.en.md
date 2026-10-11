@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Performance", "Self-Hosted"]
 tags: ["local LLM benchmark", "Ollama performance", "llama.cpp benchmark", "tokens per second", "context memory", "GPU offload"]
 cover: "/img/cover/local-ai-inference-measure-tune.webp"
 coverAlt: "Local AI performance worksheet comparing prompt speed, generation speed, memory, and context"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

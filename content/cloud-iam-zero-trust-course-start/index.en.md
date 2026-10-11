@@ -7,7 +7,7 @@ draft: false
 description: "Design, test, review, and remove cloud identity access across AWS, Azure, and Google Cloud with zero trust principles and disposable labs."
 genre: ["Cloud Security", "Identity and Access Management", "Zero Trust", "Security Lab"]
 tags: ["cloud IAM course", "zero trust course", "AWS IAM lab", "Azure RBAC lab", "Google Cloud IAM lab", "least privilege", "workload identity", "access review"]
-cover: "/img/cover/cloud-iam-zero-trust-lab-course.webp"
+cover: "/img/cover/cloud-iam-zero-trust-course.webp"
 coverAlt: "Cloud identities passing through policy checks before reaching protected resources."
 coverCaption: "Grant narrow access, test the result, and remove the lab."
 ---

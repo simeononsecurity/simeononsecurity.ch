@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Self-Hosted", "Tutorial"]
 tags: ["Ollama tutorial", "run local LLM", "local AI API", "first local model", "Ollama CLI"]
 cover: "/img/cover/run-first-local-ai-model.webp"
 coverAlt: "Terminal session pulling a local model and sending a prompt through a loopback API"
-coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

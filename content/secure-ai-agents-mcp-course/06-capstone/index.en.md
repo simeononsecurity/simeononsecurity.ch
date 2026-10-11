@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Capstone"]
 tags: ["AI agent security capstone", "MCP design review", "agent threat model", "security evidence"]
 cover: "/img/cover/secure-agent-mcp-capstone.webp"
 coverAlt: "Review board with an agent authority map, MCP contract, test trace, and approval record"
-coverCaption: "Capstone cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

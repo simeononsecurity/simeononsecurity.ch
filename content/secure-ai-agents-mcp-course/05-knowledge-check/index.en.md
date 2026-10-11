@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Assessment"]
 tags: ["AI agent security quiz", "MCP security quiz", "prompt injection questions", "agent assessment"]
 cover: "/img/cover/secure-ai-agents-mcp-knowledge-check.webp"
 coverAlt: "Security review checklist beside an AI agent and MCP tool diagram"
-coverCaption: "Assessment cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

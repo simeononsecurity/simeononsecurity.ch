@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Cybersecurity", "Hands-On Lab"]
 tags: ["prompt injection lab", "AI agent defense lab", "MCP security lab", "tool misuse", "agent sandbox"]
 cover: "/img/cover/agent-prompt-injection-defense-lab.webp"
 coverAlt: "Isolated agent lab showing a hostile issue blocked before an outbound tool call"
-coverCaption: "Lab cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)

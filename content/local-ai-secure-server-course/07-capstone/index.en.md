@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Self-Hosted", "Capstone"]
 tags: ["local AI capstone", "secure Ollama server", "llama.cpp deployment", "local LLM operations", "AI server plan"]
 cover: "/img/cover/local-ai-secure-server-capstone.webp"
 coverAlt: "Deployment package linking a model record, benchmark, network policy, tests, monitoring, and rollback"
-coverCaption: "Capstone cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)

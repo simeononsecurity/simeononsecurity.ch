@@ -9,7 +9,7 @@ genre: ["Artificial Intelligence", "Self-Hosted", "Assessment"]
 tags: ["local AI quiz", "Ollama quiz", "local LLM server assessment", "AI server security questions"]
 cover: "/img/cover/local-ai-secure-server-knowledge-check.webp"
 coverAlt: "Local AI server review sheet with model, memory, network, identity, and recovery checks"
-coverCaption: "Assessment cover placeholder. Image generation follows editorial review."
+coverCaption: ""
 ---
 
 [Return to the Local AI Course](/local-ai-secure-server-course-start/)
