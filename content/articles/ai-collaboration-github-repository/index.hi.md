@@ -214,19 +214,19 @@ Proposals -> Issues and proposal branches
 
 **केवल settings से enforcement claim न करें।** Settings intended configuration स्थापित करती हैं। Sandbox attempt किसी particular role और route के observed behavior को स्थापित करता है। दोनों को agent और Actions lesson में ले जाएँ।
 
-## Troubleshooting और rollback
+## समस्या निवारण और वापस करना
 
 **Owner request missing:** write access और base-branch path coverage confirm करें। **Protection absent:** plan और visibility verify करें। **Merge enabled:** rule target, bypass configuration और review count देखें।
 
 **Rollback:** unmerged proposals बंद करें और lab automation deactivate करें। Merged lab content को दूसरी reviewed PR से revert करें। Disposable repository delete करने से पहले evidence रखें। Failing test पूरा करने के लिए protection कमजोर न करें।
 
-## Exercise और self-check
+## अभ्यास और स्व-जाँच
 
 Contributor के रूप में **`docs/policy.md` में edit propose करें**। तय करें कि maintainer approval alone policy-owner approval स्थापित करती है या नहीं।
 
 **Expected reasoning:** review count अकेले authority स्थापित नहीं करता। Path को policy-owner coverage और current role review चाहिए। Unenforced role-specific requirements को procedural controls के रूप में सूचीबद्ध करें।
 
-## Primary references
+## मुख्य संदर्भ
 
 - **Plan और review controls:** [Protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)।
 - **Owner eligibility:** [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)।
