@@ -24,6 +24,9 @@
   bodies, and missing sections. File existence alone does not establish coverage.
 - Compare section structure against English. A translation with far fewer
   headings needs inspection for an older or incomplete source revision.
+- When work is split into language batches, derive the complete language list
+  again before the final audit. Do not treat a completed batch as full bundle
+  coverage. Include every configured code, including `pl` when present.
 
 ## Preserve Source Meaning and Structure
 

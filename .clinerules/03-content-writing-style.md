@@ -386,6 +386,8 @@ Cross-link aggressively so the course works as a connected set:
 
 - Every domain page opens with a return link to the start page and closes with a `## Next Steps`
   section linking the next sibling domain and the start page.
+- Write the opening return link as a plain link paragraph. Do not format navigation links as
+  headings, since they obscure the lesson outline for readers and search engines.
 - The start page links to every domain page, the practice test, related courses, and the official
   objectives.
 - Use root-relative links (`/secot-plus/ot-risk-management/`), not absolute URLs, for internal pages.
