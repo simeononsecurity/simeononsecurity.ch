@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **Um `max_tokens` explícito** fornece ao roteador um tamanho de saída solicitado para comparar com o suporte do provedor. Escolha esse valor a partir das necessidades medidas da tarefa e do contexto disponível. Definir um valor excessivo reduz a elegibilidade e não garante uma resposta mais longa ou melhor.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="Ilustração de uma reserva de tokens dividida fluindo por um modelo até um fluxo de saída" caption="Alocação conceitual de tokens, com raciocínio e saída visível compartilhando o limite de conclusão nos provedores compatíveis" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## Exija seus parâmetros
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## Guia de roteamento de endpoints
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="Roteamento de endpoints, precisão e preços no OpenRouter" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **Para assistir:** [Discussão sobre qualidade e roteamento de endpoints do OpenRouter](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). Verifique novamente as listas de endpoints antes de aplicar preços, limites ou comparações específicas.
 

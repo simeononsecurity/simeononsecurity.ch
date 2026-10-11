@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **Явный `max_tokens`** сообщает маршрутизатору требуемую длину вывода для сопоставления с поддержкой провайдера. Выбирайте значение по измеренным потребностям задачи и доступному контексту. Завышенное значение сужает список кандидатов и не гарантирует более длинный или качественный ответ.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="Иллюстрация разделённого пула токенов, который проходит через модель в поток вывода" caption="Схематичное распределение токенов, где рассуждение и видимый вывод используют общий лимит дополнения" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## Требуйте свои параметры
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## Практика маршрутизации endpoint
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="Маршрутизация endpoint OpenRouter, точность и цены" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **Дополнительное видео:** [Обсуждение качества и маршрутизации endpoint OpenRouter](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). Перед применением конкретных цен, лимитов или сравнений снова проверьте список endpoint.
 

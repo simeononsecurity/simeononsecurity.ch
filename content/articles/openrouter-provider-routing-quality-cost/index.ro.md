@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **Un `max_tokens` explicit** oferă routerului lungimea cerută a ieșirii pentru compararea cu suportul furnizorului. Alege-l din necesarul măsurat al sarcinii și contextul disponibil. O valoare excesivă restrânge eligibilitatea și nu garantează un răspuns mai lung sau mai bun.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="Ilustrație a unei rezerve de tokenuri împărțite care trece printr-un model către un flux de ieșire" caption="Alocare conceptuală a tokenurilor, în care raționamentul și ieșirea vizibilă împart limita completării la furnizorii acceptați" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## Impune parametrii
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## Ghid de rutare a endpointului
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="Rutarea endpointurilor OpenRouter, precizie și prețuri" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **Vizionare suplimentară:** [Discuție despre calitatea și rutarea endpointurilor OpenRouter](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). Verifică din nou listele de endpointuri înainte să aplici prețuri, limite sau comparații specifice.
 

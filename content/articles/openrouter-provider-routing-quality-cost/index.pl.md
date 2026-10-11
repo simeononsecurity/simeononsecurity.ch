@@ -92,7 +92,7 @@ curl --fail --silent --show-error \
 
 **Jawne `max_tokens`** daje routerowi żądaną długość wyniku do porównania z obsługą dostawcy. Wybierz ją na podstawie zmierzonych potrzeb zadania i dostępnego kontekstu. Nadmierna wartość zawęża kwalifikację i nie gwarantuje dłuższej ani lepszej odpowiedzi.
 
-{{< figure src="context-reasoning-output-token-budget.webp" alt="Ilustracja podzielonej puli tokenów płynącej przez model do strumienia wyniku" caption="Koncepcyjny podział tokenów, w którym rozumowanie i widoczny wynik dzielą limit uzupełnienia u obsługiwanych dostawców" >}}
+{{< figure src="context-reasoning-output-token-budget.webp" alt="Illustration of a divided token pool flowing through a model into an output stream" caption="Conceptual token allocation, with reasoning and visible output sharing the completion allowance on supported providers" >}}
 
 ## Wymuś swoje parametry
 
@@ -212,7 +212,7 @@ B =  $3.84 / 7 = $0.55
 
 ## Przewodnik po routingu endpointu
 
-{{< youtube id="ZsnFX5mEJ4s" enable="true" title="Routing endpointów OpenRouter, precyzja i ceny" >}}
+{{< youtube id="ZsnFX5mEJ4s" enable="true" title="OpenRouter endpoint routing, precision, and pricing" >}}
 
 **Dalsze oglądanie:** [Dyskusja o jakości i routingu endpointów OpenRouter](https://www.youtube.com/watch?v=ZsnFX5mEJ4s). Przed użyciem konkretnych cen, limitów lub porównań dostawców ponownie sprawdź listy endpointów.
 
