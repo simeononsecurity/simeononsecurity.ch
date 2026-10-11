@@ -29,7 +29,7 @@ The **OSI (Open Systems Interconnection) model** is a conceptual framework that 
 
 3. **Layer 3 - Network**: The network layer facilitates the routing of data packets from the source to the destination across multiple network nodes. It addresses issues related to **network congestion**, **packet routing**, and **IP addressing**.
 
-4. **Layer 4 - Transport**: The transport layer ensures **end-to-end data delivery** and establishes reliable communication between source and destination. It manages **data segmentation**, **flow control**, and **error recovery**.
+4. **Layer 4 - Transport**: Transport protocols carry data between application endpoints. TCP provides ordered, reliable delivery through acknowledgments and retransmission. UDP sends datagrams without a delivery guarantee. Choose the transport behavior your application needs. See [RFC 768](https://www.rfc-editor.org/rfc/rfc768).
 
 5. **Layer 5 - Session**: The session layer sets up, maintains, and terminates communication sessions between applications. It manages **dialogue control** and **synchronization** between devices.
 
@@ -65,7 +65,7 @@ Network topologies define the physical or logical arrangement of network devices
 
 ### Mesh Topology
 
-In a **mesh topology**, every device is connected to every other device, forming a fully interconnected network. This redundancy provides high fault tolerance but can be costly and complex to implement. Mesh topologies are commonly used in critical infrastructure and high-performance computing environments.
+In a **full mesh**, every node has a direct link to every other node. In a **partial mesh**, only selected nodes have direct links. Redundant paths improve availability, but add cost and configuration work. Draw the actual links before you decide which failure paths the design survives.
 
 ### Star/Hub-and-Spoke Topology
 
@@ -131,7 +131,7 @@ A **storage area network (SAN)** is a specialized network designed for storage p
 
 ### Multiprotocol Label Switching (MPLS)
 
-**Multiprotocol Label Switching (MPLS)** is a routing technique that uses labels to efficiently forward data packets across a network. It provides high-performance, reliable, and secure communication, making it suitable for service providers and enterprises.
+**Multiprotocol Label Switching (MPLS)** forwards traffic using labels. Providers use MPLS to steer traffic and provide network services. MPLS does not itself encrypt or authenticate packets. Add a suitable encryption layer when traffic confidentiality or integrity is required.
 
 ### Multipoint Generic Routing Encapsulation (mGRE)
 
@@ -179,7 +179,7 @@ Provider links refer to the various types of connectivity options offered by ser
 
 ### Leased Line
 
-A **leased line** is a dedicated, point-to-point connection between two locations. It provides reliable and secure connectivity, making it suitable for businesses with high bandwidth requirements.
+A **leased line** is a dedicated, point-to-point connection between two locations. It provides predictable connectivity, but the line itself does not guarantee confidentiality. Encrypt sensitive traffic over the link.
 
 ### Metro-Optical
 

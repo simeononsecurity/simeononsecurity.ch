@@ -3,7 +3,8 @@ title: "CompTIA Network+ (N10-009) Complete Study Guide"
 date: 2023-07-28
 toc: true
 draft: false
-description: "Join our comprehensive Network+ Mastery Course and gain expertise in Networking Fundamentals to excel in the world of IT networking."
+description: "Study the five CompTIA Network+ N10-009 domains, from networking concepts and implementation through operations, security, and troubleshooting."
+lastmod: 2026-10-10
 genre: ["Network+ Certification Course", "Networking Fundamentals", "CompTIA Network Plus", "IT Networking", "Network+ Exam Prep", "Network+ Study Guide", "Networking Basics", "Network Topologies", "TCP IP", "Subnetting"]
 tags: ["Network+ Certification", "CompTIA Network Plus", "networking course", "Networking Fundamentals", "IT networking", "Network+ exam prep", "Network+ study guide", "networking basics", "network topologies", "TCP IP", "subnetting", "network protocols", "network devices", "routing technologies", "Ethernet switching", "wireless standards", "network security", "network troubleshooting", "network monitoring", "bandwidth management", "QoS", "network logs", "network documentation", "network availability", "backup and restore", "network hardening", "physical security", "patch management"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_holding_a_Network.webp"
@@ -11,15 +12,25 @@ coverAlt: "A cartoon illustration of a person holding a Network+ certification b
 coverCaption: "Empower Your Networking Career"
 ---
 
+**The N10-009 exam has five domains.** Use the official objectives to check each topic before scheduling your exam. This course is a study guide, not a substitute for supervised configuration practice.
+
+| Domain | Weight | Study focus |
+|---|---:|---|
+| **Networking Concepts** | 23% | Protocols, addressing, ports, and architecture |
+| **Network Implementation** | 20% | Routing, switching, wireless, and physical installation |
+| **Network Operations** | 19% | Monitoring, documentation, services, and recovery |
+| **Network Security** | 14% | Access, segmentation, hardening, and threats |
+| **Network Troubleshooting** | 24% | Method, fault isolation, tools, and evidence |
+
 ## Resources
 
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [Network+ Practice Test](/network-plus-practice-test/)
-- [Network+ Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-network-n10-008-exam-objectives-(2-0/)/)
+- [Official Network+ N10-009 Exam Objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
 - [Professor Messer's Network Plus Videos](https://www.youtube.com/watch?v=As6g6IXcVa4&list=PLG49S3nxzAnlCJiCrOYuRYb6cne864a7G/)
 - [Additional Learning Resources](/recommendations/learning_resources/)
 
-## Objective 1: Networking Fundamentals
+## Domain 1: Networking Concepts (23%)
 
 {{< figure src="networking-fundamentals-osi-model.webp" alt="An informative graphic displaying interconnected network nodes, illustrating the OSI model layers and their functions. Each layer is color-coded and labeled, creating a visual guide for understanding the layers and their interactions." caption="Navigating the Network Layers: A Visual Guide to OSI Model Fundamentals." >}}
 
@@ -44,7 +55,7 @@ coverCaption: "Empower Your Networking Career"
 - Explaining connectors, termination standards, and fiber types
 - Configuring subnets and understanding IP addressing schemes
 
-### [Ports, Protocols, and Network Services](/network-plus/cables-connectors-ip-addressing-guide/)
+### [Ports, Protocols, and Network Services](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/)
 
 - Explaining common ports and protocols and their applications
 - Introducing encrypted alternatives for secure communication
@@ -67,9 +78,8 @@ coverCaption: "Empower Your Networking Career"
 - Understanding the concepts of elasticity and scalability in networks
 - Highlighting the importance of network security measures
 
------
 
-## Objective 2: Network Implementations
+## Domain 2: Network Implementation (20%)
 
 {{< figure src="network-devices-management.webp" alt="An image depicting a network technician managing a control panel with various networking devices, such as routers, switches, and access points. The technician is connecting cables, configuring settings, and optimizing network performance. The devices are labeled and color-coded for clarity." caption="Mastering the Network: Efficient Management of Networking Devices." >}}
 
@@ -115,9 +125,8 @@ coverCaption: "Empower Your Networking Career"
 - Exploring the concepts of MIMO and MU-MIMO in wireless communication
 - Analyzing the advancements and implications of cellular networks
 
------
 
-## Objective 3: Network Operations
+## Domain 3: Network Operations (19%)
 
 {{< figure src="network-performance-monitoring.webp" alt="An image showcasing a network operations center (NOC) with multiple screens displaying real-time performance metrics, logs, and environmental sensor data. Technicians are monitoring and managing the network's performance and addressing any issues. The NOC is well-organized and equipped with advanced monitoring tools." caption="Optimizing Network Performance: Inside the Network Operations Center (NOC)." >}}
 
@@ -172,7 +181,7 @@ coverCaption: "Empower Your Networking Career"
 - Implementing redundancy and high availability (HA/) mechanisms
 - MTTR, MTBF, RTO, and RPO in network operations
 
------## Objective 4: Network Network Security
+## Domain 4: Network Security (14%)
 
 {{< figure src="network-security-administration.webp" alt="An image illustrating a network administrator configuring a network firewall, implementing access control lists (ACLs), and managing patch and firmware updates on network devices. The administrator is working diligently to enhance network security and protect against vulnerabilities." caption="Strengthening Network Security: Administrator's Vigilance in Action." >}}
 
@@ -220,9 +229,8 @@ coverCaption: "Empower Your Networking Career"
 - Sanitizing devices before disposal to ensure data security
 - Proper methods for disposing of network assets securely
 
------
 
-## Objective 5: Network Troubleshooting
+## Domain 5: Network Troubleshooting (24%)
 
 {{< figure src="network-troubleshooting-technician.webp" alt="An image showcasing a network technician using diagnostic tools, such as a cable tester and a laptop with network software tools, to troubleshoot and resolve network connectivity issues. The technician is surrounded by a network rack and cables." caption="Network Troubleshooting in Action: Technician Resolving Connectivity Issues." >}}
 

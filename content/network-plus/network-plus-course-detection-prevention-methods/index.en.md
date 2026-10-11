@@ -49,9 +49,9 @@ ______
 
 Implementing robust **access control hardware** is essential for maintaining the integrity of a network. Two commonly used technologies for access control are **badge readers** and **biometrics**.
 
-**Badge readers** require users to present a valid identification card or badge to gain access to secure areas. These readers can be integrated with the organization's network infrastructure, allowing administrators to track and manage access privileges. By leveraging badge readers, organizations can ensure that only authorized personnel can enter restricted areas.
+**Badge readers** check a presented credential and log an access event. A valid badge does not prove the holder is authorized or alone. Review access lists, watch for tailgating, and use anti-passback or monitoring where the risk requires it.
 
-On the other hand, **biometric systems** utilize unique physical or behavioral attributes, such as fingerprints, iris scans, or voice recognition, to verify an individual's identity. Biometrics provide a high level of security, as they are inherently linked to an individual and cannot be easily forged or stolen. Integrating biometric authentication into the network access control process strengthens security and minimizes the risk of unauthorized access.
+**Biometric systems** compare a physical or behavioral sample with an enrolled template. Spoofing, sensor errors, and template theft remain possible. Use liveness checks, protect stored templates, provide a safe fallback process, and combine biometrics with other controls when higher assurance is needed.
 
 ______
 

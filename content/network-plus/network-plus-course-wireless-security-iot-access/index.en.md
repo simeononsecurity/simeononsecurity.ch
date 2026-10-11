@@ -17,7 +17,7 @@ Wireless networks have become an integral part of our lives, providing convenien
 
 ## Implementing MAC Filtering and Proper Antenna Placement
 
-One fundamental aspect of **wireless security** is implementing **MAC filtering** and ensuring proper antenna placement. MAC filtering involves allowing or denying network access based on the **MAC addresses** of devices. By configuring a wireless access point to only accept connections from known MAC addresses, you can significantly enhance the security of your network. This prevents unauthorized devices from gaining access.
+**MAC filtering** permits or denies listed device addresses. It helps with inventory and basic access policy, but it is not strong authentication. Wireless MAC addresses are observable and an attacker can spoof them. Use WPA3 or WPA2 with a strong passphrase for a personal network, or enterprise authentication for managed users. Treat antenna placement as a coverage decision, not an access-control substitute. See [NIST SP 800-48](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-48.pdf).
 
 In addition to MAC filtering, proper antenna placement is essential for optimizing the coverage and security of a wireless network. By positioning antennas strategically and avoiding obstructions, you can minimize signal leakage and unauthorized access.
 
@@ -29,7 +29,7 @@ It is important to perform a **site survey** and analyze the coverage requiremen
 
 ## Configuring Wireless Client Isolation and Guest Network Isolation
 
-Wireless client isolation is a vital security measure that restricts direct communication between wireless clients connected to the same network. This isolation prevents potential attacks, such as **man-in-the-middle** attacks, where an attacker intercepts and manipulates the communication between clients.
+Wireless client isolation limits direct communication between clients on the same access point or network segment. It reduces some peer-to-peer attack paths, but does not stop every on-path attack. Check the access point's isolation scope and test whether clients can still reach shared gateways or other segments.
 
 Another important aspect is guest network isolation. Guest networks provide internet access to visitors while isolating them from the main network. This prevents unauthorized access to sensitive resources and protects the integrity of the primary network.
 
@@ -43,7 +43,7 @@ On the other hand, EAP is an authentication framework that provides a more robus
 
 Geofencing and captive portal are advanced techniques that can further enhance wireless security. Geofencing involves defining virtual boundaries and restricting network access based on the geographic location of devices. This is particularly useful in scenarios where the network should only be accessible within a specific physical area.
 
-Captive portal, on the other hand, is a web page that prompts users to authenticate or agree to terms and conditions before accessing the network. It provides an additional layer of security and control, ensuring that only authorized users can connect to the wireless network.
+A captive portal presents a web page for login, payment, or terms acceptance before broader network access. A terms-only portal does not authenticate a user or ensure authorized access. Pair it with suitable Wi-Fi authentication, network segmentation, and guest access limits.
 
 ## Considerations for IoT Access and Securing IoT Devices
 

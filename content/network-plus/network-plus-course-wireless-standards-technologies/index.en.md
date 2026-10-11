@@ -3,7 +3,8 @@ title: "Network Plus Course: Exploring Wireless Standards and..."
 date: 2023-07-11
 toc: true
 draft: false
-description: "Discover the different 802.11 standards, frequencies, range, and encryption in wireless networks to prepare for CompTIA's Network+ Certification Exam."
+description: "Compare 802.11 standards, 2.4 GHz, 5 GHz, and 6 GHz operation, channel planning, and current WPA2 and WPA3 authentication for Network+."
+lastmod: 2026-10-10
 genre: ["Technology", "Networking", "Wireless Networking", "Certification Exam", "CompTIA Network+", "IT Training", "IT Certification", "Wireless Standards", "Wireless Technologies", "Information Technology"]
 tags: ["CompTIA Network Plus", "Network+ Certification Exam", "Wireless Standards", "Wireless Technologies", "802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Frequencies", "Range", "Channel Bonding", "Antenna Types", "Encryption Standards", "SSID Configurations", "Wireless Networking", "Wireless Network Exam", "Wireless Network Training", "Wireless Network Certification", "Wireless Network Technology", "Wireless Network Security", "Wireless Network Performance", "Wireless Network Protocols", "Wireless Network Configuration", "Wireless Network Troubleshooting", "Wireless Network Best Practices"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_different_wi.webp"
@@ -29,7 +30,10 @@ Let's delve into some of the most prevalent 802.11 standards:
 | 802.11g   | 2003              | 2.4GHz          | 54 Mbps           |
 | 802.11n   | 2009              | 2.4GHz/5GHz     | Up to 600 Mbps    |
 | 802.11ac  | 2014              | 5GHz            | Up to 6.77 Gbps   |
-| 802.11ax  | 2019              | 2.4GHz/5GHz     | Up to 9.6 Gbps    |
+| 802.11ax (Wi-Fi 6) | 2019        | 2.4GHz/5GHz     | Up to 9.6 Gbps    |
+| 802.11ax (Wi-Fi 6E) | 2021       | 6GHz            | Up to 9.6 Gbps across supported bands |
+
+These rates are theoretical PHY ceilings. Real throughput depends on channel width, signal quality, client capability, interference, and network load. Wi-Fi 6E extends 802.11ax into the 6 GHz band. It is not a new 802.11 amendment. Check local rules and device support before enabling 6 GHz.
 
 ______
 
@@ -42,6 +46,8 @@ Wireless networks utilize different frequencies, each with its unique characteri
 - **2.4GHz**: This frequency is widely used and provides better coverage over longer distances. However, it is more susceptible to interference from other devices, such as microwaves and cordless phones.
 
 - **5GHz**: The 5GHz frequency offers higher data rates and reduced interference compared to 2.4GHz. However, it has a shorter range due to higher attenuation of signals at this frequency.
+
+- **6 GHz**: Wi-Fi 6E uses additional spectrum and channels where local rules allow it. Devices need 6 GHz support. Compared with 2.4 GHz, 6 GHz usually has less reach through walls at the same power and deployment conditions. Plan access point placement from a site survey.
 
 ### Channels
 
@@ -67,11 +73,16 @@ Wireless networks utilize different types of antennas to transmit and receive si
 
 ### Encryption Standards
 
-Ensuring the security of wireless networks is crucial. Encryption standards play a vital role in protecting network traffic from unauthorized access. Some commonly used encryption standards include:
+Select authentication and encryption together. For a new network, prefer WPA3 where clients support it. Use WPA2 with AES-based CCMP for clients which lack WPA3 support. WPA and TKIP are legacy choices and should not be presented as current deployment defaults.
 
-- **WiFi Protected Access (WPA)/WPA2 Personal**: These encryption standards use the Advanced Encryption Standard (AES) or Temporal Key Integrity Protocol (TKIP) to secure network communications for personal use.
+| Mode | Typical authentication | Use case |
+|---|---|---|
+| WPA2-Personal | Shared passphrase (PSK) | Small network with compatible clients |
+| WPA3-Personal | Simultaneous Authentication of Equals (SAE) | New personal network with WPA3 clients |
+| WPA2-Enterprise | 802.1X/EAP with an authentication server | Managed users with individual credentials |
+| WPA3-Enterprise | 802.1X/EAP with WPA3 protections | Managed users where devices and infrastructure support it |
 
-- **WPA/WPA2 Enterprise**: This encryption standard, utilizing AES or TKIP, is commonly used in enterprise environments, providing enhanced security and authentication mechanisms.
+Do not treat a hidden SSID or MAC filter as a replacement for these controls. The [CompTIA N10-009 objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4) include 6 GHz, WPA2, WPA3, and personal versus enterprise authentication.
 
 ### SSID Configurations
 

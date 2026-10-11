@@ -29,7 +29,7 @@ The Routing Internet Protocol (RIP) is a distance vector routing protocol that o
 
 ### Open Shortest Path First (OSPF)
 
-Open Shortest Path First (OSPF) is a link state routing protocol that calculates the shortest path to a destination using the Dijkstra algorithm. It takes into account various metrics, such as bandwidth, delay, and reliability, to determine the optimal route. OSPF is widely used in large enterprise networks due to its scalability and fast convergence.
+Open Shortest Path First (OSPF) is a link state routing protocol that calculates shortest paths with Dijkstra's algorithm. Administrators assign an output cost to each interface. OSPF adds interface costs along a path and prefers the lowest total cost. Some devices derive a default cost from interface bandwidth, but OSPF does not combine bandwidth, delay, and reliability into one standard metric. Check the device's reference bandwidth and configured costs before comparing routes. See [RFC 2328, section 16](https://www.rfc-editor.org/rfc/rfc2328#section-16).
 
 ### Enhanced Interior Gateway Routing Protocol (EIGRP)
 

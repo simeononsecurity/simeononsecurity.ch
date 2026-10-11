@@ -23,13 +23,13 @@ In the world of computer networks, ports, protocols, and network services play a
 
 | Protocol                                       | Port   | Secure Protocol          | Secure Port | Description                                              |
 |------------------------------------------------|--------|--------------------------|-------------|----------------------------------------------------------|
-| File Transfer Protocol (FTP)                    | 20/21  | Secure File Transfer Protocol (SFTP) | 22          | Used for transferring files over a network.               |
+| File Transfer Protocol (FTP)                    | 20/21  | SFTP over SSH          | 22          | FTP transfers files. SFTP is a separate SSH protocol.     |
 | Telnet                                         | 23     | Secure Shell (SSH)        | 22          | Provides secure remote login and command execution.       |
 | Simple Mail Transfer Protocol (SMTP)            | 25     | -                        | -           | Used for sending email messages between servers.          |
 | Domain Name System (DNS)                        | 53     | -                        | -           | Translates domain names into IP addresses.                |
 | Dynamic Host Configuration Protocol (DHCP)      | 67/68  | -                        | -           | Assigns IP addresses to devices on a network.             |
 | Trivial File Transfer Protocol (TFTP)           | 69     | -                        | -           | Used for simple file transfers without security.          |
-| Hypertext Transfer Protocol (HTTP)              | 80     | Hypertext Transfer Protocol Secure (HTTPS) | 443 | Transmits web page data securely over SSL/TLS.          |
+| Hypertext Transfer Protocol (HTTP)              | 80     | Hypertext Transfer Protocol Secure (HTTPS) | 443 | HTTPS protects web traffic with TLS.                    |
 | Post Office Protocol v3 (POP3)                  | 110    | -                        | -           | Retrieves email messages from a mail server.              |
 | Network Time Protocol (NTP)                     | 123    | -                        | -           | Synchronizes timekeeping among network devices.           |
 | Internet Message Access Protocol (IMAP)         | 143    | IMAP over SSL             | 993         | Retrieves email messages from a mail server securely.     |
@@ -37,12 +37,14 @@ In the world of computer networks, ports, protocols, and network services play a
 | Lightweight Directory Access Protocol (LDAP)    | 389    | Lightweight Directory Access Protocol (over SSL) (LDAPS) | 636 | Accesses and maintains directory information securely. |
 | Server Message Block (SMB)                      | 445    | -                        | -           | Provides shared access to files, printers, and more.      |
 | Syslog                                         | 514    | -                        | -           | Collects and forwards log messages in a network.          |
-| SMTP TLS                                       | 587    | -                        | -           | Encrypted SMTP communication over TLS.                    |
+| Message submission (SMTP)                      | 587    | STARTTLS when configured | 587       | Clients submit mail. TLS depends on server policy.        |
 | Structured Query Language (SQL) Server          | 1433   | -                        | -           | Database management system for SQL.                       |
 | SQLnet                                         | 1521   | -                        | -           | Oracle database listener for client connections.          |
 | MySQL                                          | 3306   | -                        | -           | Database management system for MySQL.                     |
 | Remote Desktop Protocol (RDP)                   | 3389   | -                        | -           | Provides remote desktop access to a computer.             |
 | Session Initiation Protocol (SIP)               | 5060/5061 | -                     | -           | Establishes and terminates multimedia sessions.           |
+
+SFTP uses SSH on port 22. It is not FTP with TLS. **FTPS** is FTP protected by TLS. Explicit FTPS typically starts on port 21, while implicit FTPS commonly uses port 990. Port 587 is for mail submission. A client and server commonly upgrade the connection with STARTTLS, but the port number alone does not prove encryption. See [RFC 4217](https://www.rfc-editor.org/rfc/rfc4217) and [RFC 6409](https://www.rfc-editor.org/rfc/rfc6409).
 
 ______
 

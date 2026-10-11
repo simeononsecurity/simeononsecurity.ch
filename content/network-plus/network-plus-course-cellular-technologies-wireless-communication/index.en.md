@@ -23,7 +23,7 @@ Cellular technologies have evolved significantly over the years, from the early 
 
 ### Code-Division Multiple Access (CDMA)
 
-**Code-Division Multiple Access (CDMA)** is a digital cellular technology that allows multiple users to share the same frequency band simultaneously. It uses spread spectrum techniques to encode data using unique codes, which are then decoded at the receiving end. CDMA provides advantages such as increased capacity, improved call quality, and enhanced security. It is widely used in 3G and 4G networks.
+**Code-Division Multiple Access (CDMA)** lets several users share a frequency band through distinct spreading codes. CDMA-based radio systems appeared in 2G and 3G networks, including cdmaOne and CDMA2000. **LTE is not CDMA**. LTE uses OFDMA on the downlink and SC-FDMA on the uplink. Distinguish the access method from the cellular generation when comparing deployments. See the [3GPP LTE overview](https://www.3gpp.org/ftp/Information/presentations/presentations_2016/2016_10_LTE%20evolution%20and%205G.pdf).
 
 ### Global System for Mobile Communications (GSM)
 

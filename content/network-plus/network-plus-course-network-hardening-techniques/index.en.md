@@ -51,11 +51,11 @@ ______
 
 ### SNMPv3
 
-**SNMPv3** provides enhanced security features compared to earlier versions. It supports **encryption**, **authentication**, and **access control** mechanisms, making it the recommended version for securing SNMP communication.
+**SNMPv3** supports user-based authentication and optional privacy protection. Configure an authenticated and encrypted `authPriv` user when the device supports it. Restrict management access to known monitoring hosts. Check the device's supported algorithms and record the configured security level. See [RFC 3414](https://www.rfc-editor.org/rfc/rfc3414).
 
 ### Access Control
 
-Implementing **access control** measures for SNMP is crucial. Organizations should define **access control policies** to restrict SNMP access to authorized management systems and configure **community strings** to ensure secure communication.
+Allow SNMP traffic only between authorized monitoring hosts and managed devices. **Community strings belong to SNMPv1 and SNMPv2c**. They are shared identifiers, not encryption or SNMPv3 credentials. If a legacy device requires SNMPv2c, restrict source addresses and use a separate, nondefault read-only string until you replace or upgrade the device.
 
 ### SNMP Trap Filtering
 

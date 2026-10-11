@@ -41,7 +41,7 @@ To ensure data integrity and network stability, it's essential to back up both t
 
 ### **Device State Backup**
 
-Backing up the device state involves creating a snapshot of the entire system's current status, including the operating system, running processes, and memory. This type of backup is also known as a **system image**. In case of a catastrophic failure or hardware malfunction, restoring the device state from the backup will recreate the entire environment as it was at the time of the backup.
+For a network device, back up the files and records needed to rebuild its service. These might include the saved configuration, software image and version, licenses, certificates, and controller or inventory records. A configuration backup does not capture live RAM, active sessions, or running processes. Follow the vendor's restore procedure and test the restored settings on compatible hardware.
 
 ### **Configuration Backup**
 
@@ -72,7 +72,7 @@ Warm sites are an intermediate option between cold and hot sites. They have pre-
 
 ### **Hot Sites**
 
-Hot sites are fully operational recovery sites that are always up-to-date and ready for immediate use. These sites have mirrored or synchronized data and configurations, allowing for seamless failover and minimal downtime. Hot sites are the most expensive option due to the continuous replication and synchronization required.
+Hot sites keep equipment and service capacity ready for failover. Replication frequency determines how current their data and configurations are. Recovery still depends on tested failover procedures, network routing, credentials, and the most recent successful synchronization. Measure the recovery time and data loss in exercises instead of assuming an immediate, seamless switch.
 
 ### **Cloud-based Recovery**
 
