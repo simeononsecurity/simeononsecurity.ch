@@ -47,7 +47,7 @@ You protect the **CIA triad**:
 - **Integrity** ensures data is not altered.
 - **Availability** keeps data and systems accessible.
 
-**Non-repudiation** proves an action happened and who did it, using digital signatures. **AAA** is the access trio:
+**Non-repudiation** uses evidence such as digital signatures to support a claim about who approved an action. The claim also depends on a trusted binding between the signer and key, key control, and reliable records. **AAA** is the access trio:
 
 | Term | Meaning |
 |------|---------|
@@ -78,7 +78,7 @@ You protect data with the right cryptographic tool.
 | **Symmetric encryption (AES)** | Fast confidentiality, one shared key |
 | **Asymmetric encryption (RSA, ECC)** | Key exchange, two keys |
 | **Hashing (SHA-256)** | Integrity, one-way fingerprint |
-| **Digital signature** | Integrity plus non-repudiation |
+| **Digital signature** | Integrity and evidence of control of a signing key. Named identity depends on trusted key binding. |
 | **HMAC** | Integrity with a shared key |
 
 **Salting** adds random data to a hash to defeat rainbow tables. **Key stretching** slows brute force. A **TPM** and **HSM** store keys in hardware. Learn the practical side in [how to get hashes of files on Linux](/guides/how-to-get-hashes-of-files-on-linux/).
@@ -94,7 +94,7 @@ You manage trust with certificates.
 
 | Certificate type | Use |
 |------------------|-----|
-| **Wildcard** | Covers all subdomains |
+| **Wildcard** | A common `*.example.com` certificate covers one label, such as `app.example.com`, but not `example.com` or `deep.app.example.com` |
 | **SAN** | Multiple specific domains |
 | **Root** | Top of the trust chain |
 | **Self-signed** | Internal, not publicly trusted |

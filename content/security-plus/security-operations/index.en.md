@@ -119,7 +119,7 @@ You follow a repeatable process under pressure.
 5. **Recovery** restores normal operations.
 6. **Lessons learned** improves the next response.
 
-Digital forensics preserves evidence for legal use. Maintain a **chain of custody**, apply a **legal hold**, and acquire data in order of volatility (memory first, disk later). *Document every step, because untracked evidence is inadmissible.*
+Digital forensics preserves evidence for investigation and possible legal use. Maintain a **chain of custody**, follow any applicable **legal hold**, and plan acquisition around volatility and incident needs. Document each transfer and action. Missing records weaken authentication and evidentiary weight, but admissibility depends on the jurisdiction and case.
 
 ## Next Steps
 

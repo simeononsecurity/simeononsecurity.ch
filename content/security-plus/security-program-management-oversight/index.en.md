@@ -76,9 +76,9 @@ Know the agreement types:
 
 ## Compliance and Privacy
 
-Compliance proves you meet external requirements.
+Compliance work evaluates whether defined activities meet specified requirements within an assessed scope and time period. An audit result does not prove that every system is secure or will remain compliant.
 
-- **Regulatory** rules carry legal weight (GDPR, HIPAA, PCI DSS).
+- **Regulatory** duties have legal force where applicable, such as GDPR and HIPAA. PCI DSS is an industry standard mainly enforced through payment contracts and card-brand or acquirer programs. Check the obligations that apply to your organization.
 - Non-compliance brings **fines**, **sanctions**, and **reputational damage**.
 - **Data privacy** covers **data sovereignty** (laws of where data lives), **classification**, **retention**, and **legal holds**.
 
@@ -109,7 +109,7 @@ People are both the weakest link and the first line of defense.
 
 - Run **phishing campaigns** to train and measure user response.
 - Teach **anomalous behavior recognition** so users report odd activity.
-- Track **metrics** like click rate and report rate to prove the program works.
+- Track **metrics** such as simulation click rate and report rate alongside observed behavior, reporting quality, and follow-up. A single rate does not establish program effectiveness.
 
 ## Business Continuity and Disaster Recovery
 
