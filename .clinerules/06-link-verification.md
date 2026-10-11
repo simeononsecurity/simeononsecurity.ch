@@ -45,6 +45,12 @@ After fetching the page, read the returned content and confirm:
 If the title or description does not match, either update the anchor text to
 accurately describe the destination, or find a page that does match.
 
+For Google Chrome Help pages shared across computer and mobile platforms, pin the
+intended platform in the URL and inspect the selected tab. For example,
+`?co=GENIE.Platform%3DDesktop&hl=en` selects the computer instructions for Chrome's
+security settings. A bare `?hl=en` link opened the Android instructions during an
+article review. Confirm the H1 and platform-specific steps before citing the page.
+
 ### Step 3 — Prefer authoritative / canonical sources
 
 When choosing between multiple URLs for the same resource, use this priority order:
