@@ -1,5 +1,5 @@
 ---
-title: "Resume Optimization Course"
+title: "Resume Optimization Course Lessons"
 date: 2026-07-22
 draft: false
 lastmod: 2026-10-10
