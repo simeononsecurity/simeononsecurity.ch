@@ -12,9 +12,11 @@ coverAlt: "A beginner practice workspace with terminal, Python and Git symbols, 
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
-**Set up one safe practice space before using an agent.** This course works with synthetic data and a tiny Python project. You need one chat account for the first exercises. Hands-on coding lessons need one coding agent, Git, and Python 3.10 or later. Plan about seven to ten hours for the full course, including practice.
+**Set up one safe practice space before using an agent.** Lessons 1 and 2 work in a browser without this lab. Return here before lesson 3 if you want the full course. Hands-on coding lessons use Git, Python 3.10 or later, and one coding agent. The study route replaces unavailable agent actions with labeled manual work.
+
+**Learning outcome:** you will run the starter lab, save a local baseline, and explain how to reset a disposable copy.
 
 ## Key Takeaways
 
@@ -27,13 +29,25 @@ coverCaption: ""
 
 | Route | What you need | What you practice |
 |---|---|---|
-| **Browser-first** | Current browser and a ChatGPT or Claude account | Prompts, projects, sources, context, review |
+| **Browser introduction** | Current browser and a ChatGPT or Claude account | Lessons 1 and 2, plus the chat task packet in lesson 1 |
 | **Local hands-on** | Git, Python 3.10 or later, terminal, one coding agent | Files, diffs, tests, agent edits |
-| **No-cost study** | Browser, local Python 3.10 or later and Git | All reading and manual lab checks, with simulated agent steps where access is unavailable |
+| **Study course** | Browser, local Python 3.10 or later and Git | Full lab checks, with unavailable agent and MCP steps marked not run |
 
-**Products set their own plans and limits.** Check [ChatGPT Projects](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and [Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) before relying on a feature. The no-cost study route does not prove hands-on skill with an unavailable coding agent. Record the distinction in your completion notes.
+**Products set their own plans and limits.** Check [ChatGPT Projects](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) and [Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) before relying on a feature. The study route does not prove hands-on skill with an unavailable coding agent. Record the distinction in your completion notes.
 
 **Use one default path:** ChatGPT in a browser for chat exercises, then one available coding agent with the local lab. Claude is an equivalent chat path. Codex CLI, Claude Code CLI, and OpenCode remain choices for the coding stage. You do not need accounts with every vendor.
+
+**Record a five-part preflight before opening a coding agent.** This separates a local lab check from an account or hosted-workspace claim.
+
+| Check | Record |
+|---|---|
+| **Workspace** | Exact extracted lab folder the agent will read |
+| **Execution** | Local computer or selected remote workspace |
+| **Provider** | Account or model provider used for this task |
+| **Permissions** | File writes and shell commands allowed or subject to approval |
+| **Baseline** | Observed count and two passing tests before edits |
+
+**Keep the practice root narrow.** A hosted workspace needs its own copy of the synthetic lab. A local run does not prove the remote copy or account has the same files and permissions.
 
 ## Learn the Local Terms
 
@@ -111,9 +125,15 @@ git status --short
 
 ## Practice and Check
 
-**Your artifact:** record your chosen route, the extracted folder name, the report count, the test result, and the reset method. Use a fresh lab copy to confirm you know how to reset.
+**Your artifact:** record your chosen route, the five preflight fields, the report count, the test result, and the reset method. Use a fresh lab copy to confirm you know how to reset.
 
 **Expected reasoning:** you know which folder commands affect, you distinguish local Git from hosting, and you have a way to recover before an agent edits files.
+
+## Check Your Understanding
+
+1. **Question:** Does a browser-only introduction complete the local lab route? **Answer:** No. The complete route requires a local Python and Git baseline.
+
+2. **Question:** What should you save before changing the disposable lab? **Answer:** The passing starter test result and a clean reset point.
 
 ## Troubleshooting
 
@@ -125,3 +145,5 @@ git status --short
 ## Next Steps
 
 **Continue with [the Reliable AI Workflow](/articles/effective-ai-workflow-foundations/)**. The first exercise uses the same synthetic workshop before any tool receives real files.
+
+**Course navigation:** [Course outline](/effective-ai-course-start/).

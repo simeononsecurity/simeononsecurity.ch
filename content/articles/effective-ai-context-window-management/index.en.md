@@ -12,9 +12,11 @@ coverAlt: "A compact handoff note beside selected project files and a much large
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
-**A context window is the text and other material a model processes for the current turn.** Prompts, file excerpts, tool output, and conversation history consume space. This lesson shows how to keep the next task focused and leave a reliable handoff.
+**A context window is the text and other material a model processes for the current turn.** Prompts, instructions, tool definitions, file excerpts, tool output, and conversation history consume space. This lesson shows how to keep the next task focused and leave a reliable handoff.
+
+**Learning outcome:** you will make a compact handoff and test it in a fresh session.
 
 ## Key Takeaways
 
@@ -41,6 +43,8 @@ coverCaption: ""
 
 **This is a retrieval choice, not a rule to hide evidence.** If a test fails, include the exact failure output and the file involved. Remove irrelevant logs, not the details needed to diagnose the failure.
 
+**Count fixed overhead before adding workers.** Agent instructions and available tool schemas might occupy context before a task file is read. A second worker repeats part of this overhead and adds a report for the main agent to review. For a two-file edit, use one agent. For an independent search through many sources, a short worker report might keep the main session smaller even though total token use rises.
+
 ## Build a Compact Handoff
 
 **A handoff is a short record for the next session.** It should distinguish work completed from work proposed. Save this example as `course-notes/handoff.md` outside the lab and replace the example observations with your own.
@@ -61,7 +65,7 @@ Stop if: requirement or baseline differs from the record above.
 
 ## Test a Fresh Session
 
-**Start a new chat or coding-agent session** in the lab. Give it only `AGENTS.md`, the handoff, and permission to read named files. Ask:
+**Start a new chat or coding-agent session** in the lab. In a chat, paste the handoff text and `AGENTS.md` from the synthetic lab, then name the files it should inspect. In a coding agent, open the lab folder and paste the handoff while allowing read access to the named files. Ask:
 
 ```text
 Using this handoff and the current repository files, name the approved
@@ -75,7 +79,7 @@ If the handoff conflicts with a current source, report the conflict.
 
 **An orchestrator is the main agent coordinating workers.** Give each worker a narrow question and named input files. Ask for a compact output: finding, evidence path, confidence, and unresolved issue. Keep detailed logs in a file or the worker's own session. Bring back only the parts the main agent needs to decide the next step.
 
-**Example:** ask one read-only worker to inspect tests and return “missing case, file and line, suggested check.” Do not ask it to paste every test file into the main chat. The main agent then verifies the finding in the repository before editing.
+**Example:** ask one read-only worker to inspect tests and return “missing case, file and line, suggested check.” Do not ask it to paste every test file into the main chat. The main agent then verifies the finding in the repository before editing. The [delegation lesson](/articles/effective-ai-agent-delegation/) adds a separate worker task when the scope earns its cost.
 
 **Worker sessions have their own context in many products,** but inheritance and isolation differ. Check the product's current rules before assuming a worker sees the same instructions, files, or tools as its parent. The [Codex subagent guide](https://learn.chatgpt.com/docs/agent-configuration/subagents) and [Claude Code subagent guide](https://code.claude.com/docs/en/sub-agents) describe their own behavior.
 
@@ -91,6 +95,12 @@ If the handoff conflicts with a current source, report the conflict.
 
 **Completion check:** the fresh session names `open`, `done`, the baseline count of 4, and a test step without relying on the old chat. Correct any missing item, then retest with another fresh session.
 
+## Check Your Understanding
+
+1. **Question:** What belongs in a fresh-session handoff? **Answer:** The objective, authoritative source, current state, checked result, and next action.
+
+2. **Question:** Why keep a worker report short? **Answer:** A concise evidence report gives the orchestrator the needed result without replaying the worker transcript.
+
 ## Troubleshooting
 
 - **Summary omits a decision:** add a short decision line and its source revision.
@@ -101,3 +111,5 @@ If the handoff conflicts with a current source, report the conflict.
 ## Next Steps
 
 **Continue with [MCP Server Setup](/articles/effective-ai-mcp-server-setup/)**. You will add a read-only external tool while keeping its output scoped.
+
+**Course navigation:** [Previous: First Coding Task](/articles/effective-ai-coding-agent-first-task/), [Course outline](/effective-ai-course-start/).

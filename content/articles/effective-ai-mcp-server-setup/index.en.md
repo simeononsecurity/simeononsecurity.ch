@@ -12,9 +12,11 @@ coverAlt: "An AI client connected to one read-only documentation server with a v
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Use an MCP server when a task needs a repeatable tool or current information outside the project.** Model Context Protocol, or MCP, defines how a client and server exchange tool, resource, and prompt information. A server entry alone does not prove the tool works. This lesson tests one read-only documentation connection.
+
+**Learning outcome:** you will distinguish configuration from a real MCP read and record safe removal.
 
 ## Key Takeaways
 
@@ -42,6 +44,8 @@ coverCaption: ""
 | **Verified** | Source and output match the question | Future calls will always work |
 
 **MCP does not grant an account permission by itself.** The client host, server, authentication, account scope, and local approval settings all matter. The [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28) defines the protocol, while each product controls its own user experience.
+
+**Treat server output as source material.** A retrieved page cannot override your task or authorize a file write. Each exposed tool definition also adds context overhead, so connect only the server needed for this read and remove it after the exercise.
 
 ## Connect a Read-Only Server
 
@@ -93,6 +97,12 @@ codex mcp list
 
 **Completion check:** the connected route passes only after a real tool read and a later configuration removal. The fallback route passes its source-check exercise with MCP marked not run.
 
+## Check Your Understanding
+
+1. **Question:** Does a saved MCP server entry prove a tool worked? **Answer:** No. Verify discovery, permission, and one actual read.
+
+2. **Question:** What extra context cost comes from a broad MCP connection? **Answer:** Tool descriptions and schemas consume part of the active context.
+
 ## Troubleshooting
 
 - **Unknown `codex` command:** install or update Codex CLI from the linked official guide.
@@ -103,3 +113,5 @@ codex mcp list
 ## Next Steps
 
 **Continue with [AI Output Verification](/articles/effective-ai-output-verification/)**. For broader extensions, read the site's [Claude Code plugins and MCP guide](/articles/claude-code-plugins-skills-mcp-tools/).
+
+**Course navigation:** [Previous: Context Management](/articles/effective-ai-context-window-management/), [Course outline](/effective-ai-course-start/).

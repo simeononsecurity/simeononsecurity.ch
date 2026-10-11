@@ -1,5 +1,5 @@
 ---
-title: "Specialized AI Agent Evaluation: OpenClaw and Hermes Agent"
+title: "OpenClaw and Hermes Agent: A Practical Evaluation"
 date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
@@ -12,9 +12,11 @@ coverAlt: "A worksheet listing an agent's tools, stored memory, triggers, logs, 
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Choose a specialized agent from the task and its access needs.** A worker reviewing one file differs from a persistent system receiving messages, storing memory, and running scheduled actions. This optional lesson uses OpenClaw and Hermes Agent as examples, then gives you a pre-install evaluation worksheet.
+
+**Learning outcome:** you will compare agent access and triggers, then record a limited pilot decision.
 
 ## Key Takeaways
 
@@ -39,9 +41,19 @@ coverCaption: ""
 | **Coding agent** | Update a local report program | Which files and tests apply? |
 | **Persistent platform** | React to messages or schedules over time | What triggers, tools, and stored state exist? |
 
-**OpenClaw** is an open-source agent platform with a gateway, channels, tools, memory, MCP connections, and subagents. Its [overview](https://docs.openclaw.ai/start/why-openclaw), [MCP connection guide](https://docs.openclaw.ai/tools/mcp), and [subagent guide](https://docs.openclaw.ai/tools/subagents) describe those components. Tool setup, sandboxing, and approval settings need deliberate review for a real deployment.
+**OpenClaw** is an open-source agent platform with a gateway, messaging channels, tools, memory, MCP connections, and subagents. Its [overview](https://docs.openclaw.ai/start/why-openclaw), [MCP connection guide](https://docs.openclaw.ai/tools/mcp), and [subagent guide](https://docs.openclaw.ai/tools/subagents) describe those components. Review the active channel, tool, and sandbox settings before a pilot.
 
-**Hermes Agent** is Nous Research's agent platform, not a model name. Its [documentation](https://hermes-agent.nousresearch.com/docs/), [delegation guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation), and [configuration guide](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/) cover CLI, messaging, tools, memory, and delegated tasks. Review memory write settings before giving it project material.
+**Hermes Agent** is Nous Research's agent application. The Hermes model family is separate. Its [documentation](https://hermes-agent.nousresearch.com/docs/), [delegation guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/delegation), and [configuration guide](https://hermes-agent.nousresearch.com/docs/user-guide/configuration/) cover CLI, messaging, tools, memory, and delegated tasks. Its [memory guide](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory/) describes local memory stores and write approval. The documented default for `memory.write_approval` and `skills.write_approval` is `false`. Turn approval on or disable the relevant store for a pilot requiring reviewed writes. Check the running configuration before relying on either control.
+
+| Evaluation point | OpenClaw | Hermes Agent |
+|---|---|---|
+| **Entry point** | Gateway and connected channels | CLI or configured messaging interface |
+| **Delegated work** | Subagents with platform-specific session and tool rules | Delegated tasks with platform-specific tool rules |
+| **Persistent state** | Inspect enabled memory and session storage | Inspect memory and profile settings, plus skill writes |
+| **Recurring work** | Inspect configured triggers and schedules | Inspect [cron jobs](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron/) and gateway state |
+| **First pilot** | One manual request through a selected channel | One manual CLI or messaging request |
+
+This table describes review points, not equivalent security defaults. Record the installed version and active configuration before granting real data or accounts.
 
 **Names do not define a common permission model.** A “subagent” in one product might receive different files, tools, and history from a worker in another. Check the installed version's documentation and active settings instead of transferring assumptions across tools.
 
@@ -57,8 +69,8 @@ coverCaption: ""
 | **External tools** | None for the first pilot |
 | **Account access** | No email or calendar account |
 | **Trigger** | Manual request only |
-| **Memory** | Disabled or limited to synthetic notes |
-| **Logs** | Store prompt, source revision, and draft locally |
+| **Memory and skill writes** | Record active settings, disable stores or require write approval during the pilot |
+| **Logs** | Record storage path, retention rule, prompt, source revision, and draft |
 | **Review** | Human checks date, time, place, and recipient list |
 | **Rollback** | Discard draft and disable the pilot |
 
@@ -84,6 +96,14 @@ coverCaption: ""
 
 **Completion check:** another reader should know which action the agent takes, what it reads, what it stores, when it runs, who checks the result, and how to disable it. If any answer is unknown, choose Reject or a narrower Pilot.
 
+## Check Your Understanding
+
+1. **Question:** Does a draft-only reminder task need permission to send mail? **Answer:** No. Keep sending outside the pilot scope.
+
+2. **Question:** Which Hermes settings need inspection before a write-controlled pilot? **Answer:** Check active memory and skill write settings, including their approval controls.
+
 ## Next Steps
 
 **Continue with the [AI Workflow Capstone](/articles/effective-ai-capstone/)**. For a broader runtime comparison, use the site's [agent runtime guide](/articles/best-ai-agent-harnesses/).
+
+**Course navigation:** [Previous: Bounded Loops](/articles/effective-ai-bounded-agent-loops/), [Course outline](/effective-ai-course-start/).

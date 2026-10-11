@@ -23,5 +23,6 @@ Save review notes outside this folder. Delete this extracted copy and extract th
 - `tasks.json` holds four fictional tasks.
 - `tests/test_task_report.py` tests the baseline behavior.
 - `docs/requirements.md` states the approved change for later lessons.
+- `docs/capstone-requirements.md` states a separate JSON report task for the capstone.
 
-The course asks you to add an optional `--status` filter. The starter contains no solution. Do not place credentials, customer records, or private files in this lab.
+Lesson 5 asks you to add an optional `--status` filter. The capstone uses a fresh extraction and asks for a separate `--format json` report. The starter contains neither solution. Do not place credentials, customer records, or private files in this lab.

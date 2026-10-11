@@ -12,9 +12,11 @@ coverAlt: "A small code repository with an instruction file pointing to requirem
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Give a coding agent a short map before asking for edits.** A repository instruction file should name the source of truth, relevant files, test command, and limits. It should not duplicate the whole project or contain secrets.
+
+**Learning outcome:** you will write a short repository map and resolve a conflict against the approved requirement.
 
 ## Key Takeaways
 
@@ -52,13 +54,12 @@ coverCaption: ""
 
 ## Add a Claude Pointer
 
-**If you use Claude Code,** create a short `CLAUDE.md` in the same folder. Keep shared rules in one file.
+**If you use Claude Code,** create a short `CLAUDE.md` in the same folder. Claude Code supports an `@path` import. Import the shared file instead of hoping a prose reminder triggers a separate read.
 
 ```markdown
 # Claude Code project entry
 
-Read `AGENTS.md` and `docs/requirements.md` before editing.
-Follow the repository test command in `AGENTS.md`.
+@AGENTS.md
 ```
 
 **Create a local guidance snapshot before the coding edit.** From the lab folder, add `AGENTS.md`. If you created `CLAUDE.md`, add it too. Make this human setup commit, then confirm a clean status. This is different from the later agent task, where the agent must not commit.
@@ -72,7 +73,7 @@ git status --short
 
 **Expected status:** no file names appear. If status still lists a guidance file, add and commit it before starting the feature edit.
 
-**Claude Code reads `CLAUDE.md` as project guidance.** The [official memory guide](https://code.claude.com/docs/en/memory) describes current loading behavior. A pointer avoids two lengthy, conflicting rule sets.
+**Claude Code reads `CLAUDE.md` as project guidance.** The [official memory guide](https://code.claude.com/docs/en/memory) describes imports and loading behavior. The imported text uses context on each task, so keep `AGENTS.md` short and point to source files instead of pasting them.
 
 ## Resolve a Conflict
 
@@ -103,9 +104,15 @@ Do not edit files yet.
 
 ## Practice and Check
 
-**Your artifact:** a clean local guidance snapshot with `AGENTS.md`, an optional `CLAUDE.md` pointer, and a three-line project map naming requirement, implementation, and tests. Keep them in your extracted copy. Run the conflict prompt with your agent or answer it manually on the no-cost study route.
+**Your artifact:** a clean local guidance snapshot with the six-bullet `AGENTS.md` above and an optional `CLAUDE.md` import. The first three bullets name requirement, implementation, and tests. Keep the files in your extracted copy. Run the conflict prompt with your agent or answer it manually on the study route.
 
 **Expected reasoning:** the approved requirement controls the accepted values, instructions control the workflow, and tests check the output. A stale summary does not amend the requirement.
+
+## Check Your Understanding
+
+1. **Question:** Should an AGENTS.md file contain the whole repository? **Answer:** No. Include a short map, constraints, and commands relevant to the task.
+
+2. **Question:** Which instruction wins when a repository note conflicts with an approved task requirement? **Answer:** Stop and resolve the conflict against the approved source before editing.
 
 ## Troubleshooting
 
@@ -120,3 +127,5 @@ Do not edit files yet.
 
 
 **Continue with [Task Packets for AI Agents](/articles/effective-ai-task-packets/)**. You will turn the approved requirement into a bounded edit request.
+
+**Course navigation:** [Previous: Chat Projects](/articles/effective-ai-chat-projects/), [Course outline](/effective-ai-course-start/).

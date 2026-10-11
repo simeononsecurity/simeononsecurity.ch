@@ -12,9 +12,11 @@ coverAlt: "A review sheet comparing an AI claim with a source file, code diff, t
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Accept an AI result only after checking the evidence appropriate to the task.** A polished explanation, a configured tool, and a green test banner answer different questions. This lesson builds one review record for the workshop lab.
+
+**Learning outcome:** you will produce an acceptance record for source, file scope, tests, privacy, and usage.
 
 ## Key Takeaways
 
@@ -26,7 +28,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** the course lab, `docs/requirements.md`, a local Git snapshot, and the [MCP lesson](/articles/effective-ai-mcp-server-setup/) or its browser fallback. Set aside 40 minutes. Difficulty is intermediate. Use your edited lab from the first coding-agent task. If you skipped the edit, use a fresh extraction and label the feature checks as baseline failures.
+**Prerequisites:** the course lab, `docs/requirements.md`, a local Git snapshot, and the [MCP lesson](/articles/effective-ai-mcp-server-setup/) or its browser fallback. Set aside 40 minutes. Difficulty is intermediate. Use your edited lab from the first coding-agent task. If you skipped the edit, use a fresh extraction and mark feature checks not implemented. The untouched baseline still passes its two original tests.
 
 ## Check a Factual Claim
 
@@ -77,6 +79,8 @@ python3 task_report.py tasks.json --status invalid
 
 **Tokens measure model input and output volume.** Product dashboards differ, so use the usage figures shown by your provider. Record tool calls and image or hosted-environment charges separately where applicable. Check current rates before calculating a real bill.
 
+**Open the usage view for the account that ran the task.** Record its displayed input and output tokens, model, billing period, and any cached-input category. For ChatGPT or Claude subscriptions, a usage limit or allowance is not the same as a per-task API bill. For an API or provider-backed OpenCode run, use that provider's usage or billing page and current rate card. If the product shows no per-task tokens, write “not available” and do not infer a charge from the chat length.
+
 **Illustrative calculation, not vendor pricing:** 30,000 input tokens at $1 per million cost $0.03. 5,000 output tokens at $5 per million cost $0.025. The combined model charge in this example is $0.055 before tool or hosting charges.
 
 ```text
@@ -86,6 +90,8 @@ total = input cost + output cost + separate tool charges
 ```
 
 **A worker task also spends tokens.** Delegation moves detailed output out of the main conversation, but it does not make the work free. Compare the cost with the value of the independent check.
+
+**Keep charge categories separate.** Cached input, fresh input, output, tool calls, and hosted execution might use different rates. This example uses only fresh input and output rates. It says nothing about a subscription bill or a tool charge.
 
 ## Keep an Acceptance Record
 
@@ -102,6 +108,12 @@ total = input cost + output cost + separate tool charges
 
 **Your artifact:** copy this record and fill it after your own run. Replace “observed” only with output you saw. Use Accept when every required check passes, Revise when a fix is bounded, and Stop when the source, scope, or access is unclear.
 
+## Check Your Understanding
+
+1. **Question:** Is a passing starter baseline evidence the requested feature exists? **Answer:** No. Test the new acceptance behavior after the edit.
+
+2. **Question:** What belongs in an acceptance record? **Answer:** Source evidence, changed files, behavior checks, access scope, and observed usage.
+
 ## Troubleshooting
 
 - **No source for a claim:** mark it unverified and find an authoritative record.
@@ -112,3 +124,5 @@ total = input cost + output cost + separate tool charges
 ## Next Steps
 
 **Continue with [Agent Delegation](/articles/effective-ai-agent-delegation/)**. For related cost and privacy detail, read [provider routing](/articles/openrouter-provider-routing-quality-cost/) and [local AI privacy](/articles/local-ai-privacy-boundary/).
+
+**Course navigation:** [Previous: MCP Setup](/articles/effective-ai-mcp-server-setup/), [Course outline](/effective-ai-course-start/).

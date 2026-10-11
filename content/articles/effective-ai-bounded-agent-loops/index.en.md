@@ -12,9 +12,11 @@ coverAlt: "A small agent loop moving from one edit to a test, retry decision, an
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **A goal loop repeats work until a defined result passes or a stop rule fires.** The useful loop reads current state, takes one bounded action, checks the result, and records what happened. An open-ended “keep trying” instruction has no reliable completion rule.
+
+**Learning outcome:** you will run a bounded lab loop with a known failed check and record its stop decision.
 
 ## Key Takeaways
 
@@ -26,7 +28,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** the [task packet](/articles/effective-ai-task-packets/), [verification record](/articles/effective-ai-output-verification/), and [delegation lesson](/articles/effective-ai-agent-delegation/). Set aside 30 minutes. Difficulty is intermediate. Keep this exercise inside a fresh copy of the synthetic lab.
+**Prerequisites:** the [task packet](/articles/effective-ai-task-packets/), [verification record](/articles/effective-ai-output-verification/), and [delegation lesson](/articles/effective-ai-agent-delegation/). Set aside 45 minutes. Difficulty is intermediate. Use a fresh copy of the synthetic lab so the first failed check is known in advance.
 
 ## Write the Loop Contract
 
@@ -82,11 +84,59 @@ Evidence required: full test run and invalid command exit status.
 
 **An edit loop** runs within a bounded task and checks after each action. **A scheduled monitor** wakes later to inspect a condition. A monitor needs its own cadence, change threshold, notification rule, and stop condition. Do not turn the lab edit loop into a recurring job. The next lesson evaluates persistent systems before enabling them.
 
+## Run a Controlled Loop
+
+**Start with the untouched lab.** Its two baseline tests pass. Create `tests/test_loop_contract.py` in the fresh extraction with the check below. This file states a desired feature absent from the starter. It does not belong in the maintained starter ZIP.
+
+```python
+"""One controlled failing check for the status-filter exercise."""
+
+import subprocess
+import sys
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class LoopContractTests(unittest.TestCase):
+    def test_open_status_count(self):
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "task_report.py"),
+             str(ROOT / "tasks.json"), "--status", "open"],
+            capture_output=True, text=True, check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(result.stdout.strip(), "Total tasks: 2")
+
+
+if __name__ == "__main__":
+    unittest.main()
+```
+
+**Run `python3 -m unittest discover -s tests -v`.** The two original tests should pass and the new contract test should fail because the starter lacks `--status`. Record the actual failure. If you initialized Git as shown in lesson 0, record `git status --short` too. Otherwise, compare changed files against an untouched extraction. On Windows, use `py -3` if your setup used the launcher.
+
+**Set an action budget of three attempts:** the first edit plus at most two corrections. Give your agent the loop contract above and ask for one scoped edit. After each attempt, inspect changed files, rerun all tests, and run the default, open, done, and invalid commands. Record the failure cause before another edit. Stop on a pass, an unrelated baseline failure, an out-of-scope change, or the third failed action.
+
+**Study route:** apply the complete [lesson 5 answer key](/articles/effective-ai-coding-agent-first-task/) in this fresh copy after recording the red test. Rerun the same checks and mark the agent edit not run. Keep the controlled contract test. Do not weaken or delete it to make the loop pass.
+
+| Attempt | State and observation | Decision |
+|---|---|---|
+| **Before edit** | Two baseline tests pass, new open check fails | Proceed with one bounded edit |
+| **After each edit** | Record exact tests, counts, invalid exit, changed files | Accept, diagnose, or stop |
+| **At budget end** | Record remaining failure and current diff | Handoff without another retry |
+
 ## Practice and Check
 
-**Your artifact:** a loop contract and a two-attempt log for the illustrative invalid-status failure. If you run a coding agent, replace illustrative output with observed output from your lab. On the no-cost route, write the proposed correction and mark execution not run.
+**Your artifact:** the controlled failing test, observed before and after test output, an attempt log, and a final accept or stop handoff. If the first edit passes, record one attempt. Do not invent a second failure to fill a log.
 
-**Completion check:** the contract names a source, file scope, observable checks, retry limit, at least one immediate stop condition, and a final handoff. The attempt log explains why the second attempt differs from the first.
+**Completion check:** the contract names a source, file scope, observable checks, retry limit, at least one immediate stop condition, and a handoff. Your record includes the real red test, the later check results, and either a passing result or a budget stop. A second attempt names a new cause and differs from the first.
+
+## Check Your Understanding
+
+1. **Question:** What does the first red contract test prove? **Answer:** The starter lacks the requested status filter under a test written before the edit.
+
+2. **Question:** When must the loop stop even with retries left? **Answer:** Stop for an out-of-scope change, unclear permission, or conflicting requirement.
 
 ## Troubleshooting
 
@@ -97,4 +147,6 @@ Evidence required: full test run and invalid command exit status.
 
 ## Next Steps
 
-**Continue with [Specialized Agent Evaluation](/articles/effective-ai-specialized-agent-evaluation/)**, an optional lesson before the capstone. For broader runtime choices, read the site's [agent runtime guide](/articles/best-ai-agent-harnesses/).
+**Continue with [Specialized Agent Evaluation](/articles/effective-ai-specialized-agent-evaluation/)** for the optional lesson, or go straight to the [AI Workflow Capstone](/articles/effective-ai-capstone/). For broader runtime choices, read the site's [agent runtime guide](/articles/best-ai-agent-harnesses/).
+
+**Course navigation:** [Previous: Agent Delegation](/articles/effective-ai-agent-delegation/), [Course outline](/effective-ai-course-start/).

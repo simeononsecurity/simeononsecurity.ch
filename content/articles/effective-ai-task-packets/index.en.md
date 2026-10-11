@@ -1,5 +1,5 @@
 ---
-title: "Write Better AI Prompts with Task Packets and Acceptance Checks"
+title: "AI Task Packets: Better Prompts and Acceptance Checks"
 date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
@@ -12,9 +12,11 @@ coverAlt: "A vague request rewritten into a short task packet with source, scope
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **A useful prompt describes the work and how you will judge it.** More words do not fix missing scope. This lesson turns a vague request into a task packet for the course lab.
+
+**Learning outcome:** you will write a bounded task packet with source, file scope, checks, and a stop condition.
 
 ## Key Takeaways
 
@@ -98,6 +100,12 @@ Report: changed files, commands, observed outputs, unresolved issues.
 
 **Your artifact:** save your final task packet and a one-line explanation of a stop condition. Give it to a coding agent in the next hands-on lesson or answer the expected results manually on the study route.
 
+## Check Your Understanding
+
+1. **Question:** What makes a task packet checkable? **Answer:** A source, allowed files, observable checks, and a stop condition.
+
+2. **Question:** What should an agent do when the source lacks a required detail? **Answer:** Stop and report the missing detail instead of inventing it.
+
 ## Troubleshooting
 
 - **Agent changes too much:** name files and excluded actions in the packet.
@@ -108,3 +116,5 @@ Report: changed files, commands, observed outputs, unresolved issues.
 ## Next Steps
 
 **Continue with [Your First Coding Agent Task](/articles/effective-ai-coding-agent-first-task/)**. Use the packet to guide one small lab edit.
+
+**Course navigation:** [Previous: Repository Context](/articles/effective-ai-agents-md-context/), [Course outline](/effective-ai-course-start/).

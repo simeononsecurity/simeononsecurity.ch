@@ -1,5 +1,5 @@
 ---
-title: "AI Agent Delegation: Split Tasks, Assign Roles, and Review Results"
+title: "AI Agent Delegation: Assign Workers and Review Results"
 date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
@@ -12,9 +12,11 @@ coverAlt: "A main agent assigning separate research and test review tasks before
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
-**Delegate when a task has independent parts with clear outputs.** A worker agent inspects sources, reviews tests, or drafts a bounded change in its own session. The main agent still checks and integrates the result. This lesson starts with read-only work so you learn the handoff before handling concurrent edits.
+**Delegate when an independent question has enough work to justify a separate session.** A worker agent inspects sources, reviews tests, or drafts a bounded change in its own context. The main agent checks and integrates the result. This lesson uses a documentation comparison while your main session keeps the small lab task.
+
+**Learning outcome:** you will assign an independent worker review and verify its short evidence report.
 
 ## Key Takeaways
 
@@ -26,7 +28,9 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Prerequisites:** a fresh extraction of the starter lab for Worker A, with the original two baseline tests, [context handoff](/articles/effective-ai-context-window-management/), and [output verification](/articles/effective-ai-output-verification/). Set aside 40 minutes. Difficulty is intermediate. An agent product with subagent support is useful for the hands-on route. The no-cost route uses two separate chats and manual integration.
+**Prerequisites:** your [context handoff](/articles/effective-ai-context-window-management/) and [output verification](/articles/effective-ai-output-verification/) records. Set aside 40 minutes. Difficulty is intermediate. A product with worker support fits the connected route. The study route uses one separate chat and manual integration.
+
+**Switch to a clean starter for this lesson.** Save your edited filter diff and test record outside the lab. Extract the original ZIP into a new disposable folder. Run the starter command and its two baseline tests. Repeat the course-setup Git baseline and recreate the short `AGENTS.md` and optional `CLAUDE.md` guidance from the repository-context lesson. Commit those guidance files yourself, then confirm `git status --short` is clean. Keep the edited filter copy for reference, but run this worker exercise against the clean starter.
 
 ## Decide Whether to Delegate
 
@@ -35,51 +39,47 @@ coverCaption: ""
 | Lab task | Delegate? | Reason |
 |---|---|---|
 | **Add a two-value filter** | Usually no | One small file and focused tests |
-| **Find missing test cases** | Yes, read-only | Separate review question and short report |
-| **Check current product docs** | Yes, read-only | External research stays outside the main context |
+| **Find missing cases in two baseline tests** | Usually no | The main agent reads one short file faster |
+| **Compare three current product docs** | Yes, read-only | Source reading stays in the worker context |
 | **Edit the same function twice** | No | Concurrent edits create conflict |
 
 **The worker should receive less context than the orchestrator,** not a copy of the full conversation. Give the goal, source path, task boundary, and return format. Keep a short evidence report in the main session. Inspect the cited files yourself before acting.
 
-## Run Two Read-Only Workers
+## Run One Read-Only Worker
 
-**Worker A checks tests.** Give it the lab and this task:
+**Keep a small main task.** In your main session, read the local `AGENTS.md` and note which file contains the test command. Assign the separate research question below to one worker. The worker does not need the entire lab or earlier chat.
 
-```text
-Read docs/requirements.md, task_report.py, and tests/.
-Find missing tests for the --status request.
-Do not edit files.
-Return at most five rows: behavior, existing coverage, missing check,
-file path, and evidence line.
-```
+**Connected route:** in Codex, Claude Code, or another client with worker support, open the lab as the project and ask the main agent to delegate the following read-only request to one worker. Check the tool transcript for a real worker start and returned report. If the product does not expose a worker, use a separate session and label it as a separate worker session. The [Codex subagent guide](https://learn.chatgpt.com/docs/agent-configuration/subagents), [Claude Code subagent guide](https://code.claude.com/docs/en/sub-agents), and [OpenCode agent guide](https://opencode.ai/docs/agents/) describe current controls.
 
-**Worker B checks the requirement.** Give it a different question:
+**Study route:** open one new chat for the same request. Give it the three official links or source excerpts. Label this a simulated worker. A second chat is separate context, not proof of native subagent execution.
 
 ```text
-Read docs/requirements.md and tasks.json.
-List the accepted values and expected counts for the supplied data.
+Use current official Codex AGENTS.md, Claude Code memory, and OpenCode rules docs.
+Compare how each product loads repository instruction files.
 Do not edit files.
-Return source revision, values, counts, and any ambiguity in 100 words.
+Return at most three rows: product, instruction file, source URL,
+and one loading behavior. Flag uncertainty. Do not paste full pages.
 ```
 
-**Expected Worker A finding:** baseline tests cover the total and malformed top-level JSON, but not filtered counts or invalid status. **Expected Worker B finding:** revision 1 accepts `open` and `done`, with two tasks in each group. These are expected findings from the starter, not claims about your worker run.
+**Source set:** [Codex project instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [Claude Code memory](https://code.claude.com/docs/en/memory), and [OpenCode rules](https://opencode.ai/docs/rules/). An expected report names `AGENTS.md` for Codex and OpenCode. Current Claude Code versions also load `AGENTS.md` directly when no `CLAUDE.md` or `CLAUDE.local.md` takes precedence. This lab uses a `CLAUDE.md` file with an `@AGENTS.md` import, which also supports older or differently configured sessions. Verify the current pages and active version before treating this example as observed worker output.
 
 ## Integrate the Findings
 
-**Open the named files yourself.** If Worker A claims an invalid-status test exists, search the test file and confirm it. If Worker B says `pending`, compare with `docs/requirements.md` and reject the stale value. Write a short integration note:
+**Open the cited source pages yourself.** If the worker claims Claude Code always requires a `CLAUDE.md` import, check its memory guide and correct the report. Compare the report with your local guidance files. Write a short integration note:
 
 ```text
-Accepted: two filtered-count tests and one invalid-value test are missing.
-Source: docs/requirements.md, revision 1, open and done.
-Decision: one coding agent will edit task_report.py and tests.
-Boundary: tasks.json remains unchanged.
+Accepted: Codex and OpenCode use AGENTS.md project guidance.
+Claude Code can load AGENTS.md directly in current versions. This lab
+uses CLAUDE.md with an @AGENTS.md import for a stable shared map.
+Evidence: record the three current official page URLs and review date.
+Decision: keep one shared short map and one Claude import.
 ```
 
-**This note is the useful worker output.** The orchestrator does not need both full transcripts. It needs the verified facts, source paths, and next decision.
+**This note is the useful worker output.** The orchestrator needs verified findings and source paths, not the research transcript. Delegation uses extra total tokens, so keep the main conversation smaller only when the separate work saves attention.
 
 ## Assign Edit Ownership
 
-**If workers edit files,** split ownership by file or use separate worktrees for overlapping repository tasks. A worktree is another checkout of the same Git repository, with its own working files. It helps keep simultaneous edits apart. The main agent still reviews and merges the results.
+**If workers edit files,** split ownership by file or use separate worktrees for overlapping repository tasks. A worktree is another checkout of the same Git repository, with its own working files. It helps keep simultaneous edits apart. The main agent still reviews and transfers changes through an explicit merge, cherry-pick, or patch, then reruns tests in the integrated tree.
 
 | Worker | Owned work | Return |
 |---|---|---|
@@ -87,7 +87,7 @@ Boundary: tasks.json remains unchanged.
 | **Test author** | `tests/test_task_report.py` | Test cases and observed result |
 | **Orchestrator** | Requirement and final integration | Combined diff and acceptance record |
 
-**The tiny lab does not need parallel edits.** This table teaches an ownership pattern for larger work. If two workers both need the same function, run them in sequence or ask one to review without editing. Separate worktrees prevent file collisions, but they do not resolve contradictory requirements.
+**The tiny lab does not need parallel edits.** This table teaches an ownership pattern for larger work. Tests in one worktree do not validate an implementation still isolated in another. If two workers need the same function, run them in sequence or ask one to review without editing. Separate worktrees prevent file collisions, but they do not resolve contradictory requirements.
 
 ## Check Product Behavior
 
@@ -95,9 +95,15 @@ Boundary: tasks.json remains unchanged.
 
 ## Practice and Check
 
-**Your artifact:** two short worker reports and one integration note. On the no-cost route, use two new chats with the supplied file contents and label them as separate simulated workers. Do not claim native subagent execution on this route.
+**Your artifact:** one short documentation worker report and one integration note. On the study route, use one new chat and label it as a simulated worker. Do not claim native subagent execution on this route.
 
-**Completion check:** each report names its source, stays within its question, and fits its length limit. Your integration note verifies both against the lab and assigns one owner to the later edit.
+**Completion check:** the report names three official sources, stays within its question, and fits its length limit. Your integration note checks the sources and names the guidance files your lab uses.
+
+## Check Your Understanding
+
+1. **Question:** When does a worker help more than a single agent? **Answer:** When it owns an independent question or artifact with a useful evidence report.
+
+2. **Question:** What must happen after two workers touch overlapping files? **Answer:** Integrate the changes, inspect the combined diff, and rerun the checks.
 
 ## Troubleshooting
 
@@ -109,3 +115,5 @@ Boundary: tasks.json remains unchanged.
 ## Next Steps
 
 **Continue with [Bounded Goal Loops](/articles/effective-ai-bounded-agent-loops/)**. For team governance beyond this small lab, use the [AI Collaboration Implementation Course](/ai-collaboration-course-start/).
+
+**Course navigation:** [Previous: Output Verification](/articles/effective-ai-output-verification/), [Course outline](/effective-ai-course-start/).

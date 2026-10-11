@@ -12,7 +12,7 @@ coverAlt: "A person checking an AI work plan beside a small set of source files 
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Use AI as a worker whose output needs a check.** Start with a clear result, give only relevant material, and inspect the answer against your source. This lesson gives you a workflow for chat, research, and code tasks.
 
@@ -46,20 +46,22 @@ coverCaption: ""
 
 ## Write a Task Packet
 
-**Put the outcome first.** Then give the source, constraints, and acceptance check. For the workshop task, use this packet:
+**Put the outcome first.** Then give the source and one acceptance check. Lesson 4 expands this pattern into a [task packet for a coding agent](/articles/effective-ai-task-packets/). For now, use this short chat request:
 
 ```text
 Outcome: Draft an email announcing the next workshop.
 Source: The approved schedule below says the class begins at 7 p.m.
 Draft to correct: "The Introduction to Digital Safety class begins at 6 p.m. on November 12 in Community Room A."
 Audience: Registered attendees.
-Constraints: Keep the location and date unchanged. Do not send the email.
-Done when: The draft uses 7 p.m. and lists every factual change.
+Constraints: Keep the location and date unchanged. Draft only.
+Done when: The draft uses 7 p.m. and lists the factual change.
 Approved schedule: Introduction to Digital Safety, November 12, 2026,
 7 p.m., Community Room A.
 ```
 
 **The packet separates instruction from data.** The draft's 6 p.m. text is material to correct. The approved schedule controls the time. The assistant has no permission to send a message because the task asks for a draft.
+
+**Choose a source before resolving a conflict.** If a chat summary repeats 6 p.m., the approved schedule still controls the draft. If two approved schedules disagree, stop and ask the owner which revision applies. Do not use fluent output to settle a source dispute.
 
 ## Run the Four-Step Loop
 
@@ -96,6 +98,8 @@ Factual change: corrected the start time from 6 p.m. to 7 p.m.
 
 **A successful check is an observation.** An assistant's sentence saying “verified” is not a check. You must compare the output with the approved schedule yourself or use a separate trusted check.
 
+**Keep action boundaries explicit.** Drafting a reminder is reversible. Sending it reaches recipients. Require a separate, current approval and recipient check before any send action in real work.
+
 ## Choose the Right Amount of AI
 
 **Use a chat response** for one small draft or explanation. Use a project when many related conversations need the same instructions and files. Use a coding agent when a task needs repository search, edits, and tests. Use a separate worker when independent research or review would save your main conversation from a large volume of detail.
@@ -112,6 +116,12 @@ Factual change: corrected the start time from 6 p.m. to 7 p.m.
 
 **Completion check:** award one point each for correct time, correct other facts, draft-only scope, and a factual change list. Finish this lesson when your draft scores four out of four against the synthetic schedule.
 
+## Check Your Understanding
+
+1. **Question:** Which source controls a workshop time when chat history disagrees with an approved schedule? **Answer:** The approved schedule.
+
+2. **Question:** What evidence closes a task after the draft looks plausible? **Answer:** A source check, output check, access check, and recorded result.
+
 ## Troubleshooting
 
 - **Vague answer:** narrow the requested output and add one example.
@@ -121,4 +131,6 @@ Factual change: corrected the start time from 6 p.m. to 7 p.m.
 
 ## Next Steps
 
-**Continue with [ChatGPT and Claude Projects](/articles/effective-ai-chat-projects/)** to keep related instructions and files together. Return to the [course outline](/effective-ai-course-start/) for the full path.
+**Continue with [ChatGPT and Claude Projects](/articles/effective-ai-chat-projects/)** to keep related instructions and files together.
+
+**Course navigation:** [Previous: Course Setup](/articles/effective-ai-course-setup/), [Course outline](/effective-ai-course-start/).

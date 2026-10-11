@@ -12,9 +12,11 @@ coverAlt: "Two organized AI project workspaces holding a project brief, referenc
 coverCaption: ""
 ---
 
-#### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
+[Return to the Practical AI Workflow Course](/effective-ai-course-start/)
 
 **Create a project when several conversations share the same purpose.** Put stable instructions and approved reference files in one place. Keep each conversation focused on one task. This lesson uses a fictional community workshop for practice without private data.
+
+**Learning outcome:** you will create a project with two controlled sources and test its facts in a new chat.
 
 ## Key Takeaways
 
@@ -38,6 +40,7 @@ Do not invent prices, accessibility features, or parking details.
 
 ```text
 approved-schedule.md, revision 1
+Source marker: WS-2026-11-12-R1
 Event: Introduction to Digital Safety
 Date: 2026-11-12
 Start: 7 p.m.
@@ -59,7 +62,7 @@ Draft messages only. Do not send or publish them.
 List factual changes after each revised draft.
 ```
 
-**ChatGPT Projects keep related chats, files, and instructions together.** Project settings and available features vary by plan and workspace. Record whether your project uses default or project-only memory because outside-project context differs. Use the [official ChatGPT Projects guide](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) to check the current interface and memory options before relying on them.
+**ChatGPT Projects keep related chats, files, and instructions together.** Project settings and available features vary by plan and workspace. Choose project-only memory when the creation flow offers it for a clean isolation test. Under default memory, a chat might draw on information outside the uploaded files. The unique source marker below helps you test the file without treating an answer from memory as file evidence. Use the [official ChatGPT Projects guide](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) to check current memory options.
 
 ## Set Up Claude
 
@@ -70,35 +73,43 @@ List factual changes after each revised draft.
 
 **These steps describe classic Claude Projects.** Anthropic is rolling out a separate Projects beta to select Pro and Max Claude Code users. In the beta, one project is one conversation with parallel cloud threads. Check [What are Projects?](https://support.claude.com/en/articles/9517075-what-are-projects) and follow your account interface. Classic project instructions apply across chats, and project knowledge supplies shared reference material. Use the uploaded files as the controlled facts. Project memory behavior varies by account and settings, so do not treat another chat's details as the approved schedule. Review [Claude's project setup guide](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) for current controls.
 
+| Project mode | Shared material to inspect | Fresh test |
+|---|---|---|
+| **ChatGPT project** | Uploaded files, instructions, selected memory mode | New project chat cites the schedule marker |
+| **Claude classic project** | Project knowledge and instructions across chats | New project chat cites the schedule marker |
+| **Claude Projects beta** | Sources and context in its project and cloud threads | New project thread cites the schedule marker |
+
+**A project is a context container, not a source approval.** The marker shows whether a named file reached the chat. You still compare date, time, and room with the file yourself.
+
 ## Test a Fresh Chat
 
 **Open a new ChatGPT project conversation or a new classic Claude project chat.** In the Claude Projects beta, use a new thread in the project. Ask for a short announcement. Omit the schedule from your prompt so the project sources do the work.
 
 ```text
 Draft a 100-word email for the upcoming workshop.
-Name the source used for the time and place.
+Name the source file and its exact source marker for the time and place.
 List any missing facts after the draft.
 Do not send the message.
 ```
 
 | Result | Meaning | Next action |
 |---|---|---|
-| **Time and place match** | The assistant used the supplied schedule | Confirm against the file yourself |
+| **Time, place, and marker match** | The file is available to this chat | Confirm the facts against the file yourself |
 | **A fact is invented** | Instructions or source use failed | Remove the fact and narrow the request |
 | **Source is absent** | The reference did not reach this chat | Check project membership and file upload |
 | **Old revision appears** | The project holds stale material | Replace the source and retest |
 
-**Do not infer reliability from one correct answer.** Repeat the test with this conflicting draft:
+**Do not infer reliability from one correct answer.** Default project memory might supply a familiar time without reading the uploaded file. Require the exact `WS-2026-11-12-R1` marker, then repeat the test with this conflicting draft:
 
 ```text
 Revise this line using the approved project schedule:
 "The Introduction to Digital Safety class starts at 6 p.m. in Community Room A."
-Name the factual change and the source file. Do not send the message.
+Name the factual change, source file, and source marker. Do not send the message.
 ```
 
-**Expected answer:** the line uses 7 p.m. and names `approved-schedule.md` as the source. Record any failure you observe. A passing run needs no invented failure.
+**Expected answer:** the line uses 7 p.m. and names `approved-schedule.md` with marker `WS-2026-11-12-R1`. Record any failure you observe. A passing run needs no invented failure.
 
-**Worked test record:** new chat, first prompt, time 7 p.m., place Community Room A, source `approved-schedule.md`, pass. Conflict prompt, 6 p.m. corrected to 7 p.m., pass. This is an example record. Replace it with your own observed results.
+**Worked test record:** new chat, first prompt, time 7 p.m., place Community Room A, source `approved-schedule.md`, marker `WS-2026-11-12-R1`, pass. Conflict prompt, 6 p.m. corrected to 7 p.m., pass. This is an example record. Replace it with your own observed results.
 
 ## Maintain the Project
 
@@ -108,9 +119,15 @@ Name the factual change and the source file. Do not send the message.
 
 ## Practice and Check
 
-**Your artifact:** one project with two synthetic source files, five instruction lines, and a short test record. Capture the observed time, place, source name, and any invented fact. Delete the practice project when finished if you do not need it.
+**Your artifact:** one project with two synthetic source files, five instruction lines, and a short test record. Capture the observed time, place, source name, marker, and any invented fact. Delete the practice project when finished if you do not need it.
 
 **Expected reasoning:** a new chat uses project sources for stable facts, while your prompt defines the immediate output. You verify the result against the file. A missing source or wrong revision sends you back to project setup.
+
+## Check Your Understanding
+
+1. **Question:** Does a new ChatGPT project chat guarantee isolation under every memory setting? **Answer:** No. Check project memory mode and test with a unique source marker.
+
+2. **Question:** What should you do when the project repeats an older schedule? **Answer:** Inspect the attached source and memory scope, then replace stale source material.
 
 ## Troubleshooting
 
@@ -122,3 +139,5 @@ Name the factual change and the source file. Do not send the message.
 ## Next Steps
 
 **Continue with [AGENTS.md Repository Context](/articles/effective-ai-agents-md-context/)**. The next lesson moves from a chat project to a local code repository.
+
+**Course navigation:** [Previous: Workflow Foundations](/articles/effective-ai-workflow-foundations/), [Course outline](/effective-ai-course-start/).
