@@ -77,7 +77,7 @@ Your course record passes when it contains:
 
 ## Expected Result
 
-You finish with a small security package another reviewer could assess without reading an agent transcript. The package explains what the agent does, which authority it receives, which actions need approval, and how the team proves controls worked.
+You finish with a small security package another reviewer is able to assess without reading an agent transcript. The package explains what the agent does, which authority it receives, which actions need approval, and how the team proves controls worked.
 
 ## Troubleshooting
 

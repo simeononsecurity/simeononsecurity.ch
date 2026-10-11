@@ -26,7 +26,7 @@ The MCP specification separates features by control:
 | **Resource** | Application | Supplies contextual data selected by the client |
 | **Tool** | Model | Requests an operation through the server |
 
-A label does not erase side effects. A resource handler that updates an index writes state. A tool named `read_file` might expose secret files. Inspect implementation behavior and downstream authority.
+A label does not erase side effects. A resource handler which updates an index writes state. A tool named `read_file` might expose secret files. Inspect implementation behavior and downstream authority.
 
 The [MCP specification](https://modelcontextprotocol.io/specification/2026-07-28/) defines protocol behavior. The [MCP security guidance](https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices) addresses consent, confused deputy risks, token handling, and local server risks. Record the revision beside your design.
 

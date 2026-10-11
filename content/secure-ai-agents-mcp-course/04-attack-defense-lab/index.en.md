@@ -175,6 +175,10 @@ Your report should explain:
 
 A system-prompt reminder alone does not pass. The defended path must deny outside the model or retrieved content.
 
+## Expected Result
+
+The unsafe mode selects `send_report`. The defended mode blocks the same request and records a denial. The positive test still permits `propose_patch`.
+
 ## Troubleshooting
 
 - **`python3` is missing:** Use a trusted Python 3.10 or later installation and record the command name.
