@@ -39,6 +39,30 @@ coverCaption: ""
 4. **Create `docs/decisions/DEC-12.md`** with charter approval, roles, baseline decision, and status.
 5. **Commit the bootstrap** as administrator. Record this initial exception. Enable protection before subsequent contributions.
 
+**Local bootstrap route for Git Bash, macOS Terminal, or a Linux shell:** Sign in to GitHub in a browser, open the new repository, select **Code**, and copy its HTTPS clone URL. In a disposable working directory, run the commands below. Replace the two placeholder paths with the URL and the downloaded lab ZIP path. Do not paste a token into the URL.
+
+```bash
+git --version
+git clone "https://github.com/OWNER/export-service-lab.git"
+cd export-service-lab
+unzip -n "/absolute/path/to/ai-collaboration-lab.zip"
+cp baseline/config.json baseline/policy.json baseline/proposal.json baseline/requirement.json baseline/runbook.md .
+mkdir -p docs/decisions
+git status --short
+```
+
+The clone command should name the repository directory. If `unzip` is unavailable, extract the ZIP with your file manager and copy its contents into this checkout, leaving the repository README intact. `git status --short` should list the copied records, checker, tests, and `baseline/` as new files. Save `docs/project-map.md`, `docs/policy.md`, and `docs/decisions/DEC-12.md` from the foundation packet with a text editor. Then run:
+
+```bash
+git add README.md baseline check.py test_check.py config.json policy.json proposal.json requirement.json runbook.md docs
+git commit -m "Add synthetic collaboration baseline"
+git push origin main
+git status --short
+git remote -v
+```
+
+Git should report a new commit ID, then a successful push to `main`. The final short status should be empty. Open the GitHub repository in a fresh browser view and confirm the files and commit ID appear on `main`. Save the commit URL as bootstrap evidence. If Git requests author identity, follow the setup bridge on the course hub. If authentication fails, use GitHub's supported credential flow, then retry the same push. If the branch or remote is wrong, stop and inspect `git branch --show-current` and `git remote -v` before another write. If the push is rejected because protection was already enabled, open a proposal branch and PR instead of bypassing the rule. The browser-only route below remains available through a maintainer.
+
 | Record | Location | Owner |
 |---|---|---|
 | **POL-01** | `policy.json`, `docs/policy.md` | Policy owner |

@@ -102,6 +102,8 @@ Record exceptions, recovery steps, and the next accountable role.
 
 **Download the [lab archive](/downloads/ai-collaboration-lab.zip)** and extract it into an empty directory. It supplies baseline records, a validator, and ten tests. No external packages, network calls, or API keys are required.
 
+Open a terminal in the extracted directory. On macOS or Linux, run `pwd` and `python3 --version`. On Windows PowerShell, run `Get-Location` and `py -3 --version`. The directory should contain `check.py`, `test_check.py`, and `baseline/`, and Python must report 3.10 or later. The command block below uses a POSIX shell, such as macOS Terminal, Linux, or Git Bash.
+
 ```bash
 python3 -m unittest discover -s . -v
 cp -R baseline candidate
@@ -116,6 +118,8 @@ PASS: consistency only, human approval remains required
 ```
 
 **Keep `baseline/` unchanged** while editing **`candidate/`**. The manifest hashes the policy and requirement bytes. A hash detects content changes, not identity or approval. The GitHub Actions lesson uses a separately fetched protected base rather than trusting the candidate's baseline directory.
+
+**Save test evidence before moving on.** In a POSIX shell, run `python3 -m unittest discover -s . -v > lab-tests.txt 2>&1`, then immediately run `echo $?`. In PowerShell, run `py -3 -m unittest discover -s . -v *> lab-tests.txt`, then immediately run `$LASTEXITCODE`. Exit status `0`, `Ran 10 tests`, and `OK` support a passing local test. Open the saved `lab-tests.txt` and keep it in your private pilot packet. A nonzero status needs investigation even if the last visible line looks favorable. Save the validator output separately as `lab-validation.txt`; keep `candidate/context.json` as the captured manifest.
 
 **Start from a fresh extraction for each run.** The `cp -R baseline candidate` step assumes `candidate/` does not exist. Remove a disposable candidate directory only after saving evidence you need, or extract the archive into a new empty directory. Copying into an existing candidate creates nested or stale records.
 

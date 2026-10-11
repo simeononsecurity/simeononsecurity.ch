@@ -28,7 +28,7 @@ coverCaption: ""
 
 ## Before You Begin
 
-**Who:** contributor, product owner, operations owner, maintainer, and publisher. Assign people privately and use separate contributor/reviewer users for denial tests.
+**Who:** contributor, product owner, operations owner, maintainer, and publisher. Assign people privately. Use separate people or organization-approved test identities for denial tests. Do not create misleading extra accounts to simulate independent review.
 
 **What and where:** disposable GitHub repository, an approved coding/chat tool if desired, and dedicated Confluence/Jira Cloud sandboxes for Mixed. Python 3.10 or later runs the local lab without packages. Browser-only contributors ask the maintainer to run checks.
 
@@ -38,6 +38,10 @@ coverCaption: ""
 
 **Readiness check:** open a GitHub repository, identify its default branch, explain what a PR changes, and read a small JSON record such as `{"retention_days": 7}`. For local checks, confirm Python and Git run in your terminal. For browser-only work, complete the foundation, repository, and browser lessons with a maintainer. You do not need to run the agent and Actions lesson to submit an Issue.
 
+**First-time setup bridge:** Create a GitHub account under your organization's policy and ask a maintainer to create a disposable repository. Install Git from [git-scm.com](https://git-scm.com/downloads) and Python 3.10 or later from [python.org](https://www.python.org/downloads/). Open Terminal on macOS or Linux, or PowerShell on Windows. Run `git --version` and `python3 --version` on macOS or Linux, or `git --version` and `py -3 --version` on Windows. Each command should print a version. If a command is missing, install the tool before the local track. GitHub's [authentication guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) explains the supported sign-in paths. Do not place passwords or tokens in a repository.
+
+**Harmless Git rehearsal:** Create a disposable folder in your file manager and open a terminal there. Run `git init`. Save a one-line `practice.txt` with a text editor. Run `git add practice.txt`, then `git commit -m "Practice commit"`. If Git asks for an author identity, run `git config --global user.name "Your approved name"` and `git config --global user.email "your-approved-email@example.com"`, replace both examples with your approved account details, then retry the commit. `git status` should report a clean working tree. This local rehearsal publishes nothing. The repository lesson covers the remote route and its verification.
+
 ## Terms You Need First
 
 | Term | Meaning in this course |
@@ -45,6 +49,10 @@ coverCaption: ""
 | **Authority** | The named record whose owner decides a specific fact, such as approved retention |
 | **Protected branch** | A GitHub branch with rules governing direct changes and merges |
 | **Pull request (PR)** | A proposed branch change for review before merging |
+| **Local checkout** | The repository files on your computer |
+| **Remote** | The hosted repository location connected to a local checkout |
+| **Branch** | A named line of commits used to isolate proposed changes |
+| **Commit** | A recorded snapshot of selected changes with an identifier |
 | **Manifest** | A file recording source revisions and hashes used for a check |
 | **Revision-bound review** | Approval of a specific proposal version and the source versions behind it |
 | **Read-back** | Opening published records again to confirm their final values |

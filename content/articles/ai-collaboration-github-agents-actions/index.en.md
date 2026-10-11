@@ -71,6 +71,8 @@ test -f check.py && test -f requirement.json && test -f config.json
 
 **Confirm `main`, the expected `origin`, and an empty status output** before proceeding. If a file check fails, return to the repository bootstrap lesson. A GitHub Actions workflow is a YAML file under **`.github/workflows/`**. The workflow below runs after a PR opens and reports its checks back to the PR.
 
+The commands use a POSIX shell, including Git Bash on Windows. A successful clone prints `Cloning into 'export-service-lab'`. `git remote -v` should show the repository URL for fetch and push, `git branch --show-current` should print `main`, and the short status should print no lines. If authentication fails, complete GitHub's supported browser or credential-manager flow and retry. Do not put a token in the URL. A wrong remote or branch is a stop condition. Compare the browser repository URL with `git remote -v` before changing a remote.
+
 ## Capture a Trusted Base
 
 **Commit the bootstrap first**, then use the clone as the proposal checkout and add a detached worktree for the approved base. The clone holds editable candidates. The detached worktree supplies the captured base.
@@ -85,6 +87,8 @@ git rev-parse origin/main
 ```
 
 **Attach the printed commit ID** to the PR description. The root files copied from baseline are the GitHub-first source records. Keep **`baseline/`** as unit-test fixtures. The checker captures source bytes, not proof of owner approval.
+
+`git worktree add` should print `Preparing worktree`, and `git switch -c` should print a new branch name. `git status --short` in the proposal checkout should start empty. If `../export-trusted` already exists, run `git worktree list` and inspect its path and commit. Reuse it only after confirming it is the intended trusted base. Otherwise choose a new empty sibling path and update the commands. Do not delete an unknown directory. A failed fetch or authentication leaves the trusted-base step incomplete.
 
 | Command or record | Evidence to retain |
 |---|---|
@@ -154,6 +158,8 @@ jobs:
 ```
 
 **The immutable checkout pin** identifies a known release, not the newest release. Review dependency upgrades separately. This workflow has no production secrets, publication credentials, or model calls. Do not substitute **`pull_request_target`** while executing untrusted candidate code.
+
+On the PR, open **Checks** to locate the `pilot-consistency` job, then open its log. The repository **Actions** tab also lists the workflow run by commit. Save the run URL, job name, commit ID, and relevant failure or success lines in `consistency-results.txt`. After a repair, retain both failed and passing run references. For forked PRs, inspect the repository's workflow permissions and approval state before expecting a job to start. A job waiting for approval is Not run, not Passed. Keep secrets out of the workflow and candidate logs.
 
 **The trusted checker reads candidate JSON as data.** Candidate checker changes need separate maintainer review before becoming trusted. The workflow definition itself remains a review-sensitive control surface. It is not hostile-author-proof enforcement against someone rewriting their own candidate job. Protect workflow paths and inspect their diff.
 
