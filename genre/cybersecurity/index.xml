@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersecurity on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Cybersecurity on simeononsecurity</title><link>https://it.simeononsecurity.com/genre/cybersecurity/</link></image><link>https://it.simeononsecurity.com/genre/cybersecurity/</link><description>Recent content in Cybersecurity on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/genre/cybersecurity/index.xml" rel="self" type="application/rss+xml"/><item><title>Il boom dell'infrastruttura IA nel 2026: domanda, debito, energia e prove</title><link>https://it.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "Economia dell'IA"
+, "Data center"
+, "Infrastruttura cloud"
+, "Cybersecurity"</category><guid>https://it.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Una revisione verificata della spesa per l'infrastruttura IA, della domanda elettrica dei data center, delle strutture finanziarie, del valore d'impresa e delle prove necessarie prima di definire il mercato una bolla.</description><enclosure url="https://it.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp" length="391660" type="image/webp"/></item><item><title>Privacy dell'IA locale: cosa resta sul computer e cosa no</title><link>https://it.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Privacy"
+, "IA self-hosted"
+, "Cybersecurity"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Traccia prompt, file del modello, strumenti, log, esposizione di rete e costi energetici prima di scegliere l'inferenza locale o un servizio IA ospitato.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Microsoft SOC Home Lab: Build Cybersecurity Experience in 2026</title><link>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Cloud Security"
+, "Career Development"</category><guid>https://it.simeononsecurity.com/articles/microsoft-soc-home-lab-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Build a Microsoft SOC home lab with Sentinel, Defender, Intune, and Entra. Practice incident investigation, validate passkey policies, and document portfolio evidence.</description><enclosure url="https://it.simeononsecurity.com/img/cover/microsoft-soc-home-lab.webp" length="90498" type="image/webp"/></item><item><title>The Most Common Types of Cyberattacks and How Defenders Catch Them</title><link>https://it.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><category>
+"Cybersecurity"
+, "Threat Detection"
+, "Blue Team"
+, "Security Operations"
+, "Career Development"</category><guid>https://it.simeononsecurity.com/articles/most-common-types-of-cyberattacks-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab.</description><enclosure url="https://it.simeononsecurity.com/img/cover/types-of-cyberattacks-icons-illustration.webp" length="180244" type="image/webp"/></item><item><title>Fortinet vs Cisco: Confronto Completo sulla Sicurezza di Rete...</title><link>https://it.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"Sicurezza di Rete"
+, "Cybersecurity"
+, "Networking Aziendale"
+, "Confronto Firewall"
+, "Infrastruttura IT"
+, "Hardware di Rete"
+, "Soluzioni di Sicurezza"
+, "Gestione di Rete"
+, "Confronto Tecnologico"
+, "Decisioni IT"</category><guid>https://it.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto completo delle soluzioni di sicurezza di rete Fortinet e Cisco, inclusi firewall, switch, SD-WAN, prezzi, benchmark di prestazioni e raccomandazioni di implementazione per il 2026.</description><enclosure url="https://it.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>LibreWolf vs Firefox</title><link>https://it.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Privacy"
+, "Browser Web"
+, "Sicurezza Online"
+, "Open Source"
+, "Privacy Digitale"
+, "Software"
+, "Confronto"
+, "Cybersecurity"
+, "Privacy su Internet"</category><guid>https://it.simeononsecurity.com/articles/choosing-librewolf-firefox-privacy-focused-browsers/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esplora le caratteristiche di LibreWolf e Firefox, due browser focalizzati sulla privacy, per fare una scelta informata a favore di una maggiore sicurezza e privacy online.</description><enclosure url="https://it.simeononsecurity.com/img/cover/choosing-librewolf-firefox-privacy-focused-browsers.webp" length="216618" type="image/webp"/></item><item><title>Le 5 Tecniche Principali per la Sicurezza e l'Indurimento di Linux</title><link>https://it.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"Tecnologia"
+, "Cybersecurity"
+, "Linux"
+, "Sicurezza del Sistema"
+, "Open-source"
+, "Indurimento"
+, "IT"
+, "Protezione dei Dati"
+, "Sicurezza di Rete"
+, "Informatica"</category><guid>https://it.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Scopri le 5 tecniche principali per la sicurezza di Linux per rafforzare il tuo sistema contro le minacce. Migliora l'integrità del sistema e proteggi i dati sensibili con misure esperte di indurimento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item></channel></rss>

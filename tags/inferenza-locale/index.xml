@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Inferenza Locale on simeononsecurity</title><image><url>https://it.simeononsecurity.com/img/banner.webp</url><title>Inferenza Locale on simeononsecurity</title><link>https://it.simeononsecurity.com/tags/inferenza-locale/</link></image><link>https://it.simeononsecurity.com/tags/inferenza-locale/</link><description>Recent content in Inferenza Locale on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>it</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://it.simeononsecurity.com/tags/inferenza-locale/index.xml" rel="self" type="application/rss+xml"/><item><title>2x RTX 5060 Ti contro GB10: perché 32 GB di VRAM perdono contro 128 GB di memoria unificata</title><link>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"Intelligenza artificiale"
+, "IA locale"
+, "Hardware GPU"
+, "Benchmarking"
+, "Hardware del computer"</category><guid>https://it.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronto basato su benchmark tra due schede RTX 5060 Ti da 16 GB e un sistema NVIDIA GB10 per Qwen 3 27B e l'inferenza locale con contesto lungo.</description><enclosure url="https://it.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp" length="280494" type="image/webp"/></item><item><title>Privacy dell'IA locale: cosa resta sul computer e cosa no</title><link>https://it.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Privacy"
+, "IA self-hosted"
+, "Cybersecurity"
+, "Economia dell'IA"</category><guid>https://it.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Traccia prompt, file del modello, strumenti, log, esposizione di rete e costi energetici prima di scegliere l'inferenza locale o un servizio IA ospitato.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>IA locale contro ChatGPT: quanto siamo davvero vicini?</title><link>https://it.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Intelligenza artificiale"
+, "Hardware IA"
+, "Strumenti per sviluppatori"</category><guid>https://it.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Confronta l'IA locale con ChatGPT e Claude usando punteggi benchmark, stime della memoria, velocità di servizio e verifica degli agenti. Include scenari con RTX 5090, DGX Spark e Mac Studio.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp"/></item><item><title>Programmazione IA locale su una GPU da 16 GB: Strata, OpenCode e Qwen3.8</title><link>https://it.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"IA locale"
+, "Strumenti per sviluppatori"
+, "IA self-hosted"
+, "Hardware IA"</category><guid>https://it.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Esegui un agente di programmazione locale con Strata e OpenCode. Esamina i risultati riportati su RTX 4060 Ti, i requisiti RAM, il riuso dei prompt, i budget di ragionamento e i limiti della sostituzione di un abbonamento a pagamento.</description><enclosure url="https://it.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item></channel></rss>
