@@ -1,14 +1,14 @@
 ---
 title: "Run a Homelab Backup Restore Drill With Restic"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Test whether a homelab backup restores usable files. Set a recovery target, restore to a separate location with Restic, check data, and record the result."
 genre: ["Homelab", "Backup", "Disaster Recovery"]
 tags: ["homelab backup", "restore drill", "Restic restore", "backup verification", "recovery test", "disaster recovery", "RPO", "RTO", "backup repository", "Restic check", "NAS backup", "server backup", "VM recovery", "file restore", "backup encryption", "backup monitoring", "recovery plan", "backup test", "offsite backup", "data integrity"]
 cover: "/img/cover/homelab-backup-restore-drill.webp"
-coverAlt: "A homelab server and separate backup drive with a verified restore folder and recovery checklist."
+coverAlt: "A homelab server and NAS backed up to a separate drive, with a verified restore folder on an isolated test computer and a stopwatch."
 coverCaption: "Restore to a separate target, then check the data and the time required."
 ---
 
@@ -39,13 +39,13 @@ Write down what you need after a failure. A **recovery point objective (RPO)** i
 | **Home service config** | Last known good change | Config version and required secrets |
 | **NAS media library** | Weekly backup | Sample playback and restore time |
 
-The targets above are examples, not measured results. Include the backup system's credentials, encryption key, and storage location in your recovery plan. Store the key through a protected path independent of the failed host. A repository that survives while its only password does not is not recoverable.
+The targets above are examples, not measured results. In your recovery plan, record the backup storage location and how an authorized person retrieves the repository password or encryption key. Do not place secret values in the plan or drill record. Store the secrets through a protected path independent of the failed host. A repository that survives while its only password does not is not recoverable.
 
 Choose one **critical file set** for this drill. Add one small file you know should be present in the latest snapshot. For a service, also list the configuration, database export, certificates, and application version needed to start it. Confirm that your backup method captures consistent application data before relying on a file-level copy of a running database.
 
 ## Find a Snapshot
 
-Connect the backup storage read-only if your workflow supports it, or use a repository account that cannot delete backup data. Keep the live source and test target separate. Replace `/path/to/repository` with your actual Restic repository path, then list snapshots:
+Use repository access approved for a restore drill. Restic normally creates repository locks, so the commands below assume that the repository permits those lock writes. Keep the live source and test target separate. Replace `/path/to/repository` with your actual Restic repository path, then list snapshots:
 
 ```bash
 restic -r /path/to/repository snapshots
@@ -60,7 +60,8 @@ If the expected snapshot is absent, stop the drill and investigate the backup sc
 Create an **empty target directory** on a test filesystem with enough room for the snapshot. Do not point Restic at the original source, a mounted production share, or an existing folder containing data you want to keep. Replace `SNAPSHOT_ID` and both example paths before running this command:
 
 ```bash
-restic -r /path/to/repository restore SNAPSHOT_ID --target /path/to/empty-restore-drill
+restic -r /path/to/repository restore SNAPSHOT_ID \
+  --target /path/to/empty-restore-drill
 ```
 
 Restic's [restore guide](https://restic.readthedocs.io/en/stable/050_restore.html) describes the snapshot ID and `--target` path. The restored tree keeps the source path underneath the target directory, so locate the actual files before judging the result. If you need only a small subset, use the documented [restore include filters](https://restic.readthedocs.io/en/stable/050_restore.html) and record what you excluded. Do not use `--delete` in a drill. Restic says that option removes files in the target that are absent from the snapshot.
