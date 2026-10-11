@@ -1,7 +1,7 @@
 ---
 title: "Lab: Test a Secure Local AI Entry Point"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Run a synthetic loopback model service and gateway, then test authentication, request limits, and listener scope."
@@ -22,7 +22,7 @@ Run the Bash commands on Linux or macOS. On Windows, use the WSL 2 environment s
 
 ## Create the Lab Server
 
-Create a new directory and save this file as **`secure_gateway_lab.py`**:
+Create a new directory and download the [tested `secure_gateway_lab.py` source](/downloads/local-ai-secure-server-course/secure_gateway_lab.py) into it. The complete source appears below if you prefer to copy it. Use the downloaded file or verify your copy matches it before testing.
 
 ```python
 from __future__ import annotations

@@ -1,7 +1,7 @@
 ---
 title: "Lesson 1: Choose Hardware and a Local AI Model"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Match a local model, quantization, context target, license, and runtime to your hardware."
@@ -74,6 +74,28 @@ Do not claim a universal bytes-per-token value. Context memory depends on archit
 **Beginner path:** Select a small model from the Ollama library with a download size comfortably below available memory.
 
 **Advanced path:** Compare two quantizations or two model sizes. Keep prompt, output limit, context, runtime version, and host state fixed.
+
+## Beginner 8 GB Example
+
+*Checked October 11, 2026. Model tags, file sizes, and license records change. Check the linked record again before use.*
+
+For a host with **8 GB of system memory**, start with **`qwen3:1.7b`**. The official [Ollama library record](https://ollama.com/library/qwen3:1.7b) lists a **Q4_K_M** model with an approximate **1.4 GB download**. Open **Details**, then read the **license** entry and record its terms before use. The current record lists Apache License 2.0.
+
+```bash
+ollama pull qwen3:1.7b
+ollama show qwen3:1.7b
+```
+
+The file size is not the full runtime memory requirement. Start with one request and a 2,048-token context. Measure available memory and swap before increasing the context.
+
+If **`qwen3:1.7b`** leaves too little headroom, use **`qwen3:0.6b`**. Its official [Ollama library record](https://ollama.com/library/qwen3:0.6b) lists an approximate **523 MB download** and includes the license entry.
+
+```bash
+ollama pull qwen3:0.6b
+ollama show qwen3:0.6b
+```
+
+Treat both models as learning examples. Test output quality against your target task before choosing either one for a service.
 
 ## Verify Provenance
 

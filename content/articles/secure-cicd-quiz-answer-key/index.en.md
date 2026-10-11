@@ -1,14 +1,14 @@
 ---
 title: "Secure CI/CD Quiz Answer Key"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Check and explain the ten Secure CI/CD course questions before the release gate capstone."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure CI/CD answer key", "software supply chain quiz", "release verification questions"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-quiz-answer-key.webp"
+coverAlt: "A reviewer compares a completed answer sheet with security controls and flags one conditional result."
 coverCaption: ""
 ---
 

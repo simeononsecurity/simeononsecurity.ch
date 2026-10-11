@@ -1,7 +1,7 @@
 ---
 title: "Lesson 2: Run Your First Local Model"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Install a local runtime, pull a selected model, run a prompt, and verify the loopback API."
@@ -89,7 +89,13 @@ On macOS:
 lsof -nP -iTCP:11434 -sTCP:LISTEN
 ```
 
-On Windows PowerShell:
+On Windows, run the required listener check inside the same WSL 2 distribution as the service:
+
+```bash
+ss -ltnp | grep 11434
+```
+
+An optional Windows host check shows listeners owned by Windows processes. It does not prove the WSL listener boundary:
 
 ```powershell
 Get-NetTCPConnection -LocalPort 11434 -State Listen

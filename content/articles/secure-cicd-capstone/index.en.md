@@ -1,14 +1,14 @@
 ---
 title: "Secure Release Gate Capstone"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Build and defend a release decision with dependency evidence, SBOM scope, pipeline permissions, provenance policy, and a tampering test."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure release capstone", "CI/CD release gate", "SBOM", "artifact verification", "supply chain security"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-capstone.webp"
+coverAlt: "Dependency, build, test, and attestation evidence converge at a release gate for review."
 coverCaption: ""
 ---
 

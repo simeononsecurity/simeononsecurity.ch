@@ -169,6 +169,16 @@ Default 3 workers × 2 API calls each = 6 concurrent calls. This stays safely
 within standard-tier gpt-image-2 limits. Reduce `--workers` if you hit persistent
 429 errors.
 
+An HTTP 429 response with `insufficient_quota` or "no credits remaining" is not
+a rate-limit delay. Stop the batch instead of retrying every page. The generator
+can exit with status 0 after reporting failures, so count successful files and run
+`tools/check_content_media.py --require-cover --generated` on every changed page.
+When the API account lacks credits, use the host's available image-generation tool
+for the intended cover art, convert the returned image with this repository's
+`save_image` helper to a 2048×1152 WebP in `assets/img/cover/`, then inspect the
+image and its `coverAlt` before committing. Do not treat an API failure as a
+completed media run.
+
 ---
 
 ## Article Body Limit

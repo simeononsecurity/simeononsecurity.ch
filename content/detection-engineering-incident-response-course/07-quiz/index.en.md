@@ -1,14 +1,14 @@
 ---
 title: "Detection Engineering and Incident Response Quiz"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Test telemetry, ATT&CK mapping, detection logic, triage, scoping, containment, recovery, and evidence handling with a complete answer key."
+description: "Test telemetry, ATT&CK mapping, detection logic, triage, scoping, containment, recovery, and evidence handling."
 genre: ["Cybersecurity", "Detection Engineering", "Incident Response"]
-tags: ["detection engineering quiz", "incident response quiz", "MITRE ATT&CK quiz", "SOC assessment", "answer key"]
+tags: ["detection engineering quiz", "incident response quiz", "MITRE ATT&CK quiz", "SOC assessment"]
 cover: "/img/cover/detection-incident-response-quiz.webp"
-coverAlt: "An analyst reviewing detection and incident response questions beside an evidence timeline."
+coverAlt: "An analyst reviewing detection and incident response questions beside an evidence timeline"
 coverCaption: "Check each decision against evidence."
 ---
 
@@ -78,42 +78,21 @@ coverCaption: "Check each decision against evidence."
     C. Security gates pass, monitoring works, and the business owner accepts restored function
     D. The incident ticket has a closing date
 
-## Answer Key
+## Progression Gate
 
-1. **B.** A telemetry contract defines meaning and limits before analysis.
-2. **A.** An Analytic holds platform-specific detection logic under a Detection Strategy.
-3. **C.** ATT&CK v18 introduced the current defensive object model and deprecated Data Sources.
-4. **C.** Approved inventory work should not match the Office-parent encoded-command rule.
-5. **B.** The source proves use of an authentication path, not the human behind the session.
-6. **B.** The event directly records the host behavior.
-7. **A.** The card makes authority, evidence risk, rollback, and verification visible.
-8. **B.** Password reset alone does not remove sessions or delegated application grants.
-9. **B.** Parent, script, destination, user, and approval context support a separate benign workflow.
-10. **C.** Recovery needs technical and business validation.
-
-## Score and Review
-
-| Score | Next action |
+| Score | Required next action |
 |---|---|
-| **9 to 10** | Start the capstone |
-| **7 to 8** | Revisit the missed lesson and correct your reason |
-| **0 to 6** | Repeat Lessons 1 through 6 with the sample timeline |
+| **9 to 10** | Start the capstone after recording missed-item corrections |
+| **7 to 8** | Revisit each missed lesson, correct every missed reason, and retake the quiz from a clean copy. Start the capstone only after the retest reaches 9 out of 10 |
+| **0 to 6** | Repeat Lessons 1 through 6 with the sample timeline, correct every missed reason, and retake the quiz. Reach 9 out of 10 before the capstone |
 
-> **Expected Result:** each correct choice has an evidence-based reason, not a memorized label.
-
-## Troubleshooting
-
-- **Two answers seem plausible:** choose the one supported by direct evidence and bounded claims.
-- **A framework term is unclear:** return to the official source linked in the related lesson.
-- **Your reason differs from the key:** identify which fact changes the decision.
+> **Expected Result:** each choice has an evidence-based reason before you view the key.
 
 ## Verify Your Work
 
 - [ ] All ten questions have answers and reasons
+- [ ] The first attempt is complete before the key opens
 - [ ] Missed items link to a specific lesson
-- [ ] Revised answers explain the evidence change
-- [ ] Score is recorded without secrets or real incident data
+- [ ] The score is recorded without secrets or real incident data
 
-## Next Steps
-
-Complete the [Detection Engineering and Incident Response Capstone](/detection-engineering-incident-response-course/08-capstone-answer-key/).
+Open the [Quiz Answer Key](/detection-engineering-incident-response-course/09-quiz-answer-key/) after you finish every answer. Start the [Capstone](/detection-engineering-incident-response-course/08-capstone/) only after your score reaches 9 out of 10.

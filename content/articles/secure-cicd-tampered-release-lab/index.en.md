@@ -1,14 +1,14 @@
 ---
 title: "Tampered Release Lab: Reject Changed Artifact Bytes"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Run a local release verification lab, detect a modified artifact, and explain why trusted checksums and attestation identities matter."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["tampered release lab", "SHA-256 verification", "artifact integrity", "software supply chain training"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-tampered-release-lab.webp"
+coverAlt: "A clean package passes comparison while an altered package is blocked at a release gate."
 coverCaption: ""
 ---
 

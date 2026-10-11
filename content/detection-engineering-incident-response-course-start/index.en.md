@@ -1,7 +1,7 @@
 ---
 title: "Detection Engineering and Incident Response Course"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Build and test detections with synthetic identity, endpoint, and DNS evidence. Investigate an incident and report your findings."
@@ -43,10 +43,18 @@ By the end, you will produce:
 | **4** | [Triage and Scoping](/detection-engineering-incident-response-course/04-triage-scoping/) | Decide severity and find related activity |
 | **5** | [Full Investigation Lab](/detection-engineering-incident-response-course/05-investigation-lab/) | Build a supported timeline from sample data |
 | **6** | [Containment and Recovery](/detection-engineering-incident-response-course/06-containment-recovery/) | Plan safe response and verify restoration |
-| **7** | [Quiz and Answer Key](/detection-engineering-incident-response-course/07-quiz-answer-key/) | Check concepts and evidence handling |
-| **8** | [Capstone and Answer Key](/detection-engineering-incident-response-course/08-capstone-answer-key/) | Deliver a detection and incident package |
+| **7** | [Course Quiz](/detection-engineering-incident-response-course/07-quiz/) | Complete ten evidence-based questions |
+| **7 key** | [Quiz Answer Key](/detection-engineering-incident-response-course/09-quiz-answer-key/) | Score the attempt and correct each reason |
+| **8** | [Course Capstone](/detection-engineering-incident-response-course/08-capstone/) | Deliver a detection and incident package |
+| **8 key** | [Capstone Answer Key](/detection-engineering-incident-response-course/10-capstone-answer-key/) | Compare the package with the reference response |
 
 Work in order. **Lessons 3 through 6 reuse the same event story**, so skipped steps leave evidence gaps.
+
+## Assessment Gates
+
+Score **9 out of 10 or higher** on the quiz before starting the capstone. A score of 7 or 8 requires you to revisit each missed lesson, correct every missed reason, and retake the quiz from a clean copy. Start the capstone only after the retest reaches 9 out of 10. A score of 0 to 6 requires another pass through Lessons 1 through 6 before the retest.
+
+Pass the capstone with **80 out of 100 or higher** and no evidence-integrity failure. Record corrections after comparing your finished package with the separate answer key.
 
 ## Prerequisites
 

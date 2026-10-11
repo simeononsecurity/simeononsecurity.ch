@@ -1,7 +1,7 @@
 ---
 title: "Incident Response Lesson 6: Containment and Recovery"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Plan evidence-aware containment, credential and token response, endpoint recovery, service restoration, communication, and detection improvements."
@@ -106,4 +106,4 @@ Give each item an owner, due date, evidence target, and validation method. An im
 
 ## Next Steps
 
-Take the [Course Quiz](/detection-engineering-incident-response-course/07-quiz-answer-key/), then complete the [Capstone](/detection-engineering-incident-response-course/08-capstone-answer-key/).
+Take the [Course Quiz](/detection-engineering-incident-response-course/07-quiz/), review the [Quiz Answer Key](/detection-engineering-incident-response-course/09-quiz-answer-key/), then complete the [Capstone](/detection-engineering-incident-response-course/08-capstone/).

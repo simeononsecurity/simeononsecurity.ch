@@ -1,7 +1,7 @@
 ---
 title: "Local AI Secure Server Knowledge Check"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Test model selection, local inference, performance measurement, server access, updates, and recovery."
@@ -20,7 +20,7 @@ coverCaption: ""
 
 1. Create **`local-ai-knowledge-check.md`**.
 2. Record one answer and one sentence of reasoning per question.
-3. Use the key to score your work.
+3. Finish all ten answers before opening the separate [answer key](/local-ai-secure-server-course/08-knowledge-check-answer-key/).
 4. Link each missed item to a repaired lesson record.
 
 ## Questions
@@ -85,34 +85,12 @@ coverCaption: ""
    - C. Add another model
    - D. Delete benchmark results
 
-## Answer Key
-
-| # | Answer | Reason |
-|---|---|---|
-| **1** | B | Weights form one part of runtime memory use. |
-| **2** | C | A digest supports artifact identity against a known reference. |
-| **3** | A | Prompt evaluation and generation measure different phases. |
-| **4** | B | Loopback keeps early service access on one host. |
-| **5** | B | Observed diagnostics and device activity establish placement. |
-| **6** | C | The gateway supplies identity and policy while the runtime stays off the network. |
-| **7** | A | Parallel requests multiply active context and raise memory demand. |
-| **8** | B | Metadata supports operations while reducing raw-content collection. |
-| **9** | C | Rollback needs the prior artifacts, settings, and evidence. |
-| **10** | B | Unexpected broad binding requires containment and verification. |
-
 ## Expected Result
 
 A passing score is **8 out of 10**. Questions 4, 6, 8, 9, and 10 form the security gate. Answer all five correctly before the capstone.
 
-## Troubleshooting
-
-- **Memory answers stay unclear:** Revisit [Lesson 1](/local-ai-secure-server-course/01-hardware-model-fit/) and your fit worksheet.
-- **Performance terms blend together:** Revisit [Lesson 3](/local-ai-secure-server-course/03-measure-tune/) and label both phases in your table.
-- **Network controls seem redundant:** Map the native runtime and gateway as separate processes with separate duties.
-- **Rollback lacks a model artifact:** Add the prior digest and storage location to your update record.
-
 ## Verify Completion
 
-Record your score, security-gate score, and corrections. Pass when your total reaches eight, all five security items are correct, and each missed question has a repaired artifact.
+After your attempt, use the [knowledge-check answer key](/local-ai-secure-server-course/08-knowledge-check-answer-key/) to record your score, security-gate score, and corrections. Pass when your total reaches eight, all five security items are correct, and each missed question has a repaired artifact.
 
-Continue with the [Local AI Server Capstone](/local-ai-secure-server-course/07-capstone/).
+Continue with the [Local AI Server Capstone](/local-ai-secure-server-course/07-capstone/) after you meet both quiz gates.

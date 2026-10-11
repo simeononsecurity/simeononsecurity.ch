@@ -1,14 +1,14 @@
 ---
 title: "Secure Release Gate Reference Packet"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Compare a completed local release decision packet with the Secure CI/CD capstone evidence and decision rules."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure release answer key", "release gate reference", "supply chain capstone"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-capstone-answer-key.webp"
+coverAlt: "A reviewer compares learner and reference evidence packets while a release gate remains closed."
 coverCaption: ""
 ---
 
@@ -28,7 +28,7 @@ coverCaption: ""
 
 ## Authority and Findings
 
-**Test job:** `contents: read`, no release secret. **Release job:** `contents: read`, `id-token: write`, and `attestations: write` for the attestation exercise. A protected release ref and reviewed action pins remain required for a real release.
+**Test job:** `contents: read`, no release secret. **Release job:** `contents: read`, `id-token: write`, `attestations: write`, and `artifact-metadata: write` for the attestation exercise. A protected release ref and reviewed action pins remain required for a real release.
 
 **Scorecard:** The sample Pinned-Dependencies score is 3 with a mutable-tag reason. This is illustrative. Review the action's upstream commit, pin the reviewed revision, and rerun a real Scorecard analysis. No live score was observed in the local path.
 

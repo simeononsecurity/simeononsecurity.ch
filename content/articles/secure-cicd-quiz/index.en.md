@@ -1,14 +1,14 @@
 ---
 title: "Secure CI/CD Knowledge Check"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Test dependency, SBOM, pipeline, Scorecard, provenance, attestation, and tampered-release decisions before viewing the separate answer key."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure CI/CD quiz", "SBOM quiz", "SLSA quiz", "software supply chain assessment"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-quiz.webp"
+coverAlt: "A learner reviews a CI/CD security checklist beside pipeline and artifact symbols."
 coverCaption: ""
 ---
 

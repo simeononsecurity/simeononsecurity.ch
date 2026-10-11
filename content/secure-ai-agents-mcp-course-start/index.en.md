@@ -1,7 +1,7 @@
 ---
 title: "Secure AI Agents and MCP Course"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Design AI agents and MCP connections with narrow authority, explicit approval, isolated execution, and useful audit evidence."
@@ -11,6 +11,8 @@ cover: "/img/cover/secure-ai-agents-mcp-course.webp"
 coverAlt: "Diagram of an AI agent separated from data and tools by policy and approval controls"
 coverCaption: ""
 ---
+
+The **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro)** is an open standard for connecting an AI application to outside data and tools. The application is the host. An MCP client inside the host requests data or actions from an MCP server. The server returns data or performs only the actions it exposes.
 
 **This course teaches you to contain an AI agent before you trust its output.** You will map authority, review MCP server and tool controls, test a prompt injection in an isolated lab, and produce an evidence package for review.
 
@@ -50,8 +52,10 @@ After the course, you will:
 | **2** | [Secure MCP Tools and Authorization](/secure-ai-agents-mcp-course/02-secure-mcp-tools/) | Tool and identity design | MCP security contract |
 | **3** | [Operate Agents with Evidence](/secure-ai-agents-mcp-course/03-agent-operations/) | Monitoring and recovery | Event and review plan |
 | **4** | [Run the Attack and Defense Lab](/secure-ai-agents-mcp-course/04-attack-defense-lab/) | Controlled validation | Attack trace and fixed policy |
-| **5** | [Check Your Knowledge](/secure-ai-agents-mcp-course/05-knowledge-check/) | Analysis | Scored quiz and answer review |
+| **5** | [Check Your Knowledge](/secure-ai-agents-mcp-course/05-knowledge-check/) | Analysis | Completed quiz attempt with reasons |
+| **5 key** | [Review the Quiz Answer Key](/secure-ai-agents-mcp-course/07-quiz-answer-key/) | Correction | Scored quiz and repaired artifacts |
 | **6** | [Complete the Security Capstone](/secure-ai-agents-mcp-course/06-capstone/) | Design and evaluation | Review-ready agent security package |
+| **6 key** | [Review the Capstone Answer Key](/secure-ai-agents-mcp-course/08-capstone-answer-key/) | Evaluation | Scored decision and correction record |
 
 **Follow the numbered order.** Each page builds one artifact used in the capstone.
 
@@ -71,9 +75,11 @@ Your course record passes when it contains:
 2. A tool inventory with read, write, and external effects marked.
 3. A deny-by-default policy for untrusted instructions.
 4. An approval rule for writes and external communication.
-5. A lab trace showing one allowed read and one blocked exfiltration attempt.
+5. A lab trace showing one allowed `propose_patch` action and one blocked exfiltration attempt.
 6. A recovery procedure with credential rotation, evidence preservation, and retest steps.
 7. A capstone decision with residual risks and an accountable owner.
+8. A quiz score of **8 out of 10 or higher**, with questions 1, 2, 4, and 5 correct.
+9. A capstone score of **10 out of 12 or higher**, with no zero in authority, approval, or attack test.
 
 ## Expected Result
 

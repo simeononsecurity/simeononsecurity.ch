@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "allow_action": "reports:read",
+    "deny_action": "iam:set-policy",
+    "revoked_action": "reports:read"
+  },
+  "initial_policy": {
+    "allow": [
+      "reports:read"
+    ],
+    "deny": [
+      "iam:set-policy"
+    ]
+  },
+  "local_artifacts": [
+    "synthetic-session.json",
+    "synthetic-role-binding.json"
+  ],
+  "principal": "build-bot@example.test",
+  "resource": "project-payroll/report-input",
+  "scenario": "payroll-report-reader",
+  "schema_version": 1
+}

@@ -1,7 +1,7 @@
 ---
 title: "Local AI Course: From First Model to Secure Server"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Run your first local model, measure fit and speed, then expose a controlled API through a secure server design."
@@ -27,7 +27,7 @@ You need:
 - **Terminal access** and administrator rights for installation
 - **No private dataset** during the course
 - **A local firewall** available before any network exposure
-- **Linux or macOS shell tools** for the course commands. On Windows, use WSL 2 with Python 3, curl, and `ss`, and run the model service and labs inside the same WSL environment. The PowerShell commands below only inventory the Windows host
+- **Linux or macOS shell tools** for the course commands. On Windows, use WSL 2 with Python 3, curl, and `ss`, and run the model service and labs inside the same WSL environment. The PowerShell commands below only inventory the Windows host.
 
 Model size and context length drive memory use. Start with a small model even on a large system. Prove the process before scaling.
 
@@ -64,6 +64,16 @@ After the course, you will:
 | **5** | [Run the Secure Exposure Lab](/local-ai-secure-server-course/05-secure-exposure-lab/) | Local access tests | Proxy and boundary tests |
 | **6** | [Check Your Knowledge](/local-ai-secure-server-course/06-knowledge-check/) | Quiz record | Quiz plus repair notes |
 | **7** | [Complete the Server Capstone](/local-ai-secure-server-course/07-capstone/) | Single-user deployment package | Multi-user operations package |
+
+Open the [knowledge-check answer key](/local-ai-secure-server-course/08-knowledge-check-answer-key/) after your closed-book attempt. Open the [capstone answer key](/local-ai-secure-server-course/09-capstone-answer-key/) after your deployment package and decision are complete.
+
+## Completion Standard
+
+Complete every lesson artifact before you claim course completion.
+
+- **Quiz gate:** Score at least 8 out of 10 on a closed-book attempt. Answer security questions 4, 6, 8, 9, and 10 correctly. Repair every miss before starting the capstone.
+- **Beginner capstone gate:** Submit all nine package files. Record the model source, license, identifier, three warm trials, a loopback-only listener, local firewall policy, and a tested prior-configuration rollback. Label remote denial `not run` when no second private client exists. Name an owner for each remaining condition.
+- **Advanced capstone gate:** Submit all nine package files. Record the model digest, retained artifact, fixed evaluation set, context and concurrency profile, private gateway route, per-user authorization, protected metadata retention, and gateway denial evidence. The observed evidence must cover unauthorized, oversized, listener, timeout, and overload checks. Repeat the listener, health, and denial checks after rollback. Name an owner for each remaining condition.
 
 ## Shared Practice Record
 
@@ -113,7 +123,9 @@ On Windows PowerShell, add:
 
 ```powershell
 Get-ComputerInfo | Select-Object OsName, OsVersion, CsTotalPhysicalMemory
-Get-CimInstance Win32_VideoController | Select-Object Name, AdapterRAM
+Get-CimInstance Win32_VideoController | Select-Object Name
 ```
 
-Record the observed values. Continue with [Lesson 1: Choose Hardware and a Model](/local-ai-secure-server-course/01-hardware-model-fit/).
+Record the observed values. Do not use `Win32_VideoController.AdapterRAM` as your VRAM capacity. Microsoft defines that field as a 32-bit byte value, so it cannot represent modern GPU memory above 4 GiB reliably. For an NVIDIA GPU, use `nvidia-smi --query-gpu=name,memory.total --format=csv`. For another GPU, use the vendor's current diagnostic tool and record its reported memory. Continue with [Lesson 1: Choose Hardware and a Model](/local-ai-secure-server-course/01-hardware-model-fit/).
+
+Source: [Microsoft Win32_VideoController reference](https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-videocontroller).

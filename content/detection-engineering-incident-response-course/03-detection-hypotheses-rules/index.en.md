@@ -22,6 +22,8 @@ Use this sentence:
 
 ```text
 When an Office process starts an encoded PowerShell command, the event deserves review because document-driven script execution is uncommon in the course environment and appears before persistence or outbound traffic in the scenario.
+
+Treat the encoded-flag predicate as one signal, not a complete evasion detector. Attackers might use alternate PowerShell syntax, concatenate or transform the command, invoke another script host, or encode content without `-EncodedCommand`. Add a separate analytic for suspicious PowerShell children and script content, then replay those cases before claiming coverage.
 ```
 
 Record five items:

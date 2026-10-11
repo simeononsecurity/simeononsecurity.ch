@@ -145,6 +145,16 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /cissp-practice-test https://simeononsecurity.com/cissp-practice-test 301
 /cissp-practice-test/ https://simeononsecurity.com/cissp-practice-test/ 301
 
+# Course assessment route migrations
+/cloud-iam-zero-trust-course/07-quiz-answer-key /cloud-iam-zero-trust-course/09-quiz-answer-key/ 301!
+/cloud-iam-zero-trust-course/07-quiz-answer-key/ /cloud-iam-zero-trust-course/09-quiz-answer-key/ 301!
+/cloud-iam-zero-trust-course/08-capstone-answer-key /cloud-iam-zero-trust-course/10-capstone-answer-key/ 301!
+/cloud-iam-zero-trust-course/08-capstone-answer-key/ /cloud-iam-zero-trust-course/10-capstone-answer-key/ 301!
+/detection-engineering-incident-response-course/07-quiz-answer-key /detection-engineering-incident-response-course/09-quiz-answer-key/ 301!
+/detection-engineering-incident-response-course/07-quiz-answer-key/ /detection-engineering-incident-response-course/09-quiz-answer-key/ 301!
+/detection-engineering-incident-response-course/08-capstone-answer-key /detection-engineering-incident-response-course/10-capstone-answer-key/ 301!
+/detection-engineering-incident-response-course/08-capstone-answer-key/ /detection-engineering-incident-response-course/10-capstone-answer-key/ 301!
+
 # Well known work around
 /.well_known/*  /well_known/:splat 200!
 /.well-known/*  /well-known/:splat 200!

@@ -1,7 +1,7 @@
 ---
 title: "Capstone: Review a Secure Agent and MCP Design"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Produce and evaluate a review-ready security package for an AI agent with MCP tools."
@@ -73,22 +73,6 @@ Do not connect a live issue service. Treat the capstone as a design and local po
 
 A score below **10 out of 12** fails the release review. Any zero in authority, approval, or attack test also fails.
 
-## Reference Answer
-
-The reference decision is **approve with conditions for a test environment**.
-
-Required conditions:
-
-1. `post_comment` uses a dedicated test-project identity.
-2. The host shows issue identifier and final comment text.
-3. A trusted host records approval with a random, single-use token bound to the action digest and expiry. Untrusted content cannot mint approval.
-4. The server rejects any other project, issue, or payload over 2,000 characters. Approval binds the preview and current target-state digest.
-5. The event stream records preview, approval, call, and downstream result under one run ID.
-6. A hostile issue instruction fails before the downstream request.
-7. A valid approved comment returns `would_post` in the synthetic positive test. The local simulator prints `9/9 passed` and makes no downstream request.
-
-Production release stays out of scope until a real authorization test, downstream audit review, and incident exercise produce evidence.
-
 ## Expected Result
 
 Your package scores at least 10. It contains no real secrets or external connections. The decision states who owns remaining risk and which evidence is still missing for production.
@@ -109,6 +93,6 @@ python3 -m json.tool capstone/event-example.json
 grep -Ein "decision|owner|residual|approval|digest" capstone/deployment-decision.md
 ```
 
-Pass when all seven files exist, JSON parses, the rubric score reaches ten, no core area scores zero, and the decision separates observed local evidence from future production tests.
+Pass when all seven files exist, JSON parses, the rubric score reaches ten, no core area scores zero, and the decision separates observed local evidence from future production tests. Finish and score your package before opening the [Capstone Answer Key](/secure-ai-agents-mcp-course/08-capstone-answer-key/).
 
-Return to the [course hub](/secure-ai-agents-mcp-course-start/) or review the [MCP 2026-07-28 release notes](https://blog.modelcontextprotocol.io/posts/2026-07-28/) before adapting the package to a real implementation.
+Review the [Capstone Answer Key](/secure-ai-agents-mcp-course/08-capstone-answer-key/) after you record your score and decision. Return to the [course hub](/secure-ai-agents-mcp-course-start/) or review the [MCP 2026-07-28 release notes](https://blog.modelcontextprotocol.io/posts/2026-07-28/) before adapting the package to a real implementation.

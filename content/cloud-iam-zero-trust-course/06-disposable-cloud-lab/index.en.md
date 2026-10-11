@@ -1,10 +1,10 @@
 ---
 title: "Cloud IAM Lesson 6: Disposable Provider Lab"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Create a read-only identity in one cloud sandbox, inspect its grant, then remove and verify every lab object. AWS adds policy simulation."
+description: "Run a deterministic offline IAM simulator or create a read-only identity in one cloud sandbox, then record policy and teardown evidence."
 genre: ["Cloud Security", "Identity and Access Management", "Security Lab"]
 tags: ["disposable cloud lab", "AWS IAM CLI", "Azure managed identity", "Google Cloud service account", "cloud teardown", "least privilege lab"]
 cover: "/img/cover/disposable-cloud-iam-lab.webp"
@@ -14,7 +14,7 @@ coverCaption: "Finish the lab with verified absence."
 
 [Return to the Cloud IAM and Zero Trust Lab Course](/cloud-iam-zero-trust-course-start/)
 
-**Choose one provider track in a dedicated sandbox.** Each track creates read-only identity state, inspects the grant, removes every object created in this run, and checks absence. The AWS track simulates policy decisions. None of the tracks proves a live access denial by the new identity.
+**Choose the offline simulator or one provider track in a dedicated sandbox.** The offline track records synthetic allow, deny, revocation, and local cleanup results. Each provider track creates read-only identity state, inspects the grant, removes every object created in this run, and checks absence. The AWS track simulates policy decisions. None of the provider tracks proves a live access denial by the new identity.
 
 Do not use production. Confirm the active provider context before every create command.
 
@@ -36,6 +36,55 @@ Absence checks:
 End time UTC:
 Residual objects:
 ```
+
+## Offline Policy and Teardown Simulator
+
+Download [the Python simulator](/downloads/cloud-iam-zero-trust-course/policy_teardown_simulator.py) and [the synthetic fixture](/downloads/cloud-iam-zero-trust-course/policy-fixtures.json). The script uses Python standard library modules. It needs no package install, network access, cloud account, or credentials.
+
+**Simulation boundary:** the script evaluates one local policy fixture. It creates synthetic session and role files, revokes the local read grant, removes the local state folder, and writes an evidence file. It does not implement AWS IAM, Azure RBAC, Google Cloud IAM, or live tenant teardown.
+
+Put both downloads in a clean folder. Run these commands from Bash, WSL, or another POSIX shell:
+
+```bash
+python3 --version
+python3 policy_teardown_simulator.py \
+  --fixture policy-fixtures.json \
+  --workdir sim-state \
+  --evidence simulator-evidence.json
+python3 -m json.tool simulator-evidence.json
+test ! -e sim-state
+```
+
+In PowerShell, use this equivalent cleanup check:
+
+```powershell
+if (Test-Path sim-state) { throw "sim-state still exists" }
+```
+
+The simulator refuses an existing work folder. A fresh run prints:
+
+```text
+ALLOW PASS expected=allow observed=allow action=reports:read
+DENY PASS expected=deny observed=deny action=iam:set-policy
+REVOCATION PASS expected=deny observed=deny action=reports:read
+LOCAL CLEANUP PASS expected=removed observed=removed path=sim-state
+RESULT PASS checks=4/4 evidence=simulator-evidence.json
+```
+
+The process exits with code `0`. The final shell test also exits with code `0`. Keep **`simulator-evidence.json`** with your capstone package. The evidence file records the fixture hash, observed decisions, cleanup result, principal, resource, and simulation boundary.
+
+### Offline Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| **Python is older than 3.9** | Run the lab on a system with Python 3.9 or newer |
+| **Fixture read or JSON fails** | Download both files again and keep their file names unchanged |
+| **`sim-state` already exists** | Inspect ownership, remove your stale local test folder, or choose a new empty work-folder name |
+| **Evidence path sits inside the work folder** | Put the evidence file beside `sim-state` so cleanup does not remove it |
+| **Evidence file already exists** | Keep the earlier record and choose a fresh evidence file name |
+| **A decision differs from the fixture** | Restore the original fixture, rerun in a fresh folder, and retain the failed output for review |
+
+> **Observed Result:** the maintained fixture passed four of four checks on a fresh copy. The read action returned allow before revocation and deny after revocation. Policy administration returned deny. The script removed its local state folder. Live cloud operations stayed `not run`.
 
 ## AWS Track
 
@@ -120,7 +169,7 @@ az role assignment create \
   --role Reader \
   --scope "$LAB_AZURE_SCOPE"
 
-az role assignment list --assignee "$LAB_AZURE_PRINCIPAL_ID" --scope "$LAB_AZURE_SCOPE" --output table
+az role assignment list --assignee-object-id "$LAB_AZURE_PRINCIPAL_ID" --fill-principal-name false --scope "$LAB_AZURE_SCOPE" --output table
 ```
 
 Reader does not grant role-assignment write access. This track inspects an assignment. It does not sign in as the managed identity or observe a denied action. Record the role definition and scope as design evidence, then use the offline test matrix for the denied-action case.
@@ -155,6 +204,8 @@ gcloud iam service-accounts describe \
 The final preflight command must report a missing service account. Stop if the service account exists or the check fails for another reason. Record the created account email. Delete only that account and its binding after successful creation.
 
 Create a service account and grant Viewer at the sandbox project.
+
+The `roles/viewer` grant applies across the disposable project, so treat every resource in that project as readable by the lab identity. Use a project created for this exercise, never a shared or production project. Remove the binding and service account before recording teardown as complete.
 
 ```bash
 LAB_GCP_SA_NAME=sos-iam-lab-reader
@@ -216,8 +267,10 @@ The policy query should return no binding rows for the exact service-account mem
 - [ ] Teardown removed only objects recorded as created by this run
 - [ ] Absence checks passed
 
+For the offline track, replace provider-object checks with the simulator evidence file and the absent `sim-state` result. A written plan without an executed simulator earns partial lab-closure credit. Simulator evidence does not prove live cloud closure.
+
 **Primary references, checked 2026-10-10:** [AWS CLI create-role](https://docs.aws.amazon.com/cli/latest/reference/iam/create-role.html), [AWS CLI simulate-principal-policy](https://docs.aws.amazon.com/cli/latest/reference/iam/simulate-principal-policy.html), [Azure CLI role assignments](https://learn.microsoft.com/en-us/cli/azure/role/assignment), [Google Cloud service account create](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/create), and [Google Cloud project IAM binding removal](https://docs.cloud.google.com/sdk/gcloud/reference/projects/remove-iam-policy-binding).
 
 ## Next Steps
 
-Take the [Course Quiz](/cloud-iam-zero-trust-course/07-quiz-answer-key/), then complete the [Capstone](/cloud-iam-zero-trust-course/08-capstone-answer-key/).
+Take the [Course Quiz](/cloud-iam-zero-trust-course/07-quiz/), review the [Quiz Answer Key](/cloud-iam-zero-trust-course/09-quiz-answer-key/), then complete the [Capstone](/cloud-iam-zero-trust-course/08-capstone/).

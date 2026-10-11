@@ -1,14 +1,14 @@
 ---
 title: "GitHub Actions Permissions and OpenSSF Scorecard"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Reduce GitHub Actions token scope, separate untrusted jobs, and turn OpenSSF Scorecard findings into release controls."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["GitHub Actions permissions", "OpenSSF Scorecard", "CI pipeline security", "GITHUB_TOKEN", "least privilege"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-pipeline-scorecard.webp"
+coverAlt: "Two build jobs use separate keys while a broad-permission path is stopped beside a security checklist."
 coverCaption: ""
 ---
 
@@ -42,7 +42,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
       - run: python3 -m compileall -q .
@@ -58,7 +58,7 @@ jobs:
 
 ## Use Scorecard as a Review Queue
 
-**For the local path, open `sample-scorecard.json`.** It is an illustrative finding, not output from Scorecard. Its Pinned-Dependencies score is 3 because the fictional workflow uses mutable tags. Record the check name, score, reason, and a correction. Inspect the `uses: actions/checkout@v6` line above and explain why a reviewed full commit ID would give a stronger pin.
+**For the local path, open `sample-scorecard.json`.** It is an illustrative finding, not output from Scorecard. Its Pinned-Dependencies score is 3 because the fictional workflow uses mutable tags. Record the check name, score, reason, and a correction. Inspect the `uses: actions/checkout@v7` line above and explain why a reviewed full commit ID would give a stronger pin.
 
 **For the optional live path, run OpenSSF Scorecard** against a public repository you own. Install the CLI from its [official repository](https://github.com/ossf/scorecard), then run `scorecard --repo=github.com/OWNER/REPOSITORY` with your real owner and repository. Record the version, time, checks, scores, and reasons. If the command is unavailable, use the local fixture and mark the live run “not run.” Scorecard's automated checks cover source, build, dependencies, and maintenance. A score is evidence to investigate, not proof of a secure release.
 

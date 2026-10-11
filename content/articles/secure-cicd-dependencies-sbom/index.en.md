@@ -1,14 +1,14 @@
 ---
 title: "Dependency Review and SBOMs for a Secure Release"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Review a dependency change, record its risk, and generate a CycloneDX SBOM before releasing software."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["dependency review", "SBOM tutorial", "CycloneDX", "Syft", "software supply chain"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-dependencies-sbom.webp"
+coverAlt: "A reviewer follows a package dependency tree to a bill of materials with one new package highlighted."
 coverCaption: ""
 ---
 
@@ -66,11 +66,13 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - uses: actions/dependency-review-action@v4
+      - uses: actions/dependency-review-action@v5
 ```
+
+Dependency Review Action v5 uses the Node 24 runtime and needs an Actions runner at version 2.327.1 or newer. If your disposable runner is older, record the compatibility limit and use the supported version for that runner instead of silently changing the gate.
 
 **Expected result:** After you open a pull request, its Checks tab shows dependency review. If the check fails because the feature is unavailable, inspect repository plan, dependency graph, and the action log. Do not bypass a blocked check without recording a review decision. Pin actions to full commit IDs in a production workflow after validating the owner and release, as [GitHub recommends](https://docs.github.com/en/actions/reference/security/secure-use).
 

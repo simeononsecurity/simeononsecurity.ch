@@ -1,14 +1,14 @@
 ---
 title: "SLSA Provenance and GitHub Artifact Attestations"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Read SLSA build provenance, create a GitHub artifact attestation, and verify digest, source, and workflow identity."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["SLSA provenance", "GitHub artifact attestation", "release verification", "gh attestation", "build integrity"]
-cover: "/img/cover/secure-cicd-course.webp"
-coverAlt: "A source repository, build runner, artifact, and verification gate connected in a release workflow"
+cover: "/img/cover/secure-cicd-provenance-attestations.webp"
+coverAlt: "A release artifact connects to source and build records through an attestation reviewed for identity."
 coverCaption: ""
 ---
 
@@ -60,8 +60,9 @@ jobs:
       contents: read
       id-token: write
       attestations: write
+      artifact-metadata: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
       - run: cp release-good.txt release.txt

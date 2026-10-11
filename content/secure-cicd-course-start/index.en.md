@@ -1,7 +1,7 @@
 ---
 title: "Secure CI/CD and Software Supply Chains Course"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Build a safer release path with dependency review, SBOMs, limited pipeline permissions, Scorecard, SLSA provenance, attestations, and release verification."
@@ -43,6 +43,12 @@ After the course, you will:
 | **6** | [Release Gate Capstone](/articles/secure-cicd-capstone/) and [reference packet](/articles/secure-cicd-capstone-answer-key/) | Produce a release decision packet and test a failure path |
 
 **Complete the pages in order.** Lessons 1 through 3 build the review method. The lab then shows a concrete failure. The capstone asks you to apply the method to a fresh release decision.
+
+## Completion Standard
+
+Score **8 out of 10 or higher** on the knowledge check before starting the capstone. Correct every missed reason. If the score stays below 8, retake the quiz from a clean copy after revisiting the related lessons.
+
+Pass the capstone with a supported release decision and a tested failure path. Keep local fixture results separate from hosted workflow and signed-attestation results marked `not run`.
 
 ## What You Will Produce
 

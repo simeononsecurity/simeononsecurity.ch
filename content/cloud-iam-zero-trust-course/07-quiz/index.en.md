@@ -1,12 +1,12 @@
 ---
 title: "Cloud IAM and Zero Trust Quiz"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Test cloud identity, effective permissions, human and workload access, zero trust policy, and teardown with a complete answer key."
+description: "Test cloud identity, effective permissions, human and workload access, zero trust policy, and teardown before reviewing the answer key."
 genre: ["Cloud Security", "Identity and Access Management", "Zero Trust"]
-tags: ["cloud IAM quiz", "zero trust quiz", "least privilege assessment", "AWS IAM", "Azure RBAC", "Google Cloud IAM", "answer key"]
+tags: ["cloud IAM quiz", "zero trust quiz", "least privilege assessment", "AWS IAM", "Azure RBAC", "Google Cloud IAM"]
 cover: "/img/cover/cloud-iam-zero-trust-quiz.webp"
 coverAlt: "Cloud identity policy questions beside allow, deny, and teardown evidence."
 coverCaption: "Check access decisions and cleanup evidence."
@@ -14,7 +14,7 @@ coverCaption: "Check access decisions and cleanup evidence."
 
 [Return to the Cloud IAM and Zero Trust Lab Course](/cloud-iam-zero-trust-course-start/)
 
-**Answer every question before reading the key.** Add one sentence explaining each choice.
+**Answer every question before opening the key.** Add one sentence explaining each choice.
 
 ## Questions
 
@@ -78,42 +78,20 @@ coverCaption: "Check access decisions and cleanup evidence."
     C. Removing grants and identities, then passing absence checks
     D. Waiting for the next billing cycle
 
-## Answer Key
+## Submit Your Attempt
 
-1. **B.** Trust defines who or which workload receives the identity session.
-2. **C.** Exact federation claims and short sessions remove the stored cloud key.
-3. **C.** An applicable explicit deny overrides the allow.
-4. **C.** Effective access depends on the full request and all applicable layers.
-5. **C.** Emergency access exists for recovery and stays separate from routine work.
-6. **B.** Zero trust evaluates the request around the resource and current context.
-7. **B.** Impersonation creates an escalation path when the target identity has more privilege.
-8. **C.** The lab avoids long-lived keys and client secrets.
-9. **B.** Tracking windows and missing log sources limit the inference.
-10. **C.** Verified absence closes the lab.
-
-## Score and Review
-
-| Score | Next action |
-|---|---|
-| **9 to 10** | Start the capstone |
-| **7 to 8** | Revisit each missed lesson and correct the reason |
-| **0 to 6** | Repeat Lessons 1 through 6 and rebuild the decision records |
+Record all ten choices and reasons. Do not change the first attempt after opening the key. Use a second correction column for revised answers.
 
 > **Expected Result:** your reasons explain policy behavior, not provider logo or role-name guesses.
 
-## Troubleshooting
-
-- **Two answers look close:** select the choice which includes full policy context and verification.
-- **Provider terms blur together:** return to the identity-model comparison table.
-- **Your lab result differs:** record provider version, permissions, hierarchy controls, and error text.
+Score **9 out of 10 or higher** before starting the capstone. A score of 7 or 8 requires corrected reasons and a clean-copy retest. A score of 0 to 6 requires another pass through Lessons 1 through 6 before the retest.
 
 ## Verify Your Work
 
 - [ ] All ten questions have answers and reasons
-- [ ] Missed items link to a lesson
-- [ ] Provider terms stay distinct
-- [ ] Revised answers explain the deciding fact
+- [ ] The first attempt is saved
+- [ ] No answer key was open during the attempt
 
 ## Next Steps
 
-Complete the [Cloud IAM and Zero Trust Capstone](/cloud-iam-zero-trust-course/08-capstone-answer-key/).
+Open the [Cloud IAM and Zero Trust Quiz Answer Key](/cloud-iam-zero-trust-course/09-quiz-answer-key/). Score the saved attempt and correct missed reasons before starting the capstone.

@@ -1,7 +1,7 @@
 ---
 title: "Secure AI Agents and MCP Knowledge Check"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Test your understanding of agent authority, MCP tools, prompt injection, approval, logging, and recovery."
@@ -20,8 +20,9 @@ coverCaption: ""
 
 1. Create **`knowledge-check.md`**.
 2. Record one letter and one sentence of reasoning for each question.
-3. Score your work with the key.
-4. Repair any related course artifact after a missed question.
+3. Finish every answer before opening the [quiz answer key](/secure-ai-agents-mcp-course/07-quiz-answer-key/).
+4. Score your work with the key.
+5. Repair any related course artifact after a missed question.
 
 ## Questions
 
@@ -34,7 +35,7 @@ coverCaption: ""
 2. Which tool design has the smallest authority?
    - A. `run_shell(command)`
    - B. `write_any_file(path, content)`
-   - C. `apply_approved_patch(digest)`
+   - C. `apply_approved_patch()` after the server validates a trusted host-held, single-use approval token and bound target state
    - D. `admin_api(method, path, body)`
 
 3. What does JSON Schema provide for an MCP tool?
@@ -85,21 +86,6 @@ coverCaption: ""
    - C. Safe because MCP defines resources
    - D. Stateless because the model did not request the index
 
-## Answer Key
-
-| # | Answer | Reason |
-|---|---|---|
-| **1** | C | Enforcement belongs outside untrusted content and model output. |
-| **2** | C | The operation accepts one reviewed digest and exposes no general command surface. |
-| **3** | B | Schema validates shape. Server logic and identity controls enforce authority. |
-| **4** | B | Approval needs the final action, target, payload, and effect. |
-| **5** | C | An independent enforcement event proves the decision with useful context. |
-| **6** | B | Environment inheritance often carries credentials and host configuration. |
-| **7** | A | Tokens need audience and boundary checks. A token for one service should not flow to another. |
-| **8** | B | The host should stop after the defined repeated failure threshold. |
-| **9** | C | A controlled retest proves the enforcement change addresses the observed path. |
-| **10** | B | Security review follows behavior and authority, not the feature label. |
-
 ## Expected Result
 
 Your answers include reasoning tied to an enforcement point. A passing score is **8 out of 10**. Questions 1, 2, 4, and 5 form the core gate. Review those topics even if your total score passes.
@@ -115,4 +101,4 @@ Your answers include reasoning tied to an enforcement point. A passing score is 
 
 Add your score and repaired artifacts to **`knowledge-check.md`**. Pass when the score reaches eight, all four core questions are correct, and each missed item points to a completed correction.
 
-Continue with the [Security Capstone](/secure-ai-agents-mcp-course/06-capstone/).
+Open the [Quiz Answer Key](/secure-ai-agents-mcp-course/07-quiz-answer-key/) after you finish all ten answers. Start the [Security Capstone](/secure-ai-agents-mcp-course/06-capstone/) after you pass both quiz gates.
