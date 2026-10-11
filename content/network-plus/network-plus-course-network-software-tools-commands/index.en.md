@@ -162,7 +162,7 @@ Submit **`26-tool-transcript.txt`** with purpose, affected nodes, risk, rollback
 
 ### Reproducible route and filled sample
 
-Use Packet Tracer PC Command Prompt: `ipconfig /all`, `arp -a`, `ping 10.10.30.10`, `tracert 198.51.100.1`, and `nslookup app.lab.example`. Use router and switch `show` commands from the hub. Packet Tracer provides no Nmap or Wireshark endpoint. Use Simulation Mode for capture evidence and this supplied scan row: `10.10.30.10 tcp/80 open http`. Do not label it vulnerability proof.
+Use Packet Tracer PC Command Prompt: `ipconfig /all`, `arp -a`, `ping 10.10.30.10`, `tracert 198.51.100.1`, and `nslookup app.lab.example`. Use router and switch `show` commands from the hub. Packet Tracer provides no Nmap or Wireshark endpoint. Use Simulation Mode for capture evidence and this supplied scan row: `10.10.30.10 tcp/80 open http`. Do not label the scan vulnerability proof.
 
 ### Primary references
 

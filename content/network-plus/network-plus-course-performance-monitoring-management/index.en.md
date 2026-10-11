@@ -87,7 +87,7 @@ Submit **`17-network-plus-course-performance-monitoring-management.md`** with pu
 
 ### Reproducible route and filled sample
 
-Use this supplied five-minute sample: `09:00 31% utilization 0 errors 22 ms`, `09:05 48% 0 24 ms`, `09:10 91% 38 errors 88 ms`. Set warning only after the baseline window supports it. SNMPv3 sample: `user netmon, authPriv, ifInOctets increase 1250000, ifInErrors increase 38, trap linkDown received`. Packet Tracer does not provide the required SNMPv3 manager and graph path, so label these rows supplied.
+Use this supplied five-minute sample: `09:00 31% utilization 0 errors 22 ms`, `09:05 48% 0 24 ms`, `09:10 91% 38 errors 88 ms`. Set warning only after the baseline window supports the threshold. SNMPv3 sample: `user netmon, authPriv, ifInOctets increase 1250000, ifInErrors increase 38, trap linkDown received`. Packet Tracer does not provide the required SNMPv3 manager and graph path, so label these rows supplied.
 
 ### Primary reference
 

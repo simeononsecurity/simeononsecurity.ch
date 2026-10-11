@@ -86,7 +86,7 @@ Submit **`13-bandwidth-management-qos-networkplus-certification-exam-guide.md`**
 
 ### Reproducible route and filled sample
 
-On R1, use `class-map match-any VOICE`, `match dscp ef`, `policy-map WAN-QOS`, `class VOICE`, `priority percent 20`, then apply `service-policy output WAN-QOS` to G0/0 if the installed Packet Tracer release accepts MQC. Verify with `show policy-map interface g0/0`. Filled sample: `baseline latency 18 ms, congestion latency 96 ms, policy latency 27 ms, EF packets 1200, EF drops 0, default drops 84`. If MQC is rejected, use this supplied transcript and label it expected evidence.
+On R1, use `class-map match-any VOICE`, `match dscp ef`, `policy-map WAN-QOS`, `class VOICE`, `priority percent 20`, then apply `service-policy output WAN-QOS` to G0/0 if the installed Packet Tracer release accepts MQC. Verify with `show policy-map interface g0/0`. Filled sample: `baseline latency 18 ms, congestion latency 96 ms, policy latency 27 ms, EF packets 1200, EF drops 0, default drops 84`. If MQC is rejected, use this supplied transcript and label the transcript expected evidence.
 
 ### Primary reference
 

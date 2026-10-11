@@ -189,7 +189,7 @@ Submit **`05-network-services-connectivity-options-architecture.md`** with purpo
 
 ### Reproducible route and filled sample
 
-On SRV1, enable DHCP and create pool `USERS` with gateway `10.10.10.1`, DNS `10.10.30.10`, start `10.10.10.100`, mask `255.255.255.0`. On R1 G0/1.10 add `ip helper-address 10.10.30.10`. Set PC-A to DHCP. Expected address is in `10.10.10.100/24`. Use Simulation Mode to record DORA. Use the supplied design rows for PTP, NTS, DoH, DoT, secured zone transfer, and jump-host work. Packet Tracer does not provide complete implementations.
+On SRV1, enable DHCP and create pool `USERS` with gateway `10.10.10.1`, DNS `10.10.30.10`, start `10.10.10.100`, mask `255.255.255.0`. On R1 G0/1.10 add `ip helper-address 10.10.30.10`. Set PC-A to DHCP. Expected address is in `10.10.10.100/24`. Use Simulation Mode to record DORA. Supplied time rows are `NTPv4 source 10.10.30.10, stratum 3, offset 4 ms`, `NTS cookie accepted, authenticated NTP exchange`, and `PTP grandmaster GM1, offset 180 ns`. Use design rows for DoH, DoT, secured zone transfer, and jump-host work. Packet Tracer does not provide complete implementations.
 
 ### Primary reference
 

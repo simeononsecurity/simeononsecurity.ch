@@ -4,7 +4,7 @@ date: 2023-07-24
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn Network Skills for CompTIA Network+ N10-009 through WPA2, WPA3, PSK, 802.1X, a controlled fault, saved evidence, and recovery proof."
+description: "Learn wireless security for Network+ N10-009 through WPA2, WPA3, PSK, 802.1X, a controlled fault, saved evidence, and recovery proof in a lab."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Wireless Security", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_of_a_lock_securing_a_wi.webp"
@@ -91,7 +91,7 @@ Submit **`10-network-plus-course-wireless-security-iot-access.md`** with purpose
 
 ### Reproducible route and filled sample
 
-Use AP1 and AP2 for WPA2-PSK segmentation. Test LAP1 to SRV1 and IOT1 to the required DNS service. Deny other IoT destinations through an R1 ACL and record one allowed and one denied flow. Packet Tracer's built-in AP path does not reproduce a full enterprise EAP certificate chain. Use the supplied expected record: `identity device01, server certificate valid, EAP success, VLAN 10, RADIUS Access-Accept`. Label it transcript evidence.
+Use AP1 and AP2 for WPA2-PSK segmentation. Test LAP1 to SRV1 and IOT1 to the required DNS service. Deny other IoT destinations through an R1 ACL and record one allowed and one denied flow. Packet Tracer's built-in AP path does not reproduce a full enterprise EAP certificate chain. Use the supplied expected record: `identity device01, server certificate valid, EAP success, VLAN 10, RADIUS Access-Accept`. Label the record transcript evidence.
 
 ### Primary reference
 

@@ -179,7 +179,7 @@ Submit **`28-network-plus-course-troubleshooting-cable-connectivity-issues.md`**
 
 ### Reproducible route and filled sample
 
-Use the physical samples from checkpoint 3 plus this optical record: `Tx -2 dBm, expected receive above -10 dBm, observed -15 dBm, connector contamination noted`; PoE record: `budget 60 W, used 48 W, request 20 W, denied`; duplex record: `SW1 full, endpoint half, late collisions 0, FCS errors rising`. Choose one fault, state safety limits, repair the record, and verify expected values.
+Use the physical samples from checkpoint 3 plus this optical record: `Tx -2 dBm, expected receive above -10 dBm, observed -15 dBm, connector contamination noted`. PoE record: `budget 60 W, used 48 W, request 20 W, denied`. Duplex record: `SW1 full, endpoint half, late collisions 0, FCS errors rising`. Choose one fault, state safety limits, repair the record, and verify expected values.
 
 ### Primary reference
 

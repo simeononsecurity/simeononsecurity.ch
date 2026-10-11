@@ -78,7 +78,7 @@ Submit **`14-network-availability-resilience-enhancement.md`** with purpose, aff
 
 ### Reproducible route and filled sample
 
-Add R1 G0/2 to R2 G0/2 with `10.255.0.5/30` and `10.255.0.6/30`. Add a floating default on R1 through `10.255.0.6 200` and a floating return route on R2 through `10.255.0.5 200`. Shut primary G0/0 and record convergence, then restore it. Use the supplied failure-domain worksheet for VRRP, load balancers, clusters, power, providers, and recovery sites. Do not claim those features ran in Packet Tracer.
+Connect R1 G0/2 to R2 G0/2. On R1 enter `interface g0/2`, `ip address 10.255.0.5 255.255.255.252`, and `no shutdown`. On R2 use `10.255.0.6 255.255.255.252`. Add `ip route 0.0.0.0 0.0.0.0 10.255.0.6 200` on R1 and `ip route 10.10.0.0 255.255.0.0 10.255.0.5 200` on R2. Shut primary G0/0, record convergence, and restore the interface. Use the supplied failure-domain worksheet for VRRP, load balancers, clusters, power, providers, and recovery sites. Do not claim those features ran in Packet Tracer.
 
 ### Primary reference
 

@@ -114,7 +114,7 @@ Submit **`18-network-plus-course-understanding-importance-network-logs-logging.m
 
 ### Reproducible route and filled sample
 
-On SRV1 enable **Syslog**. On R1 and SW1 enter `service timestamps log datetime msec`, `logging host 10.10.30.10`, and `logging trap informational`. Shut and restore a test interface. Expected events contain matching device time, interface name, down event, and up event. Packet Tracer syslog is not TLS. Use the RFC 5425 transcript row for secure-transport analysis and label it supplied.
+On SRV1 enable **Syslog**. On R1 and SW1 enter `service timestamps log datetime msec`, `logging host 10.10.30.10`, and `logging trap informational`. Shut and restore a test interface. Expected events contain matching device time, interface name, down event, and up event. Packet Tracer syslog is not TLS. Use the RFC 5425 transcript row for secure-transport analysis and label the row supplied.
 
 ### Primary reference
 

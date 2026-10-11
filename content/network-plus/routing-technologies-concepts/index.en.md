@@ -127,7 +127,7 @@ Submit **`06-routing-technologies-concepts.md`** with purpose, affected nodes, r
 
 ### Reproducible route and filled sample
 
-Use the hub subinterfaces and routes. Add OSPF with `router ospf 1`, `network 10.10.0.0 0.0.255.255 area 0`, and `network 10.255.0.0 0.0.0.3 area 0` on both routers. Verify with `show ip ospf neighbor` and `show ip route ospf`. Expected neighbor state is `FULL`. Use `show ip route <destination>` for longest-prefix tests. Add NAT/PAT only on R2 after defining inside and outside interfaces. Treat FHRP as supplied transcript evidence because the baseline has one campus gateway.
+Use the hub subinterfaces and routes. Add OSPF with `router ospf 1`, `network 10.10.0.0 0.0.255.255 area 0`, and `network 10.255.0.0 0.0.0.3 area 0` on R1. Add `network 10.255.0.0 0.0.0.3 area 0` and `network 198.51.100.1 0.0.0.0 area 0` on R2. Verify with `show ip ospf neighbor` and `show ip route ospf`. Expected neighbor state is `FULL`. R1 should learn `198.51.100.1/32` through OSPF. Use `show ip route <destination>` for longest-prefix tests. Add NAT/PAT only on R2 after defining inside and outside interfaces. Treat FHRP as supplied transcript evidence because the baseline has one campus gateway.
 
 ### Primary reference
 

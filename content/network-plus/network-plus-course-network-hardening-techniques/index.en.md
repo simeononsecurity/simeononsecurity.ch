@@ -139,7 +139,7 @@ Submit **`24-network-plus-course-network-hardening-techniques.md`** with purpose
 
 ### Reproducible route and filled sample
 
-On SW1 enable DHCP snooping for VLANs 10 and 40, trust only the trunk, enable DAI for those VLANs, and apply sticky port security with maximum 1 on PC-A. Use a standard ACL to permit management from `10.10.99.0/24` and apply it to VTY lines. Verify bindings, inspection, allowed management, and denied management. Packet Tracer support for SNMPv3, RA Guard, private VLANs, and control-plane policing varies. Use supplied transcripts for rejected commands and label them unsupported rather than inventing success.
+On SW1 enter `ip dhcp snooping`, `ip dhcp snooping vlan 10,40`, and `ip arp inspection vlan 10,40`. Trust only G0/1 with `ip dhcp snooping trust` and `ip arp inspection trust`. On F0/1 enter `switchport port-security`, `switchport port-security maximum 1`, and `switchport port-security mac-address sticky`. Use ACL 99 to permit `10.10.99.0 0.0.0.255`, then apply `access-class 99 in` to VTY lines. Verify bindings, inspection, allowed management, and denied management. Supplied unsupported-feature rows are `SNMPv3 netmon authPriv SHA AES query success`, `RA Guard host policy drops router advertisement on access port`, `private VLAN isolated host reaches promiscuous gateway only`, and `control-plane policy normal traffic 0 drops`. Label each row supplied when Packet Tracer rejects the feature.
 
 ### Primary reference
 

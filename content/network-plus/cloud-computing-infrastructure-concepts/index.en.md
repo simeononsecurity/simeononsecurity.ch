@@ -157,7 +157,7 @@ Submit **`12-cloud-computing-infrastructure-concepts.md`** with purpose, affecte
 
 ### Reproducible route and filled sample
 
-Use a no-cost local design fixture. Draw VPC `10.20.0.0/16`, public subnet `10.20.10.0/24`, private subnet `10.20.20.0/24`, management subnet `10.20.30.0/24`, internet route only on the public table, and NAT egress for the private table. Failure fixture: delete `0.0.0.0/0 -> NAT-GW` from the private table. Expected result is failed outbound access from private workloads while internal routes remain. No cloud account, IAM write, or billing event is required.
+Use a no-cost local design fixture. Draw VPC `10.20.0.0/16`, public subnet `10.20.10.0/24`, private subnet `10.20.20.0/24`, management subnet `10.20.30.0/24`, internet route only on the public table, and NAT egress for the private table. Record fictional roles `NetworkAdmin`, `NetworkReviewer`, and `Workload` with least-scope permissions. Set the fixture budget to `$0` and record `no provider resources created`. Failure fixture: delete `0.0.0.0/0 -> NAT-GW` from the private table. Expected result is failed outbound access from private workloads while internal routes remain. Teardown deletes the local working copy and retains the reviewed diagram. No cloud account, IAM write, or billing event is required.
 
 ### Primary reference
 

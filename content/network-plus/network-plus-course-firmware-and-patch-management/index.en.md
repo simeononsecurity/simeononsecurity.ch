@@ -93,7 +93,7 @@ Submit **`20-network-plus-course-firmware-and-patch-management.md`** with purpos
 
 ### Reproducible route and filled sample
 
-Use a fictional fixture: `model SW-2960-LAB, current 15.0(2), candidate 15.0(3), SHA-256 expected abc123..., observed abc123..., dependency boot loader 12.2 minimum, maintenance 20:00-20:30`. Failure copy changes the model to `R-2911-LAB`. Preflight must reject it before installation. Record console recovery and rollback steps without loading unlicensed firmware.
+Use a fictional fixture: `model SW-2960-LAB, current 15.0(2), candidate 15.0(3), SHA-256 expected abc123, observed abc123, dependency boot loader 12.2 minimum, maintenance 20:00-20:30`. Failure copy changes the model to `R-2911-LAB`. Preflight must reject the candidate package before installation. Record console recovery and rollback steps without loading unlicensed firmware.
 
 ### Primary reference
 
