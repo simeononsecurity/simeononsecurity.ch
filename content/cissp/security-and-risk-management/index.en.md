@@ -91,7 +91,7 @@ You ground this in **risk frameworks** such as **ISO 27005**, **NIST RMF (SP 800
 
 ## Supply Chain Risk Management
 
-**SCRM** addresses risk from vendors and suppliers. You watch for **product tampering**, **counterfeits**, and weak vendor security. Modern controls include a **silicon root of trust** for hardware integrity and a **software bill of materials (SBOM)** that lists every component in your software, so you can react fast when a dependency is found vulnerable.
+**SCRM** addresses risk from vendors and suppliers. Watch for product tampering, counterfeits, and weak vendor security. A silicon root of trust supports hardware integrity checks. An **SBOM** lists components within its declared scope and helps identify affected dependencies. Verify its freshness and coverage before treating an absent component as absent from the product.
 
 ## Security Awareness and Training
 

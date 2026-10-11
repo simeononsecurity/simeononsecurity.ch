@@ -21,7 +21,7 @@ Operations is where security lives or dies. A perfect architecture means nothing
 
 You conduct investigations to understand what happened and to support legal action.
 
-**Evidence handling** follows a strict **chain of custody** so evidence holds up in court. You document who collected each item, when, where, and every transfer. A break in the chain makes evidence inadmissible.
+**Evidence handling** uses a documented **chain of custody**. Record who collected each item, when, where, and every transfer. A gap raises questions about integrity and weight. A court determines admissibility under the applicable law and facts.
 
 You collect evidence in **order of volatility**, capturing the most fragile data first:
 

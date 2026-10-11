@@ -11,7 +11,7 @@ coverAlt: "A diverse group of professionals studying in a modern cybersecurity t
 coverCaption: "Master ISC2 CISSP and Lead Information Security"
 ---
 
-The **ISC2 CISSP** is the most globally recognized certification in information security. It validates your deep technical and managerial knowledge to design, engineer, and manage the overall security posture of an organization. This course covers all eight domains of the **April 2024 exam outline** so you build mastery across the full Common Body of Knowledge. *You need a minimum of five years cumulative, full-time experience in two or more of the eight domains, though passing the exam first makes you an Associate of ISC2 with six years to earn it.*
+The **ISC2 CISSP** covers security design, engineering, and management across eight domains. This course follows the **April 2024 exam outline**. ISC2 requires five years of cumulative work experience across at least two domains. Qualifying part-time work and internships also count under ISC2's rules. An approved degree or credential waives up to one year. If you pass the exam before meeting the experience requirement, ISC2 offers an Associate path. Check the [current ISC2 experience rules](https://www.isc2.org/certifications/cissp/cissp-experience-requirements) before applying.
 
 | Domain | Title | Weight |
 |--------|-------|--------|
@@ -75,7 +75,7 @@ The **ISC2 CISSP** is the most globally recognized certification in information 
 - Understand **security models**, including Biba, Bell-LaPadula, and the Star Model
 - Understand **security capabilities of information systems**, including memory protection, TPM, and encryption/decryption
 - Select and determine **cryptographic solutions**, including the cryptographic lifecycle, symmetric, asymmetric, elliptic curve, and quantum methods, and PKI
-- Understand **cryptanalytic attacks**, including brute force, ciphertext only, known plaintext, side-channel, fault injection, timing, MITM, pass the hash, and ransomware
+- Understand **cryptanalytic attacks**, including brute force, ciphertext-only, known-plaintext, side-channel, fault-injection, and timing attacks. Distinguish these from MITM, pass-the-hash, and ransomware threats.
 - Apply **security principles to site and facility design**, including wiring closets, server rooms, media storage, and fire prevention
 - Manage the **information system lifecycle** from requirements analysis through retirement and disposal
 

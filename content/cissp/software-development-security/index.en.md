@@ -47,7 +47,7 @@ You measure how mature your development process is so you can improve it deliber
 | **CMM** (Capability Maturity Model) | Overall process maturity, from initial to optimizing |
 | **SAMM** (Software Assurance Maturity Model) | Security practices across the SDLC |
 
-The **CMM** levels run from **Initial** (ad hoc and chaotic) through **Repeatable**, **Defined**, and **Managed**, to **Optimizing** (continuous improvement). You raise maturity one level at a time.
+For current **CMMI** maturity terminology, levels 1 through 5 are **Initial**, **Managed**, **Defined**, **Quantitatively Managed**, and **Optimizing**. Older CMM material uses different labels. Keep the model and version attached to any maturity claim. [CMMI's level definitions](https://dev.cmmiinstitute.com/learning/appraisals/levels) and [OWASP SAMM](https://owasp.org/projects/samm) describe different assessment systems.
 
 ## Security Controls in Development Ecosystems
 
@@ -78,7 +78,7 @@ You test software with several methods because each finds different flaws.
 | **SCA** | Software composition analysis of dependencies | Continuously |
 | **IAST** | Interactive analysis from inside a running app | During testing |
 
-**SAST** finds flaws early but produces false positives. **DAST** finds runtime issues but only in code paths it exercises. **SCA** catches vulnerable third-party components, the source of many real-world breaches. You combine them for full coverage.
+**SAST** finds some flaws early but produces false positives. **DAST** observes the paths exercised during testing. **SCA** flags known issues in identified dependencies. Combine the methods with code review, architecture review, and focused tests. No combination guarantees full coverage.
 
 ## Assessing Acquired Software
 
@@ -91,15 +91,15 @@ Most organizations buy more software than they build, so you assess what you acq
 | **Third-party** | Contractual security obligations and audits |
 | **Managed/cloud services** | Shared responsibility and provider controls |
 
-You demand a **software bill of materials (SBOM)** so you know every component in what you run, tying back to supply chain risk in [Security and Risk Management](/cissp/security-and-risk-management/).
+Request a **software bill of materials (SBOM)** to improve visibility into declared components and dependencies. An SBOM might omit build tools, dynamically loaded code, or components outside its stated scope. Check its format, generation method, date, and completeness before using it for supply chain risk decisions. See [Security and Risk Management](/cissp/security-and-risk-management/).
 
 ## Secure Coding Guidelines
 
 You apply standards so developers avoid common mistakes.
 
 - **Input validation** rejects malformed input that drives injection attacks.
-- **Output encoding** prevents cross-site scripting.
-- **Parameterized queries** stop SQL injection.
+- **Context-appropriate output encoding** reduces XSS when data enters HTML, attributes, JavaScript, CSS, or URLs. Use the correct encoder for each output context.
+- **Parameterized queries** protect values in supported SQL positions. Validate dynamic identifiers and query structure separately.
 - **Error handling** fails securely without leaking internal detail.
 - **API security** authenticates every call, enforces rate limits, and validates all input, since APIs expose business logic directly.
 

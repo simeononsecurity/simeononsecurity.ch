@@ -48,11 +48,11 @@ You also address **data remanence**, the residual data left on media after delet
 
 | Method | How it works | Reuse media? |
 |--------|--------------|--------------|
-| **Clearing** | Overwrite with new data | Yes, internally |
-| **Purging** | Degaussing or strong overwrite | Sometimes |
-| **Destruction** | Shred, incinerate, pulverize | No |
+| **Clear** | Use a media-appropriate method to protect against simple recovery | Often, after verification |
+| **Purge** | Use a media-appropriate method, such as a validated cryptographic erase or supported device command, for stronger recovery resistance | Sometimes, after verification |
+| **Destroy** | Physically damage media to the required standard | No |
 
-*Crypto-shredding, destroying the encryption key, is a fast way to render encrypted data unrecoverable.*
+**Cryptographic erase** depends on encryption covering the target data, suitable key management, and destruction of all relevant keys or key copies. Verify the method and validate the result under [NIST SP 800-88 Rev. 2](https://csrc.nist.gov/pubs/sp/800/88/r2/final). Degaussing does not work for every medium, including flash storage.
 
 ## Data Security Controls
 

@@ -48,7 +48,7 @@ Penetration testing uses team colors to define roles:
 | **White team** | Referees who set rules and judge the exercise |
 
 ```bash
-# Run an authenticated vulnerability scan with Nmap's script engine
+# Run a lab-only, unauthenticated Nmap vulnerability-script scan
 nmap -sV --script vuln 10.0.0.0/24
 
 # Check a web application's security headers during an assessment

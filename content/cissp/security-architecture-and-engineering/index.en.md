@@ -48,7 +48,7 @@ Remember **Bell-LaPadula** with "no write down" (the *Star Property*) protects s
 
 Hardware and firmware enforce security the operating system alone cannot.
 
-- **Memory protection** isolates one process from another so a crash or exploit in one cannot read or write another's memory. Techniques include **ASLR** and the **NX bit**.
+- **Memory protection** separates process address spaces and restricts access. It reduces accidental and unauthorized cross-process reads, but a kernel exploit, privileged process, or implementation flaw might bypass it. **ASLR** and the **NX bit** add separate exploit mitigations.
 - **Trusted Platform Module (TPM)** is a hardware chip that stores cryptographic keys, measures boot integrity, and supports full-disk encryption like **BitLocker**.
 - **Hardware Security Module (HSM)** is a dedicated appliance for generating, storing, and using keys at scale.
 - **Trusted execution environments** run sensitive code in an isolated processor region.
@@ -64,9 +64,9 @@ The **cryptographic lifecycle** governs a key from creation to destruction: gene
 | **Symmetric** | One shared key encrypts and decrypts | AES, ChaCha20 | Bulk data encryption, speed |
 | **Asymmetric** | Public/private key pair | RSA, ECC | Key exchange, digital signatures |
 | **Elliptic curve (ECC)** | Asymmetric with smaller keys | ECDSA, ECDH | Mobile and IoT, strong security per bit |
-| **Hashing** | One-way fixed-length digest | SHA-256, SHA-3 | Integrity, password storage |
+| **Hashing** | Fixed-length cryptographic digest | SHA-256, SHA-3 | Integrity checks and signature inputs. Password storage needs a purpose-built password KDF such as Argon2id, scrypt, or PBKDF2. |
 
-**Symmetric** encryption is fast but has a key distribution problem: every pair of parties needs a shared secret. **Asymmetric** solves distribution but is slow, so real systems use a hybrid approach. **TLS** exchanges a symmetric session key using asymmetric crypto, then encrypts the session with the fast symmetric key.
+**Symmetric** encryption protects bulk traffic after both parties establish keys. Public-key cryptography helps authenticate peers and establish a shared secret. Modern TLS commonly uses ephemeral (EC)DHE key agreement to derive session keys, then symmetric authenticated encryption protects application data. Certificate validation links the server key to the intended identity.
 
 **Quantum** computing threatens current asymmetric algorithms. *Post-quantum cryptography* like the NIST-selected **ML-KEM** (Kyber) resists quantum attacks, so plan migration now for long-lived secrets.
 
@@ -97,7 +97,7 @@ A relying party trusts a certificate by following the **chain of trust** up to a
 | **Timing** | Measure how long operations take to infer key bits |
 | **Man-in-the-middle (MITM)** | Intercept and relay traffic between two parties |
 | **Pass the hash** | Reuse a captured password hash without cracking it |
-| **Ransomware** | Encrypt a victim's data and demand payment for the key |
+| **Ransomware** | Malware and extortion threat, not a cryptanalytic attack |
 
 Defenses include strong key lengths against **brute force**, constant-time operations against **timing** attacks, certificate pinning against **MITM**, and offline backups against **ransomware**.
 
