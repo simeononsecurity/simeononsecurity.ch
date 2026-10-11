@@ -1,0 +1,6 @@
+[
+  {"id": 1, "title": "Prepare room", "status": "done"},
+  {"id": 2, "title": "Print handouts", "status": "open"},
+  {"id": 3, "title": "Check projector", "status": "done"},
+  {"id": 4, "title": "Send reminder", "status": "open"}
+]
