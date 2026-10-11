@@ -1,134 +1,47 @@
 ---
-title: "Module 1: How ATS Systems Work — Why Good Resumes Disappear"
+title: "How Applicant Tracking Systems Handle a Resume"
 date: 2026-07-22
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Understand how Applicant Tracking Systems score and filter resumes before any human sees them. Learn why good candidates disappear and how to design for both ATS and human readers."
+description: "Learn how hiring systems receive applications, parse documents, apply configured questions, and support recruiter search. Test your own resume for readability."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
 tags: ["ATS", "applicant tracking system", "resume scoring", "ATS parsing", "keyword matching", "resume filtering", "ATS optimization", "resume course", "how ATS works", "job application", "resume tips", "career development"]
 cover: "/img/cover/applicant-tracking-system-resume-optimization.webp"
 coverAlt: "An illustration of resumes flowing into a digital interface, highlighting keywords and structured sections like Experience and Skills against a dark navy background."
-coverCaption: "Module 1: Understanding the software that screens your resume before any human does."
+coverCaption: "Understand application intake and document parsing."
 ---
 
-#### [← Return to the Resume Optimization Course](/resume-optimization-course-start/)
 
-**Most companies screen resumes through an Applicant Tracking System before a human ever reads them.** Understanding how that system works is the foundation of everything else in this course.
+[Return to the Resume Optimization Course](/resume-optimization-course-start/)
 
-*This module takes about 10 minutes. After reading it, you'll understand why talented candidates disappear and what the scoring system is actually measuring.*
+**An applicant tracking system stores applications and supports a hiring workflow.** Its behavior depends on the product and the employer's configuration. Some employers use knockout questions or automatic rejection rules. Others use recruiter search, filters, matching features, manual review, or a mix. There is no universal resume score or threshold that decides whether a person reads your application.
 
-______
+## Follow the Application Path
 
-## What Is an ATS?
+1. **Submission:** the employer receives your form answers and attachment.
+2. **Parsing:** the system tries to extract name, contact details, jobs, dates, education, and skills from the document.
+3. **Configured decisions:** a required answer, eligibility rule, or recruiter action might affect next steps. The rules differ by posting.
+4. **Search and review:** recruiters inspect candidate records using their chosen filters, search terms, and process.
 
-An **Applicant Tracking System (ATS)** is software that companies use to receive, parse, and rank job applications. When you submit a resume online, it typically goes directly into an ATS — not to a human inbox.
+[Greenhouse describes configurable auto-reject rules](https://support.greenhouse.io/hc/en-us/articles/360000653472-Auto-reject) for application questions and [resume parsing failures](https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse). [Lever documents candidate search](https://help.lever.co/s/article/Searching-the-Database-for-Candidates). These examples show different mechanisms. They do not prove what a particular employer enabled.
 
-The ATS does three things to your resume:
+## Make the Document Readable
 
-1. **Parses it** — extracts your text and attempts to categorize it into fields (name, contact, job history, skills, education)
-2. **Scores it** — compares your parsed content against the job description using keyword and criteria matching
-3. **Ranks it** — places your application in the recruiter's queue based on that score
+Use clear section names such as Experience, Projects, Education, and Skills. Put your contact details in normal document text. Use consistent dates and plain text for essential facts. Complex columns, tables, graphics, and text boxes sometimes parse poorly. A single-column layout is a conservative starting point, not a universal requirement.
 
-A recruiter might set a threshold: only applications scoring above 70 get shown. If your resume scores 62, no human ever sees it. **You don't get rejected — you disappear.**
+Save the format the posting accepts. If both PDF and DOCX are allowed, inspect your exported file and follow the employer's instructions. Open the file on another device, select and copy its text, and check reading order. A successful local text extraction does not guarantee every employer product will parse it the same way, but it catches obvious problems.
 
-______
+## Match the Job Honestly
 
-## How ATS Scoring Works
+Compare the posting's required skills and tasks with your real experience. If you used Docker, write Docker rather than only a broad phrase such as container deployment. If you did not use Docker, do not add it for a match. Include a short example showing what you did, the scope, and the result. Repeating a keyword without evidence does not make the claim stronger.
 
-### Keyword Matching
+A third-party resume tool may report a match percentage. Treat that number as the tool's own heuristic, not an employer ATS score. Use its gap list to find missing truthful terms, then read the final document as a person would.
 
-The most direct scoring mechanism is keyword matching. The ATS compares words in your resume against words in the job description.
+## Practice With a Synthetic Posting
 
-| What the ATS does | Example |
-|-------------------|---------|
-| Looks for exact word matches | Job says "Kubernetes"; your resume says "K8s" — miss |
-| Counts keyword frequency | More mentions of required skills = higher score |
-| Checks for required titles | "Software Engineer" vs. "SDE" — may not match |
-| Identifies required sections | Missing "Skills" section = lower structural score |
+The posting requires Linux administration, incident triage, and written reports. Your draft says "managed servers" and "helped security." Rewrite one real bullet to name the actual Linux task, evidence gathered during triage, and report delivered. If you lack incident work, mark that as a skill gap rather than claiming it. Then copy text from the exported resume and check that the bullet and dates appear in order.
 
-**The keyword problem**: A well-written resume can score low because it uses precise synonyms. You may write "containerized deployments" when the job description says "Docker." Both are correct. ATS only sees the literal text.
+A reviewer should identify the role, the required skills you genuinely meet, the evidence for each claim, and any unanswered requirements. This is a useful check even when you do not know the employer's screening configuration.
 
-### Structural Scoring
-
-Beyond keywords, ATS systems score resumes on structure:
-
-- Are standard sections present (Experience, Education, Skills)?
-- Is contact information extractable?
-- Are dates formatted consistently?
-- Do job titles match the role being applied for?
-
-Unusual section names like "My Journey" or "What I've Built" score lower than "Work Experience" or "Projects" because the parser can't confidently categorize them.
-
-### Formatting Impact on Parsing
-
-**This is where most resumes fail.** ATS software extracts text from your file. When it encounters tables, text boxes, columns, or graphics, it often:
-
-- Reads columns in the wrong order (skills section appears mid-sentence in work history)
-- Drops content entirely from graphics and text boxes
-- Garbles dates and titles sitting in table cells
-- Loses contact information stored in page headers
-
-Your resume might look flawless to a human reading the PDF. The parsed text the ATS actually scores may be scrambled.
-
-______
-
-## The Dual Audience Problem
-
-Your resume has two readers: the ATS and the human recruiter.
-
-| Audience | What They Need | Failure Mode |
-|----------|---------------|-------------|
-| **ATS** | Parseable text, keyword matches, standard structure | Disappears before human sees it |
-| **Human** | Clear story, accomplishments, clean design | Rejected in 10-second scan |
-
-Optimizing only for ATS produces keyword-stuffed text that reads poorly. Optimizing only for design produces beautiful documents the ATS can't parse.
-
-**Design for ATS first, human second.** ATS compliance is a prerequisite. Human readability is what closes the deal.
-
-______
-
-## What the ATS Score Actually Measures
-
-An ATS score is a proxy, not a verdict. It measures how closely your resume text matches the job description text — nothing more.
-
-A high score means you've matched the language. A low score means you haven't — even if you're the most qualified candidate.
-
-*Use the ATS score as a direction, not a verdict. Below 60% on a specific job posting means your keyword coverage is too thin. Above 75% means the language is aligned — now the resume has to work for the human reader.*
-
-### What ATS Cannot Measure
-
-- The quality of your work
-- Whether your experience is relevant in context
-- Your cover letter or personality
-- Achievements that aren't described in matching terms
-
-______
-
-## What a Low Score Actually Tells You
-
-Before spending time rewriting bullets, check:
-
-1. **Are the right keywords present?** Paste the job description into the [ATS Resume Improver](https://atsresumeimprover.netlify.app/) keyword gap view. It shows which job description terms are missing from your resume.
-2. **Is your formatting parseable?** Single column, no tables, standard headers?
-3. **Are section names standard?** "Work Experience" beats "Career History"
-4. **Are your job titles recognizable?** If your title is non-standard, add a parenthetical that matches industry language.
-
-A score below 60% with strong formatting usually means keyword gaps. A score below 60% that also looks scrambled in the "what the ATS sees" view means a formatting problem.
-
-______
-
-## Before You Move On
-
-The [ATS Resume Improver](https://atsresumeimprover.netlify.app/) shows you the exact text the parser extracted from your file under the "What the ATS Sees" tab. Upload your current resume now and review that view. If sections are missing, out of order, or garbled — that's what the ATS scores.
-
-Fix the extraction first. Then fix the keywords. Then fine-tune the human presentation.
-
-______
-
-## Next Steps
-
-This module explained the scoring system. The next module covers the formatting choices that determine whether your content gets parsed correctly.
-
-**[→ Module 2: Resume Formatting](/resume-optimization-course/resume-formatting/)**
-
-Or return to the course hub: **[Resume Optimization Course Start](/resume-optimization-course-start/)**
+Continue with [Resume Formatting](/resume-optimization-course/resume-formatting/).

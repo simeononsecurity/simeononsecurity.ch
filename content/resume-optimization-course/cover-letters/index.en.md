@@ -1,160 +1,76 @@
 ---
-title: "Module 8: Cover Letters"
+title: "Module 8: Decide When and How to Write a Cover Letter"
 date: 2026-07-22
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn when a cover letter is worth writing, the three-section structure that works, the tone that reads human instead of AI-generated, and 20+ phrases to eliminate from every cover letter you write."
-genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development"]
-tags: ["cover letter writing", "cover letter tips", "cover letter structure", "how to write cover letter", "AI cover letter", "humanize cover letter", "cover letter format", "resume course", "career development", "job search", "cover letter opening", "cover letter examples", "application materials", "job application tips"]
+description: "Decide whether a cover letter helps an application, write a role-specific example, and check every claim and disclosure before sending."
+genre: ["Career Development", "Resume Writing"]
+tags: ["cover letter", "job application", "cover letter example", "application privacy", "resume course"]
 cover: "/img/cover/cover-letter-writing-tips-professional-guide.webp"
-coverAlt: "A modern workspace featuring a laptop displaying a cover letter, a notepad with notes, a coffee cup, and a city skyline visible through an open window."
-coverCaption: "Module 8: The cover letter is your chance to speak — don't sound like a bot."
+coverAlt: "Desk with a laptop displaying a cover letter, a notepad, and a city view."
+coverCaption: "Module 8: Connect relevant evidence to the role."
 ---
 
-#### [← Return to the Resume Optimization Course](/resume-optimization-course-start/)
+[Return to the Resume Optimization Course](/resume-optimization-course-start/)
 
-**A cover letter isn't a summary of your resume.** The hiring manager can read your resume. A cover letter does something different: it shows you understand the company and the role specifically, connects your experience to their actual problem, and gives a sense of your voice.
+A cover letter gives context for one application. It does not replace your resume or correct a missing qualification. The value of a letter depends on the employer's instructions, role, and what you can add beyond the resume.
 
-*This module takes about 10 minutes. After reading it, you'll know when to write a cover letter, how to structure it, and which phrases mark yours as AI-generated — so you can avoid them.*
+## Decide Whether to Submit One
 
-______
+| Application instruction | Decision |
+|---|---|
+| Letter required | Submit a truthful letter in the requested format. |
+| Letter optional | Write one if you can add relevant context and have time to review it. A generic or inaccurate letter may weaken the application. |
+| No upload field | Follow the application process. Do not assume an unsolicited attachment reaches the reviewer. |
+| Explicitly says no letter | Do not add one. |
 
-## Do You Actually Need One?
+The [CareerOneStop cover-letter guide](https://cloudfront.careeronestop.org/JobSearch/Resumes/cover-letters.aspx) starts with the posting's instructions and offers a structure. Employers and countries have different norms. Follow the specific posting first.
 
-**If the application has a cover letter field marked optional:** Write one anyway. It signals effort and differentiates you from the majority who skip it. A short, relevant cover letter is a positive signal. An absent one is neutral at best.
+## Gather Evidence Before Drafting
 
-**If the posting says "cover letter required":** Obviously, write one. A good one, not a form letter.
+Save the posting with its date and source. Read the employer's own description of its product, service, or mission. Pick one or two requirements that you meet. Identify a resume bullet, project, or work sample supporting each. If the employer detail is uncertain or comes only from a third-party summary, leave it out. Do not claim inside knowledge.
 
-**If there's no cover letter field at all:** Skip it. Attaching an unsolicited Word document to an ATS submission often never reaches a human.
+Use this private planning table:
 
-______
+| Posting requirement | Your evidence | Safe company detail | Gap or limit |
+|---|---|---|---|
+| Example: explain technical findings to customers | Fictional support note and redacted presentation | Employer's public service page | No claim of direct industry experience |
 
-## What a Cover Letter Should Do
+## Write Three Short Parts
 
-Three things — in roughly this order:
+1. Name the role and the specific work you want to do. Mention a verified employer detail only when it helps explain your interest.
+2. Connect one or two truthful examples to the posting. State what you did, your part in team work, and a result or scope you can defend.
+3. Close with a brief request to discuss the fit. Avoid promising an outcome or repeating the whole resume.
 
-1. **Show you understand this specific company and role**, not just the category of job
-2. **Connect 1–2 experiences from your background** to what they actually need
-3. **Give a sense of your voice** — something a resume can't do
+**Fictional example for a support role:**
 
-If your cover letter could be submitted to any company posting the same job title with no edits, it's not doing its job.
+> I am applying for the support analyst role. Your posting emphasizes explaining account-access problems to customers and documenting repeat issues. In a class help-desk project, I wrote a setup guide after reviewing five synthetic tickets, then tested the guide with another learner. I would welcome a conversation about how your team reviews support documentation.
 
-______
+This example names its fictional source and does not borrow a real company's accomplishment. A learner with no support project should use a different truthful example.
 
-## The Three-Section Structure
+## Review Privacy and AI Use
 
-### Opening: Why This Company, Specifically
+If you use a drafting tool, check what data leaves your device before pasting a resume or posting. Remove personal contact data, client information, internal documents, and restricted metrics unless the tool and employer policy permit them. Review every generated claim against your records. Assistive writing tools and punctuation choices do not prove who authored a letter. Judge the letter by accuracy, fit, clarity, and the employer's rules.
 
-The first paragraph should answer: why this company, not just this job category?
+If a recruiter or peer reviews your draft, obtain consent before sharing another person's name or a client's details. Keep a private final copy with the posting date and application record.
 
-**Generic opener (avoid this):**
-> I am excited to apply for the Software Engineer position at Acme Corp. I believe my 5 years of experience make me a strong candidate.
+## Score Your Draft
 
-**Specific opener:**
-> Acme Corp's investment in low-latency infrastructure for real-time payments is the exact problem space I've spent the last 3 years working in. Building systems that handle event volumes at sub-100ms latency is where I do my best work.
+Give each criterion 0, 1, or 2 points:
 
-The second version names something specific, demonstrates knowledge of the company, and connects immediately to the candidate's expertise. It takes 15 seconds of research on the company's product page or engineering blog to write.
+| Criterion | 0 | 1 | 2 |
+|---|---|---|---|
+| Role fit | Wrong or unnamed role | Role named | Role plus relevant duty named |
+| Evidence | Unsupported claim | General but truthful example | Specific, verifiable example |
+| Employer detail | False or copied claim | No detail | Relevant detail verified from employer source |
+| Privacy | Restricted data included | Some details need review | No unapproved disclosure |
+| Clarity | Hard to follow | Understandable | Concise and easy to scan |
 
-### Middle: The Specific Connection
+A draft with a zero for truth or privacy needs repair before submission, regardless of total score. This rubric checks the document, not its chance of being selected.
 
-1–2 paragraphs connecting your actual background to the role's specific challenges. Reference a bullet or project from your resume and expand on the "why" and "how" behind it — the context and judgment that a bullet point can't capture.
+## Practice and Pass Check
 
-**The goal**: demonstrate that your experience is directly applicable, not just generally related.
+Use a synthetic posting and resume from the course hub or a private application. Write a letter and score it. Then write one generic version and compare the two against the same rubric. Ask a second reader to locate every claim in your resume or approved evidence. Save the revised letter and your decision about whether the employer requests one.
 
-**Example:**
-> At Stripe, I rebuilt the internal event pipeline that had become a throughput bottleneck at 40K events/second. The challenge wasn't just scale — it was doing the migration without a maintenance window. I ended up running old and new systems in parallel with a gradual traffic shift over three weeks. The new system handles 500K events/second and has been in production for 18 months without incident. I'd apply the same no-downtime migration approach to the platform reliability work you're hiring for.
-
-This paragraph is personal, specific, and directly relevant. A recruiter reading it knows exactly what this candidate built and why it's applicable.
-
-### Close: A Clear Ask
-
-Short, direct. State what you're hoping for. Don't pad this section.
-
-**Example:**
-> I'd enjoy talking through how my background in distributed systems applies to what you're building. Happy to make time this week or next. Thanks for reading.
-
-______
-
-## Tone
-
-Write like a person talking to another person. You're not filing a legal brief. You're not sending a formal business letter. You're explaining why you want the job and why you're right for it.
-
-**What this means:**
-
-- Contractions are fine. "I'm," "I've," "it's" — these are how people talk.
-- Short sentences are fine. One idea per sentence reads better than three ideas in one sentence.
-- First person is necessary, but don't start every sentence with "I." Vary your sentence structure.
-
-______
-
-## Phrases to Eliminate
-
-These phrases appear in the majority of cover letters and signal generic AI-generated content to any experienced recruiter.
-
-**Opening phrases to cut:**
-- "I am writing to express my sincere interest in..."
-- "I have always been passionate about..."
-- "I am excited to apply for the position of..."
-- "Please accept this letter as my formal application..."
-
-**Body phrases to cut:**
-- "I would be a valuable asset to your team"
-- "I am a fast learner who thrives in dynamic environments"
-- "I am eager to bring my skills to [Company]"
-- "I am confident I would excel in this role"
-- "Throughout my career, I have demonstrated..."
-
-**Closing phrases to cut:**
-- "Thank you for your consideration and I look forward to discussing..."
-- "I welcome the opportunity to further discuss my qualifications..."
-- "Please feel free to contact me at your earliest convenience"
-- "I am available for an interview at your convenience"
-
-**Individual words and phrases to cut regardless of context:**
-
-| Cut | Replace With |
-|-----|-------------|
-| leverage | use |
-| utilize | use |
-| synergy | (describe the actual relationship) |
-| passionate about | (just say what you want to do) |
-| excited to contribute | (say what specifically you'll contribute) |
-| game-changer / groundbreaking | (say why it matters) |
-| in conclusion | (just end the letter) |
-| it's worth noting | (just say the thing) |
-| tapestry / ecosystem | (be specific) |
-| not only...but also | (use two sentences) |
-
-**The AI tell**: the strongest single indicator that a cover letter was AI-generated is an em dash used in a flowing sentence ("My experience in infrastructure — particularly Kubernetes operations — makes me well-positioned..."). Rewrite as two sentences. Cut the em dash entirely.
-
-______
-
-## AI-Generated Cover Letters: Use But Edit
-
-The [ATS Resume Improver](https://atsresumeimprover.netlify.app/) can generate a cover letter from your resume and the job description. The generated letter applies humanization rules that strip the most obvious AI patterns — no em dashes, no banned phrases, active voice, contractions required.
-
-Use the generated output as a first draft, then:
-
-1. Add the company-specific detail (what specifically drew you to this company)
-2. Replace one generic accomplishment reference with a specific story from your actual work
-3. Read it out loud — if it doesn't sound like you, adjust until it does
-
-A good generated cover letter saves 80% of the drafting time. The last 20% — the specific, personal detail — is what you add.
-
-______
-
-## Cover Letter Length
-
-**One page maximum.** Three to four paragraphs total. Most strong cover letters are under 300 words.
-
-If you need more than one page to explain your interest, you're including information that belongs on the resume.
-
-______
-
-## Next Steps
-
-Your resume and cover letter are ready. The final module covers the pre-send checklist, page limits, file format rules, and the most common mistakes to eliminate before every submission.
-
-**[→ Module 9: Final Checklist and Submission](/resume-optimization-course/final-checklist-and-submission/)**
-
-Or return to the course hub: **[Resume Optimization Course Start](/resume-optimization-course-start/)**
+Continue with [Module 9: Final Checklist and Submission](/resume-optimization-course/final-checklist-and-submission/) or return to the [course hub](/resume-optimization-course-start/).

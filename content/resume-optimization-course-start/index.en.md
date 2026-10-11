@@ -3,23 +3,23 @@ title: "Resume Optimization Course"
 date: 2026-07-22
 toc: true
 draft: false
-description: "A practical, no-fluff course on writing a resume that gets past ATS filters and lands interviews. Covers formatting, keywords, bullet points, cover letters, and using AI tools to optimize your chances."
+description: "A practical course for writing a clear, truthful resume, checking file readability, tailoring examples to a posting, and preparing a submission."
 genre: ["Career Development", "Resume Writing", "Job Search", "Professional Development", "Productivity"]
 tags: ["resume optimization", "ATS resume", "resume writing course", "beat ATS", "keyword optimization", "resume formatting", "cover letter", "job search course", "career development", "resume tips", "applicant tracking system", "resume course", "AI resume", "ATS Resume Improver", "resume keywords", "resume bullet points", "cover letter writing", "tailoring resume", "resume checklist", "interview preparation"]
 cover: "/img/cover/resume-optimization-course-ats-systems.webp"
 coverAlt: "A person sitting at a desk working on a resume. The desk features a laptop displaying a structured resume, a document with highlighted keywords, a coffee mug, a notepad with notes, and a plant in the background."
-coverCaption: "Beat the bots and win the interview — your complete resume optimization course."
+coverCaption: "Write and check a clear resume for a defined role."
 ---
 
-**A practical course for writing a resume that clears ATS filters and actually gets read by humans.** No templates that break parsers. No buzzword soup. Just what works.
+**Write a resume that a person can understand and an application system can parse.** Follow each posting’s instructions, support your claims with examples, and check the exported file.
 
 ## Why This Course Exists
 
-Every year, candidates with strong backgrounds get filtered out before a human ever reads their resume. Not because they're underqualified — but because their resume is formatted wrong, missing the right keywords, or structured in a way that confuses the software scoring it.
+An application can fail to show your relevant work when a file parses poorly, the wording is vague, or the role fit is unclear. Employers configure hiring systems differently. This course helps you test the document and explain your work accurately.
 
-This course fixes that. It draws on the [ATS Resume Improver](https://atsresumeimprover.netlify.app/) tool and its companion guide — a practical reference built from real recruiter feedback and ATS scoring patterns.
+This course gives you a repeatable writing and review process. An optional [resume comparison tool](https://atsresumeimprover.netlify.app/) can highlight terms you might have missed. Its score is a local heuristic, not an employer decision.
 
-**Use the free tool alongside this course**: [atsresumeimprover.netlify.app](https://atsresumeimprover.netlify.app/) — upload your resume, paste a job description, and see your ATS score and keyword gaps in real time. No account required. Nothing leaves your browser.
+**Use a tool only after checking its privacy settings and data flow.** A real resume contains personal data. You can complete every course exercise with a synthetic resume and job posting.
 
 For a deep-dive into the tool itself, read: **[ATS Resume Improver: Free, Self-Hostable AI Resume Optimizer](/articles/ats-resume-improver-ai-powered-resume-optimizer/)**.
 
@@ -29,9 +29,9 @@ ______
 
 | # | Module | What You Learn |
 |---|--------|---------------|
-| 1 | [How ATS Systems Work](/resume-optimization-course/ats-how-it-works/) | Why resumes disappear, how scoring works |
-| 2 | [Resume Formatting](/resume-optimization-course/resume-formatting/) | Layout rules that survive ATS parsing |
-| 3 | [Writing Your Summary](/resume-optimization-course/writing-your-summary/) | The section that gets read first |
+| 1 | [How ATS Systems Work](/resume-optimization-course/ats-how-it-works/) | How application intake, parsing, and employer settings differ |
+| 2 | [Resume Formatting](/resume-optimization-course/resume-formatting/) | Readable layout and file checks |
+| 3 | [Writing Your Summary](/resume-optimization-course/writing-your-summary/) | A brief, optional overview of role fit |
 | 4 | [Bullet Points and Accomplishments](/resume-optimization-course/bullet-points-and-accomplishments/) | How to write evidence, not job descriptions |
 | 5 | [Keywords and the Skills Section](/resume-optimization-course/keywords-and-skills-section/) | Where keywords go and how to find them |
 | 6 | [Experience, Projects, and Education](/resume-optimization-course/experience-projects-education/) | Section-by-section guide |
@@ -45,15 +45,15 @@ ______
 
 **[→ Go to Module 1](/resume-optimization-course/ats-how-it-works/)**
 
-Most companies screen resumes through Applicant Tracking Systems before a human ever reads them. ATS software scores your resume against the job description looking for matching keywords, job titles, and section structure.
+Employers use application systems in different ways. Some apply required-answer rules, some use search or matching features, and some rely on manual review. A readable file and honest role match help in each case.
 
-The core insight: **you don't get a rejection for a bad resume. You just disappear.** Your resume lands in the ATS, scores below the threshold, and no human ever sees it.
+The first lesson shows you how to check document extraction and why a third-party match score does not predict an employer outcome.
 
 This module covers:
-- How ATS scoring works
+- How application intake and parsing work
 - Why formatting choices determine whether content gets parsed
-- The dual audience problem: optimizing for bots and humans simultaneously
-- What a low ATS score tells you
+- How extraction, employer search, and human review differ
+- What a local comparison score does and does not tell you
 
 ______
 
@@ -61,13 +61,13 @@ ______
 
 **[→ Go to Module 2](/resume-optimization-course/resume-formatting/)**
 
-The most common reason good resumes score poorly is parser-hostile formatting. Tables, text boxes, columns, and graphics look polished as PDFs but produce garbled output when ATS software extracts text.
+Complex layouts sometimes disturb text extraction. Compare the visible file with copied text and use a simple layout when you cannot test the employer system.
 
 This module covers:
-- Single-column layouts and why they're required
+- Single-column layouts as a conservative starting point
 - Standard section headers that ATS systems recognize
-- Font choices, sizes, and margin rules
-- What to avoid — and why Canva templates are a trap
+- Font choices, sizes, and readable margins
+- How to test exported files from any template
 
 ______
 
@@ -75,10 +75,10 @@ ______
 
 **[→ Go to Module 3](/resume-optimization-course/writing-your-summary/)**
 
-The summary is the first section read and the easiest place to lose someone in the first 10 seconds. A good summary states your level, your field, and your primary value — in the language of the role you're targeting.
+A summary gives the reader a quick view of your relevant work. State the role, experience, and evidence in the posting’s terms.
 
 This module covers:
-- The 2–4 sentence formula that works
+- A short summary pattern to adapt to your experience
 - How to mirror job description language without copying it
 - What to cut (vague claims that any applicant could make)
 - The copy-paste test for evaluating your summary
@@ -89,12 +89,12 @@ ______
 
 **[→ Go to Module 4](/resume-optimization-course/bullet-points-and-accomplishments/)**
 
-Most people write job descriptions in their bullet points. Recruiters already know what a software engineer does. What they need to see is what **you** specifically did and how well.
+Generic duty lists give readers little evidence of your contribution. Show what **you** did, the context, and an outcome you can explain.
 
 This module covers:
 - The Action + What You Did + Result formula
 - Strong opening verbs and weak ones to avoid
-- How to add numbers even when you don't have exact metrics
+- How to use verified numbers, label estimates, or describe an outcome without a number
 - Bullet length and density rules
 
 ______
@@ -103,12 +103,12 @@ ______
 
 **[→ Go to Module 5](/resume-optimization-course/keywords-and-skills-section/)**
 
-ATS systems compare your resume text against the job description word-for-word. Using synonyms, even precise ones, costs you score points. This module covers how to find the right keywords and where to place them.
+Compare the posting’s terms with your real experience. Add a specific term when it accurately describes work you did. Do not add a tool you have never used.
 
 This module covers:
 - How to extract the right keywords from a job description
 - Where to place keywords (summary, skills, bullets, titles)
-- How to structure a skills section recruiters can scan in 5 seconds
+- How to structure a skills section a reader can scan quickly
 - What to leave out of the skills section
 
 ______
@@ -117,12 +117,12 @@ ______
 
 **[→ Go to Module 6](/resume-optimization-course/experience-projects-education/)**
 
-Each section of your resume has specific rules around content, order, and depth. This module covers what to include in each section, how to handle gaps and contract work, and when to elevate projects above experience.
+Each section involves choices about content, order, and depth. This module covers what to include in each section, how to handle gaps and contract work, and when to elevate projects above experience.
 
 This module covers:
 - Experience section: order, gaps, freelance work
 - Projects section: when it matters and what to include
-- Education section: placement, GPA rules, what to omit
+- Education section: placement, GPA decisions, what to omit
 
 ______
 
@@ -130,13 +130,13 @@ ______
 
 **[→ Go to Module 7](/resume-optimization-course/tailoring-your-resume/)**
 
-A generic resume always underperforms a tailored one. ATS systems compare your resume to a specific job posting — a resume tuned for a different role, even in the same field, scores lower.
+Tailoring helps a reader see why your experience fits a specific role. Keep claims truthful and retain a reusable master resume.
 
 This module covers:
 - What tailoring actually means (not rewriting everything)
-- The five concrete changes that move your ATS score
+- Five changes to improve clarity and role relevance
 - How to maintain 3–4 base versions for different role types
-- The 70% keyword match threshold and when you need to act
+- How to treat a tool’s match percentage as a local heuristic
 
 ______
 
@@ -144,13 +144,13 @@ ______
 
 **[→ Go to Module 8](/resume-optimization-course/cover-letters/)**
 
-When should you write one? What should it actually say? A cover letter isn't a summary of your resume — the hiring manager can read. It's proof you understand the company and the role.
+Follow the posting's cover-letter instructions. When a letter is optional, weigh the time against how much relevant context you need to explain. Use the letter to connect your experience to the role.
 
 This module covers:
-- When optional means "still write one"
+- When an optional letter is worth the effort
 - The three sections of an effective cover letter
 - Tone: contractions are fine, legal briefs are not
-- 20+ phrases that mark AI-generated letters (and how to avoid them)
+- How to replace generic phrases with specific evidence
 
 ______
 
@@ -158,7 +158,7 @@ ______
 
 **[→ Go to Module 9](/resume-optimization-course/final-checklist-and-submission/)**
 
-Before you submit, run the pre-send checklist. This module also covers page count rules, when to submit PDF vs. DOCX, and the 10 most common resume mistakes to cut immediately.
+Before you submit, run the pre-send checklist. This module also covers resume length, how to follow the posting’s accepted formats, and common revisions to consider.
 
 This module covers:
 - The complete pre-submission checklist
