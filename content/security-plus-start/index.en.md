@@ -3,114 +3,50 @@ title: "CompTIA Security+ Course"
 date: 2025-01-01
 toc: true
 draft: false
-description: "A comprehensive CompTIA Security+ (SY0-701) study course covering all five exam domains: general security concepts, threats and vulnerabilities, security architecture, security operations, and security program management."
+description: "Study all five Security+ SY0-701 domains through a safe library case, evidence worksheets, control decisions, log triage, and a final assessment."
 genre: ["CompTIA Security+ Course", "Cybersecurity Certification", "Security Fundamentals", "Threat Analysis", "Security Architecture", "CompTIA Certification", "Information Security", "Risk Management", "Incident Response", "Security Operations"]
 tags: ["CompTIA Security+", "SY0-701", "security fundamentals", "threats", "vulnerabilities", "security architecture", "security operations", "risk management", "compliance", "cryptography", "PKI", "network security", "identity management", "incident response", "security controls", "CompTIA certification"]
 cover: "/img/cover/comptia-security-plus-sy0-701-exam-study-guide-illustration.webp"
 coverAlt: "An abstract digital illustration showing interconnected cybersecurity elements like firewalls and data encryption on a dark background, using vibrant colors to convey a technical theme."
-coverCaption: "Master CompTIA Security+ and Start Your Cybersecurity Career"
+coverCaption: "Practice Security+ SY0-701 concepts with a synthetic library case"
 ---
+CompTIA Security+ SY0-701 covers five domains. This course introduces their terms and connects them through one fictional Harbor Library case. It gives you safe practice in control selection, threat analysis, architecture, operations, and risk governance. It does not replace the official objectives or supervised experience.
 
-**CompTIA Security+ (SY0-701)** is the industry-standard entry-level cybersecurity certification trusted by employers worldwide. It validates your ability to assess security postures, implement security solutions, monitor hybrid environments, and respond to incidents. This course covers all five exam domains so you build the skills needed to pass the exam and work in a security role.
+Before starting, understand basic IP networks, accounts and file permissions, the command line, and how a web service uses a database. If these are new, read the [Network+ course](/network-plus-start/) and the [Linux+ course](/linux-plus-start/) first. Plan five study sessions for the lessons, then one session for the final exercise. Add time for terms or tools you need to learn.
 
-| Domain | Title | Exam Weight |
-|--------|-------|-------------|
-| 1 | General Security Concepts | 12% |
-| 2 | Threats, Vulnerabilities, and Mitigations | 22% |
-| 3 | Security Architecture | 18% |
-| 4 | Security Operations | 28% |
-| 5 | Security Program Management and Oversight | 20% |
+You need a text editor and, for the optional hash exercise, a local terminal. Do not scan systems you do not own. The case uses only invented people, records, and [documentation IP addresses](https://www.rfc-editor.org/rfc/rfc5737). You can complete every worksheet without an employer account or cloud subscription.
 
-## Resources
+| Order | Domain | Exam weight | Your evidence |
+|-------|--------|-------------|---------------|
+| 1 | [General Security Concepts](/security-plus/general-security-concepts/) | 12% | Control matrix, file hashes, change record |
+| 2 | [Threats, Vulnerabilities, and Mitigations](/security-plus/threats-vulnerabilities-mitigations/) | 22% | Attack-chain worksheet and layered controls |
+| 3 | [Security Architecture](/security-plus/security-architecture/) | 18% | Trust-boundary diagram, flow rules, recovery plan |
+| 4 | [Security Operations](/security-plus/security-operations/) | 28% | Synthetic alert triage and evidence record |
+| 5 | [Security Program Management and Oversight](/security-plus/security-program-management-oversight/) | 20% | Risk register, vendor questions, audit evidence |
 
-- [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
-- [CompTIA Security+ Practice Test](/security-plus-practice-test/)
-- [Official SY0-701 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf)
-- [Professor Messer's Security+ Videos](https://www.youtube.com/playlist?list=PLG49S3nxzAnnIIiRDFTLXBbEM_xCPpudN)
-- [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
-- [Additional Learning Resources](/recommendations/learning_resources/)
+The percentages follow the [official SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf). Check the current CompTIA exam page before booking. The exam covers more detail than any one case.
 
------
+## How to study
 
-## Domain 1: General Security Concepts
+1. Read one lesson in order. Write the named evidence artifact before moving on.
+2. Compare your work with the example decision and pass condition in the lesson. Correct any claim you cannot support.
+3. Keep one folder with `controls.md`, `attack-chain.md`, `architecture.md`, `triage.md`, and `risk-register.md`. These are text files you create. Do not place real member or employer data in them.
+4. Return to a lesson when you cannot explain why a control was selected, what evidence supports an incident conclusion, or how you would test a proposed fix.
 
-### [General Security Concepts](/security-plus/general-security-concepts/)
+## Final practical assessment
 
-- Compare and contrast various types of **security controls**: technical, managerial, operational, and physical
-- Summarize **fundamental security concepts**: CIA triad, non-repudiation, authentication, authorization, and accounting
-- Explain the importance of **change management processes** and their impact on security
-- Explain the importance of using appropriate **cryptographic solutions**: encryption, hashing, digital signatures, and certificates
-- Implement **public key infrastructure (PKI)**: certificate authorities, certificate types, and certificate management
-- Summarize **authentication and authorization** mechanisms: MFA, SSO, federation, PAP, CHAP, and passwordless
-- Explain **identity and access management (IAM)** concepts: provisioning, deprovisioning, permission assignments, and privilege access management
-- Identify common **security assessment techniques**: vulnerability scans, penetration testing, and security audits
-- Explain the purpose and use of **security awareness practices**: phishing simulations, user training, and policy acknowledgment
+Harbor Library reports that the Friday member export was found in a shared folder. Two failed sign-ins followed by one successful sign-in to its archive account appeared in a synthetic log. A vendor hosts encrypted backups, but nobody has recorded a restore test. The library must keep its public catalog available. Treat these as case facts, not proof of who accessed the data.
 
------
+Create one short security decision package:
 
-## Domain 2: Threats, Vulnerabilities, and Mitigations
+- A diagram with internet, public catalog, staff app, records database, backup store, and each trust boundary. Show allowed and denied flows.
+- An attack timeline which separates observations, possible explanations, and missing evidence. Name an escalation owner and preserve the original log before analysis.
+- A control table with at least three preventive, two detective, and one corrective control. Give each owner and a positive or negative test.
+- A recovery plan with a stated RTO and RPO, backup scope, isolated restore test, and evidence fields. Explain why replication alone would not meet the requirement.
+- A risk-register row with assumptions, estimated impact, treatment, residual risk, owner, and review date. Include one question for the backup vendor.
 
-### [Threats, Vulnerabilities, and Mitigations](/security-plus/threats-vulnerabilities-mitigations/)
+Pass only when you can defend each decision from the case facts, identify which tests remain unrun, and trace every proposed control to a risk. A peer should be able to reproduce your reasoning from the package without asking what a field means. Revise weak sections before taking the [Security+ practice test](/security-plus-practice-test/). Practice questions check recall and judgment; a score alone does not prove workplace readiness.
 
-- Compare and contrast common **threat actors**: nation-states, hacktivists, insider threats, and organized crime
-- Explain common **attack vectors**: phishing, vishing, smishing, business email compromise, and supply chain attacks
-- Explain various types of **vulnerabilities**: application, OS, hardware, firmware, and zero-day
-- Analyze indicators of **malicious activity**: malware types, network-based attacks, and application-based attacks
-- Summarize techniques used in **social engineering attacks**: pretexting, watering hole attacks, and impersonation
-- Explain **mitigation techniques** used to secure the enterprise: patching, encryption, monitoring, and least privilege
-- Identify indicators of compromise (**IoCs**) and their relationship to threat intelligence
-- Describe **cross-site scripting (XSS)**, **SQL injection**, **buffer overflow**, and other common application attacks
-- Explain **denial-of-service (DoS)** and **distributed denial-of-service (DDoS)** attack concepts and mitigations
+## References and next step
 
------
-
-## Domain 3: Security Architecture
-
-### [Security Architecture](/security-plus/security-architecture/)
-
-- Compare and contrast **security implications** of different architecture models: on-premises, cloud, hybrid, and edge
-- Apply **infrastructure security** best practices: segmentation, VLANs, DMZ, and zero trust architecture
-- Compare and contrast concepts and strategies for protecting **data**: data at rest, data in transit, and data in use
-- Explain the importance of **resilience and recovery**: redundancy, replication, backups, and high availability
-- Summarize **cloud security** concepts: shared responsibility model, CASB, SASE, and cloud-native controls
-- Explain **network infrastructure security**: firewalls, IDS/IPS, secure DNS, and network access control
-- Explain the security implications of **virtualization and containerization** technologies
-- Implement **secure network architecture** concepts: load balancing, proxy servers, and content delivery networks
-- Explain the purpose of **security baselines** and secure configuration guides for operating systems and applications
-
------
-
-## Domain 4: Security Operations
-
-### [Security Operations](/security-plus/security-operations/)
-
-- Apply **identity and access management (IAM)** techniques: account provisioning, RBAC, ABAC, and MAC
-- Implement and maintain **endpoint security**: EDR, XDR, antivirus, DLP, and host-based firewalls
-- Explain **key management** concepts and practices: key escrow, key rotation, and hardware security modules
-- Interpret and analyze **security alerts** and monitoring data from SIEM, IDS/IPS, and log aggregation tools
-- Apply the **incident response process**: preparation, identification, containment, eradication, recovery, and lessons learned
-- Use **digital forensics** techniques to investigate security incidents: chain of custody, evidence collection, and analysis
-- Explain **data loss prevention (DLP)** concepts and strategies for protecting sensitive data
-- Implement **secure protocols** and communication standards: TLS, S/MIME, SFTP, DNSSEC, and LDAPS
-- Use **automation and orchestration** to support security operations: SOAR, scripting, and playbooks
-- Explain **vulnerability management** processes: scanning, prioritization, remediation, and verification
-
------
-
-## Domain 5: Security Program Management and Oversight
-
-### [Security Program Management and Oversight](/security-plus/security-program-management-oversight/)
-
-- Summarize elements of effective **security governance**: policies, standards, procedures, and guidelines
-- Explain **risk management** processes: risk identification, assessment, analysis, and treatment
-- Explain the processes associated with **third-party risk management**: vendor assessments, supply chain security, and contracts
-- Summarize elements of **compliance**: regulatory requirements, privacy laws, audits, and reporting obligations
-- Explain types and purposes of **audits and assessments**: internal audits, external audits, and penetration tests
-- Implement **security awareness programs**: training content, phishing campaigns, and program metrics
-- Explain **data privacy** concepts: data sovereignty, data classification, data retention, and legal holds
-- Identify key **frameworks and standards**: NIST CSF, ISO 27001, SOC 2, PCI DSS, and HIPAA
-- Summarize **business continuity** and **disaster recovery** planning concepts: BIA, RTO, RPO, and tabletop exercises
-
------
-
-*Ready to test your knowledge?* Visit the [CompTIA Security+ Practice Test](/security-plus-practice-test/) to gauge your exam readiness. Browse all available courses and study guides at [Courses and Playbooks](/courses-and-playbooks/).
+Use the [official SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) as the scope checklist. [NIST CSF 2.0](https://www.nist.gov/cyberframework) offers a way to organize governance and security outcomes. Continue into the [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/) if you want role-specific pathways. Browse the [course index](/courses-and-playbooks/) for adjacent subjects.
