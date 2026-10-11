@@ -1,10 +1,10 @@
 ---
 title: "Module 5: Social Media Privacy"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Social profiles aggregate into a detailed dossier. This module covers the two assumptions behind every post, upload discipline, permission and integration review, and when leaving is the honest answer."
+description: "Audit profile exposure, tags, sessions, integrations, media metadata, exports, and deletion controls on each social platform you use with repeatable tests."
 genre: ["Personal Security", "Social Media", "Privacy", "OPSEC", "Data Protection"]
 tags: ["social media privacy", "privacy settings", "doxxing", "osint", "geolocation privacy", "metadata removal", "third party apps", "account security", "oversharing", "image cloaking", "social media permissions", "digital footprint", "personal security course"]
 cover: "/img/cover/social-media-privacy-settings-review.webp"
@@ -12,13 +12,13 @@ coverAlt: "A person at a desk focused on a laptop displaying abstract icons symb
 coverCaption: "Module 5: the profile is the dossier"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
 **A social profile is a dossier you assemble for someone else.** Individually, a birthday, a hometown, a pet's name, and a photograph of your street are trivial. Aggregated, they answer the security questions protecting your accounts and locate your home.
 
 This module covers the two assumptions behind every post, upload discipline, permission and integration review, and when leaving a platform is the honest answer.
 
-*Budget about 25 minutes. Most of the value comes from a settings review and a single privacy decision.*
+*Budget about 25 minutes. Review settings, outside profile view, sessions, tags, integrations, and export controls.*
 
 ## What You Will Learn
 
@@ -32,9 +32,9 @@ This module covers the two assumptions behind every post, upload discipline, per
 | Term | Meaning |
 |---|---|
 | **Digital footprint** | The accumulated public record of your online activity |
-| **OSINT** | Intelligence gathered from public sources, which is what an attacker performs on you |
+| **OSINT** | Intelligence collected from publicly available sources for research, defense, journalism, or abuse |
 | **Geotag** | Location data embedded in a post or an image file |
-| **Image cloaking** | Imperceptible alterations which degrade facial recognition against your photos |
+| **Image cloaking** | Experimental image changes intended to affect some recognition or model-training systems |
 | **Third-party integration** | An external application granted access to your profile data |
 
 ## The Two Assumptions
@@ -44,9 +44,9 @@ This module covers the two assumptions behind every post, upload discipline, per
 | Assumption | Why It Holds |
 |---|---|
 | **Public** | Platform settings change, connections reshare, and screenshots exist. Private content is frequently visible to someone |
-| **Permanent** | Archives, caches, and third-party mirrors retain what you delete |
+| **Persistent** | Recipients, archives, caches, or mirrors might retain copies outside the deletion scope |
 
-**Deletion is a request, not a guarantee.** Assume anything you post has been copied at least once.
+**Deletion does not erase copies held by recipients, archives, search indexes, or systems outside the platform's deletion scope.** Post from the expected audience and retention risk.
 
 *This is not a reason to avoid social media. It is a reason to ask whether a specific post would embarrass or endanger you if it were the first result for your name.*
 
@@ -63,7 +63,7 @@ Apply Module 1 to these accounts and add two steps specific to social platforms:
 
 ## What Your Profile Reveals
 
-**Attackers do not break in. They look you up.** A profile answers questions which would otherwise require effort.
+**Public profile details reduce the research needed for impersonation or targeted contact.** Account intrusion and data leaks create separate exposure paths.
 
 | Detail | What It Enables |
 |---|---|
@@ -74,13 +74,13 @@ Apply Module 1 to these accounts and add two steps specific to social platforms:
 | **Daily routine and locations** | Physical risk, and empty property cues |
 | **Family names and relationships** | Impersonation of people you trust |
 
-**Security questions are the sharpest edge here.** Your mother's maiden name is often public record, your first car is often in a photograph, and your school is on your profile. Module 1's answer applies: **store invented answers in your vault** rather than true ones.
+**Truthful security-question answers might appear in public records, posts, photographs, or profiles.** Where the provider permits arbitrary answers, store unique generated responses in your vault rather than reusing biographical facts.
 
 *Our **[Prioritized Security Checklist](/articles/personal-security-checklist-prioritized-2026/)** places this under Tier 3 in effort but notes it feeds directly into Tier 1 account recovery.*
 
 ## Upload Discipline
 
-**Two details leak from every upload, and both are removable.**
+**Uploads expose visible context and might carry metadata.** Capture settings, file format, and platform processing decide which fields exist or survive.
 
 ### Location
 
@@ -91,11 +91,11 @@ Publishing a location while still there announces your presence. Publishing it w
 - **Check backgrounds** in photographs, which reveal street signs, house numbers, and landmarks
 - **Review check-ins and tagged locations**, including ones your contacts added
 
-*The absence signal matters more than the presence signal. A tagged holiday photograph tells a reader which property is currently unoccupied.*
+*A live travel post might suggest absence from a usual location. Delay location posts when this inference creates a safety or property risk.*
 
 ### Metadata
 
-Images carry data beyond the visible pixels, including GPS coordinates, timestamps, and device identifiers. Platforms strip some of this and not all of it.
+Image files might contain metadata beyond visible pixels, including GPS coordinates, timestamps, software details, or device fields. File format, capture settings, editing, and platform processing decide what survives.
 
 **Check before uploading** with the local **[EXIF Viewer](/exif-viewer/)**, which reads metadata without transmitting the file. Our **[URL Parser](/url-parser/)** does the equivalent for links, exposing tracking parameters appended to a shared address.
 
@@ -106,26 +106,26 @@ Images carry data beyond the visible pixels, including GPS coordinates, timestam
 | Target | What to Check |
 |---|---|
 | **App permissions** | Contacts, call log, location, photos, and microphone. Revoke what the app does not need |
-| **Third-party integrations** | Everything connected through social sign-in, which you granted once and never revisited |
+| **Third-party integrations** | External services connected through social sign-in or an app grant |
 
-**Prefer a dedicated account per service over social sign-in.** A social login links your profiles into one graph and makes a single provider compromise reach every connected service.
+**Compare dedicated accounts with social sign-in.** A dedicated account reduces provider correlation and concentration. Social sign-in might give stronger authentication and simpler recovery. Record which risk matters for each service.
 
 Our threat model guide covers when this level of separation is justified: **[How to Form Your Own Personal Threat Model](/articles/how-to-form-your-own-personal-threat-model-safeguard-online-security/)**.
 
 ## When Leaving Is the Answer
 
-**Some platforms cannot be configured into safety**, because the business model depends on the aggregation you are trying to prevent.
+**Some platform designs conflict with a learner's threat model.** Settings reduce selected exposure. They do not remove business-model, retention, network, or social-graph risks.
 
 | Situation | Reasonable Response |
 |---|---|
 | **You post infrequently and mostly read** | Reduce to a lurking account with minimal profile detail |
 | **Your profile is required for work** | Separate work and personal identities, and keep the personal one minimal |
 | **You face harassment, stalking, or a public role** | Consider leaving, or maintaining a pseudonymous presence with no real details |
-| **The platform sells behavioral advertising** | Assume your activity is the product regardless of settings |
+| **The platform uses behavioral advertising** | Review which activity supports ad selection, measurement, and data sharing under current terms |
 
-**A pseudonymous account is a legitimate middle path** for readers who want the content without the profile. Use a different name, no real contact details, and a separate browser container so no two identities share storage.
+**A pseudonymous account separates selected profile details.** A different name and browser profile reduce direct links. Network addresses, device fingerprints, recovery contacts, payments, writing style, and shared contacts still create correlation paths.
 
-*Advanced readers concerned about facial recognition against existing photographs should explore image cloaking tools. The technique degrades recognition rather than preventing it, and it does not remove photographs which are already published.*
+*Image cloaking is experimental. Platform recompression and model changes might reduce effectiveness. Treat the method as a research technique, not a safety control.*
 
 {{< figure src="social-media-profile-aggregation-osint-dossier.webp" alt="Diagram showing scattered social media details such as birthday, school, employer, and routine aggregating into a single identity dossier used for impersonation and account recovery attacks" >}}
 
@@ -150,6 +150,42 @@ Permissions audited:
 Details removed from profile:
   birthday / hometown / school / employer / phone / email
 ```
+
+## Practice and Verify
+
+Choose one platform. Record the date because menu names and defaults change.
+
+1. Review profile visibility, audience defaults, tag approval, location sharing, active sessions, and connected apps.
+2. View the profile from a signed-out window or a consenting second account.
+3. Remove one unnecessary public field and revoke one stale session or integration.
+4. Upload a harmless test image after checking its metadata locally.
+5. Download the platform's account export or confirm where the export control lives.
+6. Locate deactivation and deletion controls without submitting the final deletion request.
+
+> **Expected Result:** the outside view matches the intended audience, tags need approval where supported, no unknown session stays active, and the learner has a dated export and deletion route.
+
+If a setting is absent, search the platform's official help center for your region and app version. If harassment or stalking is involved, preserve evidence, avoid sudden changes which increase danger, and use the platform safety center or a local specialist service.
+
+```text
+REDACTED EXAMPLE
+Platform:              social network A
+Outside profile view:  name and avatar only
+Tag approval:          enabled
+Sessions revoked:      old tablet
+Connected app removed: quiz app
+Export requested:      2026-10-10
+Deletion route:        recorded, not submitted
+```
+
+**Pass checklist**
+
+- [ ] A second view confirmed actual exposure
+- [ ] Tag, session, and integration settings received review
+- [ ] Media inspection used the original file, before upload
+- [ ] Export and deletion paths are documented
+- [ ] Any pseudonym plan lists remaining correlation paths
+
+**Primary references, checked 2026-10-10:** [Apple location metadata controls](https://support.apple.com/guide/personal-safety/manage-location-metadata-in-photos-ips0d7a5df82/1.0/web/1.0) and the selected platform's official privacy and safety center.
 
 ## Next Steps
 

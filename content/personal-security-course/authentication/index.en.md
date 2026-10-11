@@ -1,10 +1,10 @@
 ---
 title: "Module 1: Authentication and Credentials"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Why credentials fail, how to choose between a cloud and an offline vault, which second factors stop phishing, and why recovery belongs in the same sitting as setup."
+description: "Learn how passwords, passkeys, MFA, vaults, and account recovery work. Build and test a safer authentication plan without exposing secrets, with clear evidence."
 genre: ["Personal Security", "Authentication", "Password Management", "Account Security"]
 tags: ["authentication", "credentials", "password manager", "passkeys", "hardware security key", "FIDO2", "2FA", "multi-factor authentication", "credential stuffing", "phishing", "backup codes", "recovery", "password hygiene", "offline password manager", "personal security course"]
 cover: "/img/cover/authentication-and-credentials-digital-vault-security.webp"
@@ -12,13 +12,13 @@ coverAlt: "An illustration of a digital vault with glowing elements representing
 coverCaption: "Module 1: credentials are the first thing an attacker tries"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**Authentication is where every other control begins.** An attacker who holds your credentials does not need to defeat your browser hardening, your encrypted disk, or your network segmentation. They log in as you and inherit everything.
+**Authentication controls access to accounts and recovery paths.** A valid credential might let an attacker bypass controls on your own browser, disk, or network. Provider risk checks, session policy, authorization, and later verification still shape access.
 
 This module covers how credentials fail, how to choose a vault, which second factors genuinely resist phishing, and why recovery configuration belongs in the same sitting as setup.
 
-*Budget about 45 minutes. The vault decision and the second-factor upgrade are the two highest-yield actions in the entire course.*
+*Budget about 45 minutes. Start with the vault, high-value account factors, sessions, and recovery.*
 
 ## What You Will Learn
 
@@ -34,27 +34,27 @@ This module covers how credentials fail, how to choose a vault, which second fac
 | **Credential stuffing** | Replaying leaked username and password pairs against other services |
 | **Passphrase** | A password built from several random words, long and easy to recall |
 | **Entropy** | The unpredictable content of a secret, measured in bits |
-| **Origin binding** | A credential cryptographically tied to one domain, which defeats lookalike sites |
+| **Origin binding** | A credential cryptographically tied to one domain, which resists credential phishing on a lookalike site |
 | **Recovery key** | A single-use code which restores access when the second factor is lost |
 | **Vault** | The encrypted store holding your credentials |
 
 ## Why Credentials Fail
 
-**Three mechanisms account for most account compromise, and they demand different countermeasures.**
+**Three common account attacks demand different countermeasures.**
 
 | Attack | Mechanism | What Stops It |
 |---|---|---|
 | **Credential stuffing** | Replaying leaked pairs across services | Unique passwords per account |
 | **Phishing** | A lookalike site collecting the password and the code | Origin-bound credentials |
-| **Session theft** | Malware lifts browser cookies and reuses a live session | Nothing at the authentication layer, so endpoints matter |
+| **Session theft** | Malware or another attacker obtains a valid session token | Session protection, revocation, reauthentication, and endpoint controls |
 
-The third row is the one people miss. **A stolen session cookie bypasses your password and your second factor entirely**, which is why Module 8 exists and why endpoint hygiene is not optional.
+**A valid stolen session token might provide access without a fresh password or factor prompt.** Provider controls, token scope, expiration, reauthentication, and revocation decide the result.
 
-*Password reuse is the multiplier. One leaked pair becomes dozens of compromised accounts, automatically and without any further effort from the attacker.*
+*Password reuse lets an attacker test one leaked pair against other services. Unique credentials limit the number of accounts exposed by one password leak.*
 
 ## Choosing a Vault
 
-You need a manager. The only real decision is the architecture.
+A password manager supports unique credentials. Choose its architecture, recovery design, platform support, and sharing model from your needs.
 
 | | Cloud-Synced | Offline File-Based |
 |---|---|---|
@@ -62,10 +62,10 @@ You need a manager. The only real decision is the architecture.
 | **Sync** | Automatic across devices | Manual, or via your own storage |
 | **Recovery** | Vendor-supported | Entirely your responsibility |
 | **Trust** | The vendor's encryption and availability | Your own backup discipline |
-| **Weakness** | Vendor outage or breach of the wrapped key | Losing the file means losing everything |
-| **Best for** | Most people, especially multiple devices | Users willing to own synchronization |
+| **Weakness** | Vendor outage or failure in the service or client design | Losing every copy of the file or key blocks recovery |
+| **Common fit** | People who want managed multi-device sync | People willing to own synchronization and backups |
 
-**Choose cloud-synced unless you have a specific reason not to.** The security gap between a well-run vendor and a self-managed file is small. The gap between either and password reuse is enormous.
+**Choose the design you will maintain and recover.** Compare vendor trust, local backup skill, device support, sharing needs, offline access, and recovery before choosing cloud sync or an offline file.
 
 *Whichever you pick, the vault is now a single high-value target. The concentration is the trade, and it is a good one because you control the countermeasures.*
 
@@ -73,52 +73,52 @@ Our comparison of the two architectures: **[Best Password Managers 2026: Bitward
 
 ## The Master Password
 
-**Your vault password is now the highest-value secret you own.** Everything else sits behind it.
+**Your vault password protects a concentrated credential store.** Give its recovery and endpoint security the same care as the vault itself.
 
 Two rules follow:
 
-- **Make it long rather than complicated.** A passphrase of five or six random words carries more entropy than a short string of symbols, and you will remember it. Guides to **[Creating Strong Passwords](/articles/how-to-create-strong-passwords/)** cover the arithmetic.
-- **Never store it anywhere.** Not in the vault, not in a notes app, not in a browser. If you must write it down during the first week, keep the paper somewhere you control and destroy it once memorized.
+- **Prefer length over complexity.** A password manager generated value avoids reuse. A multiword passphrase suits a secret you need to enter from memory. Guides to **[Creating Strong Passwords](/articles/how-to-create-strong-passwords/)** cover the arithmetic.
+- **Choose a controlled recovery copy.** A sealed paper copy in a locked place helps some households avoid permanent lockout. A person facing theft or coercion might reject this option. Record the choice and storage location without writing the secret in this course record.
 
-If your manager supports it, **enable a second factor on the vault account itself**. This is the one place where a second factor protects the master credential rather than an individual site.
+If your manager supports the feature, **enable a second factor on the vault account**. The factor protects access to the provider account. Local vault access behavior depends on the product design.
 
 ## Second Factors Ranked
 
 **Second factors are not interchangeable.** They resist different attacks, and the ranking is entirely about what they stop.
 
-| Factor | Stops Stuffing | Stops Phishing | Survives Session Theft |
+| Factor | Stops Stuffing | Phishing Resistant | Stops Session Theft |
 |---|---|---|---|
-| **SMS code** | Yes | Weakly, via SIM swap | No |
-| **Email code** | Yes | Weakly, since mail is often already compromised | No |
-| **Authenticator app** | Yes | Weakly, via real-time relay | No |
-| **Push approval** | Yes | Weakly, via prompt bombing | No |
-| **Passkey** | Yes | **Yes** | Yes |
-| **Hardware key (FIDO2)** | Yes | **Yes** | Yes |
+| **SMS code** | Yes | No, codes remain phishable and relayable | No |
+| **Email code** | Yes | No, codes remain phishable and relayable | No |
+| **Authenticator app** | Yes | No, codes remain phishable and relayable | No |
+| **Push approval** | Yes | Depends on the protocol and verification flow | No |
+| **Passkey** | Yes | **Yes, when implemented with verifier binding** | No |
+| **Hardware key (FIDO2)** | Yes | **Yes, when implemented with verifier binding** | No |
 
-**The bottom two rows are the only phishing-resistant options.** The reason is structural. A passkey or hardware key is bound to the domain requesting it, so a lookalike site receives nothing reusable. There is no code for anyone to read aloud.
+**Passkeys and FIDO2 security keys provide common consumer phishing-resistant options.** NIST also recognizes other cryptographic methods. Verifier binding prevents a lookalike origin from receiving a valid reusable authentication output. These factors do not by themselves invalidate a session token stolen after login.
 
 Three failure modes worth naming:
 
-- **SIM swap** moves your number to an attacker's device, defeating every SMS factor at once. Set a carrier PIN, covered in Module 7.
-- **Prompt bombing** floods you with push requests until you approve one. Number matching helps, and a passkey removes the problem.
-- **Real-time relay** puts an attacker between you and the real site, forwarding your code live. Only origin binding defeats it.
+- **SIM swap** moves your number to an attacker's device and threatens accounts which accept SMS to the number. Set available carrier account and transfer protections, covered in Module 7.
+- **Prompt bombing** floods you with push requests until you approve one. Number matching helps. A passkey flow which replaces approval prompts removes this path from the selected login flow.
+- **Real-time relay** puts an attacker between you and the real site, forwarding a code live. Verifier-bound cryptographic authentication resists this path.
 
-*Upgrade email and finance accounts first. Those two hold the recovery paths for everything else.*
+*Prioritize accounts which hold recovery paths or financial value. Email and finance accounts often belong near the top after you map your own dependencies.*
 
 Generate and verify codes locally with the **[TOTP and HOTP Generator](/totp-generator/)**, which reads a Base32 secret or an `otpauth://` URI without sending either anywhere.
 
 ## Recovery Belongs in the Same Sitting
 
-**Most lockouts are self-inflicted.** Someone enables a second factor, loses the device, and learns the backup codes were never saved.
+**Recovery planning prevents avoidable lockout.** A lost device becomes a serious problem when no saved code, second authenticator, recovery contact, or provider process exists.
 
-Do all four steps whenever you enable a factor:
+Use the supported steps when you enable a factor:
 
 1. **Save the backup codes before closing the setup screen.** Print them or write them down, and store them **separately from your vault**, since one compromise should not yield both.
 2. **Register a second key or device** where the service allows it.
-3. **Remove stale recovery details.** An old phone number now belongs to someone else.
+3. **Remove stale recovery details.** A disconnected number might be reassigned, while an obsolete address or contact might no longer be trustworthy.
 4. **Confirm which recovery contact is listed**, then update it if it is wrong.
 
-> **Warning: support teams will not restore access to a properly secured account. Losing your only factor without backup codes frequently means losing the account permanently.**
+> **Warning: recovery differs by provider.** Some services use saved codes, recovery contacts, identity proofing, or support review. Confirm the real process before removing an old factor.
 
 ## What Not to Store
 
@@ -126,17 +126,17 @@ A vault holds credentials. It should not hold everything adjacent to them.
 
 | Item | Why It Stays Out |
 |---|---|
-| **Backup codes** | Storing both factors together collapses them into one |
-| **Your master password** | Circular, and any breach of the vault exposes everything |
-| **Full payment card details** | Use a processor or virtual cards instead, covered in Module 10 |
-| **Recovery email credentials** | Keeping the recovery path separate is the point |
+| **Backup codes** | Separate storage limits one compromise, while vault storage reduces loss risk. Choose from your threat model |
+| **Your master password** | A sealed offline copy supports recovery. Store the copy away from the device and document who has access |
+| **Full payment card details** | Vault storage adds convenience and concentration risk. A processor or virtual card gives another option |
+| **Recovery email credentials** | Separation limits one compromise. A secured vault reduces forgotten-password risk |
 
-Also worth reviewing: **password hints and security questions**. Answers about your mother's maiden name or first car are frequently public record. If a site forces questions, **store invented answers in the vault** rather than real ones.
+Also review **password hints and security questions**. Biographical answers might appear in records, posts, profiles, or photographs. If a site permits arbitrary answers, **store unique generated responses in the vault** rather than reusing real facts.
 
 Two more habits deserve a mention because they cut in opposite directions:
 
-- **Do not let a browser save passwords.** Browser stores are not consistently encrypted and are a primary target for infostealer malware.
-- **Do not use your password manager to generate second-factor codes.** It concentrates both factors in one store, which converts a single compromise into a complete one.
+- **Review the browser vault before use.** Modern browser password stores often use operating-system or account protection. A dedicated manager gives clearer cross-browser controls. Endpoint malware still threatens both designs.
+- **Choose where TOTP codes live.** A separate authenticator limits vault concentration. Vault-held codes reduce lockout and setup friction. Record the trade-off for each high-value account.
 
 *The counterpoint to the second item is real: a dedicated authenticator adds friction. Take the friction if you hold anything worth protecting.*
 
@@ -148,7 +148,7 @@ Produce a short record before moving on. It becomes the reference for every late
 AUTHENTICATION RECORD
 Vault:               ______________________  (vendor or file location)
 Vault second factor: ______________________
-Master password:     memorized only, not stored
+Master password recovery copy: none / sealed offline / trusted custodian
 
 Account tiers (list your accounts under each):
   Tier 1 (recovery, email, finance, identity):
@@ -166,9 +166,43 @@ Recovery:
   Stale details removed:   phone / none / unknown
 ```
 
-*Tier 1 deserves a hardware key or passkey. Tier 3 deserves a unique password and nothing more. Applying Tier 1 effort everywhere is how people abandon the process.*
+*Prioritize phishing-resistant authentication for high-impact accounts where supported. Give each lower-impact account a unique credential, then add available factors when account value, recovery dependencies, or the threat model justify them.*
 
 {{< figure src="authentication-factor-tiers-and-recovery-path.webp" alt="Diagram showing account tiers from recovery and finance accounts down to low-value services, with phishing-resistant factors applied to the top tier and recovery paths stored separately from the vault" >}}
+
+## Practice and Verify
+
+Use a low-value account first. Do not paste a password, recovery code, QR code, or secret key into the record.
+
+1. Open the provider's security page from a saved bookmark.
+2. Record the current factors, recovery contacts, and active sessions.
+3. Add a second factor only after saving a recovery method.
+4. Sign out of a separate browser profile, then sign back in with the new factor.
+5. Revoke the test session from the provider's session list.
+
+> **Expected Result:** the new login asks for the selected factor, the recovery method appears in account settings, and the revoked session loses access after refresh.
+
+If the factor prompt never appears, check whether the provider enrolled the factor for login or recovery only. If session revocation leaves the test session active, wait for the provider's stated delay, refresh, then use the sign-out-all-sessions control. Stop before removing the old factor when no tested recovery path exists.
+
+```text
+REDACTED EXAMPLE
+Account tier:          1, primary email
+Primary factor:        synced passkey
+Fallback:              hardware key
+Recovery copy:         sealed offline, locked location
+Test login:            passed 2026-10-10
+Session revocation:    passed after refresh
+```
+
+**Pass checklist**
+
+- [ ] One unique credential or passkey protects each reviewed account
+- [ ] Every Tier 1 account has a tested factor and a documented recovery path
+- [ ] The record reveals no secrets
+- [ ] A lost device does not remove every authenticator
+- [ ] A stolen session has a documented revocation route
+
+**Primary references, checked 2026-10-10:** [NIST SP 800-63B authentication and recovery](https://pages.nist.gov/800-63-4/sp800-63b.html) and [CISA multifactor authentication guidance](https://www.cisa.gov/secure-our-world/turn-mfa).
 
 ## Next Steps
 

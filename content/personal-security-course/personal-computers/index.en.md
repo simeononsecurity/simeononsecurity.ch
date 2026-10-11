@@ -1,20 +1,20 @@
 ---
 title: "Module 8: Personal Computer Security"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Updates, encryption, and backups matter more than anything else on a desktop. This module covers those three, then least privilege, endpoint integrity, attack surface reduction, and isolation techniques."
+description: "Verify computer encryption, recovery keys, backups, updates, account privilege, listening services, malware protection, and safe isolation with safe rollback."
 genre: ["Personal Security", "Computer Security", "Endpoint Security", "Privacy", "Operating Systems"]
 tags: ["computer security", "endpoint security", "full disk encryption", "bitlocker", "filevault", "luks", "least privilege", "secure boot", "ssh hardening", "rootkit", "keylogger", "usbguard", "virtual machines", "compartmentalization", "mandatory access control", "canary tokens", "personal security course"]
 cover: "/img/cover/personal-computer-security-controls-updates-encryption-backups.webp"
 coverAlt: "An illustration of a modern desktop computer setup showcasing three key security concepts: automatic updates, full disk encryption, and backups, with vibrant colors against a dark background."
-coverCaption: "Module 8: three controls carry most of the weight"
+coverCaption: "Module 8: verify updates, encryption, and backups"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**On a desktop, three controls carry more weight than everything else combined:** updates, disk encryption, and backups. The remaining controls reduce the consequences when one of those three fails.
+**Start a desktop review with updates, disk encryption, and tested backups.** Updates close known flaws. Encryption protects data after powered-off device theft. Backups support recovery after loss, failure, or destructive malware. The remaining controls reduce exposure and limit damage.
 
 This module covers those three first, then least privilege, endpoint integrity, attack surface reduction, and the isolation techniques which matter for readers who run untrusted software.
 
@@ -31,28 +31,28 @@ This module covers those three first, then least privilege, endpoint integrity, 
 
 | Term | Meaning |
 |---|---|
-| **Full disk encryption** | Encrypting the entire volume so a stolen device yields no readable data |
+| **Full disk encryption** | Protecting data at rest when the device is powered off and keys remain unavailable |
 | **Least privilege** | Operating with the minimum rights needed for the task at hand |
 | **Attack surface** | The set of services, ports, and interfaces reachable by an attacker |
 | **Keystroke injection** | A device which presents itself as a keyboard and types commands |
 | **Mandatory access control** | A policy layer which restricts programs beyond file permissions |
 | **Canary token** | A decoy file or credential which alerts you when it is touched |
 
-## The Three Controls Which Matter Most
+## Three Starting Controls
 
 ### 1. Automatic Updates
 
-**Most successful compromises exploit a vulnerability with an available patch.** Update lag is the exploitable window.
+**Supported updates close known flaws and reduce exposure time.** They do not repair stolen credentials, unsafe configuration, or unsupported hardware.
 
 - **Enable automatic updates** for the operating system and restart when prompted
 - **Update applications separately.** Browsers, document readers, and media players are common targets
 - **Include firmware and drivers** where the vendor supports automatic delivery
 
-*A pending restart means a pending vulnerability. Treat the notification as unfinished work rather than an interruption.*
+*A restart prompt might complete an update, driver change, or maintenance task. Read the update status and finish security updates promptly.*
 
 ### 2. Full Disk Encryption
 
-**Encryption converts a stolen device from a data breach into a hardware loss.** Without it, anyone holding the machine reads your vault, your sessions, and your files.
+**Full-disk encryption reduces data exposure after powered-off device theft when keys and recovery methods remain protected.** Without effective encryption, storage might expose files or application data, subject to separate application encryption and account controls.
 
 | Platform | Feature | Where to Check |
 |---|---|---|
@@ -66,7 +66,7 @@ This module covers those three first, then least privilege, endpoint integrity, 
 
 ### 3. Backups
 
-**A tested backup is the only control which survives ransomware, theft, and hardware failure alike.**
+**A tested backup supports recovery from ransomware, theft, and hardware failure.** Account security, encryption, and incident response address different parts of those events.
 
 - **Keep one local copy** for fast restores
 - **Keep one encrypted offsite copy** for fire and theft
@@ -76,17 +76,17 @@ This module covers those three first, then least privilege, endpoint integrity, 
 
 ## Least Privilege on a Desktop
 
-**Most people work as an administrator all day**, which means every process they launch inherits those rights. Least privilege is not a server-only concept.
+**Daily administrator use gives launched processes broad rights.** A standard daily account reduces the authority available to routine applications and mistakes.
 
 | Practice | Why It Matters |
 |---|---|
-| **Use a standard account for daily work** | Malware inherits the account's rights, not the machine's |
+| **Use a standard account for daily work** | Routine processes start with fewer rights, while privilege escalation remains a separate risk |
 | **Elevate only for administrative tasks** | Limits what runs with full rights |
-| **Do not link the machine to a cloud account** | A local account avoids syncing settings and browsing data to a vendor |
+| **Review local and cloud account trade-offs** | Cloud accounts add sync and recovery features plus provider dependency. Local accounts reduce selected sharing but need separate recovery |
 | **Review installed applications** | Fewer applications means fewer update obligations and fewer targets |
-| **Lock the screen on idle** | An unlocked machine is a complete compromise |
+| **Lock the screen on idle** | Reduces casual access while the machine is unattended. Active sessions and unlocked data still need protection |
 
-**Separate accounts are the simplest compartmentalization available.** One account for daily use, one for administrative work, and one for anything untrusted. On Linux and macOS the separation is native. On Windows it requires creating additional local accounts rather than using the built-in administrator.
+**Separate accounts provide one useful compartment boundary.** Use a standard account for daily work and an administrative account for elevation. Windows, macOS, and Linux support separate local accounts, while some platforms also support provider-linked accounts with different sync and recovery behavior.
 
 *The measurement for this module is not how many controls you enabled. It is how much an attacker gains from compromising one account.*
 
@@ -96,33 +96,33 @@ This module covers those three first, then least privilege, endpoint integrity, 
 
 | Control | What It Addresses |
 |---|---|
-| **Built-in platform protections** | Defender, Gatekeeper, or the Linux equivalents, which are adequate for most users |
-| **Avoid commercial free antivirus** | Many monetize telemetry, and some add attack surface rather than reducing it |
-| **Periodic rootkit checks** | Tools such as `chkrootkit` or `rkhunter` on Linux, and vendor tooling elsewhere |
+| **Built-in platform protections** | Defender, Gatekeeper, and distribution security controls provide a supported baseline |
+| **Additional endpoint software** | Evaluate support, detection evidence, privacy terms, accessibility, and compatibility before installation |
+| **Targeted integrity checks** | Use platform logs, security tools, or specialist help after a concrete warning. A periodic scanner result alone does not prove trust |
 | **Watch for hardware keyloggers** | Inspect the connection between keyboard and machine after the device has been unattended |
 | **Guard against keystroke injection** | A device presenting as a keyboard types commands instantly. USB filtering tools address it |
-| **Block camera and microphone physically** | A physical cover defeats software which has already compromised the device |
+| **Use physical camera covers or microphone disconnects where suitable** | A camera cover blocks the lens. Microphone protection requires a hardware disconnect, trusted mute design, or device without a microphone |
 
 ```bash
 # Linux: check what is listening on external interfaces
 ss -tulpn
 
-# Confirm a hardware keystroke filter is active before trusting the machine
-lsusb | head
+# Inventory attached USB devices for comparison with your own baseline
+lsusb
 ```
 
-**Physical access defeats most software controls.** A BIOS or UEFI password raises the effort for casual access, and it does not stop someone with the disk removed. Treat it as friction rather than protection.
+**Physical access threatens a running or unlocked computer.** Full-disk encryption protects powered-off storage when keys stay unavailable. A firmware password adds friction but does not replace encryption or a strong device lock.
 
 *Canary tokens are worth knowing about. A decoy file or credential which alerts you when opened gives early warning something has access it should not. Self-hosted canary services and file-integrity monitoring both implement the idea.*
 
 ## Attack Surface Reduction
 
-**Every listening service is a path in.** The goal is a smaller list, not a longer one.
+**A listening service adds reachable code and configuration.** Keep services with a documented purpose, supported version, and suitable access policy.
 
 | Target | Action |
 |---|---|
 | **Listening ports** | Identify what listens, then disable what you do not use |
-| **SSH** | Disable password authentication in favor of keys, change the default port, and restrict source addresses |
+| **SSH** | Validate key login, then disable password authentication where recovery access exists. Restrict exposure and source addresses |
 | **File and print sharing** | Disable protocols you do not use, especially legacy SMB versions |
 | **Remote access features** | Disable remote desktop and remote assistance unless actively used |
 | **Voice assistants** | Disable or limit always-listening features |
@@ -130,8 +130,9 @@ lsusb | head
 | **Secure Boot** | Keep it enabled, which complicates bootloader tampering |
 
 ```bash
-# Linux: verify SSH will not accept passwords
-grep -E '^PasswordAuthentication|^PermitRootLogin' /etc/ssh/sshd_config
+# Linux: ask sshd for the effective policy, including defaults and included files
+# This read-only command often needs root privileges to access host keys and configuration.
+sudo sshd -T | grep -E '^(passwordauthentication|permitrootlogin) '
 
 # List enabled services to decide what deserves to stay
 systemctl list-unit-files --state=enabled
@@ -150,12 +151,12 @@ systemctl list-unit-files --state=enabled
 | **Separate user account** | Low, shares the kernel | Keeping work and personal data apart |
 | **Container** | Moderate, shares the kernel | Running a service in a defined environment |
 | **Virtual machine** | High, separate kernel | Testing unknown software and browsing risky sites |
-| **Dedicated hardware** | Highest | Any activity you never want correlated with your identity |
+| **Dedicated hardware** | Strong device boundary | Work which needs separation from daily files and accounts. Network, payment, behavior, and identity links still allow correlation |
 | **Mandatory access control** | Orthogonal, restricts programs | Confining applications even after compromise |
 
-**A virtual machine is the practical option for most readers** who want to inspect suspicious files or software. Remember containers share the host kernel, so a kernel vulnerability crosses the boundary. Our analysis of **[why containers are no longer a security boundary](/articles/containers-no-longer-security-boundary-2026/)** covers exactly this failure mode for the 2026 vulnerability families.
+**A virtual machine adds a boundary for controlled testing.** Disable shared folders, clipboard, host integration, and unneeded networking. Take a clean snapshot and delete the test VM afterward. VM escapes and user mistakes still expose the host. A dedicated spare device gives a stronger boundary for high-risk files.
 
-**Mandatory access control** is worth knowing on Linux, where AppArmor or SELinux confines what an application does regardless of its user's rights. Enabling it adds a layer which survives a compromised process.
+**Mandatory access control** is worth knowing on Linux. An enforced AppArmor or SELinux policy limits a process according to defined rules. Coverage, policy quality, kernel security, privileged access, and escape paths bound the protection.
 
 *Compartmentalization is the underlying principle for all five rows. Ask what a compromise of this account or this virtual machine would reach, then reduce it until the answer is acceptable.*
 
@@ -188,9 +189,45 @@ Attack surface:
 
 Integrity:
   Platform protections:  enabled / disabled
-  Rootkit check run:     yes / never
+  Security warnings:     reviewed / unresolved
   Camera cover:          yes / no
 ```
+
+## Practice and Verify
+
+Work from a standard user account. Keep the encryption recovery key and backup outside the computer.
+
+1. Install supported operating-system and application updates.
+2. Confirm full-disk encryption status through the operating-system settings.
+3. Locate the recovery-key record without displaying or copying the key into this worksheet.
+4. Restore one harmless file from backup to a new folder and compare its contents.
+5. List listening services. Identify the owner and purpose of each externally reachable entry.
+6. If SSH is enabled, prove key login in a second session before changing password authentication. Keep the first session open until validation ends.
+
+> **Expected Result:** updates complete, encryption reports active, recovery material is reachable away from the device, the restored file opens correctly, and each listening service has a reason.
+
+If the recovery key is missing, do not trigger a recovery prompt. Follow the vendor backup process first. If an update or service change breaks a needed function, revert the one change through the operating-system history or saved configuration. Never restart SSH after a syntax or key-login failure.
+
+```text
+REDACTED EXAMPLE
+Platform:              Windows 11
+Updates:               current on 2026-10-10
+Disk encryption:       on
+Recovery key:          verified in separate account
+Restore test:          one document opened and matched
+Listening services:    4 reviewed, 4 explained
+Daily account:         standard
+```
+
+**Pass checklist**
+
+- [ ] Encryption status and separate recovery-key access are verified
+- [ ] One file restore succeeded
+- [ ] Daily work uses the intended account privilege
+- [ ] Every reachable service has an owner and purpose
+- [ ] Isolation settings and cleanup match the risk of the tested file
+
+**Primary references, checked 2026-10-10:** [Microsoft BitLocker recovery-key backup](https://support.microsoft.com/en-us/windows/security/encryption/back-up-your-bitlocker-recovery-key), [Apple FileVault guidance](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac), and [CISA ransomware backup guidance](https://www.cisa.gov/resources-tools/resources/stopransomware-guide).
 
 ## Next Steps
 

@@ -1,10 +1,10 @@
 ---
 title: "Module 3: Email Security"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Email is the recovery path for every other account. This module covers address strategy, remote content and tracking pixels, provider selection, third-party access, and what self-hosting genuinely requires."
+description: "Secure email recovery, sessions, forwarding, aliases, remote content, OAuth access, and domain authentication through a provider-aware audit."
 genre: ["Personal Security", "Email Security", "Privacy", "Account Recovery", "Data Protection"]
 tags: ["email security", "email privacy", "tracking pixels", "remote content", "email aliasing", "subaddressing", "custom domain", "anonymous forwarding", "encrypted email", "secure mail provider", "remailer", "openpgp", "self-hosted mail", "spf dkim dmarc", "personal security course"]
 cover: "/img/cover/email-security-strategies-protection-access.webp"
@@ -12,9 +12,9 @@ coverAlt: "An illustration showing a secure email environment with a central inb
 coverCaption: "Module 3: the account which unlocks the others"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**Your email account is the recovery path for everything else.** A password reset goes there. A second-factor fallback goes there. An account takeover notification goes there. Anyone who controls your inbox does not need to break into your other accounts, because they reset their way in.
+**Your email account is a recovery path for many other accounts.** Password resets, fallback links, and takeover alerts often arrive there. Some services use separate recovery methods, so list each important account's real path instead of assuming email controls all of them.
 
 This module covers address strategy, the tracking mechanisms built into mail itself, provider selection, and an honest assessment of self-hosting.
 
@@ -24,55 +24,55 @@ This module covers address strategy, the tracking mechanisms built into mail its
 
 - **Explain** why mailbox compromise grants access to unrelated accounts
 - **Distinguish** aliasing, subaddressing, and separate accounts as three different strategies
-- **Disable** remote content loading, which is the main tracking mechanism in mail
+- **Disable** automatic remote content loading to reduce one mail tracking channel
 - **Evaluate** a provider on encryption, jurisdiction, and recovery policy rather than marketing
 - **Audit** third-party applications with mailbox access
 - **Produce** an email record listing your address strategy, provider, and connected applications
 
 | Term | Meaning |
 |---|---|
-| **Alias** | A distinct address which forwards to your real mailbox, and which you disable individually |
+| **Alias** | An additional address handled under provider-specific delivery, reply, and disable rules |
 | **Subaddress** | A variant of your real address using a `+` suffix, which reveals the original |
 | **Catch-all** | A domain configuration accepting mail to any address at the domain |
-| **Tracking pixel** | A remotely loaded image which reports when a message was opened |
+| **Tracking pixel** | A remote image request used to infer an open when the client fetches the resource |
 | **Third-party access** | An application granted OAuth or IMAP permission to read your mailbox |
 
 ## Why the Mailbox Is the Master Key
 
-**Account recovery almost always routes through email.** This single fact makes the inbox more valuable than any individual account it protects.
+**Many services route recovery through email.** Check each Tier 1 account because provider recovery methods differ.
 
 | Attack | What It Achieves |
 |---|---|
-| **Mailbox takeover** | Password resets for every connected account |
+| **Mailbox takeover** | Password resets for accounts which use this address for recovery |
 | **Read-only mailbox access** | Silent reconnaissance, including which services you use |
 | **Mail rule insertion** | Automatic forwarding or deletion of security notifications |
-| **Recovery address change** | Permanent access even after the victim resets passwords |
+| **Recovery address change** | A persistence path until the account owner or provider removes the change |
 
-**Check your mail rules and forwarding settings today.** A hidden rule which forwards security alerts to an attacker is a common persistence mechanism, and it survives a password change.
+**Check your mail rules and forwarding settings today.** A malicious rule might forward or delete security alerts and remain after a password change.
 
-*Everything in Module 1 assumes the recovery path is intact. If the inbox falls, the vault is one reset away from being useless.*
+*Mailbox compromise threatens accounts which accept the mailbox for recovery. Map those dependencies and secure the mailbox first.*
 
 ## Address Strategy
 
-**One address for everything is the default, and it is the weakest option.** Three strategies improve on it, and they differ in what they reveal.
+**One address for every service creates a shared identifier.** Three strategies change the correlation and recovery trade-offs.
 
 | Strategy | Hides Your Real Address | Tracks Who Leaked It | Cost |
 |---|---|---|---|
 | **Separate accounts** | Yes, for the service | Partially | Multiple inboxes to check |
-| **Aliasing** | **Yes** | **Yes** | A provider or your own domain |
-| **Subaddressing** (`you+service@`) | **No** | Yes | None |
+| **Aliasing** | Often, depending on reply behavior | Helps identify the address used | A provider or your own domain |
+| **Subaddressing** (`you+service@`) | Usually no | Helps identify the address used | None |
 
-**Aliasing is the strongest option.** A unique address per service means spam identifies the source, a single alias is disabled without touching your inbox, and no two services correlate you by address.
+**Unique aliases compartmentalize address reuse.** Subaddressing is easier where supported, but a recipient sees the base address. Alias acceptance, reply behavior, cost, and recovery differ by service.
 
-A related benefit: **mail arriving at an alias you retired is obviously fraudulent**, which turns your own address strategy into a phishing detector.
+A retired alias receiving mail is **a useful review signal**. The sender might have an old record, a forwarded message, or a leaked address. Inspect the message before labeling the sender fraudulent.
 
-*If you own a domain, a catch-all gives you unlimited aliases at no cost, and it lets you change providers without changing your address. The portability is the strongest argument for owning the domain.*
+*A personal domain provides address portability. Alias and catch-all support, limits, and fees depend on the registrar and mail provider. A catch-all also receives mistyped addresses and more unwanted mail.*
 
 ## Remote Content and Tracking Pixels
 
-**A single remotely loaded image reports the message was opened**, along with your IP address, client, and timestamp. Marketers use this to build engagement profiles, and so does anyone else with access to the same technique.
+**A remote image request might expose a fetch time, network address, or client detail.** Proxying, caching, privacy relays, and manual loading change which party sees which data. A fetch supports an open inference rather than proof a person read the message.
 
-**Disable automatic remote content loading in your mail client.** This is one setting, it breaks nothing important, and it removes the mechanism entirely.
+**Disable automatic remote content loading where the client supports the setting.** This reduces direct tracking requests. Some providers proxy images, and links, forms, and reply behavior still reveal activity.
 
 Two related practices:
 
@@ -91,15 +91,15 @@ Evaluate against these rather than marketing claims:
 | **Data retention** | How long deleted mail persists in backups |
 | **Third-party access control** | Whether you control which apps read your mailbox |
 
-**Mainstream providers are not equivalent.** Some scan message content to build advertising profiles, and some have granted broad third-party access to mailbox contents. Choosing a provider which sells no advertising removes the incentive entirely.
+**Provider designs differ.** Compare key control, advertising use, retention, recovery, export, legal jurisdiction, accessibility, and third-party access. A no-advertising model removes one incentive, but does not prove security or privacy quality.
 
 ## Third-Party Access and Template Leakage
 
-**An application with mailbox access reads everything, not only the messages it needs.** Sign-in prompts offering to connect a tool to your mail grant the tool full read scope in most implementations.
+**Third-party access grants the authority shown during consent.** OAuth scopes range from profile details to broad mail read, edit, or send rights. IMAP clients often receive broad mailbox access. Review the exact grant instead of assuming one scope.
 
 Audit this in two places:
 
-1. **Your mail provider's connected applications list**, where OAuth grants accumulate and are rarely reviewed.
+1. **Your mail provider's connected applications list**, where old OAuth grants might remain until revoked.
 2. **Your mail client's add-ins**, which run with the client's own privileges.
 
 Two leakage channels which get far less attention:
@@ -109,7 +109,7 @@ Two leakage channels which get far less attention:
 | **Auto-reply messages** | Travel dates, absence from a property, temporary contact details, and job responsibilities |
 | **Mail signatures** | Job title, direct number, employer structure, and internal project names |
 
-*An out-of-office reply is a public statement your home is empty and you are not checking messages. Keep it to dates and an alternative contact.*
+*An out-of-office reply exposes the absence details you include. Keep the reply to the minimum dates and contact route needed for the audience.*
 
 ## Self-Hosting: An Honest Assessment
 
@@ -118,9 +118,9 @@ Two leakage channels which get far less attention:
 The technical setup is achievable. The operational burden is the problem:
 
 - **Deliverability depends on reputation**, which requires correct SPF, DKIM, and DMARC records and a sending history which receivers trust.
-- **Availability is on you.** If your server is down, mail is not queued politely, it is refused.
+- **Availability is on you.** SMTP servers often retry temporary failures, but retry windows and sender behavior vary.
 - **Abuse handling is on you**, including bot attempts to relay through your server.
-- **Redundancy requires planning**, typically at least two MX records with a documented priority order.
+- **Redundancy requires planning.** One reliable MX service is valid. A second MX helps only when its filtering, authentication, and queue behavior match the design.
 
 Two reliability items belong in any self-hosted deployment:
 
@@ -128,10 +128,10 @@ Two reliability items belong in any self-hosted deployment:
 # Check your mail authentication records before sending anything
 dig +short TXT example.com              # SPF
 dig +short TXT _dmarc.example.com       # DMARC policy
-dig +short MX example.com               # at least two, ordered by preference
+dig +short MX example.com               # confirm expected hosts and priorities
 ```
 
-**If you are not prepared to maintain this, use a reputable provider and put the effort into aliasing instead.** A managed provider with a good privacy posture and unique aliases beats a misconfigured self-hosted server on every axis which matters here.
+**If you are not prepared to maintain this, compare managed providers.** Review account recovery, export, encryption key control, retention, alias support, accessibility, cost, and domain portability. No provider leads on every measure.
 
 *If you do not self-host, the portability argument returns: owning the domain means you change providers without changing your address, which is the part which matters over a decade.*
 
@@ -156,6 +156,42 @@ Third-party access (review and revoke):
 ```
 
 {{< figure src="email-aliasing-versus-subaddressing-comparison.webp" alt="Diagram comparing a single email address, subaddressing, and per-service aliases, showing which strategies hide the real address and which reveal who leaked it" >}}
+
+## Practice and Verify
+
+Use your provider's current settings pages. Labels differ across Gmail, Outlook, Fastmail, Proton Mail, and self-hosted systems.
+
+1. Review forwarding rules, filters, delegates, active sessions, and recovery contacts.
+2. Open every connected app and read its granted OAuth scope. Revoke one unused grant.
+3. Send a harmless message from a second account to a new alias or subaddress.
+4. Confirm delivery, reply behavior, and the address exposed in the reply.
+5. Disable automatic remote content, reopen the test message, then load images for the test message only.
+6. For a personal domain, verify SPF, DKIM, and DMARC results in the received headers. Export current DNS records before editing them.
+
+> **Expected Result:** no unknown forwarding or delegate remains, the test address works as documented, remote content waits for consent, and authentication results match the provider's setup guide.
+
+If the alias fails, restore the prior route and check provider limits, domain verification, and reply-from support. If DMARC fails, keep policy unchanged while checking identifier alignment, not only raw SPF or DKIM pass results.
+
+```text
+REDACTED EXAMPLE
+Provider:              managed provider
+Alias test:            delivered and replied from alias
+Remote content:        blocked by default
+Unknown rules:         none
+OAuth grant removed:   old calendar tool, mail scope present
+SPF/DKIM/DMARC:        pass / pass / pass
+Rollback:              prior DNS export stored
+```
+
+**Pass checklist**
+
+- [ ] Recovery, sessions, forwarding, filters, and delegates received review
+- [ ] Each connected app has a necessary and understood scope
+- [ ] Address behavior was tested instead of assumed
+- [ ] Domain authentication matches the current provider guide
+- [ ] A migration rollback keeps the old mailbox available until test mail passes
+
+**Primary references, checked 2026-10-10:** [Google account access for third-party apps](https://support.google.com/accounts/answer/14013600), [Gmail security checks](https://support.google.com/mail/answer/7036019), and [RFC 9989 DMARC](https://www.rfc-editor.org/info/rfc9989/).
 
 ## Next Steps
 

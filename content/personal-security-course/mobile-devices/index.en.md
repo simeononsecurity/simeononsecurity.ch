@@ -1,10 +1,10 @@
 ---
 title: "Module 7: Mobile Device Security"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A phone is a sensor platform which travels with you. This module covers carrier-level protections including SIM swap defense, permission and app inventory, stalkerware detection, and why the keyboard matters."
+description: "Audit phone permissions, backups, carrier protections, linked devices, and emergency access on current iOS and Android without unsafe resets."
 genre: ["Personal Security", "Mobile Security", "Privacy", "Android", "iOS"]
 tags: ["mobile security", "phone privacy", "sim swap", "carrier pin", "app permissions", "stalkerware", "juice jacking", "mobile firewall", "custom keyboard privacy", "android privacy", "ios privacy", "custom rom", "location tracking", "personal security course"]
 cover: "/img/cover/mobile-device-security-app-permissions-sim-pin.webp"
@@ -12,13 +12,13 @@ coverAlt: "A smartphone surrounded by icons of security features like app permis
 coverCaption: "Module 7: the phone travels with you"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**A phone is a sensor platform which travels with you.** It knows your location continuously, holds a camera and two microphones, carries your authenticated sessions, and receives your second-factor codes. Losing control of it compromises almost everything in Module 1.
+**A phone is a sensor platform which travels with you.** Depending on settings and use, apps and services derive location, access cameras or microphones, hold authenticated sessions, and receive second-factor codes. Losing control threatens accounts connected to exposed sessions and recovery paths.
 
-This module covers the carrier layer, which most guides skip, then permissions, app inventory, stalkerware, and the input methods people never think about.
+This module covers carrier controls, permissions, app inventory, stalkerware safety, privileged services, and input methods.
 
-*Budget about 30 minutes. The SIM PIN and the permission audit are the two highest-yield actions.*
+*Budget about 30 minutes. Review carrier controls and app permissions first.*
 
 ## What You Will Learn
 
@@ -32,9 +32,9 @@ This module covers the carrier layer, which most guides skip, then permissions, 
 | Term | Meaning |
 |---|---|
 | **SIM swap** | Moving your number to another SIM, which redirects calls and messages |
-| **Carrier PIN** | A passcode required before a provider changes your SIM or plan |
+| **Carrier PIN** | A provider-specific account control used during selected support or transfer actions |
 | **Juice jacking** | Data theft through a charging cable which also carries data |
-| **Stalkerware** | Monitoring software installed by someone with physical device access |
+| **Stalkerware** | Monitoring software or account access used for covert, persistent surveillance of another person |
 | **Sandboxing** | Isolating an app so it cannot read other apps' data |
 
 ## Why the Phone Deserves Its Own Module
@@ -43,13 +43,13 @@ This module covers the carrier layer, which most guides skip, then permissions, 
 
 | Property | Consequence |
 |---|---|
-| **Continuous location** | Movement patterns are recorded, and location is inferable without GPS |
+| **Location signals** | Apps, services, networks, and sensors might record or infer movement when access and collection are active |
 | **Always-present sensors** | Camera, microphone, accelerometer, and Bluetooth radios |
-| **It receives your second factors** | SMS and push codes arrive here, so compromise escalates to every account |
+| **Second-factor delivery** | SMS and push approvals might expose accounts which rely on this phone |
 
-**The third property is the one to internalize.** A phone is not only a device holding your data. It is the delivery mechanism for the factor protecting your other accounts, which is why the carrier layer matters so much.
+**Second-factor delivery creates account dependencies.** A phone might receive SMS codes, push approvals, email, or synced passkeys for selected accounts. Map which accounts depend on the device or number.
 
-*This is also why Module 1 recommends passkeys and hardware keys over SMS. Moving the factor off the phone removes an entire attack path.*
+*Module 1 recommends phishing-resistant authentication where supported. A passkey might remain on or sync through the phone. A separate hardware key adds another authenticator and recovery option.*
 
 ## The Carrier Layer
 
@@ -57,34 +57,34 @@ This module covers the carrier layer, which most guides skip, then permissions, 
 
 ### Set a Carrier PIN
 
-**This is the single most valuable phone action and it takes about ten minutes.**
+**Start by reviewing the controls your carrier offers.**
 
-A carrier PIN is a passcode your provider requires before changing your SIM, porting your number, or altering your plan. Without it, an attacker who knows your personal details convinces a support agent to move your number to their device. With it, the conversation fails.
+A carrier account PIN or number-transfer PIN adds a check to selected support and transfer workflows. Names, coverage, expiration, and reset paths differ by provider. Support-process failure still creates risk, so confirm the exact rules with your carrier.
 
 | Attack | Effect Without a PIN | Effect With a PIN |
 |---|---|---|
-| **SIM swap** | Attacker receives your calls and SMS | Blocked at the provider |
-| **Number porting** | Your number moves to another carrier | Requires the passcode |
-| **Account recovery** | SMS-based recovery routes to the attacker | Recovery codes stay with you |
+| **SIM swap** | Attacker receives your calls and SMS | Adds provider-specific verification |
+| **Number porting** | Your number moves to another carrier | Adds transfer controls where supported |
+| **Account recovery** | SMS-based recovery might route to the attacker | Carrier controls do not protect separately stored recovery codes |
 
 Two supporting steps:
 
-- **Port-freeze your number** where the provider offers it, which blocks unauthorized transfers
+- **Request a port lock or number lock** where the provider offers one. Confirm covered transfer paths and reset rules
 - **Reduce your number's exposure**, since it is both a tracking identifier and a link between datasets
 
-**A secondary number or virtual number for account recovery is worth considering** if you register with many services. Keeping the recovery number separate from the number you publish limits what a single compromise reaches.
+**A separate recovery number has trade-offs.** Some services reject virtual numbers. Providers recycle numbers after closure, and inactivity rules differ. Prefer a phishing-resistant factor or saved recovery code where the account offers one.
 
-*This connects directly to Module 1. SMS as a second factor is only as strong as the carrier protections behind it.*
+*This connects directly to Module 1. SMS security depends on the provider workflow, device access, phishing resistance, message handling, and carrier account controls.*
 
 ## Permissions and App Inventory
 
-**Every installed app is code with a set of granted permissions**, and most people have never reviewed the list.
+**Every installed app is code with granted capabilities.** Review the list after major updates and when an app changes purpose.
 
 ### Start With the Inventory
 
-- **Uninstall what you do not use.** An unused app still holds its permissions and still runs in the background
+- **Uninstall what you do not use.** An unused app might retain permissions, local data, background privileges, or vulnerable code
 - **Prefer official app stores**, where applications are reviewed and cryptographically signed, though review is not a guarantee
-- **Prefer the browser over a dedicated app** for services you use occasionally, since a website receives no standing permissions
+- **Compare a website with a dedicated app** for occasional use. Browsers scope site permissions and storage, while installed apps receive platform permissions and background rights. Both retain selected state
 
 ### Then Audit Permissions
 
@@ -101,13 +101,13 @@ Two supporting steps:
 Two further steps reduce background collection:
 
 - **Restrict background activity** per app, which limits both battery drain and data collection
-- **Disable connectivity you are not using.** Bluetooth, WiFi, and NFC left enabled are all continuously broadcast
+- **Disable connectivity you do not need.** Modern phones rotate or limit some radio identifiers, yet active radios still expand discovery and connection paths
 
-*Restarting the device weekly clears in-memory state and is a low-cost habit worth keeping.*
+*A restart clears selected in-memory state and interrupts some temporary activity. A restart does not remove installed malware or repair a compromised account.*
 
 ## Stalkerware
 
-**Stalkerware is monitoring software installed by someone with access to your device**, frequently a partner or former partner. It differs from other malware because the attacker is known to you.
+**Stalkerware describes covert monitoring used in an abuse context.** Access might come from a device installation, shared cloud account, family plan, linked service, or compromised credential. The person responsible might be known or unknown.
 
 Indicators worth noticing:
 
@@ -116,30 +116,30 @@ Indicators worth noticing:
 - **Settings you did not change**, particularly accessibility services and device administrators
 - **Someone showing knowledge of your activity** which they should not have
 
-**Check accessibility services and device administrators directly.** Stalkerware frequently uses accessibility permissions, which are broad and easy to overlook.
+**Check accessibility services and device administrators directly.** Some stalkerware abuses these broad permissions. Account and cloud access might leave no unfamiliar app on the device.
 
-> **Warning: do not remove stalkerware on a device you believe is monitored without a safety plan. Removal is often detectable, and the person who installed it often escalates. Consider using a different device to seek advice before acting.**
+> **Warning: do not remove suspected stalkerware without a safety plan. Removal or account changes might be visible to the person monitoring the device and might affect safety or evidence. Use a safer device to seek specialist advice before acting.**
 
-*The correct response to suspected stalkerware on a device you control is often a factory reset rather than an uninstall, since a reset is more thorough. Follow it with a new passcode the other person has never seen.*
+> **Safety first:** if a current or former partner might monitor the phone, use a safer device to contact a domestic violence or survivor-support service. Sudden removal, a password change, or a reset might alert the person or destroy evidence. Plan account separation, evidence needs, and emergency contact before changing the device.
 
 ## Input Methods and Physical Ports
 
-**The keyboard sees everything you type**, including passwords before they reach the vault.
+**A third-party keyboard processes text entered through the keyboard.** Password fields and secure input receive different handling across operating systems and apps, so review the platform rules before granting full access.
 
 | Input Method | Consideration |
 |---|---|
 | **Stock keyboard** | Maintained by the platform vendor and covered by system updates |
-| **Third-party keyboard** | Receives every keystroke, including passwords. Some also serve ads |
+| **Third-party keyboard** | Handles ordinary input under platform rules. Secure fields and network access differ by operating system and keyboard |
 | **Cloud-based prediction** | Sends context to a server to improve suggestions |
 
-**Use the stock keyboard, or a third-party keyboard with a genuine reputation and cloud features disabled.** The convenience gain rarely justifies the exposure.
+**Choose a keyboard from platform permissions, network behavior, update support, accessibility, and privacy terms.** Disable cloud features which do not serve your needs.
 
 Two physical considerations:
 
 - **Avoid public charging ports where possible.** A USB port carries data as well as power, so prefer your own adapter or a power-only cable
-- **Enable erase-after-failed-attempts** if the platform supports it, which limits the value of a stolen locked device
+- **Evaluate erase-after-failed-attempts** if the platform supports the control. The setting limits repeated guessing but adds accidental loss and denial-of-service risk
 
-*Combined with Module 1's guidance on avoiding four-digit PINs, these two settings make a stolen phone substantially less useful to whoever holds it.*
+*A longer device credential, current encryption, lock state, recovery controls, and the chosen erase setting jointly affect theft risk.*
 
 {{< figure src="mobile-device-carrier-permission-risk-layers.webp" alt="Diagram showing mobile security layers from the carrier SIM protections at the bottom through operating system encryption, app permissions, and input methods such as keyboards" >}}
 
@@ -170,10 +170,46 @@ Accessibility services reviewed: yes / no
 Keyboard:                stock / third-party: __________
 ```
 
+## Practice and Verify
+
+Use the current iOS or Android settings search because device makers rename menus.
+
+1. Confirm the operating-system version, update status, screen lock, and backup date.
+2. On iPhone, review Privacy and Security, App Privacy Report, and Safety Check where available. On Android, review Privacy Dashboard, Permission Manager, and backup settings.
+3. Remove one unneeded permission. Reopen the app and test its main task.
+4. Review account devices, accessibility services, device administrators, keyboards, VPNs, and management profiles.
+5. Ask the carrier which account PIN, transfer PIN, port lock, and recovery controls apply. Record the official support page and date.
+6. Confirm emergency contacts and one recovery route from a safer second device.
+
+> **Expected Result:** the phone stays usable, the changed app completes its main task, backup status is current, and no unknown privileged service or account device remains.
+
+If an app breaks, restore the single permission, then choose a less precise or while-in-use option where available. If abuse or stalkerware is suspected, stop the exercise. Use a safer device and a specialist safety plan before removing software, resetting accounts, or erasing evidence.
+
+```text
+REDACTED EXAMPLE
+Platform/version:      Android [version removed]
+Backup date:           2026-10-09
+Permission changed:    shopping app, precise to approximate
+Function retest:       passed
+Privileged services:   expected only
+Carrier controls:      account PIN yes, transfer PIN expires
+Emergency access:      trusted contact reviewed
+```
+
+**Pass checklist**
+
+- [ ] Update, lock, backup, recovery, and account-device status are recorded
+- [ ] Permission changes have a function retest
+- [ ] Accessibility, administrators, keyboards, VPNs, and profiles contain no unknown entry
+- [ ] Carrier behavior comes from current provider guidance
+- [ ] A survivor-safety plan replaces abrupt device changes when monitoring is suspected
+
+**Primary references, checked 2026-10-10:** [Apple Safety Check](https://support.apple.com/guide/personal-safety/ips2aad835e1/web), [Android Privacy Dashboard](https://support.google.com/android/answer/13530434), [Android backup and restore](https://support.google.com/android/answer/12461238), and [FCC SIM-swap and port-out proceeding](https://docs.fcc.gov/public/attachments/FCC-21-102A1.pdf).
+
 ## Next Steps
 
 1. **Continue to Module 8** and secure the machine your accounts and files live on: **[Personal Computer Security](/personal-security-course/personal-computers/)**
-2. **Set a carrier PIN and port freeze today.** This is the highest-value ten minutes in the module
+2. **Review carrier account and transfer controls** through the provider's official support path
 3. **Audit accessibility services and device administrators** for anything you did not enable
 4. **Switch location permissions to approximate** for apps which do not need precision
 5. **Review your keyboard** and disable cloud prediction if you keep a third-party one

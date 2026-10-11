@@ -1,10 +1,10 @@
 ---
 title: "Module 4: Secure Messaging"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "End-to-end encryption protects content, not metadata. This module covers how to evaluate a messenger, why group chats multiply risk, and what your provider still learns about you."
+description: "Compare secure messengers by encryption, metadata, backups, linked devices, contact verification, and recovery through a repeatable test with clear evidence."
 genre: ["Personal Security", "Secure Messaging", "Privacy", "Encryption", "Communications"]
 tags: ["secure messaging", "end-to-end encryption", "e2ee", "signal", "forward secrecy", "metadata", "group chat security", "ephemeral messages", "defang urls", "messaging privacy", "anonymous messaging", "decentralized messaging", "self-destructing messages", "personal security course"]
 cover: "/img/cover/secure-messaging-end-to-end-encryption-metadata-risks.webp"
@@ -12,11 +12,11 @@ coverAlt: "An illustration of a smartphone showing encrypted chat bubbles, surro
 coverCaption: "Module 4: content is encrypted, context often is not"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**End-to-end encryption protects what you say, not who you spoke to.** This distinction defines the whole module. A messenger which encrypts every message perfectly still hands your provider a record of every conversation partner, every timestamp, and every group you belong to.
+**End-to-end encryption protects message content in transit between endpoints.** Provider access to participants, timestamps, groups, and network data depends on protocol design, routing needs, logging, retention, and endpoint behavior.
 
-This module covers how to evaluate a messenger on properties rather than reputation, why metadata deserves separate attention, and why group chats raise risk faster than message content ever does.
+This module covers how to evaluate a messenger on properties rather than reputation, why metadata deserves separate attention, and how each group-chat participant adds endpoints and disclosure opportunities.
 
 *Budget about 20 minutes. Messenger choice is a single decision with long-lasting consequences.*
 
@@ -31,42 +31,42 @@ This module covers how to evaluate a messenger on properties rather than reputat
 
 | Term | Meaning |
 |---|---|
-| **End-to-end encryption** | Content encrypted on your device and decrypted only on the recipient's |
-| **Transport encryption** | Protection between you and the server, which the server reads past |
+| **End-to-end encryption** | Content protected between authorized conversation endpoints, including linked devices and group recipients |
+| **Transport encryption** | Protection for data moving across one connection, without proving who holds plaintext at either end |
 | **Metadata** | Information about a message rather than its content, including participants and timing |
-| **Forward secrecy** | A fresh key per message, so a stolen key does not expose earlier traffic |
+| **Forward secrecy** | A protocol property designed to limit exposure of earlier traffic after later key compromise |
 | **Ephemeral message** | Content configured to delete itself after a set period |
 | **Cloud companion** | A web or desktop client which keeps message history on a server |
 
 ## The Three Properties of a Secure Messenger
 
-**A messenger earns trust through three properties, and a failure in any one of them undermines the other two.**
+**Evaluate encryption behavior, available implementation evidence, and maintenance separately.** Source access supports inspection. Audits and protocol behavior provide stronger evidence than repository availability alone.
 
 | Property | Why It Matters | How to Verify |
 |---|---|---|
-| **End-to-end encryption by default** | Opt-in encryption means most conversations are unprotected | Check whether the app encrypts without configuration |
-| **Open source** | Independent review is the only way to find backdoors and flaws | Look for a public repository and recent commits |
-| **Actively maintained** | Unpatched software becomes the vulnerability | Check release dates within the last year |
+| **End-to-end encryption by default** | Protection applies without a user enabling a special mode | Check whether ordinary chats encrypt without configuration |
+| **Open source** | Public code supports inspection, but does not prove a review occurred | Look for source, build details, audits, and issue handling |
+| **Actively maintained** | Security fixes and platform support need an ongoing release process | Check supported versions, advisories, releases, and unresolved issues |
 
-**Default matters more than capability.** A messenger which supports end-to-end encryption but leaves it off for ordinary conversations protects almost nobody, because almost nobody enables it.
+**Default encryption protects ordinary conversations without setup.** Opt-in encryption depends on each participant choosing the protected mode and understanding which chats use encryption.
 
-*Ask the second question before the first. A platform is sometimes open source and abandoned, which is worse than closed and maintained, because you see the flaws and cannot get them fixed.*
+*Source availability and maintenance answer different questions. Record both, along with audits, advisories, and supported versions.*
 
 ## Metadata Is the Unencrypted Part
 
-**Your provider does not need to read your messages to learn a great deal about you.** The delivery record is enough.
+**Delivery metadata supports inferences even when content stays encrypted.** The available fields and inference quality depend on protocol design, retention, network visibility, and outside data.
 
 | Metadata | What It Reveals |
 |---|---|
-| **Participants** | Your social graph, including relationships you keep separate |
-| **Timing** | When you are awake, working, travelling, or asleep |
-| **Frequency** | Which relationships are active and which have lapsed |
-| **Duration** | Whether a conversation was a message or a call |
-| **Group membership** | Associations you have not disclosed elsewhere |
+| **Participants** | Possible relationship links among visible accounts or identifiers |
+| **Timing** | Possible activity patterns when events are retained |
+| **Frequency** | Possible changes in communication patterns |
+| **Duration** | A distinction between some call and message events when recorded |
+| **Group membership** | Possible associations among visible group members |
 
-**This is why anonymous platforms matter for some users and not others.** If your threat model includes an adversary able to compel the provider, metadata is the exploitable part, because providers hold it in plaintext to route messages at all.
+**This is why metadata design matters for some users more than others.** A service needs some routing data while delivering a message. The protocol decides which fields appear, and the retention policy decides what persists afterward.
 
-*A provider cannot route a message without knowing the destination. This is the structural reason metadata survives every encryption improvement.*
+*Signal's sealed-sender design shows the distinction. The service receives delivery information while reducing sender visibility. Timing and IP correlation still need separate analysis.*
 
 ## Evaluating a Platform
 
@@ -82,13 +82,13 @@ Work through this rather than adopting whatever your contacts happen to use.
 | **Group behaviour** | Membership changes visible to members | Silent participant additions |
 | **Metadata retention** | Minimized and documented | Undisclosed |
 
-**A funded, open protocol maintained by a nonprofit holds the strongest structural position**, because it has no advertising incentive to profile you and no shareholder pressure to monetize metadata.
+**Ownership type does not decide privacy quality.** Compare protocol design, independent assessments, business incentives, legal jurisdiction, data retention, incident response, and observed behavior.
 
 ## Group Chats Multiply Risk
 
-**Risk scales with participants, and it scales faster than linearly.**
+**Each participant adds endpoints, recipients, and opportunities for disclosure.**
 
-A two-person conversation requires both parties to be trustworthy. A ten-person group requires all ten, plus everyone who has ever left it, plus everyone who photographed a message before leaving.
+A two-person conversation depends on two current endpoints and recipients. A ten-person group creates more endpoints, recipients, notification surfaces, and capture opportunities. Former members might retain content received before removal.
 
 Practical rules:
 
@@ -97,15 +97,15 @@ Practical rules:
 - **Assume anything shared in a group is permanent**, regardless of the ephemeral setting
 - **Check whether history is shared with new members** when they join
 
-*Ephemeral messages protect against device seizure. They do not protect against a participant photographing a screen, which is the far more common leak.*
+*Ephemeral messages reduce retained content on supported endpoints. They do not remove notifications, backups, linked-device copies, captures, or a recipient's saved record.*
 
 ## Practical Hygiene Before You Send
 
 Two habits remove real risk and take seconds:
 
-**Defang links before sharing them.** A URL shared in a chat is often auto-previewed, which means the service fetches the page on your behalf and associates your account with the visit. Converting `https://` to `hxxps://` and dots to `[.]` prevents the preview while leaving the destination readable to a human.
+**Check link-preview behavior before sharing a sensitive URL.** Some apps fetch previews from the device. Others proxy the request or disable previews. Defanging with `hxxps://` and `[.]` often suppresses automatic linking, but app behavior differs. Confirm the preview state before sending.
 
-**Strip metadata from media.** A photograph carries GPS coordinates, a timestamp, and often a device identifier. This matters most for images taken at home.
+**Inspect metadata before sending media.** A photograph might contain location, time, device, or editing fields. Capture settings and app processing might omit or strip those fields.
 
 Both are covered by local tools which never upload the content:
 
@@ -115,7 +115,7 @@ Both are covered by local tools which never upload the content:
 | **Check what an image exposes** | **[EXIF Viewer](/exif-viewer/)** |
 | **Inspect a link before opening it** | **[URL Parser and Query Analyzer](/url-parser/)** |
 
-*A preview request is an outbound connection attributable to your account. Defanging prevents it without hiding anything from the recipient.*
+*Record whether your app generates previews on-device, through a proxy, or not at all. Treat defanging as a handling convention, then verify its result in the selected app.*
 
 ## The Messaging Record
 
@@ -141,11 +141,46 @@ Groups I belong to (review membership):
 
 {{< figure src="messaging-encryption-content-versus-metadata.webp" alt="Diagram separating encrypted message content from unencrypted metadata including participants, timing, and group membership, showing what a provider still retains" >}}
 
+## Practice and Verify
+
+Run this exercise with a consenting contact. Do not use sensitive content.
+
+1. Read the messenger's current encryption, backup, metadata, and linked-device documentation.
+2. Review linked devices and remove an old or unknown entry.
+3. Compare a contact verification code through an in-person or separate trusted channel.
+4. Send a harmless test message, enable a short disappearing timer, and observe both devices.
+5. Inspect backup settings and write what a lost phone would remove or preserve.
+6. Revoke the test linked device and confirm the device stops receiving new messages.
+
+> **Expected Result:** the contact identity verifies, only expected devices stay linked, timer behavior matches documentation, and the revoked device stops receiving new content.
+
+If verification codes differ, stop sensitive conversation and confirm each person opened the correct contact. A legitimate device change might rotate identity material. If the revoked device still receives content, reconnect the primary device, update both apps, and use the provider's account-compromise steps.
+
+```text
+REDACTED EXAMPLE
+Messenger/version:     Signal [version removed]
+Default E2EE:          documented yes
+Contact verified:      QR compared in person
+Linked devices:        2 expected, 1 old desktop removed
+Backup choice:         encrypted backup, key held offline
+Lost-device route:     replace primary, review linked devices
+```
+
+**Pass checklist**
+
+- [ ] Protocol, retention, backup, and linked-device behavior have current sources
+- [ ] One contact verification succeeded through a separate trusted channel
+- [ ] Every linked device is recognized and authorized
+- [ ] The recovery plan covers a lost primary device
+- [ ] The record distinguishes delivery data from retained provider data
+
+**Primary references, checked 2026-10-10:** [Signal sealed sender design](https://signal.org/blog/sealed-sender/), [Signal safety number updates](https://signal.org/blog/safety-number-updates/), and [Signal secure backups](https://signal.org/blog/introducing-secure-backups/).
+
 ## Next Steps
 
 1. **Continue to Module 5** and reduce what your public profile reveals: **[Social Media Privacy](/personal-security-course/social-media/)**
 2. **Turn on disappearing messages** for conversations which do not need history
-3. **Verify contacts** in your primary messenger, which is the step most people skip
+3. **Verify a contact** through an in-person or separate trusted channel
 4. **Defang your next shared link** with the **[IOC Defang tool](/ioc-defang-refang/)**
 5. **Check photo metadata** before posting with the **[EXIF Viewer](/exif-viewer/)**
 6. **Review your group memberships** and remove anyone inactive

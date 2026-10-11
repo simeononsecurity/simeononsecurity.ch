@@ -1,20 +1,20 @@
 ---
 title: "Module 6: Home Network Security"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Your router is the boundary between your devices and the internet. This module covers a hardening sequence, what a VPN does and does not change, DNS privacy versus integrity, and how WiFi networks get catalogued."
+description: "Back up and harden a home router, then test WiFi, guest, IoT, IPv6, DNS, VPN, and inbound access with a safe rollback plan through repeatable checks."
 genre: ["Personal Security", "Network Security", "Router Hardening", "Privacy", "WiFi"]
 tags: ["network security", "router hardening", "wifi security", "wpa3", "vpn", "dns over https", "dns privacy", "upnp", "wps", "ssid", "guest network", "wireguard", "openvpn", "wigle", "dns leak", "port forwarding", "personal security course"]
 cover: "/img/cover/home-network-security-router-devices-illustration.webp"
 coverAlt: "An illustration of a modern home network with a glowing router at the center, surrounded by smart devices and abstract representations of the internet, all on a dark background with vibrant colors."
-coverCaption: "Module 6: every device trusts the router"
+coverCaption: "Module 6: review the router trust boundary"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**The router is the boundary between your devices and the internet.** It decides what reaches your network, what your devices reach, and which of them talk to each other. Everything downstream inherits its configuration.
+**The router enforces a boundary between your devices and the internet.** Router and firewall policy shape inbound, outbound, and local traffic. Device firewalls, direct cellular links, virtual private networks, and application controls form additional boundaries.
 
 This module covers a hardening sequence in priority order, what a VPN genuinely changes, the two separate problems hiding under "secure DNS", and how your WiFi network gets catalogued by strangers.
 
@@ -31,7 +31,7 @@ This module covers a hardening sequence in priority order, what a VPN genuinely 
 
 | Term | Meaning |
 |---|---|
-| **NAT** | Address translation which hides internal addresses behind one public address |
+| **NAT** | Address translation between internal and external networks. Firewall policy provides the security decision |
 | **UPnP** | A protocol letting applications request inbound port mappings automatically |
 | **WPS** | A push-button pairing method with a long history of weaknesses |
 | **DNS leak** | DNS queries leaving through a different path than your tunnel |
@@ -40,17 +40,17 @@ This module covers a hardening sequence in priority order, what a VPN genuinely 
 
 ## The Router Is the Boundary
 
-**Default configurations favor convenience over safety**, and every convenience feature is an inbound path.
+**Default configurations vary by vendor.** Review exposed services, update policy, credentials, and remote management instead of treating NAT or the router's WAN address as proof of a reachable admin service.
 
-Three categories of problem account for nearly all home network compromise:
+Start the review with three common problem categories:
 
 | Category | Examples | Consequence |
 |---|---|---|
 | **Credential weakness** | Default admin password, weak WiFi passphrase | Direct access to the network |
-| **Convenience services** | UPnP, WPS, remote administration, cloud management | Attacker-chosen inbound access |
+| **Convenience services** | UPnP, WPS, remote administration, cloud management | Additional access paths when exposed, misconfigured, or compromised |
 | **Stale software** | Unpatched router firmware | Exploitation of known vulnerabilities |
 
-*The router is the single device on your network which is both permanently internet-facing and rarely updated. The combination is why it belongs in the first hour of work rather than the last.*
+*A router processes traffic between the home network and the internet. WAN exposure, management access, automatic updates, and support life differ by model and provider.*
 
 ## A Hardening Sequence
 
@@ -59,18 +59,18 @@ Three categories of problem account for nearly all home network compromise:
 ### 1. Credentials
 
 - **Change the admin password** before anything else. Default router credentials are published and indexed
-- **Use WPA3 where supported**, falling back to WPA2. Both are acceptable, and neither is safe with a weak passphrase
+- **Use WPA3 where supported**, or WPA2 with AES or CCMP. Review WPA2/WPA3 transition mode because legacy compatibility changes downgrade exposure
 - **Use a long passphrase** rather than a short complex string, following Module 1's reasoning
 
 ### 2. Remove the Convenience Back Doors
 
 | Feature | Risk | Action |
 |---|---|---|
-| **WPS** | PIN brute force and push-button abuse | Disable |
+| **WPS** | PIN mode has known brute-force risk. Push-button mode permits enrollment during its active window | Disable when unused |
 | **UPnP** | Applications open inbound ports without your knowledge | Disable unless a specific device requires it |
 | **Remote administration** | Router admin panel reachable from the internet | Disable |
 | **Cloud management** | Vendor-held control plane over your router | Disable if you do not use it |
-| **Telnet and unused services** | Command-line access with weak or no authentication | Disable |
+| **Telnet and unused services** | Telnet sends session data without transport encryption. Unused services add attack surface | Disable |
 
 ### 3. Firmware
 
@@ -78,9 +78,9 @@ Three categories of problem account for nearly all home network compromise:
 
 ### 4. Segmentation
 
-- **Use a guest network for visitors**, which keeps them off the segment holding your computers and storage
+- **Use a guest network for visitors** after verifying client isolation and blocked access to trusted LAN devices
 - **Put IoT devices on their own network** where the router supports it, covered further in Module 9
-- **Verify nothing important is on the guest segment**, since guest isolation is the point
+- **Place devices according to required access.** A managed or important device might still use a guest segment when internet-only access fits its role
 
 ### 5. Reduce Exposure
 
@@ -95,21 +95,21 @@ Three categories of problem account for nearly all home network compromise:
 
 | A VPN Does | A VPN Does Not |
 |---|---|
-| Hide traffic from the local network operator | Hide traffic from the sites you visit |
+| Hide destination names and traffic details from the local operator when tunnel and application encryption provide such protection | Hide traffic from the sites you visit |
 | Change your apparent source address | Make you anonymous to a logged-in service |
-| Protect traffic on untrusted WiFi | Protect against malware on your device |
-| Shift DNS resolution to the provider | Prevent fingerprinting by the destination site |
+| Protect traffic entering the tunnel on untrusted WiFi | Protect traffic outside the tunnel or malware on your device |
+| Carry DNS through the tunnel when configured to do so | Guarantee which resolver handles each lookup |
 
-**A paid, reputable VPN provider is the recommendation for two scenarios:** using untrusted WiFi, and preventing an internet provider from compiling a browsing record.
+**A VPN fits selected threat models.** The tunnel shifts observable connection data from the local network or internet provider to the VPN provider. HTTPS still protects application content from the VPN when correctly implemented.
 
 Two configuration points matter:
 
-- **Use WireGuard or OpenVPN.** Avoid PPTP and SSTP, which are obsolete protocols with known weaknesses
-- **Confirm DNS goes through the tunnel.** A DNS leak sends your lookups in plaintext outside the tunnel, which defeats part of the purpose
+- **Prefer a maintained modern protocol such as WireGuard, OpenVPN, or a supported TLS-based option.** PPTP is obsolete. SSTP still uses TLS on supported Windows systems, though ecosystem and audit trade-offs differ
+- **Confirm the intended resolver handles DNS.** A lookup outside the tunnel might use plaintext or another encrypted resolver and exposes the name to a different path
 
-**The honest limit:** a VPN provider sees everything your internet provider would have seen. You are choosing who holds the record, not eliminating it.
+**The honest limit:** the VPN provider sees connection metadata and traffic not protected by application encryption. You are choosing another trust point.
 
-*If your requirement is anonymity rather than confidentiality, Tor is the appropriate tool and a VPN is not. Tor routes through multiple relays so no single party sees both who you are and what you requested.*
+*Tor Browser routes traffic through multiple relays and standardizes browser behavior. Account sign-in, entry and exit observation, traffic correlation, endpoint compromise, and user behavior still affect anonymity.*
 
 ## DNS: Two Separate Problems
 
@@ -117,19 +117,19 @@ Two configuration points matter:
 
 | Problem | What Is At Risk | Solution |
 |---|---|---|
-| **Privacy** | Your provider observes every domain you resolve | DNS over HTTPS or DNS over TLS |
-| **Integrity** | An attacker in the path returns a forged answer | DNSSEC validation, plus encryption |
+| **Privacy** | The resolver path might expose queried names to network parties | DNS over HTTPS or DNS over TLS protects the client-to-resolver path |
+| **Integrity** | An attacker returns a forged answer | DNSSEC validation for signed data. Encryption separately protects the client-to-resolver path |
 
 **DNS-over-HTTPS addresses privacy. DNSSEC addresses integrity.** Encrypting your DNS does not validate the answers, and validating them does not hide the questions.
 
 Two honest caveats about encrypted DNS:
 
 - **It moves trust rather than eliminating it.** Your resolver sees your queries instead of your internet provider, so the resolver's policy is the thing to evaluate
-- **It bypasses network-level filtering**, including parental controls and corporate policy, which is not always what you want
+- **An outside encrypted resolver might bypass local DNS filtering.** Use the resolver and policy approved by the network owner for parental, school, employer, or managed networks
 
-*One genuine security benefit beyond privacy: encrypted DNS removes DNS spoofing as a practical attack path on hostile networks, which matters on public WiFi.*
+*Encrypted DNS protects the path to the chosen resolver. Encrypted transport does not make a malicious resolver trustworthy, validate unsigned answers, or protect a compromised endpoint.*
 
-Inspect the addressing of a network with local tools: the **[CIDR Subnet Calculator](/cidr-calculator/)** for IPv4 ranges, and the **[IPv6 Address Expander](/ipv6-expander/)** for the addresses most home networks now also carry.
+Inspect the addressing of a network with local tools: the **[CIDR Subnet Calculator](/cidr-calculator/)** for IPv4 ranges, and the **[IPv6 Address Expander](/ipv6-expander/)** when the network carries IPv6.
 
 ## WiFi Exposure Beyond Your Network
 
@@ -142,7 +142,7 @@ The practical implications:
 | **Do not put personal details in the SSID** | Names, flat numbers, and device models identify both you and your hardware |
 | **Know SSIDs and locations get published** | Crowdsourced databases map networks to places, which correlates to a physical address |
 | **Enable MAC randomization on devices** | Reduces the ability to track one device across multiple networks |
-| **Understand hiding the SSID is weak** | It is trivially discoverable from client traffic, and it breaks some devices |
+| **Understand hiding the SSID is weak** | Observed client traffic might reveal the network name, and hiding breaks some devices |
 
 *This site maintains two mapping projects in this space, both useful for understanding what public WiFi observations reveal: **[OpenRoaming and Hotspot 2.0 Map](/sibling-sites/)** and **[Flock Finder](/sibling-sites/)**. They are demonstrations of how much is inferable from passive scanning rather than tools for your own network.*
 
@@ -180,6 +180,43 @@ Segments:
 Forwarded ports (should be empty or intentional):
   - ______________________  purpose: __________
 ```
+
+## Practice and Verify
+
+Do this exercise beside the router. Save its current configuration before changing a setting. Keep a wired connection or reset instructions ready.
+
+1. Export the router configuration and photograph cable positions.
+2. Record model, firmware version, update status, WiFi mode, and remote-management state.
+3. Create or review a guest or IoT network without moving safety-critical devices yet.
+4. Connect two test devices to the new segment.
+5. Test device-to-device access, trusted-LAN access, internet access, IPv4, IPv6, DNS, and needed casting or controller traffic.
+6. Review forwarded ports from the router interface. Verify each intentional service from a separate external connection.
+
+> **Expected Result:** test devices reach only approved destinations, unexpected inbound services stay closed, and required household functions still work.
+
+If internet access disappears, restore the saved configuration and check DHCP, DNS, VLAN tagging, and WAN settings one change at a time. If trusted-LAN access still works, guest isolation or firewall policy is incomplete. If casting breaks, document the narrow discovery traffic needed instead of joining every device to the trusted segment.
+
+```text
+REDACTED EXAMPLE
+Router/firmware:       model hidden, current vendor release
+Backup:                exported before changes
+Test segment:          IoT
+Peer access:           blocked
+Trusted LAN:           blocked
+Internet/DNS/IPv6:     pass / pass / pass
+Required casting:      failed, restored pending rule review
+Rollback test:         configuration import located
+```
+
+**Pass checklist**
+
+- [ ] Configuration backup and reset instructions exist
+- [ ] Admin access, updates, WiFi security, WPS, UPnP, and remote management received review
+- [ ] Segmentation passed peer, LAN, internet, IPv6, DNS, and required-service tests
+- [ ] Every forwarded port has an owner and purpose
+- [ ] The rollback route restores household connectivity
+
+**Primary reference, checked 2026-10-10:** [NIST consumer-grade router security requirements](https://www.nist.gov/publications/recommended-cybersecurity-requirements-consumer-grade-router-products). Follow the current router manual for vendor-specific paths.
 
 ## Next Steps
 

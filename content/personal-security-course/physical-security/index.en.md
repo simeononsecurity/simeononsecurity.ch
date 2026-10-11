@@ -1,10 +1,10 @@
 ---
 title: "Module 12: Physical Security"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Every digital control assumes the device stays in your hands. This module covers device seizure and theft, document disposal, observation and skimming, and why a PIN sometimes beats biometrics."
+description: "Plan for device theft, travel, emergency access, observation, recovery, and media disposal with jurisdiction-aware biometric choices using repeatable checks."
 genre: ["Personal Security", "Physical Security", "OPSEC", "Privacy", "Device Seizure"]
 tags: ["physical security", "device seizure", "shoulder surfing", "skimmer", "cctv", "biometrics", "kensington lock", "document disposal", "public records", "biometric coercion", "privacy screen", "personal security course"]
 cover: "/img/cover/physical-security-workspace-tech-measures.webp"
@@ -12,9 +12,9 @@ coverAlt: "A digital illustration of a secure workspace featuring a laptop with 
 coverCaption: "Module 12: the layer no software reaches"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**Every control in the previous eleven modules assumes the device stays in your hands.** Physical access invalidates a great deal of it. An unlocked laptop is a complete account compromise, a stolen phone is a second-factor loss, and a seized device is a question about whether your encryption holds.
+**Physical access changes the risk.** An unlocked device exposes active sessions. Full-disk encryption still protects powered-off storage when keys and recovery material stay unavailable. A stolen phone also threatens factors and recovery paths stored on the device.
 
 This final module covers device control, document disposal, observation, and the biometric question which depends on your legal situation rather than your preferences.
 
@@ -43,24 +43,24 @@ This final module covers device control, document disposal, observation, and the
 
 | | Theft | Seizure |
 |---|---|---|
-| **Who acts** | Opportunistic criminal | Authority or a known party |
+| **Who acts** | A thief or another person taking the device | A government authority or another party acting under claimed legal power |
 | **Primary loss** | The hardware and the data on it | The data and its contents |
-| **Best control** | Encryption plus remote wipe | Encryption plus what you chose not to store |
+| **Control focus** | Custody, powered-off encryption, account recovery, and supported remote lock or wipe | Data minimization, power state, encryption, legal advice, and account recovery |
 | **What helps** | Not leaving devices visible, cable locks | Device power state, and knowing your rights |
 
-**Shutting down rather than suspending matters here.** A device in standby often holds decryption keys in memory, while a powered-off device requires the passphrase to reach the data. The distinction is the practical reason Module 8 recommended full power-off over standby.
+**Shutting down rather than suspending changes the attack surface.** A suspended device might retain keys in memory. A powered-off encrypted device normally requires an authentication factor or recovery path, subject to platform design, firmware, hardware, credential strength, and implementation flaws.
 
-*The most effective seizure control is deciding in advance what does not belong on the device. Data you never stored is data nobody recovers.*
+*Data minimization reduces the amount exposed during theft, seizure, or account compromise. Record what belongs on each travel or daily-use device.*
 
 ## Devices in the Physical World
 
 - **Use cable locks** where a device is left in a semi-public place, such as an office or a library
 - **Keep devices out of sight** in vehicles, and treat a charging cable on a seat as a signal something is under it
-- **Carry a privacy screen** in transit, which defeats most shoulder surfing
-- **Enable remote wipe** and confirm it works before you need it
+- **Carry a privacy screen** where side viewing matters, then test its viewing angles under normal lighting
+- **Enroll remote lock or wipe** and confirm the device appears in the vendor console. Test on a spare device or follow a documented vendor test. Do not wipe a primary device as a drill
 - **Do not charge from unknown USB ports**, as Module 7 covered. Prefer your own adapter
 
-**A short idle lock timeout is the highest-yield setting in this section.** Most physical compromises of a device happen while it is unattended and unlocked, not while it is encrypted and powered off.
+**A short idle lock timeout reduces unattended unlocked time.** Full shutdown and encryption address powered-off storage. Physical custody and account recovery address theft.
 
 ## Documents and Disposal
 
@@ -70,11 +70,11 @@ This final module covers device control, document disposal, observation, and the
 |---|---|
 | **Financial statements** | Shred, cross-cut rather than strip-cut |
 | **Identity documents** | Shred, and treat replacement as the better option where available |
-| **Medical records** | Shred, since they frequently carry identity numbers |
-| **Old storage media** | Destroy physically. Overwriting is not reliable on all media, and a failed drive often still holds data |
+| **Medical records** | Shred because they might contain health and identifying data |
+| **Old storage media** | Use an approved clear, purge, cryptographic erase, or destroy method suited to the media and data. Reuse is valid after verified sanitization |
 | **Delivery labels** | Remove or obscure before discarding packaging |
 
-**Watermark documents you share**, with the recipient and date. It costs nothing, and it traces a leak to a specific copy if one appears somewhere unexpected.
+**Watermark documents you share** with the recipient and date when suitable. A watermark might identify the intended copy after a leak, though removal, cropping, retyping, screenshots, and shared copies limit attribution.
 
 *Cross-cut shredding matters. Strip-cut shredders produce strips which are straightforward to reassemble.*
 
@@ -93,17 +93,17 @@ This final module covers device control, document disposal, observation, and the
 | **Biometric** | Convenient, and difficult to guess | In some jurisdictions, compelling a finger or face carries different protections than compelling a passphrase |
 | **PIN or passphrase** | Knowledge you hold | Slower, and vulnerable to observation |
 
-**If compelled disclosure is a realistic concern, use a PIN or passphrase rather than biometrics.** The reasoning is jurisdictional rather than technical, so it is a decision to make with awareness of where you live and work. Some devices allow biometrics to be disabled temporarily through a specific key combination, which is worth knowing in advance.
+**Seek current local legal guidance for compelled access, border searches, and seizure.** Rules differ by jurisdiction and facts. Learn the vendor's temporary biometric-disable action, and choose a PIN, passphrase, biometric, or combination from both safety and legal needs.
 
-*A related note on biometrics: your face is already photographed in public, which is the argument against treating facial recognition as a secret. A passphrase is not in any photograph.*
+*Biometric traits are observable and difficult to replace after compromise. A face image is not the same as a reusable biometric template, liveness signal, or device credential. Compare the actual authentication design and recovery path.*
 
 ## Reducing Ongoing Exposure
 
 Two items deserve attention because they persist without your involvement.
 
-**Crowdsourced and commercial image collection continues regardless of your participation.** Cameras capture your movements, and privacy options are limited. Practical reductions include choosing less-monitored routes where it matters to you, and recognizing a friend's public post reveals your location even if you post nothing.
+**Crowdsourced and commercial image collection records public activity.** A friend's public post might reveal your location even when you post nothing. Choose travel routes from personal safety, accessibility, legality, and time. Camera avoidance alone is not a safe route plan.
 
-**CCTV and facial recognition are expanding in many cities.** Awareness of where coverage is dense around your home and workplace is more useful than attempting to defeat it.
+**Camera and facial-recognition deployment varies by city, operator, venue, and law.** Use current local sources to understand coverage relevant to your safety plan. Do not choose an unsafe route solely to avoid a camera.
 
 *Our sibling project mapping ALPR camera locations illustrates how much surveillance infrastructure is publicly inferable: **[Flock Finder](/sibling-sites/)**. Knowing the density near you is a starting point for planning, not a complete solution.*
 
@@ -134,6 +134,41 @@ Exposure:
   CCTV awareness near home/work: reviewed / not reviewed
 ```
 
+## Practice and Verify
+
+Use a spare device for remote-lock or wipe drills. A primary device needs a documented recovery path before any test.
+
+1. Set a short idle lock and confirm the screen locks after the chosen delay.
+2. Confirm the device appears in the vendor's find-device console.
+3. Send a harmless locate, sound, or lock action to a spare device.
+4. Confirm backup and account recovery before considering any wipe test.
+5. Choose one retired storage item and select clear, purge, cryptographic erase, or destruction from an approved method.
+6. Write a travel and theft card with emergency contact, carrier, insurer, device serial location, and local reporting route.
+
+> **Expected Result:** the spare device receives the selected action, the learner reaches recovery material without using the primary device, and the disposal method matches the media and data sensitivity.
+
+If the device does not appear, check account ownership, network access, location settings, and vendor enrollment. Do not erase the device while diagnosis continues. If legal seizure, border search, or compelled access drives the threat model, obtain current advice for the relevant jurisdiction.
+
+```text
+REDACTED EXAMPLE
+Idle lock:            2 minutes, verified
+Find-device console:  primary and spare listed
+Spare lock test:      passed
+Recovery route:       trusted contact plus offline record
+Retired SSD:          vendor purge method, result logged
+Travel card:          stored with companion
+```
+
+**Pass checklist**
+
+- [ ] Idle lock and find-device enrollment have observed evidence
+- [ ] No primary device was wiped as a drill
+- [ ] Emergency and accessibility access survive the selected lock plan
+- [ ] Media disposal follows a current approved method
+- [ ] Jurisdiction-specific advice is labeled and sourced locally
+
+**Primary references, checked 2026-10-10:** [NIST SP 800-88 Rev. 2 media sanitization](https://csrc.nist.gov/pubs/sp/800/88/r2/final) and the device vendor's current find-device and recovery documentation.
+
 ## Course Summary: All Twelve Modules
 
 **You have now covered the full sequence.** This table is the compressed version of the course.
@@ -149,7 +184,7 @@ Exposure:
 | **7. Mobile Devices** | Set a carrier PIN and port freeze |
 | **8. Personal Computers** | Confirm disk encryption and restore one file from backup |
 | **9. Smart Home** | Move IoT devices to a separate network segment |
-| **10. Personal Finance** | Freeze credit at all three bureaus |
+| **10. Personal Finance** | Freeze the relevant US credit files |
 | **11. Human Aspect** | Save verified contact numbers and agree a signal with family |
 | **12. Physical Security** | Shorten the idle lock timeout and shut devices down fully |
 

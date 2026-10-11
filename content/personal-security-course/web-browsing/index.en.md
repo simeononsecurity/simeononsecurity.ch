@@ -1,10 +1,10 @@
 ---
 title: "Module 2: Web Browsing and Tracking"
 date: 2026-09-30
-lastmod: 2026-09-30
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "How stateful and stateless tracking differ, which browser changes reduce collection, why fingerprint tweaks are lower yield than they appear, and what incognito does not protect against."
+description: "Audit browser tracking, storage, permissions, extensions, private mode, and profile separation. Verify improvements without claiming anonymity."
 genre: ["Personal Security", "Web Browsing", "Privacy", "Tracking", "Browser Security"]
 tags: ["browser privacy", "tracking", "cookies", "browser fingerprint", "third-party cookies", "tracker blocking", "ad blocking", "privacy browser", "search engine privacy", "dns over https", "incognito", "browser extensions", "https", "tor", "personal security course"]
 cover: "/img/cover/web-browsing-tracking-privacy-settings.webp"
@@ -12,13 +12,13 @@ coverAlt: "An illustration of a web browser interface on a dark background, feat
 coverCaption: "Module 2: reduce what the browser reports about you"
 ---
 
-#### [← Return to the Personal Security Course](/personal-security-course-start/)
+[← Return to the Personal Security Course](/personal-security-course-start/)
 
-**The browser is where most of your personal data exposure happens.** It holds your authenticated sessions, reports a detailed description of your device to every site you visit, and executes code written by parties you never chose to trust.
+**The browser holds authenticated sessions and exposes device and request details to sites.** The browser also executes site code, stores local state, and mediates camera, microphone, location, and notification permissions.
 
 This module covers the two distinct tracking mechanisms, the changes which reduce collection, and an honest accounting of which popular advice is lower yield than it appears.
 
-*Budget about 30 minutes. Two settings and one extension produce most of the benefit.*
+*Budget about 30 minutes. Start with storage, tracking, permission, and extension review.*
 
 ## What You Will Learn
 
@@ -32,9 +32,9 @@ This module covers the two distinct tracking mechanisms, the changes which reduc
 | Term | Meaning |
 |---|---|
 | **Stateful tracking** | Identifying you through something stored, such as a cookie or a local storage entry |
-| **Stateless tracking** | Identifying you from characteristics of the request itself, with nothing stored |
-| **First-party cookie** | Set by the site you are visiting, and generally needed for it to function |
-| **Third-party cookie** | Set by another domain embedded in the page, and the main cross-site tracking mechanism |
+| **Stateless tracking** | Linking activity through browser, device, network, or behavior signals without a stored browser identifier |
+| **First-party cookie** | Set in the context of the site you are visiting for functions such as sessions, preferences, or measurement |
+| **Third-party cookie** | Set in a third-party context and used for purposes which might include cross-site tracking |
 | **Fingerprint** | The combination of attributes which distinguishes your browser from others |
 | **Container** | An isolated browser profile with its own cookies and storage |
 
@@ -44,35 +44,35 @@ This module covers the two distinct tracking mechanisms, the changes which reduc
 
 | | Stateful | Stateless |
 |---|---|---|
-| **Mechanism** | Cookies, local storage, cached identifiers | Screen size, fonts, timezone, GPU strings, canvas rendering |
-| **Persistence** | Survives until cleared or expired | Recomputed on every request |
+| **Mechanism** | Cookies, local storage, cached identifiers | Browser APIs, protocol fields, screen size, fonts, timezone, GPU strings, canvas rendering |
+| **Persistence** | Survives until cleared or expired | Recomputed or reused across requests, depending on the technique |
 | **Countermeasure** | Block, isolate, or clear the store | Make yourself less distinctive |
-| **Difficulty** | Straightforward | Hard, and it breaks sites |
-| **Yield** | **High** | Moderate at best |
+| **Difficulty** | Direct browser controls exist | Some changes affect compatibility or uniqueness |
+| **Practical starting point** | Browser controls directly address stored identifiers | Test carefully because unusual changes might increase uniqueness |
 
-**The practical consequence.** Blocking third-party cookies and trackers is high-yield and low-cost, so it belongs at the top of the list. Fingerprint randomization is a partial measure against a moving target, so it belongs near the bottom.
+**The practical consequence.** Start with third-party storage and tracking controls because browsers expose direct settings for them. Fingerprint changes need testing because a rare configuration might become easier to distinguish.
 
 *Anyone who spoofs their canvas signature before installing a content blocker has the ordering inverted.*
 
 ## Step 1: Choose the Browser
 
-Your browser sees everything you do, which makes this the highest-leverage single choice in the module.
+Your browser handles site content, local storage, sessions, permissions, and updates. Choose one with current support on your device.
 
 | Browser | Strength | Cost |
 |---|---|---|
 | **Firefox** | Configurable, independent engine, strong container support | Needs tuning to reach its potential |
 | **Brave** | Blocks trackers by default, no setup required | Chromium-based, and its own features deserve review |
 | **LibreWolf** | Hardened Firefox defaults | Fewer conveniences, and some sites break |
-| **Tor Browser** | Anonymity against network observers, not only sites | Slower, and many sites block it |
-| **Chrome, Edge, Safari** | Convenience and integration | Collect telemetry and offer weaker isolation by default |
+| **Tor Browser** | Routes traffic through the Tor network and standardizes many browser attributes | Entry and exit observation, account sign-in, behavior, and endpoint compromise still matter |
+| **Chrome, Edge, Safari** | Platform integration and built-in safety controls | Privacy behavior depends on settings, platform, and account use |
 
-**If you change nothing else, move off Chrome.** Its business model depends on data about your browsing, and the alternative browsers cost nothing.
+**Choose from your device support, accessibility needs, update policy, extension needs, and privacy controls.** Safari includes tracking protections on Apple platforms. Firefox, Brave, and Tor Browser serve different goals. Recheck vendor documentation after major releases.
 
 See the full comparison in **[Best Privacy Browsers 2026: LibreWolf vs Brave vs Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)**.
 
 ## Step 2: Block the Collection Layer
 
-**Ads and trackers are the primary collection mechanism on the web**, and they are also a substantial attack surface. Two changes cover most of the ground.
+**Ads, analytics, embedded services, account activity, and browser signals create distinct collection paths.** Which data exists depends on the site, browser, settings, account state, and third parties. Content and tracking controls address part of this set.
 
 ### Content and Tracker Blocking
 
@@ -82,39 +82,39 @@ See the full comparison in **[Best Privacy Browsers 2026: LibreWolf vs Brave vs 
 | **Tracker blockers** | Analytics and cross-site beacons | Use one, not several |
 | **Brave Shields** | Built in, no extension needed | Suitable if you prefer zero configuration |
 
-**Use exactly one.** Stacking blockers causes conflicts, slows the browser, and makes breakage harder to diagnose.
+**Start with one blocker.** Multiple tools might overlap, increase breakage, or complicate diagnosis. Add another only for a documented gap.
 
 ### Cookie and Storage Controls
 
-- **Block third-party cookies.** This is the single highest-yield browser setting available.
-- **Clear cookies regularly**, or scope them to a container so they never reach other sites.
+- **Block or partition third-party cookies.** This reduces a common cross-site identifier with low setup cost.
+- **Clear cookies regularly**, or scope them to a container so selected site storage stays inside the chosen context.
 - **Review site permissions** for location, camera, microphone, and notifications, which are granted per origin and persist silently.
 
 ### Compartmentalization
 
-**Isolating contexts prevents one identity from being linked to another.** Firefox containers are the cleanest implementation, giving each profile its own cookie jar. The practical setup is one container per purpose: work, shopping, social, and personal. Sites in different containers never observe each other's storage.
+**Isolating contexts separates selected cookies and site storage.** Firefox containers support one context per purpose, such as work, shopping, social, and personal. They do not stop correlation through account sign-ins, IP addresses, fingerprinting, payment data, or shared identifiers.
 
-*This is high value and often skipped, because it requires a small amount of ongoing discipline rather than a one-time toggle.*
+*This separation needs ongoing discipline because sign-ins and exceptions might reconnect the contexts.*
 
 ## Step 3: Reduce the Fingerprint
 
-**Fingerprinting identifies you by what your browser reports**, including screen dimensions, installed fonts, timezone, language settings, and the exact output of canvas rendering. It does not require storing anything.
+**Fingerprinting uses browser and device signals to distinguish or link activity with varying confidence.** Signals include screen dimensions, installed fonts, timezone, language settings, and canvas rendering output. The technique does not require a stored cookie.
 
 A useful property: **a distinctive fingerprint is worse than a common one.** The goal is not uniqueness, it is blending in.
 
-| Measure | Yield | Trade-off |
+| Measure | Intended Effect | Trade-off |
 |---|---|---|
-| **Use a popular browser default configuration** | Good | You lose some convenience settings |
-| **Disable WebRTC where unused** | Moderate | Breaks video calling in the browser |
-| **Spoof canvas output** | Moderate | Breaks some image-heavy sites |
-| **Rotate user agent** | Low | Marginal benefit, and it makes you more distinctive |
-| **Send Do Not Track** | **None** | Most sites ignore it, and it adds a distinguishing signal |
+| **Use a supported browser configuration shared by many users** | Reduces selected uniqueness | You lose some convenience settings |
+| **Limit WebRTC where unused** | Reduces an unused feature and selected address-exposure paths | Breaks browser calling |
+| **Spoof canvas output** | Changes one fingerprint signal | Might break sites or make a rare setup easier to distinguish |
+| **Rotate user agent** | Changes a reported identifier | Mismatch with other signals might increase uniqueness |
+| **Send Do Not Track** | Expresses a preference | Compliance depends on site policy and applicable law |
 
 > **Common Mistake: treating fingerprint randomization as a primary control.** It is a partial measure against a technique which is designed to survive partial measures. Do the cookie and tracker work first.
 
 ## Where Incognito Helps and Where It Does Not
 
-**Incognito prevents local storage, not remote observation.** It stops your browser from recording history and cookies on your own device. It does nothing about what the network operator, the site, or your employer observes.
+**Private mode uses temporary local session state and limits saved browsing history.** Cookies and storage exist during the session, then the browser removes selected state when all private windows close. Downloads, bookmarks, device logs, malware, networks, and sites remain outside this protection.
 
 | Incognito Protects | Incognito Does Not Protect |
 |---|---|
@@ -123,18 +123,18 @@ A useful property: **a distinctive fingerprint is worse than a common one.** The
 | Session persistence on a shared machine | The site's own server logs |
 | | Fingerprinting |
 
-**Use it on other people's machines**, which is its genuine strength. Do not treat it as anonymity.
+**Avoid signing in on an untrusted computer.** Private mode does not stop keyloggers, hostile extensions, screen capture, downloads, or an abandoned session. Use your own updated device. If access is unavoidable, use a low-value account, refuse password saving, sign out, and revoke the session later from a trusted device.
 
 ## Site Legitimacy and the Padlock Myth
 
-**The padlock indicates encryption, not honesty.** Certificates are free and automated, so almost every phishing site has one. Confidentiality and trustworthiness are separate properties.
+**The padlock indicates transport encryption, not site honesty.** A phishing site also uses HTTPS. Read the domain and use a saved bookmark for high-value accounts.
 
 Signs worth checking:
 
 - **Verify the domain letter by letter**, especially for login pages and anything involving payment
 - **Prefer bookmarks over links** for sites you use often
 - **Treat unexpected redirects as a warning**, and check where a short link resolves before following it
-- **Trust browser warnings**, which reflect observed malicious behavior rather than configuration
+- **Stop at browser warnings** and inspect the exact cause. Certificate errors, an incorrect clock, a captive portal, extensions, managed policy, and known malicious behavior require different responses
 
 Browser malware produces its own signals: a changed homepage or search engine, unfamiliar toolbars or extensions, a jump in ad volume, and pages loading far slower than before. Any of those justifies an extension audit.
 
@@ -153,14 +153,50 @@ Extensions installed:
 Permissions revoked:   camera / microphone / location / notifications
 ```
 
-*Review the extension list quarterly. An extension you installed once and forgot still reads every page you visit.*
+*Review the extension list quarterly. An extension sees data allowed by its declared and granted permissions. Remove access which no longer serves a clear purpose.*
 
 {{< figure src="browser-tracking-stateful-vs-stateless.webp" alt="Diagram contrasting stateful tracking through cookies and local storage with stateless tracking through browser fingerprint attributes, showing which countermeasure applies to each" >}}
 
+## Practice and Verify
+
+Create a fresh browser profile. Keep your daily profile closed during this test.
+
+1. Update the browser and record its exact version.
+2. Set third-party cookie or tracking protection to the vendor's recommended strict option.
+3. Review camera, microphone, location, notification, and pop-up permissions.
+4. Install no extension at first. Visit two normal sites you use.
+5. Add one reviewed blocker, repeat the visits, and record visible breakage.
+6. Sign in to a test account inside one container or profile. Confirm another container or profile stays signed out.
+
+> **Expected Result:** unwanted permissions are absent, the second context has no shared login cookie, and both test sites still complete their main task.
+
+If a site breaks, disable the newest control for the affected site, repeat the task, then record the smallest exception. If contexts share a login, check whether the browser opened both tabs in the same profile or the site used a shared identity provider. Containers separate selected storage. They do not provide anonymity.
+
+```text
+REDACTED EXAMPLE
+Browser/version:       Firefox [version removed]
+Profile:               course-test
+Tracking setting:      strict
+Extensions:            one reviewed blocker
+Permission changes:    notifications removed from 3 sites
+Isolation test:        shopping signed in, personal signed out
+Breakage and fix:      checkout blocked, site-only exception
+```
+
+**Pass checklist**
+
+- [ ] Browser and extensions receive supported updates
+- [ ] Every extension has a stated purpose and reviewed permissions
+- [ ] Sensitive site permissions match current use
+- [ ] A fresh profile or container test shows storage separation
+- [ ] The record makes no anonymity claim
+
+**Primary references, checked 2026-10-10:** [Mozilla Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) and [Firefox privacy and security features](https://support.mozilla.org/en-US/kb/firefox-privacy-and-security-features).
+
 ## Next Steps
 
-1. **Continue to Module 3** and secure the account which unlocks everything else: **[Email Security](/personal-security-course/email/)**
+1. **Continue to Module 3** and secure an account used for many recovery paths: **[Email Security](/personal-security-course/email/)**
 2. **Compare browsers properly** before switching: **[LibreWolf vs Brave vs Tor](/articles/best-privacy-browsers-librewolf-brave-firefox-tor/)**
-3. **Inspect what a site exposes** with the local **[EXIF Viewer](/exif-viewer/)** before sharing media
+3. **Inspect metadata in an image file** with the local **[EXIF Viewer](/exif-viewer/)** before sharing media
 4. **Check your deployment's security headers** if you also run a website: **[Security Headers Check](/securityheaders/)**
 5. **Read the organizational counterpart** if you manage browsers for others: **[Web Application Security Checklist](/checklists/web-application-security-checklist/)**
