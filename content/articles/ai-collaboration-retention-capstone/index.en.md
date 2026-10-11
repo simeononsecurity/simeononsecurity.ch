@@ -150,6 +150,21 @@ capstone-evidence/
 
 **A planned failure is still a failure observation.** Do not relabel unauthorized publication as a successful test merely because you intended to probe it. The test succeeded at exposing a defect, but the publication boundary failed and requires repair.
 
+**Injection and reset card for each case:** use a new synthetic proposal or restore a reviewed baseline before the next row. The observer records the precondition and confirms the reset. Never erase the failed attempt from the ledger.
+
+| Case | GitHub-first injection and check | Mixed-workplace injection and check | Reset before next case |
+|---|---|---|---|
+| Approved change | Submit the fixed PR, obtain both reviews, merge, and reopen `main` | Publish REQ-17, merge the reviewed diff, publish RUN-04, then reopen all records | Capture final revisions as the next base |
+| Stale context | Capture a manifest, then change the protected test base through a separate reviewed PR before validating the old proposal | Capture page versions, then have an authorized editor revise a test page before the prewrite read | Stop, compare versions, capture fresh sources, and review a new fixed package |
+| Unauthorized write | Contributor attempts a harmless direct push to protected `main` and records the server denial | Contributor attempts a REQ-17 edit and Approved transition | Reopen the protected commit, page version, and Jira state, which should be unchanged |
+| Conflict | Put sixty days in the draft Issue while the approved file says seven | Put sixty days in the Jira draft while REQ-17 says seven | Product owner reconciles the draft and records the decision before review |
+| Partial publication | Stop after approval but before merge or final read-back, leaving the Issue open | Stop after REQ-17 read-back while configuration and RUN-04 still say seven | Keep delivery pending, then obtain an owner-reviewed completion or compensation decision |
+| Access denial | Use a test identity excluded from a separate private test repository containing a synthetic source and attempt a read | Use the excluded identity on a separately restricted synthetic page | Restore only approved test access and verify the normal reader still succeeds |
+| Recovery | Interrupt an approved test change, then propose a reviewed completion or revert | Use the partial-publication ledger to propose reviewed completion or compensation | Read back each resulting source and reconcile the ledger |
+| Handoff | Send MAP-01 and the ledger to a fresh reviewer without the old chat | Send mapped page IDs and ledger to a fresh reviewer without the old chat | Reviewer opens current sources and records the next authorized step |
+
+For every denied case, record the platform response and a second read of the protected record. For the excluded-user case, inspect provider-supported tool traces, retrieval logs, or audit records to check whether protected text reached the task. If such evidence is unavailable, mark this access-safety check Blocked instead of treating a visible denial as proof that no cached excerpt was returned. If a control is unavailable in the plan or an approved test identity is missing, record Blocked rather than simulating a pass.
+
 ## Interpret a Mixed Result
 
 **Illustrative evidence package:** local consistency passes, product and operations review the fixed package, requirement publication succeeds, and runbook edit access is denied. Configuration has not yet merged. Jira remains Blocked.
@@ -163,6 +178,35 @@ capstone-evidence/
 | **Recovery owner should act** | Supported as next step | Partial delivery needs a reviewed decision |
 
 **Expected reasoning:** keep the run incomplete, verify current sources, and request the appropriate owner decision. Do not finish by weakening permissions or describing the snapshot check as live publication evidence.
+
+**Filled mixed-track teaching packet, synthetic and not tenant evidence:**
+
+```text
+Run: MIXED-042-example
+Captured base: REQ-17 v4 = 7 days, RUN-04 v2 = 7 days,
+  GitHub main base-001 config.json = {"retention_days": 7}, Jira PROP-042 r1 = In Review
+Fixed proposal: REQ-17 v5 wording says synthetic exports 30 days,
+  excluding production data, backups, and legal holds.
+  GitHub config.json changes retention_days from 7 to 30.
+  RUN-04 v3 wording says 30 days, no deletion service runs in this lab,
+  and incomplete publication stays pending.
+Review: product owner approved the exact requirement wording at PROP-042 r1.
+  Operations owner approved the exact config diff and runbook wording at r1.
+Publication: publisher reopened REQ-17 v5 and read 30 days.
+  Maintainer reopened main at merge-002 and read retention_days 30.
+  Publisher reopened RUN-04 v3 and read 30 days.
+Denied action: contributor tried an edit to restricted REQ-17 from v5.
+  Platform denied the edit, the publisher reread v5 unchanged, and the
+  observer saved the native denial. No edit was applied and v5 stayed unchanged.
+Recovery: after a separate simulated failed RUN-04 attempt, Jira stayed
+  Blocked. Operations approved a retry against the current version.
+  Publisher reread v3 after the authorized retry before Jira moved to Done.
+Handoff: a new reviewer received MAP-01 and the ledger, reopened the three
+  sources and Jira, and named the current 30-day state and remaining runtime gap.
+Limit: source publication is shown. Actual deletion timing is Not run.
+```
+
+Replace every illustrative version, actor, denial, and read-back with native records before marking a live row Supported. If a plan or role does not permit the test, mark the row Blocked and keep the two-track course incomplete.
 
 ## Review With an Independent Reader
 

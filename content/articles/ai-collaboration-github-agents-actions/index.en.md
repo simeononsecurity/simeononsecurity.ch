@@ -58,7 +58,7 @@ POL-01 version 1
 
 ## Open the Local Repository
 
-**Copy the HTTPS clone URL from the repository's Code menu.** Replace `OWNER` below with your sandbox owner. The clone creates a local checkout and records the GitHub repository as **`origin`**.
+**Reuse the checkout from the repository setup lesson** if you still have it and `git status --short` is empty. Open a terminal in that `export-service-lab` directory and start with the checks after `cd` below. If you need a fresh checkout, copy the HTTPS clone URL from the repository's Code menu and run the clone command in a different empty parent directory. Replace `OWNER` with your sandbox owner. The clone records the GitHub repository as **`origin`**. Do not run `git clone` into an existing `export-service-lab` directory.
 
 ```bash
 git clone https://github.com/OWNER/export-service-lab.git
@@ -75,7 +75,7 @@ The commands use a POSIX shell, including Git Bash on Windows. A successful clon
 
 ## Capture a Trusted Base
 
-**Commit the bootstrap first**, then use the clone as the proposal checkout and add a detached worktree for the approved base. The clone holds editable candidates. The detached worktree supplies the captured base.
+**Commit the bootstrap first**, then use the same checkout as the proposal checkout and add a detached worktree for the approved base. The checkout holds editable candidates. The detached worktree supplies the captured base.
 
 ```bash
 git fetch origin main

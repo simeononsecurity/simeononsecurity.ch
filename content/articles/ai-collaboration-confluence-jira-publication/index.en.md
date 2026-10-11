@@ -135,6 +135,20 @@ Stop: changed source, missing review, denied write, failed read-back
 
 **Keep the packet readable for both owners.** Product needs intent and exclusions. Operations needs the operating change and recovery boundary. Both need to understand the period when approved intent and delivered configuration differ. A bare code diff is insufficient for an owner unfamiliar with repository files.
 
+**Filled package content for this synthetic example:**
+
+```text
+REQ-17 proposed v5: "Synthetic export files are retained for 30 days from creation. This pilot excludes production data, backups, and legal holds. Delivery remains pending until the GitHub configuration and RUN-04 read-backs match this approved wording."
+
+GitHub config.json, proposed change against base-001:
+-  "retention_days": 7
++  "retention_days": 30
+
+RUN-04 proposed v3: "Retention days: 30. Synthetic exports only. No deletion job runs in this lab. If publication fails, keep delivery pending, read back each source, and obtain owner approval before restoring the seven-day configuration or completing the thirty-day publication."
+```
+
+These strings are example proposal text, not live tenant records. Attach the actual base commit and page versions before review. The fixed package must include the complete proposed bodies, not a summary that requires an owner to infer them.
+
 **Separate the offline snapshot from live publication.** A consistency pass demonstrates agreement among captured records. Immediately before the first write, the publisher rechecks the mapped pages and the maintainer rechecks the protected base. If either changed, the old package stops at Review.
 
 ## Walk Through the Ledger
@@ -152,6 +166,8 @@ Stop: changed source, missing review, denied write, failed read-back
 **Pending delivery is a meaningful state.** It avoids describing the old implementation as compliant with new intent while publication is incomplete. Readers need both values during this period, not a single summary claiming “retention is thirty.”
 
 **Append failed attempts as separate events.** If a runbook write fails, keep the successful requirement and configuration results. Record the attempted runbook action, failure, unchanged version, assigned role, and next action. Do not reset completed rows to Pending and erase the observed sequence.
+
+**Stale-version rejection example:** publisher reads REQ-17 v4, another authorized editor publishes v5, then publisher attempts to apply PROP-042 r1 against v4. The platform reports a version conflict, or the publisher's prewrite read detects v5. Record actor `publisher`, initial `v4`, attempted `PROP-042 r1`, observed conflict or changed current version, final `v5` unchanged by this attempt, and assigned owner `product owner`. Keep Jira in Review. Re-read v5, reconcile the wording, and request review of a new fixed package before another write. Use the actual platform response and page history in a live test; this row is a teaching example.
 
 **Completed teaching example, synthetic values only:**
 

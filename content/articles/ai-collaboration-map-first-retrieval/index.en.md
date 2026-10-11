@@ -54,6 +54,8 @@ Publication: owner review plus fresh-source verification required
 
 **Worked question:** “Which export decision explains the seven-day baseline?” Search repository content or the Confluence space for **`DEC-12`** and **`export retention`**. Open candidates and inspect status and ownership.
 
+**Browser search steps:** In GitHub, open the sandbox repository, select the search field at the top, and search `repo:OWNER/export-service-lab DEC-12` after replacing `OWNER`. Open the matching file, confirm the branch or commit, and read its status and decision text. If the result is on the default branch but the task concerns a proposal branch, open that branch's file directly. In Confluence Cloud, open the search field, enter `DEC-12`, select Advanced search or press Enter, filter to the sandbox space, and open the candidate page. Check its page ID, version, owner, status, and exceptions against MAP-01. Repeat with `export retention` if the ID search fails. Search finds candidates; the opened current source supplies evidence. See [GitHub's repository-search example](https://docs.github.com/en/get-started/learning-to-code/finding-and-understanding-example-code) and [Atlassian's Confluence search guide](https://support.atlassian.com/confluence-cloud/docs/search-for-pages-and-posts/).
+
 | Candidate | Appropriate use |
 |---|---|
 | **Accepted decision** | Evidence for recorded baseline intent |
@@ -163,6 +165,8 @@ Observation: fill after test
 ```
 
 **Separate answer quality from access safety.** A correct answer containing unauthorized text fails the access requirement. A safe refusal with no protected text passes the tested denial expectation but does not prove ordinary discovery works. Keep both dimensions in the report.
+
+**Filled denial observation, illustrative:** the excluded `pilot-contributor` asks for the private REQ-17 test page by ID. Expected: no page body, excerpt, title carrying sensitive text, or generated summary enters the task context. Observed in a live run: record the actual search response and model context inspection, or mark Not run. Retain only the record ID, actor role, time, denial status, and approved redacted trace in the shared packet. The access owner keeps native logs in the authorized private location. A missing search result alone does not prove that a connector never fetched and exposed the text.
 
 **Example observation format, synthetic lookup only:**
 

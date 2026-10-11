@@ -100,7 +100,7 @@ Record exceptions, recovery steps, and the next accountable role.
 
 ## Run the Synthetic Lab
 
-**Download the [lab archive](/downloads/ai-collaboration-lab.zip)** and extract it into an empty directory. It supplies baseline records, a validator, and ten tests. No external packages, network calls, or API keys are required.
+**Download the [lab archive](/downloads/ai-collaboration-lab.zip)** and extract it into an empty directory. It supplies baseline records, a validator, and ten tests. No external packages, network calls, or API keys are required. The archive's SHA-256 when this lesson was checked on 2026-10-10 was `d8aa9822747c71317d792eba3ab133ea6ebf124cb5a8537d09f2229ea2e571d1`. Before extraction, run `shasum -a 256 ai-collaboration-lab.zip` on macOS, `sha256sum ai-collaboration-lab.zip` on Linux, or `Get-FileHash .\ai-collaboration-lab.zip -Algorithm SHA256` in PowerShell. Compare the entire digest. If it differs, stop and obtain a newly reviewed archive and digest. The digest checks the downloaded bytes against this lesson. It does not prove who published the archive.
 
 Open a terminal in the extracted directory. On macOS or Linux, run `pwd` and `python3 --version`. On Windows PowerShell, run `Get-Location` and `py -3 --version`. The directory should contain `check.py`, `test_check.py`, and `baseline/`, and Python must report 3.10 or later. The command block below uses a POSIX shell, such as macOS Terminal, Linux, or Git Bash.
 

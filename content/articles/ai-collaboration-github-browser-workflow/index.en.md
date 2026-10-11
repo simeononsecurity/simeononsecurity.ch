@@ -101,6 +101,8 @@ Rollback: reviewed restoration of the approved baseline
 6. **Open Pull requests, then New pull request.** Compare **`proposal-042`** with **`main`**, inspect all four file changes, and create a PR referencing the Issue. Ask the maintainer to attach a fresh manifest from the protected base and run the consistency check.
 7. **Request owner reviews** at the final proposal revision. Keep delivery open until review and read-back succeed.
 
+**Navigation record:** Write down the repository name, Issue number, proposal branch, changed-file paths, PR number, check-run name, review revision, and final `main` commit. Use the repository's Issues, Code, Pull requests, Actions, and PR Checks/Reviews views to find them again. If GitHub moves a control, locate the same record by its number or commit ID rather than guessing from a screenshot. Export a private evidence note with record URLs and observed status. Before sharing the note outside the authorized team, remove account names, email addresses, tokens, tenant identifiers, and unrelated repository data. Keep the unredacted evidence only in the approved private location.
+
 **GitHub documents branch and fork contribution routes.** A contributor without repository write access uses an approved fork or Issue route. A fork does not grant publication access to the original repository.
 
 ## Inspect the Worked Diff

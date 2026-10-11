@@ -61,6 +61,10 @@ Stop consequential writes until owners resolve each mismatch.
 
 **Worked adapter drift:** POL-01 reaches version 2 while CLAUDE.md still says 1. Stop, read the reviewed policy change, update the adapter through a protected PR, and start a fresh session. Changing only the version number without loading the policy does not repair context.
 
+**Inject source drift in the offline lab:** extract a fresh copy of the supplied ZIP into an empty disposable directory. From its root, copy `baseline/` to `candidate/`, run `python3 check.py capture --base baseline > candidate/context.json`, then run `python3 check.py validate --base baseline --candidate candidate`. Record the initial `PASS`. Open `baseline/requirement.json` in a text editor and change only `"retention_days": 7` to `"retention_days": 8`. Run the same validate command again. The expected exit status is nonzero with `STALE_CONTEXT: capture the trusted base again`. Record both outputs and the changed source path. Delete this disposable extraction after saving private evidence, then extract a fresh copy to reset. Do not apply the eight-day edit to the published repository or treat recapture as owner approval.
+
+**Inject adapter drift in the disposable repository:** on a new proposal branch, copy the approved POL-01 version 1 adapter text into the branch's `CLAUDE.md` and label it version 1. In a separate reviewed policy proposal, write a version 2 change with a specific new stop condition. Keep the adapter at version 1. Ask a reviewer to compare the two records and mark the adapter stale before any merge or agent run. Reset by closing the test proposals or by updating the adapter in a reviewed PR, then open a fresh session and verify both versions and the new stop condition. Retain the old and corrected diffs. This is a documentation test, not a simulated platform denial.
+
 ## Recover Interrupted Publication
 
 1. **Freeze PROP-042 publication** and assign the recovery owner.

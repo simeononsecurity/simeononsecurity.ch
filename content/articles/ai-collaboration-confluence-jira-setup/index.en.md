@@ -226,6 +226,8 @@ Reviewer: administrator or independent permission reviewer
 4. **Repeat the same attempt:** capture unchanged source revision after denial.
 5. **Repeat the positive case:** confirm authorized publication still works.
 
+**Final evidence checklist:** record the Confluence page tree and mapped page IDs, the Jira lab scheme association, the lab workflow association, each test role's group membership, an allowed requirement read, a denied requirement edit with unchanged version, an allowed draft creation, a denied approval transition with unchanged state, an excluded-user denied read, and the cleanup owner. For each row, keep the actor role, initial and final revision or state, native result, and independent reviewer. Record the tenant navigation path you observed because labels and available controls vary by plan.
+
 **Completion check:** deliver the mapped authority pages, lab-only workflow, intended role matrix, and observed permission records. If the plan lacks a required control, leave the relevant row Blocked. The publication lesson assumes these tests succeeded, not merely the existence of settings screenshots.
 
 ## Troubleshooting and Rollback
