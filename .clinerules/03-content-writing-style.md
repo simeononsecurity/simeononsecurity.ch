@@ -65,6 +65,15 @@ Record the section-to-level mapping during review. Keep instructional design lab
 reader-facing headings unless the article explicitly teaches instructional design. Verify the
 400-word visual-break limit, scoped internal links, and actual rendered output after expansion.
 
+### Additive Revisions of Existing Articles
+
+When the user requests an additive improvement, compare the finished page with the
+original. Preserve every existing section, image, code block, example, and useful
+technical point. Correct inaccurate claims or commands in place and add the
+missing context. Do not silently remove material to shorten the page. Keep
+editorial selection tools and automated production details out of reader-facing
+prose. This does not prevent an article from discussing AI as its actual subject.
+
 ---
 
 ## Text Emphasis for Skimmability

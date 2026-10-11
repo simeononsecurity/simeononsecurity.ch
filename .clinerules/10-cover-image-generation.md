@@ -62,16 +62,22 @@ tail -f /tmp/cover_gen.log
 
 ## New Article Requirement
 
-Run the full media scan after creating every new article. This keeps the article
-cover and missing inline figures synchronized across all content folders.
+After creating each new article, run the full scan in dry-run mode to see pending
+media without changing unrelated pages. Then run a scoped dry run for the new
+article and generate only its missing or approved replacement media.
 
 ```bash
 .venv/bin/python tools/generate_cover_images.py \
-  --content-dir all --force --include-inline-images --workers 3
+  --content-dir all --force --include-inline-images --dry-run
+.venv/bin/python tools/generate_cover_images.py \
+  --content-dir articles --slug my-article-slug --force --include-inline-images --dry-run
 ```
 
-Run the dry-run form first when reviewing scope. After generation, run the media
-checker on every changed page and inspect generated covers before committing.
+Run the same scoped command without `--dry-run` when generation is needed. A
+site-wide write pass requires an explicit site-wide media request. Run only one
+media generator process at a time across article workers, even when its own
+`--workers` flag is greater than one. After generation, run the media checker on
+every changed page and inspect generated covers before committing.
 
 **Key flags:**
 
