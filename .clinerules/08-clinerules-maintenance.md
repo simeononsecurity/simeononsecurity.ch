@@ -126,6 +126,8 @@ or section if a local render is useful. Reserve the full multilingual build for
 site-wide changes or a release check. If a full build is required, run it in the
 background and inspect the generated output, not only the exit status.
 
+If a production-config build fails on an unrelated page, isolate a single article before attributing the failure to the changed content. Copy the article bundle into a temporary content directory, run the same language config with `--contentDir <temporary-content>` and a normal `--destination <temporary-output>`, then inspect the rendered article HTML. Remove a stale `.hugo_build.lock` only after confirming no Hugo process is running.
+
 ## Repository Skills and Routing
 
 Store shared repository skills in `.agents/skills/<name>/SKILL.md`. `AGENTS.md`
