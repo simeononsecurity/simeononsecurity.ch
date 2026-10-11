@@ -97,4 +97,4 @@ Evidence required: full test run and invalid command exit status.
 
 ## Next Steps
 
-**Continue with [Specialized Agent Evaluation](/articles/effective-ai-specialized-agent-evaluation/)**, an optional lesson before the capstone. For broader runtime choices, read the site's [agent harness guide](/articles/best-ai-agent-harnesses/).
+**Continue with [Specialized Agent Evaluation](/articles/effective-ai-specialized-agent-evaluation/)**, an optional lesson before the capstone. For broader runtime choices, read the site's [agent runtime guide](/articles/best-ai-agent-harnesses/).

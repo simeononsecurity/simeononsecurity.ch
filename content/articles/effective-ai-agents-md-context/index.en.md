@@ -1,5 +1,5 @@
 ---
-title: "AGENTS.md and CLAUDE.md: Give Coding Agents Useful Repository Context"
+title: "Write AGENTS.md and CLAUDE.md for Coding Agents"
 date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
@@ -44,7 +44,9 @@ coverCaption: ""
 - Do not commit, push, or publish during practice tasks.
 ```
 
-**The file is a map, not a transcript.** Keep approved values in `docs/requirements.md`, where their owner and revision live. Update that source when the requirement changes. The map should keep pointing to the source.
+**Store the test command proven during setup.** On Windows, replace `python3` with `py -3` in your own `AGENTS.md` if you used the Python launcher. Test the saved command before relying on the file.
+
+**The file is a map, not a transcript.** Keep approved values in `docs/requirements.md`, where their owner and revision live. Update the source when the requirement changes. The map should keep pointing to the source.
 
 **Codex and OpenCode support `AGENTS.md` project guidance.** Read the current [Codex project instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md) and [OpenCode instructions](https://opencode.ai/docs/rules/) before relying on exact file discovery behavior. File scope and precedence differ by tool and version.
 
@@ -59,11 +61,22 @@ Read `AGENTS.md` and `docs/requirements.md` before editing.
 Follow the repository test command in `AGENTS.md`.
 ```
 
+**Create a local guidance snapshot before the coding edit.** From the lab folder, add `AGENTS.md`. If you created `CLAUDE.md`, add it too. Make this human setup commit, then confirm a clean status. This is different from the later agent task, where the agent must not commit.
+
+```bash
+git add AGENTS.md
+# If you created CLAUDE.md, run: git add CLAUDE.md
+git commit -m "Add lab guidance"
+git status --short
+```
+
+**Expected status:** no file names appear. If status still lists a guidance file, add and commit it before starting the feature edit.
+
 **Claude Code reads `CLAUDE.md` as project guidance.** The [official memory guide](https://code.claude.com/docs/en/memory) describes current loading behavior. A pointer avoids two lengthy, conflicting rule sets.
 
 ## Resolve a Conflict
 
-**Imagine a stale chat summary** says “the status filter accepts `pending`.” The approved requirement says `open` and `done`. Ask the agent to name the conflict before editing.
+**Suppose a stale chat summary** says “the status filter accepts `pending`.” The approved requirement says `open` and `done`. Ask the agent to name the conflict before editing.
 
 ```text
 Read AGENTS.md and docs/requirements.md.
@@ -90,7 +103,7 @@ Do not edit files yet.
 
 ## Practice and Check
 
-**Your artifact:** `AGENTS.md`, an optional `CLAUDE.md` pointer, and a three-line project map naming requirement, implementation, and tests. Keep them in your extracted copy. Run the conflict prompt with your agent or answer it manually on the no-cost study route.
+**Your artifact:** a clean local guidance snapshot with `AGENTS.md`, an optional `CLAUDE.md` pointer, and a three-line project map naming requirement, implementation, and tests. Keep them in your extracted copy. Run the conflict prompt with your agent or answer it manually on the no-cost study route.
 
 **Expected reasoning:** the approved requirement controls the accepted values, instructions control the workflow, and tests check the output. A stale summary does not amend the requirement.
 
@@ -102,5 +115,8 @@ Do not edit files yet.
 - **Unexpected secret appears:** remove it from the practice copy and avoid sharing the affected text.
 
 ## Next Steps
+
+**This lesson teaches a beginner repository map.** The [GitHub AI Agent Workflow with Manifests and Actions](/articles/ai-collaboration-github-agents-actions/) covers manifests, trusted-base checks, and GitHub Actions for advanced team work.
+
 
 **Continue with [Task Packets for AI Agents](/articles/effective-ai-task-packets/)**. You will turn the approved requirement into a bounded edit request.

@@ -67,11 +67,14 @@ Source: docs/requirements.md, revision 1.
 Relevant files: task_report.py, tasks.json, tests/.
 Allowed changes: task_report.py and focused tests.
 Excluded: tasks.json, new dependencies, commits, pushes.
-Examples: no filter prints Total tasks: 4; open and done each print 2.
-Checks: run unit tests and three manual commands.
+Examples: no filter prints Total tasks: 4. Open and done each print 2.
+Checks: run unit tests and four manual commands: no filter, open, done, and invalid.
+The invalid value must exit nonzero with a clear error.
 Stop or ask: source conflict, missing file, unrelated failing baseline.
 Report: changed files, commands, observed outputs, unresolved issues.
 ```
+
+**On Windows,** use `py -3` in any packet command if your setup used the Python launcher.
 
 **The packet does not prescribe every line of code.** It gives the agent room to choose a small implementation while keeping the result testable.
 
@@ -83,11 +86,11 @@ Report: changed files, commands, observed outputs, unresolved issues.
 
 ## Practice a Stop Condition
 
-**Imagine the requirements file is missing.** The packet names it as the approved source. The correct next step is to stop and ask for the requirement, not infer accepted values from a stale chat or a sample issue.
+**Suppose the requirements file is missing.** The packet names it as the approved source. Stop and ask for the requirement instead of inferring accepted values from a stale chat or a sample issue.
 
-**Imagine the baseline tests fail before editing.** Record the failure and ask whether to fix the baseline first. A later green run does not isolate whether the filter task or the starting state caused the difference.
+**Suppose the baseline tests fail before editing.** Record the failure and ask whether to fix the baseline first. A later green run does not isolate whether the filter task or the starting state caused the difference.
 
-**Imagine the agent wants to commit.** The packet excludes commits. Ask it to stop after the diff and tests. You decide whether a later commit belongs in the project workflow.
+**Suppose the agent wants to commit.** The packet excludes commits. Ask it to stop after the diff and tests. You decide whether a later commit belongs in the project workflow.
 
 ## Check the Packet
 
@@ -104,4 +107,4 @@ Report: changed files, commands, observed outputs, unresolved issues.
 
 ## Next Steps
 
-**Continue with [Context Windows and Handoffs](/articles/effective-ai-context-window-management/)**. That lesson shows which details to keep when a task spans several conversations.
+**Continue with [Your First Coding Agent Task](/articles/effective-ai-coding-agent-first-task/)**. Use the packet to guide one small lab edit.

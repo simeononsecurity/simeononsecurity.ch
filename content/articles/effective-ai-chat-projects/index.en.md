@@ -14,7 +14,7 @@ coverCaption: ""
 
 #### [Return to the Practical AI Workflows Course](/effective-ai-course-start/)
 
-**Create a project when several conversations share the same purpose.** Put stable instructions and approved reference files in one place. Keep each conversation focused on one task. This lesson uses a fictional community workshop so you can practice without private data.
+**Create a project when several conversations share the same purpose.** Put stable instructions and approved reference files in one place. Keep each conversation focused on one task. This lesson uses a fictional community workshop for practice without private data.
 
 ## Key Takeaways
 
@@ -59,7 +59,7 @@ Draft messages only. Do not send or publish them.
 List factual changes after each revised draft.
 ```
 
-**ChatGPT Projects keep related chats, files, and instructions together.** Project settings and available features vary by plan and workspace. Record whether your project uses default or project-only memory because outside-project context differs. Use the [official ChatGPT Projects guide](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt) to check the current interface and memory options before relying on them.
+**ChatGPT Projects keep related chats, files, and instructions together.** Project settings and available features vary by plan and workspace. Record whether your project uses default or project-only memory because outside-project context differs. Use the [official ChatGPT Projects guide](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) to check the current interface and memory options before relying on them.
 
 ## Set Up Claude
 
@@ -68,11 +68,11 @@ List factual changes after each revised draft.
 3. **Set project instructions** to the same five lines.
 4. **Start a new chat inside the project** to test the setup.
 
-**Claude applies project instructions across chats in a project.** Its project knowledge supplies shared reference material. Use the uploaded files as the controlled facts. Project memory behavior varies by account and settings, so do not treat another chat's details as the approved schedule. Review [Claude's project setup guide](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) for current controls.
+**These steps describe classic Claude Projects.** Anthropic is rolling out a separate Projects beta to select Pro and Max Claude Code users. In the beta, one project is one conversation with parallel cloud threads. Check [What are Projects?](https://support.claude.com/en/articles/9517075-what-are-projects) and follow your account interface. Classic project instructions apply across chats, and project knowledge supplies shared reference material. Use the uploaded files as the controlled facts. Project memory behavior varies by account and settings, so do not treat another chat's details as the approved schedule. Review [Claude's project setup guide](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) for current controls.
 
 ## Test a Fresh Chat
 
-**Open a new conversation** inside either project. Ask for a short announcement. Omit the schedule from your prompt so the project sources do the work.
+**Open a new ChatGPT project conversation or a new classic Claude project chat.** In the Claude Projects beta, use a new thread in the project. Ask for a short announcement. Omit the schedule from your prompt so the project sources do the work.
 
 ```text
 Draft a 100-word email for the upcoming workshop.
@@ -121,4 +121,4 @@ Name the factual change and the source file. Do not send the message.
 
 ## Next Steps
 
-**Continue with [Your First Coding Agent Task](/articles/effective-ai-coding-agent-first-task/)**. That lesson moves from a chat project to a local code repository.
+**Continue with [AGENTS.md Repository Context](/articles/effective-ai-agents-md-context/)**. The next lesson moves from a chat project to a local code repository.

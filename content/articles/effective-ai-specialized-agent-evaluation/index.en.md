@@ -86,4 +86,4 @@ coverCaption: ""
 
 ## Next Steps
 
-**Continue with the [AI Workflow Capstone](/articles/effective-ai-capstone/)**. For a broader runtime comparison, use the site's [agent harness guide](/articles/best-ai-agent-harnesses/).
+**Continue with the [AI Workflow Capstone](/articles/effective-ai-capstone/)**. For a broader runtime comparison, use the site's [agent runtime guide](/articles/best-ai-agent-harnesses/).

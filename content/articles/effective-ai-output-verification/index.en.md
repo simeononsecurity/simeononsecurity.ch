@@ -63,7 +63,7 @@ python3 task_report.py tasks.json --status done
 python3 task_report.py tasks.json --status invalid
 ```
 
-**In the edited copy,** tests cover the new cases, counts are 4, 2, and 2, and the invalid value exits nonzero with a clear error. In a fresh starter copy, only the two baseline tests and total count of 4 pass. Record that state separately.
+**In the edited copy,** tests cover the new cases, counts are 4, 2, and 2, and the invalid value exits nonzero with a clear error. In a fresh starter copy, only the two baseline tests and total count of 4 pass. Record the starter state separately.
 
 **A failed feature test needs diagnosis.** If `open` prints 4, check whether the filter argument reaches the count function and whether the program compares the task's `status` field. Do not relabel a failed test as a passing result because the agent says the implementation is finished.
 

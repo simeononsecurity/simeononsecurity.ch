@@ -46,6 +46,7 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `15-hugo-internal-template-overrides-and-relative-urls.md` | `_internal/` template override pitfall, `relativeURLs` depth-relative path bug, ad-placement `.IsPage` bug |
 | `16-client-side-tools.md` | Client-side tool rules, derived-value recalculation, tool verification, ISO 7811-2 stripe encoding |
 | `18-article-translations.md` | Traffic-based translation scope, language coverage, source fidelity, and validation |
+| `19-effective-ai-workflow-course.md` | Beginner AI workflow course lab, lesson state, study routes, and validation |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create
