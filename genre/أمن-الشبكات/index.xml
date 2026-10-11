@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أمن الشبكات on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>أمن الشبكات on simeononsecurity</title><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link></image><link>https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link><description>Recent content in أمن الشبكات on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/genre/%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>Flock Finder: خريطة كاميرات Flock Safety ALPR</title><link>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><category>
+"تقنية الخصوصية"
+, "مراقبة مضادة"
+, "مشاريع مفتوحة المصدر"
+, "الحقوق الرقمية"
+, "أمن الشبكات"
+, "أدوات الخصوصية"
+, "اختراق الأجهزة"
+, "بحث الأمن"</category><guid>https://ar.simeononsecurity.com/articles/flock-finder-alpr-surveillance-mapping-tool/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Flock Finder هو أداة مفتوحة المصدر ترسم خرائط لأكثر من 40,000 كاميرا Flock Safety ALPR حول العالم باستخدام بيانات WiGLE WiFi وبصمة OUI. تعرف على آلية عملها وقيودها وأدوات الأجهزة للكشف في الوقت الفعلي.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-finder-open-source-alpr-camera-map.webp" length="281534" type="image/webp"/></item><item><title>فورتينت مقابل سيسكو: مقارنة كاملة لأمن الشبكات...</title><link>https://ar.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "الأمن السيبراني"
+, "شبكات المؤسسات"
+, "مقارنة الجدران النارية"
+, "البنية التحتية لتكنولوجيا المعلومات"
+, "معدات الشبكات"
+, "حلول الأمان"
+, "إدارة الشبكات"
+, "مقارنة التكنولوجيا"
+, "اتخاذ قرارات تكنولوجيا المعلومات"</category><guid>https://ar.simeononsecurity.com/articles/fortinet-vs-cisco-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة شاملة لحلول أمن الشبكات من فورتينت وسيسكو تشمل الجدران النارية، المحولات، SD-WAN، التسعير، معايير الأداء، وتوصيات النشر لعام 2026.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/fortinet-vs-cisco-network-security-comparison.webp" length="180640" type="image/webp"/></item><item><title>مشروع Flock-You للكشف: دليل إعداد مضادات المراقبة</title><link>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><category>
+"أجهزة أمنية"
+, "مضادات المراقبة"
+, "تقنية الخصوصية"
+, "مشاريع مفتوحة المصدر"
+, "تطوير ESP32"
+, "مراقبة WiFi"
+, "أدوات الخصوصية"
+, "الحقوق الرقمية"
+, "اختراق الأجهزة"
+, "أمن الشبكات"</category><guid>https://ar.simeononsecurity.com/articles/flock-you-detection-project-counter-surveillance-hardware-guide-2026/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+دليل تقني شامل لمشروع Flock-You مفتوح المصدر للكشف عن كاميرات ALPR الخاصة بـ Flock Safety باستخدام أجهزة ESP32. يتضمن تعليمات الإعداد وتفاصيل البرامج الثابتة وخيارات الشراء.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp" length="316522" type="image/webp"/></item><item><title>pfSense مقابل Firewalla مقابل OPNsense</title><link>https://ar.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</link><pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate><category>
+"أمن الشبكات"
+, "مقارنة الجدران النارية"
+, "حلول الأمن السيبراني"
+, "إدارة الشبكات"
+, "شبكة منزلية"
+, "أمن المؤسسات"
+, "ميزات الجدار الناري"
+, "برمجيات الأمان"
+, "حلول VPN"
+, "أمن أجهزة إنترنت الأشياء"</category><guid>https://ar.simeononsecurity.com/articles/pfsense-vs-firewalla-network-security-comparison/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+مقارنة شاملة لعام 2026 بين حلول الجدران النارية pfSense و Firewalla و OPNsense لأمن الشبكات المنزلية والمؤسسية. اعثر على الخيار الأفضل لاحتياجاتك.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/Network-Security-Shield.webp" length="111246" type="image/webp"/></item><item><title>أفضل 5 تقنيات لأمن لينكس وتقويته</title><link>https://ar.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><category>
+"التكنولوجيا"
+, "الأمن السيبراني"
+, "لينكس"
+, "أمن النظام"
+, "مفتوح المصدر"
+, "التقوية"
+, "تكنولوجيا المعلومات"
+, "حماية البيانات"
+, "أمن الشبكات"
+, "علوم الحاسوب"</category><guid>https://ar.simeononsecurity.com/articles/enhance-linux-security-techniques-guide/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+اكتشف أفضل 5 تقنيات لأمن لينكس لتعزيز نظامك ضد التهديدات. حسّن سلامة النظام واحمِ البيانات الحساسة بإجراءات تقوية متخصصة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/linux-security-penguin-warrior.webp" length="94342" type="image/webp"/></item><item><title>دورة Network+: بروتوكول ARP وبروتوكول اكتشاف الجيران</title><link>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "البروتوكولات"
+, "شهادة Network+"
+, "استكشاف الأخطاء وإصلاحها"
+, "أمن الشبكات"
+, "IPv4"
+, "IPv6"
+, "الاتصال الشبكي"
+, "حل العناوين"</category><guid>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعلم كيفية استخدام بروتوكول حل العناوين (ARP) وبروتوكول اكتشاف الجيران (NDP) بفعالية لتحويل عناوين IP إلى عناوين MAC، والتنقل في شبكات IPv6، وحل المشكلات الشائعة لتحسين أداء وأمان الشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item></channel></rss>

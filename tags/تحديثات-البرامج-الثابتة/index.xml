@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>تحديثات البرامج الثابتة on simeononsecurity</title><image><url>https://ar.simeononsecurity.com/img/banner.webp</url><title>تحديثات البرامج الثابتة on simeononsecurity</title><link>https://ar.simeononsecurity.com/tags/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D8%A8%D8%AA%D8%A9/</link></image><link>https://ar.simeononsecurity.com/tags/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D8%A8%D8%AA%D8%A9/</link><description>Recent content in تحديثات البرامج الثابتة on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>ar</language><lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/tags/%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AB%D8%A7%D8%A8%D8%AA%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>دورة Network+: بروتوكول ARP وبروتوكول اكتشاف الجيران</title><link>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"التقنية"
+, "الشبكات"
+, "البروتوكولات"
+, "شهادة Network+"
+, "استكشاف الأخطاء وإصلاحها"
+, "أمن الشبكات"
+, "IPv4"
+, "IPv6"
+, "الاتصال الشبكي"
+, "حل العناوين"</category><guid>https://ar.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعلم كيفية استخدام بروتوكول حل العناوين (ARP) وبروتوكول اكتشاف الجيران (NDP) بفعالية لتحويل عناوين IP إلى عناوين MAC، والتنقل في شبكات IPv6، وحل المشكلات الشائعة لتحسين أداء وأمان الشبكة.</description><enclosure url="https://ar.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>حماية Windows من عمليات التنفيذ التخمينية لهجمات القناة الجانبية</title><link>https://ar.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"برنامج Windows Specter Meltdown Mitigation Script"
+, "الهجمات التخمينية للقناة الجانبية"
+, "مايكروسوفت"
+, "شركة انتل"
+, "AMD"
+, "عبر"
+, "ذراع"
+, "ذكري المظهر"
+, "كروم"
+, "iOS"
+, "macOS"
+, "فرع الهدف حقن"
+, "الحدود تحقق من تجاوز"
+, "تحميل ذاكرة التخزين المؤقت للبيانات المارقة"
+, "تجاوز المتجر التخميني"
+, "أخذ عينات البيانات المعمارية الدقيقة"
+, "CVEs"
+, "تحديثات البرامج الثابتة"
+, "مستودع جيثب"
+, "بوويرشيل"</category><guid>https://ar.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+تعرف على كيفية حماية نظام Windows الخاص بك من هجمات القناة الجانبية للتنفيذ التخميني باستخدام البرنامج النصي للتخفيف وتحديثات البرامج الثابتة من Microsoft</description></item></channel></rss>

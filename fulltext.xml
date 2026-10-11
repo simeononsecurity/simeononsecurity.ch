@@ -1,0 +1,2281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>simeononsecurity</title><link>https://ar.simeononsecurity.com/</link><description>Recent content on simeononsecurity</description><generator>1337 H4X0R Generator</generator><language>ar</language><lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ar.simeononsecurity.com/fulltext.xml" rel="self" type="application/rss"/><item><title>بطاقتا RTX 5060 Ti مقابل GB10: لماذا تخسر 32 جيجابايت من VRAM أمام 128 جيجابايت من الذاكرة الموحدة</title><link>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/</guid><description>مقارنة قائمة على اختبار أداء بين بطاقتي RTX 5060 Ti بسعة 16 جيجابايت ونظام NVIDIA GB10 لتشغيل Qwen 3 27B والاستدلال المحلي بسياق طويل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>تبدو بطاقتا RTX 5060 Ti بسعة 16 جيجابايت خيارًا جذابًا في قائمة القطع.</strong> تمنحان 32 جيجابايت من VRAM الإجمالية وسرعة قوية لمعالجة المطالبات ذات السياق القصير. تتغير المقارنة عند تشغيل نموذج 27B بسياق طويل.</p>
+<p>يستخدم نظام NVIDIA GB10 ذاكرة موحدة متماسكة بسعة 128 جيجابايت. تدرج NVIDIA منصة GB10 مع 128 جيجابايت من ذاكرة LPDDR5x الموحدة وTDP للشريحة قدره 140 واط. تستخدم RTX 5060 Ti ذاكرة GDDR7 بسعة 16 جيجابايت لكل بطاقة، وواجهة ذاكرة 128 بت، وتصنيف قدرة رسومية إجمالية قدره 180 واط. توضح 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="مواصفات NVIDIA RTX 5060 Ti">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/">
+    <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >مواصفات NVIDIA RTX 5060 Ti</a>
+</span>
+ و
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="مواصفات NVIDIA GB10">
+    <meta itemprop="url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+   
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/2x-rtx-5060-ti-vs-gb10-ai-inference/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>خصوصية الذكاء الاصطناعي المحلي: ما يبقى على حاسوبك وما لا يبقى</title><link>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid><description>تتبّع المطالبات وملفات النماذج والأدوات والسجلات والتعرض الشبكي وتكاليف الطاقة قبل اختيار الاستدلال المحلي أو خدمة ذكاء اصطناعي مستضافة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يمنحك الذكاء الاصطناعي المحلي حداً أصغر للبيانات.</strong> تبقى المطالبة المعالجة عبر وقت تشغيل محلي على جهازك عندما يبقى النموذج والأدوات والسجلات ومسار الشبكة محلياً. لا تحوّل وحدة GPU المحلية الحاسوب إلى نظام مغلق.</p>
+<p>تحدد أوقات تشغيل النماذج وإضافات الأدوات وامتدادات المتصفح والوصول عن بُعد وواجهات API المكشوفة وتنزيلات النماذج مستوى الخطر. تهم التكلفة أيضاً. قد تتفوق الكهرباء على سعر الرموز المستضافة، بينما تؤجل ملكية العتاد نقطة التعادل الكاملة كثيراً.</p>
+<p>يرسم هذا الدليل حد الخصوصية أولاً. ثم يفحص التكلفة باستخدام أسعار الموردين الحالية وافتراض طاقة واضح والأرقام المبلغ عنها في الفيديو المقدم.</p>
+<p>توفر مقارنة التكلفة بين المحلي والمستضاف سياقاً للصيغ أدناه. لا تنسخ أرقام الإنتاجية دون اختبار ملف النموذج نفسه ووقت التشغيل نفسه على عتادك.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    disp
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-privacy-boundary/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>طفرة البنية التحتية للذكاء الاصطناعي في 2026: الطلب والديون والطاقة والأدلة</title><link>https://ar.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</link><pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/</guid><description>مراجعة موثقة للإنفاق على البنية التحتية للذكاء الاصطناعي، والطلب على كهرباء مراكز البيانات، وهياكل التمويل، وقيمة الشركات، والأدلة اللازمة قبل وصف السوق بأنه فقاعة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/futuristic-data-center-advanced-servers-tech.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>تتوسع البنية التحتية للذكاء الاصطناعي بوتيرة لم تضاهها إلا أسواق تقنية قليلة.</strong> الإنفاق حقيقي. والطلب على الطاقة حقيقي. ومخاطر التمويل حقيقية. أما العائد فليس مؤكدا بالقدر نفسه.</p>
+<p>السؤال المفيد ليس ما إذا كان الذكاء الاصطناعي موجودا. السؤال المفيد هو ما إذا كانت الإيرادات المستقبلية ومكاسب الإنتاجية ستبرر العتاد ومراكز البيانات وعقود الكهرباء والإيجارات والديون التي تدعم هذا التوسع.</p>
+<p>يفحص هذا المقال الأدلة العامة وراء النقاش حول فقاعة الذكاء الاصطناعي. تبقى التوقعات موسومة كتوقعات. وتبقى ادعاءات الشركات منفصلة عن الأبحاث المستقلة. النتيجة لا تثبت انهيارا وشيكا. لكنها توضح مواضع الضغط المالي والتشغيلي.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof yieldToMain === 'function') {
+    yieldToMain(loadLiteYouTubeScript, "user-visible");
+  } else {
+    loadLiteYouTubeScript();
+  }
+});
+</script>
+<style scoped>
+  .lite-youtube-fallback {
+    aspect-ratio: 16 / 9;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   
+  .lite-youtube-fallback::before {
+    display: block;
+    content: '';
+    border: solid transparent;
+    border-width: 2em 0 2em 3em;
+    border-left-color: red;
+  }
+  
+  .lite-youtube-fallback:hover::before {
+    border-left-color: #fff;
+  }
+  
+  .lite-youtube-fallback:focus {
+  
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-infrastructure-boom-economics-2026/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>هل تكفي ذاكرة VRAM بسعة 16GB للعمل الجاد مع نماذج LLM المحلية؟</title><link>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid><description>حدّد حجم إعداد LLM محلي بسعة 16GB وفق أوزان النموذج وذاكرة KV ومعالجة المطالبات. قارن ميزانيات ذاكرة Qwen3.8 27B وعرض نطاق GPU وتكاليف التملك.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>تدعم ذاكرة GPU المخصصة بسعة 16GB العمل الجاد مع نماذج LLM المحلية عندما تتوافق أوزان النموذج والسياق وبيئة التشغيل. تحميل الأوزان يثبت المتطلب الأول فقط. يحتاج الإعداد المفيد أيضاً إلى ذاكرة تكفي للمحادثة الجارية وسرعة تكفي لإنهاء مهمتك.</p>
+<p>استخدم Qwen3.8 27B مثالاً عملياً لتقدير ميزانية سير عمل للبرمجة أو المستندات لمستخدم واحد. ابدأ بالسياق الذي تحتاجه مهمتك، ثم اختر الأوزان وإعدادات بيئة التشغيل التي تناسب الذاكرة المتبقية. تم فحص مواصفات العتاد ومصادر النموذج في 7 أكتوبر 2026.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li>خصص ذاكرة للسياق قبل اختيار مستوى التكميم.</li>
+<li>قِس معالجة المطالبة منفصلة عن سرعة الإخراج.</li>
+<li>عطّل دعم الرؤية غير المستخدم واختبر ذاكرة KV بمقدار 8 بت.</li>
+<li>قارن بطاقة GPU وواجهة الخلفية وملف النموذج وطول المطالبة بدقة.</li>
+<li>احسب الوفر من التملك وفق عبء عملك وفاتورة مزود الخدمة.</li>
+</ul>
+<p>تحتاج في تمرين إعداد الميزانية إلى سجل ذاكرة بيئة التشغيل واسم ملف النموذج بدقة ومهمة تمثيلية. خصص نحو 20 دقيقة للإعداد وتسجيل النتائج، إضافة إلى وقت الاستدلال. مستوى الصعوبة متوسط.</p>
+<h2 id="طابق-الذاكرة-مع-العمل">
+  <a href="#%d8%b7%d8%a7%d8%a8%d9%82-%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-%d9%85%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d9%84" title="طابق الذاكرة مع العمل">طابق الذاكرة مع العمل</a>
+  <a href="#%d8%b7%d8%a7%d8%a8%d9%82-%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-%d9%85%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d9%84" class="h-anchor" aria-hidden="true" title="طابق الذاكرة مع الع
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>10 إضافات ومهارات وأدوات MCP لـ Claude Code: دليل عملي</title><link>https://ar.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid><description>اختر إضافات Claude Code للتخطيط ومراجعة الكود وإدارة المعرفة والتصميم والأتمتة. قارن بين عشرة أدوات وتبعيات وفحوص عملية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>اختر امتداد Claude Code حول مشكلة محددة في سير عملك.</strong> تحتاج المتطلبات غير الواضحة إلى محادثة تخطيط. تحتاج العيوب التي لم تُكتشف إلى مراجعة واختبارات. تحتاج الأبحاث المتكررة إلى مصادر قابلة للتتبع. لا تفيدك كثرة الأدوات إلا عندما تكون مسؤولياتها واضحة.</p>
+<p>يقارن هذا الدليل بين <strong>عشرة مشاريع</strong> لهذه المهام، مع أمثلة إعداد وتمرين تقييم عملي. يستند التحليل إلى وثائق المشاريع الحالية وفيديو Chase AI المقدم. التوصيات أحكام تحريرية، وليست قياسات أداء عملية أو دليلاً على زيادة إنتاجية بمقدار عشرة أضعاف.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>اختر حسب الناتج:</strong> تحتاج الخطة التي تمت مراجعتها وخريطة الكود والصورة المولدة إلى أدوات مختلفة.</li>
+<li><strong>افصل طبقات التثبيت:</strong> تختلف تبعيات التعليمات والبرامج القابلة للتنفيذ والإضافات واتصالات الخدمات.</li>
+<li><strong>تحقق من الأسماء الحالية:</strong> توجد Graphify وgrill-me-codex الآن في موقعي مستودعات أساسيين مختلفين.</li>
+<li><strong>تحقق بأكثر من الاتفاق:</strong> لا يثبت قبول نموذجين لخطة أن التنفيذ صحيح.</li>
+<li><strong>قس العمل المقبول:</strong> سجّل الإعداد واستخدام الخدمة والمحاولات الفاشلة وتصحيحات الإنسان.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" title="قبل أن تبدأ">قبل أن تبدأ</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" class="h-anchor" aria-hidden="true" title="قبل أن تبدأ">#</a>
+</h2>
+<p><strong>المتطلبات المسبقة:</strong> تثب
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>9 مشاريع لمهارات وكلاء الذكاء الاصطناعي للبحث والتصميم والتطوير</title><link>https://ar.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ai-agent-skills-research-design-development/</guid><description>قارن تسعة مشاريع لمهارات الوكلاء حسب سير العمل ودعم المضيف والاعتماديات والتكلفة. تعلّم تثبيت المهارات التي تحتاج إليها وفحصها واختبارها.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/agent-skill-workflow-library.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>ثبّت مهارة وكيل لتحسين مهمة متكررة.</strong> يتطلب البحث في النقاشات الحالية ومراجعة تصميم الواجهة وتصيير الفيديو إجراءات واعتماديات مختلفة. توفر المهارة المفيدة التعليمات أو المواد المرجعية أو البرامج النصية الناقصة لإحدى هذه المهام.</p>
+<p><strong>تستحق تسعة مشاريع الدراسة:</strong> last30days وHumanizer وImpeccable وSuperpowers وgstack وClaude Video وRemotion وHyperFrames وNVIDIA SkillSpector. بعضها حزم تعليمات، وبعضها يتضمن أدوات قابلة للتنفيذ، وبعضها أطر عمل مع مهارات مرافقة. يقارن هذا الدليل أدوارها الموثقة ويقدم طريقة عملية لاختيار المهارات التي تحتاج إليها وتثبيتها وتقييمها.</p>
+<p><strong>لقطة توثيقية في 10 أكتوبر 2026.</strong> تعكس التوصيات توثيق المشاريع وفحص المصدر، وليست معياراً مقارناً لجودة المخرجات. التثبيت المجاني لا يثبت مجانية الاستدلال أو التصيير أو الوصول إلى البيانات أو الاستخدام التجاري.</p>
+<h2 id="أهم-الاستنتاجات">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d9%86%d8%aa%d8%a7%d8%ac%d8%a7%d8%aa" title="أهم الاستنتاجات">أهم الاستنتاجات</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d9%86%d8%aa%d8%a7%d8%ac%d8%a7%d8%aa" class="h-anchor" aria-hidden="true" title="أهم الاستنتاجات">#</a>
+</h2>
+<ul>
+<li><strong>ابدأ بمهمة متكررة:</strong> اختر مهارة ذات مخرج واضح وفحص قبول محدد.</li>
+<li><strong>افصل المهارات عن أوقات التشغيل:</strong> تثبيت التعليمات لا يثبت تثبيت كل ملف تنفيذي مطلوب.</li>
+<li><strong>افحص المضيف:</strong> تكامل Claude Code العامل لا يثبت تطابق سلوك Codex أو Cowork.</li>
+<li><strong>افحص الصلاحيات والاعتماديات:</strong> تحتاج أوامر الحزم والخطافات والخدمات الخارجية وبيانات الاعتماد إلى اهتمام منفصل.</li>
+<li><strong>خصص بعد الاخت�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-agent-skills-research-design-development/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Claude Code CLI مقابل Desktop: مقارنة سير العمل لعام 2026</title><link>https://ar.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid><description>قارن Claude Code في الطرفية ومساحة عمل Code على سطح المكتب، مع الإعدادات المشتركة وتسليم الجلسة والبرمجة النصية والمراجعة المرئية وخيارات الأذونات.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يوفر Claude Code CLI وDesktop</strong> طريقتين لتوجيه وكيل البرمجة من Anthropic. تفضل CLI سير عمل shell والاستدعاء البرمجي. يفضل Desktop مساحة عمل مرئية للمشروع تعرض تغييرات الملفات والمراجعة بجانب المحادثة.</p>
+<p><strong>تتناول هذه المقارنة مساحة عمل البرمجة على سطح المكتب</strong>، وهي موصوفة باسم علامة Code في 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="دليل البدء السريع لسطح المكتب">
+    <meta itemprop="url" content="https://code.claude.com/docs/en/desktop-quickstart">
+    <a href="https://code.claude.com/docs/en/desktop-quickstart"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >دليل البدء السريع لسطح المكتب</a>
+</span>
+ من Anthropic. لا تشمل المقارنة الدردشة العامة وسير العمل الأخرى على سطح المكتب. يهم هذا الفرق عند فحص الوصول إلى المستودع والإعداد.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>استخدم CLI للبرامج النصية</strong> والإدخال عبر الأنابيب والعمل المتمركز حول الطرفية.</li>
+<li><strong>استخدم Desktop للإشراف الرسومي</strong> والمرفقات ومراجعة diff.</li>
+<li><strong>يقلل الإعداد المشترك التكرار</strong>، لكن سلوك الجلسة وعناصر التحكم المتاحة يختلفان.</li>
+<li><strong>يتطلب نقل المحادثة تسليماً مدعوماً</strong>، وليس نسخ prompt إلى دردش�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/claude-code-cli-vs-desktop/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>Codex CLI مقابل سطح المكتب: مقارنة سير العمل لعام 2026</title><link>https://ar.simeononsecurity.com/articles/codex-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/codex-cli-vs-desktop/</guid><description>اختر بين Codex في الطرفية ومساحة البرمجة المكتبية من OpenAI. قارن البرمجة النصية، وأشجار العمل، والمراجعة المرئية، والجداول، وبيئات التنفيذ.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/codex-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>يناسب <strong>Codex CLI</strong> سير عمل تقوده الصدفة مع أوامر صريحة وتشغيلات قابلة للبرمجة. يناسب <strong>Codex على سطح المكتب</strong> العمل المنظم حول المشاريع والمحادثات والمخرجات المرئية ولوحات المراجعة. اختر الواجهة وفق طريقة إشرافك على العمل، مع إبقاء النموذج والمستودع وسياسة التنفيذ متسقة.</p>
+<p><strong>ملاحظة حول التسمية:</strong> تعيد وثائق تطبيق Codex السابقة من OpenAI التوجيه الآن إلى 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="وثائق تطبيق ChatGPT لسطح المكتب">
+    <meta itemprop="url" content="https://learn.chatgpt.com/docs/app">
+    <a href="https://learn.chatgpt.com/docs/app"
+    
+        
+            
+                
+                    rel="noopener external" target="_blank"
+                
+            
+        
+    >وثائق تطبيق ChatGPT لسطح المكتب</a>
+</span>
+. يستخدم هذا الدليل عبارة “Codex desktop” لسير عمل البرمجة داخل التطبيق. ولا يساوي بين محادثة عادية بلا وصول إلى مستودع وبين وكيل برمجة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>استخدم CLI لتركيب أوامر الصدفة</strong> وللتشغيلات البرمجية القابلة للتكرار.</li>
+<li><strong>استخدم سطح المكتب لتنظيم المشاريع</strong> والمراجعة المرئية وإدارة المهام المجدولة.</li>
+<li><strong>اجعل موقع التنفيذ صريحًا</strong> خصوصًا عند العمل عبر اتصالات بعيدة.</li>
+<li><
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/codex-cli-vs-desktop/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>GitHub Copilot CLI مقابل VS Code: مقارنة سير العمل لعام 2026</title><link>https://ar.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/</guid><description>قارن بين وكيل Copilot الطرفي وتجربته في VS Code، بما يشمل سياق المحرر والفروق المرئية ووضع الوكيل وتكامل CLI وسياسات الحساب.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/github-copilot-cli-vs-vscode.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يقدم GitHub Copilot CLI وCopilot في VS Code نقطتي دخول مختلفتين للعمل البرمجي.</strong> يبدأ CLI من الصدفة وموجه المهمة. يجمع VS Code سياق المحرر والاقتراحات والدردشة وسير عمل الوكيل. يجب تقييمهما ضمن سياسة الحساب والمستودع نفسها.</p>
+<p><strong>الاختيار ليس حصريًا.</strong> توثق GitHub اتصال Copilot CLI بـ VS Code. تستفيد المهمة الطرفية من تحديد المحرر والمراجعة المرئية عند وصلهما صراحة.</p>
+<h2 id="أهم-الخلاصات">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a7%d8%aa" title="أهم الخلاصات">أهم الخلاصات</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a7%d8%aa" class="h-anchor" aria-hidden="true" title="أهم الخلاصات">#</a>
+</h2>
+<ul>
+<li><strong>استخدم Copilot CLI للمهام الطرفية</strong> والاستدعاء البرمجي المدعوم.</li>
+<li><strong>استخدم Copilot في VS Code للعمل المتمحور حول المحرر</strong>، بما في ذلك المساعدة المضمنة ووضع Agent.</li>
+<li><strong>صل CLI بـ VS Code</strong> عند الحاجة إلى موجهات طرفية مع سياق المحرر والفروق.</li>
+<li><strong>تحقق من إعدادات الحساب والنموذج والسياسة</strong> حتى داخل عائلة منتج واحدة.</li>
+</ul>
+<p><strong>النطاق والتاريخ:</strong> فُحصت الوثائق الرسمية في 10 أكتوبر 2026. تقارن هذه الصفحة CLI المستقل <code>copilot</code> مع Copilot في VS Code، ولا تقارن إضافة <code>gh copilot</code> القديمة أو وكيلًا سحابيًا أُسندت إليه مشكلة GitHub. المتطلبات مستودع قابل للاختبار ووصول مسموح إلى Copilot. خصص ساعة للتجربة.</p>
+<h2 id="ثلاث-طرق-للعمل">
+  <a href="#%d8%ab%d9%84%d8%a7%d8%ab-%d8%b7%d8%b1%d9%82-%d9%84%d9%84%d8%b9%d9%85%d9%84" title="ثلاث طرق للعمل">ثلاث طرق للعمل</a>
+  <a href="#%d8%ab%d9%84%d8%a7%d8%ab-%d8%b7%d8%b1%d9%82-%d9%84%d9%84%d8%b9%d9%85%d9%84" class="h-anchor" aria-hidden="true" title="ثلاث طرق للعمل">#</a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>سير العمل</th>
+	
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/github-copilot-cli-vs-vscode/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode CLI مقابل سطح المكتب: مقارنة سير العمل لعام 2026</title><link>https://ar.simeononsecurity.com/articles/opencode-cli-vs-desktop/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/opencode-cli-vs-desktop/</guid><description>قارن بين عميلَي OpenCode الطرفي وسطح المكتب من خلال بنية الخادم، وإعداد المزود، والبرمجة النصية، وحالة الجلسة، واستكشاف الأخطاء وإصلاحها.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/opencode-cli-vs-desktop.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>OpenCode CLI وسطح المكتب عميلان لمنتج وكيل البرمجة نفسه.</strong> تناسب الواجهة الطرفية العمل المعتمد على لوحة المفاتيح والبرامج النصية. يوفر تطبيق سطح المكتب مساحة عمل رسومية. تشمل المقارنة المهمة الخادم والمشروع والمزود والإعداد خلف كل عميل.</p>
+<p><strong>اختر الواجهة بعد تحديد الواجهة الخلفية.</strong> لا تستخدم نافذتا OpenCode بالضرورة الخادم أو الجلسة نفسيهما. تطبيق سطح مكتب يتصل بخادم مختلف هو بيئة تنفيذ مختلفة، حتى لو بدا اسم النموذج مألوفًا.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>استخدم CLI للعمل الطرفي</strong> والأوامر غير التفاعلية.</li>
+<li><strong>استخدم سطح المكتب لمساحة عمل رسومية</strong> مع التحقق من الخادم المحدد.</li>
+<li><strong>يحدد إعداد المزود الاستدلال</strong> بصورة مستقلة عن الواجهة.</li>
+<li><strong>لا يضمن تطابق هوية المنتج تطابق حالة الجلسة</strong> عبر الخوادم أو الإصدارات المنفصلة.</li>
+</ul>
+<p><strong>النطاق والتاريخ:</strong> تم التحقق من الوثائق الرسمية في 6 أكتوبر 2026. تقارن هذه الصفحة الواجهات، ولا تقارن جودة النماذج. تحتاج إلى مستودع واتصال مزود عامل ومعرفة أساسية بالطرفية. خصص 45 إلى 60 دقيقة للتجربة.</p>
+<h2 id="العميل-والخادم">
+  <a href="#%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84-%d9%88%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85" title="العميل والخادم">العميل والخادم</a>
+  <a href="#%d8%a7%d9%84%d8%b9%d9%85%d9%8a%d9%84-%d9%88%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85" class="h-anchor" aria-hidden="true" title="العميل والخادم">#</a>
+</h2>
+<p><strong>يفصل OpenCode الواجهة عن الخادم.</strong> تصف 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/opencode-cli-vs-desktop/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>OpenCode مقابل Claude Code: مقارنة وكلاء البرمجة لعام 2026</title><link>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/</guid><description>قارن بين OpenCode وClaude Code في اختيار النماذج والاستدلال المحلي والأسعار والأذونات وتعليمات المشروع وسير عمل البرمجة اليومي.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يناسب OpenCode</strong> المطورين الذين يريدون التحكم في موفري النماذج وإعداد الوكيل والاستدلال المحلي. <strong>يناسب Claude Code</strong> المطورين الذين يريدون سير عمل البرمجة المتكامل من Anthropic، والوصول إلى Claude عبر الاشتراك، وضوابط مؤسسية موثقة. يعمل كلاهما داخل مستودعات حقيقية. تعتمد النتائج المفيدة على تنفيذ الأدوات وتعليمات المشروع والتحقق.</p>
+<p><strong>الوكيل والنموذج خياران منفصلان.</strong> يؤدي الانتقال من Claude Code مع نموذج Claude مستضاف إلى OpenCode مع نموذج محلي صغير إلى تغيير عدة متغيرات دفعة واحدة. لا تثبت فروق النتائج أي تطبيق وكيل أفضل.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>اختر OpenCode لمرونة الموفرين</strong> والتخصيص مفتوح المصدر والتجارب عبر النماذج المستضافة أو المحلية.</li>
+<li><strong>اختر Claude Code لسير عمل يركز على Claude</strong>، خاصة إذا كان اشتراكك أو مؤسستك يدعمه بالفعل.</li>
+<li><strong>يتطلب التنفيذ المحلي توضيحا.</strong> يظل تطبيق الطرفية يرسل المطالبات إلى خدمة الاستدلال المهيأة له.</li>
+<li><strong>قارن العمل المكتمل</strong>، بما في ذلك وقت المراجعة والمحاولات الفاشلة، بدلا من سرعة الرموز وحدها.</li>
+</ul>
+<p><strong>النطاق والتاريخ:</strong> تراجع هذه المقارنة الوثائق الرسمية والأسعار في 6 أكتوبر 2026. تقدم إرشادات للاختيار، وليست اختبار أداء عمليا.</p>
+<p><strong>المتطلبات:</strong> مستودع Git، وأوامر بناء واختبار عاملة، ووصول إلى النموذج المقصود. خصص من 60 إلى 90 دقيقة للمقارنة الأولية بعد �
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/opencode-vs-claude-code/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أفضل أطر وكلاء الذكاء الاصطناعي في 2026: اختر حسب سير العمل</title><link>https://ar.simeononsecurity.com/articles/best-ai-agent-harnesses/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/best-ai-agent-harnesses/</guid><description>مقارنة Deep Agents وClaude Agent SDK وOpenAI Agents SDK وPydantic AI وPi وLangGraph حسب تنفيذ الأدوات والذاكرة والاسترداد وجهد التكامل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/ai-agent-execution-components.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>Deep Agents هو أول خيار لدي لوكيل عام بنماذج قابلة للتهيئة وإدارة سياق مدمجة.</strong> يناسب Claude Agent SDK تضمين سلوك تنفيذ Claude Code. يستحق OpenAI Agents SDK وPydantic AI تجربة للوكلاء الخاصين بالتطبيقات، بينما يفضل Pi نواة صغيرة قابلة للتوسعة ويفضل LangGraph التحكم الصريح في سير العمل.</p>
+<p><strong>يعتمد الاختيار الأفضل على العمل الذي ستقبله.</strong> يحتاج مساعد البحث ومحرر المستودع وخدمة معالجة طلبات العملاء إلى أدوات وقواعد استرداد مختلفة. هذه التوصيات أحكام تحريرية مستندة إلى الوثائق الرسمية التي فُحصت في <strong>10 أكتوبر 2026</strong>، وليست نتائج اختبار أداء عملي.</p>
+<h2 id="الخلاصات-الرئيسية">
+  <a href="#%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" title="الخلاصات الرئيسية">الخلاصات الرئيسية</a>
+  <a href="#%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9" class="h-anchor" aria-hidden="true" title="الخلاصات الرئيسية">#</a>
+</h2>
+<ul>
+<li><strong>اختر مستوى التجريد أولاً:</strong> وكيل مُجمّع أو حزمة تطبيق أو بيئة تشغيل لسير العمل.</li>
+<li><strong>افحص حدود التنفيذ:</strong> موافقة الأداة وعزل نظام الملفات وسياسة الشبكة تحل مشكلات مختلفة.</li>
+<li><strong>اختبر الاسترداد:</strong> لا يمنع سجل المحادثة وحده تكرار الأفعال الخارجية.</li>
+<li><strong>قس العمل المقبول:</strong> أدرج الإخفاقات ووقت المراجعة والبنية التحتية في مقارنة التكلفة.</li>
+<li><strong>أبق النموذج صريحاً:</strong> تغيير النموذج وبرنامج الوكيل معاً يختبر النظام الكامل، لا البرنامج وحده.</li>
+</ul>
+<h2 id="ما-الذي-يوفره-الإطار">
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%88%d9%81%d8%b1%d9%87-%d8%a7%d9%84%d8%a5%d8%b7%d8%a7%d8%b1" title="ما الذي يوفره الإطار">ما 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/best-ai-agent-harnesses/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>أي نموذج ذكاء اصطناعي محلي ينبغي أن تشغّل؟ دليل GPU للسياق والبرمجة لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid><description>دليل عملي لشهر أكتوبر 2026 لاختيار نماذج الذكاء الاصطناعي المحلية لوكلاء البرمجة. قارن ذاكرة GPU، ونمو KV-cache، وحجم السياق، وجودة التكميم، ومعالجة المطالبات، وإعدادات الاستدلال، وتكاليف الاستئجار السحابي.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>أفضل نموذج برمجة محلي هو النموذج الذي يحتفظ بقدر كاف من مشروعك في الذاكرة ويقرأه بسرعة تكفي ليظل مفيدا.</strong> يظل حجم النموذج مهما، لكن النموذج الذي لا يلائم إلا بعد نقله إلى ذاكرة النظام غالبا ما يكون أسوأ من نموذج أصغر ذي نافذة سياق مستقرة.</p>
+<p><em>اختر النموذج وميزانية الذاكرة معا. لا تختَر نموذجا من قائمة ترتيب ثم تفرضه على عتاد غير مناسب.</em></p>
+<p>يركز هذا الدليل على وكلاء البرمجة، لا على مطالبات الإكمال القصيرة. يقرأ الوكيل الملفات، ومخرجات الأدوات، وأخطاء المترجم، ونتائج الاختبارات قبل أن يكتب إصلاحا. تستهلك هذه المدخلات السياق، ويغير السياق قرار العتاد.</p>
+<h2 id="الفيديو-مرجع">
+  <a href="#%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d9%85%d8%b1%d8%ac%d8%b9" title="الفيديو مرجع">الفيديو مرجع</a>
+  <a href="#%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88-%d9%85%d8%b1%d8%ac%d8%b9" class="h-anchor" aria-hidden="true" title="الفيديو مرجع">#</a>
+</h2>
+<p>يقارن الفيديو التالي بين نماذج محلية عبر عدة مستويات من ذاكرة GPU. يفيد في ملاحظاته العملية حول اختيار النموذج ونتائج العتاد التي أبلغ عنها. يتبع هذا المقال مسارا مستقلا عبر تنظيم القرار حول سلوك الذاكرة، وسياق الوكيل، ومعالجة المطالبات، وتكلفة الملكية الكاملة.</p>
+<script>
+
+function loadLiteYouTubeScript() {
+  
+  if (document.querySelector('script[src^="/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"]')) {
+      console.log('Lite YouTube script is already loaded.');
+      return; 
+  }
+
+  
+  var scriptTag = document.createElement('script');
+  scriptTag.src = '/p/jsdelivr/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js';
+  scriptTag.setAttribute('defer', '');
+  scriptTag.setAttribute('type', 'module');
+  scriptTag.setAttribute('fetchpriority', 'low');
+
+  
+  document.body.appendChild(scriptTag);
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  
+  if (typeof y
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>البرمجة بالذكاء الاصطناعي المحلي على وحدة معالجة رسومية بسعة 16GB: Strata وOpenCode وQwen3.8</title><link>https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><description>شغّل وكيل برمجة محليًا باستخدام Strata وOpenCode. افحص نتائج RTX 4060 Ti المعلنة، ومتطلبات الذاكرة، وإعادة استخدام المطالبات، وميزانيات الاستدلال، وحدود استبدال الاشتراك المدفوع.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>وكيل برمجة محلي على وحدة معالجة رسومية بسعة 16GB خيار عملي لمهام التطوير المحددة.</strong> يجمع Strata وOpenCode بين الاستدلال المحلي وتحرير الملفات وأوامر الصدفة وتنفيذ الاختبارات. أتم تشغيل معلن لـ Qwen3.8-Flash-Next على RTX 4060 Ti تطبيقًا وتغييرات لاحقة ونموذجًا أوليًا للعبة سباق دون استدعاءات استدلال مدفوعة.</p>
+<p><strong>استبدال الاشتراك يحتاج إلى اختبار أوسع.</strong> تعرض النتائج المنشورة إعدادًا عاملًا على جهاز واحد. لا تثبت النتائج التكافؤ مع خدمات البرمجة المدفوعة عبر اللغات والمستودعات أو مهام تصحيح الأخطاء الصعبة. يضم العتاد أيضًا 64GB من ذاكرة النظام، وتحمل هذه الذاكرة جزءًا كبيرًا من النموذج.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>16GB تصف ذاكرة GPU</strong>، وليست إجمالي الذاكرة المطلوبة للإعداد المعلن.</li>
+<li><strong>إعادة استخدام المطالبة مهمة</strong> لأن وكلاء البرمجة يرسلون سجل محادثة متداخلًا مرارًا.</li>
+<li><strong>الاستدلال يحتاج إلى ميزانية</strong> كي يترك التخطيط مساحة للشيفرة واستدعاءات الأدوات.</li>
+<li><strong>نجاح الاختبارات المولدة دليل جزئي</strong>، بينما يحتاج Docker واللعب إلى فحوص منفصلة.</li>
+<li><strong>انعدام إنفاق API لا يلغي تكاليف الملكية</strong> والكهرباء ووقت الصيانة.</li>
+</ul>
+<p><strong>المتطلبات السابقة:</strong> حاسوب متوافق، ومساحة تخزين حرة كافية للنموذج المختار، وGit، وNode.js مع npm، ومعرفة بأدوات الطرفية. طابق إعداد IQ3_S المعلن مع 64GB من RAM. استخدم مُثبّت Strata الحالي لفح
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>الذكاء الاصطناعي المحلي مقابل ChatGPT: ما مدى اقترابنا؟</title><link>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/</guid><description>قارن الذكاء الاصطناعي المحلي مع ChatGPT وClaude عبر درجات الاختبارات، وتقديرات الذاكرة، وسرعة الخدمة، والتحقق من الوكلاء. يشمل RTX 5090 وDGX Spark وMac Studio.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>يمثل <strong>الذكاء الاصطناعي المحلي</strong> خياراً عملياً للمهام المحددة ذات الفحوص الواضحة. استبدال العمل الذي تمنحه إلى ChatGPT أو Claude يتطلب توافق قدرة النموذج والذاكرة المتاحة ووكيل يفحص الناتج ويتحقق منه.</p>
+<p>يحتاج النموذج الذي يناسب محطة عملك إلى أدوات مناسبة وسرعة كافية لتكرار المحاولات. يفصل هذا المقال بين نتائج الاختبارات وتقديرات الذاكرة وأدلة إنجاز المهام، كي تقيم كل جانب بمفرده.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>القدرة:</strong> تصف الدرجات المرجعية إعدادات تقييم محددة، لا نسختك المحلية المكممة.</li>
+<li><strong>الذاكرة:</strong> خصص مساحة للأوزان وذاكرة السياق ومصاريف التشغيل معاً.</li>
+<li><strong>السرعة:</strong> إعادة محادثة وكيل تقيس أداء الخدمة، لا صحة النتيجة.</li>
+<li><strong>التحقق:</strong> يحتاج الوكيل إلى فحوص تناسب النتيجة المطلوبة.</li>
+<li><strong>الاختيار:</strong> قارن المهام المتكررة ووقت الإصلاح والتكلفة الكاملة قبل شراء العتاد.</li>
+</ul>
+<h2 id="اقرأ-الدرجات-ضمن-سياقها">
+  <a href="#%d8%a7%d9%82%d8%b1%d8%a3-%d8%a7%d9%84%d8%af%d8%b1%d8%ac%d8%a7%d8%aa-%d8%b6%d9%85%d9%86-%d8%b3%d9%8a%d8%a7%d9%82%d9%87%d8%a7" title="اقرأ الدرجات ضمن سياقها">اقرأ الدرجات ضمن سياقها</a>
+  <a href="#%d8%a7%d9%82%d8%b1%d8%a3-%d8%a7%d9%84%d8%af%d8%b1%d8%ac%d8%a7%d8%aa-%d8%b6%d9%85%d9%86-%d8%b3%d9%8a%d8%a7%d9%82%d9%87%d8%a7" class="h-anchor" aria-hidden="true" title="اقرأ الدرجات ضمن سياقها">#</a>
+</h2>
+<p>يجمع <strong>Artificial Analysis Intelligence Index</strong> عدة تقييمات في درجة مرجعية. تعرض 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/local-ai-vs-chatgpt-how-close-are-we/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>مقارنة وكلاء البرمجة الرسومية: Cursor وWindsurf وCline وCopilot وContinue</title><link>https://ar.simeononsecurity.com/articles/gui-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/gui-coding-agents-comparison/</guid><description>قارن وكلاء البرمجة الرسومية، وافصل بين المحررات الكاملة والإضافات، وافحص سياق إيقاف Roo Code والوصول إلى النماذج والموافقات وسير عمل المراجعة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/gui-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>تضع <strong>وكلاء البرمجة الرسومية</strong> محادثات المهام بجانب الملفات والفروقات والتشخيصات ومعاينات التطبيقات. يقارن هذا الدليل بين Cursor، وخط منتجات Windsurf/Cascade، وإضافة Cline في VS Code، وGitHub Copilot في VS Code، وإضافة Continue للـ IDE. يظهر Roo Code كخيار ترحيل قديم لأن وثائقه تعلن الآن عن إيقافه.</p>
+<p><strong>اختر مساحة العمل قبل النموذج.</strong> يغيّر المحرر المستقل بيئة التطوير لديك. تضيف الإضافة وكيلاً إلى محرر موجود. قيّم التصحيح الناتج والجهد المطلوب لفحصه.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>Cursor وخط منتجات Windsurf</strong> ينتميان إلى مجموعة المحررات الكاملة.</li>
+<li><strong>Cline وCopilot وContinue</strong> تقدم سير عمل للوكلاء داخل محرر موجود.</li>
+<li><strong>يحتاج Roo Code إلى تخطيط للترحيل</strong>، وليس إلى معاملة كعملية نشر جديدة عادية.</li>
+<li><strong>تحتاج التغييرات المرئية إلى اختبارات</strong> ومراجعة للتبعيات وقرار قبول واضح.</li>
+</ul>
+<p><strong>النطاق والتاريخ:</strong> فُحصت الوثائق الرسمية في 6 أكتوبر 2026. هذه مقارنة لسير العمل، وليست معياراً للسرعة أو جودة البرمجة. تغطي 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="مقارنة CLI">
+    <meta itemprop="url" content="/articles/cli-coding-agents-comparison/">
+    <a href="/articles/cli-coding-agents-comparison/"
+    
+ 
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/gui-coding-agents-comparison/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>مقارنة وكلاء البرمجة عبر CLI: Claude Code وCodex وGemini وOpenCode وCopilot وAider</title><link>https://ar.simeononsecurity.com/articles/cli-coding-agents-comparison/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/cli-coding-agents-comparison/</guid><description>قارن ستة وكلاء برمجة طرفية حسب سير العمل والأتمتة والوصول إلى النماذج والأذونات وجهد المراجعة. أنشئ قائمة مختصرة عبر تجربة متكررة في المستودع.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/cli-coding-agents-comparison.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>تشترك <strong>وكلاء البرمجة الطرفية</strong> في واجهة مألوفة، لكنها تختلف في جمع السياق وتحرير الملفات وطلب الموافقة والاندماج مع النصوص البرمجية. يقارن هذا الدليل Claude Code CLI وCodex CLI وGemini CLI وOpenCode CLI وGitHub Copilot CLI وAider. ويقيّم سير عملها الطرفي بصورة مستقلة عن منتجات سطح المكتب لكل مورد.</p>
+<p><strong>ابدأ بقيودك.</strong> وصول المزود والأتمتة القابلة للتكرار وعادات المراجعة مرشحات أفضل من ترتيب عام. التوصيات التالية أحكام تحريرية تستند إلى وثائق رسمية فُحصت في 10 أكتوبر 2026، وليست تصنيفات أداء مقاسة.</p>
+<h2 id="أهم-النتائج">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac" title="أهم النتائج">أهم النتائج</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac" class="h-anchor" aria-hidden="true" title="أهم النتائج">#</a>
+</h2>
+<ul>
+<li><strong>Claude Code وCodex وGemini CLI</strong> تستحق التجربة حين تريد سير عمل النماذج الرسمية الخاصة بها.</li>
+<li><strong>OpenCode وAider</strong> مناسبان للتجارب عبر مزودي النماذج، مع أساليب مختلفة للتفاعل والتحرير.</li>
+<li><strong>Copilot CLI</strong> يستحق النظر حين يحدد وصول GitHub وسياسة المؤسسة سير عملك مسبقًا.</li>
+<li><strong>واجهة طرفية لا تعني استدلالًا محليًا</strong> أو اختيارًا غير محدود للنماذج أو تنفيذًا دون إشراف.</li>
+</ul>
+<p><strong>المتطلبات السابقة:</strong> Git، ونسخة عمل يمكن التخلص منها، واختبارات تعمل، وبيانات اعتماد نماذج معتمدة. الصعوبة متوسطة. خصص فترة بعد الظهر لمقارنة أداتين مختارتين عبر ثلاث مهام صغيرة.</p>
+<h2 id="القائمة-المختصرة">
+  <a href="#%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d8%ae%d8%aa%d8%b5%d8%b1%d8%a9" title="القائمة المختصرة">القائمة المختصرة</a>
+  <a href="#%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/cli-coding-agents-comparison/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>نماذج لغة السياق لدى Meta: ذاكرة أفضل للوكلاء، وليست نهاية الهلوسة</title><link>https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid><description>كيف تعدل نماذج لغة السياق ذاكرة الوكيل، وما الذي تثبته المعايير، وكيف تؤثر تكاليف التخزين المؤقت وقدرة النموذج والملاحظات غير الموثوقة في الاعتمادية.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>نماذج لغة السياق (CLMs)</strong> تمنح وكيل الذكاء الاصطناعي تحكما مباشرا في المعلومات التي ترسل إلى استدعائه التالي للنموذج. يحسن هذا الأسلوب إدارة السياق في عدة تقييمات منشورة، لكنه لا يثبت نهاية الهلوسة. ما زال الوكيل يحتاج إلى أدلة لادعاءاته وفحوص مستقلة لعمله.</p>
+<p>السؤال الهندسي هو ما إذا كان التحرير الانتقائي يحافظ على الحقائق الصحيحة بتكلفة مقبولة. تكون المحادثة الأقصر مفيدة فقط إذا احتفظ الوكيل بمتطلباته، وميز بين الملاحظات والافتراضات، واستعاد الأدلة الداعمة عند الحاجة.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>السياق القابل للتحرير:</strong> يصف CLM أسلوب تنفيذ للنماذج الموجودة، مع تدريب اختياري لتحسين استخدامه.</li>
+<li><strong>المكاسب المشروطة:</strong> يؤثر حجم النموذج وميزانية السياق والمهمة وخلفية الخدمة في النتائج.</li>
+<li><strong>حساب الحوسبة:</strong> تتضمن FLOPs لإعادة استخدام البادئة إعادة الحساب بعد التعديلات، لكنها لا تقيس الزمن المنقضي أو الفوترة مباشرة.</li>
+<li><strong>سلامة الذاكرة:</strong> تبقى ملاحظات الوكيل نفسه قابلة للخطأ ومدخلات يحتمل أن تكون غير آمنة.</li>
+<li><strong>التقييم العملي:</strong> قس النتائج المقبولة والحقائق المفقودة والادعاءات غير المدعومة وتكلفة الاستعادة معا.</li>
+</ul>
+<h2 id="افصل-الذاكرة-عن-الأدلة">
+  <a href="#%d8%a7%d9%81%d8%b5%d9%84-%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-%d8%b9%d9%86-%d8%a7%d9%84%d8%a3%d8%af%d9%84%d8%a9" title="افصل الذاكرة عن الأدلة">افصل الذاكرة عن الأدلة</a>
+  <a href="#
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>توجيه مزودي OpenRouter: جودة النماذج وحدود الرموز والتكاليف الفعلية</title><link>https://ar.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/</guid><description>شخّص إجابات OpenRouter غير المتسقة، وقارن حدود نقاط النهاية وتكاليف التخزين المؤقت، واضبط توجيه المزودين دون تعطيل ضوابط الجودة بالخطأ.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/openrouter-provider-routing-inference-services.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>يؤثر توجيه مزودي OpenRouter</strong> في خدمة الاستدلال التي تجيب عن طلبك. حتى طلبان يستخدمان اسم النموذج نفسه يعتمدان على حدود نقطة النهاية، والمعاملات المدعومة، وبرمجيات الخدمة، وتفضيلات التوجيه. عندما تصبح الإجابات أقصر أو تفشل استدعاءات الأدوات، افحص هذه الاختلافات قبل إلقاء اللوم على التكميم.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>تسميات الدقة</strong> تصف صيغة رقمية، ولا تصف درجة دقة الإجابة.</li>
+<li><strong>حدود نقطة النهاية</strong> تحدد السياق المتاح وطول المخرجات ودعم الميزات.</li>
+<li><strong>التوجيه الصريح</strong> يحتاج إلى سياسة بديلة، إضافة إلى تفضيل مزود.</li>
+<li><strong>Auto Exacto</strong> يحسن اختيار المزود باستخدام إشارات الجودة، مع مسار اختياري للطلبات التي لا تستخدم أدوات.</li>
+<li><strong>التكلفة الفعلية</strong> تشمل المخرجات وسلوك التخزين المؤقت وإعادة المحاولات وإتمام المهمة بنجاح.</li>
+</ul>
+<p><strong>المتطلبات:</strong> معرفة بطلبات JSON والوصول إلى إعداد OpenRouter في تطبيقك. يفحص فحص نقاط النهاية واجهة API عامة. إرسال طلبات النماذج يحتاج إلى مفتاح API وتترتب عليه رسوم استخدام. أعد فحص بيانات نقطة النهاية قبل تكرار أي مثال مؤرخ.</p>
+<p><strong>الوقت والصعوبة:</strong> نحو 20 دقيقة لمراجعة الإعداد الأولية. المستوى متوسط. تتطلب المقارنة المفيدة بين المزودين اختبارات إضافية باستخدام مطالبات تمثل استخدامك.</p>
+<h2 id="ما-الذي-يخفيه-اسم-النموذج">
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d8%ae%d9%81%d9%8a%d9%87
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/openrouter-provider-routing-quality-cost/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>جهاز DGX Spark بسعة 64 جيجابايت إشارة تحذير لأسعار عتاد الذكاء الاصطناعي المحلي</title><link>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/</guid><description>توضح فئة DGX Spark بسعة 64 جيجابايت من NVIDIA كيف يؤثر ضغط توريد الذاكرة في عتاد الذكاء الاصطناعي المحلي. يشرح هذا الدليل خفض السعة، ومقايضات الذاكرة الموحدة، ولماذا لا يُرجح تحسن DRAM قبل أواخر 2027.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>جهاز DGX Spark بسعة 64 جيجابايت إشارة سوقية لمشتري الذكاء الاصطناعي المحلي.</strong> تصل تهيئة بذاكرة أقل بينما يظل الطلب على خوادم الذكاء الاصطناعي وذاكرة HBM وDRAM التقليدية مرتفعاً. لا يثبت التغيير تطابق كل مكوّن مع نظام 128 جيجابايت، لكنه يوضح استجابة الموردين للتكلفة والتوفر وتقسيم المنتجات.</p>
+<p><em>إذا كنت تحتاج نظاماً محلياً بذاكرة مشتركة كبيرة، فلا تبن خطتك على انهيار سريع للأسعار. حدد ميزانية، وتابع سعة الذاكرة مقابل الدولار، واحتفظ بمسار عتاد ثان.</em></p>
+
+
+<h2 id="ما-الذي-تغير">
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d8%aa%d8%ba%d9%8a%d8%b1" title="ما الذي تغير؟">ما الذي تغير؟</a>
+  <a href="#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d8%aa%d8%ba%d9%8a%d8%b1" class="h-anchor" aria-hidden="true" title="ما الذي تغير؟">#</a>
+</h2>
+<p>تضيف تهيئة DGX Spark المعلنة بسعة 64 جيجابايت فئة أقل سعة إلى نظام Grace Blackwell المدمج من NVIDIA. تذكر Tom&rsquo;s Hardware سعراً ابتدائياً قدره 4,999 دولار للوحدة ذات 64 جيجابايت و6,950 دولار لطراز 128 جيجابايت. تستهدف الفئتان ميزانيتي ذاكرة مختلفتين مع بقاء عائلة المنتج ومنصة GB10 نفسها. 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="تقرير Tom&rsquo;s Hardware عن المنتج والأسعار">
+    <meta itemprop="url" content="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less">
+    <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-loc
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/dgx-spark-64gb-memory-crisis-2027/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>ذاكرة VRAM بسعة 32GB لنموذج Qwen 27B: دليل عتاد الذكاء الاصطناعي المحلي لشهر أكتوبر 2026</title><link>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link><pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid><description>دليل عملي لشهر أكتوبر 2026 لتشغيل نموذج Qwen 27B مع 32GB من ذاكرة المسرّع القابلة للاستخدام. قارن بين وحدات GPU المنفردة، وبُنى البطاقتين، والذاكرة الموحدة، وبطاقات مراكز البيانات المستعملة، والحوسبة المستأجرة، ودعم البرمجيات، وحدود السياق الكامل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>وجود 32GB على ملصق المنتج لا يعني توفر 32GB لحمل عمل Qwen 27B.</strong> يغيّر نظام التشغيل، وبيئة التشغيل، وذاكرة KV cache، وتنسيق النموذج، وحزمة التعريفات، وتوزيع البطاقات النتيجة. قد تخسر بطاقة رخيصة ذات سعة كافية بوضوح في معالجة المطالبة أو وقت الإعداد.</p>
+<p><em>في أكتوبر 2026، قارن الذاكرة القابلة للاستخدام والعمل المنجز مقابل كل دولار، وليس رقم VRAM وحده.</em></p>
+<p>يعرض هذا الدليل الطرق العملية لتشغيل نموذج Qwen 27B بجودة 6-bit مع نافذة سياق كبيرة. ويفصل بين المواصفات المنشورة ونتائج الاختبارات المبلغ عنها، لأن نتيجة tokens-per-second لشخص واحد ليست خاصية عامة لوحدة GPU.</p>
+<h2 id="لماذا-الهدف-32gb">
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a7%d9%84%d9%87%d8%af%d9%81-32gb" title="لماذا الهدف 32GB؟">لماذا الهدف 32GB؟</a>
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a7%d9%84%d9%87%d8%af%d9%81-32gb" class="h-anchor" aria-hidden="true" title="لماذا الهدف 32GB؟">#</a>
+</h2>
+<p>يبدأ احتياج الذاكرة من الأوزان. يقرأ نموذج كثيف من فئة 27B مجموعة المعاملات كاملة أثناء التوليد. عند استخدام تكميم 6-bit، تشغل الأوزان نحو <strong>20.5GB</strong> قبل احتساب تخصيصات وقت التشغيل وذاكرة السياق.</p>
+<p>يضيف سياق من 128K رمزاً تخصيصاً كبيراً آخر. يتغير حجم KV cache الدقيق حسب بنية النموذج، ودقة التخزين المؤقت، وإعدادات الدفعات، والواجهة الخلفية. يضع تقدير عملي قريب من <strong>8GB</strong> مجموع الأوزان والذاكرة المؤقتة عند نحو <strong>28.5GB</strong> قبل أخذ نظام التشغيل وبيئة الاستدلال حصتهما.</p>
+<table>
+	<thead>
+			<tr>
+					<th>التكوين</th>
+					<th>ما يدعمه</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>وحدة GPU منفصلة بسعة 24GB</strong></td>
+					<td>أوزان 4-bit مع سياق أقل، أو تفريغ جزئي</td>
+			</tr>
+			<tr>
+		
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>كيفية تعطيل الدفع اللاتلامسي على بطاقة ائتمان</title><link>https://ar.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/disable-contactless-payment-credit-card/</guid><description>دليل عملي لتعطيل الدفع اللاتلامسي على بطاقة ائتمان احتياطية مع إبقاء الدفع بالشريحة والشريط الممغنط متاحًا، مع حدود أمان وبدائل أفضل.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p><strong>تحتوي البطاقة اللاتلامسية على هوائي NFC منفصل.</strong> إذا أبقيت البطاقة داخل غطاء الهاتف، فقد يسبب الهوائي تداخل البطاقات أو تنبيهات NFC متكررة على بعض الهواتف. يؤدي قطع مادي في حلقة الهوائي إلى تعطيل الدفع باللمس، بينما تبقى الشريحة والشريط الممغنط متاحين في بعض البطاقات.</p>
+<p><em>استخدم بطاقة احتياطية لهذا المشروع. اعتبر التعديل دائمًا، وتأكد من النتيجة مع جهة إصدار البطاقة قبل الاعتماد عليها.</em></p>
+<p><strong>لا تعدّل وسيلة الدفع الوحيدة لديك.</strong> تختلف قواعد جهة الإصدار وبنية البطاقة ودعم أجهزة الدفع. احتفظ ببطاقة ثانية أو نقد متاح أثناء اختبار البطاقة المتضررة.</p>
+<h2 id="لماذا-نعطل-الدفع-اللاتلامسي">
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%86%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d9%84%d8%a7%d8%aa%d9%84%d8%a7%d9%85%d8%b3%d9%8a" title="لماذا نعطل الدفع اللاتلامسي؟">لماذا نعطل الدفع اللاتلامسي؟</a>
+  <a href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%86%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d9%84%d8%a7%d8%aa%d9%84%d8%a7%d9%85%d8%b3%d9%8a" class="h-anchor" aria-hidden="true" title="لماذا نعطل الدفع اللاتلامسي؟">#</a>
+</h2>
+<p>الدفع باللمس مريح، وتضيف المحافظ المحمولة الحديثة رمز دفع آخر إلى الهاتف نفسه. تبدأ المشكلة عندما تكون بطاقة فعلية مزودة بـNFC قريبة من قارئ NFC في الهاتف.</p>
+<p>قد تستجيب أداتا دفع للقارئ نفسه. وقد يكتشف Android البطاقة الفعلية أيضًا عند فتح الهاتف أو الإمساك به. يحل إخراج البطاقة من الغطاء المشكلة، لكنه يضيف خطوة في كل مرة تدفع فيها.</p>
+<p>الهدف هنا محدد: تعطيل واجهة البطاقة اللاتلامسية مع إبقاء طرق الدفع الأخرى متاحة.</p>
+<table>
+	<thead>
+			<tr>
+					<th>طريقة الدفع</th>
+					<th>النتيجة المتو�
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/disable-contactless-payment-credit-card/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>استرجاع مصادر الذكاء الاصطناعي: الخرائط والبحث وRAG الاختياري</title><link>https://ar.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/</guid><description>استخدم البحث عن المصادر المعتمد أولاً على الخرائط، والبحث الأصلي، والتحقق من المصادر الحية، وتقييم RAG الاختياري دون تغيير سلطة المصدر.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة التعاون بالذكاء الاصطناعي">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة التعاون بالذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>أضف الاسترجاع بعد نجاح ضوابط النشر.</strong> ابدأ بـ MAP-01 ومعرّفات المصادر الدقيقة، ثم استخدم البحث الأصلي للسجلات غير المعروفة. يظل التوليد المعزز بالاسترجاع، أو RAG، طبقة اكتشاف اختيارية. يحدد مالك المصدر السلطة، ويفحص الناشر المصادر الحية قبل عمليات الكتابة المؤثرة. ينطبق هذا الدرس على مساري المختبر.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>المعرّفات المعروفة</strong> تفضّل البحث المباشر.</li>
+<li><strong>نتائج البحث</strong> تحدد المرشحين، ولا تمثل سياسة معتمدة.</li>
+<li><strong>تصفية الوصول</strong> تسبق سياق النموذج.</li>
+<li><strong>فحوص المصادر الحية</strong> تظل إلزامية قبل النشر.</li>
+</ul>
+<h2 id="قبل-أن-تبدأ">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" title="قبل أن تبدأ">قبل أن تبدأ</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a3%d9%86-%d8%aa%d8%a8%d8%af%d8%a3" class="h-anchor" aria-hidden="true" title="قبل أن تبدأ">#</a>
+</h2>
+<p><strong>المتطلبات السابقة:</strong> مسار مكتمل وسجل السلطة الخاص به. <strong>الوقت المقدر:</stron
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-map-first-retrieval/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>التعاون مع الذكاء الاصطناعي في GitHub: حدود المستودع والمراجعة</title><link>https://ar.simeononsecurity.com/articles/ai-collaboration-github-repository/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ai-collaboration-github-repository/</guid><description>أنشئ خريطة مصادر تعتمد على GitHub، وعيّن مالكي الملفات، وأنشئ حد نشر محميًا للمساهمات التي راجعها الفريق.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة التعاون مع الذكاء الاصطناعي">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة التعاون مع الذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>ينشئ المشرف حد النشر المعتمد على GitHub</strong> بعد اعتماد الميثاق. توجد المتطلبات والإعدادات والسياسة وأدلة التشغيل في مستودع مؤقت. يقترح المساهمون التغييرات عبر Issues وطلبات السحب. حدّد مكان الحقائق المعتمدة واحجب التغييرات غير المراجعة قبل إرفاق الوكلاء.</p>
+<h2 id="أهم-النقاط">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" title="أهم النقاط">أهم النقاط</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d9%82%d8%a7%d8%b7" class="h-anchor" aria-hidden="true" title="أهم النقاط">#</a>
+</h2>
+<ul>
+<li><strong>الفرع <code>main</code> المحمي</strong> هو حد النشر.</li>
+<li><strong>Issues</strong> تجمع العمل المقترح من دون اعتماد السياسة.</li>
+<li><strong>CODEOWNERS</strong> يعيّن مراجعي الملفات المؤهلين.</li>
+<li><strong>المستخدمون المنفصلون</strong> يثبتون ضوابط المراجعة والرفض.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p><strong>المتطلبات:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-github-repository/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item><item><title>المشروع الختامي للتعاون بالذكاء الاصطناعي: GitHub وConfluence وJira</title><link>https://ar.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</link><pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate><guid>https://ar.simeononsecurity.com/articles/ai-collaboration-retention-capstone/</guid><description>نفّذ تغيير احتفاظ اصطناعي عبر سير عمل يبدأ بـ GitHub وسير عمل Confluence وJira مع أدلة الفشل ومراجعة مستقلة.</description><content:encoded><![CDATA[
+        
+            <img src="https://ar.simeononsecurity.com/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp">
+            
+        
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read the full article at https://ar.simeononsecurity.com/</a>
+
+        <p>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+<span itemscope itemtype="https://schema.org/WebPage">
+    <meta itemprop="name" content="العودة إلى دورة التعاون بالذكاء الاصطناعي">
+    <meta itemprop="url" content="/ai-collaboration-course-start/">
+    <a href="/ai-collaboration-course-start/"
+    
+        rel="follow me"
+    >العودة إلى دورة التعاون بالذكاء الاصطناعي</a>
+</span>
+</p>
+<p><strong>سلّم PROP-042 مرتين</strong>، مرة عبر GitHub أولاً ومرة عبر GitHub مع Confluence وJira. ساهم في العمل، ودع مالكين منفصلين يراجعانه، ثم يطبّق الناشرون المصرّح لهم التغيير. استخدم صناديق رمل اصطناعية معزولة بعد الدروس السابقة. يختبر المشروع الختامي الإجراء الكامل، بما في ذلك الرفض والاسترداد والتسليم المستقل، وليس جودة نص المساعد فقط.</p>
+<h2 id="أهم-النتائج">
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac" title="أهم النتائج">أهم النتائج</a>
+  <a href="#%d8%a3%d9%87%d9%85-%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac" class="h-anchor" aria-hidden="true" title="أهم النتائج">#</a>
+</h2>
+<ul>
+<li><strong>تغيير مشترك واحد</strong> يقارن نموذجي الصلاحية.</li>
+<li><strong>الاختبارات السلبية</strong> مهمة بقدر التسليم الناجح.</li>
+<li><strong>حزم الأدلة</strong> تدعم المراجعة المستقلة.</li>
+<li><strong>إكمال المختبر</strong> لا يصرّح بالنشر في الإنتاج.</li>
+</ul>
+<h2 id="قبل-البدء">
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" title="قبل البدء">قبل البدء</a>
+  <a href="#%d9%82%d8%a8%d9%84-%d8%a7%d9%84%d8%a8%d8%af%d8%a1" class="h-anchor" aria-hidden="true" title="قبل البدء">#</a>
+</h2>
+<p><strong>المتطلبات السابقة:</strong> 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+        <br>
+        <a href="https://ar.simeononsecurity.com/articles/ai-collaboration-retention-capstone/">Read More at https://ar.simeononsecurity.com/</a>
+                            
+        
+
+      ]]></content:encoded></item></channel></rss>
