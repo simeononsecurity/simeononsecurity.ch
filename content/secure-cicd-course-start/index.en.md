@@ -35,12 +35,12 @@ After the course, you will:
 
 | Stage | Page | Practical skill |
 |---|---|---|
-| **1** | [Review Dependencies and Build an SBOM](/articles/secure-cicd-dependencies-sbom/) | Create a dependency decision record and component inventory |
-| **2** | [Limit Pipeline Authority and Use Scorecard](/articles/secure-cicd-pipeline-scorecard/) | Review token scope and record a prioritized Scorecard finding |
-| **3** | [Verify Provenance and Attestations](/articles/secure-cicd-provenance-attestations/) | Match artifact digest, source, and workflow to a release policy |
-| **4** | [Tampered Release Lab](/articles/secure-cicd-tampered-release-lab/) | Run a local rejection test and explain its trust boundary |
-| **5** | [Knowledge Check](/articles/secure-cicd-quiz/) and [answer key](/articles/secure-cicd-quiz-answer-key/) | Answer scenario questions and correct mistakes |
-| **6** | [Release Gate Capstone](/articles/secure-cicd-capstone/) and [reference packet](/articles/secure-cicd-capstone-answer-key/) | Produce a release decision packet and test a failure path |
+| **1** | [Review Dependencies and Build an SBOM](/secure-cicd-course/01-dependencies-sbom/) | Create a dependency decision record and component inventory |
+| **2** | [Limit Pipeline Authority and Use Scorecard](/secure-cicd-course/02-pipeline-scorecard/) | Review token scope and record a prioritized Scorecard finding |
+| **3** | [Verify Provenance and Attestations](/secure-cicd-course/03-provenance-attestations/) | Match artifact digest, source, and workflow to a release policy |
+| **4** | [Tampered Release Lab](/secure-cicd-course/04-tampered-release-lab/) | Run a local rejection test and explain its trust boundary |
+| **5** | [Knowledge Check](/secure-cicd-course/05-quiz/) and [answer key](/secure-cicd-course/07-quiz-answer-key/) | Answer scenario questions and correct mistakes |
+| **6** | [Release Gate Capstone](/secure-cicd-course/06-capstone/) and [reference packet](/secure-cicd-course/08-capstone-answer-key/) | Produce a release decision packet and test a failure path |
 
 **Complete the pages in order.** Lessons 1 through 3 build the review method. The lab then shows a concrete failure. The capstone asks you to apply the method to a fresh release decision.
 
@@ -60,4 +60,4 @@ Pass the capstone with a supported release decision and a tested failure path. K
 
 **Hosted path:** Use a disposable GitHub repository. Enable Actions, run only the example workflows after reviewing every action reference, then delete the repository and any test artifact when done. GitHub's [secure use guidance](https://docs.github.com/en/actions/reference/security/secure-use) explains why workflow code and tokens need careful review.
 
-**Start with [dependency review and SBOMs](/articles/secure-cicd-dependencies-sbom/)**. Return to [Courses and Playbooks](/courses-and-playbooks/) for other paths.
+**Start with [dependency review and SBOMs](/secure-cicd-course/01-dependencies-sbom/)**. Return to [Courses and Playbooks](/courses-and-playbooks/) for other paths.

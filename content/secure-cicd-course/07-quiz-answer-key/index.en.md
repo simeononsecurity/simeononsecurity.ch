@@ -12,7 +12,7 @@ coverAlt: "A reviewer compares a completed answer sheet with security controls a
 coverCaption: ""
 ---
 
-[Return to the quiz](/articles/secure-cicd-quiz/)
+[Return to the quiz](/secure-cicd-course/05-quiz/)
 
 **Compare your choices with these explanations.** Mark each miss and explain the correction without copying the key. Score at least eight on a closed-book attempt and correct every miss before the capstone.
 
@@ -33,10 +33,10 @@ Write `score: X/10` and list every missed question in your course record. At lea
 
 | Questions | Review |
 |---|---|
-| **1 to 3** | [Dependency review and SBOMs](/articles/secure-cicd-dependencies-sbom/) |
-| **4 to 6** | [Pipeline permissions and Scorecard](/articles/secure-cicd-pipeline-scorecard/) |
-| **7 to 9** | [Provenance and attestations](/articles/secure-cicd-provenance-attestations/) |
-| **10** | [Tampered release lab](/articles/secure-cicd-tampered-release-lab/) |
+| **1 to 3** | [Dependency review and SBOMs](/secure-cicd-course/01-dependencies-sbom/) |
+| **4 to 6** | [Pipeline permissions and Scorecard](/secure-cicd-course/02-pipeline-scorecard/) |
+| **7 to 9** | [Provenance and attestations](/secure-cicd-course/03-provenance-attestations/) |
+| **10** | [Tampered release lab](/secure-cicd-course/04-tampered-release-lab/) |
 
 For each miss, write the unsafe choice, the correct decision, and the evidence needed in a real release. Then answer the missed question again without viewing this key. Record the second answer and link the lesson section used. If the second answer is still wrong, repeat the related lab step or source check before starting the capstone.
 
@@ -53,4 +53,4 @@ For each miss, write the unsafe choice, the correct decision, and the evidence n
 - [ ] Missed questions are answered again without the key
 - [ ] The latest closed-book attempt scores at least eight, and every miss has been repaired before the capstone
 
-**Next:** [Complete the release gate capstone](/articles/secure-cicd-capstone/).
+**Next:** [Complete the release gate capstone](/secure-cicd-course/06-capstone/).

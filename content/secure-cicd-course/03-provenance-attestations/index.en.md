@@ -93,4 +93,4 @@ gh attestation verify release.txt -R OWNER/REPOSITORY
 
 **Pass this lesson** when your packet includes the supplied policy values, the sample digest, the local five-field comparison, the wrong-source rejection, and a hosted verification result or “not run.” Keep expected examples separate from observed hosted results.
 
-**Next:** [Run the tampered release lab](/articles/secure-cicd-tampered-release-lab/).
+**Next:** [Run the tampered release lab](/secure-cicd-course/04-tampered-release-lab/).

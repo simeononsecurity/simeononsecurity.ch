@@ -86,4 +86,4 @@ FAIL: digest mismatch
 
 **Pass this lab** when your record has both commands, expected or observed exit codes, the changed line, the decision to reject the tampered copy, and the trust-boundary explanation. Mark outputs “expected” if you have not run the commands.
 
-**Next:** [Take the knowledge check](/articles/secure-cicd-quiz/).
+**Next:** [Take the knowledge check](/secure-cicd-course/05-quiz/).

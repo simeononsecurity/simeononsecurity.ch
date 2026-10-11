@@ -14,7 +14,7 @@ coverCaption: ""
 
 [Return to the Secure CI/CD Course](/secure-cicd-course-start/)
 
-**Decide whether the fictional workshop calculator is ready to release.** Build a packet that another maintainer can check without asking you what you meant. Extract a fresh copy of the [local lab](/downloads/secure-cicd-lab.zip) and enter its folder. Every local evidence source is included. Compare your packet with the separate [reference packet](/articles/secure-cicd-capstone-answer-key/) after finishing. Plan two hours.
+**Decide whether the fictional workshop calculator is ready to release.** Build a packet that another maintainer can check without asking you what you meant. Extract a fresh copy of the [local lab](/downloads/secure-cicd-lab.zip) and enter its folder. Every local evidence source is included. Compare your packet with the separate [reference packet](/secure-cicd-course/08-capstone-answer-key/) after finishing. Plan two hours.
 
 ## Required Packet
 
@@ -42,7 +42,7 @@ python3 inspect_packet.py sample-provenance-wrong-source.json
 
 ## Run the Failure Path
 
-**First verify the good release, then the tampered release.** Use the two commands in the [lab lesson](/articles/secure-cicd-tampered-release-lab/). The expected decisions are approve for the good bytes only after all other policy checks pass, and reject for the tampered bytes. The lab's checksum alone cannot approve publisher identity.
+**First verify the good release, then the tampered release.** Use the two commands in the [lab lesson](/secure-cicd-course/04-tampered-release-lab/). The expected decisions are approve for the good bytes only after all other policy checks pass, and reject for the tampered bytes. The lab's checksum alone cannot approve publisher identity.
 
 **Add a wrong-source case.** Assume a cryptographically valid attestation names another repository. Record “hold” or “reject” and name the mismatched field. This checks policy, not cryptography.
 

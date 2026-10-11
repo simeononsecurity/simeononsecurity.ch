@@ -155,6 +155,24 @@ http://www.simeononsecurity.ch/* https://simeononsecurity.com/:splat 308!
 /detection-engineering-incident-response-course/08-capstone-answer-key /detection-engineering-incident-response-course/10-capstone-answer-key/ 301!
 /detection-engineering-incident-response-course/08-capstone-answer-key/ /detection-engineering-incident-response-course/10-capstone-answer-key/ 301!
 
+# Secure CI/CD course pages moved out of articles
+/articles/secure-cicd-dependencies-sbom /secure-cicd-course/01-dependencies-sbom/ 301!
+/articles/secure-cicd-dependencies-sbom/ /secure-cicd-course/01-dependencies-sbom/ 301!
+/articles/secure-cicd-pipeline-scorecard /secure-cicd-course/02-pipeline-scorecard/ 301!
+/articles/secure-cicd-pipeline-scorecard/ /secure-cicd-course/02-pipeline-scorecard/ 301!
+/articles/secure-cicd-provenance-attestations /secure-cicd-course/03-provenance-attestations/ 301!
+/articles/secure-cicd-provenance-attestations/ /secure-cicd-course/03-provenance-attestations/ 301!
+/articles/secure-cicd-tampered-release-lab /secure-cicd-course/04-tampered-release-lab/ 301!
+/articles/secure-cicd-tampered-release-lab/ /secure-cicd-course/04-tampered-release-lab/ 301!
+/articles/secure-cicd-quiz /secure-cicd-course/05-quiz/ 301!
+/articles/secure-cicd-quiz/ /secure-cicd-course/05-quiz/ 301!
+/articles/secure-cicd-capstone /secure-cicd-course/06-capstone/ 301!
+/articles/secure-cicd-capstone/ /secure-cicd-course/06-capstone/ 301!
+/articles/secure-cicd-quiz-answer-key /secure-cicd-course/07-quiz-answer-key/ 301!
+/articles/secure-cicd-quiz-answer-key/ /secure-cicd-course/07-quiz-answer-key/ 301!
+/articles/secure-cicd-capstone-answer-key /secure-cicd-course/08-capstone-answer-key/ 301!
+/articles/secure-cicd-capstone-answer-key/ /secure-cicd-course/08-capstone-answer-key/ 301!
+
 # Well known work around
 /.well_known/*  /well_known/:splat 200!
 /.well-known/*  /well-known/:splat 200!

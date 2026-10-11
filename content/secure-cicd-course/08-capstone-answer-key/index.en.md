@@ -12,7 +12,7 @@ coverAlt: "A reviewer compares learner and reference evidence packets while a re
 coverCaption: ""
 ---
 
-[Return to the capstone](/articles/secure-cicd-capstone/)
+[Return to the capstone](/secure-cicd-course/06-capstone/)
 
 **Use this reference only after writing your own packet.** The names and findings below come from the synthetic local archive. They do not describe an actual GitHub repository or Scorecard run.
 

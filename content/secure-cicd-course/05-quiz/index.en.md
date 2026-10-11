@@ -14,7 +14,7 @@ coverCaption: ""
 
 [Return to the Secure CI/CD Course](/secure-cicd-course-start/)
 
-**Answer all ten questions before opening the separate [answer key](/articles/secure-cicd-quiz-answer-key/).** Write one sentence explaining each choice. Score at least eight on a closed-book attempt and correct every miss before the capstone. Retake the full quiz after review if your first score is lower. This is a skills check, not certification prep.
+**Answer all ten questions before opening the separate [answer key](/secure-cicd-course/07-quiz-answer-key/).** Write one sentence explaining each choice. Score at least eight on a closed-book attempt and correct every miss before the capstone. Retake the full quiz after review if your first score is lower. This is a skills check, not certification prep.
 
 ## Questions
 
@@ -31,6 +31,6 @@ coverCaption: ""
 
 ## Review and Continue
 
-**After answering, open the [answer key](/articles/secure-cicd-quiz-answer-key/).** For every missed question, link the relevant lesson section in your packet and rewrite the rule in your own words. Reanswer without looking at the key. Use the [SLSA build track](https://slsa.dev/spec/v1.2/tracks) and [GitHub's secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) for questions 5 and 9.
+**After answering, open the [answer key](/secure-cicd-course/07-quiz-answer-key/).** For every missed question, link the relevant lesson section in your packet and rewrite the rule in your own words. Reanswer without looking at the key. Use the [SLSA build track](https://slsa.dev/spec/v1.2/tracks) and [GitHub's secure use reference](https://docs.github.com/en/actions/reference/security/secure-use) for questions 5 and 9.
 
-**Next:** [Complete the release gate capstone](/articles/secure-cicd-capstone/).
+**Next:** [Complete the release gate capstone](/secure-cicd-course/06-capstone/).

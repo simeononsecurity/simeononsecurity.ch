@@ -68,4 +68,4 @@ jobs:
 
 **Pass this lesson** when your packet contains the two-job permissions table, one untrusted-input boundary, and the fixture finding with a reason and correction. Mark hosted checks “not run” on the local path. Do not claim Scorecard observed a control you did not run.
 
-**Next:** [Verify provenance and attestations](/articles/secure-cicd-provenance-attestations/).
+**Next:** [Verify provenance and attestations](/secure-cicd-course/03-provenance-attestations/).

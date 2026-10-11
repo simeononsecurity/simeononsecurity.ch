@@ -6,6 +6,8 @@ Use this rule for new project courses outside certification prep and the Practic
 
 The current theme's section list template does not render a section `_index.en.md` body. Put a course outline that readers need to see in `content/<course-slug>-start/index.en.md`. Link lessons back to that leaf page. After rendering, inspect the hub HTML for the audience, prerequisites, outcomes, lesson order, and skills sections. A successful Hugo exit alone does not prove the outline appears.
 
+Put lessons, labs, quizzes, capstones, and answer keys for one course in `content/<course-slug>/<lesson-slug>/index.en.md`. Keep those pages out of `content/articles/` so the source layout and rendered paths match the other non-certification courses. When moving a published course page, update every course link and add redirects from both forms of its former URL. Check the old URLs, new URLs, and article listing in the rendered output.
+
 ## Offline Labs
 
 If a course claims a complete local learning path, provide fixtures and an executable checker or simulator for each assessed skill that otherwise requires a cloud account, SIEM, MCP server, or external service. Name the simulation boundary. Do not describe a local predicate checker as a full Sigma parser or a policy simulator as a live service test.

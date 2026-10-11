@@ -94,4 +94,4 @@ syft dir:. -o cyclonedx-json=sbom.cdx.json
 
 **Pass this lesson** when your record identifies the direct version change, the transitive addition, the unassessed advisory, a hold decision, and one component in the supplied SBOM. If you used Syft, add its scan target, version, and result. Mark hosted checks “not run” when you use only the local path.
 
-**Next:** [Limit pipeline authority and use Scorecard](/articles/secure-cicd-pipeline-scorecard/).
+**Next:** [Limit pipeline authority and use Scorecard](/secure-cicd-course/02-pipeline-scorecard/).
