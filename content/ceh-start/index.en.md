@@ -1,9 +1,10 @@
 ---
-title: "EC-Council CEH v13: Complete Study Guide"
+title: "EC-Council CEH v13: Twenty-Module Topic Guide"
 date: 2025-01-01
 toc: true
 draft: false
-description: "A comprehensive EC-Council Certified Ethical Hacker (CEH v13) study course covering all 20 modules: ethical hacking methodology, footprinting, scanning, enumeration, system hacking, malware, web attacks, wireless attacks, cloud security, and cryptography."
+description: "Study the twenty CEH curriculum modules, with a v13 AI supplement and authorized lab practice. Check the separate exam blueprint before scheduling."
+lastmod: 2026-10-10
 genre: ["CEH Course", "Certified Ethical Hacker", "Ethical Hacking", "Penetration Testing", "EC-Council Certification", "Network Security", "Web Application Security", "Malware Analysis", "Social Engineering", "Cryptography"]
 tags: ["CEH", "CEH v13", "Certified Ethical Hacker", "ethical hacking", "footprinting", "reconnaissance", "scanning", "enumeration", "system hacking", "malware", "social engineering", "denial of service", "session hijacking", "web server hacking", "SQL injection", "wireless hacking", "cloud security", "cryptography", "IoT security", "EC-Council"]
 cover: "/img/cover/ec-council-ceh-course-study-guide-illustration.webp"
@@ -11,7 +12,7 @@ coverAlt: "A digital illustration of a hacker silhouette analyzing network data 
 coverCaption: "Master the CEH and Think Like an Attacker"
 ---
 
-The **EC-Council Certified Ethical Hacker (CEH v13)** teaches you to think and act like an attacker to defend systems more effectively. This course is designed for security professionals, penetration testers, and IT administrators who want a structured path through all 20 CEH exam domains. *Every technique covered in this course must only be applied to systems and networks for which you have explicit written authorization.*
+This course follows the **twenty CEH curriculum modules**. Those modules are not twenty exam domains. The certification exam has a separate blueprint. Compare this guide with EC-Council's [current exam details](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/) and [v13 course brochure](https://www.eccouncil.org/wp-content/uploads/2024/09/EC-CEHv13-Course-Brochure-2.pdf) before planning an exam. Practice only in a disposable lab or against systems named in your written authorization.
 
 ## Resources
 
@@ -160,7 +161,7 @@ The **EC-Council Certified Ethical Hacker (CEH v13)** teaches you to think and a
 - Use **SQLMap** to automate detection and exploitation of SQL injection vulnerabilities
 - Extract database schemas, tables, and credentials through **UNION-based and error-based** injection
 - Bypass authentication forms using **SQL injection payloads** and comment sequences
-- Prevent SQL injection through **parameterized queries**, stored procedures, and input sanitization
+- Prevent SQL injection in value positions with **parameterized queries**. Validate identifiers and query structure separately, apply least privilege, and test each query path.
 
 ### [Module 16: Hacking Wireless Networks](/ceh/hacking-wireless-networks/)
 
@@ -208,4 +209,15 @@ The **EC-Council Certified Ethical Hacker (CEH v13)** teaches you to think and a
 
 -----
 
-This course covers all 20 CEH v13 modules to prepare you for the exam and real-world engagements. When you are ready to test your knowledge, take the [EC-Council CEH Practice Test](/ceh-practice-test/). To explore other certifications and career paths, visit [Courses and Playbooks](/courses-and-playbooks/).
+## CEH v13 AI Supplement
+
+CEH v13 adds AI-assisted work to the classic topic sequence. Use a model as a bounded helper, not as evidence or permission to expand a test.
+
+1. In an isolated lab, give an assistant a synthetic inventory and ask for a prioritized test plan. Review each proposed target against the written scope.
+2. Give the assistant a synthetic scan excerpt. Ask it to separate observations from hypotheses, cite the line supporting each observation, and list a safe validation step.
+3. Give it a mock incident timeline. Check every time, host, and conclusion against the supplied records. Reject invented findings.
+4. Record the model and version, input classification, allowed data handling, output, human corrections, and final decision. Do not send real credentials or restricted client data to an unapproved service.
+
+**Pass condition:** the learner produces a scope-checked plan, a corrected evidence table, and an uncertainty list. Any invented target, uncited finding, or external action outside the lab fails the exercise. The [v13 brochure](https://www.eccouncil.org/wp-content/uploads/2024/09/EC-CEHv13-Course-Brochure-2.pdf) provides the vendor's AI emphasis. Use the current exam blueprint to identify any objective outside this topic guide.
+
+Work through the twenty modules and the AI supplement, then use the [CEH Practice Test](/ceh-practice-test/) as one check of recall. Lab work and the separate exam blueprint remain necessary for exam planning. Explore [Courses and Playbooks](/courses-and-playbooks/) for more learning paths.

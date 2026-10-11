@@ -33,7 +33,7 @@ Switches send traffic only to the right port, so an attacker uses active techniq
 You manipulate Layer 2 to intercept traffic.
 
 - **ARP poisoning** sends forged ARP replies so victims send traffic through you. This is a man-in-the-middle position.
-- **MAC flooding** overloads the switch CAM table so it fails open and broadcasts like a hub.
+- **MAC flooding** tries to exhaust a switch's MAC table. Some switches then flood unknown unicast traffic, while others rate-limit or protect the port. The result depends on the device and configuration.
 - **DHCP starvation** exhausts the DHCP pool, then a rogue server hands out malicious settings.
 
 ```bash
@@ -57,10 +57,10 @@ You apply display filters in Wireshark like `http.request` or `tcp.port == 443` 
 You defend against sniffing with encryption and switch hardening.
 
 - **Encrypt** traffic with TLS, SSH, and VPNs so captured data stays unreadable.
-- **Dynamic ARP Inspection (DAI)** blocks forged ARP replies.
+- **Dynamic ARP Inspection (DAI)** validates ARP packets against trusted bindings where configured. It helps block spoofed ARP traffic, but needs correct DHCP snooping bindings or approved static entries.
 - **Port security** limits MAC addresses per port to stop flooding.
 
-*Encryption is the strongest defense, because a sniffer that captures ciphertext gains nothing.*
+Encryption limits what a passive sniffer reads. Captured ciphertext still exposes metadata such as endpoints, timing, and volume, and poor key management or compromised endpoints create other paths to the data.
 
 ## Next Steps
 

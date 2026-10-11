@@ -24,7 +24,7 @@ Wireless removes the physical barrier of a cable, so anyone in range receives th
 | **WEP** | Broken, cracks in minutes |
 | **WPA** | Weak, deprecated |
 | **WPA2** | Strong, but vulnerable to offline cracking |
-| **WPA3** | Current, resists offline attacks |
+| **WPA3-Personal** | SAE resists passive offline password guessing from a captured handshake. Weak passwords and implementation flaws still matter. |
 
 ## Capturing and Cracking WPA2
 

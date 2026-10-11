@@ -13,9 +13,9 @@ coverCaption: "Master Cloud Computing Threats for the CEH v13 Exam"
 
 #### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
-**Cloud Computing Threats** targets cloud environments in the **EC-Council CEH v13** course. This module covers the shared responsibility model, common misconfigurations, identity attacks, container risks, and the controls that secure cloud workloads. *Cloud providers require written authorization and often a formal pen-test request before any testing, so confirm the rules before you scan.*
+**Cloud Computing Threats** targets cloud environments in the **EC-Council CEH v13** course. This module covers the shared responsibility model, common misconfigurations, identity attacks, container risks, and controls for cloud workloads. Get authorization from the resource owner and check the provider's current testing rules before any test. Provider preapproval varies. [AWS permits testing of listed customer services without prior approval](https://aws.amazon.com/security/penetration-testing/), while some activities still require it. [Azure permits tests of customer resources without prior approval](https://learn.microsoft.com/en-us/azure/security/fundamentals/pen-testing) under its rules of engagement.
 
-Most cloud breaches come from customer misconfiguration, not a flaw in the provider. You learn where those gaps appear and how attackers exploit them.
+Customer misconfiguration, weak identity controls, and vulnerable applications create cloud exposure. This lesson shows where those gaps appear and how to assess them within an authorized scope.
 
 ## Shared Responsibility Model
 

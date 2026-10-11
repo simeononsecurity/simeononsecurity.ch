@@ -56,10 +56,10 @@ You stop injection at the code level.
 
 - **Parameterized queries (prepared statements)** separate code from data.
 - **Stored procedures** with bound parameters reduce risk.
-- **Input validation** rejects unexpected characters.
+- **Input validation** constrains expected types, ranges, and allowed identifiers. Do not rely on character filtering as the sole defense.
 - **Least privilege** limits what a compromised query reaches.
 
-*Parameterized queries are the definitive fix, because the database never treats input as code.*
+Bound parameters protect values in supported query positions. They do not safely parameterize table names, column names, or query structure. Choose identifiers from an allowlist, avoid dynamic SQL where possible, and test each query path. Stored procedures remain vulnerable when they concatenate untrusted input into SQL.
 
 ## Next Steps
 

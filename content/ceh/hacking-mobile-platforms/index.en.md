@@ -62,7 +62,7 @@ adb logcat | grep -i token
 
 ## MDM, Jailbreaking, and Rooting
 
-**Jailbreaking** (iOS) and **rooting** (Android) remove built-in restrictions and disable the sandbox. A rooted device lets malware reach data from any app.
+**Jailbreaking** (iOS) and **rooting** (Android) alter built-in restrictions and increase the impact of a compromised process. They do not automatically disable every app sandbox or give every malicious app access to all data. The risk depends on granted privileges, platform version, and device configuration.
 
 **Mobile Device Management (MDM)** enforces policy across a fleet. Attackers target MDM bypass to remove enrollment, disable encryption, or sideload apps the policy blocks.
 
