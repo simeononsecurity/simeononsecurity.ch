@@ -14,7 +14,7 @@ coverCaption: "Prepare authority and evidence before an incident."
 
 [Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 
-NIST SP 800-61 Rev. 3, published in April 2025, integrates incident response across Cybersecurity Framework 2.0. Preparation supports the **Detect, Respond, and Recover** work. Improvement feeds lessons back into risk management.
+NIST SP 800-61 Rev. 3, published in April 2025, integrates incident response across Cybersecurity Framework 2.0. Govern, Identify, and Protect support incident-response preparation. Detect, Respond, and Recover form the incident-response life cycle. Improvement feeds lessons back into risk management.
 
 ## Define Authority
 
