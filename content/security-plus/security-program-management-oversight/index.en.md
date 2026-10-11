@@ -11,7 +11,7 @@ coverAlt: "An abstract digital illustration showing interconnected nodes and ele
 coverCaption: "Master Security Program Management for the SY0-701 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
+[Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
 
 **Security Program Management and Oversight** is **20%** of the **CompTIA Security+ (SY0-701)** exam. This module covers governance, risk, third-party management, compliance, and awareness. *This is the managerial side of security that ties technical controls to business goals.*
 

@@ -11,7 +11,7 @@ coverAlt: "A modern security operations center with diverse cybersecurity profes
 coverCaption: "Master Security Operations for the SY0-701 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
+[Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
 
 **Security Operations** is the largest domain on the **CompTIA Security+ (SY0-701)** exam at **28%**. This module covers the hands-on work of securing, monitoring, and responding day to day. *This domain carries the most exam weight, so study it thoroughly.*
 

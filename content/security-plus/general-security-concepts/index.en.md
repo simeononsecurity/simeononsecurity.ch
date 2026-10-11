@@ -11,7 +11,7 @@ coverAlt: "A digital security operations center with a large interface showing s
 coverCaption: "Master General Security Concepts for the SY0-701 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
+[Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
 
 **General Security Concepts** is **12%** of the **CompTIA Security+ SY0-701** exam. This module covers security controls, core principles, change management, cryptography, PKI, and Zero Trust. *These fundamentals appear throughout the exam, so build a solid base here.*
 

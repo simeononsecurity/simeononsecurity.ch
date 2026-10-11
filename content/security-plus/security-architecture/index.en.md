@@ -11,7 +11,7 @@ coverAlt: "A digital illustration of various IT infrastructure architecture mode
 coverCaption: "Master Security Architecture for the SY0-701 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
+[Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
 
 **Security Architecture** is **18%** of the **CompTIA Security+ (SY0-701)** exam. This module covers how you design secure infrastructure, protect data across its states, and build systems that survive failure. *Architecture choices decide how resilient your environment stays under attack.*
 

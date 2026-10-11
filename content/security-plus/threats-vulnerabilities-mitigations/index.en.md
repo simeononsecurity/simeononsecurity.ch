@@ -11,7 +11,7 @@ coverAlt: "A digital illustration showing various cybersecurity threat actors in
 coverCaption: "Master Threats, Vulnerabilities, and Mitigations for the SY0-701 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
+[Click Here to Return To the CompTIA Security+ Course Page](/security-plus-start/)
 
 **Threats, Vulnerabilities, and Mitigations** is **22%** of the **CompTIA Security+ SY0-701** exam, the second-largest domain. This module covers threat actors, attack vectors, vulnerabilities, malicious indicators, and mitigations. *Know the attacker, the attack, and the fix for each scenario the exam presents.*
 
