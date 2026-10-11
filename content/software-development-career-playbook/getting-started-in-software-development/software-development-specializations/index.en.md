@@ -15,6 +15,8 @@ cover: "/img/cover/software-development-specializations-paths-options.webp"
 
 Software development includes many kinds of work. Compare current postings, try a small task, and review your interests, local options, accessibility needs, schedule, equipment, and support before choosing a route.
 
+The [BLS Software Developers, Quality Assurance Analysts, and Testers profile](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm), checked 2026-10-10, gives broad U.S. occupational context. It does not define each specialty below. Use named current employer postings to verify duties, tools, location, and entry requirements.
+
 ## Frontend Development
 
 **Frontend developers** build the parts of software that users see and interact with. This means browser-rendered interfaces, mobile app screens, design implementation, and user experience logic.
@@ -97,9 +99,19 @@ Other routes include quality engineering, test automation, developer experience,
 
 ## Practice and Verify
 
-**Artifact: Specialization trial.** Choose two tracks. Complete one small task for each, such as an accessible web form, tested API, mobile screen, data transform, test automation, desktop utility, embedded simulation, or developer tool. Record safety and setup limits.
+**Artifact: Specialization trial.** Complete two routes from this table. Start from the [Python Starter Lab](/files/software-development-career-playbook/python-starter/README.md). Keep each trial local and under one hour. Revert the working copy after each trial.
 
-> **Expected result:** Two runnable outputs and a rubric compare interest, local demand, accessibility, prerequisites, and constraints.
+| Track | Bounded Change | Acceptance Check |
+|---|---|---|
+| **Frontend or accessibility** | Create a local HTML form with a labeled meter input, convert button, and text result. Reuse the five input cases. | Keyboard-only use reaches every control. Each label is announced by the browser accessibility tree. Five cases match the starter. |
+| **Backend or full stack** | Add a `--json` option which prints `{"meters":"1","feet":"3.28"}`. | Existing tests pass. New tests cover valid and rejected input. No network service or personal data is used. |
+| **Quality engineering** | Add one boundary test for a large finite value and one test for `NaN`. | The new test fails before the fix, passes after it, and the original five tests still pass. |
+| **Data engineering** | Read five synthetic meter values from a local CSV and write converted values to a new CSV. | Row count stays five. Invalid input is recorded without exposing private data. Repeated runs produce the same output. |
+| **Platform or developer experience** | Run the supplied CI commands in order and improve one error message in the README. | Compile and tests pass. The deliberate fixture blocks delivery. A fresh clone follows the revised instruction. |
+| **Security engineering** | Write a short threat review for input abuse, command injection, data retention, and dependency risk. Add one negative test. | The review names trust boundaries and evidence. The negative test passes. No offensive action or live target is involved. |
+| **Mobile, desktop, game, embedded, or scientific** | Recreate the converter in a supported local simulator or framework with no account or paid service. | The same five cases pass. Setup version, license, accessibility route, and cleanup are recorded. |
+
+> **Expected result:** Two runnable outputs pass their acceptance checks. A rubric scores interest, target-posting match, setup burden, accessibility, mentor support, safety, and cost from zero to two. Choose a route only after both trials receive at least ten of fourteen points, or record why neither route fits.
 
 ```text
 REDACTED COMPLETED EXAMPLE

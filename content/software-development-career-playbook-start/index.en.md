@@ -20,13 +20,29 @@ Choose the route which matches your starting experience, target role, access nee
 
 ## Prerequisites and Practice Environment
 
-- A supported computer with a text editor, terminal or accessible equivalent, Git, and a current language runtime
+- A supported computer with a text editor, terminal or accessible equivalent, Git, `curl`, and Python 3.12 or newer
 - A local folder or private repository for exercises, with no credentials, personal data, employer code, or unlicensed material
 - A weekly practice window you can sustain, plus a budget ceiling of zero unless a later decision record approves spending
 - Permission before publishing team, school, volunteer, client, or employer work
 - One reviewer, mentor, peer, instructor, or repeatable automated check for feedback
 
-Run a setup check before the first lesson. Create a repository, add a small program and one test, run the test, make a commit, clone into a temporary folder, repeat the test, then delete the temporary copy. Save the commands and result without account names or local paths.
+## Beginner Starter Project
+
+Use the [Python Starter Lab](/files/software-development-career-playbook/python-starter/README.md) before the first lesson. It supplies a dependency-free unit converter, five tests, a deliberate failure, an MIT license, and a read-only CI workflow.
+
+The lab gives exact commands to:
+
+1. Confirm Python 3.12 or newer and download the files.
+2. Compile the app and run `python3 app.py 1`.
+3. Confirm the stable output `1 meters = 3.28 feet`.
+4. Run five tests and confirm `Ran 5 tests` followed by `OK`.
+5. Check help text, dependencies, a starter secret pattern, and the license.
+6. Initialize Git, commit, clone locally, and repeat the tests.
+7. Add the supplied GitHub Actions workflow after reviewing it.
+8. Stage a local release, inject a deliberate failing test, and confirm `DELIVERY BLOCKED`.
+9. Keep the prior release working, promote a valid copy, roll back, and remove the temporary stage and clone.
+
+Save the command transcript without account names or local paths. Stop when a command or expected result differs. Read the error, verify the current directory and Python version, then repeat only the failed step. Do not push until the local checks pass and the destination repository is yours.
 
 ## Playbook Contents
 

@@ -10,6 +10,8 @@ sitemap:
 
 Use this lesson index after reading the [course start page](/software-development-career-playbook-start/). Begin with a target role and a supported workstation. Keep costs bounded. Use local or disposable environments for practice. Never place employer code, personal data, credentials, or paid cloud resources in a public exercise.
 
+Complete the [Python Starter Lab](/files/software-development-career-playbook/python-starter/README.md) before the technical exercises. The hub's final capstone rubric uses the same build, test, review, failure, rollback, and teardown evidence.
+
 ## Ordered Sections
 
 1. [Getting Started in Software Development](/software-development-career-playbook/getting-started-in-software-development/), produce a role decision, a tested starter program, and a learning plan.

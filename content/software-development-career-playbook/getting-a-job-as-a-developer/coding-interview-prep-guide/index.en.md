@@ -53,7 +53,7 @@ Use a baseline task to choose the first study cycle. Replace fixed problem count
 
 **Phase 4: Mock Interview and Review**
 - Binary search and heaps.
-- Full mock interviews using LeetCode's interview mode or Pramp.
+- One mock interview using a partner, instructor, or service whose current terms you reviewed.
 - Review past problems. Time yourself. Speak through solutions out loud.
 
 After each mock, record the score, feedback, one revision, and the next checkpoint. Request accommodations, breaks, or an accessible editor through the employer's stated process.
@@ -62,14 +62,7 @@ After each mock, record the score, feedback, one revision, and the next checkpoi
 
 Curated sets are third-party study aids. Check their current scope, licensing, cost, and fit before use.
 
-| Set | Problems | Best Use |
-|---|---|---|
-| **Blind 75** | 75 problems | The foundational set, solve all of these first |
-| **NeetCode 150** | 150 problems | Expanded set with better category coverage |
-| **NeetCode 250** | 250 problems | Full prep for FAANG-level interviews |
-| **Grind 75** | 75 problems | Algorithm-focused alternative to Blind 75 |
-
-NeetCode provides grouped explanations. Verify current access and terms before relying on the service.
+Examples include Blind 75, Grind 75, and NeetCode lists. Names, counts, included problems, access, price, account terms, and privacy practices change. Record the page URL and check date. Do not treat completion as evidence of readiness for a named employer.
 
 ## Data Structures to Check Against the Target Format
 
@@ -86,20 +79,54 @@ Practice the structures named by the target employer or role. Understanding use,
 
 ## How to Practice Effectively
 
-- **Set a time limit**: 20 minutes for easy problems, 35 minutes for medium, 50 for hard.
-- **If stuck after the time limit**: look at the hint, NOT the full solution. Try to implement from the hint before looking at full code.
+- **Measure a baseline**: use the target employer's disclosed timing when available. Otherwise record your first accurate attempt and select a practice window which supports learning and accommodations.
+- **If stuck**: record the missing idea, review a permitted hint or source, close it, then solve a fresh variation without copying.
 - **Review solutions you could not solve**: understand the pattern, not the specific answer.
 - **Do not redo random problems**: organize practice by pattern. Randomize within a pattern category.
-- **Practice out loud**: narrate your approach as you code. Interview performance degrades without verbal practice.
+- **Practice the required communication mode**: speak, type, draw, or use another agreed accessible format.
 
 ## Mock Interviews
 
-Solving problems alone does not prepare you for the social pressure of a live interview. Practice with:
+Use a mock when the target process includes live interaction. Review access, recording, privacy, price, cancellation, reviewer qualifications, and permitted question sharing before using a service.
 
-- **Pramp**, free peer mock interviews matched by topic and level.
-- **Interviewing.io**, paid mock interviews with FAANG engineers, provides written feedback.
-- **LeetCode interview mode**, timed problem solving with submission tracking.
-- **A study partner**, even a non-technical friend watching you explain your approach adds useful pressure.
+- A study partner or instructor using the rubric below.
+- A current mock-interview service whose official page confirms the needed format and terms.
+- A solo recording for the technical sequence, followed by reviewer feedback.
+
+## Complete Practice Problem
+
+Write `first_unique(values)` which returns the index of the first string appearing exactly once. Return `-1` when no string is unique. Ask whether comparison is case-sensitive and whether empty strings are valid. For this exercise, comparison is case-sensitive and empty strings are valid.
+
+```python
+from collections import Counter
+
+def first_unique(values):
+    counts = Counter(values)
+    for index, value in enumerate(values):
+        if counts[value] == 1:
+            return index
+    return -1
+
+assert first_unique(["a", "b", "a", "c"]) == 1
+assert first_unique(["a", "a"]) == -1
+assert first_unique([]) == -1
+assert first_unique(["", "a", "a"]) == 0
+assert first_unique(["A", "a", "A"]) == 1
+```
+
+The first attempt checked each value against the full list, which took quadratic time. The revised answer counts once and scans once, giving linear time and linear additional space. A reviewer scored requirements 2, tests 2, correctness 2, complexity 2, and explanation 1. The revision added the space-cost explanation for a final score of 10.
+
+## Ten-Point Rubric
+
+Score each dimension from zero to two.
+
+- **Requirements**: zero misses the contract, one needs a prompt, two states inputs, outputs, and edge cases.
+- **Tests**: zero has no useful test, one covers the normal path, two covers normal, empty, duplicate, and stated comparison behavior.
+- **Correctness**: zero fails core cases, one needs a correction, two passes the agreed cases independently.
+- **Complexity**: zero gives no analysis, one identifies time or space, two explains both against input size.
+- **Explanation**: zero cannot explain the code, one explains the main idea, two explains choices, limits, and a revision.
+
+Pass at eight of ten with no zero. Repeat the task with a fresh variation after feedback when the score is lower or any dimension is zero.
 
 ## Next Steps
 
@@ -115,7 +142,7 @@ Solving problems alone does not prepare you for the social pressure of a live in
 
 ```text
 REDACTED COMPLETED EXAMPLE
-Score: requirements 2/2, tests 2/2, correctness 2/2, explanation 1/2. Revision: explained space cost.
+First score: 9/10. Revision: explained space cost. Final score: 10/10. Result: pass.
 ```
 
 **Pass checklist**

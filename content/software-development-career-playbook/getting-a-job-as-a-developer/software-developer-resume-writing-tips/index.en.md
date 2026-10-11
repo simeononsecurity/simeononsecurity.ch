@@ -21,11 +21,11 @@ For a complete deep-dive on resume writing with ATS strategy, section structure,
 
 Use this as one starting order, then follow target-employer instructions:
 
-1. **Contact info**, name, city/state, email, LinkedIn URL, GitHub URL, portfolio URL.
-2. **Summary**, two to three sentences: role target, primary skills, experience level.
+1. **Contact info**, name, broad location when useful, email, and relevant professional links.
+2. **Summary**, optional concise role target and supported evidence.
 3. **Skills**, languages, frameworks, tools, and platforms organized by category.
-4. **Experience**, reverse chronological. For each role: title, company, dates, three to five bullet accomplishments.
-5. **Projects**, three to five portfolio projects with tech stack and measurable outcomes.
+4. **Experience**, often reverse chronological, with title, organization, dates, scope, and relevant evidence.
+5. **Projects**, selected role-relevant work with your contribution and verified outcomes.
 6. **Education**, degree, school, graduation year. Certifications if no degree or if certification is more relevant.
 7. **Certifications**, (optional section if substantial).
 
@@ -49,7 +49,7 @@ Do not pad the skills section with technologies you cannot discuss in an intervi
 A useful bullet often states the action, your scope, relevant method, and a verified result or output.
 
 - **Bad**: "Worked on the backend API."
-- **Good**: "Redesigned authentication service using JWT and Redis session caching, reducing login latency by 60%."
+- **Good**: "Added two retry tests to a Redis-backed session service and documented the failure path, reducing repeated support cases during the measured release period."
 - **Bad**: "Helped improve the deployment process."
 - **Good**: "Built GitHub Actions CI/CD pipeline that automated testing and deployment, reducing release time from 3 hours to 12 minutes."
 
@@ -73,16 +73,16 @@ For an early-career applicant, projects provide evidence when paid experience is
 
 Some employers use applicant tracking systems for storage, search, routing, or screening. Prepare a readable file without guessing at an employer's scoring method:
 
-- Pull exact technical terms from the job description and include them verbatim in your resume.
-- Do not abbreviate or use synonyms if the job posting uses a specific term (the JD says "Node.js", not "NodeJS").
-- Include the programming languages listed in the job posting in your skills section even if they are peripheral.
-- Match both the tool names and the context ("AWS Lambda" not just "Lambda").
+- Use the posting's technical term only when your evidence supports the same skill and context.
+- Preserve official product spelling when naming a tool you used.
+- Omit languages and platforms you cannot support with truthful evidence.
+- Verify plain-text extraction rather than guessing how one applicant system scores keywords.
 
 ## Common Developer Resume Mistakes
 
 - **Broken or unsafe links.** Include a work-sample link only when it supports the role and contains no private material.
-- **Objective statement.** Replace with a summary that states your value, not what you want.
-- **Listing responsibilities instead of accomplishments.** "Responsible for database maintenance" is worthless. "Optimized PostgreSQL query performance, reducing p99 latency from 800ms to 90ms" is a hire signal.
+- **Unfocused opening.** Use a summary only when it adds role-relevant evidence.
+- **Unsupported impact.** Replace vague responsibility or invented metrics with your actual scope, action, and verified result.
 - **One-size-fits-all resume.** Tailor the summary and skills emphasis for each job application.
 - **Unfocused length.** Keep evidence relevant and readable. Employer instructions and role complexity determine useful length.
 
@@ -97,13 +97,15 @@ Some employers use applicant tracking systems for storage, search, routing, or s
 
 ## Practice and Verify
 
-**Artifact: Truthful application artifact.** Choose one posting. Create a tailored resume with only supported skills. Add one before-and-after bullet, project evidence, team credit, confidentiality check, plain-text extraction, link test, metadata review, and background-check consistency check.
+**Artifact: Truthful application artifact.** Choose one posting. Create a tailored resume with only supported skills. Add one before-and-after bullet, project evidence, team credit, confidentiality check, plain-text extraction, link test, metadata review, and background-check consistency check. Use the revised [Resume Optimization Course](/resume-optimization-course-start/) for its current templates and checks.
 
 > **Expected result:** The resume text extracts in order, links open, claims match evidence, and a reviewer finds no unsupported skill.
 
 ```text
 REDACTED COMPLETED EXAMPLE
-Before: worked on API. After: added retry tests for two failure paths, reducing repeated support cases in the measured release period.
+Resume excerpt: Python unit converter | Personal learning project
+Added five unit tests for normal, boundary, and rejected input. Documented setup and reproduced the test run from a clean clone.
+Plain-text extraction: heading, project name, two sentences, and HTTPS link appeared in reading order.
 ```
 
 **Pass checklist**
@@ -114,4 +116,4 @@ Before: worked on API. After: added retry tests for two failure paths, reducing 
 - [ ] A reviewer or repeatable check produced feedback
 - [ ] The record names a timed next action and checkpoint
 
-**Source rule:** Use the original posting and the site's Resume Optimization Course after its current review issues are resolved.
+**Source rule:** Use the original posting, target-employer instructions, and the site's current Resume Optimization Course.

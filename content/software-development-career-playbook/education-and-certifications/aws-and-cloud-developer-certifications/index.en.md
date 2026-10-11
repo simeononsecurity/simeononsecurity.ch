@@ -112,12 +112,12 @@ The former Azure Developer Associate exam, AZ-204, [retired on July 31, 2026](ht
 
 | Resource | For |
 |---|---|
-| **AWS Skill Builder** (free) | AWS exam prep labs and courses |
+| **AWS Skill Builder** | AWS offers free learning resources and a limited free lab set. Full exam-prep and immersive-lab access might require a paid subscription. Check current access and price. |
 | **Third-party courses** | Compare scope, update date, accessibility, refund terms, and practice quality against the official guide |
 | **Microsoft Learn** (free) | Azure certification study paths |
 | **Google Cloud Skills Boost** | Check current pricing and lab access before enrollment |
 
-**Primary sources, checked 2026-10-10:** [AWS certification catalog](https://aws.amazon.com/certification/), [AWS pricing and testing policy](https://aws.amazon.com/certification/policies/before-testing/), [Microsoft Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/), [AZ-305 exam page](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/), [Google Associate Cloud Engineer](https://cloud.google.com/learn/certification/cloud-engineer), and [Google Professional Cloud Developer](https://cloud.google.com/learn/certification/cloud-developer).
+**Primary sources, checked 2026-10-10:** [AWS certification catalog](https://aws.amazon.com/certification/), [AWS pricing and testing policy](https://aws.amazon.com/certification/policies/before-testing/), [AWS digital training access](https://aws.amazon.com/training/digital/), [Microsoft Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/), [AZ-305 exam page](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/), [Google Associate Cloud Engineer](https://cloud.google.com/learn/certification/cloud-engineer), and [Google Professional Cloud Developer](https://cloud.google.com/learn/certification/cloud-developer).
 
 ## Next Steps
 

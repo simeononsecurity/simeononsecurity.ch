@@ -57,7 +57,7 @@ See the [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/) 
 | Certification | Best For |
 |---|---|
 | **MongoDB Associate Developer** | Backend developers using MongoDB |
-| **Databricks Certified Associate Developer** | Data engineers and ML engineers |
+| **Databricks Certified Associate Developer for Apache Spark** | Roles using Apache Spark where target postings value the credential |
 | **dbt Analytics Engineering Certification** | Data engineers working with dbt |
 | **Salesforce Platform Developer** | Developers in Salesforce-heavy enterprise environments |
 
@@ -66,7 +66,7 @@ See the [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/) 
 - **CompTIA A+**: relevant when the role includes endpoint or support work.
 - **CompTIA Network+**: relevant when the role includes network-heavy development or operations.
 - **ITIL Foundation**: relevant when the employer uses IT service-management practices.
-- **Vendor-specific specialty certs beyond the associate level early in your career**: earn Associate first, Professional certifications compound on top of demonstrated experience.
+- **Vendor-specific advanced credentials early in your career**: consider associate-level study and hands-on evidence first. Check the selected vendor because advanced exams do not share one universal prerequisite.
 
 ## How to Use Certifications Strategically
 

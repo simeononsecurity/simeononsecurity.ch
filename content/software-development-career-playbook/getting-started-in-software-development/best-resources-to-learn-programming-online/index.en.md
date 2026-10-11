@@ -86,7 +86,11 @@ Community feedback helps when rules, privacy, safety, and conduct fit your needs
 
 ## Practice and Verify
 
-**Artifact: Learning plan.** Compare three current resources by cost, prerequisites, accessibility, feedback, project work, privacy, cancellation, and last update. Choose one four-week unit. Build a small program, add two tests, request one review, and record what changed.
+**Artifact: Learning plan.** Compare three current resources by cost, prerequisites, account, accessibility, feedback, project work, privacy, license, cancellation, and last update. Choose one four-week unit. Use the [Python Starter Lab](/files/software-development-career-playbook/python-starter/README.md) for the first program.
+
+Run `python3 app.py 1` and confirm `1 meters = 3.28 feet`. Run `python3 -m unittest -v test_app.py` and confirm five tests plus `OK`. The required cases are `1`, `0`, `2.5`, `-1`, and `secret`. Ask a reviewer to follow only the README.
+
+Score the resource from zero to two for role fit, clear prerequisites, accessible format, feedback, bounded cost, privacy terms, licensed project work, and cancellation clarity. Pause a resource below twelve of sixteen points or when a required field is unknown. The reviewer passes the starter when setup works from a fresh clone, five tests pass, the expected error cases are clear, and one feedback item is resolved.
 
 > **Expected result:** One dated comparison, a working program, two passing tests, and one response to review feedback.
 

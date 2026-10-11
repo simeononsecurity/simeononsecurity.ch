@@ -48,20 +48,20 @@ Common behavioral questions for developers:
 
 ## Coding Interviews
 
-Coding interviews test data structures, algorithms, and problem-solving under observation. See the [Coding Interview Prep Guide](/software-development-career-playbook/getting-a-job-as-a-developer/coding-interview-prep-guide/) for a full practice strategy.
+Some coding interviews test data structures or algorithms. Others use code reading, debugging, testing, domain work, or a work sample. See the [Coding Interview Prep Guide](/software-development-career-playbook/getting-a-job-as-a-developer/coding-interview-prep-guide/) after confirming the target format.
 
-The expected approach during the interview itself:
+One sample sequence for a live coding task:
 
 1. **Ask clarifying questions** before writing a single line. What are the input types? Can the input be null or empty? What are the constraints on input size?
-2. **Think out loud.** Narrate your approach before coding it. Interviewers want to see your reasoning, not just your solution.
-3. **Start with a brute force approach.** Confirm it with the interviewer, then optimize.
-4. **Write clean, readable code.** Descriptive variable names, proper indentation. Interviewers read your code and its style matters.
+2. **Use the agreed communication mode.** Speak, type, draw, or use another accessible format.
+3. **State a simple correct approach.** Improve it only when the requirements or interviewer request support the change.
+4. **Write readable code.** Use names and structure which support review.
 5. **Test your solution** with examples including edge cases before declaring it done.
 6. **Discuss time and space complexity** (Big O) after writing the solution.
 
 ## System Design Interviews (Senior and Above)
 
-System design rounds are typically added for mid to senior level interviews. You are given an ambiguous, large-scale problem and asked to design a system that solves it.
+A target employer might use system design for roles with architecture responsibilities. Confirm the expected scope, tools, timing, and evaluation criteria.
 
 Common prompts include:
 - Design a URL shortener.
@@ -70,7 +70,7 @@ Common prompts include:
 - Design a news feed service (Twitter, Instagram).
 - Design a ride-sharing dispatching system.
 
-The framework for answering:
+One sample framework:
 
 1. **Clarify requirements**: scale (how many users, requests per second), features (what is in scope vs. out of scope), and constraints.
 2. **Estimate scale**: rough math on storage, bandwidth, and compute needs.
@@ -79,16 +79,25 @@ The framework for answering:
 5. **Deep-dive on components**: choose data models, discuss trade-offs (SQL vs. NoSQL, consistency vs. availability).
 6. **Identify bottlenecks and solutions**: caching, sharding, load balancing.
 
-*System design interviews reward breadth plus the ability to articulate trade-offs. There is no single correct answer. Half the score is how clearly you communicate your decisions.*
+Score a design against the stated requirements, assumptions, units, security, privacy, abuse, failure, recovery, cost, and trade-offs.
 
-## What Interviewers Are Actually Evaluating
+## Sample Mock-Loop Rubric
 
-Beyond correct answers, experienced interviewers assess:
+The target employer controls its own rubric. For this course, score five stages from zero to four.
 
-- **Communication**: do you explain your thinking clearly before, during, and after writing code?
-- **Adaptability**: when given a hint, do you incorporate it gracefully?
-- **Engineering judgment**: do you write maintainable code or just code that passes the test?
-- **Composure**: can you handle ambiguity and partial information without freezing?
+| Stage | 0 | 2 | 4 |
+|---|---|---|---|
+| **Behavioral evidence** | No relevant example or unsupported claim | Relevant example with incomplete ownership or result | Truthful context, personal scope, team credit, action, result, and reflection |
+| **Coding or debugging** | Core cases fail | Normal path passes but edge tests or explanation need work | Agreed cases pass with readable code, tests, and complexity or failure explanation |
+| **System or work-sample review** | Requirements or major risks are missing | Main design works but one material trade-off is weak | Requirements, units, data, security, privacy, failure, recovery, cost, and trade-offs are explicit |
+| **Boundaries and access** | Confidential material, hidden tool use, or unsafe access | Rules are followed after a prompt | Scope, IP, data, AI use, accommodations, breaks, and withdrawal conditions are confirmed first |
+| **Candidate questions** | No questions tied to the role | One useful question | Questions cover review, deployment, on-call, safety, growth, accommodations, and decision timing |
+
+Pass at sixteen of twenty with no zero. Repeat each stage below three after feedback. Stop and clarify when the mock requires confidential questions, unsafe access, uncompensated excessive work, or unclear IP terms.
+
+Example accommodations request: `Please share the interview stages and accessible format. I request a keyboard-accessible editor, a short break between stages, and written prompts. Who should receive supporting documentation, if required?`
+
+Before a take-home, ask: `What is the expected time limit? Is it compensated? Who owns the submission? Which data, libraries, references, and AI tools are permitted? Will any part enter production? When will you delete my copy?`
 
 ## Next Steps
 
@@ -104,7 +113,7 @@ Beyond correct answers, experienced interviewers assess:
 
 ```text
 REDACTED COMPLETED EXAMPLE
-First score: 12/20. Repeated coding stage: 4/5 after adding edge cases. AI use: disclosed under mock rules.
+First score: 14/20 with design at 2. Repeated design stage after feedback: 4. Final score: 16/20 with no zero. Result: pass.
 ```
 
 **Pass checklist**

@@ -23,12 +23,12 @@ In practice this means:
 
 - Teams assign CI/CD ownership with documented review and escalation.
 - On-call work needs training, shadowing, staffing, pay or time policy, escalation, and rest.
-- Infrastructure is defined as code alongside application code, not managed manually.
+- A team might define selected infrastructure as code under review while retaining controlled manual procedures for other changes.
 - Feedback loops between production behavior and development decisions are short.
 
 ## CI/CD Pipelines
 
-A **CI/CD pipeline** automates the path from code commit to production deployment.
+A **CI/CD pipeline** automates selected integration and delivery steps. Continuous delivery keeps a releasable change ready for a production decision. Continuous deployment automatically releases every change which passes the configured gates.
 
 **Continuous Integration (CI)** runs automated checks on configured events such as a pull request, push, merge queue, or schedule:
 - Code checkout and dependency installation
@@ -44,7 +44,7 @@ A **CI/CD pipeline** automates the path from code commit to production deploymen
 
 | CI/CD Tool | Notes |
 |---|---|
-| **GitHub Actions** | Native to GitHub, YAML-based, easiest to adopt for GitHub users |
+| **GitHub Actions** | GitHub-hosted workflow service configured with YAML files |
 | **GitLab CI** | Built into GitLab, powerful, good for self-hosted scenarios |
 | **Jenkins** | Mature and highly extensible, complex to maintain |
 | **CircleCI** | Managed platform, good parallelization |
@@ -82,7 +82,7 @@ Depending on team boundaries, a developer might propose or review infrastructure
 
 ## Observability
 
-**Observability** is the ability to understand what your system is doing at any moment, based on the outputs it produces. The three pillars:
+**Observability** uses system outputs and analysis to investigate behavior. Metrics, logs, and traces are common signals. Profiles, events, topology, and other signals might also matter.
 
 | Pillar | What It Provides | Tools |
 |---|---|---|
@@ -94,7 +94,7 @@ The RED method offers a useful starting view for request-driven services:
 
 1. **Request rate**: how many requests is the service handling per second?
 2. **Error rate**: what portion of requests fail under the service definition? Set alerts from an agreed service-level objective, traffic level, and error budget rather than a universal threshold.
-3. **Latency**: what is the p50, p95, and p99 response time? Alert on p99 degradation.
+3. **Latency**: which percentile and window match the service objective and traffic volume? Derive an alert from that objective rather than always alerting on p99.
 
 This is the **RED method** (Rate, Errors, Duration). Complementary is the **USE method** for infrastructure resources (Utilization, Saturation, Errors).
 
@@ -102,11 +102,11 @@ This is the **RED method** (Rate, Errors, Duration). Complementary is the **USE 
 
 A **platform engineer** builds and maintains the internal platforms that other developers use to ship software: CI/CD systems, container orchestration, secrets management, observability tooling, deployment frameworks, and developer portals.
 
-Platform engineering treats internal teams as customers. The platform team's job is to make building and operating software faster and safer for all engineering teams.
+A platform team might treat internal teams as customers and measure whether its supported paths improve delivery, reliability, security, or developer experience for a defined group.
 
 Role scope and compensation vary by employer, geography, level, and on-call expectations. See [Software Development Specializations](/software-development-career-playbook/getting-started-in-software-development/software-development-specializations/) for a comparison method.
 
-**Primary sources, checked 2026-10-10:** [Terraform state documentation](https://developer.hashicorp.com/terraform/language/state), [GitHub Actions events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows), and [Google SRE service-level objectives](https://sre.google/workbook/implementing-slos/).
+**Primary sources, checked 2026-10-10:** [Terraform state documentation](https://developer.hashicorp.com/terraform/language/state), [GitHub Actions events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows), [OpenTelemetry signals](https://opentelemetry.io/docs/concepts/signals/), and [Google SRE service-level objectives](https://sre.google/workbook/implementing-slos/).
 
 ## Next Steps
 
@@ -116,13 +116,15 @@ Role scope and compensation vary by employer, geography, level, and on-call expe
 
 ## Practice and Verify
 
-**Artifact: Safe delivery rehearsal.** Use a tiny local application. Configure lint and tests in CI, build an artifact, deploy to a disposable local stage, inject one failing test, observe the stop, restore the passing version, record rollback, scan secrets and dependencies, then tear down.
+**Artifact: Safe delivery rehearsal.** Complete the [Python Starter Lab](/files/software-development-career-playbook/python-starter/README.md). It supplies the tiny application, five tests, deliberate failure, MIT license, and [GitHub Actions workflow](/files/software-development-career-playbook/python-starter/ci-test.yml).
+
+Run the documented compile, unit-test, dependency, help, license, and starter secret checks. Create `.stage/releases/v1`, point `.stage/current` to it, and confirm the stable output. Run `test_app.py` with `failure_fixture.py` and confirm one failure plus `DELIVERY BLOCKED`. Verify the v1 output still works. Promote the passing v2 copy, point current back to v1, verify rollback, and remove `.stage` plus the temporary clone.
 
 > **Expected result:** The good run passes, the deliberate failure blocks delivery, rollback restores service, and no secret or paid resource remains.
 
 ```text
 REDACTED COMPLETED EXAMPLE
-Tests: 6 passed. Injected failure: pipeline stopped. Rollback: passed. Teardown: container and temporary state removed.
+Tests: 5 passed. Injected failure: 1 failed and DELIVERY BLOCKED. Rollback output: 1 meters = 3.28 feet. Teardown: .stage and clone removed.
 ```
 
 **Pass checklist**
