@@ -4,7 +4,7 @@ date: 2023-07-15
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study facilities monitoring for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through thresholds, units, placement, baselines, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Facilities Monitoring", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_cartoon_illustration_of_a_network_s.webp"
@@ -109,7 +109,7 @@ By leveraging the knowledge gained from the CompTIA Network+ certification, netw
 
 This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `15-before` before changing state.
 
-**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering thresholds, units, placement, baselines, alerts, power, cooling, flood response, MDF, IDF, racks, airflow, panels, UPS, PDU, and NetFlow. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering thresholds, units, placement, baselines, alerts, power, cooling, flood response, MDF, IDF, racks, port-side intake and exhaust airflow, panels, UPS, PDU, and NetFlow. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
 
 ### Fault injection and recovery
 

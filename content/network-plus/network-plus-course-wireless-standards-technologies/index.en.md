@@ -3,7 +3,7 @@ title: "CompTIA Network+ N10-009: Wireless Standards"
 date: 2023-07-11
 toc: true
 draft: false
-description: "Compare wireless standards, bands, channels, PHY rates, RSSI, noise, SNR, antennas, roaming, BSSID, ESSID, and access point models."
+description: "Compare N10-009 wireless standards, bands, channels, security, antennas, roaming, and survey evidence through a measured RF planning exercise."
 lastmod: 2026-10-10
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Wireless Standards", "network lab", "network troubleshooting", "exam prep"]

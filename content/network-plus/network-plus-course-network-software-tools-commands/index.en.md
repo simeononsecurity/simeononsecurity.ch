@@ -4,7 +4,7 @@ date: 2023-07-29
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Use scoped address, route, DNS, socket, scan, and packet tools, save expected output, and diagnose one controlled lab fault."
+description: "Use scoped address, route, DNS, socket, scan, and packet tools against the course topology, then save expected output and diagnose one fault."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Network Tools", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_engaging_cartoon-style_illustration_showing_a_network_professional.webp"

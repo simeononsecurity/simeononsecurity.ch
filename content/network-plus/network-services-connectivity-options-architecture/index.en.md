@@ -4,7 +4,7 @@ date: 2023-07-04
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study network services for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through DHCP DORA and relay, DNS recursion, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Network Services", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_showcasing_various_networks.webp"

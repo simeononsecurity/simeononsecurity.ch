@@ -4,7 +4,7 @@ date: 2023-07-22
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study physical security for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through doors, racks, consoles, ports, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Physical Security", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_showing_a_lock_protect.webp"

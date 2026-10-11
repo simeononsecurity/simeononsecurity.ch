@@ -4,7 +4,7 @@ date: 2023-07-17
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study network documentation for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through logical and physical diagrams, racks, cables, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Network Documentation", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_image_depicting_a_network_infrastructure_wi.webp"

@@ -4,7 +4,7 @@ date: 2023-07-12
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study cellular networks for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through LTE, 5G NSA and SA, SIM, eSIM, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Cellular Networks", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_representation_of_cellular_technoloy.webp"

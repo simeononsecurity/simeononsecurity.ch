@@ -4,7 +4,7 @@ date: 2023-07-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Capture ARP and IPv6 Neighbor Discovery, inspect neighbor states, test duplicate detection, and document DAI and RA Guard limits."
+description: "Capture ARP and IPv6 Neighbor Discovery for N10-009, inspect cache states, test duplicate detection, and document Layer 2 security limits."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "ARP and NDP", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_depicting_the_seamless.webp"

@@ -4,7 +4,7 @@ date: 2023-07-28
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study cable troubleshooting for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through distance, PoE, auto-MDI-X, safety, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Cable Troubleshooting", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_cartoon_illustration_of_two_networking_cables.webp"

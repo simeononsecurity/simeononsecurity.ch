@@ -4,7 +4,7 @@ date: 2023-07-26
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Inventory retired network media, choose Clear, Purge, or Destroy, verify results, track custody, and record final disposition."
+description: "Inventory retired network media, choose Clear, Purge, or Destroy, verify results, track custody, and record final disposition under NIST guidance."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Media Sanitization", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_3D_animated_illustration_showing_a_locked_pa.webp"

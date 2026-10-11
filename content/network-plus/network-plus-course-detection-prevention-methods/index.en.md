@@ -4,7 +4,7 @@ date: 2023-07-25
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study physical detection for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through cameras, badges, biometrics, lighting, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Physical Detection", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_animated_illustration_of_a_network_shield_p.webp"

@@ -4,7 +4,7 @@ date: 2023-07-21
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Study network hardening for N10-009, complete a focused lab checkpoint, diagnose one fault, save evidence, restore service, and submit a graded artifact."
+description: "Learn Network Skills for CompTIA Network+ N10-009 through secure management, SNMPv3, DAI, RA Guard, a controlled fault, saved evidence, and recovery proof."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Network Hardening", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_illustration_depicting_a_shield_protecting_network.webp"
@@ -123,7 +123,7 @@ Remember, network security is an ongoing process, and it's important to regularl
 
 This checkpoint extends the [shared course topology](/network-plus-start/#progressive-n10-009-lab). Work inside an isolated simulator copy. Save `24-before` before changing state.
 
-**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering secure management, SNMPv3, DAI, RA Guard, port security, private VLANs, control plane, ACLs, RADIUS, TACACS+, and recovery. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
+**Build and verify:** Create one topic-specific diagram, configuration, capture, log, ticket, or test record covering secure management, SNMPv3, DAI, RA Guard, port security, private VLANs, control plane, ACLs, RADIUS, TACACS+, PKI, SAML, honeynets, screened subnets, and recovery. Tie every choice to R1, R2, SW1, SW2, AP1, SRV1, or an endpoint in the shared topology. Record expected and observed results.
 
 ### Fault injection and recovery
 
