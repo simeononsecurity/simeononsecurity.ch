@@ -75,6 +75,21 @@ NIST SP 800-207 removes implicit trust based on network location or asset owners
 
 **Primary references, checked 2026-10-10:** [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final), [NIST SP 800-207A](https://csrc.nist.gov/pubs/sp/800/207/A/final), [AWS IAM policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html), [Microsoft Entra Conditional Access](https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview), and [Google Cloud service account security](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts).
 
+## Troubleshooting
+
+- **No cloud sandbox exists:** complete Lessons 1 through 5 and the offline capstone with synthetic data.
+- **CLI access is denied:** record the denied action and use an approved sandbox operator.
+- **Provider terms conflict:** return to the identity comparison and preserve provider-specific names.
+
+## Verify Readiness
+
+- [ ] The active provider context is recorded
+- [ ] The environment holds no production resources
+- [ ] Create and delete permissions are approved
+- [ ] A recovery administrator exists outside the lab identity
+
+> **Expected Result:** the selected lab environment has a known owner, bounded scope, and verified teardown route.
+
 ## Start Here
 
 Begin with [Lesson 1: Identity Model](/cloud-iam-zero-trust-course/01-identity-model/). Draw the access path before writing policy.
