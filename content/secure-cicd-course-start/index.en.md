@@ -16,7 +16,7 @@ coverCaption: ""
 
 ## Audience and Prerequisites
 
-**Audience:** Developers, release engineers, and security staff who maintain GitHub repositories or review packages. You need basic Git, a terminal, and Python 3.10 or later. A GitHub account is optional for the local path. The hosted path needs a disposable repository where you control Actions settings.
+**Audience:** Developers, release engineers, and security staff who maintain repositories or review packages. The guided local path needs Python 3.10 or later and a terminal. Git and a GitHub account are optional. The hosted path needs a disposable repository where you control Actions settings.
 
 **Time:** Four to six hours for the lessons, one hour for the lab, and two hours for the capstone. The local tampering exercise has no cloud cost. Do not use production credentials or releases.
 
@@ -25,10 +25,10 @@ coverCaption: ""
 After the course, you will:
 
 - **Review a dependency change** and document its direct and transitive effects.
-- **Generate an SBOM** and state what its component list does and does not prove.
+- **Inspect a sample SBOM**, then generate one from your own project with Syft if you take the optional tool path.
 - **Limit pipeline permissions** and separate untrusted pull request work from release work.
-- **Interpret Scorecard results** as evidence for a review decision.
-- **Read SLSA provenance** and verify an artifact against an expected source and builder.
+- **Interpret a Scorecard finding** and make a review decision.
+- **Read SLSA provenance fields** and compare an artifact with an expected source and builder. The hosted path adds signed attestation verification.
 - **Reject a changed release** in a controlled local investigation.
 
 ## Lesson Order
@@ -46,11 +46,11 @@ After the course, you will:
 
 ## What You Will Produce
 
-**Keep one release packet** with a dependency review, SBOM path, permissions table, Scorecard finding, expected provenance identity, artifact digest, lab result, and release decision. Each page names the next field to add. A passing checksum alone is an integrity check. Publisher identity needs a separate trusted provenance check.
+**Keep one release packet** with a dependency review, SBOM component, permissions table, Scorecard finding, expected provenance identity, artifact digest, lab result, and release decision. The [lab archive](/downloads/secure-cicd-lab.zip) supplies fictional evidence for every local step. Its Scorecard and provenance files are clearly labeled teaching fixtures, not live tool results. A passing checksum alone is an integrity check. Publisher identity needs a separate signed attestation check.
 
 ## Safe Practice Paths
 
-**Local path:** Use the [downloadable lab directory](/downloads/secure-cicd-lab.zip) and Python. Read the hosted examples without claiming a GitHub run occurred. Record “not run” for hosted controls.
+**Local path:** Download the [lab archive](/downloads/secure-cicd-lab.zip), extract it, and use Python to inspect the fictional dependency change, SBOM, Scorecard result, provenance statement, policy, and release files. All local pass criteria use these fixtures. Record “not run” for Syft, GitHub Actions, and signed attestation checks you did not execute.
 
 **Hosted path:** Use a disposable GitHub repository. Enable Actions, run only the example workflows after reviewing every action reference, then delete the repository and any test artifact when done. GitHub's [secure use guidance](https://docs.github.com/en/actions/reference/security/secure-use) explains why workflow code and tokens need careful review.
 
