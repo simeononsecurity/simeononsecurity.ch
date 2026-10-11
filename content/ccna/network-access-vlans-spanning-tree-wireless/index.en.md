@@ -12,7 +12,7 @@ coverAlt: "An illustration depicting a network topology with interconnected swit
 coverCaption: "Master Network Access for the CCNA 200-301 Exam"
 ---
 
-#### [Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
+[Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
 
 **Network Access** is **20%** of the **Cisco CCNA (200-301)** exam. This module covers VLANs, trunking, EtherChannel, spanning tree, and wireless access. *These are the configuration skills interviewers love to test on a live switch.*
 

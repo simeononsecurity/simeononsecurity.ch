@@ -11,7 +11,7 @@ coverAlt: "An illustration of interconnected routers on a dark background, featu
 coverCaption: "Master IP Connectivity and Routing for the CCNA 200-301 Exam"
 ---
 
-#### [Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
+[Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
 
 **IP Connectivity** is the heaviest domain on the **Cisco CCNA (200-301)** exam at **25%**. This module covers how routers choose paths and how you configure static and OSPF routing. *Spend extra lab time here, because this domain carries the most weight.*
 

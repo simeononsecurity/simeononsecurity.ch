@@ -12,7 +12,7 @@ coverAlt: "An illustration depicting a network diagram with interconnected nodes
 coverCaption: "Master Automation and Programmability for the CCNA 200-301 Exam"
 ---
 
-#### [Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
+[Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
 
 **Automation and Programmability** is **10%** of the **Cisco CCNA (200-301)** exam. This module covers how software-defined networking and automation change network management. *Modern networking careers increasingly expect these skills, so do not skip them.*
 

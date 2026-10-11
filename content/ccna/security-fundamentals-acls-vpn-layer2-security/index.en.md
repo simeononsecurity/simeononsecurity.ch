@@ -12,7 +12,7 @@ coverAlt: "An illustration of a secure network environment featuring routers, sw
 coverCaption: "Master Security Fundamentals for the CCNA 200-301 Exam"
 ---
 
-#### [Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
+[Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
 
 **Security Fundamentals** is **15%** of the **Cisco CCNA (200-301)** exam. This module covers how you protect devices, traffic, and access. *Security questions blend with configuration tasks, so know both the theory and the commands.*
 

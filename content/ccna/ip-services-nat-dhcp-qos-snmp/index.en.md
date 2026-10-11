@@ -11,7 +11,7 @@ coverAlt: "A digital illustration of a futuristic control panel with glowing but
 coverCaption: "Master IP Services for the CCNA 200-301 Exam"
 ---
 
-#### [Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
+[Click Here to Return To the Cisco CCNA Course Page](/ccna-start/)
 
 **IP Services** is **10%** of the **Cisco CCNA (200-301)** exam. This module covers the services that make a network usable and manageable. *These features show up constantly in real networks even though the domain weight is small.*
 
