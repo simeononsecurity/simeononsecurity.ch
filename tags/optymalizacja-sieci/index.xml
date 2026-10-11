@@ -1,0 +1,362 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optymalizacja Sieci on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Optymalizacja Sieci on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/optymalizacja-sieci/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/optymalizacja-sieci/</link>
+
+    <description>Recent content in Optymalizacja Sieci on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/optymalizacja-sieci/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network&#43;: ARP i Protokół Odkrywania Sąsiadów</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link>
+        
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Sieci komputerowe"
+            
+              , "Protokoły"
+            
+              , "Certyfikacja Network&#43;"
+            
+              , "Rozwiązywanie problemów"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "IPv4"
+            
+              , "IPv6"
+            
+              , "Komunikacja sieciowa"
+            
+              , "Rozwiązywanie adresów"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Naucz się skutecznie wykorzystywać Protokół Rozwiązywania Adresów (ARP) oraz Protokół Odkrywania Sąsiadów (NDP) do rozwiązywania adresów IP na adresy MAC, poruszania się po sieciach IPv6 oraz rozwiązywania typowych problemów dla zoptymalizowanej wydajności i bezpieczeństwa sieci.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Kurs Network Plus: Protokoły routingu, koncepcje i optymalizacja</title>
+        
+          <link>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</link>
+        
+        <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Technologia"
+            
+              , "Tworzenie sieci"
+            
+              , "Routing"
+            
+              , "Protokoły sieciowe"
+            
+              , "Zarządzanie siecią"
+            
+              , "Routing dynamiczny"
+            
+              , "Routing statyczny"
+            
+              , "Zarządzanie przepustowością"
+            
+              , "Jakość usług"
+            
+              , "Urządzenia sieciowe"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/network-plus/routing-technologies-concepts/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Poznaj świat technologii i koncepcji routingu, od dynamicznych protokołów routingu, takich jak RIP, OSPF, EIGRP i BGP, po protokoły stanu łącza, wektora odległości i routingu hybrydowego, a także konfigurację routingu statycznego i tras domyślnych.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/An_illustration_of_interconnected_network_devi.webp" length="62296" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Opanowanie GPO: Kompleksowy przewodnik po skutecznym...</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</link>
+        
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Zarządzanie siecią"
+            
+              , "Obiekty Zasad Grupowych"
+            
+              , "GPO"
+            
+              , "Administracja Windows"
+            
+              , "Infrastruktura IT"
+            
+              , "Bezpieczeństwo sieci"
+            
+              , "Active Directory"
+            
+              , "Zarządzanie konfiguracją"
+            
+              , "Zarządzanie zasadami grupowymi"
+            
+              , "Optymalizacja sieci"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/what-are-gpos-group-policy-objects/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj moc Obiektów Zasad Grupowych (GPO) i naucz się efektywnie zarządzać oraz optymalizować ustawienia i polityki sieciowe dla zwiększonego bezpieczeństwa i uproszczonych operacji.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_image_illustrating_a_network_of_interc.webp" length="133218" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Aktualizacja firmware offline dla Ubiquiti Unifi UDM Pro i UDM SE przez SSH z wiersza poleceń</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</link>
+        
+        <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Aktualizacja oprogramowania układowego Ubiquiti"
+            
+              , "UDM Pro"
+            
+              , "UDM SE"
+            
+              , "aktualizacja oprogramowania sprzętowego offline"
+            
+              , "Wiersz poleceń SSH"
+            
+              , "zarządzanie siecią"
+            
+              , "bezpieczeństwo sieci"
+            
+              , "aktualizacja oprogramowania sprzętowego"
+            
+              , "Połączenie SSH"
+            
+              , "plik oprogramowania układowego"
+            
+              , "Kontroler sieci UniFi"
+            
+              , "poprawki błędów"
+            
+              , "poprawa wydajności"
+            
+              , "poprawki zabezpieczeń"
+            
+              , "networking"
+            
+              , "urządzenia sieciowe"
+            
+              , "technologia"
+            
+              , "Zarządzanie IT"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego"
+            
+              , "optymalizacja sieci"
+            
+              , "Aktualizacja oprogramowania sprzętowego Ubiquiti Networks"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM Pro"
+            
+              , "Aktualizacja oprogramowania sprzętowego UDM SE"
+            
+              , "Proces aktualizacji oprogramowania sprzętowego offline"
+            
+              , "Aktualizacja oprogramowania sprzętowego SSH"
+            
+              , "zarządzanie urządzeniami sieciowymi"
+            
+              , "aktualizacje zabezpieczeń sieci"
+            
+              , "strategie aktualizacji oprogramowania sprzętowego"
+            
+              , "Zarządzanie oprogramowaniem sprzętowym offline"
+            
+              , "optymalizacja wydajności sieci"
+            
+              , "zarządzanie poprawkami zabezpieczeń"
+            
+              , "aktualizacje technologii sieciowych"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/updating-the-udm-pro-and-udm-se-offline-with-ssh/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Dowiedz się, jak zaktualizować oprogramowanie sprzętowe Ubiquiti Unifi UDM Pro i UDM SE w trybie offline za pomocą wiersza poleceń SSH, aby uzyskać optymalną wydajność i bezpieczeństwo.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_colorful_illustration_depicting_a_computer_connecting.webp" length="51278" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

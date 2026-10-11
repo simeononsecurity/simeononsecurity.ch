@@ -1,0 +1,97 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otwarte Oprogramowanie on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Otwarte Oprogramowanie on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/genre/otwarte-oprogramowanie/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/genre/otwarte-oprogramowanie/</link>
+
+    <description>Recent content in Otwarte Oprogramowanie on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/genre/otwarte-oprogramowanie/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenCode kontra Claude Code: Porównanie agentów programistycznych na 2026 rok</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/opencode-vs-claude-code/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Narzędzia deweloperskie"
+            
+              , "Sztuczna inteligencja"
+            
+              , "Otwarte oprogramowanie"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/opencode-vs-claude-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Porównaj OpenCode i Claude Code pod względem wyboru modeli, lokalnego wnioskowania, cen, uprawnień, instrukcji projektu i codziennych przepływów pracy programisty.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

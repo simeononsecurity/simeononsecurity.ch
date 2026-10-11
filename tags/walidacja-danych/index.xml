@@ -1,0 +1,171 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walidacja Danych on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Walidacja Danych on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/walidacja-danych/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/walidacja-danych/</link>
+
+    <description>Recent content in Walidacja Danych on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/walidacja-danych/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Przewodnik po sumach kontrolnych plików w Linux 2026</title>
+        
+          <link>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</link>
+        
+        <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Sumy kontrolne plików w Linux"
+            
+              , "Suma SHA256"
+            
+              , "Suma MD5"
+            
+              , "Suma SHA1"
+            
+              , "Wiersz poleceń Linux"
+            
+              , "integralność pliku"
+            
+              , "walidacja danych"
+            
+              , "bezpieczeństwo Linux"
+            
+              , "wbudowane narzędzia"
+            
+              , "weryfikacja plików"
+            
+              , "autentyczność danych"
+            
+              , "algorytmy sum kontrolnych plików"
+            
+              , "administracja systemem Linux"
+            
+              , "narzędzia wiersza poleceń"
+            
+              , "sumy kontrolne plików"
+            
+              , "narzędzia Linux"
+            
+              , "sprawdzanie integralności plików"
+            
+              , "weryfikacja integralności danych"
+            
+              , "przykłady sum kontrolnych plików"
+            
+              , "polecenia sum kontrolnych Linux"
+            
+              , "metody sumowania plików"
+            
+              , "środki bezpieczeństwa Linux"
+            
+              , "ochrona danych Linux"
+            
+              , "zarządzanie plikami Linux"
+            
+              , "weryfikacja plików Linux"
+            
+              , "integralność plików Linux"
+            
+              , "bezpieczeństwo danych"
+            
+              , "walidacja danych Linux"
+            
+              , "bezpieczeństwo systemu Linux"
+            
+              , "techniki sumowania plików"
+            
+              , "zapewnienie integralności plików"
+            
+              , "bezpieczna walidacja plików"
+            
+              , "integralność danych Linux"
+            
+              , "sha256sum"
+            
+              , "md5sum"
+            
+              , "sha1sum"
+            
+              , "linux suma kontrolna pliku"
+            
+              , "pobierz sumę pliku linux"
+            
+              , "linux pobierz sumę pliku"
+            
+              , "linux sumuj plik"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/guides/how-to-get-hashes-of-files-on-linux/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Kompletny przewodnik 2026 po sumach kontrolnych plików w Linux z użyciem poleceń sha256sum, md5sum, sha1sum. Naucz się weryfikacji integralności plików, porównywania sum, automatyzacji i najlepszych praktyk bezpieczeństwa.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/how-to-get-hashes-of-files-on-linux.webp" length="179718" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

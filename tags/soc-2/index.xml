@@ -1,0 +1,172 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soc 2 on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://pl.simeononsecurity.com/img/banner.webp</url>
+      <title>Soc 2 on simeononsecurity</title>
+      <link>https://pl.simeononsecurity.com/tags/soc-2/</link>
+    </image>
+    
+    
+    <link>https://pl.simeononsecurity.com/tags/soc-2/</link>
+
+    <description>Recent content in Soc 2 on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>pl</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://pl.simeononsecurity.com/tags/soc-2/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Karty Wirtualne Privacy.com: Jak działa prywatność płatności</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</link>
+        
+        <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Bezpieczeństwo płatności"
+            
+              , "Prywatność cyfrowa"
+            
+              , "Karty wirtualne"
+            
+              , "Prywatność finansowa"
+            
+              , "Zapobieganie oszustwom"
+            
+              , "Bezpieczeństwo konsumenta"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/privacy-com-virtual-debit-cards-security-privacy/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Co jest przechowywane na karcie płatniczej, dlaczego pasek magnetyczny jest jej najsłabszą częścią, co widzi sprzedawca, gdy płacisz wirtualnym numerem, oraz jak w praktyce działają typy kart i limity Privacy.com.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/privacy_virtual_cards.webp" length="71286" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Bezpieczne rozwiązania chmurowe: AWS vs. Azure vs. Google Cloud Platform - wybór najlepszego rozwiązania dla Twojej firmy</title>
+        
+          <link>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</link>
+        
+        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Przetwarzanie w chmurze"
+            
+              , "Bezpieczeństwo w chmurze"
+            
+              , "AWS"
+            
+              , "Azure"
+            
+              , "Google Cloud Platform"
+            
+              , "Bezpieczeństwo danych"
+            
+              , "Szyfrowanie"
+            
+              , "Zarządzanie tożsamością i dostępem"
+            
+              , "Zgodność"
+            
+              , "Wykrywanie zagrożeń"
+            
+          
+        </category>
+        <guid>https://pl.simeononsecurity.com/articles/aws-vs-azure-vs-google-cloud-platform/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Odkryj najważniejsze funkcje zabezpieczeń chmury i certyfikaty AWS, Azure i Google Cloud Platform, aby wybrać najlepsze bezpieczne rozwiązanie chmurowe dla swojej firmy.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://pl.simeononsecurity.com/img/cover/A_symbolic_art-style_illustration_depicting_a_cloud_with_a.webp" length="89242" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>
