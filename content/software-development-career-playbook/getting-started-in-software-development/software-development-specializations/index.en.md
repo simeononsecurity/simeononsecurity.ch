@@ -3,16 +3,17 @@ title: "Software Development Specializations"
 draft: false
 toc: true
 date: 2026-07-22
-description: "Explore every major software development specialization including frontend, backend, full stack, mobile, DevOps, data engineering, machine learning, embedded systems, and security engineering."
+lastmod: 2026-10-10
+description: "Compare software specialties through current role evidence, a small work trial, required access, safety limits, feedback, and a dated next-step decision."
 tags: ["software development specializations", "frontend vs backend developer", "full stack developer career", "mobile developer career", "DevOps engineer career", "data engineer career", "machine learning engineer", "embedded software developer", "security engineer developer", "which software development path"]
 coverAlt: "An illustration showing various software development specializations, featuring abstract representations of code, user interfaces, data pipelines, and cloud architectures on a dark background."
 coverCaption: ""
 cover: "/img/cover/software-development-specializations-paths-options.webp"
 ---
 
-#### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
+[Return to the Software Development Career Playbook](/software-development-career-playbook-start/)
 
-**Software development is a family of disciplines, not a single job.** Understanding the major specializations before committing to a learning path saves months of misdirected effort. Each specialization has its own required stack, compensation range, demand profile, and day-to-day work. *Choose based on what genuinely interests you, then validate that the market matches your local area or your willingness to work remotely.*
+Software development includes many kinds of work. Compare current postings, try a small task, and review your interests, local options, accessibility needs, schedule, equipment, and support before choosing a route.
 
 ## Frontend Development
 
@@ -20,21 +21,19 @@ cover: "/img/cover/software-development-specializations-paths-options.webp"
 
 - **Core skills**: HTML, CSS, JavaScript, TypeScript, React or Vue or Angular, responsive design, accessibility, browser performance.
 - **Typical day**: translating design mockups into working interfaces, debugging browser rendering issues, building reusable component libraries.
-- **Salary range**: $70K–$160K+ depending on experience and company.
 - **Good fit for**: people who are visual, care about UX, and enjoy seeing immediate results from their work.
 
 ## Backend Development
 
 **Backend developers** build the systems that power applications behind the scenes: APIs, databases, business logic, authentication systems, and integrations with external services.
 
-- **Core skills**: Python, Java, Go, or Node.js; SQL and NoSQL databases; REST and GraphQL API design; authentication (OAuth, JWT); caching (Redis); message queues.
+- **Core skills**: one backend language, data modeling, APIs, authentication and authorization, testing, logs, and failure handling.
 - **Typical day**: designing and implementing API endpoints, debugging database query performance, building integrations with third-party services.
-- **Salary range**: $80K–$180K+ depending on experience and company.
 - **Good fit for**: people who enjoy systems thinking, data modeling, and solving problems that are invisible to users but critical to application function.
 
 ## Full Stack Development
 
-**Full stack developers** work across both frontend and backend. They are generalists who can own an entire feature from database schema to UI. Most early-career developers start here before specializing.
+**Full stack developers** work across frontend and backend boundaries. Some employers use the title for broad product work, while others expect deeper ownership of a specific stack.
 
 - **Core skills**: everything in frontend and backend, though typically at less depth in each.
 - **Typical day**: varies widely. May build a UI one morning and an API endpoint that afternoon.
@@ -59,7 +58,8 @@ cover: "/img/cover/software-development-specializations-paths-options.webp"
 
 - **Core skills**: Docker, Kubernetes, Terraform, CI/CD pipelines (GitHub Actions, Jenkins), cloud platforms (AWS, Azure, GCP), monitoring (Prometheus, Grafana, Datadog), scripting (Python, Bash).
 - **Good fit for**: developers who are drawn to reliability problems, automation, and infrastructure scale.
-- *DevOps and platform engineering are among the highest-compensated individual contributor paths in software.*
+
+Other routes include quality engineering, test automation, developer experience, desktop applications, games, scientific software, enterprise applications, product engineering, technical writing, and support engineering. Use current postings to find the duties and tools in your target market.
 
 ## Data Engineering
 
@@ -94,3 +94,24 @@ cover: "/img/cover/software-development-specializations-paths-options.webp"
 - [Programming Languages to Learn First](/software-development-career-playbook/getting-started-in-software-development/programming-languages-to-learn-first/)
 - [What Does a Software Developer Career Path Look Like?](/software-development-career-playbook/getting-started-in-software-development/what-does-a-software-developer-career-path-look-like/)
 - [Software Development Career Playbook Home](/software-development-career-playbook-start/)
+
+## Practice and Verify
+
+**Artifact: Specialization trial.** Choose two tracks. Complete one small task for each, such as an accessible web form, tested API, mobile screen, data transform, test automation, desktop utility, embedded simulation, or developer tool. Record safety and setup limits.
+
+> **Expected result:** Two runnable outputs and a rubric compare interest, local demand, accessibility, prerequisites, and constraints.
+
+```text
+REDACTED COMPLETED EXAMPLE
+Trials: tested API and keyboard-accessible form. Choice: backend. Reason: stronger interest and six matched local postings.
+```
+
+**Pass checklist**
+
+- [ ] The artifact uses dated, role-specific evidence
+- [ ] Claims, ownership, team credit, and unknown values are truthful
+- [ ] Privacy, secrets, licenses, accessibility, cost, and safety received review where relevant
+- [ ] A reviewer or repeatable check produced feedback
+- [ ] The record names a timed next action and checkpoint
+
+**Source rule:** Use official stack documentation and current target postings.

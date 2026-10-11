@@ -3,6 +3,7 @@ title: "Software Developer Interview Prep: Complete Guide"
 draft: false
 toc: true
 date: 2026-07-22
+lastmod: 2026-10-10
 description: "How to prepare for software developer interviews including behavioral questions using STAR method, technical coding rounds, and system design for senior roles."
 tags: ["software developer interview prep", "developer interview questions", "technical interview preparation", "behavioral interview software engineer", "system design interview", "STAR method developer", "how to prepare for a coding interview", "software engineer interview guide"]
 coverAlt: "A software developer sits at a desk with a laptop displaying code, surrounded by floating graphics representing behavioral and technical interview concepts in vibrant colors against a dark background."
@@ -10,23 +11,25 @@ coverCaption: ""
 cover: "/img/cover/software-developer-interview-preparation-technical-behavioral-design.webp"
 ---
 
-#### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
+[Return to the Software Development Career Playbook](/software-development-career-playbook-start/)
 
-**Software developer interviews test three things: can you think through code problems logically, can you design systems rationally, and will you work well with the team.** The format is consistent enough across companies that deliberate preparation pays off reliably. *Most interview failures at the junior to mid level are preparation failures, not intelligence failures.*
+Software interview formats vary by employer and role. A process might include recruiter, behavioral, code-reading, debugging, coding, take-home, system-design, or work-sample review stages. Ask for the format, tools, timing, evaluation criteria, and accommodations route before practicing.
 
-## The Standard Interview Process
+## Possible Interview Stages
 
-| Stage | What Happens | Typical Duration |
+| Stage | Possible Format | What to Verify |
 |---|---|---|
-| **Recruiter screen** | Background, logistics, comp expectations | 15–30 minutes |
-| **Technical phone screen** | One to two coding problems on a shared editor | 45–60 minutes |
-| **Take-home assignment** | (Some companies) build a small feature or fix a bug | 2–4 hours |
-| **Onsite loop** | Two to four technical rounds plus one behavioral/culture round | 3–5 hours total |
-| **Offer and negotiation** | Verbal offer, then written; negotiation window | 1–3 days |
+| **Recruiter screen** | Background and logistics | Timing, eligibility, compensation basis, and next step |
+| **Technical screen** | Code reading, debugging, coding, testing, or domain work | Tool, timing, scoring, permitted references, and accommodations |
+| **Take-home assignment** | A bounded work sample | Scope, time, compensation, IP, privacy, data, and permitted AI use |
+| **Interview loop** | Behavioral, work-sample, coding, or design stages | Interviewers, breaks, scoring, access, and feedback policy |
+| **Offer and negotiation** | Written terms and response process | Base, bonus, equity, benefits, conditions, location, and response date |
 
 ## Behavioral Questions: the STAR Method
 
-Every behavioral question follows the same pattern: "Tell me about a time when..." Prepare five to eight stories from your experience. Each story uses the **STAR format**:
+Behavioral questions often ask for past examples. Prepare several truthful stories relevant to the role. One optional structure is **STAR**:
+
+**Source check, 2026-10-10:** Use the target employer's recruiting material for its format. The [U.S. EEOC guidance on disability discrimination](https://www.eeoc.gov/disability-discrimination-and-employment-decisions) explains the U.S. accommodation and employment context. Local rules differ.
 
 - **Situation**: the context and background.
 - **Task**: what you were responsible for.
@@ -92,3 +95,24 @@ Beyond correct answers, experienced interviewers assess:
 - [Coding Interview Prep Guide](/software-development-career-playbook/getting-a-job-as-a-developer/coding-interview-prep-guide/)
 - [Software Developer Resume Writing Tips](/software-development-career-playbook/getting-a-job-as-a-developer/software-developer-resume-writing-tips/)
 - [Software Development Career Playbook Home](/software-development-career-playbook-start/)
+
+## Practice and Verify
+
+**Artifact: Mock interview loop.** Run a mock loop with one behavioral answer, coding task with tests, design prompt with constraints, take-home boundary review, and candidate questions about safety, on-call, review, deployment, growth, and accommodations.
+
+> **Expected result:** A scored record shows evidence, feedback, and one repeated stage with a higher score.
+
+```text
+REDACTED COMPLETED EXAMPLE
+First score: 12/20. Repeated coding stage: 4/5 after adding edge cases. AI use: disclosed under mock rules.
+```
+
+**Pass checklist**
+
+- [ ] The artifact uses dated, role-specific evidence
+- [ ] Claims, ownership, team credit, and unknown values are truthful
+- [ ] Privacy, secrets, licenses, accessibility, cost, and safety received review where relevant
+- [ ] A reviewer or repeatable check produced feedback
+- [ ] The record names a timed next action and checkpoint
+
+**Source rule:** Use the target employer's current candidate guidance and respect confidentiality.

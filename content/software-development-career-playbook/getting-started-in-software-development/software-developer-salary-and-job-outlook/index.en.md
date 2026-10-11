@@ -3,76 +3,66 @@ title: "Software Developer Salary and Job Outlook"
 draft: false
 toc: true
 date: 2026-07-22
-description: "Realistic salary ranges for software developers by role and experience level in 2026, plus job market outlook, remote pay trends, and where to research compensation data."
+lastmod: 2026-10-10
+description: "Compare software developer pay with May 2025 U.S. labor data, current job postings, total compensation terms, and a role-specific worksheet."
 tags: ["software developer salary", "software engineer salary 2026", "developer salary by role", "software development job outlook", "junior developer salary", "senior engineer salary", "staff engineer salary", "tech salaries 2026", "how much do software developers make"]
 coverAlt: "A digital illustration of a futuristic city skyline with diverse software developers collaborating around a large screen showing colorful graphs and salary figures, all set against a dark background."
 coverCaption: ""
 cover: "/img/cover/software-developer-salary-job-outlook-2026.webp"
 ---
 
-#### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
+[Return to the Software Development Career Playbook](/software-development-career-playbook-start/)
 
-**Software development is one of the highest-compensated fields that does not strictly require a professional license or advanced degree.** Compensation varies significantly by company type, location, role, and experience level, but the floor is high and the ceiling is exceptional at senior levels. *Use real-time data from levels.fyi and Glassdoor when evaluating specific companies — public benchmark averages can be significantly below what top companies pay.*
+Compensation varies by duties, geography, experience, employer, hours, and pay structure. Compare figures with the same scope before making a decision.
 
-## Salary Ranges by Role (US Market, 2026)
+## Start With a Defined Benchmark
 
-These ranges represent base salary at established companies. Total compensation (with equity and bonus) can be 1.2 to 3x base at public tech companies.
+The [U.S. Bureau of Labor Statistics profile](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm), checked 2026-10-10, reports a May 2025 national median annual wage of $135,980 for software developers. It projects 10 percent employment growth for the combined software developers, quality assurance analysts, and testers group from 2025 to 2035.
 
-| Role | Entry Level | Mid-Level | Senior | Staff/Principal |
-|---|---|---|---|---|
-| **Frontend Developer** | $70K–$95K | $95K–$135K | $135K–$185K | $180K–$280K+ |
-| **Backend Developer** | $75K–$100K | $100K–$145K | $145K–$200K | $195K–$320K+ |
-| **Full Stack Developer** | $70K–$95K | $95K–$140K | $140K–$195K | $180K–$290K+ |
-| **Mobile Developer** | $75K–$100K | $100K–$145K | $145K–$200K | $190K–$300K+ |
-| **DevOps / Platform Engineer** | $80K–$110K | $110K–$155K | $155K–$220K | $200K–$350K+ |
-| **Data Engineer** | $80K–$110K | $110K–$155K | $155K–$215K | $195K–$320K+ |
-| **ML Engineer** | $90K–$130K | $130K–$185K | $185K–$270K | $250K–$450K+ |
-| **Security Engineer** | $85K–$115K | $115K–$160K | $160K–$230K | $200K–$340K+ |
-| **Engineering Manager** | N/A | $130K–$170K | $170K–$240K | $220K–$400K+ |
-
-*FAANG and top-tier tech companies (Google, Meta, Amazon, Apple, Microsoft, Stripe, Airbnb, etc.) routinely pay 1.5 to 3x the mid-market ranges above, primarily through equity.*
+The median covers U.S. employed workers across experience levels. It is not an entry-level salary, a local offer, contract revenue, or total compensation. The outlook is a national projection for an occupational group, not a guarantee for one specialty or applicant.
 
 ## Geographic Pay Variation
 
-Location significantly affects base compensation in the US, though remote work has partially compressed the gap.
-
-| Market | Relative Compensation |
-|---|---|
-| **San Francisco / Bay Area** | Highest base salaries; high cost of living offset |
-| **New York City** | Comparable to SF at top companies; slightly lower at mid-market |
-| **Seattle** | Strong tech market; Microsoft and Amazon anchor compensation |
-| **Austin, Denver, Atlanta** | Growing tech hubs; 15–30% below SF for same role |
-| **Remote roles (any location)** | Most companies pay location-independent or tiered by cost of living zone |
+Use the [BLS Occupational Employment and Wage Statistics](https://www.bls.gov/oes/) for national, state, and metropolitan wage estimates. Match the occupation, geography, release date, and annual or hourly basis. Compare local costs with a stated household budget.
 
 ## Job Market Outlook
 
-The software development job market in 2026 reflects several trends:
-
-- **Increased bar for junior roles**: companies expect demonstrable portfolio work and some production experience before making junior hires.
-- **Strong demand for AI-adjacent skills**: developers who understand ML pipelines, LLM APIs, and AI tooling are in high demand.
-- **Platform and DevOps growth**: as cloud infrastructure becomes more complex, platform engineering demand continues to outpace supply.
-- **Defense and government growth**: federal IT modernization and defense technology investment is driving strong demand for cleared software developers.
-- **Remote remains common**: roughly 60 to 70% of software development roles continue to support full or partial remote work.
+Use the BLS projection for broad U.S. context. Use current employer postings for a specific role, location, experience level, work arrangement, and eligibility requirement. Record the collection date because openings and disclosed ranges change.
 
 ## Where to Research Current Compensation
 
-- **[levels.fyi](https://www.levels.fyi/)** — the most accurate source for total compensation at named tech companies, contributed by employees.
-- **[Glassdoor](https://www.glassdoor.com/)** — salary reports from employees at specific companies; useful for mid-market benchmarks.
-- **[LinkedIn Salary](https://www.linkedin.com/salary/)** — aggregated from LinkedIn profiles; good for general role benchmarks.
-- **[Blind](https://www.teamblind.com/)** — anonymous discussions from tech workers, including compensation data.
-- **[Comprehensive.io](https://www.comprehensive.io/)** — equity and compensation calculator for startup roles.
+- **Employer posting**: current disclosed base range and location scope.
+- **Recruiter or offer document**: bonus target, equity terms, vesting, benefits, and conditions.
+- **BLS OEWS**: a dated government wage benchmark with a defined occupation and geography.
+- **Employee-reported sites**: supplemental evidence whose sample, level mapping, and verification method require review.
 
 ## Negotiating Your Compensation
 
-Compensation is negotiable at almost every company. The key principles:
-
-- Never give the first number. Let the recruiter anchor first.
-- Negotiate total compensation (base + equity + bonus + signing), not just base salary.
-- Use competitive offers as leverage. Even an informal offer from another company moves the conversation.
-- The worst answer to a counter-ask is "no." Most companies have a range and will move within it.
+Ask for the role's approved range and which components are negotiable. Compare base pay, bonus conditions, equity type and vesting, benefits, hours, on-call work, travel, and location terms. Keep competing offers truthful. Decide your walk-away conditions before negotiating.
 
 ## Next Steps
 
 - [Is Software Development a Good Career?](/software-development-career-playbook/getting-started-in-software-development/is-software-development-a-good-career/)
 - [Entry-Level Software Developer Jobs](/software-development-career-playbook/getting-a-job-as-a-developer/entry-level-software-developer-jobs/)
 - [Software Development Career Playbook Home](/software-development-career-playbook-start/)
+
+## Practice and Verify
+
+**Artifact: Compensation worksheet.** Choose one real role and record geography, occupation, level, base pay, bonus target, equity terms, vesting, benefits, hours, on-call, travel, tax location, cost of living, and missing information. Compare with a dated official dataset.
+
+> **Expected result:** The worksheet distinguishes base pay from total compensation and labels unknown values.
+
+```text
+REDACTED COMPLETED EXAMPLE
+Role: US software developer. Base range recorded. Equity: none stated. On-call: unknown. Source date: May 2025 BLS benchmark.
+```
+
+**Pass checklist**
+
+- [ ] The artifact uses dated, role-specific evidence
+- [ ] Claims, ownership, team credit, and unknown values are truthful
+- [ ] Privacy, secrets, licenses, accessibility, cost, and safety received review where relevant
+- [ ] A reviewer or repeatable check produced feedback
+- [ ] The record names a timed next action and checkpoint
+
+**Source rule:** Use the employer posting and the BLS Software Developers, QA Analysts, and Testers profile checked 2026-10-10.

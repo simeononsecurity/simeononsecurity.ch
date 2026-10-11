@@ -3,30 +3,31 @@ title: "Software Developer Resume Writing Tips"
 draft: false
 toc: true
 date: 2026-07-22
-description: "How to write a software developer resume that passes ATS screening and impresses hiring managers — structure, project presentation, keyword strategy, and common mistakes to avoid."
+lastmod: 2026-10-10
+description: "Write a truthful developer resume with role-matched evidence, clear project bullets, accessible structure, safe contact details, and a review checklist."
 tags: ["software developer resume tips", "developer resume writing", "ATS resume for developers", "how to write a developer resume", "software engineer resume", "junior developer resume", "coding portfolio on resume", "resume keywords for developers"]
 coverAlt: "An illustration of a software developer's resume on a computer screen, highlighting sections like skills and projects, with a developer in the foreground looking thoughtfully at the screen."
 coverCaption: ""
 cover: "/img/cover/software-developer-resume-writing-tips-ats-keywords-projects.webp"
 ---
 
-#### [Click Here to Return To the Software Development Career Playbook](/software-development-career-playbook-start/)
+[Return to the Software Development Career Playbook](/software-development-career-playbook-start/)
 
-**A developer resume has one job: get you the phone screen.** Hiring managers spend 15 to 30 seconds on a first pass using an Applicant Tracking System (ATS) that filters for keywords before a human reads the file. Your resume must survive both filters. *The best developer resume is scannable, specific, and makes the reader's next step obvious — contact this person.*
+A developer resume gives an employer concise, truthful evidence relevant to a role. Screening methods vary. Use readable structure, job-language matches supported by your work, working links, and accessible text extraction.
 
 For a complete deep-dive on resume writing with ATS strategy, section structure, and tailoring templates, see the [Resume Optimization Course](/resume-optimization-course-start/).
 
 ## Resume Structure for Developers
 
-Use this order for all developer resumes:
+Use this as one starting order, then follow target-employer instructions:
 
-1. **Contact info** — name, city/state, email, LinkedIn URL, GitHub URL, portfolio URL.
-2. **Summary** — two to three sentences: role target, primary skills, experience level.
-3. **Skills** — languages, frameworks, tools, and platforms organized by category.
-4. **Experience** — reverse chronological. For each role: title, company, dates, three to five bullet accomplishments.
-5. **Projects** — three to five portfolio projects with tech stack and measurable outcomes.
-6. **Education** — degree, school, graduation year. Certifications if no degree or if certification is more relevant.
-7. **Certifications** — (optional section if substantial).
+1. **Contact info**, name, city/state, email, LinkedIn URL, GitHub URL, portfolio URL.
+2. **Summary**, two to three sentences: role target, primary skills, experience level.
+3. **Skills**, languages, frameworks, tools, and platforms organized by category.
+4. **Experience**, reverse chronological. For each role: title, company, dates, three to five bullet accomplishments.
+5. **Projects**, three to five portfolio projects with tech stack and measurable outcomes.
+6. **Education**, degree, school, graduation year. Certifications if no degree or if certification is more relevant.
+7. **Certifications**, (optional section if substantial).
 
 For early-career candidates with no experience, move **Projects** above **Experience**.
 
@@ -45,7 +46,7 @@ Do not pad the skills section with technologies you cannot discuss in an intervi
 
 ## Writing Experience Bullets
 
-Every bullet should follow: **Action verb + what you did + measurable result**.
+A useful bullet often states the action, your scope, relevant method, and a verified result or output.
 
 - **Bad**: "Worked on the backend API."
 - **Good**: "Redesigned authentication service using JWT and Redis session caching, reducing login latency by 60%."
@@ -66,11 +67,11 @@ Tech stack: React, FastAPI, PostgreSQL, Docker, AWS
 - Usage data or outcome if available (X users, processed Y requests/sec)
 ```
 
-For early-career developers, the projects section is the most important part of the resume. Three to four strong projects outperform years of vague work experience.
+For an early-career applicant, projects provide evidence when paid experience is limited. Select the strongest relevant examples instead of filling a quota.
 
 ## ATS Keyword Strategy
 
-Most companies use ATS software that scans resumes for keyword matches before routing to a recruiter. To pass this filter:
+Some employers use applicant tracking systems for storage, search, routing, or screening. Prepare a readable file without guessing at an employer's scoring method:
 
 - Pull exact technical terms from the job description and include them verbatim in your resume.
 - Do not abbreviate or use synonyms if the job posting uses a specific term (the JD says "Node.js", not "NodeJS").
@@ -79,11 +80,13 @@ Most companies use ATS software that scans resumes for keyword matches before ro
 
 ## Common Developer Resume Mistakes
 
-- **No GitHub link.** A developer resume without a working GitHub profile is missing its most important supporting document.
+- **Broken or unsafe links.** Include a work-sample link only when it supports the role and contains no private material.
 - **Objective statement.** Replace with a summary that states your value, not what you want.
 - **Listing responsibilities instead of accomplishments.** "Responsible for database maintenance" is worthless. "Optimized PostgreSQL query performance, reducing p99 latency from 800ms to 90ms" is a hire signal.
 - **One-size-fits-all resume.** Tailor the summary and skills emphasis for each job application.
-- **Page length anxiety.** One page is correct for under 5 years of experience. Two pages is fine for 5 to 10 years. Three pages is almost never correct.
+- **Unfocused length.** Keep evidence relevant and readable. Employer instructions and role complexity determine useful length.
+
+**Primary references, checked 2026-10-10:** [USAJOBS resume guidance](https://help.usajobs.gov/faq/application/documents/resume/what-to-include) shows one employer's detailed requirements. Follow the target employer's current instructions rather than a universal page or keyword rule.
 - **Font tricks.** Tiny fonts, white text keywords, and multi-column layouts break ATS parsers. Use a clean, single-column format.
 
 ## Next Steps
@@ -91,3 +94,24 @@ Most companies use ATS software that scans resumes for keyword matches before ro
 - [Building a Developer Portfolio](/software-development-career-playbook/getting-started-in-software-development/building-a-developer-portfolio/)
 - [Software Developer Interview Preparation](/software-development-career-playbook/getting-a-job-as-a-developer/software-developer-interview-preparation/)
 - [Software Development Career Playbook Home](/software-development-career-playbook-start/)
+
+## Practice and Verify
+
+**Artifact: Truthful application artifact.** Choose one posting. Create a tailored resume with only supported skills. Add one before-and-after bullet, project evidence, team credit, confidentiality check, plain-text extraction, link test, metadata review, and background-check consistency check.
+
+> **Expected result:** The resume text extracts in order, links open, claims match evidence, and a reviewer finds no unsupported skill.
+
+```text
+REDACTED COMPLETED EXAMPLE
+Before: worked on API. After: added retry tests for two failure paths, reducing repeated support cases in the measured release period.
+```
+
+**Pass checklist**
+
+- [ ] The artifact uses dated, role-specific evidence
+- [ ] Claims, ownership, team credit, and unknown values are truthful
+- [ ] Privacy, secrets, licenses, accessibility, cost, and safety received review where relevant
+- [ ] A reviewer or repeatable check produced feedback
+- [ ] The record names a timed next action and checkpoint
+
+**Source rule:** Use the original posting and the site's Resume Optimization Course after its current review issues are resolved.
