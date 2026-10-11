@@ -172,6 +172,8 @@ gcloud iam service-accounts describe "$LAB_GCP_SA_EMAIL"
 
 The final command should report a missing service account.
 
+**Expected result:** One provider track ends with a verified read-only grant, a denied or absent policy-administration path, and no remaining lab objects.
+
 ## Troubleshooting
 
 | Problem | Fix |

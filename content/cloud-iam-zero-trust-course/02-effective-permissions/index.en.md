@@ -90,7 +90,7 @@ The `build-bot@example.test` row needs a narrower read role. The `legacy-export@
 - [ ] Remediation includes a test and rollback plan
 - [ ] Last-used data has a retention caveat
 
-**Primary references, checked 2026-10-10:** [AWS IAM policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html), [Azure role assignments](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments), and [Google Cloud IAM policy overview](https://docs.cloud.google.com/iam/docs/policies).
+**Primary references, checked 2026-10-10:** [AWS IAM policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html), [Azure role assignments](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments), and [Google Cloud IAM policy overview](https://docs.cloud.google.com/iam/docs/allow-policies).
 
 ## Next Steps
 
