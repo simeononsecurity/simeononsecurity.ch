@@ -39,14 +39,14 @@ After the course, you will:
 | **2** | [Limit Pipeline Authority and Use Scorecard](/articles/secure-cicd-pipeline-scorecard/) | Review token scope and record a prioritized Scorecard finding |
 | **3** | [Verify Provenance and Attestations](/articles/secure-cicd-provenance-attestations/) | Match artifact digest, source, and workflow to a release policy |
 | **4** | [Tampered Release Lab](/articles/secure-cicd-tampered-release-lab/) | Run a local rejection test and explain its trust boundary |
-| **5** | [Knowledge Check](/articles/secure-cicd-quiz/) | Answer scenario questions and correct mistakes |
-| **6** | [Release Gate Capstone](/articles/secure-cicd-capstone/) | Produce a release approval packet and test a failure path |
+| **5** | [Knowledge Check](/articles/secure-cicd-quiz/) and [answer key](/articles/secure-cicd-quiz-answer-key/) | Answer scenario questions and correct mistakes |
+| **6** | [Release Gate Capstone](/articles/secure-cicd-capstone/) and [reference packet](/articles/secure-cicd-capstone-answer-key/) | Produce a release decision packet and test a failure path |
 
 **Complete the pages in order.** Lessons 1 through 3 build the review method. The lab then shows a concrete failure. The capstone asks you to apply the method to a fresh release decision.
 
 ## What You Will Produce
 
-**Keep one release packet** with a dependency review, SBOM component, permissions table, Scorecard finding, expected provenance identity, artifact digest, lab result, and release decision. The [lab archive](/downloads/secure-cicd-lab.zip) supplies fictional evidence for every local step. Its Scorecard and provenance files are clearly labeled teaching fixtures, not live tool results. A passing checksum alone is an integrity check. Publisher identity needs a separate signed attestation check.
+**Keep one release packet** with a dependency review, SBOM component, permissions table, Scorecard finding, expected provenance identity, artifact digest, lab result, and release decision. The lessons and [lab archive](/downloads/secure-cicd-lab.zip) supply the local examples and evidence. Its Scorecard and provenance files are clearly labeled teaching fixtures, not live tool results. A passing checksum alone is an integrity check. Publisher identity needs a separate signed attestation check.
 
 ## Safe Practice Paths
 

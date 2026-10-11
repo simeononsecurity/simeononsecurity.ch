@@ -1,10 +1,10 @@
 ---
-title: "Secure CI/CD Knowledge Check and Answer Key"
+title: "Secure CI/CD Knowledge Check"
 date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Test dependency, SBOM, pipeline, Scorecard, provenance, attestation, and tampered-release decisions with explained answers."
+description: "Test dependency, SBOM, pipeline, Scorecard, provenance, attestation, and tampered-release decisions before viewing the separate answer key."
 genre: ["Software Engineering", "Cybersecurity", "DevOps"]
 tags: ["secure CI/CD quiz", "SBOM quiz", "SLSA quiz", "software supply chain assessment"]
 cover: "/img/cover/secure-cicd-course.webp"

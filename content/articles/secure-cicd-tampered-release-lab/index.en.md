@@ -78,7 +78,7 @@ FAIL: digest mismatch
 
 ## Diagnose a Failed Setup
 
-**Wrong directory:** If Python reports a missing file, run `pwd` and list the five lab files. **Usage error:** The script accepts one filename from its own directory. **Unexpected pass:** Recheck that you used `release-tampered.txt` and did not change `trusted.sha256`. **Unexpected failure on the good file:** Download a fresh copy of the lab. Line-ending changes alter the digest.
+**Wrong directory:** If Python reports a missing file, run `pwd` and list the lab files. **Usage error:** The script accepts one filename from its own directory. **Unexpected pass:** Recheck that you used `release-tampered.txt` and did not change `trusted.sha256`. **Unexpected failure on the good file:** Download a fresh copy of the lab. Line-ending changes alter the digest.
 
 ## State the Trust Boundary
 

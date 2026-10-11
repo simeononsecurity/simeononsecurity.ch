@@ -3,5 +3,6 @@
   "before": {"direct": [{"name": "workshop-core", "version": "1.0.0"}], "transitive": []},
   "after": {"direct": [{"name": "workshop-core", "version": "1.1.0"}], "transitive": [{"name": "workshop-parser", "version": "2.0.0"}]},
   "advisory": "not assessed",
+  "review_owner": "fictional release maintainer",
   "review_question": "Why did the direct update add workshop-parser?"
 }

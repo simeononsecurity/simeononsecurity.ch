@@ -68,13 +68,17 @@ jobs:
       - uses: actions/attest@v4
         with:
           subject-path: release.txt
+      - uses: actions/upload-artifact@v7
+        with:
+          name: workshop-release
+          path: release.txt
 ```
 
 **Expected result:** The Actions run reports an attestation for `release.txt`. This is a training workflow. It does not publish the file or meet a SLSA level. Protect a real release trigger, add project tests, and pin reviewed action commits before production use. If the attestation step reports a permission error, inspect the job permissions and repository feature availability. Do not add broad write access as a shortcut.
 
 ## Verify as a Consumer
 
-**For the hosted path, download `release.txt` from the job or build output independently**, then run the official GitHub CLI verification against the repository you used:
+**For the hosted path, download `workshop-release` from the completed Actions run's Artifacts section.** Extract `release.txt`, then run the official GitHub CLI verification against the repository you used:
 
 ```bash
 gh attestation verify release.txt -R OWNER/REPOSITORY
