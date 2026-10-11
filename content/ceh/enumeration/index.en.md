@@ -11,7 +11,7 @@ coverAlt: "An abstract illustration showing a network structure with nodes and c
 coverCaption: "Master Enumeration for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Enumeration** extracts detailed information from discovered services in the **EC-Council CEH v13** course. This module covers how you pull usernames, shares, groups, and configuration data from exposed protocols. *Enumeration is active and noisy, so it only belongs inside an authorized engagement.*
 

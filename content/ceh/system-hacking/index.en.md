@@ -11,7 +11,7 @@ coverAlt: "A digital illustration showing a computer terminal with flowing binar
 coverCaption: "Master System Hacking for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **System Hacking** covers gaining and keeping access in the **EC-Council CEH v13** course. This module covers password attacks, exploitation, privilege escalation, persistence, and covering tracks. *Run these techniques only against systems named in your signed scope.*
 

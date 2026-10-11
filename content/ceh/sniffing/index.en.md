@@ -11,7 +11,7 @@ coverAlt: "A digital artwork of a modern workspace with a laptop displaying vibr
 coverCaption: "Master Sniffing for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Sniffing** captures and analyzes network traffic in the **EC-Council CEH v13** course. This module covers passive and active sniffing, switch-based attacks, and the tools that read packets off the wire. *Capture traffic only on networks you are authorized to test.*
 

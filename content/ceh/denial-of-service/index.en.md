@@ -11,7 +11,7 @@ coverAlt: "An illustration showing a network under cyber attack, with colorful d
 coverCaption: "Master Denial-of-Service for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Denial-of-Service** attacks disrupt availability in the **EC-Council CEH v13** course. This module covers DoS and DDoS techniques, attack categories, botnets, and the defenses that absorb them. *Run flooding tools only against isolated lab systems you own, never against live targets.*
 

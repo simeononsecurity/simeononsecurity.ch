@@ -11,7 +11,7 @@ coverAlt: "An illustration of a digital network showing nodes and connections, w
 coverCaption: "Master Scanning Networks for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Scanning Networks** moves from passive recon to active discovery in the **EC-Council CEH v13** course. This module covers how you find live hosts, open ports, running services, and operating systems. *Active scanning touches the target directly, so confirm your scope before you run it.*
 

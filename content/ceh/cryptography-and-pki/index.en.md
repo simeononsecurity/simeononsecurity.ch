@@ -12,7 +12,7 @@ coverAlt: "An abstract illustration showing intertwined symmetric and asymmetric
 coverCaption: "Master Cryptography and PKI for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Cryptography and PKI** closes the **EC-Council CEH v13** course. This module covers encryption types, public key infrastructure, cryptographic attacks, the TLS handshake, and key management. *Use cracking tools only against hashes and traffic you are authorized to test, because weak crypto exposes real secrets.*
 

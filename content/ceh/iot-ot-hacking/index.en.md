@@ -11,7 +11,7 @@ coverAlt: "An illustration showing various interconnected IoT devices and indust
 coverCaption: "Master IoT and OT Hacking for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **IoT and OT Hacking** targets connected devices and industrial systems in the **EC-Council CEH v13** course. This module covers IoT enumeration, operational technology weaknesses, industrial protocols, and the defenses that protect critical infrastructure. *Never probe live OT or industrial systems without written authorization, because a failed scan can stop a production line or endanger lives.*
 

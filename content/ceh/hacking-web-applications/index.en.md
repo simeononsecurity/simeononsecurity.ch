@@ -11,7 +11,7 @@ coverAlt: "An illustration of a computer screen showing code and web elements un
 coverCaption: "Master Hacking Web Applications for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Hacking Web Applications** targets the application layer in the **EC-Council CEH v13** course. This module covers the OWASP Top 10, request interception, and the secure coding practices that close these flaws. *Test web applications only against in-scope targets you are authorized to assess.*
 

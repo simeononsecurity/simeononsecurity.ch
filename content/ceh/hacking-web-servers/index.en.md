@@ -11,7 +11,7 @@ coverAlt: "An illustration of a web server rack with glowing highlights indicati
 coverCaption: "Master Hacking Web Servers for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Hacking Web Servers** targets the server layer in the **EC-Council CEH v13** course. This module covers enumerating web server software, finding misconfigurations, and hardening the platform. *Scan and exploit web servers only inside your authorized scope.*
 

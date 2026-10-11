@@ -11,7 +11,7 @@ coverAlt: "An illustration of a hacker's workstation featuring multiple screens 
 coverCaption: "Master Introduction to Ethical Hacking for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Introduction to Ethical Hacking** opens the **EC-Council CEH v13** course. This module covers core security concepts, the cyber kill chain, the five hacking phases, and the legal framework that makes testing lawful. *Ethical hacking is legal only with explicit written authorization, so understand the rules before you touch a single system.*
 

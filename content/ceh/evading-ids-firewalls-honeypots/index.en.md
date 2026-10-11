@@ -11,7 +11,7 @@ coverAlt: "An illustration of a hacker silhouette in front of a digital interfac
 coverCaption: "Master Evading IDS, Firewalls, and Honeypots for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Evading IDS, Firewalls, and Honeypots** covers bypassing network defenses in the **EC-Council CEH v13** course. This module covers how these controls detect attacks and how testers slip past them. *Evasion testing belongs only in an authorized engagement against in-scope systems.*
 

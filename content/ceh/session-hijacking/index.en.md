@@ -11,7 +11,7 @@ coverAlt: "An illustration of a hacker in a dark workspace, using a laptop. Glow
 coverCaption: "Master Session Hijacking for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Session Hijacking** takes over authenticated sessions in the **EC-Council CEH v13** course. This module covers network-level and application-level hijacking and the controls that stop it. *Test session attacks only against applications inside your authorized scope.*
 

@@ -11,7 +11,7 @@ coverAlt: "An illustration of a hacker's workspace with a laptop displaying code
 coverCaption: "Master Hacking Wireless Networks for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Hacking Wireless Networks** targets Wi-Fi in the **EC-Council CEH v13** course. This module covers wireless encryption, handshake capture, rogue access points, Bluetooth attacks, and modern defenses. *Test only wireless networks you own or are authorized to assess.*
 

@@ -11,7 +11,7 @@ coverAlt: "An illustration showing a database with color-coded tables and arrows
 coverCaption: "Master SQL Injection for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **SQL Injection** is a dedicated module in the **EC-Council CEH v13** course. This module covers injecting database commands through application input and the defenses that stop it. *Test injection only against applications inside your authorized scope.*
 

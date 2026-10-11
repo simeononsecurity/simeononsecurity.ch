@@ -11,7 +11,7 @@ coverAlt: "An illustration showing a hacker at a computer with visual symbols of
 coverCaption: "Master Social Engineering for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Social Engineering** targets people rather than systems in the **EC-Council CEH v13** course. This module covers the psychology of manipulation, common attack vectors, and the awareness defenses that reduce human risk. *All social engineering testing requires explicit written scope and rules of engagement.*
 

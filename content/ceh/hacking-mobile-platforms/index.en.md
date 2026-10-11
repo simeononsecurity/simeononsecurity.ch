@@ -11,7 +11,7 @@ coverAlt: "An illustration depicting an Android phone and an iOS device, with vi
 coverCaption: "Master Hacking Mobile Platforms for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Hacking Mobile Platforms** targets Android and iOS in the **EC-Council CEH v13** course. This module covers mobile attack surfaces, malicious apps, application analysis, and the controls that defend phones and tablets. *Test only devices and apps you own or are explicitly authorized to assess, because mobile devices hold personal data protected by law.*
 

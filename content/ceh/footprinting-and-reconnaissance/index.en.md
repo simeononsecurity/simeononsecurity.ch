@@ -11,7 +11,7 @@ coverAlt: "A digital landscape illustration showing elements of cybersecurity fo
 coverCaption: "Master Footprinting and Reconnaissance for the CEH v13 Exam"
 ---
 
-#### [Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
+[Click Here to Return To the Certified Ethical Hacker (CEH v13) Course Page](/ceh-start/)
 
 **Footprinting and Reconnaissance** is the first phase of an engagement in the **EC-Council CEH v13** course. This module covers how you gather information about a target before sending a single attack packet. *The more you learn here, the less noise you make later.*
 
