@@ -122,12 +122,12 @@ Market evidence ਤੁਰੰਤ DDR5 ਜਾਂ DRAM price collapse ਦੀ ਯੋ
 
 ## ਹਵਾਲੇ
 
-1. [The DGX Spark 64GB is a Local AI Warning Sign](https://www.youtube.com/watch?v=7kWqGfnEhCM)
-2. [NVIDIA DGX Spark hardware guide](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
-3. [Tom's Hardware: 64GB DGX Spark pricing and product report](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
-4. [TrendForce: DRAM supply and NAND outlook for 2027](https://www.trendforce.com/presscenter/news/20260730-13158.html)
-5. [TrendForce: HBM supply constraints and 2027 pricing](https://www.trendforce.com/presscenter/news/20260929-13255.html)
-6. [TrendForce: DRAM market outlook for 2027](https://www.trendforce.com/research/download/RP260728GY)
-7. [SK hynix: Q2 2026 financial results and AI memory demand](https://news.skhynix.com/en/q2-2026-business-results/)
-8. [Local AI in 2026: A 27B Model Beats Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)
-9. [Qwen3.8 27B GPU benchmarks on Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
+1. [64GB DGX Spark ਸਥਾਨਕ AI ਲਈ ਚੇਤਾਵਨੀ ਸੰਕੇਤ ਹੈ](https://www.youtube.com/watch?v=7kWqGfnEhCM)
+2. [NVIDIA DGX Spark ਹਾਰਡਵੇਅਰ ਗਾਈਡ](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
+3. [Tom's Hardware: 64GB DGX Spark ਕੀਮਤ ਅਤੇ ਉਤਪਾਦ ਰਿਪੋਰਟ](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
+4. [TrendForce: 2027 ਲਈ DRAM supply ਅਤੇ NAND outlook](https://www.trendforce.com/presscenter/news/20260730-13158.html)
+5. [TrendForce: HBM supply constraints ਅਤੇ 2027 pricing](https://www.trendforce.com/presscenter/news/20260929-13255.html)
+6. [TrendForce: 2027 ਲਈ DRAM market outlook](https://www.trendforce.com/research/download/RP260728GY)
+7. [SK hynix: Q2 2026 financial results ਅਤੇ AI memory demand](https://news.skhynix.com/en/q2-2026-business-results/)
+8. [2026 ਵਿੱਚ ਸਥਾਨਕ AI: 27B ਮਾਡਲ Sonnet 4.6 ਨੂੰ ਪਿੱਛੇ ਛੱਡਦਾ ਹੈ](/articles/local-ai-2026-build-your-rig-now/)
+9. [Vast.ai ਉੱਤੇ Qwen3.8 27B GPU benchmarks](/articles/qwen38-27b-vast-ai-gpu-benchmark/)

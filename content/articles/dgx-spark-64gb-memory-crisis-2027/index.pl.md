@@ -122,12 +122,12 @@ Dla kupującego w październiku 2026 roku wybór jest jasny. Kup 64GB do ogranic
 
 ## Źródła
 
-1. [The DGX Spark 64GB is a Local AI Warning Sign](https://www.youtube.com/watch?v=7kWqGfnEhCM)
-2. [NVIDIA DGX Spark hardware guide](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
-3. [Tom's Hardware: 64GB DGX Spark pricing and product report](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
-4. [TrendForce: DRAM supply and NAND outlook for 2027](https://www.trendforce.com/presscenter/news/20260730-13158.html)
-5. [TrendForce: HBM supply constraints and 2027 pricing](https://www.trendforce.com/presscenter/news/20260929-13255.html)
-6. [TrendForce: DRAM market outlook for 2027](https://www.trendforce.com/research/download/RP260728GY)
-7. [SK hynix: Q2 2026 financial results and AI memory demand](https://news.skhynix.com/en/q2-2026-business-results/)
-8. [Local AI in 2026: A 27B Model Beats Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)
-9. [Qwen3.8 27B GPU benchmarks on Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
+1. [64GB DGX Spark ostrzega przed lokalnym AI](https://www.youtube.com/watch?v=7kWqGfnEhCM)
+2. [Przewodnik sprzętowy NVIDIA DGX Spark](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
+3. [Tom's Hardware: raport o cenie i produkcie 64GB DGX Spark](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
+4. [TrendForce: podaż DRAM i prognoza NAND na 2027](https://www.trendforce.com/presscenter/news/20260730-13158.html)
+5. [TrendForce: ograniczenia podaży HBM i ceny w 2027](https://www.trendforce.com/presscenter/news/20260929-13255.html)
+6. [TrendForce: prognoza rynku DRAM na 2027](https://www.trendforce.com/research/download/RP260728GY)
+7. [SK hynix: wyniki finansowe za drugi kwartał 2026 i popyt na pamięć AI](https://news.skhynix.com/en/q2-2026-business-results/)
+8. [Lokalne AI w 2026: model 27B pokonuje Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)
+9. [Benchmarki GPU Qwen3.8 27B na Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/)

@@ -122,12 +122,12 @@ Pentru un cumpărător din octombrie 2026, alegerile practice sunt clare. Cumpă
 
 ## Referințe
 
-1. [The DGX Spark 64GB is a Local AI Warning Sign](https://www.youtube.com/watch?v=7kWqGfnEhCM)
-2. [NVIDIA DGX Spark hardware guide](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
-3. [Tom's Hardware: 64GB DGX Spark pricing and product report](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
-4. [TrendForce: DRAM supply and NAND outlook for 2027](https://www.trendforce.com/presscenter/news/20260730-13158.html)
-5. [TrendForce: HBM supply constraints and 2027 pricing](https://www.trendforce.com/presscenter/news/20260929-13255.html)
-6. [TrendForce: DRAM market outlook for 2027](https://www.trendforce.com/research/download/RP260728GY)
-7. [SK hynix: Q2 2026 financial results and AI memory demand](https://news.skhynix.com/en/q2-2026-business-results/)
-8. [Local AI in 2026: A 27B Model Beats Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)
-9. [Qwen3.8 27B GPU benchmarks on Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
+1. [DGX Spark de 64GB este un semnal de avertizare pentru AI local](https://www.youtube.com/watch?v=7kWqGfnEhCM)
+2. [Ghidul hardware NVIDIA DGX Spark](https://docs.nvidia.com/dgx/dgx-spark/hardware.html)
+3. [Tom's Hardware: raport despre prețul și produsul DGX Spark de 64GB](https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less)
+4. [TrendForce: oferta DRAM și perspectiva NAND pentru 2027](https://www.trendforce.com/presscenter/news/20260730-13158.html)
+5. [TrendForce: limitarea ofertei HBM și prețurile din 2027](https://www.trendforce.com/presscenter/news/20260929-13255.html)
+6. [TrendForce: perspectiva pieței DRAM pentru 2027](https://www.trendforce.com/research/download/RP260728GY)
+7. [SK hynix: rezultate financiare în trimestrul al doilea din 2026 și cererea de memorie AI](https://news.skhynix.com/en/q2-2026-business-results/)
+8. [AI local în 2026: un model 27B depășește Sonnet 4.6](/articles/local-ai-2026-build-your-rig-now/)
+9. [Benchmarkuri GPU Qwen3.8 27B pe Vast.ai](/articles/qwen38-27b-vast-ai-gpu-benchmark/)
