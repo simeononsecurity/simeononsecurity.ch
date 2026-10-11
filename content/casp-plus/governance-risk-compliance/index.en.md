@@ -11,7 +11,7 @@ coverAlt: "An illustration showing a cybersecurity governance framework with int
 coverCaption: "Master Governance, Risk, and Compliance for the CAS-005 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
+[Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
 
 **Governance, Risk, and Compliance** is **20%** of the **CompTIA SecurityX (CAS-005)** exam. This domain covers how you set direction, measure risk, and prove your program meets legal and contractual obligations across a large enterprise. *SecurityX tests you as an architect who advises leadership, so think in terms of business risk and organizational outcomes, not individual controls.*
 

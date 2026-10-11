@@ -11,7 +11,7 @@ coverAlt: "A digital illustration showing interconnected servers and endpoints i
 coverCaption: "Master Security Engineering for the CAS-005 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
+[Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
 
 **Security Engineering** is **31%** of the **CompTIA SecurityX (CAS-005)** exam — the single heaviest domain. This module covers how you implement, configure, and troubleshoot the controls an architect designed. *Build deep hands-on familiarity with cryptography, hardware roots of trust, and IAM troubleshooting, because this domain rewards depth over breadth.*
 

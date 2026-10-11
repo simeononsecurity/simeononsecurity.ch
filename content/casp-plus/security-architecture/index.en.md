@@ -11,7 +11,7 @@ coverAlt: "A digital illustration of a modern security architecture featuring in
 coverCaption: "Master Security Architecture for the CAS-005 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
+[Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
 
 **Security Architecture** is **27%** of the **CompTIA SecurityX (CAS-005)** exam, the second-heaviest domain and the one that shapes all others. This domain covers how you design systems that stay available, resist attack, and recover quickly. *At 27% and feeding directly into Security Engineering, spend solid time on Zero Trust, cloud architecture, and secure SDLC here.*
 

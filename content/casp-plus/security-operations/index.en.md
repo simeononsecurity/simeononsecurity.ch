@@ -11,7 +11,7 @@ coverAlt: "An illustration of a high-tech security operations center with multip
 coverCaption: "Master Security Operations for the CAS-005 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
+[Click Here to Return To the CompTIA SecurityX Course Page](/casp-plus-start/)
 
 **Security Operations** is **22%** of the **CompTIA SecurityX (CAS-005)** exam. This domain covers how you detect, hunt, analyze, and respond to threats using data, tooling, and threat intelligence. *SecurityX expects you to analyze evidence and recommend action, not just name a tool.*
 
