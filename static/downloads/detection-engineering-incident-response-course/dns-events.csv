@@ -1,0 +1,7 @@
+timestamp,host,user,query,record_type,response,answer,correlation_id
+2026-06-18T13:57:58Z,HR-LT-044,morgan.lee,mail.example.test,A,NOERROR,192.0.2.25,D-3001
+2026-06-18T14:00:24Z,HR-LT-044,morgan.lee,cdn-sync.example.test,A,NOERROR,203.0.113.90,D-3002
+2026-06-18T14:02:46Z,HR-LT-044,morgan.lee,cdn-sync.example.test,A,NOERROR,203.0.113.90,D-3003
+2026-06-18T14:05:17Z,HR-LT-044,morgan.lee,cdn-sync.example.test,A,NOERROR,203.0.113.90,D-3004
+2026-06-18T14:20:55Z,FIN-LT-021,alex.rivera,inventory.example.test,A,NOERROR,192.0.2.80,D-3005
+2026-06-18T14:35:19Z,HR-LT-044,morgan.lee,mail.example.test,A,NOERROR,192.0.2.25,D-3006
