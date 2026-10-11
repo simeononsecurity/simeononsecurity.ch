@@ -47,6 +47,7 @@ The `.clinerules/` directory uses numbered files. The current set:
 | `16-client-side-tools.md` | Client-side tool rules, derived-value recalculation, tool verification, ISO 7811-2 stripe encoding |
 | `18-article-translations.md` | Traffic-based translation scope, language coverage, source fidelity, and validation |
 | `19-effective-ai-workflow-course.md` | Beginner AI workflow course lab, lesson state, study routes, and validation |
+| `20-noncertification-course-hubs-and-labs.md` | Visible course hubs, offline lab evidence, and cross-page consistency |
 
 When a lesson fits an existing file, append it to that file under an appropriate
 `##` heading. When a lesson is a new topic not covered by any existing file, create

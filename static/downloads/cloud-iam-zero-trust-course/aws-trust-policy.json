@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::111122223333:root"
+        "AWS": "arn:aws:iam::111122223333:role/REPLACE_WITH_APPROVED_SANDBOX_OPERATOR_ROLE"
       },
       "Action": "sts:AssumeRole"
     }

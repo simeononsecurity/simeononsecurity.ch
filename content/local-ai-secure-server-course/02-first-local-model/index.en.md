@@ -12,13 +12,15 @@ coverAlt: "Terminal session pulling a local model and sending a prompt through a
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Prove local inference on one machine before adding remote access.** This lesson uses Ollama for the beginner path and offers a llama.cpp route for advanced users.
 
 ## Install the Runtime
 
 Follow the current [Ollama installation documentation](https://docs.ollama.com/quickstart) for your operating system. Record the installer source and installed version.
+
+For the Windows course path, install and run Ollama inside the same WSL 2 distribution used for the Bash lessons. Keep the service, `curl` calls, and listener checks in that environment so `127.0.0.1` names the same host boundary.
 
 ```bash
 ollama --version

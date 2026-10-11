@@ -4,7 +4,7 @@ date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Build, test, and investigate behavior-based detections with synthetic identity, endpoint, and DNS evidence. Finish with a complete incident record and improvement plan."
+description: "Build and test detections with synthetic identity, endpoint, and DNS evidence. Investigate an incident and report your findings."
 genre: ["Cybersecurity", "Detection Engineering", "Incident Response", "Security Operations"]
 tags: ["detection engineering course", "incident response course", "MITRE ATT&CK", "Sigma rules", "security analytics", "alert triage", "incident investigation", "threat detection", "SOC training", "cybersecurity lab"]
 cover: "/img/cover/detection-engineering-incident-response-course.webp"
@@ -55,7 +55,7 @@ Work in order. **Lessons 3 through 6 reuse the same event story**, so skipped st
 - **A clean working folder** for evidence copies and analyst notes
 - **Forty-five to sixty minutes per lesson** and ninety minutes for the capstone
 
-Download the [synthetic investigation data](/downloads/detection-engineering-incident-response-course/README.md). Save all four files in one folder. Do not alter the source files.
+Download the [data README](/downloads/detection-engineering-incident-response-course/README.md), [authentication events](/downloads/detection-engineering-incident-response-course/auth-events.jsonl), [endpoint events](/downloads/detection-engineering-incident-response-course/endpoint-events.jsonl), and [DNS events](/downloads/detection-engineering-incident-response-course/dns-events.csv). Save all four files in one folder. Do not alter the source files.
 
 ## Working Method
 

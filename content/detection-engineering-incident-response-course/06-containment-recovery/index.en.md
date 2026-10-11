@@ -18,14 +18,14 @@ coverCaption: "Contain risk, preserve evidence, and verify recovery."
 
 ## Choose Action Order
 
-For the course incident, use this proposed order:
+For the course incident, start with this proposed order. The incident commander should decide whether to collect volatile endpoint evidence before isolation when policy permits and ongoing harm is controlled. If exfiltration or active misuse continues, contain first and record what volatile evidence may be lost.
 
 1. Preserve cloud audit, endpoint, mail, DNS, and network evidence.
 2. Isolate `HR-LT-044` through the approved endpoint process.
 3. Disable or restrict Morgan's identity under the incident authority model.
 4. Revoke active sessions and OAuth grants.
 5. Remove the malicious mailbox rule after preserving its configuration.
-6. Collect the document, script, task definition, and volatile evidence under policy.
+6. Collect the document, script, and task definition under policy. Collect remaining volatile evidence where feasible.
 7. Reset credentials and re-register strong factors through a verified recovery path.
 8. Rebuild or restore the endpoint from trusted media.
 9. Validate service, identity, and endpoint health.
@@ -96,7 +96,7 @@ Give each item an owner, due date, evidence target, and validation method. An im
 ## Verify Your Work
 
 - [ ] Every action has an owner and approval path
-- [ ] Evidence preservation occurs before destructive change
+- [ ] The plan records which evidence was preserved before each destructive action and why containment took priority where needed
 - [ ] Session and OAuth grant response appears beside credential reset
 - [ ] Recovery gates include identity, endpoint, mail, monitoring, and business checks
 - [ ] Improvement items carry validation methods

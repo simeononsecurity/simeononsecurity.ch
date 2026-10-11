@@ -12,7 +12,7 @@ coverAlt: "Isolated agent lab showing a hostile issue blocked before an outbound
 coverCaption: "Lab cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **This lab demonstrates indirect prompt injection against a tiny policy simulator.** It does not use a live model, network connection, real secret, or real MCP server. The simulator keeps the control result deterministic.
 
@@ -121,7 +121,7 @@ Record these observations in **`lab-report.md`**:
 ```bash
 python3 policy_lab.py --mode defended
 printf 'exit=%s\n' "$?"
-python3 -m json.tool logs/events.jsonl
+python3 -m json.tool --json-lines logs/events.jsonl
 ```
 
 Expected result:
@@ -155,13 +155,24 @@ This positive test proves the policy still permits an approved operation. A defe
 
 ## Extend the Defense
 
-Add three checks before the course capstone:
+Download the [fictional comment policy simulator](/downloads/secure-ai-agents-mcp-course/comment_policy_lab.py). It uses no network or real issue service. Run it from a temporary directory:
 
-1. Reject more than five action requests in one run.
-2. Reject any operation outside `ALLOWED` before argument parsing.
-3. Store logs in a directory absent from the simulated agent's write set.
+```bash
+curl -fsSLo comment_policy_lab.py https://simeononsecurity.ch/downloads/secure-ai-agents-mcp-course/comment_policy_lab.py
+python3 comment_policy_lab.py
+```
 
-Write one test case for each check. Keep all targets local and synthetic.
+Expected result: nine named tests print `PASS`, followed by `9/9 passed`. The script tests a hostile issue, an approved comment, approval replay, forged self-approval, wrong target, oversized text, wrong identity, changed target state, and a sixth action over the limit. `would_post` means a policy decision only. No comment is published.
+
+`Policy.host_approve` represents a trusted host recording human approval. Tool arguments contain only the target and comment. The host supplies origin and identity separately. The approval token is a random, single-use lookup key for a stored action digest and expiry. A digest calculated by untrusted content is not approval. This simulator assumes the host protects its approval store and context. It does not authenticate a real person or issue service.
+
+Inspect `Policy.check` and identify three controls before the capstone:
+
+1. Reject more than five approved actions in one run.
+2. Reject requests from retrieved issue text before approval or argument processing.
+3. Bind the trusted approval record to the preview and target-state digest, then reject changed state.
+
+For an advanced exercise, add a test for a changed comment after approval. The expected decision is `deny_changed_action`. A production event store needs separate write permissions. This simulator keeps events in memory for local inspection only.
 
 ## Answer Key
 
@@ -169,7 +180,7 @@ Your report should explain:
 
 - **Root cause:** The unsafe policy treats retrieved issue text as authority.
 - **Preventive control:** A host-side allowlist derives from the approved user task.
-- **Detective control:** An append-only event records the denied tool and input digest.
+- **Detective control:** An appended event records the denied tool and input digest. A production event store needs separate write permissions and tamper protection.
 - **Recovery step:** Stop the run, inspect affected actions, repair policy, then retest.
 - **Residual risk:** An allowed tool still needs strict argument checks and narrow runtime permission.
 

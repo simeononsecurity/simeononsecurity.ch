@@ -12,13 +12,13 @@ coverAlt: "Agent operations timeline with policy decisions, tool calls, alerts, 
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **Operational evidence must survive a wrong model answer.** Record enforcement decisions at the host, server, identity provider, and downstream service.
 
 ## Define the Event Record
 
-Write **`event-schema.json`** for a small append-only security event. Keep prompts and full file contents out of the default log.
+Write **`event-example.json`** for one security event. Keep prompts and full file contents out of the default log. Production event storage needs separate write permissions and tamper protection.
 
 ```json
 {
@@ -82,7 +82,7 @@ The [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/ai
 
 ## Expected Result
 
-Your event schema records allowed and denied calls without copying full sensitive inputs. Your detection plan stops on the first blocked outbound action and names an owner for every response.
+Your event format records allowed and denied calls without copying full sensitive inputs. Your detection plan stops on the first blocked outbound action and names an owner for every response.
 
 ## Troubleshooting
 
@@ -97,10 +97,10 @@ Your event schema records allowed and denied calls without copying full sensitiv
 Validate the JSON example and inspect the plan:
 
 ```bash
-python3 -m json.tool event-schema.json
-grep -E "Stop|revoke|owner|retest" detection-plan.md
+python3 -m json.tool event-example.json
+grep -Ei "stop|revoke|owner|retest" detection-plan.md
 ```
 
-Pass when the schema parses, denied calls produce events, logs sit outside agent write authority, and the recovery plan ends with a controlled retest.
+Pass when the example parses, denied calls produce events, logs sit outside agent write authority, and the recovery plan ends with a controlled retest.
 
 Continue with the [Attack and Defense Lab](/secure-ai-agents-mcp-course/04-attack-defense-lab/).

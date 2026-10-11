@@ -6,7 +6,7 @@ toc: true
 draft: false
 description: "Run your first local model, measure fit and speed, then expose a controlled API through a secure server design."
 genre: ["Artificial Intelligence", "Self-Hosted", "Cybersecurity"]
-tags: ["local AI course", "Ollama course", "llama.cpp", "local LLM server", "secure AI server", "GGUF", "GPU inference", "self-hosted AI"]
+tags: ["local AI course", "Ollama course", "llama.cpp", "vLLM", "local LLM server", "secure AI server", "GGUF", "GPU inference", "self-hosted AI"]
 cover: "/img/cover/local-ai-first-model-secure-server-course.webp"
 coverAlt: "Learning path from a laptop model session to a monitored and access-controlled local AI server"
 coverCaption: "Course cover placeholder. Image generation follows editorial review."
@@ -27,6 +27,7 @@ You need:
 - **Terminal access** and administrator rights for installation
 - **No private dataset** during the course
 - **A local firewall** available before any network exposure
+- **Linux or macOS shell tools** for the course commands. On Windows, use WSL 2 with Python 3, curl, and `ss`, and run the model service and labs inside the same WSL environment. The PowerShell commands below only inventory the Windows host
 
 Model size and context length drive memory use. Start with a small model even on a large system. Prove the process before scaling.
 
@@ -35,7 +36,7 @@ Model size and context length drive memory use. Start with a small model even on
 | Path | Goal | Tools | Completion target |
 |---|---|---|---|
 | **Beginner** | Run and evaluate one local model on one computer | Ollama CLI and local API | Loopback-only service with a measured prompt |
-| **Advanced** | Tune and operate a multi-user service | Ollama or llama.cpp, service manager, proxy, metrics | Authenticated private service with rollback evidence |
+| **Advanced** | Tune and operate a multi-user service | Ollama, llama.cpp, or vLLM, service manager, proxy, metrics | Authenticated private service with rollback evidence |
 
 Both paths complete the same security lab and quiz. Advanced callouts add build, concurrency, GPU offload, and operations work.
 
@@ -48,6 +49,7 @@ After the course, you will:
 - **Run local inference** through a CLI and loopback API
 - **Measure prompt processing and generation speed** without mixing the two values
 - **Tune context and concurrency** against observed memory use
+- **Select a serving runtime** across Ollama, llama.cpp, and vLLM from workload, hardware, model format, and concurrency needs
 - **Design secure access** with loopback binding, private routing, authentication, TLS, and rate limits
 - **Operate updates and rollback** with version, model, configuration, and test evidence
 

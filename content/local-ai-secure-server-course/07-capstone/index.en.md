@@ -12,7 +12,7 @@ coverAlt: "Deployment package linking a model record, benchmark, network policy,
 coverCaption: "Capstone cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Your capstone produces a deployment decision, not a running public service.** Use your measured host and model data. Keep tests on loopback or an approved private lab network.
 
@@ -47,7 +47,7 @@ local-ai-capstone/
 4. **Measure the service.** Record three warm trials with separate prompt and generation rates.
 5. **Draw data flow.** Show client, gateway, runtime, model storage, logs, updates, and outbound connections.
 6. **Write access policy.** Name identities, routes, models, request limits, rate limits, and retention.
-7. **Run boundary tests.** Include authorized, unauthorized, oversized, listener, timeout, and overload tests.
+7. **Run boundary tests.** For the one-host beginner path, inspect the listener and record its `127.0.0.1` bind plus local firewall rules. A second private client is optional for a remote-denial test. For the advanced path, test authorized, unauthorized, oversized, listener, timeout, and overload behavior at the gateway.
 8. **Test rollback.** Restore a prior approved configuration in the lab and repeat health and denial checks.
 9. **Make a decision.** Choose approve, approve with conditions, or reject.
 
@@ -95,6 +95,6 @@ grep -Ein "model|license|digest|loopback|authentication|rollback|owner" \
   local-ai-capstone/deployment-decision.md
 ```
 
-Pass when all nine files exist, all track requirements have evidence, unauthorized access fails, the listener matches the design, rollback passes the same checks, and the decision names an owner for each remaining condition.
+Pass when all nine files exist and all track requirements have evidence. The beginner path must show a loopback-only listener and recorded firewall policy, with remote denial labeled `not run` if no second client exists. The advanced path must show an unauthorized gateway request denied. The listener must match the design, rollback must pass the same checks, and the decision must name an owner for each remaining condition.
 
-Return to the [course hub](/local-ai-secure-server-course/). Review the [Ollama documentation](https://docs.ollama.com/) and [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md) before adapting commands to a newer release.
+Return to the [course hub](/local-ai-secure-server-course-start/). Review the [Ollama documentation](https://docs.ollama.com/) and [llama.cpp server documentation](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md) before adapting commands to a newer release.

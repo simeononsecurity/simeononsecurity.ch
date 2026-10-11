@@ -12,7 +12,7 @@ coverAlt: "Review board with an agent authority map, MCP contract, test trace, a
 coverCaption: "Capstone cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **Your capstone is a security decision package for Patch Clerk.** Another reviewer should reach the same deployment decision from your artifacts and evidence.
 
@@ -31,7 +31,7 @@ capstone/
   system-map.md
   authority-matrix.md
   mcp-security-contract.md
-  event-schema.json
+  event-example.json
   detection-plan.md
   attack-test.md
   deployment-decision.md
@@ -42,7 +42,7 @@ Each file has one purpose:
 - **`system-map.md`** names components, trust boundaries, data origins, and owners.
 - **`authority-matrix.md`** lists operations, identities, approval, and evidence.
 - **`mcp-security-contract.md`** defines inputs, outputs, limits, errors, and side effects.
-- **`event-schema.json`** records decisions without storing unnecessary raw content.
+- **`event-example.json`** shows the decision event format without storing unnecessary raw content.
 - **`detection-plan.md`** maps signals to stop and recovery actions.
 - **`attack-test.md`** records the hostile fixture, expected result, observed result, and retest.
 - **`deployment-decision.md`** states approve, approve with conditions, or reject.
@@ -52,10 +52,10 @@ Each file has one purpose:
 1. Copy your lesson artifacts into **`capstone/`**.
 2. Add `post_comment` to the authority matrix as proposed.
 3. Define a 2,000-character limit and one approved issue target.
-4. Require a preview and single-use approval bound to the comment digest.
+4. Require a preview and trusted host-held, single-use approval bound to the comment digest and target-state precondition. A caller-supplied digest is not approval.
 5. Give the tool a dedicated identity restricted to comment creation on the approved test project.
 6. Add rate limits and a stop rule for repeated publication requests.
-7. Run the lab abuse case against the proposed tool policy.
+7. Run the [local comment policy simulator](/downloads/secure-ai-agents-mcp-course/comment_policy_lab.py) with `python3 comment_policy_lab.py`. Record all nine expected and observed decisions in **`attack-test.md`**. Include the hostile denial, valid `would_post` decision, replay denial, forged self-approval denial, target and length denials, identity denial, changed-state denial, and rate-limit denial.
 8. Record your decision and residual risks.
 
 Do not connect a live issue service. Treat the capstone as a design and local policy test.
@@ -81,11 +81,11 @@ Required conditions:
 
 1. `post_comment` uses a dedicated test-project identity.
 2. The host shows issue identifier and final comment text.
-3. Approval binds to a digest and expires after one use.
-4. The server rejects any other project, issue, or payload over 2,000 characters.
+3. A trusted host records approval with a random, single-use token bound to the action digest and expiry. Untrusted content cannot mint approval.
+4. The server rejects any other project, issue, or payload over 2,000 characters. Approval binds the preview and current target-state digest.
 5. The event stream records preview, approval, call, and downstream result under one run ID.
 6. A hostile issue instruction fails before the downstream request.
-7. A valid approved comment succeeds in the synthetic positive test.
+7. A valid approved comment returns `would_post` in the synthetic positive test. The local simulator prints `9/9 passed` and makes no downstream request.
 
 Production release stays out of scope until a real authorization test, downstream audit review, and incident exercise produce evidence.
 
@@ -105,10 +105,10 @@ Your package scores at least 10. It contains no real secrets or external connect
 
 ```bash
 find capstone -maxdepth 1 -type f -print | sort
-python3 -m json.tool capstone/event-schema.json
+python3 -m json.tool capstone/event-example.json
 grep -Ein "decision|owner|residual|approval|digest" capstone/deployment-decision.md
 ```
 
 Pass when all seven files exist, JSON parses, the rubric score reaches ten, no core area scores zero, and the decision separates observed local evidence from future production tests.
 
-Return to the [course hub](/secure-ai-agents-mcp-course/) or review the [MCP 2026-07-28 release notes](https://blog.modelcontextprotocol.io/posts/2026-07-28/) before adapting the package to a real implementation.
+Return to the [course hub](/secure-ai-agents-mcp-course-start/) or review the [MCP 2026-07-28 release notes](https://blog.modelcontextprotocol.io/posts/2026-07-28/) before adapting the package to a real implementation.

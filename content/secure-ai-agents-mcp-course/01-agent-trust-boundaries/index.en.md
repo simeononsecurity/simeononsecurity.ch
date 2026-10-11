@@ -12,7 +12,7 @@ coverAlt: "Trust boundary map linking a user, AI model, MCP client, tools, and d
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **An agent inherits the reach of every tool and identity connected to it.** Start with authority and data flow. Prompt wording comes later.
 
@@ -104,6 +104,7 @@ Check **`authority-matrix.md`** with this review:
 
 ```bash
 grep -E "Read issue|Apply patch|Send report" authority-matrix.md
+git add -N authority-matrix.md
 git diff -- authority-matrix.md
 ```
 

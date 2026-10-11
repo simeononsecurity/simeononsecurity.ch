@@ -12,7 +12,7 @@ coverAlt: "Local AI server behind a private network, authenticated proxy, firewa
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Keep the inference runtime on loopback. Put network access behind a separate enforcement point.** This design limits direct reach to model management and native API routes.
 
@@ -33,7 +33,7 @@ Record each trust boundary, protocol, identity, owner, and log source. Add outbo
 
 Ollama uses loopback by default. Its [FAQ](https://docs.ollama.com/faq) documents `OLLAMA_HOST` for a different listener. Keep the runtime on `127.0.0.1` unless an approved design needs another boundary.
 
-For llama.cpp, the [server documentation](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md) states the default listener is `127.0.0.1:8080`. Set the host explicitly in service configuration:
+For llama.cpp, the [server documentation](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md) lists `127.0.0.1` as the default host. Set both host and port explicitly in service configuration:
 
 ```bash
 llama-server \
@@ -44,6 +44,68 @@ llama-server \
 ```
 
 Do not enable built-in tools or MCP server integration on an untrusted deployment. Current llama.cpp documentation labels those features experimental and warns against untrusted environments.
+
+## Choose vLLM for Shared Serving
+
+**vLLM targets high-throughput model serving with continuous batching and an OpenAI-compatible API.** It fits the advanced path when several clients share a supported model and host. Follow the current [vLLM installation guide](https://docs.vllm.ai/en/stable/getting_started/installation/) for the selected hardware backend.
+
+vLLM supports several accelerator and CPU platforms through separate installation paths. Match the vLLM, Python, PyTorch, driver, and hardware versions before deployment. Confirm the selected model architecture and task appear in current vLLM support documentation.
+
+| Runtime | Strong fit | Main tradeoff |
+|---|---|---|
+| **Ollama** | First local model and simple host operation | Fewer scheduling and distributed-serving controls |
+| **llama.cpp** | GGUF, CPU or hybrid inference, and small deployments | Multi-user tuning needs direct server configuration |
+| **vLLM** | Concurrent OpenAI-compatible serving on supported hardware | Larger Python and accelerator stack with more capacity planning |
+
+Use measured workload results for the final choice. File format, model support, hardware backend, context, and concurrency often decide the runtime before raw generation speed.
+
+The official [vLLM OpenAI-compatible server guide](https://docs.vllm.ai/en/stable/serving/online_serving/openai_compatible_server/) documents the `vllm serve` command and supported APIs. The [vLLM quickstart](https://docs.vllm.ai/en/stable/getting_started/quickstart/) supports `VLLM_API_KEY` as an alternative to `--api-key`, so the key stays out of process arguments. Start a reviewed model on loopback:
+
+```bash
+export VLLM_API_KEY='replace-with-a-generated-lab-key'
+vllm serve APPROVED_MODEL_ID \
+  --host 127.0.0.1 \
+  --port 8000 \
+  --dtype auto
+```
+
+Send a local Chat Completions request:
+
+```bash
+curl http://127.0.0.1:8000/v1/chat/completions \
+  -H "Authorization: Bearer $VLLM_API_KEY" \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "model": "APPROVED_MODEL_ID",
+    "messages": [
+      {"role": "user", "content": "Return the word READY and no other text."}
+    ]
+  }'
+```
+
+Replace both instances of `APPROVED_MODEL_ID` with the exact served identifier. Use a synthetic prompt and a lab key. Store deployment secrets in an approved secret store.
+
+The [vLLM security guide](https://docs.vllm.ai/en/stable/usage/security/) states `--api-key` protects selected API route prefixes. Other sensitive endpoints remain outside its coverage. Keep vLLM on loopback and place the same authenticated TLS gateway, network policy, request limits, and logging controls in front of it. Treat the built-in key as one layer rather than the production boundary.
+
+### Expected vLLM Result
+
+The server starts on `127.0.0.1:8000`. An authenticated request to `/v1/chat/completions` returns a JSON response. A request to a protected `/v1` route without the bearer key returns an authorization failure.
+
+### Verify vLLM
+
+```bash
+curl -i http://127.0.0.1:8000/v1/models
+curl -i http://127.0.0.1:8000/v1/models \
+  -H "Authorization: Bearer $VLLM_API_KEY"
+```
+
+On Linux, verify listener scope:
+
+```bash
+ss -ltnp | grep ':8000'
+```
+
+Pass when the first API request fails authorization, the second returns the served model record, and the listener shows `127.0.0.1:8000`. Repeat the course gateway tests before any private-network release.
 
 ## Define the Entry Point
 

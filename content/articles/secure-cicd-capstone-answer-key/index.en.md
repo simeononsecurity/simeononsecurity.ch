@@ -42,4 +42,20 @@ coverCaption: ""
 
 **Hold the fictional release.** The local path proves a byte mismatch is rejected and illustrates policy field matching. It does not prove publisher identity or a live repository's controls. To change the decision, obtain real dependency and SBOM evidence, confirm pipeline permissions, generate and verify a signed attestation, and match source and workflow against policy.
 
+## Reconcile Your Packet
+
+Compare your packet with each section above. For every difference, record your original claim, the fixture field or command output, the corrected claim, and the release decision it changes. A different conclusion needs a cited observation. An unsigned provenance fixture, a sample Scorecard value, and a matching checksum alone do not justify approval.
+
+If your packet approved the tampered file, rerun `python3 verify_release.py release-tampered.txt` from a fresh extraction and record its nonzero exit code. If your packet treated the wrong-source statement as trusted, rerun `python3 inspect_packet.py sample-provenance-wrong-source.json` and record `HOLD`. If the fixture output differs from this key, confirm the extracted files and tool versions before editing your analysis.
+
+## Verify Completion
+
+- [ ] Artifact, source, ref, workflow, and builder match the supplied policy record
+- [ ] Dependency and SBOM evidence is labeled synthetic and incomplete
+- [ ] Sample Scorecard findings are separate from live checks
+- [ ] Unsigned provenance is labeled unverified
+- [ ] Good, tampered, and wrong-source fixture results include observed exit codes
+- [ ] Final decision is `HOLD` until publisher and release evidence is verified
+- [ ] Every discrepancy from this reference has a corrected claim and evidence link
+
 **Return to the [course outline](/secure-cicd-course-start/)** when your packet matches these decisions.

@@ -31,7 +31,7 @@ By the end, you will produce:
 - A **human access design** with federation, MFA, session, and emergency controls
 - A **workload identity design** without long-lived access keys
 - A **zero trust access policy** using identity, device, resource, context, and telemetry
-- A **disposable lab record** with create, verify, deny-test, teardown, and absence checks
+- A **disposable lab record** with preflight checks, grant inspection, AWS policy simulation where selected, teardown, and absence checks
 - An **access review decision log** and remediation plan
 
 ## Course Order
@@ -60,11 +60,11 @@ The concept lessons and capstone work offline. The live lab changes cloud identi
 ## Safety Rules
 
 1. Confirm the active account, tenant, subscription, or project before every change.
-2. Use a unique `sos-iam-lab` prefix.
+2. Check that every exact `sos-iam-lab` object name is absent before creation. Stop on a collision or an uncertain result.
 3. Grant read-only access at the narrowest lab scope.
 4. Do not create access keys or client secrets.
-5. Save identifiers returned by create commands.
-6. Run teardown in the same session.
+5. Save identifiers returned by successful create commands. Delete only objects recorded as created by this run.
+6. Run teardown in the same session for those recorded objects.
 7. Verify absence after deletion.
 
 > **Expected Result:** the lab ends with no temporary identity, role assignment, policy, group, or project binding left behind.

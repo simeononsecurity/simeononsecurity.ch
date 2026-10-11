@@ -12,7 +12,7 @@ coverAlt: "Local AI performance worksheet comparing prompt speed, generation spe
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Measure prompt processing and token generation separately.** A single elapsed time hides model loading, prompt evaluation, generation, and queue delay.
 

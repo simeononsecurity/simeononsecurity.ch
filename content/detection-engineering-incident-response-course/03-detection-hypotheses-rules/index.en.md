@@ -77,7 +77,17 @@ level: high
 | **Negative 2** | Word starts a PDF viewer | No match |
 | **Boundary** | Word starts PowerShell without an encoded flag | No match, then review whether separate logic covers the behavior |
 
-Run the positive and negative cases against your SIEM translator or local rule test tool. Record the backend query and field mapping. **A valid YAML file does not prove correct detection behavior.**
+## Run the Offline Rule Check
+
+Download [the five test events](/downloads/detection-engineering-incident-response-course/rule-test-events.jsonl) and [the local checker](/downloads/detection-engineering-incident-response-course/check_rule_cases.py) into the same clean folder. The checker implements the three selections above with Python string comparisons. It does not parse Sigma YAML or validate a SIEM translation. Compare its field names and predicates with the YAML before running it.
+
+```bash
+python3 check_rule_cases.py rule-test-events.jsonl
+```
+
+Expected result: each named case prints `PASS`, the last line is `5/5 passed`, and the process exits zero. Both positive cases match. Both negatives and the boundary case do not match. Record the output, the mapping from `ParentImage`, `Image`, and `CommandLine` to the three Sigma selections, and a false-positive count of zero among the two negative cases.
+
+If you have a SIEM translator or local Sigma test tool, run the same five cases there as an advanced check. Record its backend query, field mapping, observed results, and any difference from the offline predicate. **A valid YAML file or a passing predicate harness alone does not prove production detection behavior.**
 
 ## Define Operations
 
@@ -97,6 +107,7 @@ Every alert needs a short runbook:
 | Problem | Fix |
 |---|---|
 | **No positive events match** | Compare backend field names and case handling with the normalized schema |
+| **The local checker reports a failure** | Confirm both downloaded files are unmodified and compare each field with the Sigma selections |
 | **Approved scripts match** | Narrow the parent-child relationship or add a documented filter with an owner and review date |
 | **The query is too expensive** | Filter on indexed parent and child fields before command-line terms |
 | **Alert volume rises after an update** | Compare new parent paths, process names, and management software versions before broad suppression |
@@ -106,6 +117,7 @@ Every alert needs a short runbook:
 - [ ] Hypothesis names behavior, population, and reason for review
 - [ ] Rule status stays `test`
 - [ ] Two positive and two negative tests exist
+- [ ] The offline checker prints `5/5 passed` with a zero exit code
 - [ ] Field mappings are recorded
 - [ ] Runbook includes escalation and closure evidence
 - [ ] Every suppression has an owner and review date

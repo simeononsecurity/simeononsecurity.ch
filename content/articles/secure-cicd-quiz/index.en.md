@@ -14,7 +14,7 @@ coverCaption: ""
 
 [Return to the Secure CI/CD Course](/secure-cicd-course-start/)
 
-**Answer all ten questions before opening the separate [answer key](/articles/secure-cicd-quiz-answer-key/).** Write one sentence explaining each choice. Eight correct answers and a corrected explanation for every miss prepare you for the capstone. This is a skills check, not certification prep.
+**Answer all ten questions before opening the separate [answer key](/articles/secure-cicd-quiz-answer-key/).** Write one sentence explaining each choice. Score at least eight on a closed-book attempt and correct every miss before the capstone. Retake the full quiz after review if your first score is lower. This is a skills check, not certification prep.
 
 ## Questions
 

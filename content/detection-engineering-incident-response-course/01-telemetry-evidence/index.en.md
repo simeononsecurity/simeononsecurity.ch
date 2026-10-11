@@ -22,7 +22,7 @@ Create one row per source before opening the investigation files.
 
 | Source | Key fields | Useful question | Limit |
 |---|---|---|---|
-| **Identity** | User, source IP, device, result, MFA state | Did a principal authenticate from a new context? | A successful sign-in does not prove who used the credential |
+| **Identity** | User, source IP, device, result, authentication protocol, MFA state | Did a principal authenticate from a new context? | A successful sign-in does not prove who used the credential |
 | **Endpoint** | Host, user, process, parent, command line, hash | What executed, and which process launched the child? | Missing events do not prove missing execution |
 | **DNS** | Host, user, query, response, answer | Which names did an endpoint resolve? | A lookup does not prove a later connection |
 
@@ -55,7 +55,7 @@ The exact hashes depend on the downloaded bytes. **The verification target is st
 List the JSON events in chronological order without changing the source.
 
 ```bash
-jq -s 'sort_by(.timestamp)[] | [.timestamp, (.host // .device), .user, .event_type, .correlation_id] | @tsv' \
+jq -sr 'sort_by(.timestamp)[] | [.timestamp, (.host // .device), .user, .event_type, .correlation_id] | @tsv' \
   auth-events.jsonl endpoint-events.jsonl
 ```
 

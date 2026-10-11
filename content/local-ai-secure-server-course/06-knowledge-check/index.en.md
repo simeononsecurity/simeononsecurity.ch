@@ -12,7 +12,7 @@ coverAlt: "Local AI server review sheet with model, memory, network, identity, a
 coverCaption: "Assessment cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Answer all ten questions without the key.** A score of eight or higher prepares you for the capstone. Correct every missed security item before continuing.
 

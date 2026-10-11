@@ -12,7 +12,7 @@ coverAlt: "Security review checklist beside an AI agent and MCP tool diagram"
 coverCaption: "Assessment cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **Answer all ten questions before opening the key.** A score of eight or higher shows readiness for the capstone. Review every missed answer against your artifacts.
 
@@ -109,7 +109,7 @@ Your answers include reasoning tied to an enforcement point. A passing score is 
 - **Two answers seem valid:** Choose the control nearest the action and outside model authority.
 - **Your reasoning cites a prompt only:** Name the host, server, identity, or downstream enforcement point.
 - **You missed authorization questions:** Revisit [Lesson 2](/secure-ai-agents-mcp-course/02-secure-mcp-tools/) and update your security contract.
-- **You missed evidence questions:** Revisit [Lesson 3](/secure-ai-agents-mcp-course/03-agent-operations/) and update your event schema.
+- **You missed evidence questions:** Revisit [Lesson 3](/secure-ai-agents-mcp-course/03-agent-operations/) and update your event format.
 
 ## Verify Completion
 

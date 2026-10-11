@@ -12,7 +12,7 @@ coverAlt: "Diagram of an AI agent separated from data and tools by policy and ap
 coverCaption: "Course cover placeholder. Image generation follows editorial review."
 ---
 
-**This course teaches you to contain an AI agent before you trust its output.** You will map authority, secure an MCP connection, test a prompt injection in an isolated lab, and produce an evidence package for review.
+**This course teaches you to contain an AI agent before you trust its output.** You will map authority, review MCP server and tool controls, test a prompt injection in an isolated lab, and produce an evidence package for review.
 
 This course assumes you understand prompts, files, APIs, and basic command-line work. The [Practical AI Workflow Course](/effective-ai-course-start/) covers those skills. This course starts at the security boundary and avoids repeating its workflow lessons.
 

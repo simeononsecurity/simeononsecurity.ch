@@ -37,9 +37,9 @@ Do not merge authentication and authorization. **A valid identity still needs an
 | **Workload principal** | IAM role | Managed identity or service principal | Service account or federated principal |
 | **Permission package** | Policy | Role definition | Role |
 | **Grant** | Attached policy or resource policy | Role assignment | Allow policy binding |
-| **Hierarchy limit** | SCP or RCP in Organizations | Management group and Azure Policy controls, plus RBAC scope | Organization and folder policy, deny policy, and inherited bindings |
+| **Hierarchy and authorization limit** | SCP or RCP in Organizations | Management-group RBAC scope and applicable deny assignments | Organization and folder policy, deny policy, and inherited bindings |
 
-Provider names differ. The review question stays stable: **Which principal receives which action on which resource under which conditions?**
+Azure Policy governs resource configuration and compliance. Review its effects separately from RBAC authorization. Provider names differ. The review question stays stable: **Which principal receives which action on which resource under which conditions?**
 
 ## Draw an Access Path
 

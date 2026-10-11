@@ -12,7 +12,7 @@ coverAlt: "MCP client and server with scoped tools, authorization checks, and an
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course/)
+[Return to the Secure AI Agents and MCP Course](/secure-ai-agents-mcp-course-start/)
 
 **MCP standardizes an interface. Your server still owns authorization and validation.** Treat every tool call as a request from an untrusted decision source.
 
@@ -60,7 +60,7 @@ Write **`mcp-security-contract.md`** with one row per feature:
 |---|---|---|---|---|---|
 | **read_lab_file** | lab-reader | relative path under lab root | 32 KiB UTF-8 | access log | No |
 | **write_patch_proposal** | isolated process | fixed patch filename | 128 KiB | local proposal file | No |
-| **apply_approved_patch** | lab-writer | approved digest only | status and diff | repository write | Yes |
+| **apply_approved_patch** | lab-writer | trusted host-issued single-use approval token | status and diff | repository write | Yes |
 
 ## Enforce Authorization
 
@@ -80,13 +80,15 @@ Use this sequence for a write:
 
 1. The model requests a named tool with typed arguments.
 2. Policy checks tool, target, identity, rate, and task scope.
-3. The server calculates a preview and stable digest.
+3. The server calculates a preview, target-state precondition, and stable digest.
 4. The host shows the exact side effect to the user.
-5. The user approves the digest.
-6. The server verifies the digest again and performs the write.
+5. The trusted host records the user's approval for the digest and issues a single-use token.
+6. The server validates the trusted host-held approval record and token, recomputes the digest, checks the target-state precondition, then performs the write.
 7. An independent event record stores request, decision, identity, and result.
 
-Reject approval tokens after one use, after expiry, or after payload change.
+Define the digest input before using this design. Serialize the approved action, normalized target, arguments, caller identity, policy version, expiry, preview or diff content digest, and base revision or target-state digest as UTF-8 JSON with sorted keys and fixed separators. Store those exact bytes as the reviewed action. The host shows the exact preview and these bound fields with their digest. Immediately before execution, the server recomputes the digest from the stored bytes and checks the current target state, identity, and preview again. Reject a changed field, changed target state, changed preview, alternate path representation, or expired approval. Apply a patch against the approved base revision only.
+
+Keep approval records in trusted host state, outside tool arguments and retrieved content. A digest calculated by the caller does not prove approval. Reject approval tokens after one use, after expiry, or after payload change.
 
 ## Expected Result
 

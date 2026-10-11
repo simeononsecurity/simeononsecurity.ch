@@ -10,7 +10,7 @@ Read `.clinerules/08-clinerules-maintenance.md` and shared content rules 03–06
 - Certification course or practice test: read rules 01 and 02 and inspect SecOT+ or SecAI+ as the working reference.
 - AI collaboration implementation course: read rule 17. Do not add certification weights or a quiz bank to this course.
 - Practical AI Workflow Course: read rule 19. Keep its beginner lab and connected or study tracks aligned.
-- Another non-certification course: use shared writing rules and its existing structure. Do not infer the certification four-piece treatment applies.
+- Another non-certification course: read rule 20, use shared writing rules and its existing structure. Do not infer the certification four-piece treatment applies.
 
 ## Certification workflow
 

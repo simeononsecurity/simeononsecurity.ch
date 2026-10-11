@@ -47,7 +47,7 @@ Use three rings instead of one broad list.
 | Ring | Meaning | Course example |
 |---|---|---|
 | **Confirmed** | Direct source evidence supports involvement | Morgan's identity and `HR-LT-044` |
-| **Likely** | Several facts support involvement, but one key fact is missing | Mailbox data accessed by the consented application |
+| **Likely** | Several facts support exposure, but one key fact is missing | Mailbox data was reachable through the consented application's grant, while actual access is unknown |
 | **Unknown** | Evidence needed for a decision is unavailable | Message access volume, script contents, and data destination content |
 
 `FIN-LT-021` contains PowerShell activity, yet its parent, script path, destination, and surrounding identity event fit approved inventory work. Keep the host outside confirmed scope. Record why.
@@ -59,8 +59,8 @@ As of 2026-06-18T15:00:00Z, confirmed scope includes the identity
 morgan.lee@example.test and endpoint HR-LT-044. Evidence shows suspicious
 legacy-protocol access, a mailbox rule, OAuth consent, document-driven encoded
 PowerShell, a dropped script, scheduled-task persistence, DNS resolution, and an
-outbound connection to 203.0.113.90. Mail access through the consented app is
-likely but unconfirmed because message access logs are absent. FIN-LT-021 is not
+outbound connection to 203.0.113.90. The consented app had a grant to read mail,
+but actual message access is unknown because access logs are absent. FIN-LT-021 is not
 in scope after review of its approved inventory process. Search remains open for
 other activity from 203.0.113.77, the document hash, the script hash, and the
 destination domain.

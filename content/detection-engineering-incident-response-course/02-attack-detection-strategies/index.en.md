@@ -37,8 +37,8 @@ Start with facts from the sample data. Use a confidence label for each mapping.
 |---|---|---|
 | **`A-1004`** successful legacy-protocol sign-in after failures | Valid Accounts, T1078 | High for credential use, low for actor identity |
 | **`E-2003`** Word launches encoded PowerShell | PowerShell, T1059.001 | High |
-| **`E-2005`** scheduled task starts a script | Scheduled Task/Job, T1053 | High |
-| **`E-2006` plus `D-3002`** process connects after name resolution | Application Layer Protocol or command channel behavior | Medium until payload or network content adds support |
+| **`E-2005`** scheduled task starts a script | Scheduled Task/Job: Scheduled Task, T1053.005 | High |
+| **`E-2006` plus `D-3002`** process connects after name resolution | Outbound network communication to a resolved destination | High for connection, unknown for application protocol or command purpose |
 | **`A-1005`** hidden mailbox rule | Email Collection or account manipulation behavior | Medium, review exact ATT&CK object and provider audit detail |
 
 **Do not force every event into ATT&CK.** Business context, incident impact, and response authority sit outside a technique map.

@@ -12,7 +12,7 @@ coverAlt: "Hardware inventory matched to model weights, context memory, and work
 coverCaption: "Lesson cover placeholder. Image generation follows editorial review."
 ---
 
-[Return to the Local AI Course](/local-ai-secure-server-course/)
+[Return to the Local AI Course](/local-ai-secure-server-course-start/)
 
 **Choose from your workload and memory limit.** A model name alone does not describe license, quantization, context cost, or runtime support.
 
