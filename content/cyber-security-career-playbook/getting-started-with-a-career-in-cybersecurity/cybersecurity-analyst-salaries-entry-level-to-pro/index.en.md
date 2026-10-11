@@ -1,70 +1,43 @@
 ---
-title: "Cybersecurity Analyst Salaries: Entry Level to Senior"
+title: "Cybersecurity Analyst Pay: 2025 U.S. BLS Data"
 draft: false
 toc: true
 date: 2023-06-08
-description: "Explore the salary ranges and factors influencing cybersecurity analyst salaries, from entry-level positions to seasoned professionals."
-tags: ["cybersecurity analyst salaries", "entry-level salaries", "pro salaries", "cybersecurity careers", "cybersecurity compensation", "experience and expertise", "education and certifications", "industry impact on salaries", "geographical location", "job responsibilities", "entry-level analysts", "mid-level analysts", "senior-level analysts", "career growth", "earning potential", "cybersecurity job market", "salary trends", "cybersecurity certifications", "IT occupations", "compensation factors", "cybersecurity industry", "salary ranges", "job market insights", "salary guide", "career advice", "salary trends in cybersecurity", "cybersecurity professionals", "security analyst positions", "cybersecurity job market analysis", "cybersecurity salary trends"]
+lastmod: 2026-10-10
+description: "Use dated U.S. BLS information security analyst pay data, compare local postings, and separate base pay from total compensation."
+tags: ["cybersecurity analyst pay", "information security analyst salary", "BLS wage data", "cybersecurity compensation", "security career research"]
 cover: "/img/cover/A_cartoon_image_depicting_a_cybersecurity_analyst_working_a.webp"
 coverAlt: "A cartoon image depicting a cybersecurity analyst working at a computer, surrounded by lock icons and data streams, symbolizing the importance of protecting digital assets and information."
 coverCaption: "A cartoon depiction of a cybersecurity analyst ensuring digital security, highlighting the critical role they play in safeguarding organizations from cyber threats."
 ---
-{{< readfile "content\cyber-security-career-playbook\getting-started-with-a-career-in-cybersecurity\cybersecurity-analyst-salaries-entry-level-to-pro\pageschema.html" >}}
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 
-**Cybersecurity Analyst Salaries: Entry Level to Pro**
+`Cybersecurity analyst` is a job title used for different duties. The closest federal occupation in many cases is **information security analyst**. Compare the work in a posting before applying occupation-level pay data to a role.
 
-## [Home](/cyber-security-career-playbook-start/)
+## Current U.S. Wage Data
 
-## Introduction
+The [U.S. Bureau of Labor Statistics (BLS) information security analyst profile](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm) reports the following annual wages for workers in that occupation in May 2025. These are U.S. wage percentiles for people already employed, not entry, mid, and senior salary bands.
 
-In today's digital age, **cybersecurity** plays a crucial role in protecting organizations from ever-evolving threats. As a result, the demand for skilled **cybersecurity analysts** continues to grow, making it an attractive career option for individuals interested in the field. However, one important aspect to consider when pursuing a career as a cybersecurity analyst is the **salary** range. In this article, we will explore the various factors that influence **cybersecurity analyst salaries**, from entry-level positions to seasoned professionals.
+| Measure | Annual wage, May 2025 |
+|---|---:|
+| Lowest 10% earned less than | $75,090 |
+| Median, half earned less and half earned more | $129,180 |
+| Highest 10% earned more than | $199,850 |
 
-## Factors Affecting Cybersecurity Analyst Salaries
+BLS projects 21% employment growth for this occupation from 2025 to 2035. The projection is national and covers all experience levels. It does not predict your local offer or a hiring outcome. A role titled SOC analyst, security engineer, or compliance analyst might map differently depending on its duties.
 
-Several factors contribute to the variation in **cybersecurity analyst salaries**. Understanding these factors can provide valuable insights into what to expect at different stages of one's career. Here are some of the key factors that influence **cybersecurity analyst salaries**:
+## Compare a Local Offer
 
-### 1. Experience and Expertise
+1. Read the posting's duties, location, experience requirements, work schedule, and clearance or licensing conditions.
+2. Use the BLS State & Area Data link on the occupation page to find a local wage estimate. Record the data year and geographic area.
+3. Compare several recent postings with similar duties. Note whether a range is base salary, hourly wage, or total compensation.
+4. Check bonus, equity, benefits, overtime status, shift work, on-call terms, and relocation costs separately.
+5. Ask the employer for the pay band and how the role progresses. Do not assume a certification or degree brings a fixed premium.
 
-Experience and expertise are critical determinants of **cybersecurity analyst salaries**. Entry-level analysts with limited experience may earn lower salaries compared to their more seasoned counterparts. As analysts gain experience and develop specialized skills in areas such as network security, cloud security, or incident response, their value to organizations increases, leading to higher compensation.### 2. Education and Certifications
+A national median covers workers across industries and experience levels. It is a poor substitute for a local, role-specific range. If your posting has no pay information, record that gap instead of treating an unsourced web estimate as an offer.
 
-The level of education and relevant certifications also impact **cybersecurity analyst salaries**. A bachelor's degree in **computer science**, **cybersecurity**, or a related field is often the minimum requirement for entry-level positions. However, earning advanced degrees, such as a master's degree or a Ph.D., can provide a competitive edge and potentially lead to higher-paying positions. Additionally, certifications such as [**CompTIA Security+**](https://simeononsecurity.com/articles/comptias-security-plus-sy0-601-what-do-you-need-to-know/), [**Certified Information Systems Security Professional (CISSP)**](https://simeononsecurity.com/articles/a-guide-to-earning-the-isc2-cissp-certification/), or [**Certified Ethical Hacker (CEH)**](https://simeononsecurity.com/articles/preparing-for-the-ceh-certified-ethical-hacker-certification-exam/) can enhance an analyst's marketability and salary potential.
+## Practice
 
-### 3. Industry and Organization Size
+Select two current information-security postings in the same region. Write down their duties, experience requirements, base pay disclosure, and non-base compensation. Compare each with the closest BLS local occupation data. Explain one reason the values differ and one question you would ask the employer.
 
-The industry in which a cybersecurity analyst works can significantly impact their salary. Sectors such as **finance**, **healthcare**, and **government** often offer higher salaries due to the sensitivity and criticality of the data they handle. Furthermore, the size of the organization can also play a role in salary discrepancies. Large organizations with extensive cybersecurity needs may have more budget allocated for cybersecurity roles, resulting in higher compensation packages.
-
-### 4. Geographical Location
-
-Geographical location is another factor that affects **cybersecurity analyst salaries**. Salaries can vary significantly based on the cost of living and the demand for cybersecurity professionals in a specific region. Metropolitan areas and tech hubs, such as **Silicon Valley** or **New York City**, tend to have higher salaries to compensate for the higher cost of living and fierce competition for skilled talent.
-
-### 5. Job Responsibilities
-
-The specific **job responsibilities** assigned to a cybersecurity analyst can impact their salary. Analysts who are responsible for managing complex security infrastructure, conducting vulnerability assessments, or leading incident response efforts may command higher salaries compared to those in more entry-level or support roles.
-
-## Cybersecurity Analyst Salary Ranges
-
-**Cybersecurity analyst salaries** can vary significantly depending on the factors discussed above. However, here is a general overview of the salary ranges across different career levels:
-
-### 1. Entry-Level Analyst
-
-Entry-level **cybersecurity analysts** typically earn an annual salary ranging from **$50,000 to $70,000**. These positions often require a bachelor's degree and may involve assisting more experienced analysts in monitoring network security, analyzing threats, and implementing basic security measures.
-
-### 2. Mid-Level Analyst
-
-Mid-level **cybersecurity analysts** with a few years of experience and additional certifications can expect to earn salaries between **$70,000 and $100,000** per year. They may be responsible for conducting security assessments, implementing security controls, and responding to security incidents under minimal supervision.
-
-### 3. Senior-Level Analyst
-
-Experienced **cybersecurity analysts** who have established a strong track record and possess advanced certifications can earn salaries exceeding **$100,000** per year. These professionals often hold leadership positions, oversee security operations, develop security strategies, and collaborate with other teams to ensure comprehensive protection against cyber threats.
-## Conclusion
-
-Cybersecurity analysts play a crucial role in safeguarding organizations from cyber threats. While salaries may vary based on factors such as experience, education, industry, location, and job responsibilities, the field offers promising career growth and earning potential. By continuously updating skills, pursuing relevant certifications, and gaining hands-on experience, cybersecurity analysts can position themselves for higher-paying roles in the industry.
-
-Remember, the figures mentioned in this article are general salary ranges, and actual salaries may vary based on numerous factors. It's always beneficial to conduct thorough research, explore job listings, and consult industry resources to gain a more accurate understanding of current salary trends in the cybersecurity field.
-
-## References
-
-1. U.S. Bureau of Labor Statistics: [Computer and Information Technology Occupations](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
-2. CompTIA Security+ Certification: [Official Website](https://www.comptia.org/certifications/security)
-3. Certified Information Systems Security Professional (CISSP): [Official Website](https://www.isc2.org/Certifications/CISSP)
-4. Certified Ethical Hacker (CEH): [Official Website](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+Continue with [Is Cybersecurity a Good Career?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/is-cybersecurity-a-good-career/) or [return to the playbook](/cyber-security-career-playbook-start/).

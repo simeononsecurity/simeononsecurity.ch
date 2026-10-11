@@ -1,43 +1,35 @@
 ---
-title: "The DoD 5220.22-M Data Sanitization Standard"
+title: "DoD 5220.22-M and Current Media Sanitization"
 date: 2023-02-12
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "The DoD 5220.22-M specification is a critical standard for securely erasing sensitive information from digital storage media, widely used by the U.S. military and government organizations."
-tags: ["Data sanitization", "secure erasure", "sensitive information", "data security", "digital storage media", "DoD 5220.22-M", "data protection", "data privacy", "information security", "data disposal", "data breach prevention", "data sanitization software", "digital security", "data destruction", "data management", "secure data erasure", "data recovery prevention", "cybersecurity", "data wiping", "information management", "secure disposal", "data destruction methods", "data sanitization process", "data overwrite", "data verification", "data sanitization standards", "data disposal best practices", "secure data disposal", "secure reuse", "data sanitization compliance", "secure data management"]
+description: "Understand the historical DoD overwrite label and choose current media-specific sanitization guidance."
+tags: ["cybersecurity career", "federal security", "security guidance"]
 cover: "/img/cover/An_image_of_a_hard_drive_being_securely_erased_using_data.webp"
-coverAlt: "An image of a hard drive being securely erased using data sanitization software, with a padlock or a shield symbolizing security in the foreground"
-coverCaption: ""
+coverAlt: "A hard drive and a data sanitization symbol."
+coverCaption: "Choose a current sanitization method"
 ---
 
-The **Department of Defense (DoD) 5220.22-M specification** is a data sanitization standard that outlines the process of securely erasing data from digital storage media. It is designed to ensure that sensitive information is not recoverable by unauthorized individuals. The specification covers a wide range of digital storage media, including **hard disk drives, solid-state drives, and removable media such as USB drives and floppy disks**.
+**DoD 5220.22-M is a historical National Industrial Security Program Operating Manual reference, not a current universal recipe for wiping media.** The NISPOM manual was replaced by [32 CFR Part 117](https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-D/part-117). Do not apply a generic three-pass overwrite rule to every disk, SSD, or USB drive. Use the current [NIST SP 800-88 Revision 2](https://csrc.nist.gov/pubs/sp/800/88/r2/final), organizational policy, and any governing classified-media requirements.
 
-## [Home](/cyber-security-career-playbook-start/)
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/).
 
-## What is the DoD 5220.22-M Specification?
+## Choose by Media and Destination
 
-The DoD 5220.22-M specification is a data sanitization standard that outlines the process of securely erasing data from digital storage media. It is designed to ensure that sensitive information is not recoverable by unauthorized individuals. The specification covers a wide range of digital storage media, including hard disk drives, solid-state drives, and removable media such as USB drives and floppy disks.
+First identify the device, its data classification, and whether it will be reused inside the organization, transferred outside, or destroyed. NIST describes Clear, Purge, and Destroy methods. The method must fit the storage technology and required protection level. A host overwrite may miss flash cells remapped by wear leveling. A vendor's sanitize command or cryptographic erase needs device support and validation. Physical destruction also needs a method suited to the media and a controlled chain of custody.
 
-The DoD 5220.22-M specification requires the use of a **multi-pass data sanitization process** to ensure that all data is securely erased. The first pass of the process overwrites the data with a series of zeros, the second pass overwrites the data with a series of ones, and subsequent passes overwrite the data with random patterns. This process makes it extremely difficult, if not impossible, for anyone to recover the data that was stored on the media.
+| Media | Question before choosing a method |
+|---|---|
+| Magnetic hard disk | Will the full addressable area and hidden areas be covered by the selected method? |
+| SSD or USB flash | Does the device support a trustworthy sanitize or cryptographic erase route? How will it be verified? |
+| Optical media | Is approved physical destruction the safer route for this medium and classification? |
+| Failed device | If commands cannot complete or be verified, should the device be destroyed under policy? |
 
-______
+## Record the Decision
 
-## Why is the DoD 5220.22-M Specification Important?
+A useful sanitization record names the asset ID, media type, model, serial, data sensitivity, destination, selected method, operator, tool or device command, verification result, validation decision, date, and disposition. If verification fails, quarantine the media and select another approved method. A completed command alone is not a certificate that no data is recoverable.
 
-The DoD 5220.22-M specification is important because it helps to protect sensitive information that is stored on digital storage media. The U.S. military and other government organizations often handle sensitive information that needs to be protected, such as **classified intelligence, personal information, and confidential financial data**. If this information were to fall into the wrong hands, it could have serious consequences, including national security threats, financial fraud, and identity theft.
+For practice, use fictional media records and write a decision for one HDD, one SSD, and one failed USB drive. Explain why the same overwrite command does not fit all three. Do not experiment on a real device containing needed data.
 
-The DoD 5220.22-M specification helps to prevent these types of scenarios by providing a standard for securely erasing sensitive information from digital storage media. This ensures that the information is not recoverable by unauthorized individuals and cannot be used for malicious purposes.
-
-______## How is the DoD 5220.22-M Specification Used?
-
-The DoD 5220.22-M specification is used by the U.S. military and other government organizations to ensure that sensitive information is securely erased from digital storage media before it is disposed of or reused. The specification is used by organizations to sanitize data from digital storage media that is being retired or decommissioned.
-
-To comply with the DoD 5220.22-M specification, organizations must use **data sanitization software** that is capable of performing the multi-pass data sanitization process outlined in the specification. The software must be able to overwrite the data on the media with a series of zeros, ones, and random patterns. The software must also be able to verify that the data has been securely erased.
-
-Organizations that use the DoD 5220.22-M specification must also **maintain records of the data sanitization process**, including the date and time that the process was performed, the type of media that was sanitized, and the method that was used. This information is important for auditing purposes and helps to ensure that the organization is in compliance with the DoD 5220.22-M specification.
-
-______
-
-## Conclusion
-
-The DoD 5220.22-M specification is a critical standard for data sanitization that is used by the U.S. military and other government organizations to protect sensitive information from falling into the wrong hands. The multi-pass data sanitization process outlined in the specification ensures that all data on digital storage media is securely erased and not
+Continue with the [NIST media sanitization guide in this playbook](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-800-88-ways-of-sanitizing-removable-media/).

@@ -1,82 +1,72 @@
 ---
-title: "Transitioning from IT to Cybersecurity"
+title: "How to Transition From IT to Cybersecurity"
 draft: false
 toc: true
 date: 2023-06-21
-description: "Learn how to successfully transition from IT to cybersecurity with our comprehensive step-by-step guide, ensuring a successful career switch."
-tags: ["transitioning", "IT to cybersecurity", "career switch", "step-by-step guide", "education", "experience", "skills", "certifications", "specialization", "professional networking", "cybersecurity community", "talent shortage", "high demand", "industry trends", "practical experience", "technical skills", "non-technical skills", "cybersecurity certifications", "online courses", "cybersecurity education", "transitioning to cybersecurity", "IT career transition", "cybersecurity skills", "cybersecurity job market", "cybersecurity training", "cybersecurity specialization", "cybersecurity professionals", "cybersecurity industry", "IT skills in cybersecurity", "cybersecurity career paths", "cybersecurity job opportunities"]
+lastmod: 2026-10-10
+description: "Map your IT work to a target security role, close one verified gap, and run a 90-day transition project with review gates."
+tags: ["IT to cybersecurity", "cybersecurity career transition", "transferable IT skills", "security portfolio", "career gap analysis"]
 cover: "/img/cover/A_cartoon_illustration_depicting_a_person_stepping_from_an.webp"
-coverAlt: "A cartoon illustration depicting a person stepping from an IT world to a cybersecurity world."
-coverCaption: "Level Up Your Career: Embrace the Cybersecurity Challenge!"
+coverAlt: "An IT worker mapping current skills to a cybersecurity role"
+coverCaption: "Use your existing work as evidence for a focused transition."
 ---
 
-## [Home](/cyber-security-career-playbook-start/)
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 
-**How to Transition from IT to Cybersecurity**
+An IT background often provides useful security evidence. A transition succeeds when you match **specific prior tasks** to a **specific target role** and close the remaining gaps.
 
-## Introduction
+## Map Your Starting Point
 
-Cybersecurity is an in-demand field that is becoming increasingly attractive to those already in information technology (IT). With a severe talent shortage in cybersecurity, experienced professionals are needed to fill the gap. This transition is natural as IT and cybersecurity are closely related fields, with a significant emphasis on security issues in many IT jobs. In this article, we will explore the steps to successfully transition from IT to cybersecurity, including the requirements, skills, and education needed to make the switch.
+| IT background | Transferable evidence | Security target |
+|---|---|---|
+| **Help desk** | Identity checks, endpoint triage, user communication, tickets | Security operations, identity, awareness |
+| **Systems administration** | Access, patching, logs, backup, change control | Security engineering, vulnerability management |
+| **Networking** | Packet flow, routing, segmentation, device logs | Network security, detection engineering |
+| **Software development** | Code review, tests, dependencies, deployment | Application security, product security |
+| **Audit or compliance** | Evidence, process review, exceptions, reporting | GRC, privacy, third-party risk |
+| **Military operations** | Procedures, mission risk, incident coordination, documentation | Security operations, risk, resilience |
 
-{{< youtube id="BKp2Q2bsBwE" >}}
+Do not rename ordinary IT tasks as security work. Explain the security decision, evidence, and result.
 
-## Requirements to Transition from IT to Cybersecurity
+## Build a Gap Matrix
 
-To transition from IT to cybersecurity, several requirements must be fulfilled. These requirements include **education**, **experience**, **skills**, and **certifications**.
+Collect ten current postings for one role and location. List repeated tasks. For each task, mark:
 
-### Education Requirements
+- **Proved:** You have a truthful artifact or work example.
+- **Practiced:** You completed a bounded lab but lack workplace evidence.
+- **Missing:** You lack both practice and evidence.
+- **Blocked:** The task requires employer access, licensing, clearance, or supervision.
 
-While a bachelor's degree in cybersecurity, computer science, or a related field is not compulsory, it can enhance your employability. An associate degree or online courses can also provide valuable education and certifications. Platforms like [Cybrary](https://www.cybrary.it/) offer accessible and affordable learning opportunities from industry experts, allowing you to acquire in-demand security skills.
+Choose one repeated missing task which fits a safe lab.
 
-### Experience Requirements
+## Run a 90-Day Plan
 
-Experience is critical in the cybersecurity field. Most entry-level cybersecurity positions require at least 3 to 5 years of experience. However, due to the skills gap, companies may be flexible with the experience requirements. Transitioning from IT to cybersecurity can provide an added advantage as general IT experience is still relevant. Internships and real-world experience through solving cybersecurity challenges independently or contributing to open-source projects can also help in gaining valuable experience.
+**Days 1 to 30:** Build one disposable lab or synthetic case. Save the starting state, actions, results, rollback, and limits.
 
-### Skills Requirements
+**Days 31 to 60:** Ask a practitioner or peer to review accuracy, safety, and clarity. Fix the artifact. Present the result in five minutes without tool jargon.
 
-Employers look for specific **technical** and **non-technical** skills in cybersecurity professionals. Technical skills include coding in programming languages, system and network configuration and administration, digital forensics, incident response, and more. Non-technical skills such as problem-solving, communication, teamwork, and attention to detail are also crucial in the field. Technical skills can be learned through education and practical experience, while interpersonal skills need to be developed personally.
+**Days 61 to 90:** Update your resume and apply to matched roles. Track posting, date, fit, response, interview stage, and feedback. Review results after 20 qualified applications.
 
-### Certification Requirements
+## Use an Internal Route
 
-Certifications play a significant role in validating your skills in the cybersecurity field. [CompTIA Security+](https://www.comptia.org/certifications/security) is a recommended certification for those transitioning from IT to cybersecurity. There are also specialized certifications available based on your chosen specialization in cybersecurity. Obtaining relevant certifications can enhance your credibility and increase your chances of being hired.
-## How to Transition From IT to Cybersecurity – Step-by-Step Guide
+If your employer has a security team, ask for a bounded task with a named reviewer. Examples include documenting a control, joining a tabletop, validating an asset record, or improving a ticket template. Respect data access and separation-of-duties rules.
 
-Transitioning from IT to cybersecurity requires a strategic approach. Follow these steps to successfully make the switch:
+## Transition Exercise
 
-1. **Choose a Cybersecurity Specialization**
-   - Choose a specialization within the broad field of cybersecurity that aligns with your current IT role and interests.
-   - This will help you focus your efforts and develop the necessary skills for your chosen cybersecurity path.
+Produce a two-page packet:
 
-2. **Audit Your Skill Sets and Fill Gaps**
-   - Evaluate your current skill set and identify areas where you need to acquire or refine skills for cybersecurity.
-   - Develop a strategy to address any skill gaps through further education, online courses, or cybersecurity bootcamps.
+1. One target role and ten-posting task count
+2. Five transferable tasks with evidence
+3. Three gaps and one selected practice task
+4. One artifact link or redacted excerpt
+5. One reviewer comment and your revision
+6. A 90-day application and review date
 
-3. **Get Cybersecurity Education**
-   - Pursue structured education in cybersecurity through degree programs, online courses, or bootcamps.
-   - Consider the time commitment and explore alternative options like online courses from trusted platforms.
-   - Hands-on training and practical experience through labs can help you learn effectively.
-
-4. **Gain Professional Experience**
-   - Obtain work experience in cybersecurity to prove your abilities and enhance your employability.
-   - Look for entry-level roles such as technical support, software development, or system administration.
-   - Leverage internships, join the cybersecurity department within your organization, or contribute to open-source projects.
-
-5. **Obtain Cybersecurity Certifications**
-   - Earn industry-recognized certifications to demonstrate your expertise and dedication to the field.
-   - **CompTIA Security+**, **CompTIA Network+**, and **Certified Information Systems Security Professional (CISSP)** are widely recognized certifications.
-   - Research and choose certifications that align with your chosen specialization and career goals.
-
-6. **Network and Engage with the Cybersecurity Community**
-   - Join professional cybersecurity organizations, attend industry conferences, and participate in online forums.
-   - Networking can provide valuable connections, mentorship opportunities, and exposure to the latest industry trends.
-
-## Conclusion
-
-Transitioning from IT to cybersecurity is an excellent career move due to the high demand, talent shortage, and higher salaries in the field. By fulfilling the education, experience, skills, and certification requirements, you can position yourself for a successful transition. Remember to choose a specialization, fill skill gaps, obtain education and certifications, gain practical experience, and engage with the cybersecurity community. With dedication and determination, you can embark on a rewarding career in cybersecurity.
+**Pass condition:** Every claimed skill points to evidence, the selected project matches a repeated task, and the plan avoids work which needs access or authority you do not hold.
 
 ## References
 
-- [Cybrary - Online Cybersecurity Learning Platform](https://www.cybrary.it/)
-- [CompTIA Security+ Certification](https://www.comptia.org/certifications/security)
-- [CompTIA Network+ Certification](https://www.comptia.org/certifications/network)
-- [Certified Information Systems Security Professional (CISSP)](https://www.isc2.org/Certifications/CISSP)
+- [NICE Framework current versions](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
+- [BLS Information Security Analysts](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+
+Continue with [Practical Cybersecurity Evidence](/cyber-security-career-playbook/getting-a-job-in-cyber-security/building-a-path-to-cybersecurity-and-the-benefit-of-practical-experience/).

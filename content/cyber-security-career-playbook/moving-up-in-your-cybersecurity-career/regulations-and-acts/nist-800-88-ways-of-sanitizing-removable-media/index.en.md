@@ -1,46 +1,41 @@
 ---
-title: "NIST Approved Methods for Sanitizing Removable Media Devices"
+title: "NIST SP 800-88 Rev. 2 Media Sanitization"
 date: 2023-02-11
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn about the NIST approved ways to sanitize hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks to protect sensitive data from unauthorized access."
-tags: ["NIST approved methods", "Sanitizing removable media", "Hard drives", "SSDs", "USB flash drives", "CDs", "DVDs", "Blu-ray disks", "Data security", "Protection of sensitive data"]
+description: "Choose Clear, Purge, or Destroy under NIST SP 800-88 Rev. 2, then verify, validate, and document disposition."
+tags: ["cybersecurity career", "federal security", "security guidance"]
 cover: "/img/cover/An_image_of_a_person_holding_a_USB_flash_drive_with_a_shreder.webp"
-coverAlt: "An image of a person holding a USB flash drive with a shredder in the background"
-coverCaption: ""
+coverAlt: "A USB storage device near a media shredder."
+coverCaption: "Plan media sanitization by device type"
 ---
 
-Removable media, such as hard drives, solid state drives (SSD), USB flash drives, CDs, DVDs, and Blu-ray disks, are an integral part of today's digital world. These devices are widely used for storing and transferring sensitive data, and it's crucial to ensure that the information contained in them is not leaked or accessed by unauthorized persons. In this article, we will discuss the NIST-approved ways of sanitizing all types of removable media.
+**NIST SP 800-88 Revision 2 is the current media sanitization guideline.** NIST published the final revision in September 2025. It supersedes Revision 1. The objective is to make access to target data infeasible for a given level of effort. Pick a method from the [current publication](https://csrc.nist.gov/pubs/sp/800/88/r2/final) for the media, data sensitivity, destination, and organizational policy.
 
-## [Home](/cyber-security-career-playbook-start/)
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/).
 
-## Why sanitize removable media?
+## Clear, Purge, and Destroy
 
-**Sanitizing removable media is essential because the data stored on these devices can be easily recovered, even if the data has been deleted.** This is because when data is deleted, only the reference to the data is removed, but the actual data remains on the disk until it is overwritten. This makes it possible for malicious actors to recover sensitive data using data recovery software.
+| Method | Purpose | Decision point |
+|---|---|---|
+| Clear | Protect against simple recovery through approved logical techniques | Does the method address the selected medium and its accessible storage? |
+| Purge | Apply a method with greater resistance to recovery, including suitable device commands or cryptographic erase | Does the device support the method, and can you validate it? |
+| Destroy | Make media unusable through an approved physical process | Does the destruction method fit the device and data classification? |
 
-## [NIST 800-88](https://simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/) Revision 1 Types Of Destruction
+Do not treat Purge as a fixed number of overwrite passes. Flash translation layers, spare blocks, and device firmware change what a host can reach. Do not assume that dropping an encryption key works unless the device encrypted all target data with suitable keys and the key sanitization process meets the policy.
 
-The National Institute of Standards and Technology (NIST) has published a guideline for sanitizing removable media, known as NIST Special Publication 800-88 Revision 1. The guideline outlines several methods for sanitizing removable media, including physical destruction, clearing, and purging.
+## Follow a Decision Record
 
-### Physical Destruction
+1. Inventory the device by asset ID, model, serial, type, capacity, and owner.
+2. Identify data sensitivity, retention duties, reuse or disposal destination, and any special rules.
+3. Select an approved method suited to the device. Record the tool, firmware, settings, and operator.
+4. Perform the method under a controlled procedure. Keep custody and error logs.
+5. Verify that the technique completed as intended, then validate that the result meets the selected protection level.
+6. Record the decision and disposition in a certificate or equivalent traceable record.
 
-**Physical destruction is the most secure method of sanitizing removable media.** This method involves physically destroying the device, making it impossible for anyone to recover any data from it. Physical destruction can be achieved by shredding, melting, or pulverizing the device.
+NIST separates verification of execution from validation of the overall sanitization result. A tool reporting success is evidence for a check, not the entire decision. If a device is damaged or the method fails, quarantine it and follow the approved alternate route.
 
-### Clearing
+## Practice Without Erasing a Device
 
-Clearing is the process of overwriting the data on a device with a series of binary values. This method is less secure than physical destruction but is still effective in sanitizing most removable media. [NIST 800-88](https://simeononsecurity.com/articles/nist-800-88-ways-of-sanitizing-removable-media/) Revision 1 recommends using a software tool that meets the standards set by the Department of Defense (DoD) [5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
-
-### Purging
-
-Purging is the process of overwriting the data on a device multiple times with a pattern of binary values. This method is more secure than clearing and is recommended for sanitizing sensitive data. NIST 800-88 Revision 1 recommends using a software tool that meets the standards set by the [DoD 5220.22-M](https://simeononsecurity.com/articles/dod-5220.22-m-data-sanitization-summarized/) specification.
-
-__________________________________________## Conclusion
-
-In conclusion, **sanitizing removable media is crucial to ensure that sensitive data stored on these devices is not leaked or accessed by unauthorized persons.** NIST 800-88 Revision 1 provides guidelines for sanitizing all types of removable media, including hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks, including physical destruction, clearing, and purging. **Physical destruction is the most secure method of sanitizing removable media, but clearing and purging are also effective methods that provide a high level of security.**
-
-**It's important to note that sanitizing removable media is only one aspect of a comprehensive data security strategy.** Other measures, such as encryption and secure data storage, should also be implemented to ensure the protection of sensitive data.
-
-## References
-
-- [NIST Special Publication 800-88 Revision 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)
-- [Department of Defense (DoD) 5220.22-M Specification](https://exwc.navfac.navy.mil/Portals/88/Documents/EXWC/DoD_Locks/PDFs/DODI-5220-22-C2.pdf)
+Use three fictional records: a reusable HDD with low-sensitivity lab data, an SSD leaving the organization with sensitive data, and an unreadable USB drive. For each, choose a candidate method and list the missing facts that would change your choice. Submit a completed decision record and a failure route. Have another learner identify the method from your recorded facts. The [historical DoD 5220.22-M page](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/dod-5220.22-m-data-sanitization-summarized/) explains why a legacy label does not replace this decision.

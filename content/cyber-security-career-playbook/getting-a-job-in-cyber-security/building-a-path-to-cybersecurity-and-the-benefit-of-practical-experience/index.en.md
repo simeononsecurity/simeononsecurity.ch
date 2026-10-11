@@ -1,44 +1,71 @@
 ---
-title: "Systems Administration and Practical Cybersecurity"
+title: "Turn IT Administration Work Into Cybersecurity Evidence"
 draft: false
 toc: true
 date: 2023-07-01
-description: "Gain insights into the role of systems administration and practical experience in building a successful career in cybersecurity."
-tags: ["cybersecurity", "systems administration", "practical experience", "networking administration", "cyber threats", "holistic perspective", "technical knowledge", "enterprise environments", "real-world operations", "cybersecurity professionals", "hands-on training", "skills development", "cyber defense", "cyber resilience", "career path", "cybersecurity job market", "transitioning to cybersecurity", "cybersecurity skills", "cybersecurity expertise", "systems management", "cybersecurity foundation", "cybersecurity challenges", "practical knowledge", "cybersecurity professionals", "building a cybersecurity career", "hands-on projects", "self-guided learning", "cybersecurity industry", "cybersecurity education", "cybersecurity workforce"]
+lastmod: 2026-10-10
+description: "Map IT administration tasks to security roles, complete a safe hardening project, and save evidence employers may review."
+tags: ["systems administration", "cybersecurity portfolio", "security hardening", "IT to cybersecurity", "practical experience"]
 cover: "/img/cover/A_symbolic_illustration_representing_cybersecurity_concepts.webp"
-coverAlt: "A symbolic illustration representing cybersecurity concepts and protection."
-coverCaption: "Secure your future in cybersecurity with systems administration and practical experience."
+coverAlt: "A systems administrator documenting security controls on a computer"
+coverCaption: "Turn operational work into clear security evidence."
 ---
 
-**Building a Path to Cybersecurity: The Role of Systems Administration and Practical Experience**
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 
-## [Home](/cyber-security-career-playbook-start/)
+Systems administration develops useful security habits. The value comes from **specific tasks and evidence**, not the job title by itself. Support, networking, software, audit, military, and business operations also offer valid entry routes.
 
-## Introduction
+## Map Tasks to Roles
 
-In today's digital landscape, **cybersecurity** has become a critical aspect of protecting organizations from **cyber threats**. As the demand for skilled **cybersecurity professionals** continues to rise, individuals are exploring various paths to enter the field. One intriguing approach involves combining **systems administration experience** with **practical hands-on training** in cybersecurity. This article explores the concept of gaining expertise in systems administration before transitioning into cybersecurity, highlighting the benefits and perspectives shared by industry enthusiasts.
+| Prior task | Security evidence | Related role family |
+|---|---|---|
+| **Manage accounts and groups** | Access review, least-privilege decision, exception record | Identity and access management |
+| **Patch systems** | Asset list, change ticket, test, rollback, verification | Security engineering or vulnerability management |
+| **Review logs** | Timeline, observation, hypothesis, escalation | Security operations or incident response |
+| **Configure networks** | Data flow, trust boundary, rule review | Network or cloud security |
+| **Back up and restore data** | Recovery test, result, gap, follow-up | Resilience or incident recovery |
+| **Support users** | Clear instructions, identity checks, safe escalation | Security awareness or operations |
 
-## The Value of Systems Administration
+## Complete a Safe Project
 
-Gaining expertise in **systems and networking administration** before entering the cybersecurity field offers valuable advantages. Understanding how systems are built and managed is crucial for effectively **breaking into and defending them**. Systems administration provides a **holistic perspective**, allowing individuals to comprehend the intricacies of security and make informed decisions. It cultivates essential skills that serve as a strong foundation for expertise in cybersecurity.
+Use an owned disposable Linux or Windows virtual machine. Keep the VM behind network address translation. Do not expose it to the public internet. Take a snapshot first.
 
-## The Path to Cybersecurity
+Create a **hardening change record** with these fields:
 
-Transitioning from systems administration to cybersecurity opens up exciting opportunities. A **comprehensive understanding of systems administration** provides a solid base for expertise in cybersecurity. It offers insights that cannot be easily obtained through alternative routes. By combining technical knowledge with a deep understanding of systems, individuals can tackle the diverse challenges and complexities of cybersecurity effectively.
+1. Asset purpose and starting state
+2. One selected control, such as removing an unused local account or disabling an unused service
+3. Risk addressed
+4. Exact change
+5. Before and after evidence
+6. Service or login test
+7. Rollback command or snapshot name
+8. Remaining limitation
 
-## Balancing Experience and Practical Knowledge
+Test a denied case. For example, confirm the removed account no longer authenticates or the disabled service no longer listens. Then confirm the intended user or service still works.
 
-Gaining practical cybersecurity skills through independent, hands-on work is invaluable. Setting up simulated environments, performing manual attacks, and documenting incident response are excellent ways to enhance practical knowledge. However, it is important to acknowledge that **real-world business operations** and user-generated challenges found in enterprise environments provide unique experiences. Striking a balance between practical experience and exposure to enterprise environments is key to becoming a well-rounded cybersecurity professional.
+**Pass condition:** Another learner should identify the asset, repeat the change on a fresh VM, observe the expected allowed and denied results, and restore the starting state from your record.
 
-## Finding a Middle Ground
+## Publish Safe Evidence
 
-The cybersecurity job market is evolving, with increasing value placed on practical experience. While there are alternative paths to success in cybersecurity, a comprehensive understanding of systems administration can provide a strong foundation. Recognizing and evaluating the skills gained through self-guided learning and hands-on projects outside traditional work environments is crucial. Finding a middle ground between practical experience and a solid understanding of systems administration can help individuals excel in the dynamic field of cybersecurity.
+Remove usernames, internal addresses, tokens, customer data, employer names, and unique infrastructure details. Use reserved example addresses or synthetic data. State where the result came from and which parts are illustrative.
 
-## Conclusion
+Your portfolio entry should include:
 
-Combining systems administration experience with practical hands-on training in cybersecurity can be a powerful way to build a successful career in this field. The value of systems administration lies in its ability to provide a holistic perspective and essential skills that complement expertise in cybersecurity. By striking a balance between practical experience and a comprehensive understanding of systems administration, individuals can thrive in the ever-changing landscape of cybersecurity.
+- A short problem statement
+- The starting state
+- The change and reason
+- Evidence of the expected result
+- One failed attempt or rejected option
+- Rollback and cleanup
+- Limits and next step
+
+## Next Step
+
+Compare your artifact with three target job postings. Mark each repeated task as demonstrated, partly demonstrated, or missing. Choose the next project from a repeated missing task.
 
 ## References
 
-1. [Systems Administration: Definition and Skills](https://en.wikipedia.org/wiki/System_administrator)
-2. [Cybersecurity: Best Practices](https://www.cisa.gov/cybersecurity)
+- [NICE Framework current versions](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework)
+
+Use the result in the [Cybersecurity Resume Guide](/cyber-security-career-playbook/getting-a-job-in-cyber-security/resume-writing-tips-for-cybersecurity-professionals/).

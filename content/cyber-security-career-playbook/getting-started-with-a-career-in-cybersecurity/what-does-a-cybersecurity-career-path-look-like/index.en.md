@@ -1,89 +1,55 @@
 ---
-title: "The Cybersecurity Career Path"
+title: "What Does a Cybersecurity Career Path Look Like?"
 draft: false
 toc: true
 date: 2023-06-06
-description: "Discover the path to a successful cybersecurity career, including skills required, various job roles, and opportunities for advancement."
-tags: ["cybersecurity career", "cybersecurity job roles", "cybersecurity skills", "career progression", "cybersecurity demand", "cybersecurity education", "cybersecurity certifications", "networking in cybersecurity", "continuous learning", "cybersecurity trends", "cybersecurity industry", "technical knowledge", "programming skills", "risk assessment", "communication skills", "ethical hacking", "security analyst", "security engineer", "security consultant", "security architect", "cybersecurity specialist", "security manager", "CISO", "cybersecurity regulations", "cybersecurity job market", "starting a cybersecurity career", "cybersecurity qualifications", "cybersecurity experience", "professional associations in cybersecurity", "cybersecurity networking", "latest cybersecurity trends"]
+lastmod: 2026-10-10
+description: "Build a branching cybersecurity career path with entry points, lateral moves, technical and management routes, milestones, and review dates."
+tags: ["cybersecurity career path", "security career progression", "cybersecurity roles", "technical career track", "career planning"]
 cover: "/img/cover/A_cartoon_illustration_of_a_person_in_a_superhero_costume.webp"
-coverAlt: "A cartoon illustration of a person in a superhero costume with a shield and lock symbols, representing cybersecurity."
-coverCaption: "Embark on a cybersecurity career path and become a digital defender."
+coverAlt: "A cybersecurity professional choosing among branching technical and management paths"
+coverCaption: "Cybersecurity careers branch through skills and responsibilities."
 ---
 
-**What Does a Cybersecurity Career Path Look Like?**
+[Return to the Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 
-Cybersecurity has become an increasingly important field in today's digital world. With the rise of cyber threats and the need to protect sensitive information, **cybersecurity professionals** play a vital role in safeguarding data and systems. If you're considering a career in cybersecurity, it's important to understand what the career path looks like and the steps you can take to enter this exciting field.
+Cybersecurity careers branch. They do not require one analyst-to-manager ladder. People enter from IT support, systems, networking, software, audit, privacy, military service, operations, education, and other fields.
 
-## [Home](/cyber-security-career-playbook-start/)
+## Common Routes
 
-## Introduction
+| Starting evidence | Near-term route | Later branches |
+|---|---|---|
+| **Endpoint and user support** | Security operations or identity support | Incident response, detection, identity engineering |
+| **Systems and networks** | Security engineering or vulnerability management | Architecture, cloud security, technical leadership |
+| **Software development** | Application or product security | Security architecture, research, engineering leadership |
+| **Audit, policy, or risk** | GRC or third-party risk | Privacy, assurance, risk leadership |
+| **Industrial operations** | OT asset or network support | OT security engineering, architecture, program leadership |
 
-In this article, we will explore the various aspects of a cybersecurity career path. We will discuss the skills and qualifications required, different job roles within the field, and the potential career progression options available. Additionally, we will provide insights into the current demand for cybersecurity professionals and the necessary steps to embark on this career journey.
+Individual contributors often advance without becoming people managers. Senior technical routes include principal engineering, architecture, research, detection, product security, and specialist consulting. Management adds staffing, performance, budget, service ownership, and organizational decisions.
 
-{{< youtube id="bMHd4qS2o2w" >}}
+## Build a Two-Year Map
 
-## Skills and Qualifications
+Choose one target role for the next 12 months and one adjacent route for months 13 to 24.
 
-A successful cybersecurity career requires a combination of technical skills, analytical thinking, and a strong understanding of information security principles. Some of the key skills and qualifications desired in this field include:
+Record:
 
-1. **Technical Knowledge**: Proficiency in areas such as network security, cryptography, penetration testing, and vulnerability assessment is essential for a cybersecurity professional.
+1. Five repeated tasks from ten dated postings
+2. Current evidence for each task
+3. One project, work assignment, or course for each missing task
+4. A reviewer or mentor
+5. A portfolio milestone
+6. Work-condition constraints such as on-call, travel, clearance, location, or accessibility
+7. A review date every 90 days
 
-2. **Programming and Scripting**: Familiarity with programming languages like Python, Java, and scripting languages like PowerShell can be valuable in performing security assessments and developing security tools.
+## Decision Points
 
-3. **Risk Assessment and Management**: The ability to identify and assess potential risks, and develop strategies to mitigate them, is crucial in ensuring the security of an organization's systems and data.
+Review the path when your work preferences, health, family needs, location, employer access, or role data changes. A lateral move is progress when it builds the work you want.
 
-4. **Communication and Collaboration**: Strong communication skills are essential to effectively convey security risks and recommendations to stakeholders. Collaboration with different teams is also important for a holistic approach to cybersecurity.
+**Pass condition:** The map uses current postings, names two routes, links each milestone to evidence, includes one work-condition constraint, and sets four review dates.
 
-5. **Continuous Learning**: Given the ever-evolving nature of cybersecurity threats, a commitment to continuous learning is vital. Staying updated with the latest trends and technologies is crucial for a successful cybersecurity career.## Job Roles in Cybersecurity
+## References
 
-The field of cybersecurity offers a wide range of job roles, each with its own specific responsibilities and requirements. Here are a few prominent roles in the cybersecurity industry:
+- [NICE Framework current versions](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/nice-framework-current-versions)
+- [BLS Information Security Analysts](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
 
-1. **Security Analyst**: Security analysts monitor and analyze systems for vulnerabilities and security breaches. They are responsible for investigating incidents, implementing security measures, and maintaining security tools.
-
-2. **Ethical Hacker**: Ethical hackers, also known as penetration testers, identify vulnerabilities in systems and networks by simulating cyber attacks. They help organizations identify weak points and provide recommendations to enhance security.
-
-3. **Security Engineer**: Security engineers design and implement secure systems and networks. They work on the technical aspects of cybersecurity, such as configuring firewalls, implementing intrusion detection systems, and conducting security audits.
-
-4. **Security Consultant**: Security consultants provide expert advice and guidance to organizations regarding their security posture. They assess risks, develop security strategies, and assist in policy development and compliance.
-
-5. **Security Architect**: Security architects design and build secure systems and networks from the ground up. They ensure that security controls and mechanisms are integrated into the architecture of an organization's infrastructure.
-
-## Career Progression
-
-The cybersecurity career path offers numerous opportunities for growth and advancement. As professionals gain experience and expertise, they can explore higher-level roles and responsibilities. Here are some potential career progression options:
-
-1. **Cybersecurity Specialist**: After gaining experience in a specific domain of cybersecurity, professionals can become specialists in areas such as cloud security, network security, or incident response.
-
-2. **Security Manager**: Security managers oversee a team of cybersecurity professionals and are responsible for developing and implementing security strategies, managing incidents, and ensuring compliance with regulations.
-
-3. **Chief Information Security Officer (CISO)**: CISOs are senior-level executives responsible for the overall cybersecurity strategy of an organization. They collaborate with other business units, manage budgets, and ensure alignment with industry regulations and best practices.
-
-### Cyber Security Career Roadmap Chart
-This graph, made by [Paul Jerimy](https://pauljerimy.com/), outlines Cyber Security and IT Career Paths as aligned with the [NICE CyberSecurity Workforce Framework Work Roles](/cyber-security-career-playbook/moving-up-in-your-cybersecurity-career/regulations-and-acts/nist-sp-800-181-workforce-framework-for-cybersecurty-and-the-dod-dcwf/).
-{{< figure src="SecCareerRoadmap2022.webp" alt="Cyber Security Career Roadmap 2022" link="https://pauljerimy.com/it-career-roadmap/" >}}
-
-## Current Demand and Future Outlook for Cybersecurity Professionals
-
-The demand for cybersecurity professionals is witnessing substantial growth as organizations increasingly prioritize safeguarding their digital assets. According to data from the Bureau of Labor Statistics (BLS), the number of cybersecurity job openings has experienced a significant 35% increase in the past year. This trend is projected to continue, driven by the escalating sophistication of cyber threats.
-
-Government regulations and industry standards also exert a significant influence on the demand for cybersecurity professionals. For example, specific government regulations outlined on the BLS website mandate organizations to implement robust cybersecurity measures and employ qualified professionals to ensure compliance.
-
-## Getting Started in Cybersecurity
-
-To begin a career in cybersecurity, here are some steps you can take:
-
-1. [**Education and Certification**](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/cybersecurity-training-online-programs-video-courses-and-books/): Pursue a degree or certification in cybersecurity or a related field. Many institutions offer comprehensive programs to help individuals develop the necessary skills and knowledge.
-
-2. **Gain Practical Experience**: Internships, part-time jobs, or volunteering in cybersecurity roles can provide valuable hands-on experience and exposure to real-world scenarios.
-
-3. **Networking and Professional Associations**: Join cybersecurity-focused professional associations, attend industry events, and connect with professionals already working in the field. Building a strong network can lead to valuable opportunities and insights.
-
-4. **Continuous Learning**: Stay updated with the latest trends, technologies, and industry developments through online courses, conferences, and industry publications. Continuously improving your skills will enhance your chances of success in the cybersecurity field.
-
-
-
-
-
-## Conclusion
-
-A career in cybersecurity offers exciting opportunities to protect organizations from cyber threats and contribute to a safer digital world. By acquiring the necessary skills, gaining practical experience, and staying updated with the latest trends, you can embark on a successful cybersecurity career path. Remember, cybersecurity is a dynamic field, and continuous learning and adaptation are key to staying ahead.
+Compare daily outputs in [What Do Cybersecurity Professionals Do?](/cyber-security-career-playbook/getting-started-with-a-career-in-cybersecurity/what-does-a-cybersecurity-expert-do/).
