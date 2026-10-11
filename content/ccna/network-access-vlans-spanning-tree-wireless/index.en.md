@@ -3,7 +3,7 @@ title: "Cisco CCNA (200-301): Network Access"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Build CCNA v1.1 VLANs and trunks in Packet Tracer, inspect STP and LACP, and diagnose a native VLAN mismatch with recorded evidence."
+description: "Build CCNA v1.1 VLANs and trunks in Packet Tracer, inspect STP and LACP, and diagnose a native VLAN mismatch with recorded before and after evidence."
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking", "Switching", "VLANs", "Spanning Tree", "Wireless", "Cisco Certification", "Network Access", "EtherChannel", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "VLANs", "trunking", "802.1Q", "EtherChannel", "LACP", "spanning tree", "Rapid PVST+", "PortFast", "CDP", "LLDP", "wireless", "WLC", "access points", "network access"]

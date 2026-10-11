@@ -4,7 +4,7 @@ date: 2025-01-01
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Practice CCNA v1.1 subnetting, packet paths, MAC learning, IPv4 and IPv6 addressing with a worked Packet Tracer checkpoint."
+description: "Practice CCNA v1.1 subnetting, packet paths, MAC learning, and IPv4 and IPv6 addressing with a worked Packet Tracer checkpoint and answer key."
 genre: ["Cisco CCNA Course", "Networking", "Network Fundamentals", "Switching", "IP Addressing", "Wireless", "Cisco Certification", "Routing and Switching", "Network Architecture", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "network fundamentals", "OSI model", "TCP", "UDP", "IPv4", "IPv6", "subnetting", "switching", "MAC address table", "wireless", "virtualization", "network components", "topologies"]
 cover: "/img/cover/cisco-ccna-network-fundamentals-topology-components.webp"

@@ -3,7 +3,7 @@ title: "Cisco CCNA 200-301 v1.1 Course and Lab Guide"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Build a six-stage Packet Tracer lab for CCNA 200-301 v1.1. Verify subnetting, VLANs, OSPF, NAT, access controls, and automation evidence."
+description: "Build a six-stage Packet Tracer lab for CCNA 200-301 v1.1. Verify subnetting, VLANs, OSPF, NAT, access controls, automation, and fault recovery."
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking Certification", "Network Fundamentals", "Routing and Switching", "Network Security", "Cisco Certification", "IP Connectivity", "Network Automation", "Wireless Networking", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "networking", "routing", "switching", "OSPF", "VLANs", "spanning tree", "subnetting", "IPv4", "IPv6", "NAT", "DHCP", "DNS", "ACLs", "network security", "wireless", "automation", "Ansible", "SDN", "Cisco certification"]

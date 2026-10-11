@@ -3,7 +3,7 @@ title: "Cisco CCNA (200-301): Automation and Programmability"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Learn CCNA v1.1 automation, network AI, REST authentication, Ansible, Terraform, and JSON through a worked change review."
+description: "Read local HTTP and JSON responses, review a CCNA v1.1 network change, and practice optional Ansible check mode without touching a live device."
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking", "Network Automation", "Programmability", "SDN", "REST APIs", "Cisco Certification", "Infrastructure as Code", "DevNet", "IT Networking"]
 tags: ["Cisco CCNA", "200-301 v1.1", "network automation", "network AI", "machine learning", "REST API authentication", "Ansible", "Terraform", "JSON", "cloud managed networking"]
@@ -97,6 +97,39 @@ A team wants a new VLAN in a lab. Its proposed automation change declares VLAN 2
 5. Record any mismatch, rollback action, and final state. A successful playbook run without device verification is incomplete evidence.
 
 **Self-check:** Explain which part of the example is a desired-state description, which part is an API or device operation, and which observed output proves the VLAN exists. Passing work names all three and keeps credentials out of the saved record. Review the [Cisco v1.1 release notes](https://learningcontent.cisco.com/documents/marketing/exam-topics/CCNA_1_1_release_notes.pdf) to distinguish current objectives from older Puppet and Chef examples.
+
+## Lab 6: Read a Local API-Like Resource and Review a Change
+
+The Packet Tracer topology does not expose a stable management REST API. Use a local read-only HTTP exercise to learn the request, response, JSON, and authentication boundary without implying that a network device changed. Save this synthetic file as `device.json` in a disposable folder:
+
+```json
+{"device":"R1","interface":"g0/1","admin_up":true,"errors":0}
+```
+
+From that folder, start `python3 -m http.server 8765 --bind 127.0.0.1`. In a second terminal run `curl -i http://127.0.0.1:8765/device.json`. You should see HTTP `200` and the JSON body. Run `curl -i http://127.0.0.1:8765/missing.json`; expect `404`. End the server with Ctrl+C. The local file server has no authentication and no write API. Never expose it to a network or mistake it for a Cisco controller. A `401` from a real API means missing or invalid authentication; stop and check authorized access instead of placing a token in a URL.
+
+Parse the saved JSON with `python3 -c 'import json; d=json.load(open("device.json")); print(d["device"], d["errors"])'`. Expected output is `R1 0`. State what `admin_up` means in the example and what it does not prove. A saved response is a snapshot, not live interface evidence.
+
+For a change-plan exercise, write a desired state `VLAN 20 GUEST` and compare it with the actual `show vlan brief` output from your saved Packet Tracer project. List the proposed add, any unrelated deletion, approval owner, rollback, and post-change command. Do not apply a suggested command until the planned device and port are in scope. After an authorized simulator change, run `show vlan brief` again and keep the before and after outputs.
+
+If Ansible is installed, practice its check mode only against your own local test file. Save this as `local-plan.yml`:
+
+```yaml
+- name: Review a local VLAN note
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Record the proposed VLAN
+      ansible.builtin.copy:
+        content: "VLAN 20 GUEST\n"
+        dest: "{{ playbook_dir }}/vlan-plan.txt"
+        mode: "0644"
+```
+
+Run `ansible-playbook -i localhost, local-plan.yml --check --diff`. Check mode reports the proposed change without writing the file. In a disposable folder, run the same command without `--check` to create the note, then run it again. The second run should report no change. Remove the note when done. This tests local file idempotence, not network-device idempotence. If Ansible is unavailable, mark that optional check `not run` and use the written change plan for the core checkpoint. See [Ansible's check and diff mode documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_checkmode.html).
+
+Your checkpoint is two HTTP statuses, parsed JSON output, a reviewed VLAN change plan, and the observed VLAN result. Pass when you distinguish a read response, a proposed configuration, an approved write, and a device read-back. Record which optional parts were not run. The [Cisco CCNA v1.1 topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf) define the exam scope.
 
 ## Next Steps
 

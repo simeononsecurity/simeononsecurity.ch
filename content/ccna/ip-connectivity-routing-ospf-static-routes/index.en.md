@@ -4,7 +4,7 @@ date: 2025-01-01
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Configure a two-router CCNA v1.1 lab, test longest-prefix routing, verify OSPF neighbors, and diagnose one controlled failure."
+description: "Configure a two-router CCNA v1.1 lab, test longest-prefix routing and OSPF neighbors, then diagnose and repair one controlled link failure."
 genre: ["Cisco CCNA Course", "Networking", "Routing", "OSPF", "Static Routing", "IP Connectivity", "Cisco Certification", "Routing and Switching", "Network Architecture", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "IP connectivity", "routing table", "static routing", "default route", "floating static", "OSPFv2", "neighbor adjacencies", "DR", "BDR", "router ID", "first hop redundancy", "administrative distance"]
 cover: "/img/cover/cisco-ccna-routing-ip-connectivity-illustration.webp"

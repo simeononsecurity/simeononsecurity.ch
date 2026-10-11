@@ -4,7 +4,7 @@ date: 2025-01-01
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Configure and verify CCNA v1.1 NAT and DHCP in a two-router lab, then assess time, logging, SSH, and QoS evidence."
+description: "Configure and verify CCNA v1.1 NAT and DHCP in a two-router lab, then assess time synchronization, logging, SSH, and QoS with bounded evidence."
 genre: ["Cisco CCNA Course", "Networking", "IP Services", "NAT", "DHCP", "QoS", "Cisco Certification", "Network Operations", "Network Management", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "IP services", "NAT", "PAT", "NTP", "DHCP", "DNS", "SNMP", "syslog", "QoS", "per-hop behavior", "SSH", "TFTP", "FTP", "remote access"]
 cover: "/img/cover/cisco-ccna-ip-services-network-management.webp"

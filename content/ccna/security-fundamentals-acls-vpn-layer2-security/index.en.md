@@ -3,7 +3,7 @@ title: "Cisco CCNA (200-301): Security Fundamentals"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Apply a named CCNA v1.1 ACL in a disposable lab, test allowed and denied flows, and assess switch, AAA, and wireless safeguards."
+description: "Apply a named CCNA v1.1 ACL in a disposable lab, test allowed and denied flows, then assess switch, AAA, and wireless safeguards and rollback."
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking", "Network Security", "Access Control Lists", "VPN", "Layer 2 Security", "Cisco Certification", "Wireless Security", "AAA", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "security fundamentals", "ACLs", "VPN", "IPsec", "DHCP snooping", "dynamic ARP inspection", "port security", "AAA", "WPA2", "WPA3", "device access control", "MFA"]
