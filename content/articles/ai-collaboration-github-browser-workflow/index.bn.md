@@ -65,7 +65,7 @@ Exclusions: production data, backups, legal holds
 Known evidence: supplied lab baseline files
 Missing evidence: current main commit, owner decisions, runtime deletion result
 Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs the consistency check
+Next role: maintainer supplies verified main commit and runs checks
 ```
 
 **এটি একটি সম্পূর্ণ draft request।** Missing-evidence line ইচ্ছাকৃত। Publication চাওয়ার আগে supplied lab baseline-এর বদলে live sandbox revision দিন।

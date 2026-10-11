@@ -65,7 +65,7 @@ Exclusions: production data, backups, legal holds
 Known evidence: supplied lab baseline files
 Missing evidence: current main commit, owner decisions, runtime deletion result
 Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs the consistency check
+Next role: maintainer supplies verified main commit and runs checks
 ```
 
 **Das Paket ist eine vollständige Anfrage als Entwurf.** Die Zeile mit den fehlenden Nachweisen ist absichtlich enthalten. Ersetze die bereitgestellte Laborbasis durch Live-Sandbox-Revisionen, bevor du um Veröffentlichung bittest.

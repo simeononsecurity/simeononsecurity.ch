@@ -65,7 +65,7 @@ Exclusions: production data, backups, legal holds
 Known evidence: supplied lab baseline files
 Missing evidence: current main commit, owner decisions, runtime deletion result
 Status: Draft, publication blocked until current revisions and reviews exist
-Next role: maintainer supplies verified main commit and runs the consistency check
+Next role: maintainer supplies verified main commit and runs checks
 ```
 
 **El paquete es una solicitud de borrador completa.** La línea de evidencia ausente es intencional. Sustituye la base de laboratorio proporcionada por revisiones actuales del sandbox antes de pedir la publicación.
