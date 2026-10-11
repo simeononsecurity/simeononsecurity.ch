@@ -3,7 +3,7 @@ title: "Cisco CCNA (200-301): Network Access"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Practice CCNA v1.1 VLANs, trunks, Rapid PVST+ guards, EtherChannel, and device management access."
+description: "Build CCNA v1.1 VLANs and trunks in Packet Tracer, inspect STP and LACP, and diagnose a native VLAN mismatch with recorded evidence."
 lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking", "Switching", "VLANs", "Spanning Tree", "Wireless", "Cisco Certification", "Network Access", "EtherChannel", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "VLANs", "trunking", "802.1Q", "EtherChannel", "LACP", "spanning tree", "Rapid PVST+", "PortFast", "CDP", "LLDP", "wireless", "WLC", "access points", "network access"]
@@ -98,6 +98,34 @@ Use two lab switches and one test host. Keep the lab separate from a production 
 5. Compare local HTTPS or SSH management with any available cloud management option. Record which identity grants access and which path stops working when management connectivity is removed.
 
 **Pass condition:** Your diagram matches the observed root and port roles. Both switches carry VLAN 10, the guarded lab port reacts to an unexpected BPDU, and your evidence identifies the tested management path. If the simulator lacks a guard or cloud feature, mark that row untested and use Cisco's [v1.1 exam topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf) for a separate concept check.
+
+## Lab 2: Build the VLAN Paths
+
+Continue the [course topology](/ccna-start/). On both switches create VLAN 10 `STAFF`, VLAN 20 `GUEST`, and VLAN 99 `NATIVE`. Configure PC-A's S1 access port for VLAN 10 and PC-B's S2 access port for VLAN 20. Adapt interface names to your model.
+
+```text
+S1(config)# vlan 10
+S1(config-vlan)# name STAFF
+S1(config)# vlan 20
+S1(config-vlan)# name GUEST
+S1(config)# vlan 99
+S1(config-vlan)# name NATIVE
+S1(config)# interface f0/1
+S1(config-if)# switchport mode access
+S1(config-if)# switchport access vlan 10
+S1(config)# interface range g0/1 - 2
+S1(config-if-range)# switchport mode trunk
+S1(config-if-range)# switchport trunk native vlan 99
+S1(config-if-range)# switchport trunk allowed vlan 10,20,99
+```
+
+Repeat the three VLAN definitions on S2. On S2 set `f0/1` as access VLAN 20 and `g0/1` as a trunk with native VLAN 99 and allowed VLANs 10,20,99. S1 `g0/1` faces R1, and S1 `g0/2` faces S2. On each switch collect `show vlan brief`, `show interfaces trunk`, and `show spanning-tree vlan 10`. The access ports should appear in the chosen VLANs. Both ends of the S1-S2 trunk should name native VLAN 99. STP selects a root bridge by bridge ID; record the actual root and port roles rather than assuming S1 wins.
+
+In a saved copy, change only S2's trunk native VLAN to 1. Record the CDP or trunk warning if your simulator shows one and compare `show interfaces trunk` on both ends. Restore VLAN 99. A native mismatch can misdirect untagged frames. Do not leave the fault in your clean project.
+
+For an optional EtherChannel extension, disconnect the original S1-S2 `g0/2` to `g0/1` link. Add two spare parallel links, configure both ends in the same trunk mode and VLAN set, then use `channel-group 1 mode active`. Verify `show etherchannel summary` shows bundled ports. If your selected switch lacks spare compatible ports, use the command output as a reading exercise and mark the configuration `not run`. A mismatch in one member's trunk settings prevents a sound bundle.
+
+Your checkpoint is the port map, three command outputs, one injected mismatch symptom, the repair command, and the final native VLAN on both ends. Pass when PC-A stays in VLAN 10, PC-B stays in VLAN 20, the trunk agrees at both ends, and you explain the observed STP root and port roles. Wireless controller GUI configuration is exam theory in this topology because no WLC is included. Use Cisco's [CCNA v1.1 topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf) for that scope.
 
 ## Next Steps
 

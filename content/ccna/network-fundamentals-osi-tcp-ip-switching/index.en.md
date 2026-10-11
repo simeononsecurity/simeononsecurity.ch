@@ -1,9 +1,10 @@
 ---
 title: "Cisco CCNA (200-301): Network Fundamentals"
 date: 2025-01-01
+lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Master network fundamentals for the Cisco CCNA 200-301 exam. Learn network components, topologies, cabling, TCP and UDP, IPv4 and IPv6 addressing, wireless principles, and switching concepts."
+description: "Practice CCNA v1.1 subnetting, packet paths, MAC learning, IPv4 and IPv6 addressing with a worked Packet Tracer checkpoint."
 genre: ["Cisco CCNA Course", "Networking", "Network Fundamentals", "Switching", "IP Addressing", "Wireless", "Cisco Certification", "Routing and Switching", "Network Architecture", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "network fundamentals", "OSI model", "TCP", "UDP", "IPv4", "IPv6", "subnetting", "switching", "MAC address table", "wireless", "virtualization", "network components", "topologies"]
 cover: "/img/cover/cisco-ccna-network-fundamentals-topology-components.webp"
@@ -63,7 +64,7 @@ You must configure and verify **IPv4 addressing and subnetting**. Private ranges
 | B | 172.16.0.0/12 |
 | C | 192.168.0.0/16 |
 
-**IPv6** solves address exhaustion with 128-bit addresses. Know these types:
+**IPv6** uses 128-bit addresses and supports a much larger address space. Know these types:
 
 - **Global unicast** is routable on the internet.
 - **Unique local** is private, similar to RFC 1918.
@@ -84,7 +85,7 @@ A switch builds a **MAC address table** by learning the source MAC of every fram
 
 - **MAC learning** records which port reaches each MAC address.
 - **Aging** removes stale entries after a timeout.
-- **Frame flooding** sends unknown unicast, broadcast, and multicast frames out all ports.
+- **Frame flooding** sends unknown unicast and broadcast traffic out other ports in the same VLAN. Multicast forwarding depends on switch features and group membership.
 
 ```text
 ! View the MAC address table
@@ -94,6 +95,18 @@ Switch# show mac address-table
 ## Wireless and Virtualization
 
 Wireless networks use **nonoverlapping channels** (1, 6, and 11 on 2.4 GHz) to avoid interference. An **SSID** names the network, and encryption protects the air. **Virtualization** runs many servers on one host, while **containers** package apps lightly, and **VRFs** create separate routing tables on one router.
+
+## Lab 1: Address and Predict a Packet Path
+
+Use the [course topology](/ccna-start/) before configuring the routers. In Packet Tracer, place and cable PC-A, S1, S2, PC-B, R1, R2, and SRV1. Save a clean copy. The later lessons enable VLANs and routing. For now, set PC-A to `10.10.10.10/24` with gateway `10.10.10.1` and PC-B to `10.10.20.10/24` with gateway `10.10.20.1` in Desktop > IP Configuration. Enter SRV1 as `198.51.100.10/24`, gateway `198.51.100.1`. A failed ping before the gateways are configured is expected, not a completed network test.
+
+Work a subnet before using the simulator: a `/26` leaves six host bits, so each block has 64 addresses. `10.10.10.0/26` ranges from `.0` to `.63`, with usable `.1` through `.62`. `10.10.10.64/26` ranges from `.64` to `.127`, with usable `.65` through `.126`. For a `/28` at `10.10.10.64`, the block is `.64` through `.79`, with usable `.65` through `.78`. Show the bit count or block-size calculation in your worksheet. Answer a new drill: what is the network, broadcast, and usable range for `10.10.10.96/27`? Check: network `.96`, broadcast `.127`, usable `.97` through `.126`.
+
+Predict the first PC-A packet to its gateway after later setup. PC-A ARPs for `10.10.10.1`. S1 learns PC-A's source MAC on its access port, then floods the ARP request only within VLAN 10. After R1 answers, S1 learns R1's source MAC on its uplink and forwards later frames toward R1. S2's VLAN 20 PC does not receive the VLAN 10 broadcast. Use Simulation mode or `show mac address-table` after traffic to compare your prediction with learned ports. Entries age out, so send traffic again if the table is empty.
+
+Your checkpoint is an address table, the `/27` answer with reasoning, a three-step ARP and MAC-learning prediction, and one observed MAC table or simulation event. Pass when every address has a unique subnet and gateway, and you explain why PC-B needs routing to reach PC-A. If Packet Tracer names interfaces differently, record the names from your own project.
+
+References: [Cisco CCNA v1.1 exam topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf) and [RFC 5737 documentation addresses](https://www.rfc-editor.org/rfc/rfc5737).
 
 ## Next Steps
 
