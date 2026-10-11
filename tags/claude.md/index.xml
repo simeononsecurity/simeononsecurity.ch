@@ -1,0 +1,207 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CLAUDE.md on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>CLAUDE.md on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/claude.md/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/claude.md/</link>
+
+    <description>Recent content in CLAUDE.md on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/claude.md/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>10 плагинов, навыков и инструментов MCP для Claude Code: практическое руководство</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "Инструменты разработчика"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/claude-code-plugins-skills-mcp-tools/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Выберите расширения Claude Code для планирования, проверки кода, управления знаниями, дизайна и автоматизации. Сравните десять инструментов, зависимости и практические проверки.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/claude-code-plugins-workflow-management-tools.webp" length="102696" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Claude Code CLI и Desktop: сравнение рабочих процессов 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработчика"
+            
+              , "Искусственный интеллект"
+            
+              , "Разработка программного обеспечения"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/claude-code-cli-vs-desktop/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните Claude Code в терминале и в настольном рабочем пространстве Code. Рассматриваются общие настройки, передача сессии, скрипты, визуальная проверка и выбор разрешений.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/claude-code-cli-vs-desktop.webp" length="22556" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>OpenCode и Claude Code: сравнение агентов программирования в 2026 году</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/opencode-vs-claude-code/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Инструменты разработчика"
+            
+              , "Искусственный интеллект"
+            
+              , "Открытый исходный код"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/opencode-vs-claude-code/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Сравните OpenCode и Claude Code по выбору моделей, локальному выводу, ценам, разрешениям, инструкциям проекта и ежедневным рабочим процессам программирования.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/opencode-vs-claude-code-comparison-2026.webp" length="49924" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

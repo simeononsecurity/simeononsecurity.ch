@@ -1,0 +1,335 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llama.cpp on simeononsecurity</title>
+    
+    
+    <image>
+      <url>https://ru.simeononsecurity.com/img/banner.webp</url>
+      <title>Llama.cpp on simeononsecurity</title>
+      <link>https://ru.simeononsecurity.com/tags/llama.cpp/</link>
+    </image>
+    
+    
+    <link>https://ru.simeononsecurity.com/tags/llama.cpp/</link>
+
+    <description>Recent content in Llama.cpp on simeononsecurity</description>
+    <generator>1337 H4X0R RSS GENERATOR</generator>
+    
+    <language>ru</language>
+    
+    
+
+    
+
+    
+
+    
+    <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+    
+
+    
+        <atom:link href="https://ru.simeononsecurity.com/tags/llama.cpp/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Приватность локального ИИ: что остается на компьютере, а что нет</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-privacy-boundary/</link>
+        
+        <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Приватность"
+            
+              , "Self-Hosted AI"
+            
+              , "Кибербезопасность"
+            
+              , "Экономика ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-privacy-boundary/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Проверьте промпты, файлы моделей, инструменты, логи, сетевую экспозицию и расходы на электричество перед выбором локального вывода или облачного сервиса ИИ.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp" length="83276" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Достаточно ли 16 ГБ VRAM для серьёзной работы с локальной LLM?</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</link>
+        
+        <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный ИИ"
+            
+              , "Компьютерное оборудование"
+            
+              , "Самостоятельный хостинг ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/is-16gb-vram-enough-local-llm/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Рассчитайте конфигурацию локальной LLM на 16 ГБ с учётом весов модели, KV-кэша и обработки промпта. Сравните бюджет памяти Qwen3.8 27B, пропускную способность GPU и стоимость владения.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/16gb-vram-local-llm-workspace-illustration.webp" length="210254" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Какую локальную AI-модель запустить? Руководство по GPU, контексту и программированию на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-оборудование"
+            
+              , "Self-hosted AI"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Инструменты разработчика"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/local-ai-model-gpu-context-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по выбору локальных AI-моделей для агентов программирования. Сравните память GPU, рост KV cache, размер контекста, качество квантования, обработку промптов, настройки рассуждений и стоимость аренды в облаке.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>Контекстные языковые модели Meta: лучшая память агентов, но не конец галлюцинаций</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</link>
+        
+        <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Искусственный интеллект"
+            
+              , "ИИ-агенты"
+            
+              , "Локальный ИИ"
+            
+              , "Безопасность ИИ"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/context-language-models-agent-memory-hallucinations/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Как Context Language Models редактируют память агента, что показывают бенчмарки и как стоимость кеша, возможности модели и ненадёжные заметки влияют на надёжность.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/context-language-models-editable-memory.webp" length="81084" type="image/webp" />
+            
+          
+        </item>
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      <item>
+        <title>32 ГБ VRAM для Qwen 27B: руководство по локальному AI-железу на октябрь 2026 года</title>
+        
+          <link>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</link>
+        
+        <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+        
+          
+            
+          
+        
+        <category>
+          
+            
+              "Локальный AI"
+            
+              , "AI-железо"
+            
+              , "Бенчмаркинг GPU"
+            
+              , "Самостоятельный хостинг AI"
+            
+              , "Компьютерное железо"
+            
+              , "Экономика AI"
+            
+          
+        </category>
+        <guid>https://ru.simeononsecurity.com/articles/32gb-vram-qwen-27b-hardware-guide/</guid>
+        <comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments>
+        <description>
+        
+          Практическое руководство за октябрь 2026 года по запуску модели Qwen 27B с 32 ГБ доступной памяти ускорителя. Сравните одиночные GPU, сборки с двумя картами, унифицированную память, бывшие в употреблении серверные карты, аренду вычислений, поддержку ПО и ограничения полного контекста.
+          
+        
+        </description>
+          
+          
+            
+              
+            
+          
+          
+            
+            
+              
+              
+              
+              <enclosure url="https://ru.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp" />
+            
+          
+        </item>
+      
+  </channel>
+</rss>

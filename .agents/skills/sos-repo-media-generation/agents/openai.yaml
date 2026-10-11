@@ -1,4 +1,0 @@
-interface:
-  display_name: "Generate Repository Media"
-  short_description: "Use bundled scripts to generate and verify article media"
-  default_prompt: "Use $sos-repo-media-generation for repository media generation and validation."
