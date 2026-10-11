@@ -39,7 +39,7 @@ Explain which parts you wrote, which tools helped, and which results you verifie
 
 Use your evidence to choose a next step.
 
-The developers who will build excellent careers from 2026 forward are the ones who:
+Use this decision sequence:
 
 1. Compare your ten postings with your constraints.
 2. Complete the work trial without publishing private data or secrets.

@@ -24,7 +24,7 @@ Agile values, Scrum, and Kanban offer different ways to inspect work and adapt. 
 - Customer collaboration **over** contract negotiation.
 - Responding to change **over** following a plan.
 
-Agile prescribes none of the specific ceremonies (sprints, standups, retrospectives). Those come from frameworks like Scrum and Kanban that implement agile principles.
+The Agile Manifesto does not prescribe ceremonies such as sprints, standups, or retrospectives. Scrum is a separate framework with defined events. Kanban is a strategy for optimizing flow which teams use in Agile and non-Agile settings.
 
 ## Scrum
 
@@ -34,7 +34,7 @@ Agile prescribes none of the specific ceremonies (sprints, standups, retrospecti
 
 | Role | Responsibility |
 |---|---|
-| **Product Owner (PO)** | Defines and prioritizes the backlog, represents customer and business value |
+| **Product Owner (PO)** | Maximizes product value and manages the Product Backlog |
 | **Scrum Master** | Establishes Scrum, supports effectiveness, and helps remove impediments |
 | **Developers** | Create a usable increment and adapt the plan toward the Sprint Goal |
 
@@ -49,14 +49,14 @@ Agile prescribes none of the specific ceremonies (sprints, standups, retrospecti
 
 Product Backlog refinement is ongoing work. The Scrum Guide does not define it as a Scrum event or prescribe a fixed duration.
 
-### What Makes Scrum Work
+### Conditions to Test With Scrum
 
 - A well-maintained backlog with clear acceptance criteria before sprint planning.
 - A PO who is available to answer questions during the sprint, not just at sprint boundaries.
 - A team empowered to push back on scope mid-sprint rather than silently overcommit.
 - Retrospective actions that are actually implemented.
 
-### What Kills Scrum
+### Risks to Monitor
 
 - Sprint commitments treated as contracts rather than forecasts.
 - Architectural work that cannot fit in a sprint but is forced to anyway.
@@ -65,7 +65,7 @@ Product Backlog refinement is ongoing work. The Scrum Guide does not define it a
 
 ## Kanban
 
-**Kanban** visualizes work as a flow of items through defined stages. Unlike Scrum, there are no sprints, no fixed-length iterations, and no roles.
+**Kanban** uses a definition of workflow, work-in-progress control, and feedback to improve flow. The Kanban Guide does not prescribe Scrum roles or Sprint events.
 
 The core Kanban practices:
 
@@ -75,7 +75,7 @@ The core Kanban practices:
 4. **Make policies explicit**: define when a ticket moves from one stage to the next (definition of done).
 5. **Implement feedback loops**: choose review cadences which help the team inspect flow and change policy.
 
-### When Kanban Works Better Than Scrum
+### Conditions to Test With Kanban
 
 - Operational and support teams where incoming work changes faster than a chosen planning interval.
 - Engineering teams with continuous delivery where work flows constantly rather than in batches.
@@ -85,9 +85,9 @@ Kanban often fits interruption-heavy work because work-in-progress limits and fl
 
 ## SAFe, LeSS, and Scaled Agile Frameworks
 
-Large organizations often layer additional coordination frameworks on top of Scrum or Kanban:
+Organizations might add coordination frameworks around existing delivery practices:
 
-- **SAFe (Scaled Agile Framework)**: defines program increments (PIs) and Agile Release Trains (ARTs) to coordinate dozens of teams. Often criticized for recreating waterfall planning with agile vocabulary.
+- **SAFe (Scaled Agile Framework)**: defines program increments and Agile Release Trains for coordination across teams.
 - **LeSS (Large-Scale Scrum)**: minimal coordination layer for multiple Scrum teams working on a single product.
 - **Spotify Model**: squad, tribe, chapter, guild structure. Widely referenced but often misapplied, it was never a prescriptive framework.
 
@@ -127,4 +127,4 @@ WIP limit: 2. Items finished: 3. Blocked item: dependency access. Retro action: 
 - [ ] A reviewer or repeatable check produced feedback
 - [ ] The record names a timed next action and checkpoint
 
-**Primary references, checked 2026-10-10:** [Scrum Guide 2020](https://scrumguides.org/scrum-guide.html), [Kanban Guide](https://kanbanguides.org/english/), and [Manifesto for Agile Software Development](https://agilemanifesto.org/).
+**Primary references, checked 2026-10-10:** [Scrum Guide 2020](https://scrumguides.org/scrum-guide.html), [The Kanban Guide](https://kanbanguides.org/the-kanban-guide/), and [Manifesto for Agile Software Development](https://agilemanifesto.org/).

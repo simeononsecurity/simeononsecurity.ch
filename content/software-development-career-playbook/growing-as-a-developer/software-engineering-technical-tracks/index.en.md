@@ -28,13 +28,13 @@ Titles do not define pay. Compare base salary, bonus conditions, equity type and
 
 ## Senior Engineer: Mastery of Team-Level Work
 
-A senior engineer designs and delivers complete systems for their team. They mentor junior teammates and make confident architectural decisions within their team's scope.
+A senior role might include team-level delivery, review, design, mentoring, or operations. Use the employer's written framework to define scope.
 
 A senior role might be a sustainable endpoint. Staff criteria might require cross-team work, domain depth, technical strategy, or another employer-specific form of scope.
 
 ## Staff Engineer: Cross-Team Technical Leadership
 
-A **staff engineer's** most important work is not the code they write directly. It is the technical leverage they generate across multiple teams. Staff engineers:
+A staff role might include cross-team technical leadership. Examples from public frameworks include:
 
 - Identify technical risks that span multiple systems before they become incidents.
 - Write engineering proposals and RFC documents that influence how multiple teams build.
@@ -42,25 +42,24 @@ A **staff engineer's** most important work is not the code they write directly. 
 - Mentor senior engineers (not just juniors) toward their own technical growth.
 - Operate with ambiguity. A staff engineer's problems rarely have obvious solutions, they are hired to find them.
 
-*The hardest part of becoming a staff engineer is generating cross-team impact while still being expected to code and ship*, not just advise. Navigation of organizational politics, building trust across team boundaries, and identifying the right high-leverage problems to work on are what separate staff engineers from very strong seniors.
+The mix of coding, design, coordination, influence, and domain depth differs by employer. Compare the role description with the promotion or hiring evidence used there.
 
-## The Three Staff Engineer Archetypes
+## Four Staff Engineer Archetypes From One Published Model
 
-Will Larson's *Staff Engineer* defines three common operating models:
+Will Larson's *Staff Engineer* guide describes four archetypes. Treat them as one author's model rather than a universal ladder.
 
 | Archetype | What They Do |
 |---|---|
 | **Tech Lead** | Directly leads a cross-functional technical initiative, often tied to an EM counterpart |
 | **Architect** | Owns the architecture for a system or domain across the company |
 | **Solver** | Parachutes into the most difficult unsolved technical problems, moves across teams as needed |
+| **Right Hand** | Extends an executive's technical capacity across a broad area |
 
-Most staff engineers blend these archetypes rather than fitting neatly into one category.
+An employer might use different titles, combinations, or no comparable role.
 
 ## Principal Engineer: Company-Wide Technical Strategy
 
-A **principal engineer** shapes how the entire company builds software. Their scope is not a team or domain, it is the whole organization. They evaluate major technology investments, define multi-year platform roadmaps, and represent the company's technical perspective externally (conference talks, open source, hiring brand).
-
-Very few engineers reach principal. The path requires both exceptional technical depth and the ability to operate effectively in executive-level strategic conversations.
+A principal title might describe broad organizational scope, a deep domain specialty, or a level in a published ladder. Verify decision authority, expected outputs, reporting line, and promotion evidence in the target employer's framework.
 
 ## Software Architect: Specialization vs. Career Level
 
@@ -70,7 +69,7 @@ Do not confuse architect titles with the Staff/Principal IC ladder defined above
 
 ## How to Position Yourself for Staff Engineer
 
-Three consistent factors in staff engineering promotions:
+Use these planning steps after checking the employer's framework:
 
 1. **Select an owned problem.** Confirm authority, staffing, change control, credit, security, and review before starting cross-team work.
 2. **Write a decision artifact.** Use the organization's process for proposals, decisions, postmortems, or strategy.
@@ -101,4 +100,4 @@ Route: terminal senior. Evidence task: lead approved design review. Sponsor: man
 - [ ] A reviewer or repeatable check produced feedback
 - [ ] The record names a timed next action and checkpoint
 
-**Source rule:** Use named public engineering frameworks or current employer role descriptions.
+**Primary references, checked 2026-10-10:** [Staff Engineer archetypes](https://staffeng.com/guides/staff-archetypes/) and the target employer's current role framework or posting.

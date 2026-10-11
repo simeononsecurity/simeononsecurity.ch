@@ -24,7 +24,7 @@ cover: "/img/cover/system-design-software-engineers-concepts-patterns-interview-
 - **Vertical scaling (scale up)**: add more CPU, memory, or storage to a single machine. Simple but has a ceiling.
 - **Horizontal scaling (scale out)**: add more machines. Limits still arise from coordination, data, networks, cost, and service quotas.
 
-Most modern systems scale horizontally, which introduces distributed systems problems: how do the machines coordinate, how is data replicated, and how do clients know which machine to talk to?
+When one host no longer meets a defined load or availability requirement, a design might distribute work across hosts. This adds coordination, replication, routing, and failure questions.
 
 ### Load Balancing
 
@@ -44,7 +44,7 @@ A **load balancer** distributes incoming requests across multiple backend server
 | **Distributed cache** | Redis, Memcached | Shared across services, network-accessed |
 | **CDN** | Cloudflare, CloudFront | Static assets and cacheable responses at the edge |
 
-Cache invalidation is the hardest caching problem. Design your eviction strategy (TTL vs. write-through vs. cache-aside) before implementing.
+Cache invalidation requires an explicit freshness policy. Choose an eviction and update strategy, such as a time-to-live, write-through, or cache-aside policy, before implementation.
 
 ### Databases
 
@@ -76,7 +76,7 @@ Avoid assigning one permanent CAP label to a product. For example, DynamoDB offe
 
 Use queues and streams when:
 
-- One service should not wait synchronously for another to respond.
+- The caller does not require the downstream result before responding.
 - Processing can be delayed without user impact.
 - You need to fan out the same event to multiple consumers.
 
@@ -84,9 +84,9 @@ Use queues and streams when:
 
 | Pattern | Definition |
 |---|---|
-| **Strong consistency** | Every read sees the most recent write |
+| **Linearizability** | An operation appears to take effect at one point between its start and completion. A read which starts after a write completes observes that write or a later one. |
 | **Eventual consistency** | Replicas converge over time, reads may see stale data |
-| **Read-after-write consistency** | A user always reads their own most recent writes |
+| **Read-your-writes consistency** | Within a defined client session or identity scope, later reads observe that client's completed writes. |
 
 ## How to Approach a System Design Interview
 

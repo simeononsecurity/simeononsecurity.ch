@@ -43,12 +43,12 @@ One small, finished project is enough for the first review. Add scope only when 
 
 **Project 2: An infrastructure or automation project**
 
-- A Terraform repo that provisions something (even on free tier).
+- A Terraform repo with a reviewed local plan, documented state handling, and a cost estimate before any remote resource creation.
 - A CI/CD pipeline for a real application.
 - An Ansible playbook that configures a server or set of servers.
 - A self-hosted application stack with Docker Compose and documented monitoring.
 
-This gives a reviewer evidence beyond the source code.
+This records infrastructure, automation, or operations work beyond application source code.
 
 **Project 3: Something that required you to solve a real problem**
 
@@ -57,7 +57,7 @@ This gives a reviewer evidence beyond the source code.
 - A contribution to an open source project you actually use.
 - A homelab component with documented architecture and incident history.
 
-The "real problem" project is the interview conversation starter. "I built a thing that monitors my homelab services and pages me when they go down, because my Proxmox cluster was having random DNS failures and I needed immediate visibility" is a story. "I built a weather app" is not.
+A project tied to a stated need gives you concrete design and debugging decisions to explain. A small familiar project still has value when its requirements, tests, and revisions show relevant skill.
 
 ## Repository Review
 
@@ -69,7 +69,7 @@ A public repository is one possible delivery method. A private repository, archi
 - **Pinned repositories**: pin a small set of relevant projects and add a clear description to each.
 - **History**: focused commits help a reviewer follow meaningful changes.
 - **Repository quality**: add a clear name, description, README, and relevant topics when public discovery supports the goal.
-- **Commit message quality**: `fix bug` or `stuff` as commit messages signals careless habits. Meaningful commit messages are a professional signal.
+- **Commit message quality**: specific messages help a reviewer connect a change with its purpose.
 
 **What interviewers look for beyond the surface:**
 
@@ -87,11 +87,11 @@ The documentation in and around your projects is where you create the proof that
 3. **CHANGELOG or notable commits**, what changed over time and why.
 4. **Incident or debug log**, if anything broke and you fixed it, document it. Even a paragraph: "Discovered that the session middleware was not persisting correctly in production due to a secure cookie setting. Fixed by adding trust proxy configuration."
 
-This documentation is what you reference in interviews. "The incident I found most interesting in this project was..." is a conversation that only works if you ran something real long enough to hit real problems.
+Use this documentation when a reviewer asks about decisions or failures. Label simulated incidents and exercises. Describe real incidents only when you have permission to share them.
 
 ## Homelab as Portfolio Component
 
-For backend, DevOps, platform, or security developers, a well-documented homelab is a portfolio component as powerful as any deployed project. See the parallel guidance in the IT Career Playbook: [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/).
+For some backend, DevOps, platform, or security roles, a documented homelab provides relevant evidence. Compare the evidence with target postings before investing in hardware. See the parallel guidance in the IT Career Playbook: [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/).
 
 A self-hosted development environment with:
 - Multiple services running under Docker Compose or Kubernetes
@@ -106,8 +106,8 @@ This records production-adjacent practice when the environment and results are a
 
 - **Do not list projects you cannot explain at depth.** If an interviewer asks "why did you choose this approach?" and you do not have a real answer, you have lost credibility.
 - **Label tutorial work.** State the source, your changes, and what you tested. Leave it out when it adds no role evidence.
-- **Do not have a GitHub with no activity for six months and call it a portfolio.** A static portfolio looks like someone who stopped learning.
-- **Do not use AI to write your portfolio project READMEs without reviewing them.** AI-generated READMEs often have a recognizable pattern and feel generic. Write your own descriptions in your own voice.
+- **Date the evidence.** A reviewer needs the project state, test date, and known limitations. Update the sample when the target role or project behavior changes.
+- **Review assisted text and code.** Verify every retained statement and disclose material tool help. Keep descriptions specific to work you understand.
 
 ## Next Steps
 

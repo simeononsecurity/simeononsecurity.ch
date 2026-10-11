@@ -17,40 +17,40 @@ Employers define junior, mid-level, and senior work differently. Compare your cu
 
 ## What Actually Changes Between Levels
 
-The distinguishing factor at each level is the scope you can operate independently within.
+Many frameworks distinguish levels through scope, support, impact, or complexity. The table below is an example for comparison, not a universal ladder.
 
 | Level | What You Own | How You Get There |
 |---|---|---|
-| **Junior** | Assigned tasks in a defined scope | Learn the codebase, deliver reliably, stop generating rework |
-| **Mid-level** | Features end-to-end, with minimal supervision | Own estimation, code review, and spec interpretation |
-| **Senior** | Systems and team output, not just personal tasks | Design, mentor, drive technical decisions, reduce risk |
+| **Junior** | Defined tasks with review support | Learn the codebase, deliver tested changes, and use feedback |
+| **Mid-level** | A feature or service area with agreed support | Plan, review, debug, and explain trade-offs |
+| **Senior** | A broader system, domain, or team concern | Design, reduce risk, review, mentor, or coordinate as the role requires |
 
 ## From Junior to Mid-Level
 
-The junior-to-mid transition is primarily about **reliability and independence**. A junior developer is in active learning mode. Managers expect questions, mistakes, and rework. The promotion signal is when those expectations change.
+One employer might evaluate reliability and independence in a junior-to-mid review. Another might use a different level name or evidence set.
 
-Behaviors that signal readiness for mid-level:
+Possible evidence to compare with the written framework:
 
-- Completing tasks without repeated clarification rounds.
-- Writing code others can review, understand, and modify without help.
-- Debugging independently before escalating.
-- Estimating your own work accurately enough that surprises are rare.
-- Writing pull requests with clear descriptions that reviewers can understand without a verbal walkthrough.
+- Delivering a defined task with tests and an accurate status record.
+- Writing code a reviewer understands and revises with specific feedback.
+- Recording a debugging attempt, evidence, and an appropriate escalation.
+- Updating an estimate when scope or evidence changes.
+- Writing a pull request with context, checks, risk, and rollback.
 
 Time in role does not establish readiness by itself. Opportunity, workload, mentorship, accommodations, leave, and employer process also affect advancement.
 
 ## From Mid-Level to Senior
 
-The mid-to-senior transition requires a fundamental shift: **from contributor to multiplier**. A senior developer's value is not just their own output. It is how much they improve the team around them.
+Senior criteria vary. Use the following categories only when they match the target employer's framework.
 
-### Technical Skills Required for Senior
+### Possible Technical Evidence
 
 - **System design**: design entire services or subsystems, including data model, API surface, failure modes, and scalability strategy.
 - **Code review**: write review comments that explain the why, not just flag problems. Make reviewees better, not just correct.
 - **Production ownership**: understand monitoring, alerting, on-call response, and postmortem process. Own the reliability of your systems.
 - **Technical debt judgment**: distinguish debt that must be paid now versus debt that is safe to carry. Make the argument to leadership when repayment is urgent.
 
-### Non-Technical Skills Required for Senior
+### Possible Collaboration Evidence
 
 - **Scope ambiguity handling**: given an ambiguous requirement, you write the spec, not wait for one.
 - **Stakeholder communication**: translate technical issues for product managers and business stakeholders.
@@ -59,9 +59,10 @@ The mid-to-senior transition requires a fundamental shift: **from contributor to
 
 ## Common Traps That Stall Advancement
 
-- **Staying in your comfort zone.** The work that gets you promoted is the work that is slightly above your current level. Comfortable tasks keep you comfortable.
-- **Not writing things down.** Senior developers produce artifacts: design docs, postmortems, ADRs (Architecture Decision Records), runbooks. If your thinking lives only in your head, it does not multiply anyone else.
-- **Avoiding hard conversations.** Disagreeing with a technical decision, flagging scope risk before a deadline, pushing back on bad architecture, these are senior developer behaviors. Junior avoidance of conflict is a ceiling.
+- **Using an undocumented standard.** Ask for the written level criteria and review process.
+- **Taking work without support.** Define authority, time, access, review, and rollback first.
+- **Recording no evidence.** Save approved design notes, review feedback, test results, and outcomes within employer policy.
+- **Treating disagreement as a level test.** Use the team's decision process and raise risk with evidence.
 - **Taking unbounded work.** Agree on authority, support, workload, credit, review, and compensation before accepting sustained next-level duties.
 
 ## Accelerating the Timeline

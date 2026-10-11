@@ -19,11 +19,11 @@ An open source contribution gives you practice with an unfamiliar codebase, proj
 
 | Benefit | How It Works |
 |---|---|
-| **Portfolio evidence** | Merged PRs are public, linkable proof of real engineering work |
-| **Codebase navigation skills** | Learning a large, unfamiliar project teaches what no tutorial covers |
-| **Professional network** | Maintainers and contributors become real professional connections |
-| **Visibility** | Active contributors to popular projects get inbound recruiting |
-| **Interview material** | "Walk me through a contribution you made to [project]" is a great interview story |
+| **Work record** | A public merged pull request records accepted work under one project's rules |
+| **Codebase navigation practice** | Reading an unfamiliar project exercises setup, tracing, and local testing |
+| **Review practice** | Maintainer feedback records requested revisions and your response |
+| **Public visibility** | A public contribution is available to reviewers who choose to inspect it |
+| **Interview material** | A contribution gives you a specific decision and review process to explain |
 | **Work evidence** | Records review and revision in an external project |
 
 ## Finding the Right Project to Contribute To
@@ -32,24 +32,23 @@ A project you already use might reduce setup time. Check the license, code of co
 
 How to find good entry points:
 
-- **GitHub labels**: filter repositories for `good first issue`, `help wanted`, or `beginner friendly`. These are explicitly flagged for new contributors.
+- **GitHub labels**: filter repositories for `good first issue`, `help wanted`, or `beginner friendly`. A label reflects project triage, not guaranteed availability, suitability, support, or acceptance.
 - **Up For Grabs** (up-for-grabs.net): curated list of projects with beginner-friendly issues.
 - **First Timers Only** (firsttimersonly.com): issues reserved specifically for first-time contributors.
 - **Your own tool chain**: the Python library, npm package, or framework you use daily almost certainly has open issues.
 
-## Types of Contributions (From Easiest to Hardest)
+## Types of Contributions
 
 Contributions include code, documentation, testing, translation, issue triage, design, and community support. Project needs and review determine whether a proposed contribution is accepted.
 
-| Contribution Type | Difficulty | Career Signal |
+| Contribution Type | Scope to Verify | Review Evidence |
 |---|---|---|
-| **Documentation fixes** | Easiest | Demonstrates attention to detail and ability to read code |
-| **Typo / formatting fixes** | Trivial | Low signal but good for learning the PR process |
-| **Bug reproduction + test case** | Low-medium | Demonstrates debugging and testing skills |
-| **Bug fix** | Medium | First real code contribution, high signal |
-| **New feature (small)** | Medium-hard | Demonstrates design judgment and code quality |
-| **Performance improvement** | Hard | Demonstrates systems thinking and measurement rigor |
-| **Major feature or refactor** | High | Requires maintainer agreement and broad project context |
+| **Documentation or formatting** | Files, style checks, rendered output | Review comments and accepted wording |
+| **Bug reproduction and test** | Supported version, minimal case, expected behavior | Reproduction, failing test, maintainer decision |
+| **Bug fix** | Root cause, compatibility, regression risk | Passing checks and requested revisions |
+| **Small feature** | Maintainer agreement, API, tests, documentation | Design and code review |
+| **Performance change** | Benchmark, workload, environment, regression limit | Reproducible measurements and review |
+| **Large feature or refactor** | Written approval, ownership, migration, rollback | Staged review under project rules |
 
 ## How to Make Your First Contribution
 
@@ -57,8 +56,8 @@ Contributions include code, documentation, testing, translation, issue triage, d
 2. **Clone your fork** locally.
 3. **Create a branch** with a descriptive name (`fix/null-pointer-in-auth`, not `patch1`).
 4. **Read the contribution guide** before writing code. Also check the code of conduct, license, security policy, issue assignment process, DCO or CLA, and test requirements.
-5. **Make the smallest change that fixes the problem** or adds the documented feature. Scope creep in first PRs is a common rejection reason.
-6. **Write tests** if the project has a test suite. A PR without tests is often rejected.
+5. **Make the smallest approved change** which addresses the issue. Ask before expanding scope.
+6. **Follow the project's test rule.** Add or update tests when the contribution guide or maintainer requires them.
 7. **Open the PR with a detailed description**: what is the problem, what does your change do, how was it tested, and what is not in scope.
 8. **Respond within the agreed cadence**. Maintainers and contributors have different schedules. Communicate if you need more time.
 
@@ -84,7 +83,7 @@ A merged pull request records accepted work under one project's standards. Keep 
 - Take on progressively harder issues as you understand the codebase better.
 - Join the project's communication channels (Discord, Slack, mailing list).
 
-Some open source contributors are hired directly by the companies that maintain the projects they contribute to. The path: sustained, high-quality contributions that make you known to the maintainer team.
+A public contribution does not promise paid work. Apply through the employer's stated process when a role fits, and describe only the work and review you completed.
 
 ## Next Steps
 

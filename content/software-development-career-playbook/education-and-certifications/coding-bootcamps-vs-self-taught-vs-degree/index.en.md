@@ -13,7 +13,7 @@ cover: "/img/cover/coding-bootcamps-self-taught-degree-paths.webp"
 
 [Return to the Software Development Career Playbook](/software-development-career-playbook-start/)
 
-**Each path to becoming a software developer has worked for thousands of people, and each has distinct failure modes.** The right choice depends on your current situation: how quickly you need income, how much you can invest, and how self-directed you are as a learner. *The developer with a bootcamp certificate who built five real projects and can pass a coding interview will outcompete the CS graduate who cannot.*
+Degree, bootcamp, and self-study routes differ by provider and learner. Compare the route against your target postings, budget, schedule, access needs, and preferred level of structure. No route guarantees employment.
 
 ## Comparison Overview
 
@@ -21,72 +21,57 @@ cover: "/img/cover/coding-bootcamps-self-taught-degree-paths.webp"
 |---|---|---|---|
 | **Cost** | Use current net price, aid, living cost, and debt terms | Use current total price, financing, living cost, and refund terms | Record equipment, course, tool, and unpaid-time cost |
 | **Schedule** | Program-specific credits, transfer, and enrollment plan | Provider-specific hours, attendance, and completion rules | Learner-defined plan with review checkpoints |
-| **Theoretical depth** | High | Low to medium | Variable |
-| **Portfolio at graduation** | Often thin | Moderate | Strong if done right |
+| **Curriculum** | Review the official catalog and course sequence | Review the syllabus, instructors, and assessed work | Build a written sequence from named resources |
+| **Work evidence** | Add projects, internships, research, or assessed coursework | Verify which projects are individual and independently reviewed | Arrange projects, tests, and outside review |
 | **Employer use** | Might satisfy a degree filter | Depends on program and employer | Requires another form of role evidence |
-| **Network effect** | University alumni and recruiting | Cohort and school alumni | None built in |
-| **Flexibility** | Low | Low (cohort schedule) | High |
-| **Dropout/fail rate** | Moderate | High | Very high |
+| **Support** | Check advising, tutoring, disability services, and recruiting access | Check instructor access, career support, and accommodation process | Identify mentors, peer review, and accountability before starting |
+| **Flexibility** | Program and enrollment specific | Cohort and attendance specific | Learner managed |
+| **Completion evidence** | Use official completion data with population and year | Require a disclosed denominator, exclusions, and measurement window | Track planned work against finished, reviewed work |
 
 ## The Computer Science Degree
 
 A CS degree offers a structured theoretical foundation and might satisfy employer or graduate-school requirements. Program length, transfer credit, aid, and net cost vary.
 
-**Best for:**
-- Anyone who can complete it without prohibitive debt.
-- Roles at FAANG and top-tier tech companies where CS degrees are still screened for.
-- ML, AI, graphics, cryptography, compilers, or operating systems work.
-- People who are not in a hurry and want the clearest on-ramp.
-
-**Failure mode:** Finishing the degree with no practical projects, no portfolio, and no internships. Employers care about what you built, not just what you studied.
+Check whether target postings require, prefer, accept equivalent experience, or omit a degree. Review accreditation, transfer rules, net price, aid, graduation data, internship access, course availability, and disability services. A degree records completed education. Employers decide how they weigh the credential and other evidence.
 
 ## The Coding Bootcamp
 
 A coding bootcamp is a structured program focused on a defined skill set. Before enrolling, verify total price, financing terms, schedule, accessibility, completion definition, outcome methodology, and refund policy. Treat provider outcome figures as comparable only when population, dates, exclusions, and result definitions match.
 
-**Best for:**
-- Career changers who need a structured transition with accountability.
-- People who learn better in cohort environments with live instruction.
-- Anyone targeting web development specifically, where bootcamp graduates are well-represented in the job market.
-
 **What to evaluate before enrolling:**
 - Outcomes data: require cohort dates, denominator, response rate, exclusions, job relevance, geography, pay basis, and measurement window.
-- Refund policy and ISA structure: income share agreements reduce risk but add long-term cost.
-- Curriculum currency: check that projects use current frameworks (React, not AngularJS 1.x).
-- Talk to three to five alumni from the last graduating cohort directly, not testimonials on the website.
+- Refund and financing terms: record total repayment under several income and completion cases.
+- Curriculum: compare named skills and assessed projects with ten current target postings.
+- Alumni evidence: ask recent participants about instruction, support, completion, and job-search conditions. Treat their experiences as individual evidence.
 
-**Failure mode:** Completing the curriculum without building independent projects, failing to practice coding interviews, and applying only through the bootcamp's placement services rather than networking aggressively.
+Before payment, request written answers for missing terms. Pause when cost, cancellation, outcome definitions, accessibility, or workload stays unclear.
 
 ## The Self-Taught Path
 
 Self-study lets you choose the schedule and materials. Total cost depends on tools, courses, equipment, and time. Common risks include switching resources without building and losing feedback or structure.
 
-**Best for:**
-- Highly self-directed learners with prior experience managing independent projects.
-- People who cannot stop working full-time to attend a program.
-- Aspiring developers who already have a domain specialty (finance, healthcare, science) that they want to combine with code.
+Build a four-week trial before committing to a long plan:
 
-**A structured self-taught sequence that works:**
-1. One free structured course (freeCodeCamp, The Odin Project, or CS50).
-2. Three original projects with GitH repos and READMEs.
-3. One book on software craft (*Clean Code* or *The Pragmatic Programmer*).
-4. Practice the interview format used by current target employers.
-5. Open source contribution: one pull request to a real project.
-
-**Failure mode:** Consuming tutorials without building and reviewing a small program. Use a local project when hosting adds cost or risk.
+1. Select one course with a published syllabus and required software.
+2. Complete the [beginner starter project](/files/software-development-career-playbook/python-starter/README.md).
+3. Ask another person to run the tests from the README.
+4. Record planned hours, completed hours, blocked steps, and review feedback.
+5. Continue, change resources, or pause using the record.
 
 ## Making the Decision
 
-Ask yourself these questions:
+Score each route with the same questions:
 
 - **Time**: how many weekly hours fit employment, care, health, and recovery needs?
-- **Money**: what total cost, debt, and lost-income ceiling fits your budget?
-
-**Primary references, checked 2026-10-10:** [College Scorecard](https://collegescorecard.ed.gov/) and each selected program's official catalog, net-price calculator, financing agreement, refund policy, accessibility process, and outcome methodology.
-- **Structure**: do you need external accountability, or can you self-manage a multi-month project?
+- **Money**: what total cost, debt, repayment, and lost-income ceiling fits your budget?
+- **Structure**: which route supplies the instruction, review, and accountability you need?
 - **Target role**: does your target role filter by education credential?
+- **Access**: are schedule, equipment, location, language, and accommodations workable?
+- **Exit**: what are the refund, transfer, pause, and withdrawal terms?
 
-Many successful developers combine paths: a bootcamp to get the first job, then ongoing self-study to specialize and advance.
+Choose a route only after filling these fields. Recheck the decision when cost, work, health, care duties, or target roles change.
+
+**Primary references, checked 2026-10-10:** [College Scorecard](https://collegescorecard.ed.gov/), [BLS education and training assignments](https://www.bls.gov/emp/tables/education-and-training-by-occupation.htm), and each selected program's official catalog, net-price calculator, financing agreement, refund policy, accessibility process, and outcome methodology.
 
 ## Next Steps
 
