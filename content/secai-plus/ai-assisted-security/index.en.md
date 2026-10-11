@@ -11,7 +11,7 @@ coverAlt: "A split illustration showing a cybersecurity analyst using AI tools o
 coverCaption: "Put AI to Work on Defense and Recognize Its Misuse for the CY0-001 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
+[Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
 
 **AI-assisted Security** is **24%** of the **CompTIA SecAI+ (CY0-001)** exam. This domain covers both sides of the coin: how you use AI to defend faster and how attackers use the same technology against you. *Know which task each AI tool accelerates, and know the attack each AI capability enables. Questions pair a capability with the side that benefits.*
 

@@ -11,7 +11,7 @@ coverAlt: "A diverse team of professionals collaborates around a high-tech table
 coverCaption: "Govern AI Responsibly for the CY0-001 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
+[Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
 
 **AI Governance, Risk, and Compliance** is **19%** of the **CompTIA SecAI+ (CY0-001)** exam. This domain covers how an organization sets rules for AI, assigns responsibility, manages AI-specific risk, and meets a fast-growing body of law. *Think like an advisor to leadership here, not a hands-on engineer. The exam tests judgment about policy, accountability, and compliance.*
 

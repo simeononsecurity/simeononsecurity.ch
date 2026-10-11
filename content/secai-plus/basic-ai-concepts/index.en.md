@@ -11,7 +11,7 @@ coverAlt: "A futuristic data center filled with rows of glowing server racks and
 coverCaption: "Master the AI Fundamentals Behind the CY0-001 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
+[Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
 
 **Basic AI Concepts Related to Cybersecurity** is **17%** of the **CompTIA SecAI+ (CY0-001)** exam. This domain builds the shared vocabulary you need before you can secure AI or use it to defend a network. *You cannot protect a system you do not understand, so master these terms first. Every later domain assumes them.*
 

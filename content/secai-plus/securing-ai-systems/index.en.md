@@ -11,7 +11,7 @@ coverAlt: "An illustration of a secure AI system with layers of protection aroun
 coverCaption: "Defend AI Systems Against Adversarial Attacks for the CY0-001 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
+[Click Here to Return To the CompTIA SecAI+ Course Page](/secai-plus-start/)
 
 **Securing AI Systems** is **40%** of the **CompTIA SecAI+ (CY0-001)** exam, making it the most heavily weighted domain by far. This domain covers how you threat-model, control, and monitor AI systems, then how you investigate attacks and pick compensating controls. *Spend the bulk of your study time here. Master the threat names and the single control that stops each one.*
 
