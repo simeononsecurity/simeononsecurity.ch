@@ -1,9 +1,9 @@
 ---
-title: "CompTIA Security+ (SY0-701)"
+title: "Security+ SY0-701 Security Program Management"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master security program management and oversight for the CompTIA Security+ SY0-701 exam. Learn governance, risk management, third-party risk, compliance, audits, and security awareness."
+description: "Work a SY0-701 risk register with loss estimates, vendor review, recovery targets, audit evidence, and a measured awareness exercise."
 genre: ["CompTIA Security+ Course", "Security Governance", "Risk Management", "Compliance", "Audits", "Security Awareness", "CompTIA Certification", "Information Security", "Third-Party Risk", "Cybersecurity"]
 tags: ["CompTIA Security+", "SY0-701", "security governance", "risk management", "third-party risk", "compliance", "audits", "penetration testing", "security awareness", "SLE", "ALE", "ARO", "BIA", "GDPR", "policies"]
 cover: "/img/cover/comptia-security-plus-sy0-701-security-program-management.webp"
@@ -54,7 +54,7 @@ You then choose a **risk strategy**:
 - **Accept** keeps the risk when cost outweighs benefit.
 - **Avoid** stops the activity that creates the risk.
 
-*Spending more on a control than the asset is worth is poor risk management.*
+Compare control cost with expected loss, legal duties, safety needs, and operational impact before deciding.
 
 ## Third-Party Risk Management
 
@@ -90,7 +90,7 @@ Frameworks give you a proven structure instead of starting from scratch.
 
 | Framework | Focus |
 |-----------|-------|
-| **NIST CSF** | Identify, Protect, Detect, Respond, Recover |
+| **NIST CSF 2.0** | Govern, Identify, Protect, Detect, Respond, Recover |
 | **ISO 27001** | Information security management system |
 | **SOC 2** | Service provider trust controls |
 | **PCI DSS** | Cardholder data protection |
@@ -105,7 +105,7 @@ You verify that controls work.
 
 ## Security Awareness
 
-People are both the weakest link and the first line of defense.
+People need clear reporting paths and training which matches their work.
 
 - Run **phishing campaigns** to train and measure user response.
 - Teach **anomalous behavior recognition** so users report odd activity.
@@ -118,6 +118,22 @@ You plan to keep the business running through disruption.
 - A **Business Impact Analysis (BIA)** ranks critical functions.
 - **RTO** is how fast you must recover, and **RPO** is how much data loss you can accept.
 - **Tabletop exercises** rehearse the plan without touching production.
+
+## Practice: Make a Risk Decision
+
+Harbor Library estimates a ransomware event would affect a records service valued at $40,000. For this fictional exercise, the exposure factor is 0.25 and the annual rate of occurrence is 0.2. Compute single loss expectancy: $40,000 × 0.25 = $10,000. Compute annual loss expectancy: $10,000 × 0.2 = $2,000. These are planning estimates, not a forecast. Test a low and high assumption, then record the range. A $3,000 annual control is not automatically wrong or right because safety, legal duties, and other harms also matter.
+
+Create this risk-register row, then update the missing fields:
+
+| Risk | Evidence | Owner | Treatment | Due | Residual risk | Verification |
+|------|----------|-------|-----------|-----|---------------|--------------|
+| Export service lacks a tested restore | Last backup exists, no restore record | Library IT lead | Test isolated restore and restrict backup write role | Set a date | Document after test | Restore log and access test |
+
+Add one vendor question: who can access the backup, how is access logged, and how long does the vendor retain copies? Record the source and date of the answer. For a business impact analysis, identify the critical service and its users. Use the previous lesson's fictional RTO of 8 hours and RPO of 24 hours. Explain which restore evidence checks each target.
+
+Write a policy statement, a mandatory standard, a step-by-step procedure, and an optional guideline for the export workflow. For audit evidence, name the owner, control, scope, test date, result, and exception. For awareness, run a tabletop with synthetic phishing messages and measure both reporting rate and quality of reports. Do not send simulated phishing to real staff without authorization.
+
+Pass when your register records a decision owner, assumptions and uncertainty, vendor evidence, a measured recovery test, and an exception or follow-up for any failed control. [NIST CSF 2.0](https://www.nist.gov/cyberframework) includes governance. [PCI SSC](https://www.pcisecuritystandards.org/standards/pci-dss/) defines PCI DSS as an industry standard for payment account data; determine applicability from the actual payment environment rather than assuming it covers every library system. Match your study notes to the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf).
 
 ## Next Steps
 

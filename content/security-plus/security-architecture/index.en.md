@@ -3,7 +3,7 @@ title: "CompTIA Security+ (SY0-701): Security Architecture"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master security architecture for the CompTIA Security+ SY0-701 exam. Learn architecture models, infrastructure security, data protection, and resilience and recovery."
+description: "Design a segmented SY0-701 lab for a library export. Compare cloud duties, data states, firewall rules, and tested recovery evidence."
 genre: ["CompTIA Security+ Course", "Security Architecture", "Cloud Security", "Data Protection", "Resilience", "Network Security", "CompTIA Certification", "Information Security", "Zero Trust", "Cybersecurity"]
 tags: ["CompTIA Security+", "SY0-701", "security architecture", "cloud", "IaC", "serverless", "microservices", "segmentation", "data protection", "encryption", "high availability", "backups", "resilience", "recovery"]
 cover: "/img/cover/comptia-security-plus-security-architecture-overview.webp"
@@ -36,7 +36,7 @@ In the cloud the provider and customer split duties. The provider secures the **
 
 - **CASB** (Cloud Access Security Broker) enforces policy between users and cloud apps.
 - **SASE** combines networking and security in one cloud service.
-- Misconfiguration, like a public storage bucket, is the leading cloud breach cause.
+- A public storage bucket exposes data when access rules are wrong. Review configuration and test access before release.
 
 Compare the major platforms in [AWS vs Azure vs Google Cloud Platform](/articles/aws-vs-azure-vs-google-cloud-platform/).
 
@@ -104,7 +104,29 @@ Recovery sites trade speed for cost:
 | **Warm** | Hours | Medium |
 | **Cold** | Days | Lowest |
 
-Test backups with the **3-2-1 rule**: three copies, two media types, one offsite. *A backup you never restored is not a backup you can trust.*
+Test backups with the **3-2-1 rule**: three copies, two media types, one offsite. A restore test shows whether the backup meets the recovery need.
+
+## Practice: Draw and Test a Trust Boundary
+
+Continue the Harbor Library case. The public catalog serves anonymous readers. Staff use a private records app and export member data. A cloud object store holds encrypted backups. Draw three zones: internet, staff, and restricted records. Mark the trust boundary and each permitted flow.
+
+| Flow | Decision | Reason |
+|------|----------|--------|
+| Internet to public catalog on HTTPS | Allow | Readers need the catalog. |
+| Internet to records database | Deny | No direct public access. |
+| Staff app to records database on its required port | Allow for the app identity only | The app needs a narrow path. |
+| Backup worker to object store | Allow for backup identity only | The worker needs write access. |
+| Anonymous user to backup object | Deny | Backups contain restricted data. |
+
+Now write one misconfiguration to look for in an infrastructure change, such as a bucket policy which grants public read. Explain the review gate and a negative access test. Do not deploy a public bucket to practice. A rule diagram and a written test are enough.
+
+Assign cloud responsibilities to the provider or library: physical data-center security belongs to the provider; library identities, data classification, bucket policy, and restore checks belong to the library. The exact split depends on the service model. Encrypt the export at rest and in transit. Document who controls keys and who is allowed to decrypt.
+
+Choose a recovery target: restore member records within 8 hours with no more than 24 hours of lost changes. These are fictional RTO and RPO requirements. Create a daily backup schedule, an offsite copy, and a monthly test restore to an isolated location. Record start time, finish time, recovered timestamp, file count, access check, and failed steps. RAID and replication improve availability but can copy corruption or deletion. They do not replace a recoverable backup.
+
+Pass when your diagram shows no public path to the records database, your matrix assigns six controls or duties to an owner, and your restore evidence would show whether both targets were met.
+
+References: [CompTIA SY0-701 exam objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework).
 
 ## Next Steps
 

@@ -1,9 +1,9 @@
 ---
-title: "CompTIA Security+ (SY0-701)"
+title: "Security+ SY0-701 Threats, Vulnerabilities, and Mitigations"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master threats, vulnerabilities, and mitigations for the CompTIA Security+ SY0-701 exam. Learn threat actors, attack vectors, vulnerability types, malicious indicators, and mitigation techniques."
+description: "Trace a synthetic phishing-to-export chain for SY0-701. Separate evidence from assumptions, select layered controls, and test residual risk."
 genre: ["CompTIA Security+ Course", "Threat Analysis", "Vulnerabilities", "Malware", "Social Engineering", "Attack Vectors", "CompTIA Certification", "Information Security", "Mitigation", "Cybersecurity"]
 tags: ["CompTIA Security+", "SY0-701", "threat actors", "attack vectors", "vulnerabilities", "malware", "phishing", "social engineering", "ransomware", "SQL injection", "buffer overflow", "DDoS", "mitigation", "hardening", "IoC"]
 cover: "/img/cover/comptia-security-plus-threats-vulnerabilities-mitigations.webp"
@@ -23,14 +23,14 @@ You profile attackers by motivation and capability.
 
 | Actor | Motivation | Resources |
 |-------|-----------|-----------|
-| **Nation-state** | Espionage, disruption | Very high (APT) |
-| **Organized crime** | Financial gain | High |
-| **Hacktivist** | Ideology, publicity | Medium |
+| **Nation-state** | May seek espionage or disruption | Varies by actor and operation |
+| **Organized crime** | Often seeks financial gain | Varies by group |
+| **Hacktivist** | May seek publicity or change | Varies by group |
 | **Insider threat** | Revenge, money, mistakes | Trusted access |
-| **Unskilled attacker** | Curiosity, thrill | Low, uses scripts |
+| **Unskilled attacker** | Motivation unknown without evidence | May rely on published tools |
 | **Shadow IT** | Convenience | Internal, unsanctioned |
 
-**Attributes** differ: internal vs external, resources/funding, and level of sophistication. *Nation-state APTs combine patience with deep funding.*
+**Attributes** differ: internal vs external, resources/funding, and level of sophistication. Do not infer actor identity from a single indicator. Investigate the operation and evidence.
 
 ## Attack Vectors and Surfaces
 
@@ -53,9 +53,9 @@ You categorize weaknesses by where they live.
 | **Hardware** | Firmware, end-of-life devices |
 | **Virtualization** | VM escape, resource reuse |
 | **Cloud** | Misconfiguration, weak IAM |
-| **Zero-day** | Unknown, unpatched flaw |
+| **Zero-day** | A flaw exploited or disclosed before a fix is available in the relevant context |
 
-A **zero-day** has no patch because the vendor does not yet know about it. A **misconfiguration** is the most common and most preventable weakness.
+A zero-day label describes the patch window, not necessarily whether a vendor already knows about the flaw. Track whether the issue is known, disclosed, exploited, and patched as separate states. Misconfigurations are one important, preventable source of exposure.
 
 ## Indicators of Malicious Activity
 
@@ -82,7 +82,7 @@ You defend against attacks on people.
 - **Tailgating and piggybacking** bypass physical access.
 - **Pharming** redirects users to fake sites.
 
-*The human is the most targeted and most exploitable attack surface.*
+Training, reporting channels, and technical controls reduce the impact of social engineering.
 
 ## Mitigation Techniques
 
@@ -99,6 +99,16 @@ You reduce risk with layered controls.
 | **Access control (ACL)** | Restricts who reaches what |
 
 **Hardening** disables unused ports and services, changes default credentials, and applies secure baselines. To see why legacy systems stay exposed, read [why OT/ICS PLC cybersecurity is fundamentally broken](/articles/ot-ics-plc-cybersecurity-fundamentally-broken/).
+
+## Practice: Trace an Attack Chain
+
+Continue the fictional Harbor Library case. An employee receives a message asking them to open a new invoice. An attachment runs a script on `laptop-17`. The security log later shows an unusual sign-in to the `archive` account and a member export to `/tmp/out`. The observed facts are message, script execution, sign-in, and export. The actor's identity and intent are unknown.
+
+Build a six-column worksheet: observation and timestamp, attack vector, exploited weakness, possible impact, control, and validation. For example, the message is a possible phishing vector; the attachment execution needs verification through endpoint telemetry. The export suggests a confidentiality risk, but you still need destination, owner, and authorization evidence.
+
+Choose at least three layered controls: block or isolate risky attachments, use phishing-resistant MFA for the archive role, and restrict exports by role and destination. Add monitoring for unusual exports and a tested backup for recovery. Explain which control is preventive, detective, or corrective. State a residual risk: an authorized user or compromised endpoint might still misuse permitted access. Validate with synthetic negative and positive access cases; mark them unrun if no disposable lab exists.
+
+Pass when the worksheet distinguishes indicator from conclusion, avoids naming a threat actor without evidence, names an owner for each control, and gives a test which would show a control working. Review the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST CSF 2.0](https://www.nist.gov/cyberframework).
 
 ## Next Steps
 

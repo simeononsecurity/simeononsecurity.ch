@@ -3,7 +3,7 @@ title: "CompTIA Security+ (SY0-701): General Security Concepts"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master general security concepts for the CompTIA Security+ SY0-701 exam. Learn security controls, the CIA triad, change management, cryptography, PKI, and Zero Trust."
+description: "Learn SY0-701 security controls, identity, change review, cryptography, and PKI through a local evidence and control-selection exercise."
 genre: ["CompTIA Security+ Course", "Security Fundamentals", "Cryptography", "PKI", "Zero Trust", "Access Control", "CompTIA Certification", "Information Security", "Security Controls", "Cybersecurity"]
 tags: ["CompTIA Security+", "SY0-701", "security controls", "CIA triad", "non-repudiation", "AAA", "Zero Trust", "cryptography", "PKI", "encryption", "hashing", "digital signatures", "certificates", "change management"]
 cover: "/img/cover/comptia-security-plus-general-security-concepts.webp"
@@ -67,7 +67,7 @@ You control change so security and uptime stay intact.
 - **Maintenance windows** schedule change for low-impact times.
 - **Version control** tracks configuration and code over time.
 
-*Unmanaged change is a top cause of outages and security gaps.*
+Unreviewed changes create avoidable availability and security risk.
 
 ## Cryptographic Solutions
 
@@ -97,13 +97,27 @@ You manage trust with certificates.
 | **Wildcard** | A common `*.example.com` certificate covers one label, such as `app.example.com`, but not `example.com` or `deep.app.example.com` |
 | **SAN** | Multiple specific domains |
 | **Root** | Top of the trust chain |
-| **Self-signed** | Internal, not publicly trusted |
+| **Self-signed** | Signed by its own key. Trust depends on explicit verification and installation, regardless of use location. |
 
 ## Authentication and Access
 
 You verify identity with multiple factors.
 
 **MFA** combines factors: something you **know**, **have**, **are**, **do**, or somewhere you **are**. **SSO** lets one login reach many apps, often with **federation** through SAML or OpenID Connect. Strong, unique passwords remain the baseline, covered in [how to create strong passwords](/articles/how-to-create-strong-passwords/).
+
+## Practice: Protect a Library Export
+
+Use this fictional case throughout the course. Harbor Library exports a member list each Friday. An employee places `members.csv` on a shared laptop. A contractor needs the final count but not names. The laptop is sometimes offline. Do not use real member data.
+
+1. Copy these two lines into a local file named `members.csv`: `id,name` and `101,Example Person`. Compute its SHA-256 digest with `shasum -a 256 members.csv` on macOS, `sha256sum members.csv` on Linux, or `Get-FileHash .\members.csv -Algorithm SHA256` in PowerShell. Change one character and hash again. Record both digests. A different digest detects a change; it does not identify the editor or encrypt the file.
+2. Write a control matrix with one preventive, detective, and corrective control. Example: restrict the export folder by role, alert on unexpected reads, and restore a tested clean copy. State each control's category and function. One control might serve multiple functions.
+3. Choose what to send the contractor. Send a count-only report through an approved channel. Do not send the named export. Explain why encryption alone would not remove the contractor's unnecessary access.
+4. Draft a change record for changing that folder's access rule. Include owner, reason, expected users, approval, test, rollback, and evidence. Test an authorized read and a denied read with synthetic accounts if you have a disposable lab. Otherwise mark the tests unrun.
+5. For a signed report, distinguish the file hash from a digital signature. A signature supports integrity and control of the signing key. Attribution to a named person depends on identity proofing, key custody, and trusted records. For a certificate, check name, validity, chain, and revocation status. A `*.example.com` wildcard generally covers `app.example.com`, not `deep.app.example.com`.
+
+Your evidence is two hash results, a three-row control matrix, a change record, and a brief access decision. Pass when you explain why hashing, signing, encryption, and authorization solve different problems without claiming that a hash proves authorship.
+
+Reference: [CompTIA SY0-701 exam objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) and [NIST digital identity guidelines](https://pages.nist.gov/800-63-4/).
 
 ## Next Steps
 

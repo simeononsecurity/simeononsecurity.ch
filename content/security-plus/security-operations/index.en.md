@@ -3,7 +3,7 @@ title: "CompTIA Security+ (SY0-701): Security Operations"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master security operations for the CompTIA Security+ SY0-701 exam. Learn secure baselines, asset management, vulnerability management, monitoring, IAM, automation, and incident response."
+description: "Triage synthetic SY0-701 access logs, set an asset baseline, restrict identities, track a vulnerability, and preserve incident evidence."
 genre: ["CompTIA Security+ Course", "Security Operations", "Incident Response", "Identity Management", "Vulnerability Management", "Automation", "CompTIA Certification", "Information Security", "SIEM", "Cybersecurity"]
 tags: ["CompTIA Security+", "SY0-701", "security operations", "secure baselines", "hardening", "vulnerability management", "SIEM", "IAM", "MFA", "EDR", "DLP", "automation", "SOAR", "incident response", "digital forensics"]
 cover: "/img/cover/comptia-security-plus-sy0-701-security-operations.webp"
@@ -70,10 +70,10 @@ You replace plaintext protocols with encrypted ones.
 | Insecure | Secure replacement |
 |----------|--------------------|
 | HTTP | **HTTPS (TLS)** |
-| FTP | **SFTP** |
+| FTP | **SFTP** uses SSH and a different protocol. FTPS is FTP protected by TLS. |
 | Telnet | **SSH** |
-| LDAP | **LDAPS** |
-| DNS | **DNSSEC** |
+| LDAP | **LDAP over TLS**, using StartTLS or a dedicated TLS listener with certificate validation. |
+| DNS | **DNSSEC** authenticates DNS data. Use a separate encrypted DNS transport when confidentiality is required. |
 
 Use **S/MIME** to sign and encrypt email. Verify file integrity with hashes, shown in [how to get hashes of files on Linux](/guides/how-to-get-hashes-of-files-on-linux/) and [in Windows](/guides/how-to-get-hashes-of-files-in-windows/).
 
@@ -96,7 +96,7 @@ You watch the environment and react to signals.
 - Tune alerts to cut false positives so real threats stand out.
 
 ```bash
-# Watch authentication failures on a Linux host
+# On a Linux host with this log path, inspect recent failed attempts
 grep "Failed password" /var/log/auth.log | tail -n 20
 ```
 
@@ -120,6 +120,25 @@ You follow a repeatable process under pressure.
 6. **Lessons learned** improves the next response.
 
 Digital forensics preserves evidence for investigation and possible legal use. Maintain a **chain of custody**, follow any applicable **legal hold**, and plan acquisition around volatility and incident needs. Document each transfer and action. Missing records weaken authentication and evidentiary weight, but admissibility depends on the jurisdiction and case.
+
+## Practice: Triage a Synthetic Access Alert
+
+Use these invented records. No live host or production account is needed.
+
+```text
+2026-10-10T09:01Z laptop-17 sshd Failed password for user archive from 192.0.2.40
+2026-10-10T09:02Z laptop-17 sshd Failed password for user archive from 192.0.2.40
+2026-10-10T09:04Z laptop-17 sshd Accepted publickey for user archive from 192.0.2.40
+2026-10-10T09:06Z records-app export members.csv by archive, destination /tmp/out
+```
+
+The `192.0.2.0/24` block is reserved for examples. The log suggests a successful sign-in after two failures and a later export. It does not prove credential theft. In a worksheet, record host, account, source, time span, event sequence, and missing context. Ask the account owner and inspect approved maintenance records before declaring an incident. Preserve a copy of the original records, source, acquisition time, and SHA-256 digest. Restrict access to the copy.
+
+Choose an initial decision. If the owner denies the activity or no approved change exists, escalate through the incident process and consider disabling the account under local policy. If the owner confirms authorized maintenance, document the evidence and close or continue monitoring. Do not automate account disabling from one synthetic alert.
+
+Build a five-row operations board for this case: asset inventory entry, approved baseline, IAM rule, one vulnerability ticket, and backup status. For the vulnerability ticket, include affected version, evidence, severity with context, owner, due date, fix, and verification result. For the IAM rule, the `archive` role should read only the data needed for its job, with separate write or export approval. Mark a denied access test as unrun unless you perform it in a disposable lab.
+
+Pass when your triage record separates observations from conclusions, identifies who receives an escalation, includes an evidence digest and custody notes, and shows a tracked fix with verification. The [NIST incident response guide](https://csrc.nist.gov/pubs/sp/800/61/r3/final) gives a response framework. Review the [CompTIA SY0-701 objectives](https://partners.comptia.org/docs/default-source/resources/comptia-security-sy0-701-exam-objectives-(4-0).pdf) for exam scope.
 
 ## Next Steps
 
