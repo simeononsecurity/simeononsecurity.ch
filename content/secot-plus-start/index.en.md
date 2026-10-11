@@ -28,7 +28,7 @@ coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environme
 
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [CompTIA SecOT+ Practice Test](/secot-plus-practice-test/) - Test your readiness
-- [CompTIA SecOT+ status and objectives](https://www.comptia.org/certifications/secotplus) - Check for final objectives
+- [CompTIA exam objectives under development](https://www.comptia.org/en-us/resources/comptia-exam-objectives-under-development/) - Check SecOT+ status and final objectives
 - [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 - [CompTIA Security+ Course](/security-plus-start/) - Recommended foundation
 - [CompTIA CySA+ Course](/cysa-plus-start/) - Recommended for security operations
