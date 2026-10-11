@@ -11,7 +11,7 @@ coverAlt: "An illustration showing interconnected devices and systems representi
 coverCaption: "Master Identity and Access Management for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Identity and Access Management** is **13%** of the **ISC2 CISSP** exam. This module covers how you prove who someone is and control what they can reach across the full identity lifecycle. *Access control models are a frequent exam topic, so know each one's differences and who sets the permissions.*
 

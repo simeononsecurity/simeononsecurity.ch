@@ -11,7 +11,7 @@ coverAlt: "An illustration showing various digital assets such as servers and cl
 coverCaption: "Master Asset Security for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Asset Security** is **10%** of the **ISC2 CISSP** exam. This module covers how you classify, handle, and protect information and assets across their full lifecycle. *You cannot protect what you have not classified. Classification drives every control that follows.*
 

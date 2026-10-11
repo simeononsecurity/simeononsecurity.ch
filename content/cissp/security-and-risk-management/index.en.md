@@ -11,7 +11,7 @@ coverAlt: "A cybersecurity professional analyzes a holographic display of a comp
 coverCaption: "Master Security and Risk Management for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Security and Risk Management** is **16%** of the **ISC2 CISSP** exam, the single largest domain. This module covers the managerial foundation of the whole certification: ethics, core security concepts, governance, compliance, and risk. *The CISSP thinks like a manager, not a technician. When two answers seem right, pick the one that protects the organization and follows policy.*
 

@@ -11,7 +11,7 @@ coverAlt: "A futuristic control room with a cybersecurity professional analyzing
 coverCaption: "Master Security Operations for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Security Operations** is **13%** of the **ISC2 CISSP** exam. This module covers the daily work of running security: monitoring systems, handling incidents, recovering from disaster, and keeping the business running. *This is the operational heart of the security program, where policy meets practice.*
 

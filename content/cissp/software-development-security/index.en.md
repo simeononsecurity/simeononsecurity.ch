@@ -11,7 +11,7 @@ coverAlt: "An illustration showing the software development lifecycle with stage
 coverCaption: "Master Software Development Security for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Software Development Security** is **10%** of the **ISC2 CISSP** exam. This module covers building security into software and judging the safety of code you buy or borrow. *Security is cheapest when designed into the development process from the start, so the exam rewards "shift left" thinking.*
 

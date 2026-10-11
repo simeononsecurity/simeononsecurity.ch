@@ -11,7 +11,7 @@ coverAlt: "An illustration of a secure data center featuring server racks, secur
 coverCaption: "Master Security Architecture and Engineering for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Security Architecture and Engineering** is **13%** of the **ISC2 CISSP** exam. This module covers how you design systems that stay secure by default, the formal models that prove a design works, and the cryptography that protects data everywhere. *Cryptography questions appear across the whole exam, so build a solid mental model here and the rest of the test gets easier.*
 

@@ -11,7 +11,7 @@ coverAlt: "A digital dashboard showcasing security metrics and control testing g
 coverCaption: "Master Security Assessment and Testing for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Security Assessment and Testing** is **12%** of the **ISC2 CISSP** exam. This module covers how you prove your controls work rather than assuming they do. *Testing without acting on the results provides no real assurance, so the exam stresses reporting and remediation as much as the tests themselves.*
 

@@ -11,7 +11,7 @@ coverAlt: "A digital illustration of a secure network architecture, featuring la
 coverCaption: "Master Communication and Network Security for the CISSP Exam"
 ---
 
-#### [Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
+[Click Here to Return To the ISC2 CISSP Course Page](/cissp-start/)
 
 **Communication and Network Security** is **13%** of the **ISC2 CISSP** exam. This module covers how you design networks that resist attack and move data through channels nobody else can read. *Apply security principles to networking rather than memorizing vendor commands, since the CISSP tests concepts, not configuration syntax.*
 
