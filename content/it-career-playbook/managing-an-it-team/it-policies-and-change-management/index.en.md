@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-change-management-process-itil-cab.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Most IT outages are caused by changes, not hardware failures.** A formal change management process does not slow work down. It catches the changes most likely to cause problems before they hit production. *Skipping change control feels fast until the first unplanned outage costs you twelve hours of recovery time and an incident report.*
 

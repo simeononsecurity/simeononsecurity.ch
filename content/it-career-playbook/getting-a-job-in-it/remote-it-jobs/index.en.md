@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/remote-it-jobs-guide-finding-landing-positions.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Remote IT work is widespread and growing.** Infrastructure management, cloud engineering, DevOps, and many sysadmin functions can be performed entirely remotely. The IT field offers more remote work opportunities than almost any other professional discipline. The key is matching your experience level to the remote roles that realistically hire remotely.
 

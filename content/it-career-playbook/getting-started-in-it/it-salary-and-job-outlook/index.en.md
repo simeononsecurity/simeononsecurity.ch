@@ -3,106 +3,44 @@ title: "IT Salary and Job Outlook 2026"
 draft: false
 toc: true
 date: 2026-07-22
-description: "Current IT salary data by role, experience level, location, and specialization — plus job growth projections across help desk, networking, cloud, DevOps, security, and IT management."
+description: "Compare U.S. IT occupation pay and 2025–2035 projections using Bureau of Labor Statistics data, then research local offers and total compensation."
 tags: ["IT salary 2026", "IT job outlook", "information technology salary", "cloud engineer salary", "sysadmin salary", "help desk salary", "network engineer salary", "DevOps salary", "IT salary by experience", "IT job growth"]
 coverAlt: "A diverse group of IT professionals, including a network engineer, cloud engineer, and security analyst, collaborating in a high-tech office, analyzing interactive data visualizations on screens."
 coverCaption: ""
 cover: "/img/cover/it-salary-job-outlook-2026-information-technology-earnings.webp"
 ---
+[Return to the IT Career Playbook](/it-career-playbook-start/)
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+Pay depends on occupation, location, experience, employer, and the type of compensation. A national median is the middle wage for people already working in an occupation. It is not an entry-level offer or a forecast for your city.
 
-**IT salaries vary enormously by specialization, experience, location, and company type — but the field overall pays significantly above the national median for professional occupations.** Understanding these ranges helps you know your market value, target the right roles, and negotiate with confidence.
+## Current U.S. Occupation Data
 
-*Do not anchor your salary expectations to early-career peers. The ceiling in most IT specializations is far higher than most people realize when entering the field.*
+The table uses U.S. Bureau of Labor Statistics (BLS) Occupational Outlook Handbook pages checked in October 2026. Median annual wages are for May 2025. Employment projections cover 2025 to 2035. BLS definitions do not match every job title in a posting.
 
-## IT Salary by Role and Experience Level
+| BLS occupation | May 2025 median annual wage | Projected employment change, 2025–2035 |
+|---|---:|---:|
+| [Computer user support specialists](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm) | $61,860 | -3% |
+| [Computer network support specialists](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm) | $76,220 | +1% |
+| [Network and computer systems administrators](https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm) | $99,130 | -4% |
+| [Information security analysts](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm) | $129,180 | +21% |
+| [Computer and information systems managers](https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm) | $175,140 | +16% |
 
-| Role | Entry Level | Mid-Career | Senior |
-|------|------------|------------|--------|
-| **Help Desk / IT Support** | $38K–$52K | $52K–$72K | $72K–$90K |
-| **Desktop Support / Deskside** | $42K–$58K | $58K–$78K | $78K–$95K |
-| **Systems Administrator** | $55K–$70K | $72K–$100K | $100K–$135K |
-| **Network Engineer** | $60K–$80K | $82K–$115K | $115K–$155K |
-| **Cloud Engineer / Cloud Ops** | $72K–$95K | $100K–$145K | $145K–$200K+ |
-| **DevOps Engineer** | $80K–$100K | $108K–$150K | $150K–$210K+ |
-| **Site Reliability Engineer (SRE)** | $90K–$115K | $118K–$165K | $165K–$230K+ |
-| **Database Administrator** | $58K–$78K | $80K–$110K | $110K–$155K |
-| **IT Security Analyst** | $62K–$82K | $85K–$120K | $120K–$165K |
-| **IT Manager** | $80K–$100K | $105K–$135K | $135K–$185K+ |
-| **IT Director** | $110K–$140K | $140K–$175K | $175K–$250K+ |
+Computer support specialists as a combined occupation have a projected decline of 3%, yet BLS estimates about 48,700 openings per year on average, primarily from workers leaving the occupation. Growth and openings answer different questions. A projection does not guarantee hiring in a specific market.
 
-*These are US market ranges. Remote roles at tech companies or with government clearances often exceed these ranges significantly.*
+## Match the Data to Your Role
 
-## Salary Variance Factors
+A posting for `cloud engineer` or `DevOps engineer` might map to several BLS occupations. Read the duties before choosing a comparison. Do not assign a national median to an entry-level title solely because the names sound similar.
 
-### Location
+1. Record the role, city or remote location, employer, posting date, and duties.
+2. Find the closest BLS occupation and a local wage estimate through its State & Area Data link.
+3. Compare several current postings with the same location and scope. Note whether a listed range is base pay or total compensation.
+4. Check benefits, bonus rules, overtime status, equity terms, on-call expectations, and travel costs separately.
+5. Recheck figures before negotiating. Wages and postings change, and published estimates often lag current offers.
 
-Location is one of the largest salary drivers in IT, though remote work has partially compressed geographic differences:
+Do not assume a clearance, certification, cloud platform, company size, or remote arrangement adds a fixed premium. Those factors interact with role, location, eligibility, and employer policy. Document the actual requirement and offer terms.
 
-| Market | Adjustment vs. National Median |
-|--------|-------------------------------|
-| San Francisco / Bay Area | +35% to +55% |
-| New York / Seattle / Boston | +20% to +40% |
-| Austin / Denver / Chicago | +5% to +15% |
-| National median (remote) | Baseline |
-| Mid-size metros (Raleigh, KC, Phoenix) | -5% to -10% |
-| Rural areas | -15% to -25% |
+## Practice
 
-### Security Clearances
+Choose two postings for the same role in one metro area. Write down base pay range, required experience, schedule, and benefits for each. Compare those with the closest BLS local data. Explain why the national median is or is not a fair benchmark for your own experience. If a posting hides pay, record that limit rather than inventing a number.
 
-IT professionals with active US government security clearances command a significant premium:
-
-- **Secret clearance** — adds $10K–$20K depending on role
-- **Top Secret** — adds $20K–$40K
-- **TS/SCI** — adds $30K–$60K or more
-- **TS/SCI with a polygraph** — some of the highest-paying IT roles in the country
-
-### Cloud Platform Specialization
-
-Cloud engineers specializing in a single major platform earn differently than generalists:
-
-| Specialization | Average Premium |
-|----------------|----------------|
-| **AWS** | Highest demand; consistent premium across experience levels |
-| **Azure** | Strong demand in enterprise and government; equivalent to AWS |
-| **GCP** | Smaller market but premium for deep GCP expertise |
-| **Multi-cloud / Cloud-agnostic** | Highest ceiling at architect level |
-
-### Company Size and Type
-
-| Company Type | Typical Compensation Structure |
-|-------------|-------------------------------|
-| **Large tech companies (FAANG+)** | Base salary + large equity (RSUs). Total comp often 2x–3x base salary. |
-| **Mid-size tech / SaaS** | Competitive base + modest equity. |
-| **Enterprise / Fortune 500** | Market-rate base, structured bonus, good benefits. |
-| **Government (federal)** | GS-scale pay, clearance premiums, strong benefits and job security. |
-| **Managed Service Providers (MSPs)** | Below-market base but excellent exposure to many technologies. Good for entry-level. |
-
-## Job Market and Growth
-
-The Bureau of Labor Statistics projects the following growth rates for IT roles (2022–2032):
-
-| Occupation | Projected Growth | New Jobs (Projected) |
-|-----------|-----------------|---------------------|
-| **Software developers/related** | 26% | 411,000+ |
-| **Information security analysts** | 32% | 53,200+ |
-| **Computer support specialists** | 6% | 62,000+ |
-| **Network and systems admins** | 3% | 16,200+ |
-| **Computer and IT managers** | 15% | 51,900+ |
-
-*Cloud infrastructure, DevOps, and AI/automation-adjacent roles are growing faster than BLS categories capture — these roles did not exist in their current form a decade ago.*
-
-## How to Use This Salary Data
-
-- **Research comparable salaries before every job application** using Glassdoor, Levels.fyi (for tech companies), LinkedIn Salary, and BLS data.
-- **Never give the first number** in a salary negotiation. Let the employer anchor, then counter with a specific number supported by your research.
-- **Total compensation matters more than base salary.** Benefits, retirement matching, equity, and bonus potential can represent 20–50% of total comp.
-- **Remote roles change the equation.** A $110K remote role in a mid-size metro is almost always worth more in purchasing power than a $135K role requiring San Francisco cost of living.
-
-## Next Steps
-
-- [Getting a Job in IT](/it-career-playbook/getting-a-job-in-it/)
-- [IT Resume Writing Tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/)
-- [What Does an IT Career Path Look Like?](/it-career-playbook/getting-started-in-it/what-does-an-it-career-path-look-like/)
-- [IT Career Playbook Home](/it-career-playbook-start/)
+Continue with [Getting a Job in IT](/it-career-playbook/getting-a-job-in-it/) and [IT Resume Writing Tips](/it-career-playbook/getting-a-job-in-it/it-resume-writing-tips/).

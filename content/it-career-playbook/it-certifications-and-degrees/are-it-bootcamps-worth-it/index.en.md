@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-bootcamps-worth-it-assessment-2026.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **The honest answer: it depends entirely on which bootcamp and which candidate.** A well-run IT bootcamp with strong employer partnerships can compress 12–18 months of self-directed learning into 3–6 months with built-in accountability and job placement support. A poorly run bootcamp is an expensive way to watch someone else study. The difference between them is not obvious from marketing materials.
 

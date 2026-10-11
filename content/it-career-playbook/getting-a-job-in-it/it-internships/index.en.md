@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-internships-how-to-find-and-get-internships.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **An IT internship is one of the fastest ways to build real work experience before or during your formal education.** Even a 3-month internship producing genuine IT work experience — real tickets, real systems, a real team — dramatically changes your resume's competitiveness. Many IT internships convert to full-time offers.
 

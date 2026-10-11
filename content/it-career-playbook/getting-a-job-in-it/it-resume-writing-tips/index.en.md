@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-resume-writing-tips-professional-illustration.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Your resume is a filtering document, not a biography.** Hiring managers spend less than 30 seconds on a first pass. Applicant Tracking Systems (ATS) filter resumes based on keyword matches before a human ever sees them. An IT resume that works is structured clearly, keyword-rich, and quantified. One that does not work is a walls-of-text job description copy.
 

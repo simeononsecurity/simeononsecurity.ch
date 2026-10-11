@@ -1,20 +1,20 @@
 ---
-title: "CompTIA Certification Roadmap: From A+ to CASP+ (2026)"
+title: "CompTIA Certification Roadmap: A+ to SecurityX"
 draft: false
 toc: true
 date: 2026-07-22
-description: "The complete CompTIA certification roadmap — A+, Network+, Security+, Linux+, CySA+, PenTest+, and CASP+ — with recommended exam order, study resources, and what each cert proves to employers."
-tags: ["CompTIA certification roadmap", "CompTIA A+", "CompTIA Network+", "CompTIA Security+", "CompTIA Linux+", "CompTIA CySA+", "CompTIA PenTest+", "CompTIA CASP+", "CompTIA certifications 2026", "CompTIA career path"]
-coverAlt: "An illustration of a pathway representing the CompTIA certification roadmap, showcasing various certifications like A+, Network+, Security+, and CASP+ against a dark navy background with colorful accents."
+description: "Compare current CompTIA A+, Network+, Security+, Linux+, CySA+, PenTest+, and SecurityX paths with role needs and lab work."
+tags: ["CompTIA certification roadmap", "CompTIA A+", "CompTIA Network+", "CompTIA Security+", "CompTIA Linux+", "CompTIA CySA+", "CompTIA PenTest+", "CompTIA SecurityX", "CompTIA career path"]
+coverAlt: "An illustration of a certification path with A+, Network+, Security+, and advanced security study."
 coverCaption: ""
 cover: "/img/cover/comptia-certification-roadmap-a-plus-to-casp.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
-**CompTIA certifications are the most widely recognized vendor-neutral IT credentials on the market.** Every CompTIA cert proves foundational or specialized knowledge in a way that transfers across employers and industries. A well-planned CompTIA stack covers hardware, networking, security, Linux, and advanced security from a single vendor with strong employer recognition.
+**CompTIA offers vendor-neutral credentials across IT support, networking, security, and Linux.** Check job postings for the role and location you want before paying for an exam. A credential documents assessed knowledge. It does not replace work samples or experience.
 
-*CompTIA certifications are valid for three years and renewed through Continuing Education (CE) credits or by passing a higher-level exam. Plan your renewal schedule from day one.*
+*Check each credential's current renewal rules with CompTIA. Many use a three-year continuing education cycle, but accepted activities and automatic renewals differ by credential.*
 
 ## The CompTIA Certification Stack
 
@@ -23,66 +23,61 @@ cover: "/img/cover/comptia-certification-roadmap-a-plus-to-casp.webp"
 | **CompTIA A+** | 220-1201 / 220-1202 | Entry | Hardware, OS, networking basics, troubleshooting |
 | **CompTIA Network+** | N10-009 | Entry/Intermediate | Networking infrastructure, protocols, troubleshooting |
 | **CompTIA Security+** | SY0-701 | Entry/Intermediate | Security fundamentals, threats, cryptography, compliance |
-| **CompTIA Linux+** | XK0-005 | Intermediate | Linux administration, scripting, system management |
-| **CompTIA CySA+** | CS0-003 | Intermediate | Cybersecurity analysis, threat detection, SOC analyst skills |
+| **CompTIA Linux+** | XK0-006 | Intermediate | Linux administration, services, scripting, troubleshooting |
+| **CompTIA CySA+** | CS0-004 | Intermediate | Cybersecurity analysis, threat detection, incident response |
 | **CompTIA PenTest+** | PT0-003 | Intermediate | Penetration testing methodology |
-| **CompTIA SecurityX / CASP+** | CAS-005 | Advanced | Enterprise security architecture, risk management |
+| **CompTIA SecurityX** | CAS-005 | Advanced | Enterprise security architecture, risk management |
 | **CompTIA SecAI+** | CY0-001 | Intermediate | AI security, AI systems integration |
-| **CompTIA SecOT+** | SOT-001 | Intermediate | Operational technology security, ICS/SCADA |
+| **CompTIA SecOT+** | Draft SOT-001 | Pre-release | Operational technology security topics, subject to final objectives |
 
 ---
 
 ## CompTIA A+ (220-1201 / 220-1202)
 
-**CompTIA A+** is the standard starting point for IT careers. It is recognized by the DoD Directive 8140 as baseline qualification for several tech support roles.
+**CompTIA A+** provides a starting point for many IT support paths. Federal work roles have specific qualification requirements under the DoD 8140 program. Check the applicable role and component before treating one credential as sufficient.
 
 - **Two exams required**: Core 1 (220-1201) covers mobile devices, networking, hardware, virtualization, and cloud; Core 2 (220-1202) covers operating systems, security, software troubleshooting, and operational procedures.
-- **Study time** (beginner): 80–120 hours total
-- **Best free study resource**: Professor Messer (professormesser.com)
-- **Practice exams**: Jason Dion's Udemy practice tests; official CertMaster Practice
+- **Study plan**: map each official objective to a lesson, a lab, and a check result
+- **Resources**: compare current exam codes and outlines before using a course or practice bank
 
 See the full course on this site: [CompTIA A+ Course (220-1201 / 220-1202)](/a-plus-start/)
 
 ## CompTIA Network+ (N10-009)
 
-**CompTIA Network+** is the essential networking certification for IT professionals who are not pursuing a Cisco-specific networking career. It covers networking fundamentals applicable across all environments.
+**CompTIA Network+** assesses networking concepts across vendor environments. Compare its scope with role requirements and other networking credentials before choosing an exam.
 
 - **Topics**: Networking concepts, infrastructure, operations, security, network troubleshooting
-- **Study time**: 60–100 hours (after A+)
-- **Best study resource**: Professor Messer, CBT Nuggets
-- **Recommended before**: Security+, any sysadmin role
+- **Study plan**: build and troubleshoot a small network, then check gaps against N10-009 objectives
 
 See the full course on this site: [CompTIA Network+ Course (N10-009)](/network-plus-start/)
 
 ## CompTIA Security+ (SY0-701)
 
-**CompTIA Security+** has become a near-universal baseline requirement. Even non-security IT roles increasingly list it as required or preferred. It is DoD 8140-approved for Information Assurance Technical (IAT) Level II.
+**CompTIA Security+** assesses foundational security concepts. Employers and federal components set different role qualifications. For DoD positions, use the current 8140 work-role matrix and the hiring component's requirements rather than the former 8570 IAT levels.
 
 - **Topics**: Attacks and threats, architecture, implementation, operations, governance, risk, compliance
-- **Study time**: 60–90 hours (after Network+)
-- **Best study resource**: Professor Messer, Darril Gibson's study guide
+- **Study plan**: complete a control, incident, and risk exercise, then check gaps against SY0-701 objectives
 
 See the full course on this site: [CompTIA Security+ Course (SY0-701)](/security-plus-start/)
 
-## CompTIA Linux+ (XK0-005)
+## CompTIA Linux+ (XK0-006)
 
 **CompTIA Linux+** covers Linux administration at a level suitable for sysadmin and cloud engineering roles. Unlike Red Hat's RHCSA, it is vendor-neutral and covers multiple distributions.
 
-- **Topics**: System management, security, scripting and automation, troubleshooting
-- **Study time**: 60–80 hours (after Security+)
-- **Best for**: Cloud engineers, sysadmins, DevOps engineers
+- **Topics**: System management, services and users, security, automation and scripting, troubleshooting
+- **Study plan**: document a Linux VM's storage, services, users, security, automation, and troubleshooting evidence
 
-See the full course on this site: [CompTIA Linux+ Course (XK0-005)](/linux-plus-start/)
+See the course path: [CompTIA Linux+ XK0-006](/linux-plus-start/)
 
-## CompTIA CySA+ (CS0-003)
+## CompTIA CySA+ (CS0-004)
 
 **CompTIA CySA+** targets security analysts, SOC analysts, and IT professionals taking on security responsibilities. It focuses on threat intelligence, vulnerability management, and behavioral analytics.
 
 - **Topics**: Threat intelligence, vulnerability management, incident response, reporting
-- **Study time**: 60–80 hours (after Security+)
-- **DoD 8140**: Approved for IAT Level III and CSSP Analyst roles
+- **Study plan**: produce a detection, vulnerability triage, response, and reporting record
+- **Federal roles**: Check the current DoD 8140 work-role matrix and your component's rules before choosing this credential for a position
 
-See the full course on this site: [CompTIA CySA+ Course (CS0-003)](/cysa-plus-start/)
+See the course path: [CompTIA CySA+ CS0-004](/cysa-plus-start/)
 
 ## CompTIA PenTest+ (PT0-003)
 
@@ -90,11 +85,11 @@ See the full course on this site: [CompTIA CySA+ Course (CS0-003)](/cysa-plus-st
 
 See the full course on this site: [CompTIA PenTest+ Course (PT0-003)](/pentest-plus-start/)
 
-## CompTIA SecurityX / CASP+ (CAS-005)
+## CompTIA SecurityX (CAS-005)
 
-**CompTIA SecurityX** (formerly CASP+) is the advanced security certification aimed at practitioners rather than managers. It does not expire — CompTIA grandfathered permanent validity for this cert — and is DoD 8140 approved for IAT Level III and IASAE roles.
+**CompTIA SecurityX** (formerly CASP+) is an advanced security certification for practitioners. It requires renewal under CompTIA's continuing education program. Check the [current SecurityX renewal options](https://www.comptia.org/en-us/resources/ce/renew-options/renewing-securityx-single/) and the applicable DoD 8140 work-role matrix before planning a credential path.
 
-See the full course on this site: [CompTIA SecurityX / CASP+ Course (CAS-005)](/casp-plus-start/)
+See the course path: [CompTIA SecurityX CAS-005](/casp-plus-start/)
 
 ---
 

@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/soft-skills-it-professionals-communication-teamwork.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Technical skills get you hired. Soft skills determine how far you go.** The majority of IT professionals who plateau in their careers are not held back by insufficient technical knowledge — they are held back by an inability to communicate clearly, manage their time, prioritize competing demands, or work effectively with non-technical colleagues. These skills are learnable, and they differentiate good engineers from great ones.
 

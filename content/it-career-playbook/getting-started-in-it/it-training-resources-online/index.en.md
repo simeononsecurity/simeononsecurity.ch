@@ -3,100 +3,49 @@ title: "IT Training Resources Online"
 draft: false
 toc: true
 date: 2026-07-22
-description: "The best free and paid online IT training resources — from Professor Messer for CompTIA certs to AWS Skill Builder, Microsoft Learn, Pluralsight, and hands-on lab platforms."
+description: "Choose current IT training by objective, cost, access, and hands-on practice. Compare official learning paths, community lessons, and labs."
 tags: ["IT training online", "free IT courses", "Professor Messer", "CBT Nuggets", "Pluralsight IT", "AWS Skill Builder", "Microsoft Learn", "TryHackMe", "IT certification study", "IT online courses 2026"]
 coverAlt: "A digital illustration of diverse individuals learning IT online, using laptops and tablets in a dark background. Colorful screens display various tech-related visuals, representing fields like cloud computing and cybersecurity."
 coverCaption: ""
 cover: "/img/cover/it-training-resources-online-free-paid-courses-specializations.webp"
 ---
+[Return to the IT Career Playbook](/it-career-playbook-start/)
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+Start with the skill or exam objective you need. Then compare training sources. Catalogs, prices, free access, and exam versions change. Check the provider's page before paying or creating a cloud account.
 
-**The volume of free and low-cost IT training available today removes most financial barriers to entering the field.** The challenge is not finding resources — it is choosing the right ones for your current goal and not losing time to unfocused consumption. This guide organizes the best training resources by type and certification target so you can study efficiently.
+## Choose a Source
 
-*A warning: watching videos is not practicing. For every hour of video study, spend at least one hour applying what you learned in a home lab or hands-on environment.*
+| Goal | Starting point | Check before enrolling |
+|---|---|---|
+| CompTIA exam study | [CompTIA exam objectives](https://www.comptia.org/certifications), then [Professor Messer](https://www.professormesser.com/) or another current instructor | Does the material match your exam code and objective version? |
+| Microsoft administration | [Microsoft Learn](https://learn.microsoft.com/training/) | Is the exam current? Does a lab require your own Azure subscription and create charges? |
+| AWS operations | [AWS Skill Builder](https://skillbuilder.aws/) | Which lessons and labs are included without a subscription? |
+| Google Cloud | [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) | Which labs need credits or a paid plan? |
+| Linux and Kubernetes | [Linux Foundation Training](https://training.linuxfoundation.org/) | Does the course target the tools and exam version you need? |
+| Network simulation | [Cisco Networking Academy](https://www.netacad.com/) and Packet Tracer | Which account and download terms apply? |
+| Security practice | [TryHackMe](https://tryhackme.com/) or another authorized lab provider | Are the exercises defensive, offensive, or both? Do you understand the lab scope? |
 
-## Free Resources
+Official exam objectives set the coverage target for a certification. A third-party course supplies one teaching path. Compare its table of contents against the current objective PDF. Missing objectives need another source or your own practice.
 
-### Professor Messer (CompTIA A+, Network+, Security+)
+## Evaluate a Paid Course
 
-**[Professor Messer](https://www.professormesser.com/)** is the gold standard for free CompTIA certification study. His courses cover CompTIA A+ (220-1201 / 220-1202), Network+ (N10-009), and Security+ (SY0-701) with video lectures matched directly to the exam objectives.
+Before buying a subscription or individual course, record the current price, billing interval, renewal terms, refund policy, supported exam version, lab access, and accessibility needs. Compare two providers using the same criteria. Do not infer quality from a sale price or a platform ranking.
 
-The videos are free on his website and YouTube. Premium study groups, practice exams, and PDF study guides are available for a modest fee and are worth it when you are close to exam day.
+Cloud labs might create billable resources in your own account. Set a budget alert, identify the resource cleanup steps, and check charges after the exercise. A free lesson does not imply free infrastructure. Microsoft Learn's earlier general Azure sandbox is no longer available for many labs, so read each module's current requirements.
 
-### Microsoft Learn
+## Turn Study into Evidence
 
-**[Microsoft Learn](https://learn.microsoft.com/)** provides free structured learning paths for every Microsoft certification — Azure fundamentals (AZ-900), Azure Administrator (AZ-104), Azure Solutions Architect (AZ-305), Microsoft 365, and more. Learning paths include hands-on sandbox environments. No Azure account or payment required for most modules.
+Use a simple loop for each topic:
 
-### AWS Skill Builder
+1. Read an objective and a lesson.
+2. Practice one safe task in a local lab or the provider's authorized environment.
+3. Record the starting state, action, result, and cleanup.
+4. Answer an objective question without notes. Revisit the topic when your answer is incomplete.
 
-**[AWS Skill Builder](https://skillbuilder.aws/)** is Amazon's official free training platform. It includes learning paths for AWS Cloud Practitioner, Solutions Architect, SysOps Administrator, and specialty certifications. The free tier provides hundreds of hours of content including digital courses, labs, and practice question sets.
+For example, after studying DNS, configure a resolver in a disposable VM, query a test domain, record the output, restore the original configuration, and explain the difference between name resolution and reachability. The record gives you evidence to discuss in an interview.
 
-### Google Cloud Skills Boost
+## Study Plan Exercise
 
-**[Google Cloud Skills Boost](https://www.cloudskillsboost.google/)** provides free quests and labs for Google Cloud certifications. Labs run in real GCP environments with no credit card required for the free tier content. A strong complement to the Google Associate Cloud Engineer or Professional Cloud Architect path.
+Choose one role and collect five postings in your location. Identify three repeated skills. Map each skill to one current learning source and one practice task. Estimate the total cost from the providers' current terms. Set a review date because exam and service catalogs change.
 
-### Linux Foundation Training
-
-**[The Linux Foundation](https://training.linuxfoundation.org/)** offers free introductions to Linux (LFS101) and several other open-source courses. Their paid courses and certifications (LFCS, CKA, CKAD) are the industry standard for Linux and Kubernetes skills.
-
-### TryHackMe (Security-Oriented IT)
-
-**[TryHackMe](https://tryhackme.com/)** provides gamified, browser-based labs for IT security and cybersecurity skills. A free account gives access to many rooms. It is particularly useful for learning defensive IT security, networking concepts, and SOC analyst skills.
-
----
-
-## Paid Resources Worth the Investment
-
-### CBT Nuggets
-
-**[CBT Nuggets](https://www.cbtnuggets.com/)** produces high-quality video training for most major IT certifications — CompTIA, Cisco, Microsoft, AWS, and more. The trainers are active practitioners who hold the certifications they teach. A subscription runs ~$60/month. If you are working through multiple certifications in a year, the subscription pays for itself easily.
-
-### Pluralsight
-
-**[Pluralsight](https://www.pluralsight.com/)** is the strongest platform for cloud, DevOps, and advanced infrastructure content. Coverage includes AWS, Azure, GCP, Kubernetes, Docker, Terraform, Python, and Linux at depth. Skill assessments identify gaps in your knowledge. Plans start at ~$30/month; check for annual discounts.
-
-### Udemy
-
-**[Udemy](https://www.udemy.com/)** sells individual courses at $15–$20 during frequent sales (the $200 list price is almost never the actual price). The best Udemy courses for IT:
-- AWS Certified Solutions Architect by Stephane Maarek (consistently highest-rated)
-- Cisco CCNA by Neil Anderson
-- Kubernetes for Absolute Beginners by Mumshad Mannambeth
-
-### Coursera and edX
-
-**[Coursera](https://www.coursera.org/)** and **[edX](https://www.edx.org/)** host courses from universities and vendors. Google's IT Support Professional Certificate on Coursera is a valid entry-level credential that teaches real skills and is recognized by employers participating in the Google employer consortium.
-
----
-
-## Hands-On Lab Platforms
-
-Certification study without practice does not stick. Dedicated lab platforms provide safe environments to apply skills:
-
-| Platform | Best For |
-|----------|----------|
-| **KodeKloud** | Kubernetes, Docker, DevOps, Ansible — hands-on practice labs |
-| **A Cloud Guru / Linux Academy** | AWS, Azure, GCP labs with cloud sandboxes |
-| **HackTheBox** | Advanced IT security and penetration testing |
-| **Cisco Packet Tracer** | Cisco network simulation (free with NetAcad account) |
-| **GNS3** | Multi-vendor network simulation including Cisco IOS |
-| **INE** | CCNA through CCIE lab environments and courses |
-
----
-
-## Study Tools
-
-| Tool | Purpose |
-|------|---------|
-| **Anki** | Spaced repetition flashcards. Import or create decks for certification terms. |
-| **ExamCompass** | Free practice tests for CompTIA A+, Network+, Security+ |
-| **Jason Dion's Practice Exams (Udemy)** | High-quality practice exams for CompTIA certifications |
-| **Whizlabs** | Practice exams for AWS, Azure, and GCP certifications |
-| **Official CompTIA CertMaster Practice** | Adaptive practice from the certification vendor itself |
-
-## Next Steps
-
-- [CompTIA Certification Roadmap](/it-career-playbook/it-certifications-and-degrees/comptia-certification-roadmap/)
-- [Cloud Certifications Guide](/it-career-playbook/it-certifications-and-degrees/cloud-certifications-guide/)
-- [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)
-- [IT Career Playbook Home](/it-career-playbook-start/)
+Continue with the [CompTIA Roadmap](/it-career-playbook/it-certifications-and-degrees/comptia-certification-roadmap/), [Cloud Certifications Guide](/it-career-playbook/it-certifications-and-degrees/cloud-certifications-guide/), and [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/).

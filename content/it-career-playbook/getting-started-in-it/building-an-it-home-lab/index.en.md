@@ -11,7 +11,7 @@ coverCaption: ""
 cover: "/img/cover/it-home-lab-setup-2026-portfolio.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **A well-run and documented homelab is the single most important thing you can build for your IT career in 2026.** Not a certification. Not a degree. Not a LinkedIn endorsement. A real, running, documented environment that proves you have deployed systems, broken them, fixed them, automated them, and learned from every incident. *In the age of AI-generated resumes and credential inflation, the homelab is the one thing that cannot be faked.* 
 

@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-career-paths-technical-management-tracks.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Every IT professional who progresses far enough eventually faces a fork: stay technical or move into management.** This is not a one-time, irreversible decision, but it does shape your day-to-day work, compensation ceiling, and career satisfaction for years. *Choose based on what energizes you daily, not just what pays more right now.*
 

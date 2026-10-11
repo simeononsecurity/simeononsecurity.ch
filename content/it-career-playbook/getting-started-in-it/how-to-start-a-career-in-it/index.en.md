@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/starting-a-career-in-it-step-by-step-guide.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Starting an IT career is achievable without a prior technical background, but it requires a deliberate sequence of steps.** The professionals who break in fastest are those who stack one credential, one skill, and one experience on top of each other rather than trying to master everything at once.
 

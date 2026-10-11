@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-regulations-compliance-itil-nist-soc2-hipaa.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Compliance is not a checkbox exercise for lawyers.** Senior IT professionals are responsible for implementing and maintaining the controls that keep organizations legally and contractually compliant. *Ignorance of the applicable framework is not a defense when an auditor or regulator asks why a control is missing.*
 

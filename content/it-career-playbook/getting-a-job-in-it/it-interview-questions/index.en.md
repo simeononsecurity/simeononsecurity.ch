@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-interview-questions-tech-behavioral-strategies.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **IT interviews test two things: your technical knowledge and your ability to solve problems under pressure.** The technical questions vary by role. The behavioral questions are the same across every IT role. Preparing for both separately is the most effective approach.
 

@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/building-managing-it-team-structure-hiring-onboarding.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Building a great IT team is the highest-leverage thing an IT manager can do.** A well-structured team with clear ownership and strong onboarding multiplies your department's output and resilience. *One strong hire compounds over years. One bad hire costs months of management time and damages team morale.*
 

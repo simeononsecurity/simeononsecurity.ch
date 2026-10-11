@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/outsourcing-vs-in-house-it-management-decisions.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **The decision to outsource or keep IT work in-house is one of the most financially significant choices an IT manager makes.** Done well, outsourcing frees your internal team to focus on strategic, differentiated work. Done poorly, it creates vendor dependency, hides costs, and erodes institutional knowledge. *Outsource commodity work. Keep differentiated and mission-critical functions internal.*
 

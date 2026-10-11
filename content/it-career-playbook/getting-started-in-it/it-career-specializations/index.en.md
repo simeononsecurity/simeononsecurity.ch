@@ -10,7 +10,7 @@ coverCaption: ""
 cover: "/img/cover/it-career-specializations-path-information-technology.webp"
 ---
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+[Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
 
 **Information Technology is not one job — it is a family of disciplines, each with its own skill set, certification path, and career ceiling.** Understanding the major specializations before you commit to a learning path saves you months of unfocused study. Most IT professionals start broad (help desk or sysadmin) and specialize as their interests and the market clarify direction.
 

@@ -1,84 +1,44 @@
 ---
-title: "Is IT a Good Career in 2026? The AI Reality Check"
+title: "Is IT a Good Career for You? Roles, Work, and Outlook"
 draft: false
 toc: true
 date: 2026-07-22
 lastmod: 2026-07-22
-description: "An honest 2026 assessment of IT as a career in the age of AI automation. Entry-level and management roles are getting squeezed. Here is what actually differentiates candidates now."
+description: "Assess IT career fit using daily work, current U.S. occupation data, training costs, and a small troubleshooting exercise."
 tags: ["is IT a good career 2026", "IT career AI impact", "AI replacing IT jobs", "IT career outlook 2026", "entry level IT jobs AI", "IT homelab career", "IT portfolio 2026", "is IT worth it", "IT career good career"]
 coverAlt: "An engineer in a dark IT workspace, surrounded by AI tools, servers, and network diagrams, actively working on a laptop in a modern setup, illuminated by vibrant blue and green lights."
 coverCaption: ""
 cover: "/img/cover/2026-it-career-ai-tools-homelab-engineering.webp"
 ---
+[Return to the IT Career Playbook](/it-career-playbook-start/)
 
-#### [Click Here to Return To the IT Career Playbook](/it-career-playbook-start/)
+An IT career fits some people and working conditions better than others. Start with the work you want to do: helping users, maintaining systems, designing networks, managing risk, or building software. The title `IT` covers different schedules, training paths, and pay.
 
-**IT is still a good career in 2026. But the version of IT that was a good career ten years ago is not the same version that is a good career today.** AI has compressed the easy parts of the field, made the competitive parts more competitive, and raised the floor for what "qualified" means. *The professionals thriving in IT right now are not the ones who know the most facts. They are the ones who can actually build, run, fix, and prove it.*
+## What the Data Shows
 
-## The AI Reality: What Changed by Mid-2026
+The [U.S. Bureau of Labor Statistics profile for computer support specialists](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm) projects a 3% employment decline from 2025 to 2035 for the combined occupation. It also projects about 48,700 openings per year on average, largely as workers leave. BLS discusses automated support tools as one factor. Its projections do not show that AI replaced a fixed number of technicians at a particular employer.
 
-**Entry-level and management roles are the most disrupted.** AI tooling has automated a significant portion of the work that used to justify entry-level headcounts:
+Other IT occupations have different outlooks. For example, the [information security analyst profile](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm) projects 21% growth over the same period. These national occupation forecasts do not describe entry-level openings, local competition, or your chance of getting hired. Use [the salary and outlook lesson](/it-career-playbook/getting-started-in-it/it-salary-and-job-outlook/) to compare defined occupations with local postings.
 
-- **Tier 1 help desk** is being replaced or reduced by AI-driven ticketing and self-service resolution. A company that needed 8 helpdesk technicians in 2022 may need 2 in 2026 — one to handle true edge cases and one to manage the AI tools doing the rest.
-- **Junior network monitoring** has been largely automated. AI-powered SIEM and NOC platforms flag, triage, and sometimes auto-remediate the alerts that entry-level analysts used to handle.
-- **Middle management** is being squeezed from both directions. AI gives senior engineers more individual leverage (one person doing the work of three), while leadership is scrutinizing management layers more aggressively. IT director headcounts are not growing.
+## Compare the Daily Work
 
-This does not mean IT is dying. The field is absolutely growing. But the growth is concentrated in roles that require demonstrated, verifiable technical depth — not credentials that prove you once studied something.
-
-## What "Qualified" Means in 2026
-
-In 2026, **degrees and certifications are HR qualifying checkboxes, not differentiators.** Every serious IT candidate has a CompTIA A+ or a relevant degree or some form of structured training. Hiring managers assume credentials. They do not get excited about them.
-
-What actually differentiates candidates now:
-
-| Differentiator | What Hiring Managers Actually Want to See |
+| Work setting | Questions to ask |
 |---|---|
-| **Working homelab** | A documented, running, complex lab environment that proves you have deployed and broken real systems |
-| **Portfolio of documented work** | GitHub repos, blog posts, network diagrams, runbooks — evidence that you DO things, not just that you studied them |
-| **Demonstrated problem-solving** | Stories about real incidents: what broke, how you diagnosed it, what you fixed, and what you changed to prevent recurrence |
-| **AI tool proficiency** | Can you use Copilot, AI-assisted monitoring, and automation to multiply your output? |
-| **Depth, not breadth** | One area of genuine expertise beats surface-familiarity with everything |
+| User support | Do you like explaining a fix to a frustrated person? Is shift or onsite work required? |
+| Systems and networking | Do you enjoy checking logs, documenting changes, and joining an on-call rotation? |
+| Security | Does the role involve analysis, policy, operations, or a mix? What prior experience is expected? |
+| Small business IT | Will you have mentoring and a clear escalation path while handling varied tasks? |
 
-*A homelab running Proxmox with Kubernetes, active monitoring, and a documented incident history is worth more to a hiring manager than a stack of certifications with no hands-on evidence.*
+Credentials, degrees, experience, and projects matter differently by role and employer. Do not buy a certification solely because a broad career article calls it essential. First collect five local postings for the role you want and tally the requirements they share.
 
-## The Roles That Are Growing
+## Try the Work Before Committing
 
-Not all IT is under AI compression. These specializations are expanding:
+Use a device you own or a disposable virtual machine. Create a simple troubleshooting record: starting state, one harmless fault, observed symptom, tests, correction, and verification. For example, change a VM's DNS resolver to an invalid test address, record the resolution failure, restore the original setting, and confirm resolution returns. Keep the VM isolated from production systems.
 
-- **Cloud engineering and architecture** — someone has to design, build, and own the infrastructure AI tools run on.
-- **Security operations** — AI creates new attack surfaces and automates more attacks. Human defenders who understand adversarial thinking are still essential.
-- **Platform and DevOps engineering** — building the internal platforms that others build on requires depth AI cannot yet replace.
-- **AI infrastructure / MLOps** — a new category that is genuinely growing fast.
-- **Industrial and OT IT** — AI has not penetrated operational technology as deeply. Experienced OT/IT professionals are in very short supply.
-- **Compliance-driven IT** — HIPAA, FedRAMP, CMMC, PCI DSS compliance requires human judgment and documented accountability.
+If you like the diagnosis and documentation as much as the final fix, consider a support or operations path. If the interaction feels draining, compare roles with different work patterns. A single exercise does not decide your career, but it gives you a concrete question for an informational interview.
 
-## The Honest Salary Picture
+## Decide with Your Constraints
 
-First-year IT salaries for roles that AI has not compressed are holding or growing. Roles that AI has compressed are declining in headcount and seeing salary stagnation at the entry level.
+Write down your target location, income need, training budget, available study time, schedule limits, and willingness to take on-call work. Compare two roles and the cost of meeting their actual requirements. Ask working professionals about daily tasks and progression. Revisit the decision when your circumstances or local market change.
 
-| Role | 2024 Entry Range | 2026 Entry Range | Trend |
-|---|---|---|---|
-| **Tier 1 helpdesk** | $40K–$55K | $38K–$52K (fewer roles) | Contracting |
-| **Sysadmin** | $60K–$80K | $65K–$85K | Stable to slight growth |
-| **Cloud engineer** | $80K–$110K | $90K–$125K | Growing |
-| **Security operations** | $65K–$90K | $70K–$100K | Growing |
-| **DevOps / Platform** | $90K–$120K | $100K–$140K | Strong growth |
-| **OT/ICS IT** | $70K–$95K | $80K–$110K | Strong growth |
-
-## So Is IT Still Worth It?
-
-**Yes, with clear eyes.** The professionals who will build 20-year IT careers are the ones who:
-
-1. Treat the homelab as a continuous, documented practice environment — not a checkbox you ran once for a certification.
-2. Build a portfolio of public evidence: GitHub, a technical blog, network and architecture diagrams, incident postmortems.
-3. Embrace AI as a multiplier. The engineers who use AI tools well are not being replaced — they are doing the work of three people and getting paid accordingly.
-4. Pick a real specialization and go deep. Generalists who can recite everything but prove nothing are at exactly the level AI is most effective at commoditizing.
-5. Solve real problems in their homelab and document them as if they are writing a public knowledge base article.
-
-*The IT career that was a good career because "technology is growing" and "there are always jobs" is harder to coast into now. The IT career built on genuine skill, documented proof, and continuous learning is better than it has ever been.*
-
-## Next Steps
-
-- [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/)
-- [IT Salary and Job Outlook](/it-career-playbook/getting-started-in-it/it-salary-and-job-outlook/)
-- [IT Career Playbook Home](/it-career-playbook-start/)
+Continue with [Building an IT Home Lab](/it-career-playbook/getting-started-in-it/building-an-it-home-lab/) and [Entry-Level IT Jobs](/it-career-playbook/getting-a-job-in-it/entry-level-it-jobs/).
