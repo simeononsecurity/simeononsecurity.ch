@@ -1,7 +1,7 @@
 ---
 title: "Build a Read-Only Active Directory Inventory With PowerShell"
 date: 2026-10-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Inventory Active Directory OUs, users, and computers with scoped PowerShell queries. Export reviewable CSV files without changing directory objects."
@@ -12,7 +12,7 @@ coverAlt: "An Active Directory tree with user, computer, and organizational unit
 coverCaption: "Scope the query, then export only the fields needed for review."
 ---
 
-An Active Directory cleanup starts with a trustworthy list of what exists. This **read-only inventory** gathers organizational units, users, and computers from one chosen scope. It exports three CSV files for review without changing directory objects. You still need to protect those files because names and device details reveal part of your environment.
+An Active Directory cleanup starts with a trustworthy list of what exists. This **read-only inventory** gathers organizational units, users, and computers from one chosen scope. It exports three comma-separated values (CSV) files for review without changing directory objects. You still need to protect those files because names and device details reveal part of your environment.
 
 ## Key Takeaways
 
@@ -23,7 +23,7 @@ An Active Directory cleanup starts with a trustworthy list of what exists. This 
 
 ## Before You Begin
 
-You need a domain-connected Windows administration host with the **ActiveDirectory** PowerShell module, an account approved to read the selected objects, and a protected folder for CSV output. The site's [Active Directory module guide](/articles/active-directory-module-powershell-installation-usage-guide/) covers installation. Microsoft lists the module's [cmdlet reference](https://learn.microsoft.com/en-us/powershell/module/activedirectory/). This guide uses Windows PowerShell syntax and avoids changes to directory objects.
+You need a Windows administration host with working DNS and network access to a domain controller, the **ActiveDirectory** PowerShell module, an account approved to read the selected objects, and a protected folder for CSV output. On a Windows client, the module comes from the Active Directory tools in Remote Server Administration Tools (RSAT). The site's [Active Directory module guide](/articles/active-directory-module-powershell-installation-usage-guide/) covers installation. Microsoft lists the module's [cmdlet reference](https://learn.microsoft.com/en-us/powershell/module/activedirectory/) and [RSAT installation options](https://learn.microsoft.com/windows-server/remote/remote-server-administration-tools). This guide uses Windows PowerShell syntax and avoids changes to directory objects.
 
 Directory permissions still apply. Microsoft explains that object access control lists often give authenticated users read access to general information while restricting sensitive fields and changes in its [privileged accounts guidance](https://learn.microsoft.com/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory). Use an approved account and a test OU first. Do not elevate to Domain Admin to make an inventory succeed.
 
@@ -67,18 +67,23 @@ Get-ADComputer -Filter * -SearchBase $SearchBase | Measure-Object
 
 `-Filter *` means all matching objects within the search base. Microsoft documents [Get-ADUser](https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-aduser) and [Get-ADComputer](https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer) as retrieval commands. A zero count might be legitimate, but check the DN, permissions, and target domain before treating it as a complete inventory.
 
-Now preview a few rows in the console. The command below selects only fields that help identify and group an object:
+Now preview a few rows in the console. Store the selected fields so the preview and later CSV export use the same columns:
 
 ```powershell
+$UserFields = 'Name', 'SamAccountName', 'Enabled', 'DistinguishedName'
 Get-ADUser -Filter * -SearchBase $SearchBase |
-    Select-Object -First 10 Name, SamAccountName, Enabled, DistinguishedName
+    Select-Object -Property $UserFields -First 10
 ```
 
 For computers, request the extra operating system field only when your review needs it:
 
 ```powershell
+$ComputerFields = @(
+    'Name', 'DNSHostName', 'OperatingSystem',
+    'Enabled', 'DistinguishedName'
+)
 Get-ADComputer -Filter * -SearchBase $SearchBase -Properties OperatingSystem |
-    Select-Object -First 10 Name, DNSHostName, OperatingSystem, Enabled, DistinguishedName
+    Select-Object -Property $ComputerFields -First 10
 ```
 
 The `-Properties` parameter requests properties outside the cmdlet's default set. Microsoft's [computer cmdlet reference](https://learn.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer) documents it. Treat operating system names as directory data, not proof of the current installed version. A computer object might be stale or its attribute might not have updated.
@@ -93,11 +98,11 @@ Get-ADOrganizationalUnit -Filter * -SearchBase $SearchBase |
     Export-Csv -Path .\ad-ous.csv -NoTypeInformation -Encoding UTF8 -NoClobber
 
 Get-ADUser -Filter * -SearchBase $SearchBase |
-    Select-Object Name, SamAccountName, Enabled, DistinguishedName |
+    Select-Object -Property $UserFields |
     Export-Csv -Path .\ad-users.csv -NoTypeInformation -Encoding UTF8 -NoClobber
 
 Get-ADComputer -Filter * -SearchBase $SearchBase -Properties OperatingSystem |
-    Select-Object Name, DNSHostName, OperatingSystem, Enabled, DistinguishedName |
+    Select-Object -Property $ComputerFields |
     Export-Csv -Path .\ad-computers.csv -NoTypeInformation -Encoding UTF8 -NoClobber
 ```
 
@@ -115,7 +120,7 @@ This is an **inventory**, not a privileged-account audit or a login-activity rep
 
 ## Troubleshooting
 
-- **Module will not import:** Confirm RSAT or the AD DS administration tools are installed on the host. Follow the [module setup guide](/articles/active-directory-module-powershell-installation-usage-guide/).
+- **Module will not import:** Confirm the Active Directory tools from RSAT or the Windows Server administration tools are installed on the host. Follow the [module setup guide](/articles/active-directory-module-powershell-installation-usage-guide/).
 - **Query returns no objects:** Check the exact DN, current domain, OU contents, and read permissions. Try a known small OU before broadening scope.
 - **A property is blank:** Confirm that the attribute exists and that your account can read it. Do not fill missing fields with guesses.
 - **Export says the file exists:** `-NoClobber` protected the earlier report. Choose a new filename or folder and rerun.
