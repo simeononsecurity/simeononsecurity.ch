@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Self-Hosted AI on simeononsecurity</title><image><url>https://hi.simeononsecurity.com/img/banner.webp</url><title>Self-Hosted AI on simeononsecurity</title><link>https://hi.simeononsecurity.com/tags/self-hosted-ai/</link></image><link>https://hi.simeononsecurity.com/tags/self-hosted-ai/</link><description>Recent content in Self-Hosted AI on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>hi</language><lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hi.simeononsecurity.com/tags/self-hosted-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>16GB GPU पर स्थानीय AI कोडिंग: Strata, OpenCode और Qwen3.8</title><link>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</link><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "डेवलपर टूल"
+, "स्व-होस्टेड AI"
+, "AI हार्डवेयर"</category><guid>https://hi.simeononsecurity.com/articles/strata-opencode-local-coding-agent-16gb/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+Strata और OpenCode के साथ स्थानीय कोडिंग एजेंट चलाएँ। रिपोर्ट किए गए RTX 4060 Ti परिणामों, RAM आवश्यकताओं, प्रॉम्प्ट पुनःउपयोग, रीजनिंग बजट और भुगतान वाली सदस्यता बदलने की सीमाओं को देखें।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp" length="246172" type="image/webp"/></item><item><title>Vast.ai पर Llama 3.1 8B और Qwen3.8 27B GPU बेंचमार्क</title><link>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</link><pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate><category>
+"स्थानीय AI"
+, "GPU बेंचमार्किंग"
+, "Self-hosted AI"
+, "क्लाउड कंप्यूटिंग"
+, "कृत्रिम बुद्धिमत्ता"
+, "AI अर्थशास्त्र"</category><guid>https://hi.simeononsecurity.com/articles/qwen38-27b-vast-ai-gpu-benchmark/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+प्रमुख Vast.ai GPU पर Llama 3.1 8B और Qwen3.8 27B के मापे गए Ollama बेंचमार्क। डिकोड गति, लंबे संदर्भ, किराया लागत, self-hosting, API क्रेडिट और सदस्यताओं की तुलना।</description><enclosure url="https://hi.simeononsecurity.com/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp" length="269104" type="image/webp"/></item><item><title>Building a Privacy-Preserving AI Assistant for Meshtastic</title><link>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</link><pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate><category>
+"Network Security"
+, "Privacy"
+, "Open Source"
+, "Automation"</category><guid>https://hi.simeononsecurity.com/articles/building-a-privacy-preserving-meshtastic-ai-assistant/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+A practical account of building a local AI assistant for Meshtastic, with private configuration, queued TCP access, retrieval tools, and a safer dashboard.</description><enclosure url="https://hi.simeononsecurity.com/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp" length="182428" type="image/webp"/></item></channel></rss>
