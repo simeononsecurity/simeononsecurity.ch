@@ -50,7 +50,7 @@ Use three rings instead of one broad list.
 | **Likely** | Several facts support involvement, but one key fact is missing | Mailbox data accessed by the consented application |
 | **Unknown** | Evidence needed for a decision is unavailable | Message access volume, script contents, and data destination content |
 
-`FIN-LT-021` contains PowerShell activity, yet its parent, script path, destination, and surrounding identity event fit approved inventory work. Keep it outside confirmed scope. Record why.
+`FIN-LT-021` contains PowerShell activity, yet its parent, script path, destination, and surrounding identity event fit approved inventory work. Keep the host outside confirmed scope. Record why.
 
 ## Write the Scope Statement
 

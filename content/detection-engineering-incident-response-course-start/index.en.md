@@ -76,6 +76,21 @@ Incident response guidance also changed. **NIST SP 800-61 Rev. 3**, published in
 
 **Primary references, checked 2026-10-10:** [MITRE ATT&CK version history](https://attack.mitre.org/resources/versions/), [MITRE ATT&CK Detection Strategies](https://attack.mitre.org/detectionstrategies/), [MITRE ATT&CK Analytics](https://attack.mitre.org/analytics/), and [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final).
 
+## Troubleshooting
+
+- **The data files open in a browser:** save the raw files into one working folder.
+- **A lesson result differs:** compare timestamps, event IDs, and stated assumptions.
+- **A tool is missing:** use a text editor and preserve the same evidence fields.
+
+## Verify Readiness
+
+- [ ] All three event files and the README are present
+- [ ] Source files have recorded hashes
+- [ ] UTC is the timeline standard
+- [ ] Analyst notes use a separate file
+
+> **Expected Result:** the working folder contains preserved evidence, stable hashes, and an empty analyst timeline ready for Lesson 1.
+
 ## Start Here
 
 Begin with [Lesson 1: Telemetry and Evidence](/detection-engineering-incident-response-course/01-telemetry-evidence/). Create the evidence inventory before writing a rule or naming an incident.

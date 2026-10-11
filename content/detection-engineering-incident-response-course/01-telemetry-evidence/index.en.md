@@ -9,7 +9,7 @@ genre: ["Cybersecurity", "Detection Engineering", "Incident Response"]
 tags: ["security telemetry", "event normalization", "log evidence", "detection engineering", "incident timeline", "SOC course"]
 cover: "/img/cover/detection-engineering-telemetry-evidence.webp"
 coverAlt: "Three log streams feeding a normalized security event timeline with preserved source records."
-coverCaption: "Know what each event proves before using it."
+coverCaption: "Know what each event proves before use."
 ---
 
 [Return to the Detection Engineering and Incident Response Course](/detection-engineering-incident-response-course-start/)
@@ -23,7 +23,7 @@ Create one row per source before opening the investigation files.
 | Source | Key fields | Useful question | Limit |
 |---|---|---|---|
 | **Identity** | User, source IP, device, result, MFA state | Did a principal authenticate from a new context? | A successful sign-in does not prove who used the credential |
-| **Endpoint** | Host, user, process, parent, command line, hash | What executed, and what launched it? | Missing events do not prove missing execution |
+| **Endpoint** | Host, user, process, parent, command line, hash | What executed, and which process launched the child? | Missing events do not prove missing execution |
 | **DNS** | Host, user, query, response, answer | Which names did an endpoint resolve? | A lookup does not prove a later connection |
 
 Record retention, clock source, ingestion delay, field transformations, and access owner. **Do not merge similarly named fields until their meanings match.** A device name reported by an identity provider might describe registration state rather than the endpoint which sent traffic.
@@ -69,7 +69,7 @@ timestamp_utc | source | asset | principal | action | result | correlation_id | 
 
 **Observation:** `A-1004` records a successful sign-in from `203.0.113.77`.
 
-**Conclusion:** the sign-in is suspicious because earlier failures, a new country, an unknown device, and a legacy protocol surround it.
+**Conclusion:** the sign-in is suspicious because earlier failures, a new country, an unknown device, and a legacy protocol surround the event.
 
 The conclusion depends on several observations. Keep the distinction visible.
 

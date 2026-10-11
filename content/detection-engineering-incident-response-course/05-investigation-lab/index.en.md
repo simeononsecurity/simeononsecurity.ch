@@ -90,7 +90,7 @@ Test at least three explanations:
 | **User travel** | A sign-in from another country might follow travel | Earlier US activity, unknown device, legacy protocol, mailbox rule, and consent raise risk |
 | **Approved inventory task** | `FIN-LT-021` uses PowerShell | Different parent, script path, destination, user, and approved script label separate the event |
 
-Do not label an explanation false without evidence. Record which owner or log source would resolve it.
+Do not label an explanation false without evidence. Record which owner or log source would resolve the question.
 
 ## Step 5: State Findings
 
@@ -122,8 +122,8 @@ Confirmed scope includes Morgan and `HR-LT-044`. Likely scope includes mailbox d
 |---|---|
 | **JSON and CSV rows do not merge cleanly** | Normalize selected fields into a separate analyst table |
 | **Time order looks wrong** | Sort full UTC timestamps as text and preserve the trailing `Z` |
-| **Encoded content tempts execution** | Do not execute it. Record the value and use an approved isolated decoder workflow |
-| **A conclusion lacks an event ID** | Rewrite it as a question or collect supporting evidence |
+| **Encoded content tempts execution** | Do not execute the content. Record the value and use an approved isolated decoder workflow |
+| **A conclusion lacks an event ID** | Rewrite the claim as a question or collect supporting evidence |
 
 ## Verify Your Work
 

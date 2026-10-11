@@ -84,7 +84,7 @@ coverCaption: "Check each decision against evidence."
 2. **A.** An Analytic holds platform-specific detection logic under a Detection Strategy.
 3. **C.** ATT&CK v18 introduced the current defensive object model and deprecated Data Sources.
 4. **C.** Approved inventory work should not match the Office-parent encoded-command rule.
-5. **B.** The source proves use of an authentication path, not the human behind it.
+5. **B.** The source proves use of an authentication path, not the human behind the session.
 6. **B.** The event directly records the host behavior.
 7. **A.** The card makes authority, evidence risk, rollback, and verification visible.
 8. **B.** Password reset alone does not remove sessions or delegated application grants.

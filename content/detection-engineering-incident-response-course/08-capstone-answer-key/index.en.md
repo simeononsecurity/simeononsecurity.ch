@@ -4,7 +4,7 @@ date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Deliver a complete detection and incident package from the synthetic course data, then compare it with a detailed answer key and scoring rubric."
+description: "Deliver a complete detection and incident package from the synthetic course data, then compare the result with a detailed answer key and scoring rubric."
 genre: ["Cybersecurity", "Detection Engineering", "Incident Response", "Security Lab"]
 tags: ["detection engineering capstone", "incident response capstone", "SOC portfolio", "incident report", "detection rule", "answer key"]
 cover: "/img/cover/detection-incident-response-capstone.webp"
