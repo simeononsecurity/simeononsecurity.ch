@@ -22,7 +22,7 @@ coverCaption: ""
 
 ## Input Decision
 
-**Dependency review:** `workshop-core` changes from `1.0.0` to `1.1.0`, and `workshop-parser 2.0.0` appears as a transitive addition. The advisory state is “not assessed.” Assign a fictional maintainer to confirm why the parser was added and review any real advisory before approving.
+**Dependency review:** `workshop-core` changes from `1.0.0` to `1.1.0`, and `workshop-parser 2.0.0` appears as a transitive addition. The advisory state is “not assessed.” The fixture names `fictional release maintainer` as the review owner. This owner should confirm why the parser was added and review any real advisory before approving.
 
 **SBOM:** `sample-sbom.cdx.json` is a supplied CycloneDX 1.6 fixture with two library components. `workshop-parser 2.0.0` appears. No Syft version or real scan target exists for this fixture. A real release needs an SBOM generated from the selected artifact or build target.
 
