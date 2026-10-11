@@ -1,6 +1,7 @@
 ---
 title: "Preventing Cyberstalking: Tips for Staying Safe Online"
 date: 2023-05-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect yourself from cyberstalking and keep yourself safe online with these tips and techniques."
@@ -107,3 +108,4 @@ Cyberstalking is a serious crime that can cause significant emotional distress a
 - [18 U.S. Code § 2261A - Stalking](https://www.law.cornell.edu/uscode/text/18/2261A)
 - [Violence Against Women Act (VAWA)](https://www.hud.gov/VAWA)
 - [Stalking Resource Center](https://victimsofcrime.org/our-programs/national-stalking-resource-center/) by the National Center for Victims of Crime
+lastmod: 2026-10-11

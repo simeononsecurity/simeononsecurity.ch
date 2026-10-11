@@ -1,6 +1,7 @@
 ---
 title: "Maximizing Network and Cloud Security"
 date: 2023-10-27
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore network & cloud security: threats, measures, case studies & more for robust protection."

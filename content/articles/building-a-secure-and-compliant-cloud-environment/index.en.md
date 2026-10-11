@@ -1,6 +1,7 @@
 ---
 title: "Building a Secure and Compliant Cloud Environment: A Guide"
 date: 2023-02-21
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to build a secure and compliant cloud environment for your business with our comprehensive guide."

@@ -1,6 +1,7 @@
 ---
 title: "Navigating Internet Hoaxes: Psychology and Protection"
 date: 2023-10-18
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the psychology, history, and impact of internet hoaxes, and learn strategies to identify and counter false information online."

@@ -1,9 +1,10 @@
 ---
 title: "Cryptography: From Ancient Secrets to Modern Security"
 date: 2024-01-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "starting a comprehensive journey through the ages, unraveling the mysteries of cryptography. From ancient civilizations' secret communication to the forefront of modern security, this exploration digs into historical techniques, cryptographic algorithms, cryptanalysis, and applications shaping contemporary cybersecurity. Uncover the pivotal role cryptography plays in securing digital communications, transactions, and emerging technologies like blockchain. As threats evolve, the enduring battle between encryption and cryptanalysis unfolds, emphasizing the perpetual significance of cryptography in safeguarding sensitive information."
+description: "Trace cryptography from early ciphers to modern encryption, public key systems, cryptanalysis, blockchain use, and quantum-era security concerns."
 genre: ["Cryptography History", "Ancient Cryptography", "Medieval Cryptography", "Renaissance Cryptography", "Modern Cryptographic Algorithms", "Symmetric Key Algorithms", "Asymmetric Key Algorithms", "Hash Functions", "Digital Signatures", "Cryptanalysis", "Cryptographic Attacks", "Secure Communication Protocols", "Data Encryption", "Blockchain Technology", "Cryptocurrency", "Digital Security"]
 tags: ["Cryptography Evolution", "Historical Cryptography", "Ancient Cryptography Techniques", "Medieval Cryptography Methods", "Renaissance Era Cryptography", "Modern Cryptographic Algorithms", "Symmetric Key Algorithms", "Asymmetric Key Algorithms", "Hash Functions", "Digital Signatures", "Cryptanalysis Techniques", "Cryptographic Weaknesses", "Cryptographic Vulnerabilities", "Secure Communication Protocols", "Data Encryption", "Blockchain Security", "Cryptocurrency Transactions"]
 cover: "/img/cover/the-evolution-of-cryptography-in-modern-security.webp"
@@ -64,7 +65,7 @@ During the Renaissance era, cryptography saw significant advancements in **encry
 Modern Cryptographic Algorithms
 -------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/2e6233ef-cf60-4429-a25e-c674b6171e60/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/2e6233ef-cf60-4429-a25e-c674b6171e60/thumbnail.jpeg" alt="Illustration: Renaissance Era Contributions" >}}
 
 ### Symmetric Key Algorithms
 
@@ -99,7 +100,7 @@ Hash functions and digital signatures play a crucial role in modern cryptography
 Cryptanalysis and Cryptographic Attacks
 ---------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/842ac5da-6240-4c84-9f4d-d7b81b33ff35/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/842ac5da-6240-4c84-9f4d-d7b81b33ff35/thumbnail.jpeg" alt="Illustration: Hash Functions and Digital Signatures" >}}
 
 ### Frequency Analysis
 
@@ -112,7 +113,7 @@ Cryptographic weaknesses and vulnerabilities have an [enduring presence](https:/
 Applications of Cryptography in Modern Security
 -----------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/29c9b8e1-3b00-42e7-8dd0-1b1b8f715f09/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/29c9b8e1-3b00-42e7-8dd0-1b1b8f715f09/thumbnail.jpeg" alt="Illustration: Cryptographic Weaknesses and Vulnerabilities" >}}
 
 ### Secure Communication Protocols
 

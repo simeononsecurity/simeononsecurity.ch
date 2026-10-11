@@ -1,6 +1,7 @@
 ---
 title: "Secure Online Shopping"
 date: 2023-06-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to shop securely online and protect your personal information with these expert tips and masking services."
@@ -94,3 +95,4 @@ ______
 - Temp Mail: [https://temp-mail.org](https://temp-mail.org)
 - LastPass: [https://www.lastpass.com](https://www.lastpass.com)
 - Dashlane: [https://www.dashlane.com](https://www.dashlane.com)
+lastmod: 2026-10-11

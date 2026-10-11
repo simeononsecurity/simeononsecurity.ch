@@ -1,9 +1,10 @@
 ---
 title: "Nation-States in Cyber Warfare"
 date: 2023-12-19
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover how nation-states are major players in cyber warfare, with motivations ranging from national security to political influence, and the global consequences of their actions."
+description: "Understand why nation-states conduct cyber operations, which offensive methods they use, and how espionage, sabotage, and influence campaigns affect global security."
 genre: ["Cybersecurity", "National Security", "State-Sponsored Cyberattacks", "Digital Warfare", "Cyber Espionage", "Influence Campaigns", "Malware Attacks", "National Defense", "Cyber Threats", "Geopolitics"]
 tags: ["Nation-States", "Cyber Warfare", "Cybersecurity", "State-Sponsored Attacks", "Cyber Espionage", "Influence Campaigns", "Malware", "National Security", "Geopolitics", "Digital Threats", "Political Influence", "Economic Motivations", "Diplomatic Tensions", "National Defense", "Zero-Day Exploits", "Sophisticated Malware", "Cryptocurrency", "Cyber Capabilities", "Global Ramifications", "Digital Landscape", "Nation-State Cyber Operations", "Cyber Threat Landscape", "Advanced Cyber Capabilities", "Critical Infrastructure Attacks", "Stuxnet", "Flame Malware", "Diplomatic Consequences", "Economic Impact", "Personal Privacy", "National Security Risks"]
 cover: "/img/cover/nation_states_cyber_warfare.webp"

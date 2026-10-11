@@ -1,6 +1,7 @@
 ---
 title: "Preparing for the Future of Cybersecurity in a..."
 date: 2023-03-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how to prepare for the future of cybersecurity in a post-pandemic world and reduce your risk of falling victim to cyberattacks."
@@ -61,3 +62,4 @@ Here are some additional resources for learning more about cybersecurity:
 - [National Institute of Standards and Technology (NIST)](https://www.nist.gov/cyberframework)
 - [SANS Institute](https://www.sans.org/)
 - [Google's Security Blog](https://security.googleblog.com/)
+lastmod: 2026-10-11

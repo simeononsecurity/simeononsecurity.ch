@@ -1,6 +1,7 @@
 ---
 title: "Security Classification Guides: What You Need to Know"
 date: 2023-06-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the importance of security classification guides in safeguarding classified information and ensuring compliance with regulations."
@@ -85,3 +86,4 @@ ______
 2. [Executive Order 13526 - Classified National Security Information](https://www.archives.gov/isoo/policy-documents/cnsi-eo.html)
 
 3. [ISO 27001 - Information Classification](https://www.iso.org/isoiec-27001-information-security.html)
+lastmod: 2026-10-11

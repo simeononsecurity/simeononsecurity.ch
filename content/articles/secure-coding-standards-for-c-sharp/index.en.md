@@ -1,6 +1,7 @@
 ---
 title: "Secure Coding Standards for C# Developers"
 date: 2023-02-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn best practices for secure coding in C# to minimize the risk of security breaches and protect sensitive data."
@@ -167,3 +168,4 @@ Here are some useful resources to learn more about secure coding practices in C 
 - [Security Code Scan - .NET Security Guard](https://security-code-scan.github.io/#NET-Security-Guard)
 
 By following these resources, developers can learn more about secure coding practices in C Sharp and how to implement them in their projects.
+lastmod: 2026-10-11

@@ -3,6 +3,7 @@ title: "Avoiding Phishing Scams: Tactics, Prevention, and Protection"
 draft: false
 toc: true
 date: 2023-05-23
+lastmod: 2026-10-11
 description: "Learn about the tactics used by phishing scammers and discover effective strategies to protect yourself from becoming a victim."
 tags: ["phishing scams", "cybersecurity", "online threats", "email spoofing", "social engineering", "malware protection", "online safety", "data security", "identity theft", "password security", "two-factor authentication", "software updates", "government regulations", "online privacy", "cyber awareness", "digital fraud", "phishing awareness", "social media safety", "online scams", "cybercrime prevention"]
 cover: "/img/cover/A_vigilant_shield_protecting_a_user_from_phishing_attacks.webp"
@@ -82,3 +83,4 @@ ______
 
 - [Federal Trade Commission (FTC)](https://www.ftc.gov/)
 - [Information Commissioner's Office (ICO)](https://ico.org.uk/)
+lastmod: 2026-10-11

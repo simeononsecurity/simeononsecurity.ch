@@ -1,6 +1,7 @@
 ---
 title: "Windows Registry vs. Linux Config Files"
 date: 2023-11-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the effortless ways to secure your system with Windows Registry and Linux Config Files, ensuring top-notch cybersecurity."
@@ -101,3 +102,4 @@ Ultimately, the path to robust cybersecurity lies in understanding the strengths
 
 
 
+lastmod: 2026-10-11

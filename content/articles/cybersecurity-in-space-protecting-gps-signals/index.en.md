@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity in Space: Protecting GPS Signals"
 date: 2023-12-07
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore effortless cybersecurity in space, securing GPS signals against threats. Learn how to safeguard critical systems with advanced technology."

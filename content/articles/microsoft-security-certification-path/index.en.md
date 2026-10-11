@@ -1,6 +1,7 @@
 ---
 title: "Unlock Your Cybersecurity Future"
 date: 2023-12-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the effortless journey through the Microsoft security certification path to safeguard your digital world."

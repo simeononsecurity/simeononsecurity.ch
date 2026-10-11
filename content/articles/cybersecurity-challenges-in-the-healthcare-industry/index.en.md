@@ -1,9 +1,10 @@
 ---
 title: "Protecting Patient Data"
 date: 2023-02-21
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover cybersecurity challenges facing healthcare and explore strategies for protection and compliance to protect patient data and ensure regulatory compliance."
+description: "Review healthcare cybersecurity challenges and practical strategies for patient-data protection and compliance."
 tags: ["cybersecurity", "healthcare", "patient data", "data privacy", "compliance", "HIPAA", "GDPR", "security audits", "access controls", "encryption", "training", "insider threats", "phishing attacks", "IoT devices", "network security", "data breaches", "telemedicine", "malware", "security breaches", "regulations"]
 cover: "/img/cover/An_image_of_a_doctor_standing_in_front_of_a_shield.webp"
 coverAlt: "An image of a doctor standing in front of a shield with a padlock symbol to represent the protection of patient data against cybersecurity threats. "

@@ -1,6 +1,7 @@
 ---
 title: "Nmap: A Comprehensive Guide to Network Scanning and..."
 date: 2023-06-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how to effectively use Nmap for network scanning, port scanning, service detection, and operating system identification to assess network security."
@@ -113,3 +114,4 @@ Nmap is a powerful and widely used network scanning tool that provides valuable 
 - Official Nmap Documentation: [https://nmap.org/book/man.html](https://nmap.org/book/man.html)
 - Computer Fraud and Abuse Act (CFAA): [https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47](https://www.law.cornell.edu/uscode/text/18/part-I/chapter-47)
 - General Data Protection Regulation (GDPR): [https://gdpr.eu/](https://gdpr.eu/)
+lastmod: 2026-10-11

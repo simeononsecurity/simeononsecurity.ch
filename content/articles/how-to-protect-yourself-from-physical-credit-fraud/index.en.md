@@ -1,6 +1,7 @@
 ---
 title: "Keep Credit Cards Safe: Defend Against RFID Skimming"
 date: 2023-04-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect yourself from RFID skimming and keep your credit card information secure with these simple tips."

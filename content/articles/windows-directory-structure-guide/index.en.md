@@ -4,7 +4,7 @@ date: 2023-07-26
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Complete 2026 guide to the Windows directory structure including visual diagrams, Windows 11 updates, security considerations, and expert navigation techniques for efficient file management."
+description: "A 2026 guide to Windows directory structure, including common paths, Windows 11 changes, security concerns, and navigation tips."
 genre: ["Windows directory structure", "Windows file management", "Navigating directories", "File organization", "Windows file paths", "Windows system folders", "User directory", "Program Files directory", "Windows root directory", "Temporary files directory"]
 tags: ["directory structure in windows", "windows directory structure", "windows file structure diagram", "file structure diagram", "file management", "file organization", "file paths", "root directory", "system directory", "user directory", "program files directory", "windows directory navigation", "file explorer", "command prompt", "absolute file path", "relative file path", "windows file system", "windows file management", "file access", "system operation", "file explorer tool", "windows commands", "windows file paths", "efficient file management", "windows organization", "temporary files directory", "windows file structure", "windows operating system", "windows user profile folder", "system files", "windows system resources", "windows 11 directory structure", "wsl directory structure", "onedrive integration"]
 cover: "/img/cover/An_image_depicting_a_tree-like_structure_repre.webp"

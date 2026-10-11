@@ -1,6 +1,7 @@
 ---
 title: "Boost Your Cybersecurity Career"
 date: 2023-07-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the top cybersecurity certifications for beginners to kickstart your career and gain the necessary skills to excel in the field."

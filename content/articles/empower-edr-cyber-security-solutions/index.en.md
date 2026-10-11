@@ -1,6 +1,7 @@
 ---
 title: "help Your Defense: Exploring EDR Cyber Security Solutions"
 date: 2023-10-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of EDR cybersecurity solutions in proactively safeguarding endpoints and mitigating modern cyber threats for organizations."

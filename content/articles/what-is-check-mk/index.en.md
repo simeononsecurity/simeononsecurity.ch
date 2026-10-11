@@ -1,6 +1,7 @@
 ---
 title: "CheckMK: Monitoring for IT Infrastructure Management"
 date: 2023-06-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the features, benefits, and use cases of CheckMK, a comprehensive monitoring solution for proactive IT infrastructure management."
@@ -98,3 +99,4 @@ Take your monitoring efforts to the next level with CheckMK and experience the b
 7. [General Data Protection Regulation (GDPR)](https://gdpr.eu)
 8. [Payment Card Industry Data Security Standard (PCI DSS)](https://pcisecuritystandards.org)
 
+lastmod: 2026-10-11

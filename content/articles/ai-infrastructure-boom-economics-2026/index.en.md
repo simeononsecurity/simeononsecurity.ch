@@ -4,7 +4,7 @@ date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A fact-checked review of AI infrastructure spending, data center electricity demand, financing structures, enterprise value, and the evidence needed before calling the market a bubble."
+description: "A fact-checked review of AI infrastructure spending, data-center electricity demand, financing structures, and evidence for market-bubble claims."
 genre: ["Artificial Intelligence", "AI Economics", "Data Centers", "Cloud Infrastructure", "Cybersecurity"]
 tags: ["AI infrastructure", "AI bubble", "AI economics", "data center investment", "data center debt", "AI power demand", "hyperscaler capex", "AI return on investment", "AI enterprise adoption", "AI financial risk", "AI safety", "OpenAI cash burn", "NVIDIA data center revenue", "data center electricity", "data center financing", "private credit", "AI cybersecurity", "technology investment", "AI market analysis", "2026 AI trends"]
 cover: "/img/cover/futuristic-data-center-advanced-servers-tech.webp"

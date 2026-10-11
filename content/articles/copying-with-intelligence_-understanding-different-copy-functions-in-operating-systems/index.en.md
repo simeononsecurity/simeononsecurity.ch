@@ -1,6 +1,7 @@
 ---
 title: "Mastering Copy Functions: Boost OS File Management Skills"
 date: 2024-02-07
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Unlock the Secrets to Advanced Copy Functions in OS - What's the Fastest Way?"

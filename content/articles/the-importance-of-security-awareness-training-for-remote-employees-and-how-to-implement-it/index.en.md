@@ -1,6 +1,7 @@
 ---
 title: "Effective Security Awareness Training for Remote Employees"
 date: 2023-03-30
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Strengthen your remote workforce's security through effective security awareness training, and learn how to implement it successfully."
@@ -90,3 +91,4 @@ ______
 - [Infosec Institute](https://www.infosecinstitute.com/)
 - [KnowBe4](https://www.knowbe4.com/)
 
+lastmod: 2026-10-11

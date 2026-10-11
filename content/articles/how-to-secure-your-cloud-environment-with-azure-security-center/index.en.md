@@ -1,10 +1,10 @@
 ---
 title: "Securing Your Cloud Environment with Microsoft Defender for Cloud"
 date: 2023-04-10
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn how to secure your cloud environment with Microsoft Defender for Cloud, including historical Azure Security Center terminology, best practices, and practical examples."
+description: "Secure Azure workloads with Microsoft Defender for Cloud. Review historical Azure Security Center terms, recommendations, policies, and response steps."
 tags: ["Azure", "Security Center", "cloud security", "Azure Sentinel", "Azure Defender", "network security", "identity management", "data security", "threat detection", "threat response", "MFA", "RBAC", "NSGs", "Azure Firewall", "WAF", "Azure AD", "Azure Information Protection", "Azure Storage Service Encryption", "Azure Disk Encryption"]
 cover: "/img/cover/A_shield_icon_surrounded_by_cloud_symbols.webp"
 coverAlt: "A shield icon surrounded by cloud symbols, representing a secure cloud environment, with the Azure Security Center logo on the shield."

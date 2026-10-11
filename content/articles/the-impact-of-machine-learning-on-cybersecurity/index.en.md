@@ -1,9 +1,10 @@
 ---
 title: "The Impact of Machine Learning on Cybersecurity"
 date: 2023-03-07
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover the impact of machine learning on cybersecurity and how to adapt."
+description: "Learn how machine learning supports threat detection, triage, and response, along with deployment limits and security risks."
 tags: ["Machine Learning", "Cybersecurity", "Adaptation", "Artificial Intelligence", "Threat Detection", "Data Protection", "Real-time", "Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "False Positives", "False Negatives", "Employee Training", "Security Solutions", "Data Analytics", "Network Security", "Cloud Security", "Pattern Recognition", "Anomaly Detection", "Cyber Threats"]
 cover: "/img/cover/A_cartoon_robot_standing_guard_in_front.webp"
 coverAlt: "A cartoon robot standing guard in front of a virtual shield, symbolizing the use of machine learning in cybersecurity."

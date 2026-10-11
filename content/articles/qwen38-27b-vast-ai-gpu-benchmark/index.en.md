@@ -4,7 +4,7 @@ date: 2026-10-02
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Measured Ollama benchmarks of Llama 3.1 8B and Qwen3.8 27B across leading Vast.ai GPUs. Compare decode speed, long-context behavior, rental cost, self-hosting tradeoffs, API credits, and subscriptions."
+description: "Compare measured Ollama results for Llama 3.1 8B and Qwen3.8 27B across Vast.ai GPUs, costs, and hosting options."
 genre: ["Local AI", "GPU Benchmarking", "Self-Hosted AI", "Cloud Computing", "Artificial Intelligence", "AI Economics"]
 tags: ["Llama 3.1 8B", "llama3.1:8b", "Qwen3.8 27B", "Qwen3.8:27b", "Vast.ai", "GPU benchmark", "Ollama", "H100", "RTX PRO 5000", "RTX 6000 Ada", "RTX PRO 6000 Max-Q", "A100", "CMP 170HX", "local LLM", "long context", "GPU rental", "self-hosted AI", "abliterated models", "uncensored models", "API credits", "AI subscription", "Q4_K_M", "tokens per second"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"

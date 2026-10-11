@@ -1,6 +1,7 @@
 ---
 title: "Cloud Security Showdown"
 date: 2023-03-29
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Compare AWS, Azure, and Google Cloud Platform in terms of cloud security, and learn the differences to make an informed decision for your organization."
@@ -125,3 +126,4 @@ ______
 17. [Google Cloud Data Loss Prevention (DLP)](https://cloud.google.com/dlp)
 
 
+lastmod: 2026-10-11

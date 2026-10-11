@@ -1,6 +1,7 @@
 ---
 title: "Secure Your Future: Essential Emergency Tech Gadgets"
 date: 2023-09-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover top survival gadgets for security and emergency preparedness, including solar chargers, satellite messengers, and more."

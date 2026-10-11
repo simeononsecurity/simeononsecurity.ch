@@ -3,7 +3,8 @@ title: "How to Flash Rayhunter Devices: Complete Guide"
 draft: false
 toc: true
 date: 2026-03-09
-description: "Comprehensive guide on how to flash and configure Rayhunter devices for IMSI catcher detection. Learn installation procedures, supported devices, and where to find Rayhunter for sale."
+lastmod: 2026-10-11
+description: "Flash and configure Rayhunter for IMSI catcher detection. Check supported devices, install firmware, verify operation, and troubleshoot common failures."
 tags: ["Rayhunter", "IMSI catcher", "cell site simulator", "mobile security", "surveillance detection", "privacy protection", "Orbic RC400L", "TP-Link M7350", "mobile hotspot", "device flashing", "cybersecurity", "wireless security", "surveillance countermeasures", "EFF", "privacy tools", "Rayhunter for sale", "installation guide", "configuration", "supported devices", "network security"]
 cover: "/img/cover/rayhunter.webp"
 coverAlt: "A Rayhunter device detecting wireless signals and IMSI catchers with security shields around it"
@@ -209,6 +210,9 @@ To remove **Rayhunter** from Orbic devices:
 ```
 
 Inside the shell:
+
+> **Warning:** The following commands permanently remove Rayhunter files and its startup hooks. Confirm you are in the intended device shell, copy recordings or configuration you need, and keep the installer and compatible firmware available before continuing. Afterward, verify the files are absent and the device reboots without the Rayhunter service. Reinstall the matching release from the official repository if you need to roll back.
+
 ```bash
 echo 3 > /usrdata/mode.cfg
 rm -rf /data/rayhunter /etc/init.d/rayhunter_daemon /bin/rootshell
@@ -218,6 +222,8 @@ reboot
 ### TP-Link Devices
 
 For TP-Link device uninstallation:
+
+> **Warning:** These commands remove Rayhunter files and its startup hook from the TP-Link device. Export recordings and configuration first. Run them only inside the device shell, then verify the paths are absent and the device starts normally. Reinstall the matching release from the official repository to roll back.
 
 ```bash
 ./installer util tplink-shell
@@ -496,7 +502,7 @@ rayhunter-check -d -p ~/Downloads/myfile.qmdl  # Debug mode
 
 **Rayhunter** supports various mobile hotspot devices with Qualcomm modems that expose the `/dev/diag` interface.
 
-{{< figure src="rayhunter-device-regions.svg" alt="Rayhunter Device Compatibility by Region" caption="Device compatibility and regional recommendations for Rayhunter installations" >}}
+{{< figure src="/img/rayhunter-device-regions.svg" alt="Rayhunter Device Compatibility by Region" caption="Device compatibility and regional recommendations for Rayhunter installations" >}}
 
 ### Recommended Devices
 

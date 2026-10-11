@@ -1,6 +1,7 @@
 ---
 title: "Hilarious Cybersecurity Myths: Laughing at Hollywood's Hacking Fantasies"
 date: 2023-11-29
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the funniest cybersecurity myths in pop culture, from 'two people typing' to 'CSI Zoom Enhance.' Discover why hacking isn't always effortless."

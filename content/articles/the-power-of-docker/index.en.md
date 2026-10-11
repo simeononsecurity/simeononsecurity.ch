@@ -1,9 +1,10 @@
 ---
 title: "Docker Guide: Essential for Enterprise Transformation"
 date: 2023-02-02
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover the power of Docker and its benefits for enterprise transformation in this comprehensive guide to improving application portability, security, efficiency, and development."
+description: "Learn how Docker packages applications, improves portability, supports repeatable deployments, and changes security and operational responsibilities."
 tags: ["Docker", "Enterprise Transformation", "Application Portability", "Increased Efficiency", "Improved Security", "Simplified Development and Deployment", "Software Applications", "Containers", "Productivity", "Time-to-Market"]
 cover: "/img/cover/a_blue_whale_giving_off_lighting.webp"
 coverAlt: "A blue whale giving off lighting"
@@ -41,3 +42,4 @@ ______
 ## Conclusion:
 
 Wrapping up, **Docker** is a powerful tool that has transformed the way software applications are developed, deployed, and managed in modern enterprises. With its ability to improve application portability, increase efficiency and speed, improve security, and simplify development and deployment, Docker has become an essential tool for organizations looking to stay competitive and drive innovation. Whether you're a developer, operations engineer, or enterprise leader, Docker has something to offer and is worth considering as a key component of your technology stack.
+lastmod: 2026-10-11

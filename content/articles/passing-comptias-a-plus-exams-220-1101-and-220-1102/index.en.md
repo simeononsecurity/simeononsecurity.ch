@@ -1,6 +1,7 @@
 ---
 title: "Passing CompTIA's A+ Exams: Tips and Strategies"
 date: 2023-02-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Get expert tips and strategies for passing CompTIA's A+ exams, including essential acronyms, equipment knowledge, and common troubleshooting procedures."

@@ -1,12 +1,14 @@
 ---
 title: "Choosing the Best Power Supply: Your PC's Heartbeat"
 date: 2024-02-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Master Power Supply Selection for PC stability and performance - Start Energizing!"
 genre: ["PC Hardware", "Computer DIY", "Tech Guides", "Gaming Rigs", "PC Building", "Electrical Components", "Hardware Installation", "Tech Troubleshooting", "Performance Optimization", "Energy Efficiency"]
 tags: ["Power Supply Guide", "Computer Power Supply", "PSU Selection", "PC Building", "Tech DIY", "Power Supply Installation", "Troubleshoot PSU", "PC Stability", "Electrical Safety", "Efficiency Certifications", "PSU Wattage Calculation", "Hardware Compatibility", "PSU Form Factor", "Power Cable Management", "PSU Efficiency", "PC Component Power", "PSU Upgrade", "Tech Maintenance", "Electrical Supply for PC", "Power Supply Replacement", "Selecting PSU", "Modular PSU", "Install Power Unit", "Test Computer Power", "Diagnose PSU Issues", "Silent Power Supply", "ATX Power Standard", "Quality PSU Investment", "Power Supply Ratings", "Computer Power Solutions"]
 cover: "/img/cover/demystifying-computer-power-supplies_-how-to-choose-install-and-troubleshoot.webp"
+coverAlt: "Illustration about Choosing the Best Power Supply: Your PC's Heartbeat."
 ---
 
 Demystifying Computer Power Supplies: How to Choose, Install, and Troubleshoot
@@ -40,7 +42,7 @@ There are several different types of computer power supplies available in the ma
 Choosing the Right Power Supply
 -------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/ee2649f9-35ce-4353-857d-6f200fb98656/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ee2649f9-35ce-4353-857d-6f200fb98656/thumbnail.jpeg" alt="Illustration related to Different types of computer power supplies" >}}
 
 ### Calculating power requirements
 
@@ -81,7 +83,7 @@ Wrapping up, efficiency ratings and certifications are important factors to cons
 Installing a Computer Power Supply
 ----------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/198ad98d-8427-4e66-bb1f-b4751eee732f/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/198ad98d-8427-4e66-bb1f-b4751eee732f/thumbnail.jpeg" alt="Illustration related to Efficiency ratings and certifications" >}}
 
 ### Preparing the computer case
 
@@ -121,7 +123,7 @@ When testing the power supply, it is important to ensure that it is functioning 
 Troubleshooting Power Supply Issues
 -----------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/8dd5ae70-191f-49c7-a4a6-03ce34c073ea/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8dd5ae70-191f-49c7-a4a6-03ce34c073ea/thumbnail.jpeg" alt="Illustration related to Testing the power supply" >}}
 
 ### Common power supply problems
 

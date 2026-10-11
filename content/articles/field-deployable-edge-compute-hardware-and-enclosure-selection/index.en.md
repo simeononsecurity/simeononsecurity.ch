@@ -4,7 +4,7 @@ date: 2026-08-25
 lastmod: 2026-08-25
 toc: true
 draft: false
-description: "A practical guide to building rapidly deployable, compact edge-compute mini data centers. Covers chassis and enclosure selection, mini-PC and thin-client compute, rack versus sled layouts, cabling, cooling, storage, out-of-band management, and international power compatibility for boxed-up field IT."
+description: "A guide to field edge-compute hardware and enclosures, including compute, racks, cooling, storage, management, cabling, and power compatibility."
 genre: ["Edge Computing", "Field IT", "Hardware", "Homelab", "Rugged Computing", "Networking", "Disaster Recovery", "Small Business IT"]
 tags: ["field deployable server", "edge compute", "mini data center", "rugged enclosure", "portable data center", "Pelican case server", "thin client server", "HP t740", "rack vs sled", "IP rating", "NEMA enclosure", "fanless mini PC", "cable management", "field IT kit", "compact server build", "disaster recovery hardware", "man-portable IT", "expeditionary IT", "edge node hardware", "shock mount rack", "NVMe SSD field storage", "RAID field server", "solid state drive vibration", "storage redundancy edge compute", "IPMI remote management", "BMC out of band", "PiKVM IP KVM", "international power plug types", "universal input power supply"]
 cover: "/img/cover/field-deployable-edge-compute-hardware-enclosure-selection.webp"

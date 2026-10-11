@@ -1,6 +1,7 @@
 ---
 title: "Internet Safety for Kids: Strategies to Stay Safe Online"
 date: 2023-05-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Protect your children from online dangers with these internet safety tips and strategies."

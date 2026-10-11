@@ -1,6 +1,7 @@
 ---
 title: "Getting Started with Terraform for Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the basics of Terraform, a popular infrastructure as code tool, and how to use it to manage infrastructure efficiently."

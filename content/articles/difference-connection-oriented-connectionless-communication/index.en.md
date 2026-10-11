@@ -1,6 +1,7 @@
 ---
 title: "Connection-Oriented vs Connectionless Communication"
 date: 2023-07-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the variances between connection-oriented and connectionless communication, protocols, services, and routing methods in network communication."

@@ -1,6 +1,7 @@
 ---
 title: "The Dark Web and Cybercrime"
 date: 2023-05-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the hidden world of the dark web and its connection to cybercrime, while uncovering its dual nature and potential for journalism and whistleblowing."
@@ -80,3 +81,4 @@ References:
 
 - European Union General Data Protection Regulation (GDPR): [link](https://gdpr.eu/)
 - Cybersecurity Information Sharing Act (CISA): [link](https://www.congress.gov/bill/114th-congress/senate-bill/754)
+lastmod: 2026-10-11

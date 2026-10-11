@@ -1,9 +1,10 @@
 ---
 title: "Ansible Automation: From Plain Ansible to Ansible Tower..."
 date: 2023-06-15
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover the power of Ansible automation with a comparison of plain Ansible, Ansible Tower, and Ansible Semaphore, and choose the right tool for efficient infrastructure management."
+description: "Compare plain Ansible, Ansible Tower, and Ansible Semaphore by workflow, management features, and infrastructure use case."
 genre: ["Automation", "Infrastructure Management", "Configuration Management", "DevOps", "IT Operations", "Open Source", "Workflow Management", "Scalability", "Collaboration", "Ansible Tools"]
 tags: ["Ansible", "Automation", "Ansible Tower", "Ansible Semaphore", "Plain Ansible", "Infrastructure Management", "Configuration Management", "DevOps", "IT Operations", "Open Source", "Workflow Management", "Scalability", "Collaboration", "Playbooks", "YAML", "Job Scheduling", "RBAC", "GUI", "Version Control Integration", "Idempotent Execution", "Agentless Architecture", "Ansible Workflow", "Enterprise-grade Features", "Self-hosted Deployment", "Cloud-based Deployment", "Licensing", "Infrastructure Management Tools", "Automation Platforms", "Workflow Management Systems", "DevOps Tools", "IT Operations Management"]
 cover: "/img/cover/ansible-vs-ansible-semaphore-vs-ansible-tower.webp"

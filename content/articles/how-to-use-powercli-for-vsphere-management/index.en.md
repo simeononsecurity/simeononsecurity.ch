@@ -1,6 +1,7 @@
 ---
 title: "Mastering PowerCLI for vSphere Management"
 date: 2023-08-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of PowerCLI and learn how to effectively use it for managing your VMware vSphere environment, automating tasks, and maximizing productivity."

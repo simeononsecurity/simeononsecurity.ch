@@ -1,9 +1,10 @@
 ---
 title: "The Pros and Cons of Biometric Authentication for Access..."
 date: 2023-04-01
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn about the benefits and risks of using biometric authentication for access control, including enhanced security, privacy concerns, and best practices for implementation."
+description: "Evaluate biometric authentication through accuracy, privacy, spoofing risk, fallback access, data storage, and practical deployment controls."
 tags: ["biometric authentication", "access control", "security", "privacy", "data protection", "GDPR", "HIPAA", "false positives", "false negatives", "multi-factor authentication", "system testing", "security policies", "efficiency", "convenience", "unique identity", "simplified workflows", "vulnerabilities", "risk mitigation", "user experience", "cybersecurity"]
 cover: "/img/cover/Animated_illustration_of_a_persons_hand_using_a_fingerprint.webp"
 coverAlt: "An animated illustration of a person's hand using a fingerprint scanner to access a secured area, with a person's face and iris also visible in the background."
@@ -79,3 +80,4 @@ ______
 1. [GDPR - General Data Protection Regulation](https://gdpr.eu/)
 2. [HIPAA - Health Insurance Portability and Accountability Act](https://www.hhs.gov/hipaa/index.html)
 
+lastmod: 2026-10-11

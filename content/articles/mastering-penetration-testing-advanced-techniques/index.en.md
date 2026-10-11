@@ -1,6 +1,7 @@
 ---
 title: "Mastering Penetration Testing: Advanced Techniques"
 date: 2023-06-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore advanced techniques, tools, and real-world examples in mastering penetration testing to enhance your cybersecurity skills and career."

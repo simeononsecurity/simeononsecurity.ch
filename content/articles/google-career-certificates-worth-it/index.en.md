@@ -1,6 +1,7 @@
 ---
 title: "Are Google Career Certificates Worth It? Unlocking..."
 date: 2023-07-29
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the value of Google Career Certificates in today's tech-driven world and explore their benefits for career growth and advancement."

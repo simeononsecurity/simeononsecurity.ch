@@ -4,7 +4,7 @@ date: 2026-08-25
 lastmod: 2026-08-25
 toc: true
 draft: false
-description: "How to power and protect a compact edge-compute deployment in the field. Covers UPS runtime sizing and monitoring, DC and solar power, generators, battery chemistry, USB-C power delivery, offline time synchronization, IP and NEMA environmental ratings, and grounding and surge protection for rapidly deployable IT."
+description: "A guide to field edge-compute power and environmental resilience, including UPS sizing, solar, batteries, time sync, ratings, grounding, and surge protection."
 genre: ["Edge Computing", "Field IT", "Power Systems", "Hardware", "Disaster Recovery", "Rugged Computing", "Networking"]
 tags: ["UPS sizing", "field power supply", "DC power server", "solar generator server", "IP rating enclosure", "NEMA rating", "surge protection", "grounding electronics", "off-grid server power", "portable data center power", "battery runtime calculation", "12v server power", "48v DC power", "generator IT power", "rugged power system", "edge node power", "disaster recovery power", "field deployable server", "environmental resilience", "expeditionary power", "LiFePO4 battery pack", "lithium iron phosphate", "USB PD power delivery", "battery chemistry comparison", "network UPS tools NUT", "UPS monitoring SNMP", "NTP time synchronization", "GPS disciplined clock"]
 cover: "/img/cover/field-deployable-power-environmental-resilience-solar-ups.webp"

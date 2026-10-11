@@ -1,6 +1,7 @@
 ---
 title: "Demystifying Cybersecurity Jargon"
 date: 2023-12-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Master cybersecurity jargon effortlessly with our guide. Stay secure online."

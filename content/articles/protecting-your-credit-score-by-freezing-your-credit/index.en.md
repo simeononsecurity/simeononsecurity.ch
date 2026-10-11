@@ -1,6 +1,7 @@
 ---
 title: "Protect Your Credit Score"
 date: 2023-02-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the crucial role of freezing your credit in protecting your financial future and find out how to take control of your credit score."

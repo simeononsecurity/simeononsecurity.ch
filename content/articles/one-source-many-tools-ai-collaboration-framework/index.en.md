@@ -1,10 +1,10 @@
 ---
 title: "One Source, Many Tools: Building an AI Collaboration Framework for Mixed Teams"
 date: 2026-10-01
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Build a shared AI collaboration framework for coders and non-coders. Assign sources of truth, track context versions, review durable changes, and choose project maps, RAG, or both."
+description: "Build a shared AI collaboration system with source ownership, context versioning, durable change review, and clear choices between project maps and RAG."
 genre: ["Artificial Intelligence", "Knowledge Management", "Software Engineering", "Team Collaboration"]
 tags: ["AI collaboration framework", "mixed teams", "source of truth", "AI agents", "AGENTS.md", "CLAUDE.md", "Cline rules", "Claude Code", "Codex", "ChatGPT", "Copilot", "Cowork", "retrieval augmented generation", "RAG", "Model Context Protocol", "project map", "context manifest", "knowledge management", "documentation drift", "human approval", "decision register", "agent handoff", "policy versioning", "Git worktrees", "pull request gates"]
 cover: "/img/cover/A_group_of_diverse_professionals_collaborating_on_a_cyberse.webp"

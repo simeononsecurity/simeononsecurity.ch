@@ -1,6 +1,7 @@
 ---
 title: "Mastering VMware Security"
 date: 2023-08-03
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to leverage PowerCLI to effectively run the VMware STIGs and secure your VMware environment in this comprehensive guide."

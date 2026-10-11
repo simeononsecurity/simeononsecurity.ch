@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity Showdown"
 date: 2023-11-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the effortless way to secure your systems with Windows Task Scheduler and Linux Cron Jobs comparison."
@@ -99,3 +100,4 @@ However, you need to emphasize that a comprehensive security strategy should enc
 3. [Local Security Policy](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/how-to-configure-security-policy-settings)
 
 4. [Principle of Least Privilege](https://csrc.nist.gov/glossary/term/least_privilege)
+lastmod: 2026-10-11

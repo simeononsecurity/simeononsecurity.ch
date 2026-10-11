@@ -1,6 +1,7 @@
 ---
 title: "How to Secure Your Docker and Kubernetes Environment"
 date: 2023-04-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn best practices for securing your Docker and Kubernetes environment, including using official images, limiting permissions, and implementing network security."

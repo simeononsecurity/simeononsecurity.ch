@@ -1,6 +1,7 @@
 ---
 title: "Protect Yourself from Hacking and Identity Theft"
 date: 2023-02-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect yourself from online threats like hacking, smear campaigns, and identity theft with these helpful tips."

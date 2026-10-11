@@ -1,6 +1,7 @@
 ---
 title: "Demystifying RSA: Understanding the RSA Cipher Algorithm"
 date: 2023-06-23
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the inner workings of the RSA cipher algorithm and its importance in secure communication."
@@ -128,3 +129,4 @@ References:
 - [National Institute of Standards and Technology (NIST)](https://www.nist.gov/)
 - [Federal Information Processing Standards (FIPS)](https://www.nist.gov/federal-information-processing-standards-fips)
 - [eIDAS Regulation](https://ec.europa.eu/digital-single-market/en/trust-services-and-eid)
+lastmod: 2026-10-11

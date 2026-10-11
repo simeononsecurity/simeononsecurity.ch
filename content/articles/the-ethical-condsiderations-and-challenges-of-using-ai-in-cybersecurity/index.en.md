@@ -1,6 +1,7 @@
 ---
 title: "Ethical Considerations & Challenges of AI in Cybersecurity"
 date: 2023-03-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the ethical considerations and challenges of using AI in cybersecurity and how they can be addressed for effective use."
@@ -54,3 +55,4 @@ AI systems can be resource-intensive, requiring significant amounts of processin
 ## Conclusion
 
 AI has the potential to revolutionize the cybersecurity industry, but it is important to address the ethical considerations and challenges that come with its use. To ensure that AI in cybersecurity aligns with ethical standards, organizations must address issues of bias, privacy, and accountability. Also, challenges such as complexity, adaptability, human oversight, and resource intensity must also be addressed. With careful consideration, AI can be an effective tool in the fight against cyber threats.
+lastmod: 2026-10-11

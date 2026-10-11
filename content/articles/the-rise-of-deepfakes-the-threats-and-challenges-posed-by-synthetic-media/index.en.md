@@ -3,6 +3,7 @@ title: "Deepfakes: Threats and Challenges of Synthetic Media in..."
 draft: false
 toc: true
 date: 2023-05-21
+lastmod: 2026-10-11
 description: "Explore the rise of deepfakes, their threats, challenges, and regulatory measures in combating synthetic media manipulation."
 tags: ["deepfakes", "synthetic media", "AI technology", "misinformation", "fake news", "fraud", "privacy invasion", "deepfake detection", "regulatory frameworks", "education", "awareness", "digital age", "technology", "society", "challenges", "threats", "combatting deepfakes", "accountability", "collaboration", "advanced algorithms"]
 cover: "/img/cover/A_symbolic_illustration_depicting_a_persons_face_being_replicated.webp"
@@ -65,3 +66,4 @@ By understanding the implications of deepfakes, investing in detection technolog
 1. Deepfakes: The AI Summer. Retrieved from [https://theaisummer.com/deepfakes/](https://theaisummer.com/deepfakes/)
 2. Malicious Deep Fake Prohibition Act. Retrieved from [https://www.congress.gov/bill/115th-congress/senate-bill/3805](https://www.congress.gov/bill/115th-congress/senate-bill/3805)
 3. Deepfake Report Act. Retrieved from [https://www.congress.gov/bill/116th-congress/senate-bill/2065](https://www.congress.gov/bill/116th-congress/senate-bill/2065)
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "Introduction to T9 Cipher: History and Applications"
 date: 2023-06-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the history, working principles, and applications of the T9 cipher, a groundbreaking predictive text input technology used in early mobile phones."

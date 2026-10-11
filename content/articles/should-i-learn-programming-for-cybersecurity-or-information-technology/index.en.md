@@ -1,9 +1,10 @@
 ---
 title: "Should You Learn Programming for IT and Cyber Security?"
 date: 2023-02-12
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn why mastering programming skills can greatly benefit your IT and Cyber Security career, and how to get started with PowerShell, Bash, Python, Ansible, Packer, and Terraform."
+description: "Decide which programming skills support your IT or cybersecurity path, then start with PowerShell, Bash, Python, Ansible, Packer, or Terraform."
 genre: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "Professional Development"]
 tags: ["IT and Cyber Security", "Programming Skills", "Career Advancement", "PowerShell", "Bash", "Python", "Ansible", "Packer", "Terraform", "Automation", "Command Line", "Scripting", "Infrastructure Deployment", "Data Analysis", "Security Testing", "IT Careers", "Cyber Security Careers", "IT Professionals", "Cyber Security Professionals", "Network Automation", "Security Analysis", "Scripting Languages", "Configuration Management", "Infrastructure as Code", "IT Automation", "IT Industry", "Cyber Security Industry", "Job Market", "IT Skills"]
 cover: "/img/cover/A_person_sitting_in_front_of_a_computer_typing_code.webp"
@@ -36,3 +37,4 @@ _________________________
 ## Conclusion
 
 Wrapping up, **learning programming for IT and Cyber Security can greatly benefit your career and increase your marketability**. While it may seem daunting at first, with practice and perseverance, you'll find that coding and scripting skills can greatly enhance your ability to perform tasks and solve problems in the field. Start by learning PowerShell or Bash, and then move on to Python and other relevant tools and technologies. With dedication and hard work, you'll be on your way to becoming a highly skilled and in-demand IT and Cyber Security professional.
+lastmod: 2026-10-11

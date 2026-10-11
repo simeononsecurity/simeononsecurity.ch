@@ -1,6 +1,7 @@
 ---
 title: "Demystifying GDPR: Your Guide to Data Privacy Regulations"
 date: 2023-11-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the significance of GDPR in safeguarding personal data. Explore its principles, rights, and business impact."
@@ -88,3 +89,4 @@ As we work through a landscape marked by burgeoning digital interactions, the GD
 2. [European Data Protection Board](https://edpb.europa.eu/)
 3. [Information Commissioner's Office (UK)](https://ico.org.uk/)
 4. [GDPR Compliance Guide](https://www.privacyshield.gov/EU-US-Framework)
+lastmod: 2026-10-11

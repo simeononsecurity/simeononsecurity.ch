@@ -1,6 +1,7 @@
 ---
 title: "A Guide to Multi-Factor Authentication"
 date: 2023-03-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the different types of multi-factor authentication and how to choose the best one for your security needs in our ultimate guide."
@@ -141,3 +142,4 @@ Wrapping up, embracing multi-factor authentication helps us to fortify our onlin
 - [Microsoft's - Multifactor authentication in Azure AD ](https://www.microsoft.com/en-us/security/business/identity-access/azure-active-directory-mfa-multi-factor-authentication)
 - [Google's Guide to Two-Factor Authentication](https://www.google.com/landing/2step/)
 - [Okta's - Setting Up and Authenticating with Multi-factor Authentication (MFA)](https://support.okta.com/help/s/end-user-adoption-toolkit/setting-up-mfa-for-end-users?language=en_US)
+lastmod: 2026-10-11

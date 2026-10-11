@@ -1,9 +1,10 @@
 ---
 title: "Cryptography Unveiled: Encryption Techniques Explained"
 date: 2024-01-11
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "starting a journey through the intriguing history and evolving landscape of cryptography. This detailed breakdown into encryption techniques, spanning ancient civilizations to modern quantum threats, equips cybersecurity enthusiasts with a profound understanding of symmetric and asymmetric encryption methods. From the principles of confidentiality, integrity, and authentication to exploring the complexities of Elliptic Curve Cryptography and Diffie-Hellman Key Exchange, this article unveils the secrets behind securing digital communication."
+description: "Learn how symmetric, asymmetric, and hybrid encryption protect data, how key exchange works, and where modern cryptographic methods fit in practice."
 genre: ["Cryptography History", "Encryption Techniques", "Symmetric Encryption", "Asymmetric Encryption", "RSA Algorithm", "Elliptic Curve Cryptography", "Diffie-Hellman Key Exchange", "Data Confidentiality", "Data Integrity", "Data Authentication", "Quantum Computing Threats", "Security Audits", "Wallet Security"]
 tags: ["Historical Cryptography", "Symmetric Encryption Techniques", "Asymmetric Encryption Techniques", "Cryptography Principles", "Data Confidentiality", "Data Integrity", "Data Authentication", "Quantum Threats", "Security Best Practices", "Key Management", "Secure Implementation", "Security Audits", "Wallet Security", "RSA Algorithm", "Elliptic Curve Cryptography", "Diffie-Hellman Key Exchange", "SSL/TLS", "SSH"]
 cover: "/img/cover/unveiling-the-secrets-of-cryptography_-a-deep-dive-into-encryption-techniques.webp"
@@ -54,7 +55,7 @@ As a cybersecurity expert, you need to understand the **modern cryptography tech
 Principles of Cryptography
 --------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/6ce2ba3a-4f99-4c46-8c1e-9b9d43b6c97a/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6ce2ba3a-4f99-4c46-8c1e-9b9d43b6c97a/thumbnail.jpeg" alt="Illustration: Modern Cryptography Techniques" >}}
 
 ### Confidentiality
 
@@ -71,7 +72,7 @@ Authentication is a crucial aspect of **data verification** in cryptography. It 
 Symmetric Encryption Techniques
 -------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/0218275c-e6f7-4838-b639-baf597cb7243/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0218275c-e6f7-4838-b639-baf597cb7243/thumbnail.jpeg" alt="Illustration: Authentication" >}}
 
 ### Substitution Ciphers
 
@@ -97,7 +98,7 @@ Transposition ciphers can be a useful component in a **layered** encryption stra
 Asymmetric Encryption Techniques
 --------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/36dc4167-234c-4f0b-b3e0-730b44ae20ef/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/36dc4167-234c-4f0b-b3e0-730b44ae20ef/thumbnail.jpeg" alt="Illustration: Transposition Ciphers" >}}
 
 ### Elliptic Curve Cryptography
 

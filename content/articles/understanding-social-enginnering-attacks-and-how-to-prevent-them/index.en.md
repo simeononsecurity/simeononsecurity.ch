@@ -1,6 +1,7 @@
 ---
 title: "Preventing Social Engineering Attacks"
 date: 2023-05-09
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to prevent social engineering attacks and protect your organization's sensitive information with employee training, security policies, and more."
@@ -75,3 +76,4 @@ To prevent physical security breaches, organizations should have clear policies 
 ## Conclusion
 
 Social engineering attacks are a serious threat to organizations of all sizes. By understanding the different types of social engineering attacks and implementing strategies to prevent them, organizations can reduce their risk of falling victim to these attacks. Employee training, security policies, multi-factor authentication, anti-virus and anti-malware software, and physical security are all important components of a comprehensive security strategy. By taking these steps, organizations can protect their sensitive information and ensure the security of their systems and networks.
+lastmod: 2026-10-11

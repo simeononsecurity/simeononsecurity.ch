@@ -1,6 +1,7 @@
 ---
 title: "CEH Certification Exam Study Plan: Tips and Strategies"
 date: 2023-05-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to create an effective study plan for passing the CEH certification exam with tips and strategies for success."

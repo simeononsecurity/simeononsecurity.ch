@@ -1,6 +1,7 @@
 ---
 title: "Protecting Personal Information in the Digital Age"
 date: 2023-06-29
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn effective strategies for protecting personal information and ensuring data privacy in the digital age."

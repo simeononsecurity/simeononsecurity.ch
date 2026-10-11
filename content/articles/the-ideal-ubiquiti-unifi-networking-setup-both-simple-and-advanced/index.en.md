@@ -1,6 +1,7 @@
 ---
 title: "Ultimate UniFi Setup: Simple and Advanced with Rack Setup"
 date: 2023-06-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the perfect UniFi setup for your home wiring needs, from a simple and cost-effective solution to a complete networking setup with advanced capabilities."
@@ -166,3 +167,4 @@ Investing in the right UniFi products not only provides a reliable and high-perf
 - [StarTech.com 2U Server Rack Shelf](https://amzn.to/3WPlPEr)
 - [Tripp Lite SMART1500LCDXL 1500VA Smart UPS Back Up, 900W Rack-Mount/Tower](https://amzn.to/3WJMTF2)
 
+lastmod: 2026-10-11

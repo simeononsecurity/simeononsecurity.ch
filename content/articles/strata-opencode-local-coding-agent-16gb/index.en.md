@@ -4,7 +4,7 @@ date: 2026-10-06
 lastmod: 2026-10-06
 toc: true
 draft: false
-description: "Run a local coding agent with Strata and OpenCode. Examine reported RTX 4060 Ti results, RAM requirements, prompt reuse, reasoning budgets, and the limits of replacing a paid subscription."
+description: "Run a local coding agent with Strata and OpenCode. Review RTX 4060 Ti results, RAM needs, prompt reuse, and subscription limits."
 genre: ["Local AI", "Developer Tools", "Self-Hosted AI", "AI Hardware"]
 tags: ["local AI coding agent", "Strata", "OpenCode", "Qwen3.8 Flash Next", "125B model", "RTX 4060 Ti", "16GB GPU", "64GB RAM", "IQ3_S", "mixture of experts", "expert cache", "prompt caching", "prefix reuse", "reasoning budget", "coding assistant", "local inference", "AI subscriptions", "GPU offload", "Docker", "automated tests", "OpenAI compatible API", "context window", "NVMe SSD", "self hosted AI"]
 cover: "/img/cover/local-ai-coding-16gb-gpu-nvidia-rtx-4060-ti.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Mastering Cybersecurity: Your Guide to a Safer Digital World"
 date: 2023-10-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover essential cybersecurity practices to safeguard your digital life and assets. Learn about threats, best practices, and stay secure online."

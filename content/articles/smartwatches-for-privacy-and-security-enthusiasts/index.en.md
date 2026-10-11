@@ -1,6 +1,7 @@
 ---
 title: "Privacy-First Smartwatch Options for Data-Savvy Users"
 date: 2023-05-27
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover top smartwatch choices tailored for privacy enthusiasts, emphasizing data security and user control."
@@ -90,3 +91,4 @@ ______
 7. [Amazfit](https://www.amazfit.com/)
 8. [Garmin](https://www.garmin.com/)
 9. [Fitbit](https://www.fitbit.com/)
+lastmod: 2026-10-11

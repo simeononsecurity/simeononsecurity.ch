@@ -1,6 +1,7 @@
 ---
 title: "HackTheBox vs. TryHackMe: Which Is Best for You?"
 date: 2023-02-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Comparing the strengths and weaknesses of HackTheBox and TryHackMe to determine the best platform for junior penetration testing."

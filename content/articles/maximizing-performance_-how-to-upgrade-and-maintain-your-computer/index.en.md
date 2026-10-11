@@ -1,12 +1,14 @@
 ---
 title: "Boost Your PC: Essential Computer Upgrade & Maintenance Tips"
 date: 2024-02-21
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Elevate Your Computing Experience with Our Top Tips on Enhancing Performance and Maintaining Your PC."
 genre: ["Computer Upgrades", "PC Maintenance", "Tech Tips", "Performance Optimization", "Hardware Enhancements", "Software Performance", "Gadget Care", "Technology Advice", "Computer Health", "System Efficiency"]
 tags: ["UpgradePC", "PerformanceEnhancement", "ComputerMaintenance", "OptimizePC", "UpgradeHardware", "MaintainComputer", "IncreaseSpeed", "TechGuide", "PreventOverheating", "ExtendLifespan", "ImproveEfficiency", "SystemSettings", "PerformanceMonitoring", "SystemCleanliness", "RegularUpdates", "CoolingSolutions", "SystemUpgrades", "BoostComputerPerformance", "TechMaintenance", "GadgetUplift", "ComputerCare", "HardwareUpgrades", "MaximizePC", "PerformanceTools", "ComputerHealthCheck", "SpeedUpComputer", "PCPerformance", "UpdateSoftware", "ProtectHardware", "PerformanceMetrics"]
 cover: "/img/cover/maximizing-performance_-how-to-upgrade-and-maintain-your-computer.webp"
+coverAlt: "Illustration of computer upgrades and maintenance improving system performance."
 ---
 
 Maximizing Performance: How to Upgrade and Maintain Your Computer
@@ -40,7 +42,7 @@ Measuring computer performance is crucial in understanding the capabilities and 
 Upgrading Your Computer
 -----------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/87bf1dc4-7e2b-4329-af7d-586d4a3edbb5/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/87bf1dc4-7e2b-4329-af7d-586d4a3edbb5/thumbnail.jpeg" alt="Illustration accompanying the section on measuring computer performance" >}}
 
 ### Identifying Hardware Bottlenecks
 
@@ -72,7 +74,7 @@ Following these best practices will help you successfully install and configure 
 Maintaining Your Computer
 -------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/22ca15fe-b25c-41d8-8932-70353fa06f2e/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/22ca15fe-b25c-41d8-8932-70353fa06f2e/thumbnail.jpeg" alt="Illustration accompanying the section on installing and configuring computer upgrades" >}}
 
 ### Regular Software Updates
 
@@ -115,7 +117,7 @@ Remember, a clean computer is a happy computer!
 Monitoring Performance
 ----------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/c43d66d2-6625-43cd-89fb-54090a33b1a3/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/c43d66d2-6625-43cd-89fb-54090a33b1a3/thumbnail.jpeg" alt="Illustration accompanying the section on cleaning and dusting a computer" >}}
 
 ### Using Performance Monitoring Tools
 
@@ -172,7 +174,7 @@ By following these troubleshooting steps, you can effectively diagnose and resol
 Best Practices for Performance Optimization
 -------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/40188fde-a5c4-4993-9ef5-4b3e71a7e6b3/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/40188fde-a5c4-4993-9ef5-4b3e71a7e6b3/thumbnail.jpeg" alt="Illustration accompanying the section on troubleshooting computer performance issues" >}}
 
 ### Managing Startup Programs
 

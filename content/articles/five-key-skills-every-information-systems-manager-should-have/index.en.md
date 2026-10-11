@@ -1,6 +1,7 @@
 ---
 title: "Key Skills for Effective Information Systems Managers"
 date: 2023-06-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the 5 key skills every manager of information systems should have to succeed These days ."

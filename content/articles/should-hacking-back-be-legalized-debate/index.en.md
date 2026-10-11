@@ -1,6 +1,7 @@
 ---
 title: "Should Hacking Back Be Legalized? Exploring the Debate"
 date: 2023-12-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the pros and cons of legalizing hacking back in cybersecurity, with a focus on its legality, ethics, and practical implications."
@@ -87,3 +88,4 @@ The question of whether hacking back should be legalized is a complex one. While
 1. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 2. [Electronic Communications Privacy Act (ECPA)](https://www.law.cornell.edu/uscode/text/18/2511)
 3. [Budapest Convention on Cybercrime](https://coe.int/en/web/cybercrime/the-budapest-convention)
+lastmod: 2026-10-11

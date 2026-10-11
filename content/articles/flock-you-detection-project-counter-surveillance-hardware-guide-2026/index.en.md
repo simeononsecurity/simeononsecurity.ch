@@ -4,7 +4,7 @@ date: 2026-05-24
 lastmod: 2026-09-03
 toc: true
 draft: false
-description: "Comprehensive technical guide to the open-source Flock-You project for detecting Flock Safety ALPR cameras using ESP32-based hardware. Includes setup instructions, firmware details, and purchasing options."
+description: "Set up Flock-You on ESP32 hardware to detect likely ALPR signals. Review firmware, hardware choices, and detection limits."
 genre: ["Security Hardware", "Counter Surveillance", "Privacy Technology", "Open Source Projects", "ESP32 Development", "WiFi Monitoring", "Privacy Tools", "Digital Rights", "Hardware Hacking", "Network Security"]
 tags: ["Flock-You Project", "ALPR Detection", "ESP32-S3", "WiFi OUI Detection", "Counter Surveillance Hardware", "Flock Safety Detection", "Open Source Security", "Privacy Hardware", "M5 Atom Lite", "OUI-SPY", "mesh-detect v2", "Promiscuous Mode WiFi", "802.11 Monitoring", "Colonel Panic Tech", "STS Collective", "Privacy Devices", "Surveillance Detection", "WiFi Scanning", "GitHub Project", "colonelpanichacks", "ESP32 Firmware", "Hardware Setup Guide", "DIY Privacy Tools", "Network Monitoring", "OUI Database", "Wildcard Probe Detection", "Frame Analysis", "ALPR Camera Detection", "Privacy Technology", "Detection Hardware", "Arduino ESP32", "Platform.io", "Embedded Systems", "RF Detection", "Signal Processing", "Privacy Engineering", "Counter Technology", "Security Research", "Privacy Advocacy", "Open Hardware", "Privacy Defense", "Detection Firmware", "Mobile Detection", "Privacy Projects", "Hardware Comparison"]
 cover: "/img/cover/flock-you-detection-project-counter-surveillance-hardware-guide-2026.webp"

@@ -1,10 +1,10 @@
 ---
 title: "Local AI vs ChatGPT: How Close Are We Really?"
 date: 2026-10-06
-lastmod: 2026-10-06
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Compare local AI with ChatGPT and Claude through benchmark scores, memory estimates, serving speed, and agent verification. Includes RTX 5090, DGX Spark, and Mac Studio scenarios."
+description: "Compare local AI with ChatGPT and Claude using benchmark scores, memory needs, serving speed, privacy tradeoffs, and agent verification results."
 genre: ["Local AI", "Artificial Intelligence", "AI Hardware", "Developer Tools"]
 tags: ["local AI vs ChatGPT", "local AI vs Claude", "local LLM", "AI agents", "open weights", "Qwen3.8 27B", "GLM-5.3", "GPT-6 Astra", "Claude Opus 5.5", "RTX 5090", "DGX Spark", "Mac Studio", "quantization", "KV cache", "unified memory", "VRAM", "Artificial Analysis", "agent verification", "local inference", "hybrid AI", "coding agents", "AI benchmarks"]
 cover: "/img/cover/local-ai-vs-chatgpt-comparison-illustration.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Building Efficient and Secure Docker Containers"
 date: 2023-02-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to create efficient and secure Docker containers using best practices, tips, and step-by-step instructions in this comprehensive guide."

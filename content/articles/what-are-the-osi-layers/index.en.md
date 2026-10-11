@@ -3,6 +3,7 @@ title: "Networking Basics: Understanding OSI Layers and TCP IP Model"
 draft: false
 toc: true
 date: 2023-07-22
+lastmod: 2026-10-11
 description: "Gain a comprehensive understanding of the OSI layers and TCP IP model, essential frameworks in networking, to facilitate effective communication and troubleshooting."
 genre: ["Networking Basics", "OSI Layers", "TCP IP Model", "Network Protocols", "Communication Models", "Networking Fundamentals", "Data Transmission", "Network Troubleshooting", "Network Architecture", "Networking Concepts"]
 tags: ["OSI layers", "TCP IP model", "networking basics", "network protocols", "communication models", "data transmission", "network troubleshooting", "network architecture", "networking concepts", "networking fundamentals", "networking frameworks", "network protocols explanation", "networking standards", "physical layer", "data link layer", "network layer", "transport layer", "session layer", "presentation layer", "application layer", "TCP IP layers", "network interface layer", "internet layer", "transport layer", "application layer", "networking protocols explained", "networking models", "networking fundamentals explained", "networking guide", "networking tutorial", "networking best practices"]
@@ -115,3 +116,4 @@ References:
 - [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
 - [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
 - [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
+lastmod: 2026-10-11

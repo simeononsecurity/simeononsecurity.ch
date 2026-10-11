@@ -3,7 +3,8 @@ title: "How to Humanize AI Writing"
 draft: false
 toc: true
 date: 2026-06-25
-description: "Stop your AI-generated text from sounding like a robot. Use this free prompt with ChatGPT, Claude, or any LLM to remove telltale AI writing signs and produce clean, direct, human-sounding output."
+lastmod: 2026-10-11
+description: "Use a practical prompt workflow to revise AI-assisted drafts for clearer, more natural prose and stronger factual checks."
 tags: ["humanize ai writing", "ai writing prompt", "chatgpt prompt", "ai text humanizer", "remove ai writing signs", "ai content", "llm prompts", "chatgpt tips", "ai writing style", "prompt engineering", "ai copywriting", "ai slop", "chatgpt customization", "ai text improvement", "writing prompt", "content creation", "ai tools", "chatgpt settings", "custom instructions chatgpt", "ai writing guide"]
 cover: "/img/cover/how-to-humanize-ai-writing-prompt-guide.webp"
 coverAlt: "An illustration of a person using a laptop with an AI writing tool, surrounded by abstract representations of complex writing pitfalls, all set against a dark background with vibrant colors."

@@ -1,6 +1,7 @@
 ---
 title: "Understanding Sensitive Compartmented Information (SCI)..."
 date: 2023-06-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the importance, classification levels, handling, and regulations of Sensitive Compartmented Information (SCI) for national security purposes."
@@ -101,3 +102,4 @@ To sum up, SCI plays a critical role in safeguarding national security by protec
 - [National Industrial Security Program Operating Manual (NISPOM)](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom)
 - [Intelligence Community Directives (ICDs)](https://www.dni.gov/index.php/what-we-do/ic-related-menus/ic-related-links/intelligence-community-directives)
 
+lastmod: 2026-10-11

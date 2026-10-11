@@ -1,6 +1,7 @@
 ---
 title: "10 Common Cybersecurity Mistakes & How to Avoid Them"
 date: 2023-03-09
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect yourself from cyber threats by avoiding these 10 common cybersecurity mistakes."
@@ -119,3 +120,4 @@ Cybersecurity is a critical issue in today's digital age, and it's important to 
 - Microsoft. (n.d.). **Update Windows 10**. Retrieved from https://support.microsoft.com/en-us/windows/update-windows-10-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a
 - Federal Trade Commission. (n.d.). **How to Recognize and Avoid Phishing Scams**. Retrieved from https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
 - Google. (n.d.). **Google Account Password Help**. Retrieved from https://support.google.com/accounts/answer/41078?hl=en
+lastmod: 2026-10-11

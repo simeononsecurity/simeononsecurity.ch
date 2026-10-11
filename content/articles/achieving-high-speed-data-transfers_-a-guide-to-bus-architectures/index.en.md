@@ -1,6 +1,7 @@
 ---
 title: "Mastering Bus Architectures for Swift Data Transfers"
 date: 2024-02-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Unveil Secrets to Accelerated Data Transfers with our Guide to Bus Architectures. Enhance System Performance & Stay Ahead of Tech Trends. Ready to Amp Up Speed?"

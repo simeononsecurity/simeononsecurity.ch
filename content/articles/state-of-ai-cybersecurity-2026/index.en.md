@@ -3,7 +3,8 @@ title: "AI Cybersecurity in 2026: Deploy Fast, Secure Later"
 draft: false
 toc: true
 date: 2026-06-26
-description: "A professional assessment of where AI cybersecurity actually stands in 2026. Organizations adopted AI at a pace that guidance, tooling, and operational practices did not match. The gap is real, documented, and growing."
+lastmod: 2026-10-11
+description: "A 2026 assessment of AI cybersecurity adoption, operational gaps, current guidance, and practical controls for organizations."
 tags: ["AI security", "AI cybersecurity 2026", "prompt injection", "AI agents", "MCP security", "AI supply chain", "shadow AI", "AI red teaming", "LLM security", "AI observability", "agentic AI", "AI threats", "AI attacks", "model security", "AI governance", "NIST AI 600-1", "OWASP LLM", "MITRE ATLAS", "AI incident response", "enterprise AI security", "AI identity", "context poisoning", "tool poisoning", "AI authorization"]
 cover: "/img/cover/state-of-ai-cybersecurity-2026.webp"
 coverAlt: "An illustration of interconnected AI systems represented as glowing nodes on a dark background, with vibrant lines showing connections and shadows indicating security vulnerabilities around some nodes."

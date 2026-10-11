@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Cybersecurity"
 date: 2023-10-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how Windows Group Policy settings strengthen cybersecurity by minimizing attack surface vulnerabilities for stronger protection."

@@ -1,6 +1,7 @@
 ---
 title: "Insider Threat Indicators"
 date: 2023-06-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover potential insider threat indicators and effective mitigation strategies to protect your organization's security."

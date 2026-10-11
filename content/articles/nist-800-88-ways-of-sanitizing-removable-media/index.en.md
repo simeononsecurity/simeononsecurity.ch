@@ -1,6 +1,7 @@
 ---
 title: "NIST Approved Methods for Sanitizing Removable Media Devices"
 date: 2023-02-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the NIST approved ways to sanitize hard drives, SSDs, USB flash drives, CDs, DVDs, and Blu-ray disks to protect sensitive data from unauthorized access."

@@ -1,12 +1,14 @@
 ---
 title: "Small Business Phishing Protection: Complete Guide"
 date: 2024-01-20
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover foolproof tactics to safeguard your small business from phishing threats. Uncover the secrets to recognizing scams, implementing robust security, and staying ahead in the cyber defense game. Equip your team with the knowledge to thwart attacks and fortify your business. Don't let phishing jeopardize your success – arm yourself with essential protection now!"
+description: "Protect a small business from phishing with staff training, email controls, verification procedures, reporting steps, and tested incident response."
 genre: ["Cybersecurity", "Small Business Protection", "Phishing Scams", "Employee Education", "Email Security", "Multi-Factor Authentication", "Security Audits", "Social Engineering Tactics", "Digital Threats", "Online Security"]
 tags: ["Phishing Protection", "Small Business Security", "Employee Training", "Email Authentication", "Cyber Threats", "Digital Safety Measures", "Multi-Factor Authentication", "Security Audits", "Online Fraud Prevention", "Social Engineering Defense", "Digital Security Education", "Email Scam Recognition", "Business Cyber Defense", "Digital Threat Intelligence", "Data Protection Strategies", "Online Security Best Practices", "Small Business Resilience", "IT Security Solutions", "Email Safety Tips", "Secure Business Communication", "Advanced Phishing Defense", "Financial Fraud Prevention", "Internet Security Guidelines", "Digital Resilience Planning", "Thwarting Online Scams", "Security Awareness Training", "Secure Business Practices", "Digital Fraud Defense", "Phishing Awareness"]
 cover: "/img/cover/how-to-protect-your-small-business-from-phishing-scams.webp"
+coverAlt: "Illustration of phishing protection for a small business email account."
 ---
 
 How to Protect Your Small Business from Phishing Scams
@@ -54,7 +56,7 @@ To effectively protect against phishing scams, small businesses should prioritiz
 Recognizing Phishing Attempts
 -----------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/0306cbb4-c428-4cb1-b532-14ec5090d72d/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0306cbb4-c428-4cb1-b532-14ec5090d72d/thumbnail.jpeg" alt="Illustration accompanying the section on common phishing targets" >}}
 
 ### Signs of a Phishing Email
 
@@ -90,7 +92,7 @@ It is crucial for small businesses to educate their employees about these tactic
 Protecting Your Small Business
 ------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/ada0348a-0fb7-4c5b-a021-b9302e3d6e9f/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/ada0348a-0fb7-4c5b-a021-b9302e3d6e9f/thumbnail.jpeg" alt="Illustration accompanying the section on social engineering tactics" >}}
 
 ### Educating Employees about Phishing
 
@@ -116,7 +118,7 @@ Multi-factor authentication (MFA) is a crucial security measure for protecting y
 Responding to Phishing Incidents
 --------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/13800281-b6fa-4f8c-b4cd-6ba522e607e5/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/13800281-b6fa-4f8c-b4cd-6ba522e607e5/thumbnail.jpeg" alt="Illustration accompanying the section on multi-factor authentication" >}}
 
 ### Reporting Phishing Attempts
 
@@ -140,7 +142,7 @@ Updating security policies is a crucial step in [protecting your small business]
 Staying Ahead of Phishing Scams
 -------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/bf80099f-ffb0-42a9-a4ab-433e7e45ed55/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/bf80099f-ffb0-42a9-a4ab-433e7e45ed55/thumbnail.jpeg" alt="Illustration accompanying the section on updating security policies" >}}
 
 ### Keeping Up with Phishing Trends
 

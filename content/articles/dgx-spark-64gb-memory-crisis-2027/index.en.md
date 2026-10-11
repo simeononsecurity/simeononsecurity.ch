@@ -4,7 +4,7 @@ date: 2026-10-03
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "NVIDIA's 64GB DGX Spark tier shows how memory supply pressure is shaping local AI hardware. This guide explains the capacity cut, unified-memory tradeoffs, and why DRAM relief is unlikely before late 2027."
+description: "Analyze the 64GB DGX Spark tier, unified-memory trade-offs, and DRAM supply pressure through late 2027."
 genre: ["Local AI", "AI Hardware", "Semiconductors", "Computer Hardware", "AI Economics", "Self-Hosted AI"]
 tags: ["DGX Spark", "64GB DGX Spark", "128GB DGX Spark", "NVIDIA GB10", "local AI", "unified memory", "LPDDR5x", "DRAM shortage", "DDR5 prices", "HBM", "AI hardware prices", "memory crisis", "GPU prices", "local LLM", "AI workstation", "2027 memory outlook", "NVIDIA Blackwell", "AI infrastructure"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"

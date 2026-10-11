@@ -1,6 +1,7 @@
 ---
 title: "Front-End Frameworks Comparison"
 date: 2023-06-09
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the differences between React, Angular, and Vue.js to choose the right front-end framework for your web development project."

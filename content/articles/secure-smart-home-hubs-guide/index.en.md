@@ -1,6 +1,7 @@
 ---
 title: "Secure Smart Home Hubs"
 date: 2023-09-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover secure smart home hubs for a safe and convenient home automation experience."
@@ -123,3 +124,4 @@ ______
 4. [Hubitat Home Automation Hub](https://amzn.to/47aa14B)
 5. [Z-Wave Technology](https://www.z-wave.com/learn)
 6. [Zigbee Alliance](https://www.zigbeealliance.org/)
+lastmod: 2026-10-11

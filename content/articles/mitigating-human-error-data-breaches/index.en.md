@@ -1,6 +1,7 @@
 ---
 title: "Human Error: A Leading Cause of Data Breaches"
 date: 2023-12-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how human error plays a pivotal role in data breaches and how to prevent them effortlessly."

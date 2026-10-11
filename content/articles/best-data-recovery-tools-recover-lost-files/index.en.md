@@ -1,6 +1,7 @@
 ---
 title: "The Best Data Recovery tools for Windows, Linux, MacOS,..."
 date: 2023-07-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the best data recovery tools for Android, Mac, Windows, and more to easily recover your lost files and regain peace of mind."

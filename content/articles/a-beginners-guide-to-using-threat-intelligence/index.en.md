@@ -1,6 +1,7 @@
 ---
 title: "Beginner's Guide to Threat Intelligence for Cybersecurity"
 date: 2023-03-18
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Improve your cybersecurity posture with this beginner's guide to threat intelligence and its importance."

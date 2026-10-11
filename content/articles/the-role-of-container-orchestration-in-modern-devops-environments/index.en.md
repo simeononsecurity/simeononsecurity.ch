@@ -1,9 +1,10 @@
 ---
 title: "The role of container orchestration in modern DevOps..."
 date: 2023-04-14
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn about the significance and benefits of container orchestration in modern DevOps, along with popular container orchestration tools and government regulations relevant to containerization."
+description: "Learn how container orchestration manages deployment, scaling, networking, and recovery in modern DevOps environments."
 tags: ["container orchestration", "DevOps", "Kubernetes", "Docker Swarm", "Apache Mesos", "scalability", "high-availability", "load balancing", "security", "automated app deployments", "HIPAA", "SOX", "GDPR", "compliance", "software development", "cloud computing", "containerization", "technology", "automation"]
 cover: "/img/cover/A_cartoonish_image_depicting_containers_sharing_equal_weight.webp"
 coverAlt: "A cartoonish image depicting containers sharing equal weight on a seesaw with an orchestra conductor directing them "

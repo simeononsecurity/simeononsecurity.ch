@@ -1,6 +1,7 @@
 ---
 title: "Beginner's Guide to Cybersecurity Incident Response"
 date: 2023-03-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the basics of incident response and handling cybersecurity incidents with this beginner's guide."

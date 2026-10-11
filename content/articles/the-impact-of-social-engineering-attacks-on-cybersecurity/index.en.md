@@ -1,6 +1,7 @@
 ---
 title: "Defending Against Social Engineering Attacks in..."
 date: 2023-03-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to defend against social engineering attacks and protect your data from cybercriminals in this informative article."
@@ -61,3 +62,4 @@ Remember, protecting your data and systems is an ongoing process that requires c
 - [What is zero trust?](https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html)
 - [Ways to avoid social engineering attacks](https://usa.kaspersky.com/resource-center/threats/how-to-avoid-social-engineering-attacks)
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "Choosing a Password Manager"
 date: 2023-06-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the essential factors to consider when selecting a password manager and find out why Bitwarden and KeePassXC are the recommended options"

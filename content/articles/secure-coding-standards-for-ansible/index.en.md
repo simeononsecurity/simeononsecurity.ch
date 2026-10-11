@@ -1,6 +1,7 @@
 ---
 title: "Secure Coding Guidelines for Ansible: Best Practices"
 date: 2023-03-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the best practices for writing secure code with Ansible, a popular tool for configuration management and deployment."
@@ -143,3 +144,4 @@ By integrating these **best practices**, organizations can confidently use the b
 - [OpenSSH Documentation](https://www.openssh.com/)
 - [Transport Layer Security (TLS) Documentation](https://tools.ietf.org/html/rfc8446)
 - [OWASP Code Injection Documentation](https://owasp.org/www-community/attacks/Code_Injection)
+lastmod: 2026-10-11

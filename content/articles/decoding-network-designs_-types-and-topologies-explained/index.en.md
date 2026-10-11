@@ -1,6 +1,7 @@
 ---
 title: "Optimize Your Network: Understanding Designs & Topologies"
 date: 2024-02-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the Art of Network Designs & Topologies - Which Ensures Peak Efficiency"
@@ -84,7 +85,7 @@ Bus design is a type of network design where all devices are connected to a sing
 Exploring Network Topologies
 ----------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/0c6f9cdc-fb67-45cf-bce5-6ff815e939bd/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/0c6f9cdc-fb67-45cf-bce5-6ff815e939bd/thumbnail.jpeg" alt="Illustration related to Bus Design" >}}
 
 ### Physical Topology
 

@@ -1,6 +1,7 @@
 ---
 title: "A Beginner's Guide to Website Development: HTML, CSS, and JavaScript"
 date: 2023-02-27
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the fundamentals of website development, including HTML, CSS, and JavaScript, with this beginner-friendly guide."

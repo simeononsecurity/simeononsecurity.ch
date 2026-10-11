@@ -1,6 +1,7 @@
 ---
 title: "A Comprehensive Beginner's Guide to Penetration Testing Tools & Techniques"
 date: 2023-03-31
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the essentials of penetration testing tools and techniques, methodologies, and certifications to kickstart your career in cybersecurity."

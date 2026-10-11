@@ -1,9 +1,10 @@
 ---
 title: "Blockchain Landscape: Fundamentals and Applications"
 date: 2024-01-07
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "starting a journey through the intricate world of blockchain technology. From the foundational role of cryptography to transformative applications in finance, supply chain, and healthcare, this comprehensive guide equips cybersecurity professionals with insights to secure decentralized systems. dig into emerging trends like asset tokenization, IoT integration, and governance models, ensuring a proactive stance in the evolving blockchain landscape."
+description: "Learn how blockchain uses cryptography, consensus, distributed ledgers, and smart contracts, then assess security risks across common applications."
 genre: ["Blockchain Technology", "Cryptography in Blockchain", "Decentralization", "Consensus Mechanisms", "Financial Services Blockchain", "Supply Chain Blockchain", "Healthcare Blockchain", "Blockchain Challenges", "Scalability in Blockchain", "Regulatory Compliance", "Blockchain Interoperability", "Future Trends in Blockchain", "Tokenization of Assets", "Blockchain-IoT Integration", "Governance Models in Blockchain", "Blockchain Security"]
 tags: ["Blockchain Fundamentals", "Cryptographic Protocols", "Decentralized Systems", "Consensus Mechanisms", "Financial Transactions Security", "Smart Contracts", "Supply Chain Transparency", "Healthcare Data Security", "Blockchain Challenges", "Scalability Solutions", "Regulatory Compliance in Blockchain", "Interoperability Challenges", "Asset Tokenization", "IoT Security", "Blockchain Governance", "Blockchain Security Measures", "Innovations in Blockchain"]
 cover: "/img/cover/exploring-the-world-of-crypto_-understanding-blockchain-technology.webp"
@@ -47,7 +48,7 @@ Consensus mechanisms are a critical component of blockchain technology, ensuring
 Applications of Blockchain Technology
 -------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/f2f14ab2-d2dd-454d-b293-7a5eabc991a4/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/f2f14ab2-d2dd-454d-b293-7a5eabc991a4/thumbnail.jpeg" alt="Illustration related to Consensus Mechanisms" >}}
 
 ### Financial Services
 
@@ -87,7 +88,7 @@ The healthcare industry is an area where **blockchain technology** holds signifi
 Challenges and Limitations of Blockchain Technology
 ---------------------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/e47f2cba-6bd4-47ff-a143-a906555ba879/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/e47f2cba-6bd4-47ff-a143-a906555ba879/thumbnail.jpeg" alt="Illustration related to Healthcare Industry" >}}
 
 ### Scalability
 
@@ -110,7 +111,7 @@ Interoperability is a critical challenge in blockchain technology. It refers to 
 Future Trends in Blockchain Technology
 --------------------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/be90107e-613d-4678-b340-d1a4f9809b07/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/be90107e-613d-4678-b340-d1a4f9809b07/thumbnail.jpeg" alt="Illustration related to Interoperability" >}}
 
 ### Tokenization of Assets
 

@@ -3,6 +3,7 @@ title: "Common VPN Mistakes and How You're Accidentally Leaking Your Public IP"
 draft: false
 toc: true
 date: 2023-05-08
+lastmod: 2026-10-11
 description: "Protect your online privacy by avoiding these common VPN mistakes that can accidentally leak your public IP address"
 tags: ["VPN mistakes", "IP leaks", "online privacy", "cybersecurity", "internet security", "virtual private network", "WebRTC", "DNS server", "VPN provider", "two-factor authentication", "VPN software", "kill switch", "data privacy", "internet privacy", "cyber threats", "data security", "network security", "online security", "online anonymity", "anonymous browsing"]
 cover: "/img/cover/A_cartoon_character_standing_on_a_laptop_with_a_magnifying_glass.webp"

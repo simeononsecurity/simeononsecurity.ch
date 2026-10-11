@@ -1,9 +1,10 @@
 ---
 title: "5 Tips for Asking Effective Questions"
 date: 2023-05-12
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn how to ask specific and relevant questions, and avoid wasting time."
+description: "Use five practical methods to write specific questions, include useful context, and get answers others can verify."
 tags: ["productivity", "communication", "problem-solving", "research", "conversation", "questioning", "information", "engagement", "expertise", "time management", "knowledge", "skills", "learning", "collaboration", "critical thinking", "curiosity", "focus", "analysis", "inquiry", "curiosity"]
 cover: "/img/cover/A_person_holding_a_megaphone_surrounded_by_question_marks.webp"
 coverAlt: "a person holding a megaphone, surrounded by question marks and exclamation marks, representing the importance of asking effective questions and seeking valuable insights"

@@ -4,7 +4,7 @@ date: 2026-09-10
 lastmod: 2026-09-20
 toc: true
 draft: false
-description: "Flock-You users are reporting zero detections on drives that used to catch cameras every time. Here is what changed in Flock Safety's hardware, why BLE and the old management AP both stopped working, how the open-source detection community responded, and an emerging infrared-based detection approach that skips WiFi entirely."
+description: "Review reported Flock Safety detection changes, community responses, and infrared approaches for identifying camera systems."
 genre: ["Privacy Technology", "Counter Surveillance", "Open Source Projects", "Digital Rights", "Network Security", "Security Research", "Hardware Hacking", "Privacy Tools"]
 tags: ["Flock Safety", "ALPR", "Flock-You", "OUI Detection", "Wildcard Probe Request", "Promiscuous Mode WiFi", "802.11 Monitoring", "DeFlockJoplin", "NitekryDPaul", "BLE Detection", "5GHz WiFi", "Locally Administered MAC", "SSID Pattern Matching", "Counter Surveillance Hardware", "STS Collective", "colonelpanichacks", "Detection Evasion", "ESP32", "WiFi Detection", "Surveillance Awareness", "OUI-SPY", "M5 Atom Lite", "Flock Finder", "GitHub Issue Tracking", "Firmware Update", "Anti-Fingerprinting", "MAC Randomization", "Information Element Fingerprinting", "Channel Hopping", "Privacy Advocacy", "Open Source Security", "Mass Surveillance", "Detection Firmware", "Wardriving", "Camera Uprooting", "Privacy Hardware", "Infrared Detection", "IR Illuminator", "ESP32-CAM", "Seeed Studio XIAO ESP32S3 Sense", "Quectel L76K", "Optical Detection", "Valleytech Custom Solutions"]
 cover: "/img/cover/flock-camera-detection-techniques-2026.webp"

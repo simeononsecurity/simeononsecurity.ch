@@ -1,6 +1,7 @@
 ---
 title: "help Your Security: Benefits of Incident Management Software"
 date: 2023-10-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of security incident management software – enhance incident response, tracking, and compliance to safeguard your digital assets."

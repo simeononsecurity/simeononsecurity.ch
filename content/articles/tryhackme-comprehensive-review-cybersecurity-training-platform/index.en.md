@@ -1,6 +1,7 @@
 ---
 title: "Unleashing Cybersecurity Skills: A Review of TryHackMe"
 date: 2023-07-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of TryHackMe: features, pricing, certifications, network services, and more, helping you to master cybersecurity skills."
@@ -78,3 +79,4 @@ ______
 2. [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 3. [Virtual Private Network (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network)
 4. [Active Directory Basics](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+lastmod: 2026-10-11

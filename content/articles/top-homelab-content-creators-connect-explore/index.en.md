@@ -1,6 +1,7 @@
 ---
 title: "Top Homelab Content Creators"
 date: 2023-09-27
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover influential homelab content creators, connect with fellow enthusiasts, and starting a journey of tech exploration."
@@ -112,3 +113,4 @@ ______
 8. [Crosstalk Solutions YouTube Channel](https://www.youtube.com/@CrosstalkSolutions)
 9. [Jeff Geerling YouTube Channel](https://www.youtube.com/@JeffGeerling)
 10. [Hardware Haven YouTube Channel](https://www.youtube.com/@HardwareHaven)
+lastmod: 2026-10-11

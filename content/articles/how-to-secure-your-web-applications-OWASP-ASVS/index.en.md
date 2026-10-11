@@ -1,9 +1,10 @@
 ---
 title: "Securing Your Web Applications with OWASP ASVS"
 date: 2023-04-03
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn how to secure your web applications using the OWASP Application Security Verification Standard (ASVS) to meet the most rigorous security measures and protect against common vulnerabilities."
+description: "Use OWASP ASVS to organize web application security requirements, testing, and verification evidence."
 tags: ["web application security", "OWASP", "ASVS", "application security", "security standards", "cybersecurity", "vulnerability management", "secure coding", "penetration testing", "threat modeling", "security controls", "security assessment", "automated security testing", "manual security testing", "secure development lifecycle", "security best practices", "data security", "risk management", "compliance", "information security"]
 cover: "/img/cover/An_armored_shield_featuring_the_letters_ASVS_in_bold.webp"
 coverAlt: "An armored shield featuring the letters 'ASVS' in bold, with the shield protecting a web application behind it"

@@ -4,7 +4,7 @@ date: 2026-10-03
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A practical October 2026 guide to running a Qwen 27B model with 32GB of usable accelerator memory. Compare single GPUs, two-card builds, unified memory, used data-center cards, rented compute, software support, and full-context limits."
+description: "A practical October 2026 guide to running Qwen 27B with 32GB of accelerator memory. Compare GPUs, unified memory, used cards, rented compute, and context limits."
 genre: ["Local AI", "AI Hardware", "GPU Benchmarking", "Self-Hosted AI", "Computer Hardware", "AI Economics"]
 tags: ["32GB VRAM", "Qwen 27B", "Qwen3.8 27B", "local AI", "GPU buying guide", "VRAM", "llama.cpp", "RTX 5090", "RTX 5060 Ti", "Radeon AI PRO R9700", "Intel Arc Pro B70", "Tesla V100", "AMD Instinct MI50", "GPU rental", "long context", "KV cache", "multi GPU", "tensor split", "CUDA", "ROCm", "Metal", "unified memory", "local LLM", "AI workstation"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"

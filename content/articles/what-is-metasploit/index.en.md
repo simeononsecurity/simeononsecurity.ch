@@ -1,6 +1,7 @@
 ---
 title: "Metasploit: A Framework for Penetration Testing"
 date: 2023-06-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of Metasploit, an open-source framework for penetration testing and exploit development, with robust features and a large community."
@@ -69,3 +70,4 @@ ______
 3. [Metasploit Pro Documentation](https://docs.rapid7.com/metasploit/)
 4. [Computer Fraud and Abuse Act (CFAA)](https://www.law.cornell.edu/uscode/text/18/1030)
 
+lastmod: 2026-10-11

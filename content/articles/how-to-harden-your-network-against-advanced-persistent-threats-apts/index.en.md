@@ -1,6 +1,7 @@
 ---
 title: "Hardening Your Network Infrastructure Against APTs"
 date: 2023-02-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the key steps to harden your network infrastructure against Advanced Persistent Threats (APTs) and protect your organization from cyber attacks."

@@ -1,6 +1,7 @@
 ---
 title: "Mastering Active Directory Security"
 date: 2023-10-14
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover vital techniques for securing Active Directory, safeguarding data, and thwarting breaches in your network infrastructure."

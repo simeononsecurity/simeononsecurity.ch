@@ -1,6 +1,7 @@
 ---
 title: "Native vs. Hybrid Mobile App Development"
 date: 2023-06-07
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the differences and benefits of native and hybrid app development approaches to make an informed choice for your next project."

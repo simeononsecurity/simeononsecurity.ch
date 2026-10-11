@@ -1,6 +1,7 @@
 ---
 title: "Mastering OPSEC: 6 Essential Steps for Digital Security"
 date: 2023-12-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the effortless way to safeguard your digital presence with these 6 essential OPSEC steps. Enhance your cybersecurity now."

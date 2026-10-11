@@ -1,6 +1,7 @@
 ---
 title: "Penetration Testing in Cyber Security: Methods and Tools"
 date: 2023-06-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the crucial role of penetration testing in cyber security and learn about effective methods, essential tools, and best practices."
@@ -85,3 +86,4 @@ ______
 7. Burp Suite - [Official Website](https://portswigger.net/burp)
 8. Wireshark - [Official Website](https://www.wireshark.org/)
 
+lastmod: 2026-10-11

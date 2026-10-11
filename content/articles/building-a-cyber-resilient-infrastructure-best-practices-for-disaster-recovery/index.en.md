@@ -1,6 +1,7 @@
 ---
 title: "Cyber Resilient Infrastructure"
 date: 2023-05-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to build a cyber resilient infrastructure with effective disaster recovery planning and best practices."

@@ -1,6 +1,7 @@
 ---
 title: "Conducting a Security Risk Assessment for Your Organization"
 date: 2023-03-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to conduct a thorough security risk assessment to protect your organization's sensitive information and assets."

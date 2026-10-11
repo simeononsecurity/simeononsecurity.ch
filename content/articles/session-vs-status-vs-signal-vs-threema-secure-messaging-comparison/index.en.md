@@ -1,6 +1,7 @@
 ---
 title: "Session vs Status vs Signal vs Threema"
 date: 2023-08-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the key differences and strengths of Session, Status, Signal, and Threema in this comprehensive comparison of secure messaging services."
@@ -18,6 +19,16 @@ In the rapidly changing landscape of **cybersecurity** and **privacy-focused com
 This article aims to provide a **detailed comparison** of **four popular messaging services**: [**Session**](https://getsession.org/), [**Status**](https://status.im/), [**Signal**](https://signal.org/), and [**Threema**](https://threema.ch/). Each of these services boasts unique features, encryption methods, and approaches to safeguarding user data. 
 
 Let's dig into the details to understand their differences and strengths.
+
+### Quick selection guide
+
+| Priority | Shortlist | Check before choosing |
+| --- | --- | --- |
+| Minimize account identifiers | **Session** or **Threema** | Recovery and contact discovery trade-offs |
+| Familiar mainstream messaging | **Signal** | Phone number and metadata requirements |
+| Messaging with decentralized app features | **Status** | Current protocol support and account model |
+
+Verify current protocol and identity requirements on each provider's documentation before moving sensitive conversations.
 ______
 
 ## **Introduction to Session, Status, Signal, and Threema**
@@ -156,3 +167,4 @@ ______
 2. [Status Official Website](https://status.im/)
 3. [Signal Official Website](https://signal.org/)
 4. [Threema Official Website](https://threema.ch/)
+lastmod: 2026-10-11

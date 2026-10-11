@@ -1,6 +1,7 @@
 ---
 title: "Securing Education: Cybersecurity's Role in Protecting Student Data"
 date: 2023-03-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the importance of cybersecurity in the education industry and learn how to protect sensitive student data."
@@ -88,3 +89,4 @@ ______
 4. [Internet2](https://www.internet2.edu/)
 5. [SANS Institute - Securing the Human](https://www.sans.org/security-awareness-training)
 
+lastmod: 2026-10-11

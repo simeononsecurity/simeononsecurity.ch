@@ -4,7 +4,7 @@ date: 2026-08-25
 lastmod: 2026-08-25
 toc: true
 draft: false
-description: "A grab bag of practical tips for field IT work outside hardware, power, and connectivity planning. Covers spares kits, documentation, ESD standards, firmware and boot media integrity, offline software licensing, physical security, travel logistics, equipment insurance, and small habits preventing big field failures."
+description: "Practical field IT guidance covering spares, documentation, ESD, firmware, boot media, licensing, physical security, travel, and insurance."
 genre: ["Field IT", "Edge Computing", "IT Operations", "Disaster Recovery", "Hardware", "Best Practices"]
 tags: ["field IT kit", "spares kit server", "IT go bag", "field documentation", "ESD protection field", "firmware management", "cable spares", "toolkit for IT deployment", "physical security IT", "travel with server hardware", "airport security laptop hardware", "field IT checklist", "edge deployment tips", "disaster recovery kit", "IT field notes", "backup power adapter", "label maker IT", "portable data center", "expeditionary IT tips", "rapid deployment IT", "ANSI ESD S20.20", "equipment insurance IT", "cyber insurance field deployment", "offline software licensing", "firmware checksum verification", "boot media integrity", "supply chain firmware risk"]
 cover: "/img/cover/field-it-deployment-spares-kit.webp"

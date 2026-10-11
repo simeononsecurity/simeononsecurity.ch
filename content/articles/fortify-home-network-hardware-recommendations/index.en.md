@@ -1,6 +1,7 @@
 ---
 title: "Fortify Your Home Network"
 date: 2023-09-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the essential hardware components to fortify your home network against cyber threats. Learn about hardware firewalls, access points, and monitoring tools."

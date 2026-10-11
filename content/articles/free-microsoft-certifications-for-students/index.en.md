@@ -1,9 +1,10 @@
 ---
 title: "Free Microsoft Certifications for Students and Graduates"
 date: 2023-02-20
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn how to boost your employability and expand your skills in cloud computing and artificial intelligence with free Microsoft Certifications available through the MSFT Student Cert program on CloudReadySkills.com."
+description: "Review free Microsoft certification opportunities for students, including eligibility, available exams, and enrollment steps."
 tags: ["Microsoft Certifications", "Cloud Computing", "Artificial Intelligence", "MSFT Student Cert", "Azure Fundamentals", "AI Fundamentals", "Microsoft 365 Fundamentals", "Power Platform Fundamentals", "Dynamics 365 Fundamentals CRM", "Dynamics 365 Fundamentals ERP", "Security Compliance and Identity", "CloudReadySkills", "Online Education", "Career Development", "IT Certification", "Free Education", "Online Learning", "Technical Skills", "Career Advancement"]
 cover: "/img/cover/A_cartoon-style_image_of_a_smiling_graduate_holding_a_laptop.webp"
 coverAlt: "A cartoon-style image of a smiling graduate holding a laptop and a certificate while standing in front of a computer server with clouds in the background, representing the connection between cloud computing and career advancement."

@@ -1,6 +1,7 @@
 ---
 title: "Decoding Audio Quality: Your Guide to Sampling Rates"
 date: 2024-02-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Elevate Your Music with Our Breakdown of Sampling Rates! Learn How to Choose the Right Audio Fidelity for Your Sound - Dive In for Crisp Audio."

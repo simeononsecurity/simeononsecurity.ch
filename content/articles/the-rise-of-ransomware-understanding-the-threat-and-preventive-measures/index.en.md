@@ -3,6 +3,7 @@ title: "Understanding Ransomware Threats: Prevention Measures"
 draft: false
 toc: true
 date: 2023-05-09
+lastmod: 2026-10-11
 description: "Learn about ransomware threats and the preventive measures you can take to protect yourself against them."
 tags: ["ransomware", "cybersecurity", "prevention", "backup", "antivirus", "VPN", "multi-factor authentication", "government regulations", "phishing", "social engineering", "malware", "cybercrime", "data security", "network security", "cyberattack", "encryption", "cyber hygiene", "incident response", "data protection", "cyber awareness"]
 cover: "/img/cover/A_computer_with_a_lock_and_chain_around_it.webp"
@@ -59,3 +60,4 @@ By implementing preventive measures, individuals and organizations can reduce th
 - [cybersecurityventures.com - Global Ransomware Damage Costs Predicted To Reach $20 Billion (USD) By 2021](https://cybersecurityventures.com/global-ransomware-damage-costs-predicted-to-reach-20-billion-usd-by-2021/#:~:text=The%20damages%20for%202018%20were,fastest%20growing%20type%20of%20cybercrime.)
 - [NCCIC - WHAT IS WANNACRY/WANACRYPT0R?](https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf)
 - [Wikipedia - Colonial Pipeline ransomware attack](https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack)
+lastmod: 2026-10-11

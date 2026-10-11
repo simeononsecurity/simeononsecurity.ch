@@ -1,6 +1,7 @@
 ---
 title: "How to Start a Career in Cybersecurity"
 date: 2023-11-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the roles, coding relevance, and best programming languages in cybersecurity. Choose your path."

@@ -47,6 +47,10 @@ ______
 
 UniFi Firewall is an ideal choice for those seeking an **integrated**, **user-friendly**, and **effective network security solution**. It proves valuable for small businesses and individuals looking for a straightforward yet robust firewall system.
 
+### UniFi decision checkpoint
+
+Choose UniFi when centralized management and matching UniFi hardware matter most. Choose pfSense when you need broader hardware choices, deeper firewall customization, or direct control over installed packages. Test throughput, VPN needs, management access, and recovery before replacing a production firewall.
+
 ### [Ubiquiti UniFi Firewall](https://www.ui.com/)
 ### [Purchase a UniFi Firewall](https://amzn.to/3S2AI66)
 ______

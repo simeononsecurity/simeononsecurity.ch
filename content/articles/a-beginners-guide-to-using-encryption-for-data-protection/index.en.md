@@ -1,6 +1,7 @@
 ---
 title: "A Beginner's Guide to Encryption for Data Protection"
 date: 2023-03-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the basics of encryption and how to use it to secure your sensitive data with this beginner's guide to encryption."

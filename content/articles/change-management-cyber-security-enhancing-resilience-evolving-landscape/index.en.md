@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Cyber Security Resilience"
 date: 2023-07-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the importance of change management in cyber security and learn how to enhance resilience in today's evolving threat landscape."

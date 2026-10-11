@@ -1,6 +1,7 @@
 ---
 title: "The Power of AI in Threat Detection and Response"
 date: 2023-03-06
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how AI is revolutionizing the field of threat detection and response, and the challenges and limitations it presents."
@@ -65,3 +66,4 @@ As the cybersecurity landscape continues to evolve, it's clear that traditional 
 
 - Artificial Intelligence, a new chapter for Cybersecurity? (2022, November 10). [The State of Security](https://www.tripwire.com/state-of-security/artificial-intelligence-new-chapter-cybersecurity). Tripwire.
 
+lastmod: 2026-10-11

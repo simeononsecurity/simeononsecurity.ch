@@ -1,6 +1,7 @@
 ---
 title: "Defend Against Ransomware"
 date: 2023-10-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to safeguard against ransomware attacks, their mechanics, impact, and proactive measures for robust cybersecurity."

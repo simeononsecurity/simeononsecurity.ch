@@ -1,6 +1,7 @@
 ---
 title: "Best VS Code Extensions for C++ Development"
 date: 2023-07-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the top C++ extensions for Visual Studio Code that will enhance your coding experience and boost productivity."

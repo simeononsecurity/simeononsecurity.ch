@@ -1,6 +1,7 @@
 ---
 title: "Cracking Up: Exploring Hilarious Cybersecurity Jokes"
 date: 2023-12-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover effortless humor and valuable insights in the world of cybersecurity jokes. Cybersecurity jokes made easy!"

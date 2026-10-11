@@ -1,6 +1,7 @@
 ---
 title: "Mastering Cybersecurity Incidents"
 date: 2023-10-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to develop a robust cybersecurity incident response plan to minimize impact and protect your business from cyber threats." 

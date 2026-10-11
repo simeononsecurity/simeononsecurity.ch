@@ -4,7 +4,7 @@ date: 2026-08-01
 lastmod: 2026-09-20
 toc: true
 draft: false
-description: "An independent analysis of Flock Safety ALPR cameras: how they work, what data they collect beyond license plates, how data sharing creates a shadow national database, and why the warrant question is the real issue."
+description: "An analysis of Flock Safety ALPR cameras, collected data, sharing practices, and the warrant question."
 genre: ["Privacy", "Surveillance", "Civil Liberties", "Law Enforcement Technology", "Digital Rights"]
 tags: ["Flock Safety", "ALPR", "license plate readers", "surveillance", "privacy", "warrantless surveillance", "convoy analysis", "Bluetooth tracking", "TPMS tracking", "data sharing", "Ring cameras", "Fourth Amendment", "nothing to hide", "LPR accuracy", "wrongful accusation", "MFA", "law enforcement technology", "civil liberties", "data minimization", "DeFlock", "counter-surveillance", "public safety", "police surveillance", "privacy rights", "Fourth Amendment", "digital surveillance", "mass surveillance", "license plate recognition", "camera networks", "data retention"]
 cover: "/img/cover/flock-safety-cameras-public-safety-surveillance.webp"

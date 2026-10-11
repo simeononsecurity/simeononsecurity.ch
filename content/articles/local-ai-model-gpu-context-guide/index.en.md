@@ -4,7 +4,7 @@ date: 2026-10-06
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A practical October 2026 guide to choosing local AI models for coding agents. Compare GPU memory, KV-cache growth, context size, quantization quality, prompt processing, reasoning settings, and cloud rental costs."
+description: "Match local AI models and context lengths to GPU memory, system RAM, quantization, and runtime limits."
 genre: ["Local AI", "AI Hardware", "Self-Hosted AI", "GPU Benchmarking", "Developer Tools", "AI Economics"]
 tags: ["local AI models", "coding agents", "GPU guide", "VRAM", "KV cache", "context window", "Qwen 27B", "mixture of experts", "quantization", "llama.cpp", "Ollama", "speculative decoding", "multi-token prediction", "local LLM", "GPU rental", "AI workstation", "agent coding", "prompt processing", "inference speed"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"

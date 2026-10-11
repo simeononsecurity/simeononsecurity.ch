@@ -1,6 +1,7 @@
 ---
 title: "Secure & Resilient VPN Setup for Corporate Remote Workforces"
 date: 2023-03-23
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how to set up a secure and resilient VPN for your corporate remote employees, ensuring safe access to company resources."

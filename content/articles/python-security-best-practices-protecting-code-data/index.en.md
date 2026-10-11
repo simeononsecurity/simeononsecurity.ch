@@ -1,6 +1,7 @@
 ---
 title: "Python Security Best Practices"
 date: 2023-08-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the essential Python security best practices to safeguard your code and data from potential threats, ensuring data protection, system integrity, and building trust."

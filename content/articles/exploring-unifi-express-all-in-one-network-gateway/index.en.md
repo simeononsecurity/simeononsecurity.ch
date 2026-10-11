@@ -1,9 +1,10 @@
 ---
 title: "Ubiquiti's UniFi Express: A Review of the Compact Gateway and WiFi 6 AP"
 date: 2024-01-03
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Unlock smooth networking with UniFi Express – your all-in-one solution for a compact gateway, WiFi 6 access, and simplified management. Elevate your network experience now!"
+description: "Review UniFi Express as a compact gateway with WiFi 6 access and simplified management."
 genre: ["Tech Reviews", "Networking Solutions", "Home Network Setup", "WiFi 6 Devices", "UniFi Express Insights", "Compact Gateway", "Wireless Access Points", "Ubiquiti Products", "Network Security", "Small Business Networks"]
 tags: ["UniFi Express", "WiFi 6", "Network Gateway", "Ubiquiti", "Wireless Access Point", "Tech Review", "Network Security", "Home Networking", "Compact Gateway", "Small Business", "All-in-One Device", "Mesh Networking", "Device Setup", "Internet Connectivity", "Ubiquiti Solutions", "Dual-Core CPU", "WiFi Coverage", "IDS/IPS", "VPN Options", "Application-Aware Firewall", "UniFi OS", "Wireless Mesh", "Network Expansion", "VLAN Support", "Tech Insights", "Device Limitations", "Ubiquiti Networks", "Routing Performance", "Simplified Network Management"]
 cover: "/img/cover/UniFi_Express_Connectivity.webp"

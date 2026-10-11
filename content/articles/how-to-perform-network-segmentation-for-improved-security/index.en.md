@@ -1,6 +1,7 @@
 ---
 title: "Network Segmentation"
 date: 2023-03-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "A guide on how to perform network segmentation for improved security and reduced risk in your organization."

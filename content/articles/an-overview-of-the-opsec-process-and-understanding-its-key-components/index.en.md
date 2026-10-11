@@ -1,6 +1,7 @@
 ---
 title: "OPSEC Process: Key Components and Best Practices"
 date: 2023-06-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the critical components of the OPSEC process and learn how to protect sensitive information effectively."

@@ -1,6 +1,7 @@
 ---
 title: "NextDNS: Effortless DNS Blocking for Enhanced Online..."
 date: 2023-08-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of NextDNS, a user-friendly DNS blocking service offering enhanced online security with automatic updates and customizable filtering policies."

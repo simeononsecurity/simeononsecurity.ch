@@ -1,10 +1,10 @@
 ---
 title: "The Most Common Types of Cyberattacks and How Defenders Catch Them"
 date: 2026-09-11
-lastmod: 2026-10-10
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "A practical tour of the most common cyberattack types, the evidence each one leaves behind in logs and telemetry, and how to practice detecting them in a home security lab."
+description: "Learn the most common cyberattack types, identify the evidence each leaves in logs and telemetry, and practice detection in a home security lab."
 genre: ["Cybersecurity", "Threat Detection", "Blue Team", "Security Operations", "Career Development"]
 tags: ["cyberattack types", "malware", "ransomware", "phishing", "spear phishing", "social engineering", "spoofing", "identity-based attacks", "credential stuffing", "password spraying", "SQL injection", "cross-site scripting", "supply chain attack", "insider threat", "DNS tunneling", "IoT attacks", "AI-powered attacks", "denial of service", "detection engineering", "SOC analyst", "blue team", "home lab", "log analysis", "incident response", "MITRE ATT&CK", "cybersecurity career", "threat hunting", "security operations center", "telemetry", "alert triage"]
 cover: "/img/cover/types-of-cyberattacks-icons-illustration.webp"

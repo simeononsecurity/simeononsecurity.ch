@@ -4,7 +4,7 @@ date: 2026-09-22
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "How to mine Pearl (PRL) with SRBMiner, what proof-of-useful-work computes, why margins compressed after launch, and an honest assessment of whether the chain produces anything anyone buys."
+description: "Set up Pearl PRL mining with SRBMiner, review proof-of-useful-work, estimate margins, and assess practical chain utility."
 genre: ["Cryptocurrency", "GPU Mining", "AI Compute", "DePIN", "Blockchain", "Linux", "Homelab", "Hardware"]
 tags: ["pearl mining", "prl mining", "pearl prl", "proof of useful work", "pouw", "noisygemm", "srbminer pearlhash", "pearl mining pool", "luckypool pearl", "gpu mining 2026", "ai compute crypto", "pearl research labs", "nockchain merge mining", "nock merge mining", "rtx 3070 mining", "srbminer setup", "linux mining rig", "systemd miner service", "matrix multiplication mining", "vllm miner", "pearl wallet", "prl1 address", "mining profitability", "ai compute mining", "crypto mining guide", "nvidia mining", "mining overclock settings"]
 cover: "/img/cover/pearl-blockchain-gpu-mining-matrix-multiplication-2026.webp"

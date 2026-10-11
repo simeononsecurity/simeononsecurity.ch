@@ -1,6 +1,7 @@
 ---
 title: "Securing Windows and Linux"
 date: 2023-11-23
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover effortless ways to enhance system security with PowerShell and Python in this comprehensive cybersecurity analysis."

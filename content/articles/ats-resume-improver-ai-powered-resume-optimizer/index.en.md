@@ -1,9 +1,10 @@
 ---
 title: "ATS Resume Improver: Free AI-Powered Resume Optimizer"
 date: 2026-07-22
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "ATS Resume Improver is a free, open-source, client-side resume optimizer supporting OpenAI, Anthropic Claude, and local Ollama models. Parse, score, keyword-match, optimize, and export your resume — all without your data leaving the browser."
+description: "ATS Resume Improver is a free, open-source, client-side tool for parsing, scoring, matching, optimizing, and exporting resumes with cloud or local models."
 genre: ["Career Tools", "Open Source Projects", "Artificial Intelligence", "Privacy Technology", "Developer Tools", "Job Hunting", "Productivity"]
 tags: ["ATS Resume Improver", "ATS Optimization", "Resume Scanner", "AI Resume", "OpenAI Resume", "Claude Resume", "Ollama Local AI", "Self-Hosted", "Privacy-First", "Job Search Tools", "Keyword Gap Analysis", "Cover Letter", "Resume Scoring", "React", "TypeScript", "Docker", "Vite", "Open Source", "PDF Export", "DOCX Export", "Resume Parser", "Career Tools", "Interview Prep", "Salary Estimator", "Resume Type Detection", "ATS Score", "Free Resume Tool", "GitHub", "No Data Collection"]
 cover: "/img/cover/ai-resume-optimizer-self-hosted-ats-analysis.webp"

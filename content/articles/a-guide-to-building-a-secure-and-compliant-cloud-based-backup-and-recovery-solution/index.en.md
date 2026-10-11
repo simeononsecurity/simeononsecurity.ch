@@ -1,6 +1,7 @@
 ---
 title: "Secure & Compliant Cloud Backup and Recovery"
 date: 2023-04-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how to build a secure, compliant cloud backup solution for data protection."

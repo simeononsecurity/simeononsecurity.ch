@@ -1,9 +1,10 @@
 ---
 title: "Blockchain Technology: Applications Beyond Cryptocurrency"
 date: 2023-06-23
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover the diverse applications of blockchain technology beyond cryptocurrencies, revolutionizing finance, supply chain management, healthcare, energy, and more."
+description: "Explore blockchain applications beyond cryptocurrency, including finance, supply chains, healthcare, and energy."
 genre: ["Blockchain Technology", "Cryptocurrency", "Finance", "Supply Chain Management", "Healthcare", "Energy", "Utilities", "Decentralized Finance", "Smart Contracts", "Cross-border Payments"]
 tags: ["blockchain", "cryptocurrency", "finance", "supply chain management", "healthcare", "energy", "utilities", "decentralized finance", "smart contracts", "cross-border payments", "provenance", "traceability", "logistics", "counterfeit goods", "sustainable supply chains", "secure patient data management", "drug traceability", "clinical trials", "telemedicine", "remote monitoring", "decentralized energy grids", "peer-to-peer energy trading", "smart metering", "billing", "public blockchains", "private blockchains", "transparency", "security", "immutability"]
 cover: "/img/cover/applications-for-blockchain-technologies-beyond-cryptocurrencies.webp"

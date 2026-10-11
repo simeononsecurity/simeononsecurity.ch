@@ -1,6 +1,7 @@
 ---
 title: "Protecting Kids Online: A Parent's Guide to Cyberbullying"
 date: 2023-05-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to keep your children safe from cyberbullying with this comprehensive guide for parents."

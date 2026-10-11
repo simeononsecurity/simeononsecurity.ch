@@ -1,6 +1,7 @@
 ---
 title: "NIST Cybersecurity Framework vs. ISO 27001"
 date: 2023-06-30
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the differences between the NIST Cybersecurity Framework and ISO 27001 to make an informed decision on the right security framework for your organization."

@@ -1,6 +1,7 @@
 ---
 title: "Mastering Cybersecurity Incident Response"
 date: 2023-10-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Uncover the art of effective cybersecurity incident response with our comprehensive guide, ensuring protection and resilience against threats."

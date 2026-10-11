@@ -1,9 +1,10 @@
 ---
 title: "Eye Spy: Passive Surveillance Detector for the M5Stack..."
 date: 2026-06-07
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "A complete technical reference for Eye Spy v1.1 - an open-source passive BLE and WiFi surveillance detector running on the M5Stack Atom Lite (ESP32-PICO-D4) that scans for body cameras, ALPR systems, AirTags, drones, and hidden cameras using a confidence-score threat model and a single RGB LED."
+description: "A technical reference for Eye Spy v1.1, an ESP32 passive BLE and WiFi detector for cameras, trackers, drones, and related signals."
 genre: ["Privacy Tools", "Counter-Surveillance", "IoT Security", "Embedded Systems", "Security Research", "WiFi Security", "Bluetooth Security", "ESP32 Projects", "Hardware Security", "Open Source Security"]
 tags: ["Eye Spy", "ESP32", "M5Stack Atom Lite", "Surveillance Detection", "Counter-Surveillance", "BLE Detection", "WiFi Scanning", "AirTag Detection", "ALPR Detection", "Flock Safety", "Body Camera Detection", "Drone Detection", "OpenDroneID", "NimBLE", "NeoPixel", "SK6812", "PlatformIO", "C++", "Open Source", "Privacy", "Passive BLE", "Promiscuous Mode", "OUI Detection", "Tracker Detection", "Axon Body Camera", "Ray-Ban Meta", "Samsung SmartTag", "Tile Tracker", "Hidden Camera", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/eye-spy-passive-surveillance-detector-esp32-2026/"

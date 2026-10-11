@@ -1,6 +1,7 @@
 ---
 title: "Using Packer for Infrastructure as Code"
 date: 2023-05-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to use Packer for creating machine images that are easy to maintain and secure."

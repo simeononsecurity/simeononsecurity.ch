@@ -1,6 +1,7 @@
 ---
 title: "Windows Package Management with Chocolatey"
 date: 2023-05-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the benefits of using Chocolatey for Windows package management: automate updates, save time, and ensure system security."
@@ -95,3 +96,4 @@ ______
 - [Chef](https://www.chef.io/)
 - [Ansible](https://www.ansible.com/)
 - [NuGet Package Manager](https://www.nuget.org/)
+lastmod: 2026-10-11

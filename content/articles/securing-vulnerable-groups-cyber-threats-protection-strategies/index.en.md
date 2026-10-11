@@ -1,6 +1,7 @@
 ---
 title: "Securing Vulnerable Groups"
 date: 2023-11-07
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how cyber attacks by foreign powers impact vulnerable groups and effective protection strategies."
@@ -99,3 +100,4 @@ ______
    
 4. United Nations Human Rights Council. (2014). The right to privacy in the digital age. [https://www.ohchr.org/en/issues/digitalage/pages/digitalageindex.aspx](https://www.ohchr.org/en/issues/digitalage/pages/digitalageindex.aspx)
    
+lastmod: 2026-10-11

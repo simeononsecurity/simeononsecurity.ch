@@ -1,6 +1,7 @@
 ---
 title: "Secure your data with the 3-2-1 backup rule."
 date: 2023-03-21
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect your valuable data from cyber attacks, natural disasters, and hardware failures."
@@ -63,3 +64,4 @@ ______
 ## Conclusion
 
 Wrapping up, the 3-2-1 backup rule is an essential backup strategy that ensures your data is stored securely across multiple locations and storage types. With the increasing threat of data loss due to cyber attacks, natural disasters, and hardware failures, you need to have a backup plan in place. By implementing the 3-2-1 backup rule, you can safeguard your valuable data, reduce the risk of data loss, and quickly recover from data loss. Take the time to choose your storage types, automate your backups, test your backups regularly, store your backups offsite, encrypt your backups, and update your backups regularly. By following these steps, you can that your data is secure and readily recoverable in the event of a disaster.
+lastmod: 2026-10-11

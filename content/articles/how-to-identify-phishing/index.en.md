@@ -1,6 +1,7 @@
 ---
 title: "How to Identify Phishing Emails, Texts, and Calls"
 date: 2023-03-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to identify phishing attempts in emails, texts, and calls to keep your personal information safe."

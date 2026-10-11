@@ -1,9 +1,10 @@
 ---
 title: "Flock Finder: Map Flock Safety ALPR Cameras"
 date: 2026-07-22
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Flock Finder is an open-source tool that maps 40,000+ Flock Safety ALPR cameras worldwide using WiGLE WiFi data and OUI fingerprinting. Learn how it works, its limitations, and the hardware tools for real-time detection."
+description: "Map Flock Finder's ALPR camera records, review WiGLE and OUI detection limits, and compare mapping with field detection hardware."
 genre: ["Privacy Technology", "Counter Surveillance", "Open Source Projects", "Digital Rights", "Network Security", "Privacy Tools", "Hardware Hacking", "Security Research"]
 tags: ["Flock Finder", "Flock Safety", "ALPR", "License Plate Reader", "OUI Fingerprinting", "WiGLE", "WiFi Surveillance", "Counter Surveillance", "STS Collective", "FlockYou", "ESP32", "Privacy Tools", "NitekryDPaul", "DeFlockJoplin", "ALPR Detection", "Open Source Security", "Surveillance Mapping", "Mass Surveillance", "WiFi OUI", "Privacy Protection", "MAC Address", "Promiscuous Mode", "802.11", "Real-Time Detection", "Wardriving", "Digital Rights", "Civil Liberties", "Surveillance Awareness", "GitHub", "Python"]
 cover: "/img/cover/flock-finder-open-source-alpr-camera-map.webp"

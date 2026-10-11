@@ -4,7 +4,7 @@ date: 2026-09-21
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Our audit of Flock Finder found 50,278 Barco ClickShare devices and thousands of other false positives inside a 146,526-record camera map. Here is what failed, how we proved it, and what we changed."
+description: "An audit of Flock Finder identifies ClickShare and other false positives, explains the evidence, and documents the resulting changes."
 genre: ["Security Research", "Privacy Technology", "Open Source Projects", "Data Journalism", "Counter Surveillance"]
 tags: ["Flock Finder", "Flock Safety", "ALPR", "OUI Fingerprinting", "WiGLE", "False Positives", "Data Quality", "Barco ClickShare", "MAC Address", "IEEE OUI", "Information Element Fingerprinting", "ESP32", "Flock-You", "NitekryDPaul", "DeFlockJoplin", "Open Source Accountability", "Surveillance Mapping", "WiFi", "Probe Request", "MAC Randomization"]
 cover: "/img/cover/flock-finder-oui-false-positive-audit-2026.webp"

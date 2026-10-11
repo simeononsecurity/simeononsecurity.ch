@@ -1,6 +1,7 @@
 ---
 title: "simplifying Packer Image Creation"
 date: 2023-06-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover best practices for efficient and secure image creation with Packer, automating the process and ensuring consistency across platforms."

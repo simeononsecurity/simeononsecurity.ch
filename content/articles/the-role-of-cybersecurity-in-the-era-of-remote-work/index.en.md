@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity in Remote Work: A Comprehensive Guide."
 date: 2023-02-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "A comprehensive guide for organizations to ensure their remote workforce stays secure in the era of remote work."
@@ -114,3 +115,4 @@ To ensure the security of sensitive information in the era of remote work, *orga
 By following these best practices, **organizations can ensure that their remote workforce stays secure and that sensitive information is protected**. With the proper cybersecurity measures in place, remote work can be a productive and secure alternative to traditional in-person work. 
 
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "Beginner's Guide: Using Linux Command Line for Cybersecurity"
 date: 2023-03-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to use Linux command line for cybersecurity with basic and advanced commands."

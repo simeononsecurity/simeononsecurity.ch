@@ -1,6 +1,7 @@
 ---
 title: "Beginner's Guide to Blockchain for Secure Identity Management"
 date: 2023-04-06
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to use blockchain technology for secure authentication and identity management with this beginner's guide."

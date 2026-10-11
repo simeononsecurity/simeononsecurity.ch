@@ -1,6 +1,7 @@
 ---
 title: "How to Place Access Points: Optimize Wireless Coverage"
 date: 2023-08-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the best practices for placing access points to optimize wireless connectivity, minimize interference, and ensure smooth performance for your network."

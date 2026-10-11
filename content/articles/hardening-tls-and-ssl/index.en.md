@@ -4,7 +4,7 @@ date: 2023-02-08
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "This article explains how to retire SSL and older TLS versions while keeping TLS 1.2 or newer available for modern clients and servers. It covers Windows Schannel, .NET, and Linux service configuration."
+description: "Disable SSL and legacy TLS versions while keeping TLS 1.2 or newer. Covers Windows Schannel, .NET, and Linux services."
 tags: ["Hardening computer security", "Disabling SSL and TLS", "Data security", "POODLE", "BEAST", "Heartbleed", "Windows registry editor", "Linux OpenSSL configuration", "Apache", "Nginx"]
 cover: "/img/cover/A_computer_with_a_padlock_symbol_representing_data_security.webp"
 coverAlt: "A computer with a padlock symbol representing data security"

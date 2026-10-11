@@ -1,9 +1,10 @@
 ---
 title: "Unsafe C# Functions: Secure Coding Practices"
 date: 2023-09-25
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Discover the risks of unsafe C sharp functions and learn secure alternatives."
+description: "Secure alternatives to unsafe C# functions. Learn how to identify memory safety risks and replace unsafe operations."
 genre: ["Software Development", "C Sharp Programming", "Cybersecurity", "Code Security", "Secure Coding", "Programming Best Practices", "Software Vulnerabilities", "Cryptography", "Web Development", "Application Security"]
 tags: ["secure coding", "C Sharp programming", "software vulnerabilities", "buffer overflow", "input validation", "SQL injection", "XSS attacks", "memory handling", "file access control", "cryptography", "Bouncy Castle", "string manipulation", "string interpolation", "parameterized queries", "data security", "coding tips", "application development", "programming guidelines", "code security tips", "secure software", "software architecture", "coding practices", "file security", "data protection", "cybersecurity tips", "coding security", "coding standards", "web application security", "software engineering", "data encryption"]
 cover: "/img/cover/secure-coding-shield.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Power Up Your Life: The Best UPS Models for..."
 date: 2023-09-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the top UPS models to ensure uninterrupted power for your devices."

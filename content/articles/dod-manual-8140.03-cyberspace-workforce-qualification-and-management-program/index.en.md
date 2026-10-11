@@ -1,6 +1,7 @@
 ---
 title: "DoD Manual 8140.03: Cyberspace Workforce Program"
 date: 2023-02-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the DoD's Cyberspace Workforce Qualification and Management Program outlined in Manual 8140.03."

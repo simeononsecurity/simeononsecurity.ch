@@ -1,6 +1,7 @@
 ---
 title: "Open-Source vs. Commercial Security Tools"
 date: 2023-03-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the advantages and disadvantages of open-source and commercial security tools, helping you make informed decisions for your organization's security strategy."
@@ -92,3 +93,4 @@ ______
 
 - [Open-source security tools](https://en.wikipedia.org/wiki/Open-source_software_security)
 - [Commercial security tools](https://en.wikipedia.org/wiki/Computer_security_software)
+lastmod: 2026-10-11

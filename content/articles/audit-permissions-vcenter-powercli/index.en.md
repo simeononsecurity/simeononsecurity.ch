@@ -1,6 +1,7 @@
 ---
 title: "How to Audit Permissions for a vCenter with PowerCLI"
 date: 2023-08-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to effectively audit permissions for a vCenter using PowerCLI, ensuring a secure virtual infrastructure."

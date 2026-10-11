@@ -4,7 +4,7 @@ date: 2026-10-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A five-model comparison of two RTX 5060 Ti cards and an NVIDIA GB10 across 4K to 256K context, including prompt processing, generation speed, and actual prompt lengths."
+description: "A five-model comparison of two RTX 5060 Ti cards and an NVIDIA GB10 across context sizes, prompt processing, and generation speed."
 genre: ["Artificial Intelligence", "Local AI", "GPU Hardware", "Benchmarking", "Computer Hardware"]
 tags: ["RTX 5060 Ti", "GB10", "DGX Spark", "Qwen3.8", "Qwen3.5", "Qwen3.6", "GPT-OSS", "Nemotron", "local LLM", "local inference", "unified memory", "VRAM", "GPU benchmark", "long context", "PCIe overhead", "AI hardware", "NVIDIA Blackwell", "LLM performance", "GPU memory"]
 cover: "/img/cover/nvidia-rtx-5060-ti-vs-gb10-memory-performance-comparison.webp"

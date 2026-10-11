@@ -1,6 +1,7 @@
 ---
 title: "Creating a Strong Risk Management Program for Cybersecurity"
 date: 2023-03-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the importance of risk management in cybersecurity and how to create a program that works for your business."
@@ -52,3 +53,4 @@ ____
 
 ## Conclusion
 Effective risk management is essential for any modern business to maintain a strong cybersecurity posture. By identifying potential risks and taking proactive steps to mitigate them, organizations can protect their assets, make better decisions about cybersecurity investments, and reduce the overall cost of cybersecurity. By following the steps outlined in this article, organizations can create a risk management program that works for them and ensures that their cybersecurity efforts are aligned with their overall goals and objectives. The [**NIST 800-53 framework**](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) provides a structured approach to risk management that organizations can use to create an effective and compliant risk management program. Implementing a comprehensive risk management program can help organizations stay ahead of evolving cyber threats and reduce the risk of a cybersecurity incident that could have a significant impact on their business operations.
+lastmod: 2026-10-11

@@ -4,7 +4,7 @@ date: 2026-10-02
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "A practical guide to disabling contactless payment on a spare credit card while keeping chip and magnetic-stripe payments available, with safety limits and better alternatives."
+description: "A practical guide to disabling contactless payment while keeping chip and magnetic-stripe payments available."
 genre: ["Payment Security", "Digital Privacy", "NFC", "Personal Security", "Consumer Technology"]
 tags: ["disable contactless payment", "disable NFC credit card", "credit card NFC antenna", "contactless payment", "tap to pay", "card clash", "Google Pay", "Apple Pay", "credit card safety", "magnetic stripe", "EMV chip", "NFC antenna", "payment card privacy"]
 cover: "/img/cover/A_person_holding_a_credit_card_in_one_hand_and_a_lock.webp"

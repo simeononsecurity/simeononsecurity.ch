@@ -1,12 +1,14 @@
 ---
 title: "Laptop Care 101: Beat the Heat for Enhanced Performance"
 date: 2024-02-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Prevent laptop overheating with our expert tips. Enhance performance and extend your device's life now!" 
 genre: ["Tech Maintenance", "Laptop Care", "Overheating Solutions", "Device Longevity", "Gadget Upkeep", "Computer Health", "DIY Tech Tips", "Efficient Computing", "Hardware Management", "Technology Guides"]
 tags: ["LaptopOverheating", "DeviceMaintenance", "CoolingPads", "BatteryHealth", "PerformanceOptimization", "LaptopCleaning", "BackgroundProcesses", "PowerManagement", "SoftwareUpdates", "LaptopStorage", "HeatProtection", "TemperatureControl", "ProtectiveCases", "LaptopLifespan", "PreventOvercharging", "TechCare", "SystemCooling", "LaptopUsage", "BatteryMaintenance", "DustRemoval", "ProperCharging", "TemperatureMonitoring", "LaptopProtection", "StorageBestPractices", "LaptopVentilation", "ProperDischarge", "CoolingSolutions", "AvoidSunlight", "BatteryLifeExtension", "SafeComputing"]
 cover: "/img/cover/laptop-maintenance_-preventing-overheating-and-expanding-lifespan.webp"
+coverAlt: "Illustration of laptop cooling and maintenance to prevent overheating."
 ---
 
 Laptop Maintenance: Preventing Overheating and Expanding Lifespan
@@ -40,7 +42,7 @@ When it comes to laptop overheating, there are several signs that indicate a [po
 Preventing Laptop Overheating
 -----------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/dfadf953-6f13-41ef-870a-b2c0e86dc064/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/dfadf953-6f13-41ef-870a-b2c0e86dc064/thumbnail.jpeg" alt="Illustration accompanying the section on signs of laptop overheating" >}}
 
 ### Keeping Your Laptop Clean
 
@@ -88,7 +90,7 @@ Direct sunlight can have detrimental effects on your laptop's performance and li
 Extending Laptop Lifespan
 -------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/6065b651-bcc2-488c-8474-03742b99f1ae/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/6065b651-bcc2-488c-8474-03742b99f1ae/thumbnail.jpeg" alt="Illustration accompanying the section on avoiding direct sunlight" >}}
 
 ### Proper Storage and Transportation
 

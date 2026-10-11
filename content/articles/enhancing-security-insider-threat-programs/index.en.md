@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Security: Insider Threat Programs for..."
 date: 2023-10-20
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how insider threat programs strengthen security by mitigating risks from within. Learn the key components, challenges, and success stories."

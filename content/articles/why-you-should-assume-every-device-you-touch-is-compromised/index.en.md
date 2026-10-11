@@ -1,6 +1,7 @@
 ---
 title: "Assume Every Device Is Already Compromised"
 date: 2023-06-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover why you need to assume every device is already compromised and learn practical measures to enhance your digital security in today's interconnected world."
@@ -127,3 +128,4 @@ ______
 3. [Signal - Secure Messaging, Calls, and Video](https://www.signal.org/)
 4. [Wire](https://wire.com/en/) 
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "A Beginner's Guide to Learning Linux: Tips for Debian and RHEL-based Variants"
 date: 2023-02-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "This guide provides an overview of how to get started with Linux, including tips for learning both Debian and RHEL-based variants of Linux."

@@ -1,6 +1,7 @@
 ---
 title: "Secure Your Transactions"
 date: 2023-09-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover Amazon's recommended hardware tokens for robust digital security in transactions and protect your online interactions."
@@ -80,3 +81,4 @@ ______
 4. [RSA SecurID Hardware Token](https://www.rsa.com/en-us/products/securid-hardware-tokens)
 5. [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
 6. [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
+lastmod: 2026-10-11

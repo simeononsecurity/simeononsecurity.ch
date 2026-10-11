@@ -1,6 +1,7 @@
 ---
 title: "The Rise of Automation"
 date: 2023-06-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the evolution of automation technology, industries embracing it, and its impact on job opportunities."
@@ -141,3 +142,4 @@ At the same time, automation technology can also be used to create a sustainable
 
 Wrapping up, the rise of automation technology is transforming industries and job opportunities in unprecedented ways. While its impact can't be denied, it is essential that we manage the adoption of automation in a way that is mindful of its ethical, social, and economic implications. By doing so, we can create a brighter and more inclusive future for all.
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the World of a Hardware Hacker"
 date: 2023-07-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the realm of a hardware hacker and explore the essential tools and techniques they use for advanced hacking."

@@ -1,6 +1,7 @@
 ---
 title: "Unlock Your Cybersecurity Potential with Hackthebox Academy"
 date: 2023-07-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the comprehensive training and hands-on challenges offered by Hackthebox Academy to unlock your cybersecurity potential and enhance your skills."
@@ -136,3 +137,4 @@ Wrapping up, Hackthebox Academy stands as a **reliable and effective platform** 
 
 - [Hackthebox Academy Official Website](https://academy.hackthebox.com)
 - [Cybersecurity Regulations - National Institute of Standards and Technology](https://www.nist.gov/topics/cybersecurity)
+lastmod: 2026-10-11

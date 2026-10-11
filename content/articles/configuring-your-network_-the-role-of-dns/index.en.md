@@ -1,6 +1,7 @@
 ---
 title: "Optimizing Networks: Mastering DNS Configuration"
 date: 2024-02-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Unlock Efficient Networking with DNS Insights! Learn How DNS Enhances Connectivity, Performance & Security - Start Optimizing Today."

@@ -3,6 +3,7 @@ title: "Linux File Permissions: A Comprehensive Guide"
 draft: false
 toc: true
 date: 2023-05-22
+lastmod: 2026-10-11
 description: "Master Linux file permissions to ensure a secure file system with this comprehensive guide covering ownership, access control, and best practices."
 tags: ["Linux file permissions", "secure file system", "access control", "ownership", "file permissions guide", "Linux security", "file system security", "chmod command", "chown command", "auditing file permissions", "Principle of Least Privilege", "regulatory compliance", "GDPR", "HIPAA", "file permissions audit", "documenting regulations", "system security", "network security", "encryption", "user management"]
 cover: "/img/cover/A_cartoon-style_image_depicting_a_locked_file_cabinet.webp"

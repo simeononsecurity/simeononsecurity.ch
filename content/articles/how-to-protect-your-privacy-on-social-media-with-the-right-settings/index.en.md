@@ -3,7 +3,8 @@ title: "Protect Your Privacy on Social Media"
 draft: false
 toc: true
 date: 2023-06-15
-description: "Discover how to safeguard your privacy on social media platforms by understanding privacy risks, common concerns, and adjusting settings on Facebook, Instagram, Twitter, and LinkedIn."
+lastmod: 2026-10-11
+description: "Review privacy settings across major social networks, reduce public exposure, and check account recovery and app access."
 genre: ["Privacy on Social Media", "Protecting Personal Information on Social Media", "Privacy Risks and Concerns on Social Media", "Privacy Settings on Facebook", "Enhancing Privacy on Instagram", "Securing Your Twitter Account", "Safeguarding Privacy on LinkedIn"]
 tags: ["adjusting Facebook privacy settings", "controlling Instagram followers", "managing Twitter data", "safeguarding LinkedIn privacy", "restricting app permissions on social media", "enhancing Instagram privacy", "protecting tweets on Twitter", "managing LinkedIn connections", "securing Twitter account", "privacy on social media platforms"]
 cover: "/img/cover/protect-your-privacy-on-social-media.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Silence Your PC: Fixing Loud Computer Fans Effectively"
 date: 2024-02-09
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Annoyed by Loud Computer Fans? Learn Causes & Fixes to Enjoy Peaceful Computing. Act Now!"

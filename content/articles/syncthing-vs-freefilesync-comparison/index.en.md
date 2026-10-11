@@ -1,6 +1,7 @@
 ---
 title: "SyncThing vs FreeFileSync"
 date: 2023-12-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the ultimate file sync solution between SyncThing and FreeFileSync. Effortless data management for all your devices."
@@ -126,3 +127,4 @@ It all comes down to your unique requirements and priorities. Select the synchro
 - [SyncThing Documentation](https://docs.syncthing.net/)
 - [FreeFileSync User Manual](https://www.freefilesync.org/manual.php)
 
+lastmod: 2026-10-11

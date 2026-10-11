@@ -1,9 +1,10 @@
 ---
 title: "Secure Coding in Python"
 date: 2023-06-25
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn the best practices for secure coding in Python to ensure robust application security and protect against vulnerabilities like SQL injection and cross-site scripting."
+description: "Python secure-coding practices for reducing SQL injection, cross-site scripting, and other application vulnerabilities."
 genre: ["Programming", "Application Security", "Python Development", "Secure Coding", "Web Development", "Data Analysis", "Artificial Intelligence", "Software Development", "Cybersecurity", "Programming Languages"]
 tags: ["secure coding", "Python", "application security", "web development", "data analysis", "artificial intelligence", "software development", "security vulnerabilities", "SQL injection", "cross-site scripting", "buffer overflow", "data breaches", "cyber attacks", "secure coding practices", "user experience", "industry regulations", "secure authentication", "secure authorization", "password security", "role-based access control", "session management", "code auditing", "automated security testing", "security updates", "culture of security", "programming languages", "application development", "cybersecurity best practices", "data protection"]
 cover: "/img/cover/best-practices-for-secure-coding-in-python.webp"

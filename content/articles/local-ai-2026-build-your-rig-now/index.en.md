@@ -4,7 +4,7 @@ date: 2026-09-22
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Qwen3.8 27B and its ternary repack Bonsai 2 27B now outscore Claude Sonnet 4.6 on the aggregate intelligence index while running on one consumer GPU. What changed, what the benchmarks show, and why memory pricing makes waiting the most expensive option."
+description: "Plan a 2026 local AI rig around model size, VRAM, memory bandwidth, power, cost, and upgrade options."
 genre: ["Local AI", "Self-Hosted AI", "Open Source Models", "AI Hardware", "Machine Learning", "Quantization", "Homelab", "Privacy", "AI Economics", "Consumer Hardware"]
 tags: ["local ai", "run llm locally", "qwen3.8", "qwen3.8 27b", "bonsai 2 27b", "ternary bonsai", "prism ml", "ternary quantization", "1.58 bit", "llm quantization", "claude sonnet 4.6", "sonnet 4.6 vs local model", "open weights", "moe model", "mixture of experts", "ollama", "llama.cpp", "rtx 5090", "vram", "local inference", "gpu prices 2026", "dram shortage", "memory prices", "ai rig build", "homelab ai", "ai subscription cost", "openrouter", "artificial analysis", "gpu buying guide", "self-hosted llm", "privacy preserving ai", "ai hardware 2026"]
 cover: "/img/cover/local-ai-2026-qwen3-8-bonsai-2-27b-models.webp"

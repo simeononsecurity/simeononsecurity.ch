@@ -1,6 +1,7 @@
 ---
 title: "Understanding Remote Access Trojans"
 date: 2023-07-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the risks posed by remote access trojans (RATs) and learn effective prevention and protection measures to safeguard your computer systems and data."
@@ -97,3 +98,4 @@ ______
 1. [United States Computer Emergency Readiness Team (US-CERT)](https://www.us-cert.gov/)
 2. [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/)
 
+lastmod: 2026-10-11

@@ -1,6 +1,7 @@
 ---
 title: "The Best Homelab Hardware"
 date: 2023-11-04
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of hands-on learning with a budget-friendly tech homelab setup. Explore hardware options, networking, and innovation in this comprehensive guide."
@@ -109,3 +110,4 @@ Investing in the best homelab hardware won't only enhance your technical skills 
 - [Synology NAS](https://www.synology.com/)
 - [QNAP NAS](https://www.qnap.com/)
 - [Ansible](https://www.ansible.com/)
+lastmod: 2026-10-11

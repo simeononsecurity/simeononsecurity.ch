@@ -1,6 +1,7 @@
 ---
 title: "The Art of Reverse Engineering"
 date: 2023-02-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of reverse engineering to uncover IoT network security flaws and improve overall system security."
@@ -39,3 +40,4 @@ _____
 ## Conclusion
 
 Wrapping up, reverse engineering is a critical tool for security professionals working in the field of IoT security. By understanding the inner workings of a device or system, security professionals can identify potential security vulnerabilities and develop strategies to mitigate them. With the rapid growth of IoT, it is essential that security professionals continue to evolve their skills and stay ahead of potential threats. Also, it is important for manufacturers to prioritize security in the design and development of IoT devices. This includes incorporating security measures such as encryption and authentication from the beginning of the development process, as well as providing ongoing updates to address any vulnerabilities that are identified.
+lastmod: 2026-10-11

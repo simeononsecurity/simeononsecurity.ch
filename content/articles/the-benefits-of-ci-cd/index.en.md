@@ -1,6 +1,7 @@
 ---
 title: "The Power of CI CD: Boosting Collaboration, Quality, and..."
 date: 2023-06-06
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the benefits of Continuous Integration and Continuous Deployment (CI CD) in software development, enhancing collaboration, quality, and speed."
@@ -54,3 +55,4 @@ References:
 - [JUnit](https://junit.org/junit5/)
 - [Selenium](https://www.selenium.dev/)
 - [Cucumber](https://cucumber.io/)
+lastmod: 2026-10-11

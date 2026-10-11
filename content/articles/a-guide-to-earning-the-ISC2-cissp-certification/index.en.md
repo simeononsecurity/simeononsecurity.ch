@@ -1,6 +1,7 @@
 ---
 title: "The Beginner's Guide to CISSP Certification: Exam Preparation Tips"
 date: 2023-05-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the steps to prepare for and pass the CISSP exam, a prestigious certification for information security professionals."

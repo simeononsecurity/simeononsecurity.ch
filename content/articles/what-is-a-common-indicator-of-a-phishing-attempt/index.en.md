@@ -1,6 +1,7 @@
 ---
 title: "Recognizing Phishing Attempts"
 date: 2023-06-18
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to recognize common indicators of phishing attempts and protect yourself online with practical tips for enhanced cybersecurity."
@@ -157,3 +158,4 @@ ______
 - [Federal Trade Commission: How to Recognize and Avoid Phishing Scams](https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 - [National Cyber Security Centre: Phishing Attacks](https://www.ncsc.gov.uk/phishing)
 
+lastmod: 2026-10-11

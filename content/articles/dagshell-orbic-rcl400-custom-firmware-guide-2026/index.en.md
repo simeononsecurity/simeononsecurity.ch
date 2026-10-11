@@ -1,9 +1,10 @@
 ---
 title: "DagShell Custom Firmware for Orbic RCL400: 2026 Guide"
 date: 2026-05-28
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Comprehensive guide to DagShell custom firmware for Orbic RCL400 hotspot including installation, privacy tools, hacking features, wardriving capabilities, and why it pairs perfectly with RayHunter for mobile security research."
+description: "A technical guide to DagShell firmware for the Orbic RCL400, covering installation, privacy tools, wardriving, and research limits."
 genre: ["Custom Firmware", "Mobile Security", "Privacy Tools", "Network Security", "Wardriving", "Penetration Testing", "IoT Hacking", "Security Research", "Hardware Hacking", "Privacy Technology"]
 tags: ["DagShell", "Orbic RCL400", "Custom Firmware", "Hotspot Hacking", "Privacy Tools", "TTL Fix", "MAC Spoofing", "IMSI Catcher Detection", "Wardriving", "GPS Tracking", "Evil Twin Attack", "Captive Portal", "DNS Sniffer", "ARP Scanner", "Port Scanner", "Raspberry Pi Companion", "WiFi Security", "Mobile Hotspot", "Network Monitoring", "Penetration Testing", "Security Research", "Bluetooth Scanning", "Deauth Attack", "WiFi Scanning", "OUI Lookup", "Wigle Upload", "Cell Tower Monitoring", "AT Commands", "Firewall Manager", "AdBlock", "TLS Encryption", "RayHunter Integration", "STS Collective", "Mobile Security Lab", "Network Analysis", "Privacy Firmware", "Open Source Security", "ARM Cross-Compilation", "Embedded Linux", "Security Toolkit", "Hacker Tools", "Red Team", "Network Reconnaissance"]
 canonical: "https://simeononsecurity.com/articles/dagshell-orbic-rcl400-custom-firmware-guide-2026/"

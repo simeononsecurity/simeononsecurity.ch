@@ -1,6 +1,7 @@
 ---
 title: "Best Practices for Secure Coding in PowerShell: A Guide"
 date: 2023-03-01
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the best practices for writing secure PowerShell code to protect your Windows-based systems from security vulnerabilities."
@@ -145,3 +146,4 @@ By implementing these practices, developers can reduce the risk of security brea
 - [Top 25 Series - Software Errors](https://www.sans.org/top25-software-errors/)
 - [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 - [Guide to General Server Security](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf)
+lastmod: 2026-10-11

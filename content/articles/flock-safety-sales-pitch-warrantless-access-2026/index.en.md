@@ -4,7 +4,7 @@ date: 2026-09-11
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Flock Safety does not sell cameras. It sells a subscription to warrantless movement data. Here is how the sales pitch works, how it runs against the Fourth Amendment, and why the fight is about the pitch, not the company."
+description: "Examine Flock Safety's sales messaging, movement-data access, and the constitutional questions raised by warrantless searches."
 genre: ["Privacy Technology", "Digital Rights", "Surveillance", "Legal Analysis", "Counter Surveillance"]
 tags: ["Flock Safety", "ALPR", "license plate reader", "Fourth Amendment", "warrantless surveillance", "mass surveillance", "Carpenter v. United States", "United States v. Jones", "location tracking", "movement database", "privacy rights", "constitutional law", "Axon", "evidence.com", "red light cameras", "Redflex", "Pflugerville", "Knox County", "sales pitch", "pre-crime profiling", "separation of powers", "Bill of Rights", "counter surveillance", "digital rights", "T-Rex Lab"]
 cover: "/img/cover/flock-safety-warrantless-access-surveillance-database.webp"

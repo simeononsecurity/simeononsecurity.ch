@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity Readiness: Safeguarding Your Business Data"
 date: 2023-10-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Assess the cybersecurity readiness of companies before sharing sensitive information or doing business with them. Protect your data and stay secure!"

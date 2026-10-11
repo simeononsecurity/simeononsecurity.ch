@@ -1,6 +1,7 @@
 ---
 title: "Navigating IT Career Paths: Opportunities, Skills, Growth"
 date: 2023-07-24
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover diverse IT career paths, acquire essential skills, and find growth opportunities to starting a successful journey in the digital age."

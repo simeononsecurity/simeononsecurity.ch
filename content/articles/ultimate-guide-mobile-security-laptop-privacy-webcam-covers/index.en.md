@@ -1,6 +1,7 @@
 ---
 title: "Ultimate Guide to Mobile Security"
 date: 2023-09-14
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Enhance on-the-go computing security with laptop privacy screens, webcam covers, and portable encryption devices. Stay secure and productive!"
@@ -129,3 +130,4 @@ ______
 3. [How to Choose the Right Laptop Privacy Screen](https://www.lifewire.com/choose-the-right-privacy-filter-2377503)
 4. [Webcam Cover Installation Guide](https://www.howtogeek.com/361415/how-to-secure-your-laptop-from-prying-eyes-with-a-webcam-cover/)
 5. [Guide to USB Drive Encryption](https://www.varonis.com/blog/usb-drive-encryption-guide/)
+lastmod: 2026-10-11

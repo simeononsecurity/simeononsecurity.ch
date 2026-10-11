@@ -1,6 +1,7 @@
 ---
 title: "Building a Secure DevOps Pipeline: Best Practices"
 date: 2023-02-25
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to build and maintain a secure DevOps pipeline using best practices and real-world examples in this comprehensive guide."

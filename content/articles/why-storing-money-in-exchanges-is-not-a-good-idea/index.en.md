@@ -1,9 +1,10 @@
 ---
 title: "The Dangers of Storing Crypto on Exchanges"
 date: 2023-02-12
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "This article discusses the dangers of storing cryptocurrency on exchanges, explaining why it is equivalent to storing money in a mattress, and highlights the benefits of using a hardware wallet for secure storage."
+description: "Understand exchange custody risks and compare leaving cryptocurrency on an exchange with using a hardware wallet."
 tags: ["Cryptocurrency storage", "Exchange risks", "Hardware wallet", "Cybersecurity", "Investing in crypto", "Safe storage", "Private keys", "Portable wallets", "Government regulation"]
 cover: "/img/cover/A_hardware_wallet_with_a_padlock_and_chain_around_it_symbol.webp"
 coverAlt: "A hardware wallet with a padlock and chain around it, symbolizing the security of storing cryptocurrency in a hardware wallet."

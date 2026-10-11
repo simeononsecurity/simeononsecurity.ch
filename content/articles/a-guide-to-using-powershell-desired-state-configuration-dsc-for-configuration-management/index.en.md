@@ -1,6 +1,7 @@
 ---
 title: "PowerShell DSC: A Starting Guide"
 date: 2023-04-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the power of PowerShell Desired State Configuration (DSC) to automate and manage system configurations for a secure and compliant environment."

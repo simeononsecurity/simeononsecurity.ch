@@ -1,6 +1,7 @@
 ---
 title: "Secure Python Coding"
 date: 2023-09-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to write secure Python code by avoiding unsafe functions and adopting best practices for robust and reliable applications."
@@ -283,3 +284,4 @@ ______
 - SQLite3 Documentation: [https://docs.python.org/3/library/sqlite3.html](https://docs.python.org/3/library/sqlite3.html)
 - Python `secrets` Module: [https://docs.python.org/3/library/secrets.html](https://docs.python.org/3/library/secrets.html)
 - python-decouple Package: [https://pypi.org/project/python-decouple/](https://pypi.org/project/python-decouple/)
+lastmod: 2026-10-11

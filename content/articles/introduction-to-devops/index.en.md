@@ -1,6 +1,7 @@
 ---
 title: "Introduction to DevOps"
 date: 2023-06-02
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how DevOps bridges the gap between development and operations, simplifying software delivery and maximizing efficiency."

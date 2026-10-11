@@ -1,6 +1,7 @@
 ---
 title: "Why Open Source Software Outshines Proprietary Security"
 date: 2023-12-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover why 'Open Source Software is More Secure Than Proprietary Software' in this effortless guide, ensuring your digital assets stay protected."

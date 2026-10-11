@@ -3,6 +3,7 @@ title: "Resume Writing Tips for Cybersecurity Professionals"
 draft: false
 toc: true
 date: 2023-05-19
+lastmod: 2026-10-11
 description: "Enhance your chances of landing your dream job with these expert resume writing tips for cybersecurity, software development, and IT professionals."
 tags: ["resume writing tips", "cybersecurity professionals", "software development", "IT professionals", "job search", "career advice", "technical skills", "project highlights", "cybersecurity awareness", "problem-solving skills", "industry trends", "professional development", "GDPR compliance", "CCPA regulations", "job market", "resume optimization", "job application", "resume tips", "job-seeking strategies", "career advancement"]
 cover: "/img/cover/A_cartoon-style_illustration_of_a_person_holding_a_resume.webp"

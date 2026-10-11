@@ -1,6 +1,7 @@
 ---
 title: "IPv4 to IPv6 Transition Mechanisms: A Comprehensive Guide"
 date: 2023-02-18
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the different mechanisms used to transition from IPv4 to IPv6 in this comprehensive guide."

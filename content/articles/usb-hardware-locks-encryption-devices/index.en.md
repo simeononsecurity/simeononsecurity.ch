@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Data Privacy"
 date: 2023-09-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover USB hardware locks and encrypted drives on Amazon, fortifying data security."
@@ -100,3 +101,4 @@ ______
 - [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://www.hhs.gov/hipaa/index.html)
 - [Personal Data Protection Act (PDPA)](https://sso.agc.gov.sg/Act/PDPA2012)
+lastmod: 2026-10-11

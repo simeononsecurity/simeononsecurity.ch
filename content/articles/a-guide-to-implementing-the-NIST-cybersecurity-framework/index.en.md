@@ -1,6 +1,7 @@
 ---
 title: "Implementing the NIST Cybersecurity Framework"
 date: 2023-03-18
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to implement the NIST Cybersecurity Framework and protect your organization from cyber threats with our step-by-step guide."

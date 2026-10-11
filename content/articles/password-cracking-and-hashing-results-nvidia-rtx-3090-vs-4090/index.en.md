@@ -1,6 +1,7 @@
 ---
 title: "NVIDIA RTX 3090 vs RTX 4090"
 date: 2023-05-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the performance gap between NVIDIA RTX 3090 and RTX 4090 in password cracking, highlighting security implications and protection measures."

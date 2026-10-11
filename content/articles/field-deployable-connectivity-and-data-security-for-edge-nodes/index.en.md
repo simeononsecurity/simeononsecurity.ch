@@ -4,7 +4,7 @@ date: 2026-08-25
 lastmod: 2026-08-25
 toc: true
 draft: false
-description: "How to connect and secure a compact edge-compute node deployed away from a trusted network. Covers cellular, satellite, and LoRa mesh uplinks, VPN tunnel-back architectures, multi-factor authentication, VLAN segmentation, centralized logging, ECC memory, at-rest encryption, and tamper and theft response for field IT."
+description: "A guide to connecting and securing field edge-compute nodes with cellular, satellite, LoRa, VPN, MFA, segmentation, logging, encryption, and theft response."
 genre: ["Edge Computing", "Field IT", "Network Security", "VPN", "Encryption", "Physical Security", "Disaster Recovery"]
 tags: ["field deployable server", "edge node security", "cellular uplink server", "Starlink field deployment", "LoRa mesh backup link", "VPN tunnel home", "zero trust edge", "at-rest encryption", "tamper detection hardware", "theft response IT", "mobile command post network", "disaster recovery connectivity", "OPSEC field deployment", "site OPSEC", "portable data center security", "encrypted storage field", "remote site VPN", "cellular modem router", "mesh networking backup", "off-grid connectivity", "VLAN network segmentation", "multi-factor authentication field", "hardware security key", "TOTP offline authentication", "centralized logging syslog", "store and forward logging", "ECC memory field deployment", "bit flip error correction"]
 cover: "/img/cover/field-deployable-edge-computing-connectivity-security.webp"

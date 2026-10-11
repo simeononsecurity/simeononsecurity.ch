@@ -1,6 +1,7 @@
 ---
 title: "Hack The Box: helping Beginners in Cybersecurity"
 date: 2023-09-06
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover whether Hack The Box is the right choice for beginners in cybersecurity and explore better alternatives like Hack The Box Academy and TryHackMe."

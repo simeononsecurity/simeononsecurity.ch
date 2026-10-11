@@ -4,7 +4,7 @@ date: 2026-09-28
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "AI-driven kernel bug hunting produced four new local privilege escalation families in 2026, all of which escape containers. Here is how they work, why patching is losing ground, and where microVMs fit."
+description: "Review 2026 container-escape research, the limits of kernel isolation, patching pressure, and the role of microVMs."
 genre: ["Container Security", "Linux", "Kernel Security", "Virtualization", "Cloud Security", "Threat Research", "Blue Team", "DevSecOps"]
 tags: ["container escape", "container security boundary", "linux kernel cve", "local privilege escalation", "lpe 2026", "copy fail", "cve-2026-31431", "dirty frag", "cve-2026-43284", "cve-2026-43500", "fragnesia", "cve-2026-46300", "cve-2026-80521", "kernelctf", "kvmctf", "microvm", "firecracker", "kata containers", "page cache corruption", "af_alg", "af_unix", "xfrm esp", "rxrpc", "namespace isolation", "clone syscall", "ai vulnerability discovery", "docker security", "kubernetes security", "multi-tenant isolation", "sandbox escape", "nsjail", "bubblewrap", "firejail", "dirty pipe", "kernel cve trend"]
 cover: "/img/cover/container-security-vulnerabilities-kernel-escapes-2026.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Tips and Tricks for Passing CompTIA's Linux+ XK0-005"
 date: 2023-02-23
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn valuable tips and tricks to help you pass the CompTIA Linux+ XK0-005 exam and advance your career as a Linux professional."

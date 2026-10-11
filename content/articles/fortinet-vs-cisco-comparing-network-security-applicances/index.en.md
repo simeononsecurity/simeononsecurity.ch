@@ -1,6 +1,7 @@
 ---
 title: "Network Security Appliances"
 date: 2023-06-29
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Compare and choose the best network security appliance for your organization: Fortinet vs. Cisco, a detailed analysis of features, performance, and pricing."

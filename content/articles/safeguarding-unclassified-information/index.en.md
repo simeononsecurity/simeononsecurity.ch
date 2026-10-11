@@ -1,6 +1,7 @@
 ---
 title: "Unclassified Information: Safeguarding and Regulations"
 date: 2023-06-10
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the true nature of unclassified information, its key characteristics, safeguarding measures, and relevant regulations for effective protection."
@@ -78,3 +79,4 @@ ______
 ## References
 
 1. National Archives and Records Administration (NARA). Controlled Unclassified Information (CUI) Program. Retrieved from [https://www.archives.gov/cui](https://www.archives.gov/cui)
+lastmod: 2026-10-11

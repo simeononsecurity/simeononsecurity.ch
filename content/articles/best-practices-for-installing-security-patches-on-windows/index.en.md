@@ -1,6 +1,7 @@
 ---
 title: "Installing Cumulative Security Patches on Windows"
 date: 2023-03-22
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to install cumulative security patches on Windows and follow best practices to keep your system secure from cyber attacks."

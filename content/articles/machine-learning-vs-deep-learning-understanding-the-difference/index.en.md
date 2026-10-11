@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning vs. Deep Learning"
 date: 2023-06-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the distinctions between machine learning and deep learning, two powerful branches of AI with unique characteristics and applications."

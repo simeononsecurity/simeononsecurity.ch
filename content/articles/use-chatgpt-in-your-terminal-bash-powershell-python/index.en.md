@@ -1,6 +1,7 @@
 ---
 title: "Use ChatGPT in Your Terminal: Bash, PowerShell, Python"
 date: 2023-02-07
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to use the OpenAI's ChatGPT model through the convenient Command Line Interface (CLI) for text generation and question answering with ease."
@@ -61,3 +62,4 @@ This script will produce the text based on the prompt and display the generated 
 In addition to text generation and question answering, the ChatGPT CLI offers several other options, such as specifying the length of the generated text, adjusting the temperature of the output, and choosing the number of responses to generate.
 
 The **ChatGPT CLI is a valuable addition to any developer's toolkit**, providing a simple and straightforward way to interact with the advanced ChatGPT model. Whether generating text for a chatbot, completing text for a text editor, or answering questions for a Q&A system, the ChatGPT CLI can assist developers in achieving their goals with ease.
+lastmod: 2026-10-11

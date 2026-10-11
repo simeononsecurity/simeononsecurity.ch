@@ -1,6 +1,7 @@
 ---
 title: "The Future of Quantum Computing and Cybersecurity"
 date: 2023-03-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the future of quantum computing and its impact on cybersecurity, including post-quantum cryptography and vulnerabilities of classical cryptographic algorithms."
@@ -63,3 +64,4 @@ As quantum computing continues to evolve, it will be important to stay informed 
 
 1. IBM Research. (n.d.). Quantum Computing. Retrieved March 4, 2023, from https://www.research.ibm.com/quantum-computing/
 2. National Institute of Standards and Technology. (n.d.). Post-Quantum Cryptography Standardization. Retrieved March 4, 2023, from https://csrc.nist.gov/projects/post-quantum-cryptography
+lastmod: 2026-10-11

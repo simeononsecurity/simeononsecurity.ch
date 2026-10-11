@@ -4,7 +4,7 @@ date: 2026-09-30
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Most personal security advice is a flat list of 300 tips with no order. Here is the same advice ranked by real impact, with the five steps which stop most attacks and the common habits worth abandoning."
+description: "Prioritize personal security actions by attack impact, from account protection and backups to privacy and recovery planning."
 genre: ["Personal Security", "Privacy", "Digital Hygiene", "Account Security", "Threat Modeling", "Consumer Security", "Password Management", "Data Protection"]
 tags: ["personal security checklist", "digital security checklist", "privacy checklist 2026", "personal cybersecurity", "account security", "passkey setup", "hardware security key", "password manager setup", "2fa best practices", "phishing resistance", "breach monitoring", "have i been pwned", "credit freeze", "email alias privacy", "compartmentalization", "threat model", "full disk encryption", "backup strategy 3-2-1", "browser hardening", "tracker blocking", "dns over https", "metadata stripping", "exif removal", "sim swap protection", "account recovery", "backup codes", "session token theft", "infostealer malware", "personal security priorities", "security hygiene mistakes", "privacy tools", "client side security tools"]
 cover: "/img/cover/personal-security-checklist-2026-tiered-structure.webp"

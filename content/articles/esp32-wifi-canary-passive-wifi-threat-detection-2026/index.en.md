@@ -1,9 +1,10 @@
 ---
 title: "ESP32 WiFi Canary: Passive 2.4 GHz Threat Detection with..."
 date: 2026-06-06
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "A detailed breakdown into the ESP32 WiFi Canary project - a compact, passive 2.4 GHz awareness sensor for the M5Stack Atom Lite that silently watches for evil-twin APs, deauthentication attacks, security downgrades, and beacon floods using a confidence-scored threat model and a single RGB LED."
+description: "A technical breakdown of ESP32 WiFi Canary, a passive 2.4GHz sensor for detecting evil twins, deauthentication, downgrades, and beacon floods."
 genre: ["Network Security", "WiFi Security", "IoT Security", "Security Research", "Embedded Systems", "Privacy Tools", "ESP32 Projects", "Hardware Security", "Wireless Security", "Open Source Security"]
 tags: ["ESP32", "WiFi Canary", "M5Stack Atom Lite", "Deauth Detection", "Evil Twin Detection", "WiFi Security", "Passive WiFi Monitoring", "802.11 Management Frames", "Network Security", "IoT Security", "NeoPixel", "SK6812", "PlatformIO", "C++", "Open Source", "Security Sensor", "Wireless Threat Detection", "BSSID Monitoring", "SSID Monitoring", "Security Downgrade Detection", "Beacon Flood Detection", "WiFi Monitoring", "RGB LED", "Promiscuous Mode", "Embedded Security", "Travel Security", "Hotel WiFi Security", "Coffee Shop WiFi", "Security Awareness", "simeononsecurity"]
 canonical: "https://simeononsecurity.com/articles/esp32-wifi-canary-passive-wifi-threat-detection-2026/"

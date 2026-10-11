@@ -1,9 +1,10 @@
 ---
 title: "Decoding Cyber Threats"
 date: 2024-01-14
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Explore the intricate strategies hackers employ to breach digital fortresses. From initial access methods like phishing and malware to privilege escalation, lateral movement, and covert data exfiltration techniques, uncover the anatomy of cyber attacks. Arm yourself with knowledge to fortify your defenses against evolving threats."
+description: "Follow a cyberattack from initial access through privilege escalation, lateral movement, persistence, and exfiltration, with defenses for each stage."
 genre: ["Cyber Threats", "Hacking Tactics", "Digital Security", "Cyber Attack Strategies", "Data Exfiltration Techniques", "Phishing Attacks", "Malware Infections", "Privilege Escalation", "Lateral Movement", "Security Measures"]
 tags: ["Cyber Threats", "Hacking Tactics", "Digital Security", "Cyber Attack Strategies", "Data Exfiltration Techniques", "Phishing Attacks", "Malware Infections", "Privilege Escalation", "Lateral Movement", "Security Measures", "Threat Detection", "Security Audits", "Cybersecurity Education", "Network Security", "Multi-Layered Defense", "Patch Management", "Password Security", "Steganography", "DNS Tunneling", "Command and Control Channels", "Cybersecurity Best Practices"]
 cover: "/img/cover/anatomy-of-a-cyber-attack_-how-hackers-breach-defenses.webp"
@@ -46,7 +47,7 @@ Brute force attacks are a common method used by hackers to gain unauthorized acc
 Exploiting Vulnerabilities
 --------------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/8be7cfb4-d89e-416c-b438-80b4b752dd61/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/8be7cfb4-d89e-416c-b438-80b4b752dd61/thumbnail.jpeg" alt="Illustration related to Brute Force Attacks" >}}
 
 ### Software Vulnerabilities
 
@@ -63,7 +64,7 @@ Human vulnerabilities refer to the weaknesses and susceptibilities that individu
 Privilege Escalation
 --------------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/32642936-e218-4f44-a4a8-124686fbd102/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/32642936-e218-4f44-a4a8-124686fbd102/thumbnail.jpeg" alt="Illustration related to Human Vulnerabilities" >}}
 
 ### Exploiting Misconfigurations
 
@@ -92,7 +93,7 @@ It is crucial for organizations to implement strong access controls and regularl
 Lateral Movement
 ----------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/7690dcb4-5368-4cf7-b2ca-0b0bb8b26e5a/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/7690dcb4-5368-4cf7-b2ca-0b0bb8b26e5a/thumbnail.jpeg" alt="Illustration related to Exploiting Privilege Misuse" >}}
 
 ### Exploiting Trust Relationships
 
@@ -120,7 +121,7 @@ Remote Desktop Protocol (RDP) Exploitation is a method used by hackers to gain u
 Data Exfiltration
 -----------------
 
-![](https://contenu.nyc3.digitaloceanspaces.com/journalist/30262ff0-ee67-478f-ad5c-8bb911e79d25/thumbnail.jpeg)
+{{< figure src="https://contenu.nyc3.digitaloceanspaces.com/journalist/30262ff0-ee67-478f-ad5c-8bb911e79d25/thumbnail.jpeg" alt="Illustration related to Remote Desktop Protocol (RDP) Exploitation" >}}
 
 ### Using Command and Control (C2) Channels
 

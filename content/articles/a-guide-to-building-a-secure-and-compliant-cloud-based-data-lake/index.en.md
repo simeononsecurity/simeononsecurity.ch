@@ -1,6 +1,7 @@
 ---
 title: "Building a Secure & Compliant Cloud-Based Data Lake"
 date: 2023-04-16
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about security and compliance best practices when planning, building and managing cloud-based data lakes in this comprehensive guide."

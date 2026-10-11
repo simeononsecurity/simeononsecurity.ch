@@ -1,6 +1,7 @@
 ---
 title: "Ultimate Home Lab Project Ideas: Explore New Possibilities"
 date: 2023-05-30
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover exciting and innovative home lab project ideas to expand your knowledge and enhance your IT skills."

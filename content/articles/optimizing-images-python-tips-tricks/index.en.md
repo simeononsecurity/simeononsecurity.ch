@@ -1,9 +1,10 @@
 ---
 title: "Optimizing Images with Python"
 date: 2023-07-04
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "Learn how to optimize images with Python, reduce file sizes, and improve website performance and user experience with efficient techniques like compression, resizing, and format conversion."
+description: "Optimize images with Python using resizing, compression, format conversion, and repeatable Pillow workflows."
 genre: ["Technology", "Web Development", "Python Programming", "Image Optimization", "SEO", "Web Performance", "User Experience", "Software Development", "Automation", "Programming"]
 tags: ["optimizing images", "Python", "image optimization", "web development", "website performance", "user experience", "compression", "resizing", "format conversion", "image processing", "Pillow library", "Tinify library", "automation", "Python script", "web performance optimization", "SEO optimization", "software development", "web design", "image compression", "file size reduction", "lazy loading", "image formats", "webp format", "API integration", "development workflow", "code example", "image optimization techniques", "performance optimization", "programming tutorial"]
 cover: "/img/cover/An_illustration_of_a_Python_script_optimizing.webp"

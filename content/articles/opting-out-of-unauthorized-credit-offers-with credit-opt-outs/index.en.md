@@ -1,6 +1,7 @@
 ---
 title: "Opt Out of Pre-Approved Credit Offers via optoutprescreen"
 date: 2023-02-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Prevent identity theft by opting out of pre-approved credit offers, using optoutprescreen, and protect your personal information from unauthorized access."

@@ -1,6 +1,7 @@
 ---
 title: "The Art of Incident Response"
 date: 2023-02-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn the best practices for incident response according to NIST SP 800-61 Rev. 2 and discover real-world examples of effective incident response strategies."
@@ -127,3 +128,4 @@ Organizations that had effective incident response plans were able to quickly id
 ## Conclusion
 
 Real-world examples of incident response **demonstrate the importance of effective incident response planning and preparation**. By following **best practices** and continuously **improving incident response processes**, organizations can be **better prepared to respond to security incidents** and **protect their assets and data**. The incidents discussed in this article, including the **Equifax data breach**, **NotPetya ransomware attack**, **SolarWinds supply chain attack**, **Colonial Pipeline ransomware attack**, and **Microsoft Exchange Server vulnerability**, highlight the **evolving nature of cybersecurity threats** and the importance of maintaining a **proactive and effective incident response strategy**.
+lastmod: 2026-10-11

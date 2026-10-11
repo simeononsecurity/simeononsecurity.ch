@@ -4,7 +4,7 @@ date: 2026-09-01
 lastmod: 2026-09-01
 toc: true
 draft: false
-description: "A practical comparison of Meshtastic, MeshCore, and Reticulum for off-grid and community mesh networking. Covers routing architecture, hop limits and airtime, static infrastructure versus roaming nodes, and when transport-independent networking with Reticulum genuinely solves a real problem."
+description: "Compare Meshtastic, MeshCore, and Reticulum by routing, airtime, infrastructure, transport, and off-grid use cases."
 genre: ["LoRa", "Mesh Networking", "Off-Grid Communications", "Emergency Communications", "Ham Radio", "Open Source", "Disaster Preparedness", "Wireless Networks", "Privacy", "Networking"]
 tags: ["meshtastic vs meshcore vs reticulum", "reticulum network", "meshtastic", "meshcore", "reticulum", "lxmf", "lora mesh network", "off-grid communications", "rnode", "packet radio", "transport independent networking", "mesh networking", "emergency communications", "community mesh network", "lora airtime", "managed flooding", "hop limit", "repeater node", "room server", "sideband app", "nomadnet", "meshchat", "disaster comms", "off-grid radio", "mesh network protocol", "regional mesh network", "RF engineering"]
 cover: "/img/cover/meshtastic-meshcore-reticulum-network-comparison.webp"

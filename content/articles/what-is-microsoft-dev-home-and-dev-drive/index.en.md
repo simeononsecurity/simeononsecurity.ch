@@ -1,6 +1,7 @@
 ---
 title: "Exploring Dev Home and Dev Drive"
 date: 2023-06-15
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how Dev Home and Dev Drive enhance your Windows development workflow with customizable widgets, machine configuration, GitHub integration, and optimized storage."
@@ -57,3 +58,4 @@ Wrapping up, Dev Home and Dev Drive are essential tools for Windows developers. 
 ## References
 - [Microsoft Documentation: Dev Home](https://learn.microsoft.com/en-us/windows/dev-home/?WT.mc_id=windows-c9-niner)
 - [Microsoft Documentation: Dev Drive](https://learn.microsoft.com/en-us/windows/dev-drive/?WT.mc_id=windows-c9-niner)
+lastmod: 2026-10-11

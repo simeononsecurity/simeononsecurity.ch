@@ -1,6 +1,7 @@
 ---
 title: "Outsourcing Cybersecurity: Benefits and Risks"
 date: 2023-03-14
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the benefits and risks of outsourcing cybersecurity to third-party vendors and how to choose the right vendor for your business."
@@ -47,3 +48,4 @@ ______
 
 1. [Nordlayer: Outsourced vs. In-House Cybersecurity: Pros and Cons](https://nordlayer.com/blog/outsourced-vs-in-house-cybersecurity-pros-and-cons/)
 2. [Identity Management Institute: The Cybersecurity Risks of Outsourcing to Third Parties](https://identitymanagementinstitute.org/the-cybersecurity-risks-of-outsourcing-to-third-parties/)
+lastmod: 2026-10-11

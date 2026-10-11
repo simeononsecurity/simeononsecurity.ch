@@ -1,6 +1,7 @@
 ---
 title: "OWASP Top 10: Critical Web Application Security Risks"
 date: 2023-02-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn about the most critical web application security risks with the OWASP Top 10 and how to protect against them"

@@ -1,6 +1,7 @@
 ---
 title: "Benefits and Challenges of Open Source Security Tools..."
 date: 2023-04-05
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the benefits and challenges of using open source security tools to improve your organization's security posture."
@@ -67,3 +68,4 @@ Wrapping up, open source security tools offer many benefits, including cost savi
 
 
 
+lastmod: 2026-10-11

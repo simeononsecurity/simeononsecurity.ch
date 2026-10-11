@@ -3,6 +3,7 @@ title: "Networking Basics: Subnetting, VLANs, and Efficient..."
 draft: false
 toc: true
 date: 2023-07-23
+lastmod: 2026-10-11
 description: "Learn the essentials of subnets, subnetting, and VLANs for efficient network management and enhanced security"
 genre: ["Networking Basics", "Subnetting", "VLANs", "Network Management", "Network Security", "IP Addressing", "Network Segmentation", "Efficient Resource use", "Network Performance", "IPv4"]
 tags: ["networking basics", "subnets", "subnetting", "VLANs", "network management", "network security", "IP addressing", "network segmentation", "efficient resource use", "network performance", "IPv4", "subnet configuration", "subnet masks", "IP address allocation", "inter-VLAN communication", "switch ports", "VLAN configuration", "VLAN interfaces", "network connectivity", "subnetworks", "broadcast domains", "security measures", "IP address range", "subnet examples", "VLAN deployment", "network administration", "switch configuration", "router configuration", "network scalability", "communication and data transfer", "efficient networks"]

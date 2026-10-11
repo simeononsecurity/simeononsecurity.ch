@@ -1,6 +1,7 @@
 ---
 title: "Unlocking Biometric Security"
 date: 2023-09-17
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover advanced biometric security with fingerprint and facial recognition devices available on Amazon, ensuring robust access control and peace of mind."

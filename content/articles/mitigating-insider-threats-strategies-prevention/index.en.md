@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Insider Threats"
 date: 2023-10-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover effective strategies to prevent insider threats, safeguard sensitive data, and build a culture of security in your organization."

@@ -3,6 +3,7 @@ title: "How DNS Works: Root DNS, Importance, and Troubleshooting"
 draft: false
 toc: true
 date: 2023-07-20
+lastmod: 2026-10-11
 description: "Explore the working principles of DNS and Root DNS, their hierarchical structure, resolution process, caching mechanisms, and troubleshooting tips."
 genre: ["DNS basics", "Root DNS", "Domain Name System", "DNS resolution", "DNS hierarchy", "DNS caching", "DNS troubleshooting", "DNS records", "DNS management", "DNS commands"]
 tags: ["DNS", "Root DNS", "Domain Name System", "DNS resolution", "DNS hierarchy", "DNS caching", "DNS records", "DNS management", "DNS troubleshooting", "networking", "internet infrastructure", "IP addresses", "website access", "recursive query", "authoritative name servers", "TTL", "caching mechanisms", "DNS cache clearing", "Root DNS servers", "anycast routing", "ICANN", "DNS collaboration", "A record", "AAAA record", "CNAME record", "MX record", "TXT record", "SRV record", "NS record", "PTR record", "SOA record", "DNS troubleshooting commands", "Windows", "macOS", "Linux", "Command Prompt", "Terminal"]

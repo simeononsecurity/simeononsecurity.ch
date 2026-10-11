@@ -1,6 +1,7 @@
 ---
 title: "Boost Productivity with Homebox"
 date: 2023-06-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the power of Homebox, an open-source software for efficient inventory and asset management, enhancing productivity for your home or small business."
@@ -59,3 +60,4 @@ Take control of your inventory and assets with Homebox today!
 
 ### References
 - [Homebox GitHub Repository](https://hay-kot.github.io/homebox/)
+lastmod: 2026-10-11

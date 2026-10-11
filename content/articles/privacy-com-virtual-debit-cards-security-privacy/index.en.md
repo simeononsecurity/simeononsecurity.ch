@@ -4,7 +4,7 @@ date: 2023-09-03
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "What is stored on a payment card, why the magnetic stripe is the weakest part of it, what a merchant sees when you pay with a virtual number, and how Privacy.com's card types and limits work in practice."
+description: "Understand Privacy.com virtual card controls, merchant visibility, payment data, card limits, and fraud tradeoffs."
 genre: ["Payment Security", "Digital Privacy", "Virtual Cards", "Financial Privacy", "Fraud Prevention", "Consumer Security"]
 tags: ["privacy.com", "virtual cards", "virtual debit cards", "single use cards", "merchant locked cards", "category locked cards", "tokenization", "network token", "pan", "cvv", "card skimming", "magnetic stripe", "track 1", "track 2", "payment card security", "credit card fraud", "subscription management", "spend limits", "pci dss", "soc 2", "card not present fraud", "financial privacy", "payment privacy", "virtual card number", "masked card", "card controls"]
 cover: "/img/cover/privacy_virtual_cards.webp"

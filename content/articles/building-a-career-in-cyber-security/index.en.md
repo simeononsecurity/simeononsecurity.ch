@@ -1,6 +1,7 @@
 ---
 title: "Building a Career in Cyber Security: Complete Guide"
 date: 2023-06-11
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the essential steps to forge a successful path in cyber security, including education, certifications, and lucrative job prospects."

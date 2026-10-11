@@ -1,9 +1,10 @@
 ---
 title: "The Pros and Cons of Bootcamps: Is It Worth It?"
 date: 2023-02-12
+lastmod: 2026-10-11
 toc: true
 draft: false
-description: "This article explores the advantages and disadvantages of bootcamps, and helps individuals determine if they're the right choice for quickly acquiring new skills and certifications."
+description: "Compare bootcamp benefits and drawbacks, then use cost, time, outcomes, and certification criteria to choose a path."
 tags: ["Bootcamps", "Career Development", "Skills Acquisition", "Certifications", "Education", "Job Market", "Hands-on Experience", "Cost-effective", "Comprehensive Education", "Credibility", "Physical and Mental Demand"]
 cover: "/img/cover/are-bootcamps-worth-it.webp"
 coverAlt: "The image shows a diverse group of people working on laptops in a modern learning space. They are collaborating on projects with virtual elements representing coding and design, set against a dark background."

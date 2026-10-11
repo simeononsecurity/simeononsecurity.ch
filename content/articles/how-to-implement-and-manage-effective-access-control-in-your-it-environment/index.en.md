@@ -1,6 +1,7 @@
 ---
 title: "Effective Access Control: Best Practices for IT Security"
 date: 2023-04-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to protect sensitive data and systems by implementing effective access control measures for your IT environment."

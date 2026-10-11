@@ -1,6 +1,7 @@
 ---
 title: "Secure Coding Practices for Web Development: A Beginner's Guide"
 date: 2023-03-14
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn essential secure coding practices for web development to build secure web applications and reduce the risk of cyber attacks."

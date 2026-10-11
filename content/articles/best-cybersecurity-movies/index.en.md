@@ -1,6 +1,7 @@
 ---
 title: "Top Cybersecurity Movies"
 date: 2023-11-28
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the best cybersecurity movies for an effortless dive into the world of digital intrigue and vigilance."

@@ -1,6 +1,7 @@
 ---
 title: "Mastering Least Privilege"
 date: 2023-10-12
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Enhance cybersecurity with least privilege access control on Linux. Learn implementation steps, best practices, and troubleshooting tips."

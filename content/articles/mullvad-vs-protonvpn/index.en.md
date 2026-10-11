@@ -1,6 +1,7 @@
 ---
 title: "Mullvad vs ProtonVPN: Which VPN Is Right for You?"
 date: 2023-11-19
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover an effortless comparison of Mullvad VPN and ProtonVPN, their security features, performance, and more, helping you choose the best VPN for your needs."

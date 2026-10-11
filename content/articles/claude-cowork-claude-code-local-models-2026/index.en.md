@@ -4,7 +4,7 @@ date: 2026-09-22
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Ollama connects Claude Desktop and Claude Code to local models through an Anthropic-compatible API. Here is the correct setup for each, the environment variable most guides omit, which models to use in September 2026, and which features stay cloud-only."
+description: "Configure Ollama with Claude Desktop and Claude Code through an Anthropic-compatible API. Review model choices and cloud-only features for 2026."
 genre: ["Local AI", "AI Coding Tools", "Self-Hosted AI", "Developer Tools", "Privacy", "Open Source Models", "Automation", "AI Hardware"]
 tags: ["claude cowork", "claude code", "claude desktop local models", "ollama claude code", "anthropic base url", "anthropic_auth_token", "claude code local model", "run claude offline", "local ai coding agent", "ollama launch claude", "claude desktop ollama", "local llm coding", "private ai coding", "offline ai coding", "ai agent local", "qwen3.8", "glm cloud model", "tool calling models", "claude code setup", "free claude code", "claude without api key", "local model context window", "llama.cpp", "ollama cloud", "ai coding privacy", "air gapped ai", "devops ai tooling"]
 cover: "/img/cover/claude-cowork-setup-guide-local-models-2026.webp"

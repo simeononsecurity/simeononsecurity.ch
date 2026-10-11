@@ -1,6 +1,7 @@
 ---
 title: "Securing IoT Devices: Cybersecurity Challenges & Solutions"
 date: 2023-03-27
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the impact of IoT on cybersecurity and learn effective strategies for safeguarding your connected devices."
@@ -64,3 +65,4 @@ ______
 1. [NIST - IoT Security](https://www.nist.gov/topics/internet-things-iot)
 2. [ISO/IEC 27400:2022 - IoT Security and Privacy Guidelines](https://www.iso.org/standard/44373.html)
 
+lastmod: 2026-10-11

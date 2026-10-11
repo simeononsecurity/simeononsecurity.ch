@@ -1,6 +1,7 @@
 ---
 title: "Maximize Hybrid Cloud Efficiency: Unlocking Ansible's Full Potential"
 date: 2023-03-26
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover how Ansible's automation capabilities can simplify, secure, and optimize hybrid cloud environments for improved productivity."
@@ -99,3 +100,4 @@ ______
 9. [Travis CI and Ansible](https://docs.travis-ci.com/user/deployment/ansible/)
 
 
+lastmod: 2026-10-11

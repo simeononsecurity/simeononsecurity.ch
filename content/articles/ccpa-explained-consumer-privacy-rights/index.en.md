@@ -1,6 +1,7 @@
 ---
 title: "helping Privacy: Understanding the CCPA and Your Rights"
 date: 2023-11-08
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Explore the California Consumer Privacy Act (CCPA) and learn how it helps consumers to control their data privacy."

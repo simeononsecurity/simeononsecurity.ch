@@ -1,6 +1,7 @@
 ---
 title: "Step-by-Step Guide to a Career in IT and Cybersecurity"
 date: 2023-02-13
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Discover the steps to take to launch your career in the exciting and rapidly changing field of IT and Cybersecurity with this comprehensive guide"

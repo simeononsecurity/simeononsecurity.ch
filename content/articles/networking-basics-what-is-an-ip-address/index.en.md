@@ -3,6 +3,7 @@ title: "Networking Basics: What is an IP Address & IPv4 vs IPv6"
 draft: false
 toc: true
 date: 2023-07-22
+lastmod: 2026-10-11
 description: "Discover the basics of IP addresses, including the difference between IPv4 and IPv6, their significance, and the importance of IPv6 adoption."
 genre: ["Networking", "IP Addresses", "Internet Protocols", "IPv4", "IPv6", "Network Communication", "Internet Connectivity", "Technology", "Network Infrastructure", "Internet Security"]
 tags: ["IP address", "IPv4", "IPv6", "Internet Protocol", "networking", "address space", "address format", "address configuration", "security", "quality of service", "internet connectivity", "network infrastructure", "technology", "IPv4 exhaustion", "internet growth", "government regulations", "network communication", "internet security", "Internet Assigned Numbers Authority", "Federal IPv6 Requirements", "dynamic allocation", "DHCP", "IPsec", "QoS", "network auto-configuration", "address compression", "address notation", "IP address types", "IP addressing scheme"]

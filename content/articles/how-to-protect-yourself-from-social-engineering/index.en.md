@@ -1,6 +1,7 @@
 ---
 title: "Protect Yourself from Social Engineering Attacks"
 date: 2023-06-21
+lastmod: 2026-10-11
 toc: true
 draft: false
 description: "Learn how to safeguard against social engineering attacks with effective strategies and best practices."
