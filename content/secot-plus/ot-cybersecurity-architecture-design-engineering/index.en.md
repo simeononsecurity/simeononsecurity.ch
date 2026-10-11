@@ -3,17 +3,19 @@ title: "SecOT+ (SOT-001): OT Cybersecurity Architecture"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT cybersecurity architecture, design, and engineering for the CompTIA SecOT+ SOT-001 exam. Learn design principles, physical access controls, device hardening, network segmentation, the industrial DMZ, zones and conduits, data diodes, and identity management."
+description: "Master OT cybersecurity architecture, design, and engineering from draft CompTIA SecOT+ SOT-001 topics. Learn design principles, physical access controls, device hardening, network segmentation, the industrial DMZ, zones and conduits, data diodes, and identity management."
 genre: ["CompTIA SecOT+ Course", "OT Architecture", "Network Segmentation", "Industrial DMZ", "Zones and Conduits", "Device Hardening", "Defense in Depth", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "defense in depth", "least privilege", "industrial DMZ", "zones and conduits", "data diode", "unidirectional gateway", "network segmentation", "VLAN", "Secure Boot", "TPM", "jump box", "RBAC", "ABAC", "multifactor authentication", "privileged access management"]
 cover: "/img/cover/comptia-secot-cybersecurity-architecture-design.webp"
 coverAlt: "An illustration of a cybersecurity architecture for operational technology, featuring elements like firewalls, biometric access controls, and segmented networks, set against a dark background with vibrant colors."
-coverCaption: "Design Resilient, Segmented OT Architecture for the SOT-001 Exam"
+coverCaption: "Design Resilient, Segmented OT Architecture from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Cybersecurity Architecture, Design, and Engineering** is **18%** of the **CompTIA SecOT+ (SOT-001)** exam. This domain teaches you to build OT systems that resist attack and keep running through one. You apply layered controls, harden fragile devices, and segment the network so a compromise on one side cannot reach the process on the other. *Architecture is where you prevent the IT-to-OT pivot you studied in threat intelligence, so give this heavily weighted domain deep, hands-on attention.*
+**OT Cybersecurity Architecture, Design, and Engineering** is **18%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you to build OT systems that resist attack and keep running through one. You apply layered controls, harden fragile devices, and segment the network so a compromise on one side cannot reach the process on the other. *Architecture is where you prevent the IT-to-OT pivot you studied in threat intelligence, so give this heavily weighted domain deep, hands-on attention.*
 
 Good OT architecture assumes a breach will happen. The goal is to contain it, keep the process safe, and keep operators in control.
 
@@ -38,7 +40,7 @@ You start from sound principles that shape every later decision.
 - **High availability** keeps systems running with minimal downtime.
 - **Recoverability** restores service quickly after a failure.
 
-A secure design must also stay observable and predictable. **Auditability** lets you prove what happened, **observability** lets you see system state, and **deterministic** behavior guarantees the system responds within a fixed time.
+A secure design also needs records and predictable timing. **Auditability** helps reconstruct events, and **observability** exposes selected system state. Deterministic processing alone does not guarantee a fixed response time. Define the required real-time deadline, measure worst-case behavior, and validate the complete control path.
 
 *Deterministic behavior matters in OT. The system must respond predictably in time, so any control you add cannot introduce latency that breaks the process. Performance is a security requirement here, not just a convenience.*
 
@@ -49,7 +51,7 @@ Physical security is a frontline OT control because touching a device often defe
 | Control | Purpose |
 |---------|---------|
 | **Access control system** | Badges, fobs, readers, biometrics, and turnstiles that gate entry |
-| **Access control vestibule** | Allows only one person through at a time to stop tailgating |
+| **Access control vestibule** | Reduces tailgating when paired with monitoring and operating procedures. It does not guarantee one-person passage. |
 | **Room and cabinet security** | Locked rooms, locked cabinets, and cable locks on equipment |
 | **MDF and IDF protection** | Securing the main and intermediate distribution frames where wiring lands |
 | **Surveillance** | Video, motion sensors, and a spectrum analyzer to detect rogue wireless |
@@ -89,7 +91,7 @@ Workstations and servers in OT need IT-grade host controls tuned for fragile sys
 | **EPP / EDR** | Endpoint protection platform and endpoint detection and response |
 | **EPM** | Endpoint privilege management that limits what local accounts can elevate |
 | **Patches** | Tested updates that close software vulnerabilities |
-| **Code signing** | Proves software origin with a verified signature |
+| **Code signing** | Checks integrity and control of a signing key. Verify signer identity and key custody before trusting source claims. |
 
 You also lock down the host configuration.
 

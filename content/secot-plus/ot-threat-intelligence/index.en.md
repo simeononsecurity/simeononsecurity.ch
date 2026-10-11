@@ -3,17 +3,19 @@ title: "CompTIA SecOT+ (SOT-001): OT Threat Intelligence"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT threat intelligence for the CompTIA SecOT+ SOT-001 exam. Learn intelligence disciplines, analysis models like the Diamond Model and MITRE ATT&CK for ICS, landmark OT malware including Stuxnet and TRISIS, threat actors, attack techniques, and intelligence sharing."
+description: "Master OT threat intelligence from draft CompTIA SecOT+ SOT-001 topics. Learn intelligence disciplines, analysis models like the Diamond Model and MITRE ATT&CK for ICS, landmark OT malware including Stuxnet and TRISIS, threat actors, attack techniques, and intelligence sharing."
 genre: ["CompTIA SecOT+ Course", "OT Threat Intelligence", "MITRE ATT&CK for ICS", "ICS Malware", "Stuxnet", "Threat Actors", "Cyber Kill Chain", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "threat intelligence", "MITRE ATT&CK for ICS", "ICS Cyber Kill Chain", "Diamond Model", "Stuxnet", "TRISIS", "Industroyer", "BlackEnergy", "FrostyGoop", "Colonial Pipeline", "advanced persistent threat", "indicator of compromise", "STIX", "ISAC", "IT to OT pivot"]
 cover: "/img/cover/comptia-secot-plus-ot-threat-intelligence.webp"
 coverAlt: "A dark control room with glowing screens showing threat intelligence data. A cybersecurity analyst is focused on the screens, surrounded by colorful graphs and icons representing various attack techniques."
-coverCaption: "Understand the Adversaries Targeting OT for the SOT-001 Exam"
+coverCaption: "Understand the Adversaries Targeting OT from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Threat Intelligence** is **14%** of the **CompTIA SecOT+ (SOT-001)** exam. This domain teaches you who attacks OT, how they operate, and how you turn raw information into intelligence that drives defense. *Real OT attacks are rare but consequential, so you study the landmark cases closely because they define the techniques you must detect.*
+**OT Threat Intelligence** is **14%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you who attacks OT, how they operate, and how you turn raw information into intelligence that drives defense. *Real OT attacks are rare but consequential, so you study the landmark cases closely because they define the techniques you must detect.*
 
 Threat intelligence is the difference between guarding everything equally and guarding what an actual adversary is likely to target. You map your defenses to known behavior, not to imagination.
 

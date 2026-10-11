@@ -3,17 +3,19 @@ title: "CompTIA SecOT+ (SOT-001): OT Systems and Safety Foundations"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT systems and safety foundations for the CompTIA SecOT+ SOT-001 exam. Learn safety procedures, OT components like PLCs and HMIs, control systems such as SCADA and DCS, control logic, and industrial protocols including Modbus and DNP3."
+description: "Master OT systems and safety foundations from draft CompTIA SecOT+ SOT-001 topics. Learn safety procedures, OT components like PLCs and HMIs, control systems such as SCADA and DCS, control logic, and industrial protocols including Modbus and DNP3."
 genre: ["CompTIA SecOT+ Course", "OT Systems", "Safety Foundations", "Industrial Control Systems", "SCADA", "PLC", "Industrial Protocols", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "lockout tagout", "job safety analysis", "PLC", "HMI", "SCADA", "DCS", "safety instrumented system", "historian", "ladder logic", "Modbus", "DNP3", "Profibus", "OPC UA", "IT/OT convergence", "remote terminal unit"]
 cover: "/img/cover/comptia-secot-ot-systems-safety-foundations.webp"
 coverAlt: "An illustration of a control room with a large human-machine interface displaying data. Surrounding elements represent sensors, actuators, and PLCs, all set against a dark background with vibrant colors."
-coverCaption: "Build a Safety-First Foundation in OT Systems for the SOT-001 Exam"
+coverCaption: "Build a Safety-First Foundation in OT Systems from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Systems and Safety Foundations** is **14%** of the **CompTIA SecOT+ (SOT-001)** exam. This domain establishes the language and safety mindset you need before you secure anything. In operational technology, a mistake can injure people or shut down critical infrastructure, so safety always comes before security. *Learn the components, the systems, the control logic, and the protocols cold, because every later domain builds on this vocabulary.*
+**OT Systems and Safety Foundations** is **14%** in the **draft SecOT+ (SOT-001)** objectives. This domain establishes the language and safety mindset you need before you secure anything. In operational technology, a mistake can injure people or shut down critical infrastructure, so safety always comes before security. *Learn the components, the systems, the control logic, and the protocols cold, because every later domain builds on this vocabulary.*
 
 **Operational technology (OT)** is hardware and software that monitors and controls physical processes, devices, and infrastructure. OT differs from IT in one fundamental way. IT protects data, while OT protects a physical process. Availability and safety outrank confidentiality, and a single device may run for twenty years without a reboot.
 
@@ -74,7 +76,7 @@ Components combine into larger **industrial control systems (ICS)** that run a p
 | **Manufacturing execution system (MES)** | Tracks and manages production on the plant floor and bridges to business systems |
 | **Stand-alone system** | A control system that runs in isolation without network connectivity |
 
-*The safety instrumented system is special. It exists only to make the process safe, so it stays independent of the basic control system and is the last line of defense against a dangerous condition.*
+*A safety instrumented system performs defined safety functions. The required separation and independence follow the hazard analysis and safety integrity level. Integrated platforms need validated logical and physical separation. Do not assume independence from a diagram alone.*
 
 OT secures the systems that run **critical infrastructure**. These sectors include energy, water and wastewater, oil and gas, manufacturing, transportation, chemical, and food and agriculture. A failure in any of them can affect public safety and national security, which is why the exam ties OT security to consequences beyond a single company.
 

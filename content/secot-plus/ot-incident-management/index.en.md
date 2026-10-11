@@ -3,17 +3,19 @@ title: "CompTIA SecOT+ (SOT-001): OT Incident Management"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT incident management for the CompTIA SecOT+ SOT-001 exam. Learn the PICERL model, ICS4ICS, response plans and playbooks, exercises, OT-specific incident effects like loss of view and control, forensics, and containment through recovery."
+description: "Master OT incident management from draft CompTIA SecOT+ SOT-001 topics. Learn the PICERL model, ICS4ICS, response plans and playbooks, exercises, OT-specific incident effects like loss of view and control, forensics, and containment through recovery."
 genre: ["CompTIA SecOT+ Course", "OT Incident Management", "Incident Response", "PICERL", "ICS4ICS", "Digital Forensics", "Disaster Recovery", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "incident response", "PICERL", "ICS4ICS", "Incident Command System", "tabletop exercise", "loss of view", "loss of control", "loss of safety", "chain of custody", "root cause analysis", "containment", "eradication", "recovery", "lessons learned", "mandatory reporting"]
 cover: "/img/cover/comptia-secot-incident-management-ot-response.webp"
 coverAlt: "An industrial control room scene with a central figure analyzing screens, surrounded by team members coordinating responses. Graphs and schematics are visible in vibrant colors against a dark background."
-coverCaption: "Lead OT Incident Response from Detection to Recovery for the SOT-001 Exam"
+coverCaption: "Lead OT Incident Response from Detection to Recovery from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Incident Management** is **15%** of the **CompTIA SecOT+ (SOT-001)** exam. This domain teaches you to respond when prevention fails. You follow a structured model, coordinate IT and OT teams, preserve evidence, and restore the process safely. *In OT, the response itself can cause harm, so every action weighs safety and physical impact, not just data recovery.*
+**OT Incident Management** is **15%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you to respond when prevention fails. You follow a structured model, coordinate IT and OT teams, preserve evidence, and restore the process safely. *In OT, the response itself can cause harm, so every action weighs safety and physical impact, not just data recovery.*
 
 OT incident response is different because the stakes are physical. An incident can blind operators, take away their control, or defeat a safety system, and your job is to restore safe operation as fast as possible.
 
@@ -82,7 +84,7 @@ You then **triage** and **scope** the incident, and you protect evidence with a 
 - **Historian data**, a **sequence of events**, and **operator logs** reconstruct what happened to the process.
 - **Memory**, **disk**, **registry**, and **user logs** capture the host side of the attack.
 
-Finally, **root cause analysis (RCA)** determines the underlying cause so the same incident cannot recur.
+Finally, **root cause analysis (RCA)** examines contributing causes so the team can reduce recurrence risk and verify corrective actions.
 
 ## OT-Specific Incident Effects
 
@@ -128,7 +130,7 @@ You stop the spread, remove the threat, and restore safe operation in order.
 - A **bare metal restore** rebuilds a system from the ground up.
 - A **hot swap** replaces failed hardware with minimal downtime.
 - **Process validation** confirms the process runs correctly before going live.
-- A **redesign** fixes the underlying weakness so it cannot be exploited again.
+- A **redesign** addresses the identified weakness. Validate the change and monitor for related failure paths.
 
 After the incident, you close the loop.
 

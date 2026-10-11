@@ -3,17 +3,19 @@ title: "CompTIA SecOT+ (SOT-001): OT Risk Management"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT risk management for the CompTIA SecOT+ SOT-001 exam. Learn risk fundamentals, frameworks like ISA/IEC 62443 and NERC CIP, qualitative and quantitative assessments, risk treatments, governance artifacts, third-party risk, and change management."
+description: "Master OT risk management from draft CompTIA SecOT+ SOT-001 topics. Learn risk fundamentals, frameworks like ISA/IEC 62443 and NERC CIP, qualitative and quantitative assessments, risk treatments, governance artifacts, third-party risk, and change management."
 genre: ["CompTIA SecOT+ Course", "OT Risk Management", "ISA/IEC 62443", "NERC CIP", "Risk Assessment", "Governance", "Supply Chain Risk", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "risk appetite", "risk register", "ISA/IEC 62443", "NERC CIP", "NIST framework", "qualitative risk assessment", "quantitative risk assessment", "residual risk", "risk treatment", "supply chain risk", "third-party risk", "RACI", "change management", "rollback plan"]
 cover: "/img/cover/comptia-secot-plus-ot-risk-management-illustration.webp"
 coverAlt: "A control room scene with engineers analyzing risk management data on screens, featuring turbine controls and safety monitoring systems, all set against a dark background."
-coverCaption: "Assess and Treat Risk in OT Environments for the SOT-001 Exam"
+coverCaption: "Assess and Treat Risk in OT Environments from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Risk Management** is **17%** of the **CompTIA SecOT+ (SOT-001)** exam. This domain teaches you how to find risk in an OT environment, decide how much risk the business will tolerate, and choose treatments that do not break the process. *In OT, a control that interrupts production or safety can be worse than the risk it addresses, so risk decisions must include the engineers who run the plant.*
+**OT Risk Management** is **17%** in the **draft SecOT+ (SOT-001)** objectives. This domain teaches you how to find risk in an OT environment, decide how much risk the business will tolerate, and choose treatments that do not break the process. *In OT, a control that interrupts production or safety can be worse than the risk it addresses, so risk decisions must include the engineers who run the plant.*
 
 Risk in OT carries physical and safety weight that IT risk does not. A breach can stop a turbine, contaminate a batch, or endanger workers, so impact ratings reach far beyond data loss.
 

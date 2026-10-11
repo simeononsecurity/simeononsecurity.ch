@@ -1,9 +1,9 @@
 ---
-title: "CompTIA SecOT+ Course"
+title: "SecOT+ SOT-001 Draft Topic Guide"
 date: 2025-01-01
 toc: true
 draft: false
-description: "A comprehensive CompTIA SecOT+ (SOT-001) study course covering OT systems and safety foundations, OT risk management, OT threat intelligence, OT cybersecurity architecture, OT security operations, and OT incident management for control engineers and OT cybersecurity professionals."
+description: "A draft-based SecOT+ SOT-001 topic guide for OT safety, risk, intelligence, architecture, operations, and incident management. Check final CompTIA objectives when released."
 genre: ["CompTIA SecOT+ Course", "SOT-001 Certification", "OT Security", "Operational Technology", "Industrial Control Systems", "SCADA Security", "ICS Security", "CompTIA Certification", "Critical Infrastructure", "OT Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "OT security", "operational technology", "industrial control systems", "SCADA", "PLC", "DCS", "safety instrumented system", "ISA/IEC 62443", "NERC CIP", "MITRE ATT&CK for ICS", "OT risk management", "OT threat intelligence", "OT incident response", "Purdue model", "CompTIA certification"]
 cover: "/img/cover/index.en.md.webp"
@@ -11,9 +11,9 @@ coverAlt: "Cover image for: CompTIA SecOT+ Course: Complete Study Guide for the 
 coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environments"
 ---
 
-**CompTIA SecOT+ (SOT-001)** is the certification for control engineers and cybersecurity professionals who secure operational technology (OT) and industrial control systems (ICS). It validates your ability to understand OT systems and safety, manage OT risk, apply OT threat intelligence, design secure OT architecture, run OT security operations, and lead OT incident response. This course covers all six exam domains so you build the practical skills the test demands. *CompTIA recommends at least 3 years of hands-on OT experience and 2 years implementing cybersecurity in OT environments.*
+**This is a pre-release topic guide based on draft SOT-001 objectives.** The six topic areas and weights below reflect that draft. They are subject to change. Use the lessons to practice OT safety and security concepts, then compare every topic with CompTIA's final objectives after publication. This guide does not establish exam readiness or claim final certification requirements.
 
-| Domain | Title | Exam Weight |
+| Draft domain | Title | Draft weight |
 |--------|-------|-------------|
 | 1.0 | OT Systems and Safety Foundations | 14% |
 | 2.0 | OT Risk Management | 17% |
@@ -22,13 +22,13 @@ coverCaption: "Master CompTIA SecOT+ and Secure Operational Technology Environme
 | 5.0 | OT Security Operations | 22% |
 | 6.0 | OT Incident Management | 15% |
 
-**Exam details:** Multiple-choice and performance-based questions. The exam targets practitioners who combine control-engineering knowledge with cybersecurity practice. Always confirm the current question count, time limit, and passing score on the official CompTIA objectives page before you sit the exam.
+**Exam details remain unconfirmed in the draft.** Check CompTIA's final objectives for question types, count, duration, passing score, and experience guidance before planning an exam attempt.
 
 ## Resources
 
 - [Tips for Passing CompTIA Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [CompTIA SecOT+ Practice Test](/secot-plus-practice-test/) - Test your readiness
-- [Official SOT-001 Exam Objectives](https://www.comptia.org/certifications/secotplus)
+- [CompTIA SecOT+ status and objectives](https://www.comptia.org/certifications/secotplus) - Check for final objectives
 - [Cybersecurity Career Playbook](/cyber-security-career-playbook-start/)
 - [CompTIA Security+ Course](/security-plus-start/) - Recommended foundation
 - [CompTIA CySA+ Course](/cysa-plus-start/) - Recommended for security operations

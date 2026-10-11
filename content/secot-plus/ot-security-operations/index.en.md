@@ -3,17 +3,19 @@ title: "CompTIA SecOT+ (SOT-001): OT Security Operations"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master OT security operations for the CompTIA SecOT+ SOT-001 exam. Learn asset inventory and discovery, data collection with SIEM and SOAR, baselining and threat hunting, vulnerability management, patching with compensating controls, and removable media security."
+description: "Master OT security operations from draft CompTIA SecOT+ SOT-001 topics. Learn asset inventory and discovery, data collection with SIEM and SOAR, baselining and threat hunting, vulnerability management, patching with compensating controls, and removable media security."
 genre: ["CompTIA SecOT+ Course", "OT Security Operations", "Asset Inventory", "SIEM", "Vulnerability Management", "Threat Hunting", "Patch Management", "Operational Technology", "SOT-001", "Cybersecurity"]
 tags: ["CompTIA SecOT+", "SOT-001", "asset inventory", "passive discovery", "active discovery", "configuration management database", "SIEM", "SOAR", "baselining", "threat hunting", "patch management", "compensating control", "software bill of materials", "vulnerability triage", "removable media scanning", "write blocker", "sanitization kiosk"]
 cover: "/img/cover/comptia-secot-ot-security-operations-control-room.webp"
 coverAlt: "A high-tech control room showing professionals analyzing network traffic and asset inventories on multiple screens, with a dark navy background and vibrant blue and green accents."
-coverCaption: "Run Day-to-Day OT Security Operations for the SOT-001 Exam"
+coverCaption: "Run Day-to-Day OT Security Operations from the SOT-001 Draft"
 ---
+
+**Pre-release status:** this lesson follows draft SOT-001 topics and weights. Exam details and final objectives require confirmation from CompTIA. Treat the exercises as OT practice, not proof of exam readiness.
 
 #### [Click Here to Return To the CompTIA SecOT+ Course Page](/secot-plus-start/)
 
-**OT Security Operations** is **22%** of the **CompTIA SecOT+ (SOT-001)** exam, making it the most heavily weighted domain. This is the daily work of keeping an OT environment secure. You discover and track assets, collect and analyze data, hunt for threats, and manage vulnerabilities in systems you often cannot simply patch. *Spend the most study time here. Visibility is the foundation, because you cannot protect an asset you do not know exists.*
+**OT Security Operations** is **22%** in the **draft SecOT+ (SOT-001)** objectives, making it the most heavily weighted domain. This is the daily work of keeping an OT environment secure. You discover and track assets, collect and analyze data, hunt for threats, and manage vulnerabilities in systems you often cannot simply patch. *Spend the most study time here. Visibility is the foundation, because you cannot protect an asset you do not know exists.*
 
 OT operations differ from IT operations because uptime and safety constrain everything. You cannot reboot a turbine to apply a patch, so you lean on compensating controls and carefully scheduled downtime.
 
