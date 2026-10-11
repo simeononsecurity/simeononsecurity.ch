@@ -1,19 +1,19 @@
 ---
-title: "CompTIA Linux+ (XK0-005): Linux Troubleshooting"
+title: "Linux+ XK0-006 Troubleshooting"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master Linux troubleshooting for the CompTIA Linux+ XK0-005 exam. Diagnose storage, network, DNS, CPU, memory, authentication, boot, service, and package problems with real commands."
+description: "Master Linux troubleshooting for the CompTIA Linux+ XK0-006 exam. Diagnose storage, network, DNS, CPU, memory, authentication, boot, service, and package problems with real commands."
 genre: ["CompTIA Linux+ Course", "Linux Troubleshooting", "System Administration", "Performance Tuning", "Network Diagnostics", "Boot Recovery", "Linux Certification", "DevOps", "IT Support", "Diagnostics"]
-tags: ["CompTIA Linux+", "XK0-005", "troubleshooting", "fsck", "journalctl", "systemctl", "tcpdump", "dig", "top", "htop", "boot failures", "GRUB", "DNS", "performance", "storage", "network connectivity"]
+tags: ["CompTIA Linux+", "XK0-006", "troubleshooting", "fsck", "journalctl", "systemctl", "tcpdump", "dig", "top", "htop", "boot failures", "GRUB", "DNS", "performance", "storage", "network connectivity"]
 cover: "/img/cover/comptia-linux-troubleshooting-workflow-illustration.webp"
 coverAlt: "An illustration showing a modern computer setup with terminal commands related to Linux troubleshooting, including network connectivity and performance graphs, against a dark background."
-coverCaption: "Master Linux Troubleshooting for the XK0-005 Exam"
+coverCaption: "Master Linux Troubleshooting for the XK0-006 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
+[Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
 
-**Troubleshooting** is **28%** of the **CompTIA Linux+ (XK0-005)** exam, the second-heaviest domain. This module teaches you a structured method plus the exact commands you run to fix storage, network, performance, authentication, boot, and service problems. *Strong troubleshooting separates a junior admin from a senior one.*
+**Troubleshooting** is **22%** of the **CompTIA Linux+ XK0-006** exam. Use a structured method to diagnose storage, network, performance, authentication, boot, and service problems. The commands are examples for a disposable lab. Confirm their behavior on your distribution before applying a repair.
 
 ## Troubleshooting Methodology
 
@@ -67,7 +67,7 @@ cat /etc/nsswitch.conf    # hosts: files dns order
 resolvectl status         # systemd-resolved view
 ```
 
-*If `ping 8.8.8.8` works but `ping example.com` fails, the problem is DNS, not connectivity.*
+*If an IP test works but a name test fails, investigate name resolution. Check `/etc/hosts`, the `hosts` order in `/etc/nsswitch.conf`, resolver settings, and the target name before naming DNS as the cause. A blocked ICMP response alone does not establish application failure.*
 
 ## CPU and Memory Performance
 
@@ -80,7 +80,7 @@ free -h               # memory and swap usage
 sar -u 1 5            # historical CPU stats
 ```
 
-**Load average** compares to your core count. A load of 4.0 on a 4-core box is full but healthy. When memory runs out, the **OOM killer** terminates a process and logs it to `journalctl -k`. Heavy **swap** use means you need more RAM.
+**Load average** includes runnable tasks and tasks waiting in uninterruptible sleep. A load of 4.0 on a four-core host needs context. Compare CPU use, I/O wait, latency, and baseline before deciding whether the host is healthy. When memory is exhausted, the **OOM killer** might terminate a process and log an event in `journalctl -k`. Heavy swap use calls for memory and workload investigation.
 
 Find and stop a runaway process:
 
@@ -130,7 +130,7 @@ sudo update-initramfs -u            # Debian/Ubuntu
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-A failed mount in **/etc/fstab** drops you to emergency mode, so comment the bad line and reboot.
+A failed `/etc/fstab` mount might delay boot, fail only that mount, or trigger emergency mode. Check the unit, `nofail` and timeout options, and logs. Repair the entry in a recovery session, test with `mount -a`, and reboot only after confirming the intended mount behavior.
 
 ## Service and Package Failures
 

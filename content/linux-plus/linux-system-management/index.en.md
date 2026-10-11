@@ -1,19 +1,19 @@
 ---
-title: "CompTIA Linux+ (XK0-005): Linux System Management"
+title: "Linux+ XK0-006 System Management"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master Linux system management for the CompTIA Linux+ XK0-005 exam. Learn file management, storage and LVM, networking, processes, systemd services, package management, users, cron, and boot loaders with real command examples."
+description: "Master Linux system management for the CompTIA Linux+ XK0-006 exam. Learn file management, storage and LVM, networking, processes, systemd services, package management, users, cron, and boot loaders with real command examples."
 genre: ["CompTIA Linux+ Course", "Linux System Administration", "System Management", "Storage Management", "Linux Networking", "Process Management", "systemd", "Package Management", "Linux Certification", "DevOps"]
-tags: ["CompTIA Linux+", "XK0-005", "system management", "LVM", "systemd", "file management", "storage", "partitions", "networking", "processes", "cron", "package management", "dnf", "apt", "GRUB2", "kernel modules", "user management", "fstab"]
+tags: ["CompTIA Linux+", "XK0-006", "system management", "LVM", "systemd", "file management", "storage", "partitions", "networking", "processes", "cron", "package management", "dnf", "apt", "GRUB2", "kernel modules", "user management", "fstab"]
 cover: "/img/cover/comptia-linux-system-management-illustration.webp"
 coverAlt: "A laptop displaying a Linux terminal interface with various commands and colorful outputs. Surrounding elements include files, storage devices, and network representations, all on a dark background."
-coverCaption: "Master Linux System Management for the XK0-005 Exam"
+coverCaption: "Master Linux System Management for the XK0-006 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
+[Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
 
-**System Management** is the largest domain on the **CompTIA Linux+ (XK0-005)** exam at **32%** of your score. This module teaches you how to manage files, storage, networking, processes, services, software, users, and the boot process on Linux. Every command here is something a working administrator runs weekly. *Master this domain first, because the security, scripting, and troubleshooting domains all build on it.*
+**System Management** is **23%** of the **CompTIA Linux+ XK0-006** exam. This lesson covers files, storage, networking, and boot tasks. Some process, service, software, and user examples also appear here as background. Practice those against the separate [Services and User Management](/linux-plus/services-user-management/) domain before checking them off the exam objectives.
 
 ## File and Directory Management
 
@@ -133,7 +133,7 @@ du -sh /var/log        # total size of a directory
 
 ## Logical Volume Manager (LVM)
 
-**LVM** adds a flexible layer between physical disks and filesystems, so you grow storage without downtime. The stack is **physical volume (PV) → volume group (VG) → logical volume (LV)**.
+**LVM** adds a flexible layer between physical disks and filesystems. It lets you grow a logical volume, while online growth without downtime depends on the storage stack and filesystem. The stack is **physical volume (PV) → volume group (VG) → logical volume (LV)**.
 
 A complete worked example that builds a volume and then grows it:
 
@@ -190,7 +190,7 @@ Get the UUID from **blkid**, then test before rebooting:
 sudo mount -a    # mount everything in fstab; errors show now, not at boot
 ```
 
-*A bad fstab entry stops the system at boot, so always run `mount -a` to test before you reboot.*
+*A bad fstab entry might delay a boot, fail a mount, or drop the host into recovery. The outcome depends on the failure and options such as `nofail` and timeouts. Run `mount -a` and inspect its output before rebooting a lab host.*
 
 **autofs** mounts filesystems on demand and unmounts them after idle time, which suits network shares.
 
@@ -409,6 +409,6 @@ For recovery, you append `systemd.unit=rescue.target` or `single` to the kernel 
 
 ## Next Steps
 
-System management gives you the foundation for the rest of the course. Continue with [Linux Security](/linux-plus/linux-security/) to harden these systems, then move to [Scripting, Containers, and Automation](/linux-plus/scripting-containers-automation/) to automate them. When something breaks, [Linux Troubleshooting](/linux-plus/linux-troubleshooting/) shows you how to diagnose it.
+Continue with [Services and User Management](/linux-plus/services-user-management/), then [Linux Security](/linux-plus/linux-security/), [Automation and Scripting](/linux-plus/scripting-containers-automation/), and [Linux Troubleshooting](/linux-plus/linux-troubleshooting/).
 
 Return to the [CompTIA Linux+ Course](/linux-plus-start/) to track your progress, and measure your readiness with the [CompTIA Linux+ Practice Test](/linux-plus-practice-test/).

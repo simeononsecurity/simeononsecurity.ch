@@ -1,19 +1,19 @@
 ---
-title: "CompTIA Linux+ (XK0-005): Linux Security"
+title: "Linux+ XK0-006 Security"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master Linux security for the CompTIA Linux+ XK0-005 exam. Learn permissions, special bits, ACLs, sudo, PAM, SSH hardening, SELinux, AppArmor, firewalls, auditing, OpenSSL, and gpg with real examples."
+description: "Master Linux security for the CompTIA Linux+ XK0-006 exam. Learn permissions, special bits, ACLs, sudo, PAM, SSH hardening, SELinux, AppArmor, firewalls, auditing, OpenSSL, and gpg with real examples."
 genre: ["CompTIA Linux+ Course", "Linux Security", "System Hardening", "Access Control", "SELinux", "Firewall Configuration", "SSH Hardening", "PKI", "Linux Certification", "Cybersecurity"]
-tags: ["CompTIA Linux+", "XK0-005", "Linux security", "file permissions", "chmod", "ACLs", "sudo", "PAM", "SSH", "SELinux", "AppArmor", "firewalld", "nftables", "iptables", "auditd", "OpenSSL", "gpg", "hardening"]
+tags: ["CompTIA Linux+", "XK0-006", "Linux security", "file permissions", "chmod", "ACLs", "sudo", "PAM", "SSH", "SELinux", "AppArmor", "firewalld", "nftables", "iptables", "auditd", "OpenSSL", "gpg", "hardening"]
 cover: "/img/cover/comptia-linux-security-file-permissions-access-control.webp"
 coverAlt: "A digital illustration of a Linux terminal with colorful command lines showing Linux security commands like chmod, chown, and setfacl, against a dark background."
-coverCaption: "Master Linux Security for the XK0-005 Exam"
+coverCaption: "Master Linux Security for the XK0-006 Exam"
 ---
 
-#### [Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
+[Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
 
-**Security** makes up **21%** of the **CompTIA Linux+ (XK0-005)** exam. This module teaches you how to lock down a Linux system through permissions, access control, authentication, mandatory access controls, firewalls, and auditing. *The system management skills from the previous module make every step here faster.*
+**Security** makes up **18%** of the **CompTIA Linux+ (XK0-006)** exam. This module teaches you how to lock down a Linux system through permissions, access control, authentication, mandatory access controls, firewalls, and auditing. *The system management skills from the previous module make every step here faster.*
 
 ## File Permissions and Ownership
 
@@ -61,7 +61,7 @@ Three special bits change how files and directories behave.
 
 - **SUID** on an executable runs it with the file owner's privileges. The classic example is `/usr/bin/passwd`, which needs root to edit `/etc/shadow`.
 - **SGID** on an executable runs it with the group's privileges. On a directory, it forces new files to inherit the directory's group.
-- The **sticky bit** on a directory lets only a file's owner delete it. `/tmp` uses this so users cannot delete each other's files.
+- The **sticky bit** on a directory limits deletion or renaming to the file owner, directory owner, or root when the directory is writable. `/tmp` uses this to restrict users from deleting each other's files.
 
 ```bash
 ls -l /usr/bin/passwd            # inspect a known SUID example

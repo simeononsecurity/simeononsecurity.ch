@@ -1,19 +1,19 @@
 ---
-title: "CompTIA Linux+ (XK0-005)"
+title: "Linux+ XK0-006 Automation, Orchestration, and Scripting"
 date: 2025-01-01
 toc: true
 draft: false
-description: "Master scripting, containers, and automation for the CompTIA Linux+ XK0-005 exam. Learn Bash scripting, regex with grep, sed, and awk, Git, Docker, Podman, Kubernetes, Ansible, and IaC with real examples."
+description: "Master scripting, containers, and automation for the CompTIA Linux+ XK0-006 exam. Learn Bash scripting, regex with grep, sed, and awk, Git, Docker, Podman, Kubernetes, Ansible, and IaC with real examples."
 genre: ["CompTIA Linux+ Course", "Shell Scripting", "Containers", "Automation", "DevOps", "Docker", "Kubernetes", "Ansible", "Infrastructure as Code", "Linux Certification"]
-tags: ["CompTIA Linux+", "XK0-005", "Bash scripting", "regular expressions", "grep", "sed", "awk", "JSON", "YAML", "Git", "Docker", "Podman", "Kubernetes", "Ansible", "Infrastructure as Code", "automation", "containers"]
+tags: ["CompTIA Linux+", "XK0-006", "Bash scripting", "regular expressions", "grep", "sed", "awk", "JSON", "YAML", "Git", "Docker", "Podman", "Kubernetes", "Ansible", "Infrastructure as Code", "automation", "containers"]
 cover: "/img/cover/comptia-linux-scripting-containers-automation-2.webp"
 coverAlt: "A modern IT workspace featuring a laptop with code snippets in a terminal, surrounded by colorful icons of Docker, Git, and Ansible on a dark background."
-coverCaption: "Master Scripting, Containers, and Automation for the XK0-005 Exam"
+coverCaption: "Practice automation and scripting for Linux+ XK0-006"
 ---
 
-#### [Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
+[Click Here to Return To the CompTIA Linux+ Course Page](/linux-plus-start/)
 
-**Scripting, Containers, and Automation** is **19%** of the **CompTIA Linux+ (XK0-005)** exam. This module teaches you to automate Linux work with Bash, process text with regular expressions, version code with Git, run containers, and configure systems with Ansible. *These skills move you from administrator to automation engineer.*
+**Automation, Orchestration, and Scripting** is **17%** of the **CompTIA Linux+ XK0-006** exam. This lesson covers Bash, text processing, Git, and repeatable configuration. It also introduces containers, which the current exam places in Services and User Management. Use the [services lab](/linux-plus/services-user-management/) for container operations and the official objectives to track each domain separately.
 
 ## Bash Scripting
 
@@ -209,7 +209,7 @@ kubectl logs web-xyz
 
 ## Automation with Ansible
 
-**Ansible** configures systems over SSH with no agent on the target. You describe the desired state in a **playbook**, and Ansible makes only the changes needed, which makes runs **idempotent**.
+**Ansible** often configures systems over SSH without a target agent. A playbook describes tasks and desired state. Suitable modules and careful task design support idempotent runs, but not every module or playbook is idempotent. Run a second check and inspect the change report.
 
 An inventory file:
 
@@ -257,7 +257,7 @@ set -o pipefail          # fail if any piped command fails
 shellcheck script.sh     # static analysis that catches common bugs
 ```
 
-*Add `set -euo pipefail` to the top of production scripts so silent failures do not corrupt data.*
+*These shell options catch many errors, but Bash has `errexit` exceptions and scripts still need explicit checks, tests, and rollback. Test failure paths before using a script against important data.*
 
 ## Next Steps
 
