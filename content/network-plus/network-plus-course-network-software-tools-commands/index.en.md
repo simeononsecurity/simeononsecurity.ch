@@ -160,6 +160,10 @@ Submit **`26-tool-transcript.txt`** with purpose, affected nodes, risk, rollback
 
 [Previous checkpoint](/network-plus/network-plus-course-asset-disposal-sanitization-network-security/) | [Next checkpoint](/network-plus/network-troubleshooting-methodology/)
 
+### Reproducible route and filled sample
+
+Use Packet Tracer PC Command Prompt: `ipconfig /all`, `arp -a`, `ping 10.10.30.10`, `tracert 198.51.100.1`, and `nslookup app.lab.example`. Use router and switch `show` commands from the hub. Packet Tracer provides no Nmap or Wireshark endpoint. Use Simulation Mode for capture evidence and this supplied scan row: `10.10.30.10 tcp/80 open http`. Do not label it vulnerability proof.
+
 ### Primary references
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

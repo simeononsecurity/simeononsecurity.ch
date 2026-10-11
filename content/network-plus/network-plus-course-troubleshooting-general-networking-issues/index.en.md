@@ -254,6 +254,10 @@ Submit **`29-network-plus-course-troubleshooting-general-networking-issues.md`**
 
 [Previous checkpoint](/network-plus/network-plus-course-troubleshooting-cable-connectivity-issues/) | [Practical final](/network-plus-start/#practical-final)
 
+### Reproducible route and filled sample
+
+Use three fixed packages: A removes VLAN 30 from the SW2 trunk, B changes PC-A gateway to `10.10.10.254`, C replaces the R2 return route with a Null0 route. Expected causes are missing VLAN, wrong host gateway, and return-route blackholing. The final on the hub supplies exact commands and repair values. A peer is optional.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

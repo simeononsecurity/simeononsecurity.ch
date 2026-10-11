@@ -123,6 +123,10 @@ Submit **`15-environmental-factors-sensors-network-monitoring.md`** with purpose
 
 [Previous checkpoint](/network-plus/network-availability-resilience-enhancement/) | [Next checkpoint](/network-plus/network-plus-course-documentation-policies-network-management/)
 
+### Reproducible route and filled sample
+
+Use this no-hardware sample: `09:00 22 C 45% RH 2.1 kW dry`, `10:00 24 C 48% RH 2.3 kW dry`, `11:00 29 C 61% RH 2.5 kW water=true`. Set warning at `27 C`, critical at `30 C`, and immediate water escalation. NetFlow sample: `10.10.10.10,10.10.30.10,TCP,51514,443,8400 bytes,12 packets`. Label all rows supplied.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

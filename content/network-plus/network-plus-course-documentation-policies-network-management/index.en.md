@@ -131,6 +131,10 @@ Submit **`16-network-plus-course-documentation-policies-network-management.md`**
 
 [Previous checkpoint](/network-plus/environmental-factors-sensors-network-monitoring/) | [Next checkpoint](/network-plus/network-plus-course-performance-monitoring-management/)
 
+### Reproducible route and filled sample
+
+A filled change row is: `CHG-001 | move PC-B from SW2 F0/2 to SW1 F0/5 | owner NetOps | window 19:00-19:15 | risk wrong VLAN | rollback reconnect F0/2 | verify ping gateway and SRV1 | approved`. Update the logical diagram, physical diagram, cable schedule, IPAM, and baseline. Pass only when all records name the new port and the old port is free.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

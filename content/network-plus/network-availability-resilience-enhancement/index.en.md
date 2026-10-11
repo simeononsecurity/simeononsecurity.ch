@@ -76,6 +76,10 @@ Submit **`14-network-availability-resilience-enhancement.md`** with purpose, aff
 
 [Previous checkpoint](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/) | [Next checkpoint](/network-plus/environmental-factors-sensors-network-monitoring/)
 
+### Reproducible route and filled sample
+
+Add R1 G0/2 to R2 G0/2 with `10.255.0.5/30` and `10.255.0.6/30`. Add a floating default on R1 through `10.255.0.6 200` and a floating return route on R2 through `10.255.0.5 200`. Shut primary G0/0 and record convergence, then restore it. Use the supplied failure-domain worksheet for VRRP, load balancers, clusters, power, providers, and recovery sites. Do not claim those features ran in Packet Tracer.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

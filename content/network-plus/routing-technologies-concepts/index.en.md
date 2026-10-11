@@ -78,17 +78,7 @@ Exterior routing protocols, like BGP, are used to exchange routing information b
 
 Time to Live (TTL) is a field in IP packets that specifies the maximum number of hops a packet can travel before being discarded. It prevents packets from circulating indefinitely in the network if there is a routing loop or other issues. Each router decrements the TTL value as the packet traverses through the network.
 
-## Bandwidth Management
-
-Efficient bandwidth management is crucial for optimizing network performance and ensuring a smooth flow of traffic. Two important aspects of bandwidth management are traffic shaping and quality of service (QoS).
-
-### Traffic Shaping
-
-Traffic shaping is a technique used to control the rate of data transmission on a network. It allows network administrators to shape the traffic flow by defining bandwidth limits and prioritizing certain types of traffic. This helps prevent network congestion and ensures that critical applications receive sufficient bandwidth.
-
-### Quality of Service (QoS)
-
-Quality of Service (QoS) refers to the ability of a network to prioritize and allocate resources to different types of traffic based on their importance and requirements. QoS mechanisms, such as traffic prioritization, bandwidth allocation, and congestion management, help ensure optimal performance for real-time applications like voice and video.
+Routing selects a path. QoS assigns forwarding treatment after path selection. Study shaping, policing, marking, and queues in [QoS and Bandwidth](/network-plus/bandwidth-management-qos-networkplus-certification-exam-guide/).
 
 ## Device Comparison and Placement
 
@@ -134,6 +124,10 @@ Submit **`06-routing-technologies-concepts.md`** with purpose, affected nodes, r
 **Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
 
 [Previous checkpoint](/network-plus/network-services-connectivity-options-architecture/) | [Next checkpoint](/network-plus/ethernet-switching-vlans-port-configurations-security/)
+
+### Reproducible route and filled sample
+
+Use the hub subinterfaces and routes. Add OSPF with `router ospf 1`, `network 10.10.0.0 0.0.255.255 area 0`, and `network 10.255.0.0 0.0.0.3 area 0` on both routers. Verify with `show ip ospf neighbor` and `show ip route ospf`. Expected neighbor state is `FULL`. Use `show ip route <destination>` for longest-prefix tests. Add NAT/PAT only on R2 after defining inside and outside interfaces. Treat FHRP as supplied transcript evidence because the baseline has one campus gateway.
 
 ### Primary reference
 

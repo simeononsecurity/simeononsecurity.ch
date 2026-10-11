@@ -4,7 +4,7 @@ date: 2023-07-10
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Capture ARP and IPv6 Neighbor Discovery for N10-009, inspect cache states, test duplicate detection, and document Layer 2 security limits."
+description: "Capture ARP and IPv6 Neighbor Discovery for N10-009, inspect cache states, test duplicate detection, and document Layer 2 security limits in a lab."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "ARP and NDP", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/A_symbolic_illustration_depicting_the_seamless.webp"
@@ -44,7 +44,7 @@ By redirecting network traffic to their own devices, attackers can eavesdrop on 
 
 To mitigate the risks associated with ARP spoofing, implementing security measures such as **ARP inspection** and **MAC address filtering** is crucial. These measures help detect and prevent unauthorized modifications to ARP tables, ensuring the integrity and security of network communication.
 
-For more detailed information and examples, you can refer to the [Address Resolution Protocol (ARP) documentation](https://tools.ietf.org/html/rfc826) provided by the Internet Engineering Task Force (IETF).
+For more detail, read [RFC 826](https://www.rfc-editor.org/rfc/rfc826).
 
 Understanding how ARP works is essential for network administrators and engineers, enabling them to troubleshoot network connectivity issues and implement appropriate security measures.
 
@@ -52,7 +52,7 @@ Understanding how ARP works is essential for network administrators and engineer
 
 In IPv6 networks, the Neighbor Discovery Protocol (NDP) is used to perform functions similar to ARP in IPv4 networks. NDP provides address resolution, router discovery, neighbor unreachability detection, and duplicate address detection in IPv6 networks.
 
-### How ARP Works: Understanding the Functions of NDP
+### How NDP Works
 
 Neighbor Discovery Protocol (NDP) supports address resolution, router discovery, prefix discovery, and neighbor reachability for IPv6. Its ICMPv6 messages perform several roles beyond IPv4 ARP.
 
@@ -74,9 +74,9 @@ To prevent address conflicts, NDP employs Duplicate Address Detection (DAD). Bef
 
 These functions collectively contribute to the smooth operation of IPv6 networks, ensuring efficient communication and proper routing. Understanding how NDP works and its significance in network protocols is crucial for network administrators and engineers.
 
-For more detailed information and examples, you can refer to the [IPv6 Neighbor Discovery Protocol Specification](https://tools.ietf.org/html/rfc4861) provided by the Internet Engineering Task Force (IETF).
+For more detail, read [RFC 4861](https://www.rfc-editor.org/rfc/rfc4861).
 
-### How ARP Works: Understanding NDP Messages and SLAAC
+### NDP Messages and SLAAC
 
 In order to understand how Address Resolution Protocol (ARP) works in IPv4 networks, it is important to explore the functions of the Neighbor Discovery Protocol (NDP) in IPv6 networks. NDP uses different message types to perform its functions, providing efficient network communication. Let's delve into the details of NDP messages and their significance.
 
@@ -96,7 +96,7 @@ NDP utilizes various message types to accomplish its functions:
 
 NDP plays a vital role in the Stateless Address Autoconfiguration (SLAAC) process in IPv6 networks. SLAAC allows devices to generate their own IPv6 addresses based on network prefix information obtained from Router Advertisement messages. By leveraging NDP's Router Advertisement messages, devices can automatically configure their network interfaces with appropriate IPv6 addresses.
 
-For more in-depth information on the Neighbor Discovery Protocol and its role in IPv6 networks, you can refer to the [IPv6 Neighbor Discovery Protocol Specification](https://tools.ietf.org/html/rfc4861) provided by the Internet Engineering Task Force (IETF).
+For protocol details, read [RFC 4861](https://www.rfc-editor.org/rfc/rfc4861).
 
 Understanding the mechanisms of NDP and its relationship with ARP in IPv4 networks is essential for network administrators and engineers, enabling them to ensure efficient and secure network communication.
 
@@ -162,13 +162,13 @@ By implementing security measures such as ARP inspection and MAC address filteri
 
 Understanding these protocols is essential for network administrators and individuals preparing for network certification exams. By applying the knowledge gained from this article, you can effectively troubleshoot common network issues and ensure optimal performance and security.
 
-For more detailed information and examples, you can refer to the [Address Resolution Protocol (ARP) documentation](https://tools.ietf.org/html/rfc826) provided by the Internet Engineering Task Force (IETF) and [IPv6 Neighbor Discovery Protocol](https://tools.ietf.org/html/rfc4861) specification.
+Use [RFC 826](https://www.rfc-editor.org/rfc/rfc826) for ARP and [RFC 4861](https://www.rfc-editor.org/rfc/rfc4861) for IPv6 Neighbor Discovery.
 
 ## References
 
-- [Address Resolution Protocol (ARP)](https://tools.ietf.org/html/rfc826)
-- [Neighbor Discovery for IP Version 6 (IPv6)](https://tools.ietf.org/html/rfc4861)
-- [IPv6 Stateless Address Autoconfiguration](https://tools.ietf.org/html/rfc4862)
+- [Address Resolution Protocol, RFC 826](https://www.rfc-editor.org/rfc/rfc826)
+- [Neighbor Discovery for IPv6, RFC 4861](https://www.rfc-editor.org/rfc/rfc4861)
+- [IPv6 Stateless Address Autoconfiguration, RFC 4862](https://www.rfc-editor.org/rfc/rfc4862)
 - [Arpwatch](https://github.com/Arpwatch/arpwatch)
 - [Wireshark](https://www.wireshark.org/)
 - [CompTIA Network+ Certification Exam](https://www.comptia.org/certifications/network)
@@ -195,6 +195,10 @@ Submit **`08-arp-ndp-capture.md`** with purpose, affected nodes, risk, rollback,
 **Pass:** The artifact separates address resolution, neighbor reachability, router discovery, and route selection.
 
 [Previous checkpoint](/network-plus/ethernet-switching-vlans-port-configurations-security/) | [Next checkpoint](/network-plus/network-plus-course-wireless-standards-technologies/)
+
+### Reproducible route and filled sample
+
+Capture on the PC-A to SW1 link in **Simulation Mode** with ARP and ICMPv6 filters. On PC-A run `arp -d`, then `ping 10.10.10.1`. Record broadcast ARP request and unicast reply. On R1 run `show ipv6 neighbors`. Use `2001:db8:10::10/64` for PC-A and `2001:db8:10::1/64` for R1. If the installed Packet Tracer release omits a DAD event, use this expected sequence: source `::`, destination solicited-node multicast, ICMPv6 Neighbor Solicitation, no Neighbor Advertisement for an unused address.
 
 ### Primary references
 

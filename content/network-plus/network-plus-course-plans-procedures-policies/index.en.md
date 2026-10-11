@@ -101,6 +101,10 @@ Submit **`21-network-plus-course-plans-procedures-policies.md`** with purpose, a
 
 [Previous checkpoint](/network-plus/network-plus-course-firmware-and-patch-management/) | [Next checkpoint](/network-plus/network-plus-course-importance-of-physical-security/)
 
+### Reproducible route and filled sample
+
+Use one filled core record: `CHG-002 | add VLAN 40 | approver Lab Owner | impact IoT only | start 20:00 | rollback remove VLAN and restore config | success IOT1 reaches DNS only | result pass`. Derive the incident, continuity, recovery, and SOP records from the same change. Each record must name owner, trigger, evidence, and final state.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

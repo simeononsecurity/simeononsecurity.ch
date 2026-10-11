@@ -115,6 +115,10 @@ Submit **`04-mastering-network-ports-protocols-guide-secure-communication-networ
 
 [Previous checkpoint](/network-plus/cables-connectors-ip-addressing-guide/) | [Next checkpoint](/network-plus/network-services-connectivity-options-architecture/)
 
+### Reproducible route and filled sample
+
+Turn on DNS and HTTP under **SRV1 > Services**. Add `app.lab.example -> 10.10.30.10`. From PC-A run `nslookup app.lab.example` and open `http://app.lab.example`. Expected DNS address is `10.10.30.10` and HTTP status is successful. Packet Tracer does not prove TLS, SFTP, FTPS, DoT, DoH, DNSSEC, syslog TLS, or SIP TLS. For those rows, use the RFC-backed service matrix and label the result `design evidence`.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

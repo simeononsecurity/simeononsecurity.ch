@@ -117,6 +117,10 @@ Submit **`25-disposition-record.md`** with purpose, affected nodes, risk, rollba
 
 [Previous checkpoint](/network-plus/network-plus-course-network-hardening-techniques/) | [Next checkpoint](/network-plus/network-plus-course-network-software-tools-commands/)
 
+### Reproducible route and filled sample
+
+Use only fictional asset `LAB-RTR-001`. Filled certificate fields: `media flash, sensitivity internal, disposition reuse, method Purge per device guidance, operator A. Student, verifier B. Reviewer, verification boot and read test failed as expected, validation approved, custody C-001, date 2026-10-10`. Failed-media route: choose Destroy through an approved provider and retain destruction evidence. Deleting a Packet Tracer project does not sanitize physical media.
+
 ### Primary references
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

@@ -50,53 +50,9 @@ QoS techniques also incorporate **congestion avoidance** mechanisms to prevent n
 
 {{< youtube id="uEKDZqI5osA" >}}
 
-Implementing QoS involves configuring various network devices and applying appropriate policies to prioritize critical network traffic. Let's explore some common Ethernet switching features that support QoS implementation.
+Implement QoS at a stated trust boundary. Classify traffic, mark traffic, place traffic in a queue, select scheduling behavior, and verify counters. A voice VLAN does not create priority by itself.
 
-### VLANs and Voice VLANs
-
-**Virtual Local Area Networks (VLANs)** are used to logically separate a physical network into multiple virtual networks. VLANs enable network administrators to group devices based on factors such as department, function, or security requirements. By assigning specific VLANs to different traffic classes, QoS policies can be applied more granularly.
-
-**Voice VLANs** are a specialized type of VLAN designed for carrying voice traffic. They ensure that voice packets are treated with high priority, minimizing latency and ensuring clear and uninterrupted voice communication.
-
-### Port Configurations and Tagging
-
-Ethernet switches offer various port configurations that allow network administrators to define the behavior of individual ports. **Port tagging** or **802.1Q** enables the identification and labeling of VLAN membership for network traffic. It adds a VLAN tag to the Ethernet frame, allowing switches to differentiate and prioritize traffic based on VLAN membership.
-
-### Port Aggregation and Link Aggregation Control Protocol (LACP)
-
-**Port aggregation** or **link aggregation** allows multiple physical ports to be combined into a single logical interface. This technique increases bandwidth and provides redundancy. The **Link Aggregation Control Protocol (LACP)** is commonly used to negotiate and manage link aggregation between switches, enabling efficient utilization of network resources.
-
-### Other Ethernet Switching Features
-
-{{< youtube id="PZgMoYopUVQ" >}}
-
-Ethernet switches offer a range of additional features that contribute to QoS implementation:
-
-- **Duplex** settings determine how data is transmitted and received on a network link. Full-duplex allows simultaneous two-way communication, while half-duplex allows communication in only one direction at a time.
-
-- **Speed** settings define the data transfer rate of a network link, such as 10/100/1000 Mbps.
-
-- **Flow control** mechanisms manage data transmission between devices, preventing congestion and ensuring smooth traffic flow.
-
-- **Port mirroring** enables the monitoring of network traffic by replicating packets from one port to another. This feature is useful for troubleshooting and network analysis.
-
-- **Port security** helps protect against unauthorized access by allowing administrators to restrict the devices that can connect to specific ports.
-
-- **Jumbo frames** are Ethernet frames with larger payload sizes. Enabling jumbo frames can improve network efficiency by reducing overhead.
-
-- **Auto-Medium-Dependent Interface Crossover (MDI-X)** is a feature that automatically detects and configures the appropriate cabling for network connections, eliminating the need for crossover cables.
-
-- **Media Access Control (MAC) address tables** maintain records of MAC addresses associated with specific ports, facilitating efficient packet forwarding within a switch.
-
-- **Power over Ethernet (PoE)** and **Power over Ethernet Plus (PoE+)** enable the delivery of power to network devices over Ethernet cables, eliminating the need for separate power sources.
-
-- **Spanning Tree Protocol** (STP) prevents loops in network topologies by intelligently blocking redundant paths while maintaining network availability.
-
-- **Carrier-Sense Multiple Access with Collision Detection (CSMA/CD)** is an Ethernet access method that detects and resolves collisions when multiple devices attempt to transmit data simultaneously.
-
-### Address Resolution Protocol (ARP) and Neighbor Discovery Protocol
-
-QoS implementation also involves protocols that support address resolution and neighbor discovery. **Address Resolution Protocol (ARP)** resolves IP addresses to MAC addresses, enabling communication between devices within a network. **Neighbor Discovery Protocol** (NDP) is an IPv6 protocol that performs similar functions to ARP.
+Study VLANs, trunks, LACP, STP, and port controls in [Switching and VLANs](/network-plus/ethernet-switching-vlans-port-configurations-security/). Study ARP and NDP in [ARP and NDP](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/).
 
 ______
 
@@ -127,6 +83,10 @@ Submit **`13-bandwidth-management-qos-networkplus-certification-exam-guide.md`**
 **Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
 
 [Previous checkpoint](/network-plus/cloud-computing-infrastructure-concepts/) | [Next checkpoint](/network-plus/network-availability-resilience-enhancement/)
+
+### Reproducible route and filled sample
+
+On R1, use `class-map match-any VOICE`, `match dscp ef`, `policy-map WAN-QOS`, `class VOICE`, `priority percent 20`, then apply `service-policy output WAN-QOS` to G0/0 if the installed Packet Tracer release accepts MQC. Verify with `show policy-map interface g0/0`. Filled sample: `baseline latency 18 ms, congestion latency 96 ms, policy latency 27 ms, EF packets 1200, EF drops 0, default drops 84`. If MQC is rejected, use this supplied transcript and label it expected evidence.
 
 ### Primary reference
 

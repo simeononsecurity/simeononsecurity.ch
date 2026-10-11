@@ -112,6 +112,10 @@ Submit **`18-network-plus-course-understanding-importance-network-logs-logging.m
 
 [Previous checkpoint](/network-plus/network-plus-course-performance-monitoring-management/) | [Next checkpoint](/network-plus/network-plus-course-backup-restore-network-stability-resilience/)
 
+### Reproducible route and filled sample
+
+On SRV1 enable **Syslog**. On R1 and SW1 enter `service timestamps log datetime msec`, `logging host 10.10.30.10`, and `logging trap informational`. Shut and restore a test interface. Expected events contain matching device time, interface name, down event, and up event. Packet Tracer syslog is not TLS. Use the RFC 5425 transcript row for secure-transport analysis and label it supplied.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

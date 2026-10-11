@@ -177,6 +177,10 @@ Submit **`28-network-plus-course-troubleshooting-cable-connectivity-issues.md`**
 
 [Previous checkpoint](/network-plus/network-troubleshooting-methodology/) | [Next checkpoint](/network-plus/network-plus-course-troubleshooting-general-networking-issues/)
 
+### Reproducible route and filled sample
+
+Use the physical samples from checkpoint 3 plus this optical record: `Tx -2 dBm, expected receive above -10 dBm, observed -15 dBm, connector contamination noted`; PoE record: `budget 60 W, used 48 W, request 20 W, denied`; duplex record: `SW1 full, endpoint half, late collisions 0, FCS errors rising`. Choose one fault, state safety limits, repair the record, and verify expected values.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

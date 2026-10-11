@@ -105,6 +105,10 @@ Submit **`27-network-troubleshooting-methodology.md`** with purpose, affected no
 
 [Previous checkpoint](/network-plus/network-plus-course-network-software-tools-commands/) | [Next checkpoint](/network-plus/network-plus-course-troubleshooting-cable-connectivity-issues/)
 
+### Reproducible route and filled sample
+
+Use fixed fault: PC-A gateway `10.10.10.254`. Completed ticket start: `scope PC-A beyond local subnet, safety no production access, baseline gateway 10.10.10.1, theory 1 DNS failure rejected by failed direct-IP ping, theory 2 gateway mismatch supported by ipconfig`. Repair the gateway, verify SRV1 and R2 loopback, record user confirmation, and restore the baseline file.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

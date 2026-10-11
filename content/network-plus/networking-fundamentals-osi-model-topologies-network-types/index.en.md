@@ -213,6 +213,10 @@ Submit **`02-networking-fundamentals-osi-model-topologies-network-types.md`** wi
 
 [Previous checkpoint](/network-plus/introduction-to-networking-devices-roles-features-comparison/) | [Next checkpoint](/network-plus/cables-connectors-ip-addressing-guide/)
 
+### Reproducible route and filled sample
+
+Use **Simulation Mode**. Filter ARP, ICMP, IPv4, TCP, and HTTP. Send a Simple PDU from PC-A to SRV1 and open each event. A correct record shows Ethernet source and destination changing at R1 while `10.10.10.10` and `10.10.30.10` remain the end addresses. Study SD-WAN, VXLAN, zero-touch provisioning, zero trust, SASE, SSE, and NAT64 through the supplied concept record. Packet Tracer does not implement those services in this baseline.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

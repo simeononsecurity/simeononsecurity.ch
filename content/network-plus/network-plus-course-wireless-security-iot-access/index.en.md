@@ -89,6 +89,10 @@ Submit **`10-network-plus-course-wireless-security-iot-access.md`** with purpose
 
 [Previous checkpoint](/network-plus/network-plus-course-wireless-standards-technologies/) | [Next checkpoint](/network-plus/network-plus-course-cellular-technologies-wireless-communication/)
 
+### Reproducible route and filled sample
+
+Use AP1 and AP2 for WPA2-PSK segmentation. Test LAP1 to SRV1 and IOT1 to the required DNS service. Deny other IoT destinations through an R1 ACL and record one allowed and one denied flow. Packet Tracer's built-in AP path does not reproduce a full enterprise EAP certificate chain. Use the supplied expected record: `identity device01, server certificate valid, EAP success, VLAN 10, RADIUS Access-Accept`. Label it transcript evidence.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

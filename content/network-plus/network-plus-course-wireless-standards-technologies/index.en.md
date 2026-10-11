@@ -130,6 +130,10 @@ Submit **`09-wireless-channel-plan.md`** with purpose, affected nodes, risk, rol
 
 [Previous checkpoint](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/) | [Next checkpoint](/network-plus/network-plus-course-wireless-security-iot-access/)
 
+### Reproducible route and filled sample
+
+Packet Tracer supplies association evidence, not a calibrated RF survey. Use this floor-plan sample: `Lobby -55/-92/37 dB, Office -62/-91/29 dB, Conference -67/-90/23 dB, Storage -74/-89/15 dB, Hall -59/-92/33 dB, Exterior -78/-88/10 dB`, formatted as RSSI, noise, and SNR. Choose channels and widths from the record. Mark every value as supplied, not observed.
+
 ### Primary references
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

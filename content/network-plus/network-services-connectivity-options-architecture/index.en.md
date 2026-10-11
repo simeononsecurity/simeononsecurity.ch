@@ -164,7 +164,8 @@ Network services, connectivity options, and architectural frameworks form the fo
 
 - DHCP: [https://www.ietf.org/rfc/rfc2131.txt](https://www.ietf.org/rfc/rfc2131.txt)
 - DNS: [https://www.ietf.org/rfc/rfc1035.txt](https://www.ietf.org/rfc/rfc1035.txt)
-- NTP: [https://www.ietf.org/rfc/rfc958.txt](https://www.ietf.org/rfc/rfc958.txt)
+- NTPv4: [RFC 5905](https://www.rfc-editor.org/rfc/rfc5905)
+- Network Time Security: [RFC 8915](https://www.rfc-editor.org/rfc/rfc8915)
 - Cloud Concepts: [https://aws.amazon.com/what-is-cloud-computing/](https://aws.amazon.com/what-is-cloud-computing/)
 
 
@@ -185,6 +186,10 @@ Submit **`05-network-services-connectivity-options-architecture.md`** with purpo
 **Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
 
 [Previous checkpoint](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/) | [Next checkpoint](/network-plus/routing-technologies-concepts/)
+
+### Reproducible route and filled sample
+
+On SRV1, enable DHCP and create pool `USERS` with gateway `10.10.10.1`, DNS `10.10.30.10`, start `10.10.10.100`, mask `255.255.255.0`. On R1 G0/1.10 add `ip helper-address 10.10.30.10`. Set PC-A to DHCP. Expected address is in `10.10.10.100/24`. Use Simulation Mode to record DORA. Use the supplied design rows for PTP, NTS, DoH, DoT, secured zone transfer, and jump-host work. Packet Tracer does not provide complete implementations.
 
 ### Primary reference
 

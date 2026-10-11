@@ -137,6 +137,10 @@ Submit **`24-network-plus-course-network-hardening-techniques.md`** with purpose
 
 [Previous checkpoint](/network-plus/network-plus-course-detection-prevention-methods/) | [Next checkpoint](/network-plus/network-plus-course-asset-disposal-sanitization-network-security/)
 
+### Reproducible route and filled sample
+
+On SW1 enable DHCP snooping for VLANs 10 and 40, trust only the trunk, enable DAI for those VLANs, and apply sticky port security with maximum 1 on PC-A. Use a standard ACL to permit management from `10.10.99.0/24` and apply it to VTY lines. Verify bindings, inspection, allowed management, and denied management. Packet Tracer support for SNMPv3, RA Guard, private VLANs, and control-plane policing varies. Use supplied transcripts for rejected commands and label them unsupported rather than inventing success.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

@@ -4,7 +4,7 @@ date: 2023-07-02
 lastmod: 2026-10-10
 toc: true
 draft: false
-description: "Learn Network Skills for CompTIA Network+ N10-009 through copper, fiber, DAC, AOC, a controlled fault, saved evidence, and recovery proof."
+description: "Learn cabling and addressing for Network+ N10-009 through copper, fiber, DAC, AOC, a controlled fault, saved evidence, and recovery proof in a lab."
 genre: ["CompTIA Network+", "N10-009", "Networking", "Certification Course"]
 tags: ["CompTIA Network+", "N10-009", "Cabling and Addressing", "network lab", "network troubleshooting", "exam prep"]
 cover: "/img/cover/An_image_depicting_various_cables_and_connectors.webp"
@@ -167,6 +167,10 @@ Submit **`03-cables-connectors-ip-addressing-guide.md`** with purpose, affected 
 **Pass:** The artifact covers each named topic, supports the diagnosis with evidence, restores required service, and proves cleanup.
 
 [Previous checkpoint](/network-plus/networking-fundamentals-osi-model-topologies-network-types/) | [Next checkpoint](/network-plus/mastering-network-ports-protocols-guide-secure-communication-networking/)
+
+### Reproducible route and filled sample
+
+Use Packet Tracer only for link-state and addressing work. Use this hardware-free sample for the physical artifact: `Pair 1-2 PASS, Pair 3-6 OPEN at 18 m, Pair 4-5 PASS, Pair 7-8 PASS`. Diagnose an open conductor. Optical sample: transmit `-3 dBm`, receive `-8 dBm`, measured loss `5 dB`. PoE sample: switch budget `120 W`, existing load `84 W`, new device request `30 W`, remaining headroom after connection `6 W`.
 
 ### Primary reference
 

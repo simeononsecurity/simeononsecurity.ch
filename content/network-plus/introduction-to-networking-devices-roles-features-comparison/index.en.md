@@ -91,6 +91,10 @@ Submit **`01-introduction-to-networking-devices-roles-features-comparison.md`** 
 
 [Course lab setup](/network-plus-start/) | [Next checkpoint](/network-plus/networking-fundamentals-osi-model-topologies-network-types/)
 
+### Reproducible route and filled sample
+
+Use the exact 2911, 2960, Server-PT, PC-PT, Laptop-PT, and AccessPoint-PT inventory from the hub. A completed selection row looks like: `SW1 | 2960 | Layer 2 access | 24 FastEthernet plus 2 Gigabit uplinks | no lab PoE need | single-device failure domain | selected for VLAN, trunk, STP, and port-security practice`.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

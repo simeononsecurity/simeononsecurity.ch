@@ -92,6 +92,10 @@ Submit **`11-network-plus-course-cellular-technologies-wireless-communication.md
 
 [Previous checkpoint](/network-plus/network-plus-course-wireless-security-iot-access/) | [Next checkpoint](/network-plus/cloud-computing-infrastructure-concepts/)
 
+### Reproducible route and filled sample
+
+Use this supplied provider sample instead of simulated radio data: `LTE: -96 dBm, 42 ms, 1.2% loss, 38/9 Mbps`; `5G NSA: -88 dBm, 29 ms, 0.8% loss, 112/18 Mbps`; `5G SA: no service at site`. Select from measured site needs. Packet Tracer does not turn the WAN link into a standards-accurate LTE or 5G radio.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

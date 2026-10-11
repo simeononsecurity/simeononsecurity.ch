@@ -98,6 +98,10 @@ Submit **`23-network-plus-course-detection-prevention-methods.md`** with purpose
 
 [Previous checkpoint](/network-plus/network-plus-course-importance-of-physical-security/) | [Next checkpoint](/network-plus/network-plus-course-network-hardening-techniques/)
 
+### Reproducible route and filled sample
+
+Use supplied records: badge `B-104 active owner departed`, camera `CAM-2 retention 30 days blind spot rack rear`, tamper seal `TS-09 broken`, training `tailgating drill 7 of 10 challenged`. A passing artifact disables B-104, assigns the camera correction, preserves the seal event, and records a training owner. No physical surveillance system is accessed.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

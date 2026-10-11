@@ -116,6 +116,10 @@ Submit **`07-ethernet-switching-vlans-port-configurations-security.md`** with pu
 
 [Previous checkpoint](/network-plus/routing-technologies-concepts/) | [Next checkpoint](/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/)
 
+### Reproducible route and filled sample
+
+Add SW1 F0/23 and F0/24 to SW2 F0/23 and F0/24. On all four ports use `channel-group 1 mode active`. Configure `interface port-channel 1`, trunk mode, native VLAN 99, and allowed VLANs `10,20,30,40,99`. Remove the original SW1 G0/2 to SW2 G0/1 link before enabling the bundle. On SW1 use `spanning-tree vlan 10,20,30,40,99 root primary`. On F0/2 use access VLAN 10 and `switchport voice vlan 20`. Verify with `show etherchannel summary`, `show interfaces trunk`, and `show spanning-tree`. Expected Port-channel1 state is bundled and forwarding.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

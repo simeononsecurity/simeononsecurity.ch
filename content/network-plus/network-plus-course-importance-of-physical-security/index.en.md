@@ -124,6 +124,10 @@ Submit **`22-network-plus-course-importance-of-physical-security.md`** with purp
 
 [Previous checkpoint](/network-plus/network-plus-course-plans-procedures-policies/) | [Next checkpoint](/network-plus/network-plus-course-detection-prevention-methods/)
 
+### Reproducible route and filled sample
+
+Use a fictional site-survey packet. Filled finding: `PS-01 | SW2 F0/10 active in public room | evidence link light and show interface | risk unauthorized access | owner NetOps | fix shutdown plus quarantine VLAN | retest link down | pass`. Packet Tracer supports the switch-port repair. Door, rack, visitor, and camera checks remain fictional records.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)

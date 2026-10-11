@@ -571,9 +571,9 @@ A checkpoint passes when the expected evidence matches, the fault is diagnosed f
 
 Start from a copy of `network-plus-n10-009-baseline.pkt`. Use these three fixed faults so a learner needs no partner:
 
-1. On SW2, remove VLAN 30 from the G0/1 trunk allowed list.
-2. On PC-A, replace the default gateway with `10.10.10.254`.
-3. On R2, replace the return route next hop with `10.255.0.3`.
+1. On SW2 enter `interface g0/1` and `switchport trunk allowed vlan 10,20,40,99`.
+2. On PC-A open **Desktop > IP Configuration** and replace the default gateway with `10.10.10.254`.
+3. On R2 remove `ip route 10.10.0.0 255.255.0.0 10.255.0.1` and add `ip route 10.10.0.0 255.255.0.0 Null0`.
 
 Apply one fault at a time without reading the repair steps below. Save each faulty copy. Diagnose and repair it through the course method.
 
@@ -589,7 +589,7 @@ Apply one fault at a time without reading the repair steps below. Save each faul
 
 **Expected diagnoses:** Fault 1 isolates SRV1 while VLAN 10 traffic still crosses the trunk. Fault 2 stops PC-A beyond its local subnet. Fault 3 permits traffic to leave R1 but breaks the return path from R2.
 
-**Repair check:** Restore the VLAN 30 allowed list, PC-A gateway `10.10.10.1`, and R2 route next hop `10.255.0.1`. Repeat the baseline commands and compare the output with `00-connectivity.txt`.
+**Repair check:** Restore the SW2 allowed list to `10,20,30,40,99`, PC-A gateway to `10.10.10.1`, remove the R2 Null0 route, and restore `ip route 10.10.0.0 255.255.0.0 10.255.0.1`. Repeat the baseline commands and compare the output with `00-connectivity.txt`.
 
 **Pass gate:** Identify all three faults, avoid unrelated changes, preserve before and after evidence, restore every required service, explain each packet path, and return to the exact baseline state.
 

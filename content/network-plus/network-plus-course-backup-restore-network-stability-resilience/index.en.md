@@ -162,6 +162,10 @@ Submit **`19-network-plus-course-backup-restore-network-stability-resilience.md`
 
 [Previous checkpoint](/network-plus/network-plus-course-understanding-importance-network-logs-logging/) | [Next checkpoint](/network-plus/network-plus-course-firmware-and-patch-management/)
 
+### Reproducible route and filled sample
+
+In the isolated lab, enable TFTP on SRV1 and run `copy running-config tftp:` from R1. Save as `R1-20261010.cfg`. Record start and finish time, export the current configuration, corrupt a copied file by removing the VLAN 30 subinterface, restore the intact file, and compare `show running-config`. TFTP is accepted only inside this isolated fixture. Production backup needs authenticated encrypted transfer.
+
 ### Primary reference
 
 - [CompTIA Network+ N10-009 exam objectives](https://comptiacdn.azureedge.net/webcontent/docs/default-source/exam-objectives/comptia-network-n10-009-exam-objectives-%284-0%29-%281%29.pdf?sfvrsn=f31cc6c4_4)
