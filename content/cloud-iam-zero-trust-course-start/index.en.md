@@ -96,12 +96,20 @@ NIST SP 800-207 removes implicit trust based on network location or asset owners
 
 ## Verify Readiness
 
+For the offline simulator:
+
+- [ ] Python 3.9 or newer is available
+- [ ] A clean local folder is ready for the fixture and evidence file
+- [ ] You understand the simulator changes no cloud account or tenant
+
+For the optional live provider lab:
+
 - [ ] The active provider context is recorded
 - [ ] The environment holds no production resources
 - [ ] Create and delete permissions are approved
 - [ ] A recovery administrator exists outside the lab identity
 
-> **Expected Result:** the selected lab environment has a known owner, bounded scope, and verified teardown route.
+> **Expected Result:** the offline route has a writable local evidence folder and no live cloud dependency. The optional live route has a known owner, bounded scope, and verified teardown route.
 
 ## Start Here
 
