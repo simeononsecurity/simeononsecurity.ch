@@ -1,9 +1,10 @@
 ---
-title: "Cisco CCNA Course: Complete Study Guide for the 200-301 Exam"
+title: "Cisco CCNA 200-301 v1.1 Course and Lab Guide"
 date: 2025-01-01
 toc: true
 draft: false
-description: "A comprehensive Cisco CCNA (200-301) study course covering network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability."
+description: "Study the current CCNA 200-301 v1.1 domains, practice configurations, and check your work against Cisco's exam topics."
+lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking Certification", "Network Fundamentals", "Routing and Switching", "Network Security", "Cisco Certification", "IP Connectivity", "Network Automation", "Wireless Networking", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "networking", "routing", "switching", "OSPF", "VLANs", "spanning tree", "subnetting", "IPv4", "IPv6", "NAT", "DHCP", "DNS", "ACLs", "network security", "wireless", "automation", "Ansible", "SDN", "Cisco certification"]
 cover: "/img/cover/cisco-ccna-200-301-exam-preparation-illustration.webp"
@@ -11,7 +12,7 @@ coverAlt: "An illustration of a modern training environment for Cisco CCNA exam 
 coverCaption: "Master the Cisco CCNA and Build Your Networking Career"
 ---
 
-The **Cisco CCNA (200-301)** is the industry-standard associate-level networking certification. It validates your ability to install, configure, and troubleshoot networks across routing, switching, IP services, security, and automation. This course covers every exam domain so you build hands-on skills and pass the exam with confidence. *The CCNA exam runs 120 minutes and uses performance-based, multiple choice, and drag-and-drop questions.*
+The current **Cisco CCNA 200-301 v1.1** exam runs through **February 2, 2027**. Cisco starts v2.0 testing on February 3, 2027. This course follows the six v1.1 domains. Read the [official v1.1 exam topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf) before you book an exam. Cisco lists the exam duration as 120 minutes. Use the modules to learn each topic, then verify configuration tasks in a lab.
 
 | Domain | Title | Exam Weight |
 |--------|-------|-------------|
@@ -26,7 +27,8 @@ The **Cisco CCNA (200-301)** is the industry-standard associate-level networking
 
 - [Tips for Passing IT Certification Exams](/articles/tips-and-tricks-for-passing-comptia-exams/)
 - [Cisco CCNA Practice Test](/ccna-practice-test/)
-- [Official Cisco 200-301 Exam Topics](https://learningnetwork.cisco.com/s/ccna-exam-topics)
+- [Official Cisco 200-301 v1.1 Exam Topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301-CCNA-v1.1.pdf)
+- [Cisco v1.1 Release Notes](https://learningcontent.cisco.com/documents/marketing/exam-topics/CCNA_1_1_release_notes.pdf)
 - [Jeremy's IT Lab Free CCNA Course](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 - [Additional Learning Resources](/recommendations/learning_resources/)
 - [Courses and Playbooks](/courses-and-playbooks/)
@@ -58,10 +60,10 @@ The **Cisco CCNA (200-301)** is the industry-standard associate-level networking
 - Configure and verify **interswitch connectivity**, including trunk ports, 802.1Q tagging, and the native VLAN
 - Configure and verify **Layer 2 discovery protocols**, including Cisco Discovery Protocol (CDP) and LLDP
 - Configure and verify **EtherChannel** using LACP at Layer 2 and Layer 3
-- Interpret basic operations of **Rapid PVST+ Spanning Tree Protocol**, including root port, root bridge selection, port states, and PortFast
+- Interpret basic operations of **Rapid PVST+ Spanning Tree Protocol**, including root port, root bridge selection, port states, PortFast, root guard, loop guard, BPDU filter, and BPDU guard
 - Describe **Cisco wireless architectures** and AP modes
 - Describe **physical infrastructure connections** of WLAN components, including AP, WLC, access/trunk ports, and LAG
-- Describe **AP and WLC management access connections**, including Telnet, SSH, HTTP, HTTPS, console, and TACACS+/RADIUS
+- Describe **network device management access**, including Telnet, SSH, HTTP, HTTPS, console, TACACS+/RADIUS, and cloud-managed access
 - Interpret the **wireless LAN GUI configuration** for client connectivity, including WLAN creation, security settings, and QoS profiles
 
 *Strong VLAN and trunking skills set the foundation for [IP connectivity](/ccna/ip-connectivity-routing-ospf-static-routes/) later in the course.*
@@ -122,9 +124,9 @@ The **Cisco CCNA (200-301)** is the industry-standard associate-level networking
 - Explain how **automation** impacts network management
 - Compare **traditional networks** with controller-based networking
 - Describe **controller-based, software-defined architecture**, including overlay, underlay, and fabric, plus separation of the control plane and data plane and northbound and southbound APIs
-- Compare traditional campus device management with **Cisco DNA Center** enabled device management
-- Describe characteristics of **REST-based APIs**, including CRUD, HTTP verbs, and data encoding
-- Recognize the capabilities of **configuration management tools**, including Puppet, Chef, and Ansible
+- Explain **generative and predictive AI** and **machine learning** in network operations
+- Describe characteristics of **REST-based APIs**, including authentication types, CRUD, HTTP verbs, and data encoding
+- Recognize the capabilities of **Ansible and Terraform** for configuration management
 - Recognize components of **JSON-encoded data**
 
 -----
@@ -141,7 +143,7 @@ Cisco refreshed the 200-301 blueprint. The **CCNA v2.0** exam topics take effect
 | 4.0 | Network Services and Security | 20% |
 | 5.0 | AI, and Network Operations and Management | 10% |
 
-*Key changes in v2.0:* added coverage of **agentic AI** in network operations, **generative AI prompts** for network tasks, OSPFv3 for IPv6, SFTP/SCP secure file transfers, and expanded Layer 2 security with storm control and RA guard. *If your exam date is before February 3, 2027, study the v1.0 topics above.*
+*Key changes in v2.0:* added coverage of **agentic AI** in network operations, **generative AI prompts** for network tasks, OSPFv3 for IPv6, SFTP/SCP secure file transfers, and expanded Layer 2 security with storm control and RA guard. If your exam date is before February 3, 2027, use the **v1.1** topics above. For a later exam, use Cisco's [v2.0 exam topics](https://learningcontent.cisco.com/documents/marketing/exam-topics/200-301_CCNA_v2.0_Exam_Topics_PDF.pdf).
 
 -----
 

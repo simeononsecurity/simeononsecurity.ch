@@ -4,6 +4,7 @@ date: 2025-01-01
 toc: true
 draft: false
 description: "Master security fundamentals for the Cisco CCNA 200-301 exam. Learn security concepts, device access control, VPNs, access control lists, Layer 2 security, AAA, and wireless security."
+lastmod: 2026-10-10
 genre: ["Cisco CCNA Course", "Networking", "Network Security", "Access Control Lists", "VPN", "Layer 2 Security", "Cisco Certification", "Wireless Security", "AAA", "IT Networking"]
 tags: ["Cisco CCNA", "200-301", "security fundamentals", "ACLs", "VPN", "IPsec", "DHCP snooping", "dynamic ARP inspection", "port security", "AAA", "WPA2", "WPA3", "device access control", "MFA"]
 cover: "/img/cover/cisco-ccna-security-fundamentals-network-illustration.webp"
@@ -35,13 +36,13 @@ You separate four related terms.
 You protect device access with strong local credentials and a clear **password policy**. Cover management, complexity, and alternatives such as **MFA**, certificates, and biometrics.
 
 ```text
-! Secure privileged access and console
-Router(config)# enable secret StrongSecret123
-Router(config)# username admin secret AdminPass456
+! In a disposable lab, replace each bracketed placeholder with a unique secret
+Router(config)# enable secret <unique-secret>
+Router(config)# username labadmin secret <different-unique-secret>
 Router(config)# service password-encryption
 ```
 
-To build credentials that resist cracking, read [how to create strong passwords](/articles/how-to-create-strong-passwords/).
+Do not enter the angle brackets or copy a published example password onto a device. `service password-encryption` only obscures certain stored passwords and does not replace strong secrets or secure management access. For password guidance, read [how to create strong passwords](/articles/how-to-create-strong-passwords/).
 
 ## AAA and VPNs
 
