@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ on simeononsecurity</title><image><url>https://pa.simeononsecurity.com/img/banner.webp</url><title>ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ on simeononsecurity</title><link>https://pa.simeononsecurity.com/tags/%E0%A8%AB%E0%A8%B0%E0%A8%AE%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%85%E0%A9%B1%E0%A8%AA%E0%A8%A1%E0%A9%87%E0%A8%9F/</link></image><link>https://pa.simeononsecurity.com/tags/%E0%A8%AB%E0%A8%B0%E0%A8%AE%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%85%E0%A9%B1%E0%A8%AA%E0%A8%A1%E0%A9%87%E0%A8%9F/</link><description>Recent content in ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ on simeononsecurity</description><generator>1337 H4X0R RSS GENERATOR</generator><language>pa</language><lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pa.simeononsecurity.com/tags/%E0%A8%AB%E0%A8%B0%E0%A8%AE%E0%A8%B5%E0%A9%87%E0%A8%85%E0%A8%B0-%E0%A8%85%E0%A9%B1%E0%A8%AA%E0%A8%A1%E0%A9%87%E0%A8%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>ਨੈੱਟਵਰਕ+ ਕੋਰਸ: ARP ਅਤੇ ਨੇਬਰ ਡਿਸਕਵਰੀ ਪ੍ਰੋਟੋਕੋਲ</title><link>https://pa.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><category>
+"ਟੈਕਨੋਲੋਜੀ"
+, "ਨੈੱਟਵਰਕਿੰਗ"
+, "ਪ੍ਰੋਟੋਕੋਲ"
+, "ਨੈੱਟਵਰਕ+ ਸਰਟੀਫਿਕੇਸ਼ਨ"
+, "ਟ੍ਰਬਲਸ਼ੂਟਿੰਗ"
+, "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"
+, "IPv4"
+, "IPv6"
+, "ਨੈੱਟਵਰਕ ਸੰਚਾਰ"
+, "ਐਡਰੈੱਸ ਰਿਜ਼ੋਲੂਸ਼ਨ"</category><guid>https://pa.simeononsecurity.com/network-plus/address-resolution-protocol-arp-neighbor-discovery-protocol-ndp/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਐਡਰੈੱਸ ਰਿਜ਼ੋਲੂਸ਼ਨ ਪ੍ਰੋਟੋਕੋਲ (ARP) ਅਤੇ ਨੇਬਰ ਡਿਸਕਵਰੀ ਪ੍ਰੋਟੋਕੋਲ (NDP) ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਤਰੀਕੇ ਨਾਲ ਵਰਤਣ ਬਾਰੇ ਸਿੱਖੋ ਤਾਂ ਜੋ IP ਐਡਰੈੱਸ ਨੂੰ MAC ਐਡਰੈੱਸ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਸਕੇ, IPv6 ਨੈੱਟਵਰਕਾਂ ਵਿੱਚ ਨੈਵੀਗੇਟ ਕੀਤਾ ਜਾ ਸਕੇ, ਅਤੇ ਆਮ ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੱਲ ਕਰਕੇ ਨੈੱਟਵਰਕ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਸੁਰੱਖਿਆ ਨੂੰ ਬਿਹਤਰ ਬਣਾਇਆ ਜਾ ਸਕੇ।</description><enclosure url="https://pa.simeononsecurity.com/img/cover/A_symbolic_illustration_depicting_the_seamless.webp" length="89092" type="image/webp"/></item><item><title>ਵਿੰਡੋਜ਼ ਨੂੰ ਸੱਟੇਬਾਜ਼ੀ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲਿਆਂ ਤੋਂ ਬਚਾਓ</title><link>https://pa.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</link><pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate><category>
+"ਵਿੰਡੋਜ਼ ਸਪੈਕਟਰ ਮੈਲਡਾਊਨ ਮਿਟੀਗੇਸ਼ਨ ਸਕ੍ਰਿਪਟ"
+, "ਸੱਟੇਬਾਜ਼ੀ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲੇ"
+, "ਮਾਈਕ੍ਰੋਸਾਫਟ"
+, "Intel"
+, "AMD"
+, "VIA"
+, "ARM"
+, "ਐਂਡਰਾਇਡ"
+, "ਕਰੋਮ"
+, "iOS"
+, "macOS"
+, "ਬ੍ਰਾਂਚ ਟਾਰਗੇਟ ਇੰਜੈਕਸ਼ਨ"
+, "ਸੀਮਾ ਚੈੱਕ ਬਾਈਪਾਸ"
+, "ਠੱਗ ਡਾਟਾ ਕੈਸ਼ ਲੋਡ"
+, "ਸੱਟੇਬਾਜ਼ੀ ਸਟੋਰ ਬਾਈਪਾਸ"
+, "ਮਾਈਕ੍ਰੋਆਰਕੀਟੈਕਚਰਲ ਡੇਟਾ ਸੈਂਪਲਿੰਗ"
+, "ਸੀ.ਵੀ.ਈ"
+, "ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ"
+, "GitHub ਰਿਪੋਜ਼ਟਰੀ"
+, "ਪਾਵਰਸ਼ੇਲ"</category><guid>https://pa.simeononsecurity.com/github/windows-spectre-meltdown-mitigation-script/</guid><comments>https://github.com/simeononsecurity/simeononsecurity.com-comments/issues</comments><description>
+ਮਾਈਕਰੋਸਾਫਟ ਦੀ ਮਿਟੀਗੇਸ਼ਨ ਸਕ੍ਰਿਪਟ ਅਤੇ ਫਰਮਵੇਅਰ ਅੱਪਡੇਟ ਨਾਲ ਆਪਣੇ ਵਿੰਡੋਜ਼ ਸਿਸਟਮ ਨੂੰ ਸੱਟੇਬਾਜ਼ੀ ਦੇ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਸਾਈਡ-ਚੈਨਲ ਹਮਲਿਆਂ ਤੋਂ ਕਿਵੇਂ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਹੈ ਸਿੱਖੋ</description></item></channel></rss>
