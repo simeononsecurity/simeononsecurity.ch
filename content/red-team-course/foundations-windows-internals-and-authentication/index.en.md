@@ -12,7 +12,7 @@ coverAlt: "An illustration of the Windows Registry, showing a tree structure wit
 coverCaption: "Module 4: where Windows stores configuration and credentials."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Windows security context** determines which account a process represents, which objects it is permitted to access, and which user profile it reads. This module connects registry paths, security identifiers, access tokens, and authentication. You will inspect a disposable Windows VM and produce an identity record before changing anything.
 

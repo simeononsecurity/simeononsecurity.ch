@@ -12,7 +12,7 @@ coverAlt: "An illustration showing three components of command and control opera
 coverCaption: "Module 5: trace a task from request to supported outcome."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Command and control (C2)** connects an operator's decisions to an agent running in a test environment. A useful operator distinguishes a submitted task from a delivered task, a completed action, and a returned result. Those states explain delays, prevent duplicate changes, and support an accurate activity record.
 

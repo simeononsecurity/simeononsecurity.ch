@@ -12,7 +12,7 @@ coverAlt: "A modern workspace with multiple screens showing open-source intellig
 coverCaption: "Module 8: turn public observations into supported decisions."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Open-source intelligence (OSINT)** turns publicly available information into an answer to a defined question. Collection alone produces observations. Useful intelligence adds provenance, context, corroboration, uncertainty, and a decision the assessment team is authorized to make.
 

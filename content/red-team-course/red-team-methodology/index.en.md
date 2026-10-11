@@ -12,7 +12,7 @@ coverAlt: "An illustration of a circular flowchart representing the six phases o
 coverCaption: "Module 1: the seven phases every technique slots into."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Red team methodology** connects an agreed business question to a controlled test and evidence the customer is able to use. This course uses six phases to organize the work, with feedback between phases as observations change the plan. Your outcome is an evidence-backed conclusion, an explained limit, and a verified restoration record.
 

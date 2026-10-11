@@ -12,7 +12,7 @@ coverAlt: "An abstract digital network scene showing data packets flowing in vib
 coverCaption: "Module 7: measure communication behavior and support detection claims."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 A **Malleable C2 profile** describes configurable aspects of Cobalt Strike communication and related behavior. It changes indicators, but a changed indicator is insufficient evidence of a bypass. This module teaches you to separate configuration validity, successful communication, collected telemetry, and detection outcomes.
 

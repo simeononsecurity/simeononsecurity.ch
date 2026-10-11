@@ -12,7 +12,7 @@ coverAlt: "A cybersecurity expert interacts with a holographic interface display
 coverCaption: "Module 19: make access bounded, owned, and recoverable"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Fortifying access** means making the assessment reliable without expanding privilege or hiding uncontrolled dependencies. Longer polling intervals, multiple channels, or a trusted account do not automatically make operations safe or invisible.
 

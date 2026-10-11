@@ -12,7 +12,7 @@ coverAlt: "An illustration of a computer screen showing a Windows registry edito
 coverCaption: "Module 12: verify the trigger, execution, and complete restoration."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **User persistence** arranges for an action to recur in a user's context after a defined trigger. A configuration entry, a successful launch, and a verified removal are three separate outcomes. This module uses a visible Notepad startup entry in a disposable Windows VM to examine the complete lifecycle.
 

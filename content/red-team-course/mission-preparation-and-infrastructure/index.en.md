@@ -12,7 +12,7 @@ coverAlt: "An illustration of a high-tech workstation with multiple screens show
 coverCaption: "Module 2: ready the paperwork and the platform before the first packet."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Mission preparation** makes an assessment reproducible and controllable before the first test action. Scope, contacts, infrastructure ownership, evidence storage, and teardown belong in the same plan. This module turns the methodology test card into an operational readiness record.
 

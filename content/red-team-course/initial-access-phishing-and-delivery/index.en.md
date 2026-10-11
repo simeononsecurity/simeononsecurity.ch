@@ -12,7 +12,7 @@ coverAlt: "An illustration showing a digital scene with abstract representations
 coverCaption: "Module 10: measure the boundary each initial-access test exercises."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Initial access** is the establishment of a usable starting context for an assessment. A delivered message, a clicked link, and code execution represent different outcomes. Your test should identify which boundary it examines and collect evidence appropriate to the tested boundary.
 

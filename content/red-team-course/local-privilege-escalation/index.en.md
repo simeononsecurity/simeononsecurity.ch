@@ -12,7 +12,7 @@ coverAlt: "A digital illustration of a Windows command window with code executio
 coverCaption: "Module 13: establish the permission boundary before claiming escalation"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Local privilege escalation** crosses a permission boundary on a host. A writable directory, unusual service, or scanner finding starts an investigation. Establish which identity controls which operation, which privileged process consumes the result, and what evidence supports the claimed impact.
 

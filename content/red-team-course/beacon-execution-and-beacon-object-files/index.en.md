@@ -12,7 +12,7 @@ coverAlt: "An abstract digital representation of a Beacon Object File execution,
 coverCaption: "Module 6: understand the execution boundary and its consequences."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 A **Beacon Object File (BOF)** extends an agent with compiled code executed inside its process. Understanding the file format is only the starting point. You also need to reason about compatibility, dependencies, input handling, runtime behavior, and the consequences of a failure.
 

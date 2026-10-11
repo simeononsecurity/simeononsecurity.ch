@@ -12,7 +12,7 @@ coverAlt: "An illustration of a dark server room with a glowing network diagram.
 coverCaption: "Module 16: separate ticket exposure from account authority"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Domain privilege escalation** combines identity, ticket, directory, and authorization evidence. Kerberoasting is one possible path. A service principal name (SPN) identifies a service account for Kerberos, but it does not grant administrative authority to the account.
 

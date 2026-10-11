@@ -12,7 +12,7 @@ coverAlt: "A cybersecurity professional in a dark workspace is analyzing multipl
 coverCaption: "Module 11: identify the host context and know when observations become stale."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Situational awareness** is a current, evidence-backed picture of the host and security context where an assessment action would run. It starts with identity and scope, then adds the process, network, and service facts needed for the next decision. Collecting every available field is less useful than answering the right questions accurately.
 

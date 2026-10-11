@@ -12,7 +12,7 @@ coverAlt: "An illustration showing a central Domain Controller connected to vari
 coverCaption: "Module 3: the ground every later technique stands on."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Network reachability, authentication, and authorization** answer different questions. A reachable server does not prove an account is valid, and a successful login does not grant every permission. This module connects web transports, directory services, DNS, and group membership so you diagnose the right layer before choosing a tool.
 

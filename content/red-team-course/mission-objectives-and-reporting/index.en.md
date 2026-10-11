@@ -12,7 +12,7 @@ coverAlt: "A cyber security professional analyzing data on a laptop with graphs 
 coverCaption: "Module 20: make the final report useful to the next decision maker"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **A red-team report is a decision record.** It links an approved objective to observed evidence, impact, limits, remediation ownership, and a retest condition. A dramatic technique name without those links does not help the customer choose a fix.
 

@@ -12,7 +12,7 @@ coverAlt: "A digital illustration showing a Windows service architecture with vi
 coverCaption: "Module 14: distinguish service configuration from process execution and durability"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Privileged persistence** preserves an approved execution opportunity across a defined interruption. A Windows service is one possible mechanism. Its configured account, startup behavior, running process, and recovery dependencies need separate verification.
 

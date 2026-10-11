@@ -12,7 +12,7 @@ coverAlt: "A digital illustration of a computer interface showing registry hives
 coverCaption: "Module 15: restore owned changes and preserve evidence for review"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Cleanup restores agreed system state** after an exercise. It removes or reverses the team's changes while preserving the evidence needed to explain them. Deleting a visible file is only one possible step, and a failed query does not prove an artifact is absent.
 

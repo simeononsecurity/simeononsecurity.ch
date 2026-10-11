@@ -12,7 +12,7 @@ coverAlt: "An abstract illustration showing two server towers connected by arrow
 coverCaption: "Module 18: treat a trust as a relationship to test, not a shortcut"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Cross-domain pivoting** depends on trust direction, name resolution, authentication, authorization, and directory visibility. A trust does not make every object readable or every credential valid in both domains.
 

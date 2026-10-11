@@ -12,7 +12,7 @@ coverAlt: "An abstract network diagram showing interconnected nodes representing
 coverCaption: "Module 17: prove each movement prerequisite before crossing a host boundary"
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Lateral movement** is a sequence of host-to-host decisions. A credential, route, protocol, service, and authorization rule each influence the result. One successful login does not prove access to every server or every administrative function.
 

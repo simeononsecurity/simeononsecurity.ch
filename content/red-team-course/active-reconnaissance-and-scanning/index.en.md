@@ -12,7 +12,7 @@ coverAlt: "An illustration of a shadowy figure at a computer, scanning a digital
 coverCaption: "Module 9: connect scan observations to supported conclusions."
 ---
 
-#### [← Return to the Red Team Course](/red-team-course-start/)
+[← Return to the Red Team Course](/red-team-course-start/)
 
 **Active reconnaissance** sends requests to a system to answer a defined question about its current behavior. A scan result describes what the scanner observed from a particular location at a particular time. It becomes useful when you preserve the method, interpret the limits, and connect the result to an approved next action.
 
