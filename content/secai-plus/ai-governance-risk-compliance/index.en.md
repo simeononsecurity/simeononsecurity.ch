@@ -60,7 +60,7 @@ You hold AI to ethical standards. These principles appear throughout the objecti
 
 Two supporting practices reinforce these principles:
 
-- **Differential privacy** adds mathematical noise to data so individuals cannot be identified while group statistics stay useful.
+- **Differential privacy** limits how much one person's data affects an output under a defined privacy budget. Implementation choices, repeated queries, and other released data still need review. It does not guarantee that no person can be identified.
 - **Awareness training** educates staff on the safe, ethical, and approved use of AI.
 
 *Transparency and explainability sound alike but differ. Transparency is being open about how the overall system works, while explainability is justifying one specific output.*

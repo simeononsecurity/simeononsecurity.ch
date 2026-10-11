@@ -42,7 +42,7 @@ You harden the model itself, then put a gateway in front of it that inspects and
 
 - **Model evaluation** tests the model against benchmarks and adversarial inputs to confirm it behaves safely before and after deployment.
 - **Model guardrails** keep inputs and outputs within safe boundaries by blocking disallowed topics, formats, or actions.
-- **Prompt templates** wrap user input in a fixed, parameterized structure so raw user text cannot redefine the model's instructions.
+- **Prompt templates** separate instructions and user data for clarity. They do not prevent untrusted text from influencing a model. Enforce sensitive actions with external authorization checks.
 
 **Gateway controls** sit in front of the model and police traffic:
 
@@ -82,7 +82,7 @@ You protect data in all three states and reduce how much sensitive data the mode
 
 You also de-risk the data itself before it ever reaches the model:
 
-- **Data anonymization** strips identifiers so records cannot be linked back to a person.
+- **Data anonymization** seeks to reduce links to a person. Removing direct identifiers alone does not eliminate re-identification risk. Assess indirect identifiers and the intended release context. See [NIST IR 8053](https://csrc.nist.gov/Pubs/ir/8053/Final).
 - **Data classification labels** tag data by sensitivity so controls apply automatically.
 - **Data redaction** permanently removes sensitive content from a record.
 - **Data masking** hides sensitive values with substitute characters while preserving format.
@@ -131,7 +131,7 @@ This is the heart of the domain. You must recognize each attack and the layer it
 | **Model poisoning** | Tampers with model parameters or the training process to corrupt behavior |
 | **Backdoor attack** | Hides a trigger that makes the model produce attacker-chosen behavior |
 | **Trojan attack** | Embeds malicious behavior inside an otherwise normal-looking model |
-| **Transfer learning attack** | Poisons a pretrained base model so the flaw carries into every model fine-tuned from it |
+| **Transfer learning attack** | Alters or exploits a pretrained model so downstream fine-tuning might inherit harmful behavior. Test each derived model. |
 | **Model skewing** | Slowly shifts a model's behavior over time by feeding it biased feedback data |
 | **AI supply chain attack** | Compromises third-party models, datasets, or libraries before you ever use them |
 
@@ -157,7 +157,7 @@ This is the heart of the domain. You must recognize each attack and the layer it
 | **Model denial of service (DoS)** | Floods the model with costly requests to exhaust compute and budget |
 | **Sensitive information disclosure** | Coaxes the model into revealing secrets, PII, or system prompts |
 
-*Model inversion and membership inference both leak training data, but they differ. Inversion rebuilds the data, while membership inference only confirms whether one record was used. Encryption and differential privacy defend both.*
+Model inversion seeks information about training examples or their features. Membership inference tests whether a record was in the training set. Encryption protects data in transit and at rest, but it does not stop inferences from authorized model outputs. Limit queries, measure leakage, and consider privacy-preserving training methods such as differential privacy.
 
 ## Application-Layer Risks
 
@@ -178,11 +178,11 @@ When you analyze the evidence of an attack, you choose compensating controls tha
 |---------|---------------------|
 | **Prompt firewall** | Prompt injection, jailbreaking, circumventing guardrails |
 | **Model guardrails** | Jailbreaking, sensitive information disclosure, biased outputs |
-| **Prompt templates** | Prompt injection and instruction override |
+| **Prompt templates** | Improve input structure, but do not enforce protection against prompt injection |
 | **Access controls** | Model theft, unauthorized data access, agent abuse |
 | **Least privilege** | Excessive agency, manipulating application integrations |
 | **Data integrity controls** | Data poisoning, model skewing, supply chain tampering |
-| **Encryption** | Model inversion, membership inference, output integrity attacks |
+| **Encryption** | Eavesdropping or tampering in transit and exposure of stored data. It does not prevent inference from authorized outputs. |
 | **Rate limiting** | Model denial of service, model theft, membership inference |
 
 *Exam scenarios give you symptoms and ask for the fix. Read the evidence, name the attack, then pick the control from this table that stops it. The single best answer is the one aimed at the specific technique described.*

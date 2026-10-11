@@ -52,9 +52,9 @@ How a model learns determines what data it needs and where it can go wrong.
 | **Supervised learning** | Learns from labeled input and output pairs |
 | **Unsupervised learning** | Finds structure and clusters in unlabeled data |
 | **Reinforcement learning** | Learns from rewards and penalties as it interacts with an environment |
-| **Federated learning** | Trains across many devices without centralizing the raw data |
+| **Federated learning** | Trains locally and shares model updates for aggregation instead of routinely pooling raw training records |
 
-*Federated learning is a privacy feature. The raw data never leaves the device, so it is a strong answer when a question pairs model training with data confidentiality.*
+Federated learning reduces routine raw-data transfers, but it does not guarantee privacy. Model updates and the trained model might reveal information about participants. Assess the data flow, apply suitable protections such as secure aggregation where needed, and test privacy risk. See [NIST's analysis of federated-learning privacy attacks](https://www.nist.gov/blogs/cybersecurity-insights/privacy-attacks-federated-learning).
 
 After the base training run, you adapt and shrink the model for production:
 
@@ -71,7 +71,7 @@ You steer a model's behavior through the prompts and roles you give it, without 
 - A **system prompt** sets the model's role, rules, and constraints before any user input arrives.
 - A **user prompt** is the input a person supplies during the conversation.
 - A **system role** assigns the persona or function the model should adopt, such as a strict security reviewer or a helpful tutor.
-- A **prompt template** is a reusable, parameterized structure you fill in to keep prompts consistent, safe, and repeatable.
+- A **prompt template** is a reusable, parameterized structure for consistent inputs and outputs. It is not an authorization boundary.
 
 The number of examples you include in the prompt also shapes the answer:
 
@@ -81,7 +81,7 @@ The number of examples you include in the prompt also shapes the answer:
 | **One-shot prompting** | A single example to follow |
 | **Multi-shot prompting** | Several examples to establish the pattern |
 
-*Prompt templates and system prompts are also security controls. They reappear in Domain 2 as guardrails that constrain what a model will do.*
+Prompt templates and system prompts guide behavior. Enforce access and tool permissions outside the model. Test untrusted inputs for instruction override.
 
 ## Data Processing for AI
 
